@@ -134,12 +134,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -183,6 +177,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -322,6 +343,26 @@
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1101871",
+          "author": "walterdarrell063",
+          "description": "walterdarrell063: \n在下是医學相關的.\n有個病叫 moebius syndrome.\n是第 7 面神經有問題, 但他又不是平常的形式(上神經元/下神經元).\n直接問的話 chatgpt4, claude 3.5 sonnet, deepseek v3 都不知道.\n可是我把 一份論文上傳后.\ngpt4, deepseek v3 依然自己說自己的,\n只有 claude 3.5 sonnet 有反省:\n其他兩個在我把 c3.5 的回答則上后,\n他們才知道自己錯了.\n可是 c3.5 一般 reply 都很短. 唯有 gpt4 配 c3.5 用.\n图... google 一下 title 吧. thx",
+          "link": "https://www.v2ex.com/t/1101871",
+          "publishedOn": "2025-01-01T19:55:43.000Z",
+          "wordCount": 406,
+          "title": "claude 3.5 sonnet (cursor 白嫖版) 依然是我用过最智能的 LLM",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1101870",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia:",
+          "link": "https://www.v2ex.com/t/1101870",
+          "publishedOn": "2025-01-01T18:34:49.000Z",
+          "wordCount": 451,
+          "title": "Flash 被放弃真的是因为安全问题吗？为什么 Adobe 不选择重写更安全的 Flash，而是直接放弃这么大的市场，很多老动画、游戏的官网都是 Flash 写的，十几年没人维...",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1101869",
           "author": "zhouhuab",
@@ -690,26 +731,6 @@
           "publishedOn": "2025-01-01T10:50:54.000Z",
           "wordCount": 447,
           "title": "请问 windsurf 可以回滚到前面的代码吗？它有自动保存每一个修改的版本吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1101821",
-          "author": "Donahue",
-          "description": "Donahue: 我先来，我大三的时候炒虚拟币亏了 3000.当时是用生活费炒的，自己没有多少钱。想明白了一件事，就是像我这样没钱的人不要想靠投资致富(个人想法)，3000 块翻 10 倍也才 3 万，富不了。但是亏了就会很难受。我更需要提升的是赚钱能力。投资只能用闲钱投，或者有稳定现金流之后再考虑投资(感觉这个想法有点落后)。\n今年的理财主要是余额宝、微信零钱通，剩余的买债券基金，例如招商产业债券之类的比较稳定的基金。理财非常保守，因为觉得如果亏了会很难受。\n今年理财收益约 2%多一点， 估计有 2w+",
-          "link": "https://www.v2ex.com/t/1101821",
-          "publishedOn": "2025-01-01T10:39:55.000Z",
-          "wordCount": 700,
-          "title": "看三年炒股赚存下 200 万有感，大家来分享一下理财观念和理财收益吧",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1101820",
-          "author": "qazwsxkevin",
-          "description": "qazwsxkevin: \n上周在版内有问过打洞的事情，也看了 NAT 穿透原理，大概看了一下各家的原理，发现似乎难以恢复以前有公网 IP 时的的状态了，现在国内低延时的 VPS 还未买，简单点儿说说情况，想听听各位有什么办法了\n\n\n\n先前\n因为 A 点的宽带有公网 IP ，在 A 点放了一台 OpenVPN Server ，而在家里，市区租房的宽带等几个地方，放置了 OpenWRT 设备，配合上 iptables 和静态路由+OpenVPN Client ，全部都在同一个可信的LAN 下\n\n\n\n现在\n全部都连不过来了\n\n\n\n想说、想问的事情\n\n\n\n下面是理解穿透方式不深入的认识，\n使用别人家的 VPS 继续跑 OpenVPN ，也担心流量内容涉及到 LAN 内女老师，自己的帐号密码明文的事（证书密钥，都存放在 VPS 上，中继流量都经过 VPS ，各处也暴露内网)\n我打算\n1 、就地加钱升电信套餐，要公网 IP ，这个有些不划算，没找到更好办法，到最后也许会这样\n年成本要便宜一些，此等线路没用过，有赌的感觉\n\n\n\n请各位有啥就说啥吧，都是在帮我，谢谢各位了~",
-          "link": "https://www.v2ex.com/t/1101820",
-          "publishedOn": "2025-01-01T10:17:49.000Z",
-          "wordCount": 607,
-          "title": "(0757)电信宽带突然被回收了公网 IP，现在各处都处在 NAT4 了，原来的 hub 型组网方式，请教如何同等实现?",
           "imageUrl": null
         }
       ]
