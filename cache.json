@@ -134,12 +134,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -183,33 +177,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -355,7 +322,7 @@
           "description": "walterdarrell063: \n在下是医學相關的.\n有個病叫 moebius syndrome.\n是第 7 面神經有問題, 但他又不是平常的形式(上神經元/下神經元).\n直接問的話 chatgpt4, claude 3.5 sonnet, deepseek v3 都不知道.\n可是我把 一份論文上傳后.\ngpt4, deepseek v3 依然自己說自己的,\n只有 claude 3.5 sonnet 有反省:\n其他兩個在我把 c3.5 的回答則上后,\n他們才知道自己錯了.\n可是 c3.5 一般 reply 都很短. 唯有 gpt4 配 c3.5 用.\n图... google 一下 title 吧. thx",
           "link": "https://www.v2ex.com/t/1101871",
           "publishedOn": "2025-01-01T19:55:43.000Z",
-          "wordCount": 406,
+          "wordCount": 408,
           "title": "claude 3.5 sonnet (cursor 白嫖版) 依然是我用过最智能的 LLM",
           "imageUrl": null
         },
@@ -395,7 +362,7 @@
           "description": "atshow: \n个人博客，未发布任何不合规内容，不谈时政，均为技术文章。\n忽然收到注册商停止解析、禁止转移的邮件，联系后，未告知具体原因，问就是“违反相关法律法规”。\n致电通信管理局，依旧未告知具体原因，就是被拉入黑名单，取消备案、封锁了域名。\n此种情况下，申请强制转移，有没有成功的案例可以参考下。",
           "link": "https://www.v2ex.com/t/1101867",
           "publishedOn": "2025-01-01T17:13:08.000Z",
-          "wordCount": 410,
+          "wordCount": 420,
           "title": "域名被通信管理局要求注册商（易名）停止解析、禁止转移，强制转移有成功过的吗？",
           "imageUrl": null
         },
@@ -535,7 +502,7 @@
           "description": "movq: \n小学的时候家长不让玩电脑，就喜欢看读者文摘这样的杂志。杂志的内容很丰富，既有新闻，又有一些笑话、艺术插图、摄影作品。\n长大后发现很多人认为读者文摘这样的杂志只是鸡汤，不建议阅读\n随着互联网的无孔不入，现在网络上的内容已经变得很无聊，比如刷抖音刷成了只会上下滑动的大猩猩\n互联网只是技术在不断变更，内容却越来越傻。小时候抱着读者文摘读，反而很充实\n像这种周刊杂志，在目前这个快节奏的社会，应该很难生存吧。也算是劣币驱逐良币了。\n不知道现在有什么类似这种书的读物、网络上的网站\n如果只是刷 v2 这种技术论坛，也很是无聊，得不到心灵上的放松和舒适，毕竟人不想下班后继续讨论技术，也不想同质化的内容刷个不停。",
           "link": "https://www.v2ex.com/t/1101848",
           "publishedOn": "2025-01-01T14:34:19.000Z",
-          "wordCount": 480,
+          "wordCount": 482,
           "title": "你小时候读过读者文摘吗",
           "imageUrl": null
         },
