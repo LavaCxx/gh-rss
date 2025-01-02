@@ -181,6 +181,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -322,7 +349,7 @@
           "description": "chunkingName: \n阳历新年已经过去，阴历新年即将到来。\n新年了，大家有送给自己新年礼物吗？\n想知道大家都是怎么讨好自己的。",
           "link": "https://www.v2ex.com/t/1101987",
           "publishedOn": "2025-01-02T05:33:10.000Z",
-          "wordCount": 428,
+          "wordCount": 486,
           "title": "大家新年有送给自己新年礼物吗？",
           "imageUrl": null
         },
@@ -342,7 +369,7 @@
           "description": "AionHaiJun: \nhttps://mp.weixin.qq.com/s/RYZXWNuNBDJewI6uxe9OTg\n我的 2024 年终总结，欢迎一起交流\n注册时间不够，发布了长内容",
           "link": "https://www.v2ex.com/t/1101983",
           "publishedOn": "2025-01-02T05:11:35.000Z",
-          "wordCount": 343,
+          "wordCount": 355,
           "title": "海军的 2024 年终总结｜ 意难平",
           "imageUrl": null
         },
@@ -352,7 +379,7 @@
           "description": "catfly: \n有点选择困难症，但是都没重度使用过，平时也不重度写码。只想业余研究。",
           "link": "https://www.v2ex.com/t/1101982",
           "publishedOn": "2025-01-02T05:09:25.000Z",
-          "wordCount": 560,
+          "wordCount": 643,
           "title": "Windsurf vs Cursor 二选一，你会选哪个？",
           "imageUrl": null
         },
@@ -362,7 +389,7 @@
           "description": "importmeta: \n夏天结束的时候跳绳跳了 3 个月, 期间穿插着休息一个月, 总共跳了 60 天, 每天跳 60-90 分钟, 跳了 30 万个, 掉了 20 斤.\n然后噩梦开始, 吃了芒果和紫皮腰果, 脸上, 嘴唇破溃流组织液, 每个手指都长满了汗疱疹, 身上无比瘙痒, 不忍直视, 到了无法说话的地步, 再具体就不形容了.\n这种症状出现了两次, 每次持续半个多月.\n为什么发现是芒果和紫皮腰果还出现了两次过敏? \n我之前吃从来不过敏, 拼多多看三只松鼠和老街口搞活动就买了, 一共买了老街口豌豆, 三只松鼠切糕, 三只松鼠紫皮腰果.\n第一次的时候, 这三个全都吃了, 然后我妈送了我一盒不知名电商买的青芒果, 也吃了, 上面的症状全出现了, 手足无措, 煎熬了半个多月好了.\n过了一段时间, 我决定找出到底什么过敏, 然后按顺序再次吃这三样东西, 又煎熬了半个多月, 结果发现是紫皮腰果.\n我看商品评论区都挺正常的, 结果发现我是真过敏.\n然后查资料发现, 青芒果和腰果里面都有漆酚, 油漆里面也有这成分, 这东西会让人过敏, 我之前吃不过敏, 结论就是我抵抗力低了.\n我用哈西奈德溶液混合红霉素软膏治好的.",
           "link": "https://www.v2ex.com/t/1101981",
           "publishedOn": "2025-01-02T04:58:27.000Z",
-          "wordCount": 446,
+          "wordCount": 457,
           "title": "有氧减了 20 斤, 减到抵抗力低下过敏",
           "imageUrl": null
         },
@@ -372,7 +399,7 @@
           "description": "BeijingBaby: 起因：\n某个业务 api 域名（有备案），跳转到了 m.jd.com 。\n被阿里云告知：\n24 小时候会下线账号下所有域名，需要对违规域名进行整改和申诉。\n联系阿里云工程师反馈：\n [域名这个跳转是只能自己站内，或者有跳转别的网站的授权] \n否则被判定违规。\n不知道阿里是不是区别对待，因为跳转到 m.jd.com （竞品）就判定违规。\n解封过程：\n需要写一封《承诺书》签字盖章给阿里云，然后申请解封，并承诺以后都不跳转到其他未授权站外。\n不知道这个规定从哪里来？ 问工程师要关于  [工程师反馈域名这个跳转是只能跳转自己，或者有跳转别的网站的授权] ，这个的规定条文，目前还没有给到，工程师说也在反馈要这个依据。",
           "link": "https://www.v2ex.com/t/1101979",
           "publishedOn": "2025-01-02T04:55:29.000Z",
-          "wordCount": 577,
+          "wordCount": 634,
           "title": "今天才知道：阿里云域名是不能 [随意跳转到第 3 方网站] 的",
           "imageUrl": null
         },
@@ -382,7 +409,7 @@
           "description": "stark123: \n1 、每周跟读≥10h ，年度跟读≥500h 。完成跟读《绝望主妇》第一季、NCE3 、英语中级口语。\n2 、词汇量超过 1.5 万。\n3 、每天玩手机≤2h 。50%\n4 、9-11 点睡。50%\n5 、找到 10km 以内的工作。\n6 、减肥到 70kg 以下。\n7 、陪娃学完洪恩拼音\n8 、陪娃学完洪恩识字，1300 个汉字。",
           "link": "https://www.v2ex.com/t/1101978",
           "publishedOn": "2025-01-02T04:51:10.000Z",
-          "wordCount": 389,
+          "wordCount": 397,
           "title": "2025 年目标",
           "imageUrl": null
         },
@@ -392,7 +419,7 @@
           "description": "bigshawn: \n这次高德地图更新了英文模式，清爽舒适。\n系统语言英语的情况下名字总算变 Amap 了，图标也适配了黑暗模式，就是看着别扭。",
           "link": "https://www.v2ex.com/t/1101977",
           "publishedOn": "2025-01-02T04:44:34.000Z",
-          "wordCount": 397,
+          "wordCount": 417,
           "title": "高德地图更新了英文模式，清爽舒适。",
           "imageUrl": null
         },
@@ -402,7 +429,7 @@
           "description": "Jafee: \n有几个问题想请教使用过的大佬：\nB2 桶 一般会设置为 public 还是 private ？\n可以限制 B2 的流量全部是通过 cloudflare 访问吗？\n理想情况下，B2 是不是只用到存储的费用即可，不会再因为流量而付费，因为 cf CDN partner 。如果不可以的话，怎么可以有效的防止被刷的情况？先感谢回复啦",
           "link": "https://www.v2ex.com/t/1101976",
           "publishedOn": "2025-01-02T04:43:06.000Z",
-          "wordCount": 548,
+          "wordCount": 594,
           "title": "关于 Cloudflare + Backblaze 最佳实践",
           "imageUrl": null
         },
@@ -412,7 +439,7 @@
           "description": "Leeero: \n最近 cursor 的热度越来越高，闲着没事也下载试用了一波，确实牛叉。于是闲着没事，用 cursor 撸了一个谷歌浏览器 tab 页插件，支持新 tab 页背景自定义，分类保存常用链接等功能，主题风格参考 mac 。大家感兴趣的可以安装试用试用，如果有更多功能需求的也可以提出来，我抽空继续用 cursor 完善完善。也欢迎大家提 mr 或者 star 。下载地址： https://github.com/Leeero/C_TAB/releases\n源码全部开源： https://github.com/Leeero/C_TAB\n已有功能清单：\n1. 分类管理\n支持创建多个分类并自定义图标和颜色\n首页分类默认固定\n支持分类重命名和删除\n左侧 Dock 栏分类导航\n2. 链接管理\n网格布局展示链接卡片\n自动获取网站图标\n支持固定到底部快速访问栏\n支持编辑和删除链接\n可选择在新标签页或当前页面打开链接\n3. 搜索功能\n支持 Google 、百度、Bing 搜索引擎\n可设置默认搜索引擎\n搜索框自动聚焦\n4. 个性化设置\n支持纯色背景\n支持必应每日壁纸\n深色模式自适应\n响应式布局设计\n5. 数据管理\n支持数据导入导出\n本地数据自动同步",
           "link": "https://www.v2ex.com/t/1101975",
           "publishedOn": "2025-01-02T04:42:38.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "用 cursor 写了一个谷歌浏览器 tab 页插件，欢迎大家安装试用。",
           "imageUrl": null
         },
@@ -422,7 +449,7 @@
           "description": "ldlywt: \n有个亲戚的小孩，专科学的计算机，gap 快一年，在深圳找了半年前端工作，想转测试都没人要。\n外卖好像都饱和了，估计只有进厂一条路了。",
           "link": "https://www.v2ex.com/t/1101974",
           "publishedOn": "2025-01-02T04:35:12.000Z",
-          "wordCount": 1018,
+          "wordCount": 1055,
           "title": "这几年毕业的专科感觉完全没出路了。",
           "imageUrl": null
         },
@@ -432,7 +459,7 @@
           "description": "akriafly01: \n想找几个合作伙伴一起在 web3 里搞点产品\n我有几个方向，2 ，4 我都有现成的代码正在跑，正在研究 3\n刷空投预期，重点是项目筛选和流程自动化\n刷 hyperliquidity 和 bluefin 的积分，追求降低成本，之前用保守的 taker 策略，但是成交金额太小了，换成 maker 手续费又太高了，这里有啥好的策略不\n做 AI agent ，基于 Elisa ，说白了就是蹭 AI16z 的流量\n继续 pumpfun, moonshoot 上 pvp ，现在的策略是抢首单，抢毕业，复制大佬交易\n希望有朋友能一起研究，web3 还是验证想法最佳场所。\n这是我的背景\n区块链开发工程师 | 专注于智能合约与后端开发\n熟悉 Golang 、Python 、TypeScript 等主流开发语言，精通 Solidity 和 Solana 智能合约开发，具备从底层合约设计到后端系统实现的完整技术能力。\n技术经验\nSolidity 智能合约开发：\nUniswap V3 自动调整 LP 仓位合约：设计并实现动态仓位调整逻辑，在提高手续费收益的同时优化资本利用率，后端采用 Golang 。\n基于 Uniswap V2/V3 和 Pancake 的套利合约：实现高效套利策略，配套 Golang 后端支持实时监控和策略执行。\nSynthenix 清算合约与闪电贷开发：基于 Aave 和 Compound 的闪电贷功能，用 Python 构建后端支持清算逻辑。\nNFT 智能合约：围绕白名单分发机制开发，支持热门图币的智能合约生成和转换。\n2. Solana 智能合约与系统开发：\nPump.fun 自动化交易 Bot：包括限价单买卖、新币发行跟踪、首笔交易抢占功能，后端采用 Golang ，集成 Helius Yellowstone 节点与 SQLite 数据库。\n基于糖果机的 NFT 发行合约：实现高效、低成本的 NFT 发行方案。\n3. SUI 和 Move 合约：\n编写多个 Move 合约，目前正在测试环境运行，积累了面向 SUI 的开发经验。\n参与 Bluefin 刷单程序的开发，辅助交易策略优化。\n4. 研究与优化方向：\n深入分析 Hyperliquidity 和 LP 收益模型，探索高收益做市机会。\n技术特点\n熟悉区块链前沿技术，具备从零构建复杂系统的能力。\n对 Rust 有实践经验，能胜任 Solana 合约开发需求。\n强调系统稳定性与性能优化，能够根据市场需求快速迭代解决方案\n联系方式\nTG +888 0724 9136",
           "link": "https://www.v2ex.com/t/1101973",
           "publishedOn": "2025-01-02T04:33:26.000Z",
-          "wordCount": 505,
+          "wordCount": 507,
           "title": "web3 一起搞",
           "imageUrl": null
         },
@@ -442,7 +469,7 @@
           "description": "iintothewind: \n最近因为偶然的原因, 不得不用了一段时间的 go.\n经过这一段时间的使用, 发现这门语言实在是有太多不爽的地方, 所以就在这里吐槽一下, 看看是不是因为我理解不对, 还是这就是 go 语言以及生态的缺陷.\n语法表达力非常差\ngo 的控制流非常简单: for, if, else, switch and defer 就是全部了\n当然, 你如果之前对计算机语言所有的认知都来自于命令范式的语言(比如 C), 这并没有什么, 甚至觉得够用了.\n但是对于偏函数式风格的语言, 这简直太简陋了, 函数式的控制流不仅有 for, if-else, 对于 switch 来说有更加强大的 pattern-match, 对于 defer 这种玩意, 有更好 try-catch-finally 替代, 而且你想怎么写就怎么写.\n而且支持 unit, filter, map, flatMap 等等统一的操作.\ngolang 控制流的简陋直接造成了 golang 的语法表达能力差.\n解决同样的问题, 需要更多更长的代码, 就像当年不支持 Lambda 特性的 Java 一样.\n我就奇怪了: Java 没有支持 Lambda 以前, 人人骂 Java 代码啰嗦, 写起来累人, 到了 golang 了这么差的语法表达力, 怎么就成了简单清爽?\n简陋敷衍的容错处理(Error Handling)\n我接触到其它语言在写后端业务逻辑是, 对于 public 方法的入参是采取完全不信任的态度的.\n原因很简单, 传进来的值在运行时存在非常多的可能, 最典型的就是 null 值一定要处理.\n如果存在 a.b.c.d 等这样取值方式, 恐怕要不得不采用 Option 一层层去拿.\n我可以理解有人说 Option 麻烦, 不管你用什么方式, 至少判空的逻辑是少不了的.\n但是, Golang 是…",
           "link": "https://www.v2ex.com/t/1101972",
           "publishedOn": "2025-01-02T04:32:18.000Z",
-          "wordCount": 1497,
+          "wordCount": 1668,
           "title": "golang, 开发效率低执行效率高的语言?",
           "imageUrl": null
         },
@@ -452,7 +479,7 @@
           "description": "ihhhkz: 已知情况：\n已购：\n1. infuse   99tr / 年\n2. onedrive   15.99tr / 月    没开家庭（ 23.99 tr / 月）\n3. iCloud  200G   79.99 tr / 月\n准备：\n1. Surge iOS 续费   399 tr / 年  续费\n2. 1Password 7 家庭（ 269tr / 年）或者个人（ 219tr / 年）续费   \nv 友推荐一下在用的性价比高的",
           "link": "https://www.v2ex.com/t/1101971",
           "publishedOn": "2025-01-02T04:29:20.000Z",
-          "wordCount": 422,
+          "wordCount": 444,
           "title": "App Store 土区还有什么值得购买的吗？",
           "imageUrl": null
         },
@@ -462,7 +489,7 @@
           "description": "Fooooo0: \n玩了半年 sol 土狗，赚了比一年的税前工资还多的收益。\n2025 目标赚个 2000SOL 。\n另外问一下，有比 OKX 简单赚币或者 Kraken 活期更高收益的低风险理财吗？（二级没找到策略，亏的多）\n风险提示：sol 土狗是零和游戏，入场请谨慎。",
           "link": "https://www.v2ex.com/t/1101970",
           "publishedOn": "2025-01-02T04:27:00.000Z",
-          "wordCount": 369,
+          "wordCount": 372,
           "title": "2025 目标赚 2000SOL",
           "imageUrl": null
         },
@@ -472,7 +499,7 @@
           "description": "codepark: \n如题:\n1. nifi 太臃肿了，学习成本太高\n2. 有输入源列表，数据转换，数据清理，数据输出就行",
           "link": "https://www.v2ex.com/t/1101969",
           "publishedOn": "2025-01-02T03:59:52.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "求推荐开源轻量级的类似 nifi 的数据集成可视化工具",
           "imageUrl": null
         },
@@ -482,7 +509,7 @@
           "description": "JacksonC: \n如题，没有很好的学历，也没有靓丽的大厂履历，还是非科班跨行的 Java 程序员，但是也是多年的行业老人，算得上是资深开发了，技术能力，沟通合作，甚至带领小队工作上基本没问题。\n怎样能继续在软件行业站稳脚跟？或者长远发展？\n我能想到的：\n1 、卷技术：卷源码，底层原理之类的，卷方案，面试时碾压面试官\n2 、卷开源项目：多看开源项目代码，参与修复问题或者提交新功能\n3 、卷比赛：leetcode 之类的比赛\n4 、卷管理：横向学习产品经理，前端，项目管理的技能，提升全局（了解）掌控能力，学习项目管理相关知识，或者考 PMP 之类的证书\n5 、卷论坛：多发文章，或者回答别人的问题\n请问，哪个方向最有容易被认可？或者还有哪些方向可以努力？\n还是没救了，转行吧？（自嘲，提前抢部分人的台词，手动狗头）",
           "link": "https://www.v2ex.com/t/1101968",
           "publishedOn": "2025-01-02T03:56:42.000Z",
-          "wordCount": 528,
+          "wordCount": 549,
           "title": "双非普本非科班 Java 开发在越来越卷的职场如何破局？",
           "imageUrl": null
         },
@@ -492,7 +519,7 @@
           "description": "kylebing: \n抖音 > iMessage > 钉钉 > 微信 > QQ\n微信\n抖音、iMessage\n最喜欢的就是用 抖音 和 iMessage 聊天。\n抖音有已读，还能分享视频，抖音聊天移动端和电脑端都可以用，上班聊天也方便。\niMessage 能发照片原图，但表情不够用。",
           "link": "https://www.v2ex.com/t/1101967",
           "publishedOn": "2025-01-02T03:52:14.000Z",
-          "wordCount": 498,
+          "wordCount": 560,
           "title": "最喜欢的聊天软件是哪个，最烦的又是哪个，为什么？",
           "imageUrl": null
         },
@@ -502,7 +529,7 @@
           "description": "powersee: \n为什么要做这个？\n目前市面上大多数客户端都是基于 Electron 或 HTML 开发，我个人不太喜欢这种“塑料的感觉”（并不是贬义，缺乏真实触感的体验）。因此，我选择使用 Java Swing 开发一个桌面端客户端。\n核心部分采用 Kotlin 开发，最终目标是通过 Kotlin Multiplatform 打造一款全平台的 SSH/终端 工具。\n功能特色\n支持多标签页\n数据加密存储\n通过 Gist 同步配置\n宏功能\n密钥管理\nFind Everywhere\n...\n目前尚不支持 SFTP/FTP 等\nXTerm 协议部分\n使用 Kotlin 实现了 XTerm 协议（尚未完全实现）。桌面端的渲染层基于 Java Swing ，未来计划将这一部分迁移到 KMP ，从而实现真正的跨平台支持（包括移动端）。\n在实现协议的过程中，参考了许多经典的客户端，例如：\nxtermjs\njediterm\n预览\n后续发展\n命令提示（这部分我还在构思，如何准确获取用户输入的命令？）\nAI 功能\n增加团队协同功能\n支持 Telnet\n支持 X-Server\n支持 VNC Viewer\nSFTP/FTP\n串口\n...\n这是一个长期发展的项目。\n希望大家给点建议 🙏\n项目地址：https://github.com/TermoraDev/termora",
           "link": "https://www.v2ex.com/t/1101966",
           "publishedOn": "2025-01-02T03:50:13.000Z",
-          "wordCount": 684,
+          "wordCount": 748,
           "title": "采用 Java 开发的 SSH/终端工具，希望大家给点建议",
           "imageUrl": null
         },
@@ -512,7 +539,7 @@
           "description": "liang361762021: 团队简介\n小米集团华东研发中心是小米集团重要的研发、运营能力中心和人才基地，位于南京核心经济圈建邺区新城科技园。其中互联网业务南京业务由应用商店、游戏业务、小米移动、多看阅读、浏览器等多个业务部门组成。有多元、丰富的职业发展通道，欢迎更多的小伙伴加入我们并肩作战，永远相信美好的事情即将发生！\n你的职责\n1 ，根据业务需求，制定 OS 特色能力开放的技术规划和路线图；\n2 ，深入研究 OS 操作系统，分析市场需求和用户痛点，挖掘具有竞争力的特色功能；\n3 ，参与 OS 特色能力开放的技术推广，向开发者和合作伙伴介绍 OS 特色能力的优势和价值；\n4 ，分析行业动态，为公司的产品和技术决策提供参考，推动 OS 特色能力开放的持续优化和创新。\n需要你是\n1 ，本科及以上学历，计算机相关专业，5 年以上 Android 开发经验；\n2 ，深入了解 Android 操作系统的架构、原理和功能，熟悉 Android 系统的开发流程和应用生态，熟悉 Android 系统的定制和开发流程；\n3 ，具备扎实的技术分析能力，能够对复杂的技术信息进行整理、分析和归纳，提炼出有价值的观点和结论；\n4 ，具有良好的团队协作精神和沟通能力，能够与跨部门团队进行有效的沟通和协作，共同推进项目进展；\n5 ，具备较强的学习能力和自我驱动力，能够快速掌握新技术和新知识，适应不断变化的技术环境。\n加分项\n1 ，有端侧 AI 、互联互通、系统安全开发经验者优先；\n2 ，有竞品分析经验者优先。\n你将获得\n1 ，和大牛共事机会；\n2 ，负责 DAU 1000W 以上项目经验；\n3 ，阶梯式培养激励，为你攀登高峰，保驾护航；\n4 ，带薪病假、年假、五险一金、商业保险、双休、生日/结婚/生子福利等。\n微信 THEANSWERIS333 ，加时注明 V2EX",
           "link": "https://www.v2ex.com/t/1101964",
           "publishedOn": "2025-01-02T03:46:00.000Z",
-          "wordCount": 428,
+          "wordCount": 432,
           "title": "[南京小米] Android 系统专家",
           "imageUrl": null
         },
@@ -522,7 +549,7 @@
           "description": "xingye163: 刚注册了个 PT 站点要求下载做种 20 小时，但是因为开启了 Transmission 的临时下载目录，导致文件在临时文件夹里，不知道为什么下载完了也不移动到指定目录，于是就手动移动了下，但是移动后，就无法启动种子做种了，一直显示暂停状态，这种情况要怎么办？删了重下还是？\n大家有遇到过误删文件或者这种移动文件导致无法做种的情况吗？",
           "link": "https://www.v2ex.com/t/1101963",
           "publishedOn": "2025-01-02T03:43:06.000Z",
-          "wordCount": 521,
+          "wordCount": 523,
           "title": "刚注册了个 PT 站点要求下载做种 20 小时，不小心误操作无法做种了怎么办",
           "imageUrl": null
         },
@@ -532,7 +559,7 @@
           "description": "hanbing0715: \n我尝试从https://service.oneplus.com/us/search/search-detail?id=2096330这个链接下载全球版的 ROM ，发现下载链接的oxygenos.oneplus.net域名没有解析结果了，导致所有 ROM 都下载不到，求有内部人士修一下。",
           "link": "https://www.v2ex.com/t/1101962",
           "publishedOn": "2025-01-02T03:41:07.000Z",
-          "wordCount": 356,
+          "wordCount": 357,
           "title": "麻烦 Oppo 或者 Oneplus 的工程师修一下",
           "imageUrl": null
         },
@@ -542,7 +569,7 @@
           "description": "bf728: \n小团队，写后端的不靠谱，老板太忙，只有一份文字描述的需求文档，主要是后台管理系统，报表比较多，设计无所谓，反正都是用 ui 框架。为了减少沟通成本，只能靠我出原型图了，有什么免费快捷的办法吗？话说有没有什么 ai 工具根据提示词就能出 sketch 或者 figma 的？主要就是展示表格里显示些啥，然后跳转箭头什么的。尝试过蓝湖，慕客，figma 之类的，但是免费版太坑了，页面也太少了。",
           "link": "https://www.v2ex.com/t/1101961",
           "publishedOn": "2025-01-02T03:39:23.000Z",
-          "wordCount": 669,
+          "wordCount": 683,
           "title": "团队没有产品经理，后端又不靠谱，怎么快速出原型图啊？",
           "imageUrl": null
         },
@@ -552,7 +579,7 @@
           "description": "ssshooter: \n本体是 AI 英语词源词典数据库，顺便用 Tauri 做了个壳子。\nGitHub 地址： https://github.com/SSShooter/en-etymology-dict\nDB 文件： https://github.com/SSShooter/en-etymology-dict/blob/master/public/english_etymology.db\n本地内置了四六级、托福词汇表的单词的信息，词表来源于常用英语词汇表。内置信息包括：\n词源\n使用场景\n同义词\n反义词\n形似词\n派生词\n以上信息均由 AI 生成，不保证准确。另外，可在线查询英英词典，或打开 Merriam-Webster 页面了解更多单词信息。\n下载\nWindows 便携版（ 12.9 MB ）Github releases\n技术栈\nVite\nReact\nTypeScript\nTauri\n数据库\n数据库文件位于 public\\english_etymology.db，数据库设计：\n-- Main words table\nCREATE TABLE IF NOT EXISTS words (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    word TEXT NOT NULL UNIQUE,\n    frequency TEXT CHECK (frequency IN ('very_common', 'common', 'uncommon', 'rare', 'archaic')),\n    etymology TEXT,\n    context TEXT,\n    related_words TEXT,      -- 合并 related_words 表\n    similar_words TEXT,      -- 合并 si…",
           "link": "https://www.v2ex.com/t/1101960",
           "publishedOn": "2025-01-02T03:37:18.000Z",
-          "wordCount": 658,
+          "wordCount": 662,
           "title": "AI 英语词源词典数据库",
           "imageUrl": null
         },
@@ -562,7 +589,7 @@
           "description": "duanjiong: 例如扫雷",
           "link": "https://www.v2ex.com/t/1101959",
           "publishedOn": "2025-01-02T03:35:46.000Z",
-          "wordCount": 391,
+          "wordCount": 399,
           "title": "mac 上都有哪些适合上班摸鱼的小游戏？",
           "imageUrl": null
         },
@@ -572,7 +599,7 @@
           "description": "Lowlife: \n大家遇到过吗？\n分析数据是\nResetCounter-2025-01-02-112556.ips U\n{\"os_version\": \"iPhone OS 18.1 (22B83)\",\"bug_type\":\"115\", \"timestamp\":\"2025-01-02\n11:25:56.00 +0800\" \"name\":\"Reset\ncount\",\"roots_installed\":0, \"incident_id\":\"4236B93A-3F44-4806-9112-1BB152C62504\"}\nIncident Identifier: 4236B93A-3F44-4806-9112-1BB152C62504\nCrashReporter Key: 90d5b2f501a2dde5c6fecd35e50f800563b1026f\nDate: 2025-01-02 11:25:56.53 +0800\nReset count: 1\nBoot failure count: 0\nBoot faults: rst dog,reset_in_l timeout,dblclick_timeout\nBoot stage: 0x0\nBoot app: 3285402074\nsocRevision: 11",
           "link": "https://www.v2ex.com/t/1101958",
           "publishedOn": "2025-01-02T03:34:02.000Z",
-          "wordCount": 486,
+          "wordCount": 490,
           "title": "16pm 用着突然自动重启，一个月内第三次了。18.1 系统",
           "imageUrl": null
         },
@@ -582,7 +609,7 @@
           "description": "zapper: \n大佬们好，我用\nffmpeg -re -rtsp_transport tcp -stimeout 5000000 -i rtsp://xxxx -c:v libx264 -f flv rtmp://xxx\n\n上面这个指令，在一切正常的时候没有问题，但是当输入的 RTSP 中断了一会，这个推流就会处于一个跑飞了的状态，不再推送有效数据，并且进程也没有终止；\n然后我网上搜说用rw_timeout参数可破，可是我将指令修改为\nffmpeg -re -rtsp_transport tcp -rw_timeout 5000000 -stimeout 5000000 -i rtsp://xxxx -c:v libx264 -f flv rtmp://xxx\n\n可是整个指令根本跑不起来。提示-rw_timeout不存在，除非输入换成 RTMP ，但是加了这个参数其实也不好使。\n由于输出的地址不是我们自己管控的，所以不像保存文件一样能定期检测文件大小是否变化来判断是不是应该 kill 掉进程，所以要怎么才能在他没数据传输的时候干掉他，或者能通过配置参数让他自己退？\n先谢谢大佬们",
           "link": "https://www.v2ex.com/t/1101957",
           "publishedOn": "2025-01-02T03:33:38.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "求助大佬们， FFmpeg 指令拉实时流转推的正确姿势到底是什么？",
           "imageUrl": null
         },
@@ -592,7 +619,7 @@
           "description": "xiaomayi000: 1 ，预算 500 以内\n2 ，头戴式\n3 ，无需降噪功能\n4 ，用途：单机游戏或看电影",
           "link": "https://www.v2ex.com/t/1101955",
           "publishedOn": "2025-01-02T03:31:49.000Z",
-          "wordCount": 377,
+          "wordCount": 378,
           "title": "预算 500 以内，求推荐耳机。",
           "imageUrl": null
         },
@@ -602,7 +629,7 @@
           "description": "errorMsg0xff: 年底了，要定 2025 Q1 的 okr ，结果大方向是成本，这是不是裁员的前兆？",
           "link": "https://www.v2ex.com/t/1101954",
           "publishedOn": "2025-01-02T03:30:33.000Z",
-          "wordCount": 492,
+          "wordCount": 499,
           "title": "公司要裁员的前兆是什么",
           "imageUrl": null
         },
@@ -612,7 +639,7 @@
           "description": "SoulFlame: 1 、请问只在客厅放一个无线路由器的话，能做到全屋覆盖信号良好吗？客厅到主卧隔了 3 堵墙。\n2 、如果 1 无法实现，我想在主卧放多一个无线路由器做有线 MESH 组网，我应该怎么组网？大概需要买哪些设备？\n\n房子户型图：  \nhttps://i.stardots.ink/brad/20250102111938.jpg\n网线图：  \nhttps://i.stardots.ink/brad/20250102111253.jpg",
           "link": "https://www.v2ex.com/t/1101953",
           "publishedOn": "2025-01-02T03:29:07.000Z",
-          "wordCount": 444,
+          "wordCount": 480,
           "title": "请教各位大佬家里组网问题",
           "imageUrl": null
         },
@@ -622,7 +649,7 @@
           "description": "aiziyou520: - 中转线路，流媒体.\n- 注册送 1G 24 小时试用.\n- 套餐价格 15/20 两档.\n- 周年庆送 V 友 8 折优惠码：V2er-cff6fb17\n- 优惠码截止使用 2025 年 2 月 28.\n- 机场地址： https://www.zltk.xyz",
           "link": "https://www.v2ex.com/t/1101952",
           "publishedOn": "2025-01-02T03:28:19.000Z",
-          "wordCount": 444,
+          "wordCount": 460,
           "title": "[两周年🎉] 小机场, 新注册可试用, 送 8 折优惠券啦🔥",
           "imageUrl": null
         },
@@ -632,7 +659,7 @@
           "description": "snowlee: \n币安在 12 月推出了一个所谓的\"拉新活动\"，声称只要邀请新用户注册并完成 200U 的 C2C 交易就能获得 20U 奖励\n我信以为真，兴冲冲地拉了好几个朋友完成任务，满心期待等着发奖励。问客服说\"14 天内发放完毕\"，结果呢？我从 2024 年等到 2025 年，钱也没给我，我今天去问客服\n客服从不知道哪个犄角旮旯翻出一个条款\n \n奖励有限，先到先得 ！所以你属于后到的，没有奖励。 我尼玛，还是一次见拉新活动这么坑的",
           "link": "https://www.v2ex.com/t/1101951",
           "publishedOn": "2025-01-02T03:27:03.000Z",
-          "wordCount": 351,
+          "wordCount": 352,
           "title": "币安做活动纯坑人，望周知",
           "imageUrl": null
         },
@@ -642,7 +669,7 @@
           "description": "daldon: \n找了半天找不到之前的聊天记录",
           "link": "https://www.v2ex.com/t/1101950",
           "publishedOn": "2025-01-02T03:24:14.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "请问谷歌的 aistudio 是不是不能保存，或让我自己删除聊天记录？",
           "imageUrl": null
         },
@@ -652,7 +679,7 @@
           "description": "ttkit: \n还记得刚学习 vue 和 react 的时候，几乎每个新手都会通过实现一个简单的 todolist 开始～现在想想还挺有趣。\n现在不一样了，我不仅会 react 和 vue ，而且会使用 nestjs 来开发后端服务了，这次一股劲的重新开始完成不一样的 todolist ，不一样的感觉！从设计到开发，从站在用户的角度去思考功能，然后一步步的实现，这就是开发的乐趣。\npassion ！ passion ！ passion ！\n使用教程\n体验地址\n预览图：",
           "link": "https://www.v2ex.com/t/1101949",
           "publishedOn": "2025-01-02T03:24:11.000Z",
-          "wordCount": 409,
+          "wordCount": 411,
           "title": "待办应用太多了，但我依然想要做一款曾经想做的待办应用！ nextjs 网页版。",
           "imageUrl": null
         },
@@ -662,7 +689,7 @@
           "description": "thorby: \n因为还有一些额度没有用完，想试试 AI 做图工具。",
           "link": "https://www.v2ex.com/t/1101948",
           "publishedOn": "2025-01-02T03:23:54.000Z",
-          "wordCount": 386,
+          "wordCount": 387,
           "title": "有没有什么特别好用的 AI 做图工具可以像 cusor 一样调用 azure 的 api key？",
           "imageUrl": null
         },
@@ -672,7 +699,7 @@
           "description": "xxss0903: \n有一块年初买的显卡，7650 的 12GB 版本，蓝宝石的，然后现在不怎么用了准备学 AI ，所以咸鱼卖掉了。\n现在想买个用来学习 AI 的显卡不知道买个 4060 够不够，还是要 4060ti 才行",
           "link": "https://www.v2ex.com/t/1101947",
           "publishedOn": "2025-01-02T03:22:57.000Z",
-          "wordCount": 353,
+          "wordCount": 354,
           "title": "AMD Gre7650 12GB 的极地版卖 1900，不知道划不划算",
           "imageUrl": null
         },
@@ -682,7 +709,7 @@
           "description": "piaoyidage: \n帮忙推荐好用的房贷计算器\n需求\n随着 LPR 的不断下降，还款的利率也随之下降，下降之后月供需要多少钱（比如说利率调整的第一个月的月供和第二个月就不同，经常会有人问利率下降了，反而月供变高了）没找到合适的房贷计算器，希望 v 友们推荐好用的房贷计算器，希望房贷计算器提供如下功能：\n支持输入贷款金额、贷款期限、贷款利率、还款起始日，然后可以查看还款详情\n还款利率变化，更新还款详情，能够精确计算出月供变化\n提前还贷支持月供不变和期限不变，更新还款详情\n汇总因为利率变化和提前还款，更新利息总额",
           "link": "https://www.v2ex.com/t/1101944",
           "publishedOn": "2025-01-02T03:19:39.000Z",
-          "wordCount": 401,
+          "wordCount": 403,
           "title": "帮忙推荐好用的房贷计算器",
           "imageUrl": null
         },
@@ -692,7 +719,7 @@
           "description": "AMZsowhat: 昨晚在移动上查询了下携转资格，今早八点多移动就打来电话吵醒我要送我蚊子腿流量和通话，我说套餐太贵客服直接没好气的再见。\n如题，希望试试联通，携转或新卡都可以，需要 esim 给 padmini 用，准备慢慢迁移移动号绑定的内容，最好是长期卡而不是两年期的那种流量卡。",
           "link": "https://www.v2ex.com/t/1101943",
           "publishedOn": "2025-01-02T03:19:19.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "鱿鱼移动不当人，求推荐可 esim 的联通长期卡",
           "imageUrl": null
         },
@@ -702,7 +729,7 @@
           "description": "saturnast: \n请问有没有 neovim 插件，可以支持使用 deepseek v3 的 api 进行类似于 GitHub Copilot 的代码自动补全？\n我尝试了几个热门的 AI 插件，如 ChatGPT.vim ，使用兼容 OpenAI 的 API 接口，似乎都不行，deepseek 文档的实用集成推荐里面，也没有代码自动补全这一块的插件。\n求大佬推荐，谢谢～",
           "link": "https://www.v2ex.com/t/1101942",
           "publishedOn": "2025-01-02T03:19:00.000Z",
-          "wordCount": 484,
+          "wordCount": 486,
           "title": "请问有没有使用 neovim 和 deepseek api 的大佬？",
           "imageUrl": null
         },
@@ -712,7 +739,7 @@
           "description": "Climile: \n想找一个高性价比的香港 VPS 建站长期使用，在国内可以高速访问，无需备案",
           "link": "https://www.v2ex.com/t/1101940",
           "publishedOn": "2025-01-02T03:08:53.000Z",
-          "wordCount": 363,
+          "wordCount": 365,
           "title": "VPS 求推荐",
           "imageUrl": null
         },
@@ -722,7 +749,7 @@
           "description": "HelloKittyLive: \n不能上传视频所以我直接给一个抖音链接：\n9.79 DhO:/ g@b.NJ 10/07 # 胖猫 # 抽象 # 跨年 # 新年 https://v.douyin.com/iyjp7dJ1/ 复制此链接，打开 Dou 音搜索，直接观看视频！\n佬友们，这个视频中的配音是咋弄的，逆天配音，如果我以后自己做视频，这种配音我该如何实现呢？",
           "link": "https://www.v2ex.com/t/1101939",
           "publishedOn": "2025-01-02T03:08:41.000Z",
-          "wordCount": 386,
+          "wordCount": 387,
           "title": "寻找配音，实在不知道是什么配音",
           "imageUrl": null
         }
