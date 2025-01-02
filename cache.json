@@ -181,6 +181,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -322,7 +349,7 @@
           "description": "bingoso: 小米 华为，只用过这两个牌子的手机，双微信是常态，不会有任何被封风险。\n\nios 的为什么不支持双微信呢？是技术问题，还是什么？\n\n在容器化技术非常成熟的今天，ios 不支持双微信，是微信的原因还是苹果的原因呢？",
           "link": "https://www.v2ex.com/t/1102160",
           "publishedOn": "2025-01-02T17:38:45.000Z",
-          "wordCount": 401,
+          "wordCount": 407,
           "title": "为什么 android 双微信可以， ios 就不行？",
           "imageUrl": null
         },
@@ -342,7 +369,7 @@
           "description": "defaw: \n今天把 cursor 下回来了，在两个项目中使用了 cursor 。一个是 c++的嵌入式项目，一个 react shadcn 的前端项目，摸索了一套不用每月 20 刀使用 cursor 的方式。\n1.装上通义灵码插件，来激活 tab 补全，因为 cursor 的 tab 补全是需要 pro 会员，没有会员 tab 补全不生效。\n2.-模型里 openai api 里填上 deepseek 自家的 api 地址和 token ，不算 composer 的情况下，基本上获得 cursor99%的能力了。\n然后就是使用中的一些细节，ctrl-k 的代码生成会比 tab 更完整，效果也好的多，用 deepseek v3 来进行方法级别的生成效果是比较好的，如果需要跨多文件生成，用 @File 把别的文件里的类型定义一起附上。",
           "link": "https://www.v2ex.com/t/1102158",
           "publishedOn": "2025-01-02T16:59:45.000Z",
-          "wordCount": 434,
+          "wordCount": 436,
           "title": "一种不付费使用 cursor 的方式",
           "imageUrl": null
         },
@@ -402,7 +429,7 @@
           "description": "diydapanji: \n最早因为 NAS 空间比较大，所以相机默认开了 RAW+JPG 输出，平时也比较忙出去玩回来也不太选片直接 synology drive 整张卡同步上去了。\n最近发现照片占用有点太大了，光一年的就要超过 1t 了，其中有大量废片、以及不会再修的 raw 照片。请问大家有没有什么批量管理的方法，以及大家的流程是什么样的？",
           "link": "https://www.v2ex.com/t/1102149",
           "publishedOn": "2025-01-02T15:08:58.000Z",
-          "wordCount": 557,
+          "wordCount": 564,
           "title": "NAS 上如何批量管理 RAW+JPG 照片？",
           "imageUrl": null
         },
@@ -562,7 +589,7 @@
           "description": "dream4ever: \n目前有一个视频网站的开发需求，网站上放一些专业内容，用户注册并且付费后才能查看视频，并且要求网站在国内和国外都能正常访问。\n对于这种需求来说，运行网站的服务器，是买一台阿里云海外服务器合适，还是买海外主机服务商的性价比更高？或者国内外分开买服务器，分开部署网站？不过如果国内买服务器+域名的话，还得备案，挺麻烦的。\n另外关于用户付费这块儿，国内的微信支付宝接入很好说，海外用户付费的话，综合考虑开通难度和手续费，哪家接入商比较合适呢？在推上看推荐 Stripe 的比较多。\n谢谢先～",
           "link": "https://www.v2ex.com/t/1102130",
           "publishedOn": "2025-01-02T13:40:55.000Z",
-          "wordCount": 457,
+          "wordCount": 459,
           "title": "国内外均可访问的收费视频网站开发方案咨询",
           "imageUrl": null
         },
@@ -622,7 +649,7 @@
           "description": "dcy7287: 最新浏览器排名：\nChrome 66.88%\nEdge 13.21%\nSafari 8.49%\nFireFox 6.14%\nOpera 2.74%\nChrome 能取代 IE ，尤其是 IE 是寄生在自家、世界使用最普及的 OS 之上，愣是让 Chrome 偷了家，真是个奇迹，而且 Google 打的都是明牌。",
           "link": "https://www.v2ex.com/t/1102122",
           "publishedOn": "2025-01-02T12:54:13.000Z",
-          "wordCount": 619,
+          "wordCount": 621,
           "title": "Chrome 干翻 IE 算不算个奇迹",
           "imageUrl": null
         },
@@ -702,7 +729,7 @@
           "description": "bclerdx: 有一个疑惑，为何家庭宽带上行带宽应用被跑满后，下行带宽应用可能就无法使用了？下载宽带应用无法使用主要表现在转圈、加载时间变长等。",
           "link": "https://www.v2ex.com/t/1102112",
           "publishedOn": "2025-01-02T11:45:53.000Z",
-          "wordCount": 544,
+          "wordCount": 545,
           "title": "有一个疑惑，为何家庭宽带上行带宽应用被跑满后，下行带宽应用可能就无法使用了？",
           "imageUrl": null
         },
