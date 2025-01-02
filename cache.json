@@ -134,12 +134,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -183,6 +177,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -323,12 +344,52 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102164",
+          "author": "amandalee",
+          "description": "amandalee: 我们是一家专注于儿童编程机器人教育的公司，诚邀有 PYTHON 编程经验，并具备电子工程基础，熟悉树莓派、或 ESP32 编程与设计的实习生加入我们的团队。\n工作地点： 远程工作，您可以在宿舍、家中或实验室完成工作。\n日薪范围：250-500 元\n职位要求：\n在读大学生或者研究生，大三或以上学历。\n*具备扎实的 Python 编程技能，能够熟练使用相关开发工具和库，了解 PyTorch 和 Tensorflow 者优先。\n*有机器小车或者无人机编程经验\n*拥有电子工程或电路的基础知识，熟悉树莓派、Arduino 或 ESP32 编程者优先。\n*了解 Scratch 编程，有英语四级水平者优先。\n*具备 AI 或者 AI API 基础知识者加分。\n*了解 Jetson Nano 者优先。\n*有无人机编程经验优先\n良好的逻辑思维能力和问题解决能力。\n能够独立工作，同时具备良好的团队合作精神。\n工作内容：\n参与儿童编程机器人及相关应用的开发和优化工作。\n在电子工程项目中应用 Python 编程，例如使用树莓派、Arduino 或 ESP32 执行相关编程任务。进行项目相关的测试，并根据需求进行调试和优化。\n与团队合作，共同解决编程和电子工程中的挑战。\n定期参加线上会议，报告项目进展并讨论相关事宜。\n如何申请：\n请将您的简历和相关项目作品或案例发送至 jtech_2013@hotmail.com 。邮件标题请注明“Python 编程及电子工程基础实习生申请",
+          "link": "https://www.v2ex.com/t/1102164",
+          "publishedOn": "2025-01-02T20:14:55.000Z",
+          "wordCount": 393,
+          "title": "[远程，实习或全职] Python 编程及儿童编程机器人编程开发实习生",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102163",
+          "author": "CNM47589",
+          "description": "CNM47589: \n卖家卖的机器分成 o 版和 m 版，o 版可以开 oem 刷机和 root ，m 版不可以。这话是啥意思？ Google 的手机不是都可以 root 吗？这不可以 root 的版本是怎么回事？",
+          "link": "https://www.v2ex.com/t/1102163",
+          "publishedOn": "2025-01-02T19:59:52.000Z",
+          "wordCount": 407,
+          "title": "淘宝买 pixel 手机问题求解",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102162",
+          "author": "SteveWoo",
+          "description": "SteveWoo:",
+          "link": "https://www.v2ex.com/t/1102162",
+          "publishedOn": "2025-01-02T18:38:37.000Z",
+          "wordCount": 401,
+          "title": "公司后端比前端、测试、产品地位低正常吗？后端 10 人、测试 5 人、前端(web adnorid ios)10 人。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102161",
+          "author": "freestyle26",
+          "description": "freestyle26: 我感觉这样用，解放了食指。\n而且中指比食指长，滑动滚轮的路径会更长，减少了滚动的次数。\n\n说说你们的情况吧",
+          "link": "https://www.v2ex.com/t/1102161",
+          "publishedOn": "2025-01-02T18:03:53.000Z",
+          "wordCount": 377,
+          "title": "用鼠标，你们用哪个手指滑动滚轮？我用的中指",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102160",
           "author": "bingoso",
           "description": "bingoso: 小米 华为，只用过这两个牌子的手机，双微信是常态，不会有任何被封风险。\n\nios 的为什么不支持双微信呢？是技术问题，还是什么？\n\n在容器化技术非常成熟的今天，ios 不支持双微信，是微信的原因还是苹果的原因呢？",
           "link": "https://www.v2ex.com/t/1102160",
           "publishedOn": "2025-01-02T17:38:45.000Z",
-          "wordCount": 437,
+          "wordCount": 450,
           "title": "为什么 android 双微信可以， ios 就不行？",
           "imageUrl": null
         },
@@ -408,7 +469,7 @@
           "description": "diydapanji: \n最早因为 NAS 空间比较大，所以相机默认开了 RAW+JPG 输出，平时也比较忙出去玩回来也不太选片直接 synology drive 整张卡同步上去了。\n最近发现照片占用有点太大了，光一年的就要超过 1t 了，其中有大量废片、以及不会再修的 raw 照片。请问大家有没有什么批量管理的方法，以及大家的流程是什么样的？",
           "link": "https://www.v2ex.com/t/1102149",
           "publishedOn": "2025-01-02T15:08:58.000Z",
-          "wordCount": 568,
+          "wordCount": 610,
           "title": "NAS 上如何批量管理 RAW+JPG 照片？",
           "imageUrl": null
         },
@@ -478,7 +539,7 @@
           "description": "dcy7287: 不会有寄生虫吗",
           "link": "https://www.v2ex.com/t/1102139",
           "publishedOn": "2025-01-02T14:00:07.000Z",
-          "wordCount": 451,
+          "wordCount": 485,
           "title": "三文鱼不是深水鱼为什么能生吃？",
           "imageUrl": null
         },
@@ -598,7 +659,7 @@
           "description": "hhacker: \n每一个游戏玩家心中, 都有一个自己做一款游戏的梦, 费劲千辛万苦后, 我成功制作了一款独立游戏并在 2025 年 1 月 1 日上架了 Steam.\n本文既是对这个过程的一种纪念, 也是对游戏制作这个话题留下一些自己的思考和总结, 如果能让后来者少踩几个坑, 就更好了.\n我将按时间线索将整个游戏制作和发行过程展现出来, 文章较长, 感谢你的耐心阅读.\n源起 2019\n我是一个 80 后, 在 90 年代伴随着电子游戏成长起来的一代人, 在读书的时候曾经有一段时间沉迷游戏, 玩三国志和文明系列玩到深夜.\n我父亲实在看不下去了, 对我说了一句话: \"玩游戏厉害算什么, 有本事自己做一个啊\", 当时还小, 也没有能力制作一款游戏, 可能是年少时的那种不服气吧, 这句话我就一直记在了心里.\n后来参加工作了, 和大多数社畜一样, 每天累得跟狗一样, 回家就只想躺着休息, 连打开电脑玩一把游戏的兴趣都没有了.\n2018 年下半年, Steam 上的独立游戏中国式家长火热, 我正好也玩到了这款游戏, 并向我的朋友推荐了它.\n然后在 2019 年春天, 我晚上加班加得心烦意乱, 工作堆积如山, 一眼瞥见了加班了一小会儿就想溜的胡大胖同学, 我说: \"你陪我加班吧, 我做完这点事情, 我们就玩暗月来袭\", 然后胡大胖同意了.\n暗月来袭是当时很火的一款 DOTA2 地图, 我们之前从来没有通关过, 就在那个晚上, 我们打到了历史最佳记录-倒数第二关.\n然后在黎明到来前, 胡大胖说:\n\"加班其实是有一定概率猝死的\"\n\n我说:\n\"要不我们做一款游戏吧, 就叫**中国式加班**\"\n\n胡大胖表示同意, 然后我们一起构思了这么一个特别的游戏, 当时胡大胖还并不知道, 他将是这个加班游戏的主角原型.\n所以在 2019 年五月, 我初始化了这个游戏项目的 Git 仓库.\n萌新的进击\n虽然…",
           "link": "https://www.v2ex.com/t/1102126",
           "publishedOn": "2025-01-02T13:24:17.000Z",
-          "wordCount": 1819,
+          "wordCount": 1826,
           "title": "我是如何从零开始手搓一个独立游戏并上架 Steam 的",
           "imageUrl": null
         },
@@ -648,7 +709,7 @@
           "description": "xiaoming1992: \n预算 2800 - 3200 ，以下是刚需：\n16 + 512 及以上\nNFC （地铁卡 + 车钥匙）\n谷歌三件套 + 梯子\n最好不用解锁（怕银行之类的对环境安全要求较高的软件用不了）\n不接受二手，最好别是同系列的最低配，我不喜欢最低配\nP.S. 对雷老板有点迷信，对某为和蓝绿二厂有点歧视\n背景：我现在用的是红米 K30P 12 + 128 ，当时买的时候我记得好像是 3000 ，用了 4 年半了，很喜欢，也有点迷信雷老板，只是存储着实不够，想着换一个。\n可是红米新出的 K80P 16 + 512 要 4300 ，太贵了；红米 K80 价格倒是合适，可是从 K30P 换到 K80 ，有点不甘心，感觉越活越回去了。\n我看一加在站内的口碑不错，刚刚也稍微体验了一下 Ace5 ，不坏。\n能分析一下 红米 K80 和 一加 Ace5 的优劣吗？或者有其他推荐的也可以。再或者，随着通货膨胀，我的预算也应该加一加吗？（加不了多少，顶天 3500 ）\n（我知道一加是 oppo 的，谢谢）\n我先说一个，红米换红米，换机成本低，不存在资料迁移的麻烦。",
           "link": "https://www.v2ex.com/t/1102120",
           "publishedOn": "2025-01-02T12:46:40.000Z",
-          "wordCount": 433,
+          "wordCount": 445,
           "title": "周经贴，求推荐手机，预算 2800-3200",
           "imageUrl": null
         },
@@ -680,46 +741,6 @@
           "publishedOn": "2025-01-02T12:22:43.000Z",
           "wordCount": 381,
           "title": "广州天河有那种可以短租一两个月的酒店吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102114",
-          "author": "bclerdx",
-          "description": "bclerdx: 各位帝都的兄弟们，北京移动 5G 网络在室内的速度难道就是这样的吗？我是有 5G 优享服务的，理论上应该在下行 500Mbps ，上行理论在 100Mbps 速率哦，可实际测试下来上下行速率差的也太多了。这个是我所在的地区的基站问题还是其它原因导致的。",
-          "link": "https://www.v2ex.com/t/1102114",
-          "publishedOn": "2025-01-02T12:17:01.000Z",
-          "wordCount": 345,
-          "title": "各位帝都的兄弟们，北京移动 5G 网络在室内的速度难道就是这样的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102113",
-          "author": "xunmiqun",
-          "description": "xunmiqun: 浪潮 gs 这个能搭建单机环境么？媳妇要干财务这块\n想学学这个财务软件怎么使用",
-          "link": "https://www.v2ex.com/t/1102113",
-          "publishedOn": "2025-01-02T11:56:03.000Z",
-          "wordCount": 375,
-          "title": "浪潮 gs 这个能搭建单机环境么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102112",
-          "author": "bclerdx",
-          "description": "bclerdx: 有一个疑惑，为何家庭宽带上行带宽应用被跑满后，下行带宽应用可能就无法使用了？下载宽带应用无法使用主要表现在转圈、加载时间变长等。",
-          "link": "https://www.v2ex.com/t/1102112",
-          "publishedOn": "2025-01-02T11:45:53.000Z",
-          "wordCount": 549,
-          "title": "有一个疑惑，为何家庭宽带上行带宽应用被跑满后，下行带宽应用可能就无法使用了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102111",
-          "author": "leaveeel",
-          "description": "leaveeel: 前端，年底有空回南京面了一家做设备的公司，现主要是 vue2/3 ，有计划做 react 和 threejs ，如果立项了想让我负责，技术面完了说很满意，当场约了 hr 面，谈薪从 15 压到 13 ，后来拉扯到 13.5 ，另外加 600 块补贴，等着发 offer 了。今天打电话说领导不批，只能给 12k+600 让我考虑一下。听说他们项目回款还有问题，拖了两个月工资没发。我问了对面回到年前都能结清。\n招聘 app 上的岗位没什么能看得了，要么要求学历年龄，要么投了不回，要么只感兴趣也不联系，面完的也大多没下文。我也翻了一下现在招的薪资范围，一水的 10 左右，个别 15+的也是不符合的。正好上个月也因为感情问题消沉了一阵子现在完全没有找工作的欲望了，暂时靠着失业金苟活，每天白天出去逛逛晚上写写小说，两天一张彩票等着天上掉馅饼。\n现在条件是可以维持温饱一直躺着，但是还想能靠自己打拼一些东西，当下经济环境就怕待业久了更没有竞争力，转行也不知道要做什么而且其他行业也未必有接着干开发挣得多，也不知道行业有没有回暖的机会了。",
-          "link": "https://www.v2ex.com/t/1102111",
-          "publishedOn": "2025-01-02T11:43:41.000Z",
-          "wordCount": 548,
-          "title": "太难了，谈薪越定越低",
           "imageUrl": null
         }
       ]
