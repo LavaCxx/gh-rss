@@ -181,6 +181,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -352,7 +379,7 @@
           "description": "noble4cc: 女主播有大哥们刷钱，可以理解，男主播怎么赚钱，首先女性整体很穷，大姐比大哥少多了，在加上女性总想花男人钱，好奇这些男主播能赚多少钱一个月",
           "link": "https://www.v2ex.com/t/1102063",
           "publishedOn": "2025-01-02T08:40:29.000Z",
-          "wordCount": 616,
+          "wordCount": 648,
           "title": "颜值男主播的收入能到多少",
           "imageUrl": null
         },
@@ -362,7 +389,7 @@
           "description": "ShimaKazeLiu: \n家里的服务器装了个 WiFi 开机卡，连线是机箱的 sw 线插上板子，板子的两个针脚连一根 sw 线出来插在主机上。然后卡插在 PCIe 的插槽内。\n最开始碰到个很诡异的事情，就是电脑通电就会开机，只要断电后通电就会开机，百思不得解，一通测试后，发现是开机卡的问题，就在 bios 里面把“PCIe 设备触发开机”的功能关了就好了。不知道会不会帮助到别人。\n现在说我的问题，总而言之，现在就是这个卡无法关机。在 APP 内点击关机，电脑没有关机的迹象。\n电脑的使用环境比较特殊，除了网线和 nps 的通信线和电源线，啥都没接，每次使用都是远程环境。\n然后他也不是每次都不能关机，我只要在远程的状态就能关机，不管是 todesk 还是微软远程连接，只要在远程状态就能关能重启，只要不在远程状态就关不了。\n已经在控制面板中的电源设置了“按下电源键关机”和在策略内把“关机：允许系统在未登录的情况下关闭”启动了\n很疑惑，不知道是不是因为锁屏导致的无法关机，但是我不知道怎么设置，还是说我要买个显卡欺骗器？",
           "link": "https://www.v2ex.com/t/1102062",
           "publishedOn": "2025-01-02T08:39:53.000Z",
-          "wordCount": 423,
+          "wordCount": 425,
           "title": "疑惑， WiFi 开机卡能开机不能关机",
           "imageUrl": null
         },
@@ -392,7 +419,7 @@
           "description": "duanjiong: 过年回家实在是无聊，想出去浪一浪， 预计初一出发武汉去惠州， 那时候应该不大可能堵车吧？ 返程的时候呢？ 有经历过的大佬么",
           "link": "https://www.v2ex.com/t/1102058",
           "publishedOn": "2025-01-02T08:36:33.000Z",
-          "wordCount": 457,
+          "wordCount": 465,
           "title": "2025 春节期间初六惠州回武汉会堵车么？",
           "imageUrl": null
         },
@@ -402,7 +429,7 @@
           "description": "liudewa: \n如题,部门合并,之前领导都被降级了",
           "link": "https://www.v2ex.com/t/1102056",
           "publishedOn": "2025-01-02T08:27:56.000Z",
-          "wordCount": 444,
+          "wordCount": 457,
           "title": "公司最近,部门合并,今天通知公积金 12 调成 5,是不是不行了",
           "imageUrl": null
         },
@@ -442,7 +469,7 @@
           "description": "mingtdlb: \n分布式存储池为什么都是搞副本的，从使用空间来说 最少直接减半，那不是很浪费吗？\n为啥不用纠删码的，是计算开销太大，还是怎样？",
           "link": "https://www.v2ex.com/t/1102047",
           "publishedOn": "2025-01-02T08:08:52.000Z",
-          "wordCount": 449,
+          "wordCount": 451,
           "title": "企业分布式存储冗余都是副本模式？",
           "imageUrl": null
         },
@@ -472,7 +499,7 @@
           "description": "ttkit: \n之前的机器是 2 核 4g 的配置，打包 nextjs 项目经常不成功，后面升级了 4 核 8G 打包成功了，但是速度很慢，现在好了直接不能打包！\n无奈使用免费的 github Actions ，发现吊打阿里云服务器啊，还没一个免费的服务好用！这钱花的不值～\n是我不会用阿里云 esc 吗，还是阿里云的 ecs 有猫腻。。。",
           "link": "https://www.v2ex.com/t/1102041",
           "publishedOn": "2025-01-02T07:43:55.000Z",
-          "wordCount": 757,
+          "wordCount": 782,
           "title": "吐糟阿里云 ECS 服务器， 4 核 8G 打包 nextjs 项目都能内存溢出！用了 github Actions 打包后感觉被骗了！",
           "imageUrl": null
         },
@@ -482,7 +509,7 @@
           "description": "SWALLOWW: 前几天晚上去山姆，我和我女朋友，人很多，开车去的，停车一直在找位置，\n当时我的状况是：非常想拉屎，能忍但快到极限了。\n停车一直在打圈，突然发现有一个车要走了，我女朋友让我在旁边等着，但是过道很小，后面车是通行不了的，当时后面没车。\n然后一直在等那个车，后面来车了，开始闪我，我就只能往前开走了。\n我女朋友就开始抱怨，为什么要给后车让，你让他等一会怎么了，大家不都这样吗？\n我就说，咱们做事不能影响别人。\n然后又转回原来位置，发现被人抢了。\n她说：就你善良？大家都这样做，反正我不着急，你就慢慢转悠吧。\n\n\n我觉得我做的是挺正常的一件事，她也有她的想法，但我觉得她不应该说我风凉话。那时候我挺难受的。",
           "link": "https://www.v2ex.com/t/1102040",
           "publishedOn": "2025-01-02T07:41:41.000Z",
-          "wordCount": 633,
+          "wordCount": 666,
           "title": "看帖子突然也想分享个事情，大家评判下",
           "imageUrl": null
         },
@@ -522,7 +549,7 @@
           "description": "zackzeng: \n背景\n网站是公司购买了的服务（需要登录一个网站），但是限制 IP 登录数。大家都在公司用 ok 的\n因为有同事会经常在家访问该网站。导致公司又被限制了影响办公。\n公司没有复杂的 it 工程师\n公司有非固定的公网 IP\n公司没有固定的服务器，可以考虑使用一台 mac 或者 Windows 来搭建。\n求解\n有无简单一点，简单安装的方式，可以让同事后续在外部登录该网站的时候 都从公司中转一下？",
           "link": "https://www.v2ex.com/t/1102035",
           "publishedOn": "2025-01-02T07:31:26.000Z",
-          "wordCount": 499,
+          "wordCount": 532,
           "title": "访问一个网站，因为有 IP 限制。目前只有办公室 IP 可以访问有什么解法可以在外部登录",
           "imageUrl": null
         },
@@ -532,7 +559,7 @@
           "description": "guoguobaba: \n继承 APIView 的方法，发现每个请求都是单独的 event loop ，\nwait task 318760 future data, future: 140251998671568, loop:140251997385056\nset task 318760 future data, future: 140251998671568, loop:140251997385056\nwait task 318762 future data, future: 140251998681952, loop:140251998919920\nset task 318761 future data, future: 140251997477472, loop:140251997378624\n\n你在 A 请求里\nfuture = loop.create_future()\nresult = await asyncio.wait_for(future, timeout=timeout)\n\n把 future 传给另一个线程(比如 websocket executor)，还得把 loop 一起传过去，\n            async with task_store.lock:\n                future, loop = task_store.task_results.pop(task_id, (None, None))\n            if future:\n                logger.info(f\"set task {task_id} future data, future: {id(future)}, loop:{id(loop)}\")\n                loop.call_soon_threadsafe(future.set_result, result_data)\n            else:\n                logger.warning(f\"can not find active task {task_id}\")\n\n相当于每个请求还是独立的线程，然后在线程里搞 async io 。这有啥意义啊。",
           "link": "https://www.v2ex.com/t/1102034",
           "publishedOn": "2025-01-02T07:23:05.000Z",
-          "wordCount": 679,
+          "wordCount": 681,
           "title": "django 的 asyncio 搞了个寂寞",
           "imageUrl": null
         },
@@ -542,7 +569,7 @@
           "description": "Jlzeng: \n国内的商宽，尤其是需要大上传的以提供内容为主的服务商像网盘、非版权视频网站（ B 站这种）等是很重的负担，不得不要求用户购买会员服务以享受不限速或更高码率的服务。这很大程度上是由于宽带“商用补贴民用”的政策导致的，那么不同于家宽，使用蜂窝网络获得对应服务理应不受这种限制吧，运营商能不能出手保障用户在用蜂窝网络又或者局限在 5G 时，能够从内容服务商获得不限速的体验，是不是也更好推广 5G ？\n总结为一句话：凭什么我都用按量计费的 5G 流量了，还要被网站限速？",
           "link": "https://www.v2ex.com/t/1102033",
           "publishedOn": "2025-01-02T07:20:55.000Z",
-          "wordCount": 411,
+          "wordCount": 413,
           "title": "想到一个 5G 的应用方向，和 V 友探讨下",
           "imageUrl": null
         },
@@ -552,7 +579,7 @@
           "description": "szsgz: 虽然一直是苹果用户，但是从 Picasa 年代已经开始不间断使用 Google Photos ，那时候甚至连智能手机都还没有。\n从 2011 年左右智能手机慢慢普及，照片开始可以记录位置信息，谷歌相册就一直默默地记录着我到拍照的地方。\n奔四的人了，新的一年又老一岁，看着前半辈子的轨迹还挺有意思。",
           "link": "https://www.v2ex.com/t/1102032",
           "publishedOn": "2025-01-02T07:17:20.000Z",
-          "wordCount": 457,
+          "wordCount": 466,
           "title": "从谷歌相册窥见人生轨迹",
           "imageUrl": null
         },
@@ -572,7 +599,7 @@
           "description": "Folayi: \n黄金基金：8%\n纳斯达克基金：8%\n东南亚基金：4%\n信用债基金：40%\n利率债基金：40%\n请教下 v2 友这个分配比例怎么样？",
           "link": "https://www.v2ex.com/t/1102029",
           "publishedOn": "2025-01-02T07:13:18.000Z",
-          "wordCount": 430,
+          "wordCount": 467,
           "title": "2025 年投资分配占比",
           "imageUrl": null
         },
@@ -602,7 +629,7 @@
           "description": "chanChristin: \n之前看站内某篇帖子提到这个东西，然后我在网上查了一下感觉还行，就在网上买来用了一下，留个帖子给其他的朋友参考一下。  \n我是直接在京东上买的，据说可以去医院走医保买，但是要做很多检查，要证明自己真的肥胖或者糖尿病才能开药，我嫌麻烦，就直接在网上买了。但是我买错了，应该买 1.5ml 的，但是我买成 3ml 的了，新人第一次使用刚开始是 0.25mg （ 0.25 * 6 = 1.5 ），好像到第四周之后可以增加剂量，但是 3ml 的没有 0.25mg 的刻度，我在网上查了一下也能用，就自己控制一下剂量（不建议模仿，我是不想浪费钱）。  \n我买的是注射的药，本体是一支注射笔，送了一盒针头，使用方式和糖尿病一样，往肚子上扎。第一次用的时候我面对针头纠结了很长时间，主要是怕疼，还怕有其他副作用之类的。想了想咬咬牙就扎上了，倒是不疼，针头是 4mm 的，扎进去没啥感觉，但是打完药拔出来之后会有一点点痛。这个药是一周打一次，我是每周六打，基本上到周五下午差不多就恢复了，能感觉到饿了。  \n药效\n我用完之后就感觉现代医学是真牛逼。我浅薄的理解这个药的原理就是让你感觉不到饿，从而少吃达到减肥的效果。我记得我是一个周六早上 10 点多打的药，中午 12 点吃午饭，就感觉不饿，米饭就吃了一小碗。下午打游戏打到 6 点钟，正常我到 4.5 点就会饿了，一般就吃点小零食，但是那天我完全感觉不到饿，反而有点撑，但是我的身体还是会对饥饿有反应的，明显饿的有点手抖了都，还是吃了点小零食顶一顶。后面几天感觉非常奇怪，脑子里感觉不到饿，但是身体上有饿的生理反应，想吃也吃不了多少。  \n保存\n我是用保鲜袋套一下放到冰箱冷藏里面，这个药写的是开封后有效期 6 周，我就用了 5 次，中间有一周实在不想用了。\n效果\n6 周用了 5 次，减了 10 斤多一点，原来是 100 公斤，最后我记得是 94 点多吧。但是后面慢慢又吃回去了，我之前室友的老板也在用这个药，据说用了半年了，现在每次打 0.2 好像。但是我感觉到后面就有耐药性了，效果没有最开始打的那么好。\n关于副作用 ed 的问题，在我使用的过程中没有碰到这个问题，周围用的人没听说过有碰到过的。",
           "link": "https://www.v2ex.com/t/1102023",
           "publishedOn": "2025-01-02T07:05:15.000Z",
-          "wordCount": 781,
+          "wordCount": 783,
           "title": "司美格鲁肽使用体验",
           "imageUrl": null
         },
@@ -632,7 +659,7 @@
           "description": "kuawo: \n来,我先说.\n公司最近刚把 11 月的工资补发上,算是一件开心的事情!\n还有几周就可以回老家过年了  有人说回老家一次,等于看好几次心理医生!  \n这次回去准备拍一拍老家的大街小巷吧,我那个生活了 20 多年的小镇.",
           "link": "https://www.v2ex.com/t/1102020",
           "publishedOn": "2025-01-02T06:55:49.000Z",
-          "wordCount": 418,
+          "wordCount": 422,
           "title": "2025, 留下你最近的开心的事儿吧",
           "imageUrl": null
         },
@@ -652,7 +679,7 @@
           "description": "pelloz: 我有多个设备同时使用：\n1.公司给配的开发设备，很重，承担主要的公司开发任务。\n2.自己常用的便携笔记本，用于出差，或者灵活拿走做演示、开会之类的事情。\n3.家里的台式机，用于加班或者干自己的活儿。\n最理想的情况应该是公司的事情都用企业微信或者钉钉来沟通，自己的事情走微信。但现实情况是微信沟通占绝大多数，各种资料、文本、图片都是直接微信在发。我又没有搞什么微信小号之类的区分工作和生活沟通，话说这种方法在国内真的可行？\n那么问题来了，我应该在哪个设备登录微信或者说通过什么办法能保证我随时能在自己正在使用的设备上找到微信消息历史纪录和之前别人发过的文件？",
           "link": "https://www.v2ex.com/t/1102018",
           "publishedOn": "2025-01-02T06:49:26.000Z",
-          "wordCount": 417,
+          "wordCount": 441,
           "title": "多个办公设备如何同步信息？嗯，说的就是微信",
           "imageUrl": null
         },
