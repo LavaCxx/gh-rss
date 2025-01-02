@@ -181,33 +181,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -369,7 +342,7 @@
           "description": "pureGirl: \n主要是用来处理数据，性能不需要太高，有没有物美价廉的推荐",
           "link": "https://www.v2ex.com/t/1101910",
           "publishedOn": "2025-01-02T02:36:59.000Z",
-          "wordCount": 462,
+          "wordCount": 478,
           "title": "部门业务需要申请服务器，求推荐",
           "imageUrl": null
         },
@@ -379,7 +352,7 @@
           "description": "zongge: \n元旦一家去外面逛街，回来的时候娃(1 岁)一直哭，然后对象一直嚷嚷着开快点，关键是我已经尽量在快了，还是让我变道变道，安全不重要？",
           "link": "https://www.v2ex.com/t/1101909",
           "publishedOn": "2025-01-02T02:33:25.000Z",
-          "wordCount": 591,
+          "wordCount": 596,
           "title": "2025 第一件糟心家事",
           "imageUrl": null
         },
@@ -389,7 +362,7 @@
           "description": "ZwenLuck: \n在 24 年压力山大的情况下，终于跨入了 25 年，恰逢元旦在周三，调休上面无法进行操作，“上四休三”的假期模式让众多打工人迎来了一个短暂而珍贵的喘息机会。\n周一：刚休息完，爽！认真上一天班。\n周二：明天又要休息，爽！认真上一天班。\n周三：休息，爽！\n周四：刚休息完，爽！认真上一天班。\n周五：明天又要休息，爽！认真上一天班。\n直接陷入良性（良心）循环！\n这一周的班上的，让我感觉幸福感提高了太多太多太多......（省略 N 个太多）",
           "link": "https://www.v2ex.com/t/1101907",
           "publishedOn": "2025-01-02T02:32:26.000Z",
-          "wordCount": 504,
+          "wordCount": 525,
           "title": "元旦调休有感",
           "imageUrl": null
         },
@@ -399,7 +372,7 @@
           "description": "xiaoniao886n: \n少了 1k 多",
           "link": "https://www.v2ex.com/t/1101906",
           "publishedOn": "2025-01-02T02:31:15.000Z",
-          "wordCount": 347,
+          "wordCount": 349,
           "title": "杭州医保到账的钱都变少了",
           "imageUrl": null
         },
@@ -419,7 +392,7 @@
           "description": "heiya: \n症状持续有五天了，扁桃体周边有红肿，嗓子很痛，吞咽困难，流鼻涕，现在开始有黄痰，晚上睡不好。不发烧，但体温不正常，之前都是 36~37 之间，现在竟然只有 35 点几度，身上感觉热。\n之前的感冒经验都是从嗓子开始，一般都是吃感康、999 之类的，效果明显。这次不一样了，先后吃了感康、莲花清瘟、蒲地蓝消炎片、新康泰克都没有效果，还是很疼。吃莲花清瘟和蒲地蓝很痛苦，跟吃饭一样，两个加起来一次吃十粒，一天还得吃三次。感康吃了两次不行，一般对我来说吃一次症状就能减轻很多。新康泰克也是如此。\n有什么药能推荐一下吗？",
           "link": "https://www.v2ex.com/t/1101904",
           "publishedOn": "2025-01-02T02:17:08.000Z",
-          "wordCount": 526,
+          "wordCount": 530,
           "title": "北京的朋友们，最近怎么回事？又开始刀片嗓了。",
           "imageUrl": null
         },
@@ -439,7 +412,7 @@
           "description": "zhenthy: \n1 、品牌型号  2 、购买渠道，最好能用上国补",
           "link": "https://www.v2ex.com/t/1101902",
           "publishedOn": "2025-01-02T02:14:09.000Z",
-          "wordCount": 358,
+          "wordCount": 365,
           "title": "Base 深圳，求推荐 3k 内的电视， 65 寸最好",
           "imageUrl": null
         },
@@ -489,7 +462,7 @@
           "description": "opscoffeecn: \n麻烦问下大佬们，2025 年了，有什么稳定（不损失本金）收益高点的理财方式？期望收益能在 3%以上\n保本！保本！保本！",
           "link": "https://www.v2ex.com/t/1101896",
           "publishedOn": "2025-01-02T01:52:24.000Z",
-          "wordCount": 1345,
+          "wordCount": 1347,
           "title": "意外得到一笔钱， 100 万，那么问题来了",
           "imageUrl": null
         },
@@ -509,7 +482,7 @@
           "description": "IurNusRay: \n7 年前的台式机了，最近玩那个新出的游戏 [燕云十六声] ，可能是显存爆了，居然直接绿屏了，然后再也无法显示了。准备在京东上买个二手的网吧拆机卡 1080Ti, 不知道靠谱不。目前的主板是技嘉 AB350M gaming-3, CPU AMD R5 1500x, 然后考虑到电源功率可能不够，再整个 750W 的全模组电源，这配置应该匹配吧",
           "link": "https://www.v2ex.com/t/1101893",
           "publishedOn": "2025-01-02T01:43:17.000Z",
-          "wordCount": 683,
+          "wordCount": 710,
           "title": "显卡坏了，准备买个二手的",
           "imageUrl": null
         },
@@ -539,7 +512,7 @@
           "description": "livc: \n看 v 站很多人推荐这个型号的电视，是去年 4 月更新的，前几代也都是在四五月，按这个节奏来说还有三个月左右又会更新新型号了。现在有国补，不确定四五月还会不会有。",
           "link": "https://www.v2ex.com/t/1101887",
           "publishedOn": "2025-01-02T01:27:38.000Z",
-          "wordCount": 630,
+          "wordCount": 644,
           "title": "TCL q10k pro 现在是购买的好时机吗",
           "imageUrl": null
         },
@@ -549,7 +522,7 @@
           "description": "y99c11: \n2024-12-31 办理完离职手续，不算元旦假期，今天是正式失业第一天。\n目前已经办了下面几件事\n查询医保和养老保险，都是暂停参保，公积金已封存\n个人所得税里个税专项附加扣除确认，这里出了点小意外，等下说\n掌上 12333 里申请了失业保险金申领\n今天准备出去激活一下上个月申请的信用卡，然后去医院一趟，前天开的单，当时没有缴费，想着等到这个月看能不能用一下医保门诊统筹，今天看医保都停缴了，肯定是不行了，不过还是得去医院把药拿回来。\n关于个税专项附加扣除，选择 2024 一键代入到 2025 ，提示贷款合同编号不一致，我翻看了一下 2022 和 2023 两次确认的都是一样的编号，怎么这次不行了，翻到 2019-2021 ，发现编号确实不一致，是我自己的锅，填错了，于是打 12366 ，语音提示半天后好不容易转到人工，描述了一下具体情况，看能不能修改一致，淡淡的回了一句，已经记录，有结果了会联系里。把这一听，心里已经凉了半截，估计以后都没法抵税了。\n心里越想越心疼，于是打开个税 app ，一个个选项研究，最后终于找到了方法，我吧 2020-2022 年这三年的综合所得年度汇算里的贷款利息抵扣都给作废了，然后一年年重新添加贷款利息抵扣，合同编号都更正了，然后到申报里点击更正，提示缴税金额正确，不用补税和退税。\n说实话，当时进行 2020-2022 综合所得年度汇算里贷款利息的作废操作时，是赌了一把的，已经做好了这三年进行补税的准备，还好，最终结果还是让人满意的。",
           "link": "https://www.v2ex.com/t/1101886",
           "publishedOn": "2025-01-02T01:27:18.000Z",
-          "wordCount": 690,
+          "wordCount": 702,
           "title": "2025 年 1 月 2 日 失业第一天",
           "imageUrl": null
         },
@@ -559,7 +532,7 @@
           "description": "miscnote: \n招聘熟悉云原生开发的 java 工程师，地点在广州科学城，薪资 2w/m ，14 薪。\n技术要求：\n精通 Java 核心技术，熟悉 JVM 调优\n熟练使用 Spring Boot 、Spring Cloud 等微服务框架\n熟悉 Docker 容器技术和 Kubernetes(K8s)编排平台，熟悉 terraform\n熟悉微服务设计模式和分布式系统架构\n熟悉 DevOps 工具链(如 Jenkins 、Git 、Maven 等)\n了解服务网格(Service Mesh)、云原生存储等技术\n学历经验：\n211 本科以上学历，计算机或者相关专业\n3 年以上 Java 开发经验，至少 1 年云原生相关开发经验\n加分项目：\n有大规模分布式系统开发经验\n具备 CKAD/CKA 等云原生相关认证\n有开源项目贡献经验\n熟悉 Istio 、Prometheus 、ELK 等云原生生态工具\n我们是一家创业公司，在电力能源方向。公司发展尚可，运营资金不缺，优秀的同学可以授予股权。\n欢迎投递简历（ base64 ）：cGVuZ3loQHNtYXJ0Z3JpZHMuY29tLmNuCg==",
           "link": "https://www.v2ex.com/t/1101885",
           "publishedOn": "2025-01-02T01:23:59.000Z",
-          "wordCount": 577,
+          "wordCount": 579,
           "title": "年后有 Java 同学找工作吗，我们在招聘",
           "imageUrl": null
         },
@@ -569,7 +542,7 @@
           "description": "for1shot: 小弟目前在 sanc G7u pro 和 红米 A27u 当中纠结。\n日常使用就是写代码，看视频，打游戏，使用时间占比均衡。\n请问各位大佬有什么建议吗",
           "link": "https://www.v2ex.com/t/1101884",
           "publishedOn": "2025-01-02T01:23:35.000Z",
-          "wordCount": 715,
+          "wordCount": 747,
           "title": "2025 年， 2k 以内 4k 显示器求推荐，非常感谢",
           "imageUrl": null
         },
@@ -579,7 +552,7 @@
           "description": "SirYuxuan: \n开源地址： https://github.com/SirYuxuan/easy-translate\n插件地址： https://plugins.jetbrains.com/plugin/26209-easy-translate/edit\n这种插件应该挺多的，可能是我没有找到我非常喜欢的把，就用 AI 开发了一个。欢迎各位大佬指导\njetbrains 全家桶都可以使用，插件市场搜索 Easy Translate ，这个下载量比较少的哈\n\n插件提供如下几个功能\n插件设置功能\n使用 Google API 可以不设置 key 只要能科学上网即可，默认快捷键可以点击直接去修改\n\nQuick Translation (快速翻译) (Alt + T)\n直接把中文变量名修改为英文，不会弹窗选择\nVariable Name Suggestions (Alt + Shift + V) 变量名推荐\n\nText Case Conversion (Alt + Shift + T) 格式转换，这个 idea 应该自带的就有了",
           "link": "https://www.v2ex.com/t/1101883",
           "publishedOn": "2025-01-02T01:22:32.000Z",
-          "wordCount": 473,
+          "wordCount": 489,
           "title": "又一款 idea 全家桶翻译插件",
           "imageUrl": null
         },
@@ -589,7 +562,7 @@
           "description": "dvbs2000: \n而且房地产中介不卷中介费\n比如降到 0.5%\n绿中介普遍都是 2%，甚至 2.5%\n按道理一个自由竞争市场，这个费用理论上会卷到 0 ，因为总有平台为了流量冲。\n这是为何？",
           "link": "https://www.v2ex.com/t/1101882",
           "publishedOn": "2025-01-02T01:20:00.000Z",
-          "wordCount": 833,
+          "wordCount": 837,
           "title": "为什么现在信息这么发达，还有房地产中介的生存空间",
           "imageUrl": null
         },
@@ -619,7 +592,7 @@
           "description": "harlansboy: \n🎉 发现一款超神奇的 AI 对话神器！｜解锁智能交流新姿势 #AI 助手 #效率工具\n姐妹们！今天给大家安利一个让我爱不释手的 AI 应用 - DeepSeek iOS 版🌟\n💫 [亮点全解析] \n基于 SwiftUI 开发，界面简约！\n内置 DeepSeek 超强大语言模型，对话更加智能。\n支持不同的 Prompts 帮你快速切换不同的聊天角色～\n🎀 [实用功能]  随时随地陪你聊天，不管是学习、工作还是生活都能帮到你：\n多轮对话超智能，越聊越上头\n历史记录贴心保存，重要内容不丢失\n自定义提示词，让 AI 更懂你的心\n🌈 [开发者的话]  开源不易，如果这个项目对你有帮助，欢迎到 GitHub （ https://github.com/DargonLee/DeepSeek ）给个 Star⭐️ 你的每一个点赞都是我持续优化的动力！",
           "link": "https://www.v2ex.com/t/1101877",
           "publishedOn": "2025-01-02T00:52:23.000Z",
-          "wordCount": 574,
+          "wordCount": 598,
           "title": "DeepSeek iOS - 高效率的 AI 助手",
           "imageUrl": null
         },
@@ -649,7 +622,7 @@
           "description": "LouisGuo: 亚里士多德：理性的人寻求的不是快乐，而是没有痛苦。\n    假如我们整个身体健康无恙，但只有一处地方受伤或者疼痛，那我们身体的整体健康就不会进入我们的意识里。我们的注意力始终集中在那微小的疼痛之处。同样，违反我们意愿的事情，即使是微不足道的，但这不如意就会进入我们头脑，我们就会惦记这件事情。\n    所以，判断一个人现在是否幸福，去问问他最近烦恼的事情把，看看事情是多么渺小，你就知道你现在有多幸福了。在很不幸地时候，那些微小的事情，你是感受不到的。\n写下大家最近的烦恼吧",
           "link": "https://www.v2ex.com/t/1101874",
           "publishedOn": "2025-01-02T00:33:33.000Z",
-          "wordCount": 1027,
+          "wordCount": 1052,
           "title": "2025, 留下你最近的烦恼吧",
           "imageUrl": null
         },
@@ -679,7 +652,7 @@
           "description": "walterdarrell063: \n在下是医學相關的.\n有個病叫 moebius syndrome.\n是第 7 面神經有問題, 但他又不是平常的形式(上神經元/下神經元).\n直接問的話 chatgpt4, claude 3.5 sonnet, deepseek v3 都不知道.\n可是我把 一份論文上傳后.\ngpt4, deepseek v3 依然自己說自己的,\n只有 claude 3.5 sonnet 有反省:\n其他兩個在我把 c3.5 的回答則上后,\n他們才知道自己錯了.\n可是 c3.5 一般 reply 都很短. 唯有 gpt4 配 c3.5 用.\n图... google 一下 title 吧. thx",
           "link": "https://www.v2ex.com/t/1101871",
           "publishedOn": "2025-01-01T19:55:43.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "claude 3.5 sonnet (cursor 白嫖版) 依然是我用过最智能的 LLM",
           "imageUrl": null
         },
@@ -689,7 +662,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1101870",
           "publishedOn": "2025-01-01T18:34:49.000Z",
-          "wordCount": 1038,
+          "wordCount": 1046,
           "title": "Flash 被放弃真的是因为安全问题吗？为什么 Adobe 不选择重写更安全的 Flash，而是直接放弃这么大的市场，很多老动画、游戏的官网都是 Flash 写的，十几年没人维...",
           "imageUrl": null
         },
@@ -699,7 +672,7 @@
           "description": "zhouhuab: \n公司介绍\n我们是做开源远程桌面的 RustDesk\n技术要求\nRust / Postgres / Redis / MQTT ，有一定高并发、高性能、高可用分布式系统开发经验\n面试方式\n我们会让你给 https://github.com/rustdesk/rustdesk-server 添加一个小需求\n待遇\n月工资 15K ~ 30K 人民币, 年终奖 2 ~ 4 个月工资，调薪 +10 ~ +20%\n投递简历\nICAgemhvdUBydXN0ZGVzay5jb20gICAgICAgICAgIA==",
           "link": "https://www.v2ex.com/t/1101869",
           "publishedOn": "2025-01-01T17:38:00.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "[远程] SaaS Rust 后端",
           "imageUrl": null
         },
@@ -749,7 +722,7 @@
           "description": "ElsaGranger: \n题记：因为永远想不到这一些基于 Web 的文件管理器会出什么 Bug\n硬件：一个吃灰的 TerraMaster F8-422 ，TOS 5.1\n有一个服务器需要维护硬盘，临时找不到另一台有合适的空间的服务器来暂存数据，就用这个 NAS 来作为一个暂存数据的地方。\n等数据都 rsync 完了之后，想要把里面一个文件夹移动到上一级目录，本来在 Linux 里面这是非常容易的一件事情，就是 mv folder ..。但是简单地找了一下好像 TOS 并没有提供终端，我选择就直接用 TOS 自带的文件管理来操作。\n然后就一个剪切文件夹（这个文件夹里面数据非常多，数据量大、文件数量也多），然后再回到上一级目录粘贴。第一个恼火的点就来了，居然一个 mv 就能解决的事情，等了好一阵子，除了原始文件夹变灰了以外，没有任何反应。然后我尝试又粘贴了几下，也没有任何反应。\n过了一段时间发现文件夹确实被移动到上一层目录了，但是让我万万没有想到的是，发现文件夹里面的子文件夹的修改时间居然发生了变化。经过检查之后发现居然是文件被删了。\n在 web 端里面提供的后台进程里面也可以看到有一个 rm 跑得无比地欢，因为文件非常多，删了几个小时也没有删完，倒是磁盘的占用空间可以看到在缓慢地下降。\n对于发生这种文件，对于各种 NAS 系统的制作水平而言，只能说意料之外，情理之中。可能永远不会选择使用 NAS 系统了。",
           "link": "https://www.v2ex.com/t/1101864",
           "publishedOn": "2025-01-01T16:16:06.000Z",
-          "wordCount": 528,
+          "wordCount": 526,
           "title": "谨慎用各种 NAS 系统提供的基于 Web 的文件管理",
           "imageUrl": null
         }
