@@ -379,7 +379,7 @@
           "description": "noble4cc: 女主播有大哥们刷钱，可以理解，男主播怎么赚钱，首先女性整体很穷，大姐比大哥少多了，在加上女性总想花男人钱，好奇这些男主播能赚多少钱一个月",
           "link": "https://www.v2ex.com/t/1102063",
           "publishedOn": "2025-01-02T08:40:29.000Z",
-          "wordCount": 748,
+          "wordCount": 785,
           "title": "颜值男主播的收入能到多少",
           "imageUrl": null
         },
@@ -389,7 +389,7 @@
           "description": "ShimaKazeLiu: \n家里的服务器装了个 WiFi 开机卡，连线是机箱的 sw 线插上板子，板子的两个针脚连一根 sw 线出来插在主机上。然后卡插在 PCIe 的插槽内。\n最开始碰到个很诡异的事情，就是电脑通电就会开机，只要断电后通电就会开机，百思不得解，一通测试后，发现是开机卡的问题，就在 bios 里面把“PCIe 设备触发开机”的功能关了就好了。不知道会不会帮助到别人。\n现在说我的问题，总而言之，现在就是这个卡无法关机。在 APP 内点击关机，电脑没有关机的迹象。\n电脑的使用环境比较特殊，除了网线和 nps 的通信线和电源线，啥都没接，每次使用都是远程环境。\n然后他也不是每次都不能关机，我只要在远程的状态就能关机，不管是 todesk 还是微软远程连接，只要在远程状态就能关能重启，只要不在远程状态就关不了。\n已经在控制面板中的电源设置了“按下电源键关机”和在策略内把“关机：允许系统在未登录的情况下关闭”启动了\n很疑惑，不知道是不是因为锁屏导致的无法关机，但是我不知道怎么设置，还是说我要买个显卡欺骗器？",
           "link": "https://www.v2ex.com/t/1102062",
           "publishedOn": "2025-01-02T08:39:53.000Z",
-          "wordCount": 439,
+          "wordCount": 446,
           "title": "疑惑， WiFi 开机卡能开机不能关机",
           "imageUrl": null
         },
@@ -509,7 +509,7 @@
           "description": "SWALLOWW: 前几天晚上去山姆，我和我女朋友，人很多，开车去的，停车一直在找位置，\n当时我的状况是：非常想拉屎，能忍但快到极限了。\n停车一直在打圈，突然发现有一个车要走了，我女朋友让我在旁边等着，但是过道很小，后面车是通行不了的，当时后面没车。\n然后一直在等那个车，后面来车了，开始闪我，我就只能往前开走了。\n我女朋友就开始抱怨，为什么要给后车让，你让他等一会怎么了，大家不都这样吗？\n我就说，咱们做事不能影响别人。\n然后又转回原来位置，发现被人抢了。\n她说：就你善良？大家都这样做，反正我不着急，你就慢慢转悠吧。\n\n\n我觉得我做的是挺正常的一件事，她也有她的想法，但我觉得她不应该说我风凉话。那时候我挺难受的。",
           "link": "https://www.v2ex.com/t/1102040",
           "publishedOn": "2025-01-02T07:41:41.000Z",
-          "wordCount": 738,
+          "wordCount": 761,
           "title": "看帖子突然也想分享个事情，大家评判下",
           "imageUrl": null
         },
@@ -539,7 +539,7 @@
           "description": "Apple2023: 目前就放在车上当 carplay 用了 插着数据线 听着酷狗音乐 很舒服~~哈哈\n考虑要不要换个电池呢 现在电池健康 77%",
           "link": "https://www.v2ex.com/t/1102037",
           "publishedOn": "2025-01-02T07:36:21.000Z",
-          "wordCount": 370,
+          "wordCount": 377,
           "title": "iPhone7 还在服役",
           "imageUrl": null
         },
@@ -559,7 +559,7 @@
           "description": "guoguobaba: \n继承 APIView 的方法，发现每个请求都是单独的 event loop ，\nwait task 318760 future data, future: 140251998671568, loop:140251997385056\nset task 318760 future data, future: 140251998671568, loop:140251997385056\nwait task 318762 future data, future: 140251998681952, loop:140251998919920\nset task 318761 future data, future: 140251997477472, loop:140251997378624\n\n你在 A 请求里\nfuture = loop.create_future()\nresult = await asyncio.wait_for(future, timeout=timeout)\n\n把 future 传给另一个线程(比如 websocket executor)，还得把 loop 一起传过去，\n            async with task_store.lock:\n                future, loop = task_store.task_results.pop(task_id, (None, None))\n            if future:\n                logger.info(f\"set task {task_id} future data, future: {id(future)}, loop:{id(loop)}\")\n                loop.call_soon_threadsafe(future.set_result, result_data)\n            else:\n                logger.warning(f\"can not find active task {task_id}\")\n\n相当于每个请求还是独立的线程，然后在线程里搞 async io 。这有啥意义啊。",
           "link": "https://www.v2ex.com/t/1102034",
           "publishedOn": "2025-01-02T07:23:05.000Z",
-          "wordCount": 681,
+          "wordCount": 692,
           "title": "django 的 asyncio 搞了个寂寞",
           "imageUrl": null
         },
@@ -579,7 +579,7 @@
           "description": "szsgz: 虽然一直是苹果用户，但是从 Picasa 年代已经开始不间断使用 Google Photos ，那时候甚至连智能手机都还没有。\n从 2011 年左右智能手机慢慢普及，照片开始可以记录位置信息，谷歌相册就一直默默地记录着我到拍照的地方。\n奔四的人了，新的一年又老一岁，看着前半辈子的轨迹还挺有意思。",
           "link": "https://www.v2ex.com/t/1102032",
           "publishedOn": "2025-01-02T07:17:20.000Z",
-          "wordCount": 506,
+          "wordCount": 510,
           "title": "从谷歌相册窥见人生轨迹",
           "imageUrl": null
         },
