@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-03T23:14:40.087Z</id>
+    <id>urn:2025-01-03T23:35:55.205Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-03T23:14:40.087Z</updated>
+    <updated>2025-01-03T23:35:55.205Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[OneDrive 云盘迁移功能发布了，支持 Google Drive、Google Photos 和 Dropbox]]></title>
+        <id>https://www.v2ex.com/t/1102430</id>
+        <link href="https://www.v2ex.com/t/1102430"/>
+        <updated>2025-01-03T19:29:16.000Z</updated>
+        <summary type="html"><![CDATA[Fdyo: 
+通过 OneDrive 云盘迁移功能可一键导入存储在 Google Drive 、Google Photos 以及 Dropbox 上的所有文件和照片。 但是还不支持 iCloud 。
+原文链接：OneDrive 已支持云盘迁移功能，支持 Google Photos 、Dropbox 等]]></summary>
+        <author>
+            <name>Fdyo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站上提币问题]]></title>
+        <id>https://www.v2ex.com/t/1102429</id>
+        <link href="https://www.v2ex.com/t/1102429"/>
+        <updated>2025-01-03T18:56:32.000Z</updated>
+        <summary type="html"><![CDATA[Preposterous: 如题，btc 地址怎么得到？
+想要把 btc 提出来，写纸上，放优盘？]]></summary>
+        <author>
+            <name>Preposterous</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求推荐 安卓手机]]></title>
+        <id>https://www.v2ex.com/t/1102428</id>
+        <link href="https://www.v2ex.com/t/1102428"/>
+        <updated>2025-01-03T18:36:53.000Z</updated>
+        <summary type="html"><![CDATA[ada65line: 最近想给家里人弄个手机，替换原来的荣耀 9X 。
+但是对安卓机不是很熟悉，暂时想到一些需求罗列如下，问问大家有没有推荐的。
+不纠结新机，二手的也可以。不过力求多用几年，最好是那种钉子户机型。
+如果正好有闲置机器的也可以联系。
+- 支持通话录音
+- 支持双卡，支持 5G
+- 解锁屏幕时灵敏方便
+- 屏幕 7 寸左右
+- 系统相对比较干净（无广告/少广告/少预装垃圾软件）
+- 续航说的过去（避免火龙型号）
+- 闪存>=128G （没有概念。有微信这个大头，是不是 256 比较好？）
+- 内存>=8G （运行些微信炒股抖音应该不至于卡吧）
+- 预算 2k （当然越便宜越好）
+- 对拍照/充电速度/WIFI 等没有特殊要求，能用就行
+- 对 JB 没有要求]]></summary>
+        <author>
+            <name>ada65line</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[有什么好办法限制 Python 的内存分配吗？]]></title>
         <id>https://www.v2ex.com/t/1102427</id>
@@ -521,54 +568,6 @@ OpenClash 从最后一个非 META 的 014 到最新的 064 版都碰到这个问
 我实在搞不定这个 ahk]]></summary>
         <author>
             <name>chenqh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[求问 AP vs mesh 的本质区别]]></title>
-        <id>https://www.v2ex.com/t/1102379</id>
-        <link href="https://www.v2ex.com/t/1102379"/>
-        <updated>2025-01-03T11:30:13.000Z</updated>
-        <summary type="html"><![CDATA[kid1412621: 
-看了很多视频，文章，对 Router + AP + (PoE switch) vs  wired  mesh 的分析讲解都含糊不清。
-What I knew:
-AP 可配多个 ssid 或者一个，mesh 始终一个；
-无缝漫游，看是否支持 krv ；
-Mesh 可故障转移？
-What I want to know:
-中继桥接 和 Router + AP 是啥区别？
-AP 漫游是不是不能无缝？
-unifi 的 AP mesh 是啥？无线 mesh ？
-Wi-Fi 6 ，7 了还有人叫 AC + AP ？
-弱电箱（ modem -> 主路由 ）
-电视柜（ 网口 -> 交换机 -> 子路由/软路由/…）
-其它 （ 网口 -> PC ）
-弱电箱（ modem -> 主路由 -> poe 交换机/软路由）
-电视柜（ 网口 -> AP/…）]]></summary>
-        <author>
-            <name>kid1412621</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[广州汇丰银行 - TEKsystems - 招聘 DBA 数据库运维 20-30k * 14 - partial WFH]]></title>
-        <id>https://www.v2ex.com/t/1102378</id>
-        <link href="https://www.v2ex.com/t/1102378"/>
-        <updated>2025-01-03T11:30:05.000Z</updated>
-        <summary type="html"><![CDATA[JasonLaw: 广州世界 500 强金融科技外企岗位！
-各位欢迎来撩呀[Joyful]
-✅DBA 数据库运维：
-1. 7 年以上数据库运维方面的经验。
-2. 具有 MongoDB 数据库经验
-3. 如果有编程能力加分
-4. 英文能进行简单沟通，能进行 10 分钟左右的英文面试
-✅亮点：
-1. 朝九晚六，混合办公（在家+办公室）
-2. 外企氛围工作环境好，人性化管理
-3. 外企 500 强经验，为履历加分
-4. 六险一金，一年 12 个月月薪+2 个月项目奖金
-薪资 20k-30k
-微信：275781488]]></summary>
-        <author>
-            <name>JasonLaw</name>
         </author>
     </entry>
     <entry>

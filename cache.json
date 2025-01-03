@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -333,6 +339,36 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102430",
+          "author": "Fdyo",
+          "description": "Fdyo: \n通过 OneDrive 云盘迁移功能可一键导入存储在 Google Drive 、Google Photos 以及 Dropbox 上的所有文件和照片。 但是还不支持 iCloud 。\n原文链接：OneDrive 已支持云盘迁移功能，支持 Google Photos 、Dropbox 等",
+          "link": "https://www.v2ex.com/t/1102430",
+          "publishedOn": "2025-01-03T19:29:16.000Z",
+          "wordCount": 383,
+          "title": "OneDrive 云盘迁移功能发布了，支持 Google Drive、Google Photos 和 Dropbox",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102429",
+          "author": "Preposterous",
+          "description": "Preposterous: 如题，btc 地址怎么得到？\n想要把 btc 提出来，写纸上，放优盘？",
+          "link": "https://www.v2ex.com/t/1102429",
+          "publishedOn": "2025-01-03T18:56:32.000Z",
+          "wordCount": 373,
+          "title": "网站上提币问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102428",
+          "author": "ada65line",
+          "description": "ada65line: 最近想给家里人弄个手机，替换原来的荣耀 9X 。\n但是对安卓机不是很熟悉，暂时想到一些需求罗列如下，问问大家有没有推荐的。\n不纠结新机，二手的也可以。不过力求多用几年，最好是那种钉子户机型。\n如果正好有闲置机器的也可以联系。\n- 支持通话录音\n- 支持双卡，支持 5G\n- 解锁屏幕时灵敏方便\n- 屏幕 7 寸左右\n- 系统相对比较干净（无广告/少广告/少预装垃圾软件）\n- 续航说的过去（避免火龙型号）\n- 闪存>=128G （没有概念。有微信这个大头，是不是 256 比较好？）\n- 内存>=8G （运行些微信炒股抖音应该不至于卡吧）\n- 预算 2k （当然越便宜越好）\n- 对拍照/充电速度/WIFI 等没有特殊要求，能用就行\n- 对 JB 没有要求",
+          "link": "https://www.v2ex.com/t/1102428",
+          "publishedOn": "2025-01-03T18:36:53.000Z",
+          "wordCount": 425,
+          "title": "求推荐 安卓手机",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102427",
           "author": "HawkinsSherpherd",
           "description": "HawkinsSherpherd: \n这是一段会吃掉几乎所有可用内存的代码：\ndef Decompress_Gzip_With_Progress_Bar(gzip_path, output_path):\n    with gzip.open(gzip_path, 'rb') as f_in:\n        with open(output_path, 'wb') as f_out:\n            file_size = Get_Uncompressed_Size(gzip_path)\n            chunk_size = 1024 * 1024\n            with tqdm(total=file_size, unit='B', unit_scale=True, desc=\"Decompressing \" + gzip_path) as pbar:\n                for block in iter(lambda: f_in.read(chunk_size), b''):\n                    f_out.write(block)\n                    pbar.update(len(block))\n\n它被用于解压一个解压后大概 4G 大小的文件。\n直接在我的 16G 内存的开发虚拟机上运行，它会吃掉所有的内存。\n但是，如果我把它放到一个分配 1G 内存的容器里，它不仅能运行，甚至还能运行得更快。\n我试过用 resource 限制内存分配，但是它还是会吃满所有内存。\n有没有什么能直接写到 Python 代码里的限制内存分配的方法呢？",
@@ -368,7 +404,7 @@
           "description": "Raynard: \n纯家用，不需要外网访问，\n提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。\n目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。\n期望的要求：维护简单，使用方便，可靠性高。\n优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。\n希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！",
           "link": "https://www.v2ex.com/t/1102424",
           "publishedOn": "2025-01-03T16:43:48.000Z",
-          "wordCount": 506,
+          "wordCount": 516,
           "title": "如何搭建 PB 级影音存储服务器？",
           "imageUrl": null
         },
@@ -418,7 +454,7 @@
           "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
           "link": "https://www.v2ex.com/t/1102417",
           "publishedOn": "2025-01-03T15:32:50.000Z",
-          "wordCount": 1305,
+          "wordCount": 1307,
           "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -468,7 +504,7 @@
           "description": "x4storm: 之前 Windows 11 上音频播放出问题，出现滞后，卡顿，找了一圈，最终是重启解决。\n现在在运行一个 ollama 推理的时候鼠标突然动不了，在网上找了一圈也没看到靠谱的，在不重启的情况下解决的办法。\n之前在 Mac 上遇到音频相关的问题，都是 kill 掉某个服务，重启该服务就解决了，windows 上非得要重启系统。\n感觉都不想在 windows 上进行开发和工作了。",
           "link": "https://www.v2ex.com/t/1102410",
           "publishedOn": "2025-01-03T14:40:04.000Z",
-          "wordCount": 446,
+          "wordCount": 450,
           "title": "Windows 上音频，鼠标遇到问题后，有没有像 macOS 一样有重启对应服务的办法？",
           "imageUrl": null
         },
@@ -660,26 +696,6 @@
           "publishedOn": "2025-01-03T11:39:48.000Z",
           "wordCount": 443,
           "title": "关于 ahk 的问题,ahk 怎么写一个类似 vscode 的 ctrl+shift+p 的一个 dropdownlist 啊,",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102379",
-          "author": "kid1412621",
-          "description": "kid1412621: \n看了很多视频，文章，对 Router + AP + (PoE switch) vs  wired  mesh 的分析讲解都含糊不清。\nWhat I knew:\nAP 可配多个 ssid 或者一个，mesh 始终一个；\n无缝漫游，看是否支持 krv ；\nMesh 可故障转移？\nWhat I want to know:\n中继桥接 和 Router + AP 是啥区别？\nAP 漫游是不是不能无缝？\nunifi 的 AP mesh 是啥？无线 mesh ？\nWi-Fi 6 ，7 了还有人叫 AC + AP ？\n弱电箱（ modem -> 主路由 ）\n电视柜（ 网口 -> 交换机 -> 子路由/软路由/…）\n其它 （ 网口 -> PC ）\n弱电箱（ modem -> 主路由 -> poe 交换机/软路由）\n电视柜（ 网口 -> AP/…）",
-          "link": "https://www.v2ex.com/t/1102379",
-          "publishedOn": "2025-01-03T11:30:13.000Z",
-          "wordCount": 772,
-          "title": "求问 AP vs mesh 的本质区别",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102378",
-          "author": "JasonLaw",
-          "description": "JasonLaw: 广州世界 500 强金融科技外企岗位！\n各位欢迎来撩呀[Joyful]\n✅DBA 数据库运维：\n1. 7 年以上数据库运维方面的经验。\n2. 具有 MongoDB 数据库经验\n3. 如果有编程能力加分\n4. 英文能进行简单沟通，能进行 10 分钟左右的英文面试\n✅亮点：\n1. 朝九晚六，混合办公（在家+办公室）\n2. 外企氛围工作环境好，人性化管理\n3. 外企 500 强经验，为履历加分\n4. 六险一金，一年 12 个月月薪+2 个月项目奖金\n薪资 20k-30k\n微信：275781488",
-          "link": "https://www.v2ex.com/t/1102378",
-          "publishedOn": "2025-01-03T11:30:05.000Z",
-          "wordCount": 401,
-          "title": "广州汇丰银行 - TEKsystems - 招聘 DBA 数据库运维 20-30k * 14 - partial WFH",
           "imageUrl": null
         }
       ]
