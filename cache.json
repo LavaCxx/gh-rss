@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -344,7 +338,7 @@
           "description": "HawkinsSherpherd: \n这是一段会吃掉几乎所有可用内存的代码：\ndef Decompress_Gzip_With_Progress_Bar(gzip_path, output_path):\n    with gzip.open(gzip_path, 'rb') as f_in:\n        with open(output_path, 'wb') as f_out:\n            file_size = Get_Uncompressed_Size(gzip_path)\n            chunk_size = 1024 * 1024\n            with tqdm(total=file_size, unit='B', unit_scale=True, desc=\"Decompressing \" + gzip_path) as pbar:\n                for block in iter(lambda: f_in.read(chunk_size), b''):\n                    f_out.write(block)\n                    pbar.update(len(block))\n\n它被用于解压一个解压后大概 4G 大小的文件。\n直接在我的 16G 内存的开发虚拟机上运行，它会吃掉所有的内存。\n但是，如果我把它放到一个分配 1G 内存的容器里，它不仅能运行，甚至还能运行得更快。\n我试过用 resource 限制内存分配，但是它还是会吃满所有内存。\n有没有什么能直接写到 Python 代码里的限制内存分配的方法呢？",
           "link": "https://www.v2ex.com/t/1102427",
           "publishedOn": "2025-01-03T17:55:42.000Z",
-          "wordCount": 507,
+          "wordCount": 511,
           "title": "有什么好办法限制 Python 的内存分配吗？",
           "imageUrl": null
         },
@@ -404,7 +398,7 @@
           "description": "Ashkin: \nnPlayer 在高版本的 Android 里面无法读取文件，VLC 总是在托进度条的时候卡顿，有没有更好的选择？",
           "link": "https://www.v2ex.com/t/1102420",
           "publishedOn": "2025-01-03T15:47:44.000Z",
-          "wordCount": 439,
+          "wordCount": 441,
           "title": "Android 现阶段最好的本地视频播放器是什么？",
           "imageUrl": null
         },
@@ -424,7 +418,7 @@
           "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
           "link": "https://www.v2ex.com/t/1102417",
           "publishedOn": "2025-01-03T15:32:50.000Z",
-          "wordCount": 1464,
+          "wordCount": 1309,
           "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -434,7 +428,7 @@
           "description": "HeyBoy2077: 我刚办了联通 2000 兆（大傻逼）入网给了华为 F30 （子猫 2.5G ） 我直接通过子猫 2.5G 下联 UDM-SE 2.5G 结果 UDM- SE 无法正常联网。 联通还告诉我千万不要走桥接，否则必降速！",
           "link": "https://www.v2ex.com/t/1102416",
           "publishedOn": "2025-01-03T15:29:38.000Z",
-          "wordCount": 431,
+          "wordCount": 433,
           "title": "联通 FTTR 不能 DHCP 下挂 Wi-Fi？",
           "imageUrl": null
         },
@@ -574,7 +568,7 @@
           "description": "iseki: 奇怪之处似乎在于，这些人似乎觉得，自己在有机会接受了多年教育后，就理应得到显著高于他人的收入。🤔🤔🤔",
           "link": "https://www.v2ex.com/t/1102393",
           "publishedOn": "2025-01-03T12:59:16.000Z",
-          "wordCount": 507,
+          "wordCount": 516,
           "title": "为何见许多人抱怨上了多年学，最后只能去做个收入不高的工作，而不是去抱怨，为何存在这样收入低的工作呢？",
           "imageUrl": null
         },
