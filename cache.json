@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -173,33 +167,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -340,6 +307,423 @@
           "wordCount": null,
           "title": "Hetzner Cloud 新旧用户通用10欧元优惠码 该优惠代码适用于 Hetzner Cloud 产品，包括对象存储 Object Storage，新旧顾客均可使用。在控制台点击 Redeem Code 使...",
           "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "V2EX-最新主题",
+      "feedUrl": "https://rsshub.app/v2ex/topics/latest",
+      "siteUrl": "https://www.v2ex.com/",
+      "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1102386",
+          "author": "inza9hi",
+          "description": "inza9hi: \n我一直以为静态分析已经很强大了，\n尝试了下 IDEA 自带的工具和 PMD\n竟然都分析不出来。\nPS: A 是 Pb 生成的，B 是手写的，所以导致有用 int ，有用 integer\n@Data\n    static class A{\n        private int a;\n    }\n    @Data\n    static class B  {\n        private Integer b;\n    }\n\n    public static void main(String[] args) {\n        A a = new A();\n        B b = new B();\n       a.setA(b.getB());\n    }",
+          "link": "https://www.v2ex.com/t/1102386",
+          "publishedOn": "2025-01-03T12:07:56.000Z",
+          "wordCount": 425,
+          "title": "有静态分析工具可以分析出因为拆箱导致的空指针 NPE 吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102385",
+          "author": "ooops",
+          "description": "ooops: 还没概念，刚开始看，京东和淘宝都是 6000 左右，但是拼多多百亿补贴的商家（这款不是补贴）只要 4500 还带支架。 比参与补贴的 800d+后置+支架还便宜。\n全新+正品发票+全国联保，有点心动，有啥坑不？",
+          "link": "https://www.v2ex.com/t/1102385",
+          "publishedOn": "2025-01-03T12:00:52.000Z",
+          "wordCount": 380,
+          "title": "拼多多 三星 Q930D 套装 4500 靠谱不",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102384",
+          "author": "bzkmsjy",
+          "description": "bzkmsjy: \n麻烦大佬们帮帮忙，困扰了我好久的问题，设备是 N1 旁路由，只要开启了 OpenClash ，手机上一些网站就会跳出证书不受信任的提示（电脑没碰到过），下面这个就是用 Via 浏览器打开 423down 的提示：\n与 cdn.staticfile.org 的连接不安全：\n证书不受信任\n是否继续？\n颁发对象\n公用名 (CN)\niStoreOS\n组织 (O)\nOpenWrt531f84ed\n组织单位 (OU)\n颁发者\n公用名 (CN)\niStoreOS\n组织 (O)\nOpenWrt531f84ed \n有效期\n颁发日期\n2024 年 4 月 28 日 11:46\n截止日期\n2026 年 4 月 28 日 11:46 \nSHA-256 指纹\n证书\n0211C5FC648DDDD8F3C1173C65F13CE0C800D64D426EBF46445EB654607EF25B\n公钥\nF1BCBEEA7267895A4233FEAE6D9C535A0CE956C49126741422CF4CD95136406F \n奇怪的点还有，用手机版 Chrome 打开同样的网站却不会弹出提示，然后软路由关闭 Clash ，Via 浏览器也不会弹了。\n还有一个频繁弹窗的是京东 APP ，提示如下：\n当前网站证书不可信且证书链长度为 1 ，可能是服务器没有配置完整证书链，是否信任并继续访问？\n证书内容和上面那个一样，是 iStoreOS 的。\nOpenClash 从最后一个非 META 的 014 到最新的 064 版都碰到这个问题。",
+          "link": "https://www.v2ex.com/t/1102384",
+          "publishedOn": "2025-01-03T11:49:34.000Z",
+          "wordCount": 542,
+          "title": "启动 OpenClash 后一些网站和 APP 跳证书不受信任是什么原因？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102383",
+          "author": "AlohaW",
+          "description": "AlohaW: 求推荐，稳健一点的，纳指或者标普 500 未来一个月咋样？",
+          "link": "https://www.v2ex.com/t/1102383",
+          "publishedOn": "2025-01-03T11:47:56.000Z",
+          "wordCount": 436,
+          "title": "20w 现金免费用一个月，买什么好",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102382",
+          "author": "MRlaopeng",
+          "description": "MRlaopeng: \n没写过前端的后端人,\n今天初尝 vue 没想到这么方便\n直接 npm create vue@latest 就可以创建好目录结构\n那岂不是就得按官方的来了?",
+          "link": "https://www.v2ex.com/t/1102382",
+          "publishedOn": "2025-01-03T11:44:25.000Z",
+          "wordCount": 447,
+          "title": "你们写 vue 一定是按照 vue 的脚手架的目录结构来写吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102381",
+          "author": "chenqh",
+          "description": "chenqh: \n原谅我伸手\n我实在搞不定这个 ahk",
+          "link": "https://www.v2ex.com/t/1102381",
+          "publishedOn": "2025-01-03T11:39:48.000Z",
+          "wordCount": 443,
+          "title": "关于 ahk 的问题,ahk 怎么写一个类似 vscode 的 ctrl+shift+p 的一个 dropdownlist 啊,",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102379",
+          "author": "kid1412621",
+          "description": "kid1412621: \n看了很多视频，文章，对 Router + AP + (PoE switch) vs  wired  mesh 的分析讲解都含糊不清。\nWhat I knew:\nAP 可配多个 ssid 或者一个，mesh 始终一个；\n无缝漫游，看是否支持 krv ；\nMesh 可故障转移？\nWhat I want to know:\n中继桥接 和 Router + AP 是啥区别？\nAP 漫游是不是不能无缝？\nunifi 的 AP mesh 是啥？无线 mesh ？\nWi-Fi 6 ，7 了还有人叫 AC + AP ？\n弱电箱（ modem -> 主路由 ）\n电视柜（ 网口 -> 交换机 -> 子路由/软路由/…）\n其它 （ 网口 -> PC ）\n弱电箱（ modem -> 主路由 -> poe 交换机/软路由）\n电视柜（ 网口 -> AP/…）",
+          "link": "https://www.v2ex.com/t/1102379",
+          "publishedOn": "2025-01-03T11:30:13.000Z",
+          "wordCount": 772,
+          "title": "求问 AP vs mesh 的本质区别",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102378",
+          "author": "JasonLaw",
+          "description": "JasonLaw: 广州世界 500 强金融科技外企岗位！\n各位欢迎来撩呀[Joyful]\n✅DBA 数据库运维：\n1. 7 年以上数据库运维方面的经验。\n2. 具有 MongoDB 数据库经验\n3. 如果有编程能力加分\n4. 英文能进行简单沟通，能进行 10 分钟左右的英文面试\n✅亮点：\n1. 朝九晚六，混合办公（在家+办公室）\n2. 外企氛围工作环境好，人性化管理\n3. 外企 500 强经验，为履历加分\n4. 六险一金，一年 12 个月月薪+2 个月项目奖金\n薪资 20k-30k\n微信：275781488",
+          "link": "https://www.v2ex.com/t/1102378",
+          "publishedOn": "2025-01-03T11:30:05.000Z",
+          "wordCount": 401,
+          "title": "广州汇丰银行 - TEKsystems - 招聘 DBA 数据库运维 20-30k * 14 - partial WFH",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102377",
+          "author": "fengsi",
+          "description": "fengsi: \n我自己的 m1 pro 的电脑买来用来用了两年，现在电池最大容量 91%，循环次数 75 ，我是一直使用 aldente 来保护电池的。\n我在公司实习时发的 m3 pro ，已经用了大半年了，电池容量 100%，循环次数 30+，没用过 aldente ，也没对电池进行特殊设置，因为不是自己的电脑吗，怎么糙怎么来了。\n我自己的那台电脑在我使用了大半年后电池容量已经到 95%左右了，所以挺有意思的，没用 aldente 的却电池很好，当然这只是我自己的一个小 case ，不排除其他我未知的变量。",
+          "link": "https://www.v2ex.com/t/1102377",
+          "publishedOn": "2025-01-03T11:27:47.000Z",
+          "wordCount": 407,
+          "title": "关于 MacOS 电池容量 的一个个人 case",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102376",
+          "author": "YuanJiwei",
+          "description": "YuanJiwei: \n最近 browser-use 这个项目特别火，感觉 2025 年，大家对 web agent 的需求还是很旺盛的，准备参考 https://midscenejs.com/ 和 https://github.com/browser-use/browser-use 整个 webagent 的开源框架。基于 typescript ，让广大前端开发者也加入到 ai agents 的浪潮中。底层浏览器驱动是基于 Puppetter 还是，基于 Playwright 比较好呀？\n有感兴趣的朋友添加我的微信，一起开发。\n微信（ base64)：eXVhbnNkdQ==",
+          "link": "https://www.v2ex.com/t/1102376",
+          "publishedOn": "2025-01-03T11:27:18.000Z",
+          "wordCount": 433,
+          "title": "准备开发一个浏览器 AI Agents, 浏览器驱动选择 Puppetter 和 Playwright 哪个好呀？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102375",
+          "author": "ShehJ",
+          "description": "ShehJ: \n之前 web3 搞空投的时候搜过各种临时邮箱，用着各种不爽，然后也想自己写一个，直到最近才写完了一个初版。\n域名：ggg.ga\n关于域名\n本来是想注册一个含义域名，但是找了挺久，常见后缀的还不错的含义域名基本都被注册了\n如果使用含义名+小众后缀又容易给别人做\"嫁衣\"\n索性直接用了一个好记点的小众后缀。\n关于邮箱后缀\n目前有两个 @linkmail.top （测试）、 @ddrdd.com ，之后会再加几个选项。\n邮箱后缀这块，收信邮箱也是尽量要.com 吗？还是影响不大？\n关于功能\n目前也就实现了临时邮箱的基本功能，邮件默认保存 7 天，不删浏览器缓存不点新建一个邮箱可以一直使用\n后面应该会加一个保存邮箱密钥，通过密钥复用邮箱的功能\n各位还有什么功能上、界面外观上的建议吗？\n整体还算是写着玩的吧，功能还有待完善，顺便学了一点 tailwindcss ，不得不说这个东西以前觉得乱，实际用了还是挺好用的。\n该域名及临时邮箱会长期保留，各位薅羊毛的时候可以用一用。",
+          "link": "https://www.v2ex.com/t/1102375",
+          "publishedOn": "2025-01-03T11:11:30.000Z",
+          "wordCount": 412,
+          "title": "做了一个临时邮箱站 — ggg.ga，大伙有什么建议吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102374",
+          "author": "jjrow",
+          "description": "jjrow: \n排插接排插...",
+          "link": "https://www.v2ex.com/t/1102374",
+          "publishedOn": "2025-01-03T10:55:40.000Z",
+          "wordCount": 401,
+          "title": "家里很多电器，插座怎么都不够，各位怎么安排的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102373",
+          "author": "karlguo7",
+          "description": "karlguo7: \n设备：DS220+ 单盘 8T DSM 版本：7+\n背景：\n最近在尝试 OpenWrt ，看了下教程试了 docker 安装，但是没法使用代理（不知道原因）。又尝试了虚拟机安装，但是安装后连接虚拟机报错 boot failed: not a bootable disk ，搜索无果后放弃虚拟机，但是发现 docker 的 openwrt 启动不了了，卸载了虚拟机后关掉了 open vswitch 后镜像可以正常启动了。\n启动 docker 的 openwrt 后手贱又去设置里打开了 open vswitch ，导致 NAS 直接访问不了了。。。\n尝试：\n首先尝试管理员账户通过 SSH 登录，报错：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!\n按照提示删掉了.ssh 文件里面关于 NAS ip 的内容。\n再次尝试，报错：Permission denied, please try again.\n也去问了群晖的客服，客服说可以按照下面的步骤重置并且数据不会丢失。\nhttps://kb.synology.cn/zh-cn/DSM/tutorial/How_to_reset_my_Synology_NAS_7#t1\n但是我按了 reset 按钮很久也没有听到“哔声”，按照客服的步骤也不能重置。\n🙏大佬们这种情况该怎么办？",
+          "link": "https://www.v2ex.com/t/1102373",
+          "publishedOn": "2025-01-03T10:42:39.000Z",
+          "wordCount": 440,
+          "title": "求助群晖 NAS 误开启 open vswitch 后无法访问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102372",
+          "author": "bluebird007",
+          "description": "bluebird007: \n职位是后端开发，最近的需求是将一个原本是前端完成的工作变为后端完成：前端轮询系统接口获取新增交易单后，根据一系列筛选条件过滤之后调用三方接口完成交易。产品需求是获取新增交易单后后端可以直接完成整个流程逻辑，对前端无感。产品想法很简单，但是对后端来说就很麻烦：我需要去看前端代码这一系列的筛选过滤条件的逻辑，以及调用三方接口的参数的组装逻辑。更麻烦的是前端一个 select 下的不同 option 可能对应着不同的逻辑，每一种逻辑的每一个步骤我都得保持一致；从前端轮询变成后端接收消息处理，后端接收消息进行处理，消息 QPS 相当高，对于性能要求很高。然而这也不是最恶心的，最恶心的是这个需求只能在 prod 来验证。\n来这个部门才不到一个月，这其中的核心逻辑都不甚清楚。评审会的时候更是人微言轻，主管只说先做先做，然后就开始排期。\n自从接了这个需求之后似乎就没怎么高兴的过过周末。脑子里一想到这个需求就好像有什么恶心的东西挂在背上，时不时刺你一下，但是你还甩不掉。。。",
+          "link": "https://www.v2ex.com/t/1102372",
+          "publishedOn": "2025-01-03T10:42:22.000Z",
+          "wordCount": 547,
+          "title": "在工作中遇到了很恶心的需求该怎么办",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102371",
+          "author": "shuiguomayi",
+          "description": "shuiguomayi: \n目前有在 开发效率 开发体验，运行性能和资源消耗 方面达到一个均衡的 编程语言吗？",
+          "link": "https://www.v2ex.com/t/1102371",
+          "publishedOn": "2025-01-03T10:39:50.000Z",
+          "wordCount": 341,
+          "title": "目前在各方面达到一个均衡的编程语言推荐？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102370",
+          "author": "saySilence",
+          "description": "saySilence: \nlinux 上有什么好用的截图工具（ debian 系或者 arch 系），pixpin 没有 linux 版本。\n截图、贴图、取色。\nGIF 、OCR 。(PixPin 有的功能)\n是不是只能用 snipaste 了。",
+          "link": "https://www.v2ex.com/t/1102370",
+          "publishedOn": "2025-01-03T10:38:40.000Z",
+          "wordCount": 553,
+          "title": "Linux 上面有没有比 snipaste 更好的截图工具？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102368",
+          "author": "zachary99",
+          "description": "zachary99: 拼多多百亿补贴+5 折券，12.3 元\nhttps://file-link.pinduoduo.com/GRKCmvyrSY",
+          "link": "https://www.v2ex.com/t/1102368",
+          "publishedOn": "2025-01-03T10:14:54.000Z",
+          "wordCount": 399,
+          "title": "［拼多多多人团］趣多多曲奇饼干 752g 大礼包 仅需 12.3 元",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102367",
+          "author": "iEggache",
+          "description": "iEggache: 官网： https://setapp.com/ \n近期 1 人下车，所以空出 1 个位置；从 18 年 9 月稳定续费至今；年付¥218 ，中途不可下车。WX：stonezhao002",
+          "link": "https://www.v2ex.com/t/1102367",
+          "publishedOn": "2025-01-03T10:11:30.000Z",
+          "wordCount": 380,
+          "title": "Setapp 家庭版订阅有人下车，空 1 个车位，年付，已订阅 6 年",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102366",
+          "author": "ginobefun",
+          "description": "ginobefun: \nBestBlogs.dev 精选文章 第 28 期\n📷 亲爱的读者朋友们，欢迎阅读本期 AI 领域精选文章！\n本期，我们精选了 AI 领域的重要技术突破、产品创新和行业趋势。DeepSeek 发布了具有 671B 参数的新一代 MoE 模型； OpenAI 展示了多项重要技术进展； AI 开发工具和智能体技术持续演进。让我们一起了解这些重要发展！\n本周亮点\nDeepSeek-V3 重磅发布，671B 参数 MoE 模型（激活 37B ），在 14.8T token 上预训练，性能接近 GPT-4 和 Claude-3.5 ，训练成本仅 557.6 万美元，并开源原生 FP8 权重。\nOpenAI 十二天连续发布，推出 o3 模型、Sora 视频生成、RFT 微调技术等重要更新，展示了 AI 在数学、代码、视频生成等领域的进展。\nAnthropic 研究表明，简单可组合的模式优于复杂框架； Hugging Face 发布轻量级智能体库 smolagents ，简化 AI 智能体创建流程。\n4.RAG 技术迎来创新升级，GraphReader 、MM-RAG 、CRAG 等新框架涌现，通过图解、多模态、自我校正等技术显著提升性能。\nhttp://Bolt.new 创造编程产品增长记录，两个月实现 2000 万美元 ARR ，通过浏览器端操作系统和 AI 代码生成技术降低编程门槛。\nAI 语言学习迎来首个独角兽，Speak 实现 ARR 近 5000 万美元，用户突破 1000 万，通过 AI 技术提供低成本、个性化的语言学习体验。 \nAI 绘图领域新秀 Recraft 以 ELO 评分 1172 登顶文生图竞技场，在图像质量和提示词贴合度方面超越 Midjourney 和 Stable Diffusion 。\n行业领袖共话 2025：微软 CEO 纳德拉预见 AI 基础设施竞争加剧；李飞飞强调数据和算力资源重要性；李想展望 AI 定义未来汽车产业。\n智能体发展提速，2025 年被预测为\"智能体之年\"，多家公司在规划、可复用工作流、探索和评估等方面取得突破。\n模型技术变革持续深化，小型高效模型大量涌现，推理定价持续下降，开源模型与专有模型性能差距显著缩小。\n在线阅读： https://www.bestblogs.dev/newsletter/issue28",
+          "link": "https://www.v2ex.com/t/1102366",
+          "publishedOn": "2025-01-03T10:04:23.000Z",
+          "wordCount": 479,
+          "title": "BestBlogs.dev 精选文章 第 28 期",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102364",
+          "author": "Eyon",
+          "description": "Eyon: 最近看到小红书上麻将日历很火，于是纯 SwiftUI 写了这个 APP 。当然，还是在 AI 的帮助下完成的。\n我感觉这个 APP 能赚钱，大家等我好消息。\nhttps://apps.apple.com/cn/app/%E8%B5%A2%E4%B8%89%E5%AE%B6/id6739476784\n照例厚着脸皮录了视频",
+          "link": "https://www.v2ex.com/t/1102364",
+          "publishedOn": "2025-01-03T09:51:10.000Z",
+          "wordCount": 376,
+          "title": "我的第二款 iOS APP 上线：赢三家",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102363",
+          "author": "Cici1688",
+          "description": "Cici1688: \n大家好，我们是独立开发者组成的小型开发团队，主要做自己的 App 出海产品，已经跑通产品从 0-1 的盈利路子，部分合作小伙伴已经副业收入💵已经超过主业了，团队自研产品项目和种类的较多，所以长期都在找可合作的开发小伙伴。目前手上有几个极具潜力的 AI 方向和工具 APP 等待开发，正在寻找技术合伙人。希望有此意愿的朋友可以联系我们（文章最后有我们想了解的您的信息）\n可按单结算也可以走长期盈利分成模式，工作时间自由，根据具体项目和具体人员诉求去定，欢迎各位技术大神来聊，一起出海赚美金啊💵～\n以下是我们需要的岗位：\n1.熟练使用 Swift 开发语言，3 年以上的开发经验，至少上架过 1 款软件在 Appstore 应用店\n对 Swift UI 、灵动岛等新技术保持热爱和钻研\n开发工程师二\n1.熟悉热门 AI 应用的技术和擅长 AI 接口调研、对接 AI 平台的 api 部署云服务搭建 Web-API 等，精通本地数据库的处理\n2.Swift 或者 Objective-C 语言 3 年以上经验\n通用要求\n熟悉内购、上架等流程\n开发环境干净，不能有做过马甲包以及被封号的情况，需要做好隔离\n独立开发者优先（找过坐班的兼职开发，不是很理想，如果您是坐班想接私活，希望每周可以抽出 2.5 天的时间）\n有自己作品的朋友优先（方便的话需要您提供一些项目截图等信息）",
+          "link": "https://www.v2ex.com/t/1102363",
+          "publishedOn": "2025-01-03T09:48:43.000Z",
+          "wordCount": 466,
+          "title": "长期招收远程 iOS 开发小伙伴",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102362",
+          "author": "pcdd",
+          "description": "pcdd: \n请问图 1 和图 2 几个问题：\nRYO 的 R 为什么不一样\n有一个是假货，还是都是正品？\n第四代的味道和上一代不太一样吗，感觉味道不如上一代好闻，还是我买到假货了？\n我用的图 2 第四代，按两泵不起沫。但上一代按一泵就很多泡沫。是第四代就这样，还是买到假货了？（我确定只有洗发水是自变量）\n图 1\n\n图 2",
+          "link": "https://www.v2ex.com/t/1102362",
+          "publishedOn": "2025-01-03T09:43:54.000Z",
+          "wordCount": 390,
+          "title": "请问这两瓶 RYO 第四代紫吕洗发水的是不是假货",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102361",
+          "author": "dongdongdong",
+          "description": "dongdongdong: 会引起不适，酌情阅读，第一次感受到有多难受。\n大概 10 天前到现在，每天的大号都很干燥，一颗一颗，当时没在意，今天上午大号出不来，太难受了。\n然后跑到药店，开了一个开塞露，和一盒药，用了开塞露之后还是出不来，急的我直接用手了，一脸的汗，抬头往后一看，出了好多血，吓坏了我，然后跑回去跟药店老板说，她说不行去医院灌肠吧。\n回到家拿医保卡，然后连吃三个火龙果，过了一会，上出来了，重焕新生一样。现在还是痛的，屁感觉都放不出来。\n回想近段时间，健身中，天天吃肉，比较懒，没有弄蔬菜，水果也没吃，很冷。天天坐着，水倒是喝得挺多，但还是干。\n希望 v 友引以为戒，多动一动，搭配均衡。",
+          "link": "https://www.v2ex.com/t/1102361",
+          "publishedOn": "2025-01-03T09:38:11.000Z",
+          "wordCount": 572,
+          "title": "痔疮爆发了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102360",
+          "author": "brucmao",
+          "description": "brucmao: \n合租的 youtube 翻车了，把一加 12 root 了，装了 revanced-manager,然后在 apkmirror.com 下载了 YouTube\n19.47.53 版本，打了补丁后打开 youtube 一直跳转到 gmscore 页面\nhttps://github.com/revanced/gmscore/releases/tag/v0.3.1.4.240913\n我安装了 gmscore 也不管用，一加 12 本身自带 gmscore ，我以前安装直接从 google play 安装没问题的",
+          "link": "https://www.v2ex.com/t/1102360",
+          "publishedOn": "2025-01-03T09:21:14.000Z",
+          "wordCount": 526,
+          "title": "如何安装 revanced youtube 呢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102358",
+          "author": "prefect",
+          "description": "prefect: \n对车不是很熟悉，二手车哪里买坑比较少啊？我就只知道瓜子。。",
+          "link": "https://www.v2ex.com/t/1102358",
+          "publishedOn": "2025-01-03T09:15:58.000Z",
+          "wordCount": 347,
+          "title": "二手车哪里买比较合适",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102356",
+          "author": "HZYJ233",
+          "description": "HZYJ233: 不知道和各厂商的数据加速服务有没有关系，我在设置和控制中心确认过了，流量是关着的，但在我浏览美团之后，我收到了中国联通发来的流量预警信息，在中国联通 app 也查到了相关 app 的流量使用记录，时间也是对得上的。\n设备是 iPhone16 Pro 日版，系统是 iOS18.3beta ，仅插单卡连接 Wi-Fi 关闭数据开关使用\n不知道有没有人注意到类似的问题，可以解答一下是不是 iOS 方面的原因吗",
+          "link": "https://www.v2ex.com/t/1102356",
+          "publishedOn": "2025-01-03T09:09:59.000Z",
+          "wordCount": 473,
+          "title": "iPhone 在关闭蜂窝开关后仍然会偷跑流量",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102355",
+          "author": "ooo4",
+          "description": "ooo4: \n版本： react@18.3.1\n我看源码就是先 UnmountEffects 后 MountEffects,里面也只是递归遍历而已，为什么 cleanup 里面的 props 是上一次的了？\ncommitPassiveUnmountEffects(root.current);\ncommitPassiveMountEffects(root, root.current, lanes, transitions);\n\n// 复现的 demo\nfunction App() {\n  const [num, setNum] = useState(100)\n  window.__setNum = setNum\n  return <Comp num={num}></Comp>\n}\n\nfunction Comp(props) {\n  debugger\n  useEffect(() => {\n    debugger\n    props // {num:1000}\n    return () => {\n      debugger\n      // 为什么这里是旧的 props? {num:100}\n      props\n    }\n  }, [props.num])\n  return (\n    <p>\n      <span>{props.num}</span>\n    </p>\n  )\n}\n\nsetTimeout(() => {\n  __setNum(1000)\n}, 1000)",
+          "link": "https://www.v2ex.com/t/1102355",
+          "publishedOn": "2025-01-03T09:09:02.000Z",
+          "wordCount": 769,
+          "title": "react 新手关于 react useEffect 的困惑，为什么 useEffect 里面的 cleanup 函数里面的 props 是旧的，如何从源码解释？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102354",
+          "author": "stimw",
+          "description": "stimw: \nwindows 开了 mihomo 的 tun 模式\nwsl 开了镜像网络\n公网就无法 ssh 进 wsl ，关掉就好了。找了下相关 issue ，看到一个比较像的： https://github.com/MetaCubeX/mihomo/issues/1368\n折腾 wsl 非常赤石，拼尽全力无法战胜。",
+          "link": "https://www.v2ex.com/t/1102354",
+          "publishedOn": "2025-01-03T09:08:08.000Z",
+          "wordCount": 412,
+          "title": "windows tun 模式，公网无法 ssh 进 wsl",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102353",
+          "author": "keven1024",
+          "description": "keven1024: \n如题，假设存在这种场景，员工 a 没有经过公司同意，在公司使用 cursor ，把公司代码 embeding 到 cursor 服务器了，\n然后 hr 找公证处，把请求 cursor 自动补全 api ，并返回含有公司商业机密的代码，以及员工与 cursor 服务器的通信记录，深信服监控里的员工将公司商业机密粘贴到 cursor 聊天框的截图等作为证据进行公证。\n最后 hr 以员工 a 泄露公司商业机密为由，开除员工 a ，并要求员工 a 赔偿公司损失 x 万元。\n这种情况可能出现吗，如何避免\n鄙人法律小白，本文仅理性讨论可能性以及避免可能的缝纫机风险，大佬们不喜勿喷",
+          "link": "https://www.v2ex.com/t/1102353",
+          "publishedOn": "2025-01-03T09:04:40.000Z",
+          "wordCount": 533,
+          "title": "在公司使用 cursor 可能会被判泄露商业机密吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102352",
+          "author": "pvcxy18",
+          "description": "pvcxy18: 宽带是绑我身份证的，不是绑手机话费。去年 12 月一次性交了 800 元年费，今年 11 月底交了移动上门安装宽带，没 care 电信宽带，以为会到期自动断网。\n最近电信工作人员联系我归还光猫，一直没 care 。今天我约了电信上门取光猫，客服说我宽带多用了一个月，扣了 180 元（单月价格），不补缴就无法停机… 会继续扣费\n加装移动后，我就再也没用过电信宽带了，我不想交这欠费。现在在走申诉工单流程… 不知道是否有用？有 v 友遇到过同样的事情吗？",
+          "link": "https://www.v2ex.com/t/1102352",
+          "publishedOn": "2025-01-03T09:02:30.000Z",
+          "wordCount": 488,
+          "title": "被电信宽带倒扣了 180 元宽带费，申诉有用吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102351",
+          "author": "sing1ee",
+          "description": "sing1ee: \n代码整体是参考的 llamaCoder 和 geminiCoder ，针对 Deepseek API 做了适配。\n由于模型能力，更重要的是 prompt 限制，抽卡的概率挺高的。\n每一个因为训练数据的不同，模型的对 prompt 的喜好也不同，deepseek 的中文指令跟随很强了，回答 claude 3.5 sonnet ，仍旧需要更加细致的要求和示例。\n体验： https://deepbolt.xyz/\n代码： https://github.com/sing1ee/deepseekCoder\n演示视频： https://github.com/user-attachments/assets/1a3a8571-1902-4b05-9d46-bbbcdc5abc18",
+          "link": "https://www.v2ex.com/t/1102351",
+          "publishedOn": "2025-01-03T08:58:39.000Z",
+          "wordCount": 362,
+          "title": "deepseekCoder：通过 Deepseek V3，使用自然语言创建网页应用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102350",
+          "author": "tsuijinglei",
+          "description": "tsuijinglei: 要点一：PTA 市场表现受成本和供应主导，原油价格波动及产能变化影响显著，投资应关注基本面，把握供需及政策变化。\n要点二：显性催化与产业链、公司战略及宏观经济环境有关，隐性催化事件间接性和宏观性较强，普通股民需关注多方面因素综合判断\n在股票概念中，PTA 指的是精对苯二甲酸（ Purified Terephthalic Acid ）。它是一种重要的有机化工原料，主要用于生产聚酯纤维、聚酯瓶片和聚酯薄膜等产品\nPTA 已在市面上销售，且主要在国内销售，大多为合约客户。2023 年我国累计出口约 350.94 万吨，较去年增加 6.27 万吨。\n对于 PTA 的投资，目前应采用基本面投资逻辑，关注其产能、成本、需求等因素。当出现因新技术突破或市场格局突变等导致 PTA 供需关系大幅改变，或有重大政策影响行业发展时，应转变投资逻辑。\n过去一年 PTA 有两次较为明显的价格波动，2024 年上半年：从年初到 6 月左右处于震荡行情。起始事件是原油上半年冲高回落，对 PTA 成本支撑上移，但同时上半年两套共计 450 万吨 PTA 新产能投产，PTA 货源供应充裕，使得 PTA 在成本支撑上移与基本面偏弱之间博弈，导致上行承压、下行受阻，区间盘整。\n2024 年下半年：从 7 月到 12 月震荡下跌。起始事件是地缘局势降温，美联储在 9 月份宣布降息，国际原油震荡下滑，对 PTA 成本支撑下移，加之 PTA 库存实质性积累，现货供应充足，行情震荡下跌。\n基于这一逻辑，我们先梳理一下每次行情的主要催化剂，同时对后续可能形成催化的重要事件进行整理。\n第一波行情中是发生在 2024 年 1 月至 6 月，PTA 市场整体区间震荡，相关概念股表现不一。恒逸石化、恒力石化、荣盛石化等龙头股波动较小，未出现明显上涨或下跌趋势，它们均是 PTA 产业链中的上游生产供应方。…",
+          "link": "https://www.v2ex.com/t/1102350",
+          "publishedOn": "2025-01-03T08:47:40.000Z",
+          "wordCount": 455,
+          "title": "20250103-A 股题材分析-PTA 能追吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102349",
+          "author": "Chatterleys",
+          "description": "Chatterleys: \n邮箱：cWlzaGVuZ2NoZW5nQGdtYWlsLmNvbQ==",
+          "link": "https://www.v2ex.com/t/1102349",
+          "publishedOn": "2025-01-03T08:46:36.000Z",
+          "wordCount": 355,
+          "title": "求一张华住会员卡，谢谢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102348",
+          "author": "tool2dx",
+          "description": "tool2dx: \n以前是 linux 内置，后来是 macos 内置，现在是 windows 内置。\nsmb 已经完成了历史使命，可以安心退出舞台了。\nps: 什么时候操作系统也统一一下就好了，现在写一个界面程序，要三套代码，真是晕死。",
+          "link": "https://www.v2ex.com/t/1102348",
+          "publishedOn": "2025-01-03T08:45:38.000Z",
+          "wordCount": 1202,
+          "title": "openssh 协议貌似已经一统天下了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102347",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia:",
+          "link": "https://www.v2ex.com/t/1102347",
+          "publishedOn": "2025-01-03T08:43:04.000Z",
+          "wordCount": 368,
+          "title": "Google Workspace 的 Gemini 是什么版本？今天突然发现公司 Google Workspace 可以用 Gemini，没有显示升级按钮，感觉比免费的 Flash 强",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102345",
+          "author": "IUserName",
+          "description": "IUserName: \n如题。",
+          "link": "https://www.v2ex.com/t/1102345",
+          "publishedOn": "2025-01-03T08:38:16.000Z",
+          "wordCount": 506,
+          "title": "开车提神用的口香糖，非常强劲的，有推荐的不？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102343",
+          "author": "TwentyNine",
+          "description": "TwentyNine: \n目前在外上班，不在老家城市，浑浑噩噩好久。新的一年想做出点改变，打算买个房子付个首付慢慢开始还房贷，但是目前心里不知道往哪买，也不太清楚房价走势，或者买个车付个首付还车贷也行，总得做点什么。",
+          "link": "https://www.v2ex.com/t/1102343",
+          "publishedOn": "2025-01-03T08:34:43.000Z",
+          "wordCount": 739,
+          "title": "年轻人是先买房还是先买车",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102342",
+          "author": "Daming798",
+          "description": "Daming798: \n我们正在研发一款面向股票投资者的决策辅助工具 - Prismray ，旨在将你的分析决策逻辑转化为算法，让算法结合数据辅助你决策。\n它能够将你所编辑的针对某一企业的分析决策逻辑，由文字和图表转化为算法，让算法结合该企业的历史财报数据进行自动决策，并反馈给你算法决策后的买入卖出点、与宽基数据的收益对比、逻辑与数据不符之处、逻辑间的冲突之处，以便为你最终的决策提供参考。\n地址：prismray.cn 有兴趣的朋友可点击 [ Demo 试用] ，产品上线后将在第一时间为你发送体验链接。有购买意愿的朋友可点击 [预定] ，当产品正式版上线后，预定用户可以预售价格购买。\n若您对产品有建议或反馈，可访问 prsimray.cn 提交您的建议。也可以点击首页底部微信加入产品社群，共同见证产品的成长。\n算法结合数据决策页面\n\n算法决策反馈页面",
+          "link": "https://www.v2ex.com/t/1102342",
+          "publishedOn": "2025-01-03T08:27:47.000Z",
+          "wordCount": 373,
+          "title": "Prismray - 将你的分析决策逻辑转化为算法，让算法结合数据辅助你决策",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102341",
+          "author": "RunPiggy",
+          "description": "RunPiggy: 最近发现 Idea 2024.1 下 Copilot Chat 用不了，提示我已登录但需要授权，点击授权就提示 retrieving github device code copilot ，过会儿就报错：Sign in failed. Reason: Could not log in with device flow on github.com: Request timed out from lsp server, request id: 1024, error code: 1001\n试了网上好多方法都没解决：\n·修改 idea 代理为 127.0.0.1 啊\n·梯子改全局模式啊\n·改 hosts 啊\n·重装 copilot 插件啊、旧版本插件啊\n都不行。\n但是用 VS 就没问题。",
+          "link": "https://www.v2ex.com/t/1102341",
+          "publishedOn": "2025-01-03T08:25:23.000Z",
+          "wordCount": 446,
+          "title": "idea 2024.1 copilot 的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102340",
+          "author": "CNM47589",
+          "description": "CNM47589: \n我的 MacBook 通过 c-to-c 连接显示器使用，同样的耳机分别插进 Mac 本身的耳机孔和显示器的耳机孔听起来有明显落差，这是硬件原因，还是通过 HDMI 或者 dp 传输的音频数据本身素质就差？",
+          "link": "https://www.v2ex.com/t/1102340",
+          "publishedOn": "2025-01-03T08:24:17.000Z",
+          "wordCount": 456,
+          "title": "为什么显示器的耳机孔通常音质明显不如电子自带耳机孔？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102338",
+          "author": "crc8",
+          "description": "crc8: \ngitee 我开有一个私有仓库，push 等都正常，但我需要在我自己 push 完成后，自己的注册邮箱能收到 push 的邮件，默认情况下仓库建立者就已 Watching ，gitee 的帮助里也说了 [我关注的仓库]  [我 Watch 的仓库] 可以接收站内信与邮件。  \n实测我并没有收到任何邮件。然后去联系客服。客服明确回复说：暂时不行，只能给仓库成员发。  \n好吧，我接着加了 gitee 上的另一个仓库账号，把他添加为成员，结果他在 WEB 页面上一直看不到我的这个私有仓库，也收不到任何我已添加他或我 push 的邮件信息。  开发者登录直接访问私有仓库链接，页面提示 403.\n目前在联系客服中，2 小时已过去。。。这么难的吗？还是要什么秘诀？要在命令行或 IDE 上才能看到吗？",
+          "link": "https://www.v2ex.com/t/1102338",
+          "publishedOn": "2025-01-03T08:15:08.000Z",
+          "wordCount": 396,
+          "title": "开发者看不到私有仓库",
           "imageUrl": null
         }
       ]
