@@ -177,6 +177,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -328,7 +355,7 @@
           "description": "inza9hi: \n我一直以为静态分析已经很强大了，\n尝试了下 IDEA 自带的工具和 PMD\n竟然都分析不出来。\nPS: A 是 Pb 生成的，B 是手写的，所以导致有用 int ，有用 integer\n@Data\n    static class A{\n        private int a;\n    }\n    @Data\n    static class B  {\n        private Integer b;\n    }\n\n    public static void main(String[] args) {\n        A a = new A();\n        B b = new B();\n       a.setA(b.getB());\n    }",
           "link": "https://www.v2ex.com/t/1102386",
           "publishedOn": "2025-01-03T12:07:56.000Z",
-          "wordCount": 411,
+          "wordCount": 413,
           "title": "有静态分析工具可以分析出因为拆箱导致的空指针 NPE 吗？",
           "imageUrl": null
         },
@@ -358,7 +385,7 @@
           "description": "AlohaW: 求推荐，稳健一点的，纳指或者标普 500 未来一个月咋样？",
           "link": "https://www.v2ex.com/t/1102383",
           "publishedOn": "2025-01-03T11:47:56.000Z",
-          "wordCount": 402,
+          "wordCount": 406,
           "title": "20w 现金免费用一个月，买什么好",
           "imageUrl": null
         },
@@ -368,7 +395,7 @@
           "description": "MRlaopeng: \n没写过前端的后端人,\n今天初尝 vue 没想到这么方便\n直接 npm create vue@latest 就可以创建好目录结构\n那岂不是就得按官方的来了?",
           "link": "https://www.v2ex.com/t/1102382",
           "publishedOn": "2025-01-03T11:44:25.000Z",
-          "wordCount": 409,
+          "wordCount": 413,
           "title": "你们写 vue 一定是按照 vue 的脚手架的目录结构来写吗?",
           "imageUrl": null
         },
@@ -378,7 +405,7 @@
           "description": "chenqh: \n原谅我伸手\n我实在搞不定这个 ahk",
           "link": "https://www.v2ex.com/t/1102381",
           "publishedOn": "2025-01-03T11:39:48.000Z",
-          "wordCount": 440,
+          "wordCount": 441,
           "title": "关于 ahk 的问题,ahk 怎么写一个类似 vscode 的 ctrl+shift+p 的一个 dropdownlist 啊,",
           "imageUrl": null
         },
@@ -388,7 +415,7 @@
           "description": "kid1412621: \n看了很多视频，文章，对 Router + AP + (PoE switch) vs  wired  mesh 的分析讲解都含糊不清。\nWhat I knew:\nAP 可配多个 ssid 或者一个，mesh 始终一个；\n无缝漫游，看是否支持 krv ；\nMesh 可故障转移？\nWhat I want to know:\n中继桥接 和 Router + AP 是啥区别？\nAP 漫游是不是不能无缝？\nunifi 的 AP mesh 是啥？无线 mesh ？\nWi-Fi 6 ，7 了还有人叫 AC + AP ？\n弱电箱（ modem -> 主路由 ）\n电视柜（ 网口 -> 交换机 -> 子路由/软路由/…）\n其它 （ 网口 -> PC ）\n弱电箱（ modem -> 主路由 -> poe 交换机/软路由）\n电视柜（ 网口 -> AP/…）",
           "link": "https://www.v2ex.com/t/1102379",
           "publishedOn": "2025-01-03T11:30:13.000Z",
-          "wordCount": 706,
+          "wordCount": 719,
           "title": "求问 AP vs mesh 的本质区别",
           "imageUrl": null
         },
@@ -408,7 +435,7 @@
           "description": "fengsi: \n我自己的 m1 pro 的电脑买来用来用了两年，现在电池最大容量 91%，循环次数 75 ，我是一直使用 aldente 来保护电池的。\n我在公司实习时发的 m3 pro ，已经用了大半年了，电池容量 100%，循环次数 30+，没用过 aldente ，也没对电池进行特殊设置，因为不是自己的电脑吗，怎么糙怎么来了。\n我自己的那台电脑在我使用了大半年后电池容量已经到 95%左右了，所以挺有意思的，没用 aldente 的却电池很好，当然这只是我自己的一个小 case ，不排除其他我未知的变量。",
           "link": "https://www.v2ex.com/t/1102377",
           "publishedOn": "2025-01-03T11:27:47.000Z",
-          "wordCount": 364,
+          "wordCount": 375,
           "title": "关于 MacOS 电池容量 的一个个人 case",
           "imageUrl": null
         },
@@ -428,7 +455,7 @@
           "description": "ShehJ: \n之前 web3 搞空投的时候搜过各种临时邮箱，用着各种不爽，然后也想自己写一个，直到最近才写完了一个初版。\n域名：ggg.ga\n关于域名\n本来是想注册一个含义域名，但是找了挺久，常见后缀的还不错的含义域名基本都被注册了\n如果使用含义名+小众后缀又容易给别人做\"嫁衣\"\n索性直接用了一个好记点的小众后缀。\n关于邮箱后缀\n目前有两个 @linkmail.top （测试）、 @ddrdd.com ，之后会再加几个选项。\n邮箱后缀这块，收信邮箱也是尽量要.com 吗？还是影响不大？\n关于功能\n目前也就实现了临时邮箱的基本功能，邮件默认保存 7 天，不删浏览器缓存不点新建一个邮箱可以一直使用\n后面应该会加一个保存邮箱密钥，通过密钥复用邮箱的功能\n各位还有什么功能上、界面外观上的建议吗？\n整体还算是写着玩的吧，功能还有待完善，顺便学了一点 tailwindcss ，不得不说这个东西以前觉得乱，实际用了还是挺好用的。\n该域名及临时邮箱会长期保留，各位薅羊毛的时候可以用一用。",
           "link": "https://www.v2ex.com/t/1102375",
           "publishedOn": "2025-01-03T11:11:30.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "做了一个临时邮箱站 — ggg.ga，大伙有什么建议吗",
           "imageUrl": null
         },
@@ -528,7 +555,7 @@
           "description": "Cici1688: \n大家好，我们是独立开发者组成的小型开发团队，主要做自己的 App 出海产品，已经跑通产品从 0-1 的盈利路子，部分合作小伙伴已经副业收入💵已经超过主业了，团队自研产品项目和种类的较多，所以长期都在找可合作的开发小伙伴。目前手上有几个极具潜力的 AI 方向和工具 APP 等待开发，正在寻找技术合伙人。希望有此意愿的朋友可以联系我们（文章最后有我们想了解的您的信息）\n可按单结算也可以走长期盈利分成模式，工作时间自由，根据具体项目和具体人员诉求去定，欢迎各位技术大神来聊，一起出海赚美金啊💵～\n以下是我们需要的岗位：\n1.熟练使用 Swift 开发语言，3 年以上的开发经验，至少上架过 1 款软件在 Appstore 应用店\n对 Swift UI 、灵动岛等新技术保持热爱和钻研\n开发工程师二\n1.熟悉热门 AI 应用的技术和擅长 AI 接口调研、对接 AI 平台的 api 部署云服务搭建 Web-API 等，精通本地数据库的处理\n2.Swift 或者 Objective-C 语言 3 年以上经验\n通用要求\n熟悉内购、上架等流程\n开发环境干净，不能有做过马甲包以及被封号的情况，需要做好隔离\n独立开发者优先（找过坐班的兼职开发，不是很理想，如果您是坐班想接私活，希望每周可以抽出 2.5 天的时间）\n有自己作品的朋友优先（方便的话需要您提供一些项目截图等信息）",
           "link": "https://www.v2ex.com/t/1102363",
           "publishedOn": "2025-01-03T09:48:43.000Z",
-          "wordCount": 462,
+          "wordCount": 464,
           "title": "长期招收远程 iOS 开发小伙伴",
           "imageUrl": null
         },
@@ -548,7 +575,7 @@
           "description": "dongdongdong: 会引起不适，酌情阅读，第一次感受到有多难受。\n大概 10 天前到现在，每天的大号都很干燥，一颗一颗，当时没在意，今天上午大号出不来，太难受了。\n然后跑到药店，开了一个开塞露，和一盒药，用了开塞露之后还是出不来，急的我直接用手了，一脸的汗，抬头往后一看，出了好多血，吓坏了我，然后跑回去跟药店老板说，她说不行去医院灌肠吧。\n回到家拿医保卡，然后连吃三个火龙果，过了一会，上出来了，重焕新生一样。现在还是痛的，屁感觉都放不出来。\n回想近段时间，健身中，天天吃肉，比较懒，没有弄蔬菜，水果也没吃，很冷。天天坐着，水倒是喝得挺多，但还是干。\n希望 v 友引以为戒，多动一动，搭配均衡。",
           "link": "https://www.v2ex.com/t/1102361",
           "publishedOn": "2025-01-03T09:38:11.000Z",
-          "wordCount": 568,
+          "wordCount": 572,
           "title": "痔疮爆发了",
           "imageUrl": null
         },
@@ -578,7 +605,7 @@
           "description": "HZYJ233: 不知道和各厂商的数据加速服务有没有关系，我在设置和控制中心确认过了，流量是关着的，但在我浏览美团之后，我收到了中国联通发来的流量预警信息，在中国联通 app 也查到了相关 app 的流量使用记录，时间也是对得上的。\n设备是 iPhone16 Pro 日版，系统是 iOS18.3beta ，仅插单卡连接 Wi-Fi 关闭数据开关使用\n不知道有没有人注意到类似的问题，可以解答一下是不是 iOS 方面的原因吗",
           "link": "https://www.v2ex.com/t/1102356",
           "publishedOn": "2025-01-03T09:09:59.000Z",
-          "wordCount": 445,
+          "wordCount": 462,
           "title": "iPhone 在关闭蜂窝开关后仍然会偷跑流量",
           "imageUrl": null
         },
@@ -608,7 +635,7 @@
           "description": "keven1024: \n如题，假设存在这种场景，员工 a 没有经过公司同意，在公司使用 cursor ，把公司代码 embeding 到 cursor 服务器了，\n然后 hr 找公证处，把请求 cursor 自动补全 api ，并返回含有公司商业机密的代码，以及员工与 cursor 服务器的通信记录，深信服监控里的员工将公司商业机密粘贴到 cursor 聊天框的截图等作为证据进行公证。\n最后 hr 以员工 a 泄露公司商业机密为由，开除员工 a ，并要求员工 a 赔偿公司损失 x 万元。\n这种情况可能出现吗，如何避免\n鄙人法律小白，本文仅理性讨论可能性以及避免可能的缝纫机风险，大佬们不喜勿喷",
           "link": "https://www.v2ex.com/t/1102353",
           "publishedOn": "2025-01-03T09:04:40.000Z",
-          "wordCount": 531,
+          "wordCount": 533,
           "title": "在公司使用 cursor 可能会被判泄露商业机密吗",
           "imageUrl": null
         },
@@ -658,7 +685,7 @@
           "description": "tool2dx: \n以前是 linux 内置，后来是 macos 内置，现在是 windows 内置。\nsmb 已经完成了历史使命，可以安心退出舞台了。\nps: 什么时候操作系统也统一一下就好了，现在写一个界面程序，要三套代码，真是晕死。",
           "link": "https://www.v2ex.com/t/1102348",
           "publishedOn": "2025-01-03T08:45:38.000Z",
-          "wordCount": 1167,
+          "wordCount": 1169,
           "title": "openssh 协议貌似已经一统天下了。",
           "imageUrl": null
         },
@@ -688,7 +715,7 @@
           "description": "TwentyNine: \n目前在外上班，不在老家城市，浑浑噩噩好久。新的一年想做出点改变，打算买个房子付个首付慢慢开始还房贷，但是目前心里不知道往哪买，也不太清楚房价走势，或者买个车付个首付还车贷也行，总得做点什么。",
           "link": "https://www.v2ex.com/t/1102343",
           "publishedOn": "2025-01-03T08:34:43.000Z",
-          "wordCount": 680,
+          "wordCount": 685,
           "title": "年轻人是先买房还是先买车",
           "imageUrl": null
         },
