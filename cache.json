@@ -177,6 +177,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -348,7 +375,7 @@
           "description": "ooo4: \n版本： react@18.3.1\n我看源码就是先 UnmountEffects 后 MountEffects,里面也只是递归遍历而已，为什么 cleanup 里面的 props 是上一次的了？\ncommitPassiveUnmountEffects(root.current);\ncommitPassiveMountEffects(root, root.current, lanes, transitions);\n\n// 复现的 demo\nfunction App() {\n  const [num, setNum] = useState(100)\n  window.__setNum = setNum\n  return <Comp num={num}></Comp>\n}\n\nfunction Comp(props) {\n  debugger\n  useEffect(() => {\n    debugger\n    props // {num:1000}\n    return () => {\n      debugger\n      // 为什么这里是旧的 props? {num:100}\n      props\n    }\n  }, [props.num])\n  return (\n    <p>\n      <span>{props.num}</span>\n    </p>\n  )\n}\n\nsetTimeout(() => {\n  __setNum(1000)\n}, 1000)",
           "link": "https://www.v2ex.com/t/1102355",
           "publishedOn": "2025-01-03T09:09:02.000Z",
-          "wordCount": 742,
+          "wordCount": 754,
           "title": "react 新手关于 react useEffect 的困惑，为什么 useEffect 里面的 cleanup 函数里面的 props 是旧的，如何从源码解释？",
           "imageUrl": null
         },
@@ -368,7 +395,7 @@
           "description": "keven1024: \n如题，假设存在这种场景，员工 a 没有经过公司同意，在公司使用 cursor ，把公司代码 embeding 到 cursor 服务器了，\n然后 hr 找公证处，把请求 cursor 自动补全 api ，并返回含有公司商业机密的代码，以及员工与 cursor 服务器的通信记录，深信服监控里的员工将公司商业机密粘贴到 cursor 聊天框的截图等作为证据进行公证。\n最后 hr 以员工 a 泄露公司商业机密为由，开除员工 a ，并要求员工 a 赔偿公司损失 x 万元。\n这种情况可能出现吗，如何避免\n鄙人法律小白，本文仅理性讨论可能性以及避免可能的缝纫机风险，大佬们不喜勿喷",
           "link": "https://www.v2ex.com/t/1102353",
           "publishedOn": "2025-01-03T09:04:40.000Z",
-          "wordCount": 519,
+          "wordCount": 527,
           "title": "在公司使用 cursor 可能会被判泄露商业机密吗",
           "imageUrl": null
         },
@@ -418,7 +445,7 @@
           "description": "tool2dx: \n以前是 linux 内置，后来是 macos 内置，现在是 windows 内置。\nsmb 已经完成了历史使命，可以安心退出舞台了。\nps: 什么时候操作系统也统一一下就好了，现在写一个界面程序，要三套代码，真是晕死。",
           "link": "https://www.v2ex.com/t/1102348",
           "publishedOn": "2025-01-03T08:45:38.000Z",
-          "wordCount": 1116,
+          "wordCount": 1163,
           "title": "openssh 协议貌似已经一统天下了。",
           "imageUrl": null
         },
@@ -478,7 +505,7 @@
           "description": "CNM47589: \n我的 MacBook 通过 c-to-c 连接显示器使用，同样的耳机分别插进 Mac 本身的耳机孔和显示器的耳机孔听起来有明显落差，这是硬件原因，还是通过 HDMI 或者 dp 传输的音频数据本身素质就差？",
           "link": "https://www.v2ex.com/t/1102340",
           "publishedOn": "2025-01-03T08:24:17.000Z",
-          "wordCount": 441,
+          "wordCount": 452,
           "title": "为什么显示器的耳机孔通常音质明显不如电子自带耳机孔？",
           "imageUrl": null
         },
@@ -548,7 +575,7 @@
           "description": "cat: 做了个小程序展示自己的摄影作品（网站端更新，小程序端只看，不包含任何评论等社交内容）\n现在得备案才能上家，之前为了省钱做的是 30 块一年的个人认证，现在只能以个人名义备案\n有没有 V 友备案过小程序，有啥坑不，会不会像有些点地方的个人网站备案一样三天两头找麻烦\n另外选江苏好还是选广东好？哪边简单审核快？\n或者，重新花 300 走企业认证再走企业备案？（有现成的资质）",
           "link": "https://www.v2ex.com/t/1102329",
           "publishedOn": "2025-01-03T07:50:00.000Z",
-          "wordCount": 448,
+          "wordCount": 459,
           "title": "微信小程序个人备案，有啥坑吗",
           "imageUrl": null
         },
@@ -638,7 +665,7 @@
           "description": "tomiaa: \n试了改后缀，嵌套压缩包，都不是太行",
           "link": "https://www.v2ex.com/t/1102320",
           "publishedOn": "2025-01-03T07:24:59.000Z",
-          "wordCount": 495,
+          "wordCount": 502,
           "title": "国内网盘有什么好的方法可以防止分享的资源被和谐吗",
           "imageUrl": null
         },
@@ -708,7 +735,7 @@
           "description": "Link99: 总感觉有些 app 有 bug ，会内存溢出，弹出强制退出应用程序的窗口。\n就算我使用习惯不太好，极少 cmd+q ，16G 也不至于这样吧。\n常用的有微信、腾讯文档、figma 、chrome 浏览器（大概开了 20 个标签）、chatgpt 、pycharm\n你们有遇到类似问题吗\n\n顺便吐槽下凭啥官方翻新 mac 不能用旧机抵价呢",
           "link": "https://www.v2ex.com/t/1102313",
           "publishedOn": "2025-01-03T06:51:19.000Z",
-          "wordCount": 645,
+          "wordCount": 647,
           "title": "16G 电脑一开机就用掉 8G 内存，那买 8G 配置的一开机就黑屏了？",
           "imageUrl": null
         },
