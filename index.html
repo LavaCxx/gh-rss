@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-03 datetime="2025-01-03T09:15:58.000Z">2025-01-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-03 datetime="2025-01-03T09:15:58.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-03 datetime="2025-01-03T12:07:56.000Z">2025-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-03 datetime="2025-01-03T12:07:56.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,637 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102386"
+                        open
+                      >
+                        <summary class="article-expander__title">有静态分析工具可以分析出因为拆箱导致的空指针 NPE 吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102386">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>inza9hi: 
+我一直以为静态分析已经很强大了，
+尝试了下 IDEA 自带的工具和 PMD
+竟然都分析不出来。
+PS: A 是 Pb 生成的，B 是手写的，所以导致有用 int ，有用 integer
+@Data
+    static class A{
+        private int a;
+    }
+    @Data
+    static class B  {
+        private Integer b;
+    }
+
+    public static void main(String[] args) {
+        A a &#x3D; new A();
+        B b &#x3D; new B();
+       a.setA(b.getB());
+    }</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102385"
+                        open
+                      >
+                        <summary class="article-expander__title">拼多多 三星 Q930D 套装 4500 靠谱不</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102385">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ooops: 还没概念，刚开始看，京东和淘宝都是 6000 左右，但是拼多多百亿补贴的商家（这款不是补贴）只要 4500 还带支架。 比参与补贴的 800d+后置+支架还便宜。
+全新+正品发票+全国联保，有点心动，有啥坑不？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102384"
+                        open
+                      >
+                        <summary class="article-expander__title">启动 OpenClash 后一些网站和 APP 跳证书不受信任是什么原因？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102384">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bzkmsjy: 
+麻烦大佬们帮帮忙，困扰了我好久的问题，设备是 N1 旁路由，只要开启了 OpenClash ，手机上一些网站就会跳出证书不受信任的提示（电脑没碰到过），下面这个就是用 Via 浏览器打开 423down 的提示：
+与 cdn.staticfile.org 的连接不安全：
+证书不受信任
+是否继续？
+颁发对象
+公用名 (CN)
+iStoreOS
+组织 (O)
+OpenWrt531f84ed
+组织单位 (OU)
+颁发者
+公用名 (CN)
+iStoreOS
+组织 (O)
+OpenWrt531f84ed 
+有效期
+颁发日期
+2024 年 4 月 28 日 11:46
+截止日期
+2026 年 4 月 28 日 11:46 
+SHA-256 指纹
+证书
+0211C5FC648DDDD8F3C1173C65F13CE0C800D64D426EBF46445EB654607EF25B
+公钥
+F1BCBEEA7267895A4233FEAE6D9C535A0CE956C49126741422CF4CD95136406F 
+奇怪的点还有，用手机版 Chrome 打开同样的网站却不会弹出提示，然后软路由关闭 Clash ，Via 浏览器也不会弹了。
+还有一个频繁弹窗的是京东 APP ，提示如下：
+当前网站证书不可信且证书链长度为 1 ，可能是服务器没有配置完整证书链，是否信任并继续访问？
+证书内容和上面那个一样，是 iStoreOS 的。
+OpenClash 从最后一个非 META 的 014 到最新的 064 版都碰到这个问题。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102383"
+                        open
+                      >
+                        <summary class="article-expander__title">20w 现金免费用一个月，买什么好</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102383">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AlohaW: 求推荐，稳健一点的，纳指或者标普 500 未来一个月咋样？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102382"
+                        open
+                      >
+                        <summary class="article-expander__title">你们写 vue 一定是按照 vue 的脚手架的目录结构来写吗?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102382">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>MRlaopeng: 
+没写过前端的后端人,
+今天初尝 vue 没想到这么方便
+直接 npm create vue@latest 就可以创建好目录结构
+那岂不是就得按官方的来了?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102381"
+                        open
+                      >
+                        <summary class="article-expander__title">关于 ahk 的问题,ahk 怎么写一个类似 vscode 的 ctrl+shift+p 的一个 dropdownlist 啊,</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102381">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>chenqh: 
+原谅我伸手
+我实在搞不定这个 ahk</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102379"
+                        open
+                      >
+                        <summary class="article-expander__title">求问 AP vs mesh 的本质区别</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102379">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>kid1412621: 
+看了很多视频，文章，对 Router + AP + (PoE switch) vs  wired  mesh 的分析讲解都含糊不清。
+What I knew:
+AP 可配多个 ssid 或者一个，mesh 始终一个；
+无缝漫游，看是否支持 krv ；
+Mesh 可故障转移？
+What I want to know:
+中继桥接 和 Router + AP 是啥区别？
+AP 漫游是不是不能无缝？
+unifi 的 AP mesh 是啥？无线 mesh ？
+Wi-Fi 6 ，7 了还有人叫 AC + AP ？
+弱电箱（ modem -&gt; 主路由 ）
+电视柜（ 网口 -&gt; 交换机 -&gt; 子路由/软路由/…）
+其它 （ 网口 -&gt; PC ）
+弱电箱（ modem -&gt; 主路由 -&gt; poe 交换机/软路由）
+电视柜（ 网口 -&gt; AP/…）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102378"
+                        open
+                      >
+                        <summary class="article-expander__title">广州汇丰银行 - TEKsystems - 招聘 DBA 数据库运维 20-30k * 14 - partial WFH</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102378">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>JasonLaw: 广州世界 500 强金融科技外企岗位！
+各位欢迎来撩呀[Joyful]
+✅DBA 数据库运维：
+1. 7 年以上数据库运维方面的经验。
+2. 具有 MongoDB 数据库经验
+3. 如果有编程能力加分
+4. 英文能进行简单沟通，能进行 10 分钟左右的英文面试
+✅亮点：
+1. 朝九晚六，混合办公（在家+办公室）
+2. 外企氛围工作环境好，人性化管理
+3. 外企 500 强经验，为履历加分
+4. 六险一金，一年 12 个月月薪+2 个月项目奖金
+薪资 20k-30k
+微信：275781488</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102377"
+                        open
+                      >
+                        <summary class="article-expander__title">关于 MacOS 电池容量 的一个个人 case</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102377">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>fengsi: 
+我自己的 m1 pro 的电脑买来用来用了两年，现在电池最大容量 91%，循环次数 75 ，我是一直使用 aldente 来保护电池的。
+我在公司实习时发的 m3 pro ，已经用了大半年了，电池容量 100%，循环次数 30+，没用过 aldente ，也没对电池进行特殊设置，因为不是自己的电脑吗，怎么糙怎么来了。
+我自己的那台电脑在我使用了大半年后电池容量已经到 95%左右了，所以挺有意思的，没用 aldente 的却电池很好，当然这只是我自己的一个小 case ，不排除其他我未知的变量。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102376"
+                        open
+                      >
+                        <summary class="article-expander__title">准备开发一个浏览器 AI Agents, 浏览器驱动选择 Puppetter 和 Playwright 哪个好呀？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102376">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>YuanJiwei: 
+最近 browser-use 这个项目特别火，感觉 2025 年，大家对 web agent 的需求还是很旺盛的，准备参考 https://midscenejs.com/ 和 https://github.com/browser-use/browser-use 整个 webagent 的开源框架。基于 typescript ，让广大前端开发者也加入到 ai agents 的浪潮中。底层浏览器驱动是基于 Puppetter 还是，基于 Playwright 比较好呀？
+有感兴趣的朋友添加我的微信，一起开发。
+微信（ base64)：eXVhbnNkdQ&#x3D;&#x3D;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102375"
+                        open
+                      >
+                        <summary class="article-expander__title">做了一个临时邮箱站 — ggg.ga，大伙有什么建议吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102375">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ShehJ: 
+之前 web3 搞空投的时候搜过各种临时邮箱，用着各种不爽，然后也想自己写一个，直到最近才写完了一个初版。
+域名：ggg.ga
+关于域名
+本来是想注册一个含义域名，但是找了挺久，常见后缀的还不错的含义域名基本都被注册了
+如果使用含义名+小众后缀又容易给别人做&quot;嫁衣&quot;
+索性直接用了一个好记点的小众后缀。
+关于邮箱后缀
+目前有两个 @linkmail.top （测试）、 @ddrdd.com ，之后会再加几个选项。
+邮箱后缀这块，收信邮箱也是尽量要.com 吗？还是影响不大？
+关于功能
+目前也就实现了临时邮箱的基本功能，邮件默认保存 7 天，不删浏览器缓存不点新建一个邮箱可以一直使用
+后面应该会加一个保存邮箱密钥，通过密钥复用邮箱的功能
+各位还有什么功能上、界面外观上的建议吗？
+整体还算是写着玩的吧，功能还有待完善，顺便学了一点 tailwindcss ，不得不说这个东西以前觉得乱，实际用了还是挺好用的。
+该域名及临时邮箱会长期保留，各位薅羊毛的时候可以用一用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102374"
+                        open
+                      >
+                        <summary class="article-expander__title">家里很多电器，插座怎么都不够，各位怎么安排的</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102374">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jjrow: 
+排插接排插...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102373"
+                        open
+                      >
+                        <summary class="article-expander__title">求助群晖 NAS 误开启 open vswitch 后无法访问</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102373">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>karlguo7: 
+设备：DS220+ 单盘 8T DSM 版本：7+
+背景：
+最近在尝试 OpenWrt ，看了下教程试了 docker 安装，但是没法使用代理（不知道原因）。又尝试了虚拟机安装，但是安装后连接虚拟机报错 boot failed: not a bootable disk ，搜索无果后放弃虚拟机，但是发现 docker 的 openwrt 启动不了了，卸载了虚拟机后关掉了 open vswitch 后镜像可以正常启动了。
+启动 docker 的 openwrt 后手贱又去设置里打开了 open vswitch ，导致 NAS 直接访问不了了。。。
+尝试：
+首先尝试管理员账户通过 SSH 登录，报错：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+按照提示删掉了.ssh 文件里面关于 NAS ip 的内容。
+再次尝试，报错：Permission denied, please try again.
+也去问了群晖的客服，客服说可以按照下面的步骤重置并且数据不会丢失。
+https://kb.synology.cn/zh-cn/DSM/tutorial/How_to_reset_my_Synology_NAS_7#t1
+但是我按了 reset 按钮很久也没有听到“哔声”，按照客服的步骤也不能重置。
+🙏大佬们这种情况该怎么办？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102372"
+                        open
+                      >
+                        <summary class="article-expander__title">在工作中遇到了很恶心的需求该怎么办</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102372">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bluebird007: 
+职位是后端开发，最近的需求是将一个原本是前端完成的工作变为后端完成：前端轮询系统接口获取新增交易单后，根据一系列筛选条件过滤之后调用三方接口完成交易。产品需求是获取新增交易单后后端可以直接完成整个流程逻辑，对前端无感。产品想法很简单，但是对后端来说就很麻烦：我需要去看前端代码这一系列的筛选过滤条件的逻辑，以及调用三方接口的参数的组装逻辑。更麻烦的是前端一个 select 下的不同 option 可能对应着不同的逻辑，每一种逻辑的每一个步骤我都得保持一致；从前端轮询变成后端接收消息处理，后端接收消息进行处理，消息 QPS 相当高，对于性能要求很高。然而这也不是最恶心的，最恶心的是这个需求只能在 prod 来验证。
+来这个部门才不到一个月，这其中的核心逻辑都不甚清楚。评审会的时候更是人微言轻，主管只说先做先做，然后就开始排期。
+自从接了这个需求之后似乎就没怎么高兴的过过周末。脑子里一想到这个需求就好像有什么恶心的东西挂在背上，时不时刺你一下，但是你还甩不掉。。。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102371"
+                        open
+                      >
+                        <summary class="article-expander__title">目前在各方面达到一个均衡的编程语言推荐？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102371">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>shuiguomayi: 
+目前有在 开发效率 开发体验，运行性能和资源消耗 方面达到一个均衡的 编程语言吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102370"
+                        open
+                      >
+                        <summary class="article-expander__title">Linux 上面有没有比 snipaste 更好的截图工具？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102370">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>saySilence: 
+linux 上有什么好用的截图工具（ debian 系或者 arch 系），pixpin 没有 linux 版本。
+截图、贴图、取色。
+GIF 、OCR 。(PixPin 有的功能)
+是不是只能用 snipaste 了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102368"
+                        open
+                      >
+                        <summary class="article-expander__title">［拼多多多人团］趣多多曲奇饼干 752g 大礼包 仅需 12.3 元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102368">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zachary99: 拼多多百亿补贴+5 折券，12.3 元
+https://file-link.pinduoduo.com/GRKCmvyrSY</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102367"
+                        open
+                      >
+                        <summary class="article-expander__title">Setapp 家庭版订阅有人下车，空 1 个车位，年付，已订阅 6 年</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102367">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>iEggache: 官网： https://setapp.com/ 
+近期 1 人下车，所以空出 1 个位置；从 18 年 9 月稳定续费至今；年付¥218 ，中途不可下车。WX：stonezhao002</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102366"
+                        open
+                      >
+                        <summary class="article-expander__title">BestBlogs.dev 精选文章 第 28 期</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102366">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ginobefun: 
+BestBlogs.dev 精选文章 第 28 期
+📷 亲爱的读者朋友们，欢迎阅读本期 AI 领域精选文章！
+本期，我们精选了 AI 领域的重要技术突破、产品创新和行业趋势。DeepSeek 发布了具有 671B 参数的新一代 MoE 模型； OpenAI 展示了多项重要技术进展； AI 开发工具和智能体技术持续演进。让我们一起了解这些重要发展！
+本周亮点
+DeepSeek-V3 重磅发布，671B 参数 MoE 模型（激活 37B ），在 14.8T token 上预训练，性能接近 GPT-4 和 Claude-3.5 ，训练成本仅 557.6 万美元，并开源原生 FP8 权重。
+OpenAI 十二天连续发布，推出 o3 模型、Sora 视频生成、RFT 微调技术等重要更新，展示了 AI 在数学、代码、视频生成等领域的进展。
+Anthropic 研究表明，简单可组合的模式优于复杂框架； Hugging Face 发布轻量级智能体库 smolagents ，简化 AI 智能体创建流程。
+4.RAG 技术迎来创新升级，GraphReader 、MM-RAG 、CRAG 等新框架涌现，通过图解、多模态、自我校正等技术显著提升性能。
+http://Bolt.new 创造编程产品增长记录，两个月实现 2000 万美元 ARR ，通过浏览器端操作系统和 AI 代码生成技术降低编程门槛。
+AI 语言学习迎来首个独角兽，Speak 实现 ARR 近 5000 万美元，用户突破 1000 万，通过 AI 技术提供低成本、个性化的语言学习体验。 
+AI 绘图领域新秀 Recraft 以 ELO 评分 1172 登顶文生图竞技场，在图像质量和提示词贴合度方面超越 Midjourney 和 Stable Diffusion 。
+行业领袖共话 2025：微软 CEO 纳德拉预见 AI 基础设施竞争加剧；李飞飞强调数据和算力资源重要性；李想展望 AI 定义未来汽车产业。
+智能体发展提速，2025 年被预测为&quot;智能体之年&quot;，多家公司在规划、可复用工作流、探索和评估等方面取得突破。
+模型技术变革持续深化，小型高效模型大量涌现，推理定价持续下降，开源模型与专有模型性能差距显著缩小。
+在线阅读： https://www.bestblogs.dev/newsletter/issue28</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102364"
+                        open
+                      >
+                        <summary class="article-expander__title">我的第二款 iOS APP 上线：赢三家</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102364">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Eyon: 最近看到小红书上麻将日历很火，于是纯 SwiftUI 写了这个 APP 。当然，还是在 AI 的帮助下完成的。
+我感觉这个 APP 能赚钱，大家等我好消息。
+https://apps.apple.com/cn/app/%E8%B5%A2%E4%B8%89%E5%AE%B6/id6739476784
+照例厚着脸皮录了视频</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102363"
+                        open
+                      >
+                        <summary class="article-expander__title">长期招收远程 iOS 开发小伙伴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102363">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Cici1688: 
+大家好，我们是独立开发者组成的小型开发团队，主要做自己的 App 出海产品，已经跑通产品从 0-1 的盈利路子，部分合作小伙伴已经副业收入💵已经超过主业了，团队自研产品项目和种类的较多，所以长期都在找可合作的开发小伙伴。目前手上有几个极具潜力的 AI 方向和工具 APP 等待开发，正在寻找技术合伙人。希望有此意愿的朋友可以联系我们（文章最后有我们想了解的您的信息）
+可按单结算也可以走长期盈利分成模式，工作时间自由，根据具体项目和具体人员诉求去定，欢迎各位技术大神来聊，一起出海赚美金啊💵～
+以下是我们需要的岗位：
+1.熟练使用 Swift 开发语言，3 年以上的开发经验，至少上架过 1 款软件在 Appstore 应用店
+对 Swift UI 、灵动岛等新技术保持热爱和钻研
+开发工程师二
+1.熟悉热门 AI 应用的技术和擅长 AI 接口调研、对接 AI 平台的 api 部署云服务搭建 Web-API 等，精通本地数据库的处理
+2.Swift 或者 Objective-C 语言 3 年以上经验
+通用要求
+熟悉内购、上架等流程
+开发环境干净，不能有做过马甲包以及被封号的情况，需要做好隔离
+独立开发者优先（找过坐班的兼职开发，不是很理想，如果您是坐班想接私活，希望每周可以抽出 2.5 天的时间）
+有自己作品的朋友优先（方便的话需要您提供一些项目截图等信息）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102362"
+                        open
+                      >
+                        <summary class="article-expander__title">请问这两瓶 RYO 第四代紫吕洗发水的是不是假货</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102362">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>pcdd: 
+请问图 1 和图 2 几个问题：
+RYO 的 R 为什么不一样
+有一个是假货，还是都是正品？
+第四代的味道和上一代不太一样吗，感觉味道不如上一代好闻，还是我买到假货了？
+我用的图 2 第四代，按两泵不起沫。但上一代按一泵就很多泡沫。是第四代就这样，还是买到假货了？（我确定只有洗发水是自变量）
+图 1
+
+图 2</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102361"
+                        open
+                      >
+                        <summary class="article-expander__title">痔疮爆发了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102361">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dongdongdong: 会引起不适，酌情阅读，第一次感受到有多难受。
+大概 10 天前到现在，每天的大号都很干燥，一颗一颗，当时没在意，今天上午大号出不来，太难受了。
+然后跑到药店，开了一个开塞露，和一盒药，用了开塞露之后还是出不来，急的我直接用手了，一脸的汗，抬头往后一看，出了好多血，吓坏了我，然后跑回去跟药店老板说，她说不行去医院灌肠吧。
+回到家拿医保卡，然后连吃三个火龙果，过了一会，上出来了，重焕新生一样。现在还是痛的，屁感觉都放不出来。
+回想近段时间，健身中，天天吃肉，比较懒，没有弄蔬菜，水果也没吃，很冷。天天坐着，水倒是喝得挺多，但还是干。
+希望 v 友引以为戒，多动一动，搭配均衡。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102360"
+                        open
+                      >
+                        <summary class="article-expander__title">如何安装 revanced youtube 呢</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102360">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>brucmao: 
+合租的 youtube 翻车了，把一加 12 root 了，装了 revanced-manager,然后在 apkmirror.com 下载了 YouTube
+19.47.53 版本，打了补丁后打开 youtube 一直跳转到 gmscore 页面
+https://github.com/revanced/gmscore/releases/tag/v0.3.1.4.240913
+我安装了 gmscore 也不管用，一加 12 本身自带 gmscore ，我以前安装直接从 google play 安装没问题的</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -437,611 +1068,6 @@ gitee 我开有一个私有仓库，push 等都正常，但我需要在我自己
 实测我并没有收到任何邮件。然后去联系客服。客服明确回复说：暂时不行，只能给仓库成员发。  
 好吧，我接着加了 gitee 上的另一个仓库账号，把他添加为成员，结果他在 WEB 页面上一直看不到我的这个私有仓库，也收不到任何我已添加他或我 push 的邮件信息。  开发者登录直接访问私有仓库链接，页面提示 403.
 目前在联系客服中，2 小时已过去。。。这么难的吗？还是要什么秘诀？要在命令行或 IDE 上才能看到吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102336"
-                        open
-                      >
-                        <summary class="article-expander__title">搞了个接入大模型 API 的网页版 支持 deepseek</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102336">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>hedwi: 
-搞了个接入大模型 API 的网页版，支持 deepseek ，主要是便宜
-特性
-支持创建多个主题/标签
-支持对话
-支持流模式
-支持保存历史
-也支持其它部分大模型接口，有些没有 token 没有完全测试
-支持 docker 部署
-支持嵌入聊天系统
-支持嵌入在线表格 生成公式
-支持嵌入在线文档 生成文字内容
-预览
-
-
-部署
-docker 部署文档
-建议
-还有什么在线办公场景是 AI 可以做的？欢迎补充，谢谢。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102334"
-                        open
-                      >
-                        <summary class="article-expander__title">有什么与健康生活相关的书籍推荐吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102334">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>cheesekun: 为了年老的时候，减少发病率，想了解一下相关知识，尽量养成好习惯</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102333"
-                        open
-                      >
-                        <summary class="article-expander__title">开源 - 使用 MarkdownBrain 发布你的数字花园</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102333">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>blackboom: 
-MarkdownBrain 是一个轻量的双链笔记发布工具，它可以快速将你本地的(Obsidian / Logseq)构建为漂亮的数字花园站点。
-MarkdownBrain 适用于：
-数字花园
-文档发布
-个人博客
-在线预览：markdownbrain.com
-GitHub：markdownbrain 
-启发来自：
-https://notes.andymatuschak.org</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102332"
-                        open
-                      >
-                        <summary class="article-expander__title">低价接一些项目学习练手,有大佬带我做项目,可以免费</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102332">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>mrReturnTrue:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102331"
-                        open
-                      >
-                        <summary class="article-expander__title">电信的企业用宽带限连接数吗？最近 2 周被电信宽带折磨的死去活来。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102331">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>weiweiwitch: 上上周开始，公司的电信宽带突然从公网 IP 换成了内网 IP 。这个影响倒还好。
-但一并出现的问题就是同事们说访问公司外网站的质量急剧下降。
-在排除掉内网线路问题，更换多个路由器，并调试后，发现上网的人一多，网络质量就变差。
-白天时不时的无法建立连接。晚上都下班后，网络就逐渐恢复正常。
-Uptime Kuma 上很明显的会在上班期间时不时的报警。
-进一步排查，发现连接数 1500 以上就开始劣化，2000 以上基本就开始无法顺利访问外网了。问题是，一个公司几十号人，连接数突破 2000 是非常频繁的事情。
-10000 号，找上门师傅，找客户经理，投诉，多种手段下来，都没解决。
-想问下，除了更换宽带，有没有其他的方法解决这个问题了？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102329"
-                        open
-                      >
-                        <summary class="article-expander__title">微信小程序个人备案，有啥坑吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102329">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>cat: 做了个小程序展示自己的摄影作品（网站端更新，小程序端只看，不包含任何评论等社交内容）
-现在得备案才能上家，之前为了省钱做的是 30 块一年的个人认证，现在只能以个人名义备案
-有没有 V 友备案过小程序，有啥坑不，会不会像有些点地方的个人网站备案一样三天两头找麻烦
-另外选江苏好还是选广东好？哪边简单审核快？
-或者，重新花 300 走企业认证再走企业备案？（有现成的资质）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102328"
-                        open
-                      >
-                        <summary class="article-expander__title">抖音网页版可以修改浏览历史记录吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102328">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>XiiLii: 
-如何让家里小孩或老人刷抖音时，让抖音推荐正常的视频，或者让抖音推荐他们不感兴趣的内容？这样那么就可以放弃刷抖音。比如，可以注入浏览历史记录的 cookies 吗？或通过其它方法？
-我知道屏蔽抖音域名可以防止他们刷视频，但他们就会让你修。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102327"
-                        open
-                      >
-                        <summary class="article-expander__title">求英文的辩论（对喷）视频，用来练习英语听力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102327">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>asanelder: 最近发现自己用这种视频练习听力很上瘾，主题可是关于政治，女权之类的，也可以是敏感话题的。或者其它主题也行，总之越激情越激烈越好。
-本贴的主要目的是用来学英语哈，大家不要对视频的内容进行辩论，避免进入水深区。
-举个例子，youtube 上的：Mehdi Hasan &amp; Victor Gao | Head to Head</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102326"
-                        open
-                      >
-                        <summary class="article-expander__title">豆包这功能未来会不会干死 Trancy 和 Relingo</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102326">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>seth19960929: 
-暂时还没看到有收藏上限, 而且会有上下文关联</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102325"
-                        open
-                      >
-                        <summary class="article-expander__title">写了一个网络工具箱 TCP.mk，欢迎体验</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102325">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xiaoz: 
-TCP.mk 是一个高效的网络工具箱，旨在帮助运维和开发人员提高效率。后端使用 Golang + Gin ，前端使用 Vue 3 + Element Plus
-
-功能特点
-支持 IPv6 检测和查询
-IP 聚合查询：目前使用了纯真、IP2locatiion 、GeoIP2 的免费数据库
-IP 批量查询：一次最多支持 50 个 IP 批量查询，支持导出 CSV 表格
-HTTP 检测
-TCP 端口检测
-GFW 被墙检测，支持域名、IP 、IP + 端口
-在线 dig 命令
-支持 API 调用
-支持中/英双语
-部分截图
-HTTP 检测
-
-端口检测
-
-GFW 检测
-
-dig 测试
-
-体验地址：https://tcp.mk/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102324"
-                        open
-                      >
-                        <summary class="article-expander__title">类似 aaa.bc 短域名有注册的必要吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102324">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ipfox: 
-想注册个玩</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102323"
-                        open
-                      >
-                        <summary class="article-expander__title">和 V 友们分享一个今天想清楚的打工道理</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102323">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>EvansUtopia: 
-打工必不可能暴富（这是句废话，我想的不是这个）
-我们大多数人大概率还是得在打工这条路里吃屎的，既然吃屎，那也得吃热乎点的不是。
-想清楚的是：打工就是奔着赚钱去的，无非这个钱是当下的钱，还是未来的钱。
-当下的钱很好理解，月薪/年薪嘛，很直接到手的。
-未来的钱，是指「人」、「事」。
-「人」：跟对老板，做好嫡中嫡，随着老板一路春风。
-「事」：好的项目、好的平台，吃一点苦啃下来，为下一步打地基。
-大部分时候选择未来的钱的时候，都会折损当下的钱，这是一个概率风险。毕竟没有人和事可以保证你未来一定能挣到钱。
-所以兄弟们搏概率的时候，得多动动脑筋嘞。
-我给兄弟们打个样，提供一个我的思考路径：我刚刚做了一个决定选择了当下的钱。
-核心思路是：
-我无法判断未来的钱的风险，虽然肯定是嫡中嫡，肯定有好项目，但是能不能在未来完成转化我打个问号
-现在的 J8 跳槽天天拿涨幅卡人，我不认为我可以成为人中龙凤，让下一家公司为我大开方便之门
-当下的钱给的很高，顶着 30%给的，虽然「人」、「事」目前看都不咋样，但真的香
-把当下当做跳板，去够下一家更高的涨幅
-综合下来比搏未来的钱稳定性更高，直接受益也更高，并且对冲了风险。
-以上。
-兄弟们轻喷，纯分享</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102322"
-                        open
-                      >
-                        <summary class="article-expander__title">连通性推出区间的证明过程中，全称量词和存在量词是不是用错了？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102322">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>huzhikuizainali: 
-以下是证明过程（出自《数学分析新讲第一册 P120 》）的截图，问题在截图下方提出。
-  
-
- 
-请看上面的证明。引理正文高亮处命题要求是“任意” α和β ，如果要按照这个条件推出集合 J 是一个区间我觉得很合理。
-但是在证明过程中，却使用了“任意”γ  “存在”α和β。我认为这样证明至少存在两个问题：
-1 、歪曲了引理中命题的本意。命题的本意是“任意” α和β。所以证明的起点就错了！
-2 、从“任意”γ ，“存在”α和β ，以及 A≤α&lt;γ&lt;β≤B,并不能导出γ∈J 。我举个例子加以说明假设 A&#x3D;1 B&#x3D;5 J&#x3D;(1,2)∪(4,5) 。此时γ&#x3D;3 也满足“任意”γ∈(A,B),同时一定“存在”α和β∈J ，使得 A≤α&lt;γ&lt;β≤B ，但是此时γ∉J ，进而后续证明的逻辑链条就断了！
- 
-以上就是我对这个证明的困惑，可否指出我哪里想错了？谢谢！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102321"
-                        open
-                      >
-                        <summary class="article-expander__title">在不登录的情况下，如何导出 Chrome 的阅读清单？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102321">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>anzu: Chrome 更新后，似乎发生过有人被清空 Reading List 的情况。考虑到我上百的 Reading List ，还是备份一个比较好。
-目前找到的方法都是需要登录 Google 账号，然后下载数据，有没有不需要登录的方法？我担心一旦切换账号，发生阅读清单被清空的情况。
-猜测应该在以下路径的某个文件，比如书签是 Bookmarks ，但是阅读清单的文件不知道具体是哪个。
-C:\Users\[username]\AppData\Local\Google\Chrome\User Data\Default</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102320"
-                        open
-                      >
-                        <summary class="article-expander__title">国内网盘有什么好的方法可以防止分享的资源被和谐吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102320">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>tomiaa: 
-试了改后缀，嵌套压缩包，都不是太行</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102319"
-                        open
-                      >
-                        <summary class="article-expander__title">你们有飞蚊症吗，广州普通三甲医院可以就医不用去专科眼科医院？要做手术吗，滴眼药水可以治疗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102319">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>q840554721: 你们有飞蚊症吗，广州普通三甲医院可以就医不用去专科眼科医院？要做手术吗，滴眼药水可以治疗？中山眼科医院号好难约，加上未买医保</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102318"
-                        open
-                      >
-                        <summary class="article-expander__title">写 go 项目时 swaggo 生成 swagger 文档的问题</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102318">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>broli7753: 
-例如
-
-问题
-这个路由路径有办法自动提取过来么。
-因为我在 net/http 定义路由时已经写过一遍路径，完了还要在处理方法的地方再写一次</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102317"
-                        open
-                      >
-                        <summary class="article-expander__title">有什么办法能量化 AI 超分辨率模型效果吗？例如 waifu2x 有非常多个版本，几年前原版效果很一般，现在感觉几个模型优化的方向都不一样没办法直接对比，测试了很...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102317">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>drymonfidelia: 
-另外 Stable Diffuse WebUI 自带那个是不是不支持 alpha 通道，透明的图每次让它超分完都变成黑底</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102316"
-                        open
-                      >
-                        <summary class="article-expander__title">搬瓦工最新的 vps 套餐太香了，已上车</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102316">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>since2014: 
-之前一直用的搬瓦工的祖传的低价 vps ，年付 100 多，但是吃灰比较久了，主要是延迟高，不丝滑，换用香港的节点了
-但是最近香港的节点（某小众厂商） BGP 抽风断流严重，tls 干扰严重，基本无法使用
-无奈最近一直看其他的香港节点，但是好的价格太贵了，有点没有必要了
-看到搬瓦工最近有一款 cn2 GIA 1T 的，折后年 34 刀，果断入手，全国 ping 延迟 100 多，实测非常丝滑
-精品线路真的很牛，比香港还丝滑，有需要的可以看看  3.点 cn/-2a9fldm
-优 会 码 BWHCGLUKKB
-邀请 码 总有一个能用
-bwh_eIxCIrKhFAc4FR8fwavBxImrH8EH
-bwh_h5xlDVObcojIOmDj3BpqBKSZj5hQ
-bwh_3LoaGLm9w0bzfl8TxB3r2iIuTqk3
-bwh_mrKf2YfzzszWjBmoMk89L1rEaZZU
-bwh_g9OsqoyjcEICW8o5zAkbLibn9sRa
-bwh_iHVpGzIXN67PAFhnEwi3Xt4yB6LB
-bwh_otBx0mNxMlkphh5INdVhz4bmn5LO
-bwh_2mfhGHExThUws5LAdH8QKTY9NZm0
-bwh_VXFOaKVHhp41xOnQKZgNwfu6Yi6C
-bwh_8itU6Zy7zjEHzzzWeMCOCJrYOLVD</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102315"
-                        open
-                      >
-                        <summary class="article-expander__title">个税 app 上显示的每个月公司给申报税的工资金额是扣除了五险一金的吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102315">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Lyn321: 如题：我司发工资没有工资条，所以我习惯先通过个税 app 看看报税的工资是多少。这个报税的工资是没扣除五险一金的钱吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102314"
-                        open
-                      >
-                        <summary class="article-expander__title">真的是被这个客服的水平气笑了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102314">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MrLonely: 对于客服这个行业,出现这种情况可以预见到,但是也真的是让人气笑了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102313"
-                        open
-                      >
-                        <summary class="article-expander__title">16G 电脑一开机就用掉 8G 内存，那买 8G 配置的一开机就黑屏了？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102313">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Link99: 总感觉有些 app 有 bug ，会内存溢出，弹出强制退出应用程序的窗口。
-就算我使用习惯不太好，极少 cmd+q ，16G 也不至于这样吧。
-常用的有微信、腾讯文档、figma 、chrome 浏览器（大概开了 20 个标签）、chatgpt 、pycharm
-你们有遇到类似问题吗
-
-顺便吐槽下凭啥官方翻新 mac 不能用旧机抵价呢</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102312"
-                        open
-                      >
-                        <summary class="article-expander__title">2025 年了， macbookpro m3pro 18+512 教育版快过质保未拆封 pdd 9124 能买吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102312">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>chunqicoder: 
-如题</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102311"
-                        open
-                      >
-                        <summary class="article-expander__title">有没有 K12 的素质能力测评模型？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102311">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>weishao666: 
-rt ，想要做这方面的事情，了解下从哪下手，有没有一些成熟的能力测评模型。其实觉得这个事情不靠谱，哪有一张试卷十来分钟就能下结论评价的理</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102310"
-                        open
-                      >
-                        <summary class="article-expander__title">今年是不是各大银行都限定了流水的导出啊？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102310">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ge2009: 本来想导出下个银行的消费情况，但是发现各个银行都做了限定
-招商银行只能一网通储蓄卡可以导出，信用卡无法导出
-光大银行没了导出流水的入口</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -1467,65 +1493,6 @@ https://dialect.quotemap.site/game
 AI 带来的生产力提高并不能解放劳动者，由于剥削关系继续存在，资本家会倾向榨取更多的剩余价值，导致劳动者更累。
 但是你可以投资 AI 相关的美股，驾于资本家之上，让他给你打工。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z">2024-12-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/notes/184"
-                        open
-                      >
-                        <summary class="article-expander__title">2024 · 前路未尽，初心犹在</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/notes/184">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184
-
-那晚的街道
-这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。
-https://innei.in/notes/161
-一次远行
-年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。
-
-https://innei.in/notes/162
-那次突如其来的裁员
-那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？
-想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2029,55 +1996,6 @@ Fluid Superscripts and Subscripts originally published on CSS-Tricks, which is p
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/posts/tech/electron-render-OTA-update"
-                        open
-                      >
-                        <summary class="article-expander__title">构想：Electron Render OTA 更新</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/electron-render-OTA-update">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update
-
-动机
-
-由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。
-由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。
-
-拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。
-编写此文时，下面的实现正在 Follow 中实验。
-https://github.com/RSSNext/follow
-基础知识
-Electron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。
-在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。
-思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。
-热更实现
-我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >VPS信号旗播报 - Telegram Channel</button>
                   <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
                 </h3>
@@ -2504,8 +2422,8 @@ OpenAI 每年的运行经费据报道是70亿美元，Anthropic 今年预计支�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12598081678">
-        <time id="build-timestamp" datetime="2025-01-03T13:00:02.481Z">2025-01-03T13:00:02.481Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12598427227">
+        <time id="build-timestamp" datetime="2025-01-03T13:27:04.825Z">2025-01-03T13:27:04.825Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
