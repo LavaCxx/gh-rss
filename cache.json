@@ -134,12 +134,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -218,6 +212,16 @@
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
       "articles": [
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n世界最长的高速公路隧道\"天山胜利隧道\"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）\n西蒙·威利森的年终总结，梁文锋的访谈\n英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。\n\n本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。\n\n他提到，AI 的发展速度快得难以想象。\n一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。\n\n一年过去了，大家猜猜，GPT-4 现在排名多少？\n\n答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。\n短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。\n西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。\n\nDeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。\n它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。\n\n而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。\n西蒙·威利斯说：\"DeepSeek V3 的训练…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html",
+          "publishedOn": "2025-01-03T01:10:55.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈",
+          "imageUrl": null
+        },
         {
           "id": "http://www.ruanyifeng.com/blog/2024/12/weekly-issue-331.html",
           "author": null,
@@ -365,7 +369,7 @@
           "description": "CNM47589: \n卖家卖的机器分成 o 版和 m 版，o 版可以开 oem 刷机和 root ，m 版不可以。这话是啥意思？ Google 的手机不是都可以 root 吗？这不可以 root 的版本是怎么回事？",
           "link": "https://www.v2ex.com/t/1102163",
           "publishedOn": "2025-01-02T19:59:52.000Z",
-          "wordCount": 416,
+          "wordCount": 432,
           "title": "淘宝买 pixel 手机问题求解",
           "imageUrl": null
         },
@@ -375,7 +379,7 @@
           "description": "SteveWoo:",
           "link": "https://www.v2ex.com/t/1102162",
           "publishedOn": "2025-01-02T18:38:37.000Z",
-          "wordCount": 420,
+          "wordCount": 475,
           "title": "公司后端比前端、测试、产品地位低正常吗？后端 10 人、测试 5 人、前端(web adnorid ios)10 人。",
           "imageUrl": null
         },
@@ -385,7 +389,7 @@
           "description": "freestyle26: 我感觉这样用，解放了食指。\n而且中指比食指长，滑动滚轮的路径会更长，减少了滚动的次数。\n\n说说你们的情况吧",
           "link": "https://www.v2ex.com/t/1102161",
           "publishedOn": "2025-01-02T18:03:53.000Z",
-          "wordCount": 377,
+          "wordCount": 388,
           "title": "用鼠标，你们用哪个手指滑动滚轮？我用的中指",
           "imageUrl": null
         },
@@ -395,7 +399,7 @@
           "description": "bingoso: 小米 华为，只用过这两个牌子的手机，双微信是常态，不会有任何被封风险。\n\nios 的为什么不支持双微信呢？是技术问题，还是什么？\n\n在容器化技术非常成熟的今天，ios 不支持双微信，是微信的原因还是苹果的原因呢？",
           "link": "https://www.v2ex.com/t/1102160",
           "publishedOn": "2025-01-02T17:38:45.000Z",
-          "wordCount": 532,
+          "wordCount": 671,
           "title": "为什么 android 双微信可以， ios 就不行？",
           "imageUrl": null
         },
@@ -405,7 +409,7 @@
           "description": "keeplearning001: 有个需求是要在数据机房内登录笔记本去做运维工作，但是没有办法将自己的电脑带进去，所以目前大部分时候只能通过 remote 的方式，但是公司政策上理论上是不允许这种方式的，所以目前有没有实现同步工具和当前进程的方案",
           "link": "https://www.v2ex.com/t/1102159",
           "publishedOn": "2025-01-02T17:34:04.000Z",
-          "wordCount": 412,
+          "wordCount": 470,
           "title": "市面上现在有没有 windows 系统同步当前浏览的网页金额收藏夹以及系统安装的软件及工具的工具，最好是开源的",
           "imageUrl": null
         },
@@ -415,7 +419,7 @@
           "description": "defaw: \n今天把 cursor 下回来了，在两个项目中使用了 cursor 。一个是 c++的嵌入式项目，一个 react shadcn 的前端项目，摸索了一套不用每月 20 刀使用 cursor 的方式。\n1.装上通义灵码插件，来激活 tab 补全，因为 cursor 的 tab 补全是需要 pro 会员，没有会员 tab 补全不生效。\n2.-模型里 openai api 里填上 deepseek 自家的 api 地址和 token ，不算 composer 的情况下，基本上获得 cursor99%的能力了。\n然后就是使用中的一些细节，ctrl-k 的代码生成会比 tab 更完整，效果也好的多，用 deepseek v3 来进行方法级别的生成效果是比较好的，如果需要跨多文件生成，用 @File 把别的文件里的类型定义一起附上。",
           "link": "https://www.v2ex.com/t/1102158",
           "publishedOn": "2025-01-02T16:59:45.000Z",
-          "wordCount": 471,
+          "wordCount": 532,
           "title": "一种不付费使用 cursor 的方式",
           "imageUrl": null
         },
@@ -425,7 +429,7 @@
           "description": "frankilla:",
           "link": "https://www.v2ex.com/t/1102157",
           "publishedOn": "2025-01-02T16:51:41.000Z",
-          "wordCount": 370,
+          "wordCount": 377,
           "title": "大佬们， ios 自带输入法的自动遗忘用户词库的毛病是普遍性的还是我个人问题？能否彻底改善？",
           "imageUrl": null
         },
@@ -445,7 +449,7 @@
           "description": "lslqtz: \n最近试着写了一份简单的个人用途的转码点播服务端, 完成了之前的想法, 它能把当前工作目录下的视频转为 m3u 切片用于点播. 主要是由于部分 BDMV 视频码率过高, 很难远程点播 NAS 上的内容. Jellyfin 等媒体库方案不在考虑范围.\n为了实现浏览器 seek 的效果, 选择由服务端通过 PTS 时间点和 timeBase 来根据关键帧提前生成切片范围, 在请求对应切片后实时转码到 mpegts (并通过浏览器预缓冲避免播放卡顿).\n但无论如何调节, 似乎偶尔都会出现音频不连续的问题, 转储后发现目标切片似乎时间和请求长度不完全一致, 调节多次参数仍未解决此问题 (为使切片有足够起始长度只测试到 muxdelay 方法可用, -ss/-t 放于输入之后似乎也无果, 包括 -start_at_zero 等的替代也都尝试过, 使用 hls 或 segment 的话较难控制自由点播进度).\n由于 nodejs 服务端较难调用 FFmpeg API, 是用的 命令+管道 的方式. 在这种情况下, 有方法可以解决或规避此问题吗?\n服务端的完整代码, 其中相关的代码如下:\nlet args = [\n'-ss', startTimeStr,\n'-t', durationTimeStr,\n'-accurate_seek',\n'-i', videoPath,\n'-map', '0:v:0',\n'-c:v', encoder,\n'-b:v', String(bitrate),\n'-bsf:v', 'h264_mp4toannexb',\n'-avoid_negative_ts', 'make_zero',\n'-start_at_zero',\n'-muxdelay', delayTimeStr,\n'-muxpreload', delayTimeStr,\n'-f', 'mpegts',\n'pipe:1'\n];\n\n请求方法:\nhttp://127.0.0.1:8082/video/rttPlaylist?videoPath=1.mkv\nhttp://127.0.0.1:8002/video/rttSegment?videoPath=1.mkv&start=0.0000&duration=4.0000\n(BTW: 其实大部分是 Gemini 写的.)",
           "link": "https://www.v2ex.com/t/1102154",
           "publishedOn": "2025-01-02T16:16:00.000Z",
-          "wordCount": 504,
+          "wordCount": 510,
           "title": "使用 FFmpeg 试图做个人用的转码点播服务端, 但 mpegts 多个切片间音频偶尔不连续?",
           "imageUrl": null
         },
@@ -465,7 +469,7 @@
           "description": "etata: 这个副业经过 2024 年，一年的探索。从一开始前端 nextjs+后端 dotnet 框架 ABDP 整体编写，到后面修改到 link bio 。到后来的工具站，在到现在源码上做二开。\n我的观点还是不变：\n1 ，利用自身的开发优势。\n2 ，赚美元。\n3 ，走已经赚钱的路。\n4 ，ai 变革会引起 smm 行业的变化。\n5 ，坚持长期。\n\nSmashingOne: 借助 AI 技术重新定义品牌构建与管理\nSmashingOne 是一个基于人工智能技术的创新平台，专注于帮助用户快速打造个人和商业品牌的在线形象。无论是初创企业、自由职业者，还是希望提升品牌影响力的成熟企业，SmashingOne 都能提供一站式解决方案，从品牌设计到内容管理，再到财务跟踪，全方位满足您的需求。\n核心功能与优势：\n智能品牌标识创建\nSmashingOne 利用 AI 技术，帮助用户轻松创建独一无二的品牌标识。这些标识设计从配色、字体到图形都经过精心匹配，确保能够突出品牌个性和市场定位。\n内容生成与排程功能\n用户可以通过平台生成高质量的品牌内容，包括社交媒体帖子、博客文章和宣传文案。同时，平台支持智能排程，将内容分布到最佳时间段发布，确保最大化用户的参与度和影响力。\n品牌平台搭建\nSmashingOne 通过简单的操作，例如提供用户网址信息或回答几个关键问题，即可快速为用户构建一个完整的品牌平台。从品牌形象设计到功能部署，所有工作都由平台自动完成，大幅减少用户的时间和精力投入。\n实时销售跟踪与财务管理\n平台支持实时跟踪销售数据，帮助用户了解市场动态和业务表现。此外，还整合了支付管理和财务分析功能，提供全面的财务状况洞察，让用户轻松掌控企业运营情况。\n安全、便捷、透明\nSmashingOne 始终坚持以用户体验为核心，承诺无任何隐藏费用。操作流程安全、简单，无需专业培训或后期维护，确保用户能快速上手并持续获得支持。\n适用人群：\nSmashingOne 专为从零开始构建品牌的用户设计，尤其适合：\n初创企业：快速建立品牌形象并提升市场竞争力。\n自由职业者：轻松打造个人品牌，拓展客户群体。\n成熟企业：优化品牌管理流程，节省时间与资源。\nhttps://smashing.one/",
           "link": "https://www.v2ex.com/t/1102152",
           "publishedOn": "2025-01-02T15:46:50.000Z",
-          "wordCount": 386,
+          "wordCount": 397,
           "title": "2025 年新上线的 smm+ai 工具站。。。",
           "imageUrl": null
         },
@@ -475,7 +479,7 @@
           "description": "diydapanji: \n最早因为 NAS 空间比较大，所以相机默认开了 RAW+JPG 输出，平时也比较忙出去玩回来也不太选片直接 synology drive 整张卡同步上去了。\n最近发现照片占用有点太大了，光一年的就要超过 1t 了，其中有大量废片、以及不会再修的 raw 照片。请问大家有没有什么批量管理的方法，以及大家的流程是什么样的？",
           "link": "https://www.v2ex.com/t/1102149",
           "publishedOn": "2025-01-02T15:08:58.000Z",
-          "wordCount": 691,
+          "wordCount": 855,
           "title": "NAS 上如何批量管理 RAW+JPG 照片？",
           "imageUrl": null
         },
@@ -495,7 +499,7 @@
           "description": "shuiguomayi: \n无论是本地软件，还是在线网页都成，效果最好的，谷歌翻译？微软翻译？",
           "link": "https://www.v2ex.com/t/1102147",
           "publishedOn": "2025-01-02T14:57:44.000Z",
-          "wordCount": 384,
+          "wordCount": 391,
           "title": "求效果最好的长篇文章中英互译工具",
           "imageUrl": null
         },
@@ -505,7 +509,7 @@
           "description": "v2z2ex: \n这个时候面试太难，面了 20 多家，小公司基本都是一面挂，四家到了 hr 面（均大厂），其中两家 hr 面结束后无 hc ，后两家开的 offer 薪资低于预期。",
           "link": "https://www.v2ex.com/t/1102144",
           "publishedOn": "2025-01-02T14:34:57.000Z",
-          "wordCount": 410,
+          "wordCount": 429,
           "title": "自勉：降低心理预期，继续坚持继续面",
           "imageUrl": null
         },
@@ -525,7 +529,7 @@
           "description": "giganet: 刚到成都，推荐个豆豉烤鱼吧",
           "link": "https://www.v2ex.com/t/1102141",
           "publishedOn": "2025-01-02T14:20:52.000Z",
-          "wordCount": 333,
+          "wordCount": 340,
           "title": "豆豉烤鱼成都哪家推荐一下",
           "imageUrl": null
         },
@@ -545,7 +549,7 @@
           "description": "dcy7287: 不会有寄生虫吗",
           "link": "https://www.v2ex.com/t/1102139",
           "publishedOn": "2025-01-02T14:00:07.000Z",
-          "wordCount": 518,
+          "wordCount": 553,
           "title": "三文鱼不是深水鱼为什么能生吃？",
           "imageUrl": null
         },
@@ -575,7 +579,7 @@
           "description": "CrazyEight: 一、券商账户开通方法\n条件：人在内地，需开启科学上网；\n方法：点击邀请链接，按提示逐个提交资料即可。https://ibkr.com/referral/qian740\n二、银行卡开通方法\n肉身跑一趟香港。\n（ 1 ）条件：港澳通行证、身份证、地址证明（一般是信用卡账单，我开通时没用到）、过关小票（出香港的海关闸机前机器会出）。\n（ 2 ）时间：周一至周五，周六 9-13 点。\n（ 3 ）银行推荐：推荐中银香港，和内地中国银行同名互转无手续费。\n（ 4 ）地点推荐：福田口岸坐 B1 大巴到又新街站下车（仅 13 港币），下车后随便走几步就有个银行。\n（ 5 ）开通方法：下载中银香港 APP ，银行工作人员会问你有无预约，没有的话给你份指引教程，自己在 APP 提交证件照片、人脸验证、资料信息，然后提交就可以回去了。过几个工作日审核通过会把卡寄到你填写的地址。\n三、出入金\n（ 1 ）如何往港卡存钱：国内银行 APP 上购汇，再转到港卡（购汇一般是旅游海外购物理由，按规定应该不能用于投资海外证券）；肉身在香港用内地卡在取款机取现金，再存入港卡（手续费较高，一年限 10w ，一天限 1w ，单卡单天限 3000 hkd ）。\n（ 2 ）如何往证券账户存钱：在盈透 APP 点存入资金，选 eDDA 方式，填写银行卡信息银行通过后可以直接将卡内资金转到券商。（类似内地的绑定银行卡）\n结语：A 股这个样子，海外 ETF 动辄几个点的溢价，感觉有必要开个海外券商账户。现在做多美股不一定正确，但趁着还没堵死，先开个户是明智的，毕竟富途、老虎两年前已经不能为内地新客开户了。",
           "link": "https://www.v2ex.com/t/1102136",
           "publishedOn": "2025-01-02T13:54:18.000Z",
-          "wordCount": 427,
+          "wordCount": 440,
           "title": "2025 年 1 月，盈透美股账户尚能开通，附开通攻略和邀请链接",
           "imageUrl": null
         },
@@ -605,7 +609,7 @@
           "description": "redcats: 关键信息：\n1. 知名外企进国内互联网企业\n2. 当时不了解互联网行情，20k-40k ，只开了 20\n3. 试用期三个月，需要答辩；还有一个月\n4. 个人能力初步已经上级认可，并且做了一些从没人做过的开荒任务，T0 那种\n5. 我加班也很多，到部门 top3\n现在问题是，\n快要转正了，我是转正前提重新谈薪水。还是转正之后呢？",
           "link": "https://www.v2ex.com/t/1102133",
           "publishedOn": "2025-01-02T13:47:13.000Z",
-          "wordCount": 377,
+          "wordCount": 391,
           "title": "入职互联网企业 2 个月，薪水谈低了，我打算去搞一把",
           "imageUrl": null
         },
@@ -625,7 +629,7 @@
           "description": "rookie8: 过程：\n今天下午突然接到香港电话，说已订购的机票飞机故障了，需要改签，然后电话沟通改签，之后又说可以提供延误险，还特别强调可以补助 300 元，说需要支付宝操作，然后提供了一个网站路径，让登录，一看是 ip 地址，连域名都没有，说是中国民用航空局，我佛了。。。。\n下面是电话和网站链接：\n电话：00 852 6294 6474\n钓鱼网站： http://154.220.28.138/\n各位 V 友们，有什么好的举报方式吗？",
           "link": "https://www.v2ex.com/t/1102131",
           "publishedOn": "2025-01-02T13:41:12.000Z",
-          "wordCount": 376,
+          "wordCount": 386,
           "title": "热心的 V 友们，碰到诈骗电话和钓鱼网站怎么举报了",
           "imageUrl": null
         },
@@ -635,7 +639,7 @@
           "description": "dream4ever: \n目前有一个视频网站的开发需求，网站上放一些专业内容，用户注册并且付费后才能查看视频，并且要求网站在国内和国外都能正常访问。\n对于这种需求来说，运行网站的服务器，是买一台阿里云海外服务器合适，还是买海外主机服务商的性价比更高？或者国内外分开买服务器，分开部署网站？不过如果国内买服务器+域名的话，还得备案，挺麻烦的。\n另外关于用户付费这块儿，国内的微信支付宝接入很好说，海外用户付费的话，综合考虑开通难度和手续费，哪家接入商比较合适呢？在推上看推荐 Stripe 的比较多。\n谢谢先～",
           "link": "https://www.v2ex.com/t/1102130",
           "publishedOn": "2025-01-02T13:40:55.000Z",
-          "wordCount": 477,
+          "wordCount": 505,
           "title": "国内外均可访问的收费视频网站开发方案咨询",
           "imageUrl": null
         },
@@ -645,7 +649,7 @@
           "description": "fan88: \n访问上海电信的 IP 延迟均在 40ms+",
           "link": "https://www.v2ex.com/t/1102129",
           "publishedOn": "2025-01-02T13:39:04.000Z",
-          "wordCount": 392,
+          "wordCount": 408,
           "title": "上海联通今晚怎么了？到上海电信延迟直接爆表",
           "imageUrl": null
         },
@@ -655,7 +659,7 @@
           "description": "qianchengv: \n\nfinviz:\nhttps://finviz.com/map.ashx?st=ytd\nchart exchange:\nhttps://chartexchange.com/stocks/",
           "link": "https://www.v2ex.com/t/1102128",
           "publishedOn": "2025-01-02T13:39:00.000Z",
-          "wordCount": 351,
+          "wordCount": 353,
           "title": "分享一个美股大盘云图",
           "imageUrl": null
         },
@@ -665,7 +669,7 @@
           "description": "hhacker: \n每一个游戏玩家心中, 都有一个自己做一款游戏的梦, 费劲千辛万苦后, 我成功制作了一款独立游戏并在 2025 年 1 月 1 日上架了 Steam.\n本文既是对这个过程的一种纪念, 也是对游戏制作这个话题留下一些自己的思考和总结, 如果能让后来者少踩几个坑, 就更好了.\n我将按时间线索将整个游戏制作和发行过程展现出来, 文章较长, 感谢你的耐心阅读.\n源起 2019\n我是一个 80 后, 在 90 年代伴随着电子游戏成长起来的一代人, 在读书的时候曾经有一段时间沉迷游戏, 玩三国志和文明系列玩到深夜.\n我父亲实在看不下去了, 对我说了一句话: \"玩游戏厉害算什么, 有本事自己做一个啊\", 当时还小, 也没有能力制作一款游戏, 可能是年少时的那种不服气吧, 这句话我就一直记在了心里.\n后来参加工作了, 和大多数社畜一样, 每天累得跟狗一样, 回家就只想躺着休息, 连打开电脑玩一把游戏的兴趣都没有了.\n2018 年下半年, Steam 上的独立游戏中国式家长火热, 我正好也玩到了这款游戏, 并向我的朋友推荐了它.\n然后在 2019 年春天, 我晚上加班加得心烦意乱, 工作堆积如山, 一眼瞥见了加班了一小会儿就想溜的胡大胖同学, 我说: \"你陪我加班吧, 我做完这点事情, 我们就玩暗月来袭\", 然后胡大胖同意了.\n暗月来袭是当时很火的一款 DOTA2 地图, 我们之前从来没有通关过, 就在那个晚上, 我们打到了历史最佳记录-倒数第二关.\n然后在黎明到来前, 胡大胖说:\n\"加班其实是有一定概率猝死的\"\n\n我说:\n\"要不我们做一款游戏吧, 就叫**中国式加班**\"\n\n胡大胖表示同意, 然后我们一起构思了这么一个特别的游戏, 当时胡大胖还并不知道, 他将是这个加班游戏的主角原型.\n所以在 2019 年五月, 我初始化了这个游戏项目的 Git 仓库.\n萌新的进击\n虽然…",
           "link": "https://www.v2ex.com/t/1102126",
           "publishedOn": "2025-01-02T13:24:17.000Z",
-          "wordCount": 1844,
+          "wordCount": 1931,
           "title": "我是如何从零开始手搓一个独立游戏并上架 Steam 的",
           "imageUrl": null
         },
@@ -675,7 +679,7 @@
           "description": "HoseaDev: \n开源一个胖东来，自油爱的小脚本。\n喜欢的可以 Star 。\nhttps://github.com/HoseaDev/AiDongLai",
           "link": "https://www.v2ex.com/t/1102125",
           "publishedOn": "2025-01-02T13:20:56.000Z",
-          "wordCount": 356,
+          "wordCount": 366,
           "title": "开源一个胖东来，自油爱的小脚本。",
           "imageUrl": null
         },
@@ -685,7 +689,7 @@
           "description": "go1796996750asdf: \n很久前就有这想法，无奈最近才认真做起来。算是给自己做个模版方便后面开发其他产品～～\n功能上支持 生成图片 图片生成视频。\n目前需付费使用，大佬们可以发账号，后台给最高套餐使用 反馈 bug\n图像模型支持以下\nflux-schnell ，\nflux-dev ，\nflux-pro-v1 ，\nflux-pro-v1.1 ，\nflux-pro-v1.1-ultra ，\n视频模型支持下面：\nhaiper-v2 ，\nminimax ，\nluma-dream-machine\n网站：👉 https://web.cutyai.com/",
           "link": "https://www.v2ex.com/t/1102124",
           "publishedOn": "2025-01-02T13:05:10.000Z",
-          "wordCount": 421,
+          "wordCount": 528,
           "title": "肝了一个月-AI 图像视频生成网站-欢迎免费试用",
           "imageUrl": null
         },
@@ -695,7 +699,7 @@
           "description": "dcy7287: 最新浏览器排名：\nChrome 66.88%\nEdge 13.21%\nSafari 8.49%\nFireFox 6.14%\nOpera 2.74%\nChrome 能取代 IE ，尤其是 IE 是寄生在自家、世界使用最普及的 OS 之上，愣是让 Chrome 偷了家，真是个奇迹，而且 Google 打的都是明牌。",
           "link": "https://www.v2ex.com/t/1102122",
           "publishedOn": "2025-01-02T12:54:13.000Z",
-          "wordCount": 637,
+          "wordCount": 654,
           "title": "Chrome 干翻 IE 算不算个奇迹",
           "imageUrl": null
         },
@@ -715,7 +719,7 @@
           "description": "xiaoming1992: \n预算 2800 - 3200 ，以下是刚需：\n16 + 512 及以上\nNFC （地铁卡 + 车钥匙）\n谷歌三件套 + 梯子\n最好不用解锁（怕银行之类的对环境安全要求较高的软件用不了）\n不接受二手，最好别是同系列的最低配，我不喜欢最低配\nP.S. 对雷老板有点迷信，对某为和蓝绿二厂有点歧视\n背景：我现在用的是红米 K30P 12 + 128 ，当时买的时候我记得好像是 3000 ，用了 4 年半了，很喜欢，也有点迷信雷老板，只是存储着实不够，想着换一个。\n可是红米新出的 K80P 16 + 512 要 4300 ，太贵了；红米 K80 价格倒是合适，可是从 K30P 换到 K80 ，有点不甘心，感觉越活越回去了。\n我看一加在站内的口碑不错，刚刚也稍微体验了一下 Ace5 ，不坏。\n能分析一下 红米 K80 和 一加 Ace5 的优劣吗？或者有其他推荐的也可以。再或者，随着通货膨胀，我的预算也应该加一加吗？（加不了多少，顶天 3500 ）\n（我知道一加是 oppo 的，谢谢）\n我先说一个，红米换红米，换机成本低，不存在资料迁移的麻烦。",
           "link": "https://www.v2ex.com/t/1102120",
           "publishedOn": "2025-01-02T12:46:40.000Z",
-          "wordCount": 454,
+          "wordCount": 504,
           "title": "周经贴，求推荐手机，预算 2800-3200",
           "imageUrl": null
         },
@@ -725,7 +729,7 @@
           "description": "Gesar: \nios9 是 2015 年发布的，我有一部 ios9 的 6s ，因为系统根证书过期了，很多网站的 https 已经不能用了，比如使用 Let's Encrypt 证书的网站。而且因为 webkit 内核版本太低，一些用新特性的网站内容会变成空白。\n\n希望以后能有一天回到简洁的色彩。",
           "link": "https://www.v2ex.com/t/1102117",
           "publishedOn": "2025-01-02T12:37:12.000Z",
-          "wordCount": 486,
+          "wordCount": 527,
           "title": "ios9 在 2025 年已经几乎不能用了",
           "imageUrl": null
         },
@@ -735,7 +739,7 @@
           "description": "kongkongye: \n比如点了个套餐，或吃火锅，先吃最好的还是最后吃最好的。\n有点选择困难症，涉及心理学上的即时满足跟延迟满足吗？大家怎么选？",
           "link": "https://www.v2ex.com/t/1102116",
           "publishedOn": "2025-01-02T12:31:58.000Z",
-          "wordCount": 483,
+          "wordCount": 527,
           "title": "好东西最先吃还是最后吃的问题",
           "imageUrl": null
         },
@@ -745,7 +749,7 @@
           "description": "czw1939: \n房子快到期了，想找个短租酒店，但是不知道在哪找，有没有大佬知道的",
           "link": "https://www.v2ex.com/t/1102115",
           "publishedOn": "2025-01-02T12:22:43.000Z",
-          "wordCount": 387,
+          "wordCount": 398,
           "title": "广州天河有那种可以短租一两个月的酒店吗？",
           "imageUrl": null
         }

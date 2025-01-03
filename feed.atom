@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-03T01:11:57.531Z</id>
+    <id>urn:2025-01-03T02:35:48.517Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-03T01:11:57.531Z</updated>
+    <updated>2025-01-03T02:35:48.517Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html"/>
+        <updated>2025-01-03T01:10:55.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+世界最长的高速公路隧道"天山胜利隧道"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）
+西蒙·威利森的年终总结，梁文锋的访谈
+英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。
+
+本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。
+
+他提到，AI 的发展速度快得难以想象。
+一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。
+
+一年过去了，大家猜猜，GPT-4 现在排名多少？
+
+答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。
+短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。
+西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。
+
+DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。
+它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。
+
+而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。
+西蒙·威利斯说："DeepSeek V3 的训练…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[远程，实习或全职] Python 编程及儿童编程机器人编程开发实习生]]></title>
         <id>https://www.v2ex.com/t/1102164</id>
