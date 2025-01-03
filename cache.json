@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,6 +173,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -322,7 +355,7 @@
           "description": "prefect: \n对车不是很熟悉，二手车哪里买坑比较少啊？我就只知道瓜子。。",
           "link": "https://www.v2ex.com/t/1102358",
           "publishedOn": "2025-01-03T09:15:58.000Z",
-          "wordCount": 343,
+          "wordCount": 347,
           "title": "二手车哪里买比较合适",
           "imageUrl": null
         },
@@ -332,7 +365,7 @@
           "description": "HZYJ233: 不知道和各厂商的数据加速服务有没有关系，我在设置和控制中心确认过了，流量是关着的，但在我浏览美团之后，我收到了中国联通发来的流量预警信息，在中国联通 app 也查到了相关 app 的流量使用记录，时间也是对得上的。\n设备是 iPhone16 Pro 日版，系统是 iOS18.3beta ，仅插单卡连接 Wi-Fi 关闭数据开关使用\n不知道有没有人注意到类似的问题，可以解答一下是不是 iOS 方面的原因吗",
           "link": "https://www.v2ex.com/t/1102356",
           "publishedOn": "2025-01-03T09:09:59.000Z",
-          "wordCount": 424,
+          "wordCount": 438,
           "title": "iPhone 在关闭蜂窝开关后仍然会偷跑流量",
           "imageUrl": null
         },
@@ -342,7 +375,7 @@
           "description": "ooo4: \n版本： react@18.3.1\n我看源码就是先 UnmountEffects 后 MountEffects,里面也只是递归遍历而已，为什么 cleanup 里面的 props 是上一次的了？\ncommitPassiveUnmountEffects(root.current);\ncommitPassiveMountEffects(root, root.current, lanes, transitions);\n\n// 复现的 demo\nfunction App() {\n  const [num, setNum] = useState(100)\n  window.__setNum = setNum\n  return <Comp num={num}></Comp>\n}\n\nfunction Comp(props) {\n  debugger\n  useEffect(() => {\n    debugger\n    props // {num:1000}\n    return () => {\n      debugger\n      // 为什么这里是旧的 props? {num:100}\n      props\n    }\n  }, [props.num])\n  return (\n    <p>\n      <span>{props.num}</span>\n    </p>\n  )\n}\n\nsetTimeout(() => {\n  __setNum(1000)\n}, 1000)",
           "link": "https://www.v2ex.com/t/1102355",
           "publishedOn": "2025-01-03T09:09:02.000Z",
-          "wordCount": 462,
+          "wordCount": 501,
           "title": "react 新手关于 react useEffect 的困惑，为什么 useEffect 里面的 cleanup 函数里面的 props 是旧的，如何从源码解释？",
           "imageUrl": null
         },
@@ -362,7 +395,7 @@
           "description": "keven1024: \n如题，假设存在这种场景，员工 a 没有经过公司同意，在公司使用 cursor ，把公司代码 embeding 到 cursor 服务器了，\n然后 hr 找公证处，把请求 cursor 自动补全 api ，并返回含有公司商业机密的代码，以及员工与 cursor 服务器的通信记录，深信服监控里的员工将公司商业机密粘贴到 cursor 聊天框的截图等作为证据进行公证。\n最后 hr 以员工 a 泄露公司商业机密为由，开除员工 a ，并要求员工 a 赔偿公司损失 x 万元。\n这种情况可能出现吗，如何避免\n鄙人法律小白，本文仅理性讨论可能性以及避免可能的缝纫机风险，大佬们不喜勿喷",
           "link": "https://www.v2ex.com/t/1102353",
           "publishedOn": "2025-01-03T09:04:40.000Z",
-          "wordCount": 487,
+          "wordCount": 497,
           "title": "在公司使用 cursor 可能会被判泄露商业机密吗",
           "imageUrl": null
         },
@@ -372,7 +405,7 @@
           "description": "pvcxy18: 宽带是绑我身份证的，不是绑手机话费。去年 12 月一次性交了 800 元年费，今年 11 月底交了移动上门安装宽带，没 care 电信宽带，以为会到期自动断网。\n最近电信工作人员联系我归还光猫，一直没 care 。今天我约了电信上门取光猫，客服说我宽带多用了一个月，扣了 180 元（单月价格），不补缴就无法停机… 会继续扣费\n加装移动后，我就再也没用过电信宽带了，我不想交这欠费。现在在走申诉工单流程… 不知道是否有用？有 v 友遇到过同样的事情吗？",
           "link": "https://www.v2ex.com/t/1102352",
           "publishedOn": "2025-01-03T09:02:30.000Z",
-          "wordCount": 433,
+          "wordCount": 455,
           "title": "被电信宽带倒扣了 180 元宽带费，申诉有用吗？",
           "imageUrl": null
         },
@@ -412,7 +445,7 @@
           "description": "tool2dx: \n以前是 linux 内置，后来是 macos 内置，现在是 windows 内置。\nsmb 已经完成了历史使命，可以安心退出舞台了。\nps: 什么时候操作系统也统一一下就好了，现在写一个界面程序，要三套代码，真是晕死。",
           "link": "https://www.v2ex.com/t/1102348",
           "publishedOn": "2025-01-03T08:45:38.000Z",
-          "wordCount": 649,
+          "wordCount": 938,
           "title": "openssh 协议貌似已经一统天下了。",
           "imageUrl": null
         },
@@ -432,7 +465,7 @@
           "description": "IUserName: \n如题。",
           "link": "https://www.v2ex.com/t/1102345",
           "publishedOn": "2025-01-03T08:38:16.000Z",
-          "wordCount": 461,
+          "wordCount": 477,
           "title": "开车提神用的口香糖，非常强劲的，有推荐的不？",
           "imageUrl": null
         },
@@ -442,7 +475,7 @@
           "description": "TwentyNine: \n目前在外上班，不在老家城市，浑浑噩噩好久。新的一年想做出点改变，打算买个房子付个首付慢慢开始还房贷，但是目前心里不知道往哪买，也不太清楚房价走势，或者买个车付个首付还车贷也行，总得做点什么。",
           "link": "https://www.v2ex.com/t/1102343",
           "publishedOn": "2025-01-03T08:34:43.000Z",
-          "wordCount": 600,
+          "wordCount": 630,
           "title": "年轻人是先买房还是先买车",
           "imageUrl": null
         },
@@ -472,7 +505,7 @@
           "description": "CNM47589: \n我的 MacBook 通过 c-to-c 连接显示器使用，同样的耳机分别插进 Mac 本身的耳机孔和显示器的耳机孔听起来有明显落差，这是硬件原因，还是通过 HDMI 或者 dp 传输的音频数据本身素质就差？",
           "link": "https://www.v2ex.com/t/1102340",
           "publishedOn": "2025-01-03T08:24:17.000Z",
-          "wordCount": 425,
+          "wordCount": 431,
           "title": "为什么显示器的耳机孔通常音质明显不如电子自带耳机孔？",
           "imageUrl": null
         },
@@ -532,7 +565,7 @@
           "description": "weiweiwitch: 上上周开始，公司的电信宽带突然从公网 IP 换成了内网 IP 。这个影响倒还好。\n但一并出现的问题就是同事们说访问公司外网站的质量急剧下降。\n在排除掉内网线路问题，更换多个路由器，并调试后，发现上网的人一多，网络质量就变差。\n白天时不时的无法建立连接。晚上都下班后，网络就逐渐恢复正常。\nUptime Kuma 上很明显的会在上班期间时不时的报警。\n进一步排查，发现连接数 1500 以上就开始劣化，2000 以上基本就开始无法顺利访问外网了。问题是，一个公司几十号人，连接数突破 2000 是非常频繁的事情。\n10000 号，找上门师傅，找客户经理，投诉，多种手段下来，都没解决。\n想问下，除了更换宽带，有没有其他的方法解决这个问题了？",
           "link": "https://www.v2ex.com/t/1102331",
           "publishedOn": "2025-01-03T07:53:57.000Z",
-          "wordCount": 401,
+          "wordCount": 405,
           "title": "电信的企业用宽带限连接数吗？最近 2 周被电信宽带折磨的死去活来。",
           "imageUrl": null
         },
@@ -552,7 +585,7 @@
           "description": "XiiLii: \n如何让家里小孩或老人刷抖音时，让抖音推荐正常的视频，或者让抖音推荐他们不感兴趣的内容？这样那么就可以放弃刷抖音。比如，可以注入浏览历史记录的 cookies 吗？或通过其它方法？\n我知道屏蔽抖音域名可以防止他们刷视频，但他们就会让你修。",
           "link": "https://www.v2ex.com/t/1102328",
           "publishedOn": "2025-01-03T07:47:47.000Z",
-          "wordCount": 400,
+          "wordCount": 404,
           "title": "抖音网页版可以修改浏览历史记录吗？",
           "imageUrl": null
         },
@@ -562,7 +595,7 @@
           "description": "asanelder: 最近发现自己用这种视频练习听力很上瘾，主题可是关于政治，女权之类的，也可以是敏感话题的。或者其它主题也行，总之越激情越激烈越好。\n本贴的主要目的是用来学英语哈，大家不要对视频的内容进行辩论，避免进入水深区。\n举个例子，youtube 上的：Mehdi Hasan & Victor Gao | Head to Head",
           "link": "https://www.v2ex.com/t/1102327",
           "publishedOn": "2025-01-03T07:42:40.000Z",
-          "wordCount": 418,
+          "wordCount": 420,
           "title": "求英文的辩论（对喷）视频，用来练习英语听力",
           "imageUrl": null
         },
@@ -602,7 +635,7 @@
           "description": "EvansUtopia: \n打工必不可能暴富（这是句废话，我想的不是这个）\n我们大多数人大概率还是得在打工这条路里吃屎的，既然吃屎，那也得吃热乎点的不是。\n想清楚的是：打工就是奔着赚钱去的，无非这个钱是当下的钱，还是未来的钱。\n当下的钱很好理解，月薪/年薪嘛，很直接到手的。\n未来的钱，是指「人」、「事」。\n「人」：跟对老板，做好嫡中嫡，随着老板一路春风。\n「事」：好的项目、好的平台，吃一点苦啃下来，为下一步打地基。\n大部分时候选择未来的钱的时候，都会折损当下的钱，这是一个概率风险。毕竟没有人和事可以保证你未来一定能挣到钱。\n所以兄弟们搏概率的时候，得多动动脑筋嘞。\n我给兄弟们打个样，提供一个我的思考路径：我刚刚做了一个决定选择了当下的钱。\n核心思路是：\n我无法判断未来的钱的风险，虽然肯定是嫡中嫡，肯定有好项目，但是能不能在未来完成转化我打个问号\n现在的 J8 跳槽天天拿涨幅卡人，我不认为我可以成为人中龙凤，让下一家公司为我大开方便之门\n当下的钱给的很高，顶着 30%给的，虽然「人」、「事」目前看都不咋样，但真的香\n把当下当做跳板，去够下一家更高的涨幅\n综合下来比搏未来的钱稳定性更高，直接受益也更高，并且对冲了风险。\n以上。\n兄弟们轻喷，纯分享",
           "link": "https://www.v2ex.com/t/1102323",
           "publishedOn": "2025-01-03T07:32:54.000Z",
-          "wordCount": 402,
+          "wordCount": 406,
           "title": "和 V 友们分享一个今天想清楚的打工道理",
           "imageUrl": null
         },
@@ -632,7 +665,7 @@
           "description": "tomiaa: \n试了改后缀，嵌套压缩包，都不是太行",
           "link": "https://www.v2ex.com/t/1102320",
           "publishedOn": "2025-01-03T07:24:59.000Z",
-          "wordCount": 466,
+          "wordCount": 473,
           "title": "国内网盘有什么好的方法可以防止分享的资源被和谐吗",
           "imageUrl": null
         },
@@ -662,7 +695,7 @@
           "description": "drymonfidelia: \n另外 Stable Diffuse WebUI 自带那个是不是不支持 alpha 通道，透明的图每次让它超分完都变成黑底",
           "link": "https://www.v2ex.com/t/1102317",
           "publishedOn": "2025-01-03T07:08:14.000Z",
-          "wordCount": 457,
+          "wordCount": 498,
           "title": "有什么办法能量化 AI 超分辨率模型效果吗？例如 waifu2x 有非常多个版本，几年前原版效果很一般，现在感觉几个模型优化的方向都不一样没办法直接对比，测试了很...",
           "imageUrl": null
         },
@@ -702,7 +735,7 @@
           "description": "Link99: 总感觉有些 app 有 bug ，会内存溢出，弹出强制退出应用程序的窗口。\n就算我使用习惯不太好，极少 cmd+q ，16G 也不至于这样吧。\n常用的有微信、腾讯文档、figma 、chrome 浏览器（大概开了 20 个标签）、chatgpt 、pycharm\n你们有遇到类似问题吗\n\n顺便吐槽下凭啥官方翻新 mac 不能用旧机抵价呢",
           "link": "https://www.v2ex.com/t/1102313",
           "publishedOn": "2025-01-03T06:51:19.000Z",
-          "wordCount": 565,
+          "wordCount": 596,
           "title": "16G 电脑一开机就用掉 8G 内存，那买 8G 配置的一开机就黑屏了？",
           "imageUrl": null
         },
