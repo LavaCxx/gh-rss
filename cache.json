@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,6 +173,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -322,7 +355,7 @@
           "description": "NxxRngjnbgj: 到十号，6.6 折，关注一下公众号就可以参与",
           "link": "https://www.v2ex.com/t/1102240",
           "publishedOn": "2025-01-03T03:15:23.000Z",
-          "wordCount": 650,
+          "wordCount": 721,
           "title": "uu 加速器打折了",
           "imageUrl": null
         },
@@ -342,7 +375,7 @@
           "description": "IMZQZ: \n现在就算我选择更多空间，依然好像不能倒 1920\n请问有办法能实现这个效果吗？",
           "link": "https://www.v2ex.com/t/1102238",
           "publishedOn": "2025-01-03T03:07:44.000Z",
-          "wordCount": 374,
+          "wordCount": 376,
           "title": "MacBook 可以设为 1920x1080 以上的 16:9 的分辨率吗？",
           "imageUrl": null
         },
@@ -372,7 +405,7 @@
           "description": "andyskaura: \np2p-explorer-web 是一个基于浏览器的 webtrc P2P 远程文件传输工具,远程文件 web 资源管理器，让用户能够安全、快速地在设备间传输文件，理想情况下无需通过服务器中转。\n详细介绍\n在线体验: https://explorer.kuraa.cc\ngit 地址: https://git.kuraa.cc/kura/p2p-explorer-web.git (再整理一下转移到 github)\nv 友轻点拷打，手下留情",
           "link": "https://www.v2ex.com/t/1102235",
           "publishedOn": "2025-01-03T03:02:16.000Z",
-          "wordCount": 388,
+          "wordCount": 414,
           "title": "[面向找工作开源 2] P2P webrtc 文件传输工具",
           "imageUrl": null
         },
@@ -382,7 +415,7 @@
           "description": "ewillie381: \nRT\n有大佬遇到吗",
           "link": "https://www.v2ex.com/t/1102234",
           "publishedOn": "2025-01-03T03:02:14.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "cn.ntp.org.cn 昨晚又炸了？",
           "imageUrl": null
         },
@@ -412,7 +445,7 @@
           "description": "blaaibla: \n4 年前我就设计好了，当时给开发伙伴在图书馆门口演示过。可惜没钱请他继续开发了。今年失业后，泡在图书馆半年多，终于开发好了。Badminton Zone 中文名称： 羽毛球场\nApp 链接\n2.0 新增的功能：\nAR 支持：羽毛球场 2.0 支持增强现实功能，随时随地训练球路。\n控制每一拍：你可以循环练习每个球路，不断训练，掌控每次击球。\n声音提示：羽毛球场 2.0 会播放每一拍的声音，告诉你击球类型和落点位置。\n暂停与播放：在播放球路时，可以随时暂停，便于你和搭档思考如何准备下一拍。\n精确编辑球路：你可以编辑每拍的落点、高度和飞行时长，记录任意球路的精准数据。\n具体新增的功能视频演示版本（有声音）\n英文 https://youtu.be/FAf7IcMwBC4\n中文 https://www.bilibili.com/video/BV1jd61YeEv7\n打羽毛球让我很舒压，很开心。但打羽毛球想提升水平不容易。特别是业余爱好者，双打练习更是难以突破。所以我做了这个 APP ，羽毛球场。 主要的用法：\n记录并练习单打、双打球路。\n分析每一拍：步伐、挥拍动作、力量控制等细节。\n通过反复练习，快速提高技能，掌握各种球路，提升羽毛球水平。\n主要功能的预览\n新增：AR\n\n新增：暂停\n\n设计改进\n\n编辑改进\n\n送码\n因为在 V2EX 上找到很好的合作伙伴过，另外我遇到的开发问题，社区用户也非常热心指导。非常感谢这个社区。\n所以按质数的前 10 个数字来分别给留下邮箱的用户发兑换码。\n谢谢。",
           "link": "https://www.v2ex.com/t/1102231",
           "publishedOn": "2025-01-03T03:00:05.000Z",
-          "wordCount": 884,
+          "wordCount": 907,
           "title": "开发了半年多的 羽毛球场 2.0 终于上线啦，球路练习起来[送码]",
           "imageUrl": null
         },
@@ -432,7 +465,7 @@
           "description": "ZGame: \n这种节日多来点吧！",
           "link": "https://www.v2ex.com/t/1102227",
           "publishedOn": "2025-01-03T02:56:22.000Z",
-          "wordCount": 498,
+          "wordCount": 502,
           "title": "有一说一 元旦这种放假不调休是真的舒服 四舍五入等于上四休三",
           "imageUrl": null
         },
@@ -442,7 +475,7 @@
           "description": "wulin0032: \n事情起因是我和我同事突然都无法从 Git 仓库拉取和推送代码，提示：\nssh: connect to host github.com port 22: Connection timed out\nfatal: Could not read from remote repository.\n\n有同样问题的还有在其他城市出差的同事，用的酒店 WIFI,我尝试连接手机热点，依然不行，我手机也是电信网;\n神奇的来了，我同事手机是联通的，他的热点就可以正常拉取和推送代码，他家也是联网的宽带，同样推送代码是没问题的。\n最终解决方案：\n修改.ssh/config\nHost github.com\n    Hostname ssh.github.com\n    Port 443\n\n将 SSH 为 443 端口\n所以我猜测是不是电信封锁了 22 端口，请教一下大佬们。",
           "link": "https://www.v2ex.com/t/1102225",
           "publishedOn": "2025-01-03T02:53:58.000Z",
-          "wordCount": 507,
+          "wordCount": 509,
           "title": "大佬们，电信的网是不是抽风了",
           "imageUrl": null
         },
@@ -452,7 +485,7 @@
           "description": "zhangsimon: 2019 年王兴就说出了那句“2019 是最近 10 年最差的一年,也是未来 10 年最好的一年。”\n彼时，还没有😷这个黑天鹅事件；房地产也还没崩盘。\n大佬是如何洞察到“这是未来 10 年最好的一年”？\n是靠人口结构趋势的变化？还是其他什么信号？",
           "link": "https://www.v2ex.com/t/1102224",
           "publishedOn": "2025-01-03T02:53:52.000Z",
-          "wordCount": 408,
+          "wordCount": 418,
           "title": "为何 5 年前王兴就说出“未来 10 年最好的一年”？",
           "imageUrl": null
         },
@@ -512,7 +545,7 @@
           "description": "viperchaos: \n各位，求推荐笔记本，帮女朋友选，主要需求如下：\n1.Windows ，16 寸左右；\n2.大学使用，重要考虑游戏性能（要求独立显卡）；\n3.考虑颜值，最好银色或白色金属机身；\n4.优先考虑联想、华硕、惠普、戴尔（不分先后）；\n5.预算 9 k 以内。\n目前考虑的两款：惠普暗影精灵 10 ，华硕无畏 Pro 15 。\n有更好的推荐吗？感谢。",
           "link": "https://www.v2ex.com/t/1102213",
           "publishedOn": "2025-01-03T02:30:30.000Z",
-          "wordCount": 483,
+          "wordCount": 487,
           "title": "求推荐合适的笔记本",
           "imageUrl": null
         },
@@ -522,7 +555,7 @@
           "description": "gogocome: \n家里的 MacBook 和 Windows 小主机\n在 mac 上用微软的 Windows app 这个 app 远程连接.\n进入很慢,就是双击连接后显示\"正在配置远程桌面\",大概要等 20 秒吧,才能进入桌面.\n但是用 parallels desktop 里安装的 win11 远程,就秒连.\n安卓也是秒连.\n有办法吗?或者替代的 app 推荐个~",
           "link": "https://www.v2ex.com/t/1102212",
           "publishedOn": "2025-01-03T02:29:27.000Z",
-          "wordCount": 404,
+          "wordCount": 411,
           "title": "请教一下 mac 连接 Windows 的 rdp 远程,进入很慢",
           "imageUrl": null
         },
@@ -542,7 +575,7 @@
           "description": "johnlin:",
           "link": "https://www.v2ex.com/t/1102209",
           "publishedOn": "2025-01-03T02:24:22.000Z",
-          "wordCount": 568,
+          "wordCount": 570,
           "title": "请教下大家，这种可编辑的表格一般用什么技术实现？需求：工厂想做个软件，做个这种表格数据录入，方便后期查找归档",
           "imageUrl": null
         },
@@ -552,7 +585,7 @@
           "description": "gnakzz: \n先放地址：博客\n再看功能：\n首页展示个人信息和最新文章\n\n文章页，支持分类和分页\n\n小册，类似文档，是根据 obsidian 的目录结构来生成的\n\n\n\n支持亮色、暗色、跟随系统\n\n支持全文搜索\n\n支持一键复制到公众号格式\n\n目前主体功能完成度还可以，还差一些字数统计，阅读时长之类的锦上添花的需求。\n文章和小册两个部分，都是从 Obsidian 里生成的，项目内只是配置一个个人信息\n开发的这段时间，感觉国内用 Nuxt 的小伙伴是真的少，有问题没法交流，只能去 youtube 和 github 里搜一些内容或 issues ，所以如果有对 Vue3 、Nuxt 感兴趣的小伙伴，可以留下联系方式，一起交流 （有问必答）～\n另外，我还基于 Nuxt3 做了一个类似 Memos 的 web 应用，可以用来发动态，也是支持 md 格式，等整理完毕再来分享",
           "link": "https://www.v2ex.com/t/1102208",
           "publishedOn": "2025-01-03T02:22:06.000Z",
-          "wordCount": 534,
+          "wordCount": 587,
           "title": "用 Nuxt3 做了个博客，基于 Obsidian 的 Github 仓库作为数据源",
           "imageUrl": null
         },
@@ -562,7 +595,7 @@
           "description": "luffy2u: 之前买 mac ，虽然平时用的更多的还是用台式，但电子产品收到的一段时间内还是很开心的。求推荐好物不限于电子产品",
           "link": "https://www.v2ex.com/t/1102206",
           "publishedOn": "2025-01-03T02:16:11.000Z",
-          "wordCount": 473,
+          "wordCount": 478,
           "title": "求好物推荐，买过什么好东西种草的",
           "imageUrl": null
         },
@@ -572,7 +605,7 @@
           "description": "zhangyongji: \n丐版 Mac mini M4 齐活儿，本机磁盘登录土区账号，开启 Apple Intelligence ，扩展盘 SN770 安装系统，登录国区账号 2T 空间，显示器配置小米 A27U Type C 版，妙控键鼠套装，在加妙控板，爽歪歪！",
           "link": "https://www.v2ex.com/t/1102205",
           "publishedOn": "2025-01-03T02:15:37.000Z",
-          "wordCount": 556,
+          "wordCount": 569,
           "title": "丐版 Mac mini M4 齐活儿",
           "imageUrl": null
         },
@@ -582,7 +615,7 @@
           "description": "nb85144: 坐标深圳，春节期间干点啥能搞笔钱啊\n不犯法不卖身，其它啥都肯干，求懂行 V 友推荐\n说铁人三项的就算了，还没我利息高...",
           "link": "https://www.v2ex.com/t/1102204",
           "publishedOn": "2025-01-03T02:12:32.000Z",
-          "wordCount": 716,
+          "wordCount": 718,
           "title": "过年不想回家了，如何搞笔快钱",
           "imageUrl": null
         },
@@ -632,7 +665,7 @@
           "description": "ggus: \n联系方式：TEY5Nzg5NTUwMzM=\n岗位职责：\n负责公司大模型产品 Web 前端（包含 H5 移动页面\nReact + TypeScript ） 表现层或 Web 后台（ Express.js +TypeScript ） 数据接口的开发；\n参与项目需求分析、原型设计，配合设计师和产品经理完成包保真、优质的用户体验产品交付；\n积极探索并引入前端开发新技术，优化交互方式，提升用户体验。\n岗位要求：\n扎实的计算机基础知识，熟悉常用的数据结构、算法和设计模式，并能在日常研发中灵活使用；\n深入理解 Web 前端开发技术，熟悉 HTML/CSS/\nJavaScript;\n掌握至少一种主流前端框架（ React/Vue/Angular ），有数据流管理相关经验（ Redux/Mobx/Jotai ）；\n熟悉 Node.js 和 TypeScript ， 有 Koa / Express.js /Next.js 买战经验，了解 MySQL 数据库；\n熟悉 Git ，熟悉 Linux ，熟悉常见的命令行工具；\n沟通能力强，刻苦、敬业、有上进心，有良好的团队合作精神\n如果您具备以下资格，我们会优先考虑：\n精通 TypeScript 或者 Express.js\n有大模型 prompt 优化经验\n参与开源项目并贡献过代码",
           "link": "https://www.v2ex.com/t/1102197",
           "publishedOn": "2025-01-03T02:06:22.000Z",
-          "wordCount": 457,
+          "wordCount": 468,
           "title": "北京前端招聘 15-23k/月",
           "imageUrl": null
         },
@@ -652,7 +685,7 @@
           "description": "xtx: \n去年买了个国产键盘，300 出头的价格，不管是功能，颜值，轴体都完爆我 1000 买的 filco ，一点都不夸张，filco 已经完全吃灰了。\n前两天 300 出头买了个国产鼠标，对比我现在用的 gpw 一代，有几点优势\n·目前市面上最顶级的传感器，无线高达 8k 的回报率，虽然我也用不上，但是对比 gpw 最高 1k 的回报率，遥遥领先。\n·优秀且轻量的网页驱动，罗技的驱动软件笨重不说，设置的自定义按键必须保持软件常驻后台，国产鼠标直接网页设置，快速且界面清爽，设置完直接退出网页，完全不影响自定义功能，又是遥遥领先。\n·国产鼠标光微动秒杀机械微动，罗技的微动有多容易双击，不用我多说了，我自己就换过两次货，一次 g304 ，一次 gpw 。\n·极为先进的 type c 充电口。🌚\n·价格只有 gpw 一半。\n给我的感觉就是从老旧油车换成了国产新能源，这两年国产物件的发展，让我体会到了产业链齐全和工业大国带来的好处，让普通消费者可以真正买到物美价廉的东西。",
           "link": "https://www.v2ex.com/t/1102194",
           "publishedOn": "2025-01-03T02:01:43.000Z",
-          "wordCount": 877,
+          "wordCount": 917,
           "title": "国产键鼠真的好用，已经彻底抛弃传统大厂了。",
           "imageUrl": null
         },
@@ -662,7 +695,7 @@
           "description": "nlzy: \nTL;DR\n三张 MI50 显卡\nE5 洋垃圾 / 山寨主板 / DDR3 RDIMM\n服务器电源魔改供电 / 开放式机架\nmodel\nsplit\nprefill\ndecode\n\n\n\n\nLlama 3.3 70b q4_K_S\nrow\n58.80 t/s\n12.58 t/s\n\n\nQwen 2.5 72b q4_K_S\nlayer\n75.72 t/s\n9.85 t/s\n\n\nQwQ Preview 32b q4_K_S\nrow\n141.30 t/s\n20.65 t/s\n\n\nDolphin Mistral Nemo 12b q8_0\nnone\n482.98 t/s\n35.92 t/s\n\n\n整台主机（不含鼠标键盘显示器）加起来共 3140.19 元。\n神奇的 MI 50\n逛 reddit 的 LocalLLaMA 板块，发现一块很有意思的 GPU：由 AMD 在 2018 年底推出的 Instinct MI50 。与 Radeon VII 和 Radeon Pro VII 使用相同的 GPU 芯片，是面向数据中心的加速卡。台积电 7nm 工艺，单精算力 13 TFLOPS ，显存是 16G 的 HBM 2 ，带宽 1TB/s。众所周知，在单请求、无并发量的情况下，LLM 推理的性能是受限于显存带宽的，1TB/s 的显存带宽，就是推理速度的坚实基础（后面才发现我太天真了）。\n这张卡比较有意思的地方在于，因为这张卡的显存带宽很高，以太坊挖矿算力非常猛，前几年矿潮的时候被矿老板大量买入挖矿，在国内市场上的量很多。而现如今矿潮退去，咸鱼上可以找到大量 MI50 ，在这段话写作的当下（ 2025 年 1 月），标价通常在 500 多不到 600 元一张。一般本地部署 70b 左右的模型，4 bit 量化后的模型权重需要使用大约 40G 的显存。也就是 1700 左右的价格买三张…",
           "link": "https://www.v2ex.com/t/1102193",
           "publishedOn": "2025-01-03T01:56:21.000Z",
-          "wordCount": 1664,
+          "wordCount": 1673,
           "title": "三千预算本地 70b 大模型",
           "imageUrl": null
         },
@@ -682,7 +715,7 @@
           "description": "hfl1995: 2024 ，用了半年习惯了手机 26 键打字(之前是坚定的 9 键拥护者)，用了不到一天习惯了 Mac 鼠标滚轮「自然滚动」。\n 我现在可以　单踏板／油车、２６键／９键、mac 自然滚动／ windows 滚动、方言／普通话　无缝切换，\n 反人类这个词在我身上根本不生效。",
           "link": "https://www.v2ex.com/t/1102191",
           "publishedOn": "2025-01-03T01:42:24.000Z",
-          "wordCount": 629,
+          "wordCount": 631,
           "title": "Mac 「鼠标自然滚动」用了几个小时就适应了。",
           "imageUrl": null
         }
