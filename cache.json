@@ -177,6 +177,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -312,6 +339,106 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102427",
+          "author": "HawkinsSherpherd",
+          "description": "HawkinsSherpherd: \n这是一段会吃掉几乎所有可用内存的代码：\ndef Decompress_Gzip_With_Progress_Bar(gzip_path, output_path):\n    with gzip.open(gzip_path, 'rb') as f_in:\n        with open(output_path, 'wb') as f_out:\n            file_size = Get_Uncompressed_Size(gzip_path)\n            chunk_size = 1024 * 1024\n            with tqdm(total=file_size, unit='B', unit_scale=True, desc=\"Decompressing \" + gzip_path) as pbar:\n                for block in iter(lambda: f_in.read(chunk_size), b''):\n                    f_out.write(block)\n                    pbar.update(len(block))\n\n它被用于解压一个解压后大概 4G 大小的文件。\n直接在我的 16G 内存的开发虚拟机上运行，它会吃掉所有的内存。\n但是，如果我把它放到一个分配 1G 内存的容器里，它不仅能运行，甚至还能运行得更快。\n我试过用 resource 限制内存分配，但是它还是会吃满所有内存。\n有没有什么能直接写到 Python 代码里的限制内存分配的方法呢？",
+          "link": "https://www.v2ex.com/t/1102427",
+          "publishedOn": "2025-01-03T17:55:42.000Z",
+          "wordCount": 507,
+          "title": "有什么好办法限制 Python 的内存分配吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102426",
+          "author": "LukerSpring",
+          "description": "LukerSpring: 快到年底了, 春节前后一共有 16 天假, 平时周末也是有空的.\n前端的基本都会.\n高级打工仔, 求一份节假日的工作.",
+          "link": "https://www.v2ex.com/t/1102426",
+          "publishedOn": "2025-01-03T17:31:37.000Z",
+          "wordCount": 373,
+          "title": "8 年前端找个短期开发的工作.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102425",
+          "author": "laobaiguolai",
+          "description": "laobaiguolai: \n大佬们，想搭建一个企业邮局，请问有开源好用的吗？",
+          "link": "https://www.v2ex.com/t/1102425",
+          "publishedOn": "2025-01-03T16:51:19.000Z",
+          "wordCount": 369,
+          "title": "自建企业邮局的最佳解决方案是什么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102424",
+          "author": "Raynard",
+          "description": "Raynard: \n纯家用，不需要外网访问，\n提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。\n目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。\n期望的要求：维护简单，使用方便，可靠性高。\n优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。\n希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！",
+          "link": "https://www.v2ex.com/t/1102424",
+          "publishedOn": "2025-01-03T16:43:48.000Z",
+          "wordCount": 480,
+          "title": "如何搭建 PB 级影音存储服务器？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102423",
+          "author": "huandaeren",
+          "description": "huandaeren: 1. 高架上，我在中间车道，对方车在右边车道。\n2. 对方跨实线变道到我的车道，我急刹，最终没有发生严重的碰撞，仅我的车有轻微的刮擦，对方车辆仅车衣有一点点破损，基本没有痕迹。\n3. 因为我在他的左后，所以我只有车头往前的摄像头能够拍到实线变道和疑似碰擦的情形。对方拒绝提供其车辆左边朝后的涉嫌头，交警反馈无法强行要求其提供视频，交通监控连车牌都无法识别。\n4. 当前情况下，对方车主不承认有和我的车发生碰擦。交警反馈无法证明事故确有发生，无法出具事故认定责任书。\n大伙帮看看，这个情况怎么维护自身合法权益。",
+          "link": "https://www.v2ex.com/t/1102423",
+          "publishedOn": "2025-01-03T16:33:51.000Z",
+          "wordCount": 355,
+          "title": "对方车实线变道导致的交通事故，无法出具事故认定责任书，大伙帮看看这个怎么维权。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102422",
+          "author": "azev",
+          "description": "azev: \n我现在知道有些团购 拼购类的 不知道还有哪些别的？",
+          "link": "https://www.v2ex.com/t/1102422",
+          "publishedOn": "2025-01-03T16:33:16.000Z",
+          "wordCount": 337,
+          "title": "基于微信小程序的买卖平台？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102420",
+          "author": "Ashkin",
+          "description": "Ashkin: \nnPlayer 在高版本的 Android 里面无法读取文件，VLC 总是在托进度条的时候卡顿，有没有更好的选择？",
+          "link": "https://www.v2ex.com/t/1102420",
+          "publishedOn": "2025-01-03T15:47:44.000Z",
+          "wordCount": 439,
+          "title": "Android 现阶段最好的本地视频播放器是什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102418",
+          "author": "nanajj",
+          "description": "nanajj: 目前我看有 3 种方案：\n1. 利用 python + bpy + blander 生成，但不知道会不会资源占用太高。也不知道对于 linux server / serverless 支持如何。\n2. 利用 Nodejs + Three.js / Babylon.js 这种前端方案渲染\n3. 利用 一些库，比如 C++的，但可能要我再封装一下或 FFI 调用。\n请教还有那些更成熟好用的方案吗？ 或者该选哪个？ 我首先考虑的肯定是能用， 所以目前倾向 1 。",
+          "link": "https://www.v2ex.com/t/1102418",
+          "publishedOn": "2025-01-03T15:33:30.000Z",
+          "wordCount": 403,
+          "title": "请教下有什么比较通用的 3D 模型缩略图生成方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102417",
+          "author": "Winner4good",
+          "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
+          "link": "https://www.v2ex.com/t/1102417",
+          "publishedOn": "2025-01-03T15:32:50.000Z",
+          "wordCount": 1464,
+          "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
+          "imageUrl": "/static/icon-192.png"
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102416",
+          "author": "HeyBoy2077",
+          "description": "HeyBoy2077: 我刚办了联通 2000 兆（大傻逼）入网给了华为 F30 （子猫 2.5G ） 我直接通过子猫 2.5G 下联 UDM-SE 2.5G 结果 UDM- SE 无法正常联网。 联通还告诉我千万不要走桥接，否则必降速！",
+          "link": "https://www.v2ex.com/t/1102416",
+          "publishedOn": "2025-01-03T15:29:38.000Z",
+          "wordCount": 431,
+          "title": "联通 FTTR 不能 DHCP 下挂 Wi-Fi？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102415",
           "author": "ChristopherWu",
           "description": "ChristopherWu: \n全职创业已过了很长时间, 终于在 2024 年, 我们造出了值得骄傲的产品 --- hika, 一个月不到已经过万用户, 收获无数细腻的好评, 详情可看: 我 All In AI 创业一年后, 成绩如何?\n\nhika 是什么?\nHIKA 是一款免费的知识获取引擎，为你探索世界提供全新的方式与思路，你提出问题，HIKA 会实时搜索网络，深度思考并给出答案 HIKA 有什么：\n实时搜索：一个有着全网实时信息+自带知识库的答案引擎，并提供关键参考来源\n快速解读全局知识点，一图胜千言\n更贴合你的搜索习惯，哪里不会点哪里 ai 搜索\nAI 驱动的 Hika\n创业以来, 除了值得信赖, 非常靠谱的团队外(这个以后有机会再详细描述), 2024 年 最让我震撼的就是 AI.\nHika 采用了 AI 与人工协作的方式开发, 减轻了大部分枯燥的代码劳动, 但数据结构, 架构, debug, 压测等等还是要我们上; 运营适配各个国家不同语言的帖子都是 AI 写的, 很多细节是我跟 AI 商讨确认对齐的\nAI 让 hika 整个团队的效率提升了不止一倍, 用一个比喻就是, AI 就是你自身的杠杆, 你水平越高, 这个杠杆越能提升你的效率\n\n当然 Hika 也完成了自举, 我们平常使用 Hika 来提升开发 Hika 的效率. 这种深度融合 AI 的开发模式不仅大大提高了我们的工作效率,也让 HIKA 成为了一个真正由 AI 驱动的产品。\n热心的人们\n最让我感慨的是沿途帮助过我们的热心人.\nhika 上线后, 由于团队里没有丰富运营经验的小伙伴, 我先顶上了; 那要做运营, 都是小账号, 没有万粉怎么做呢? 我脸皮厚, 也对 hika 的品质有信心, 除了平常发帖子宣传外, 就是逐个找一些活跃的小 v 大 v, 邀请他们试用 hika, 可以的话宣传一下\n当然没有回复或者后续冷拒绝的人不少, 但亲自试用, 并热情地无偿转发 hika 的同样很多, 因此 hika 收获了不少用户\n\n另外就是到 product hunt 上发布 hika 了, 由于其潜规则颇多, 我们已经是放到最后, 学习了挺多才发布了, 期间也踩了不少坑; 值得高兴的是, 不少同是运营都人主动加上我, 询问情况, 给我介绍起来上面的一些坑. 比如没有被 featured, 拿票拿到第一也没用; 一般在上面性价比最高的是拿到周榜, 但一般需要\"买票\" 等等. 虽然 hika 最后没有被 featured, 但学到这么多东西已经足够. 何况最后还是有外媒开始报道 hika, 我们收获了更多海外用户\n\n还有创业的一些小伙伴, 主动热情地介绍了跟 VC 聊天时怎么聊, 什么 VC 合适我们团队, BP 怎么写, 融资怎么考虑; 还有我的朋友 hongqian, 分享了对商业模式有启发的书籍, 一直启发我从这方面来思考, 验证关键猜想(奈何这个转向实在太难..)\n以及看到下面出海的这篇文章写得不错, 便加上了作者微信, 请教了一番, 深刻学习到运营真是很困难的事情\n\n万字长文：“为什么我的产品在泰国次留 40%，但在美国只有 25%？”（完全版）\n欢迎大家 2025 年继续使用 hika\nHika 帮助你解决了哪些问题？又有哪些需求还未满足？\n我们非常重视每一位用户的反馈，并会认真考虑你的建议，期待你的分享！🤗\nhika 可以通过谷歌搜索 hika ai 或者输入网址 hika.fyi 使用, 也可以点击原文使用",
@@ -319,16 +446,6 @@
           "publishedOn": "2025-01-03T15:19:43.000Z",
           "wordCount": 546,
           "title": "2024, 我借 AI 之力, 打造了上线首月用户破万的产品",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102414",
-          "author": "infinityv",
-          "description": "infinityv: \nhk 个人类型账户\nhkid 那里写的国内护照号 没有任何前后端验证 现在好像就已经是通过状态\n这种会有啥问题。。。",
-          "link": "https://www.v2ex.com/t/1102414",
-          "publishedOn": "2025-01-03T15:17:44.000Z",
-          "wordCount": 115,
-          "title": "stripe hk 现在注册后会有啥问题",
           "imageUrl": null
         },
         {
@@ -367,7 +484,7 @@
           "description": "weishao666: \n家庭共享记账，像鲨鱼记账那种，能分类的。然后两三个人共享，大家都可以编辑就行",
           "link": "https://www.v2ex.com/t/1102409",
           "publishedOn": "2025-01-03T14:35:42.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "iPhone 上共享记账软件有推荐么？",
           "imageUrl": null
         },
@@ -569,106 +686,6 @@
           "publishedOn": "2025-01-03T11:30:05.000Z",
           "wordCount": 401,
           "title": "广州汇丰银行 - TEKsystems - 招聘 DBA 数据库运维 20-30k * 14 - partial WFH",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102377",
-          "author": "fengsi",
-          "description": "fengsi: \n我自己的 m1 pro 的电脑买来用来用了两年，现在电池最大容量 91%，循环次数 75 ，我是一直使用 aldente 来保护电池的。\n我在公司实习时发的 m3 pro ，已经用了大半年了，电池容量 100%，循环次数 30+，没用过 aldente ，也没对电池进行特殊设置，因为不是自己的电脑吗，怎么糙怎么来了。\n我自己的那台电脑在我使用了大半年后电池容量已经到 95%左右了，所以挺有意思的，没用 aldente 的却电池很好，当然这只是我自己的一个小 case ，不排除其他我未知的变量。",
-          "link": "https://www.v2ex.com/t/1102377",
-          "publishedOn": "2025-01-03T11:27:47.000Z",
-          "wordCount": 409,
-          "title": "关于 MacOS 电池容量 的一个个人 case",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102376",
-          "author": "YuanJiwei",
-          "description": "YuanJiwei: \n最近 browser-use 这个项目特别火，感觉 2025 年，大家对 web agent 的需求还是很旺盛的，准备参考 https://midscenejs.com/ 和 https://github.com/browser-use/browser-use 整个 webagent 的开源框架。基于 typescript ，让广大前端开发者也加入到 ai agents 的浪潮中。底层浏览器驱动是基于 Puppetter 还是，基于 Playwright 比较好呀？\n有感兴趣的朋友添加我的微信，一起开发。\n微信（ base64)：eXVhbnNkdQ==",
-          "link": "https://www.v2ex.com/t/1102376",
-          "publishedOn": "2025-01-03T11:27:18.000Z",
-          "wordCount": 433,
-          "title": "准备开发一个浏览器 AI Agents, 浏览器驱动选择 Puppetter 和 Playwright 哪个好呀？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102375",
-          "author": "ShehJ",
-          "description": "ShehJ: \n之前 web3 搞空投的时候搜过各种临时邮箱，用着各种不爽，然后也想自己写一个，直到最近才写完了一个初版。\n域名：ggg.ga\n关于域名\n本来是想注册一个含义域名，但是找了挺久，常见后缀的还不错的含义域名基本都被注册了\n如果使用含义名+小众后缀又容易给别人做\"嫁衣\"\n索性直接用了一个好记点的小众后缀。\n关于邮箱后缀\n目前有两个 @linkmail.top （测试）、 @ddrdd.com ，之后会再加几个选项。\n邮箱后缀这块，收信邮箱也是尽量要.com 吗？还是影响不大？\n关于功能\n目前也就实现了临时邮箱的基本功能，邮件默认保存 7 天，不删浏览器缓存不点新建一个邮箱可以一直使用\n后面应该会加一个保存邮箱密钥，通过密钥复用邮箱的功能\n各位还有什么功能上、界面外观上的建议吗？\n整体还算是写着玩的吧，功能还有待完善，顺便学了一点 tailwindcss ，不得不说这个东西以前觉得乱，实际用了还是挺好用的。\n该域名及临时邮箱会长期保留，各位薅羊毛的时候可以用一用。",
-          "link": "https://www.v2ex.com/t/1102375",
-          "publishedOn": "2025-01-03T11:11:30.000Z",
-          "wordCount": 412,
-          "title": "做了一个临时邮箱站 — ggg.ga，大伙有什么建议吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102374",
-          "author": "jjrow",
-          "description": "jjrow: \n排插接排插...",
-          "link": "https://www.v2ex.com/t/1102374",
-          "publishedOn": "2025-01-03T10:55:40.000Z",
-          "wordCount": 416,
-          "title": "家里很多电器，插座怎么都不够，各位怎么安排的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102373",
-          "author": "karlguo7",
-          "description": "karlguo7: \n设备：DS220+ 单盘 8T DSM 版本：7+\n背景：\n最近在尝试 OpenWrt ，看了下教程试了 docker 安装，但是没法使用代理（不知道原因）。又尝试了虚拟机安装，但是安装后连接虚拟机报错 boot failed: not a bootable disk ，搜索无果后放弃虚拟机，但是发现 docker 的 openwrt 启动不了了，卸载了虚拟机后关掉了 open vswitch 后镜像可以正常启动了。\n启动 docker 的 openwrt 后手贱又去设置里打开了 open vswitch ，导致 NAS 直接访问不了了。。。\n尝试：\n首先尝试管理员账户通过 SSH 登录，报错：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!\n按照提示删掉了.ssh 文件里面关于 NAS ip 的内容。\n再次尝试，报错：Permission denied, please try again.\n也去问了群晖的客服，客服说可以按照下面的步骤重置并且数据不会丢失。\nhttps://kb.synology.cn/zh-cn/DSM/tutorial/How_to_reset_my_Synology_NAS_7#t1\n但是我按了 reset 按钮很久也没有听到“哔声”，按照客服的步骤也不能重置。\n🙏大佬们这种情况该怎么办？",
-          "link": "https://www.v2ex.com/t/1102373",
-          "publishedOn": "2025-01-03T10:42:39.000Z",
-          "wordCount": 442,
-          "title": "求助群晖 NAS 误开启 open vswitch 后无法访问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102372",
-          "author": "bluebird007",
-          "description": "bluebird007: \n职位是后端开发，最近的需求是将一个原本是前端完成的工作变为后端完成：前端轮询系统接口获取新增交易单后，根据一系列筛选条件过滤之后调用三方接口完成交易。产品需求是获取新增交易单后后端可以直接完成整个流程逻辑，对前端无感。产品想法很简单，但是对后端来说就很麻烦：我需要去看前端代码这一系列的筛选过滤条件的逻辑，以及调用三方接口的参数的组装逻辑。更麻烦的是前端一个 select 下的不同 option 可能对应着不同的逻辑，每一种逻辑的每一个步骤我都得保持一致；从前端轮询变成后端接收消息处理，后端接收消息进行处理，消息 QPS 相当高，对于性能要求很高。然而这也不是最恶心的，最恶心的是这个需求只能在 prod 来验证。\n来这个部门才不到一个月，这其中的核心逻辑都不甚清楚。评审会的时候更是人微言轻，主管只说先做先做，然后就开始排期。\n自从接了这个需求之后似乎就没怎么高兴的过过周末。脑子里一想到这个需求就好像有什么恶心的东西挂在背上，时不时刺你一下，但是你还甩不掉。。。",
-          "link": "https://www.v2ex.com/t/1102372",
-          "publishedOn": "2025-01-03T10:42:22.000Z",
-          "wordCount": 557,
-          "title": "在工作中遇到了很恶心的需求该怎么办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102371",
-          "author": "shuiguomayi",
-          "description": "shuiguomayi: \n目前有在 开发效率 开发体验，运行性能和资源消耗 方面达到一个均衡的 编程语言吗？",
-          "link": "https://www.v2ex.com/t/1102371",
-          "publishedOn": "2025-01-03T10:39:50.000Z",
-          "wordCount": 350,
-          "title": "目前在各方面达到一个均衡的编程语言推荐？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102370",
-          "author": "saySilence",
-          "description": "saySilence: \nlinux 上有什么好用的截图工具（ debian 系或者 arch 系），pixpin 没有 linux 版本。\n截图、贴图、取色。\nGIF 、OCR 。(PixPin 有的功能)\n是不是只能用 snipaste 了。",
-          "link": "https://www.v2ex.com/t/1102370",
-          "publishedOn": "2025-01-03T10:38:40.000Z",
-          "wordCount": 553,
-          "title": "Linux 上面有没有比 snipaste 更好的截图工具？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102367",
-          "author": "iEggache",
-          "description": "iEggache: 官网： https://setapp.com/ \n近期 1 人下车，所以空出 1 个位置；从 18 年 9 月稳定续费至今；年付¥218 ，中途不可下车。WX：stonezhao002",
-          "link": "https://www.v2ex.com/t/1102367",
-          "publishedOn": "2025-01-03T10:11:30.000Z",
-          "wordCount": 380,
-          "title": "Setapp 家庭版订阅有人下车，空 1 个车位，年付，已订阅 6 年",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102366",
-          "author": "ginobefun",
-          "description": "ginobefun: \nBestBlogs.dev 精选文章 第 28 期\n📷 亲爱的读者朋友们，欢迎阅读本期 AI 领域精选文章！\n本期，我们精选了 AI 领域的重要技术突破、产品创新和行业趋势。DeepSeek 发布了具有 671B 参数的新一代 MoE 模型； OpenAI 展示了多项重要技术进展； AI 开发工具和智能体技术持续演进。让我们一起了解这些重要发展！\n本周亮点\nDeepSeek-V3 重磅发布，671B 参数 MoE 模型（激活 37B ），在 14.8T token 上预训练，性能接近 GPT-4 和 Claude-3.5 ，训练成本仅 557.6 万美元，并开源原生 FP8 权重。\nOpenAI 十二天连续发布，推出 o3 模型、Sora 视频生成、RFT 微调技术等重要更新，展示了 AI 在数学、代码、视频生成等领域的进展。\nAnthropic 研究表明，简单可组合的模式优于复杂框架； Hugging Face 发布轻量级智能体库 smolagents ，简化 AI 智能体创建流程。\n4.RAG 技术迎来创新升级，GraphReader 、MM-RAG 、CRAG 等新框架涌现，通过图解、多模态、自我校正等技术显著提升性能。\nhttp://Bolt.new 创造编程产品增长记录，两个月实现 2000 万美元 ARR ，通过浏览器端操作系统和 AI 代码生成技术降低编程门槛。\nAI 语言学习迎来首个独角兽，Speak 实现 ARR 近 5000 万美元，用户突破 1000 万，通过 AI 技术提供低成本、个性化的语言学习体验。 \nAI 绘图领域新秀 Recraft 以 ELO 评分 1172 登顶文生图竞技场，在图像质量和提示词贴合度方面超越 Midjourney 和 Stable Diffusion 。\n行业领袖共话 2025：微软 CEO 纳德拉预见 AI 基础设施竞争加剧；李飞飞强调数据和算力资源重要性；李想展望 AI 定义未来汽车产业。\n智能体发展提速，2025 年被预测为\"智能体之年\"，多家公司在规划、可复用工作流、探索和评估等方面取得突破。\n模型技术变革持续深化，小型高效模型大量涌现，推理定价持续下降，开源模型与专有模型性能差距显著缩小。\n在线阅读： https://www.bestblogs.dev/newsletter/issue28",
-          "link": "https://www.v2ex.com/t/1102366",
-          "publishedOn": "2025-01-03T10:04:23.000Z",
-          "wordCount": 479,
-          "title": "BestBlogs.dev 精选文章 第 28 期",
           "imageUrl": null
         }
       ]
