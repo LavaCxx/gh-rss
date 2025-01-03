@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,6 +173,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -322,7 +355,7 @@
           "description": "inza9hi: \n我一直以为静态分析已经很强大了，\n尝试了下 IDEA 自带的工具和 PMD\n竟然都分析不出来。\nPS: A 是 Pb 生成的，B 是手写的，所以导致有用 int ，有用 integer\n@Data\n    static class A{\n        private int a;\n    }\n    @Data\n    static class B  {\n        private Integer b;\n    }\n\n    public static void main(String[] args) {\n        A a = new A();\n        B b = new B();\n       a.setA(b.getB());\n    }",
           "link": "https://www.v2ex.com/t/1102386",
           "publishedOn": "2025-01-03T12:07:56.000Z",
-          "wordCount": 425,
+          "wordCount": 434,
           "title": "有静态分析工具可以分析出因为拆箱导致的空指针 NPE 吗？",
           "imageUrl": null
         },
@@ -442,7 +475,7 @@
           "description": "karlguo7: \n设备：DS220+ 单盘 8T DSM 版本：7+\n背景：\n最近在尝试 OpenWrt ，看了下教程试了 docker 安装，但是没法使用代理（不知道原因）。又尝试了虚拟机安装，但是安装后连接虚拟机报错 boot failed: not a bootable disk ，搜索无果后放弃虚拟机，但是发现 docker 的 openwrt 启动不了了，卸载了虚拟机后关掉了 open vswitch 后镜像可以正常启动了。\n启动 docker 的 openwrt 后手贱又去设置里打开了 open vswitch ，导致 NAS 直接访问不了了。。。\n尝试：\n首先尝试管理员账户通过 SSH 登录，报错：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!\n按照提示删掉了.ssh 文件里面关于 NAS ip 的内容。\n再次尝试，报错：Permission denied, please try again.\n也去问了群晖的客服，客服说可以按照下面的步骤重置并且数据不会丢失。\nhttps://kb.synology.cn/zh-cn/DSM/tutorial/How_to_reset_my_Synology_NAS_7#t1\n但是我按了 reset 按钮很久也没有听到“哔声”，按照客服的步骤也不能重置。\n🙏大佬们这种情况该怎么办？",
           "link": "https://www.v2ex.com/t/1102373",
           "publishedOn": "2025-01-03T10:42:39.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "求助群晖 NAS 误开启 open vswitch 后无法访问",
           "imageUrl": null
         },
@@ -452,7 +485,7 @@
           "description": "bluebird007: \n职位是后端开发，最近的需求是将一个原本是前端完成的工作变为后端完成：前端轮询系统接口获取新增交易单后，根据一系列筛选条件过滤之后调用三方接口完成交易。产品需求是获取新增交易单后后端可以直接完成整个流程逻辑，对前端无感。产品想法很简单，但是对后端来说就很麻烦：我需要去看前端代码这一系列的筛选过滤条件的逻辑，以及调用三方接口的参数的组装逻辑。更麻烦的是前端一个 select 下的不同 option 可能对应着不同的逻辑，每一种逻辑的每一个步骤我都得保持一致；从前端轮询变成后端接收消息处理，后端接收消息进行处理，消息 QPS 相当高，对于性能要求很高。然而这也不是最恶心的，最恶心的是这个需求只能在 prod 来验证。\n来这个部门才不到一个月，这其中的核心逻辑都不甚清楚。评审会的时候更是人微言轻，主管只说先做先做，然后就开始排期。\n自从接了这个需求之后似乎就没怎么高兴的过过周末。脑子里一想到这个需求就好像有什么恶心的东西挂在背上，时不时刺你一下，但是你还甩不掉。。。",
           "link": "https://www.v2ex.com/t/1102372",
           "publishedOn": "2025-01-03T10:42:22.000Z",
-          "wordCount": 547,
+          "wordCount": 551,
           "title": "在工作中遇到了很恶心的需求该怎么办",
           "imageUrl": null
         },
@@ -482,7 +515,7 @@
           "description": "zachary99: 拼多多百亿补贴+5 折券，12.3 元\nhttps://file-link.pinduoduo.com/GRKCmvyrSY",
           "link": "https://www.v2ex.com/t/1102368",
           "publishedOn": "2025-01-03T10:14:54.000Z",
-          "wordCount": 399,
+          "wordCount": 401,
           "title": "［拼多多多人团］趣多多曲奇饼干 752g 大礼包 仅需 12.3 元",
           "imageUrl": null
         },
@@ -652,7 +685,7 @@
           "description": "tool2dx: \n以前是 linux 内置，后来是 macos 内置，现在是 windows 内置。\nsmb 已经完成了历史使命，可以安心退出舞台了。\nps: 什么时候操作系统也统一一下就好了，现在写一个界面程序，要三套代码，真是晕死。",
           "link": "https://www.v2ex.com/t/1102348",
           "publishedOn": "2025-01-03T08:45:38.000Z",
-          "wordCount": 1202,
+          "wordCount": 1204,
           "title": "openssh 协议貌似已经一统天下了。",
           "imageUrl": null
         },
@@ -672,7 +705,7 @@
           "description": "IUserName: \n如题。",
           "link": "https://www.v2ex.com/t/1102345",
           "publishedOn": "2025-01-03T08:38:16.000Z",
-          "wordCount": 506,
+          "wordCount": 520,
           "title": "开车提神用的口香糖，非常强劲的，有推荐的不？",
           "imageUrl": null
         },
@@ -682,7 +715,7 @@
           "description": "TwentyNine: \n目前在外上班，不在老家城市，浑浑噩噩好久。新的一年想做出点改变，打算买个房子付个首付慢慢开始还房贷，但是目前心里不知道往哪买，也不太清楚房价走势，或者买个车付个首付还车贷也行，总得做点什么。",
           "link": "https://www.v2ex.com/t/1102343",
           "publishedOn": "2025-01-03T08:34:43.000Z",
-          "wordCount": 739,
+          "wordCount": 743,
           "title": "年轻人是先买房还是先买车",
           "imageUrl": null
         },
