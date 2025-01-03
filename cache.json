@@ -134,12 +134,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -183,33 +177,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -365,7 +332,7 @@
           "description": "PS2008: \n2024 年最后一个月，我的上级被搞走了，专业能力很强，有责任心，上下级关系都不错，据说导火索是中华区总经理要快速推进一个项目，上级认为法规法规和 f 质量有风险，有其他想法（双线汇报，上级虚线汇报对象是国外），然后中华区总经理说她不喜欢这样的人，然后就被搞走了搞走了。\n国外（欧美）有这种办公室政治吗？有这种不讲道理的人吗？",
           "link": "https://www.v2ex.com/t/1102167",
           "publishedOn": "2025-01-02T23:51:07.000Z",
-          "wordCount": 630,
+          "wordCount": 639,
           "title": "国外的工作环境是怎么样的？也有办公室政治吗？",
           "imageUrl": null
         },
@@ -375,7 +342,7 @@
           "description": "sleepingdog: 类似博客的，但关键是可以赚几毛钱那种，我认为单纯爱发电却一毛钱收入都拿不到的东西，是很难坚持下去的。\n不一定是小说，可以是自己的游记、经历、感悟等等。\n我所知道的大概是公众号。。。不知审核制度如何。\n曾设想过，是不是可以用英文写东西，这样发外网，还可以顺便提升自己的英文水平啥的。\n当然即使是 e 文，问题还是那个————写在哪里，有没有人看，有没有刀乐。。。",
           "link": "https://www.v2ex.com/t/1102166",
           "publishedOn": "2025-01-02T23:04:48.000Z",
-          "wordCount": 427,
+          "wordCount": 431,
           "title": "请教下哪里可以方便写小作文？",
           "imageUrl": null
         },
@@ -385,7 +352,7 @@
           "description": "Chris008: \n人在深圳，今年 25 岁，学历只是非全日制大专，计算机专业，会点英语。之前待的英文项目黄了，转岗到中文项目，目前是 IT 桌面运维，月薪 8K ，到手 7K 多一点，朝九晚六双休不加班。上班大部分时间闲着（理论上有很多时间可以用来自主学习提升，但经常被中途打断去现场解决问题，效率很低），但是每天来回通勤要 2 小时左右，感觉全部精力都消耗在了路上，所以一点也没觉得轻松。\n租的房间一个月加上水电要花 1700 左右，每天坐地铁交通一个月下来差不多 300 ，每天点外卖堂食买点日用什么的个人消费打底 3000 元，结余最多就只有 2000 块，稍微看个病换个电子产品什么的就没钱了。\n刚才看了下余额，1 号交完房租后，现在就只剩下 5000 块存款，过两天还要去医院看耳鸣不知道要花多少钱，感觉在外打工这么多年除了各种疑难杂症外什么都没攒下，继续上班怪没意思的。都说环境不好，也不敢辞职去找什么更高薪的工作。从黑龙江大老远跑来，3 年没回过一次家，就这么停下回家躺平更是感觉功亏一篑。",
           "link": "https://www.v2ex.com/t/1102165",
           "publishedOn": "2025-01-02T22:37:49.000Z",
-          "wordCount": 656,
+          "wordCount": 673,
           "title": "2025 新年迷思 毫无意义的深漂打工何时结束",
           "imageUrl": null
         },
@@ -415,7 +382,7 @@
           "description": "SteveWoo:",
           "link": "https://www.v2ex.com/t/1102162",
           "publishedOn": "2025-01-02T18:38:37.000Z",
-          "wordCount": 531,
+          "wordCount": 550,
           "title": "公司后端比前端、测试、产品地位低正常吗？后端 10 人、测试 5 人、前端(web adnorid ios)10 人。",
           "imageUrl": null
         },
@@ -435,7 +402,7 @@
           "description": "bingoso: 小米 华为，只用过这两个牌子的手机，双微信是常态，不会有任何被封风险。\n\nios 的为什么不支持双微信呢？是技术问题，还是什么？\n\n在容器化技术非常成熟的今天，ios 不支持双微信，是微信的原因还是苹果的原因呢？",
           "link": "https://www.v2ex.com/t/1102160",
           "publishedOn": "2025-01-02T17:38:45.000Z",
-          "wordCount": 698,
+          "wordCount": 703,
           "title": "为什么 android 双微信可以， ios 就不行？",
           "imageUrl": null
         },
@@ -455,7 +422,7 @@
           "description": "defaw: \n今天把 cursor 下回来了，在两个项目中使用了 cursor 。一个是 c++的嵌入式项目，一个 react shadcn 的前端项目，摸索了一套不用每月 20 刀使用 cursor 的方式。\n1.装上通义灵码插件，来激活 tab 补全，因为 cursor 的 tab 补全是需要 pro 会员，没有会员 tab 补全不生效。\n2.-模型里 openai api 里填上 deepseek 自家的 api 地址和 token ，不算 composer 的情况下，基本上获得 cursor99%的能力了。\n然后就是使用中的一些细节，ctrl-k 的代码生成会比 tab 更完整，效果也好的多，用 deepseek v3 来进行方法级别的生成效果是比较好的，如果需要跨多文件生成，用 @File 把别的文件里的类型定义一起附上。",
           "link": "https://www.v2ex.com/t/1102158",
           "publishedOn": "2025-01-02T16:59:45.000Z",
-          "wordCount": 538,
+          "wordCount": 566,
           "title": "一种不付费使用 cursor 的方式",
           "imageUrl": null
         },
@@ -465,7 +432,7 @@
           "description": "frankilla:",
           "link": "https://www.v2ex.com/t/1102157",
           "publishedOn": "2025-01-02T16:51:41.000Z",
-          "wordCount": 388,
+          "wordCount": 397,
           "title": "大佬们， ios 自带输入法的自动遗忘用户词库的毛病是普遍性的还是我个人问题？能否彻底改善？",
           "imageUrl": null
         },
@@ -485,7 +452,7 @@
           "description": "lslqtz: \n最近试着写了一份简单的个人用途的转码点播服务端, 完成了之前的想法, 它能把当前工作目录下的视频转为 m3u 切片用于点播. 主要是由于部分 BDMV 视频码率过高, 很难远程点播 NAS 上的内容. Jellyfin 等媒体库方案不在考虑范围.\n为了实现浏览器 seek 的效果, 选择由服务端通过 PTS 时间点和 timeBase 来根据关键帧提前生成切片范围, 在请求对应切片后实时转码到 mpegts (并通过浏览器预缓冲避免播放卡顿).\n但无论如何调节, 似乎偶尔都会出现音频不连续的问题, 转储后发现目标切片似乎时间和请求长度不完全一致, 调节多次参数仍未解决此问题 (为使切片有足够起始长度只测试到 muxdelay 方法可用, -ss/-t 放于输入之后似乎也无果, 包括 -start_at_zero 等的替代也都尝试过, 使用 hls 或 segment 的话较难控制自由点播进度).\n由于 nodejs 服务端较难调用 FFmpeg API, 是用的 命令+管道 的方式. 在这种情况下, 有方法可以解决或规避此问题吗?\n服务端的完整代码, 其中相关的代码如下:\nlet args = [\n'-ss', startTimeStr,\n'-t', durationTimeStr,\n'-accurate_seek',\n'-i', videoPath,\n'-map', '0:v:0',\n'-c:v', encoder,\n'-b:v', String(bitrate),\n'-bsf:v', 'h264_mp4toannexb',\n'-avoid_negative_ts', 'make_zero',\n'-start_at_zero',\n'-muxdelay', delayTimeStr,\n'-muxpreload', delayTimeStr,\n'-f', 'mpegts',\n'pipe:1'\n];\n\n请求方法:\nhttp://127.0.0.1:8082/video/rttPlaylist?videoPath=1.mkv\nhttp://127.0.0.1:8002/video/rttSegment?videoPath=1.mkv&start=0.0000&duration=4.0000\n(BTW: 其实大部分是 Gemini 写的.)",
           "link": "https://www.v2ex.com/t/1102154",
           "publishedOn": "2025-01-02T16:16:00.000Z",
-          "wordCount": 510,
+          "wordCount": 520,
           "title": "使用 FFmpeg 试图做个人用的转码点播服务端, 但 mpegts 多个切片间音频偶尔不连续?",
           "imageUrl": null
         },
@@ -515,7 +482,7 @@
           "description": "diydapanji: \n最早因为 NAS 空间比较大，所以相机默认开了 RAW+JPG 输出，平时也比较忙出去玩回来也不太选片直接 synology drive 整张卡同步上去了。\n最近发现照片占用有点太大了，光一年的就要超过 1t 了，其中有大量废片、以及不会再修的 raw 照片。请问大家有没有什么批量管理的方法，以及大家的流程是什么样的？",
           "link": "https://www.v2ex.com/t/1102149",
           "publishedOn": "2025-01-02T15:08:58.000Z",
-          "wordCount": 936,
+          "wordCount": 954,
           "title": "NAS 上如何批量管理 RAW+JPG 照片？",
           "imageUrl": null
         },
@@ -525,7 +492,7 @@
           "description": "modao3: \n玩 TG 也算两年了。最近莫名其妙被封号了，关注的好多都没留意备份。\n大家有啥优质的频道，日常看的频道可以分享一下嘛。\n抛砖引玉，发一下经常使用的频道。\n科技圈🎗在花频道📮\n频道索引&推荐\nzrj766 的频道\n资源分享|冲浪指南\n小声逼逼· 软件|资讯|抽奖\n瑟瑟太多了，就没必要分享了。",
           "link": "https://www.v2ex.com/t/1102148",
           "publishedOn": "2025-01-02T15:08:19.000Z",
-          "wordCount": 411,
+          "wordCount": 413,
           "title": "大家有啥经常看的 telegram 频道推荐订阅？",
           "imageUrl": null
         },
@@ -585,7 +552,7 @@
           "description": "dcy7287: 不会有寄生虫吗",
           "link": "https://www.v2ex.com/t/1102139",
           "publishedOn": "2025-01-02T14:00:07.000Z",
-          "wordCount": 592,
+          "wordCount": 599,
           "title": "三文鱼不是深水鱼为什么能生吃？",
           "imageUrl": null
         },
@@ -625,7 +592,7 @@
           "description": "sola97: \n我知道创建的是 Next.js + Tailwind CSS + shadcn/ui 这个框架\nv0.dev 让我下载的代码里，没有 package.json ，我需要自己配置这些吗？",
           "link": "https://www.v2ex.com/t/1102135",
           "publishedOn": "2025-01-02T13:53:01.000Z",
-          "wordCount": 386,
+          "wordCount": 388,
           "title": "v0.dev 开发的 Next.js 项目，下载代码到本地，怎么跑起来？",
           "imageUrl": null
         },
@@ -665,7 +632,7 @@
           "description": "rookie8: 过程：\n今天下午突然接到香港电话，说已订购的机票飞机故障了，需要改签，然后电话沟通改签，之后又说可以提供延误险，还特别强调可以补助 300 元，说需要支付宝操作，然后提供了一个网站路径，让登录，一看是 ip 地址，连域名都没有，说是中国民用航空局，我佛了。。。。\n下面是电话和网站链接：\n电话：00 852 6294 6474\n钓鱼网站： http://154.220.28.138/\n各位 V 友们，有什么好的举报方式吗？",
           "link": "https://www.v2ex.com/t/1102131",
           "publishedOn": "2025-01-02T13:41:12.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "热心的 V 友们，碰到诈骗电话和钓鱼网站怎么举报了",
           "imageUrl": null
         },
@@ -685,7 +652,7 @@
           "description": "fan88: \n访问上海电信的 IP 延迟均在 40ms+",
           "link": "https://www.v2ex.com/t/1102129",
           "publishedOn": "2025-01-02T13:39:04.000Z",
-          "wordCount": 408,
+          "wordCount": 413,
           "title": "上海联通今晚怎么了？到上海电信延迟直接爆表",
           "imageUrl": null
         },
@@ -705,7 +672,7 @@
           "description": "hhacker: \n每一个游戏玩家心中, 都有一个自己做一款游戏的梦, 费劲千辛万苦后, 我成功制作了一款独立游戏并在 2025 年 1 月 1 日上架了 Steam.\n本文既是对这个过程的一种纪念, 也是对游戏制作这个话题留下一些自己的思考和总结, 如果能让后来者少踩几个坑, 就更好了.\n我将按时间线索将整个游戏制作和发行过程展现出来, 文章较长, 感谢你的耐心阅读.\n源起 2019\n我是一个 80 后, 在 90 年代伴随着电子游戏成长起来的一代人, 在读书的时候曾经有一段时间沉迷游戏, 玩三国志和文明系列玩到深夜.\n我父亲实在看不下去了, 对我说了一句话: \"玩游戏厉害算什么, 有本事自己做一个啊\", 当时还小, 也没有能力制作一款游戏, 可能是年少时的那种不服气吧, 这句话我就一直记在了心里.\n后来参加工作了, 和大多数社畜一样, 每天累得跟狗一样, 回家就只想躺着休息, 连打开电脑玩一把游戏的兴趣都没有了.\n2018 年下半年, Steam 上的独立游戏中国式家长火热, 我正好也玩到了这款游戏, 并向我的朋友推荐了它.\n然后在 2019 年春天, 我晚上加班加得心烦意乱, 工作堆积如山, 一眼瞥见了加班了一小会儿就想溜的胡大胖同学, 我说: \"你陪我加班吧, 我做完这点事情, 我们就玩暗月来袭\", 然后胡大胖同意了.\n暗月来袭是当时很火的一款 DOTA2 地图, 我们之前从来没有通关过, 就在那个晚上, 我们打到了历史最佳记录-倒数第二关.\n然后在黎明到来前, 胡大胖说:\n\"加班其实是有一定概率猝死的\"\n\n我说:\n\"要不我们做一款游戏吧, 就叫**中国式加班**\"\n\n胡大胖表示同意, 然后我们一起构思了这么一个特别的游戏, 当时胡大胖还并不知道, 他将是这个加班游戏的主角原型.\n所以在 2019 年五月, 我初始化了这个游戏项目的 Git 仓库.\n萌新的进击\n虽然…",
           "link": "https://www.v2ex.com/t/1102126",
           "publishedOn": "2025-01-02T13:24:17.000Z",
-          "wordCount": 2168,
+          "wordCount": 2267,
           "title": "我是如何从零开始手搓一个独立游戏并上架 Steam 的",
           "imageUrl": null
         },
@@ -725,7 +692,7 @@
           "description": "go1796996750asdf: \n很久前就有这想法，无奈最近才认真做起来。算是给自己做个模版方便后面开发其他产品～～\n功能上支持 生成图片 图片生成视频。\n目前需付费使用，大佬们可以发账号，后台给最高套餐使用 反馈 bug\n图像模型支持以下\nflux-schnell ，\nflux-dev ，\nflux-pro-v1 ，\nflux-pro-v1.1 ，\nflux-pro-v1.1-ultra ，\n视频模型支持下面：\nhaiper-v2 ，\nminimax ，\nluma-dream-machine\n网站：👉 https://web.cutyai.com/",
           "link": "https://www.v2ex.com/t/1102124",
           "publishedOn": "2025-01-02T13:05:10.000Z",
-          "wordCount": 576,
+          "wordCount": 588,
           "title": "肝了一个月-AI 图像视频生成网站-欢迎免费试用",
           "imageUrl": null
         },
@@ -755,7 +722,7 @@
           "description": "xiaoming1992: \n预算 2800 - 3200 ，以下是刚需：\n16 + 512 及以上\nNFC （地铁卡 + 车钥匙）\n谷歌三件套 + 梯子\n最好不用解锁（怕银行之类的对环境安全要求较高的软件用不了）\n不接受二手，最好别是同系列的最低配，我不喜欢最低配\nP.S. 对雷老板有点迷信，对某为和蓝绿二厂有点歧视\n背景：我现在用的是红米 K30P 12 + 128 ，当时买的时候我记得好像是 3000 ，用了 4 年半了，很喜欢，也有点迷信雷老板，只是存储着实不够，想着换一个。\n可是红米新出的 K80P 16 + 512 要 4300 ，太贵了；红米 K80 价格倒是合适，可是从 K30P 换到 K80 ，有点不甘心，感觉越活越回去了。\n我看一加在站内的口碑不错，刚刚也稍微体验了一下 Ace5 ，不坏。\n能分析一下 红米 K80 和 一加 Ace5 的优劣吗？或者有其他推荐的也可以。再或者，随着通货膨胀，我的预算也应该加一加吗？（加不了多少，顶天 3500 ）\n（我知道一加是 oppo 的，谢谢）\n我先说一个，红米换红米，换机成本低，不存在资料迁移的麻烦。",
           "link": "https://www.v2ex.com/t/1102120",
           "publishedOn": "2025-01-02T12:46:40.000Z",
-          "wordCount": 553,
+          "wordCount": 566,
           "title": "周经贴，求推荐手机，预算 2800-3200",
           "imageUrl": null
         }
