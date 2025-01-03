@@ -177,6 +177,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -347,7 +374,7 @@
           "description": "Raynard: \n纯家用，不需要外网访问，\n提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。\n目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。\n期望的要求：维护简单，使用方便，可靠性高。\n优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。\n希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！",
           "link": "https://www.v2ex.com/t/1102424",
           "publishedOn": "2025-01-03T16:43:48.000Z",
-          "wordCount": 480,
+          "wordCount": 506,
           "title": "如何搭建 PB 级影音存储服务器？",
           "imageUrl": null
         },
@@ -397,7 +424,7 @@
           "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
           "link": "https://www.v2ex.com/t/1102417",
           "publishedOn": "2025-01-03T15:32:50.000Z",
-          "wordCount": 1468,
+          "wordCount": 1307,
           "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -447,7 +474,7 @@
           "description": "x4storm: 之前 Windows 11 上音频播放出问题，出现滞后，卡顿，找了一圈，最终是重启解决。\n现在在运行一个 ollama 推理的时候鼠标突然动不了，在网上找了一圈也没看到靠谱的，在不重启的情况下解决的办法。\n之前在 Mac 上遇到音频相关的问题，都是 kill 掉某个服务，重启该服务就解决了，windows 上非得要重启系统。\n感觉都不想在 windows 上进行开发和工作了。",
           "link": "https://www.v2ex.com/t/1102410",
           "publishedOn": "2025-01-03T14:40:04.000Z",
-          "wordCount": 416,
+          "wordCount": 446,
           "title": "Windows 上音频，鼠标遇到问题后，有没有像 macOS 一样有重启对应服务的办法？",
           "imageUrl": null
         },
