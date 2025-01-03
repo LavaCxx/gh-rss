@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-03 datetime="2025-01-03T17:55:42.000Z">2025-01-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-03 datetime="2025-01-03T17:55:42.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-03 datetime="2025-01-03T15:19:43.000Z">2025-01-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-03 datetime="2025-01-03T15:19:43.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,235 +38,6 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102427"
-                        open
-                      >
-                        <summary class="article-expander__title">有什么好办法限制 Python 的内存分配吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102427">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>HawkinsSherpherd: 
-这是一段会吃掉几乎所有可用内存的代码：
-def Decompress_Gzip_With_Progress_Bar(gzip_path, output_path):
-    with gzip.open(gzip_path, &#x27;rb&#x27;) as f_in:
-        with open(output_path, &#x27;wb&#x27;) as f_out:
-            file_size &#x3D; Get_Uncompressed_Size(gzip_path)
-            chunk_size &#x3D; 1024 * 1024
-            with tqdm(total&#x3D;file_size, unit&#x3D;&#x27;B&#x27;, unit_scale&#x3D;True, desc&#x3D;&quot;Decompressing &quot; + gzip_path) as pbar:
-                for block in iter(lambda: f_in.read(chunk_size), b&#x27;&#x27;):
-                    f_out.write(block)
-                    pbar.update(len(block))
-
-它被用于解压一个解压后大概 4G 大小的文件。
-直接在我的 16G 内存的开发虚拟机上运行，它会吃掉所有的内存。
-但是，如果我把它放到一个分配 1G 内存的容器里，它不仅能运行，甚至还能运行得更快。
-我试过用 resource 限制内存分配，但是它还是会吃满所有内存。
-有没有什么能直接写到 Python 代码里的限制内存分配的方法呢？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102426"
-                        open
-                      >
-                        <summary class="article-expander__title">8 年前端找个短期开发的工作.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102426">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>LukerSpring: 快到年底了, 春节前后一共有 16 天假, 平时周末也是有空的.
-前端的基本都会.
-高级打工仔, 求一份节假日的工作.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102425"
-                        open
-                      >
-                        <summary class="article-expander__title">自建企业邮局的最佳解决方案是什么</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102425">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>laobaiguolai: 
-大佬们，想搭建一个企业邮局，请问有开源好用的吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102424"
-                        open
-                      >
-                        <summary class="article-expander__title">如何搭建 PB 级影音存储服务器？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102424">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Raynard: 
-纯家用，不需要外网访问，
-提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。
-目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。
-期望的要求：维护简单，使用方便，可靠性高。
-优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。
-希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102423"
-                        open
-                      >
-                        <summary class="article-expander__title">对方车实线变道导致的交通事故，无法出具事故认定责任书，大伙帮看看这个怎么维权。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102423">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>huandaeren: 1. 高架上，我在中间车道，对方车在右边车道。
-2. 对方跨实线变道到我的车道，我急刹，最终没有发生严重的碰撞，仅我的车有轻微的刮擦，对方车辆仅车衣有一点点破损，基本没有痕迹。
-3. 因为我在他的左后，所以我只有车头往前的摄像头能够拍到实线变道和疑似碰擦的情形。对方拒绝提供其车辆左边朝后的涉嫌头，交警反馈无法强行要求其提供视频，交通监控连车牌都无法识别。
-4. 当前情况下，对方车主不承认有和我的车发生碰擦。交警反馈无法证明事故确有发生，无法出具事故认定责任书。
-大伙帮看看，这个情况怎么维护自身合法权益。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102422"
-                        open
-                      >
-                        <summary class="article-expander__title">基于微信小程序的买卖平台？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102422">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>azev: 
-我现在知道有些团购 拼购类的 不知道还有哪些别的？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102420"
-                        open
-                      >
-                        <summary class="article-expander__title">Android 现阶段最好的本地视频播放器是什么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102420">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Ashkin: 
-nPlayer 在高版本的 Android 里面无法读取文件，VLC 总是在托进度条的时候卡顿，有没有更好的选择？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102418"
-                        open
-                      >
-                        <summary class="article-expander__title">请教下有什么比较通用的 3D 模型缩略图生成方案</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102418">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>nanajj: 目前我看有 3 种方案：
-1. 利用 python + bpy + blander 生成，但不知道会不会资源占用太高。也不知道对于 linux server / serverless 支持如何。
-2. 利用 Nodejs + Three.js / Babylon.js 这种前端方案渲染
-3. 利用 一些库，比如 C++的，但可能要我再封装一下或 FFI 调用。
-请教还有那些更成熟好用的方案吗？ 或者该选哪个？ 我首先考虑的肯定是能用， 所以目前倾向 1 。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102417"
-                        open
-                      >
-                        <summary class="article-expander__title">[gpt]有什么手段可以突破单次对话 200k token 的限制吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102417">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="/static/icon-192.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5
-使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；
-尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统
-或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102416"
-                        open
-                      >
-                        <summary class="article-expander__title">联通 FTTR 不能 DHCP 下挂 Wi-Fi？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102416">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>HeyBoy2077: 我刚办了联通 2000 兆（大傻逼）入网给了华为 F30 （子猫 2.5G ） 我直接通过子猫 2.5G 下联 UDM-SE 2.5G 结果 UDM- SE 无法正常联网。 联通还告诉我千万不要走桥接，否则必降速！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -309,6 +80,26 @@ Hika 帮助你解决了哪些问题？又有哪些需求还未满足？
 hika 可以通过谷歌搜索 hika ai 或者输入网址 hika.fyi 使用, 也可以点击原文使用</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102414"
+                        open
+                      >
+                        <summary class="article-expander__title">stripe hk 现在注册后会有啥问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102414">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>infinityv: 
+hk 个人类型账户
+hkid 那里写的国内护照号 没有任何前后端验证 现在好像就已经是通过状态
+这种会有啥问题。。。</span>
                             </span>
                           </div>
                         </a>
@@ -920,6 +711,254 @@ Wi-Fi 6 ，7 了还有人叫 AC + AP ？
                         </a>
                       </details>
                     </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102377"
+                        open
+                      >
+                        <summary class="article-expander__title">关于 MacOS 电池容量 的一个个人 case</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102377">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>fengsi: 
+我自己的 m1 pro 的电脑买来用来用了两年，现在电池最大容量 91%，循环次数 75 ，我是一直使用 aldente 来保护电池的。
+我在公司实习时发的 m3 pro ，已经用了大半年了，电池容量 100%，循环次数 30+，没用过 aldente ，也没对电池进行特殊设置，因为不是自己的电脑吗，怎么糙怎么来了。
+我自己的那台电脑在我使用了大半年后电池容量已经到 95%左右了，所以挺有意思的，没用 aldente 的却电池很好，当然这只是我自己的一个小 case ，不排除其他我未知的变量。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102376"
+                        open
+                      >
+                        <summary class="article-expander__title">准备开发一个浏览器 AI Agents, 浏览器驱动选择 Puppetter 和 Playwright 哪个好呀？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102376">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>YuanJiwei: 
+最近 browser-use 这个项目特别火，感觉 2025 年，大家对 web agent 的需求还是很旺盛的，准备参考 https://midscenejs.com/ 和 https://github.com/browser-use/browser-use 整个 webagent 的开源框架。基于 typescript ，让广大前端开发者也加入到 ai agents 的浪潮中。底层浏览器驱动是基于 Puppetter 还是，基于 Playwright 比较好呀？
+有感兴趣的朋友添加我的微信，一起开发。
+微信（ base64)：eXVhbnNkdQ&#x3D;&#x3D;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102375"
+                        open
+                      >
+                        <summary class="article-expander__title">做了一个临时邮箱站 — ggg.ga，大伙有什么建议吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102375">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ShehJ: 
+之前 web3 搞空投的时候搜过各种临时邮箱，用着各种不爽，然后也想自己写一个，直到最近才写完了一个初版。
+域名：ggg.ga
+关于域名
+本来是想注册一个含义域名，但是找了挺久，常见后缀的还不错的含义域名基本都被注册了
+如果使用含义名+小众后缀又容易给别人做&quot;嫁衣&quot;
+索性直接用了一个好记点的小众后缀。
+关于邮箱后缀
+目前有两个 @linkmail.top （测试）、 @ddrdd.com ，之后会再加几个选项。
+邮箱后缀这块，收信邮箱也是尽量要.com 吗？还是影响不大？
+关于功能
+目前也就实现了临时邮箱的基本功能，邮件默认保存 7 天，不删浏览器缓存不点新建一个邮箱可以一直使用
+后面应该会加一个保存邮箱密钥，通过密钥复用邮箱的功能
+各位还有什么功能上、界面外观上的建议吗？
+整体还算是写着玩的吧，功能还有待完善，顺便学了一点 tailwindcss ，不得不说这个东西以前觉得乱，实际用了还是挺好用的。
+该域名及临时邮箱会长期保留，各位薅羊毛的时候可以用一用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102374"
+                        open
+                      >
+                        <summary class="article-expander__title">家里很多电器，插座怎么都不够，各位怎么安排的</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102374">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jjrow: 
+排插接排插...</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102373"
+                        open
+                      >
+                        <summary class="article-expander__title">求助群晖 NAS 误开启 open vswitch 后无法访问</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102373">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>karlguo7: 
+设备：DS220+ 单盘 8T DSM 版本：7+
+背景：
+最近在尝试 OpenWrt ，看了下教程试了 docker 安装，但是没法使用代理（不知道原因）。又尝试了虚拟机安装，但是安装后连接虚拟机报错 boot failed: not a bootable disk ，搜索无果后放弃虚拟机，但是发现 docker 的 openwrt 启动不了了，卸载了虚拟机后关掉了 open vswitch 后镜像可以正常启动了。
+启动 docker 的 openwrt 后手贱又去设置里打开了 open vswitch ，导致 NAS 直接访问不了了。。。
+尝试：
+首先尝试管理员账户通过 SSH 登录，报错：WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+按照提示删掉了.ssh 文件里面关于 NAS ip 的内容。
+再次尝试，报错：Permission denied, please try again.
+也去问了群晖的客服，客服说可以按照下面的步骤重置并且数据不会丢失。
+https://kb.synology.cn/zh-cn/DSM/tutorial/How_to_reset_my_Synology_NAS_7#t1
+但是我按了 reset 按钮很久也没有听到“哔声”，按照客服的步骤也不能重置。
+🙏大佬们这种情况该怎么办？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102372"
+                        open
+                      >
+                        <summary class="article-expander__title">在工作中遇到了很恶心的需求该怎么办</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102372">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bluebird007: 
+职位是后端开发，最近的需求是将一个原本是前端完成的工作变为后端完成：前端轮询系统接口获取新增交易单后，根据一系列筛选条件过滤之后调用三方接口完成交易。产品需求是获取新增交易单后后端可以直接完成整个流程逻辑，对前端无感。产品想法很简单，但是对后端来说就很麻烦：我需要去看前端代码这一系列的筛选过滤条件的逻辑，以及调用三方接口的参数的组装逻辑。更麻烦的是前端一个 select 下的不同 option 可能对应着不同的逻辑，每一种逻辑的每一个步骤我都得保持一致；从前端轮询变成后端接收消息处理，后端接收消息进行处理，消息 QPS 相当高，对于性能要求很高。然而这也不是最恶心的，最恶心的是这个需求只能在 prod 来验证。
+来这个部门才不到一个月，这其中的核心逻辑都不甚清楚。评审会的时候更是人微言轻，主管只说先做先做，然后就开始排期。
+自从接了这个需求之后似乎就没怎么高兴的过过周末。脑子里一想到这个需求就好像有什么恶心的东西挂在背上，时不时刺你一下，但是你还甩不掉。。。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102371"
+                        open
+                      >
+                        <summary class="article-expander__title">目前在各方面达到一个均衡的编程语言推荐？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102371">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>shuiguomayi: 
+目前有在 开发效率 开发体验，运行性能和资源消耗 方面达到一个均衡的 编程语言吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102370"
+                        open
+                      >
+                        <summary class="article-expander__title">Linux 上面有没有比 snipaste 更好的截图工具？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102370">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>saySilence: 
+linux 上有什么好用的截图工具（ debian 系或者 arch 系），pixpin 没有 linux 版本。
+截图、贴图、取色。
+GIF 、OCR 。(PixPin 有的功能)
+是不是只能用 snipaste 了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102367"
+                        open
+                      >
+                        <summary class="article-expander__title">Setapp 家庭版订阅有人下车，空 1 个车位，年付，已订阅 6 年</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102367">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>iEggache: 官网： https://setapp.com/ 
+近期 1 人下车，所以空出 1 个位置；从 18 年 9 月稳定续费至今；年付¥218 ，中途不可下车。WX：stonezhao002</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102366"
+                        open
+                      >
+                        <summary class="article-expander__title">BestBlogs.dev 精选文章 第 28 期</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102366">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ginobefun: 
+BestBlogs.dev 精选文章 第 28 期
+📷 亲爱的读者朋友们，欢迎阅读本期 AI 领域精选文章！
+本期，我们精选了 AI 领域的重要技术突破、产品创新和行业趋势。DeepSeek 发布了具有 671B 参数的新一代 MoE 模型； OpenAI 展示了多项重要技术进展； AI 开发工具和智能体技术持续演进。让我们一起了解这些重要发展！
+本周亮点
+DeepSeek-V3 重磅发布，671B 参数 MoE 模型（激活 37B ），在 14.8T token 上预训练，性能接近 GPT-4 和 Claude-3.5 ，训练成本仅 557.6 万美元，并开源原生 FP8 权重。
+OpenAI 十二天连续发布，推出 o3 模型、Sora 视频生成、RFT 微调技术等重要更新，展示了 AI 在数学、代码、视频生成等领域的进展。
+Anthropic 研究表明，简单可组合的模式优于复杂框架； Hugging Face 发布轻量级智能体库 smolagents ，简化 AI 智能体创建流程。
+4.RAG 技术迎来创新升级，GraphReader 、MM-RAG 、CRAG 等新框架涌现，通过图解、多模态、自我校正等技术显著提升性能。
+http://Bolt.new 创造编程产品增长记录，两个月实现 2000 万美元 ARR ，通过浏览器端操作系统和 AI 代码生成技术降低编程门槛。
+AI 语言学习迎来首个独角兽，Speak 实现 ARR 近 5000 万美元，用户突破 1000 万，通过 AI 技术提供低成本、个性化的语言学习体验。 
+AI 绘图领域新秀 Recraft 以 ELO 评分 1172 登顶文生图竞技场，在图像质量和提示词贴合度方面超越 Midjourney 和 Stable Diffusion 。
+行业领袖共话 2025：微软 CEO 纳德拉预见 AI 基础设施竞争加剧；李飞飞强调数据和算力资源重要性；李想展望 AI 定义未来汽车产业。
+智能体发展提速，2025 年被预测为&quot;智能体之年&quot;，多家公司在规划、可复用工作流、探索和评估等方面取得突破。
+模型技术变革持续深化，小型高效模型大量涌现，推理定价持续下降，开源模型与专有模型性能差距显著缩小。
+在线阅读： https://www.bestblogs.dev/newsletter/issue28</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                 </section>
               </section>
             </li>
@@ -1338,65 +1377,6 @@ https://dialect.quotemap.site/game
 AI 带来的生产力提高并不能解放劳动者，由于剥削关系继续存在，资本家会倾向榨取更多的剩余价值，导致劳动者更累。
 但是你可以投资 AI 相关的美股，驾于资本家之上，让他给你打工。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z">2024-12-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/notes/184"
-                        open
-                      >
-                        <summary class="article-expander__title">2024 · 前路未尽，初心犹在</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/notes/184">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184
-
-那晚的街道
-这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。
-https://innei.in/notes/161
-一次远行
-年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。
-
-https://innei.in/notes/162
-那次突如其来的裁员
-那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？
-想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1900,55 +1880,6 @@ Fluid Superscripts and Subscripts originally published on CSS-Tricks, which is p
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/posts/tech/electron-render-OTA-update"
-                        open
-                      >
-                        <summary class="article-expander__title">构想：Electron Render OTA 更新</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/electron-render-OTA-update">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update
-
-动机
-
-由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。
-由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。
-
-拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。
-编写此文时，下面的实现正在 Follow 中实验。
-https://github.com/RSSNext/follow
-基础知识
-Electron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。
-在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。
-思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。
-热更实现
-我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >VPS信号旗播报 - Telegram Channel</button>
                   <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
                 </h3>
@@ -2323,60 +2254,10 @@ OpenAI 每年的运行经费据报道是70亿美元，Anthropic 今年预计支�
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-05 datetime="2024-12-05T07:31:41.000Z">2024-12-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-05 datetime="2024-12-05T07:31:41.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/681"
-                        open
-                      >
-                        <summary class="article-expander__title">Hetzner Cloud 新旧用户通用10欧元优惠码 该优惠代码适用于 Hetzner Cloud 产品，包括对象存储 Object Storage，新旧顾客均可使用。在控制台点击 Redeem Code 使...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Hetzner Cloud 新旧用户通用10欧元优惠码
-该优惠代码适用于 Hetzner Cloud 产品，包括对象存储 Object Storage，新旧顾客均可使用。在控制台点击 Redeem Code 使用优惠码。有效期至2月份。
-优惠码：CoolifyXHetzner10 （12.6 更新：封车门了，现在仅限新客）
-优惠码似乎来自于开源自托管项目 Coolify，Hetzner 是 Coolify 的赞助商。
-新用户可以通过推荐链接首先获得20欧元积分，然后使用  CoolifyXHetzner10 代码再获得10欧元，最后再使用 HCC24-L7ST92 代码获得20欧元（绑定后1个月有效期，建议先消耗之前的优惠码后再绑）。一共可以获得 50 欧元积分。HZ注册不能挂梯子，资料要真实，非欧洲国家用户自动免税。
-[消息等级 Level C2 · 简要]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12602679295">
-        <time id="build-timestamp" datetime="2025-01-03T19:12:19.770Z">2025-01-03T19:12:19.770Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12602957030">
+        <time id="build-timestamp" datetime="2025-01-03T19:36:27.326Z">2025-01-03T19:36:27.326Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
