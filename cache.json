@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -173,33 +167,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -340,13 +307,143 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1102574",
-          "author": "0xABCD",
-          "description": "0xABCD: 组队合买的",
-          "link": "https://www.v2ex.com/t/1102574",
-          "publishedOn": "2025-01-04T15:38:48.000Z",
+          "id": "https://www.v2ex.com/t/1102590",
+          "author": "MJJMJJ",
+          "description": "MJJMJJ: \n购买地址\n\n这家最近做活动，最低配 2c/1G/50G 只要月付 1.44 欧\n\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : AMD EPYC 7543 32-Core Processor\n CPU 核心数        : 2\n CPU 频率          : 2799.998 MHz\n CPU 缓存          : L1: 256.00 KB / L2: 1.00 MB / L3: 32.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ✔ Enabled\n 内存              : 110.02 MiB / 3.85 GiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 1.56 GiB / 88.42 GiB\n 启动盘路径        : /dev/sda1\n 系统在线时间      : 0 days, 0 hour 3 min\n 负载   …",
+          "link": "https://www.v2ex.com/t/1102590",
+          "publishedOn": "2025-01-04T18:07:57.000Z",
+          "wordCount": 1857,
+          "title": "荷兰月付 1.44 欧， 2c/1G/50G， 10G 口无限流量机器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102589",
+          "author": "abchendai00",
+          "description": "abchendai00: 如何用 iOS Surge 来阻止客户端访问一个域名？",
+          "link": "https://www.v2ex.com/t/1102589",
+          "publishedOn": "2025-01-04T18:01:56.000Z",
+          "wordCount": 380,
+          "title": "iOS Surge 求助",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102588",
+          "author": "LemonLeon",
+          "description": "LemonLeon: \n\n自 2024 年 12 月 25 日，我们开发的 ChatGPT API 转发系统 Poixe.com 正式开放内测以来，一些数据：\n1 ） 45 位用户参与测试\n2 ） 22 位供应商成功入驻\n3 ）系统成功处理了第 100 万条接口请求\n其中还有位来自 V2EX 的友友，反馈了两个 BUG ，已经修复，这里再次表示感谢！\n内测阶段参与测试的用户，我们会给划转 1 美金额度，如果不够用可以联系我们（建议写过反馈的）\n\n\n最后：V 站果然是最适合冷启动项目的平台！",
+          "link": "https://www.v2ex.com/t/1102588",
+          "publishedOn": "2025-01-04T17:54:51.000Z",
+          "wordCount": 399,
+          "title": "内测第 10 天，我们成功处理了第 100 万条模型请求",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102587",
+          "author": "MJJMJJ",
+          "description": "MJJMJJ: \n\nTG 联系",
+          "link": "https://www.v2ex.com/t/1102587",
+          "publishedOn": "2025-01-04T17:29:26.000Z",
+          "wordCount": 373,
+          "title": "130 出一台 cc 年付 25 刀的， 2c2g100g 机器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102586",
+          "author": "mohumohu",
+          "description": "mohumohu: \n手上有异地的多条宽带和一些小鸡，想找一个面板，能直接在上面执行 ping 和 traceroute 任务，统一返回结果，方便我观察不同运营商的情况，类似于 https://www.itdog.cn/ ，不用我一个个去 ssh 上执行，不知道有没有啥开源方案？",
+          "link": "https://www.v2ex.com/t/1102586",
+          "publishedOn": "2025-01-04T17:18:13.000Z",
+          "wordCount": 350,
+          "title": "想找一个 ping 和 traceroute 的面板",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102585",
+          "author": "10099",
+          "description": "10099: 之所以用域名邮箱是被逼的，国内很多平台注册账号要手机号又要邮箱，时间一长忘记密码，或修改一些重要资料还必须验证邮箱。而邮箱长时间不登录又可能会回收，像新浪申诉非常麻烦，简直无语。为避免回收买过 88 邮箱，但 1 个手机号只能注册 1 个，也是够了。\n目前在用飞书以及阿里企业邮箱，相比飞书、腾讯等阿里可以说是比较纯粹的邮箱了。管理员可以分配邮箱账号，密码可设置不需要二次修改，手机端、电脑端、网页端都有，可以多账号同时登录收件。功能都满足，但免费 5 年，到期不确定是否收费，客服说公告为准，怕后面邮件多了不好迁移。\n需求：\n1 、账号 20 个左右。\n2 、最好有 iOS 版 app 支持多账号登录。或者支持别名、公共邮箱，能实现多账号同时收件即可。\n3 、不想用第三方客户端收件，延迟不固定，体验不好。\n4 、免费或可买断，容量无要求。\n已经使用过很多了，比如\n1 、Outlook 拼车方案不行了。\n2 、icloud+：只能 5 个号，无法满足。\n3 、Gmail 、Yandex 等已经收费或免费版限制账户数等也不行。\n3 、腾讯：多年前是 1 个邮箱必须绑定 1 个 QQ ，现在又要绑定什么企业微信的麻烦，不考虑。\n4 、网易：几乎 3 天一次网易推广，还无法拉黑拒收，也不考虑\n5 、飞书：虽然很多用不到的功能，但免费版支持多域名、别名、公共邮箱等是功能最全的，但未读邮件，app 上没有角标提醒。\n其实体验下来说，飞书功能最强大，阿里比较简洁。",
+          "link": "https://www.v2ex.com/t/1102585",
+          "publishedOn": "2025-01-04T17:08:59.000Z",
+          "wordCount": 464,
+          "title": "求推荐个域名邮箱，以及我用过的域名邮箱体验",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102583",
+          "author": "darksheep9527",
+          "description": "darksheep9527: \n如题\n个人感觉小红书很多时候已经比百度更好用了 在搜旅游攻略/生活经验 上更是如此\n但是小红书的信息流 感觉会刷到很多不喜欢的内容(但是还是会手贱点进去)\n所以在想有没有只有搜索功能和收藏夹功能的小红书版本",
+          "link": "https://www.v2ex.com/t/1102583",
+          "publishedOn": "2025-01-04T16:56:54.000Z",
+          "wordCount": 375,
+          "title": "有没有只有搜索和收藏夹功能的小红书版本(逃离信息流)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102582",
+          "author": "100calorie",
+          "description": "100calorie: \n诚聘一名 web3 运营指导老师。\n岗位要求：\n只有 1 个要求：参与过 1 个或多个 web3 项目的运营，对 web3 各运营岗位有一定的了解；\n工作性质：远程兼职\n薪资情况：薪资面议\n面试流程：会有 1-2 轮面试。",
+          "link": "https://www.v2ex.com/t/1102582",
+          "publishedOn": "2025-01-04T16:56:10.000Z",
+          "wordCount": 377,
+          "title": "诚聘一名 web3 运营指导老师",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102581",
+          "author": "young1",
+          "description": "young1: 唉，毕业一年半了，换了两家公司，但是工资还是没有破万，Java 真的没前途了吗。base 在武汉\n各位大佬，指点迷津，继续死磕 Java 还是换行业呢",
+          "link": "https://www.v2ex.com/t/1102581",
+          "publishedOn": "2025-01-04T16:21:23.000Z",
+          "wordCount": 409,
+          "title": "Java 工资",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102580",
+          "author": "nyxsonsleep",
+          "description": "nyxsonsleep: \nDDR4 内存。单条内存买了两条，但是都不兼容。在另一台电脑上没问题。\n很好奇几点：\n这种内存不兼容是不兼容产线、批次还是颗粒类型？\n很多人说内存条没什么技术含量，那电脑不能识别内存的原因是什么呢？\n不识别内存是特意设计的吗？不识别的难度大还是识别的难度大？\n2024 年末了还有 DDR4 内存不识别，DDR5 或者以后会解决这些问题吗？",
+          "link": "https://www.v2ex.com/t/1102580",
+          "publishedOn": "2025-01-04T16:14:20.000Z",
+          "wordCount": 512,
+          "title": "买的内存条只能兼容一台电脑，留还是退了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102579",
+          "author": "zzzain46",
+          "description": "zzzain46: AP 面板是良信的，参数如下：\nhttps://pic1.imgdb.cn/item/6779584ad0e0a243d4ef0619.png\nLAN 口有线测速可以跑满 500M 宽带的网速，通过无线连接 AP 的时候，只能跑到 330Mbps 左右，目前 AP 信道设置的是自动。",
+          "link": "https://www.v2ex.com/t/1102579",
+          "publishedOn": "2025-01-04T15:51:17.000Z",
+          "wordCount": 380,
+          "title": "AP 面板无线测速跑不满网速，正常吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102578",
+          "author": "350041264812",
+          "description": "350041264812:",
+          "link": "https://www.v2ex.com/t/1102578",
+          "publishedOn": "2025-01-04T15:46:53.000Z",
           "wordCount": 115,
-          "title": "cursor 有车吗",
+          "title": "你们团队没有中国人，那活到底谁来干呀？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102577",
+          "author": "mingtdlb",
+          "description": "mingtdlb: \nGoogle 翻译目前还是机器翻译吧？感觉有时候有点生硬，上 AI 会好很多吧？\n因为我发现国内的翻译，有 AI 翻译还挺不错，比原来的机器翻译好，比如有道 百度",
+          "link": "https://www.v2ex.com/t/1102577",
+          "publishedOn": "2025-01-04T15:45:25.000Z",
+          "wordCount": 461,
+          "title": "Google 翻译怎么还不上 AI",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102575",
+          "author": "Danswerme",
+          "description": "Danswerme: \n记得刚开始学前端的时候，在电报上经常看一个叫 现代前端魔法部 的群，里面的大佬讨论的东西我当时不怎么看得懂。最近去翻这个群的时候发现这个群消失了，所以现在电报上还有什么前端交流群嘛？",
+          "link": "https://www.v2ex.com/t/1102575",
+          "publishedOn": "2025-01-04T15:39:56.000Z",
+          "wordCount": 394,
+          "title": "电报上有啥前端交流群嘛？",
           "imageUrl": null
         },
         {
@@ -495,7 +592,7 @@
           "description": "tanjianwei: 为了更好提升照片管理的体验，这次做了重大更新，新增了专属的相册快速整理模式，还有照片日历功能，还引入了 AI 自动整理相册照片主题功能，可以更加轻松整理和回忆照片。\n\n✅ 增加了照片日历功能、照片日记功能，用户没有时间写日记也没有关系，每天拍一张照片，就是日记。\n✅ 用户整理照片的最大痛点在于需要花费大量时间手动分类、打标签。所以我们打造了自动分类功能，并且预设了 300+的多样化主题名称，通过这些主题，结合 clip 模型的语义识别能力，将照片归类到不同的主题中。\n✅ 重构了整个 app 底层系统，极大提升整理体验，用户在删除、分类、浏览照片过程中，非常流畅，自我评价是感觉比 slidebox 用得更顺手。\n------- APP 下载地址 -------\n轻翻相册 APP 下载地址：\nhttps://apps.apple.com/cn/app/id6449437172\n\n------ 抽奖方式说明 --------\n1 、在这里留下评论，随机抽取 8 位回复的用户，前 3 送 永久会员，后 5 个年度会员\n2 、评论截止时间：1 月 7 日晚 23 点\n3 、抽奖方式：通过 js 脚本生成楼层范围内的随机数",
           "link": "https://www.v2ex.com/t/1102554",
           "publishedOn": "2025-01-04T12:49:18.000Z",
-          "wordCount": 681,
+          "wordCount": 685,
           "title": "[🎁抽奖 3 永久 5 年度] 狂肝一月重构轻翻相册，照片整理新体验， 25 年又有额度了",
           "imageUrl": null
         },
@@ -515,7 +612,7 @@
           "description": "xiyy02: 家人们我做的对吗",
           "link": "https://www.v2ex.com/t/1102552",
           "publishedOn": "2025-01-04T12:38:17.000Z",
-          "wordCount": 449,
+          "wordCount": 456,
           "title": "清仓 A 股了，三年，净亏损 2.6w",
           "imageUrl": null
         },
@@ -577,86 +674,6 @@
           "publishedOn": "2025-01-04T11:42:44.000Z",
           "wordCount": 585,
           "title": "读《圣经》出埃及记 这段惊呆了，这是约 3500 年前的事",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102540",
-          "author": "xuangoer666",
-          "description": "xuangoer666: MacBook Air M2 16+256 加政府补贴已经到 5520 了。\n手持 Windows 性能本，不堪忍受 Windows 糟糕的续航和重量，准备买个 MacBook 上网办公出门用。\nM2 芯片上网办公还能用几年？",
-          "link": "https://www.v2ex.com/t/1102540",
-          "publishedOn": "2025-01-04T11:39:36.000Z",
-          "wordCount": 536,
-          "title": "M2 尚能饭否",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102535",
-          "author": "gogocome",
-          "description": "gogocome: \n进程名称\n内存\n线程\n端口\nPID\n用户\n\n\n\n\nShareMouse (未响应)\n2.45 GB\n7\n565\n10573\nmh\n\n\n比如这个,偷偷摸摸占了这么多内存,不是看了活动监视器都不知道\n有什么监控的 app 吗?或者自己写个 action script 之类,给个思路~",
-          "link": "https://www.v2ex.com/t/1102535",
-          "publishedOn": "2025-01-04T10:44:01.000Z",
-          "wordCount": 364,
-          "title": "有没有可以监控异常进程的方法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102534",
-          "author": "shylockhg",
-          "description": "shylockhg: \nJan 04 18:33:18 localhost kernel: nvme 0000:01:00.0: platform quirk: setting simple suspend\nJan 04 18:33:26 localhost.localdomain kded6[2431]: kscreen.kded: PowerDevil SuspendSession action not available!\n\n除了 nvme 看上去有点异常，也没别的信息了",
-          "link": "https://www.v2ex.com/t/1102534",
-          "publishedOn": "2025-01-04T10:41:17.000Z",
-          "wordCount": 373,
-          "title": "大家有遇到过 Linux 电脑睡眠之后经常自己关机了么",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102533",
-          "author": "lerry",
-          "description": "lerry: \n今天下午，我正准备给新起的项目配置数据库，发现本地 NAS 上的 PostgreSQL 数据库突然连接不上了。起初发现是硬盘满了，经过排查，更糟，ZFS 存储池不见了。这台 Nas 是用来备份的，因为 whale 池子不见了，定时备份命令把系统盘存满了。本文记录了这次数据恢复的全过程，希望能给遇到类似问题的朋友一些参考。\n问题发现\nPostgreSQL 数据库无法连接\n系统提示硬盘空间已满\n关键的 /whale 存储池完全消失\n通过 lsblk 确认物理硬盘仍在线\n问题诊断\n执行 zpool import 命令后，系统返回了错误信息，看起来很严重：\n# zpool import -d /dev/disk/by-id/ata-WDC_WUH721816ALE6L4_2BJNGLGN-part1\npool: whale\nid: 6556284763754827846\nstate: FAULTED\nstatus: The pool metadata is corrupted.\naction: The pool cannot be imported due to damaged devices or data.\nThe pool may be active on another system, but can be imported using\nthe '-f' flag.\nsee: https://openzfs.github.io/openzfs-docs/msg/ZFS-8000-72\nconfig:\n\nwhale                               FAULTED  corrupted data\n  ata-WDC_WUH721816ALE6L4_2BJNGLGN  ONLINE\n\n存储池处于 FAULTED 状态，元数据遭到损坏。即使使用 -f 参数强制导入也未能解决问题。\n解决过程\n我把zpool import的回显和提示的网址发给 Cursor ，在 AI 助手的建议下，我们采取了以下步骤：\n首先使用 zpool import -Fn whale 进行\"dry run\"测试，结果令人欣慰：\nWould be able to return whale to its state as of 2025 年 01 月 03 日 星期五 20 时 36 分 47 秒.\nWould discard approximately 5 seconds of transactions.\n\n运行 zpool import -F whale\n重启系统以确保所有服务正常运行\n随机查看了一些文件，没有发现损坏的迹象\n执行 zpool scrub whale 进行数据完整性检查\n事后分析\n昨天晚上，我回到家发现 Mac mini 关机了，查看 Nas 的 uptime 只有 16min ，说明家里断过电。这很可能是因为断电导致的存储池损坏。\n经验总结\nZFS 的自愈能力确实强大，即使遇到元数据损坏也有恢复的可能\n在进行重要操作前，使用 -n 参数进行干运行测试是个好习惯\nUPS 电源保护对于 NAS 系统来说至关重要\n定期备份依然是数据安全的最后防线\n虽然这个池子只是备份数据，如果丢失了也很麻烦。还好虚惊一场。AI 确实强大，文档链接直接丢给它就能给出方案。\nhttps://lerry.me/post/2025/01/zfs-storage-pool-recovery",
-          "link": "https://www.v2ex.com/t/1102533",
-          "publishedOn": "2025-01-04T10:40:34.000Z",
-          "wordCount": 571,
-          "title": "记一次 ZFS 存储池恢复实战",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102531",
-          "author": "Canglin",
-          "description": "Canglin: \n单位发了 2W 的大商友谊购物卡，不知道怎么才能利益最大化",
-          "link": "https://www.v2ex.com/t/1102531",
-          "publishedOn": "2025-01-04T10:07:39.000Z",
-          "wordCount": 387,
-          "title": "炸裂",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102528",
-          "author": "imba97",
-          "description": "imba97: \n今天发生一个离谱的问题\n我是个前端开发，有一个列表接口，本来有数据，后面突然列表没了，前端逻辑没动过\n我看了看接口，发现接口正常，里面列表数据都在，在控制台打印数据也都正常\n最后打印列表字段 rows 发现是 undefined，这才发现列表数据的 key 变成了 data\n争论开始了\n后端反馈是有两种数据结构，一种是有分页一种是无分页\n有分页的接口返回 rows，无分页的接口返回 data\n后面甚至提出前端在响应拦截器判断一下，有 rows 的话拿 rows，没有的话拿 data\n我觉得很离谱，在我的认知中，我认为后端返回的数据要保持一致性\n类似这样\ninterface ResponseData {\n    code: number\n    data: Array | Object // 这里就大概表示一下可以是列表数组可以是对象\n    total?: number // 需要的话返回\n    message: string\n}\n\n争论半天后端大概意思是：“一般都是这样的，分页和其他查询结果有差异”、“没有必要改 不然看不出来 分页和部分也的区别了”、“你现在没数据了你能第一时间知道是接口改成不分页的了”、“这个框架都几十年了一直都是这样” ...\n最后虽然也改成统一的了\n但我我对这套说辞是：？？？\n想请教一下大家，你们对接的数据结构也是不统一的吗？哪种方式更好呢？",
-          "link": "https://www.v2ex.com/t/1102528",
-          "publishedOn": "2025-01-04T09:51:11.000Z",
-          "wordCount": 949,
-          "title": "关于今天给前端返回数据的结构的争论",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102526",
-          "author": "490454744",
-          "description": "490454744: \n自己积攒的书库备份到了 NAS 和网盘里。本想着在备份一份到微信读书，说付费会员无上限，结果一天就让导入 200 本。开通会员前也没有明显告知。",
-          "link": "https://www.v2ex.com/t/1102526",
-          "publishedOn": "2025-01-04T09:46:14.000Z",
-          "wordCount": 393,
-          "title": "微信读书有一丢丢离谱",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102525",
-          "author": "movq",
-          "description": "movq: \n戴耳机播放音乐时如果别人打电话过来，耳机音量会变成最大值\n这个貌似和设置里面的铃声音量是绑定的，也就是说，如果设置里面铃声音量设置成了最大，戴耳机时别人打电话的铃声也会是最大\n但是这样不是很傻么，设置铃声音量大，只是为了闹钟能把自己闹醒，戴耳机的音量如果也绑定了，会严重损坏听力",
-          "link": "https://www.v2ex.com/t/1102525",
-          "publishedOn": "2025-01-04T09:42:44.000Z",
-          "wordCount": 423,
-          "title": "戴 AirPods Pro 的时候如果有人打电话过来，音量会突然变成最大值，震耳欲聋，如何解决",
           "imageUrl": null
         }
       ]
