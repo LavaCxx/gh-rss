@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,6 +173,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -312,7 +345,7 @@
           "description": "nicocho: 之前 hahasim 能收到\n然后有一天突然应用数据被置空，没法登录，\n卡也早没了，找不回密码\n重新买了张，发现死活收不到验证码，\n请问下这是什么个情况？懂得大佬给讲下呢",
           "link": "https://www.v2ex.com/t/1102523",
           "publishedOn": "2025-01-04T09:34:09.000Z",
-          "wordCount": 377,
+          "wordCount": 382,
           "title": "现在港卡收不到 telegram 验证码了么？",
           "imageUrl": null
         },
@@ -382,7 +415,7 @@
           "description": "sosme: 1：那边的店面租金、人流大概是？\n2：外国人在当地做生意的话会有哪些手续，费用，大概是？\n3：安全性如何？\n4：物价的生活成本的话，如果是自己买菜做饭应该可以忽略这块吧？（因为那边的食物真的完全没食欲，太干净又卫生了:)）\n当然也不一定非要越南，也可以是东南亚的其他国家或者非洲都行！现在还没最终决定。马上要到 35 中年危机了，感觉现在国内真心有点卷不动了~",
           "link": "https://www.v2ex.com/t/1102515",
           "publishedOn": "2025-01-04T09:00:54.000Z",
-          "wordCount": 451,
+          "wordCount": 455,
           "title": "2025 不想在国内卷了，假如去越南开店的话可行吗？",
           "imageUrl": null
         },
@@ -402,7 +435,7 @@
           "description": "PatrickLe: 刚准备买个 iPad 送父母看到 TB 百亿补贴 iPad9 竟然只要 1700 ！！！ \n自己用的老款 pro 已经用了几年，没想到现在 iPad 竟然这么实惠了\n送父母是 iPad9 呢？还是加点钱换 mini 呢？",
           "link": "https://www.v2ex.com/t/1102512",
           "publishedOn": "2025-01-04T08:26:28.000Z",
-          "wordCount": 426,
+          "wordCount": 428,
           "title": "ipad9 适合送父母吗？",
           "imageUrl": null
         },
@@ -412,7 +445,7 @@
           "description": "SuperMild: \n约 100 行 Java 代码，只使用 Java 标准库，完全没有第三方代码。\n开发时也不使用 Maven, Gradle 之类，只使用 javac\n有一个简单的 GUI 窗口。\n代码极致简单，不可能更简单了。\n主要功能\n开源仓库 https://github.com/ahui2016/Wuliu-STN\n下载项目源码后，在终端执行命令 newnote 即可打开窗口，输入文本内容，点击 OK 完成一次记录。\n笔记内容是一个个 txt 文件，每天一个，例如 2025-01-01.txt\n主要用来记录 零散 的信息，没有条理的、混乱的短句等\n两个优点\n极低心智负担，每次操作就是打开一个文本框，输入内容，点击 OK 。没有别的操作了。\n代码量超少，约 100 行，而且全是很简单很直白的代码，阅读和修改都很轻松。\n不使用 Maven/Gradle, 只使用 javac\n全部代码才 11KB, 就算加上 README 之类的文件整个项目不压缩也只有 30KB\n只使用 Java 标准库，完全没有第三方代码，修改代码后只需要使用 javac\n编译即可，相关的命令我也提供了，具体请看项目 README 。\n一部分代码\n下面是主界面 class Main 的全部代码：\npublic class Main implements Runnable {\n    private ScrollArea scrollArea;\n\n    public static void main(String[] args) {\n        MyUtil.checkProjectExists();\n        SwingUtilities.invokeLater(new Main());\n    }\n\n    public void run() {\n        // 主窗口\n  …",
           "link": "https://www.v2ex.com/t/1102511",
           "publishedOn": "2025-01-04T08:22:46.000Z",
-          "wordCount": 541,
+          "wordCount": 552,
           "title": "五柳速记（Wuliu-STN）约 100 行代码的快速笔记程序",
           "imageUrl": null
         },
@@ -422,7 +455,7 @@
           "description": "coderYang: \n95 年生人，17 年毕业，至此已经 30 岁工作 7 年有余，近 8 年，有房有贷已婚，无车无娃\n三本软件院校毕业，Java 开发，上海 5 年郑州 3 年，呆过最大的公司也无非是千人企业，小型互联网公司\n回郑后 15k 的薪资，让我有点放松（在郑州还算可以），结果公司 24 年经济变差，开始裁员，25 元旦后开始全面降薪，突然迷茫\n卷技术，无大厂背景，且跳槽频繁，简历花了（投递数马因跳槽频繁，简历被拒），且不知道 8 年经验的 Javaer 该具备些什么能力，是继续八股？可背的东西与三四年工作经验别无二致\n卷人脉，父母皆为农民，伴侣家庭也一样普通，朋友资源皆为程序员，相同的背景，差不多的人生，区别可能就仅在伴侣所带来的不同\n迷茫、恐惧，boss 投递，除了不知所以的外包，无其他招聘，亦或者已读不回、不读不回，根本没有发送简历的一步\n发帖并非自怨自艾，确是想请大拿帮忙指导一下，八年经验的 javaer ，具备哪些能力？简历中应该具备什么内容？\n人还是得自救。",
           "link": "https://www.v2ex.com/t/1102509",
           "publishedOn": "2025-01-04T08:11:48.000Z",
-          "wordCount": 519,
+          "wordCount": 524,
           "title": "迷茫的 30 岁",
           "imageUrl": null
         },
@@ -432,7 +465,7 @@
           "description": "COW: \n1kg 不到的东西，体积 65cm30cm65cm ，从浙江到辽宁，运费接近一百五十。",
           "link": "https://www.v2ex.com/t/1102508",
           "publishedOn": "2025-01-04T08:08:35.000Z",
-          "wordCount": 494,
+          "wordCount": 510,
           "title": "菜鸟寄快递要这么贵么？",
           "imageUrl": null
         },
@@ -442,7 +475,7 @@
           "description": "cvvin: \n我是一个前端开发，正在为新一年的技术规划感到苦恼。在我们公司，完成分内的业务开发是基本工作，即使做得再好，也属于无亮点可言， 只是一个实现需求的工具人。只有在业务开发之外有技术创新或亮点贡献，才能有好的评价。不过，目前我的领导对技术创新的方向没有明确思路，要让我进行规划。\n让我更头疼的是，业务开发的排期非常紧凑，这使得我不敢制定太激进的创新计划，担心最终无法完成任务，影响整体进度。所以我想向大家请教：\n前端有哪些相对稳妥且切实可行的技术创新方向可以尝试？\n前端的属性就是偏工具人，如何去贡献公司业务呢？\nps. 公司不属于互联网行业，开发的东西以内部工具为主。已经做了两年的基建工作了，能做的基本都做了，领导说不要再规划基建方面的工作了，公司领导也不在乎。",
           "link": "https://www.v2ex.com/t/1102507",
           "publishedOn": "2025-01-04T08:07:23.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "如何在业务排期密集的情况下实现前端技术创新？",
           "imageUrl": null
         },
@@ -462,7 +495,7 @@
           "description": "linuxsuren: \nhttps://github.com/LinuxSuRen/atest-ext-collector",
           "link": "https://www.v2ex.com/t/1102504",
           "publishedOn": "2025-01-04T08:00:06.000Z",
-          "wordCount": 381,
+          "wordCount": 388,
           "title": "上 Python 课的期间 用 Go 写了个 DNS 服务",
           "imageUrl": null
         },
@@ -472,7 +505,7 @@
           "description": "jeesk: 1. 先前我问了一下，如果使用 cf 不考虑大陆，数据中心选择哪里好，后面我将我原有的 go 服务使用 worker 重写后， 速度比以前提高太多。\n2. 这个服务我自己做了一个用户注册系统，主要是帮用户申请签名证书，以及商品订阅，以前用户备份的配置信息。js + d1 数据库完全够用。 关键的是还快，没有内存担心的问题。\n3.  涉及到 cloudflare api 相关接口， 以前无论是部署到海外还是国内， 接口都慢的要死， 使用 worker 后， 快得无法想象。\n4. 我以为使用 cloudflare 如果接口超过 cpu 占用 10ms ，接口就会超时， 从我使用的看来，没有这个问题。\n\n5. worker 加上 d1 ，加上 cf 的证书，认证，限流，安全验证， 可以说从 serverless 的思想，重点狙击个人使用 springboot ，golang 写的 web 服务。\n6. 当然也有很多限制， 比如储存文件，文件上传的得使用其他的对象储存。可能没有直接写磁盘方便。国内可能不能正常访问。如果 cf 关闭了这个服务，迁移代码很麻烦。无法使用一些 linux 命令处理一些业务逻辑，这个目前无解。\n\n总得来说如果你有一个简单的服务，如果不想自己处理证书，安全，限流等等一系列的问题， 那么迁移到 worker 目前看，是一条不错的路子。这么香，况且还免费，不是我吹，要是国内能提供这种服务，估计国内阿里云和腾讯云会受到重创。在这种情况下，springboot\n和 go 不再是我的优先考虑了。",
           "link": "https://www.v2ex.com/t/1102503",
           "publishedOn": "2025-01-04T07:57:03.000Z",
-          "wordCount": 1111,
+          "wordCount": 1121,
           "title": "cloudfalre worker 也许是目前 web 服务部署的一种最佳实践。",
           "imageUrl": null
         },
@@ -482,7 +515,7 @@
           "description": "jkfadsljlasdgs: 一加手机充电器，不能给联想笔记本充电。\n想买个酷泰克通用电源，还不支持给一加充电。\n出差背着一堆大头充电器太难了，落下一个没带就废了",
           "link": "https://www.v2ex.com/t/1102502",
           "publishedOn": "2025-01-04T07:56:57.000Z",
-          "wordCount": 447,
+          "wordCount": 455,
           "title": "为什么各家充电器/电源协议不能统一？",
           "imageUrl": null
         },
@@ -592,7 +625,7 @@
           "description": "hsiaochi: \n很多知识输出，甚至主机游戏主播无法直播",
           "link": "https://www.v2ex.com/t/1102489",
           "publishedOn": "2025-01-04T06:01:15.000Z",
-          "wordCount": 498,
+          "wordCount": 503,
           "title": "抖音直播伴侣没有 mac 版本？这意味着 100%的 mac 用户无法直播",
           "imageUrl": null
         },
@@ -622,7 +655,7 @@
           "description": "BestVPS: \n搬瓦工 PowerBOX   新出江湖,30 天可退款,ip 被封也能退！\n方案名称：Powerbox\n方案配置：\n硬盘：30 GB SSD\n内存：1536MB\nCPU：1 核 Intel\n流量：1500 GB/月\n带宽：2.5Gbps\n线路：\n电信：双程 CN2GIA\n联通：去 4837/回 CN2GIA\n移动：去程 CMIN2/回 CN2GIA\n搬瓦工所有的套餐，除了香港/日本 GIA 没有，其他套餐基本集齐了\n另外，对于大家关心的线路保障情况，瓦工官方回复线路保证问题，会最大化的保持它，确保大家都能开心的使用这款产品。\n网络解锁情况：ChatGPT 是 DNS 解锁，谷歌 Gemini 原生解锁，迪斯尼看不了，奈飞只能看自制剧和 DC6 机房一样\n\n三网回程情况：三网 CN2GIA 回程，电信 CN2GIA 去程，联通 4837 去程，移动 CMIN2 去程，可以说非常的硬\n\n上海大出口，直连洛杉矶\n\n网络稳定性，才刚刚开机，不过可以合理预测肯定是一条直线，几乎毫无波动 探针地址： https://n.990599.xyz/\n\n融合怪测试，CPU 还是 Intel 的，但是这口子是真大啊！！！\n\n更多评测及媒体解锁可参考（含搬瓦工新加坡 CN2GIA ）： https://990599.xyz/bwg1/\n如果你还犹豫不决，可以测试一下线路\n点我测试你的速度\n\n循环优惠码：BWHCGLUKKB\n优惠后是$41.9 年，续费循环享受\n购买搬瓦工 DC99-powerBOX 含 aff 直达链接，$41.9",
           "link": "https://www.v2ex.com/t/1102483",
           "publishedOn": "2025-01-04T05:37:02.000Z",
-          "wordCount": 671,
+          "wordCount": 695,
           "title": "（VPS）全网首家测评--搬瓦工 power box",
           "imageUrl": null
         },
@@ -672,7 +705,7 @@
           "description": "sasukiki: \n3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，直营店会检测出不是官方买的吗？会不会翻车，当时的购买邮件已经找不到了",
           "link": "https://www.v2ex.com/t/1102477",
           "publishedOn": "2025-01-04T05:01:14.000Z",
-          "wordCount": 783,
+          "wordCount": 802,
           "title": "3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，会翻车吗？",
           "imageUrl": null
         },
