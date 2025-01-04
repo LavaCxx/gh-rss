@@ -344,7 +344,7 @@
           "description": "abcbuzhiming: 现在的工作间离窗很远，白天的日见光照几乎没有办法照到。必须开灯，但是这个位置只有一个吸顶灯，这个灯非常的亮，以至于有一种“光压感”，以至于我不太想开这个灯，最开始买了一个屏幕挂灯，但是一段时间后，发现屏幕挂灯只能照亮桌面这一块，一旦眼睛从桌面这一块移开，周围还是一片黑暗，明暗切换仍然导致眼睛疲劳。\n我希望是房间有一个柔和的环境光源，能把整个房间照亮，但是又不是特别亮，有没有人有布置这类光源的经验？",
           "link": "https://www.v2ex.com/t/1102459",
           "publishedOn": "2025-01-04T03:32:37.000Z",
-          "wordCount": 392,
+          "wordCount": 396,
           "title": "工作房间如何布置光源才比较柔和？",
           "imageUrl": null
         },
@@ -354,7 +354,7 @@
           "description": "ansnail: 我有一个闲置的 Intel 的 Macmini ，想着是不是可以把 Mac 系统直接清掉换成 pve ，然后折腾一下其他系统玩一下，在网上搜索没发现相关的教程，咨询一下是否可行，是否有相关教程",
           "link": "https://www.v2ex.com/t/1102457",
           "publishedOn": "2025-01-04T03:12:03.000Z",
-          "wordCount": 428,
+          "wordCount": 434,
           "title": "各位老哥咨询一下， Macmini 是否可以直接安装 pve",
           "imageUrl": null
         },
@@ -364,7 +364,7 @@
           "description": "autumnhlf01: \n请教个问题，类似温度，湿度硬件对接的时候，数据通过 websocket 获取，这些数据每隔几十秒就会传一组过来，咋处理这些数据？直接存数据库吗，这样数据库压力也太大了，通过 mq 的方式来存储，但是最终还是要插入数据库，还是会造成数据库压力\n我的想法是  把数据直接放到 redis 里面，但是越到后期，数据也会很多，查询也不太好查吧？\n没咋处理过这种场景，一时间没啥头绪，特来问问 v 友，有没有实际处理过类似问题的，求教",
           "link": "https://www.v2ex.com/t/1102456",
           "publishedOn": "2025-01-04T03:08:49.000Z",
-          "wordCount": 578,
+          "wordCount": 590,
           "title": "mysql 数据库频繁插数据的处理方案讨论",
           "imageUrl": null
         },
@@ -374,7 +374,7 @@
           "description": "szsgz: \n大家想对张小龙说什么",
           "link": "https://www.v2ex.com/t/1102455",
           "publishedOn": "2025-01-04T03:06:34.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "微信语音支持倍速播放了",
           "imageUrl": null
         },
@@ -394,7 +394,7 @@
           "description": "a3000xgyj: \n楼主是 2024 年 1 月头办的 2 年 2000M 的套餐  年付 2990 那个\n现在想改成 500M 的套餐 客服说 还有 1 年时间  现在改的话 还要付违约金  600 块\n兄弟们  看来我只能继续续约 2000M 的套餐？\n我是真受不了这个上传达量降速！\n兄弟们 是不是还要摸一年 合约到期才行？ 是不是无解？",
           "link": "https://www.v2ex.com/t/1102453",
           "publishedOn": "2025-01-04T03:00:23.000Z",
-          "wordCount": 406,
+          "wordCount": 440,
           "title": "兄弟们！上海电信套餐问题！",
           "imageUrl": null
         },
@@ -414,7 +414,7 @@
           "description": "seekafter: \n平时发东西,抖音/小红书/b 站都要发一遍\n相关的图片和文字会有细微的不同, 有时候软件还不在一个手机上面, 需要频繁的整理素材\n想要个在线的或者有客户端的软件来管理素材,要求启动快, 有免费容量或明确的价格体系, 开源的更好\n飞书或腾讯文档之类作为备选, 自建 joplin 等笔记软件作为备备选",
           "link": "https://www.v2ex.com/t/1102449",
           "publishedOn": "2025-01-04T02:40:32.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "有没有这样一款软件, 我想用来放素材/图文",
           "imageUrl": null
         },
@@ -424,7 +424,7 @@
           "description": "LeeReamond: \n如题，目前情况：\n手机摔了，屏幕失灵，无法触控\n其他功能正常，系统运行正常，可以正常通过侧面键调节音量，唤醒屏幕、强制重启等。\n目前的问题：\n去小米之家快修，印象里是要签数据不保护协议的，最好在去之前导出数据\n目前手机直接插电脑上的话只能充电，需要操作一下才能连数据，但是不去小米之家就不能操作，所以不能导出数据。\n去小米之家之前要导出数据，但去小米之家之后才能导出数据，有点尬住了兄弟们，有无解法？\n目前手机经过一次重开机，第一次开机需要使用图案解锁而不能直接用指纹解锁，所以目前还是个不能解锁的状态。",
           "link": "https://www.v2ex.com/t/1102448",
           "publishedOn": "2025-01-04T02:30:09.000Z",
-          "wordCount": 441,
+          "wordCount": 456,
           "title": "手机屏幕触控失灵的情况下，如何导出手机内数据？",
           "imageUrl": null
         },
@@ -444,7 +444,7 @@
           "description": "ZGeek: \n请教一下，A 虚拟机(omv)使用 NFS 进行了文件的导出：导出 NFS 指令为：\n/export/photo 192.168.50.4/27(rw,no_subtree_check,insecure,no_root_squash)\n\nB 主机(群晖)进行了挂载(/volumeX/photo)，然后问题如下\n目前发现群晖在 photo 中创建缩略图的方案是这样的：\n群晖自身的 photo 进程运行在 root 级别，以 root 身份像 photo 文件夹中创建缩略(644).\n以 root 的身份对刚才创建的 photo 中的缩略图文件 chown 为 uid:1026\n然后再写入真正的缩略图数据流\n问题：\n出现在第 3 步，当是本地文件系统的时候，3 是没有问题的，但是当是 NFS 的时候，就会报告权限不足的问题（问题的原因好像是 NFS Server 的自身权限校验行为）\n请问各位众大佬，是否有解决方案。\n备注:\n群晖的 photo 的运行方式，我没有办法变更和控制\nomv 中可以通过其他协议把文件共享出来，不一定需要走 NFS ，但是如果 NFS 的问题可以解决，则更好。",
           "link": "https://www.v2ex.com/t/1102445",
           "publishedOn": "2025-01-04T02:02:24.000Z",
-          "wordCount": 471,
+          "wordCount": 473,
           "title": "请教 NFS 的问题",
           "imageUrl": null
         },
@@ -484,7 +484,7 @@
           "description": "shmilypeter: \n公司配发的电脑经过标装，安装软件只能通过指定的应用商店，否则根本没权限执行安装程序。\n同样即便是公司笔记本带回家，本地的上网行为管理软件也不允许访问大部分外部网站，会直接拦截掉，同时即便是允许的外部网站上网行为管理软件也做了证书替换。\n我想通过 wsl 装一个 ubuntu 桌面版，通过远程桌面连接直接用 ubuntu 桌面版，用桥接给虚拟机联网这样就绕过了上网行为管理，然后自然在 wsl 虚拟机里我想干啥就干啥了。\n请问这样还有被发现的可能吗？",
           "link": "https://www.v2ex.com/t/1102438",
           "publishedOn": "2025-01-04T01:13:25.000Z",
-          "wordCount": 656,
+          "wordCount": 676,
           "title": "可以利用 wsl 绕过公司电脑监控吗？",
           "imageUrl": null
         },
@@ -504,7 +504,7 @@
           "description": "fffq:",
           "link": "https://www.v2ex.com/t/1102436",
           "publishedOn": "2025-01-04T01:02:07.000Z",
-          "wordCount": 652,
+          "wordCount": 702,
           "title": "v2er 们，百元以内蓝牙耳机哪家强",
           "imageUrl": null
         },
@@ -534,7 +534,7 @@
           "description": "midakaliu: \n工作之余喜欢研究视频制作，最近看到这种生日祝福视频。如下：\nhttps://www.bilibili.com/video/BV1akrEYHEUn/\n视频的剪辑我知道，但我发现这种视频，不像是传统的手机、微单、摄像机拍摄视频素材做得，有真人照片，但更多的是这种花花绿绿的特效素材。\n问题来了，很想知道这种特效素材是怎么制作的？有没有专门的软件生成？是 AI 生成的特效么？\n这种特效素材包可以从那儿获取呢？\n求助 V 友指导。",
           "link": "https://www.v2ex.com/t/1102431",
           "publishedOn": "2025-01-03T22:41:42.000Z",
-          "wordCount": 421,
+          "wordCount": 428,
           "title": "求助：想知道这种祝福视频的特效如何制作合成的？",
           "imageUrl": null
         },
@@ -544,7 +544,7 @@
           "description": "Fdyo: \n通过 OneDrive 云盘迁移功能可一键导入存储在 Google Drive 、Google Photos 以及 Dropbox 上的所有文件和照片。 但是还不支持 iCloud 。\n原文链接：OneDrive 已支持云盘迁移功能，支持 Google Photos 、Dropbox 等",
           "link": "https://www.v2ex.com/t/1102430",
           "publishedOn": "2025-01-03T19:29:16.000Z",
-          "wordCount": 417,
+          "wordCount": 434,
           "title": "OneDrive 云盘迁移功能发布了，支持 Google Drive、Google Photos 和 Dropbox",
           "imageUrl": null
         },
@@ -554,7 +554,7 @@
           "description": "Preposterous: 如题，btc 地址怎么得到？\n想要把 btc 提出来，写纸上，放优盘？",
           "link": "https://www.v2ex.com/t/1102429",
           "publishedOn": "2025-01-03T18:56:32.000Z",
-          "wordCount": 384,
+          "wordCount": 395,
           "title": "网站上提币问题",
           "imageUrl": null
         },
@@ -574,7 +574,7 @@
           "description": "HawkinsSherpherd: \n这是一段会吃掉几乎所有可用内存的代码：\ndef Decompress_Gzip_With_Progress_Bar(gzip_path, output_path):\n    with gzip.open(gzip_path, 'rb') as f_in:\n        with open(output_path, 'wb') as f_out:\n            file_size = Get_Uncompressed_Size(gzip_path)\n            chunk_size = 1024 * 1024\n            with tqdm(total=file_size, unit='B', unit_scale=True, desc=\"Decompressing \" + gzip_path) as pbar:\n                for block in iter(lambda: f_in.read(chunk_size), b''):\n                    f_out.write(block)\n                    pbar.update(len(block))\n\n它被用于解压一个解压后大概 4G 大小的文件。\n直接在我的 16G 内存的开发虚拟机上运行，它会吃掉所有的内存。\n但是，如果我把它放到一个分配 1G 内存的容器里，它不仅能运行，甚至还能运行得更快。\n我试过用 resource 限制内存分配，但是它还是会吃满所有内存。\n有没有什么能直接写到 Python 代码里的限制内存分配的方法呢？",
           "link": "https://www.v2ex.com/t/1102427",
           "publishedOn": "2025-01-03T17:55:42.000Z",
-          "wordCount": 548,
+          "wordCount": 551,
           "title": "有什么好办法限制 Python 的内存分配吗？",
           "imageUrl": null
         },
@@ -594,7 +594,7 @@
           "description": "laobaiguolai: \n大佬们，想搭建一个企业邮局，请问有开源好用的吗？",
           "link": "https://www.v2ex.com/t/1102425",
           "publishedOn": "2025-01-03T16:51:19.000Z",
-          "wordCount": 445,
+          "wordCount": 447,
           "title": "自建企业邮局的最佳解决方案是什么",
           "imageUrl": null
         },
@@ -604,7 +604,7 @@
           "description": "Raynard: \n纯家用，不需要外网访问，\n提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。\n目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。\n期望的要求：维护简单，使用方便，可靠性高。\n优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。\n希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！",
           "link": "https://www.v2ex.com/t/1102424",
           "publishedOn": "2025-01-03T16:43:48.000Z",
-          "wordCount": 610,
+          "wordCount": 624,
           "title": "如何搭建 PB 级影音存储服务器？",
           "imageUrl": null
         },
@@ -634,7 +634,7 @@
           "description": "Ashkin: \nnPlayer 在高版本的 Android 里面无法读取文件，VLC 总是在托进度条的时候卡顿，有没有更好的选择？",
           "link": "https://www.v2ex.com/t/1102420",
           "publishedOn": "2025-01-03T15:47:44.000Z",
-          "wordCount": 577,
+          "wordCount": 600,
           "title": "Android 现阶段最好的本地视频播放器是什么？",
           "imageUrl": null
         },
@@ -654,7 +654,7 @@
           "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
           "link": "https://www.v2ex.com/t/1102417",
           "publishedOn": "2025-01-03T15:32:50.000Z",
-          "wordCount": 1424,
+          "wordCount": 1455,
           "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
           "imageUrl": "/static/icon-192.png"
         },
