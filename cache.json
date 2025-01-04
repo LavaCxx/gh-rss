@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,6 +173,33 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -332,7 +365,7 @@
           "description": "yeohreet: 如果，感觉一直找不到很流畅的办法，各位老哥都是什么姿势？",
           "link": "https://www.v2ex.com/t/1102549",
           "publishedOn": "2025-01-04T12:23:27.000Z",
-          "wordCount": 420,
+          "wordCount": 452,
           "title": "各位 V2er，已经 2025 年了，在 iPad 上查看外文的 PDF，快速查询英文单词翻译的姿势是什么？",
           "imageUrl": null
         },
@@ -372,7 +405,7 @@
           "description": "zhng920823: \n出埃及记 第 5 章\n6 就在那天，法老吩咐众民的督工和首领说：7“你们不要像往日一样再把草给人民做砖，叫他们自己去捡草。8 他们往日做砖的数量，你们还是向他们要，一点也不可减少，因为他们是懒惰的，所以他们才呼喊说：‘让我们去献祭给我们的　神。’ 9 你们要把更重的工作加在这些人的身上，好使他们专心作工，不听谎言。”\n果然阳光底下没新鲜事，也揭示了网上买不到的圣经的原因。",
           "link": "https://www.v2ex.com/t/1102542",
           "publishedOn": "2025-01-04T11:42:44.000Z",
-          "wordCount": 571,
+          "wordCount": 585,
           "title": "读《圣经》出埃及记 这段惊呆了，这是约 3500 年前的事",
           "imageUrl": null
         },
@@ -382,7 +415,7 @@
           "description": "xuangoer666: MacBook Air M2 16+256 加政府补贴已经到 5520 了。\n手持 Windows 性能本，不堪忍受 Windows 糟糕的续航和重量，准备买个 MacBook 上网办公出门用。\nM2 芯片上网办公还能用几年？",
           "link": "https://www.v2ex.com/t/1102540",
           "publishedOn": "2025-01-04T11:39:36.000Z",
-          "wordCount": 497,
+          "wordCount": 523,
           "title": "M2 尚能饭否",
           "imageUrl": null
         },
@@ -412,7 +445,7 @@
           "description": "lerry: \n今天下午，我正准备给新起的项目配置数据库，发现本地 NAS 上的 PostgreSQL 数据库突然连接不上了。起初发现是硬盘满了，经过排查，更糟，ZFS 存储池不见了。这台 Nas 是用来备份的，因为 whale 池子不见了，定时备份命令把系统盘存满了。本文记录了这次数据恢复的全过程，希望能给遇到类似问题的朋友一些参考。\n问题发现\nPostgreSQL 数据库无法连接\n系统提示硬盘空间已满\n关键的 /whale 存储池完全消失\n通过 lsblk 确认物理硬盘仍在线\n问题诊断\n执行 zpool import 命令后，系统返回了错误信息，看起来很严重：\n# zpool import -d /dev/disk/by-id/ata-WDC_WUH721816ALE6L4_2BJNGLGN-part1\npool: whale\nid: 6556284763754827846\nstate: FAULTED\nstatus: The pool metadata is corrupted.\naction: The pool cannot be imported due to damaged devices or data.\nThe pool may be active on another system, but can be imported using\nthe '-f' flag.\nsee: https://openzfs.github.io/openzfs-docs/msg/ZFS-8000-72\nconfig:\n\nwhale                               FAULTED  corrupted data\n  ata-WDC_WUH721816ALE6L4_2BJNGLGN  ONLINE\n\n存储池处于 FAULTED 状态，元数据遭到损坏。即使使用 -f 参数强制导入也未能解决问题。\n解决过程\n我把zpool import的回显和提示的网址发给 Cursor ，在 AI 助手的建议下，我们采取了以下步骤：\n首先使用 zpool import -Fn whale 进行\"dry run\"测试，结果令人欣慰：\nWould be able to return whale to its state as of 2025 年 01 月 03 日 星期五 20 时 36 分 47 秒.\nWould discard approximately 5 seconds of transactions.\n\n运行 zpool import -F whale\n重启系统以确保所有服务正常运行\n随机查看了一些文件，没有发现损坏的迹象\n执行 zpool scrub whale 进行数据完整性检查\n事后分析\n昨天晚上，我回到家发现 Mac mini 关机了，查看 Nas 的 uptime 只有 16min ，说明家里断过电。这很可能是因为断电导致的存储池损坏。\n经验总结\nZFS 的自愈能力确实强大，即使遇到元数据损坏也有恢复的可能\n在进行重要操作前，使用 -n 参数进行干运行测试是个好习惯\nUPS 电源保护对于 NAS 系统来说至关重要\n定期备份依然是数据安全的最后防线\n虽然这个池子只是备份数据，如果丢失了也很麻烦。还好虚惊一场。AI 确实强大，文档链接直接丢给它就能给出方案。\nhttps://lerry.me/post/2025/01/zfs-storage-pool-recovery",
           "link": "https://www.v2ex.com/t/1102533",
           "publishedOn": "2025-01-04T10:40:34.000Z",
-          "wordCount": 569,
+          "wordCount": 571,
           "title": "记一次 ZFS 存储池恢复实战",
           "imageUrl": null
         },
@@ -432,7 +465,7 @@
           "description": "imba97: \n今天发生一个离谱的问题\n我是个前端开发，有一个列表接口，本来有数据，后面突然列表没了，前端逻辑没动过\n我看了看接口，发现接口正常，里面列表数据都在，在控制台打印数据也都正常\n最后打印列表字段 rows 发现是 undefined，这才发现列表数据的 key 变成了 data\n争论开始了\n后端反馈是有两种数据结构，一种是有分页一种是无分页\n有分页的接口返回 rows，无分页的接口返回 data\n后面甚至提出前端在响应拦截器判断一下，有 rows 的话拿 rows，没有的话拿 data\n我觉得很离谱，在我的认知中，我认为后端返回的数据要保持一致性\n类似这样\ninterface ResponseData {\n    code: number\n    data: Array | Object // 这里就大概表示一下可以是列表数组可以是对象\n    total?: number // 需要的话返回\n    message: string\n}\n\n争论半天后端大概意思是：“一般都是这样的，分页和其他查询结果有差异”、“没有必要改 不然看不出来 分页和部分也的区别了”、“你现在没数据了你能第一时间知道是接口改成不分页的了”、“这个框架都几十年了一直都是这样” ...\n最后虽然也改成统一的了\n但我我对这套说辞是：？？？\n想请教一下大家，你们对接的数据结构也是不统一的吗？哪种方式更好呢？",
           "link": "https://www.v2ex.com/t/1102528",
           "publishedOn": "2025-01-04T09:51:11.000Z",
-          "wordCount": 807,
+          "wordCount": 915,
           "title": "关于今天给前端返回数据的结构的争论",
           "imageUrl": null
         },
@@ -442,7 +475,7 @@
           "description": "490454744: \n自己积攒的书库备份到了 NAS 和网盘里。本想着在备份一份到微信读书，说付费会员无上限，结果一天就让导入 200 本。开通会员前也没有明显告知。",
           "link": "https://www.v2ex.com/t/1102526",
           "publishedOn": "2025-01-04T09:46:14.000Z",
-          "wordCount": 386,
+          "wordCount": 391,
           "title": "微信读书有一丢丢离谱",
           "imageUrl": null
         },
@@ -472,7 +505,7 @@
           "description": "nicocho: 之前 hahasim 能收到\n然后有一天突然应用数据被置空，没法登录，\n卡也早没了，找不回密码\n重新买了张，发现死活收不到验证码，\n请问下这是什么个情况？懂得大佬给讲下呢",
           "link": "https://www.v2ex.com/t/1102523",
           "publishedOn": "2025-01-04T09:34:09.000Z",
-          "wordCount": 412,
+          "wordCount": 417,
           "title": "现在港卡收不到 telegram 验证码了么？",
           "imageUrl": null
         },
@@ -492,7 +525,7 @@
           "description": "W4J1e: \n以前一直用电信，后来换了移动，实际体验下来没发现太大的差异，夜间上网速率多少是要受到一些影响，并且去年中旬移动 DNS 的问题导致我排查了好久。但绝大多数时候还是很稳定的。\n下旬的时候又换了电信，才发现以前移动间歇性 git push 是可以成功了，有时候需要特殊手段，而电信一直需要特殊手段； xx 给我发了一个小网站，电信打不开，切移动数据可以访问；我的域名前几天被饭渣误伤，解除后移动的响应是最快的，电信的解除速度总是要慢半拍。\n还有用移动时，家里的 nas 和路由器通过域名解析的 ipv6 可以不带端口自动跳转访问，但是电信就不得不带端口，还不得不把路由器的端口改成非常用的才行。\n除了稳定，基本可以保证跑满带宽上限，电信宽带较移动还有什么优势呢？",
           "link": "https://www.v2ex.com/t/1102519",
           "publishedOn": "2025-01-04T09:16:01.000Z",
-          "wordCount": 483,
+          "wordCount": 485,
           "title": "都说移动墙中墙，可我觉得电信阻断的更多",
           "imageUrl": null
         },
@@ -502,7 +535,7 @@
           "description": "lifeOsDeveloper:",
           "link": "https://www.v2ex.com/t/1102517",
           "publishedOn": "2025-01-04T09:07:11.000Z",
-          "wordCount": 461,
+          "wordCount": 463,
           "title": "既然每个程序员都有一个 todo，要不大家一起来一个 todo 合集？",
           "imageUrl": null
         },
@@ -512,7 +545,7 @@
           "description": "galileo1214: \n目前在看 coze ，dify 或者 langchain",
           "link": "https://www.v2ex.com/t/1102516",
           "publishedOn": "2025-01-04T09:02:29.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "现阶段，最好的 Agent 框架是什么？",
           "imageUrl": null
         },
@@ -522,7 +555,7 @@
           "description": "sosme: 1：那边的店面租金、人流大概是？\n2：外国人在当地做生意的话会有哪些手续，费用，大概是？\n3：安全性如何？\n4：物价的生活成本的话，如果是自己买菜做饭应该可以忽略这块吧？（因为那边的食物真的完全没食欲，太干净又卫生了:)）\n当然也不一定非要越南，也可以是东南亚的其他国家或者非洲都行！现在还没最终决定。马上要到 35 中年危机了，感觉现在国内真心有点卷不动了~",
           "link": "https://www.v2ex.com/t/1102515",
           "publishedOn": "2025-01-04T09:00:54.000Z",
-          "wordCount": 520,
+          "wordCount": 531,
           "title": "2025 不想在国内卷了，假如去越南开店的话可行吗？",
           "imageUrl": null
         },
@@ -552,7 +585,7 @@
           "description": "SuperMild: \n约 100 行 Java 代码，只使用 Java 标准库，完全没有第三方代码。\n开发时也不使用 Maven, Gradle 之类，只使用 javac\n有一个简单的 GUI 窗口。\n代码极致简单，不可能更简单了。\n主要功能\n开源仓库 https://github.com/ahui2016/Wuliu-STN\n下载项目源码后，在终端执行命令 newnote 即可打开窗口，输入文本内容，点击 OK 完成一次记录。\n笔记内容是一个个 txt 文件，每天一个，例如 2025-01-01.txt\n主要用来记录 零散 的信息，没有条理的、混乱的短句等\n两个优点\n极低心智负担，每次操作就是打开一个文本框，输入内容，点击 OK 。没有别的操作了。\n代码量超少，约 100 行，而且全是很简单很直白的代码，阅读和修改都很轻松。\n不使用 Maven/Gradle, 只使用 javac\n全部代码才 11KB, 就算加上 README 之类的文件整个项目不压缩也只有 30KB\n只使用 Java 标准库，完全没有第三方代码，修改代码后只需要使用 javac\n编译即可，相关的命令我也提供了，具体请看项目 README 。\n一部分代码\n下面是主界面 class Main 的全部代码：\npublic class Main implements Runnable {\n    private ScrollArea scrollArea;\n\n    public static void main(String[] args) {\n        MyUtil.checkProjectExists();\n        SwingUtilities.invokeLater(new Main());\n    }\n\n    public void run() {\n        // 主窗口\n  …",
           "link": "https://www.v2ex.com/t/1102511",
           "publishedOn": "2025-01-04T08:22:46.000Z",
-          "wordCount": 563,
+          "wordCount": 569,
           "title": "五柳速记（Wuliu-STN）约 100 行代码的快速笔记程序",
           "imageUrl": null
         },
@@ -592,7 +625,7 @@
           "description": "superkkk: 想买一个游戏键盘，问客服说是 1000Hz 的轮询频率。\n买回来以后，用 UsbTreeView 检测显示如下：\nbInterval : 0x0A (10 ms)\n实际只有 100Hz 轮询频率。\n键盘外观做的看起来是挺炫的，打游戏感觉不出来，但是我认为商家虚标参数，我很不满意。\n不建议大家在京东上买东西",
           "link": "https://www.v2ex.com/t/1102505",
           "publishedOn": "2025-01-04T08:02:23.000Z",
-          "wordCount": 469,
+          "wordCount": 487,
           "title": "京东上买东西被坑了",
           "imageUrl": null
         },
@@ -612,7 +645,7 @@
           "description": "jeesk: 1. 先前我问了一下，如果使用 cf 不考虑大陆，数据中心选择哪里好，后面我将我原有的 go 服务使用 worker 重写后， 速度比以前提高太多。\n2. 这个服务我自己做了一个用户注册系统，主要是帮用户申请签名证书，以及商品订阅，以前用户备份的配置信息。js + d1 数据库完全够用。 关键的是还快，没有内存担心的问题。\n3.  涉及到 cloudflare api 相关接口， 以前无论是部署到海外还是国内， 接口都慢的要死， 使用 worker 后， 快得无法想象。\n4. 我以为使用 cloudflare 如果接口超过 cpu 占用 10ms ，接口就会超时， 从我使用的看来，没有这个问题。\n\n5. worker 加上 d1 ，加上 cf 的证书，认证，限流，安全验证， 可以说从 serverless 的思想，重点狙击个人使用 springboot ，golang 写的 web 服务。\n6. 当然也有很多限制， 比如储存文件，文件上传的得使用其他的对象储存。可能没有直接写磁盘方便。国内可能不能正常访问。如果 cf 关闭了这个服务，迁移代码很麻烦。无法使用一些 linux 命令处理一些业务逻辑，这个目前无解。\n\n总得来说如果你有一个简单的服务，如果不想自己处理证书，安全，限流等等一系列的问题， 那么迁移到 worker 目前看，是一条不错的路子。这么香，况且还免费，不是我吹，要是国内能提供这种服务，估计国内阿里云和腾讯云会受到重创。在这种情况下，springboot\n和 go 不再是我的优先考虑了。",
           "link": "https://www.v2ex.com/t/1102503",
           "publishedOn": "2025-01-04T07:57:03.000Z",
-          "wordCount": 1213,
+          "wordCount": 1217,
           "title": "cloudfalre worker 也许是目前 web 服务部署的一种最佳实践。",
           "imageUrl": null
         },
