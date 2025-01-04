@@ -340,6 +340,26 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102593",
+          "author": "redmoonisnil",
+          "description": "redmoonisnil: 随着更强大的生产机器、人工智能，机器的生产力越来越强大，这世界将不需要太多的人类劳动力，财富也会流入少数的人类手里，那么其他人类将何去何从？想象一下，第一第二产业只留下指挥机器干活和维修机器的人类，那么其他人类只能涌向第三产业服务业，这将会直接导致第三产业的各行各业竞争加剧，从事第三产业的人类总体收入下降，也会反过来影响第一第二产业。那怎么办呢，我觉得，只有那些掌握少数财富的人类，加大第三产业的投资和研发，人类生态才能保持稳定。",
+          "link": "https://www.v2ex.com/t/1102593",
+          "publishedOn": "2025-01-04T19:55:09.000Z",
+          "wordCount": 368,
+          "title": "工业品过剩的时代，人类将如何生存",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102592",
+          "author": "xuxueli",
+          "description": "xuxueli: \nRelease Notes\n1 、 [安全] 序列化安全性增强，默认开启 package 安全空间机制；\n2 、 [扩展] 序列化扩展性增强，支持自定义序列化 package 白名单；\n3 、 [优化] 序列化类型主动检测，提升问题定位效率；\n4 、 [能力] 服务注册发现实效性提升，优化 long-polling 逻辑；\n5 、 [扩展] 模块 xxl-rpc-netty-shade 独立拆分，与 Core 模块解耦；\n6 、 [优化] 通讯组件选择 HttpServer 时，HttpObjectAggregator 限制调大至 20M ，支持大消息传输；\n7 、 [升级] 多个项目依赖升级至较新稳定版本，涉及 xxl-rpc-netty-shade 、netty 、slf4j 等；\nXXL- RPC 快速接入示例\n代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-rpc/tree/master/xxl-rpc-samples\n1 、服务注册中心搭建：一行命令启动注册中心，一站式提供服务动态注册发现能力。\ndocker pull xuxueli/xxl-rpc-admin\n\ndocker run -p 8080:8080 -v /tmp:/data/applogs --name xxl-rpc-admin  -d xuxueli/xxl-rpc-admin\n\n\n2 、XXL-PRC 接入配置：与 Spring 无缝集成，也支持无框架接入。\nXxlRpcSpringFactory factory = new XxlRpcSpringFactory();\nfactory.setBaseConfig(new BaseConfig(env, appname));\nfactory.setRegiste…",
+          "link": "https://www.v2ex.com/t/1102592",
+          "publishedOn": "2025-01-04T19:03:28.000Z",
+          "wordCount": 599,
+          "title": "XXL-RPC v1.8.1 | RPC 服务框架",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102590",
           "author": "MJJMJJ",
           "description": "MJJMJJ: \n购买地址\n\n这家最近做活动，最低配 2c/1G/50G 只要月付 1.44 欧\n\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : AMD EPYC 7543 32-Core Processor\n CPU 核心数        : 2\n CPU 频率          : 2799.998 MHz\n CPU 缓存          : L1: 256.00 KB / L2: 1.00 MB / L3: 32.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ✔ Enabled\n 内存              : 110.02 MiB / 3.85 GiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 1.56 GiB / 88.42 GiB\n 启动盘路径        : /dev/sda1\n 系统在线时间      : 0 days, 0 hour 3 min\n 负载   …",
@@ -395,7 +415,7 @@
           "description": "10099: 之所以用域名邮箱是被逼的，国内很多平台注册账号要手机号又要邮箱，时间一长忘记密码，或修改一些重要资料还必须验证邮箱。而邮箱长时间不登录又可能会回收，像新浪申诉非常麻烦，简直无语。为避免回收买过 88 邮箱，但 1 个手机号只能注册 1 个，也是够了。\n目前在用飞书以及阿里企业邮箱，相比飞书、腾讯等阿里可以说是比较纯粹的邮箱了。管理员可以分配邮箱账号，密码可设置不需要二次修改，手机端、电脑端、网页端都有，可以多账号同时登录收件。功能都满足，但免费 5 年，到期不确定是否收费，客服说公告为准，怕后面邮件多了不好迁移。\n需求：\n1 、账号 20 个左右。\n2 、最好有 iOS 版 app 支持多账号登录。或者支持别名、公共邮箱，能实现多账号同时收件即可。\n3 、不想用第三方客户端收件，延迟不固定，体验不好。\n4 、免费或可买断，容量无要求。\n已经使用过很多了，比如\n1 、Outlook 拼车方案不行了。\n2 、icloud+：只能 5 个号，无法满足。\n3 、Gmail 、Yandex 等已经收费或免费版限制账户数等也不行。\n3 、腾讯：多年前是 1 个邮箱必须绑定 1 个 QQ ，现在又要绑定什么企业微信的麻烦，不考虑。\n4 、网易：几乎 3 天一次网易推广，还无法拉黑拒收，也不考虑\n5 、飞书：虽然很多用不到的功能，但免费版支持多域名、别名、公共邮箱等是功能最全的，但未读邮件，app 上没有角标提醒。\n其实体验下来说，飞书功能最强大，阿里比较简洁。",
           "link": "https://www.v2ex.com/t/1102585",
           "publishedOn": "2025-01-04T17:08:59.000Z",
-          "wordCount": 471,
+          "wordCount": 473,
           "title": "求推荐个域名邮箱，以及我用过的域名邮箱体验",
           "imageUrl": null
         },
@@ -425,7 +445,7 @@
           "description": "young1: 唉，毕业一年半了，换了两家公司，但是工资还是没有破万，Java 真的没前途了吗。base 在武汉\n各位大佬，指点迷津，继续死磕 Java 还是换行业呢",
           "link": "https://www.v2ex.com/t/1102581",
           "publishedOn": "2025-01-04T16:21:23.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "Java 工资",
           "imageUrl": null
         },
@@ -435,7 +455,7 @@
           "description": "nyxsonsleep: \nDDR4 内存。单条内存买了两条，但是都不兼容。在另一台电脑上没问题。\n很好奇几点：\n这种内存不兼容是不兼容产线、批次还是颗粒类型？\n很多人说内存条没什么技术含量，那电脑不能识别内存的原因是什么呢？\n不识别内存是特意设计的吗？不识别的难度大还是识别的难度大？\n2024 年末了还有 DDR4 内存不识别，DDR5 或者以后会解决这些问题吗？",
           "link": "https://www.v2ex.com/t/1102580",
           "publishedOn": "2025-01-04T16:14:20.000Z",
-          "wordCount": 525,
+          "wordCount": 533,
           "title": "买的内存条只能兼容一台电脑，留还是退了？",
           "imageUrl": null
         },
@@ -447,16 +467,6 @@
           "publishedOn": "2025-01-04T15:51:17.000Z",
           "wordCount": 380,
           "title": "AP 面板无线测速跑不满网速，正常吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102578",
-          "author": "350041264812",
-          "description": "350041264812:",
-          "link": "https://www.v2ex.com/t/1102578",
-          "publishedOn": "2025-01-04T15:46:53.000Z",
-          "wordCount": 115,
-          "title": "你们团队没有中国人，那活到底谁来干呀？",
           "imageUrl": null
         },
         {
@@ -475,7 +485,7 @@
           "description": "Danswerme: \n记得刚开始学前端的时候，在电报上经常看一个叫 现代前端魔法部 的群，里面的大佬讨论的东西我当时不怎么看得懂。最近去翻这个群的时候发现这个群消失了，所以现在电报上还有什么前端交流群嘛？",
           "link": "https://www.v2ex.com/t/1102575",
           "publishedOn": "2025-01-04T15:39:56.000Z",
-          "wordCount": 400,
+          "wordCount": 402,
           "title": "电报上有啥前端交流群嘛？",
           "imageUrl": null
         },
@@ -625,7 +635,7 @@
           "description": "tanjianwei: 为了更好提升照片管理的体验，这次做了重大更新，新增了专属的相册快速整理模式，还有照片日历功能，还引入了 AI 自动整理相册照片主题功能，可以更加轻松整理和回忆照片。\n\n✅ 增加了照片日历功能、照片日记功能，用户没有时间写日记也没有关系，每天拍一张照片，就是日记。\n✅ 用户整理照片的最大痛点在于需要花费大量时间手动分类、打标签。所以我们打造了自动分类功能，并且预设了 300+的多样化主题名称，通过这些主题，结合 clip 模型的语义识别能力，将照片归类到不同的主题中。\n✅ 重构了整个 app 底层系统，极大提升整理体验，用户在删除、分类、浏览照片过程中，非常流畅，自我评价是感觉比 slidebox 用得更顺手。\n------- APP 下载地址 -------\n轻翻相册 APP 下载地址：\nhttps://apps.apple.com/cn/app/id6449437172\n\n------ 抽奖方式说明 --------\n1 、在这里留下评论，随机抽取 8 位回复的用户，前 3 送 永久会员，后 5 个年度会员\n2 、评论截止时间：1 月 7 日晚 23 点\n3 、抽奖方式：通过 js 脚本生成楼层范围内的随机数",
           "link": "https://www.v2ex.com/t/1102554",
           "publishedOn": "2025-01-04T12:49:18.000Z",
-          "wordCount": 727,
+          "wordCount": 736,
           "title": "[🎁抽奖 3 永久 5 年度] 狂肝一月重构轻翻相册，照片整理新体验， 25 年又有额度了",
           "imageUrl": null
         },
@@ -687,26 +697,6 @@
           "publishedOn": "2025-01-04T12:05:40.000Z",
           "wordCount": 378,
           "title": "现阶段，语言大模型的输入输出对人类程序员来说是黑箱吗，有多少机制是已经明确了的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102543",
-          "author": "Rrrrrr",
-          "description": "Rrrrrr: 卡是没有绑，但是想知道正常多少才收费？",
-          "link": "https://www.v2ex.com/t/1102543",
-          "publishedOn": "2025-01-04T11:51:27.000Z",
-          "wordCount": 404,
-          "title": "新手提问 Gemini 会不会用超",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102542",
-          "author": "zhng920823",
-          "description": "zhng920823: \n出埃及记 第 5 章\n6 就在那天，法老吩咐众民的督工和首领说：7“你们不要像往日一样再把草给人民做砖，叫他们自己去捡草。8 他们往日做砖的数量，你们还是向他们要，一点也不可减少，因为他们是懒惰的，所以他们才呼喊说：‘让我们去献祭给我们的　神。’ 9 你们要把更重的工作加在这些人的身上，好使他们专心作工，不听谎言。”\n果然阳光底下没新鲜事，也揭示了网上买不到的圣经的原因。",
-          "link": "https://www.v2ex.com/t/1102542",
-          "publishedOn": "2025-01-04T11:42:44.000Z",
-          "wordCount": 597,
-          "title": "读《圣经》出埃及记 这段惊呆了，这是约 3500 年前的事",
           "imageUrl": null
         }
       ]

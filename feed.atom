@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-04T23:14:20.912Z</id>
+    <id>urn:2025-01-04T23:36:06.602Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-04T23:14:20.912Z</updated>
+    <updated>2025-01-04T23:36:06.602Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[工业品过剩的时代，人类将如何生存]]></title>
+        <id>https://www.v2ex.com/t/1102593</id>
+        <link href="https://www.v2ex.com/t/1102593"/>
+        <updated>2025-01-04T19:55:09.000Z</updated>
+        <summary type="html"><![CDATA[redmoonisnil: 随着更强大的生产机器、人工智能，机器的生产力越来越强大，这世界将不需要太多的人类劳动力，财富也会流入少数的人类手里，那么其他人类将何去何从？想象一下，第一第二产业只留下指挥机器干活和维修机器的人类，那么其他人类只能涌向第三产业服务业，这将会直接导致第三产业的各行各业竞争加剧，从事第三产业的人类总体收入下降，也会反过来影响第一第二产业。那怎么办呢，我觉得，只有那些掌握少数财富的人类，加大第三产业的投资和研发，人类生态才能保持稳定。]]></summary>
+        <author>
+            <name>redmoonisnil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XXL-RPC v1.8.1 | RPC 服务框架]]></title>
+        <id>https://www.v2ex.com/t/1102592</id>
+        <link href="https://www.v2ex.com/t/1102592"/>
+        <updated>2025-01-04T19:03:28.000Z</updated>
+        <summary type="html"><![CDATA[xuxueli: 
+Release Notes
+1 、 [安全] 序列化安全性增强，默认开启 package 安全空间机制；
+2 、 [扩展] 序列化扩展性增强，支持自定义序列化 package 白名单；
+3 、 [优化] 序列化类型主动检测，提升问题定位效率；
+4 、 [能力] 服务注册发现实效性提升，优化 long-polling 逻辑；
+5 、 [扩展] 模块 xxl-rpc-netty-shade 独立拆分，与 Core 模块解耦；
+6 、 [优化] 通讯组件选择 HttpServer 时，HttpObjectAggregator 限制调大至 20M ，支持大消息传输；
+7 、 [升级] 多个项目依赖升级至较新稳定版本，涉及 xxl-rpc-netty-shade 、netty 、slf4j 等；
+XXL- RPC 快速接入示例
+代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-rpc/tree/master/xxl-rpc-samples
+1 、服务注册中心搭建：一行命令启动注册中心，一站式提供服务动态注册发现能力。
+docker pull xuxueli/xxl-rpc-admin
+
+docker run -p 8080:8080 -v /tmp:/data/applogs --name xxl-rpc-admin  -d xuxueli/xxl-rpc-admin
+
+
+2 、XXL-PRC 接入配置：与 Spring 无缝集成，也支持无框架接入。
+XxlRpcSpringFactory factory = new XxlRpcSpringFactory();
+factory.setBaseConfig(new BaseConfig(env, appname));
+factory.setRegiste…]]></summary>
+        <author>
+            <name>xuxueli</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[荷兰月付 1.44 欧， 2c/1G/50G， 10G 口无限流量机器]]></title>
         <id>https://www.v2ex.com/t/1102590</id>
@@ -181,16 +221,6 @@ https://pic1.imgdb.cn/item/6779584ad0e0a243d4ef0619.png
 LAN 口有线测速可以跑满 500M 宽带的网速，通过无线连接 AP 的时候，只能跑到 330Mbps 左右，目前 AP 信道设置的是自动。]]></summary>
         <author>
             <name>zzzain46</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你们团队没有中国人，那活到底谁来干呀？]]></title>
-        <id>https://www.v2ex.com/t/1102578</id>
-        <link href="https://www.v2ex.com/t/1102578"/>
-        <updated>2025-01-04T15:46:53.000Z</updated>
-        <summary type="html"><![CDATA[350041264812:]]></summary>
-        <author>
-            <name>350041264812</name>
         </author>
     </entry>
     <entry>
@@ -595,29 +625,6 @@ LRY4MPAT6L93]]></summary>
 我想知道人类程序员对 LLM 的机制明确到什么地步了，还说已经完全能够控制了？]]></summary>
         <author>
             <name>yuzo555</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新手提问 Gemini 会不会用超]]></title>
-        <id>https://www.v2ex.com/t/1102543</id>
-        <link href="https://www.v2ex.com/t/1102543"/>
-        <updated>2025-01-04T11:51:27.000Z</updated>
-        <summary type="html"><![CDATA[Rrrrrr: 卡是没有绑，但是想知道正常多少才收费？]]></summary>
-        <author>
-            <name>Rrrrrr</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[读《圣经》出埃及记 这段惊呆了，这是约 3500 年前的事]]></title>
-        <id>https://www.v2ex.com/t/1102542</id>
-        <link href="https://www.v2ex.com/t/1102542"/>
-        <updated>2025-01-04T11:42:44.000Z</updated>
-        <summary type="html"><![CDATA[zhng920823: 
-出埃及记 第 5 章
-6 就在那天，法老吩咐众民的督工和首领说：7“你们不要像往日一样再把草给人民做砖，叫他们自己去捡草。8 他们往日做砖的数量，你们还是向他们要，一点也不可减少，因为他们是懒惰的，所以他们才呼喊说：‘让我们去献祭给我们的　神。’ 9 你们要把更重的工作加在这些人的身上，好使他们专心作工，不听谎言。”
-果然阳光底下没新鲜事，也揭示了网上买不到的圣经的原因。]]></summary>
-        <author>
-            <name>zhng920823</name>
         </author>
     </entry>
     <entry>
