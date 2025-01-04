@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -344,7 +338,7 @@
           "description": "Fdyo: \n通过 OneDrive 云盘迁移功能可一键导入存储在 Google Drive 、Google Photos 以及 Dropbox 上的所有文件和照片。 但是还不支持 iCloud 。\n原文链接：OneDrive 已支持云盘迁移功能，支持 Google Photos 、Dropbox 等",
           "link": "https://www.v2ex.com/t/1102430",
           "publishedOn": "2025-01-03T19:29:16.000Z",
-          "wordCount": 383,
+          "wordCount": 391,
           "title": "OneDrive 云盘迁移功能发布了，支持 Google Drive、Google Photos 和 Dropbox",
           "imageUrl": null
         },
@@ -354,7 +348,7 @@
           "description": "Preposterous: 如题，btc 地址怎么得到？\n想要把 btc 提出来，写纸上，放优盘？",
           "link": "https://www.v2ex.com/t/1102429",
           "publishedOn": "2025-01-03T18:56:32.000Z",
-          "wordCount": 373,
+          "wordCount": 384,
           "title": "网站上提币问题",
           "imageUrl": null
         },
@@ -394,7 +388,7 @@
           "description": "laobaiguolai: \n大佬们，想搭建一个企业邮局，请问有开源好用的吗？",
           "link": "https://www.v2ex.com/t/1102425",
           "publishedOn": "2025-01-03T16:51:19.000Z",
-          "wordCount": 369,
+          "wordCount": 386,
           "title": "自建企业邮局的最佳解决方案是什么",
           "imageUrl": null
         },
@@ -404,7 +398,7 @@
           "description": "Raynard: \n纯家用，不需要外网访问，\n提出这个问题的原因是我有豚鼠的习惯，各种影视作品都想收集全，缺了少了会很难受。\n目前用的是黑裙，100tb 已经存满了，为了下稀缺资源，删了好多普通资源，实在是心痛，所以生此想法。\n期望的要求：维护简单，使用方便，可靠性高。\n优先级排序（重要在前）：价格、易用、可靠、耗电、噪音。\n希望老哥们分享一下经验，感谢！能有详细设备型号参考最好了！",
           "link": "https://www.v2ex.com/t/1102424",
           "publishedOn": "2025-01-03T16:43:48.000Z",
-          "wordCount": 516,
+          "wordCount": 518,
           "title": "如何搭建 PB 级影音存储服务器？",
           "imageUrl": null
         },
@@ -434,7 +428,7 @@
           "description": "Ashkin: \nnPlayer 在高版本的 Android 里面无法读取文件，VLC 总是在托进度条的时候卡顿，有没有更好的选择？",
           "link": "https://www.v2ex.com/t/1102420",
           "publishedOn": "2025-01-03T15:47:44.000Z",
-          "wordCount": 449,
+          "wordCount": 466,
           "title": "Android 现阶段最好的本地视频播放器是什么？",
           "imageUrl": null
         },
@@ -454,7 +448,7 @@
           "description": "Winner4good: 有什么手段可以突破单次对话 200k token 的限制吗；公司接的 api 是 claude sonnet 3.5\n使用场景:经营数据分析，csv 格式，80%的场景都能满足；但是部分极端情况，数据会有几万行，然后有十几列，就超了 token 极限；\n尝试过拆分 part1 、2 ，但是还是无法突破，直接报错了系统\n或者换个思路，有无可以节省 token 、但是同样可以完成数据分析需求（要读完整个 csv ）的手段",
           "link": "https://www.v2ex.com/t/1102417",
           "publishedOn": "2025-01-03T15:32:50.000Z",
-          "wordCount": 1307,
+          "wordCount": 1314,
           "title": "[gpt]有什么手段可以突破单次对话 200k token 的限制吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -464,7 +458,7 @@
           "description": "HeyBoy2077: 我刚办了联通 2000 兆（大傻逼）入网给了华为 F30 （子猫 2.5G ） 我直接通过子猫 2.5G 下联 UDM-SE 2.5G 结果 UDM- SE 无法正常联网。 联通还告诉我千万不要走桥接，否则必降速！",
           "link": "https://www.v2ex.com/t/1102416",
           "publishedOn": "2025-01-03T15:29:38.000Z",
-          "wordCount": 433,
+          "wordCount": 444,
           "title": "联通 FTTR 不能 DHCP 下挂 Wi-Fi？",
           "imageUrl": null
         },
@@ -514,7 +508,7 @@
           "description": "weishao666: \n家庭共享记账，像鲨鱼记账那种，能分类的。然后两三个人共享，大家都可以编辑就行",
           "link": "https://www.v2ex.com/t/1102409",
           "publishedOn": "2025-01-03T14:35:42.000Z",
-          "wordCount": 386,
+          "wordCount": 391,
           "title": "iPhone 上共享记账软件有推荐么？",
           "imageUrl": null
         },
@@ -544,7 +538,7 @@
           "description": "19x0: 准备换回原生终端了～\nhttps://iterm2.com/downloads/stable/iTerm2-3_5_11.changelog\nYou may be affected if you used the SSH\nintegration feature in any of the following\nversions:\n* 3.5.6\n* 3.5.7\n* 3.5.8\n* 3.5.9\n* 3.5.10\n* Any beta versions of 3.5.6 and later.\nWhat is the issue?\n------------------\nA bug in the SSH integration feature caused input\nand output to be logged to a file on the remote\nhost. This file, /tmp/framer.txt, may be readable\nby other users on the remote host.",
           "link": "https://www.v2ex.com/t/1102404",
           "publishedOn": "2025-01-03T14:14:01.000Z",
-          "wordCount": 488,
+          "wordCount": 515,
           "title": "iTerm2 用户请升级",
           "imageUrl": null
         },
@@ -564,7 +558,7 @@
           "description": "yousaisama: 如题，自从 Apple Watch Series 7 之后就没再换过智能手表，但是经过长期的裸奔使用，它已经布满划痕，令人不忍直视了。\n趁着新年，我想换一块新的手表，目前看中了 Apple Watch Ultra 2024 ，既然苹果宣称其坚固耐用，我想问一下用过它及上代产品的 v 友们，在没有大量极限使用场景的情况下，Apple Watch Ultra 是否能在三到五年之后依然保持比较良好的状态呢？",
           "link": "https://www.v2ex.com/t/1102401",
           "publishedOn": "2025-01-03T13:49:26.000Z",
-          "wordCount": 453,
+          "wordCount": 462,
           "title": "Apple Watch Ultra 相比无印版本有多耐用？",
           "imageUrl": null
         },
@@ -584,7 +578,7 @@
           "description": "Livid: \n\n机器本体是 Precision T3500 ，然后从二手店淘到了 Quadro 4000 和一个 PS/2 接口的带小红点的 IBM M13 键盘。\n很多小时候记忆中的游戏，能在 2024/2025 年的时候看到满血运行的状态，还是满开心的。",
           "link": "https://www.v2ex.com/t/1102396",
           "publishedOn": "2025-01-03T13:13:33.000Z",
-          "wordCount": 532,
+          "wordCount": 564,
           "title": "搞了一台专门跑 Windows XP 的电脑",
           "imageUrl": null
         },
@@ -604,7 +598,7 @@
           "description": "iseki: 奇怪之处似乎在于，这些人似乎觉得，自己在有机会接受了多年教育后，就理应得到显著高于他人的收入。🤔🤔🤔",
           "link": "https://www.v2ex.com/t/1102393",
           "publishedOn": "2025-01-03T12:59:16.000Z",
-          "wordCount": 531,
+          "wordCount": 587,
           "title": "为何见许多人抱怨上了多年学，最后只能去做个收入不高的工作，而不是去抱怨，为何存在这样收入低的工作呢？",
           "imageUrl": null
         },
@@ -614,7 +608,7 @@
           "description": "JerryLee13: 移动的高频骚扰电话拦截业务，会消耗移动流量，这到底是个怎么样的逻辑呢？\n我是怎么发现这个情况的呢？\n前提：主卡是联通卡，副卡是移动卡，蜂窝数据是主卡，事发时一直都是连接 WIFI 。移动卡是从化 0 月租的卡，套餐内是没有流量和通话时长的（套餐外流量按照 0.29 元/MB 收费，不足 30 元按实收取，每达 30 元即自动赠送 921MB 国内通用流量）\n经过：今天下午收到移动短信说，成功拦截了一通境外电话。隔一分钟后，收到流量超额扣费的信息。疑惑？遂电话客服咨询，确认是高频骚扰电话拦截，使用了流量。再问也没问出个所以然来。\n结果：要求退费，取消高频骚扰电话拦截业务，关闭上网服务。",
           "link": "https://www.v2ex.com/t/1102392",
           "publishedOn": "2025-01-03T12:54:21.000Z",
-          "wordCount": 614,
+          "wordCount": 621,
           "title": "才知道，移动的高频骚扰电话拦截业务，会消耗移动流量。",
           "imageUrl": null
         },
@@ -634,7 +628,7 @@
           "description": "quzard:",
           "link": "https://www.v2ex.com/t/1102387",
           "publishedOn": "2025-01-03T12:21:44.000Z",
-          "wordCount": 442,
+          "wordCount": 449,
           "title": "ios 的伟途亦可思是不是自带广告了",
           "imageUrl": null
         },
@@ -654,7 +648,7 @@
           "description": "ooops: 还没概念，刚开始看，京东和淘宝都是 6000 左右，但是拼多多百亿补贴的商家（这款不是补贴）只要 4500 还带支架。 比参与补贴的 800d+后置+支架还便宜。\n全新+正品发票+全国联保，有点心动，有啥坑不？",
           "link": "https://www.v2ex.com/t/1102385",
           "publishedOn": "2025-01-03T12:00:52.000Z",
-          "wordCount": 380,
+          "wordCount": 387,
           "title": "拼多多 三星 Q930D 套装 4500 靠谱不",
           "imageUrl": null
         },
@@ -664,7 +658,7 @@
           "description": "bzkmsjy: \n麻烦大佬们帮帮忙，困扰了我好久的问题，设备是 N1 旁路由，只要开启了 OpenClash ，手机上一些网站就会跳出证书不受信任的提示（电脑没碰到过），下面这个就是用 Via 浏览器打开 423down 的提示：\n与 cdn.staticfile.org 的连接不安全：\n证书不受信任\n是否继续？\n颁发对象\n公用名 (CN)\niStoreOS\n组织 (O)\nOpenWrt531f84ed\n组织单位 (OU)\n颁发者\n公用名 (CN)\niStoreOS\n组织 (O)\nOpenWrt531f84ed \n有效期\n颁发日期\n2024 年 4 月 28 日 11:46\n截止日期\n2026 年 4 月 28 日 11:46 \nSHA-256 指纹\n证书\n0211C5FC648DDDD8F3C1173C65F13CE0C800D64D426EBF46445EB654607EF25B\n公钥\nF1BCBEEA7267895A4233FEAE6D9C535A0CE956C49126741422CF4CD95136406F \n奇怪的点还有，用手机版 Chrome 打开同样的网站却不会弹出提示，然后软路由关闭 Clash ，Via 浏览器也不会弹了。\n还有一个频繁弹窗的是京东 APP ，提示如下：\n当前网站证书不可信且证书链长度为 1 ，可能是服务器没有配置完整证书链，是否信任并继续访问？\n证书内容和上面那个一样，是 iStoreOS 的。\nOpenClash 从最后一个非 META 的 014 到最新的 064 版都碰到这个问题。",
           "link": "https://www.v2ex.com/t/1102384",
           "publishedOn": "2025-01-03T11:49:34.000Z",
-          "wordCount": 542,
+          "wordCount": 567,
           "title": "启动 OpenClash 后一些网站和 APP 跳证书不受信任是什么原因？",
           "imageUrl": null
         },
@@ -674,7 +668,7 @@
           "description": "AlohaW: 求推荐，稳健一点的，纳指或者标普 500 未来一个月咋样？",
           "link": "https://www.v2ex.com/t/1102383",
           "publishedOn": "2025-01-03T11:47:56.000Z",
-          "wordCount": 438,
+          "wordCount": 447,
           "title": "20w 现金免费用一个月，买什么好",
           "imageUrl": null
         },
