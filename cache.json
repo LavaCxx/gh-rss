@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -173,33 +167,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -365,7 +332,7 @@
           "description": "yeohreet: 如果，感觉一直找不到很流畅的办法，各位老哥都是什么姿势？",
           "link": "https://www.v2ex.com/t/1102549",
           "publishedOn": "2025-01-04T12:23:27.000Z",
-          "wordCount": 464,
+          "wordCount": 468,
           "title": "各位 V2er，已经 2025 年了，在 iPad 上查看外文的 PDF，快速查询英文单词翻译的姿势是什么？",
           "imageUrl": null
         },
@@ -375,7 +342,7 @@
           "description": "zdw1984: DS Cloud 又有兑换码了，这里送一批\n不知道 DS Cloud 的小伙伴可以看这里\nhttps://www.v2ex.com/t/1087273#reply50\n看看领取情况，大家有需要的话可以再加送一批~~\n兑换码：\n3NLMAYLNPNWH\nAK6XLYT7A6XP\nL3TEWRNEH7T3\nF33PP47YRWH7\nAA7YAHJA9PL6\nRLTEKF36EWHH\n9W7RYNR3RTR4\n6XYR9LJRNXP7\nWL3PM63EL49T\nMLTAWKHEW44X\nFNFE6KFT7A6A\n77KYNFLE6Y7N\nNAXNJFYW64AR\nLAEPYMY3NYXA\nLRY4MPAT6L93",
           "link": "https://www.v2ex.com/t/1102548",
           "publishedOn": "2025-01-04T12:11:12.000Z",
-          "wordCount": 413,
+          "wordCount": 418,
           "title": "[送码]大晚上没事儿干又来搞事情了 -- DS Cloud 送码",
           "imageUrl": null
         },
@@ -395,7 +362,7 @@
           "description": "Rrrrrr: 卡是没有绑，但是想知道正常多少才收费？",
           "link": "https://www.v2ex.com/t/1102543",
           "publishedOn": "2025-01-04T11:51:27.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "新手提问 Gemini 会不会用超",
           "imageUrl": null
         },
@@ -415,7 +382,7 @@
           "description": "xuangoer666: MacBook Air M2 16+256 加政府补贴已经到 5520 了。\n手持 Windows 性能本，不堪忍受 Windows 糟糕的续航和重量，准备买个 MacBook 上网办公出门用。\nM2 芯片上网办公还能用几年？",
           "link": "https://www.v2ex.com/t/1102540",
           "publishedOn": "2025-01-04T11:39:36.000Z",
-          "wordCount": 534,
+          "wordCount": 536,
           "title": "M2 尚能饭否",
           "imageUrl": null
         },
@@ -525,7 +492,7 @@
           "description": "W4J1e: \n以前一直用电信，后来换了移动，实际体验下来没发现太大的差异，夜间上网速率多少是要受到一些影响，并且去年中旬移动 DNS 的问题导致我排查了好久。但绝大多数时候还是很稳定的。\n下旬的时候又换了电信，才发现以前移动间歇性 git push 是可以成功了，有时候需要特殊手段，而电信一直需要特殊手段； xx 给我发了一个小网站，电信打不开，切移动数据可以访问；我的域名前几天被饭渣误伤，解除后移动的响应是最快的，电信的解除速度总是要慢半拍。\n还有用移动时，家里的 nas 和路由器通过域名解析的 ipv6 可以不带端口自动跳转访问，但是电信就不得不带端口，还不得不把路由器的端口改成非常用的才行。\n除了稳定，基本可以保证跑满带宽上限，电信宽带较移动还有什么优势呢？",
           "link": "https://www.v2ex.com/t/1102519",
           "publishedOn": "2025-01-04T09:16:01.000Z",
-          "wordCount": 485,
+          "wordCount": 492,
           "title": "都说移动墙中墙，可我觉得电信阻断的更多",
           "imageUrl": null
         },
@@ -575,7 +542,7 @@
           "description": "PatrickLe: 刚准备买个 iPad 送父母看到 TB 百亿补贴 iPad9 竟然只要 1700 ！！！ \n自己用的老款 pro 已经用了几年，没想到现在 iPad 竟然这么实惠了\n送父母是 iPad9 呢？还是加点钱换 mini 呢？",
           "link": "https://www.v2ex.com/t/1102512",
           "publishedOn": "2025-01-04T08:26:28.000Z",
-          "wordCount": 428,
+          "wordCount": 433,
           "title": "ipad9 适合送父母吗？",
           "imageUrl": null
         },
