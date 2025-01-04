@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -365,7 +359,7 @@
           "description": "yeohreet: 如果，感觉一直找不到很流畅的办法，各位老哥都是什么姿势？",
           "link": "https://www.v2ex.com/t/1102549",
           "publishedOn": "2025-01-04T12:23:27.000Z",
-          "wordCount": 452,
+          "wordCount": 460,
           "title": "各位 V2er，已经 2025 年了，在 iPad 上查看外文的 PDF，快速查询英文单词翻译的姿势是什么？",
           "imageUrl": null
         },
@@ -395,7 +389,7 @@
           "description": "Rrrrrr: 卡是没有绑，但是想知道正常多少才收费？",
           "link": "https://www.v2ex.com/t/1102543",
           "publishedOn": "2025-01-04T11:51:27.000Z",
-          "wordCount": 374,
+          "wordCount": 402,
           "title": "新手提问 Gemini 会不会用超",
           "imageUrl": null
         },
@@ -415,7 +409,7 @@
           "description": "xuangoer666: MacBook Air M2 16+256 加政府补贴已经到 5520 了。\n手持 Windows 性能本，不堪忍受 Windows 糟糕的续航和重量，准备买个 MacBook 上网办公出门用。\nM2 芯片上网办公还能用几年？",
           "link": "https://www.v2ex.com/t/1102540",
           "publishedOn": "2025-01-04T11:39:36.000Z",
-          "wordCount": 523,
+          "wordCount": 528,
           "title": "M2 尚能饭否",
           "imageUrl": null
         },
@@ -465,7 +459,7 @@
           "description": "imba97: \n今天发生一个离谱的问题\n我是个前端开发，有一个列表接口，本来有数据，后面突然列表没了，前端逻辑没动过\n我看了看接口，发现接口正常，里面列表数据都在，在控制台打印数据也都正常\n最后打印列表字段 rows 发现是 undefined，这才发现列表数据的 key 变成了 data\n争论开始了\n后端反馈是有两种数据结构，一种是有分页一种是无分页\n有分页的接口返回 rows，无分页的接口返回 data\n后面甚至提出前端在响应拦截器判断一下，有 rows 的话拿 rows，没有的话拿 data\n我觉得很离谱，在我的认知中，我认为后端返回的数据要保持一致性\n类似这样\ninterface ResponseData {\n    code: number\n    data: Array | Object // 这里就大概表示一下可以是列表数组可以是对象\n    total?: number // 需要的话返回\n    message: string\n}\n\n争论半天后端大概意思是：“一般都是这样的，分页和其他查询结果有差异”、“没有必要改 不然看不出来 分页和部分也的区别了”、“你现在没数据了你能第一时间知道是接口改成不分页的了”、“这个框架都几十年了一直都是这样” ...\n最后虽然也改成统一的了\n但我我对这套说辞是：？？？\n想请教一下大家，你们对接的数据结构也是不统一的吗？哪种方式更好呢？",
           "link": "https://www.v2ex.com/t/1102528",
           "publishedOn": "2025-01-04T09:51:11.000Z",
-          "wordCount": 915,
+          "wordCount": 921,
           "title": "关于今天给前端返回数据的结构的争论",
           "imageUrl": null
         },
@@ -505,7 +499,7 @@
           "description": "nicocho: 之前 hahasim 能收到\n然后有一天突然应用数据被置空，没法登录，\n卡也早没了，找不回密码\n重新买了张，发现死活收不到验证码，\n请问下这是什么个情况？懂得大佬给讲下呢",
           "link": "https://www.v2ex.com/t/1102523",
           "publishedOn": "2025-01-04T09:34:09.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "现在港卡收不到 telegram 验证码了么？",
           "imageUrl": null
         },
@@ -535,7 +529,7 @@
           "description": "lifeOsDeveloper:",
           "link": "https://www.v2ex.com/t/1102517",
           "publishedOn": "2025-01-04T09:07:11.000Z",
-          "wordCount": 463,
+          "wordCount": 465,
           "title": "既然每个程序员都有一个 todo，要不大家一起来一个 todo 合集？",
           "imageUrl": null
         },
@@ -545,7 +539,7 @@
           "description": "galileo1214: \n目前在看 coze ，dify 或者 langchain",
           "link": "https://www.v2ex.com/t/1102516",
           "publishedOn": "2025-01-04T09:02:29.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "现阶段，最好的 Agent 框架是什么？",
           "imageUrl": null
         },
@@ -555,7 +549,7 @@
           "description": "sosme: 1：那边的店面租金、人流大概是？\n2：外国人在当地做生意的话会有哪些手续，费用，大概是？\n3：安全性如何？\n4：物价的生活成本的话，如果是自己买菜做饭应该可以忽略这块吧？（因为那边的食物真的完全没食欲，太干净又卫生了:)）\n当然也不一定非要越南，也可以是东南亚的其他国家或者非洲都行！现在还没最终决定。马上要到 35 中年危机了，感觉现在国内真心有点卷不动了~",
           "link": "https://www.v2ex.com/t/1102515",
           "publishedOn": "2025-01-04T09:00:54.000Z",
-          "wordCount": 531,
+          "wordCount": 535,
           "title": "2025 不想在国内卷了，假如去越南开店的话可行吗？",
           "imageUrl": null
         },
