@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -375,7 +369,7 @@
           "description": "W4J1e: \n以前一直用电信，后来换了移动，实际体验下来没发现太大的差异，夜间上网速率多少是要受到一些影响，并且去年中旬移动 DNS 的问题导致我排查了好久。但绝大多数时候还是很稳定的。\n下旬的时候又换了电信，才发现以前移动间歇性 git push 是可以成功了，有时候需要特殊手段，而电信一直需要特殊手段； xx 给我发了一个小网站，电信打不开，切移动数据可以访问；我的域名前几天被饭渣误伤，解除后移动的响应是最快的，电信的解除速度总是要慢半拍。\n还有用移动时，家里的 nas 和路由器通过域名解析的 ipv6 可以不带端口自动跳转访问，但是电信就不得不带端口，还不得不把路由器的端口改成非常用的才行。\n除了稳定，基本可以保证跑满带宽上限，电信宽带较移动还有什么优势呢？",
           "link": "https://www.v2ex.com/t/1102519",
           "publishedOn": "2025-01-04T09:16:01.000Z",
-          "wordCount": 434,
+          "wordCount": 438,
           "title": "都说移动墙中墙，可我觉得电信阻断的更多",
           "imageUrl": null
         },
@@ -415,7 +409,7 @@
           "description": "sosme: 1：那边的店面租金、人流大概是？\n2：外国人在当地做生意的话会有哪些手续，费用，大概是？\n3：安全性如何？\n4：物价的生活成本的话，如果是自己买菜做饭应该可以忽略这块吧？（因为那边的食物真的完全没食欲，太干净又卫生了:)）\n当然也不一定非要越南，也可以是东南亚的其他国家或者非洲都行！现在还没最终决定。马上要到 35 中年危机了，感觉现在国内真心有点卷不动了~",
           "link": "https://www.v2ex.com/t/1102515",
           "publishedOn": "2025-01-04T09:00:54.000Z",
-          "wordCount": 455,
+          "wordCount": 456,
           "title": "2025 不想在国内卷了，假如去越南开店的话可行吗？",
           "imageUrl": null
         },
@@ -445,7 +439,7 @@
           "description": "SuperMild: \n约 100 行 Java 代码，只使用 Java 标准库，完全没有第三方代码。\n开发时也不使用 Maven, Gradle 之类，只使用 javac\n有一个简单的 GUI 窗口。\n代码极致简单，不可能更简单了。\n主要功能\n开源仓库 https://github.com/ahui2016/Wuliu-STN\n下载项目源码后，在终端执行命令 newnote 即可打开窗口，输入文本内容，点击 OK 完成一次记录。\n笔记内容是一个个 txt 文件，每天一个，例如 2025-01-01.txt\n主要用来记录 零散 的信息，没有条理的、混乱的短句等\n两个优点\n极低心智负担，每次操作就是打开一个文本框，输入内容，点击 OK 。没有别的操作了。\n代码量超少，约 100 行，而且全是很简单很直白的代码，阅读和修改都很轻松。\n不使用 Maven/Gradle, 只使用 javac\n全部代码才 11KB, 就算加上 README 之类的文件整个项目不压缩也只有 30KB\n只使用 Java 标准库，完全没有第三方代码，修改代码后只需要使用 javac\n编译即可，相关的命令我也提供了，具体请看项目 README 。\n一部分代码\n下面是主界面 class Main 的全部代码：\npublic class Main implements Runnable {\n    private ScrollArea scrollArea;\n\n    public static void main(String[] args) {\n        MyUtil.checkProjectExists();\n        SwingUtilities.invokeLater(new Main());\n    }\n\n    public void run() {\n        // 主窗口\n  …",
           "link": "https://www.v2ex.com/t/1102511",
           "publishedOn": "2025-01-04T08:22:46.000Z",
-          "wordCount": 552,
+          "wordCount": 559,
           "title": "五柳速记（Wuliu-STN）约 100 行代码的快速笔记程序",
           "imageUrl": null
         },
@@ -465,7 +459,7 @@
           "description": "COW: \n1kg 不到的东西，体积 65cm30cm65cm ，从浙江到辽宁，运费接近一百五十。",
           "link": "https://www.v2ex.com/t/1102508",
           "publishedOn": "2025-01-04T08:08:35.000Z",
-          "wordCount": 510,
+          "wordCount": 512,
           "title": "菜鸟寄快递要这么贵么？",
           "imageUrl": null
         },
@@ -505,7 +499,7 @@
           "description": "jeesk: 1. 先前我问了一下，如果使用 cf 不考虑大陆，数据中心选择哪里好，后面我将我原有的 go 服务使用 worker 重写后， 速度比以前提高太多。\n2. 这个服务我自己做了一个用户注册系统，主要是帮用户申请签名证书，以及商品订阅，以前用户备份的配置信息。js + d1 数据库完全够用。 关键的是还快，没有内存担心的问题。\n3.  涉及到 cloudflare api 相关接口， 以前无论是部署到海外还是国内， 接口都慢的要死， 使用 worker 后， 快得无法想象。\n4. 我以为使用 cloudflare 如果接口超过 cpu 占用 10ms ，接口就会超时， 从我使用的看来，没有这个问题。\n\n5. worker 加上 d1 ，加上 cf 的证书，认证，限流，安全验证， 可以说从 serverless 的思想，重点狙击个人使用 springboot ，golang 写的 web 服务。\n6. 当然也有很多限制， 比如储存文件，文件上传的得使用其他的对象储存。可能没有直接写磁盘方便。国内可能不能正常访问。如果 cf 关闭了这个服务，迁移代码很麻烦。无法使用一些 linux 命令处理一些业务逻辑，这个目前无解。\n\n总得来说如果你有一个简单的服务，如果不想自己处理证书，安全，限流等等一系列的问题， 那么迁移到 worker 目前看，是一条不错的路子。这么香，况且还免费，不是我吹，要是国内能提供这种服务，估计国内阿里云和腾讯云会受到重创。在这种情况下，springboot\n和 go 不再是我的优先考虑了。",
           "link": "https://www.v2ex.com/t/1102503",
           "publishedOn": "2025-01-04T07:57:03.000Z",
-          "wordCount": 1121,
+          "wordCount": 1127,
           "title": "cloudfalre worker 也许是目前 web 服务部署的一种最佳实践。",
           "imageUrl": null
         },
@@ -515,7 +509,7 @@
           "description": "jkfadsljlasdgs: 一加手机充电器，不能给联想笔记本充电。\n想买个酷泰克通用电源，还不支持给一加充电。\n出差背着一堆大头充电器太难了，落下一个没带就废了",
           "link": "https://www.v2ex.com/t/1102502",
           "publishedOn": "2025-01-04T07:56:57.000Z",
-          "wordCount": 455,
+          "wordCount": 457,
           "title": "为什么各家充电器/电源协议不能统一？",
           "imageUrl": null
         },
@@ -545,7 +539,7 @@
           "description": "maclanelf134: \njdk1.8 貌似到 2025 年 12 月停止维护更新了!好像想起来 centos7 在 24 年 6 月也停止更新了,各位推测一下,两个东西的替代品会是什么? 貌似有人推测 java 后续大概率会奔向 jdk17!至于 centos7,我好像没有找到答案...\n另外谁看看我另一个帖子啊,难道我发错专区了吗,我急需机场............\nhttps://www.v2ex.com/t/1102487",
           "link": "https://www.v2ex.com/t/1102499",
           "publishedOn": "2025-01-04T07:37:29.000Z",
-          "wordCount": 387,
+          "wordCount": 399,
           "title": "刚刚去浏览文章注意到一些问题",
           "imageUrl": null
         },
@@ -565,7 +559,7 @@
           "description": "lone6: \n平时会开发一些小脚本，在工作中使用\n想请教一下，打包 exe 的方案有哪些？\n目前在使用 pyinstaller ，但是打包过程比较慢，打包后的 exe 感觉也挺大的\n有没有更好的方案或者优化教程？",
           "link": "https://www.v2ex.com/t/1102497",
           "publishedOn": "2025-01-04T07:23:25.000Z",
-          "wordCount": 573,
+          "wordCount": 594,
           "title": "Python 打包 exe 方案",
           "imageUrl": null
         },
@@ -625,7 +619,7 @@
           "description": "hsiaochi: \n很多知识输出，甚至主机游戏主播无法直播",
           "link": "https://www.v2ex.com/t/1102489",
           "publishedOn": "2025-01-04T06:01:15.000Z",
-          "wordCount": 503,
+          "wordCount": 505,
           "title": "抖音直播伴侣没有 mac 版本？这意味着 100%的 mac 用户无法直播",
           "imageUrl": null
         },
@@ -655,7 +649,7 @@
           "description": "BestVPS: \n搬瓦工 PowerBOX   新出江湖,30 天可退款,ip 被封也能退！\n方案名称：Powerbox\n方案配置：\n硬盘：30 GB SSD\n内存：1536MB\nCPU：1 核 Intel\n流量：1500 GB/月\n带宽：2.5Gbps\n线路：\n电信：双程 CN2GIA\n联通：去 4837/回 CN2GIA\n移动：去程 CMIN2/回 CN2GIA\n搬瓦工所有的套餐，除了香港/日本 GIA 没有，其他套餐基本集齐了\n另外，对于大家关心的线路保障情况，瓦工官方回复线路保证问题，会最大化的保持它，确保大家都能开心的使用这款产品。\n网络解锁情况：ChatGPT 是 DNS 解锁，谷歌 Gemini 原生解锁，迪斯尼看不了，奈飞只能看自制剧和 DC6 机房一样\n\n三网回程情况：三网 CN2GIA 回程，电信 CN2GIA 去程，联通 4837 去程，移动 CMIN2 去程，可以说非常的硬\n\n上海大出口，直连洛杉矶\n\n网络稳定性，才刚刚开机，不过可以合理预测肯定是一条直线，几乎毫无波动 探针地址： https://n.990599.xyz/\n\n融合怪测试，CPU 还是 Intel 的，但是这口子是真大啊！！！\n\n更多评测及媒体解锁可参考（含搬瓦工新加坡 CN2GIA ）： https://990599.xyz/bwg1/\n如果你还犹豫不决，可以测试一下线路\n点我测试你的速度\n\n循环优惠码：BWHCGLUKKB\n优惠后是$41.9 年，续费循环享受\n购买搬瓦工 DC99-powerBOX 含 aff 直达链接，$41.9",
           "link": "https://www.v2ex.com/t/1102483",
           "publishedOn": "2025-01-04T05:37:02.000Z",
-          "wordCount": 695,
+          "wordCount": 730,
           "title": "（VPS）全网首家测评--搬瓦工 power box",
           "imageUrl": null
         },
@@ -665,7 +659,7 @@
           "description": "gniviliving: 一个魔珠游戏，我玩了很多年了，最初是软媒出品的\n部署在 cf\nhttps://mz.ikun.day\n自定义域名可能有缓存，用 https://mozhu-anj.pages.dev 可以访问最新版本\nv1.3 版本更新：\n1 、新增背景音乐和音效，音效自动开启，背景音乐需要点击铃铛开启\n2 、新增游戏进度实时保存在本地\n3 、新增游戏规则说明，点击ℹ️获取帮助\n4 、新增历史最高分，保存 10 条高分记录\nhttps://i.imgur.com/a/v39XMBL",
           "link": "https://www.v2ex.com/t/1102482",
           "publishedOn": "2025-01-04T05:34:14.000Z",
-          "wordCount": 388,
+          "wordCount": 390,
           "title": "分享一个用 vsc+deepseek 开发的小游戏",
           "imageUrl": null
         },
@@ -705,7 +699,7 @@
           "description": "sasukiki: \n3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，直营店会检测出不是官方买的吗？会不会翻车，当时的购买邮件已经找不到了",
           "link": "https://www.v2ex.com/t/1102477",
           "publishedOn": "2025-01-04T05:01:14.000Z",
-          "wordCount": 802,
+          "wordCount": 808,
           "title": "3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，会翻车吗？",
           "imageUrl": null
         },
