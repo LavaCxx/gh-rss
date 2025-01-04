@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -338,7 +344,7 @@
           "description": "Franknow: \n编程以及前后端基础都有，平时要上班所以想找个大哥带着学一下，内容就是从零开始搞一个全栈的商城出来（ react node python 都可以） ，每天或者隔天固定时间会议学习，有没有大佬有时间和精力可以带一带弟弟，按小时或者按次数付费",
           "link": "https://www.v2ex.com/t/1102491",
           "publishedOn": "2025-01-04T06:20:39.000Z",
-          "wordCount": 371,
+          "wordCount": 378,
           "title": "找一个老师教全栈开发 商城",
           "imageUrl": null
         },
@@ -348,7 +354,7 @@
           "description": "goodspeed: \n先放地址：https://onlinestool.com/tools/english-challenge\n这是一个基于\"笨方法\"理念的英语学习网站。所谓\"笨方法\",就是通过系统化的重复练习,将知识转化为肌肉记忆。这个工具采用三步渐进式学习法:\n第一步是抄写练习。用户需要逐句抄写英文短文,通过反复输入来建立基础语感。每完成一遍可以获得一颗星。\n第二步是限时默写。短文会短暂显示后隐藏,用户需要在规定时间内完成默写。这一步训练记忆力和理解力,错误在两句以内可以获得第二颗星。\n第三步是随机填空。系统会随机隐藏句子中 60% 的单词,用户需要根据上下文补全完整的句子。这一步考验实战应用能力,完成后可以获得第三颗星。\n这个工具的特点是:\n使用新概念的内容\n采用渐进式难度设计\n通过游戏化的星级系统提供成就感\n强调重复练习和记忆形成\n在线体验地址: https://onlinestool.com/tools/english-challenge\n这个项目采用了一种看似笨拙但实际非常有效的学习方法。正如一句老话所说:\"笨方法往往是最聪明的方法。\" 通过系统化的重复练习,可以帮助学习者建立深层次的语言记忆和理解。",
           "link": "https://www.v2ex.com/t/1102490",
           "publishedOn": "2025-01-04T06:13:51.000Z",
-          "wordCount": 401,
+          "wordCount": 412,
           "title": "使用新概念的课文做了一个英语练习工具",
           "imageUrl": null
         },
@@ -358,7 +364,7 @@
           "description": "hsiaochi: \n很多知识输出，甚至主机游戏主播无法直播",
           "link": "https://www.v2ex.com/t/1102489",
           "publishedOn": "2025-01-04T06:01:15.000Z",
-          "wordCount": 397,
+          "wordCount": 409,
           "title": "抖音直播伴侣没有 mac 版本？这意味着 100%的 mac 用户无法直播",
           "imageUrl": null
         },
@@ -368,7 +374,7 @@
           "description": "pengjiayou: 好多年好多年没用 Fedora 了，刚装好 Fedora 41 Server 才发现居然整出 2 个 swap 分区。\npengjiayou@fedorahome:~$ lsblk\nNAME                       MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\nzram0                      252:0    0     8G  0 disk [SWAP]\nnvme0n1                    259:0    0 465.8G  0 disk\n├─nvme0n1p1                259:1    0   600M  0 part /boot/efi\n├─nvme0n1p2                259:2    0     1G  0 part /boot\n└─nvme0n1p3                259:3    0 464.2G  0 part\n  ├─fedora_fedorahome-root 253:0    0    50G  0 lvm  /\n  ├─fedora_fedorahome-swap 253:1    0     8G  0 lvm  [SWAP]\n  └─fedora_fedorahome-home 253:2    0 406.2G  0 lvm  /home\n  \n而且好像 Fedora 41 Server 这两个 swap 都在用\npengjiayou@fedorahome:~$ sudo free -h\n               total        used        free      shared  buff/cache   available\nMem:            11Gi       1.2Gi       9.7Gi       5.0Mi       773Mi        10Gi\nSwap:           15Gi\n原来 Fedora 已经用 Swap on ZRAM 好几年了。我现在想删除 lvm 里面的 swap 分区，搜索了下：\n1. 看 swap 在哪个物理分区\npengjiayou@fedorahome:~$ sudo swapon --show\nNAME       TYPE      SIZE USED PRIO\n/dev/dm-1  partition   8G   0B   -2\n/dev/zram0 partition   8G   0B  100\n2. 停用 swap\nsudo swapoff /dev/dm-1\n3. 修改 /etc/fstab\n这几步我倒是会，问题是删除这个 swap 物理分区之后，我如何把 lvm 中的 /home 增加这 8G 原来 swap 所占的空间呢？",
           "link": "https://www.v2ex.com/t/1102485",
           "publishedOn": "2025-01-04T05:51:49.000Z",
-          "wordCount": 507,
+          "wordCount": 513,
           "title": "Fedora 41 两个 swap 分区，怎么办？",
           "imageUrl": null
         },
@@ -378,7 +384,7 @@
           "description": "liqinliqin: https://www.bilibili.com/video/BV165CsYQE8Y/?\n\n实测 openai-realtime-embedded-sdk 在 ESP32-S3 实时对话，延迟在 500ms\nhttps://www.bilibili.com/video/BV1SmCJY9E2p\n\n对比 RTC 豆包\nhttps://www.bilibili.com/video/BV18orpYtEsR/",
           "link": "https://www.v2ex.com/t/1102484",
           "publishedOn": "2025-01-04T05:40:21.000Z",
-          "wordCount": 344,
+          "wordCount": 346,
           "title": "被门夹过的核桃还能补脑吗？听听 ChatGpt 与豆包实时对话",
           "imageUrl": null
         },
@@ -388,7 +394,7 @@
           "description": "BestVPS: \n搬瓦工 PowerBOX   新出江湖,30 天可退款,ip 被封也能退！\n方案名称：Powerbox\n方案配置：\n硬盘：30 GB SSD\n内存：1536MB\nCPU：1 核 Intel\n流量：1500 GB/月\n带宽：2.5Gbps\n线路：\n电信：双程 CN2GIA\n联通：去 4837/回 CN2GIA\n移动：去程 CMIN2/回 CN2GIA\n搬瓦工所有的套餐，除了香港/日本 GIA 没有，其他套餐基本集齐了\n另外，对于大家关心的线路保障情况，瓦工官方回复线路保证问题，会最大化的保持它，确保大家都能开心的使用这款产品。\n网络解锁情况：ChatGPT 是 DNS 解锁，谷歌 Gemini 原生解锁，迪斯尼看不了，奈飞只能看自制剧和 DC6 机房一样\n\n三网回程情况：三网 CN2GIA 回程，电信 CN2GIA 去程，联通 4837 去程，移动 CMIN2 去程，可以说非常的硬\n\n上海大出口，直连洛杉矶\n\n网络稳定性，才刚刚开机，不过可以合理预测肯定是一条直线，几乎毫无波动 探针地址： https://n.990599.xyz/\n\n融合怪测试，CPU 还是 Intel 的，但是这口子是真大啊！！！\n\n更多评测及媒体解锁可参考（含搬瓦工新加坡 CN2GIA ）： https://990599.xyz/bwg1/\n如果你还犹豫不决，可以测试一下线路\n点我测试你的速度\n\n循环优惠码：BWHCGLUKKB\n优惠后是$41.9 年，续费循环享受\n购买搬瓦工 DC99-powerBOX 含 aff 直达链接，$41.9",
           "link": "https://www.v2ex.com/t/1102483",
           "publishedOn": "2025-01-04T05:37:02.000Z",
-          "wordCount": 437,
+          "wordCount": 441,
           "title": "（VPS）全网首家测评--搬瓦工 power box",
           "imageUrl": null
         },
@@ -438,7 +444,7 @@
           "description": "sasukiki: \n3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，直营店会检测出不是官方买的吗？会不会翻车，当时的购买邮件已经找不到了",
           "link": "https://www.v2ex.com/t/1102477",
           "publishedOn": "2025-01-04T05:01:14.000Z",
-          "wordCount": 472,
+          "wordCount": 538,
           "title": "3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，会翻车吗？",
           "imageUrl": null
         },
@@ -458,7 +464,7 @@
           "description": "BestVPS: \n还在测试，稍后发出来",
           "link": "https://www.v2ex.com/t/1102475",
           "publishedOn": "2025-01-04T04:59:07.000Z",
-          "wordCount": 392,
+          "wordCount": 394,
           "title": "全网首家测评--搬瓦工 power box，尽请期待",
           "imageUrl": null
         },
@@ -478,7 +484,7 @@
           "description": "songlan: \n帮忙代购土耳其礼品卡，赚个鸡腿钱，每 50 里拉手续费 3 元\nvx：eDA2NjY3Mg==",
           "link": "https://www.v2ex.com/t/1102472",
           "publishedOn": "2025-01-04T04:46:58.000Z",
-          "wordCount": 436,
+          "wordCount": 461,
           "title": "帮忙代购 土耳其 apple 礼品卡 oyunfor 渠道 带邮件截图",
           "imageUrl": null
         },
@@ -488,7 +494,7 @@
           "description": "wyfig: \n如题，有尝试过的 V 友帮忙回答下，中国大陆地区注册 iOS 开发者账号，只上架海外的 App ，不包括中国大陆地区，是否还需要进行备案操作？",
           "link": "https://www.v2ex.com/t/1102470",
           "publishedOn": "2025-01-04T04:42:20.000Z",
-          "wordCount": 399,
+          "wordCount": 406,
           "title": "iOS 中国大陆地区个人开发者账号，是否可以不进行备案操作上架除了中国大陆地区的 App",
           "imageUrl": null
         },
@@ -498,7 +504,7 @@
           "description": "xinmans: \n如下图所示",
           "link": "https://www.v2ex.com/t/1102469",
           "publishedOn": "2025-01-04T04:38:28.000Z",
-          "wordCount": 420,
+          "wordCount": 422,
           "title": "钉钉机器人通知里面的图片裂开， link 点进去能看到，啥原因？",
           "imageUrl": null
         },
@@ -508,7 +514,7 @@
           "description": "eccentric579: \n光猫 SLAAC 拿不到 ip, pd 拿不到前缀\n报客服，装维说他不会，接下来应该怎么办\n要叫师傅来改一下上一级网关的下发配置？",
           "link": "https://www.v2ex.com/t/1102468",
           "publishedOn": "2025-01-04T04:31:18.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "成都电信某小区 ipv6 不通",
           "imageUrl": null
         },
@@ -528,7 +534,7 @@
           "description": "revival83: 1.如果 chrome 真把这插件下架了，是不是就不能用了？\n2.请问火狐和 edge 浏览器也是沙盒机制么？",
           "link": "https://www.v2ex.com/t/1102466",
           "publishedOn": "2025-01-04T04:18:51.000Z",
-          "wordCount": 504,
+          "wordCount": 547,
           "title": "V2 老哥刚给推荐完 uBlock Origin 这个插件，我看 chrome 就要禁这个插件了么？",
           "imageUrl": null
         },
@@ -568,7 +574,7 @@
           "description": "hello333: \n降智的 GPT 无法实时联网获取新闻，给其发送一张图片，让它解析图中内容。\n再次发送搜索新闻，就解除降智了。",
           "link": "https://www.v2ex.com/t/1102460",
           "publishedOn": "2025-01-04T03:47:32.000Z",
-          "wordCount": 487,
+          "wordCount": 522,
           "title": "教你一招，五秒解除 ChatGPT 降智商😋",
           "imageUrl": null
         },
@@ -578,7 +584,7 @@
           "description": "abcbuzhiming: 现在的工作间离窗很远，白天的日见光照几乎没有办法照到。必须开灯，但是这个位置只有一个吸顶灯，这个灯非常的亮，以至于有一种“光压感”，以至于我不太想开这个灯，最开始买了一个屏幕挂灯，但是一段时间后，发现屏幕挂灯只能照亮桌面这一块，一旦眼睛从桌面这一块移开，周围还是一片黑暗，明暗切换仍然导致眼睛疲劳。\n我希望是房间有一个柔和的环境光源，能把整个房间照亮，但是又不是特别亮，有没有人有布置这类光源的经验？",
           "link": "https://www.v2ex.com/t/1102459",
           "publishedOn": "2025-01-04T03:32:37.000Z",
-          "wordCount": 402,
+          "wordCount": 408,
           "title": "工作房间如何布置光源才比较柔和？",
           "imageUrl": null
         },
@@ -598,7 +604,7 @@
           "description": "autumnhlf01: \n请教个问题，类似温度，湿度硬件对接的时候，数据通过 websocket 获取，这些数据每隔几十秒就会传一组过来，咋处理这些数据？直接存数据库吗，这样数据库压力也太大了，通过 mq 的方式来存储，但是最终还是要插入数据库，还是会造成数据库压力\n我的想法是  把数据直接放到 redis 里面，但是越到后期，数据也会很多，查询也不太好查吧？\n没咋处理过这种场景，一时间没啥头绪，特来问问 v 友，有没有实际处理过类似问题的，求教",
           "link": "https://www.v2ex.com/t/1102456",
           "publishedOn": "2025-01-04T03:08:49.000Z",
-          "wordCount": 627,
+          "wordCount": 672,
           "title": "mysql 数据库频繁插数据的处理方案讨论",
           "imageUrl": null
         },
@@ -618,7 +624,7 @@
           "description": "q474818917: \n不知道去哪里买这药便宜，这药还用不了医保，价格 1 万多，家里人需要这药续命\n求万能的 V2er 帮帮忙",
           "link": "https://www.v2ex.com/t/1102454",
           "publishedOn": "2025-01-04T03:02:13.000Z",
-          "wordCount": 412,
+          "wordCount": 438,
           "title": "有没有对来那度胺了解的 V2er",
           "imageUrl": null
         },
@@ -628,7 +634,7 @@
           "description": "a3000xgyj: \n楼主是 2024 年 1 月头办的 2 年 2000M 的套餐  年付 2990 那个\n现在想改成 500M 的套餐 客服说 还有 1 年时间  现在改的话 还要付违约金  600 块\n兄弟们  看来我只能继续续约 2000M 的套餐？\n我是真受不了这个上传达量降速！\n兄弟们 是不是还要摸一年 合约到期才行？ 是不是无解？",
           "link": "https://www.v2ex.com/t/1102453",
           "publishedOn": "2025-01-04T03:00:23.000Z",
-          "wordCount": 477,
+          "wordCount": 481,
           "title": "兄弟们！上海电信套餐问题！",
           "imageUrl": null
         },
@@ -648,7 +654,7 @@
           "description": "seekafter: \n平时发东西,抖音/小红书/b 站都要发一遍\n相关的图片和文字会有细微的不同, 有时候软件还不在一个手机上面, 需要频繁的整理素材\n想要个在线的或者有客户端的软件来管理素材,要求启动快, 有免费容量或明确的价格体系, 开源的更好\n飞书或腾讯文档之类作为备选, 自建 joplin 等笔记软件作为备备选",
           "link": "https://www.v2ex.com/t/1102449",
           "publishedOn": "2025-01-04T02:40:32.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "有没有这样一款软件, 我想用来放素材/图文",
           "imageUrl": null
         },
@@ -688,7 +694,7 @@
           "description": "glouhao: 我弄的 poe-to-gpt 接口已经在其他地方测试可以正常使用了，但是在这个 nextchat 里始终用不上啊，非常奇怪。\n客户端和网页端都是 Failed to fetch\n网页本地是直接能访问的，chatbox 里使用正常，我想弄 web 端和家人一块用的，所以弄个网页版。",
           "link": "https://www.v2ex.com/t/1102443",
           "publishedOn": "2025-01-04T01:45:47.000Z",
-          "wordCount": 395,
+          "wordCount": 405,
           "title": "nextchat 这个工具好奇怪",
           "imageUrl": null
         }
