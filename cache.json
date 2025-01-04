@@ -171,33 +171,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -241,16 +214,6 @@
           "wordCount": null,
           "title": "科技爱好者周刊（第 329 期）：示意图利器 D2",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.ruanyifeng.com/blog/2024/12/weekly-issue-328.html",
-          "author": null,
-          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n上海南站正在改造，车站的北半部在施工，南半部正常运营，中间用巨大的帘布隔开。\nAI 模型不是一门好生意\n微软的 Microsoft 365 最近涨价了，涨幅最高的地区为41%。\n\n微软解释，涨价原因是多了 AI 助手 Copilot 的成本。中国大陆因为没有 Copilot，所以不涨价。\n无独有偶，OpenAI 也说要涨价，涨幅更夸张。新模型的订阅费可能从现在的每月20美元，涨到每月2000美元。\n\n（最新消息是，昨晚发布的 ChatGPT Pro 已经上涨到每月200美元。）\n这两条新闻证明了一件事：AI 模型太烧钱，即使世界最有钱的公司都承受不起，只能大幅涨价。\n不止微软和 OpenAI，所有经营 AI 模型的公司其实日子都不好过，目前都是亏本卖 AI 服务，争夺市场占有率。\n这种运营压力恐怕将长期存在，因为以下的原因，注定了 AI 模型不是一门好生意。\n（1）AI 模型需要投入大量资金。\nOpenAI 每年的运行经费据报道是70亿美元，Anthropic 今年预计支出27亿美元，Facebook 向 AI 部门最近增加了数十亿美元的投入。\n这么高的投入，要有上亿的付费用户，才可能获利，谈何容易。\n（2）模型成本没有规模经济。\n绝大多数行业，规模越大，单位成本越低。但是，AI 模型正好相反，模型越大，单位成本可能更贵。\n因为随着模型变大，进一步改进可能更加困难，训练新模型所需的计算量也在增加。这就像攀登珠穆朗玛峰，到了8000米以后，每一步都越发艰难。2024年训练一个顶级模型，要比2023年训练顶级模型，计算量更大更贵。\n偏偏 AI 模型的效果与规模有关，规模和计算量越大、模型效果越好。因…",
-          "link": "http://www.ruanyifeng.com/blog/2024/12/weekly-issue-328.html",
-          "publishedOn": "2024-12-06T00:18:33.000Z",
-          "wordCount": null,
-          "title": "科技爱好者周刊（第 328 期）：AI 模型不是一门好生意",
-          "imageUrl": null
         }
       ]
     },
@@ -262,7 +225,7 @@
         {
           "id": "https://t.me/vps_xhq/690",
           "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n[消息等级 Level C2 · 简要]",
+          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
           "link": "https://t.me/vps_xhq/690",
           "publishedOn": "2025-01-04T06:10:42.000Z",
           "wordCount": null,
@@ -344,6 +307,266 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102523",
+          "author": "nicocho",
+          "description": "nicocho: 之前 hahasim 能收到\n然后有一天突然应用数据被置空，没法登录，\n卡也早没了，找不回密码\n重新买了张，发现死活收不到验证码，\n请问下这是什么个情况？懂得大佬给讲下呢",
+          "link": "https://www.v2ex.com/t/1102523",
+          "publishedOn": "2025-01-04T09:34:09.000Z",
+          "wordCount": 377,
+          "title": "现在港卡收不到 telegram 验证码了么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102521",
+          "author": "oceanthe1h",
+          "description": "oceanthe1h: \n背景\n23 届双非本，社招一年半经验。本着主打稳定的考虑，春招去了一家深圳的分布式存储初创（脉脉上无裁员历史），结果去年年底被通知 n + 1 。整个找工作的历程从去年 11 月初开始，今年年初结束。\n面试\n公司\n进度\n\n\n\n\n滴滴\nOffer 已接\n\n\n迅雷\n终面挂\n\n\n度小满\n终面挂\n\n\n百度\n终面挂\n\n\n字节 A 部门\n终面挂\n\n\n腾讯\nGM 面挂（吐血）\n\n\n小鹅通\noc 拒\n\n\nMeta App\noc 拒\n\n\n腾娱\noc 拒\n\n\n字节 B 部门\n二面挂\n\n\n微派网络\n一面挂\n\n\n拼多多\n一面挂\n\n\n小红书\n一面挂\n\n\n深信服\n一面挂\n\n\nvivo 外包\n一面挂\n\n\nTraveloka\nPhone Screen 挂\n\n\n其余不知名小公司\n一面挂\n\n\n感想\nIT 的变化真的很快，两年前的稳定小而美，两年后可能变成裁应届生的血汗工厂。\n总体来说，北上深都投，相比校招那会，我的社招面试机会多了点。\n其中大公司都比较看重匹配度，在楼主面试的大公司中：\n匹配度不强 + 好面试表现/高涨幅 = 终面排序挂\n匹配度强/不强 + 普通面试表现 = 一面/二面挂\n匹配度强 + 好面试表现 = 排序挂 ～ offer\n从上面的统计可以看到，我终面挂了挺多的，我自己归结的两大原因：\n匹配度不强，优先级弱于其它候选人\n玄学，跟大领导眼缘或气场不合\n对于小公司，人家也不缺候选人，如果你没体现出很强的意向度，也可能分分钟被 HR 鸽。\n挂了深圳的腾讯，意味着要启程去北京，跟女朋友异地了，希望我们的关系能经受住挑战🙏🏻",
+          "link": "https://www.v2ex.com/t/1102521",
+          "publishedOn": "2025-01-04T09:27:47.000Z",
+          "wordCount": 505,
+          "title": "23 届被裁员后 一年半社招 面试回顾",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102520",
+          "author": "14aiwsya",
+          "description": "14aiwsya: \n网上看可以申诉，有点慌",
+          "link": "https://www.v2ex.com/t/1102520",
+          "publishedOn": "2025-01-04T09:24:07.000Z",
+          "wordCount": 115,
+          "title": "买了个游戏账号是谷歌邮箱，容易被找回吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102519",
+          "author": "W4J1e",
+          "description": "W4J1e: \n以前一直用电信，后来换了移动，实际体验下来没发现太大的差异，夜间上网速率多少是要受到一些影响，并且去年中旬移动 DNS 的问题导致我排查了好久。但绝大多数时候还是很稳定的。\n下旬的时候又换了电信，才发现以前移动间歇性 git push 是可以成功了，有时候需要特殊手段，而电信一直需要特殊手段； xx 给我发了一个小网站，电信打不开，切移动数据可以访问；我的域名前几天被饭渣误伤，解除后移动的响应是最快的，电信的解除速度总是要慢半拍。\n还有用移动时，家里的 nas 和路由器通过域名解析的 ipv6 可以不带端口自动跳转访问，但是电信就不得不带端口，还不得不把路由器的端口改成非常用的才行。\n除了稳定，基本可以保证跑满带宽上限，电信宽带较移动还有什么优势呢？",
+          "link": "https://www.v2ex.com/t/1102519",
+          "publishedOn": "2025-01-04T09:16:01.000Z",
+          "wordCount": 434,
+          "title": "都说移动墙中墙，可我觉得电信阻断的更多",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102518",
+          "author": "dasauto",
+          "description": "dasauto: 最近想捐赠注册一个 PT 站，但是由于自己是一个小白，不知道要注册哪个站适合自己，自己喜欢看电影和电视剧（希望新的电影和电视剧能够第一时间更新，也希望老的电影和电视剧也能够有速度下载），想找一个适合自己的 PT 站，\n大佬们给给意见，感谢🙏",
+          "link": "https://www.v2ex.com/t/1102518",
+          "publishedOn": "2025-01-04T09:08:30.000Z",
+          "wordCount": 115,
+          "title": "求 PT 站推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102517",
+          "author": "lifeOsDeveloper",
+          "description": "lifeOsDeveloper:",
+          "link": "https://www.v2ex.com/t/1102517",
+          "publishedOn": "2025-01-04T09:07:11.000Z",
+          "wordCount": 448,
+          "title": "既然每个程序员都有一个 todo，要不大家一起来一个 todo 合集？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102516",
+          "author": "galileo1214",
+          "description": "galileo1214: \n目前在看 coze ，dify 或者 langchain",
+          "link": "https://www.v2ex.com/t/1102516",
+          "publishedOn": "2025-01-04T09:02:29.000Z",
+          "wordCount": 405,
+          "title": "现阶段，最好的 Agent 框架是什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102515",
+          "author": "sosme",
+          "description": "sosme: 1：那边的店面租金、人流大概是？\n2：外国人在当地做生意的话会有哪些手续，费用，大概是？\n3：安全性如何？\n4：物价的生活成本的话，如果是自己买菜做饭应该可以忽略这块吧？（因为那边的食物真的完全没食欲，太干净又卫生了:)）\n当然也不一定非要越南，也可以是东南亚的其他国家或者非洲都行！现在还没最终决定。马上要到 35 中年危机了，感觉现在国内真心有点卷不动了~",
+          "link": "https://www.v2ex.com/t/1102515",
+          "publishedOn": "2025-01-04T09:00:54.000Z",
+          "wordCount": 451,
+          "title": "2025 不想在国内卷了，假如去越南开店的话可行吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102513",
+          "author": "skyyan",
+          "description": "skyyan: \n各位帮忙推荐个笔记本，\n5K 左右，会使用 gpu 运算，要求支持 至少 32G 内存，要有 8g 独立显卡",
+          "link": "https://www.v2ex.com/t/1102513",
+          "publishedOn": "2025-01-04T08:36:52.000Z",
+          "wordCount": 438,
+          "title": "推荐下笔记本 5K 左右，要求支持 至少 32G 内存，要有 8g 独立显卡",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102512",
+          "author": "PatrickLe",
+          "description": "PatrickLe: 刚准备买个 iPad 送父母看到 TB 百亿补贴 iPad9 竟然只要 1700 ！！！ \n自己用的老款 pro 已经用了几年，没想到现在 iPad 竟然这么实惠了\n送父母是 iPad9 呢？还是加点钱换 mini 呢？",
+          "link": "https://www.v2ex.com/t/1102512",
+          "publishedOn": "2025-01-04T08:26:28.000Z",
+          "wordCount": 426,
+          "title": "ipad9 适合送父母吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102511",
+          "author": "SuperMild",
+          "description": "SuperMild: \n约 100 行 Java 代码，只使用 Java 标准库，完全没有第三方代码。\n开发时也不使用 Maven, Gradle 之类，只使用 javac\n有一个简单的 GUI 窗口。\n代码极致简单，不可能更简单了。\n主要功能\n开源仓库 https://github.com/ahui2016/Wuliu-STN\n下载项目源码后，在终端执行命令 newnote 即可打开窗口，输入文本内容，点击 OK 完成一次记录。\n笔记内容是一个个 txt 文件，每天一个，例如 2025-01-01.txt\n主要用来记录 零散 的信息，没有条理的、混乱的短句等\n两个优点\n极低心智负担，每次操作就是打开一个文本框，输入内容，点击 OK 。没有别的操作了。\n代码量超少，约 100 行，而且全是很简单很直白的代码，阅读和修改都很轻松。\n不使用 Maven/Gradle, 只使用 javac\n全部代码才 11KB, 就算加上 README 之类的文件整个项目不压缩也只有 30KB\n只使用 Java 标准库，完全没有第三方代码，修改代码后只需要使用 javac\n编译即可，相关的命令我也提供了，具体请看项目 README 。\n一部分代码\n下面是主界面 class Main 的全部代码：\npublic class Main implements Runnable {\n    private ScrollArea scrollArea;\n\n    public static void main(String[] args) {\n        MyUtil.checkProjectExists();\n        SwingUtilities.invokeLater(new Main());\n    }\n\n    public void run() {\n        // 主窗口\n  …",
+          "link": "https://www.v2ex.com/t/1102511",
+          "publishedOn": "2025-01-04T08:22:46.000Z",
+          "wordCount": 541,
+          "title": "五柳速记（Wuliu-STN）约 100 行代码的快速笔记程序",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102509",
+          "author": "coderYang",
+          "description": "coderYang: \n95 年生人，17 年毕业，至此已经 30 岁工作 7 年有余，近 8 年，有房有贷已婚，无车无娃\n三本软件院校毕业，Java 开发，上海 5 年郑州 3 年，呆过最大的公司也无非是千人企业，小型互联网公司\n回郑后 15k 的薪资，让我有点放松（在郑州还算可以），结果公司 24 年经济变差，开始裁员，25 元旦后开始全面降薪，突然迷茫\n卷技术，无大厂背景，且跳槽频繁，简历花了（投递数马因跳槽频繁，简历被拒），且不知道 8 年经验的 Javaer 该具备些什么能力，是继续八股？可背的东西与三四年工作经验别无二致\n卷人脉，父母皆为农民，伴侣家庭也一样普通，朋友资源皆为程序员，相同的背景，差不多的人生，区别可能就仅在伴侣所带来的不同\n迷茫、恐惧，boss 投递，除了不知所以的外包，无其他招聘，亦或者已读不回、不读不回，根本没有发送简历的一步\n发帖并非自怨自艾，确是想请大拿帮忙指导一下，八年经验的 javaer ，具备哪些能力？简历中应该具备什么内容？\n人还是得自救。",
+          "link": "https://www.v2ex.com/t/1102509",
+          "publishedOn": "2025-01-04T08:11:48.000Z",
+          "wordCount": 519,
+          "title": "迷茫的 30 岁",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102508",
+          "author": "COW",
+          "description": "COW: \n1kg 不到的东西，体积 65cm30cm65cm ，从浙江到辽宁，运费接近一百五十。",
+          "link": "https://www.v2ex.com/t/1102508",
+          "publishedOn": "2025-01-04T08:08:35.000Z",
+          "wordCount": 494,
+          "title": "菜鸟寄快递要这么贵么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102507",
+          "author": "cvvin",
+          "description": "cvvin: \n我是一个前端开发，正在为新一年的技术规划感到苦恼。在我们公司，完成分内的业务开发是基本工作，即使做得再好，也属于无亮点可言， 只是一个实现需求的工具人。只有在业务开发之外有技术创新或亮点贡献，才能有好的评价。不过，目前我的领导对技术创新的方向没有明确思路，要让我进行规划。\n让我更头疼的是，业务开发的排期非常紧凑，这使得我不敢制定太激进的创新计划，担心最终无法完成任务，影响整体进度。所以我想向大家请教：\n前端有哪些相对稳妥且切实可行的技术创新方向可以尝试？\n前端的属性就是偏工具人，如何去贡献公司业务呢？\nps. 公司不属于互联网行业，开发的东西以内部工具为主。已经做了两年的基建工作了，能做的基本都做了，领导说不要再规划基建方面的工作了，公司领导也不在乎。",
+          "link": "https://www.v2ex.com/t/1102507",
+          "publishedOn": "2025-01-04T08:07:23.000Z",
+          "wordCount": 381,
+          "title": "如何在业务排期密集的情况下实现前端技术创新？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102505",
+          "author": "superkkk",
+          "description": "superkkk: 想买一个游戏键盘，问客服说是 1000Hz 的轮询频率。\n买回来以后，用 UsbTreeView 检测显示如下：\nbInterval : 0x0A (10 ms)\n实际只有 100Hz 轮询频率。\n键盘外观做的看起来是挺炫的，打游戏感觉不出来，但是我认为商家虚标参数，我很不满意。\n不建议大家在京东上买东西",
+          "link": "https://www.v2ex.com/t/1102505",
+          "publishedOn": "2025-01-04T08:02:23.000Z",
+          "wordCount": 469,
+          "title": "京东上买东西被坑了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102504",
+          "author": "linuxsuren",
+          "description": "linuxsuren: \nhttps://github.com/LinuxSuRen/atest-ext-collector",
+          "link": "https://www.v2ex.com/t/1102504",
+          "publishedOn": "2025-01-04T08:00:06.000Z",
+          "wordCount": 381,
+          "title": "上 Python 课的期间 用 Go 写了个 DNS 服务",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102503",
+          "author": "jeesk",
+          "description": "jeesk: 1. 先前我问了一下，如果使用 cf 不考虑大陆，数据中心选择哪里好，后面我将我原有的 go 服务使用 worker 重写后， 速度比以前提高太多。\n2. 这个服务我自己做了一个用户注册系统，主要是帮用户申请签名证书，以及商品订阅，以前用户备份的配置信息。js + d1 数据库完全够用。 关键的是还快，没有内存担心的问题。\n3.  涉及到 cloudflare api 相关接口， 以前无论是部署到海外还是国内， 接口都慢的要死， 使用 worker 后， 快得无法想象。\n4. 我以为使用 cloudflare 如果接口超过 cpu 占用 10ms ，接口就会超时， 从我使用的看来，没有这个问题。\n\n5. worker 加上 d1 ，加上 cf 的证书，认证，限流，安全验证， 可以说从 serverless 的思想，重点狙击个人使用 springboot ，golang 写的 web 服务。\n6. 当然也有很多限制， 比如储存文件，文件上传的得使用其他的对象储存。可能没有直接写磁盘方便。国内可能不能正常访问。如果 cf 关闭了这个服务，迁移代码很麻烦。无法使用一些 linux 命令处理一些业务逻辑，这个目前无解。\n\n总得来说如果你有一个简单的服务，如果不想自己处理证书，安全，限流等等一系列的问题， 那么迁移到 worker 目前看，是一条不错的路子。这么香，况且还免费，不是我吹，要是国内能提供这种服务，估计国内阿里云和腾讯云会受到重创。在这种情况下，springboot\n和 go 不再是我的优先考虑了。",
+          "link": "https://www.v2ex.com/t/1102503",
+          "publishedOn": "2025-01-04T07:57:03.000Z",
+          "wordCount": 1111,
+          "title": "cloudfalre worker 也许是目前 web 服务部署的一种最佳实践。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102502",
+          "author": "jkfadsljlasdgs",
+          "description": "jkfadsljlasdgs: 一加手机充电器，不能给联想笔记本充电。\n想买个酷泰克通用电源，还不支持给一加充电。\n出差背着一堆大头充电器太难了，落下一个没带就废了",
+          "link": "https://www.v2ex.com/t/1102502",
+          "publishedOn": "2025-01-04T07:56:57.000Z",
+          "wordCount": 447,
+          "title": "为什么各家充电器/电源协议不能统一？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102501",
+          "author": "noder",
+          "description": "noder: \n创业就只能 IOS App store 了吗？安卓阵营如何盈利。最近想了很长时间， 在经济实力越发严峻的时候，怎么挣 点话费。之前是老前端，电脑都是 Win 。突然间迷茫了。想做个 app ，发现只有 ios 才有可能回点米。怎么会这样。。。",
+          "link": "https://www.v2ex.com/t/1102501",
+          "publishedOn": "2025-01-04T07:47:39.000Z",
+          "wordCount": 485,
+          "title": "创业就只能 IOS App store 了吗？安卓阵营如何盈利",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102500",
+          "author": "zmh123666",
+          "description": "zmh123666: \nRT\n最近想找一个视频加密比较成熟的国内的平台，\n但是找来找去发现。。\n大家似乎都不太有比较简便的 DRM 集成技术，这个我在国外平台找到了，但是因为众所周知的原因\n国内不太能用。\n请问各位大佬，有没有在这方面比较好的服务商推荐？\n跪谢。",
+          "link": "https://www.v2ex.com/t/1102500",
+          "publishedOn": "2025-01-04T07:40:33.000Z",
+          "wordCount": 391,
+          "title": "国内现在有比较推荐的 VOD 视频托管平台集成了 DRM 的吗？例如 widevine & fairplay",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102499",
+          "author": "maclanelf134",
+          "description": "maclanelf134: \njdk1.8 貌似到 2025 年 12 月停止维护更新了!好像想起来 centos7 在 24 年 6 月也停止更新了,各位推测一下,两个东西的替代品会是什么? 貌似有人推测 java 后续大概率会奔向 jdk17!至于 centos7,我好像没有找到答案...\n另外谁看看我另一个帖子啊,难道我发错专区了吗,我急需机场............\nhttps://www.v2ex.com/t/1102487",
+          "link": "https://www.v2ex.com/t/1102499",
+          "publishedOn": "2025-01-04T07:37:29.000Z",
+          "wordCount": 387,
+          "title": "刚刚去浏览文章注意到一些问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102498",
+          "author": "LeeReamond",
+          "description": "LeeReamond: \n如题，基本情况：\n个人爬虫项目，子容器数量比较多，以及代码量比较大，组件间通过 tcp 交互。\n目前手动维护，姑且是能跑，但是希望进行一点基础管理以降低工作量。\n希望有一个管理中心，实现的功能包括，向中心注册服务，从中心拉取服务列表，以及中心在子容器卡死时可以重启。\n问了一下 chatgpt ，推荐了以下工具：\nconsul\netcd\nk8s/k3s\n想问下对于 python 环境来说哪个客户端接入比较友好，功能够用就行，稳定/坑少？\n另外有关守护服务这个事，直接用 docker 不知道能不能实现类似效果？守护服务这个东西原理是啥，程序报错误码了的话倒是好理解程序坏了，但如果单纯因为非代码原因卡住，像 windows 程序不是有个什么无响应这种状态，这能识别吗？",
+          "link": "https://www.v2ex.com/t/1102498",
+          "publishedOn": "2025-01-04T07:34:24.000Z",
+          "wordCount": 403,
+          "title": "Python 项目的服务注册/发现用什么工具比较好？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102497",
+          "author": "lone6",
+          "description": "lone6: \n平时会开发一些小脚本，在工作中使用\n想请教一下，打包 exe 的方案有哪些？\n目前在使用 pyinstaller ，但是打包过程比较慢，打包后的 exe 感觉也挺大的\n有没有更好的方案或者优化教程？",
+          "link": "https://www.v2ex.com/t/1102497",
+          "publishedOn": "2025-01-04T07:23:25.000Z",
+          "wordCount": 573,
+          "title": "Python 打包 exe 方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102496",
+          "author": "Ikhi",
+          "description": "Ikhi: base：北京办公室，大部分时间远程工作\n工作时间：朝 9 晚 5\n公司介绍：\nsuger.io 是一家 ToB 外企，提供云服务插件集成的工作流 SaaS 平台，与客户企业 CRM 系统无缝对接，使客户企业只需专注于其核心产品，而无需担忧纷繁云服务技术的接入的技术复杂性，减少客户企业在云市场上市所需的时间和成本。suger.io 在通过 AWS 、Azure 和 GCP 等云市场简化和加速 B2B 多渠道销售方面处于领先地位，投资者包括 Y Combinator 、Craft Ventures 和英特尔资本等，团队成员来自 Google 等企业。\n岗位描述：\n1. 负责使用 Vue.js 开发 web 应用程序，推动业务概念到部署的能力建设。\n2. 关注 Vue.js 最佳实践和最新发展，积极优化已有前端项目的响应速度和可扩展性。\n3. 制定前端技术标准，包括代码审查、单元测试和持续集成过程。\n4. 提供相关技术指导，培养持续学习的文化。\n岗位要求：\n1. 本科及以上学历，计算机、软件工程等相关专业\n2. 5 年以上前端开发经验，至少 3 年 Vue.js 开发经验。\n3. 熟练掌握 HTML5 ，CSS3 和 JavaScript ，重点关注 Vue.js 及其生态系统（ Vuex ，Vue Router 等）。\n4. 有较强的问题解决能力和批判思维，善于团队沟通和合作\n5. 有将 RESTful API 和 GraphQL 与前端应用程序集成的经验。\n6. 具有 Jest 、Mocha 或类似测试框架的经验优先。\n7. 了解 SEO 最佳实践和 web 性能优化技术优先；\n8. 熟悉 TypeScript 和现代 CSS 框架（如 TailwindCSS 或 Styled Components ）优先；\n9. 了解网页无障碍标准和最佳实践（ WCAG ）优先；\n10. 有敏捷/Scrum 方法经验者优先。\n面试考察方式：\n两轮项目实践考察，以项目中早已实现的功能点摘出来作为需求题目，希望候选人能够在短时间几天内进行代码实现，考察候选人解决问题和快速学习的应对能力。实现后面试官会进行点评。没有 Leetcode 题。\n薪资发放方式：\n具有竞争力的美元薪酬（不是 u ）\n简历投递方式：\na1320242697a@foxmail.com",
+          "link": "https://www.v2ex.com/t/1102496",
+          "publishedOn": "2025-01-04T07:22:48.000Z",
+          "wordCount": 480,
+          "title": "[社招] 20250104 内推远程工作，外企，高级前端工程师， 5 年经验",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102495",
+          "author": "xrliu",
+          "description": "xrliu: \n如题，在 2024 年 12 月 30 日晚，我 follow 账户的 power 被全部转至一个陌生的账户，分两笔，非常奇怪。\n第一，这个时间点，我没有登录我的 follow 账户。\n第二，我的账户是用谷歌账户登录的。\n第三，follow 貌似没有什么登录的安全机制？\nhttps://imgur.com/a/kLpO0zg",
+          "link": "https://www.v2ex.com/t/1102495",
+          "publishedOn": "2025-01-04T07:06:55.000Z",
+          "wordCount": 392,
+          "title": "follow 的 power 被自动转走了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102493",
+          "author": "fengFly",
+          "description": "fengFly:",
+          "link": "https://www.v2ex.com/t/1102493",
+          "publishedOn": "2025-01-04T06:45:17.000Z",
+          "wordCount": 425,
+          "title": "有啥好用的高清电脑或手机壁纸分享或者推荐的吗",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102491",
           "author": "Franknow",
           "description": "Franknow: \n编程以及前后端基础都有，平时要上班所以想找个大哥带着学一下，内容就是从零开始搞一个全栈的商城出来（ react node python 都可以） ，每天或者隔天固定时间会议学习，有没有大佬有时间和精力可以带一带弟弟，按小时或者按次数付费",
@@ -369,7 +592,7 @@
           "description": "hsiaochi: \n很多知识输出，甚至主机游戏主播无法直播",
           "link": "https://www.v2ex.com/t/1102489",
           "publishedOn": "2025-01-04T06:01:15.000Z",
-          "wordCount": 485,
+          "wordCount": 498,
           "title": "抖音直播伴侣没有 mac 版本？这意味着 100%的 mac 用户无法直播",
           "imageUrl": null
         },
@@ -379,7 +602,7 @@
           "description": "pengjiayou: 好多年好多年没用 Fedora 了，刚装好 Fedora 41 Server 才发现居然整出 2 个 swap 分区。\npengjiayou@fedorahome:~$ lsblk\nNAME                       MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\nzram0                      252:0    0     8G  0 disk [SWAP]\nnvme0n1                    259:0    0 465.8G  0 disk\n├─nvme0n1p1                259:1    0   600M  0 part /boot/efi\n├─nvme0n1p2                259:2    0     1G  0 part /boot\n└─nvme0n1p3                259:3    0 464.2G  0 part\n  ├─fedora_fedorahome-root 253:0    0    50G  0 lvm  /\n  ├─fedora_fedorahome-swap 253:1    0     8G  0 lvm  [SWAP]\n  └─fedora_fedorahome-home 253:2    0 406.2G  0 lvm  /home\n  \n而且好像 Fedora 41 Server 这两个 swap 都在用\npengjiayou@fedorahome:~$ sudo free -h\n               total        used        free      shared  buff/cache   available\nMem:            11Gi       1.2Gi       9.7Gi       5.0Mi       773Mi        10Gi\nSwap:           15Gi\n原来 Fedora 已经用 Swap on ZRAM 好几年了。我现在想删除 lvm 里面的 swap 分区，搜索了下：\n1. 看 swap 在哪个物理分区\npengjiayou@fedorahome:~$ sudo swapon --show\nNAME       TYPE      SIZE USED PRIO\n/dev/dm-1  partition   8G   0B   -2\n/dev/zram0 partition   8G   0B  100\n2. 停用 swap\nsudo swapoff /dev/dm-1\n3. 修改 /etc/fstab\n这几步我倒是会，问题是删除这个 swap 物理分区之后，我如何把 lvm 中的 /home 增加这 8G 原来 swap 所占的空间呢？",
           "link": "https://www.v2ex.com/t/1102485",
           "publishedOn": "2025-01-04T05:51:49.000Z",
-          "wordCount": 537,
+          "wordCount": 539,
           "title": "Fedora 41 两个 swap 分区，怎么办？",
           "imageUrl": null
         },
@@ -399,7 +622,7 @@
           "description": "BestVPS: \n搬瓦工 PowerBOX   新出江湖,30 天可退款,ip 被封也能退！\n方案名称：Powerbox\n方案配置：\n硬盘：30 GB SSD\n内存：1536MB\nCPU：1 核 Intel\n流量：1500 GB/月\n带宽：2.5Gbps\n线路：\n电信：双程 CN2GIA\n联通：去 4837/回 CN2GIA\n移动：去程 CMIN2/回 CN2GIA\n搬瓦工所有的套餐，除了香港/日本 GIA 没有，其他套餐基本集齐了\n另外，对于大家关心的线路保障情况，瓦工官方回复线路保证问题，会最大化的保持它，确保大家都能开心的使用这款产品。\n网络解锁情况：ChatGPT 是 DNS 解锁，谷歌 Gemini 原生解锁，迪斯尼看不了，奈飞只能看自制剧和 DC6 机房一样\n\n三网回程情况：三网 CN2GIA 回程，电信 CN2GIA 去程，联通 4837 去程，移动 CMIN2 去程，可以说非常的硬\n\n上海大出口，直连洛杉矶\n\n网络稳定性，才刚刚开机，不过可以合理预测肯定是一条直线，几乎毫无波动 探针地址： https://n.990599.xyz/\n\n融合怪测试，CPU 还是 Intel 的，但是这口子是真大啊！！！\n\n更多评测及媒体解锁可参考（含搬瓦工新加坡 CN2GIA ）： https://990599.xyz/bwg1/\n如果你还犹豫不决，可以测试一下线路\n点我测试你的速度\n\n循环优惠码：BWHCGLUKKB\n优惠后是$41.9 年，续费循环享受\n购买搬瓦工 DC99-powerBOX 含 aff 直达链接，$41.9",
           "link": "https://www.v2ex.com/t/1102483",
           "publishedOn": "2025-01-04T05:37:02.000Z",
-          "wordCount": 619,
+          "wordCount": 671,
           "title": "（VPS）全网首家测评--搬瓦工 power box",
           "imageUrl": null
         },
@@ -409,7 +632,7 @@
           "description": "gniviliving: 一个魔珠游戏，我玩了很多年了，最初是软媒出品的\n部署在 cf\nhttps://mz.ikun.day\n自定义域名可能有缓存，用 https://mozhu-anj.pages.dev 可以访问最新版本\nv1.3 版本更新：\n1 、新增背景音乐和音效，音效自动开启，背景音乐需要点击铃铛开启\n2 、新增游戏进度实时保存在本地\n3 、新增游戏规则说明，点击ℹ️获取帮助\n4 、新增历史最高分，保存 10 条高分记录\nhttps://i.imgur.com/a/v39XMBL",
           "link": "https://www.v2ex.com/t/1102482",
           "publishedOn": "2025-01-04T05:34:14.000Z",
-          "wordCount": 373,
+          "wordCount": 388,
           "title": "分享一个用 vsc+deepseek 开发的小游戏",
           "imageUrl": null
         },
@@ -449,7 +672,7 @@
           "description": "sasukiki: \n3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，直营店会检测出不是官方买的吗？会不会翻车，当时的购买邮件已经找不到了",
           "link": "https://www.v2ex.com/t/1102477",
           "publishedOn": "2025-01-04T05:01:14.000Z",
-          "wordCount": 704,
+          "wordCount": 783,
           "title": "3 年前在淘宝麦克先生买的 AC+，快过期了，想给 mbp 喝个咖啡加钱换新，会翻车吗？",
           "imageUrl": null
         },
@@ -481,226 +704,6 @@
           "publishedOn": "2025-01-04T04:52:30.000Z",
           "wordCount": 361,
           "title": "推荐免费 PNG 资源网站",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102472",
-          "author": "songlan",
-          "description": "songlan: \n帮忙代购土耳其礼品卡，赚个鸡腿钱，每 50 里拉手续费 3 元\nvx：eDA2NjY3Mg==",
-          "link": "https://www.v2ex.com/t/1102472",
-          "publishedOn": "2025-01-04T04:46:58.000Z",
-          "wordCount": 527,
-          "title": "帮忙代购 土耳其 apple 礼品卡 oyunfor 渠道 带邮件截图",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102470",
-          "author": "wyfig",
-          "description": "wyfig: \n如题，有尝试过的 V 友帮忙回答下，中国大陆地区注册 iOS 开发者账号，只上架海外的 App ，不包括中国大陆地区，是否还需要进行备案操作？",
-          "link": "https://www.v2ex.com/t/1102470",
-          "publishedOn": "2025-01-04T04:42:20.000Z",
-          "wordCount": 417,
-          "title": "iOS 中国大陆地区个人开发者账号，是否可以不进行备案操作上架除了中国大陆地区的 App",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102469",
-          "author": "xinmans",
-          "description": "xinmans: \n如下图所示",
-          "link": "https://www.v2ex.com/t/1102469",
-          "publishedOn": "2025-01-04T04:38:28.000Z",
-          "wordCount": 450,
-          "title": "钉钉机器人通知里面的图片裂开， link 点进去能看到，啥原因？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102468",
-          "author": "eccentric579",
-          "description": "eccentric579: \n光猫 SLAAC 拿不到 ip, pd 拿不到前缀\n报客服，装维说他不会，接下来应该怎么办\n要叫师傅来改一下上一级网关的下发配置？",
-          "link": "https://www.v2ex.com/t/1102468",
-          "publishedOn": "2025-01-04T04:31:18.000Z",
-          "wordCount": 474,
-          "title": "成都电信某小区 ipv6 不通",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102467",
-          "author": "Zeb1104",
-          "description": "Zeb1104: \n我不希望需要手动给手表充电 也不喜欢换电池，不喜欢抬腕亮屏的段落感\n我有一个西铁城光动能手表，但是最近发现运动的时候总是听不到女朋友的语音电话\n不知道有没有一个极简的 光动能的 手环 不需要其他一切功能 只要手机来消息的时候可以震动就好，甚至不需要显示屏 不要很贵\n这样可以完美解决我的问题\n感谢大家推荐和安利🙏",
-          "link": "https://www.v2ex.com/t/1102467",
-          "publishedOn": "2025-01-04T04:25:44.000Z",
-          "wordCount": 463,
-          "title": "极简手环推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102466",
-          "author": "revival83",
-          "description": "revival83: 1.如果 chrome 真把这插件下架了，是不是就不能用了？\n2.请问火狐和 edge 浏览器也是沙盒机制么？",
-          "link": "https://www.v2ex.com/t/1102466",
-          "publishedOn": "2025-01-04T04:18:51.000Z",
-          "wordCount": 732,
-          "title": "V2 老哥刚给推荐完 uBlock Origin 这个插件，我看 chrome 就要禁这个插件了么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102465",
-          "author": "follower",
-          "description": "follower: \n拉数据应该比官方的会快点，还能赚点 power ，有服务器的赶紧去部署一个上架吧\n\n顺便 100power = 2R 回收 power ，有想出的闲鱼联系 https://m.tb.cn/h.T7H2ObR?tk=kWv5ebZtw2a",
-          "link": "https://www.v2ex.com/t/1102465",
-          "publishedOn": "2025-01-04T04:09:02.000Z",
-          "wordCount": 370,
-          "title": "Follow 可以添加 RSSHub 实例了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102464",
-          "author": "Revelation",
-          "description": "Revelation: \n背景：我家庭主号试用过 arcade ，但我发现家庭成员的账号仍然可以试用 arcade ，且可以共享给整个家庭\n既然如此，只要多次创建家庭号，并用新号试用某个服务不就可以一直试用某个服务（目前仅停留于思想实验方面）？\n有人这样尝试过吗？是否有相关风险？",
-          "link": "https://www.v2ex.com/t/1102464",
-          "publishedOn": "2025-01-04T04:00:33.000Z",
-          "wordCount": 404,
-          "title": "关于家庭共享和重复试用的疑惑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102461",
-          "author": "Jaime668",
-          "description": "Jaime668: 目前情况是 docker 应用已经通过 lucky 反代实现域名转换，在国内外网输入域名可以正常登陆 memos 等安装在Ｎ as docker 上的应用，但是到了日本发现都登陆不上了，求助！",
-          "link": "https://www.v2ex.com/t/1102461",
-          "publishedOn": "2025-01-04T03:55:20.000Z",
-          "wordCount": 385,
-          "title": "求助在日本无法连接Ｎ as 上安装的 docker 应用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102460",
-          "author": "hello333",
-          "description": "hello333: \n降智的 GPT 无法实时联网获取新闻，给其发送一张图片，让它解析图中内容。\n再次发送搜索新闻，就解除降智了。",
-          "link": "https://www.v2ex.com/t/1102460",
-          "publishedOn": "2025-01-04T03:47:32.000Z",
-          "wordCount": 562,
-          "title": "教你一招，五秒解除 ChatGPT 降智商😋",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102459",
-          "author": "abcbuzhiming",
-          "description": "abcbuzhiming: 现在的工作间离窗很远，白天的日见光照几乎没有办法照到。必须开灯，但是这个位置只有一个吸顶灯，这个灯非常的亮，以至于有一种“光压感”，以至于我不太想开这个灯，最开始买了一个屏幕挂灯，但是一段时间后，发现屏幕挂灯只能照亮桌面这一块，一旦眼睛从桌面这一块移开，周围还是一片黑暗，明暗切换仍然导致眼睛疲劳。\n我希望是房间有一个柔和的环境光源，能把整个房间照亮，但是又不是特别亮，有没有人有布置这类光源的经验？",
-          "link": "https://www.v2ex.com/t/1102459",
-          "publishedOn": "2025-01-04T03:32:37.000Z",
-          "wordCount": 459,
-          "title": "工作房间如何布置光源才比较柔和？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102457",
-          "author": "ansnail",
-          "description": "ansnail: 我有一个闲置的 Intel 的 Macmini ，想着是不是可以把 Mac 系统直接清掉换成 pve ，然后折腾一下其他系统玩一下，在网上搜索没发现相关的教程，咨询一下是否可行，是否有相关教程",
-          "link": "https://www.v2ex.com/t/1102457",
-          "publishedOn": "2025-01-04T03:12:03.000Z",
-          "wordCount": 457,
-          "title": "各位老哥咨询一下， Macmini 是否可以直接安装 pve",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102456",
-          "author": "autumnhlf01",
-          "description": "autumnhlf01: \n请教个问题，类似温度，湿度硬件对接的时候，数据通过 websocket 获取，这些数据每隔几十秒就会传一组过来，咋处理这些数据？直接存数据库吗，这样数据库压力也太大了，通过 mq 的方式来存储，但是最终还是要插入数据库，还是会造成数据库压力\n我的想法是  把数据直接放到 redis 里面，但是越到后期，数据也会很多，查询也不太好查吧？\n没咋处理过这种场景，一时间没啥头绪，特来问问 v 友，有没有实际处理过类似问题的，求教",
-          "link": "https://www.v2ex.com/t/1102456",
-          "publishedOn": "2025-01-04T03:08:49.000Z",
-          "wordCount": 756,
-          "title": "mysql 数据库频繁插数据的处理方案讨论",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102455",
-          "author": "szsgz",
-          "description": "szsgz: \n大家想对张小龙说什么",
-          "link": "https://www.v2ex.com/t/1102455",
-          "publishedOn": "2025-01-04T03:06:34.000Z",
-          "wordCount": 387,
-          "title": "微信语音支持倍速播放了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102454",
-          "author": "q474818917",
-          "description": "q474818917: \n不知道去哪里买这药便宜，这药还用不了医保，价格 1 万多，家里人需要这药续命\n求万能的 V2er 帮帮忙",
-          "link": "https://www.v2ex.com/t/1102454",
-          "publishedOn": "2025-01-04T03:02:13.000Z",
-          "wordCount": 460,
-          "title": "有没有对来那度胺了解的 V2er",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102453",
-          "author": "a3000xgyj",
-          "description": "a3000xgyj: \n楼主是 2024 年 1 月头办的 2 年 2000M 的套餐  年付 2990 那个\n现在想改成 500M 的套餐 客服说 还有 1 年时间  现在改的话 还要付违约金  600 块\n兄弟们  看来我只能继续续约 2000M 的套餐？\n我是真受不了这个上传达量降速！\n兄弟们 是不是还要摸一年 合约到期才行？ 是不是无解？",
-          "link": "https://www.v2ex.com/t/1102453",
-          "publishedOn": "2025-01-04T03:00:23.000Z",
-          "wordCount": 592,
-          "title": "兄弟们！上海电信套餐问题！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102450",
-          "author": "peitaobest",
-          "description": "peitaobest: \ndocker 中 mysql 的服务正常\nroot@Temak:/# docker ps -a\nCONTAINER ID   IMAGE          COMMAND                   CREATED          STATUS          PORTS                                                  NAMES\nfa56afd0a5c5   mysql:8.0.20   \"docker-entrypoint.s…\"   57 minutes ago   Up 14 minutes   0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   mysql8\n端口 3306 也没有被占用\nroot@Temak:/# sudo netstat -tuln | grep 3306\ntcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN\ntcp6       0      0 :::3306                 :::*                    LISTEN\n宿主机\nroot@Temak:/# telnet 127.0.0.1 3306\nTrying 127.0.0.1...\nConnected to 127.0.0.1.\nEscape character is '^]'.\n但是宿主机访问 docker 中的 mysql\nroot@Temak:/# mysql -u root -p -h 127.0.0.1 -P 3306\nEnter password:\nERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0\ndocker 中 mysql 的日志：\n2025-01-04T02:18:41.937188Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.20) starting as process 1\n2025-01-04T02:18:41.948132Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n2025-01-04T02:18:42.188458Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n2025-01-04T02:18:42.302034Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: '/var/run/mysqld/mysqlx.sock' bind-address: '::' port: 33060\n2025-01-04T02:18:42.341277Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.\n2025-01-04T02:18:42.342798Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n2025-01-04T02:18:42.359459Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.20'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.\n请问大神如何解决宿主机访问 docker 中的 mysql",
-          "link": "https://www.v2ex.com/t/1102450",
-          "publishedOn": "2025-01-04T02:40:47.000Z",
-          "wordCount": 624,
-          "title": "mysql 宿主机没有办法访问的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102449",
-          "author": "seekafter",
-          "description": "seekafter: \n平时发东西,抖音/小红书/b 站都要发一遍\n相关的图片和文字会有细微的不同, 有时候软件还不在一个手机上面, 需要频繁的整理素材\n想要个在线的或者有客户端的软件来管理素材,要求启动快, 有免费容量或明确的价格体系, 开源的更好\n飞书或腾讯文档之类作为备选, 自建 joplin 等笔记软件作为备备选",
-          "link": "https://www.v2ex.com/t/1102449",
-          "publishedOn": "2025-01-04T02:40:32.000Z",
-          "wordCount": 448,
-          "title": "有没有这样一款软件, 我想用来放素材/图文",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102448",
-          "author": "LeeReamond",
-          "description": "LeeReamond: \n如题，目前情况：\n手机摔了，屏幕失灵，无法触控\n其他功能正常，系统运行正常，可以正常通过侧面键调节音量，唤醒屏幕、强制重启等。\n目前的问题：\n去小米之家快修，印象里是要签数据不保护协议的，最好在去之前导出数据\n目前手机直接插电脑上的话只能充电，需要操作一下才能连数据，但是不去小米之家就不能操作，所以不能导出数据。\n去小米之家之前要导出数据，但去小米之家之后才能导出数据，有点尬住了兄弟们，有无解法？\n目前手机经过一次重开机，第一次开机需要使用图案解锁而不能直接用指纹解锁，所以目前还是个不能解锁的状态。",
-          "link": "https://www.v2ex.com/t/1102448",
-          "publishedOn": "2025-01-04T02:30:09.000Z",
-          "wordCount": 460,
-          "title": "手机屏幕触控失灵的情况下，如何导出手机内数据？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102447",
-          "author": "muzihuaner",
-          "description": "muzihuaner: \n在开源软件的使用中，镜像仓库（ Mirror Repository ）扮演着至关重要的角色。它们为全球用户提供快速、可靠的软件下载服务。特别是在国内，由于网络限制，访问官方仓库往往较为缓慢，因此搭建一个自己的镜像仓库就显得尤为重要。而 TunaSync ，作为一个开源的同步工具，提供了简便的方式来搭建和管理自己的镜像仓库。\n具体教程：\nhttps://blog.quickso.cn/2025/01/03/%E4%BD%BF%E7%94%A8tunasync%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E9%95%9C%E5%83%8F%E4%BB%93%E5%BA%93/\nhttps://imirrors.quickso.cn/",
-          "link": "https://www.v2ex.com/t/1102447",
-          "publishedOn": "2025-01-04T02:17:07.000Z",
-          "wordCount": 385,
-          "title": "使用 tunasync 搭建自己的开源软件镜像仓库",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102445",
-          "author": "ZGeek",
-          "description": "ZGeek: \n请教一下，A 虚拟机(omv)使用 NFS 进行了文件的导出：导出 NFS 指令为：\n/export/photo 192.168.50.4/27(rw,no_subtree_check,insecure,no_root_squash)\n\nB 主机(群晖)进行了挂载(/volumeX/photo)，然后问题如下\n目前发现群晖在 photo 中创建缩略图的方案是这样的：\n群晖自身的 photo 进程运行在 root 级别，以 root 身份像 photo 文件夹中创建缩略(644).\n以 root 的身份对刚才创建的 photo 中的缩略图文件 chown 为 uid:1026\n然后再写入真正的缩略图数据流\n问题：\n出现在第 3 步，当是本地文件系统的时候，3 是没有问题的，但是当是 NFS 的时候，就会报告权限不足的问题（问题的原因好像是 NFS Server 的自身权限校验行为）\n请问各位众大佬，是否有解决方案。\n备注:\n群晖的 photo 的运行方式，我没有办法变更和控制\nomv 中可以通过其他协议把文件共享出来，不一定需要走 NFS ，但是如果 NFS 的问题可以解决，则更好。",
-          "link": "https://www.v2ex.com/t/1102445",
-          "publishedOn": "2025-01-04T02:02:24.000Z",
-          "wordCount": 475,
-          "title": "请教 NFS 的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102443",
-          "author": "glouhao",
-          "description": "glouhao: 我弄的 poe-to-gpt 接口已经在其他地方测试可以正常使用了，但是在这个 nextchat 里始终用不上啊，非常奇怪。\n客户端和网页端都是 Failed to fetch\n网页本地是直接能访问的，chatbox 里使用正常，我想弄 web 端和家人一块用的，所以弄个网页版。",
-          "link": "https://www.v2ex.com/t/1102443",
-          "publishedOn": "2025-01-04T01:45:47.000Z",
-          "wordCount": 407,
-          "title": "nextchat 这个工具好奇怪",
           "imageUrl": null
         }
       ]
