@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -329,7 +335,7 @@
           "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
           "link": "https://www.v2ex.com/t/1102753",
           "publishedOn": "2025-01-05T15:51:22.000Z",
-          "wordCount": 456,
+          "wordCount": 490,
           "title": "C# 有哪些显著的缺点？",
           "imageUrl": null
         },
@@ -339,7 +345,7 @@
           "description": "chuugoku: 求推荐安卓手表 和使用体验 有必要吗？",
           "link": "https://www.v2ex.com/t/1102752",
           "publishedOn": "2025-01-05T15:46:17.000Z",
-          "wordCount": 411,
+          "wordCount": 424,
           "title": "苹果手表要天天充电 有用过安卓手表配 iPhone 吗",
           "imageUrl": null
         },
@@ -409,7 +415,7 @@
           "description": "XJYS: \n佬友们在下想买个沙发实木的 长度 4 米左右能带茶几电视柜最好 预算一万以下有什么推荐吗?那个平台靠谱点，有啥需要避坑的",
           "link": "https://www.v2ex.com/t/1102744",
           "publishedOn": "2025-01-05T14:57:51.000Z",
-          "wordCount": 370,
+          "wordCount": 375,
           "title": "有大佬在网上买过沙发吗？",
           "imageUrl": null
         },
@@ -489,7 +495,7 @@
           "description": "cjun: \n经历\n周四去了一趟香港，办理港卡，目标中银+汇丰+众安。\n中银提前预约，预约了彩虹分行，其他分行没预约上，去了哪里看了下资料，说要 10W+余额，当场拒绝。\n汇丰银行，提前预约没有预约上，网上其他同学说可以不用预约，当场 walk in 即可，9 点到的香港，跑了好几家，说当天没有开户的业务，又更换了 2 家，腿走断。最后一家当场拿号，等了 40 分钟。小姐姐态度还不错，回答问题有点小紧张，如果又拒绝，那今天白跑一趟香港了。最后给申请了，但是说要审核，到现在还没消息通知。\n众安+天星线上申请即可，难度不大。\n问题\n请问各位 V 友，中银又变了政策吗？因为之前没有看到过说要余额大于多少才给办卡？\n汇丰银行说要审核才给通过，不知道能不能过，地址还是填的拼音，还不知道卡能不能寄到，有碰到类似情况的同学吗？",
           "link": "https://www.v2ex.com/t/1102733",
           "publishedOn": "2025-01-05T14:08:50.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "周四去香港办卡，中银需要余额 10W+",
           "imageUrl": null
         },
