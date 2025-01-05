@@ -297,6 +297,286 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102753",
+          "author": "w568w",
+          "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
+          "link": "https://www.v2ex.com/t/1102753",
+          "publishedOn": "2025-01-05T15:51:22.000Z",
+          "wordCount": 423,
+          "title": "C# 有哪些显著的缺点？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102752",
+          "author": "chuugoku",
+          "description": "chuugoku: 求推荐安卓手表 和使用体验 有必要吗？",
+          "link": "https://www.v2ex.com/t/1102752",
+          "publishedOn": "2025-01-05T15:46:17.000Z",
+          "wordCount": 394,
+          "title": "苹果手表要天天充电 有用过安卓手表配 iPhone 吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102751",
+          "author": "xmagicer",
+          "description": "xmagicer: \n2024 总结\n技术相关\nhttps://xmagicer.com\n各种框架折腾了许多年，算是找到一个顺手方向了\n之后应该就是在这个框架上慢慢迭代了\n用 uniapp 写的，写完之后再也不想碰小程序了\nhttps://weclipper.xmagicer.com\n算是第一个完整的独立项目了，年中的时候立项，然后经历了从框架搭建到原型上线，再到核心重构三个大阶段，是本年度最核心的业余项目了。\n（ 1 ）跑通了完整的 DevOps 流程\n（ 2 ）基本完成底层核心框架设计\n（ 3 ）跑通业务逻辑框架\nWindows 底层接口调教真的不容易:P\n原本这个底层框架是写来开发游戏用的（它其实是一个游戏引擎），没想到这个游戏引擎框架的第一个上线项目，竟然是一个工具 App😂。\n我保证，会有机会的！\nIDEA 来源是看到有人想要一个轻量级的 Markdown 阅读器\n我也刚好一直想给我的框架加个 MD 支持，所以就提前给 25 年开了新坑\n预计 25 年也能上线。\n心态相关\n今天的主题是：断舍离\n也算是初见成效，今年不再迷茫于各种技术探究之中，完成 2 个小项目。\n一方面，生活中要处理的事情越来越多，有些计划需要放弃；\n另一方面，认识到有更重要的事情需要提前安排，需要新增计划；\n底层计划调整的过程中需要花时间调研，收集信息并总结；\n生活相关\n通勤时间超级超级加倍（希望明年回归正常\n重新捡起来两项运动\n开始增加自己做饭的次数\n2025 展望\n技术相关\nhttps://xmagicer.com\n优化本地开发体验\n输出更多内容\n持续迭代，发布一个 beta 测试版本\n如果有可能，争取发布一个正式版\n完成 Demo ，上线 alpha 版本\n心态相关\n行动上：断舍离\n心态上：保持从容\n计划上：希望可以减少计划调整带来时间和精力影响。\n生活相关\n运动：保持运动，增加运动安排；\n出行：出去 Happy ！\n饮食：做更多的饭🍚，更快地做饭🍚",
+          "link": "https://www.v2ex.com/t/1102751",
+          "publishedOn": "2025-01-05T15:37:57.000Z",
+          "wordCount": 433,
+          "title": "不早也不晚的 2024 年终总结（好像是第一次写年终总结",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102750",
+          "author": "Rooger",
+          "description": "Rooger: \n原文地址： https://luojiego.com/posts/2024-annual-summary-courage/\n总结\n勇敢迈出一步，离开了工作七年的地方，开始寻找更多的可能性，也为寻找内心的安宁。\n说实话我在没有离开自己的舒适区时，我非常没有安全感，因为不知道自己的能力边界在哪里，所以换了一家公司之后，我承担了大部分的模块，是太想证明自己的能力了。在项目上线并且稳定之后，我选择了离开，是我已经证明了自己的能力边界在哪里。\n二宝已经开始上小班了，从最初不能离开妈妈的陪伴，到现在能跟老父亲吃喝玩乐一整天，我又要积极参与到他成长的关键周期了。\n今年从最初的不安全，到现在明白了我不需要给任何人证明自己，我觉得是收获满满的一年。工作如果不能带给自己平和的心态，如果需要舍弃掉家人的陪伴，这样的工作对我而言意义不大。\n新的一年，希望可以跟小宝一起睡觉，不熬夜。坚持阅读，写博客，坚持运动，工作顺心。\n工作\n从进入公司作为第一个后端，做后端主程已经快七年了，所以离开是需要充满勇气的。虽然挺多人不理解，但是我希望有更多的可能性。离职的时候，老板说：“我觉得你是一个理想主义者”，现在想想这句话应该是充满贬义的。\n离职后不久我就在一家刚成立的小公司开始上班了，使用新的语言，新的框架最开始总是充满激情的。因为工期特别赶。我承担大部分的模块，特别是家园这种玩家强交互型的复杂模块。从三月份底开始，到八月底上线，几乎没怎么休息过，也没有加班费，甚至请假还会被扣工资。上线之后的运营节奏更快，当然后续也陆续招了三个后端，十一底，在人员基本招够的情况下，我选择了离职。\n休息了快半年月，我又开始上班了。虽然知道我是由于恐惧才上班的，但是先找个班上，在家待的久了，跟媳妇其实有些事情还说不到一块。虽然结婚已经十一年了，白天上班，晚上回家，彼此感觉这种距离能产生美。但是腻在一块，肯定不如当…",
+          "link": "https://www.v2ex.com/t/1102750",
+          "publishedOn": "2025-01-05T15:32:49.000Z",
+          "wordCount": 526,
+          "title": "2024 年度总结：勇气",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102749",
+          "author": "spicyoil",
+          "description": "spicyoil: \n需求是给 Windows 电脑的，7840H 带了 USB4 接口\n1 ，给电脑供电 要 100w\n2 ，接两 4k 60 显示器\n3 ，接电脑的线可拆，我希望把扩展坞藏起来，桌面上就留一根长线，舒服\n其余功能无要求\n越便宜越好",
+          "link": "https://www.v2ex.com/t/1102749",
+          "publishedOn": "2025-01-05T15:17:21.000Z",
+          "wordCount": 352,
+          "title": "海鲜市场洋垃圾扩展坞求推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102748",
+          "author": "Buffalo",
+          "description": "Buffalo: \n一到冬天使用我们这里的自来水洗澡或者洗手，都感觉皮肤（特别是手）变得非常非常粗糙，还很容易掉皮开裂什么的。前不久买了个海尔洗衣机，然后下载了海尔智家。海尔智家首页会显示我们当地的室外水质，比如现在它会显示 391 mg/L ，我随便找了一些城市，比如北京、上海、南京什么的，数值都没我们这里高。\n我想请教，海尔智家显示的水质数值是什么含义？是硬度吗，另外海尔是从哪儿得到这个数值。如果是硬度那我们这里应该是极硬的水平。",
+          "link": "https://www.v2ex.com/t/1102748",
+          "publishedOn": "2025-01-05T15:16:10.000Z",
+          "wordCount": 342,
+          "title": "如何理解海尔智家 App 首页的水质数值",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102747",
+          "author": "dejavuwind",
+          "description": "dejavuwind: \n怪我贪便宜啊 买了个智随享的杂牌国产，也没看颗粒，现在看来应该不是了，大概率是垃圾颗粒，\n可能 zhitai 的 7100 plus 这种还行\n只是基础测试\n读速经常掉到 200MB/s 平均也只有 700MB/s 左右\n距离标称的 3000MB/s 读速这差了多少了\n\n对比下几年前买的 Intel 速度真稳啊 虽然也不多快 毕竟技术老一些\n\n售后让直接申请售后寄回去修（数据不保）\n考虑再三，还是下单了一块 990 evo plus ，倒完数据把原来的这块智随享送回去看看，来回还不够折腾的\n以后国产盘一律不做系统盘了 致钛的哪天有机会再试试吧\n内存目前为止没啥问题 16G 玖合 + 16G 光威弈 pro 系列 基本的 memtest86 没跑出来明显问题（在我的认知范围）",
+          "link": "https://www.v2ex.com/t/1102747",
+          "publishedOn": "2025-01-05T15:15:25.000Z",
+          "wordCount": 380,
+          "title": "系统经常遇到未响应，怀疑是硬盘问题， HD Tune 测了下，实惨",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102746",
+          "author": "bb635725959",
+          "description": "bb635725959: \n本人是移动端程序员（原生开发、flutter ），不能说完全不会前（ H5 ）后端，毕竟是程序员嘛，但没有真正写过上线的前后端代码产品，这是我的第一次。\n网站功能：实现 aab 转 apk ；\n用户人群：不会 Android 技术但手上又有一个 aab 需要转 apk 的人，如产品、运营就经常遇到这种场景。\n灵感来源：一位朋友之前有一个小团队在做海外的产品（工具类），后来解散了，但产品一直还在运营，后来他想上架到国内试试（直接运控关内购变成免费），但手上只有一个 aab 安装包（上架 google play 用），现在需要转 apk ，他咸鱼找了个人，报价 200 元，后来他私聊我，这价格靠谱不，我说，你发我吧，免费给你搞，大概 1 分钟就好了，就一条命令而已。\n上链接：aab 转 apk： https://aabtoapk.online/\n开发经历：在 bolt 描述了大概 300 字蓝图，出来了一个我已经很满意的框架，UI 也比较现代化审美；把项目下载下来，用 cursor 打开，不断修修整整，过程就是一直在和 AI 聊天，有报错就贴给 AI ，网站前后端开发完成后，我没有部署网站的经验，此时就向 chatgpt 一顿输出，例如域名怎么绑定、一个服务器怎样给多个网站服务（ Nginx 反向代理）等等。\n网站现在是能用了，但还存在一些问题 AI 也无法解决，例如网站运行一段时间后服务器 cpu 就会占满 100%，此时连 ssh 也连接不上，只能重启机器（ AWS ），暂时在 AWS 设置了一个警告，CPU90%时就发邮件提醒，人工手动重启机器，哈哈哈哈哈，如果这个网站 DAU 能上来，这些问题还是得学习一下如何解决。",
+          "link": "https://www.v2ex.com/t/1102746",
+          "publishedOn": "2025-01-05T15:07:12.000Z",
+          "wordCount": 453,
+          "title": "用 AI 做了个工具网站： aab 转 apk",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102744",
+          "author": "XJYS",
+          "description": "XJYS: \n佬友们在下想买个沙发实木的 长度 4 米左右能带茶几电视柜最好 预算一万以下有什么推荐吗?那个平台靠谱点，有啥需要避坑的",
+          "link": "https://www.v2ex.com/t/1102744",
+          "publishedOn": "2025-01-05T14:57:51.000Z",
+          "wordCount": 370,
+          "title": "有大佬在网上买过沙发吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102743",
+          "author": "qqqtz",
+          "description": "qqqtz: \n想放一个在家，平时外出可以用平板 ssh 上去 nvim 写点代码",
+          "link": "https://www.v2ex.com/t/1102743",
+          "publishedOn": "2025-01-05T14:51:46.000Z",
+          "wordCount": 416,
+          "title": "M4 mini 24 小时不关机耗电多少",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102742",
+          "author": "Y9qn1d",
+          "description": "Y9qn1d: 红米 4k 显示器 typec 可以反向供电那款，电脑没连着显示器的时候，显示器那边的 usb-a 接口就没有电了吗？\n我看设置那边有休眠供电选项，但是灰色的没法选中，不知道是为啥。\n问了京东客服也不知道为啥。\n有大佬知道的吗？",
+          "link": "https://www.v2ex.com/t/1102742",
+          "publishedOn": "2025-01-05T14:44:59.000Z",
+          "wordCount": 382,
+          "title": "红米 4k 显示器 usb-a 口供电疑问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102741",
+          "author": "MXXXXXS",
+          "description": "MXXXXXS: \n25.1.5, 又是 burnout 的一天\n昨天刚在 reddit 看到一个帖子Why is burnout in gamedev such a common thing?, 很巧今天就是 burnout 的状态, 从早上 9 点写代码死磕错过中午午饭直到下午 1:30, 半小时解决后又从下午 2 点又死磕到 6 点, 整个一天解决了一个问题, 累得不行\n晚饭结束就是躺, 彻底燃尽, 各种负面情绪又爬出来, 无尽的空洞无意义感涌上心头,  虽然解决这个问题有点用但不多, 好消息是解决了\n被席卷而来的虚无感包裹, 感觉自己所谓的写代码越来越像是做土木装修\n自从 llm 从 23 年出现后了解新事物前所未有得便利, 很多以前因为缺乏了解无法实现的功能也变得可以通过反复调整 prompting 来获得一个简单的实现. 简而言之, 写代码从未如此容易无脑\n在文本编辑上, 几年的 vim 用下来纯纯肌肉记忆也不用动脑子, 通用模式就是开几个窗口把代码搬来搬去, 像极了贴瓷砖\n编辑器对平时用的语言支持丰富, 基本只需打几个字母然后 tab 补全, 时间长了感觉像是结巴无法完整地说完一句话\n总结, 变成了一个不动脑的贴瓷砖结巴力 :-(",
+          "link": "https://www.v2ex.com/t/1102741",
+          "publishedOn": "2025-01-05T14:43:59.000Z",
+          "wordCount": 423,
+          "title": "不动脑的贴瓷砖结巴",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102739",
+          "author": "bestrui",
+          "description": "bestrui: \n没有找到一款类似的工具，所以自己写了一个\nGithub 直达bestruirui/mihomo-check\n求⭐\n多线程 1000 个节点测试仅需 5 分钟\n低占用，200 个线程仅占用 15%CPU\n合并，去重，可用性，解锁情况一条龙",
+          "link": "https://www.v2ex.com/t/1102739",
+          "publishedOn": "2025-01-05T14:34:41.000Z",
+          "wordCount": 385,
+          "title": "订阅合并，去重，重命名，可用性检测",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102738",
+          "author": "perpetually",
+          "description": "perpetually: 电视是 vidda mini led 65 寸，优酷爱奇艺，腾讯都是收费而且资源很垃圾，V 友们有什么好的看电视资源的解决方案推荐一下？",
+          "link": "https://www.v2ex.com/t/1102738",
+          "publishedOn": "2025-01-05T14:32:38.000Z",
+          "wordCount": 378,
+          "title": "最近买了一台电视，寻求电视看 4k 资源的最佳方案？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102736",
+          "author": "mizuhashi",
+          "description": "mizuhashi: https://www.douban.com/note/869322076/",
+          "link": "https://www.v2ex.com/t/1102736",
+          "publishedOn": "2025-01-05T14:25:08.000Z",
+          "wordCount": 373,
+          "title": "我和公司博弈的經歷（學習積攢和使用權力）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102734",
+          "author": "Hatter",
+          "description": "Hatter: \n最近在看 java 的 volatile 这个东西，写了一块代码想测试一下，代码如下：\n\n我的理解是，如果变量 a 没有 volatile 修饰，那么理论上就应该线程 1 打印一次，其他线程空转不再打印\n但目前发现有一些情况：\n1 、如果不加 Thread.sleep 这行代码，程序能直接打印到 100 ，加了 sleep 才是死循环\n2 、去掉 sleep ，但把打印语句换成 System.out.println(Thread.currentThread().getName()+\":\"+su.getA());\n结果也会变成死循环\n所以想请教下 v 友两个问题\n1 、为什么我没加 volatile 也能打印到 100\n2 、为什么换了个输出语句就又打印不到 100 了。。。",
+          "link": "https://www.v2ex.com/t/1102734",
+          "publishedOn": "2025-01-05T14:09:44.000Z",
+          "wordCount": 516,
+          "title": "请教下 Java 的 volatile 以及一点多线程的疑问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102733",
+          "author": "cjun",
+          "description": "cjun: \n经历\n周四去了一趟香港，办理港卡，目标中银+汇丰+众安。\n中银提前预约，预约了彩虹分行，其他分行没预约上，去了哪里看了下资料，说要 10W+余额，当场拒绝。\n汇丰银行，提前预约没有预约上，网上其他同学说可以不用预约，当场 walk in 即可，9 点到的香港，跑了好几家，说当天没有开户的业务，又更换了 2 家，腿走断。最后一家当场拿号，等了 40 分钟。小姐姐态度还不错，回答问题有点小紧张，如果又拒绝，那今天白跑一趟香港了。最后给申请了，但是说要审核，到现在还没消息通知。\n众安+天星线上申请即可，难度不大。\n问题\n请问各位 V 友，中银又变了政策吗？因为之前没有看到过说要余额大于多少才给办卡？\n汇丰银行说要审核才给通过，不知道能不能过，地址还是填的拼音，还不知道卡能不能寄到，有碰到类似情况的同学吗？",
+          "link": "https://www.v2ex.com/t/1102733",
+          "publishedOn": "2025-01-05T14:08:50.000Z",
+          "wordCount": 404,
+          "title": "周四去香港办卡，中银需要余额 10W+",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102732",
+          "author": "andyzhaolau163",
+          "description": "andyzhaolau163: 远程岗位内推\n品牌（视觉）设计师、组件设计师、产品设计师\nWeb3 （产品、开发、测试）\n数据岗位（开发、分析、测试）\n产品经理（ SEO/ASO 方向）\nApp 开发工程师（ Flutter 、Android ）\n后端开发（ Golang 、PHP 、Linux C ）\n研发架构师/研发工程师\n机器学习架构师\n前端开发工程师\n项目经理",
+          "link": "https://www.v2ex.com/t/1102732",
+          "publishedOn": "2025-01-05T14:03:09.000Z",
+          "wordCount": 408,
+          "title": "远程岗位内推",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102730",
+          "author": "maninnet",
+          "description": "maninnet: 机器 IP 如下:   \n路由器 ER-X：192.168.2.1  \nAdGuard Home: 192.168.2.2:1053  \nPC: 192.168.2.3 \n现在将 ER-X 的 DNS 解析转发到 AdGurad Home, 并进行 DNS 重写，将*.abc.com 重写到 192.168.2.3  \n现在无论是通过 dig www.abc.com 还是 nslookup www.abc.com 都能返回到 192.168.2.3 这个 IP\n但是无论通过 curl 或浏览器进行 www.abc.com 都会重定向到 https://abc.com, 请问应该怎么配置才能让访问 www.abc.com 时直接访问到 192.168.2.3?",
+          "link": "https://www.v2ex.com/t/1102730",
+          "publishedOn": "2025-01-05T13:47:44.000Z",
+          "wordCount": 499,
+          "title": "请教一下 AdGurad Home 的 DNS 重写配置问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102729",
+          "author": "yqf0215",
+          "description": "yqf0215: \n会场舞台上，需要一拖四，两个头戴式麦克风，两个手持式麦克风，能推荐一些品牌和型号吗？\n价位最好在两三千。\n之前买过得胜的，价格在 1400 左右，声音感觉很闷，听不清楚。\n想买个一套声音清晰的。\n在一个 100 人左右的小会场，用于表演节目。\n请求，请指点品牌和型号。",
+          "link": "https://www.v2ex.com/t/1102729",
+          "publishedOn": "2025-01-05T13:39:34.000Z",
+          "wordCount": 413,
+          "title": "会场舞台上，需要一拖四，两个头戴式麦克风，两个手持式麦克风，能推荐一些品牌和型号吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102728",
+          "author": "xoxo419",
+          "description": "xoxo419: \n一直占用在 20~30 多%的 CPU 使用率",
+          "link": "https://www.v2ex.com/t/1102728",
+          "publishedOn": "2025-01-05T13:36:47.000Z",
+          "wordCount": 404,
+          "title": "在语雀写的笔记越来越多了，但也发现 CPU 使用率也跟着高了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102727",
+          "author": "zstyle1024",
+          "description": "zstyle1024: \n但一个人貌似只能认证两个微信，想问下这里的大神们，有什么建议吗？",
+          "link": "https://www.v2ex.com/t/1102727",
+          "publishedOn": "2025-01-05T13:35:02.000Z",
+          "wordCount": 338,
+          "title": "想搞个视频号矩阵， 30 个号左右，有什么可行的方法吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102726",
+          "author": "ixixi",
+          "description": "ixixi: 键盘 貌似也不好解决",
+          "link": "https://www.v2ex.com/t/1102726",
+          "publishedOn": "2025-01-05T13:33:20.000Z",
+          "wordCount": 383,
+          "title": "在普通的 win 笔记本上用 mac mini 是不是只能插 视频采集卡了 ?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102725",
+          "author": "InkNight",
+          "description": "InkNight: \n过段时间要去海外一段时间，但是家里的 HomeLAB 不能不管。\n前几天买了个 Unifi 的 USG ，默认带一个 OpenVPN 可以直接换掉 iKuai+OpenWRT ，墙内是没问题了，之前跨省用了两个月。\nWireguard 不知道为什么映射出来连不上。\n本人的逻辑是：\nOVPN 和 WG 的特征墙都已经滚瓜烂熟\nOVPN 主机在内，人在外链接的时候应该知道是往里连，封不封看心情。\nWG 属于互联的那种，两边都有可能是出口网关，根据流量特征判断哪边是出口网关。\nSS 这种倒也可以考虑一下，但感觉真用了迟早会上门。\nZerotier 和 Tailscale 不是很清楚，但是目前看也没有相对的实际案例？\n还请有真实案例的大佬说一下自己的方案",
+          "link": "https://www.v2ex.com/t/1102725",
+          "publishedOn": "2025-01-05T13:19:02.000Z",
+          "wordCount": 445,
+          "title": "请教海外如何以安全的方式回国内局域网？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102724",
+          "author": "xingye163",
+          "description": "xingye163: 因为每次重启群晖总是会掉盘，查了下说是这个 sata 背板的供电问题，因此前两天从淘宝买了个 sata 背板换上了，另外因为在群晖虚拟了个 Windows 做一些不确定安全性的应用，因此内存不怎么够，就顺手加了条内存，结果现在开机进不去群晖了，接显示器，看到进度是正常加载了，BIOS 里也能看到正确识别硬盘，路由器里也看到正确分配了 ip ，但是输入 ip 和端口就是进不去桌面，请问各位大佬这是什么情况，是否改变了硬件导致群晖保护了还是怎么的？\n求教，在线等。",
+          "link": "https://www.v2ex.com/t/1102724",
+          "publishedOn": "2025-01-05T13:18:48.000Z",
+          "wordCount": 430,
+          "title": "给蜗牛星际换了个 sata 背板后进不去群晖了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102723",
+          "author": "pig198x",
+          "description": "pig198x: \nMacBook Air m3 使用，1k-3k 预算，4k 显示器求推荐，谢谢。",
+          "link": "https://www.v2ex.com/t/1102723",
+          "publishedOn": "2025-01-05T13:00:57.000Z",
+          "wordCount": 419,
+          "title": "求推荐适合 MacBook Air m3 使用的 4k 显示器，预算 1k-3k",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102722",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia: \n写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo\n\n这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？\n截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了",
+          "link": "https://www.v2ex.com/t/1102722",
+          "publishedOn": "2025-01-05T13:00:10.000Z",
+          "wordCount": 552,
+          "title": "Microsoft 已经草台班子到这种程度了吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102721",
+          "author": "hxlgg01",
+          "description": "hxlgg01: \n之前在 YouTube 上看到了 cursor 这个软件，就下载试用了一下，然后就爱上了。鉴于我以前不懂电脑，有一段被 360 搜索折磨的经历，所以现在对很多国内搜索引擎恨之入骨。借着这个 AI ，写了个插件，可以让用户在使用此工具使用 360 、百度、神马、搜狗搜索时，获取 IP 并判断使用 bing 或者 google 搜索。有 chrome 扩展和 tampermonkey 脚本。\n下载地址：\nhttps://drive.google.com/drive/folders/19Tf3sTXPz59sltQjdUlyhWyYYgExyy86?usp=drive_link\n所有代码均在 github 上开源。\ngithub 库地址:\nhttps://github.com/Hank-Chromela/bingOrGoogle-noChinaSearthT\nhttps://github.com/Hank-Chromela/bingOrGoogle-noChinaSearthC\n有问题请在评论提出或者在 github 上提 issues",
+          "link": "https://www.v2ex.com/t/1102721",
+          "publishedOn": "2025-01-05T12:59:51.000Z",
+          "wordCount": 371,
+          "title": "完全用 cursor 写了一个浏览器插件",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102720",
           "author": "MJJMJJ",
           "description": "MJJMJJ: \n这家买之前要先注册和充值，月付 0.9 欧支持 Paypal 支付\n三网直连，联通快乐机\n购买地址\n\n输入优惠码\nNEWYEAR\n\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : QEMU Virtual CPU version 2.5+\n CPU 核心数        : 1\n CPU 频率          : 2699.998 MHz\n CPU 缓存          : L1: 64.00 KB / L2: 4.00 MB / L3: 16.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ❌ Disabled\n 内存              : 98.13 MiB / 964.53 MiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 1.05 GiB / 24.44 GiB\n 启动盘路径        : /dev/sda1\n 系统在线时间      : 0 d…",
@@ -372,7 +652,7 @@
           "description": "sfdev: \n其实早就想吐槽了。他只能做一些纯编码的出力活，稍微不把控就出现鬼打墙的情况。改了后面错了前面，反反复复前后矛盾的操作时有发生。经常为了修一个 bug 大刀阔斧的变更整个项目，前后不顾。对系统的架构和设计理解只能保持很短时间的记忆，稍不注意就把前面的改了。不得已只能写一份要求文档，对他所有的操作进行规范限制，但是往往也只能记一会，到后面就放飞自我了。必须时时刻刻审核，反复提醒，体验一言难尽。",
           "link": "https://www.v2ex.com/t/1102711",
           "publishedOn": "2025-01-05T10:39:07.000Z",
-          "wordCount": 439,
+          "wordCount": 450,
           "title": "看到有人吐槽 cursor，我也忍不住吐槽一下。",
           "imageUrl": null
         },
@@ -402,7 +682,7 @@
           "description": "starinmars: 在支付宝-“境外上网”开通的移动流量包，本地接入。\n在星光大道 4G 测速：上 21Mbit/s 下 21Mbit/s ，5G 刚始下行能跑到 50Mbit/s 但会降回来。延迟 37 左右，感觉比回地强很多（成都某小区延迟 70+）\n获取到的 IP 202.68.200.72 归属地：香港，Google TG X 都能上响应速度很快。\n总结：比单独买 sim 要方便很多。",
           "link": "https://www.v2ex.com/t/1102706",
           "publishedOn": "2025-01-05T10:31:38.000Z",
-          "wordCount": 368,
+          "wordCount": 369,
           "title": "漫游香港-移动流量包使用体验",
           "imageUrl": null
         },
@@ -414,276 +694,6 @@
           "publishedOn": "2025-01-05T10:18:53.000Z",
           "wordCount": 389,
           "title": "[VilVil] - 您的多平台视频下载助手！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102704",
-          "author": "stardust21",
-          "description": "stardust21: \n已经有很多在电脑和手机之间传输文本的工具了，为什么要再做一个呢？\n主要是在下面的场景下没有找到合适的工具：\n电脑不方便登录个人微信等通讯软件\n手机和电脑不在一个局域网\n期望使用起来方便快捷\n有一些在线的剪贴板可以满足需求，但是在手机浏览器上使用起来不太方便，所以基于一个免费的在线剪贴板服务做了一个手机 APP 和本地的 html 文件，内容保存到网站之前做了一个 base64 + 移位的简单编码，没有上 AES 加密主要是觉得这个场景一般也不会传输特别敏感的信息，不用太复杂的加密。\n手机端只做了 Android 版本，因为没有苹果开发者账号就没做 iOS 版本，不过使用 Flutter 写的，要支持也不麻烦\n截图\n \n项目地址\ntexttransfer",
-          "link": "https://www.v2ex.com/t/1102704",
-          "publishedOn": "2025-01-05T10:14:58.000Z",
-          "wordCount": 403,
-          "title": "文本传输助手-一个方便在手机和电脑之间快捷传输文本的工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102703",
-          "author": "zyxfsky",
-          "description": "zyxfsky: 爸妈家里之前用了一个小米盒子，最近开不了机，想重新搞个盒子，最近看了下当贝性价比还不错，腾讯极光的太贵了\n但是买来后发现 Plex 10.18 apk 版本因为没有签名安装不了，虽然选择了允许未知应用安装，但依然失败，然后又尝试 ApkMirror 的 apkm 格式，安装成功了，但是打开后一点击登录就闪退。 后面也尝试安装了 Emby ，可以启动登录，但是播放任何一个电影都会 App 重启\n之前小米盒子安装使用 Plex 还是比较顺利的，但是新款盒子感觉很坑\n我的需求是可以安装 Plex 和极空间，电视是比较老的 LG 电视，非 Android 系统，一般用 Plex 看我 NAS 里的电视剧和纪录片，也会用极空间看看照片\n爸妈家里放了一个极空间给他们存照片，我家里是 QNAP 的 NAS ，两边各放了一个蒲公英的盒子，平常都是 P2P 连接建好，我不怎么追求画质，下载的电影一般都是 1080p 或者 2k ，之前远程观看是没问题的\n现在就想找一个好用的盒子，甚至想搞个二手 4 代 AppleTV ，有没有好的方案推荐，跪谢",
-          "link": "https://www.v2ex.com/t/1102703",
-          "publishedOn": "2025-01-05T10:14:24.000Z",
-          "wordCount": 454,
-          "title": "当贝 H3S 无法按照 Plex TV 版，有没有好用的电视盒子推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102702",
-          "author": "moguiyu",
-          "description": "moguiyu: 终于准备入手 m4 macbook pro ，目前可以选择欧版，或者国内购买大陆或者香港版本。\n除了电源插头，键盘版本区别外，请问在不同区域使用功能上会有什么不同吗？\n例如 facetime 的功能，apple intellengent 的功能等，我查了一会发现各个地方说法不一。\n非常感谢已经入手的大佬分享下，多谢。",
-          "link": "https://www.v2ex.com/t/1102702",
-          "publishedOn": "2025-01-05T10:00:54.000Z",
-          "wordCount": 507,
-          "title": "MBP Macbook Pro 大陆版本和其他版本的区别",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102701",
-          "author": "rexue123",
-          "description": "rexue123: \n自己平时会看一些英文网站，但英文水平太差。PC 端还好，有各种浏览器插件，但是移动端没有跨 APP 的翻译软件。如果看到几个不认识的单词，需要先选中，复制，切换 APP ，再粘贴，翻译，十分繁琐。\n基于以上原因，我使用 IOS 的快捷指令和火山引擎的图片翻译 API ，实现了一个移动端屏幕翻译功能。具体内容看下面链接。\nhttps://mp.weixin.qq.com/s/1ij8lw6Essg-ehRcFnZSEg",
-          "link": "https://www.v2ex.com/t/1102701",
-          "publishedOn": "2025-01-05T09:58:10.000Z",
-          "wordCount": 351,
-          "title": "基于 IOS 的快捷指令和火山引擎的图片翻译 API，实现的移动端屏幕翻译功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102700",
-          "author": "kuanat",
-          "description": "kuanat: \n图片是这个：\nhttps://imgur.com/XiMulEC.jpg\n来源是 jordwalke reactjs 作者：\nhttps://x.com/jordwalke/status/1875336115009573268\n本意是想调侃一下，没想到对这个事情的认知分歧竟然这么大……\n这个问题可能和这两天火热的 Go 话题有点像，要可读性还是要生产力，还是做成年人？",
-          "link": "https://www.v2ex.com/t/1102700",
-          "publishedOn": "2025-01-05T09:57:18.000Z",
-          "wordCount": 1056,
-          "title": "我转发了一张图到前端群，大周末的群里已经爆炸了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102699",
-          "author": "ddddd0",
-          "description": "ddddd0: \nduolingo  english speaker 的 intermidiate english 难度不太够",
-          "link": "https://www.v2ex.com/t/1102699",
-          "publishedOn": "2025-01-05T09:49:01.000Z",
-          "wordCount": 443,
-          "title": "duolingo 的 intermidiate english 难度不太够，有什么好的方法或软件上上强度吗？最好也是像 duolingo 一样比较好玩的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102697",
-          "author": "liaosy",
-          "description": "liaosy: \n「新岁启程，与君同行」极限科技诚招 Elasticsearch 开发工程师！\n欢迎搜索技术热爱者加入我们，共同打造高效、智能的搜索解决方案！\n在招岗位介绍\n岗位名称\nElasticsearch 开发工程师\n岗位职责\n维护和开发基于 Elasticsearch 的搜索业务代码，优化搜索功能，提升用户体验；\n深入研究 Elasticsearch 和 Lucene 内核，定制优化底层功能以满足业务需求；\n优化索引策略、查询性能和存储效率，提升系统扩展性与稳定性；\n负责搜索集群的配置、监控和维护，确保高可用性与安全性；\n编写技术文档，与团队协作解决复杂问题，支持业务需求落地。\n岗位要求\n计算机相关专业，本科及以上学历，3 年以上 Elasticsearch 开发经验；\n熟悉 Elasticsearch 和 Lucene 核心模块，掌握 Java 后端语言；\n深入研究过 ES 或者 Lucene 代码，能基于 ES 开发插件；\n深入理解全文检索原理、索引优化与查询性能调优；\n有分布式系统开发经验，能够诊断并解决性能瓶颈；\n有 Elasticsearch 二次开发或插件开发经验；\n善于分析和解决问题，具备良好的沟通与协作能力；\n北京全职，接受出差或客户现场驻场开发。\n加分项\n有自己的博客、Github 、顶级开源项目贡献者优先；\n有 Lucene 或者 Elasticsearch 源码 Commit 贡献优先；\n有 Elastic Certified Engineer 认证优先；\n有较强的学习能力，愿意致力于新技术的研究。\n简历投递\n邮件： hello@infini.ltd （邮件标题请备注姓名+求职岗位）\n微信：INFINI-Labs （加微请备注求职岗位）\n\n我们期待有才华、有激情的你加入我们，一起探索数据搜索的未来，共同创造无限可能！\n关于极限科技\n如果你还不了解 极限科技（ INFINI Labs ） 是谁，在做什么，需要什么样的小伙伴，那么请看下文：\n我们是谁\n\n极限科技，全称极限数据（北京）科技有限公司，是一家专注于实时搜索与数据分析的软件公司。旗下品牌极限实验室（ INFINI Labs ）致力于打造极致易用的数据探索与分析体验。\n极限科技是一支年轻的团队，采用天然分布式的方式来进行远程协作，员工分布在全球各地，希望通过努力成为中国乃至全球企业大数据实时搜索分析产品的首选，为中国技术品牌输出添砖加瓦。\n官网： https://infinilabs.cn\n我们在做什么\n极限科技（ INFINI Labs ）正在致力于以下几个核心方向：\n1 、开发近实时搜索引擎 INFINI Easysearch\nhttps://infinilabs.cn\n2 、打造下一代实时搜索引擎 INFINI Pizza\nhttps://pizza.rs\n3 、打造 Coco AI — 搜索、连接、协作\nhttps://coco.rs\n4 、积极参与全球开源生态建设\nhttps://github.com/infinilabs\n5 、提供专业服务\n6 、提供国产化搜索解决方案\n极限科技（ INFINI Labs ）通过这些努力，旨在成为全球领先的实时搜索和数据分析解决方案提供商。",
-          "link": "https://www.v2ex.com/t/1102697",
-          "publishedOn": "2025-01-05T09:37:31.000Z",
-          "wordCount": 551,
-          "title": "[北京/全职] 招聘 Elasticsearch 开发工程师 20-40K - 极限科技（INFINI Labs）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102696",
-          "author": "GabrielleBellamy",
-          "description": "GabrielleBellamy: \n本人是网络相关的小白。最近因为把 Surge 升级到最新了，于是想尝试一下 Ponte 内网穿透，连接家里的 NAS ，但一点都没成功。我已经把站里大部分与 Surge Ponte 有关的帖子都看了一遍，也照着更改了几遍，但我的设备还是没法正常运行，请大佬支支招～\n情况如下：\n我有一个 Apple TV ，上面运行了 Surge ，设定了 Always On ，因此应该是不会断开的。\n所有设备上都装有 Surge ，都是最新版本。\nApple TV 上打开了 Ponte ，设置的类型为 NAT Traversal 。设置这个类型是因为我用 MacBook Pro 上的 Surge 检测了一下，可以支持 Full Cone NAT ，于是就选择了这个类型。其他类型我也都试过，都没成功。（没有公网 IP ，因此静态端口转发肯定不会成功）名称设置成了 appletv 。\nApple TV 端使用了独立的配置文件，配置文件中不包含 IP-CIDR 到其他设备的规则。\n同时，Apple TV 配置文件的开头，skip 的部分保留了192.168.0.0/16, 而在所有客户端上将这一条删去了。\n在客户端上，设置规则IP-CIDR,192.168.0.185/24,DEVICE:appletv，放在配置文件较后的位置，具体位于 GEOIP,CN,\"🎯 全球直连\"和 FINAL,🐟 漏网之鱼的前面，彼此紧接着。192.168.0.185 是我家里网络里 NAS 的地址，这样写应该是没问题的吧？\n接着我配置了各个设备端，然后想测试一下官网手册给出的用例，结果都失败了。其中，连接系统文件共享服务是用 MacBook Pro 作为服务器测试的，当然不出意外也是失败的。报错为“The operation couldn't be completed. Operation not supported”。在测试通过这个 Ponte 访问家中其他设备时，自然也是连不上。\n我发现，当我在家里（服务器端）的网络下时，Ponte 诊断显示一切正常，只是提醒我在同一个网段下的时候 ponte 转发不会被激活。然而当我离开家、换成别的网络的时候，在 Surge 内的 Ponte 似乎也显示异常，诊断结果是“Surge on the remote device may not be turned on. (POSIX:61)”。这样来说其实还是没有成功打通的样子。\n请问各位大佬们，我漏掉了什么步骤吗？或者路由器的什么设置需要我特别配置的？我没有公网 IP ，暂时就不考虑这个类型了（很多教程都是基于公网 IP 的，似乎更顺利一些）。谢谢谢谢🙏",
-          "link": "https://www.v2ex.com/t/1102696",
-          "publishedOn": "2025-01-05T09:36:25.000Z",
-          "wordCount": 662,
-          "title": "想请教一下网络大佬们， Surge 的 Ponte 在 Apple TV 上内网穿透回家访问 NAS 没成功，是哪里出错了呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102695",
-          "author": "ZZ74",
-          "description": "ZZ74: \n不是宽表。表结构 id 是自增列，一个 varchar 列，类似于订单号，建了索引。剩下就是创建更新时间，以及四五个 varchar 类型的列。\n现象是插入慢，log 看每次插入要一到两秒不止。    \n降低表中的数据到 3 百万或者更少，就没问题了     \n看看各位有啥思路或者经验",
-          "link": "https://www.v2ex.com/t/1102695",
-          "publishedOn": "2025-01-05T09:24:01.000Z",
-          "wordCount": 399,
-          "title": "阿里云的 Sqlserver 六七百万的数据，插入慢，各位有什么排查或者解决建议",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102694",
-          "author": "huguadao",
-          "description": "huguadao: \nRT ，不知不觉的，就 1000 天了，自己从打工模式切换到了创业模式，翻天覆地的转变，学到了不少，感谢 v 站",
-          "link": "https://www.v2ex.com/t/1102694",
-          "publishedOn": "2025-01-05T09:18:32.000Z",
-          "wordCount": 363,
-          "title": "注册 V 站 1000 天了，留个帖",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102693",
-          "author": "sheeeran",
-          "description": "sheeeran: 23 年底换工作后，开始在新公司接手做一款小众音乐 app 。从一开始的斗志昂扬，到现在已经有点生无可恋：新增留存率不太行，产品数据上不去。其中难点不展开说了，只想让大家评价下这个产品，看是否有继续的必要。现在不确定产品是否伪需求，还是说需求存在但我做得不够好（确实也知道哪些地方做得不好）。\nApp 名：云赏 HIFI ，一款私人无损音乐云盘产品，特色为：\n1️⃣支持轻松搭建私人音乐库。无需研究复杂昂贵的 nas 、公网访问、播放器配置，就像使用网盘产品一样，轻松使用；灵活的管理能力，支持自定义专辑封面、排序、歌词等信息，支持自定义分类。\n2️⃣对无损格式的充分支持。支持各种无损格式音乐的上传和在线播放；支持 dlna 无损投播到音箱，突破 AirPlay 和蓝牙的码率限制； Android 支持独占 usb 输出，突破系统采样率限制。\n3️⃣多端同步。私人收藏的无损音乐，无需人肉来回转移拷贝，支持 iOS 、Android 、网页端、小程序同步使用。\n4️⃣数万手正版免费无损音乐，以古典乐为主。\n5️⃣简洁、无任何广告。\n各大应用市场均可搜索「云赏 HIFI 」下载。\nhttps://apps.apple.com/cn/app/%E4%BA%91%E8%B5%8Fhifi/id1579022810\n对于喜欢收藏专辑、听专辑，且对音质、风格简洁有要求的音乐爱好者，可以尝试一下。不同于主流音乐 app 的订阅式租用，云赏是用户可以私人占有的音乐角落，就像是实体收藏唱片墙的数字版分身。\n「送码说明」\nApp 免费也可使用，会员能多一些权益。\n1️⃣如需会员兑换码，可直接留言，我周一找同事配置后回复，可兑换 30 天会员。\n—兑换码使用方式：\n——Android 客户端：打开 app → 我的 →会员中心 →拉到页面底部的“兑换会员”→ 输入口令兑换；\n——iOS 客户端：苹果商店不允许提供会员兑换手段，可移步微信小程序里的会员中心兑换（点击头像旁边的会员标签进入）\n2️⃣如果不想留言，也可直接通过我的好友邀请链接注册，注册成功后使用 app 登录，自动享有 30 天会员。\nhttps://m.imusic.cn/h5v/yunting/ShareForAwardH5/rewardIndex?signature=7609233aefe816429ef768e43a07e08e&cc=5206",
-          "link": "https://www.v2ex.com/t/1102693",
-          "publishedOn": "2025-01-05T09:18:28.000Z",
-          "wordCount": 503,
-          "title": "「送码」私人音乐云盘 app 接手做了一年，挺艰难的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102692",
-          "author": "LxnChan",
-          "description": "LxnChan: \n目前有一台服务器，具备 4 个千兆电口，与交换机的 4 个电口做了聚合，交换机的聚合口设置为了 Trunk 口，允许 vlan 1-20 ，服务器上创建了 nm-bond.01-20 共 20 个 VLAN 的虚拟网卡，每个虚拟网卡上都配置有单独的网关和 IP 地址。\n所以目前的话是服务器上有 20 个 IP ，想指定出去的流量都走某个 VLAN 接口，但同时还需要向所有网卡提供服务（如 DNS 、nginx 等），求问此时最佳实践是怎么样的。\nPs：我这里试过了不使用接口的默认路由，然后手动创建路由到接口，但此时外部无法访问该接口提供的服务。\n日志见 pastebin： https://paste.ubuntu.com/p/xJxFbXDfTf/",
-          "link": "https://www.v2ex.com/t/1102692",
-          "publishedOn": "2025-01-05T09:17:12.000Z",
-          "wordCount": 433,
-          "title": "求问 Linux 下多网卡多 IP 的服务器提供服务的最佳实践是怎样的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102690",
-          "author": "Tiaa",
-          "description": "Tiaa: 想问问大家什么原因，为什么最近使用 gpt 生成一些代码或则其它内容（文字性）时，gpt 出现的内容总是会出现缺少的问题，或则说压根就不给你出现了，我暂时用的是手机热点来使用的，测试了一下感觉不太可能是网络问题，不知道有没有其它的朋友遇到了这种情况呢？",
-          "link": "https://www.v2ex.com/t/1102690",
-          "publishedOn": "2025-01-05T08:55:59.000Z",
-          "wordCount": 390,
-          "title": "#ChatGPT#openAI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102689",
-          "author": "alect",
-          "description": "alect: 电脑有空余的 PCIe X16 插槽，想搞一个 U2 的转接卡然后捡个洋垃圾，该怎么选比较靠谱？\n最近有没有什么大船啊？",
-          "link": "https://www.v2ex.com/t/1102689",
-          "publishedOn": "2025-01-05T08:52:54.000Z",
-          "wordCount": 377,
-          "title": "想捡洋垃圾， U2 固态硬盘，应该选哪个？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102687",
-          "author": "wryyyyyyyyyyyy",
-          "description": "wryyyyyyyyyyyy: 究竟是谁在说 2 、3 天就能写一个网站出来，之前都是自己写，不懂就 chat ；最近总看到不懂程序的小白啊，产品经理啊，没有基础靠 cursor 就能写出一个网站来 ，就用了一下 composer ，确实速度很快生成了一大堆代码，但 python 库一多，就骨头不顾屁股，bug 一大堆。\n举个例子：\n我用 fastapi 些项目 ，需要迁移，迁移是不支持用异步驱动的，但 fastapi 生成的时候用的异步，cursor 就像用异步的库来配置 alembic ，发现不支持，就把异步删了换同步，顺便把 fastapi 的异步库删了，但前面的代码都是用的异步代码，他有自己给加回来，然后又把同步的库删掉， 开始循环。\n是 fastapi 有什么难度吗？还是我的操作有问题？",
-          "link": "https://www.v2ex.com/t/1102687",
-          "publishedOn": "2025-01-05T08:44:14.000Z",
-          "wordCount": 680,
-          "title": "被 cursor 气出脑血栓",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102686",
-          "author": "YoungKing6",
-          "description": "YoungKing6: 价格 2K-3K",
-          "link": "https://www.v2ex.com/t/1102686",
-          "publishedOn": "2025-01-05T08:42:50.000Z",
-          "wordCount": 423,
-          "title": "iPad 用了 6 年，有点疲劳，有没有适合看视频的安卓平板的推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102685",
-          "author": "shoebill",
-          "description": "shoebill: 如题 近期要去那边 看繁体字不是问题 想尝试买几本比较好看的繁体字书 历史 地理 人文方面的 最好是大陆没有对应简体版的 有没有朋友推荐一下书店和书 不胜感激",
-          "link": "https://www.v2ex.com/t/1102685",
-          "publishedOn": "2025-01-05T08:30:29.000Z",
-          "wordCount": 438,
-          "title": "最近去香港 有没有推荐的书店和书",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102684",
-          "author": "3825995121",
-          "description": "3825995121: \n我从 ftx 索赔网站点击到 BitGo 注册的，注册完了也一直没有发送邮件啥的，\n等了一周之后，我邮件联系了 support@bitgo.com 然后邮件给我发了一个链接进行 kyc\n然后我完成了身份信息填写，提交申请\n等了一天邮件通知提示我 请提供翻译成英文的政府颁发的带照片的身份证",
-          "link": "https://www.v2ex.com/t/1102684",
-          "publishedOn": "2025-01-05T08:28:57.000Z",
-          "wordCount": 398,
-          "title": "ftx 最近开始赔款了,但是第 8 步的时候选择了 BitGo,BitGo 在 kyc 的时候需要提供政府签发的带照片的身份证件并翻译成英文，不知道怎么弄了😓",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102681",
-          "author": "xianyukang",
-          "description": "xianyukang: \n(0) 如题\n(1) 比如转账/扣款相关的业务，推荐用悲观锁还是乐观锁?\n(2) 脑补了如下的乐观锁实现，可以满足并发转账和取钱需求吗? \n(3) 如果能，那么和悲观锁 select for update 作对比哪个更好?\n# 数据库初始状态\nTRUNCATE account;\nINSERT INTO account (id, name, balance, version)\nVALUES (1, 'ichigo', 10, 1),\n       (2, 'rukia', 10, 1);\n\n# 并发事务 1 转出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nSELECT version FROM account WHERE id = 2;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nUPDATE account SET balance = balance + 10, version = 2 WHERE id = 2 AND version = 1;\nCOMMIT;\n\n# 并发事务 2 取出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nCOMMIT;",
-          "link": "https://www.v2ex.com/t/1102681",
-          "publishedOn": "2025-01-05T08:17:09.000Z",
-          "wordCount": 649,
-          "title": "数据库中 select for update 和 version 乐观锁各自的适用场景是啥?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102680",
-          "author": "zebsave",
-          "description": "zebsave: 前几天开发完一个 app 满怀欣喜的上架，填写完毕 app 应用信息后提交审核，不到 2 天就收到了账号封禁的邮件，直接啥也不给操作了，现在还是懵逼状态，我的这个 app 是一个蓝牙控制 app 用到了蓝牙、定位权限，无广告，无网络请求，但是还是被封禁了，而且看情况封的是账号，怎么办有没有大佬帮助一下看看是什么情况。",
-          "link": "https://www.v2ex.com/t/1102680",
-          "publishedOn": "2025-01-05T08:13:05.000Z",
-          "wordCount": 378,
-          "title": "Google Pay 上架遭移除账号",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102679",
-          "author": "Charlie17Li",
-          "description": "Charlie17Li: \n背景\n心血来潮，想买个 s9(不锈钢)，奈何囊中羞涩，打开了小黄鱼，发现有很多美版蜂窝官换机(s9 不锈钢 未激活 3000)，同时也遇到有买了这种官换机又在小黄鱼出的（对方明确说了也是小黄鱼 10 月份买的官换机， 追问他为啥出，说是换手机了？ os: 10 月买的，不到三个月就换手机？）\n疑问：\n想问下这种有啥坑吗， 甚至还说有 AC ，能保 1 年(对方说如果需要使用 AC ，需要找他补开凭证，也就是不转 AC)，有点心动但是被坑，求指点 Orz\n或者有其他平台可以买吗",
-          "link": "https://www.v2ex.com/t/1102679",
-          "publishedOn": "2025-01-05T08:07:27.000Z",
-          "wordCount": 399,
-          "title": "[二手 Watch] 请问小黄鱼二手官换 watch s9 有坑吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102678",
-          "author": "zzq825924",
-          "description": "zzq825924: \n可以有频道，群组的功能，每个人可以创建自己的频道，每天的所思所想可以在频道里发。其他人可以关注频道，收取频道的消息。可以围观，点赞。",
-          "link": "https://www.v2ex.com/t/1102678",
-          "publishedOn": "2025-01-05T08:03:41.000Z",
-          "wordCount": 390,
-          "title": "为什么国内没有类似 Telegram 的产品？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102677",
-          "author": "zhwguest",
-          "description": "zhwguest: \n我有一个 Postgres 数据库，其中有一个表格records用于记录温湿度记录。\n每天产生的数据很多，因为生产环境资源有限，我必须周期性将比较久的历史记录（比如 3 个月前）删除掉。\n但是，这些删除的记录实际上是有意义的，只能在生产环境删除，在后台环境实际要保留。我想到两个方案来实现：\n方案 A：\n在后台环境对生产环境进行 logical replication ，但是指定订阅的动作是INSERT和UPDATE，这样即使每天将历史记录删除，也不会同步删除后台环境的记录，从而保持下来了。\n但是这样有个问题，就是如果万一有一天需要重新同步（比如发生故障后主备切换，重新建立发布-订阅关系），那么这些历史数据就无法简单的保留了。\n方案 B:\n在后台环境对生产环境进行 logical replication ，对records表格进行常规的所有操作同步。但是在后台环境的数据库中建立一个新的同结构备份表格，比如archive_records。当从生产环境删除的时候，同时将记录移动到archive_records表中。\n这种方式有个不好的地方，就是跨库操作相对比较麻烦一点，需要用到 dblink 等操作。另外如果表格修改后，这一堆操作可能都得重新审计。\n不知道各位大佬觉得哪个好，或者有没有更好的方案。",
-          "link": "https://www.v2ex.com/t/1102677",
-          "publishedOn": "2025-01-05T07:57:14.000Z",
-          "wordCount": 357,
-          "title": "关于数据进行历史删除和备份方案选择",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102676",
-          "author": "wudaonongjian",
-          "description": "wudaonongjian: 杭州地区满 3 个月的联通卡（无宽带），免费领取一条 300M 宽带使用一年，一年后永久 10 元每月，安装费 100 ，可全返。\n免费领取一条 1000M 宽带使用一年，一年后永久 20 元每月，安装费 158 ，可返 100 。\n移动和电信用户携转到联通可以办理 50 月租 195G 流量和 150 分钟通话+1 张副卡+300M 宽带，永久资费。\n联系 base64:(bGlhbnRvbmcwNTcx)",
-          "link": "https://www.v2ex.com/t/1102676",
-          "publishedOn": "2025-01-05T07:52:56.000Z",
-          "wordCount": 391,
-          "title": "杭州有联通卡没办宽带的，现在有活动",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102675",
-          "author": "ivmm",
-          "description": "ivmm: \n搬瓦工：POWERBOX 来袭，三网 CN2GIA 线路+1.5T 大流量，终于不用邀请码了\n搬瓦工新款：POWERBOX 来袭！🚀🚀🚀\n😎 \n配置参数：\nCPU：1 核 Intel\n内存：1536MB\n硬盘：30 GB SSD\n流量：1500 GB/月\n带宽：2.5Gbps\n线路：三网回程 CN2GIA\n价格: $41.9/年（循环折后，续费同）\n🈶🈶🈶折扣码：BWHCGLUKKB (-6.77%，循环) \n🔗 🔗 🔗 购买链接：点击跳转\n亮点：\n✨ 三网回程 CN2GIA ，去程 CN2GIA+CU4837+CMIN2\n✨ IP 被墙 30 天内可退款，售后无忧 \n✨ DC99 新数据中心，目前应该是脱离测试阶段了，不内测了\n✨ DC99 将率先上线搬瓦工的 IPv6\n相较 MiniBox 升级点：\n磁盘：10G → 30G\n内存：512Mb → 1536Mb\n流量：500 GB/月 → 1500 GB/月\n带宽：1Gbps → 2.5Gbps\n价格小幅提升，性能翻倍，性价比更高！\n解锁详情\n可能使用瓦工的 DNS 来提升解锁：\n172.31.255.2 就是瓦工用来解锁的内网 DNS IP ，也就是瓦工自己的代理。\nDazn: Failed ❌ (Error: )\nDisney+: No 🚫 (IP Banned By Disney+ 1)\nNetflix: Originals Only 🎬\nYouTube Premium: Yes ✅ (Region: US 🇺🇸)\nAmazon Prime Video: Yes ✅ (Region: US 🇺🇸)\nTVBAnywhere+: Yes ✅\nSpotify Registration: Yes ✅ (Region: US 🇺🇸)\nOneTrust Region: US [California] 🌎\niQyi Oversea Region: US 🇺🇸\nBing Region: US 🇺🇸\nYouTube CDN: Los Angeles, CA 🌴\nNetflix Preferred CDN: Los Angeles, CA 🌴\nChatGPT: Yes ✅\nGoogle Gemini: Yes ✅ (Region: USA 🇺🇸)\nWikipedia Editability: No 🚫\nGoogle Play Store: United States 🇺🇸\nGoogle Search CAPTCHA Free: Yes ✅\nSteam Currency: USD 💵\nReddit: No 🚫",
-          "link": "https://www.v2ex.com/t/1102675",
-          "publishedOn": "2025-01-05T07:47:04.000Z",
-          "wordCount": 566,
-          "title": "🧱搬瓦工🧱： POWERBOX 来袭🚀🚀🚀，三网 CN2GIA 线路+1.5T 大流量，终于不用邀请码了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102672",
-          "author": "leoexp",
-          "description": "leoexp: \n职业背景：\n6 年 QA ，15 年产研及项目交付经验，熟悉 Scrum/SAFe/瀑布式敏捷，灵活运 WBS,CPM,EVM 进行进度、成本管控。\n有跨国团队协作经验，英语熟练。\n善于迭代，总结分享自己的方法论和最佳实践。\n其他:\n据说 40+就没有机会，实际也是这样，面试机会屈指可数，大家如果有合适的机会帮忙内推一下，也可以交流下后半生方向，感谢！！！",
-          "link": "https://www.v2ex.com/t/1102672",
-          "publishedOn": "2025-01-05T07:35:40.000Z",
-          "wordCount": 392,
-          "title": "[郑州/北京/上海][PMO/project manager/Scrum Master]20 年 QA/PM/SM/PMO 求职，外企+私企+国企中厂背景，年龄尴尬，求内推，或者帮忙分析出路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102671",
-          "author": "AndyLeo",
-          "description": "AndyLeo: \n网址： https://www.tiktokemoji.co/\n我做了这个简单的在线工具，让大家都能轻松找到想要的 TikTok 的 Emoji 表情！\n工具特点：\n🌟 一键复制：看到喜欢的表情，点击就能用，超级方便！\n🎨 分类清晰：想要什么类型的表情一目了然\n✨ 随时更新：及时收录最新最火的 TikTok 表情\n界面超简单，打开网站就能直接用，不需要注册登录。特别适合经常在 TikTok 评论的小伙伴！\n目前还是第一版，后续会加入更多好玩的功能。如果你有什么想法或建议，随时告诉我哦！\n来试试看吧，让你的评论与众不同！✌️",
-          "link": "https://www.v2ex.com/t/1102671",
-          "publishedOn": "2025-01-05T07:34:46.000Z",
-          "wordCount": 380,
-          "title": "花半天时间开发了一个 TikTok 的 Emoji 网站",
           "imageUrl": null
         }
       ]
