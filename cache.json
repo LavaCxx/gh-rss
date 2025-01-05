@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -173,33 +167,6 @@
           "wordCount": 1052,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -355,7 +322,7 @@
           "description": "YooJoo: \n在 V2EX 官网找了一圈也没发现哪里可以修改用户名。邮箱倒是可以修改。\n有知道的兄弟吗？",
           "link": "https://www.v2ex.com/t/1102627",
           "publishedOn": "2025-01-05T03:46:45.000Z",
-          "wordCount": 1284,
+          "wordCount": 1439,
           "title": "V2ex 可以换用户名吗？",
           "imageUrl": "/static/icon-192.png"
         },
@@ -375,7 +342,7 @@
           "description": "yanhuqing666: \n“ 林泽与安然在繁华的都市当中合租了一间公寓。林泽是一枚内向木讷的程序员，安然则是位开朗活泼的艺术系女生。同一屋檐下，两颗年轻的心渐渐靠近。”\n深夜，林泽的房间里，机械键盘富有节奏的敲击声和散热风扇的嗡嗡声构成了唯一的交响乐。作为一名“与代码共舞”的程序员，林泽此刻正沉浸在自己的数字世界中，追踪一个狡猾的 bug 。他紧锁的眉头和飞速敲击键盘的手指，都显示着这场人机大战的激烈程度。\n突然，一阵急促的敲门声打破了这片和谐。“林泽！林泽！快开门！”安然的声音带着明显的慌乱，像是被什么东西追赶着。\n林泽一愣，这大半夜的，安然这是怎么了？他急忙起身开门，门外的景象却让他瞬间呆住。\n安然穿着一件丝质的吊带睡裙，领口开得很低，露出大片细腻如凝脂的白皙肌肤，饱满的山丘随着她的呼吸轻轻起伏，胸前的曲线在轻薄的丝绸下若隐若现。细细的肩带摇摇欲坠，勉强挂在她那圆润白皙的肩头，仿佛随时都会滑落。睡裙的下摆只堪堪遮住大腿，一双修长匀称的美腿毫无保留的展现在林泽眼前，在昏暗的灯光下泛着诱人的光泽。她的头发有些凌乱，脸上带着惊恐和一丝……红晕？这幅模样，简直就像是从某个浪漫电影中走出来的女主角，只是这剧情，似乎有点跑偏了？\n\n林泽的喉结不自觉地上下滚动了一下，脑海中闪过无数个旖旎的念头。他努力地清了清嗓子，试图让自己的声音听起来正常一些：“安……安然？你终于要对我下手……”\n“有老鼠！”安然的声音带着颤音，直接打断了林泽那些不切实际的幻想，“我房间里有老鼠！吓死我了！”\n“老鼠？”林泽的大脑瞬间从旖旎模式切换到了 bug 模式，刚才的那些粉色泡泡“啪”的一声全破了。“你确定是老鼠？不是……幻觉？”\n“怎么可能是幻觉！”安然有些生气地跺了跺脚，裙摆下修长的大腿晃得让人心神荡漾，林泽的视线不知道该往哪里放，“我亲眼看到的，就在我床底下！”\n好吧，看来是真的有 bug 了，而且还是一个现实世界的 bug 。林泽迅速冷静下来，程序员的逻辑思维开始上线：“你先别慌，我们一起去看看。”\n两人蹑手蹑脚地回到安然的房间。房间里弥漫着淡淡的香气，那是安然惯用的香水味，混合着她身上散发出来的淡淡的沐浴露的味道，让林泽的心跳又开始加速。林泽环视四周，努力地把注意力集中在找老鼠这件事上，但安然那若隐若现的曲线总是时不时地闯入他的视线。\n“在那里！”安然突然指着床底说道。\n林泽顺着她手指的方向看去，果然，一个灰影一闪而过，速度快得惊人。“看到了！”林泽低声说道，“果然有老鼠，我们得想办法把它抓住。”\n一场人鼠大战就此拉开序幕。两人拿着扫帚、拖把等工具，试图抓住这小小的不速之客，但那只老鼠明显比他们两人更敏捷，总能在关键时刻溜走。\n“这样不行，这老鼠比 bug 都难定位，”林泽喘着粗气说道，“我们得改变策略。可这大半夜的，也没地方去买工具呀，这怎么办呢？”\n他在那里原地发呆了大概几分钟，突然眼睛一亮：“我有办法了！”\n那么程序员林泽到底是怎么抓到老鼠的呢？请看下集\n未完待续...\n点这里看其他程序员的故事",
           "link": "https://www.v2ex.com/t/1102625",
           "publishedOn": "2025-01-05T03:40:43.000Z",
-          "wordCount": 381,
+          "wordCount": 402,
           "title": "深夜，她穿着吊带裙，敲响了程序员室友的卧室门",
           "imageUrl": null
         },
@@ -385,7 +352,7 @@
           "description": "wali77: ## 重点在前面\n1. 有两位数的 hc ，欢迎大家投简历\n2. 面试流程不会考八股文，但是要求至少在一个领域理解很深入，现在技术变化很快，只有理解了本质，才能不变应万变；要求你对现在做得事情有自己的理解和判断，对自己做的产品了如指掌。\n3. 我们这里挑战很大，高扩展性、高性能、高质量的系统开发是基本要求，如果你在推荐工程、AI 领域有自己的经验或者探索，这会是极大的加分项。如果你能把自己擅长的东西运用到工作上，并且带来指标上的提升，那么好绩效和晋升是属于你的。\n4. 我们不鼓励加班，我们鼓励你花时间开发各种工具来提升工作效率。当然，遇到公司年度 S 级的项目，恰好你在这个项目里，大概率是要加班的。\n\n## 岗位职责：\n1. 参与后端系统开发设计。\n2. 根据项目需求进行系统架构设计。\n3. 编写系统相关的技术文档。\n4. 确保软件质量及性能，进行系统优化。\n5. 结合业务场景进行性能优化，提升系统可用性。\n6. 与上下游同学对接，保质保量地推进业务需求。\n## 任职要求：\n1. 计算机相关专业，本科或以上学历。\n2. 具备 1 年以上的工作经验。\n3. 熟练使用 Java 、Python 、C++等至少一种编程语言。\n4. 有过数据库设计经验，熟悉 MySQL 等数据库。\n5. 熟悉 Linux 操作系统，能熟练使用 Shell 指令。\n6. 具有良好的语言表达能力和团队合作意识。\n7. 有责任心，抗压能力强。",
           "link": "https://www.v2ex.com/t/1102624",
           "publishedOn": "2025-01-05T03:26:46.000Z",
-          "wordCount": 470,
+          "wordCount": 474,
           "title": "支付宝招聘公告，大家都来看看呀 --- 经常逛这个论坛，第一次发招聘",
           "imageUrl": null
         },
@@ -405,7 +372,7 @@
           "description": "guoguobaba: \n设置了 clash ，pc 上访问 google.com 正常，能看到 clash 日志显示：\n[2025-01-05 11:03:54][INFO] [TCP] 192.168.10.100:56469 --> play.google.com:443 match DomainKeyword(google) using FGFW[CF 随机节点 2]\n\n但是 iphone 访问 Google.com ，好像是先解析 ip ，再请求的，所以 clash 日志是这样的\n[2025-01-05 11:04:09][INFO] [TCP] 192.168.10.133:65032 --> 199.16.158.182:443 match Match using FGFW[CF 随机节点 2]\n\n这个 199.16.158.182 应该是污染的 ip ，所以访问失败，或者证书错误。\n这个需要做什么设置吗？",
           "link": "https://www.v2ex.com/t/1102621",
           "publishedOn": "2025-01-05T03:09:01.000Z",
-          "wordCount": 516,
+          "wordCount": 541,
           "title": "iPhone 在 clash 下仍然 dns 解析错误",
           "imageUrl": null
         },
@@ -425,7 +392,7 @@
           "description": "886106: 感谢感谢",
           "link": "https://www.v2ex.com/t/1102618",
           "publishedOn": "2025-01-05T03:06:25.000Z",
-          "wordCount": 428,
+          "wordCount": 432,
           "title": "现在 inoreader 越来越贵，各位大佬门有折扣门路或者替换方案么？",
           "imageUrl": null
         },
@@ -435,7 +402,7 @@
           "description": "hbtech: 但是手机号验证两种方式都有",
           "link": "https://www.v2ex.com/t/1102617",
           "publishedOn": "2025-01-05T03:03:52.000Z",
-          "wordCount": 499,
+          "wordCount": 503,
           "title": "为什么邮箱验证都是发邮件给用户，而不是接收用户发的邮件",
           "imageUrl": null
         },
@@ -445,7 +412,7 @@
           "description": "doujiangjiyaozha: \n我重新创了 reddit 号(之前被 ban 了),点了几天的赞,然后上去评论了下(很正常的评论),一评论再刷新,就提示 we had a server error\n这不又是被 ban 了吗\n还是我这梯子不靠谱...",
           "link": "https://www.v2ex.com/t/1102616",
           "publishedOn": "2025-01-05T03:03:23.000Z",
-          "wordCount": 365,
+          "wordCount": 372,
           "title": "reddit 现在是新人没法进了吗",
           "imageUrl": null
         },
@@ -455,7 +422,7 @@
           "description": "daldon: \n试过网上教的伊吕波歌测试法，我的 o1 思考过程用了 3 分多钟，但 o1 如果不降智，据说时间是要花更长的。但也看到有人质疑这个测试法的可靠性，所以我想问问还有没有其它可以确定的测试办法？\n另外 o1 降智了有没有办法能暂时解决，类似 4o 降智了发图片就能解决那样的？",
           "link": "https://www.v2ex.com/t/1102615",
           "publishedOn": "2025-01-05T03:02:08.000Z",
-          "wordCount": 491,
+          "wordCount": 502,
           "title": "请问该如何判断及解决 o1 的降智问题",
           "imageUrl": null
         },
@@ -465,7 +432,7 @@
           "description": "passon: 昨晚多吃了点猪肉脯，晚上睡觉头疼，上吐下泻\n之前吃了香蕉也是上吐下泻",
           "link": "https://www.v2ex.com/t/1102614",
           "publishedOn": "2025-01-05T02:53:09.000Z",
-          "wordCount": 560,
+          "wordCount": 573,
           "title": "现在食品安全问题是不是越来越严重了",
           "imageUrl": null
         },
@@ -475,7 +442,7 @@
           "description": "DBQ: 自动驾驶方面，大模型端到端，已经把很多写规则写控制的程序员 端掉了。",
           "link": "https://www.v2ex.com/t/1102613",
           "publishedOn": "2025-01-05T02:47:46.000Z",
-          "wordCount": 469,
+          "wordCount": 490,
           "title": "大模型人工智能是不是马上就要代替程序员了",
           "imageUrl": null
         },
@@ -485,7 +452,7 @@
           "description": "kelvinaltajiin:",
           "link": "https://www.v2ex.com/t/1102612",
           "publishedOn": "2025-01-05T02:42:57.000Z",
-          "wordCount": 420,
+          "wordCount": 422,
           "title": "Dell XPS 13 板载内存扩容，内存 8G，想升级成 16 或者 32G， 因为是板载内存升级应该需要 BGA 焊，不知道深圳有没有靠谱的维修/升级的商家，求推荐，咸鱼问了一...",
           "imageUrl": null
         },
@@ -495,7 +462,7 @@
           "description": "jiuzhougege: 这几年吃水果多，遵循专家的建议，多吃水果蔬菜，但是水果吃的尤其有点多（尤其是葡萄，这两年阳光玫瑰便宜，吃的有点多），导致很多糖尿病前期的症状：口干舌燥，尿多，皮肤干燥，尤其小腿瘙痒，大量皮屑，右时候抓的都能挠出血，皮肤发暗，饿的时候发慌等等...水杯不离手，冬季保湿剂如丝塔芙这种更是必备，每天都要涂抹；\n但是体检的时候空腹血糖又正常，所以一直也没多注意，以为是冬季本来就干燥；\n最近突然想到尝试少吃水果，尤其那种甜的葡萄啥的，基本上皮肤也不干燥了，保湿剂身体乳这种也不涂了，感觉好多了",
           "link": "https://www.v2ex.com/t/1102611",
           "publishedOn": "2025-01-05T02:41:57.000Z",
-          "wordCount": 512,
+          "wordCount": 535,
           "title": "久病成医了都",
           "imageUrl": null
         },
@@ -525,7 +492,7 @@
           "description": "FaiChou: \n我基本上是一天挂一次。有什么解决方法吗？\n每次挂了只能 ssh 进去然后 systemctl restart cloudflared。",
           "link": "https://www.v2ex.com/t/1102607",
           "publishedOn": "2025-01-05T02:24:11.000Z",
-          "wordCount": 449,
+          "wordCount": 476,
           "title": "家庭内网跑 cf tunnel 稳定性咋样？",
           "imageUrl": null
         },
@@ -535,7 +502,7 @@
           "description": "wuhao: 个人图床，主要配合 obsidian ，要求稳定长期，腾讯 cos 和阿里 oss 怎么选？\n要求长期稳定可以备份和迁移，容易管理安全性高\n不考虑小平台\n刚才去阿里云想开 oss ，开通里面很多选项都不知道干嘛的。有没有大佬推荐一下开 oss 和 cos 的设置选项",
           "link": "https://www.v2ex.com/t/1102606",
           "publishedOn": "2025-01-05T02:18:14.000Z",
-          "wordCount": 455,
+          "wordCount": 461,
           "title": "个人图床，主要配合 obsidian，要求稳定长期，腾讯 cos 和阿里 oss 怎么选？",
           "imageUrl": null
         },
@@ -545,7 +512,7 @@
           "description": "NOneKnowYeah: \n有公网 ipv4\nwireguard tailscale 还是 openvpn ？\n主要想跑满宽带上行",
           "link": "https://www.v2ex.com/t/1102605",
           "publishedOn": "2025-01-05T02:06:55.000Z",
-          "wordCount": 385,
+          "wordCount": 394,
           "title": "虚拟局域网求推荐",
           "imageUrl": null
         },
@@ -585,7 +552,7 @@
           "description": "xiaofami: \n去年年中 PDD 买的卡，到手后使用本人中行信用卡充值 10 磅开卡成功，也拿到了 5 磅的开卡奖励。自开卡后除注册账户接收短信（不超过 10 条）就再未使用过。几日前收到 giffgaff 邮件提醒，要求于 1 月 28 日前账户余额发生变化，这才发现卡片已经无法进行包括收发短信在内的一切操作了。问过客服，被告知违反了 3.5.j 条款导致被永封，该条款内容如下:\nj) Ensure the information you have provided to us in Participation or otherwise is accurate and up-to-date\n\n我的信用卡账单地址是瞎填的，giffgaff 真的会核实吗。。。",
           "link": "https://www.v2ex.com/t/1102598",
           "publishedOn": "2025-01-05T00:10:22.000Z",
-          "wordCount": 777,
+          "wordCount": 779,
           "title": "giffgaff 号码被永封",
           "imageUrl": null
         },
@@ -645,7 +612,7 @@
           "description": "MJJMJJ: \n购买地址\n\n这家最近做活动，最低配 2c/1G/50G 只要月付 1.44 欧\n\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : AMD EPYC 7543 32-Core Processor\n CPU 核心数        : 2\n CPU 频率          : 2799.998 MHz\n CPU 缓存          : L1: 256.00 KB / L2: 1.00 MB / L3: 32.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ✔ Enabled\n 内存              : 110.02 MiB / 3.85 GiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 1.56 GiB / 88.42 GiB\n 启动盘路径        : /dev/sda1\n 系统在线时间      : 0 days, 0 hour 3 min\n 负载   …",
           "link": "https://www.v2ex.com/t/1102590",
           "publishedOn": "2025-01-04T18:07:57.000Z",
-          "wordCount": 1888,
+          "wordCount": 1895,
           "title": "荷兰月付 1.44 欧， 2c/1G/50G， 10G 口无限流量机器",
           "imageUrl": null
         },
@@ -675,7 +642,7 @@
           "description": "MJJMJJ: \n\nTG 联系",
           "link": "https://www.v2ex.com/t/1102587",
           "publishedOn": "2025-01-04T17:29:26.000Z",
-          "wordCount": 373,
+          "wordCount": 385,
           "title": "130 出一台 cc 年付 25 刀的， 2c2g100g 机器",
           "imageUrl": null
         },
