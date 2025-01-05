@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -324,12 +330,82 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102763",
+          "author": "starsliao",
+          "description": "starsliao: \n🌈概述\n🌼花折 - KubeDoor 是一个使用 Python + Vue 开发，基于 K8S 准入控制机制的微服务资源管控平台。专注微服务每日高峰时段的资源视角，实现了微服务的资源分析统计与强管控，确保微服务资源的资源申请率和真实使用率一致。📀项目仓库： https://github.com/CassInfra/KubeDoor\n💠架构图\n\n💎功能描述\n📊采集 K8S 微服务每日业务高峰时段 P95 的 CPU 内存消耗，以及需求、限制值与 Pod 数。基于采集的数据实现了一个 Grafana 看板并集成到了 WEB UI 。\n🎨基于日维度采集每日高峰时段 P95 的资源数据,可以很好的观察各微服务长期的资源变化情况，即使查看 1 年的数据也很流畅。\n🏅高峰时段全局资源统计与各资源 TOP10\n🔎命名空间级别高峰时段 P95 资源使用量与资源消耗占整体资源的比例\n🧿微服务级别高峰期整体资源与使用率分析\n📈微服务与Pod 级别的资源曲线图(需求值,限制值,使用值)\n\n\n\n\n🎡每日从采集的数据中，获取最近 10 天各微服务的资源信息，获取资源消耗最大日的 P95 资源，作为微服务的需求值写入数据库。\n✨基于准入控制机制实现 K8S 微服务资源的真实使用率和资源申请需求值保持一致，具有非常重要的意义。\n🌊K8S 调度器通过真实的资源需求值就能够更精确地将 Pod 调度到合适的节点上，避免资源碎片，实现节点的资源均衡。\n♻K8S 自动扩缩容也依赖资源需求值来判断，真实的需求值可以更精准的触发扩缩容操作。\n🛡K8S 的保障服务质量（ QoS 机制）与需求值结合，真实需求值的 Pod 会被优先保留，保证关键服务的正常运行。\n🌐实现了一个 K8S 管控与展示的 WEB UI 。\n⚙️对微服务的最新、每日高峰期的P95 资源展示，以及…",
+          "link": "https://www.v2ex.com/t/1102763",
+          "publishedOn": "2025-01-05T18:44:50.000Z",
+          "wordCount": 720,
+          "title": "花折 - KubeDoor 正式开源：基于 AI 推荐+专家经验的 K8S 负载感知调度与容量管控系统",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102762",
+          "author": "yuntian55",
+          "description": "yuntian55: 项目地址： https://github.com/louis-e/arnis\n新玩法：一键转换地图，游戏重建真实世界 将现实世界的城市、地标和自然特征带入 Minecraft 宇宙。\n通过利用来自 OpenStreetMap 的地理空间数据和利用 Rust 的强大功能，Arnis 提供了一种高效且强大的解决方案，用于创建反映真实世界地理和架构的复杂而准确的 Minecraft 世界。\nArnis 旨在处理大规模数据并生成丰富的沉浸式环境，将现实世界的城市、地标和自然特征带入 Minecraft 宇宙。无论您是想复制家乡、探索城市环境，还是只是想构建独特而逼真的事物，Arnis 都能提供全面的工具集来实现您的愿景。\nArnis 利用 Overpass API 获取地理空间数据，并将其处理成兼容《我的世界》的世界文件，玩家可以通过图形界面或命令行输入经纬度坐标来选择想要转换的区域，只是处理大区域需要大量的计算资源，因此开发者建议初期选择较小的区域进行转换。\n更多内容可以查看网站： https://arnis.pro/",
+          "link": "https://www.v2ex.com/t/1102762",
+          "publishedOn": "2025-01-05T18:25:55.000Z",
+          "wordCount": 386,
+          "title": "发现一个有趣的开源工具 Arnis：让现实世界完美复刻进《我的世界》",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102760",
+          "author": "honmaple",
+          "description": "honmaple: \n红枫云盘是什么：一个开源的无服务端多协议云盘文件上传和管理 APP\n对比上一次分享已经过去了一个多月，这期间很感谢阮一峰大佬的推荐，上了 2024 最后一期科技爱好者周刊，在短短一周时间内涨了 150 多个 star ，今天发布了最新的 v1.0.1 版本，对比上一次有重大更新：\n增加文件加密和压缩功能：对上传或者复制到此存储的文件进行加密，客户端查看时自动解密，再也不用担心上传的视频变成 8 秒教育片，注意：文件加密和压缩开启后不能修改存储配置\n增加回收站功能：删除文件自动转为重命名文件(增加时间后缀)并移动到指定目录，想要恢复则复制到其它目录即可\n增加文件拖拽上传：当前只支持文件，不支持目录拖拽\n增加web 支持：浏览器也能管理文件\n更多 UI 和功能上的修复\n软件主页： https://fileapp.honmaple.com\n历史帖子： https://www.v2ex.com/t/1094456\n设置里有一个同步备份，但由于时间有限，这个功能还没测试好，大家忽略即可，欢迎大家使用并提出更多建议",
+          "link": "https://www.v2ex.com/t/1102760",
+          "publishedOn": "2025-01-05T18:06:32.000Z",
+          "wordCount": 381,
+          "title": "红枫云盘发布 v1.0.1 版本，支持文件加密、压缩以及回收站功能",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102758",
+          "author": "sekisui",
+          "description": "sekisui: 实验室是新成立的，网管让我们这里的无线网有一个独立的新网段，vlan30 ，ip192.168.30.x\n但是接来的有线网默认 vlan1 ，ip192.168.20.x\n如果手动设置网卡 vlan 为 30 ，则可以自动获取 30 网段 ip\n现在想用一个简单网管交换机实现给有线网打 vlan30 的功能（毕竟不是所有的有线设备都可以都可以方便设置网卡 vlan ）\n请问需要如何设置",
+          "link": "https://www.v2ex.com/t/1102758",
+          "publishedOn": "2025-01-05T17:48:45.000Z",
+          "wordCount": 443,
+          "title": "如何使用简单网管交换机使网口打上主网络 vlan 后连通网络",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102757",
+          "author": "wxmomomowx",
+          "description": "wxmomomowx: 假如你已经要去日本玩下了， 有推荐方案吗？",
+          "link": "https://www.v2ex.com/t/1102757",
+          "publishedOn": "2025-01-05T16:42:07.000Z",
+          "wordCount": 334,
+          "title": "哪里入手一台靠谱二手照相/摄影机啊？有在日本淘过二手机的网友吗？国内线下有推荐的地方吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102756",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia:",
+          "link": "https://www.v2ex.com/t/1102756",
+          "publishedOn": "2025-01-05T16:06:15.000Z",
+          "wordCount": 386,
+          "title": "截至 2024 年，日本的加密货币用户数已超过 800 万，在中心化交易所，日本用户的日均活跃人数约为 35 万。为什么加密货币会在极其厌恶风险的日本普及开？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102755",
+          "author": "humbass",
+          "description": "humbass: \n看官网的说明配置 ecosystem.config.js 来启动一个服务，大概长这样\nmodule.exports = {\n  apps: [{\n    name: 'app1',\n    script: './app.js'\n  }]\n}\n\n如果要启动一个静态文件服务，这个配置要怎么写呢？",
+          "link": "https://www.v2ex.com/t/1102755",
+          "publishedOn": "2025-01-05T15:58:42.000Z",
+          "wordCount": 386,
+          "title": "求教： pm2 如何配置一个静态服务器",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102753",
           "author": "w568w",
           "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
           "link": "https://www.v2ex.com/t/1102753",
           "publishedOn": "2025-01-05T15:51:22.000Z",
-          "wordCount": 497,
+          "wordCount": 539,
           "title": "C# 有哪些显著的缺点？",
           "imageUrl": null
         },
@@ -589,7 +665,7 @@
           "description": "drymonfidelia: \n写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo\n\n这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？\n截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了",
           "link": "https://www.v2ex.com/t/1102722",
           "publishedOn": "2025-01-05T13:00:10.000Z",
-          "wordCount": 566,
+          "wordCount": 598,
           "title": "Microsoft 已经草台班子到这种程度了吗",
           "imageUrl": null
         },
@@ -661,66 +737,6 @@
           "publishedOn": "2025-01-05T11:28:40.000Z",
           "wordCount": 472,
           "title": "合租国内杜甫",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102712",
-          "author": "notifier",
-          "description": "notifier: \n挂美国全局，绑定美国电话后，尝试了好多次，都是提示“出了点问题”，估计要么 IP 不干净，要么绑定的美国手机号不干净。\n还有其他办法搞个 Google Voice 号码吗？",
-          "link": "https://www.v2ex.com/t/1102712",
-          "publishedOn": "2025-01-05T11:22:49.000Z",
-          "wordCount": 417,
-          "title": "Google Voice 申请这么难了么？挂美国 IP 绑定美国手机号都不行",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102711",
-          "author": "sfdev",
-          "description": "sfdev: \n其实早就想吐槽了。他只能做一些纯编码的出力活，稍微不把控就出现鬼打墙的情况。改了后面错了前面，反反复复前后矛盾的操作时有发生。经常为了修一个 bug 大刀阔斧的变更整个项目，前后不顾。对系统的架构和设计理解只能保持很短时间的记忆，稍不注意就把前面的改了。不得已只能写一份要求文档，对他所有的操作进行规范限制，但是往往也只能记一会，到后面就放飞自我了。必须时时刻刻审核，反复提醒，体验一言难尽。",
-          "link": "https://www.v2ex.com/t/1102711",
-          "publishedOn": "2025-01-05T10:39:07.000Z",
-          "wordCount": 452,
-          "title": "看到有人吐槽 cursor，我也忍不住吐槽一下。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102710",
-          "author": "ClearMoki",
-          "description": "ClearMoki: 请问最近有大佬在公证吗，或者有遇到这个情况吗，无论是直接使用 notarytool 命令行还是 electron/notarize 一直在 progress 中也不报错也不停止\n版本号：\n\"electron\": \"^33.2.1\",\n\"electron-builder\": \"^25.1.8\",\n\"@electron/notarize\": \"^2.5.0\",",
-          "link": "https://www.v2ex.com/t/1102710",
-          "publishedOn": "2025-01-05T10:38:45.000Z",
-          "wordCount": 375,
-          "title": "electron 公证请教",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102707",
-          "author": "wangweei",
-          "description": "wangweei: 2019 年 12 月买的 1.2T 丰田卡罗拉，到现在已经 5 年了，不过开得少，前三年才开 9000 公里，后两年一年一万多公里，到现在还不到 35000 公里。\n24 年 1 月 3 号晚上加满油，25 年 1 月 3 号晚上又加满了油，正好一年整，总共加了 6650 元的油，跑了 13340 公里。\n这一年间在车上的花销还包括 5 月份换机油机滤 205 元，10 月份四轮换位和全车检查 30 元，买一瓶防冻液 15 元，加了一瓶玻璃水 7 元，12 月投保交强险、三者险、车船税 1300 元，以及小区车位管理费 12 个月共 1200 元。\n每天上下班来回 40 公里，周末偶尔出去玩，平均一个月 1000 公里出头，算下来这一年在车上所有花销将近一万块。",
-          "link": "https://www.v2ex.com/t/1102707",
-          "publishedOn": "2025-01-05T10:33:02.000Z",
-          "wordCount": 473,
-          "title": "盘点一下 1.2T 卡罗拉最近这一年的花费",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102706",
-          "author": "starinmars",
-          "description": "starinmars: 在支付宝-“境外上网”开通的移动流量包，本地接入。\n在星光大道 4G 测速：上 21Mbit/s 下 21Mbit/s ，5G 刚始下行能跑到 50Mbit/s 但会降回来。延迟 37 左右，感觉比回地强很多（成都某小区延迟 70+）\n获取到的 IP 202.68.200.72 归属地：香港，Google TG X 都能上响应速度很快。\n总结：比单独买 sim 要方便很多。",
-          "link": "https://www.v2ex.com/t/1102706",
-          "publishedOn": "2025-01-05T10:31:38.000Z",
-          "wordCount": 369,
-          "title": "漫游香港-移动流量包使用体验",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102705",
-          "author": "LiuJiang",
-          "description": "LiuJiang: \nVilVil - 您的多平台视频助手！一键操作，轻松获取您喜爱的内容。支持 YouTube 、Instagram 、Twitter 、小红书等多个主流平台，界面简洁直观，使用便捷。\n核心优势：\n多平台支持，一站式解决\n操作简单，一键下载\n界面清爽，使用直观\n支持高清画质\n持续更新，稳定可靠\n下载即用，让精彩内容随时相伴！访问地址： https://vilvil.cn\n电脑端\n\n手机端",
-          "link": "https://www.v2ex.com/t/1102705",
-          "publishedOn": "2025-01-05T10:18:53.000Z",
-          "wordCount": 389,
-          "title": "[VilVil] - 您的多平台视频下载助手！",
           "imageUrl": null
         }
       ]
