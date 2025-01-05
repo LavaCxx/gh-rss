@@ -104,12 +104,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -163,6 +157,33 @@
           "wordCount": 1055,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -328,7 +349,7 @@
           "description": "GabrielleBellamy: \n本人是网络相关的小白。最近因为把 Surge 升级到最新了，于是想尝试一下 Ponte 内网穿透，连接家里的 NAS ，但一点都没成功。我已经把站里大部分与 Surge Ponte 有关的帖子都看了一遍，也照着更改了几遍，但我的设备还是没法正常运行，请大佬支支招～\n情况如下：\n我有一个 Apple TV ，上面运行了 Surge ，设定了 Always On ，因此应该是不会断开的。\n所有设备上都装有 Surge ，都是最新版本。\nApple TV 上打开了 Ponte ，设置的类型为 NAT Traversal 。设置这个类型是因为我用 MacBook Pro 上的 Surge 检测了一下，可以支持 Full Cone NAT ，于是就选择了这个类型。其他类型我也都试过，都没成功。（没有公网 IP ，因此静态端口转发肯定不会成功）名称设置成了 appletv 。\nApple TV 端使用了独立的配置文件，配置文件中不包含 IP-CIDR 到其他设备的规则。\n同时，Apple TV 配置文件的开头，skip 的部分保留了192.168.0.0/16, 而在所有客户端上将这一条删去了。\n在客户端上，设置规则IP-CIDR,192.168.0.185/24,DEVICE:appletv，放在配置文件较后的位置，具体位于 GEOIP,CN,\"🎯 全球直连\"和 FINAL,🐟 漏网之鱼的前面，彼此紧接着。192.168.0.185 是我家里网络里 NAS 的地址，这样写应该是没问题的吧？\n接着我配置了各个设备端，然后想测试一下官网手册给出的用例，结果都失败了。其中，连接系统文件共享服务是用 MacBook Pro 作为服务器测试的，当然不出意外也是失败的。报错为“The operation couldn't be completed. Operation not supported”。在测试通过这个 Ponte 访问家中其他设备时，自然也是连不上。\n我发现，当我在家里（服务器端）的网络下时，Ponte 诊断显示一切正常，只是提醒我在同一个网段下的时候 ponte 转发不会被激活。然而当我离开家、换成别的网络的时候，在 Surge 内的 Ponte 似乎也显示异常，诊断结果是“Surge on the remote device may not be turned on. (POSIX:61)”。这样来说其实还是没有成功打通的样子。\n请问各位大佬们，我漏掉了什么步骤吗？或者路由器的什么设置需要我特别配置的？我没有公网 IP ，暂时就不考虑这个类型了（很多教程都是基于公网 IP 的，似乎更顺利一些）。谢谢谢谢🙏",
           "link": "https://www.v2ex.com/t/1102696",
           "publishedOn": "2025-01-05T09:36:25.000Z",
-          "wordCount": 633,
+          "wordCount": 635,
           "title": "想请教一下网络大佬们， Surge 的 Ponte 在 Apple TV 上内网穿透回家访问 NAS 没成功，是哪里出错了呢？",
           "imageUrl": null
         },
@@ -358,7 +379,7 @@
           "description": "sheeeran: 23 年底换工作后，开始在新公司接手做一款小众音乐 app 。从一开始的斗志昂扬，到现在已经有点生无可恋：新增留存率不太行，产品数据上不去。其中难点不展开说了，只想让大家评价下这个产品，看是否有继续的必要。现在不确定产品是否伪需求，还是说需求存在但我做得不够好（确实也知道哪些地方做得不好）。\nApp 名：云赏 HIFI ，一款私人无损音乐云盘产品，特色为：\n1️⃣支持轻松搭建私人音乐库。无需研究复杂昂贵的 nas 、公网访问、播放器配置，就像使用网盘产品一样，轻松使用；灵活的管理能力，支持自定义专辑封面、排序、歌词等信息，支持自定义分类。\n2️⃣对无损格式的充分支持。支持各种无损格式音乐的上传和在线播放；支持 dlna 无损投播到音箱，突破 AirPlay 和蓝牙的码率限制； Android 支持独占 usb 输出，突破系统采样率限制。\n3️⃣多端同步。私人收藏的无损音乐，无需人肉来回转移拷贝，支持 iOS 、Android 、网页端、小程序同步使用。\n4️⃣数万手正版免费无损音乐，以古典乐为主。\n5️⃣简洁、无任何广告。\n各大应用市场均可搜索「云赏 HIFI 」下载。\nhttps://apps.apple.com/cn/app/%E4%BA%91%E8%B5%8Fhifi/id1579022810\n对于喜欢收藏专辑、听专辑，且对音质、风格简洁有要求的音乐爱好者，可以尝试一下。不同于主流音乐 app 的订阅式租用，云赏是用户可以私人占有的音乐角落，就像是实体收藏唱片墙的数字版分身。\n「送码说明」\nApp 免费也可使用，会员能多一些权益。\n1️⃣如需会员兑换码，可直接留言，我周一找同事配置后回复，可兑换 30 天会员。\n—兑换码使用方式：\n——Android 客户端：打开 app → 我的 →会员中心 →拉到页面底部的“兑换会员”→ 输入口令兑换；\n——iOS 客户端：苹果商店不允许提供会员兑换手段，可移步微信小程序里的会员中心兑换（点击头像旁边的会员标签进入）\n2️⃣如果不想留言，也可直接通过我的好友邀请链接注册，注册成功后使用 app 登录，自动享有 30 天会员。\nhttps://m.imusic.cn/h5v/yunting/ShareForAwardH5/rewardIndex?signature=7609233aefe816429ef768e43a07e08e&cc=5206",
           "link": "https://www.v2ex.com/t/1102693",
           "publishedOn": "2025-01-05T09:18:28.000Z",
-          "wordCount": 434,
+          "wordCount": 441,
           "title": "「送码」私人音乐云盘 app 接手做了一年，挺艰难的",
           "imageUrl": null
         },
@@ -398,7 +419,7 @@
           "description": "wryyyyyyyyyyyy: 究竟是谁在说 2 、3 天就能写一个网站出来，之前都是自己写，不懂就 chat ；最近总看到不懂程序的小白啊，产品经理啊，没有基础靠 cursor 就能写出一个网站来 ，就用了一下 composer ，确实速度很快生成了一大堆代码，但 python 库一多，就骨头不顾屁股，bug 一大堆。\n举个例子：\n我用 fastapi 些项目 ，需要迁移，迁移是不支持用异步驱动的，但 fastapi 生成的时候用的异步，cursor 就像用异步的库来配置 alembic ，发现不支持，就把异步删了换同步，顺便把 fastapi 的异步库删了，但前面的代码都是用的异步代码，他有自己给加回来，然后又把同步的库删掉， 开始循环。\n是 fastapi 有什么难度吗？还是我的操作有问题？",
           "link": "https://www.v2ex.com/t/1102687",
           "publishedOn": "2025-01-05T08:44:14.000Z",
-          "wordCount": 648,
+          "wordCount": 656,
           "title": "被 cursor 气出脑血栓",
           "imageUrl": null
         },
@@ -438,7 +459,7 @@
           "description": "xianyukang: \n(0) 如题\n(1) 比如转账/扣款相关的业务，推荐用悲观锁还是乐观锁?\n(2) 脑补了如下的乐观锁实现，可以满足并发转账和取钱需求吗? \n(3) 如果能，那么和悲观锁 select for update 作对比哪个更好?\n# 数据库初始状态\nTRUNCATE account;\nINSERT INTO account (id, name, balance, version)\nVALUES (1, 'ichigo', 10, 1),\n       (2, 'rukia', 10, 1);\n\n# 并发事务 1 转出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nSELECT version FROM account WHERE id = 2;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nUPDATE account SET balance = balance + 10, version = 2 WHERE id = 2 AND version = 1;\nCOMMIT;\n\n# 并发事务 2 取出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nCOMMIT;",
           "link": "https://www.v2ex.com/t/1102681",
           "publishedOn": "2025-01-05T08:17:09.000Z",
-          "wordCount": 645,
+          "wordCount": 647,
           "title": "数据库中 select for update 和 version 乐观锁各自的适用场景是啥?",
           "imageUrl": null
         },
@@ -458,7 +479,7 @@
           "description": "Charlie17Li: \n背景\n心血来潮，想买个 s9(不锈钢)，奈何囊中羞涩，打开了小黄鱼，发现有很多美版蜂窝官换机(s9 不锈钢 未激活 3000)，同时也遇到有买了这种官换机又在小黄鱼出的（对方明确说了也是小黄鱼 10 月份买的官换机， 追问他为啥出，说是换手机了？ os: 10 月买的，不到三个月就换手机？）\n疑问：\n想问下这种有啥坑吗， 甚至还说有 AC ，能保 1 年(对方说如果需要使用 AC ，需要找他补开凭证，也就是不转 AC)，有点心动但是被坑，求指点 Orz\n或者有其他平台可以买吗",
           "link": "https://www.v2ex.com/t/1102679",
           "publishedOn": "2025-01-05T08:07:27.000Z",
-          "wordCount": 384,
+          "wordCount": 397,
           "title": "[二手 Watch] 请问小黄鱼二手官换 watch s9 有坑吗",
           "imageUrl": null
         },
@@ -568,7 +589,7 @@
           "description": "Twelveeee: \n我有在不同地方购买优惠的云服务器的癖好，一年优惠过期之后也不续费，阿里云、华为云以及海外的小鸡都有购买。\n但是我不部署 mysql 在机器上，因为到期了迁移比较麻烦。\n所以之前在阿里云购买了 4 年的 MySQL 服务，当时价格便宜，平均每年只需 54 元。配置是最低的，20GB 存储，1 核，1GB 内存，甚至还有免费的备份\n主要用于个人项目的开发，方便在不同机器上操作。\n\n现在，如果续费这台机器，一年需要 540 元，死🐎贵。\n请问哪里有便宜的云 MySQL 服务？",
           "link": "https://www.v2ex.com/t/1102664",
           "publishedOn": "2025-01-05T06:59:58.000Z",
-          "wordCount": 573,
+          "wordCount": 582,
           "title": "请问哪里有便宜的云 MySQL 服务？",
           "imageUrl": null
         },
@@ -628,7 +649,7 @@
           "description": "ydatong: \n我是 [伟途亦可思] 开发者，最近有不少人通过 App 反馈问我为什么加广告了，以及 V 站上也有几个相关的帖子，所以我说明一下。\n1.为什么开发 [伟途亦可思]\nApp 是 19 年上线的，因为我之前属于 V 站重度用户（截止今天 V 站连续 1500 天），我个人又比较喜欢用 App 来浏览内容，所以我就开发了 [伟途亦可思] 这款 App ，然后上架到 AppStore 并且在 V 站做了一些推广。我的初心是打算一直免费并维护，做到最好的 V 站第三方 App 。从 19 年到最近，也确实是一直没收费，并且去年开发了 Android 版本，同样也是免费无广告的。\n2.为什么最新版本要加广告?\n去年我的开发者账号是 10 月份到期，我没有继续续费了，因为这些年除了 [伟途亦可思] 我基本也没有别的 App 长期上架，加上我最近逛 V 站频率很低了，所以不打算继续维护了，而且 Apple 每年 688 的账号费用也不想继续交了。下架了以后，一直有用户通过邮件或者在 V 站问我，怎么不上架了，下不到了。在犹豫了一段时间后，上周我还是又续费了 Apple 账号。但是我想的是这次我想把这个账号费用赚回来，不然我没有继续维护的动力了。所以重新上架后，我就开通了收费下载，但是开了一天以后，我就感觉我应该先加广告，然后后面再做一个无广告版本，然后我就改成免费的。没考虑到 App 变成限免这回事，导致那两天下载量飙增，V 站竟然有人说我是为了骗下载。。。(我看了一下数据，那天就一个付费下载用户，如果看到这个帖子，可以联系我，后面出了收费版我送给你。)\n然后在最近的版本，我就加上广告了。我之前上架过不少 App ，这次是第一次加广告，可能广告展示的太大，然后就看到 V 站有几个帖子在说要卸载，广告太恶心，也有用户在 AppStore 评价号召大家一起卸载。。。\n3.后续\n后面广告我还是会一直加的，不喜欢 App 内有广告的，可以卸载，这一点我觉得没什么好说的。\n后续还会出一个收费下载版，无广告，功能上是同步的。\n4.想法\n经过这个事，以后我也不打算再做完全免费的产品了，产品做的再好，只要开始有广告或者收费，用户就会弃之而去，还不如开始就奔着赚钱去\n有还在用 [伟途亦可思] 的 V 友可以继续反馈问题跟建议，只要我自己还在逛 V 站，App 我就会继续优化下去，毕竟我自己一直在用。",
           "link": "https://www.v2ex.com/t/1102656",
           "publishedOn": "2025-01-05T06:04:16.000Z",
-          "wordCount": 915,
+          "wordCount": 922,
           "title": "关于 [伟途亦可思] App 加广告说明",
           "imageUrl": null
         },
@@ -638,7 +659,7 @@
           "description": "VoiceEXONE: \n目前已婚，即将三十，婚姻关系正常；不知是对婚姻或者说两人生活的消退，愈发想摆脱或者对异性祛魅\n请理性发言，纯粹讨论，不牵连附带狭隘、攻击性言论",
           "link": "https://www.v2ex.com/t/1102652",
           "publishedOn": "2025-01-05T05:31:11.000Z",
-          "wordCount": 544,
+          "wordCount": 546,
           "title": "如何对异性（女性）祛魅？",
           "imageUrl": null
         },
