@@ -329,7 +329,7 @@
           "description": "MJJMJJ: \n这家买之前要先注册和充值，月付 0.9 欧支持 Paypal 支付\n三网直连，联通快乐机\n购买地址\n\n输入优惠码\nNEWYEAR\n\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : QEMU Virtual CPU version 2.5+\n CPU 核心数        : 1\n CPU 频率          : 2699.998 MHz\n CPU 缓存          : L1: 64.00 KB / L2: 4.00 MB / L3: 16.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ❌ Disabled\n 内存              : 98.13 MiB / 964.53 MiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 1.05 GiB / 24.44 GiB\n 启动盘路径        : /dev/sda1\n 系统在线时间      : 0 d…",
           "link": "https://www.v2ex.com/t/1102720",
           "publishedOn": "2025-01-05T12:51:59.000Z",
-          "wordCount": 1899,
+          "wordCount": 1901,
           "title": "荷兰月付 0.9 欧 1c1g25g， 10G 口 150T 流量，三网直连，联通快乐机",
           "imageUrl": null
         },
@@ -419,7 +419,7 @@
           "description": "wangweei: 2019 年 12 月买的 1.2T 丰田卡罗拉，到现在已经 5 年了，不过开得少，前三年才开 9000 公里，后两年一年一万多公里，到现在还不到 35000 公里。\n24 年 1 月 3 号晚上加满油，25 年 1 月 3 号晚上又加满了油，正好一年整，总共加了 6650 元的油，跑了 13340 公里。\n这一年间在车上的花销还包括 5 月份换机油机滤 205 元，10 月份四轮换位和全车检查 30 元，买一瓶防冻液 15 元，加了一瓶玻璃水 7 元，12 月投保交强险、三者险、车船税 1300 元，以及小区车位管理费 12 个月共 1200 元。\n每天上下班来回 40 公里，周末偶尔出去玩，平均一个月 1000 公里出头，算下来这一年在车上所有花销将近一万块。",
           "link": "https://www.v2ex.com/t/1102707",
           "publishedOn": "2025-01-05T10:33:02.000Z",
-          "wordCount": 435,
+          "wordCount": 455,
           "title": "盘点一下 1.2T 卡罗拉最近这一年的花费",
           "imageUrl": null
         },
@@ -449,7 +449,7 @@
           "description": "stardust21: \n已经有很多在电脑和手机之间传输文本的工具了，为什么要再做一个呢？\n主要是在下面的场景下没有找到合适的工具：\n电脑不方便登录个人微信等通讯软件\n手机和电脑不在一个局域网\n期望使用起来方便快捷\n有一些在线的剪贴板可以满足需求，但是在手机浏览器上使用起来不太方便，所以基于一个免费的在线剪贴板服务做了一个手机 APP 和本地的 html 文件，内容保存到网站之前做了一个 base64 + 移位的简单编码，没有上 AES 加密主要是觉得这个场景一般也不会传输特别敏感的信息，不用太复杂的加密。\n手机端只做了 Android 版本，因为没有苹果开发者账号就没做 iOS 版本，不过使用 Flutter 写的，要支持也不麻烦\n截图\n \n项目地址\ntexttransfer",
           "link": "https://www.v2ex.com/t/1102704",
           "publishedOn": "2025-01-05T10:14:58.000Z",
-          "wordCount": 399,
+          "wordCount": 401,
           "title": "文本传输助手-一个方便在手机和电脑之间快捷传输文本的工具",
           "imageUrl": null
         },
@@ -469,7 +469,7 @@
           "description": "moguiyu: 终于准备入手 m4 macbook pro ，目前可以选择欧版，或者国内购买大陆或者香港版本。\n除了电源插头，键盘版本区别外，请问在不同区域使用功能上会有什么不同吗？\n例如 facetime 的功能，apple intellengent 的功能等，我查了一会发现各个地方说法不一。\n非常感谢已经入手的大佬分享下，多谢。",
           "link": "https://www.v2ex.com/t/1102702",
           "publishedOn": "2025-01-05T10:00:54.000Z",
-          "wordCount": 503,
+          "wordCount": 505,
           "title": "MBP Macbook Pro 大陆版本和其他版本的区别",
           "imageUrl": null
         },
@@ -489,7 +489,7 @@
           "description": "kuanat: \n图片是这个：\nhttps://imgur.com/XiMulEC.jpg\n来源是 jordwalke reactjs 作者：\nhttps://x.com/jordwalke/status/1875336115009573268\n本意是想调侃一下，没想到对这个事情的认知分歧竟然这么大……\n这个问题可能和这两天火热的 Go 话题有点像，要可读性还是要生产力，还是做成年人？",
           "link": "https://www.v2ex.com/t/1102700",
           "publishedOn": "2025-01-05T09:57:18.000Z",
-          "wordCount": 922,
+          "wordCount": 926,
           "title": "我转发了一张图到前端群，大周末的群里已经爆炸了",
           "imageUrl": null
         },
@@ -519,7 +519,7 @@
           "description": "GabrielleBellamy: \n本人是网络相关的小白。最近因为把 Surge 升级到最新了，于是想尝试一下 Ponte 内网穿透，连接家里的 NAS ，但一点都没成功。我已经把站里大部分与 Surge Ponte 有关的帖子都看了一遍，也照着更改了几遍，但我的设备还是没法正常运行，请大佬支支招～\n情况如下：\n我有一个 Apple TV ，上面运行了 Surge ，设定了 Always On ，因此应该是不会断开的。\n所有设备上都装有 Surge ，都是最新版本。\nApple TV 上打开了 Ponte ，设置的类型为 NAT Traversal 。设置这个类型是因为我用 MacBook Pro 上的 Surge 检测了一下，可以支持 Full Cone NAT ，于是就选择了这个类型。其他类型我也都试过，都没成功。（没有公网 IP ，因此静态端口转发肯定不会成功）名称设置成了 appletv 。\nApple TV 端使用了独立的配置文件，配置文件中不包含 IP-CIDR 到其他设备的规则。\n同时，Apple TV 配置文件的开头，skip 的部分保留了192.168.0.0/16, 而在所有客户端上将这一条删去了。\n在客户端上，设置规则IP-CIDR,192.168.0.185/24,DEVICE:appletv，放在配置文件较后的位置，具体位于 GEOIP,CN,\"🎯 全球直连\"和 FINAL,🐟 漏网之鱼的前面，彼此紧接着。192.168.0.185 是我家里网络里 NAS 的地址，这样写应该是没问题的吧？\n接着我配置了各个设备端，然后想测试一下官网手册给出的用例，结果都失败了。其中，连接系统文件共享服务是用 MacBook Pro 作为服务器测试的，当然不出意外也是失败的。报错为“The operation couldn't be completed. Operation not supported”。在测试通过这个 Ponte 访问家中其他设备时，自然也是连不上。\n我发现，当我在家里（服务器端）的网络下时，Ponte 诊断显示一切正常，只是提醒我在同一个网段下的时候 ponte 转发不会被激活。然而当我离开家、换成别的网络的时候，在 Surge 内的 Ponte 似乎也显示异常，诊断结果是“Surge on the remote device may not be turned on. (POSIX:61)”。这样来说其实还是没有成功打通的样子。\n请问各位大佬们，我漏掉了什么步骤吗？或者路由器的什么设置需要我特别配置的？我没有公网 IP ，暂时就不考虑这个类型了（很多教程都是基于公网 IP 的，似乎更顺利一些）。谢谢谢谢🙏",
           "link": "https://www.v2ex.com/t/1102696",
           "publishedOn": "2025-01-05T09:36:25.000Z",
-          "wordCount": 645,
+          "wordCount": 647,
           "title": "想请教一下网络大佬们， Surge 的 Ponte 在 Apple TV 上内网穿透回家访问 NAS 没成功，是哪里出错了呢？",
           "imageUrl": null
         },
@@ -549,7 +549,7 @@
           "description": "sheeeran: 23 年底换工作后，开始在新公司接手做一款小众音乐 app 。从一开始的斗志昂扬，到现在已经有点生无可恋：新增留存率不太行，产品数据上不去。其中难点不展开说了，只想让大家评价下这个产品，看是否有继续的必要。现在不确定产品是否伪需求，还是说需求存在但我做得不够好（确实也知道哪些地方做得不好）。\nApp 名：云赏 HIFI ，一款私人无损音乐云盘产品，特色为：\n1️⃣支持轻松搭建私人音乐库。无需研究复杂昂贵的 nas 、公网访问、播放器配置，就像使用网盘产品一样，轻松使用；灵活的管理能力，支持自定义专辑封面、排序、歌词等信息，支持自定义分类。\n2️⃣对无损格式的充分支持。支持各种无损格式音乐的上传和在线播放；支持 dlna 无损投播到音箱，突破 AirPlay 和蓝牙的码率限制； Android 支持独占 usb 输出，突破系统采样率限制。\n3️⃣多端同步。私人收藏的无损音乐，无需人肉来回转移拷贝，支持 iOS 、Android 、网页端、小程序同步使用。\n4️⃣数万手正版免费无损音乐，以古典乐为主。\n5️⃣简洁、无任何广告。\n各大应用市场均可搜索「云赏 HIFI 」下载。\nhttps://apps.apple.com/cn/app/%E4%BA%91%E8%B5%8Fhifi/id1579022810\n对于喜欢收藏专辑、听专辑，且对音质、风格简洁有要求的音乐爱好者，可以尝试一下。不同于主流音乐 app 的订阅式租用，云赏是用户可以私人占有的音乐角落，就像是实体收藏唱片墙的数字版分身。\n「送码说明」\nApp 免费也可使用，会员能多一些权益。\n1️⃣如需会员兑换码，可直接留言，我周一找同事配置后回复，可兑换 30 天会员。\n—兑换码使用方式：\n——Android 客户端：打开 app → 我的 →会员中心 →拉到页面底部的“兑换会员”→ 输入口令兑换；\n——iOS 客户端：苹果商店不允许提供会员兑换手段，可移步微信小程序里的会员中心兑换（点击头像旁边的会员标签进入）\n2️⃣如果不想留言，也可直接通过我的好友邀请链接注册，注册成功后使用 app 登录，自动享有 30 天会员。\nhttps://m.imusic.cn/h5v/yunting/ShareForAwardH5/rewardIndex?signature=7609233aefe816429ef768e43a07e08e&cc=5206",
           "link": "https://www.v2ex.com/t/1102693",
           "publishedOn": "2025-01-05T09:18:28.000Z",
-          "wordCount": 443,
+          "wordCount": 484,
           "title": "「送码」私人音乐云盘 app 接手做了一年，挺艰难的",
           "imageUrl": null
         },
@@ -569,7 +569,7 @@
           "description": "Tiaa: 想问问大家什么原因，为什么最近使用 gpt 生成一些代码或则其它内容（文字性）时，gpt 出现的内容总是会出现缺少的问题，或则说压根就不给你出现了，我暂时用的是手机热点来使用的，测试了一下感觉不太可能是网络问题，不知道有没有其它的朋友遇到了这种情况呢？",
           "link": "https://www.v2ex.com/t/1102690",
           "publishedOn": "2025-01-05T08:55:59.000Z",
-          "wordCount": 388,
+          "wordCount": 390,
           "title": "#ChatGPT#openAI",
           "imageUrl": null
         },
@@ -589,7 +589,7 @@
           "description": "wryyyyyyyyyyyy: 究竟是谁在说 2 、3 天就能写一个网站出来，之前都是自己写，不懂就 chat ；最近总看到不懂程序的小白啊，产品经理啊，没有基础靠 cursor 就能写出一个网站来 ，就用了一下 composer ，确实速度很快生成了一大堆代码，但 python 库一多，就骨头不顾屁股，bug 一大堆。\n举个例子：\n我用 fastapi 些项目 ，需要迁移，迁移是不支持用异步驱动的，但 fastapi 生成的时候用的异步，cursor 就像用异步的库来配置 alembic ，发现不支持，就把异步删了换同步，顺便把 fastapi 的异步库删了，但前面的代码都是用的异步代码，他有自己给加回来，然后又把同步的库删掉， 开始循环。\n是 fastapi 有什么难度吗？还是我的操作有问题？",
           "link": "https://www.v2ex.com/t/1102687",
           "publishedOn": "2025-01-05T08:44:14.000Z",
-          "wordCount": 675,
+          "wordCount": 678,
           "title": "被 cursor 气出脑血栓",
           "imageUrl": null
         },
@@ -609,7 +609,7 @@
           "description": "shoebill: 如题 近期要去那边 看繁体字不是问题 想尝试买几本比较好看的繁体字书 历史 地理 人文方面的 最好是大陆没有对应简体版的 有没有朋友推荐一下书店和书 不胜感激",
           "link": "https://www.v2ex.com/t/1102685",
           "publishedOn": "2025-01-05T08:30:29.000Z",
-          "wordCount": 429,
+          "wordCount": 438,
           "title": "最近去香港 有没有推荐的书店和书",
           "imageUrl": null
         },
