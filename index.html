@@ -93,8 +93,8 @@ https://book.douban.com/subject/36710597/</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-05 datetime="2025-01-05T09:49:01.000Z">2025-01-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-05 datetime="2025-01-05T09:49:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-05 datetime="2025-01-05T12:51:59.000Z">2025-01-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-05 datetime="2025-01-05T12:51:59.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -109,6 +109,440 @@ https://book.douban.com/subject/36710597/</span>
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102720"
+                        open
+                      >
+                        <summary class="article-expander__title">荷兰月付 0.9 欧 1c1g25g， 10G 口 150T 流量，三网直连，联通快乐机</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102720">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>MJJMJJ: 
+这家买之前要先注册和充值，月付 0.9 欧支持 Paypal 支付
+三网直连，联通快乐机
+购买地址
+
+输入优惠码
+NEWYEAR
+
+--------------------- A Bench Script By spiritlhl ----------------------
+                   测评频道: https://t.me/vps_reviews                    
+VPS 融合怪版本：2025.01.02
+Shell 项目地址： https://github.com/spiritLHLS/ecs
+Go 项目地址： https://github.com/oneclickvirt/ecs
+---------------------基础信息查询--感谢所有开源项目---------------------
+ CPU 型号          : QEMU Virtual CPU version 2.5+
+ CPU 核心数        : 1
+ CPU 频率          : 2699.998 MHz
+ CPU 缓存          : L1: 64.00 KB / L2: 4.00 MB / L3: 16.00 MB
+ AES-NI 指令集      : ✔ Enabled
+ VM-x/AMD-V 支持    : ❌ Disabled
+ 内存              : 98.13 MiB / 964.53 MiB
+ Swap              : [ no swap partition or swap file detected ]
+ 硬盘空间          : 1.05 GiB / 24.44 GiB
+ 启动盘路径        : /dev/sda1
+ 系统在线时间      : 0 d…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102719"
+                        open
+                      >
+                        <summary class="article-expander__title">debian 中的 zerotier 升级 1.14.2 后联网困难怎么回事？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102719">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>balduncle: 一、当前网络配置
+A 区：办公区 win10 电脑一台（ A 电脑）
+B 区：宿舍区 win10 电脑一台（ B 电脑），基于 debian 的 omv 系统的 nas 一台（ B NAS ）
+C 区：外地老家 win10 电脑一台
+还有其他若干极路由
+之前通过 zerotier 配置好，一直是稳定运行。同时还在 nas 部署了 tailscale 备用，但是一般都用 zerotier 。主要是 A 区和 B 区都是我们单位内部局域网，联网比较方便，特别是 zerotier 可以直接 smb ，那么电脑 A 和电脑 B 可以直接通过网络邻居分享文件，很方便。
+其中 zerotier 的配置，是常规配置，并且做了局域网转发，也做了 iptable 的保留。
+二、问题的发现：
+最近在 B 区域的主力 nas 升级了 zerotier 为 1.14.2
+https://github.com/zerotier/ZeroTierOne/releases
+在办公区 A 电脑的网络邻居怎么都发现不了办公区域 B 的节点，就感觉有问题，升级是 nas 系统的自动推送更新的，不是命令行做的。但是奇怪的是，登录 zerotier 的网页后台，多数时候可以看到各个节点都在线，除了几个作为旁路由的极路由中的 zerotier 插件节点不在线，但是这个不影响大局。
+三、主要症状
+1.B 区域 nas 节点里面，偶尔会断线，通过 zerotier-cli info 查看，有概率是 offline 的，也就是节点没在线，通过 systemctl status zerotier-one.service,发现服务是正常的；
+2.A 区域节点电脑之前是 1.86 版本，其他主要的也是 1.10 以下版本。
+3.A 区域的节点和 B 区域的节点，还有我在 B 区域中女朋友家的电脑节点都是可以 ping 通（但是相互发现打洞感觉没之前那么快，除了 A 区域的电脑中升级了 zerotier ，其他都没动）
+4.B 区域 NAS 节点经常隐身看不到，或者看到了过一会又看不到。
+5.现在 A 区域电脑里面 zerotier 已经更新到了 1.14.2 ，又发现 ui 面板有点问题，一直出不来，只能通过 cmd 后台 join 原来的网络。
+四、已经做了修复尝试
+前后大概有 2 个礼拜了，已经尝试过各种方法，依然没有解决
+1.在 zerotier 官网查询各种文档，通过页面聊天小工具联系工程师，但是只给我推送了常见问题链接，并没有解决我的根本问题。
+2.通过问询 gpt ，将 nas 里面的 zerotier 卸载，然后重新用 zerotier 的 sh 命令安装，基本按照官方说明来配置，也重新输入了防火墙命令。（这些之前都配置好了，良好运行几年）
+3.对 A 区域的 win10 电脑，最早节点是 1.806 ，以为是程序版本问题，就卸载掉重新安装。但是只找到 1.10 版本程序，几次都无法重新注册。后面又不断删除 win 中残留的 zerotier 文件夹，最后用 1.142 新版本重新安装上。但是 ui 界面一直出现问题。
+五、困惑
+1.是否因为 1.14.2 版本有 bug ？
+2.是否因为单位内墙变高了，检测更强了？因为除了 nas 中的 zerotier 版本改变，其他东西没怎么变化。（但是我系统中，nas 也偶尔会更新，主要是 tailscale 和 systhing ）
+3.现在应该怎么办？按照 gpt 的指令，能操作的，都已经操作了。问题依然没有解决。
+补充：
+发现目前手上所有，win ，linux （ debian ），ios 中的客户端只要版本在 1.10 以上，通过 zerotier 后台查看 ip 地址，都是 unknow 。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102718"
+                        open
+                      >
+                        <summary class="article-expander__title">请教关于 switch 舞力全开问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102718">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>razios: 两只 joy con 为什么感觉“-”这只得分容易高…
+每次都感觉有点明显，+ -握姿有区别？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102717"
+                        open
+                      >
+                        <summary class="article-expander__title">Lan8742 芯片 ping 出现丢包现象</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102717">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>VchentozV: 问一个弱智问题，原贴地址在 :
+https://forum.microchip.com/s/topic/a5CV40000002kBdMAI/t399326
+从原理图上看，2 块以太网芯片的引脚一样，所用的外部晶振都是 25 起振到 50 ，mcu 是 6ull ，设备树没变过，参考时钟都是输入，fae 回答说没有用过此类芯片，软件方面我能想到的就是调试收到的包，V 友高手多，请问应该从什么角度排查？或者去 6ull 论坛问吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102715"
+                        open
+                      >
+                        <summary class="article-expander__title">cavs/avs2/avs3 视频编码，有什么软件剪切时能看见帧类型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102715">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dxeldx: 平时用 avidemux ，但是导入不了 cavs/avs2/avs3 视频编码的视频</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102714"
+                        open
+                      >
+                        <summary class="article-expander__title">合租国内杜甫</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102714">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>saobilin: 自己 8 月份脑子一热托管了个杜甫到国内机房
+机器配置 2680v4*2 256GB 内存 带宽 1G 下 50Mbps 上 无限流量 带 100G 防御 宁波电信线路 NAT 共享一个 ipv4 免费提供 ipv6 带一个 Tesla P4 显卡 目前已经启用 VGPU
+想找俩哥们合租一下 目前使用的 Proxmox 作为虚拟化系统 用 Ikuai 接管了网络（无脑转发）
+可以建站 有 80 443 端口
+除了黄赌毒和梯子你想干啥都行 解码可以提供 vgpu
+可提供一定范围的技术支持（我会的就行）提供 pve 的管理账号 方便你自己折腾你的🐔🐔</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102712"
+                        open
+                      >
+                        <summary class="article-expander__title">Google Voice 申请这么难了么？挂美国 IP 绑定美国手机号都不行</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102712">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>notifier: 
+挂美国全局，绑定美国电话后，尝试了好多次，都是提示“出了点问题”，估计要么 IP 不干净，要么绑定的美国手机号不干净。
+还有其他办法搞个 Google Voice 号码吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102711"
+                        open
+                      >
+                        <summary class="article-expander__title">看到有人吐槽 cursor，我也忍不住吐槽一下。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102711">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>sfdev: 
+其实早就想吐槽了。他只能做一些纯编码的出力活，稍微不把控就出现鬼打墙的情况。改了后面错了前面，反反复复前后矛盾的操作时有发生。经常为了修一个 bug 大刀阔斧的变更整个项目，前后不顾。对系统的架构和设计理解只能保持很短时间的记忆，稍不注意就把前面的改了。不得已只能写一份要求文档，对他所有的操作进行规范限制，但是往往也只能记一会，到后面就放飞自我了。必须时时刻刻审核，反复提醒，体验一言难尽。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102710"
+                        open
+                      >
+                        <summary class="article-expander__title">electron 公证请教</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102710">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ClearMoki: 请问最近有大佬在公证吗，或者有遇到这个情况吗，无论是直接使用 notarytool 命令行还是 electron/notarize 一直在 progress 中也不报错也不停止
+版本号：
+&quot;electron&quot;: &quot;^33.2.1&quot;,
+&quot;electron-builder&quot;: &quot;^25.1.8&quot;,
+&quot;@electron/notarize&quot;: &quot;^2.5.0&quot;,</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102707"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点一下 1.2T 卡罗拉最近这一年的花费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102707">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wangweei: 2019 年 12 月买的 1.2T 丰田卡罗拉，到现在已经 5 年了，不过开得少，前三年才开 9000 公里，后两年一年一万多公里，到现在还不到 35000 公里。
+24 年 1 月 3 号晚上加满油，25 年 1 月 3 号晚上又加满了油，正好一年整，总共加了 6650 元的油，跑了 13340 公里。
+这一年间在车上的花销还包括 5 月份换机油机滤 205 元，10 月份四轮换位和全车检查 30 元，买一瓶防冻液 15 元，加了一瓶玻璃水 7 元，12 月投保交强险、三者险、车船税 1300 元，以及小区车位管理费 12 个月共 1200 元。
+每天上下班来回 40 公里，周末偶尔出去玩，平均一个月 1000 公里出头，算下来这一年在车上所有花销将近一万块。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102706"
+                        open
+                      >
+                        <summary class="article-expander__title">漫游香港-移动流量包使用体验</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102706">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>starinmars: 在支付宝-“境外上网”开通的移动流量包，本地接入。
+在星光大道 4G 测速：上 21Mbit/s 下 21Mbit/s ，5G 刚始下行能跑到 50Mbit/s 但会降回来。延迟 37 左右，感觉比回地强很多（成都某小区延迟 70+）
+获取到的 IP 202.68.200.72 归属地：香港，Google TG X 都能上响应速度很快。
+总结：比单独买 sim 要方便很多。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102705"
+                        open
+                      >
+                        <summary class="article-expander__title">[VilVil] - 您的多平台视频下载助手！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102705">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>LiuJiang: 
+VilVil - 您的多平台视频助手！一键操作，轻松获取您喜爱的内容。支持 YouTube 、Instagram 、Twitter 、小红书等多个主流平台，界面简洁直观，使用便捷。
+核心优势：
+多平台支持，一站式解决
+操作简单，一键下载
+界面清爽，使用直观
+支持高清画质
+持续更新，稳定可靠
+下载即用，让精彩内容随时相伴！访问地址： https://vilvil.cn
+电脑端
+
+手机端</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102704"
+                        open
+                      >
+                        <summary class="article-expander__title">文本传输助手-一个方便在手机和电脑之间快捷传输文本的工具</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102704">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>stardust21: 
+已经有很多在电脑和手机之间传输文本的工具了，为什么要再做一个呢？
+主要是在下面的场景下没有找到合适的工具：
+电脑不方便登录个人微信等通讯软件
+手机和电脑不在一个局域网
+期望使用起来方便快捷
+有一些在线的剪贴板可以满足需求，但是在手机浏览器上使用起来不太方便，所以基于一个免费的在线剪贴板服务做了一个手机 APP 和本地的 html 文件，内容保存到网站之前做了一个 base64 + 移位的简单编码，没有上 AES 加密主要是觉得这个场景一般也不会传输特别敏感的信息，不用太复杂的加密。
+手机端只做了 Android 版本，因为没有苹果开发者账号就没做 iOS 版本，不过使用 Flutter 写的，要支持也不麻烦
+截图
+ 
+项目地址
+texttransfer</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102703"
+                        open
+                      >
+                        <summary class="article-expander__title">当贝 H3S 无法按照 Plex TV 版，有没有好用的电视盒子推荐</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102703">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zyxfsky: 爸妈家里之前用了一个小米盒子，最近开不了机，想重新搞个盒子，最近看了下当贝性价比还不错，腾讯极光的太贵了
+但是买来后发现 Plex 10.18 apk 版本因为没有签名安装不了，虽然选择了允许未知应用安装，但依然失败，然后又尝试 ApkMirror 的 apkm 格式，安装成功了，但是打开后一点击登录就闪退。 后面也尝试安装了 Emby ，可以启动登录，但是播放任何一个电影都会 App 重启
+之前小米盒子安装使用 Plex 还是比较顺利的，但是新款盒子感觉很坑
+我的需求是可以安装 Plex 和极空间，电视是比较老的 LG 电视，非 Android 系统，一般用 Plex 看我 NAS 里的电视剧和纪录片，也会用极空间看看照片
+爸妈家里放了一个极空间给他们存照片，我家里是 QNAP 的 NAS ，两边各放了一个蒲公英的盒子，平常都是 P2P 连接建好，我不怎么追求画质，下载的电影一般都是 1080p 或者 2k ，之前远程观看是没问题的
+现在就想找一个好用的盒子，甚至想搞个二手 4 代 AppleTV ，有没有好的方案推荐，跪谢</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102702"
+                        open
+                      >
+                        <summary class="article-expander__title">MBP Macbook Pro 大陆版本和其他版本的区别</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102702">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>moguiyu: 终于准备入手 m4 macbook pro ，目前可以选择欧版，或者国内购买大陆或者香港版本。
+除了电源插头，键盘版本区别外，请问在不同区域使用功能上会有什么不同吗？
+例如 facetime 的功能，apple intellengent 的功能等，我查了一会发现各个地方说法不一。
+非常感谢已经入手的大佬分享下，多谢。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102701"
+                        open
+                      >
+                        <summary class="article-expander__title">基于 IOS 的快捷指令和火山引擎的图片翻译 API，实现的移动端屏幕翻译功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102701">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>rexue123: 
+自己平时会看一些英文网站，但英文水平太差。PC 端还好，有各种浏览器插件，但是移动端没有跨 APP 的翻译软件。如果看到几个不认识的单词，需要先选中，复制，切换 APP ，再粘贴，翻译，十分繁琐。
+基于以上原因，我使用 IOS 的快捷指令和火山引擎的图片翻译 API ，实现了一个移动端屏幕翻译功能。具体内容看下面链接。
+https://mp.weixin.qq.com/s/1ij8lw6Essg-ehRcFnZSEg</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1102700"
+                        open
+                      >
+                        <summary class="article-expander__title">我转发了一张图到前端群，大周末的群里已经爆炸了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102700">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>kuanat: 
+图片是这个：
+https://imgur.com/XiMulEC.jpg
+来源是 jordwalke reactjs 作者：
+https://x.com/jordwalke/status/1875336115009573268
+本意是想调侃一下，没想到对这个事情的认知分歧竟然这么大……
+这个问题可能和这两天火热的 Go 话题有点像，要可读性还是要生产力，还是做成年人？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -677,26 +1111,6 @@ Reddit: No 🚫</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102673"
-                        open
-                      >
-                        <summary class="article-expander__title">是不是要进入全民乱舞，各显神通的阶段了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102673">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>huguadao: 
-以后稳定的外部环境，稳定的工作，可能只有少部分人拥有。
-更多的人会被迫降维，最终落入市井中，最近了解到了好些人家是怎么挣钱的，最厉害的三个人做的生意能够干过一个中型设计院的产值，包括我运营优土地平台积累了两年资源和人脉，折腾法拍房业务等，都希望能够生根发芽……
-未来已来，大家都准备好了么😄</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.v2ex.com/t/1102672"
                         open
                       >
@@ -739,331 +1153,6 @@ Reddit: No 🚫</span>
 界面超简单，打开网站就能直接用，不需要注册登录。特别适合经常在 TikTok 评论的小伙伴！
 目前还是第一版，后续会加入更多好玩的功能。如果你有什么想法或建议，随时告诉我哦！
 来试试看吧，让你的评论与众不同！✌️</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102670"
-                        open
-                      >
-                        <summary class="article-expander__title">我发现三星固态硬盘比别的品牌要贵上 20%，算不算智商税呢？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102670">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>tool2dx: 需要买固态硬盘存游戏，去京东看了一眼，三星硬盘和别的牌子，价格区间有明显断层。
-一边是品牌，另一边是钱包，不知道怎么选，陷入了深深的迷茫。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102668"
-                        open
-                      >
-                        <summary class="article-expander__title">小火箭使用求助</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102668">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>n2l: 路由器 openwrt ，开 ddns-go ，手机不开小火箭时候，可以外网通过域名访问路由器主页，开了小火箭，全局路由那里不管选择直连还是配置，都显示“网址为 XXX 的页面可能存在问题，或者已永久移动到新的网址。”代理日志里对于该域名走的规则是 GEOIP,CN,DIRECT ，也换了其他配置文件，也都是走的国内直连，但就是路由器主页打不开，想问下大家有没有解决思路，谢谢。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102667"
-                        open
-                      >
-                        <summary class="article-expander__title">使用 zfs 存储池也能对数据库存储的数据进行字节存储?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102667">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MRlaopeng: 
-看了这个帖子的楼主回复
-https://www.v2ex.com/t/1102533#reply10
-@ryd994 就因为 zfs 有 dedup 才用的，省硬盘。如果不用的话，为啥不直接 mdadm,组软 raid ，后期直接上 raid 卡也成。
-我百度查了下去重的可选项
-文件级的去重对文件作为整体来计算 hash 签名，如果处理的是自然的文件，则此方法需要的消耗最小，但是缺点是对文件的任何修改都需要重新计算文件的 hash 签名，即对文件的任何修改，将使得此文件之前节约的空间消失，因为两个文件将不再相同。此中方法比较适合类似于文件 JPEG ，MPEG ，但是对于像虚拟机镜像（大文件）文件将无效，因为即使他们只是很小的一部分不同，但是文件级别他们将是不同的文件。
-块级别的去重（相同大小的块），相比文件级的去重，需要更多的计算消耗，但是他能够很好地对像虚拟机镜像类似的大文件去重。大部分的虚拟机镜像文件是重复数据，例如镜像文件中的操作系统部分。使用块级的去重将使得只有镜像特别的数据才占用额外的空间，相同的数据将共享。
-字节级别的去重，将需要更多的计算消耗来决定重复数据的开始和结束区域，不管怎么说，此方法对 mail 服务器来说是理想的选择，例如一个邮件的附件可能出现很多次，但是使用块级别去重时他们并不能被优化。此类型的去重一般用来一些应用程序的去重中，例如 exchangeserver ，因为应用程序知道他管理的数据，可以在内部容易地去重。
-那我开启字节级别去重 ,不久相当于把数据库中的字段重复数据进行去重了?</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102664"
-                        open
-                      >
-                        <summary class="article-expander__title">请问哪里有便宜的云 MySQL 服务？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102664">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Twelveeee: 
-我有在不同地方购买优惠的云服务器的癖好，一年优惠过期之后也不续费，阿里云、华为云以及海外的小鸡都有购买。
-但是我不部署 mysql 在机器上，因为到期了迁移比较麻烦。
-所以之前在阿里云购买了 4 年的 MySQL 服务，当时价格便宜，平均每年只需 54 元。配置是最低的，20GB 存储，1 核，1GB 内存，甚至还有免费的备份
-主要用于个人项目的开发，方便在不同机器上操作。
-
-现在，如果续费这台机器，一年需要 540 元，死🐎贵。
-请问哪里有便宜的云 MySQL 服务？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102663"
-                        open
-                      >
-                        <summary class="article-expander__title">[招聘][远程][兼职/全职] 前端开发实习生</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102663">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>zkzk521: 
-职位描述
-我们正在寻找 1~2 位技术过硬、热爱挑战的前端开发工程师，加入我们的核心团队，从零开始打造一款前所未有的创新产品，为成千上万的北美家庭提供优质服务。
-工作职责
-使用 React.js 和 React.js Hooks 进行核心功能开发和优化，确保代码质量和卓越的用户体验。
-精准还原 Figma 设计稿，实现高保真度的响应式页面布局，注重细节和设计一致性。
-熟练掌握 CSS ，优化界面样式，处理复杂的动画效果和响应式设计。
-参与前端架构设计和组件库开发，提升代码的复用性和可扩展性。
-基于 Next.js 开发服务端渲染（ SSR ）或静态站点生成（ SSG ），满足产品高性能需求。
-深入参与性能优化工作，解决复杂技术问题，提升页面加载速度和稳定性。
-与位于北美/欧洲的团队密切协作，参与跨时区的项目开发，与后端工程师、设计师和产品经理紧密配合。
-任职要求
-精通 React.js 和 React.js Hooks ，具有扎实的前端开发经验。
-熟悉 CSS3 ，并擅长实现高质量的响应式设计和布局，确保在不同设备上的一致体验。
-具备精准还原 Figma 设计稿的能力，注重细节和设计一致性。
-熟悉 JavaScript （ ES6+） 和前端工程化工具（如 Webpack 、Vite ）。
-熟练使用 Next.js ，并有 SSR 或 SSG 实践经验者优先。
-具备优秀的沟通能力，能够适应远程协作环境，与海外团队高效合作。
-加分项
-熟悉 TypeScript ，并对后端技术（如 Node.js 、Express 等）有一定了解或实践经验者优先。
-我们鼓励有志于成为 Full-Stack Engineer 的候选人加入。
-岗位亮点
-跨国协作： 与北美团队紧密合作，体验国际化的工作氛围，拓展全球视野。
-导师制成长： 由来自跨国科技资深工程师提供指导，助力个人快速成长和职业发展。
-创新挑战： 参与从零到一的创新产品开发，直接影响产品方向和用户体验，拥有更大的职业发展空间。
-如果你热衷于前端技术，擅长打造响应式用户界面并热爱细节，我们诚邀你加入，与优秀的团队成员一起成长，共同书写新的篇章！
-如果您感兴趣，请发送中文/英文简历至 [lb@littlelongbao.ai]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102662"
-                        open
-                      >
-                        <summary class="article-expander__title">最近想搞个爬虫爬点东西, 目前 Python 那个框架最好用呢</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102662">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>iorilu: 
-都说 python 最擅长爬虫
-但实际上我以前没啥需求, 没怎么实践过
-请推荐下实际生产项目中好用的爬虫框架或方案</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102661"
-                        open
-                      >
-                        <summary class="article-expander__title">WordPress 有类似这样的主题吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102661">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>itakeman: 
-写了一个开源项目，需要做一个网页，并在网页中罗列出项目的各种特点，并带有下载页面
-可能大家觉得这些功能实现起来很简单，奈何我对前端这些东西一窍不通，问问大家，WordPress 有没有类似的主题</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102658"
-                        open
-                      >
-                        <summary class="article-expander__title">香港开户没有信用卡怎么解决地址证明</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102658">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>peileiscott1: 
-如题，大学生没信用卡的情况下</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102657"
-                        open
-                      >
-                        <summary class="article-expander__title">想更新一下音响，马歇尔还是 B&amp;O？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102657">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Aoyivin: 
-目前用的是 jbl 冲击波 6 ，用了一年多，现在总是出现现象，有的时候刚暂停一下立马继续播放就会断连。时间长一点离开后播放还需要关闭音响再打开才能连上，实在太烦了，想换一款。
-目前看中的是马歇尔 acton3,emberton3,b&amp;o 的 A1
-没有便携的需求，但是房间很小，不考虑体积太大的，也用不上（最大接受马歇尔 acton3 的体积大小）
-之所以犹豫是因为 emberton3 好像没有 3.5 接口，很担心用的久了会出现 jbl 的问题，蓝牙总断连
-acton3 是因为看小红书上有人控诉总连着电源主板烧了（这个问题有朋友遇到过吗？我略微有点不太相信）
-b&amp;o 的 A1 是蓝牙 5.1 的 毕竟感觉有点老了&#x3D;。&#x3D;
-请问各位还有好的推荐嘛？或者这三款更推荐哪一款？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102656"
-                        open
-                      >
-                        <summary class="article-expander__title">关于 [伟途亦可思] App 加广告说明</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102656">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ydatong: 
-我是 [伟途亦可思] 开发者，最近有不少人通过 App 反馈问我为什么加广告了，以及 V 站上也有几个相关的帖子，所以我说明一下。
-1.为什么开发 [伟途亦可思]
-App 是 19 年上线的，因为我之前属于 V 站重度用户（截止今天 V 站连续 1500 天），我个人又比较喜欢用 App 来浏览内容，所以我就开发了 [伟途亦可思] 这款 App ，然后上架到 AppStore 并且在 V 站做了一些推广。我的初心是打算一直免费并维护，做到最好的 V 站第三方 App 。从 19 年到最近，也确实是一直没收费，并且去年开发了 Android 版本，同样也是免费无广告的。
-2.为什么最新版本要加广告?
-去年我的开发者账号是 10 月份到期，我没有继续续费了，因为这些年除了 [伟途亦可思] 我基本也没有别的 App 长期上架，加上我最近逛 V 站频率很低了，所以不打算继续维护了，而且 Apple 每年 688 的账号费用也不想继续交了。下架了以后，一直有用户通过邮件或者在 V 站问我，怎么不上架了，下不到了。在犹豫了一段时间后，上周我还是又续费了 Apple 账号。但是我想的是这次我想把这个账号费用赚回来，不然我没有继续维护的动力了。所以重新上架后，我就开通了收费下载，但是开了一天以后，我就感觉我应该先加广告，然后后面再做一个无广告版本，然后我就改成免费的。没考虑到 App 变成限免这回事，导致那两天下载量飙增，V 站竟然有人说我是为了骗下载。。。(我看了一下数据，那天就一个付费下载用户，如果看到这个帖子，可以联系我，后面出了收费版我送给你。)
-然后在最近的版本，我就加上广告了。我之前上架过不少 App ，这次是第一次加广告，可能广告展示的太大，然后就看到 V 站有几个帖子在说要卸载，广告太恶心，也有用户在 AppStore 评价号召大家一起卸载。。。
-3.后续
-后面广告我还是会一直加的，不喜欢 App 内有广告的，可以卸载，这一点我觉得没什么好说的。
-后续还会出一个收费下载版，无广告，功能上是同步的。
-4.想法
-经过这个事，以后我也不打算再做完全免费的产品了，产品做的再好，只要开始有广告或者收费，用户就会弃之而去，还不如开始就奔着赚钱去
-有还在用 [伟途亦可思] 的 V 友可以继续反馈问题跟建议，只要我自己还在逛 V 站，App 我就会继续优化下去，毕竟我自己一直在用。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102652"
-                        open
-                      >
-                        <summary class="article-expander__title">如何对异性（女性）祛魅？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102652">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VoiceEXONE: 
-目前已婚，即将三十，婚姻关系正常；不知是对婚姻或者说两人生活的消退，愈发想摆脱或者对异性祛魅
-请理性发言，纯粹讨论，不牵连附带狭隘、攻击性言论</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102651"
-                        open
-                      >
-                        <summary class="article-expander__title">vocal.media 无法访问</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102651">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>standin000: 
-显示 attention required,  Sorry, you have been blocked You are unable to access vocal.media
-是我的梯子的不够好吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1102650"
-                        open
-                      >
-                        <summary class="article-expander__title">GEM12 迷你主机 AMD R7 固态大小最大支持多少 T？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1102650">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xmagicer: 
-本来想用这台 GEM12 作为主力 PVE 服务器的，服务器是 PVE8.3.0 ，配置 96G 内存，4T 固态。 详细链接: https://item.jd.com/10097212209268.html
-但是现在 4T 固态经常运行一段时间后报错，固态是三星 990 PRO ，报错如下：
-
-出现这个问题后，PVE 就完全无响应了，SSH 无法连接，机器的命令行也无相应。
-看起来不像是固态的问题，搜到一篇树莓派的类似报错，说是电源问题: Compute board file system corruption? EXT4-fs error
-猜测可能是主板分配给固态的供电有问题，问了下客服说是只测过 2T 的固态，可能性更大了，准备换 2T 固态试试。
-求问，有没有 v 友遇到过类似的问题？之前都是在自己组的 ITX 小主机装 PVE ，没遇到过系统问题。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2412,8 +2501,8 @@ https://www.youtube.com/watch?v&#x3D;CzwMM59rxpU&amp;list&#x3D;RDCzwMM59rxpU</sp
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12620664719">
-        <time id="build-timestamp" datetime="2025-01-05T15:13:45.784Z">2025-01-05T15:13:45.784Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12620832755">
+        <time id="build-timestamp" datetime="2025-01-05T15:35:32.590Z">2025-01-05T15:35:32.590Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
