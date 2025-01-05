@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -339,7 +345,7 @@
           "description": "GabrielleBellamy: \n本人是网络相关的小白。最近因为把 Surge 升级到最新了，于是想尝试一下 Ponte 内网穿透，连接家里的 NAS ，但一点都没成功。我已经把站里大部分与 Surge Ponte 有关的帖子都看了一遍，也照着更改了几遍，但我的设备还是没法正常运行，请大佬支支招～\n情况如下：\n我有一个 Apple TV ，上面运行了 Surge ，设定了 Always On ，因此应该是不会断开的。\n所有设备上都装有 Surge ，都是最新版本。\nApple TV 上打开了 Ponte ，设置的类型为 NAT Traversal 。设置这个类型是因为我用 MacBook Pro 上的 Surge 检测了一下，可以支持 Full Cone NAT ，于是就选择了这个类型。其他类型我也都试过，都没成功。（没有公网 IP ，因此静态端口转发肯定不会成功）名称设置成了 appletv 。\nApple TV 端使用了独立的配置文件，配置文件中不包含 IP-CIDR 到其他设备的规则。\n同时，Apple TV 配置文件的开头，skip 的部分保留了192.168.0.0/16, 而在所有客户端上将这一条删去了。\n在客户端上，设置规则IP-CIDR,192.168.0.185/24,DEVICE:appletv，放在配置文件较后的位置，具体位于 GEOIP,CN,\"🎯 全球直连\"和 FINAL,🐟 漏网之鱼的前面，彼此紧接着。192.168.0.185 是我家里网络里 NAS 的地址，这样写应该是没问题的吧？\n接着我配置了各个设备端，然后想测试一下官网手册给出的用例，结果都失败了。其中，连接系统文件共享服务是用 MacBook Pro 作为服务器测试的，当然不出意外也是失败的。报错为“The operation couldn't be completed. Operation not supported”。在测试通过这个 Ponte 访问家中其他设备时，自然也是连不上。\n我发现，当我在家里（服务器端）的网络下时，Ponte 诊断显示一切正常，只是提醒我在同一个网段下的时候 ponte 转发不会被激活。然而当我离开家、换成别的网络的时候，在 Surge 内的 Ponte 似乎也显示异常，诊断结果是“Surge on the remote device may not be turned on. (POSIX:61)”。这样来说其实还是没有成功打通的样子。\n请问各位大佬们，我漏掉了什么步骤吗？或者路由器的什么设置需要我特别配置的？我没有公网 IP ，暂时就不考虑这个类型了（很多教程都是基于公网 IP 的，似乎更顺利一些）。谢谢谢谢🙏",
           "link": "https://www.v2ex.com/t/1102696",
           "publishedOn": "2025-01-05T09:36:25.000Z",
-          "wordCount": 606,
+          "wordCount": 629,
           "title": "想请教一下网络大佬们， Surge 的 Ponte 在 Apple TV 上内网穿透回家访问 NAS 没成功，是哪里出错了呢？",
           "imageUrl": null
         },
@@ -369,7 +375,7 @@
           "description": "sheeeran: 23 年底换工作后，开始在新公司接手做一款小众音乐 app 。从一开始的斗志昂扬，到现在已经有点生无可恋：新增留存率不太行，产品数据上不去。其中难点不展开说了，只想让大家评价下这个产品，看是否有继续的必要。现在不确定产品是否伪需求，还是说需求存在但我做得不够好（确实也知道哪些地方做得不好）。\nApp 名：云赏 HIFI ，一款私人无损音乐云盘产品，特色为：\n1️⃣支持轻松搭建私人音乐库。无需研究复杂昂贵的 nas 、公网访问、播放器配置，就像使用网盘产品一样，轻松使用；灵活的管理能力，支持自定义专辑封面、排序、歌词等信息，支持自定义分类。\n2️⃣对无损格式的充分支持。支持各种无损格式音乐的上传和在线播放；支持 dlna 无损投播到音箱，突破 AirPlay 和蓝牙的码率限制； Android 支持独占 usb 输出，突破系统采样率限制。\n3️⃣多端同步。私人收藏的无损音乐，无需人肉来回转移拷贝，支持 iOS 、Android 、网页端、小程序同步使用。\n4️⃣数万手正版免费无损音乐，以古典乐为主。\n5️⃣简洁、无任何广告。\n各大应用市场均可搜索「云赏 HIFI 」下载。\nhttps://apps.apple.com/cn/app/%E4%BA%91%E8%B5%8Fhifi/id1579022810\n对于喜欢收藏专辑、听专辑，且对音质、风格简洁有要求的音乐爱好者，可以尝试一下。不同于主流音乐 app 的订阅式租用，云赏是用户可以私人占有的音乐角落，就像是实体收藏唱片墙的数字版分身。\n「送码说明」\nApp 免费也可使用，会员能多一些权益。\n1️⃣如需会员兑换码，可直接留言，我周一找同事配置后回复，可兑换 30 天会员。\n—兑换码使用方式：\n——Android 客户端：打开 app → 我的 →会员中心 →拉到页面底部的“兑换会员”→ 输入口令兑换；\n——iOS 客户端：苹果商店不允许提供会员兑换手段，可移步微信小程序里的会员中心兑换（点击头像旁边的会员标签进入）\n2️⃣如果不想留言，也可直接通过我的好友邀请链接注册，注册成功后使用 app 登录，自动享有 30 天会员。\nhttps://m.imusic.cn/h5v/yunting/ShareForAwardH5/rewardIndex?signature=7609233aefe816429ef768e43a07e08e&cc=5206",
           "link": "https://www.v2ex.com/t/1102693",
           "publishedOn": "2025-01-05T09:18:28.000Z",
-          "wordCount": 426,
+          "wordCount": 432,
           "title": "「送码」私人音乐云盘 app 接手做了一年，挺艰难的",
           "imageUrl": null
         },
@@ -389,7 +395,7 @@
           "description": "Tiaa: 想问问大家什么原因，为什么最近使用 gpt 生成一些代码或则其它内容（文字性）时，gpt 出现的内容总是会出现缺少的问题，或则说压根就不给你出现了，我暂时用的是手机热点来使用的，测试了一下感觉不太可能是网络问题，不知道有没有其它的朋友遇到了这种情况呢？",
           "link": "https://www.v2ex.com/t/1102690",
           "publishedOn": "2025-01-05T08:55:59.000Z",
-          "wordCount": 370,
+          "wordCount": 372,
           "title": "#ChatGPT#openAI",
           "imageUrl": null
         },
@@ -409,7 +415,7 @@
           "description": "wryyyyyyyyyyyy: 究竟是谁在说 2 、3 天就能写一个网站出来，之前都是自己写，不懂就 chat ；最近总看到不懂程序的小白啊，产品经理啊，没有基础靠 cursor 就能写出一个网站来 ，就用了一下 composer ，确实速度很快生成了一大堆代码，但 python 库一多，就骨头不顾屁股，bug 一大堆。\n举个例子：\n我用 fastapi 些项目 ，需要迁移，迁移是不支持用异步驱动的，但 fastapi 生成的时候用的异步，cursor 就像用异步的库来配置 alembic ，发现不支持，就把异步删了换同步，顺便把 fastapi 的异步库删了，但前面的代码都是用的异步代码，他有自己给加回来，然后又把同步的库删掉， 开始循环。\n是 fastapi 有什么难度吗？还是我的操作有问题？",
           "link": "https://www.v2ex.com/t/1102687",
           "publishedOn": "2025-01-05T08:44:14.000Z",
-          "wordCount": 546,
+          "wordCount": 582,
           "title": "被 cursor 气出脑血栓",
           "imageUrl": null
         },
@@ -439,7 +445,7 @@
           "description": "3825995121: \n我从 ftx 索赔网站点击到 BitGo 注册的，注册完了也一直没有发送邮件啥的，\n等了一周之后，我邮件联系了 support@bitgo.com 然后邮件给我发了一个链接进行 kyc\n然后我完成了身份信息填写，提交申请\n等了一天邮件通知提示我 请提供翻译成英文的政府颁发的带照片的身份证",
           "link": "https://www.v2ex.com/t/1102684",
           "publishedOn": "2025-01-05T08:28:57.000Z",
-          "wordCount": 387,
+          "wordCount": 394,
           "title": "ftx 最近开始赔款了,但是第 8 步的时候选择了 BitGo,BitGo 在 kyc 的时候需要提供政府签发的带照片的身份证件并翻译成英文，不知道怎么弄了😓",
           "imageUrl": null
         },
@@ -449,7 +455,7 @@
           "description": "xianyukang: \n(0) 如题\n(1) 比如转账/扣款相关的业务，推荐用悲观锁还是乐观锁?\n(2) 脑补了如下的乐观锁实现，可以满足并发转账和取钱需求吗? \n(3) 如果能，那么和悲观锁 select for update 作对比哪个更好?\n# 数据库初始状态\nTRUNCATE account;\nINSERT INTO account (id, name, balance, version)\nVALUES (1, 'ichigo', 10, 1),\n       (2, 'rukia', 10, 1);\n\n# 并发事务 1 转出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nSELECT version FROM account WHERE id = 2;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nUPDATE account SET balance = balance + 10, version = 2 WHERE id = 2 AND version = 1;\nCOMMIT;\n\n# 并发事务 2 取出全部余额\nSTART TRANSACTION;\nSELECT balance, version FROM account WHERE id = 1;\nUPDATE account SET balance = balance - 10, version = 2 WHERE id = 1 AND version = 1;\nCOMMIT;",
           "link": "https://www.v2ex.com/t/1102681",
           "publishedOn": "2025-01-05T08:17:09.000Z",
-          "wordCount": 611,
+          "wordCount": 634,
           "title": "数据库中 select for update 和 version 乐观锁各自的适用场景是啥?",
           "imageUrl": null
         },
@@ -579,7 +585,7 @@
           "description": "Twelveeee: \n我有在不同地方购买优惠的云服务器的癖好，一年优惠过期之后也不续费，阿里云、华为云以及海外的小鸡都有购买。\n但是我不部署 mysql 在机器上，因为到期了迁移比较麻烦。\n所以之前在阿里云购买了 4 年的 MySQL 服务，当时价格便宜，平均每年只需 54 元。配置是最低的，20GB 存储，1 核，1GB 内存，甚至还有免费的备份\n主要用于个人项目的开发，方便在不同机器上操作。\n\n现在，如果续费这台机器，一年需要 540 元，死🐎贵。\n请问哪里有便宜的云 MySQL 服务？",
           "link": "https://www.v2ex.com/t/1102664",
           "publishedOn": "2025-01-05T06:59:58.000Z",
-          "wordCount": 544,
+          "wordCount": 556,
           "title": "请问哪里有便宜的云 MySQL 服务？",
           "imageUrl": null
         },
@@ -629,7 +635,7 @@
           "description": "Aoyivin: \n目前用的是 jbl 冲击波 6 ，用了一年多，现在总是出现现象，有的时候刚暂停一下立马继续播放就会断连。时间长一点离开后播放还需要关闭音响再打开才能连上，实在太烦了，想换一款。\n目前看中的是马歇尔 acton3,emberton3,b&o 的 A1\n没有便携的需求，但是房间很小，不考虑体积太大的，也用不上（最大接受马歇尔 acton3 的体积大小）\n之所以犹豫是因为 emberton3 好像没有 3.5 接口，很担心用的久了会出现 jbl 的问题，蓝牙总断连\nacton3 是因为看小红书上有人控诉总连着电源主板烧了（这个问题有朋友遇到过吗？我略微有点不太相信）\nb&o 的 A1 是蓝牙 5.1 的 毕竟感觉有点老了=。=\n请问各位还有好的推荐嘛？或者这三款更推荐哪一款？",
           "link": "https://www.v2ex.com/t/1102657",
           "publishedOn": "2025-01-05T06:15:19.000Z",
-          "wordCount": 484,
+          "wordCount": 486,
           "title": "想更新一下音响，马歇尔还是 B&O？",
           "imageUrl": null
         },
@@ -639,7 +645,7 @@
           "description": "ydatong: \n我是 [伟途亦可思] 开发者，最近有不少人通过 App 反馈问我为什么加广告了，以及 V 站上也有几个相关的帖子，所以我说明一下。\n1.为什么开发 [伟途亦可思]\nApp 是 19 年上线的，因为我之前属于 V 站重度用户（截止今天 V 站连续 1500 天），我个人又比较喜欢用 App 来浏览内容，所以我就开发了 [伟途亦可思] 这款 App ，然后上架到 AppStore 并且在 V 站做了一些推广。我的初心是打算一直免费并维护，做到最好的 V 站第三方 App 。从 19 年到最近，也确实是一直没收费，并且去年开发了 Android 版本，同样也是免费无广告的。\n2.为什么最新版本要加广告?\n去年我的开发者账号是 10 月份到期，我没有继续续费了，因为这些年除了 [伟途亦可思] 我基本也没有别的 App 长期上架，加上我最近逛 V 站频率很低了，所以不打算继续维护了，而且 Apple 每年 688 的账号费用也不想继续交了。下架了以后，一直有用户通过邮件或者在 V 站问我，怎么不上架了，下不到了。在犹豫了一段时间后，上周我还是又续费了 Apple 账号。但是我想的是这次我想把这个账号费用赚回来，不然我没有继续维护的动力了。所以重新上架后，我就开通了收费下载，但是开了一天以后，我就感觉我应该先加广告，然后后面再做一个无广告版本，然后我就改成免费的。没考虑到 App 变成限免这回事，导致那两天下载量飙增，V 站竟然有人说我是为了骗下载。。。(我看了一下数据，那天就一个付费下载用户，如果看到这个帖子，可以联系我，后面出了收费版我送给你。)\n然后在最近的版本，我就加上广告了。我之前上架过不少 App ，这次是第一次加广告，可能广告展示的太大，然后就看到 V 站有几个帖子在说要卸载，广告太恶心，也有用户在 AppStore 评价号召大家一起卸载。。。\n3.后续\n后面广告我还是会一直加的，不喜欢 App 内有广告的，可以卸载，这一点我觉得没什么好说的。\n后续还会出一个收费下载版，无广告，功能上是同步的。\n4.想法\n经过这个事，以后我也不打算再做完全免费的产品了，产品做的再好，只要开始有广告或者收费，用户就会弃之而去，还不如开始就奔着赚钱去\n有还在用 [伟途亦可思] 的 V 友可以继续反馈问题跟建议，只要我自己还在逛 V 站，App 我就会继续优化下去，毕竟我自己一直在用。",
           "link": "https://www.v2ex.com/t/1102656",
           "publishedOn": "2025-01-05T06:04:16.000Z",
-          "wordCount": 835,
+          "wordCount": 850,
           "title": "关于 [伟途亦可思] App 加广告说明",
           "imageUrl": null
         },
@@ -649,7 +655,7 @@
           "description": "VoiceEXONE: \n目前已婚，即将三十，婚姻关系正常；不知是对婚姻或者说两人生活的消退，愈发想摆脱或者对异性祛魅\n请理性发言，纯粹讨论，不牵连附带狭隘、攻击性言论",
           "link": "https://www.v2ex.com/t/1102652",
           "publishedOn": "2025-01-05T05:31:11.000Z",
-          "wordCount": 539,
+          "wordCount": 543,
           "title": "如何对异性（女性）祛魅？",
           "imageUrl": null
         },
@@ -669,7 +675,7 @@
           "description": "xmagicer: \n本来想用这台 GEM12 作为主力 PVE 服务器的，服务器是 PVE8.3.0 ，配置 96G 内存，4T 固态。 详细链接: https://item.jd.com/10097212209268.html\n但是现在 4T 固态经常运行一段时间后报错，固态是三星 990 PRO ，报错如下：\n\n出现这个问题后，PVE 就完全无响应了，SSH 无法连接，机器的命令行也无相应。\n看起来不像是固态的问题，搜到一篇树莓派的类似报错，说是电源问题: Compute board file system corruption? EXT4-fs error\n猜测可能是主板分配给固态的供电有问题，问了下客服说是只测过 2T 的固态，可能性更大了，准备换 2T 固态试试。\n求问，有没有 v 友遇到过类似的问题？之前都是在自己组的 ITX 小主机装 PVE ，没遇到过系统问题。",
           "link": "https://www.v2ex.com/t/1102650",
           "publishedOn": "2025-01-05T05:20:17.000Z",
-          "wordCount": 407,
+          "wordCount": 414,
           "title": "GEM12 迷你主机 AMD R7 固态大小最大支持多少 T？",
           "imageUrl": null
         }
