@@ -171,6 +171,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -312,7 +339,7 @@
           "description": "xiaofami: \n去年年中 PDD 买的卡，到手后使用本人中行信用卡充值 10 磅开卡成功，也拿到了 5 磅的开卡奖励。自开卡后除注册账户接收短信（不超过 10 条）就再未使用过。几日前收到 giffgaff 邮件提醒，要求于 1 月 28 日前账户余额发生变化，这才发现卡片已经无法进行包括收发短信在内的一切操作了。问过客服，被告知违反了 3.5.j 条款导致被永封，该条款内容如下:\nj) Ensure the information you have provided to us in Participation or otherwise is accurate and up-to-date\n\n我的信用卡账单地址是瞎填的，giffgaff 真的会核实吗。。。",
           "link": "https://www.v2ex.com/t/1102598",
           "publishedOn": "2025-01-05T00:10:22.000Z",
-          "wordCount": 765,
+          "wordCount": 767,
           "title": "giffgaff 号码被永封",
           "imageUrl": null
         },
@@ -332,7 +359,7 @@
           "description": "wuruxu: \n最近想测试下，在 Linux 休眠模式下，通过 wifi 唤醒 PC 但一直不成功",
           "link": "https://www.v2ex.com/t/1102595",
           "publishedOn": "2025-01-04T22:53:19.000Z",
-          "wordCount": 579,
+          "wordCount": 594,
           "title": "wakeup over wifi 有成功的同学吗？",
           "imageUrl": null
         },
@@ -362,7 +389,7 @@
           "description": "xuxueli: \nRelease Notes\n1 、 [安全] 序列化安全性增强，默认开启 package 安全空间机制；\n2 、 [扩展] 序列化扩展性增强，支持自定义序列化 package 白名单；\n3 、 [优化] 序列化类型主动检测，提升问题定位效率；\n4 、 [能力] 服务注册发现实效性提升，优化 long-polling 逻辑；\n5 、 [扩展] 模块 xxl-rpc-netty-shade 独立拆分，与 Core 模块解耦；\n6 、 [优化] 通讯组件选择 HttpServer 时，HttpObjectAggregator 限制调大至 20M ，支持大消息传输；\n7 、 [升级] 多个项目依赖升级至较新稳定版本，涉及 xxl-rpc-netty-shade 、netty 、slf4j 等；\nXXL- RPC 快速接入示例\n代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-rpc/tree/master/xxl-rpc-samples\n1 、服务注册中心搭建：一行命令启动注册中心，一站式提供服务动态注册发现能力。\ndocker pull xuxueli/xxl-rpc-admin\n\ndocker run -p 8080:8080 -v /tmp:/data/applogs --name xxl-rpc-admin  -d xuxueli/xxl-rpc-admin\n\n\n2 、XXL-PRC 接入配置：与 Spring 无缝集成，也支持无框架接入。\nXxlRpcSpringFactory factory = new XxlRpcSpringFactory();\nfactory.setBaseConfig(new BaseConfig(env, appname));\nfactory.setRegiste…",
           "link": "https://www.v2ex.com/t/1102592",
           "publishedOn": "2025-01-04T19:03:28.000Z",
-          "wordCount": 611,
+          "wordCount": 613,
           "title": "XXL-RPC v1.8.1 | RPC 服务框架",
           "imageUrl": null
         },
@@ -432,7 +459,7 @@
           "description": "darksheep9527: \n如题\n个人感觉小红书很多时候已经比百度更好用了 在搜旅游攻略/生活经验 上更是如此\n但是小红书的信息流 感觉会刷到很多不喜欢的内容(但是还是会手贱点进去)\n所以在想有没有只有搜索功能和收藏夹功能的小红书版本",
           "link": "https://www.v2ex.com/t/1102583",
           "publishedOn": "2025-01-04T16:56:54.000Z",
-          "wordCount": 405,
+          "wordCount": 411,
           "title": "有没有只有搜索和收藏夹功能的小红书版本(逃离信息流)",
           "imageUrl": null
         },
@@ -482,7 +509,7 @@
           "description": "mingtdlb: \nGoogle 翻译目前还是机器翻译吧？感觉有时候有点生硬，上 AI 会好很多吧？\n因为我发现国内的翻译，有 AI 翻译还挺不错，比原来的机器翻译好，比如有道 百度",
           "link": "https://www.v2ex.com/t/1102577",
           "publishedOn": "2025-01-04T15:45:25.000Z",
-          "wordCount": 487,
+          "wordCount": 489,
           "title": "Google 翻译怎么还不上 AI",
           "imageUrl": null
         },
@@ -512,7 +539,7 @@
           "description": "chemfinder: \n由于是创业初期，很多东西没有考虑清楚，现在有小一千早期用户，但和我们处于失联状态，我想听听他们对产品的看法都没个渠道。。因为是早期，我们没有做客服微信二维码，导致我们现在想加他们很困难，但是我试了几个，发现只要说我是某某某产品的人，他们就会加我，但是毕竟小一千了。。。这样挨个手机搜微信/加好友/再拉进群，太困难了啊，我又超级懒，就想有没有自动化的方法呢？也就是自动化完成挨个手机搜微信/加好友/再拉进群的方法呢？\n刚才我还去淘宝找，看看有没有接这种单的，结果淘宝把微信群都做完屏蔽词了，啥也搜不到~",
           "link": "https://www.v2ex.com/t/1102571",
           "publishedOn": "2025-01-04T15:17:33.000Z",
-          "wordCount": 366,
+          "wordCount": 395,
           "title": "怎么把我的用户加到一个微信群里呢",
           "imageUrl": null
         },
@@ -642,7 +669,7 @@
           "description": "tanjianwei: 为了更好提升照片管理的体验，这次做了重大更新，新增了专属的相册快速整理模式，还有照片日历功能，还引入了 AI 自动整理相册照片主题功能，可以更加轻松整理和回忆照片。\n\n✅ 增加了照片日历功能、照片日记功能，用户没有时间写日记也没有关系，每天拍一张照片，就是日记。\n✅ 用户整理照片的最大痛点在于需要花费大量时间手动分类、打标签。所以我们打造了自动分类功能，并且预设了 300+的多样化主题名称，通过这些主题，结合 clip 模型的语义识别能力，将照片归类到不同的主题中。\n✅ 重构了整个 app 底层系统，极大提升整理体验，用户在删除、分类、浏览照片过程中，非常流畅，自我评价是感觉比 slidebox 用得更顺手。\n------- APP 下载地址 -------\n轻翻相册 APP 下载地址：\nhttps://apps.apple.com/cn/app/id6449437172\n\n------ 抽奖方式说明 --------\n1 、在这里留下评论，随机抽取 8 位回复的用户，前 3 送 永久会员，后 5 个年度会员\n2 、评论截止时间：1 月 7 日晚 23 点\n3 、抽奖方式：通过 js 脚本生成楼层范围内的随机数",
           "link": "https://www.v2ex.com/t/1102554",
           "publishedOn": "2025-01-04T12:49:18.000Z",
-          "wordCount": 855,
+          "wordCount": 864,
           "title": "[🎁抽奖 3 永久 5 年度] 狂肝一月重构轻翻相册，照片整理新体验， 25 年又有额度了",
           "imageUrl": null
         },
