@@ -167,6 +167,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -438,7 +465,7 @@
           "description": "dejavuwind: \n怪我贪便宜啊 买了个智随享的杂牌国产，也没看颗粒，现在看来应该不是了，大概率是垃圾颗粒，\n可能 zhitai 的 7100 plus 这种还行\n只是基础测试\n读速经常掉到 200MB/s 平均也只有 700MB/s 左右\n距离标称的 3000MB/s 读速这差了多少了\n\n对比下几年前买的 Intel 速度真稳啊 虽然也不多快 毕竟技术老一些\n\n售后让直接申请售后寄回去修（数据不保）\n考虑再三，还是下单了一块 990 evo plus ，倒完数据把原来的这块智随享送回去看看，来回还不够折腾的\n以后国产盘一律不做系统盘了 致钛的哪天有机会再试试吧\n内存目前为止没啥问题 16G 玖合 + 16G 光威弈 pro 系列 基本的 memtest86 没跑出来明显问题（在我的认知范围）",
           "link": "https://www.v2ex.com/t/1102747",
           "publishedOn": "2025-01-05T15:15:25.000Z",
-          "wordCount": 398,
+          "wordCount": 409,
           "title": "系统经常遇到未响应，怀疑是硬盘问题， HD Tune 测了下，实惨",
           "imageUrl": null
         },
@@ -458,7 +485,7 @@
           "description": "XJYS: \n佬友们在下想买个沙发实木的 长度 4 米左右能带茶几电视柜最好 预算一万以下有什么推荐吗?那个平台靠谱点，有啥需要避坑的",
           "link": "https://www.v2ex.com/t/1102744",
           "publishedOn": "2025-01-05T14:57:51.000Z",
-          "wordCount": 377,
+          "wordCount": 378,
           "title": "有大佬在网上买过沙发吗？",
           "imageUrl": null
         },
@@ -638,7 +665,7 @@
           "description": "drymonfidelia: \n写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo\n\n这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？\n截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了",
           "link": "https://www.v2ex.com/t/1102722",
           "publishedOn": "2025-01-05T13:00:10.000Z",
-          "wordCount": 622,
+          "wordCount": 624,
           "title": "Microsoft 已经草台班子到这种程度了吗",
           "imageUrl": null
         },
