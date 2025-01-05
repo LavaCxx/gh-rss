@@ -378,7 +378,7 @@
           "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
           "link": "https://www.v2ex.com/t/1102753",
           "publishedOn": "2025-01-05T15:51:22.000Z",
-          "wordCount": 539,
+          "wordCount": 543,
           "title": "C# 有哪些显著的缺点？",
           "imageUrl": null
         },
@@ -498,7 +498,7 @@
           "description": "bestrui: \n没有找到一款类似的工具，所以自己写了一个\nGithub 直达bestruirui/mihomo-check\n求⭐\n多线程 1000 个节点测试仅需 5 分钟\n低占用，200 个线程仅占用 15%CPU\n合并，去重，可用性，解锁情况一条龙",
           "link": "https://www.v2ex.com/t/1102739",
           "publishedOn": "2025-01-05T14:34:41.000Z",
-          "wordCount": 392,
+          "wordCount": 393,
           "title": "订阅合并，去重，重命名，可用性检测",
           "imageUrl": null
         },
@@ -638,7 +638,7 @@
           "description": "drymonfidelia: \n写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo\n\n这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？\n截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了",
           "link": "https://www.v2ex.com/t/1102722",
           "publishedOn": "2025-01-05T13:00:10.000Z",
-          "wordCount": 620,
+          "wordCount": 622,
           "title": "Microsoft 已经草台班子到这种程度了吗",
           "imageUrl": null
         },
