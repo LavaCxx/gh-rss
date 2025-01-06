@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -157,33 +163,6 @@
           "wordCount": 1055,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -329,7 +308,7 @@
           "description": "leegoo: \n宝子们,湖南地区,找到一个卖烟花比市场价低 30%的平台,注册就送加特林,黑老大,仙女棒等等\n一根也是批发价，比市场上都便宜好多\n这个是我朋友开的店,下单填邀请码后,V2EX 用户再享 95 折优惠(下单提货后立马返现)",
           "link": "https://www.v2ex.com/t/1102771",
           "publishedOn": "2025-01-06T00:47:04.000Z",
-          "wordCount": 1019,
+          "wordCount": 1034,
           "title": "宝子们,湖南地区,找到一个卖烟花比市场价低 30%的平台,注册就送加特林,黑老大,仙女棒等",
           "imageUrl": null
         },
@@ -339,7 +318,7 @@
           "description": "usual2970: \n本文转载自作者个人博客，原文地址：https://profile.ikit.fun/blog/2025-01-04-indie-hacker-mvp\n作为独立开发者，有了产品想法以后，最重要的就是快速实现 MVP ，上线验证想法然后根据情况迭代。\n如何快速实现 MVP ，对于部分开发者来说存在一定的困难，这些困难可以通过结合 AI 来解决。\n存在的困难\n后端程序员设计 UI：部分独立开发者之前可能一直从事的后端开发，而独立开发要求的是从产品设计、UI 设计到后端开发的全栈能力，UI 设计就成了短板，设计一套看得过去的 UI 可能旷日持久，甚至因为挫折重重最后导致产品夭折。\n拖延症患者行动困难：即使是有这些能力，但是实现 MVP 也不是轻而易举的事情，有大量的代码要写同时没有考核的担忧，很容易拖延下去，到最后同样不了了之。\n解决方法\n最近在 twitter 上看到一个结合 AI 快速实现 MVP 的方法，可以抹平后端开发者前端能力的差距，同时只需要输入 prompt 就可以实现产品的基础原型。在这里以 个人网站 作为例子分享一下。\n我的个人网站就是这么生成的。\n1. 先整理产品需求。\n在开始写代码之前，先简要的整理产品的需求，明确以下几个问题：\n什么产品？ WEB APP 还是 手机 APP 或者其他什么产品？\n它能给用户产生什么价值，带来什么好处？\n目标用户？\n它能解决什么问题？它的主要目标是什么？\n例子：我在设计个人网站，主要用于介绍自己、宣传自己过去做的项目、以及发布一些自己写的文章，同时也让大家可以联系到我。\n需求越清晰、越明确、越简洁，效果越好。\n2. 使用 CHATGPT 或其它 AI 生成产品特性。\n使用上一步整理出的产品需求，结合 CHATGPT 生成可执行的产品特性。在对话框里输入如下 prompt:\n这是项目的需求描述: （上一步总结的需求描述），生成一系列可执行的关键特性和技术需求，以便实现这个网站的 MVP 。对于个人网站, 最好有如下面面：\nlandingpage\nblogs page\nprojects page\ncontact me page\n\n3.再使用 CHATGPT 生成的产品特性，生成产品需要的页面的描述。\n在对话框里输入如下 prompt:\n基于这个产品的需求和特性，罗列出构建这个产品所需的所有页面。\n\n4. 使用 Lovable/Bolt 构建产品的首页面。\n使用第 1 步总结的需求描述以及第 3 步生成的产品页面结构，结合 Lovable 生成基础的代码。可以使用如下 prompt:\n这是项目的需求描述：我在设计个人网站，主要用于介绍自己、宣传自己过去做的项目、以及发布一些自己写的文章，同时也让大家可以联系到我。使用这个项目结构 （上一步生成的结果）生成一个简洁的、响应式的且有审美的设计。\n\n5. 完善 landing page.\nlanding page 是 MVP 的关键，Lovable 可以很简单的完成你的需求，你只需要将自己的需求告诉 Lovable ，然后检查生成的结果，再完善。直到符合你的审美和需求。\n\n6. 完善其它页面\n使用同样的方法，不断的完善其它页面，使其最终符合你的审美。\n使用 GHATGPT 定义页面结构。\nLovable 生成 UI 。\n使用 PROMPT 完善页面。\n7. 使用 Lovable 连接 Supabase\nLovable 可以连接 Supabase ，这样你就可以直接生成前后端兼备的 MVP ，然后获取用户反馈。如果用户反馈比较好，可以继续后续的步聚。\n8. 使用 cursor/windsurf 进一步开发。\nLovable 可以与 github 同步，我们可以把代码克隆下来，使用 cursor IDE 进行进一步的开发，比如你不打算用 supabase ，需要对接自己的 api 。\n同时我们在开发的过程中，如果有新的界面需要设计，还可以回到 Lovable 进行设计。\n总结\nAI 时代，我们有各种各样的工具实现产品需求，对于独立开发者来说，使用这些 AI 工具可以更有效率的实现 MVP 。\nCHATGPT/CLAUDE 用来做计划和产品特性设计。\nLOVABLE/BOLT 用来做 MVP 生成、部署、获得反馈、快速迭代。\nCURSOR/WINDSURF 用来做进一步开发。\n原文地址： https://profile.ikit.fun/blog/2025-01-04-indie-hacker-mvp\n开源项目：Certimate-开源的 SSL 证书管理工具\n感谢阅读，更多精彩内容请访问作者博客。",
           "link": "https://www.v2ex.com/t/1102770",
           "publishedOn": "2025-01-06T00:46:26.000Z",
-          "wordCount": 790,
+          "wordCount": 800,
           "title": "2025 年，独立开发者如何快速实现 MVP",
           "imageUrl": null
         },
@@ -359,7 +338,7 @@
           "description": "StevenSLXie: https://onenorther.substack.com/p/the-best-job-in-human-history-for",
           "link": "https://www.v2ex.com/t/1102766",
           "publishedOn": "2025-01-05T22:32:53.000Z",
-          "wordCount": 596,
+          "wordCount": 617,
           "title": "尽管到处裁员，程序员仍是人类历史上最好的职业",
           "imageUrl": null
         },
@@ -369,7 +348,7 @@
           "description": "microka: 一直在用 inoreader 订阅超能网 RSS https://www.expreview.com/rss.php\n发现最新文章一直停留在 2024-09-21 ，用浏览器访问 https://www.expreview.com/rss.php 能看到最新的文章信息，也试过用 Follow 订阅，和 inoreader 一样最新文章是 2024-09-21 ，也找到有人发过这个讨论 https://github.com/RSSNext/Follow/discussions/1814 但没有回应。\n想问是超能网的 RSS 出问题了吗？",
           "link": "https://www.v2ex.com/t/1102765",
           "publishedOn": "2025-01-05T21:20:37.000Z",
-          "wordCount": 415,
+          "wordCount": 420,
           "title": "超能网的 RSS 是否有问题？",
           "imageUrl": null
         },
@@ -379,7 +358,7 @@
           "description": "starsliao: \n🌈概述\n🌼花折 - KubeDoor 是一个使用 Python + Vue 开发，基于 K8S 准入控制机制的微服务资源管控平台。专注微服务每日高峰时段的资源视角，实现了微服务的资源分析统计与强管控，确保微服务资源的资源申请率和真实使用率一致。📀项目仓库： https://github.com/CassInfra/KubeDoor\n💠架构图\n\n💎功能描述\n📊采集 K8S 微服务每日业务高峰时段 P95 的 CPU 内存消耗，以及需求、限制值与 Pod 数。基于采集的数据实现了一个 Grafana 看板并集成到了 WEB UI 。\n🎨基于日维度采集每日高峰时段 P95 的资源数据,可以很好的观察各微服务长期的资源变化情况，即使查看 1 年的数据也很流畅。\n🏅高峰时段全局资源统计与各资源 TOP10\n🔎命名空间级别高峰时段 P95 资源使用量与资源消耗占整体资源的比例\n🧿微服务级别高峰期整体资源与使用率分析\n📈微服务与Pod 级别的资源曲线图(需求值,限制值,使用值)\n\n\n\n\n🎡每日从采集的数据中，获取最近 10 天各微服务的资源信息，获取资源消耗最大日的 P95 资源，作为微服务的需求值写入数据库。\n✨基于准入控制机制实现 K8S 微服务资源的真实使用率和资源申请需求值保持一致，具有非常重要的意义。\n🌊K8S 调度器通过真实的资源需求值就能够更精确地将 Pod 调度到合适的节点上，避免资源碎片，实现节点的资源均衡。\n♻K8S 自动扩缩容也依赖资源需求值来判断，真实的需求值可以更精准的触发扩缩容操作。\n🛡K8S 的保障服务质量（ QoS 机制）与需求值结合，真实需求值的 Pod 会被优先保留，保证关键服务的正常运行。\n🌐实现了一个 K8S 管控与展示的 WEB UI 。\n⚙️对微服务的最新、每日高峰期的P95 资源展示，以及…",
           "link": "https://www.v2ex.com/t/1102763",
           "publishedOn": "2025-01-05T18:44:50.000Z",
-          "wordCount": 751,
+          "wordCount": 753,
           "title": "花折 - KubeDoor 正式开源：基于 AI 推荐+专家经验的 K8S 负载感知调度与容量管控系统",
           "imageUrl": null
         },
@@ -449,7 +428,7 @@
           "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
           "link": "https://www.v2ex.com/t/1102753",
           "publishedOn": "2025-01-05T15:51:22.000Z",
-          "wordCount": 753,
+          "wordCount": 754,
           "title": "C# 有哪些显著的缺点？",
           "imageUrl": null
         },
@@ -499,7 +478,7 @@
           "description": "Buffalo: \n一到冬天使用我们这里的自来水洗澡或者洗手，都感觉皮肤（特别是手）变得非常非常粗糙，还很容易掉皮开裂什么的。前不久买了个海尔洗衣机，然后下载了海尔智家。海尔智家首页会显示我们当地的室外水质，比如现在它会显示 391 mg/L ，我随便找了一些城市，比如北京、上海、南京什么的，数值都没我们这里高。\n我想请教，海尔智家显示的水质数值是什么含义？是硬度吗，另外海尔是从哪儿得到这个数值。如果是硬度那我们这里应该是极硬的水平。",
           "link": "https://www.v2ex.com/t/1102748",
           "publishedOn": "2025-01-05T15:16:10.000Z",
-          "wordCount": 355,
+          "wordCount": 357,
           "title": "如何理解海尔智家 App 首页的水质数值",
           "imageUrl": null
         },
@@ -529,7 +508,7 @@
           "description": "XJYS: \n佬友们在下想买个沙发实木的 长度 4 米左右能带茶几电视柜最好 预算一万以下有什么推荐吗?那个平台靠谱点，有啥需要避坑的",
           "link": "https://www.v2ex.com/t/1102744",
           "publishedOn": "2025-01-05T14:57:51.000Z",
-          "wordCount": 479,
+          "wordCount": 499,
           "title": "有大佬在网上买过沙发吗？",
           "imageUrl": null
         },
@@ -539,7 +518,7 @@
           "description": "qqqtz: \n想放一个在家，平时外出可以用平板 ssh 上去 nvim 写点代码",
           "link": "https://www.v2ex.com/t/1102743",
           "publishedOn": "2025-01-05T14:51:46.000Z",
-          "wordCount": 516,
+          "wordCount": 524,
           "title": "M4 mini 24 小时不关机耗电多少",
           "imageUrl": null
         },
@@ -549,7 +528,7 @@
           "description": "Y9qn1d: 红米 4k 显示器 typec 可以反向供电那款，电脑没连着显示器的时候，显示器那边的 usb-a 接口就没有电了吗？\n我看设置那边有休眠供电选项，但是灰色的没法选中，不知道是为啥。\n问了京东客服也不知道为啥。\n有大佬知道的吗？",
           "link": "https://www.v2ex.com/t/1102742",
           "publishedOn": "2025-01-05T14:44:59.000Z",
-          "wordCount": 444,
+          "wordCount": 459,
           "title": "红米 4k 显示器 usb-a 口供电疑问",
           "imageUrl": null
         },
@@ -569,7 +548,7 @@
           "description": "bestrui: \n没有找到一款类似的工具，所以自己写了一个\nGithub 直达bestruirui/mihomo-check\n求⭐\n多线程 1000 个节点测试仅需 5 分钟\n低占用，200 个线程仅占用 15%CPU\n合并，去重，可用性，解锁情况一条龙",
           "link": "https://www.v2ex.com/t/1102739",
           "publishedOn": "2025-01-05T14:34:41.000Z",
-          "wordCount": 588,
+          "wordCount": 600,
           "title": "订阅合并，去重，重命名，可用性检测",
           "imageUrl": null
         },
@@ -609,7 +588,7 @@
           "description": "cjun: \n经历\n周四去了一趟香港，办理港卡，目标中银+汇丰+众安。\n中银提前预约，预约了彩虹分行，其他分行没预约上，去了哪里看了下资料，说要 10W+余额，当场拒绝。\n汇丰银行，提前预约没有预约上，网上其他同学说可以不用预约，当场 walk in 即可，9 点到的香港，跑了好几家，说当天没有开户的业务，又更换了 2 家，腿走断。最后一家当场拿号，等了 40 分钟。小姐姐态度还不错，回答问题有点小紧张，如果又拒绝，那今天白跑一趟香港了。最后给申请了，但是说要审核，到现在还没消息通知。\n众安+天星线上申请即可，难度不大。\n问题\n请问各位 V 友，中银又变了政策吗？因为之前没有看到过说要余额大于多少才给办卡？\n汇丰银行说要审核才给通过，不知道能不能过，地址还是填的拼音，还不知道卡能不能寄到，有碰到类似情况的同学吗？",
           "link": "https://www.v2ex.com/t/1102733",
           "publishedOn": "2025-01-05T14:08:50.000Z",
-          "wordCount": 677,
+          "wordCount": 655,
           "title": "周四去香港办卡，中银需要余额 10W+",
           "imageUrl": null
         },
@@ -689,7 +668,7 @@
           "description": "pig198x: \nMacBook Air m3 使用，1k-3k 预算，4k 显示器求推荐，谢谢。",
           "link": "https://www.v2ex.com/t/1102723",
           "publishedOn": "2025-01-05T13:00:57.000Z",
-          "wordCount": 426,
+          "wordCount": 434,
           "title": "求推荐适合 MacBook Air m3 使用的 4k 显示器，预算 1k-3k",
           "imageUrl": null
         }
