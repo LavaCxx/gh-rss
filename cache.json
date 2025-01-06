@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -350,7 +356,7 @@
           "description": "uqf0663: 目前已经试过的：\n1 、kodi （交互逻辑很反国人）\n2 、nova （闪退）\n3 、vlc （结束一个文件自动下一个文件总是不能正确显示，需要退出后重进才行）\n4 、mx player tv （提示所在地区不支持，搜索了发现 tv 版只支持印度等少数几个地区，不想在电视上挂梯子）\n\n因为是老人家观看的，交互逻辑太复杂就很不友好。\n请问各位见多识广的大佬，除了以上提到的 4 个，安卓 tv 上还有哪些支持播放 smb 上的文件并且比较符合国人交互逻辑的 app ？",
           "link": "https://www.v2ex.com/t/1103012",
           "publishedOn": "2025-01-06T13:04:59.000Z",
-          "wordCount": 468,
+          "wordCount": 483,
           "title": "安卓 tv 上有哪些支持播放 smb 上的文件并且比较符合国内交互逻辑的 app？",
           "imageUrl": null
         },
@@ -360,7 +366,7 @@
           "description": "forgottenPerson: \n为何现在多核，不用并行，要用并发，是因为，l1,l2 是独立的,l3 缓存是共享的吗？在程序语言上也是支持并发，为啥程序语言上并发比比并行说的多?\n有懂的老哥解点惑吗?",
           "link": "https://www.v2ex.com/t/1103011",
           "publishedOn": "2025-01-06T13:03:34.000Z",
-          "wordCount": 597,
+          "wordCount": 620,
           "title": "单 cpu 多核为啥不用并行",
           "imageUrl": null
         },
@@ -390,7 +396,7 @@
           "description": "xoxo419:",
           "link": "https://www.v2ex.com/t/1103008",
           "publishedOn": "2025-01-06T12:46:11.000Z",
-          "wordCount": 449,
+          "wordCount": 473,
           "title": "tg 收到这种消息是钓鱼还真的官方吗 若您在 24 小时内未验证，您的账户将被注销且无法恢复",
           "imageUrl": null
         },
@@ -400,7 +406,7 @@
           "description": "IMZQZ: \n我想到的方法，各位看看对不对：\n1.先根据 json 内容进行建表\n2.将 json 导入数据库\n3.写后端代码\n4.写接口\n那么问题来了，我不会写代码，怎么办？\n有没有什么学习路径或者有 AI 工具帮助做这个项目？",
           "link": "https://www.v2ex.com/t/1103007",
           "publishedOn": "2025-01-06T12:38:55.000Z",
-          "wordCount": 522,
+          "wordCount": 538,
           "title": "如何将一堆 json 文件变成 API 用于接口访问？",
           "imageUrl": null
         },
@@ -410,7 +416,7 @@
           "description": "l4ever: 部署测试后，可能需要很久 10 天，20 天\n等测试通过才可以部署生产环境。\n这样如何处理呢？\n分开 job ？构建后保存产物，部署的时候再复制构建的产物发布？",
           "link": "https://www.v2ex.com/t/1103006",
           "publishedOn": "2025-01-06T12:28:09.000Z",
-          "wordCount": 421,
+          "wordCount": 428,
           "title": "Jenkins 流程中，构建-部署测试-部署生产，流程时间跨度很长怎么办？",
           "imageUrl": null
         },
@@ -440,7 +446,7 @@
           "description": "ZJamss: 冬天室外跑步有点冷加之略微社恐，平时跑步一般跑 5km ，4.5-5.5 分配浮动，有什么跑步机推荐吗？不需要什么功能，要求：\n- 同价位声音尽量小\n- 能达到我的配速\n- 最好有坡度/爬坡，没有也行\n- 总宽度不超过 0.75m\n预算：1000-1500 ，如果预算不够功能可以向下兼容，不打算花太多钱",
           "link": "https://www.v2ex.com/t/1103003",
           "publishedOn": "2025-01-06T12:13:28.000Z",
-          "wordCount": 374,
+          "wordCount": 378,
           "title": "跑步机求推荐",
           "imageUrl": null
         },
@@ -460,7 +466,7 @@
           "description": "Windyzhou:",
           "link": "https://www.v2ex.com/t/1103001",
           "publishedOn": "2025-01-06T12:03:02.000Z",
-          "wordCount": 400,
+          "wordCount": 402,
           "title": "现在的 wps 把 Windows 的资源管理器中文件的属性都污染了,怎么办?",
           "imageUrl": null
         },
@@ -470,7 +476,7 @@
           "description": "YaakovZiv: \n直属领导在一周前，骑摩托平地摔，原因是自己走神，左手直接上绷带了。\n部门大领导周六在路边走着，俩骑电驴的撞一起，一个电驴飞的比较远，撞伤了领导的骨头。\n我在周日骑摩托直行，被一个右转的小车撞飞，左胳膊疼的难以行动，屁股左边磨破了。\n仿佛一月开始，公司里有点水逆。",
           "link": "https://www.v2ex.com/t/1103000",
           "publishedOn": "2025-01-06T11:46:45.000Z",
-          "wordCount": 388,
+          "wordCount": 392,
           "title": "公司好像集体水逆了",
           "imageUrl": null
         },
@@ -570,7 +576,7 @@
           "description": "eyeshuaji: 刚改的时候没有问题，重启后有些应用就恢复默认大小了，但是设置里的字体大小还是正常的",
           "link": "https://www.v2ex.com/t/1102987",
           "publishedOn": "2025-01-06T10:42:40.000Z",
-          "wordCount": 338,
+          "wordCount": 351,
           "title": "求助，在设置中改了字体大小后，重启后部分应用不生效",
           "imageUrl": null
         },
@@ -580,7 +586,7 @@
           "description": "Yolo9: \n大佬们，我有一个装了 ubuntu24 的小主机，最近发现有个问题，我在 bios 开了通电自动开机，发现停电再来电后，主机进了一个 initramfs 模式，图片，然后我再重启一次就能正常开机。求问怎样让主机在断电又来电后不进入这个模式",
           "link": "https://www.v2ex.com/t/1102986",
           "publishedOn": "2025-01-06T10:39:49.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "有关 Ubuntu 小主机的一个小疑惑",
           "imageUrl": null
         },
@@ -590,7 +596,7 @@
           "description": "giffgaffman: \n啪的一下，很快啊，2025 就到了！抽奖回馈给大家，祝愿 V 友们 2025 年 都能更上一层楼！ Happy New Year !\nT 楼规则\n奖品：10 张全新未激活的英国 giffgaff 卡，包邮，2025 年 1 月份激活可以充 10 镑送 10 镑\n开奖时间：2025-1-8 18:00\n参与方式：T 楼没有口号限制，每人参与一次，重复回复无效且顺延\n如何领奖：开奖后我会 @你，请中奖人联系我TG\ngiffgaff 最新教程\ngiffgaff 保姆级使用教程 2025\n联系方式\nTG 频道：ukgiffgaffsim\nTG 群：giffgaffsim\nTG 客服：ukgiffgaffbot\n付邮领取 giffgaff\n限时活动：2025.1.1-1.31 期间激活，充 10 镑送 10 镑，其中 5 镑激活后立马到账，剩下 5 镑 3 个工作日内到账；\n英国 giffgaff 全新未激活的空白实体卡，0 月租，上海发出，走中通，24 小时发货；\n领取方法：复制口令到手机微信的文件传输助手打开：#小程序://快团团/点击查看/fAyy9AyHoMCyULt\n或微信扫码跟团 \n往期抽奖\n2024 年 T 楼： https://v2ex.com/t/1042918",
           "link": "https://www.v2ex.com/t/1102985",
           "publishedOn": "2025-01-06T10:31:11.000Z",
-          "wordCount": 1087,
+          "wordCount": 1199,
           "title": "T 楼：送 10 张全新未激活的英国 giffgaff 卡",
           "imageUrl": null
         },
@@ -670,7 +676,7 @@
           "description": "efxy107: \n版本背景:\nspringboot: 2.7.18; 测试环境 es: 7.17.9 ；客户生产环境腾讯云 es:7.5.1; 因为多个系统使用并且是云服务客户不考虑升级 es 版本；\n问题：\n执行 es 操作报错：Invalid or missing build flavor  [ OSS ] ；发现是 es 和 springboot 版本不匹配；\n行动：\n在不考虑降低 springboot 版本前提和本地尝试搭建官网 7.5 的版本（ 7.5.2 ）做问题复现；客户 es 的 build_flavor 属性为 OSS ；我分别下载了 oss 版本和 default 版本；自测发现在 default 就不会有版本不一致导致得问题，只有 OSS 版本才会出现；了解了 OSS 和 default 的区别在于商业化，并且 default 包含 OSS 所有功能;\n我的疑问：\n1.  我指定了 es 连接的版本并且移除 springboot 默认的 es 版本还是无效，是我操作有问题还是什么\n2. 为什么会提供 OSS 这种版本，大家生产环境是怎么选择的",
           "link": "https://www.v2ex.com/t/1102976",
           "publishedOn": "2025-01-06T09:51:13.000Z",
-          "wordCount": 435,
+          "wordCount": 437,
           "title": "关于 Elasticsearch 和 springboot 版本的依赖关系",
           "imageUrl": null
         },
@@ -760,7 +766,7 @@
           "description": "Richared: \n有台老 nas ，得有 3-4 年没开机了。今天开机发现了 metamask 的助记词，看了一眼，里边有 0.01 个 eth 。收获 2k 块，开心的一天。",
           "link": "https://www.v2ex.com/t/1102963",
           "publishedOn": "2025-01-06T09:03:38.000Z",
-          "wordCount": 679,
+          "wordCount": 682,
           "title": "今天收获了意外之喜",
           "imageUrl": null
         }
