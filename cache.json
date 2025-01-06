@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -157,33 +163,6 @@
           "wordCount": 1055,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -340,7 +319,7 @@
           "description": "uqf0663: 目前已经试过的：\n1 、kodi （交互逻辑很反国人）\n2 、nova （闪退）\n3 、vlc （结束一个文件自动下一个文件总是不能正确显示，需要退出后重进才行）\n4 、mx player tv （提示所在地区不支持，搜索了发现 tv 版只支持印度等少数几个地区，不想在电视上挂梯子）\n\n因为是老人家观看的，交互逻辑太复杂就很不友好。\n请问各位见多识广的大佬，除了以上提到的 4 个，安卓 tv 上还有哪些支持播放 smb 上的文件并且比较符合国人交互逻辑的 app ？",
           "link": "https://www.v2ex.com/t/1103012",
           "publishedOn": "2025-01-06T13:04:59.000Z",
-          "wordCount": 438,
+          "wordCount": 456,
           "title": "安卓 tv 上有哪些支持播放 smb 上的文件并且比较符合国内交互逻辑的 app？",
           "imageUrl": null
         },
@@ -350,7 +329,7 @@
           "description": "forgottenPerson: \n为何现在多核，不用并行，要用并发，是因为，l1,l2 是独立的,l3 缓存是共享的吗？在程序语言上也是支持并发，为啥程序语言上并发比比并行说的多?\n有懂的老哥解点惑吗?",
           "link": "https://www.v2ex.com/t/1103011",
           "publishedOn": "2025-01-06T13:03:34.000Z",
-          "wordCount": 512,
+          "wordCount": 552,
           "title": "单 cpu 多核为啥不用并行",
           "imageUrl": null
         },
@@ -360,7 +339,7 @@
           "description": "Aawhale: \n玩菠菜赚到一个名额积分，想玩的记得贴图和邮箱发一下，我发出后会有告知的。",
           "link": "https://www.v2ex.com/t/1103010",
           "publishedOn": "2025-01-06T13:00:38.000Z",
-          "wordCount": 371,
+          "wordCount": 375,
           "title": "发个馒头药",
           "imageUrl": null
         },
@@ -370,7 +349,7 @@
           "description": "1145148964: 以下内容均基于我的感受和观察。毫无疑问，几乎全是偏见。抛砖引玉。\n地理位置是南方二线中端婚介。公司架构为交 4 万人民币成为加盟店，交 4000 成为加盟店合伙人。\n中段婚介：收入依旧是最优先考虑项。\n一个月薪 5 万的 35 岁架构师被大范围追求。相当多的媒人都在下手，相当多的女生也在下手。--》即时没有看到照片\n相当多的地方把人的简历摆出来招揽客人。\n大量家人影响的不婚不育族。\n男生，父亲是军人。特点如下：强势，要求美女，比自己儿子小，要求本地人，介意彩礼，拒绝支付婚介费用。母亲直言都怪他爹才没结婚的。他爹补充要求，需要倒追他儿子。35 岁\n女生。女生母亲要求如下。开公司/工厂。帅气。高。女生条件一般。疑似要求为：追他闺女。32 岁\n勇气非常重要。尤其是女生。\n女生倒追非常多，成功率较高。\n优质资源正在被围猎。\n大量人成为合伙人，是为了及时获得更新数据和参加公司组织的培训--》这个培训中年轻人几乎都是单身。\n围猎力度远超想象。堪比闲鱼扫货机器人。--》这解释了为什么相亲市场没有优质人士。\n婚恋中依旧存在大量伪装造假。\n轻微的：收入造假，工作伪装。\n中度的：隐瞒疾病尤其是精神疾病。\n重度：诈骗犯/杀人犯。\n大量中年人当媒人是为了给自己的下一代找个好的。年轻人是给自己找。\n\n有其他问题可以联系楼主。",
           "link": "https://www.v2ex.com/t/1103009",
           "publishedOn": "2025-01-06T12:58:23.000Z",
-          "wordCount": 395,
+          "wordCount": 417,
           "title": "当了两天的婚恋中介的感受。",
           "imageUrl": null
         },
@@ -390,7 +369,7 @@
           "description": "IMZQZ: \n我想到的方法，各位看看对不对：\n1.先根据 json 内容进行建表\n2.将 json 导入数据库\n3.写后端代码\n4.写接口\n那么问题来了，我不会写代码，怎么办？\n有没有什么学习路径或者有 AI 工具帮助做这个项目？",
           "link": "https://www.v2ex.com/t/1103007",
           "publishedOn": "2025-01-06T12:38:55.000Z",
-          "wordCount": 511,
+          "wordCount": 521,
           "title": "如何将一堆 json 文件变成 API 用于接口访问？",
           "imageUrl": null
         },
@@ -400,7 +379,7 @@
           "description": "l4ever: 部署测试后，可能需要很久 10 天，20 天\n等测试通过才可以部署生产环境。\n这样如何处理呢？\n分开 job ？构建后保存产物，部署的时候再复制构建的产物发布？",
           "link": "https://www.v2ex.com/t/1103006",
           "publishedOn": "2025-01-06T12:28:09.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "Jenkins 流程中，构建-部署测试-部署生产，流程时间跨度很长怎么办？",
           "imageUrl": null
         },
@@ -420,7 +399,7 @@
           "description": "Whiplash55: \n前天朋友圈刷到之前加的一个房产中介广告，前些年看过的小区公寓都降价接近 30-40%。\n当年还想着强撑上车，稍微计算一下 30%首付+公积金 2.35% 30 年利息，少说要亏一百万出去，三年亏一百万这不比炒币猛多了。。。这还是二线城市的市中心房子，开盘接近两万的现在成交价要到 1 万 3 ，据说都卖不出去要到一万才能出手。",
           "link": "https://www.v2ex.com/t/1103004",
           "publishedOn": "2025-01-06T12:15:01.000Z",
-          "wordCount": 393,
+          "wordCount": 396,
           "title": "看新房子要不要装修的帖子有感",
           "imageUrl": null
         },
@@ -470,7 +449,7 @@
           "description": "a174871: \n最近在 B 站刷到好多这种白噪音视频\n比如下面这两个，看起来是一个人/团队做的\nhttps://www.bilibili.com/video/BV1Q6rNYLEjD\nhttps://www.bilibili.com/video/BV1vu411t7ec/",
           "link": "https://www.v2ex.com/t/1102999",
           "publishedOn": "2025-01-06T11:35:22.000Z",
-          "wordCount": 394,
+          "wordCount": 401,
           "title": "发现 B 站目前刷到很多白噪音视频，产量稳定，不知道是不是 ai 生成的，有点好奇技术栈",
           "imageUrl": null
         },
@@ -510,7 +489,7 @@
           "description": "spike0100: \nrt 。这是有问题还是本来就这样啊？\n大概在左右居中，从下往上高度 1/5 的位置。",
           "link": "https://www.v2ex.com/t/1102995",
           "publishedOn": "2025-01-06T11:02:48.000Z",
-          "wordCount": 379,
+          "wordCount": 383,
           "title": "mbp 的触控板在双指按压的时候如果其中一个手指位于触控板中下位置则无法触发右键菜单",
           "imageUrl": null
         },
@@ -520,7 +499,7 @@
           "description": "pizone: \n本人产品狗一枚，趁着都在讨论 cursor ，也做个浏览器扩展来玩玩，顺便分享下 cursor 使用心得。本人不能说对技术完全没了解，毕竟经常跟开发大佬打交道略有耳闻一些术语，本次使用了 cursor 来生成了一 rss 订阅浏览器扩展 rssflow ，代码纯 cursor 生成、除了一些配置信息手动修改外,经过两次重构和性能优化，历时一个月 rssflow最终完成了 Edge 和 Chrome 扩展的上架。https://rssflow.oinchain.com/\n开发初衷\n项目启动其实挺随意。偶然在抖音上刷到用 Cursor 几分钟撸了个浏览器扩展的视频，而我本身是 RSS 订阅的拥趸，但不太喜欢安装对于的订阅 App 或桌面软件，我需要一个随手就用，用完就走的订阅工具。再加上 Google Gemini 有免费的 API ，国内的 Deepseek 和 Siliconflow 性价比也很高，所以就打算手搓一个具备 RSS 订阅和 AI 摘要功能的扩展的想法了：\n一款 RSS 浏览器扩展，不需要账号登录、即装即用，把未读文章的消除以一种解压的方式来呈现, 具备 RSS 的阅读器的基本功能，同时具备 AI 摘要功能。\n开发过程-万事开头难\n把这个粗略的想法，问 chatgpt ，让他分析这个目标在浏览器扩展上技术可行性，让它结合最佳实践给出具体的技术方案，拷贝到 txt 文本上，然后所有的项目都基于这个 txt 文本开始。 让 cursor 先理解这个技术方案，让 cursor 把最简要的文件结构搭建起来，可以使用 composer 模式让他自动创建文件。 要求 cursor 以最简单能跑通流程方式来逐步迭代实现，比如：首先要求其验证 rss-parser.js 解析 rss 在扩展上的技术方案是否可行，要求跑通 RSS 订阅和显示订阅内容为目标，开始…",
           "link": "https://www.v2ex.com/t/1102994",
           "publishedOn": "2025-01-06T10:59:27.000Z",
-          "wordCount": 782,
+          "wordCount": 784,
           "title": "都在吐槽 cursor，用 cursor 来撸个浏览器扩展来验证下",
           "imageUrl": null
         },
@@ -570,7 +549,7 @@
           "description": "Yolo9: \n大佬们，我有一个装了 ubuntu24 的小主机，最近发现有个问题，我在 bios 开了通电自动开机，发现停电再来电后，主机进了一个 initramfs 模式，图片，然后我再重启一次就能正常开机。求问怎样让主机在断电又来电后不进入这个模式",
           "link": "https://www.v2ex.com/t/1102986",
           "publishedOn": "2025-01-06T10:39:49.000Z",
-          "wordCount": 419,
+          "wordCount": 429,
           "title": "有关 Ubuntu 小主机的一个小疑惑",
           "imageUrl": null
         },
@@ -580,7 +559,7 @@
           "description": "giffgaffman: \n啪的一下，很快啊，2025 就到了！抽奖回馈给大家，祝愿 V 友们 2025 年 都能更上一层楼！ Happy New Year !\nT 楼规则\n奖品：10 张全新未激活的英国 giffgaff 卡，包邮，2025 年 1 月份激活可以充 10 镑送 10 镑\n开奖时间：2025-1-8 18:00\n参与方式：T 楼没有口号限制，每人参与一次，重复回复无效且顺延\n如何领奖：开奖后我会 @你，请中奖人联系我TG\ngiffgaff 最新教程\ngiffgaff 保姆级使用教程 2025\n联系方式\nTG 频道：ukgiffgaffsim\nTG 群：giffgaffsim\nTG 客服：ukgiffgaffbot\n付邮领取 giffgaff\n限时活动：2025.1.1-1.31 期间激活，充 10 镑送 10 镑，其中 5 镑激活后立马到账，剩下 5 镑 3 个工作日内到账；\n英国 giffgaff 全新未激活的空白实体卡，0 月租，上海发出，走中通，24 小时发货；\n领取方法：复制口令到手机微信的文件传输助手打开：#小程序://快团团/点击查看/fAyy9AyHoMCyULt\n或微信扫码跟团 \n往期抽奖\n2024 年 T 楼： https://v2ex.com/t/1042918",
           "link": "https://www.v2ex.com/t/1102985",
           "publishedOn": "2025-01-06T10:31:11.000Z",
-          "wordCount": 860,
+          "wordCount": 914,
           "title": "T 楼：送 10 张全新未激活的英国 giffgaff 卡",
           "imageUrl": null
         },
@@ -670,7 +649,7 @@
           "description": "OOOten: 需要 nas 理由：\n1. 用投影仪看 4k （现在是插上笔电看）\n2. 用客厅的电视看 4k （现在是插上移动硬盘看）\n3. 回老家的时候用笔电/ipad 看电影（现在是 b 站有啥我看啥）\n4. 存储照片和录像（每年新增不超过 300g ，刚需备份功能）\n使用强度：普通居民小区，晚上/周末开机；出门会连续开机 1~2 周\n预算：5k 内，最好在 3k 左右（包括 8t 左右硬盘）；软件最好不要额外付费\n个人 diy 能力：有基础的装机能力和刷系统/docker 部署/...能力。但是我太懒了，非常希望可以整机即开即用+傻瓜式的 app （包括电视和 pad 使用的 app ）",
           "link": "https://www.v2ex.com/t/1102975",
           "publishedOn": "2025-01-06T09:48:50.000Z",
-          "wordCount": 532,
+          "wordCount": 534,
           "title": "nas 软+硬件，我应该怎么选？",
           "imageUrl": null
         },
@@ -750,7 +729,7 @@
           "description": "Richared: \n有台老 nas ，得有 3-4 年没开机了。今天开机发现了 metamask 的助记词，看了一眼，里边有 0.01 个 eth 。收获 2k 块，开心的一天。",
           "link": "https://www.v2ex.com/t/1102963",
           "publishedOn": "2025-01-06T09:03:38.000Z",
-          "wordCount": 645,
+          "wordCount": 652,
           "title": "今天收获了意外之喜",
           "imageUrl": null
         }
