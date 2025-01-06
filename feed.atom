@@ -1,10 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-06T01:14:58.547Z</id>
+    <id>urn:2025-01-06T02:40:04.017Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-06T01:14:58.547Z</updated>
+    <updated>2025-01-06T02:40:04.017Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[宝子们,湖南地区,找到一个卖烟花比市场价低 30%的平台,注册就送加特林,黑老大,仙女棒等]]></title>
+        <id>https://www.v2ex.com/t/1102771</id>
+        <link href="https://www.v2ex.com/t/1102771"/>
+        <updated>2025-01-06T00:47:04.000Z</updated>
+        <summary type="html"><![CDATA[leegoo: 
+宝子们,湖南地区,找到一个卖烟花比市场价低 30%的平台,注册就送加特林,黑老大,仙女棒等等
+一根也是批发价，比市场上都便宜好多
+这个是我朋友开的店,下单填邀请码后,V2EX 用户再享 95 折优惠(下单提货后立马返现)]]></summary>
+        <author>
+            <name>leegoo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025 年，独立开发者如何快速实现 MVP]]></title>
+        <id>https://www.v2ex.com/t/1102770</id>
+        <link href="https://www.v2ex.com/t/1102770"/>
+        <updated>2025-01-06T00:46:26.000Z</updated>
+        <summary type="html"><![CDATA[usual2970: 
+本文转载自作者个人博客，原文地址：https://profile.ikit.fun/blog/2025-01-04-indie-hacker-mvp
+作为独立开发者，有了产品想法以后，最重要的就是快速实现 MVP ，上线验证想法然后根据情况迭代。
+如何快速实现 MVP ，对于部分开发者来说存在一定的困难，这些困难可以通过结合 AI 来解决。
+存在的困难
+后端程序员设计 UI：部分独立开发者之前可能一直从事的后端开发，而独立开发要求的是从产品设计、UI 设计到后端开发的全栈能力，UI 设计就成了短板，设计一套看得过去的 UI 可能旷日持久，甚至因为挫折重重最后导致产品夭折。
+拖延症患者行动困难：即使是有这些能力，但是实现 MVP 也不是轻而易举的事情，有大量的代码要写同时没有考核的担忧，很容易拖延下去，到最后同样不了了之。
+解决方法
+最近在 twitter 上看到一个结合 AI 快速实现 MVP 的方法，可以抹平后端开发者前端能力的差距，同时只需要输入 prompt 就可以实现产品的基础原型。在这里以 个人网站 作为例子分享一下。
+我的个人网站就是这么生成的。
+1. 先整理产品需求。
+在开始写代码之前，先简要的整理产品的需求，明确以下几个问题：
+什么产品？ WEB APP 还是 手机 APP 或者其他什么产品？
+它能给用户产生什么价值，带来什么好处？
+目标用户？
+它能解决什么问题？它的主要目标是什么？
+例子：我在设计个人网站，主要用于介绍自己、宣传自己过去做的项目、以及发布一些自己写的文章，同时也让大家可以联系到我。
+需求越清晰、越明确、越简洁，效果越好。
+2. 使用 CHATGPT 或其它 AI 生成产品特性。
+使用上一步整理出的产品需求，结合 CHATGPT 生成可执行的产品特性。在对话框里输入如下 prompt:
+这是项目的需求描述: （上一步总结的需求描述），生成一系列可执行的关键特性和技术需求，以便实现这个网站的 MVP 。对于个人网站, 最好有如下面面：
+landingpage
+blogs page
+projects page
+contact me page
+
+3.再使用 CHATGPT 生成的产品特性，生成产品需要的页面的描述。
+在对话框里输入如下 prompt:
+基于这个产品的需求和特性，罗列出构建这个产品所需的所有页面。
+
+4. 使用 Lovable/Bolt 构建产品的首页面。
+使用第 1 步总结的需求描述以及第 3 步生成的产品页面结构，结合 Lovable 生成基础的代码。可以使用如下 prompt:
+这是项目的需求描述：我在设计个人网站，主要用于介绍自己、宣传自己过去做的项目、以及发布一些自己写的文章，同时也让大家可以联系到我。使用这个项目结构 （上一步生成的结果）生成一个简洁的、响应式的且有审美的设计。
+
+5. 完善 landing page.
+landing page 是 MVP 的关键，Lovable 可以很简单的完成你的需求，你只需要将自己的需求告诉 Lovable ，然后检查生成的结果，再完善。直到符合你的审美和需求。
+
+6. 完善其它页面
+使用同样的方法，不断的完善其它页面，使其最终符合你的审美。
+使用 GHATGPT 定义页面结构。
+Lovable 生成 UI 。
+使用 PROMPT 完善页面。
+7. 使用 Lovable 连接 Supabase
+Lovable 可以连接 Supabase ，这样你就可以直接生成前后端兼备的 MVP ，然后获取用户反馈。如果用户反馈比较好，可以继续后续的步聚。
+8. 使用 cursor/windsurf 进一步开发。
+Lovable 可以与 github 同步，我们可以把代码克隆下来，使用 cursor IDE 进行进一步的开发，比如你不打算用 supabase ，需要对接自己的 api 。
+同时我们在开发的过程中，如果有新的界面需要设计，还可以回到 Lovable 进行设计。
+总结
+AI 时代，我们有各种各样的工具实现产品需求，对于独立开发者来说，使用这些 AI 工具可以更有效率的实现 MVP 。
+CHATGPT/CLAUDE 用来做计划和产品特性设计。
+LOVABLE/BOLT 用来做 MVP 生成、部署、获得反馈、快速迭代。
+CURSOR/WINDSURF 用来做进一步开发。
+原文地址： https://profile.ikit.fun/blog/2025-01-04-indie-hacker-mvp
+开源项目：Certimate-开源的 SSL 证书管理工具
+感谢阅读，更多精彩内容请访问作者博客。]]></summary>
+        <author>
+            <name>usual2970</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第207期 - 水培红薯]]></title>
         <id>https://weekly.tw93.fun/posts/207-%E6%B0%B4%E5%9F%B9%E7%BA%A2%E8%96%AF/</id>
@@ -20,7 +97,7 @@ Roadmaps：技术经理需要具备和学习的一些技能
 https://roadmap.sh/engineering-manager
 
 一个叫做 Bruno 的开源 API 测试工具
-https://github.com/microsoft/PowerToys
+https://github.com/usebruno/bruno/
 
 随便看看
 宝玉的分享：用 AI 做绘本
@@ -36,6 +113,26 @@ https://www.v2ex.com/t/1102126
 https://book.douban.com/subject/36710597/]]></summary>
         <author>
             <name>潮流周刊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个很长的 v2 分了好几页的帖子怎么导出为一个 word 文件？]]></title>
+        <id>https://www.v2ex.com/t/1102767</id>
+        <link href="https://www.v2ex.com/t/1102767"/>
+        <updated>2025-01-05T23:26:39.000Z</updated>
+        <summary type="html"><![CDATA[shuiguomayi:]]></summary>
+        <author>
+            <name>shuiguomayi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[尽管到处裁员，程序员仍是人类历史上最好的职业]]></title>
+        <id>https://www.v2ex.com/t/1102766</id>
+        <link href="https://www.v2ex.com/t/1102766"/>
+        <updated>2025-01-05T22:32:53.000Z</updated>
+        <summary type="html"><![CDATA[StevenSLXie: https://onenorther.substack.com/p/the-best-job-in-human-history-for]]></summary>
+        <author>
+            <name>StevenSLXie</name>
         </author>
     </entry>
     <entry>
@@ -491,26 +588,6 @@ Github 直达bestruirui/mihomo-check
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[远程岗位内推]]></title>
-        <id>https://www.v2ex.com/t/1102732</id>
-        <link href="https://www.v2ex.com/t/1102732"/>
-        <updated>2025-01-05T14:03:09.000Z</updated>
-        <summary type="html"><![CDATA[andyzhaolau163: 远程岗位内推
-品牌（视觉）设计师、组件设计师、产品设计师
-Web3 （产品、开发、测试）
-数据岗位（开发、分析、测试）
-产品经理（ SEO/ASO 方向）
-App 开发工程师（ Flutter 、Android ）
-后端开发（ Golang 、PHP 、Linux C ）
-研发架构师/研发工程师
-机器学习架构师
-前端开发工程师
-项目经理]]></summary>
-        <author>
-            <name>andyzhaolau163</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[请教一下 AdGurad Home 的 DNS 重写配置问题]]></title>
         <id>https://www.v2ex.com/t/1102730</id>
         <link href="https://www.v2ex.com/t/1102730"/>
@@ -614,132 +691,6 @@ Zerotier 和 Tailscale 不是很清楚，但是目前看也没有相对的实际
 MacBook Air m3 使用，1k-3k 预算，4k 显示器求推荐，谢谢。]]></summary>
         <author>
             <name>pig198x</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 已经草台班子到这种程度了吗]]></title>
-        <id>https://www.v2ex.com/t/1102722</id>
-        <link href="https://www.v2ex.com/t/1102722"/>
-        <updated>2025-01-05T13:00:10.000Z</updated>
-        <summary type="html"><![CDATA[drymonfidelia: 
-写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo
-
-这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？
-截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了]]></summary>
-        <author>
-            <name>drymonfidelia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[完全用 cursor 写了一个浏览器插件]]></title>
-        <id>https://www.v2ex.com/t/1102721</id>
-        <link href="https://www.v2ex.com/t/1102721"/>
-        <updated>2025-01-05T12:59:51.000Z</updated>
-        <summary type="html"><![CDATA[hxlgg01: 
-之前在 YouTube 上看到了 cursor 这个软件，就下载试用了一下，然后就爱上了。鉴于我以前不懂电脑，有一段被 360 搜索折磨的经历，所以现在对很多国内搜索引擎恨之入骨。借着这个 AI ，写了个插件，可以让用户在使用此工具使用 360 、百度、神马、搜狗搜索时，获取 IP 并判断使用 bing 或者 google 搜索。有 chrome 扩展和 tampermonkey 脚本。
-下载地址：
-https://drive.google.com/drive/folders/19Tf3sTXPz59sltQjdUlyhWyYYgExyy86?usp=drive_link
-所有代码均在 github 上开源。
-github 库地址:
-https://github.com/Hank-Chromela/bingOrGoogle-noChinaSearthT
-https://github.com/Hank-Chromela/bingOrGoogle-noChinaSearthC
-有问题请在评论提出或者在 github 上提 issues]]></summary>
-        <author>
-            <name>hxlgg01</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[荷兰月付 0.9 欧 1c1g25g， 10G 口 150T 流量，三网直连，联通快乐机]]></title>
-        <id>https://www.v2ex.com/t/1102720</id>
-        <link href="https://www.v2ex.com/t/1102720"/>
-        <updated>2025-01-05T12:51:59.000Z</updated>
-        <summary type="html"><![CDATA[MJJMJJ: 
-这家买之前要先注册和充值，月付 0.9 欧支持 Paypal 支付
-三网直连，联通快乐机
-购买地址
-
-输入优惠码
-NEWYEAR
-
---------------------- A Bench Script By spiritlhl ----------------------
-                   测评频道: https://t.me/vps_reviews                    
-VPS 融合怪版本：2025.01.02
-Shell 项目地址： https://github.com/spiritLHLS/ecs
-Go 项目地址： https://github.com/oneclickvirt/ecs
----------------------基础信息查询--感谢所有开源项目---------------------
- CPU 型号          : QEMU Virtual CPU version 2.5+
- CPU 核心数        : 1
- CPU 频率          : 2699.998 MHz
- CPU 缓存          : L1: 64.00 KB / L2: 4.00 MB / L3: 16.00 MB
- AES-NI 指令集      : ✔ Enabled
- VM-x/AMD-V 支持    : ❌ Disabled
- 内存              : 98.13 MiB / 964.53 MiB
- Swap              : [ no swap partition or swap file detected ]
- 硬盘空间          : 1.05 GiB / 24.44 GiB
- 启动盘路径        : /dev/sda1
- 系统在线时间      : 0 d…]]></summary>
-        <author>
-            <name>MJJMJJ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[debian 中的 zerotier 升级 1.14.2 后联网困难怎么回事？]]></title>
-        <id>https://www.v2ex.com/t/1102719</id>
-        <link href="https://www.v2ex.com/t/1102719"/>
-        <updated>2025-01-05T12:40:42.000Z</updated>
-        <summary type="html"><![CDATA[balduncle: 一、当前网络配置
-A 区：办公区 win10 电脑一台（ A 电脑）
-B 区：宿舍区 win10 电脑一台（ B 电脑），基于 debian 的 omv 系统的 nas 一台（ B NAS ）
-C 区：外地老家 win10 电脑一台
-还有其他若干极路由
-之前通过 zerotier 配置好，一直是稳定运行。同时还在 nas 部署了 tailscale 备用，但是一般都用 zerotier 。主要是 A 区和 B 区都是我们单位内部局域网，联网比较方便，特别是 zerotier 可以直接 smb ，那么电脑 A 和电脑 B 可以直接通过网络邻居分享文件，很方便。
-其中 zerotier 的配置，是常规配置，并且做了局域网转发，也做了 iptable 的保留。
-二、问题的发现：
-最近在 B 区域的主力 nas 升级了 zerotier 为 1.14.2
-https://github.com/zerotier/ZeroTierOne/releases
-在办公区 A 电脑的网络邻居怎么都发现不了办公区域 B 的节点，就感觉有问题，升级是 nas 系统的自动推送更新的，不是命令行做的。但是奇怪的是，登录 zerotier 的网页后台，多数时候可以看到各个节点都在线，除了几个作为旁路由的极路由中的 zerotier 插件节点不在线，但是这个不影响大局。
-三、主要症状
-1.B 区域 nas 节点里面，偶尔会断线，通过 zerotier-cli info 查看，有概率是 offline 的，也就是节点没在线，通过 systemctl status zerotier-one.service,发现服务是正常的；
-2.A 区域节点电脑之前是 1.86 版本，其他主要的也是 1.10 以下版本。
-3.A 区域的节点和 B 区域的节点，还有我在 B 区域中女朋友家的电脑节点都是可以 ping 通（但是相互发现打洞感觉没之前那么快，除了 A 区域的电脑中升级了 zerotier ，其他都没动）
-4.B 区域 NAS 节点经常隐身看不到，或者看到了过一会又看不到。
-5.现在 A 区域电脑里面 zerotier 已经更新到了 1.14.2 ，又发现 ui 面板有点问题，一直出不来，只能通过 cmd 后台 join 原来的网络。
-四、已经做了修复尝试
-前后大概有 2 个礼拜了，已经尝试过各种方法，依然没有解决
-1.在 zerotier 官网查询各种文档，通过页面聊天小工具联系工程师，但是只给我推送了常见问题链接，并没有解决我的根本问题。
-2.通过问询 gpt ，将 nas 里面的 zerotier 卸载，然后重新用 zerotier 的 sh 命令安装，基本按照官方说明来配置，也重新输入了防火墙命令。（这些之前都配置好了，良好运行几年）
-3.对 A 区域的 win10 电脑，最早节点是 1.806 ，以为是程序版本问题，就卸载掉重新安装。但是只找到 1.10 版本程序，几次都无法重新注册。后面又不断删除 win 中残留的 zerotier 文件夹，最后用 1.142 新版本重新安装上。但是 ui 界面一直出现问题。
-五、困惑
-1.是否因为 1.14.2 版本有 bug ？
-2.是否因为单位内墙变高了，检测更强了？因为除了 nas 中的 zerotier 版本改变，其他东西没怎么变化。（但是我系统中，nas 也偶尔会更新，主要是 tailscale 和 systhing ）
-3.现在应该怎么办？按照 gpt 的指令，能操作的，都已经操作了。问题依然没有解决。
-补充：
-发现目前手上所有，win ，linux （ debian ），ios 中的客户端只要版本在 1.10 以上，通过 zerotier 后台查看 ip 地址，都是 unknow 。]]></summary>
-        <author>
-            <name>balduncle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[请教关于 switch 舞力全开问题]]></title>
-        <id>https://www.v2ex.com/t/1102718</id>
-        <link href="https://www.v2ex.com/t/1102718"/>
-        <updated>2025-01-05T12:34:25.000Z</updated>
-        <summary type="html"><![CDATA[razios: 两只 joy con 为什么感觉“-”这只得分容易高…
-每次都感觉有点明显，+ -握姿有区别？]]></summary>
-        <author>
-            <name>razios</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lan8742 芯片 ping 出现丢包现象]]></title>
-        <id>https://www.v2ex.com/t/1102717</id>
-        <link href="https://www.v2ex.com/t/1102717"/>
-        <updated>2025-01-05T12:10:30.000Z</updated>
-        <summary type="html"><![CDATA[VchentozV: 问一个弱智问题，原贴地址在 :
-https://forum.microchip.com/s/topic/a5CV40000002kBdMAI/t399326
-从原理图上看，2 块以太网芯片的引脚一样，所用的外部晶振都是 25 起振到 50 ，mcu 是 6ull ，设备树没变过，参考时钟都是输入，fae 回答说没有用过此类芯片，软件方面我能想到的就是调试收到的包，V 友高手多，请问应该从什么角度排查？或者去 6ull 论坛问吗？]]></summary>
-        <author>
-            <name>VchentozV</name>
         </author>
     </entry>
     <entry>
