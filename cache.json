@@ -161,6 +161,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -313,7 +340,7 @@
           "description": "NothingExist:",
           "link": "https://www.v2ex.com/t/1102981",
           "publishedOn": "2025-01-06T09:57:28.000Z",
-          "wordCount": 441,
+          "wordCount": 449,
           "title": "下班后想找个地方学习，排除公司和住宿，有什么好的选择？",
           "imageUrl": null
         },
@@ -333,7 +360,7 @@
           "description": "jimmy2024: \nOne-Day Free ，免费开虚拟 visa 卡, 计划于 1 月 10 号，限时免费（仅限未开卡新会员）， 数量有限 100 名，先到先得。不需要 kyc ，无月费，无年费\n老会员可以邀请好友，绑定关系，锁定未来佣金收益\n(官网)[https://hornetpay.uk/#/?lang=zh-CN]\n你们可以回复，说说看法",
           "link": "https://www.v2ex.com/t/1102979",
           "publishedOn": "2025-01-06T09:54:19.000Z",
-          "wordCount": 414,
+          "wordCount": 425,
           "title": "免费送虚拟 visa 卡, 计划于 1 月 10 号，限时免费",
           "imageUrl": null
         },
@@ -343,7 +370,7 @@
           "description": "WilliamColton: \n直接和支付宝客服说要换成国际版即可\n和正常的功能没有任何区别\n就是换了一个 UI ，连 APP 都不需要更新\n但是少了很多小广告\n要是客服和你扯东扯西的，就说要是给我换成国际服我就给你五星好评\n去年亲测有效🤪 一直用到现在\n注意语气尽量客气一点",
           "link": "https://www.v2ex.com/t/1102978",
           "publishedOn": "2025-01-06T09:51:53.000Z",
-          "wordCount": 352,
+          "wordCount": 354,
           "title": "支付宝小广告多的解决办法",
           "imageUrl": null
         },
@@ -363,7 +390,7 @@
           "description": "OOOten: 需要 nas 理由：\n1. 用投影仪看 4k （现在是插上笔电看）\n2. 用客厅的电视看 4k （现在是插上移动硬盘看）\n3. 回老家的时候用笔电/ipad 看电影（现在是 b 站有啥我看啥）\n4. 存储照片和录像（每年新增不超过 300g ，刚需备份功能）\n使用强度：普通居民小区，晚上/周末开机；出门会连续开机 1~2 周\n预算：5k 内，最好在 3k 左右（包括 8t 左右硬盘）；软件最好不要额外付费\n个人 diy 能力：有基础的装机能力和刷系统/docker 部署/...能力。但是我太懒了，非常希望可以整机即开即用+傻瓜式的 app （包括电视和 pad 使用的 app ）",
           "link": "https://www.v2ex.com/t/1102975",
           "publishedOn": "2025-01-06T09:48:50.000Z",
-          "wordCount": 516,
+          "wordCount": 518,
           "title": "nas 软+硬件，我应该怎么选？",
           "imageUrl": null
         },
@@ -443,7 +470,7 @@
           "description": "Richared: \n有台老 nas ，得有 3-4 年没开机了。今天开机发现了 metamask 的助记词，看了一眼，里边有 0.01 个 eth 。收获 2k 块，开心的一天。",
           "link": "https://www.v2ex.com/t/1102963",
           "publishedOn": "2025-01-06T09:03:38.000Z",
-          "wordCount": 609,
+          "wordCount": 631,
           "title": "今天收获了意外之喜",
           "imageUrl": null
         },
@@ -523,7 +550,7 @@
           "description": "retrocode: \n我现在用的 io 域名, 是在 godaddy 注册的, 最开始一年 300 多, 后来涨到将近 500, 21 年底又把域名迁到 dynadot, 刚迁入的时候头一年 213, 后来了两回 261/288,临近过年了想着在续费一下,一看涨到 350 了.\n想换域名吧, 又用这么些年了换起来麻烦的",
           "link": "https://www.v2ex.com/t/1102951",
           "publishedOn": "2025-01-06T08:24:42.000Z",
-          "wordCount": 448,
+          "wordCount": 473,
           "title": "io 域名年年涨费用,有点遭不住啊",
           "imageUrl": null
         },
@@ -543,7 +570,7 @@
           "description": "MingLovesLife: 在技术网站看到过无数次前端无感刷新 token 的文章，一直很费解，为啥要刷新 token 呢？那前端给 token 刷新了，token 还有啥意义呢？\n文章给出的原因是，用户正操作着呢，token 突然过期，跳登录页用户体验不好。\n实现步骤：\naccessToken 简称 at ，refreshToken 简称 rt\n1. rt 有效期长，at 有效期短\n2. at 过期了拿 rt 换 at ，重新请求\n疑问：\n1. 既然 rt 长期有效，直接用 rt 有啥问题\n2. 如果从安全考虑，rt 被抓包拿了，也没辙呀\n3. 既然后端知道用户操作了，如果是非异常操作，就自动给 token 延时行不？\n不知道该方案具体是为了什么，还请大神们赐教。希望接到类似需求老哥们聊聊\nPS：轻喷，心平气和",
           "link": "https://www.v2ex.com/t/1102949",
           "publishedOn": "2025-01-06T08:12:53.000Z",
-          "wordCount": 985,
+          "wordCount": 989,
           "title": "不懂就问，请教一下前端无感刷新 token 到底有没有意义？",
           "imageUrl": null
         },
@@ -563,7 +590,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1102947",
           "publishedOn": "2025-01-06T08:04:47.000Z",
-          "wordCount": 496,
+          "wordCount": 507,
           "title": "为什么 Apple Music 到现在还没有外文歌词翻译？有些小语种的歌翻译歌词很麻烦，我记得国内的音乐平台都有",
           "imageUrl": null
         },
@@ -613,7 +640,7 @@
           "description": "JerryLee13: 新的一年才 3 个开盘日，大盘就跌去了快 5 个点，牛要走了吗？而我还套在 000651 里，既躲过了牛市，也躲过了大跌。\n最近也很少见有“股神”晒收益了，拉群了。投资节点再次恢复到了以往安静的状态。",
           "link": "https://www.v2ex.com/t/1102942",
           "publishedOn": "2025-01-06T07:54:36.000Z",
-          "wordCount": 390,
+          "wordCount": 392,
           "title": "各位化债人，这是牛走了吗？",
           "imageUrl": null
         },
@@ -673,7 +700,7 @@
           "description": "tags: 看了一下一年请假的理由，不禁要问一句给牛马的年假是设计好的只够用来去医院吗？而且本司年假天数是司龄算，10 年才有 10 天，否则只有 5 天。再过几年去医院恐怕都不够用了。",
           "link": "https://www.v2ex.com/t/1102934",
           "publishedOn": "2025-01-06T07:39:36.000Z",
-          "wordCount": 629,
+          "wordCount": 668,
           "title": "回头一看一年 5 天年假，请假理由都是去医院。该怎么破？",
           "imageUrl": null
         }
