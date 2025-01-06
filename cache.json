@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -240,6 +246,17 @@
       "siteUrl": "https://t.me/s/vps_xhq",
       "articles": [
         {
+          "id": "https://t.me/vps_xhq/691",
+          "author": null,
+          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/691",
+          "publishedOn": "2025-01-06T05:12:02.000Z",
+          "wordCount": null,
+          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://t.me/vps_xhq/690",
           "author": null,
           "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
@@ -339,7 +356,7 @@
           "description": "lixiang2017: 老家叔叔、大伯多年前弄了一批酒，具体途径不太清楚，我猜可能是别人欠款抵扣什么的。\n前些年，他们都是放自己家里。也尝试让他们的一个朋友帮卖，但是也没怎么卖出去。有些酒放在了卫生间里，箱体还受潮变坏了，但内部的酒没有问题。\n几年前，我家里盖新房子了，有空间了。去年，大伯把酒全拉我家里了，酒都推起来了，占了好多空。\n我妈妈对此很生气。不过，她一般都出门打工，不在家里。我爸一般委曲求全，不愿破坏兄弟和气，也不太说这个事。我对此也很不满，占了很多空不说，酒的保管也是个问题。我还担心安全问题，可能会爆炸或者火灾。\n叔叔、大伯他们在城市都有稳定工作、稳定住所，也不可能把这些酒运回去了。家里人也基本不喝酒，送朋友估计顶多几瓶或几箱。我问了我爸，他们也愿意卖掉，苦于没有途径。或者是挺懒的，也没那么缺钱。\n我具体问了一下，是十二年的陈酒了，52 度的白酒，700ml 瓶装的。一箱有 6 瓶。有 280 箱箱体完好的，60 箱箱体不好的。我在某宝看了下价格，大概 200 多一箱。\n我在想要不要开个网店，把这些都处理掉，便宜些都行。",
           "link": "https://www.v2ex.com/t/1102919",
           "publishedOn": "2025-01-06T07:04:29.000Z",
-          "wordCount": 482,
+          "wordCount": 492,
           "title": "老家有 340 箱陈了十二年的白酒，求助如何卖掉或处理掉",
           "imageUrl": null
         },
@@ -369,7 +386,7 @@
           "description": "BugKing9527: \n\n?share=copy#t=0",
           "link": "https://www.v2ex.com/t/1102916",
           "publishedOn": "2025-01-06T06:55:51.000Z",
-          "wordCount": 417,
+          "wordCount": 445,
           "title": "用 AI 给 V2EX 生成了个官网，大家看看怎么样啊~",
           "imageUrl": null
         },
@@ -389,7 +406,7 @@
           "description": "cloudzhou: 继上文： https://v2ex.com/t/1101570 ，加了对具体公司的感想\n人物画像：\n小镇做题家（其实小学的时候，镇都称不上，村里），数理化有一定兴趣\n高考失落，郁郁寡欢，流浪生活多个城市（潮汕-北京-杭州-常熟-无锡-上海-广州），小人物的奋斗一生\n技术栈：\n最开始自己兴趣学习 Perl 语言，参加过好几届 Perl 中国大会，工作了学习 Java\n又学了 Python ，再到 Golang ，又因为工作回归 Java\n对中间件等比较感兴趣，但兴趣过于宽泛，也不是一个好事情\n空中网：\n作为 sp 的王者，曾经还刷新了最快纳斯达克上市公司记录\n作为职业菜鸟，那段时间几乎处于憨憨的状态，让我干啥干啥，每天去公司先看看技术文档，各种架构设计（这里很感谢 冯大辉 DBA notes ）\n用的是 Java/JSP ，接手了一个之前外包的 NBA 竞猜游戏，几乎都是用 PL/SQL 实现业务逻辑（银行、通信等还在用），硬啃下来\n我的 leader 还是 “清华夜话”（知道这个起码 80 后） https://www.zhihu.com/question/20900397 其中男学生之一\n那个时间，对于工作没太多记忆，最深刻的就是改造了内部一个比较核心的 db/cache ，用了类似 suffix array 算法\n但生活可丰富了：\n户外，犹记得北京门头沟苹果园站，周末乌泱乌泱的户外人群，难度 1.0/1.5 ，密云、延庆...\n轮滑，夏天旱滑，冬天滑冰；跑步，沿着学院路，可以跑完 林大-地大-农大-北语-清华北大-北邮-北航 一条线；骑行，等等等\n7-8 年之后，才发现这家工资卡，里面存了 3w 多，是每个月定存 2k5 一点点积累起来，我自己都忘了的一笔“巨款”\n怀念的，是那个加班之后风风火火骑车回家的少年\n在离开之前，带父母北京旅游一趟，是我一…",
           "link": "https://www.v2ex.com/t/1102913",
           "publishedOn": "2025-01-06T06:51:06.000Z",
-          "wordCount": 712,
+          "wordCount": 746,
           "title": "大龄被裁大头兵职业感想（二）",
           "imageUrl": null
         },
@@ -399,7 +416,7 @@
           "description": "asmpy: \n机器是美版的，账号 id 也是美国的，机器语言地区都属于美国，但是显示不支持，开了 loon 全局代理，这是为啥呢",
           "link": "https://www.v2ex.com/t/1102912",
           "publishedOn": "2025-01-06T06:48:21.000Z",
-          "wordCount": 468,
+          "wordCount": 473,
           "title": "美版 iPad pro m2 开启 apple intellgence 失败",
           "imageUrl": null
         },
@@ -419,7 +436,7 @@
           "description": "ljzxloaf: 如题，限企业应用，生产环境",
           "link": "https://www.v2ex.com/t/1102910",
           "publishedOn": "2025-01-06T06:43:28.000Z",
-          "wordCount": 646,
+          "wordCount": 659,
           "title": "2025 年了，你们的 spring boot 版本到哪儿了",
           "imageUrl": null
         },
@@ -439,7 +456,7 @@
           "description": "xhldtc: \n如题，比如说 Flowise 这种项目，希望能摸清每个模块的大概功能，以及如何交互的，然后有能力基于理解之后做一些二次开发的工作。个人没有用过 cursor 这种工具，它对阅读源码有帮助吗？或者说有没有其它一些更高效的方式？求教各位大佬",
           "link": "https://www.v2ex.com/t/1102906",
           "publishedOn": "2025-01-06T06:32:53.000Z",
-          "wordCount": 416,
+          "wordCount": 420,
           "title": "2025 了，如何利用 AI 快速阅读大型开源项目的代码？",
           "imageUrl": null
         },
@@ -449,7 +466,7 @@
           "description": "xing7673: \nRT ，现在但凡使用 api 提供服务的都会生成一个 apikey 然后前端只显示一次后告诉你后面不再显示，我也不想用一次就重新生成一次，有没有什么方式合适地记录。\n我现在就是很蠢地用 md 文档记录，总感觉像老人记电话本一样\n问 gpt 说用环境变量记录，但我使用场景也不单是用代码开发，而且环境变量和文档区别不是很大。\n不知道能不能放到 keychain 里或者某个密码本里",
           "link": "https://www.v2ex.com/t/1102905",
           "publishedOn": "2025-01-06T06:27:11.000Z",
-          "wordCount": 530,
+          "wordCount": 537,
           "title": "有没有什么优雅地方式存储 apikey？",
           "imageUrl": null
         },
@@ -459,7 +476,7 @@
           "description": "FondantCN: \n我感觉他设计的很不错，但他是闭原的；有点纠结",
           "link": "https://www.v2ex.com/t/1102904",
           "publishedOn": "2025-01-06T06:26:00.000Z",
-          "wordCount": 417,
+          "wordCount": 429,
           "title": "如果写的 app 其中一个页面和另外一款同类型的 app 很像会不会构成抄袭",
           "imageUrl": null
         },
@@ -479,7 +496,7 @@
           "description": "WWW888: \n老爸开了 11 年的 MPV 前几天报废了，准备换一辆纯电开开，基本就在老家县城开开，各位大佬有推荐的吗？",
           "link": "https://www.v2ex.com/t/1102901",
           "publishedOn": "2025-01-06T06:17:11.000Z",
-          "wordCount": 787,
+          "wordCount": 832,
           "title": "15W 左右纯电 SUV 求推荐",
           "imageUrl": null
         },
@@ -489,7 +506,7 @@
           "description": "imes: \n老婆的旧 MacBook Pro 不行了，最近琢磨换笔记本，想蹲个价，上手 ThinkPad x1 carbon ，之前上学的时候就是这个，用顺手了。我顺嘴提了一句，我的台式机也不行了，AMD Ryzen R5 1600 + GTX 1060 6G ，该退役了。\n\n结果昨晚做梦，老婆入手了 ThinkPad 之后，告诉我，给我买了礼物，拆开一看是 Mac mini ，顿时我就要退了，老婆说先用用吧，万一觉得好用。我拆了包装，随便划拉了两下，最终决定还是退了吧，然后梦就醒了。\n\n过完年，还是自己组个新的台式机吧，都开始做梦了。看了一眼，9700x + b650m 大概 3000 块，和这台旧台式机在 17 年组的时候，差不多价格，那时候正好赶上三星爆炸和挖矿，显卡、内存、固态硬盘都比现在贵一大截。",
           "link": "https://www.v2ex.com/t/1102900",
           "publishedOn": "2025-01-06T06:16:21.000Z",
-          "wordCount": 558,
+          "wordCount": 569,
           "title": "老婆给我买 Mac mini，吓死我了",
           "imageUrl": null
         },
@@ -499,7 +516,7 @@
           "description": "FormatToday: \n按隔壁 L 站大佬的说法，试了下，申请成功了。。。\n手机，用的是流量+safari\n填真实的中文地址\nqq 邮箱\n没开代理,\n信用卡是以前失败的老卡(招行 visa)\n区域是第一个，加拿大的",
           "link": "https://www.v2ex.com/t/1102899",
           "publishedOn": "2025-01-06T06:13:12.000Z",
-          "wordCount": 460,
+          "wordCount": 479,
           "title": "oracle cloud free 申请成功了",
           "imageUrl": null
         },
@@ -619,7 +636,7 @@
           "description": "saltydc: \n一直手持 2020 款 11 寸的 pro ，最近托朋友买了美版 2024 款 13 寸 pro ，还没收到。\n前两天直营店买了 mini7 esim 版，60hz 和指纹解锁的体验太差了。\n什么时候 iPad pro 也能出个小屏版啊！",
           "link": "https://www.v2ex.com/t/1102886",
           "publishedOn": "2025-01-06T05:49:52.000Z",
-          "wordCount": 550,
+          "wordCount": 557,
           "title": "什么时候 iPad mini 能配高刷呀",
           "imageUrl": null
         },
@@ -639,7 +656,7 @@
           "description": "amiwrong123: \n目的：暂时只作为生产力需求（计算机专业使用），所以暂时不需要显卡，所以 CPU 必须有核显。但后期应该会安装显卡（显卡可能也是作为学习用途）。\n目标：在追求性价比的同时，性能要比较好。不需要最新的主板 CPU 。\n时间：目前装机不要求近期装好，如果有某个板子或者 CPU 有降价趋势，我也可以等等。\n现有：目前有一个玩嘉孤勇者 mini 机箱，支持 MATX/ITX 主板。\n其他：第一次装机，但是就是想折腾试一试\n目前想到的搭配有：\nintel 12600K ，B760M\nAMD 7700/9600x/9700x ，B650M\n目前看 AMD 这一套看的比较多。\n7700/9600x/9700x 之所以放一起，是因为他们好像现在价格差不多，性能应该也差不多\n另外，主板最好是支持 DDR5 的，能跟上时代最好。\n大家觉得这两套 性价比怎么样？或者大家有更好的推荐吗？",
           "link": "https://www.v2ex.com/t/1102884",
           "publishedOn": "2025-01-06T05:47:36.000Z",
-          "wordCount": 672,
+          "wordCount": 701,
           "title": "目前装机，追求性价比的板 U 搭配应该是什么？",
           "imageUrl": null
         },
@@ -649,7 +666,7 @@
           "description": "SayHelloHi: \n换回使用安卓手机的原因：\n坐公交地铁刷卡 （ iPhone 虽然也可以，但是 Apple Pay 那个感觉好麻烦）\n手机通话录音和微信通话录音 （ iPhone 的通话录音太扯淡了； 反复听录音，深刻领会领导讲话的精神实质）\n手机模拟写工作单位的门禁卡\n现在双持手机\niPhone 主要用于家庭和朋友的微信聊天记录的同步\n安卓手机主要用于工作使用：重要的事儿，转发到 iPhone 备份",
           "link": "https://www.v2ex.com/t/1102883",
           "publishedOn": "2025-01-06T05:45:49.000Z",
-          "wordCount": 652,
+          "wordCount": 689,
           "title": "主力手机 由 iPhone 换回 安卓手机了",
           "imageUrl": null
         },
@@ -659,7 +676,7 @@
           "description": "consensus: 在小红书查询了一下, 目前 Switch 联机匹配需要开会员才可以正常使用. 但是本人测试胡闹厨房-全都好吃, 在联机过程中, 一直提示当前网络不可用, 即使挂了雷神模拟器. 还是这个错误.\n问下在国内如果我开通会员了, 这个错误会消除掉吗? 还是说还得科学联网, 如果联网的话, 各位都是如何正常使用的. 模拟器 ? shadowrocket ?\n另外有人开 Switch 家庭车吗 ? 有位置的话 可以艾特我.",
           "link": "https://www.v2ex.com/t/1102882",
           "publishedOn": "2025-01-06T05:44:03.000Z",
-          "wordCount": 437,
+          "wordCount": 439,
           "title": "小弟来请求日版 Switch 联机问题.",
           "imageUrl": null
         },
@@ -669,7 +686,7 @@
           "description": "nalanhe: \n上海刚需老破小现在是不是可以上车了，金桥和上大板块比怎么样",
           "link": "https://www.v2ex.com/t/1102881",
           "publishedOn": "2025-01-06T05:41:21.000Z",
-          "wordCount": 889,
+          "wordCount": 902,
           "title": "上海买房刚需",
           "imageUrl": null
         },
@@ -699,7 +716,7 @@
           "description": "mumuwen: \n特斯拉开了三年了，因为没车位，每周都是在外面快充或者在单位充电，不方便。\n今年年底狠狠心买下了车位...弹尽粮绝了\n打算安装个充电桩，找了特斯拉官方测量，赛博朋克充电桩 大概需要 5000 多，\n但是在地下车库看到过其他牌子的充电桩，不知道特斯拉用起来怎么样？安全靠谱吗？价钱怎么样。",
           "link": "https://www.v2ex.com/t/1102876",
           "publishedOn": "2025-01-06T05:28:13.000Z",
-          "wordCount": 550,
+          "wordCount": 573,
           "title": "车是特斯拉，国产充电桩怎么样？",
           "imageUrl": null
         },
@@ -729,7 +746,7 @@
           "description": "standchan: \n最近羽绒服市场真的有点奇葩，就多那么几克绒都能被标榜成「良心」「冬季必买」等等的产品了\n搞得我自己都犯迷糊了，那么点绒成本才不到几块钱。真是的很大的消费主义陷阱啊",
           "link": "https://www.v2ex.com/t/1102872",
           "publishedOn": "2025-01-06T05:07:28.000Z",
-          "wordCount": 431,
+          "wordCount": 444,
           "title": "羽绒服市场真的好颠，很多攻略都在说 xxx 含绒量多 xx 克怎么怎么样了",
           "imageUrl": null
         }
