@@ -177,6 +177,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -324,212 +351,12 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1103034",
-          "author": "TigerS",
-          "description": "TigerS: \n主要还是回国，大家都知道比如看个优酷听个网易之类的，完全自用。\n准备考虑放在海外家里的路由器上，所以不想用那种集成好的 app 那种 穿梭和 malus 是否都不可行。\n在腾讯或阿里云上搭建一个是否可行？ 或者有什么更好的推荐的没？",
-          "link": "https://www.v2ex.com/t/1103034",
-          "publishedOn": "2025-01-06T16:09:08.000Z",
-          "wordCount": 375,
-          "title": "海外回国用腾讯或者阿里云回国是否可行？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103033",
-          "author": "HK560",
-          "description": "HK560: \n老黄这边 50 系发布，amd 这边 cpu 有 9950x3d 显卡有也有 9000 系列 b850 b860 主板也即将上线，新品多多\n不过截至现在发帖前还没公布价格，但是对于 50 系应该很多人都很期待其性能和价格，一切答案 7 号早日十点半揭晓\n不知道大家有没有什么想法？\n对于我来说如果 5080 价格 8k 到 9k 且性能不错，估计会比较热销，考虑到可能会缺货难抢，可以试试抢一张然后等一波看看市场价格如何\n隔壁 chiphell 现在应该很热闹",
-          "link": "https://www.v2ex.com/t/1103033",
-          "publishedOn": "2025-01-06T16:02:25.000Z",
-          "wordCount": 372,
-          "title": "CES 2025 即将到来， NVIDIA 和 AMD 也会发布新品，大家有什么购买意愿和想法吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103032",
-          "author": "HalloCQ",
-          "description": "HalloCQ: \n到期日期 2026.1.2 ，续费 25 刀，刚续费几天，暂定包 push220 出。\n--------------------- A Bench Script By spiritlhl ----------------------\n                   测评频道: https://t.me/vps_reviews                    \nVPS 融合怪版本：2025.01.02\nShell 项目地址： https://github.com/spiritLHLS/ecs\nGo 项目地址： https://github.com/oneclickvirt/ecs\n---------------------基础信息查询--感谢所有开源项目---------------------\n CPU 型号          : AMD EPYC 7B13 64-Core Processor\n CPU 核心数        : 1\n CPU 频率          : 2249.998 MHz\n CPU 缓存          : L1: 32.00 KB / L2: 512.00 KB / L3: 256.00 MB\n AES-NI 指令集      : ✔ Enabled\n VM-x/AMD-V 支持    : ✔ Enabled\n 内存              : 407.14 MiB / 925.84 MiB\n Swap              : [ no swap partition or swap file detected ]\n 硬盘空间          : 7.31 GiB / 19.33 GiB\n 启动盘路径        : /dev/sda2\n 系统在线时间      : 9 days, 2 hour 9 mi…",
-          "link": "https://www.v2ex.com/t/1103032",
-          "publishedOn": "2025-01-06T15:59:15.000Z",
-          "wordCount": 1607,
-          "title": "[出] zgo25 刀 9929&CMIN2， 1h1g20g600g， ip 干净，解锁完美",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103031",
-          "author": "paperwork",
-          "description": "paperwork: \nhttps://github.com/Open-Yescoin/Telegram-Unity-Bridge",
-          "link": "https://www.v2ex.com/t/1103031",
-          "publishedOn": "2025-01-06T15:16:12.000Z",
-          "wordCount": 365,
-          "title": "发布一个开源项目： Telegram Miniapp Bridge SDK for Unity",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103030",
-          "author": "finesixseven",
-          "description": "finesixseven: https://github.com/infiolab/infio-copilot\n基本实现对 cursor 1:1 复刻\ndeepseek-v3 非常便宜, 适合笔记场景, 所有的 prompt 都对它进行了优化\n有任何问题都欢迎直接站内联系, 或者 email 我\n聊天与编辑流程\n在 Obsidian 中一键获取 AI 帮助并应用建议改进, 例如: 改写/润色/翻译 ...\n\n自动补全\n在输入时获取上下文感知的写作建议, \n使用 deepseek 的 FIM 功能,  对 代码块, 数学公式, mermaid 都有适配\n\n内联编辑\n在当前文件中直接编辑笔记, 类似于 cursor edit inline\n\n与知识库聊天 使用 pglite, 所有数据存储在本地\n利用 AI 的强大功能与整个 Obsidian 知识库互动，获取笔记中的见解和联系\n\n你也可以直接 粘贴 web url 和  图片, 进行对话",
-          "link": "https://www.v2ex.com/t/1103030",
-          "publishedOn": "2025-01-06T15:07:43.000Z",
-          "wordCount": 441,
-          "title": "Infio-Copilot: 受 Cursor 启发的 Obsidian AI 助手，提供智能自动补全和与选定笔记的交互式聊天",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103029",
-          "author": "foam",
-          "description": "foam: \nGithub: https://github.com/foamzou/melody\n预览版镜像：\ndocker pull foamzou/melody:all-platform-20250101\nmkdir  ~/melody-profile\ndocker run -d -p 5566:5566  -v ~/melody-profile:/app/backend/.profile -v ~/melody-profile/music:/app/melody-data foamzou/melody:all-platform-20250101\n\n说明\ngithub 里 README 暂未更新，如需使用最新预览版功能，请用 foamzou/melody:all-platform-20250101\n由于是预览版，可能存在代码不健壮或 bug 。如果有问题欢迎到 github 提 issue",
-          "link": "https://www.v2ex.com/t/1103029",
-          "publishedOn": "2025-01-06T14:54:11.000Z",
-          "wordCount": 391,
-          "title": "Melody 更新: 支持定时下载歌曲到本地 和 定时备份网易云歌曲到网易云云盘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103028",
-          "author": "etata",
-          "description": "etata: php 后端，做独立开发者，怎么弄前端呢？？？写不了 css ，调不了 div 的那种。\n\n我现在做二开，但是有点前端问题就卡壳。。\n有类似的，交流一下怎么搞前端的经验？",
-          "link": "https://www.v2ex.com/t/1103028",
-          "publishedOn": "2025-01-06T14:51:17.000Z",
-          "wordCount": 469,
-          "title": "PHP 后端，做独立开发者，怎么弄前端呢？写不了 css，调不了 div 的那种。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103027",
-          "author": "iisboy",
-          "description": "iisboy: \n刚用了小米 13 pro ，各种问题啊，很多软件不是商店的，从浏览器根本安装不了",
-          "link": "https://www.v2ex.com/t/1103027",
-          "publishedOn": "2025-01-06T14:49:04.000Z",
-          "wordCount": 400,
-          "title": "哪些手机能无限制安装海外 APP，比如： TG， whatsapp 等",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103026",
-          "author": "hahaha121",
-          "description": "hahaha121: \nfailed get objs:failed to list objs:RequestError:send request failed caused by:Get \"https://xxx.COM/bucket\n001?delimiter=%2F&marker=&prefix=\":tls:failed to verify certificate:x509:certificate is not valid for any names,b\nut wanted to match xxx.COM\n怎么改都错； 参照官网 minio ，强制样式路径也没用",
-          "link": "https://www.v2ex.com/t/1103026",
-          "publishedOn": "2025-01-06T14:39:08.000Z",
-          "wordCount": 400,
-          "title": "alist 对象存储私有域名自签证书一直报错？求解",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103024",
-          "author": "wanghaiping009",
-          "description": "wanghaiping009: 配合青浦某大型企业，即日办理起原 49 套餐，新开或携转直接送 1000 兆。 \n名额不多，用完结束。\n原异网未到期用户可以先新开或者拿副卡携转。\n未拿过实物或者签过靓号协议，基本上 TS 一番协议均可解除。\nKaddy921 绿色 Kaddy921",
-          "link": "https://www.v2ex.com/t/1103024",
-          "publishedOn": "2025-01-06T14:34:52.000Z",
-          "wordCount": 364,
-          "title": "上海联通千兆宽带阶段性活动",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103023",
-          "author": "pirate0brook",
-          "description": "pirate0brook: \n题主目前 6 年 Android2 年 Flutter, 做过 ROM 开发，做过 SAAS 软件开发，目前在做海外产品，但对于“资深”二字理解一直不是很透彻，我能理解经验要够丰富是一个条件，但是在技术层面，完全掌握一个语言的“完全“是什么？对某一个平台或者特定技术领域很透彻，要到什么程度？以 Android 举例，做过很多类型的中大型项目，并精通 Android 运行机制，应用市场规则等，这种算是资深研发工程师了吗？",
-          "link": "https://www.v2ex.com/t/1103023",
-          "publishedOn": "2025-01-06T14:20:30.000Z",
-          "wordCount": 413,
-          "title": "正常求职，什么样的技术水平，才能算得上是资深研发工程师？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103022",
-          "author": "bowser1701",
-          "description": "bowser1701: iCloud 2T + Apple music 家庭国区\n6 人车差三人\n季付 42.5\nwx/tg ➕ Qm93c2VyMTcwNA==",
-          "link": "https://www.v2ex.com/t/1103022",
-          "publishedOn": "2025-01-06T14:15:15.000Z",
-          "wordCount": 375,
-          "title": "iCloud 2T + Apple music 国区拼车",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103021",
-          "author": "blogcool",
-          "description": "blogcool: \n我们是一家总部位于伦敦的游戏制作团队，核心团队拥有超过 10 年的游戏开发和发行经验，与全球知名游戏运营商合作。公司目前正在开发一款二次元卡牌手游，当前团队人数在 20 人左右，详细咨询与进展可以进一步私聊。\n由于不同地区存在时差，所以办公时间较为灵活，主要会议时间会以英区时间为主。\n以下是目前开放的两类程序岗 JD 。\nunity 主程（二次元方向）:\n岗位职责\n1.负责 Unity 游戏客户端架构设计与核心功能开发；\n2.负责程序框架及技术方案的设计和具体实现，以及项目整体代码优化；\n3.负责与策划、美术及后端进行有效的沟通和协调，推进项目。\n任职要求\n1.计算机专业全日制本科及以上学历；\n2.5 年以上 Unity 开发经验，1 年以上二次元游戏主程经验；必须有二次元游戏开发经验。\n3.对 Unity 引擎及其相关领域有深入的研究和理解；\n4.具备良好的沟通和协调能力；\n5.热爱游戏，有丰富的各类游戏经验，喜欢钻研各类游戏的技术细节和游戏机制\nunity 开发工程师：\n岗位职责：\n1.根据产品提供的需求，快速高质量的开发游戏核心玩法。\n2.组织管理客户端资源，保证代码质量。\n3.解决游戏线下和线上的问题。\n4.对游戏客户端性能提出优化建议，并实践。\n5.开发提高开发和团队协作的生产工具。\n6.开发中遇到的疑难问题的攻坚解决。\n任职需求：\n1.5 年以上 Unity 引擎使用经验。至少完整参与过 2 款移动游戏的开发。熟练掌握 Unity 引擎在移动端的开发。\n2.熟悉 Lua 、C#的语法和特性。\n3.良好的算法和数据结构基础。\n4.良好的逻辑思维和编程习惯，具备独立解决技术问题的能力\n5.能熟练阅读英文技术文档，有很好的学习能力\n6.良好的团队协作能力。\n7.熟悉计算机图形学和渲染相关的优化。\n8.熟悉计算机网络协议。\n以上。\n各位感兴趣的大佬可以留言私信，或直接发送简历至 luo.cwgz@gmail.com\n感谢。",
-          "link": "https://www.v2ex.com/t/1103021",
-          "publishedOn": "2025-01-06T14:12:27.000Z",
-          "wordCount": 432,
-          "title": "[招聘][远程]英国伦敦公司新开 unity 二次元手游项目",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103020",
-          "author": "pig198x",
-          "description": "pig198x: \n我的 Mac OS X 最近发现经常卡死，通过排查，发现是 ChatGPT 的 Mac 客户端造成的，强制退出就恢复正常，你们有人也发现这样的情况吗，这啥原因造成的？用 web 版的被 OpenAI 降智，客户端又有这种情况，心累。",
-          "link": "https://www.v2ex.com/t/1103020",
-          "publishedOn": "2025-01-06T14:05:07.000Z",
-          "wordCount": 461,
-          "title": "ChatGPT 的 Mac 客户端会导致系统卡死",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103019",
-          "author": "yyrj",
-          "description": "yyrj: \nWX：U2FmZVNoYXJr\nSetapp 是一个创新的订阅服务，专为 macOS 用户设计，旨在提供一站式解决方案，以访问广泛的高质量应用程序。通过简单的订阅，可以解锁超过 250 个 Mac 端精选应用，覆盖了从生产力提升到创意设计的各种需求。其中一些特色应用包括：\nCleanMyMac X：一款强大的系统清理工具，帮助您保持 Mac 的最佳性能。\nCraft：一款多功能的文档和笔记管理应用，提供灵活的组织、美观的界面设计，以及卓越的协作功能，旨在提升个人和团队的生产力。\nBartender：一个精巧的工具，用于组织和定制您的菜单栏，使其更整洁、更高效。\nDownie：一款直观的视频下载工具，支持从多个网站下载视频，以其易用性和广泛的兼容性而受到用户的欢迎。\nSpark 专业版：一款智能电子邮件客户端，以其直观的界面、智能邮箱组织和强大的搜索功能，提高了邮件管理的效率和便利性。\nUlysses：一款专为作家设计的写作和文档管理应用，提供集成的写作环境。\nGemini：一款智能的重复文件查找器，帮助您释放存储空间。\nMindNode: 优雅好看的思维导图工具\nAnytrans for iOS / Android: iOS 和安卓手机的备份工具，每次系统升级用来备份非常好用。\nMoneyWiz: 非常有名好用的记账工具\nMovist Pro: 看电影的不二之选，尤其是支持原生的 HDR 显示切换。\nProxyman: 开发人员网络调试必备\nSnippetsLab: 老牌代码片段搜集整理工具，对写代码非常好用，最新版还支持了 Apple AI 写作工具\n详细介绍请看官网： https://setapp.com",
-          "link": "https://www.v2ex.com/t/1103019",
-          "publishedOn": "2025-01-06T13:43:26.000Z",
-          "wordCount": 389,
-          "title": "Setapp 家庭版 2018 年的老车，组团订阅 2025 年度开始啦",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103018",
-          "author": "shuyouning32",
-          "description": "shuyouning32: \n最好是低于 10 块 RMB 一个月的，独享静态 IP",
-          "link": "https://www.v2ex.com/t/1103018",
-          "publishedOn": "2025-01-06T13:38:49.000Z",
-          "wordCount": 466,
-          "title": "V 友们，有没有便宜的静态住宅 IP 推荐购买网站",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103016",
-          "author": "drymonfidelia",
-          "description": "drymonfidelia:",
-          "link": "https://www.v2ex.com/t/1103016",
-          "publishedOn": "2025-01-06T13:25:09.000Z",
-          "wordCount": 545,
-          "title": "初代 iPhone 发布时 499 元，也是一群人喊贵。但现在 499 元只能买到低配版 Pixel 8a。十几年后，会不会 Vision Pro 的 3499 元也成为中低端头显的售价？智能手...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103015",
-          "author": "totoro625",
-          "description": "totoro625: \n某小众品牌活动，8 点后前 80 名付款打八折，但是为了防止刷单，订单时间与支付时间的时间差需要至少是 2s\n早早地等候，掐着点下单，提交订单界面有普通支付和分期支付，我选择了分期支付\n最终发现不管你什么时候提交订单，分期支付时你的提交订单时间都是你的支付时间-1s\n而普通支付，则是你点击自己付算提交订单，之后还可以选择分期支付等任意方式支付，支付时间是单独的\nPS：分期支付免息且立减 60",
-          "link": "https://www.v2ex.com/t/1103015",
-          "publishedOn": "2025-01-06T13:24:57.000Z",
-          "wordCount": 369,
-          "title": "京东下单时间的 feature",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103014",
-          "author": "Granado",
-          "description": "Granado: \n目前我手持三星 23U ，我习惯 Edge 浏览器、狐猴浏览器，然后我发现一个现象：三星手机系统的字体我替换成了霞鹜文楷,常用的 app 例如：小红书、抖音、哔哩哔哩、知乎等，其内容字体正确的按霞鹜文楷渲染了，但是 Edge 浏览器、狐猴浏览器的网页内容并没有按该字体渲染。但是我手上的一个一加平板同样替换了字体，这 2 个浏览器都正常的按照霞鹜文楷来渲染网页了。\n我简单找了下原因，应该是三星的字体替换，并没有把/system/fonts 中的系统字体做替换，而是做了个映射导致的，国产定制的 Android 系统大多是替换了 /system/fonts 中字体，在浏览器取系统字体的时候三星手机取到的是/system/fonts 下的字体，而非系统映射后的字体。\n于是我想找一个开源浏览器 iceraven,看自己能改获取字体的方法自己打包一个版本来使用的，但是我遇到 2 个问题：\n1 、如何正确的获取到三星系统替换后的字体。\n2 、iceraven 中我该怎么改逻辑（对 Android 开发了解甚少）。\n对了我还了解到，小红书里有个功能是使用系统字体，开启后就能用自定义字体渲染内容了，但是我不知道具体的原理。\n请了解的大佬赐教一下~",
-          "link": "https://www.v2ex.com/t/1103014",
-          "publishedOn": "2025-01-06T13:21:35.000Z",
-          "wordCount": 402,
-          "title": "三星手机和浏览器字体问题求问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103013",
-          "author": "CSGO",
-          "description": "CSGO: 发生图片，总是提示失败，看到 v2rayN 日志是：\n2025/01/06 21:08:56 from 127.0.0.1:2075 accepted //steam-chat.com:443 [socks -> proxy]\n然后 chrome 里网页 Steam 聊天就能发，但看到日志是：\n2025/01/06 21:12:47 from 127.0.0.1:2801 accepted //steamuserimages-a.akamaihd.net:443 [socks -> proxy]",
-          "link": "https://www.v2ex.com/t/1103013",
-          "publishedOn": "2025-01-06T13:13:26.000Z",
-          "wordCount": null,
-          "title": "为什么 Steam 客户的聊天无法发图片？",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1103012",
           "author": "uqf0663",
           "description": "uqf0663: 目前已经试过的：\n1 、kodi （交互逻辑很反国人）\n2 、nova （闪退）\n3 、vlc （结束一个文件自动下一个文件总是不能正确显示，需要退出后重进才行）\n4 、mx player tv （提示所在地区不支持，搜索了发现 tv 版只支持印度等少数几个地区，不想在电视上挂梯子）\n\n因为是老人家观看的，交互逻辑太复杂就很不友好。\n请问各位见多识广的大佬，除了以上提到的 4 个，安卓 tv 上还有哪些支持播放 smb 上的文件并且比较符合国人交互逻辑的 app ？",
           "link": "https://www.v2ex.com/t/1103012",
           "publishedOn": "2025-01-06T13:04:59.000Z",
-          "wordCount": 483,
+          "wordCount": 485,
           "title": "安卓 tv 上有哪些支持播放 smb 上的文件并且比较符合国内交互逻辑的 app？",
           "imageUrl": null
         },
@@ -539,7 +366,7 @@
           "description": "forgottenPerson: \n为何现在多核，不用并行，要用并发，是因为，l1,l2 是独立的,l3 缓存是共享的吗？在程序语言上也是支持并发，为啥程序语言上并发比比并行说的多?\n有懂的老哥解点惑吗?",
           "link": "https://www.v2ex.com/t/1103011",
           "publishedOn": "2025-01-06T13:03:34.000Z",
-          "wordCount": 621,
+          "wordCount": 625,
           "title": "单 cpu 多核为啥不用并行",
           "imageUrl": null
         },
@@ -569,7 +396,7 @@
           "description": "xoxo419:",
           "link": "https://www.v2ex.com/t/1103008",
           "publishedOn": "2025-01-06T12:46:11.000Z",
-          "wordCount": 486,
+          "wordCount": 502,
           "title": "tg 收到这种消息是钓鱼还真的官方吗 若您在 24 小时内未验证，您的账户将被注销且无法恢复",
           "imageUrl": null
         },
@@ -579,7 +406,7 @@
           "description": "IMZQZ: \n我想到的方法，各位看看对不对：\n1.先根据 json 内容进行建表\n2.将 json 导入数据库\n3.写后端代码\n4.写接口\n那么问题来了，我不会写代码，怎么办？\n有没有什么学习路径或者有 AI 工具帮助做这个项目？",
           "link": "https://www.v2ex.com/t/1103007",
           "publishedOn": "2025-01-06T12:38:55.000Z",
-          "wordCount": 538,
+          "wordCount": 542,
           "title": "如何将一堆 json 文件变成 API 用于接口访问？",
           "imageUrl": null
         },
@@ -589,7 +416,7 @@
           "description": "l4ever: 部署测试后，可能需要很久 10 天，20 天\n等测试通过才可以部署生产环境。\n这样如何处理呢？\n分开 job ？构建后保存产物，部署的时候再复制构建的产物发布？",
           "link": "https://www.v2ex.com/t/1103006",
           "publishedOn": "2025-01-06T12:28:09.000Z",
-          "wordCount": 437,
+          "wordCount": 462,
           "title": "Jenkins 流程中，构建-部署测试-部署生产，流程时间跨度很长怎么办？",
           "imageUrl": null
         },
@@ -689,7 +516,7 @@
           "description": "bigfa: \n又来啦。\n首页\n\n文章页\n\n分类页\n\n响应式\n支持暗黑模式\nlighthouse 跑分\npc\n\nmobile\n\n相关链接\nhugo 版本 github\nhugo 版本 demo\nwordpress 版本 github\nwordpress 版本 demo",
           "link": "https://www.v2ex.com/t/1102996",
           "publishedOn": "2025-01-06T11:12:37.000Z",
-          "wordCount": 398,
+          "wordCount": 405,
           "title": "分享一款自己写的 Wordpress / Hugo 主题",
           "imageUrl": null
         },
@@ -749,7 +576,7 @@
           "description": "eyeshuaji: 刚改的时候没有问题，重启后有些应用就恢复默认大小了，但是设置里的字体大小还是正常的",
           "link": "https://www.v2ex.com/t/1102987",
           "publishedOn": "2025-01-06T10:42:40.000Z",
-          "wordCount": 351,
+          "wordCount": 353,
           "title": "求助，在设置中改了字体大小后，重启后部分应用不生效",
           "imageUrl": null
         },
@@ -769,8 +596,178 @@
           "description": "giffgaffman: \n啪的一下，很快啊，2025 就到了！抽奖回馈给大家，祝愿 V 友们 2025 年 都能更上一层楼！ Happy New Year !\nT 楼规则\n奖品：10 张全新未激活的英国 giffgaff 卡，包邮，2025 年 1 月份激活可以充 10 镑送 10 镑\n开奖时间：2025-1-8 18:00\n参与方式：T 楼没有口号限制，每人参与一次，重复回复无效且顺延\n如何领奖：开奖后我会 @你，请中奖人联系我TG\ngiffgaff 最新教程\ngiffgaff 保姆级使用教程 2025\n联系方式\nTG 频道：ukgiffgaffsim\nTG 群：giffgaffsim\nTG 客服：ukgiffgaffbot\n付邮领取 giffgaff\n限时活动：2025.1.1-1.31 期间激活，充 10 镑送 10 镑，其中 5 镑激活后立马到账，剩下 5 镑 3 个工作日内到账；\n英国 giffgaff 全新未激活的空白实体卡，0 月租，上海发出，走中通，24 小时发货；\n领取方法：复制口令到手机微信的文件传输助手打开：#小程序://快团团/点击查看/fAyy9AyHoMCyULt\n或微信扫码跟团 \n往期抽奖\n2024 年 T 楼： https://v2ex.com/t/1042918",
           "link": "https://www.v2ex.com/t/1102985",
           "publishedOn": "2025-01-06T10:31:11.000Z",
-          "wordCount": 1225,
+          "wordCount": 1237,
           "title": "T 楼：送 10 张全新未激活的英国 giffgaff 卡",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102984",
+          "author": "paullin81",
+          "description": "paullin81: \nhttps://deepnotes.org/ai-agent-practical-case-introduction/\n我做了一些精华的摘要。",
+          "link": "https://www.v2ex.com/t/1102984",
+          "publishedOn": "2025-01-06T10:29:13.000Z",
+          "wordCount": 372,
+          "title": "分享一篇不错讲 AI Agent 在保险场景下应用的文章",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102983",
+          "author": "qiujianzhong",
+          "description": "qiujianzhong: \n已发送邮件联系 hello@v2ex.com\n被封 IP base64\nMTguMTY3LjY3LjE3MQozNS43OS4xMTkuMTk3\n帖子\nhttps://www.v2ex.com/t/1100875\n发表内容：\n中奖公示\n请站长帮忙看下是哪儿出了问题，请帮忙把公司的 ip 解封了，不然公司员工对我都怨言了，谢谢了",
+          "link": "https://www.v2ex.com/t/1102983",
+          "publishedOn": "2025-01-06T10:20:03.000Z",
+          "wordCount": 349,
+          "title": "规则误判请解封 IP",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102982",
+          "author": "melohu8",
+          "description": "melohu8: 着急招人中，大家欢迎联系",
+          "link": "https://www.v2ex.com/t/1102982",
+          "publishedOn": "2025-01-06T10:19:48.000Z",
+          "wordCount": 415,
+          "title": "[招人] 前端招聘（杭州-支付宝-体验技术部），极速面试",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102981",
+          "author": "NothingExist",
+          "description": "NothingExist:",
+          "link": "https://www.v2ex.com/t/1102981",
+          "publishedOn": "2025-01-06T09:57:28.000Z",
+          "wordCount": 449,
+          "title": "下班后想找个地方学习，排除公司和住宿，有什么好的选择？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102980",
+          "author": "clikes",
+          "description": "clikes: \n新公司采用 p4 进行版本管理，发现 ide 连接不上 p4 少了一些好用的功能，比如 annotate 找之前开发的同事，研究了一番踩了点坑最后成功连上。\n此功能跟连接 git 或 svn 不一样不会自动设置 directory mappings ， 需要手动指定对应的映射 directory 。\n2.设置 perforce 插件的时候需要注意 P4VC executable 其实是 p4v.exe, 如果你的 p4 没有 p4vc.exe 这个文件的话，不过我的 p4 版本同时存在两个的，换着试了下两个都行，不确定会不会有问题。",
+          "link": "https://www.v2ex.com/t/1102980",
+          "publishedOn": "2025-01-06T09:56:18.000Z",
+          "wordCount": 379,
+          "title": "采用 jetbrain ide 连接 perforce P4 的时候踩得坑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102979",
+          "author": "jimmy2024",
+          "description": "jimmy2024: \nOne-Day Free ，免费开虚拟 visa 卡, 计划于 1 月 10 号，限时免费（仅限未开卡新会员）， 数量有限 100 名，先到先得。不需要 kyc ，无月费，无年费\n老会员可以邀请好友，绑定关系，锁定未来佣金收益\n(官网)[https://hornetpay.uk/#/?lang=zh-CN]\n你们可以回复，说说看法",
+          "link": "https://www.v2ex.com/t/1102979",
+          "publishedOn": "2025-01-06T09:54:19.000Z",
+          "wordCount": 427,
+          "title": "免费送虚拟 visa 卡, 计划于 1 月 10 号，限时免费",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102978",
+          "author": "WilliamColton",
+          "description": "WilliamColton: \n直接和支付宝客服说要换成国际版即可\n和正常的功能没有任何区别\n就是换了一个 UI ，连 APP 都不需要更新\n但是少了很多小广告\n要是客服和你扯东扯西的，就说要是给我换成国际服我就给你五星好评\n去年亲测有效🤪 一直用到现在\n注意语气尽量客气一点",
+          "link": "https://www.v2ex.com/t/1102978",
+          "publishedOn": "2025-01-06T09:51:53.000Z",
+          "wordCount": 367,
+          "title": "支付宝小广告多的解决办法",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102976",
+          "author": "efxy107",
+          "description": "efxy107: \n版本背景:\nspringboot: 2.7.18; 测试环境 es: 7.17.9 ；客户生产环境腾讯云 es:7.5.1; 因为多个系统使用并且是云服务客户不考虑升级 es 版本；\n问题：\n执行 es 操作报错：Invalid or missing build flavor  [ OSS ] ；发现是 es 和 springboot 版本不匹配；\n行动：\n在不考虑降低 springboot 版本前提和本地尝试搭建官网 7.5 的版本（ 7.5.2 ）做问题复现；客户 es 的 build_flavor 属性为 OSS ；我分别下载了 oss 版本和 default 版本；自测发现在 default 就不会有版本不一致导致得问题，只有 OSS 版本才会出现；了解了 OSS 和 default 的区别在于商业化，并且 default 包含 OSS 所有功能;\n我的疑问：\n1.  我指定了 es 连接的版本并且移除 springboot 默认的 es 版本还是无效，是我操作有问题还是什么\n2. 为什么会提供 OSS 这种版本，大家生产环境是怎么选择的",
+          "link": "https://www.v2ex.com/t/1102976",
+          "publishedOn": "2025-01-06T09:51:13.000Z",
+          "wordCount": 437,
+          "title": "关于 Elasticsearch 和 springboot 版本的依赖关系",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102975",
+          "author": "OOOten",
+          "description": "OOOten: 需要 nas 理由：\n1. 用投影仪看 4k （现在是插上笔电看）\n2. 用客厅的电视看 4k （现在是插上移动硬盘看）\n3. 回老家的时候用笔电/ipad 看电影（现在是 b 站有啥我看啥）\n4. 存储照片和录像（每年新增不超过 300g ，刚需备份功能）\n使用强度：普通居民小区，晚上/周末开机；出门会连续开机 1~2 周\n预算：5k 内，最好在 3k 左右（包括 8t 左右硬盘）；软件最好不要额外付费\n个人 diy 能力：有基础的装机能力和刷系统/docker 部署/...能力。但是我太懒了，非常希望可以整机即开即用+傻瓜式的 app （包括电视和 pad 使用的 app ）",
+          "link": "https://www.v2ex.com/t/1102975",
+          "publishedOn": "2025-01-06T09:48:50.000Z",
+          "wordCount": 536,
+          "title": "nas 软+硬件，我应该怎么选？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102974",
+          "author": "AichiB7A",
+          "description": "AichiB7A: \n最近一年工作比较空闲，自己也是个闲不下来的人，就写写公众号，录播客，看书，投资理财，学习量化，学习 LLM, langchain, RAG 这些。但好像没有什么特别大的收获，主业上也没有什么突破，找工作的时候这些自己研究的东西感觉 hr 都看不上，想转行感觉难如登天，保持原来的主业又看不到什么希望，就是在公司里熬年限，或者等裁员大礼包。不知该如何破局",
+          "link": "https://www.v2ex.com/t/1102974",
+          "publishedOn": "2025-01-06T09:48:22.000Z",
+          "wordCount": 379,
+          "title": "空闲时间试了很多主业外的事情，但没觉得对主业有帮助，也没有变现，怎么办",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102973",
+          "author": "maogang39",
+          "description": "maogang39: \n一直看到有人说猫超卡可以找回，按说明去看，才发现的用的 Play 版淘宝里的天猫超市简洁的像十年前的界面。从国内市场上下个安装，又正常了。\n下图是 Play 版，最明显的是页面下方缺少几个图标，各位帮忙看看是不是一样的情况。\n我这目前就只有天猫超市自营送货到楼下，其他要去路口拿（非小区）\nhttps://imgur.com/a/KhclgKj",
+          "link": "https://www.v2ex.com/t/1102973",
+          "publishedOn": "2025-01-06T09:43:18.000Z",
+          "wordCount": 384,
+          "title": "Play 版 淘宝 中的天猫超市不会都是简洁版本吧？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102971",
+          "author": "YadongZhang",
+          "description": "YadongZhang: \n👨‍💻✨\n2+ years experience in building scalable, user-friendly interfaces with [React/Next.js/TypeScript]. \nTools: Slack, Google Workspace, Jira, Productive, Linear, Figma...\nTech Stack: Supabase, TanStack Query, Prisma, MUI, Tailwind CSS, AgGrid...\nEnglish Proficiency: Capable of conducting a one-hour, fully English meeting with my boss.\nEmail: emh5ZDAwN0BnbWFpbC5jb20=\nOne of the most significant accomplishments at my previous company was resolving a memory shortage issue that prevented Next.js from building successfully, which allowed the project to launch on schedule.\nOpen to exciting projects and challenges. Let’s connect! 🌟\nPrefer working remotely. However, if the offered salary meets the local median, I’m open to working on-site as well.\nhttps://www.levels.fyi/t/software-engineer\n👨‍💻✨\n我有 2 年以上使用 React / Next.js / TypeScript 搭建可扩展、用户友好界面的经验。\n工具: Slack, Google Workspace, Jira, Productive, Linear, Figma...\n技术栈：Supabase, TanStack Query, Prisma, MUI, Tailwind CSS, AgGrid...\n英语水平：可以和老板进行长达一个小时的全英文会议。\n邮箱：emh5ZDAwN0BnbWFpbC5jb20=\n上家公司做的最有影响力的一件事：解决了 Nextjs 由于内存不足无法成功构建的问题，使得项目按时上线。\n期待能参与更多有趣的项目并接受新的挑战。如果您正在寻找前端工程师，欢迎与我联系，一起探索更多可能！🌟\n倾向远程，如果薪资可以达到当地中位数，也可坐班： https://www.levels.fyi/t/software-engineer",
+          "link": "https://www.v2ex.com/t/1102971",
+          "publishedOn": "2025-01-06T09:36:10.000Z",
+          "wordCount": 496,
+          "title": "Seeking new frontend job opportunity! 寻找新的前端开发机会！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102968",
+          "author": "microka",
+          "description": "microka: Telegram for Windows 官方客户端，有些未设置分组的频道，如果有未读消息，往往被淹没在茫茫对话列表中，只能拉滚动条或者滚滚轮慢慢找，没法像 QQ 、微信那样快速定位、打开聊天对话框。\n请问有啥好方法吗？",
+          "link": "https://www.v2ex.com/t/1102968",
+          "publishedOn": "2025-01-06T09:30:07.000Z",
+          "wordCount": 363,
+          "title": "Telegram for Windows 如何快速定位到未读消息对话？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102967",
+          "author": "HashMonster",
+          "description": "HashMonster: \n对这方面了解不是很深，想到特斯拉的 FSD 是基于数据训练出来的模型，训练出来的模型可以基于外界的输入得出输出，那人会不会也是一个大模型？\n在人出生之后我们基于接收到的不同信息，我们形成了不同的性格，就好像特斯拉训练 FSD 使用的数据是暴躁的老司机还是新手司机。",
+          "link": "https://www.v2ex.com/t/1102967",
+          "publishedOn": "2025-01-06T09:27:56.000Z",
+          "wordCount": 416,
+          "title": "端到端大模型基于输入得出结果，那人是不是也可以是一个”大模型“",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102965",
+          "author": "gilliver",
+          "description": "gilliver: \n游戏产品经理\n职位名称: Web3 游戏产品经理 \n职位描述\n负责平台 Telegram 小游戏的产品规划、设计和运营，推动产品从构思到上线的全流程\n主要职责\n产品规划：制定产品短期及长期发展路线图，设计核心玩法和游戏机制，规划运营活动和生命周期管理 \n项目管理：负责跨团队协调，把控项目进度和质量，推动产品按时交付 \n数据运营：监控和分析产品运营数据（ DAU 、留存率、转化率等），制定 KPI 并持续优化产品体验 \n市场分析：追踪行业趋势和竞品动向，收集用户反馈，识别产品优化机会\n团队协作：与跨职能团队合作，包括工程师、设计师和市场团队，以制定和执行产品策略\n岗位要求\n5 年以上游戏相关产品经验，其中包括在 Web3 、区块链或相关领域的经验\n拥有计算机科学、工程或相关领域的学士学位，或者具备相关工作经验\n具有强大的逻辑思维能力，能够处理复杂的问题并找到解决方案\n能够利用数据驱动决策并优化产品\n具有创新思维和敏锐的市场嗅觉\n加分项\n对 DeFi 、NFT 和其他区块链技术和应用有深入理解 \n有相关的开发经验，能使用 AI Code Tool(windsurf/crusor/vo.dev/bolt.new) 完成 MVP 版本的实现\n全英文办公，有在创业环境下工作的经验\n🎁 我们提供\n参与优秀的游戏平台的开发和创作，与最优秀的研究员和工程师合作。\n参与团队活动，如团建、集训、以及远程员工的线下活动。\n具有吸引力的薪酬方案，包括代币奖励 🦋👀。\n掌握对 Web3 和区块链技术的最新认识，我们团队有非常多的资源和专家可以帮助你成长。\n为了安全考虑，请将你的简历使用 google docs 进行重新编辑，我们只接受 google docs 链接，不会打开任何 doc 或者 pdf 文件。\n简历请发送至： gilliverihskhk@gmail.com 或者直接联系我的 TG(Telegram): parker0zx",
+          "link": "https://www.v2ex.com/t/1102965",
+          "publishedOn": "2025-01-06T09:18:36.000Z",
+          "wordCount": 423,
+          "title": "Web3 游戏产品经理(远程-全职)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102964",
+          "author": "darkings90",
+          "description": "darkings90: \nIDEA 插件市场搜  Bean Assistant\n功能：可以根据快捷字直接写例如某个 Service 的方法调用，插件在类里面自动写上 Service 的注入代码，省去手动操作。\n演示：https://github.com/kings1990/bean-assistant-doc",
+          "link": "https://www.v2ex.com/t/1102964",
+          "publishedOn": "2025-01-06T09:15:52.000Z",
+          "wordCount": 366,
+          "title": "SpringBoot 解决快速 Bean 注入分享",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1102963",
+          "author": "Richared",
+          "description": "Richared: \n有台老 nas ，得有 3-4 年没开机了。今天开机发现了 metamask 的助记词，看了一眼，里边有 0.01 个 eth 。收获 2k 块，开心的一天。",
+          "link": "https://www.v2ex.com/t/1102963",
+          "publishedOn": "2025-01-06T09:03:38.000Z",
+          "wordCount": 696,
+          "title": "今天收获了意外之喜",
           "imageUrl": null
         }
       ]
