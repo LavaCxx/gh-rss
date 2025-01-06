@@ -396,7 +396,7 @@
           "description": "finesixseven: https://github.com/infiolab/infio-copilot\n基本实现对 cursor 1:1 复刻\ndeepseek-v3 非常便宜, 适合笔记场景, 所有的 prompt 都对它进行了优化\n有任何问题都欢迎直接站内联系, 或者 email 我\n聊天与编辑流程\n在 Obsidian 中一键获取 AI 帮助并应用建议改进, 例如: 改写/润色/翻译 ...\n\n自动补全\n在输入时获取上下文感知的写作建议, \n使用 deepseek 的 FIM 功能,  对 代码块, 数学公式, mermaid 都有适配\n\n内联编辑\n在当前文件中直接编辑笔记, 类似于 cursor edit inline\n\n与知识库聊天 使用 pglite, 所有数据存储在本地\n利用 AI 的强大功能与整个 Obsidian 知识库互动，获取笔记中的见解和联系\n\n你也可以直接 粘贴 web url 和  图片, 进行对话",
           "link": "https://www.v2ex.com/t/1103030",
           "publishedOn": "2025-01-06T15:07:43.000Z",
-          "wordCount": 456,
+          "wordCount": 458,
           "title": "Infio-Copilot: 受 Cursor 启发的 Obsidian AI 助手，提供智能自动补全和与选定笔记的交互式聊天",
           "imageUrl": null
         },
@@ -426,7 +426,7 @@
           "description": "iisboy: \n刚用了小米 13 pro ，各种问题啊，很多软件不是商店的，从浏览器根本安装不了",
           "link": "https://www.v2ex.com/t/1103027",
           "publishedOn": "2025-01-06T14:49:04.000Z",
-          "wordCount": 402,
+          "wordCount": 416,
           "title": "哪些手机能无限制安装海外 APP，比如： TG， whatsapp 等",
           "imageUrl": null
         },
@@ -516,7 +516,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1103016",
           "publishedOn": "2025-01-06T13:25:09.000Z",
-          "wordCount": 545,
+          "wordCount": 572,
           "title": "初代 iPhone 发布时 499 元，也是一群人喊贵。但现在 499 元只能买到低配版 Pixel 8a。十几年后，会不会 Vision Pro 的 3499 元也成为中低端头显的售价？智能手...",
           "imageUrl": null
         },
@@ -536,7 +536,7 @@
           "description": "Granado: \n目前我手持三星 23U ，我习惯 Edge 浏览器、狐猴浏览器，然后我发现一个现象：三星手机系统的字体我替换成了霞鹜文楷,常用的 app 例如：小红书、抖音、哔哩哔哩、知乎等，其内容字体正确的按霞鹜文楷渲染了，但是 Edge 浏览器、狐猴浏览器的网页内容并没有按该字体渲染。但是我手上的一个一加平板同样替换了字体，这 2 个浏览器都正常的按照霞鹜文楷来渲染网页了。\n我简单找了下原因，应该是三星的字体替换，并没有把/system/fonts 中的系统字体做替换，而是做了个映射导致的，国产定制的 Android 系统大多是替换了 /system/fonts 中字体，在浏览器取系统字体的时候三星手机取到的是/system/fonts 下的字体，而非系统映射后的字体。\n于是我想找一个开源浏览器 iceraven,看自己能改获取字体的方法自己打包一个版本来使用的，但是我遇到 2 个问题：\n1 、如何正确的获取到三星系统替换后的字体。\n2 、iceraven 中我该怎么改逻辑（对 Android 开发了解甚少）。\n对了我还了解到，小红书里有个功能是使用系统字体，开启后就能用自定义字体渲染内容了，但是我不知道具体的原理。\n请了解的大佬赐教一下~",
           "link": "https://www.v2ex.com/t/1103014",
           "publishedOn": "2025-01-06T13:21:35.000Z",
-          "wordCount": 402,
+          "wordCount": 417,
           "title": "三星手机和浏览器字体问题求问",
           "imageUrl": null
         },
@@ -596,7 +596,7 @@
           "description": "xoxo419:",
           "link": "https://www.v2ex.com/t/1103008",
           "publishedOn": "2025-01-06T12:46:11.000Z",
-          "wordCount": 513,
+          "wordCount": 115,
           "title": "tg 收到这种消息是钓鱼还真的官方吗 若您在 24 小时内未验证，您的账户将被注销且无法恢复",
           "imageUrl": null
         },
@@ -606,7 +606,7 @@
           "description": "IMZQZ: \n我想到的方法，各位看看对不对：\n1.先根据 json 内容进行建表\n2.将 json 导入数据库\n3.写后端代码\n4.写接口\n那么问题来了，我不会写代码，怎么办？\n有没有什么学习路径或者有 AI 工具帮助做这个项目？",
           "link": "https://www.v2ex.com/t/1103007",
           "publishedOn": "2025-01-06T12:38:55.000Z",
-          "wordCount": 549,
+          "wordCount": 551,
           "title": "如何将一堆 json 文件变成 API 用于接口访问？",
           "imageUrl": null
         },
@@ -616,7 +616,7 @@
           "description": "l4ever: 部署测试后，可能需要很久 10 天，20 天\n等测试通过才可以部署生产环境。\n这样如何处理呢？\n分开 job ？构建后保存产物，部署的时候再复制构建的产物发布？",
           "link": "https://www.v2ex.com/t/1103006",
           "publishedOn": "2025-01-06T12:28:09.000Z",
-          "wordCount": 474,
+          "wordCount": 480,
           "title": "Jenkins 流程中，构建-部署测试-部署生产，流程时间跨度很长怎么办？",
           "imageUrl": null
         },
@@ -716,7 +716,7 @@
           "description": "bigfa: \n又来啦。\n首页\n\n文章页\n\n分类页\n\n响应式\n支持暗黑模式\nlighthouse 跑分\npc\n\nmobile\n\n相关链接\nhugo 版本 github\nhugo 版本 demo\nwordpress 版本 github\nwordpress 版本 demo",
           "link": "https://www.v2ex.com/t/1102996",
           "publishedOn": "2025-01-06T11:12:37.000Z",
-          "wordCount": 405,
+          "wordCount": 407,
           "title": "分享一款自己写的 Wordpress / Hugo 主题",
           "imageUrl": null
         },
