@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-05T23:36:13.890Z</id>
+    <id>urn:2025-01-06T01:14:58.547Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-05T23:36:13.890Z</updated>
+    <updated>2025-01-06T01:14:58.547Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -36,6 +36,18 @@ https://www.v2ex.com/t/1102126
 https://book.douban.com/subject/36710597/]]></summary>
         <author>
             <name>潮流周刊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[超能网的 RSS 是否有问题？]]></title>
+        <id>https://www.v2ex.com/t/1102765</id>
+        <link href="https://www.v2ex.com/t/1102765"/>
+        <updated>2025-01-05T21:20:37.000Z</updated>
+        <summary type="html"><![CDATA[microka: 一直在用 inoreader 订阅超能网 RSS https://www.expreview.com/rss.php
+发现最新文章一直停留在 2024-09-21 ，用浏览器访问 https://www.expreview.com/rss.php 能看到最新的文章信息，也试过用 Follow 订阅，和 inoreader 一样最新文章是 2024-09-21 ，也找到有人发过这个讨论 https://github.com/RSSNext/Follow/discussions/1814 但没有回应。
+想问是超能网的 RSS 出问题了吗？]]></summary>
+        <author>
+            <name>microka</name>
         </author>
     </entry>
     <entry>
@@ -728,31 +740,6 @@ https://forum.microchip.com/s/topic/a5CV40000002kBdMAI/t399326
 从原理图上看，2 块以太网芯片的引脚一样，所用的外部晶振都是 25 起振到 50 ，mcu 是 6ull ，设备树没变过，参考时钟都是输入，fae 回答说没有用过此类芯片，软件方面我能想到的就是调试收到的包，V 友高手多，请问应该从什么角度排查？或者去 6ull 论坛问吗？]]></summary>
         <author>
             <name>VchentozV</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cavs/avs2/avs3 视频编码，有什么软件剪切时能看见帧类型]]></title>
-        <id>https://www.v2ex.com/t/1102715</id>
-        <link href="https://www.v2ex.com/t/1102715"/>
-        <updated>2025-01-05T11:44:34.000Z</updated>
-        <summary type="html"><![CDATA[dxeldx: 平时用 avidemux ，但是导入不了 cavs/avs2/avs3 视频编码的视频]]></summary>
-        <author>
-            <name>dxeldx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[合租国内杜甫]]></title>
-        <id>https://www.v2ex.com/t/1102714</id>
-        <link href="https://www.v2ex.com/t/1102714"/>
-        <updated>2025-01-05T11:28:40.000Z</updated>
-        <summary type="html"><![CDATA[saobilin: 自己 8 月份脑子一热托管了个杜甫到国内机房
-机器配置 2680v4*2 256GB 内存 带宽 1G 下 50Mbps 上 无限流量 带 100G 防御 宁波电信线路 NAT 共享一个 ipv4 免费提供 ipv6 带一个 Tesla P4 显卡 目前已经启用 VGPU
-想找俩哥们合租一下 目前使用的 Proxmox 作为虚拟化系统 用 Ikuai 接管了网络（无脑转发）
-可以建站 有 80 443 端口
-除了黄赌毒和梯子你想干啥都行 解码可以提供 vgpu
-可提供一定范围的技术支持（我会的就行）提供 pve 的管理账号 方便你自己折腾你的🐔🐔]]></summary>
-        <author>
-            <name>saobilin</name>
         </author>
     </entry>
     <entry>

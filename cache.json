@@ -324,6 +324,16 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1102765",
+          "author": "microka",
+          "description": "microka: 一直在用 inoreader 订阅超能网 RSS https://www.expreview.com/rss.php\n发现最新文章一直停留在 2024-09-21 ，用浏览器访问 https://www.expreview.com/rss.php 能看到最新的文章信息，也试过用 Follow 订阅，和 inoreader 一样最新文章是 2024-09-21 ，也找到有人发过这个讨论 https://github.com/RSSNext/Follow/discussions/1814 但没有回应。\n想问是超能网的 RSS 出问题了吗？",
+          "link": "https://www.v2ex.com/t/1102765",
+          "publishedOn": "2025-01-05T21:20:37.000Z",
+          "wordCount": 395,
+          "title": "超能网的 RSS 是否有问题？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1102763",
           "author": "starsliao",
           "description": "starsliao: \n🌈概述\n🌼花折 - KubeDoor 是一个使用 Python + Vue 开发，基于 K8S 准入控制机制的微服务资源管控平台。专注微服务每日高峰时段的资源视角，实现了微服务的资源分析统计与强管控，确保微服务资源的资源申请率和真实使用率一致。📀项目仓库： https://github.com/CassInfra/KubeDoor\n💠架构图\n\n💎功能描述\n📊采集 K8S 微服务每日业务高峰时段 P95 的 CPU 内存消耗，以及需求、限制值与 Pod 数。基于采集的数据实现了一个 Grafana 看板并集成到了 WEB UI 。\n🎨基于日维度采集每日高峰时段 P95 的资源数据,可以很好的观察各微服务长期的资源变化情况，即使查看 1 年的数据也很流畅。\n🏅高峰时段全局资源统计与各资源 TOP10\n🔎命名空间级别高峰时段 P95 资源使用量与资源消耗占整体资源的比例\n🧿微服务级别高峰期整体资源与使用率分析\n📈微服务与Pod 级别的资源曲线图(需求值,限制值,使用值)\n\n\n\n\n🎡每日从采集的数据中，获取最近 10 天各微服务的资源信息，获取资源消耗最大日的 P95 资源，作为微服务的需求值写入数据库。\n✨基于准入控制机制实现 K8S 微服务资源的真实使用率和资源申请需求值保持一致，具有非常重要的意义。\n🌊K8S 调度器通过真实的资源需求值就能够更精确地将 Pod 调度到合适的节点上，避免资源碎片，实现节点的资源均衡。\n♻K8S 自动扩缩容也依赖资源需求值来判断，真实的需求值可以更精准的触发扩缩容操作。\n🛡K8S 的保障服务质量（ QoS 机制）与需求值结合，真实需求值的 Pod 会被优先保留，保证关键服务的正常运行。\n🌐实现了一个 K8S 管控与展示的 WEB UI 。\n⚙️对微服务的最新、每日高峰期的P95 资源展示，以及…",
@@ -349,7 +359,7 @@
           "description": "honmaple: \n红枫云盘是什么：一个开源的无服务端多协议云盘文件上传和管理 APP\n对比上一次分享已经过去了一个多月，这期间很感谢阮一峰大佬的推荐，上了 2024 最后一期科技爱好者周刊，在短短一周时间内涨了 150 多个 star ，今天发布了最新的 v1.0.1 版本，对比上一次有重大更新：\n增加文件加密和压缩功能：对上传或者复制到此存储的文件进行加密，客户端查看时自动解密，再也不用担心上传的视频变成 8 秒教育片，注意：文件加密和压缩开启后不能修改存储配置\n增加回收站功能：删除文件自动转为重命名文件(增加时间后缀)并移动到指定目录，想要恢复则复制到其它目录即可\n增加文件拖拽上传：当前只支持文件，不支持目录拖拽\n增加web 支持：浏览器也能管理文件\n更多 UI 和功能上的修复\n软件主页： https://fileapp.honmaple.com\n历史帖子： https://www.v2ex.com/t/1094456\n设置里有一个同步备份，但由于时间有限，这个功能还没测试好，大家忽略即可，欢迎大家使用并提出更多建议",
           "link": "https://www.v2ex.com/t/1102760",
           "publishedOn": "2025-01-05T18:06:32.000Z",
-          "wordCount": 381,
+          "wordCount": 392,
           "title": "红枫云盘发布 v1.0.1 版本，支持文件加密、压缩以及回收站功能",
           "imageUrl": null
         },
@@ -379,7 +389,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1102756",
           "publishedOn": "2025-01-05T16:06:15.000Z",
-          "wordCount": 386,
+          "wordCount": 408,
           "title": "截至 2024 年，日本的加密货币用户数已超过 800 万，在中心化交易所，日本用户的日均活跃人数约为 35 万。为什么加密货币会在极其厌恶风险的日本普及开？",
           "imageUrl": null
         },
@@ -389,7 +399,7 @@
           "description": "humbass: \n看官网的说明配置 ecosystem.config.js 来启动一个服务，大概长这样\nmodule.exports = {\n  apps: [{\n    name: 'app1',\n    script: './app.js'\n  }]\n}\n\n如果要启动一个静态文件服务，这个配置要怎么写呢？",
           "link": "https://www.v2ex.com/t/1102755",
           "publishedOn": "2025-01-05T15:58:42.000Z",
-          "wordCount": 386,
+          "wordCount": 406,
           "title": "求教： pm2 如何配置一个静态服务器",
           "imageUrl": null
         },
@@ -399,7 +409,7 @@
           "description": "w568w: \n之前久仰 C# 大名，但一直没实际接触过，一是感觉微软的东西都不靠谱，二是觉得这语言只有游戏产业和 ASP.NET 服务器在用，三是不知道从哪里留下了「 C# 运行性能特别差」的印象。\n今天在 Windows 上写了个小数据处理脚本，出于好奇去安装了一下 .NET 9 ，用 GPT 把 Python 转成了 C# 去跑，发现这东西跑起来飞快，比 Python 快了不止七八倍，CPU 也吃满了。\n继而去查了一下 Debian 的 The Computer Language Benchmarks Game 。不看不知道，好家伙，现在 C# aot 都能在 CLBG 排到 Go 头上去了：\nLanguage\nelapsed secs / fastest\n\n\n\n\nIntel C\n1.1\n\n\nC\n1.3\n\n\nC# aot\n1.5\n\n\nJava\n1.5\n\n\nGo\n1.6\n\n\n虽然性能测试和 Java 差不多，但内存占用要少 50%~70%。试了一下 AOT 编译，编译出来就一个 4~5MB 可执行文件，体积很小也无依赖，额外开销基本和 Rust 、C++ 那些原生语言差不多无感。\n但这可是带 GC 的「重型」语言啊，微软这几年的优化确实厉害。\n所以感觉这语言挺有意思，准备最近多花时间当兴趣学习一下，但还是对微软的东西不是很放心。问问各位 C# 开发：C# 有什么特别明显缺点或者写起来卡手的地方吗？ 提前谢谢大家。",
           "link": "https://www.v2ex.com/t/1102753",
           "publishedOn": "2025-01-05T15:51:22.000Z",
-          "wordCount": 543,
+          "wordCount": 603,
           "title": "C# 有哪些显著的缺点？",
           "imageUrl": null
         },
@@ -409,7 +419,7 @@
           "description": "chuugoku: 求推荐安卓手表 和使用体验 有必要吗？",
           "link": "https://www.v2ex.com/t/1102752",
           "publishedOn": "2025-01-05T15:46:17.000Z",
-          "wordCount": 446,
+          "wordCount": 501,
           "title": "苹果手表要天天充电 有用过安卓手表配 iPhone 吗",
           "imageUrl": null
         },
@@ -429,7 +439,7 @@
           "description": "Rooger: \n原文地址： https://luojiego.com/posts/2024-annual-summary-courage/\n总结\n勇敢迈出一步，离开了工作七年的地方，开始寻找更多的可能性，也为寻找内心的安宁。\n说实话我在没有离开自己的舒适区时，我非常没有安全感，因为不知道自己的能力边界在哪里，所以换了一家公司之后，我承担了大部分的模块，是太想证明自己的能力了。在项目上线并且稳定之后，我选择了离开，是我已经证明了自己的能力边界在哪里。\n二宝已经开始上小班了，从最初不能离开妈妈的陪伴，到现在能跟老父亲吃喝玩乐一整天，我又要积极参与到他成长的关键周期了。\n今年从最初的不安全，到现在明白了我不需要给任何人证明自己，我觉得是收获满满的一年。工作如果不能带给自己平和的心态，如果需要舍弃掉家人的陪伴，这样的工作对我而言意义不大。\n新的一年，希望可以跟小宝一起睡觉，不熬夜。坚持阅读，写博客，坚持运动，工作顺心。\n工作\n从进入公司作为第一个后端，做后端主程已经快七年了，所以离开是需要充满勇气的。虽然挺多人不理解，但是我希望有更多的可能性。离职的时候，老板说：“我觉得你是一个理想主义者”，现在想想这句话应该是充满贬义的。\n离职后不久我就在一家刚成立的小公司开始上班了，使用新的语言，新的框架最开始总是充满激情的。因为工期特别赶。我承担大部分的模块，特别是家园这种玩家强交互型的复杂模块。从三月份底开始，到八月底上线，几乎没怎么休息过，也没有加班费，甚至请假还会被扣工资。上线之后的运营节奏更快，当然后续也陆续招了三个后端，十一底，在人员基本招够的情况下，我选择了离职。\n休息了快半年月，我又开始上班了。虽然知道我是由于恐惧才上班的，但是先找个班上，在家待的久了，跟媳妇其实有些事情还说不到一块。虽然结婚已经十一年了，白天上班，晚上回家，彼此感觉这种距离能产生美。但是腻在一块，肯定不如当…",
           "link": "https://www.v2ex.com/t/1102750",
           "publishedOn": "2025-01-05T15:32:49.000Z",
-          "wordCount": 528,
+          "wordCount": 500,
           "title": "2024 年度总结：勇气",
           "imageUrl": null
         },
@@ -459,7 +469,7 @@
           "description": "dejavuwind: \n怪我贪便宜啊 买了个智随享的杂牌国产，也没看颗粒，现在看来应该不是了，大概率是垃圾颗粒，\n可能 zhitai 的 7100 plus 这种还行\n只是基础测试\n读速经常掉到 200MB/s 平均也只有 700MB/s 左右\n距离标称的 3000MB/s 读速这差了多少了\n\n对比下几年前买的 Intel 速度真稳啊 虽然也不多快 毕竟技术老一些\n\n售后让直接申请售后寄回去修（数据不保）\n考虑再三，还是下单了一块 990 evo plus ，倒完数据把原来的这块智随享送回去看看，来回还不够折腾的\n以后国产盘一律不做系统盘了 致钛的哪天有机会再试试吧\n内存目前为止没啥问题 16G 玖合 + 16G 光威弈 pro 系列 基本的 memtest86 没跑出来明显问题（在我的认知范围）",
           "link": "https://www.v2ex.com/t/1102747",
           "publishedOn": "2025-01-05T15:15:25.000Z",
-          "wordCount": 421,
+          "wordCount": 473,
           "title": "系统经常遇到未响应，怀疑是硬盘问题， HD Tune 测了下，实惨",
           "imageUrl": null
         },
@@ -469,7 +479,7 @@
           "description": "bb635725959: \n本人是移动端程序员（原生开发、flutter ），不能说完全不会前（ H5 ）后端，毕竟是程序员嘛，但没有真正写过上线的前后端代码产品，这是我的第一次。\n网站功能：实现 aab 转 apk ；\n用户人群：不会 Android 技术但手上又有一个 aab 需要转 apk 的人，如产品、运营就经常遇到这种场景。\n灵感来源：一位朋友之前有一个小团队在做海外的产品（工具类），后来解散了，但产品一直还在运营，后来他想上架到国内试试（直接运控关内购变成免费），但手上只有一个 aab 安装包（上架 google play 用），现在需要转 apk ，他咸鱼找了个人，报价 200 元，后来他私聊我，这价格靠谱不，我说，你发我吧，免费给你搞，大概 1 分钟就好了，就一条命令而已。\n上链接：aab 转 apk： https://aabtoapk.online/\n开发经历：在 bolt 描述了大概 300 字蓝图，出来了一个我已经很满意的框架，UI 也比较现代化审美；把项目下载下来，用 cursor 打开，不断修修整整，过程就是一直在和 AI 聊天，有报错就贴给 AI ，网站前后端开发完成后，我没有部署网站的经验，此时就向 chatgpt 一顿输出，例如域名怎么绑定、一个服务器怎样给多个网站服务（ Nginx 反向代理）等等。\n网站现在是能用了，但还存在一些问题 AI 也无法解决，例如网站运行一段时间后服务器 cpu 就会占满 100%，此时连 ssh 也连接不上，只能重启机器（ AWS ），暂时在 AWS 设置了一个警告，CPU90%时就发邮件提醒，人工手动重启机器，哈哈哈哈哈，如果这个网站 DAU 能上来，这些问题还是得学习一下如何解决。",
           "link": "https://www.v2ex.com/t/1102746",
           "publishedOn": "2025-01-05T15:07:12.000Z",
-          "wordCount": 460,
+          "wordCount": 462,
           "title": "用 AI 做了个工具网站： aab 转 apk",
           "imageUrl": null
         },
@@ -489,7 +499,7 @@
           "description": "qqqtz: \n想放一个在家，平时外出可以用平板 ssh 上去 nvim 写点代码",
           "link": "https://www.v2ex.com/t/1102743",
           "publishedOn": "2025-01-05T14:51:46.000Z",
-          "wordCount": 416,
+          "wordCount": 438,
           "title": "M4 mini 24 小时不关机耗电多少",
           "imageUrl": null
         },
@@ -499,7 +509,7 @@
           "description": "Y9qn1d: 红米 4k 显示器 typec 可以反向供电那款，电脑没连着显示器的时候，显示器那边的 usb-a 接口就没有电了吗？\n我看设置那边有休眠供电选项，但是灰色的没法选中，不知道是为啥。\n问了京东客服也不知道为啥。\n有大佬知道的吗？",
           "link": "https://www.v2ex.com/t/1102742",
           "publishedOn": "2025-01-05T14:44:59.000Z",
-          "wordCount": 382,
+          "wordCount": 397,
           "title": "红米 4k 显示器 usb-a 口供电疑问",
           "imageUrl": null
         },
@@ -509,7 +519,7 @@
           "description": "MXXXXXS: \n25.1.5, 又是 burnout 的一天\n昨天刚在 reddit 看到一个帖子Why is burnout in gamedev such a common thing?, 很巧今天就是 burnout 的状态, 从早上 9 点写代码死磕错过中午午饭直到下午 1:30, 半小时解决后又从下午 2 点又死磕到 6 点, 整个一天解决了一个问题, 累得不行\n晚饭结束就是躺, 彻底燃尽, 各种负面情绪又爬出来, 无尽的空洞无意义感涌上心头,  虽然解决这个问题有点用但不多, 好消息是解决了\n被席卷而来的虚无感包裹, 感觉自己所谓的写代码越来越像是做土木装修\n自从 llm 从 23 年出现后了解新事物前所未有得便利, 很多以前因为缺乏了解无法实现的功能也变得可以通过反复调整 prompting 来获得一个简单的实现. 简而言之, 写代码从未如此容易无脑\n在文本编辑上, 几年的 vim 用下来纯纯肌肉记忆也不用动脑子, 通用模式就是开几个窗口把代码搬来搬去, 像极了贴瓷砖\n编辑器对平时用的语言支持丰富, 基本只需打几个字母然后 tab 补全, 时间长了感觉像是结巴无法完整地说完一句话\n总结, 变成了一个不动脑的贴瓷砖结巴力 :-(",
           "link": "https://www.v2ex.com/t/1102741",
           "publishedOn": "2025-01-05T14:43:59.000Z",
-          "wordCount": 423,
+          "wordCount": 428,
           "title": "不动脑的贴瓷砖结巴",
           "imageUrl": null
         },
@@ -519,7 +529,7 @@
           "description": "bestrui: \n没有找到一款类似的工具，所以自己写了一个\nGithub 直达bestruirui/mihomo-check\n求⭐\n多线程 1000 个节点测试仅需 5 分钟\n低占用，200 个线程仅占用 15%CPU\n合并，去重，可用性，解锁情况一条龙",
           "link": "https://www.v2ex.com/t/1102739",
           "publishedOn": "2025-01-05T14:34:41.000Z",
-          "wordCount": 393,
+          "wordCount": 491,
           "title": "订阅合并，去重，重命名，可用性检测",
           "imageUrl": null
         },
@@ -549,7 +559,7 @@
           "description": "Hatter: \n最近在看 java 的 volatile 这个东西，写了一块代码想测试一下，代码如下：\n\n我的理解是，如果变量 a 没有 volatile 修饰，那么理论上就应该线程 1 打印一次，其他线程空转不再打印\n但目前发现有一些情况：\n1 、如果不加 Thread.sleep 这行代码，程序能直接打印到 100 ，加了 sleep 才是死循环\n2 、去掉 sleep ，但把打印语句换成 System.out.println(Thread.currentThread().getName()+\":\"+su.getA());\n结果也会变成死循环\n所以想请教下 v 友两个问题\n1 、为什么我没加 volatile 也能打印到 100\n2 、为什么换了个输出语句就又打印不到 100 了。。。",
           "link": "https://www.v2ex.com/t/1102734",
           "publishedOn": "2025-01-05T14:09:44.000Z",
-          "wordCount": 516,
+          "wordCount": 481,
           "title": "请教下 Java 的 volatile 以及一点多线程的疑问",
           "imageUrl": null
         },
@@ -559,7 +569,7 @@
           "description": "cjun: \n经历\n周四去了一趟香港，办理港卡，目标中银+汇丰+众安。\n中银提前预约，预约了彩虹分行，其他分行没预约上，去了哪里看了下资料，说要 10W+余额，当场拒绝。\n汇丰银行，提前预约没有预约上，网上其他同学说可以不用预约，当场 walk in 即可，9 点到的香港，跑了好几家，说当天没有开户的业务，又更换了 2 家，腿走断。最后一家当场拿号，等了 40 分钟。小姐姐态度还不错，回答问题有点小紧张，如果又拒绝，那今天白跑一趟香港了。最后给申请了，但是说要审核，到现在还没消息通知。\n众安+天星线上申请即可，难度不大。\n问题\n请问各位 V 友，中银又变了政策吗？因为之前没有看到过说要余额大于多少才给办卡？\n汇丰银行说要审核才给通过，不知道能不能过，地址还是填的拼音，还不知道卡能不能寄到，有碰到类似情况的同学吗？",
           "link": "https://www.v2ex.com/t/1102733",
           "publishedOn": "2025-01-05T14:08:50.000Z",
-          "wordCount": 469,
+          "wordCount": 551,
           "title": "周四去香港办卡，中银需要余额 10W+",
           "imageUrl": null
         },
@@ -569,7 +579,7 @@
           "description": "andyzhaolau163: 远程岗位内推\n品牌（视觉）设计师、组件设计师、产品设计师\nWeb3 （产品、开发、测试）\n数据岗位（开发、分析、测试）\n产品经理（ SEO/ASO 方向）\nApp 开发工程师（ Flutter 、Android ）\n后端开发（ Golang 、PHP 、Linux C ）\n研发架构师/研发工程师\n机器学习架构师\n前端开发工程师\n项目经理",
           "link": "https://www.v2ex.com/t/1102732",
           "publishedOn": "2025-01-05T14:03:09.000Z",
-          "wordCount": 415,
+          "wordCount": 115,
           "title": "远程岗位内推",
           "imageUrl": null
         },
@@ -599,7 +609,7 @@
           "description": "xoxo419: \n一直占用在 20~30 多%的 CPU 使用率",
           "link": "https://www.v2ex.com/t/1102728",
           "publishedOn": "2025-01-05T13:36:47.000Z",
-          "wordCount": 412,
+          "wordCount": 382,
           "title": "在语雀写的笔记越来越多了，但也发现 CPU 使用率也跟着高了。",
           "imageUrl": null
         },
@@ -629,7 +639,7 @@
           "description": "InkNight: \n过段时间要去海外一段时间，但是家里的 HomeLAB 不能不管。\n前几天买了个 Unifi 的 USG ，默认带一个 OpenVPN 可以直接换掉 iKuai+OpenWRT ，墙内是没问题了，之前跨省用了两个月。\nWireguard 不知道为什么映射出来连不上。\n本人的逻辑是：\nOVPN 和 WG 的特征墙都已经滚瓜烂熟\nOVPN 主机在内，人在外链接的时候应该知道是往里连，封不封看心情。\nWG 属于互联的那种，两边都有可能是出口网关，根据流量特征判断哪边是出口网关。\nSS 这种倒也可以考虑一下，但感觉真用了迟早会上门。\nZerotier 和 Tailscale 不是很清楚，但是目前看也没有相对的实际案例？\n还请有真实案例的大佬说一下自己的方案",
           "link": "https://www.v2ex.com/t/1102725",
           "publishedOn": "2025-01-05T13:19:02.000Z",
-          "wordCount": 458,
+          "wordCount": 483,
           "title": "请教海外如何以安全的方式回国内局域网？",
           "imageUrl": null
         },
@@ -659,7 +669,7 @@
           "description": "drymonfidelia: \n写游戏写一半不知道按到了哪个快捷键开启了这个 Windows 自带功能，正准备把它给关掉，结果第一个界面就一样看到了一处 typo\n\n这已经是以稳定为卖点的 Windows 11 LTSC 版了，估计因为 molde 是地名 https://en.wikipedia.org/wiki/Molde 没触发 typo 检测？\n截完图准备发帖的时候又看了一眼，前面还有一个的 downloading 也拼错了，一个功能第一个界面就一行两个 typo ，明显是完全没测试也没 spell lint 什么的就发布了",
           "link": "https://www.v2ex.com/t/1102722",
           "publishedOn": "2025-01-05T13:00:10.000Z",
-          "wordCount": 624,
+          "wordCount": 663,
           "title": "Microsoft 已经草台班子到这种程度了吗",
           "imageUrl": null
         },
@@ -699,7 +709,7 @@
           "description": "razios: 两只 joy con 为什么感觉“-”这只得分容易高…\n每次都感觉有点明显，+ -握姿有区别？",
           "link": "https://www.v2ex.com/t/1102718",
           "publishedOn": "2025-01-05T12:34:25.000Z",
-          "wordCount": 360,
+          "wordCount": 345,
           "title": "请教关于 switch 舞力全开问题",
           "imageUrl": null
         },
@@ -711,26 +721,6 @@
           "publishedOn": "2025-01-05T12:10:30.000Z",
           "wordCount": 387,
           "title": "Lan8742 芯片 ping 出现丢包现象",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102715",
-          "author": "dxeldx",
-          "description": "dxeldx: 平时用 avidemux ，但是导入不了 cavs/avs2/avs3 视频编码的视频",
-          "link": "https://www.v2ex.com/t/1102715",
-          "publishedOn": "2025-01-05T11:44:34.000Z",
-          "wordCount": 374,
-          "title": "cavs/avs2/avs3 视频编码，有什么软件剪切时能看见帧类型",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102714",
-          "author": "saobilin",
-          "description": "saobilin: 自己 8 月份脑子一热托管了个杜甫到国内机房\n机器配置 2680v4*2 256GB 内存 带宽 1G 下 50Mbps 上 无限流量 带 100G 防御 宁波电信线路 NAT 共享一个 ipv4 免费提供 ipv6 带一个 Tesla P4 显卡 目前已经启用 VGPU\n想找俩哥们合租一下 目前使用的 Proxmox 作为虚拟化系统 用 Ikuai 接管了网络（无脑转发）\n可以建站 有 80 443 端口\n除了黄赌毒和梯子你想干啥都行 解码可以提供 vgpu\n可提供一定范围的技术支持（我会的就行）提供 pve 的管理账号 方便你自己折腾你的🐔🐔",
-          "link": "https://www.v2ex.com/t/1102714",
-          "publishedOn": "2025-01-05T11:28:40.000Z",
-          "wordCount": 472,
-          "title": "合租国内杜甫",
           "imageUrl": null
         }
       ]
