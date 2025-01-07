@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -157,33 +163,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -350,7 +329,7 @@
           "description": "NianBroken: 目前我在使用 LocalSend ，但是这个软件有一个缺点。\n如果我的接收端没有提前打开 APP ，那么在发送端上是不显示接收端的。\n因此在每次传输文件或文字前，我都需要在 iPhone 上提前打开 LocalSend ，然后才能在 Windows 中发送文件，我认为这是一个很反人类的设定。\n我希望可以实现在接收端中，无需提前打开指定 APP 就可以收到文件或文本。\n请问有这样的软件吗？排除 QQ 、微信等这类软件；可以接受买断制付费。",
           "link": "https://www.v2ex.com/t/1103274",
           "publishedOn": "2025-01-07T10:21:49.000Z",
-          "wordCount": 520,
+          "wordCount": 626,
           "title": "iPhone 与 Windows 互传文件最优雅方式有哪些呢？",
           "imageUrl": null
         },
@@ -360,7 +339,7 @@
           "description": "jjshare: 以前做互联网开发的，现在主要精力在做运营、偶尔开发，以前从未接触过实体生意，但是最近几个月，超级想做一个茶叶、酒水品牌\n我是比较喜欢茶，但是我基本不喝酒\n感觉再过一年就会去落地实施，不知道真的做的话，难度多大",
           "link": "https://www.v2ex.com/t/1103273",
           "publishedOn": "2025-01-07T10:19:14.000Z",
-          "wordCount": 362,
+          "wordCount": 366,
           "title": "不知道是咋搞的，好想做一个茶品牌、酒品牌，满脑子都是",
           "imageUrl": null
         },
@@ -400,7 +379,7 @@
           "description": "bboring: \n大家拿的啥绩效？多少个月的年终奖啊？",
           "link": "https://www.v2ex.com/t/1103269",
           "publishedOn": "2025-01-07T09:52:05.000Z",
-          "wordCount": 383,
+          "wordCount": 402,
           "title": "开打年终绩效了，你们被评的啥",
           "imageUrl": null
         },
@@ -410,7 +389,7 @@
           "description": "gaoryrt: \n链接在这里：https://neal.fun/stimulation-clicker/\n今日的 HackerNews 头版，实在很有意思不敢独享",
           "link": "https://www.v2ex.com/t/1103267",
           "publishedOn": "2025-01-07T09:33:02.000Z",
-          "wordCount": 409,
+          "wordCount": 437,
           "title": "分享：一款哲学的、充满黑色幽默的、网页端放置游戏： stimulation-clicker",
           "imageUrl": null
         },
@@ -440,7 +419,7 @@
           "description": "gunner168: \n电脑端借助 Bark 可以方便的推送网址或者文本内容到 iphone ，而且还有通知提醒，反之手机有时候想推个网址或者文本给电脑，只能借助第三方多平台的记事软件，挺麻烦的，不知道手机端有没有类似 bark 一类的可以直接推送到 windows 电脑上的 app ？",
           "link": "https://www.v2ex.com/t/1103263",
           "publishedOn": "2025-01-07T09:27:11.000Z",
-          "wordCount": 512,
+          "wordCount": 544,
           "title": "ios 怎么快捷的推送文本消息到 pc",
           "imageUrl": null
         },
@@ -450,7 +429,7 @@
           "description": "korvin: \nEagle 里的升序排序：时间晚>早，降序：时间早>晚。我一开始以为是 Bug ，然后就发邮箱反馈，结果对方说不是 Bug ，我都怀疑自己搞错了，再三确认后又去问了下 ChatGPT ，果然是有这种特殊存在的。各位有遇到过其它系统里是这样的设定吗？我是第一次遇到。",
           "link": "https://www.v2ex.com/t/1103262",
           "publishedOn": "2025-01-07T09:25:34.000Z",
-          "wordCount": 415,
+          "wordCount": 418,
           "title": "Eagle 的排序客服解释颠覆了我的认知了（问了 ChatGPT 是我认知局限了）",
           "imageUrl": null
         },
@@ -460,7 +439,7 @@
           "description": "ihjk: \n起因：在“我发现好多人过年不回家”的帖子的回复中很多人都在因为“原生家庭”争战，我也想聊，但我不想参战；我发现里面有很多有趣的观点，希望能跟大佬交流。\n希望你别只表达你的观点，请带上您的论据。\n看到别人跟您的观点不同，要么有理有据的反驳，要么请闭嘴。\n请包容别人的出身，成长环境，人生经历跟您的不同，即使他无法准确描述清楚自身观点的形成，也请抱着包容的态度接纳您认为的不合理，不相同，不理解；\n沟通是迈向对方，双向奔赴的过程，不要扣字眼，请试图去理解别人想要表达的意思，即使您认为对方论据和论点有冲突的地方。\n谈原生家庭问题，并不代表不爱“我”的家人，是在寻求目前有限的变化，如果我改变不了原生家庭，我可以通过讨论，看清问题，去理解他们，减少痛苦。\n原生家庭是相对于新生家庭而言的，不可避免会谈论到代际差异，这个差异可以是社会发展、时代变迁、知识见解等等构成的。每个人都有原生家庭，每个人都有新生家庭（即使现在是一个人，因为我觉得这里的冲突是“我”的感受）；\n我觉得原生家庭带来的痛苦的根源就是自私，以“孝”“爱”的名义对“我”的绑架，以别人家的孩子对“我”的否定；比如在原贴中有老哥提到在农村这类现象比较突出，多子多福，为了自己养老；\n能够发现原生家庭问题的原因就是差异，代际差异越大，原生家庭带来的痛苦越大，我并不认为这个词被滥用了。如果你说有些小问题不至于上升到原生家庭，或者你没有原生家庭的问题，可能是因为你们的代际差异不够大，也间接说明了你父辈思想较为开明，或者说你在你原生家庭上的发展没有出现大的改变。\n不恰当的用分值来表示，比如我的原生家庭 10 分，我现在 20 分，我就会觉得有 10 分的痛苦。你的原生家庭 30 分，你 32 分，你就不会觉得你的原生家庭有问题。我们一比，你肯定会觉得我很低级，因为我向上发展了 10 分，还跟你的父辈有 10 分的差距，当我看到你的家庭的时候我的痛苦就会翻倍。",
           "link": "https://www.v2ex.com/t/1103261",
           "publishedOn": "2025-01-07T09:25:07.000Z",
-          "wordCount": 373,
+          "wordCount": 419,
           "title": "看了“我发现好多人过年不回家”的回复，单开一贴聊聊原生家庭",
           "imageUrl": null
         },
@@ -470,7 +449,7 @@
           "description": "LIPOLIS: \n这合理吗 是不是太贵了 在北京",
           "link": "https://www.v2ex.com/t/1103260",
           "publishedOn": "2025-01-07T09:22:58.000Z",
-          "wordCount": 1031,
+          "wordCount": 1161,
           "title": "女朋友说以后怀孕了 要去 15w 一个月的月子中心",
           "imageUrl": null
         },
@@ -490,7 +469,7 @@
           "description": "wxmomomowx: b 站不少视频是”成品“的状态 （本人也还没有 B 站号）无法向阿婆主们 请教/交流",
           "link": "https://www.v2ex.com/t/1103258",
           "publishedOn": "2025-01-07T09:15:33.000Z",
-          "wordCount": 372,
+          "wordCount": 378,
           "title": "有 咖啡爱好者/硬核 diy 者动手做自己心目中的咖啡机吗？ 有“教程” 交流的地方吗？",
           "imageUrl": null
         },
@@ -540,7 +519,7 @@
           "description": "albert0yyyy:",
           "link": "https://www.v2ex.com/t/1103252",
           "publishedOn": "2025-01-07T09:01:42.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "rdp 状态栏 ui 改了",
           "imageUrl": null
         },
@@ -560,7 +539,7 @@
           "description": "iloveyou: 现在做政府项目招投标要写技术文档，很繁琐。目前我还是在 ai chat 的内容复制到 wps 里排版，kimi 和豆包都没法直接生成 word 文档。有没有直接能把内容、排版、目录弄好直接生成 word 的方案呢？",
           "link": "https://www.v2ex.com/t/1103249",
           "publishedOn": "2025-01-07T08:55:59.000Z",
-          "wordCount": 431,
+          "wordCount": 433,
           "title": "用 AI 写 word 文档的正确姿势是什么？",
           "imageUrl": null
         },
@@ -570,7 +549,7 @@
           "description": "jadelike: \n 如题，我现在在做一个项目，我是 Windows ，技术栈是 VITE+VUE3+TS ，上传也没用后端，直接生成 blob 格式链接，（只让上传 svg 格式图片）如：blob:http://localhost:5173/0c4ef255-bec5-4377-9596-45a5a4d5501e\n\n 我现在已经实现了转换 png 和 ico 格式图片，但转换 icns 一直没找到如何实现，找到一个 png2icons ，但一直有莫名其妙的报错，我试了好久也不行，特来求助了\n\n 简单附一下我转换的代码\n\nconsole.log(\"Processing images...:\", props.uploadedImage);\n    // blob:http://localhost:5173/0c4ef255-bec5-4377-9596-45a5a4d5501e\n    const image = await loadImage(props.uploadedImage);\n    const smallImage: any = await resizeImage(image, 32, 32, \"png\"); // 调整为输出 png 格式",
           "link": "https://www.v2ex.com/t/1103248",
           "publishedOn": "2025-01-07T08:53:53.000Z",
-          "wordCount": 430,
+          "wordCount": 442,
           "title": "vue3 纯前端如何生成 icns 格式图片？",
           "imageUrl": null
         },
@@ -600,7 +579,7 @@
           "description": "chunXD: \n湾区的消费税太高了，想买点东西先寄到免税州，然后再从免税州（比如 OR ）寄到加州。\n这种方式靠谱吗？有没有朋友尝试过的。\n有很多转运公司都是只支持寄往国内，并且寄送的物品还有诸多限制，有可以美国境内转寄的公司推荐吗？",
           "link": "https://www.v2ex.com/t/1103244",
           "publishedOn": "2025-01-07T08:45:27.000Z",
-          "wordCount": 362,
+          "wordCount": 373,
           "title": "有没有支持美国境内转寄的转运公司呢？",
           "imageUrl": null
         },
@@ -620,7 +599,7 @@
           "description": "gaocc: \n16 年大四实习，半年多，全栈 3.2k ，base 天津\n17 年毕业，1 年不到时间，全栈 6k ，base 天津\n18 年-21 年，全栈偏前端，初始 9k ，全额公积金和社保，base 杭州。期间公司经历了各种波折，薪资从 9k 到 10k ，10k 到 11k ，11k 到 14k ，涨过三次，但公积金从全额到 8k 基准，到 6k 基准，到 9k 基准也不停变。岗位从全栈到纯前端。\n21-至今，平薪到国企，4 年涨过 2 次，幅度也低。不过全额公积金和社保，14-15 薪。\n总结：\n整体比较踏实，运气不上不下，一步步涨的薪资，但也没把握住计划。20 年当时有去阿里的机会，没去，当时公司是初创，但领导是恒生大领导之一出来第三次创业，首次是恒生，第二次也搞到 B 轮融资，这次第三次感觉有戏可以喝汤。可惜了。\n22 年行情变化很快，阿里卡一本了，有个业务线技术面过了，到最后 hr ，内部发邮件卡学历直接拒绝了。\n23 年去吉利试过，海外事业部，描述的很好，说组员很多，找个前端组负责人。实际现场沟通前端只有 4 个人，其中 2 个外包，2 个正岗的是海龟，听着就难带，次年绩效目标还是海外销售额翻倍。这配置，这要求，加上民企失业风险，最后开价要高了，没被看上。\n24 年老婆怀孕，求稳定，大行情也不好，没有尝试沟通其它公司岗位。",
           "link": "https://www.v2ex.com/t/1103242",
           "publishedOn": "2025-01-07T08:40:11.000Z",
-          "wordCount": 419,
+          "wordCount": 426,
           "title": "看到挺多小伙伴在分析工作经历，也分享下我的",
           "imageUrl": null
         },
@@ -630,7 +609,7 @@
           "description": "apollo007: \n1 月 5 日段永平在浙江大学演讲，有提到一句话：想长远，不要让重要的事情变成紧急的事情。\n我就想到了健康，到时候年龄大了，身体不行了，再临时抱佛脚，那可来不及了，因此我的接这个机会下定决定开始锻炼身体（之前也只是想想）。众多健身方式，我通过对比分析，最终选择的是爬楼梯。\n我通过查 AI 发现爬楼梯的健身，如果慢慢的上楼爬楼梯，下楼坐电梯的话，对于膝盖的磨损是非常小的（相比跑步跳绳而言），消耗卡路里，前期属于有氧运动，慢慢的会涉及到无氧运动。而且不用担心刮风下雨，不用出远门，打开家门就能做，也能随时回家。去公司也可以直接顺带就做了。完美啊！这简直太适合我这种懒人了！\n希望自己能坚持下去！\n如果有这方面经验的兄弟们可以给我分享一点经验，避免走弯路。如果有兄弟们跟我一样想健身又比较懒，可以试试这个爬楼梯，祝大家活得健康活得久！",
           "link": "https://www.v2ex.com/t/1103241",
           "publishedOn": "2025-01-07T08:31:35.000Z",
-          "wordCount": 628,
+          "wordCount": 648,
           "title": "下定决心， 2025 年开始健身，方式为爬楼梯！",
           "imageUrl": null
         },
@@ -640,7 +619,7 @@
           "description": "mmrpeng: \n已知 2025 年开年中国境内商业贷款年化利率最低 3.1%，最高 50w\n贷款利息=10 万元×3.1%=10,0000×0.031=3100 元\n购汇美元\n美元定存一年按年化收益 4.7%计算\n利息收益 4702\n总收益=4702−3100=1602 元\n以上计算假设汇率不变按 7.31 计算\n实际今年汇率会缓慢波动到 7.37-7.6\n所有收益至少有 1.6k,这个羊毛可还行。",
           "link": "https://www.v2ex.com/t/1103240",
           "publishedOn": "2025-01-07T08:28:30.000Z",
-          "wordCount": 686,
+          "wordCount": 692,
           "title": "活见久，贷款年化利率 3.1%，不限制资金使用，可提前还款，这个羊毛基本没风险",
           "imageUrl": null
         },
@@ -650,7 +629,7 @@
           "description": "lbunderway: \n我是根据提交 tag 触发,要么全失败，要么成功一个，手动一个一个的点 又能成功",
           "link": "https://www.v2ex.com/t/1103238",
           "publishedOn": "2025-01-07T08:24:39.000Z",
-          "wordCount": 429,
+          "wordCount": 431,
           "title": "最近为什么 github 的 workflow 为嘛总是执行不成功呢",
           "imageUrl": null
         },
@@ -690,7 +669,7 @@
           "description": "qxmqh: 我很久不用 Xcode 了,今天因为一个小项目,重新启用，发现 Xcode 的代码提示，特别是 import 的时候压根就不提示自己写的类，我甚至完全拼写出来，都还在那报红，跟个憨批一样,我很难理解,我记得没出 Swift 之前，Xcode 的提示特别好用，又快又稳,在某个版本之后就变蠢了，\n这几年一直没怎么做 iOS ，现在发现 Xcode 还是一样的蠢，内存占用又大,提示又是一坨,在外面 IDE 都超神的情况下，真的是越来越拉了，臃肿，庞大，占用高，蠢的一批。\nps:12 年开始做 iOS 开发，真的经历了 Xcode 各个版本变迁，明显是越来越拉。负向优化。",
           "link": "https://www.v2ex.com/t/1103231",
           "publishedOn": "2025-01-07T08:02:46.000Z",
-          "wordCount": 747,
+          "wordCount": 774,
           "title": "2025 年了吐槽一下 Xcode 的优化真的是一坨！",
           "imageUrl": null
         },
