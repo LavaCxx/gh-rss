@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-07T22:38:40.785Z</id>
+    <id>urn:2025-01-07T23:14:33.643Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-07T22:38:40.785Z</updated>
+    <updated>2025-01-07T23:14:33.643Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[macOS 大家现在用啥浏览器呢？]]></title>
-        <id>https://www.v2ex.com/t/1103351</id>
-        <link href="https://www.v2ex.com/t/1103351"/>
-        <updated>2025-01-07T19:01:46.000Z</updated>
-        <summary type="html"><![CDATA[zsh2401: 
-以前在 mac 上一直用 edge 浏览器，而从 23 年到现在一直在用 arc 浏览器。
-现在 arc 浏览器各种破事儿，外加感觉 arc 浏览器的新鲜感也过了，很多特性没有提高效率，打算放下 arc 回到 edge 。
-想听听，各位 mac 用户，都在用啥浏览器呢？]]></summary>
+        <title type="html"><![CDATA[有没有使用了 GAN 技术的精巧迷你的 48V/52V POE 电源？]]></title>
+        <id>https://www.v2ex.com/t/1103354</id>
+        <link href="https://www.v2ex.com/t/1103354"/>
+        <updated>2025-01-07T21:56:08.000Z</updated>
+        <summary type="html"><![CDATA[MrLonely: 
+现在改用 RB5009UPr+了，很香，但想给弱电箱节省一点电源的空间。知道 GAN 成本高，但我就买一块，还能接受。可是找来找去基本上在售 GAN 电源最高也就是 20V 电压。]]></summary>
+        <author>
+            <name>MrLonely</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在做 ai 镜像站靠谱吗？]]></title>
+        <id>https://www.v2ex.com/t/1103353</id>
+        <link href="https://www.v2ex.com/t/1103353"/>
+        <updated>2025-01-07T21:49:16.000Z</updated>
+        <summary type="html"><![CDATA[zsh2401: 鼓捣了个 app ，支持 openai 家的模型，还有千问 deepseek 啥的，什么都有，打算小赚一笔，有啥风险吗？ 卖点就是比官网便宜，按量计费，不用科学上网，支持手机电脑。]]></summary>
         <author>
             <name>zsh2401</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 3.13 部分前端新功能与木兰对照]]></title>
+        <id>https://www.v2ex.com/t/1103352</id>
+        <link href="https://www.v2ex.com/t/1103352"/>
+        <updated>2025-01-07T19:40:24.000Z</updated>
+        <summary type="html"><![CDATA[xuanwu: 
+https://zhuanlan.zhihu.com/p/17009187303]]></summary>
+        <author>
+            <name>xuanwu</name>
         </author>
     </entry>
     <entry>
@@ -517,42 +536,6 @@ Starting December 10th 2024, only the latest stable branch of any container will
 由于难度不大，要求一天内完成。有时间的联系我 vx：bHgxMDc2OTg4OTQ0]]></summary>
         <author>
             <name>iliaoliao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于分库分表的一点疑惑]]></title>
-        <id>https://www.v2ex.com/t/1103304</id>
-        <link href="https://www.v2ex.com/t/1103304"/>
-        <updated>2025-01-07T12:55:06.000Z</updated>
-        <summary type="html"><![CDATA[irisdev: 平时做的项目都比较小，一般都是几台应用服务器+几台数据库服务器，虽然也有数据库拆分，但基本上都是把不同业务的表放在不同库中，比如一个 erp 系统，将财务相关的表放在某台服务器的某个库中，将仓库相关的表放在某台服务器的某个库中，没有拆分到更细的颗粒度，比如物料表，快上亿条数据了，也没有将这一张表拆分成不同表或者到不同库中。
-目前即使是这样也给写代码带来了一些麻烦，比如我负责生产模块，但是有时候要查一些物料数据，这时候就不可避免地要跨库查数据，这样我还可以理解。但是如果有一天物料表要拆分成两张表或者到两个库中，那我写 sql 时岂不是要一样的语句写两遍然后 union 一下了？联想到那些大厂，比如淘宝，所有用户的“足迹”，就是浏览记录，至少得有百亿条数据了吧？这种业务是怎么处理的呢...应用服务器我可以理解，可以 cdn ，可以负载均衡，反正运行的是一套代码。但是数据库我就理解不了了，就算是一个简单的查询，“根据用户得到下单记录”，那也得全表查询吧？难不成这张订单表是单表？不现实。如果这张订单表被拆过，那淘宝的程序员在写代码的时候要考虑各个子库各个子表的情况吗？那不得累死。还是说“数据库集群”（只听过没概念...）可以像服务器集群一样屏蔽连接，程序员写代码就好了？不过在我理解中，服务器集群部署的是代码，转发到哪一台都可以，数据库集群里面的数据都是不一样的，那如果要屏蔽细节提供跟单体数据库一样的服务，内部肯定也通过网络通信然后统一提供给用户，这样感觉会不会对效率也有影响？感觉这些大公司的应用速度还是很快的，尤其是拼多多，感觉查订单记录就跟查几万几十万的表一样。
-因为这块懂得太少，表达地比较乱，也没法专业地表达，见谅..但意思应该表达出来了，这个疑问困扰我很久了，有没有明白的说两句，感谢]]></summary>
-        <author>
-            <name>irisdev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cursor 写出来的项目有版权吗，版权归属使用 cursor 的人吗]]></title>
-        <id>https://www.v2ex.com/t/1103303</id>
-        <link href="https://www.v2ex.com/t/1103303"/>
-        <updated>2025-01-07T12:39:45.000Z</updated>
-        <summary type="html"><![CDATA[keven1024: 
-如题，今天在网上看到一个用 cursor 几小时写 app 的人痛斥其他人抄袭它的 app 。
-如果 cursor 创作的东西版权归属使用者，那么那些使用 flux1 ，sd 生成画作的人是否也拥有它创作的画的版权呢，并且拥有斥责其他人包括原画师侵犯它作品的权力呢。]]></summary>
-        <author>
-            <name>keven1024</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[pycharm 自动 import 好抽象]]></title>
-        <id>https://www.v2ex.com/t/1103302</id>
-        <link href="https://www.v2ex.com/t/1103302"/>
-        <updated>2025-01-07T12:38:30.000Z</updated>
-        <summary type="html"><![CDATA[vvve: 
-用 pycharm 写代码的时候，手滑把点写成了下划线，结果 pycharm 不仅没有提示，给我自动 import 了一个明显 ai 瞎编的抽象的包。
-最近好几次这种情况了，虽然能发现，但次数多了真的很恶心]]></summary>
-        <author>
-            <name>vvve</name>
         </author>
     </entry>
     <entry>
