@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -556,7 +550,7 @@
           "description": "levn: \n1 月 7 日，英伟达创始人黄仁勋在 2025 年 CES 展会上宣布推出 Project Digits 个人 AI 超级计算机，其售价定为 3000 美元（约合人民币：21999 元）起，预计将于今年 5 月正式上市。\nProject Digits 搭载了全新的 GB10 Grace Blackwell Superchip 处理器，可提供高达 1petaflop 高能效 AI 性能。这款处理器的设计紧凑，便于放置在办公桌上，且支持标准电源插座供电。此外，该机还配备了 128GB 的统一内存和最高 4TB 的 NVMe 存储。外观设计上，Project Digits 的体积与 Mac Mini 相当，拥有处理高达 2000 亿个参数 AI 模型的能力。\n对于需要处理更大规模 AI 模型的应用，用户可以将两个 Project Digits 设备联网，共同处理多达 4050 亿个参数的模型。Project Digits 不仅支持本地开发和测试 AI 模型，还能通过 Nvidia AI Enterprise 软件平台，将模型轻松部署到云服务或数据中心。\nGB10 Grace Blackwell 芯片是由英伟达与联发科联合设计，配备了英伟达最新一代 CUDA 核心和第五代 Tensor 核心，并通过 NVLink-C2C 芯片间互连到高能效的 NVIDIA Grace CPU 。该 Grace CPU 包括 20 个基于 Arm 架构建构的高能源效率核心。",
           "link": "https://www.v2ex.com/t/1103321",
           "publishedOn": "2025-01-07T13:36:36.000Z",
-          "wordCount": 465,
+          "wordCount": 472,
           "title": "英伟达个人 AI 超算 Project Digits 发布 起售价 3000 美元",
           "imageUrl": null
         },
@@ -616,7 +610,7 @@
           "description": "ghking6: 想要搭个像 V2EX 一样，简洁风的社区论坛。\n后端最好是基于 node 的，前端 vue 优先，其他语言的也欢迎推荐。",
           "link": "https://www.v2ex.com/t/1103310",
           "publishedOn": "2025-01-07T13:05:11.000Z",
-          "wordCount": 525,
+          "wordCount": 527,
           "title": "求推荐类似 V2EX 的开源论坛！",
           "imageUrl": null
         },
