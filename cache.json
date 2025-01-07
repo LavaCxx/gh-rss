@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -167,33 +173,6 @@
           "wordCount": 1055,
           "title": "第203期 - 银杏季节",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -350,7 +329,7 @@
           "description": "q1102389095: \n如图所示\n\n\n8w 的 AI 眼镜只能免费试用两年 AI 交互。这样发展未来算力真的可能成为通用货币了。",
           "link": "https://www.v2ex.com/t/1103067",
           "publishedOn": "2025-01-07T01:19:00.000Z",
-          "wordCount": 479,
+          "wordCount": 483,
           "title": "早上的淘宝推荐让我意识到我的贫困",
           "imageUrl": null
         },
@@ -430,7 +409,7 @@
           "description": "Livid:",
           "link": "https://www.v2ex.com/t/1103055",
           "publishedOn": "2025-01-07T00:22:42.000Z",
-          "wordCount": 441,
+          "wordCount": 442,
           "title": "有人试过同时安装 Xcode 15 和 16 么？会有什么坑么？",
           "imageUrl": null
         },
@@ -440,7 +419,7 @@
           "description": "larkifly: \n我的目的很单纯，就是去外企工作，怎奈英语太差，github 英语的 readme 也就能阅读个七七八八，写就更别提了。\n大家有什么推荐的学习路径或者培训课程推荐，目标是用一年完成学习，后续能有相应的环境或者社区或者群能保持英语的读写听说能力。",
           "link": "https://www.v2ex.com/t/1103054",
           "publishedOn": "2025-01-07T00:18:07.000Z",
-          "wordCount": 718,
+          "wordCount": 763,
           "title": "想学习英语，能够满足外企对英语的要求",
           "imageUrl": null
         },
@@ -450,7 +429,7 @@
           "description": "McCall2887: \n家中无 NAS ，用 MacBook 跑 alist 挂的云盘看电视。\n每天从抽屉拿出笔记本，打开电脑，运行 alist ， 打开电视运行 kido 。",
           "link": "https://www.v2ex.com/t/1103053",
           "publishedOn": "2025-01-07T00:14:41.000Z",
-          "wordCount": 575,
+          "wordCount": 585,
           "title": "闲置的 MacBook Pro 能拿来干嘛？",
           "imageUrl": null
         },
@@ -480,7 +459,7 @@
           "description": "shuiguomayi:",
           "link": "https://www.v2ex.com/t/1103050",
           "publishedOn": "2025-01-06T23:04:20.000Z",
-          "wordCount": 397,
+          "wordCount": 420,
           "title": "北京联通有没有老用户可以转的大流量套餐？",
           "imageUrl": null
         },
@@ -500,7 +479,7 @@
           "description": "Avn: \n相比老款的 U2723QE 和 U3223QE：\n刷新率：60Hz -> 120Hz\n对比度：2000:1 -> 3000:1\n亮度：400 Nits -> 600 Nits\n雷电 4: 无 -> 有\n价格：27 寸 $639.99 -> $699.99 ，32 寸 $919.99 -> $949.99\n2025 年 2 月 25 日开售",
           "link": "https://www.v2ex.com/t/1103048",
           "publishedOn": "2025-01-06T23:03:16.000Z",
-          "wordCount": 664,
+          "wordCount": 668,
           "title": "戴尔发布 2025 新款 UltraSharp 4K 显示器 U2725QE 和 U3225QE",
           "imageUrl": null
         },
@@ -510,7 +489,7 @@
           "description": "moyupai: \n四月份离职至今，一直没找工作，最近改好了简历，boss 上看看大片半年前活跃的招聘信息。\n23 年的时候公司招聘，我面别人时八股随便意思一下，然后根据简历问问技术点，差不多就给过了。\n那时候一个初级 java 岗位薪资也不高，甚至很低，hr 转发给我一堆简历，其中不乏 8 到 11 年工作经验的大专老哥（对不起那些老哥，我都给拒，初级岗位我想着留给刚毕业的娃），我也一样是个大专，甚至都不是计算机专业的，17 年那时候风口好，工作找起来贼简单，19 年的年底的时候技术类的招聘已经没有 17 年的盛况了。\n满打满算，17 年开始到现在，工作八年，干黄两家公司。基本没怎么跳巢，第二家公司时运气算好，加班没有猝死，老板初创，赚大钱了，带我喝了点汤，今年业务不行了，给了赔偿，满意走人。\n离职以后，其实内心里面不想再写代码（学历无法改变，技术深度也下不去了，看不懂，菜，尤其是算法），想找其他出路，这里不得不骂自己一下，懒的批爆，啥也没干成（不过我没拿钱投资，手上点点存款守住了）。\n到年底了，感觉很对不起老婆和孩子，开始重新收拾收拾，看看能不能捡个漏。\nv2ex 里面大神比比皆是，像我这般半路出家吃上互联网一口热饭没饿死的应该也有不少，生存空间越来越窄，别说再面个技术经理了，开发岗都摸不到面试。\n已经再看外包岗了，祝 V2EX 里还没找到工作的，25 年光速上岸。\n同样，如果你过的不顺心，看了我的经历希望你能觉得自己过的还不错。",
           "link": "https://www.v2ex.com/t/1103047",
           "publishedOn": "2025-01-06T22:12:09.000Z",
-          "wordCount": 774,
+          "wordCount": 820,
           "title": "从面别人，到找不到工作，年底了没脸回家了",
           "imageUrl": null
         },
@@ -520,7 +499,7 @@
           "description": "289396212: 把这些中间实体单独作为一个 aggregate 吗？",
           "link": "https://www.v2ex.com/t/1103045",
           "publishedOn": "2025-01-06T21:30:25.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "正在用 DDD 开发，请问在划分 aggregate 时候，遇到一些多对多的中间表该怎么处理？",
           "imageUrl": null
         },
@@ -550,7 +529,7 @@
           "description": "notot: \nUStars(Github Star Manger)\nUStars 可以方便查询和整理你的 Star 仓库, 而不必每次使用 Github Star 功能(太 TM 难用)\n预览\n使用\nfork 项目\n配置 Github Token\n部署项目到 vercel 或其他平台\n技术栈\n前端框架：Nuxt.js\n数据来源：GitHub API\n更新机制：每日自动同步 fetch-star-projects\n开发\n# 安装依赖\nbun i\n\n# 启动开发服务器\nbun run dev\n\n# 运行脚本 同步 Github Star 仓库\nbun run sync\n\n项目地址： https://github.com/xiaoxiunique/ustars",
           "link": "https://www.v2ex.com/t/1103041",
           "publishedOn": "2025-01-06T17:19:47.000Z",
-          "wordCount": 463,
+          "wordCount": 467,
           "title": "工具分享 ｜ UStars 快捷方便的管理您的 Github Star 项目",
           "imageUrl": null
         },
@@ -650,7 +629,7 @@
           "description": "finesixseven: https://github.com/infiolab/infio-copilot\n基本实现对 cursor 1:1 复刻\ndeepseek-v3 非常便宜, 适合笔记场景, 所有的 prompt 都对它进行了优化\n有任何问题都欢迎直接站内联系, 或者 email 我\n聊天与编辑流程\n在 Obsidian 中一键获取 AI 帮助并应用建议改进, 例如: 改写/润色/翻译 ...\n\n自动补全\n在输入时获取上下文感知的写作建议, \n使用 deepseek 的 FIM 功能,  对 代码块, 数学公式, mermaid 都有适配\n\n内联编辑\n在当前文件中直接编辑笔记, 类似于 cursor edit inline\n\n与知识库聊天 使用 pglite, 所有数据存储在本地\n利用 AI 的强大功能与整个 Obsidian 知识库互动，获取笔记中的见解和联系\n\n你也可以直接 粘贴 web url 和  图片, 进行对话",
           "link": "https://www.v2ex.com/t/1103030",
           "publishedOn": "2025-01-06T15:07:43.000Z",
-          "wordCount": 661,
+          "wordCount": 663,
           "title": "Infio-Copilot: 受 Cursor 启发的 Obsidian AI 助手，提供智能自动补全和与选定笔记的交互式聊天",
           "imageUrl": null
         },
@@ -670,7 +649,7 @@
           "description": "etata: php 后端，做独立开发者，怎么弄前端呢？？？写不了 css ，调不了 div 的那种。\n\n我现在做二开，但是有点前端问题就卡壳。。\n有类似的，交流一下怎么搞前端的经验？",
           "link": "https://www.v2ex.com/t/1103028",
           "publishedOn": "2025-01-06T14:51:17.000Z",
-          "wordCount": 813,
+          "wordCount": 843,
           "title": "PHP 后端，做独立开发者，怎么弄前端呢？写不了 css，调不了 div 的那种。",
           "imageUrl": null
         },
@@ -680,7 +659,7 @@
           "description": "iisboy: \n刚用了小米 13 pro ，各种问题啊，很多软件不是商店的，从浏览器根本安装不了",
           "link": "https://www.v2ex.com/t/1103027",
           "publishedOn": "2025-01-06T14:49:04.000Z",
-          "wordCount": 648,
+          "wordCount": 654,
           "title": "哪些手机能无限制安装海外 APP，比如： TG， whatsapp 等",
           "imageUrl": null
         },
@@ -710,7 +689,7 @@
           "description": "pirate0brook: \n题主目前 6 年 Android2 年 Flutter, 做过 ROM 开发，做过 SAAS 软件开发，目前在做海外产品，但对于“资深”二字理解一直不是很透彻，我能理解经验要够丰富是一个条件，但是在技术层面，完全掌握一个语言的“完全“是什么？对某一个平台或者特定技术领域很透彻，要到什么程度？以 Android 举例，做过很多类型的中大型项目，并精通 Android 运行机制，应用市场规则等，这种算是资深研发工程师了吗？",
           "link": "https://www.v2ex.com/t/1103023",
           "publishedOn": "2025-01-06T14:20:30.000Z",
-          "wordCount": 586,
+          "wordCount": 608,
           "title": "正常求职，什么样的技术水平，才能算得上是资深研发工程师？",
           "imageUrl": null
         },
