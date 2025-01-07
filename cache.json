@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -345,12 +351,42 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1103047",
+          "author": "moyupai",
+          "description": "moyupai: \n四月份离职至今，一直没找工作，最近改好了简历，boss 上看看大片半年前活跃的招聘信息。\n23 年的时候公司招聘，我面别人时八股随便意思一下，然后根据简历问问技术点，差不多就给过了。\n那时候一个初级 java 岗位薪资也不高，甚至很低，hr 转发给我一堆简历，其中不乏 8 到 11 年工作经验的大专老哥（对不起那些老哥，我都给拒，初级岗位我想着留给刚毕业的娃），我也一样是个大专，甚至都不是计算机专业的，17 年那时候风口好，工作找起来贼简单，19 年的年底的时候技术类的招聘已经没有 17 年的盛况了。\n满打满算，17 年开始到现在，工作八年，干黄两家公司。基本没怎么跳巢，第二家公司时运气算好，加班没有猝死，老板初创，赚大钱了，带我喝了点汤，今年业务不行了，给了赔偿，满意走人。\n离职以后，其实内心里面不想再写代码（学历无法改变，技术深度也下不去了，看不懂，菜，尤其是算法），想找其他出路，这里不得不骂自己一下，懒的批爆，啥也没干成（不过我没拿钱投资，手上点点存款守住了）。\n到年底了，感觉很对不起老婆和孩子，开始重新收拾收拾，看看能不能捡个漏。\nv2ex 里面大神比比皆是，像我这般半路出家吃上互联网一口热饭没饿死的应该也有不少，生存空间越来越窄，别说再面个技术经理了，开发岗都摸不到面试。\n已经再看外包岗了，祝 V2EX 里还没找到工作的，25 年光速上岸。\n同样，如果你过的不顺心，看了我的经历希望你能觉得自己过的还不错。",
+          "link": "https://www.v2ex.com/t/1103047",
+          "publishedOn": "2025-01-06T22:12:09.000Z",
+          "wordCount": 493,
+          "title": "从面别人，到找不到工作，年底了没脸回家了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103045",
+          "author": "289396212",
+          "description": "289396212: 把这些中间实体单独作为一个 aggregate 吗？",
+          "link": "https://www.v2ex.com/t/1103045",
+          "publishedOn": "2025-01-06T21:30:25.000Z",
+          "wordCount": 414,
+          "title": "正在用 DDD 开发，请问在划分 aggregate 时候，遇到一些多对多的中间表该怎么处理？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103044",
+          "author": "hu2327401139",
+          "description": "hu2327401139: 群晖 + docker + emby\n什么都正常，就是削刮不行，点识别找不到，刷新原数据就没反应了。\n基本搜遍了，从下午 4 点搞到现在，头疼的厉害，google 能看到的都试过多了。\n太恶心了🤮，xdm 有没有遇到过这种情况",
+          "link": "https://www.v2ex.com/t/1103044",
+          "publishedOn": "2025-01-06T19:51:23.000Z",
+          "wordCount": 423,
+          "title": "xdm， emby 削刮没反应怎么办？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1103043",
           "author": "leostone",
           "description": "leostone: 刚才逛酷安发现有人提及，如果不着急的情况下，可以拖一下到 3 ，4 月之后治疗。 据说会有非常大的价格差距，评论区好像说是什么集采，不是很看得懂。不知道信息是否属实。有大佬科普一下吗？",
           "link": "https://www.v2ex.com/t/1103043",
           "publishedOn": "2025-01-06T19:05:23.000Z",
-          "wordCount": 387,
+          "wordCount": 415,
           "title": "关于最近治牙是否合适",
           "imageUrl": null
         },
@@ -380,7 +416,7 @@
           "description": "Gorvery: \n前段时间，我的 Android 手机坏了，找了个 iPhone 过渡一段时间。因为我的个人号和工作号是分开的，所以对微信双开是强需求。我没有企业证书，altserver 这种局域网自签的方式也让我比较焦虑（担心出去玩，超过 7 天没开电脑），所以我直接从淘宝上买了个包，想着过渡几个月凑活用，也比较省心。安装完后用了几天，微信号没被封，而且这个包通过常驻后台的方式实现了新消息实时接收，虽然耗电比较大，但也还能接受。\n周日那天出门，我觉得手机比较重，就把手机壳摘掉了。结果在一天的使用过程中，我发觉得手机永远是温热的，于是产生了警觉。咨询了淘宝客服，客服说因为后台常驻，10 秒刷新一次比较频繁，功耗比较高。于是在客服的指导下，我将刷新时间修改成了 30 秒。\n今天上班我依旧不带壳，发现手机还是一直温热的。突然联想到之前在站内看到过一个帖子的回复里说，这种购买的微信包，有可能会被利用来挖矿的，于是我就用 Charles 抓包看了下有没有可疑流量，结果还真发现了几个无域名的可疑 http 流量请求，看接口名，有判断 wifi 环境的，有 putImage 上传图片的等等。\n其中 putImage 的请求，在 app 退到后台后，每隔 5 、6 秒，就会发送一个 PUT 请求，每次 PUT 一个大概几百 KB 的数据文件，文件似乎被加密了，每个请求都不一样，而且只在连接 wifi 后 PUT 数据，实在是可疑。因为本人也在做 iOS 开发，根据自己有限的知识，觉得 iOS 后台保活应该不需要这么频繁的请求任务来保活，而且如果只是单纯保活，也没必要搞个这么大的数据请求。所以我总觉得这个请求怪怪的，心里越想越发毛，赶紧退了微信，更换了密码。\n后来我拿着抓包信息，找淘宝商家质问这个请求是做什么的，上传了什么数据。结果淘宝商家拒绝回答，反而嘲讽我，说有本事让我自己开发一个，还说“没有十全十美的东西”、“如果感觉别人的不好用就自己去开发一个，如果开发不出来就老老实实接受别人的”。气得我本来想在评论里追评下，提醒下购买的人注意风险，但又想到可能在使用他们这个微信的过程中，一些敏感信息已经被收集了，断人财路会遭到报复，所以最后还是怂了，只申请了退款，没有去给他们打差评。",
           "link": "https://www.v2ex.com/t/1103038",
           "publishedOn": "2025-01-06T16:42:39.000Z",
-          "wordCount": 472,
+          "wordCount": 504,
           "title": "分享一个关于购买的双开微信包有异常风险行为的事情",
           "imageUrl": null
         },
@@ -390,7 +426,7 @@
           "description": "kangyue9999: 说点自己的感悟吧，这篇文章算是半醉半醒之间的胡说八道啊，欢迎大家来分享和来喷\n第一，人类以为自己越来越进步，实际上是越来越退步：\n我们之前老讲“站在巨人的肩膀上”，于是人类文明越来越进步但是却很少有人真正思考和重走巨人的足迹，大家都在背，在记忆，拿古人的思维当真理。然后觉得只要背的更多，自己就越聪明。殊不知，这些机械的利益和虚伪的满足感导致的结果是停滞，是倒退。因为人类把自己限制在这个牢笼里，不肯也不敢去发现。\n第二，匮乏才是原动力：\n接续第一点，依稀记得自己小时候其实并没有现在孩子那么丰富的物质和精神资源，但是小时候正因为没有那么多资源而珍惜任何可以看书的机会，而书中的内容并不是像现在的图书内容以绝对的内容或者图像刺激轰炸，而是给你一些未来可能性引导你去想象。然后后来小学接触计算机也是因为当时机缘巧合在 word97 里面发现了 vba 编辑器，然后开始对于可以创造一个没有功能但是能按来按去的图形界面开始“意淫”，然后再到后来阴差阳错发现自动完成开始试探每一个对象的属性等等，小时候也看不懂英文，就先靠改对象属性看效果的方式一点点摸索。再到后来大了一点开始玩 QQ 空间，然后没有钱买黄钻，于是开始接触 HTML 等等\n这一切的一切都是因为好奇在探索，而根本也是因为资源匮乏，才会有动力去发掘。\n第三,人类这一辈子的意义实际上是“顾左右而言他”,但是很多人却变成了书呆子：\n从小就不是一个学习的好料，所有的公式都喜欢去推而不是记住，因为反而觉得背是记不住的，但是也因此做的很慢，而且因为不刷题,都是想在尝试自己探索每一道题，于是考试并不好，大学复读了两年，上了一个二本\n但是我想说的是，这反而让我意识到，动脑，思考，去尝试比其他的更重要，而且最重要的是这似乎是一种禅宗，如同佛教一样，经文中写的事情或者大道理，你可以死记硬背，但是最终这都不是你的，而最终你需要的是亲身经历过，你才真正能理解其中的奥妙。\n上学也是这样，学的哪些知识都可以扔掉，但是如何解决问题，什么样的方法去思考，或者那怕怎么能平衡你的精力和你的优势，如何在学校里面处事等等等等才是在社会真正能活下去的资本，书本和知识只是形式，或者说只是修行，但是至于你在修行文字还是什么这都是要斟酌和思考的。",
           "link": "https://www.v2ex.com/t/1103037",
           "publishedOn": "2025-01-06T16:37:37.000Z",
-          "wordCount": 469,
+          "wordCount": 450,
           "title": "人类的所谓的进步，实际上是退步",
           "imageUrl": null
         },
@@ -420,7 +456,7 @@
           "description": "TigerS: \n主要还是回国，大家都知道比如看个优酷听个网易之类的，完全自用。\n准备考虑放在海外家里的路由器上，所以不想用那种集成好的 app 那种 穿梭和 malus 是否都不可行。\n在腾讯或阿里云上搭建一个是否可行？ 或者有什么更好的推荐的没？",
           "link": "https://www.v2ex.com/t/1103034",
           "publishedOn": "2025-01-06T16:09:08.000Z",
-          "wordCount": 377,
+          "wordCount": 435,
           "title": "海外回国用腾讯或者阿里云回国是否可行？",
           "imageUrl": null
         },
@@ -460,7 +496,7 @@
           "description": "finesixseven: https://github.com/infiolab/infio-copilot\n基本实现对 cursor 1:1 复刻\ndeepseek-v3 非常便宜, 适合笔记场景, 所有的 prompt 都对它进行了优化\n有任何问题都欢迎直接站内联系, 或者 email 我\n聊天与编辑流程\n在 Obsidian 中一键获取 AI 帮助并应用建议改进, 例如: 改写/润色/翻译 ...\n\n自动补全\n在输入时获取上下文感知的写作建议, \n使用 deepseek 的 FIM 功能,  对 代码块, 数学公式, mermaid 都有适配\n\n内联编辑\n在当前文件中直接编辑笔记, 类似于 cursor edit inline\n\n与知识库聊天 使用 pglite, 所有数据存储在本地\n利用 AI 的强大功能与整个 Obsidian 知识库互动，获取笔记中的见解和联系\n\n你也可以直接 粘贴 web url 和  图片, 进行对话",
           "link": "https://www.v2ex.com/t/1103030",
           "publishedOn": "2025-01-06T15:07:43.000Z",
-          "wordCount": 458,
+          "wordCount": 516,
           "title": "Infio-Copilot: 受 Cursor 启发的 Obsidian AI 助手，提供智能自动补全和与选定笔记的交互式聊天",
           "imageUrl": null
         },
@@ -480,7 +516,7 @@
           "description": "etata: php 后端，做独立开发者，怎么弄前端呢？？？写不了 css ，调不了 div 的那种。\n\n我现在做二开，但是有点前端问题就卡壳。。\n有类似的，交流一下怎么搞前端的经验？",
           "link": "https://www.v2ex.com/t/1103028",
           "publishedOn": "2025-01-06T14:51:17.000Z",
-          "wordCount": 487,
+          "wordCount": 580,
           "title": "PHP 后端，做独立开发者，怎么弄前端呢？写不了 css，调不了 div 的那种。",
           "imageUrl": null
         },
@@ -490,7 +526,7 @@
           "description": "iisboy: \n刚用了小米 13 pro ，各种问题啊，很多软件不是商店的，从浏览器根本安装不了",
           "link": "https://www.v2ex.com/t/1103027",
           "publishedOn": "2025-01-06T14:49:04.000Z",
-          "wordCount": 460,
+          "wordCount": 496,
           "title": "哪些手机能无限制安装海外 APP，比如： TG， whatsapp 等",
           "imageUrl": null
         },
@@ -500,7 +536,7 @@
           "description": "hahaha121: \nfailed get objs:failed to list objs:RequestError:send request failed caused by:Get \"https://xxx.COM/bucket\n001?delimiter=%2F&marker=&prefix=\":tls:failed to verify certificate:x509:certificate is not valid for any names,b\nut wanted to match xxx.COM\n怎么改都错； 参照官网 minio ，强制样式路径也没用",
           "link": "https://www.v2ex.com/t/1103026",
           "publishedOn": "2025-01-06T14:39:08.000Z",
-          "wordCount": 400,
+          "wordCount": 408,
           "title": "alist 对象存储私有域名自签证书一直报错？求解",
           "imageUrl": null
         },
@@ -510,7 +546,7 @@
           "description": "wanghaiping009: 配合青浦某大型企业，即日办理起原 49 套餐，新开或携转直接送 1000 兆。 \n名额不多，用完结束。\n原异网未到期用户可以先新开或者拿副卡携转。\n未拿过实物或者签过靓号协议，基本上 TS 一番协议均可解除。\nKaddy921 绿色 Kaddy921",
           "link": "https://www.v2ex.com/t/1103024",
           "publishedOn": "2025-01-06T14:34:52.000Z",
-          "wordCount": 373,
+          "wordCount": 375,
           "title": "上海联通千兆宽带阶段性活动",
           "imageUrl": null
         },
@@ -520,7 +556,7 @@
           "description": "pirate0brook: \n题主目前 6 年 Android2 年 Flutter, 做过 ROM 开发，做过 SAAS 软件开发，目前在做海外产品，但对于“资深”二字理解一直不是很透彻，我能理解经验要够丰富是一个条件，但是在技术层面，完全掌握一个语言的“完全“是什么？对某一个平台或者特定技术领域很透彻，要到什么程度？以 Android 举例，做过很多类型的中大型项目，并精通 Android 运行机制，应用市场规则等，这种算是资深研发工程师了吗？",
           "link": "https://www.v2ex.com/t/1103023",
           "publishedOn": "2025-01-06T14:20:30.000Z",
-          "wordCount": 439,
+          "wordCount": 464,
           "title": "正常求职，什么样的技术水平，才能算得上是资深研发工程师？",
           "imageUrl": null
         },
@@ -540,7 +576,7 @@
           "description": "blogcool: \n我们是一家总部位于伦敦的游戏制作团队，核心团队拥有超过 10 年的游戏开发和发行经验，与全球知名游戏运营商合作。公司目前正在开发一款二次元卡牌手游，当前团队人数在 20 人左右，详细咨询与进展可以进一步私聊。\n由于不同地区存在时差，所以办公时间较为灵活，主要会议时间会以英区时间为主。\n以下是目前开放的两类程序岗 JD 。\nunity 主程（二次元方向）:\n岗位职责\n1.负责 Unity 游戏客户端架构设计与核心功能开发；\n2.负责程序框架及技术方案的设计和具体实现，以及项目整体代码优化；\n3.负责与策划、美术及后端进行有效的沟通和协调，推进项目。\n任职要求\n1.计算机专业全日制本科及以上学历；\n2.5 年以上 Unity 开发经验，1 年以上二次元游戏主程经验；必须有二次元游戏开发经验。\n3.对 Unity 引擎及其相关领域有深入的研究和理解；\n4.具备良好的沟通和协调能力；\n5.热爱游戏，有丰富的各类游戏经验，喜欢钻研各类游戏的技术细节和游戏机制\nunity 开发工程师：\n岗位职责：\n1.根据产品提供的需求，快速高质量的开发游戏核心玩法。\n2.组织管理客户端资源，保证代码质量。\n3.解决游戏线下和线上的问题。\n4.对游戏客户端性能提出优化建议，并实践。\n5.开发提高开发和团队协作的生产工具。\n6.开发中遇到的疑难问题的攻坚解决。\n任职需求：\n1.5 年以上 Unity 引擎使用经验。至少完整参与过 2 款移动游戏的开发。熟练掌握 Unity 引擎在移动端的开发。\n2.熟悉 Lua 、C#的语法和特性。\n3.良好的算法和数据结构基础。\n4.良好的逻辑思维和编程习惯，具备独立解决技术问题的能力\n5.能熟练阅读英文技术文档，有很好的学习能力\n6.良好的团队协作能力。\n7.熟悉计算机图形学和渲染相关的优化。\n8.熟悉计算机网络协议。\n以上。\n各位感兴趣的大佬可以留言私信，或直接发送简历至 luo.cwgz@gmail.com\n感谢。",
           "link": "https://www.v2ex.com/t/1103021",
           "publishedOn": "2025-01-06T14:12:27.000Z",
-          "wordCount": 432,
+          "wordCount": 441,
           "title": "[招聘][远程]英国伦敦公司新开 unity 二次元手游项目",
           "imageUrl": null
         },
@@ -580,7 +616,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1103016",
           "publishedOn": "2025-01-06T13:25:09.000Z",
-          "wordCount": 612,
+          "wordCount": 655,
           "title": "初代 iPhone 发布时 499 元，也是一群人喊贵。但现在 499 元只能买到低配版 Pixel 8a。十几年后，会不会 Vision Pro 的 3499 元也成为中低端头显的售价？智能手...",
           "imageUrl": null
         },
@@ -650,7 +686,7 @@
           "description": "1145148964: 以下内容均基于我的感受和观察。毫无疑问，几乎全是偏见。抛砖引玉。\n地理位置是南方二线中端婚介。公司架构为交 4 万人民币成为加盟店，交 4000 成为加盟店合伙人。\n中段婚介：收入依旧是最优先考虑项。\n一个月薪 5 万的 35 岁架构师被大范围追求。相当多的媒人都在下手，相当多的女生也在下手。--》即时没有看到照片\n相当多的地方把人的简历摆出来招揽客人。\n大量家人影响的不婚不育族。\n男生，父亲是军人。特点如下：强势，要求美女，比自己儿子小，要求本地人，介意彩礼，拒绝支付婚介费用。母亲直言都怪他爹才没结婚的。他爹补充要求，需要倒追他儿子。35 岁\n女生。女生母亲要求如下。开公司/工厂。帅气。高。女生条件一般。疑似要求为：追他闺女。32 岁\n勇气非常重要。尤其是女生。\n女生倒追非常多，成功率较高。\n优质资源正在被围猎。\n大量人成为合伙人，是为了及时获得更新数据和参加公司组织的培训--》这个培训中年轻人几乎都是单身。\n围猎力度远超想象。堪比闲鱼扫货机器人。--》这解释了为什么相亲市场没有优质人士。\n婚恋中依旧存在大量伪装造假。\n轻微的：收入造假，工作伪装。\n中度的：隐瞒疾病尤其是精神疾病。\n重度：诈骗犯/杀人犯。\n大量中年人当媒人是为了给自己的下一代找个好的。年轻人是给自己找。\n\n有其他问题可以联系楼主。",
           "link": "https://www.v2ex.com/t/1103009",
           "publishedOn": "2025-01-06T12:58:23.000Z",
-          "wordCount": 423,
+          "wordCount": 405,
           "title": "当了两天的婚恋中介的感受。",
           "imageUrl": null
         },
@@ -660,7 +696,7 @@
           "description": "IMZQZ: \n我想到的方法，各位看看对不对：\n1.先根据 json 内容进行建表\n2.将 json 导入数据库\n3.写后端代码\n4.写接口\n那么问题来了，我不会写代码，怎么办？\n有没有什么学习路径或者有 AI 工具帮助做这个项目？",
           "link": "https://www.v2ex.com/t/1103007",
           "publishedOn": "2025-01-06T12:38:55.000Z",
-          "wordCount": 551,
+          "wordCount": 569,
           "title": "如何将一堆 json 文件变成 API 用于接口访问？",
           "imageUrl": null
         },
@@ -680,7 +716,7 @@
           "description": "TNOK: 半个月内收到了三条违停短信了，有点莫名其妙。\n分别是 12 月 25 日（中午 12 点半），1 月 4 日（前天下午），1 月 6 日（今天的刚刚一小时前）。\n1 、首先 12 月 25 日的，周末开的(22 日)，回来后停在停车位里再没有开过，25 日中午接到违停短信，下楼拍照录像，完全在车位里，并且没有禁停时间段，作为新手还是有些慌就换了个车位，给交警打电话，我是省内外地车牌，直接问是否针对外地车牌？对方说违章还没出来回答不了。后无事发生，没有给违章。\n2 、4 日开车出行，回来后正在找停车位，还在车里，就给我发了短信，找到停车位后停进去没有开过，刚才又收到短信，下楼拍照录像，没有挪车，给交警打电话不在工作时间。4 日和 6 日的短信地址写的相同，但是这两个时间我车子距离起码有 100 多米了，短信写的还是某街西侧同样的距离。\n补充一下其他信息，车位在两个小区之间的路上，来这里基本都是为了停车的，停车位画在非机动车道上，由于车位十分紧张，很多车停在人行道上面，车位的话是纵向的，会有多挤进去几台车的情况，比如 10 个车位挤一挤停进去 11 台或者 12 台那样。我 25 日是完全独占一个车位，4 日停的车位后轮已经在下一个车位里了，不清楚这样算做什么。平日路过的时候经常有停到车位外第二排的，还有停到转向区域中间的，没有见过有被贴条的。\n去某书搜了一下有同样遭遇的人，电话打到 12345 了回复也是没有办法。\n经常这样一来短信就让我神经紧绷一下，因为现在不在工作时间，在 12123 上写了工单等回复吧。",
           "link": "https://www.v2ex.com/t/1103005",
           "publishedOn": "2025-01-06T12:24:32.000Z",
-          "wordCount": 426,
+          "wordCount": 435,
           "title": "为何无故发违停短信？违停短信是摄像头拍到的还是交警操作后发的？",
           "imageUrl": null
         },
@@ -690,7 +726,7 @@
           "description": "Whiplash55: \n前天朋友圈刷到之前加的一个房产中介广告，前些年看过的小区公寓都降价接近 30-40%。\n当年还想着强撑上车，稍微计算一下 30%首付+公积金 2.35% 30 年利息，少说要亏一百万出去，三年亏一百万这不比炒币猛多了。。。这还是二线城市的市中心房子，开盘接近两万的现在成交价要到 1 万 3 ，据说都卖不出去要到一万才能出手。",
           "link": "https://www.v2ex.com/t/1103004",
           "publishedOn": "2025-01-06T12:15:01.000Z",
-          "wordCount": 396,
+          "wordCount": 397,
           "title": "看新房子要不要装修的帖子有感",
           "imageUrl": null
         },
@@ -700,7 +736,7 @@
           "description": "ZJamss: 冬天室外跑步有点冷加之略微社恐，平时跑步一般跑 5km ，4.5-5.5 分配浮动，有什么跑步机推荐吗？不需要什么功能，要求：\n- 同价位声音尽量小\n- 能达到我的配速\n- 最好有坡度/爬坡，没有也行\n- 总宽度不超过 0.75m\n预算：1000-1500 ，如果预算不够功能可以向下兼容，不打算花太多钱",
           "link": "https://www.v2ex.com/t/1103003",
           "publishedOn": "2025-01-06T12:13:28.000Z",
-          "wordCount": 389,
+          "wordCount": 405,
           "title": "跑步机求推荐",
           "imageUrl": null
         },
@@ -710,7 +746,7 @@
           "description": "PC9528: \n感觉日常挺多需要的工具，但是突然又想不起来。\n现在基于 transformers.js 实现了一些简易的工具，看看大伙有没有更好的想法让我实现一下，只为增进一下自己的技术~ 后面完成度高以后会开源.\n目前 demo: https://kitt.tools",
           "link": "https://www.v2ex.com/t/1103002",
           "publishedOn": "2025-01-06T12:07:18.000Z",
-          "wordCount": 381,
+          "wordCount": 392,
           "title": "工具网站意见收集箱",
           "imageUrl": null
         },
@@ -730,7 +766,7 @@
           "description": "YaakovZiv: \n直属领导在一周前，骑摩托平地摔，原因是自己走神，左手直接上绷带了。\n部门大领导周六在路边走着，俩骑电驴的撞一起，一个电驴飞的比较远，撞伤了领导的骨头。\n我在周日骑摩托直行，被一个右转的小车撞飞，左胳膊疼的难以行动，屁股左边磨破了。\n仿佛一月开始，公司里有点水逆。",
           "link": "https://www.v2ex.com/t/1103000",
           "publishedOn": "2025-01-06T11:46:45.000Z",
-          "wordCount": 396,
+          "wordCount": 419,
           "title": "公司好像集体水逆了",
           "imageUrl": null
         },
@@ -752,46 +788,6 @@
           "publishedOn": "2025-01-06T11:17:20.000Z",
           "wordCount": 400,
           "title": "Flashduty 前端实习生（可远程）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102997",
-          "author": "burtnonald2",
-          "description": "burtnonald2: \n官方的方案，应该是比较安全，自行斟酌\n体验 + 预览\n\n方案\n腾讯元宝 + 微信个人订阅号\n不需认证，不需服务器\n登录腾讯元宝\n点击应用--点击创建智能体 （进入腾讯元器）\n点击插件--点击创建插件\n授权方式选择 server -- 选 header\n第一个参数 填 Authorization ，第二个参数填 Bearer 你的 key\n点击下一步，把下面的内容替换原来的描述，注意修改自己的 url---点击解析\n[details=\"代码\"]\nopenapi: \"3.0.0\"\ninfo:\ntitle: \"测试 API\"\nversion: \"1.0.0\"\ndescription: \"请在此填入插件描述\"\nservers:\nurl: \"https://api.openai.com/v1\"      # 修改 url\ndescription: \"请在此填入插件描述\"\npaths:\n\"/chat/completions\":\npost:\nsummary: \"聊天对话\"\ndescription: \"请在此填入插件下面的 API 描述\"\noperationId: \"chatwithu\"\nrequestBody:\nrequired: true\ncontent:\napplication/json:\nschema:\ntype: object\nproperties:\nmodel:\ntype: string\nmessages:\ntype: array\nitems:\ntype: object\nproperties:\nrole:\ntype: string\ncontent:\ntype: string\nresponses:\n\"200\":\ndescription: \"成功的响应\"\ncontent:\napplication/json:\nschema:\n            type: \"object\"\n            properties:\n              choices:\n                type: \"array\"\n                description: \"返回状态\"\n                items:\n                    type: \"object\"\n                    properties:\n                        message:\n                            type: \"object\"\n                            properties:\n                                content:\n                                    type: \"string\"\n\n        \n\"400\":\n  description: \"错误的请求\"\n\"401\":\n  description: \"未授权\"\n\"500\":\n  description: \"服务器内部错误\"\n\n[/details]\n点击下一步，点击发布--回到主界面--静待发布成功\n点击创建智能体--点击使用工作流创建\n点击添加工作流--点击创建工作流\n点击添加 代码 节点,--输入参数--input ，引用--userinput\n复制下面内容，替换原来内容\n[details=\"总结\"]\nasync def main(args):\nret = {\n\"messages\": [{\"role\":\"user\",\"content\":args['input']}]\n}\nprint('result is: ', ret)\nreturn ret\n[/details]\n点击测试，随便输入一个内容，测试成功，点击更新\n点击添加 插件节点，选择自己刚刚创建的插件\nmessages 参数选择上一个节点的 messages\nmodel 自行输入\n插入 代码节点，参数名 reply 引用 choice ，输入以下内容\n[details=\"总结\"]\nasync def main(args):\nret = {\n\"content\": args[\"reply\"][0][\"message\"][\"content\"],\n}\nprint(\"result is: \", ret)\nreturn ret\n[/details]\n点击测试+ 更新\n连接结束节点，\n参数名 ai 引用 content\n输出模型，{{ai}}\n点击发布，发布\n选择渠道，公众号-qq 都行\n码字不易，转载请注明 oneperfect\n求点赞\n足够详细的教程了\n不定时答疑",
-          "link": "https://www.v2ex.com/t/1102997",
-          "publishedOn": "2025-01-06T11:14:32.000Z",
-          "wordCount": 571,
-          "title": "[教程] 1 分钟微信公众号接入自己的 gpt--官方提供的方案--安全随便造",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102996",
-          "author": "bigfa",
-          "description": "bigfa: \n又来啦。\n首页\n\n文章页\n\n分类页\n\n响应式\n支持暗黑模式\nlighthouse 跑分\npc\n\nmobile\n\n相关链接\nhugo 版本 github\nhugo 版本 demo\nwordpress 版本 github\nwordpress 版本 demo",
-          "link": "https://www.v2ex.com/t/1102996",
-          "publishedOn": "2025-01-06T11:12:37.000Z",
-          "wordCount": 407,
-          "title": "分享一款自己写的 Wordpress / Hugo 主题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102995",
-          "author": "spike0100",
-          "description": "spike0100: \nrt 。这是有问题还是本来就这样啊？\n大概在左右居中，从下往上高度 1/5 的位置。",
-          "link": "https://www.v2ex.com/t/1102995",
-          "publishedOn": "2025-01-06T11:02:48.000Z",
-          "wordCount": 383,
-          "title": "mbp 的触控板在双指按压的时候如果其中一个手指位于触控板中下位置则无法触发右键菜单",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1102994",
-          "author": "pizone",
-          "description": "pizone: \n本人产品狗一枚，趁着都在讨论 cursor ，也做个浏览器扩展来玩玩，顺便分享下 cursor 使用心得。本人不能说对技术完全没了解，毕竟经常跟开发大佬打交道略有耳闻一些术语，本次使用了 cursor 来生成了一 rss 订阅浏览器扩展 rssflow ，代码纯 cursor 生成、除了一些配置信息手动修改外,经过两次重构和性能优化，历时一个月 rssflow最终完成了 Edge 和 Chrome 扩展的上架。https://rssflow.oinchain.com/\n开发初衷\n项目启动其实挺随意。偶然在抖音上刷到用 Cursor 几分钟撸了个浏览器扩展的视频，而我本身是 RSS 订阅的拥趸，但不太喜欢安装对于的订阅 App 或桌面软件，我需要一个随手就用，用完就走的订阅工具。再加上 Google Gemini 有免费的 API ，国内的 Deepseek 和 Siliconflow 性价比也很高，所以就打算手搓一个具备 RSS 订阅和 AI 摘要功能的扩展的想法了：\n一款 RSS 浏览器扩展，不需要账号登录、即装即用，把未读文章的消除以一种解压的方式来呈现, 具备 RSS 的阅读器的基本功能，同时具备 AI 摘要功能。\n开发过程-万事开头难\n把这个粗略的想法，问 chatgpt ，让他分析这个目标在浏览器扩展上技术可行性，让它结合最佳实践给出具体的技术方案，拷贝到 txt 文本上，然后所有的项目都基于这个 txt 文本开始。 让 cursor 先理解这个技术方案，让 cursor 把最简要的文件结构搭建起来，可以使用 composer 模式让他自动创建文件。 要求 cursor 以最简单能跑通流程方式来逐步迭代实现，比如：首先要求其验证 rss-parser.js 解析 rss 在扩展上的技术方案是否可行，要求跑通 RSS 订阅和显示订阅内容为目标，开始…",
-          "link": "https://www.v2ex.com/t/1102994",
-          "publishedOn": "2025-01-06T10:59:27.000Z",
-          "wordCount": 813,
-          "title": "都在吐槽 cursor，用 cursor 来撸个浏览器扩展来验证下",
           "imageUrl": null
         }
       ]
