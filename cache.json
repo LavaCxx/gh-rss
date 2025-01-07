@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -350,7 +356,7 @@
           "description": "q1102389095: \n如图所示\n\n\n8w 的 AI 眼镜只能免费试用两年 AI 交互。这样发展未来算力真的可能成为通用货币了。",
           "link": "https://www.v2ex.com/t/1103067",
           "publishedOn": "2025-01-07T01:19:00.000Z",
-          "wordCount": 483,
+          "wordCount": 494,
           "title": "早上的淘宝推荐让我意识到我的贫困",
           "imageUrl": null
         },
@@ -400,7 +406,7 @@
           "description": "wwvvovvww: 我记得好像从 14.x 版本开始就无法搜索到系统的文件了。\n我把“系统文件”和“文件可见性”都打开了，就是无法搜索到。\n比如：\n在 '/Library/Application Support/' 下有文件夹 'ProApps' 但是就是搜索不到",
           "link": "https://www.v2ex.com/t/1103060",
           "publishedOn": "2025-01-07T00:45:21.000Z",
-          "wordCount": 360,
+          "wordCount": 362,
           "title": "为什么从 macOS14.x 我就无法搜索到系统文件了",
           "imageUrl": null
         },
@@ -430,7 +436,7 @@
           "description": "Livid:",
           "link": "https://www.v2ex.com/t/1103055",
           "publishedOn": "2025-01-07T00:22:42.000Z",
-          "wordCount": 453,
+          "wordCount": 460,
           "title": "有人试过同时安装 Xcode 15 和 16 么？会有什么坑么？",
           "imageUrl": null
         },
@@ -440,7 +446,7 @@
           "description": "larkifly: \n我的目的很单纯，就是去外企工作，怎奈英语太差，github 英语的 readme 也就能阅读个七七八八，写就更别提了。\n大家有什么推荐的学习路径或者培训课程推荐，目标是用一年完成学习，后续能有相应的环境或者社区或者群能保持英语的读写听说能力。",
           "link": "https://www.v2ex.com/t/1103054",
           "publishedOn": "2025-01-07T00:18:07.000Z",
-          "wordCount": 819,
+          "wordCount": 849,
           "title": "想学习英语，能够满足外企对英语的要求",
           "imageUrl": null
         },
@@ -510,7 +516,7 @@
           "description": "moyupai: \n四月份离职至今，一直没找工作，最近改好了简历，boss 上看看大片半年前活跃的招聘信息。\n23 年的时候公司招聘，我面别人时八股随便意思一下，然后根据简历问问技术点，差不多就给过了。\n那时候一个初级 java 岗位薪资也不高，甚至很低，hr 转发给我一堆简历，其中不乏 8 到 11 年工作经验的大专老哥（对不起那些老哥，我都给拒，初级岗位我想着留给刚毕业的娃），我也一样是个大专，甚至都不是计算机专业的，17 年那时候风口好，工作找起来贼简单，19 年的年底的时候技术类的招聘已经没有 17 年的盛况了。\n满打满算，17 年开始到现在，工作八年，干黄两家公司。基本没怎么跳巢，第二家公司时运气算好，加班没有猝死，老板初创，赚大钱了，带我喝了点汤，今年业务不行了，给了赔偿，满意走人。\n离职以后，其实内心里面不想再写代码（学历无法改变，技术深度也下不去了，看不懂，菜，尤其是算法），想找其他出路，这里不得不骂自己一下，懒的批爆，啥也没干成（不过我没拿钱投资，手上点点存款守住了）。\n到年底了，感觉很对不起老婆和孩子，开始重新收拾收拾，看看能不能捡个漏。\nv2ex 里面大神比比皆是，像我这般半路出家吃上互联网一口热饭没饿死的应该也有不少，生存空间越来越窄，别说再面个技术经理了，开发岗都摸不到面试。\n已经再看外包岗了，祝 V2EX 里还没找到工作的，25 年光速上岸。\n同样，如果你过的不顺心，看了我的经历希望你能觉得自己过的还不错。",
           "link": "https://www.v2ex.com/t/1103047",
           "publishedOn": "2025-01-06T22:12:09.000Z",
-          "wordCount": 856,
+          "wordCount": 859,
           "title": "从面别人，到找不到工作，年底了没脸回家了",
           "imageUrl": null
         },
@@ -520,7 +526,7 @@
           "description": "289396212: 把这些中间实体单独作为一个 aggregate 吗？",
           "link": "https://www.v2ex.com/t/1103045",
           "publishedOn": "2025-01-06T21:30:25.000Z",
-          "wordCount": 472,
+          "wordCount": 484,
           "title": "正在用 DDD 开发，请问在划分 aggregate 时候，遇到一些多对多的中间表该怎么处理？",
           "imageUrl": null
         },
@@ -550,7 +556,7 @@
           "description": "notot: \nUStars(Github Star Manger)\nUStars 可以方便查询和整理你的 Star 仓库, 而不必每次使用 Github Star 功能(太 TM 难用)\n预览\n使用\nfork 项目\n配置 Github Token\n部署项目到 vercel 或其他平台\n技术栈\n前端框架：Nuxt.js\n数据来源：GitHub API\n更新机制：每日自动同步 fetch-star-projects\n开发\n# 安装依赖\nbun i\n\n# 启动开发服务器\nbun run dev\n\n# 运行脚本 同步 Github Star 仓库\nbun run sync\n\n项目地址： https://github.com/xiaoxiunique/ustars",
           "link": "https://www.v2ex.com/t/1103041",
           "publishedOn": "2025-01-06T17:19:47.000Z",
-          "wordCount": 467,
+          "wordCount": 482,
           "title": "工具分享 ｜ UStars 快捷方便的管理您的 Github Star 项目",
           "imageUrl": null
         },
@@ -570,7 +576,7 @@
           "description": "Gorvery: \n前段时间，我的 Android 手机坏了，找了个 iPhone 过渡一段时间。因为我的个人号和工作号是分开的，所以对微信双开是强需求。我没有企业证书，altserver 这种局域网自签的方式也让我比较焦虑（担心出去玩，超过 7 天没开电脑），所以我直接从淘宝上买了个包，想着过渡几个月凑活用，也比较省心。安装完后用了几天，微信号没被封，而且这个包通过常驻后台的方式实现了新消息实时接收，虽然耗电比较大，但也还能接受。\n周日那天出门，我觉得手机比较重，就把手机壳摘掉了。结果在一天的使用过程中，我发觉得手机永远是温热的，于是产生了警觉。咨询了淘宝客服，客服说因为后台常驻，10 秒刷新一次比较频繁，功耗比较高。于是在客服的指导下，我将刷新时间修改成了 30 秒。\n今天上班我依旧不带壳，发现手机还是一直温热的。突然联想到之前在站内看到过一个帖子的回复里说，这种购买的微信包，有可能会被利用来挖矿的，于是我就用 Charles 抓包看了下有没有可疑流量，结果还真发现了几个无域名的可疑 http 流量请求，看接口名，有判断 wifi 环境的，有 putImage 上传图片的等等。\n其中 putImage 的请求，在 app 退到后台后，每隔 5 、6 秒，就会发送一个 PUT 请求，每次 PUT 一个大概几百 KB 的数据文件，文件似乎被加密了，每个请求都不一样，而且只在连接 wifi 后 PUT 数据，实在是可疑。因为本人也在做 iOS 开发，根据自己有限的知识，觉得 iOS 后台保活应该不需要这么频繁的请求任务来保活，而且如果只是单纯保活，也没必要搞个这么大的数据请求。所以我总觉得这个请求怪怪的，心里越想越发毛，赶紧退了微信，更换了密码。\n后来我拿着抓包信息，找淘宝商家质问这个请求是做什么的，上传了什么数据。结果淘宝商家拒绝回答，反而嘲讽我，说有本事让我自己开发一个，还说“没有十全十美的东西”、“如果感觉别人的不好用就自己去开发一个，如果开发不出来就老老实实接受别人的”。气得我本来想在评论里追评下，提醒下购买的人注意风险，但又想到可能在使用他们这个微信的过程中，一些敏感信息已经被收集了，断人财路会遭到报复，所以最后还是怂了，只申请了退款，没有去给他们打差评。",
           "link": "https://www.v2ex.com/t/1103038",
           "publishedOn": "2025-01-06T16:42:39.000Z",
-          "wordCount": 593,
+          "wordCount": 596,
           "title": "分享一个关于购买的双开微信包有异常风险行为的事情",
           "imageUrl": null
         },
@@ -650,7 +656,7 @@
           "description": "finesixseven: https://github.com/infiolab/infio-copilot\n基本实现对 cursor 1:1 复刻\ndeepseek-v3 非常便宜, 适合笔记场景, 所有的 prompt 都对它进行了优化\n有任何问题都欢迎直接站内联系, 或者 email 我\n聊天与编辑流程\n在 Obsidian 中一键获取 AI 帮助并应用建议改进, 例如: 改写/润色/翻译 ...\n\n自动补全\n在输入时获取上下文感知的写作建议, \n使用 deepseek 的 FIM 功能,  对 代码块, 数学公式, mermaid 都有适配\n\n内联编辑\n在当前文件中直接编辑笔记, 类似于 cursor edit inline\n\n与知识库聊天 使用 pglite, 所有数据存储在本地\n利用 AI 的强大功能与整个 Obsidian 知识库互动，获取笔记中的见解和联系\n\n你也可以直接 粘贴 web url 和  图片, 进行对话",
           "link": "https://www.v2ex.com/t/1103030",
           "publishedOn": "2025-01-06T15:07:43.000Z",
-          "wordCount": 663,
+          "wordCount": 668,
           "title": "Infio-Copilot: 受 Cursor 启发的 Obsidian AI 助手，提供智能自动补全和与选定笔记的交互式聊天",
           "imageUrl": null
         },
@@ -670,7 +676,7 @@
           "description": "etata: php 后端，做独立开发者，怎么弄前端呢？？？写不了 css ，调不了 div 的那种。\n\n我现在做二开，但是有点前端问题就卡壳。。\n有类似的，交流一下怎么搞前端的经验？",
           "link": "https://www.v2ex.com/t/1103028",
           "publishedOn": "2025-01-06T14:51:17.000Z",
-          "wordCount": 867,
+          "wordCount": 869,
           "title": "PHP 后端，做独立开发者，怎么弄前端呢？写不了 css，调不了 div 的那种。",
           "imageUrl": null
         },
@@ -750,7 +756,7 @@
           "description": "yyrj: \nWX：U2FmZVNoYXJr\nSetapp 是一个创新的订阅服务，专为 macOS 用户设计，旨在提供一站式解决方案，以访问广泛的高质量应用程序。通过简单的订阅，可以解锁超过 250 个 Mac 端精选应用，覆盖了从生产力提升到创意设计的各种需求。其中一些特色应用包括：\nCleanMyMac X：一款强大的系统清理工具，帮助您保持 Mac 的最佳性能。\nCraft：一款多功能的文档和笔记管理应用，提供灵活的组织、美观的界面设计，以及卓越的协作功能，旨在提升个人和团队的生产力。\nBartender：一个精巧的工具，用于组织和定制您的菜单栏，使其更整洁、更高效。\nDownie：一款直观的视频下载工具，支持从多个网站下载视频，以其易用性和广泛的兼容性而受到用户的欢迎。\nSpark 专业版：一款智能电子邮件客户端，以其直观的界面、智能邮箱组织和强大的搜索功能，提高了邮件管理的效率和便利性。\nUlysses：一款专为作家设计的写作和文档管理应用，提供集成的写作环境。\nGemini：一款智能的重复文件查找器，帮助您释放存储空间。\nMindNode: 优雅好看的思维导图工具\nAnytrans for iOS / Android: iOS 和安卓手机的备份工具，每次系统升级用来备份非常好用。\nMoneyWiz: 非常有名好用的记账工具\nMovist Pro: 看电影的不二之选，尤其是支持原生的 HDR 显示切换。\nProxyman: 开发人员网络调试必备\nSnippetsLab: 老牌代码片段搜集整理工具，对写代码非常好用，最新版还支持了 Apple AI 写作工具\n详细介绍请看官网： https://setapp.com",
           "link": "https://www.v2ex.com/t/1103019",
           "publishedOn": "2025-01-06T13:43:26.000Z",
-          "wordCount": 389,
+          "wordCount": 397,
           "title": "Setapp 家庭版 2018 年的老车，组团订阅 2025 年度开始啦",
           "imageUrl": null
         },
