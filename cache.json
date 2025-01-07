@@ -167,33 +167,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -341,33 +314,13 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1103354",
-          "author": "MrLonely",
-          "description": "MrLonely: \n现在改用 RB5009UPr+了，很香，但想给弱电箱节省一点电源的空间。知道 GAN 成本高，但我就买一块，还能接受。可是找来找去基本上在售 GAN 电源最高也就是 20V 电压。",
-          "link": "https://www.v2ex.com/t/1103354",
-          "publishedOn": "2025-01-07T21:56:08.000Z",
-          "wordCount": 386,
-          "title": "有没有使用了 GAN 技术的精巧迷你的 48V/52V POE 电源？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103353",
+          "id": "https://www.v2ex.com/t/1103351",
           "author": "zsh2401",
-          "description": "zsh2401: 鼓捣了个 app ，支持 openai 家的模型，还有千问 deepseek 啥的，什么都有，打算小赚一笔，有啥风险吗？ 卖点就是比官网便宜，按量计费，不用科学上网，支持手机电脑。",
-          "link": "https://www.v2ex.com/t/1103353",
-          "publishedOn": "2025-01-07T21:49:16.000Z",
-          "wordCount": 378,
-          "title": "现在做 ai 镜像站靠谱吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103352",
-          "author": "xuanwu",
-          "description": "xuanwu: \nhttps://zhuanlan.zhihu.com/p/17009187303",
-          "link": "https://www.v2ex.com/t/1103352",
-          "publishedOn": "2025-01-07T19:40:24.000Z",
-          "wordCount": 338,
-          "title": "Python 3.13 部分前端新功能与木兰对照",
+          "description": "zsh2401: \n以前在 mac 上一直用 edge 浏览器，而从 23 年到现在一直在用 arc 浏览器。\n现在 arc 浏览器各种破事儿，外加感觉 arc 浏览器的新鲜感也过了，很多特性没有提高效率，打算放下 arc 回到 edge 。\n想听听，各位 mac 用户，都在用啥浏览器呢？",
+          "link": "https://www.v2ex.com/t/1103351",
+          "publishedOn": "2025-01-07T19:01:46.000Z",
+          "wordCount": 115,
+          "title": "macOS 大家现在用啥浏览器呢？",
           "imageUrl": null
         },
         {
@@ -376,7 +329,7 @@
           "description": "semistack: \n事故车辆是特斯拉 Model Y ，两个电池模组受损，第二年投保，车损险保额为 27W 。特斯拉维修官方报价总共 13W+。听负责维修的人说，保险公司大概率采用全损的赔偿方式。\n问题是：\n1 。如果走全损赔付，赔付金额到底如何定？网上搜了很多，答案不一。 有的说是按照保额赔付，有的是给出了一些计算公式，计算结果少于 27W 。\n2 。如果保险公司给出的全损赔付我这边不满意，能否要求保险公司走正常维修流程？\n3 。如果 2 不可以，又不满意最终全损赔付金额，后期该如何进一步处理？\n4 。全损赔付以后，剩余时间的保险费用是否给退回？",
           "link": "https://www.v2ex.com/t/1103350",
           "publishedOn": "2025-01-07T18:29:22.000Z",
-          "wordCount": 389,
+          "wordCount": 408,
           "title": "请教一个车辆全损赔付问题",
           "imageUrl": null
         },
@@ -456,7 +409,7 @@
           "description": "iisboy: \n有能搞定的不？付费求助。",
           "link": "https://www.v2ex.com/t/1103342",
           "publishedOn": "2025-01-07T15:15:09.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "小米 13 pro 如何 root？",
           "imageUrl": null
         },
@@ -476,7 +429,7 @@
           "description": "zhangyongji: \n1 ）目前土区的账号充值一般都在 https://www.oyunfor.com/网上购买\n2 ）还有一个网站 https://www.seagm.com/ ，看着也挺划算\n3 ）淘宝上没有买过，怕遇到不靠谱的商家\n大家有推荐的除了上述渠道，还有其他优惠的购买方法吗",
           "link": "https://www.v2ex.com/t/1103340",
           "publishedOn": "2025-01-07T15:03:35.000Z",
-          "wordCount": 391,
+          "wordCount": 400,
           "title": "土耳其礼品卡购买优惠渠道有哪些",
           "imageUrl": null
         },
@@ -738,6 +691,36 @@
           "publishedOn": "2025-01-07T12:57:25.000Z",
           "wordCount": 421,
           "title": "发个私活，加固 rust 语言打包的 exe 程序，预算 1k",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103304",
+          "author": "irisdev",
+          "description": "irisdev: 平时做的项目都比较小，一般都是几台应用服务器+几台数据库服务器，虽然也有数据库拆分，但基本上都是把不同业务的表放在不同库中，比如一个 erp 系统，将财务相关的表放在某台服务器的某个库中，将仓库相关的表放在某台服务器的某个库中，没有拆分到更细的颗粒度，比如物料表，快上亿条数据了，也没有将这一张表拆分成不同表或者到不同库中。\n目前即使是这样也给写代码带来了一些麻烦，比如我负责生产模块，但是有时候要查一些物料数据，这时候就不可避免地要跨库查数据，这样我还可以理解。但是如果有一天物料表要拆分成两张表或者到两个库中，那我写 sql 时岂不是要一样的语句写两遍然后 union 一下了？联想到那些大厂，比如淘宝，所有用户的“足迹”，就是浏览记录，至少得有百亿条数据了吧？这种业务是怎么处理的呢...应用服务器我可以理解，可以 cdn ，可以负载均衡，反正运行的是一套代码。但是数据库我就理解不了了，就算是一个简单的查询，“根据用户得到下单记录”，那也得全表查询吧？难不成这张订单表是单表？不现实。如果这张订单表被拆过，那淘宝的程序员在写代码的时候要考虑各个子库各个子表的情况吗？那不得累死。还是说“数据库集群”（只听过没概念...）可以像服务器集群一样屏蔽连接，程序员写代码就好了？不过在我理解中，服务器集群部署的是代码，转发到哪一台都可以，数据库集群里面的数据都是不一样的，那如果要屏蔽细节提供跟单体数据库一样的服务，内部肯定也通过网络通信然后统一提供给用户，这样感觉会不会对效率也有影响？感觉这些大公司的应用速度还是很快的，尤其是拼多多，感觉查订单记录就跟查几万几十万的表一样。\n因为这块懂得太少，表达地比较乱，也没法专业地表达，见谅..但意思应该表达出来了，这个疑问困扰我很久了，有没有明白的说两句，感谢",
+          "link": "https://www.v2ex.com/t/1103304",
+          "publishedOn": "2025-01-07T12:55:06.000Z",
+          "wordCount": 479,
+          "title": "关于分库分表的一点疑惑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103303",
+          "author": "keven1024",
+          "description": "keven1024: \n如题，今天在网上看到一个用 cursor 几小时写 app 的人痛斥其他人抄袭它的 app 。\n如果 cursor 创作的东西版权归属使用者，那么那些使用 flux1 ，sd 生成画作的人是否也拥有它创作的画的版权呢，并且拥有斥责其他人包括原画师侵犯它作品的权力呢。",
+          "link": "https://www.v2ex.com/t/1103303",
+          "publishedOn": "2025-01-07T12:39:45.000Z",
+          "wordCount": 441,
+          "title": "cursor 写出来的项目有版权吗，版权归属使用 cursor 的人吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103302",
+          "author": "vvve",
+          "description": "vvve: \n用 pycharm 写代码的时候，手滑把点写成了下划线，结果 pycharm 不仅没有提示，给我自动 import 了一个明显 ai 瞎编的抽象的包。\n最近好几次这种情况了，虽然能发现，但次数多了真的很恶心",
+          "link": "https://www.v2ex.com/t/1103302",
+          "publishedOn": "2025-01-07T12:38:30.000Z",
+          "wordCount": 423,
+          "title": "pycharm 自动 import 好抽象",
           "imageUrl": null
         }
       ]
