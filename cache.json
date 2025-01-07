@@ -177,33 +177,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -376,7 +349,7 @@
           "description": "0x663: 目前使用 R730XD 安装了 esxi8.0 虚拟了两台机器，但是由于功耗高噪音大想拆分成两个小的机器。\n这里还有一个坑就是我用 730mini 阵列卡组的 raid0 和 raid1 然后以 RDM 的形式直通给 TrueNAS 使用的，到时候新机器还得先插空盘然后再导入数据，不能直接通过导出池导入池这样去处理。\n## 虚拟机 TrueNAS\n### 提供服务\n- SMB\n- NFS\n- 定时文件同步\n## 虚拟机 Debian\n### 提供服务\n- immich-app\n- qbittorrent\n- hoppscotch\n- alist\n- adguardhome\n- ~~plex~~\n- ddns-go\n- couchdb\n- nginx-proxy-manager\n- memos\n- mcsmanager\n----",
           "link": "https://www.v2ex.com/t/1103219",
           "publishedOn": "2025-01-07T07:17:43.000Z",
-          "wordCount": 519,
+          "wordCount": 529,
           "title": "目前使用的是 R730XD 做 AIO，想拆分成小机器求指点",
           "imageUrl": null
         },
@@ -386,7 +359,7 @@
           "description": "easynote: 5090D:\nTensor Core (Al)\n2375 AI TOPS\n5090:\nTensor Cores (Al)\n3352 AI TOPS\n但是 CUDA 核心是一样多的都是 21760 。",
           "link": "https://www.v2ex.com/t/1103218",
           "publishedOn": "2025-01-07T07:16:38.000Z",
-          "wordCount": 429,
+          "wordCount": 431,
           "title": "5090D 的 AI 是物理阉割吗？",
           "imageUrl": null
         },
@@ -416,7 +389,7 @@
           "description": "silvon: \n我想我是有什么病的，暂且叫间歇性信息饥渴症吧。\n发作时会疯狂订阅 RSS 源、关注 Medium 博主、加入 Reddit 版块......\n后遗症是一段时间后就会积累很多待读文章或帖子，多到不敢打开这些网站。\n当鼓足勇气打开这些网站后，通常我会快速浏览，遇到感兴趣的内容再细读，但这存在两个问题：\n快速浏览可能会错过重要信息或文章；\n如果是英文文章，无法快速判断是否值得细读；\n为了解决这两个问题，我开发了 Summa 插件，旨在帮助用户(我自己)快速浏览大量文章。\n功能介绍\nSumma 是一款 Chrome 扩展，利用 AI 对网页内容进行总结。无论是博客文章还是论坛帖子，只需点击扩展图标，即可获得当前页面核心内容，包括摘要、主要内容和关键结论。\n总结微信公众号文章\n\n总结 Hacker News 长贴\n\n总结 Medium 博客文章\n\n使用说明\n适用于任意网站: 包括但不限于 Medium 、Reddit 、Hacker News 、知乎、CSDN......甚至 V2EX 。\nAPI Key 配置: 需要自行配置 API key 。我使用的是 openRouter 提供的 API ，该平台目前支持免费使用 gemini-2.0-flash 模型。\n模型建议: Gemini 模型非常适合内容总结，可能是因为上下文窗口更大，Gemini 模型相比 OpenAI 和 Claude 的模型，能够在总结中保留更多细节。\nPrompt 可自定义: 内置 prompt 适合总结技术类文章，也支持自定义，以适应不同类型文章。\n安装地址: https://chromewebstore.google.com/detail/summa/ifpcledicmpicocmaggfkegiighkdeog\n技术栈\n网页内容提取: 使用 mozilla/readability 库准确提取正文内容。\n格式转换: 使用 Turndown 将 HTML 内容转换为 Markdown 格式，方便 LLM 处理。\n摘要渲染: 使用 marked 和 github-markdown-css 渲染生成的摘要。\n前端开发: 使用 Shadow DOM 、TypeScript 和 CSS 实现总结面板，使用 React 和 Shadcn 实现配置页。\nLLM 接入: 通过 Vercel AI SDK 接入 OpenAI 、Anthropic 、openRouter 、LMStudio 、Ollama 等多个 LLM 服务商。\n开源地址： https://github.com/silvonli/Summa.git\n开发说明\n大部分代码由 cursor 生成，我的主要工作是做技术选型，感觉这可能是 AI 时代的开发新模式。\n由于没有设计师，界面效果全靠 cursor 发挥，因此 UI/UX 存在不一致和不完善的地方。",
           "link": "https://www.v2ex.com/t/1103215",
           "publishedOn": "2025-01-07T07:11:58.000Z",
-          "wordCount": 524,
+          "wordCount": 528,
           "title": "Summa 治好了我的信息饥渴症",
           "imageUrl": null
         },
@@ -436,7 +409,7 @@
           "description": "crc8: \nMicrosoft Windows [版本 10.0.22631.4602]\nC:\\Users\\pc>curl ipv4\nC:\\Users\\pc>tracert -d 112.94.10.80  \n通过最多 30 个跃点跟踪到 112.94.11.83 的路由  \n1     6 ms     7 ms     3 ms  192.168.8.1\n跟踪完成。\n访问潮汕本地政府官网，居然要 80ms 。见识了！\n104 ms    79 ms    80 ms  61.145.58.186",
           "link": "https://www.v2ex.com/t/1103212",
           "publishedOn": "2025-01-07T07:06:16.000Z",
-          "wordCount": 641,
+          "wordCount": 699,
           "title": "人在潮汕， IP 在广州。",
           "imageUrl": null
         },
@@ -446,7 +419,7 @@
           "description": "monkeylmj: \nhttps://gemini.google.com/ 大家遇到过吗？ vpn 代理是在美国的，貌似之前是没问题的",
           "link": "https://www.v2ex.com/t/1103211",
           "publishedOn": "2025-01-07T07:06:05.000Z",
-          "wordCount": 434,
+          "wordCount": 436,
           "title": "Gemini 目前不支持你所在的地区。敬请期待！",
           "imageUrl": null
         },
@@ -486,7 +459,7 @@
           "description": "pureGirl: 感觉现在公司里的产品很难评，啥都指望技术提。",
           "link": "https://www.v2ex.com/t/1103205",
           "publishedOn": "2025-01-07T06:46:08.000Z",
-          "wordCount": 610,
+          "wordCount": 625,
           "title": "你们有见过特别优秀的产品经理吗",
           "imageUrl": null
         },
@@ -516,7 +489,7 @@
           "description": "seekseat: \n如题。但为什么感觉后端项目几乎没有使用的？",
           "link": "https://www.v2ex.com/t/1103200",
           "publishedOn": "2025-01-07T06:27:48.000Z",
-          "wordCount": 439,
+          "wordCount": 440,
           "title": "Husky 并不是前端项目特有的工具，它可以在任何使用 Git 的项目中使用，包括后端项目和全栈项目。但为什么感觉后端项目几乎没有使用的？",
           "imageUrl": null
         },
@@ -526,7 +499,7 @@
           "description": "bigsam: \n家里有一台神船，大概是 18-19 年入手买的笔记本战神，显卡 2070 （应该是 m 吧有些忘了）一直用到现在，24 年 618 买了 4k 显示器+漫步者音响，外接用大屏幕打游戏看剧，和小屏幕对比完全不是一个等级\n看新闻刚好碰上老黄在搓 50 系显卡，想起神船用到现在，玩些大作特别是卧龙还有怪猎荒野试玩版已经开始很吃力了。每次打开游戏，神船的风扇声音总感觉下一秒就要起飞，不过注意力集中在游戏上，过程中虽然吵但是还能接受\n想了下接下来也有几款大作要发布，例如给她爱 6 、怪猎荒野，目前电脑的配置估计能流畅玩但是没法开高特效，那就浪费了外接显示器的好处（感觉开 1080p 玩游戏用大屏幕意义不大？）\n今天刚好看到猪王的评测，神船战神 T8 ，显卡都已经上到 4070 了 搭配国补估计 6k 以内就能拿下。自己工作几年了，看到之后也有点心动，打算换台好一点的电脑继续驰骋，想问问 v2 的老哥们：\n选择台式机还是游戏笔记本好呢？预算 8k 以内问题不大 OR 20 系列继续征战到老黄透露 60 系列再考虑换机\n如果选择台式机，不会组直接买现成机箱，水会很深吗？如果选择游戏笔记本，会有具体的型号推荐吗？\n最后，不用的二手笔记本有能出的地方吗？折现之后也能补贴一些\n在此先谢谢各位解答！",
           "link": "https://www.v2ex.com/t/1103197",
           "publishedOn": "2025-01-07T06:19:55.000Z",
-          "wordCount": 497,
+          "wordCount": 503,
           "title": "2025 年第一个烦恼，选择台式机还是游戏笔记本？",
           "imageUrl": null
         },
@@ -586,7 +559,7 @@
           "description": "libasten: 60 岁以上一人一万现金，当年他的小学老师一人 10 万现金。\n其他村民家里好像电驴电饭煲冰箱助听器手机啥的都有，看样子应该是村民自己“点菜”的吧，真不错。\n要我说，这比请明星代言划算多了，还得了个仗义疏财的好名声。\n是有点想拉回上次杨笠事件的名声的吧？",
           "link": "https://www.v2ex.com/t/1103191",
           "publishedOn": "2025-01-07T06:05:39.000Z",
-          "wordCount": 603,
+          "wordCount": 572,
           "title": "怎么评价大强子又给老乡发钱发年货了这波操作？",
           "imageUrl": null
         },
@@ -626,7 +599,7 @@
           "description": "sundawang: \n年前找了份工作，离家近，薪资中等水平，公司做机器人相关业务，公司有点小，算我就 20 多个人，我来了基本上是替代公司的 2 号员工（可以说除了创始人他是第一位员工），总体来说压力还算不小。\n不过目前看公司的节奏尚可，不打卡，晚上一般来说都会稍微晚点，周末正藏不加班，整体微卷吧，不过不是硬卷，也是真有事儿干。同事和直属领导都挺不错，虽然接触不多，但是挺和善也挺真诚的，工作 7 、8 年了，勾心斗角惯了，来这种做事儿的公司突然还不适应，不过这是好事儿。\n入职第二天就告诉我过年放假 16 天（小公司真特么好啊），这把我高兴坏了，工作这么多年没享受过这待遇。\n我这些年主要做 java ，这公司技术上涉及的东西比较多，.net 、前端、python 、java 、设备调试可能都得干，不过业务场景和技术都不复杂，我暂时觉得问题不大。先干着把，目前主要工作就是交接 2 号员工的工作，后续的事儿年后再说，随便写写，感谢各位看官阅读至此，提前祝各位新年快乐~",
           "link": "https://www.v2ex.com/t/1103184",
           "publishedOn": "2025-01-07T05:42:28.000Z",
-          "wordCount": 687,
+          "wordCount": 689,
           "title": "年前找了份工作",
           "imageUrl": null
         },
@@ -646,7 +619,7 @@
           "description": "xiangyuecn: \n每次通过 url 进入他们的文档，点左边的菜单都没有反应，印象中至少有 3 年了\n稳定复现，浏览器直接输入 url 访问： https://developers.weixin.qq.com/miniprogram/dev/api/\n点左侧的菜单，一个都进不去\n如何才能进去：点了左边一个菜单后，只要/api/后面有了别的路径，再刷新一下页面就全部正常了\n还以为是 chrome 上不行，特意用 firefox 试了一下，症状一毛一样 全军覆没👍\n每次打开他们的文档，至少要怀疑人生一次😂\n另外这个文档菜单，只有最外面一级折叠，大部分功能的二三级菜单全展开来，简直就是灾难\n感觉也不咋地",
           "link": "https://www.v2ex.com/t/1103182",
           "publishedOn": "2025-01-07T05:33:52.000Z",
-          "wordCount": 490,
+          "wordCount": 497,
           "title": "给大家讲个前端笑话，微信小程序家 api 文档页面的一个陈年 bug",
           "imageUrl": null
         },
@@ -656,7 +629,7 @@
           "description": "Bananana: 我是个果粉，因为已经深深融入了 Apple 的生态（ Apple TV 、智能家居、Mac 等），所以 iPhone 肯定不可能换成 Android 。但我又想体验一下安卓手机。\n不过仔细一想，随身带两台手机真的很麻烦。尤其是上下班开车还好，但日常走路的时候，难道要在左右裤兜里各放一台手机吗？\n各位双持老哥是怎么搞的？",
           "link": "https://www.v2ex.com/t/1103181",
           "publishedOn": "2025-01-07T05:32:46.000Z",
-          "wordCount": 799,
+          "wordCount": 802,
           "title": "各位双持的老哥是怎么携带两台手机的？",
           "imageUrl": null
         },
@@ -716,7 +689,7 @@
           "description": "omz: 当初没有 M 芯片时，觉得 Intel 的 Mac 表现也还不错，没想到 M 系列一出，Intel 瞬间沦为阶下囚。",
           "link": "https://www.v2ex.com/t/1103173",
           "publishedOn": "2025-01-07T05:03:43.000Z",
-          "wordCount": 1286,
+          "wordCount": 1297,
           "title": "苹果对自家 M 芯片到底施了什么魔法，为什么这么强？",
           "imageUrl": null
         }
