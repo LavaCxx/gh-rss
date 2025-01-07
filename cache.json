@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -335,12 +341,72 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1103351",
+          "author": "zsh2401",
+          "description": "zsh2401: \n以前在 mac 上一直用 edge 浏览器，而从 23 年到现在一直在用 arc 浏览器。\n现在 arc 浏览器各种破事儿，外加感觉 arc 浏览器的新鲜感也过了，很多特性没有提高效率，打算放下 arc 回到 edge 。\n想听听，各位 mac 用户，都在用啥浏览器呢？",
+          "link": "https://www.v2ex.com/t/1103351",
+          "publishedOn": "2025-01-07T19:01:46.000Z",
+          "wordCount": 394,
+          "title": "macOS 大家现在用啥浏览器呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103350",
+          "author": "semistack",
+          "description": "semistack: \n事故车辆是特斯拉 Model Y ，两个电池模组受损，第二年投保，车损险保额为 27W 。特斯拉维修官方报价总共 13W+。听负责维修的人说，保险公司大概率采用全损的赔偿方式。\n问题是：\n1 。如果走全损赔付，赔付金额到底如何定？网上搜了很多，答案不一。 有的说是按照保额赔付，有的是给出了一些计算公式，计算结果少于 27W 。\n2 。如果保险公司给出的全损赔付我这边不满意，能否要求保险公司走正常维修流程？\n3 。如果 2 不可以，又不满意最终全损赔付金额，后期该如何进一步处理？\n4 。全损赔付以后，剩余时间的保险费用是否给退回？",
+          "link": "https://www.v2ex.com/t/1103350",
+          "publishedOn": "2025-01-07T18:29:22.000Z",
+          "wordCount": 389,
+          "title": "请教一个车辆全损赔付问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103349",
+          "author": "350041264812",
+          "description": "350041264812: \n💡 没有苹果设备？别担心！\n通过流光卡片你也可以轻松制作精美的备忘录，迅速分享到小红书！\n点击进入体验： https://fireflycard.shushiai.com/?temp=tempMemo\n如果是长文，还能支持一键长文拆分功能（还是免费的功能，甚至没有水印）",
+          "link": "https://www.v2ex.com/t/1103349",
+          "publishedOn": "2025-01-07T17:29:53.000Z",
+          "wordCount": 349,
+          "title": "[免费无水印] 告别只能使用 ios 制作备忘录的限制，一张张截图发小红书的低效工作，用这个网站在手机、电脑上 10x 效率制作备忘录",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103348",
+          "author": "mama123",
+          "description": "mama123: 他家的 chatgpt 4.0-mini 模型的比市面上中转站的价格都低很多而且都支持高并发（无广）\nhttps://github.com/chatanywhere/GPT_API_free （这个项目）\n这是价格表，貌似比站内经常推的 gpt 中转站都要便宜且好用\nhttps://img2.imgtp.com/2024/01/23/KxxDvq70.png （价格）（ https://api.aiduckduck.top ）\nhttps://img2.imgtp.com/2024/01/23/rvIANRYO.png （无限制并发）（ https://api.aiduckduck.top ）\n原来的 caifree.com ，注册直接送 200 刀的额度，且没有充值入口，目前是纯公益，GitHub 账号注册 [这个公益不在了] \n无广的，只是单纯觉得好用\nhttps://www.v2ex.com/t/1010568 ，昨天分享了 3 个公益的大家也可以去看看，但是好像沉浸式翻译体验很差",
+          "link": "https://www.v2ex.com/t/1103348",
+          "publishedOn": "2025-01-07T17:00:51.000Z",
+          "wordCount": 361,
+          "title": "分享一个目前发现低价且支持高并发的 ChatGPT API 中转站（无广）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103347",
+          "author": "ilanting",
+          "description": "ilanting: \n请教一下各位老湿,macOS 平常用 IINA 播放器看视频,视频的学习点讲的比较密,有没有什么插件可以提取视频里的文字稿,我自己整理后反复学习理解呀?",
+          "link": "https://www.v2ex.com/t/1103347",
+          "publishedOn": "2025-01-07T16:51:26.000Z",
+          "wordCount": 386,
+          "title": "IINA 使用问题请教",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103346",
+          "author": "zjt666666zjt",
+          "description": "zjt666666zjt: \n大家好，最近在进行一号双拨配置后，发现下载和上传的速度数据与常规情况不一样。\n具体表现如下：\n下载速度 (Mbps)：96.22\n上传速度 (Mbps)：1685.23\n这些速度纯属逆天，上传速度远高于下载速度，且明显高于常规预期。有没有朋友遇到类似的情况？或者能帮忙解释一下可能的原因吗？",
+          "link": "https://www.v2ex.com/t/1103346",
+          "publishedOn": "2025-01-07T16:42:12.000Z",
+          "wordCount": 375,
+          "title": "请教关于一号多拨后的下载/上传速度异常",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1103345",
           "author": "huguadao",
           "description": "huguadao: \n在群晖 NAS 上通过 cloud sync 挂 webdav 速度杠杠的。infuse 挂 webdav 也是一个途径。阿里云盘的要开三方权益才有随机账号密码的官方 webdav …\n要是各种需要云的软件和网盘都支持 webdav 。就可以统一了，并且也不用一个网盘来个客户端啥的😁",
           "link": "https://www.v2ex.com/t/1103345",
           "publishedOn": "2025-01-07T16:05:18.000Z",
-          "wordCount": 414,
+          "wordCount": 418,
           "title": "支持 webdav 的网盘才是好网盘",
           "imageUrl": null
         },
@@ -442,16 +508,6 @@
           "publishedOn": "2025-01-07T14:45:11.000Z",
           "wordCount": 434,
           "title": "品速 R200 和中兴 MC888s 选哪个？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103332",
-          "author": "StevenSLXie",
-          "description": "StevenSLXie: https://onenorther.substack.com/p/everything-you-need-to-know-about\n中文版在英文版后面",
-          "link": "https://www.v2ex.com/t/1103332",
-          "publishedOn": "2025-01-07T14:44:32.000Z",
-          "wordCount": 115,
-          "title": "了解一下新加坡的退休金系统",
           "imageUrl": null
         },
         {
@@ -692,66 +748,6 @@
           "publishedOn": "2025-01-07T12:38:30.000Z",
           "wordCount": 423,
           "title": "pycharm 自动 import 好抽象",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103301",
-          "author": "kemistep",
-          "description": "kemistep: \n\n男性绝对不要做供养者，更不要当老实人。\n勇敢从拒绝不合理彩礼开始",
-          "link": "https://www.v2ex.com/t/1103301",
-          "publishedOn": "2025-01-07T12:33:22.000Z",
-          "wordCount": 403,
-          "title": "彩礼超 10 万就要反对",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103300",
-          "author": "digitalnomadcna",
-          "description": "digitalnomadcna: \n文章链接:\nhttps://mp.weixin.qq.com/s/6t0r4pPoooMtA44CUVT4-g\n文末送 nomadlist 创始人的书:[Maker] ~价值 30$\n大佬/彦祖们 轻喷,接受批评和建议",
-          "link": "https://www.v2ex.com/t/1103300",
-          "publishedOn": "2025-01-07T12:31:19.000Z",
-          "wordCount": 379,
-          "title": "副业的一些经验分享: youtube / 云手机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103299",
-          "author": "Sigrdirfa",
-          "description": "Sigrdirfa: 19 年 6 月～ 20 年 1 月，我第一份工作，在老家，并非实习，我也没明白当时不以实习的名义进去，也许因为疫情留学的事情黄了，为了证明自己，而且当时刚出社会想装逼，只能说自己火大尿黄脑子不太好使了；\n20 年 6 月～ 22 年 7 月，杭州外包，但是技术有提升，现在简历上唯一一个有点用的项目；\n22 年 11 月～ 23 年 6 月，纯属垃圾公司，骗了我们一帮子人打白工，工资都只发了一半；\n23 年 10 月～ 24 年 11 月，这次是我自己作的，或者说我不敢闭眼假装天没黑。\n只能说经历很花，我现在有些外包的公司都把第一段经历合到第二段里面，我看的上的公司都是真是经历，反倒是真诚没法打动人，我难道真的要所有简历都把第一段经历合到第二段里面“美化”一下？\n项目上面更是一坨，只有在杭州的时候那两个项目不错，但是第一个项目说到底是外包项目，我只能知道某些指标，没法量化到底有多少业务上的提升，只能写一两个点的提升；第二个项目是数据项目，我自己去客户那边部署运行，抽取和转化的数据量我都有，但是这段经历中公司和我的情况我有些不愿意主动提起。\n好消息是 211 本科科班，不过都三十了，还看这个的公司怕是也没了吧。\n更大的好消息是没有三件套，父母自己有退休金，不过最近今天看着他们那种不经意的老去，更让我恐惧了。\n\n\n然后吐槽下最后一段经历：\n老家的移动供应商/外包，某个项目对标浙江的同类产品，我都服了，你一个省的数据量不如杭州一个市你对个 JB 啊，然后和领导吹牛逼已经一年了项目还是拿不出手，我接到手的时候已经是四手了，最开始说是运维合同，进去维护维护改改 bug 就行，前两周熟悉项目交接改点小 bug 没发现问题，全部交接完了才发现这是个坑，然后就是说你们要帮着开发，反馈给自己公司的经理，说全部听甲方的，这就非常尴尬了，盘子太大架构又很屎，第一手开发是移动内部的人，只能说太牛逼我没见过这样写代码的，第二波是友商，看的出想往回拉拉，把一些基础的增删改查和定时任务做了，不知道为什么又回到移动自己的开发手里了，第三波人我没看明白是哪的人，git 上面的记录没啥特征但是都是 24 年 6 月一个月内提的，而且哥们在 readme 里面附了个内部网盘的链接然后留言说有问题可以问他，网盘我进去看了，第一个文件是这个项目他重构了哪些模块，哪些还能重构救一下，后面的文件夹里面的另一个 txt 里面写了他的微信，我加了问了下才知道原来这项目不只是个技术上的问题，是国企内部组织架构的问题，不是大家不想好好开发，里面门门道道还挺多，他已经跑路了，而且 25 年这系统要替代老系统，肯定会崩溃，就是为了整人，我旁敲侧击的问了我这边的 PM ，他说这事你找大区经理去，我去了之后经理竟然他妈的知道这个事！知道你不和我说！？经理说这个项目是替换以前我们公司给甲方开发的另一个系统巴拉巴拉，你有关系巴拉巴拉，大家都知道这事不好做巴拉巴拉，压力你来扛甲方大领导真的暴怒了对合作关系也不会有太大的影响巴拉巴拉，合着就我不知道啊？？？第二天就开始 BOSS 直聘开始上号了，可惜这次遇到的公司连着三个月没发工资还真的要下煤矿就是另一个故事了。",
-          "link": "https://www.v2ex.com/t/1103299",
-          "publishedOn": "2025-01-07T12:23:19.000Z",
-          "wordCount": 472,
-          "title": "请问下简历花了怎么办？或者说简历上没亮点怎么办？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103298",
-          "author": "AaIT",
-          "description": "AaIT: Starlink 动态星链 IP 正式上线\n测评： https://www.aait.io/1458.html\n零售： https://app.aait.io/cart?action=configureproduct&pid=32\n定制： https://app.aait.io/cart?action=configureproduct&pid=31\n零售每日 0 点自动更换 IP ，定制可随时自助换 IP ，定制可选美国安大略 or 日本东京\n限时活动：原价下单、博客论坛发布测评、提交工单领取无条件八折续费，截止 15 号",
-          "link": "https://www.v2ex.com/t/1103298",
-          "publishedOn": "2025-01-07T12:21:04.000Z",
-          "wordCount": 375,
-          "title": "AaIT 星链 Starlink 动态 IP 正式上线",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103297",
-          "author": "enderftt",
-          "description": "enderftt: \n现在还有优惠吗 有台机器（ 4 核 4G8M ） 3 月份就到期了 续费太贵了\n感觉只能新搞一台迁过去了",
-          "link": "https://www.v2ex.com/t/1103297",
-          "publishedOn": "2025-01-07T12:18:47.000Z",
-          "wordCount": 392,
-          "title": "腾讯云轻量云服务器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103296",
-          "author": "LASockpuppet",
-          "description": "LASockpuppet: \n项目里更新了一个依赖版本，这个依赖的新版本增加了其他依赖。然后在项目构建时，node 内存爆了。。。z 有什么方法能排查根因吗",
-          "link": "https://www.v2ex.com/t/1103296",
-          "publishedOn": "2025-01-07T12:16:10.000Z",
-          "wordCount": 411,
-          "title": "node 堆栈溢出怎么排查根因啊",
           "imageUrl": null
         }
       ]
