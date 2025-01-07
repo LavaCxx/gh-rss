@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -308,236 +314,6 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1103345",
-          "author": "huguadao",
-          "description": "huguadao: \n在群晖 NAS 上通过 cloud sync 挂 webdav 速度杠杠的。infuse 挂 webdav 也是一个途径。阿里云盘的要开三方权益才有随机账号密码的官方 webdav …\n要是各种需要云的软件和网盘都支持 webdav 。就可以统一了，并且也不用一个网盘来个客户端啥的😁",
-          "link": "https://www.v2ex.com/t/1103345",
-          "publishedOn": "2025-01-07T16:05:18.000Z",
-          "wordCount": 399,
-          "title": "支持 webdav 的网盘才是好网盘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103344",
-          "author": "zh0122",
-          "description": "zh0122: 在 vscode 的 GitHub copilot chat 界面, 输入 #web , 没有对应的标签, 之前有, 现在极少数时间能出来, 网络应该没有问题, 在 GitHub copilot 的设置界面检查\"Copilot access to Bing\"也是 enable 状态,  账户用个人免费版, 和 $19 的企业版, 都没有了, 请问大家遇到过类似的问题吗?",
-          "link": "https://www.v2ex.com/t/1103344",
-          "publishedOn": "2025-01-07T15:33:44.000Z",
-          "wordCount": 374,
-          "title": "请问 Github Copilot 的 web search 需要怎么打开?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103343",
-          "author": "dxf1219",
-          "description": "dxf1219: 有一个简单需求， 通过手机端工具 app 或者网页向 web 后台推送消息。 简单的做法可能是自己做个网页，部署在一台 vps 上，后台服务再从 web 服务器上获取消息。这个需要一台 vps 。网上有没有什么服务可以提供这种消息服务？看过 server 酱或者 msg push 都是推送到手机的，有没有反过来的服务？发送的消息也很简单，都是文字指令，而且不需要实时。只是通过手机发送消息去驱动后台的 agent 去完成某些动作。微信公众号是一个选择，但也需要 vps 对接。有没有不需要自己部署 vps ，直接用互联网服务的？可以接收付费。比 vps 便宜些就行！",
-          "link": "https://www.v2ex.com/t/1103343",
-          "publishedOn": "2025-01-07T15:16:01.000Z",
-          "wordCount": 445,
-          "title": "求推荐 手机向 web 端推送消息服务",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103342",
-          "author": "iisboy",
-          "description": "iisboy: \n有能搞定的不？付费求助。",
-          "link": "https://www.v2ex.com/t/1103342",
-          "publishedOn": "2025-01-07T15:15:09.000Z",
-          "wordCount": 372,
-          "title": "小米 13 pro 如何 root？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103341",
-          "author": "xi_lin",
-          "description": "xi_lin: \n详情请参考网站上说明，还有其他软件开发的实习和转正岗位，简历也可直投邮箱 wenjilv@tesla.com ，谢谢！",
-          "link": "https://www.v2ex.com/t/1103341",
-          "publishedOn": "2025-01-07T15:14:31.000Z",
-          "wordCount": 363,
-          "title": "[实习] [Tesla] [上海]信息娱乐系统前端软件开发实习生招聘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103340",
-          "author": "zhangyongji",
-          "description": "zhangyongji: \n1 ）目前土区的账号充值一般都在 https://www.oyunfor.com/网上购买\n2 ）还有一个网站 https://www.seagm.com/ ，看着也挺划算\n3 ）淘宝上没有买过，怕遇到不靠谱的商家\n大家有推荐的除了上述渠道，还有其他优惠的购买方法吗",
-          "link": "https://www.v2ex.com/t/1103340",
-          "publishedOn": "2025-01-07T15:03:35.000Z",
-          "wordCount": 387,
-          "title": "土耳其礼品卡购买优惠渠道有哪些",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103338",
-          "author": "lin0912happy",
-          "description": "lin0912happy: 很多时候特别是用户从列表点击进入某一项的详情，这时用户点击返回到列表时，依旧保持上一次的一些页面状态如当前页码，查询条件，列表数据等。\nVue 中有官方的 KeepAlive 组件，而 React 中我也尝试了几个第三方库如 react-activation ，效果不是很满意，特别是必须要降为 React17 版才能用。\n如果要在离开页面时将状态缓存到 Zustand ，返回时再从 Zustand 中取出回显，如果页面用到的状态很多的话也非常繁琐，想问一下哥哥们有没有什么好的解决方案或者推荐用法。\n谢谢哥哥们！",
-          "link": "https://www.v2ex.com/t/1103338",
-          "publishedOn": "2025-01-07T14:59:10.000Z",
-          "wordCount": 487,
-          "title": "React 不依赖第三方库怎么做到页面状态的缓存？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103337",
-          "author": "ljzxloaf",
-          "description": "ljzxloaf: 限企业项目，生产环境。\n用过的彦祖分享下使用方法、性能收益、踩过的坑啥的",
-          "link": "https://www.v2ex.com/t/1103337",
-          "publishedOn": "2025-01-07T14:57:58.000Z",
-          "wordCount": 442,
-          "title": "2025 年了，你们用上 Virtual Threads 了吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103335",
-          "author": "nocover",
-          "description": "nocover: 这个月都快 800 了，电脑前办公没法，1:1 能耗转换率，怕了。",
-          "link": "https://www.v2ex.com/t/1103335",
-          "publishedOn": "2025-01-07T14:50:40.000Z",
-          "wordCount": 400,
-          "title": "请问东部地区有什么省电取暖设备吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103334",
-          "author": "huangdog",
-          "description": "huangdog: \n不做 raid 的硬盘，使用过程一直保持正常开关机，从不突然断电，震动，高温，温度长期保持 50 度以下，硬盘真的会坏掉吗？\n用多久，硬盘才会出现问题？",
-          "link": "https://www.v2ex.com/t/1103334",
-          "publishedOn": "2025-01-07T14:47:51.000Z",
-          "wordCount": 609,
-          "title": "不做 raid 的硬盘，真的会坏掉吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103333",
-          "author": "alex321",
-          "description": "alex321: 背景：办了个广电卡，开始用华正易尚的 4G 随身 Wifi 挺好的，最快能测到 100M ，看着是用了 B3 。但两个月后就不行了，速度下来了，还经常断流。插手机看了下，是 B3 不稳了，在 B39 和 B41 各种跳。\n问题：看了品速 x55 的 R200 和 V510 的中兴 MC888s ，都支持移动 5G ，都差不多价格，打算入一个。想问问 v2er 们哪个更好些。\n彩蛋：小米 6 这类上古机型如何使用广电卡。联通插卡 1 ，3G 方式接入；广号插卡 2 ，4G 方式接入，在 APN 里选 LTE 保存，就可以了。",
-          "link": "https://www.v2ex.com/t/1103333",
-          "publishedOn": "2025-01-07T14:45:11.000Z",
-          "wordCount": 432,
-          "title": "品速 R200 和中兴 MC888s 选哪个？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103332",
-          "author": "StevenSLXie",
-          "description": "StevenSLXie: https://onenorther.substack.com/p/everything-you-need-to-know-about\n中文版在英文版后面",
-          "link": "https://www.v2ex.com/t/1103332",
-          "publishedOn": "2025-01-07T14:44:32.000Z",
-          "wordCount": 411,
-          "title": "了解一下新加坡的退休金系统",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103331",
-          "author": "conanqyc",
-          "description": "conanqyc: \nrt ，值得付费的",
-          "link": "https://www.v2ex.com/t/1103331",
-          "publishedOn": "2025-01-07T14:43:07.000Z",
-          "wordCount": 397,
-          "title": "非程序员，有什么 mac 上比较好用的付费软件吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103330",
-          "author": "xuchandle123",
-          "description": "xuchandle123: 之前结婚的时候没有购买三金，现在想从银行购买金条的，打造对戒，上海周边有没有啥推荐，有没有啥坑的",
-          "link": "https://www.v2ex.com/t/1103330",
-          "publishedOn": "2025-01-07T14:36:16.000Z",
-          "wordCount": 371,
-          "title": "对戒 购买银行金条 再找店打 是否合适",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103329",
-          "author": "victer",
-          "description": "victer: 超级稳，长期运营，明码标价、无猫腻。用过的老板都说好。\n我们支持全网主流 ai 模型，主流的基本都有吧，chatgpt 、claude 、gemini 、mj 、sd 、flux 、suno 、luma 、智普、百度等\n网站支持 5 种模式（每一种都是单独用户分组）：逆向、按次计费（混合）、Azure 、企业无审核 Azure 混 openai 官 key 、纯 Openai 官方。\n各位老板可根据自己的业务需求选择不同的渠道。\n注册即送免费额度，测试满意您在使用。\n云智 Ai-API\n直达连接： https://api.openxs.top",
-          "link": "https://www.v2ex.com/t/1103329",
-          "publishedOn": "2025-01-07T14:27:12.000Z",
-          "wordCount": 380,
-          "title": "这么好用的 ai 中转 api 站点，非常稳定，欢迎使用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103328",
-          "author": "sylarchang",
-          "description": "sylarchang: \n今日發覺相機取景時由 0.5x 切換到 1x 的時候，銜接不順暢，1x 明顯亮一圈，不知是 0.5x 暗角太大依賴後期矯正還是什麼問題，但 1x 切換到 0.5x 正常，只出現在拍照界面而錄影介面仍然是平滑的。鏡頭切換平滑以前是 iPhone 的強項，如今第一次遇到這樣明顯的。目前測試了 16PM 和 13PM 都一樣問題，重啟仍復現。18.2 或者 18.1 好像沒有注意到那麼明顯。\n不知各位有沒有遇到相同問題的？",
-          "link": "https://www.v2ex.com/t/1103328",
-          "publishedOn": "2025-01-07T14:19:51.000Z",
-          "wordCount": 441,
-          "title": "iOS 18.2.1 相機鏡頭切換問題",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103327",
-          "author": "codertracker",
-          "description": "codertracker: \n2025 年了，对于独立开发 App 上架或许并不是一条好的赛道，尤其是当下 App 如此之多的情况，各类 App 层出不穷，基本上已经满足了大部分用户的需求场景，市场几乎已经是一片红海，那么，为什么在这个时间节点还要去尝试独立去开发一个 App 呢？或许，你会说做自媒体会是更好的赛道，其实，有段时间我也是这么觉得，但是做自媒体其实没有想象中的那么容易，需要持续的输出，流畅的表达，视频剪辑等，而这些恰好是我所欠缺的。但是，总需要去折腾和做点什么，App 的市场虽然已经接近饱和，但市场饱和并不等于机会消失，一些垂直领域、利基市场仍然存在空白点，特别是那些大厂因规模问题难以覆盖的“小而美”需求，因为自己目前也在这个行业工作，所以，还是选择相近的赛道，利用业余的时间去开发和上架一款产品。其实有这个想法挺久的了，但是一直由于种种原因拖延到现在，这两年 AI 快速发展，很多问题问问 AI 便可以得到快速的解决，所以借着这个契机，就开始折腾了。这篇文章就简单介绍一下过去一年的探索之路（踩坑经历），希望新的一年可以继续加油。\n先说说过去一年的产出：\n个人开源项目： 基于 Flutter 编写的 B 站视频下载器， 地址： https://github.com/kangpeiqin/bilivideo_down ， 目前 star 798, 本来，想写个教程，但是没有持续输出的动力，也就不了了之了。\n[萌萌倒数日]，目前已上架 AppStore ，官网： https://mengapp.vercel.app/ ，下载地址： https://apps.apple.com/app/id6737198411\n\n学习开发与设计过程\n由于之前没有客户端开发、产品和 UI 设计的相关经验，在一无所知的情况下，要说一下子就投入开发，进行行动，似乎有些困难，所以有一部分知识需…",
-          "link": "https://www.v2ex.com/t/1103327",
-          "publishedOn": "2025-01-07T14:15:21.000Z",
-          "wordCount": 527,
-          "title": "从 4.3 到成功上架，分享过去一年独开的探索之路（踩坑经历）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103326",
-          "author": "liantdev",
-          "description": "liantdev: \n之前一直使用网易有道词典，但是发现新版的有道词典变得非常臃肿，广告贼多，希望 V 友们推荐一款好用的英语学习 APP,需要有以下几个功能\n1.查单词，有对应单词的翻译和例句，并且可以发音、可以收藏查找过的单词以供日后复习\n2.有手机屏幕取词功能，看英文时遇到不认识的单词可以取词翻译并且收藏以供日后复习\n3.有科技类或其它的英文文章可供阅读（这点不强求，有就更好）\n在此感谢各位 V 友推荐。。。",
-          "link": "https://www.v2ex.com/t/1103326",
-          "publishedOn": "2025-01-07T14:15:03.000Z",
-          "wordCount": 448,
-          "title": "求推荐学习英语的 APP",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103324",
-          "author": "NewYear",
-          "description": "NewYear: 魂签是一个浏览器插件（拓展？），可以自动化签到，优点是不用观念里 Cookie 。\n但是不知道为什么作者的 Github 仓库连带账号都 404 了。\nhttps://github.com/inu1255/soulsign-chrome\n@inu1255 不知是什么情况呢，其实这插件还蛮好用的。\n或者有没有人推荐一下其它的替代（特点是浏览器写脚本签到，定时运行，超期登录状态能提醒到用户登录）",
-          "link": "https://www.v2ex.com/t/1103324",
-          "publishedOn": "2025-01-07T13:54:08.000Z",
-          "wordCount": 392,
-          "title": "魂签，这个签到插件作者放弃了么，怎么 Github 账号也没了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103323",
-          "author": "sMil3",
-          "description": "sMil3: \n19 年考过一次托福，好像只有 2 年有效期，如果要找外企工作（有显性外语要求）的话需要重新考吗？",
-          "link": "https://www.v2ex.com/t/1103323",
-          "publishedOn": "2025-01-07T13:40:29.000Z",
-          "wordCount": 375,
-          "title": "找外企工作会要求托福/雅思成绩在有效期内吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103322",
-          "author": "azhi",
-          "description": "azhi: \n简介\n闲暇时间写了个 腾爱优视频会员充值 的小程序，对接了几个低价的直充渠道商（哪个低用哪个），功能也很简单就是输入账号充值，基本都是秒到账的，腾讯系的支持 QQ ，欢迎前来围观\n🌟🌟🌟逢年过节和家人一起追剧，开个电视 7 天会员，温馨感岂不拉满，幸福感岂不拉满🎉🎉🎉\n小程序名\n腾爱优 （点击打开小程序）\n小程序码\n\n联系我\n有问题可随时联系小程序内客服（没错就是我自己搁）\n或邮箱： a@liu.app\n几张截图",
-          "link": "https://www.v2ex.com/t/1103322",
-          "publishedOn": "2025-01-07T13:38:00.000Z",
-          "wordCount": 397,
-          "title": "腾爱优 小程序上线了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103321",
-          "author": "levn",
-          "description": "levn: \n1 月 7 日，英伟达创始人黄仁勋在 2025 年 CES 展会上宣布推出 Project Digits 个人 AI 超级计算机，其售价定为 3000 美元（约合人民币：21999 元）起，预计将于今年 5 月正式上市。\nProject Digits 搭载了全新的 GB10 Grace Blackwell Superchip 处理器，可提供高达 1petaflop 高能效 AI 性能。这款处理器的设计紧凑，便于放置在办公桌上，且支持标准电源插座供电。此外，该机还配备了 128GB 的统一内存和最高 4TB 的 NVMe 存储。外观设计上，Project Digits 的体积与 Mac Mini 相当，拥有处理高达 2000 亿个参数 AI 模型的能力。\n对于需要处理更大规模 AI 模型的应用，用户可以将两个 Project Digits 设备联网，共同处理多达 4050 亿个参数的模型。Project Digits 不仅支持本地开发和测试 AI 模型，还能通过 Nvidia AI Enterprise 软件平台，将模型轻松部署到云服务或数据中心。\nGB10 Grace Blackwell 芯片是由英伟达与联发科联合设计，配备了英伟达最新一代 CUDA 核心和第五代 Tensor 核心，并通过 NVLink-C2C 芯片间互连到高能效的 NVIDIA Grace CPU 。该 Grace CPU 包括 20 个基于 Arm 架构建构的高能源效率核心。",
-          "link": "https://www.v2ex.com/t/1103321",
-          "publishedOn": "2025-01-07T13:36:36.000Z",
-          "wordCount": 459,
-          "title": "英伟达个人 AI 超算 Project Digits 发布 起售价 3000 美元",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103320",
-          "author": "davidfly",
-          "description": "davidfly: \nrt,在不同软件间发送文件,比如在网页版 whatsapp 收到的文件直接转发到 viber 上,而不是要先保存到本地.",
-          "link": "https://www.v2ex.com/t/1103320",
-          "publishedOn": "2025-01-07T13:30:54.000Z",
-          "wordCount": 354,
-          "title": "windows 7 平台有没有软件可以像 ios 里的 share 一样",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1103316",
           "author": "huzhikuizainali",
           "description": "huzhikuizainali: \n请看最下方截自“书中的证明”有关连续函数在闭区间有界的证明\n\n我这么证明可以么？\n\nGpt 的回答：\n\n\n\n书中证明：",
@@ -578,12 +354,22 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.v2ex.com/t/1103311",
+          "author": "koor",
+          "description": "koor:  /t/1097598\n浏览器历史标签存着还没看完呢，刷新一下 404 了，现在 Google 快照也看不到了",
+          "link": "https://www.v2ex.com/t/1103311",
+          "publishedOn": "2025-01-07T13:06:39.000Z",
+          "wordCount": 115,
+          "title": "为什么这个 mac app 推荐的帖子被删了",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1103310",
           "author": "ghking6",
           "description": "ghking6: 想要搭个像 V2EX 一样，简洁风的社区论坛。\n后端最好是基于 node 的，前端 vue 优先，其他语言的也欢迎推荐。",
           "link": "https://www.v2ex.com/t/1103310",
           "publishedOn": "2025-01-07T13:05:11.000Z",
-          "wordCount": 497,
+          "wordCount": 506,
           "title": "求推荐类似 V2EX 的开源论坛！",
           "imageUrl": null
         },
@@ -725,6 +511,196 @@
           "publishedOn": "2025-01-07T12:16:10.000Z",
           "wordCount": 411,
           "title": "node 堆栈溢出怎么排查根因啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103295",
+          "author": "Chris008",
+          "description": "Chris008: \n所谓计划赶不上变化，前几天我还觉得这份工作干不久，在计划用一年时间备考雅思，那之后辞职走人， 结果年前就被通知公司的项目出问题，要面临这个了。\n情况比较复杂不好多说，总之目前面临三个选择：\n留在这个项目，但入职另一家公司。薪资可能平移，但绝不可能涨。待遇只减不增。我觉得我再干一年也还是会离职。\n离开这个项目，待岗。等待安排 or 面试别的项目，待岗期间正常发工资。\n离开项目也离开公司，拿赔偿走人。但是项目经理明确和我说他们最不想走的就是这个方案，可能会拖我和我扯皮，我也不知道是吓唬我还是怎样的。\n由于本来就萌生过离职的想法，现在感觉这是上天给我的机会让我走…… 在深圳已经待够了，早就想换个城市比如/上海/重庆/成都/什么的…… \n感觉是一个人生岔路口……纠结中……",
+          "link": "https://www.v2ex.com/t/1103295",
+          "publishedOn": "2025-01-07T12:16:01.000Z",
+          "wordCount": 456,
+          "title": "项目变动，年前就要面临 N+1/再入职/待岗 三选一",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103294",
+          "author": "bumblebeek",
+          "description": "bumblebeek: 看下面的总内存用量又好像没占用这么多，是计算方式有误吗\nhttps://imgur.com/a/FYRjSzi",
+          "link": "https://www.v2ex.com/t/1103294",
+          "publishedOn": "2025-01-07T12:06:42.000Z",
+          "wordCount": 447,
+          "title": "为什么 window server 会占用这么多内存呢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103292",
+          "author": "pureGirl",
+          "description": "pureGirl: 需要多少积累才能够做到",
+          "link": "https://www.v2ex.com/t/1103292",
+          "publishedOn": "2025-01-07T12:05:23.000Z",
+          "wordCount": 377,
+          "title": "从独自做一个小博客到成熟的网页或应用需要经历哪些",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103291",
+          "author": "ashin",
+          "description": "ashin: \n“AI 取代程序员”是最近程序员们讨论的热点，有人说程序员即将失业，有人说代码时代终将落幕。但在经历了无数个被产品经理“轻松改需求”的深夜后，作为一名经验丰富的自由职业程序员，我不得不说：这些论调，恐怕和产品经理的“简单需求”一样天真。\n让我们坐上人体工学椅，翘起二郎腿，来聊聊为什么现阶段的 AI ，还远远不能取代那些每天在需求与技术的夹缝中求生存的程序员们。这个故事，要从纳瓦尔的一条推特说起……\n从纳瓦尔推文说起\n\n今天看到纳瓦尔发了一条推特，没错，就是《纳瓦尔宝典》的那个纳瓦尔。他说：\"AI won't replace programmers, but rather make it easier for programmers to replace everyone else.\"（ AI 不会取代程序员，反而会让程序员更容易取代其他人）\n有个看起来很懂的人评论道：\"AI can write programs per CEO Jensen Huang\"（ AI 可以写程序，正如英伟达的 CEO 黄仁勋所说）\n纳瓦尔淡定回怼：\"Calculators can do math per CEO of Texas Instruments\"（计算器可以做数学题，正如德州仪器的 CEO 所说）\n为什么说 AI 现阶段无法替代程序员？\n说实话，现阶段张口就说 AI 替代程序员的，十个有九个是不懂软件开发的。剩下那一个？八成在卖课，如果真正了解这一领域的人我认为是不会说出这种话的。\n\n我认为目前的 AI 不能替代职场专业程序员，至少现阶段做不到。以后可能会实现，但那时候大部分职业都被替代了。\n一个服务端程序员的看法\n作为一名不熟悉前端开发的服务端程序员，也称为后端程序员，我通常使用 AI 帮我写一些不是很复杂的前端代码，AI 帮我完成了前端程序员的任务。在不熟悉前端领域时，我可能认为它可以替代前端开发，因为我让它做的都是比较简单的任务。但我深知它无法帮我完成我的全部代码，因为我知道我的业务逻辑之复杂，历史问题和各种背景下也会有很多特殊逻辑，人与人之间口口相传有时候都是很难讲明白搞清楚的，更何况当前的 AI 写出来的代码还是有很大概率是有问题不能直接运行的。\n\n虽然 AI 能帮我完成前端代码开发，但无法完成一些比较复杂的实现，面对这种情况，我更希望有一个活人专业前端来帮我完成这样的任务。如果现在就能被 AI 完美替代，我想那一定和我一样，业务格局和专业能力都还没打开。很多时候，往往不是 AI 做不出我要的效果，而是我无法像专业前端开发者一样告诉 AI 应该怎么做，给出了代码效果不对或无法运行时，我无法很好的指导 AI 进行修改，专业的人加上 AI 做专业的事，才能事半功倍。\n软件开发不只是写代码\n软件开发不仅仅是写几行代码完成几个功能而已，软件开发是一项工程，涉及很多环节，尤其是部门与部门之间的沟通，产品经理对需求的反复修改也会让代码变得复杂。\n软件代码是需要维护的，当实现的需求越来越多，系统越来越复杂，让 AI 做出一个完全可运营的线上系统是很难的，对一个复杂系统的维护是难以替代的部分（除非有 general AI ）。\n真正做软件开发的人都知道真正的编程工作除了写代码，仍然需要：\n理解问题的本质\n设计系统架构\n确保代码的可靠性和可维护性\n在各种权衡中做出明智决策\n这些核心能力，我认为依然离不开人类的判断。更重要的是，当系统出了 P0 级别事故时，AI 是不能背锅的，能背的只有活人程序员，可以先杀几个程序员祭天，不然你还想今年给 AI 一个不合格的低绩效考核？ ：）\n\n程序员日常修炼手册\n说到真正的编程工作，那简直就是一出好戏：\n阅读全文： https://blog.axiaoxin.com/post/ai-wont-replace-programmers/",
+          "link": "https://www.v2ex.com/t/1103291",
+          "publishedOn": "2025-01-07T12:02:48.000Z",
+          "wordCount": 495,
+          "title": "AI 能否取代程序员？当 AI 说它能取代程序员时，产品经理笑了；）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103288",
+          "author": "iliaoliao",
+          "description": "iliaoliao:",
+          "link": "https://www.v2ex.com/t/1103288",
+          "publishedOn": "2025-01-07T11:55:01.000Z",
+          "wordCount": 342,
+          "title": "rust 有啥简单的安装包加固工具吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103287",
+          "author": "walterdarrell063",
+          "description": "walterdarrell063: \n男的好， 女的好，\n都有突出的， 也都有孔。\n任何一方比正常人少/小/短/平，\n我都認為是次貨， 是該被淘汰的。\n氣憤的是，\n我覺得不足是缺憾，\n但 B 站常有人太大/多而要手術去除的。\n天， 太不公平了。",
+          "link": "https://www.v2ex.com/t/1103287",
+          "publishedOn": "2025-01-07T11:50:57.000Z",
+          "wordCount": 351,
+          "title": "真心， 我只接受性徵無缺的对象， 各位呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103286",
+          "author": "notifier",
+          "description": "notifier: \n搜索红心了几十首中文歌曲了，也添加了周杰伦等的歌单列表。\n两个多月过去了，仍旧在“我的电台”、“探索电台”等充斥着伴奏版歌曲、电音等等。\n咋个具体的调教方式？收听什么歌单可以类似于网易云的“私人漫游”、“心动模式”？",
+          "link": "https://www.v2ex.com/t/1103286",
+          "publishedOn": "2025-01-07T11:39:33.000Z",
+          "wordCount": 389,
+          "title": "Apple Music 具体怎么调教？ 2 个月了我的电台里还是一堆伴奏版。。。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103285",
+          "author": "wc5bk6",
+          "description": "wc5bk6: 工业和信息化部办公厅关于开展万兆光网试点工作的通知\n工信厅通信函〔 2025 〕 3 号\n各省、自治区、直辖市通信管理局，各省、自治区、直辖市及新疆生产建设兵团工业和信息化主管部门，中国电信集团有限公司、中国移动通信集团有限公司、中国联合网络通信集团有限公司、中国广播电视网络集团有限公司、中国信息通信研究院，各相关单位：\n万兆光网是下一代光网络的升级演进方向，是新型信息基础设施的重要组成部分。为贯彻落实党中央、国务院决策部署，有序推进我国万兆光网试点应用，推动网络向超高速、大容量、智能化升级演进，助力推进新型工业化，现组织开展万兆光网试点工作，有关事项通知如下。\n一、工作目标\n到 2025 年底，在有条件、有基础的城市和地区，聚焦小区、工厂、园区等重点场景，开展万兆光网试点。以试点工作为牵引，推动产业链各方加快协同解决目前万兆光网落地应用中的重点难点问题，带动我国万兆光网核心技术和关键设备取得突破，促进构建万兆光网成熟产业链和完备产业体系，有序引导万兆光网从技术试点逐步走向部署应用。\n二、试点内容\n在小区、工厂、园区等重点场景，开展万兆光网试点，实现 50G-PON （无源光网络）超宽光接入、FTTH （光纤到户）/FTTR （光纤到房间）与第 7 代无线局域网协同、高速大容量光传输、光网络与人工智能融合等技术的部署应用。\n（一）开展“万兆小区”试点。具备三代（ GPON/XG(S)-PON/50G-PON 或 EPON/10G-EPON/50G-PON ）多模共存能力的 50G-PON 接入端口覆盖居民小区，可与现网各类接入技术兼容及平滑升级。小区光分配网络设施具备支撑实现万兆入户能力。在家庭网络环境，协同部署 FTTH/FTTR 与第 7 代无线局域网，实现超千兆能力真正通达用户终端，保障面向万兆光网的宽带用户体验。小区内部分用户试点 5000Mbps …",
+          "link": "https://www.v2ex.com/t/1103285",
+          "publishedOn": "2025-01-07T11:38:43.000Z",
+          "wordCount": null,
+          "title": "工信部开展万兆光网试点工作(文件中有加宽上行要求，实际如何未知)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103284",
+          "author": "robinli0302",
+          "description": "robinli0302: \n关于我开发 OvO Game 网站的一些思考\n大家好！我最近开发了一个关于OvO Game的网站，想和大家分享一下我的思路和过程，希望能得到懂 SEO 的朋友们的建议，如何让我的网站进入谷歌搜索结果的第一页。\n关键词选择\n关键词调研\n我使用了SEMrush的 Keyword Magic 工具，查找了“game”这个大词。在相关搜索中发现OvO game的关键词难度（ KD ）比较低，每月搜索量在 70K-80K 之间，因此我认为这是一个有需求的词。\n资源获取\n确定关键词后，我开始寻找游戏资源，发现很多网站提供了iframe 嵌入的功能，这样相对简单。\n域名注册\n购买域名\n我在GoDaddy上查找了与ovogame相关的域名，最终看中了**.pro和.fun这两个后缀。几分钟后，.pro就被注册了，所以我最终决定购买ovogame.fun。在比较了GoDaddy和NameSilo的价格后，发现NameSilo**便宜一些，于是选择在该平台上注册。\n网站开发\n搭建网站\n我使用HTML搭建了最简单的页面，第一屏展示游戏界面，后面则是游戏相关的信息。我还借助 AI 进行了一些SEO 优化，最终页面完成。\n代码托管与部署\n在GitHub上创建了一个私密仓库，上传代码后，在Vercel上导入并绑定域名，整个过程非常简单，几分钟就搞定了，现在页面可以通过域名访问了。\n网站上线\n提交 Google 索引\n我打开了Google Search Console新建网站并提交，几个小时后我的网站就被收录了。但此时我无法通过关键词找到我的网站。\n添加分析工具\n添加了Google Analytics代码，并通过 DNS 验证，验证过程非常快。\n监控数据\n第二天，我查看 GSC 后台，发现页面已经收录，平均排名在 61 。\n寻求建议\n希望懂 SEO 的朋友们能给我一些建议，如何能让我的网站进入谷歌搜索结果的第一页？非常感谢大家的帮助！\n这是我的网站：https://ovogame.fun",
+          "link": "https://www.v2ex.com/t/1103284",
+          "publishedOn": "2025-01-07T11:36:45.000Z",
+          "wordCount": 421,
+          "title": "学习 SEO 做出海网站，已经上线并收录，欢迎指点",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103283",
+          "author": "whistleryz",
+          "description": "whistleryz: \n前端\n框架：React\n打包编译：Nextjs、tsup\n包管理：pnpm、turbo\nUI： @radix-ui、tailwind、shacn-ui\n状态管理：use-immer\n后端：\n框架：Honojs、Nextjs\nOpenAPI：@hono/zod-openapi 、 @hono/swagger-ui 、swagger-typescript-api （ TS 接口文件生成），查看方案 OpenAPI 实现方案\n数据库：Prisma、Cloudflare D1\n国外：Plunk （开源）、Resend\n国内：飞书邮件 + nodemailer + react-email （邮件模版）\n统计：umami （开源）、Google Analytics\n鉴权：Clerk SAAS、jose JWT \nAI：\nSDK：Vercel AI SDK\nProvider：Azure OpenAI、Cloudflare AI、Ali 通义（国内）\nVector DB：Cloudlfare Vector、Milvus\n运维：\n部署：Cloudlare Worker/Pages、PM2、Docker\nHTTPS：Caddy\n域名 DNS：Cloudlfare\n基于成本考量，服务部署首选 Cloudflare Worker ，如受限于技术问题 Worker 无法支持，可以选择一个低成本的服务器，用于部署 PM2 、Docker 等服务\nDocker 服务：\n[SAAS] Dify https://dify.ai/\n[SAAS] Umami https://umami.is/\n[SAAS] Flowise AI https://flowiseai.com/\n[SAAS] Firecrawl 爬虫  https://www.firecrawl.dev/\n[数据库] Mysql\n[数据库] MongoDB\n[数据库] Milvus\n[数据库] Neo4j\n[中间件] Kafka\n原文（个人博客文章，介意慎点）",
+          "link": "https://www.v2ex.com/t/1103283",
+          "publishedOn": "2025-01-07T11:36:10.000Z",
+          "wordCount": 475,
+          "title": "总结了一下 24 年独立开发用到的技术栈",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103282",
+          "author": "herozhang",
+          "description": "herozhang: \n#RTX5090 发布了，个人汇总了从 GTX1080 到最新一代的性能/美元、性能/瓦特的图表。结论：一分钱一分货 + 性能在加速 + 性价比在提升。推论：基于中小等模型（几十到几百 B 参数）的桌面/手机 AI 也就 2 ～ 3 年的事儿了。\nGPU\nAI TOPS\nTGP(W)\n首发价格($)\n性能/瓦特 (TOPS/W)\n性能/美元 (TOPS/$)\n\n\n\n\nGTX1080\n9.0¹\n180\n599\n9.0 / 180 = 0.050\n9.0 / 599 ≈ 0.015\n\n\nRTX2080\n84.8\n215\n699\n84.8 / 215 ≈ 0.394\n84.8 / 699 ≈ 0.121\n\n\nRTX3090\n284.7\n350²\n1,499²\n284.7 / 350 ≈ 0.813\n284.7 / 1499 ≈ 0.190\n\n\nRTX4090\n1321.2\n450\n1,599\n1321.2 / 450 ≈ 2.936\n1321.2 / 1599 ≈ 0.826\n\n\nRTX5090\n3352\n575\n1,999\n3352 / 575 ≈ 5.825\n3352 / 1999 ≈ 1.676\n\n\nhttps://i.imgur.com/Vy1gvo4\n[img]https://i.imgur.com/Vy1gvo4.jpeg[/img]\nhttps://i.imgur.com/AX9nRxk\nhttps://i.imgur.com/TUQfPQq",
+          "link": "https://www.v2ex.com/t/1103282",
+          "publishedOn": "2025-01-07T11:34:16.000Z",
+          "wordCount": 512,
+          "title": "从 GTX1080 到 RTX5090，性价比、性耗比变化曲线图",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103279",
+          "author": "lijianan",
+          "description": "lijianan: \n先说 bg ，去年 8 月份入职了一家 remote 小作坊，公司业务是 AI 方向，规模很小只有 20 人左右，除了 2 个前端和 1 个 UI 在国内，剩下的同事都在国外\n现在遇到个问题，薪资有两种发放形式可选：\n一是选择拿美金，不缴社保，基本上全部到手，缺点是国内银行卡每年有 5W 刀限额，超过 5W 刀的部分有点麻烦，去问了朋友，好像得办香港卡才不限额，另外就是将来跳槽，这个没办法作为参考，问了几个 HR 都说公司不承认这个\n二是走国内的社保，参社城市上海，正常缴纳五险一金和税，但是这样的话每个月到手比前者少 1W 左右，感觉很亏（目前就是走这个形式）\n年底的时候同事找我聊，问我要不要拿美刀，我说不用了，先这样吧，因为考虑到将来跳槽方便，很多公司不承认美刀作为流水，毕竟这个东西人人都可以伪造，但是个税和社保是可以查到的\n现在过去两个月了，每次发工资看到扣税和社保都感觉好心疼，想法又开始动摇了，v 友们给点建议或者意见？",
+          "link": "https://www.v2ex.com/t/1103279",
+          "publishedOn": "2025-01-07T11:01:52.000Z",
+          "wordCount": 640,
+          "title": "请教 v 友们一个关于薪资发放的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103275",
+          "author": "luyu02122",
+          "description": "luyu02122: 今天给大家分享我 25 年的首款产品 AICallAgent ，这是一款可自定义的 AI 电话助手。\nAICallAgent 能帮你告别繁琐的电话沟通，无论是餐厅预订、医院挂号等生活琐事，还是想整蛊朋友找点乐子，这款 AI 电话助手都能轻松搞定！\n- 餐厅预订、医院预约、酒店比价：只需选择模板，一键操作，无需社恐者亲自拨打电话。\n- 本地服务咨询、信息收集：快速获取所需信息，省时省力。\n- 取消订阅、查找优惠：轻松处理繁杂事务，不再为琐事烦恼。\n- 模拟面试、AI 整蛊：提升技能、增添生活乐趣，让电话变得更有趣。\n- 无限自定义模板，为您的 AI 语音通话体验设计任意数量的通话模板。\n- 超逼真语音，可以从多种 AI 语音中选择贴合您需求的电话声音。\n今天 AICallAgent 也在 Product Hunt 正式发布了，欢迎大家体验我们的产品，帮忙 Upvote 和留言支持，非常感谢大家！👇\nProduct Hunt: https://www.producthunt.com/products/aicallagent\n官网： https://www.aicallagent.me/",
+          "link": "https://www.v2ex.com/t/1103275",
+          "publishedOn": "2025-01-07T10:23:47.000Z",
+          "wordCount": 410,
+          "title": "25 年第一个新产品 AICallAgent - 您的免费 AI 电话助手（社恐福音）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103274",
+          "author": "NianBroken",
+          "description": "NianBroken: 目前我在使用 LocalSend ，但是这个软件有一个缺点。\n如果我的接收端没有提前打开 APP ，那么在发送端上是不显示接收端的。\n因此在每次传输文件或文字前，我都需要在 iPhone 上提前打开 LocalSend ，然后才能在 Windows 中发送文件，我认为这是一个很反人类的设定。\n我希望可以实现在接收端中，无需提前打开指定 APP 就可以收到文件或文本。\n请问有这样的软件吗？排除 QQ 、微信等这类软件；可以接受买断制付费。",
+          "link": "https://www.v2ex.com/t/1103274",
+          "publishedOn": "2025-01-07T10:21:49.000Z",
+          "wordCount": 668,
+          "title": "iPhone 与 Windows 互传文件最优雅方式有哪些呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103273",
+          "author": "jjshare",
+          "description": "jjshare: 以前做互联网开发的，现在主要精力在做运营、偶尔开发，以前从未接触过实体生意，但是最近几个月，超级想做一个茶叶、酒水品牌\n我是比较喜欢茶，但是我基本不喝酒\n感觉再过一年就会去落地实施，不知道真的做的话，难度多大",
+          "link": "https://www.v2ex.com/t/1103273",
+          "publishedOn": "2025-01-07T10:19:14.000Z",
+          "wordCount": 367,
+          "title": "不知道是咋搞的，好想做一个茶品牌、酒品牌，满脑子都是",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103272",
+          "author": "jessiepan2017",
+          "description": "jessiepan2017: \n2024 年对于我来说，算是不平凡的一年，有过彷徨、无助，也经历过内心的煎熬，但突破自我后，最终还是有成长和收获的。\n记一下流水账：\n1 、2024 年 7 月 30 日，HR 找我面谈，让我上完最后一天班，明天不用再来了。公司只愿意给我结算 7 月份的工资，没有任何赔偿。大概的原因我也能猜到，因为我手头上负责的项目已经完成给客户的送样，接近量产了，这个时候老板想着的是卸磨杀驴，开源节流呗！在我之前公司也这么开了好几个研发人员，只是没想到他们这么卑劣，目无法纪，连劳动法里最基本的 N+1 赔偿都不给，当我们做工程师的人都是软柿子，好捏吗？ “没事别惹事，有事不怕事”，既然公司都这样对我了，咱也不怕撕破脸，接下来，我走上了劳动维权的漫漫长路，详见：\nhttps://www.v2ex.com/t/1068774?p=1#reply16\n2 、大家都在说大环境不好，也在论坛里看到很多关于失业、找工作的帖子，当时自己还不以为然。结果轮到自己的时候，还是感觉到了一些寒气。8 、9 月份边找工作，边准备劳动仲裁的开庭，一个多月的时间里面试了几次，也只拿到了一家公司的 offer 。新单位给的薪资比上一家少一点，最重要的是离家 45 公里（开车往返差不多 100 公里），开车上下班路上耗时 3 个多小时。。。一度自己也很纠结要不要去这家单位上班，但想着又没有更好的选择，而且和上家公司因为在劳动仲裁，他们连 7 月份的工资也扣着不给我，没办法还是去了。上了差不多一个月还是辞职了，远是一个原因，另外是因为新公司要做的项目和我的技术栈还是有些偏差了。\n3 、10 月底离职后接着找工作，11 月 25 日入职了一家小公司（加上老板、老板娘、老板娘的弟弟，10 个人）。考虑这家公司主要是因为近，离家大概 40 分钟的车程，其次，到年底了怕不好找工作，有班上就干吧？公司是小公司，办公环境也不咋滴，四处都堆满了纸箱，也没人收拾，办公室里灯光昏暗。另外有 3 个刚毕业的学生在公司实习，中午跟他们吃饭聊天，才知道他们来了几个月都没有签劳动合同，而且公司每天上下班都不用考勤打卡的。。。不签劳动合同，不打卡，这下我心里有点慌了！ 12 月 11 日下班后老板找我进他办公室私聊，开场白就是“因为对于公司的未来规划没考虑清楚，觉得有点对不住我，耽误我时间了”，然后，让我明天不用来公司上班了，并且把老板娘叫进来，作为补偿让她帮我把 12 月份的社保补缴上，并且承诺一周内把我半个多月的工资结算清。心里玄着的一块石头终于落下了，这老板还算有点良心，要是耍赖，没有考勤记录，又没有签劳动合同，还真不好办啊\n4 、12 月 17 日，入职了我现在工作的这家单位。其实早在两个月之前，我就已经通过了这家公司的技术面，和老板也面谈过一次，但中间有些波折，这里就不详聊了，直到 12 月 16 日才拿到他们的 offer 。公司离家也挺近的，不堵车大概 30 多分钟可以到家，劳动合同也签了。目前我负责公司低功耗可视门铃、4G 打猎相机的产品端开发，RockChip 主芯片，对我来说，也算是一个小挑战吧？因为我之前没有做过低功耗、电池类的产品\n这是我以前在安防行业开发过的 NVR 、IPC 方案，\nhttps://www.bilibili.com/video/BV1vV4y197yW/?vd_source=092ebfe35564004d7ecc8490b3d0b428\n很庆幸自己选择了嵌入式软件开发这条道路，并且一直坚持着走了下来，让我在即将 46 岁的年纪仍然能找到一份算是体面的工作，薪资也还凑合，30~~35K 。2025 年，愿我们大家都可以保持对生活、对技术的热爱，乘风破浪，一路向前！轻舟已过万重山，前路漫漫亦灿灿，祝福各位 v2er 越来越好！！\n也希望能把我的嵌入式产品研发经验传授给其他感兴趣的朋友，帮助到有需要的人\nhttps://www.v2ex.com/t/1063294#reply22",
+          "link": "https://www.v2ex.com/t/1103272",
+          "publishedOn": "2025-01-07T10:12:10.000Z",
+          "wordCount": 477,
+          "title": "[年终总结] ：致敬 2024 年换了三次工作、46 岁仍在 coding 路上的自己！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103271",
+          "author": "NASK",
+          "description": "NASK: https://qvqw.date",
+          "link": "https://www.v2ex.com/t/1103271",
+          "publishedOn": "2025-01-07T10:02:01.000Z",
+          "wordCount": 344,
+          "title": "申请收录个人博客:LLP2333’s Blog",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103270",
+          "author": "Machcd",
+          "description": "Machcd: 我们是一家 web3 的创业公司，需要一位技术 leader 。岗位最好 base 美国，或者以美国时区工作。以下是岗位介绍：\nHead of Engineering\nWe’re seeking an experienced Head of Engineering to lead and drive our technical teams, focusing on cutting-edge infrastructure development in the blockchain space. The ideal candidate will have a deep understanding of p2p networks, L1/L2 architectures, and be fluent in multiple programming languages. You will be responsible for overseeing engineering projects, building scalable systems, and ensuring high-quality code delivery. This role requires strong leadership skills and the ability to communicate effectively across teams.\nResponsibilities:\n- Lead and manage engineering teams, ensuring technical excellence and alignment with company goals\n- Design and develop scalable and performant p2p networks and blockchain architectures, with a focus on L1/L2 solutions\n- Oversee the implementation of key infrastructure features in Rust, Go, and Typescript\n- Collaborate with cross-functional teams to drive technical initiatives and product roadmap execution\n- Ensure the architecture and infrastructure are scalable, maintainable, and secure\n- Foster a culture of innovation, collaboration, and continuous improvement within the engineering team\n- Communicate effectively with stakeholders to ensure alignment between engineering and business objectives\nRequirements:\n- 5+ years of engineering experience, with at least 3 years in leadership or engineering management roles\n- Fluency with p2p networks, particularly using libp2p, and strong knowledge of L1/L2 blockchain architectures\n- Expertise in Rust, Go, and Typescript development\n- Strong engineering management experience, including team building, project management, and mentoring\n- Excellent communication skills, able to articulate complex technical concepts to non-technical stakeholders\n- Proven track record of delivering high-quality engineering solutions in a fast-paced environment\n- Highly organized with a strong focus on proces\n请联系 1602443271@qq.com",
+          "link": "https://www.v2ex.com/t/1103270",
+          "publishedOn": "2025-01-07T09:54:14.000Z",
+          "wordCount": 610,
+          "title": "在美国（美时区）招一位 tech lead（CTO）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103269",
+          "author": "bboring",
+          "description": "bboring: \n大家拿的啥绩效？多少个月的年终奖啊？",
+          "link": "https://www.v2ex.com/t/1103269",
+          "publishedOn": "2025-01-07T09:52:05.000Z",
+          "wordCount": 439,
+          "title": "开打年终绩效了，你们被评的啥",
           "imageUrl": null
         }
       ]
