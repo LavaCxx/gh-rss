@@ -371,7 +371,7 @@
           "description": "sqlemma: \n团队盘，要求如下\n分发给每个人一个子账号，子账号相对独立存在\n管理员可以管理用户的行为，比如上传-下载权限，阅读权限等\n可以接收付费\n最好是国内盘，国外的能用也行\n可以开通的子账户最好 50 个以上\n野鸡盘不考虑，数据存储还是要相对安全稳定为好\n实在找不到合适的",
           "link": "https://www.v2ex.com/t/1103630",
           "publishedOn": "2025-01-08T10:32:22.000Z",
-          "wordCount": 444,
+          "wordCount": 446,
           "title": "求推荐团队盘，需要实现一些常见功能",
           "imageUrl": null
         },
@@ -381,7 +381,7 @@
           "description": "stdout: \n我小孩在深圳小学 6 年级，快期末考试了。上周末发了接近 10 套试卷，不认真专心根本写不完。我已经想通了，以后的作业只要是已经会的，全部抄答案，或是我帮忙写。比我们高中的作业还多，荒唐啊。",
           "link": "https://www.v2ex.com/t/1103629",
           "publishedOn": "2025-01-08T10:29:15.000Z",
-          "wordCount": 438,
+          "wordCount": 442,
           "title": "你们帮小孩写作业么？",
           "imageUrl": null
         },
@@ -461,7 +461,7 @@
           "description": "hhhhhh123: \n下面是说明和当时场景\n我自己的 app 基本上所有的时间查询我都使用了 date 函数 QAQ\nselect uid, balance, create_time from day_check_in where date(create_time) = date(%(入参时间)s) and uid = '123';\n\n近期想优化接口，使用 EXPLAIN 一看头皮发麻， 虽然目前数据量不多，但是很难看。\n当我翻看文档和搜索后发现 可以使用 online DDL 创建索引的时候 可以尽可能的不影响 CURD 操作，不过一些 特殊的 sql 还是会影响，会等待创建索引后才能执行一些查询。\n不过这个问题不大，因为我可以避开这个时间段！\n后面我执行了 \nALTER TABLE balance_records ADD INDEX index_uid_create_time (uid, create_time)\n\n发现执行了 5 分钟还是没有执行成功。 使用 SHOW PROCESSLIST; 查看 sql 的运行情况，发现没有什么 sql 和创建索引 sql 冲突， 意味着 创建索引 sql 还在执行。  \n我以为是数据量大的原因， 当我把这个表所有的数据拷贝到 test 库中， 我执行了 创建索引的指令，结果 2 秒就执行完了。\n有没有大佬知道 为啥我拷贝的表执行几秒钟就执行完了。",
           "link": "https://www.v2ex.com/t/1103619",
           "publishedOn": "2025-01-08T09:42:52.000Z",
-          "wordCount": 533,
+          "wordCount": 537,
           "title": "mysql online DDL 时间很长，咋整，数据量不多，就 30W",
           "imageUrl": null
         },
@@ -471,7 +471,7 @@
           "description": "mMartin: 视频地址： https://www.bilibili.com/video/BV1XbrYY4EKm/?vd_source=bdd39f2fca456f0815c8242c657e40b5\n  截图：",
           "link": "https://www.v2ex.com/t/1103618",
           "publishedOn": "2025-01-08T09:40:36.000Z",
-          "wordCount": 537,
+          "wordCount": 539,
           "title": "小米开源 HA 插件以后又有了兴趣折腾 Homeassistant,摸鱼一天半搞了这个面板",
           "imageUrl": null
         },
@@ -561,7 +561,7 @@
           "description": "huangyouzhuguxi: \n起因我手机没看见了,我以为是出去玩掉了，绑定了华为找回，上次回家忘记拿了，被家里读初中小孩收起来\n在打王者 成绩中等\n主要想问对于这种不爱读书的小孩在这个年龄段怎么去管",
           "link": "https://www.v2ex.com/t/1103601",
           "publishedOn": "2025-01-08T08:52:56.000Z",
-          "wordCount": 613,
+          "wordCount": 625,
           "title": "到底手机能不能给小孩子玩",
           "imageUrl": null
         },
@@ -571,7 +571,7 @@
           "description": "itse003: 使用 follow3 个多月，每日平均时长应该在 3h 略高，大号 Power 排名前 100 。\n花了大量时间创建梳理订阅源，一个号不够用（ 500 订阅源），注册了一个小号（专门关注 NSFW ）。\n第一期分享：B 站小姐姐\nlist1：《最强 B 站小姐姐》\nhttps://app.follow.is/share/lists/99724776999396352?view=3\n最强 B 站小姐姐聚合。\n看过 follow 上几乎所有相关列表，逐一订阅了 400 多位小姐姐，并进行剔除，目前收录 100+，pass 率超 75%。\n总花费精力超 10h+，绝对值得订阅。\n收录选美标准：1 须露脸的、2 不能太幼的、3 颜值够顶的、4 非 Cos 的（颜值绝顶的 cos 会收录，否则收录进另一个次优列表：B 站 cos 小姐姐）\nlist2：《 B 站 cos 小姐姐》\nhttps://app.follow.is/share/lists/99733100320699392?view=3\n因为自己不是 cos 粉，不因 cos 看 cos ，只馋小姐姐身子。\n因此收录标准更高，只收录颜值超一流的 cos 小姐姐，(非粉丝)有时间会看看的那种，目前收录 30+。\n注：超绝顶的 cos ，放在了《最强 B 站小姐姐》 list 。\n下一期预告：最强小涩站。",
           "link": "https://www.v2ex.com/t/1103600",
           "publishedOn": "2025-01-08T08:52:09.000Z",
-          "wordCount": 456,
+          "wordCount": 460,
           "title": "最强 follow 源（第一期： B 站小姐姐）",
           "imageUrl": null
         },
@@ -611,7 +611,7 @@
           "description": "kingpo: 老婆预产还有十几天，正在准备一些东西。\n问下各位奶粉是怎么选购的，用什么牌子的，放心实惠。",
           "link": "https://www.v2ex.com/t/1103596",
           "publishedOn": "2025-01-08T08:42:01.000Z",
-          "wordCount": 803,
+          "wordCount": 827,
           "title": "各位有娃的都给新生儿买什么奶粉，放心实惠的",
           "imageUrl": null
         },
@@ -691,7 +691,7 @@
           "description": "zsmile: \n看到别人说推荐一个 java 架构，默默想了下好像在公司里面看到的大多数都是 springBoot+mybatis 的形式，DDD 推出后好像也没看到什么公司用，是只有大公司在用吗？那现在国内外比较新的 java 架构都有啥呢？",
           "link": "https://www.v2ex.com/t/1103584",
           "publishedOn": "2025-01-08T08:06:10.000Z",
-          "wordCount": 820,
+          "wordCount": 839,
           "title": "国内的 Java 体系真的很落后吗？",
           "imageUrl": null
         }
