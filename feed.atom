@@ -1,509 +1,620 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-08T12:31:44.877Z</id>
+    <id>urn:2025-01-08T13:22:06.329Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-08T12:31:44.877Z</updated>
+    <updated>2025-01-08T13:22:06.329Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[如何让 BT 上传支持多外网宽带]]></title>
-        <id>https://www.v2ex.com/t/1103569</id>
-        <link href="https://www.v2ex.com/t/1103569"/>
-        <updated>2025-01-08T07:36:16.000Z</updated>
-        <summary type="html"><![CDATA[blankmiss: # [前文介绍]( https://www.v2ex.com/t/1077531)
-因为我是通过 Ikuai 进行多播然后进行负载均衡
-外网接口 dsl_2 ，adsl_3 
-我使用的是多线负载，两个不同的接口 根据新建连接数的模式进行，1:1 的负载均衡
-正常的状态下,我使用宽带只会使用到其中的一个接口，我一直想利用这个多播多出来的 50M 上传带宽。
-我使用了 aria2 的多源下载,让它从两个不同的外网接口去获取数据。
-这样确实可行,但是因为后端是 cloudreve ，使用了 OpenResty 去反向代理 cloudreve 。
-在请求过多的时候 会导致 OpenResty 资源占用非常大，而且它的缓存文件也极快的增长 [我没找到原因 只能不了了之] 
-但是如果我是使用 python 开启一个简单的 HTTP 服务，去给 aria2 进行多源下载，就没这个问题，不过我看 python 会报很多的连接错误，后面我也没继续分析了。
-直到今天我无意中做种发现,我的 qbittorrent 做种能稳定 10mb/s ，因为我的两个外网 IP 都开放了 qbittorrent 的端口
-且资源消耗也正常，我感觉这是一条不错的路，于是我尝试自己发一个种子然后通过其他电脑，去下载但是始终只能连接到其中的一个接口例如 adsl_2 ，我手动新增加用户也没有效果]]></summary>
+        <title type="html"><![CDATA[25 年汽车补贴政策出来了，家里的老面包正好满足，想给老爸换个车，平时市区周边活动，基本不出远门，大家有什么推荐吗？]]></title>
+        <id>https://www.v2ex.com/t/1103633</id>
+        <link href="https://www.v2ex.com/t/1103633"/>
+        <updated>2025-01-08T10:44:45.000Z</updated>
+        <summary type="html"><![CDATA[dayanshenjun:]]></summary>
         <author>
-            <name>blankmiss</name>
+            <name>dayanshenjun</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[有互换友链的吗]]></title>
-        <id>https://www.v2ex.com/t/1103567</id>
-        <link href="https://www.v2ex.com/t/1103567"/>
-        <updated>2025-01-08T07:34:06.000Z</updated>
-        <summary type="html"><![CDATA[LiuJiang:]]></summary>
+        <title type="html"><![CDATA[rising star js 昨天更新 2024 年内容了，感觉很多都没用过啊]]></title>
+        <id>https://www.v2ex.com/t/1103632</id>
+        <link href="https://www.v2ex.com/t/1103632"/>
+        <updated>2025-01-08T10:39:04.000Z</updated>
+        <summary type="html"><![CDATA[liushengxian1230: 
+https://risingstars.js.org/2024/en
+前十个里面 5 个去年有的，另外 3 个 AI 相关的。还是有很多新东西，在公布之前自己连听都没听过]]></summary>
         <author>
-            <name>LiuJiang</name>
+            <name>liushengxian1230</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[有没在用 MBP M4 标配版的]]></title>
-        <id>https://www.v2ex.com/t/1103565</id>
-        <link href="https://www.v2ex.com/t/1103565"/>
-        <updated>2025-01-08T07:26:50.000Z</updated>
-        <summary type="html"><![CDATA[nodesolar: 
-有没在用 MBP M4 标配版(10+10)，感觉如何平时编程用起来， 还在用 19 款准备利用国补换机器了]]></summary>
+        <title type="html"><![CDATA[外企里最大的敌人是国人领导以及阿三同事]]></title>
+        <id>https://www.v2ex.com/t/1103631</id>
+        <link href="https://www.v2ex.com/t/1103631"/>
+        <updated>2025-01-08T10:35:33.000Z</updated>
+        <summary type="html"><![CDATA[lymanbernadette6: 外企里呆了几年了，最大的感受就是中国中层和阿三是最恶心人的。
+中国领导最能恶心中国底层]]></summary>
         <author>
-            <name>nodesolar</name>
+            <name>lymanbernadette6</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[macOS 外接显示器总会花屏怎么解决呢？]]></title>
-        <id>https://www.v2ex.com/t/1103564</id>
-        <link href="https://www.v2ex.com/t/1103564"/>
-        <updated>2025-01-08T07:25:51.000Z</updated>
-        <summary type="html"><![CDATA[cnzmz: 
-想看看日志，没太搜到合适的日志输出。
-尝试删了一下有个配置文件，还是会出现这种情况。
-换了 typec 会好一点，但还是偶发的不能正常输出。电脑是 m1 的 macbook ，显示器和线都是普通的。]]></summary>
+        <title type="html"><![CDATA[求推荐团队盘，需要实现一些常见功能]]></title>
+        <id>https://www.v2ex.com/t/1103630</id>
+        <link href="https://www.v2ex.com/t/1103630"/>
+        <updated>2025-01-08T10:32:22.000Z</updated>
+        <summary type="html"><![CDATA[sqlemma: 
+团队盘，要求如下
+分发给每个人一个子账号，子账号相对独立存在
+管理员可以管理用户的行为，比如上传-下载权限，阅读权限等
+可以接收付费
+最好是国内盘，国外的能用也行
+可以开通的子账户最好 50 个以上
+野鸡盘不考虑，数据存储还是要相对安全稳定为好
+实在找不到合适的]]></summary>
         <author>
-            <name>cnzmz</name>
+            <name>sqlemma</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[现阶段的 AI，有哪家能够良好的实现两张图的融合吗，比如一直肖像照，一张项链照片，将项链融合在肖像上]]></title>
-        <id>https://www.v2ex.com/t/1103563</id>
-        <link href="https://www.v2ex.com/t/1103563"/>
-        <updated>2025-01-08T07:25:32.000Z</updated>
-        <summary type="html"><![CDATA[gogf:]]></summary>
+        <title type="html"><![CDATA[你们帮小孩写作业么？]]></title>
+        <id>https://www.v2ex.com/t/1103629</id>
+        <link href="https://www.v2ex.com/t/1103629"/>
+        <updated>2025-01-08T10:29:15.000Z</updated>
+        <summary type="html"><![CDATA[stdout: 
+我小孩在深圳小学 6 年级，快期末考试了。上周末发了接近 10 套试卷，不认真专心根本写不完。我已经想通了，以后的作业只要是已经会的，全部抄答案，或是我帮忙写。比我们高中的作业还多，荒唐啊。]]></summary>
         <author>
-            <name>gogf</name>
+            <name>stdout</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2025 电子产品国补什么时候出？]]></title>
-        <id>https://www.v2ex.com/t/1103560</id>
-        <link href="https://www.v2ex.com/t/1103560"/>
-        <updated>2025-01-08T07:22:04.000Z</updated>
-        <summary type="html"><![CDATA[littleG: 
-想换手机了，等国补，啥时候出来，有指导等老哥吗]]></summary>
+        <title type="html"><![CDATA[各位大佬，请问有什么方法能 HDMI 投屏只投部分区域]]></title>
+        <id>https://www.v2ex.com/t/1103627</id>
+        <link href="https://www.v2ex.com/t/1103627"/>
+        <updated>2025-01-08T10:14:21.000Z</updated>
+        <summary type="html"><![CDATA[yeyuanxinyi: 
+我的问题，我需要参加一个公司内部的评讲，需要用电脑进行 HDMI 投屏，但是我语言功底很差，所以写了稿子。但是投屏到大屏幕不能让稿子出现，如何我还需要进行一些代码编辑用扩展的方法行不通，请问有其他办法吗
+如下图：请问有什么办法只投屏幕的代码区域然后我还能进行一些操作]]></summary>
         <author>
-            <name>littleG</name>
+            <name>yeyuanxinyi</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SoundSource 有什么平替吗？]]></title>
-        <id>https://www.v2ex.com/t/1103559</id>
-        <link href="https://www.v2ex.com/t/1103559"/>
-        <updated>2025-01-08T07:21:28.000Z</updated>
-        <summary type="html"><![CDATA[kafkaonsea: 
-也不需要 EQ ，Boost 那些功能，是需要能选择音频的输入和输出设备，然后调节（外显示器的）音量]]></summary>
-        <author>
-            <name>kafkaonsea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[uu 加速盒给 ps5 分配 192.168.163 网段，导致内网无法连通]]></title>
-        <id>https://www.v2ex.com/t/1103558</id>
-        <link href="https://www.v2ex.com/t/1103558"/>
-        <updated>2025-01-08T07:20:07.000Z</updated>
-        <summary type="html"><![CDATA[vfx666: 我的内网是 192.168.1 网段，用盒子加速后 ps5 网段变成了 163 ，这样我在局域网里面远程串流 ps5 就连不上。问了 uu 客服说这个 ip 无法更改，请教大佬有啥解决方案吗]]></summary>
-        <author>
-            <name>vfx666</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么缅甸诈骗无法根除]]></title>
-        <id>https://www.v2ex.com/t/1103557</id>
-        <link href="https://www.v2ex.com/t/1103557"/>
-        <updated>2025-01-08T07:19:39.000Z</updated>
-        <summary type="html"><![CDATA[xiaoniu559: 缅甸诈骗已经人尽皆知，为啥缅甸官方却无法根除这些团伙。之前熊猫不是已经进行一次武装协助了嘛，为啥这些团伙还是那么猖獗呢]]></summary>
-        <author>
-            <name>xiaoniu559</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有没有这样一款翻译/词典软件]]></title>
-        <id>https://www.v2ex.com/t/1103556</id>
-        <link href="https://www.v2ex.com/t/1103556"/>
-        <updated>2025-01-08T07:18:50.000Z</updated>
-        <summary type="html"><![CDATA[nanajj: + 支持 macOS
-+ 响应快，不卡顿、UI 简单漂亮
-+ 热键呼出窗口，在屏幕正中或下方显示，类似 Alfred 等（而不是菜单栏）
-+ 既可以简短的英汉互译，必要时又可以给出详细解释，能区分查词还是翻译
-+ 最好也能够调用 AI 给出解释/用法
-不需要支持复杂功能，比如划词翻译、OCR 等。
-----
-注： 多年欧路词典用户]]></summary>
-        <author>
-            <name>nanajj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[分享下开源的浏览器爬虫插件 Univer Clipsheet, 简单易用]]></title>
-        <id>https://www.v2ex.com/t/1103555</id>
-        <link href="https://www.v2ex.com/t/1103555"/>
-        <updated>2025-01-08T07:18:08.000Z</updated>
-        <summary type="html"><![CDATA[siams: 
-Github: https://github.com/dream-num/univer-clipsheet
-安装地址：
-Release 页下载压缩包安装
-Chomre 商店
-不想安装商店版本可直接在 release 页下载安装体验, 开源版本跟商店版本略有不同，开源版本数据都存在本地。
-主要功能
-支持自动识别当前页面中的表格，直接采集， 也支持配置多种分页、点击、滚动等重复动作，实现自动化采集。
-同时支持创建工作流定时执行采集功能，将采集的增量数据去重再更新等等。
-Core 代码
-这个采集插件的核心功能代码 core 放在了另一仓库，以包的形式被插件仓库引用，也同样开源，可以基于 core 提供的能力实现一个自己的采集插件，我也在 csdn 更新了第一章，大家有兴趣可以看看
-https://blog.csdn.net/2301_81013154/article/details/144995114?spm=1001.2014.3001.5502]]></summary>
-        <author>
-            <name>siams</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mac Mini M4 用投影仪做显示器如何？]]></title>
-        <id>https://www.v2ex.com/t/1103554</id>
-        <link href="https://www.v2ex.com/t/1103554"/>
-        <updated>2025-01-08T07:18:05.000Z</updated>
-        <summary type="html"><![CDATA[anoyi: 有没有老哥用 Mac Mini M4 ，然后用投影仪做显示器的，体验如何？]]></summary>
-        <author>
-            <name>anoyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬盘涨价是真狠啊～]]></title>
-        <id>https://www.v2ex.com/t/1103553</id>
-        <link href="https://www.v2ex.com/t/1103553"/>
-        <updated>2025-01-08T07:11:32.000Z</updated>
-        <summary type="html"><![CDATA[zsc8917zsc: 
-同样的一款硬盘 
-西部数据（ WD ） 16TB 企业级氦气机械硬盘 HC550 SATA 7200 转 512MB CMR 垂直 3.5 英寸 WUH721816ALE6L4 
-京东自营，比去年涨了 400 块～去年 1999 ，今年 2399.]]></summary>
-        <author>
-            <name>zsc8917zsc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[打造一个在线工具集合网站，疯狂构建中，包含但不限于图片处理、文字处理、颜色工具、代码工具等等]]></title>
-        <id>https://www.v2ex.com/t/1103552</id>
-        <link href="https://www.v2ex.com/t/1103552"/>
-        <updated>2025-01-08T07:10:00.000Z</updated>
-        <summary type="html"><![CDATA[qiOip: 
-都是很小的各种工具，但是尽量做到好用。欢迎大家访问提出建议/意见 Hamstertools
-目前已经有了 10 款小工具
-图片工具 图片合并
-将多张图片合并为一张。支持多种格式和自定义布局。
-图片工具 图片分割
-轻松将一张图片分割成多张小图片
-图片工具 图片反色
-立即反转任何图片的颜色，创建负片效果。适用于艺术效果和图片分析。
-图片工具 图片翻转
-立即水平或垂直翻转图片。适用于创建镜像效果或修正翻转的图片。
-文本工具 查找替换
-在文本中查找并替换特定内容。
-文本工具 删除换行
-删除文本中的换行符，可选择保留段落。
-文本工具 字数统计
-快速统计文本中的字数、句子数、字符数。支持多语言，适用于写作、翻译和内容分析。
-文本工具 文本大小写转换
-转换文本大小写：大写、小写、标题格式等
-随机工具 在线骰子工具
-免费在线骰子工具，支持多种骰子类型（ d4-d100 ）。完美适用于角色扮演游戏、桌游和概率计算。支持多组骰子投掷，并配有精美动画。
-随机工具 列表随机排序
-随机打乱列表中的项目。输入您的列表，工具将自动随机排序。支持数字、字母和自定义列表等多种类型。]]></summary>
-        <author>
-            <name>qiOip</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[职位名称: UI 设计师（远程办公，地点不限）]]></title>
-        <id>https://www.v2ex.com/t/1103551</id>
-        <link href="https://www.v2ex.com/t/1103551"/>
-        <updated>2025-01-08T07:09:26.000Z</updated>
-        <summary type="html"><![CDATA[mseddl: 
-工作地点： 远程办公
-工作主要时区：UTC+8
-工作职责:
-参与团队协作，创造创新性的设计方案，满足项目需求。
-与设计主管紧密配合，建立和维护视觉风格指南和设计系统。
-为产品（如：网站、应用程序、社交媒体宣传资料等）设计和制作高质量的视觉内容。
-与开发、市场等团队成员紧密合作，确保设计的一致性和可执行性。
-持续关注并研究设计趋势和最佳实践，不断提升设计技能和知识水平。
-职位要求:
-设计相关专业本科及以上学历，拥有 3 年以上相关工作经验。
-熟练掌握 Adobe 全家桶。
-熟悉 Figma ，包含 Auto Layout 等功能。
-优秀的审美能力和创意思维，能够将抽象概念转化为具体设计方案。
-良好的团队合作精神及沟通能力，能够有效跨部门协作。
-对国际设计趋势敏感，能迅速适应变化的市场需求。
-加分项:
-拥有游戏设计相关经验。
-能够使用英语开展工作。
-对 Web3 有深入了解。
-具备绘画或 3D 模型创作能力。
-福利待遇:
-月薪：2000U-4000U
-简历及作品投递： rockcc@beatbit.io 或 tg 联系 @rockcc20]]></summary>
-        <author>
-            <name>mseddl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[马上过年了，快递也要停了，各位有什么年货推荐吗？那种回购很多次的！]]></title>
-        <id>https://www.v2ex.com/t/1103550</id>
-        <link href="https://www.v2ex.com/t/1103550"/>
-        <updated>2025-01-08T07:08:55.000Z</updated>
-        <summary type="html"><![CDATA[captain55: 
-吃的？嘴馋，有什么吃的推荐？不局限于小零食，吃的都行。
-喝的？想买点平时不会得喝的酒水、气泡水啥的，没啥事在家微醺自己。
-玩的？可能会去看几场电影（姜文新片、唐探、封神、哪吒）]]></summary>
-        <author>
-            <name>captain55</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[macos 15.2 的输入法 bug]]></title>
-        <id>https://www.v2ex.com/t/1103549</id>
-        <link href="https://www.v2ex.com/t/1103549"/>
-        <updated>2025-01-08T07:06:19.000Z</updated>
-        <summary type="html"><![CDATA[fuckfaker: 最近刚入了个 m4pro 的 mbp ，原生的中文输入法，经常会吞字，比如输入 nihao ，结果拼音 ni 直接没了，直接打出一个好字，我试了下我的老 mbp ，Intel 的就没这个问题]]></summary>
-        <author>
-            <name>fuckfaker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Outlook 将来自微软自家的『Windows 预览体验计划』的邮件识别为垃圾邮件]]></title>
-        <id>https://www.v2ex.com/t/1103548</id>
-        <link href="https://www.v2ex.com/t/1103548"/>
-        <updated>2025-01-08T07:04:50.000Z</updated>
-        <summary type="html"><![CDATA[VisualStudioCode:]]></summary>
-        <author>
-            <name>VisualStudioCode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[近期想去香港办卡]]></title>
-        <id>https://www.v2ex.com/t/1103546</id>
-        <link href="https://www.v2ex.com/t/1103546"/>
-        <updated>2025-01-08T06:55:43.000Z</updated>
-        <summary type="html"><![CDATA[sunznx: 来攻略，或者组团一起去
-希望一天搞定，不要太累
-老司机来点避坑的经验]]></summary>
-        <author>
-            <name>sunznx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[准备去女方家，带父母，人比较多，不知道怎么处理到时候做饭的问题]]></title>
-        <id>https://www.v2ex.com/t/1103543</id>
-        <link href="https://www.v2ex.com/t/1103543"/>
-        <updated>2025-01-08T06:51:27.000Z</updated>
-        <summary type="html"><![CDATA[shoucanjun: 
-准备去女方家提亲，也谈了 2 年左右，最近跟丈母娘通视频，说到春节带上父母一起去见个面啥的，到时候一起吃个饭。
-女方家和我家都是农村的，我爸妈家也不是很远，大概一个小时的开车路程。
-我第一次线下见丈母娘他们，平时都是视频和电话见。
-丈母娘家也跟大概了解过我家里的情况啥的。
-很紧张第一次，她们家亲戚得知我过去都想要在那天都要见见我，人数上大概会有 30 多个人，挺紧张的。这几天都在买点见面礼啥的，准备给小朋友和丈母娘他们的红包，也准备的差不多。有个点还不知道要怎么处理。
-人数亲戚比较多，到时候丈母娘那边做饭啥的感觉忙不过来，不清楚要怎么处理。不过当时电话丈母娘说到时家里面人可以处理，但是感觉说有够忙活的。
-有想过几个处理方案：
-1 、要不请当地专门做席饭的团队来处理。
-2 、或者我跟爸妈也过去帮忙？（不太知道合适不）
-3 、去附近的酒店吃饭（感觉合适点）
-还有就是第一次还有什么要注意的点，真的很怕出意外啥的，有些地方没注意到。]]></summary>
-        <author>
-            <name>shoucanjun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不懂就问，这局扫雷我为啥失败了？]]></title>
-        <id>https://www.v2ex.com/t/1103542</id>
-        <link href="https://www.v2ex.com/t/1103542"/>
-        <updated>2025-01-08T06:49:58.000Z</updated>
-        <summary type="html"><![CDATA[duanjiong: 
-如下图， 最后剩下六个方块，三个雷，分析发现有两种情况都符合，所以我就假设左下角 3 下面的方块不是雷，然后最后就失败了。 碰到这种情况正确的解法应该是咋样的？]]></summary>
-        <author>
-            <name>duanjiong</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安卓足迹类 app 求推荐]]></title>
-        <id>https://www.v2ex.com/t/1103539</id>
-        <link href="https://www.v2ex.com/t/1103539"/>
-        <updated>2025-01-08T06:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Sirius8: 
-原先发过便携 gps 记录仪，后来发现还是手机 app 方便，毕竟手机不会忘带，目前苹果换了安卓，想请大家推荐款安卓足迹类 app ？
-类似 ios 上一生足迹的 app ，常驻手机后台的那种
-目前花重金买了世界迷雾但是感觉耗电量大，有时无法定位，无法使用高德。]]></summary>
-        <author>
-            <name>Sirius8</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自从停掉了我的京东云路由器，宽带速度嗖嗖的]]></title>
-        <id>https://www.v2ex.com/t/1103538</id>
-        <link href="https://www.v2ex.com/t/1103538"/>
-        <updated>2025-01-08T06:38:00.000Z</updated>
-        <summary type="html"><![CDATA[8675bc86: 
-这几个月宽带各种诡异的问题，终于解决了。
-京东云看来是时候卖了。]]></summary>
-        <author>
-            <name>8675bc86</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[可否实现：网页中的链接为 smb 访问路径？用户点击后弹出文件管理器跳转到 smb 地址访问？]]></title>
-        <id>https://www.v2ex.com/t/1103537</id>
-        <link href="https://www.v2ex.com/t/1103537"/>
-        <updated>2025-01-08T06:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Exp: 
-如题所示，公司内部有自己的 nas 共享服务器，提供 smb 访问，然后在内部的 gitlab issue 中我想粘贴相关的文件 smb 共享路径。用户点击的时候可以在浏览器内在线访问、或者弹出文件管理器跳转到相应链接、或者下载。
-有办法吗？对粘贴的地址形式有要求？或者需要相关配置？插件？软件？
-还是没有办法？]]></summary>
-        <author>
-            <name>Exp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你们能读对几个？]]></title>
-        <id>https://www.v2ex.com/t/1103535</id>
-        <link href="https://www.v2ex.com/t/1103535"/>
-        <updated>2025-01-08T06:35:26.000Z</updated>
-        <summary type="html"><![CDATA[dcy7287: 
-确 凿 què záo ，原读音：确凿(què)(zuò)。后因从俗改为：确凿 què záo
-荨（ qián ）麻疹改为荨（ xún ）麻疹。
-“呆板”本来读 ái bǎn ，但是后来为了尊重大众的习惯，所以从 1987 年开始，这个词的读音更改为 dāi bǎn 。
-铁骑，现代全部都读 qí，jì音已经取消了。新版新华字典这个字就只有 qí 一个读音。(旧读“jì”、“jí”，2005 年起，统一废“jì”、“jí”读“qí”，详见《新华字典》第 11 版)
-“斜”,古 霞，现在统读 鞋 （二声）远上寒山石径斜
-“说服”的汉语拼音注音是“shuō fú” 而不是“shuì fú”。《现代汉语词典》（中国社会科学院语言研究所词典编辑室编，商务印书馆出版，第六版 ）的条目（第 1225 页）
-唯（ wěi ）唯（ wěi ）诺诺改为唯（ wéi ）唯（ wéi ）诺诺
-靡（统读 mí）：“靡靡之音”一词中曾经读作 mǐ；
-箪食壶浆，第 5 版注音 dān sìhú jiāng ，第 6 版注音 dānshí hú jiāng
-橙，统读 chéng ，取消 chén （橙子）；
-从，统读 cóng ，取消 cōng （从容）；
-脊，统读 jǐ，取消 jí（脊梁）；
-迹，统读 jì，取消 jī（事迹）；
-绩，统读 jì，取消 jī（成绩）；
-框，统读 kuàng ，取消 kuāng （门框）；
-拎，统读 līn ，取消 līng （拎东西）；
-澎，统读 péng ，取消 pēng （澎湃）；
-绕，统读 rào ，取消 ráo （回绕）；
-往，统读 wǎng ，取消 wàng （往前走）；
-寻，统读 xún ，取消 xín （寻思）；
-荫，统读 yìn ，取消 yīn
-（树荫应写作树阴、林荫道应写作林阴道）；
-咱，统读 zán ，取消 zá（咱们）；
-作，在“作坊、洗衣作、豆腐作、小器作”中读 zuō，其他场合都读 zuò，即取消 zuó（作料）和部分词语中的 zuō（作弄、作揖、作死、自作自受）]]></summary>
-        <author>
-            <name>dcy7287</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windsurf wsl 远程连接使用，提问后，总是出现灰白色，要重启再提问又灰白色]]></title>
-        <id>https://www.v2ex.com/t/1103534</id>
-        <link href="https://www.v2ex.com/t/1103534"/>
-        <updated>2025-01-08T06:34:40.000Z</updated>
-        <summary type="html"><![CDATA[crolin: 
-提问后，总是出现灰白色，要重启再提问又灰白色，一直正使用突然灰白色，是代理问题，还是什么问题，你们使用有遇到没]]></summary>
-        <author>
-            <name>crolin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公司 2024 年的节日都没有发礼品, 每次回去都两手空空]]></title>
-        <id>https://www.v2ex.com/t/1103529</id>
-        <link href="https://www.v2ex.com/t/1103529"/>
-        <updated>2025-01-08T06:29:40.000Z</updated>
-        <summary type="html"><![CDATA[wweerrgtc:]]></summary>
-        <author>
-            <name>wweerrgtc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[合同到期没有续签合同，该不该提醒，还是装傻？]]></title>
-        <id>https://www.v2ex.com/t/1103528</id>
-        <link href="https://www.v2ex.com/t/1103528"/>
-        <updated>2025-01-08T06:27:52.000Z</updated>
-        <summary type="html"><![CDATA[xiaomajia008: 月初合同到期了，HR 提供了个申请单子让填写，单子上内容大概是合同续签的申请表，名字工号啥的。并且领导也签字同意合同续签。
-将纸质表格交给 HR 后，再也没找过我，这个月填表格的都没后续。
-按正常流程来说不是应该立马签纸质合同么？到今天为止我还没签任何续签合同，已经过了上份合同的截止日期了。。那我是不是装傻到后面可以申请仲裁了？
+        <title type="html"><![CDATA[[求助] Pycharm 中使用 CodeGPT 插件接入 deepseek 代码补全中文无法显示]]></title>
+        <id>https://www.v2ex.com/t/1103626</id>
+        <link href="https://www.v2ex.com/t/1103626"/>
+        <updated>2025-01-08T10:11:14.000Z</updated>
+        <summary type="html"><![CDATA[Geekgogo: 
+如图所示：
 
-PS：公司也不咋滴，没必要耗在这里。]]></summary>
+配置如下：
+
+预输入阶段中文是问号方框，英文没问题。之前用 copilot 是没问题的。是我配置得哪里有问题吗？]]></summary>
         <author>
-            <name>xiaomajia008</name>
+            <name>Geekgogo</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DirectoryOpus 官网无法访问 大佬有啥办法不？]]></title>
-        <id>https://www.v2ex.com/t/1103527</id>
-        <link href="https://www.v2ex.com/t/1103527"/>
-        <updated>2025-01-08T06:23:33.000Z</updated>
-        <summary type="html"><![CDATA[wukong888: 
-DirectoryOpus 非常好用，但是有个问题，其官网（ www.gpsoft.com.au ）无论是使用 VPN 还是断开 VPN ，都无法访问，带来的问题是软件无法连接到更新服务器，每次的版本更新都得自己网上搜最新的版本来更新，不知道啥原因，换了不同的运营商，依然不行。]]></summary>
+        <title type="html"><![CDATA[各位 Mysql 大佬，问一个 8.0 版本 json 的问题]]></title>
+        <id>https://www.v2ex.com/t/1103625</id>
+        <link href="https://www.v2ex.com/t/1103625"/>
+        <updated>2025-01-08T10:08:36.000Z</updated>
+        <summary type="html"><![CDATA[Vesc: 为啥编辑老是提示拦截]]></summary>
         <author>
-            <name>wukong888</name>
+            <name>Vesc</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[雲手機]]></title>
-        <id>https://www.v2ex.com/t/1103526</id>
-        <link href="https://www.v2ex.com/t/1103526"/>
-        <updated>2025-01-08T06:22:13.000Z</updated>
-        <summary type="html"><![CDATA[wisetc: 
-雲主機有了，雲手機有沒有
-就上自己的號]]></summary>
+        <title type="html"><![CDATA[2 月底一个人去香港旅游+办卡，来 V2 取点经]]></title>
+        <id>https://www.v2ex.com/t/1103623</id>
+        <link href="https://www.v2ex.com/t/1103623"/>
+        <updated>2025-01-08T10:06:43.000Z</updated>
+        <summary type="html"><![CDATA[htsuki: 
+办卡：想投资国外股市和债券，国内几个 QDII 都已经停止申购了，想抓紧去香港把卡办了。
+目前是打算办理汇丰+中银的经典组合，到时候办卡就说用于投资理财，已经准备的资料有：
+地址证明：中信信用卡流水账单（含租房地址和流水）+租房合同+支付宝水电缴费记录。因为在京城租房，且不便于联系房东索要国家电网账号，只能用支付宝水电缴费记录代替，有没有同样是租房的朋友有这方面的经验？银行经理认不认？
+收入证明：工资卡流水账单
+资产证明+投资证明：支付宝活期余额+投资记录，本人没有大 a 账户，一般都是工资转到支付宝活期+定投 QDII ，银行经理认不认？
+余额多少会不会影响开卡？之前玩游戏花钱比较厉害，且在北京租房生活，现在全身家当也就 5 个达不溜，会不会被银行经理认为是无价值用户不给开卡。
+还有哪些资料可以准备以防万一？
+旅游：酒店在尖沙咀，因为是一个人旅游，安排相对灵活，现在是预计第一天和第二天去银行办卡，听说中银不好预约+下卡难，所以准备汇丰预约+中银 walkin ，中银下不来就要多跑几家，后面 3 天随意安排。
+比较喜欢吃海鲜，有没有推荐的地方？
+有没有什么小玩意可以带回去回血的？轻装上阵所以只打算带一个小旅行箱+背包。
+特产有无推荐？准备给同事和老家的亲戚带一点。
+同事都推荐我去港迪，但我一个男的去是不是有点太尴尬了。
+带了个 action5pro ，想拍点景点和景观啥的，除了维多利亚港还有哪些推荐的？
+5 天带 5000 港币够不够用？
+任意建议和经验都可，感谢各位 v 友。]]></summary>
         <author>
-            <name>wisetc</name>
+            <name>htsuki</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[做了一个本地字体预览工具，可以方便的批量对比自定义内容的字体效果，欢迎试用]]></title>
-        <id>https://www.v2ex.com/t/1103525</id>
-        <link href="https://www.v2ex.com/t/1103525"/>
-        <updated>2025-01-08T06:16:10.000Z</updated>
-        <summary type="html"><![CDATA[pigz: 
-先放网址： https://fontshow.com
-再来介绍：
-在制作各种图标 LOGO 海报物料或文字排版的时候，经常需要在一堆字体中找到一个更好看的，然而大部分设计工具中只能一个一个选择查看，但我本地有近 2000 个字体，单个选择浏览效率太低，于是我做了这个批量的字体预览对比工具，把所有字体效果一起列出并平铺整个屏幕进行浏览，能极大的提高字体挑选效率
-可以自定义任意文字内容，支持调整文字大小、行高间距和对齐等样式，常用字体可以加星标
-无需下载安装，也不用注册登录，浏览器内就能使用（需要授权本地字体使用权限，仅支持 Chrome 和 Edge ）
-感兴趣的可以试试：字体秀 FontShow 字体预览对比工具]]></summary>
+        <title type="html"><![CDATA[V 友们，是否有 互联网开发 转行 量化开发 的经验]]></title>
+        <id>https://www.v2ex.com/t/1103622</id>
+        <link href="https://www.v2ex.com/t/1103622"/>
+        <updated>2025-01-08T09:56:28.000Z</updated>
+        <summary type="html"><![CDATA[bacon123: 请问这个行业如何入门，前景如何，是否有 35 危机]]></summary>
         <author>
-            <name>pigz</name>
+            <name>bacon123</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[被大 A 虐惨了]]></title>
-        <id>https://www.v2ex.com/t/1103524</id>
-        <link href="https://www.v2ex.com/t/1103524"/>
-        <updated>2025-01-08T06:15:28.000Z</updated>
-        <summary type="html"><![CDATA[maierhuang: 
-哎  上周五开始买入  一路下跌  -20%]]></summary>
+        <title type="html"><![CDATA[leiting 机场是跑路了吗？]]></title>
+        <id>https://www.v2ex.com/t/1103621</id>
+        <link href="https://www.v2ex.com/t/1103621"/>
+        <updated>2025-01-08T09:53:04.000Z</updated>
+        <summary type="html"><![CDATA[hanssx: 
+之前看中它的按量付费和速度买的，后面发现 subconvert 转换不了（之前是能转换的），提示
+The following link doesn't contain any valid node info: tag:leiting,https://nn8qozmu.nn8qozmu.top/api/v1/client/subscribe?token=
+
+直接访问订阅链接显示这（总感觉怪怪的）
+
+工单也没人回复。]]></summary>
         <author>
-            <name>maierhuang</name>
+            <name>hanssx</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[英伟达推出了 RTX5090，大家买显卡都用来干啥呀]]></title>
-        <id>https://www.v2ex.com/t/1103523</id>
-        <link href="https://www.v2ex.com/t/1103523"/>
-        <updated>2025-01-08T06:13:29.000Z</updated>
-        <summary type="html"><![CDATA[jeddida: 
-看到有个热帖在讨论 RTX5090 ，有点想不明白大家买卡都是用来打游戏吗？还是 btc ？大模型？]]></summary>
+        <title type="html"><![CDATA[上海有哪些公司可以给落户提供便利？]]></title>
+        <id>https://www.v2ex.com/t/1103620</id>
+        <link href="https://www.v2ex.com/t/1103620"/>
+        <updated>2025-01-08T09:49:55.000Z</updated>
+        <summary type="html"><![CDATA[messiah163: 
+题主目前在杭州从事数仓工作，娃明年读一年级，想了解下上海的落户情况及建议]]></summary>
         <author>
-            <name>jeddida</name>
+            <name>messiah163</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[v 友们我想做个 up 直播录播素材训练,这个用哪个大模型 可以训练,需要做什么]]></title>
-        <id>https://www.v2ex.com/t/1103522</id>
-        <link href="https://www.v2ex.com/t/1103522"/>
-        <updated>2025-01-08T06:09:04.000Z</updated>
-        <summary type="html"><![CDATA[liudewa: 
-录播进行集合分析,能搜索里面的片段内容
-直接分析视频,是不是 api 要付大量费用
-目的: 就是 能搜索 和 以对话形式 进行问答]]></summary>
+        <title type="html"><![CDATA[mysql online DDL 时间很长，咋整，数据量不多，就 30W]]></title>
+        <id>https://www.v2ex.com/t/1103619</id>
+        <link href="https://www.v2ex.com/t/1103619"/>
+        <updated>2025-01-08T09:42:52.000Z</updated>
+        <summary type="html"><![CDATA[hhhhhh123: 
+下面是说明和当时场景
+我自己的 app 基本上所有的时间查询我都使用了 date 函数 QAQ
+select uid, balance, create_time from day_check_in where date(create_time) = date(%(入参时间)s) and uid = '123';
+
+近期想优化接口，使用 EXPLAIN 一看头皮发麻， 虽然目前数据量不多，但是很难看。
+当我翻看文档和搜索后发现 可以使用 online DDL 创建索引的时候 可以尽可能的不影响 CURD 操作，不过一些 特殊的 sql 还是会影响，会等待创建索引后才能执行一些查询。
+不过这个问题不大，因为我可以避开这个时间段！
+后面我执行了 
+ALTER TABLE balance_records ADD INDEX index_uid_create_time (uid, create_time)
+
+发现执行了 5 分钟还是没有执行成功。 使用 SHOW PROCESSLIST; 查看 sql 的运行情况，发现没有什么 sql 和创建索引 sql 冲突， 意味着 创建索引 sql 还在执行。  
+我以为是数据量大的原因， 当我把这个表所有的数据拷贝到 test 库中， 我执行了 创建索引的指令，结果 2 秒就执行完了。
+有没有大佬知道 为啥我拷贝的表执行几秒钟就执行完了。]]></summary>
         <author>
-            <name>liudewa</name>
+            <name>hhhhhh123</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[佬们有没有可以代替 admob 的广告平台？]]></title>
-        <id>https://www.v2ex.com/t/1103521</id>
-        <link href="https://www.v2ex.com/t/1103521"/>
-        <updated>2025-01-08T06:08:16.000Z</updated>
-        <summary type="html"><![CDATA[k9982874: 
-admob 需要发布商店，有没有不需要发布的广告平台]]></summary>
+        <title type="html"><![CDATA[小米开源 HA 插件以后又有了兴趣折腾 Homeassistant,摸鱼一天半搞了这个面板]]></title>
+        <id>https://www.v2ex.com/t/1103618</id>
+        <link href="https://www.v2ex.com/t/1103618"/>
+        <updated>2025-01-08T09:40:36.000Z</updated>
+        <summary type="html"><![CDATA[mMartin: 视频地址： https://www.bilibili.com/video/BV1XbrYY4EKm/?vd_source=bdd39f2fca456f0815c8242c657e40b5
+  截图：]]></summary>
         <author>
-            <name>k9982874</name>
+            <name>mMartin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cursor 新版本卡顿]]></title>
+        <id>https://www.v2ex.com/t/1103615</id>
+        <link href="https://www.v2ex.com/t/1103615"/>
+        <updated>2025-01-08T09:32:43.000Z</updated>
+        <summary type="html"><![CDATA[fusi: 正常的点击跳转都要卡半天，一度以为是扩展问题，直到在 vscode 中发现跳转正常才意识到有可能是 cursor 本身的问题
+目前的应急方法是直接任务管理器，找到 cursor 中占用资源最高的那一条关掉
+不过这治标不治本，我也没有找到版本回退的方法，目前只能等待下一版更新了]]></summary>
+        <author>
+            <name>fusi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何自己实现类似 c-Lodop 的不中断打印效果？]]></title>
+        <id>https://www.v2ex.com/t/1103614</id>
+        <link href="https://www.v2ex.com/t/1103614"/>
+        <updated>2025-01-08T09:27:43.000Z</updated>
+        <summary type="html"><![CDATA[178620086: 
+背景：
+在开发一款可以本地运行的程序，用来接受网页端传递过来的打印请求（ html 代码段）其中包含文本，图片，表格，内容较长，使用的是爱普生针式打印机，可以连续进纸。
+已经尝试过的方案：
+使用 electron 打印功能（ print ）进行打印，指定一个自定义的页面宽高，打印后只有一页长度
+使用 electron 的导出 PDF 将 html 导出为一个单页长 pdf 后使用 pdftoprinter 或 SumatraPDF 或 GhostScript 进行打印均无法实现打印出完整的页面高度。
+问题： 请问如何实现出 C-Lodop 的无缝长页面打印效果。
+期望使用：electron 实现
+相关提问地址：
+https://github.com/sumatrapdfreader/sumatrapdf/issues/4736
+https://stackoverflow.com/questions/79319196/how-to-achieve-continuous-printing-of-long-receipts-on-dot-matrix-printer]]></summary>
+        <author>
+            <name>178620086</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[个人开发者收款以及分销相关的，有了解的吗]]></title>
+        <id>https://www.v2ex.com/t/1103612</id>
+        <link href="https://www.v2ex.com/t/1103612"/>
+        <updated>2025-01-08T09:23:09.000Z</updated>
+        <summary type="html"><![CDATA[mswh: 搞软件开发副业快 2 年了，也算是有点起色，不过想要做大感觉卡在收款上面了
+目前用的是自建发卡网实现的会员购买，有点麻烦
+而且现在不时有人询问能不能分销，然而我选的发卡网不支持分销，异次元发卡好像有漏洞，独角数卡貌似国内容易被封。本人前端，用的是 electron+node 技术路线，对后端只能写简单的增删改查，收款和分销比较复杂搞不定。
+大家做个人开发者都怎么收款的？，还有分销这种都怎么处理呢，特别是桌面软件的]]></summary>
+        <author>
+            <name>mswh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[什么叫工作积极主动？]]></title>
+        <id>https://www.v2ex.com/t/1103611</id>
+        <link href="https://www.v2ex.com/t/1103611"/>
+        <updated>2025-01-08T09:22:18.000Z</updated>
+        <summary type="html"><![CDATA[zuotun: 被领导念了几次了，可我上的这个班名义八小时实际六小时，还可能一整天都没一件活，月中和月末才稍微会忙点。]]></summary>
+        <author>
+            <name>zuotun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求内向程序员进国企的生存之道]]></title>
+        <id>https://www.v2ex.com/t/1103610</id>
+        <link href="https://www.v2ex.com/t/1103610"/>
+        <updated>2025-01-08T09:15:31.000Z</updated>
+        <summary type="html"><![CDATA[isSimon: 
+入职三线城市国企半年了，年底要评绩效，项目领导说我可能是 C ，还没通知下来。C 的原因原因可能是：1 、很少跟部门经理汇报沟通。2 、新人定锅。但也有入职比我晚的。
+所以项目领导让我最近多找经理汇报汇报。我平时都和项目领导，产品，测试汇报交流，确实没和部门经理沟通。
+所以有没有大佬教教我]]></summary>
+        <author>
+            <name>isSimon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海张江 nVidia 招聘 senior test developer engineer]]></title>
+        <id>https://www.v2ex.com/t/1103609</id>
+        <link href="https://www.v2ex.com/t/1103609"/>
+        <updated>2025-01-08T09:14:08.000Z</updated>
+        <summary type="html"><![CDATA[pdckxd: 
+可以私信联系我内推]]></summary>
+        <author>
+            <name>pdckxd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德国的实际收入]]></title>
+        <id>https://www.v2ex.com/t/1103608</id>
+        <link href="https://www.v2ex.com/t/1103608"/>
+        <updated>2025-01-08T09:13:16.000Z</updated>
+        <summary type="html"><![CDATA[cyhou: 
+刚看一个 Reddit 帖子一个德国的收入收集贴,有条件可以自己去看看, 在线翻译一下看看,德国各行业真实的收入和工作的满意度 https://www.reddit.com/r/Finanzen/comments/1hw4gwg/welchen_beruf_habt_ihr_und_wieviel_verdient_ihr/
+以下是几个例子
+Beruf: Ergotherapeut
+职业: 作业治疗师
+Berufserfahrung/Alter: 4 Jahre/28M
+工作经验/年龄: 4 年/28 岁男性
+Stundenwoche: 40h/Woche
+每周工作时间: 每周 40 小时
+Nettogehalt (plus zusatz?): 2.200€ (+160€ brutto Urlaubsgeld)
+净收入（加上额外收入？）: 2200 欧元（+160 欧元税前假期津贴）
+Wie zufrieden seid ihr?: Spaß am Job ja! Gehaltstechnisch nicht.
+您对工作满意吗？: 工作有乐趣！但对薪资不满意。
+Beruf: Softwareentwickler
+职业: 软件开发人员
+Berufserfahrung/Alter: 2 Jahre/25M
+工作经验/年龄: 2 年/25 岁男性
+Stundenwoche: 38h/Woche
+每周工作时间: 每周 38 小时
+Nettogehalt (plus zusatz?): 3.000€
+净收入（加上额外收入？）: 3000 欧元
+Wie zufrieden seid ihr?: Sehr zufrieden mit Job und Gehalt.
+您对工作满意吗？: 对工作和薪资非常满意。
+Beruf: Lehrer
+职业: 教师
+Berufserfahrung/Alter: 10 Jahre/40M
+工作经验/年龄: 10 年/40 岁男性
+Stundenwoche: 45h/Woche
+每周工作时间: 每周 45 小时
+Nettogehalt (plus zusatz?): 2.800€
+净收入（加上额外收入？）: 2800 欧元
+Wie zufrieden seid ihr?: Liebe meinen Job, Gehalt könnte besser sein.
+您对工作满意吗？: 热爱我的工作，薪资可以更高些。
+Beruf: Krankenpfleger
+职业: 护士
+Berufserfahrung/Alter: 5 Jahre/30F
+工作经验/年龄: 5 年/30 岁女性
+Stundenwoche: 40h/Woche
+每周工作时间: 每周 40 小时
+Nettogehalt (plus zusatz?): 2.400€ (+Schichtzulagen)
+净收入（加上额外收入？）: 2400 欧元（+轮班津贴）
+Wie zufrieden seid ihr?: Job ist okay, Bezahlung könnte besser sein.
+您对工作满意吗？: 工作还行，薪资可以更高些。
+Beruf: Verwaltungsangestellter
+职业: 行政职员
+Berufserfahrung/Alter: 8 Jahre/35M
+工作经验/年龄: 8 年/35 岁男性
+Stundenwoche: 39h/Woche
+每周工作时间: 每周 39 小时
+Nettogehalt (plus zusatz?): 2.600€
+净收入（加上额外收入？）: 2600 欧元
+Wie zufrieden seid ihr?: Zufrieden mit Arbeitszeiten, Gehalt könnte höher sein.
+您对工作满意吗？: 对工作时间满意，薪资可以更高些。]]></summary>
+        <author>
+            <name>cyhou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[=== 实不相瞒，我真的看不起 iot.ctwing.cn 的后端开发 ===]]></title>
+        <id>https://www.v2ex.com/t/1103603</id>
+        <link href="https://www.v2ex.com/t/1103603"/>
+        <updated>2025-01-08T09:03:14.000Z</updated>
+        <summary type="html"><![CDATA[FreeWong: 
+一个相同的接口的调用返回，你们看看，似乎是想返回什么就返回什么。而且你他妈的还不知道响应的状态码是多少。
+这样水平都可以混饭吃，你们焦虑什么呢
+product id 与 master api key 不相符的返回
+{
+  code:2010105
+  msg:"设备操作 MasterKey 不合法"
+  result:null
+}
+
+===========================================
+App Secret  长度不正确时的返回 未知
+===========================================
+App Secret 错误时的返回
+{
+  error_code:"401"
+  error_desc:"Signature not matched: application:xxxxxx \n timestamp:xxxx \n MasterKey:xxxx \n imei:86xxxx \n productId:xxxxxx \n "
+}
+
+===========================================
+正确的返回  响应 200 
+{
+    "code":0,
+    "msg":"ok",
+    "result":{
+        "deviceId":"xxxxx",
+        "deviceName":"xxxxx",
+        "tenantId":"xxxxx",
+        "productId":xxxxx,
+        "imei":"xxxxxx",
+        "imsi":null,
+        "firmwareVersion":null,
+        "deviceStatus":1,
+        "autoObserver":0,
+        "createTime":xxxx,
+        "createBy":"xxxx",
+        "updateTime":xxxx,
+        "updateBy":"xxxx",
+        "netStatus":2,
+        "onlineAt":xxxx,
+        "offlineAt":xxxxx
+    }
+}]]></summary>
+        <author>
+            <name>FreeWong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[到底手机能不能给小孩子玩]]></title>
+        <id>https://www.v2ex.com/t/1103601</id>
+        <link href="https://www.v2ex.com/t/1103601"/>
+        <updated>2025-01-08T08:52:56.000Z</updated>
+        <summary type="html"><![CDATA[huangyouzhuguxi: 
+起因我手机没看见了,我以为是出去玩掉了，绑定了华为找回，上次回家忘记拿了，被家里读初中小孩收起来
+在打王者 成绩中等
+主要想问对于这种不爱读书的小孩在这个年龄段怎么去管]]></summary>
+        <author>
+            <name>huangyouzhuguxi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最强 follow 源（第一期： B 站小姐姐）]]></title>
+        <id>https://www.v2ex.com/t/1103600</id>
+        <link href="https://www.v2ex.com/t/1103600"/>
+        <updated>2025-01-08T08:52:09.000Z</updated>
+        <summary type="html"><![CDATA[itse003: 使用 follow3 个多月，每日平均时长应该在 3h 略高，大号 Power 排名前 100 。
+花了大量时间创建梳理订阅源，一个号不够用（ 500 订阅源），注册了一个小号（专门关注 NSFW ）。
+第一期分享：B 站小姐姐
+list1：《最强 B 站小姐姐》
+https://app.follow.is/share/lists/99724776999396352?view=3
+最强 B 站小姐姐聚合。
+看过 follow 上几乎所有相关列表，逐一订阅了 400 多位小姐姐，并进行剔除，目前收录 100+，pass 率超 75%。
+总花费精力超 10h+，绝对值得订阅。
+收录选美标准：1 须露脸的、2 不能太幼的、3 颜值够顶的、4 非 Cos 的（颜值绝顶的 cos 会收录，否则收录进另一个次优列表：B 站 cos 小姐姐）
+list2：《 B 站 cos 小姐姐》
+https://app.follow.is/share/lists/99733100320699392?view=3
+因为自己不是 cos 粉，不因 cos 看 cos ，只馋小姐姐身子。
+因此收录标准更高，只收录颜值超一流的 cos 小姐姐，(非粉丝)有时间会看看的那种，目前收录 30+。
+注：超绝顶的 cos ，放在了《最强 B 站小姐姐》 list 。
+下一期预告：最强小涩站。]]></summary>
+        <author>
+            <name>itse003</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近有买房或者准备买房的吗？今年不知道房价是否还会大降一波]]></title>
+        <id>https://www.v2ex.com/t/1103599</id>
+        <link href="https://www.v2ex.com/t/1103599"/>
+        <updated>2025-01-08T08:47:05.000Z</updated>
+        <summary type="html"><![CDATA[xiexiping:]]></summary>
+        <author>
+            <name>xiexiping</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vuepress 引入 mermaid 失败, 求解.]]></title>
+        <id>https://www.v2ex.com/t/1103598</id>
+        <link href="https://www.v2ex.com/t/1103598"/>
+        <updated>2025-01-08T08:46:28.000Z</updated>
+        <summary type="html"><![CDATA[Foxalone: 
+安装了 npm i vuepress-plugin-mermaidjs. 
+清空了.temp, 重新 npm install, 在 config.js -> pluins 引入了 'vuepress-plugin-mermaidjs'
+然后就是 npm run docs:dev 启动
+README.md 文件只有:
+graph TD
+    A[开始] --> B[对接方使用 URL 链接进行免登录]
+    B --> C{验证免登录信息}
+    C -- 验证成功 --> D[跳转到首页]
+    C -- 验证失败 --> E[跳转到首页]
+    D --> F[用户访问个人中心]
+    F --> G[显示用户信息]
+    E --> H[用户访问个人中心]
+    H --> I[跳转到登录页]
+
+config.js 配置如下:
+export default defineUserConfig({
+  title: "",
+  description: " ",
+  lang: "zh-CN",
+  port: 8081,
+  dest: "public",
+  //
+  plugins: [
+    'vuepress-plugin-mermaidjs'
+  ],
+
+  bundler: viteBundler(),
+  theme: defaultTheme({
+    lastUpdated: false,      // 时间戳
+    contributors: false,    // 作者
+    logo: '/images/icon.png',
+    
+  }),
+});
+
+还是没成功. 还是显示代码块. 不知道什么原因, 也没报错. 问了 ai 和搜索引擎.有没有踩过坑的 v 大佬们帮下忙.]]></summary>
+        <author>
+            <name>Foxalone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[黑群晖更换 SATA 扩展卡的问题]]></title>
+        <id>https://www.v2ex.com/t/1103597</id>
+        <link href="https://www.v2ex.com/t/1103597"/>
+        <updated>2025-01-08T08:44:44.000Z</updated>
+        <summary type="html"><![CDATA[charlesmware877: 黑群晖，主板上装的是一个 8 口 SATA 扩展卡，现在的症状是黑群晖会不定时假死，多则十几天，少则四五天，表现为网上邻居里找不到，群晖助手也找不到，黑群晖机箱的硬盘指示灯一直常亮（正常应该是有数据读取的时候闪烁），必须要断电重启才行，重启之后系统会提示“经历非正常关机”，因为硬盘和主板 CPU 都是以前搭黑群晖的时候用过的，都没有问题，现在最大的怀疑就是这个 SATA 扩展卡，想把这个扩展卡换成两个 4 口的扩展卡，请问能直接更换吗？更换之后群晖系统还能正常识别出原来的 raid 设置吗？硬盘上的数据还能在吗？]]></summary>
+        <author>
+            <name>charlesmware877</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[各位有娃的都给新生儿买什么奶粉，放心实惠的]]></title>
+        <id>https://www.v2ex.com/t/1103596</id>
+        <link href="https://www.v2ex.com/t/1103596"/>
+        <updated>2025-01-08T08:42:01.000Z</updated>
+        <summary type="html"><![CDATA[kingpo: 老婆预产还有十几天，正在准备一些东西。
+问下各位奶粉是怎么选购的，用什么牌子的，放心实惠。]]></summary>
+        <author>
+            <name>kingpo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有用过 three.js 加载 mixamo 的模型的吗]]></title>
+        <id>https://www.v2ex.com/t/1103595</id>
+        <link href="https://www.v2ex.com/t/1103595"/>
+        <updated>2025-01-08T08:41:35.000Z</updated>
+        <summary type="html"><![CDATA[qwertyzzz: 
+有用过 mixamo 的吗 这里面下载的模型 为什么用 three.js 记载完了 都是双手伸直的状态啊 ，另外 character 和 animations 啥意思啊 ，是前面的是基础角色，后面的是动画吗   ，直接下载动画的加载完了也是一个手伸直的状态。。。]]></summary>
+        <author>
+            <name>qwertyzzz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[转型去 AI Agent 相关的公司，需要哪些技术栈？]]></title>
+        <id>https://www.v2ex.com/t/1103594</id>
+        <link href="https://www.v2ex.com/t/1103594"/>
+        <updated>2025-01-08T08:39:17.000Z</updated>
+        <summary type="html"><![CDATA[AichiB7A: 
+今天体验了一下 dify ，感觉功能非常强大，而且想像力空间很广，同时我也注意到 AI agent 的趋势。不知道有没有已经在做 AI agent 相关领域的前辈，请教一下这方便需要哪些技术背景？
+我大概知道的范围:
+Python
+langchain
+prompt engineering
+还有其他的吗？]]></summary>
+        <author>
+            <name>AichiB7A</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🔍 求助：寻找类似视频中的代码展示工具]]></title>
+        <id>https://www.v2ex.com/t/1103591</id>
+        <link href="https://www.v2ex.com/t/1103591"/>
+        <updated>2025-01-08T08:22:01.000Z</updated>
+        <summary type="html"><![CDATA[snowlee: 
+刚在推特上看到一个很棒的技术视频，里面展示代码和流程的方式非常优雅，想请教下是用什么工具制作的？
+https://x.com/aidenybai/status/1876689003661136094]]></summary>
+        <author>
+            <name>snowlee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求 websocket 长连接代理服务商（稳定可靠的有性价比）推荐]]></title>
+        <id>https://www.v2ex.com/t/1103590</id>
+        <link href="https://www.v2ex.com/t/1103590"/>
+        <updated>2025-01-08T08:17:17.000Z</updated>
+        <summary type="html"><![CDATA[superboss01: 多账号 连接到 mqtt.facebook.com 443 ,需要使用长连接代理进行支持；
+不知道有没有性价比高的长会话 IP 代理服务商推荐的。]]></summary>
+        <author>
+            <name>superboss01</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[想问问朋友们配眼镜配哪个好]]></title>
+        <id>https://www.v2ex.com/t/1103588</id>
+        <link href="https://www.v2ex.com/t/1103588"/>
+        <updated>2025-01-08T08:11:17.000Z</updated>
+        <summary type="html"><![CDATA[zhouxibai: 
+最近去测视力发现近视了，右眼近视左眼没近视。想问问配眼镜好还是不配好，镜片什么的有没有区别什么]]></summary>
+        <author>
+            <name>zhouxibai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求助， win 开启 5G 热点的方法，或者推荐款划算的路由器]]></title>
+        <id>https://www.v2ex.com/t/1103586</id>
+        <link href="https://www.v2ex.com/t/1103586"/>
+        <updated>2025-01-08T08:08:47.000Z</updated>
+        <summary type="html"><![CDATA[slowhand: 最近折腾 quest2 的无线串流，画面卡顿。
+家里路由器没有 5G 功能。
+然后想用电脑开个热点，5G 频段，开启失败，提示：所选网络波段不可用。
+网卡是：Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)，支持 5G 。
+查了下资料，英特尔网卡，地区限制，得先连接 5GWiFi （频段 149 以上），才能打开 5G 热点。
+手机在仅开流量的模式，热点可以选择 5G ，但是不能选择频段，尝试多次，连接后频段是 36 或 40 ，电脑还是开不了 5G 热点。
+1. 周围没有 5G 网络的情况下，电脑还有什么其他方法，可以强制开启 5G 热点么？
+2. 求推荐路由器。有 5G 频段，价格尽量便宜的。只有 1 组设备串流，WiFi5 系列的路由器是否够用？]]></summary>
+        <author>
+            <name>slowhand</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 毛钱做了个字体预览网站]]></title>
+        <id>https://www.v2ex.com/t/1103585</id>
+        <link href="https://www.v2ex.com/t/1103585"/>
+        <updated>2025-01-08T08:07:25.000Z</updated>
+        <summary type="html"><![CDATA[connoryang: 
+vscode + cline + deepseek 。
+为什么要做字体预览网站？
+因为市面上没有好用的字体数据库软件。
+有字体预览，但缺少字体数据库的功能。
+比如，FontExpert,fontlab （字体编辑软件），glphys,NexutFont,等等。
+有数据库的功能，但缺少字体功能。比如 Notion ，obsidian ，开源的 appflowy ，等等。
+有了方便，低成本的开发，ai 工具，以后比拼的不再是旧技术了，而是想法（ idea ），观念。
+其想法的背后是思维力，洞察力。还有执行力。
+这是用 ai 编程技术实际体验的感受,我不太会写代码。
+艺术同样如此。
+https://www.xiaohongshu.com/discovery/item/677e2e66000000001703e6e5?source=webshare&xhsshare=pc_web&xsec_token=AB8474QDLDw_KSMGGafkfZoCu3wVn0Kkkk2QmwLtbgMxI=&xsec_source=pc_share]]></summary>
+        <author>
+            <name>connoryang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国内的 Java 体系真的很落后吗？]]></title>
+        <id>https://www.v2ex.com/t/1103584</id>
+        <link href="https://www.v2ex.com/t/1103584"/>
+        <updated>2025-01-08T08:06:10.000Z</updated>
+        <summary type="html"><![CDATA[zsmile: 
+看到别人说推荐一个 java 架构，默默想了下好像在公司里面看到的大多数都是 springBoot+mybatis 的形式，DDD 推出后好像也没看到什么公司用，是只有大公司在用吗？那现在国内外比较新的 java 架构都有啥呢？]]></summary>
+        <author>
+            <name>zsmile</name>
         </author>
     </entry>
     <entry>
@@ -782,6 +893,27 @@ AI 带来的生产力提高并不能解放劳动者，由于剥削关系继续�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2024 · 前路未尽，初心犹在]]></title>
+        <id>https://innei.in/notes/184</id>
+        <link href="https://innei.in/notes/184"/>
+        <updated>2024-12-22T16:21:21.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184
+
+那晚的街道
+这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。
+https://innei.in/notes/161
+一次远行
+年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。
+
+https://innei.in/notes/162
+那次突如其来的裁员
+那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？
+想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Little Triangle in the Tooltip]]></title>
         <id>https://css-tricks.com/?p=383224</id>
         <link href="https://css-tricks.com/the-little-triangle-in-the-tooltip/"/>
@@ -980,6 +1112,31 @@ A:…]]></summary>
 Fluid Superscripts and Subscripts originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Lorenz Woehr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[构想：Electron Render OTA 更新]]></title>
+        <id>https://innei.in/posts/tech/electron-render-OTA-update</id>
+        <link href="https://innei.in/posts/tech/electron-render-OTA-update"/>
+        <updated>2024-12-11T16:00:38.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update
+
+动机
+
+由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。
+由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。
+
+拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。
+编写此文时，下面的实现正在 Follow 中实验。
+https://github.com/RSSNext/follow
+基础知识
+Electron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。
+在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。
+思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。
+热更实现
+我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
