@@ -347,7 +347,7 @@
           "description": "notifier: \n是软件下架了？还是只能通过什么别的方式在 iPhone 和 Apple TV 上安装了？",
           "link": "https://www.v2ex.com/t/1103494",
           "publishedOn": "2025-01-08T04:38:16.000Z",
-          "wordCount": 364,
+          "wordCount": 366,
           "title": "AListServer 怎么下载不到了？",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "ZGeek: \n运用「 3-2-1 原则」的目的则是，一旦遭遇文件损坏，及时的将文件恢复过来。所谓「 3-2-1 原则」，是指在进行文件备份时：\n3：存储 3 份完整文件，一份原件加上两份拷贝。\n2：将文件起码保持在两种不同的介质上。\n1：将一份拷贝保存在异地。\n但是这样做，对家用而言会带来两个较大的问题：\n成本高昂\n存储空间利用率低\n考虑到家用 NAS 数据的数据类型，正常来说都是照片比较多，即使搭建了较多的 self-hosted 的程序，每天产生的数据量也不大，而且相比企业，也比较能接受 1-3 天的数据丢失带来的问题。\n所以家用 NAS 想保证数据一定程度上的稳健，是不是这样做最好？\n两块存储，一块用来热时存储，一块用来做冷存储，每天同步增量同步一份数据到冷存储\n文档数据, 每天同步到云存储一份（坚果云、onedriver 、等随便，个人文档类的，一般 15GB 足够了）\n照片、影视类数据，每周同步到百度云或 oss （对象存储）一份（加密），因为这些数据变动不大，都是手机上拍完照之后攒一批才批量同步到 NAS 上的，手机上也不会立马删除。\n各位是如何保证家用 NAS 上的数据安全的？\nPS：家庭用户，不考虑被攻击和病毒勒索的问题。",
           "link": "https://www.v2ex.com/t/1103470",
           "publishedOn": "2025-01-08T03:30:17.000Z",
-          "wordCount": 769,
+          "wordCount": 788,
           "title": "家用 NAS 的备份方案？",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "xuqiccr: \n    小弟在使用 Django-Q 的时候发现建了 100 个任务，但是 q_cluster 只会执行前几十个任务，后面的任务会在队列中一直到 timeout 结束，但是看进程 q_cluster 的进程又是一直存在，头秃，不知道有大佬可以指点一下吗?\n我的 settings:\n# djangoQ 配置\nQ_CLUSTER = {\n    'name': 'myDjangoQ',  # 启动服务名\n    'workers': 2,  # 多少个 workers 的数量直接影响了任务处理的并发能力\n    'label': 'myDjangoQ_label',\n    'orm': 'default',  # 使用 Django ORM 作为后端\n    # 'recycle': 4,  # 工作进程在处理完指定数量的任务后，将自动重启自身以释放内存资源\n    'timeout': 10,  # 超时\n    # 'recycle_frequency': 4,  # 重启频率\n    'compress': False,  # 是否将任务包压缩后发送到代理\n    'save_limit': 250,  # 保存成功任务结果\n    'sync': False,  # 是否同步执行任务\n    'queue_limit': 2,  # 集群中的任务数量\n    'cpu_affinity': 1,  # 单个任务使用 cpu 核心\n    \"redis\": {\n        \"host\": config.get(\"redis\", 'host'),\n        \"port\": config.get(\"redis\", 'port'),\n        \"db\": 3,\n        \"password\": config.get(\"redis\", …",
           "link": "https://www.v2ex.com/t/1103468",
           "publishedOn": "2025-01-08T03:28:39.000Z",
-          "wordCount": 774,
+          "wordCount": 776,
           "title": "请教 Python 大佬 Django-Q 的使用问题",
           "imageUrl": null
         },
@@ -547,7 +547,7 @@
           "description": "silencelixing: 买了个 Mac mini M4 ，目前用 docker 搭建了很多服务，但是存储容量不够了。\n我的需求就是存照片+视频+尽量功耗低。\n目前已经买了 2 块 4T 的 3.5 存 sata 盘，\n是不是再买个能休眠的硬盘柜，就是最优解了？\n（备注：因为不相信自己能正确做好容灾，所以只是存一些不是很重要的照片影片，不组 raid ）",
           "link": "https://www.v2ex.com/t/1103466",
           "publishedOn": "2025-01-08T03:24:32.000Z",
-          "wordCount": 410,
+          "wordCount": 425,
           "title": "买了个 mac mini 来做 nas，可行吗？",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "mingtdlb: \n彦祖们，windows7 想看刷新率，有什么推荐的软件没？\nhttps://www.testufo.com/\n这个准不准？",
           "link": "https://www.v2ex.com/t/1103459",
           "publishedOn": "2025-01-08T03:21:04.000Z",
-          "wordCount": 390,
+          "wordCount": 394,
           "title": "有什么软件可以显示刷新率的？",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "ShioWSX: \n1 、我目前是 海露玻璃酸钠 + 叶黄素\n2 、时把显示器手动调节颜色设置，蓝色调到最低，使得整个页面都很黄\n3 、使用的是 vscode + onedark 暗黑主题\n4 、日常能用电脑大屏幕处理的就尽量用电脑，不使用手机\n5 、手机也是调成暖色加护眼模式\n6 、以前夏天的时候还会早上用温热毛巾敷眼睛\n各位还有什么补充建议的吗？因为我小时候眼睛受伤，导致只有一个眼睛能用，所以比较重视这块",
           "link": "https://www.v2ex.com/t/1103457",
           "publishedOn": "2025-01-08T03:19:38.000Z",
-          "wordCount": 789,
+          "wordCount": 796,
           "title": "各位程序员的护眼技巧分享一下",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "redemptionc: \n我不投资 A 股所以不太了解，因为如果只投资这些的话至少不会赔，而且还有稳定收益？",
           "link": "https://www.v2ex.com/t/1103456",
           "publishedOn": "2025-01-08T03:14:49.000Z",
-          "wordCount": 495,
+          "wordCount": 502,
           "title": "投资 A 股的大伙，为什么不投资银行股或者格力之类波动小股息高的？",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "PROJECT: 比较好奇，是用什么技术实现检测是否为 ai 回答的",
           "link": "https://www.v2ex.com/t/1103452",
           "publishedOn": "2025-01-08T03:09:12.000Z",
-          "wordCount": 1240,
+          "wordCount": 1392,
           "title": "我想问下 V2EX 论坛是靠什么检测回答是否是 ai 回答的？",
           "imageUrl": "/static/icon-192.png"
         },
