@@ -27,7 +27,7 @@
           "description": "I'm more thankful this time around because, last year, I didn't even get to write this post. But now that I'm back, writing this feels so, so, so good. There's a lot more gusto going into my writing when I say: thank you so very much! Let's tie a bow on this year and round up what happened around here in 2024.\nThank You (2024 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/thank-you-2024-edition/",
           "publishedOn": "2024-12-30T16:15:37.000Z",
-          "wordCount": 3719,
+          "wordCount": 3745,
           "title": "Thank You (2024 Edition)",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383295"
         },
@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -147,33 +153,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -381,7 +360,7 @@
           "description": "stdout: \n我小孩在深圳小学 6 年级，快期末考试了。上周末发了接近 10 套试卷，不认真专心根本写不完。我已经想通了，以后的作业只要是已经会的，全部抄答案，或是我帮忙写。比我们高中的作业还多，荒唐啊。",
           "link": "https://www.v2ex.com/t/1103629",
           "publishedOn": "2025-01-08T10:29:15.000Z",
-          "wordCount": 442,
+          "wordCount": 459,
           "title": "你们帮小孩写作业么？",
           "imageUrl": null
         },
@@ -421,7 +400,7 @@
           "description": "htsuki: \n办卡：想投资国外股市和债券，国内几个 QDII 都已经停止申购了，想抓紧去香港把卡办了。\n目前是打算办理汇丰+中银的经典组合，到时候办卡就说用于投资理财，已经准备的资料有：\n地址证明：中信信用卡流水账单（含租房地址和流水）+租房合同+支付宝水电缴费记录。因为在京城租房，且不便于联系房东索要国家电网账号，只能用支付宝水电缴费记录代替，有没有同样是租房的朋友有这方面的经验？银行经理认不认？\n收入证明：工资卡流水账单\n资产证明+投资证明：支付宝活期余额+投资记录，本人没有大 a 账户，一般都是工资转到支付宝活期+定投 QDII ，银行经理认不认？\n余额多少会不会影响开卡？之前玩游戏花钱比较厉害，且在北京租房生活，现在全身家当也就 5 个达不溜，会不会被银行经理认为是无价值用户不给开卡。\n还有哪些资料可以准备以防万一？\n旅游：酒店在尖沙咀，因为是一个人旅游，安排相对灵活，现在是预计第一天和第二天去银行办卡，听说中银不好预约+下卡难，所以准备汇丰预约+中银 walkin ，中银下不来就要多跑几家，后面 3 天随意安排。\n比较喜欢吃海鲜，有没有推荐的地方？\n有没有什么小玩意可以带回去回血的？轻装上阵所以只打算带一个小旅行箱+背包。\n特产有无推荐？准备给同事和老家的亲戚带一点。\n同事都推荐我去港迪，但我一个男的去是不是有点太尴尬了。\n带了个 action5pro ，想拍点景点和景观啥的，除了维多利亚港还有哪些推荐的？\n5 天带 5000 港币够不够用？\n任意建议和经验都可，感谢各位 v 友。",
           "link": "https://www.v2ex.com/t/1103623",
           "publishedOn": "2025-01-08T10:06:43.000Z",
-          "wordCount": 428,
+          "wordCount": 462,
           "title": "2 月底一个人去香港旅游+办卡，来 V2 取点经",
           "imageUrl": null
         },
@@ -471,7 +450,7 @@
           "description": "mMartin: 视频地址： https://www.bilibili.com/video/BV1XbrYY4EKm/?vd_source=bdd39f2fca456f0815c8242c657e40b5\n  截图：",
           "link": "https://www.v2ex.com/t/1103618",
           "publishedOn": "2025-01-08T09:40:36.000Z",
-          "wordCount": 539,
+          "wordCount": 559,
           "title": "小米开源 HA 插件以后又有了兴趣折腾 Homeassistant,摸鱼一天半搞了这个面板",
           "imageUrl": null
         },
@@ -501,7 +480,7 @@
           "description": "mswh: 搞软件开发副业快 2 年了，也算是有点起色，不过想要做大感觉卡在收款上面了\n目前用的是自建发卡网实现的会员购买，有点麻烦\n而且现在不时有人询问能不能分销，然而我选的发卡网不支持分销，异次元发卡好像有漏洞，独角数卡貌似国内容易被封。本人前端，用的是 electron+node 技术路线，对后端只能写简单的增删改查，收款和分销比较复杂搞不定。\n大家做个人开发者都怎么收款的？，还有分销这种都怎么处理呢，特别是桌面软件的",
           "link": "https://www.v2ex.com/t/1103612",
           "publishedOn": "2025-01-08T09:23:09.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "个人开发者收款以及分销相关的，有了解的吗",
           "imageUrl": null
         },
@@ -511,7 +490,7 @@
           "description": "zuotun: 被领导念了几次了，可我上的这个班名义八小时实际六小时，还可能一整天都没一件活，月中和月末才稍微会忙点。",
           "link": "https://www.v2ex.com/t/1103611",
           "publishedOn": "2025-01-08T09:22:18.000Z",
-          "wordCount": 402,
+          "wordCount": 407,
           "title": "什么叫工作积极主动？",
           "imageUrl": null
         },
@@ -561,7 +540,7 @@
           "description": "huangyouzhuguxi: \n起因我手机没看见了,我以为是出去玩掉了，绑定了华为找回，上次回家忘记拿了，被家里读初中小孩收起来\n在打王者 成绩中等\n主要想问对于这种不爱读书的小孩在这个年龄段怎么去管",
           "link": "https://www.v2ex.com/t/1103601",
           "publishedOn": "2025-01-08T08:52:56.000Z",
-          "wordCount": 625,
+          "wordCount": 635,
           "title": "到底手机能不能给小孩子玩",
           "imageUrl": null
         },
@@ -591,7 +570,7 @@
           "description": "Foxalone: \n安装了 npm i vuepress-plugin-mermaidjs. \n清空了.temp, 重新 npm install, 在 config.js -> pluins 引入了 'vuepress-plugin-mermaidjs'\n然后就是 npm run docs:dev 启动\nREADME.md 文件只有:\ngraph TD\n    A[开始] --> B[对接方使用 URL 链接进行免登录]\n    B --> C{验证免登录信息}\n    C -- 验证成功 --> D[跳转到首页]\n    C -- 验证失败 --> E[跳转到首页]\n    D --> F[用户访问个人中心]\n    F --> G[显示用户信息]\n    E --> H[用户访问个人中心]\n    H --> I[跳转到登录页]\n\nconfig.js 配置如下:\nexport default defineUserConfig({\n  title: \"\",\n  description: \" \",\n  lang: \"zh-CN\",\n  port: 8081,\n  dest: \"public\",\n  //\n  plugins: [\n    'vuepress-plugin-mermaidjs'\n  ],\n\n  bundler: viteBundler(),\n  theme: defaultTheme({\n    lastUpdated: false,      // 时间戳\n    contributors: false,    // 作者\n    logo: '/images/icon.png',\n    \n  }),\n});\n\n还是没成功. 还是显示代码块. 不知道什么原因, 也没报错. 问了 ai 和搜索引擎.有没有踩过坑的 v 大佬们帮下忙.",
           "link": "https://www.v2ex.com/t/1103598",
           "publishedOn": "2025-01-08T08:46:28.000Z",
-          "wordCount": 530,
+          "wordCount": 537,
           "title": "vuepress 引入 mermaid 失败, 求解.",
           "imageUrl": null
         },
@@ -611,7 +590,7 @@
           "description": "kingpo: 老婆预产还有十几天，正在准备一些东西。\n问下各位奶粉是怎么选购的，用什么牌子的，放心实惠。",
           "link": "https://www.v2ex.com/t/1103596",
           "publishedOn": "2025-01-08T08:42:01.000Z",
-          "wordCount": 827,
+          "wordCount": 849,
           "title": "各位有娃的都给新生儿买什么奶粉，放心实惠的",
           "imageUrl": null
         },
@@ -691,7 +670,7 @@
           "description": "zsmile: \n看到别人说推荐一个 java 架构，默默想了下好像在公司里面看到的大多数都是 springBoot+mybatis 的形式，DDD 推出后好像也没看到什么公司用，是只有大公司在用吗？那现在国内外比较新的 java 架构都有啥呢？",
           "link": "https://www.v2ex.com/t/1103584",
           "publishedOn": "2025-01-08T08:06:10.000Z",
-          "wordCount": 839,
+          "wordCount": 843,
           "title": "国内的 Java 体系真的很落后吗？",
           "imageUrl": null
         }
