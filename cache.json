@@ -157,6 +157,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -315,6 +342,176 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1103724",
+          "author": "lthero",
+          "description": "lthero: \n有大佬解释下，它要“开启新时代”了嘛\nXHTTP: Beyond REALITY\nhttps://github.com/XTLS/Xray-core/discussions/4113",
+          "link": "https://www.v2ex.com/t/1103724",
+          "publishedOn": "2025-01-08T16:37:07.000Z",
+          "wordCount": 398,
+          "title": "关于 XHTTP 协议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103721",
+          "author": "gotosre",
+          "description": "gotosre: rancher/kubesphere 这种有啥让人眼前一亮的特点吗?我基本都是用\"裸用\", 也够了啊",
+          "link": "https://www.v2ex.com/t/1103721",
+          "publishedOn": "2025-01-08T16:14:10.000Z",
+          "wordCount": 376,
+          "title": "k8s 新人求助帖",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103720",
+          "author": "ltuxer",
+          "description": "ltuxer: \n之前在搞 Peek Pop 摸鱼时见到大佬们分享的 iframegenerator 、优雅的 NewsNow， 这两个项目让我想起 MaxFocus ，并萌生了一个想法：既然 iframe 可以预览大部分网页，那用它来把网页打包到一起那应该也可以的，这应该也是部分分屏插件的做法？\n于是在 Peek Pop 折腾得差不多时，开始来搞。目前个人感觉基本算是能用了，外观是抄 NewsNow 的皮，动画、细节啥的都没有，过来分享下，算是抛砖引玉。 :eyes:\n上手效果\n这是深色模式，因为我浏览器用的浅色所以页面还是白色背景\n\n使用\n个人感觉看图标就知道大概是要干啥的了，就基本没加啥文字，这里就不展开了，只补充下其它细节：\n安装后默认是会修改主页、新标签页面\n这时点击工具栏上的插件图标即可打开插件页面\nChromium 类浏览器:  chrome://settings/onStartup \nFirefox:  about:preferences#home\n分组添加按钮在顶部的编辑图标 🖊️，添加后对应分组图标会显示上顶部\n点击网站标题可以选择跟哪个对调位置\n如果页面无法正常登录，可以点击对应的小人图标（其实就是在新标签打开对应网页，正常登录后刷新下即可\n分隔符是用的英文 ;\n+ 添加的页面是临时的，下次打开就没了\n页面默认访问手机版，如果想让特定网站访问 PC 版，需要点击显示器图标，然后按 urlfilter 规则 来添加，每个规则用英文;隔开\n快捷键，插件是启用状态的即可，没有设置为新标签页面、主页不会影响：\nChromium 类浏览器到这个页面设置：chrome://extensions/shortcuts\nFirefox 到这个页面 about:addons ，然后按下图点击进入对应页面，看图标就行\n\n一些需要注意的事项\n不支持的网站，一般是对安全有要求的\n所有的邮箱网站\nx.com 直接添加访问不了，但可以通过 https://x.com/i/lists/905990493712121856 来实现绕过来访问，不知啥原理\n其它对安全有要求的\n登录状态保持时间变短，即比平时更高频率的登录提示\nGithub\n其它\n这跟 RSS 有啥区别呢？\nRSS 很好，但现在的互联网不是初期开放时代，很多东西还是需要登录才能获取到的，虽然可以通过设置 Cookie 等方式来实现，但这对普通用户来说又有点麻烦。所以才想着折腾这个插件，但如前文所说，我的插件也有着自己的局限性。\n个人常逛的网站分组分享\n微博、V2 、小众软件、cnBeta 、少数派、B 站动态、B 站热门、微博热搜、Discord 、GitHub 、X 、Reddit 、YouTube 订阅、w2solo 、GitHub Weekly （这里是没按顺序写的\nm.weibo.com;https://v2ex.com/go/create;v2ex.com;meta.appinn.net;m.cnbeta.com.tw/wap;m.ithome.com;sspai.com;https://sspai.com/matrix;github.com;https://t.bilibili.com/?tab=video;https://s.weibo.com/top/summary?Refer=top_hot&topnav=1&wvr=6;https://www.bilibili.com/v/popular/all;https://x.com/i/lists/905990493712121856;https://discord.com/channels/740636963396124714/740637280590495866;https://iohub.inshub.cn/;reddit.com;w2solo.com;https://www.youtube.com/feed/subscriptions\n获取\nhttps://addons.mozilla.org/firefox/addon/tabless \n在火狐上第三方插件是可以正常使用的，这里再次推荐下我的预览插件：Peek Pop ，用上后摸鱼基本上在一个标签页面内就搞掂，火狐👍\nEdge： https://microsoftedge.microsoft.com/addons/detail/fmfcjoemdaphjmneapjllooimdkcjoal\nChrome：Tabless\nGithub: https://github.com/u-Sir/tabless/releases/latest\nTips\n在 Chromium 类浏览器上，为了统一打开新页面的方式，可以尝试用鼠标中键点击链接，这样就可以在新标签中打开了",
+          "link": "https://www.v2ex.com/t/1103720",
+          "publishedOn": "2025-01-08T16:07:26.000Z",
+          "wordCount": 456,
+          "title": "[开源分享｜抛砖引玉] Tabless 一款可以让你在新标签中摸鱼划水的浏览器插件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103719",
+          "author": "oRbceGJ",
+          "description": "oRbceGJ: \n背景：菲区的 spotify 绑定菲区 paypal 进行自动付款，以往账单结算一直是菲律宾比索，今天银行卡收到美元结算的信息(图 1,2 有对比)。检查过自动付款货币兑换选项也是以 visa 结算的(图 3)。\n问 chatGPT 说商户、paypal 、visa 可能都有关系，图 1/2 spotify 一直收取的比索可以排除商户问题，明天会致电银行核实结算币种问题，目前判断是 paypal 搞的鬼，但图 3 的设置也未曾变更，完全不知道问题出在哪。\ntelegram 上一些拼车群都退了，所以来 v 站问问，最近有遇到同样问题的 v 友不？\n蓝点网的报道： https://www.landiannews.com/archives/106820.html\n当前版本货币兑换入口路径： https://yukigo.tw/post-47394791/\n图 1:https://s3.bmp.ovh/imgs/2025/01/08/6fddf2a65ceee91b.png\n图 2:https://s3.bmp.ovh/imgs/2025/01/08/2b62e45077899e6b.png\n图 3:https://s3.bmp.ovh/imgs/2025/01/08/f6dc6bec8ba0111e.png",
+          "link": "https://www.v2ex.com/t/1103719",
+          "publishedOn": "2025-01-08T15:56:07.000Z",
+          "wordCount": 373,
+          "title": "paypal 自动付款被收取货币兑换手续费",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103718",
+          "author": "2459848472",
+          "description": "2459848472: 某些群组管理机器人，几十万人使用，响应速度还那么快，\n我的群组管理机器人，用了 webhook ，也用了自建的 bot api,但是请求量上来之后，机器人响应消息的速度就变慢了，\n比如用户发送一个关键词，机器人隔了好几秒才响应，我看了一下延迟主要是请求 tg api 这里速度很慢，好像就是 tg 故意拖慢你的请求速度一样，服务器的网络也是没问题的\n我也看了 tg 的文档说是每秒不能超过 30 个请求，但是那些热门的机器人，请求量不比我的大多了？",
+          "link": "https://www.v2ex.com/t/1103718",
+          "publishedOn": "2025-01-08T15:43:19.000Z",
+          "wordCount": 367,
+          "title": "tg 那些热门机器人是如何做到快速响应的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103717",
+          "author": "matrixelem007",
+          "description": "matrixelem007: \n先跟大家分享一下我开发这款应用的心路历程。\n我是一个后端程序员，但对前端也有很大的兴趣。大概几年前，我写了一个记账 App ，用的是 Vue ，UI 框架选了 Vuetify ，打包成 App 使用的是 Cordova 。最开始只是自己用，做了一些基础功能，后来觉得既然都做出来了，为什么不让更多人知道呢？于是我就把它上传到了酷安。当时还打算上其他商店，但国内的种种审核要求让我有些头大。上传之后，由于没有做宣传，基本上没有下载量，最终也没再关注。\n不过，我自己一直在用这款 App ，因为是基于 JS 写的，使用时总感觉不如原生 App 流畅。于是我做了一些调研，最后决定用 Flutter 重写整个应用。重写完成后，我准备重新上架应用，却发现酷安已经没有了，哈哈。最终，我选择了 Google Play 。\nGoogle Play 上架的艰辛\nGoogle Play 的上架过程整体上算是顺利，但其中也有一些波折：\n内测要求 20 人，连续 14 天测试\nGoogle Play 支付接入问题\n总的来说，虽然经历了不少困难，最终成功上架了。现在的问题是，虽然 App 已经上线，但几乎没有下载量。借此机会，我也想推广一下，欢迎大家试试：\nGoogle Play 链接",
+          "link": "https://www.v2ex.com/t/1103717",
+          "publishedOn": "2025-01-08T15:38:57.000Z",
+          "wordCount": 438,
+          "title": "自己上架应用真不容易",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103716",
+          "author": "avenhen",
+          "description": "avenhen: 我已经被这个破报错折腾了俩晚上了，google 上各种方法都尝试了，就是绕不过去。求大神解答。\n## 启动报错内容\n```txt\nFailed to build iOS app\nError output from Xcode build:\n↳    --- xcodebuild: WARNING: Using the first of multiple matching destinations:\n    { platform:iOS Simulator, id:16524F90-A508-4F0D-9091-F0CF7A5A6686, OS:17.5, name:iPhone 14 Pro }\n    { platform:iOS Simulator, id:16524F90-A508-4F0D-9091-F0CF7A5A6686, OS:17.5, name:iPhone 14 Pro }\n    ** BUILD FAILED **\n\nXcode's output:\n↳    Writing result bundle at path:\n        /var/folders/fq/2051nhxx5rs4svtvnsd_hvjr0000gn/T/flutter_tools.mEnGAj/flutter_ios_build_temp_dirENnESM/temporary_xcresult_bundle\n    /Users/cloud_prg/.pub-cache/hosted/pub.flutter-io.cn/wakelock-0.5.3+3/ios/Classes/messages.m:4:9: fatal error: 'Flutter/Flutter.h' file not found\n    #import <Flutter/Flut…",
+          "link": "https://www.v2ex.com/t/1103716",
+          "publishedOn": "2025-01-08T15:37:41.000Z",
+          "wordCount": 749,
+          "title": "flutter 启动 ios 项目失败 n 次，求大神帮忙",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103714",
+          "author": "ggstudy1",
+          "description": "ggstudy1: \n最近了解到 firstrade 可以申请一张美国借记卡,这张卡可以给 openai 充值吗?",
+          "link": "https://www.v2ex.com/t/1103714",
+          "publishedOn": "2025-01-08T15:19:31.000Z",
+          "wordCount": 354,
+          "title": "有没有人用 firstrade 的 visa debit card 给 openai 充值?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103713",
+          "author": "gotheway",
+          "description": "gotheway: 1.现场大屏展现二维码；\n2.现场微信扫码；\n3.可以设置一等奖、二等奖、三等奖、特等奖。且可以设置奖项人数",
+          "link": "https://www.v2ex.com/t/1103713",
+          "publishedOn": "2025-01-08T15:12:40.000Z",
+          "wordCount": 370,
+          "title": "各位技术大佬，现场大屏通过微信扫码进行抽奖 有没有现成的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103712",
+          "author": "codertracker",
+          "description": "codertracker: \n永久兑换，需要的留言，发完为止...\n在 appStore 上搜索 [萌萌倒数日] ，这是一款极简风格的倒数日 App ，帮助你记录那些难忘的日子，支持桌面小组件，上传自定义图片，数据本地存储...\n官网： https://mengapp.vercel.app/\nappStore 下载地址： https://apps.apple.com/app/id6737198411",
+          "link": "https://www.v2ex.com/t/1103712",
+          "publishedOn": "2025-01-08T15:12:13.000Z",
+          "wordCount": 552,
+          "title": "送码，送码，永久兑换码，需要的评论留言",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103710",
+          "author": "blogcool",
+          "description": "blogcool: \n公司介绍\n我们是一家总部位于伦敦的科技公司，专注于 unity 二次元移动端游戏开发，核心团队拥有超过 10 年的游戏开发和发行经验，致力于通过技术创新为玩家提供卓越的游戏体验。公司目前正在开发一款二次元卡牌手游，当前团队人数在 40 人左右。目前有多位 HC 开放，从中级到高级，欢迎您加入我们的创新旅程。\n工作方式：\n全职远程工作。\n远程工作时间：\n北京时间 10:00-20:00 。\n工作语言：\n全中文。\n招聘中的岗位\n资深 unity 程序（二次元方向）:\n薪资范畴：\n25k-40k\n岗位职责:\n1.根据产品提供的需求，快速高质量的开发游戏核心玩法；\n2.组织管理客户端资源，保证代码质量。\n3.解决游戏线下和线上的问题。\n4.对游戏客户端性能提出优化建议，并实践。\n5.开发提高开发和团队协作的生产工具。\n6.开发中遇到的疑难问题的攻坚解决。\n任职需求:\n1.5 年以上 Unity 引擎使用经验。至少完整参与过 2 款移动游戏的开发。熟练掌握 Unity 引擎在移动端的开发。\n2.熟悉 Lua 、C#的语法和特性。\n3.良好的算法和数据结构基础。\n4.良好的逻辑思维和编程习惯，具备独立解决技术问题的能力\n5.能熟练阅读英文技术文档，有很好的学习能力\n6.良好的团队协作能力。\n7.熟悉计算机图形学和渲染相关的优化。\n8.熟悉计算机网络协议。\n加分项：\n有远程工作经验。\n薪资福利:\n中高级：面议+项目奖金\n投递说明：\n所有职位都是公司直招，非中介。 投递简历后，我们会在一周内主动联系（一周内无反馈，视为不通过，没法一一回复，请理解）。\n面试形式：\n线上面试，正常流程会有二至三轮面试。\n简历投递邮箱：\nluo.cwgz@gmail.com\n境内备用投递邮箱：\nluo_cw1997@gmail.com\n也欢迎评论或私信获取进一步信息～",
+          "link": "https://www.v2ex.com/t/1103710",
+          "publishedOn": "2025-01-08T15:02:08.000Z",
+          "wordCount": 424,
+          "title": "[全职远程]英国伦敦二次元手游公司直招 unity 开发工程师",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103708",
+          "author": "jeesk",
+          "description": "jeesk: \n最近看外网一些奇葩的分享。\n某用户尝尝逛常用的一个网站， 向站长提建议，你能能否不要用 cookie ，该网站是一个用户产生内容的网站。\n某用户反馈笔记软件，你们 app 能否不要占用缓存？截图看到的是，app 内占用缓存 50m 。\n某用户反馈，你们网站提供的服务能不能免费？\n某用户反馈，你们能不能把网站源代码代码发给我？\n对于一些无聊又有趣的反馈， 如果你是客服或者站长怎么回复？",
+          "link": "https://www.v2ex.com/t/1103708",
+          "publishedOn": "2025-01-08T14:49:12.000Z",
+          "wordCount": 419,
+          "title": "假如你是站长， 你该怎么回？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103706",
+          "author": "tenserG",
+          "description": "tenserG: \n今年最后一个版本结束了，抽空来 V 站逛逛，看看有没有跳槽机会。\n年会虽然领了奖，但开心不起来，总感觉寒气逼人，v 站招聘相关的帖子也是冷冷清清，远不如前几年热闹。\n关于个人\n我目前是 5 年后端开发，27 岁，普本计科，在杭州上的大学，主要从事 IaaS 相关的开发工作。最近两份工作分别是 2 年和 3 年。最近一年半，我负责了一个服务的开发和运维，上线后几乎都是我一个人在做。那时组内大约有 10 个人，有 4 个服务，大家的工作有交叉和侧重。但由于带我的前辈离职，其他同事对该项目不熟悉，最后大部分工作都由我来接手。这段时间是我成长最快的时光。后来业务重组，其他部门的同事转进来，压力也分担了不少。最近工作方面，需求更多侧重在性能优化和运维改进，我做得还不错，但有时我也很纠结，这些经验写进简历中，总感觉表达不够清晰，不够抓眼球。\n八卦部分\n主要是人事方面，最近 boss 去了上海，新入职的 base 也都改在上海，不过我们组的大部分人还是在杭州。未来组内肯定会有些人事变动，资源大概率会倾斜给上海那边，杭州这边又是重组，感觉职场走到头了。\n人际方面\n跟组内同事相处得很好，其中有两个算得上无话不谈，聊起各自未来打算，又是各有各的烦恼。他发愁买房，我连对象都没找，三无青年。大家也常聊起未来的打算。大家都各有各的烦恼。同事操心买房问题，我则是连对象都没找，三无青年。\n自我评价\nmbti 是标准的 i 人，intp ，mbti 科学么，不尽然，心理学有种说法是巴纳姆效应。用猫猫类比的话，我选择暹罗猫，只会苦干的感觉，而且如果我不离开家乡，也会变成字面意思上的暹罗猫吧，因为我的家乡跟煤炭深深绑定。族旺留原籍，家贫走他乡，希望能在大城市待下来。\n新的一年祝大家健康幸福，附上养的猫猫",
+          "link": "https://www.v2ex.com/t/1103706",
+          "publishedOn": "2025-01-08T14:44:26.000Z",
+          "wordCount": 414,
+          "title": "年底是跳槽的时候么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103704",
+          "author": "565656",
+          "description": "565656: 馋大屏 oled ，sg 买了个 ipad ， 国行账号不能激活 ai ，登录 sg 的 id ，AirPods 是国内 id 不能无缝切换设备难绷",
+          "link": "https://www.v2ex.com/t/1103704",
+          "publishedOn": "2025-01-08T14:43:53.000Z",
+          "wordCount": 368,
+          "title": "买外版苹果，账号也得转外区啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103701",
+          "author": "iceriver99",
+          "description": "iceriver99:",
+          "link": "https://www.v2ex.com/t/1103701",
+          "publishedOn": "2025-01-08T14:33:29.000Z",
+          "wordCount": 372,
+          "title": "去日本玩带 5090 过海关用交税吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103699",
+          "author": "andyzhaolau163",
+          "description": "andyzhaolau163: \n远程岗位内推\n品牌（视觉）设计师、组件设计师、产品设计师\nWeb3 （产品、开发、测试）\n数据岗位（开发、分析、测试）\n产品经理（ SEO/ASO 方向）\nApp 开发工程师（ Flutter 、Android ）\n后端开发（ Golang 、PHP 、Linux C ）\n研发架构师/研发工程师\n机器学习架构师\n前端开发工程师\n项目经理\n备注需要内推的岗位，\n简历直接发我邮箱：YW5kb3hpckAxNjMuY29t",
+          "link": "https://www.v2ex.com/t/1103699",
+          "publishedOn": "2025-01-08T14:10:05.000Z",
+          "wordCount": 403,
+          "title": "远程岗位内推，简历直推 HR",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103697",
+          "author": "nealot",
+          "description": "nealot: \n前段时间攒了台 5600G 台式机。\n主板是微星的一款 B450 M-ATX 、带 2.5 Gbps 网口，内存是 16G DDR4 3200 ，1TB SSD ，电源是安钛克 NE650 。整机攒下来居然就 2000 出头一点。别看配置很乞丐，它在 1080p 中高画质下玩米哈游的游戏很流畅，运行文明 5 这样的经典老游戏也没压力，冬天放在卧室里，房间温度还能上升两三度。\n但是刚装好就发现了一个问题：一旦显示器超时关闭，就无法再点亮了。此时系统本身是好的，可以播放音乐，还可以用关机键来实现关机。\n在百度上搜索相关问题，百度一上来就给我推荐了一个短视频，里面的人信誓旦旦地说: 这就是 CPU 的问题，遇到问题，换个 CPU 就好了。\n按理来说，显示器不亮应该是显卡的问题，APU 的显卡就在 CPU 里面，确实有可能通过换 CPU 来解决问题。于是在京东上联系换新。京东自营东西贵，但是售后那是真爽快，很快就发了一盒新的 5600G 给我。\n悲剧的是，问题依然存在。CPU 的所有其它功能都完全正常，唯独显示器睡眠后无法点亮。\n看起来这个问题没法这么简单粗暴地处理。我开始在 Google 上搜相关内容。\n搜索关键字大概是: black screen wake from sleep site:amd.com\n不搜不知道，一搜吓一跳。AMD 论坛里，上百人都反映过类似的问题。有的是 AMD 的独显出的问题，也有的是 APU 出的问题。有不少人建议把驱动升级到最新版，或者降级到某个特定的旧版。还有不少人建议在注册表里，配置一个叫 ULPS 的配置，还有的建议在 BIOS 中改一些配置。这些方法我都试了，但是没有用。尝试了半天快放弃了。\n后来一天，有空的时候，继续在论坛中翻帖子，看到了这个:\nhttps://community.amd.com/t5/pc-processors/amd-ryzen-5-5600g-black-screen-after-entering-windows-10/td-p/485959\n里面的解法是这样的:\nToday i entered the support page of MSI's B450I Gaming Plus AC and downloaded the list of compatible PSU's(this was triggered by me checking the event viewer and confirming severall kernell 41 issues). I have a Corsair CX600M, wich is not on the list, and casually i have a Corsair SF450M from another mini-itx build, wich is listed as compatible. Today i decided to do a PSU swap to verify if the problem i was having with the black screen was related with that. And indeed it was, the problem went away, everything is now working flawlessly.\n这个人去主板的网站上，找电源兼容列表，然后把不兼容的海盗船电源换成兼容的型号，问题就解决了。\n于是我也去微星的网站上瞧了瞧。安钛克的 NE650 不在兼容性列表上，NE550 却在的。京东上下单了一个 NE550 ，替换完成后，问题居然神奇地消失了。\n老一辈的 PC 玩家应该都记得 \"兼容性\" 问题。明明主板是好的，内存条是好的，但是唯独一个特定的主板型号和一个特定的内存型号放在一起不工作。\n现在内存条兼容性问题已经很少见了，但是被我遇上了一个 \"主板-电源\" 的兼容性问题。\n最终问题圆满解决，就是可怜那啥都不懂的京东售后，和用户一起白折腾了一回。",
+          "link": "https://www.v2ex.com/t/1103697",
+          "publishedOn": "2025-01-08T13:58:43.000Z",
+          "wordCount": 532,
+          "title": "AMD 显卡 / APU 睡眠结束后显示器黑屏问题的解决经历",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1103692",
           "author": "kailpony4396",
           "description": "kailpony4396: \n自家茶山产 2024 年新茶安吉白茶，24 年新茶非勾兑陈茶，还有几十斤没有卖出，现定价为两档：明前茶 380 元/斤，雨前茶 180 元/斤，包邮。有意联系绿泡泡：ricsun0527 （请备注“v 友”）😊。另可有偿提供礼盒包装以备送礼需求。\n购买流程：加上绿泡泡，可以咨询想问的问题，知无不言，不过年底较忙回复不及时请谅解，有意购买的话可留下姓名电话地址，付完款后我会尽快打包，打包截图给您确认，然后第二天发出。一般下午三点前付款的订单当天发出\n预定流程：25 新茶价格看到时开采的行情而定，可以先加上绿泡泡即可\n最下面两张图片茶叶为 380 的",
@@ -350,7 +547,7 @@
           "description": "a707782628: \n如题，我记得以前是不能在一个账号内购另一个账号下载的 app ，必须要也拥有这个 app 才行，不然内购就报这个错误。但是前几天我折腾壁纸，看到国区售价 30 块，就换区看看低价区多少，结果看完顺手按了订购，居然成功了，就很神奇。以前为了跨区内购还得先注册国区获取完所有需要的 app 再转区，现在不用的话就方便很多了。",
           "link": "https://www.v2ex.com/t/1103687",
           "publishedOn": "2025-01-08T13:15:53.000Z",
-          "wordCount": 388,
+          "wordCount": 395,
           "title": "AppStore 貌似更改了跨账号内购的规定",
           "imageUrl": null
         },
@@ -360,7 +557,7 @@
           "description": "haha2333haha: PCCW 2500M 166hkd ，10G 998hkd\nHGC 2500M 189hkd\nCMHK 10G 目前只限维港汇 198hkd\n试过拉网页服务器，只有自己访问，用不上悲\n挂种子抢不过德国机房，用不上悲\n24 小时下载资源，自己吃不消悲\nreclone onedrive ，微软只给 300m ，悲\nSpeed test 2500m ！！！！ 终于爽歪歪\n话说个人用户还能有多少用途\n\n(2500m pccw 测速 ->欧洲 1800m ，美国->1800m ）",
           "link": "https://www.v2ex.com/t/1103684",
           "publishedOn": "2025-01-08T13:10:43.000Z",
-          "wordCount": 526,
+          "wordCount": 535,
           "title": "10G / 2.5G 的个人宽带有什么用",
           "imageUrl": null
         },
@@ -380,7 +577,7 @@
           "description": "evan1: \n怎么调配置都不行。\n只要关了光追就不卡了，但是体验也明显下降了。\n有人遇到过相同的问题吗，有什么解决办法吗？",
           "link": "https://www.v2ex.com/t/1103681",
           "publishedOn": "2025-01-08T13:01:47.000Z",
-          "wordCount": 416,
+          "wordCount": 427,
           "title": "steam deck oled 玩小小梦魇 2 加强版一开光追就卡，如何解决？",
           "imageUrl": null
         },
@@ -402,76 +599,6 @@
           "publishedOn": "2025-01-08T12:50:18.000Z",
           "wordCount": 407,
           "title": "关于小狼毫输入法的问题,有什么快捷键可以删除上一次打的词语呢?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103672",
-          "author": "ringcrl",
-          "description": "ringcrl: \nhttps://deepseek.edgeone.app/",
-          "link": "https://www.v2ex.com/t/1103672",
-          "publishedOn": "2025-01-08T12:35:39.000Z",
-          "wordCount": 407,
-          "title": "在线体验 DeepSeek 编写代码的能力",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103666",
-          "author": "nikola",
-          "description": "nikola: \n自身情况：\n即将迈入 35 岁，有房无负债，当前的这份工作氛围不喜欢。\n疑问：\n一、简历中出现断档是不是影响再就业，不过都已经 35 岁了，找工作随缘了。\n二、了解到社保有两种方法：1 、灵活就业，2 、自己开公司给自己交。这两种都有哪些优缺点？\n三、gap 期间还需要注意哪些问题？",
-          "link": "https://www.v2ex.com/t/1103666",
-          "publishedOn": "2025-01-08T12:20:19.000Z",
-          "wordCount": 596,
-          "title": "程序员到 35 岁可以考虑 gap 吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103656",
-          "author": "max1024",
-          "description": "max1024: \n问问，会不会有啥风险。便宜太多了。",
-          "link": "https://www.v2ex.com/t/1103656",
-          "publishedOn": "2025-01-08T12:10:04.000Z",
-          "wordCount": 467,
-          "title": "淘宝上面帮别人代付软件是什么渠道？比如我看到淘宝卖 Cursor 一个月才几十块钱。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103653",
-          "author": "wxmomomowx",
-          "description": "wxmomomowx: 有推荐的软件吗？ 室内设计师们都用什么软件？效果图，安装图/施工图，🙏",
-          "link": "https://www.v2ex.com/t/1103653",
-          "publishedOn": "2025-01-08T12:05:31.000Z",
-          "wordCount": 343,
-          "title": "室内设计师们都用什么软件？效果图，安装图/施工图，🙏",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103651",
-          "author": "youshangdemajia",
-          "description": "youshangdemajia: \n房子位于朝阳区瞰都国际小区，10 平方左右，电梯中高层，采光一流，带独卫，有独立洗衣机。交通非常便利，离 14 号线东风北桥站走路四五分钟，近望京、将台和酒仙桥等地区。 \n看房请私信联系，随时可以入住。和房东重签合同，月租 3000 元，另外每月还有 120 元服务费。押一付三。无中介费。 \n补充信息： \n房子是普通住宅，每个房间分了电表水表，单独计费。电价是 1 元一度，冷水 5 元一吨，热水 50 元一吨（热水是小区统一供应）。按照经验，水电费平均每月 100 元左右。除租金、服务费和水电费，无其他收费。\n取暖是中央空调，开启时间和北京集中供暖时间一致。\n原格局为大平层，五家合租，房客均为正当职业，很少碰面。有正常生活噪音，睡觉时间都很安静。\n我已经住了两年半，因工作原因离京，所以转租。\n图片可见： https://www.douban.com/group/topic/316275901/\n微信（ base64 ）：dmFueGluaW5n",
-          "link": "https://www.v2ex.com/t/1103651",
-          "publishedOn": "2025-01-08T12:04:19.000Z",
-          "wordCount": 367,
-          "title": "朝阳区 14 号线东风北桥旁卧室带独卫 转租",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103647",
-          "author": "chinni",
-          "description": "chinni: \n登录不了。。。\nhttps://image.object.pp.ua/sharex/2025/01/2025-01-08_19-50-56.png]",
-          "link": "https://www.v2ex.com/t/1103647",
-          "publishedOn": "2025-01-08T11:51:18.000Z",
-          "wordCount": 364,
-          "title": "feedly 好像炸了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103644",
-          "author": "100APPLTD",
-          "description": "100APPLTD: \nJujutsu Infinite 咒术回战攻略站 - 你的最佳游戏指南伙伴\n大家好！我创建了一个专业的《 Jujutsu Infinite 》攻略资讯站点，为所有玩家提供最新、最全面的游戏资讯和攻略。\n🌟 网站特色\n实时更新的游戏资讯\n第一时间同步 Reddit 最新讨论和发现\n及时更新游戏代码和活动信息\n跟踪游戏更新动态和改动\n专业的攻略内容\n最新 META 构建推荐\nBOSS 速刷攻略\n新手入门指南\n详细的技能搭配分析\n丰富的多媒体内容\nYouTube 最新视频攻略整合\n高效率打法演示\n第一手游戏技巧分享\n互动社区功能\n最新的 codes 收集！ \n希望他给你带来更欢快的游戏体验！\nJujutsu Infinite wiki",
-          "link": "https://www.v2ex.com/t/1103644",
-          "publishedOn": "2025-01-08T11:29:56.000Z",
-          "wordCount": 395,
-          "title": "做了个 Jujutsu Infinite 新闻&攻略站，有玩这个游戏的么？进来给些意见建议",
           "imageUrl": null
         }
       ]
