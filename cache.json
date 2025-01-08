@@ -151,33 +151,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -361,7 +334,7 @@
           "description": "nodesolar: \n有没在用 MBP M4 标配版(10+10)，感觉如何平时编程用起来， 还在用 19 款准备利用国补换机器了",
           "link": "https://www.v2ex.com/t/1103565",
           "publishedOn": "2025-01-08T07:26:50.000Z",
-          "wordCount": 489,
+          "wordCount": 491,
           "title": "有没在用 MBP M4 标配版的",
           "imageUrl": null
         },
@@ -451,7 +424,7 @@
           "description": "anoyi: 有没有老哥用 Mac Mini M4 ，然后用投影仪做显示器的，体验如何？",
           "link": "https://www.v2ex.com/t/1103554",
           "publishedOn": "2025-01-08T07:18:05.000Z",
-          "wordCount": 398,
+          "wordCount": 400,
           "title": "Mac Mini M4 用投影仪做显示器如何？",
           "imageUrl": null
         },
@@ -511,7 +484,7 @@
           "description": "VisualStudioCode:",
           "link": "https://www.v2ex.com/t/1103548",
           "publishedOn": "2025-01-08T07:04:50.000Z",
-          "wordCount": 364,
+          "wordCount": 368,
           "title": "Outlook 将来自微软自家的『Windows 预览体验计划』的邮件识别为垃圾邮件",
           "imageUrl": null
         },
@@ -531,7 +504,7 @@
           "description": "shoucanjun: \n准备去女方家提亲，也谈了 2 年左右，最近跟丈母娘通视频，说到春节带上父母一起去见个面啥的，到时候一起吃个饭。\n女方家和我家都是农村的，我爸妈家也不是很远，大概一个小时的开车路程。\n我第一次线下见丈母娘他们，平时都是视频和电话见。\n丈母娘家也跟大概了解过我家里的情况啥的。\n很紧张第一次，她们家亲戚得知我过去都想要在那天都要见见我，人数上大概会有 30 多个人，挺紧张的。这几天都在买点见面礼啥的，准备给小朋友和丈母娘他们的红包，也准备的差不多。有个点还不知道要怎么处理。\n人数亲戚比较多，到时候丈母娘那边做饭啥的感觉忙不过来，不清楚要怎么处理。不过当时电话丈母娘说到时家里面人可以处理，但是感觉说有够忙活的。\n有想过几个处理方案：\n1 、要不请当地专门做席饭的团队来处理。\n2 、或者我跟爸妈也过去帮忙？（不太知道合适不）\n3 、去附近的酒店吃饭（感觉合适点）\n还有就是第一次还有什么要注意的点，真的很怕出意外啥的，有些地方没注意到。",
           "link": "https://www.v2ex.com/t/1103543",
           "publishedOn": "2025-01-08T06:51:27.000Z",
-          "wordCount": 590,
+          "wordCount": 617,
           "title": "准备去女方家，带父母，人比较多，不知道怎么处理到时候做饭的问题",
           "imageUrl": null
         },
@@ -551,7 +524,7 @@
           "description": "Sirius8: \n原先发过便携 gps 记录仪，后来发现还是手机 app 方便，毕竟手机不会忘带，目前苹果换了安卓，想请大家推荐款安卓足迹类 app ？\n类似 ios 上一生足迹的 app ，常驻手机后台的那种\n目前花重金买了世界迷雾但是感觉耗电量大，有时无法定位，无法使用高德。",
           "link": "https://www.v2ex.com/t/1103539",
           "publishedOn": "2025-01-08T06:40:00.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "安卓足迹类 app 求推荐",
           "imageUrl": null
         },
@@ -581,7 +554,7 @@
           "description": "dcy7287: \n确 凿 què záo ，原读音：确凿(què)(zuò)。后因从俗改为：确凿 què záo\n荨（ qián ）麻疹改为荨（ xún ）麻疹。\n“呆板”本来读 ái bǎn ，但是后来为了尊重大众的习惯，所以从 1987 年开始，这个词的读音更改为 dāi bǎn 。\n铁骑，现代全部都读 qí，jì音已经取消了。新版新华字典这个字就只有 qí 一个读音。(旧读“jì”、“jí”，2005 年起，统一废“jì”、“jí”读“qí”，详见《新华字典》第 11 版)\n“斜”,古 霞，现在统读 鞋 （二声）远上寒山石径斜\n“说服”的汉语拼音注音是“shuō fú” 而不是“shuì fú”。《现代汉语词典》（中国社会科学院语言研究所词典编辑室编，商务印书馆出版，第六版 ）的条目（第 1225 页）\n唯（ wěi ）唯（ wěi ）诺诺改为唯（ wéi ）唯（ wéi ）诺诺\n靡（统读 mí）：“靡靡之音”一词中曾经读作 mǐ；\n箪食壶浆，第 5 版注音 dān sìhú jiāng ，第 6 版注音 dānshí hú jiāng\n橙，统读 chéng ，取消 chén （橙子）；\n从，统读 cóng ，取消 cōng （从容）；\n脊，统读 jǐ，取消 jí（脊梁）；\n迹，统读 jì，取消 jī（事迹）；\n绩，统读 jì，取消 jī（成绩）；\n框，统读 kuàng ，取消 kuāng （门框）；\n拎，统读 līn ，取消 līng （拎东西）；\n澎，统读 péng ，取消 pēng （澎湃）；\n绕，统读 rào ，取消 ráo （回绕）；\n往，统读 wǎng ，取消 wàng （往前走）；\n寻，统读 xún ，取消 xín （寻思）；\n荫，统读 yìn ，取消 yīn\n（树荫应写作树阴、林荫道应写作林阴道）；\n咱，统读 zán ，取消 zá（咱们）；\n作，在“作坊、洗衣作、豆腐作、小器作”中读 zuō，其他场合都读 zuò，即取消 zuó（作料）和部分词语中的 zuō（作弄、作揖、作死、自作自受）",
           "link": "https://www.v2ex.com/t/1103535",
           "publishedOn": "2025-01-08T06:35:26.000Z",
-          "wordCount": 488,
+          "wordCount": 490,
           "title": "你们能读对几个？",
           "imageUrl": null
         },
@@ -601,7 +574,7 @@
           "description": "wweerrgtc:",
           "link": "https://www.v2ex.com/t/1103529",
           "publishedOn": "2025-01-08T06:29:40.000Z",
-          "wordCount": 432,
+          "wordCount": 434,
           "title": "公司 2024 年的节日都没有发礼品, 每次回去都两手空空",
           "imageUrl": null
         },
@@ -651,7 +624,7 @@
           "description": "maierhuang: \n哎  上周五开始买入  一路下跌  -20%",
           "link": "https://www.v2ex.com/t/1103524",
           "publishedOn": "2025-01-08T06:15:28.000Z",
-          "wordCount": 667,
+          "wordCount": 707,
           "title": "被大 A 虐惨了",
           "imageUrl": null
         },
@@ -671,7 +644,7 @@
           "description": "liudewa: \n录播进行集合分析,能搜索里面的片段内容\n直接分析视频,是不是 api 要付大量费用\n目的: 就是 能搜索 和 以对话形式 进行问答",
           "link": "https://www.v2ex.com/t/1103522",
           "publishedOn": "2025-01-08T06:09:04.000Z",
-          "wordCount": 467,
+          "wordCount": 495,
           "title": "v 友们我想做个 up 直播录播素材训练,这个用哪个大模型 可以训练,需要做什么",
           "imageUrl": null
         },
