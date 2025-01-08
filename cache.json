@@ -151,6 +151,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
+          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
+          "publishedOn": "2024-12-11T16:00:38.000Z",
+          "wordCount": 1793,
+          "title": "构想：Electron Render OTA 更新",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -344,7 +371,7 @@
           "description": "sqlemma: \n团队盘，要求如下\n分发给每个人一个子账号，子账号相对独立存在\n管理员可以管理用户的行为，比如上传-下载权限，阅读权限等\n可以接收付费\n最好是国内盘，国外的能用也行\n可以开通的子账户最好 50 个以上\n野鸡盘不考虑，数据存储还是要相对安全稳定为好\n实在找不到合适的",
           "link": "https://www.v2ex.com/t/1103630",
           "publishedOn": "2025-01-08T10:32:22.000Z",
-          "wordCount": 440,
+          "wordCount": 444,
           "title": "求推荐团队盘，需要实现一些常见功能",
           "imageUrl": null
         },
@@ -354,7 +381,7 @@
           "description": "stdout: \n我小孩在深圳小学 6 年级，快期末考试了。上周末发了接近 10 套试卷，不认真专心根本写不完。我已经想通了，以后的作业只要是已经会的，全部抄答案，或是我帮忙写。比我们高中的作业还多，荒唐啊。",
           "link": "https://www.v2ex.com/t/1103629",
           "publishedOn": "2025-01-08T10:29:15.000Z",
-          "wordCount": 420,
+          "wordCount": 438,
           "title": "你们帮小孩写作业么？",
           "imageUrl": null
         },
@@ -374,7 +401,7 @@
           "description": "Geekgogo: \n如图所示：\n\n配置如下：\n\n预输入阶段中文是问号方框，英文没问题。之前用 copilot 是没问题的。是我配置得哪里有问题吗？",
           "link": "https://www.v2ex.com/t/1103626",
           "publishedOn": "2025-01-08T10:11:14.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "[求助] Pycharm 中使用 CodeGPT 插件接入 deepseek 代码补全中文无法显示",
           "imageUrl": null
         },
@@ -444,7 +471,7 @@
           "description": "mMartin: 视频地址： https://www.bilibili.com/video/BV1XbrYY4EKm/?vd_source=bdd39f2fca456f0815c8242c657e40b5\n  截图：",
           "link": "https://www.v2ex.com/t/1103618",
           "publishedOn": "2025-01-08T09:40:36.000Z",
-          "wordCount": 526,
+          "wordCount": 537,
           "title": "小米开源 HA 插件以后又有了兴趣折腾 Homeassistant,摸鱼一天半搞了这个面板",
           "imageUrl": null
         },
@@ -454,7 +481,7 @@
           "description": "fusi: 正常的点击跳转都要卡半天，一度以为是扩展问题，直到在 vscode 中发现跳转正常才意识到有可能是 cursor 本身的问题\n目前的应急方法是直接任务管理器，找到 cursor 中占用资源最高的那一条关掉\n不过这治标不治本，我也没有找到版本回退的方法，目前只能等待下一版更新了",
           "link": "https://www.v2ex.com/t/1103615",
           "publishedOn": "2025-01-08T09:32:43.000Z",
-          "wordCount": 455,
+          "wordCount": 457,
           "title": "cursor 新版本卡顿",
           "imageUrl": null
         },
@@ -474,7 +501,7 @@
           "description": "mswh: 搞软件开发副业快 2 年了，也算是有点起色，不过想要做大感觉卡在收款上面了\n目前用的是自建发卡网实现的会员购买，有点麻烦\n而且现在不时有人询问能不能分销，然而我选的发卡网不支持分销，异次元发卡好像有漏洞，独角数卡貌似国内容易被封。本人前端，用的是 electron+node 技术路线，对后端只能写简单的增删改查，收款和分销比较复杂搞不定。\n大家做个人开发者都怎么收款的？，还有分销这种都怎么处理呢，特别是桌面软件的",
           "link": "https://www.v2ex.com/t/1103612",
           "publishedOn": "2025-01-08T09:23:09.000Z",
-          "wordCount": 372,
+          "wordCount": 380,
           "title": "个人开发者收款以及分销相关的，有了解的吗",
           "imageUrl": null
         },
@@ -524,7 +551,7 @@
           "description": "FreeWong: \n一个相同的接口的调用返回，你们看看，似乎是想返回什么就返回什么。而且你他妈的还不知道响应的状态码是多少。\n这样水平都可以混饭吃，你们焦虑什么呢\nproduct id 与 master api key 不相符的返回\n{\n  code:2010105\n  msg:\"设备操作 MasterKey 不合法\"\n  result:null\n}\n\n===========================================\nApp Secret  长度不正确时的返回 未知\n===========================================\nApp Secret 错误时的返回\n{\n  error_code:\"401\"\n  error_desc:\"Signature not matched: application:xxxxxx \\n timestamp:xxxx \\n MasterKey:xxxx \\n imei:86xxxx \\n productId:xxxxxx \\n \"\n}\n\n===========================================\n正确的返回  响应 200 \n{\n    \"code\":0,\n    \"msg\":\"ok\",\n    \"result\":{\n        \"deviceId\":\"xxxxx\",\n        \"deviceName\":\"xxxxx\",\n        \"tenantId\":\"xxxxx\",\n        \"productId\":xxxxx,\n        \"imei\":\"xxxxxx\",\n        \"imsi\":null,\n        \"firmwareVersion\":null,\n        \"deviceStatus\":1,\n        \"autoObserver\":0,\n        \"createTime\":xxxx,\n        \"createBy\":\"xxxx\",\n        \"updateTime\":xxxx,\n        \"updateBy\":\"xxxx\",\n        \"netStatus\":2,\n        \"onlineAt\":xxxx,\n        \"offlineAt\":xxxxx\n    }\n}",
           "link": "https://www.v2ex.com/t/1103603",
           "publishedOn": "2025-01-08T09:03:14.000Z",
-          "wordCount": 582,
+          "wordCount": 585,
           "title": "=== 实不相瞒，我真的看不起 iot.ctwing.cn 的后端开发 ===",
           "imageUrl": null
         },
@@ -564,7 +591,7 @@
           "description": "Foxalone: \n安装了 npm i vuepress-plugin-mermaidjs. \n清空了.temp, 重新 npm install, 在 config.js -> pluins 引入了 'vuepress-plugin-mermaidjs'\n然后就是 npm run docs:dev 启动\nREADME.md 文件只有:\ngraph TD\n    A[开始] --> B[对接方使用 URL 链接进行免登录]\n    B --> C{验证免登录信息}\n    C -- 验证成功 --> D[跳转到首页]\n    C -- 验证失败 --> E[跳转到首页]\n    D --> F[用户访问个人中心]\n    F --> G[显示用户信息]\n    E --> H[用户访问个人中心]\n    H --> I[跳转到登录页]\n\nconfig.js 配置如下:\nexport default defineUserConfig({\n  title: \"\",\n  description: \" \",\n  lang: \"zh-CN\",\n  port: 8081,\n  dest: \"public\",\n  //\n  plugins: [\n    'vuepress-plugin-mermaidjs'\n  ],\n\n  bundler: viteBundler(),\n  theme: defaultTheme({\n    lastUpdated: false,      // 时间戳\n    contributors: false,    // 作者\n    logo: '/images/icon.png',\n    \n  }),\n});\n\n还是没成功. 还是显示代码块. 不知道什么原因, 也没报错. 问了 ai 和搜索引擎.有没有踩过坑的 v 大佬们帮下忙.",
           "link": "https://www.v2ex.com/t/1103598",
           "publishedOn": "2025-01-08T08:46:28.000Z",
-          "wordCount": 528,
+          "wordCount": 530,
           "title": "vuepress 引入 mermaid 失败, 求解.",
           "imageUrl": null
         },
@@ -584,7 +611,7 @@
           "description": "kingpo: 老婆预产还有十几天，正在准备一些东西。\n问下各位奶粉是怎么选购的，用什么牌子的，放心实惠。",
           "link": "https://www.v2ex.com/t/1103596",
           "publishedOn": "2025-01-08T08:42:01.000Z",
-          "wordCount": 771,
+          "wordCount": 803,
           "title": "各位有娃的都给新生儿买什么奶粉，放心实惠的",
           "imageUrl": null
         },
@@ -664,7 +691,7 @@
           "description": "zsmile: \n看到别人说推荐一个 java 架构，默默想了下好像在公司里面看到的大多数都是 springBoot+mybatis 的形式，DDD 推出后好像也没看到什么公司用，是只有大公司在用吗？那现在国内外比较新的 java 架构都有啥呢？",
           "link": "https://www.v2ex.com/t/1103584",
           "publishedOn": "2025-01-08T08:06:10.000Z",
-          "wordCount": 806,
+          "wordCount": 820,
           "title": "国内的 Java 体系真的很落后吗？",
           "imageUrl": null
         }
