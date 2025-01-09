@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=383563",
+          "author": "Geoff Graham",
+          "description": "I wrote a post for Smashing Magazine that was published today about this thing that Chrome and Safari have called “Tight Mode” and how it impacts page performance. I’d never heard the term until DebugBear’s Matt Zeunert mentioned it in …\nTight Mode: Why Browsers Produce Different Performance Results originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/tight-mode-why-browsers-produce-different-performance-results/",
+          "publishedOn": "2025-01-09T16:16:15.000Z",
+          "wordCount": 1927,
+          "title": "Tight Mode: Why Browsers Produce Different Performance Results",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383563"
+        },
+        {
           "id": "https://css-tricks.com/?p=383383",
           "author": "Andy Bell",
           "description": "I am still an AI skeptic. The biggest risk I foresee is that if your sole responsibility is to write code, your job is at risk. It’s not time to panic, but I do see a lot of value in evolving your soft skills.\nThe Importance of Investing in Soft Skills in the Age of AI originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -127,33 +137,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -320,7 +303,7 @@
           "description": "fvae:",
           "link": "https://www.v2ex.com/t/1104004",
           "publishedOn": "2025-01-09T13:51:38.000Z",
-          "wordCount": 350,
+          "wordCount": 352,
           "title": "poe app 怎么订阅会比较便宜？",
           "imageUrl": null
         },
@@ -330,7 +313,7 @@
           "description": "revival83: 纯净好用安全靠谱的，付点费也行… 好软件值得付费",
           "link": "https://www.v2ex.com/t/1104003",
           "publishedOn": "2025-01-09T13:46:34.000Z",
-          "wordCount": 390,
+          "wordCount": 395,
           "title": "大佬们求个 win10 禁用更新和系统优化的工具",
           "imageUrl": null
         },
@@ -360,7 +343,7 @@
           "description": "zimuyun: 可以拦截删除微信好友，删除聊天记录",
           "link": "https://www.v2ex.com/t/1104000",
           "publishedOn": "2025-01-09T13:32:35.000Z",
-          "wordCount": 387,
+          "wordCount": 389,
           "title": "类似小米政企版本的手机是怎么实现拦截删除微信消息的？",
           "imageUrl": null
         },
@@ -400,7 +383,7 @@
           "description": "gzlmx: \n续上次竞技场，这次放宽了一点点\n网关还是 100.64\n有 ipv6 ，但是上行速率只有 50\nv4 nat4 测速达标\n归属地是本地（ 020 ）",
           "link": "https://www.v2ex.com/t/1103995",
           "publishedOn": "2025-01-09T12:59:01.000Z",
-          "wordCount": 417,
+          "wordCount": 428,
           "title": "今天广东电信又有动作了 nat1 变 nat4",
           "imageUrl": null
         },
@@ -410,7 +393,7 @@
           "description": "nathanw: \n第一次用氮化镓充电头，买了号称第六代氮化镓充电头，4 个口，2 个 type-C ，2 个 USB\n官方介绍，4 口同时用，C1=45w,B2=5w,C2 和 B1 为 15w\n实际测试:\nC1 口插入安卓机，其他同时 3 个口接入 3 台 iphone ，这时候会断流充不上了，应该是第一台安卓机充电功率太高了，总的超过了 65w ，拔掉其他一台其他的就正常了。\n反过来，如果 C1 插入 iPhone ，C2 接入安卓，其余 2 个不变，这时候就正常了。\n插拔的时候，只能说极小概率还是会断流(广告说双 c 口不断流)。\n发热感觉还行，不过现在是冬天。\n主要用途是出去旅行的时候，手机，充电宝，相机，耳机晚上放着慢慢充电。\n没有快充需求，主力 iPhone 也就 15w ，也就不买 100+w 的充电头。\n对于个人来说也就够用了，体积也比较小。",
           "link": "https://www.v2ex.com/t/1103994",
           "publishedOn": "2025-01-09T12:55:44.000Z",
-          "wordCount": 427,
+          "wordCount": 431,
           "title": "第一次购买 65w 氮化镓充电头分享",
           "imageUrl": null
         },
@@ -420,7 +403,7 @@
           "description": "kkkkh: \n现在公司对待前端，整体感觉是边缘状态，给我整体感觉有以下几点：\n1 、不了解前端，不知道前端重要性；\n2 、不知道前端的能做什么，不能做什么；\n3 、有时候还尊重前端；\n求大家给指点指点，我想肯定有，但是不知道怎么牛逼惊艳到他们",
           "link": "https://www.v2ex.com/t/1103992",
           "publishedOn": "2025-01-09T12:48:20.000Z",
-          "wordCount": 519,
+          "wordCount": 521,
           "title": "前端有没有可以拿得出手的，能惊艳到后端和产品的技术？",
           "imageUrl": null
         },
@@ -460,7 +443,7 @@
           "description": "lovemimi733: \n电源灯闪烁，屏幕显示黄色警告符号，提示访问官网 support/appletv/restore 。打了客服反馈要送修，大陆没有只能去香港...属实没想到，以为这东西不容易坏的",
           "link": "https://www.v2ex.com/t/1103986",
           "publishedOn": "2025-01-09T12:32:39.000Z",
-          "wordCount": 410,
+          "wordCount": 415,
           "title": "23 年 11 月购入的 AppleTV 7 代港版无法开机了",
           "imageUrl": null
         },
@@ -600,7 +583,7 @@
           "description": "Peyton: \n整理格式如下：被盗时间 2025/01/09 16:16\n被盗交易哈希:\n0x43fbf0aee23a2b90ee5e3c60f7ebb52cab3698ba8706545dafe031d346c707bf\n查看交易详情 \n事件描述:\n任务地址:\nhttps://app.questn.com/quest/991085448072921260 \n钓鱼网站:\nhttps://renzocommunity.com/discover/ \n因为好奇这些任务网站的内容，不小心连接了钱包，结果导致资金被盗。  \n求助:  \n求大佬分析被盗过程，了解具体手法以后多加防范。  \n这个钱包地址还能继续使用吗？",
           "link": "https://www.v2ex.com/t/1103969",
           "publishedOn": "2025-01-09T09:54:22.000Z",
-          "wordCount": 513,
+          "wordCount": 517,
           "title": "加密货币 usdt 被盗, 求大佬分析是怎么做到的",
           "imageUrl": null
         },
@@ -610,7 +593,7 @@
           "description": "Eddiegaao: \n人的能量与磁场\n我知道这么说有点抽象，但是我相信大家也都会同意我这个说法：人是有能量或者说磁场的，可能是个很复杂的东西，但总结起来就叫「人的能量/磁场」。\n小时候的独立思考\n我特别奇怪，我从小觉得自己是很聪明的那种。\n基于这种独立思考的能力，我从小学到初中一直都是名列前茅。\n为什么感觉人是有磁场的？\n扯远了，说回来，为什么会感觉人是有磁场的？\n但是等到上大学乃至毕业后，来到北京，遇到的聪明人越来越多，我会有点自卑。\n\n\n克服社交问题\n所以想问一下大家，有没有遇到过这种情况？\n风水与人的能量\n最后做个延伸，风水这个词虽然听起来很玄幻，但确实能从科学角度解释它。\n每一个选择造就了现在的你，也造就了未来的你。  \n所以我相信人的磁场、能量也是可以用科学、逻辑来解释的。",
           "link": "https://www.v2ex.com/t/1103967",
           "publishedOn": "2025-01-09T09:50:16.000Z",
-          "wordCount": 728,
+          "wordCount": 737,
           "title": "你们相信人是有能量，或者磁场的吗？",
           "imageUrl": null
         },
@@ -640,7 +623,7 @@
           "description": "jinlan:",
           "link": "https://www.v2ex.com/t/1103963",
           "publishedOn": "2025-01-09T09:36:19.000Z",
-          "wordCount": 464,
+          "wordCount": 468,
           "title": "大家有使用什么 AI 产品？都是如何使用的？",
           "imageUrl": null
         },
@@ -660,7 +643,7 @@
           "description": "qxmqh: 我爹没上过学，我爷爷家里三个男孩，两个女生，我爹排行老二。\n从小就跟我爷爷一起拉缸,收破烂,卖芹菜,但是更多的是辅助角色。\n我爹说他小时候一次跟我爷爷去外地拉了两大车芹菜去外地卖，结果到地方之后，家里有人捎话说家里长辈去世了，我爷爷就把一车芹菜卸掉了，跟我爹的那车芹菜一起卖。\n可我爹不会算细账，基本的 10 之内的加法还是会的，当时差不多 13,14 岁左右，一个字没学过，一天学没上。\n我爷爷临走之前把他和两车菜卸在一个桥洞边上。拉着空车就回去了，很难想象，一个 13 岁孩子在看着两车菜，一个人在桥洞里面。\n我爹急得不行，因为不会算账，卖不掉菜就烂掉了，我爷爷就算再快也得来回三天。\n我爹说他从晚上吃完饭就在桥洞里面坐着想怎么算账。\n那会是钩秤，比如一斤芹菜 2 毛 2 ，重量是 2 斤半。一共收多少钱。如果是 2 斤 6 两收多少钱。\n我们现在知道 0.22 元/斤 * 2.5 斤 = 0.55 元\n我爹说他就在地上拿树枝掰断了开始数。但这里面不光是整数，还有小数。\n很久很久之后，我爹说他发现先算大的再算小的 最后相加是对的。\n比如上面的，把 0.22 拆成 0.2 和 0.02  2.5 拆成 2 和 0.5 。\n就是 2 个 2 毛是 4 毛。2*0.2=0.4\n2 个 2 分是 4 分 2*0.02=0.04\n半个 2 毛是 1 毛 0.2*0.5=0.1\n半个 2 分是 1 分 0.02/2=0.01\n上面四个相加就算出来等于 5 毛 5.\n当然我们现在很容易想到这种计算方法。那是因为我们系统学过小学中学的关于加减乘除的计算方法。\n他一天没上过学。也能悟出来，说真的，我很佩服。\n我爹说自从这种算账会了之后，他就开始练心算，现在依然能很快的算出来。虽然现在是电子秤了。",
           "link": "https://www.v2ex.com/t/1103961",
           "publishedOn": "2025-01-09T09:29:47.000Z",
-          "wordCount": 585,
+          "wordCount": 643,
           "title": "人能一夜之间开悟吗?我爹说他小时候在一个桥洞底下一夜之间学会算账了。",
           "imageUrl": null
         },
