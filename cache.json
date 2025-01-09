@@ -104,12 +104,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -309,7 +303,7 @@
           "description": "BestVPS: \nDC99 机房将最新配上，后续再推广至其他存量机型。\nHello everyone,\nIPV6 is near to being released. DC99 will be testing it first.\nWe are hoping to release it within the next 48 hours.",
           "link": "https://www.v2ex.com/t/1103732",
           "publishedOn": "2025-01-08T22:30:16.000Z",
-          "wordCount": 388,
+          "wordCount": 399,
           "title": "速报：搬瓦工将在未来 48 小时内给主机配上 IPv6",
           "imageUrl": null
         },
@@ -329,7 +323,7 @@
           "description": "nananqujava: 主要可以连 webdav",
           "link": "https://www.v2ex.com/t/1103728",
           "publishedOn": "2025-01-08T16:56:53.000Z",
-          "wordCount": 453,
+          "wordCount": 460,
           "title": "求推荐安卓看 epub 的软件",
           "imageUrl": null
         },
@@ -349,7 +343,7 @@
           "description": "lthero: \n有大佬解释下，它要“开启新时代”了嘛\nXHTTP: Beyond REALITY\nhttps://github.com/XTLS/Xray-core/discussions/4113",
           "link": "https://www.v2ex.com/t/1103724",
           "publishedOn": "2025-01-08T16:37:07.000Z",
-          "wordCount": 513,
+          "wordCount": 518,
           "title": "关于 XHTTP 协议",
           "imageUrl": null
         },
@@ -409,7 +403,7 @@
           "description": "avenhen: 我已经被这个破报错折腾了俩晚上了，google 上各种方法都尝试了，就是绕不过去。求大神解答。\n## 启动报错内容\n```txt\nFailed to build iOS app\nError output from Xcode build:\n↳    --- xcodebuild: WARNING: Using the first of multiple matching destinations:\n    { platform:iOS Simulator, id:16524F90-A508-4F0D-9091-F0CF7A5A6686, OS:17.5, name:iPhone 14 Pro }\n    { platform:iOS Simulator, id:16524F90-A508-4F0D-9091-F0CF7A5A6686, OS:17.5, name:iPhone 14 Pro }\n    ** BUILD FAILED **\n\nXcode's output:\n↳    Writing result bundle at path:\n        /var/folders/fq/2051nhxx5rs4svtvnsd_hvjr0000gn/T/flutter_tools.mEnGAj/flutter_ios_build_temp_dirENnESM/temporary_xcresult_bundle\n    /Users/cloud_prg/.pub-cache/hosted/pub.flutter-io.cn/wakelock-0.5.3+3/ios/Classes/messages.m:4:9: fatal error: 'Flutter/Flutter.h' file not found\n    #import <Flutter/Flut…",
           "link": "https://www.v2ex.com/t/1103716",
           "publishedOn": "2025-01-08T15:37:41.000Z",
-          "wordCount": 792,
+          "wordCount": 793,
           "title": "flutter 启动 ios 项目失败 n 次，求大神帮忙",
           "imageUrl": null
         },
@@ -439,7 +433,7 @@
           "description": "codertracker: \n永久兑换，需要的留言，发完为止...\n在 appStore 上搜索 [萌萌倒数日] ，这是一款极简风格的倒数日 App ，帮助你记录那些难忘的日子，支持桌面小组件，上传自定义图片，数据本地存储...\n官网： https://mengapp.vercel.app/\nappStore 下载地址： https://apps.apple.com/app/id6737198411",
           "link": "https://www.v2ex.com/t/1103712",
           "publishedOn": "2025-01-08T15:12:13.000Z",
-          "wordCount": 691,
+          "wordCount": 718,
           "title": "送码，送码，永久兑换码，需要的评论留言",
           "imageUrl": null
         },
@@ -469,7 +463,7 @@
           "description": "tenserG: \n今年最后一个版本结束了，抽空来 V 站逛逛，看看有没有跳槽机会。\n年会虽然领了奖，但开心不起来，总感觉寒气逼人，v 站招聘相关的帖子也是冷冷清清，远不如前几年热闹。\n关于个人\n我目前是 5 年后端开发，27 岁，普本计科，在杭州上的大学，主要从事 IaaS 相关的开发工作。最近两份工作分别是 2 年和 3 年。最近一年半，我负责了一个服务的开发和运维，上线后几乎都是我一个人在做。那时组内大约有 10 个人，有 4 个服务，大家的工作有交叉和侧重。但由于带我的前辈离职，其他同事对该项目不熟悉，最后大部分工作都由我来接手。这段时间是我成长最快的时光。后来业务重组，其他部门的同事转进来，压力也分担了不少。最近工作方面，需求更多侧重在性能优化和运维改进，我做得还不错，但有时我也很纠结，这些经验写进简历中，总感觉表达不够清晰，不够抓眼球。\n八卦部分\n主要是人事方面，最近 boss 去了上海，新入职的 base 也都改在上海，不过我们组的大部分人还是在杭州。未来组内肯定会有些人事变动，资源大概率会倾斜给上海那边，杭州这边又是重组，感觉职场走到头了。\n人际方面\n跟组内同事相处得很好，其中有两个算得上无话不谈，聊起各自未来打算，又是各有各的烦恼。他发愁买房，我连对象都没找，三无青年。大家也常聊起未来的打算。大家都各有各的烦恼。同事操心买房问题，我则是连对象都没找，三无青年。\n自我评价\nmbti 是标准的 i 人，intp ，mbti 科学么，不尽然，心理学有种说法是巴纳姆效应。用猫猫类比的话，我选择暹罗猫，只会苦干的感觉，而且如果我不离开家乡，也会变成字面意思上的暹罗猫吧，因为我的家乡跟煤炭深深绑定。族旺留原籍，家贫走他乡，希望能在大城市待下来。\n新的一年祝大家健康幸福，附上养的猫猫",
           "link": "https://www.v2ex.com/t/1103706",
           "publishedOn": "2025-01-08T14:44:26.000Z",
-          "wordCount": 428,
+          "wordCount": 434,
           "title": "年底是跳槽的时候么",
           "imageUrl": null
         },
@@ -549,7 +543,7 @@
           "description": "a707782628: \n如题，我记得以前是不能在一个账号内购另一个账号下载的 app ，必须要也拥有这个 app 才行，不然内购就报这个错误。但是前几天我折腾壁纸，看到国区售价 30 块，就换区看看低价区多少，结果看完顺手按了订购，居然成功了，就很神奇。以前为了跨区内购还得先注册国区获取完所有需要的 app 再转区，现在不用的话就方便很多了。",
           "link": "https://www.v2ex.com/t/1103687",
           "publishedOn": "2025-01-08T13:15:53.000Z",
-          "wordCount": 433,
+          "wordCount": 435,
           "title": "AppStore 貌似更改了跨账号内购的规定",
           "imageUrl": null
         },
@@ -559,7 +553,7 @@
           "description": "haha2333haha: PCCW 2500M 166hkd ，10G 998hkd\nHGC 2500M 189hkd\nCMHK 10G 目前只限维港汇 198hkd\n试过拉网页服务器，只有自己访问，用不上悲\n挂种子抢不过德国机房，用不上悲\n24 小时下载资源，自己吃不消悲\nreclone onedrive ，微软只给 300m ，悲\nSpeed test 2500m ！！！！ 终于爽歪歪\n话说个人用户还能有多少用途\n\n(2500m pccw 测速 ->欧洲 1800m ，美国->1800m ）",
           "link": "https://www.v2ex.com/t/1103684",
           "publishedOn": "2025-01-08T13:10:43.000Z",
-          "wordCount": 615,
+          "wordCount": 629,
           "title": "10G / 2.5G 的个人宽带有什么用",
           "imageUrl": null
         }
