@@ -94,6 +94,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -359,7 +365,7 @@
           "description": "shapper: \n现在有什么火绒替代品，不用强迫用户升级的\n鉴于该软件开始走上 360 的道路，准备替换一下",
           "link": "https://www.v2ex.com/t/1104026",
           "publishedOn": "2025-01-09T16:39:40.000Z",
-          "wordCount": 489,
+          "wordCount": 523,
           "title": "现在有什么火绒替代品，不用强迫用户升级的",
           "imageUrl": null
         },
@@ -369,7 +375,7 @@
           "description": "qazwsxkevin: \n装在 LSI9207-8i 阵列上的自己玩玩的 Esxi ，误删除了一个虚拟机，打算能恢复回 VMDK 就可以了，\n想先找找有无这样的 PE 环境，如果实在没有，就只能引导另外个硬盘，装好 Windwos+LSI 驱动，识别出磁盘，再去恢复了\n如果有其它的恢复方法也好？",
           "link": "https://www.v2ex.com/t/1104025",
           "publishedOn": "2025-01-09T16:38:50.000Z",
-          "wordCount": 428,
+          "wordCount": 430,
           "title": "请问有可以直接驱动起 LSI 阵列卡的 WinPE 吗？（恢复误删的 ESXI 6 虚拟机）",
           "imageUrl": null
         },
@@ -379,7 +385,7 @@
           "description": "ttgo: 之前一直用 gemini 、chatgpt 的网页版，以及 chatgpt 的 app ，但感觉仍然有不方便的地方。\n有更好用的用 API 的第三方客户端么？",
           "link": "https://www.v2ex.com/t/1104024",
           "publishedOn": "2025-01-09T16:34:17.000Z",
-          "wordCount": 399,
+          "wordCount": 406,
           "title": "有值得推荐的 PC/MAC 上的第三方 AI 客户端么？",
           "imageUrl": null
         },
@@ -419,7 +425,7 @@
           "description": "Rooger: \n从毕业起，我一直从事的是游戏后端。\n13 年毕业，用了三年 SVN ，印象中没有人不写提交记录。\n从 16 年开始，一直使用的是 Git ，那就更不会看见空提交记录的情况。\n直到今年，换了个团队，开始重回 SVN ，有个同事（前端，99 年小伙子）提交信息啥都不写，被老板批了几次，情况几乎没有再出现。\n最近又换了个团队，依然是 SVN ，更有些惊讶到我了。技术 Leader （ 70 后，依然在写业务代码），比我早进公司一天的一个同事（ 81 年）。我看到这个同事提交记录为空，他说：我改了很多，我的修改记录都在 Edit Plus 中记录着呢。我看了，的确是挺多的。直到我发现 SVN 提交记录中不至一个人（领导跟这位同事）的时候，我也就觉得没啥了（因为领导提交记录也大多是空着的）。\n2025 年了，大家还在用 SVN 吗，对于空提交记录，大家怎么看？",
           "link": "https://www.v2ex.com/t/1104020",
           "publishedOn": "2025-01-09T15:30:07.000Z",
-          "wordCount": 437,
+          "wordCount": 438,
           "title": "代码提交记录为空，大家怎么看？",
           "imageUrl": null
         },
@@ -449,7 +455,7 @@
           "description": "revival83: 最近十年没用过 windows 了，上一次用还是 windows7 ，用 Mac 没考虑过安全性问题，所以来问问大佬们，是不是这样说明被 chrome 拦截了？电脑没问题？",
           "link": "https://www.v2ex.com/t/1104015",
           "publishedOn": "2025-01-09T15:11:08.000Z",
-          "wordCount": 489,
+          "wordCount": 500,
           "title": "大佬们我下载了一个.exe windows 优化软件， chrome 提示已屏蔽危险的下载内容，是不是说明我的电脑是安全的？",
           "imageUrl": null
         },
@@ -469,7 +475,7 @@
           "description": "haoyh1: 去年 9 月就一直想买个 mba\n当时 m2 8+8 核，8+256 ，jd 国补 5359 ，由于不急用就没买\n刚刚看了眼，发现双十一时苹果更新了 sku ，8g 免费升级到 16g\n如今 tb 的百亿补贴，m2 8+8 核，16+256 只要 5198 了\n等了几个月，便宜 100 多又升级到了 16g ，这一波等等党做的可以说是赢麻了，真有点控制不住想买了\n但是当下还是没有很强的需求用它，既然通缩周期还早，降价是大趋势，买盘不担心踏空，继续等吧，等一个 5000+的 m3 （可以外接双显示器）",
           "link": "https://www.v2ex.com/t/1104013",
           "publishedOn": "2025-01-09T14:59:36.000Z",
-          "wordCount": 427,
+          "wordCount": 429,
           "title": "买个 mba，真切感受到了通缩，物价下跌，消费降级的威力",
           "imageUrl": null
         },
@@ -529,7 +535,7 @@
           "description": "HHJY: \n国行的 iphone13mini ，现在想弄一个流量卡一起用，但是不知道怎么可以同时用双卡。",
           "link": "https://www.v2ex.com/t/1104006",
           "publishedOn": "2025-01-09T14:04:40.000Z",
-          "wordCount": 368,
+          "wordCount": 374,
           "title": "iphone13mini 怎么弄双卡",
           "imageUrl": null
         },
@@ -539,7 +545,7 @@
           "description": "CodeY99: 朋友加入一家外企，外企上班，发了一台 windows 电脑，需要翻墙登录企业账号才能用，但是没什么权限装软件，修改注册表等。除了路由器翻墙还有其他路子吗？\n目前测试过 android 手机开热点，sing-box clash 全局代理都不行。\n主要是考虑临时出门用，最好是手机上装个什么软件，开个热点能搞定。\n感谢",
           "link": "https://www.v2ex.com/t/1104005",
           "publishedOn": "2025-01-09T14:04:33.000Z",
-          "wordCount": 443,
+          "wordCount": 458,
           "title": "[求助] 除了路由器翻墙 windows 登录系统前如何翻墙？",
           "imageUrl": null
         },
@@ -649,7 +655,7 @@
           "description": "kkkkh: \n现在公司对待前端，整体感觉是边缘状态，给我整体感觉有以下几点：\n1 、不了解前端，不知道前端重要性；\n2 、不知道前端的能做什么，不能做什么；\n3 、有时候还尊重前端；\n求大家给指点指点，我想肯定有，但是不知道怎么牛逼惊艳到他们",
           "link": "https://www.v2ex.com/t/1103992",
           "publishedOn": "2025-01-09T12:48:20.000Z",
-          "wordCount": 528,
+          "wordCount": 530,
           "title": "前端有没有可以拿得出手的，能惊艳到后端和产品的技术？",
           "imageUrl": null
         },
@@ -689,7 +695,7 @@
           "description": "lovemimi733: \n电源灯闪烁，屏幕显示黄色警告符号，提示访问官网 support/appletv/restore 。打了客服反馈要送修，大陆没有只能去香港...属实没想到，以为这东西不容易坏的",
           "link": "https://www.v2ex.com/t/1103986",
           "publishedOn": "2025-01-09T12:32:39.000Z",
-          "wordCount": 415,
+          "wordCount": 429,
           "title": "23 年 11 月购入的 AppleTV 7 代港版无法开机了",
           "imageUrl": null
         },
