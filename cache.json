@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -133,33 +127,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -311,6 +278,386 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1103977",
+          "author": "syyyyy",
+          "description": "syyyyy: 咸鱼上只有企业授权的这种，京东 2 年的收不到了",
+          "link": "https://www.v2ex.com/t/1103977",
+          "publishedOn": "2025-01-09T10:58:11.000Z",
+          "wordCount": 458,
+          "title": "现在哪里能买到便宜的 pd 啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103976",
+          "author": "yuyuf",
+          "description": "yuyuf: 上架了个小程序，搜索关键词，搜索不到，只有搜索全称可以搜索到。\n就在淘宝上看了一下，发现有提供关键词搜索排名服务的。靠不靠谱，是怎么实现的。",
+          "link": "https://www.v2ex.com/t/1103976",
+          "publishedOn": "2025-01-09T10:42:32.000Z",
+          "wordCount": 381,
+          "title": "淘宝有提供提升小程序搜索排名的服务，有 V 友知道靠谱吗，是怎么实现的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103975",
+          "author": "chittypaopao",
+          "description": "chittypaopao: \n那么多裁员的公司，我们 Kong 还在逆风而行，火热招聘中，加入我们，No AI without APIs 以下是我司官方招聘网址，岗位还会持续更新哦。欢迎收藏持续关注 Kong 上海招聘\n刷新了我们目前和明年招聘的职位：\nAI Gateway 开发\n网关开发（ Go ）\nInsomnia 前端开发（ React ）\nInsomnia 后端开发（ Go ）\nInsomnia 测试开发\n网关开发经理\nKong 正在扩展我们的团队，寻找充满激情、技术精湛的开发者加入我们，共同推动全球领先的云原生 API 网关与微服务架构的创新。如果你热衷于技术挑战，愿意与顶尖团队一起共创未来，Kong 期待你的加入！\n为什么加入 Kong ？\n技术前沿：Kong 在云原生、微服务、API 管理领域处于全球领先地位，技术挑战与机会并存，助你站在行业前沿。\n全球视野：与来自世界各地的顶尖工程师一起合作，共同推动创新与技术演进。\n灵活工作：支持灵活的工作方式，鼓励创造力与多元化思维。\n学习与成长：提供丰富的学习资源与成长空间，帮助你成为行业顶尖的技术专家。\n我们寻找的你：\n具备扎实的编程功底，熟悉相关技术栈（ Go 、React 、API 网关等）\n热爱技术，愿意面对技术挑战并寻求创新解决方案\n具有良好的团队合作精神，能够在高效的跨职能团队中发挥作用\n良好的英语口语沟通能力\n对云原生、微服务等领域有浓厚兴趣者优先\n地点：上海\n\n\n祝福大家蛇年大吉，工作开心愉快！欢迎感兴趣的朋友直接投递英文简历到 chitty.li@konghq.com",
+          "link": "https://www.v2ex.com/t/1103975",
+          "publishedOn": "2025-01-09T10:25:39.000Z",
+          "wordCount": 439,
+          "title": "加入我们， No AI without APIs — Kong 2025 年岗位火热招聘中！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103974",
+          "author": "Jonney",
+          "description": "Jonney: \nzerossl 的 IP 证书拼车，200 元/IP/年，只限 3 位",
+          "link": "https://www.v2ex.com/t/1103974",
+          "publishedOn": "2025-01-09T10:25:06.000Z",
+          "wordCount": 382,
+          "title": "IP 证书拼车",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103973",
+          "author": "khazan",
+          "description": "khazan: \n想买个卧铺回家，但是貌似就不放票。有什么路子吗？或者黄牛也行",
+          "link": "https://www.v2ex.com/t/1103973",
+          "publishedOn": "2025-01-09T10:22:38.000Z",
+          "wordCount": 426,
+          "title": "想买个火车卧铺，有什么方法吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103972",
+          "author": "wqq096737ink",
+          "description": "wqq096737ink: \ntwitter 好多外国人做 ai 相关的产品.\n下面是一个 ai 和面试相关的产品, 之前好像在 v 站看到有人在做,不知道现在怎么样了\n \nhttps://imgur.com/WBo29Q2\nhttps://app.parakeet-ai.com/\nq:imgur 的 markdown 咋不生效了?",
+          "link": "https://www.v2ex.com/t/1103972",
+          "publishedOn": "2025-01-09T10:15:57.000Z",
+          "wordCount": 392,
+          "title": "国外一个 AI Interview Assistant, 国内有同类产品吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103971",
+          "author": "hfl1995",
+          "description": "hfl1995: 1.在静置状态下,电脑 CPU (一个 java 进程父进程来自 cursor,)占用一直是 100%,导致风扇狂转,mac 发热卡顿,有时候晚上下班没管,就这么持续烤机了一夜.\n \n2. ai 生成的中文会乱码,类似于这种  “��”\n补充:目前 Cursor 和 其他 ide 双开,读写同一个项目,仅用 Cursor 生成代码.",
+          "link": "https://www.v2ex.com/t/1103971",
+          "publishedOn": "2025-01-09T10:15:14.000Z",
+          "wordCount": 411,
+          "title": "Mac 上使用 Cursor 遇到两个大问题,有解决经验吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103970",
+          "author": "0x12cwusagi",
+          "description": "0x12cwusagi: 不太在 V2EX 发帖，如果设置错了主题节点请见谅\n离职了有空，想过年这段时间研究一下最近很火的 ai 辅助编程，顺便也拿来学一下德语。现在还是推荐 gpt pro 吗？还是 calude ？说错了见谅，我感觉我已经脱节这个 ai 时代挺久了。我有海外信用卡和梯子。\n我主要是用 vs 搞搞 ue ，还有写点 hlsl ，这种目前的 ai 辅助能帮上忙吗？外语的话我能交流，能通过多模态实现模拟真人的对话吗？\n谢谢大家",
+          "link": "https://www.v2ex.com/t/1103970",
+          "publishedOn": "2025-01-09T10:12:37.000Z",
+          "wordCount": 457,
+          "title": "现在想辅助编程和学习外语应该订阅哪家的 llm 服务？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103969",
+          "author": "Peyton",
+          "description": "Peyton: \n整理格式如下：被盗时间 2025/01/09 16:16\n被盗交易哈希:\n0x43fbf0aee23a2b90ee5e3c60f7ebb52cab3698ba8706545dafe031d346c707bf\n查看交易详情 \n事件描述:\n任务地址:\nhttps://app.questn.com/quest/991085448072921260 \n钓鱼网站:\nhttps://renzocommunity.com/discover/ \n因为好奇这些任务网站的内容，不小心连接了钱包，结果导致资金被盗。  \n求助:  \n求大佬分析被盗过程，了解具体手法以后多加防范。  \n这个钱包地址还能继续使用吗？",
+          "link": "https://www.v2ex.com/t/1103969",
+          "publishedOn": "2025-01-09T09:54:22.000Z",
+          "wordCount": 490,
+          "title": "加密货币 usdt 被盗, 求大佬分析是怎么做到的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103968",
+          "author": "hw798",
+          "description": "hw798: \n房指数官网\nhttps://fangzhishu.com\n大数据甄选优质好房\n房指数只分析不卖房，为了通过大数据甄选优质好房，房指数整合了全国住建委、各大中介公司和 7 个法拍房平台近 10 年的 8 千万套真实成交记录， 对市场上每一套房子（小区、商圈、城市）的市场竞争力做了指标量化，让购房者像选股票一样选房子，竞争力、流通性、价格走势和买卖时机都一目了然。 进而能够在市场中优中选优、顺势而为、低入高出，避免购房者在错误时间买入毫无竞争力的房子以至于最后赔钱也卖不掉。",
+          "link": "https://www.v2ex.com/t/1103968",
+          "publishedOn": "2025-01-09T09:54:05.000Z",
+          "wordCount": 115,
+          "title": "[买房神器] 分享个小区能不能买的测评网站",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103967",
+          "author": "Eddiegaao",
+          "description": "Eddiegaao: \n人的能量与磁场\n我知道这么说有点抽象，但是我相信大家也都会同意我这个说法：人是有能量或者说磁场的，可能是个很复杂的东西，但总结起来就叫「人的能量/磁场」。\n小时候的独立思考\n我特别奇怪，我从小觉得自己是很聪明的那种。\n基于这种独立思考的能力，我从小学到初中一直都是名列前茅。\n为什么感觉人是有磁场的？\n扯远了，说回来，为什么会感觉人是有磁场的？\n但是等到上大学乃至毕业后，来到北京，遇到的聪明人越来越多，我会有点自卑。\n\n\n克服社交问题\n所以想问一下大家，有没有遇到过这种情况？\n风水与人的能量\n最后做个延伸，风水这个词虽然听起来很玄幻，但确实能从科学角度解释它。\n每一个选择造就了现在的你，也造就了未来的你。  \n所以我相信人的磁场、能量也是可以用科学、逻辑来解释的。",
+          "link": "https://www.v2ex.com/t/1103967",
+          "publishedOn": "2025-01-09T09:50:16.000Z",
+          "wordCount": 604,
+          "title": "你们相信人是有能量，或者磁场的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103965",
+          "author": "dafen7",
+          "description": "dafen7: \n目前市面上是否有相对稳定可用的工具来通过一段话生成对应的图表，没有什么思路啊，老板急切的需要这种东西去跟客户吹。",
+          "link": "https://www.v2ex.com/t/1103965",
+          "publishedOn": "2025-01-09T09:43:45.000Z",
+          "wordCount": 408,
+          "title": "有哪些可用的 text2sql 或 text2chart 吗，这个需求可行性怎么样",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103964",
+          "author": "yanyan919",
+          "description": "yanyan919: RT 公司 base 北京海淀五道口，技术氛围超 nice ，年前年后均有 HC 。目前开放的岗位包括但不限于：\n1 、后端（ node.js ）\n2 、移动端（ RN ）\n3 、AI （ llm finetune ）\n4 、QA （ Web & APP ）\n5 、 不在上述行列但真的很感兴趣。\n薪资 open ，scope 很大。\n感兴趣的大佬可以直接+v：MTM5NDQ4NzU4MTE=，期待各位大佬拯救一个收不到简历的心碎 HR ！！",
+          "link": "https://www.v2ex.com/t/1103964",
+          "publishedOn": "2025-01-09T09:36:48.000Z",
+          "wordCount": 412,
+          "title": "[北京] AIGC 创业团队真诚开放 onsite / remote 工程师岗位，感兴趣的大佬们可以停下脚步看看我们！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103963",
+          "author": "jinlan",
+          "description": "jinlan:",
+          "link": "https://www.v2ex.com/t/1103963",
+          "publishedOn": "2025-01-09T09:36:19.000Z",
+          "wordCount": 410,
+          "title": "大家有使用什么 AI 产品？都是如何使用的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103962",
+          "author": "Ansen",
+          "description": "Ansen: 好家伙\n直接读取几个主流浏览器的数据\n还有 firefox 的弹窗我拒绝快了, 没有截到\n \n\n \n这是火绒的日志\nhttps://gist.github.com/Ansen/bb1a87e6fee80d11472eb79a565b6155",
+          "link": "https://www.v2ex.com/t/1103962",
+          "publishedOn": "2025-01-09T09:34:07.000Z",
+          "wordCount": 376,
+          "title": "BingWallpaperApp 居然要读取浏览器数据, 有替代的吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103961",
+          "author": "qxmqh",
+          "description": "qxmqh: 我爹没上过学，我爷爷家里三个男孩，两个女生，我爹排行老二。\n从小就跟我爷爷一起拉缸,收破烂,卖芹菜,但是更多的是辅助角色。\n我爹说他小时候一次跟我爷爷去外地拉了两大车芹菜去外地卖，结果到地方之后，家里有人捎话说家里长辈去世了，我爷爷就把一车芹菜卸掉了，跟我爹的那车芹菜一起卖。\n可我爹不会算细账，基本的 10 之内的加法还是会的，当时差不多 13,14 岁左右，一个字没学过，一天学没上。\n我爷爷临走之前把他和两车菜卸在一个桥洞边上。拉着空车就回去了，很难想象，一个 13 岁孩子在看着两车菜，一个人在桥洞里面。\n我爹急得不行，因为不会算账，卖不掉菜就烂掉了，我爷爷就算再快也得来回三天。\n我爹说他从晚上吃完饭就在桥洞里面坐着想怎么算账。\n那会是钩秤，比如一斤芹菜 2 毛 2 ，重量是 2 斤半。一共收多少钱。如果是 2 斤 6 两收多少钱。\n我们现在知道 0.22 元/斤 * 2.5 斤 = 0.55 元\n我爹说他就在地上拿树枝掰断了开始数。但这里面不光是整数，还有小数。\n很久很久之后，我爹说他发现先算大的再算小的 最后相加是对的。\n比如上面的，把 0.22 拆成 0.2 和 0.02  2.5 拆成 2 和 0.5 。\n就是 2 个 2 毛是 4 毛。2*0.2=0.4\n2 个 2 分是 4 分 2*0.02=0.04\n半个 2 毛是 1 毛 0.2*0.5=0.1\n半个 2 分是 1 分 0.02/2=0.01\n上面四个相加就算出来等于 5 毛 5.\n当然我们现在很容易想到这种计算方法。那是因为我们系统学过小学中学的关于加减乘除的计算方法。\n他一天没上过学。也能悟出来，说真的，我很佩服。\n我爹说自从这种算账会了之后，他就开始练心算，现在依然能很快的算出来。虽然现在是电子秤了。",
+          "link": "https://www.v2ex.com/t/1103961",
+          "publishedOn": "2025-01-09T09:29:47.000Z",
+          "wordCount": 532,
+          "title": "人能一夜之间开悟吗?我爹说他小时候在一个桥洞底下一夜之间学会算账了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103960",
+          "author": "yxc",
+          "description": "yxc: \n这两天猛吃薯片烧烤，直接口腔溃疡、咽喉沙哑、牙龈肿痛、长痘痘、第二天辣菊花......\n中医直接把这类归为上火，不清不楚的。做了点功课，分享一下。\n从西医的角度分享一下\n口腔溃疡\n各类调料、盐分、辣椒等容易造成渗透压差，导致粘膜脱水，脱水后口腔粘膜容易破裂\n瓜子、薯片、煎炸类等属于硬物，也容易刺伤口腔粘膜\n口腔粘膜有伤口，被细菌感染，形成溃疡\n牙龈肿痛、喉咙发炎\n同理，各种重口调料也会刺激到扁桃体和牙龈，身体为了应对，则引起炎症反应\n长痘\n针对皮脂腺活跃的人士，这类食物高脂肪、高热量，而且吃的时候大家还喜欢搭配可乐等高糖饮料，简直是刺激皮脂腺分泌的完美要素，如果皮肤及时清洁，则会引起毛孔堵塞，然后爆痘\n辣菊花、胃不舒服\n辣椒素不溶于水，直接会刺激到胃部，第二天串稀。然后再次辣到菊花\n知道以上原因，就可以针对预防和治疗啦：\n避免划伤粘膜：\n细嚼慢咽、大量补充水分\n第一时间清洁杀菌\n刷牙\n复方氯已定漱口水（消炎、杀菌）\n保护肠胃、菊花\n辣椒素不溶于水，但溶于油脂\n喝牛奶\n修复粘膜\n当天睡前补充 b2 、维 c ，复合维生素\n早睡\n防止爆痘\n皮肤清洁，把脸部油脂清理干净\n有条件可以用含水杨酸的产品，及时疏通毛孔\n做好以上，基本就不会上火了。\n上面提到的都是西药，都是几块钱。\n口腔溃疡三把斧：b2 维 c 复方氯已定漱口水，治本良药，复方氯已定强势杀菌，维生素加速粘膜修复。当天使用，第二天明显不痛了，第三天康复。\n喉咙、牙龈肿痛：布洛芬、氯已定漱口水。布洛芬专治红肿热痛，平时大家都是治热比较多，治红肿痛也是一流。但其实这类肿痛不到十分严重的话，直接氯已定漱口水即可，根本不用上布洛芬。",
+          "link": "https://www.v2ex.com/t/1103960",
+          "publishedOn": "2025-01-09T09:29:44.000Z",
+          "wordCount": 443,
+          "title": "分享：吃了烧烤煎炸等食品后，如何有效快速避免“上火”及“去火”？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103958",
+          "author": "gitxuzan",
+          "description": "gitxuzan: \n公司的小项目，替换轻量级的搜索引擎，最开始使用 es, 但是启动内存占用就很高，\n最近替换 meilisearch 但是发现批量插入数据，内存泄露不释放\n打算重新调研替换下 zincsearch 看看效果\n数据总量大概 200w 条数据左右，需要使用分词搜索",
+          "link": "https://www.v2ex.com/t/1103958",
+          "publishedOn": "2025-01-09T09:19:13.000Z",
+          "wordCount": 472,
+          "title": "求寻，替换轻量级的搜索引擎方案！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103957",
+          "author": "leaderone2",
+          "description": "leaderone2: \n1 、使用不卡\n2 、不超过 2000 元\n3 、日常不玩游戏、内存 7+、硬盘 127+\n4 、主要工作是体力作业，因此手机要易用、耐操、平凡，不是为发烧而来\n大家帮忙推荐一下吧",
+          "link": "https://www.v2ex.com/t/1103957",
+          "publishedOn": "2025-01-09T09:19:11.000Z",
+          "wordCount": 400,
+          "title": "主力千元手机推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103956",
+          "author": "chuck1in",
+          "description": "chuck1in: \n想换一个更加好看的用户名，改成 Chuck1sn\n@Livid\n谢谢各位管理员，谢谢站长。",
+          "link": "https://www.v2ex.com/t/1103956",
+          "publishedOn": "2025-01-09T09:17:17.000Z",
+          "wordCount": 1437,
+          "title": "请问 V2 可以修改自己的用户名吗？",
+          "imageUrl": "/static/icon-192.png"
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103953",
+          "author": "raphaelsoul",
+          "description": "raphaelsoul: \n想安装一个数据库跑 lobechat 。今天一看 myqnap 现在把 postgres 收费 12 欧了。\n不花钱 不用容器跑的话 似乎只能进 terminal 自己编译安装了，但缺点是不能通过 web ui 管理服务。",
+          "link": "https://www.v2ex.com/t/1103953",
+          "publishedOn": "2025-01-09T08:59:25.000Z",
+          "wordCount": 412,
+          "title": "威联通现在如何安装 postgresql？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103952",
+          "author": "maninnet",
+          "description": "maninnet: 原来家里的 tailscale 是部署在路由器(er-x)上的，可以跟另外一台装了 tailscale 的机器(H)进行直连，但是路由器内存太小了，时不时就 OOM ，所以将它移到局域网内的一台 debian 机器上，开启子网并进行 IP 转发，在路由器上配置静态路由，现在可以任意互访，但是已经不能直连了，请问这是啥原因？测试了一下，局域的 NAT 是 Port Restricted Cone ，H 机器所在的 NAT 是 Symmetric 。",
+          "link": "https://www.v2ex.com/t/1103952",
+          "publishedOn": "2025-01-09T08:57:10.000Z",
+          "wordCount": 466,
+          "title": "请教 tailscale 直连问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103951",
+          "author": "aaatches",
+          "description": "aaatches:",
+          "link": "https://www.v2ex.com/t/1103951",
+          "publishedOn": "2025-01-09T08:55:51.000Z",
+          "wordCount": 395,
+          "title": "第三方购买的 airpods pro 2 可以添加 apple care 吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103950",
+          "author": "Blanca30",
+          "description": "Blanca30:",
+          "link": "https://www.v2ex.com/t/1103950",
+          "publishedOn": "2025-01-09T08:53:16.000Z",
+          "wordCount": 497,
+          "title": "怎么看待亮亮丽君夫妇恶意剪辑事件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103949",
+          "author": "WellLee",
+          "description": "WellLee: \n\n请教大佬怎么解决这个问题，好启动 bjcacertd_3k.exe",
+          "link": "https://www.v2ex.com/t/1103949",
+          "publishedOn": "2025-01-09T08:48:52.000Z",
+          "wordCount": 372,
+          "title": "bjcacertd_3k.exe 启动失败",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103948",
+          "author": "CKAJ555",
+          "description": "CKAJ555: \n几块钱一桶？我们这边一直喝的叫不上的品牌，一桶 8 块钱。今年涨价了 涨到 9 块 很好奇大家都公司喝的什么桶装水喝价格啊",
+          "link": "https://www.v2ex.com/t/1103948",
+          "publishedOn": "2025-01-09T08:47:11.000Z",
+          "wordCount": 577,
+          "title": "兄弟们 你们公司喝的大桶水都啥牌子的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103947",
+          "author": "wuruxu",
+          "description": "wuruxu: \n目前基于 chromium 132 内核代码，可内嵌在 android app 中的 webview 实现        \ncrwebview github repo",
+          "link": "https://www.v2ex.com/t/1103947",
+          "publishedOn": "2025-01-09T08:45:02.000Z",
+          "wordCount": 355,
+          "title": "另一个 android webview 实现",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103946",
+          "author": "PROJECT",
+          "description": "PROJECT: 公司里面的技术大佬比较看好 QUIC ，主要看重保密性强，速度快，多路复用啥的。。。我开会的时候说国内 UDP 运营商会丢包。。。。领导让看看有没有解决办法。。大佬们有吗？",
+          "link": "https://www.v2ex.com/t/1103946",
+          "publishedOn": "2025-01-09T08:44:33.000Z",
+          "wordCount": 724,
+          "title": "请问下国内的网络环境 QUIC 协议是不是不太合适啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103945",
+          "author": "victer",
+          "description": "victer: 超级稳，长期运营，明码标价、无猫腻。用过的老板都说好。\n我们支持全网主流 ai 模型，主流的基本都有吧，chatgpt 、claude 、gemini 、mj 、sd 、flux 、suno 、luma 、智普、百度等\n网站支持 5 种模式（每一种都是单独用户分组）：逆向、按次计费（混合）、Azure 、企业无审核 Azure 混 openai 官 key 、纯 Openai 官方。\n各位老板可根据自己的业务需求选择不同的渠道。\n注册即送免费额度，测试满意您在使用。\n云智 Ai-API\n直达连接： https://api.openxs.top",
+          "link": "https://www.v2ex.com/t/1103945",
+          "publishedOn": "2025-01-09T08:31:11.000Z",
+          "wordCount": 386,
+          "title": "非常稳定的 midjourney api ， MJ 接口， chatgpt 接口，明码标价，量大非常优惠",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103943",
+          "author": "NeonMike",
+          "description": "NeonMike:",
+          "link": "https://www.v2ex.com/t/1103943",
+          "publishedOn": "2025-01-09T08:28:28.000Z",
+          "wordCount": 387,
+          "title": "一直用 QQ 工具的截图，想问下我们用的 QQ 截图，有没有隐藏水印？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103942",
+          "author": "ha1o",
+          "description": "ha1o: \n描述：电脑睡眠后，显示器熄灭（电源指示灯红灯），但是每隔一会又会亮起（电源指示灯变白灯），屏幕提示无信号输入即将进入睡眠模式，然后熄灭，再隔一会又亮起，如此不断循环。\n设备情况：\n电脑系统 windows11\nAMD6600xt 显卡 dp 接口连接显示器，显示器型号联合创新 28D1U 4K@60hz\n有没有朋友遇到这个问题？是系统哪里的设置问题还是显示器硬件/固件问题？",
+          "link": "https://www.v2ex.com/t/1103942",
+          "publishedOn": "2025-01-09T08:26:50.000Z",
+          "wordCount": 545,
+          "title": "显示器在 windows 睡眠后不断亮起熄灭，无限循环",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103941",
+          "author": "frozenway",
+          "description": "frozenway: \n是有什么技巧吗？",
+          "link": "https://www.v2ex.com/t/1103941",
+          "publishedOn": "2025-01-09T08:26:38.000Z",
+          "wordCount": 373,
+          "title": "昨晚在 11 对战平台打 dota1 ai，发现敌方的塔和泉水打一个队友竟然 100%丢失，但是这个队友没有任何闪避的物品。是什么原理？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103940",
+          "author": "nexmoe",
+          "description": "nexmoe: \n大家好，我是白日梦想家 Nexmoe 。近期，我将一套基于 Docker 打包的 ComfyUI 弹性 Serverless 应用进行了开源，该应用具备完整的前后端分离架构以及用户友好的界面。\n在完成 ComfyUI 工作流的开发后，把它部署到生产环境是一件较为棘手的事情。因此，我开源了一套案例，以供大家学习参考。\nDemo： https://hadoop.nexmoe.com/\n开源地址： https://github.com/nexmoe/serverless-comfyui\n \n项目特点\n🐳 完整的 Docker 化部署方案\n🎨 现代化的前端界面\n🔌 模块化的后端架构\n🛠 简单的配置和使用方式\n架构图\n \n项目结构\ncomfy-docker/\n├── frontend/           # Next.js 前端项目\n│   ├── src/           # 源代码\n│   └── .env          # 环境配置\n├── backend/           # ComfyUI 后端\n│   ├── checkpoints/   # 模型检查点\n│   ├── controlnet/    # ControlNet 模型\n│   ├── custom_nodes/  # 自定义节点\n│   └── loras/        # LoRA 模型\n└── bruno/            # API 测试文件\n\nfrontend/ 目录结构如下，模型 和 自定义节点 需要自行下载安装\n.\n├── Dockerfile\n├── checkpoints\n│   └── dreamshaperXL_sfwV2TurboDPMSDE.safetensors\n├── controlnet\n│   ├── sai_xl_canny_256lora.safetensors\n│   └── sai_xl_depth_256lora.safetensors\n├── custom_nodes\n│   ├── ComfyUI-Custom-Scripts\n│   ├── ComfyUI-WD14-Tagger\n│   ├── ComfyUI_Comfyroll_CustomNodes\n│   ├── comfyui-art-venture\n│   └── comfyui_controlnet_aux\n├── docker-compose.yml\n├── loras\n│   └── StudioGhibli.Redmond-StdGBRRedmAF-StudioGhibli.safetensors\n├── provisioning.sh  // 自定义脚本\n└── sanhua.json  // 工作流\n\n环境要求\nDocker & Docker Compose\nNVIDIA GPU （当前演示工作流需要 12G 显存以上）\n足够的磁盘空间（ 100G~200G ）用于存储模型\nComfyUI Docker 部署到 Serverless 弹性平台\n请参考 共绩科技的 ComfyUI 部署文档\nAPI 文档\n项目使用 Bruno 进行 API 测试和文档管理，相关文件位于 bruno/ 目录。\n贡献指南\n欢迎提交 Issue 和 Pull Request ！\n许可证\nMIT License",
+          "link": "https://www.v2ex.com/t/1103940",
+          "publishedOn": "2025-01-09T08:24:11.000Z",
+          "wordCount": 533,
+          "title": "基于 Docker 开源的前后端分离 ComfyUI 小应用，可以部署到生产环境",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103939",
+          "author": "lingchuanbo",
+          "description": "lingchuanbo: \n楼主每小时放在楼下 1 个 10 美元额度兑换码，新用户也可以私信客服免费领 5 美元额度\n如果是数据科学，计算机专业学生或独立开发者，可以免费领 50 美元 API 额度\nAPI 支持：openai ，claude ，gemini 全系模型\n、\n[超级优惠价] \n💫暖冬特惠：暖冬春节期间，全平台用户尊享 0.8 元兑 1 美元 API 额度优惠价\n💫进阶福利：基于用量，客户可享最低 0.6 元兑 1 美元的阶梯优惠\n[ AI 新生代支持计划] \n为推动 AI 创新，特别推出三大支持计划：\n1.面壁计划    \n赠送金额：🎁可领取 50 美元 API 免费额度    \n申请对象：技术博主、开源贡献者、独立开发者和 AI 专业在校学生\n            - 技术博主、开源贡献者、独立开发者，凭借相关技术博客/代码仓库/作品链接\n\n             - 计算机/数据科学/AI 专业在校生，凭借学生证/校园卡认证\n\n2.蓝色空间号    \n赠送金额：🎁可领取 500 美元 API 免费额度    \n申请对象：高校或科研团队\n            - 高校或企业开发，科研或开发过程中需要 LLM API 支持的\n\n3.奇点跃迁    \n赠送金额：🎁最高可申领 5000 美元 API 免费额度    \n申请对象：领先科研团队或成熟产品开发团队\n            - 参与国家/省级科研项目，发表过高水平论文的研究组\n\n            - 有稳定用户群或成熟落地项目的 AI 产品经理\n\n📝 [申请流程] \n关注微信公众号《数标标 API 》获取活动链接\n填写申请表，简单介绍自己或团队\n数标标 API 将于 2 个工作日内审核回复\n🎯 [活动适合人群] \n高校 AI/计算机/数据科学相关专业师生\n正在进行 AI 相关研究的青年开发者\n参与 AI 创新项目的学生团队\n热爱 AI 技术的独立开发者\n⏰ [活动时间] \n2024.12.17-2025.1.31\n[如何联系我们] \n📮 邮箱： wcliang@shubiaobiao.cn\n📱 公众号：数标标 API\n📺 B 站：数标标 API\n注：本活动最终解释权归数标标 API 所有喵",
+          "link": "https://www.v2ex.com/t/1103939",
+          "publishedOn": "2025-01-09T08:23:44.000Z",
+          "wordCount": 498,
+          "title": "openai APIkey 额度免费赠送",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103938",
+          "author": "ykwhb5210",
+          "description": "ykwhb5210: \n求问各位,\n我想买衣服有什么推荐的品牌吗?\n有其他推荐买的也可以",
+          "link": "https://www.v2ex.com/t/1103938",
+          "publishedOn": "2025-01-09T08:20:38.000Z",
+          "wordCount": 393,
+          "title": "过年回去给家里的爷爷奶奶买什么合适?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103936",
+          "author": "elron",
+          "description": "elron: \n事情过去一个多月了，小孩在幼儿园意外导致食指指甲处被砸伤，血肉横飞，缝了 7 针，骨头应该没碰到，现在恢复的不错，但是指甲那部分还是没知觉，医生说可能后期指甲可能会脱落，知觉能不能恢复也不确定。\n期间所有治疗费用都是幼儿园出的，学校态度也挺积极，最近要交明年的学费了，大概 1w 多，跟学校说想要免除明年的学费，但是他们不同意.\n请问这种情况下我还能要到赔偿或者免学费吗？大家有什么主意吗",
+          "link": "https://www.v2ex.com/t/1103936",
+          "publishedOn": "2025-01-09T08:15:15.000Z",
+          "wordCount": 920,
+          "title": "咨询大家个问题，孩子在幼儿园因老师让抬梯子，意外导致砸伤指头，这种能要赔偿吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103935",
+          "author": "Asoulist",
+          "description": "Asoulist: \n岗位职责\n1 、负责公司用户端产品的开发与维护；\n2 、与后端，设计和产品团队一起协作，持续给用户提供高质量的产品；\n3 、负责移动端基础模块组件的开发与维护；\n4 、负责移动端研发质量和效率优化工具的开发与维护；\n5 、负责移动端研发体系平台能力建设。\n岗位要求：\n1 、5 年以上移动客户端开发经验，至少熟悉和实践过一种跨端开发的框架（ React Native 、Flutter 等）；\n2 、精通 Java/Kotlin 其中一种，具备扎实的数据结构、算法分析基础，熟悉常用设计模式、多线程、网络、界面开发；\n3 、熟练掌握开发及版本控制工具，具备出色的程序优化、调试能力，良好的编程风格和文档习惯，具备良好的移动应用安全意识；\n4 、具备高度责任感和团队合作精神，执行力强，良好的口头及书面表达能力；\n5 、持续关注业内动态与新技术方向，具有持续学习的热情与能力；\n6 、有读书/小说/视频播放/云盘等工具产品经验的优先；\n7 、具有一定的带团队的能力。\n有意者可加 WX：837706723 或者发送简历至 linkunbin@xunlei.com",
+          "link": "https://www.v2ex.com/t/1103935",
+          "publishedOn": "2025-01-09T08:12:19.000Z",
+          "wordCount": 397,
+          "title": "[迅雷招聘] Android 技术专家/技术经理（深圳）40-65k/月",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103934",
+          "author": "wll1991",
+          "description": "wll1991: base 北京亦庄总部，部门零售-产研-安全风控部，社招职级最高 P8 ，前后端均有社招和校招 hc ，可年前面试，年后入职，组内直招面试流程推进飞快！！！！\n硬性要求：大厂经验/985/211\n有意者联系 v: wang396556",
+          "link": "https://www.v2ex.com/t/1103934",
+          "publishedOn": "2025-01-09T08:10:44.000Z",
+          "wordCount": 364,
+          "title": "北京京东总部招前后端开发，社招/校招均有 hc",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1103933",
           "author": "lisianthus",
           "description": "lisianthus: \n完整代码： https://codesandbox.io/p/sandbox/d8kjg2\n最近自娱自乐时，写了一个类似高中物理的木板-滑块组件，可以根据木板的角度来控制小球的位置，见图： https://imgur.com/a/Eo2briC\n组件有个问题，在旋转到 90 度附近时，值会突然从 0 跳到 100： https://imgur.com/a/kWmm3I4\n我知道问题出在 handleMouseMove 函数里，斜率 k 在 90 度附近发生了跳变，但不会解决，求教",
@@ -336,7 +683,7 @@
           "description": "comexb: \n想买个 1A1C 口的充电器 推荐哪个牌子呢 0.0",
           "link": "https://www.v2ex.com/t/1103931",
           "publishedOn": "2025-01-09T07:57:48.000Z",
-          "wordCount": 400,
+          "wordCount": 454,
           "title": "问一下大家出国都买的啥充电器",
           "imageUrl": null
         },
@@ -348,276 +695,6 @@
           "publishedOn": "2025-01-09T07:52:43.000Z",
           "wordCount": 416,
           "title": "小狼毫一站式解决方案，基于 98 五笔的尝试",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103925",
-          "author": "CNM47589",
-          "description": "CNM47589: \nsteamOS 好像开始支持第三方设备了，太好了，终于不用面对丑陋臃肿反直觉的 windows 了。日常用 Mac ，玩游戏用 steamOS 小主机。现在唯一的缺憾是 LOL 不支持 steamOS",
-          "link": "https://www.v2ex.com/t/1103925",
-          "publishedOn": "2025-01-09T07:48:35.000Z",
-          "wordCount": 548,
-          "title": "玩游戏终于可以逃离 windows 了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103924",
-          "author": "coolcools",
-          "description": "coolcools:",
-          "link": "https://www.v2ex.com/t/1103924",
-          "publishedOn": "2025-01-09T07:45:17.000Z",
-          "wordCount": 374,
-          "title": "2024 年 10 月初 9 月底 那段时间， all in A 股的那位兄弟，你现在还好吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103923",
-          "author": "Windyzhou",
-          "description": "Windyzhou: ![]( )",
-          "link": "https://www.v2ex.com/t/1103923",
-          "publishedOn": "2025-01-09T07:44:57.000Z",
-          "wordCount": 395,
-          "title": "问下大家,这个 cursor 中说的,cancel generation 的快捷键,是什么啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103922",
-          "author": "ashin",
-          "description": "ashin: \n我查了下网上的，很多被标记的账号，有的人提交工单恢复了\n我打算提交工单，他要我开启二次验证，开了。\n他又要我验证手机号码，但是不没有中国区号\n我搞个虚拟号接码，失败\n还有甚么办法吗？\n我的账号是正常使用。现在受限的功能有：Copilot/Actions\nCopilot 我可以理解它不给中国人用，但 Actions 又是啥意思，提示 Unable to enable Actions for this repository. \n我被卡脖子了救救我？",
-          "link": "https://www.v2ex.com/t/1103922",
-          "publishedOn": "2025-01-09T07:43:12.000Z",
-          "wordCount": 398,
-          "title": "新注册的 GitHub 账号使用页面上的 Copilot，提示： User is spammy，怎么解决？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103921",
-          "author": "hoodjannn",
-          "description": "hoodjannn: \n因为家里做制造业小生意的，正好自己也离职状态，没事帮老爸代跑了几次客户，当了一个月的销售了。有几点感触比较深 \n自己社会化程度缺乏。可能因为长期在互联网大厂工作，三点一线，接触的人沟通已经形成了一种特定模式，比如适当地与产品以及跨部门之间拉扯，看上去很牛逼是不是？但真实涉及市场交易大家都是真金白银做底的，你会发现谈话有时非常直接。 \n过于注重面子。准确地说放不下身段，需要给人戴高帽的时候拉不下面子，需要匪气的时候又拔不出来。 \n不善于“骗”。这个“骗”字我这里加了一个引号，很多码农对技术又极大的信仰，觉得承载这种信仰需要一颗纯洁本分老老实实的内心。。。不知道别人是咋样的，反正我当初真就这么想的。任何市面上的产品都存在包装的成分,巧妙的话术和适当的诡计在自由经济市场上是很有必要的。 \n没必要纠结不在目标里的东西，并且学会给人台阶下。不说现实工作里的业务 battle 了，v 站上都有很多整天为了语言框架吵来吵去不停的，长期浸淫这种氛围容易养成无端的攻击性，只要能达到自己的目的，中途中可有可无的东西都可以忽略，注意力分散不值当。 \n大致就这些吧，29 了，感觉知道这些道理有点晚，可能一直温室里呆久了，和年轻的码农们分享下。",
-          "link": "https://www.v2ex.com/t/1103921",
-          "publishedOn": "2025-01-09T07:42:45.000Z",
-          "wordCount": 780,
-          "title": "帮家里人做了一段时间销售跑了几趟客户，回过头来对当程序员时的几个看法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103918",
-          "author": "Lentin",
-          "description": "Lentin: \n根据 https://www.v2ex.com/t/1099956 这篇帖子推测，运营商对 speedtest 相关的域名有白名单策略\nproxies:\n  - name: HOME\n    type: vmess\n    server: DDNS.domain\n    port: PORT\n    uuid: UUID\n    alterId: 0\n    cipher: auto\n    tls: false\n    network: ws\n    ws-opts:\n      path: /\n      headers:\n        Host: speedtest.cn\ntunnels:\n  - udp,127.3.0.0:16384,WGserver:WGport,HOME\n\n然后再把 WG 配置文件的 Endpoint 改成上面对应的地址  \nEndpoint = 127.3.0.0:16384\n\n相比较于 udp2raw 这个配置更简单一些，当然 vmess 不是必需品，可以是别的协议+伪装……仅供思路参考……",
-          "link": "https://www.v2ex.com/t/1103918",
-          "publishedOn": "2025-01-09T07:35:01.000Z",
-          "wordCount": 416,
-          "title": "关于宽带上行限速的一个解决思路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103915",
-          "author": "Koril",
-          "description": "Koril: \n语言、框架、环境\nPython3.11\nGunicorn + Flask + logging\nDebian 12\n问题\n我在开发一个小型的 Python Web 应用，选用的是 Gunicorn + Flask 的方案，日志采用了官方自带的 logging 库。\n业务及其简单，但接口请求量比较大，日志记录比较多，我看到官方提供了一个logging.handlers.TimedRotatingFileHandler的日志轮转处理器，就直接用了。\n但是过了一段时间，我发现了日志丢失的问题：\n假设 Gunicorn 启动了 3 个 worker 进程，进程号分别是 1001 、1002 和 1003 ，一开始启动 Gunicorn 时，3 个进程的日志都能正确的写入到 app.log 中，但是一旦发生了日志轮转，最终只有一个进程（比如 1001 ）能够写入到新的 app.log 中，另外的 1002 和 1003 的日志就再也没有写入成功了。\n我的猜测\n我猜应该是和多进程日志处理和日志轮转相关的问题，轮转的时候，只有一个进程在切换 app.log ，其他进程找不到文件了，日志就丢失了？（我的猜测很粗糙，我不太理解原理）\n当然，官方文档也提到了这点：\nhttps://docs.python.org/zh-cn/3/howto/logging-cookbook.html#logging-to-a-single-file-from-multiple-processes\n文档的建议是，使用 SocketHandler 或者 QueueHandler ，总之是单独使用一个进程处理日志。\n提问\n生产环境下，有什么好的解决方案？\n刚刚上面的轮转日志丢失，更加具体的，本质的原理是什么？\n代码\n日志配置文件 logging.yaml 如下：\nversion:\n  1\n\nformat…",
-          "link": "https://www.v2ex.com/t/1103915",
-          "publishedOn": "2025-01-09T07:30:43.000Z",
-          "wordCount": 1292,
-          "title": "关于 Gunicorn + Flask 在多进程中，日志轮转的一个 BUG",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103913",
-          "author": "iorilu",
-          "description": "iorilu: \nhttps://flexboxfroggy.com/\ncss 的 flex 布局是个非常重要的技术\n但说实话很难弄明白\n无意中发现这个小游戏, 非常直观, 质量很高, 玩了一遍, 感觉确实明白了\n至少 copy 代码也有数了",
-          "link": "https://www.v2ex.com/t/1103913",
-          "publishedOn": "2025-01-09T07:26:01.000Z",
-          "wordCount": 415,
-          "title": "推荐一个学习 css flex 布局的小游戏, 包你学会",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103911",
-          "author": "RobinWM",
-          "description": "RobinWM: 做了一个 AI 导航站，刚起步，收录的站点还很少，会保持活跃，持续运营。\n站点： https://aidirs.org\n号外：现在开始，前 50 位成功提交网站并通过审核的账号，后续免费提交 20 个 AI 相关的网站。赌一把，万一这个站起来了。",
-          "link": "https://www.v2ex.com/t/1103911",
-          "publishedOn": "2025-01-09T07:23:26.000Z",
-          "wordCount": 476,
-          "title": "AI 导航站，前 50 位提交的账号，免费提交 20 个 ai 相关的网站",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103910",
-          "author": "myora",
-          "description": "myora: \nrt ，之前还是 lightning 口的时候，充电线需要有 mfi 协议。现在 iphone 换成 c 口了，有没有什么限制？另外就是安卓的 c 线，能跟 iphone 共用吗？有没有什么区别？",
-          "link": "https://www.v2ex.com/t/1103910",
-          "publishedOn": "2025-01-09T07:23:26.000Z",
-          "wordCount": 407,
-          "title": "macbook（17 款）自带的 type-c 充电线能给 iPhone （c 口）用吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103908",
-          "author": "airportIllIl",
-          "description": "airportIllIl: \n最近又在搬家，感觉自己物欲好重，不经意间攒下好多零碎物品。从大学毕业以来到现在，已经是第四次搬家，有的物品从大学一直陪伴到现在，总觉得哪一刻就会用上，或者是单纯的舍不得。这次狠下心来，想要轻装上阵，往老家寄走好几个大包裹。\n另一个感想是，在大城市混，确实容易没有归属感，一直在各种奔波，租房担心房东人品，前几个月终于申请到公司宿舍，想着终于能稳定生活、不再担心租房扯皮，然而，戏剧性地，最近润了，马上又要去到陌生环境。如果有了自己的房子，也许就算找工作也会限定在一个地理范围内，不像现在这样跨区奔波。不得不说，安稳也是一种幸福。",
-          "link": "https://www.v2ex.com/t/1103908",
-          "publishedOn": "2025-01-09T07:17:53.000Z",
-          "wordCount": 462,
-          "title": "断舍离与不停搬家",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103907",
-          "author": "shuangxunian",
-          "description": "shuangxunian: \n公司有需求去实现一个类似于飞书多维表格的东西，支持拖拽、协同、大量数据加载；我从网上搜了很多，有没有比 apitable 更好的前端依赖呢，方便直接引入到公司项目里面去的那种",
-          "link": "https://www.v2ex.com/t/1103907",
-          "publishedOn": "2025-01-09T07:16:25.000Z",
-          "wordCount": 385,
-          "title": "关于飞书多维表格的疑问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103903",
-          "author": "iv8d",
-          "description": "iv8d: \n如题\n修改了 mappler 里的 sql ，无法动态载入。\n需要 idea 加载能动态加载修改 sql 后的 mapper ，类似 classea 动态载入最好。",
-          "link": "https://www.v2ex.com/t/1103903",
-          "publishedOn": "2025-01-09T07:04:37.000Z",
-          "wordCount": 500,
-          "title": "idea 使用 mybatis 时有没有 mapper 动态载入功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103902",
-          "author": "IRuNamu",
-          "description": "IRuNamu: 本科三本。\n刚收到两个 Offer ，一个是广州网易外包的 15K offer 一个是 新加坡前二的硕士 Offer 一年要花 25w 两年就 50w.\n家里供不出 50w,我应该要贷款去读还是去网易外包。",
-          "link": "https://www.v2ex.com/t/1103902",
-          "publishedOn": "2025-01-09T07:03:18.000Z",
-          "wordCount": 821,
-          "title": "Base 广州 15K 外包网易 or 新二自费两年硕？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103901",
-          "author": "luckybigbear",
-          "description": "luckybigbear: \n偶然问到了，它突然说自己是 2 代\n这是 cursor 在骗人吗",
-          "link": "https://www.v2ex.com/t/1103901",
-          "publishedOn": "2025-01-09T06:52:24.000Z",
-          "wordCount": 427,
-          "title": "cursor 标注的 claude-3.5-sonnet 是 claude 2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103899",
-          "author": "justincnn",
-          "description": "justincnn: 主要的原因是 audiobookshelf 只能用自己的客户端收听，不支持生成 rss 订阅，\n目前有个闲置的 vps ，想做个播客，朋友间使用",
-          "link": "https://www.v2ex.com/t/1103899",
-          "publishedOn": "2025-01-09T06:48:19.000Z",
-          "wordCount": 425,
-          "title": "除了 audiobookshelf 外，其他其他自建播客的方案么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103897",
-          "author": "cocong",
-          "description": "cocong: \n大学毕业不懂，档案挂靠时顺便把户口也转到城市，想着以后工作需要办证件什么的也方便，现在感觉一点用也没有，貌似也迁不回去了。",
-          "link": "https://www.v2ex.com/t/1103897",
-          "publishedOn": "2025-01-09T06:40:33.000Z",
-          "wordCount": 511,
-          "title": "不买房，城市户口有什么用？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103896",
-          "author": "5261",
-          "description": "5261: \n公司运维被优化了，小开发被迫营业需要兼顾下线上运维的活\n目前遇到 ssl 证书即将过期问题\n请求的路径如下\n传统型 clb （负载均衡）-> 两台 nginx （ ecs 服务器）\n我看了下还有接入 waf （ web 应用防火墙 ）\n一开始在腾讯云上申请了免费 ssl 证书，然后直接替换到 nginx 两台机器上，但是证书格式貌似还不太一样\n原来的证书文件有 xx.cer 和 xx.key , 但是申请下来的证书是 xx.crt 和 xx.key\n替换后发现证书有效期依旧没变化\n后来我就直接在阿里云上申请免费证书，上传证书，在 waf 内部替换掉后，查看证书有效期就是最新的了\n疑问点\n1 、是不是只要在 waf 内部替换掉 ssl 证书就可以了呢？\n2 、那 nginx 服务器上的证书没替换是否有影响呢？",
-          "link": "https://www.v2ex.com/t/1103896",
-          "publishedOn": "2025-01-09T06:40:26.000Z",
-          "wordCount": 725,
-          "title": "关于 ssl 证书替换的问题，有阿里云运维大佬吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103895",
-          "author": "maoqiucute",
-          "description": "maoqiucute: \n第一辆车，大概后半年买\n之前有空去看了小鹏的 MONA3 ，但是感觉空间太小了\n这个价位是不是只能买比亚迪了，推荐哪一款呢？",
-          "link": "https://www.v2ex.com/t/1103895",
-          "publishedOn": "2025-01-09T06:40:23.000Z",
-          "wordCount": 500,
-          "title": "10-12W 的预算想买个新车，能买哪一辆",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103894",
-          "author": "jty5",
-          "description": "jty5: 创始团队主要以字节，腾讯，月之暗面班底为主，做 AI 生成应用的 C 端出海产品，就是通过 AI coding 生成 C 端用户可以直接使用的 C 端产品，包括网站、app 这些；\njd：\n岗位职责：\n1 、负责 AI 应用的 Web 前端架构设计、性能优化和技术难点攻坚\n2 、负责 AI 生成编辑器开发\n3 、负责 AI 生成产品前端代码解决方案设计和落地\n任职要求：\n1 、计算机相关专业本科及以上学历，5 年以上前端开发经验，3 年以上知名产品前端开发经验\n2 、熟练掌握 JavaScript ，CSS ，HTML ，DOM 等前端技术\n3 、熟悉主流前端框架（ React/vue/Angular 等 ）有深入应用并深入理解其设计原理\n4 、至少了解 Node 、Python 、Go 、Java 等一门后端开发语言\n5 、 对 AI 应用有较深的理解和体验，关注前端前沿技术，有一定的技术广度\n有意者加微信：cheng515166",
-          "link": "https://www.v2ex.com/t/1103894",
-          "publishedOn": "2025-01-09T06:34:33.000Z",
-          "wordCount": 409,
-          "title": "Base 深圳，前端架构师，前端技术专家需求，对标字节 3-1 到 3-2；",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103891",
-          "author": "iovekkk",
-          "description": "iovekkk: 就拿我来说，原本还想升级 ps5pro 的，现在打算等到国内 50 系显卡价格趋于稳定后，把 ps5 卖掉弄个 5070 主机。\n有这种想法的人应该会不少，ps5pro 的价格也许也会跌的更猛一些",
-          "link": "https://www.v2ex.com/t/1103891",
-          "publishedOn": "2025-01-09T06:22:53.000Z",
-          "wordCount": 374,
-          "title": "50 系显卡的发布，应该会给 ps5 系列主机的销售造成压力了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103890",
-          "author": "yitiaoxiaoxi",
-          "description": "yitiaoxiaoxi: \n您好, CUSTOMER\nYour Oracle Cloud Free Trial promotion has ended on 2025 年 1 月 8 日 星期三 下午 7:45 太平洋标准时间.\nThe data and cloud account content that you created during the Free Trial period can be retrieved until 星期四, 二月 06, 2025. For instructions, visit Information Center for Administrators on My Oracle Support and scroll to the bottom of the page to view \"Additional Termination Instructions for your Cloud Service\".\nYour access is limited to Always Free Services only. Your Always Free resources will remain available to you as long as you actively use your account. Your other resources will be reclaimed unless you upgrade to a paid account.\nUpgrade to a paid account to have access to all Oracle Cloud Services, customer support and other benefits of a paid services. Oracle Cloud offers Pay As You Go billing.\nFor more information on Oracle Cloud Free Tier, please review OCI Cloud Free Tier FAQ\nThe following subscription has been disabled.",
-          "link": "https://www.v2ex.com/t/1103890",
-          "publishedOn": "2025-01-09T06:20:17.000Z",
-          "wordCount": 667,
-          "title": "这个是被封了还是啥意思，无法登陆",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103888",
-          "author": "chengzc",
-          "description": "chengzc: \n背景\n最近看了站里 家庭影院无尽折腾之路，正好手里有个闲置的笔记本，然后刷了飞牛 os ，开始了自己的折腾之路。\n历程\n最开始没啥要求，有啥想看时，找找资源，直接通过飞牛里的下载，再用自带的影视刮下就 ok ，后面了解到自动化观影，就开始接触 pt 站，mp 观影工具，qb 下载这些，正好最近一些站点开放，然后注册了 pt 站、做考核、用 mp 订阅，我个人看动漫比较多，pt 站有些资源不全，就通过蜜柑和动漫花园来补充，基本上已经满足个人自动化观影的需求了\n问题\n知道 v 站高手多，目前遇到了几个问题，看看有没知道解决方法的，谢谢：\nQB 订阅 Mikan ，RSS 一直刷新不了数据。我单独打开 RSS 地址是有的，也添加过代理，一直没搞清是哪出了问题\nmp2 对于下载的国漫（大部分 ok ，有些感觉是没有标题，只有集数），识别不了。请问有没有什么方法能解决这个问题\n上传速度限制问题。我目前家宽，上传速度只有 3M ，在做 PT 站考核时，是否需要限制上传速度，或者只限制部分公站的做种率，看前文回复里，有说一直上传，后面可能会封",
-          "link": "https://www.v2ex.com/t/1103888",
-          "publishedOn": "2025-01-09T06:17:43.000Z",
-          "wordCount": 472,
-          "title": "个人观影记录",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103887",
-          "author": "wjfz",
-          "description": "wjfz: 无意中打开了 Charles ，看到字节的 Marscode 代码补全插件疯狂收集 CPU 、内存、使用空间等数据。\n一般的 JetBrains 插件：下载 jar 包，运行功能。\n字节的 Marscode：下载可执行文件、附带安装另一个 ckg_server 可执行文件。\n甚至退出了 IDE ，删了可执行文件，可以看到后台还是在上报。关键也没看到相关的开关给用户，是否允许收集这些。",
-          "link": "https://www.v2ex.com/t/1103887",
-          "publishedOn": "2025-01-09T06:15:55.000Z",
-          "wordCount": 364,
-          "title": "字节 Marscode 插件疯狂收集隐私数据",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103886",
-          "author": "sten",
-          "description": "sten: 最近在考虑业余时间搞下自媒体，主要考虑在 B 站和油管发点口播类的视频。\n尝试了一下手机拍摄，感觉画质还行，就是声音太差了。\n各位 V 友，有 1000 以内的无线麦推荐吗？\n之前看过大疆的，感觉太贵了，前期不想投入这么多，哈哈。",
-          "link": "https://www.v2ex.com/t/1103886",
-          "publishedOn": "2025-01-09T06:05:11.000Z",
-          "wordCount": 421,
-          "title": "求推荐 1000 以内无线麦克风",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103885",
-          "author": "panlista",
-          "description": "panlista: 最近入职了一家工厂 it 部，公司去年才开始自研 mes 和 erp 系统，之前一直买的第三方服务，所以近半年 it 部招了 5 名开发，本部门目前包括 ui 和运维一共 10 个人。\n目前的需求还算挺多，但我想问问各位老哥，这种工厂如果系统稳定后是不是就不会有什么新需求了",
-          "link": "https://www.v2ex.com/t/1103885",
-          "publishedOn": "2025-01-09T06:03:50.000Z",
-          "wordCount": 702,
-          "title": "有没有在工厂 it 部的老哥，平时开发任务多吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103884",
-          "author": "lixiaobai913",
-          "description": "lixiaobai913: \n京东客服说不能更换的",
-          "link": "https://www.v2ex.com/t/1103884",
-          "publishedOn": "2025-01-09T06:02:05.000Z",
-          "wordCount": 382,
-          "title": "京东联名卡腾讯会员你们是怎么更换之前绑定的 QQ 呢",
           "imageUrl": null
         }
       ]
