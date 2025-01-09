@@ -94,6 +94,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -137,33 +143,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -330,7 +309,7 @@
           "description": "miaoxiaomayi: 用来做作 nas ，跑 docker",
           "link": "https://www.v2ex.com/t/1104028",
           "publishedOn": "2025-01-09T16:54:06.000Z",
-          "wordCount": 373,
+          "wordCount": 379,
           "title": "n100 刷黑群晖还是刷 istoreos？",
           "imageUrl": null
         },
@@ -340,7 +319,7 @@
           "description": "ALongRanger: 我们部门绩效管理如下：\n1. 采用工时间统计，通过拉取 jira 工时数据/打卡工时数据得到一个所谓的有效工时率。低于 100%是 0 分，100 基本值 60 分，105 目标值 80 分，115 以上超越值 120 分，占比 40%；\n2.基于缺陷率. 即所谓缺陷个数/jira 工作时间，如果高于 1.6%就是 0 分，占比 25%。一个上线跑了几年的历史代码，突然出了点问题，bug 又会被挂到 y 头上\n3.基于缺陷发现率，即提测阶段产生的缺陷数量/季度内总缺陷数量（即提测+生产缺陷）。 如果低于 90% 即 0 分 占比 25%\n4.团队指标，占比 10%，即所有团队成员基本指标参数的均值\n\n开发与测试共用一套指标\n指标 1:  往往可以在公司划水，做些无关事项，然后填报到其他任务的工时，这个东西目前没有人审核\n指标 2: 部门对缺陷的定义是不满足需求的都是缺陷，往往有些生产上的问题部分开发发现后开发会提成优化来规避缺陷，有时候也看测试人员。 我在想一个季度 3 个月， 毕业几年没有呆过几家公司，7 个 bug 算多吗，没有对比过？\n指标 3: 遗漏的生产缺陷只要有一个基本上这个指标就达不到了\n我并不喜欢这种考核，所以很多时候工时记录压根不想记录，就算记录也只是差不多个意思，往往实际干了活（可能超 8 小时）也就记录个 8h 。 其实随手的事情但是我有比较大的抵触情绪。至于年终绩效 A ，B ，C ，D ，差点拿 D 。 \n这个规则下拿高绩效只要卷开发工时就行了，此外是我实在是不愿意填这个鬼东西，突然感觉自己就是最不服管的那个人。\n\n大家所在部门的考核又是怎么样的呢？",
           "link": "https://www.v2ex.com/t/1104027",
           "publishedOn": "2025-01-09T16:43:51.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "又到了一年年终绩效，大家部门的绩效评定都是咋评的啊？",
           "imageUrl": null
         },
@@ -350,7 +329,7 @@
           "description": "shapper: \n现在有什么火绒替代品，不用强迫用户升级的\n鉴于该软件开始走上 360 的道路，准备替换一下",
           "link": "https://www.v2ex.com/t/1104026",
           "publishedOn": "2025-01-09T16:39:40.000Z",
-          "wordCount": 434,
+          "wordCount": 459,
           "title": "现在有什么火绒替代品，不用强迫用户升级的",
           "imageUrl": null
         },
@@ -360,7 +339,7 @@
           "description": "qazwsxkevin: \n装在 LSI9207-8i 阵列上的自己玩玩的 Esxi ，误删除了一个虚拟机，打算能恢复回 VMDK 就可以了，\n想先找找有无这样的 PE 环境，如果实在没有，就只能引导另外个硬盘，装好 Windwos+LSI 驱动，识别出磁盘，再去恢复了\n如果有其它的恢复方法也好？",
           "link": "https://www.v2ex.com/t/1104025",
           "publishedOn": "2025-01-09T16:38:50.000Z",
-          "wordCount": 409,
+          "wordCount": 417,
           "title": "请问有可以直接驱动起 LSI 阵列卡的 WinPE 吗？（恢复误删的 ESXI 6 虚拟机）",
           "imageUrl": null
         },
@@ -440,7 +419,7 @@
           "description": "revival83: 最近十年没用过 windows 了，上一次用还是 windows7 ，用 Mac 没考虑过安全性问题，所以来问问大佬们，是不是这样说明被 chrome 拦截了？电脑没问题？",
           "link": "https://www.v2ex.com/t/1104015",
           "publishedOn": "2025-01-09T15:11:08.000Z",
-          "wordCount": 487,
+          "wordCount": 489,
           "title": "大佬们我下载了一个.exe windows 优化软件， chrome 提示已屏蔽危险的下载内容，是不是说明我的电脑是安全的？",
           "imageUrl": null
         },
@@ -460,7 +439,7 @@
           "description": "haoyh1: 去年 9 月就一直想买个 mba\n当时 m2 8+8 核，8+256 ，jd 国补 5359 ，由于不急用就没买\n刚刚看了眼，发现双十一时苹果更新了 sku ，8g 免费升级到 16g\n如今 tb 的百亿补贴，m2 8+8 核，16+256 只要 5198 了\n等了几个月，便宜 100 多又升级到了 16g ，这一波等等党做的可以说是赢麻了，真有点控制不住想买了\n但是当下还是没有很强的需求用它，既然通缩周期还早，降价是大趋势，买盘不担心踏空，继续等吧，等一个 5000+的 m3 （可以外接双显示器）",
           "link": "https://www.v2ex.com/t/1104013",
           "publishedOn": "2025-01-09T14:59:36.000Z",
-          "wordCount": 409,
+          "wordCount": 411,
           "title": "买个 mba，真切感受到了通缩，物价下跌，消费降级的威力",
           "imageUrl": null
         },
@@ -500,7 +479,7 @@
           "description": "wqq096737ink: \n不是才剿清电炸吗?\nhttps://youtu.be/fxwgb9ACiLw",
           "link": "https://www.v2ex.com/t/1104008",
           "publishedOn": "2025-01-09T14:18:21.000Z",
-          "wordCount": 746,
+          "wordCount": 762,
           "title": "演员王星在泰国的事件-倘若是普通人大概就 gg 了吧",
           "imageUrl": null
         },
