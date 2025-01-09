@@ -84,6 +84,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -310,7 +316,7 @@
           "description": "lisianthus: \n完整代码： https://codesandbox.io/p/sandbox/d8kjg2\n最近自娱自乐时，写了一个类似高中物理的木板-滑块组件，可以根据木板的角度来控制小球的位置，见图： https://imgur.com/a/Eo2briC\n组件有个问题，在旋转到 90 度附近时，值会突然从 0 跳到 100： https://imgur.com/a/kWmm3I4\n我知道问题出在 handleMouseMove 函数里，斜率 k 在 90 度附近发生了跳变，但不会解决，求教",
           "link": "https://www.v2ex.com/t/1103933",
           "publishedOn": "2025-01-09T07:59:39.000Z",
-          "wordCount": 458,
+          "wordCount": 544,
           "title": "写的 React 组件有 bug，知道原因但不会解决，求教",
           "imageUrl": null
         },
@@ -320,7 +326,7 @@
           "description": "Wowjik: \n目前公司想要实现一个数字人直播，要求：\n1 、windows 本地部署\n2 、可训练自己数字人形象\n3 、TTS 驱动、可打断\n目前看了几个开源项目，效果都不太好。\n各位大佬有没有相关的项目推荐指导一下，付费项目效果不错的更佳，烦请各位大佬指导一二，有偿",
           "link": "https://www.v2ex.com/t/1103932",
           "publishedOn": "2025-01-09T07:58:07.000Z",
-          "wordCount": 423,
+          "wordCount": 425,
           "title": "咨询数字人直播问题",
           "imageUrl": null
         },
@@ -350,7 +356,7 @@
           "description": "CNM47589: \nsteamOS 好像开始支持第三方设备了，太好了，终于不用面对丑陋臃肿反直觉的 windows 了。日常用 Mac ，玩游戏用 steamOS 小主机。现在唯一的缺憾是 LOL 不支持 steamOS",
           "link": "https://www.v2ex.com/t/1103925",
           "publishedOn": "2025-01-09T07:48:35.000Z",
-          "wordCount": 449,
+          "wordCount": 522,
           "title": "玩游戏终于可以逃离 windows 了",
           "imageUrl": null
         },
@@ -390,7 +396,7 @@
           "description": "hoodjannn: \n因为家里做制造业小生意的，正好自己也离职状态，没事帮老爸代跑了几次客户，当了一个月的销售了。有几点感触比较深 \n自己社会化程度缺乏。可能因为长期在互联网大厂工作，三点一线，接触的人沟通已经形成了一种特定模式，比如适当地与产品以及跨部门之间拉扯，看上去很牛逼是不是？但真实涉及市场交易大家都是真金白银做底的，你会发现谈话有时非常直接。 \n过于注重面子。准确地说放不下身段，需要给人戴高帽的时候拉不下面子，需要匪气的时候又拔不出来。 \n不善于“骗”。这个“骗”字我这里加了一个引号，很多码农对技术又极大的信仰，觉得承载这种信仰需要一颗纯洁本分老老实实的内心。。。不知道别人是咋样的，反正我当初真就这么想的。任何市面上的产品都存在包装的成分,巧妙的话术和适当的诡计在自由经济市场上是很有必要的。 \n没必要纠结不在目标里的东西，并且学会给人台阶下。不说现实工作里的业务 battle 了，v 站上都有很多整天为了语言框架吵来吵去不停的，长期浸淫这种氛围容易养成无端的攻击性，只要能达到自己的目的，中途中可有可无的东西都可以忽略，注意力分散不值当。 \n大致就这些吧，29 了，感觉知道这些道理有点晚，可能一直温室里呆久了，和年轻的码农们分享下。",
           "link": "https://www.v2ex.com/t/1103921",
           "publishedOn": "2025-01-09T07:42:45.000Z",
-          "wordCount": 675,
+          "wordCount": 728,
           "title": "帮家里人做了一段时间销售跑了几趟客户，回过头来对当程序员时的几个看法",
           "imageUrl": null
         },
@@ -410,7 +416,7 @@
           "description": "Koril: \n语言、框架、环境\nPython3.11\nGunicorn + Flask + logging\nDebian 12\n问题\n我在开发一个小型的 Python Web 应用，选用的是 Gunicorn + Flask 的方案，日志采用了官方自带的 logging 库。\n业务及其简单，但接口请求量比较大，日志记录比较多，我看到官方提供了一个logging.handlers.TimedRotatingFileHandler的日志轮转处理器，就直接用了。\n但是过了一段时间，我发现了日志丢失的问题：\n假设 Gunicorn 启动了 3 个 worker 进程，进程号分别是 1001 、1002 和 1003 ，一开始启动 Gunicorn 时，3 个进程的日志都能正确的写入到 app.log 中，但是一旦发生了日志轮转，最终只有一个进程（比如 1001 ）能够写入到新的 app.log 中，另外的 1002 和 1003 的日志就再也没有写入成功了。\n我的猜测\n我猜应该是和多进程日志处理和日志轮转相关的问题，轮转的时候，只有一个进程在切换 app.log ，其他进程找不到文件了，日志就丢失了？（我的猜测很粗糙，我不太理解原理）\n当然，官方文档也提到了这点：\nhttps://docs.python.org/zh-cn/3/howto/logging-cookbook.html#logging-to-a-single-file-from-multiple-processes\n文档的建议是，使用 SocketHandler 或者 QueueHandler ，总之是单独使用一个进程处理日志。\n提问\n生产环境下，有什么好的解决方案？\n刚刚上面的轮转日志丢失，更加具体的，本质的原理是什么？\n代码\n日志配置文件 logging.yaml 如下：\nversion:\n  1\n\nformat…",
           "link": "https://www.v2ex.com/t/1103915",
           "publishedOn": "2025-01-09T07:30:43.000Z",
-          "wordCount": 920,
+          "wordCount": 928,
           "title": "关于 Gunicorn + Flask 在多进程中，日志轮转的一个 BUG",
           "imageUrl": null
         },
@@ -450,7 +456,7 @@
           "description": "airportIllIl: \n最近又在搬家，感觉自己物欲好重，不经意间攒下好多零碎物品。从大学毕业以来到现在，已经是第四次搬家，有的物品从大学一直陪伴到现在，总觉得哪一刻就会用上，或者是单纯的舍不得。这次狠下心来，想要轻装上阵，往老家寄走好几个大包裹。\n另一个感想是，在大城市混，确实容易没有归属感，一直在各种奔波，租房担心房东人品，前几个月终于申请到公司宿舍，想着终于能稳定生活、不再担心租房扯皮，然而，戏剧性地，最近润了，马上又要去到陌生环境。如果有了自己的房子，也许就算找工作也会限定在一个地理范围内，不像现在这样跨区奔波。不得不说，安稳也是一种幸福。",
           "link": "https://www.v2ex.com/t/1103908",
           "publishedOn": "2025-01-09T07:17:53.000Z",
-          "wordCount": 458,
+          "wordCount": 462,
           "title": "断舍离与不停搬家",
           "imageUrl": null
         },
@@ -470,7 +476,7 @@
           "description": "iv8d: \n如题\n修改了 mappler 里的 sql ，无法动态载入。\n需要 idea 加载能动态加载修改 sql 后的 mapper ，类似 classea 动态载入最好。",
           "link": "https://www.v2ex.com/t/1103903",
           "publishedOn": "2025-01-09T07:04:37.000Z",
-          "wordCount": 420,
+          "wordCount": 442,
           "title": "idea 使用 mybatis 时有没有 mapper 动态载入功能",
           "imageUrl": null
         },
@@ -480,7 +486,7 @@
           "description": "IRuNamu: 本科三本。\n刚收到两个 Offer ，一个是广州网易外包的 15K offer 一个是 新加坡前二的硕士 Offer 一年要花 25w 两年就 50w.\n家里供不出 50w,我应该要贷款去读还是去网易外包。",
           "link": "https://www.v2ex.com/t/1103902",
           "publishedOn": "2025-01-09T07:03:18.000Z",
-          "wordCount": 744,
+          "wordCount": 765,
           "title": "Base 广州 15K 外包网易 or 新二自费两年硕？",
           "imageUrl": null
         },
@@ -500,7 +506,7 @@
           "description": "justincnn: 主要的原因是 audiobookshelf 只能用自己的客户端收听，不支持生成 rss 订阅，\n目前有个闲置的 vps ，想做个播客，朋友间使用",
           "link": "https://www.v2ex.com/t/1103899",
           "publishedOn": "2025-01-09T06:48:19.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "除了 audiobookshelf 外，其他其他自建播客的方案么？",
           "imageUrl": null
         },
@@ -510,7 +516,7 @@
           "description": "cocong: \n大学毕业不懂，档案挂靠时顺便把户口也转到城市，想着以后工作需要办证件什么的也方便，现在感觉一点用也没有，貌似也迁不回去了。",
           "link": "https://www.v2ex.com/t/1103897",
           "publishedOn": "2025-01-09T06:40:33.000Z",
-          "wordCount": 494,
+          "wordCount": 509,
           "title": "不买房，城市户口有什么用？",
           "imageUrl": null
         },
@@ -520,7 +526,7 @@
           "description": "5261: \n公司运维被优化了，小开发被迫营业需要兼顾下线上运维的活\n目前遇到 ssl 证书即将过期问题\n请求的路径如下\n传统型 clb （负载均衡）-> 两台 nginx （ ecs 服务器）\n我看了下还有接入 waf （ web 应用防火墙 ）\n一开始在腾讯云上申请了免费 ssl 证书，然后直接替换到 nginx 两台机器上，但是证书格式貌似还不太一样\n原来的证书文件有 xx.cer 和 xx.key , 但是申请下来的证书是 xx.crt 和 xx.key\n替换后发现证书有效期依旧没变化\n后来我就直接在阿里云上申请免费证书，上传证书，在 waf 内部替换掉后，查看证书有效期就是最新的了\n疑问点\n1 、是不是只要在 waf 内部替换掉 ssl 证书就可以了呢？\n2 、那 nginx 服务器上的证书没替换是否有影响呢？",
           "link": "https://www.v2ex.com/t/1103896",
           "publishedOn": "2025-01-09T06:40:26.000Z",
-          "wordCount": 711,
+          "wordCount": 715,
           "title": "关于 ssl 证书替换的问题，有阿里云运维大佬吗",
           "imageUrl": null
         },
@@ -550,7 +556,7 @@
           "description": "iovekkk: 就拿我来说，原本还想升级 ps5pro 的，现在打算等到国内 50 系显卡价格趋于稳定后，把 ps5 卖掉弄个 5070 主机。\n有这种想法的人应该会不少，ps5pro 的价格也许也会跌的更猛一些",
           "link": "https://www.v2ex.com/t/1103891",
           "publishedOn": "2025-01-09T06:22:53.000Z",
-          "wordCount": 372,
+          "wordCount": 374,
           "title": "50 系显卡的发布，应该会给 ps5 系列主机的销售造成压力了",
           "imageUrl": null
         },
@@ -570,7 +576,7 @@
           "description": "chengzc: \n背景\n最近看了站里 家庭影院无尽折腾之路，正好手里有个闲置的笔记本，然后刷了飞牛 os ，开始了自己的折腾之路。\n历程\n最开始没啥要求，有啥想看时，找找资源，直接通过飞牛里的下载，再用自带的影视刮下就 ok ，后面了解到自动化观影，就开始接触 pt 站，mp 观影工具，qb 下载这些，正好最近一些站点开放，然后注册了 pt 站、做考核、用 mp 订阅，我个人看动漫比较多，pt 站有些资源不全，就通过蜜柑和动漫花园来补充，基本上已经满足个人自动化观影的需求了\n问题\n知道 v 站高手多，目前遇到了几个问题，看看有没知道解决方法的，谢谢：\nQB 订阅 Mikan ，RSS 一直刷新不了数据。我单独打开 RSS 地址是有的，也添加过代理，一直没搞清是哪出了问题\nmp2 对于下载的国漫（大部分 ok ，有些感觉是没有标题，只有集数），识别不了。请问有没有什么方法能解决这个问题\n上传速度限制问题。我目前家宽，上传速度只有 3M ，在做 PT 站考核时，是否需要限制上传速度，或者只限制部分公站的做种率，看前文回复里，有说一直上传，后面可能会封",
           "link": "https://www.v2ex.com/t/1103888",
           "publishedOn": "2025-01-09T06:17:43.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "个人观影记录",
           "imageUrl": null
         },
@@ -600,7 +606,7 @@
           "description": "panlista: 最近入职了一家工厂 it 部，公司去年才开始自研 mes 和 erp 系统，之前一直买的第三方服务，所以近半年 it 部招了 5 名开发，本部门目前包括 ui 和运维一共 10 个人。\n目前的需求还算挺多，但我想问问各位老哥，这种工厂如果系统稳定后是不是就不会有什么新需求了",
           "link": "https://www.v2ex.com/t/1103885",
           "publishedOn": "2025-01-09T06:03:50.000Z",
-          "wordCount": 652,
+          "wordCount": 673,
           "title": "有没有在工厂 it 部的老哥，平时开发任务多吗",
           "imageUrl": null
         },
