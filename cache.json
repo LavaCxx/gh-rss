@@ -90,18 +90,14 @@
           "wordCount": 3971,
           "title": "CSSWG Minutes Telecon (2024-12-04): Just Use Grid vs. Display: Masonry",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/382974"
-        },
-        {
-          "id": "https://css-tricks.com/?p=383028",
-          "author": "Geoff Graham",
-          "description": "I had the pleasure of hosting a recent Smashing Magazine workshop on product design, subbing for Vitaly Friedman who usually runs these things.\nWhat? A front-ender interviewing really smart people about their processes for user research, documenting requirements, and …\nSmashing Meets Product Design originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/smashing-meets-product-design/",
-          "publishedOn": "2024-12-10T16:00:24.000Z",
-          "wordCount": 1907,
-          "title": "Smashing Meets Product Design",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383028"
         }
       ]
+    },
+    {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -350,7 +346,7 @@
           "description": "Foxalone: \n前天放在外套, 平常都有回家把外套丢进洗衣机的习惯, 那天忘记拿出耳机. 导致在洗衣机里面洗了然后又在烘干机里面烘干, 拿出来已经用不了了. 好像充不进电, 插了电又显示绿色, 就亮一下然后关闭了. 自己又怕拆坏. 不知道线上哪家维修店比较靠谱, 求推荐.",
           "link": "https://www.v2ex.com/t/1103774",
           "publishedOn": "2025-01-09T01:54:58.000Z",
-          "wordCount": 423,
+          "wordCount": 447,
           "title": "airpodspro2 进水了.有什么 tb 维修店比较好吗? 推荐一下",
           "imageUrl": null
         },
@@ -360,7 +356,7 @@
           "description": "zhwguest: \n除了自己主账号下的 organization 能够创建 repo ，其他拥有的 organization 都无法创建 repo 。\n检测名字可用性的时候，返回 500....\n莫非都是草台班子？？？",
           "link": "https://www.v2ex.com/t/1103773",
           "publishedOn": "2025-01-09T01:53:43.000Z",
-          "wordCount": 377,
+          "wordCount": 379,
           "title": "github 是不是出 bug 了？",
           "imageUrl": null
         },
@@ -370,7 +366,7 @@
           "description": "iloveyou: 看个全文需要注册，看个评论页需要注册，然后用微信或 github 登陆，结果登陆后还让补充手机号。注册了这些网站也保证不了数据安全，难怪形成环中国诈骗产业。",
           "link": "https://www.v2ex.com/t/1103772",
           "publishedOn": "2025-01-09T01:52:12.000Z",
-          "wordCount": 447,
+          "wordCount": 115,
           "title": "太恶心了，国内是个网站都要手机号注册",
           "imageUrl": null
         },
@@ -380,7 +376,7 @@
           "description": "lrvinye: \nRT\n发现点不了 star 了，一看 status \nUpdate - Git Operations is experiencing degraded availability. We are continuing to investigate.\nJan 09, 2025 - 01:49 UTC\nUpdate - We are investigating reports of issues with multiple services including authentication, PRs, codespaces, pages, git operation, and apis. We will continue to keep users updated on progress towards mitigation.\nJan 09, 2025 - 01:46 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nJan 09, 2025 - 01:44 UTC\nUpdate - Git Operations is experiencing degraded performance. We are continuing to investigate.\nJan 09, 2025 - 01:43 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nJan 09, 2025 - 01:42 UTC\nUpdate - Issues is experiencing degraded performance. We are continuing to investigate.\nJan 09, 2025 - 01:41 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nJan 09, 2025 - 01:37 UTC\nInvestigating - We are investigating reports of degraded availability for Webhooks\nJan 09, 2025 - 01:36 UTC",
           "link": "https://www.v2ex.com/t/1103771",
           "publishedOn": "2025-01-09T01:51:15.000Z",
-          "wordCount": 563,
+          "wordCount": 571,
           "title": "Github 挂了，就在刚刚",
           "imageUrl": null
         },
@@ -390,7 +386,7 @@
           "description": "tog: 如题。。\n每个月送的 2000 次， 昨天已经用完了。。",
           "link": "https://www.v2ex.com/t/1103770",
           "publishedOn": "2025-01-09T01:49:16.000Z",
-          "wordCount": 442,
+          "wordCount": 453,
           "title": "copilot 除了 100 美金/年，还有什么别的渠道购买划算吗？",
           "imageUrl": null
         },
@@ -400,7 +396,7 @@
           "description": "Siaospeed: \n重启路由器之后，wan6 接口没有获取到 IPv6-PD ，只显示获取了一个/64 的 IPv6 地址，然后我看我的设备也获取到了 IPv6 地址。随后当我关闭再开启 wan6 接口（或者删除再创建），就可以正确获取到 IPv6-PD 了，这是怎么一个情况？这对我部署家里云会有影响吗？\n固件版本：ImmortalWrt 18.06-5.4-SNAPSHOT r11814-ef0c86bdb0 / LuCI branch (git-22.323.17670-f9380b5)",
           "link": "https://www.v2ex.com/t/1103769",
           "publishedOn": "2025-01-09T01:47:51.000Z",
-          "wordCount": 355,
+          "wordCount": 416,
           "title": "PD 获取不正常",
           "imageUrl": null
         },
@@ -410,7 +406,7 @@
           "description": "florentino: \n众所周知诈骗大部分都是陌生号码,以及诈骗分子的目标客户大部分的正常生活半径应该不会出省\n所以是否可以在安卓手机上开发这样一个软件,它具备这样一些功能:\n自动拦截省外来电:\n通讯录中的号码是白名单\n可以自定义来电城市白名单\n内置各大互联网公司客服号码白名单\n拦截之后发出通知提示\n2 分钟内的,第三次来电,可以正常接通,防止误拦截\n禁止录屏:\n禁止一切录屏操作\n通话录音分析\n针对 2 分钟内的,第三次来电的前 1 分钟,进行录音,并在本地分析电话对方的声音\n福建-广西口音,电话自动挂断\n符合诈骗特征的对话(比如淘宝订单退款),自动挂断",
           "link": "https://www.v2ex.com/t/1103768",
           "publishedOn": "2025-01-09T01:44:25.000Z",
-          "wordCount": 654,
+          "wordCount": 741,
           "title": "这样是不是完美的反诈方案",
           "imageUrl": null
         },
@@ -420,7 +416,7 @@
           "description": "yazoox: 用了罗技的 mx anywhere3 大概三年，上周双击了！\n\n京东上找了一下，有一个 mx anywhere 3s ，但感觉没啥提升……\n\n想换个口味，还有其他的办公鼠标推荐吗？\n要支持蓝牙的，因为连 mbp\n\n手不是很大，大概 18.5 厘米。罗技的狗屁王不行，买过一次，发现太大了，顶手心，然后退掉了。\n\n谢谢！",
           "link": "https://www.v2ex.com/t/1103767",
           "publishedOn": "2025-01-09T01:40:31.000Z",
-          "wordCount": 381,
+          "wordCount": 389,
           "title": "大家有好用的中小手办公鼠标推荐吗？",
           "imageUrl": null
         },
@@ -440,7 +436,7 @@
           "description": "nutting: \nm4pro ，用 GCC 编译出来一个 hellworld 的程序，用 orbstack 开的 ubuntu armlinux ，里面执行这个二进制程序也能成功出来 hellworld ，反过来不行，会提示格式错误，这是什么原理",
           "link": "https://www.v2ex.com/t/1103764",
           "publishedOn": "2025-01-09T01:37:05.000Z",
-          "wordCount": 480,
+          "wordCount": 488,
           "title": "apple 芯片 macOS Gcc 编译完， arm Linux 也能执行？",
           "imageUrl": null
         },
@@ -450,7 +446,7 @@
           "description": "pengyuedenai1234: 为什么红米 13c 支持 5g ，红米 14c 反而不支持了。不是现在不能生产 4g 手机，运营商 4g 也不扩容了。连华为今年的低端手机都上了 5g ，为什么红米要上 4g ？",
           "link": "https://www.v2ex.com/t/1103763",
           "publishedOn": "2025-01-09T01:35:59.000Z",
-          "wordCount": 604,
+          "wordCount": 691,
           "title": "为什么红米 13c 支持 5g，红米 14c 反而不支持了？",
           "imageUrl": null
         },
@@ -460,7 +456,7 @@
           "description": "abcfreedom: \n每年底都得让组里两个同学背低绩效指标，强制正态分布。团队人少了活干不完，人多了就得背指标，也是蛋疼。",
           "link": "https://www.v2ex.com/t/1103762",
           "publishedOn": "2025-01-09T01:35:30.000Z",
-          "wordCount": 749,
+          "wordCount": 835,
           "title": "绩效季真让人难受",
           "imageUrl": null
         },
@@ -470,7 +466,7 @@
           "description": "wclebb: 迫于拼车节点无人问津，只好重新发到  Apple 节点。\n1. 你需要有两个帐号，以便能使用两个区域。\n   1.1 可以是任何国家区域到 iCloud 帐号；\n   1.2 必需是美区/或一些完整支持的国家或地区才能用的 App Store 帐号。\n       1.2.1 例如你用港区号加入，你最多只能用 Apple TV+、Apple Music ，别的你用不了。\n       1.2.2 如果你对 News+ 毫无感兴趣，也可以用 Japan 帐号进来。详细了解可以查看此网页可用区域 https://support.apple.com/zh-cn/118205\n   2.2 一般情况下我们全车预付年费，https://www.v2ex.com/t/1016473#reply2 ，开通至今。\n   2.3 已随车提供 Infuse 年订阅。\n       \n2. Office 365 已开通至 2026 年 4 月，若有需要也可以上车。",
           "link": "https://www.v2ex.com/t/1103759",
           "publishedOn": "2025-01-09T01:29:36.000Z",
-          "wordCount": 411,
+          "wordCount": 444,
           "title": "Apple One Premier / 2T iCloud 超大杯美区长期车，现有一位。另有 Office 365 一位。",
           "imageUrl": null
         },
@@ -480,7 +476,7 @@
           "description": "CareFreeSc: \n最近老妈来我工作地，暂时住在一块。免不了代沟，她看不惯我的生活习惯，我也无法忍受她每时每刻的说教（/dog ，还是一直忍着，不想和她有冲突）。\n年纪大了就会有老毛病，咳嗽和手使不上力，每次发作如果我没有及时做出对应的措施（倒开水、拿药给她），就直接发脾气，说我和我爸一个样（她一直说让我不要像我爸那样没有主见，但每次发脾气都会说我和我爸一个样，我感到很伤心，也逐渐感受到这些年父亲所承受的压力，生活以及婚姻）\n她总感觉我的工作很轻松（普通码农一枚），我也不想解释，因为无用。长辈只坚守自己的认知。因为她身体原因，所以一日三餐也需要我来（大大提升了我的厨艺，味道不好也要被吊-.-），现在每天就是上班-煮饭-上班。\n本来下班还会玩点 pc 游戏爽一下，现在电脑给他当电视用，我一开游戏，就会说我不上进。我想打游戏和不上进好像也没啥关系把。\n大伙感觉和父辈要怎么沟通比较好呢，我感觉最好的办法就是分居两地。但这也不现实，以后肯定得养老。\nlz 今年 25 ，单身，感觉还没结婚就已经恐婚啦。\n说到结婚，题外话扩展一下，她也催婚，上次直接拉我去相亲。女方比较早出社会，约女孩见面吃饭压马路三次，最后喜提好人卡 T-T.突然就想到一句话，在大家不在纯粹去爱的年纪，我才刚刚笨拙打开恋爱的门。我自身条件我感觉是不错的，有车有房，房在省会，五官端正，身高 180/80kg ，该不会是自己太🐢了，哈哈哈。\n不吐不快，就上来摸鱼发个贴，感觉心情爽多了。",
           "link": "https://www.v2ex.com/t/1103758",
           "publishedOn": "2025-01-09T01:24:19.000Z",
-          "wordCount": 817,
+          "wordCount": 939,
           "title": "老妈脾气易爆，让我深感困扰",
           "imageUrl": null
         },
@@ -490,7 +486,7 @@
           "description": "gdw1986: \n现在抢火车票有什么新姿势吗？我这两年一直用 12306bypass ，充个会员懒人抢，热门的时候该抢不到还是抢不到，现在电话还能抢吗？",
           "link": "https://www.v2ex.com/t/1103756",
           "publishedOn": "2025-01-09T01:21:23.000Z",
-          "wordCount": 475,
+          "wordCount": 490,
           "title": "一年一度抢票季了",
           "imageUrl": null
         },
@@ -520,7 +516,7 @@
           "description": "mark257: \n2025 CES 关注了一些笔记本电脑, 目前比较看好的笔记本依次如下:\n综合考虑大家感觉哪个更值得入手呢",
           "link": "https://www.v2ex.com/t/1103750",
           "publishedOn": "2025-01-09T01:06:17.000Z",
-          "wordCount": 439,
+          "wordCount": 470,
           "title": "2025 CES 笔记本电脑选择",
           "imageUrl": null
         },
@@ -530,7 +526,7 @@
           "description": "fengmengqiu: \n台式机，经常是放了一晚上，早上用的时候，整体非常卡顿，浏览器没法加载网页、所有程序的开启关闭动作都非常的慢，要十几秒。卡了一段时间后好了。我开的程序是挺多的，浏览器同时开的至少有三个版本，每个浏览器一二十个标签，intellij idea 也是开三到四个项目，但内存 128G 足够支撑。检查过了，不是 CPU 和内存的问题，都占用比较低。显卡是双显卡，集显和 NVIDIA ，尝试关闭了集显只用独显也是一样。",
           "link": "https://www.v2ex.com/t/1103748",
           "publishedOn": "2025-01-09T01:02:54.000Z",
-          "wordCount": 668,
+          "wordCount": 695,
           "title": "win11 台机机卡顿，到底是哪里的问题",
           "imageUrl": null
         },
@@ -540,7 +536,7 @@
           "description": "shenzhuoyan: 什么样的实习岗位，既能有足够的时间来准备考公考编，又能对考不上公的时候找工作有一定的益处。",
           "link": "https://www.v2ex.com/t/1103747",
           "publishedOn": "2025-01-09T01:02:10.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "双非硕目标考公目前实习找什么岗好？",
           "imageUrl": null
         },
@@ -550,7 +546,7 @@
           "description": "HoseaDev: 最近胖东来软件比较火，我开发了一款抢购的软件并且开源免费，说白了无障碍就是模拟点击快速下单。\n做这款软件的时候就在想会不会被 DY 或者胖东来告：影响平衡什么的软件或者被黄牛利用，所以故意只能抢油相关的东西。\n今天有了新思路效率大概比我现在的版本提升好几倍，并且我想放开这个只抢油相关的限制。我又担心被黄牛影响我的初心，我本身的想法是想让大家都能抢到安全的商品。\n\n所以想请问下有相关经验的大佬们：\n在我开源免费的情况下，放开所有限制能抢任何东西有没有法律相关的风险。",
           "link": "https://www.v2ex.com/t/1103745",
           "publishedOn": "2025-01-09T00:55:09.000Z",
-          "wordCount": 567,
+          "wordCount": 578,
           "title": "关于软件开发法律相关的问题！",
           "imageUrl": null
         },
@@ -560,7 +556,7 @@
           "description": "chixinzei: \n以下都是我自己买过推荐的（综合效果或时长还不错的），但是建议有要买的再搜一遍视频看下效果和时长，再做购买：\n小金鱼（有 4 岁以下小孩子的，必买这个，我儿子玩得不亦乐乎）\n28 寸仙女棒（比 18 寸便宜） 或  五彩花（时间短点，但是性价比超高）\n金玉满堂\n三分钟\n满地珍珠\n狼嚎火箭\n步惊云/中号向阳花/浪漫水母（ 10 个一起点燃起飞无法单个点燃）\n闪亮美人\n彩菊（旁边不要有电动车，上次一个直接飞进去了电动车下面，吓得我心脏都漏了半拍）\n60 波报春花\n七彩花篮\n快乐 360\n小彩鱼\n火树银花（发财树，黄金树）\n发财鱼\nPS：\n1 、价格的话看本地吧，我这边对比，网上卖的比我本地都偏贵。\n2 、最推荐的 5 种：小金鱼、仙女棒（五彩花）、金玉满堂、三分钟、彩菊。",
           "link": "https://www.v2ex.com/t/1103744",
           "publishedOn": "2025-01-09T00:53:58.000Z",
-          "wordCount": 619,
+          "wordCount": 668,
           "title": "春节性价比烟花种类推荐（个人向）",
           "imageUrl": null
         },
@@ -570,7 +566,7 @@
           "description": "winglight2016: \n钱带来的好处，不是帮你直达终点（比如那个不想练习，只想请个老师过一年就学会弹钢琴的“愿望”），而是骑自行车时的辅助轮，汽车上的备胎，在你 fulfill 自己的人生时提供支撑和保险\n赚到多少钱对自己的帮助最大？或者就能躺平？很多人的回复是几百万、几千万，这很明显没有思考过自己的生活成本和预期收益，如果有记账的习惯就能分析出来当前的生活成本和未来养老的资金多少，在此基础上，留出一定的备用金就是最基础的“够了”的金额。\n钱很重要，但是拥有了一定数目之后就不重要了。这个数目多少和前面提到的“够了”的金额以及你的欲望多少有关系，但是等你发现钱来的很容易，或者已经拥有了“够了”的钱之后，拓展生活的深度和广度才是更重要的。对我来说，这个金额并不高，所以现在对我来说，赚钱已经不是首要任务了。\n某种程度上说，钱是结果，不是过程也不是目的，重要的是享受这个人生的过程。生不带来死不带去，《 die with zero 》，这本书值得一看。",
           "link": "https://www.v2ex.com/t/1103742",
           "publishedOn": "2025-01-09T00:48:29.000Z",
-          "wordCount": 679,
+          "wordCount": 803,
           "title": "看了《33 岁才悟透一个道理，有钱是真好》的讨论，我发现很多人对钱的概念比较浅",
           "imageUrl": null
         },
@@ -590,7 +586,7 @@
           "description": "ridgebin: \n想从一个网站爬一个下载链接\n有大佬可以搞么\n有偿的，价格可谈",
           "link": "https://www.v2ex.com/t/1103740",
           "publishedOn": "2025-01-09T00:43:33.000Z",
-          "wordCount": 396,
+          "wordCount": 406,
           "title": "想从一个网站爬一个下载链接",
           "imageUrl": null
         },
@@ -610,7 +606,7 @@
           "description": "lawrenxe: \nApple Vision Pro 在美国发售已经快一年，国行开售也快半年了。这边有在用 Apple Vision Pro 的朋友吗？这么久下来，有把 Vision Pro 的使用归入日常的用户吗？\n之前看老板每天有两个小时（早上和下午各一小时）戴着 Vision Pro ，圣诞节上来，也没看到老板在戴了。\n你的使用频率：\na. 每天都会用，已经像手机和电脑一样是工作/生活的一部分了\nb. 每天都会用，会逼自己每天用 15 分钟-2 小时\nc. 每隔几天想到会用一下\nd. 已经在积灰了\ne. 其他，_______",
           "link": "https://www.v2ex.com/t/1103736",
           "publishedOn": "2025-01-09T00:15:10.000Z",
-          "wordCount": 579,
+          "wordCount": 589,
           "title": "有 Apple Vision Pro 的用户吗？",
           "imageUrl": null
         },
@@ -620,7 +616,7 @@
           "description": "sillydaddy: 有两天没关注了，短短几个月间，十年国债收益率从 2.1 降到 1.6 了，价格从 101 涨到了 106 。\n当初以为要大量发债，没敢买，以为债券供给大了，价格肯定要跌，没想到一下子涨这么多。",
           "link": "https://www.v2ex.com/t/1103735",
           "publishedOn": "2025-01-09T00:09:56.000Z",
-          "wordCount": 500,
+          "wordCount": 504,
           "title": "十年国债跌到 1.6 了",
           "imageUrl": null
         },
@@ -630,7 +626,7 @@
           "description": "visvlee:",
           "link": "https://www.v2ex.com/t/1103734",
           "publishedOn": "2025-01-08T23:52:52.000Z",
-          "wordCount": 385,
+          "wordCount": 392,
           "title": "腾讯游戏内推",
           "imageUrl": null
         },
@@ -650,7 +646,7 @@
           "description": "BestVPS: \nDC99 机房将最新配上，后续再推广至其他存量机型。\nHello everyone,\nIPV6 is near to being released. DC99 will be testing it first.\nWe are hoping to release it within the next 48 hours.",
           "link": "https://www.v2ex.com/t/1103732",
           "publishedOn": "2025-01-08T22:30:16.000Z",
-          "wordCount": 484,
+          "wordCount": 494,
           "title": "速报：搬瓦工将在未来 48 小时内给主机配上 IPv6",
           "imageUrl": null
         },
@@ -670,7 +666,7 @@
           "description": "nananqujava: 主要可以连 webdav",
           "link": "https://www.v2ex.com/t/1103728",
           "publishedOn": "2025-01-08T16:56:53.000Z",
-          "wordCount": 503,
+          "wordCount": 552,
           "title": "求推荐安卓看 epub 的软件",
           "imageUrl": null
         },
@@ -680,7 +676,7 @@
           "description": "VisualStudioCode: 我这里讲的产品是指自己造的产品，不是其他厂商的产品再接入自己的物联网生态。\n小米、华为都有智能手机+汽车（哦对，华为牌汽车是不存在的），但是在『家』的方面，小米连电饭煲都有；而华为的智能家居产品就寥寥几个，门锁什么的。\n所以如果要选生态，而非选具体某个产品的话，就只有小米可选了？买小米手机、小米平板、小米家居、小米汽车？",
           "link": "https://www.v2ex.com/t/1103727",
           "publishedOn": "2025-01-08T16:54:24.000Z",
-          "wordCount": 689,
+          "wordCount": 710,
           "title": "目前国内，甚至全世界，有人车家全生态产品的，是不是只有小米？",
           "imageUrl": null
         }
