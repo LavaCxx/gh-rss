@@ -94,6 +94,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -137,33 +143,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -304,26 +283,6 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1104032",
-          "author": "guoguobaba",
-          "description": "guoguobaba: \n这两天在 openwrt 上折腾了 singbox ，总算能让局域网能够正常访问外部了。但是发现我的 bt 端口外部没法访问了，只有 ipv6 的外网 ip ，用 itdog.cn 检测，<my-ipv6>:51413 端口不能访问了，这样我的 pt 上传会受影响\nsingbox 使用 tun 的方式，op 上设置了单独的 zone ，lan 可以转发到 singbox 上。\n之前的防火墙规则如下：\n-A zone_wan_forward -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_forward -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_input -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n-A zone_wan_input -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n\n是否需要在 tun0 上设置同样的规则。\n另外，如何将 dnsmasq 的 dns 请求转发到 singbox ，singbox 是不是需要设置一个 inbounds 的 dns 端口响应请求？",
-          "link": "https://www.v2ex.com/t/1104032",
-          "publishedOn": "2025-01-09T18:30:17.000Z",
-          "wordCount": 441,
-          "title": "singbox 导致 ipv6 无法访问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104031",
-          "author": "dengj3355",
-          "description": "dengj3355: 我家宽带是电信千兆的，但是只有空闲时段能跑到千兆，高峰期能有个 400Mbps 就不错了，特别是到了晚上高峰时段丢包特别严重，普遍丢包率在 10%以上，我估计是 isp 超售了，现在是打电话给客服客服派工作人员上门查看，用他们的测速设备测出来也是不稳定，但是维修师傅也没办法就走了，说是不能用了又打电话过去再过来看看，反正现在就变成了我打电话给客服-客服派单给维修师傅-师傅没办法走了说上报-上报后又派单给师傅-师傅让我跟他们说搞定了要不然会扣工资-然后我又打电话给客服，如此往复循环，人都要麻了，现在是投诉到工信部了，各位大佬还有什么更好的解决办法吗",
-          "link": "https://www.v2ex.com/t/1104031",
-          "publishedOn": "2025-01-09T18:07:12.000Z",
-          "wordCount": 354,
-          "title": "电信千兆速度慢+丢包如何解决？",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1104029",
           "author": "weid",
           "description": "weid: 📝简介∶Grok 是由 xAl 开发的 Al-powered 助手，旨在最大限度地实现真实、有用和好奇。您可以获得任何问题的答案，生成引人注目的图像，上传图片，从而更深入地了解您的世界。 有了 Grok ，宇宙就在您的手中！\n🔗美区链接∶\nhttps://apps.apple.com/us/app/grok/id6670324846\n--------------------------------------\n⚠️价格美区为准，⬇️下截确认价格。\n--------------------------------------\n🔎发现更多限免，❤️关注以下频道∶\nhttps://t.me/app_store",
@@ -359,7 +318,7 @@
           "description": "shapper: \n现在有什么火绒替代品，不用强迫用户升级的\n鉴于该软件开始走上 360 的道路，准备替换一下",
           "link": "https://www.v2ex.com/t/1104026",
           "publishedOn": "2025-01-09T16:39:40.000Z",
-          "wordCount": 471,
+          "wordCount": 480,
           "title": "现在有什么火绒替代品，不用强迫用户升级的",
           "imageUrl": null
         },
@@ -369,7 +328,7 @@
           "description": "qazwsxkevin: \n装在 LSI9207-8i 阵列上的自己玩玩的 Esxi ，误删除了一个虚拟机，打算能恢复回 VMDK 就可以了，\n想先找找有无这样的 PE 环境，如果实在没有，就只能引导另外个硬盘，装好 Windwos+LSI 驱动，识别出磁盘，再去恢复了\n如果有其它的恢复方法也好？",
           "link": "https://www.v2ex.com/t/1104025",
           "publishedOn": "2025-01-09T16:38:50.000Z",
-          "wordCount": 419,
+          "wordCount": 426,
           "title": "请问有可以直接驱动起 LSI 阵列卡的 WinPE 吗？（恢复误删的 ESXI 6 虚拟机）",
           "imageUrl": null
         },
@@ -409,7 +368,7 @@
           "description": "regexL: \n今天收到公司通知要把我们都裁掉。这个结果并不是很意外，因为这已经不是第一次了。对未来感到很迷茫，按照目前的形式，就算找到下一份工作也可能不会干得长久。为什么这么难？",
           "link": "https://www.v2ex.com/t/1104021",
           "publishedOn": "2025-01-09T15:43:39.000Z",
-          "wordCount": 383,
+          "wordCount": 393,
           "title": "看完《胜券在握》今天我也被裁了。",
           "imageUrl": null
         },
@@ -419,7 +378,7 @@
           "description": "Rooger: \n从毕业起，我一直从事的是游戏后端。\n13 年毕业，用了三年 SVN ，印象中没有人不写提交记录。\n从 16 年开始，一直使用的是 Git ，那就更不会看见空提交记录的情况。\n直到今年，换了个团队，开始重回 SVN ，有个同事（前端，99 年小伙子）提交信息啥都不写，被老板批了几次，情况几乎没有再出现。\n最近又换了个团队，依然是 SVN ，更有些惊讶到我了。技术 Leader （ 70 后，依然在写业务代码），比我早进公司一天的一个同事（ 81 年）。我看到这个同事提交记录为空，他说：我改了很多，我的修改记录都在 Edit Plus 中记录着呢。我看了，的确是挺多的。直到我发现 SVN 提交记录中不至一个人（领导跟这位同事）的时候，我也就觉得没啥了（因为领导提交记录也大多是空着的）。\n2025 年了，大家还在用 SVN 吗，对于空提交记录，大家怎么看？",
           "link": "https://www.v2ex.com/t/1104020",
           "publishedOn": "2025-01-09T15:30:07.000Z",
-          "wordCount": 424,
+          "wordCount": 435,
           "title": "代码提交记录为空，大家怎么看？",
           "imageUrl": null
         },
@@ -429,7 +388,7 @@
           "description": "ggstudy1: \nalipayhk 在大陆消费,会占用每年 5w 美元额度吗?",
           "link": "https://www.v2ex.com/t/1104019",
           "publishedOn": "2025-01-09T15:25:17.000Z",
-          "wordCount": 379,
+          "wordCount": 391,
           "title": "请教,alipayhk 在大陆通过付款码线下消费,占用外汇额度吗?",
           "imageUrl": null
         },
@@ -469,7 +428,7 @@
           "description": "haoyh1: 去年 9 月就一直想买个 mba\n当时 m2 8+8 核，8+256 ，jd 国补 5359 ，由于不急用就没买\n刚刚看了眼，发现双十一时苹果更新了 sku ，8g 免费升级到 16g\n如今 tb 的百亿补贴，m2 8+8 核，16+256 只要 5198 了\n等了几个月，便宜 100 多又升级到了 16g ，这一波等等党做的可以说是赢麻了，真有点控制不住想买了\n但是当下还是没有很强的需求用它，既然通缩周期还早，降价是大趋势，买盘不担心踏空，继续等吧，等一个 5000+的 m3 （可以外接双显示器）",
           "link": "https://www.v2ex.com/t/1104013",
           "publishedOn": "2025-01-09T14:59:36.000Z",
-          "wordCount": 413,
+          "wordCount": 418,
           "title": "买个 mba，真切感受到了通缩，物价下跌，消费降级的威力",
           "imageUrl": null
         },
@@ -509,7 +468,7 @@
           "description": "wqq096737ink: \n不是才剿清电炸吗?\nhttps://youtu.be/fxwgb9ACiLw",
           "link": "https://www.v2ex.com/t/1104008",
           "publishedOn": "2025-01-09T14:18:21.000Z",
-          "wordCount": 768,
+          "wordCount": 771,
           "title": "演员王星在泰国的事件-倘若是普通人大概就 gg 了吧",
           "imageUrl": null
         },
@@ -701,6 +660,36 @@
           "publishedOn": "2025-01-09T12:25:01.000Z",
           "wordCount": 493,
           "title": "顶不住了，快疯了， Mac 上使用 colima 安装 docker 到底怎么才能改源啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103982",
+          "author": "qinshihuang",
+          "description": "qinshihuang: 专业承接各类软件算法开发工作（ APP 类/PC 类/Web 类/AI 类）价格透明、用工灵活、先用后付、货到付款。专治各类屎山代码盘活、开源二次定制、快速从 0 到 1 技术原型攻坚，擅长应对各种技术疑难杂症，以及狂野的产品想法，已有数百万项目业绩。有意者联系微信 MTQ4NDUxNDg1== (base64)，欢迎转发推荐成功有提成。",
+          "link": "https://www.v2ex.com/t/1103982",
+          "publishedOn": "2025-01-09T11:37:22.000Z",
+          "wordCount": 360,
+          "title": "[外包求职、项目]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103981",
+          "author": "spencerseth44",
+          "description": "spencerseth44: 能收到消息，但是发消息提示“消息发送失败。请参阅 使用限制政策。”\n这是被封了吗",
+          "link": "https://www.v2ex.com/t/1103981",
+          "publishedOn": "2025-01-09T11:37:04.000Z",
+          "wordCount": 373,
+          "title": "账号下面 GV 号突然用不了了，是谷歌更新了风控吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1103980",
+          "author": "jerrywolf",
+          "description": "jerrywolf: \n想问问打鼓的小伙伴们，是不是有个音乐术语叫 in pocket ？\n这个是什么意思你？\n具体落地节拍形式是什么呢？\n在 y2 上搜索了很多，演示的时候感觉自己听懂了，但实在是没听懂也没听出来有什么区别..",
+          "link": "https://www.v2ex.com/t/1103980",
+          "publishedOn": "2025-01-09T11:32:52.000Z",
+          "wordCount": 374,
+          "title": "V 站有会打鼓的小伙伴吗？",
           "imageUrl": null
         }
       ]
