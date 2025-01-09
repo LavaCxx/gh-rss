@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-09 datetime="2025-01-09T17:00:41.000Z">2025-01-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-09 datetime="2025-01-09T17:00:41.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-09 datetime="2025-01-09T18:30:17.000Z">2025-01-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-09 datetime="2025-01-09T18:30:17.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,54 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1104032"
+                        open
+                      >
+                        <summary class="article-expander__title">singbox 导致 ipv6 无法访问</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104032">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>guoguobaba: 
+这两天在 openwrt 上折腾了 singbox ，总算能让局域网能够正常访问外部了。但是发现我的 bt 端口外部没法访问了，只有 ipv6 的外网 ip ，用 itdog.cn 检测，:51413 端口不能访问了，这样我的 pt 上传会受影响
+singbox 使用 tun 的方式，op 上设置了单独的 zone ，lan 可以转发到 singbox 上。
+之前的防火墙规则如下：
+-A zone_wan_forward -p tcp -m tcp --dport 51413 -m comment --comment &quot;!fw3: allow-ipv6&quot; -j ACCEPT
+-A zone_wan_forward -p udp -m udp --dport 51413 -m comment --comment &quot;!fw3: allow-ipv6&quot; -j ACCEPT
+-A zone_wan_input -p tcp -m tcp --dport 51413 -m comment --comment &quot;!fw3: allow-ipv6-in&quot; -j ACCEPT
+-A zone_wan_input -p udp -m udp --dport 51413 -m comment --comment &quot;!fw3: allow-ipv6-in&quot; -j ACCEPT
+
+是否需要在 tun0 上设置同样的规则。
+另外，如何将 dnsmasq 的 dns 请求转发到 singbox ，singbox 是不是需要设置一个 inbounds 的 dns 端口响应请求？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1104031"
+                        open
+                      >
+                        <summary class="article-expander__title">电信千兆速度慢+丢包如何解决？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104031">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dengj3355: 我家宽带是电信千兆的，但是只有空闲时段能跑到千兆，高峰期能有个 400Mbps 就不错了，特别是到了晚上高峰时段丢包特别严重，普遍丢包率在 10%以上，我估计是 isp 超售了，现在是打电话给客服客服派工作人员上门查看，用他们的测速设备测出来也是不稳定，但是维修师傅也没办法就走了，说是不能用了又打电话过去再过来看看，反正现在就变成了我打电话给客服-客服派单给维修师傅-师傅没办法走了说上报-上报后又派单给师傅-师傅让我跟他们说搞定了要不然会扣工资-然后我又打电话给客服，如此往复循环，人都要麻了，现在是投诉到工信部了，各位大佬还有什么更好的解决办法吗</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1002,68 +1050,6 @@ unity 开发工程师：
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1103982"
-                        open
-                      >
-                        <summary class="article-expander__title">[外包求职、项目]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1103982">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>qinshihuang: 专业承接各类软件算法开发工作（ APP 类/PC 类/Web 类/AI 类）价格透明、用工灵活、先用后付、货到付款。专治各类屎山代码盘活、开源二次定制、快速从 0 到 1 技术原型攻坚，擅长应对各种技术疑难杂症，以及狂野的产品想法，已有数百万项目业绩。有意者联系微信 MTQ4NDUxNDg1&#x3D;&#x3D; (base64)，欢迎转发推荐成功有提成。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1103981"
-                        open
-                      >
-                        <summary class="article-expander__title">账号下面 GV 号突然用不了了，是谷歌更新了风控吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1103981">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>spencerseth44: 能收到消息，但是发消息提示“消息发送失败。请参阅 使用限制政策。”
-这是被封了吗</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1103980"
-                        open
-                      >
-                        <summary class="article-expander__title">V 站有会打鼓的小伙伴吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1103980">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>jerrywolf: 
-想问问打鼓的小伙伴们，是不是有个音乐术语叫 in pocket ？
-这个是什么意思你？
-具体落地节拍形式是什么呢？
-在 y2 上搜索了很多，演示的时候感觉自己听懂了，但实在是没听懂也没听出来有什么区别..</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1789,6 +1775,65 @@ AI 带来的生产力提高并不能解放劳动者，由于剥削关系继续�
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z">2024-12-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-22 datetime="2024-12-22T16:21:21.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >静かな森</button>
+                  <a class="source-heading__link" href="https://innei.in">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://innei.in/notes/184"
+                        open
+                      >
+                        <summary class="article-expander__title">2024 · 前路未尽，初心犹在</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/notes/184">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184
+
+那晚的街道
+这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。
+https://innei.in/notes/161
+一次远行
+年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。
+
+https://innei.in/notes/162
+那次突如其来的裁员
+那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？
+想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-12-20 datetime="2024-12-20T16:31:05.000Z">2024-12-20</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-12-20 datetime="2024-12-20T16:31:05.000Z"></time>
           </button>
@@ -2274,26 +2319,40 @@ Fluid Superscripts and Subscripts originally published on CSS-Tricks, which is p
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
+                  >静かな森</button>
+                  <a class="source-heading__link" href="https://innei.in">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/683"
+                        data-accordion-key="https://innei.in/posts/tech/electron-render-OTA-update"
                         open
                       >
-                        <summary class="article-expander__title">OCBC 开始清退不符合开户要求的用户 从10号开始，华侨银行（OCBC）开始要求用户验证新加坡住址或指定为新加坡财路薪资存入账户，以验证开户人资质。这意味着大量...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/683">
+                        <summary class="article-expander__title">构想：Electron Render OTA 更新</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/electron-render-OTA-update">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>OCBC 开始清退不符合开户要求的用户
-从10号开始，华侨银行（OCBC）开始要求用户验证新加坡住址或指定为新加坡财路薪资存入账户，以验证开户人资质。这意味着大量中国开户人将被清退，因为多数人无法提供这些资料。逾期无法提供者将无法收款，仅可转出资金，直至关闭账户。
-OCBC 开户是 VPS 论坛 HostLoc 讨论的较边缘话题，但许多 MJJ 很乐意拥有一个 OCBC 的账户。从近期发帖看，清退消息在论坛中引发了恐慌，许多人开始将资金转移，影响比预期的要大。
-华侨银行账户可被用于收取境外资金，如谷歌广告收益、炒美股、虚拟币交易等。华侨银行也是中国用户少有的可以简单开户的境外银行。由于中国有着严格的外汇和跨境转账管制，便利收汇款方式成为有境外资金用户的重要需求。
-[消息等级 Level C2 · 简要]</span>
+                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update
+
+动机
+
+由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。
+由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。
+
+拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。
+编写此文时，下面的实现正在 Follow 中实验。
+https://github.com/RSSNext/follow
+基础知识
+Electron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。
+在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。
+思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。
+热更实现
+我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2306,8 +2365,8 @@ OCBC 开户是 VPS 论坛 HostLoc 讨论的较边缘话题，但许多 MJJ 很�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12696853760">
-        <time id="build-timestamp" datetime="2025-01-09T19:09:00.447Z">2025-01-09T19:09:00.447Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12697726526">
+        <time id="build-timestamp" datetime="2025-01-09T20:12:17.719Z">2025-01-09T20:12:17.719Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
