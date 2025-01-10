@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -143,33 +137,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/electron-render-OTA-update\n\n动机\n\n由于 App 的版本铺量存在碎片化，用户升级不及时或者不更新，会导致版本长期停留在旧版本无法得到最快的安全性或者其他功能修复。\n由于 Electron App 的全量更新需要更多的网络流量才能进行，对用户不友好。\n\n拟使用热更的方式去动态更新 Electron 的 Renderer 层代码。\n编写此文时，下面的实现正在 Follow 中实验。\nhttps://github.com/RSSNext/follow\n基础知识\nElectron App 在生产环境下，默认会加载封装在 app.asar 中的代码，包括了 electron main 进程的代码，和 renderer 进程的代码。app.asar 一般在 app 解包或者安装路径的 resources 目录下，一种方式是我们可以直接替换这个 asar 文件然后重启 app 就行了，这种方式不仅能更新 renderer 还能更新 main 的代码，但是又两个问题是，第一这种方式是需要重启 app，而且在替换 app.asar 时需要解决文件占用的问题（Windows 专属），第二替换了 app.asar 会破坏 app 的完整性，导致签名失效（macOS 专属）。\n在两者之间折中，只更新 renderer 的代码，并且不替换 app.asar 和破坏 app 完整性。\n思路如下：当热更新资源存在时，并且验证此更新有效时，优先加载更新的 renderer 资源，否则使用 app.asar 的 renderer 资源。\n热更实现\n我们需要编写一个 Vite 插件，对 renderer 进行打包，生成一个 assets-render.tar…",
-          "link": "https://innei.in/posts/tech/electron-render-OTA-update",
-          "publishedOn": "2024-12-11T16:00:38.000Z",
-          "wordCount": 1793,
-          "title": "构想：Electron Render OTA 更新",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -320,12 +287,282 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104069",
+          "author": "Cellinlab",
+          "description": "Cellinlab: \n笑死了，下次产品起名字一定要注意⚠️，尽可能通俗易懂，老幼皆知的词汇，感觉 懒猫听播客 都比 Podredit 好记！不能自己 YY 一个意义 硬 起。\n给网站设置了 关注 公众号 #Cellinlab 回复 Podredit 获取 邀请码。\n结果，一堆用户没有正确走完这个交互🤷 只能用一个一个手动回复",
+          "link": "https://www.v2ex.com/t/1104069",
+          "publishedOn": "2025-01-10T02:07:21.000Z",
+          "wordCount": 497,
+          "title": "产品起名字一定要注意⚠️，你完全想不到用户理解的你的名字和你想表达的效果",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104066",
+          "author": "aolifu",
+          "description": "aolifu: \nXmind 的平替\n完全免费\nhttps://mindmap.aolifu.org",
+          "link": "https://www.v2ex.com/t/1104066",
+          "publishedOn": "2025-01-10T01:58:59.000Z",
+          "wordCount": 406,
+          "title": "AI 真写不了这个网站，别问了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104065",
+          "author": "iisboy",
+          "description": "iisboy: \n锁屏的时候完全安静，收不到消息通知，能解决的来报价",
+          "link": "https://www.v2ex.com/t/1104065",
+          "publishedOn": "2025-01-10T01:58:16.000Z",
+          "wordCount": 394,
+          "title": "有偿求助：小米 note 13 pro 下， TG 不能收到消息通知，",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104063",
+          "author": "fancy2020",
+          "description": "fancy2020: \n搬家后出现的这个问题，网上也搜了很多资料，都无法解决：\nhttps://www.amazon.com/gp/help/customer/display.html?nodeId=GU4ESANES39XM65T\n不知道大家有没有遇到过的",
+          "link": "https://www.v2ex.com/t/1104063",
+          "publishedOn": "2025-01-10T01:57:38.000Z",
+          "wordCount": 346,
+          "title": "Fire TV Stick 开机停留在 logo 界面无限加载",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104062",
+          "author": "xiaomayi000",
+          "description": "xiaomayi000: 想多候补几个，别到时候还要挨个退票。\n有经验丰富的老哥了解吗？",
+          "link": "https://www.v2ex.com/t/1104062",
+          "publishedOn": "2025-01-10T01:56:01.000Z",
+          "wordCount": 408,
+          "title": "多个不同车次候补订单会有同时买到的情况吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104061",
+          "author": "DragonHunter",
+          "description": "DragonHunter:",
+          "link": "https://www.v2ex.com/t/1104061",
+          "publishedOn": "2025-01-10T01:55:55.000Z",
+          "wordCount": 382,
+          "title": "香港 apple ID 可否加入别人美区的 Apple One 的车？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104059",
+          "author": "Linczh",
+          "description": "Linczh: 做游戏好多年了，前几年闲来无事，开发了一个虚幻引擎的插件放到商城里卖，赚个梯子钱。\n因为没想着能赚多少钱，所以也没有花太多精力。开发大概花了两周半，后面升级过一回增加了一些功能大概又花了半周，所以开发时间满打满算三周，其余时间就是跟着引擎升升版本，每次半小时左右不费事。放了几年了，总共能卖出百来份吧，梯子钱赚着了，但是也就是梯子钱。\n现在行情不太好，最近想把这块重新增加精力投入，看看能否发展成小副业，想问问看有经验的老哥，如果开发游戏插件，是虚幻好还是 Unity 好呢。两个引擎我都能做，但是从之前这个插件看，给虚幻开发好像一般，想了一下，也许使用虚幻的都是大团队，有需求自己花一些人天就能自己做，而且更贴合项目需求，而使用 Unity 的小团队甚至独立开发者，对这种插件的需求才会更大。\n不知道这个想法对不对，有经验的老哥怎么看？",
+          "link": "https://www.v2ex.com/t/1104059",
+          "publishedOn": "2025-01-10T01:50:39.000Z",
+          "wordCount": 441,
+          "title": "开发游戏插件，选择虚幻还是 Unity",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104058",
+          "author": "lightionight",
+          "description": "lightionight:",
+          "link": "https://www.v2ex.com/t/1104058",
+          "publishedOn": "2025-01-10T01:48:09.000Z",
+          "wordCount": 359,
+          "title": "有谁知道 openwrt one 出了没？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104057",
+          "author": "wwd179",
+          "description": "wwd179: \n形而上 出自《易经·系辞》原文“形而上者谓之道，形而下者谓之器”。\n在中学教科书上，\"形而上学\"是这样被定义的：形而上学是指与辩证法对立的 ，用孤立 、静止、片面的观点观察世界的思维方式。\n形而上学相当于‘探究世界的本质’。类似小朋友一直问为什么。\n例如：儿子：六一儿童节到了，为什么爸爸妈妈不能陪我在家玩呢？爸爸：因为爸爸妈妈要上班呀！儿子：为什么要上班呢？爸爸：因为要挣钱呀！儿子：为什么要挣钱呢？爸爸：挣了钱才有钱买吃的呀！儿子：为什么要买吃的呢？爸爸：因为人得吃饭呀！儿子：人为什么要吃饭呢？爸爸：因为不吃饭就活不了呀！儿子：人为什么要活着呢？爸爸：……很多问题就是这样，聊着聊着就聊到一个可以终结聊天的问题，这个问题往往就是形而上学的问题。因为形而上学所讨论的就是所谓的\"存在的本质\"的问题，也就是追寻所谓的\"客观真理\"。由于形而上学追寻真理，但也过于强调真理的唯一性和客观性，而忽略了\"具体问题具体分析\"，所以被一些意识形态斥为\"孤立的、静止的\"。\n一直思考这些问题，大部分时候对当下生活没什么作用。\n还是实事求是。解决现实世界的问题。",
+          "link": "https://www.v2ex.com/t/1104057",
+          "publishedOn": "2025-01-10T01:44:54.000Z",
+          "wordCount": 618,
+          "title": "中学思想政治说的‘形而上学’。现在才理解它的意思。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104056",
+          "author": "qcbf111",
+          "description": "qcbf111: \n我记得很早以前是屏幕缩小到左下角 or 右下角的，真正的单手可操作。\n现在改为和 ios 一样屏幕下降一半左右宽度不变化，这实用性直接降大半了呀。而且 iPhone 这样设计可能因为 iPhone 尺寸固定大部分机型都比较窄，为什么 Android 也这样学。\n现在非常不实用了。\n以前单手模式\n现在的单手模式",
+          "link": "https://www.v2ex.com/t/1104056",
+          "publishedOn": "2025-01-10T01:44:50.000Z",
+          "wordCount": 456,
+          "title": "很好奇为什么现在 Android 手机的单手模式都这样了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104055",
+          "author": "lancesadd",
+          "description": "lancesadd: \n准备买个简单易用的软路由带个简单的 nas 功能，看到之前用的 istoreos 出了自己的硬件，问问有没有用过的哥们有没有什么明显缺陷之类",
+          "link": "https://www.v2ex.com/t/1104055",
+          "publishedOn": "2025-01-10T01:44:06.000Z",
+          "wordCount": 374,
+          "title": "istoreos 官方出品的 EasePI R1 PRO 怎么样？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104054",
+          "author": "DigitaIOcean",
+          "description": "DigitaIOcean: \n想润的宝子们除了加拿大，是不是也可以选择丹麦格陵兰岛\n曲线入籍？",
+          "link": "https://www.v2ex.com/t/1104054",
+          "publishedOn": "2025-01-10T01:42:51.000Z",
+          "wordCount": 627,
+          "title": "如何看待加拿大如果成为美国 51 州，在加的宝子们是不是赚了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104051",
+          "author": "hmchen16",
+          "description": "hmchen16: \n背景\n家里只有 ipv6 公网 ip ，注册了个域名做 DDNS\n服务端用黑群晖，装了 wireguard 套件和 wg-easy 镜像\n路由装了 openwrt 固件，把黑群晖上的 wireguard 服务端口映射到公网上，路由器上的防火墙也已经给端口放行了\n客户端现在只试了 iOS\n出现问题\n客户端(iPhone)使用流量，连接上 wireguard 后，wg-easy 后台能看到流量，但是上行速度高达 192 B/s ，访问不了内网上的服务\nps：iPhone 连上 wifi 后是可以通过域名和 ipv6 地址访问到内网服务的\n有老哥遇到过类似的问题吗？\n服务端配置大致如下\ndocker run --detach \\\n  --name wg-easy \\\n  --env WG_HOST=x \\\n  --env PASSWORD_HASH='x'  \\\n  --env WG_DEFAULT_ADDRESS=\"192.168.6.x\" \\\n  --env WG_ALLOWED_IPS=\"192.168.6.0/24\" \\\n  --env WG_MTU=1420 \\\n  --volume ~/.wg-easy:/etc/wireguard \\\n  --publish 51820:51820/udp \\\n  --publish 51821:51821/tcp \\\n  --cap-add NET_ADMIN \\\n  --cap-add SYS_MODULE \\\n  --sysctl 'net.ipv6.conf.all.forwarding=1' \\\n  --restart unless-stopped \\\n  ghcr.io/wg-easy/wg-easy",
+          "link": "https://www.v2ex.com/t/1104051",
+          "publishedOn": "2025-01-10T01:32:02.000Z",
+          "wordCount": 505,
+          "title": "wg-easy 有流量通过但是无法访问内网",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104050",
+          "author": "blucas01",
+          "description": "blucas01: \n你见过这样的 PageSpy 吗？\n\n不知道的赶紧来学、定制你的 PageSpy：\n体验地址： https://static.jikejishu.com/pagespy/custom-theme/index.html\n体验地址的源码： https://codesandbox.io/p/devbox/2nrwvv\nPageSpy 介绍\nPageSpy 是一款支持调试 Web / 小程序 / ReactNative / 鸿蒙项目的开源调试工具，上面是 PageSpy 在浏览器端渲染的 UI 控件的换肤功能。\n仓库地址: https://github.com/HuolalaTech/page-spy-web/\n官网首页: https://pagespy.org/",
+          "link": "https://www.v2ex.com/t/1104050",
+          "publishedOn": "2025-01-10T01:31:44.000Z",
+          "wordCount": 381,
+          "title": "很多人不知道 PageSpy 可以定制主题？我不能接受",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104048",
+          "author": "klementina",
+          "description": "klementina: \nParallels Desktop 标准版现在只能最多分配 8GB 内存，Pro 版才能 16G 及以上。\n这个软件真是爱恨交织啊，把用户按在地上反复摩擦。",
+          "link": "https://www.v2ex.com/t/1104048",
+          "publishedOn": "2025-01-10T01:27:30.000Z",
+          "wordCount": 351,
+          "title": "Parallels Desktop 标准版什么时候能把内存分配提高到 8GB 以上或不限内存。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104047",
+          "author": "VictorFrank1",
+          "description": "VictorFrank1: \n新的设计大家感觉怎么样，没想到真的变成了贯穿式车灯。",
+          "link": "https://www.v2ex.com/t/1104047",
+          "publishedOn": "2025-01-10T01:23:57.000Z",
+          "wordCount": 987,
+          "title": "焕新 Model Y 发布了，大家怎么看",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104046",
+          "author": "xiaowoli",
+          "description": "xiaowoli: \n岳父母一直没帮忙带娃，过年还要给钱吗\n礼物是不是要带点回去，有啥推荐的吗",
+          "link": "https://www.v2ex.com/t/1104046",
+          "publishedOn": "2025-01-10T01:22:04.000Z",
+          "wordCount": 615,
+          "title": "各位老哥们，过年要给岳父岳母家送钱吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104045",
+          "author": "cczyx",
+          "description": "cczyx:",
+          "link": "https://www.v2ex.com/t/1104045",
+          "publishedOn": "2025-01-10T01:21:31.000Z",
+          "wordCount": 406,
+          "title": "求 Linux .do 邀请注册码，那位大哥可以邀请我，谢谢！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104043",
+          "author": "cjq8z",
+          "description": "cjq8z: 过年抢回家的车票，一到发售点，手机端和网页端就全部掉线了，需要重新登陆。网页端有快速密码填充，还能立马重新进去购票，手机的苹果的人脸验证被禁止，只能密码登陆。等输入密码重新进去，已经啥都没有了。\n每年抢热门线路的票都是这样的逻辑，一肚子的火气。\n这两年买了车，就不抢票了。今年给亲人抢票，又是这样的逻辑。",
+          "link": "https://www.v2ex.com/t/1104043",
+          "publishedOn": "2025-01-10T01:16:45.000Z",
+          "wordCount": 448,
+          "title": "12306 一到发售点，手机和网页都需要重新账号登陆",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104042",
+          "author": "cat",
+          "description": "cat: 选了几个能预约的时间段，都提示太火爆，换个时间再试",
+          "link": "https://www.v2ex.com/t/1104042",
+          "publishedOn": "2025-01-10T01:15:08.000Z",
+          "wordCount": 581,
+          "title": "京东家政的预约有啥技巧吗，一直提示服务太火爆",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104040",
+          "author": "iloveyou",
+          "description": "iloveyou: 嘴上都叫得凶，抵制这个抵制那个，国补一来还不是真香",
+          "link": "https://www.v2ex.com/t/1104040",
+          "publishedOn": "2025-01-10T01:07:30.000Z",
+          "wordCount": 865,
+          "title": "是不是国补都肥了互联网平台？京东年终 20 薪，看来也没受杨笠影响啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104038",
+          "author": "yinft",
+          "description": "yinft: \n遥想几年前，都是来问生化环材怎么转计算机，是自学还是报班的，一个时代落幕了真是唏嘘啊，三十岁的各位准备好迎接接下来十年的巨变了么？",
+          "link": "https://www.v2ex.com/t/1104038",
+          "publishedOn": "2025-01-10T00:40:07.000Z",
+          "wordCount": 1081,
+          "title": "v2 考公贴越来越多了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104037",
+          "author": "jmxct520",
+          "description": "jmxct520: 直播套餐\n129 元/月，200M 上行，下行 1000M\n加固定 IP 加 200 一个月\n电信，你给点力啊。。",
+          "link": "https://www.v2ex.com/t/1104037",
+          "publishedOn": "2025-01-10T00:39:12.000Z",
+          "wordCount": 513,
+          "title": "成都联通出新套餐，成都电信啥时候能跟上 fuck",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104036",
+          "author": "wildlynx",
+          "description": "wildlynx: \n今天路过一个驾校，突然想到存在“驾驶员教练”这个职业。去驾校做教练，是不是中年人的一个较好的出路？",
+          "link": "https://www.v2ex.com/t/1104036",
+          "publishedOn": "2025-01-10T00:36:10.000Z",
+          "wordCount": 539,
+          "title": "有考驾驶员教练证为中年失业做准备的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104035",
+          "author": "chenqh",
+          "description": "chenqh: \n我笔记本 C 盘一天写了 200G.其中 vscode 20 小时写了 35G,顶不住了啊.\n怎么写得这么多啊.",
+          "link": "https://www.v2ex.com/t/1104035",
+          "publishedOn": "2025-01-10T00:22:34.000Z",
+          "wordCount": 706,
+          "title": "你们的硬盘一天写多少啊?有什么方法可以排查吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104034",
+          "author": "awanabe",
+          "description": "awanabe: 22 年买了 16' MacBook pro m1pro 32g + 1t\n没想到转行了\n到处跑 2.2kg 实在太压包了\n当时入手价 21k\n现在也只能卖个 8k\n就在 pdd 上购入了 m3 MacBook air 13'  24g + 512g\n也差不多 9k 不到\n唏嘘",
+          "link": "https://www.v2ex.com/t/1104034",
+          "publishedOn": "2025-01-10T00:22:04.000Z",
+          "wordCount": 606,
+          "title": "不当程序员了 置换了 mbp 到 mba",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104033",
+          "author": "pike0002",
+          "description": "pike0002: 推荐一个浏览器插件，可将网页保存为 PNG 图像和 PDF 文件，并支持完整页面保存。https://www.pixelstech.net/application/pagesaver",
+          "link": "https://www.v2ex.com/t/1104033",
+          "publishedOn": "2025-01-10T00:08:44.000Z",
+          "wordCount": 387,
+          "title": "Page Saver - 保存网页成图片或者 PDF 的插件",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104032",
           "author": "guoguobaba",
           "description": "guoguobaba: \n这两天在 openwrt 上折腾了 singbox ，总算能让局域网能够正常访问外部了。但是发现我的 bt 端口外部没法访问了，只有 ipv6 的外网 ip ，用 itdog.cn 检测，<my-ipv6>:51413 端口不能访问了，这样我的 pt 上传会受影响\nsingbox 使用 tun 的方式，op 上设置了单独的 zone ，lan 可以转发到 singbox 上。\n之前的防火墙规则如下：\n-A zone_wan_forward -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_forward -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_input -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n-A zone_wan_input -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n\n是否需要在 tun0 上设置同样的规则。\n另外，如何将 dnsmasq 的 dns 请求转发到 singbox ，singbox 是不是需要设置一个 inbounds 的 dns 端口响应请求？",
           "link": "https://www.v2ex.com/t/1104032",
           "publishedOn": "2025-01-09T18:30:17.000Z",
-          "wordCount": 551,
+          "wordCount": 561,
           "title": "singbox 导致 ipv6 无法访问",
           "imageUrl": null
         },
@@ -335,7 +572,7 @@
           "description": "dengj3355: 我家宽带是电信千兆的，但是只有空闲时段能跑到千兆，高峰期能有个 400Mbps 就不错了，特别是到了晚上高峰时段丢包特别严重，普遍丢包率在 10%以上，我估计是 isp 超售了，现在是打电话给客服客服派工作人员上门查看，用他们的测速设备测出来也是不稳定，但是维修师傅也没办法就走了，说是不能用了又打电话过去再过来看看，反正现在就变成了我打电话给客服-客服派单给维修师傅-师傅没办法走了说上报-上报后又派单给师傅-师傅让我跟他们说搞定了要不然会扣工资-然后我又打电话给客服，如此往复循环，人都要麻了，现在是投诉到工信部了，各位大佬还有什么更好的解决办法吗",
           "link": "https://www.v2ex.com/t/1104031",
           "publishedOn": "2025-01-09T18:07:12.000Z",
-          "wordCount": 398,
+          "wordCount": 402,
           "title": "电信千兆速度慢+丢包如何解决？",
           "imageUrl": null
         },
@@ -345,7 +582,7 @@
           "description": "weid: 📝简介∶Grok 是由 xAl 开发的 Al-powered 助手，旨在最大限度地实现真实、有用和好奇。您可以获得任何问题的答案，生成引人注目的图像，上传图片，从而更深入地了解您的世界。 有了 Grok ，宇宙就在您的手中！\n🔗美区链接∶\nhttps://apps.apple.com/us/app/grok/id6670324846\n--------------------------------------\n⚠️价格美区为准，⬇️下截确认价格。\n--------------------------------------\n🔎发现更多限免，❤️关注以下频道∶\nhttps://t.me/app_store",
           "link": "https://www.v2ex.com/t/1104029",
           "publishedOn": "2025-01-09T17:00:41.000Z",
-          "wordCount": 381,
+          "wordCount": 394,
           "title": "💥 [iOS] 👍马斯克 xAI 的 Grok 独立人工智能应用登陆美国应用商店",
           "imageUrl": null
         },
@@ -355,7 +592,7 @@
           "description": "miaoxiaomayi: 用来做作 nas ，跑 docker",
           "link": "https://www.v2ex.com/t/1104028",
           "publishedOn": "2025-01-09T16:54:06.000Z",
-          "wordCount": 425,
+          "wordCount": 437,
           "title": "n100 刷黑群晖还是刷 istoreos？",
           "imageUrl": null
         },
@@ -365,7 +602,7 @@
           "description": "ALongRanger: 我们部门绩效管理如下：\n1. 采用工时间统计，通过拉取 jira 工时数据/打卡工时数据得到一个所谓的有效工时率。低于 100%是 0 分，100 基本值 60 分，105 目标值 80 分，115 以上超越值 120 分，占比 40%；\n2.基于缺陷率. 即所谓缺陷个数/jira 工作时间，如果高于 1.6%就是 0 分，占比 25%。一个上线跑了几年的历史代码，突然出了点问题，bug 又会被挂到 y 头上\n3.基于缺陷发现率，即提测阶段产生的缺陷数量/季度内总缺陷数量（即提测+生产缺陷）。 如果低于 90% 即 0 分 占比 25%\n4.团队指标，占比 10%，即所有团队成员基本指标参数的均值\n\n开发与测试共用一套指标\n指标 1:  往往可以在公司划水，做些无关事项，然后填报到其他任务的工时，这个东西目前没有人审核\n指标 2: 部门对缺陷的定义是不满足需求的都是缺陷，往往有些生产上的问题部分开发发现后开发会提成优化来规避缺陷，有时候也看测试人员。 我在想一个季度 3 个月， 毕业几年没有呆过几家公司，7 个 bug 算多吗，没有对比过？\n指标 3: 遗漏的生产缺陷只要有一个基本上这个指标就达不到了\n我并不喜欢这种考核，所以很多时候工时记录压根不想记录，就算记录也只是差不多个意思，往往实际干了活（可能超 8 小时）也就记录个 8h 。 其实随手的事情但是我有比较大的抵触情绪。至于年终绩效 A ，B ，C ，D ，差点拿 D 。 \n这个规则下拿高绩效只要卷开发工时就行了，此外是我实在是不愿意填这个鬼东西，突然感觉自己就是最不服管的那个人。\n\n大家所在部门的考核又是怎么样的呢？",
           "link": "https://www.v2ex.com/t/1104027",
           "publishedOn": "2025-01-09T16:43:51.000Z",
-          "wordCount": 487,
+          "wordCount": 516,
           "title": "又到了一年年终绩效，大家部门的绩效评定都是咋评的啊？",
           "imageUrl": null
         },
@@ -375,7 +612,7 @@
           "description": "shapper: \n现在有什么火绒替代品，不用强迫用户升级的\n鉴于该软件开始走上 360 的道路，准备替换一下",
           "link": "https://www.v2ex.com/t/1104026",
           "publishedOn": "2025-01-09T16:39:40.000Z",
-          "wordCount": 798,
+          "wordCount": 877,
           "title": "现在有什么火绒替代品，不用强迫用户升级的",
           "imageUrl": null
         },
@@ -395,7 +632,7 @@
           "description": "ttgo: 之前一直用 gemini 、chatgpt 的网页版，以及 chatgpt 的 app ，但感觉仍然有不方便的地方。\n有更好用的用 API 的第三方客户端么？",
           "link": "https://www.v2ex.com/t/1104024",
           "publishedOn": "2025-01-09T16:34:17.000Z",
-          "wordCount": 429,
+          "wordCount": 431,
           "title": "有值得推荐的 PC/MAC 上的第三方 AI 客户端么？",
           "imageUrl": null
         },
@@ -405,7 +642,7 @@
           "description": "wangyuescr: 如题。\n8 代 U HP 笔记本电脑 HP EliteBook 840 G6 ，  i5-8265U ，  Win10 22H2 下总是容易半小时蓝屏重启，已经换过内存、固态，还有啥排查思路吗？\n镜像是从 MSDN I tell U 下载的，这几周都是这个镜像安装的其他不同型号笔记本电脑，都没问题。\n最开始看事件管理器里面的报错警告有 memory 和 disk 相关，因为笔记本电脑五年多了也没多想，就趁机换了固态、内存，重做系统。确定固态、内存都是好的，也开机进到 F2 ，走了下 HP 自带的检测，CPU 、内存、存储、主板、电源测试都是正常的。也分别试过联网更新补丁、驱动和不更新，但是还是会蓝屏重启。\n试了试 WhoCrashed 这种软件分析蓝屏日志，出的报告显示和 Driver 有关。\nBugcheck code:0xA(0xFFFFCD8E6B95F8A8, 0x2, 0x0, 0xFFFFF80158E4327A)\nBugcheck name:IRQL_NOT_LESS_OR_EQUAL\nThis is a typical software problem. Most likely this is caused by a bug in a driver.\n在 U 盘 PE 系统下，用自带的工具检测内存、硬盘，保持亮机工作 2 小时以上，一切正常。属实把我给整不会了，想不到啥排查思路了，求助 V 友指点下。",
           "link": "https://www.v2ex.com/t/1104023",
           "publishedOn": "2025-01-09T16:02:29.000Z",
-          "wordCount": 439,
+          "wordCount": 441,
           "title": "8 代 U HP 笔记本电脑 Win10 22H2 下总是容易半小时蓝屏重启，已经换过内存、固态，还有啥排查思路吗？",
           "imageUrl": null
         },
@@ -427,286 +664,6 @@
           "publishedOn": "2025-01-09T15:43:39.000Z",
           "wordCount": 396,
           "title": "看完《胜券在握》今天我也被裁了。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104020",
-          "author": "Rooger",
-          "description": "Rooger: \n从毕业起，我一直从事的是游戏后端。\n13 年毕业，用了三年 SVN ，印象中没有人不写提交记录。\n从 16 年开始，一直使用的是 Git ，那就更不会看见空提交记录的情况。\n直到今年，换了个团队，开始重回 SVN ，有个同事（前端，99 年小伙子）提交信息啥都不写，被老板批了几次，情况几乎没有再出现。\n最近又换了个团队，依然是 SVN ，更有些惊讶到我了。技术 Leader （ 70 后，依然在写业务代码），比我早进公司一天的一个同事（ 81 年）。我看到这个同事提交记录为空，他说：我改了很多，我的修改记录都在 Edit Plus 中记录着呢。我看了，的确是挺多的。直到我发现 SVN 提交记录中不至一个人（领导跟这位同事）的时候，我也就觉得没啥了（因为领导提交记录也大多是空着的）。\n2025 年了，大家还在用 SVN 吗，对于空提交记录，大家怎么看？",
-          "link": "https://www.v2ex.com/t/1104020",
-          "publishedOn": "2025-01-09T15:30:07.000Z",
-          "wordCount": 511,
-          "title": "代码提交记录为空，大家怎么看？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104019",
-          "author": "ggstudy1",
-          "description": "ggstudy1: \nalipayhk 在大陆消费,会占用每年 5w 美元额度吗?",
-          "link": "https://www.v2ex.com/t/1104019",
-          "publishedOn": "2025-01-09T15:25:17.000Z",
-          "wordCount": 416,
-          "title": "请教,alipayhk 在大陆通过付款码线下消费,占用外汇额度吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104016",
-          "author": "winfred4633",
-          "description": "winfred4633: 主要功能：\n1. 一键收集当前 Tab ，暂存为一个场景\n2. 一键打开某个场景下的所有 Tab\n数据都是本地存储，不用担心隐私问题\n\n插件地址\nhttps://chromewebstore.google.com/detail/tabs-stasher/nihkgieooimlfeckpkageplljminocof?authuser=0&hl=zh-CN\n官网地址\nhttps://youeden.com/",
-          "link": "https://www.v2ex.com/t/1104016",
-          "publishedOn": "2025-01-09T15:14:43.000Z",
-          "wordCount": 363,
-          "title": "收到用户邮件提需求，真的太重要了，做了些更新，欢迎大家体验和反馈",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104015",
-          "author": "revival83",
-          "description": "revival83: 最近十年没用过 windows 了，上一次用还是 windows7 ，用 Mac 没考虑过安全性问题，所以来问问大佬们，是不是这样说明被 chrome 拦截了？电脑没问题？",
-          "link": "https://www.v2ex.com/t/1104015",
-          "publishedOn": "2025-01-09T15:11:08.000Z",
-          "wordCount": 115,
-          "title": "大佬们我下载了一个.exe windows 优化软件， chrome 提示已屏蔽危险的下载内容，是不是说明我的电脑是安全的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104014",
-          "author": "zhangyongji",
-          "description": "zhangyongji: \n提供一个下载各种版本的 JDK 网站，不需在 oracle 官网注册下载了，参考站点 https://www.injdk.cn/ ，直接下载目录 https://d.injdk.cn/download",
-          "link": "https://www.v2ex.com/t/1104014",
-          "publishedOn": "2025-01-09T15:09:51.000Z",
-          "wordCount": 460,
-          "title": "各种 JDK 版本下载",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104013",
-          "author": "haoyh1",
-          "description": "haoyh1: 去年 9 月就一直想买个 mba\n当时 m2 8+8 核，8+256 ，jd 国补 5359 ，由于不急用就没买\n刚刚看了眼，发现双十一时苹果更新了 sku ，8g 免费升级到 16g\n如今 tb 的百亿补贴，m2 8+8 核，16+256 只要 5198 了\n等了几个月，便宜 100 多又升级到了 16g ，这一波等等党做的可以说是赢麻了，真有点控制不住想买了\n但是当下还是没有很强的需求用它，既然通缩周期还早，降价是大趋势，买盘不担心踏空，继续等吧，等一个 5000+的 m3 （可以外接双显示器）",
-          "link": "https://www.v2ex.com/t/1104013",
-          "publishedOn": "2025-01-09T14:59:36.000Z",
-          "wordCount": 582,
-          "title": "买个 mba，真切感受到了通缩，物价下跌，消费降级的威力",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104012",
-          "author": "zyxfsky",
-          "description": "zyxfsky: \n现状:我有一个美区账号，之前有个 ipad mini 登录账号，后面二手卖了，但是账号添加添加几个信任设备，信任手机号已经销号，未添加当前手机号\n现在想重新换个设备登录这个账号，输入验证码的时候，几个信任设备都收不到验证码，重试多次无效，因为手机号已经销号了，也没法短信验证码\n但是浏览器登录账号时，信任设备可以收到验证码，网页可以登录成功\n是被苹果做了什么限制吗，用 iPad 和 Mac 登录账号，几个信任设备都收不到验证码，只能网页登录账号\n有谁遇到这种情况，如何解决？感谢指导🙇🏾",
-          "link": "https://www.v2ex.com/t/1104012",
-          "publishedOn": "2025-01-09T14:54:23.000Z",
-          "wordCount": 510,
-          "title": "Apple 账号登录收不到验证码，有信任设备，求助如何解决",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104010",
-          "author": "DesmondQ",
-          "description": "DesmondQ: 经常刷到人家直播间画面很高清，看得出是用的相机，但我用大法的 a7m3 来直播，从抖音直播伴侣推流出来后画质还是糊，特别是抠绿幕后更是糊的的一塌糊涂，一点也不高清。\n采集卡是 4k ，格式是 yuy2 ，在 obs 里当虚拟摄像头添加到直播伴侣，推出来的画质也是糊。\n直接在 obs 用推流码推画质会好一些吗\n有做直播的可以提下建议吗",
-          "link": "https://www.v2ex.com/t/1104010",
-          "publishedOn": "2025-01-09T14:46:28.000Z",
-          "wordCount": 424,
-          "title": "有做抖音直播的吗，想请教下怎么才能把直播画质提升的好一些",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104009",
-          "author": "victer",
-          "description": "victer: 注册送免费额度\n云智 Ai-API\n直达连接： https://api.openxs.top",
-          "link": "https://www.v2ex.com/t/1104009",
-          "publishedOn": "2025-01-09T14:25:11.000Z",
-          "wordCount": 359,
-          "title": "终于找到一个稳定的 chatgpt 接口 、midjourney 接口",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104007",
-          "author": "jiaoguan1688",
-          "description": "jiaoguan1688: \n线上现在运行的 mysql 里面的字段名需要增加一些,本地已经增加好了\n如何加到线上版本比较优雅.",
-          "link": "https://www.v2ex.com/t/1104007",
-          "publishedOn": "2025-01-09T14:11:23.000Z",
-          "wordCount": 460,
-          "title": "有什么优雅的 mysql 增加字段名的方法呢?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104006",
-          "author": "HHJY",
-          "description": "HHJY: \n国行的 iphone13mini ，现在想弄一个流量卡一起用，但是不知道怎么可以同时用双卡。",
-          "link": "https://www.v2ex.com/t/1104006",
-          "publishedOn": "2025-01-09T14:04:40.000Z",
-          "wordCount": 383,
-          "title": "iphone13mini 怎么弄双卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104005",
-          "author": "CodeY99",
-          "description": "CodeY99: 朋友加入一家外企，外企上班，发了一台 windows 电脑，需要翻墙登录企业账号才能用，但是没什么权限装软件，修改注册表等。除了路由器翻墙还有其他路子吗？\n目前测试过 android 手机开热点，sing-box clash 全局代理都不行。\n主要是考虑临时出门用，最好是手机上装个什么软件，开个热点能搞定。\n感谢",
-          "link": "https://www.v2ex.com/t/1104005",
-          "publishedOn": "2025-01-09T14:04:33.000Z",
-          "wordCount": 488,
-          "title": "[求助] 除了路由器翻墙 windows 登录系统前如何翻墙？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104004",
-          "author": "fvae",
-          "description": "fvae:",
-          "link": "https://www.v2ex.com/t/1104004",
-          "publishedOn": "2025-01-09T13:51:38.000Z",
-          "wordCount": 357,
-          "title": "poe app 怎么订阅会比较便宜？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104003",
-          "author": "revival83",
-          "description": "revival83: 纯净好用安全靠谱的，付点费也行… 好软件值得付费",
-          "link": "https://www.v2ex.com/t/1104003",
-          "publishedOn": "2025-01-09T13:46:34.000Z",
-          "wordCount": 454,
-          "title": "大佬们求个 win10 禁用更新和系统优化的工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104002",
-          "author": "liaowb3",
-          "description": "liaowb3: \n报错如下：\nInternal error. Please refer to https://jb.gg/ide/critical-startup-errors\njava.nio.file.AccessDeniedException: /Users/liaobin/Library/Application Support/JetBrains/GoLand2023.3\nat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90)\nat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\nat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\nat java.base/sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:397)\nat java.base/java.nio.file.Files.createDirectory(Files.java:700)\nat com.intellij.openapi.util.io.NioFiles.tryCreateDirectory(NioFiles.java:94)\nat com.intellij.openapi.util.io.NioFiles.createDirectories(NioFiles.java:87)\nat com.intellij.platform.ide.bootstrap.DirectoryLock.lockOrActivate(DirectoryLock.java:145)\nat com.intellij.platform.ide.bootstrap.StartupUtil$lockSystemDirs$result$1.invokeSuspend(main.kt:626)\nat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)\nat kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)\nat kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)\nat kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)\nat kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)\nYour JRE: 17.0.10+1-b1087.17 aarch64 (JetBrains s.r.o.)\n/Applications/GoLand.app/Contents/jbr/Contents/Home",
-          "link": "https://www.v2ex.com/t/1104002",
-          "publishedOn": "2025-01-09T13:46:16.000Z",
-          "wordCount": 406,
-          "title": "为什么我的 mac 打开 goland 会爆这个错误，如何解决",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104001",
-          "author": "guisheng",
-          "description": "guisheng: \n计划从盈透出金美元到香港汇丰，选择银行电汇-经过中转行-香港汇丰美元账户。\n请问有这样操作过的吗？会收取多少手续费呢？\n我为什么这样做：我想购买汇丰的美元存单，直接美元到可以去除汇率损失，但是我又担心手续费比较高",
-          "link": "https://www.v2ex.com/t/1104001",
-          "publishedOn": "2025-01-09T13:39:43.000Z",
-          "wordCount": 351,
-          "title": "盈透出金美元的手续费？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104000",
-          "author": "zimuyun",
-          "description": "zimuyun: 可以拦截删除微信好友，删除聊天记录",
-          "link": "https://www.v2ex.com/t/1104000",
-          "publishedOn": "2025-01-09T13:32:35.000Z",
-          "wordCount": 396,
-          "title": "类似小米政企版本的手机是怎么实现拦截删除微信消息的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103999",
-          "author": "chenyongchanggg",
-          "description": "chenyongchanggg: 一个女老师分到一个学生学习不好的班级，dddd ，学校和家长不反对体罚学生，结果这个老师体罚的时候学生都在小人，当成消遣了。这个老师感觉管不着学生，怎么解",
-          "link": "https://www.v2ex.com/t/1103999",
-          "publishedOn": "2025-01-09T13:26:41.000Z",
-          "wordCount": 399,
-          "title": "老师如何在学生中培养威望",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103997",
-          "author": "boneyao",
-          "description": "boneyao: 以后的面试会不会是这样，给一个网站，然后你用 AI （编辑器） 去实现\n如给一个网站：\nhttps://wrshapes.xyz\n你和 AI 对话实现这个网站",
-          "link": "https://www.v2ex.com/t/1103997",
-          "publishedOn": "2025-01-09T13:09:48.000Z",
-          "wordCount": 392,
-          "title": "AI 成熟之后的程序员面试奇想",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103996",
-          "author": "mushokumunou",
-          "description": "mushokumunou: 想找个基于 py go node.js 的 cms 或者 headless cms 也行，做二开。\n前端有配套的最好，没有也拉到，基本都提供 api 。\n最好接近视频站的应用方向，不造大轮子，小轮子（如 dplay 二开等）无所谓。\n目标网站类型：\n苹果 cms 这种剧集 + youtube 这种自由投稿 ，综合体。（让网友自己投稿剧集，网站只负责前台展示和归类整理）\n不用采集源，对接其他的网盘做存储分流",
-          "link": "https://www.v2ex.com/t/1103996",
-          "publishedOn": "2025-01-09T13:09:19.000Z",
-          "wordCount": 398,
-          "title": "想弄个视频站点，优雅不过时的打开姿势应该是什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103995",
-          "author": "gzlmx",
-          "description": "gzlmx: \n续上次竞技场，这次放宽了一点点\n网关还是 100.64\n有 ipv6 ，但是上行速率只有 50\nv4 nat4 测速达标\n归属地是本地（ 020 ）",
-          "link": "https://www.v2ex.com/t/1103995",
-          "publishedOn": "2025-01-09T12:59:01.000Z",
-          "wordCount": 431,
-          "title": "今天广东电信又有动作了 nat1 变 nat4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103994",
-          "author": "nathanw",
-          "description": "nathanw: \n第一次用氮化镓充电头，买了号称第六代氮化镓充电头，4 个口，2 个 type-C ，2 个 USB\n官方介绍，4 口同时用，C1=45w,B2=5w,C2 和 B1 为 15w\n实际测试:\nC1 口插入安卓机，其他同时 3 个口接入 3 台 iphone ，这时候会断流充不上了，应该是第一台安卓机充电功率太高了，总的超过了 65w ，拔掉其他一台其他的就正常了。\n反过来，如果 C1 插入 iPhone ，C2 接入安卓，其余 2 个不变，这时候就正常了。\n插拔的时候，只能说极小概率还是会断流(广告说双 c 口不断流)。\n发热感觉还行，不过现在是冬天。\n主要用途是出去旅行的时候，手机，充电宝，相机，耳机晚上放着慢慢充电。\n没有快充需求，主力 iPhone 也就 15w ，也就不买 100+w 的充电头。\n对于个人来说也就够用了，体积也比较小。",
-          "link": "https://www.v2ex.com/t/1103994",
-          "publishedOn": "2025-01-09T12:55:44.000Z",
-          "wordCount": 470,
-          "title": "第一次购买 65w 氮化镓充电头分享",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103992",
-          "author": "kkkkh",
-          "description": "kkkkh: \n现在公司对待前端，整体感觉是边缘状态，给我整体感觉有以下几点：\n1 、不了解前端，不知道前端重要性；\n2 、不知道前端的能做什么，不能做什么；\n3 、有时候还尊重前端；\n求大家给指点指点，我想肯定有，但是不知道怎么牛逼惊艳到他们",
-          "link": "https://www.v2ex.com/t/1103992",
-          "publishedOn": "2025-01-09T12:48:20.000Z",
-          "wordCount": 676,
-          "title": "前端有没有可以拿得出手的，能惊艳到后端和产品的技术？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103990",
-          "author": "doyoo",
-          "description": "doyoo:",
-          "link": "https://www.v2ex.com/t/1103990",
-          "publishedOn": "2025-01-09T12:39:37.000Z",
-          "wordCount": 388,
-          "title": "兄弟们，飞牛 NAS 加密备份数据到网盘有什么方案吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103989",
-          "author": "blogcool",
-          "description": "blogcool: \n公司介绍\n我们是一家总部位于伦敦的科技公司，专注于 unity 二次元移动端游戏开发，核心团队拥有超过 10 年的游戏开发和发行经验，致力于通过技术创新为玩家提供卓越的游戏体验。公司目前正在开发一款二次元卡牌手游，当前团队人数在 40 人左右。目前有多位 HC 开放，从中级到高级，欢迎您加入我们的创新旅程。\n工作方式：\n全职远程工作。\n远程工作时间：\n北京时间 10:00-20:00 。\n工作语言：\n全中文。\n招聘中的职位\nunity 主程序（二次元方向）:\n岗位职责:\n1.负责 Unity 游戏客户端架构设计与核心功能开发；\n2.负责程序框架及技术方案的设计和具体实现，以及项目整体代码优化；\n3.负责与策划、美术及后端进行有效的沟通和协调，推进项目。\n任职要求:\n1.计算机专业全日制本科及以上学历；\n2.5 年以上 Unity 开发经验，1 年以上二次元游戏主程经验；必须有二次元游戏开发经验。\n3.对 Unity 引擎及其相关领域有深入的研究和理解；\n4.具备良好的沟通和协调能力；\n5.热爱游戏，有丰富的各类游戏经验，喜欢钻研各类游戏的技术细节和游戏机制\nunity 开发工程师：\n岗位职责:\n1.根据产品提供的需求，快速高质量的开发游戏核心玩法；\n2.组织管理客户端资源，保证代码质量。\n3.解决游戏线下和线上的问题。\n4.对游戏客户端性能提出优化建议，并实践。\n5.开发提高开发和团队协作的生产工具。\n6.开发中遇到的疑难问题的攻坚解决。\n任职需求:\n1.5 年以上 Unity 引擎使用经验。至少完整参与过 2 款移动游戏的开发。熟练掌握 Unity 引擎在移动端的开发。\n2.熟悉 Lua 、C#的语法和特性。\n3.良好的算法和数据结构基础。\n4.良好的逻辑思维和编程习惯，具备独立解决技术问题的能力\n5.能熟练阅读英文技术文档，有很好的学习能力\n6.良好的团队协作能力。\n7.熟悉计算机图形学和渲染相关的优化。\n8.熟悉计算机网络协议。\n加分项： 有远程工作经验。\n薪资福利: 中高级：面议+项目奖金\n投递说明： 所有职位都是公司直招，非中介。 投递简历后，我们会在一周内主动联系（一周内无反馈，视为不通过，没法一一回复，请理解）。\n面试形式： 线上面试，正常流程会有二至三轮面试。\n简历投递邮箱： luo.cwgz@gmail.com\n境内备用投递邮箱：luo_cw1997@163.com\n也欢迎评论或私信获取进一步信息～",
-          "link": "https://www.v2ex.com/t/1103989",
-          "publishedOn": "2025-01-09T12:38:48.000Z",
-          "wordCount": 452,
-          "title": "[全职远程] 英国伦敦二游公司直招 unity 开发工程师",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103988",
-          "author": "tlxma",
-          "description": "tlxma:",
-          "link": "https://www.v2ex.com/t/1103988",
-          "publishedOn": "2025-01-09T12:37:02.000Z",
-          "wordCount": 339,
-          "title": "搭配 Mac mini m4，高度完美的显示器支架",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103986",
-          "author": "lovemimi733",
-          "description": "lovemimi733: \n电源灯闪烁，屏幕显示黄色警告符号，提示访问官网 support/appletv/restore 。打了客服反馈要送修，大陆没有只能去香港...属实没想到，以为这东西不容易坏的",
-          "link": "https://www.v2ex.com/t/1103986",
-          "publishedOn": "2025-01-09T12:32:39.000Z",
-          "wordCount": 431,
-          "title": "23 年 11 月购入的 AppleTV 7 代港版无法开机了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1103984",
-          "author": "Jinnrry",
-          "description": "Jinnrry: \n在公司使用 docker ，由于 docker-desktop 授权问题，换到 colima 。于是便开始了折磨\n1 、安装 colima 官方的安装方式，使用 brew 安装完 colima 和 docker client 非常流程，毫无卡点\n2 、安装完后测试 docker ps 、docker images 等命令，都没有问题。非常开心，居然这么顺利就换掉 docker-desktop 了\n3 、docker pull 发现拉不下来镜像。没事，这个我熟，熟练的修改~/.docker/daemon.json，改为源后，结果发现 docker pull 依然走官方源\n4 、搜了下 colima 原理，原来他底层就是一个虚拟机，那我懂了，得去他的虚拟机里面改配置文件。按照网上说的，通过colima ssh顺利进入虚拟机，然后准备改配置，结果发现这个虚拟机里面没有vim等命令，没法改配置。\n5 、看了下虚拟机版本，使用的是 ubuntu 。那就简单了，闭着眼睛敲了了个sudo apt update && apt install vim 。敲我之后发现，tmd 虚拟机内 ubuntu 的源也连不通。没事，这我也熟，闭着眼睛覆盖掉/etc/apt/source.list。覆盖完之后发现 apt 还是用不了，又看了下source.list的原文件，上面写着Ubuntu sources have moved to the /etc/apt/sources.list.d/ubuntu.sources ，这好像还是用的 ubuntu clound 版本，于是又看了下/etc/apt/sources.list.d/ubuntu.sources，好像是模板生成的，上面注释写着要改镜像模板，我去你大爷的，我哪知道你模板在哪啊\n6 、喝杯水冷静了一些，想了想，我是为了改 docker 配置啊，费这么大劲跟 apt 较什么劲啊。于是秀一波操作echo 'xxxxx' > ~/.docker/daemon.json 成功修改配置文件。感叹还好自己基本功扎实，没有 vim vi 这些编辑工具，照样有办法改配置文件。\n7 、改为配置文件后，当然得重启了，敲下一个colima restart，然后dokcer info一看，我去，没生效啊。再进虚拟机一看，你大爷的，配置文件给我还原了。\n8 、又去网上一通搜索，网上说要改~/.colima/default/colima.yaml配置，于是又照着网上说的，把 docker 源写到这里面，写完发现colima start根本起不来了，又费了九牛二虎之力，改了半天格式，好不容易把 colima 虚拟机启动起来了，但是 docker pull 还他大爷走的官方源\n9 、又在网上一通搜索，网上又有人说要通过colima start --edit编辑配置文件，于是又照着改，改了半天发现虚拟机又起不来了。colima start --edit和~/.colima/default/colima.yaml这两个文件反复核对反复改，改了无数遍，虚拟机终于起来了。docker info里面的registry_mirrors也变了。激动得不行，感叹终于没问题了。结果他大爷的一拉镜像，还是走的官方源。\n10 、反复检查我配置的源，检查了无数遍，我又拿服务器去测试了一下，源肯定是可以用的，服务器上使用这个源都是正常的。而且这个源肯定也是没有被墙的，本地 ping 、tcpping 、telnet 各种花式测试，都是通的。\n11 、濒临崩溃，不知所以，怀疑人生，上 v 站发个帖，哪个大哥走过路过帮忙看看\n12 、md ，狗屎玩意，抬头一看时间，8 点了。瞎几把搞了一天，需求一行代码都还没写，收拾收拾下班，明天再来",
-          "link": "https://www.v2ex.com/t/1103984",
-          "publishedOn": "2025-01-09T12:25:01.000Z",
-          "wordCount": 540,
-          "title": "顶不住了，快疯了， Mac 上使用 colima 安装 docker 到底怎么才能改源啊",
           "imageUrl": null
         }
       ]
