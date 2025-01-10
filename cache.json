@@ -137,23 +137,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -315,7 +298,7 @@
           "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
           "link": "https://www.v2ex.com/t/1104274",
           "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 405,
+          "wordCount": 411,
           "title": "大部分公司春节都是提前一周放假的吗",
           "imageUrl": null
         },
@@ -335,7 +318,7 @@
           "description": "MoRanjiang: \n穿衣计算器\n最近要去东北旅游，这辈子没去过这么冷的地方，难以根据经验计算自己要穿多少衣服，AI 和网上的一些攻略也是各有各的说法，服装品牌的温标更是随心所欲，所以用 AI 糊了这个工具。\n我研究并参考了 国家标准|GB/T 18398-2001 和 Standard 55 – Thermal Environmental Conditions for Human Occupancy。\n简单使用方法：\n先算出自己的发热率\n比如你在 15 摄氏度觉得穿一件 T 刚刚好舒适不会出汗（国标的 0.78 应该是穿了一件 T 打底左右的样子，赤膊大概是 0.6 左右），你的皮肤温度、基础保暖能力都比较大众，可以算出单位体表面积非蒸发放热率 (H) = 151.36 W/m²。\n代入计算\n那么如果活动类型、空气湿度等等因素都不变的情况下，在 - 40 ℃ 大概需要服装热阻 (I) = 2.34 clo 的衣服。\n找衣服\n查资料得知，550 蓬羽绒热阻 0.7 clo/oz-m^2 ，可以计算出（这部分还没做好，得手动）大概需要 3.34 盎司每平米的羽绒服，就是比较普通的款。",
           "link": "https://www.v2ex.com/t/1104272",
           "publishedOn": "2025-01-10T13:54:47.000Z",
-          "wordCount": 405,
+          "wordCount": 421,
           "title": "一个比较科学的穿衣计算器",
           "imageUrl": null
         },
@@ -345,7 +328,7 @@
           "description": "asaworld: 我用 win 写了个 Obsidian 插件，发布之后，有 mac 的用户说有 bug ，问一下大家怎么方便调代码去适配 mac 。\n我没有也没用过 mac ，下虚拟机要好几百 G ，感觉太大太麻烦了，大家伙还有什么方法吗",
           "link": "https://www.v2ex.com/t/1104271",
           "publishedOn": "2025-01-10T13:52:59.000Z",
-          "wordCount": 453,
+          "wordCount": 473,
           "title": "开发的软件如何优雅的同时适配 win 和 macos",
           "imageUrl": null
         },
@@ -385,7 +368,7 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 549,
+          "wordCount": 557,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         },
@@ -415,7 +398,7 @@
           "description": "vincentWdp: \n两个设备都是奥睿科(orico)的.\nhub 的速度是 10 gbps(两个 typec 口, 两个 usb3 口). 硬盘盒的速度是 20gbps, typec 口, 硬盘是 2TB 的 m.2 接口的 ssd(笔记本上拆下来的).\n大概是四个场景：\n两头都是 typec 的线连到 hub：无法识别硬盘; 或者识别出来后, 点击盘符会连带整个 win11 的资源管理器都卡。\ntypec-usb3 的线连到 hub：可以访问硬盘了, 但传输速度非常慢, 远远不到 10gbps 的速度, 而且复制(复制文件到电脑硬盘)时间一长, 会出现访问中断的现象(忘记弹窗的具体内容了, 大意是被读取的那个盘不存在了)\n两端都是 typec 线, 直连硬盘盒与电脑：情况与场景 1 类似, 基本上识别不到硬盘, 只能看到硬盘盒设备\n后来啊哈💡了一下, 用 typec-usb3 直连电脑和硬盘盒(别问, 问就是忘了), 这才能顺畅访问这个硬盘.\n问了 chatgpt, 场景 3 可能是因为电脑那个 typec 端口只支持充电或小带宽传输.\n问题 1 和 2 可能是因为 hub 的电源不充足, 没办法支持高速传输. 总之罗列了很多可能性, 我没办法确定根本原因.\n这里面又涉及到了 usb 的多个版本和带宽:\nUSB3.0 (USB 3.1 Gen 1): 最高 5Gbps.\nUSB3.1 Gen 2 (USB 3.2 Gen 2): 最高 10Gbps.\nUSB3.2 Gen 2x2: 最高 20Gbps, 实现方案还是 10+10.\n有没有懂这方面的老哥?",
           "link": "https://www.v2ex.com/t/1104258",
           "publishedOn": "2025-01-10T12:32:29.000Z",
-          "wordCount": 506,
+          "wordCount": 508,
           "title": "连接奥睿科的硬盘盒到他家的 usb hub 会导致硬盘访问异常, 包括无法识别硬盘、访问中断、识别很慢、读写很慢.",
           "imageUrl": null
         },
@@ -425,7 +408,7 @@
           "description": "yxylaurier: \n楼主在 2022 年初买的加版 iPhone 13 Pro ，用了 2 年多，去年 1 月换了一次第三方电池，但也还是不耐用。想在闲鱼上买个加版的 iPhone 16 Pro Max ，看到很多家都卖加版，好奇为什么这些店家为什么都不能提供发票，而且只能他们代送修？如果我自己去送修呢？这中间是不是有什么猫腻？",
           "link": "https://www.v2ex.com/t/1104257",
           "publishedOn": "2025-01-10T12:21:18.000Z",
-          "wordCount": 388,
+          "wordCount": 402,
           "title": "为什么闲鱼外版 iPhone 没有发票？",
           "imageUrl": null
         },
@@ -475,7 +458,7 @@
           "description": "microka: \n华为 Mate 30E Pro ，之前通过添加 Exchange 账户（ Outlook 邮箱）与 iPhone 双向同步联系人，一直用得很好，然而2024 年 9 月 16 日起，微软不再支持“基本身份验证”（即传统的帐户密码）方式登录 Outlook 帐户，而华为手机系统至今仍未支持以“新式身份验证”登录 Outlook 帐户。\n要想继续同步 Outlook 帐户的联系人，只能下载中国区 Outlook 安卓应用，在 app 里将 Outlook 帐户联系人同步（导入）到安卓手机。但这样做也存在问题：\n①Outlook 帐户里以姓、名分开录入的联系人，通过 Outlook.app 导入安卓手机后，“张一二（姓：张，名：一二）”变成了“一二 张”(在手机联系人列表里还是显示为“张一二”，但点进该联系人编辑界面就能看到显示为“一二 张”），导致无法用 T9 快速搜索联系人（搜索“张一二”还是能找到该联系人），应该是我这台华为手机没有单独的姓、名栏目导致的。\n②无法像之前 Exchange 协议那样双向同步。导入到安卓手机的联系人虽然显示是在 Outlook 帐户下，但通过安卓手机对联系人进行的新增或修改都无法同步到 Outlook 帐户云端，也就无法与其他设备进行同步；以及，当 Outlook 帐户联系人出现变动时，也不会自动同步到安卓手机上，只能手动操作 Outlook 应用进行同步。\n请问，在无法通过安卓手机自身系统登录 Outlook Exchange 帐户的情况下，还有什么办法能与 iPhone 双向同步联系人？（在 A 手机编辑的联系人信息能及时、自动同步到 B 手机）",
           "link": "https://www.v2ex.com/t/1104249",
           "publishedOn": "2025-01-10T11:21:06.000Z",
-          "wordCount": 554,
+          "wordCount": 556,
           "title": "（2025 年 1 月）安卓手机与 iPhone 如何双向同步联系人？",
           "imageUrl": null
         },
@@ -575,7 +558,7 @@
           "description": "marcusma06: 时间线：\n2024/3/9 使用美国信用卡，修改中国大陆 AppleID 地区为美国\n2024/4/XX icloud.com 可以访问，此时邮箱依旧卡在.cn\n2024/12/8 电话联系中国客服，通话中转接台湾客服，在交流中，我展示了我的抓包数据，证实邮件客户端持续与.cn 通讯。\n2025/12/15 客服邮件跟进，告知我需要继续等待。\n直到目前，邮件还是链接.cn\n这个问题非常烦心，因为在墙外无法访问.cn 。难道我查邮件还要挂回国节点？",
           "link": "https://www.v2ex.com/t/1104237",
           "publishedOn": "2025-01-10T10:18:27.000Z",
-          "wordCount": 456,
+          "wordCount": 463,
           "title": "Apple ID 迁移 10 个月依旧卡在云上贵州",
           "imageUrl": null
         },
@@ -615,7 +598,7 @@
           "description": "cyrbuzz: \n拿一个按钮来说：\nHTML/css\n<div class=\"btn\"><div>icon</div>按钮</div>\n\n.btn {\n   color: red;\n   border: 1px solid #75a4ff;\n   padding: 10px;\n   border-radius: 15px;\n   height: 32px;\n   width: 76px\n   margin: 0 0 0 8px;\n   font-size: 10px;\n   cursor: pointer;\n   display: flex;\n   align-items: center;\n   justify-content: center;\n   &:hover {\n       color: #fff;\n       background: #75a4ff;\n   }\n}\n\nC# wpf:\n<ResourceDictionary\n    xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\"\n    xmlns:x=\"http://schemas.microsoft.com/winfx/2006/xaml\"\n    xmlns:mah=\"http://metro.mahapps.com/winfx/xaml/controls\"\n    xmlns:local=\"clr-namespace:WpfApp1.Components\">\n    <Style TargetType=\"local:Button\">\n        <Setter Property=\"Background\" Value=\"White\"/>\n        <Setter Property=\"BorderBrush\" Va…",
           "link": "https://www.v2ex.com/t/1104231",
           "publishedOn": "2025-01-10T10:05:05.000Z",
-          "wordCount": 789,
+          "wordCount": 798,
           "title": "求教，最近写了一段时间 C# WPF, 仅从写样式角度，感觉比起 HTML/CSS 非常麻烦，纯 windows 桌面应用 C#下有其他更好用的框架吗？",
           "imageUrl": null
         },
@@ -635,7 +618,7 @@
           "description": "wheelg: \n前情提要\n苦于现在各大音乐流媒体平台群雄割据，一个播放列表的音乐被拆的七零八落，听个歌都得开好几家会员，索性直接不用任何流媒体平台，直接听本地的歌曲。\niOS 上最好的听歌平台莫过于 Apple Music 了，但是取消订阅后只剩下了从电脑端 iTunes 导入歌曲的能力，每次想听点新歌都不方便，于是想到了做一个 PWA ，用来在手机上听下载的歌曲。\n用最新的 Web 技术去不知名小网站下载 mp3 听歌的操作，有种在 21 世纪茹毛饮血的感觉了。\n听起来这件事情很简单，但实际上，一旦扯到移动端适配，坑可就太多了，我准备用一系列文章来记录下 Vooh ，史上最接近原生 App 的 PWA 应用的诞生。这其中与浏览器厂商斗智斗勇的心酸血泪史，实在是几天几夜都说不完。\n如果想了解 Vooh 的各种技术详情，可以持续关注我的博客专栏https://glink25.github.io/tag/Vooh/，后续也会将 Vooh 相关的代码开源\n如你所见，Vooh 点击直达，感受 21 世纪新时代 Web 的魅力吧。\n支持屏幕尺寸响应式，iPad 和 Desktop 也做了适配\n支持移动端模拟 iOS 左滑返回\n大量的模拟 iOS 原生的组件\n音乐封面渐变取色\n为了最佳的体验，请将 Vooh 作为 PWA 安装后使用，iOS 用户需要使用 Safari 的分享按钮添加到主屏幕，Android 用户需要下载 Chrome 浏览器才能安装到桌面。\n对于安卓机型自带侧滑返回的机型，建议开启设置中的“路由兼容模式”，这是一个实验性功能，可以有效提升返回键的使用体验。\n当然如果是非 Chrome/iOS 最新版的话当我没说。\n版权声明：\nVooh 本身是做给个人使用的，并不提供音乐下载能力，里面的在线搜索功能实际上只有装饰的作用，为了游客可以更好地感受到 Vooh 的使用体验，无论怎么搜索结果都是固定的那几首测试用无版权歌曲。后续会增加文件夹读取功能和本地歌曲导入功能。",
           "link": "https://www.v2ex.com/t/1104229",
           "publishedOn": "2025-01-10T10:02:42.000Z",
-          "wordCount": 413,
+          "wordCount": 427,
           "title": "Vooh - 可能是最接近原生 iOS App 的 PWA",
           "imageUrl": null
         },
