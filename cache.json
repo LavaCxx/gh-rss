@@ -179,6 +179,16 @@
       "siteUrl": "http://www.ruanyifeng.com/blog/",
       "articles": [
         {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n42层的深圳金融科技研究院大楼，去年6月封顶了，采用了不规则外形的设计。（via）\n一切都要支付两次\n有一句古语\"书非借不能读也\"，大家可能都听过。\n它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。\n\n这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。\n我最近看到一篇老外的文章，他给这种现象起了一个全新的名字，让人觉得很贴切。老外的概念化能力真是强。\n他提出，人们买书却不读，是因为没有意识到每样东西都需要两次支付。\n\n第一次是货币支付，你付出货币，得到自己想要的东西，比如一本书，一个 App，一辆自行车，一颗卷心菜等等。\n但是，你还必须支付第二次，才能真正消费这个东西。这次你付出的是你的时间和努力，来获得它的收益。\n第二次支付可能比第一次支付贵得多。假设一本书的第一次支付是20元，第二次支付可能就是10小时的阅读时间。只有支付第二次，你才算真正消费了这本书。如果没有第二次支付，第一次支付就意义不大了，跟把钱扔进垃圾箱差不多。\n生活中，到处都是两次支付的例子。购买 App 后，你必须学习如何使用，并且经常使用，才能得到它的价值。购买自行车后，你必须忍受痛苦的初学者阶段，然后才能上街骑行。购买蔬菜后，必须切碎、蒸熟并咀嚼，然后才能为你提供营养。\n我们经常犯的一个错误，就是只完成了第一次支付，没有第二次支付，比如未使用的会员资格，未读的书籍，未玩的游戏，未编织的毛线。由于没有第二次支付，所以你并没有真正使用，第一次支付的钱实际上扔进了垃圾桶。\n这种行为方式的深层次原因，就是现代社会太强调消费，过于看重第一次支付的经济价…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
+          "publishedOn": "2025-01-10T00:14:37.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 333 期）：一切都要支付两次",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html",
           "author": null,
           "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n世界最长的高速公路隧道\"天山胜利隧道\"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）\n西蒙·威利森的年终总结，梁文锋的访谈\n英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。\n\n本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。\n\n他提到，AI 的发展速度快得难以想象。\n一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。\n\n一年过去了，大家猜猜，GPT-4 现在排名多少？\n\n答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。\n短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。\n西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。\n\nDeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。\n它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。\n\n而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。\n西蒙·威利斯说：\"DeepSeek V3 的训练…",
@@ -315,7 +325,7 @@
           "description": "guoguobaba: \n这两天在 openwrt 上折腾了 singbox ，总算能让局域网能够正常访问外部了。但是发现我的 bt 端口外部没法访问了，只有 ipv6 的外网 ip ，用 itdog.cn 检测，<my-ipv6>:51413 端口不能访问了，这样我的 pt 上传会受影响\nsingbox 使用 tun 的方式，op 上设置了单独的 zone ，lan 可以转发到 singbox 上。\n之前的防火墙规则如下：\n-A zone_wan_forward -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_forward -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6\" -j ACCEPT\n-A zone_wan_input -p tcp -m tcp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n-A zone_wan_input -p udp -m udp --dport 51413 -m comment --comment \"!fw3: allow-ipv6-in\" -j ACCEPT\n\n是否需要在 tun0 上设置同样的规则。\n另外，如何将 dnsmasq 的 dns 请求转发到 singbox ，singbox 是不是需要设置一个 inbounds 的 dns 端口响应请求？",
           "link": "https://www.v2ex.com/t/1104032",
           "publishedOn": "2025-01-09T18:30:17.000Z",
-          "wordCount": 465,
+          "wordCount": 551,
           "title": "singbox 导致 ipv6 无法访问",
           "imageUrl": null
         },
@@ -325,7 +335,7 @@
           "description": "dengj3355: 我家宽带是电信千兆的，但是只有空闲时段能跑到千兆，高峰期能有个 400Mbps 就不错了，特别是到了晚上高峰时段丢包特别严重，普遍丢包率在 10%以上，我估计是 isp 超售了，现在是打电话给客服客服派工作人员上门查看，用他们的测速设备测出来也是不稳定，但是维修师傅也没办法就走了，说是不能用了又打电话过去再过来看看，反正现在就变成了我打电话给客服-客服派单给维修师傅-师傅没办法走了说上报-上报后又派单给师傅-师傅让我跟他们说搞定了要不然会扣工资-然后我又打电话给客服，如此往复循环，人都要麻了，现在是投诉到工信部了，各位大佬还有什么更好的解决办法吗",
           "link": "https://www.v2ex.com/t/1104031",
           "publishedOn": "2025-01-09T18:07:12.000Z",
-          "wordCount": 365,
+          "wordCount": 398,
           "title": "电信千兆速度慢+丢包如何解决？",
           "imageUrl": null
         },
@@ -335,7 +345,7 @@
           "description": "weid: 📝简介∶Grok 是由 xAl 开发的 Al-powered 助手，旨在最大限度地实现真实、有用和好奇。您可以获得任何问题的答案，生成引人注目的图像，上传图片，从而更深入地了解您的世界。 有了 Grok ，宇宙就在您的手中！\n🔗美区链接∶\nhttps://apps.apple.com/us/app/grok/id6670324846\n--------------------------------------\n⚠️价格美区为准，⬇️下截确认价格。\n--------------------------------------\n🔎发现更多限免，❤️关注以下频道∶\nhttps://t.me/app_store",
           "link": "https://www.v2ex.com/t/1104029",
           "publishedOn": "2025-01-09T17:00:41.000Z",
-          "wordCount": 353,
+          "wordCount": 381,
           "title": "💥 [iOS] 👍马斯克 xAI 的 Grok 独立人工智能应用登陆美国应用商店",
           "imageUrl": null
         },
@@ -345,7 +355,7 @@
           "description": "miaoxiaomayi: 用来做作 nas ，跑 docker",
           "link": "https://www.v2ex.com/t/1104028",
           "publishedOn": "2025-01-09T16:54:06.000Z",
-          "wordCount": 381,
+          "wordCount": 425,
           "title": "n100 刷黑群晖还是刷 istoreos？",
           "imageUrl": null
         },
@@ -355,7 +365,7 @@
           "description": "ALongRanger: 我们部门绩效管理如下：\n1. 采用工时间统计，通过拉取 jira 工时数据/打卡工时数据得到一个所谓的有效工时率。低于 100%是 0 分，100 基本值 60 分，105 目标值 80 分，115 以上超越值 120 分，占比 40%；\n2.基于缺陷率. 即所谓缺陷个数/jira 工作时间，如果高于 1.6%就是 0 分，占比 25%。一个上线跑了几年的历史代码，突然出了点问题，bug 又会被挂到 y 头上\n3.基于缺陷发现率，即提测阶段产生的缺陷数量/季度内总缺陷数量（即提测+生产缺陷）。 如果低于 90% 即 0 分 占比 25%\n4.团队指标，占比 10%，即所有团队成员基本指标参数的均值\n\n开发与测试共用一套指标\n指标 1:  往往可以在公司划水，做些无关事项，然后填报到其他任务的工时，这个东西目前没有人审核\n指标 2: 部门对缺陷的定义是不满足需求的都是缺陷，往往有些生产上的问题部分开发发现后开发会提成优化来规避缺陷，有时候也看测试人员。 我在想一个季度 3 个月， 毕业几年没有呆过几家公司，7 个 bug 算多吗，没有对比过？\n指标 3: 遗漏的生产缺陷只要有一个基本上这个指标就达不到了\n我并不喜欢这种考核，所以很多时候工时记录压根不想记录，就算记录也只是差不多个意思，往往实际干了活（可能超 8 小时）也就记录个 8h 。 其实随手的事情但是我有比较大的抵触情绪。至于年终绩效 A ，B ，C ，D ，差点拿 D 。 \n这个规则下拿高绩效只要卷开发工时就行了，此外是我实在是不愿意填这个鬼东西，突然感觉自己就是最不服管的那个人。\n\n大家所在部门的考核又是怎么样的呢？",
           "link": "https://www.v2ex.com/t/1104027",
           "publishedOn": "2025-01-09T16:43:51.000Z",
-          "wordCount": 468,
+          "wordCount": 487,
           "title": "又到了一年年终绩效，大家部门的绩效评定都是咋评的啊？",
           "imageUrl": null
         },
@@ -365,7 +375,7 @@
           "description": "shapper: \n现在有什么火绒替代品，不用强迫用户升级的\n鉴于该软件开始走上 360 的道路，准备替换一下",
           "link": "https://www.v2ex.com/t/1104026",
           "publishedOn": "2025-01-09T16:39:40.000Z",
-          "wordCount": 641,
+          "wordCount": 798,
           "title": "现在有什么火绒替代品，不用强迫用户升级的",
           "imageUrl": null
         },
@@ -375,7 +385,7 @@
           "description": "qazwsxkevin: \n装在 LSI9207-8i 阵列上的自己玩玩的 Esxi ，误删除了一个虚拟机，打算能恢复回 VMDK 就可以了，\n想先找找有无这样的 PE 环境，如果实在没有，就只能引导另外个硬盘，装好 Windwos+LSI 驱动，识别出磁盘，再去恢复了\n如果有其它的恢复方法也好？",
           "link": "https://www.v2ex.com/t/1104025",
           "publishedOn": "2025-01-09T16:38:50.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "请问有可以直接驱动起 LSI 阵列卡的 WinPE 吗？（恢复误删的 ESXI 6 虚拟机）",
           "imageUrl": null
         },
@@ -385,7 +395,7 @@
           "description": "ttgo: 之前一直用 gemini 、chatgpt 的网页版，以及 chatgpt 的 app ，但感觉仍然有不方便的地方。\n有更好用的用 API 的第三方客户端么？",
           "link": "https://www.v2ex.com/t/1104024",
           "publishedOn": "2025-01-09T16:34:17.000Z",
-          "wordCount": 419,
+          "wordCount": 429,
           "title": "有值得推荐的 PC/MAC 上的第三方 AI 客户端么？",
           "imageUrl": null
         },
@@ -395,7 +405,7 @@
           "description": "wangyuescr: 如题。\n8 代 U HP 笔记本电脑 HP EliteBook 840 G6 ，  i5-8265U ，  Win10 22H2 下总是容易半小时蓝屏重启，已经换过内存、固态，还有啥排查思路吗？\n镜像是从 MSDN I tell U 下载的，这几周都是这个镜像安装的其他不同型号笔记本电脑，都没问题。\n最开始看事件管理器里面的报错警告有 memory 和 disk 相关，因为笔记本电脑五年多了也没多想，就趁机换了固态、内存，重做系统。确定固态、内存都是好的，也开机进到 F2 ，走了下 HP 自带的检测，CPU 、内存、存储、主板、电源测试都是正常的。也分别试过联网更新补丁、驱动和不更新，但是还是会蓝屏重启。\n试了试 WhoCrashed 这种软件分析蓝屏日志，出的报告显示和 Driver 有关。\nBugcheck code:0xA(0xFFFFCD8E6B95F8A8, 0x2, 0x0, 0xFFFFF80158E4327A)\nBugcheck name:IRQL_NOT_LESS_OR_EQUAL\nThis is a typical software problem. Most likely this is caused by a bug in a driver.\n在 U 盘 PE 系统下，用自带的工具检测内存、硬盘，保持亮机工作 2 小时以上，一切正常。属实把我给整不会了，想不到啥排查思路了，求助 V 友指点下。",
           "link": "https://www.v2ex.com/t/1104023",
           "publishedOn": "2025-01-09T16:02:29.000Z",
-          "wordCount": 434,
+          "wordCount": 439,
           "title": "8 代 U HP 笔记本电脑 Win10 22H2 下总是容易半小时蓝屏重启，已经换过内存、固态，还有啥排查思路吗？",
           "imageUrl": null
         },
@@ -425,7 +435,7 @@
           "description": "Rooger: \n从毕业起，我一直从事的是游戏后端。\n13 年毕业，用了三年 SVN ，印象中没有人不写提交记录。\n从 16 年开始，一直使用的是 Git ，那就更不会看见空提交记录的情况。\n直到今年，换了个团队，开始重回 SVN ，有个同事（前端，99 年小伙子）提交信息啥都不写，被老板批了几次，情况几乎没有再出现。\n最近又换了个团队，依然是 SVN ，更有些惊讶到我了。技术 Leader （ 70 后，依然在写业务代码），比我早进公司一天的一个同事（ 81 年）。我看到这个同事提交记录为空，他说：我改了很多，我的修改记录都在 Edit Plus 中记录着呢。我看了，的确是挺多的。直到我发现 SVN 提交记录中不至一个人（领导跟这位同事）的时候，我也就觉得没啥了（因为领导提交记录也大多是空着的）。\n2025 年了，大家还在用 SVN 吗，对于空提交记录，大家怎么看？",
           "link": "https://www.v2ex.com/t/1104020",
           "publishedOn": "2025-01-09T15:30:07.000Z",
-          "wordCount": 460,
+          "wordCount": 511,
           "title": "代码提交记录为空，大家怎么看？",
           "imageUrl": null
         },
@@ -435,7 +445,7 @@
           "description": "ggstudy1: \nalipayhk 在大陆消费,会占用每年 5w 美元额度吗?",
           "link": "https://www.v2ex.com/t/1104019",
           "publishedOn": "2025-01-09T15:25:17.000Z",
-          "wordCount": 393,
+          "wordCount": 416,
           "title": "请教,alipayhk 在大陆通过付款码线下消费,占用外汇额度吗?",
           "imageUrl": null
         },
@@ -445,7 +455,7 @@
           "description": "winfred4633: 主要功能：\n1. 一键收集当前 Tab ，暂存为一个场景\n2. 一键打开某个场景下的所有 Tab\n数据都是本地存储，不用担心隐私问题\n\n插件地址\nhttps://chromewebstore.google.com/detail/tabs-stasher/nihkgieooimlfeckpkageplljminocof?authuser=0&hl=zh-CN\n官网地址\nhttps://youeden.com/",
           "link": "https://www.v2ex.com/t/1104016",
           "publishedOn": "2025-01-09T15:14:43.000Z",
-          "wordCount": 356,
+          "wordCount": 363,
           "title": "收到用户邮件提需求，真的太重要了，做了些更新，欢迎大家体验和反馈",
           "imageUrl": null
         },
@@ -465,7 +475,7 @@
           "description": "zhangyongji: \n提供一个下载各种版本的 JDK 网站，不需在 oracle 官网注册下载了，参考站点 https://www.injdk.cn/ ，直接下载目录 https://d.injdk.cn/download",
           "link": "https://www.v2ex.com/t/1104014",
           "publishedOn": "2025-01-09T15:09:51.000Z",
-          "wordCount": 432,
+          "wordCount": 460,
           "title": "各种 JDK 版本下载",
           "imageUrl": null
         },
@@ -475,7 +485,7 @@
           "description": "haoyh1: 去年 9 月就一直想买个 mba\n当时 m2 8+8 核，8+256 ，jd 国补 5359 ，由于不急用就没买\n刚刚看了眼，发现双十一时苹果更新了 sku ，8g 免费升级到 16g\n如今 tb 的百亿补贴，m2 8+8 核，16+256 只要 5198 了\n等了几个月，便宜 100 多又升级到了 16g ，这一波等等党做的可以说是赢麻了，真有点控制不住想买了\n但是当下还是没有很强的需求用它，既然通缩周期还早，降价是大趋势，买盘不担心踏空，继续等吧，等一个 5000+的 m3 （可以外接双显示器）",
           "link": "https://www.v2ex.com/t/1104013",
           "publishedOn": "2025-01-09T14:59:36.000Z",
-          "wordCount": 448,
+          "wordCount": 582,
           "title": "买个 mba，真切感受到了通缩，物价下跌，消费降级的威力",
           "imageUrl": null
         },
@@ -485,7 +495,7 @@
           "description": "zyxfsky: \n现状:我有一个美区账号，之前有个 ipad mini 登录账号，后面二手卖了，但是账号添加添加几个信任设备，信任手机号已经销号，未添加当前手机号\n现在想重新换个设备登录这个账号，输入验证码的时候，几个信任设备都收不到验证码，重试多次无效，因为手机号已经销号了，也没法短信验证码\n但是浏览器登录账号时，信任设备可以收到验证码，网页可以登录成功\n是被苹果做了什么限制吗，用 iPad 和 Mac 登录账号，几个信任设备都收不到验证码，只能网页登录账号\n有谁遇到这种情况，如何解决？感谢指导🙇🏾",
           "link": "https://www.v2ex.com/t/1104012",
           "publishedOn": "2025-01-09T14:54:23.000Z",
-          "wordCount": 435,
+          "wordCount": 510,
           "title": "Apple 账号登录收不到验证码，有信任设备，求助如何解决",
           "imageUrl": null
         },
@@ -495,7 +505,7 @@
           "description": "DesmondQ: 经常刷到人家直播间画面很高清，看得出是用的相机，但我用大法的 a7m3 来直播，从抖音直播伴侣推流出来后画质还是糊，特别是抠绿幕后更是糊的的一塌糊涂，一点也不高清。\n采集卡是 4k ，格式是 yuy2 ，在 obs 里当虚拟摄像头添加到直播伴侣，推出来的画质也是糊。\n直接在 obs 用推流码推画质会好一些吗\n有做直播的可以提下建议吗",
           "link": "https://www.v2ex.com/t/1104010",
           "publishedOn": "2025-01-09T14:46:28.000Z",
-          "wordCount": 415,
+          "wordCount": 424,
           "title": "有做抖音直播的吗，想请教下怎么才能把直播画质提升的好一些",
           "imageUrl": null
         },
@@ -510,22 +520,12 @@
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1104008",
-          "author": "wqq096737ink",
-          "description": "wqq096737ink: \n不是才剿清电炸吗?\nhttps://youtu.be/fxwgb9ACiLw",
-          "link": "https://www.v2ex.com/t/1104008",
-          "publishedOn": "2025-01-09T14:18:21.000Z",
-          "wordCount": 115,
-          "title": "演员王星在泰国的事件-倘若是普通人大概就 gg 了吧",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1104007",
           "author": "jiaoguan1688",
           "description": "jiaoguan1688: \n线上现在运行的 mysql 里面的字段名需要增加一些,本地已经增加好了\n如何加到线上版本比较优雅.",
           "link": "https://www.v2ex.com/t/1104007",
           "publishedOn": "2025-01-09T14:11:23.000Z",
-          "wordCount": 458,
+          "wordCount": 460,
           "title": "有什么优雅的 mysql 增加字段名的方法呢?",
           "imageUrl": null
         },
@@ -535,7 +535,7 @@
           "description": "HHJY: \n国行的 iphone13mini ，现在想弄一个流量卡一起用，但是不知道怎么可以同时用双卡。",
           "link": "https://www.v2ex.com/t/1104006",
           "publishedOn": "2025-01-09T14:04:40.000Z",
-          "wordCount": 376,
+          "wordCount": 383,
           "title": "iphone13mini 怎么弄双卡",
           "imageUrl": null
         },
@@ -545,7 +545,7 @@
           "description": "CodeY99: 朋友加入一家外企，外企上班，发了一台 windows 电脑，需要翻墙登录企业账号才能用，但是没什么权限装软件，修改注册表等。除了路由器翻墙还有其他路子吗？\n目前测试过 android 手机开热点，sing-box clash 全局代理都不行。\n主要是考虑临时出门用，最好是手机上装个什么软件，开个热点能搞定。\n感谢",
           "link": "https://www.v2ex.com/t/1104005",
           "publishedOn": "2025-01-09T14:04:33.000Z",
-          "wordCount": 467,
+          "wordCount": 488,
           "title": "[求助] 除了路由器翻墙 windows 登录系统前如何翻墙？",
           "imageUrl": null
         },
@@ -555,7 +555,7 @@
           "description": "fvae:",
           "link": "https://www.v2ex.com/t/1104004",
           "publishedOn": "2025-01-09T13:51:38.000Z",
-          "wordCount": 352,
+          "wordCount": 357,
           "title": "poe app 怎么订阅会比较便宜？",
           "imageUrl": null
         },
@@ -565,7 +565,7 @@
           "description": "revival83: 纯净好用安全靠谱的，付点费也行… 好软件值得付费",
           "link": "https://www.v2ex.com/t/1104003",
           "publishedOn": "2025-01-09T13:46:34.000Z",
-          "wordCount": 442,
+          "wordCount": 454,
           "title": "大佬们求个 win10 禁用更新和系统优化的工具",
           "imageUrl": null
         },
@@ -575,7 +575,7 @@
           "description": "liaowb3: \n报错如下：\nInternal error. Please refer to https://jb.gg/ide/critical-startup-errors\njava.nio.file.AccessDeniedException: /Users/liaobin/Library/Application Support/JetBrains/GoLand2023.3\nat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90)\nat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\nat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\nat java.base/sun.nio.fs.UnixFileSystemProvider.createDirectory(UnixFileSystemProvider.java:397)\nat java.base/java.nio.file.Files.createDirectory(Files.java:700)\nat com.intellij.openapi.util.io.NioFiles.tryCreateDirectory(NioFiles.java:94)\nat com.intellij.openapi.util.io.NioFiles.createDirectories(NioFiles.java:87)\nat com.intellij.platform.ide.bootstrap.DirectoryLock.lockOrActivate(DirectoryLock.java:145)\nat com.intellij.platform.ide.bootstrap.StartupUtil$lockSystemDirs$result$1.invokeSuspend(main.kt:626)\nat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)\nat kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)\nat kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)\nat kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)\nat kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)\nYour JRE: 17.0.10+1-b1087.17 aarch64 (JetBrains s.r.o.)\n/Applications/GoLand.app/Contents/jbr/Contents/Home",
           "link": "https://www.v2ex.com/t/1104002",
           "publishedOn": "2025-01-09T13:46:16.000Z",
-          "wordCount": 392,
+          "wordCount": 406,
           "title": "为什么我的 mac 打开 goland 会爆这个错误，如何解决",
           "imageUrl": null
         },
@@ -595,7 +595,7 @@
           "description": "zimuyun: 可以拦截删除微信好友，删除聊天记录",
           "link": "https://www.v2ex.com/t/1104000",
           "publishedOn": "2025-01-09T13:32:35.000Z",
-          "wordCount": 389,
+          "wordCount": 396,
           "title": "类似小米政企版本的手机是怎么实现拦截删除微信消息的？",
           "imageUrl": null
         },
@@ -615,7 +615,7 @@
           "description": "boneyao: 以后的面试会不会是这样，给一个网站，然后你用 AI （编辑器） 去实现\n如给一个网站：\nhttps://wrshapes.xyz\n你和 AI 对话实现这个网站",
           "link": "https://www.v2ex.com/t/1103997",
           "publishedOn": "2025-01-09T13:09:48.000Z",
-          "wordCount": 378,
+          "wordCount": 392,
           "title": "AI 成熟之后的程序员面试奇想",
           "imageUrl": null
         },
@@ -635,7 +635,7 @@
           "description": "gzlmx: \n续上次竞技场，这次放宽了一点点\n网关还是 100.64\n有 ipv6 ，但是上行速率只有 50\nv4 nat4 测速达标\n归属地是本地（ 020 ）",
           "link": "https://www.v2ex.com/t/1103995",
           "publishedOn": "2025-01-09T12:59:01.000Z",
-          "wordCount": 430,
+          "wordCount": 431,
           "title": "今天广东电信又有动作了 nat1 变 nat4",
           "imageUrl": null
         },
@@ -645,7 +645,7 @@
           "description": "nathanw: \n第一次用氮化镓充电头，买了号称第六代氮化镓充电头，4 个口，2 个 type-C ，2 个 USB\n官方介绍，4 口同时用，C1=45w,B2=5w,C2 和 B1 为 15w\n实际测试:\nC1 口插入安卓机，其他同时 3 个口接入 3 台 iphone ，这时候会断流充不上了，应该是第一台安卓机充电功率太高了，总的超过了 65w ，拔掉其他一台其他的就正常了。\n反过来，如果 C1 插入 iPhone ，C2 接入安卓，其余 2 个不变，这时候就正常了。\n插拔的时候，只能说极小概率还是会断流(广告说双 c 口不断流)。\n发热感觉还行，不过现在是冬天。\n主要用途是出去旅行的时候，手机，充电宝，相机，耳机晚上放着慢慢充电。\n没有快充需求，主力 iPhone 也就 15w ，也就不买 100+w 的充电头。\n对于个人来说也就够用了，体积也比较小。",
           "link": "https://www.v2ex.com/t/1103994",
           "publishedOn": "2025-01-09T12:55:44.000Z",
-          "wordCount": 444,
+          "wordCount": 470,
           "title": "第一次购买 65w 氮化镓充电头分享",
           "imageUrl": null
         },
@@ -655,7 +655,7 @@
           "description": "kkkkh: \n现在公司对待前端，整体感觉是边缘状态，给我整体感觉有以下几点：\n1 、不了解前端，不知道前端重要性；\n2 、不知道前端的能做什么，不能做什么；\n3 、有时候还尊重前端；\n求大家给指点指点，我想肯定有，但是不知道怎么牛逼惊艳到他们",
           "link": "https://www.v2ex.com/t/1103992",
           "publishedOn": "2025-01-09T12:48:20.000Z",
-          "wordCount": 558,
+          "wordCount": 676,
           "title": "前端有没有可以拿得出手的，能惊艳到后端和产品的技术？",
           "imageUrl": null
         },
@@ -665,7 +665,7 @@
           "description": "doyoo:",
           "link": "https://www.v2ex.com/t/1103990",
           "publishedOn": "2025-01-09T12:39:37.000Z",
-          "wordCount": 383,
+          "wordCount": 388,
           "title": "兄弟们，飞牛 NAS 加密备份数据到网盘有什么方案吗？",
           "imageUrl": null
         },
@@ -705,7 +705,7 @@
           "description": "Jinnrry: \n在公司使用 docker ，由于 docker-desktop 授权问题，换到 colima 。于是便开始了折磨\n1 、安装 colima 官方的安装方式，使用 brew 安装完 colima 和 docker client 非常流程，毫无卡点\n2 、安装完后测试 docker ps 、docker images 等命令，都没有问题。非常开心，居然这么顺利就换掉 docker-desktop 了\n3 、docker pull 发现拉不下来镜像。没事，这个我熟，熟练的修改~/.docker/daemon.json，改为源后，结果发现 docker pull 依然走官方源\n4 、搜了下 colima 原理，原来他底层就是一个虚拟机，那我懂了，得去他的虚拟机里面改配置文件。按照网上说的，通过colima ssh顺利进入虚拟机，然后准备改配置，结果发现这个虚拟机里面没有vim等命令，没法改配置。\n5 、看了下虚拟机版本，使用的是 ubuntu 。那就简单了，闭着眼睛敲了了个sudo apt update && apt install vim 。敲我之后发现，tmd 虚拟机内 ubuntu 的源也连不通。没事，这我也熟，闭着眼睛覆盖掉/etc/apt/source.list。覆盖完之后发现 apt 还是用不了，又看了下source.list的原文件，上面写着Ubuntu sources have moved to the /etc/apt/sources.list.d/ubuntu.sources ，这好像还是用的 ubuntu clound 版本，于是又看了下/etc/apt/sources.list.d/ubuntu.sources，好像是模板生成的，上面注释写着要改镜像模板，我去你大爷的，我哪知道你模板在哪啊\n6 、喝杯水冷静了一些，想了想，我是为了改 docker 配置啊，费这么大劲跟 apt 较什么劲啊。于是秀一波操作echo 'xxxxx' > ~/.docker/daemon.json 成功修改配置文件。感叹还好自己基本功扎实，没有 vim vi 这些编辑工具，照样有办法改配置文件。\n7 、改为配置文件后，当然得重启了，敲下一个colima restart，然后dokcer info一看，我去，没生效啊。再进虚拟机一看，你大爷的，配置文件给我还原了。\n8 、又去网上一通搜索，网上说要改~/.colima/default/colima.yaml配置，于是又照着网上说的，把 docker 源写到这里面，写完发现colima start根本起不来了，又费了九牛二虎之力，改了半天格式，好不容易把 colima 虚拟机启动起来了，但是 docker pull 还他大爷走的官方源\n9 、又在网上一通搜索，网上又有人说要通过colima start --edit编辑配置文件，于是又照着改，改了半天发现虚拟机又起不来了。colima start --edit和~/.colima/default/colima.yaml这两个文件反复核对反复改，改了无数遍，虚拟机终于起来了。docker info里面的registry_mirrors也变了。激动得不行，感叹终于没问题了。结果他大爷的一拉镜像，还是走的官方源。\n10 、反复检查我配置的源，检查了无数遍，我又拿服务器去测试了一下，源肯定是可以用的，服务器上使用这个源都是正常的。而且这个源肯定也是没有被墙的，本地 ping 、tcpping 、telnet 各种花式测试，都是通的。\n11 、濒临崩溃，不知所以，怀疑人生，上 v 站发个帖，哪个大哥走过路过帮忙看看\n12 、md ，狗屎玩意，抬头一看时间，8 点了。瞎几把搞了一天，需求一行代码都还没写，收拾收拾下班，明天再来",
           "link": "https://www.v2ex.com/t/1103984",
           "publishedOn": "2025-01-09T12:25:01.000Z",
-          "wordCount": 493,
+          "wordCount": 540,
           "title": "顶不住了，快疯了， Mac 上使用 colima 安装 docker 到底怎么才能改源啊",
           "imageUrl": null
         }
