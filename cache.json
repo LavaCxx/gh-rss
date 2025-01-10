@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -300,6 +294,26 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104300",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia:",
+          "link": "https://www.v2ex.com/t/1104300",
+          "publishedOn": "2025-01-10T19:59:02.000Z",
+          "wordCount": 380,
+          "title": "现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104299",
+          "author": "PowtainGen1",
+          "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\nhttps://web.powtain.com/pow/yDjlr3 （右上角切换语言）",
+          "link": "https://www.v2ex.com/t/1104299",
+          "publishedOn": "2025-01-10T18:57:47.000Z",
+          "wordCount": 368,
+          "title": "最高法院听取关于 TikTok 禁令的案件。2025 年 1 月 10 日。暗示可能会维持美国的 TikTok 禁令",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104297",
           "author": "liutao1998",
           "description": "liutao1998: \n上传音乐 让模拟键盘背光特效跟随音乐跳动起来吧\n在线体验: https://canvas.xjq.icu/marching-music\n\n两个用于测试的音乐文件\n辉星 - Insomnia (불면증).mp3\n陈粒,孟维来 - 野人 (Live 版).mp3",
@@ -505,7 +519,7 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 618,
+          "wordCount": 632,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         },
@@ -587,16 +601,6 @@
           "publishedOn": "2025-01-10T11:42:09.000Z",
           "wordCount": 408,
           "title": "大佬们用 poe 提取的 token 处理东西感觉贵么",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104249",
-          "author": "microka",
-          "description": "microka: \n华为 Mate 30E Pro ，之前通过添加 Exchange 账户（ Outlook 邮箱）与 iPhone 双向同步联系人，一直用得很好，然而2024 年 9 月 16 日起，微软不再支持“基本身份验证”（即传统的帐户密码）方式登录 Outlook 帐户，而华为手机系统至今仍未支持以“新式身份验证”登录 Outlook 帐户。\n要想继续同步 Outlook 帐户的联系人，只能下载中国区 Outlook 安卓应用，在 app 里将 Outlook 帐户联系人同步（导入）到安卓手机。但这样做也存在问题：\n①Outlook 帐户里以姓、名分开录入的联系人，通过 Outlook.app 导入安卓手机后，“张一二（姓：张，名：一二）”变成了“一二 张”(在手机联系人列表里还是显示为“张一二”，但点进该联系人编辑界面就能看到显示为“一二 张”），导致无法用 T9 快速搜索联系人（搜索“张一二”还是能找到该联系人），应该是我这台华为手机没有单独的姓、名栏目导致的。\n②无法像之前 Exchange 协议那样双向同步。导入到安卓手机的联系人虽然显示是在 Outlook 帐户下，但通过安卓手机对联系人进行的新增或修改都无法同步到 Outlook 帐户云端，也就无法与其他设备进行同步；以及，当 Outlook 帐户联系人出现变动时，也不会自动同步到安卓手机上，只能手动操作 Outlook 应用进行同步。\n请问，在无法通过安卓手机自身系统登录 Outlook Exchange 帐户的情况下，还有什么办法能与 iPhone 双向同步联系人？（在 A 手机编辑的联系人信息能及时、自动同步到 B 手机）",
-          "link": "https://www.v2ex.com/t/1104249",
-          "publishedOn": "2025-01-10T11:21:06.000Z",
-          "wordCount": 556,
-          "title": "（2025 年 1 月）安卓手机与 iPhone 如何双向同步联系人？",
           "imageUrl": null
         }
       ]
