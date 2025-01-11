@@ -84,6 +84,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -294,12 +300,32 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104302",
+          "author": "jlak",
+          "description": "jlak: \n搞了好久都没搞起来，不是渲染本地 md 文件，而是从 cms 抓取 markdown 的 content 然后丢给 next-mdx-remote/rsc 渲染，需要服务器端渲染\n但是搞了很久渲染的和想要的效果差很远\n还不区分换行和空行，所有空行都没了\n最小代码\nimport { MDXRemote } from \"next-mdx-remote/rsc\";\n\nexport default async function Render({ md }) {\n  return (\n    <MDXRemote source={md} />\n  );\n}\n\n想要的效果\n\n实际渲染",
+          "link": "https://www.v2ex.com/t/1104302",
+          "publishedOn": "2025-01-10T22:40:10.000Z",
+          "wordCount": 902,
+          "title": "请问 next.js 里如何好好渲染 md",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104301",
+          "author": "stockmaster",
+          "description": "stockmaster: \n就是外接显示器变为桌边，并将手机变为触控板这种功能。",
+          "link": "https://www.v2ex.com/t/1104301",
+          "publishedOn": "2025-01-10T21:25:44.000Z",
+          "wordCount": 387,
+          "title": "有没有哪家国产手机支持类似三星 Dex 的功能",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104300",
           "author": "drymonfidelia",
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1104300",
           "publishedOn": "2025-01-10T19:59:02.000Z",
-          "wordCount": 380,
+          "wordCount": 411,
           "title": "现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？",
           "imageUrl": null
         },
@@ -379,7 +405,7 @@
           "description": "gransh: \n一直在做运维，本来是业余时间学 Android 开发，结果学个半吊子移动端凉了。\n然后学 javaweb ，学 springboot ，会简单的 crud ，偶尔自己写点小需求。\n从来没有真正的转开发成功过，所以经验 0 ，熟练度也不行。\n现在其实属于失业状态，年前试了试找工作基本凉凉，年龄也 36 了。\n据我了解，java 现在应该属于比运维更凉凉的状态了，我也不指望能转开发了，就自己做点东西玩吧。\n然后目前考虑的是做点网站 or 独立游戏开发，靠兴趣驱动。\n做网站的话造轮子不如直接用别人的框架，做独立游戏的话需要 C++或者 C#。\n现在纠结的点是我难得学了那么久，要不要深入继续学 java ，Android 换 java 好歹还都是 java 。如果直接定目标要做什么，然后靠 ai 搞定，边做边学新东西，相当于直接放弃过去学了那么久的东西。\n各位都是怎么平衡心态的呢，我指学了很久发现没用又需要学新的。",
           "link": "https://www.v2ex.com/t/1104287",
           "publishedOn": "2025-01-10T15:16:33.000Z",
-          "wordCount": 436,
+          "wordCount": 457,
           "title": "AI 时代，纠结还要不要深入学 Java",
           "imageUrl": null
         },
@@ -389,7 +415,7 @@
           "description": "id7368: 手慢无 苹果红包封面 https://mp.weixin.qq.com/s/RpSE99daSDnZnprp86tL4g",
           "link": "https://www.v2ex.com/t/1104286",
           "publishedOn": "2025-01-10T15:08:57.000Z",
-          "wordCount": 360,
+          "wordCount": 365,
           "title": "苹果官方红包封面",
           "imageUrl": null
         },
@@ -401,16 +427,6 @@
           "publishedOn": "2025-01-10T14:48:16.000Z",
           "wordCount": 416,
           "title": "有懂音箱的吗？最近想入 sonos Era 300",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104284",
-          "author": "tomorrow092",
-          "description": "tomorrow092:",
-          "link": "https://www.v2ex.com/t/1104284",
-          "publishedOn": "2025-01-10T14:44:24.000Z",
-          "wordCount": 115,
-          "title": "一直以为 东盟是咱们 主导的一个联盟, 后来才发现东盟都没有东印度啊",
           "imageUrl": null
         },
         {
@@ -439,7 +455,7 @@
           "description": "drymonfidelia: \n非常简易的一个测试程序\n# -*- coding: UTF-8 -*-\n\nfrom flask import Flask, request\nimport json\nimport time\nimport re\n\nimport sys\nimport asyncio\n\nfrom tornado.ioloop import IOLoop\nfrom tornado.wsgi import WSGIContainer\nfrom tornado.httpserver import HTTPServer\n\nimport sqlalchemy\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String, create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nengine = create_engine('sqlite:///database.db?check_same_thread=False')\n\nBase = declarative_base()\n\n\nclass ClientLog(Base):\n    __tablename__ = 'clientlog'\n    log_id = Column(Integer, primary_key=True, autoincrement=True)\n    message = Column(String(512))\n\n    def __repr__(self):\n        return \"A\"\n\n\nfrom sqlalchemy.ext.declarative import DeclarativeMeta\n\n…",
           "link": "https://www.v2ex.com/t/1104276",
           "publishedOn": "2025-01-10T14:11:19.000Z",
-          "wordCount": 740,
+          "wordCount": 749,
           "title": "Flask+SQLite+Tornado 在 Windows 2019 下 100 并发都撑不住是怎么回事？",
           "imageUrl": null
         },
@@ -449,7 +465,7 @@
           "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
           "link": "https://www.v2ex.com/t/1104274",
           "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 421,
+          "wordCount": 427,
           "title": "大部分公司春节都是提前一周放假的吗",
           "imageUrl": null
         },
@@ -459,7 +475,7 @@
           "description": "hxlgg01: \n最近在用 Gemini 的时候，发现它生成一段 7 行的小红书文案用了 4000 多个 token ，而我用它生成一段 20 行的数学题解析时，却只用了 1000 多个 token 。有没有人知道 Gemini 的 token 到底是怎么算的？",
           "link": "https://www.v2ex.com/t/1104273",
           "publishedOn": "2025-01-10T13:59:33.000Z",
-          "wordCount": 409,
+          "wordCount": 423,
           "title": "Gemini API 的 token 到底是怎么计的？",
           "imageUrl": null
         },
@@ -469,7 +485,7 @@
           "description": "MoRanjiang: \n穿衣计算器\n最近要去东北旅游，这辈子没去过这么冷的地方，难以根据经验计算自己要穿多少衣服，AI 和网上的一些攻略也是各有各的说法，服装品牌的温标更是随心所欲，所以用 AI 糊了这个工具。\n我研究并参考了 国家标准|GB/T 18398-2001 和 Standard 55 – Thermal Environmental Conditions for Human Occupancy。\n简单使用方法：\n先算出自己的发热率\n比如你在 15 摄氏度觉得穿一件 T 刚刚好舒适不会出汗（国标的 0.78 应该是穿了一件 T 打底左右的样子，赤膊大概是 0.6 左右），你的皮肤温度、基础保暖能力都比较大众，可以算出单位体表面积非蒸发放热率 (H) = 151.36 W/m²。\n代入计算\n那么如果活动类型、空气湿度等等因素都不变的情况下，在 - 40 ℃ 大概需要服装热阻 (I) = 2.34 clo 的衣服。\n找衣服\n查资料得知，550 蓬羽绒热阻 0.7 clo/oz-m^2 ，可以计算出（这部分还没做好，得手动）大概需要 3.34 盎司每平米的羽绒服，就是比较普通的款。",
           "link": "https://www.v2ex.com/t/1104272",
           "publishedOn": "2025-01-10T13:54:47.000Z",
-          "wordCount": 432,
+          "wordCount": 437,
           "title": "一个比较科学的穿衣计算器",
           "imageUrl": null
         },
@@ -519,7 +535,7 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 632,
+          "wordCount": 613,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         },
@@ -581,26 +597,6 @@
           "publishedOn": "2025-01-10T12:17:25.000Z",
           "wordCount": 432,
           "title": "怎么买到合适的摩托车？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104252",
-          "author": "nero233",
-          "description": "nero233: \n阿里云学生认证 300 元券使用问题\n今天我领了今年的阿里云学生认证的 300 元券，打算用来续去年白嫖的轻量云。结果发现，这个券竟然无法使用。\n仔细看了一下，阿里云学生活动页面将轻量云删除了，现在貌似只允许购买国内的服务器。\n而且，这些服务器不包含宽带，流量收费是 0.8 元/G，不能用券抵。\n不太确定，想和友友们验证一下，看看是不是这么回事。\n阿里云学生认证领券网页 https://university.aliyun.com/",
-          "link": "https://www.v2ex.com/t/1104252",
-          "publishedOn": "2025-01-10T11:44:20.000Z",
-          "wordCount": 388,
-          "title": "阿里云学生认证的 300 元券机制是不是改了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104251",
-          "author": "glouhao",
-          "description": "glouhao: 最近又给 poe 续费了，然后提取了 token ，弄了个 nextchat ，打算找工具接入办公软件和代码，本身打杂工作，这两天一直准备和服务公司述职个年会到半夜，有什么合适的工具能用自定义接口的请不吝赐教。另外这个东西提取的 token 贵不贵，划算不。",
-          "link": "https://www.v2ex.com/t/1104251",
-          "publishedOn": "2025-01-10T11:42:09.000Z",
-          "wordCount": 408,
-          "title": "大佬们用 poe 提取的 token 处理东西感觉贵么",
           "imageUrl": null
         }
       ]

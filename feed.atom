@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-10T23:10:26.563Z</id>
+    <id>urn:2025-01-11T00:52:58.883Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-10T23:10:26.563Z</updated>
+    <updated>2025-01-11T00:52:58.883Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[请问 next.js 里如何好好渲染 md]]></title>
+        <id>https://www.v2ex.com/t/1104302</id>
+        <link href="https://www.v2ex.com/t/1104302"/>
+        <updated>2025-01-10T22:40:10.000Z</updated>
+        <summary type="html"><![CDATA[jlak: 
+搞了好久都没搞起来，不是渲染本地 md 文件，而是从 cms 抓取 markdown 的 content 然后丢给 next-mdx-remote/rsc 渲染，需要服务器端渲染
+但是搞了很久渲染的和想要的效果差很远
+还不区分换行和空行，所有空行都没了
+最小代码
+import { MDXRemote } from "next-mdx-remote/rsc";
+
+export default async function Render({ md }) {
+  return (
+    <MDXRemote source={md} />
+  );
+}
+
+想要的效果
+
+实际渲染]]></summary>
+        <author>
+            <name>jlak</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有哪家国产手机支持类似三星 Dex 的功能]]></title>
+        <id>https://www.v2ex.com/t/1104301</id>
+        <link href="https://www.v2ex.com/t/1104301"/>
+        <updated>2025-01-10T21:25:44.000Z</updated>
+        <summary type="html"><![CDATA[stockmaster: 
+就是外接显示器变为桌边，并将手机变为触控板这种功能。]]></summary>
+        <author>
+            <name>stockmaster</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？]]></title>
         <id>https://www.v2ex.com/t/1104300</id>
@@ -167,16 +203,6 @@ smolagent 是什么神器？✨
 有知道这个是什么原因么？]]></summary>
         <author>
             <name>boboin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一直以为 东盟是咱们 主导的一个联盟, 后来才发现东盟都没有东印度啊]]></title>
-        <id>https://www.v2ex.com/t/1104284</id>
-        <link href="https://www.v2ex.com/t/1104284"/>
-        <updated>2025-01-10T14:44:24.000Z</updated>
-        <summary type="html"><![CDATA[tomorrow092:]]></summary>
-        <author>
-            <name>tomorrow092</name>
         </author>
     </entry>
     <entry>
@@ -475,32 +501,6 @@ USB3.2 Gen 2x2: 最高 20Gbps, 实现方案还是 10+10.
 9.符合这些需求的具体款式最好😄]]></summary>
         <author>
             <name>grey5659</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿里云学生认证的 300 元券机制是不是改了]]></title>
-        <id>https://www.v2ex.com/t/1104252</id>
-        <link href="https://www.v2ex.com/t/1104252"/>
-        <updated>2025-01-10T11:44:20.000Z</updated>
-        <summary type="html"><![CDATA[nero233: 
-阿里云学生认证 300 元券使用问题
-今天我领了今年的阿里云学生认证的 300 元券，打算用来续去年白嫖的轻量云。结果发现，这个券竟然无法使用。
-仔细看了一下，阿里云学生活动页面将轻量云删除了，现在貌似只允许购买国内的服务器。
-而且，这些服务器不包含宽带，流量收费是 0.8 元/G，不能用券抵。
-不太确定，想和友友们验证一下，看看是不是这么回事。
-阿里云学生认证领券网页 https://university.aliyun.com/]]></summary>
-        <author>
-            <name>nero233</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大佬们用 poe 提取的 token 处理东西感觉贵么]]></title>
-        <id>https://www.v2ex.com/t/1104251</id>
-        <link href="https://www.v2ex.com/t/1104251"/>
-        <updated>2025-01-10T11:42:09.000Z</updated>
-        <summary type="html"><![CDATA[glouhao: 最近又给 poe 续费了，然后提取了 token ，弄了个 nextchat ，打算找工具接入办公软件和代码，本身打杂工作，这两天一直准备和服务公司述职个年会到半夜，有什么合适的工具能用自定义接口的请不吝赐教。另外这个东西提取的 token 贵不贵，划算不。]]></summary>
-        <author>
-            <name>glouhao</name>
         </author>
     </entry>
     <entry>
