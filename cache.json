@@ -84,6 +84,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -127,6 +133,23 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -282,7 +305,7 @@
           "description": "shinsekai: \n现在开卡经常是柜员帮你操作，在快捷支付这一步直接帮你勾选微信支付宝京东云闪付之类的绑上。如果是已经注册且实名的问题不大，如果未注册或未实名，至少对于京东和云闪付，则是自动完成手机号注册-身份证实名-银行卡绑定的全套流程，非常吓人。如果你从未实名过这些平台，又不准备现在用，相当于自动丧失一次新用户的机会。",
           "link": "https://www.v2ex.com/t/1104407",
           "publishedOn": "2025-01-11T14:03:07.000Z",
-          "wordCount": 360,
+          "wordCount": 366,
           "title": "小心银行卡开卡时的快捷支付绑定",
           "imageUrl": null
         },
@@ -302,7 +325,7 @@
           "description": "daldon: \n感觉免费的不够用，想买一个月会员试一试",
           "link": "https://www.v2ex.com/t/1104405",
           "publishedOn": "2025-01-11T13:45:54.000Z",
-          "wordCount": 379,
+          "wordCount": 392,
           "title": "请问 suno ai 能用国内的 visa 卡支付吗",
           "imageUrl": null
         },
@@ -312,7 +335,7 @@
           "description": "hahaha121:",
           "link": "https://www.v2ex.com/t/1104403",
           "publishedOn": "2025-01-11T13:29:37.000Z",
-          "wordCount": 401,
+          "wordCount": 417,
           "title": "现在买 iPhone 如何最便宜",
           "imageUrl": null
         },
@@ -322,7 +345,7 @@
           "description": "145431: \n闺蜜年底被裁员，非常令人气愤！首先可以确定为经济性裁员，至少赔偿有 N ，不过目前公司没有下达书面解除劳动合同的通知，只是口头提前一个月告知。目前疑问的点在于，劳动法对于非法裁员的其中一个标准是：如果裁员人数达到一定比例（例如裁员 20 人以上，或者裁员人数占企业职工总数 10%以上），公司需要向劳动行政部门备案，且备案通过后才能实施裁员。公司必须提前 30 天向工会或全体员工说明裁员的理由、人数及具体方案。否则需要向员工补偿 2N 的经济赔偿。\n但是作为牛马的我们怎么能确定公司是否向有关部门申报了裁员程序？望懂行的前辈指点一二，不胜感激。",
           "link": "https://www.v2ex.com/t/1104402",
           "publishedOn": "2025-01-11T13:21:20.000Z",
-          "wordCount": 538,
+          "wordCount": 560,
           "title": "如何确定公司为非法裁员？",
           "imageUrl": null
         },
@@ -342,7 +365,7 @@
           "description": "MrLonely: \n五年老车，自己用着很爱惜，车里从没有特别脏过，也从来没有过任何异味。\n01.07 那天想着要过年了，给车车做了一个精致洗车，洗完当天还挺满意的。因为很多细节地方都洗到位了。\n结果 01.08 车放了一天后，01.09 到车里就发现一股臭抹布味。\n01.10 跟商家协商，对方表示愿意配合处理问题，分析是地毯洗了之后没有充分晾干。然后我把车开去，他们把地毯重新洗了一遍，车本身也开着窗户凉了几个小时。\n01.11 早上去到车里的时候可以说比 01.09 缓解了至少 90%的程度。但还是有轻微的味道。开窗通风后，又放了一天到晚上还是有轻微的味道。\n我有尝试爬到地毯上，或者拆开地毯趴到地板上闻，都没有明显的味道了。但空气中还是有一股轻微但明确的异味。\n想问问车友们有没有遇到过类似的情况？有什么解决思路呢？ 我知道重新回去找商家大概率他们是能够继续尝试解决问题，但因为每次跟他们沟通协商对我也有明显的时间成本，所以想先了解一下解决问题的思路，再让他们针对性解决。\n其实现在心里真的很难受，这么干干净净用了 5 年的车现在突然因为一次洗车一股臭抹布味。真的不如不去洗。而且我的车以前也基本保持每年两次精洗，每月一次普洗的频率。从没有过这种情况。\n反正在我心里这就是商家的责任。一定是他们做了或者没做到一些什么事情才会导致这次洗车跟以往不同。\n\n但是抱怨不解决问题，我只想快点解决问题然后永久拉黑这家店。",
           "link": "https://www.v2ex.com/t/1104400",
           "publishedOn": "2025-01-11T13:03:39.000Z",
-          "wordCount": 413,
+          "wordCount": 427,
           "title": "精致洗车后车里一股臭抹布味怎么办？",
           "imageUrl": null
         },
@@ -362,7 +385,7 @@
           "description": "shenjialun: \n我原来是 218.80 ，58.41 ，58.32 。\n但今天换好光猫改桥接后，先是 100.65 ，100.67 网段，改公网 ip 后是 58.37 网段，也不走 cn2 路由 59.43 了。\n难道桥接不支持精品网了？或者说 ppoe 账号拨号要加后缀？",
           "link": "https://www.v2ex.com/t/1104398",
           "publishedOn": "2025-01-11T13:00:22.000Z",
-          "wordCount": 441,
+          "wordCount": 456,
           "title": "上海电信桥接后精品网网段不同了",
           "imageUrl": null
         },
@@ -372,7 +395,7 @@
           "description": "1611499758wuhao: \n地址：\n奇门遁甲\n紫薇斗术\n八字\n联系方式：wh18329723317\n奇门遁甲学习系统\n一个基于 Vue 3 和 Ant Design Vue 的奇门遁甲学习系统，帮助用户了解和学习奇门遁甲的基本概念和原理。\n功能特性\n阴阳五行基础知识学习\n十天干详解\n十二地支详解\n九宫八卦图解\n九星详解\n八门详解\n八神详解\n响应式布局设计\n交互式学习体验\n技术栈\nVue 3\nVue Router\nAnt Design Vue\nTailwind CSS\nVite\n项目结构\nsrc/\n├── components/ # 通用组件\n│ └── WuXingDetail.vue\n├── router/ # 路由配置\n│ └── index.js\n├── views/ # 页面组件\n│ ├── Home.vue\n│ ├── YinYang.vue\n│ ├── TianGan.vue\n│ ├── DiZhi.vue\n│ ├── JiuGongBaGua.vue\n│ ├── JiuXing.vue\n│ ├── BaMen.vue\n│ └── BaShen.vue\n├── App.vue # 根组件\n├── main.js # 入口文件\n└── style.css # 全局样式\n\n主要功能模块\n阴阳五行\n阴阳基本概念\n五行相生相克关系\n五行详细属性\n十天干\n天干基本属性\n天干相合相冲关系\n天干十二长生\n十二地支\n地支基本属性\n地支相合相冲关系\n地支三合六合\n九宫八卦\n九宫格布局\n八卦方位\n八卦象意\n九星\n九星属性\n九星吉凶\n九星变化规律\n八门\n八门属性\n八门吉凶\n八门相生相克\n八神\n八神属性\n八神表象\n八神与日干配合\n贡献指南\nFork 项目\n创建特性分支 (git checkout -b feature/AmazingFeature)\n提交更改 (git commit -m 'Add some AmazingFeature')\n推送到分支 (git push origin feature/AmazingFeature)\n开启 Pull Request\n许可证\nMIT License\n致谢\nVue.js\nAnt Design Vue\nTailwind CSS",
           "link": "https://www.v2ex.com/t/1104397",
           "publishedOn": "2025-01-11T12:57:52.000Z",
-          "wordCount": 515,
+          "wordCount": 517,
           "title": "我做了几个玄学的网站，分别有八字，紫薇斗术，奇门遁甲",
           "imageUrl": null
         },
@@ -392,7 +415,7 @@
           "description": "kyonn: \n能接受 webhook 或特定格式的输入, 然后将消息分发给 email, ntfy 等. 这样可以做到方便替换终端接收消息的工具.",
           "link": "https://www.v2ex.com/t/1104394",
           "publishedOn": "2025-01-11T12:28:22.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "求推荐一款稳定好用的消息聚合工具.",
           "imageUrl": null
         },
@@ -402,7 +425,7 @@
           "description": "lichking30701: \n看了一下基本，就几个产品，\n1 ，瑞昱 8261 ，新品，刚上，兼容性一般，发热未知，价格大概 100 元左右，性价比很高，支持全速率。\n2 ，Marvell(88x3310)，老产品，3W 的发热，发热要比博通的高很多，已经是被淘汰的产品了。\n3 ，博通的产品，找不到型号，1.5W 的发热，兼容性未知\n有没有熟悉这块的哥们指点一二，感谢",
           "link": "https://www.v2ex.com/t/1104392",
           "publishedOn": "2025-01-11T12:24:28.000Z",
-          "wordCount": 347,
+          "wordCount": 362,
           "title": "关于万兆电口模块的选择",
           "imageUrl": null
         },
@@ -412,7 +435,7 @@
           "description": "pdog18: \n互联网上总看到不少人在吐槽美团、滴滴这类平台的资本问题。有没有哪个城市有自己本地的外卖或者打车平台？大家有知道的吗？",
           "link": "https://www.v2ex.com/t/1104391",
           "publishedOn": "2025-01-11T12:24:17.000Z",
-          "wordCount": 369,
+          "wordCount": 392,
           "title": "美团滴滴之外，有哪个城市有自己的本土平台么？",
           "imageUrl": null
         },
@@ -422,7 +445,7 @@
           "description": "vasto: \n成本极低，根据对方的特点编一个符合其特点的谎言散播出去，只要扩散开来效果就产生了，因为大多数人不会去求证真假，少数人会去质疑但多数情况下又被淹没在其他人的口水之中，由此，谣言的效果就达成了，无论它之后有没有被证伪\n打破谣言的方法，是和该谣言针对的对象进行解释来解开误会，但如果谣言针对的是不确定的群体的话那么就很难破除这个谣言带来的危害了",
           "link": "https://www.v2ex.com/t/1104390",
           "publishedOn": "2025-01-11T12:24:06.000Z",
-          "wordCount": 377,
+          "wordCount": 410,
           "title": "造谣真是一个不戳的污蔑手段",
           "imageUrl": null
         },
@@ -442,7 +465,7 @@
           "description": "XuanYuan: \n现在的情况：\n千兆宽带，开了两个 IPTV 账号\n光猫和交换机在弱电箱\n从交换机分别接了网线到两台电视机下方的面板，然后分别接机顶盒来看电视\n所有房间和电视下方都留了网线，接的面板 AP\n需求和遇到的问题\n想把网络做一次改造，把弱电箱除了交换机以外的设备都移到地下室去，但是这样一来的话，机顶盒就只能接到面板 AP 的 RJ45 上，通过单线复用来看了。\n试了 TPLINK 的 IPTV 单线复用功能，发现只能正常回放，直播只能看几秒。\n期望达到的效果\n通过「路由器-面板 AP-机顶盒」的方式来看电视（不是通过电脑或手机，很多教程都是这个方案的）\n两台电视都要能正常看（可以继续付两个 IPTV 的钱）",
           "link": "https://www.v2ex.com/t/1104388",
           "publishedOn": "2025-01-11T11:57:14.000Z",
-          "wordCount": 387,
+          "wordCount": 416,
           "title": "关于成都电信 IPTV 的问题",
           "imageUrl": null
         },
@@ -452,7 +475,7 @@
           "description": "huc2: \n问题来自在看这篇博客时看到的图片\n\n这张图片中是静态 batch 的示意图，但我的理解似乎有所偏差，希望有大佬能答疑解惑。\n问题 1：对于静态 batch 场景，同一个 batch 中不同的 sample 的 prefill 是同时完成的吗？\n我的理解：\n对于一个单独的短 prompt ，prefill 阶段肯定是一个比很长的 prompt 快的。但是当这 2 个长度不同的 sample 经过 padding 然后拼成了一个静态 batch 之后，也就是维度变成了 [batch_size, ..] （当然这里可能不止 2 个 sample ）。在 prefill 阶段，他们肯定是同时开始的，因为 transformers 内部是很多的矩阵乘法。并且要经过很多层，比如：\nemb = layer1(emb)\nemb = layer2(emb)\n...\n\n上面的 emb 的维度应该也都会是 [batch_size, ....]\n虽然同一个 batch 之间不同 sample 单独做 prefill 需要的时间不同，但是当他们成为一个 batch 之后，变成了一个大矩阵，他们在经过不同的 layer 的时候，都是一起一层一层过的，也就相当于他们同时开始 prefill 阶段，然后同时完成 layer1, 同时完成 layer2, ......。最后一起完成最后一层，获得第一个预测的 new_tokens （ batch 中每个 sample 都有一个 new_token)。所以，在我的理解中，prefill 阶段应该是左右对齐的。\n问题 2: 以下我对 Continuous Batch 的理解是否正确？\n我的理解：\n首先模型每次 forward 都是生成一个新的 token （无论是 prefill 还是 decoder 阶段）。prefill 完成生成第一个 new_token 后接着自回归。\n如果是 continous batch 配置情况下，如果有 sample 输出 end_token ，那 batch_size 就少一个，可能就可以再放一个 sample 进来。这样子的话这个新 sample 要做 prefill （目的也是生成 new token ），别的 sample 是继续在 decoder 阶段。不过别的 sample 都是有前面的 kvcache 的，所以这个时候这个新 sample 的 prefill 就拖累了旧的 sample 中的 decoder 过程，毕竟大家都还是在一个 batch 中，大家最终还是一起一层 layer 一层 layer 过。\n如果同一个 batch 都在 decoder 阶段，因为 kvcache 的存在大家都很快。但是只要有一个 sample 输出了 end_token, 就可能允许新的 sample 进来，这个新 sample 的 prefill 过程因为可能没有 kvcache 会拖累其他的 sample 。所以有一些工作提出要将 prefill 和 decoder 分离。\n以上是我的理解，不知道有多少错误的内容，希望有大佬指正。我的描述可能有点啰嗦，抱歉。",
           "link": "https://www.v2ex.com/t/1104386",
           "publishedOn": "2025-01-11T11:50:44.000Z",
-          "wordCount": 675,
+          "wordCount": 708,
           "title": "LLM 静态批处理和 Continuous Batch 相关疑问的求解",
           "imageUrl": null
         },
@@ -512,7 +535,7 @@
           "description": "kyonn: \n命令行用 docker-compose 建立的 docker 不能被 container 管理, 用它的面板建立 docker-compose 的容器, yml 文件又是被 container 藏在它的数据分区中, 感觉很不安全, 哪天 container 挂了, 连别的容器的 yml 文件找起来也很麻烦.\n随着容器数量变多, vscode 上去编辑 yml 文件也越来越麻烦, 尤其是不同容器之间切换. 不过备份倒是挺方便, yml 和 持久化数据都在一个地方.",
           "link": "https://www.v2ex.com/t/1104380",
           "publishedOn": "2025-01-11T11:09:22.000Z",
-          "wordCount": 469,
+          "wordCount": 479,
           "title": "有什么工具能方便监控 docker 的内存/cpu 用量, 管理 docker-compose 脚本?",
           "imageUrl": null
         },
@@ -522,7 +545,7 @@
           "description": "8UbNRbE5c9tvj2: 我的电脑自从更新了 Windows ，输入密码的时候就会死机，最开始在 bitlocker 输密码死机，后来我重装了系统，发现输入 WiFi 密码，或者网页登陆输入密码也会死机，会是什么问题",
           "link": "https://www.v2ex.com/t/1104379",
           "publishedOn": "2025-01-11T11:05:02.000Z",
-          "wordCount": 403,
+          "wordCount": 407,
           "title": "输入密码即死机",
           "imageUrl": null
         },
@@ -532,7 +555,7 @@
           "description": "wisetc: \n是不是可以幫助一些人，認識國外大佬\n有什麼簡便易行的方法\n用 AI 對嗎\n現階段的技術，聲音識別轉文本具備，文本間語言轉換外語具備，外語文本轉換語言具備，為什麼不可行呢\n實時性要求較高，性能上，不過可以在製作過程中延遲，也是可以應付的\n（就是人的聲音有音色，有抑揚頓挫，似乎不好調節）\n可行否\n敬請指教",
           "link": "https://www.v2ex.com/t/1104378",
           "publishedOn": "2025-01-11T10:55:27.000Z",
-          "wordCount": 497,
+          "wordCount": 501,
           "title": "應用構想，外語視頻同聲翻譯成漢語（視頻）",
           "imageUrl": null
         },
@@ -552,7 +575,7 @@
           "description": "MXMIS: 我的主机用纯 WIFI ，不插网线。\nPVE 和笔记本都在一个网段下可以互相访问，但是创建的虚拟机是通过桥接上网\n路由器网段：192.168.0.1\nPVE 下的虚拟机网段：192.168.1.1\n但是这样我连 192.168.0.1 的设备无法直接连上虚拟机，有什么办法能解决吗？\n好像 openwrt relayd 可以？\nPVE interface 配置\n```\nauto lo\niface lo inet loopback\nauto wlp3s0\niface wlp3s0 inet dhcp\npost-up ip route add default via 192.168.0.1 dev wlp3s0\niface enp1s0 inet manual\niface enp2s0 inet manual\nauto vmbr7\niface vmbr7 inet static\naddress 192.168.1.1/24\nbridge-ports wlp3s0\nbridge-stp off\nbridge-fd 0\npost-up iptables -t nat -A POSTROUTING -o wlp3s0 -j MASQUERADE; iptables -t nat -A POSTROUTING -d 192.168.1.0/24 -o vmbr7 -j MASQUERADE\npost-down iptables -t nat -D POSTROUTING -o wlp3s0 -j MASQUERADE; iptables -t nat -D POSTROUTING -d 192.168.1.0/24 -o vmbr7 -j MASQUERADE\nsource /etc/network/interfaces.d/*\n```",
           "link": "https://www.v2ex.com/t/1104376",
           "publishedOn": "2025-01-11T10:37:51.000Z",
-          "wordCount": 500,
+          "wordCount": 518,
           "title": "PVE WIFI 桥接求助",
           "imageUrl": null
         },
@@ -592,7 +615,7 @@
           "description": "abc634: \n运行 llm 需要一定的显卡内存。\n但是市面上的显卡内存超过 12G 的话就贵了。\n因此有个猜想的方案，\n使用 可以分享内存的集成显卡（例如 AMD 的）\n然后可以把内存例如 32 G 分配给 集成显卡，\n从而达到运行 大参数模型的目的。\n当然，我知道 集成显卡算力差，但是有时候验证原型花一些时间等待是可以接受的。\n请问有没有人这么做过，或者是否可行？\n感谢赐教先。",
           "link": "https://www.v2ex.com/t/1104370",
           "publishedOn": "2025-01-11T09:35:38.000Z",
-          "wordCount": 520,
+          "wordCount": 524,
           "title": "请教，关于显卡内存",
           "imageUrl": null
         },
