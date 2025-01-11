@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -133,23 +127,6 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -305,7 +282,7 @@
           "description": "jlak: \n搞了好久都没搞起来，不是渲染本地 md 文件，而是从 cms 抓取 markdown 的 content 然后丢给 next-mdx-remote/rsc 渲染，需要服务器端渲染\n但是搞了很久渲染的和想要的效果差很远\n还不区分换行和空行，所有空行都没了\n最小代码\nimport { MDXRemote } from \"next-mdx-remote/rsc\";\n\nexport default async function Render({ md }) {\n  return (\n    <MDXRemote source={md} />\n  );\n}\n\n想要的效果\n\n实际渲染",
           "link": "https://www.v2ex.com/t/1104302",
           "publishedOn": "2025-01-10T22:40:10.000Z",
-          "wordCount": 902,
+          "wordCount": 937,
           "title": "请问 next.js 里如何好好渲染 md",
           "imageUrl": null
         },
@@ -315,7 +292,7 @@
           "description": "stockmaster: \n就是外接显示器变为桌边，并将手机变为触控板这种功能。",
           "link": "https://www.v2ex.com/t/1104301",
           "publishedOn": "2025-01-10T21:25:44.000Z",
-          "wordCount": 387,
+          "wordCount": 389,
           "title": "有没有哪家国产手机支持类似三星 Dex 的功能",
           "imageUrl": null
         },
@@ -325,7 +302,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1104300",
           "publishedOn": "2025-01-10T19:59:02.000Z",
-          "wordCount": 411,
+          "wordCount": 447,
           "title": "现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？",
           "imageUrl": null
         },
@@ -335,7 +312,7 @@
           "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\nhttps://web.powtain.com/pow/yDjlr3 （右上角切换语言）",
           "link": "https://www.v2ex.com/t/1104299",
           "publishedOn": "2025-01-10T18:57:47.000Z",
-          "wordCount": 368,
+          "wordCount": 380,
           "title": "最高法院听取关于 TikTok 禁令的案件。2025 年 1 月 10 日。暗示可能会维持美国的 TikTok 禁令",
           "imageUrl": null
         },
@@ -355,7 +332,7 @@
           "description": "ificando: \n才知道有 mosh 这个\n管理 vps 特别需要\n但是服务器安装了 mosh ，mac 连接就显示蓝色屏 \nmosh: Nothing received from server on UDP port 60001. [To quit: Ctrl-^ .]\n啥原因，我看好多人也发这个\n请大佬帮忙看，服务器支持 udp ，也安装 gpt 一些方式确认了 什么防火墙关闭啥的\n就是客户端连不上服务器那边",
           "link": "https://www.v2ex.com/t/1104296",
           "publishedOn": "2025-01-10T16:57:03.000Z",
-          "wordCount": 368,
+          "wordCount": 395,
           "title": "mosh ssh 问题",
           "imageUrl": null
         },
@@ -375,7 +352,7 @@
           "description": "bcsiof: \n目前有一个有几千日活的小程序，但是功能比较杂，且面向某特定人群。现在想要抓紧把核心功能抽出来做成通用型 App ，进一步发展。目前有几个选择：\nApple 端注册个人开发者（似乎是允许个人开发者上架带 UCG 的 App 的），安卓端推 PWA 或者分发 APK 。但是这样安卓端使用门槛太高，国内没有使用 pwa 的习惯，apk 现在很多平台也需要很多步操作才能直接安装。\n注册个体工商户，好处是各大平台应该都可以上架 UGC App ，也可以发验证码了。坏处是目前正在某大厂工作，公司有严格的禁止兼职的规定，担心被查到，被辞退+竞业。\n注册公司，能力更丰富但是目前暂时用不到，竞业风险也更大。\n挂靠在朋友的公司上，或者以亲朋好友为法人注册公司。\n像问问 v 友们：\n要获得上架带 UGC 的 App ，最小需要的资质是什么？\n挂靠或者以亲朋为法人，最大的风险点是什么？这样是否还可能会被公司查到？\n还有什么其他方法达成我的目的吗？\n感谢！",
           "link": "https://www.v2ex.com/t/1104294",
           "publishedOn": "2025-01-10T16:23:18.000Z",
-          "wordCount": 407,
+          "wordCount": 419,
           "title": "想开发全平台带 UGC 的 App，现在需要哪些资质？",
           "imageUrl": null
         },
@@ -405,7 +382,7 @@
           "description": "gransh: \n一直在做运维，本来是业余时间学 Android 开发，结果学个半吊子移动端凉了。\n然后学 javaweb ，学 springboot ，会简单的 crud ，偶尔自己写点小需求。\n从来没有真正的转开发成功过，所以经验 0 ，熟练度也不行。\n现在其实属于失业状态，年前试了试找工作基本凉凉，年龄也 36 了。\n据我了解，java 现在应该属于比运维更凉凉的状态了，我也不指望能转开发了，就自己做点东西玩吧。\n然后目前考虑的是做点网站 or 独立游戏开发，靠兴趣驱动。\n做网站的话造轮子不如直接用别人的框架，做独立游戏的话需要 C++或者 C#。\n现在纠结的点是我难得学了那么久，要不要深入继续学 java ，Android 换 java 好歹还都是 java 。如果直接定目标要做什么，然后靠 ai 搞定，边做边学新东西，相当于直接放弃过去学了那么久的东西。\n各位都是怎么平衡心态的呢，我指学了很久发现没用又需要学新的。",
           "link": "https://www.v2ex.com/t/1104287",
           "publishedOn": "2025-01-10T15:16:33.000Z",
-          "wordCount": 457,
+          "wordCount": 485,
           "title": "AI 时代，纠结还要不要深入学 Java",
           "imageUrl": null
         },
@@ -415,7 +392,7 @@
           "description": "id7368: 手慢无 苹果红包封面 https://mp.weixin.qq.com/s/RpSE99daSDnZnprp86tL4g",
           "link": "https://www.v2ex.com/t/1104286",
           "publishedOn": "2025-01-10T15:08:57.000Z",
-          "wordCount": 365,
+          "wordCount": 372,
           "title": "苹果官方红包封面",
           "imageUrl": null
         },
@@ -455,7 +432,7 @@
           "description": "drymonfidelia: \n非常简易的一个测试程序\n# -*- coding: UTF-8 -*-\n\nfrom flask import Flask, request\nimport json\nimport time\nimport re\n\nimport sys\nimport asyncio\n\nfrom tornado.ioloop import IOLoop\nfrom tornado.wsgi import WSGIContainer\nfrom tornado.httpserver import HTTPServer\n\nimport sqlalchemy\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String, create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nengine = create_engine('sqlite:///database.db?check_same_thread=False')\n\nBase = declarative_base()\n\n\nclass ClientLog(Base):\n    __tablename__ = 'clientlog'\n    log_id = Column(Integer, primary_key=True, autoincrement=True)\n    message = Column(String(512))\n\n    def __repr__(self):\n        return \"A\"\n\n\nfrom sqlalchemy.ext.declarative import DeclarativeMeta\n\n…",
           "link": "https://www.v2ex.com/t/1104276",
           "publishedOn": "2025-01-10T14:11:19.000Z",
-          "wordCount": 749,
+          "wordCount": 777,
           "title": "Flask+SQLite+Tornado 在 Windows 2019 下 100 并发都撑不住是怎么回事？",
           "imageUrl": null
         },
@@ -465,7 +442,7 @@
           "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
           "link": "https://www.v2ex.com/t/1104274",
           "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 427,
+          "wordCount": 445,
           "title": "大部分公司春节都是提前一周放假的吗",
           "imageUrl": null
         },
@@ -475,7 +452,7 @@
           "description": "hxlgg01: \n最近在用 Gemini 的时候，发现它生成一段 7 行的小红书文案用了 4000 多个 token ，而我用它生成一段 20 行的数学题解析时，却只用了 1000 多个 token 。有没有人知道 Gemini 的 token 到底是怎么算的？",
           "link": "https://www.v2ex.com/t/1104273",
           "publishedOn": "2025-01-10T13:59:33.000Z",
-          "wordCount": 423,
+          "wordCount": 425,
           "title": "Gemini API 的 token 到底是怎么计的？",
           "imageUrl": null
         },
@@ -485,7 +462,7 @@
           "description": "MoRanjiang: \n穿衣计算器\n最近要去东北旅游，这辈子没去过这么冷的地方，难以根据经验计算自己要穿多少衣服，AI 和网上的一些攻略也是各有各的说法，服装品牌的温标更是随心所欲，所以用 AI 糊了这个工具。\n我研究并参考了 国家标准|GB/T 18398-2001 和 Standard 55 – Thermal Environmental Conditions for Human Occupancy。\n简单使用方法：\n先算出自己的发热率\n比如你在 15 摄氏度觉得穿一件 T 刚刚好舒适不会出汗（国标的 0.78 应该是穿了一件 T 打底左右的样子，赤膊大概是 0.6 左右），你的皮肤温度、基础保暖能力都比较大众，可以算出单位体表面积非蒸发放热率 (H) = 151.36 W/m²。\n代入计算\n那么如果活动类型、空气湿度等等因素都不变的情况下，在 - 40 ℃ 大概需要服装热阻 (I) = 2.34 clo 的衣服。\n找衣服\n查资料得知，550 蓬羽绒热阻 0.7 clo/oz-m^2 ，可以计算出（这部分还没做好，得手动）大概需要 3.34 盎司每平米的羽绒服，就是比较普通的款。",
           "link": "https://www.v2ex.com/t/1104272",
           "publishedOn": "2025-01-10T13:54:47.000Z",
-          "wordCount": 437,
+          "wordCount": 450,
           "title": "一个比较科学的穿衣计算器",
           "imageUrl": null
         },
@@ -535,7 +512,7 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 613,
+          "wordCount": 688,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         },
@@ -575,7 +552,7 @@
           "description": "yxylaurier: \n楼主在 2022 年初买的加版 iPhone 13 Pro ，用了 2 年多，去年 1 月换了一次第三方电池，但也还是不耐用。想在闲鱼上买个加版的 iPhone 16 Pro Max ，看到很多家都卖加版，好奇为什么这些店家为什么都不能提供发票，而且只能他们代送修？如果我自己去送修呢？这中间是不是有什么猫腻？",
           "link": "https://www.v2ex.com/t/1104257",
           "publishedOn": "2025-01-10T12:21:18.000Z",
-          "wordCount": 404,
+          "wordCount": 411,
           "title": "为什么闲鱼外版 iPhone 没有发票？",
           "imageUrl": null
         },
