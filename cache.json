@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -133,6 +127,23 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -298,7 +309,7 @@
           "description": "lostexile: \n最近开了一个脑洞，小说主角眼前能看到一个指令行界面，可以通过执行指令语句操作现实世界，\n比如：\n查看某一个人的日志文件，来了解这个人的过往经历以及内心想法\n定位某个物体，修改指定的属性，可以临时修改硬度温度等等\n基于这个框架，大家有什么延伸的脑洞吗？",
           "link": "https://www.v2ex.com/t/1104313",
           "publishedOn": "2025-01-11T01:37:25.000Z",
-          "wordCount": 592,
+          "wordCount": 626,
           "title": "有个小说的奇思妙想",
           "imageUrl": null
         },
@@ -308,7 +319,7 @@
           "description": "JustdoitSoso: \n正文\n我今天早上 8 点在 12306 手机 APP 购票的时候买的候补订单，然后我支付的时候银行付款页面已经弹出，手机银行付款以后 12306APP 显示了一个什么问题，当时没注意自己看，然后 APP 就自己退出登录(这是第一份订单）。\n当我再次登录上去的时候我没有刚才那个支付的订单，我以为是付款失败，然后重新候补了一份订单，扣款成功，订单也能查询到(这是第二份订单)。\n问题\n然后我去手机银行 APP 查询的时候发现第一份订单已经扣款成功了，但是我在手机 APP 和 12306PC 官网都查询不到我的那份订单，就是说钱已经扣了，订单没出来。然后我将第二份订单也退款了，钱能退回来，但是只退了第二份订单的钱。\n补充说明\n作为一个正常人以及是程序员的我非常非常确定第一份确实是扣款了得。然后银行流水和余额都能对上，第一份就是扣款了。然后扣款的那个订单在 12306 就是没出来，根本查询不到。\n后续补救措施\n一直在打 12306 官方客服电话，但是根本就没有客服，根本就打不通，找不到一个客服。\n想请教朋友，这种该怎么处理，毕竟小 1000 块钱，该怎么找回。",
           "link": "https://www.v2ex.com/t/1104311",
           "publishedOn": "2025-01-11T01:35:09.000Z",
-          "wordCount": 564,
+          "wordCount": 589,
           "title": "朋友们有没有碰到在 12306 扣款成功但是订单没有生成的问题？",
           "imageUrl": null
         },
@@ -318,7 +329,7 @@
           "description": "freaks: \n也不见之前关注的公众号分享红包封面了， 看到 Apple 官方发了一个红包封面，以为会没得，点了一下，轻松获得😂， 支付宝图标嚷嚷着：“集福”了，进去一看，还是蓝色平常 banner ，虽然我也不会跟风去集，感觉一年不似一年啊",
           "link": "https://www.v2ex.com/t/1104309",
           "publishedOn": "2025-01-11T01:15:47.000Z",
-          "wordCount": 569,
+          "wordCount": 600,
           "title": "突然感觉一点过年的气氛都没得了",
           "imageUrl": null
         },
@@ -328,7 +339,7 @@
           "description": "MrBrand: \nbing 是什么情况\n我的个人站点发布内容后，谷歌基本都是秒收录。并上面一条信息都搜不到。。。之前没有过什么违规。。\n我的博客域名：www.brandhuang.com",
           "link": "https://www.v2ex.com/t/1104308",
           "publishedOn": "2025-01-11T01:14:14.000Z",
-          "wordCount": 419,
+          "wordCount": 447,
           "title": "我的个人博客，自己运行了几年了， bing 一条都没收录？",
           "imageUrl": null
         },
@@ -338,7 +349,7 @@
           "description": "scienhub: \n美国公司注册的美区 Apple Developer Organization 账户\n适合：\n个人开发玩玩\n添加自己的调试设备\n海外 App Store 上架\n海外 App Store 上架可以帮你搞定收/回款（详情请看 https://batchfy.com/chuhai）。\n有兴趣的朋友请看主页联系方式。",
           "link": "https://www.v2ex.com/t/1104307",
           "publishedOn": "2025-01-11T01:12:31.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "美区 Apple Developer 公司账户拼车，长期有效不限量",
           "imageUrl": null
         },
@@ -348,7 +359,7 @@
           "description": "q1102389095: \n平时码工作之外喜欢弄一些心理学的东西，一开始小的时候是想着控制人是很有趣的事情，比如催眠等等，但后来看清催眠并不是电视剧电影那些可以控制人的，只是通过潜意识交流，当然潜意识也会影响主观意识操作。后来就被一些理论吸引，决定用一些时间去实践这些理论\n1 、马斯洛层次需求理论\n\n这个是学习产品课程学到的一个理论，从中找到了攀登人生的步骤，也熟知了一些关系的处理。比如性就是需求，友情就是友情，爱情就是爱情，不能弄的混乱。所以单身时候满足需求有一类人，只谈友情的也都有一类人，至于爱这个问题比较复杂，消磨得多，短时间也不会有，但有了爱性就要克制。\n2 、然后就是乌合之众的一些理论\n以下这些理论确实比较深有感触吧，当然感觉书中也有些不太对的地方或者说思考过后感觉并不适合国内当下的现状。\n群体智力低于个体智力(不盲目从众，坚持自己的风格)\n群体行为受情绪影响(想控制群体那就想让其疯狂，特别是领头羊)\n群体容易受到暗示和操纵(传销以及成功学最出名的 7yes 原则，如果是一个人面对 7yes 可能会深度思考一下)\n群体行为的极端化倾向\n3 、阿德勒的个体心理学\n高中时期是中度抑郁，然后高二下学期休学最后直接高考了，上大学因为幻想不受拘束的校园生活比较开心吧所以就好了(初高中都是衡水模式封闭式学校，压抑至极)。但前段时间喜欢上一个人，然后因为一些事重度抑郁了，一开始并没直接学习阿德勒的个体心理学，先看的焦虑型人格自救手册让自己静下来后又看到的《被讨厌的勇气》和《幸福的勇气》，确实很代入，然后一个月时间就走出来了，生活也有很大改变。进而又看了一些自卑与超越，看着像是病例手册，有一些的晦涩难懂，但总体来说学习完也有些收获也决定要用很长时间实践，以下是阿德勒个体心理学的一些主要思想。我本人依恋模式是焦虑型遇到了喜欢的回避型，受不了冷暴力，所以长期焦虑形成的抑郁。\n目的论：…",
           "link": "https://www.v2ex.com/t/1104306",
           "publishedOn": "2025-01-11T01:10:39.000Z",
-          "wordCount": 629,
+          "wordCount": 644,
           "title": "一起讨论一下各自支撑生活的理论",
           "imageUrl": null
         },
@@ -368,7 +379,7 @@
           "description": "jimmyliu: \n招聘 AI\nhead of ai ops  HC:1\nhead of ai platforms HC:1\nhead  ai integrations HC:1\nhead ai engineerings HC:1\nSenior, AI Platform HC:2\nPrincipal AI Engineer HC:5\n要求：8-10 年工作经验 英文流利 AI 技术过硬\nBased on:  广州，可在家办公 20 周陪产假\n20 天年假,15 天病假\nHead 薪资范围：90k-120k/m\nSenior 薪资范围：60-80k/m\n有意私聊 SmltbXk4OTc3MTIxOA==  请备注 V2EX-AI",
           "link": "https://www.v2ex.com/t/1104304",
           "publishedOn": "2025-01-11T00:11:16.000Z",
-          "wordCount": 441,
+          "wordCount": 451,
           "title": "（招聘）广州 AI 岗位 Hybrid Working",
           "imageUrl": null
         },
@@ -478,7 +489,7 @@
           "description": "gransh: \n一直在做运维，本来是业余时间学 Android 开发，结果学个半吊子移动端凉了。\n然后学 javaweb ，学 springboot ，会简单的 crud ，偶尔自己写点小需求。\n从来没有真正的转开发成功过，所以经验 0 ，熟练度也不行。\n现在其实属于失业状态，年前试了试找工作基本凉凉，年龄也 36 了。\n据我了解，java 现在应该属于比运维更凉凉的状态了，我也不指望能转开发了，就自己做点东西玩吧。\n然后目前考虑的是做点网站 or 独立游戏开发，靠兴趣驱动。\n做网站的话造轮子不如直接用别人的框架，做独立游戏的话需要 C++或者 C#。\n现在纠结的点是我难得学了那么久，要不要深入继续学 java ，Android 换 java 好歹还都是 java 。如果直接定目标要做什么，然后靠 ai 搞定，边做边学新东西，相当于直接放弃过去学了那么久的东西。\n各位都是怎么平衡心态的呢，我指学了很久发现没用又需要学新的。",
           "link": "https://www.v2ex.com/t/1104287",
           "publishedOn": "2025-01-10T15:16:33.000Z",
-          "wordCount": 492,
+          "wordCount": 502,
           "title": "AI 时代，纠结还要不要深入学 Java",
           "imageUrl": null
         },
@@ -528,7 +539,7 @@
           "description": "drymonfidelia: \n非常简易的一个测试程序\n# -*- coding: UTF-8 -*-\n\nfrom flask import Flask, request\nimport json\nimport time\nimport re\n\nimport sys\nimport asyncio\n\nfrom tornado.ioloop import IOLoop\nfrom tornado.wsgi import WSGIContainer\nfrom tornado.httpserver import HTTPServer\n\nimport sqlalchemy\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String, create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nengine = create_engine('sqlite:///database.db?check_same_thread=False')\n\nBase = declarative_base()\n\n\nclass ClientLog(Base):\n    __tablename__ = 'clientlog'\n    log_id = Column(Integer, primary_key=True, autoincrement=True)\n    message = Column(String(512))\n\n    def __repr__(self):\n        return \"A\"\n\n\nfrom sqlalchemy.ext.declarative import DeclarativeMeta\n\n…",
           "link": "https://www.v2ex.com/t/1104276",
           "publishedOn": "2025-01-10T14:11:19.000Z",
-          "wordCount": 812,
+          "wordCount": 820,
           "title": "Flask+SQLite+Tornado 在 Windows 2019 下 100 并发都撑不住是怎么回事？",
           "imageUrl": null
         },
@@ -538,7 +549,7 @@
           "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
           "link": "https://www.v2ex.com/t/1104274",
           "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 473,
+          "wordCount": 480,
           "title": "大部分公司春节都是提前一周放假的吗",
           "imageUrl": null
         },
@@ -608,7 +619,7 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 777,
+          "wordCount": 793,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         }
