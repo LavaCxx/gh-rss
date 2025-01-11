@@ -131,6 +131,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -188,101 +205,107 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/689",
-          "author": null,
-          "description": "阿里云提供200Mbps带宽轻量云服务器\n阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制。新规格在内地、香港和境外所有区域均有提供，并在阿里云国际站同步上线。\n根据网友提供的信息，阿里云客服表示新规格不限制流量，但不保证资源抢占情况。有网友还发现，新款上线后旧款24元、34元香港轻量已不再提示“当日售出量已达上限”。\n注意：尽量不要使用阿里云进行跨境代理，会有后台检测。如果你决心这样做，至少要D一下系统。\n[消息等级 Level B · #重要 ]",
-          "link": "https://t.me/vps_xhq/689",
-          "publishedOn": "2024-12-26T06:42:18.000Z",
-          "wordCount": null,
-          "title": "阿里云提供200Mbps带宽轻量云服务器 阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/687",
-          "author": null,
-          "description": "IBM 云计算平台为开源项目提供永久免费服务器\nIBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服务器。配置为 2vCPU 8GB内存 100GB磁盘。\n不过，和甲骨文不同，申请 IBM 免费主机有一定的门槛，理论上只有开源项目的开发者可以申请。申请时需要提供开源项目的名称以及开源项目的公开地址，并说明将如何使用该资源。填写表单阶段没有验证步骤，提交后会显示“我们会尽快与您联系”，并收到一封同样内容的邮件。显然申请需要通过人工审核，后续还可能要求进一步补充材料。预测通过的概率较低，因为活动并没有在各个主要的VPS论坛中引起太大的反响。\nIBM LinuxONE 是专为托管企业 Linux 应用程序而构建的服务器系列。其架构称为 s390x，旨在将更多的计算能力整合到每个 CPU 核心中。这能够以更少的核心驱动更多的处理，并且在软件许可证成本由核心决定的情况下可以节省大量成本。通过减少数据中心的供电、冷却和维护数量，还可以节省更多成本。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/687",
-          "publishedOn": "2024-12-23T08:50:42.000Z",
-          "wordCount": null,
-          "title": "IBM 云计算平台为开源项目提供永久免费服务器 IBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/686",
-          "author": null,
-          "description": "美国调查中国电信美洲公司云计算和互联网业务\n根据路透社援引知情人士的消息，美国商务部正采取行动进一步打击中国电信的美国子公司，因为担心该公司可能通过其美国云计算和互联网业务获取美国数据。\n美国商务部上周向中国电信美洲公司发出了一份初步裁定，认为其在美国网络和云服务中的存在对美国国家安全构成风险，给予该公司30天时间作出回应。联邦通信委员会2021年以国家安全担忧为由撤销了中国电信美洲公司在美国运营的授权。六月有报道称，拜登政府正在调查中国电信、移动和联通在美国的云计算和互联网业务。\n美国针对中国电信美洲公司的云计算和互联网业务调查可能会给 CN2GIA 业务带来风险。但目前尚无任何明确的信息表明这种风险是迫在眉睫的。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/686",
-          "publishedOn": "2024-12-17T06:39:07.000Z",
-          "wordCount": null,
-          "title": "美国调查中国电信美洲公司云计算和互联网业务 根据路透社援引知情人士的消息，美国商务部正采取行动进一步打击中国电信的美国子公司，因为担心该公司可能通过其...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/685",
-          "author": null,
-          "description": "Cloudflare 已明文禁止搭建VPN和代理服务，禁止优选IP\nCloudflare 已于本月初修改了其服务条款，根据新的协议，用户使用其服务提供虚拟专用网络（VPN）或其他类似的代理服务将被视为违规。\nCloudflare 早些时候已禁止用户将 Cloudflare 代理域名的流量发送给非 Cloudflare 分配的IP地址。该规定直接影响“IP优选”工具的使用，一些用户会使用此类工具绕过CF的正常流量分配机制，以获得更好的网络访问性能。但它显然会破坏 CF 网络节点的分配策略。\n此前，Cloudflare 也会对优选IP行为进行技术干预，包括拒签SSL证书和停止流量转发。由于上述行为已经明确被列为滥用服务的事项，因此继续搭建代理节点和优选IP可能导致封号，需要慎重操作。当然，该条款并不会影响 SaaS 、Tunnel、WARP 等产品的正常使用。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/685",
-          "publishedOn": "2024-12-16T12:09:53.000Z",
-          "wordCount": null,
-          "title": "Cloudflare 已明文禁止搭建VPN和代理服务，禁止优选IP Cloudflare 已于本月初修改了其服务条款，根据新的协议，用户使用其服务提供虚拟专用网络（VPN）或其他类...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1104314",
+          "author": "jeremylai",
+          "description": "jeremylai: \n在平时使用到一些软件中，比如某宝或者某书，通过记录用户的行为来构建和分析用户的行为数据，同时也能更好优化产品设计和提升用户体验。比如在一个订单系统中，需要确定追踪用户的行为，比如：\n登录/登出\n浏览商品\n加购商品\n搜索商品关键字\n下单\n上述行为就需要使用到日志系统来存储或者记录数据，Java 有几种日志方案，简单介绍几种实现方案，以及需要注意的点。\n日志添加需要注意问题\n根据业务的不同，需要使用匹配到合适的日志方案。也需要注意几个问题：\n不能影响原来的业务逻辑。\n不能报错，即使报错，不能影响原有的业务代码。\n对于耗时的日志代码，使用异步方法\n侵入性低，尽量少改动原始代码\nSpring AOP\nSpring AOP 通过切面编程实现不修改原有代码，而动态添加功能的能力。这种方式有以下几个好处：\n侵入性低\n可重用性强\n本文使用基于注解的 AOP,首先定义一个切面注解 AopTest:\n/**\n * 切面注解\n */\n@Target({ElementType.TYPE, ElementType.METHOD})\n@Retention(RetentionPolicy.RUNTIME)\npublic @interface AopTest {\n}\n\n再创建通知 @Around：\n@Around(\"@annotation(com.test.annotation.AopTest)\")\npublic Object annotationTest(ProceedingJoinPoint joinPoint) throws Throwable {\n    log.info(\"执行前\");\n    Object result = joinPoint.proceed(); // 执行目标方法\n    Object[] args = joinPoint.getArgs();\n  …",
+          "link": "https://www.v2ex.com/t/1104314",
+          "publishedOn": "2025-01-11T01:48:45.000Z",
+          "wordCount": 694,
+          "title": "Java 日志记录几种实现方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104313",
+          "author": "lostexile",
+          "description": "lostexile: \n最近开了一个脑洞，小说主角眼前能看到一个指令行界面，可以通过执行指令语句操作现实世界，\n比如：\n查看某一个人的日志文件，来了解这个人的过往经历以及内心想法\n定位某个物体，修改指定的属性，可以临时修改硬度温度等等\n基于这个框架，大家有什么延伸的脑洞吗？",
+          "link": "https://www.v2ex.com/t/1104313",
+          "publishedOn": "2025-01-11T01:37:25.000Z",
+          "wordCount": 444,
+          "title": "有个小说的奇思妙想",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104311",
+          "author": "JustdoitSoso",
+          "description": "JustdoitSoso: \n正文\n我今天早上 8 点在 12306 手机 APP 购票的时候买的候补订单，然后我支付的时候银行付款页面已经弹出，手机银行付款以后 12306APP 显示了一个什么问题，当时没注意自己看，然后 APP 就自己退出登录(这是第一份订单）。\n当我再次登录上去的时候我没有刚才那个支付的订单，我以为是付款失败，然后重新候补了一份订单，扣款成功，订单也能查询到(这是第二份订单)。\n问题\n然后我去手机银行 APP 查询的时候发现第一份订单已经扣款成功了，但是我在手机 APP 和 12306PC 官网都查询不到我的那份订单，就是说钱已经扣了，订单没出来。然后我将第二份订单也退款了，钱能退回来，但是只退了第二份订单的钱。\n补充说明\n作为一个正常人以及是程序员的我非常非常确定第一份确实是扣款了得。然后银行流水和余额都能对上，第一份就是扣款了。然后扣款的那个订单在 12306 就是没出来，根本查询不到。\n后续补救措施\n一直在打 12306 官方客服电话，但是根本就没有客服，根本就打不通，找不到一个客服。\n想请教朋友，这种该怎么处理，毕竟小 1000 块钱，该怎么找回。",
+          "link": "https://www.v2ex.com/t/1104311",
+          "publishedOn": "2025-01-11T01:35:09.000Z",
+          "wordCount": 537,
+          "title": "朋友们有没有碰到在 12306 扣款成功但是订单没有生成的问题？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104309",
+          "author": "freaks",
+          "description": "freaks: \n也不见之前关注的公众号分享红包封面了， 看到 Apple 官方发了一个红包封面，以为会没得，点了一下，轻松获得😂， 支付宝图标嚷嚷着：“集福”了，进去一看，还是蓝色平常 banner ，虽然我也不会跟风去集，感觉一年不似一年啊",
+          "link": "https://www.v2ex.com/t/1104309",
+          "publishedOn": "2025-01-11T01:15:47.000Z",
+          "wordCount": 532,
+          "title": "突然感觉一点过年的气氛都没得了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104308",
+          "author": "MrBrand",
+          "description": "MrBrand: \nbing 是什么情况\n我的个人站点发布内容后，谷歌基本都是秒收录。并上面一条信息都搜不到。。。之前没有过什么违规。。\n我的博客域名：www.brandhuang.com",
+          "link": "https://www.v2ex.com/t/1104308",
+          "publishedOn": "2025-01-11T01:14:14.000Z",
+          "wordCount": 417,
+          "title": "我的个人博客，自己运行了几年了， bing 一条都没收录？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104307",
+          "author": "scienhub",
+          "description": "scienhub: \n美国公司注册的美区 Apple Developer Organization 账户\n适合：\n个人开发玩玩\n添加自己的调试设备\n海外 App Store 上架\n海外 App Store 上架可以帮你搞定收/回款（详情请看 https://batchfy.com/chuhai）。\n有兴趣的朋友请看主页联系方式。",
+          "link": "https://www.v2ex.com/t/1104307",
+          "publishedOn": "2025-01-11T01:12:31.000Z",
+          "wordCount": 404,
+          "title": "美区 Apple Developer 公司账户拼车，长期有效不限量",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104306",
+          "author": "q1102389095",
+          "description": "q1102389095: \n平时码工作之外喜欢弄一些心理学的东西，一开始小的时候是想着控制人是很有趣的事情，比如催眠等等，但后来看清催眠并不是电视剧电影那些可以控制人的，只是通过潜意识交流，当然潜意识也会影响主观意识操作。后来就被一些理论吸引，决定用一些时间去实践这些理论\n1 、马斯洛层次需求理论\n\n这个是学习产品课程学到的一个理论，从中找到了攀登人生的步骤，也熟知了一些关系的处理。比如性就是需求，友情就是友情，爱情就是爱情，不能弄的混乱。所以单身时候满足需求有一类人，只谈友情的也都有一类人，至于爱这个问题比较复杂，消磨得多，短时间也不会有，但有了爱性就要克制。\n2 、然后就是乌合之众的一些理论\n以下这些理论确实比较深有感触吧，当然感觉书中也有些不太对的地方或者说思考过后感觉并不适合国内当下的现状。\n群体智力低于个体智力(不盲目从众，坚持自己的风格)\n群体行为受情绪影响(想控制群体那就想让其疯狂，特别是领头羊)\n群体容易受到暗示和操纵(传销以及成功学最出名的 7yes 原则，如果是一个人面对 7yes 可能会深度思考一下)\n群体行为的极端化倾向\n3 、阿德勒的个体心理学\n高中时期是中度抑郁，然后高二下学期休学最后直接高考了，上大学因为幻想不受拘束的校园生活比较开心吧所以就好了(初高中都是衡水模式封闭式学校，压抑至极)。但前段时间喜欢上一个人，然后因为一些事重度抑郁了，一开始并没直接学习阿德勒的个体心理学，先看的焦虑型人格自救手册让自己静下来后又看到的《被讨厌的勇气》和《幸福的勇气》，确实很代入，然后一个月时间就走出来了，生活也有很大改变。进而又看了一些自卑与超越，看着像是病例手册，有一些的晦涩难懂，但总体来说学习完也有些收获也决定要用很长时间实践，以下是阿德勒个体心理学的一些主要思想。我本人依恋模式是焦虑型遇到了喜欢的回避型，受不了冷暴力，所以长期焦虑形成的抑郁。\n目的论：…",
+          "link": "https://www.v2ex.com/t/1104306",
+          "publishedOn": "2025-01-11T01:10:39.000Z",
+          "wordCount": 586,
+          "title": "一起讨论一下各自支撑生活的理论",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104305",
+          "author": "mobbdeep",
+          "description": "mobbdeep: \n香港保诚 AGENT ，V：13770930739\n一切香港有关都可以交流咨询。",
+          "link": "https://www.v2ex.com/t/1104305",
+          "publishedOn": "2025-01-11T00:40:26.000Z",
+          "wordCount": 337,
+          "title": "对香港保险感兴趣的欢迎咨询！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104304",
+          "author": "jimmyliu",
+          "description": "jimmyliu: \n招聘 AI\nhead of ai ops  HC:1\nhead of ai platforms HC:1\nhead  ai integrations HC:1\nhead ai engineerings HC:1\nSenior, AI Platform HC:2\nPrincipal AI Engineer HC:5\n要求：8-10 年工作经验 英文流利 AI 技术过硬\nBased on:  广州，可在家办公 20 周陪产假\n20 天年假,15 天病假\nHead 薪资范围：90k-120k/m\nSenior 薪资范围：60-80k/m\n有意私聊 SmltbXk4OTc3MTIxOA==  请备注 V2EX-AI",
+          "link": "https://www.v2ex.com/t/1104304",
+          "publishedOn": "2025-01-11T00:11:16.000Z",
+          "wordCount": 440,
+          "title": "（招聘）广州 AI 岗位 Hybrid Working",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1104302",
           "author": "jlak",
           "description": "jlak: \n搞了好久都没搞起来，不是渲染本地 md 文件，而是从 cms 抓取 markdown 的 content 然后丢给 next-mdx-remote/rsc 渲染，需要服务器端渲染\n但是搞了很久渲染的和想要的效果差很远\n还不区分换行和空行，所有空行都没了\n最小代码\nimport { MDXRemote } from \"next-mdx-remote/rsc\";\n\nexport default async function Render({ md }) {\n  return (\n    <MDXRemote source={md} />\n  );\n}\n\n想要的效果\n\n实际渲染",
           "link": "https://www.v2ex.com/t/1104302",
           "publishedOn": "2025-01-10T22:40:10.000Z",
-          "wordCount": 937,
+          "wordCount": 941,
           "title": "请问 next.js 里如何好好渲染 md",
           "imageUrl": null
         },
@@ -302,7 +325,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1104300",
           "publishedOn": "2025-01-10T19:59:02.000Z",
-          "wordCount": 447,
+          "wordCount": 471,
           "title": "现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？",
           "imageUrl": null
         },
@@ -312,7 +335,7 @@
           "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\nhttps://web.powtain.com/pow/yDjlr3 （右上角切换语言）",
           "link": "https://www.v2ex.com/t/1104299",
           "publishedOn": "2025-01-10T18:57:47.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "最高法院听取关于 TikTok 禁令的案件。2025 年 1 月 10 日。暗示可能会维持美国的 TikTok 禁令",
           "imageUrl": null
         },
@@ -332,7 +355,7 @@
           "description": "ificando: \n才知道有 mosh 这个\n管理 vps 特别需要\n但是服务器安装了 mosh ，mac 连接就显示蓝色屏 \nmosh: Nothing received from server on UDP port 60001. [To quit: Ctrl-^ .]\n啥原因，我看好多人也发这个\n请大佬帮忙看，服务器支持 udp ，也安装 gpt 一些方式确认了 什么防火墙关闭啥的\n就是客户端连不上服务器那边",
           "link": "https://www.v2ex.com/t/1104296",
           "publishedOn": "2025-01-10T16:57:03.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "mosh ssh 问题",
           "imageUrl": null
         },
@@ -342,7 +365,7 @@
           "description": "iceriver99: \n既然可以把文件内容提交给 AI 阅读 让 AI 充当自己的知识库\n那如果是项目代码呢 以\n有老哥遇到过类似的情况吗 或者说已经有类似功能的工具了呢？\n让 AI 理解项目的架构阅读里面的代码，包含数据库相关的信息，然后有需求就和 AI 提交由它来实现",
           "link": "https://www.v2ex.com/t/1104295",
           "publishedOn": "2025-01-10T16:43:09.000Z",
-          "wordCount": 404,
+          "wordCount": 418,
           "title": "如何把项目代码全部提交给 AI 进行阅读呢",
           "imageUrl": null
         },
@@ -352,7 +375,7 @@
           "description": "bcsiof: \n目前有一个有几千日活的小程序，但是功能比较杂，且面向某特定人群。现在想要抓紧把核心功能抽出来做成通用型 App ，进一步发展。目前有几个选择：\nApple 端注册个人开发者（似乎是允许个人开发者上架带 UCG 的 App 的），安卓端推 PWA 或者分发 APK 。但是这样安卓端使用门槛太高，国内没有使用 pwa 的习惯，apk 现在很多平台也需要很多步操作才能直接安装。\n注册个体工商户，好处是各大平台应该都可以上架 UGC App ，也可以发验证码了。坏处是目前正在某大厂工作，公司有严格的禁止兼职的规定，担心被查到，被辞退+竞业。\n注册公司，能力更丰富但是目前暂时用不到，竞业风险也更大。\n挂靠在朋友的公司上，或者以亲朋好友为法人注册公司。\n像问问 v 友们：\n要获得上架带 UGC 的 App ，最小需要的资质是什么？\n挂靠或者以亲朋为法人，最大的风险点是什么？这样是否还可能会被公司查到？\n还有什么其他方法达成我的目的吗？\n感谢！",
           "link": "https://www.v2ex.com/t/1104294",
           "publishedOn": "2025-01-10T16:23:18.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "想开发全平台带 UGC 的 App，现在需要哪些资质？",
           "imageUrl": null
         },
@@ -382,7 +405,7 @@
           "description": "gransh: \n一直在做运维，本来是业余时间学 Android 开发，结果学个半吊子移动端凉了。\n然后学 javaweb ，学 springboot ，会简单的 crud ，偶尔自己写点小需求。\n从来没有真正的转开发成功过，所以经验 0 ，熟练度也不行。\n现在其实属于失业状态，年前试了试找工作基本凉凉，年龄也 36 了。\n据我了解，java 现在应该属于比运维更凉凉的状态了，我也不指望能转开发了，就自己做点东西玩吧。\n然后目前考虑的是做点网站 or 独立游戏开发，靠兴趣驱动。\n做网站的话造轮子不如直接用别人的框架，做独立游戏的话需要 C++或者 C#。\n现在纠结的点是我难得学了那么久，要不要深入继续学 java ，Android 换 java 好歹还都是 java 。如果直接定目标要做什么，然后靠 ai 搞定，边做边学新东西，相当于直接放弃过去学了那么久的东西。\n各位都是怎么平衡心态的呢，我指学了很久发现没用又需要学新的。",
           "link": "https://www.v2ex.com/t/1104287",
           "publishedOn": "2025-01-10T15:16:33.000Z",
-          "wordCount": 485,
+          "wordCount": 492,
           "title": "AI 时代，纠结还要不要深入学 Java",
           "imageUrl": null
         },
@@ -392,7 +415,7 @@
           "description": "id7368: 手慢无 苹果红包封面 https://mp.weixin.qq.com/s/RpSE99daSDnZnprp86tL4g",
           "link": "https://www.v2ex.com/t/1104286",
           "publishedOn": "2025-01-10T15:08:57.000Z",
-          "wordCount": 372,
+          "wordCount": 379,
           "title": "苹果官方红包封面",
           "imageUrl": null
         },
@@ -432,7 +455,7 @@
           "description": "drymonfidelia: \n非常简易的一个测试程序\n# -*- coding: UTF-8 -*-\n\nfrom flask import Flask, request\nimport json\nimport time\nimport re\n\nimport sys\nimport asyncio\n\nfrom tornado.ioloop import IOLoop\nfrom tornado.wsgi import WSGIContainer\nfrom tornado.httpserver import HTTPServer\n\nimport sqlalchemy\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String, create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nengine = create_engine('sqlite:///database.db?check_same_thread=False')\n\nBase = declarative_base()\n\n\nclass ClientLog(Base):\n    __tablename__ = 'clientlog'\n    log_id = Column(Integer, primary_key=True, autoincrement=True)\n    message = Column(String(512))\n\n    def __repr__(self):\n        return \"A\"\n\n\nfrom sqlalchemy.ext.declarative import DeclarativeMeta\n\n…",
           "link": "https://www.v2ex.com/t/1104276",
           "publishedOn": "2025-01-10T14:11:19.000Z",
-          "wordCount": 777,
+          "wordCount": 795,
           "title": "Flask+SQLite+Tornado 在 Windows 2019 下 100 并发都撑不住是怎么回事？",
           "imageUrl": null
         },
@@ -442,7 +465,7 @@
           "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
           "link": "https://www.v2ex.com/t/1104274",
           "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 445,
+          "wordCount": 462,
           "title": "大部分公司春节都是提前一周放假的吗",
           "imageUrl": null
         },
@@ -452,7 +475,7 @@
           "description": "hxlgg01: \n最近在用 Gemini 的时候，发现它生成一段 7 行的小红书文案用了 4000 多个 token ，而我用它生成一段 20 行的数学题解析时，却只用了 1000 多个 token 。有没有人知道 Gemini 的 token 到底是怎么算的？",
           "link": "https://www.v2ex.com/t/1104273",
           "publishedOn": "2025-01-10T13:59:33.000Z",
-          "wordCount": 425,
+          "wordCount": 521,
           "title": "Gemini API 的 token 到底是怎么计的？",
           "imageUrl": null
         },
@@ -462,7 +485,7 @@
           "description": "MoRanjiang: \n穿衣计算器\n最近要去东北旅游，这辈子没去过这么冷的地方，难以根据经验计算自己要穿多少衣服，AI 和网上的一些攻略也是各有各的说法，服装品牌的温标更是随心所欲，所以用 AI 糊了这个工具。\n我研究并参考了 国家标准|GB/T 18398-2001 和 Standard 55 – Thermal Environmental Conditions for Human Occupancy。\n简单使用方法：\n先算出自己的发热率\n比如你在 15 摄氏度觉得穿一件 T 刚刚好舒适不会出汗（国标的 0.78 应该是穿了一件 T 打底左右的样子，赤膊大概是 0.6 左右），你的皮肤温度、基础保暖能力都比较大众，可以算出单位体表面积非蒸发放热率 (H) = 151.36 W/m²。\n代入计算\n那么如果活动类型、空气湿度等等因素都不变的情况下，在 - 40 ℃ 大概需要服装热阻 (I) = 2.34 clo 的衣服。\n找衣服\n查资料得知，550 蓬羽绒热阻 0.7 clo/oz-m^2 ，可以计算出（这部分还没做好，得手动）大概需要 3.34 盎司每平米的羽绒服，就是比较普通的款。",
           "link": "https://www.v2ex.com/t/1104272",
           "publishedOn": "2025-01-10T13:54:47.000Z",
-          "wordCount": 450,
+          "wordCount": 459,
           "title": "一个比较科学的穿衣计算器",
           "imageUrl": null
         },
@@ -512,68 +535,8 @@
           "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
           "link": "https://www.v2ex.com/t/1104265",
           "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 688,
+          "wordCount": 732,
           "title": "不想做女友的情绪垃圾桶是我的错吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104264",
-          "author": "idblife",
-          "description": "idblife: 求教",
-          "link": "https://www.v2ex.com/t/1104264",
-          "publishedOn": "2025-01-10T13:16:41.000Z",
-          "wordCount": 352,
-          "title": "北京联通如何跑 PT 不被限制上传",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104262",
-          "author": "iMath",
-          "description": "iMath: \n如果我把 openai 或 deepseek 的 api key 写到 GUI 客户端里，然后把这个 GUI 客户端软件打包成 exe 软件分发给好多用户，我的 key 不会被用户使用网络抓包软件探测到而泄露呢？\n我是为了提高响应速度所以才会这么做的，否则我也知道可以把这部分功能放到我的服务器上面，然后再转接给客户端。\n除此之外不知道还有没有别的方法？",
-          "link": "https://www.v2ex.com/t/1104262",
-          "publishedOn": "2025-01-10T12:48:43.000Z",
-          "wordCount": 404,
-          "title": "把 openai 或 deepseek 的 api key 写到 GUI 客户端里会被网络抓包软件嗅探到吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104258",
-          "author": "vincentWdp",
-          "description": "vincentWdp: \n两个设备都是奥睿科(orico)的.\nhub 的速度是 10 gbps(两个 typec 口, 两个 usb3 口). 硬盘盒的速度是 20gbps, typec 口, 硬盘是 2TB 的 m.2 接口的 ssd(笔记本上拆下来的).\n大概是四个场景：\n两头都是 typec 的线连到 hub：无法识别硬盘; 或者识别出来后, 点击盘符会连带整个 win11 的资源管理器都卡。\ntypec-usb3 的线连到 hub：可以访问硬盘了, 但传输速度非常慢, 远远不到 10gbps 的速度, 而且复制(复制文件到电脑硬盘)时间一长, 会出现访问中断的现象(忘记弹窗的具体内容了, 大意是被读取的那个盘不存在了)\n两端都是 typec 线, 直连硬盘盒与电脑：情况与场景 1 类似, 基本上识别不到硬盘, 只能看到硬盘盒设备\n后来啊哈💡了一下, 用 typec-usb3 直连电脑和硬盘盒(别问, 问就是忘了), 这才能顺畅访问这个硬盘.\n问了 chatgpt, 场景 3 可能是因为电脑那个 typec 端口只支持充电或小带宽传输.\n问题 1 和 2 可能是因为 hub 的电源不充足, 没办法支持高速传输. 总之罗列了很多可能性, 我没办法确定根本原因.\n这里面又涉及到了 usb 的多个版本和带宽:\nUSB3.0 (USB 3.1 Gen 1): 最高 5Gbps.\nUSB3.1 Gen 2 (USB 3.2 Gen 2): 最高 10Gbps.\nUSB3.2 Gen 2x2: 最高 20Gbps, 实现方案还是 10+10.\n有没有懂这方面的老哥?",
-          "link": "https://www.v2ex.com/t/1104258",
-          "publishedOn": "2025-01-10T12:32:29.000Z",
-          "wordCount": 532,
-          "title": "连接奥睿科的硬盘盒到他家的 usb hub 会导致硬盘访问异常, 包括无法识别硬盘、访问中断、识别很慢、读写很慢.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104257",
-          "author": "yxylaurier",
-          "description": "yxylaurier: \n楼主在 2022 年初买的加版 iPhone 13 Pro ，用了 2 年多，去年 1 月换了一次第三方电池，但也还是不耐用。想在闲鱼上买个加版的 iPhone 16 Pro Max ，看到很多家都卖加版，好奇为什么这些店家为什么都不能提供发票，而且只能他们代送修？如果我自己去送修呢？这中间是不是有什么猫腻？",
-          "link": "https://www.v2ex.com/t/1104257",
-          "publishedOn": "2025-01-10T12:21:18.000Z",
-          "wordCount": 411,
-          "title": "为什么闲鱼外版 iPhone 没有发票？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104256",
-          "author": "zp396099430",
-          "description": "zp396099430: \n预算 1000 内 玩三角洲\n要求长时间佩戴舒适 不夹耳 能听脚步\n影音什么的无所谓，用电视看的",
-          "link": "https://www.v2ex.com/t/1104256",
-          "publishedOn": "2025-01-10T12:18:03.000Z",
-          "wordCount": 377,
-          "title": "求推荐 FPS 耳机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104255",
-          "author": "grey5659",
-          "description": "grey5659: 老家的老摩托坏了，现在要买辆新的，有这么些需求和疑问麻烦了解的哥们给点意见，感谢\n1.我爸骑，年龄 69 \n2.是买电动车还是加油的，我爸的理念一直认为电动车跑不了多远，说跑个十几公里就要充电 \n3.用途就是在农村短途跑一跑，单次通勤距离就算 30 公里顶天了，当然电动车的话续航能远点最好 \n4.需要能带个一大一小两个人，可能偶尔有这个需求 \n5.铅酸电池是不是好一点，比较稳定不容易发生起火(相较于锂电池) \n6.质量要过硬一点，不要大小毛病不断，印象中现在退役的老摩托就很耐造 \n7.老家是柏油马路，爬坡的地方也不少 \n8.预算 5000 左右\n9.符合这些需求的具体款式最好😄",
-          "link": "https://www.v2ex.com/t/1104255",
-          "publishedOn": "2025-01-10T12:17:25.000Z",
-          "wordCount": 432,
-          "title": "怎么买到合适的摩托车？",
           "imageUrl": null
         }
       ]
