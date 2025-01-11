@@ -137,23 +137,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -300,6 +283,236 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104339",
+          "author": "chatbase",
+          "description": "chatbase: \nphoto to photo 能力太强了，几秒钟生成好看、有趣的各种图片且可以保持人脸一致性:\n\n\n\n\n有生成头像需求的可以试用，目前完全免费：\nhttps://www.photomaker.co \nAI Photo Maker | Avatar Maker | Free Online\n使用过程中的问题可以留言，第一次做这样的工具站，V 友都是手下留情",
+          "link": "https://www.v2ex.com/t/1104339",
+          "publishedOn": "2025-01-11T05:21:38.000Z",
+          "wordCount": 382,
+          "title": "借助 bolt new 实现一个基本可用的 AI Photo， Avatar Maker",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104338",
+          "author": "Lambert2022",
+          "description": "Lambert2022: \n基于现有 Flutter Instagram Clone 项目进行 SwiftUI 重构\nSwiftUI + TCA + PowerSync + Supabase\n离线优先、实时同步\nGithub",
+          "link": "https://www.v2ex.com/t/1104338",
+          "publishedOn": "2025-01-11T05:21:03.000Z",
+          "wordCount": 389,
+          "title": "使用 SwiftUI + TCA 重构 Instagram Clone：从 Flutter 到 SwiftUI 的迁移实践",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104337",
+          "author": "tlxma",
+          "description": "tlxma:",
+          "link": "https://www.v2ex.com/t/1104337",
+          "publishedOn": "2025-01-11T05:16:04.000Z",
+          "wordCount": 400,
+          "title": "Mac mini m4 能玩漫威争锋么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104336",
+          "author": "beginor",
+          "description": "beginor: \n手上的 21 款 MacBook Pro 一直带壳使用， 最近壳坏了， 开始用裸机。\n最近几天突然发现合起屏幕时，右边靠近身体那个角，屏幕向右凸出约 0.5 毫米， 对应的左侧凹进约 0.5 毫米。\n以前带壳使用的时候一直没注意， 现在发现 MacBook Pro 多了一项功能， 右边单手开合。\n可能是转轴歪了， 不知道这种状况能否直接去苹果店维修？",
+          "link": "https://www.v2ex.com/t/1104336",
+          "publishedOn": "2025-01-11T05:11:08.000Z",
+          "wordCount": 386,
+          "title": "我的 MacBook Pro 可以侧边单手开合",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104335",
+          "author": "LouisGuo",
+          "description": "LouisGuo: 伏尔泰说：“快乐不过是梦，忧伤却是现实的。”\n  事实上他的话十分可信。\n  一个人想要评估自己的一生是否快乐，一定要一一记下他所逃过的各种劫数，而不管他曾享受的欢乐。因为“幸福获致术”的起始，就是首先承认它的名称本身就是一种委婉的说法。“生活幸福”就是指“生活不那么不幸福”——即度过一段可以容忍的生活。",
+          "link": "https://www.v2ex.com/t/1104335",
+          "publishedOn": "2025-01-11T05:05:31.000Z",
+          "wordCount": 337,
+          "title": "2025 了，写下去年你逃过的一劫吧",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104334",
+          "author": "reDesign",
+          "description": "reDesign:",
+          "link": "https://www.v2ex.com/t/1104334",
+          "publishedOn": "2025-01-11T05:02:26.000Z",
+          "wordCount": 353,
+          "title": "现在国内 Next.js 的开发岗位多吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104333",
+          "author": "azukipanda",
+          "description": "azukipanda: 点开 Instagram 的帐号中心，找到密码和帐号安全选项，里面就能查看帐号登陆的历史记录，发现我被显示为「 Yibin, China 」。\n一开始以为是 IP 被送中了，可不论怎么切换都这样显示（这个功能是即时更新地点的），觉得有点蹊跷。\n于是我打开 Safari ，登陆后进入同样的位置，发现地点变成了「 Mino-Shi, Japan 」。\n所以很困惑，这也许是 iPhone 上某些设置的问题？\n补充一个背景：\n为了尽可能避免 Instagram 和其他 Meta 应用知道我的确切定位，我已经关闭了这些 app 的追踪、定位权限，并且相机拍摄照片也设置成了不保存位置的方式，开放给 tInstagram 的也都是猫片。以及我肉身并不在宜宾，甚至根本不是南方城市。",
+          "link": "https://www.v2ex.com/t/1104333",
+          "publishedOn": "2025-01-11T04:42:18.000Z",
+          "wordCount": 421,
+          "title": "Instagram 账号显示位置问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104332",
+          "author": "syswow64",
+          "description": "syswow64: \n朋友之前从某电商购买运营商定制无线路由器一台。怎奈用起来不稳定，间歇性自重启。\n一番研究后，发现高资源占用导致 kernel panic ；并提取了名为 CuInformLoader 和 CuInform-inner 的插件。\n朋友请求看看这插件是个什么幺蛾子。元旦假期心血来潮，开工。\n于是在下 IDA 启动，一看……开幕即暴击……\n\n嗯？dpi 是什么意思呢？\n以「 maxnet dpi 」为关键词检索，不难发现其供应商主体——苏州迈科网络安全技术股份有限公司。\n浏览其官网，发现了对此产品的介绍。\n迈科网络的网络可视化插件目前已经广泛应用于各类网络组网设备，包括商业 WiFi 、家庭网关、家庭路由器、企业网关、FTTR 等，累计适配的设备设备型号超过 500+，并且该数字还在不断增长。\n\n\n\n云端特征库，多维探测技术——支持主动探测和被动采集，终端识别技术，边缘计算技术，厉害捏！\n这下知道那一堆 MSS 1400 、Window 29200 、源自各地家宽 IP 地址的主动探测包是谁发的了吧。参考： https://github.com/shadowsocks/shadowsocks-rust/discussions/888#discussioncomment-7521840 .\n至此，在下已心里有数，顿觉索然无味起来。\n粗略地看了看伪代码，最引人注目的部分为，读配置后，用 lua 脚本周期性地从终端采集\nhttp\nhttps\ndns\n设备信息\n拓扑\n元组\n上报至 sjcj.smarthome.chinaunicom[.]cn:7890 或 sjcj.smarthome.chinaunicom[.]cn:7443。\n这下知道运营商可视化后台的数据来源了吧。不良林观众成天念叨的 dns 泄露确实是个问题了（笑\n依据间谍软件的通用定义，间谍软件是秘密记录计算机活动的软件（ Spyware is software that can secretly record your activity on your computer ），故，此插件为间谍软件，以联通智慧物联的名义。\n而后，朋友检查了某运营商定制光猫，果然也发现了 CuInform 的踪迹。\n而且，光猫 CuInform 的配置文件含有私有地址，表示可通过 TR069 通道上报，对应桥接场景。\n一些可能有用的信息：\n加载器具有执行权限。\n插件设有启动标志文件，路径大概是 CuInform/enable。\n可用 bind mount 覆盖只读目录。",
+          "link": "https://www.v2ex.com/t/1104332",
+          "publishedOn": "2025-01-11T04:40:24.000Z",
+          "wordCount": null,
+          "title": "逆向了运营商定制无线路由器/光猫里的间谍软件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104331",
+          "author": "tomorrow092",
+          "description": "tomorrow092:",
+          "link": "https://www.v2ex.com/t/1104331",
+          "publishedOn": "2025-01-11T04:18:35.000Z",
+          "wordCount": 391,
+          "title": "It's Not Your Fault You're Behind In Life – A Software Engineer's Struggle",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104330",
+          "author": "fancy2020",
+          "description": "fancy2020: \n可以登录到 Netflix ，也能正常浏览列表，就是点进去播放的时候一直停留在 0%。\n家里网络是路由器翻墙的，在手机电脑 Apple TV 上都能正常播放 Netflix ，就是这台 Fire TV 不行。\n这台 Fire TV 上可以正常播放 YouTube 。\n所以问题到底出在哪了呢",
+          "link": "https://www.v2ex.com/t/1104330",
+          "publishedOn": "2025-01-11T04:05:43.000Z",
+          "wordCount": 453,
+          "title": "新买的 Fire TV Stick 4K Max 无法播放 Netflix",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104329",
+          "author": "Fxshiny",
+          "description": "Fxshiny: 《我的命令行不可能这么强大》\n第一章：意外的馈赠\n烈日炙烤着大地，年轻的铁匠徒弟卡勒拖着疲惫的身体，走在回村的路上。烈日和匠师的责骂都让他喘不过气。他不过是想改进铁锹的设计，结果却被骂了个狗血淋头，说什么“别试图改变已经决定的事情！”\n卡勒烦躁地踢开路上的石头，发泄着心中的不满。他盯着那块石头滚进路边的草丛，心里愤愤地想着，这种平凡又无趣的生活到底什么时候才会有个头？就在这时，天地突然一暗。\n一阵强光从他头顶闪过，仿佛撕裂了空气，发出刺耳的轰鸣声。卡勒惊恐地抬头，却发现光芒已经将他完全包围。他的双脚仿佛被抽离了大地，整个身体轻飘飘地浮了起来。\n再醒来时，卡勒发现自己身处一片虚无之中。\n四周是一片茫茫的白色，仿佛置身于无尽的空白画布上。没有太阳，没有影子，连声音都显得格外寂静。\n“欢迎使用命令行系统。”\n一个冷冰冰的机械女声在他耳边响起，打破了寂静。\n“什…么东西？”卡勒茫然四顾，试图找出声音的来源。\n突然，一道奇怪的半透明面板浮现在他面前，上面写满了他看不懂的符号。正中央，却有一个简单的输入框，闪烁着微弱的光芒。框下还标注着一行小字：\n输入命令，操控你的世界。\n卡勒小心翼翼地抬起手，试探性地触碰了一下输入框。触碰的瞬间，冰凉的触感从指尖传来，同时屏幕自动浮现了一串字符：\n> help\n卡勒眨了眨眼，不知道这是什么意思。犹豫了一会儿，他壮着胆子用手指轻轻点了一下那个奇怪的按钮。瞬间，面板上涌出一大段信息。\n可用命令：\n- ls — 显示当前区域物品\n- cd — 切换位置\n- rm — 删除指定目标\n- echo — 传递信息\n- touch — 创建物品\n...\n卡勒盯着这些信息，感觉自己的脑子快炸了。他完全看不懂这些东西是什么意思。\n“这是神的力量吗？”他喃喃自语，伸手去碰触屏幕上的文字，发现它们似乎并没有实体，只是漂浮在空气中的光影。\n怀着疑惑和一丝好奇，卡勒试探性地说道：“这东西到底怎么用？”\n“输入命令即可运行。”机械女声再次响起，语气依然冰冷，却带着某种不可置疑的权威感。\n“输入命令？”卡勒皱起眉头，“比如什么？”\n他转头看向屏幕上显示的那些词汇，犹豫片刻后，用手指按下了虚拟键盘上的几个字母：\n> ls\n瞬间，眼前的世界发生了变化。他的视线中浮现出一串悬浮文字：\n石块\n树枝\n铁匠师傅的旧锤子\n卡勒愣住了。他低头看向脚下，果然，自己的脚边是一块不起眼的石头，远处有几根被风吹落的树枝，而他手边，则是那把被匠师扔回来的旧锤子。\n“这…这是巧合吗？”他试探性地伸手去拿那块石头，但石头纹丝不动，仿佛被某种力量禁锢住了。\n他回过头，再次看向输入框，心中隐隐浮现一个大胆的猜想。\n“要用命令？”\n他屏住呼吸，在输入框中输入：\n> touch 新锤子\n一道白光闪过，他的手中凭空出现了一把锤子。\n这把锤子比铁匠铺里的那些普通锤子更加精致，锤柄光滑，锤头闪着微光，看上去就像是刚刚从熔炉中铸造出来的一样。\n“我的天……”卡勒的声音在空旷的虚无中显得格外清晰，他瞠目结舌地盯着手中的锤子，几乎不敢相信自己的眼睛。\n他用力挥动了一下锤子，感受到真实的重量和力道。\n“这…难道是真的？”\n一股狂喜涌上心头。他随即开始疯狂地尝试更多的命令。\n> touch 金币\n他的脚下瞬间多了一堆闪闪发光的金币。\n> rm 树枝\n远处那根枯树枝瞬间消失得无影无踪。\n“太神奇了！”卡勒兴奋地大叫起来。他从未想过自己有一天会掌握这样不可思议的力量。\n然而，他并没有意识到，这份神秘的力量将彻底改变他的生活，也将把他推向未知的危险与抉择之中。",
+          "link": "https://www.v2ex.com/t/1104329",
+          "publishedOn": "2025-01-11T03:48:50.000Z",
+          "wordCount": 446,
+          "title": "《我的命令行不可能这么强大》 哈哈哈哈哈哈哈",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104328",
+          "author": "wisej",
+          "description": "wisej: 早上用 bypass 抢票，开了自动支付的选项(因为候补顺序以支付后算)。\n然后从 log 输出看，候补成功也自动支付了。但是从“候补订单页面”看，状态还是“未支付”。于是我就赶紧手动支付了一次。然后在账单里一看，有两笔扣款---原来第一次是支付成功的...(而且在相关群里看，我不是个例，还有重复支付的）\n这么看的话，12306 对同一笔订单的支付不会作校验么？\n然后打 12306 ，要么网络忙，要么客席正忙。咱就是说，钱应该会退我的吧 :)",
+          "link": "https://www.v2ex.com/t/1104328",
+          "publishedOn": "2025-01-11T03:43:27.000Z",
+          "wordCount": 414,
+          "title": "分享一下： 12306 候补订单居然能重复支付",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104327",
+          "author": "XuYijie",
+          "description": "XuYijie: 兄弟们，最近接了一个网站私活，网站就是政府机关那种官网，但是多了直播、在线会议功能，还要有个后台管理系统，我感觉我一个月能做完吧，除去云服务的购买费用，我的个人工资要多少合适，我第一次接没经验，要 1 万合适吗？",
+          "link": "https://www.v2ex.com/t/1104327",
+          "publishedOn": "2025-01-11T03:33:47.000Z",
+          "wordCount": 596,
+          "title": "接私活如何报价",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104326",
+          "author": "qian0057",
+          "description": "qian0057: \n前些天买了一台照片打印机，就想试着做副业看看。\n机器用的是爱普生的 L8058\n墨水是爱普生原装 056 墨水\n相纸是富士的俏彩 260g\n关于褪色\n放在阳光下暴晒，3 个月就会褪色，不见光会保存好久好久，如果是南方的话，太潮湿就不知道了,有待验证。\n照片展示我就不展示了，我拿苹果原相机拍打印出来的照片，和照片对比会偏色，就不丢人了。哈哈哈\n价格有点小贵，有想法的朋友可以试一试，质量嘛肯定不是够多多能比的，一分价钱一分货！\nTB",
+          "link": "https://www.v2ex.com/t/1104326",
+          "publishedOn": "2025-01-11T03:29:59.000Z",
+          "wordCount": 427,
+          "title": "我的新副业，照片打印",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104325",
+          "author": "ivydom",
+          "description": "ivydom: \n最近在做很多 AI Agent 探索，发现现在的 Agent 框架比如 langchain 构建了太多复杂的概念，难于使用，且缺少 computeruse 和 browseruse 的能力。\n搜了很多看到一个比较简单且 all in one 的框架叫 eko ，相比于其他框架，Eko 的简洁和强大功能让我印象深刻。\n这个框架首先写起来比较简单，官网文档里显示只需要通过一句话就可以直接执行：\n// Example: Browser automation\nconst extWorkflow = await eko.generate(\"Search for 'Eko framework' on Google and save the first result\");\nawait eko.execute(extWorkflow);\n\n而且，它还能生成非常复杂的工作流程。比如，网页自动化测试只需用自然语言描述即可：\n    Current login page automation test:\n    1. Correct account and password are: admin / 666666 \n    2. Please randomly combine usernames and passwords for testing to verify if login validation works properly, such as: username cannot be empty, password cannot be empty, incorrect username, incorrect password\n    3. Finally, try to login with the correct account and password to verify if login is successful\n    4. Generate test report and export\n\n这真是太实用了！\n另外 eko 还集成了好多跨平台工具，支持 computeruse 和 browseruse ，比如：\n通过提示点击 GUI\n提取网页内容\n自动填写表单\n执行命令\n标签管理\n导出文件\n截屏\n网络搜索\n在 GitHub 上，我还发现了一些有趣的视频案例，比如自动分析竞品发布的 SEO 博客，查找股票信息并生成可视化报表。\n这让我看到了未来的曙光，真是令人兴奋不已！忍不住想和大家分享这个令人振奋的发现！",
+          "link": "https://www.v2ex.com/t/1104325",
+          "publishedOn": "2025-01-11T03:24:12.000Z",
+          "wordCount": 514,
+          "title": "分享一个生产级别可用的开源 Agentic Workflow 框架 Eko",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104324",
+          "author": "neochen13",
+          "description": "neochen13: \n很无奈，ClashX 已经停止维护了\n日常使用各种小毛病忍着用……\nSurge 啥都好，就是贵的不行，不是永久的且 1 年几百元，非常昂贵\nQuanX 我用过，不如 ClashX 啊……\n毕竟是移动端移植的，小火箭和 loon 要开启 sip 才能用，很多 app 需要关闭 sip\n原本 ClashX 是玩简洁很好用的，可惜了，佬们有啥 ClashX 的完美平替推荐不",
+          "link": "https://www.v2ex.com/t/1104324",
+          "publishedOn": "2025-01-11T03:16:32.000Z",
+          "wordCount": 115,
+          "title": "2025 年 1 月 11 日， ClashX 已经停更那么久的当下，除了 Surge， MacOS 还有好用的代理 App 吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104322",
+          "author": "Mucya",
+          "description": "Mucya: \n最近入手了个 mac mini m4 24G ，还没到货。现在上班还在用老款模具带 bar 的 mbp m2 ，平常只做做 figma 这种还行，打算学学前端，有用来编译项目的大佬觉得这个还够用吗？",
+          "link": "https://www.v2ex.com/t/1104322",
+          "publishedOn": "2025-01-11T03:08:30.000Z",
+          "wordCount": 467,
+          "title": "2025 年 m2 的 pro 还够用吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104321",
+          "author": "hcjge",
+          "description": "hcjge: \n今天闲来无事把之前写的这个小工具开源一下\n访问链接:https://wm.weilkq.com\ngithub:https://github.com/hcjge/h-watermark.git",
+          "link": "https://www.v2ex.com/t/1104321",
+          "publishedOn": "2025-01-11T03:02:37.000Z",
+          "wordCount": 356,
+          "title": "纯浏览器批量加水印小工具开源了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104320",
+          "author": "yeahjw",
+          "description": "yeahjw: producthunt 作为全球流量最大的软件产品集市，我每天都需要去快速浏览一下，以寻找灵感。\n\n但是通过主动进入网站的方式，有时难免会忘记，或者出门在外用手机又不方便挂梯子。\n\n于是我借助微信消息推送服务，通过自部署服务每天定时抓取 producthunt 榜单，然后翻译成中文并推送到微信消息中。被动接收一条消息类型的简报，真的很方便，很有幸福感！\n\n如果你也需要，麻烦支持一下我哦⊙∀⊙\nhttps://wxpusher.zjiecode.com/api/qrcode/WvA5Mt2x4IhP8I481lr3JUIfZ3r4tQe4suF4aPPGELJULs1zqRTQt5BQ6aDxjZKn.jpg",
+          "link": "https://www.v2ex.com/t/1104320",
+          "publishedOn": "2025-01-11T02:57:00.000Z",
+          "wordCount": 412,
+          "title": "如何每天定时收到 producthunt 日榜",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104319",
+          "author": "Kikomore",
+          "description": "Kikomore: \n前两天给家里主卧加装了一个小米 BE3600 ，做了一个简单的有线 mesh ，但是发现这样子的话 AX9000 只是作为一个简单的子路由，没法发挥他的优势。想问下有什么方式可以让 AX9000 作为主路由吗？\n目前有几点限制：\n弱电箱在主卧，无法放下 AX9000 的大身躯\n弱电箱只有单条到其他各房间的网线\n这是现在的网络图示：",
+          "link": "https://www.v2ex.com/t/1104319",
+          "publishedOn": "2025-01-11T02:54:34.000Z",
+          "wordCount": 445,
+          "title": "如何将小米 AX9000 作为主路由",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104318",
+          "author": "Tsing2",
+          "description": "Tsing2: \n刚把 13 pro 换成了 16 pro ，发现 16 pro 的屏是不会灭的，除非把光线传感器遮住，否则一直是处于一种暗暗的状态，有点像 Apple Watch 的模式。\n好奇，这样不伤 LED 屏的寿命吗？不费电吗？\n谢谢",
+          "link": "https://www.v2ex.com/t/1104318",
+          "publishedOn": "2025-01-11T02:47:54.000Z",
+          "wordCount": 512,
+          "title": "iPhone 16 Pro 的屏是不灭的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104316",
+          "author": "2016xlx",
+          "description": "2016xlx: 请问各位大佬现在都用啥 ai 面板呀,最好能配置付费那种,大概就是用户能注册,登录,然后付费使用 ai",
+          "link": "https://www.v2ex.com/t/1104316",
+          "publishedOn": "2025-01-11T02:34:45.000Z",
+          "wordCount": 381,
+          "title": "能分享一下各位现在用的什么面板？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104315",
+          "author": "tjmxf",
+          "description": "tjmxf: \n目前已经干了 4 年开发，今年 27 ，想问下大家对于未来的职业发展怎样看待。\n以自己目前的经验去看待，现在觉得这一行真的也不容易，在没入行就在各种帖子上看到这行基本上未来可以转管理或者专注技术。\n对于专注技术这条路，因为目前的经验基本都偏向业务，所以更多的是感受到可替代性特别强，这个活儿可能换个人熟悉一段时间大家都可以干。而且现在又是卖方市场，狼多肉少，毕业生大把，你不干总有人可以干。所以专注技术这个路怎么走？比如我们都知道操作系统很重要，其中有很多实现经验值得借鉴，可是实际是一个需求很多情况虽然你懂得了这些经验，但可能没懂这些经验不用任何设计直接罗列代码实现结果看上去是“一样的”，至少在业务眼里是一样交付的，那么学的这些技术知识又怎么体现呢？ 还有一个技术迭代不断，底层知识需要掌握，新技术也不能落下，总感觉技术这方面市场小，当然可能是我消息闭塞，可能接触的基本都是业务驱动，不知道技术驱动会是什么样。\n而对于管理，这个也不清楚道路是怎么走的，可能需要机遇，当然自己也可能不适合。看到互联网里竞争也是极大，动不动也要站队，搞好关系等等，当然这里是职场是社会，我理解想要些东西总要付出些东西。但是归结到个人，如果想走这条路，自己本身能做些什么呢？\n还有一点就是目前主要在一线城市，大家对于一线买房或者租房，其他地方买房或租房的看法，因为现在觉得这些可能更多的和就业绑定，所以感觉就业这方面更重要些。",
+          "link": "https://www.v2ex.com/t/1104315",
+          "publishedOn": "2025-01-11T02:18:20.000Z",
+          "wordCount": 465,
+          "title": "程序员的职业发展路线",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104314",
           "author": "jeremylai",
           "description": "jeremylai: \n在平时使用到一些软件中，比如某宝或者某书，通过记录用户的行为来构建和分析用户的行为数据，同时也能更好优化产品设计和提升用户体验。比如在一个订单系统中，需要确定追踪用户的行为，比如：\n登录/登出\n浏览商品\n加购商品\n搜索商品关键字\n下单\n上述行为就需要使用到日志系统来存储或者记录数据，Java 有几种日志方案，简单介绍几种实现方案，以及需要注意的点。\n日志添加需要注意问题\n根据业务的不同，需要使用匹配到合适的日志方案。也需要注意几个问题：\n不能影响原来的业务逻辑。\n不能报错，即使报错，不能影响原有的业务代码。\n对于耗时的日志代码，使用异步方法\n侵入性低，尽量少改动原始代码\nSpring AOP\nSpring AOP 通过切面编程实现不修改原有代码，而动态添加功能的能力。这种方式有以下几个好处：\n侵入性低\n可重用性强\n本文使用基于注解的 AOP,首先定义一个切面注解 AopTest:\n/**\n * 切面注解\n */\n@Target({ElementType.TYPE, ElementType.METHOD})\n@Retention(RetentionPolicy.RUNTIME)\npublic @interface AopTest {\n}\n\n再创建通知 @Around：\n@Around(\"@annotation(com.test.annotation.AopTest)\")\npublic Object annotationTest(ProceedingJoinPoint joinPoint) throws Throwable {\n    log.info(\"执行前\");\n    Object result = joinPoint.proceed(); // 执行目标方法\n    Object[] args = joinPoint.getArgs();\n  …",
@@ -315,7 +528,7 @@
           "description": "lostexile: \n最近开了一个脑洞，小说主角眼前能看到一个指令行界面，可以通过执行指令语句操作现实世界，\n比如：\n查看某一个人的日志文件，来了解这个人的过往经历以及内心想法\n定位某个物体，修改指定的属性，可以临时修改硬度温度等等\n基于这个框架，大家有什么延伸的脑洞吗？",
           "link": "https://www.v2ex.com/t/1104313",
           "publishedOn": "2025-01-11T01:37:25.000Z",
-          "wordCount": 657,
+          "wordCount": 665,
           "title": "有个小说的奇思妙想",
           "imageUrl": null
         },
@@ -325,7 +538,7 @@
           "description": "JustdoitSoso: \n正文\n我今天早上 8 点在 12306 手机 APP 购票的时候买的候补订单，然后我支付的时候银行付款页面已经弹出，手机银行付款以后 12306APP 显示了一个什么问题，当时没注意自己看，然后 APP 就自己退出登录(这是第一份订单）。\n当我再次登录上去的时候我没有刚才那个支付的订单，我以为是付款失败，然后重新候补了一份订单，扣款成功，订单也能查询到(这是第二份订单)。\n问题\n然后我去手机银行 APP 查询的时候发现第一份订单已经扣款成功了，但是我在手机 APP 和 12306PC 官网都查询不到我的那份订单，就是说钱已经扣了，订单没出来。然后我将第二份订单也退款了，钱能退回来，但是只退了第二份订单的钱。\n补充说明\n作为一个正常人以及是程序员的我非常非常确定第一份确实是扣款了得。然后银行流水和余额都能对上，第一份就是扣款了。然后扣款的那个订单在 12306 就是没出来，根本查询不到。\n后续补救措施\n一直在打 12306 官方客服电话，但是根本就没有客服，根本就打不通，找不到一个客服。\n想请教朋友，这种该怎么处理，毕竟小 1000 块钱，该怎么找回。",
           "link": "https://www.v2ex.com/t/1104311",
           "publishedOn": "2025-01-11T01:35:09.000Z",
-          "wordCount": 606,
+          "wordCount": 623,
           "title": "朋友们有没有碰到在 12306 扣款成功但是订单没有生成的问题？",
           "imageUrl": null
         },
@@ -335,7 +548,7 @@
           "description": "freaks: \n也不见之前关注的公众号分享红包封面了， 看到 Apple 官方发了一个红包封面，以为会没得，点了一下，轻松获得😂， 支付宝图标嚷嚷着：“集福”了，进去一看，还是蓝色平常 banner ，虽然我也不会跟风去集，感觉一年不似一年啊",
           "link": "https://www.v2ex.com/t/1104309",
           "publishedOn": "2025-01-11T01:15:47.000Z",
-          "wordCount": 681,
+          "wordCount": 714,
           "title": "突然感觉一点过年的气氛都没得了",
           "imageUrl": null
         },
@@ -345,7 +558,7 @@
           "description": "MrBrand: \nbing 是什么情况\n我的个人站点发布内容后，谷歌基本都是秒收录。并上面一条信息都搜不到。。。之前没有过什么违规。。\n我的博客域名：www.brandhuang.com",
           "link": "https://www.v2ex.com/t/1104308",
           "publishedOn": "2025-01-11T01:14:14.000Z",
-          "wordCount": 539,
+          "wordCount": 545,
           "title": "我的个人博客，自己运行了几年了， bing 一条都没收录？",
           "imageUrl": null
         },
@@ -365,7 +578,7 @@
           "description": "q1102389095: \n平时码工作之外喜欢弄一些心理学的东西，一开始小的时候是想着控制人是很有趣的事情，比如催眠等等，但后来看清催眠并不是电视剧电影那些可以控制人的，只是通过潜意识交流，当然潜意识也会影响主观意识操作。后来就被一些理论吸引，决定用一些时间去实践这些理论\n1 、马斯洛层次需求理论\n\n这个是学习产品课程学到的一个理论，从中找到了攀登人生的步骤，也熟知了一些关系的处理。比如性就是需求，友情就是友情，爱情就是爱情，不能弄的混乱。所以单身时候满足需求有一类人，只谈友情的也都有一类人，至于爱这个问题比较复杂，消磨得多，短时间也不会有，但有了爱性就要克制。\n2 、然后就是乌合之众的一些理论\n以下这些理论确实比较深有感触吧，当然感觉书中也有些不太对的地方或者说思考过后感觉并不适合国内当下的现状。\n群体智力低于个体智力(不盲目从众，坚持自己的风格)\n群体行为受情绪影响(想控制群体那就想让其疯狂，特别是领头羊)\n群体容易受到暗示和操纵(传销以及成功学最出名的 7yes 原则，如果是一个人面对 7yes 可能会深度思考一下)\n群体行为的极端化倾向\n3 、阿德勒的个体心理学\n高中时期是中度抑郁，然后高二下学期休学最后直接高考了，上大学因为幻想不受拘束的校园生活比较开心吧所以就好了(初高中都是衡水模式封闭式学校，压抑至极)。但前段时间喜欢上一个人，然后因为一些事重度抑郁了，一开始并没直接学习阿德勒的个体心理学，先看的焦虑型人格自救手册让自己静下来后又看到的《被讨厌的勇气》和《幸福的勇气》，确实很代入，然后一个月时间就走出来了，生活也有很大改变。进而又看了一些自卑与超越，看着像是病例手册，有一些的晦涩难懂，但总体来说学习完也有些收获也决定要用很长时间实践，以下是阿德勒个体心理学的一些主要思想。我本人依恋模式是焦虑型遇到了喜欢的回避型，受不了冷暴力，所以长期焦虑形成的抑郁。\n目的论：…",
           "link": "https://www.v2ex.com/t/1104306",
           "publishedOn": "2025-01-11T01:10:39.000Z",
-          "wordCount": 702,
+          "wordCount": 729,
           "title": "一起讨论一下各自支撑生活的理论",
           "imageUrl": null
         },
@@ -385,7 +598,7 @@
           "description": "jimmyliu: \n招聘 AI\nhead of ai ops  HC:1\nhead of ai platforms HC:1\nhead  ai integrations HC:1\nhead ai engineerings HC:1\nSenior, AI Platform HC:2\nPrincipal AI Engineer HC:5\n要求：8-10 年工作经验 英文流利 AI 技术过硬\nBased on:  广州，可在家办公 20 周陪产假\n20 天年假,15 天病假\nHead 薪资范围：90k-120k/m\nSenior 薪资范围：60-80k/m\n有意私聊 SmltbXk4OTc3MTIxOA==  请备注 V2EX-AI",
           "link": "https://www.v2ex.com/t/1104304",
           "publishedOn": "2025-01-11T00:11:16.000Z",
-          "wordCount": 459,
+          "wordCount": 461,
           "title": "（招聘）广州 AI 岗位 Hybrid Working",
           "imageUrl": null
         },
@@ -415,7 +628,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1104300",
           "publishedOn": "2025-01-10T19:59:02.000Z",
-          "wordCount": 486,
+          "wordCount": 500,
           "title": "现在 SHA1 已经属于不安全的 hash 算法了，但是很多软件的 codesign 还是 SHA1 的，是否有伪造签名的风险？",
           "imageUrl": null
         },
@@ -425,7 +638,7 @@
           "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\nhttps://web.powtain.com/pow/yDjlr3 （右上角切换语言）",
           "link": "https://www.v2ex.com/t/1104299",
           "publishedOn": "2025-01-10T18:57:47.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "最高法院听取关于 TikTok 禁令的案件。2025 年 1 月 10 日。暗示可能会维持美国的 TikTok 禁令",
           "imageUrl": null
         },
@@ -477,156 +690,6 @@
           "publishedOn": "2025-01-10T15:51:43.000Z",
           "wordCount": 408,
           "title": "做了一个 SmolAgent 的介绍和教程网站，不知道大家有什么建议没？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104288",
-          "author": "victer",
-          "description": "victer: 注册送免费额度\n云智 Ai-API\n直达连接： https://api.openxs.top",
-          "link": "https://www.v2ex.com/t/1104288",
-          "publishedOn": "2025-01-10T15:18:44.000Z",
-          "wordCount": 361,
-          "title": "一个稳定的 chatgpt 接口 、midjourney 接口、suno 接口平台",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104287",
-          "author": "gransh",
-          "description": "gransh: \n一直在做运维，本来是业余时间学 Android 开发，结果学个半吊子移动端凉了。\n然后学 javaweb ，学 springboot ，会简单的 crud ，偶尔自己写点小需求。\n从来没有真正的转开发成功过，所以经验 0 ，熟练度也不行。\n现在其实属于失业状态，年前试了试找工作基本凉凉，年龄也 36 了。\n据我了解，java 现在应该属于比运维更凉凉的状态了，我也不指望能转开发了，就自己做点东西玩吧。\n然后目前考虑的是做点网站 or 独立游戏开发，靠兴趣驱动。\n做网站的话造轮子不如直接用别人的框架，做独立游戏的话需要 C++或者 C#。\n现在纠结的点是我难得学了那么久，要不要深入继续学 java ，Android 换 java 好歹还都是 java 。如果直接定目标要做什么，然后靠 ai 搞定，边做边学新东西，相当于直接放弃过去学了那么久的东西。\n各位都是怎么平衡心态的呢，我指学了很久发现没用又需要学新的。",
-          "link": "https://www.v2ex.com/t/1104287",
-          "publishedOn": "2025-01-10T15:16:33.000Z",
-          "wordCount": 500,
-          "title": "AI 时代，纠结还要不要深入学 Java",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104286",
-          "author": "id7368",
-          "description": "id7368: 手慢无 苹果红包封面 https://mp.weixin.qq.com/s/RpSE99daSDnZnprp86tL4g",
-          "link": "https://www.v2ex.com/t/1104286",
-          "publishedOn": "2025-01-10T15:08:57.000Z",
-          "wordCount": 381,
-          "title": "苹果官方红包封面",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104285",
-          "author": "boboin",
-          "description": "boboin: \n有懂音箱的大神吗？最近想入 sonos  Era 300 ，发现闲鱼上有很多标注全新正品行货！未拆封！未激活！价格却很实惠 2700 ， 比京东 4149  天猫 4230 低很多。\n有知道这个是什么原因么？",
-          "link": "https://www.v2ex.com/t/1104285",
-          "publishedOn": "2025-01-10T14:48:16.000Z",
-          "wordCount": 416,
-          "title": "有懂音箱的吗？最近想入 sonos Era 300",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104279",
-          "author": "ztstillwater",
-          "description": "ztstillwater: 新买的 tp 摄像头支持 onvif ，可是没想到在 mac 和 ios 平台支持的客户端及其难找。要求支持 pvz 控制。",
-          "link": "https://www.v2ex.com/t/1104279",
-          "publishedOn": "2025-01-10T14:21:25.000Z",
-          "wordCount": 374,
-          "title": "有没有不贵的摄像头 onvif 客户端？ mac 与 iPhone 平台",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104277",
-          "author": "1024MB",
-          "description": "1024MB: \n背景：我在不同的平台采购了一些 API 接口服务。有云 API 的，有 API 平台的，各种各样的都有。\n问题：这些 API 的请求方式都不同，具体指请求的域名，密钥，参数这些。\n需求：我希望能有个服务或平台（开源的也行），能够帮助我管理这些 API ，使其我在程序使用时，能够统一域名和密钥。",
-          "link": "https://www.v2ex.com/t/1104277",
-          "publishedOn": "2025-01-10T14:17:14.000Z",
-          "wordCount": 389,
-          "title": "求问各位 V 友，有那些 API 资源管理服务？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104276",
-          "author": "drymonfidelia",
-          "description": "drymonfidelia: \n非常简易的一个测试程序\n# -*- coding: UTF-8 -*-\n\nfrom flask import Flask, request\nimport json\nimport time\nimport re\n\nimport sys\nimport asyncio\n\nfrom tornado.ioloop import IOLoop\nfrom tornado.wsgi import WSGIContainer\nfrom tornado.httpserver import HTTPServer\n\nimport sqlalchemy\nfrom sqlalchemy.ext.declarative import declarative_base\nfrom sqlalchemy import Column, Integer, String, create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nengine = create_engine('sqlite:///database.db?check_same_thread=False')\n\nBase = declarative_base()\n\n\nclass ClientLog(Base):\n    __tablename__ = 'clientlog'\n    log_id = Column(Integer, primary_key=True, autoincrement=True)\n    message = Column(String(512))\n\n    def __repr__(self):\n        return \"A\"\n\n\nfrom sqlalchemy.ext.declarative import DeclarativeMeta\n\n…",
-          "link": "https://www.v2ex.com/t/1104276",
-          "publishedOn": "2025-01-10T14:11:19.000Z",
-          "wordCount": 822,
-          "title": "Flask+SQLite+Tornado 在 Windows 2019 下 100 并发都撑不住是怎么回事？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104274",
-          "author": "zhengfan2016",
-          "description": "zhengfan2016: \n几个大学同学 21 号去旅游一周，问我要不要一起，可是我得上班到 28 号。他们很不解，我也很困惑。之前没有来公司自愿加班，请事假是不批的了，去不了。\n难道一线大部分公司春节都是提前放假的？",
-          "link": "https://www.v2ex.com/t/1104274",
-          "publishedOn": "2025-01-10T14:04:16.000Z",
-          "wordCount": 493,
-          "title": "大部分公司春节都是提前一周放假的吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104273",
-          "author": "hxlgg01",
-          "description": "hxlgg01: \n最近在用 Gemini 的时候，发现它生成一段 7 行的小红书文案用了 4000 多个 token ，而我用它生成一段 20 行的数学题解析时，却只用了 1000 多个 token 。有没有人知道 Gemini 的 token 到底是怎么算的？",
-          "link": "https://www.v2ex.com/t/1104273",
-          "publishedOn": "2025-01-10T13:59:33.000Z",
-          "wordCount": 525,
-          "title": "Gemini API 的 token 到底是怎么计的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104272",
-          "author": "MoRanjiang",
-          "description": "MoRanjiang: \n穿衣计算器\n最近要去东北旅游，这辈子没去过这么冷的地方，难以根据经验计算自己要穿多少衣服，AI 和网上的一些攻略也是各有各的说法，服装品牌的温标更是随心所欲，所以用 AI 糊了这个工具。\n我研究并参考了 国家标准|GB/T 18398-2001 和 Standard 55 – Thermal Environmental Conditions for Human Occupancy。\n简单使用方法：\n先算出自己的发热率\n比如你在 15 摄氏度觉得穿一件 T 刚刚好舒适不会出汗（国标的 0.78 应该是穿了一件 T 打底左右的样子，赤膊大概是 0.6 左右），你的皮肤温度、基础保暖能力都比较大众，可以算出单位体表面积非蒸发放热率 (H) = 151.36 W/m²。\n代入计算\n那么如果活动类型、空气湿度等等因素都不变的情况下，在 - 40 ℃ 大概需要服装热阻 (I) = 2.34 clo 的衣服。\n找衣服\n查资料得知，550 蓬羽绒热阻 0.7 clo/oz-m^2 ，可以计算出（这部分还没做好，得手动）大概需要 3.34 盎司每平米的羽绒服，就是比较普通的款。",
-          "link": "https://www.v2ex.com/t/1104272",
-          "publishedOn": "2025-01-10T13:54:47.000Z",
-          "wordCount": 467,
-          "title": "一个比较科学的穿衣计算器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104271",
-          "author": "asaworld",
-          "description": "asaworld: 我用 win 写了个 Obsidian 插件，发布之后，有 mac 的用户说有 bug ，问一下大家怎么方便调代码去适配 mac 。\n我没有也没用过 mac ，下虚拟机要好几百 G ，感觉太大太麻烦了，大家伙还有什么方法吗",
-          "link": "https://www.v2ex.com/t/1104271",
-          "publishedOn": "2025-01-10T13:52:59.000Z",
-          "wordCount": 475,
-          "title": "开发的软件如何优雅的同时适配 win 和 macos",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104269",
-          "author": "daoremi",
-          "description": "daoremi: https://heymanifestation.com/\n除了这个，还在做心力气球 心力电池",
-          "link": "https://www.v2ex.com/t/1104269",
-          "publishedOn": "2025-01-10T13:38:37.000Z",
-          "wordCount": 352,
-          "title": "你们日常是怎么提升自己的心力的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104267",
-          "author": "magiconch",
-          "description": "magiconch: \n需求\n负责推动 AI Agent 相关产品的设计、开发和优化。作为 AI 产品经理，您将与技术、设计和业务团队密切合作，深入理解用户需求，制定产品策略，并持续推动产品在 AI 和 Crypto 领域的创新与落地。\n岗位职责：\nAI Agent 产品管理：负责 AI Agent 产品的需求分析、功能设计和产品规划，确保产品满足市场需求并具有竞争力。\n深入研究 AI Agent 的技术和应用场景，探索创新型解决方案。\n产品生命周期管理管理产品从概念到上线的完整生命周期，包括需求定义、开发进度跟踪、测试和上线后的优化迭代。\n持续收集用户反馈，分析数据，优化产品功能和用户体验。\n行业洞察与创新：跟踪 AI 技术和 Crypto 行业的最新趋势，挖掘潜在市场机会，将前沿技术融入产品设计中。\n与行业伙伴和社区建立联系，推动产品在 Crypto 生态中的应用和影响力。\n跨团队协作：与技术团队紧密合作，确保产品开发符合设计和功能预期。与市场、运营团队协作，制定产品推广策略，实现业务目标。\n任职要求：\n经验要求至少 1 年以上 AI Agent 相关产品经验，了解 AI Agent 的核心技术和应用场景。对 Crypto 行业有深入的理解，包括但不限于区块链技术、DeFi 、NFT 等领域。\n技能要求：熟悉 AI 产品的开发流程和技术实现，能够与技术团队高效沟通。具备数据分析能力，能够通过数据驱动产品决策。优秀的产品设计能力，能够将用户需求转化为具体的产品功能。\n其他要求：本科及以上学历，计算机、人工智能、区块链等相关专业优先。具备优秀的沟通能力、团队协作能力和项目管理能力。对 AI 和 Crypto 领域充满热情，乐于接受挑战并推动创新。\n其他\n具有竞争力的薪酬和激励机制（给 token ）\n与行业顶尖团队合作的机会，参与前沿技术的产品落地。\n联系邮箱： alexshungry@gmail.com",
-          "link": "https://www.v2ex.com/t/1104267",
-          "publishedOn": "2025-01-10T13:27:37.000Z",
-          "wordCount": 426,
-          "title": "[招聘] [远程办公] Ai Agent 产品经理",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104266",
-          "author": "mili100",
-          "description": "mili100: \n你好啊，\n不知道你知道你那里官方 Ollama Registry 的 Cloudflare R2 速度怎么样，但是在我这里特别是晚高峰，那是相当的糟糕。特别是每当新的开源模型发布的一个又一个深夜，每次模型拉取的的等待都让我咬牙切齿（比如前两天的 Phi4 ）。\n于是我把目光转向了 Ollama 和抱抱脸合作的 hf.co Registry，奈何在 HF 的可访问性也非常看运气，我刚好也属于运气不那么好的那部分。虽然还有 HF-Mirror 但是速度也不容乐观。\n但是 hf.co Registry 也给了我一些启发，抱抱脸都可以，魔搭难道不行吗？。\n于是就有了我们今天的主角 ModelScope2OllamaRegistry （比起镜像站它更类似 hf.co Registry ，所以可能也许有一丝标题党）。再加上一些可能的冷知识 Ollama Registry 是 OCI Registry （好吧，也可能大家早就知道了），我通过魔搭的 API 获取了一些元数据补上了 manifests 还有一些乱七八糟的 config ，再以及最让人讨厌的对话模板，现在它已经能够 almost 完美的工作了。\n使用方法就像是这样：\n拉取模型\n请选择带有 GGUF 模型的仓库：\nollama run modelscope2ollama-registry.azurewebsites.net/qwen/Qwen2.5-7B-Instruct-gguf\n\n这将能够拉取 https://www.modelscope.cn/models/qwen/Qwen2.5-0.5B-Instruct-gguf 中的模型，对于不带有标签或 latest 将依次按顺序尝试选择Q4_K_M、Q4_0、Q8_0量化。\n指定量化\n可以通过 tag 指定选择的量化：\nollama run modelscope2ollama-registry.azurewebsites.net/qwen/Qwen2.5-7B-Instruct-gguf:Q8_0\n\n这将能够拉取 https://www.modelscope.cn/models/qwen/Qwen2.5-7B-Instruct-gguf/resolve/master/qwen2.5-0.5b-instruct-q8_0.gguf ，量化类型标签不区分大小写，你可以在 这里 查看 Ollama 支持的量化。\n仓库中需要包含带有正确格式文件名的 GGUF 文件（模型名称以“-”分隔，最后一位需要为有效的量化类型，形如：model-quant.gguf ），暂不支持包含类似 0000x-of-0000x 的切分后的模型。\n指定模板\n若对话模板未能正确识别或识别有误导致对话输出异常，你可以尝试这样指定模型的对话模板：\nollama run modelscope2ollama-registry.azurewebsites.net/qwen/Qwen2.5-7B-Instruct-gguf:Q8_0--qwen2\n\n你可以查看 Ollama 官方支持的模板，和 本项目支持的模板，以手动指定更加合适的模板。\n当然，它也开源： https://github.com/onllama/Onllama.ModelScope2Registry\n如果你也喜欢的话也可以为我点个 Star ，你的 Star 将是我继续维护的动力。",
-          "link": "https://www.v2ex.com/t/1104266",
-          "publishedOn": "2025-01-10T13:26:28.000Z",
-          "wordCount": 434,
-          "title": "我做了一个 Ollama 模型仓库镜像站，帮你更快的从 ModelScope 魔搭拉取模型",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104265",
-          "author": "Canglin",
-          "description": "Canglin: \n我跟女友都是银行柜员，理所当然每天多多少少能遇到点奇葩，但是我不喜欢把工作的事情拿回家去讨论，我觉得很烦，该怼的，该隐忍的我都是在上班的时间自己消化，而女友是上班的时候唯唯诺诺，回家了那我当垃圾桶各种吐槽，我跟她说我不喜欢做垃圾桶，是不是我的错误",
-          "link": "https://www.v2ex.com/t/1104265",
-          "publishedOn": "2025-01-10T13:20:32.000Z",
-          "wordCount": 810,
-          "title": "不想做女友的情绪垃圾桶是我的错吗？",
           "imageUrl": null
         }
       ]
