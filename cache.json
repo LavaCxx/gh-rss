@@ -84,6 +84,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -127,6 +133,23 @@
           "wordCount": 1025,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -272,7 +295,7 @@
           "description": "WilliamColton: \n系统：win11 24H2\n有时候编辑着突然光标消失了，特别难受",
           "link": "https://www.v2ex.com/t/1104486",
           "publishedOn": "2025-01-12T05:31:56.000Z",
-          "wordCount": 443,
+          "wordCount": 445,
           "title": "为什么在 notion、cursor 这类 electron 应用下光标老是消失？",
           "imageUrl": null
         },
@@ -282,7 +305,7 @@
           "description": "mrleft: \n加州大火想到的，如果你需要在半小时内撤离，在其余物品都要灭失的期望下，你会带上哪些东西？",
           "link": "https://www.v2ex.com/t/1104484",
           "publishedOn": "2025-01-12T05:11:57.000Z",
-          "wordCount": 551,
+          "wordCount": 569,
           "title": "撤离时，你会带什么？",
           "imageUrl": null
         },
@@ -292,7 +315,7 @@
           "description": "chesha1: \n目前应该只有给 a:visited 附加 css 样式这一个好办法，我试了 chrome 拓展 Stylus 和这个油猴脚本，都能部分解决问题\n但是这两个工具很依赖网站的原链接不变，比如说在本站，一个链接内容有更新之后，url 尾巴留下的记录也会变化，比如从\nhttps://www.v2ex.com/t/123456#reply10\n\n变成\nhttps://www.v2ex.com/t/123456#reply11\n\n就无法被 visited 记录了，大家有什么好的解决方法吗",
           "link": "https://www.v2ex.com/t/1104482",
           "publishedOn": "2025-01-12T05:02:44.000Z",
-          "wordCount": 475,
+          "wordCount": 492,
           "title": "大家是怎么标记已读页面的",
           "imageUrl": null
         },
@@ -312,7 +335,7 @@
           "description": "lx271896700133: 最近用 Cursor ，做了几个简单的网页应用和 flutter 应用，感觉已经很强了。\n只要会说中文，然后懂得少量的编程知识，就可以做出成品了。\n那普通人学编程还有意义吗？\n现在，如果普通程序员失业了，还有必要继续守着老本行吗？",
           "link": "https://www.v2ex.com/t/1104479",
           "publishedOn": "2025-01-12T04:52:18.000Z",
-          "wordCount": 573,
+          "wordCount": 623,
           "title": "普通程序员还有活路吗？",
           "imageUrl": null
         },
@@ -332,7 +355,7 @@
           "description": "heong: \n全栈开发工程师（小程序/App 方向）- 上海虹桥商务区初创团队，机会无限！\n为什么选择我们？\n参与从 0 到 1 的产品打造： 你将有机会深度参与产品的设计、开发和迭代，你的代码将直接影响产品的走向和用户体验。\n快速成长和学习的平台： 作为创始团队成员，你将有机会接触到创业的方方面面，快速提升你的技术能力和商业思维。\n扁平化管理，开放包容的文化： 我们鼓励创新和表达，你的每一个想法都会得到重视和尊重。\n丰厚的股权激励： 我们相信团队的力量，你将有机会分享公司成长带来的丰厚回报。\n我们希望你：\n技术扎实，热爱编程：\n熟练掌握 HTML 、CSS 、JavaScript 等前端技术，对主流前端框架（如 Vue.js 、React 等）有深入理解和实践经验。\n熟悉至少一种后端开发语言（如 Java 、Python 、Node.js 等），并具备数据库设计和开发能力。\n熟悉微信小程序开发流程，有实际项目经验者优先。\n了解移动端开发技术（如 React Native 、Flutter 等），有 App 开发经验者优先。\n全栈思维，独立担当：\n能够独立完成从前端到后端的开发工作，具备良好的代码规范和文档编写习惯。\n具备良好的沟通能力和团队合作精神，能够与其他团队成员高效协作。\n持续学习，追求卓越：\n关注前沿技术发展，具备良好的学习能力和解决问题的能力。\n对代码质量有追求，致力于编写高效、可维护的代码。\n创业精神，积极主动：\n对创业充满热情，愿意接受挑战，并能够在压力下工作。\n积极主动，具备良好的自我驱动能力。\n你将负责：\n参与公司小程序和 App 产品的需求分析、设计和开发工作。\n负责前端页面开发、交互实现和性能优化。\n负责后端接口开发、数据库设计和维护。\n与产品经理、设计师等团队成员紧密合作，确保项目按时高质量交付。\n我们提供：\n创始阶段薪酬：20k/月左右，未来根据公司发展情况考虑期权激励。\n弹性工作制，双休，工作生活两不误。\n广阔的发展空间和晋升机会。\n轻松愉快的工作氛围和团队活动。\n[其他福利，例如：定期培训、免费健身房等]\n加入我们，一起创造未来！\n简历投递邮箱： fxiang21@gmail.com\n邮件主题： 姓名 + 应聘全栈开发工程师\n工作地点： 上海虹桥商务区\n我们期待你的加入！",
           "link": "https://www.v2ex.com/t/1104476",
           "publishedOn": "2025-01-12T04:04:37.000Z",
-          "wordCount": 473,
+          "wordCount": 478,
           "title": "[招聘] [上海] 初创全栈开发 [20k]",
           "imageUrl": null
         },
@@ -342,7 +365,7 @@
           "description": "Daath: \n上周 vip 还正常看着斗破 4K ，这周打开，4K 要开通 svip 了\n每次视频所谓会员广告就算了，连画质选择都也搞暗改，这破视频会员开了这么多年，想想看来感觉该弃了。无奈~",
           "link": "https://www.v2ex.com/t/1104475",
           "publishedOn": "2025-01-12T04:02:47.000Z",
-          "wordCount": 494,
+          "wordCount": 521,
           "title": "吐槽一句，现在腾讯视频 vip 连 4K 也砍了？",
           "imageUrl": null
         },
@@ -352,7 +375,7 @@
           "description": "lambdaX999: \n今天突然想到了这个问题，政府出让土地的时候可以走招标，拍卖，挂牌出售，但是新房也好，二手房也好，购买流程却没有一家拍卖网站，是法律不允许吗？\n目前看到的拍卖只有法拍，就是你还不上钱了才能去拍卖，正常为什么不给拍卖呢？",
           "link": "https://www.v2ex.com/t/1104474",
           "publishedOn": "2025-01-12T04:02:04.000Z",
-          "wordCount": 609,
+          "wordCount": 623,
           "title": "二手车拍卖网站很多，为什么没有二手房拍卖网站？",
           "imageUrl": null
         },
@@ -382,7 +405,7 @@
           "description": "haoyh1: mas 下载的 ipaste ，有个内购 pro 版 58 元，好奇点了一下购买，结果不验证密码直接扣款，看到信用卡一笔 58 的账单当时人都懵逼了\n赶紧去“上报问题”申请退款，结果连续两次都被拒，没有任何理由\n后面去 12315 投诉，刚刚来回访电话依然是不符合退款要求，至于不符合什么要求，永远说不出来\n求问现在还有什么方案？市场监督局都管不了了吗？\n我是扣款后 5 分钟内立刻申请退款，不是白嫖党，苹果三番五次拒绝退款是否符合相关法规？不是差这 58 元，就这态度我必须刚到底",
           "link": "https://www.v2ex.com/t/1104470",
           "publishedOn": "2025-01-12T03:43:57.000Z",
-          "wordCount": 704,
+          "wordCount": 706,
           "title": "appstore 这么顽固？",
           "imageUrl": null
         },
@@ -442,7 +465,7 @@
           "description": "kanchai123: 想买个 m3pro 的机器，看了 pdd 最便宜，有购买经验的 v 友能分享下吗",
           "link": "https://www.v2ex.com/t/1104456",
           "publishedOn": "2025-01-12T02:20:50.000Z",
-          "wordCount": 425,
+          "wordCount": 427,
           "title": "pdd 百亿补贴 mackbook pro 靠谱吗 v 友们",
           "imageUrl": null
         },
@@ -452,7 +475,7 @@
           "description": "ungp: 身边好多朋友遇到这个问题，但是网上搜到的解决办法都不管用，是不是只有联系运营商才能解决？",
           "link": "https://www.v2ex.com/t/1104455",
           "publishedOn": "2025-01-12T02:20:00.000Z",
-          "wordCount": 615,
+          "wordCount": 617,
           "title": "想问问大佬知道 WhatsApp 接不到验证码是怎么解决的吗？",
           "imageUrl": null
         },
@@ -462,7 +485,7 @@
           "description": "movq: \n看外语视频不能离开字幕是可以理解的，但是我发现看中文视频的时候不开字幕也感到很不舒服\n其实国内很多视频网站，大部分中文视频都会有字幕\n而一些传统电视节目，比如 CCTV 新闻联播，是没有字幕的。\n是不是我们越来越依赖字幕了？",
           "link": "https://www.v2ex.com/t/1104452",
           "publishedOn": "2025-01-12T02:04:31.000Z",
-          "wordCount": 763,
+          "wordCount": 771,
           "title": "你们看（中文）视频能离开字幕吗？",
           "imageUrl": null
         },
@@ -472,7 +495,7 @@
           "description": "skyonedot: \n每日自动拍照\n突发奇想，能不能把每天工作的状态拍下来，每天一张，日积月累之下会有惊喜。\n于是写了个 Macos 下自动调度相机的任务，即每天在电脑前工作的时候会调度相机拍下屏幕前的你。\n代码简单，大致是\n监测今天拍没拍\n没拍的话拍一张照片\n监测照片是否包含人脸\n包含则包存下来。\n欢迎哥哥姐姐们 Start ✨\nhttps://github.com/skyonedot/DailyPhoto\n目前只能 Macos ，windows 的需要自己改写。",
           "link": "https://www.v2ex.com/t/1104451",
           "publishedOn": "2025-01-12T01:56:30.000Z",
-          "wordCount": 484,
+          "wordCount": 494,
           "title": "我们永远不会比昨天更年轻啦。",
           "imageUrl": null
         },
@@ -482,7 +505,7 @@
           "description": "Canglin: \n最近提示我升级到 originOS5,不知道有没有朋友升级了，说说升级体验",
           "link": "https://www.v2ex.com/t/1104450",
           "publishedOn": "2025-01-12T01:42:23.000Z",
-          "wordCount": 428,
+          "wordCount": 406,
           "title": "有没有朋友使用 iqoo 11Pro?",
           "imageUrl": null
         },
@@ -492,7 +515,7 @@
           "description": "LOGOSJ: 昨天买的 Mac mini 到了，迫不及待用 HDMI 线连上显示器激活，在激活界面就感觉不对劲，完事重启一下还是感觉画面模糊字体不锐利。\n用 MacBook 通过 USBc 连接同一个显示器的画面比较一下，虽然直接对比差距不明显，但是这个显示器连 MacBook 用很久了，实在是一眼就能感觉不对。但也没有好的量化方法。\n在 Mac mini 上用 USBc 连接显示器试了一下，哎就好了。\n设备：Mac mini/MacBook Pro\n显示器：Kuycon 5k 27 寸\nHDMI 线：绿联 HDMI2.1\nUSBC 线：普通 usb4.0\n设置：默认 2560*1440\n猜测：\n1.HDMI 协议本身的问题，因为使用 USBc （ DP 协议）就是正常的\n2.显示器问题，可能显示器本身对于 HDMI 支持有问题？但是同一个显示器同一根 HDMI 线连接 Apple TV 显示似乎没有问题，在网上搜索说可能是显示器被 macOS 识别为了电视，跟色彩空间有关系，这有点超出认知了\n3.HiDPI 的问题。默认设置两台电脑都是 2560*1440 ，这样应该是开启了 HiDPI 了吧，按住 option 也没有其他的可选项目了。\n下一步打算用 USBctoDP 的试试看，猜测应该是没问题的。",
           "link": "https://www.v2ex.com/t/1104449",
           "publishedOn": "2025-01-12T01:37:41.000Z",
-          "wordCount": 605,
+          "wordCount": 647,
           "title": "Mac mini 使用 HDMI 链接显示器显示画面异常",
           "imageUrl": null
         },
@@ -502,7 +525,7 @@
           "description": "chawuciren:",
           "link": "https://www.v2ex.com/t/1104448",
           "publishedOn": "2025-01-12T01:20:39.000Z",
-          "wordCount": 361,
+          "wordCount": 363,
           "title": "如何将微信收藏里的照片与视频批量导出到手机或电脑",
           "imageUrl": null
         },
@@ -512,7 +535,7 @@
           "description": "Rust2015: \n说说心得",
           "link": "https://www.v2ex.com/t/1104446",
           "publishedOn": "2025-01-12T01:06:14.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "大家是如何保存与 cursor 的聊天记录的：",
           "imageUrl": null
         },
@@ -532,7 +555,7 @@
           "description": "abchendai00: -如果无法更新，是提交无法通过审核，还是完全无法提交审核？\n-长期未备案的 app 是否会被下架？\n-海外开发者账号是否有不同？（目前绝大多数海外未备案 app(X, Ins, Youtube, Facebook)仍然在国区活跃提交更新）",
           "link": "https://www.v2ex.com/t/1104444",
           "publishedOn": "2025-01-12T00:45:11.000Z",
-          "wordCount": 492,
+          "wordCount": 494,
           "title": "现在 AppStore 没有 ICP 备案的 app 还能提交更新吗？",
           "imageUrl": null
         },
@@ -542,7 +565,7 @@
           "description": "axqd: \n人在国外，想给国内的父母换个 AppleTV 做电视机顶盒，因为受够了全是广告又慢到死的电信机顶盒，坐标成都……\n主要用途是老年人观看国内各家电视台……不太确定网飞是否不用特殊技能可连……\n想问问有过类似需求的，AppleTV 配置好以后，播放源啥的是否需要经常变动？(老年人不太会弄)以及播放是否流畅？\n感谢🙏",
           "link": "https://www.v2ex.com/t/1104443",
           "publishedOn": "2025-01-12T00:32:22.000Z",
-          "wordCount": 712,
+          "wordCount": 736,
           "title": "关于 AppleTV 父母使用",
           "imageUrl": null
         },
@@ -562,7 +585,7 @@
           "description": "chenliang0571: \n不知道为什么，连发不到第三方包平台的二进制文件都不保留。  \nhttps://github.com/arthenica/ffmpeg-kit\nFFmpegKit has been officially retired. There will be no further ffmpeg-kit releases. \nAll previously released ffmpeg-kit binaries will be removed according to the following schedule.\nFFmpegKit Version\nAvailable Until\n\n\n\n\nLess than 6.0\nFebruary 1st, 2025\n\n\n6.0\nApril 1st, 2025",
           "link": "https://www.v2ex.com/t/1104441",
           "publishedOn": "2025-01-11T22:53:47.000Z",
-          "wordCount": 411,
+          "wordCount": 416,
           "title": "FFmpegKit has been officially retired. There will be no further ffmpeg-kit releases.",
           "imageUrl": null
         },
@@ -572,7 +595,7 @@
           "description": "YoungAsen: \n今天随意上 Elisa 的官网上看了一下我所在位置的宽带情况，发现已经更新了 2.5G 宽带\n\n以下是 Elisa 的 eth 宽带参数详情\n\n如图所见，对等上下行，虽然根据网络情况参数会有波动，但是最低也有 1250Mbps 的上下行，当然是极限情况下才能这么低。\n目前看来，性价比很高，已准备入手群晖四盘 NAS 了。",
           "link": "https://www.v2ex.com/t/1104438",
           "publishedOn": "2025-01-11T19:55:35.000Z",
-          "wordCount": 412,
+          "wordCount": 421,
           "title": "芬兰赫尔辛基已更新 2.5G 对等宽带",
           "imageUrl": null
         }
