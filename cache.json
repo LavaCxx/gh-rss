@@ -84,17 +84,33 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
       "articles": [
+        {
+          "id": "https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/",
+          "author": null,
+          "description": "封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n初始化设置\n移除程序坞里面不常用的软件，保持简洁，同时设置自动隐藏收起，使用配置让打开速度更快，同时设置放到底部。\n把桌面背景改成全黑，因为我很不喜欢 Mac 的刘海屏，只能够这样眼不见心不烦了。\n设置触摸板为点触，相比需要按下去会舒服不少，这样轻点就可以确定。\n设置大量的我习惯好的快捷键，绝大多少的操作可以通过快捷键的方式唤起使用，形成了一些肌肉记忆。\n必备软件\n先安装科学上网工具 Stash\nhttps://stash.wiki/\n\n打字用的微信输入法\nhttps://z.weixin.qq.com/\n\n浏览器继续使用 ARC\nhttps://arc.net/\n\n好用软件\n妙言：好用的工程师笔记应用\nhttps://miaoyan.app/\n\nRaycast：一键唤起和众多快捷键\nhttps://www.raycast.com/\n\nShotttr：功能完善的截图工具\nhttps://shottr.cc/\n\nIce：收起你的菜单栏图标\nhttps://icemenubar.app/\n\nInput Source Pro：自定切换输入法\nhttps://inputsource.pro/zh-CN\n\nuPic：原生的图片上传工具\nhttps://github.com/gee1k/uPic\n\nFollow：好用的 RSS 订阅软件\nhttps://follow.is/\n\nCommand X：让你的剪切文件的功能回来\nhttps://apps.apple.com/us/app/command-x/id6448461551?mt=12\n\n花钱工具\nBob：非常好用的翻译和 OCR 工具\nhttps://bobtranslate.com/\n\nApp Cleaner & Uninstaller：好用的卸载清理软件\nhttps://app-cleaner.com/\n\nTop Calendar：菜单栏日历软件\nhttps://apps.apple.com/us/app/top-calendar/id1544980542?mt=12",
+          "link": "https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/",
+          "publishedOn": "2025-01-13T00:00:00.000Z",
+          "wordCount": 1061,
+          "title": "第208期 - 配新电脑",
+          "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        },
         {
           "id": "https://weekly.tw93.fun/posts/207-%E6%B0%B4%E5%9F%B9%E7%BA%A2%E8%96%AF/",
           "author": null,
           "description": "封面图拍摄于家里水培的红薯，相比买的绿植长得要好不少，一个红薯扔杯子里面加点儿水，不怎么管，过一个月就变成艺术品了，你也可以试试。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n潮流工具\n一条命令行就把一个网页打包成一个单独的 html 文件\nhttps://github.com/Y2Z/monolith\n\nRoadmaps：技术经理需要具备和学习的一些技能\nhttps://roadmap.sh/engineering-manager\n\n一个叫做 Bruno 的开源 API 测试工具\nhttps://github.com/usebruno/bruno/\n\n随便看看\n宝玉的分享：用 AI 做绘本\nhttps://baoyu.io/blog/ai-picture-book-creation\n\n一个可以用 10 年的 AirTag 解决方案\nhttps://www.elevationlab.com/blogs/news/introducing-timecapsule\n\nV2EX：我是如何从零开始手搓一个独立游戏并上架 Steam 的\nhttps://www.v2ex.com/t/1102126\n\n闲书推荐：食南之徒\nhttps://book.douban.com/subject/36710597/",
           "link": "https://weekly.tw93.fun/posts/207-%E6%B0%B4%E5%9F%B9%E7%BA%A2%E8%96%AF/",
           "publishedOn": "2025-01-06T00:00:00.000Z",
-          "wordCount": 1029,
+          "wordCount": 1034,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         },
@@ -104,7 +120,7 @@
           "description": "封面图拍摄于外面看到的一只小狗，被圈养在围栏里面，非常标致、毛发很好，甚至让它坐着就很乖坐着，挺可爱。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n潮流工具\nGhostty：又一个很不错的终端工具\nhttps://ghostty.org/\n\nWindows 系统的开源工具集 PowerToys\nhttps://github.com/microsoft/PowerToys\n\n基于 C 的高性能 UI 布局库 Clay\nhttps://github.com/nicbarker/clay\n\nPresenterm 用 markdown 格式创建演示文稿\nhttps://mfontanini.github.io/presenterm/\n\n阿里云的无影云电脑方案调试跨端很好用\nhttps://www.aliyun.com/product/ecs/wuying\n\n随便看看\n豆瓣 2024 年度图书出来了\nhttps://book.douban.com/annual/2024/?fullscreen=1\n\n聊聊我挑选墨水屏电子书的过程\nhttps://u.jd.com/s1ANtKm",
           "link": "https://weekly.tw93.fun/posts/206-%E6%A0%87%E8%87%B4%E7%9A%84%E7%8B%97/",
           "publishedOn": "2024-12-30T00:00:00.000Z",
-          "wordCount": 1046,
+          "wordCount": 1049,
           "title": "第206期 - 标致的狗",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         },
@@ -114,7 +130,7 @@
           "description": "封面图拍摄于上周末杭州大莲花听的张信哲的演唱会，整体体验挺好，都是朗朗上口的歌曲，不过长大了之后再听张信哲，突然感觉有些老实人的感觉，哈哈哈哈哈，不过人家马上 58 岁了，声音还是真好听的。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n潮流工具\nPake 最近更新到了 3.0 版本 🎉\nhttps://github.com/tw93/Pake\n\n赛博菩萨 Awesome Cloudflare 开源工具汇总\nhttps://github.com/zhuima/awesome-cloudflare\n\n基于 PDF 的 AI 双语翻译的工具 PDFMathTranslate\nhttps://github.com/Byaidu/PDFMathTranslate\n\nMac 软件下载一条龙工具 Applite\nhttps://aerolite.dev/applite\n\n开源的终端工具 Wave Terminal 有点意思\nhttps://www.waveterm.dev/\n\n随便看看\n好书推荐：穷查理宝典\nhttps://book.douban.com/subject/35557542/\n\n可以玩玩这个 DialectMap 方言地图\nhttps://dialect.quotemap.site/game\n\n随便说说\nAI 带来的生产力提高并不能解放劳动者，由于剥削关系继续存在，资本家会倾向榨取更多的剩余价值，导致劳动者更累。\n但是你可以投资 AI 相关的美股，驾于资本家之上，让他给你打工。",
           "link": "https://weekly.tw93.fun/posts/205-%E5%90%AC%E5%BC%A0%E4%BF%A1%E5%93%B2/",
           "publishedOn": "2024-12-23T00:00:00.000Z",
-          "wordCount": 1053,
+          "wordCount": 1056,
           "title": "第205期 - 听张信哲",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         },
@@ -124,7 +140,7 @@
           "description": "封面图拍摄于周末自己在家做了一杯肉桂拿铁，热咖啡加上一点儿锡兰肉桂非常好喝，适合冬天有阳光的时候。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n潮流工具\nIPTV-API 配置到了电视上使用，自动获取直播源接口\nhttps://github.com/Guovin/iptv-api\n\n开源的项目管理工具 Plane\nhttps://plane.so/\n\n收集了一些现在世界上不错的初创公司的网站\nhttps://startups.gallery/\n\n这个 hacker-scripts 有点意思\nhttps://github.com/NARKOZ/hacker-scripts\n\n技术学习\nJava Design Patterns 中文版本\nhttps://java-design-patterns.com/zh/\n\n不要轻易地走进 AI Native\nhttps://1q43.blog/post/10736/\n随便看看\n坂本龙一给日料餐厅挑选的歌单\nhttps://www.youtube.com/playlist?list=PLyF_H5mySFA3TqDp9uQZ0TJrjjJ_b38Ty\nApple Music、网易云、Spotify、QQ 音乐。\n\n特斯拉的圣诞彩蛋模式快去试试",
           "link": "https://weekly.tw93.fun/posts/204-%E8%82%89%E6%A1%82%E6%8B%BF%E9%93%81/",
           "publishedOn": "2024-12-16T00:00:00.000Z",
-          "wordCount": 1025,
+          "wordCount": 1028,
           "title": "第204期 - 肉桂拿铁",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
@@ -299,7 +315,7 @@
           "description": "xyz3210: 想问一下目前高峰期电联之间跨网是不是都开始限速。我用四川电信和陕西电信访问河南联通里面的 nas 。四川电信和陕西电信在下午五点多开始限速 80-100K 。四川电信在早上六点能跑到 8mb ，十点多下降到 500kb,十一点多下降到 80-100kb 。这样的话联通宽带性价比非常低了，我目前遇到的最多的是电信宽带，除了在河南是联通宽带。如果跨网限速的话，还不如使用电信宽带！",
           "link": "https://www.v2ex.com/t/1104525",
           "publishedOn": "2025-01-12T10:57:49.000Z",
-          "wordCount": 475,
+          "wordCount": 483,
           "title": "联通跨网限速",
           "imageUrl": null
         },
@@ -319,7 +335,7 @@
           "description": "HHJY: 如题，想看实时网速很麻烦，有一些软件还不支持 ios18 ，要不就是广告很多。有没有好用的推荐",
           "link": "https://www.v2ex.com/t/1104523",
           "publishedOn": "2025-01-12T10:38:31.000Z",
-          "wordCount": 373,
+          "wordCount": 380,
           "title": "有没有支持 iPhone 的实时网速软件？",
           "imageUrl": null
         },
@@ -359,7 +375,7 @@
           "description": "2020583117: \n前情提要\n一年被裁两次，萎靡不振\n然后分享了自己做的前端导航站，最近已经到 260+ star⭐ 了，再这里再次给各位老哥表示感谢\n因此我在这段时间又做了一个简单但很漂亮（自我感觉良好🤣）的个人主页\n地址\n个人主页\n预览：个人主页\n地址：个人主页\n前端导航（进行了动画的优化）\n预览：前端导航\n地址：前端导航\n补充\n不知道这种分享是否算所谓的软广，如果不太好的话希望大家指正😀",
           "link": "https://www.v2ex.com/t/1104518",
           "publishedOn": "2025-01-12T09:01:18.000Z",
-          "wordCount": 559,
+          "wordCount": 565,
           "title": "菜菜的我又来分享自己的网站了",
           "imageUrl": null
         },
@@ -399,7 +415,7 @@
           "description": "JZen: \n那是 2023 年夏天\n我决定从零基础开始学习 iOS 开发\n我买了 Mac 电脑\n边学习边开发\n10 月份，上架成功\n这是一款非常不起眼的日记 APP\n我一直用到现在\n\n1 记，一天记录一句话\n它看起来是那么，普通\n但它以前不是这样的\n以前的页面并不美观\n会有各种各样的 Bug\n经过一年的打磨\n它终于看起来像是一个正常的 APP 了\n你说它够普通，那是对它极高的赞美\n\n不止普通，我还想让它够简洁和清爽\n不止清爽，我还想让它的功能够强大\n列出来还有点份量：\n多种日记列表样式\niCloud 同步\nFaceID 保护\n全面适配 iPadOS\n后台隐私保护\n字体大小调整\n多种的日记导出格式\n适配夜间模式\n日记搜索和日期筛选功能\n丰富的日记分享风格\n1 记只能记录文字\n一篇作文，一段摘录，一句话，或者只是一个表情符号\n我曾经也习惯写日记\n写了几年，好几本流水账\n我发现每天有意义的内容其实用一句话就能概括\n于是这些年我的日记就只记录一句话\n几乎不耗费任何时间，同时又把日子的轮廓画出来\n1 记 APP 是免费的\n当然，也有付费功能\n不过免费版已经包含所有核心功能\n非常良心\n良心到我一年只赚到 18 美元\n\n除去 iOS 开发者费用一年 99 美元\n我努力一年亏了 81 美元\n哈哈。\n说这么多，主要是希望你能试试 1 记\n也希望你能给个五星好评\n下载链接：App Store | 1 记 - 一天记一句话\n送码\n感谢各位能看到这里\n下面送出十个 1 记永久会员兑换码，先到先得\n4EM4XAP7RXWA\nML7PJPHTWTKJ\nF3AFH6HXR444\nTT73KRL9XN9E\nLMYHJL43M3XY\nNRLYFMWMAENN\nNEHT6A6MYAE7\nLRLFWTEW49MH\nNTMWFKF7PMRL\n6F7JPFXXA636\nApp Store | 1 记 - 一天记一句话\nV2EX | 1 记 - 一款不需要花费太多时间的日记 App",
           "link": "https://www.v2ex.com/t/1104512",
           "publishedOn": "2025-01-12T08:39:18.000Z",
-          "wordCount": 684,
+          "wordCount": 686,
           "title": "我花了一年的时间打造这款 APP",
           "imageUrl": null
         },
@@ -409,7 +425,7 @@
           "description": "Geon97: 以前周末我会看看书或者学习一些知识研究感兴趣的东西，今年不知道怎么了颓废了，大部分时间都泡在游戏和视频号里，人近中年精力有限，变得颓废了吗？\n1.以前我从来不刷 dy 一类的短视频，只会刷 b 站。现在自从微信视频号，有点走不动道了，b 站反而很少了。\n2.原本周末计划好了在家想做些事情，打开电脑就玩游戏。自己告诉自己不能玩了，但是自己会找借口：赢一局就不玩了。要不就是再玩几局。。。总之就是给自己找台阶下，不跳出舒适圈，以前的我不是这样的\n最终周末基本什么事情都没有做成。\n不知道是不是因为我自制力变差了，当然我也承认人的精力是有限的，不希望自己内耗。但是这样想就会把问题指向视频号和游戏。现在做事情会拖泥带水，刷完短视频再去做，时间都浪费了。\n有种想在路由器加限制访问的想法...又感觉这样治标不治本。\n大部分人可能也都会这样吧，但是有什么好的办法吗？这样只会越来越颓废和懒。v 友们给点建议",
           "link": "https://www.v2ex.com/t/1104510",
           "publishedOn": "2025-01-12T08:25:24.000Z",
-          "wordCount": 734,
+          "wordCount": 763,
           "title": "人近中年，自制力会越来越差吗",
           "imageUrl": null
         },
@@ -429,7 +445,7 @@
           "description": "sc13: \n\n网站地址 \n游戏很简单就是可以选择省份或者城市来猜，会提供一个谜底地区的轮廓，让玩家来猜，猜错的地区会提供一个和谜底地区大致的距离，缩小猜测的范围。很早之前就一直想在业余时间做点小东西，但是一直没有行动，之前看到有个兄弟骑龙一直在发自己的产品，也是从零做起，感觉挺受鼓舞的，自己也应该行动起来。最终的目标当然是希望自己做的东西能带来一些收入，但是才开始也不指望能赚钱了，跑通做网站的流程，在逐步提高自己的水平，找到真正的痛点，能解决一些场景问题，应该就会有收入了，加油吧！希望以后多多开发些有用的东西~",
           "link": "https://www.v2ex.com/t/1104507",
           "publishedOn": "2025-01-12T08:05:02.000Z",
-          "wordCount": 485,
+          "wordCount": 493,
           "title": "大家好，这是练习时长两天半的初级小程序-中国地理猜谜游戏",
           "imageUrl": null
         },
@@ -439,7 +455,7 @@
           "description": "kyonn: \nnexus3 上来啥事没干就占个 2GB 以上内存, 动不动就停止服务....有没有它的平替, 主要是代理 docker 镜像, 支持代理 dockerhub/ lscr 等站点, 最好有类似 nexus 的 group 代理功能, 即 dockerhub/lscr 对外呈现一个地址.\n尝试调整过 nexus 的 INSTALL4J_ADD_VM_PARAMS 控制 jvm 启动内存参数, 还是不行, 服务容易挂.",
           "link": "https://www.v2ex.com/t/1104505",
           "publishedOn": "2025-01-12T07:52:30.000Z",
-          "wordCount": 413,
+          "wordCount": 415,
           "title": "有没有 nexus 镜像源的平替?",
           "imageUrl": null
         },
@@ -469,7 +485,7 @@
           "description": "anonymouswll: \n起因：中银信用卡加入 apple pay 后付款总是需要再输入银行的 6 位密码，太麻烦。\n网上搜索一番发现有两篇相关文章：\nhttps://crossbell.io/notes/51533-22\nhttps://www.flyert.com.cn/forum.php?mod=viewthread&tid=3950619&mobile=2\n两文章统一结论：需要实体动态口令，但现在很多银行不提供。\n另辟蹊径：我知道信用卡中心客服是能够实时帮你开通小额免密功能。\n解决办法：\n1.致电 400 669 5566 并转人工\n2.告知客服你需要开通四位尾号为 xxxx 的 [线上] 小额免密功能。 [注意⚠️：线上小额 非线下小额] \n重要附注：\n1.xxxx 为以上文章截图[附于本文下]中 [设备卡号] 的后四位，非信用卡卡号后四位，因为绑定 apple pay 相当于产生了新的虚拟信用卡。\n2.免密默认是 1000 元/笔，但是客服实际操作默认系统设置成 0 ，非客服故意，所以要让客服手动输入限制的金额。",
           "link": "https://www.v2ex.com/t/1104498",
           "publishedOn": "2025-01-12T07:24:48.000Z",
-          "wordCount": 528,
+          "wordCount": 530,
           "title": "大陆中国银行信用卡 apple pay 小额免密开启",
           "imageUrl": null
         },
@@ -489,7 +505,7 @@
           "description": "bboring: \n1 月 24 日开始放假，今年有点不太想在家过年。\n父母提要么出去旅游，但是我看了天气，很多城市 24 、25 日都有雨或者雪，除了海南、云南、新疆这几个地方；\n海南天气不错，但是在那玩一周，估计会待的受不了... 如果逛多个城市，春运车票又难抢\n云南那吧，最近出了一些事，父母又担心...\n新疆，玩一周以上似乎很合适，天气都是阴天，温度零下 30 度 - 零下 10 度左右，不知道有没有去过的 v 友能否说一下，这个天气适合过去玩么？太冷天气又不好，过去也是遭罪啊！ \n大致看了未来天气，今年过年要么下雨要么下雪，看着都不太好出门的样子，但现在在家过年确实没啥味道了，难顶，还有什么地方可以去旅游吗？",
           "link": "https://www.v2ex.com/t/1104496",
           "publishedOn": "2025-01-12T07:12:15.000Z",
-          "wordCount": 559,
+          "wordCount": 574,
           "title": "过年有哪些地方可以去旅游？",
           "imageUrl": null
         },
@@ -519,7 +535,7 @@
           "description": "xiangsanliu: 奇怪的是我用阿里的 223.5.5.5 ，解析出来也是反诈\n \n然后我又用了自建的 adguardhome ，填了以下的 dns\nhttps://doh.pub/dns-query\nhttps://dns.alidns.com/dns-query\nhttps://doh.360.cn/dns-query\n解析出来还是反诈\n \n试了 doh.pub 、doh.360 还是一样\n最后用 cloudflare 临时搭了个 doh ，转发 cloudflare-dns 才解决",
           "link": "https://www.v2ex.com/t/1104492",
           "publishedOn": "2025-01-12T06:04:43.000Z",
-          "wordCount": 598,
+          "wordCount": 622,
           "title": "江苏联通 github 被解析到反诈了",
           "imageUrl": null
         },
@@ -529,7 +545,7 @@
           "description": "onion83: 今天在查阅一个开源项目的 issue 的时候 https://github.com/mokeyish/smartdns-rs/issues/476#issuecomment-2585234688 ，发现了一个 Aibot ，已经能自动理解问题，并直接肝出了代码，关键还有模有样的（对不对另外一回事）这个 bot 年初诞生到现在，两个星期就 “污染”了 100 多个 repos ，只要算力允许理论上能 watching 所有热门项目。\n\n\n\n\n我想讨论一下是，这已经不是一个技术问题，而是意识形态问题。\n如果说 codepolit 、copilot 等还算是人使用工具，被动创造价值，那么这种类型的 bot 已经算主动创造财富了。延伸的话题：\n- 程序员对自己现今的定位，老板对真人劳动力的定位/定价问题\n- 人和机器的关系是什么\n想听一下大家观点。",
           "link": "https://www.v2ex.com/t/1104489",
           "publishedOn": "2025-01-12T05:46:37.000Z",
-          "wordCount": 632,
+          "wordCount": 652,
           "title": "Ai 开始自动抢活儿干了",
           "imageUrl": null
         },
@@ -569,7 +585,7 @@
           "description": "mrleft: \n加州大火想到的，如果你需要在半小时内撤离，在其余物品都要灭失的期望下，你会带上哪些东西？",
           "link": "https://www.v2ex.com/t/1104484",
           "publishedOn": "2025-01-12T05:11:57.000Z",
-          "wordCount": 753,
+          "wordCount": 787,
           "title": "撤离时，你会带什么？",
           "imageUrl": null
         },
@@ -599,7 +615,7 @@
           "description": "lx271896700133: 最近用 Cursor ，做了几个简单的网页应用和 flutter 应用，感觉已经很强了。\n只要会说中文，然后懂得少量的编程知识，就可以做出成品了。\n那普通人学编程还有意义吗？\n现在，如果普通程序员失业了，还有必要继续守着老本行吗？",
           "link": "https://www.v2ex.com/t/1104479",
           "publishedOn": "2025-01-12T04:52:18.000Z",
-          "wordCount": 831,
+          "wordCount": 870,
           "title": "普通程序员还有活路吗？",
           "imageUrl": null
         }

@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-12T15:09:42.784Z</id>
+    <id>urn:2025-01-12T16:12:08.705Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-12T15:09:42.784Z</updated>
+    <updated>2025-01-12T16:12:08.705Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[第208期 - 配新电脑]]></title>
+        <id>https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/</id>
+        <link href="https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/"/>
+        <updated>2025-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。
+记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知
+初始化设置
+移除程序坞里面不常用的软件，保持简洁，同时设置自动隐藏收起，使用配置让打开速度更快，同时设置放到底部。
+把桌面背景改成全黑，因为我很不喜欢 Mac 的刘海屏，只能够这样眼不见心不烦了。
+设置触摸板为点触，相比需要按下去会舒服不少，这样轻点就可以确定。
+设置大量的我习惯好的快捷键，绝大多少的操作可以通过快捷键的方式唤起使用，形成了一些肌肉记忆。
+必备软件
+先安装科学上网工具 Stash
+https://stash.wiki/
+
+打字用的微信输入法
+https://z.weixin.qq.com/
+
+浏览器继续使用 ARC
+https://arc.net/
+
+好用软件
+妙言：好用的工程师笔记应用
+https://miaoyan.app/
+
+Raycast：一键唤起和众多快捷键
+https://www.raycast.com/
+
+Shotttr：功能完善的截图工具
+https://shottr.cc/
+
+Ice：收起你的菜单栏图标
+https://icemenubar.app/
+
+Input Source Pro：自定切换输入法
+https://inputsource.pro/zh-CN
+
+uPic：原生的图片上传工具
+https://github.com/gee1k/uPic
+
+Follow：好用的 RSS 订阅软件
+https://follow.is/
+
+Command X：让你的剪切文件的功能回来
+https://apps.apple.com/us/app/command-x/id6448461551?mt=12
+
+花钱工具
+Bob：非常好用的翻译和 OCR 工具
+https://bobtranslate.com/
+
+App Cleaner & Uninstaller：好用的卸载清理软件
+https://app-cleaner.com/
+
+Top Calendar：菜单栏日历软件
+https://apps.apple.com/us/app/top-calendar/id1544980542?mt=12]]></summary>
+        <author>
+            <name>潮流周刊</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[表格数据应该怎么存储呢？]]></title>
         <id>https://www.v2ex.com/t/1104526</id>
