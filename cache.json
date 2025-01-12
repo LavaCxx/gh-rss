@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -290,12 +284,132 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104526",
+          "author": "foufoufm",
+          "description": "foufoufm: 目前主要以 ob 作为主力的知识库，发现有一些数据是表格数据，却没有很好的存储方案，请问大家是怎么处理的呢？",
+          "link": "https://www.v2ex.com/t/1104526",
+          "publishedOn": "2025-01-12T10:59:51.000Z",
+          "wordCount": 370,
+          "title": "表格数据应该怎么存储呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104525",
+          "author": "xyz3210",
+          "description": "xyz3210: 想问一下目前高峰期电联之间跨网是不是都开始限速。我用四川电信和陕西电信访问河南联通里面的 nas 。四川电信和陕西电信在下午五点多开始限速 80-100K 。四川电信在早上六点能跑到 8mb ，十点多下降到 500kb,十一点多下降到 80-100kb 。这样的话联通宽带性价比非常低了，我目前遇到的最多的是电信宽带，除了在河南是联通宽带。如果跨网限速的话，还不如使用电信宽带！",
+          "link": "https://www.v2ex.com/t/1104525",
+          "publishedOn": "2025-01-12T10:57:49.000Z",
+          "wordCount": 387,
+          "title": "联通跨网限速",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104524",
+          "author": "zizon",
+          "description": "zizon: \n算一年 1.48 次拦截.\n王星事件那个 WPS 1k 多 * 10 当 false negative.\n50%误报.(以上会提示负值)\n喂 Gemini 的结果.\nFor a action A.\n\nGiven:\nN the total event time = 0.146 billion\nFalse negative = 10,000\nFalse positive = 50% of total event(N)\n\nCalculate:\nTrue/False positive/negative.\n\nAlso show in percent of N\n\n结果\nFinal Results and Percentages (of N):\n\nTP (True Positives): 36,495,000 (25% of N)\nFP (False Positives): 73,000,000 (50% of N)\nTN (True Negatives): 36,495,000 (25% of N)\nFN (False Negatives): 10,000 (≈ 0.0068% of N)\nP (Positive Events): 36,505,000 (≈ 25.0034% of N)\nNG (Negative Events): 73,000,000 (50% of N)\n\n如果计算正确的话.\n看看有没有能找到一个比较符合价值观的对应值估计反诈的价值?",
+          "link": "https://www.v2ex.com/t/1104524",
+          "publishedOn": "2025-01-12T10:44:07.000Z",
+          "wordCount": 490,
+          "title": "简单的反诈 App 估算",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104523",
+          "author": "HHJY",
+          "description": "HHJY: 如题，想看实时网速很麻烦，有一些软件还不支持 ios18 ，要不就是广告很多。有没有好用的推荐",
+          "link": "https://www.v2ex.com/t/1104523",
+          "publishedOn": "2025-01-12T10:38:31.000Z",
+          "wordCount": 352,
+          "title": "有没有支持 iPhone 的实时网速软件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104522",
+          "author": "clhcowboy",
+          "description": "clhcowboy: \n一个帮助你管理窗口、标签、书签和历史记录的浏览器助手\nLokica 是一个革命性的浏览器插件，旨在彻底改变您管理窗口、标签页、书签、阅读列表和历史记录的方式。无论您是处理数十个标签页的开发者，还是在多个工作流之间切换的多任务处理者，或是构建个人工作空间的普通用户，Lokica 都能让浏览变得轻松高效。\n主要功能\n搜索一切：轻松快速地找到窗口、标签页、书签、阅读列表或历史记录。\n组织视图：以层级列表查看所有窗口和标签页，获得更清晰的概览。为窗口添加注释以改善组织。\n轻松导航：在标签页和窗口之间无缝切换，不会迷失方向。\n个人工作空间：使用常访问的网站和多搜索引擎统一搜索来自定义新标签页。\n阅读列表：使用强大的搜索功能保存和管理稍后阅读的文章。\n工作流切换：通过优化的过渡轻松切换不同的工作流。\n书签和历史访问：快速直观地访问您保存的内容。\nLokica 的突出优势\n革命性的窗口和标签页管理：以最高效率组织和导航窗口和标签页的新方式。\n个性化工作站：用最常用的网站构建工作空间，创建生产力中心。\n提升生产力：告别寻找丢失标签页或重要书签的浪费时间。\n更智能的工作流：完美适合开发者、多任务处理者和任何希望优化浏览体验的人。\n以用户为中心的设计：直观、轻量，旨在无缝融入您的日常工作流程。\nLokica 是通向更智能、更有条理的浏览体验的钥匙。立即尝试，改变您浏览网络的方式！🚀\n下载体验： https://chromewebstore.google.com/detail/lokica-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8B/lcgiffhanmeoclicpmfgjbhjdcbpibgf?hl=zh-CN&utm_source=ext_sidebar",
+          "link": "https://www.v2ex.com/t/1104522",
+          "publishedOn": "2025-01-12T10:37:06.000Z",
+          "wordCount": 386,
+          "title": "终于过审了！欢迎体验浏览器助手 Lokica-ver1.2.0，可能有点强大～～",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104521",
+          "author": "deacyn",
+          "description": "deacyn: 最近在 iPhone 上安装了 Userscript 和 Stay ，想尝试在 Safari 浏览器中使用一些用户脚本。发现像 Greasyfork 和 Userscript 这类网站上的脚本，大部分都不兼容 iOS Safari 。\n想请教大家，除了这两个网站，还有哪些地方可以下载专门支持 iOS Safari 的脚本呢？\n如果有推荐的资源或使用技巧，也欢迎分享！谢谢！",
+          "link": "https://www.v2ex.com/t/1104521",
+          "publishedOn": "2025-01-12T10:36:35.000Z",
+          "wordCount": 398,
+          "title": "在 iOS Safari 上使用 Userscript 和 Stay，有哪些地方可以下载兼容的脚本？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104519",
+          "author": "ReturnTmp",
+          "description": "ReturnTmp: 承接上个帖子，我想使用机械硬盘 E 盘备份固态里面的文件，但是 E 盘软件、游戏太多，没什么空间。所以今天我就疯狂的卸载软件，以便留出空间备份固态，然后机械硬盘突然就坏盘了（已经用了两年多了），而且估计数据也恢复不了\n里面数据怎么样倒是无所谓，这些软件我只要卸载，然后在新硬盘上重新安装即可，但重点是卸载的 exe 文件在这个硬盘里面，我没法以正常方式卸载软件了，那这些软件现在是出于什么状态呢，我又应该如何卸载干净他们呢？求大佬解答",
+          "link": "https://www.v2ex.com/t/1104519",
+          "publishedOn": "2025-01-12T09:14:55.000Z",
+          "wordCount": 385,
+          "title": "在机械硬盘安装软件后，机械硬盘突然坏盘，那么原来的软件是处于什么状态，如何卸载干净呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104518",
+          "author": "2020583117",
+          "description": "2020583117: \n前情提要\n一年被裁两次，萎靡不振\n然后分享了自己做的前端导航站，最近已经到 260+ star⭐ 了，再这里再次给各位老哥表示感谢\n因此我在这段时间又做了一个简单但很漂亮（自我感觉良好🤣）的个人主页\n地址\n个人主页\n预览：个人主页\n地址：个人主页\n前端导航（进行了动画的优化）\n预览：前端导航\n地址：前端导航\n补充\n不知道这种分享是否算所谓的软广，如果不太好的话希望大家指正😀",
+          "link": "https://www.v2ex.com/t/1104518",
+          "publishedOn": "2025-01-12T09:01:18.000Z",
+          "wordCount": 507,
+          "title": "菜菜的我又来分享自己的网站了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104516",
+          "author": "gransh",
+          "description": "gransh: \n在抖音和小红书看到有些人发布的国漫角色 AI 绘图，进主页看我感觉有一大部分都不是自己做的，都是搬运别人的。\n有的质量挺高的，但是找不到原作者。\ncivitai 也搜不到，中文的我就知道 liblib 但是搜的也不全。\n所以大家一般都会发到哪。",
+          "link": "https://www.v2ex.com/t/1104516",
+          "publishedOn": "2025-01-12T08:53:52.000Z",
+          "wordCount": 403,
+          "title": "一般人创作动漫人物 AI 绘图后会发到哪？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104514",
+          "author": "18k",
+          "description": "18k: 本身是为了解决照片备份问题，想把阿里云的照片备份挪到 NAS ，因为阿里云照片只有下载到原始备份设备才有拍摄时间，比如手机 A 上传只能 A 手机再下载才有拍摄时间）,其他设备或者 PC 下载就变成了创建时间，没有了拍摄时间，导致再上传到其他网盘或者设备后无法按拍摄时间排序。时间久了甚至就想不起来什么时候拍的照片了。\n买了 z2pro+酷狼 4T ，又配了个 256M2 固态，结果是噩梦的开始。。。\n🌟🌟🌟🌟🌟先说照片备份问题\n1 ，备份 live 照片要开始视频同步备份，不开启就会变成 JPG ，刚开始没开，导致删除重新来一遍。买了才能看到论坛里面的各种呼声，不买之前压根不知道无法备份 live 照片！！！\n2 ，从阿里云盘导入也无法导入 live 照片，相当于 live 照片只能由手机备份上传，无法导入！\n3 ，极相册中 已经备份的照片如果删掉，在上传记录里面还是会存在，包括即使是硬盘格式化，这个上传记录还是会存在，需要强制刷新并且再重启设备。这个不问客服谁知道啊，而且这个记录存在会导致已经删掉的照片无法再重新备份进来，这个体验极差。每次删除照片什么的还得先强制刷新，再重启设备，万能重启大法。\n4 ，两件文件夹中的照片移动后，不知道为什么出现了一些无法显示的照片，查看原片进度到 90%后就不动了，单独点进去又显示文件不存在。问了客服各种解决办法也不行。最后重置了存储并且恢复出厂蔡姐姐。\n5 ，AI 引擎下载好多次失败，找了客服也是重启才行。\n6 ，基本上你文件不要有太多改动，改动多最好天天重启，不然真的各种各样的 BUG 搞不清楚，太差劲了实在是。\n以上能不能全部优化不要重启，谁没事天天重启啊。\n🌟🌟🌟🌟🌟再说组件 ZDR 模式问题：\n1 ，各种教程和记录都说相同 SATA 接口的两块盘就可以组件 ZDR ，一块固态一块机械也可以，问客服也可以。\n2 ，但是所有的帮助文档都没有说明，ZDR 是优先像大容量盘倾斜的，比如 4T 机械和 256G 固态，ZDR 是日常存储还是用 4T 机械，只是把双备份内容存进固态的。相当于机械盘变成日用盘，固态盘变成了静态存储盘，那我买固态干嘛。。。本身就是希望固态能速度快 声音小和频繁小文件备份读取的，结果 ZDR 这个机制 还是先用机械盘。问客服也不会跟你详细说这个，害得我买了 SATA 固态没啥用还得给退掉（京东好评）。\n🌟🌟🌟🌟🌟最后说点折腾下来的 Z2PRO 经验：\n1 ，ZDR 模式可以 SATA 接口固态和机械存，但是建议你固态容量一定要比机械大，不然没有意义！\n2 ，M2 接口固态只能装一块，也无法跟机械组缓存提升速度，所以如果买 M2 接口固态，就相当于再用作另一个存储仓，都是单盘模式。\n后面有没有问题，还不知道，因为才用两三天还没遇到。。。后续有问题再来说咯。整体体验 反正不咋滴。。。",
+          "link": "https://www.v2ex.com/t/1104514",
+          "publishedOn": "2025-01-12T08:49:29.000Z",
+          "wordCount": 472,
+          "title": "极空间 z2pro 使用体验：照片备份及机械固态搭配组 ZDR 使用经验",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104513",
+          "author": "chenqh",
+          "description": "chenqh: \n因为 windowsterminal 在杀死进程的时候,杀不了某个指定 terminal,只能全部杀死,所以需要替代品,\n求推荐",
+          "link": "https://www.v2ex.com/t/1104513",
+          "publishedOn": "2025-01-12T08:48:21.000Z",
+          "wordCount": 414,
+          "title": "windows 下面有像 windowsterminal 一样可以通过命令行,来启动启动多个 tab,然后运行命令吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104512",
+          "author": "JZen",
+          "description": "JZen: \n那是 2023 年夏天\n我决定从零基础开始学习 iOS 开发\n我买了 Mac 电脑\n边学习边开发\n10 月份，上架成功\n这是一款非常不起眼的日记 APP\n我一直用到现在\n\n1 记，一天记录一句话\n它看起来是那么，普通\n但它以前不是这样的\n以前的页面并不美观\n会有各种各样的 Bug\n经过一年的打磨\n它终于看起来像是一个正常的 APP 了\n你说它够普通，那是对它极高的赞美\n\n不止普通，我还想让它够简洁和清爽\n不止清爽，我还想让它的功能够强大\n列出来还有点份量：\n多种日记列表样式\niCloud 同步\nFaceID 保护\n全面适配 iPadOS\n后台隐私保护\n字体大小调整\n多种的日记导出格式\n适配夜间模式\n日记搜索和日期筛选功能\n丰富的日记分享风格\n1 记只能记录文字\n一篇作文，一段摘录，一句话，或者只是一个表情符号\n我曾经也习惯写日记\n写了几年，好几本流水账\n我发现每天有意义的内容其实用一句话就能概括\n于是这些年我的日记就只记录一句话\n几乎不耗费任何时间，同时又把日子的轮廓画出来\n1 记 APP 是免费的\n当然，也有付费功能\n不过免费版已经包含所有核心功能\n非常良心\n良心到我一年只赚到 18 美元\n\n除去 iOS 开发者费用一年 99 美元\n我努力一年亏了 81 美元\n哈哈。\n说这么多，主要是希望你能试试 1 记\n也希望你能给个五星好评\n下载链接：App Store | 1 记 - 一天记一句话\n送码\n感谢各位能看到这里\n下面送出十个 1 记永久会员兑换码，先到先得\n4EM4XAP7RXWA\nML7PJPHTWTKJ\nF3AFH6HXR444\nTT73KRL9XN9E\nLMYHJL43M3XY\nNRLYFMWMAENN\nNEHT6A6MYAE7\nLRLFWTEW49MH\nNTMWFKF7PMRL\n6F7JPFXXA636\nApp Store | 1 记 - 一天记一句话\nV2EX | 1 记 - 一款不需要花费太多时间的日记 App",
+          "link": "https://www.v2ex.com/t/1104512",
+          "publishedOn": "2025-01-12T08:39:18.000Z",
+          "wordCount": 613,
+          "title": "我花了一年的时间打造这款 APP",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104510",
           "author": "Geon97",
           "description": "Geon97: 以前周末我会看看书或者学习一些知识研究感兴趣的东西，今年不知道怎么了颓废了，大部分时间都泡在游戏和视频号里，人近中年精力有限，变得颓废了吗？\n1.以前我从来不刷 dy 一类的短视频，只会刷 b 站。现在自从微信视频号，有点走不动道了，b 站反而很少了。\n2.原本周末计划好了在家想做些事情，打开电脑就玩游戏。自己告诉自己不能玩了，但是自己会找借口：赢一局就不玩了。要不就是再玩几局。。。总之就是给自己找台阶下，不跳出舒适圈，以前的我不是这样的\n最终周末基本什么事情都没有做成。\n不知道是不是因为我自制力变差了，当然我也承认人的精力是有限的，不希望自己内耗。但是这样想就会把问题指向视频号和游戏。现在做事情会拖泥带水，刷完短视频再去做，时间都浪费了。\n有种想在路由器加限制访问的想法...又感觉这样治标不治本。\n大部分人可能也都会这样吧，但是有什么好的办法吗？这样只会越来越颓废和懒。v 友们给点建议",
           "link": "https://www.v2ex.com/t/1104510",
           "publishedOn": "2025-01-12T08:25:24.000Z",
-          "wordCount": 601,
+          "wordCount": 644,
           "title": "人近中年，自制力会越来越差吗",
           "imageUrl": null
         },
@@ -305,7 +419,7 @@
           "description": "airportIllIl: \n难顶，新公司比起前司企业文化差别太大了，我觉得工作就是单纯的雇佣关系了，不是来体验啥家文化的，新公司墙上贴满了标语，每个月还有各种奇奇怪怪的企业活动，当初给的 offer 比上家高不少，头脑一热就来了，没想到啊没想到，相比起来上家是如此眉清目秀，干活就是干活，不想着教育员工，阿西吧\n另外奉劝大家，果然还是要去大公司啊",
           "link": "https://www.v2ex.com/t/1104509",
           "publishedOn": "2025-01-12T08:22:56.000Z",
-          "wordCount": 393,
+          "wordCount": 418,
           "title": "跑路新公司第三天，心里发慌",
           "imageUrl": null
         },
@@ -315,7 +429,7 @@
           "description": "sc13: \n\n网站地址 \n游戏很简单就是可以选择省份或者城市来猜，会提供一个谜底地区的轮廓，让玩家来猜，猜错的地区会提供一个和谜底地区大致的距离，缩小猜测的范围。很早之前就一直想在业余时间做点小东西，但是一直没有行动，之前看到有个兄弟骑龙一直在发自己的产品，也是从零做起，感觉挺受鼓舞的，自己也应该行动起来。最终的目标当然是希望自己做的东西能带来一些收入，但是才开始也不指望能赚钱了，跑通做网站的流程，在逐步提高自己的水平，找到真正的痛点，能解决一些场景问题，应该就会有收入了，加油吧！希望以后多多开发些有用的东西~",
           "link": "https://www.v2ex.com/t/1104507",
           "publishedOn": "2025-01-12T08:05:02.000Z",
-          "wordCount": 425,
+          "wordCount": 435,
           "title": "大家好，这是练习时长两天半的初级小程序-中国地理猜谜游戏",
           "imageUrl": null
         },
@@ -335,7 +449,7 @@
           "description": "cloudboyu: \n偶然发现有把克里奥尔语翻译成英语的小众需求，于是做了一个网站\n克里奥尔语介绍\n克里奥尔语（ Creole languages ） 是一种独特的语言类型，起源于不同语言的混合，由欧洲语言（如英语、法语、西班牙语、葡萄牙语等）与本土语言混合形成的。这些语言在特定的社会和历史背景下发展，逐渐固定下来，形成了具有自身语法和词汇体系的独立语言。\n克里奥尔语的分类及使用国家\n克里奥尔语种类繁多，主要根据其基础语言和地理分布来分类。以下是常见的克里奥尔语及其使用国家：\n海地克里奥尔（ Haitian Creole ）：主要在海地使用。\n路易斯安那克里奥尔语（ Louisiana Creole ）：主要在美国路易斯安那州使用。\n毛里求斯克里奥尔语（ Mauritian Creole ）：主要在毛里求斯使用。\n塞舌尔克里奥尔语（ Seychelles Creole ）：主要在舌尔使用。\n查莫罗语（ Chamorro ）：主要在关岛和北马里亚纳群岛使用。\n网站介绍\n网站名称：克里奥尔语翻译平台\n网站地址：https://translate-creole-to-english.com\n功能介绍：\n主要功能：将克里奥尔语翻译成英语。\n多语言支持：页面支持中文、克里奥尔语和英文三种语言，方便不同国家的用户使用。\n用户界面：简洁直观的界面设计，用户可以轻松进行语言切换和翻译操作。\n使用场景：\n教育领域：帮助学习克里奥尔语的学生和教师进行语言转换。\n旅游交流：为前往克里奥尔语使用地区的游客提供语言支持。",
           "link": "https://www.v2ex.com/t/1104503",
           "publishedOn": "2025-01-12T07:48:18.000Z",
-          "wordCount": 412,
+          "wordCount": 414,
           "title": "小众需求：将克里奥尔语翻译成英语",
           "imageUrl": null
         },
@@ -355,7 +469,7 @@
           "description": "anonymouswll: \n起因：中银信用卡加入 apple pay 后付款总是需要再输入银行的 6 位密码，太麻烦。\n网上搜索一番发现有两篇相关文章：\nhttps://crossbell.io/notes/51533-22\nhttps://www.flyert.com.cn/forum.php?mod=viewthread&tid=3950619&mobile=2\n两文章统一结论：需要实体动态口令，但现在很多银行不提供。\n另辟蹊径：我知道信用卡中心客服是能够实时帮你开通小额免密功能。\n解决办法：\n1.致电 400 669 5566 并转人工\n2.告知客服你需要开通四位尾号为 xxxx 的 [线上] 小额免密功能。 [注意⚠️：线上小额 非线下小额] \n重要附注：\n1.xxxx 为以上文章截图[附于本文下]中 [设备卡号] 的后四位，非信用卡卡号后四位，因为绑定 apple pay 相当于产生了新的虚拟信用卡。\n2.免密默认是 1000 元/笔，但是客服实际操作默认系统设置成 0 ，非客服故意，所以要让客服手动输入限制的金额。",
           "link": "https://www.v2ex.com/t/1104498",
           "publishedOn": "2025-01-12T07:24:48.000Z",
-          "wordCount": 484,
+          "wordCount": 497,
           "title": "大陆中国银行信用卡 apple pay 小额免密开启",
           "imageUrl": null
         },
@@ -375,7 +489,7 @@
           "description": "bboring: \n1 月 24 日开始放假，今年有点不太想在家过年。\n父母提要么出去旅游，但是我看了天气，很多城市 24 、25 日都有雨或者雪，除了海南、云南、新疆这几个地方；\n海南天气不错，但是在那玩一周，估计会待的受不了... 如果逛多个城市，春运车票又难抢\n云南那吧，最近出了一些事，父母又担心...\n新疆，玩一周以上似乎很合适，天气都是阴天，温度零下 30 度 - 零下 10 度左右，不知道有没有去过的 v 友能否说一下，这个天气适合过去玩么？太冷天气又不好，过去也是遭罪啊！ \n大致看了未来天气，今年过年要么下雨要么下雪，看着都不太好出门的样子，但现在在家过年确实没啥味道了，难顶，还有什么地方可以去旅游吗？",
           "link": "https://www.v2ex.com/t/1104496",
           "publishedOn": "2025-01-12T07:12:15.000Z",
-          "wordCount": 510,
+          "wordCount": 532,
           "title": "过年有哪些地方可以去旅游？",
           "imageUrl": null
         },
@@ -405,7 +519,7 @@
           "description": "xiangsanliu: 奇怪的是我用阿里的 223.5.5.5 ，解析出来也是反诈\n \n然后我又用了自建的 adguardhome ，填了以下的 dns\nhttps://doh.pub/dns-query\nhttps://dns.alidns.com/dns-query\nhttps://doh.360.cn/dns-query\n解析出来还是反诈\n \n试了 doh.pub 、doh.360 还是一样\n最后用 cloudflare 临时搭了个 doh ，转发 cloudflare-dns 才解决",
           "link": "https://www.v2ex.com/t/1104492",
           "publishedOn": "2025-01-12T06:04:43.000Z",
-          "wordCount": 556,
+          "wordCount": 592,
           "title": "江苏联通 github 被解析到反诈了",
           "imageUrl": null
         },
@@ -415,7 +529,7 @@
           "description": "onion83: 今天在查阅一个开源项目的 issue 的时候 https://github.com/mokeyish/smartdns-rs/issues/476#issuecomment-2585234688 ，发现了一个 Aibot ，已经能自动理解问题，并直接肝出了代码，关键还有模有样的（对不对另外一回事）这个 bot 年初诞生到现在，两个星期就 “污染”了 100 多个 repos ，只要算力允许理论上能 watching 所有热门项目。\n\n\n\n\n我想讨论一下是，这已经不是一个技术问题，而是意识形态问题。\n如果说 codepolit 、copilot 等还算是人使用工具，被动创造价值，那么这种类型的 bot 已经算主动创造财富了。延伸的话题：\n- 程序员对自己现今的定位，老板对真人劳动力的定位/定价问题\n- 人和机器的关系是什么\n想听一下大家观点。",
           "link": "https://www.v2ex.com/t/1104489",
           "publishedOn": "2025-01-12T05:46:37.000Z",
-          "wordCount": 622,
+          "wordCount": 632,
           "title": "Ai 开始自动抢活儿干了",
           "imageUrl": null
         },
@@ -425,7 +539,7 @@
           "description": "Alcex: \n此前一直在用 FastAPI 开发 api 但是占用有些高了\nNodejs 的 Express 框架不知道怎么样，用来开发 API\n(不用 go 是因为学习起来有点难加上热重载实现也很麻烦)\n我在搞一个公益的 API 站点\n( https://api.alcex.cn/)\n因此经常使用热重载的功能来实现代码自动更新，不知道哪个热重载比较快\n综合起来我比较看重:高并发，高性能，热重载快\n各位开发大佬们给些建议吧🙏",
           "link": "https://www.v2ex.com/t/1104488",
           "publishedOn": "2025-01-12T05:42:42.000Z",
-          "wordCount": 503,
+          "wordCount": 509,
           "title": "FastAPI 与 Nodejs 的 Express 哪个更适合开发 API",
           "imageUrl": null
         },
@@ -455,7 +569,7 @@
           "description": "mrleft: \n加州大火想到的，如果你需要在半小时内撤离，在其余物品都要灭失的期望下，你会带上哪些东西？",
           "link": "https://www.v2ex.com/t/1104484",
           "publishedOn": "2025-01-12T05:11:57.000Z",
-          "wordCount": 660,
+          "wordCount": 703,
           "title": "撤离时，你会带什么？",
           "imageUrl": null
         },
@@ -485,98 +599,8 @@
           "description": "lx271896700133: 最近用 Cursor ，做了几个简单的网页应用和 flutter 应用，感觉已经很强了。\n只要会说中文，然后懂得少量的编程知识，就可以做出成品了。\n那普通人学编程还有意义吗？\n现在，如果普通程序员失业了，还有必要继续守着老本行吗？",
           "link": "https://www.v2ex.com/t/1104479",
           "publishedOn": "2025-01-12T04:52:18.000Z",
-          "wordCount": 688,
+          "wordCount": 750,
           "title": "普通程序员还有活路吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104477",
-          "author": "2232588429",
-          "description": "2232588429: \n刷新也一样，是不知不觉开了个什么功能吗？",
-          "link": "https://www.v2ex.com/t/1104477",
-          "publishedOn": "2025-01-12T04:15:07.000Z",
-          "wordCount": 379,
-          "title": "IOS chrome 浏览器有时候按着按着发现整个搜索结果页面字体都变大了。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104476",
-          "author": "heong",
-          "description": "heong: \n全栈开发工程师（小程序/App 方向）- 上海虹桥商务区初创团队，机会无限！\n为什么选择我们？\n参与从 0 到 1 的产品打造： 你将有机会深度参与产品的设计、开发和迭代，你的代码将直接影响产品的走向和用户体验。\n快速成长和学习的平台： 作为创始团队成员，你将有机会接触到创业的方方面面，快速提升你的技术能力和商业思维。\n扁平化管理，开放包容的文化： 我们鼓励创新和表达，你的每一个想法都会得到重视和尊重。\n丰厚的股权激励： 我们相信团队的力量，你将有机会分享公司成长带来的丰厚回报。\n我们希望你：\n技术扎实，热爱编程：\n熟练掌握 HTML 、CSS 、JavaScript 等前端技术，对主流前端框架（如 Vue.js 、React 等）有深入理解和实践经验。\n熟悉至少一种后端开发语言（如 Java 、Python 、Node.js 等），并具备数据库设计和开发能力。\n熟悉微信小程序开发流程，有实际项目经验者优先。\n了解移动端开发技术（如 React Native 、Flutter 等），有 App 开发经验者优先。\n全栈思维，独立担当：\n能够独立完成从前端到后端的开发工作，具备良好的代码规范和文档编写习惯。\n具备良好的沟通能力和团队合作精神，能够与其他团队成员高效协作。\n持续学习，追求卓越：\n关注前沿技术发展，具备良好的学习能力和解决问题的能力。\n对代码质量有追求，致力于编写高效、可维护的代码。\n创业精神，积极主动：\n对创业充满热情，愿意接受挑战，并能够在压力下工作。\n积极主动，具备良好的自我驱动能力。\n你将负责：\n参与公司小程序和 App 产品的需求分析、设计和开发工作。\n负责前端页面开发、交互实现和性能优化。\n负责后端接口开发、数据库设计和维护。\n与产品经理、设计师等团队成员紧密合作，确保项目按时高质量交付。\n我们提供：\n创始阶段薪酬：20k/月左右，未来根据公司发展情况考虑期权激励。\n弹性工作制，双休，工作生活两不误。\n广阔的发展空间和晋升机会。\n轻松愉快的工作氛围和团队活动。\n[其他福利，例如：定期培训、免费健身房等]\n加入我们，一起创造未来！\n简历投递邮箱： fxiang21@gmail.com\n邮件主题： 姓名 + 应聘全栈开发工程师\n工作地点： 上海虹桥商务区\n我们期待你的加入！",
-          "link": "https://www.v2ex.com/t/1104476",
-          "publishedOn": "2025-01-12T04:04:37.000Z",
-          "wordCount": 480,
-          "title": "[招聘] [上海] 初创全栈开发 [20k]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104475",
-          "author": "Daath",
-          "description": "Daath: \n上周 vip 还正常看着斗破 4K ，这周打开，4K 要开通 svip 了\n每次视频所谓会员广告就算了，连画质选择都也搞暗改，这破视频会员开了这么多年，想想看来感觉该弃了。无奈~",
-          "link": "https://www.v2ex.com/t/1104475",
-          "publishedOn": "2025-01-12T04:02:47.000Z",
-          "wordCount": 591,
-          "title": "吐槽一句，现在腾讯视频 vip 连 4K 也砍了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104474",
-          "author": "lambdaX999",
-          "description": "lambdaX999: \n今天突然想到了这个问题，政府出让土地的时候可以走招标，拍卖，挂牌出售，但是新房也好，二手房也好，购买流程却没有一家拍卖网站，是法律不允许吗？\n目前看到的拍卖只有法拍，就是你还不上钱了才能去拍卖，正常为什么不给拍卖呢？",
-          "link": "https://www.v2ex.com/t/1104474",
-          "publishedOn": "2025-01-12T04:02:04.000Z",
-          "wordCount": 677,
-          "title": "二手车拍卖网站很多，为什么没有二手房拍卖网站？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104472",
-          "author": "founddev",
-          "description": "founddev: 手上有台 T30 是 e3 的 cpu ，想换成 e5-2680v4 ，\n看中了云星 c612 的 nas 主板，\n但是 T30 的电源只有 290W ，不装显卡能带动吗？\n主要是想用来 esxi 虚拟机",
-          "link": "https://www.v2ex.com/t/1104472",
-          "publishedOn": "2025-01-12T03:51:12.000Z",
-          "wordCount": 390,
-          "title": "求戴尔 T30 更换主板和电源建议",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104471",
-          "author": "ethansunray",
-          "description": "ethansunray: \n继本地化图片压缩后的另外一个本地化图片裁剪工具。\n访问地址：Crop Image\n都是本地化完成，主打隐私和安全，支持裁剪框缩放、图片缩放、旋转、翻转、上下左右拖动调整位置，内置常见的裁剪框比例，缩放时始终保持比例不变，使用更省心。\n欢迎有需要的朋友访问使用。",
-          "link": "https://www.v2ex.com/t/1104471",
-          "publishedOn": "2025-01-12T03:45:49.000Z",
-          "wordCount": 369,
-          "title": "免费在线的图片裁剪工具，所有操作都在本地完成，更加隐私和安全",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104470",
-          "author": "haoyh1",
-          "description": "haoyh1: mas 下载的 ipaste ，有个内购 pro 版 58 元，好奇点了一下购买，结果不验证密码直接扣款，看到信用卡一笔 58 的账单当时人都懵逼了\n赶紧去“上报问题”申请退款，结果连续两次都被拒，没有任何理由\n后面去 12315 投诉，刚刚来回访电话依然是不符合退款要求，至于不符合什么要求，永远说不出来\n求问现在还有什么方案？市场监督局都管不了了吗？\n我是扣款后 5 分钟内立刻申请退款，不是白嫖党，苹果三番五次拒绝退款是否符合相关法规？不是差这 58 元，就这态度我必须刚到底",
-          "link": "https://www.v2ex.com/t/1104470",
-          "publishedOn": "2025-01-12T03:43:57.000Z",
-          "wordCount": 766,
-          "title": "appstore 这么顽固？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104468",
-          "author": "ibrothergang",
-          "description": "ibrothergang: \n在工作中，因为不同的项目，会注册多个不同的 google 账号，打开多个浏览器窗口。\n主账号下安装了很多的插件，每当注册一个新的账号后，之前的做法是需要根据名称手动一个个的在 Chrome 应用市场去找对应的插件，然后再去安装插件，费时费力。\n于是自己写了一个插件 Chrome Extension Sync，能够一键导出主账号下包含所有插件的 json 文件，然后在新的账号下，再用这个插件导入 json 文件，这样就不用一个个去搜索安装了。\n一个插件搞定所有其他插件。\n觉得有用的可以点个赞。",
-          "link": "https://www.v2ex.com/t/1104468",
-          "publishedOn": "2025-01-12T03:32:28.000Z",
-          "wordCount": 407,
-          "title": "还在一个个手动同步浏览器插件？用这个工具就方便了。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104462",
-          "author": "XinPingQiHe",
-          "description": "XinPingQiHe: \n客户找我们做的小程序，发展有些起色，现在想开发安卓苹果双平台的 app 。\n可选方案：（前端重新开发、后端略作改造拓展）\n1.flutter\n2.uni-app\n3.腾讯提供的小程序转 app 的框架\n4.其它\n请教一下有经验的 V 友，该如何选择呢？",
-          "link": "https://www.v2ex.com/t/1104462",
-          "publishedOn": "2025-01-12T02:48:22.000Z",
-          "wordCount": 415,
-          "title": "关于已经有微信小程序，如何快速开发 app 的思考",
           "imageUrl": null
         }
       ]
