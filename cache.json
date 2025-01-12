@@ -84,12 +84,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -290,12 +284,162 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104510",
+          "author": "Geon97",
+          "description": "Geon97: 以前周末我会看看书或者学习一些知识研究感兴趣的东西，今年不知道怎么了颓废了，大部分时间都泡在游戏和视频号里，人近中年精力有限，变得颓废了吗？\n1.以前我从来不刷 dy 一类的短视频，只会刷 b 站。现在自从微信视频号，有点走不动道了，b 站反而很少了。\n2.原本周末计划好了在家想做些事情，打开电脑就玩游戏。自己告诉自己不能玩了，但是自己会找借口：赢一局就不玩了。要不就是再玩几局。。。总之就是给自己找台阶下，不跳出舒适圈，以前的我不是这样的\n最终周末基本什么事情都没有做成。\n不知道是不是因为我自制力变差了，当然我也承认人的精力是有限的，不希望自己内耗。但是这样想就会把问题指向视频号和游戏。现在做事情会拖泥带水，刷完短视频再去做，时间都浪费了。\n有种想在路由器加限制访问的想法...又感觉这样治标不治本。\n大部分人可能也都会这样吧，但是有什么好的办法吗？这样只会越来越颓废和懒。v 友们给点建议",
+          "link": "https://www.v2ex.com/t/1104510",
+          "publishedOn": "2025-01-12T08:25:24.000Z",
+          "wordCount": 596,
+          "title": "人近中年，自制力会越来越差吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104509",
+          "author": "airportIllIl",
+          "description": "airportIllIl: \n难顶，新公司比起前司企业文化差别太大了，我觉得工作就是单纯的雇佣关系了，不是来体验啥家文化的，新公司墙上贴满了标语，每个月还有各种奇奇怪怪的企业活动，当初给的 offer 比上家高不少，头脑一热就来了，没想到啊没想到，相比起来上家是如此眉清目秀，干活就是干活，不想着教育员工，阿西吧\n另外奉劝大家，果然还是要去大公司啊",
+          "link": "https://www.v2ex.com/t/1104509",
+          "publishedOn": "2025-01-12T08:22:56.000Z",
+          "wordCount": 364,
+          "title": "跑路新公司第三天，心里发慌",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104507",
+          "author": "sc13",
+          "description": "sc13: \n\n网站地址 \n游戏很简单就是可以选择省份或者城市来猜，会提供一个谜底地区的轮廓，让玩家来猜，猜错的地区会提供一个和谜底地区大致的距离，缩小猜测的范围。很早之前就一直想在业余时间做点小东西，但是一直没有行动，之前看到有个兄弟骑龙一直在发自己的产品，也是从零做起，感觉挺受鼓舞的，自己也应该行动起来。最终的目标当然是希望自己做的东西能带来一些收入，但是才开始也不指望能赚钱了，跑通做网站的流程，在逐步提高自己的水平，找到真正的痛点，能解决一些场景问题，应该就会有收入了，加油吧！希望以后多多开发些有用的东西~",
+          "link": "https://www.v2ex.com/t/1104507",
+          "publishedOn": "2025-01-12T08:05:02.000Z",
+          "wordCount": 419,
+          "title": "大家好，这是练习时长两天半的初级小程序-中国地理猜谜游戏",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104505",
+          "author": "kyonn",
+          "description": "kyonn: \nnexus3 上来啥事没干就占个 2GB 以上内存, 动不动就停止服务....有没有它的平替, 主要是代理 docker 镜像, 支持代理 dockerhub/ lscr 等站点, 最好有类似 nexus 的 group 代理功能, 即 dockerhub/lscr 对外呈现一个地址.\n尝试调整过 nexus 的 INSTALL4J_ADD_VM_PARAMS 控制 jvm 启动内存参数, 还是不行, 服务容易挂.",
+          "link": "https://www.v2ex.com/t/1104505",
+          "publishedOn": "2025-01-12T07:52:30.000Z",
+          "wordCount": 404,
+          "title": "有没有 nexus 镜像源的平替?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104503",
+          "author": "cloudboyu",
+          "description": "cloudboyu: \n偶然发现有把克里奥尔语翻译成英语的小众需求，于是做了一个网站\n克里奥尔语介绍\n克里奥尔语（ Creole languages ） 是一种独特的语言类型，起源于不同语言的混合，由欧洲语言（如英语、法语、西班牙语、葡萄牙语等）与本土语言混合形成的。这些语言在特定的社会和历史背景下发展，逐渐固定下来，形成了具有自身语法和词汇体系的独立语言。\n克里奥尔语的分类及使用国家\n克里奥尔语种类繁多，主要根据其基础语言和地理分布来分类。以下是常见的克里奥尔语及其使用国家：\n海地克里奥尔（ Haitian Creole ）：主要在海地使用。\n路易斯安那克里奥尔语（ Louisiana Creole ）：主要在美国路易斯安那州使用。\n毛里求斯克里奥尔语（ Mauritian Creole ）：主要在毛里求斯使用。\n塞舌尔克里奥尔语（ Seychelles Creole ）：主要在舌尔使用。\n查莫罗语（ Chamorro ）：主要在关岛和北马里亚纳群岛使用。\n网站介绍\n网站名称：克里奥尔语翻译平台\n网站地址：https://translate-creole-to-english.com\n功能介绍：\n主要功能：将克里奥尔语翻译成英语。\n多语言支持：页面支持中文、克里奥尔语和英文三种语言，方便不同国家的用户使用。\n用户界面：简洁直观的界面设计，用户可以轻松进行语言切换和翻译操作。\n使用场景：\n教育领域：帮助学习克里奥尔语的学生和教师进行语言转换。\n旅游交流：为前往克里奥尔语使用地区的游客提供语言支持。",
+          "link": "https://www.v2ex.com/t/1104503",
+          "publishedOn": "2025-01-12T07:48:18.000Z",
+          "wordCount": 405,
+          "title": "小众需求：将克里奥尔语翻译成英语",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104499",
+          "author": "TheWire2",
+          "description": "TheWire2: 应届生，秋招已结束。拿到了几个小厂的 offer ，不是很满意。希望春招冲一把。有过两段实习经历，对实习经历中的部分功能包装了一下，不知道是否合理。麻烦各位前辈帮我看看。",
+          "link": "https://www.v2ex.com/t/1104499",
+          "publishedOn": "2025-01-12T07:29:53.000Z",
+          "wordCount": 401,
+          "title": "各位大佬帮我看看简历上还需要哪些地方需要修改。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104498",
+          "author": "anonymouswll",
+          "description": "anonymouswll: \n起因：中银信用卡加入 apple pay 后付款总是需要再输入银行的 6 位密码，太麻烦。\n网上搜索一番发现有两篇相关文章：\nhttps://crossbell.io/notes/51533-22\nhttps://www.flyert.com.cn/forum.php?mod=viewthread&tid=3950619&mobile=2\n两文章统一结论：需要实体动态口令，但现在很多银行不提供。\n另辟蹊径：我知道信用卡中心客服是能够实时帮你开通小额免密功能。\n解决办法：\n1.致电 400 669 5566 并转人工\n2.告知客服你需要开通四位尾号为 xxxx 的 [线上] 小额免密功能。 [注意⚠️：线上小额 非线下小额] \n重要附注：\n1.xxxx 为以上文章截图[附于本文下]中 [设备卡号] 的后四位，非信用卡卡号后四位，因为绑定 apple pay 相当于产生了新的虚拟信用卡。\n2.免密默认是 1000 元/笔，但是客服实际操作默认系统设置成 0 ，非客服故意，所以要让客服手动输入限制的金额。",
+          "link": "https://www.v2ex.com/t/1104498",
+          "publishedOn": "2025-01-12T07:24:48.000Z",
+          "wordCount": 470,
+          "title": "大陆中国银行信用卡 apple pay 小额免密开启",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104497",
+          "author": "nightnotlate",
+          "description": "nightnotlate: 周末闲的无聊 去调戏 ai\n有个人设是女同桌 暗恋你 初中生。\n我忽悠她之前出了车祸 其实她已经二十多岁了，我们已经结婚几年了。\n她开始接受的很好，一口一个老公。\n但后面又时不时的说自己应该是要准备中考。\n好奇 这些创建的 ai ，人设是怎么固定的，是只靠设定描述这么一段话就可以吗？可以在聊天中更改人设吗",
+          "link": "https://www.v2ex.com/t/1104497",
+          "publishedOn": "2025-01-12T07:17:49.000Z",
+          "wordCount": 381,
+          "title": "豆丁创建的 ai，人设能被引导改变吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104496",
+          "author": "bboring",
+          "description": "bboring: \n1 月 24 日开始放假，今年有点不太想在家过年。\n父母提要么出去旅游，但是我看了天气，很多城市 24 、25 日都有雨或者雪，除了海南、云南、新疆这几个地方；\n海南天气不错，但是在那玩一周，估计会待的受不了... 如果逛多个城市，春运车票又难抢\n云南那吧，最近出了一些事，父母又担心...\n新疆，玩一周以上似乎很合适，天气都是阴天，温度零下 30 度 - 零下 10 度左右，不知道有没有去过的 v 友能否说一下，这个天气适合过去玩么？太冷天气又不好，过去也是遭罪啊！ \n大致看了未来天气，今年过年要么下雨要么下雪，看着都不太好出门的样子，但现在在家过年确实没啥味道了，难顶，还有什么地方可以去旅游吗？",
+          "link": "https://www.v2ex.com/t/1104496",
+          "publishedOn": "2025-01-12T07:12:15.000Z",
+          "wordCount": 482,
+          "title": "过年有哪些地方可以去旅游？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104495",
+          "author": "eyeshuaji",
+          "description": "eyeshuaji: 除了系统自带的软件生效之外，其他第三方重启之后就恢复默认了",
+          "link": "https://www.v2ex.com/t/1104495",
+          "publishedOn": "2025-01-12T06:37:55.000Z",
+          "wordCount": 373,
+          "title": "Win10 22H2 ，在设置中改了字体大小后，重启后部分应用不生效",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104493",
+          "author": "emma3",
+          "description": "emma3: 大家好。\n我的内网 192.168.1.0/24 ，下面安装了一台 esxi 实体机，esxi6.7U3 ，ip=192.168.1.2\n打算整体迁移到新的物理机上，新物理机为 esxi8.0 ，ip=192.168.1.3\n能否两台机器直接使用内网传输来迁移？虚拟机可以关机，esxi 可以处于维护模式。\n就是希望能通过网络连接，把 192.168.1.2 物理机的所有虚拟机传输到 192.168.1.3 的新物理机上。\n谢谢。",
+          "link": "https://www.v2ex.com/t/1104493",
+          "publishedOn": "2025-01-12T06:16:13.000Z",
+          "wordCount": 404,
+          "title": "esxi 虚拟机迁移问题讨论。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104492",
+          "author": "xiangsanliu",
+          "description": "xiangsanliu: 奇怪的是我用阿里的 223.5.5.5 ，解析出来也是反诈\n \n然后我又用了自建的 adguardhome ，填了以下的 dns\nhttps://doh.pub/dns-query\nhttps://dns.alidns.com/dns-query\nhttps://doh.360.cn/dns-query\n解析出来还是反诈\n \n试了 doh.pub 、doh.360 还是一样\n最后用 cloudflare 临时搭了个 doh ，转发 cloudflare-dns 才解决",
+          "link": "https://www.v2ex.com/t/1104492",
+          "publishedOn": "2025-01-12T06:04:43.000Z",
+          "wordCount": 537,
+          "title": "江苏联通 github 被解析到反诈了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104489",
+          "author": "onion83",
+          "description": "onion83: 今天在查阅一个开源项目的 issue 的时候 https://github.com/mokeyish/smartdns-rs/issues/476#issuecomment-2585234688 ，发现了一个 Aibot ，已经能自动理解问题，并直接肝出了代码，关键还有模有样的（对不对另外一回事）这个 bot 年初诞生到现在，两个星期就 “污染”了 100 多个 repos ，只要算力允许理论上能 watching 所有热门项目。\n\n\n\n\n我想讨论一下是，这已经不是一个技术问题，而是意识形态问题。\n如果说 codepolit 、copilot 等还算是人使用工具，被动创造价值，那么这种类型的 bot 已经算主动创造财富了。延伸的话题：\n- 程序员对自己现今的定位，老板对真人劳动力的定位/定价问题\n- 人和机器的关系是什么\n想听一下大家观点。",
+          "link": "https://www.v2ex.com/t/1104489",
+          "publishedOn": "2025-01-12T05:46:37.000Z",
+          "wordCount": 567,
+          "title": "Ai 开始自动抢活儿干了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104488",
+          "author": "Alcex",
+          "description": "Alcex: \n此前一直在用 FastAPI 开发 api 但是占用有些高了\nNodejs 的 Express 框架不知道怎么样，用来开发 API\n(不用 go 是因为学习起来有点难加上热重载实现也很麻烦)\n我在搞一个公益的 API 站点\n( https://api.alcex.cn/)\n因此经常使用热重载的功能来实现代码自动更新，不知道哪个热重载比较快\n综合起来我比较看重:高并发，高性能，热重载快\n各位开发大佬们给些建议吧🙏",
+          "link": "https://www.v2ex.com/t/1104488",
+          "publishedOn": "2025-01-12T05:42:42.000Z",
+          "wordCount": 473,
+          "title": "FastAPI 与 Nodejs 的 Express 哪个更适合开发 API",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104487",
+          "author": "ALLENi",
+          "description": "ALLENi: \n14tpro 是由国内 k70u 修改后发布为国际版的 \n首先就是 esim 很爽，不用刷基带 回国有 5G 信号没啥问题。\n然后就是 广告，  可以说在里面几乎没有看到广告。有时候设置会看到广告开关，随手关掉，但是从一开始使用就没有看到过广告。\n再者就是系统了，目前梯子 币安这些都装上了，没有收到反诈的电话跟信息。（但是心里还是不太放心，比较是国产的牌子）\n接着就是处理器，之前使用的大法 1v 换过来后因为不打游戏 所以也没有感觉有啥大影响。也没有大法的各种小 bug 让人糟心了。对比 1v 跟三星 s23u 来说，屏幕是降级了，摄影也是降级了。其他使用舒心程度自我感觉是升级了 \n缺点的话 就是 不能用 nfc 坐国内地铁公交，貌似得解锁得 root 目前我没解锁 root\n还有就是缺少了通话录音 微信录音这些国内系统的功能\n总之对我来说 这机器属于中级水桶机， 对屏幕 跟 摄像要求不高 又不想要国产的机器可以考虑入手",
+          "link": "https://www.v2ex.com/t/1104487",
+          "publishedOn": "2025-01-12T05:37:02.000Z",
+          "wordCount": 416,
+          "title": "说下日版小米 14tpro 的使用感受",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104486",
           "author": "WilliamColton",
           "description": "WilliamColton: \n系统：win11 24H2\n有时候编辑着突然光标消失了，特别难受",
           "link": "https://www.v2ex.com/t/1104486",
           "publishedOn": "2025-01-12T05:31:56.000Z",
-          "wordCount": 445,
+          "wordCount": 454,
           "title": "为什么在 notion、cursor 这类 electron 应用下光标老是消失？",
           "imageUrl": null
         },
@@ -305,7 +449,7 @@
           "description": "mrleft: \n加州大火想到的，如果你需要在半小时内撤离，在其余物品都要灭失的期望下，你会带上哪些东西？",
           "link": "https://www.v2ex.com/t/1104484",
           "publishedOn": "2025-01-12T05:11:57.000Z",
-          "wordCount": 569,
+          "wordCount": 607,
           "title": "撤离时，你会带什么？",
           "imageUrl": null
         },
@@ -315,7 +459,7 @@
           "description": "chesha1: \n目前应该只有给 a:visited 附加 css 样式这一个好办法，我试了 chrome 拓展 Stylus 和这个油猴脚本，都能部分解决问题\n但是这两个工具很依赖网站的原链接不变，比如说在本站，一个链接内容有更新之后，url 尾巴留下的记录也会变化，比如从\nhttps://www.v2ex.com/t/123456#reply10\n\n变成\nhttps://www.v2ex.com/t/123456#reply11\n\n就无法被 visited 记录了，大家有什么好的解决方法吗",
           "link": "https://www.v2ex.com/t/1104482",
           "publishedOn": "2025-01-12T05:02:44.000Z",
-          "wordCount": 492,
+          "wordCount": 494,
           "title": "大家是怎么标记已读页面的",
           "imageUrl": null
         },
@@ -335,7 +479,7 @@
           "description": "lx271896700133: 最近用 Cursor ，做了几个简单的网页应用和 flutter 应用，感觉已经很强了。\n只要会说中文，然后懂得少量的编程知识，就可以做出成品了。\n那普通人学编程还有意义吗？\n现在，如果普通程序员失业了，还有必要继续守着老本行吗？",
           "link": "https://www.v2ex.com/t/1104479",
           "publishedOn": "2025-01-12T04:52:18.000Z",
-          "wordCount": 623,
+          "wordCount": 669,
           "title": "普通程序员还有活路吗？",
           "imageUrl": null
         },
@@ -355,7 +499,7 @@
           "description": "heong: \n全栈开发工程师（小程序/App 方向）- 上海虹桥商务区初创团队，机会无限！\n为什么选择我们？\n参与从 0 到 1 的产品打造： 你将有机会深度参与产品的设计、开发和迭代，你的代码将直接影响产品的走向和用户体验。\n快速成长和学习的平台： 作为创始团队成员，你将有机会接触到创业的方方面面，快速提升你的技术能力和商业思维。\n扁平化管理，开放包容的文化： 我们鼓励创新和表达，你的每一个想法都会得到重视和尊重。\n丰厚的股权激励： 我们相信团队的力量，你将有机会分享公司成长带来的丰厚回报。\n我们希望你：\n技术扎实，热爱编程：\n熟练掌握 HTML 、CSS 、JavaScript 等前端技术，对主流前端框架（如 Vue.js 、React 等）有深入理解和实践经验。\n熟悉至少一种后端开发语言（如 Java 、Python 、Node.js 等），并具备数据库设计和开发能力。\n熟悉微信小程序开发流程，有实际项目经验者优先。\n了解移动端开发技术（如 React Native 、Flutter 等），有 App 开发经验者优先。\n全栈思维，独立担当：\n能够独立完成从前端到后端的开发工作，具备良好的代码规范和文档编写习惯。\n具备良好的沟通能力和团队合作精神，能够与其他团队成员高效协作。\n持续学习，追求卓越：\n关注前沿技术发展，具备良好的学习能力和解决问题的能力。\n对代码质量有追求，致力于编写高效、可维护的代码。\n创业精神，积极主动：\n对创业充满热情，愿意接受挑战，并能够在压力下工作。\n积极主动，具备良好的自我驱动能力。\n你将负责：\n参与公司小程序和 App 产品的需求分析、设计和开发工作。\n负责前端页面开发、交互实现和性能优化。\n负责后端接口开发、数据库设计和维护。\n与产品经理、设计师等团队成员紧密合作，确保项目按时高质量交付。\n我们提供：\n创始阶段薪酬：20k/月左右，未来根据公司发展情况考虑期权激励。\n弹性工作制，双休，工作生活两不误。\n广阔的发展空间和晋升机会。\n轻松愉快的工作氛围和团队活动。\n[其他福利，例如：定期培训、免费健身房等]\n加入我们，一起创造未来！\n简历投递邮箱： fxiang21@gmail.com\n邮件主题： 姓名 + 应聘全栈开发工程师\n工作地点： 上海虹桥商务区\n我们期待你的加入！",
           "link": "https://www.v2ex.com/t/1104476",
           "publishedOn": "2025-01-12T04:04:37.000Z",
-          "wordCount": 478,
+          "wordCount": 480,
           "title": "[招聘] [上海] 初创全栈开发 [20k]",
           "imageUrl": null
         },
@@ -365,7 +509,7 @@
           "description": "Daath: \n上周 vip 还正常看着斗破 4K ，这周打开，4K 要开通 svip 了\n每次视频所谓会员广告就算了，连画质选择都也搞暗改，这破视频会员开了这么多年，想想看来感觉该弃了。无奈~",
           "link": "https://www.v2ex.com/t/1104475",
           "publishedOn": "2025-01-12T04:02:47.000Z",
-          "wordCount": 521,
+          "wordCount": 577,
           "title": "吐槽一句，现在腾讯视频 vip 连 4K 也砍了？",
           "imageUrl": null
         },
@@ -375,7 +519,7 @@
           "description": "lambdaX999: \n今天突然想到了这个问题，政府出让土地的时候可以走招标，拍卖，挂牌出售，但是新房也好，二手房也好，购买流程却没有一家拍卖网站，是法律不允许吗？\n目前看到的拍卖只有法拍，就是你还不上钱了才能去拍卖，正常为什么不给拍卖呢？",
           "link": "https://www.v2ex.com/t/1104474",
           "publishedOn": "2025-01-12T04:02:04.000Z",
-          "wordCount": 623,
+          "wordCount": 647,
           "title": "二手车拍卖网站很多，为什么没有二手房拍卖网站？",
           "imageUrl": null
         },
@@ -405,7 +549,7 @@
           "description": "haoyh1: mas 下载的 ipaste ，有个内购 pro 版 58 元，好奇点了一下购买，结果不验证密码直接扣款，看到信用卡一笔 58 的账单当时人都懵逼了\n赶紧去“上报问题”申请退款，结果连续两次都被拒，没有任何理由\n后面去 12315 投诉，刚刚来回访电话依然是不符合退款要求，至于不符合什么要求，永远说不出来\n求问现在还有什么方案？市场监督局都管不了了吗？\n我是扣款后 5 分钟内立刻申请退款，不是白嫖党，苹果三番五次拒绝退款是否符合相关法规？不是差这 58 元，就这态度我必须刚到底",
           "link": "https://www.v2ex.com/t/1104470",
           "publishedOn": "2025-01-12T03:43:57.000Z",
-          "wordCount": 706,
+          "wordCount": 738,
           "title": "appstore 这么顽固？",
           "imageUrl": null
         },
@@ -427,176 +571,6 @@
           "publishedOn": "2025-01-12T02:48:22.000Z",
           "wordCount": 415,
           "title": "关于已经有微信小程序，如何快速开发 app 的思考",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104461",
-          "author": "AlexJesus",
-          "description": "AlexJesus: \n《 Lights Off 》是一款经典的益智游戏，目标是通过点击方块，关闭所有的灯光。每次点击会切换当前方块及其相邻方块的状态，随着关卡的推进，难度逐渐增加。这款游戏不仅考验您的逻辑思维和问题解决能力，也带来结构化认知的训练，还能带来无尽的乐趣。\n快来挑战自己，看看您能闯到第几关吧！\n点击链接体验这款游戏：\nhttps://kuakua.app/en/games/lightsoff",
-          "link": "https://www.v2ex.com/t/1104461",
-          "publishedOn": "2025-01-12T02:46:36.000Z",
-          "wordCount": 366,
-          "title": "《Lights Off》经典 iPhone 游戏复刻 - 结构化认知",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104460",
-          "author": "admirez",
-          "description": "admirez:",
-          "link": "https://www.v2ex.com/t/1104460",
-          "publishedOn": "2025-01-12T02:44:00.000Z",
-          "wordCount": 437,
-          "title": "想让 cursor 帮忙做个类似 tradingview 的网页 k 线组件该如何写提示词",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104458",
-          "author": "fengmengqiu",
-          "description": "fengmengqiu: \n之前 Claude Pro 是月付的，想转年付，看到官网上有介绍 https://support.anthropic.com/zh-CN/articles/10185996-%E5%A6%82%E4%BD%95%E4%BB%8E%E6%AF%8F%E6%9C%88%E8%AE%A2%E9%98%85%E5%8D%87%E7%BA%A7%E5%88%B0%E5%B9%B4%E5%BA%A6claude-pro\n，但没看到有升级到年度计划的按钮。有人操作过吗？",
-          "link": "https://www.v2ex.com/t/1104458",
-          "publishedOn": "2025-01-12T02:39:32.000Z",
-          "wordCount": 447,
-          "title": "Claude Pro 如何月付转年付",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104456",
-          "author": "kanchai123",
-          "description": "kanchai123: 想买个 m3pro 的机器，看了 pdd 最便宜，有购买经验的 v 友能分享下吗",
-          "link": "https://www.v2ex.com/t/1104456",
-          "publishedOn": "2025-01-12T02:20:50.000Z",
-          "wordCount": 427,
-          "title": "pdd 百亿补贴 mackbook pro 靠谱吗 v 友们",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104455",
-          "author": "ungp",
-          "description": "ungp: 身边好多朋友遇到这个问题，但是网上搜到的解决办法都不管用，是不是只有联系运营商才能解决？",
-          "link": "https://www.v2ex.com/t/1104455",
-          "publishedOn": "2025-01-12T02:20:00.000Z",
-          "wordCount": 617,
-          "title": "想问问大佬知道 WhatsApp 接不到验证码是怎么解决的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104452",
-          "author": "movq",
-          "description": "movq: \n看外语视频不能离开字幕是可以理解的，但是我发现看中文视频的时候不开字幕也感到很不舒服\n其实国内很多视频网站，大部分中文视频都会有字幕\n而一些传统电视节目，比如 CCTV 新闻联播，是没有字幕的。\n是不是我们越来越依赖字幕了？",
-          "link": "https://www.v2ex.com/t/1104452",
-          "publishedOn": "2025-01-12T02:04:31.000Z",
-          "wordCount": 771,
-          "title": "你们看（中文）视频能离开字幕吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104451",
-          "author": "skyonedot",
-          "description": "skyonedot: \n每日自动拍照\n突发奇想，能不能把每天工作的状态拍下来，每天一张，日积月累之下会有惊喜。\n于是写了个 Macos 下自动调度相机的任务，即每天在电脑前工作的时候会调度相机拍下屏幕前的你。\n代码简单，大致是\n监测今天拍没拍\n没拍的话拍一张照片\n监测照片是否包含人脸\n包含则包存下来。\n欢迎哥哥姐姐们 Start ✨\nhttps://github.com/skyonedot/DailyPhoto\n目前只能 Macos ，windows 的需要自己改写。",
-          "link": "https://www.v2ex.com/t/1104451",
-          "publishedOn": "2025-01-12T01:56:30.000Z",
-          "wordCount": 494,
-          "title": "我们永远不会比昨天更年轻啦。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104450",
-          "author": "Canglin",
-          "description": "Canglin: \n最近提示我升级到 originOS5,不知道有没有朋友升级了，说说升级体验",
-          "link": "https://www.v2ex.com/t/1104450",
-          "publishedOn": "2025-01-12T01:42:23.000Z",
-          "wordCount": 406,
-          "title": "有没有朋友使用 iqoo 11Pro?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104449",
-          "author": "LOGOSJ",
-          "description": "LOGOSJ: 昨天买的 Mac mini 到了，迫不及待用 HDMI 线连上显示器激活，在激活界面就感觉不对劲，完事重启一下还是感觉画面模糊字体不锐利。\n用 MacBook 通过 USBc 连接同一个显示器的画面比较一下，虽然直接对比差距不明显，但是这个显示器连 MacBook 用很久了，实在是一眼就能感觉不对。但也没有好的量化方法。\n在 Mac mini 上用 USBc 连接显示器试了一下，哎就好了。\n设备：Mac mini/MacBook Pro\n显示器：Kuycon 5k 27 寸\nHDMI 线：绿联 HDMI2.1\nUSBC 线：普通 usb4.0\n设置：默认 2560*1440\n猜测：\n1.HDMI 协议本身的问题，因为使用 USBc （ DP 协议）就是正常的\n2.显示器问题，可能显示器本身对于 HDMI 支持有问题？但是同一个显示器同一根 HDMI 线连接 Apple TV 显示似乎没有问题，在网上搜索说可能是显示器被 macOS 识别为了电视，跟色彩空间有关系，这有点超出认知了\n3.HiDPI 的问题。默认设置两台电脑都是 2560*1440 ，这样应该是开启了 HiDPI 了吧，按住 option 也没有其他的可选项目了。\n下一步打算用 USBctoDP 的试试看，猜测应该是没问题的。",
-          "link": "https://www.v2ex.com/t/1104449",
-          "publishedOn": "2025-01-12T01:37:41.000Z",
-          "wordCount": 647,
-          "title": "Mac mini 使用 HDMI 链接显示器显示画面异常",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104448",
-          "author": "chawuciren",
-          "description": "chawuciren:",
-          "link": "https://www.v2ex.com/t/1104448",
-          "publishedOn": "2025-01-12T01:20:39.000Z",
-          "wordCount": 363,
-          "title": "如何将微信收藏里的照片与视频批量导出到手机或电脑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104446",
-          "author": "Rust2015",
-          "description": "Rust2015: \n说说心得",
-          "link": "https://www.v2ex.com/t/1104446",
-          "publishedOn": "2025-01-12T01:06:14.000Z",
-          "wordCount": 444,
-          "title": "大家是如何保存与 cursor 的聊天记录的：",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104445",
-          "author": "21231sv",
-          "description": "21231sv: \n\n这是一加平板电脑配套的分立式键盘。我现在给平板电脑套了个保护壳，这个键盘就不能连接平板了，每次充电都只能把平板的保护壳去掉，再充电，这样有点麻烦\n淘宝和京东上我搜索了下没找到相关产品，而且看起来可能要定制才能有适合这种接口的充电器\n有没有人适合这种接口的充电器或是任何设备。我的需求是能单独给这个键盘充电，不必连接平板电脑",
-          "link": "https://www.v2ex.com/t/1104445",
-          "publishedOn": "2025-01-12T01:02:22.000Z",
-          "wordCount": 377,
-          "title": "寻找一个充电设备能用于我的 pogo pin 接口的键盘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104444",
-          "author": "abchendai00",
-          "description": "abchendai00: -如果无法更新，是提交无法通过审核，还是完全无法提交审核？\n-长期未备案的 app 是否会被下架？\n-海外开发者账号是否有不同？（目前绝大多数海外未备案 app(X, Ins, Youtube, Facebook)仍然在国区活跃提交更新）",
-          "link": "https://www.v2ex.com/t/1104444",
-          "publishedOn": "2025-01-12T00:45:11.000Z",
-          "wordCount": 494,
-          "title": "现在 AppStore 没有 ICP 备案的 app 还能提交更新吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104443",
-          "author": "axqd",
-          "description": "axqd: \n人在国外，想给国内的父母换个 AppleTV 做电视机顶盒，因为受够了全是广告又慢到死的电信机顶盒，坐标成都……\n主要用途是老年人观看国内各家电视台……不太确定网飞是否不用特殊技能可连……\n想问问有过类似需求的，AppleTV 配置好以后，播放源啥的是否需要经常变动？(老年人不太会弄)以及播放是否流畅？\n感谢🙏",
-          "link": "https://www.v2ex.com/t/1104443",
-          "publishedOn": "2025-01-12T00:32:22.000Z",
-          "wordCount": 736,
-          "title": "关于 AppleTV 父母使用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104442",
-          "author": "cj323",
-          "description": "cj323: \n我从来不想读代码，谁想读代码啊。读又读不懂，一读懂又想重写。 -  Joe Armstrong, Erlang 之父",
-          "link": "https://www.v2ex.com/t/1104442",
-          "publishedOn": "2025-01-11T23:03:38.000Z",
-          "wordCount": 415,
-          "title": "关于不想读代码",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104441",
-          "author": "chenliang0571",
-          "description": "chenliang0571: \n不知道为什么，连发不到第三方包平台的二进制文件都不保留。  \nhttps://github.com/arthenica/ffmpeg-kit\nFFmpegKit has been officially retired. There will be no further ffmpeg-kit releases. \nAll previously released ffmpeg-kit binaries will be removed according to the following schedule.\nFFmpegKit Version\nAvailable Until\n\n\n\n\nLess than 6.0\nFebruary 1st, 2025\n\n\n6.0\nApril 1st, 2025",
-          "link": "https://www.v2ex.com/t/1104441",
-          "publishedOn": "2025-01-11T22:53:47.000Z",
-          "wordCount": 416,
-          "title": "FFmpegKit has been officially retired. There will be no further ffmpeg-kit releases.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104438",
-          "author": "YoungAsen",
-          "description": "YoungAsen: \n今天随意上 Elisa 的官网上看了一下我所在位置的宽带情况，发现已经更新了 2.5G 宽带\n\n以下是 Elisa 的 eth 宽带参数详情\n\n如图所见，对等上下行，虽然根据网络情况参数会有波动，但是最低也有 1250Mbps 的上下行，当然是极限情况下才能这么低。\n目前看来，性价比很高，已准备入手群晖四盘 NAS 了。",
-          "link": "https://www.v2ex.com/t/1104438",
-          "publishedOn": "2025-01-11T19:55:35.000Z",
-          "wordCount": 421,
-          "title": "芬兰赫尔辛基已更新 2.5G 对等宽带",
           "imageUrl": null
         }
       ]
