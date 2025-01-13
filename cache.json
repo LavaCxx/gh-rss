@@ -277,12 +277,332 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104804",
+          "author": "zhng920823",
+          "description": "zhng920823: youtube.com/watch?v=FHqQPAg-acM\n\nhttps://zh.wikipedia.org/zh-hans/%E6%B4%AA%E9%97%A8",
+          "link": "https://www.v2ex.com/t/1104804",
+          "publishedOn": "2025-01-13T11:40:29.000Z",
+          "wordCount": 115,
+          "title": "天地会 洪门 崩牙驹 电炸 KK 园区 Belt and Road",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104803",
+          "author": "hugozach",
+          "description": "hugozach: \nrt 个人买了 感觉还是月付保平安 \n产品名称\n配置\n价格(年/月)\n优惠\n优惠码\n优惠期限\n\n\n\n\n独立云服务器\n1C/1G/20G/0.5T/200Mbps\n$7/年\n80.6%\n7CLAW\n1 月 9 日-1 月 23 日\n\n\n独享云服务器\n2C/4G/80G/1T/1Gbps\n$4.2/月\n65%\n4CLAW\n1 月 9 日-1 月 23 日\n\n\n中国网络优化\n2C/1G/40G/1T/1Gbps\n$4.2/月\n30%\nO3CM4FHC9I\n1 月 9 日-1 月 23 日\n\n\n如果是你你会选独享还是优化",
+          "link": "https://www.v2ex.com/t/1104803",
+          "publishedOn": "2025-01-13T11:27:54.000Z",
+          "wordCount": 488,
+          "title": "如何看待 claw 的 1 月份优惠，你觉得这种服务器很拉但是线路很好的服务器值不值？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104802",
+          "author": "xiaochuangyi",
+          "description": "xiaochuangyi: \n需要有 play store 账号（ gmail 邮箱）\nhttps://raw.githubusercontent.com/CheersCode/sticker/refs/heads/main/aa.jpg",
+          "link": "https://www.v2ex.com/t/1104802",
+          "publishedOn": "2025-01-13T11:20:37.000Z",
+          "wordCount": 340,
+          "title": "欢迎测试各种创意产品",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104801",
+          "author": "convolution",
+          "description": "convolution: \n分享一个 25 年的新产品 - chooat!👋\n这是一个一站式的 AI 助手,把各种强大的 AI 模型都集成在了一起,包括 ChatGPT 、Claude 、Gemini 等热门模型。\n它的特色功能有:\n跟 AI 聊天特别流畅,还能上传图片和文档让 AI 帮你分析\n可以轻松分析 PDF 文件的内容\n内置了 70 多个免费的 GPT 小助手随你用\n还有各种 AI 写作工具帮你搞定文案\n大多数功能都不用注册,直接打开网站就能免费体验!\n试用地址： https://chooat.com",
+          "link": "https://www.v2ex.com/t/1104801",
+          "publishedOn": "2025-01-13T10:54:23.000Z",
+          "wordCount": 409,
+          "title": "25 年新产品，分享一个 AI Assistant 工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104800",
+          "author": "cheneydog",
+          "description": "cheneydog: 公司换了打卡程序了，LSposed 已装好，找不到合适的模块。",
+          "link": "https://www.v2ex.com/t/1104800",
+          "publishedOn": "2025-01-13T10:47:39.000Z",
+          "wordCount": 458,
+          "title": "2025 年了，微信小程序虚拟定位用什么模块？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104799",
+          "author": "eccentric579",
+          "description": "eccentric579: \n情况\n在 openwrt 里的 wan 上起了一个 vlan id 43 设备 wan.43 ，然后上面开个接口 iptv, dhcp 能获得 ip 。但是无法通过 udprxy 来实现组播转单播，看不了直播。\n于是我在 openwrt 里开了 tcpdump, 发现确实 wan.43 有出站的流量，包括 IgMP join/leave 。但是没有回传的 udp 组播流量。\n我更换 tcpdump 的抓包设备为 wan ，发现回传的组播 udp 都不带 vlan id 43.\n确认光猫已经做了 vlan 绑定，用户侧 43 绑定 others_43.\n猜想\n这是我不能用 udprxy 看直播的原因么？\n回传的 udp 不带 vlan id 是正常的么？\n求助\n我应该怎么设置才能看直播？\n接口 iptv 的 zone 防火墙以及放行规则应该怎么填？\n折腾好几天了，提前感谢帮忙的诸位。",
+          "link": "https://www.v2ex.com/t/1104799",
+          "publishedOn": "2025-01-13T10:44:33.000Z",
+          "wordCount": 476,
+          "title": "iptv 组播返回的 udp 流是不带 vlan id 的么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104798",
+          "author": "unishare",
+          "description": "unishare: 目前知道软件 FasterWhisper 可以先转换翻译，前提是视频要下载下来，或者下载后用 PotPlayer 播放视频 加载 whisper 可以实时识别翻译\n如果不下载，在线网页视频，怎么语音实时识别文本并翻译",
+          "link": "https://www.v2ex.com/t/1104798",
+          "publishedOn": "2025-01-13T10:41:12.000Z",
+          "wordCount": 399,
+          "title": "如何 网页播放视频声音 实时语音识别文本并翻译 whisper？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104797",
+          "author": "liuliuliuliu",
+          "description": "liuliuliuliu: 如题如题，我知道微软有个 Copilot Vision ，但是似乎现在还不可用？只是个演示",
+          "link": "https://www.v2ex.com/t/1104797",
+          "publishedOn": "2025-01-13T10:38:04.000Z",
+          "wordCount": 340,
+          "title": "请教现在有可用的、读你屏幕读麦克风并做出反应的 ai 产品吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104795",
+          "author": "tdb11039gg",
+          "description": "tdb11039gg: \n油管上有讲投资比较好的博主吗，最好是长线。短线心态受不了。",
+          "link": "https://www.v2ex.com/t/1104795",
+          "publishedOn": "2025-01-13T10:26:28.000Z",
+          "wordCount": 347,
+          "title": "油管上有讲投资比较好的博主吗，最好是长线。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104794",
+          "author": "yamatoki",
+          "description": "yamatoki: \n刚从 iPhone 13 换成了 iPhone 16 Pro ，刚才用相簿的时候突然想用下搜索（之前从来没用过这个功能），就搜了一下 flower ，结果把相册里所有的花，还有图片文本里出现了 flower 的照片都筛出来了，有点惊讶。但是搜索只能使用英语，并且切换系统语言从英语到中文后就搜不出结果了，再切回英语一开始也搜不出来，过一段时间就有了。\n想问下这个功能是对机型和系统语言有要求吗？和 Apple AI 有没有关联？",
+          "link": "https://www.v2ex.com/t/1104794",
+          "publishedOn": "2025-01-13T10:24:29.000Z",
+          "wordCount": 439,
+          "title": "关于 iPhone 相簿里的搜索功能",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104793",
+          "author": "yiming1888",
+          "description": "yiming1888: \n人类，算不算某种形式的“永动机”\n截止至目前为止，出生率为负的国家，仍是少数",
+          "link": "https://www.v2ex.com/t/1104793",
+          "publishedOn": "2025-01-13T10:19:18.000Z",
+          "wordCount": 405,
+          "title": "人的话，算不算是“永动机”？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104790",
+          "author": "wangybsyuct",
+          "description": "wangybsyuct: windows server2003 的版本，阿里云的服务器，IIS 版本是 6.0 ，经常有大量的恶意请求。本来也没什么，偶然发现一些恶意请求返回值不对。\n例如：\n23:30:39 GET /cgi-bin/luci/;stok=/locale - 80 - 95.214.55.39 HTTP/1.1 - - - *.*.*.*:80 200 0 0\n02:25:50 GET /3/3/3/3/3/3/3/3/3/3/3/3/3/3/3/3 - 80 - 2.57.122.161 HTTP/1.1 Mozilla/5.0+zgrab/0.x - - *.*.*.* 200 0 0\n这两条都返回了 200 ，阿里服务器 IP 我用星号代替了。\n第一条肯定是个恶意访问，为什么会返回 200 呢？/cgi-bin/这个目录是不存在的。\n第二条这个不知道是什么目的，可能不怀好意，但是怎么也返回 200 呢？/3/3/3 这样的目录肯定不存在。",
+          "link": "https://www.v2ex.com/t/1104790",
+          "publishedOn": "2025-01-13T10:09:07.000Z",
+          "wordCount": 379,
+          "title": "IIS6.0，恶意请求访问返回 200 呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104789",
+          "author": "Richared",
+          "description": "Richared: \n有一台 macmini 打算送人，但是我现在没有鼠标，没有键盘，没有显示器，怎么重置？是不是无解了。身边有一台 mbp",
+          "link": "https://www.v2ex.com/t/1104789",
+          "publishedOn": "2025-01-13T10:07:37.000Z",
+          "wordCount": 403,
+          "title": "macmini 怎么重置系统？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104788",
+          "author": "asus10tu",
+          "description": "asus10tu: 预算 400 以下吧，想买点卫衣更新一下衣柜，品牌什么的没所谓，想要面料够好的，有高级感的，会有这种嘛，谢谢各位",
+          "link": "https://www.v2ex.com/t/1104788",
+          "publishedOn": "2025-01-13T09:59:17.000Z",
+          "wordCount": 394,
+          "title": "有小众衣服品牌嘛，想买卫衣，面料要好的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104785",
+          "author": "hello267015",
+          "description": "hello267015: 举例，你花 1000 买了某航班某天的经济舱机票，  如果想改签到同航班号同经济舱另一个日期的班次，如果新日期销售价 1500 ， 要补 500 的差价+改签手续费，这个好理解，但如果新日期的对外销售价是 600 ， 这 400 块的差价是不退的， 不仅不退还要另付改签手续费 \n\n问客服，客服说建议先退掉再重新买， 问题是退票手续费一般都比改签手续费贵， 贵 5%至 10%左右\n客服也说不上来是哪里规定，就说每个航空公司都是这样的...\n涨姿势了，有懂行的老哥吗，这合理吗， 这不妥妥的霸王条款么 ， 横竖都要被航司宰一波",
+          "link": "https://www.v2ex.com/t/1104785",
+          "publishedOn": "2025-01-13T09:51:27.000Z",
+          "wordCount": 409,
+          "title": "机票改签少补多不退？？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104783",
+          "author": "yunhaiming",
+          "description": "yunhaiming: 目前家里在用的电视有些年了，主要靠运营商的盒子看节目，临时找电视剧电影都没什么办法导进去。想换个综合功能 ok ，价格不用太高，日常家里够用的机型，求推荐\n另外，春节前还来得及买吗？",
+          "link": "https://www.v2ex.com/t/1104783",
+          "publishedOn": "2025-01-13T09:47:43.000Z",
+          "wordCount": 434,
+          "title": "国补时期，想给家里电视换个新的，大家有推荐吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104782",
+          "author": "xiaochuangyi",
+          "description": "xiaochuangyi: \n需要有 google play store 账号（ gmail 邮箱）\nhttps://raw.githubusercontent.com/CheersCode/sticker/refs/heads/main/aa.jpg",
+          "link": "https://www.v2ex.com/t/1104782",
+          "publishedOn": "2025-01-13T09:45:50.000Z",
+          "wordCount": 357,
+          "title": "各种创意产品测试，感兴趣的来",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104780",
+          "author": "zhixiao",
+          "description": "zhixiao: \n把原先的一些定时任务都迁移到 gitea action 了，感觉蛮好",
+          "link": "https://www.v2ex.com/t/1104780",
+          "publishedOn": "2025-01-13T09:36:57.000Z",
+          "wordCount": 378,
+          "title": "gitea action 基本可以平替 github action 了，相比几个月更完善了点",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104779",
+          "author": "wolfz",
+          "description": "wolfz: 我先说我了解的，我 22 年之前是 Java 开发，6 年的开发经验，开发的工作薪资是 14K ，因为一直在这一家公司没有跳槽。\n现在在一家外包公司做 ITO （人力资源交付），只要负责一些国央企的外包岗人员交付，现在了解到的薪资情况，说实话一言难尽。\n    统一标准：统本 计算机 男 35 以下\n    4 年------12K\n    6 年------15K\n    8 年------16~17K\n    给工资不是按照你的工作年限来的，是按照需求采购年限来的，哪怕你 10 年我们要 6 年的，也是按 6 年给钱。\n    \n    不知道现在正在做开发的大佬们都是什么情况，想了解了解你们的情况。\n    因为我开发和学习一直没断过，我还在想要不要转回开发呢。",
+          "link": "https://www.v2ex.com/t/1104779",
+          "publishedOn": "2025-01-13T09:34:55.000Z",
+          "wordCount": 444,
+          "title": "聊聊北京 Java 前端 等开发人员的市场行情，给点建议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104778",
+          "author": "lifeOsDeveloper",
+          "description": "lifeOsDeveloper: 以前高中打乒乓球就很快乐，现在跟别人打乒乓球都无感了，就像完成工作任务一样\n以前大家周末一起看电影，感觉特别期待，现在每天打开电脑随时可以看，不怎么期待了\n幸福的感受力没有了",
+          "link": "https://www.v2ex.com/t/1104778",
+          "publishedOn": "2025-01-13T09:32:43.000Z",
+          "wordCount": 400,
+          "title": "感受幸福的能力，长大之后，不知道是不是工作太忙，感觉其实生活还行，不知道是不是 976 的原因，感受幸福的感觉不如从前了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104777",
+          "author": "astroj",
+          "description": "astroj: \n情况是这样的：女朋友公司，中小公司，运营岗，工资由基本工资(80%)+绩效(20%)工资组成，入职时 hr 说的是\"基本不会扣绩效工资\"，当时觉得薪资尚可，没怎么在意，后来发现有时会扣几百(绩效工资部分)，问了身边的同事，说是公司的老传统了，跟你的工作表现无关，跟公司经营情况有关。可是最近几个月，由于公司效益越来越差，绩效部分的工资越扣越多，已经相当于变相降薪了。\n想问问大家，像这种工资组成包含基本工资+绩效工资的情况，公司以经营效益不好为由扣除部分绩效工资，变相降薪，怎么应对比较好？是不是只能另谋出路了，感觉公司裁员的话也会没钱赔。",
+          "link": "https://www.v2ex.com/t/1104777",
+          "publishedOn": "2025-01-13T09:29:40.000Z",
+          "wordCount": 368,
+          "title": "公司以经营效益为由，扣除工资组成中绩效的部分，是否合理？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104775",
+          "author": "Keppel",
+          "description": "Keppel: 懂车帝数据：SUV 不限定能源类型月销量前十只有五款纯油车了。",
+          "link": "https://www.v2ex.com/t/1104775",
+          "publishedOn": "2025-01-13T09:24:26.000Z",
+          "wordCount": 366,
+          "title": "现在这个时间节点， 20w 左右的油车 SUV 还有值得买的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104774",
+          "author": "vulgur",
+          "description": "vulgur: \n2025 ，0106-0112\n终于来到第一百期周记了，但是却没什么内容可写。为了有点东西可以写，加速了 app 新版本的提交流程，但是还差点犯错，真是欲速则不达。不过总算是有点产出的一周，并没有毫无推进，日拱一卒，功不唐捐。\n上周的周记第一次公开了我的收入情况，很多人都不敢相信，但这就是我自己的真实情况。\n这不，刚收到 RevenueCat 的周报，收入又下降了。\n\n最近发现个有趣的现象，一个很喜欢的人和一个你讨厌的人居然能聊得很开心，两个你都很喜欢的人却水火不容针锋相对，是该爱屋及乌还是恨屋及乌？\n极简时钟 iOS\n周六提交了 4.7.0 ，加入了新主题：浮雕时钟。通过做这个主题，又学到一个英语单词：relievo 。\n这个设计是我在小红书上看到的，本来是个国外的动手达人利用各种电机、芯片和 3D 打印等技术，通过控制每个数字的组件上下升降来显示出不同的数字，以此来达到时间显示的效果。\n我一眼就看上了这个设计，极简风格十足，就想着通过代码实现出来。控制数字组件这个还不是最难的，最难的是实现升降的视觉效果。最开始的想法就是通过加入阴影来模拟升起来的效果，但是发现不能把所有组件都放在同一层里，因为会产生违反物理的遮挡现象。后来又加入了简单的高光，根据不同情况，一共有四种高光。\n\n周六晚上提交，周日上午就通过了。不过这次的提交暴露出了很多问题，因为心急，出了很多纰漏。第一次提交后发现 app 内的更新日志没有加入新内容，这个更新日志是对我的转化率很重要，但是忘了。第二次提交后发现新主题忘了加入声效，于是又找了半天素材，剪辑+修复。第三次提交后，我以为万事俱备了，就直接提交审核了。没想到还是忘了一项工作：应用内活动。\n考虑到周末审核速度会很慢，就不撤销审核了，准备单独提交应用内活动。这次的应用内活动制作得也很简单，但是文案我自己很满意：时间如人生，有升有降，有起有伏。其实之前的圆环时钟和时钟墙的文案我也很喜欢，分别是：「时间轮转，环环相扣」和「时间流转，光影随动」。但是这个应用内活动对我的 app 来说，基本没有什么作用，展示量和下载量都很少。\n\n最近几次更新和促销，我都申请了新加入的「提名」功能。这个功能建议在发布日期前至少 3 周申申请提名，但我都是就是在提交 app 前后一天才申请……，所以自然一次也没有申请成功过。\n假流\n孩子期末考试后就突然发高烧，烧到了 39 度，还嗓子疼，一直恶心。怀疑是中招甲流，第一时间买了奥司他韦。晚上又在京东下单了甲流乙流肺炎三合一的检测试剂（还赠了一个额外的甲流检测试剂），第二天给孩子一测，都是阴性。而且孩子之前打了流感疫苗，那估计就是普通的感冒了，果然第二天晚上就不烧了。\n\n但是，老婆在孩子发烧的第二天晚上也开始上吐下泻和发烧，到了第三天一直在发烧+呕吐。用赠品测了一下，也不是甲流。但是她没有孩子那么能抗，吃了一天多的药也不见好，到了晚上还是不得不去打了点滴，退烧+止吐+消炎，第四天天也基本好了。\n而我，目前一切良好，还没有这个假流的迹象，不知道是不是和最近一直在喝含有维 C 的饮料有关。\n独立开发不易，但道哥飞蛾投烛。\n感谢各位支持，助道哥飞黄腾达。\n欢迎赏脸阅读我的独立开发周记，如果你觉得这一篇写得还不错的话，以下回应会令我无比开心，开了又开：\n点赞，开心一晚 😉\n在看，开心一天 😁\n分享，开心三天 😆\n赞赏，开心一周 😘\n也欢迎大家能与我交流关于独立开发的一切，更欢迎大家下载使用我的 App😄。\n极简时钟，极简主义的翻页时钟、番茄钟和正计时\n极简日记，用时间轴随手记录生活\n极简便签，支持 Markdown ，自定义分享图片，多种主题和布局\nNut Goals，像小松鼠一样记账、存钱、管理愿望清单",
+          "link": "https://www.v2ex.com/t/1104774",
+          "publishedOn": "2025-01-13T09:23:16.000Z",
+          "wordCount": 407,
+          "title": "独立开发周记 100：日拱一卒，功不唐捐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104772",
+          "author": "frozenway",
+          "description": "frozenway: \n说轮胎是消耗品，是打 7 折来赔的。",
+          "link": "https://www.v2ex.com/t/1104772",
+          "publishedOn": "2025-01-13T09:12:27.000Z",
+          "wordCount": 481,
+          "title": "车发生刮蹭，对方全责，胎壁刮了几道深痕，我希望换轮胎，但是 4S 点说我要自费出三成费用。合理吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104771",
+          "author": "coolair",
+          "description": "coolair: 我目前在用 Obsidian ，所有的笔记都是纯文本，没有使用图片，这样速度很快，记录知识和搜索都很方便。\n现在想写一些分享类的文章，使用图片的化就更直观。\n但是 Obsidian 的图片存放只能选定目录。\n我想，插入图片后，图片和附件自动存放在以文章名称命名的文件夹下，这样方便后续图片管理和分类。\n有没有插件可以实现这个功能，或者其他笔记软件？\n另外，问下，我使用 MS Word 插入图片后，再从 Word 中将图片另存为出来图片的分辨率没变，但是大小却变大了？已经不是原图了吗？",
+          "link": "https://www.v2ex.com/t/1104771",
+          "publishedOn": "2025-01-13T09:12:10.000Z",
+          "wordCount": 401,
+          "title": "有对图片/附件管理比较友好的 Markdown 笔记软件吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104768",
+          "author": "sophiayao",
+          "description": "sophiayao: 小型成熟 web3 基础架构技术供应商\n后端工程师\nJob Responsibilities\n- Design and implement backend services, including APIs, Microservices, and Databases, ensuring high performance and availability.\n- Collaborate with frontend engineers, smart contract engineers, and product managers to define and meet project requirements, ensuring a seamless workflow between off-chain and on-chain programs.\n- Work closely with DevOps engineers to optimize and maintain the CI/CD pipeline, ensuring efficient deployment processes and high-quality code delivery.\n- Ability to track, identify, and resolve complex issues in backend systems, with a focus on maintaining stability and performance.\nJob Requirements\n- At least 5 years of backend development experience, with a strong background in building stable, scalable, an…",
+          "link": "https://www.v2ex.com/t/1104768",
+          "publishedOn": "2025-01-13T09:07:51.000Z",
+          "wordCount": 990,
+          "title": "[Remote/新加坡]web3 行业需求 后端开发工程师，全栈开发工程师及 Smart Contract 工程师（均可远程）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104767",
+          "author": "ounxnpz",
+          "description": "ounxnpz: \nhttps://blog.bluice.xyz/",
+          "link": "https://www.v2ex.com/t/1104767",
+          "publishedOn": "2025-01-13T09:06:01.000Z",
+          "wordCount": 343,
+          "title": "申请收录甄三十七的博客",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104765",
+          "author": "mmmforver",
+          "description": "mmmforver: \n最近不太忙，开发了一个 Web 站点，用来摸摸鱼 （ www.redian.me/ ）。然后在其中一个常逛的论坛介绍了一下。获得了一些好评。\n网站大概长这样：\n\n\n有个老哥试用后提出了一个建议：摸鱼网站应该尽可能简陋、隐蔽，这样才能无压力摸鱼。我恍然大悟，果然用户视角才能发现问题，提出问题！！\n于是开发了两款适合于摸鱼的主题：\n还贴心的加上了老板键！！ 以及使用说明\nExcel 主题：\n\nWord 主题：\n\n现在你可以在 Excel 或者 Word 里安心摸鱼、老板远看你在认真工作，老板走近你双击空格！！ 直接隐藏内容。\n这下谁还能分清你是在认真上班还是摸鱼呀！\n体验地址：\n首页： https://www.redian.me/  首页右上角 快乐摸鱼 可以切换主题\nExcel 主题页：www.redian.me/theme/excel\nWord 主题页：www.redian.me/theme/word\n半吊子水平做的玩具项目，大佬轻喷。\n有任何想法或者意见也可以聊聊！",
+          "link": "https://www.v2ex.com/t/1104765",
+          "publishedOn": "2025-01-13T09:03:27.000Z",
+          "wordCount": 420,
+          "title": "你的 Excel 也能摸鱼吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104764",
+          "author": "gtheone1",
+          "description": "gtheone1: 为什么现在的手机都不能模拟低频卡（ IC 卡高频，ID 卡低频）？不想天天带那个小卡扣，没有其它办法吗？",
+          "link": "https://www.v2ex.com/t/1104764",
+          "publishedOn": "2025-01-13T08:57:25.000Z",
+          "wordCount": 521,
+          "title": "小区门禁是 ID 卡，手机不能模拟吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104763",
+          "author": "CEBBCAT",
+          "description": "CEBBCAT: 提出这个问题是因为预想到无聊的春节电视频道肯定无助于一家人围坐，但假如搬出 EVA 、攻壳、百变小樱、搏击俱乐部、疯狂动物城、Netflix 又似乎和华北农民客厅格格不入，想起几年前放映《隐入尘烟》有意料之外的反响——父母对电影中的生活感觉很亲切，对剧情推进也很投入（尽管对于悲情结局心有不平）——所以想邀请大家推荐*自己心目中的*合家欢电影。\n不一定需要是“下里巴人”的，依据观众的不同，你也可以推荐盗梦空间、重庆森林甚至发条橙\n不过从我的实用立场出发，的确是期望推荐中文音轨、容易理解（但可以有主线之外的另一层隐喻，这个无碍）、G 级电影（拥抱好✅亲嘴儿坏🙅）",
+          "link": "https://www.v2ex.com/t/1104763",
+          "publishedOn": "2025-01-13T08:54:57.000Z",
+          "wordCount": 475,
+          "title": "春节将至，可以请你推荐若干 合家欢电影 吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104761",
+          "author": "tangmanger",
+          "description": "tangmanger: \n现在短信服务费都掏不起来了吗？ app 通知也就算了 问题是 一旦关了 也找不到从哪看亲友当前行程了",
+          "link": "https://www.v2ex.com/t/1104761",
+          "publishedOn": "2025-01-13T08:50:49.000Z",
+          "wordCount": 400,
+          "title": "滴滴打车紧急联系人默认都是不是短信通知了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104759",
+          "author": "exqibao",
+          "description": "exqibao: \n根据请求头分发\nloc: /aa ==> http://127.0.0.1:28080/aa\npro: /aa ==> http://127.0.0.1:8011/api/\n其它: /aa ==> http://127.0.0.1:8022/api/\n大佬们，原来只有 loc 和其它一切正常，加上 pro 就不行了，如何配置可以实现这个效果吗？似乎 if 里面 proxy_pass 不能有/api/地址\nlocation /aa {\nproxy_http_version 1.1;\nproxy_set_header Upgrade $http_upgrade;\nproxy_set_header Connection \"upgrade\";\nproxy_set_header X-real-ip $remote_addr;\nproxy_set_header X-Forwarded-For $remote_addr;\nif ($http_environment_name = \"loc\" ) {\nproxy_pass http://127.0.0.1:28080;\nbreak;\n}\nif ($http_environment_name = \"pro\" ) {\nproxy_pass http://127.0.0.1:8011/api/;\nbreak;\n}\nproxy_pass http://127.0.0.1:8022/api/;\n}",
+          "link": "https://www.v2ex.com/t/1104759",
+          "publishedOn": "2025-01-13T08:46:39.000Z",
+          "wordCount": 677,
+          "title": "nginx 配置根据请求头分发问题",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104758",
           "author": "duanjiong",
           "description": "duanjiong: 但是 typec 接口一插上去就会提示充电， 不知道跟安装的 AIdente 有没有关系， 但是关掉那软件问题也貌似没消失",
           "link": "https://www.v2ex.com/t/1104758",
           "publishedOn": "2025-01-13T08:43:44.000Z",
-          "wordCount": 418,
+          "wordCount": 428,
           "title": "macbook pro 2021 款，磁吸接口充电感觉不是很稳，有时候需要反复插拔几次才会提示充电",
           "imageUrl": null
         },
@@ -302,358 +622,8 @@
           "description": "liuYYYYYY: \n价格预算: 500-600\n可 ROOT(跑芝麻粒)，可以安装谷歌框架安装 VPN\n用途: 做备用机，root 之后跑吱付宝的芝麻粒\n芯片啥的不了解，差不太多就行\n有 V 友出也行",
           "link": "https://www.v2ex.com/t/1104756",
           "publishedOn": "2025-01-13T08:41:37.000Z",
-          "wordCount": 483,
+          "wordCount": 490,
           "title": "求推荐 500-600 元左右二手的安卓备用机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104755",
-          "author": "devinww",
-          "description": "devinww: 在 iPhone 上一直用防骚扰大师，但是最近更新号码库一直显示无法联网",
-          "link": "https://www.v2ex.com/t/1104755",
-          "publishedOn": "2025-01-13T08:32:03.000Z",
-          "wordCount": 404,
-          "title": "防骚扰大师不更新了吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104753",
-          "author": "mingtdlb",
-          "description": "mingtdlb: \n之前定的提醒买 27 号的票，结果刚 3:55 分进去，把预购信息填了，在那等 16:00:00 分准时点进去买，跟抢手机一样，秒没\n今年是不是大家都回家过年？去年也没这样啊",
-          "link": "https://www.v2ex.com/t/1104753",
-          "publishedOn": "2025-01-13T08:28:15.000Z",
-          "wordCount": 541,
-          "title": "12306 的票卖的这么快的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104752",
-          "author": "GGswitch",
-          "description": "GGswitch: \n如题, 有没有合适的宽带推荐, 或者其他",
-          "link": "https://www.v2ex.com/t/1104752",
-          "publishedOn": "2025-01-13T08:26:03.000Z",
-          "wordCount": 484,
-          "title": "回老家一个月的用网方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104751",
-          "author": "justtokankan",
-          "description": "justtokankan: \n如题，2024 绝对是焦虑的一年，在钱包还没足够厚的时候，貌似打工还得继续 ing,多学一技之长，多一条出路",
-          "link": "https://www.v2ex.com/t/1104751",
-          "publishedOn": "2025-01-13T08:25:26.000Z",
-          "wordCount": 369,
-          "title": "2025 了，前端学哪个新技术还能要到米啊？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104750",
-          "author": "Raynard",
-          "description": "Raynard: \n千兆宽带，之前一直能满速，\n最近重置了一下光猫，其它设置都没变，\n现在下载速度只能到 12m/s\n各种百度的方法都尝试了，还是没有变化，问题出哪了呢？\n有老哥知道吗",
-          "link": "https://www.v2ex.com/t/1104750",
-          "publishedOn": "2025-01-13T08:24:48.000Z",
-          "wordCount": 404,
-          "title": "transmission 下载速度突然变慢了是怎么回事？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104749",
-          "author": "Nectar1899",
-          "description": "Nectar1899: \n基本情况\n岗位：网络工程师\n年龄：29\n学历：专科\n现公司\n优点：外资背景，芯片的 it 服务商。薪资准时到点发放，工资五险一金足额。税前 7.5k 。员工工龄平均五年左右。\n缺点：啥活都干，拉个网线都要自己来。\n新公司\n优点：薪资高一些 10\n缺点：外包在厂商做服务，存在后期失业风险。五险一金最低标准。事情多（毕竟是厂商）。\n其他的各位还有需要知道的老爷们，请留言吧，暂时只有这么多。",
-          "link": "https://www.v2ex.com/t/1104749",
-          "publishedOn": "2025-01-13T08:24:22.000Z",
-          "wordCount": 553,
-          "title": "工作选择困难症，请诸位分析下",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104748",
-          "author": "itskingname",
-          "description": "itskingname: \n请问你们的掌机屏幕怎么样，会不会伤眼睛？",
-          "link": "https://www.v2ex.com/t/1104748",
-          "publishedOn": "2025-01-13T08:22:47.000Z",
-          "wordCount": 382,
-          "title": "买了开源掌机的朋友来说一说",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104747",
-          "author": "ll5270",
-          "description": "ll5270: 我先来 法定节假日😭",
-          "link": "https://www.v2ex.com/t/1104747",
-          "publishedOn": "2025-01-13T08:19:14.000Z",
-          "wordCount": 115,
-          "title": "大家过年放几天假？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104745",
-          "author": "dcy7287",
-          "description": "dcy7287: \n东大是东方老大的意思吗？低调点不行吗？",
-          "link": "https://www.v2ex.com/t/1104745",
-          "publishedOn": "2025-01-13T08:15:47.000Z",
-          "wordCount": 115,
-          "title": "谁是第一个起名东大的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104744",
-          "author": "oloorz",
-          "description": "oloorz: 单位工资改革，加了个职称工资。二建都 2000 块一个月，后悔当初能考的时候没有考。\n本人管理学本科毕业，目前没有职称。\n最好是好下证，时间短，花钱少的。\n谢谢各位！",
-          "link": "https://www.v2ex.com/t/1104744",
-          "publishedOn": "2025-01-13T08:08:07.000Z",
-          "wordCount": 392,
-          "title": "推荐个下证快的职称",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104743",
-          "author": "MicroG",
-          "description": "MicroG: 需求：\n· 纵深：大于等于 80cm\n· 长度：大于等于 150cm\n· 高度：适配正常成年人就行，没有升降使用场景，不考虑加价上升降桌，已有人体工学椅\n· 承重/刚性/稳定性：需要使用爱格升单显示器支臂挂一个 27 寸 4K 显示器(具体重量忘了)，其他的可能考虑机箱放在桌子上，以及日常还会有猫猫跳到桌子上，所以对桌板刚性和整体稳定性有一定要求\n· 预算：由于考虑租房，价格最好在 1000 ￥以内\n· 已看：宜家乌斯佩（收二手或者去卖场看看有没有瑕疵品好价）",
-          "link": "https://www.v2ex.com/t/1104743",
-          "publishedOn": "2025-01-13T08:07:14.000Z",
-          "wordCount": 425,
-          "title": "求推荐一款在家用的桌子(电竞/日用)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104742",
-          "author": "zror",
-          "description": "zror: \n请教一下大家，如果在国内想搭建一个网站，这个网站想接入微信和支付宝付款的功能，使用自己的个人收款码可以吗？还是有别的收款服务可以接入，还是必须得注册一个公司然后用公司的收款码？\n网站除了备案，还需要办其他的手续吗？",
-          "link": "https://www.v2ex.com/t/1104742",
-          "publishedOn": "2025-01-13T08:03:33.000Z",
-          "wordCount": 434,
-          "title": "请教一下国内个人网站收款问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104741",
-          "author": "ohlyf",
-          "description": "ohlyf: \nRT ，有没有老哥修过，上次自己动手直接一个键结构坏了，修好后那颗键体验下降 60%。想着整个换，或者有单颗键修复服务。   跑了几次 天才吧，每次就给我擦一下，过个一两天又粘了",
-          "link": "https://www.v2ex.com/t/1104741",
-          "publishedOn": "2025-01-13T07:57:59.000Z",
-          "wordCount": 496,
-          "title": "有没有老哥修过 macbook 键盘，目前倒饮料粘连了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104739",
-          "author": "IvanCrancy",
-          "description": "IvanCrancy: \n有个 V 友，发了个关于买了高配电脑后电子杨伟的帖子： https://www.v2ex.com/t/1104543#reply18\n看了后大有感慨。\n我也严重杨伟\n前阵子各种 app 和平台的年度总结活动陆续上线了。看了下我的索尼 PlayStation 年度回顾，今年的游戏时长只有 120 小时。其中黑悟空占了 100H ，剩余的是米哈游绝区零、宇宙机器人各自占了 10H 左右。\n至于任天堂的年度总结还没看，但也没必要看，因为我知道今年压根就没碰过 switch 。\n我依稀记得往年的游戏时长起码 500-600 小时；但这两年的数据显示明显下降。\n当然我第一反应是将其归咎于这两年的游戏市场萎靡，跟往年相比，并没有什么牛逼的大作上线。反而倒是有很多老牌工作室，因为强推政治正确，搞各种 LGBT 二元性别卖点，导致上线没几天后就立马被喷的关闭了服务器，也算是属于贡献了不少乐子。\n我把我的游戏时长截图，发到游戏群里一问大家的情况，也发现群友们普遍都是这样。大家开始在骂怎么这两年的游戏市场如此烂的时候。突然有个群友发了一句：别掩饰了，三十岁的中年男人容易力不从心，电子阳痿高发很正常。不要讳疾忌医，早治疗早康复云云。\n不出意料的，群友们立马出现应激反应，正如现实生活中，一名男人突然被人说你是不是肾虚一样，群聊天里开始出现了什么“只玩精品“，“高级审美”，”要求变高”等等话语，还有什么“游戏玩家的严格，能叫阳痿么？等等奇怪的话语。\n空气里充满了快活的气息\n“趁着你还能沉迷游戏，抓紧时间玩”\n不知为何，世人对于男生玩游戏普遍会抱有鄙弃之心。通常会被打上玩物丧志的标签。\n当然近几年好像钓鱼也很不幸的落的同样下场。\n读书的时候，我可以用几十块，趁着 G 胖打折，买一个游戏，连续玩一个月，额外的消费可能是几瓶快乐水，综合算下来，这个多巴胺获取的性价比，真的是高的一 B 。\n后来出来工作的时候，攒了两个月终于买了台 ps4 Pro ，几乎每天下班后的所有时间就投入到里边去了，连续玩了大概好几个月吧，，依稀记得将大表哥 2 、血缘、仁王、最后生还者，战神 4 之类的以前没有机会玩的独占大作，通了个遍。也是简单的快乐；\n再到后边，ps5 上市后，到处缺货，这会儿我已经能轻松以黄牛价购入且不会需要我下个月省吃俭用还花呗了，但是买入后，也就玩了一个月，试了下几个独占游戏（均没有通关），就很少开机了。\n还有一款游戏，从大学玩到现在，就是腾讯代理的英雄联盟。\n大约是大三下半学年开始跟着室友玩的，那会儿学分基本修够了，该考的证也考完了，基本进入到大学里的垃圾时间（摆烂的理直气壮），那会就纯玩，不舍得买皮肤，充通行证。一般是每个赛季打到了黄金以上，每升级一个段位，才会奖励自己一个 79 块的皮肤；一般买完一个皮肤我能重复用这个角色连续上分一个多月才会腻；\n再后边出来工作了，还是会有跟室友们开黑，皮肤也开始不受限制的买，但是买完后打完几把，就觉得腻了；\n再后来，以前经常五黑的车队开始陆续有人请假了，一般也只有 2-3 人在工作日晚上一起玩个几把。\n再后来，基本就只有周末才会有人一起开黑；\n再后来，基本要提前约才能在周末凑个两到三人一起玩了。\n虽然这时候皮肤越出越好看，买个 299 的皮肤也就动动手指头的事情，89 大洋的通行证越看越有性价比，还是偶尔会上线，但是已经告别峡谷沉迷大乱斗了，随便玩两把，进去随机到烂肉，心之钢走起，duang duang duang 二十分钟后，开下一把，把骰子用了，如果没喜欢的英雄，alt+F4 下线。\n趁着还能沉迷游戏，珍惜时光，多玩一点是一点。\n因为后边可能我们再也不会有其他方式，可以用如此低成本的获得如此海量“乐趣”了。",
-          "link": "https://www.v2ex.com/t/1104739",
-          "publishedOn": "2025-01-13T07:53:25.000Z",
-          "wordCount": 665,
-          "title": "看“电子杨伟”有感",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104738",
-          "author": "loveumozart",
-          "description": "loveumozart: 没有换电池，没有修过，系统还是 monterey\n开了很多 chrome 标签，最近发现时不时开始卡住了，重启也没用，以前都不这样的",
-          "link": "https://www.v2ex.com/t/1104738",
-          "publishedOn": "2025-01-13T07:52:47.000Z",
-          "wordCount": 370,
-          "title": "感觉三年前买的 m1pro 芯片的 mbp 变卡了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104737",
-          "author": "ppiop",
-          "description": "ppiop: \n当前官方是 199 刀活动  折合 RMB 1500 左右\n某宝有 300 左右 RMB 一年的，问了下有一家说是组织版，另一家贵几十的说是个人版但要账号密码上号充值\n问下有没有兄弟在用这个平台的，都是如何上车的，某宝的价格有没有什么猫腻和隐患，毕竟自己账号上也攒了些证书了  因为这个被封禁就得不偿失",
-          "link": "https://www.v2ex.com/t/1104737",
-          "publishedOn": "2025-01-13T07:50:41.000Z",
-          "wordCount": 399,
-          "title": "coursera plus 到期，有没有更性价比的上车方式",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104736",
-          "author": "initdada",
-          "description": "initdada: \n江苏南京[电信]\nwww.js96110.com.cn\n江苏地区直接指向\n有没有办法能突破限制，本人需要使用 Workers 只能把 dns 指向 cloudflare",
-          "link": "https://www.v2ex.com/t/1104736",
-          "publishedOn": "2025-01-13T07:48:19.000Z",
-          "wordCount": 462,
-          "title": "当域名 DNS 指向 cloudflare 江苏地区直接劫持跳转 js96110",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104735",
-          "author": "VisualStudioCode",
-          "description": "VisualStudioCode: \n是不是说明谷歌公司对中文搜索不上心？",
-          "link": "https://www.v2ex.com/t/1104735",
-          "publishedOn": "2025-01-13T07:47:09.000Z",
-          "wordCount": 433,
-          "title": "谷歌搜索『梅西没带阿根廷护照』，被提示『您是不是要找：梅西没戴阿根廷护照』",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104734",
-          "author": "tkHello",
-          "description": "tkHello: \n有人统计预测过农民后代 85-95 后退休的归宿问题么，是终与城市，还是终于村，哪个概率大？",
-          "link": "https://www.v2ex.com/t/1104734",
-          "publishedOn": "2025-01-13T07:43:01.000Z",
-          "wordCount": 375,
-          "title": "有人统计预测过农民后代 85-95 后退休后的归宿问题么，是终与城市，还是终于村，哪个概率大？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104732",
-          "author": "xuqiccr",
-          "description": "xuqiccr: \n        因为年假还剩两天到二月底就过期了，想着凑个周末一共四天，不知道去哪不如去东京转一转。但是小弟第一次独自出国，不知道东京在二月底三月初这个时间是在看雪景呢还是看樱花呢，以及有什么需要特别注意的地方吗？\n        之前和朋友一起去了京都，被京都的美震撼到，随便一个街道都很漂亮，不知道东京周边怎么样。",
-          "link": "https://www.v2ex.com/t/1104732",
-          "publishedOn": "2025-01-13T07:36:51.000Z",
-          "wordCount": 463,
-          "title": "二月底想去东京转一转，有什么推荐的地方或者需要注意的事项吗～",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104730",
-          "author": "meeop",
-          "description": "meeop: \n一个格子代表一分钟，展示今天还剩多少时间\n场景是希望做一个类似屏保的默认浏览器页面，展示当日剩余时间，同时不会太明显干扰注意力\n\n可以访问 URL 直接使用\nhttps://genwebapp.com/app/sHz8_L3u5E3E0vf7/1736138078932\n或者复制如下 urlapp 到浏览器地址栏使用\ndata:text/html;base64,PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9InpoLUNOIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+5pe26Ze06Im65pyvPC90aXRsZT4KICAgIDxzdHlsZT4KICAgICAgICBib2R5IHsKICAgICAgICAgICAgbWFyZ2luOiAwOwogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgICAgICAgICAgaGVpZ2h0OiAxMDB2aDsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxYTFhMWE7IC8qIOa3seiJsuiDjOaZryAqLwogICAgICAgIH0KICAgICAgIC…",
-          "link": "https://www.v2ex.com/t/1104730",
-          "publishedOn": "2025-01-13T07:34:43.000Z",
-          "wordCount": 393,
-          "title": "分享个最近感觉不错的作品，时间格子",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104729",
-          "author": "huguadao",
-          "description": "huguadao: \nRT ，这是个付费软件，目前主要是和家人用，既然买了，网友走一波。\nThreema ID:  https://threema.id/XVFKDZXT",
-          "link": "https://www.v2ex.com/t/1104729",
-          "publishedOn": "2025-01-13T07:31:08.000Z",
-          "wordCount": 397,
-          "title": "有用 Threema 的朋友么",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104728",
-          "author": "SimonWoo",
-          "description": "SimonWoo: 上周五下午，我通过同花顺注册了国泰君安的开户，但后来收到反馈称我的证件照不符合要求，被驳回了。\n周六周日，我接到了 6 个骚扰电话，而今天从上午 10 点到现在，已经接到了 13 个骚扰电话。根据我的直观判断，感觉是国泰君安可能泄露了我的信息。遇到这种情况，有什么好的解决办法吗？",
-          "link": "https://www.v2ex.com/t/1104728",
-          "publishedOn": "2025-01-13T07:27:35.000Z",
-          "wordCount": 399,
-          "title": "iPhone 如何处理骚扰电话？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104727",
-          "author": "Duanye7X24",
-          "description": "Duanye7X24:",
-          "link": "https://www.v2ex.com/t/1104727",
-          "publishedOn": "2025-01-13T07:25:08.000Z",
-          "wordCount": 571,
-          "title": "中年以后是不是只有烟，酒才是最忠实的朋友",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104726",
-          "author": "mingtdlb",
-          "description": "mingtdlb: \nhttps://juejin.cn/post/7297423930225639465\n我们都知道 ssd 快写满了，性能会下降，影响 GC ？\n那我在会写满所有划分的空间的情况下，在 Linux 上，有个 1T 的 ssd ，我给他来个“缩容”，划出一个 1000G 分区用，只用这个分区，那是不是就影响小点呢\n不明白的点在于 GC 是局限在划分的空间，还是在整个磁盘的所有空间内？",
-          "link": "https://www.v2ex.com/t/1104726",
-          "publishedOn": "2025-01-13T07:24:44.000Z",
-          "wordCount": 558,
-          "title": "看小米储存芯片“扩容”后有个其他疑问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104725",
-          "author": "laobobo",
-          "description": "laobobo: \n前几天亲戚打听北京的中医院之后，我给他在网上找了几个北京的三甲中医院，发了过去，\n最后自己选了一个去挂号住院了，住了一周左右治疗效果一般，医生建议出院。\n昨天聊了一会，才知道，这种肾病有可能是遗传，女方的妈（已经去世），妹妹，都有可能是这种病，\n重点是他家还有个孩子（女），以后患病概率极大。另外看病费用也不小，普通家庭根本承担不起。\n纯感慨一下，普通人生活咋就这么难呢！",
-          "link": "https://www.v2ex.com/t/1104725",
-          "publishedOn": "2025-01-13T07:24:18.000Z",
-          "wordCount": 533,
-          "title": "感叹一下生活不易，大家结婚前一定要体检一下",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104724",
-          "author": "2696284032",
-          "description": "2696284032: \nhttps://juejin.cn/pin/7459192678350618678",
-          "link": "https://www.v2ex.com/t/1104724",
-          "publishedOn": "2025-01-13T07:21:58.000Z",
-          "wordCount": 336,
-          "title": "刚建了个韭菜讨论 qun，有没得人啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104722",
-          "author": "joker99",
-          "description": "joker99: \n过年回家，又要被家里人拉去相亲了。你们过年有没有相亲过，我是第一次相亲，家里人非常着急我能够带一个女朋友回家过年。现在我在这里发布一下个人相亲，看看能不能遇到能够有共同话题的她。\n我是“大狼狗”，目前在跨境电商领域工作，工作地点是在深圳市坂田区，收入情况在深圳这边还算可以的，属于中等偏上的。性格比较成熟稳重、喜欢挑战自己的人，但也能享受一人独处的时光。生活中，热爱旅游、美食和健身，平时喜欢在周末做饭以及寻找美食。家庭中也是非常的和谐，从小到大生活在开心快乐的家庭中，父母从小到大对我做出任何决定都是支持的，从来没有干预，只是提出意见。\n平时我有几个爱好：旅行、健身和做饭。我觉得，旅行不仅能开阔眼界，还能让自己学会更加珍惜身边的一切。至于健身，运动不仅能保持体形，也能让我更有活力；做饭是我最大的乐趣之一，尤其喜欢给身边的人做一些健康的美食，如果你也喜欢做饭，那我们一定会有很多共同话题。我吃过的美食，推荐我朋友都说好吃，所以我朋友都说我是一位美食的“鉴赏家”\n我希望能遇到一个真诚、善良的她，我们可以一起享受美好时光，彼此支持和成长。如果你是个热爱生活、愿意相互扶持、充满爱心的人，我相信我们一定能聊得很投缘。希望可以找到那个能够一起探讨人生、一起旅行、一起品味生活的女孩。\n1.我不喜欢一个星期都见不到的异地恋。\n2.当下的发展会在深圳的，不考虑其他地方。\n3.希望她是南方女孩，因为北方女生不外嫁，所以考虑到这点。但是如果女生家庭好沟通，能够外嫁也是可以的。\n如果你对我的个人资料有兴趣，或者你也在寻找一个值得依靠的伴侣，欢迎你绿泡泡（ wodchbj ），期待与你的故事开始！",
-          "link": "https://www.v2ex.com/t/1104722",
-          "publishedOn": "2025-01-13T07:18:40.000Z",
-          "wordCount": 538,
-          "title": "过年回家了，你们有过相亲的经历不？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104721",
-          "author": "qlong",
-          "description": "qlong: \nijkplayer k0.11.9 发布了，这是 debugly 同学决定开始维护 ijkplayer 以来，发布的第 24 个版本。\n适用于苹果三大平台：\n平台及版本\nCPU 架构\n\n\n\n\niOS 11.0\narm64 、arm64_simulator 、x86_64_simulator\n\n\nmacOS 10.11\narm64 、x86_64\n\n\ntvOS 12.0\narm64 、arm64_simulator 、x86_64_simulator\n\n\n支持众多的媒体文件格式，能够轻松应对各种音频和视频编码格式以及各种字幕，重构了视频渲染模块，新增了 Metal 渲染的支持。增加了字幕挂载、解析、渲染功能，支持多种字幕格式。还支持播放本地或者网络的蓝光、HDR 视频。\n更新内容：\n所有库都移除了对 bitcode 的支持\n外挂字幕读包支持中断， 防止卡住关闭流事件\n使用前缀匹配规则匹配 meta 信息，修复 issue #53\n支持解析 av3a 流，但不能解码，修复 issue #45\n修复 smb2 协议 url 不允许超过 1024 个字符的问题\n修复字幕相关逻辑导致的内存泄漏\n修复部分视频使用外挂字幕时，seek 后字幕延迟一会显示的问题\n下载地址： https://github.com/debugly/ijkplayer/releases/tag/k0.11.9",
-          "link": "https://www.v2ex.com/t/1104721",
-          "publishedOn": "2025-01-13T07:17:59.000Z",
-          "wordCount": 487,
-          "title": "ijkplayer k0.11.9 发布了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104720",
-          "author": "abcfreedom",
-          "description": "abcfreedom: \n书签太多了，找也不好找",
-          "link": "https://www.v2ex.com/t/1104720",
-          "publishedOn": "2025-01-13T07:10:51.000Z",
-          "wordCount": 386,
-          "title": "有没有什么好用的 chrome 书签管理插件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104716",
-          "author": "KOMA1NIUJUNSHENG",
-          "description": "KOMA1NIUJUNSHENG: 能登录，控制台点进去全是报错和空白",
-          "link": "https://www.v2ex.com/t/1104716",
-          "publishedOn": "2025-01-13T07:02:39.000Z",
-          "wordCount": 411,
-          "title": "阿里云服务崩了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104715",
-          "author": "fu82581983",
-          "description": "fu82581983: \n《 InfoQ 2024 年 Java 趋势报告》\n\n其中提到，根据 New Relic 2024 年 Java 生态系统现状的数据，Java 17-11-8 的比例分别为 35-33-29%\n公司还是 Java 8 为主，想整体切到 Java 11 都费劲，想升级 Java 17 估计只能等到技术栈切到 Spring Boot 3 了。\n里面提到的一些 Java 生态的技术: GraalVM 、Quarkus 很少见到有国内公司用。\n让我想起了前几天的帖子：《国内的 Java 体系真的很落后吗？》\n经济上行的时候，想用新的版本和技术都很困难，现在这个大环境估计就更难了。",
-          "link": "https://www.v2ex.com/t/1104715",
-          "publishedOn": "2025-01-13T07:01:38.000Z",
-          "wordCount": 597,
-          "title": "InfoQ 2024 年 Java 趋势报告",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104713",
-          "author": "pursuer",
-          "description": "pursuer: \n太长不看省流版:\n一个具有较高可扩展性的 JS AMD 规范模块加载器 partic2-iamdee\nGithub\nGitee\n在上面的基础上做了个早期形态的“全栈”包管理 pxseed ，并附带一个 Javascript Notebook 。\nGithub\nGitee \n纯网页模式 Javascript Notebook 演示地址\nGithub Pages\n帽子云\n关于做这个的动机和最终想实现的效果\n在知道 Typescript 之前不习惯写 JS 的，然后接触到 Typescript 的时候第一个问题就是模块化的问题，当时比较多的模块化方案就是 CommonJS 和 AMD 了，为了在浏览器上用自然用的是 AMD 。虽然有 webpack 了但是 AMD 更简单，然后一直用到了现在。  \n到了现在已经出现了很多前端构建工具，但遗憾的是，Javascript 还是没有一个扩展性较强的统一的模块机制。\n同时我也接触了 Jupyter Notebook/Lab ，觉得是个很方便的平台，可以动态的执行 Python 并查看每一步的结果。于是也想在 JS 上实现个类似的东西，虽然有 IJavascript ，但是我想有能不依赖后台 python 的这么一个东西。\n然后就有了做包管理的想法。  \nNPM 分发和获取的经常是编译产物。可以对比下 Golang 。Golang 虽然槽点不少，但包管理工具链还是比较优秀的。分发的是源码，对某个函数有疑问，可以在 IDE 中跟进源码，NPM 上则大多只能跟到类型声明。\nNode/NPM 的设计对比 python/PIP 有一些地方对 Notebook 不太友好，PIP 默认装全局，NPM 默认装项目文件夹，当然 NPM 的设计一定程度解决了版本问题，不过我的观点是版本问题还是需要第三方库本身做好，包管理来处理兼容问题多少会有一些难以解决的 corner case 。\n因此我尝试做了这个 pxseed“全栈”包管理，在这个框架下，前端浏览器和后端 Node 都可以用一套编译产物，并用 AMD 加载模块，Typescript 源码直接分发和下载，这样 IDE 里点一下可以跟进到源码。为了兼容 NPM 生态，pxseed 也添加了 Rollup 来打包 NPM 模块为 AMD 供前端使用。\n当然 AMD 做前端是有致命缺点的，AMD 加载零碎文件的性能差，没有 Tree-Shaking ，没有 SEO 。但如果是想做成个类似 python 的属于 JS 的全栈包管理本地用，还是挺不错的。而且 partic2-iamdee 高度可定制化，也让优化上述问题成为可能，比如，你也可以用 Websocket 来加载 JS 模块。\n当然这些东西都有点\"路子野\",说不定已经早有人做过更好更成熟的实现方案，如果有的话欢迎推荐给我。",
-          "link": "https://www.v2ex.com/t/1104713",
-          "publishedOn": "2025-01-13T06:59:01.000Z",
-          "wordCount": 509,
-          "title": "2025 年，我又把前端\"老古董\"--AMD 给翻了出来",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104711",
-          "author": "anynull777",
-          "description": "anynull777: https://i0.hdslb.com/bfs/article/424acd06a174964eeaf6aad58400dfc6446642700.jpg",
-          "link": "https://www.v2ex.com/t/1104711",
-          "publishedOn": "2025-01-13T06:54:32.000Z",
-          "wordCount": 424,
-          "title": "这个价格怎么样",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104710",
-          "author": "NASK",
-          "description": "NASK: \n正式机不联网，测试机联网,正式机可以和测试机通讯，spring boot 项目需要使用某个 SDK 发消息到外网，SDK 使用的域名是写死的( https://..com ，SDK 发送请求使用的依赖是 apache 的 httpclient 。万能的 V 友,应该如何才能优雅的把请求发出去？",
-          "link": "https://www.v2ex.com/t/1104710",
-          "publishedOn": "2025-01-13T06:50:47.000Z",
-          "wordCount": 531,
-          "title": "如何让不联网正式机通过联网的测试机向外网指定域名发请求？",
           "imageUrl": null
         }
       ]
