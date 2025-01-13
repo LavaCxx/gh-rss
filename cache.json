@@ -141,6 +141,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -292,7 +309,7 @@
           "description": "hugozach: \nrt 个人买了 感觉还是月付保平安 \n产品名称\n配置\n价格(年/月)\n优惠\n优惠码\n优惠期限\n\n\n\n\n独立云服务器\n1C/1G/20G/0.5T/200Mbps\n$7/年\n80.6%\n7CLAW\n1 月 9 日-1 月 23 日\n\n\n独享云服务器\n2C/4G/80G/1T/1Gbps\n$4.2/月\n65%\n4CLAW\n1 月 9 日-1 月 23 日\n\n\n中国网络优化\n2C/1G/40G/1T/1Gbps\n$4.2/月\n30%\nO3CM4FHC9I\n1 月 9 日-1 月 23 日\n\n\n如果是你你会选独享还是优化",
           "link": "https://www.v2ex.com/t/1104803",
           "publishedOn": "2025-01-13T11:27:54.000Z",
-          "wordCount": 488,
+          "wordCount": 490,
           "title": "如何看待 claw 的 1 月份优惠，你觉得这种服务器很拉但是线路很好的服务器值不值？",
           "imageUrl": null
         },
@@ -332,7 +349,7 @@
           "description": "eccentric579: \n情况\n在 openwrt 里的 wan 上起了一个 vlan id 43 设备 wan.43 ，然后上面开个接口 iptv, dhcp 能获得 ip 。但是无法通过 udprxy 来实现组播转单播，看不了直播。\n于是我在 openwrt 里开了 tcpdump, 发现确实 wan.43 有出站的流量，包括 IgMP join/leave 。但是没有回传的 udp 组播流量。\n我更换 tcpdump 的抓包设备为 wan ，发现回传的组播 udp 都不带 vlan id 43.\n确认光猫已经做了 vlan 绑定，用户侧 43 绑定 others_43.\n猜想\n这是我不能用 udprxy 看直播的原因么？\n回传的 udp 不带 vlan id 是正常的么？\n求助\n我应该怎么设置才能看直播？\n接口 iptv 的 zone 防火墙以及放行规则应该怎么填？\n折腾好几天了，提前感谢帮忙的诸位。",
           "link": "https://www.v2ex.com/t/1104799",
           "publishedOn": "2025-01-13T10:44:33.000Z",
-          "wordCount": 476,
+          "wordCount": 499,
           "title": "iptv 组播返回的 udp 流是不带 vlan id 的么",
           "imageUrl": null
         },
@@ -342,7 +359,7 @@
           "description": "unishare: 目前知道软件 FasterWhisper 可以先转换翻译，前提是视频要下载下来，或者下载后用 PotPlayer 播放视频 加载 whisper 可以实时识别翻译\n如果不下载，在线网页视频，怎么语音实时识别文本并翻译",
           "link": "https://www.v2ex.com/t/1104798",
           "publishedOn": "2025-01-13T10:41:12.000Z",
-          "wordCount": 399,
+          "wordCount": 401,
           "title": "如何 网页播放视频声音 实时语音识别文本并翻译 whisper？",
           "imageUrl": null
         },
@@ -382,7 +399,7 @@
           "description": "yiming1888: \n人类，算不算某种形式的“永动机”\n截止至目前为止，出生率为负的国家，仍是少数",
           "link": "https://www.v2ex.com/t/1104793",
           "publishedOn": "2025-01-13T10:19:18.000Z",
-          "wordCount": 405,
+          "wordCount": 419,
           "title": "人的话，算不算是“永动机”？",
           "imageUrl": null
         },
@@ -412,7 +429,7 @@
           "description": "asus10tu: 预算 400 以下吧，想买点卫衣更新一下衣柜，品牌什么的没所谓，想要面料够好的，有高级感的，会有这种嘛，谢谢各位",
           "link": "https://www.v2ex.com/t/1104788",
           "publishedOn": "2025-01-13T09:59:17.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "有小众衣服品牌嘛，想买卫衣，面料要好的",
           "imageUrl": null
         },
@@ -432,7 +449,7 @@
           "description": "yunhaiming: 目前家里在用的电视有些年了，主要靠运营商的盒子看节目，临时找电视剧电影都没什么办法导进去。想换个综合功能 ok ，价格不用太高，日常家里够用的机型，求推荐\n另外，春节前还来得及买吗？",
           "link": "https://www.v2ex.com/t/1104783",
           "publishedOn": "2025-01-13T09:47:43.000Z",
-          "wordCount": 434,
+          "wordCount": 438,
           "title": "国补时期，想给家里电视换个新的，大家有推荐吗？",
           "imageUrl": null
         },
@@ -482,7 +499,7 @@
           "description": "astroj: \n情况是这样的：女朋友公司，中小公司，运营岗，工资由基本工资(80%)+绩效(20%)工资组成，入职时 hr 说的是\"基本不会扣绩效工资\"，当时觉得薪资尚可，没怎么在意，后来发现有时会扣几百(绩效工资部分)，问了身边的同事，说是公司的老传统了，跟你的工作表现无关，跟公司经营情况有关。可是最近几个月，由于公司效益越来越差，绩效部分的工资越扣越多，已经相当于变相降薪了。\n想问问大家，像这种工资组成包含基本工资+绩效工资的情况，公司以经营效益不好为由扣除部分绩效工资，变相降薪，怎么应对比较好？是不是只能另谋出路了，感觉公司裁员的话也会没钱赔。",
           "link": "https://www.v2ex.com/t/1104777",
           "publishedOn": "2025-01-13T09:29:40.000Z",
-          "wordCount": 368,
+          "wordCount": 370,
           "title": "公司以经营效益为由，扣除工资组成中绩效的部分，是否合理？",
           "imageUrl": null
         },
@@ -552,7 +569,7 @@
           "description": "mmmforver: \n最近不太忙，开发了一个 Web 站点，用来摸摸鱼 （ www.redian.me/ ）。然后在其中一个常逛的论坛介绍了一下。获得了一些好评。\n网站大概长这样：\n\n\n有个老哥试用后提出了一个建议：摸鱼网站应该尽可能简陋、隐蔽，这样才能无压力摸鱼。我恍然大悟，果然用户视角才能发现问题，提出问题！！\n于是开发了两款适合于摸鱼的主题：\n还贴心的加上了老板键！！ 以及使用说明\nExcel 主题：\n\nWord 主题：\n\n现在你可以在 Excel 或者 Word 里安心摸鱼、老板远看你在认真工作，老板走近你双击空格！！ 直接隐藏内容。\n这下谁还能分清你是在认真上班还是摸鱼呀！\n体验地址：\n首页： https://www.redian.me/  首页右上角 快乐摸鱼 可以切换主题\nExcel 主题页：www.redian.me/theme/excel\nWord 主题页：www.redian.me/theme/word\n半吊子水平做的玩具项目，大佬轻喷。\n有任何想法或者意见也可以聊聊！",
           "link": "https://www.v2ex.com/t/1104765",
           "publishedOn": "2025-01-13T09:03:27.000Z",
-          "wordCount": 420,
+          "wordCount": 422,
           "title": "你的 Excel 也能摸鱼吗",
           "imageUrl": null
         },
@@ -562,7 +579,7 @@
           "description": "gtheone1: 为什么现在的手机都不能模拟低频卡（ IC 卡高频，ID 卡低频）？不想天天带那个小卡扣，没有其它办法吗？",
           "link": "https://www.v2ex.com/t/1104764",
           "publishedOn": "2025-01-13T08:57:25.000Z",
-          "wordCount": 521,
+          "wordCount": 523,
           "title": "小区门禁是 ID 卡，手机不能模拟吗",
           "imageUrl": null
         },
@@ -602,7 +619,7 @@
           "description": "duanjiong: 但是 typec 接口一插上去就会提示充电， 不知道跟安装的 AIdente 有没有关系， 但是关掉那软件问题也貌似没消失",
           "link": "https://www.v2ex.com/t/1104758",
           "publishedOn": "2025-01-13T08:43:44.000Z",
-          "wordCount": 428,
+          "wordCount": 432,
           "title": "macbook pro 2021 款，磁吸接口充电感觉不是很稳，有时候需要反复插拔几次才会提示充电",
           "imageUrl": null
         },
@@ -622,7 +639,7 @@
           "description": "liuYYYYYY: \n价格预算: 500-600\n可 ROOT(跑芝麻粒)，可以安装谷歌框架安装 VPN\n用途: 做备用机，root 之后跑吱付宝的芝麻粒\n芯片啥的不了解，差不太多就行\n有 V 友出也行",
           "link": "https://www.v2ex.com/t/1104756",
           "publishedOn": "2025-01-13T08:41:37.000Z",
-          "wordCount": 490,
+          "wordCount": 499,
           "title": "求推荐 500-600 元左右二手的安卓备用机",
           "imageUrl": null
         }
