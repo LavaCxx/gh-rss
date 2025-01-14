@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-14T14:10:41.569Z</id>
+    <id>urn:2025-01-14T15:11:23.161Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-14T14:10:41.569Z</updated>
+    <updated>2025-01-14T15:11:23.161Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A Few Ways That Cloudways Makes Running This Site a Little Easier]]></title>
+        <id>https://css-tricks.com/?p=382719</id>
+        <link href="https://css-tricks.com/a-few-ways-that-cloudways-makes-running-this-site-a-little-easier/"/>
+        <updated>2025-01-14T14:49:10.000Z</updated>
+        <summary type="html"><![CDATA[(This is a sponsored post.)
+It’s probably no surprise to you that CSS-Tricks is (proudly) hosted on Cloudways. DigitalOcean bought us back in 2021 then turned right around around and did the same with Cloudways shortly after. It …
+A Few Ways That Cloudways Makes Running This Site a Little Easier originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[哪个老哥分享一个 webpack 配置]]></title>
         <id>https://www.v2ex.com/t/1105098</id>

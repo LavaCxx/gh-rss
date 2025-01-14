@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=382719",
+          "author": "Geoff Graham",
+          "description": "(This is a sponsored post.)\nIt’s probably no surprise to you that CSS-Tricks is (proudly) hosted on Cloudways. DigitalOcean bought us back in 2021 then turned right around around and did the same with Cloudways shortly after. It …\nA Few Ways That Cloudways Makes Running This Site a Little Easier originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/a-few-ways-that-cloudways-makes-running-this-site-a-little-easier/",
+          "publishedOn": "2025-01-14T14:49:10.000Z",
+          "wordCount": 2443,
+          "title": "A Few Ways That Cloudways Makes Running This Site a Little Easier",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/382719"
+        },
+        {
           "id": "https://css-tricks.com/?p=383435",
           "author": "Juan Diego Rodríguez",
           "description": "Today, I want to look into one of those cases of impatient and how the community has waited for that feature, to be specific, two upcoming functions: sibling-count() and sibling-index().\nHow to Wait for the sibling-count() and sibling-index() Functions originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -92,12 +102,6 @@
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383250"
         }
       ]
-    },
-    {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -335,7 +339,7 @@
           "description": "CNN: \n电话帮一位“数码文盲”实在难搞，最后选择安装阿里云盘，同步到云端算了\n经过这事，发现国产 Android 厂商真友好，例如小米 vivo 都开发强兼 Mac 软件。",
           "link": "https://www.v2ex.com/t/1105095",
           "publishedOn": "2025-01-14T11:38:53.000Z",
-          "wordCount": 464,
+          "wordCount": 496,
           "title": "iPhone 将照片视频传到 Windows 太痛苦了",
           "imageUrl": null
         },
@@ -345,7 +349,7 @@
           "description": "liuyongwang: \n如何看待 A 股今日走势，今日 A 股大涨，是走还是留。",
           "link": "https://www.v2ex.com/t/1105094",
           "publishedOn": "2025-01-14T11:26:57.000Z",
-          "wordCount": 466,
+          "wordCount": 498,
           "title": "如何看待 A 股今日走势",
           "imageUrl": null
         },
@@ -355,7 +359,7 @@
           "description": "chenliang0571: \n有个项目文件放在外置硬盘，本地的修改 git 时不时无法检测到，有时候可以有时候不行（磁盘 IO 很低）。\n每次都要rm .git/index && git reset，不知道为什么？\n硬盘信息：\n  未使用：1.73 TB （ 1,725,677,821,952 字节）\n  容量：2 TB （ 2,000,188,080,128 字节）\n  装载点：/Volumes/data\n  文件系统：APFS\n  可写：是\n  忽略所有权：是\n  BSD 名称：disk5s1\n  物理驱动器：\n  设备名称：Samsung SSD 990 EVO Plus 2TB\n  介质名称：AppleAPFSMedia\n  介质类型：SSD\n  协议：PCI-Express\n  内置：否\n  分区图类型：未知\n  S.M.A.R.T. 状态：已验证",
           "link": "https://www.v2ex.com/t/1105093",
           "publishedOn": "2025-01-14T11:18:43.000Z",
-          "wordCount": 428,
+          "wordCount": 430,
           "title": "我也买了 mac mini，但外置硬盘使用 git 出现了问题",
           "imageUrl": null
         },
@@ -365,7 +369,7 @@
           "description": "2016xlx: 各位大佬,觉得福利彩票是骗人的还是啥,我守号两个月了,每天基本上中两三块而已",
           "link": "https://www.v2ex.com/t/1105092",
           "publishedOn": "2025-01-14T11:14:49.000Z",
-          "wordCount": 546,
+          "wordCount": 572,
           "title": "各位咋看彩票",
           "imageUrl": null
         },
@@ -385,7 +389,7 @@
           "description": "sikuu2al:",
           "link": "https://www.v2ex.com/t/1105090",
           "publishedOn": "2025-01-14T11:01:58.000Z",
-          "wordCount": 484,
+          "wordCount": 497,
           "title": "忘掉一个人真的太难了！",
           "imageUrl": null
         },
@@ -395,7 +399,7 @@
           "description": "VisualStudioCode: \nhttps://www.ithome.com/0/824/599.htm",
           "link": "https://www.v2ex.com/t/1105089",
           "publishedOn": "2025-01-14T11:00:16.000Z",
-          "wordCount": 541,
+          "wordCount": 586,
           "title": "不顾“万人联名请愿”，甲骨文拒绝放弃 JavaScript 商标所有权",
           "imageUrl": null
         },
@@ -415,7 +419,7 @@
           "description": "laowai: 小公司，研发小组扩大规模，需求以上人员。\n部分要求：\n1.英语基础良好，项目会涉及与欧美开发团队协作，不要求口语流利，但是正常的英语读写能力要有；\n2.可以提供过往成果案例及部分代码示例，3 年及以上开发经验；\n3.35+及自由职业者优先，要确定可以干活，团队不需要“管理人员”；\n4.人在杭州优先考虑；\n5.能接受最低水平缴纳社保；\n6.一般薪资不会超过 20K ，特别优秀的不受此条限制；\n请大家轻喷，leader 能力有限，给不了超越期待的薪资。\n另外，寻优秀合伙人 1 人，唯一要求，可以带着大家不断提升收入。\n有意者可以发简历，邮件联系：bG9sby5lZHdpbkBnbWFpbC5jb20=",
           "link": "https://www.v2ex.com/t/1105085",
           "publishedOn": "2025-01-14T10:26:38.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "找人: Java 开发、IOS&Android 开发，测试",
           "imageUrl": null
         },
@@ -435,7 +439,7 @@
           "description": "f7014367google: \n有一个外来老逼登经常骑着电轮，拿着高音喇叭全市巡回播放：磨刀、磨刀!!! 只要该老逼登出现，整条路的空气都在震动，只要他出现在路口，路尾也可听得到喇叭声，不堪其扰。\n家住老旧小区，无物业，也无法组织起物业，居民不团结。2~3 年时间，老逼登时不时进入小区巡回播放喇叭，现在已经被弄得精神衰弱了。多次劝阻该老逼登无效，道理说了，粗话说了，也动手拍他了(没敢动真的)，但他知道没人管得了他，包括城管、警察、居委会，愈发嚣张。对小区内的禁止鸣笛警示牌视若无睹，我行我素，把全市无物业管理的小区当成他家了。\n想着对付流氓还得更流氓，但如何把握尺度，使得警察不会管，和稀泥。比如：\n抢夺其喇叭，踩坏。喇叭也就几十块，是否涉及违法？\n拔其电轮车钥匙，丢入下水道。\n跟踪老逼登，放他电轮车气，钥匙孔塞胶水，剪断各种电轮车线。\n以上行为，如果在有监控、人证的情况下，是否涉及违法，会引起警察重视？如何把握尺度。\n或者在无监控，无认证的情况下，死咬是对方污蔑我，是否可行？",
           "link": "https://www.v2ex.com/t/1105082",
           "publishedOn": "2025-01-14T10:01:59.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "造成他人财务损失多少钱以内，蜀黍懒得管、不会管？不会被喊去派出所？",
           "imageUrl": null
         },
@@ -475,7 +479,7 @@
           "description": "shenqi: 公司主要是做 智慧教育相关系统 以及 集团旗下的线下少年宫招生系统相关的业务。\n年底了，项目紧张。\n所以需要快速上手，反正用 ai 生成代码，不考虑怎么维护的角度，最重要是快交付，熟悉了我们的工作流程就能快速上手了，其他的屎山先不看，交给 ai 看。\n硬性要求：\n熟练 react ，antd （需要哪些组件），能解决 ai 生成代码的 bug ，对接后端\n因为要快速上手干活，所以初步考虑 3 年+经验（部分能力真的是写过 3+年才能懂得的，当然除非你在校期间就像工作一样每天最少写八小时代码）\n良好的使用 ai 提高工作效率\n非使用 window 为主力开发系统，以往的时候有条件科学上网\n\n最好的话：\n熟悉 graphql ，有 linux 基础使用经验\n其他背景看以前帖子：\nhttps://www.v2ex.com/t/797874\nhttps://www.v2ex.com/t/562282 \n（里面的第三方如智联之类的不用看了，那边都下线了）\n（以前帖子里面的那些技术要求，在 ai 面前，都是浮云）\n交通方面：\n三元里大道北公交站，下车的那栋大楼就是。办公区主要在六楼，其他教学区在 1-5 楼（公司其他部门）\n面试方面：\n先简历筛选 -> 电话面试（要效率，不浪费双方面试时间），再看后续。",
           "link": "https://www.v2ex.com/t/1105076",
           "publishedOn": "2025-01-14T09:50:36.000Z",
-          "wordCount": 473,
+          "wordCount": 497,
           "title": "[广州三元里][招前端] 12-15k react",
           "imageUrl": null
         },
@@ -495,7 +499,7 @@
           "description": "pretty66: \n背景\n目前服务器部署在香港的阿里云，国内用户访问速度还可以；业务需求要迁移到日本境内\n公司同事测试了 aws 日本东京的服务器开启全球加速服务，国内测试网络发现丢包、延迟高；比香港的服务器差很多\n需求\n国内用户访问网络稳定，不丢包\n服务器配置 4 核 8G 带宽 30M 以上\n业务设计到搜索的动态数据比较多，实时性要求较高\n问题\n目前同事测试的是 aws 东京，aws 上如果有合适的产品服务能解决网络问题，优先考虑 aws; 或者有合适的第三方产品可以解决网络服务问题，也可以\n下一步准备测试：日本樱花服务器、搬瓦工等；这两个厂商国内做梯子的比较多，不清楚用来做承载公司业务会不会有被强的风险\n以上，希望有经验的大佬能推荐一下合适的产品或服务器厂商，不胜感激",
           "link": "https://www.v2ex.com/t/1105073",
           "publishedOn": "2025-01-14T09:41:56.000Z",
-          "wordCount": 739,
+          "wordCount": 803,
           "title": "求助贴，业务需求要把服务器迁移到日本，用户主要是中国大陆用户，推荐下合适的服务器",
           "imageUrl": null
         },
@@ -505,7 +509,7 @@
           "description": "tangping: \n请教，有个 app ，支持安卓 9.0+的设备，怎么安装到安卓 7.1 的设备中？\n不懂这一块，不知道这个能不能实现",
           "link": "https://www.v2ex.com/t/1105071",
           "publishedOn": "2025-01-14T09:40:13.000Z",
-          "wordCount": 493,
+          "wordCount": 495,
           "title": "请教，有个 app，支持安卓 9.0+的设备，怎么安装到安卓 7.1 的设备中？",
           "imageUrl": null
         },
@@ -535,7 +539,7 @@
           "description": "nullxx: \n降薪 20% 人事找我让签字同意 我不同意 没签。我看网上说这种情况也可以申请仲裁，大概流程是\n1 发告知书表示不同意单方面降薪\n2 书面告知公司表示自己是被迫离职\n3 仲裁申请赔偿\n这个流程对吗 有没有有类似经验的老哥。如果可以仲裁 我是否可以按照违法辞退这种情况提赔偿诉求呢",
           "link": "https://www.v2ex.com/t/1105066",
           "publishedOn": "2025-01-14T09:33:32.000Z",
-          "wordCount": 442,
+          "wordCount": 452,
           "title": "老哥们 被降薪了咋整",
           "imageUrl": null
         },
@@ -565,7 +569,7 @@
           "description": "chq3272991: \n如题，位置广州黄埔东方汇畅动游泳健身，目前涉及数百会员，涉事金额不完成统计 30 多万(年卡、私教课等，按没使用的期限折算)，目前老板说经营不下去了，找新老板接盘，但接盘工作一直不顺利，不知道是不是找拖演戏，稳住群众情绪拖延时间方便圈钱跑路。类似这种情况，大家有没有类似经历，有没有认识什么法律朋友，找法律法院起诉查封老板资金可以吗",
           "link": "https://www.v2ex.com/t/1105062",
           "publishedOn": "2025-01-14T09:28:56.000Z",
-          "wordCount": 373,
+          "wordCount": 383,
           "title": "广州健身房老板跑路了，如何维权",
           "imageUrl": null
         },
@@ -585,7 +589,7 @@
           "description": "syh2: \n我看那么多老外在发帖，是不是有没有什么东西可以搞\n例如。。。教老外学中文？",
           "link": "https://www.v2ex.com/t/1105059",
           "publishedOn": "2025-01-14T09:17:04.000Z",
-          "wordCount": 396,
+          "wordCount": 404,
           "title": "小红书涌入了大量 TK 难民，是否有什么风口",
           "imageUrl": null
         },
@@ -635,7 +639,7 @@
           "description": "yueyuea: \n前提\n前几年家里拆迁，以现金 + 低价购买回迁房名额的方式补偿，然后最近发通知可以进行回迁房回购（使用回迁房名额）。\n已知\n回迁房名额的购买价格是低于市场价的，大概是市场价的 2/3 ；\n期房，2026 年夏天交付；\n因为小城市且自住，户口在父母家，所以对于落户，学区之类的没有需求；\n强制绑定需购买一个车位；\n如果确定要买，需要预付 60% 的房款，剩下的 40% 交付时再付；\n房子位置不是很好，开发商会把小区的回迁房修在最差的位置；\n分析\n猜测大概率没有房产证的小产权，因为开发商要优先商品房的销售，所以就算可以办房产证也需要很多年；\n因为近几年的情况我们都明白期房的不可控，但是回迁房有人说是政府主导的，我保持怀疑态度；\n问\n\n是否值得回购？\n这种回迁的期房会有什么风险？\n房产证？\n升值空间？\n结\n\n\n个人在买与不买之间徘徊，因为我觉得 3 年内并没有买房子的需求，但是又觉得这个价格其实有点划算，所以想听听大家的意见。\n希望有这方面经验的 v 友能给点意见，理性讨论。谢谢！",
           "link": "https://www.v2ex.com/t/1105054",
           "publishedOn": "2025-01-14T09:02:05.000Z",
-          "wordCount": 542,
+          "wordCount": 552,
           "title": "关于拆迁和买房的二三事",
           "imageUrl": null
         },
@@ -665,7 +669,7 @@
           "description": "HarrisIce: \n图片、过程，可以看看我博客，整个工程耗费了半年多接近一年时间，做了两个版本，去年 8 月上完之后，今年才慢慢整理数据和文档出来。\n⬇️⬇️⬇️⬇️⬇️\n降本 25%——闭环数据和设备，改善机房散热效率\n⬆️⬆️⬆️⬆️⬆️\n整个手搓了个风扇控制板，改装了一些米家的传感器（增强续航为主），数据接到了 homeassistant 、zabbix 、grafana 上，把数据、可视化和控制做通了。算下来收益还可以，一年下来能给家里省不少电费，对没错，还是那群 nas 玩家，现在升级成了家庭机柜（机房）玩家，你看到的这个文章就是在这个大背景下搞出来的。\n去年加了一张 GPU ，散热就快顶不住了，今年这通优化之后，看来可以去日本背张 5090 回来装上了。\n背景\n自己有个机柜，常年运行，由于风扇风量不够，导致机柜里积热，散热效率低，只能通过把空调温度调低的方式改善积热，但是又带来了高额的电费账单。\n解决方案\n为了解决这个问题，需要一套方法估算机柜是否积热，在尽可能调高空调温度的情况下，动态调整风扇转速，并预留转速空间，以实现机器健康运行、机柜不积热、空调省电三重效果。\n要实现这一目的，有这几件事要做：\n把风扇接入到监控体系内，确保转速能够上报，停转（故障）能够第一时间报警。\n把温度传感器接入到监控体系内，可视化数据并且用于分析是否积热。\n允许动态控制风扇转速，确保风扇转速能够跟随机柜内温度变化和积热情况调整。\n结果\n降了 24.5%的电费，一年能省下来上千电费。",
           "link": "https://www.v2ex.com/t/1105050",
           "publishedOn": "2025-01-14T08:56:36.000Z",
-          "wordCount": 489,
+          "wordCount": 520,
           "title": "手搓了一个风扇控制板，把传感器数据都接入了，一年能给家里机房省上千电费",
           "imageUrl": null
         },
