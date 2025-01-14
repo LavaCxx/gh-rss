@@ -339,7 +339,7 @@
           "description": "syh2: \n朋友去读 PHD ，有逗留签，每个周末都会往返香港和大陆多次\n有啥搞钱方式么？\n现在代购还有没有啥搞头？\n被税的几率有多大？\n这种有啥法律风险吗？",
           "link": "https://www.v2ex.com/t/1104971",
           "publishedOn": "2025-01-14T05:43:53.000Z",
-          "wordCount": 520,
+          "wordCount": 522,
           "title": "有香港澳门逗留签，有没什么搞钱的方法",
           "imageUrl": null
         },
@@ -349,7 +349,7 @@
           "description": "dzdh: \n其实还是性价比啥的。\n除了 aws/azure/gcp 这种。\n大概 4c8g 左右。目前在用 oracle 免费套餐。但是据说会删号。。。",
           "link": "https://www.v2ex.com/t/1104970",
           "publishedOn": "2025-01-14T05:36:45.000Z",
-          "wordCount": 528,
+          "wordCount": 536,
           "title": "有什么 vps 适合个人项目出海的 就稳定量大大厂管饱那种",
           "imageUrl": null
         },
@@ -389,7 +389,7 @@
           "description": "neroanelli: \n现在也遇到了 ROS 对接中兴 VBRAS V6000 的 DUID 问题，参考了 @supermaxisme 的帖子 https://v2ex.com/t/998644 和 @busier 老哥的 https://v2ex.com/t/1015083 ，没能成功。\n现在采用 @busier 方案，还是无法获取到 IPv6 地址。\n1.光猫是电信的 HG2821T-U ，之前是桥接，ROS 拨号，但是遇到 DUID 问题，没办法获取了 IPv6 前缀，已经修改为光猫拨号，而且光猫已经获取到了 IPv6 地址\n2.光猫里的 IPv6 里面开启了 DHCPv6 ，但是 ROS 里面 ipv6->dhcp client 一直在 searching ，无法获取到 IPv6 地址\n3.在咸鱼上，有人实现了对 ROS 固件的修改，打上了当使用中兴 vbras 时无法获取 ipv6 前缀补丁，但是没有公开方法:  闲鱼链接，点击查看",
           "link": "https://www.v2ex.com/t/1104966",
           "publishedOn": "2025-01-14T05:27:35.000Z",
-          "wordCount": 549,
+          "wordCount": 608,
           "title": "MikroTik RouterOS 无法获取 IPv6 前缀，做 NAT6 遇到的问题",
           "imageUrl": null
         },
@@ -399,7 +399,7 @@
           "description": "exploretheworld: 入职某大黑厂，项目全部都是 map 传参，注释不写的那种，100 万代码\n\n兄弟们怎么搞",
           "link": "https://www.v2ex.com/t/1104965",
           "publishedOn": "2025-01-14T05:24:45.000Z",
-          "wordCount": 734,
+          "wordCount": 771,
           "title": "项目全部是 map 传参",
           "imageUrl": null
         },
@@ -409,7 +409,7 @@
           "description": "TIANPULS: \n我是 2022 年 7 月 18 号入职，目前的消息这周五给裁员通知，这周五是 1 月 17 号，我的 N 是 2.5 还是 3 啊",
           "link": "https://www.v2ex.com/t/1104964",
           "publishedOn": "2025-01-14T05:15:52.000Z",
-          "wordCount": 513,
+          "wordCount": 529,
           "title": "问一下裁员经济赔偿 n 的计算方式",
           "imageUrl": null
         },
@@ -419,7 +419,7 @@
           "description": "Ryanel: \nJAVA 软件工程师\n\n[岗位描述]\n\n[任职要求]\n\n[工作地点]\n[其他]\n前后端皆招。入职时间宽松可谈。有意向的小伙伴可发送简历至: croft0523@126.com。\n(邮箱为个人邮箱，主要是因为外网邮件都会有各种安全策略的风险警示，为避免误中安全部门的钓鱼测试，所以直接使用个人邮箱了，请大家理解。)",
           "link": "https://www.v2ex.com/t/1104963",
           "publishedOn": "2025-01-14T05:09:10.000Z",
-          "wordCount": 457,
+          "wordCount": 468,
           "title": "[招聘] [京东] 招 Java 软件工程师若干",
           "imageUrl": null
         },
@@ -439,7 +439,7 @@
           "description": "kashin0116: \n最近准备入手个 Mac Mini, 求一波显示器推荐。\n需求：\n有个 4070 的小主机打游戏，想 Mac/PC 都是双显示，用 Win+Mac 双系统下电视+显示器双屏，现在真的一键无感切换了 这个方案来切换。\n目前有两台 2K 显示器，一个 24 寸 2K ，一个 27 寸 2K 高刷。\n预算 1w 以内搞定两台显示器 （越省越好）\n需要如何替换？\n主机也有升级打算，假设我游戏主机可以支持 4K 游戏。",
           "link": "https://www.v2ex.com/t/1104960",
           "publishedOn": "2025-01-14T05:02:05.000Z",
-          "wordCount": 403,
+          "wordCount": 415,
           "title": "求 Mac Mini 显示器推荐",
           "imageUrl": null
         },
@@ -459,7 +459,7 @@
           "description": "zhwguest: \naliyun ECS 云服务器，在业务量没有明显变动的情况下，突然 CPU 是平时负荷的两倍了。\n流量没变、内存使用没变、各个指标都稳定。就是 CPU 翻倍。虽然整体水平不高，但是担心业务出故障啊。\n几个工程师，排查了一上午，没有结果，正在一筹莫展的时候，刚刚突然又降下来了，恢复到正常了。\n感觉就像 CPU 降频一样的效果。",
           "link": "https://www.v2ex.com/t/1104952",
           "publishedOn": "2025-01-14T04:11:54.000Z",
-          "wordCount": 579,
+          "wordCount": 595,
           "title": "ECS 可能出现 CPU 动态降级的情况么？",
           "imageUrl": null
         },
@@ -479,7 +479,7 @@
           "description": "najunuoyan: \n开了一天左右没关，结果内存上涨到 18G ，虽然是 Beta 但也有点离谱了吧\nhttps://i.imgur.com/0rtbqJ1.png",
           "link": "https://www.v2ex.com/t/1104950",
           "publishedOn": "2025-01-14T04:07:20.000Z",
-          "wordCount": 478,
+          "wordCount": 485,
           "title": "Mac 上面的 windows app(远程桌面)内存泄漏也太夸张了",
           "imageUrl": null
         },
@@ -499,7 +499,7 @@
           "description": "seraph758: \n我的手机是一加 12 刷的氧，自带谷歌助理，个人用起来觉得很方便。但是发现有些功能没办法实现，比如说跟助理说重启手机或者打开手机热点。他都说当前设备不支持，不知道 pixel 手机能实现这个功能吗",
           "link": "https://www.v2ex.com/t/1104947",
           "publishedOn": "2025-01-14T03:55:14.000Z",
-          "wordCount": 441,
+          "wordCount": 452,
           "title": "有喜欢用谷歌助理的吗？",
           "imageUrl": null
         },
@@ -509,7 +509,7 @@
           "description": "EmbraceQWQ: 上周终于执行了计划了一个月的温泉之旅，把之前线上私活组的小伙伴们都约在一起，真的很难约好一个时间，一个地点。\n为期两天，打打麻将，唱唱 k ，烧烤，温泉。偶尔朋友之间玩一下是真的很舒适，很惬意。\n大家一起唱唱 k ，在别墅区遛遛狗，晚上大家一起泡温泉烧烤。\n围着一起，谈天论地，各自有各自的苦水，\n有找不到女朋友的，有升职加薪失败道心破碎的，有备考压力大的，\n有准备买房的，有被 PUA 到感情破裂的，有准备结婚，还有个在烧烤旁边加班的（狗头）。\n泡在温泉里小酌一杯，烦恼都抛开，剩下的只有放松和欢笑。\n有时候在想，那么拼为了什么？为了钱？还是为了后代生活？或许想成就一番事业？\n第二天分别的时候，深圳的兄弟敲了一下我的车窗，和我说珍重。\n那一刻，我就知道下一次再聚可能很困难了，虽然深圳和广州并不远，但是成年人的下次，只能是下次。\n目送他们离开，感觉有点伤感，想起当时刚毕业说起的每年一聚，最后都是变成了过年发个群拜年。\n想听听 v 友们的奋斗目标和类似的经历。\n话有点多，有感而发。",
           "link": "https://www.v2ex.com/t/1104946",
           "publishedOn": "2025-01-14T03:53:36.000Z",
-          "wordCount": 369,
+          "wordCount": 373,
           "title": "年少不知马蹄疾，不信人间有别离。",
           "imageUrl": null
         },
@@ -519,7 +519,7 @@
           "description": "unique: \n还记得每次刷 P 站看到喜欢的画作，都要经历找原图、另存为然后传到云端的痛苦吗？现在有下载到本地的插件了，我更希望直接存储到我的云存储上（比如 onedrive/googledrive ），之前写了个 Chrome 插件自用（它已经帮我保存了 3000 多张精选画作），现在我将它提交到了 Chrome 商店（审核中），同时在 GitHub 开源出来。\n✨ 主要特性\n🖼️ 一键下载 Pixiv 插画\n📊 多种画质选项（高质量、标准质量）\n☁️ 通过 Alist 同步下载内容到云存储\n💾 支持多种存储后端（ Google Drive 、OneDrive 等）\n🎯 响应式直观的用户界面\n⚡ 快速高效的下载体验\n🔒 本地配置存储保护隐私\n📸 预览\n预览效果\nhttps://vimeo.com/1046644429\n🛠️ 技术栈\n框架: React + TypeScript\n扩展框架: WXT (WebExtension Tools)\nUI 组件: shadcn/ui\n样式: Tailwind CSS\n图标: Lucide React\n状态管理: React Hooks\n存储集成: Alist API\n💡 使用方法\n安装扩展\n您目前可以通过以下方式安装本扩展：\n手动安装\n从 GitHub Releases 下载最新版本\n解压下载的文件\n打开 Chrome ，访问 chrome://extensions/\n开启右上角的\"开发者模式\"\n点击\"加载已解压的扩展程序\"，选择解压后的文件夹\n设置与使用\n安装完成后，点击 Chrome 工具栏中的扩展图标\n配置您的 Alist 服务器设置\n浏览 Pixiv 并使用下载按钮保存插画\n选择您偏好的画质\n扩展会自动将下载内容同步到您的云存储\nGitHub 地址： https://github.com/hellokaton/pixiv-helper",
           "link": "https://www.v2ex.com/t/1104945",
           "publishedOn": "2025-01-14T03:52:15.000Z",
-          "wordCount": 483,
+          "wordCount": 496,
           "title": "一键将 P 站（Pixiv）画作同步到云存储",
           "imageUrl": null
         },
@@ -539,7 +539,7 @@
           "description": "ctrlmymood: \n当前尝试过截图，识别图像内容后判断，然后再操作键盘鼠标，太太麻烦复杂了，语言 python",
           "link": "https://www.v2ex.com/t/1104942",
           "publishedOn": "2025-01-14T03:48:45.000Z",
-          "wordCount": 518,
+          "wordCount": 520,
           "title": "请教站内搞服务器的大佬，关于 bios(通过 bmc web 进入 kvm web bios 页面)如何做自动化测试",
           "imageUrl": null
         },
@@ -549,7 +549,7 @@
           "description": "ForkNMB: \n你们平时加定时任务用 crontab - 添加还是 在/etc/cron.d 下面添加一个文件的方式来添加定时任务。感觉如果用脚本来添加定时任务的话，是后者方便很多啊",
           "link": "https://www.v2ex.com/t/1104941",
           "publishedOn": "2025-01-14T03:48:23.000Z",
-          "wordCount": 741,
+          "wordCount": 762,
           "title": "Linux 定时任务添加",
           "imageUrl": null
         },
@@ -579,7 +579,7 @@
           "description": "PROJECT: \n \n \n  30 元/月\n 3G 下载/400M 上传\n 30G 流量\n  https://l.sh.189.cn/pkgDetail?id=67774ea61b06633b",
           "link": "https://www.v2ex.com/t/1104935",
           "publishedOn": "2025-01-14T03:35:19.000Z",
-          "wordCount": 512,
+          "wordCount": 528,
           "title": "上海电信推出最新 5G-A 加速包，大家来看看",
           "imageUrl": null
         },
@@ -589,7 +589,7 @@
           "description": "for1shot: \n希望是可以无线连接的，红轴，其他没什么要求",
           "link": "https://www.v2ex.com/t/1104934",
           "publishedOn": "2025-01-14T03:34:42.000Z",
-          "wordCount": 674,
+          "wordCount": 678,
           "title": "25 年 1 月有没有 200 以内的机械键盘推荐呢",
           "imageUrl": null
         },
@@ -609,7 +609,7 @@
           "description": "whetherTsmile: 手机上的 am 都是罗马音，mac 端歌单里添加也是罗马音，但是直接通过主页，或者搜索进去显示的就是正常日文+中文\nhttps://imgur.com/a/6Sq97Ws\n有木有啥办法可以让他是中日文",
           "link": "https://www.v2ex.com/t/1104931",
           "publishedOn": "2025-01-14T03:31:12.000Z",
-          "wordCount": 404,
+          "wordCount": 406,
           "title": "印度 apple music 日文歌名称都是罗马音",
           "imageUrl": null
         },
