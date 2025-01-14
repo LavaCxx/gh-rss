@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -310,12 +304,32 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1104857",
+          "author": "cj323",
+          "description": "cj323: \n之前写小游戏（非专业，纯玩）都是习惯面向对象。大概感觉是这样\nclass Object()\n  #states: [position, health, direction...]\n  #methods: [move, serializer]\n        \nclass Player(Object)\n  #player_methods: [attack...]\n\nclass Boss(Object)\n  #boss_methods: [...]\n\n\np1, p2 = new Player(), new Player()\nboss = new Boss()\n\np1.move(..)\np2.move(..)\nboss.attack(..)\nRenderer.render(p1, p2, boss)\n\n学了几天 elixir 后发现函数式也挺顺手，但是不知道有没有实际用函数式开发游戏的。\nglobal_state<Immutable> {\n  player1_pos: ..\n  player1_health: ..\n  player2_pos: ..\n  player2_health: ..\n  boss_pos: ..\n  boss_health: ..\n  ...\n}\n\nfn move: state -> new_state\nfn move_player: () -> state -> new_state\nfn move_player_by_num: num -> () -> state -> new_state\nfn move_boss: state -> new_state\nfn boss_attack: state -> new_state\n\nglobal_state\n  |> move_player_by_num(1)\n  |> move_player_by_num(2)\n  |> move_boss\n  |> bos_attack\n  |> render\n\n感觉除了内存占用大一些没其他坏处，有有经验的分享下么？",
+          "link": "https://www.v2ex.com/t/1104857",
+          "publishedOn": "2025-01-13T23:56:06.000Z",
+          "wordCount": 594,
+          "title": "函数式编程适不适合游戏开发",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1104856",
+          "author": "acrazing",
+          "description": "acrazing: \n作为一名系统管理员，经常需要为其他人创建账号密码。虽然浏览器自带的工具很方便，但有时会丢失记录；而记在密码管理工具里，又因为数量太多，找起来很麻烦。为了解决这个问题，我最初写了一个简单的脚本，执行类似 create-password <username> 的命令就能生成密码并自动保存到一个文件里，方便后续查找。\n后来，我在重构 amos 时，决定把这个需求做成一个验证性的小工具。经过一个多月断断续续的开发，自己也用了一个多月，感觉还不错，所以想和大家分享一下。\n产品名叫 Unserializable ，特性如下。\n功能：\n密码生成：支持按时间、序号、随机字符串等规则生成密码/用户名，所有生成历史都会保存。\nTOTP 管理：可以存储和编辑任意格式的一次性密码（ TOTP ）。\n快速记事本：支持附件，主要用来存 Recover code 之类的信息。\n消息分享：支持发送图片消息，主要用于不同 (不属于自己的) 设备之间信息同步。\n特点：\n端到端加密: 所有上述的数据都使用了基于只储存在客户端的独立密码的 RSA + AES 端到端加密, 包括文件附件。\n离线使用。\n多账号。\n支持多终端登录, 包括 Chrome 插件, 网页, iOS, Android。\n你可以把它理解成你个人的可以方便查询的密码/机密信息数据库。欢迎体验:\n官网: https://www.unserializable.com/\nChrome 插件: https://chromewebstore.google.com/detail/unserializable/hifjngpdljlknappeakcddpgikddnnea\niOS: https://apps.apple.com/us/app/unserializable/id6738017954\nAndroid: 内测中, 流程参考官网.\n网页版: https://web.unserializable.com/.",
+          "link": "https://www.v2ex.com/t/1104856",
+          "publishedOn": "2025-01-13T22:09:24.000Z",
+          "wordCount": 482,
+          "title": "一个密码/凭证管理神器",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1104854",
           "author": "leaveeel",
           "description": "leaveeel: \n近两个月我的状态越来越差，之前也发过几篇帖子，工作、情感、家庭等等无一例外束缚着我。经历了心情的大起大落，从颓废到无生的意志再到突然开解。好像说 30 岁会有大劫，这应该算是我的劫难，也可能是某一个劫难。我整理了一下从小到大的经历，感兴趣的可以当成看个故事。\n1 、学生时期\n我从小就不爱背书，玩心大，英语极差，所有升学考试都靠理科拉分让我有学上，家里也花了不少钱辅导培训上课但都没什么用。  \n高考志愿胡乱选一通上了个大专，大一跟系里参加过大学生创业大赛没出什么力，踩线考过英语勉强拿了毕业证。 \n工作后通过我爸的关系混了个本科，辅导员跟我爸说让我接着读她的研究生，我拒绝了。我清楚我不爱学习，特别是英语，而且也不觉得这样的文凭有什么用。  \n现在和过去的同学都没有联系方式，还有好友的也不怎么联系了，偶尔的点赞之交。学生时期没有做过任何努力，小学开始就去网吧、亲戚家、游戏室玩 ps ，中学有了电脑就天天在家玩，这也为当下种下了苦果。  \n2 、工作\n毕业一年后正式参加工作，前端开发。那时候还是 jQuery,jsp 的时代，懂 ajax 就算高手，会 css3 算大牛。我也靠这个找到第一份工作，做电商。之后框架开始流行，我在公司自学了 react ，被裁后找了另一份小公司的工作，开始独立负责前端项目，开始自己找竞品做原型。项目做完公司要换运营主体让重签合同，那时年轻气盛认为是个坑就辞职了。  \n年后再次入职新公司，那边用的 vue 我又开始看 vue 的文档重构项目，另外开始做小程序。这家的离职原因我也忘了，那年年中我和女朋友分手，不过应该不是这个原因，可能就是不想干，12 月底辞职了。再后来经历两段失败的入职体验，再次入职拖到年末。  \n新公司有新项目，组建新团队，我选用的 vue3,ts 搭的框架，和几个前端同事交流切磋。期间又加了源源不断的需求，我以为…",
           "link": "https://www.v2ex.com/t/1104854",
           "publishedOn": "2025-01-13T20:51:58.000Z",
-          "wordCount": 502,
+          "wordCount": 581,
           "title": "从抑郁状态恢复后的碎碎念",
           "imageUrl": null
         },
@@ -325,7 +339,7 @@
           "description": "deanwin: \n既然馒头这么容易因为忘记登录被封号，并且自动登录也会被封号，那有没有可以提醒登录的插件或者小程序什么的。",
           "link": "https://www.v2ex.com/t/1104853",
           "publishedOn": "2025-01-13T19:43:28.000Z",
-          "wordCount": 434,
+          "wordCount": 458,
           "title": "馒头 mteam 有没有提醒登录的插件啥的",
           "imageUrl": null
         },
@@ -335,7 +349,7 @@
           "description": "xxxxxxxxx2: \n演员王星的失踪和获救，在互联网上激起了一系列海啸般的连锁反应。\n与“缅北”、“电诈”相关的词条，依次涌上互联网平台的热搜。\n在一片讨论中，一个由电信诈骗受害者自发组织的受害者互助交流帖登上了热搜。一夜过去，超过 700 位受害者亲友，在文档中分享了信息。\n尽管在各方的共同努力下，大多数事件都得到了应有的重视以及处置。\n但一个冰冷的事实，再次被摆回了所有人的面前：\n盘踞在缅北的电信诈骗和人口贩卖系统，依旧在猖獗地运作着。\n王星诈骗案始末\n梳理一下王星诈骗案的始末，疑点悄悄浮出水面。\n2024 年 12 月底，演员王星在微信群收到选角导演“颜十六”的组讯试戏通知。\n面试通过后，对接人“颜十六”提出，希望王星前往泰国参与一部中泰联合投资制作的动作片拍摄，并且称“时间紧急”。\n于是，没有仔细思考的王星在泰国时间 2025 年 1 月 2 日晚上 9 点左右，从上海浦东机场出发，次日凌晨 2 点到达曼谷素万那普机场。\n随后，一辆专为王星准备的“接机车”从机场接上了王星，一路经过了猜纳府、甘烹碧府和达府湄索。\n在穿过达府湄索后，王星与家人、女友失去联系。\n1 月 3 日上午，王星被诈骗团伙带过境至缅甸，进入囚禁状态。\n据王星描述，在被囚禁期间，他与 49 名中国人被关押在一座电信诈骗园区的高楼里，强制接受了 2-3 天高压力的“文字诈骗技巧”训练。\n训练过程中，王星和其他受害者不仅被剃光头发。\n还被限制了饮食、睡眠甚至如厕时间。\n幸运的是，1 月 6 日傍晚，缅甸边境卫队在电诈园区中找到了王星以及一同被关押在现场的 49 名受害者。\n获救后的王星接受泰方采访\n复盘就能发现，王星之所以会上当，因为这个骗局完全是“量身定制”。\n据王星描述，因为自己在 2018 年曾经在泰国参加过一次试镜，并且收到了不错的反馈。\n因此，在这次收到所谓“紧急试镜”通知时，才没有任何怀…",
           "link": "https://www.v2ex.com/t/1104851",
           "publishedOn": "2025-01-13T18:34:10.000Z",
-          "wordCount": 570,
+          "wordCount": 572,
           "title": "王星回国背后，缅泰电诈正在「全面升级」",
           "imageUrl": null
         },
@@ -345,7 +359,7 @@
           "description": "winskyme: 现在 M 芯片的 mac 可以实现运行 ios app 了，那么能不能像 windows server 那样，发布这个 remote  app ，通过 iPhone 远程使用呢？\n这样弄一个 mac mini ，安装一些不常用的软件，有需要的时候远程过来直接使用。\n或者，直接 iPhone 远程桌面到 mac ，全屏方式使用 mac 上的 ios app ，这个可以实现吗？",
           "link": "https://www.v2ex.com/t/1104849",
           "publishedOn": "2025-01-13T17:52:20.000Z",
-          "wordCount": 400,
+          "wordCount": 409,
           "title": "mac 可以实现发布 remoteApp 吗？",
           "imageUrl": null
         },
@@ -355,7 +369,7 @@
           "description": "iceriver99: \n就是我现在有一个视频，这个视频中有三个人在对话，我想通过语音识别来分别识别出这三个人都谁说了哪句话，并且把它导出成文本标记出来。然后方便我去做翻译。。。",
           "link": "https://www.v2ex.com/t/1104848",
           "publishedOn": "2025-01-13T17:51:55.000Z",
-          "wordCount": 429,
+          "wordCount": 481,
           "title": "有没有能识别多人声音的 AI 工具呢",
           "imageUrl": null
         },
@@ -365,7 +379,7 @@
           "description": "eccentric579: \n需求\n单线复用，组播转单播 udpxy\n拓扑\n光猫 lan ------- wan 路由器 lan ------- pc\n进度\n光猫 vlan 绑定，绑 vlan 45/ others 连接到 lan1(我只绑了 vlan45 ，没绑 internet)\n路由器刷 openwrt, wan 做 pppoe ，wan 上新建 802.1q 设备 wan.45\nwan.45 做 dhcp 拨号为 iptv 接口，获取到 itv 的 ip\n装 omproxy, udpxy\n问题\nudpxy 成功向 iptv 发出了 igmp join ，但是上面发回的 udp 组播数据没有走 iptv ，走的是 wan 。抓包发现它没有 vlan 45tag.猜测这是 udpxy 转发组播流量失败的原因。",
           "link": "https://www.v2ex.com/t/1104847",
           "publishedOn": "2025-01-13T17:29:30.000Z",
-          "wordCount": 438,
+          "wordCount": 440,
           "title": "openwrt 单线复用/组播转局域网单播的正确姿势是怎样啊",
           "imageUrl": null
         },
@@ -375,7 +389,7 @@
           "description": "v2eeeezh: 情况是这样的，一个 pwa 应用，在 ios 已经实现通知功能，通过调用 mdn 通知 api 实现，\n安卓系统也可以安装 pwa 应用（是通过 chrome 和 edge 安装），\n安装的两个浏览器也都打开通知权限，pwa 应用在浏览器中也允许通知，\n为何手动调用通知函数，ios 可以弹出通知，安卓却不行？\n处理的半天，一台 vivo 一台菊花一台红米\n请问国内系统级别的通知，是一定要通过推送平台才能实现吗？\nhttps://imgur.com/a/JVEciBQ",
           "link": "https://www.v2ex.com/t/1104844",
           "publishedOn": "2025-01-13T16:28:15.000Z",
-          "wordCount": 378,
+          "wordCount": 408,
           "title": "请问国内手机定制安卓系统， pwa 怎么才能系统通知？",
           "imageUrl": null
         },
@@ -385,7 +399,7 @@
           "description": "ly1878: 如题，现在空着 w 、逗号、句号，这三个键如何在改至 f17 、18 、19 后还能再定义上新的键？我用的是 GitHub 上这个 CapsLock 全套方案。\n非计算机小白，花了一天时间基本配置好了，就差这一步，请各位大佬多指教。\n网友修改三个键的帖子： https://xam.io/2020/macos-diag-shortcuts/",
           "link": "https://www.v2ex.com/t/1104843",
           "publishedOn": "2025-01-13T16:28:01.000Z",
-          "wordCount": 362,
+          "wordCount": 442,
           "title": "Karabiner-Elements 改键中， hyper+w 改至 f17 后，如何再定义 hyper+w 键？不改 w 键会启动系统诊断，导致大量硬盘占用。",
           "imageUrl": null
         },
@@ -395,7 +409,7 @@
           "description": "dreamkuo: \n近五日,发现录像视频文件杂音, 百度 google 查询 有同类现象, 查阅资料,观察, 发现录像的时候手机嗡嗡响. 应该是杂音源头.\n苹果客服咨询, 告知升级即可.本人不解, 告知,因为所以, 旧系统兼容不好.\n升级之后果真恢复.\n本人不懂, 控制变量法,\n手机没变,系统没变,突然有杂音了,应该是硬件损坏\n为什么升级系统就好了?",
           "link": "https://www.v2ex.com/t/1104842",
           "publishedOn": "2025-01-13T16:25:13.000Z",
-          "wordCount": 389,
+          "wordCount": 354,
           "title": "百思不得其解,关于 iPhone 的故障问题,",
           "imageUrl": null
         },
@@ -405,7 +419,7 @@
           "description": "wuyiccc: 有啥办法能关闭京东京造 k2 键盘的背光灯？\n之前在京东上买了一把京东京造的 k2 键盘，这个键盘有个特殊功能就是有个背光灯，之前一台电脑用的时候，如果不想用背光灯可以直接 fn+灯光键关掉键盘的背光灯，但是现在用了 usb 切换器将一套键盘在两台电脑之间切换的时候，原本关掉的键盘的背光灯又会重置，导致我每次从 a 电脑切换到 b 电脑都要手动关闭一次键盘的背光灯，有啥好的办法能优化一下这个操作么，各位大佬？\n比如这个键盘有啥特殊的按键能够直接永久关闭背光灯(ps: 除了拆键盘)",
           "link": "https://www.v2ex.com/t/1104841",
           "publishedOn": "2025-01-13T16:08:52.000Z",
-          "wordCount": 384,
+          "wordCount": 407,
           "title": "有啥办法能关闭京东京造 k2 键盘的背光灯？",
           "imageUrl": null
         },
@@ -415,7 +429,7 @@
           "description": "nuevepicos: \n以前开机个把月，这个 WindowServer 进程最多 1-2G 内存占用。\n现在重启后开机才 3 天，就超过 2G 了，一周左右估计会到 4-5G ，烦人……",
           "link": "https://www.v2ex.com/t/1104840",
           "publishedOn": "2025-01-13T15:58:22.000Z",
-          "wordCount": 391,
+          "wordCount": 410,
           "title": "macOS Sequoia 15.2 的 WindowServer 进程爆内存明显",
           "imageUrl": null
         },
@@ -425,7 +439,7 @@
           "description": "szsgz: \n刚看了一半的电影\n突然打不开了\n电报群聊关闭\n维基链接打不开\nGitHub404",
           "link": "https://www.v2ex.com/t/1104839",
           "publishedOn": "2025-01-13T15:50:34.000Z",
-          "wordCount": 396,
+          "wordCount": 404,
           "title": "Misakaf 跑路",
           "imageUrl": null
         },
@@ -435,7 +449,7 @@
           "description": "yyzh: https://inews.hket.com/article/3885037/本地銀行｜工銀亞洲於羅湖、落馬洲港鐵站設遠程櫃員機%E3%80%80 新客可開戶、即時領取及啟用提款卡?mtc=40001&srkw=vtm\n这下又多一个开港卡的好渠道了",
           "link": "https://www.v2ex.com/t/1104838",
           "publishedOn": "2025-01-13T15:48:50.000Z",
-          "wordCount": 378,
+          "wordCount": 420,
           "title": "中国工商银行(亚洲)现已支持在智能柜员机上自助开卡",
           "imageUrl": null
         },
@@ -445,7 +459,7 @@
           "description": "yoruoxx: 这个部门能去吗",
           "link": "https://www.v2ex.com/t/1104837",
           "publishedOn": "2025-01-13T15:45:28.000Z",
-          "wordCount": 376,
+          "wordCount": 372,
           "title": "有了解上海众安保险营销部门的吗",
           "imageUrl": null
         },
@@ -457,16 +471,6 @@
           "publishedOn": "2025-01-13T15:37:34.000Z",
           "wordCount": 390,
           "title": "有什么好用 的免费 阅读 medium.com 方法吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104835",
-          "author": "zhengfan2016",
-          "description": "zhengfan2016: \n我的情况和大家能接受父母每天或者每两天打一次视频电话吗？差不多。\n每次电话至少半小时，和盘问差不多，问我公司几个人，同事哪里人，周六有没有上班，工资有没有发，发了多少，午饭吃什么，几点洗澡，几点睡觉巴拉巴拉。这样的电话我接了一年多了，不接的话一直电话 ddos ，后面我都非常敷衍的回复，问什么都是：xxx? 哦————，xxx? 哦————\n这两个月它们觉得我敷衍它们很火大，我也提了好多次要求把例行通话频率降低到 1 个月一次，我提高通话质量，根本不听，我不接电话就用报晶失踪要挟。\n之前还跑来大城市蹭我租的房住，住就算了还到处翻东西，每一个抽屉都要翻，美名其曰给我整理，把我劳动合同翻出来了，我公司地址它们也知道了，以后找不到人还能去我公司闹，太烦人了，不同意它们过来也是报晶要挟，今年年后还说要来查房，住一周。\n以后查房常态化。我都不敢想象以后要是去合租其他室友受得了我这样的吗。\n除去上面这几点，我还是很感激它们的，如果它们当年我考上专升本的时候不愿意掏学费让我上统招本，我现在还是个大专，也吃不上敲代码这碗饭",
-          "link": "https://www.v2ex.com/t/1104835",
-          "publishedOn": "2025-01-13T15:32:32.000Z",
-          "wordCount": 115,
-          "title": "父母听不进反对意见，爱用报晶要挟，怎么摆脱",
           "imageUrl": null
         },
         {
@@ -485,7 +489,7 @@
           "description": "pinyoung: 招聘软件怎么找真正的文员工作？\n现在打开 58 同城、boss 直聘、智联招聘什么的全是送餐员，然后搜索文员，都是骗人的，其实都是销售工作\n现在在上海做着链家地产销售，做六休一，相当于 996 ，底薪 3000 ，交完社保就剩 2300 了（上海工作交深圳社保没啥用），刚去几个月卖不出去房子，计算新人如果卖出一套 300w 房到手 3000-5000 左右，但是房租什么的开销很大加水电费我这个 8 平的房都 2000+了，现在来了一个多月一直在亏钱，前面吃了帮个月荞麦面吃恶心了，后面就放开点外卖吃了，做饭的话也没有时间，还需要买各种厨具，感觉干不下去了，问了好多人都说文员适合我现在，关键是比较稳定。\n主要是原来在港企，按工时，早 8-12 ，下午 1-5 点，工作日星期一到星期五工作，不存在强制加班。\n然后这个链家合同写的不已申报按照工时，原则上是一周工作 40 小时，但是实际情况存在强制加班的问题，一周也最少 48 小时工作，没有钱拿，工资也很低，看平均水平大家几乎都是入职 8 个月左右离职，我感觉撑不下去了，上海太贵了\n希望能得到指导，不胜感激！",
           "link": "https://www.v2ex.com/t/1104833",
           "publishedOn": "2025-01-13T15:18:13.000Z",
-          "wordCount": 403,
+          "wordCount": 408,
           "title": "招聘软件怎么找真正文员工作？",
           "imageUrl": null
         },
@@ -495,7 +499,7 @@
           "description": "Aicnal: \n我是一个过来人，还在义务教育/高中的时候父母常对我这样说：\n“你考进全年级前五十了我答应给你这样的奖励...”\n后来等上了大学之后，我父母还是在问我的成绩——绩点，说让我保研什么的，这件事尤其在我母亲身上尤为严重，我母亲没有上过大学，读的是中职，后来回了老家当老师，我父亲是某双一流师范大学毕业，对我理解许多，但也还是很 Push ，年轻的时候因为家里原因没有读研究生，希望我能读研究生，甚至读博\n他们知道我喜欢电脑，但只停留在我喜欢玩电脑这件事情上，比如今天晚上我在整 hexo 的时候，就问我这个 CLI 是什么，然后我就给他介绍了 Linux 、macOS 的终端，然后打印了 neofetch 给他解释，之后他又问我深度学习，然后我又给他看了几个比较经典的模型\n他态度其实很敷衍，看了看就说要睡觉了\n我其实很讨厌把成绩和奖励挂钩，我不喜欢“因为你成绩好，所以你可以得到”这样的东西，我在很小的时候有时候就会想，爸爸妈妈是爱我还是爱我的成绩，有段时间很是抑郁\n最近在校园集市上面看到有人又开始卷绩点了，我不仅又开始思考这个问题，我很讨厌卷绩点，一些课比如说大学物理、思政、军理什么的水课对于我这种学习生物的来说毫无意义，用卷绩点的时间我可以去干很多更有意义的事情\n有些课，比如说进化生物学，我绩点只能拿到 3.7/5.0 ，但是这门课我学的很快乐，我不觉得考前突袭取得的高绩点能比课上收获到的知识和体会更多\n优绩主义本身就是畸形的，绩点高本身不等于对知识的更好的掌握，相反是对规则的利用\n不知道各位朋友如何看待优绩主义或者成绩至上主义，能不能开导一下我",
           "link": "https://www.v2ex.com/t/1104830",
           "publishedOn": "2025-01-13T14:38:07.000Z",
-          "wordCount": 593,
+          "wordCount": 637,
           "title": "如何看待优绩主义和成绩至上主义？",
           "imageUrl": null
         },
@@ -515,7 +519,7 @@
           "description": "hugozach: \n计划先办汇丰和中银香港\n然后物色一个支持 esim 的二手手机办个 esim 卡\n还有哪些是一劳永逸的 求各位大佬展开讲讲？",
           "link": "https://www.v2ex.com/t/1104827",
           "publishedOn": "2025-01-13T13:58:12.000Z",
-          "wordCount": 498,
+          "wordCount": 502,
           "title": "肉身准备去香港了 有哪些事情是必做的？",
           "imageUrl": null
         },
@@ -535,7 +539,7 @@
           "description": "drymonfidelia: \n虽然后台慢不是不能用，但是销售一直在反映操作很慢让优化。销售后台时间选择器粒度只精确到天，不知道这个地方是不是可以做什么效果比较好的优化。\n正常情况下日订单在五百万左右。这个页面需要显示每个 SKU 在不同阶段（状态）的订单的数量。有考虑过用 Redis 但是我们的 Redis 是单机的只用来缓存，经常 flushall 。再单独加一台 Redis 觉得不划算\nreturn Ok(dbContext.Orders.Where(x => x.CreatedAt >= DateTimeOffset.FromUnixTimeMilliseconds(queryForm.StartDate) &&\n                                             x.CreatedAt <= DateTimeOffset.FromUnixTimeMilliseconds(queryForm.EndDate))\n            .Include(x => x.Sku).Where(x => x.Sku != null)\n            .GroupBy(o => o.SkuId)\n            .Select(g => new\n            {\n                SkuId = g.Key,\n                SkuName = g.Select(o => o.Sku.TitleEng).FirstOrDefault(),\n                Delivering = g.Count(o => o.Status == (int)OrderStatusEnum.Delivering),\n                Cancelled = g.Count(o => o.Status == (int)OrderStatusEnum.Cancelled),\n                InProcess = g.Count(o => o.Status == (int)OrderStatusEnum.InProcess),\n                InReview = g.Count(o => o.ReviewTasks.Any(t => t.Pending && t.Result == false)),\n                Total = g.Count()\n            })\n            .ToList());\n\n能想到的索引都已经加了\n[Index(nameof(Status))]\n[Index(nameof(Input))]\n[Index(nameof(SkuId))]\n[Index(nameof(UserId))]\n[Index(nameof(CreatedAt))]\n[Index(nameof(UpdatedAt))]\n[Index(nameof(OrderTag))]\n[Index(nameof(SendPending))]\n[Index(nameof(OrderSource))]\n[Index(nameof(UserId), nameof(SkuId), nameof(FromMobileApp))]\n[Index(nameof(UserId), nameof(Status))]\n[Index(nameof(SkuId), nameof(Status))]\n[Index(nameof(Status), nameof(RiskyScore))]\n[Index(nameof(UserId), nameof(Input))]\n[Index(nameof(UserId), nameof(InputTailing))]\npublic class Order : BaseEntity\n{ ... }",
           "link": "https://www.v2ex.com/t/1104824",
           "publishedOn": "2025-01-13T13:47:06.000Z",
-          "wordCount": 755,
+          "wordCount": 793,
           "title": "ASP .NET Core + EF Core + MySQL 这个统计查询在 3 亿条记录的表下每次查询都需要 2~4 分钟，优化的办法只有用触发器或是后台每小时定期统计吗？",
           "imageUrl": null
         },
@@ -545,7 +549,7 @@
           "description": "hansam47: \n购买了境内的服务器，初始化不少 python 代码时因为要加载亚马逊 s3 的基础数据，网络存在问题。\n有没有简单的方法，通过 ssh 转发下载流量到本地\n目前运维的建议是让我手动传上去，太麻烦了\n在本地使用一些工具可能不太需要安全性，服务器上不太可能安装一些工具，因为合规问题，所以想问一问有没有简单的 ssh 转发的方案",
           "link": "https://www.v2ex.com/t/1104823",
           "publishedOn": "2025-01-13T13:44:52.000Z",
-          "wordCount": 435,
+          "wordCount": 453,
           "title": "服务器转发下载流量到本地",
           "imageUrl": null
         },
@@ -565,7 +569,7 @@
           "description": "SteveRogers: 看中了一双鞋，nike 官网、京东、天猫都没我的码。得物上居然有。很奇怪",
           "link": "https://www.v2ex.com/t/1104821",
           "publishedOn": "2025-01-13T13:40:00.000Z",
-          "wordCount": 432,
+          "wordCount": 485,
           "title": "得物到底是正品还是 A 货？",
           "imageUrl": null
         },
@@ -585,7 +589,7 @@
           "description": "giganet: 78%了，可能要换电池了，推荐个靠谱的",
           "link": "https://www.v2ex.com/t/1104819",
           "publishedOn": "2025-01-13T13:37:46.000Z",
-          "wordCount": 344,
+          "wordCount": 369,
           "title": "手机电池哪家靠谱点...",
           "imageUrl": null
         },
@@ -595,7 +599,7 @@
           "description": "keengrass: 群晖可以通过 ABB 很容易备份 LINUX 服务器上的文件。\n我这里是需要反向备份和同步群晖文件夹到 LINUX 上面。\nDebian 上不支持 Synology Drive Client.\n请教大佬们有没有什么更好的方法？",
           "link": "https://www.v2ex.com/t/1104817",
           "publishedOn": "2025-01-13T13:30:09.000Z",
-          "wordCount": 454,
+          "wordCount": 459,
           "title": "求一个将群晖上的文件备份到 Linux (Debian)服务器上，并将两地文件实时同步的方案？",
           "imageUrl": null
         },
@@ -605,7 +609,7 @@
           "description": "B4a1n: \n当前系统里存在三种会员，注册会员、VIP 会员、SVIP 会员，请问如何设计会员降级与升级？\n当前设计的是注册会员可以直接升级 VIP 会员与 SVIP 会员\nVIP 会员可以升级 SVIP 会员\n但是遇到某些用户，想从 SVIP 会员降级到 VIP 会员，恰好该会员的超级 VIP 又在有效期内，这有什么优雅的方案嘛\n目前我想到的就是存两个有效期，然后不让会员自己转换，只能升级不能降级",
           "link": "https://www.v2ex.com/t/1104815",
           "publishedOn": "2025-01-13T13:03:02.000Z",
-          "wordCount": 452,
+          "wordCount": 467,
           "title": "向各位大佬请教一个会员转换的方案",
           "imageUrl": null
         },
@@ -615,7 +619,7 @@
           "description": "THEcattail: \n歌单是 YouTube 上的播放列表，其他人不一定能科学，所以需要自建（有 HomeLab ，可以接受下载到本地再播放）或者国内中转的方案",
           "link": "https://www.v2ex.com/t/1104813",
           "publishedOn": "2025-01-13T12:46:31.000Z",
-          "wordCount": 506,
+          "wordCount": 560,
           "title": "在音乐版没问到想要的答案，来 NAS 版再问问，有什么可以和其他人同步听歌的方案吗",
           "imageUrl": null
         },
@@ -625,7 +629,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1104812",
           "publishedOn": "2025-01-13T12:32:42.000Z",
-          "wordCount": 489,
+          "wordCount": 499,
           "title": "有人知道 Cloudflare 的商业版本比 Cloudfront / Fastly 等 CDN 大厂流量贵多少吗？之前和别的部门员工聊到不用 Cloudflare 原因是流量费太贵了，谈不下来",
           "imageUrl": null
         },
@@ -637,26 +641,6 @@
           "publishedOn": "2025-01-13T12:27:20.000Z",
           "wordCount": 375,
           "title": "你因违反哔哩漫游 X 规则 已被拉黑 咋办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104807",
-          "author": "mushokumunou",
-          "description": "mushokumunou: 有 12t 文件及文件夹需要做备份，所以买了一个 e3 的子账号，挂载用 raidrvive 开了会员。\n用来挂载其他服务器的 webdav 没什么问题，甚至 115 都可以正常秒读属性等。\n文件夹结构 年 - 月 12 - 日 31 -时 24 - 分 60 - 秒 60 \n文件则为 8 位随机字母单词混\n也就 6 层深度。\n这是 onedrive 本身的文件校验机制还是？\n还有什么挂载工具能改善？",
-          "link": "https://www.v2ex.com/t/1104807",
-          "publishedOn": "2025-01-13T11:58:29.000Z",
-          "wordCount": 433,
-          "title": "onedrive 网盘挂载到本地后，上传下载修改删除都相当慢。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1104806",
-          "author": "raycj912",
-          "description": "raycj912: \n小老弟去年下半年考了软考高级-系统架构师不出意外的挂掉了，准备时间不足很多东西要背的没有背。\n但从杭州的大盘结果来看系统分析师报考人数和通过率看起来都有较大优势，小老弟作为 Java 开发目前很犹豫今年 5 月份是应该继续架构师还是系统分析师？\n望诸君分享经验，拜谢",
-          "link": "https://www.v2ex.com/t/1104806",
-          "publishedOn": "2025-01-13T11:49:31.000Z",
-          "wordCount": 432,
-          "title": "诸君考过软考的是否可以分享下应该报系统分析师还是架构师呢？",
           "imageUrl": null
         }
       ]

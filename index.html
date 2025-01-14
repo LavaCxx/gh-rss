@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-13 datetime="2025-01-13T20:51:58.000Z">2025-01-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-13 datetime="2025-01-13T20:51:58.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-13 datetime="2025-01-13T23:56:06.000Z">2025-01-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-13 datetime="2025-01-13T23:56:06.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,108 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1104857"
+                        open
+                      >
+                        <summary class="article-expander__title">函数式编程适不适合游戏开发</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104857">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>cj323: 
+之前写小游戏（非专业，纯玩）都是习惯面向对象。大概感觉是这样
+class Object()
+  #states: [position, health, direction...]
+  #methods: [move, serializer]
+        
+class Player(Object)
+  #player_methods: [attack...]
+
+class Boss(Object)
+  #boss_methods: [...]
+
+
+p1, p2 &#x3D; new Player(), new Player()
+boss &#x3D; new Boss()
+
+p1.move(..)
+p2.move(..)
+boss.attack(..)
+Renderer.render(p1, p2, boss)
+
+学了几天 elixir 后发现函数式也挺顺手，但是不知道有没有实际用函数式开发游戏的。
+global_state {
+  player1_pos: ..
+  player1_health: ..
+  player2_pos: ..
+  player2_health: ..
+  boss_pos: ..
+  boss_health: ..
+  ...
+}
+
+fn move: state -&gt; new_state
+fn move_player: () -&gt; state -&gt; new_state
+fn move_player_by_num: num -&gt; () -&gt; state -&gt; new_state
+fn move_boss: state -&gt; new_state
+fn boss_attack: state -&gt; new_state
+
+global_state
+  |&gt; move_player_by_num(1)
+  |&gt; move_player_by_num(2)
+  |&gt; move_boss
+  |&gt; bos_attack
+  |&gt; render
+
+感觉除了内存占用大一些没其他坏处，有有经验的分享下么？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1104856"
+                        open
+                      >
+                        <summary class="article-expander__title">一个密码/凭证管理神器</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104856">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>acrazing: 
+作为一名系统管理员，经常需要为其他人创建账号密码。虽然浏览器自带的工具很方便，但有时会丢失记录；而记在密码管理工具里，又因为数量太多，找起来很麻烦。为了解决这个问题，我最初写了一个简单的脚本，执行类似 create-password  的命令就能生成密码并自动保存到一个文件里，方便后续查找。
+后来，我在重构 amos 时，决定把这个需求做成一个验证性的小工具。经过一个多月断断续续的开发，自己也用了一个多月，感觉还不错，所以想和大家分享一下。
+产品名叫 Unserializable ，特性如下。
+功能：
+密码生成：支持按时间、序号、随机字符串等规则生成密码/用户名，所有生成历史都会保存。
+TOTP 管理：可以存储和编辑任意格式的一次性密码（ TOTP ）。
+快速记事本：支持附件，主要用来存 Recover code 之类的信息。
+消息分享：支持发送图片消息，主要用于不同 (不属于自己的) 设备之间信息同步。
+特点：
+端到端加密: 所有上述的数据都使用了基于只储存在客户端的独立密码的 RSA + AES 端到端加密, 包括文件附件。
+离线使用。
+多账号。
+支持多终端登录, 包括 Chrome 插件, 网页, iOS, Android。
+你可以把它理解成你个人的可以方便查询的密码/机密信息数据库。欢迎体验:
+官网: https://www.unserializable.com/
+Chrome 插件: https://chromewebstore.google.com/detail/unserializable/hifjngpdljlknappeakcddpgikddnnea
+iOS: https://apps.apple.com/us/app/unserializable/id6738017954
+Android: 内测中, 流程参考官网.
+网页版: https://web.unserializable.com/.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -80,7 +182,7 @@
                             <span class="media-object__text">
                               <span>deanwin: 
 既然馒头这么容易因为忘记登录被封号，并且自动登录也会被封号，那有没有可以提醒登录的插件或者小程序什么的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -162,7 +264,7 @@
                             <span class="media-object__text">
                               <span>iceriver99: 
 就是我现在有一个视频，这个视频中有三个人在对话，我想通过语音识别来分别识别出这三个人都谁说了哪句话，并且把它导出成文本标记出来。然后方便我去做翻译。。。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -391,29 +493,6 @@ GitHub404</span>
 You are unable to access readmedium.com</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1104835"
-                        open
-                      >
-                        <summary class="article-expander__title">父母听不进反对意见，爱用报晶要挟，怎么摆脱</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104835">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>zhengfan2016: 
-我的情况和大家能接受父母每天或者每两天打一次视频电话吗？差不多。
-每次电话至少半小时，和盘问差不多，问我公司几个人，同事哪里人，周六有没有上班，工资有没有发，发了多少，午饭吃什么，几点洗澡，几点睡觉巴拉巴拉。这样的电话我接了一年多了，不接的话一直电话 ddos ，后面我都非常敷衍的回复，问什么都是：xxx? 哦————，xxx? 哦————
-这两个月它们觉得我敷衍它们很火大，我也提了好多次要求把例行通话频率降低到 1 个月一次，我提高通话质量，根本不听，我不接电话就用报晶失踪要挟。
-之前还跑来大城市蹭我租的房住，住就算了还到处翻东西，每一个抽屉都要翻，美名其曰给我整理，把我劳动合同翻出来了，我公司地址它们也知道了，以后找不到人还能去我公司闹，太烦人了，不同意它们过来也是报晶要挟，今年年后还说要来查房，住一周。
-以后查房常态化。我都不敢想象以后要是去合租其他室友受得了我这样的吗。
-除去上面这几点，我还是很感激它们的，如果它们当年我考上专升本的时候不愿意掏学费让我上统招本，我现在还是个大专，也吃不上敲代码这碗饭</span>
                             </span>
                           </div>
                         </a>
@@ -655,7 +734,7 @@ public class Order : BaseEntity
 有没有简单的方法，通过 ssh 转发下载流量到本地
 目前运维的建议是让我手动传上去，太麻烦了
 在本地使用一些工具可能不太需要安全性，服务器上不太可能安装一些工具，因为合规问题，所以想问一问有没有简单的 ssh 转发的方案</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -703,7 +782,7 @@ public class Order : BaseEntity
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>SteveRogers: 看中了一双鞋，nike 官网、京东、天猫都没我的码。得物上居然有。很奇怪</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -848,53 +927,6 @@ VIP 会员可以升级 SVIP 会员
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>wty95:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1104807"
-                        open
-                      >
-                        <summary class="article-expander__title">onedrive 网盘挂载到本地后，上传下载修改删除都相当慢。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104807">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>mushokumunou: 有 12t 文件及文件夹需要做备份，所以买了一个 e3 的子账号，挂载用 raidrvive 开了会员。
-用来挂载其他服务器的 webdav 没什么问题，甚至 115 都可以正常秒读属性等。
-文件夹结构 年 - 月 12 - 日 31 -时 24 - 分 60 - 秒 60 
-文件则为 8 位随机字母单词混
-也就 6 层深度。
-这是 onedrive 本身的文件校验机制还是？
-还有什么挂载工具能改善？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1104806"
-                        open
-                      >
-                        <summary class="article-expander__title">诸君考过软考的是否可以分享下应该报系统分析师还是架构师呢？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1104806">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>raycj912: 
-小老弟去年下半年考了软考高级-系统架构师不出意外的挂掉了，准备时间不足很多东西要背的没有背。
-但从杭州的大盘结果来看系统分析师报考人数和通过率看起来都有较大优势，小老弟作为 Java 开发目前很犹豫今年 5 月份是应该继续架构师还是系统分析师？
-望诸君分享经验，拜谢</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2222,8 +2254,8 @@ Apple Music、网易云、Spotify、QQ 音乐。
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12758817132">
-        <time id="build-timestamp" datetime="2025-01-14T00:50:14.832Z">2025-01-14T00:50:14.832Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12759691872">
+        <time id="build-timestamp" datetime="2025-01-14T02:07:46.373Z">2025-01-14T02:07:46.373Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

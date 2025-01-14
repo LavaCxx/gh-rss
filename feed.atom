@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-14T00:50:14.857Z</id>
+    <id>urn:2025-01-14T02:07:46.393Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-14T00:50:14.857Z</updated>
+    <updated>2025-01-14T02:07:46.393Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[函数式编程适不适合游戏开发]]></title>
+        <id>https://www.v2ex.com/t/1104857</id>
+        <link href="https://www.v2ex.com/t/1104857"/>
+        <updated>2025-01-13T23:56:06.000Z</updated>
+        <summary type="html"><![CDATA[cj323: 
+之前写小游戏（非专业，纯玩）都是习惯面向对象。大概感觉是这样
+class Object()
+  #states: [position, health, direction...]
+  #methods: [move, serializer]
+        
+class Player(Object)
+  #player_methods: [attack...]
+
+class Boss(Object)
+  #boss_methods: [...]
+
+
+p1, p2 = new Player(), new Player()
+boss = new Boss()
+
+p1.move(..)
+p2.move(..)
+boss.attack(..)
+Renderer.render(p1, p2, boss)
+
+学了几天 elixir 后发现函数式也挺顺手，但是不知道有没有实际用函数式开发游戏的。
+global_state<Immutable> {
+  player1_pos: ..
+  player1_health: ..
+  player2_pos: ..
+  player2_health: ..
+  boss_pos: ..
+  boss_health: ..
+  ...
+}
+
+fn move: state -> new_state
+fn move_player: () -> state -> new_state
+fn move_player_by_num: num -> () -> state -> new_state
+fn move_boss: state -> new_state
+fn boss_attack: state -> new_state
+
+global_state
+  |> move_player_by_num(1)
+  |> move_player_by_num(2)
+  |> move_boss
+  |> bos_attack
+  |> render
+
+感觉除了内存占用大一些没其他坏处，有有经验的分享下么？]]></summary>
+        <author>
+            <name>cj323</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个密码/凭证管理神器]]></title>
+        <id>https://www.v2ex.com/t/1104856</id>
+        <link href="https://www.v2ex.com/t/1104856"/>
+        <updated>2025-01-13T22:09:24.000Z</updated>
+        <summary type="html"><![CDATA[acrazing: 
+作为一名系统管理员，经常需要为其他人创建账号密码。虽然浏览器自带的工具很方便，但有时会丢失记录；而记在密码管理工具里，又因为数量太多，找起来很麻烦。为了解决这个问题，我最初写了一个简单的脚本，执行类似 create-password <username> 的命令就能生成密码并自动保存到一个文件里，方便后续查找。
+后来，我在重构 amos 时，决定把这个需求做成一个验证性的小工具。经过一个多月断断续续的开发，自己也用了一个多月，感觉还不错，所以想和大家分享一下。
+产品名叫 Unserializable ，特性如下。
+功能：
+密码生成：支持按时间、序号、随机字符串等规则生成密码/用户名，所有生成历史都会保存。
+TOTP 管理：可以存储和编辑任意格式的一次性密码（ TOTP ）。
+快速记事本：支持附件，主要用来存 Recover code 之类的信息。
+消息分享：支持发送图片消息，主要用于不同 (不属于自己的) 设备之间信息同步。
+特点：
+端到端加密: 所有上述的数据都使用了基于只储存在客户端的独立密码的 RSA + AES 端到端加密, 包括文件附件。
+离线使用。
+多账号。
+支持多终端登录, 包括 Chrome 插件, 网页, iOS, Android。
+你可以把它理解成你个人的可以方便查询的密码/机密信息数据库。欢迎体验:
+官网: https://www.unserializable.com/
+Chrome 插件: https://chromewebstore.google.com/detail/unserializable/hifjngpdljlknappeakcddpgikddnnea
+iOS: https://apps.apple.com/us/app/unserializable/id6738017954
+Android: 内测中, 流程参考官网.
+网页版: https://web.unserializable.com/.]]></summary>
+        <author>
+            <name>acrazing</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从抑郁状态恢复后的碎碎念]]></title>
         <id>https://www.v2ex.com/t/1104854</id>
@@ -226,22 +310,6 @@ GitHub404]]></summary>
 You are unable to access readmedium.com]]></summary>
         <author>
             <name>xboxv</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[父母听不进反对意见，爱用报晶要挟，怎么摆脱]]></title>
-        <id>https://www.v2ex.com/t/1104835</id>
-        <link href="https://www.v2ex.com/t/1104835"/>
-        <updated>2025-01-13T15:32:32.000Z</updated>
-        <summary type="html"><![CDATA[zhengfan2016: 
-我的情况和大家能接受父母每天或者每两天打一次视频电话吗？差不多。
-每次电话至少半小时，和盘问差不多，问我公司几个人，同事哪里人，周六有没有上班，工资有没有发，发了多少，午饭吃什么，几点洗澡，几点睡觉巴拉巴拉。这样的电话我接了一年多了，不接的话一直电话 ddos ，后面我都非常敷衍的回复，问什么都是：xxx? 哦————，xxx? 哦————
-这两个月它们觉得我敷衍它们很火大，我也提了好多次要求把例行通话频率降低到 1 个月一次，我提高通话质量，根本不听，我不接电话就用报晶失踪要挟。
-之前还跑来大城市蹭我租的房住，住就算了还到处翻东西，每一个抽屉都要翻，美名其曰给我整理，把我劳动合同翻出来了，我公司地址它们也知道了，以后找不到人还能去我公司闹，太烦人了，不同意它们过来也是报晶要挟，今年年后还说要来查房，住一周。
-以后查房常态化。我都不敢想象以后要是去合租其他室友受得了我这样的吗。
-除去上面这几点，我还是很感激它们的，如果它们当年我考上专升本的时候不愿意掏学费让我上统招本，我现在还是个大专，也吃不上敲代码这碗饭]]></summary>
-        <author>
-            <name>zhengfan2016</name>
         </author>
     </entry>
     <entry>
@@ -537,35 +605,6 @@ VIP 会员可以升级 SVIP 会员
         <summary type="html"><![CDATA[wty95:]]></summary>
         <author>
             <name>wty95</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[onedrive 网盘挂载到本地后，上传下载修改删除都相当慢。]]></title>
-        <id>https://www.v2ex.com/t/1104807</id>
-        <link href="https://www.v2ex.com/t/1104807"/>
-        <updated>2025-01-13T11:58:29.000Z</updated>
-        <summary type="html"><![CDATA[mushokumunou: 有 12t 文件及文件夹需要做备份，所以买了一个 e3 的子账号，挂载用 raidrvive 开了会员。
-用来挂载其他服务器的 webdav 没什么问题，甚至 115 都可以正常秒读属性等。
-文件夹结构 年 - 月 12 - 日 31 -时 24 - 分 60 - 秒 60 
-文件则为 8 位随机字母单词混
-也就 6 层深度。
-这是 onedrive 本身的文件校验机制还是？
-还有什么挂载工具能改善？]]></summary>
-        <author>
-            <name>mushokumunou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[诸君考过软考的是否可以分享下应该报系统分析师还是架构师呢？]]></title>
-        <id>https://www.v2ex.com/t/1104806</id>
-        <link href="https://www.v2ex.com/t/1104806"/>
-        <updated>2025-01-13T11:49:31.000Z</updated>
-        <summary type="html"><![CDATA[raycj912: 
-小老弟去年下半年考了软考高级-系统架构师不出意外的挂掉了，准备时间不足很多东西要背的没有背。
-但从杭州的大盘结果来看系统分析师报考人数和通过率看起来都有较大优势，小老弟作为 Java 开发目前很犹豫今年 5 月份是应该继续架构师还是系统分析师？
-望诸君分享经验，拜谢]]></summary>
-        <author>
-            <name>raycj912</name>
         </author>
     </entry>
     <entry>
