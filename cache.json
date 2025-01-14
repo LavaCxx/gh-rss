@@ -151,23 +151,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -304,46 +287,6 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1105143",
-          "author": "JJIAN",
-          "description": "JJIAN:",
-          "link": "https://www.v2ex.com/t/1105143",
-          "publishedOn": "2025-01-14T20:07:19.000Z",
-          "wordCount": 361,
-          "title": "120 转一个 Surge for Mac 车位，自己买了所以要跳车。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105142",
-          "author": "privater",
-          "description": "privater: 30 天不关机，也没重启过，平时写写代码和上网，后台挂了些查询服务\n30 天下来，耗电大约 4 度，平均工作时耗电在 3w - 7w ，编译代码满载时大约 20w\n\nistat menus 记录的不间断工作 30 天",
-          "link": "https://www.v2ex.com/t/1105142",
-          "publishedOn": "2025-01-14T19:13:57.000Z",
-          "wordCount": 357,
-          "title": "30 天的 Mac mini m4 的耗电",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105141",
-          "author": "xiaoqi6pi112",
-          "description": "xiaoqi6pi112:",
-          "link": "https://www.v2ex.com/t/1105141",
-          "publishedOn": "2025-01-14T19:06:21.000Z",
-          "wordCount": 374,
-          "title": "为什么美区 Apple Music 在 IOS 和 macos 中的歌曲名字不一样呢",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105140",
-          "author": "Int100",
-          "description": "Int100: \n需要测试一些有风险的程序, 运行环境是 macOS arm 架构.\n请问一下, 以哪种方式隔离更加合理呢?\nParallel Desktop/VMware Fusion 运行虚拟机. (实测内存消耗太大)\n外接硬盘, 装独立的 macOS 系统用于测试.\n(如果采用第二种方案, 装在外接硬盘里的 macOS 系统, 可以访问原生 macOS 系统的资料或者(内置)硬盘吗? 担心数据泄露.)\n感谢🙏",
-          "link": "https://www.v2ex.com/t/1105140",
-          "publishedOn": "2025-01-14T18:42:27.000Z",
-          "wordCount": 364,
-          "title": "如何在 macOS 上安全的运行有风险程序? 以哪种方式隔离更加合理呢?",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1105139",
           "author": "r2829442630",
           "description": "r2829442630: \n我是用 233boy 的 sing box 来搭的梯子，然后用 https://github.com/P3TERX/warp.sh 来套的 warp ，有两个疑惑：\n运行 warp.sh 后需要重新启动 sing box 脚本，如果不重启，从 clash 测延迟是 100 多 ms ，然而网络是不通的，无法访问 google ，这是为什么？\n运行 warp.sh 且重启 sing box 脚本后，从 clash 测延迟提高到了 800ms ，这是为什么？经过了 cf 的节点？但是我的理解 warp 应该是只针对 vps 的出口吧？\n以及 clash 测延迟的原理？",
@@ -419,7 +362,7 @@
           "description": "Peter500: 家里是精装房，所有房间网口都在半空中，虽然都换了超 6 类网线，但为了美观性，不得不选择组网方案为千兆 AC+AP （已使用 1 年多）。\n由于是居家办公，会高频访问 nas 资源，所以在想有没有什么实惠的万兆内网升级方案。",
           "link": "https://www.v2ex.com/t/1105130",
           "publishedOn": "2025-01-14T15:43:27.000Z",
-          "wordCount": 500,
+          "wordCount": 505,
           "title": "全屋升级万兆内网有什么实惠的方案吗？",
           "imageUrl": null
         },
@@ -439,7 +382,7 @@
           "description": "xcaptain: \n前段时间在本地用 vscode + typst 写了一些 ppt ，然后就产生了一个将 typst 编译器搬到浏览器上的想法，正好有大佬开源了 https://github.com/Myriad-Dreamin/typst.ts 所以我就用这个库加上 CodeMirror 编辑器，做了一个简单的网站，见：\nhttps://typ.ink/\n目前实现了基本的文件管理，编辑和预览导出的功能，欢迎大家来体验下",
           "link": "https://www.v2ex.com/t/1105128",
           "publishedOn": "2025-01-14T15:22:21.000Z",
-          "wordCount": 390,
+          "wordCount": 403,
           "title": "做了一个在线的 typst 编辑器",
           "imageUrl": null
         },
@@ -469,7 +412,7 @@
           "description": "evan1: \n我觉得是会有的, 这两周如果遇到大跌的话我会大笔加仓. 目前是空仓状态.\n另外虽然过去四年节前一周会有行情, 但是节前两周也会大跌...刚看了 k 线图...\n2021-2024",
           "link": "https://www.v2ex.com/t/1105125",
           "publishedOn": "2025-01-14T14:59:27.000Z",
-          "wordCount": 356,
+          "wordCount": 367,
           "title": "过去四年来,节前一周左右都会有一波明显的行情.如今距离过节只剩两周了,你们觉得今年会有“过节红包”吗?",
           "imageUrl": null
         },
@@ -579,7 +522,7 @@
           "description": "guddy: \n这几年攒了一些钱， 最近和对象商量要买辆车，二十多万差不多，因为年后要订婚需要开， 前天跟老爹打电话跟他说最近在看车，打算买了，我爸一听都快疯了，一直说现在买个那个干啥，不要买千万不要买！，我说为啥，他说那么贵买那个干啥，全程一副命令的口气，车越来越便宜说， 我说要用，不用管了 ，我不愿意看他难受，全程嬉皮笑脸好生相劝， 我爹见我不硬的不听，随后用哀求的语气说不要买了，听话 ，我反思了好几天是不是真的是我太败家了？买的真的太贵了 ？ 我已经产生怀疑...最近又在看二手，便宜点他可能会稍微好受点..\n其实我一直知道我老爹有不尊重别人的行为，或者说控制欲，\n并且会把我带的所有东西都翻一遍，有一次，前几个月回家，跟他带了礼物，因为我不想让他抽烟，没给他买烟，那天我出去到家后他说你还抽烟呢 ？（因为他不知道我抽烟），当时我就知道了他又翻我书包了，因为我包里带了两包烟，其中一个打开了，我说我这是给你带了一包你试试，因为这两包是国外旅游带的，我说你试试这烟 ，不要多抽 ，给了他一包，等到第二天，他又问我，你就带了一包？我没想到我爹这都能问出来，（我不给他两包是因为当时一包拆开了，我不想让他知道我抽烟，所以给了他一包没拆的。）我非常生气的说就一包就走了.\n还有一次更夸张，前几年有一次回老家，跟他在聊天，然后我出去拿东西，手机在桌子上放着，回来后，发现他在看我微信上和女朋友的聊天记录，认真在浏览，当时看到后我差点炸掉， 已经到达我忍耐极限，但我也控制，我拿了就出去了.\n类似这种事情太多了，有时候会讲道理但毫无用户，我已经不知道怎么处理这种情况了。\n我又不能说我的钱爱怎么花就怎么花 ，我怕伤他心 ，但不说他愈发过分 ,我敢肯定买了新车之后他就生气，对亲戚说我有点钱不知道自己叫什么了，如果买个二手他心里应该会说我装逼，没钱还要买车.\n在他的观念里，什么也不要买，要攒一辈子钱.\n哎，头秃 .",
           "link": "https://www.v2ex.com/t/1105111",
           "publishedOn": "2025-01-14T13:40:05.000Z",
-          "wordCount": 484,
+          "wordCount": 486,
           "title": "老爸控制欲非常强 。已经到达无法理解的状态",
           "imageUrl": null
         },
@@ -681,6 +624,46 @@
           "publishedOn": "2025-01-14T11:26:57.000Z",
           "wordCount": 500,
           "title": "如何看待 A 股今日走势",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105093",
+          "author": "chenliang0571",
+          "description": "chenliang0571: \n有个项目文件放在外置硬盘，本地的修改 git 时不时无法检测到，有时候可以有时候不行（磁盘 IO 很低）。\n每次都要rm .git/index && git reset，不知道为什么？\n硬盘信息：\n  未使用：1.73 TB （ 1,725,677,821,952 字节）\n  容量：2 TB （ 2,000,188,080,128 字节）\n  装载点：/Volumes/data\n  文件系统：APFS\n  可写：是\n  忽略所有权：是\n  BSD 名称：disk5s1\n  物理驱动器：\n  设备名称：Samsung SSD 990 EVO Plus 2TB\n  介质名称：AppleAPFSMedia\n  介质类型：SSD\n  协议：PCI-Express\n  内置：否\n  分区图类型：未知\n  S.M.A.R.T. 状态：已验证",
+          "link": "https://www.v2ex.com/t/1105093",
+          "publishedOn": "2025-01-14T11:18:43.000Z",
+          "wordCount": 430,
+          "title": "我也买了 mac mini，但外置硬盘使用 git 出现了问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105092",
+          "author": "2016xlx",
+          "description": "2016xlx: 各位大佬,觉得福利彩票是骗人的还是啥,我守号两个月了,每天基本上中两三块而已",
+          "link": "https://www.v2ex.com/t/1105092",
+          "publishedOn": "2025-01-14T11:14:49.000Z",
+          "wordCount": 666,
+          "title": "各位咋看彩票",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105091",
+          "author": "yiqi186",
+          "description": "yiqi186: \n上午注册的域名，暂时只做一个单页面\nhttps://www.rednotes.club/",
+          "link": "https://www.v2ex.com/t/1105091",
+          "publishedOn": "2025-01-14T11:11:06.000Z",
+          "wordCount": 391,
+          "title": "一个实验性的站点，关于向老外介绍小红书",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105090",
+          "author": "sikuu2al",
+          "description": "sikuu2al:",
+          "link": "https://www.v2ex.com/t/1105090",
+          "publishedOn": "2025-01-14T11:01:58.000Z",
+          "wordCount": 532,
+          "title": "忘掉一个人真的太难了！",
           "imageUrl": null
         }
       ]
