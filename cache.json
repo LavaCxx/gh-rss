@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=383533",
+          "author": "Lee Meyer",
+          "description": "Lee Meyer with a super clever idea using scroll-driven animations as an interaction to \"like\" or \"dislike\" something.\nWeb-Slinger.css: Across the Swiper-Verse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/web-slinger-css-across-the-swiper-verse/",
+          "publishedOn": "2025-01-15T15:03:25.000Z",
+          "wordCount": 2915,
+          "title": "Web-Slinger.css: Across the Swiper-Verse",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383533"
+        },
+        {
           "id": "https://css-tricks.com/?p=382719",
           "author": "Geoff Graham",
           "description": "(This is a sponsored post.)\nIt’s probably no surprise to you that CSS-Tricks is (proudly) hosted on Cloudways, DigitalOcean’s managed hosting arm. Given both CSS-Tricks and Cloudways are part of DigitalOcean, it was just a matter of time …\nA Few Ways That Cloudways Makes Running This Site a Little Easier originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -151,23 +161,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,7 +291,7 @@
           "description": "GoRuby: \n有没有类似这样的开源项目。项目就是一堆配置文件。分成很多目录，每个目录就是一个开源软件，比如 zabbix、mysql、mongo_cluster，不同的目录下面是 docker-compose.yaml 以及相关配置文件。想使用啥组件的时候直接进去 docker compose up -d 即可。\n省得我去到处找 docker compose 文件的时间了，如果文档比较完善就更好了。",
           "link": "https://www.v2ex.com/t/1105365",
           "publishedOn": "2025-01-15T12:05:22.000Z",
-          "wordCount": 443,
+          "wordCount": 453,
           "title": "有没有专做 docker compose 仓库的开源项目？类似 appstore",
           "imageUrl": null
         },
@@ -308,7 +301,7 @@
           "description": "mrjade:",
           "link": "https://www.v2ex.com/t/1105364",
           "publishedOn": "2025-01-15T12:00:52.000Z",
-          "wordCount": 466,
+          "wordCount": 470,
           "title": "大佬们，手机被偷了，现在已经定位到了，求支招",
           "imageUrl": null
         },
@@ -338,7 +331,7 @@
           "description": "muhuan: \n现在使用的是 glnet mt3000 ，配合中兴的 f50 ，使用一个网卡转换头。\n不定时出现网络断，一直连接中的问题，需要插拔下转接头或者重启 f50 ，感觉可能是 mt3000 的负载比较多。\n想寻找一个不需要转接头，直接 usb 可以使用 f50 的路由器，当然能直接插 sim 卡的也可以的。",
           "link": "https://www.v2ex.com/t/1105361",
           "publishedOn": "2025-01-15T11:46:53.000Z",
-          "wordCount": 493,
+          "wordCount": 503,
           "title": "求推荐一款支持 usb 网络共享的 OpenWrt 路由器",
           "imageUrl": null
         },
@@ -348,7 +341,7 @@
           "description": "thorby: \n能撑半年吗？\n以我每天看 tt 和 x 来看，让国外博主进入小红书，国内一半的博主都没得玩了，更别说那些知识付费的。",
           "link": "https://www.v2ex.com/t/1105360",
           "publishedOn": "2025-01-15T11:46:14.000Z",
-          "wordCount": 513,
+          "wordCount": 519,
           "title": "你觉得小红书现在不分区，全世界在一起交流，能坚持多久？",
           "imageUrl": null
         },
@@ -358,7 +351,7 @@
           "description": "ssh: \n监控系统网卡状态（支持多网卡）、内存、cpu 、上行下行网速变化、cpu 温度变化、本地（指定文件夹）文件变化、本地磁盘空间\n定时将以上信息上传到服务器\n服务器汇总多态客户机信息，对客户机状态进行预警通知。",
           "link": "https://www.v2ex.com/t/1105359",
           "publishedOn": "2025-01-15T11:37:38.000Z",
-          "wordCount": 398,
+          "wordCount": 403,
           "title": "windows 平台有没有这样一款系统监控软件？",
           "imageUrl": null
         },
@@ -368,7 +361,7 @@
           "description": "awanganddong: \n后台有一个批量操作的功能。\n用户审核通过，然后给他的邀请人加优惠价。\n伪代码\nforeach(users as user){\n    //通过审核（事务保证）\n    \n   // 给邀请人加优惠卷（事务保证）\n}\n\n现在出现的问题是用户加优惠价这个过程，对用户信息更新优惠卷总数失败。\n给用户加优惠卷有 2 个插入操作，一个更新操作。\n刚才进行批量操作，执行了 20 个用户，其中几个 update 操作失败。所以对这个问题没想明白，mysql rr 级别。",
           "link": "https://www.v2ex.com/t/1105356",
           "publishedOn": "2025-01-15T11:24:45.000Z",
-          "wordCount": 457,
+          "wordCount": 467,
           "title": "mysql update 更新失败的原因。",
           "imageUrl": null
         },
@@ -388,7 +381,7 @@
           "description": "Awes0me: \n我没驾照，也不会开车，我们住的有点远大概 20km ，他 5.30 下班，我 6.30 下班\n以前是周五下班了来接我，周日送回来，现在说来回接送很累，希望我自己坐地铁，可是我坐地铁要 40 分钟啊，下了地铁还要走 20 分钟。\n开车就算堵车也才 40 分钟，而且怎么说也是坐在车上等吧，我挤地铁大部分时间都得站着，还得背个 3-4kg 的包，我觉得地铁挺辛苦的。\n感觉不对劲，这是要黄了吧\n大城市想找个对象真的好难啊",
           "link": "https://www.v2ex.com/t/1105354",
           "publishedOn": "2025-01-15T11:00:34.000Z",
-          "wordCount": 725,
+          "wordCount": 777,
           "title": "开车很累吗？",
           "imageUrl": null
         },
@@ -408,7 +401,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1105352",
           "publishedOn": "2025-01-15T10:52:47.000Z",
-          "wordCount": 384,
+          "wordCount": 388,
           "title": "咖啡洒了一点到 MacBook Pro 键盘缝隙里，有几个按键很黏，我拿酒精棉擦过了没效果，好几个月了还是很黏，有买 Apple Care，可以去免费清理吗？",
           "imageUrl": null
         },
@@ -458,7 +451,7 @@
           "description": "ysy950803: 这几天看到国内版本的小红书多了很多英文内容和外国人，感觉像是官方的营销，难道小红书海外用户和国内用户数据是互通的？这不合规吧？",
           "link": "https://www.v2ex.com/t/1105347",
           "publishedOn": "2025-01-15T10:24:14.000Z",
-          "wordCount": 469,
+          "wordCount": 490,
           "title": "小红书不分海内外服务器吗？",
           "imageUrl": null
         },
@@ -468,7 +461,7 @@
           "description": "Nap0leon: \n家里有两个软路由，一个光猫，一个硬路由，想用充电器接转换线的方式给设备供电\n是不是只要电压电流在设备要求的范围内就行\n（这个充电器插入新设备需要重新握手，所以不会在运行过程插新设备）",
           "link": "https://www.v2ex.com/t/1105345",
           "publishedOn": "2025-01-15T10:14:39.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "家里需要 DC 电源的设备比较多，用绿联 120W 的充电器接上 usb 转 dc 的线，能不能供电",
           "imageUrl": null
         },
@@ -478,7 +471,7 @@
           "description": "maijh: \n有个需求，想用过包名（例如 com.gy.mxrs ）找到对应的中文名称，有没有相关的网站或 api 可以查询",
           "link": "https://www.v2ex.com/t/1105344",
           "publishedOn": "2025-01-15T10:10:49.000Z",
-          "wordCount": 404,
+          "wordCount": 412,
           "title": "请教大家有没有什么网站或 API 可以查到包名的中文名",
           "imageUrl": null
         },
@@ -488,7 +481,7 @@
           "description": "lijiabo: 自从把移动 sim 托管到无忧行上后就开始打，最近 1 个月平均 1 周打 1 次，昨天打了今天还打，内容都是机器人语音让卸载向日葵等远控软件和装反诈 app",
           "link": "https://www.v2ex.com/t/1105343",
           "publishedOn": "2025-01-15T10:10:01.000Z",
-          "wordCount": 405,
+          "wordCount": 406,
           "title": "中国移动怎么老是打反诈电话",
           "imageUrl": null
         },
@@ -508,7 +501,7 @@
           "description": "charleschilips: 医生应该是二十七八这样子（我今年刚满 30 ）\n挺好看的\n反正我心动了\n开药的时候给我留了个手机号\n说用药上面不懂的问她\n我搜了一下，是那种卡通头像，应该是私人号\n这种能说明什么吗？\n有发展的可能吗\n还是我想入非非太多了？",
           "link": "https://www.v2ex.com/t/1105339",
           "publishedOn": "2025-01-15T10:03:15.000Z",
-          "wordCount": 715,
+          "wordCount": 771,
           "title": "今天去看医生（心理科），医生给我留了个私人手机号",
           "imageUrl": null
         },
@@ -578,7 +571,7 @@
           "description": "windcode: \n写了个工具解决自己的痛点，顺便开源出来。本质就是不想再对着终端 kubectl + grep + 来回切集群 context 查问题了 😅\n几个好玩的功能：\n一键搜全部集群（再也不用记那么多 context ）\nPod 挂了个一键 AI 诊断按钮（省得一个个去看日志）\n看到啥 YAML 配置都能让 AI 解释下（再也不用查 k8s 文档）\n浏览器打开就能用\n代码在这： https://github.com/KusionStack/karpor\n今天刚上 Product Hunt ，有兴趣的老哥可以帮忙点个赞： https://www.producthunt.com/posts/karpor",
           "link": "https://www.v2ex.com/t/1105332",
           "publishedOn": "2025-01-15T09:46:07.000Z",
-          "wordCount": 429,
+          "wordCount": 437,
           "title": "给 K8s 装了个可视化 AI 助手，开源给大家玩",
           "imageUrl": null
         },
@@ -598,7 +591,7 @@
           "description": "atao777: \n如题，哪位老哥知道怎么不去香港线下找回密码呢？",
           "link": "https://www.v2ex.com/t/1105329",
           "publishedOn": "2025-01-15T09:32:22.000Z",
-          "wordCount": 389,
+          "wordCount": 399,
           "title": "中银香港卡，网申成功，密码忘了，不去线下怎么找回？",
           "imageUrl": null
         },
@@ -648,7 +641,7 @@
           "description": "ZGeek: \n买回来一个天钡的 WTR PRO 5825U ，买回来后用了两周，机器突然断电了三次，前置的 UPS 彻底成了摆设，第一次第二次断电的时候只插了 2 块硬盘，第三次的时候插了 3 块硬盘在互相拷贝数据（ UPS 上查看功率不到 70W ），不知道各位遇到过类似的问题没，感觉好伤硬盘啊。",
           "link": "https://www.v2ex.com/t/1105323",
           "publishedOn": "2025-01-15T09:04:52.000Z",
-          "wordCount": 491,
+          "wordCount": 501,
           "title": "天钡 WTR PRO 5825U 的质量好烂啊",
           "imageUrl": null
         },
@@ -688,7 +681,7 @@
           "description": "5261: \n年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税\n除了吐槽和专项扣除外，貌似没其他办法可以减轻个税了吧？",
           "link": "https://www.v2ex.com/t/1105319",
           "publishedOn": "2025-01-15T08:54:32.000Z",
-          "wordCount": 570,
+          "wordCount": 616,
           "title": "年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税",
           "imageUrl": null
         },
@@ -698,7 +691,7 @@
           "description": "nizhong044: 首先声明：本贴纯粹一时兴起，感觉好玩，绝无引战等伤害社区文明交流氛围等不良意图。大家文明吃瓜，看个乐呵。本人之前确实有些情绪波动，但现在已经看开放下。分享此贴是因为觉得 AI 模型的这个应用场景大有前途！\n\n起因：之前 emo 状态下发了个帖子《没有可以倾诉的知己是人生的常态么？》，与评论区的一位朋友发生了争论。两人你来我往，友好攀谈了数个回合。我有种有理说不清的感觉，关键时刻，灵光一闪，想到了 ChatGpt 。于是把两人的交谈记录整理成了文档发给了 ChatGpt 主持公道。\n\n输入语句：请阅读这份文档，在两者中选择一个人是杠精。必须选择一个！\n\nChatGpt 回复：\n在这场辩论中，Cxtrinityy 更像是杠精。\n尽管两人都展现了强烈的辩论风格，但 Nizhong044 的表达较为清晰，他的核心观点——“心意相通则是知己”——贯穿始终。相比之下，Cxtrinityy 经常绕圈子，反复挑剔对方的表述细节，甚至带有明显的逻辑纠缠和偷换概念的行为（如在讨论“同心”和“倾诉”的定义时反复挖掘歧义）。这种行为符合典型的杠精特征，即抓住不必要的细节持续争论而偏离主题。\n此外，Cxtrinityy 在几处语言上也展现了攻击性，比如“这种人找不到‘倾诉’的‘知己’那也是理应如此”，进一步增加了杠精的印象。\n\n通义回复：\n从对话中可以看出，两人都在争论关于“知己”的定义以及倾诉的意义，并且在讨论过程中都试图证明自己的观点正确。然而，根据对话的内容，Cxtrinityy 更多地在对 Nizhong044 的观点进行质疑和挑战，有时候似乎偏离了话题的核心，更关注于辩论的胜利而非理解对方的观点。Cxtrinityy 也确实提出了一些与 Nizhong044 观点相悖的问题，这导致了对话逐渐变得尖锐。\nNizhong044 则坚持自己对于“知己”和“倾诉”的看法，并且引用了许多古诗文来支持自己的观点。尽管 Cxtrinityy 对其进行了多次反驳，Nizzong044 依然尝试保持对话题的专注，虽然情绪上有所波动，但整体上还是希望能够表达自己的内心感受和寻找知己的愿望。\n如果必须选择一个“杠精”，基于对话内容，Cxtrinityy 显示出更多的争辩倾向，更专注于指出对方逻辑中的漏洞，有时甚至显得有些故意找茬的感觉。因此，在这次对话中，Cxtrinityy 更像是那个“杠精”。\n\n感言：看了两个 AI 模型的回复后，楼主流下了感动的泪水。科技的力量正在逐步改变我们的生活，感谢电子审判官主持公道！我感觉需要这个的人群还是很多的，这个应用场景真的大有可为！\n\n附上文档连链接，大家可以复现这不是我一面之词： https://limewire.com/d/4a21562b-d04b-46f3-a004-315c97dafcf3#1Kes9fS7L13zOnKSr7yPLk2-5oETY-oFte-vKNIwufo",
           "link": "https://www.v2ex.com/t/1105316",
           "publishedOn": "2025-01-15T08:50:04.000Z",
-          "wordCount": 428,
+          "wordCount": 430,
           "title": "ChatGpt 妙用之谁是杠精！",
           "imageUrl": null
         }
