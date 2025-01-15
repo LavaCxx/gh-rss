@@ -17,7 +17,7 @@
           "description": "Lee Meyer with a super clever idea using scroll-driven animations as an interaction to \"like\" or \"dislike\" something.\nWeb-Slinger.css: Across the Swiper-Verse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/web-slinger-css-across-the-swiper-verse/",
           "publishedOn": "2025-01-15T15:03:25.000Z",
-          "wordCount": 2915,
+          "wordCount": 2933,
           "title": "Web-Slinger.css: Across the Swiper-Verse",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383533"
         },
@@ -157,6 +157,23 @@
           "wordCount": 1056,
           "title": "第205期 - 听张信哲",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -301,7 +318,7 @@
           "description": "mrjade:",
           "link": "https://www.v2ex.com/t/1105364",
           "publishedOn": "2025-01-15T12:00:52.000Z",
-          "wordCount": 470,
+          "wordCount": 475,
           "title": "大佬们，手机被偷了，现在已经定位到了，求支招",
           "imageUrl": null
         },
@@ -341,7 +358,7 @@
           "description": "thorby: \n能撑半年吗？\n以我每天看 tt 和 x 来看，让国外博主进入小红书，国内一半的博主都没得玩了，更别说那些知识付费的。",
           "link": "https://www.v2ex.com/t/1105360",
           "publishedOn": "2025-01-15T11:46:14.000Z",
-          "wordCount": 519,
+          "wordCount": 554,
           "title": "你觉得小红书现在不分区，全世界在一起交流，能坚持多久？",
           "imageUrl": null
         },
@@ -351,7 +368,7 @@
           "description": "ssh: \n监控系统网卡状态（支持多网卡）、内存、cpu 、上行下行网速变化、cpu 温度变化、本地（指定文件夹）文件变化、本地磁盘空间\n定时将以上信息上传到服务器\n服务器汇总多态客户机信息，对客户机状态进行预警通知。",
           "link": "https://www.v2ex.com/t/1105359",
           "publishedOn": "2025-01-15T11:37:38.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "windows 平台有没有这样一款系统监控软件？",
           "imageUrl": null
         },
@@ -361,7 +378,7 @@
           "description": "awanganddong: \n后台有一个批量操作的功能。\n用户审核通过，然后给他的邀请人加优惠价。\n伪代码\nforeach(users as user){\n    //通过审核（事务保证）\n    \n   // 给邀请人加优惠卷（事务保证）\n}\n\n现在出现的问题是用户加优惠价这个过程，对用户信息更新优惠卷总数失败。\n给用户加优惠卷有 2 个插入操作，一个更新操作。\n刚才进行批量操作，执行了 20 个用户，其中几个 update 操作失败。所以对这个问题没想明白，mysql rr 级别。",
           "link": "https://www.v2ex.com/t/1105356",
           "publishedOn": "2025-01-15T11:24:45.000Z",
-          "wordCount": 467,
+          "wordCount": 469,
           "title": "mysql update 更新失败的原因。",
           "imageUrl": null
         },
@@ -381,7 +398,7 @@
           "description": "Awes0me: \n我没驾照，也不会开车，我们住的有点远大概 20km ，他 5.30 下班，我 6.30 下班\n以前是周五下班了来接我，周日送回来，现在说来回接送很累，希望我自己坐地铁，可是我坐地铁要 40 分钟啊，下了地铁还要走 20 分钟。\n开车就算堵车也才 40 分钟，而且怎么说也是坐在车上等吧，我挤地铁大部分时间都得站着，还得背个 3-4kg 的包，我觉得地铁挺辛苦的。\n感觉不对劲，这是要黄了吧\n大城市想找个对象真的好难啊",
           "link": "https://www.v2ex.com/t/1105354",
           "publishedOn": "2025-01-15T11:00:34.000Z",
-          "wordCount": 777,
+          "wordCount": 841,
           "title": "开车很累吗？",
           "imageUrl": null
         },
@@ -431,7 +448,7 @@
           "description": "fuliti: 虽然我也想过要学点英语，无奈年龄大了。但还是想出去看看，纯旅游的那种。\n所以就想问问，如果仅靠翻译软件，在外面交流是否会有障碍？\n如果没有的话，一般是用的哪一款翻译。\n我看好多博主现在用的都是离线翻译器，据说一个要 3 千左右。",
           "link": "https://www.v2ex.com/t/1105349",
           "publishedOn": "2025-01-15T10:35:17.000Z",
-          "wordCount": 508,
+          "wordCount": 513,
           "title": "现在出去，不会英语，仅靠翻译软件行的通吗？",
           "imageUrl": null
         },
@@ -451,7 +468,7 @@
           "description": "ysy950803: 这几天看到国内版本的小红书多了很多英文内容和外国人，感觉像是官方的营销，难道小红书海外用户和国内用户数据是互通的？这不合规吧？",
           "link": "https://www.v2ex.com/t/1105347",
           "publishedOn": "2025-01-15T10:24:14.000Z",
-          "wordCount": 490,
+          "wordCount": 539,
           "title": "小红书不分海内外服务器吗？",
           "imageUrl": null
         },
@@ -471,7 +488,7 @@
           "description": "maijh: \n有个需求，想用过包名（例如 com.gy.mxrs ）找到对应的中文名称，有没有相关的网站或 api 可以查询",
           "link": "https://www.v2ex.com/t/1105344",
           "publishedOn": "2025-01-15T10:10:49.000Z",
-          "wordCount": 412,
+          "wordCount": 414,
           "title": "请教大家有没有什么网站或 API 可以查到包名的中文名",
           "imageUrl": null
         },
@@ -501,7 +518,7 @@
           "description": "charleschilips: 医生应该是二十七八这样子（我今年刚满 30 ）\n挺好看的\n反正我心动了\n开药的时候给我留了个手机号\n说用药上面不懂的问她\n我搜了一下，是那种卡通头像，应该是私人号\n这种能说明什么吗？\n有发展的可能吗\n还是我想入非非太多了？",
           "link": "https://www.v2ex.com/t/1105339",
           "publishedOn": "2025-01-15T10:03:15.000Z",
-          "wordCount": 771,
+          "wordCount": 783,
           "title": "今天去看医生（心理科），医生给我留了个私人手机号",
           "imageUrl": null
         },
@@ -571,7 +588,7 @@
           "description": "windcode: \n写了个工具解决自己的痛点，顺便开源出来。本质就是不想再对着终端 kubectl + grep + 来回切集群 context 查问题了 😅\n几个好玩的功能：\n一键搜全部集群（再也不用记那么多 context ）\nPod 挂了个一键 AI 诊断按钮（省得一个个去看日志）\n看到啥 YAML 配置都能让 AI 解释下（再也不用查 k8s 文档）\n浏览器打开就能用\n代码在这： https://github.com/KusionStack/karpor\n今天刚上 Product Hunt ，有兴趣的老哥可以帮忙点个赞： https://www.producthunt.com/posts/karpor",
           "link": "https://www.v2ex.com/t/1105332",
           "publishedOn": "2025-01-15T09:46:07.000Z",
-          "wordCount": 437,
+          "wordCount": 442,
           "title": "给 K8s 装了个可视化 AI 助手，开源给大家玩",
           "imageUrl": null
         },
@@ -591,7 +608,7 @@
           "description": "atao777: \n如题，哪位老哥知道怎么不去香港线下找回密码呢？",
           "link": "https://www.v2ex.com/t/1105329",
           "publishedOn": "2025-01-15T09:32:22.000Z",
-          "wordCount": 399,
+          "wordCount": 406,
           "title": "中银香港卡，网申成功，密码忘了，不去线下怎么找回？",
           "imageUrl": null
         },
@@ -641,7 +658,7 @@
           "description": "ZGeek: \n买回来一个天钡的 WTR PRO 5825U ，买回来后用了两周，机器突然断电了三次，前置的 UPS 彻底成了摆设，第一次第二次断电的时候只插了 2 块硬盘，第三次的时候插了 3 块硬盘在互相拷贝数据（ UPS 上查看功率不到 70W ），不知道各位遇到过类似的问题没，感觉好伤硬盘啊。",
           "link": "https://www.v2ex.com/t/1105323",
           "publishedOn": "2025-01-15T09:04:52.000Z",
-          "wordCount": 501,
+          "wordCount": 503,
           "title": "天钡 WTR PRO 5825U 的质量好烂啊",
           "imageUrl": null
         },
@@ -681,7 +698,7 @@
           "description": "5261: \n年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税\n除了吐槽和专项扣除外，貌似没其他办法可以减轻个税了吧？",
           "link": "https://www.v2ex.com/t/1105319",
           "publishedOn": "2025-01-15T08:54:32.000Z",
-          "wordCount": 616,
+          "wordCount": 626,
           "title": "年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税",
           "imageUrl": null
         },
