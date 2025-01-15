@@ -298,7 +298,7 @@
           "description": "GoRuby: \n有没有类似这样的开源项目。项目就是一堆配置文件。分成很多目录，每个目录就是一个开源软件，比如 zabbix、mysql、mongo_cluster，不同的目录下面是 docker-compose.yaml 以及相关配置文件。想使用啥组件的时候直接进去 docker compose up -d 即可。\n省得我去到处找 docker compose 文件的时间了，如果文档比较完善就更好了。",
           "link": "https://www.v2ex.com/t/1105365",
           "publishedOn": "2025-01-15T12:05:22.000Z",
-          "wordCount": 407,
+          "wordCount": 443,
           "title": "有没有专做 docker compose 仓库的开源项目？类似 appstore",
           "imageUrl": null
         },
@@ -308,7 +308,7 @@
           "description": "mrjade:",
           "link": "https://www.v2ex.com/t/1105364",
           "publishedOn": "2025-01-15T12:00:52.000Z",
-          "wordCount": 442,
+          "wordCount": 466,
           "title": "大佬们，手机被偷了，现在已经定位到了，求支招",
           "imageUrl": null
         },
@@ -338,7 +338,7 @@
           "description": "muhuan: \n现在使用的是 glnet mt3000 ，配合中兴的 f50 ，使用一个网卡转换头。\n不定时出现网络断，一直连接中的问题，需要插拔下转接头或者重启 f50 ，感觉可能是 mt3000 的负载比较多。\n想寻找一个不需要转接头，直接 usb 可以使用 f50 的路由器，当然能直接插 sim 卡的也可以的。",
           "link": "https://www.v2ex.com/t/1105361",
           "publishedOn": "2025-01-15T11:46:53.000Z",
-          "wordCount": 383,
+          "wordCount": 493,
           "title": "求推荐一款支持 usb 网络共享的 OpenWrt 路由器",
           "imageUrl": null
         },
@@ -348,7 +348,7 @@
           "description": "thorby: \n能撑半年吗？\n以我每天看 tt 和 x 来看，让国外博主进入小红书，国内一半的博主都没得玩了，更别说那些知识付费的。",
           "link": "https://www.v2ex.com/t/1105360",
           "publishedOn": "2025-01-15T11:46:14.000Z",
-          "wordCount": 488,
+          "wordCount": 513,
           "title": "你觉得小红书现在不分区，全世界在一起交流，能坚持多久？",
           "imageUrl": null
         },
@@ -368,7 +368,7 @@
           "description": "awanganddong: \n后台有一个批量操作的功能。\n用户审核通过，然后给他的邀请人加优惠价。\n伪代码\nforeach(users as user){\n    //通过审核（事务保证）\n    \n   // 给邀请人加优惠卷（事务保证）\n}\n\n现在出现的问题是用户加优惠价这个过程，对用户信息更新优惠卷总数失败。\n给用户加优惠卷有 2 个插入操作，一个更新操作。\n刚才进行批量操作，执行了 20 个用户，其中几个 update 操作失败。所以对这个问题没想明白，mysql rr 级别。",
           "link": "https://www.v2ex.com/t/1105356",
           "publishedOn": "2025-01-15T11:24:45.000Z",
-          "wordCount": 452,
+          "wordCount": 457,
           "title": "mysql update 更新失败的原因。",
           "imageUrl": null
         },
@@ -388,7 +388,7 @@
           "description": "Awes0me: \n我没驾照，也不会开车，我们住的有点远大概 20km ，他 5.30 下班，我 6.30 下班\n以前是周五下班了来接我，周日送回来，现在说来回接送很累，希望我自己坐地铁，可是我坐地铁要 40 分钟啊，下了地铁还要走 20 分钟。\n开车就算堵车也才 40 分钟，而且怎么说也是坐在车上等吧，我挤地铁大部分时间都得站着，还得背个 3-4kg 的包，我觉得地铁挺辛苦的。\n感觉不对劲，这是要黄了吧\n大城市想找个对象真的好难啊",
           "link": "https://www.v2ex.com/t/1105354",
           "publishedOn": "2025-01-15T11:00:34.000Z",
-          "wordCount": 689,
+          "wordCount": 725,
           "title": "开车很累吗？",
           "imageUrl": null
         },
@@ -408,7 +408,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1105352",
           "publishedOn": "2025-01-15T10:52:47.000Z",
-          "wordCount": 374,
+          "wordCount": 384,
           "title": "咖啡洒了一点到 MacBook Pro 键盘缝隙里，有几个按键很黏，我拿酒精棉擦过了没效果，好几个月了还是很黏，有买 Apple Care，可以去免费清理吗？",
           "imageUrl": null
         },
@@ -418,7 +418,7 @@
           "description": "dxatgp02: \n刚开始学 actix-web\n目前用到的包是\nredis-rs\ntokio\nactix-web\nserde",
           "link": "https://www.v2ex.com/t/1105351",
           "publishedOn": "2025-01-15T10:46:56.000Z",
-          "wordCount": 378,
+          "wordCount": 380,
           "title": "RUST 应用打压力 sys_cpu 高到 user_cpu 这种是正常吗",
           "imageUrl": null
         },
@@ -438,7 +438,7 @@
           "description": "fuliti: 虽然我也想过要学点英语，无奈年龄大了。但还是想出去看看，纯旅游的那种。\n所以就想问问，如果仅靠翻译软件，在外面交流是否会有障碍？\n如果没有的话，一般是用的哪一款翻译。\n我看好多博主现在用的都是离线翻译器，据说一个要 3 千左右。",
           "link": "https://www.v2ex.com/t/1105349",
           "publishedOn": "2025-01-15T10:35:17.000Z",
-          "wordCount": 506,
+          "wordCount": 508,
           "title": "现在出去，不会英语，仅靠翻译软件行的通吗？",
           "imageUrl": null
         },
@@ -458,7 +458,7 @@
           "description": "ysy950803: 这几天看到国内版本的小红书多了很多英文内容和外国人，感觉像是官方的营销，难道小红书海外用户和国内用户数据是互通的？这不合规吧？",
           "link": "https://www.v2ex.com/t/1105347",
           "publishedOn": "2025-01-15T10:24:14.000Z",
-          "wordCount": 467,
+          "wordCount": 469,
           "title": "小红书不分海内外服务器吗？",
           "imageUrl": null
         },
@@ -468,7 +468,7 @@
           "description": "Nap0leon: \n家里有两个软路由，一个光猫，一个硬路由，想用充电器接转换线的方式给设备供电\n是不是只要电压电流在设备要求的范围内就行\n（这个充电器插入新设备需要重新握手，所以不会在运行过程插新设备）",
           "link": "https://www.v2ex.com/t/1105345",
           "publishedOn": "2025-01-15T10:14:39.000Z",
-          "wordCount": 461,
+          "wordCount": 468,
           "title": "家里需要 DC 电源的设备比较多，用绿联 120W 的充电器接上 usb 转 dc 的线，能不能供电",
           "imageUrl": null
         },
@@ -478,7 +478,7 @@
           "description": "maijh: \n有个需求，想用过包名（例如 com.gy.mxrs ）找到对应的中文名称，有没有相关的网站或 api 可以查询",
           "link": "https://www.v2ex.com/t/1105344",
           "publishedOn": "2025-01-15T10:10:49.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "请教大家有没有什么网站或 API 可以查到包名的中文名",
           "imageUrl": null
         },
@@ -508,7 +508,7 @@
           "description": "charleschilips: 医生应该是二十七八这样子（我今年刚满 30 ）\n挺好看的\n反正我心动了\n开药的时候给我留了个手机号\n说用药上面不懂的问她\n我搜了一下，是那种卡通头像，应该是私人号\n这种能说明什么吗？\n有发展的可能吗\n还是我想入非非太多了？",
           "link": "https://www.v2ex.com/t/1105339",
           "publishedOn": "2025-01-15T10:03:15.000Z",
-          "wordCount": 664,
+          "wordCount": 715,
           "title": "今天去看医生（心理科），医生给我留了个私人手机号",
           "imageUrl": null
         },
@@ -578,7 +578,7 @@
           "description": "windcode: \n写了个工具解决自己的痛点，顺便开源出来。本质就是不想再对着终端 kubectl + grep + 来回切集群 context 查问题了 😅\n几个好玩的功能：\n一键搜全部集群（再也不用记那么多 context ）\nPod 挂了个一键 AI 诊断按钮（省得一个个去看日志）\n看到啥 YAML 配置都能让 AI 解释下（再也不用查 k8s 文档）\n浏览器打开就能用\n代码在这： https://github.com/KusionStack/karpor\n今天刚上 Product Hunt ，有兴趣的老哥可以帮忙点个赞： https://www.producthunt.com/posts/karpor",
           "link": "https://www.v2ex.com/t/1105332",
           "publishedOn": "2025-01-15T09:46:07.000Z",
-          "wordCount": 405,
+          "wordCount": 429,
           "title": "给 K8s 装了个可视化 AI 助手，开源给大家玩",
           "imageUrl": null
         },
@@ -598,7 +598,7 @@
           "description": "atao777: \n如题，哪位老哥知道怎么不去香港线下找回密码呢？",
           "link": "https://www.v2ex.com/t/1105329",
           "publishedOn": "2025-01-15T09:32:22.000Z",
-          "wordCount": 384,
+          "wordCount": 389,
           "title": "中银香港卡，网申成功，密码忘了，不去线下怎么找回？",
           "imageUrl": null
         },
@@ -688,7 +688,7 @@
           "description": "5261: \n年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税\n除了吐槽和专项扣除外，貌似没其他办法可以减轻个税了吧？",
           "link": "https://www.v2ex.com/t/1105319",
           "publishedOn": "2025-01-15T08:54:32.000Z",
-          "wordCount": 556,
+          "wordCount": 570,
           "title": "年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税",
           "imageUrl": null
         },
