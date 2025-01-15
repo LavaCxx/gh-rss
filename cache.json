@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -292,6 +286,226 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1105391",
+          "author": "bfjm",
+          "description": "bfjm: 有开源库有这样的功能吗\n因为这个 map 的 key 是需要通过 objectpool 的方式复用 外部传进去的 key 只能做查找功能 我需要拿到 map 内部对象的 key 遍历的方式不考虑",
+          "link": "https://www.v2ex.com/t/1105391",
+          "publishedOn": "2025-01-15T15:15:59.000Z",
+          "wordCount": 544,
+          "title": "Java 如何获取 Map 内部对象的 key",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105390",
+          "author": "tomorrow092",
+          "description": "tomorrow092: \nhttps://imgur.com/zhg2LMm",
+          "link": "https://www.v2ex.com/t/1105390",
+          "publishedOn": "2025-01-15T15:14:45.000Z",
+          "wordCount": 377,
+          "title": "Just show us your code.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105389",
+          "author": "liangjiahui",
+          "description": "liangjiahui: \n97 年湘 B 人，目前居住在长沙。未啃老在长沙有一套一百多一点平的房子，未婚无车无房贷，从事 IT 行业，目前的工资也还算过得去，但是内心总想着去外面看看（可能我一毕业就一直呆在长沙的缘故吧）目前想在广州、成都、重庆三之间选一个，想听听各位佬有什么建议没，听劝",
+          "link": "https://www.v2ex.com/t/1105389",
+          "publishedOn": "2025-01-15T15:13:44.000Z",
+          "wordCount": 427,
+          "title": "想换做城市生活，想听听各位佬的建议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105388",
+          "author": "ly1878",
+          "description": "ly1878: 如题，每次要手动右键选择比较麻烦，感觉挺实用的功能，请大佬指教。",
+          "link": "https://www.v2ex.com/t/1105388",
+          "publishedOn": "2025-01-15T15:12:23.000Z",
+          "wordCount": 348,
+          "title": "Paste 软件中，如何能快速将粘贴内容“固定上标签”，就是各粘贴内容上方带颜色的圆点，官网教程快捷键看了没找到。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105387",
+          "author": "lovebrookes",
+          "description": "lovebrookes: 作为一名项目管理专家，拥有丰富项目管理与部门管理经验，职业规划清晰，核心能力与业务知识不断进阶，秉持 “第三选择” 理念达成共赢。\n    在阿里&联通合资公司工作 6 年，以互联网模式运作，曾独立支撑项目管理工作，搭建项目管理体系，孵化产品，获特别贡献奖，后晋升为项目部经理，组建团队负责多行业交付项目管理。另在上市公司任职 9 年，身兼项目经理与产品经理，涉及大数据等多领域，深度参与项目全流程环节，综合能力过硬。\n    服务超 50 家包括政府、事业单位、公安、企业等客户，有千万级、亿级大型复杂项目交付经历，从事 AI 、大数据、互联网&舆情、融媒体，智慧城市&数字政府、政务热线&智能客服、水利环保等相关管理工作。\n    \n    欢迎内推，如有意，劳驾加微信，详聊。\n    \n    微信：szdaitu",
+          "link": "https://www.v2ex.com/t/1105387",
+          "publishedOn": "2025-01-15T14:55:59.000Z",
+          "wordCount": 369,
+          "title": "[已离职] 求北京 PM 岗位，大佬路过别错过，海底捞了，来呀、内推吧。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105386",
+          "author": "FynnZ",
+          "description": "FynnZ: \n新手用 AI 写了个 next.js 项目，构建的时候总是报错，AI 也解决不了问题。。\n这是报错代码：\nFetching tools from: https://your-vercel-app-url.vercel.app\nFull API URL: https://your-vercel-app-url.vercel.app/api/sites\nAPI Response Status: 404\nError fetching tools: Error: Failed to fetch tools: 404 Not Found\nat c (.next/server/app/page.js:1:28997)\nat async f (.next/server/app/page.js:1:29346)\nFinalizing page optimization ...\nCollecting build traces ...\n我在 vercel 的环境变量设置中新增了：\nkey：NEXT_PUBLIC_BASE_URL\nValue： https://linkary-puce.vercel.app\nEnvironments 勾选了 Production 和 Preview\n最后在 Redeploy 的时候选择了 Production ，然后总是报错，看起来是环境变量没有生效；\n但是我在代码中强制使用 vercel 的 URL ，就能正常跑下去。\npage.tsx 代码：\nasync function getTools(): Promise<ToolsResponse> {\ntry {\nconst baseUrl =\nprocess.env.NEXT_PUBLIC_BASE_URL || \"https://your-vercel-app-url.vercel.app\";\nconsole.log(\"Fetching tools from:\", baseUrl);\nconsole.log(\"Full API URL:\", ${baseUrl}/api/sites);\nconst res = await fetch(`${baseUrl}/api/sites`, {\n  next: { revalidate: 60 },\n  headers: {\n    \"Content-Type\": \"application/json\",\n  },\n});",
+          "link": "https://www.v2ex.com/t/1105386",
+          "publishedOn": "2025-01-15T14:44:50.000Z",
+          "wordCount": 447,
+          "title": "小白求教： next.js 项目部署 vercel 环境变量不生效",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105384",
+          "author": "deepremote",
+          "description": "deepremote: \n基本情况\n事情是这样的，2023 年 4 月，被招聘入职这家公司做前端开发，主要是地质方面 3d 可视化，这个公司老板是加拿大华裔，具体其他情况我也懒的打听，工作内容是远程和甲方进行合作开发项目，但是期间一直拖欠薪资，我们一直催，就是一直说下周，至少不下十次，我们几个都是超级无语，但是因为是华裔，所以也就默认欠着，说着也是非常真诚，所以就一直断断续续欠着，合同也没签，一催老是拖着。\n项目出现问题\n项目总共是包括我在内三个人在做，需求都是我们自己和甲方来对接，他基本全程不管，就这样做到直到 2024 年 6 月左右，然后甲方乱提一些奇葩需求，就出现一直扯皮，这些事我们都反馈给他了，然后他和甲方全程对接，具体对接的啥内容，我们去问只字不提，我们根本不知道他们开会的内容等，然后按照需求继续做，最后到 9 月份的时候，他宣布和甲方分离，他想自立门户，就是想独吞项目成果，期间甲方也提出过把我们并入他们团队，他不同意，这期间拖欠我们好几个月薪资，奇葩的来了，惊掉了我们的下巴，甲方欠他的钱，让我去向甲方要，人不要脸到这种程度，最后甲方的钱还是我威胁要起诉才要到的。\n新公司与起诉事件\n9 月份他成立了新公司，说要把没做好的东西重新做一下，重新设计架构，这块是另一个同事在做，因为来的时间比我长，资历深，所以我依然只是做其他相关的功能，其中有个体数据这个功能我从来没做过，我也不知道这块，然后昨天就给我发了要起诉我的消息，我完全懵逼之中，前段时间都是好好的，应该是他和甲方突然谈崩了，具体什么情况，他只字不提，我们三个都是懵逼中，反正就是认定是我们的责任，突然发来这么一个消息，具体消息我放在下面了，真的把我气的，关键是还欠我两个月薪资，这就很恶心，真是知人知面不知心，什么样的垃圾都会有。\n针对他发的信息，我简短说下，我们做的是一个库，需要可视化很多东西包括体数据、地形、井筒、构造体、栅状图等等，我们技术选型是 babylonjs ，它是一个 3d 框架，做这些完全没有问题，也不存在技术选型错误，然后他说的我们这个库不支持几百 M 数据的体数据，这个我们都不知道有这么大数据，也没有任何人提过，他的意思 vtkjs 做体数据比较好，我也不知道 t 他如何得出的比较好，反正我啥都不知道，他也从来不说，即使我们问，他会说，我们没必要知道，真的郁闷，然后框架选型不是我做的，突然就发我这么一个消息。\n总结\n希望大家曝光这种垃圾行为，共同净化国内职场环境。\n原聊天截图：",
+          "link": "https://www.v2ex.com/t/1105384",
+          "publishedOn": "2025-01-15T14:33:29.000Z",
+          "wordCount": 409,
+          "title": "公司要起诉员工赔偿损失，离了个大谱！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105383",
+          "author": "5261",
+          "description": "5261: \n酒仙们，清香型低度数白酒有推荐的吗？\n实在是对酒不懂，家人说平时只喝清香型低度数白酒，有酒友推荐几款口粮、中端、高端清香型白酒看看",
+          "link": "https://www.v2ex.com/t/1105383",
+          "publishedOn": "2025-01-15T14:30:59.000Z",
+          "wordCount": 379,
+          "title": "酒仙们，清香型低度数白酒有推荐的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105382",
+          "author": "baobao1270",
+          "description": "baobao1270: \n这是一个纯 shell 实现的 HTTP 服务器，能够使用 GET/POST 请求读写 Working directory 下的文件。\n可以通过 PORT 和 KEY 环境变量设置监听的端口和写入操作的 API Key 。如果没有指定，那么会自动生成一个 UUID 作为 API Key ，并且在控制台打印出来。写入操作应该设置 Authorization 头为： APIKey 你的 API 密钥。\n对于中文或者没有正确 URL Encode 的请求支持应该不太好。\n如果想要结束服务器，请在服务器目录下运行 kill -9 $(cat server.pid)。\n虽然做了一些安全措施，但是 shell 写的东西总归有些危险，不建议在有个人数据且暴露公网的设备上长期运行。\n当然，这个服务器很简陋，也不支持多进程、多连接、可能有 race condition 问题，但是 just for fun ，更多的是作为一个「 shell 也可以写 HTTP 服务器」的概念验证。如果对代码有什么建议也欢迎提出。\n#!/bin/bash\nfunction server {\nread il\necho \"recv_il: $il\" >&2\nmethod=$( echo \"$il\" | cut -d\" \" -f1)\npath=$(   echo \"$il\" | cut -d\" \" -f2)\nproto=$(  echo \"$il\" | cut -d\" \" -f3)\necho \"method: $method\" >&2\necho \"path:   $path\"   >&2\necho \"proto:  $proto\"  >&2\n\ndeclare -A hdr\nwhile read line; do\nsline=`echo $line | tr -d '[\\r\\n]'`\n[ -z…",
+          "link": "https://www.v2ex.com/t/1105382",
+          "publishedOn": "2025-01-15T14:28:32.000Z",
+          "wordCount": 951,
+          "title": "Pure Shell HTTP Server",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105381",
+          "author": "infinityv",
+          "description": "infinityv: \n半年前发了一次，也推到了优秀的同学进组，这次继续～\n简历可以发邮箱，ok 的直接推组内安排面试，效率比较快。\n重点：要求有一定业务运维/稳定性 经验，Go 开发经验的加分。\n邮箱:\ndG93aGVhZC5kcmFncy0xakBpY2xvdWQuY29t\n经验 1-3 年左右\n薪资范围: 20-30k x 16\n职位详情\n-负责百度大规模分布式系统及各类在线服务可靠、稳 定、高效运行\n-关注业界前沿接入技术动态,负责超大规模流量接入 系统的优化,演进和新接入技术探索和应用\n-参与在线系统和各类产品架构设计及自动化系统的实 现,满足严格的质量与效率要求\n-设计、开发端到端的解决方案,包括网站加速、持续 交付、容量管理、弹性计算、故障分析、流量分配、 性能调优等\n-探索运维自动化和智能化的技术和方向\n任职要求\n-熟练掌握至少一种计算机编程语言\n-良好的逻辑思维和分析能力,热衷于解决问题、追求 极致\n-强烈的责任心、进取心、团队合作精神和 Ownership\n-有较强的数学建模和问题分析能力;有非常好的科研 素养,有论文成果\n-本科及以上学历,专业不限,此岗位也欢迎数学、物 理、自动化等非计算机专业的同学投递",
+          "link": "https://www.v2ex.com/t/1105381",
+          "publishedOn": "2025-01-15T14:26:46.000Z",
+          "wordCount": 379,
+          "title": "[百度社招] [北京] SRE 工程师",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105380",
+          "author": "kyonn",
+          "description": "kyonn: \nhttps://us.v2ex.com/t/1076964  这个帖子里说 \n想通过小爱控制 HA 设备，主流有两个路子，一是用 Miot 插件接入小爱，拿到小爱的会话内容，然后自己在 HA 里用自动化做语义判断，但这个语义处理起来是相当麻烦。二是接入巴法云做一层转换，把 HA 的设备同步到巴法云，然后米家接入巴法云并导入你的设备，但巴法云稳定性好像不太好，看 HA 群里的老哥经常说掉线。\n单纯想实现语音控制的话，其实最好是用 HomePod+Siri 来控制，HA 设备导入 HomeKit 也简单很多，小爱的 HomePod 我都有，体验起来 Siri 响应比小爱好很多很多，缺点就是 HA 拿不到 Siri 的会话内容所以做不了自定义的语音指令。 \n比如我想通过小爱同学控制 wol 的话, 有没有更好的办法, 一定要弄什么巴法云吗?\n用小爱同学控制台式机睡眠和唤醒的思路 - 知乎",
+          "link": "https://www.v2ex.com/t/1105380",
+          "publishedOn": "2025-01-15T14:25:53.000Z",
+          "wordCount": 478,
+          "title": "小米开源 ha 插件后, 想用小爱音响自定义语音触发某个 webhook, 有没有更好的办法?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105379",
+          "author": "love8",
+          "description": "love8: \n夹总估计气的拍桌子：他们怎么不来微博啊，然而...\n夹总一拍桌子刚点开的微博自动跳转到淘宝 :rofl:\n所以，为什么就只有小红书能接住这破天的富贵？",
+          "link": "https://www.v2ex.com/t/1105379",
+          "publishedOn": "2025-01-15T14:10:16.000Z",
+          "wordCount": 407,
+          "title": "夹总估计气的拍桌子：他们怎么不来微博啊，然而...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105378",
+          "author": "zle12688",
+          "description": "zle12688: \n用了一段时间，感觉 notion 这款笔记应用挺好用的，建了一个交流群，另外免费为没有 notion 教育版会员的 v2 小伙伴提供 edu 邮箱，有需要的小伙伴可以加群交流和获取 edu 邮箱。\n\n不知道本帖是否合规，如果不符合论坛规则，请管理员删除（别 ban 我号😂），谢谢",
+          "link": "https://www.v2ex.com/t/1105378",
+          "publishedOn": "2025-01-15T13:56:48.000Z",
+          "wordCount": 368,
+          "title": "建了一个 Notion edu 交流群",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105377",
+          "author": "MuscleOf2016",
+          "description": "MuscleOf2016: \n老妈一直吐槽了，好几次现在用的安卓手机卡，一直拖着没给她换。今天用之前旧的 iPhoneXR + 京东依旧换新，换了个 16 新机子，老妈晚上用的很开心。",
+          "link": "https://www.v2ex.com/t/1105377",
+          "publishedOn": "2025-01-15T13:37:15.000Z",
+          "wordCount": 475,
+          "title": "开心！年前给妈妈换了新手机 iphone16。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105376",
+          "author": "KlesaOff",
+          "description": "KlesaOff: \n最近在自学 Rust ，因为之前粗略看过一些博客教程，所以这次直接看Programming Rust这本书的翻译版，在第 5 章“引用”中遇到一个例子，感觉不能理解。\n首先看书中图 5-9 的所有权树，讲了对于可变和不可变引用时的访问关系，我以为自己理解了，可是后面看到这个例子，结果又看不明白，代码是这样的：\n...\n也可以再次借用一个可变引用：\nlet mut v = (136, 139);\nlet m = &mut v;\nlet m0 = &mut m.0;  // ok：从可变引用重新借用可变引用\n*m0 = 137;\nlet r1 = &m.1;      // ok：从可变引用重新借用共享引用,并且和 m0 没有重叠部分\nv.1;        // error：通过其他路经访问仍然是禁止的\nprintln!(\"{}\", r1); // r1 在这里使用\n\n\n其实从第一个 ok 注释那里我就没搞明白，不是说变量只能同时存在一个可变引用吗，为什么有可变引用(“引用”为名词)m 的情况下还能从 m 那再可变引用（“引用”为动词）一个 m0 ？\n然后我问 gpt ，它是这么回答的：\n...\n嵌套 mut 引用的场景\n假设你有一个可变变量，并希望对其创建嵌套的可变引用。以下\n是一些常见的情况及其分析。\n情况 1：对整个变量的可变引用，然后尝试对部分值的可变引用\nfn main() {\n    let mut x = (1, 2);\n\n    let r1 = &mut x;       // 对整个变量 `x` 的可变引用\n    let r2 = &mut r1.0;    // 尝试对 `x` 的一部分创建可变引用\n\n    *r2 = 42;              // 修改部分值\n    r1.1 = 99;             // 修改另一部分\n}\n\n错误原因：\nRust 编译器会报错，提示 不能同时借用 x 的多个可变引用。这是因为：\nr1 是对整个 x 的可变引用，它控制了 x 的独占访问权。\n当你尝试对 r1.0 （ x 的某个字段）创建可变引用时，r1 的作用域依然活跃，Rust 无法区分你是否会同时操作 x 的其他部分。\n错误示例的编译器消息（可能类似于）：\nerror[E0499]: cannot borrow `r1.0` as mutable more than once at a time\n\n...\n但事实上，我尝试了类似代码，并不会报错:\nfn main() {\n    let mut v = (136, 139);\n    let m = &mut v;\n    let m0 = &mut m.0;\n    *m0 = 137;\n    m.1 = 42;\n    println!(\"{:?}\", v)\n}\n\n其运行结果是:\n(137, 42)\n\n很多资料都没有讲解关于这种嵌套的引用会发生什么结果，也不知道什么情况是可以什么是不行，我没看过这例子时还以为压根不能创建 m0 呢，所以想着找 GPT 问问，结果告诉的内容是错的。\n请问该如何解释上面书中的代码，如何更好地理解 Rust 在这种嵌套情况下创建引用的做法是否成功？请各位赐教",
+          "link": "https://www.v2ex.com/t/1105376",
+          "publishedOn": "2025-01-15T13:35:05.000Z",
+          "wordCount": 785,
+          "title": "关于 Rust 所有权，如果对 mut 变量进行嵌套 mut 引用该怎么理解？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105375",
+          "author": "dengyao1014",
+          "description": "dengyao1014: \nHey everyone! I wanted to share a free tool I built that helps create engaging content for Xiaohongshu/RED (Chinese Instagram/Pinterest).\n🔗 Try it here: https://rednote.pics/\n✨ Key Features:\nOne-click content generation\nSupports 12 languages (including English, Chinese, Japanese, Korean, etc.)\nBuilt-in templates for different content types\nAuto emoji placement\nProper formatting for RED platform\n100% Free to use\nPerfect for:\nInternational brands entering Chinese market\nContent creators\nSocial media managers\nAnyone interested in RED platform\nJust choose a template (or input your own content), select your language, and click generate. The AI will transform it into RED's signature style with emojis and proper formatting.\nWould love to hear your feedback! Let me know if you have any questions.\nEdit: If the main domain (rednote.pics) doesn't work, please use the Vercel link above.",
+          "link": "https://www.v2ex.com/t/1105375",
+          "publishedOn": "2025-01-15T13:31:51.000Z",
+          "wordCount": 485,
+          "title": "🚀 [Free Tool] I made an AI-powered content generator for RedNoteApp/Xiaohongshu",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105373",
+          "author": "V2April",
+          "description": "V2April: \n而是要么反复做同样的事（比如在火车站被闸机拦住，上面明明大字提示请去人工窗口，却站在机器里面反复拿走放回 ta 的身份证），要么无脑扔给别人解决（只会问我的 xx 软件报错怎么办，明明错误信息上已经说了问题是什么如何解决），要么直接放弃使用（然后到处说 xxx 不好用，或者 xxx 我不会用）",
+          "link": "https://www.v2ex.com/t/1105373",
+          "publishedOn": "2025-01-15T13:14:07.000Z",
+          "wordCount": 426,
+          "title": "我发现身边总有这么一种人， ta 看到报错后的第一反应永远不是阅读错误信息",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105372",
+          "author": "zhangchongjie",
+          "description": "zhangchongjie: 不晓得是我火星了还是怎么，今天才发现 arch 挂起后，只能用电源唤醒，usb 鼠标键盘都不行。工作用的测试机装了 ubuntu24 也是一样的情况。\n   查看后发现 usb 设备是关闭了的，xdm 有没啥好方法，可以做到 usb 唤醒，我直接 vi 后开机会恢复\n   \n 桌面环境 kde\n   \n /sys/bus/usb/devices/1-5/power/wakeup:enabled\n/sys/bus/usb/devices/1-6/power/wakeup:disabled\n/sys/bus/usb/devices/1-8/power/wakeup:disabled\n/sys/bus/usb/devices/usb1/power/wakeup:disabled\n/sys/bus/usb/devices/usb2/power/wakeup:disabled\n/sys/bus/usb/devices/usb3/power/wakeup:disabled\n/sys/bus/usb/devices/usb4/power/wakeup:disabled",
+          "link": "https://www.v2ex.com/t/1105372",
+          "publishedOn": "2025-01-15T13:12:46.000Z",
+          "wordCount": 392,
+          "title": "Arch 默认不能 usb 唤醒？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105371",
+          "author": "AelecTi",
+          "description": "AelecTi: \n通过 API 向\"o1-preview\"模型提问hello或者只打一个1（或者任何其它 prompt ），出现报错: Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt. （ Playground 症状相同）\n实在想不通一个 hello 是怎么违反的用户守则，之前本来用的好好的，现在已经和 openai 的客服扯皮一个月了，问就是正在火速修复，然后预存的 API 费用也不给退。想知道 V 友们有遇到类似情况吗\n\n\n平常都只有自己一个人用，问的也全是正常问题，不知道是不是 openai 发现我是大陆用户然后 ban 了",
+          "link": "https://www.v2ex.com/t/1105371",
+          "publishedOn": "2025-01-15T13:02:11.000Z",
+          "wordCount": 378,
+          "title": "o1-preview API 现在连个\"hello\"都不能问了吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105369",
+          "author": "lucasj",
+          "description": "lucasj:",
+          "link": "https://www.v2ex.com/t/1105369",
+          "publishedOn": "2025-01-15T12:33:51.000Z",
+          "wordCount": 371,
+          "title": "TikTok 即将被禁，「小红书」涌入大量美国人。美国人： Make 「小红书」 Great Again！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105368",
+          "author": "kirieievk",
+          "description": "kirieievk: \n很多电影不在香港,台湾新加坡区.\n在很多其他国家可以播放但是没中文字幕.这个怎么破.",
+          "link": "https://www.v2ex.com/t/1105368",
+          "publishedOn": "2025-01-15T12:33:47.000Z",
+          "wordCount": 387,
+          "title": "netflix 的非奈飞原创电影如何设置中文字幕",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105367",
+          "author": "shenzhuoyan",
+          "description": "shenzhuoyan: 本市没岗位可以报，省会难考，隔壁市还不错，会不会离家太远不值得？",
+          "link": "https://www.v2ex.com/t/1105367",
+          "publishedOn": "2025-01-15T12:26:47.000Z",
+          "wordCount": 399,
+          "title": "隔壁市的公务员应该报吗？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1105365",
           "author": "GoRuby",
           "description": "GoRuby: \n有没有类似这样的开源项目。项目就是一堆配置文件。分成很多目录，每个目录就是一个开源软件，比如 zabbix、mysql、mongo_cluster，不同的目录下面是 docker-compose.yaml 以及相关配置文件。想使用啥组件的时候直接进去 docker compose up -d 即可。\n省得我去到处找 docker compose 文件的时间了，如果文档比较完善就更好了。",
@@ -347,7 +561,7 @@
           "description": "thorby: \n能撑半年吗？\n以我每天看 tt 和 x 来看，让国外博主进入小红书，国内一半的博主都没得玩了，更别说那些知识付费的。",
           "link": "https://www.v2ex.com/t/1105360",
           "publishedOn": "2025-01-15T11:46:14.000Z",
-          "wordCount": 609,
+          "wordCount": 646,
           "title": "你觉得小红书现在不分区，全世界在一起交流，能坚持多久？",
           "imageUrl": null
         },
@@ -377,7 +591,7 @@
           "description": "winterfell00: 比如说能够定时调用天气查询的接口，如果天气要下雨就通过 webhook 发送通知，最好是能够自部署的。",
           "link": "https://www.v2ex.com/t/1105355",
           "publishedOn": "2025-01-15T11:19:19.000Z",
-          "wordCount": 506,
+          "wordCount": 517,
           "title": "求助，有没有能够支持调用外部 api 然后根据返回结果调用 webhook 进行消息通知的工具",
           "imageUrl": null
         },
@@ -387,7 +601,7 @@
           "description": "Awes0me: \n我没驾照，也不会开车，我们住的有点远大概 20km ，他 5.30 下班，我 6.30 下班\n以前是周五下班了来接我，周日送回来，现在说来回接送很累，希望我自己坐地铁，可是我坐地铁要 40 分钟啊，下了地铁还要走 20 分钟。\n开车就算堵车也才 40 分钟，而且怎么说也是坐在车上等吧，我挤地铁大部分时间都得站着，还得背个 3-4kg 的包，我觉得地铁挺辛苦的。\n感觉不对劲，这是要黄了吧\n大城市想找个对象真的好难啊",
           "link": "https://www.v2ex.com/t/1105354",
           "publishedOn": "2025-01-15T11:00:34.000Z",
-          "wordCount": 853,
+          "wordCount": 878,
           "title": "开车很累吗？",
           "imageUrl": null
         },
@@ -457,7 +671,7 @@
           "description": "ysy950803: 这几天看到国内版本的小红书多了很多英文内容和外国人，感觉像是官方的营销，难道小红书海外用户和国内用户数据是互通的？这不合规吧？",
           "link": "https://www.v2ex.com/t/1105347",
           "publishedOn": "2025-01-15T10:24:14.000Z",
-          "wordCount": 543,
+          "wordCount": 553,
           "title": "小红书不分海内外服务器吗？",
           "imageUrl": null
         },
@@ -499,206 +713,6 @@
           "publishedOn": "2025-01-15T10:08:04.000Z",
           "wordCount": 335,
           "title": "有没有小众的投资论坛或者书籍可以推荐的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105339",
-          "author": "charleschilips",
-          "description": "charleschilips: 医生应该是二十七八这样子（我今年刚满 30 ）\n挺好看的\n反正我心动了\n开药的时候给我留了个手机号\n说用药上面不懂的问她\n我搜了一下，是那种卡通头像，应该是私人号\n这种能说明什么吗？\n有发展的可能吗\n还是我想入非非太多了？",
-          "link": "https://www.v2ex.com/t/1105339",
-          "publishedOn": "2025-01-15T10:03:15.000Z",
-          "wordCount": 805,
-          "title": "今天去看医生（心理科），医生给我留了个私人手机号",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105338",
-          "author": "zhhqiang",
-          "description": "zhhqiang: \n如题，正在解压备份数据，准备恢复。是否还有其他解决方案吗？大佬们\nps: 刚发现的那一刻, 心都到嗓子眼了。 - -！",
-          "link": "https://www.v2ex.com/t/1105338",
-          "publishedOn": "2025-01-15T10:01:06.000Z",
-          "wordCount": 412,
-          "title": "更新没加条件，把整个表都搞成一样的了，有啥快速恢复方法。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105337",
-          "author": "clingTeen",
-          "description": "clingTeen: \n背景：地点江苏 10 月末入职外包，在甲方驻场，3 个月试用期未过，乙方资质到期，新标未中（甲方消息 24 年预算超出，申请增加预算的标被截胡，2 月份会有 25 年高预算新标发出）。\n乙方领导沟通 两个选择：\n一、走裁员 时间定到 23 号 赔偿半月工资。\n二、走停薪留职 23 号之后工作日补助 130/天 到 2 月底 乙方续标重新驻场。\n个人背景：92 年前端 8 年经验 水平一般 技术栈 Vue3+TS  PC 小程序混合 APP 业务都能处理\n求大佬们给点意见，分析分析利弊，怎么选",
-          "link": "https://www.v2ex.com/t/1105337",
-          "publishedOn": "2025-01-15T09:59:48.000Z",
-          "wordCount": 405,
-          "title": "年终裁员，大佬们给点建议",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105336",
-          "author": "ooo4",
-          "description": "ooo4: \n去年买的二手房，买的时候没怎么上心，就急急忙忙定下来。入住之后发现吵得批爆，靠近高架，有时候能感受到地面那种震动感，还有楼上有个傻逼，也吵得很（沟通无果），就有点想卖房子了。最近在贝壳上发现这个小区有好几家都在卖，而且都挂了快 1 年了，都卖不出去，我感觉我也卖不出去了...",
-          "link": "https://www.v2ex.com/t/1105336",
-          "publishedOn": "2025-01-15T09:59:13.000Z",
-          "wordCount": 458,
-          "title": "感觉房子卖不出去了。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105335",
-          "author": "javazero",
-          "description": "javazero: \n大部分 base 模型都没有做过 RLHF 和 DPO 。试了几个 base 模型感觉很有潜力😈",
-          "link": "https://www.v2ex.com/t/1105335",
-          "publishedOn": "2025-01-15T09:57:38.000Z",
-          "wordCount": 343,
-          "title": "怎么没看到有人做嘴臭大模型",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105334",
-          "author": "archxm",
-          "description": "archxm: \n是不是可以用亚马逊，地址填对方地址，购买？\n是否还要另外银行卡？",
-          "link": "https://www.v2ex.com/t/1105334",
-          "publishedOn": "2025-01-15T09:55:08.000Z",
-          "wordCount": 372,
-          "title": "国内如何给国外的亲属买东西？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105333",
-          "author": "sophiayao",
-          "description": "sophiayao: 新加坡海外小而美游戏公司，寻找\n高级 Unity 开发工程师\n岗位职责：\n1.负责 Unity 手游客户端功能设计和开发；\n2.负责与服务端、美术及策划团队沟通，保证项目客户端效果实现；\n3.高效的与服务端开发合作设计编码和调试；\n4.参与/负责手游客户端的性能优化。\n任职要求：\n1.本科及以上学历，计算机相关专业；\n2.5 年以上游戏相关开发经验，有完整项目开发经验以及参与核心功能开发经验；\n3.熟练掌握 Unity 相关的插件及优化技术；\n4.熟练使用 c/c++/c#编程语言；\n5.持续的学习能力，自驱力强，有良好的沟通能力，具备团队合作精神；\n6.能承受一定的工作压力，对游戏开发充满热情。\n游戏偏好来说 RPG/卡牌/SLG 都可以\n支持新加坡 EP ，可以中文技术面（能看懂英文文档）\n预算 8000-12000 新币月薪\n有兴趣的欢迎带简历详聊\n微信：sophia_liu611\n邮箱： sophia.liu@dadaconsultants.com",
-          "link": "https://www.v2ex.com/t/1105333",
-          "publishedOn": "2025-01-15T09:53:49.000Z",
-          "wordCount": 379,
-          "title": "[base 新加坡][提供 EP]新加坡小游戏公司招聘高级 Unity 开发工程师",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105332",
-          "author": "windcode",
-          "description": "windcode: \n写了个工具解决自己的痛点，顺便开源出来。本质就是不想再对着终端 kubectl + grep + 来回切集群 context 查问题了 😅\n几个好玩的功能：\n一键搜全部集群（再也不用记那么多 context ）\nPod 挂了个一键 AI 诊断按钮（省得一个个去看日志）\n看到啥 YAML 配置都能让 AI 解释下（再也不用查 k8s 文档）\n浏览器打开就能用\n代码在这： https://github.com/KusionStack/karpor\n今天刚上 Product Hunt ，有兴趣的老哥可以帮忙点个赞： https://www.producthunt.com/posts/karpor",
-          "link": "https://www.v2ex.com/t/1105332",
-          "publishedOn": "2025-01-15T09:46:07.000Z",
-          "wordCount": 444,
-          "title": "给 K8s 装了个可视化 AI 助手，开源给大家玩",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105330",
-          "author": "clear",
-          "description": "clear: \n有很多 NFC 卡需要随时切换。\n问下大家，哪家系统 NFC 复制和场景自动切换功能做的最完善、最好用？\n或者有没有专用设备，处理这种情况？\n感谢！",
-          "link": "https://www.v2ex.com/t/1105330",
-          "publishedOn": "2025-01-15T09:42:16.000Z",
-          "wordCount": 427,
-          "title": "问下现在 NFC 复制、切换做的最好的手机是哪家？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105329",
-          "author": "atao777",
-          "description": "atao777: \n如题，哪位老哥知道怎么不去香港线下找回密码呢？",
-          "link": "https://www.v2ex.com/t/1105329",
-          "publishedOn": "2025-01-15T09:32:22.000Z",
-          "wordCount": 408,
-          "title": "中银香港卡，网申成功，密码忘了，不去线下怎么找回？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105327",
-          "author": "josephok",
-          "description": "josephok: \nhttps://www.nfnews.com/content/m3PXYnDb3r.html\n“新标准维持 2018 版标准中有关最高设计车速的规定，即具有电驱动功能的电动自行车最高设计车速不得超过每小时 25 千米，并增加超过每小时 25 千米时电动机应停止提供动力输出的要求。\n在提升车辆整体安全性能方面，增加北斗定位、通信与动态安全监测功能；通过在铭牌、产品合格证上明确标注建议使用年限，提醒消费者及时淘汰超期服役产品。”",
-          "link": "https://www.v2ex.com/t/1105327",
-          "publishedOn": "2025-01-15T09:23:53.000Z",
-          "wordCount": 378,
-          "title": "电动自行车新国标要来了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105326",
-          "author": "windcode",
-          "description": "windcode: \n写了个工具解决自己的痛点，顺便开源出来。本质就是不想再对着终端 kubectl + grep + 来回切集群 context 查问题了 😅\n几个好玩的功能：\n一键搜全部集群（再也不用记那么多 context ）\nPod 挂了个一键 AI 诊断按钮（省得一个个去看日志）\n看到啥 YAML 配置都能让 AI 解释下（再也不用查 k8s 文档）\n浏览器打开就能用\n代码在这： https://github.com/KusionStack/karpor\n今天刚上 Product Hunt ，有兴趣的老哥可以帮忙点个赞： https://www.producthunt.com/posts/karpor",
-          "link": "https://www.v2ex.com/t/1105326",
-          "publishedOn": "2025-01-15T09:15:57.000Z",
-          "wordCount": 397,
-          "title": "给 K8s 装了个 AI 助手，开源给大家玩",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105325",
-          "author": "461229187",
-          "description": "461229187: \nNoteGen\nNoteGen 是一款专注于记录和写作的跨端 AI 笔记应用，基于 Tauri 开发。\n项目地址：https://github.com/codexu/note-gen\n使用文档：https://codexu.github.io/note-gen-help/\n\n特性\nNoteGen 的核心理念是将记录、写作和 AI 结合使用，三者相辅相成。\n它提供了强大的记录功能，帮助用户快速捕捉和整理碎片化知识。整理功能是连接记录和写作的桥梁，可将持续记录的内容整理成一篇可读的笔记，辅助用户完成从零到一的创作过程。\n写作工具内置 Markdown 编辑器，支持列表大纲、数学公式、图表、流程图、甘特图、时序图、五线谱等功能。\nAI 在记录中扮演了机器人的角色，你可以与它进行对话，问它与你记录有关的任何问题，也可以将它输出的内容作为记录保存下来。在写作中，AI 将扮演写作助手的角色，可以直接将输出的内容插入到编辑器中。\n记录\n支持截图、插图和文本的多种记录方式，用户可以根据不同场景灵活选择最适合的记录形式。借助 ChatGPT 的强大功能，您无需担心记录的顺序和完整性，轻松捕捉灵感与信息，提升记录效率。\n方式\n截图记录是 NoteGen 的核心功能。通过截图，用户可以快速捕捉和记录碎片化知识，尤其是在遇到无法进行文本复制的情况下。其原理是通过 OCR 识别图片中的文字，再使用 ChatGPT 进行总结。\n文本记录，可以确保内容的准确性，但是需要将文本复制至软件中，稍微增加了操作的复杂度。\n插图记录，可以在笔记生成时，自动插入到合适的位置，你也可以复制图片，在打开 APP 时会自动识别辅助导入，如果配置了同步功能，将使用图床链接。\n标签\n用户可以创建的标签，以便更好地归类和区分不同的记录场景。在文章生成时，这些标签及其对应的记录将会被删除（可选），从而保持内容的整洁和专注，当然其内容将在回收站中找回。\nAI 对话\n在你与 AI 对话时，默认关联当前标签下的记录，你也可以手动去关联写作内的任何文章。\n剪贴板识别\n在你进行图片或文本复制后，切回到软件界面时，软件会自动识别剪贴板中的图片或文本，此条内容将在 AI 对话中出现，你可以将其插图到记录中。\n整理\n整理功能作为记录与写作中间的桥梁。\n当你在不断的记录中，积攒了足够的内容，你可以使用整理功能，自动将所有记录整理成一篇可读的笔记，有效节省了手动整理所需的时间。\n\n此功能具备以下几个特点：\n支持输入个性化的需求。\n无需关心记录顺序，由 ChatGPT 辅助你整理。\n支持多种语言。\n当你整理出一篇满意的笔记后，你可以将其转换为文章进行写作，它将笔记转换为 .md 文件存储于本地，并跳转至写作页面进行后续的完善工作。\n写作\n写作模式是基于文件管理器和 Markdown 编辑器组合实现的，即使你不使用记录功能，它也可以完全独立使用。\n\n文件管理器\n支持本地和 Github 仓库的文件和文件夹的管理，支持二级目录。\n版本管理\nGithub 基于 Git 实现，所以天然支持版本管理，你可以在历史记录中回溯任何时刻的记录。\nAI 辅助\n基于 AI 实现在写作时支持问答、续写、优化、精简、翻译等功能，并且可以随时将记录插入到文章任何位置。\n图床\n你可以直接复制图片粘贴在 Markdown 编辑器中，软件将自动将此图片上传至图床，并转换为 Markdown 图片链接。\nHTML 转 Markdown\n你可以更加方便的将网页上的内容复制到 Markdown 编辑器中，软件将自动将此内容转换为 Markdown 格式。",
-          "link": "https://www.v2ex.com/t/1105325",
-          "publishedOn": "2025-01-15T09:15:42.000Z",
-          "wordCount": 506,
-          "title": "NoteGen 一款专注于记录和写作的跨端 AI 笔记应用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105324",
-          "author": "Charlie17Li",
-          "description": "Charlie17Li: \n背景\nlz 从今年国庆开始正式相亲，第一次相亲不太理想的点如下：\n男方发了照片，女方没有发，有点开盲盒\n见面的地点不太好找，对方说直接来家里不合适，但国庆哪哪都是人；最后在一个人不多的奶茶店\n见面时对方家长坐旁边，两个 I 人没怎么开口，都是家长聊\n见面后，加了微信，感觉是互相没看上，也不聊天。\n今年过年说要多见几个，说实话感觉有点作无用功，因为基本都是和我不在同一个城市。想问下大家有相亲修成正果的吗，以及大家如何处理这种相亲呢？",
-          "link": "https://www.v2ex.com/t/1105324",
-          "publishedOn": "2025-01-15T09:12:48.000Z",
-          "wordCount": 450,
-          "title": "[相亲]大家相亲一般是个什么流程？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105323",
-          "author": "ZGeek",
-          "description": "ZGeek: \n买回来一个天钡的 WTR PRO 5825U ，买回来后用了两周，机器突然断电了三次，前置的 UPS 彻底成了摆设，第一次第二次断电的时候只插了 2 块硬盘，第三次的时候插了 3 块硬盘在互相拷贝数据（ UPS 上查看功率不到 70W ），不知道各位遇到过类似的问题没，感觉好伤硬盘啊。",
-          "link": "https://www.v2ex.com/t/1105323",
-          "publishedOn": "2025-01-15T09:04:52.000Z",
-          "wordCount": 503,
-          "title": "天钡 WTR PRO 5825U 的质量好烂啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105322",
-          "author": "killerv",
-          "description": "killerv: \n前几天在山姆极速达买的牛乳馒头，第二天吃了几个发现有发霉的情况，联系客服，说让我们去三甲医院开具因食品原因造成身体不适的证明，一开始只说退货退款，再后来是送 400 元优惠券（商品价格 39.9*10 ），如果他们一开始态度就很好，我可能就接受了。现在我的诉求是按照食品安全法赔付 1000 元，他们说不支持。\n山姆的极速达问题之前就遇到过，那次买的土豆是发芽的，后来在网上看到不少案例，他们会把不好的商品放到线上售卖。山姆还标榜提供高品质商品，结果就这。售后也让人失望。\n本来不想折腾，但感觉咽不下这口气，投诉到 12345 ，等后续处理。",
-          "link": "https://www.v2ex.com/t/1105322",
-          "publishedOn": "2025-01-15T08:56:51.000Z",
-          "wordCount": 363,
-          "title": "山姆极速达买到发霉馒头，售后态度消极傲慢",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105321",
-          "author": "lyxxxh2",
-          "description": "lyxxxh2: \n给 ai 的问题\n我有一个 yolov8 模型,路径:/media/duyu/model/have_and_none/runs/detect/train66/weights/best.pt\n训练集路径:train/labels train/images\n验证集路径:val/labels val/labels\n训练集和验证集都是 labelme 软件标注的,标注文件也就是.json 文件,labelme 这个软件挺多人用的,你应该知道。\n有 3 个标签:have none other,对应的 yolov8 就是 0 1 2\n\n现在我需要你根据我提供信息编写验证模型正确率的脚本。\n示例流程：\n1. 推理图片: train/images/1.jpg\n2. 打开图片对应的标注文件,获取标注文件的框。\n3. 将标注的框和推理框进行 iou 匹配,即两个框 iou 有.4,则可以判定为同个框\n4. 如果标注的框都能找到推理框,且标签正确,则判定此张图片没问题。\n5. 没问题就可以结束这张图的处理了\n6. 此时是有问题了,即: 有标注框找不到推理框,或者找到的框标签错误。\n7. 标注框和推理框画在图片上,框左边加上字符串标识\n    - 如： \"l_have\"  \"y_none\"   (l 代表 labelme 的框  y 代表 yolo 的推理框)\n8. 保存图片到 model_test 文件夹,文件别改变。\n \n请编写脚本\n\ngpt\n\nimport 一堆库,又不使用\n给我感觉,就是故意恶心人。\n豆包\n\nimport os 呢???\n我手动给他补上,执行脚本。\nhttps://i.imgur.com/nZAObvG.png\n看来对库认知有问题\n通义\n\n连我话都理解错,我只是举例而已。\n感觉就像: 太复杂了,我逃避,忽悠过去得了。\n通义是我印象最差的,来自之前的积累,傻逼的不像话。\n\n文心\n\n上面有 import cv2,又不用,学 gpt 是吧。\narial.ttf 我又没这个文件",
-          "link": "https://www.v2ex.com/t/1105321",
-          "publishedOn": "2025-01-15T08:55:55.000Z",
-          "wordCount": 446,
-          "title": "各个 ai 平台稍微复杂的代码测试",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105320",
-          "author": "m0renet",
-          "description": "m0renet: \nRT\n预算 1W",
-          "link": "https://www.v2ex.com/t/1105320",
-          "publishedOn": "2025-01-15T08:54:37.000Z",
-          "wordCount": 376,
-          "title": "MacBook Pro 丐版 M3Pro 还是 M4",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105319",
-          "author": "5261",
-          "description": "5261: \n年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税\n除了吐槽和专项扣除外，貌似没其他办法可以减轻个税了吧？",
-          "link": "https://www.v2ex.com/t/1105319",
-          "publishedOn": "2025-01-15T08:54:32.000Z",
-          "wordCount": 634,
-          "title": "年底最后一个月的个税是真的重，尤其是叠加绩效薪资后的个税",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105316",
-          "author": "nizhong044",
-          "description": "nizhong044: 首先声明：本贴纯粹一时兴起，感觉好玩，绝无引战等伤害社区文明交流氛围等不良意图。大家文明吃瓜，看个乐呵。本人之前确实有些情绪波动，但现在已经看开放下。分享此贴是因为觉得 AI 模型的这个应用场景大有前途！\n\n起因：之前 emo 状态下发了个帖子《没有可以倾诉的知己是人生的常态么？》，与评论区的一位朋友发生了争论。两人你来我往，友好攀谈了数个回合。我有种有理说不清的感觉，关键时刻，灵光一闪，想到了 ChatGpt 。于是把两人的交谈记录整理成了文档发给了 ChatGpt 主持公道。\n\n输入语句：请阅读这份文档，在两者中选择一个人是杠精。必须选择一个！\n\nChatGpt 回复：\n在这场辩论中，Cxtrinityy 更像是杠精。\n尽管两人都展现了强烈的辩论风格，但 Nizhong044 的表达较为清晰，他的核心观点——“心意相通则是知己”——贯穿始终。相比之下，Cxtrinityy 经常绕圈子，反复挑剔对方的表述细节，甚至带有明显的逻辑纠缠和偷换概念的行为（如在讨论“同心”和“倾诉”的定义时反复挖掘歧义）。这种行为符合典型的杠精特征，即抓住不必要的细节持续争论而偏离主题。\n此外，Cxtrinityy 在几处语言上也展现了攻击性，比如“这种人找不到‘倾诉’的‘知己’那也是理应如此”，进一步增加了杠精的印象。\n\n通义回复：\n从对话中可以看出，两人都在争论关于“知己”的定义以及倾诉的意义，并且在讨论过程中都试图证明自己的观点正确。然而，根据对话的内容，Cxtrinityy 更多地在对 Nizhong044 的观点进行质疑和挑战，有时候似乎偏离了话题的核心，更关注于辩论的胜利而非理解对方的观点。Cxtrinityy 也确实提出了一些与 Nizhong044 观点相悖的问题，这导致了对话逐渐变得尖锐。\nNizhong044 则坚持自己对于“知己”和“倾诉”的看法，并且引用了许多古诗文来支持自己的观点。尽管 Cxtrinityy 对其进行了多次反驳，Nizzong044 依然尝试保持对话题的专注，虽然情绪上有所波动，但整体上还是希望能够表达自己的内心感受和寻找知己的愿望。\n如果必须选择一个“杠精”，基于对话内容，Cxtrinityy 显示出更多的争辩倾向，更专注于指出对方逻辑中的漏洞，有时甚至显得有些故意找茬的感觉。因此，在这次对话中，Cxtrinityy 更像是那个“杠精”。\n\n感言：看了两个 AI 模型的回复后，楼主流下了感动的泪水。科技的力量正在逐步改变我们的生活，感谢电子审判官主持公道！我感觉需要这个的人群还是很多的，这个应用场景真的大有可为！\n\n附上文档连链接，大家可以复现这不是我一面之词： https://limewire.com/d/4a21562b-d04b-46f3-a004-315c97dafcf3#1Kes9fS7L13zOnKSr7yPLk2-5oETY-oFte-vKNIwufo",
-          "link": "https://www.v2ex.com/t/1105316",
-          "publishedOn": "2025-01-15T08:50:04.000Z",
-          "wordCount": 430,
-          "title": "ChatGpt 妙用之谁是杠精！",
           "imageUrl": null
         }
       ]
