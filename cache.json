@@ -100,18 +100,14 @@
           "wordCount": 5608,
           "title": "How to Create Multi-Step Forms With Vanilla JavaScript and CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/382857"
-        },
-        {
-          "id": "https://css-tricks.com/?p=383250",
-          "author": "Geoff Graham",
-          "description": "What else do we want or need CSS to do? Chris kept a CSS wishlist, going back as far as 2013 and following back up on it in 2019. We all have things we'd like to see CSS do and we always will no matter how many sparkly new features we get. We'll round things up and put a list together — so let us know!\nWhat ELSE is on your CSS wishlist? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/what-else-is-on-your-css-wishlist/",
-          "publishedOn": "2024-12-17T20:07:30.000Z",
-          "wordCount": 2884,
-          "title": "What ELSE is on your CSS wishlist?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383250"
         }
       ]
+    },
+    {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -157,6 +153,23 @@
           "wordCount": 1056,
           "title": "第205期 - 听张信哲",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -290,7 +303,7 @@
           "description": "hedwi: \nRT, 感觉邮件和论坛差不多，邮件抄送全员不就是论坛了么，还有 IM 的全员群聊也差不多，如果一家公司希望尽量多的信息内部共享，那用论坛办公是不是也可以？",
           "link": "https://www.v2ex.com/t/1105492",
           "publishedOn": "2025-01-16T03:19:22.000Z",
-          "wordCount": 444,
+          "wordCount": 450,
           "title": "用论坛办公有没有可行性",
           "imageUrl": null
         },
@@ -300,7 +313,7 @@
           "description": "huguadao: \n阿里云盘各种限制上了之后，家里的群晖 Synology DS220+ 就派上用场了，作为一个非技术宅，折腾了好长一段时间，通过查询各种教程，在群晖端上安装好些软件并试错，终于算是搞通能用了！\n群晖端\n软件大都需要用矿神源进行安装：\nhttps://spk7.imnks.com/\nNasTool 是媒体管理中枢，主要通过 api 的方式链接 Jackett 、qBittorrent 、CSF 中文字幕、Synology Chat 等。\nNasTool V3.4.1\n[设置——基础设置——媒体]（此处设置需要重启生效）：①配置 TMDB API Key ，②二级分类策略留空，③打开高质量文件覆盖，④打开刮削元数据及图片，[刮削设置]中的元数据勾选电影-基础信息和演职人员、电视剧-基础信息和演职人员，图片勾选电影图片-poster 、电视剧图片-poster ），⑤电影重命名格式：{title}/{title}-{part}.{year}.{edition}.{videoFormat}，⑥电视剧重命名格式：{title}/S{season}/{title}-{part}.{season_episode}.{edition}.{videoFormat}\n[设置——媒体库]：分别设置电影、电视剧、动漫的位置，该处设置的位置并非文件下载位置，而是整理后的硬链接目标位置，比如电影位置为：/volume1/media/links/电影/\n[设置——目录同步]：设置硬链接，比如电影的[源目录]是：/volume1/media/电影，[目的目录]是：/volume1/media/links/电影/\n[设置——消息通知]：链接 Synology Chat ，手机端也安装，可实现主要动作的被动通知，如加入订阅，开始下载，资源入库等，也可以主动的发送影视名字进行选择下载。可以配…",
           "link": "https://www.v2ex.com/t/1105491",
           "publishedOn": "2025-01-16T03:15:40.000Z",
-          "wordCount": 893,
+          "wordCount": 925,
           "title": "我的影视私库折腾记录",
           "imageUrl": null
         },
@@ -310,7 +323,7 @@
           "description": "moifmwisdfewmi9: \n光猫拨号（臭名昭著的 192.168.71.1 云宽带），下面接了一个 immortalwrt （在 pve 的虚拟机上，没有设置网口直通）：\nimmortalwrt 的 WAN 口设置 DHCPv6 ，可以看的 v6 地址是 240e 开头、网关是 fe80 开头、无 PD ，自身可以 ping 通公网 v6 地址，挂 pt 也能看到传入连接，应该没问题。\n接着开始折腾 ipv6 中继/NAT6 ，中间过程和结果略下不表，但是折腾的过程中发现一件奇怪的事情：\nimmortalwrt 虽然正常，但是光猫下面再接其他的设备，表现均为可以获取 240e 开头的地址，但是 ping 不通公网。\n1 一台普通的 win11 笔记本，连光猫 wifi ，能拿到 240e 地址，但是无法 ping 通公网；\n2 pve 里一台 opnsense ，WAN 口试了各种配置，现象和 1 类似，有地址但是 ping 不通公网；\n3 pve 里一台原版 openwrt ，WAN 口配置和 immortalwrt 一致，结果也是有地址但是 ping 不通公网。\nimmortalwrt 版本：24.10.0-rc3\nopenwrt 版本：24.10.0-rc5\nopnsense 版本：24.7\n能否提供一些继续查问题的思路，感谢各位。",
           "link": "https://www.v2ex.com/t/1105490",
           "publishedOn": "2025-01-16T03:15:04.000Z",
-          "wordCount": 545,
+          "wordCount": 549,
           "title": "上海电信光猫拨号， ipv6 问题求教",
           "imageUrl": null
         },
@@ -330,7 +343,7 @@
           "description": "tt83: \n以前试过能力很拉，最近看到出了 2.0 用了几天感觉还不错，比之前提升很大。\n能力至少追平 codeium 了，而且响应速度更快，codeium 还时不时抽风有时要重启 ide 才行。\ncursor 基于 vscode 不太适合现在的项目。\n目前用着挺顺手，免费还要啥自行车。",
           "link": "https://www.v2ex.com/t/1105488",
           "publishedOn": "2025-01-16T03:14:21.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "通义灵码 2.0 版本升级很大",
           "imageUrl": null
         },
@@ -340,7 +353,7 @@
           "description": "axuadm19: \n大规模管理 Linux 服务器（>1000 ）的技术栈，问了 Chat 回答当前两种模式：\nJumpserver + vault （ cyber ark) + ansible (密钥自动分发密钥，自动轮换，集中登录管理）\nJumpserver + CA + ansible(证书登录模式，自动轮换，集中登录）\n大佬们如何实现让所有服务器特权密码不一样的？（强制合规要求）\n现状中大厂是咋管理大批量服务器和用户密码的呀？求解答",
           "link": "https://www.v2ex.com/t/1105487",
           "publishedOn": "2025-01-16T03:14:14.000Z",
-          "wordCount": 439,
+          "wordCount": 445,
           "title": "大规模服务器管理架构",
           "imageUrl": null
         },
@@ -350,7 +363,7 @@
           "description": "Kinnikuman: \n小弟只写过前端，没写过后端，现在写个小项目需要后端的一些实现。有个逻辑不太清楚应该怎么实现。\n文件上传使用 minio 做文件存储。当前端想上传文件时候，前端请求一个 api 给后端，后端生成一个预签名的 minio url ，前端拿到这个上传链接进行上传。\n上传完成后，前端是否需要再调用一次接口，将上传完成这个动作通知后端。\n虽然 minio 有 webhook 功能，支持上传完成后调用后端接口通知后端程序。但这样和前端是并行的。上传完成后需要将一些信息写入到数据库，比如数据库有一个 state 状态标志着是否上传完成，以及上传完成后的 minio 直链。\n如果使用 webhook 这种，前端上传完成后会立即刷新页面，但此时后台还没有完成数据库更新操作，数据刷新会不及时。\n但是如果使用再加一个 api 让前端调用，感觉有点复杂，一个上传逻辑需要 3 个接口请求。\n所以最佳实践是什么样的？",
           "link": "https://www.v2ex.com/t/1105486",
           "publishedOn": "2025-01-16T03:09:55.000Z",
-          "wordCount": 654,
+          "wordCount": 702,
           "title": "请教下后端大佬，关于文件上传逻辑的实现",
           "imageUrl": null
         },
@@ -370,7 +383,7 @@
           "description": "ashin: \n现在越来越多的中国互联网企业 h 和独立开发者都开始将目光投向海外市场。然而，打造一款真正的全球化社交产品，远比想象中要复杂得多。很多人以为做个全球化的社交产品就是把界面翻译成多国语言，可实际情况复杂得多。从界面适配到后端架构，从数据合规到内容审核，每一步都像是在拆炸弹，稍有不慎就会引发连锁反应。作为一个经历过全球化项目的后端工程师，尝过其中的“酸甜苦辣”，我想聊聊开发全球化社交产品时那些可能不为人知的一面。\n阅读全文：https://blog.axiaoxin.com/post/tiktok-refugee-rednote/\n文章目录\nTikTok 难民是怎么回事？\n小红书该怎么办？\n够喝一壶的界面适配\n后端逻辑更是噩梦\n内容安全审查\n用户隔离逻辑\n代码维护\n数据合规与运营\n结语",
           "link": "https://www.v2ex.com/t/1105484",
           "publishedOn": "2025-01-16T03:08:44.000Z",
-          "wordCount": 458,
+          "wordCount": 462,
           "title": "国内社交产品出海国际化背后的技术涌浪，从 TikTok 难民涌入小红书说起",
           "imageUrl": null
         },
@@ -390,7 +403,7 @@
           "description": "PROJECT: 大佬们怎么看？\n说是有性能优化，但是我升级了后没有发现有啥性能提升的。\n服务器是腾讯的轻量云",
           "link": "https://www.v2ex.com/t/1105478",
           "publishedOn": "2025-01-16T03:02:41.000Z",
-          "wordCount": 469,
+          "wordCount": 473,
           "title": "昨天新发布的 Debian12.9 有大佬用上了嘛？怎么样？",
           "imageUrl": null
         },
@@ -410,7 +423,7 @@
           "description": "coderchen: \n兄弟们，谁的公司可以做银行里面信用卡的一个满减活动，包括指定商户或平台信用卡满减，随机立减，中石化加油满减等活动，目前该银行正寻找科技公司做，有兄弟们推荐吗？带上报价",
           "link": "https://www.v2ex.com/t/1105476",
           "publishedOn": "2025-01-16T02:52:23.000Z",
-          "wordCount": 424,
+          "wordCount": 426,
           "title": "银行信用卡满减活动项目，有没有公司愿意做",
           "imageUrl": null
         },
@@ -430,7 +443,7 @@
           "description": "louisliu813: \n想在家使用 ipad pro ，远程登录公司的 macbook 电脑，尝试使用向日葵，直接跪了，只提示即将显示远程桌面。\n大家有什么其他方式推荐吗？",
           "link": "https://www.v2ex.com/t/1105474",
           "publishedOn": "2025-01-16T02:51:11.000Z",
-          "wordCount": 468,
+          "wordCount": 548,
           "title": "2025 了，大家怎么在 iPad 远程 macbook",
           "imageUrl": null
         },
@@ -440,7 +453,7 @@
           "description": "hapsinge: \nMeta 首席执行官扎克伯格近期参加了 Podcast 节目“Joe Rogan Experience”，他被问及苹果明显缺乏创新的相关问题。",
           "link": "https://www.v2ex.com/t/1105473",
           "publishedOn": "2025-01-16T02:49:16.000Z",
-          "wordCount": 587,
+          "wordCount": 594,
           "title": "扎克伯格批评苹果没有创新 有道理吗？",
           "imageUrl": null
         },
@@ -450,7 +463,7 @@
           "description": "tonyeasyai: \n针对这两天抖音、小红书敞开国门，大批难民涌入这一动作，想赚老外的钱，大家有什么招没？",
           "link": "https://www.v2ex.com/t/1105472",
           "publishedOn": "2025-01-16T02:49:14.000Z",
-          "wordCount": 603,
+          "wordCount": 631,
           "title": "针对抖音敞开国门，大批难民涌入这一动作的赚钱路子",
           "imageUrl": null
         },
@@ -460,7 +473,7 @@
           "description": "xiaotuzi: \n如题，自己运营了一个微信公众号，今年送了 6000 个红包封面额度！可以换钱吗？哈哈哈",
           "link": "https://www.v2ex.com/t/1105471",
           "publishedOn": "2025-01-16T02:47:43.000Z",
-          "wordCount": 489,
+          "wordCount": 530,
           "title": "公众号送了 6000 个红包封面额度！能否换钱？",
           "imageUrl": null
         },
@@ -470,7 +483,7 @@
           "description": "superhuai11: 有个抓包的需求，但是纯手机端，或者本地抓包技术上有点复杂。\n想着能不能在服务器上部署一个特殊的接口，这样子，有需要的人，在电脑上简单设置的 微信代理（当然我不确定这个代理是不是 http 的）。 然后我在服务器上就能拿到 请求头一些信息，远程抓包？\n\n大佬们，看看这个思路是否是可行的，以及需要补充一些什么知识才能实现？",
           "link": "https://www.v2ex.com/t/1105469",
           "publishedOn": "2025-01-16T02:44:05.000Z",
-          "wordCount": 502,
+          "wordCount": 516,
           "title": "在服务器上部署一个节点，然后让微信的代理指向，能抓到信息吗？",
           "imageUrl": null
         },
@@ -480,7 +493,7 @@
           "description": "LHRUN: \n公司有一款 B 端产品，已经迭代了三年，并且开源了。目前，产品已经比较完善，领导们认为可以开始向外推广，打响第一枪。\n因为我曾经做过自己的开源项目，且取得了一些成果，所以现在推广和社区运营的工作就全盘交给了我，并且还给了一部分预算。\n但是我之前是一直专注于 C 端，推广经验也主要来自 C 端。所以，我想请教 V 站的大佬们，B 端产品应该如何进行推广？希望能得到一些宝贵的经验分享，万分感谢！",
           "link": "https://www.v2ex.com/t/1105468",
           "publishedOn": "2025-01-16T02:36:25.000Z",
-          "wordCount": 542,
+          "wordCount": 543,
           "title": "如何推广公司的产品呢？",
           "imageUrl": null
         },
@@ -490,7 +503,7 @@
           "description": "godbasin: \n我又来啦！去年是“龙重登场”，今年是\"蛇来运转\"！\n今年还是蹭的表情包的红包封面，给我家猫画了\"蛇来运转\"的红包封面，欢迎大家来领啦！！！\n\n因为是表情包送的封面，所以得去表情包页面领取啦，下方二维码扫码到表情包专辑页面，就可以点击领取啦~\n\n祝各位新年快乐哦！！",
           "link": "https://www.v2ex.com/t/1105467",
           "publishedOn": "2025-01-16T02:35:57.000Z",
-          "wordCount": 678,
+          "wordCount": 778,
           "title": "我家猫猫的红包封面！",
           "imageUrl": null
         },
@@ -530,7 +543,7 @@
           "description": "vhvlqn: S10 亮黑色耐刮花怎么样？还有 S10 背面也变铝金属材质了，长期运动佩戴出汗会被腐蚀吗？！",
           "link": "https://www.v2ex.com/t/1105463",
           "publishedOn": "2025-01-16T02:32:55.000Z",
-          "wordCount": 439,
+          "wordCount": 446,
           "title": "Apple Watch S10 材质耐久度",
           "imageUrl": null
         },
@@ -550,7 +563,7 @@
           "description": "lw10645: 有个干女儿，正儿八经拜过的那种，读小学 1 年级\n今年亲家生了二胎，为了方便，也还是跟着大女儿一起叫我干爹\n然后问题来了，大女儿的生日在过年前两天，每年都会叫我们朋友一起吃饭，然后一般就是过年红包和生日一起就给了，包的 400 ，加一个生日蛋糕\n但是今年多了个小的，不可能只给大女儿红包，但是 400*2 的话又感觉遭不住，毕竟还有挺多年\n目前想法是把红包降为 200*2 ，然后给大女儿买个生日礼物，计划是一个点读笔，大概 200\nps：她们爸妈都是我高中同学，关系很铁那种，经常聚\n两个问题：\n1.这种情况还有什么合适的处理\n2.礼物除了点读笔还有什么推荐，200 以内",
           "link": "https://www.v2ex.com/t/1105461",
           "publishedOn": "2025-01-16T02:29:08.000Z",
-          "wordCount": 458,
+          "wordCount": 493,
           "title": "过年红包问题",
           "imageUrl": null
         },
@@ -560,7 +573,7 @@
           "description": "kemistep: \n不想加好友，不想加好友，不想加好友 重要的事儿说 3 遍\n但需备注群友，发现不支持 ╮(╯▽╰)╭",
           "link": "https://www.v2ex.com/t/1105459",
           "publishedOn": "2025-01-16T02:24:53.000Z",
-          "wordCount": 450,
+          "wordCount": 454,
           "title": "微信群不支持备注他人(非好友)",
           "imageUrl": null
         },
@@ -570,7 +583,7 @@
           "description": "xinmans: \n如果通过 NAS+tailscale 实现随时随地可以访问 truenas 里的 smb 共享硬盘，把 obsidian 的 vault 设置在这个 smb 里，是否可以实现同步？",
           "link": "https://www.v2ex.com/t/1105458",
           "publishedOn": "2025-01-16T02:21:38.000Z",
-          "wordCount": 528,
+          "wordCount": 568,
           "title": "NAS+Tailscale+obsidian 的同步方案有人试过吗？",
           "imageUrl": null
         },
@@ -580,7 +593,7 @@
           "description": "jchnxu: \n我感觉这 chatpgpt-4o 默认翻译出来一堆片假名。感觉有一些看不懂哇\n是不是要换模型或者加上下文\n内容是技术文档。源语言是英文",
           "link": "https://www.v2ex.com/t/1105457",
           "publishedOn": "2025-01-16T02:17:58.000Z",
-          "wordCount": 416,
+          "wordCount": 430,
           "title": "有没有常用日语 gpt 翻译的朋友",
           "imageUrl": null
         },
@@ -590,7 +603,7 @@
           "description": "forty: \n今年不想回老家了，待在深圳过年，也还没有什么计划，有点茫然。V 友有什么建议吗？",
           "link": "https://www.v2ex.com/t/1105456",
           "publishedOn": "2025-01-16T02:17:08.000Z",
-          "wordCount": 476,
+          "wordCount": 506,
           "title": "1 个人留在深圳过年，有什么建议吗？",
           "imageUrl": null
         },
@@ -610,7 +623,7 @@
           "description": "cathub86: \n正式的 团建 聚餐 拍全家福 啥的 都不搭理外包 留下外包风中凌乱 怎么练习厚脸皮",
           "link": "https://www.v2ex.com/t/1105453",
           "publishedOn": "2025-01-16T02:08:58.000Z",
-          "wordCount": 814,
+          "wordCount": 860,
           "title": "怎么才能厚脸皮 在外包好玻璃心",
           "imageUrl": null
         },
@@ -620,7 +633,7 @@
           "description": "duanjiong: 说说各位的看法， 明年秋天咱家也要上小学了。 我的想法是把钱花在刀刃上，小学学的东西也不多，可以吧省下来的钱以后针对性的补课。 也不是说上不起，就是这个工作啊，以后谁也说不准，总想着结余多点，有点保障。",
           "link": "https://www.v2ex.com/t/1105452",
           "publishedOn": "2025-01-16T02:03:06.000Z",
-          "wordCount": 725,
+          "wordCount": 773,
           "title": "小学有必要上私立？",
           "imageUrl": null
         },
@@ -630,7 +643,7 @@
           "description": "yellowsky: 自己爱玩个冰封王座（ war3 ）的老游戏，老家没有 Windows 电脑，自己的工作电脑是 Mac Book ，一年也就回去一两次，所以没必要，想着过年弄一台微型的主机回去，闲的时候能打打游戏，价格不要太贵，有没有这种主机推荐的。",
           "link": "https://www.v2ex.com/t/1105451",
           "publishedOn": "2025-01-16T01:59:56.000Z",
-          "wordCount": 489,
+          "wordCount": 495,
           "title": "有没有微型主机推荐？",
           "imageUrl": null
         },
@@ -680,7 +693,7 @@
           "description": "Orenoid: \n之前看到 Your Life in Weeks 这篇文章，大概内容就是：如果一个人能活到 90 岁，那把 TA 一生的总星期数用视觉化的方式表示出来，就是图 1 这么一张简单的图表，就只有这么点空格，可能远没有你想象的多（还是以 90 岁为前提），每过 1 周，就涂黑一个格子。格子涂完，就结束了。\n\n当时看完就挺感慨的，最近又想起了这个 idea ，受此启发开发了个小工具，但是是以一年为周期的。  \nGitHub 仓库： https://github.com/Orenoid/Yeeks\nhttps://yeeks.orenoid.com/ \n\n除了用这个工具可以查看今年已经过了多少周之外，也可以顺手在上面记录一下每周打算做或者已经做了的事情。\n一年 365 天乍听之下蛮多的，但转换之后也就 53 个格子，回想了一下我过去每周除了工作还能够投入其他事情的时间，有些事情经常要花还不止一周的时间，换算下来，就觉得一年其实能做的事情真没那么多。",
           "link": "https://www.v2ex.com/t/1105443",
           "publishedOn": "2025-01-16T01:43:35.000Z",
-          "wordCount": 621,
+          "wordCount": 664,
           "title": "如果把人的一生转换为星期数，可能远没有你想象的那么多",
           "imageUrl": null
         }
