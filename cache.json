@@ -235,79 +235,67 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/689",
-          "author": null,
-          "description": "阿里云提供200Mbps带宽轻量云服务器\n阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制。新规格在内地、香港和境外所有区域均有提供，并在阿里云国际站同步上线。\n根据网友提供的信息，阿里云客服表示新规格不限制流量，但不保证资源抢占情况。有网友还发现，新款上线后旧款24元、34元香港轻量已不再提示“当日售出量已达上限”。\n注意：尽量不要使用阿里云进行跨境代理，会有后台检测。如果你决心这样做，至少要D一下系统。\n[消息等级 Level B · #重要 ]",
-          "link": "https://t.me/vps_xhq/689",
-          "publishedOn": "2024-12-26T06:42:18.000Z",
-          "wordCount": null,
-          "title": "阿里云提供200Mbps带宽轻量云服务器 阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/687",
-          "author": null,
-          "description": "IBM 云计算平台为开源项目提供永久免费服务器\nIBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服务器。配置为 2vCPU 8GB内存 100GB磁盘。\n不过，和甲骨文不同，申请 IBM 免费主机有一定的门槛，理论上只有开源项目的开发者可以申请。申请时需要提供开源项目的名称以及开源项目的公开地址，并说明将如何使用该资源。填写表单阶段没有验证步骤，提交后会显示“我们会尽快与您联系”，并收到一封同样内容的邮件。显然申请需要通过人工审核，后续还可能要求进一步补充材料。预测通过的概率较低，因为活动并没有在各个主要的VPS论坛中引起太大的反响。\nIBM LinuxONE 是专为托管企业 Linux 应用程序而构建的服务器系列。其架构称为 s390x，旨在将更多的计算能力整合到每个 CPU 核心中。这能够以更少的核心驱动更多的处理，并且在软件许可证成本由核心决定的情况下可以节省大量成本。通过减少数据中心的供电、冷却和维护数量，还可以节省更多成本。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/687",
-          "publishedOn": "2024-12-23T08:50:42.000Z",
-          "wordCount": null,
-          "title": "IBM 云计算平台为开源项目提供永久免费服务器 IBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1105421",
+          "author": "GoRuby",
+          "description": "GoRuby: \n“如果你恨他，就劝他创业”，虽是调侃，确是道出了创业之艰辛，尤其是创投市场预冷的这几年（天使轮恨不得就要看营收），可谓寒风瑟瑟。\n我们在 2022 年初拿到第一笔钱，刚刚活过了 3 个年头。同行都说，90%的创业公司活不过 3 年，看来我们有幸成为了那 10%，何其有幸！而且，我们做的是开源商业化，更是被同行看做极为艰难的赛道，3 年拼搏，也是 3 年挣扎，个中滋味不足道哉，但确实学到了很多东西，体味到了不一样的生活，本文尝试梳理一下这 3 年的一点感受经验，与诸君分享。\n交代一下背景：我是秦晓辉，开源监控项目-夜莺（ccfos/nightingale）的创始人，公众号 SRETALK 主理人，目前在可观测性领域创业。本文主要分享我所在的 ToB 软件赛道的创业感悟。\n关于方向\n\n男怕入错行，女怕嫁错郎（当然，女也怕入错行）。古人诚不欺我。选一个对的方向不能说成了一半，但至少规避了很多风险。很多人创业的时候首先考虑的是自己擅长什么就做什么，而且容易陷入发明者思维，觉得自己发明了某个产品、软件，就觉得一定能有一番作为，对市场缺乏调研和洞察，最后的结果通常不太好。\n那怎么选方向？我以我所在的 ToB 软件赛道举例。\n1.天花板要高\n即市场空间要大。最怕选择一个小众方向，即便你做得再好，成为行业第一，每年营收只有几百万，只能养活一个个位数员工的公司。而你如果做不到行业第一，那你的蛋糕就更小了，失败的概率极高。\n2.跟风口？做擅长的！\n跟随国家战略风口，这一点不是那么关键。如果能跟随风口自然是好的，因为国家会给风口行业留预算行方便。但是国家的预算是通过国央企体现的，而初创公司又很难和国央企合作，即便有合作机会也要极为慎重，国央企的各种文档要求、安全要求、项目周期、实施成本等，对初创企业可能是很大的负担。\n做原本自己擅长的方向，相对就稳妥得多，尤其是那些有复利效应的…",
+          "link": "https://www.v2ex.com/t/1105421",
+          "publishedOn": "2025-01-16T00:10:28.000Z",
+          "wordCount": 619,
+          "title": "做开源商业化创业 3 年，一点小小的感悟",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105420",
+          "author": "dongdongdong",
+          "description": "dongdongdong: 感觉全世界的沙雕都是一样的\n私信了 几十个人，没有一个人回我😭\n感觉风口来了，兄弟们想想怎么吃这口饭😁",
+          "link": "https://www.v2ex.com/t/1105420",
+          "publishedOn": "2025-01-16T00:09:33.000Z",
+          "wordCount": 115,
+          "title": "昨天刷了一晚上洋妞",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105419",
+          "author": "2018yuli",
+          "description": "2018yuli: rt.领导让学习下 ROS 开发，还说用 Java ，问他就是给个官网。找到的资料都是 c++和 python 。求高手入门指导.......是不是就是学安卓？还是........",
+          "link": "https://www.v2ex.com/t/1105419",
+          "publishedOn": "2025-01-16T00:04:17.000Z",
+          "wordCount": 556,
+          "title": "有熟悉 ROS 开发的么？求指导。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105418",
+          "author": "lixpng",
+          "description": "lixpng: 前端研发岗\n美团：\n职级：L7\n薪资：40x15.5\n公积金：全额工资的 12%\n部门：核心本地商业-服务体验-大模型方向\n其他：hr 说的 40 ，聊了一下看能不能申请到 42 了。但是听内部人员说服体比较边缘，而且 hr 说大模型这个团队是一月初才开始搭建，说是今年重点项目，所以不知道稳定性及晋升怎么样。\n\n京东：\n职级：P7\n薪资：40x16\n公积金：40x0.8x5%\n部门：京东物流-技术与数据智能部-快递快运技术部-商家研发组\n其他：这个部门看着会比美团的核心一点；京东按最新的职级体系给的 P7 ，不知道是不是对标之前的 T7 ，是的话职级会高点，而且绩效好的话比美团的系数会更高\n\n另外我主要考虑发展，能力偏全栈，京东比较远，去的话要搬家稍微麻烦点。大伙有啥比较好的建议吗？",
+          "link": "https://www.v2ex.com/t/1105418",
+          "publishedOn": "2025-01-15T23:53:43.000Z",
+          "wordCount": null,
+          "title": "京东美团 offer 选择",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105417",
+          "author": "Int100",
+          "description": "Int100: \n打算把外接硬盘作为系统盘使用\n请问一下, 使用读写速度在 1000 MB/s 左右的移动硬盘可以吗?\n我看有视频提到“要用支持雷电口的外接硬盘盒+M2 固态, 不然会卡”. 真的影响很大吗?\n感谢🙏",
+          "link": "https://www.v2ex.com/t/1105417",
+          "publishedOn": "2025-01-15T23:53:10.000Z",
+          "wordCount": 485,
+          "title": "Mac 外接硬盘该怎么选择? 求推荐",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1105416",
           "author": "netabare",
           "description": "netabare: 以前有零星做过一些玩具型的编程语言设计和编译器实现，也用过 ANTLR 和 parser combinator 等技巧。\n不过感觉 ANTLR 为代表的 parser generator ，或者 parser combinator ，或多或少都有不少比较让我介意的问题。parser generator 的问题有比较受限于既有技术栈，和我自己的代码风格不一定相融，还有可 hack 能力比较低，parser combinator 的最大问题就是封装过于严实，感觉简单的语法还好，要是遇到复杂的可能就寄了。\n所以这次的思路大概是用手写递归下降的办法来自己实现解析器，这个说实话也没难度只是体力活而已。倒是也有听说在大型项目和实际工程里确实更多会手写递归下降而不是用其他的技巧？\n然后确实也有想过用 monad 例如 reader 或者 state 啥的来封装一个比较浅的抽象层，但就不考虑引入 parser combinator 了……\n但是与此同时也会担心 LL(1)的表达力是否足以覆盖大型项目里面可能会出现的复杂语法。虽然自己手推了一遍似乎没太大问题，而且例如左递归这种经典问题也能比较好的处理了。但还是不太有底气就是，或者说，像是 C++、C#、Java 这些语言没记错的话都有一些语法特征是 LL(1)难以处理的吧？实际工程里，遇到复杂语法，一般会怎么处理呢？还是也会上 parser generator （不过这种大型语言应该没 pg 可用）？\n所以有点好奇这个问题，不知道有没有比较有相关经验的人能给点思路呢？",
           "link": "https://www.v2ex.com/t/1105416",
           "publishedOn": "2025-01-15T21:12:56.000Z",
-          "wordCount": 463,
+          "wordCount": 477,
           "title": "计划用于生产项目里的编译器设计，适合用 LL(1)手写递归下降来实现解析器吗？",
           "imageUrl": null
         },
@@ -317,7 +305,7 @@
           "description": "tmkook: 一个空目录执行\n```\nnpm install koa\nvi index.js\nconst koa = require('koa');\n```\nvscode 会提示 Could not find a declaration file for module 'koa'. \n类似的包有好几个，运行不受影响，但是有个 koa-static 运行会报错的",
           "link": "https://www.v2ex.com/t/1105415",
           "publishedOn": "2025-01-15T17:58:22.000Z",
-          "wordCount": 382,
+          "wordCount": 395,
           "title": "求助 NODE 遇到一个奇怪的问题",
           "imageUrl": null
         },
@@ -337,7 +325,7 @@
           "description": "nigi: \n目前 wsl2 中使用了一下配置镜像了 Win11 网络,win11 是我的主机\n[experimental]\nhostAddressLoopback=true\n\n[wsl2]\nnetworkingMode=mirrored\nmemory=12GB               \nlocalhostForwarding=true \n\n[network]\ngenerateResolvConf = false\n\n在 go 的容器中\npackage main\n\nimport (\n\"fmt\"\n\"net/http\"\n)\n\nfunc handler(w http.ResponseWriter, r *http.Request) {\nfmt.Fprintf(w, \"Hello, World!\")\n}\n\nfunc main() {\nhttp.HandleFunc(\"/\", handler)\n\n// 10.60.33.53 是我 Win11 上的 ipv4 地址\nerr := http.ListenAndServe(\"10.60.33.53:8080\", nil)\nif err != nil {\nfmt.Println(\"Error starting server:\", err)\n}\n}\n\n通过运行会报错 listen tcp 10.60.33.53:8080: bind: cannot assign requested address\n当然把 10.60.33.53 换成 0.0.0.0 肯定是没问题的，但是下面要说才是问题\n\n本人是 go 小白真心求解答，谢谢",
           "link": "https://www.v2ex.com/t/1105413",
           "publishedOn": "2025-01-15T17:12:07.000Z",
-          "wordCount": 744,
+          "wordCount": 909,
           "title": "请教一个关于在 wsl2 上使用 docker 开发的问题",
           "imageUrl": null
         },
@@ -347,7 +335,7 @@
           "description": "stark123: 功能有点多，目前只在 jd 上找到了一款：飞利浦的 SA1618 。\n求推荐更多，我要对比了下单，空运到加拿大。（这边的电子产品太少了，小众需求没活路。）",
           "link": "https://www.v2ex.com/t/1105412",
           "publishedOn": "2025-01-15T16:58:31.000Z",
-          "wordCount": 419,
+          "wordCount": 432,
           "title": "求推荐： MP3、蓝牙、物理按键、外放",
           "imageUrl": null
         },
@@ -357,7 +345,7 @@
           "description": "nightnotlate: 让 ai 帮我算了笔账，\n一笔钱 每年利息百分之 1.8 （后面降息，所以算少一点点），每年支出 10w （我家现在两个人的一年支出就是这些），足够 40 年支出，这笔钱有多少。\n答案是 323w 。\n假设我能活 80 岁，也就是 40 岁那年，算上房子首付几十万，\n我至少得有 400w 资金，才能保证自己不上班还能活下去。\n如果不买房就会轻松一点",
           "link": "https://www.v2ex.com/t/1105410",
           "publishedOn": "2025-01-15T16:46:18.000Z",
-          "wordCount": 392,
+          "wordCount": 404,
           "title": "深夜算算账 压力山大",
           "imageUrl": null
         },
@@ -387,7 +375,7 @@
           "description": "yushuxin: \n大家好，很高兴在这里向各位介绍我的产品 Raphael 。这世界上第一个完全免费、无限制、无需要注册登录、基于 Flux.1-DEV 的 AI 图像生成器。\nhttps://raphael.app\n先看看效果吧\n这个是画的梅西，能看出来吧？\n\n这个是画的网红风格的美女\n\n为什么开发 Raphael ？\n目前市面上的 AI 绘图工具要么收费昂贵，要么有严格的使用限制。\n因为 AI 画图的 GPU 服务器成本非常非常高，尤其是基于 Flux.1-Dev 这种庞大的模型，全世界都没有这样一个完全免费、无限制的产品。\n因此，我们希望打造一个零门槛、高质量的 AI 绘图工具，让所有人都能享受 AI 创作的乐趣。\n为什么取名叫 Raphael ？\n拉斐尔是文艺复兴三杰之一。起这个名字感觉比较洋气。\n免费了，你怎么赚钱？\n说实话，还没想好。\n因为工作原因，我正好有几块闲置的 A100 GPU ，吃灰了快一年了，那就先用上吧，也就是电费成本而已。\n等用户多了，我再考虑做高级的功能赚钱吧。大家也可以建议我增加什么功能。\n核心特点\n完全免费：无需付费，无使用次数限制\n零门槛：无需注册登录，打开网页即可使用 \n高质量输出：使用 FLUX.1-Dev 模型，生成效果媲美付费工具\n隐私保护：不存储任何提示词和生成的图片，所有图片 10 分钟内从服务器删除！\n快速生成：优化后的推理管线，保证生成速度\n多样风格：支持写实、动漫、油画、数字艺术等多种风格\n支持多语言：你可以输入中文提示词\n没有限制：首先是没有数量限制，随便画；其次是...不能说太多了，反正就是，没有限制。\n支持精细化打磨：对于你喜欢的图片，可以点击“精修”，可以变得更好。这个功能还在测试，有点费显卡，我们的推理加速工作还没做好。\n技术亮点\nRaphael 采用了 FLUX.1-Dev 作为底层模型。这个模型在处理复杂提示词和文本叠加方面表现出色，能准确理解用户意图。我们还对推理流程做了大量优化，在保证质量的同时提升了生成速度。\n应用场景\n设计师：快速生成概念图和原型\n开发者：制作游戏素材和 UI 资源\n内容创作者：生成视频封面和配图\n电商从业者：产品展示图制作 \n营销人员：社媒营销素材制作\n直接访问：https://raphael.app\n感谢大家的支持！有任何问题，欢迎在评论区和我讨论！有什么想要的功能，可以告诉我，只要我成本可以承担，我都做！",
           "link": "https://www.v2ex.com/t/1105407",
           "publishedOn": "2025-01-15T16:32:00.000Z",
-          "wordCount": 510,
+          "wordCount": 571,
           "title": "Raphael - [世界唯一] 完全免费、无限制、无需要注册登录、基于 Flux 的 AI 图像生成器",
           "imageUrl": null
         },
@@ -397,7 +385,7 @@
           "description": "qqq1234: \nipad mini 最适合干什么\n我发现 ipad mini 很适合玩游戏,手戳屏幕感觉真的很爽,买它就是为了玩游戏,搞其他东西不持久\n因为玩游戏空隙总有空虚的时候,这几天把 苹果生态的 [通用控制] 给用上了,这是一个很久之前就出来的功能\n苹果[通用控制]能干嘛呢\n最终的效果是:\n我的 mac 是外接显示器,我在显示器下面放我的 ipad;\n在 mac 通过 [通用控制] 连接 ipad 的情况下\n我鼠标往下一划,光标就到了我的 ipad 上,操作的是 ipad 系统\n用 ipad 使用 多邻国+豆包学英语也很棒\n用鼠标操作 ipad 能用来做什么,我目前比较常用的搭配是:\nipad 用 多邻国学英语,选择题用鼠标,填空题用键盘打字\n如多邻国答题错误需解答:鼠标双击截图,然后发送给豆包,预设常用提示词,让豆包解答 语法和知识点\n这些操作居然比手机方便,“还能一心二用” 鼠标随时晃到 mac 系统上\n当常用上鼠标操作 ipad 时,也就是把 ipad 当生产力时候,ipad mini 屏幕就太小了\n如果不需要 ipad 打游戏,尽管上 ipad 大屏吧.\n如果用 ipad mini 看微信读书也是一个很好的选择,不过大屏看书也不错吧",
           "link": "https://www.v2ex.com/t/1105406",
           "publishedOn": "2025-01-15T16:27:13.000Z",
-          "wordCount": 471,
+          "wordCount": 524,
           "title": "我的 iPad mini7 不玩游戏后,我嫌它屏幕小了.原因是用 多邻国+豆包 AI 学英语去了",
           "imageUrl": null
         },
@@ -407,7 +395,7 @@
           "description": "johnson1602: \n链接： https://www.rednote.fyi/\n先上了一波表情包，大屏观看高密度表情包给我笑的蚌埠住了🤣\n之后准备加上分类、筛选和搜索，然后再搞个黑话专题，让外国人感受一下加密通信 yyds xswl\n欢迎大家提供更多灵感～",
           "link": "https://www.v2ex.com/t/1105404",
           "publishedOn": "2025-01-15T16:17:36.000Z",
-          "wordCount": 381,
+          "wordCount": 391,
           "title": "给小红书外国人一点表情包和黑话震撼，做了个网站收集一下",
           "imageUrl": null
         },
@@ -417,7 +405,7 @@
           "description": "hadoop: \n假期到了求上车，最好是港区",
           "link": "https://www.v2ex.com/t/1105403",
           "publishedOn": "2025-01-15T16:15:43.000Z",
-          "wordCount": 370,
+          "wordCount": 385,
           "title": "有奈飞车吗",
           "imageUrl": null
         },
@@ -437,7 +425,7 @@
           "description": "lucasji: \n作为 React 领域极富盛名的框架，在大版本已经更新到 15 的情况下，对于基础的 ISR 功能 revalidatePath的稳定性依旧无法保证，太令人失望了！官方对于 bug 修复的积极性貌似不高（还是说 bug 实在太多了来不及修？），反而一个劲地推出新的功能，这种做法太不负责任了。无法想象这是一个拥有 129k start 的作品。",
           "link": "https://www.v2ex.com/t/1105401",
           "publishedOn": "2025-01-15T16:11:23.000Z",
-          "wordCount": 412,
+          "wordCount": 414,
           "title": "Next.js 的实际开发体验真是一言难尽",
           "imageUrl": null
         },
@@ -467,7 +455,7 @@
           "description": "lzvi: \n这两天 deepseek 推出了各个平台的 app ，去应用市场一看，好家伙，安卓的只有 8mb ，简直一股清流。对比之下，kimi 有 29mb ，通义千问 54mb ，文心一言 135mb 。类似的功能，为什么体积差距这么大？ deepseek 是如何做到的？",
           "link": "https://www.v2ex.com/t/1105398",
           "publishedOn": "2025-01-15T16:02:14.000Z",
-          "wordCount": 413,
+          "wordCount": 422,
           "title": "Deepseek android app 前端是什么技术栈？",
           "imageUrl": null
         },
@@ -477,7 +465,7 @@
           "description": "eccentric579: \n以成都电信为例，iptv vlan 是 43 ，internet 是 1206 ， 组播 vlan 是 3990.  \nitv 口肯定是 vlan untagged 的，因为机顶盒无法处理 vlan 数据\n不考虑 igmpproxy 时，itv 口作为一个 vlan access 口，同时有 vlan 43 untagged, vlan 3990 untagged ？\n考虑 igmpproxy 时，igmpproxy 的下游是 itv 口，上游是 vlan 43 还是 vlan 3990 ？ igmpproxy 能同时监听两个上游且能一个用于入组，一个用于接收？\n我做了如下一个单线复用，在 wan.43 抓包得到了 igmp join/leave, 在 wan 抓到了 vlan untagged 的组播 udp  . 我认为这导致了 udpxy 在 openwrt 上不能正常工作。",
           "link": "https://www.v2ex.com/t/1105397",
           "publishedOn": "2025-01-15T16:00:35.000Z",
-          "wordCount": 562,
+          "wordCount": 577,
           "title": "光猫是如何处理 vlan 数据的",
           "imageUrl": null
         },
@@ -487,7 +475,7 @@
           "description": "gen900: \n前一段时间为了海外收款，研究了好一阵子的收款平台。\n综合来说还是 stripe 最能打。前几天和群里小伙伴交流，大家都觉得海外收款很麻烦。刚好我做过，索性做了一系列视频来介绍 stripe 开发，如何快速集成到你的软件里。\n如果需要了解的人多，接下来我会介绍如何快速集成 stripe 到你的软件产品里。\n海外注册开通 stripe 可以考虑 stripe atlas \n [视频]  stripe 入门介绍\n除了 Stripe 还有这些方案 \n对于如何设置订阅付费等高级内容，我做了个系列视频（一共 11 集），可以付费观看（ 20 元）\n🔥\n [ stripe 集成进阶课] 👈",
           "link": "https://www.v2ex.com/t/1105396",
           "publishedOn": "2025-01-15T15:54:51.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "我做了一系列视频介绍 stripe 开发，分享给对出海收款有需要的人。",
           "imageUrl": null
         },
@@ -497,7 +485,7 @@
           "description": "ly1878: 如题，测试了两个软件，播放不同的视频文件，都是这样，但是油管之类播放就没有这种现象，有点膈应人，请问有什么办法吗？哪里需要设置？",
           "link": "https://www.v2ex.com/t/1105395",
           "publishedOn": "2025-01-15T15:47:06.000Z",
-          "wordCount": 366,
+          "wordCount": 379,
           "title": "视频播放时，进行全屏，画面会短暂暂停，声音是始终连续播放， infuse 和 iina 都是这样，大佬指点。",
           "imageUrl": null
         },
@@ -517,7 +505,7 @@
           "description": "mahaoqu: \n费曼学习法是一种高效的学习方法，适用于理解复杂的概念。首先选择一个要学习的概念，然后尝试用浅显易懂的方法把它教给别人。如果你卡住了，回到原始材料简化解释并进行类比，循环反复直到对方完全理解。\n我相信对于物理，费曼学习法可能是有效的，因为绝大多数物理概念都是简洁、优雅、对称的。但我越来越怀疑学习计算机世界里的复杂的人造概念时，使用这种方法是否真的有效，尤其是你是那个被费曼的人的时候。\n如果你对一个领域感兴趣，但不想从一开始就去看大名鼎鼎的专著，而是从网上随机搜索，多半会寻找到某些人发的博客/贴子/回答，而你（作为新手）根本没办法判断发帖人是一个该领域的专家，还是一个刚刚开始学习该领域的新手！\n比如说 Monad 。我敢保证网上大多数的帖子都是作者学到一半恍然大悟之后就立刻写文章输出的结果。而很多不太准确的概念也因为能够局部拟合而广泛流传（比如：“数组就是指针”、“面向对象的特点是封装继承多态”）。\n使用原始的材料学习固然正确，但它为了做到精确往往更加晦涩。作为新手，难免不被更加简化、直观、有趣的文章吸引，比如 B/Y 站上的视频，CSDN/知乎上的文章，乃至付费的网课。但大部分情况下，我相信看了之后应该是一种似懂非懂的模糊状态——教学是一门艺术，并不是那么容易就能做好的。\n当然，还有另一种选择：别人不来费曼你，你就去费曼别人。但长此以往，一个技术话题下会不会全部都是写给新手的低质量文章？",
           "link": "https://www.v2ex.com/t/1105393",
           "publishedOn": "2025-01-15T15:23:45.000Z",
-          "wordCount": 451,
+          "wordCount": 460,
           "title": "通过别人的费曼学习法能够学到东西吗？",
           "imageUrl": null
         },
@@ -537,7 +525,7 @@
           "description": "bfjm: 有开源库有这样的功能吗\n因为这个 map 的 key 是需要通过 objectpool 的方式复用，外部传进去的 key 只能做查找功能，我需要拿到 map 内部对象的 key ，遍历的方式不考虑",
           "link": "https://www.v2ex.com/t/1105391",
           "publishedOn": "2025-01-15T15:15:59.000Z",
-          "wordCount": 544,
+          "wordCount": 551,
           "title": "Java 如何获取 Map 内部对象的 key",
           "imageUrl": null
         },
@@ -557,7 +545,7 @@
           "description": "liangjiahui: \n97 年湘 B 人，目前居住在长沙。未啃老在长沙有一套一百多一点平的房子，未婚无车无房贷，从事 IT 行业，目前的工资也还算过得去，但是内心总想着去外面看看（可能我一毕业就一直呆在长沙的缘故吧）目前想在广州、成都、重庆三之间选一个，想听听各位佬有什么建议没，听劝",
           "link": "https://www.v2ex.com/t/1105389",
           "publishedOn": "2025-01-15T15:13:44.000Z",
-          "wordCount": 413,
+          "wordCount": 444,
           "title": "想换做城市生活，想听听各位佬的建议",
           "imageUrl": null
         },
@@ -597,7 +585,7 @@
           "description": "deepremote: \n基本情况\n事情是这样的，2023 年 4 月，被招聘入职这家公司做前端开发，主要是地质方面 3d 可视化，这个公司老板是加拿大华裔，具体其他情况我也懒的打听，工作内容是远程和甲方进行合作开发项目，但是期间一直拖欠薪资，我们一直催，就是一直说下周，至少不下十次，我们几个都是超级无语，但是因为是华裔，所以也就默认欠着，说着也是非常真诚，所以就一直断断续续欠着，合同也没签，一催老是拖着。\n项目出现问题\n项目总共是包括我在内三个人在做，需求都是我们自己和甲方来对接，他基本全程不管，就这样做到直到 2024 年 6 月左右，然后甲方乱提一些奇葩需求，就出现一直扯皮，这些事我们都反馈给他了，然后他和甲方全程对接，具体对接的啥内容，我们去问只字不提，我们根本不知道他们开会的内容等，然后按照需求继续做，最后到 9 月份的时候，他宣布和甲方分离，他想自立门户，就是想独吞项目成果，期间甲方也提出过把我们并入他们团队，他不同意，这期间拖欠我们好几个月薪资，奇葩的来了，惊掉了我们的下巴，甲方欠他的钱，让我去向甲方要，人不要脸到这种程度，最后甲方的钱还是我威胁要起诉才要到的。\n新公司与起诉事件\n9 月份他成立了新公司，说要把没做好的东西重新做一下，重新设计架构，这块是另一个同事在做，因为来的时间比我长，资历深，所以我依然只是做其他相关的功能，其中有个体数据这个功能我从来没做过，我也不知道这块，然后昨天就给我发了要起诉我的消息，我完全懵逼之中，前段时间都是好好的，应该是他和甲方突然谈崩了，具体什么情况，他只字不提，我们三个都是懵逼中，反正就是认定是我们的责任，突然发来这么一个消息，具体消息我放在下面了，真的把我气的，关键是还欠我两个月薪资，这就很恶心，真是知人知面不知心，什么样的垃圾都会有。\n针对他发的信息，我简短说下，我们做的是一个库，需要可视化很多东西包括体数据、地形、井筒、构造体、栅状图等等，我们技术选型是 babylonjs ，它是一个 3d 框架，做这些完全没有问题，也不存在技术选型错误，然后他说的我们这个库不支持几百 M 数据的体数据，这个我们都不知道有这么大数据，也没有任何人提过，他的意思 vtkjs 做体数据比较好，我也不知道 t 他如何得出的比较好，反正我啥都不知道，他也从来不说，即使我们问，他会说，我们没必要知道，真的郁闷，然后框架选型不是我做的，突然就发我这么一个消息。\n总结\n希望大家曝光这种垃圾行为，共同净化国内职场环境。\n原聊天截图：",
           "link": "https://www.v2ex.com/t/1105384",
           "publishedOn": "2025-01-15T14:33:29.000Z",
-          "wordCount": 539,
+          "wordCount": 553,
           "title": "公司要起诉员工赔偿损失，离了个大谱！",
           "imageUrl": null
         },
@@ -607,7 +595,7 @@
           "description": "5261: \n酒仙们，清香型低度数白酒有推荐的吗？\n实在是对酒不懂，家人说平时只喝清香型低度数白酒，有酒友推荐几款口粮、中端、高端清香型白酒看看",
           "link": "https://www.v2ex.com/t/1105383",
           "publishedOn": "2025-01-15T14:30:59.000Z",
-          "wordCount": 379,
+          "wordCount": 399,
           "title": "酒仙们，清香型低度数白酒有推荐的吗？",
           "imageUrl": null
         },
@@ -617,7 +605,7 @@
           "description": "baobao1270: \n这是一个纯 shell 实现的 HTTP 服务器，能够使用 GET/POST 请求读写 Working directory 下的文件。\n可以通过 PORT 和 KEY 环境变量设置监听的端口和写入操作的 API Key 。如果没有指定，那么会自动生成一个 UUID 作为 API Key ，并且在控制台打印出来。写入操作应该设置 Authorization 头为： APIKey 你的 API 密钥。\n对于中文或者没有正确 URL Encode 的请求支持应该不太好。\n如果想要结束服务器，请在服务器目录下运行 kill -9 $(cat server.pid)。\n虽然做了一些安全措施，但是 shell 写的东西总归有些危险，不建议在有个人数据且暴露公网的设备上长期运行。\n当然，这个服务器很简陋，也不支持多进程、多连接、可能有 race condition 问题，但是 just for fun ，更多的是作为一个「 shell 也可以写 HTTP 服务器」的概念验证。如果对代码有什么建议也欢迎提出。\n#!/bin/bash\nfunction server {\nread il\necho \"recv_il: $il\" >&2\nmethod=$( echo \"$il\" | cut -d\" \" -f1)\npath=$(   echo \"$il\" | cut -d\" \" -f2)\nproto=$(  echo \"$il\" | cut -d\" \" -f3)\necho \"method: $method\" >&2\necho \"path:   $path\"   >&2\necho \"proto:  $proto\"  >&2\n\ndeclare -A hdr\nwhile read line; do\nsline=`echo $line | tr -d '[\\r\\n]'`\n[ -z…",
           "link": "https://www.v2ex.com/t/1105382",
           "publishedOn": "2025-01-15T14:28:32.000Z",
-          "wordCount": 973,
+          "wordCount": 975,
           "title": "Pure Shell HTTP Server",
           "imageUrl": null
         },
@@ -637,7 +625,7 @@
           "description": "kyonn: \nhttps://us.v2ex.com/t/1076964  这个帖子里说 \n想通过小爱控制 HA 设备，主流有两个路子，一是用 Miot 插件接入小爱，拿到小爱的会话内容，然后自己在 HA 里用自动化做语义判断，但这个语义处理起来是相当麻烦。二是接入巴法云做一层转换，把 HA 的设备同步到巴法云，然后米家接入巴法云并导入你的设备，但巴法云稳定性好像不太好，看 HA 群里的老哥经常说掉线。\n单纯想实现语音控制的话，其实最好是用 HomePod+Siri 来控制，HA 设备导入 HomeKit 也简单很多，小爱的 HomePod 我都有，体验起来 Siri 响应比小爱好很多很多，缺点就是 HA 拿不到 Siri 的会话内容所以做不了自定义的语音指令。 \n比如我想通过小爱同学控制 wol 的话, 有没有更好的办法, 一定要弄什么巴法云吗?\n用小爱同学控制台式机睡眠和唤醒的思路 - 知乎",
           "link": "https://www.v2ex.com/t/1105380",
           "publishedOn": "2025-01-15T14:25:53.000Z",
-          "wordCount": 489,
+          "wordCount": 509,
           "title": "小米开源 ha 插件后, 想用小爱音响自定义语音触发某个 webhook, 有没有更好的办法?",
           "imageUrl": null
         },
@@ -667,7 +655,7 @@
           "description": "MuscleOf2016: \n老妈一直吐槽了，好几次现在用的安卓手机卡，一直拖着没给她换。今天用之前旧的 iPhoneXR + 京东依旧换新，换了个 16 新机子，老妈晚上用的很开心。",
           "link": "https://www.v2ex.com/t/1105377",
           "publishedOn": "2025-01-15T13:37:15.000Z",
-          "wordCount": 654,
+          "wordCount": 695,
           "title": "开心！年前给妈妈换了新手机 iphone16。",
           "imageUrl": null
         },
@@ -677,7 +665,7 @@
           "description": "KlesaOff: \n最近在自学 Rust ，因为之前粗略看过一些博客教程，所以这次直接看Programming Rust这本书的翻译版，在第 5 章“引用”中遇到一个例子，感觉不能理解。\n首先看书中图 5-9 的所有权树，讲了对于可变和不可变引用时的访问关系，我以为自己理解了，可是后面看到这个例子，结果又看不明白，代码是这样的：\n...\n也可以再次借用一个可变引用：\nlet mut v = (136, 139);\nlet m = &mut v;\nlet m0 = &mut m.0;  // ok：从可变引用重新借用可变引用\n*m0 = 137;\nlet r1 = &m.1;      // ok：从可变引用重新借用共享引用,并且和 m0 没有重叠部分\nv.1;        // error：通过其他路经访问仍然是禁止的\nprintln!(\"{}\", r1); // r1 在这里使用\n\n\n其实从第一个 ok 注释那里我就没搞明白，不是说变量只能同时存在一个可变引用吗，为什么有可变引用(“引用”为名词)m 的情况下还能从 m 那再可变引用（“引用”为动词）一个 m0 ？\n然后我问 gpt ，它是这么回答的：\n...\n嵌套 mut 引用的场景\n假设你有一个可变变量，并希望对其创建嵌套的可变引用。以下\n是一些常见的情况及其分析。\n情况 1：对整个变量的可变引用，然后尝试对部分值的可变引用\nfn main() {\n    let mut x = (1, 2);\n\n    let r1 = &mut x;       // 对整个变量 `x` 的可变引用\n    let r2 = &mut r1.0;    // 尝试对 `x` 的一部分创建可变引用\n\n    *r2 = 42;              // 修改部分值\n    r1.1 = 99;             // 修改另一部分\n}\n\n错误原因：\nRust 编译器会报错，提示 不能同时借用 x 的多个可变引用。这是因为：\nr1 是对整个 x 的可变引用，它控制了 x 的独占访问权。\n当你尝试对 r1.0 （ x 的某个字段）创建可变引用时，r1 的作用域依然活跃，Rust 无法区分你是否会同时操作 x 的其他部分。\n错误示例的编译器消息（可能类似于）：\nerror[E0499]: cannot borrow `r1.0` as mutable more than once at a time\n\n...\n但事实上，我尝试了类似代码，并不会报错:\nfn main() {\n    let mut v = (136, 139);\n    let m = &mut v;\n    let m0 = &mut m.0;\n    *m0 = 137;\n    m.1 = 42;\n    println!(\"{:?}\", v)\n}\n\n其运行结果是:\n(137, 42)\n\n很多资料都没有讲解关于这种嵌套的引用会发生什么结果，也不知道什么情况是可以什么是不行，我没看过这例子时还以为压根不能创建 m0 呢，所以想着找 GPT 问问，结果告诉的内容是错的。\n请问该如何解释上面书中的代码，如何更好地理解 Rust 在这种嵌套情况下创建引用的做法是否成功？请各位赐教",
           "link": "https://www.v2ex.com/t/1105376",
           "publishedOn": "2025-01-15T13:35:05.000Z",
-          "wordCount": 928,
+          "wordCount": 938,
           "title": "关于 Rust 所有权，如果对 mut 变量进行嵌套 mut 引用该怎么理解？",
           "imageUrl": null
         },
@@ -697,7 +685,7 @@
           "description": "V2April: \n而是要么反复做同样的事（比如在火车站被闸机拦住，上面明明大字提示请去人工窗口，却站在机器里面反复拿走放回 ta 的身份证），要么无脑扔给别人解决（只会问我的 xx 软件报错怎么办，明明错误信息上已经说了问题是什么如何解决），要么直接放弃使用（然后到处说 xxx 不好用，或者 xxx 我不会用）",
           "link": "https://www.v2ex.com/t/1105373",
           "publishedOn": "2025-01-15T13:14:07.000Z",
-          "wordCount": 489,
+          "wordCount": 570,
           "title": "我发现身边总有这么一种人， ta 看到报错后的第一反应永远不是阅读错误信息",
           "imageUrl": null
         },
@@ -707,48 +695,8 @@
           "description": "zhangchongjie: 不晓得是我火星了还是怎么，今天才发现 arch 挂起后，只能用电源唤醒，usb 鼠标键盘都不行。工作用的测试机装了 ubuntu24 也是一样的情况。\n   查看后发现 usb 设备是关闭了的，xdm 有没啥好方法，可以做到 usb 唤醒，我直接 vi 后开机会恢复\n   \n 桌面环境 kde\n   \n /sys/bus/usb/devices/1-5/power/wakeup:enabled\n/sys/bus/usb/devices/1-6/power/wakeup:disabled\n/sys/bus/usb/devices/1-8/power/wakeup:disabled\n/sys/bus/usb/devices/usb1/power/wakeup:disabled\n/sys/bus/usb/devices/usb2/power/wakeup:disabled\n/sys/bus/usb/devices/usb3/power/wakeup:disabled\n/sys/bus/usb/devices/usb4/power/wakeup:disabled",
           "link": "https://www.v2ex.com/t/1105372",
           "publishedOn": "2025-01-15T13:12:46.000Z",
-          "wordCount": 407,
+          "wordCount": 411,
           "title": "Arch 默认不能 usb 唤醒？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105371",
-          "author": "AelecTi",
-          "description": "AelecTi: \n通过 API 向\"o1-preview\"模型提问hello或者只打一个1（或者任何其它 prompt ），出现报错: Invalid prompt: your prompt was flagged as potentially violating our usage policy. Please try again with a different prompt. （ Playground 症状相同）\n实在想不通一个 hello 是怎么违反的用户守则，之前本来用的好好的，现在已经和 openai 的客服扯皮一个月了，问就是正在火速修复，然后预存的 API 费用也不给退。想知道 V 友们有遇到类似情况吗\n\n\n平常都只有自己一个人用，问的也全是正常问题，不知道是不是 openai 发现我是大陆用户然后 ban 了",
-          "link": "https://www.v2ex.com/t/1105371",
-          "publishedOn": "2025-01-15T13:02:11.000Z",
-          "wordCount": 378,
-          "title": "o1-preview API 现在连个\"hello\"都不能问了吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105369",
-          "author": "lucasj",
-          "description": "lucasj:",
-          "link": "https://www.v2ex.com/t/1105369",
-          "publishedOn": "2025-01-15T12:33:51.000Z",
-          "wordCount": 371,
-          "title": "TikTok 即将被禁，「小红书」涌入大量美国人。美国人： Make 「小红书」 Great Again！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105368",
-          "author": "kirieievk",
-          "description": "kirieievk: \n很多电影不在香港,台湾新加坡区.\n在很多其他国家可以播放但是没中文字幕.这个怎么破.",
-          "link": "https://www.v2ex.com/t/1105368",
-          "publishedOn": "2025-01-15T12:33:47.000Z",
-          "wordCount": 387,
-          "title": "netflix 的非奈飞原创电影如何设置中文字幕",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105367",
-          "author": "shenzhuoyan",
-          "description": "shenzhuoyan: 本市没岗位可以报，省会难考，隔壁市还不错，会不会离家太远不值得？",
-          "link": "https://www.v2ex.com/t/1105367",
-          "publishedOn": "2025-01-15T12:26:47.000Z",
-          "wordCount": 433,
-          "title": "隔壁市的公务员应该报吗？",
           "imageUrl": null
         }
       ]
