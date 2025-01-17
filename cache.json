@@ -241,68 +241,6 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/689",
-          "author": null,
-          "description": "阿里云提供200Mbps带宽轻量云服务器\n阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制。新规格在内地、香港和境外所有区域均有提供，并在阿里云国际站同步上线。\n根据网友提供的信息，阿里云客服表示新规格不限制流量，但不保证资源抢占情况。有网友还发现，新款上线后旧款24元、34元香港轻量已不再提示“当日售出量已达上限”。\n注意：尽量不要使用阿里云进行跨境代理，会有后台检测。如果你决心这样做，至少要D一下系统。\n[消息等级 Level B · #重要 ]",
-          "link": "https://t.me/vps_xhq/689",
-          "publishedOn": "2024-12-26T06:42:18.000Z",
-          "wordCount": null,
-          "title": "阿里云提供200Mbps带宽轻量云服务器 阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/687",
-          "author": null,
-          "description": "IBM 云计算平台为开源项目提供永久免费服务器\nIBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服务器。配置为 2vCPU 8GB内存 100GB磁盘。\n不过，和甲骨文不同，申请 IBM 免费主机有一定的门槛，理论上只有开源项目的开发者可以申请。申请时需要提供开源项目的名称以及开源项目的公开地址，并说明将如何使用该资源。填写表单阶段没有验证步骤，提交后会显示“我们会尽快与您联系”，并收到一封同样内容的邮件。显然申请需要通过人工审核，后续还可能要求进一步补充材料。预测通过的概率较低，因为活动并没有在各个主要的VPS论坛中引起太大的反响。\nIBM LinuxONE 是专为托管企业 Linux 应用程序而构建的服务器系列。其架构称为 s390x，旨在将更多的计算能力整合到每个 CPU 核心中。这能够以更少的核心驱动更多的处理，并且在软件许可证成本由核心决定的情况下可以节省大量成本。通过减少数据中心的供电、冷却和维护数量，还可以节省更多成本。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/687",
-          "publishedOn": "2024-12-23T08:50:42.000Z",
-          "wordCount": null,
-          "title": "IBM 云计算平台为开源项目提供永久免费服务器 IBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -323,7 +261,7 @@
           "description": "hard2reg: \n新手刚学习前端，勿喷。\nBikBok - Infinite Swipe Short Video\n项目简介\nBikBok 是一个模仿抖音（ TikTok ）无限滑动浏览视频功能的Demo。\n没有第三方组件，没有点赞，没有评论，没有视频描述，纯粹的浏览。\nPreview\n\n技术栈\n前端：HTML5, CSS, JavaScript\n后端：Python(FastAPI)\n功能描述\n1. 视频展示\n用户可以通过滑动或者按键控制来浏览视频。每个视频均能自动播放并且支持静音与取消静音。\n2. 视频切换\n通过上/下箭头或者鼠标滚轮，用户可以切换到下一个或上一个视频。\n3. 静音与播放控制\n用户可以通过按下 'M' 键控制视频的静音与取消静音，或者通过空格键来控制视频的播放与暂停。\n4. 触摸控制（移动设备）\n在移动设备上，用户可以通过上下滑动手势来切换视频。默认情况下，移动设备上的视频会自动取消静音。\n5. 视频加载与刷新\n当视频播放结束或用户滑动到列表末尾时，应用会自动拉取新的视频，并显示在视频列表中。\n6. 用户会话\n每个用户都会生成一个唯一的会话 ID ，服务端通过此 ID 追踪用户已观看的视频并根据未观看的视频列表提供推荐（实际上是保证随机播放）。\n部署\n将 MP4 视频文件 video_dir 文件夹内。\nTips：如果元数据存储在视频文件开头，播放前的加载时间会更快。\nffmpeg -i input.mp4 -movflags +faststart output.mp4\n\n运行bikbok-server.py\npython bibok-server.py -d video_dir -m local -p 23333\n\n在浏览器中打开网址即可体验。\nRepo： https://github.com/hadwinfu/BikBok",
           "link": "https://www.v2ex.com/t/1106004",
           "publishedOn": "2025-01-17T17:26:57.000Z",
-          "wordCount": 434,
+          "wordCount": 436,
           "title": "BikBok - 纯粹的短视频浏览",
           "imageUrl": null
         },
@@ -363,7 +301,7 @@
           "description": "drymonfidelia: 有人说是大小核的问题\n即使不联网没有隐私泄露问题我也实在不想用 Windows 11",
           "link": "https://www.v2ex.com/t/1106000",
           "publishedOn": "2025-01-17T16:17:16.000Z",
-          "wordCount": 423,
+          "wordCount": 427,
           "title": "Windows 10 哪个更新有针对大小核的 backport？新买了一台小主机，物理断网专门用于编辑隐私资料，安装 Windows 10 LTSC 2021 后非常卡，频繁蓝屏报错 MICROCODE...",
           "imageUrl": null
         },
@@ -543,7 +481,7 @@
           "description": "JackMaMa: 求救各位老哥，某个网站：a.abc.cn ，用的 akamai 的 cdn ，在福州电信无法访问（移动 4G 、联通 4G 可以）。\n我用 nginx 做了反代域名：c.111.cn  可以访问了，但下一步竟然是登录，这时候请求只看 a.abc.cn ，点登录会报错：{\"error\":\"invalid client\"}\n到这里已经不知道怎么处理了。。\n有啥法子吗各位老哥",
           "link": "https://www.v2ex.com/t/1105975",
           "publishedOn": "2025-01-17T13:38:34.000Z",
-          "wordCount": 440,
+          "wordCount": 443,
           "title": "福州电信某网站无法访问求救",
           "imageUrl": null
         },
@@ -553,7 +491,7 @@
           "description": "ly1878: 多年前是个笑话，不知道现在是否原生已经实现的功能？我测试了没成功。\n第三方 paste 可以完美流畅实现？",
           "link": "https://www.v2ex.com/t/1105974",
           "publishedOn": "2025-01-17T13:36:38.000Z",
-          "wordCount": 411,
+          "wordCount": 413,
           "title": "弱弱问下，在 macOS 上复制，可以直接在 iOS 粘贴吗？",
           "imageUrl": null
         },
@@ -583,7 +521,7 @@
           "description": "YaakovZiv: \n我现在所在的公司在省内有点像西游记里神仙的坐骑角色，前两年接神仙指示接了一个项目，后来神仙找第三方审核项目代码和项目成品，不满项目质量，指责我这边的领导决策失误。我这边领导就指责乙方开发团队不靠谱。神仙生气，给我们这边定了一个一年期的不晋升。我们这边领导更生气，给乙方要来项目人员名单要拉黑。这个拉黑我不知道是否真能做到，但听完后感觉十分离谱，因为项目人员入场时全是实名登记，我这边领导直接把带实名认证的项目人员名单分发给了其他神仙和他们的坐骑。有次聚餐，领导提起这事，自称接到一些背景调查来访电话要调研项目情况，领导都给了差评。若是真的，项目里人员都难入职新公司。\n我就很好奇，乙方到底怎么得罪了领导，找乙方开发期间经常接触的人打听，得知有俩神奇老哥做了神奇事情，一个是增加运维复杂度，想要搞点难用的组件，让我们继续续约运维服务。一个是增加代码复杂度，让代码逻辑难以理顺，让我们继续续约定制开发服务。我不知道该说啥好。\n目前的结果就是，神仙审批了一笔可亏损资金，直接报废了这个项目，要求新一年新资金开发，并且指定了另一个开发公司。我们这边背一个调研失策和决策失误的锅。乙方可能是损失最严重吧，项目人员不能参与天庭投资的所有项目，除非找一批应届生的实名去顶替。\n我认为，留一手不能仅留一手，最起码不要让自己实名被牵连，我不反对留一手，我知道有些工作真的是教会别人饿死自己。但我觉得，打算留一手，最起码要保护好自己。没必要让自己在第一轮就直接交代老底。",
           "link": "https://www.v2ex.com/t/1105971",
           "publishedOn": "2025-01-17T13:32:11.000Z",
-          "wordCount": 409,
+          "wordCount": 411,
           "title": "留一手不应只留一手",
           "imageUrl": null
         },
@@ -643,7 +581,7 @@
           "description": "PanicByte: \n基于巨无霸指数(Big Mac Index)，我开发了一个全球定价工具，帮助你在不同国家设置合理的 App 价格。\n告别盲目定价，让数据帮你做决策 📊\n参考各国购买力\n优化区域定价策略\n提升全球市场收益\n地址： https://www.bigmacprice.com/",
           "link": "https://www.v2ex.com/t/1105965",
           "publishedOn": "2025-01-17T13:09:47.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "巨无霸指数全球定价参考工具",
           "imageUrl": null
         },
@@ -703,7 +641,7 @@
           "description": "AE86Janus: 正在开发一款软件。\n设计时，软件运行需要类似网银 U 盾的硬件设备插入计算机，才可以运行软件。\n请问淘宝有没有类似这种可以 U 盾可以二次开发和售卖？\nPS：淘宝输入加密狗，发现不是需要东西。\n求大佬指点",
           "link": "https://www.v2ex.com/t/1105958",
           "publishedOn": "2025-01-17T12:42:46.000Z",
-          "wordCount": 516,
+          "wordCount": 518,
           "title": "请教软件加密相关问题，求大佬指点",
           "imageUrl": null
         },
