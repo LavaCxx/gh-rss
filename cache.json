@@ -151,23 +151,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -302,22 +285,12 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1106008",
-          "author": "Honwhy",
-          "description": "Honwhy: \n之前有一个 landing page 是通过 astro 模板修改而来的，显得有点笨重了。\n通过同事介绍建议，使用 v0.dev 等可以快速搭建，发现 deepseek 背后也是用了 Claude 3.5 Sonnet 模型，所以花了几个小时肝了。\n访问地址：https://mpmd.pages.dev\n原来\n\n修改后",
-          "link": "https://www.v2ex.com/t/1106008",
-          "publishedOn": "2025-01-17T19:50:17.000Z",
-          "wordCount": 390,
-          "title": "通过 deepseek 重写公众号编辑插件的 landing page",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1106005",
           "author": "8eacekeep",
           "description": "8eacekeep: \n从 chatGPT 发布开始，虽然对 AI 也挺感兴趣的，但一直对我来说都是可有可无的东西。\n期间 AI 翻译确实对我的生活有了一定的帮助，但这玩意儿很无感，长时间使用下来对 AI 这的看法也没产生什么质的改变。\n直到 Cursor 的出现，是极为真切的让我感受到，AI 是真他妈的牛逼。",
           "link": "https://www.v2ex.com/t/1106005",
           "publishedOn": "2025-01-17T17:34:46.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "Cursor 是第一款让我清楚的意识到 AI 如此强大的软件",
           "imageUrl": null
         },
@@ -357,7 +330,7 @@
           "description": "LnTrx: \n引述：\nIT 之家 1 月 17 日消息，小米日前发布了 2025 年 BootLoader 解锁条件更新，主要新增了两点内容：\n答题 / 报名 / 申请 / 绑定 / 解锁 / 已解锁设备的使用等均需要保持为同一台设备；\n获取资格后 336 小时（ IT 之家注：14 天）内完成绑定和解锁操作。\n此外，自 2025 年 1 月 1 日起，通过申请的用户，在权限有效期内，最多支持 1 台绑定设备解锁。此前，这一要求为“最多支持 3 台绑定设备解锁”。  \n评：\n现在“小米高考”与其说是技术门槛，不如说更像服从性测试。  \n不知道有没有人去问雷军，不考虑熔断机制、而是小步快走拉高门槛，是不是准备告别刷机起家的牵绊，走向彻底禁止解锁的未来？    \n参见：\n [ kernelSU 的作者 weishu 参加今日场小米高考取得了 30 分——望周知] \n小米解锁考试我们都没考过，最后是氪金过的-极客湾",
           "link": "https://www.v2ex.com/t/1106001",
           "publishedOn": "2025-01-17T16:17:56.000Z",
-          "wordCount": 460,
+          "wordCount": 467,
           "title": "评小米 Bootloader 解锁进一步收紧",
           "imageUrl": null
         },
@@ -367,7 +340,7 @@
           "description": "drymonfidelia: 有人说是大小核的问题\n即使不联网没有隐私泄露问题我也实在不想用 Windows 11",
           "link": "https://www.v2ex.com/t/1106000",
           "publishedOn": "2025-01-17T16:17:16.000Z",
-          "wordCount": 494,
+          "wordCount": 505,
           "title": "Windows 10 哪个更新有针对大小核的 backport？新买了一台小主机，物理断网专门用于编辑隐私资料，安装 Windows 10 LTSC 2021 后非常卡，频繁蓝屏报错 MICROCODE...",
           "imageUrl": null
         },
@@ -557,7 +530,7 @@
           "description": "ly1878: 多年前是个笑话，不知道现在是否原生已经实现的功能？我测试了没成功。\n第三方 paste 可以完美流畅实现？",
           "link": "https://www.v2ex.com/t/1105974",
           "publishedOn": "2025-01-17T13:36:38.000Z",
-          "wordCount": 418,
+          "wordCount": 434,
           "title": "弱弱问下，在 macOS 上复制，可以直接在 iOS 粘贴吗？",
           "imageUrl": null
         },
@@ -699,6 +672,26 @@
           "publishedOn": "2025-01-17T12:43:22.000Z",
           "wordCount": 463,
           "title": "想学某项技能，又担心后面会被 AI 替代变得无用而犹豫不前。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105958",
+          "author": "AE86Janus",
+          "description": "AE86Janus: 正在开发一款软件。\n设计时，软件运行需要类似网银 U 盾的硬件设备插入计算机，才可以运行软件。\n请问淘宝有没有类似这种可以 U 盾可以二次开发和售卖？\nPS：淘宝输入加密狗，发现不是需要东西。\n求大佬指点",
+          "link": "https://www.v2ex.com/t/1105958",
+          "publishedOn": "2025-01-17T12:42:46.000Z",
+          "wordCount": 518,
+          "title": "请教软件加密相关问题，求大佬指点",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105957",
+          "author": "charlesmware877",
+          "description": "charlesmware877: \n电影有点年头了，年轻的 V 友可能没听说过，叫《榴莲飘飘》，导演是香港著名导演陈果，拍过《香港制造》，这部电影捧红了李灿森，《榴莲飘飘》主演是秦海璐，这个也算是秦海璐的成名之作吧。\n扯远了，片子里里面有一首歌，是用婚礼进行曲的调子唱的\n“结婚了吧，傻逼了吧，以后要挣钱就两个人花。离婚了吧，傻逼了吧，以后要打炮就买单了吧。”\n婚姻这个东西其实说不出个道理来，相看两生厌和举案齐眉相敬如宾都不可能是常态，真到了婚姻这一步，所有的事情就跟荷尔蒙没关系了，热门的几位兄弟，还是要走出来，以自己的感受为主，记住爱惜自己不是自私，自己都不开心，别人更不可能开心对吧？\n絮叨这么多，算是与各位 V 友共勉吧，如果觉得我说的不对就把我当个屁放了吧：）",
+          "link": "https://www.v2ex.com/t/1105957",
+          "publishedOn": "2025-01-17T12:40:16.000Z",
+          "wordCount": 364,
+          "title": "看了这几天的热门帖子，想到了一部电影里的一首歌",
           "imageUrl": null
         }
       ]
