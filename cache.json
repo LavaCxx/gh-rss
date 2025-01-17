@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -143,23 +137,6 @@
           "wordCount": 1056,
           "title": "第205期 - 听张信哲",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -298,443 +275,463 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1105847",
-          "author": "jiejianshiwa",
-          "description": "jiejianshiwa: \n对比 Tiktok refugee, 各位 V2exer 都是 Internet refugee",
-          "link": "https://www.v2ex.com/t/1105847",
-          "publishedOn": "2025-01-17T06:38:41.000Z",
-          "wordCount": 393,
-          "title": "各位 V2exer 都是 Internet refugee",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105846",
-          "author": "southsala",
-          "description": "southsala:",
-          "link": "https://www.v2ex.com/t/1105846",
-          "publishedOn": "2025-01-17T06:34:48.000Z",
+          "id": "https://www.v2ex.com/t/1105920",
+          "author": "Likenttt",
+          "description": "Likenttt: \n我的中文很穷，希望可以富有|抽象是网络的通行证，矜持是博主的墓志铭 | 玩抽象的一些发现",
+          "link": "https://www.v2ex.com/t/1105920",
+          "publishedOn": "2025-01-17T09:36:16.000Z",
           "wordCount": 373,
-          "title": "ruoyi-vue-pro 和 ruoyi-vue-plus 二选一该怎么选，微服务版本的，两个都用过的能说一下吗？感谢",
+          "title": "最近几天在小红书玩抽象的发现与心得",
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1105845",
-          "author": "Wxh16144",
-          "description": "Wxh16144: \n写在前面哈\n这个方案只是出于学习和分享的目的，肯定是不建议在生产环境中使用的。并且不是最优的方案，只是一个简单的实现。\n实现\n使用 GitHub Pages 自定义子域名，然后通过 404 页面实现跳转。\n本地使用 git commit --allow-empty -m 将每一个真实网址作为一个 commit message 提交到 GitHub 仓库。\n由于每一个提交都会生成一个唯一的 SHA-1 值，然后通过这个 SHA-1 值作为短网址的路径。\n最后在 404 页面中通过 GitHub commits api 用 SHA-1 值获取到 commit message ，然后跳转到真实网址。\n比如: https://link.wxhboy.cn/22bb (22bb 是一个 SHA-1 值)\n以上就是整个实现的思路。源码在这里, Wxh16144/links/blob/gh-pages/404.html\nFirebase Dynamic Links 迁移\nFirebase Dynamic Links 已被弃用，不应该在新项目中使用。该服务将于 2025 年 8 月 25 日关停。\n由于以前使用的 Firebase Dynamic Links 服务，并且最近登录后发现弃用提示。发现提供了数据导出的功能，所以就导出了历史数据。\n\n这里可以用脚本将导出的数据的真实地址一条条的转换成 commit message ，然后提交到 GitHub 仓库中。\n但是之前的路径是不一样，所以我们可以痛过 tag 来实现一一对应。就像这样:\n\n如上操作后，我们就可以通过 tag 或分支名来实现语义化的路径\n总结\n用 SHA-1 值作为路径，虽然不是最短的短网址，但是可以保证唯一性。\n加上之前网络上出现过一篇名为 《 Anyone can Access Deleted and Private Repository Data on GitHub 》 的文章，说的是即便删除了有关分支和 tag 依然可以通过 api 获取到提交的信息。微软回应这是设计如此。\n所以我们在仓库只要有 push 过的提交，都可以通过 SHA-1 值来获取到提交信息。也就是说，这个基于 SHA-1 值的短网址服务是可以永久保留的。\n缺点\n说完我们的骚操作，也要说说缺点。\n由于每一个真实网址都是一个提交，所以会导致仓库的提交记录非常多，不利于查看。 (可以通过 tag 或分支名来实现语义化的路径)\n因为 GitHub 仓库是公开的，所以短网址也是公开的，不适合敏感信息。\n由于是通过 404 页面实现跳转，所以会有一定的延迟。\n404 页使用了 GitHub api ，所以会存在一定的请求次数限制。\n以上，这是一个玩具~\n试试看文中提到的短网址\nhttps://link.wxhboy.cn/9QEF\nhttps://link.wxhboy.cn/UCPuD93mY99vfntK8\nhttps://link.wxhboy.cn/TtnJ",
-          "link": "https://www.v2ex.com/t/1105845",
-          "publishedOn": "2025-01-17T06:32:44.000Z",
-          "wordCount": 762,
-          "title": "一个奇淫技巧实现的短网址",
+          "id": "https://www.v2ex.com/t/1105919",
+          "author": "sikuu2al",
+          "description": "sikuu2al: \n求推荐 v 友们",
+          "link": "https://www.v2ex.com/t/1105919",
+          "publishedOn": "2025-01-17T09:34:00.000Z",
+          "wordCount": 436,
+          "title": "广州有没有什么补牙好的牙科诊所（价格正常，最好不用提前很久预约的）",
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1105843",
-          "author": "Ivan555",
-          "description": "Ivan555: 分享一款我开发的在线小游戏合集平台，目前已经上架了 4 款不同风格的游戏，相信总有你的菜，项目地址我放下面了，感兴趣的去试试吧\nhttps://sgthanos.com/",
-          "link": "https://www.v2ex.com/t/1105843",
-          "publishedOn": "2025-01-17T06:21:47.000Z",
-          "wordCount": 351,
-          "title": "分享一款我开发的在线小游戏合集平台，开箱既玩，无需下载",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105842",
-          "author": "Livy15669",
-          "description": "Livy15669: 公众号名称：Livy 说结汇\n公众号内容：分享 AdSense ，admob ，GooglePlay ，iOS ，YouTube 等收款结汇方法，政策更新变动等\n可以在评论区或者公众号留言，将你所想了解的问题告诉我，或者直接微信联系我 Livy15669 ，我会尽最大努力帮助你解决问题！感谢关注！",
-          "link": "https://www.v2ex.com/t/1105842",
-          "publishedOn": "2025-01-17T06:21:03.000Z",
-          "wordCount": 358,
-          "title": "宣传一下自己的一个公众号，如果大家感兴趣可以多多关注一下！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105841",
-          "author": "littleG",
-          "description": "littleG: \n产品安排好几个活，排期很紧，其中一个延期 2 次了，刚刚又过来催了，拿市场部和技术部两个主管压人。\n只能尽力加班去做啊，不敢反抗，有贷款的人真卑微。\n等会开周会要被怼了。",
-          "link": "https://www.v2ex.com/t/1105841",
-          "publishedOn": "2025-01-17T06:17:45.000Z",
-          "wordCount": 453,
-          "title": "年前产品安排任务很多，做不完，但是不敢反抗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105840",
-          "author": "justinX",
-          "description": "justinX: Position：Golang 、flutter app 、测试、前端、运维\nJob Type：Full-Time, Remote \nIndustry: Web3/Exchange\nPS：\n1 、本科及以上计算机专业，3/10 年工作经验，\n2 、具备 Web3/CEX/DEX 相关从业背景，\n3 、全远程办公模式。\nTG：@jtx_2023",
-          "link": "https://www.v2ex.com/t/1105840",
-          "publishedOn": "2025-01-17T06:17:28.000Z",
-          "wordCount": 429,
-          "title": "招聘： Position： Golang、flutter app、测试、前端、运维 Job Type： Full-Time, Remote Industry: Web3/Exchange",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105839",
-          "author": "asen001",
-          "description": "asen001: \n武汉联通，从这个星期开始只要一回家，机场的 trojan 节点全部没有速度，在公司或者使用流量就正常。\n大家有遇到过不，是不是被运营商识别阻断了，用 google 习惯了，在家上不了好难受",
-          "link": "https://www.v2ex.com/t/1105839",
-          "publishedOn": "2025-01-17T06:15:58.000Z",
-          "wordCount": 469,
-          "title": "运营商阻断 trojan ？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105838",
-          "author": "kirieievk",
-          "description": "kirieievk: 雷军等等这些科技大佬,它们的微信马化腾到底能不能看到.",
-          "link": "https://www.v2ex.com/t/1105838",
-          "publishedOn": "2025-01-17T06:14:06.000Z",
-          "wordCount": 467,
-          "title": "一直好奇有个事儿",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105837",
-          "author": "swordsmile",
-          "description": "swordsmile: \n系统使用的是 archlinux Hyprland PipeWire 组合，显卡是 i5-10500 自带的 UHD630\n目前使用的问题有：\nUSB 音箱每次重新开机后，音量是最大，音量图标显示还是关机前的音量大小\n远程使用的是 wayvnc ，每次关掉显示器后远程程序就掉了。",
-          "link": "https://www.v2ex.com/t/1105837",
-          "publishedOn": "2025-01-17T06:13:47.000Z",
-          "wordCount": 401,
-          "title": "archlinux Hyprland PipeWire 声音问题和远程问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105836",
-          "author": "INBreeze",
-          "description": "INBreeze: \n主要目标: 韩国, 日本, 新加坡, 马来西亚\n看看那家终端商最黑 \\doge",
-          "link": "https://www.v2ex.com/t/1105836",
-          "publishedOn": "2025-01-17T06:13:19.000Z",
-          "wordCount": 377,
-          "title": "在各国的佬们, 问下你们各自的 5090&5080 消费零售价格",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105835",
-          "author": "lxhill",
-          "description": "lxhill: \n服务器用了 Windows server 2025 作为底层系统，设置了数据盘的自动休眠，没有任何软件安装在上面，但硬盘一直都在运行没法自动休眠。通过进程监控发现是 WmiPrvSE.exe 所造成的，每几分钟就操作下机械硬盘，看事件查看器也看不出所以然，请教大家有遇到过不并如何处理呢？",
-          "link": "https://www.v2ex.com/t/1105835",
-          "publishedOn": "2025-01-17T06:12:57.000Z",
-          "wordCount": 353,
-          "title": "Windows server 2025 硬盘无法自动休眠， WmiPrvSE.exe 不断读取",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105832",
-          "author": "noobma",
-          "description": "noobma: \n我看了几家厂商的 tts 服务，有 2 个问题：\n很多方言不支持，比如云南-昆明、内蒙古-呼和浩特\n方言基本上是大片区域的，像东北话、四川话、粤语、吴语等等，但是不同的城市肯定有差异， 比如同属吴语片区的浙江宁波话、江苏无锡话肯定不一样的，\n貌似这些厂商的服务满足不了我的需求。\n不用支持用户自己随便输入文本，就只是自己用的时候指定的几句，比如“今天的太阳很大”、“我能吞下玻璃而不伤身体”，也不用管同一个城市下面的县区、乡镇口音差异。\n大佬们，有没有适合个人的解决方案",
-          "link": "https://www.v2ex.com/t/1105832",
-          "publishedOn": "2025-01-17T06:03:53.000Z",
-          "wordCount": 407,
-          "title": "tts 怎么把文本合成指定城市的方言语音",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105831",
-          "author": "Moldav",
-          "description": "Moldav: \nA simple, free, and beautiful online timer\nMinute Timer\nStopwatch Timer",
-          "link": "https://www.v2ex.com/t/1105831",
-          "publishedOn": "2025-01-17T06:01:59.000Z",
-          "wordCount": 344,
-          "title": "分享一个在线的计时器工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105830",
-          "author": "wurtwzs",
-          "description": "wurtwzs: \n家里小闺女已经两岁两个月了，想着过年给她买个惊喜的小礼物，各位有什么推荐的吗？\n因为平时都是在老家由我老婆和我爸妈带着，本人在外地打工，只能每隔个两个星期才能回去一次，所以想着过年给她买个喜欢的小礼物。\n她比较喜欢小马宝莉和汪汪队，已经买了很多玩偶了，想再给她买个不一样的惊喜，所以想请问一下各位大佬有什么推荐？",
-          "link": "https://www.v2ex.com/t/1105830",
-          "publishedOn": "2025-01-17T06:01:24.000Z",
-          "wordCount": 592,
-          "title": "过年应该给家里宝宝买点什么礼物",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105829",
-          "author": "Renco",
-          "description": "Renco: \n昨天发了一帖，都是关于本地化部署，如何远程运维相关的，本人描述的有点问题，造成了误解。实际上想问的是，如何让部署在内网服务器的应用，能让互联网用户能访问。比如 APP 端，和 pc-web 端直接调用。\n甲方用户大多数是不允许通过开一个外网机器用 nginx 转发至内网来实现。说是有安全隐患。因此一般这种是有什么方案好做，或者有什么安全策略。",
-          "link": "https://www.v2ex.com/t/1105829",
-          "publishedOn": "2025-01-17T06:01:11.000Z",
-          "wordCount": 600,
-          "title": "部署在内网服务器的应用，有什么方式让互联网端的用户客户端能访问到。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105828",
-          "author": "BestVPS",
-          "description": "BestVPS: \nDMIT 促销 - 190 美金年付 日本三网 CMI 回程\nTYO.EB.Ginza\n1 vCPU\n1.0 GB RAM\n20G SSD Storage\n1000GB Transfer\n1Gbps VirtIO Interface\n1 IPv4 & 1 IPv6 /64\n189.90USD/Year\n购买链接带 aff： https://990599.xyz/d230",
-          "link": "https://www.v2ex.com/t/1105828",
-          "publishedOn": "2025-01-17T05:54:07.000Z",
-          "wordCount": 387,
-          "title": "(VPS)DMIT-TYO.EB.Ginza 日本三网 CMI 回程上线了（怎么最近好多新品）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105827",
-          "author": "Cineray",
-          "description": "Cineray: \n我在家里搭了一套服务器，向电信申请了动态公网 IP ，通过 DDNS 绑在一个域名上，用的高位端口，开了防火墙，用 Lucky 做反代。\n然后我开了一个 AList 服务给我自己挂载网盘用，服务从未公开给任何人。\n但是最近通过 LOG 文件发现，有人通过很多的肉鸡服务器，一直访问我 AList 目录下一个狂飙的资源（而且在我发现这个事情之后我第一时间删除了这个资源，但还是持续访问（肯定是无法成功访问的））：\n2025/01/17 00:33:07\n{\"ExtInfo\":{\"ClientIP\":\"27.10.81.218 中国|重庆|重庆市|联通\",\"Host\":\"alist.mywebsite.com:20404\",\"Method\":\"GET\",\"URL\":\"/d/夸克/来自：分享/狂飙/狂飙.2023.E13.WEB-DL.4K.H265.AAC-HDCTV.mp4?sign=ab4a9131bAVolZvK1S0PYMpOwpf3y3HXhrDVUGG5MLc=:0\",\"UserAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36\"},\"level\":\"info\",\"msg\":\"Upgrade [] Connection[keep-alive]\"}\n2025/01/17 00:33:07\n{\"ExtInfo\":{\"ClientIP\":\"27.10.81.218 中国|重庆|重庆市|联通\",\"Host\":\"alist.mywebsite.com:20404\",\"Method\":\"GET\",\"URL\":\"/d/夸克/来自：分享/狂飙/狂飙.2023.E13.WEB-…",
-          "link": "https://www.v2ex.com/t/1105827",
-          "publishedOn": "2025-01-17T05:20:48.000Z",
-          "wordCount": 663,
-          "title": "一直有陌生 IP 想看我服务器里的狂飙是为什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105826",
-          "author": "yellowstrong",
-          "description": "yellowstrong: \n首先,家庭环境无公网 IP,老家环境也无公网 IP,但是手中有一台具有公网 IP 的国内服务器\n在国内服务器上搭建了一个 WireGuard(简称服务端),用于转发流量\n目前实现服务端连接家庭客户端 WG,可可访问家中内网环境,其他设备(例如手机,电视,电脑)通过 WG 客户端连接服务器上的服务端,也可以访问家庭环境的内网 IP\n现在想实现,老家的 openwrt 上搭建一个 WG 连接服务端,让 openwrt 下的子设备可以通过家庭环境的内网 IP 直接访问家庭内网,该如何做\n感谢",
-          "link": "https://www.v2ex.com/t/1105826",
-          "publishedOn": "2025-01-17T05:20:44.000Z",
-          "wordCount": 588,
-          "title": "求助万能的 V 友关于两台 OpenWRT 异地组网的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105825",
-          "author": "piller",
-          "description": "piller: \n还有两张 GG 卡，你出邮费我寄给你，我不知道别人为啥邮费这么低，我只会发普通快递",
-          "link": "https://www.v2ex.com/t/1105825",
-          "publishedOn": "2025-01-17T05:15:30.000Z",
-          "wordCount": 364,
-          "title": "出邮送两张 GG 卡，充 10 磅送 10 磅",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105824",
-          "author": "cinlen",
-          "description": "cinlen: \n假设有 user 微服务和 user 表. \nuser 微服务新增了一个迭代 v1.0.2 ，但是有一个 break change ，需要：\nuser 表新增一个字段 aaa \naaa 字段需要根据每个 user 的情况赋予不同初始值 \nuser 表删除一个字段 bbb \n目前有两种方案：\nuser 微服务 v1.0.2 上线后去 migrate user1.0.2.sql \n让 dba 在上线时配合去执行这些操作 \n这里只是举一个例子。\n方案 1 感觉用的不少，但个人感觉线上 ddl 还是选择方案 2 dba 处理更稳妥一点, 特别是数据量大时涉及到锁表啥的。\n请问什么情况下使用方案 1 ，什么情况下使用方案 2 ？想要各位后端大佬们的一些好的实践方案。",
-          "link": "https://www.v2ex.com/t/1105824",
-          "publishedOn": "2025-01-17T05:14:20.000Z",
-          "wordCount": 558,
-          "title": "请教后端们: 数据库 schema 变更让项目执行 migrate 还是让 DBA 处理？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105823",
-          "author": "dejavuwind",
-          "description": "dejavuwind: \n海鲜市场这种低价全新硬盘有啥猫腻，有懂的老哥能指点下不\n[闲鱼]  https://m.tb.cn/h.TkOF0Tu?tk=tQj6eWdGbjH MF287 「快来捡漏 [全新三星 990PRO 1T 固态硬盘 M.2 固态 NVME 协议 P ] 」\n点击链接直接打开",
-          "link": "https://www.v2ex.com/t/1105823",
-          "publishedOn": "2025-01-17T05:06:29.000Z",
-          "wordCount": 576,
-          "title": "128 就能买到 1T 990pro 有啥坑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105822",
-          "author": "wlu9287",
-          "description": "wlu9287: 很多国内想转职的朋友们，可能对日本的 it 业界划分没有细致的了解。\n接下来我将详细介绍一下 IT 业界的 5 大分类\n1. インターネット・Web 業界\n提供互联网服务和 Web 平台，专注于数字化产品和用户体验的优化。\n💕代表公司：Google 、Amazon 、Facebook ～\n岗位：\nWeb 开发工程师：负责网站和 Web 应用的设计与开发\n数据分析师：分析用户行为，优化产品\n数字营销专员：通过线上营销策略提升公司品牌与销售\n2. 通信・通信インフラ業界\n构建和维护通信网络基础设施，支持全球通信和数据传输。\n💕代表公司：NTT 、KDDI 、SoftBank 、Docomo\n岗位：\n网络工程师：设计、维护和优化通信网络\n通信技术员：安装和维护通信设备\n系统管理员：管理和维护企业的 IT 基础设施\n3. ソフトウェア業界\n开发各种软件产品，提升个人和企业的数字化操作效率\n💕代表公司：Microsoft 、Oracle 、SAP 、富士通、日立\n岗位：\n软件开发工程师：开发各类软件应用。\n测试工程师：负责软件质量的测试与保证。\n产品经理：负责软件产品的规划和管理。\n4. ハードウェア業界\n制造计算机和电子设备，为技术创新提供硬件支持。\n💕代表公司：Apple 、Sony 、Panasonic 、NEC\n岗位：\n硬件工程师：设计和开发电子硬件产品。\n嵌入式系统开发工程师：开发嵌入式系统的软硬件。\n生产工程师：管理硬件产品的生产流程。\n5. 情報処理/システム開発(SIer)・ITコンサル業界\n提供系统集成和 IT 咨询服务，帮助企业优化信息技术架构和业务流程。\n💕代表公司：Accenture 、IBM 、NTTデータ\n岗位：\n系统工程师（ SE ）：负责客户信息系统的设计和开发。\nIT 咨询顾问：为企业提供 IT 战略咨询与解决方案。\n项目经理：管理系统开发项目，确保按时交付\n以上的岗位这边都可推荐，感兴趣的朋友们可仔细看下文:\n👉我们：\n日企株式会社 jellyfish 。在亚洲欧美等地专注于引荐在 IT 工程师等领域拥有卓越技术专长的人才，包括机械、电气电子、嵌入式控制、机器人技术等专业领域, 可推荐 500 ＋企业，2000 ＋岗位，免费提供转职服务。\n👉招募岗位：\nWeb 开发、Mobile 开发、产品经理、后端开发、云计算、大数据与分析、机器学习与人工智能、机电设计 、电路设计工程师等岗位\n👉年薪：\n400~3000w ＋（根据能力经验而定）\n👉要求：\n・相关技术达标（编程语言: Golang/Go, Java, C#, Python, Ruby, JavaScript ,TypeScript, Embedded C, C++等）\n・日语需达到交流水平（因无华人派遣企业，所以除英语母语水平，不可以不会日本语！！！）\n＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿\n♥推荐他人：\n奖励金 5000rmb\n♥有兴趣的朋友请联系我们（备注：期望岗位）\nvx：jf_kikk",
-          "link": "https://www.v2ex.com/t/1105822",
-          "publishedOn": "2025-01-17T05:06:10.000Z",
-          "wordCount": 446,
-          "title": "[日本转职] 日本 it 业界是怎么分类的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105821",
-          "author": "Cellinlab",
-          "description": "Cellinlab: \nPodRedit.cn 是一个专注于播客内容发现、二次创作和传播助力的平台。\n愿景：\n让播客被更多人看见 🚀\n让更多播客主赚到钱 💰\n\n欢迎对播客感兴趣的小伙伴提需求",
-          "link": "https://www.v2ex.com/t/1105821",
-          "publishedOn": "2025-01-17T04:54:37.000Z",
-          "wordCount": 345,
-          "title": "上线一个月左右，注册用户 300，日活 150+，记录下！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105820",
-          "author": "ronman",
-          "description": "ronman: \n似乎是很少量用户被灰度了\n消息来源：酷安",
-          "link": "https://www.v2ex.com/t/1105820",
-          "publishedOn": "2025-01-17T04:47:24.000Z",
-          "wordCount": 558,
-          "title": "微信疑似正在国内灰度 CallKit 功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105819",
-          "author": "fengxuejianshi",
-          "description": "fengxuejianshi: \n在学校门口找吗",
-          "link": "https://www.v2ex.com/t/1105819",
-          "publishedOn": "2025-01-17T04:24:10.000Z",
-          "wordCount": 115,
-          "title": "怎么搞到教育优惠用的邮箱或认证",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105817",
-          "author": "astime",
-          "description": "astime: \n事情还要从搭论坛开始说起，Discourse 每个板块都有要有一个说明，放着模板文字不动不是我的风格，空着又不行，想着找 AI 捉刀，没想到一发不可收拾……\n一\n一开始的画面是这样的（最开始是前面一半……）\n登场 · 入坑\n学习 · 折腾\n工具 · 玩具\n语言 · 语料\n归档 · 回收\n意见 · 建议\n工具 · 玩具 最简单，给现成的「学霸两只笔，差生文具多」补两句就差不多了，拿磨刀砍柴雕花梗来凑一凑，搞定。看上去效果还不错，其他的没什么头绪，让 AI 来表现下，于是先后召唤 GPT-4o 和 Claude-3.5 （ cursor ）布置作业，以「我」的大作为参考，为其他板块写打油——哦，定场诗，结果 GPT-4o 一塌糊涂，全军覆没，Claude 真的一遍就写出了打油十足的「诗」——句子。于是画面变成了这样：\n登场 · 入坑 C 新人初来到，规则记得牢，以为能速造，沉迷停不了\n学习 · 折腾 C 睡眠记忆法，效率提升啊，折腾没完啦，快乐就是它\n工具 · 玩具 R 学霸两只笔，差生文具多，磨刀不砍树，雕花呵呵呵\n语言 · 语料 C 二语初学时，词汇背不起，沉浸刷剧去，肥宅快乐水\n归档 · 回收 C 好贴藏起来，有朝再翻牌，珍藏莫等待，考古正当年\n意见 · 建议 C 建议送上前，改进记心间，下次一定改，咕咕咕咕咕\n当然，这些是给了论坛初版设定的文档的上下文，所以要说相关也有那么点相关\n二\n然后重建论坛的时候看到这些胡说八道觉得有必要翻新下以正视听，于是认真捣鼓了下，发现 GPT-4o 才是真诗人，盛传文学造纸高的 Claude 同学反而比较匠气。\n这次我也得有提高不是，于是优化了 prompt ，告诉他们板块的主旨，避免出现的词汇，然后开始抽卡（一次来 20 首，以量取胜，猴子打不出莎士比亚不要紧，可以改行写现代诗嘛），结果大出意料，基本上 Claude …",
-          "link": "https://www.v2ex.com/t/1105817",
-          "publishedOn": "2025-01-17T04:04:34.000Z",
-          "wordCount": 571,
-          "title": "抽卡炼句：与 AI 合作打油诗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105816",
-          "author": "ChengPu",
-          "description": "ChengPu: \n好产品先上截图：\n\n这是一个专门为开发者、独立开发者设计的新标签页工具，主要解决了三个日常痛点：项目灵感获取、GitHub 趋势追踪和开发工具快速访问。\n插件官网： https://newtab.nextidea.dev/\nhttps://chromewebstore.google.com/detail/next-idea-newtab/gneedaehihepidbpdenhmlmgpdaiaepo\n核心功能\n1. 项目灵感库\n分类列出我整理的优质开源项目，每个开源项目都有详细介绍和 Idea 分享，对于寻找副业项目的开发者来说很有帮助。\n2. GitHub Trending\n实时展示 GitHub 趋势项目，支持按编程语言筛选。\n3. 开发者工具箱\n提供了一个常用工具箱，支持外链打开和 iframe 打开两种方式。很快会支持用户自定义，使用更便捷。\n\n欢迎大家使用、反馈",
-          "link": "https://www.v2ex.com/t/1105816",
-          "publishedOn": "2025-01-17T04:02:14.000Z",
-          "wordCount": 402,
-          "title": "为开发者们打造了一款新标签页插件——🧩Next Idea NewTab",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105815",
-          "author": "cjun",
-          "description": "cjun: \n最近看到有朋友有购车需求，也说一下我开过的 2 款车的感受，针对预算不多的同学，预算充足的就不适用了。想到哪说到哪。\n19 年底购入雷凌，落地 13W 。24 年国补，换成比亚迪 05 ，落地价 8.3W 。2 款车总体使用感受。\n雷凌给人很稳，雷凌低配带有 l2 级自动驾驶，可以车道保持，130,140 不慌。\n驱逐舰 05 高速时很幌，很飘。没有安全感。130 码，超大车会幌，雷凌从来没发生过。\n雷凌有点肉，经常想加速，油门踩到底也达不到提速效果。\n驱逐舰 05 加速可以，踩油门就可以达到想要的提速，加速方面驱逐舰 05 完胜。\n雷凌，蓝牙会掉线，没啥车机概念。\n驱逐舰 05 低配带有车机大屏，体验完爆雷凌。\n雷凌表显 7.7 个油。\n驱逐舰 05 比较低，4-5 个油，比雷凌省油很多。顺便说一下，驱逐舰 05 的续航不准确，满油显示 1150 公里，实际 900 公里左右。\n个人建议：\n一年如果开高速比较多，高速占比超过 30%的里程，不建议驱逐舰 05 ，驱逐舰 05 给人不安全的感觉。\n如果市区比较多，驱逐舰 05 是个很好的选择。",
-          "link": "https://www.v2ex.com/t/1105815",
-          "publishedOn": "2025-01-17T03:54:50.000Z",
-          "wordCount": 470,
-          "title": "雷凌和驱逐舰 05 对比",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105814",
-          "author": "adaishixiong",
-          "description": "adaishixiong: \n眼瞅着就过年了，五湖四海的朋友都准备什么年夜饭？你家年夜饭谁来做？",
-          "link": "https://www.v2ex.com/t/1105814",
-          "publishedOn": "2025-01-17T03:40:35.000Z",
-          "wordCount": 481,
-          "title": "大家年夜饭都准备什么菜单？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105813",
-          "author": "tppttw",
-          "description": "tppttw: \n放在前边\n组内直招，年后入职，N 对一面试辅导\n全程陪伴，帝王待遇！！！\n官网岗位链接\n贴内交流，或者邮件 wattppttw@gmail.com\n职位描述\n作为云安全领域的专家，为客户提供云产品的专家服务支持，负责疑难升级问题的快速定位、分析解决；\n与研发团队对接，根据客户反馈的问题推动云产品 Bug 修复、架构方案优化。推进后台诊断工具、用户侧自主化诊断工具的落地；\n整理输出官方技术文档与解决方案，指导用户合理使用云产品；\n为客户提供企业级服务中云产品相关场景的的解决方案，协助客户完成云环境上的业务技术落地。\n职位要求\n计算机通信或相关专业本科以上学历，至少 5 年的传统/互联网业务系统 DevOps/运维/开发工作经验；具备优秀的中英文听说读写能力；\n深入理解防火墙、入侵检测、漏洞扫描、WAF 等相关安全防护技术；\n具备丰富的安全产品开发运维/服务支持/解决方案/架构设计的从业经历，综合能力较强，有互联网行业背景优先；\n对云计算产品技术在行业的应用和落地有相关经验，熟悉阿里云技术与架构优先；\n具有较强的分析问题和快速解决问题的能力，良好的技术文档撰写能力和工作习惯，善于学习新技术；\n具有优秀的沟通技巧、团队合作精神和敬业精神，把客户第一做到言行一致。",
-          "link": "https://www.v2ex.com/t/1105813",
-          "publishedOn": "2025-01-17T03:40:24.000Z",
-          "wordCount": 383,
-          "title": "[内推|阿里云|成都/北京/杭州] 云安全售后技术支持(P5-P7)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105812",
-          "author": "Bimble",
-          "description": "Bimble: 高项已经考过很多次了，上次论文准备了很久，还是没过。故开此贴，大家共同交流一下软考高项的备考经验。",
-          "link": "https://www.v2ex.com/t/1105812",
-          "publishedOn": "2025-01-17T03:40:13.000Z",
-          "wordCount": 524,
-          "title": "软考高项备考交流贴",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105810",
-          "author": "lguoachn",
-          "description": "lguoachn: \n大家好，3D AIGC 产品 Meshy 体验地址:https://www.meshy.ai\n不加班 不打卡 下午茶 每周可以一天居家办公 补充高端医疗保险\n目前在招聘以下职位\n后端工程师 25-40k 14 薪\n职位描述\n负责后端服务业务开发、架构设计等工作；\n负责数据服务，分布式系统等的开发；\n负责技术难点问题攻坚，保障平台稳定性，以及其它各类技术提升工作。\n职位要求：\n3-5 年后端开发工作经验，至少精通一门编程语言（ Python, Golang ）， 熟悉常用的数据结构、算法等，掌握软件工程、敏捷开发模型，熟练掌握和应用各种设计模式；\n熟练掌握 Web 后端开发技术，有丰富的后端开发经验，掌握 RPC ，RESTful 等概念，了解架构、存储、缓存、搜索、安全、消息队列等方面的最佳实践；有分布式系统开发及使用经验者优先；\n熟悉至少一种数据库（ PostgreSQL/MySQL/CockroachDB/TiDB 等）\n加分项：\n参与过大型复杂分布式互联网用户端 WEB/API 系统的设计开发者优先；\n动手能力强、喜欢折腾，有个人的 GitHub 作品；\n有数据平台、ETL 平台搭建维护经验者优先；\n沟通能力强，并能够用英语进行流畅的书面和口语沟通。\nUnity/Unreal 开发工程师\n职位描述\n运用 Unity/Unreal 引擎开发游戏及应用，完成核心系统搭建，按时交付高质量版本，满足用户体验需求。\n针对不同平台特性优化项目性能，解决卡顿、掉帧等问题，保障流畅运行，同时保证视觉效果与功能不受影响。\n与美术团队协作，整合美术资源，对资产规范性和质量有较好的评估和把控。\n前端工程师\n职位描述\n主导全球领先的 3D AIGC 产品前端核心功能开发，并编写相关技术文档\n与设计、产品、市场、后端等跨职能合作伙伴密切合作，将新功能从设计引入开发\n高效实现产品功能开发，并收集反馈进行迭代，不断提升用户体验\n职位要求：\n本科以上学历，2 年以上相关工作经验\n扎实的前端基础，精通 JavaScript/TypeScript 、HTML5 、CSS3 等技术栈，熟悉 React 等前端框架\n能够独立进行前、后端页面代码开发及调试，能够充分理解设计需求并落地\n熟悉前端工程化与模块化，并有实践经验，熟悉 webpack 构建工具\n有良好的全栈架构思维、以及基于版本控制、代码评审和自动化测试的团队协作模式\n思路清晰，具备极强的沟通能力和团队协作精神，善于学习、总结，乐于分享\n加分项：\n对图形感兴趣, 了解 WebGL, WebGPU 等 3D 技术， 有 Three.js 经验者优先 关注前端前沿技术，有自己的开源项目者优先 对主流浏览器内核、脚本引擎和前端技术领域相关部分的技术有全面的了解\n联系邮箱:lguoachn@gmail.com\n微信：",
-          "link": "https://www.v2ex.com/t/1105810",
-          "publishedOn": "2025-01-17T03:37:28.000Z",
-          "wordCount": 475,
-          "title": "[北京/上海/深圳] Meshy 招全职 U3D / 前后端 不加班 不打卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105809",
-          "author": "randomstream",
-          "description": "randomstream: \n只能等下班看了，“分离”太久都忘了😂",
-          "link": "https://www.v2ex.com/t/1105809",
-          "publishedOn": "2025-01-17T03:37:10.000Z",
-          "wordCount": 443,
-          "title": "《人生切割术》第二季出了！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105808",
-          "author": "ujfj1986",
-          "description": "ujfj1986: \n大家好，我是Ries.AI的开发者 Orion 。作为一个每天忙于工作的职场人，我深知在繁忙的日程中抽时间学习英语有多么困难。于是，我决定开发一款工具，帮助像我一样的朋友们在不知不觉中提升英语水平。今天，我很高兴向大家介绍我的作品——Ries.AI Chrome 插件！\n📚 Ries.AI 是什么？\nRies.AI的愿景是“从日常生活中学习语言”。它是一款专为职场人士设计的 Chrome 插件，可以在你浏览中文网页时，智能地在页面中加入高频英语单词。这样，你在阅读的同时，不用额外花时间学习，就能自然地积累词汇量。特别是有用户反馈，他希望在阅读时顺便拓展词汇量，Ries.AI 正是为此设计，通过在你阅读的内容中智能植入新词，让学习变得轻松又高效。\n🌟 核心功能亮点\n中文内容智能融入\n在你浏览的中文内容中，Ries.AI 会智能地植入需要掌握的英语单词。这样，你在保持原有浏览习惯的同时，自然习得英语，无需额外学习时间，为你打造轻松的英语学习环境。\n英语内容减压\n当你阅读英文内容时，Ries.AI 会根据你的语言图谱，选择性地进行翻译，尽可能植入你需要掌握的单词。这保证了你对内容的理解度能达到 90%，让你像读母语一样轻松，而不像传统翻译工具那样对语言提升毫无作用。\n个性化的语言图谱\nAI 将追踪你的词汇量，完美调整词汇难度，植入最适合你的内容，充分贯彻哈佛语言学大师史蒂芬·克拉申的「可理解性输入」理论。\n融入你的每一次网站浏览\n将日常浏览变成学习机会，充分利用每天最多的工作场景，完美融入你的工作流，创造 100 倍无压力的英语接触。\n🖼️ 效果演示\n使用前：\n语言学习研究领域最具影响力的哈佛大学教授斯蒂芬·克拉申在其历时 30 年、横跨 7000 名学习者的研究中得出决定性结论：\n语言能力的提升主要源自持续的可理解性输入，而非传统的语法练习。\n这一发现已被 2023 年发表在《 Science 》的脑科学研究进一步证实。\n使用后：\n语言学习研究领域最具 influence(影响力) 的哈佛大学教授斯蒂芬·克拉申在其历时 30 年的 research(研究) 中得出决定性结论：\nlanguage ability(语言能力) 的提升主要源自持续的可理解性输入，而非传统的 grammar 练习。\n这一发现已被 2023 年发表在《 Science 》的 neuroscience(脑科学) 研究进一步证实。\n通过 Ries.AI ，你可以轻松看到文本中新增的英语单词，帮助你在阅读过程中自然地扩展词汇量。\n🔥 为什么使用 Ries.AI ？\n不影响工作效率：Ries.AI 完美融入你的工作流程，不会打断你的工作节奏，让学习英语成为自然的一部分。\n无需专门学习时间：利用每次浏览网页的机会，轻松提升英语水平，无需额外安排学习时间。\n满足阅读时拓展词汇的需求：通过在阅读过程中智能植入新词，帮助你在享受内容的同时，顺便扩展词汇量。\n持续提升词汇量：即使在阅读中文内容时，Ries.AI 也能帮助你不断积累和提升英语词汇量。\n👉 安装地址: https://ries.ai\n如果你和我一样，希望在繁忙的工作中不费力地提升英语水平，Ries.AI绝对是你的不二选择。让每一次浏览都成为提升英语的机会，轻松、自然、高效。快来试试吧，期待大家的使用体验和反馈！😊\n感谢大家的支持和关注！如果有任何问题或建议，可以添加我的微信进行交流：OrionTyce",
-          "link": "https://www.v2ex.com/t/1105808",
-          "publishedOn": "2025-01-17T03:37:00.000Z",
-          "wordCount": 783,
-          "title": "[自荐] 零压力学语言 AI 插件，看中文网页也能拓展词汇量 - Ries.AI",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105807",
-          "author": "37Y37",
-          "description": "37Y37: \n完整分享下公众号的 2024 年终总结数据，感兴趣的可以看看\nhttps://blog.ops-coffee.cn/s/2024-WeChat-official-accounts-data-share\n2024 年全年一共写了 71 篇文章，16.8 万字，有 25.3 万次阅读，收到 6487.50¥赞赏，有 140 位读者几乎读过我的所有文章",
-          "link": "https://www.v2ex.com/t/1105807",
-          "publishedOn": "2025-01-17T03:34:10.000Z",
-          "wordCount": 349,
-          "title": "有没有对个人公众号数据感兴趣的，官方推送了年终总结分享一下",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105806",
-          "author": "zdl0929",
-          "description": "zdl0929: \n没想到吃瓜吃到自己身上，看她帖子内容，应该是因为这波 tiktok refugee 事件注册了小红书，随后发了寻亲贴，讲述了自己被遗弃、孤儿院收养、美国人收养的大致经过，通过照片、大致生日、以及我知道的一些背景，几乎可以 100% 确认就是我老婆表妹。\n这个故事的背景是，当年我老婆的舅舅因为已经生了两个，所以他们把这第三个孩子送出去了，他们一直对外对亲戚朋友都说是送养到了一个人家，但看到帖子，实在没想到是遗弃。\n这个女孩看起来很努力在寻找他的原生家庭，而她现在在美国明显过得还不错。我和我老婆都觉得她没必要来认亲，可以预料到的是她如果来认亲，大概率会被有太好的结果甚至可能被拖累。现在的问题是，我是否应该主动跟她联系告知她事实？",
-          "link": "https://www.v2ex.com/t/1105806",
-          "publishedOn": "2025-01-17T03:33:31.000Z",
-          "wordCount": 820,
-          "title": "发现有美国华人在小红书发寻亲贴，大概率是我老婆表妹，我该怎么做",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105805",
-          "author": "eccentric579",
-          "description": "eccentric579: \n最近在折腾单线复用，一直都搞不通，现在怀疑是老光猫的特性，考虑要不要换个光猫\n有没有电信的朋友帮忙抓个组播包看看有没有 vlan id ，不胜感激\n电信\n单线复用\n用户 vlan 绑定\niptv vlan 绑定后的收到的下发组播包有没有 vlan id?",
-          "link": "https://www.v2ex.com/t/1105805",
-          "publishedOn": "2025-01-17T03:30:50.000Z",
-          "wordCount": 452,
-          "title": "有没有电信的朋友帮忙抓个组播包看看有没有 vlan id",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105804",
-          "author": "zhoushuo",
-          "description": "zhoushuo: \n打算年后买人生第一辆车，想听听大家的建议。\n先说一下我的情况：\n预算 13w 左右，倾向于纯电。\n暂时没有要孩子的打算，车基本是我和老婆两个人开。\n坐标郑州，无固定车位，小区和公司附近有商业充电站。\n主要长途需求是回老家，240 公里左右。\n我是个汽车小白，拿证之后就没怎么碰过车了，有了买车的想法之后才开始在网上看一些汽车的科普知识。\n最近试驾了比亚迪海豹 06DMI 、小鹏 Mona M03 、领克 Z20 ，因为之前没怎么开过车，也说不出什么 123 来。\n目前比较倾向于小鹏 Mona M03 和领克 Z20 ，各位懂车的大佬可以给一些建议，也可以推荐一些其他合适的车型，谢谢。",
-          "link": "https://www.v2ex.com/t/1105804",
-          "publishedOn": "2025-01-17T03:29:25.000Z",
-          "wordCount": 1380,
-          "title": "人生第一辆车求推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105803",
-          "author": "wekecher",
-          "description": "wekecher: \n上周末踢球把腰给闪了，以前久坐落下的腰椎间盘突出，这下进入急性期了，压迫得神经痛，不是一般的痛。\n无法久站久坐，只能躺床上，躺了三天了，有点无聊，于是微信调戏了一个男性朋友：\n我腰伤了，下不了床，明天来探望下[苦涩]\n真的假的，这么严重\n假不得啊，原本就腰椎间盘突出，上周末在川大踢野球给遭了，现在是急性期，站一会儿就疼得要命[苦涩]\n[图片]上面是各种拐杖\n选一个你喜欢的\n艹，还是这么贴心\n到这里我们还都是看着一贯的玩笑。然后就没再聊了。等到第二天下午，我又骚情了：\n望眼欲穿，望穿秋水\n快到了\n等你的鱼汤\n啊？没有整鱼汤啊，等下我买条鱼\n要现钓的大货\n没事我带着鱼竿\n满嘴跑火车[敲打][敲打][敲打]\n到这里，依旧配合默契，聊得都还跟真有那么回事儿似的。\n结果没过一会儿，朋友发来消息：\n人呢\n楼下，接你来了，你人呢？（我当时正巧哈着腰下楼去觅食中，发这消息时我压根儿没觉得朋友会来），结果...\n我在门口\n[图片]真就是我家门口的一张热乎的照片\n等我上来，朋友背着个包，手里提着水果（还好不是果篮），然后从包里掏出一罐奶粉... 艹！\n有些事啊，就怕两边开着熟悉的玩笑，真真假假，结果对方从里面挑了个自认为真的，最后动了个真格的。\n再回想，急性期的头两天，我还忍痛做了饭，结果第三天晚上不想做了，喊老婆吃了屋里的点心水果，然后下楼去消消食，顺便给我打包份别的吃的（面包柿饼啥的连着吃腻了），结果她第一反应还不愿意。说拔凉都不够凉啊。再后面她又改变主意，主动要去帮我打包...这顿饭咱是非吃不可吗？倒头我就睡了。\n接下来，我打算连睡一周，尽量避免下床。查了不少资料，也是这么建议的。大家不必操心了，感恩。",
-          "link": "https://www.v2ex.com/t/1105803",
-          "publishedOn": "2025-01-17T03:27:05.000Z",
-          "wordCount": 424,
-          "title": "鉴于 V 友们的关心，我来分享下最新的病情和一点小感动",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105802",
-          "author": "xiaoniu559",
-          "description": "xiaoniu559: \n公司同事有人玩虚拟货币，这几天一直跟我们聊，国内不是禁止虚拟货币交易嘛，他这个不会出现问题嘛",
-          "link": "https://www.v2ex.com/t/1105802",
-          "publishedOn": "2025-01-17T03:26:00.000Z",
-          "wordCount": 636,
-          "title": "玩虚拟货币有什么风险",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105800",
-          "author": "sdwill",
-          "description": "sdwill: \n[任天堂 Switch 2 正式公布！今年年内发售！-哔哩哔哩]  https://b23.tv/7lf6lTR\n有人关注么，不知道到时候有什么护航大作，希望有新的 3D 马。",
-          "link": "https://www.v2ex.com/t/1105800",
-          "publishedOn": "2025-01-17T03:25:31.000Z",
+          "id": "https://www.v2ex.com/t/1105918",
+          "author": "qing606",
+          "description": "qing606: \n没有对比就没有伤害，极低的交易费用在一两次交易中可能看不出来区别，但是更多的朋友都是短线交易，一年下来可是很恐怖的次数，因此隐形的支出也是高额的，从下图可以看出二者在交易 100 次的差距：\n账户金额\n5 万\n10 万\n50 万\n100 万\n500 万\n\n\n\n\n万 3 （交易 100 次）\n3000 元\n6000 元\n3 万\n6 万\n30 万\n\n\n万 1 （交易 100 次）\n1000 元\n2000 元\n1 万\n2 万\n10 万\n\n\n万 3 费用对比万 1 费用差值\n2000 元\n4000 元\n2 万元\n4 万元\n20 万元\n\n\n想开户的找我，低于万 1 免 5 ，支持量化，多加券商可选。V:Netqqnet\n最近在研究缠论，需要资料可以分享",
+          "link": "https://www.v2ex.com/t/1105918",
+          "publishedOn": "2025-01-17T09:33:26.000Z",
           "wordCount": 414,
-          "title": "NS 2 官宣了， 4 月 2 日举办专场直面会",
+          "title": "证券开户低于万 1 免 5",
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1105799",
-          "author": "yelc668",
-          "description": "yelc668: \n如果更换,是不是很容易被盗号? 有什么预防措施不\n目前绑定是自己的+86 想更换了,",
-          "link": "https://www.v2ex.com/t/1105799",
-          "publishedOn": "2025-01-17T03:23:20.000Z",
-          "wordCount": 604,
-          "title": "tg 用接码平台更换+1 号码",
+          "id": "https://www.v2ex.com/t/1105917",
+          "author": "huozaimengli",
+          "description": "huozaimengli: > 一直用的 unraid 开心版，没时间折腾黑群晖、jellyfin 就入手成品 nas 极空间。\n今天从办公室 RDP 家里电脑感觉不丝滑了，想起上次跑点心云被电信限制（上门签字）过一次也是很卡顿，于是问电信后台小哥\nhttps://i.111666.best/image/JhpHO862feDob8G5HUkRsO.png\nhttps://i.111666.best/image/XINDvZU6lia2F4LKQPKQIN.png\n看日志显示确实跑了上传被限制，当时还在想是不是因为最近搞了 moonlight 在办公室玩家里云游戏，但也就每天午休玩 30 分钟，不至于跑这么多流量。\n查了 ikuai ，卧槽是极空间在偷跑，极空间到手仅部署了相册和拷贝电影\nhttps://i.111666.best/image/Eg6LNNZ7cQwNWKAWDOFXm4.png\nhttps://i.111666.best/image/HrJLAbNLb6HkDQJOpziKYn.png\n大家看下是哪个服务在偷跑，或者手持极空间的机器看看最近有没有在偷跑上传",
+          "link": "https://www.v2ex.com/t/1105917",
+          "publishedOn": "2025-01-17T09:28:42.000Z",
+          "wordCount": 509,
+          "title": "破案！ j 空间我是不会再用了",
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1105798",
+          "id": "https://www.v2ex.com/t/1105916",
+          "author": "asanelder",
+          "description": "asanelder: 最近在读《美国宪政历程》，对美国的司法制度产生了好奇。\n结合最近的 tiktok 风波，想问问大家，有没有从司法角度介绍这次 tiktok 的文章。\n比如介绍国会，总统，最高法院，普通民众之间是如何制衡与角力的。\n主要是想通过这次热点事件，对美国的司法制度的运作有一个感性的认识。\nPS：大家不要互骂，比较中美，让这个贴子进入水深火热。俺只是想通过此事对美国司法制度有所了解罢了。",
+          "link": "https://www.v2ex.com/t/1105916",
+          "publishedOn": "2025-01-17T09:28:10.000Z",
+          "wordCount": 376,
+          "title": "有没有从法律角度介绍美国封禁 tiktok 的文章",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105915",
+          "author": "spkingr",
+          "description": "spkingr: \n问题：\n使用 Tomcat9/Tomcat10 ，Servlet 中使用 System.out.println(\"中文\")在控制台打印乱码。\n即使设置了 GBK 编码，解决了部分，发现标点符号居然能乱码。\n尝试过：\n最开始以为是编译的问题，添加了 VM 参数：-Dfile.encoding=utf-8 ，无效\n在 catalina.bat 中添加同样的参数，无效\n在 logging.properties 中修改编码，无效，这个应该和 sout 无关，Tomcat 日志没有乱码\n网页设置 contentType 不会乱码，和这个无关吧\ntomcat9 和 tomcat10 ，没有用，重启 IDEA 无效\n单独创建 class 然后在 main 中输出，没问题\n前面的无效，继续：\n设置了 IDEA 中的 File Encoding 为 GBK ，瞬间无乱码，但是 Java 文件依然保持 UTF-8 格式\n然后新建的 Java 文件默认是 GBK ，但是这个 GBK 中的 sout 马上又是乱码\n那我就转为 UTF-8 吧，没有乱码了，但是发现标点符号乱了，我改下标点符号位置，没用，类似：“值是�?123”\n现在获取请求参数的值又有乱码了，设置 encoding 无效，我已经凌乱。。。\n感觉是 IDEA 的问题，求助大佬们，如何破解？谢谢！",
+          "link": "https://www.v2ex.com/t/1105915",
+          "publishedOn": "2025-01-17T09:27:18.000Z",
+          "wordCount": 496,
+          "title": "求助： IDEA 控制台乱码的奇怪问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105914",
+          "author": "vvard3n",
+          "description": "vvard3n: \n前情提要：看了场演唱会突然发现摄像头坏点，手机 24 年 10 月份过保。\n橘子真好用，哈哈",
+          "link": "https://www.v2ex.com/t/1105914",
+          "publishedOn": "2025-01-17T09:26:16.000Z",
+          "wordCount": 394,
+          "title": "记一次蠢才吧奇妙操作",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105913",
+          "author": "Ricky123",
+          "description": "Ricky123: \n背景：\n本人公司的业务也算在稳步增长，服务国内客户 + 海外用户\n求助： \n25 年可能公司会更 Global ，吸引一些海外的客户，需要在美东 or 欧洲增加节点\n从技术工程师的视角，有可能我们用云还不深入\n但的确没有对比出 海外云 vs 国内云的显著区别？\n求 v 站出海大佬指点一二。祝大佬们新年发大财。",
+          "link": "https://www.v2ex.com/t/1105913",
+          "publishedOn": "2025-01-17T09:25:05.000Z",
+          "wordCount": 510,
+          "title": "出海业务，要不要从国内云切换到 AWS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105912",
+          "author": "brucewsl",
+          "description": "brucewsl: \nwin10 系统迁移到 ssd 硬盘，使用 DiskGenius 的系统迁移，还是用傲梅轻松备份的磁盘克隆，哪个靠谱一点。",
+          "link": "https://www.v2ex.com/t/1105912",
+          "publishedOn": "2025-01-17T09:24:52.000Z",
+          "wordCount": 441,
+          "title": "win10 系统迁移到 ssd 磁盘咨询",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105911",
+          "author": "victer",
+          "description": "victer: 云智 Ai-API\n直达连接： https://api.openxs.top",
+          "link": "https://www.v2ex.com/t/1105911",
+          "publishedOn": "2025-01-17T09:24:12.000Z",
+          "wordCount": 355,
+          "title": "推荐一个稳定的 chatgpt 接口",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105910",
+          "author": "sunzhuo",
+          "description": "sunzhuo: 限制太多了",
+          "link": "https://www.v2ex.com/t/1105910",
+          "publishedOn": "2025-01-17T09:18:51.000Z",
+          "wordCount": 387,
+          "title": "能不能用 skype 代替腾讯会议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105909",
+          "author": "Java4ever",
+          "description": "Java4ever: \n逆向 C#游戏开发有前景吗",
+          "link": "https://www.v2ex.com/t/1105909",
+          "publishedOn": "2025-01-17T09:15:49.000Z",
+          "wordCount": 454,
+          "title": "逆向 C#游戏开发",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105908",
+          "author": "Curiosity777",
+          "description": "Curiosity777: \n刚入门 flink ，目前测试了单机部署，发现集群重启后，提交的任务都丢失了，想要恢复任务的话，需要手动指定 savepoint ，请问大佬们，flink 任务能持久化么，如果集群意外重启了，能否自动从 checkpoint 恢复任务呢。\n是不是 flink 本身不支持这种功能，需要靠三方软件来实现呢",
+          "link": "https://www.v2ex.com/t/1105908",
+          "publishedOn": "2025-01-17T09:14:09.000Z",
+          "wordCount": 376,
+          "title": "请教关于 flink 任务的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105907",
+          "author": "shymonk",
+          "description": "shymonk: 要求\n具备高质量代码编写能力、工程思维良好、爱折腾。\n岗位 JD\nhttps://zhaopin.meituan.com/web/position/detail?jobUnionId=2906274327&highlightType=campus\n感兴趣的同学可直接给我发简历 hellojohn201 艾特 gmail.com\n工作地点： 北京·望京",
+          "link": "https://www.v2ex.com/t/1105907",
+          "publishedOn": "2025-01-17T09:12:45.000Z",
+          "wordCount": 360,
+          "title": "美团无人机招聘服务端实习生",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105906",
+          "author": "Likenttt",
+          "description": "Likenttt: \nIf you are a RedNote newbie, you must know these slangs. Finishing this quiz before surfing on this platform makes you wise.\n欢迎贡献优质题目🙏选择题就行，来自国外的网友请自觉参加考试然后再上网，避免见笑于中国网友之家\nRedNote Newbie Quiz\n玩法演示",
+          "link": "https://www.v2ex.com/t/1105906",
+          "publishedOn": "2025-01-17T09:05:16.000Z",
+          "wordCount": 385,
+          "title": "给歪果仁安排了一场小红书新人考试",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105905",
+          "author": "iharrison",
+          "description": "iharrison: 吵醒女儿，被老婆骂了一顿。\n没做任何操作，就这么放歌，没什么规律，经常自动播放，真鬼故事。\n过保了，懒得折腾了，官方付费修估计还不如买个新的。",
+          "link": "https://www.v2ex.com/t/1105905",
+          "publishedOn": "2025-01-17T09:03:56.000Z",
+          "wordCount": 446,
+          "title": "HomePod 二代开始抽风，半夜自动放音乐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105904",
+          "author": "javalaw2010",
+          "description": "javalaw2010: \n去年朋友拉我合伙干了个项目，我负责后端，由于涉及硬件相关的技术栈所以朋友又拉了个硬件的伙伴加入，大伙儿都是兼职，结果可能硬件端水平不够吧，项目一拖再拖，最后实在拖不下去了又花钱找了个外包。\n最后虽然能跑通了但是体验贼烂，在我看来就是一坨工业垃圾。而现在再去调整整体的技术架构又不太可能了，一来时间不够，二来外包大概率也不愿意再配合你改一遍整体方案。\n虽然产品体验好不好跟最后能不能卖出去是两码事，但是把这种水准的产品交付出去我实在是心中有愧。",
+          "link": "https://www.v2ex.com/t/1105904",
+          "publishedOn": "2025-01-17T08:59:37.000Z",
+          "wordCount": 447,
+          "title": "大家在做项目的时候有没有产生过过自己正在制造一个工业垃圾的感觉？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105903",
+          "author": "whoami9426",
+          "description": "whoami9426: 前情提要 https://www.v2ex.com/t/1105568\n\n\n看来大家确实有这样的需求,感谢大家的支持\n再次送出 20 个激活码,为了方便他人,请使用后在评论区说明\n94K97MP733HK\n67HKMMYHRJ7T\nY3E9PWT4JFTH\n3A7736Y3XETT\nNFAF97HPTJ47\nMWWL7EHJE69R\nNW6XAMPERY7H\nKLN3WKXRHTF9\nJALYJ7PM44HE\nFPXEX39W6MNK\n7KFLEL6XJLNH\nK7JWAAH7PPXX\nHLXKR4EWYTTL\nEHWPM6TTK36E\nJNE99LPNJFNX\n7774KJNKPYX9\nRN4J7KE74TF3\n43R7YMJJLKKA\nM33NNT4LYXJA\nEWF7AHLR6EAA",
+          "link": "https://www.v2ex.com/t/1105903",
+          "publishedOn": "2025-01-17T08:59:35.000Z",
+          "wordCount": 689,
+          "title": "4 天上架的 iOS app 1 天后登顶苹果付费榜第 1 名",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105902",
+          "author": "Genshin2020",
+          "description": "Genshin2020: \n我和爱人从认识到现在，不管是处对象，同居还是结婚以后，都没有吵过架，最多就是言词严厉一些，但是过后也十分自责，该道歉道歉，不管谁有错。\n彩礼给了又都回到我们小家庭了，嫁妆当然也没有，所以我和我媳妇是白手起家的，目前也有个还不错的房子住。\n已经有孩子了，还算聪明，就是聪明的小脑袋成天琢磨怎么多看会动画片，其实每天都给他看，我本来小时候就很喜欢玩游戏和动画片，何苦为难孩子。\n我和我媳妇在养娃上的理念是一致的，他有天赋就读，没天赋就去学门手艺，大学毕业又如何，到社会依然是个牛马。\n原本我媳妇是工作的，但是因为意外因素，导致双方老人都无法过来带娃，所以我媳妇就辞职了，孩子上幼儿园后，也没有让媳妇出去工作，现在能在当地找个 2000/3000 的工作，可上班也是有固定支出的，辛苦一个月净收入 1500 ，那还不如在家刷剧呢。\n我的工资收入都给老婆，每周一我媳妇给我打本周生活费，这个钱我媳妇不过问，如果需要报销需要说明原因，比如请客吃饭（有小金库，有信用卡）。\n日常攒钱会给我媳妇一些小礼物，比如 24 年我媳妇生日就买个小金条给我媳妇，她很开心。\n是的，我媳妇喜欢金条，不喜欢金首饰，她感觉那玩意很吃亏，我媳妇最后悔的就是买婚戒。",
+          "link": "https://www.v2ex.com/t/1105902",
+          "publishedOn": "2025-01-17T08:57:49.000Z",
+          "wordCount": 590,
+          "title": "那么多婚姻不幸的，我来说说我的幸福婚姻生活",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105901",
+          "author": "mswh",
+          "description": "mswh: 我单亲家庭，老家只有我爸，想接我爸来城里，他说不习惯，不想来。\n自己老家在村里，老婆城里人，她不想回村里过年，说脏、放鞭炮吵、没啥玩的，人也都不认识，聊不来，\n我也不愿我爸大年 30 一个人在家，\n咋整，你们过年都是去哪家过的？",
+          "link": "https://www.v2ex.com/t/1105901",
+          "publishedOn": "2025-01-17T08:56:08.000Z",
+          "wordCount": 387,
+          "title": "又要面临这种两难抉择的时候，过年是自己回老家过年吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105900",
+          "author": "erxiao",
+          "description": "erxiao: 如各位大佬都用什么软件？",
+          "link": "https://www.v2ex.com/t/1105900",
+          "publishedOn": "2025-01-17T08:51:10.000Z",
+          "wordCount": 440,
+          "title": "macos 上连接 SQL Server 的工具推荐，除了 Navicat 以外",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105898",
+          "author": "wniming",
+          "description": "wniming: \n因为 pixel 4a 电池问题，谷歌要给我 367 CNY 的补偿，已经审核通过了，我需要有一个 payoneer 账户才能收款，但是 payoneer 注册到第 4 步（ Almost Done ）所有信息填完后，submit 按钮是灰色的，点不了，有老哥知道这是什么情况吗？\npixel 4a 电池问题详情请看：\nhttps://support.google.com/pixelphone/answer/15701861",
+          "link": "https://www.v2ex.com/t/1105898",
+          "publishedOn": "2025-01-17T08:42:26.000Z",
+          "wordCount": 414,
+          "title": "payoneer 怎么注册？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105897",
+          "author": "miaomiaotu",
+          "description": "miaomiaotu: 之前搞 java 很多年，现在学别的 go 和 python ，感觉要学的好多啊，好难搞，不学光搞 java 也不太行感觉，人太多卷死了",
+          "link": "https://www.v2ex.com/t/1105897",
+          "publishedOn": "2025-01-17T08:39:49.000Z",
+          "wordCount": 524,
+          "title": "之前搞 Java 很多年，现在学别的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105896",
+          "author": "BeforeTooLate",
+          "description": "BeforeTooLate: 假设：公积金贷款 100w 、等额本息 30 年、年利率 2.85%、每月还 4135.57 元、总计利息 488806.58 元\n如果手里有 100w 现金，考虑理财本金每月会扣除 4135.57 元情况下，理财年利率多少就可以不提前还款？\n这里不考虑通胀和通缩。\nAI 问了一圈下来每个答案都不一样！\n文心一言：2.85%\nchatgpt：5.1%-5.3%\ndeepseek：5.8%\n豆包：3.84%\n我把问题转换一下,拿钱理财 30 年收益大于贷款总利息：\n100w 现金理财 30 年，但是每月会提取出 4135.57 元，年利率多少可以让理财收益达到 488806.58 元？\nAI 问了一圈下来每个答案也都不一样！\n文心一言：12%\nchatgpt：4.45%\ndeepseek：4.05%\n豆包：3.84%\n除了豆包计算两个问题答案一致其他都不一样，所以这个临界值怎么计算的，到底是多少？",
+          "link": "https://www.v2ex.com/t/1105896",
+          "publishedOn": "2025-01-17T08:35:37.000Z",
+          "wordCount": 563,
+          "title": "一直在说提前还款需要看你理财收益能不能跑赢贷款，但是具体这个临界值是怎么计算呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105895",
+          "author": "LemonedQ",
+          "description": "LemonedQ: \n我日常使用中日英三个输入法，在我用 win10 的时候，按 win+space 会瞬间出现语言切换器，连续切换相当跟手，但是 win11 却要等待半秒钟，直接导致按住 win+连按 space 的连续切换手感极差，一定会被吞掉一个 space ，求问有无在 win11 下换回 win10 语言切换器的方法或者其它解决方案。",
+          "link": "https://www.v2ex.com/t/1105895",
+          "publishedOn": "2025-01-17T08:35:14.000Z",
+          "wordCount": 442,
+          "title": "关于 win11 的 win+space 语言切换",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105894",
+          "author": "coolair",
+          "description": "coolair: 因为我注册的 Cusor 已经到期了，有没有朋友帮忙测试下效果如何。\n如果可行的话我就准备付费使用了，谢谢。",
+          "link": "https://www.v2ex.com/t/1105894",
+          "publishedOn": "2025-01-17T08:33:12.000Z",
+          "wordCount": 449,
+          "title": "Cusor 可以直接将一个 TypeScript 项目转换成 JavaScript 项目吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105893",
+          "author": "vem",
+          "description": "vem: \n过年了, 总想买点新鲜玩意, 各位帮忙支支招? 1000 以内的吧, 谢谢各位",
+          "link": "https://www.v2ex.com/t/1105893",
+          "publishedOn": "2025-01-17T08:31:28.000Z",
+          "wordCount": 379,
+          "title": "过年买点啥给自己?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105892",
+          "author": "xiyy02",
+          "description": "xiyy02: RT ，我是省直公积金贷款，公司缴纳的是杭州公积金，每次要提前还款就只能先申请杭州公积金提取，然后再去省直公积金申请提前还贷。\n这样会按照我一年共还了多少公积金贷款来限制提取额度，比如我每月还 2100 元，那么本年就只能取 2100×12 的金额，没办法全部提取。。\n有没有办法可以直接将我的杭州公积金全部提出来提前还我的公积金贷款？",
+          "link": "https://www.v2ex.com/t/1105892",
+          "publishedOn": "2025-01-17T08:27:10.000Z",
+          "wordCount": 396,
+          "title": "如何将公积金里的钱全部提出来提前还贷？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105891",
+          "author": "wujinglun",
+          "description": "wujinglun: \nairpods 用 iPhone 可以点亮全景声，用 win 的杜比感觉效果不大，推介一下杜比全景声的耳机",
+          "link": "https://www.v2ex.com/t/1105891",
+          "publishedOn": "2025-01-17T08:26:26.000Z",
+          "wordCount": 341,
+          "title": "airpods 的杜比全景声感觉如何，还有其他杜比全景声耳机吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105890",
+          "author": "as110df120",
+          "description": "as110df120: 我在写一个 uniapp 的 APP 项目，需要使用 MANAGE_EXTERNAL_STORAGE 权限，我在 manifest 里面加了这个权限，而且 targetSdkVersion 也设置了 30 。\n打包安装后，我在设置中打开了这个 app 允许管理所有文件 的权限，但是我打印 MainActivity.checkSelfPermission(Manifest.permission.MANAGE_EXTERNAL_STORAGE)结果一直为-1 ，而 plus.android.checkPermission(\"android.permission.MANAGE_EXTERNAL_STORAGE\")为 undefined 。\n想问下各位大神我应该如何正确的把这个权限打开？感觉能想的办法都试了一遍，不知道问题出在哪里了",
+          "link": "https://www.v2ex.com/t/1105890",
+          "publishedOn": "2025-01-17T08:23:41.000Z",
+          "wordCount": 396,
+          "title": "想求助一下关于 uniapp 如何开启 MANAGE_EXTERNAL_STORAGE 权限",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105888",
+          "author": "dzdh",
+          "description": "dzdh: \nhttp://epub.cnipa.gov.cn/patent/CN119248279A",
+          "link": "https://www.v2ex.com/t/1105888",
+          "publishedOn": "2025-01-17T08:15:04.000Z",
+          "wordCount": 427,
+          "title": "那个啥。专利申请一般都需要啥。浪潮这个 vue 分包的专利是怎么个事",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105887",
+          "author": "Nicoleliu",
+          "description": "Nicoleliu: \n薪资福利\n薪资\n基本工资:根据个人能力，提供比市场平均薪资高 30%以上的薪酬包!随着日语水平的提升，薪资提升幅度大！\n(我相信您的优秀,所以请相信自己的能力一定会得到不错的回报!)\n交通费:交通费全额报销\n薪资范围：面试能力环节确定薪资\n资格考试费：全额报销\n假期\n按照日本的日历休假,每年约有 120+天。\n完全双休日（周六，周日）、祝日（日本节日）、GW （黄金周）、夏季休暇、年末年始休暇（元旦）\n职位要求：\n日语 N3 及以上。\n两年以上工作经验。\n大专及以上。（需要有学位证，或者软考办理签证）\n联系方式\nWeChat ID: HowdySaturday",
+          "link": "https://www.v2ex.com/t/1105887",
+          "publishedOn": "2025-01-17T08:11:13.000Z",
+          "wordCount": 392,
+          "title": "🇯🇵赴日工作移民｜急需 Java 、C/C++、C#、VB.Net、COBOL、 PHP 、 Python 、Ruby、SAP ，需要日语",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105886",
+          "author": "Kholin",
+          "description": "Kholin: \n这段时间经常会收到各种服务的登录验证码短信，手机号被什么人知道了，一直在尝试登录各种互联网平台，包括不限于知乎、飞书、搜狗等等，这些平台和服务我本人根本就没有在使用，请问有人遇到一样情况吗？应该怎么防止他们盗用成功呢？",
+          "link": "https://www.v2ex.com/t/1105886",
+          "publishedOn": "2025-01-17T08:09:45.000Z",
+          "wordCount": 404,
+          "title": "近期大家是否遇到手机号被陌生人拿去尝试登录各种服务",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105885",
+          "author": "skyfeipp",
+          "description": "skyfeipp: 老婆之前是 iPhone13 说自己电池不行 加上听她提过要个大屏，我一听说果断洗脑她，把我的 14ProMax 换给她，自己买个 16Pro 。\n体验了 3 天 重新回到完美的单手操作，轻便不沉 这感觉真爽！",
+          "link": "https://www.v2ex.com/t/1105885",
+          "publishedOn": "2025-01-17T08:09:38.000Z",
+          "wordCount": 448,
+          "title": "从 14 ProMax 换到 16Pro 还是小的好！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105884",
+          "author": "molton",
+          "description": "molton: 流氓玩意儿，要不是家里老人用方便。这东西真的恶心人。\n前期 智能加速 功能一直关闭，最近发现这东西还在一直在上传，去找客服还不跟你说，非投诉，才告诉你近期加了个 超能计划 在跑 PCDN ，在机器设置-实验室里面。手机 APP 还看不到。真的恶心的不能再恶心了。",
+          "link": "https://www.v2ex.com/t/1105884",
+          "publishedOn": "2025-01-17T08:08:15.000Z",
+          "wordCount": 439,
+          "title": "使用小度的注意了，新版本加了一个超能计划，在跑 PCDN",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105883",
+          "author": "buerle",
+          "description": "buerle: \nPDD 百亿补贴\nM3 Pro (12+18 核) 36G+512G   ¥13869\nJD 国补\nM4 Pro (12+16 核) 24G+512G   ¥ 16999 - 2000 = ¥14999\n兄弟们咋选，好纠结呀。",
+          "link": "https://www.v2ex.com/t/1105883",
+          "publishedOn": "2025-01-17T08:06:00.000Z",
+          "wordCount": 507,
+          "title": "PDD M3pro 和 JD 国补 M4 咋选",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105882",
+          "author": "Yasuo666",
+          "description": "Yasuo666:",
+          "link": "https://www.v2ex.com/t/1105882",
+          "publishedOn": "2025-01-17T08:01:24.000Z",
+          "wordCount": 476,
+          "title": "为什么很多人跟父亲会有隔阂而跟母亲之间有隔阂的很少？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105881",
           "author": "zhengkk",
-          "description": "zhengkk: 有个朋友二十六了，可能是成长环境和性格的原因吧，一直没有女朋友，为人又比较害羞，属于技术宅的那种，上次带他去按摩让他摸摸女人的大腿都不敢，最后还是那女的主动凑过来把他手拉过来搭在上面的。\n不知道是尝到甜头了还是怎么着，这哥们叫我带他玩点刺激的，他请客，话都到这份上了，只能却之不恭了，于是乎我带他去隔壁城市找了个快餐，事后他连连夸赞我，看他这猥琐样，想起了年轻的自己，估计这小子以后会着火入魔了，哈哈。\n还有个朋友，跟我一样大，不知道是心理洁癖还是怕得病来着，一直没有过性体验，我说带他去爽爽，他说要等到结婚，那你就等吧，等到那时候你以为无人涉足的偏僻小径早已万马奔腾了。",
-          "link": "https://www.v2ex.com/t/1105798",
-          "publishedOn": "2025-01-17T03:21:50.000Z",
-          "wordCount": 398,
-          "title": "我有两个朋友",
+          "description": "zhengkk: 人生如棋，落子无悔。话是这么说，但还是会后悔，后悔没有好好读书，后悔没有认真恋爱，后悔没有学好技术，后悔没有好好找工作，后悔买房买车，后悔一大堆事情，人呐，总是喜欢美化未曾选择的道路。\n后悔情绪多半是因为当前过得不好导致的，尤其是看着当年和自己一样的人，同样的起点截然不同的终点，一念之差，懊悔半生。",
+          "link": "https://www.v2ex.com/t/1105881",
+          "publishedOn": "2025-01-17T07:59:31.000Z",
+          "wordCount": 384,
+          "title": "如何调节后悔的情绪？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105880",
+          "author": "jzhone",
+          "description": "jzhone: The Porchlight Business Book Awards 廊灯商业图书奖的举办方 Porchlight 现在在它们网站上赠送比尔·盖茨的首部自传《 Source Code 源代码》实体书，这本书将于 2025 年 2 月 4 日发行。\n本人实测不单是书免费，连国际运费都免费，我输入了中国的地址，最下方提示输入个人身份 ID ，我就输入了身份证，这个就看大家个人意愿了。提交后提示将会在图书正式发布后 10-20 日送到，到时候再看是不是真的会免费送到。\n\n\n获取地址： https://promo.porchlightbooks.com/pages/promotions/sourcecoder\n来自反斗限免： https://free.apprcn.com/get-book-source-code-by-bill-gates-for-free/",
+          "link": "https://www.v2ex.com/t/1105880",
+          "publishedOn": "2025-01-17T07:58:52.000Z",
+          "wordCount": 475,
+          "title": "免费获取比尔·盖茨首部自传《Source Code 源代码》实体书",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105879",
+          "author": "salmon433",
+          "description": "salmon433:",
+          "link": "https://www.v2ex.com/t/1105879",
+          "publishedOn": "2025-01-17T07:57:57.000Z",
+          "wordCount": 348,
+          "title": "有没有济南的小伙伴 一起聊聊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105878",
+          "author": "ShioWSX",
+          "description": "ShioWSX: \n1 、之前一年后端经验，在启明内核研发岗位两年，外面的认可度咋样？\n2 、大厂会收吗？会给机会吗？\n3 、二本学历出去大厂有机会吗？求解，或者能指导一下吗？",
+          "link": "https://www.v2ex.com/t/1105878",
+          "publishedOn": "2025-01-17T07:53:57.000Z",
+          "wordCount": 477,
+          "title": "求问-启明星辰算是中厂吗？外面认可度咋样？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105877",
+          "author": "CNN",
+          "description": "CNN: \n电池小组件无法在 Mac 上显示其他设备的电量。安装第三方应用 AirBattery ，但其使用的是蓝牙模式，而我的键盘之前是通过 2.4G 连接的。\n想问一下，蓝牙除了延迟稍微高一些外，与 2.4G 相比在耗电等其他方面有何差异？",
+          "link": "https://www.v2ex.com/t/1105877",
+          "publishedOn": "2025-01-17T07:51:17.000Z",
+          "wordCount": 429,
+          "title": "Mac 上无线键盘你用 2.4G 还是蓝牙？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105876",
+          "author": "k9982874",
+          "description": "k9982874: 今天看见两个贴子，一个 nas 被挖矿了一查 qb 用的非官方源的包，一个 alist 不带验证就共享到公网。\n前面还有什么面板都敢给服务器装的，生产环境密钥直接放进一些可疑或未经验证可靠的管理工具的。\n程序员被骗缅北就算了，可以说与社会脱节，自己本职领域内也这么一点防范意识没有么？",
+          "link": "https://www.v2ex.com/t/1105876",
+          "publishedOn": "2025-01-17T07:48:55.000Z",
+          "wordCount": 402,
+          "title": "程序员在自己的领域内防范意识和警惕性这么差么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105875",
+          "author": "Likenttt",
+          "description": "Likenttt: \n最近小红书来了很多外国人，如何分辨谁是中国人？谁是外国人？\n只需要回答这个问题 -> 外国人检测器",
+          "link": "https://www.v2ex.com/t/1105875",
+          "publishedOn": "2025-01-17T07:45:30.000Z",
+          "wordCount": 400,
+          "title": "火眼金睛，分辨谁是中国人？谁是外国人？外国人检测器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105874",
+          "author": "kresle",
+          "description": "kresle: \n新入职一家创业公司，单位的网络是前面进来的同事找电信建的。组的内网是千兆的，没有用光纤；没有公网 ipv4 ，ipv6 也没给开；整个公司共享千兆的下行带宽，大概 60M 的上行。这些也就算了，关键像是流量被劫持了一样，__所有的出境流量__都要走电信指定的一个在美国的层峰网络的节点，按带宽计费，1Mbps 一个月 400 ，想下载快点办个百兆的就要 4W 块一个月了，这跟抢劫有什么区别？其他富强节点因为流量劫持的原因都是走电信这个节点的，速度限死在电信这个服务里。\n这根本就还没有随便哪个家庭宽带爽。就想问问大家，企业用宽带，就要被运营商这么限制出境路由吗？",
+          "link": "https://www.v2ex.com/t/1105874",
+          "publishedOn": "2025-01-17T07:44:40.000Z",
+          "wordCount": 569,
+          "title": "企业宽带就低人一等吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105873",
+          "author": "xiaoniao886n",
+          "description": "xiaoniao886n:",
+          "link": "https://www.v2ex.com/t/1105873",
+          "publishedOn": "2025-01-17T07:43:02.000Z",
+          "wordCount": 475,
+          "title": "公司巧立名目，把工资 1000 以福利补贴 报销形式发放， 然后今年通知 1000 不发，如何维权",
           "imageUrl": null
         }
       ]
