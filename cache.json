@@ -292,12 +292,32 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1105705",
+          "author": "ly1878",
+          "description": "ly1878: 如题，无论是在 FaceTime 中呼出普通手机电话，还是用 PopClip 快捷键或者是网页右键弹出的号码拨打，都拨打不成功，右上角会出现确认是否呼叫的界面，但是点了绿色的按钮后就没有任何变化。有时候点了按钮后会启动浏览器，也没有页面内容。\n通过手机拨打，再将信号传到 Mac 上，可以用 Mac 进行通话，但是直接在 Mac 上拨打就是不行\n想问下是我什么设置没处理好吗？还望大佬指点。",
+          "link": "https://www.v2ex.com/t/1105705",
+          "publishedOn": "2025-01-16T19:15:11.000Z",
+          "wordCount": 347,
+          "title": "macOS 15.2 无法拨打电话，拨打时会变成启动浏览器，并没有打开什么网页。但上个版本可以正常拨打。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1105704",
+          "author": "toptyloo",
+          "description": "toptyloo: \nhttps://variety.com/2025/film/news/david-lynch-dead-director-blue-velvet-twin-peaks-1236276106/David Lynch\nhttps://www.facebook.com/davidlynchofficial/posts/pfbid04LuZED6SrWevszQ1UZoEED6x95znKc7scJxXFL5B1icBKgCiu4T2qYLHsErFNzELl",
+          "link": "https://www.v2ex.com/t/1105704",
+          "publishedOn": "2025-01-16T18:55:58.000Z",
+          "wordCount": 377,
+          "title": "David Lynch 去世",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1105703",
           "author": "jsomin",
           "description": "jsomin: \n支付宝官方发文：\n昨天下午由于我们的一个失误，导致小部分用户在支付时享受了立减优惠，有用户发了这个截图，关心我们会不会把优惠追回。\n有几个事实在此澄清：\n1 、支付宝官方没有发送任何资金追回短信，如果你收到了下图短信，千万不要点，以免上当受骗,也请大家帮忙相互转告。\n2 、失误是怎么发生的？其实是我们在支付宝某个常规营销活动后台配错了营销模板，把优惠额度和优惠金类型都写错了。\n3 、既然是我们的错，成本和责任必须我们自己承担。针对已经发出的营销优惠金，支付宝不会向用户追款，请大家安心。\n提前祝大家假期愉快~\n微博原文链接： https://weibo.com/1891502860/5123605060913184\nhttps://i.imgur.com/GAeYk7N.jpeg\nhttps://i.imgur.com/cPSb8II.jpeg",
           "link": "https://www.v2ex.com/t/1105703",
           "publishedOn": "2025-01-16T18:10:18.000Z",
-          "wordCount": 387,
+          "wordCount": 442,
           "title": "（支付宝事故后续）承诺不会向用户追款",
           "imageUrl": null
         },
@@ -317,7 +337,7 @@
           "description": "9yu: \n写了两篇文章：\nGoodbye Dystopia\nRETRO: 2024\n2024 年看了好几遍 Look Back：绘画没有捷径，人生也没有。",
           "link": "https://www.v2ex.com/t/1105701",
           "publishedOn": "2025-01-16T17:42:47.000Z",
-          "wordCount": 354,
+          "wordCount": 363,
           "title": "2024: 离开上海并在东京转职到 Woven by Toyota 写 Rust",
           "imageUrl": null
         },
@@ -327,7 +347,7 @@
           "description": "make1money: 我降智一个多月的 chrome 网页端，昨天开始恢复正常了，大伙都恢复正常了吗",
           "link": "https://www.v2ex.com/t/1105700",
           "publishedOn": "2025-01-16T17:31:09.000Z",
-          "wordCount": 335,
+          "wordCount": 349,
           "title": "现在网页端是不是不降智了？",
           "imageUrl": null
         },
@@ -337,7 +357,7 @@
           "description": "pig198x: \n美国 cn2 的 VPS ，奈何 IP 被 OpenAI 降智了，想套上一个 Cloudflare warp 用，在网上找了一键脚本，装上之后，IP 地址变 Cloudflare 了，但是速度奇慢无比，大概几十 k/s   有人知道这大概什么原因造成的吗？ 谢谢。",
           "link": "https://www.v2ex.com/t/1105699",
           "publishedOn": "2025-01-16T17:18:15.000Z",
-          "wordCount": 614,
+          "wordCount": 619,
           "title": "VPS 上套了 Cloudflare warp，速度狂慢，最有可能的状况是什么？",
           "imageUrl": null
         },
@@ -407,7 +427,7 @@
           "description": "JoonSumisu: \n由于笔记本插着电源的时间占比可能比较长，所以想问下见多识广的各位有没有类似的联想平板那样，跳过电池直接供电功能的笔记本推荐\n现在看到机械革命有个叫做服务器模式有类似的功效\n另外的希望满足的需求：\n大小 13-14 寸\n支持 hdmi in （如果有 kvm out 就更好了，好像 GPD Pocket 3 有....）\n有 rj45\n硬盘最好能自己加\n然后屏幕好一点\n性能方面，需要性能的部分都尽可能都交给远端机来做。能上网不卡，vscode 不卡，续航长点就好了",
           "link": "https://www.v2ex.com/t/1105689",
           "publishedOn": "2025-01-16T15:05:36.000Z",
-          "wordCount": 388,
+          "wordCount": 389,
           "title": "求推荐笔记本，想问下现在哪些笔记本有类似旁路充电的功能",
           "imageUrl": null
         },
@@ -417,7 +437,7 @@
           "description": "maymay5: \n我的应用场景：作为我系统的一个依赖，用于存储用户使用系统过程中产生的图片\n要求\n必须支持 API 调用上传和下载以及删除\n轻量一点\n最好能支持 COS ，OBS ，OSS 等对象存储(这个功能可以是付费的)\n如果不止图片，能支持文件床就更好了\n为什么不直接用对象存储？\n说不出为啥，就觉得单独弄一个系统比较正式，方便管理\n谢谢大家！！",
           "link": "https://www.v2ex.com/t/1105688",
           "publishedOn": "2025-01-16T15:02:38.000Z",
-          "wordCount": 383,
+          "wordCount": 394,
           "title": "请问大家有推荐的开源图床吗",
           "imageUrl": null
         },
@@ -457,7 +477,7 @@
           "description": "zhj9709: A B 可以直连，B C 可以直连，为什么 A C 不能通过 B 中转连接，而是要通过 derp 服务器？",
           "link": "https://www.v2ex.com/t/1105682",
           "publishedOn": "2025-01-16T14:18:37.000Z",
-          "wordCount": 523,
+          "wordCount": 532,
           "title": "关于 tailscale 的一些疑问",
           "imageUrl": null
         },
@@ -487,7 +507,7 @@
           "description": "kirieievk: \n否则还要跑一趟麻烦. 为啥规定只能 90 天以内.",
           "link": "https://www.v2ex.com/t/1105678",
           "publishedOn": "2025-01-16T13:48:12.000Z",
-          "wordCount": 427,
+          "wordCount": 441,
           "title": "驾照只能提前 90 天更新吗,春节回去想更新,但是还没到 90 天",
           "imageUrl": null
         },
@@ -497,7 +517,7 @@
           "description": "heavymetals: \nNintendo Switch 2 予告映像\n老任也是坐不住了...不知道首发游戏是不是跟泄漏的一样是马车 9 和荒野大镖客。\n希望性能能好一点\n任天堂 Switch 新款总结要点\n向下兼容任天堂 Switch 1 代游戏。\n外观与任天堂 Switch OLED 类似，屏幕由 7 寸扩大到 8 寸，分辨率由 720p 提升到 1080p 。机身变大，厚度没什么变化，依旧轻薄。\n散热采用双风扇设计。\n机身上方加了一个 USB-C 接口。\n新款 Joy-Con 手柄随机身变大而变大，滑轨锁扣改为磁吸卡扣。摇杆和按钮更大，背部多了 2 个按钮。\n2025 年发售。\n2025 年 4 月 2 日有直面会公布更多细节。\n来源：点击这里查看链接",
           "link": "https://www.v2ex.com/t/1105677",
           "publishedOn": "2025-01-16T13:36:55.000Z",
-          "wordCount": 505,
+          "wordCount": 512,
           "title": "任天堂发布 Switch 2 预告片，并宣布于 2025.4.2 展开直面会",
           "imageUrl": null
         },
@@ -507,7 +527,7 @@
           "description": "awendujitang: 大家有没有让人上头的小游戏，简单而且让人上瘾，可以告诉我吗？让我玩一下。😝",
           "link": "https://www.v2ex.com/t/1105675",
           "publishedOn": "2025-01-16T13:21:01.000Z",
-          "wordCount": 474,
+          "wordCount": 494,
           "title": "大家有没有让人上头的小游戏，简单而且让人上瘾",
           "imageUrl": null
         },
@@ -537,7 +557,7 @@
           "description": "QwertyJack: \nEnglishDaily，是一款免费的日常英语训练平台，不仅有每日更新的高质量外语素材，还有听力模拟测试题，以及 AI 语法检查写作工具，欢迎大家使用&建议。\n为什么做这个网站？\n目前楼主在外企工作，一开始做这个站纯属为了满足自己的需求，主要用于日常工作沟通，而不是应付考试，通过和一些国外的同事请教如何才能学好英语，他们给出的意见是：敢于表达+每日坚持，并且十分不建议国内的背单词+纯语法背诵的学习方式，而是更倾向多听、多看、多说，多写，然后我找了很多相关网站，要不收费、要不就是内容质量不高，无法满足我每天 1 小时的训练要求，所以，被迫做了这个网站，成本不算大，就开放大家一起用吧。\n网站地址： https://englishdaily.ai ， 欢迎大家使用和给出建议，主打一个听劝，站内也有反馈入口。",
           "link": "https://www.v2ex.com/t/1105672",
           "publishedOn": "2025-01-16T13:00:51.000Z",
-          "wordCount": 414,
+          "wordCount": 421,
           "title": "EnglishDaily 一款免费的每日英语学习网站",
           "imageUrl": null
         },
@@ -567,7 +587,7 @@
           "description": "SummerZW: \n欢迎骚扰",
           "link": "https://www.v2ex.com/t/1105666",
           "publishedOn": "2025-01-16T12:23:34.000Z",
-          "wordCount": 381,
+          "wordCount": 375,
           "title": "找一家可以远程的前端工作，本人技术栈 Vue3 系列",
           "imageUrl": null
         },
@@ -607,7 +627,7 @@
           "description": "SachinBeyond: 彩礼都带回去了,还另外有不少嫁妆, 钱和女人都拿了 .可遇不可求吧?",
           "link": "https://www.v2ex.com/t/1105661",
           "publishedOn": "2025-01-16T11:45:13.000Z",
-          "wordCount": 465,
+          "wordCount": 452,
           "title": "有多少人是 彩礼一分不留,还另外带嫁妆(钱)的?",
           "imageUrl": null
         },
@@ -647,28 +667,8 @@
           "description": "ocsp: 位置深圳，前天刚上门刷过身份证查过房，今天换个人来又敲门，不要太搞笑。。",
           "link": "https://www.v2ex.com/t/1105656",
           "publishedOn": "2025-01-16T11:25:42.000Z",
-          "wordCount": 426,
+          "wordCount": 398,
           "title": "网格员们开始查房扰民了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105655",
-          "author": "snow668",
-          "description": "snow668: 预算 1200 左右手机推荐\n需求如下：\n1. 处理器：偏向骁龙（天玑也可以，但担心后续厂商不购买优化服务）。\n\n2. 性能：能流畅运行《王者荣耀》最高画质，偶尔刷抖音短视频。\n\n3. 拍照：希望成像效果好一点，满足日常需求。\n\n4. 功能：保留 3.5 毫米耳机孔、红外和 NFC 。\n\n5. 续航：电池容量大，续航表现强，适合长时间使用。\n\n6. 后台表现：不杀后台，能同时开《王者荣耀》和抖音，运行流畅。\n\n7. 耐用性：希望能用个四五年。\n\n有合适的推荐吗？感谢！",
-          "link": "https://www.v2ex.com/t/1105655",
-          "publishedOn": "2025-01-16T11:18:55.000Z",
-          "wordCount": 381,
-          "title": "手机推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1105654",
-          "author": "bzkmsjy",
-          "description": "bzkmsjy: \n1 、百分浏览器一直可以用谷歌账户同步，但是谷歌不是在 2021 年封了第三方 Chromium 的同步接口吗？\n2 、Catsxp 这种 P2P 的同步方式是去中心化的吗？还是作者自己搭建了服务器作为中心？为什么不采用百分浏览器的方案呢？如果是自建服务器不是还要花钱。\n因为 Catsxp 最近出了 Mac 版，MacOS 终于也有了类百分浏览器，就是这个同步方式差了点意思，要是能接入谷歌账户多好啊",
-          "link": "https://www.v2ex.com/t/1105654",
-          "publishedOn": "2025-01-16T11:18:52.000Z",
-          "wordCount": 438,
-          "title": "百分浏览器和 Catsxp 浏览器的同步功能是怎么实现的？",
           "imageUrl": null
         }
       ]
