@@ -104,12 +104,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -298,6 +292,36 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106176",
+          "author": "craiiz",
+          "description": "craiiz: \n几年前在 steam 购买了《文明 6 》和全 DLC 。在 2k 前阵子移除启动器之前，我是用 steam 账户一键绑定登陆的。\n刚刚想要打一把大图，但发现我的 DLC 全都不能用了。并且，在主页面右下角的 2K 账户图标变成灰色，鼠标显示该绑定账号的年龄不符合要求。\n于是，我前往 2K 官网  www.2k.com  使用 steam 授权登陆后，惊掉下巴：\n在 ACCOUNT OVERVIEW  -->  ACCOUNT DETAILS 里面， DISPLAY NAME  里面显示的居然是我 steam 账户的明文密码。\n\n令人震惊和费解。\n由于启动器也已经移除，无法实验是此现象是否为真或仍然存在。",
+          "link": "https://www.v2ex.com/t/1106176",
+          "publishedOn": "2025-01-18T21:35:28.000Z",
+          "wordCount": 410,
+          "title": "难道 Steam 的账户密码是明文储存的？？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106175",
+          "author": "wait404",
+          "description": "wait404: 看到一报导，感觉不错，分享出来\n1 、紫藤巷杀人案离奇内情：四个专案组与警界“内鬼”\nhttps://mp.weixin.qq.com/s/LvFQzxWU-q2R9aTxqetLNg\n2 、紫藤巷杀人案再调查：为何疑难 21 年\nhttps://mp.weixin.qq.com/s/PvQ3CkwT70QDpScf-b1Stw",
+          "link": "https://www.v2ex.com/t/1106175",
+          "publishedOn": "2025-01-18T20:37:27.000Z",
+          "wordCount": 342,
+          "title": "紫藤巷杀人案离奇内情：四个专案组与警界“内鬼” 紫藤巷杀人案离奇内情：四个专案组与警界“内鬼” 紫藤巷杀人案离奇内情：四个专案组与警界“内鬼”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106174",
+          "author": "fengsi",
+          "description": "fengsi: \n关于 vidhub 、infuse 类似软件，有些不太明白的地方，向大家请教。\n我看 vidhub 和 infuse 的 pro 版本都可以「无限制的观看 1080p 以上的视频」，这是什么意思？意思是如果你不是 pro 会员，即使你提供的视频是 4k ，你也只能看糊糊的版本？如果我视频在本地的话，他也会给我降清晰度到 1080p 以下？除非我买了会员。\nvidhub 和 infuse 的刮削方式不一样吗？我分别给他们提供了同一个动漫，vidhub 很好的显示出来了各种信息，但是 infuse 依旧只是视频的名字。我提供的知识一个动漫的所有剧集，视频文件的命名都是纯英文名字，vidhub 居然都能正确的显示出他的各种中文信息。\n如果仅仅只是「在 mac 上播放本地的视频」这一非常聚焦的功能的话，infuse 、vidhub 和 inna 播放器相比如何？我关注的是视频画面、音频这些，我对这些不是很懂，我肉眼看起来也没啥区别。我了解 inna 就是单纯的播放器，你提供的视频是怎么样他就怎么样，vidhub 和 infuse 呢？\n我有意使用 infuse 或 vidhub 去对本地动漫剧集进行一个管理，动漫只会在我本地 mac 上（或其外接的移动硬盘），vidhub 和 infuse 是不是对我来说都一样？更推荐哪一个？ inna 呢？似乎 inna 相比于他们仅仅只是少了一个刮削能力？\nvidhub 、infuse 这两个支持我在 mac 添加资源，能让我在 iphone 上看吗？当然我指的是我在 iphone 把视频下载到我手机本地再看，不是指的在线看\n我比较在乎的是 视频清晰度与表现，但惭愧的是我对这个其实压根不懂，所有一切只停留在 腾讯视频/爱奇艺的 1080p 、4KHDR 、4K 臻彩视听...。有时候你跟我说这是什么 1080p 、2k 、还是 4k 的其实可能我都分不出来...",
+          "link": "https://www.v2ex.com/t/1106174",
+          "publishedOn": "2025-01-18T19:22:16.000Z",
+          "wordCount": 447,
+          "title": "关于 vidhub、infuse 的一些疑问",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106173",
           "author": "xietianxiao",
           "description": "xietianxiao: \n马上就要国补了，手上的国行三星 s21 想换了。求朋友们推荐。主要需求按优先级排序如下：\n有正常的消息推送，能收到学习通，outlook 等软件的通知。\n屏幕素质优秀 fps ＞=120hz 。当初一直用三星就是冲着屏幕去的。\n系统流畅，最基本的功能要有，比如屏幕小窗这些。花里胡哨的不追求。\n相机不能太拉。\n广告尽量少点吧。\nPS:\n我不打游戏，主要使用场景是看看视频和文字，以及出勤交通。\n可以刷机，这种情况，请推荐型号名+刷机系统名。\n价格的话 3-4k 吧",
@@ -333,7 +357,7 @@
           "description": "WuDiHaiTai: 在公司搞了台小主机，看了一眼网上，软广太多，V 站也没有很好的帖子...\n想问问有没有大佬也是这个用法，能不能给点建议呢，随身 Wifi 是否有信号、续航发热问题？ CPE 目前我是嫌贵，这个价格够买二手手机开热点了，有没有便宜好用的推荐？买二手手机开热点的话是否有安全因素，我不想我的工位着火...信号和随身 wifi 比呢？\n初中时候读书，家里在学校旁边租房住，那时候用的移动 4G 的 CPE ，我印象特深刻，一到下雨网就特别差什么都做不了，还记得当时京东怎么都打不开，开黄网倒是速度快得很...而且当时据说卡不允许拔，如果插手机或者去别的市用就会锁卡，不知道现在是不是还是这样。一转眼十几年过去了不知道现在 CPE 发展怎么样。\n背景：\n1. 主机连接方式有 Wifi 和 RJ45 ，插线板管够。\n2. 自己有广电流量卡，200G/月的，29 一个月好像，网速不是很好，不知道是信号问题还是其他问题。\n3. 公司有两个网络，一个是办公网络，已知有安全团队会千里追凶。另一条是办公楼网络，据说无人在意，但看了眼网关是爱快免费版，搜了下爱快行为监控挺吓人的，事无巨细都会列出来，所以不打算用公司网络了。\n需求：\n1. 我还是挺看重延迟的，我应该会经常远程家里的电脑，不太能接受延迟卡顿。\n2. 最好是能支撑的住游戏串流，虽然也不太会在公司打游戏。\n3. 网络安全上有什么建议。",
           "link": "https://www.v2ex.com/t/1106170",
           "publishedOn": "2025-01-18T18:11:51.000Z",
-          "wordCount": 467,
+          "wordCount": 471,
           "title": "摸鱼大佬们，求个 CPE/随身 Wifi 选购体验/建议/指南。",
           "imageUrl": null
         },
@@ -383,7 +407,7 @@
           "description": "dnsjia: \n选择 SSLManage，开启自动化证书管理之旅\nSSL 证书是确保网站安全的关键，然而传统的证书管理方式常常需要手动干预和维护。尤其是 Let's Encrypt 证书，其有效期仅为 90 天，需要频繁续签和配置，给网站管理员带来不小的压力。现在，借助 SSLManage，这些繁琐的操作将不再是问题。\nSSLManage 提供全自动化的 SSL 证书管理，系统会自动为您的网站申请并配置 HTTPS 证书，让您轻松开启网站加密之旅，提升安全等级。通过我们的 SSL 智管系统，您的证书将被自动申请、续签和部署，无需任何手动操作。\n\n自动化管理，省心省力\nSSLManage 采用智能化管理方式，系统通过 AI 智能识别 过期或风险证书，自动处理证书的申请、续签和部署。全自动化流程帮助企业大幅减少人力投入，确保业务 7x24 小时稳定安全运行，不受人为疏忽的影响。\n多云兼容，灵活部署\n无论您的业务架构多复杂，SSLManage 都能轻松支持主流云平台如阿里云、腾讯云等。通过一键部署，突破云平台限制，灵活整合各类资源，提升服务效率。\nAPI 开放，灵活管理\n我们提供丰富的 API，支持自动化的证书生命周期管理。您可以将其与您的自有业务系统深度融合，让 SSL 证书管理更加灵活，便捷。\n实时监控，持续保障\nSSLManage 提供实时监控功能，时刻监控域名和证书状态，提前发出到期提醒，确保服务稳定性。自动续签彻底消除人为疏忽导致的风险，确保您的网站始终享有可靠的 HTTPS 保护。\n选择 SSLManage，让您的网站安全管理变得简单、自动化、无忧。\nhttps://ssl.dnsjia.com 快来注册体验一下吧。赠送一批 基础版 代金券，在订单支付使兑换使用。 先到先得\nQ-6e3acc2bb110248a\nQ-1b3798ada1282982\nQ-21cdd6e5b6b5ef89\nQ-543c1b8fce3c5e11\nQ-604dd5c2cfd4db43\nQ-1d55b6dc2c20ea25\nQ-66329bd9f745cdd\nQ-442829be942f7d24\nQ-6d1f6d6c40264483\nQ-55215ec44c7d70cf\nQ-44c7e545d27ff83\nQ-282fa783e86b5468\nQ-5f844d29ac617af5\nQ-73ec4e949d1879c2\nQ-3ffa168d0690f93b\nQ-11319a7a48f74375\nQ-7cdc255cd09872dc\nQ-52d23f4c4a5e1361\nQ-13660e316375d07f\n\n使用方式\n在套餐购买页面选择”基础版\",  订单支付时选择兑换优惠券并输入上面的券码。 支付时勾选代金券即可， 优惠券仅用于基础版/一年套餐\n\n\n功能介绍 https://mp.weixin.qq.com/s?__biz=MzkwMDg2MzMwMQ==&mid=2247483658&idx=1&sn=ab1546fb140c090b197a65a561f5ec93&chksm=c0bcc520f7cb4c3651e47bcbc9c254f4a9ef3d8a936edfa9f05b62527c8758e39a803a5d2520&token=181827262&lang=zh_CN#rd",
           "link": "https://www.v2ex.com/t/1106163",
           "publishedOn": "2025-01-18T15:49:54.000Z",
-          "wordCount": 486,
+          "wordCount": 489,
           "title": "选择 SSLManage，开启自动化证书管理之旅",
           "imageUrl": null
         },
@@ -433,7 +457,7 @@
           "description": "vipouno: 最近用经典版 QQ 发现很多手机发送的分享卡片都开始不显示了，寻思不如趁着年初弄弄升级和记录迁移的事宜吧\n安装 NT QQ 发现，NT QQ 还是会沿用之前设定的存档目录，在 QQ 号文件夹里会再自己新建一个“nt_qq”文件夹\n之后会检测经典版 QQ 的数据进行导入，导入完成不会提示，“nt_qq”文件夹会膨胀到 7GB\n经典版 QQ 之前存在的文件夹看起来没什么体积变化，感觉原理是把数据库重新迁移了而已？\n然后问题就来了，不管是群聊还是私聊，基本只有文字和表情的历史消息同步成功而已，图片和视频基本都“挂了”\n“挂了”的形式还有几种：\n1 、直接在消息管理器对话历史里显示“加载失败”的缩略图\n2 、消息管理器对话历史里虽然能显示缩略图，但是双击打开图片会提示“资源加载失败”\n3 、加载成功的条件不清楚，有些加载失败的年份甚至是 2024 年 12 月中旬往前的图片都不行、而有些是没问题的\n\n不管怎么样，在更新前我已经备份好被修改前的记录了，但是只能搭配经典版 QQ 使用，现在只能祈求 TX 晚一天停用经典版 QQ 的登录了\n也只能把这种事情发上来分享一下，给有类似条件准备升级新版 QQ 的人避避坑。 至于给官方反馈就懒得去做了，毕竟对面有没有活人看反馈都是一说😅",
           "link": "https://www.v2ex.com/t/1106158",
           "publishedOn": "2025-01-18T15:31:26.000Z",
-          "wordCount": 498,
+          "wordCount": 502,
           "title": "经典版 QQ 里的 800GB 聊天记录大概是废了",
           "imageUrl": null
         },
@@ -483,7 +507,7 @@
           "description": "bojue: \n刚看都一个 V 友的裁员话题\n本周很突然裁员了几个同事，原本不可能走的这次也很意外的撤了：\n一个后端大佬（待遇高）\n一个独岗,类似 UI 设计（使用低代码开发后，没活了）\n技术无罪，但是技术是成本。\n躲过了初一躲不过十五，从 23 年底开始到现在 4 轮下来，拿着深圳 19 年的薪资也是这边其他人的 2-3 倍多搞得我现在很危险\n年前不到放假谁也说不好。\n历史的雪花，对每个人来说都是一座大山。",
           "link": "https://www.v2ex.com/t/1106153",
           "publishedOn": "2025-01-18T14:41:00.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "长安真的是没法呆了，年前又来一波",
           "imageUrl": null
         },
@@ -523,7 +547,7 @@
           "description": "xujdan: 很久没联系的老妈又突然一声不吭打电话给我，我没接也不想接，之前也说过了有什么事发微信给我我不喜欢接电话，然而又是左耳进右耳出。然后微信发语音说我又不接电话问我几号回，我实在不想说，我回去就一定得每次报备？然后就说了下周。被这么一搞越来越不想回家了，就是不喜欢这种时时刻刻不自由的感觉。",
           "link": "https://www.v2ex.com/t/1106147",
           "publishedOn": "2025-01-18T13:49:28.000Z",
-          "wordCount": 853,
+          "wordCount": 906,
           "title": "今天被老妈的询问搞得突然第一次不想回家",
           "imageUrl": null
         },
@@ -553,7 +577,7 @@
           "description": "Ggxw8: \n最近买了个二手的 LG 想着有将近十年没碰安卓了 折腾着玩一下\n解了 Bootloader 刷了 TWRP LineageOS Magisk Riru LSPosed...\n下了一堆插件 用修改器改了几个单机游戏的金币 给 gpu 降压超了一点频 卸了几个系统应用 然后 就没有然后了\n解了 root 之后 也没觉得什么功能 刚需 是必须要 root 才行的 或者说 有什么痛点 是非要 Root 才能绕开的 想好好折腾一番 却发现没什么折腾的\n唯一有快感的一瞬间 就是解了 Root 的那一瞬间 就像是在 Linux 下敲了个 sudo su 加回车\n想着小时候没各种刷 ROM 逛论坛 破解软件一大堆\n现在 想要安装个付费的游戏都打不开 微信也有封号的风险 支付宝也不能用 各种软件对 Root 的侦测也越来越完善 需要各种办法隐藏环境 完美 Root 什么的 需要不停的折腾 好像完全不能当主力机日常用\n所以想问一下 Android 老用户 Root 真的很重要吗 是我好多年没玩已经玩不明白了吗",
           "link": "https://www.v2ex.com/t/1106142",
           "publishedOn": "2025-01-18T13:18:23.000Z",
-          "wordCount": 788,
+          "wordCount": 790,
           "title": "Root 真的还是刚需吗",
           "imageUrl": null
         },
@@ -603,7 +627,7 @@
           "description": "jkfadsljlasdgs: outlook 可以注册，但是隔天登录提示违反规范，也要求绑定邮箱。\n现在还有没有不需要手机号就能注册长期用的邮箱？",
           "link": "https://www.v2ex.com/t/1106133",
           "publishedOn": "2025-01-18T12:33:29.000Z",
-          "wordCount": 422,
+          "wordCount": 424,
           "title": "不需要手机号能用的邮箱？",
           "imageUrl": null
         },
@@ -655,36 +679,6 @@
           "publishedOn": "2025-01-18T11:38:08.000Z",
           "wordCount": 491,
           "title": "尴尬了，为租机老板做了个 工具，差不多好了，他不要了！😭",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106126",
-          "author": "importmeta",
-          "description": "importmeta: \n网站开通之后,看访问日志后,找到这几个爬虫\n1.百度\n2.谷歌\n3.Bing\n4.zhanzhang.toutiao.com\n5.360 爬虫\n6.ChatGPT 爬虫\n还有吗?",
-          "link": "https://www.v2ex.com/t/1106126",
-          "publishedOn": "2025-01-18T11:36:50.000Z",
-          "wordCount": 374,
-          "title": "都有什么站长工具,能提交到爬虫的之类的网站?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106125",
-          "author": "goushengnankong",
-          "description": "goushengnankong: \n今天在 mac 和 iPhone 上设置好了 self-hosted livesync 的服务器和插件,发现在 mac 上对笔记进行的修改和创建能顺利的同步的到 iPhone 上,但是 iPhone 的创建和修改不能同步到 mac,有大佬可以帮忙解答一下吗?",
-          "link": "https://www.v2ex.com/t/1106125",
-          "publishedOn": "2025-01-18T11:07:29.000Z",
-          "wordCount": 404,
-          "title": "Obsidian self-hosted livesync 使用求助",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106124",
-          "author": "AN130",
-          "description": "AN130: \n想为家里的老人安装一个室外摄像头，方便随时通过手机观察他们的情况。由于农村一些限制条件，所以想问问大家是否有适合的产品推荐一下。\n主要需求\n摄像头网络连接方式：\n支持 4G 或 5G 网络，可插入流量卡使用。（不考虑需要连接 Wi-Fi 的设备）\n使用方式\n通过手机 APP 远程实时监控即可\n补充说明\n家里长期没有年轻人。\n设备最好能适应农村的室外环境。\n如果能有夜视、人形检测等功能就更好了（非必要）。\n如果可以预算最好在 500 以内。",
-          "link": "https://www.v2ex.com/t/1106124",
-          "publishedOn": "2025-01-18T11:00:58.000Z",
-          "wordCount": 567,
-          "title": "农村家用室外摄像头推荐",
           "imageUrl": null
         }
       ]
