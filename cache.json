@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -293,7 +287,7 @@
           "description": "zhwguest: \n代码密度太低了，经常要这么写：\n1: var val string\n2: if ok {\n3:val = \"okay\"\n4: } else {\n5:val = \"fail\"\n6: }\n\n即使优化一下，还有：\n1: val := okay\n2: if !ok {\n3:val = \"fail\"\n4: }\n\n要是 kotlin,swift, java, c++, c ，来得多快啊，尤其很多个这种条件初始赋值的时候，看版面，就像在搞笑似的。",
           "link": "https://www.v2ex.com/t/1106223",
           "publishedOn": "2025-01-19T06:42:36.000Z",
-          "wordCount": 616,
+          "wordCount": 620,
           "title": "最受不了的就是 golang 中的 if...else 语句了",
           "imageUrl": null
         },
@@ -313,7 +307,7 @@
           "description": "aoguai: \n由于自己会制作微信表情包，微信会每年送点名额给我。\n\n表情年度优秀艺术家今年现在奖励送了 900 个额度，下方二维码扫码，就可以领取啦。\n注意：三个二维码为同一红包封面，每个 300 额度。领一个即可。\n预览：\n\n\n\n\n领取链接 1\n\n领取链接 2\n\n领取链接 3\n没有权限的可以到表情包页领取：\n\n\n根据往年经验，后面微信还会送额度，我会继续发。",
           "link": "https://www.v2ex.com/t/1106219",
           "publishedOn": "2025-01-19T06:03:55.000Z",
-          "wordCount": 392,
+          "wordCount": 404,
           "title": "发些自制的微信红包封面!",
           "imageUrl": null
         },
@@ -343,7 +337,7 @@
           "description": "565656: \n馋 ipadpro 的 oled 屏，上次买了 ipadpro 没啥用就送人了，现在又想买了，明明知道买了也没啥用。",
           "link": "https://www.v2ex.com/t/1106215",
           "publishedOn": "2025-01-19T05:27:00.000Z",
-          "wordCount": 412,
+          "wordCount": 414,
           "title": "苹果是怎么做到：做出一个东西明明没需求但就是有人愿意买单",
           "imageUrl": null
         },
@@ -353,7 +347,7 @@
           "description": "yoruoxx: 先上总结\n1. 面试机会很难，需要有对应的业务经历，起码 match 85%+ \n2. 面试要求比几年前高的多，一部分是要求算法，还要求算法的高效，对候选人的双商要求都很高，还有一部分对工作履历和院校的要求，不能跳槽频繁以及至少统招一本。\n3. 年龄，这个很隐晦吧。一般的回复是 达不到对应工作年限的能力。其实我也想过为什么有这个评价，技术问题可能还行，一些场景上的问题，没做没经历过，面试那一会就想出对应的方案，我是在做不到。还有一些所谓项目管理的经验，人与人沟通的学问吧\n我将继续砥砺前行，希望我的面试总结有一些帮助。\n愿大家都能找到满意的工作，过一个好年。\n\nSHEIN\n1. 自己的项目要说的条理性更强一些，语速放慢，给面试官时间反应你说的东西并解答\n2. Mysql 隐式类型转换带来的查询问题，mysql 调优\n3. 用 redis 实现一个分布式锁\n4. 场景设计题，一个账户每秒 20wqps 的金额加减，如何处理？\n大胆一些，多问一些前提，不要想太多强硬的结题思路。适当直接问面试官，直接写下来进行思考\n5. 一定要表现的稳重一些，有条不紊\n6. 两个大 list 找差集，最快的方式\noffer💥💥💥\n携程\n1. 项目没怎么问，更多的是算法\n2. 一道 hard （滑动窗口），两道 m （最长回文子串，sql 查询）\nPS：不想招人，纯纯来写题的，面试官全程心不在焉。\n黑湖\n一面\n1. 反转链表变种（反转从 start 到 end 的位置）\n2. 项目细节\n二面\n1. 做事情的方式，提前沟通资源，保证自己产出\n2. 跨团队去 coding\n3. 洒脱一些，一个问题没答好，别纠结\n4. 实现一个 Double.parseDouble\n\"12.13\" -> 12.13\n\"12\" -> 12.0\n\"a123.123\" -> exception\nPS：对…",
           "link": "https://www.v2ex.com/t/1106214",
           "publishedOn": "2025-01-19T05:18:26.000Z",
-          "wordCount": 679,
+          "wordCount": 713,
           "title": "31 岁互联网大厂程序员：不续签后的面试之旅",
           "imageUrl": null
         },
@@ -363,7 +357,7 @@
           "description": "DBQ: \n如果是你遇到这种事情该怎么应对？",
           "link": "https://www.v2ex.com/t/1106213",
           "publishedOn": "2025-01-19T05:12:22.000Z",
-          "wordCount": 466,
+          "wordCount": 468,
           "title": "某智驾公司团建，团建中领导威胁半年后开除某员工",
           "imageUrl": null
         },
@@ -393,7 +387,7 @@
           "description": "MacsedProtoss: \n如题，大概的情况是现有一台 win pc ，有两块盘，装了两个系统来隔离境内/境外。隔离的方案是开 bitlocker ，这样境内应用的流氓就扫不了另一块盘了。\n但是这样操作之后由于引导分别在两块盘上，目前只能通过 bios 的启动菜单来切换两个系统。\n快过年了要回趟老家，求问人不在的时候如何远程切换启动盘？软/硬件方案均可，内网可以正向代理回去访问。",
           "link": "https://www.v2ex.com/t/1106208",
           "publishedOn": "2025-01-19T04:44:11.000Z",
-          "wordCount": 674,
+          "wordCount": 744,
           "title": "有没有远程切换 pc 启动盘的方案",
           "imageUrl": null
         },
@@ -403,7 +397,7 @@
           "description": "gransh: \n香港和日本可以，是梯子问题还是 v2 问题",
           "link": "https://www.v2ex.com/t/1106207",
           "publishedOn": "2025-01-19T04:42:10.000Z",
-          "wordCount": 451,
+          "wordCount": 465,
           "title": "这两天用新加坡节点一直上不了 V2",
           "imageUrl": null
         },
@@ -423,7 +417,7 @@
           "description": "femsdfq: \n现在登上去显示被 ban 。有意思的是，声明把希望放在了懂王身上。",
           "link": "https://www.v2ex.com/t/1106204",
           "publishedOn": "2025-01-19T04:15:41.000Z",
-          "wordCount": 537,
+          "wordCount": 599,
           "title": "不止 tiktok，字节旗下所有的 app 都关了",
           "imageUrl": null
         },
@@ -433,7 +427,7 @@
           "description": "imTerry: 最近 Apple 地图更进了中国大陆的限速标志功能，以前限速标志仅在限速抓拍处显示显示，太小了，路过了也就不知道限速了，不能像海外一样在左上角持续显示当前路段的限速。\n然而最近国内也支持这个这个功能，大大方便区间测速驾驶。\n感觉现在 Apple 地图再支持个红绿灯就体验就更好了。\nhttps://imgur.com/a/6OgiHG9",
           "link": "https://www.v2ex.com/t/1106202",
           "publishedOn": "2025-01-19T04:09:37.000Z",
-          "wordCount": 650,
+          "wordCount": 675,
           "title": "Apple 地图啊，你就差个红绿灯🚥倒计时了",
           "imageUrl": null
         },
@@ -443,7 +437,7 @@
           "description": "Keystroke: \n最近搞了几个个人的小项目，想要对外发布。家里有几个限制的小主机，计划是在上面部署起来，但是家里没有并且拿不到公网 IPv4 ，但是有 IPv6 。为了让 IPv4 用户能够访问，应该是要借助一个有公网 IPv4 的云服务器？是否需要这个服务器也需要 IPv6 才能与家里的服务器连接？目前有哪些可行的解决方案？",
           "link": "https://www.v2ex.com/t/1106201",
           "publishedOn": "2025-01-19T04:08:46.000Z",
-          "wordCount": 515,
+          "wordCount": 533,
           "title": "求助：家庭服务器对外发布服务的方案",
           "imageUrl": null
         },
@@ -453,7 +447,7 @@
           "description": "Moosems: \n就这两天的事儿.\n她老是用完东西不归位,用完随手就丢,也不收拾,每次都是我来收拾. 今天我跟她说\n宝宝这个东西还有用吗?她说没用了,我说没用了你用完就收拾一下 别乱放. 她来了一句 你管我啊.\n这个问题提醒她过好几次,还是记不住.\n不单单是这次她这样说,好多次跟她沟通问题 都是 来一句 你管我啊\n老家老妈养了几只羊, 今年的羊的传染性胸膜炎(羊的烂肺病) 很严重,从感染到发病没几天就不行了. 家里的好多只羊都感染了, 感染之后看着不行了就赶紧卖了. 以往都是按斤卖.现在就是论只卖,亏了不少钱.\n那天我跟老妈打电话,老妈哭的不行, 说忙活一年白忙活了. 当时我对象就在我旁边带着耳机打游戏. 挂了电话,我对象问我咋了,我说了一下, 她转头 说了句 ,没事,反正不是我的钱.   这话堵的我啥也说不出口.",
           "link": "https://www.v2ex.com/t/1106199",
           "publishedOn": "2025-01-19T04:01:47.000Z",
-          "wordCount": 1065,
+          "wordCount": 1063,
           "title": "吐槽一下这两天被对象中伤的几句话",
           "imageUrl": null
         },
@@ -463,7 +457,7 @@
           "description": "xcjzv: 我先说个公认的，wx 8.0.33",
           "link": "https://www.v2ex.com/t/1106198",
           "publishedOn": "2025-01-19T03:54:15.000Z",
-          "wordCount": 537,
+          "wordCount": 539,
           "title": "iOS 可以随意降级 app 了，求推荐好用、秒杀新版本的 APP 老版本",
           "imageUrl": null
         },
@@ -493,7 +487,7 @@
           "description": "revival83: 需求\n1.最好能流畅用 4 年\n2.主要玩鸣潮这个游戏希望能全开画质\n3.希望广告可以少一些\n4.拍照尽量好看些，不输 iPhone12 我就能接受\n5.不要曲面屏，微曲面可以接受\n6.续航好一些",
           "link": "https://www.v2ex.com/t/1106195",
           "publishedOn": "2025-01-19T03:20:37.000Z",
-          "wordCount": 676,
+          "wordCount": 682,
           "title": "大佬们苹果老用户想转安卓，求推荐个 5000 内的手机",
           "imageUrl": null
         },
@@ -503,7 +497,7 @@
           "description": "zliang888: 到这里就会直接卡主不动。。。文件好像也没完成下载，类似 99.99%",
           "link": "https://www.v2ex.com/t/1106194",
           "publishedOn": "2025-01-19T03:16:16.000Z",
-          "wordCount": 487,
+          "wordCount": 505,
           "title": "百度网盘直接下载到 SMB 挂载的 Nas 盘会无法完成",
           "imageUrl": null
         },
@@ -523,7 +517,7 @@
           "description": "kobeguang: 入职一个来月了，迟迟不签合同是有什么套路吗？\n每次问人事，都说忙，忙完了再签。也不知道签个合同要很久吗？还是有什么套路呢",
           "link": "https://www.v2ex.com/t/1106192",
           "publishedOn": "2025-01-19T02:35:19.000Z",
-          "wordCount": 566,
+          "wordCount": 572,
           "title": "入职一个来月了，迟迟不签合同是有什么套路吗？",
           "imageUrl": null
         },
@@ -573,7 +567,7 @@
           "description": "f1197199424: 谁知道成都昨晚咋回事，一直在打炮，好几发，然后声音特别大，我说的正经打炮哈，有人知道咋回事嘛？我梦里糊涂的，我还想，该不会打仗了吧。",
           "link": "https://www.v2ex.com/t/1106184",
           "publishedOn": "2025-01-19T00:58:47.000Z",
-          "wordCount": 477,
+          "wordCount": 490,
           "title": "谁知道成都昨晚咋回事",
           "imageUrl": null
         },
@@ -593,7 +587,7 @@
           "description": "BestVPS: \n我们反馈给搬瓦工官方，他们之前的 DC99 机房开卖只有 best effort ，而且 no guarantees 。官方还是比较重视的，在下次的促销中将会修改这部分字眼。以下是官方的回复：\nNext Promotion we will most likely change the wording to something like this.\nWe are doing upgrades in DC99 today and can do another promotion in this location.\n不仅要改字眼，看起来新的促销马上也开始了，可能是 ultrabox ？",
           "link": "https://www.v2ex.com/t/1106182",
           "publishedOn": "2025-01-19T00:48:50.000Z",
-          "wordCount": 462,
+          "wordCount": 466,
           "title": "速报：搬瓦工 DC99 机房后续线路大概率有保障了",
           "imageUrl": null
         },
@@ -613,7 +607,7 @@
           "description": "jiandandkl: \n小赚了一笔，下一个财富密码应该是马斯克了吧",
           "link": "https://www.v2ex.com/t/1106179",
           "publishedOn": "2025-01-19T00:04:41.000Z",
-          "wordCount": 486,
+          "wordCount": 515,
           "title": "川皇发币",
           "imageUrl": null
         },
@@ -623,7 +617,7 @@
           "description": "WalterHs: 朋友公司的本身不属于 AI 或云服务商行业，而且没有相关技能的人（正在招聘），但是现在有一些原因导致他们需要建一个 AI 算力中心，类似于阿里云之类的云服务提供商，但是提供的是给训练 AI 用的算力较强的服务器。\n因为我也不是这个行业的人，对此了解很少，想问一下大家如何搭建一个这样的机房？预算不是问题。",
           "link": "https://www.v2ex.com/t/1106178",
           "publishedOn": "2025-01-18T23:42:56.000Z",
-          "wordCount": 474,
+          "wordCount": 485,
           "title": "帮朋友问，公司需要建立一个 AI 算力中心，提供算力给其他公司使用，请问如何搭建？",
           "imageUrl": null
         },
@@ -633,7 +627,7 @@
           "description": "craiiz: \n几年前在 steam 购买了《文明 6 》和全 DLC 。在 2k 前阵子移除启动器之前，我是用 steam 账户一键绑定登陆的。\n刚刚想要打一把大图，但发现我的 DLC 全都不能用了。并且，在主页面右下角的 2K 账户图标变成灰色，鼠标显示该绑定账号的年龄不符合要求。\n于是，我前往 2K 官网  www.2k.com  使用 steam 授权登陆后，惊掉下巴：\n在 ACCOUNT OVERVIEW  -->  ACCOUNT DETAILS 里面， DISPLAY NAME  里面显示的居然是我 steam 账户的明文密码。\n\n令人震惊和费解。\n由于启动器也已经移除，无法实验是此现象是否为真或仍然存在。",
           "link": "https://www.v2ex.com/t/1106176",
           "publishedOn": "2025-01-18T21:35:28.000Z",
-          "wordCount": 487,
+          "wordCount": 489,
           "title": "难道 Steam 的账户密码是明文储存的？？",
           "imageUrl": null
         },
