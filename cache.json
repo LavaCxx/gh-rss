@@ -220,6 +220,17 @@
       "siteUrl": "https://t.me/s/vps_xhq",
       "articles": [
         {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。开启IPv6后7K62将切换至8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理就是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是重大利好。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://t.me/vps_xhq/692",
           "author": null,
           "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
@@ -282,12 +293,232 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106248",
+          "author": "gransh",
+          "description": "gransh: \n国内发的万事达卡，还款时还错了溢出 3000+rmb ，目测直接转成美元了。\n现在只能刷美元给花掉了。\n短期内没有出国旅游的打算，有没有什么网站可以刷美元购买国内的物品的或话费什么的。\n我目前了解到的只有 trip 上面买国内的高铁票和酒店，但是还没试过买高铁票有没有问题。\n还有其他方式吗？",
+          "link": "https://www.v2ex.com/t/1106248",
+          "publishedOn": "2025-01-19T09:52:43.000Z",
+          "wordCount": 115,
+          "title": "外币信用卡美元溢出了有什么好的地方可以花掉？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106247",
+          "author": "kyonn",
+          "description": "kyonn: \n直接用另一台手机热点, 配网手机和中枢网关连热点是可以配网的. 但是只要连家里的路由器就不行.\n已经确认 dhcp 分配了 ip, 且该 ip 可以 ping 通, 已尝试修改路由器下发的 dns 为公共 dns, 都不管用. 主路由是 ros 系统, 另有一个小米无线路由器桥接, 连接的无线由该小米路由器提供. \n配网卡在中枢网关联网环节, 即前面的蓝牙信息传输都已经完成.\n同环境下无线环境下, wifi 插座之类的设备正常配网.\n已尝试禁用 ros 所有防火墙规则\n已尝试在 ros bridge 上开启 IGMPV3",
+          "link": "https://www.v2ex.com/t/1106247",
+          "publishedOn": "2025-01-19T09:48:59.000Z",
+          "wordCount": 489,
+          "title": "小米中枢网关无法配网, 求助下.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106246",
+          "author": "love8",
+          "description": "love8: \n除了鸿蒙主流的四家全有了，其他的就剩中兴系了吧。",
+          "link": "https://www.v2ex.com/t/1106246",
+          "publishedOn": "2025-01-19T09:41:31.000Z",
+          "wordCount": 386,
+          "title": "秦始皇大一统了啊，家人们。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106245",
+          "author": "yorks",
+          "description": "yorks: \n海外的网站，非国内，里面有资金，看看能否绕过提现。\n体现成功的话全给你。\ntg 联系\nhttps://tmpfiles.org/dl/19617760/17372787997898199299661421003183.jpg",
+          "link": "https://www.v2ex.com/t/1106245",
+          "publishedOn": "2025-01-19T09:29:40.000Z",
+          "wordCount": 373,
+          "title": "有个骗子网站，求高手来研究，奖金归你",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106244",
+          "author": "aPaul",
+          "description": "aPaul: \n今天逛了一天的 B 站，了解了下日本的码农工作，似乎是大龄码农的一条可行性的路？\n1.无年龄限制，没有 35 危机，工作相对国内没那么卷；\n2.收入过得去，至少不比国内一线差；\n3.饮食和气候、时区跟国内相似，文化嘛，基本也能融合\n对于许多大龄码农来说，难点是，日语要能作为工作语言，这学习成本也不低\n客观因素：现在国内的就业环境，对大龄码农确实不友好，30 以前没啥感知，30 以后真的肉眼可见的艰难。加之每年 1 千多万的毕业生。。况且现在经济增速乏力，往后几年预计还会更难\n抛砖引玉，大家和谐发表高见。",
+          "link": "https://www.v2ex.com/t/1106244",
+          "publishedOn": "2025-01-19T09:29:27.000Z",
+          "wordCount": 481,
+          "title": "大龄 IT 码农赴日工作的可能性探讨",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106243",
+          "author": "shuangxunian",
+          "description": "shuangxunian: \n三年半 crm 前端工作经验，求一个工作，呜呜呜\n我的个人简历： https://shuangxunian.github.io/about/",
+          "link": "https://www.v2ex.com/t/1106243",
+          "publishedOn": "2025-01-19T09:14:35.000Z",
+          "wordCount": 354,
+          "title": "求各位给个工作",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106242",
+          "author": "Lighfer",
+          "description": "Lighfer: \n公司中层正值到高层降薪 10% ～ 20%，25 年业绩再不好转就该轮到我们了",
+          "link": "https://www.v2ex.com/t/1106242",
+          "publishedOn": "2025-01-19T09:11:00.000Z",
+          "wordCount": 388,
+          "title": "头上悬着一把名为“降薪”的剑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106241",
+          "author": "000sitereg",
+          "description": "000sitereg: G6 很一般，坐后排，上高架有坡时后排颠簸会多一下。属于 下，上，下，上（比较微下）。但是给人感受不咋好。开起来会比较偏轿车的感觉。报价优惠后 15W 出头       \nP7+，典型的轿车，车内很宽敞，但是如果后排靠背放最大角度，高的人就顶头了！！！   \n后排乘坐舒适度满意，但是整车隔音略差，高架时速 85 ，噪音就上来了。\n内饰设计我是好评，略有点偏女性审美。反正比某迪的好多了，没有用力过猛的感觉。   \n音响效果还可以。同价位中应该算好的   \n配置属于这价位拉满，这说法我觉得不夸张。 \n电池不是笛子和宁德的，总之三电不是一线的，有点小膈应。但是说到底还是个钱... 无优惠 18+W 起步。   \nP7+几乎全程智驾。之前小米试驾都没有智驾体验。\n路况不算复杂。体验蛮好的，正常开，离车泊入（人下车，车子自己停）都没问题。   \n不过主说碰到的问题，有阴沟里翻船的情况。   \n先说一个大问题。车道是 左，直，直，左（车在这条左转道）。 在直行左转等所有灯都是红灯的情况下，它自己开始左转了！！！！！，我此时的感觉是闹鬼了。 销售也慌了，解释说有左转待转区...那地方待转就把左边直行车都堵住了，开窗看了下也没有...    \n这里有个可能的原因，它转之前我看到下个路口是绿灯，但是看不清是左转还是直行绿灯。有可能是智驾捕捉到了下个路口绿灯,然后动了。  \n上高架的坡是两条道，上高架后二变一，要并线那一段。二变一时左边是斜线区用来紧急临时停车。就那一下提示要人工接管，因为抓不到车道了，但是此时前后左右都没有车。后续堵着车上高架也是类似问题。    \n \n另外还有一些和人驾驶有区别的地方。   \n开启智驾后，如果此时车速相对慢，前方路况良好，它会加速，哪怕前方是红绿灯路口。三个字概括 蹿出去...\n相对慢速行驶，右边有车子过来，但是不确定对方是否会开到你前面。智驾会加速，然后刹一下车... 人开的话一般会选择轻微加速，或者干脆匀速。这乘坐感受就不一样了。   \n其他就没啥了，就是吐槽下。  \n销售特别急，总想你马上下单，说算下价格.... 店里也没其他顾客，我是想坐在车听听音乐，感受一下音响，内饰，车机等。没听完一首歌就把车门拉开了。还不止一次。烦！！\n总结下：G6 我不买，P7+ 你买我推荐，我买犹豫中~~~\n如果 P7+   有天窗原厂电动遮阳帘，音响更好（哪怕加价升级），或者三电用一线再贵一点比如一两万，我应该就忍不住了。",
+          "link": "https://www.v2ex.com/t/1106241",
+          "publishedOn": "2025-01-19T09:04:51.000Z",
+          "wordCount": 372,
+          "title": "小鹏 G6 和 P7+试驾智驾简短感受。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106240",
+          "author": "hanssx",
+          "description": "hanssx: \n坐标帝都，之前一直租大众、坦克 300 ，但是春节期间比平时贵了一倍，看了看电车便宜一半，极狐阿尔法 T 2022 480KM 的，寻思尝试一下电车，之前从来没摸过电车。有几个问题：\n1 、操控除了会有动能回收，还有其他的嘛，拨杆换档需要适应一下。\n2 、郊区景点都有充电桩吗，充电桩的话是要选哪种，快充还是慢充？除了 Tesla ，其他电车都是统一一种充电桩吧，我看有的停车场是 Tesla 专供充电桩。\n3 、一家 5 口出行，开空调的话到附近郊区景点来回 200KM 不知道能不能拿下来，还是说要看电池衰减，自己试里程？\n4 、还有其他注意的吗？",
+          "link": "https://www.v2ex.com/t/1106240",
+          "publishedOn": "2025-01-19T09:03:55.000Z",
+          "wordCount": 440,
+          "title": "第一次开电车，家庭春节出游有什么要注意的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106239",
+          "author": "zuoheming",
+          "description": "zuoheming: \n最近用 ipad 通过投屏来做培训，目前用的是 goodnotes5 ，把 pdf 导入之后可以别讲边做备注。\n但是整个过程有时候一些点会忘记讲，我想问一下各位老哥，有没有一种笔记 app ，可以在投屏中隐藏一些特定的笔记，但是在又不影响在投屏中笔记的书写。\n有点类似于有两种笔，一种笔写的投屏中大家能看见，另一种笔写的在投屏中大家看不见。",
+          "link": "https://www.v2ex.com/t/1106239",
+          "publishedOn": "2025-01-19T09:03:21.000Z",
+          "wordCount": 401,
+          "title": "各位老哥，请问 iPad 上有没有这种 app？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106238",
+          "author": "lesismal",
+          "description": "lesismal: \n两个项目分别是：\nhttps://github.com/lesismal/arpc\nhttps://github.com/lesismal/nbio\n2024 年到现在的主要变化：\narpc\n一点缝缝补补\n顺便支持了 stream 。我个人觉得 stream 比较鸡肋，因为原本已经支持双向 Call/Notify 在绝大多数场景都比 stream 还方便，需要 stream 的场景并不多。\nnbio\n优化 http/websocket 解析相关的逻辑和对象，降低了内存使用和 gc 压力，配合 SetMemoryLimit 让，在 4c 的 ubuntu 虚拟机上，百万连接 websocket 1k payload 压力测试，内存占用能控制在 1G 以内、tps 10w 。\n优化了 bufferpool ，[]byte 变为 *[]byte ，减少小对象频繁分配，降低 gc 压力，这是首次 sub package interface 定义变更、与之前版本不兼容，但 nbio 主 package 仍然保持兼容性，除非自定义了 mempool 否则用户因该也不需要对代码做改变。\n改掉了一些 buffer 相关的低概率脏内存 bug\n当初这两个项目都是写着玩的\n两年多前，把 arpc 也拿去 rpc benchmark 仓库去跟其他知名项目对比了下，也算是跑出了个不错的成绩，比较公平的三方测试可以请看鸟窝老师这里：\nhttps://colobu.com/2021/08/01/benchmark-of-rpc-frameworks/\nhttps://colobu.com/2022/07/31/2022-rpc-frameworks-benchmarks/\nnbio 是为了解决 golang 海量连接场景的内存与 GC 压力、以及对应的 OOM 和 STW 问题，暂时算是 golang 社区里功能比较齐全的独一份。\narpc 实现很简单、没费太多精力，但 nbio 花费了太多精力，这几年身体都有点垮了。还想给 nbio 支持 HTTP2.0/QUIC ，但业余时间用爱发电，目前是没精力了，因为实在是太耗精力了。\n5 年，40+的年纪，也算是程序员职业生涯末期，秋后的蚂蚱了，给自己留个纪念。\n感谢所有我仓库的用户的支持, 感谢所有 issue pr 以及经常交流讨论的朋友们, 我个人精力有限, 大家的关注支持和交流让我的仓库完善了很多!\n提前祝大家新年快乐，身体健康，诸事顺遂！",
+          "link": "https://www.v2ex.com/t/1106238",
+          "publishedOn": "2025-01-19T09:00:58.000Z",
+          "wordCount": 499,
+          "title": "转眼 5 年，两个当初写着玩的 go 项目不知不觉加了很多功能，合计也有 3000 多 star 了，开心又疲惫，当作是职业生涯的纪念",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106237",
+          "author": "dreamkuo",
+          "description": "dreamkuo: \n川普发行虚拟货币, 大家怎么看,\n\"\n<<川普示范如何富上加富 1 天飙破 200 亿美元财富>>\n\"",
+          "link": "https://www.v2ex.com/t/1106237",
+          "publishedOn": "2025-01-19T08:59:58.000Z",
+          "wordCount": 428,
+          "title": "$TRUMP 大家怎么看,值得入手么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106235",
+          "author": "l4ever",
+          "description": "l4ever: 要 seo 友好，又有后台可以让文案直接登陆进行维护，发新闻公告什么的。\n多语言。",
+          "link": "https://www.v2ex.com/t/1106235",
+          "publishedOn": "2025-01-19T08:39:47.000Z",
+          "wordCount": 398,
+          "title": "2025 年了、现在做企业官网有啥好的脚手架？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106234",
+          "author": "tomiaa",
+          "description": "tomiaa: \n音响放在客厅能控制到电视，在房间的时候隔了一堵墙就控制不了了，有没有什么可以 wifi 控制客厅发射红外到电视的设备？还是一定要再买一个音响放在客厅？\n看了有项目 xiaomimusic 要 docker 部署到 nas 才可以，有没有不需要 nas 能够播放路由器（华硕天选）上的音乐？或者部署到服务器上？",
+          "link": "https://www.v2ex.com/t/1106234",
+          "publishedOn": "2025-01-19T08:29:12.000Z",
+          "wordCount": 426,
+          "title": "想问下小爱音响 pro 放在房间怎么控制客厅的普通电视，没有 nas 怎么播放本地的音乐？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106233",
+          "author": "ucaime",
+          "description": "ucaime: \n背景\n之前每年在云服务器上投入差不多 2-3w ，最近看了下数据其实访问量和稳定性要求没那么高，但存在几个问题一直不好降低配置：\n服务特别多，一些 ES 、数据库之类的对内存要求高，单机配置不好降下来；\n存储占比大，非常多的 OSS 文件，且流量大，带宽要求高，遇到过很多次被恶意刷流量；\n有不少耗 CPU 的转码、计算等任务，收到过很多次轻量云的警告；\n尝试过 ServerLess ，使用不方便，且附带的数据库、缓存等等一堆东西并不便宜；\n在尝试的方案\n1. 硬件\n两台浪潮 5212m5 ，配置拉满 256g 每台内存，不含存储总价 3000 以内每台；\n6 块 Intel 固态、16 块 希捷银河 x18 16T 拆机 SAS 硬盘（单块 950 左右，在保）；\n2.5g 交换机 / 从家里机柜到地下室正好有个弱电通道，一根网线搞定；\nUPS 之前淘汰的，换了两组电池继续用；\n2. 部署调整\n原家里机柜两台 NAS 、各种智能家居的设备，现在准备把两台 NAS 停掉，也用地下室的服务器承载服务，硬盘全部迁移过去，本身 unraid 虚拟化迁移很方便；\n两台服务器放在地下室，取电用了充电桩的，原因是电费无阶梯，峰谷电算下来全天不到 5 毛一度；\n地下室通风条件极好，冬暖夏凉，噪音无感；\n3. 几个核心服务\nMinio 替代 OSS ；\nPG 和 MySQL 有专用配置；\nES 单独搞了个集群；\nK8S 作为其他服务的统一承载；\n监控和可观测沿用朋友自己搞的开源的那套；\n环境监测和用电分析继续用了家里在用的 HA ；\n两张 2080ti ，做本地 AI 推理，其实可以用 P40 的，正好手头有 2080 先做测试了；\n4. 最重要的\n两台 200m 带宽轻量云，每年不到 200 块；\n家里服务器和轻量云之间延迟 5ms 以内；\n备案不用动；\n两个外网 IP ；\n轻量云和服务器之间用 WG 组网，延迟控制很好，带宽可以拉满家庭网络上行；\n家庭网络三年没出过任何问题，且仅一次机房维修中断；\n轻量云目前用的 iptables 直接转发端口（在尝试反向代理模式，容易触发轻量云性能警告）；\n目前总功耗最大还不到 1000w ；\n4. 效果\n省钱\n合计 512G 内存，四路铂金 CPU ，ESXi 随便开机器，从来没打过这么富裕的仗；\n网络目前看来完全符合最初设想；\n容灾方面目前没考虑完善，不过因为服务本身做好了各种备份，不担心中断；\n问题\n抱着省电、减小家里噪音的原则本来想出掉原有的各种设备，但目前遇到一个对外服务和家庭网络隔离的问题；\n有时候需要完全隔离，避免各种外部入侵导致的家庭网络失效，有时候又需要部分服务能和家里无缝集成；\n单纯 wg 组网的各种尝试都试过，不够完美；\n主路由双拨，公网出口和子网划分都做了，但好像仍然存在薄弱点；\n有啥好办法或者大家在这个基础上有什么新想法，更靠谱的方案可以讨论讨论！",
+          "link": "https://www.v2ex.com/t/1106233",
+          "publishedOn": "2025-01-19T08:23:24.000Z",
+          "wordCount": 576,
+          "title": "消费降级，尝试把服务器放车库的省钱新玩法，顺带求更优雅的与家庭网络可控隔离方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106232",
+          "author": "nasaboy",
+          "description": "nasaboy: \n前两天突然发现 iPhone7 上的 TestFlight 无法载入 app ，刚开始以为网络问题，把 loon 关闭了，重启了手机，情况还是依旧，然后看另外一个手机上的 TestFlight 就可以正常使用，没有遇到问题，都是同一个美区 ID ，然后想着排查一下，在 iPhone7 上切换到中国区 ID ，又可以正常打开载入 app ，换回美区 ID 又还是一样，无法载入 app 。\ntestflight.apple.com 加到里面抓了下，就显示是 http 500 错误，不知道到底是啥问题？有没大佬懂的，或者遇到的，应该如何解决？\n\n和这个朋友的情况有点类似 https://www.v2ex.com/t/1069225",
+          "link": "https://www.v2ex.com/t/1106232",
+          "publishedOn": "2025-01-19T08:20:16.000Z",
+          "wordCount": 564,
+          "title": "testflight 无法载入 App",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106231",
+          "author": "shadoworld",
+          "description": "shadoworld: \n在家庭局域网使用 immich 备份照片和视频，需要一台功耗低，能插硬盘，能运行 docker ，价格便宜的设备\n有没有现成不折腾的方案？",
+          "link": "https://www.v2ex.com/t/1106231",
+          "publishedOn": "2025-01-19T08:14:41.000Z",
+          "wordCount": 405,
+          "title": "只备份照片，预算 500 以下（不含硬盘），有推荐吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106230",
+          "author": "gegeligegeligo",
+          "description": "gegeligegeligo: 最近用它来听书，主要问题就是，如果 pdf 文件的某一段有敏感词，那就会直接跳过这一段，不读了。\n\n所以，有其它 app 能够直接 ai 语音朗读 pdf 吗？谢谢。",
+          "link": "https://www.v2ex.com/t/1106230",
+          "publishedOn": "2025-01-19T08:01:27.000Z",
+          "wordCount": 403,
+          "title": "wps 里有个 ai 朗读 pdf 功能，有点坑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106228",
+          "author": "huhexian",
+          "description": "huhexian: 第一款： https://mp.weixin.qq.com/s/BMsG_9tt4I_0aoc7M7s7ow\n第二款： https://mp.weixin.qq.com/s/DdFULFs4v7l6p2HyZesMSA\n需要大家在微信里打开链接领取，都是自己和女朋友养的小猫～",
+          "link": "https://www.v2ex.com/t/1106228",
+          "publishedOn": "2025-01-19T07:39:53.000Z",
+          "wordCount": 335,
+          "title": "送大家两款微信红包封面",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106226",
+          "author": "bwijn",
+          "description": "bwijn: 想到哪儿写到哪儿。\n老生常谈的话题，异步高并发\n存在即合理一个东西存在就是为了解决某种问题。先把问题抛出来： 为什么要用异步？\n是为了解决异步 IO 提高性能\n关于我的试错和建议：\ncelery 直接扔了 不要用了\n1.由于 decorater 封装 没补全，看着难受\n2.monkeypatch 性能问题 和 bug\n\n推荐 arq 快快快  还是快  async 原生支持\n对于我这种不想换技术栈的，py 一把梭哈用 arq  Redis\n\n如果再追求极致性能用 golang 分开写了",
+          "link": "https://www.v2ex.com/t/1106226",
+          "publishedOn": "2025-01-19T07:27:43.000Z",
+          "wordCount": 584,
+          "title": "关于 py 异步队列 异步支持选择问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106225",
+          "author": "sdwill",
+          "description": "sdwill: \n最近看完的书名是《边界感》 https://book.douban.com/subject/36974277\n上周分享了一些内容： https://v2ex.com/t/1104834?p=1\n剩下的一部分，花一口气在这周读完了，这就是今年读的第一本书，完工！下面是部分摘抄：\n蒙台梭利曾说过：“除非你被孩子邀请，否则永远不要去打扰孩子。”父母看似好心的关心，其实是对孩子专注的破坏。当孩子进入到一个自我的状态时，无论是玩，还是看书，又或是发呆，父母一定要保持边界感，不中途插手。\n孩子正在解题，父母一会儿进阿里收拾下衣服，一会儿扫扫地，一会儿给点零食，一会儿来看看进度。父母以为自己轻手轻脚没有打扰到孩子，其实从父母接近孩子的那一刻，孩子的思绪就已经断片了，原本半个小时就能做完的题，可能要花一个小时，甚至更长的时间。\n当父母经常打扰孩子的思考，打断孩子的想法时，会让孩子觉得自己的想法根本不重要，自己也不受尊重。比如，当父母要求孩子提建议时，孩子会一副没有兴趣的样子，因为经常性地被干扰，会让他们潜意识里觉得，无论自己思考得多全面，都会被觉得幼稚可笑。\n发呆不等于停止思考，相反，发呆能让人进入深度思考，甚至会超越清醒时地专注力度。所以，世界上很多科学家当遇到瓶颈之时，会尝试调整自己的状态，其中允许自己发呆也在其列。\n给孩子定规则，是希望孩子能自发地约束自己，而不是受到惩罚。如果父母总是单方面给孩子定规则，不停地对孩子说，这该怎么做，那该怎么做，孩子只能站在一旁做个被动地接收者，心里面也只有满满地束缚感。\n要让孩子发自内心地去认可并遵守规则，特别好的一个办法就是让孩子共同参与进来，一起制定规则。而且，让孩子参与的好处不仅限于提高孩子的规则意识，还能培养孩子的民主意识，以及执行规则过程中的守信程度，让孩子初时倾听、理解、接纳和责任，其对孩子的影响，已远超设定规则本身。\n当父母告诉孩子，生活要处处守规矩，行走卧榻，言谈说笑，都要中规中矩，这样的培养方式不是不可以，但孩子也就变成了一个木讷死板、不知变通的人。被众多规矩束缚的人，遗憾地失去了自己的创造力和想象力，活成了一个没有主见和看法，只能被动生活的人。\n有些父母说，孩子的眼光终究差了些，孩子的建议太幼稚了等等。于是想也不想就直接否决了孩子，但这种推倒式的方式，不仅推翻了孩子的决定，还推掉了孩子该享有的决定权。久而久之，父母的权威成了压在孩子头顶的一座山，让孩子觉得自己的是没有决定权的，有的只是服从而已。所以，当父母冷不防地再让孩子做决定时，孩子不是不知道，而是已经没有了做决定的能力。\n孩子的成长是缓慢的，是有节奏的。从婴儿时期，到幼儿时期，再到少年时期，然后是青少年时期，接着是青年、中年、老年，这便是孩子成长的规律。父母需要了解并承认孩子的成长规律，因为承认才能接受面前的孩子还是个幼儿，才能制止拔苗助长的冲动。要知道，孩子的成长也是有阶段性的，总会在某个阶段里，孩子的某项能力进入一个突飞猛进的阶段。\n养育孩子，是父母的一场修行。在修行中，父母遇见孩子的成长，也遇见了自己的另一面，学会了调整自己的情绪，理解孩子，也同时完善自己。而我们在自己的父母眼里也还是个孩子，然后，我们也处在成长的节奏中，伴随自己的孩子，一路同行。\n非常认可这书的观点。我阅读育儿的书，也是想知道在孩子不同的阶段，应该怎么样去引导互动，既能帮他养成好习惯，更好的去成长，同时也能更好的让他探索、理解这个世界的运作。最终让他成为一个自信、自爱、独立的成年人。\n看了这本书后，我发现，教育孩子，更多的讲的就是心理学的东西。怎么去观察人，理解行为背后的逻辑，如何处理情绪等等。在教育孩子的过程中，其实就是呵护他心灵、心智成长的过程。\n另外，前几天在本站看到网友发了一段这样的感想：\n我其实很讨厌把成绩和奖励挂钩，我不喜欢“因为你成绩好，所以你可以得到”这样的东西，我在很小的时候有时候就会想，爸爸妈妈是爱我还是爱我的成绩，有段时间很是抑郁。\n一时间让我很是震撼。对于设定目标，达成奖励，是常规的教育手段。但是从没想过，奖励机制还有可能有这样的理解：表现乖父母才是爱我的，不乖父母就不爱我了。\n孩子的教育需步步为营，徐徐图之啊。",
+          "link": "https://www.v2ex.com/t/1106225",
+          "publishedOn": "2025-01-19T07:26:25.000Z",
+          "wordCount": 515,
+          "title": "年底了好多对结婚和生娃的感悟帖，我的建议是要像学习开发一样系统学习一下，而不是开局就直接上生产环境，试错成本太高了。最近我在读一本育儿书，分享下笔记",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106224",
+          "author": "kekxv",
+          "description": "kekxv: \n当开启 PR 的时候，将会自动获取修改点，并请求 Ollama ，让其给出分析，是否有明显漏洞以及 api key 等问题。\n使用方式简单：\nname: ai-reviews\n\non:\n  pull_request:\n    types: [opened, synchronize]\n\njobs:\n  review:\n    name: Review PR\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v4\n        with:\n          fetch-depth: 0\n      - name: Review code\n        uses: kekxv/AiReviewPR@v0.0.3\n        with:\n          model: 'gemma2:2b'\n          host: ${{ vars.OLLAMA_HOST }}\n          ai_token: ${{ secrets.AI_TOKEN }}\n          REVIEW_PULL_REQUEST: false\n          exclude_files: |\n            ^.+\\.md\n            test2\\.js\n\n相关链接\nhttps://github.com/marketplace/actions/ai-code-reviewer-aireviewpr",
+          "link": "https://www.v2ex.com/t/1106224",
+          "publishedOn": "2025-01-19T07:20:26.000Z",
+          "wordCount": 424,
+          "title": "有使用 gitea 的吗？试试这个 基于 Gitea 和 Ollama (open-webui) 的代码合并(PR)自动检查",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106223",
           "author": "zhwguest",
           "description": "zhwguest: \n代码密度太低了，经常要这么写：\n1: var val string\n2: if ok {\n3:val = \"okay\"\n4: } else {\n5:val = \"fail\"\n6: }\n\n即使优化一下，还有：\n1: val := okay\n2: if !ok {\n3:val = \"fail\"\n4: }\n\n要是 kotlin,swift, java, c++, c ，来得多快啊，尤其很多个这种条件初始赋值的时候，看版面，就像在搞笑似的。",
           "link": "https://www.v2ex.com/t/1106223",
           "publishedOn": "2025-01-19T06:42:36.000Z",
-          "wordCount": 644,
+          "wordCount": 658,
           "title": "最受不了的就是 golang 中的 if...else 语句了",
           "imageUrl": null
         },
@@ -297,7 +528,7 @@
           "description": "ycyppq123: \n有什么推荐吗 蓝牙的会不会有延迟",
           "link": "https://www.v2ex.com/t/1106220",
           "publishedOn": "2025-01-19T06:26:41.000Z",
-          "wordCount": 360,
+          "wordCount": 365,
           "title": "Mac mini M4 配什么音响",
           "imageUrl": null
         },
@@ -307,7 +538,7 @@
           "description": "aoguai: \n由于自己会制作微信表情包，微信会每年送点名额给我。\n\n表情年度优秀艺术家今年现在奖励送了 900 个额度，下方二维码扫码，就可以领取啦。\n注意：三个二维码为同一红包封面，每个 300 额度。领一个即可。\n预览：\n\n\n\n\n领取链接 1\n\n领取链接 2\n\n领取链接 3\n没有权限的可以到表情包页领取：\n\n\n根据往年经验，后面微信还会送额度，我会继续发。",
           "link": "https://www.v2ex.com/t/1106219",
           "publishedOn": "2025-01-19T06:03:55.000Z",
-          "wordCount": 428,
+          "wordCount": 456,
           "title": "发些自制的微信红包封面!",
           "imageUrl": null
         },
@@ -327,7 +558,7 @@
           "description": "pingfan520: 我工作主要用到：Axure+word+excel 工具；偶尔会用到图片编辑方面的现在都是用在线图片处理工具。文档、表格工具也转用腾讯文档了。就是 Axure 暂时还替换不了主要是公司都是用这个来做设计（流程、脑图、框架原型、文档说明等等）；现在用的是 surface pro9 作为主要生成工具，想换 iPad 11 寸的。苏菲 9 便携性还是不如 ipad ；不知道 ipad 有没有好的能安装 Windows11 系统并且能流畅运行各种软件的虚拟机；求有经验的大佬们推荐；",
           "link": "https://www.v2ex.com/t/1106216",
           "publishedOn": "2025-01-19T05:41:45.000Z",
-          "wordCount": 433,
+          "wordCount": 460,
           "title": "iPad 能作为产品人的生产工具吗？",
           "imageUrl": null
         },
@@ -337,7 +568,7 @@
           "description": "565656: \n馋 ipadpro 的 oled 屏，上次买了 ipadpro 没啥用就送人了，现在又想买了，明明知道买了也没啥用。",
           "link": "https://www.v2ex.com/t/1106215",
           "publishedOn": "2025-01-19T05:27:00.000Z",
-          "wordCount": 414,
+          "wordCount": 442,
           "title": "苹果是怎么做到：做出一个东西明明没需求但就是有人愿意买单",
           "imageUrl": null
         },
@@ -347,7 +578,7 @@
           "description": "yoruoxx: 先上总结\n1. 面试机会很难，需要有对应的业务经历，起码 match 85%+ \n2. 面试要求比几年前高的多，一部分是要求算法，还要求算法的高效，对候选人的双商要求都很高，还有一部分对工作履历和院校的要求，不能跳槽频繁以及至少统招一本。\n3. 年龄，这个很隐晦吧。一般的回复是 达不到对应工作年限的能力。其实我也想过为什么有这个评价，技术问题可能还行，一些场景上的问题，没做没经历过，面试那一会就想出对应的方案，我是在做不到。还有一些所谓项目管理的经验，人与人沟通的学问吧\n我将继续砥砺前行，希望我的面试总结有一些帮助。\n愿大家都能找到满意的工作，过一个好年。\n\nSHEIN\n1. 自己的项目要说的条理性更强一些，语速放慢，给面试官时间反应你说的东西并解答\n2. Mysql 隐式类型转换带来的查询问题，mysql 调优\n3. 用 redis 实现一个分布式锁\n4. 场景设计题，一个账户每秒 20wqps 的金额加减，如何处理？\n大胆一些，多问一些前提，不要想太多强硬的结题思路。适当直接问面试官，直接写下来进行思考\n5. 一定要表现的稳重一些，有条不紊\n6. 两个大 list 找差集，最快的方式\noffer💥💥💥\n携程\n1. 项目没怎么问，更多的是算法\n2. 一道 hard （滑动窗口），两道 m （最长回文子串，sql 查询）\nPS：不想招人，纯纯来写题的，面试官全程心不在焉。\n黑湖\n一面\n1. 反转链表变种（反转从 start 到 end 的位置）\n2. 项目细节\n二面\n1. 做事情的方式，提前沟通资源，保证自己产出\n2. 跨团队去 coding\n3. 洒脱一些，一个问题没答好，别纠结\n4. 实现一个 Double.parseDouble\n\"12.13\" -> 12.13\n\"12\" -> 12.0\n\"a123.123\" -> exception\nPS：对…",
           "link": "https://www.v2ex.com/t/1106214",
           "publishedOn": "2025-01-19T05:18:26.000Z",
-          "wordCount": 730,
+          "wordCount": 769,
           "title": "31 岁互联网大厂程序员：不续签后的面试之旅",
           "imageUrl": null
         },
@@ -357,7 +588,7 @@
           "description": "DBQ: \n如果是你遇到这种事情该怎么应对？",
           "link": "https://www.v2ex.com/t/1106213",
           "publishedOn": "2025-01-19T05:12:22.000Z",
-          "wordCount": 473,
+          "wordCount": 493,
           "title": "某智驾公司团建，团建中领导威胁半年后开除某员工",
           "imageUrl": null
         },
@@ -387,7 +618,7 @@
           "description": "MacsedProtoss: \n如题，大概的情况是现有一台 win pc ，有两块盘，装了两个系统来隔离境内/境外。隔离的方案是开 bitlocker ，这样境内应用的流氓就扫不了另一块盘了。\n但是这样操作之后由于引导分别在两块盘上，目前只能通过 bios 的启动菜单来切换两个系统。\n快过年了要回趟老家，求问人不在的时候如何远程切换启动盘？软/硬件方案均可，内网可以正向代理回去访问。",
           "link": "https://www.v2ex.com/t/1106208",
           "publishedOn": "2025-01-19T04:44:11.000Z",
-          "wordCount": 850,
+          "wordCount": 872,
           "title": "有没有远程切换 pc 启动盘的方案",
           "imageUrl": null
         },
@@ -397,7 +628,7 @@
           "description": "gransh: \n香港和日本可以，是梯子问题还是 v2 问题",
           "link": "https://www.v2ex.com/t/1106207",
           "publishedOn": "2025-01-19T04:42:10.000Z",
-          "wordCount": 469,
+          "wordCount": 464,
           "title": "这两天用新加坡节点一直上不了 V2",
           "imageUrl": null
         },
@@ -417,7 +648,7 @@
           "description": "femsdfq: \n现在登上去显示被 ban 。有意思的是，声明把希望放在了懂王身上。",
           "link": "https://www.v2ex.com/t/1106204",
           "publishedOn": "2025-01-19T04:15:41.000Z",
-          "wordCount": 670,
+          "wordCount": 115,
           "title": "不止 tiktok，字节旗下所有的 app 都关了",
           "imageUrl": null
         },
@@ -427,7 +658,7 @@
           "description": "imTerry: 最近 Apple 地图更进了中国大陆的限速标志功能，以前限速标志仅在限速抓拍处显示显示，太小了，路过了也就不知道限速了，不能像海外一样在左上角持续显示当前路段的限速。\n然而最近国内也支持这个这个功能，大大方便区间测速驾驶。\n感觉现在 Apple 地图再支持个红绿灯就体验就更好了。\nhttps://imgur.com/a/6OgiHG9",
           "link": "https://www.v2ex.com/t/1106202",
           "publishedOn": "2025-01-19T04:09:37.000Z",
-          "wordCount": 702,
+          "wordCount": 720,
           "title": "Apple 地图啊，你就差个红绿灯🚥倒计时了",
           "imageUrl": null
         },
@@ -437,218 +668,8 @@
           "description": "Keystroke: \n最近搞了几个个人的小项目，想要对外发布。家里有几个限制的小主机，计划是在上面部署起来，但是家里没有并且拿不到公网 IPv4 ，但是有 IPv6 。为了让 IPv4 用户能够访问，应该是要借助一个有公网 IPv4 的云服务器？是否需要这个服务器也需要 IPv6 才能与家里的服务器连接？目前有哪些可行的解决方案？",
           "link": "https://www.v2ex.com/t/1106201",
           "publishedOn": "2025-01-19T04:08:46.000Z",
-          "wordCount": 537,
+          "wordCount": 549,
           "title": "求助：家庭服务器对外发布服务的方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106199",
-          "author": "Moosems",
-          "description": "Moosems: \n就这两天的事儿.\n她老是用完东西不归位,用完随手就丢,也不收拾,每次都是我来收拾. 今天我跟她说\n宝宝这个东西还有用吗?她说没用了,我说没用了你用完就收拾一下 别乱放. 她来了一句 你管我啊.\n这个问题提醒她过好几次,还是记不住.\n不单单是这次她这样说,好多次跟她沟通问题 都是 来一句 你管我啊\n老家老妈养了几只羊, 今年的羊的传染性胸膜炎(羊的烂肺病) 很严重,从感染到发病没几天就不行了. 家里的好多只羊都感染了, 感染之后看着不行了就赶紧卖了. 以往都是按斤卖.现在就是论只卖,亏了不少钱.\n那天我跟老妈打电话,老妈哭的不行, 说忙活一年白忙活了. 当时我对象就在我旁边带着耳机打游戏. 挂了电话,我对象问我咋了,我说了一下, 她转头 说了句 ,没事,反正不是我的钱.   这话堵的我啥也说不出口.",
-          "link": "https://www.v2ex.com/t/1106199",
-          "publishedOn": "2025-01-19T04:01:47.000Z",
-          "wordCount": 1067,
-          "title": "吐槽一下这两天被对象中伤的几句话",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106198",
-          "author": "xcjzv",
-          "description": "xcjzv: 我先说个公认的，wx 8.0.33",
-          "link": "https://www.v2ex.com/t/1106198",
-          "publishedOn": "2025-01-19T03:54:15.000Z",
-          "wordCount": 539,
-          "title": "iOS 可以随意降级 app 了，求推荐好用、秒杀新版本的 APP 老版本",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106197",
-          "author": "wniming",
-          "description": "wniming: \n我所知道的代理工具比如 v2ray ，clash 这些都是只能根据要访问的网站的域名来选择走哪个节点，但我不想用这种方式，因为这种方式依赖一个域名的列表，实际使用总是不能正确选择到想要走的节点，我想直接用全局代理，然后为每个设备单独选择走哪个节点（没有添加的设备应该要有一个默认的节点可以直接用，手动添加设备后，可以为该设备选择走哪个节点），有什么现成的工具有这个功能吗？",
-          "link": "https://www.v2ex.com/t/1106197",
-          "publishedOn": "2025-01-19T03:45:54.000Z",
-          "wordCount": null,
-          "title": "有什么网络代理工具可以支持根据设备的 ip 来选择走哪个节点吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106196",
-          "author": "walkbox",
-          "description": "walkbox: \n本来想攒一台性能好点的远程桌面用的机器的，无奈经济有限，目前打起末代 intel 的 imac 主意了，目前就是 wol 的问题好像无解，暂时考虑买个远程机械手按一下开机键...  如果有更优解希望大家点拨一下。 感谢",
-          "link": "https://www.v2ex.com/t/1106196",
-          "publishedOn": "2025-01-19T03:23:19.000Z",
-          "wordCount": 466,
-          "title": "囊中羞涩，请教 intel 版 iMac 远程开机的方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106195",
-          "author": "revival83",
-          "description": "revival83: 需求\n1.最好能流畅用 4 年\n2.主要玩鸣潮这个游戏希望能全开画质\n3.希望广告可以少一些\n4.拍照尽量好看些，不输 iPhone12 我就能接受\n5.不要曲面屏，微曲面可以接受\n6.续航好一些",
-          "link": "https://www.v2ex.com/t/1106195",
-          "publishedOn": "2025-01-19T03:20:37.000Z",
-          "wordCount": 682,
-          "title": "大佬们苹果老用户想转安卓，求推荐个 5000 内的手机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106194",
-          "author": "zliang888",
-          "description": "zliang888: 到这里就会直接卡主不动。。。文件好像也没完成下载，类似 99.99%",
-          "link": "https://www.v2ex.com/t/1106194",
-          "publishedOn": "2025-01-19T03:16:16.000Z",
-          "wordCount": 509,
-          "title": "百度网盘直接下载到 SMB 挂载的 Nas 盘会无法完成",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106193",
-          "author": "wxmomomowx",
-          "description": "wxmomomowx: 直接华强北的水深吗？",
-          "link": "https://www.v2ex.com/t/1106193",
-          "publishedOn": "2025-01-19T03:15:00.000Z",
-          "wordCount": 393,
-          "title": "mac mini m3 还是 m4 性价比高啊？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106192",
-          "author": "kobeguang",
-          "description": "kobeguang: 入职一个来月了，迟迟不签合同是有什么套路吗？\n每次问人事，都说忙，忙完了再签。也不知道签个合同要很久吗？还是有什么套路呢",
-          "link": "https://www.v2ex.com/t/1106192",
-          "publishedOn": "2025-01-19T02:35:19.000Z",
-          "wordCount": 584,
-          "title": "入职一个来月了，迟迟不签合同是有什么套路吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106190",
-          "author": "xtx",
-          "description": "xtx: 比如 onedrive 和微信这种。",
-          "link": "https://www.v2ex.com/t/1106190",
-          "publishedOn": "2025-01-19T02:16:13.000Z",
-          "wordCount": 380,
-          "title": "请问 macmini 外接硬盘后，把 app 装到硬盘， app 产生的文件都在外接硬盘里么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106189",
-          "author": "lokamir",
-          "description": "lokamir: \n小公司，WiFi 用 ac+ap 部署，用的 5g 频段。\n笔记本电脑首次连接 wifi 很快，但是断开 WIFI 后再连就很慢，需要等待 2-3 分钟。这还是一个普遍情况，公司大部分人的笔记本电脑都这样。现在大家连 wifi 时都是先忘记 wifi ，然后再输入密码进行连接。最奇怪的是移动设备不受影响，大家的手机都是正常的。\n有大佬知道是怎么回事吗？",
-          "link": "https://www.v2ex.com/t/1106189",
-          "publishedOn": "2025-01-19T01:57:13.000Z",
-          "wordCount": 481,
-          "title": "wifi 重连时间特别长还经常失败",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106187",
-          "author": "BlackSnow",
-          "description": "BlackSnow: \nV 友们救急\n用的某为换机助手复制旧安卓机数据后，忘记迁移微信聊天记录，就直接登录微信了。\n然后现在用旧手机登陆微信后，发现之前的聊天记录未显示（仅仅同步了新手机登陆后的聊天信息），也无法用微信自带的迁移功能导出记录\n但是本地数据还在 42G ，现在有什么办法导出一下呀。是不是先导出放在 PC 端，但我觉得不同厂家加密不一样吧，估计不能读取",
-          "link": "https://www.v2ex.com/t/1106187",
-          "publishedOn": "2025-01-19T01:48:03.000Z",
-          "wordCount": 417,
-          "title": "换机微信记录迁移",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106186",
-          "author": "ginobefun",
-          "description": "ginobefun: \nBestBlogs.dev 支持灵活的 RSS 订阅，让你随时获取高质量技术文章！\n💡 功能亮点：\n• 按分类、语言、关键词过滤\n• 支持精选文章、高评分内容\n• 自定义时间范围\n🚀 立即试用：\n📥 中文订阅： https://www.bestblogs.dev/zh/feeds/rss\n📥 英文订阅： https://www.bestblogs.dev/en/feeds/rss\n🎯 参数组合样例：\n1️⃣ 高分编程文章：\nhttps://www.bestblogs.dev/zh/feeds/rss?category=programming&minScore=85\n2️⃣ 精选 AI 文章：\nhttps://www.bestblogs.dev/zh/feeds/rss?category=ai&featured=y&timeFilter=1w\n完整指南👉 https://github.com/ginobefun/BestBlogs/blob/main/BestBlogs_RSS_Doc.md\n遇见更好的技术阅读，欢迎订阅 http://BestBlogs.dev ！ 🚀",
-          "link": "https://www.v2ex.com/t/1106186",
-          "publishedOn": "2025-01-19T01:41:21.000Z",
-          "wordCount": 429,
-          "title": "✨ BestBlogs.dev RSS 订阅来了！✨",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106184",
-          "author": "f1197199424",
-          "description": "f1197199424: 谁知道成都昨晚咋回事，一直在打炮，好几发，然后声音特别大，我说的正经打炮哈，有人知道咋回事嘛？我梦里糊涂的，我还想，该不会打仗了吧。",
-          "link": "https://www.v2ex.com/t/1106184",
-          "publishedOn": "2025-01-19T00:58:47.000Z",
-          "wordCount": 494,
-          "title": "谁知道成都昨晚咋回事",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106183",
-          "author": "leon2023",
-          "description": "leon2023: \n中科大的 ipv6 测速网站可能被运营商屏蔽了，家里宽带只能打开中科大的 ipv4 测试网站，ipv6 的一直转圈，打不开。还有没有类似可以测 ipv6 的网站呢",
-          "link": "https://www.v2ex.com/t/1106183",
-          "publishedOn": "2025-01-19T00:50:18.000Z",
-          "wordCount": 467,
-          "title": "除了中科大的 ipv6 测试网站，还有什么网站可以测试 ipv6 的带宽速度",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106182",
-          "author": "BestVPS",
-          "description": "BestVPS: \n我们反馈给搬瓦工官方，他们之前的 DC99 机房开卖只有 best effort ，而且 no guarantees 。官方还是比较重视的，在下次的促销中将会修改这部分字眼。以下是官方的回复：\nNext Promotion we will most likely change the wording to something like this.\nWe are doing upgrades in DC99 today and can do another promotion in this location.\n不仅要改字眼，看起来新的促销马上也开始了，可能是 ultrabox ？",
-          "link": "https://www.v2ex.com/t/1106182",
-          "publishedOn": "2025-01-19T00:48:50.000Z",
-          "wordCount": 466,
-          "title": "速报：搬瓦工 DC99 机房后续线路大概率有保障了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106181",
-          "author": "wildlynx",
-          "description": "wildlynx: \n2025 年了，想在笔记本加装一块 NVME 硬盘，硬件限制只能用单面芯片的固态硬盘。有什么 TLC 芯片的固态硬盘可推荐，容量 1T/2T 都可以。\nBS：奶茶店的筛选功能，详情真废，无法筛选“单面”，详情也看不到“单面”这种类型",
-          "link": "https://www.v2ex.com/t/1106181",
-          "publishedOn": "2025-01-19T00:46:27.000Z",
-          "wordCount": 436,
-          "title": "单面芯片 TLC 的 NVME 固态硬盘求推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106179",
-          "author": "jiandandkl",
-          "description": "jiandandkl: \n小赚了一笔，下一个财富密码应该是马斯克了吧",
-          "link": "https://www.v2ex.com/t/1106179",
-          "publishedOn": "2025-01-19T00:04:41.000Z",
-          "wordCount": 521,
-          "title": "川皇发币",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106178",
-          "author": "WalterHs",
-          "description": "WalterHs: 朋友公司的本身不属于 AI 或云服务商行业，而且没有相关技能的人（正在招聘），但是现在有一些原因导致他们需要建一个 AI 算力中心，类似于阿里云之类的云服务提供商，但是提供的是给训练 AI 用的算力较强的服务器。\n因为我也不是这个行业的人，对此了解很少，想问一下大家如何搭建一个这样的机房？预算不是问题。",
-          "link": "https://www.v2ex.com/t/1106178",
-          "publishedOn": "2025-01-18T23:42:56.000Z",
-          "wordCount": 502,
-          "title": "帮朋友问，公司需要建立一个 AI 算力中心，提供算力给其他公司使用，请问如何搭建？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106176",
-          "author": "craiiz",
-          "description": "craiiz: \n几年前在 steam 购买了《文明 6 》和全 DLC 。在 2k 前阵子移除启动器之前，我是用 steam 账户一键绑定登陆的。\n刚刚想要打一把大图，但发现我的 DLC 全都不能用了。并且，在主页面右下角的 2K 账户图标变成灰色，鼠标显示该绑定账号的年龄不符合要求。\n于是，我前往 2K 官网  www.2k.com  使用 steam 授权登陆后，惊掉下巴：\n在 ACCOUNT OVERVIEW  -->  ACCOUNT DETAILS 里面， DISPLAY NAME  里面显示的居然是我 steam 账户的明文密码。\n\n令人震惊和费解。\n由于启动器也已经移除，无法实验是此现象是否为真或仍然存在。",
-          "link": "https://www.v2ex.com/t/1106176",
-          "publishedOn": "2025-01-18T21:35:28.000Z",
-          "wordCount": 489,
-          "title": "难道 Steam 的账户密码是明文储存的？？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106175",
-          "author": "wait404",
-          "description": "wait404: 看到一报导，感觉不错，分享出来\n1 、紫藤巷杀人案离奇内情：四个专案组与警界“内鬼”\nhttps://mp.weixin.qq.com/s/LvFQzxWU-q2R9aTxqetLNg\n2 、紫藤巷杀人案再调查：为何疑难 21 年\nhttps://mp.weixin.qq.com/s/PvQ3CkwT70QDpScf-b1Stw",
-          "link": "https://www.v2ex.com/t/1106175",
-          "publishedOn": "2025-01-18T20:37:27.000Z",
-          "wordCount": 359,
-          "title": "紫藤巷杀人案离奇内情：四个专案组与警界“内鬼” 紫藤巷杀人案离奇内情：四个专案组与警界“内鬼” 紫藤巷杀人案离奇内情：四个专案组与警界“内鬼”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106174",
-          "author": "fengsi",
-          "description": "fengsi: \n关于 vidhub 、infuse 类似软件，有些不太明白的地方，向大家请教。\n我看 vidhub 和 infuse 的 pro 版本都可以「无限制的观看 1080p 以上的视频」，这是什么意思？意思是如果你不是 pro 会员，即使你提供的视频是 4k ，你也只能看糊糊的版本？如果我视频在本地的话，他也会给我降清晰度到 1080p 以下？除非我买了会员。\nvidhub 和 infuse 的刮削方式不一样吗？我分别给他们提供了同一个动漫，vidhub 很好的显示出来了各种信息，但是 infuse 依旧只是视频的名字。我提供的知识一个动漫的所有剧集，视频文件的命名都是纯英文名字，vidhub 居然都能正确的显示出他的各种中文信息。\n如果仅仅只是「在 mac 上播放本地的视频」这一非常聚焦的功能的话，infuse 、vidhub 和 inna 播放器相比如何？我关注的是视频画面、音频这些，我对这些不是很懂，我肉眼看起来也没啥区别。我了解 inna 就是单纯的播放器，你提供的视频是怎么样他就怎么样，vidhub 和 infuse 呢？\n我有意使用 infuse 或 vidhub 去对本地动漫剧集进行一个管理，动漫只会在我本地 mac 上（或其外接的移动硬盘），vidhub 和 infuse 是不是对我来说都一样？更推荐哪一个？ inna 呢？似乎 inna 相比于他们仅仅只是少了一个刮削能力？\nvidhub 、infuse 这两个支持我在 mac 添加资源，能让我在 iphone 上看吗？当然我指的是我在 iphone 把视频下载到我手机本地再看，不是指的在线看\n我比较在乎的是 视频清晰度与表现，但惭愧的是我对这个其实压根不懂，所有一切只停留在 腾讯视频/爱奇艺的 1080p 、4KHDR 、4K 臻彩视听...。有时候你跟我说这是什么 1080p 、2k 、还是 4k 的其实可能我都分不出来...",
-          "link": "https://www.v2ex.com/t/1106174",
-          "publishedOn": "2025-01-18T19:22:16.000Z",
-          "wordCount": 531,
-          "title": "关于 vidhub、infuse 的一些疑问",
           "imageUrl": null
         }
       ]
