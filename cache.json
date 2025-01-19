@@ -147,6 +147,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/184",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
+          "link": "https://innei.in/notes/184",
+          "publishedOn": "2024-12-22T16:21:21.000Z",
+          "wordCount": 1806,
+          "title": "2024 · 前路未尽，初心犹在",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -276,7 +293,7 @@
           "description": "zhwguest: \n代码密度太低了，经常要这么写：\n1: var val string\n2: if ok {\n3:val = \"okay\"\n4: } else {\n5:val = \"fail\"\n6: }\n\n即使优化一下，还有：\n1: val := okay\n2: if !ok {\n3:val = \"fail\"\n4: }\n\n要是 kotlin,swift, java, c++, c ，来得多快啊，尤其很多个这种条件初始赋值的时候，看版面，就像在搞笑似的。",
           "link": "https://www.v2ex.com/t/1106223",
           "publishedOn": "2025-01-19T06:42:36.000Z",
-          "wordCount": 582,
+          "wordCount": 616,
           "title": "最受不了的就是 golang 中的 if...else 语句了",
           "imageUrl": null
         },
@@ -296,7 +313,7 @@
           "description": "aoguai: \n由于自己会制作微信表情包，微信会每年送点名额给我。\n\n表情年度优秀艺术家今年现在奖励送了 900 个额度，下方二维码扫码，就可以领取啦。\n注意：三个二维码为同一红包封面，每个 300 额度。领一个即可。\n预览：\n\n\n\n\n领取链接 1\n\n领取链接 2\n\n领取链接 3\n没有权限的可以到表情包页领取：\n\n\n根据往年经验，后面微信还会送额度，我会继续发。",
           "link": "https://www.v2ex.com/t/1106219",
           "publishedOn": "2025-01-19T06:03:55.000Z",
-          "wordCount": 368,
+          "wordCount": 392,
           "title": "发些自制的微信红包封面!",
           "imageUrl": null
         },
@@ -326,7 +343,7 @@
           "description": "565656: \n馋 ipadpro 的 oled 屏，上次买了 ipadpro 没啥用就送人了，现在又想买了，明明知道买了也没啥用。",
           "link": "https://www.v2ex.com/t/1106215",
           "publishedOn": "2025-01-19T05:27:00.000Z",
-          "wordCount": 398,
+          "wordCount": 412,
           "title": "苹果是怎么做到：做出一个东西明明没需求但就是有人愿意买单",
           "imageUrl": null
         },
@@ -336,7 +353,7 @@
           "description": "yoruoxx: 先上总结\n1. 面试机会很难，需要有对应的业务经历，起码 match 85%+ \n2. 面试要求比几年前高的多，一部分是要求算法，还要求算法的高效，对候选人的双商要求都很高，还有一部分对工作履历和院校的要求，不能跳槽频繁以及至少统招一本。\n3. 年龄，这个很隐晦吧。一般的回复是 达不到对应工作年限的能力。其实我也想过为什么有这个评价，技术问题可能还行，一些场景上的问题，没做没经历过，面试那一会就想出对应的方案，我是在做不到。还有一些所谓项目管理的经验，人与人沟通的学问吧\n我将继续砥砺前行，希望我的面试总结有一些帮助。\n愿大家都能找到满意的工作，过一个好年。\n\nSHEIN\n1. 自己的项目要说的条理性更强一些，语速放慢，给面试官时间反应你说的东西并解答\n2. Mysql 隐式类型转换带来的查询问题，mysql 调优\n3. 用 redis 实现一个分布式锁\n4. 场景设计题，一个账户每秒 20wqps 的金额加减，如何处理？\n大胆一些，多问一些前提，不要想太多强硬的结题思路。适当直接问面试官，直接写下来进行思考\n5. 一定要表现的稳重一些，有条不紊\n6. 两个大 list 找差集，最快的方式\noffer💥💥💥\n携程\n1. 项目没怎么问，更多的是算法\n2. 一道 hard （滑动窗口），两道 m （最长回文子串，sql 查询）\nPS：不想招人，纯纯来写题的，面试官全程心不在焉。\n黑湖\n一面\n1. 反转链表变种（反转从 start 到 end 的位置）\n2. 项目细节\n二面\n1. 做事情的方式，提前沟通资源，保证自己产出\n2. 跨团队去 coding\n3. 洒脱一些，一个问题没答好，别纠结\n4. 实现一个 Double.parseDouble\n\"12.13\" -> 12.13\n\"12\" -> 12.0\n\"a123.123\" -> exception\nPS：对…",
           "link": "https://www.v2ex.com/t/1106214",
           "publishedOn": "2025-01-19T05:18:26.000Z",
-          "wordCount": 632,
+          "wordCount": 679,
           "title": "31 岁互联网大厂程序员：不续签后的面试之旅",
           "imageUrl": null
         },
@@ -346,7 +363,7 @@
           "description": "DBQ: \n如果是你遇到这种事情该怎么应对？",
           "link": "https://www.v2ex.com/t/1106213",
           "publishedOn": "2025-01-19T05:12:22.000Z",
-          "wordCount": 455,
+          "wordCount": 466,
           "title": "某智驾公司团建，团建中领导威胁半年后开除某员工",
           "imageUrl": null
         },
@@ -356,7 +373,7 @@
           "description": "brucmao: \n安装了 Tik Tok Mod for android (TikTokModCloud) version 38.2.3 \n提示被美国政府 ban 了，但是我用 nrfr 修改 sim 卡到英国，并使用英国的 ip 访问，一样是下面这个提示\nhttps://s3.bmp.ovh/imgs/2025/01/19/b9d212c3e4c59ccc.jpg",
           "link": "https://www.v2ex.com/t/1106212",
           "publishedOn": "2025-01-19T05:10:44.000Z",
-          "wordCount": 423,
+          "wordCount": 425,
           "title": "Tik Tok Mod for android (TikTokModCloud) version 38.2.3 能用吗",
           "imageUrl": null
         },
@@ -366,7 +383,7 @@
           "description": "zero47: PC 能上部分网站比如 B 站优酷，但不能上爱奇艺知乎等，通过 vpn 的外网无任何问题，尝试了多个国内外的公共 DNS ，DoH 都不行，PC 有线或 Wi-Fi 都一个样。\n火绒的断网工具箱和 Windows 上的网络重置已经试过了，还是没有解决。\n但手机在同一网络，同一 dns 配置下，无任何问题。\n请教一下 V 友们有解题思路吗？",
           "link": "https://www.v2ex.com/t/1106210",
           "publishedOn": "2025-01-19T04:59:56.000Z",
-          "wordCount": 491,
+          "wordCount": 493,
           "title": "PC 部分网站无法浏览，同一网络下手机没问题",
           "imageUrl": null
         },
@@ -376,7 +393,7 @@
           "description": "MacsedProtoss: \n如题，大概的情况是现有一台 win pc ，有两块盘，装了两个系统来隔离境内/境外。隔离的方案是开 bitlocker ，这样境内应用的流氓就扫不了另一块盘了。\n但是这样操作之后由于引导分别在两块盘上，目前只能通过 bios 的启动菜单来切换两个系统。\n快过年了要回趟老家，求问人不在的时候如何远程切换启动盘？软/硬件方案均可，内网可以正向代理回去访问。",
           "link": "https://www.v2ex.com/t/1106208",
           "publishedOn": "2025-01-19T04:44:11.000Z",
-          "wordCount": 642,
+          "wordCount": 674,
           "title": "有没有远程切换 pc 启动盘的方案",
           "imageUrl": null
         },
@@ -386,7 +403,7 @@
           "description": "gransh: \n香港和日本可以，是梯子问题还是 v2 问题",
           "link": "https://www.v2ex.com/t/1106207",
           "publishedOn": "2025-01-19T04:42:10.000Z",
-          "wordCount": 449,
+          "wordCount": 451,
           "title": "这两天用新加坡节点一直上不了 V2",
           "imageUrl": null
         },
@@ -406,7 +423,7 @@
           "description": "femsdfq: \n现在登上去显示被 ban 。有意思的是，声明把希望放在了懂王身上。",
           "link": "https://www.v2ex.com/t/1106204",
           "publishedOn": "2025-01-19T04:15:41.000Z",
-          "wordCount": 501,
+          "wordCount": 537,
           "title": "不止 tiktok，字节旗下所有的 app 都关了",
           "imageUrl": null
         },
@@ -416,7 +433,7 @@
           "description": "imTerry: 最近 Apple 地图更进了中国大陆的限速标志功能，以前限速标志仅在限速抓拍处显示显示，太小了，路过了也就不知道限速了，不能像海外一样在左上角持续显示当前路段的限速。\n然而最近国内也支持这个这个功能，大大方便区间测速驾驶。\n感觉现在 Apple 地图再支持个红绿灯就体验就更好了。\nhttps://imgur.com/a/6OgiHG9",
           "link": "https://www.v2ex.com/t/1106202",
           "publishedOn": "2025-01-19T04:09:37.000Z",
-          "wordCount": 620,
+          "wordCount": 650,
           "title": "Apple 地图啊，你就差个红绿灯🚥倒计时了",
           "imageUrl": null
         },
@@ -436,7 +453,7 @@
           "description": "Moosems: \n就这两天的事儿.\n她老是用完东西不归位,用完随手就丢,也不收拾,每次都是我来收拾. 今天我跟她说\n宝宝这个东西还有用吗?她说没用了,我说没用了你用完就收拾一下 别乱放. 她来了一句 你管我啊.\n这个问题提醒她过好几次,还是记不住.\n不单单是这次她这样说,好多次跟她沟通问题 都是 来一句 你管我啊\n老家老妈养了几只羊, 今年的羊的传染性胸膜炎(羊的烂肺病) 很严重,从感染到发病没几天就不行了. 家里的好多只羊都感染了, 感染之后看着不行了就赶紧卖了. 以往都是按斤卖.现在就是论只卖,亏了不少钱.\n那天我跟老妈打电话,老妈哭的不行, 说忙活一年白忙活了. 当时我对象就在我旁边带着耳机打游戏. 挂了电话,我对象问我咋了,我说了一下, 她转头 说了句 ,没事,反正不是我的钱.   这话堵的我啥也说不出口.",
           "link": "https://www.v2ex.com/t/1106199",
           "publishedOn": "2025-01-19T04:01:47.000Z",
-          "wordCount": 984,
+          "wordCount": 1065,
           "title": "吐槽一下这两天被对象中伤的几句话",
           "imageUrl": null
         },
@@ -446,7 +463,7 @@
           "description": "xcjzv: 我先说个公认的，wx 8.0.33",
           "link": "https://www.v2ex.com/t/1106198",
           "publishedOn": "2025-01-19T03:54:15.000Z",
-          "wordCount": 518,
+          "wordCount": 537,
           "title": "iOS 可以随意降级 app 了，求推荐好用、秒杀新版本的 APP 老版本",
           "imageUrl": null
         },
@@ -466,7 +483,7 @@
           "description": "walkbox: \n本来想攒一台性能好点的远程桌面用的机器的，无奈经济有限，目前打起末代 intel 的 imac 主意了，目前就是 wol 的问题好像无解，暂时考虑买个远程机械手按一下开机键...  如果有更优解希望大家点拨一下。 感谢",
           "link": "https://www.v2ex.com/t/1106196",
           "publishedOn": "2025-01-19T03:23:19.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "囊中羞涩，请教 intel 版 iMac 远程开机的方案",
           "imageUrl": null
         },
@@ -476,7 +493,7 @@
           "description": "revival83: 需求\n1.最好能流畅用 4 年\n2.主要玩鸣潮这个游戏希望能全开画质\n3.希望广告可以少一些\n4.拍照尽量好看些，不输 iPhone12 我就能接受\n5.不要曲面屏，微曲面可以接受\n6.续航好一些",
           "link": "https://www.v2ex.com/t/1106195",
           "publishedOn": "2025-01-19T03:20:37.000Z",
-          "wordCount": 603,
+          "wordCount": 676,
           "title": "大佬们苹果老用户想转安卓，求推荐个 5000 内的手机",
           "imageUrl": null
         },
@@ -486,7 +503,7 @@
           "description": "zliang888: 到这里就会直接卡主不动。。。文件好像也没完成下载，类似 99.99%",
           "link": "https://www.v2ex.com/t/1106194",
           "publishedOn": "2025-01-19T03:16:16.000Z",
-          "wordCount": 478,
+          "wordCount": 487,
           "title": "百度网盘直接下载到 SMB 挂载的 Nas 盘会无法完成",
           "imageUrl": null
         },
@@ -506,7 +523,7 @@
           "description": "kobeguang: 入职一个来月了，迟迟不签合同是有什么套路吗？\n每次问人事，都说忙，忙完了再签。也不知道签个合同要很久吗？还是有什么套路呢",
           "link": "https://www.v2ex.com/t/1106192",
           "publishedOn": "2025-01-19T02:35:19.000Z",
-          "wordCount": 546,
+          "wordCount": 566,
           "title": "入职一个来月了，迟迟不签合同是有什么套路吗？",
           "imageUrl": null
         },
@@ -556,7 +573,7 @@
           "description": "f1197199424: 谁知道成都昨晚咋回事，一直在打炮，好几发，然后声音特别大，我说的正经打炮哈，有人知道咋回事嘛？我梦里糊涂的，我还想，该不会打仗了吧。",
           "link": "https://www.v2ex.com/t/1106184",
           "publishedOn": "2025-01-19T00:58:47.000Z",
-          "wordCount": 475,
+          "wordCount": 477,
           "title": "谁知道成都昨晚咋回事",
           "imageUrl": null
         },
@@ -576,7 +593,7 @@
           "description": "BestVPS: \n我们反馈给搬瓦工官方，他们之前的 DC99 机房开卖只有 best effort ，而且 no guarantees 。官方还是比较重视的，在下次的促销中将会修改这部分字眼。以下是官方的回复：\nNext Promotion we will most likely change the wording to something like this.\nWe are doing upgrades in DC99 today and can do another promotion in this location.\n不仅要改字眼，看起来新的促销马上也开始了，可能是 ultrabox ？",
           "link": "https://www.v2ex.com/t/1106182",
           "publishedOn": "2025-01-19T00:48:50.000Z",
-          "wordCount": 444,
+          "wordCount": 462,
           "title": "速报：搬瓦工 DC99 机房后续线路大概率有保障了",
           "imageUrl": null
         },
@@ -596,7 +613,7 @@
           "description": "jiandandkl: \n小赚了一笔，下一个财富密码应该是马斯克了吧",
           "link": "https://www.v2ex.com/t/1106179",
           "publishedOn": "2025-01-19T00:04:41.000Z",
-          "wordCount": 461,
+          "wordCount": 486,
           "title": "川皇发币",
           "imageUrl": null
         },
@@ -606,7 +623,7 @@
           "description": "WalterHs: 朋友公司的本身不属于 AI 或云服务商行业，而且没有相关技能的人（正在招聘），但是现在有一些原因导致他们需要建一个 AI 算力中心，类似于阿里云之类的云服务提供商，但是提供的是给训练 AI 用的算力较强的服务器。\n因为我也不是这个行业的人，对此了解很少，想问一下大家如何搭建一个这样的机房？预算不是问题。",
           "link": "https://www.v2ex.com/t/1106178",
           "publishedOn": "2025-01-18T23:42:56.000Z",
-          "wordCount": 463,
+          "wordCount": 474,
           "title": "帮朋友问，公司需要建立一个 AI 算力中心，提供算力给其他公司使用，请问如何搭建？",
           "imageUrl": null
         },
@@ -616,7 +633,7 @@
           "description": "craiiz: \n几年前在 steam 购买了《文明 6 》和全 DLC 。在 2k 前阵子移除启动器之前，我是用 steam 账户一键绑定登陆的。\n刚刚想要打一把大图，但发现我的 DLC 全都不能用了。并且，在主页面右下角的 2K 账户图标变成灰色，鼠标显示该绑定账号的年龄不符合要求。\n于是，我前往 2K 官网  www.2k.com  使用 steam 授权登陆后，惊掉下巴：\n在 ACCOUNT OVERVIEW  -->  ACCOUNT DETAILS 里面， DISPLAY NAME  里面显示的居然是我 steam 账户的明文密码。\n\n令人震惊和费解。\n由于启动器也已经移除，无法实验是此现象是否为真或仍然存在。",
           "link": "https://www.v2ex.com/t/1106176",
           "publishedOn": "2025-01-18T21:35:28.000Z",
-          "wordCount": 469,
+          "wordCount": 487,
           "title": "难道 Steam 的账户密码是明文储存的？？",
           "imageUrl": null
         },
@@ -636,7 +653,7 @@
           "description": "fengsi: \n关于 vidhub 、infuse 类似软件，有些不太明白的地方，向大家请教。\n我看 vidhub 和 infuse 的 pro 版本都可以「无限制的观看 1080p 以上的视频」，这是什么意思？意思是如果你不是 pro 会员，即使你提供的视频是 4k ，你也只能看糊糊的版本？如果我视频在本地的话，他也会给我降清晰度到 1080p 以下？除非我买了会员。\nvidhub 和 infuse 的刮削方式不一样吗？我分别给他们提供了同一个动漫，vidhub 很好的显示出来了各种信息，但是 infuse 依旧只是视频的名字。我提供的知识一个动漫的所有剧集，视频文件的命名都是纯英文名字，vidhub 居然都能正确的显示出他的各种中文信息。\n如果仅仅只是「在 mac 上播放本地的视频」这一非常聚焦的功能的话，infuse 、vidhub 和 inna 播放器相比如何？我关注的是视频画面、音频这些，我对这些不是很懂，我肉眼看起来也没啥区别。我了解 inna 就是单纯的播放器，你提供的视频是怎么样他就怎么样，vidhub 和 infuse 呢？\n我有意使用 infuse 或 vidhub 去对本地动漫剧集进行一个管理，动漫只会在我本地 mac 上（或其外接的移动硬盘），vidhub 和 infuse 是不是对我来说都一样？更推荐哪一个？ inna 呢？似乎 inna 相比于他们仅仅只是少了一个刮削能力？\nvidhub 、infuse 这两个支持我在 mac 添加资源，能让我在 iphone 上看吗？当然我指的是我在 iphone 把视频下载到我手机本地再看，不是指的在线看\n我比较在乎的是 视频清晰度与表现，但惭愧的是我对这个其实压根不懂，所有一切只停留在 腾讯视频/爱奇艺的 1080p 、4KHDR 、4K 臻彩视听...。有时候你跟我说这是什么 1080p 、2k 、还是 4k 的其实可能我都分不出来...",
           "link": "https://www.v2ex.com/t/1106174",
           "publishedOn": "2025-01-18T19:22:16.000Z",
-          "wordCount": 529,
+          "wordCount": 531,
           "title": "关于 vidhub、infuse 的一些疑问",
           "imageUrl": null
         }
