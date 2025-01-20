@@ -94,6 +94,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -293,6 +299,66 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106644",
+          "author": "calvinclark",
+          "description": "calvinclark: 各位彦祖请回答",
+          "link": "https://www.v2ex.com/t/1106644",
+          "publishedOn": "2025-01-20T19:03:40.000Z",
+          "wordCount": 336,
+          "title": "去香港都开哪些证券，能返多钱？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106643",
+          "author": "PowtainGen1",
+          "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\n右上角选择语言: https://web.powtain.com/pow/F8nrGX",
+          "link": "https://www.v2ex.com/t/1106643",
+          "publishedOn": "2025-01-20T18:47:53.000Z",
+          "wordCount": 356,
+          "title": "美国总统就职典礼 I 2025 年 1 月 20 日直播回放 + 中文版核心观点总结 (Powtain)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106642",
+          "author": "VisualStudioCode",
+          "description": "VisualStudioCode:",
+          "link": "https://www.v2ex.com/t/1106642",
+          "publishedOn": "2025-01-20T17:44:09.000Z",
+          "wordCount": 386,
+          "title": "智障 Siri 之「城乡二元结构」->「城乡￥ 2 结构」",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106641",
+          "author": "myjun",
+          "description": "myjun: \n最近有没有朋友去香港，开个 Fusion Bank （富融银行),可获得 16.8%的加息券，最低存 1 万港币，最高 10 万港币，活动截止时间 2025.3.31\n走我邀请码注册，定存一个星期后再返 50HKD 给你\n邀请码：CASH26CD\n联系 TG： https://t.me/MrWkjs\n富融銀行简介：\n富融銀行是香港金融管理局發牌的虛擬銀行，並由騰訊控股、中國工商銀行 (亞洲)、香港交易及結算所有限公司、高瓴資本集團以及 Perfect Ridge Limited 組成的合資公司。",
+          "link": "https://www.v2ex.com/t/1106641",
+          "publishedOn": "2025-01-20T16:59:00.000Z",
+          "wordCount": 375,
+          "title": "富融银行，定存港币一个星期加息 16.8%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106640",
+          "author": "xuanwu",
+          "description": "xuanwu: \npart1: https://zhuanlan.zhihu.com/p/18525504572\npart2: https://zhuanlan.zhihu.com/p/19367156007",
+          "link": "https://www.v2ex.com/t/1106640",
+          "publishedOn": "2025-01-20T16:49:14.000Z",
+          "wordCount": 338,
+          "title": "《科学？——东野圭吾》摘录",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106639",
+          "author": "hhacker",
+          "description": "hhacker: \n今天花了 1 天的时间研究微信的服务商方案, 想看一看能不能实现社区小卖部的自助小程序注册服务.\n然后就画了这张自助进件流程图.\n\n原本以为能理论上能跑通的, 结果发现在交易结算管理授权这个环节(也许还有更多环节)根本走不通.\n原因如下:\n原本特约商户自助进件是会自动授权绑定你申请时的填写的小程序 appId, 但是去年微信改规则了, 需要手动到网页后台添加绑定, 且没有相关的 API 提交绑定\n就算手动绑定了微信小程序的 appId, 因为涉及到在线购物和配送, 微信强制你纳入小程序发货信息管理服务体系, 而特约商户是无法开启这个服务的, 唯一的办法是注册普通商户\n结论:\n微信在劝退服务商, 在微信支付这一块, 服务商的协助作用约等于 0, 想要实现小程序打通微信支付, 就必须走普通商户的路子\n微信 api 的朝令夕改可以适应, 微信认证和小程序备案的成本可以克服, 但是你无法保证你按照微信的服务商解决方案的思路去实现的商业模式下一秒还能不能用, 积累再多客户都没用\n在商业上避开微信的生态, 能不碰就不要碰\n我是 S....13",
+          "link": "https://www.v2ex.com/t/1106639",
+          "publishedOn": "2025-01-20T16:39:18.000Z",
+          "wordCount": 458,
+          "title": "花了 1 天时间研究微信的服务商方案, 最后高呼我是 XX",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106638",
           "author": "roxanne299",
           "description": "roxanne299: \n问题如下：\n按照很多教程配置好了 docker ，但是端口看着是启起来了，但是端口扫描 21115-21119 全是关闭状态，只有 api 的 21114 是开启状态，不清楚是什么问题。\n废话不多说，直接上配置：\ndocker-compose.yml 内容\nversion: '3'\n\nnetworks:\n  rustdesk-net:\n    external: false\n\nservices:\n  hbbs:\n    container_name: hbbs\n    ports:\n      - 21115:21115\n      - 21116:21116\n      - 21116:21116/udp\n      - 21118:21118\n    image: rustdesk/rustdesk-server:latest\n    command: hbbs -r  [ myip ] :21117  -k _\n    volumes:\n      - ./data:/root\n    networks:\n      - rustdesk-net\n    depends_on:\n      - hbbr\n    restart: unless-stopped\n\n  hbbr:\n    container_name: hbbr\n    ports:\n      - 21117:21117\n      - 21119:21119\n    image: rustdesk/rustdesk-server:latest\n    command: hbbr  -k _\n    volumes:\n      - ./data:/root\n    networks:\n      - rustdesk-net\n    restart: unless-stopped\n\n  rustdesk-api-server:\n    container_name: rustdesk-api-server\n    image: kingmo888/rustdesk-api-server:latest\n    environment:\n      - CSRF_TRUSTED_ORIGINS=http:// [ myip ] :21114 #防跨域信任来源，可选\n      - ID_SERVER= [ myip ] :21114 #Web 控制端使用的 ID 服务器\n    volumes:\n      - /opt/rustdesk/db:/rustdesk-api-server/db #修改为你宿主机数据库挂载目录\n      - /etc/timezone:/etc/timezone:ro\n      - /etc/localtime:/etc/localtime:ro\n        # network_mode: bridge\n    networks:\n      - rustdesk-net\n    ports:\n      - \"21114:21114\"\n    restart: unless-stopped\n\n防火墙是关闭状态，阿里云安全组：\n\n下面是 docker 启动状态\n\n查看端口状态：\n\n下面是 docker-compose 的相关日志：",
@@ -318,7 +384,7 @@
           "description": "jinhanzhang2005: \n背景\n我现在是国内某弱 211 软件工程系的一名大三本科生，预计可以拿到保研资格，大概率可以保到某 985 中下学校。大学期间有一些还不错的奖项，也做过一些 AI 方向的科研项目。\n目前比较喜欢和熟练使用的技术栈主要是 Node.js ，对折腾各种新技术比较感兴趣。\n疑惑\n前面三年其实花了很多时间去提升自己的技术和代码能力，但是这三年正好是 GPT 等大模型迅猛发展的时期，亲身经历了从 GPT3 爆火到各种大模型遍地开花这段时期。\n之前其实还没有太大的危机感，最近用 Cursor 完成了一些课堂作业之后感觉 AI 比我想象的强大太多。。好多前后端的小项目完完全全用 AI 来实现了（ Express+Vue ），几乎一行代码没有写。\n咨询\n请问在现在这种背景下，下面的几年（包括研究生）应该往什么方向继续发展？如果还只是提升自己的代码能力\n很担心吃不上饭。。\n谢谢各位大佬！！",
           "link": "https://www.v2ex.com/t/1106636",
           "publishedOn": "2025-01-20T16:12:26.000Z",
-          "wordCount": 413,
+          "wordCount": 394,
           "title": "AI 发展如此迅猛的情况下软件工程/计算机专业本科生关于未来职业选择的一些咨询",
           "imageUrl": null
         },
@@ -528,7 +594,7 @@
           "description": "fu82581983: \n\n⚡  性能媲美 OpenAI-o1\n📖 完全开源的模型和技术报告\n🏆 MIT 许可：可自由蒸馏、商业化！\nX: https://x.com/deepseek_ai/status/1881318130334814301\nGithub: https://github.com/deepseek-ai/DeepSeek-R1\nDeepSeek 太强了，再这样发展下去，感觉要成为开源大模型的扛把子了",
           "link": "https://www.v2ex.com/t/1106607",
           "publishedOn": "2025-01-20T13:14:08.000Z",
-          "wordCount": 526,
+          "wordCount": 528,
           "title": "DeepSeek-R1 对标 OpenAI-o1 模型开源了",
           "imageUrl": null
         },
@@ -620,66 +686,6 @@
           "publishedOn": "2025-01-20T12:21:57.000Z",
           "wordCount": 430,
           "title": "[上海] [大厂] 后端工程师招聘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106594",
-          "author": "jqknono",
-          "description": "jqknono: \nAdGuard Private: 专注隐私保护的 DNS 服务\n访问官网了解更多: AdGuard Private\n本项目基于AdGuard Home进行二次开发，遵循 GPL 3.0 开源协议。\n源代码开放在：GitHub - jqknono/AdGuardHome\n功能增强\n相比原版 AdGuard Home ，我们增加了以下特性：\n自动申请与更新证书\n支持泛域名证书配置\n智能限流保护\n优化的大陆地区访问体验\n禁用 DHCP 服务，专注 DNS 功能\n固定缓存大小为 4MB ，确保稳定性\n托管服务优势\n我们提供专业的 DNS 托管服务，具有以下特点：\n🏢 阿里云杭州节点部署\nIPv6 支持，直连主流 IPv6 上游\nDoT (DNS over TLS)\nDoH (DNS over HTTPS)\nHTTP/3 支持，显著降低延迟\n支持第三方黑白名单导入\n100 万条规则容量\n72 小时查询记录保留\n24 小时详细统计分析\n多服务器分布式部署\n智能负载分配\n💰 具有竞争力的价格\n性能与效果评估\nDNS 层面的广告拦截具有其独特优势：\n💪 优势\n零额外功耗\n全设备覆盖\n降低设备网络唤醒频率\n减少无效数据加载\n⚠️ 局限性\n拦截精度低于浏览器插件\n无法达到 MITM 方案的过滤效果\n适合移动设备使用场景，在保护隐私的同时兼顾设备续航。",
-          "link": "https://www.v2ex.com/t/1106594",
-          "publishedOn": "2025-01-20T12:21:00.000Z",
-          "wordCount": 473,
-          "title": "专注隐私保护的 DNS 服务--AdGuardPrivate",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106593",
-          "author": "thedog",
-          "description": "thedog: \n尤其是写动画相关的 css ，本来用原生 css 几句话就能写完的，用 tailwind 得重新定义一波，可复用性也并不高",
-          "link": "https://www.v2ex.com/t/1106593",
-          "publishedOn": "2025-01-20T12:12:11.000Z",
-          "wordCount": 390,
-          "title": "你们会觉得 tailwind 啰嗦吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106592",
-          "author": "MissAW",
-          "description": "MissAW: \n最近搬家被移动工程师忽悠升了千兆宽带，这几天用 speedtest 测了下，网络稳定在下行在 800-900MB 、上行 40-50MB ，家里就一个安卓机顶盒看点爱优腾和喵影视，两台手机刷点短视频，一台电脑看看网页，感觉这带宽有点浪费，特别是下行，想问下各位大神建议有什么可以充分利用下这个带宽？\n自己看站上贴子后的初步想法 ：\n1 ） Emby 或者 ALIST 挂网盘(比如 115)弄个家庭媒体中心看高清视频（没有共享照片和文件的需求），但是不太了解用什么设备和软件来组网比较合适？看大家好像都是 NAS 和主机在玩，希望大家推荐点性价比高/易上手/长期稳定的组网方案，本人不是程序员，docker 配置这些只能按教程复制粘贴。\n2 ）有点想玩玩 PT 下载重拾大学记忆，但移动没有公网 IP ，看站上说貌似保种上传不好解决，是不是只能搞个 seedbox ？多年没玩过 PT ，有点搞不懂了。。\n第一次发帖，希望大神帮助，不过文明用网别说 PCDN 和挖矿哈哈。",
-          "link": "https://www.v2ex.com/t/1106592",
-          "publishedOn": "2025-01-20T11:51:58.000Z",
-          "wordCount": 648,
-          "title": "移动千兆宽带，苦恼可以用来做什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106591",
-          "author": "510908220",
-          "description": "510908220: 想买个币，国内怎么办理 visa 卡啊。或者办卡有其他方式吗，哪位大神给个指导呢",
-          "link": "https://www.v2ex.com/t/1106591",
-          "publishedOn": "2025-01-20T11:49:15.000Z",
-          "wordCount": 397,
-          "title": "visa 怎么开卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106590",
-          "author": "kaixinwan",
-          "description": "kaixinwan: \n撸了一个古诗词网站\n风格相对比较清爽\n现在很多的诗词网站总是让登陆才能看到内容，比较烦，所以自己做了一个\n后续还会增加更多的图片，音频内容\n现在网站还比较简单，之后还会逐步完善，欢迎大家来喷和提供建议和反馈，这里先谢过大家\nhttps://www.chinesepoems.org/",
-          "link": "https://www.v2ex.com/t/1106590",
-          "publishedOn": "2025-01-20T11:43:27.000Z",
-          "wordCount": 406,
-          "title": "撸了一个古诗词网站，欢迎反馈",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106589",
-          "author": "szdosar",
-          "description": "szdosar: \n求助。",
-          "link": "https://www.v2ex.com/t/1106589",
-          "publishedOn": "2025-01-20T11:40:51.000Z",
-          "wordCount": 401,
-          "title": "远程 win11 只要打开 warp 官方客户端，远程桌面就断联，这事有啥技巧吗？看了远程电脑上的官方 warp 客户端，没看出什么端倪",
           "imageUrl": null
         }
       ]
