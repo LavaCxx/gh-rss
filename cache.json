@@ -198,143 +198,10 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/689",
-          "author": null,
-          "description": "阿里云提供200Mbps带宽轻量云服务器\n阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制。新规格在内地、香港和境外所有区域均有提供，并在阿里云国际站同步上线。\n根据网友提供的信息，阿里云客服表示新规格不限制流量，但不保证资源抢占情况。有网友还发现，新款上线后旧款24元、34元香港轻量已不再提示“当日售出量已达上限”。\n注意：尽量不要使用阿里云进行跨境代理，会有后台检测。如果你决心这样做，至少要D一下系统。\n[消息等级 Level B · #重要 ]",
-          "link": "https://t.me/vps_xhq/689",
-          "publishedOn": "2024-12-26T06:42:18.000Z",
-          "wordCount": null,
-          "title": "阿里云提供200Mbps带宽轻量云服务器 阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/687",
-          "author": null,
-          "description": "IBM 云计算平台为开源项目提供永久免费服务器\nIBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服务器。配置为 2vCPU 8GB内存 100GB磁盘。\n不过，和甲骨文不同，申请 IBM 免费主机有一定的门槛，理论上只有开源项目的开发者可以申请。申请时需要提供开源项目的名称以及开源项目的公开地址，并说明将如何使用该资源。填写表单阶段没有验证步骤，提交后会显示“我们会尽快与您联系”，并收到一封同样内容的邮件。显然申请需要通过人工审核，后续还可能要求进一步补充材料。预测通过的概率较低，因为活动并没有在各个主要的VPS论坛中引起太大的反响。\nIBM LinuxONE 是专为托管企业 Linux 应用程序而构建的服务器系列。其架构称为 s390x，旨在将更多的计算能力整合到每个 CPU 核心中。这能够以更少的核心驱动更多的处理，并且在软件许可证成本由核心决定的情况下可以节省大量成本。通过减少数据中心的供电、冷却和维护数量，还可以节省更多成本。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/687",
-          "publishedOn": "2024-12-23T08:50:42.000Z",
-          "wordCount": null,
-          "title": "IBM 云计算平台为开源项目提供永久免费服务器 IBM 云计算平台近期开放了 LinuxONE 开源云虚拟机申请，用户可以通过该申请获得一个永久免费的 IBM LinuxONE 云服...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
-        {
-          "id": "https://www.v2ex.com/t/1106644",
-          "author": "calvinclark",
-          "description": "calvinclark: 各位彦祖请回答",
-          "link": "https://www.v2ex.com/t/1106644",
-          "publishedOn": "2025-01-20T19:03:40.000Z",
-          "wordCount": 371,
-          "title": "去香港都开哪些证券，能返多钱？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106643",
-          "author": "PowtainGen1",
-          "description": "PowtainGen1: \n直播回放+中文版核心观点总结：\n右上角选择语言: https://web.powtain.com/pow/F8nrGX",
-          "link": "https://www.v2ex.com/t/1106643",
-          "publishedOn": "2025-01-20T18:47:53.000Z",
-          "wordCount": 356,
-          "title": "美国总统就职典礼 I 2025 年 1 月 20 日直播回放 + 中文版核心观点总结 (Powtain)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106642",
-          "author": "VisualStudioCode",
-          "description": "VisualStudioCode:",
-          "link": "https://www.v2ex.com/t/1106642",
-          "publishedOn": "2025-01-20T17:44:09.000Z",
-          "wordCount": 386,
-          "title": "智障 Siri 之「城乡二元结构」->「城乡￥ 2 结构」",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106641",
-          "author": "myjun",
-          "description": "myjun: \n最近有没有朋友去香港，开个 Fusion Bank （富融银行),可获得 16.8%的加息券，最低存 1 万港币，最高 10 万港币，活动截止时间 2025.3.31\n走我邀请码注册，定存一个星期后再返 50HKD 给你\n邀请码：CASH26CD\n联系 TG： https://t.me/MrWkjs\n富融銀行简介：\n富融銀行是香港金融管理局發牌的虛擬銀行，並由騰訊控股、中國工商銀行 (亞洲)、香港交易及結算所有限公司、高瓴資本集團以及 Perfect Ridge Limited 組成的合資公司。",
-          "link": "https://www.v2ex.com/t/1106641",
-          "publishedOn": "2025-01-20T16:59:00.000Z",
-          "wordCount": 359,
-          "title": "富融银行，定存港币一个星期加息 16.8%",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106640",
-          "author": "xuanwu",
-          "description": "xuanwu: \npart1: https://zhuanlan.zhihu.com/p/18525504572\npart2: https://zhuanlan.zhihu.com/p/19367156007",
-          "link": "https://www.v2ex.com/t/1106640",
-          "publishedOn": "2025-01-20T16:49:14.000Z",
-          "wordCount": 338,
-          "title": "《科学？——东野圭吾》摘录",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106639",
-          "author": "hhacker",
-          "description": "hhacker: \n今天花了 1 天的时间研究微信的服务商方案, 想看一看能不能实现社区小卖部的自助小程序注册服务.\n然后就画了这张自助进件流程图.\n\n原本以为能理论上能跑通的, 结果发现在交易结算管理授权这个环节(也许还有更多环节)根本走不通.\n原因如下:\n原本特约商户自助进件是会自动授权绑定你申请时的填写的小程序 appId, 但是去年微信改规则了, 需要手动到网页后台添加绑定, 且没有相关的 API 提交绑定\n就算手动绑定了微信小程序的 appId, 因为涉及到在线购物和配送, 微信强制你纳入小程序发货信息管理服务体系, 而特约商户是无法开启这个服务的, 唯一的办法是注册普通商户\n结论:\n微信在劝退服务商, 在微信支付这一块, 服务商的协助作用约等于 0, 想要实现小程序打通微信支付, 就必须走普通商户的路子\n微信 api 的朝令夕改可以适应, 微信认证和小程序备案的成本可以克服, 但是你无法保证你按照微信的服务商解决方案的思路去实现的商业模式下一秒还能不能用, 积累再多客户都没用\n在商业上避开微信的生态, 能不碰就不要碰\n我是 S....13",
-          "link": "https://www.v2ex.com/t/1106639",
-          "publishedOn": "2025-01-20T16:39:18.000Z",
-          "wordCount": 458,
-          "title": "花了 1 天时间研究微信的服务商方案, 最后高呼我是 XX",
-          "imageUrl": null
-        },
         {
           "id": "https://www.v2ex.com/t/1106638",
           "author": "roxanne299",
@@ -371,7 +238,7 @@
           "description": "weiyujia: \n预算 3000 全新和二手都可\n唯一需求是看 pdf 和记笔记，影音和游戏都是别的设备\n之前的 ipad air 3 用了四年多实在坚持不住了（各种断触之类问题），本来想买 ipad pro 2024 11 寸，但是感觉需求面太窄了，买了性价比太低。",
           "link": "https://www.v2ex.com/t/1106635",
           "publishedOn": "2025-01-20T15:57:27.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "求推荐记笔记的平板",
           "imageUrl": null
         },
@@ -661,8 +528,68 @@
           "description": "wyj0320: 公司情况\n1. 上海大厂\n2. 工作时长：10-8-5\n要求\n1. 3 年或以上程序开发经验，有 1 年以上完整的 Java 开发经验。\n2. 211/985 ，或等同水平海外学校。\n3. 能够独立沟通需求，理解产品价值。积极主动，有较强的学习能力，独立解决问题。\n4. 有出海产品，或者海外经历加分。\n请查看上述要求，其中(1)(2)是硬性要求。\n面试流程较短，核心考察基础编程能力，计算机知识，以及沟通能力。\n有兴趣的请私信我，或把简历发送到： ignited.referral@gmail.com",
           "link": "https://www.v2ex.com/t/1106595",
           "publishedOn": "2025-01-20T12:21:57.000Z",
-          "wordCount": 430,
+          "wordCount": 428,
           "title": "[上海] [大厂] 后端工程师招聘",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106594",
+          "author": "jqknono",
+          "description": "jqknono: \nAdGuard Private: 专注隐私保护的 DNS 服务\n访问官网了解更多: AdGuard Private\n本项目基于AdGuard Home进行二次开发，遵循 GPL 3.0 开源协议。\n源代码开放在：GitHub - jqknono/AdGuardHome\n功能增强\n相比原版 AdGuard Home ，我们增加了以下特性：\n自动申请与更新证书\n支持泛域名证书配置\n智能限流保护\n优化的大陆地区访问体验\n禁用 DHCP 服务，专注 DNS 功能\n固定缓存大小为 4MB ，确保稳定性\n托管服务优势\n我们提供专业的 DNS 托管服务，具有以下特点：\n🏢 阿里云杭州节点部署\nIPv6 支持，直连主流 IPv6 上游\nDoT (DNS over TLS)\nDoH (DNS over HTTPS)\nHTTP/3 支持，显著降低延迟\n支持第三方黑白名单导入\n100 万条规则容量\n72 小时查询记录保留\n24 小时详细统计分析\n多服务器分布式部署\n智能负载分配\n💰 具有竞争力的价格\n性能与效果评估\nDNS 层面的广告拦截具有其独特优势：\n💪 优势\n零额外功耗\n全设备覆盖\n降低设备网络唤醒频率\n减少无效数据加载\n⚠️ 局限性\n拦截精度低于浏览器插件\n无法达到 MITM 方案的过滤效果\n适合移动设备使用场景，在保护隐私的同时兼顾设备续航。",
+          "link": "https://www.v2ex.com/t/1106594",
+          "publishedOn": "2025-01-20T12:21:00.000Z",
+          "wordCount": 473,
+          "title": "专注隐私保护的 DNS 服务--AdGuardPrivate",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106593",
+          "author": "thedog",
+          "description": "thedog: \n尤其是写动画相关的 css ，本来用原生 css 几句话就能写完的，用 tailwind 得重新定义一波，可复用性也并不高",
+          "link": "https://www.v2ex.com/t/1106593",
+          "publishedOn": "2025-01-20T12:12:11.000Z",
+          "wordCount": 390,
+          "title": "你们会觉得 tailwind 啰嗦吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106592",
+          "author": "MissAW",
+          "description": "MissAW: \n最近搬家被移动工程师忽悠升了千兆宽带，这几天用 speedtest 测了下，网络稳定在下行在 800-900MB 、上行 40-50MB ，家里就一个安卓机顶盒看点爱优腾和喵影视，两台手机刷点短视频，一台电脑看看网页，感觉这带宽有点浪费，特别是下行，想问下各位大神建议有什么可以充分利用下这个带宽？\n自己看站上贴子后的初步想法 ：\n1 ） Emby 或者 ALIST 挂网盘(比如 115)弄个家庭媒体中心看高清视频（没有共享照片和文件的需求），但是不太了解用什么设备和软件来组网比较合适？看大家好像都是 NAS 和主机在玩，希望大家推荐点性价比高/易上手/长期稳定的组网方案，本人不是程序员，docker 配置这些只能按教程复制粘贴。\n2 ）有点想玩玩 PT 下载重拾大学记忆，但移动没有公网 IP ，看站上说貌似保种上传不好解决，是不是只能搞个 seedbox ？多年没玩过 PT ，有点搞不懂了。。\n第一次发帖，希望大神帮助，不过文明用网别说 PCDN 和挖矿哈哈。",
+          "link": "https://www.v2ex.com/t/1106592",
+          "publishedOn": "2025-01-20T11:51:58.000Z",
+          "wordCount": 648,
+          "title": "移动千兆宽带，苦恼可以用来做什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106591",
+          "author": "510908220",
+          "description": "510908220: 想买个币，国内怎么办理 visa 卡啊。或者办卡有其他方式吗，哪位大神给个指导呢",
+          "link": "https://www.v2ex.com/t/1106591",
+          "publishedOn": "2025-01-20T11:49:15.000Z",
+          "wordCount": 397,
+          "title": "visa 怎么开卡",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106590",
+          "author": "kaixinwan",
+          "description": "kaixinwan: \n撸了一个古诗词网站\n风格相对比较清爽\n现在很多的诗词网站总是让登陆才能看到内容，比较烦，所以自己做了一个\n后续还会增加更多的图片，音频内容\n现在网站还比较简单，之后还会逐步完善，欢迎大家来喷和提供建议和反馈，这里先谢过大家\nhttps://www.chinesepoems.org/",
+          "link": "https://www.v2ex.com/t/1106590",
+          "publishedOn": "2025-01-20T11:43:27.000Z",
+          "wordCount": 406,
+          "title": "撸了一个古诗词网站，欢迎反馈",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106589",
+          "author": "szdosar",
+          "description": "szdosar: \n求助。",
+          "link": "https://www.v2ex.com/t/1106589",
+          "publishedOn": "2025-01-20T11:40:51.000Z",
+          "wordCount": 401,
+          "title": "远程 win11 只要打开 warp 官方客户端，远程桌面就断联，这事有啥技巧吗？看了远程电脑上的官方 warp 客户端，没看出什么端倪",
           "imageUrl": null
         }
       ]
