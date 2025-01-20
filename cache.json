@@ -299,6 +299,176 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106638",
+          "author": "roxanne299",
+          "description": "roxanne299: \n问题如下：\n按照很多教程配置好了 docker ，但是端口看着是启起来了，但是端口扫描 21115-21119 全是关闭状态，只有 api 的 21114 是开启状态，不清楚是什么问题。\n废话不多说，直接上配置：\ndocker-compose.yml 内容\nversion: '3'\n\nnetworks:\n  rustdesk-net:\n    external: false\n\nservices:\n  hbbs:\n    container_name: hbbs\n    ports:\n      - 21115:21115\n      - 21116:21116\n      - 21116:21116/udp\n      - 21118:21118\n    image: rustdesk/rustdesk-server:latest\n    command: hbbs -r  [ myip ] :21117  -k _\n    volumes:\n      - ./data:/root\n    networks:\n      - rustdesk-net\n    depends_on:\n      - hbbr\n    restart: unless-stopped\n\n  hbbr:\n    container_name: hbbr\n    ports:\n      - 21117:21117\n      - 21119:21119\n    image: rustdesk/rustdesk-server:latest\n    command: hbbr  -k _\n    volumes:\n      - ./data:/root\n    networks:\n      - rustdesk-net\n    restart: unless-stopped\n\n  rustdesk-api-server:\n    container_name: rustdesk-api-server\n    image: kingmo888/rustdesk-api-server:latest\n    environment:\n      - CSRF_TRUSTED_ORIGINS=http:// [ myip ] :21114 #防跨域信任来源，可选\n      - ID_SERVER= [ myip ] :21114 #Web 控制端使用的 ID 服务器\n    volumes:\n      - /opt/rustdesk/db:/rustdesk-api-server/db #修改为你宿主机数据库挂载目录\n      - /etc/timezone:/etc/timezone:ro\n      - /etc/localtime:/etc/localtime:ro\n        # network_mode: bridge\n    networks:\n      - rustdesk-net\n    ports:\n      - \"21114:21114\"\n    restart: unless-stopped\n\n防火墙是关闭状态，阿里云安全组：\n\n下面是 docker 启动状态\n\n查看端口状态：\n\n下面是 docker-compose 的相关日志：",
+          "link": "https://www.v2ex.com/t/1106638",
+          "publishedOn": "2025-01-20T16:36:48.000Z",
+          "wordCount": 513,
+          "title": "Rustdesk docker 端口问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106637",
+          "author": "datou",
+          "description": "datou: \n阿川流量这么大的吗？",
+          "link": "https://www.v2ex.com/t/1106637",
+          "publishedOn": "2025-01-20T16:18:10.000Z",
+          "wordCount": 358,
+          "title": "X（twitter）是不是挂了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106636",
+          "author": "jinhanzhang2005",
+          "description": "jinhanzhang2005: \n背景\n我现在是国内某弱 211 软件工程系的一名大三本科生，预计可以拿到保研资格，大概率可以保到某 985 中下学校。大学期间有一些还不错的奖项，也做过一些 AI 方向的科研项目。\n目前比较喜欢和熟练使用的技术栈主要是 Node.js ，对折腾各种新技术比较感兴趣。\n疑惑\n前面三年其实花了很多时间去提升自己的技术和代码能力，但是这三年正好是 GPT 等大模型迅猛发展的时期，亲身经历了从 GPT3 爆火到各种大模型遍地开花这段时期。\n之前其实还没有太大的危机感，最近用 Cursor 完成了一些课堂作业之后感觉 AI 比我想象的强大太多。。好多前后端的小项目完完全全用 AI 来实现了（ Express+Vue ），几乎一行代码没有写。\n咨询\n请问在现在这种背景下，下面的几年（包括研究生）应该往什么方向继续发展？如果还只是提升自己的代码能力\n很担心吃不上饭。。\n谢谢各位大佬！！",
+          "link": "https://www.v2ex.com/t/1106636",
+          "publishedOn": "2025-01-20T16:12:26.000Z",
+          "wordCount": 413,
+          "title": "AI 发展如此迅猛的情况下软件工程/计算机专业本科生关于未来职业选择的一些咨询",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106635",
+          "author": "weiyujia",
+          "description": "weiyujia: \n预算 3000 全新和二手都可\n唯一需求是看 pdf 和记笔记，影音和游戏都是别的设备\n之前的 ipad air 3 用了四年多实在坚持不住了（各种断触之类问题），本来想买 ipad pro 2024 11 寸，但是感觉需求面太窄了，买了性价比太低。",
+          "link": "https://www.v2ex.com/t/1106635",
+          "publishedOn": "2025-01-20T15:57:27.000Z",
+          "wordCount": 398,
+          "title": "求推荐记笔记的平板",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106633",
+          "author": "BeEureka",
+          "description": "BeEureka: \n最近 AI 工具满天飞，很多产品都在追流量热点，看起来很火，但其实没什么真正的价值。和朋友聊到这件事时，我常听到有人说：\"做个练手项目吧，蹭点热度试试水。\" 但我觉得，如果要做产品，还是要认真做点让自己喜欢、也能帮到别人的东西。\n上个月上线了一个让我个人想做的产品——Logomate 。\nhttps://www.ailogogenerator.sh/\nLogomate 是一款用 AI 生成 LOGO 的工具，简单来说，就是用户输入描述，比如“科技风，蓝色调，简约设计”，它就能自动生成几个高质量的 LOGO 设计供你选择。\n为什么推荐 Logomate ？\n帮你解决实际问题\n创业初期设计 LOGO 有多麻烦，大家都懂。找设计师成本高、沟通耗时，而且有时候效果还不一定满意。而 Logomate 可以快速生成多个符合你要求的设计，让你更省心。\n不是随便做的练手项目\nLogomate 是经过精心打磨的产品，生成的 LOGO 不只是好看，还兼顾了实用性和专业性。从用户体验到功能细节，都能看出来团队是真的用心在做。\n灵活可定制\n颜色、字体、风格、图标，Logomate 都支持调整。这种高度的自由度让每个 LOGO 都可以完全贴合你的品牌需求。\n简单高效\n就算你是设计小白，也完全不用担心操作问题。输入几句话，几秒钟后就能看到成品。而且它生成的选项都很有参考价值。\nLogomate 适合谁？\n初创团队：帮你快速打造品牌形象，省钱又省事。\n自由职业者：提高工作效率，给客户多点选择。\n设计师：当作灵感来源，节省创作时间。\n如果你正在找一个轻松生成高质量 LOGO 的方式，Logomate 一定不会让你失望。",
+          "link": "https://www.v2ex.com/t/1106633",
+          "publishedOn": "2025-01-20T15:36:21.000Z",
+          "wordCount": 414,
+          "title": "想正儿八经做一款喜欢的产品，不喜欢做蹭流量的练手产品",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106631",
+          "author": "googooog",
+          "description": "googooog: \nopenwrt 意外重启后 HA 的容器突然消失了\n现在状态是能看到 4 个容器 4 个镜像，之前是 5 个容器 5 个镜像。\n我重新安装 HA 的镜像提示已存在\n重新 run HA 容器提示 docker: Error response from daemon: layer does not exist.\n大佬们如何修复这个问题？可以接受重新安装 HA 的容器。",
+          "link": "https://www.v2ex.com/t/1106631",
+          "publishedOn": "2025-01-20T15:25:09.000Z",
+          "wordCount": 401,
+          "title": "openwrt 意外重启后， home assistant 容器丢失且无法重新安装。帮忙解决可以付费",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106630",
+          "author": "snsn",
+          "description": "snsn: \n如题 上上周末 11 号直营店线下买的 iPadair6 。刚好赶上国补和退货周期。现在只希望 jd 的苹果官方店不要出幺蛾子了。\n直接省了一根 pencil pro 出来",
+          "link": "https://www.v2ex.com/t/1106630",
+          "publishedOn": "2025-01-20T15:23:20.000Z",
+          "wordCount": 368,
+          "title": "魔都国补用掉了，加上 jd 优惠比直营店省了 1232。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106629",
+          "author": "wty95",
+          "description": "wty95:",
+          "link": "https://www.v2ex.com/t/1106629",
+          "publishedOn": "2025-01-20T15:20:15.000Z",
+          "wordCount": 354,
+          "title": "小米 13 已经 root,最好的备份微信聊天记录的方案是啥？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106628",
+          "author": "jacketma",
+          "description": "jacketma: \n一个训练完成的大模型离线使用，且没有加入任何反馈或自修正功能，同一个问题，无论问多少次，LLM 都应该给出一模一样的答案吗？\n我找了几个在线模型测试，同一个问题，一分钟内全部问 10 次，前面三五次大同小异，五次之后，很多几千字的答案几乎都是一样的。有没有大佬了解输出答案背后的“微扰”因素是什么?",
+          "link": "https://www.v2ex.com/t/1106628",
+          "publishedOn": "2025-01-20T15:09:29.000Z",
+          "wordCount": 403,
+          "title": "反复问 AI 同一个问题， LLM 大模型会给出一样的答案吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106627",
+          "author": "zxkmm",
+          "description": "zxkmm: \n功能\n该它可以载入或者手动填入 0 至 24 个频率，然后在这些频率之间 hopping 地发送随机 FSK/随机 FM/随机 CW/CW sweep\n此程序仅允许在无线通信实验室中帮助测试无线电环境使用。\n源码\nhttps://github.com/zxkmm/mayhem-firmware/tree/hopper_app\n如果代码对你有帮助请点星星",
+          "link": "https://www.v2ex.com/t/1106627",
+          "publishedOn": "2025-01-20T14:45:35.000Z",
+          "wordCount": 374,
+          "title": "分享前天晚上喝酒时候为 hackrf 写的 hopper app",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106626",
+          "author": "xueyuehua",
+          "description": "xueyuehua: \nb 站 真有那么多广告吗，为什么页面没打开多久就显示一堆拦截",
+          "link": "https://www.v2ex.com/t/1106626",
+          "publishedOn": "2025-01-20T14:45:26.000Z",
+          "wordCount": 375,
+          "title": "unblock 到底拦截了什么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106625",
+          "author": "KDCJT",
+          "description": "KDCJT: http://baizhangw.com/6895e1m/MRMG644T0UXEJDMV4TDWLMM1JT51MYM2b7ss48y64z3xzf5b1mc2fci1anxkitrhNGhqM2Y3NXg5ZXI1Nzk1ag==?xay7ds389t=1737382082723#1737382120380\n这个网站，又是原域名被注入了诈骗网站，主要针对贪小便宜的那群人，已报告原域名拥有方\n不知各位大佬有没有兴趣逆向一下\nPS：这个网站只能在微信移动端环境下运行",
+          "link": "https://www.v2ex.com/t/1106625",
+          "publishedOn": "2025-01-20T14:45:23.000Z",
+          "wordCount": 350,
+          "title": "一年来一次，又是针对贪小便宜的人的骗局",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106623",
+          "author": "OKOH",
+          "description": "OKOH: \n5 腾讯云的轻量新用户物美价廉，很多大批量 web3 的老哥，要用许多节点的老哥们，需要大批量开轻量，一个是价格问题，毕竟新用户就那么多，另外一个就是配额问题。举例说明北京地区轻量入门型 2h2g3m 带宽 200g 流量包（ 40/2=20 ），是不是就很划算。新加坡入门型 2h2g20m （ 30/2=14 ）。量大还可以再谈。",
+          "link": "https://www.v2ex.com/t/1106623",
+          "publishedOn": "2025-01-20T14:33:16.000Z",
+          "wordCount": 405,
+          "title": "使用腾旭云轻量服务器的老铁看过来（web3 老哥看看）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106621",
+          "author": "zhouyin",
+          "description": "zhouyin: \n现在住在五常大道 冬天没处去 每天闷在家真的很闷 夏天几乎每天去南苕溪钓鱼 来回要 20 公里 太远\n想今年房租到期后 搬到老余杭去 \n房租会不会便宜点？ 现在的房间蛮大的 室内面积 30 多平方  2268 元每月\n老余杭会不会太偏了？",
+          "link": "https://www.v2ex.com/t/1106621",
+          "publishedOn": "2025-01-20T14:19:52.000Z",
+          "wordCount": 353,
+          "title": "从闲林搬去老余杭 咋样",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106620",
+          "author": "fengFly",
+          "description": "fengFly: follow 的昙花一现让我对 rss 又重新打起来希望，可是坚持看了一个季度因为各种原因就坚持不了天天阅读了",
+          "link": "https://www.v2ex.com/t/1106620",
+          "publishedOn": "2025-01-20T14:19:17.000Z",
+          "wordCount": 465,
+          "title": "rss 不知道该说点什么，看着一大堆未读订阅发呆",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106619",
+          "author": "JoDragon",
+          "description": "JoDragon:",
+          "link": "https://www.v2ex.com/t/1106619",
+          "publishedOn": "2025-01-20T14:02:58.000Z",
+          "wordCount": 374,
+          "title": "美区 lark 被下架了，其他哪个区可以下载 lark？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106618",
+          "author": "leonidas",
+          "description": "leonidas: \n脸上痣比较多，想问问有没点过痣的，点了会不会留疤，点后会不会复发？",
+          "link": "https://www.v2ex.com/t/1106618",
+          "publishedOn": "2025-01-20T13:44:02.000Z",
+          "wordCount": 535,
+          "title": "有没点过痣的？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106614",
           "author": "cccchg",
           "description": "cccchg: \n最近老款 model y 降价很厉害，但是焕新 y 也上了，有没有懂哥对比下",
@@ -364,7 +534,7 @@
           "description": "fu82581983: \n\n⚡  性能媲美 OpenAI-o1\n📖 完全开源的模型和技术报告\n🏆 MIT 许可：可自由蒸馏、商业化！\nX: https://x.com/deepseek_ai/status/1881318130334814301\nGithub: https://github.com/deepseek-ai/DeepSeek-R1\nDeepSeek 太强了，再这样发展下去，感觉要成为开源大模型的扛把子了",
           "link": "https://www.v2ex.com/t/1106607",
           "publishedOn": "2025-01-20T13:14:08.000Z",
-          "wordCount": 478,
+          "wordCount": 506,
           "title": "DeepSeek-R1 对标 OpenAI-o1 模型开源了",
           "imageUrl": null
         },
@@ -444,7 +614,7 @@
           "description": "rizon: \n国内 aws 机器。\n原本是 python 代码，对 jina.ai 的 embedding  API 接口发 reques 请求，请求是可以成功的。\n但是换成 nodejs 后，用 fetch 或 axios 请求，总会 connect timeout 。\n找不到解决办法，特来求助大佬们，谢谢",
           "link": "https://www.v2ex.com/t/1106597",
           "publishedOn": "2025-01-20T12:24:06.000Z",
-          "wordCount": 762,
+          "wordCount": 764,
           "title": "[求助大佬！] nodejs axios 连接超时问题",
           "imageUrl": null
         },
@@ -516,186 +686,6 @@
           "publishedOn": "2025-01-20T11:40:51.000Z",
           "wordCount": 401,
           "title": "远程 win11 只要打开 warp 官方客户端，远程桌面就断联，这事有啥技巧吗？看了远程电脑上的官方 warp 客户端，没看出什么端倪",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106588",
-          "author": "owne",
-          "description": "owne: \n娃一岁半了，一直吃的皇家美素力，目前还用的是二段， 想更换的原因如下：\n1 、从目前来看，也是不咋长肉的，但身高体重都在标准范围内；（ 1 岁之后：1 天三顿奶两顿辅食， 现在两顿奶（偶尔三顿奶）两顿饭）\n2 、晚上睡觉，后半夜睡不踏实，容易醒来哼哼唧唧，甚至哭闹； （这点年后准备去医院做个全面检查，看是否有啥微量元素缺乏）\n3 、另外皇家美素力也挺贵的，2 段 350 左右一罐（ 800g ）, 一般都是京东购买（其他渠道了解较少）\n主要是以上两点吧，可能不一定强相关，但还想着尝试更换下（一直用一种，总感觉有点不好）。 想听听过来人的做法和建议，在此先谢谢各位大佬",
-          "link": "https://www.v2ex.com/t/1106588",
-          "publishedOn": "2025-01-20T11:35:53.000Z",
-          "wordCount": 437,
-          "title": "各位三段奶粉有啥推荐的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106586",
-          "author": "thosai",
-          "description": "thosai: 真难搞哦，不知道 v 友们是怎么权衡的",
-          "link": "https://www.v2ex.com/t/1106586",
-          "publishedOn": "2025-01-20T11:32:14.000Z",
-          "wordCount": 408,
-          "title": "iPhone 切成 4g 信号比 5g 好很多，但是网速又比 5g 慢",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106585",
-          "author": "jojoadv",
-          "description": "jojoadv:",
-          "link": "https://www.v2ex.com/t/1106585",
-          "publishedOn": "2025-01-20T11:19:18.000Z",
-          "wordCount": 474,
-          "title": "《好东西》看了一半关了，感觉不适合我，更像一部给未婚本科及以上学历城市生活没买房爱看豆瓣微博女性定制的电影。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106584",
-          "author": "potatouu",
-          "description": "potatouu: 虽然还没看到完结，但是目前已经看完九季了，并不是为了追剧而追的剧，看完脑袋有些空，有很多感触，汇集在一起反而有些迷茫了",
-          "link": "https://www.v2ex.com/t/1106584",
-          "publishedOn": "2025-01-20T11:17:53.000Z",
-          "wordCount": 396,
-          "title": "请问大家如何评价“无耻之徒”？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106583",
-          "author": "sjdeak",
-          "description": "sjdeak: \n直接手机 App Store 里充值, 我自己充了 1000 送 100, 折算 91 折, 还是挺划算的\n每个人只能充一次",
-          "link": "https://www.v2ex.com/t/1106583",
-          "publishedOn": "2025-01-20T11:15:52.000Z",
-          "wordCount": 375,
-          "title": "[羊毛] 国区 App Store 春节搞活动 送 10%充值金额",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106582",
-          "author": "wen20",
-          "description": "wen20: \n一周前我发布了一款花好久写出来的微信小程序。  \n上线第二天既没有登上 iOS 应用付费区和免费区榜单，也没有登上 Google 应用商店。   \n表现这么差？因为我上线的是微信小程序。  \n不出意外，微信小程序下载榜单也没有我的应用。  \nTA 只静静的躺在我的个人小程序中。但用户收藏比例满高的 9/71 = 12.6%。  \n这个收藏比例我知道 TA 不错。 \n\n\n\n\n\n\n\n\n\n不是神话的成人学士学位类小程序 添加到我的小程序比例  42/622 = 6.7%\n\n为什么收藏比例蛮高\n因为真实弥补了市场空白，高频单词、高频词组都来源于真题，基于真题统计出现次数，帮助同学整理出考卷真实的高频考点。\n\n致歉\n程序员学习营销的一天，对我过激的语言致歉。respect!\nhttps://v2ex.com/t/1106325\n如果您在备考英语，这个小程序会多少有助力。\n总结\n在职研究生，同等学力申硕英语 备考、模拟考、高频单词、高频词组可以试试：石榴申硕英语\n\n成人本科学士学位英语三级 备考、模拟考、高频单词、高频词组可以试试：石榴英语真题助手\n\n最后的补充\n既然 title 有蹭 cursor 热度，必须给出个人使用体感。  \ncursor 是 AI 编程的一个重要角色，和其他 AI 产品一样是很好的编程助手，它写页面、样式比我写的漂亮，复杂逻辑需自己实现。  \ncursor, github copilot ，tencent copliot, marscode , 灵码 都有尝试， 虽然它们都是婴儿，但比我强大非常非常非常非常非常非常非常...多。   \n我只能做一个逻辑缝合怪，一个人类需求到 ai 实现的粘合助手。  \n没错，它不是助手，我是它的助手。 不知过几年它长大是否会嫌弃我。",
-          "link": "https://www.v2ex.com/t/1106582",
-          "publishedOn": "2025-01-20T11:15:39.000Z",
-          "wordCount": 433,
-          "title": "写一个目前 cursor 无法实现的小程序：石榴申硕英语，在职研究生同等学力申硕英语助考微信小程序。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106581",
-          "author": "imjiaoyuan",
-          "description": "imjiaoyuan: \n大四在实习，这段时间自己弄了点事挣了几千块钱，过年回家了想给家里人买点礼物但是不知道买什么，各位推荐一下，不要太贵，钱包遭不住。家里有我爸妈，我哥我嫂子还有个四年级的侄子",
-          "link": "https://www.v2ex.com/t/1106581",
-          "publishedOn": "2025-01-20T11:04:15.000Z",
-          "wordCount": 369,
-          "title": "该给家人买点什么礼物？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106580",
-          "author": "junwind",
-          "description": "junwind: \n手机，树莓派，二手笔记本\n内网穿透",
-          "link": "https://www.v2ex.com/t/1106580",
-          "publishedOn": "2025-01-20T11:02:13.000Z",
-          "wordCount": 595,
-          "title": "怎么自己低成本的搞一台服务器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106579",
-          "author": "ppboyhai",
-          "description": "ppboyhai: \n插件如图：\n\n介绍如下：\nCursor Rules 规则助手\n我是一个帮助您快速配置 Cursor Rules 编程助手 VSCode 插件\n安装 •\n功能特点 •\n使用方法 •\n规则管理 •\n贡献\n✨ 功能特点\n🎯 预设四大类规则模板\n一、Web 应用开发\n🔸 Web 应用-React：React Web 应用开发规则\n🔸 Web 应用-Vue：Vue.js Web 应用开发规则\n🔸 Web 应用-Nextjs：Next.js 14 全栈开发规则\n二、移动应用开发\n📱 App 开发-ReactNative：React Native 跨平台应用开发规则\n📱 App 开发-Flutter：Flutter 跨平台应用开发规则\n三、小程序开发\n💠 微信小程序：微信小程序开发规则\n四、其他开发\n🕷️ 爬虫-Python：Python 开发规则\n🔧 通用：适用于所有项目的基础规则\n🛠️ 规则管理功能\n✅ 添加规则：支持通过命令面板或右键菜单添加规则\n👀 规则预览：添加前可预览规则内容\n🔄 规则合并：支持将新规则与现有规则合并\n🔁 规则覆盖：可选择覆盖现有规则\n🎨 图形化界面：直观的规则选择和管理界面\n💡 使用便捷\n⌨️ 命令面板快速访问\n🖱️ 文件夹右键菜单支持\n📊 状态栏快速访问\n🇨🇳 中文友好界面\n📝 详细的规则说明\n📖 使用方法\n方式一：命令面板\n在 VSCode 中打开你的项目文件夹\n使用快捷键 Ctrl+Shift+P（ Windows ）或 Cmd+Shift+P（ Mac ）打开命令面板\n输入 \"添加 Cursor 规则文件\"\n从列表中选择想要添加的规则类型\n在预览窗口中确认规则内容\n确认添加规则\n方式二：右键菜单\n在 VSCode 的资源管理器中\n右键点击任意文件夹\n选择 \"添加 Cursor 规则文件\"\n选择规则类型并确认\n在预览窗口中确认规则内容\n确认添加规则\n⚙️ 规则文件处理\n如果目标位置已经存在 .cursorrules 文件，插件会提供以下选项：\n🔄 覆盖：用新规则替换现有规则\n🔀 合并：将新规则与现有规则合并\n❌ 取消：保持现有规则不变\n👨‍💻 开发者信息\nMade with ❤️ by a passionate developer",
-          "link": "https://www.v2ex.com/t/1106579",
-          "publishedOn": "2025-01-20T10:54:53.000Z",
-          "wordCount": 512,
-          "title": "新发布上线的 VsCode 插件： Cursor Rules 规则助手 ，模板化创建本地.cursorrules，感兴趣的自取",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106578",
-          "author": "1311317",
-          "description": "1311317: 身在运营商和公务员的小伙伴都说已经涨过了，那么问题来了，未来的薪资调整是否会影响到其他行业的工资水平？各行业会不会普遍上涨？",
-          "link": "https://www.v2ex.com/t/1106578",
-          "publishedOn": "2025-01-20T10:45:43.000Z",
-          "wordCount": 549,
-          "title": "央国企以及公职人员 2025 年薪资普涨 5%？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106574",
-          "author": "blucas01",
-          "description": "blucas01: \n中午同事给我看了个车祸视频，原内容是视线不好（天黑还是起雾，没仔细看），小车在高速上开近光灯没看到前车、追尾发生车祸。\n我的第一想法司机是新手，判断逻辑来于视线不好却只开了近光灯。然后给同事说，高速上只要天开始暗下来就应该把远光灯打开。\n这句话其实不严谨，但作为新手你不用管太多 case 。你只需要记住视线不好的时候，及时打开远光灯，在中间保持匀速速度行驶肯定没问题，对你、对别人都好。\nQ：全程开着都没事吗？\nA：（大不了罚款，我个人没因此被罚过款",
-          "link": "https://www.v2ex.com/t/1106574",
-          "publishedOn": "2025-01-20T10:09:30.000Z",
-          "wordCount": 784,
-          "title": "给过年要开高速，一年两箱油的朋友或者新手一个建议",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106573",
-          "author": "songweibiao",
-          "description": "songweibiao: \n由来\n最近在使用 AI 去完成较复杂任务的时候，总是先聊了个整体思考框架，然后一部分一部分细化，结果聊着聊着就忘了最开始整体的思考框架。因此用 cursor 帮助开发了一个浏览器插件 thinkmind ，基本功能开发得差不多了，还差一些细节。先抛产品界面出来，回头说上线了第一时间告诉兄弟们。\n\n\n\n\n\nThinkmind V1.0 产品介绍\n一个简洁、高效的思维导图工具，让思维更有序，让创意更自由。\n功能特性\n1. 文件管理\n创建、打开、删除文件\n支持文件备份导出和恢复导入\n自动保存，无需手动操作\n2. 需求管理\n多级需求层级结构\n支持需求的添加、编辑、删除\n支持需求的拖拽排序\n支持批量删除功能\n3. 编辑功能\n实时字数统计\n支持最多 100 字符的需求描述\n支持需求完成状态标记\n支持子需求的快速生成\n4. 界面特性\n简洁现代的界面设计\n响应式布局\n流畅的交互动画\n清晰的层级导航\n5. 数据存储\n本地存储，无需联网\n支持数据的导入导出\n自动保存所有修改\n使用说明\n基本操作\n创建文件：点击\"创建文件\"按钮，输入文件名\n编辑需求：点击需求项右侧的\"编辑\"按钮\n删除需求：点击需求项右侧的\"删除\"按钮\n添加子需求：选中需求项，在右侧面板输入内容并点击\"生成需求\"\n返回上级：点击面板顶部的\"返回上一级\"按钮\n高级功能\n批量删除：\n按住 Ctrl/Command 键点击多个需求进行多选\n按住 Shift 键可以进行范围选择\n点击\"批量删除\"按钮删除选中项\n需求排序：\n拖拽需求项可以调整顺序\n支持同级需求之间的拖拽排序\n数据备份：\n点击导航栏的\"导出备份\"按钮导出数据\n点击\"导入备份\"按钮恢复之前的备份",
-          "link": "https://www.v2ex.com/t/1106573",
-          "publishedOn": "2025-01-20T10:01:28.000Z",
-          "wordCount": 432,
-          "title": "用 cursor 开发一款结构化思维工具 Thinkmind",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106572",
-          "author": "Tsing2",
-          "description": "Tsing2: \n“我有个朋友”，一些非常私密的照片和视频保存在了 iPhone 的“已隐藏”区域，同时他也买了 iCloud （国区，云上贵州），会自动备份所有文件，所以想问一下 Apple 对于“已隐藏”媒体有没有特别的隐私处理逻辑，比如加密之类的。\n谢谢。",
-          "link": "https://www.v2ex.com/t/1106572",
-          "publishedOn": "2025-01-20T09:54:47.000Z",
-          "wordCount": 414,
-          "title": "iCloud 对于“已隐藏”的照片和视频会有特别的隐私处理逻辑吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106571",
-          "author": "iwdmb",
-          "description": "iwdmb: \n基于 VSCode\n免费使用 Claude 3.5 Sonnet\n目前仅支援 MacOS\n不知道能不能给 Cursor 起压力\nhttps://www.trae.ai/",
-          "link": "https://www.v2ex.com/t/1106571",
-          "publishedOn": "2025-01-20T09:54:08.000Z",
-          "wordCount": 460,
-          "title": "Trae AI IDE 免费的 Claude 3.5 Sonnet",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106570",
-          "author": "dropdatabase",
-          "description": "dropdatabase: \n一台 MacBook ，一台 Macmini ，一个外接显示器。\n如何使用一套键盘鼠标 or 键盘触摸板控制两台设备？\n用远程桌面工具（ rustdesk ），在外接显示器上窗口铺不满，而且很糊很卡（ macmini 直连显示器一切正常）。\n有啥好用的工具推荐？",
-          "link": "https://www.v2ex.com/t/1106570",
-          "publishedOn": "2025-01-20T09:52:50.000Z",
-          "wordCount": 403,
-          "title": "一套键盘,如何同时控制两台苹果设备？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106568",
-          "author": "txzh007",
-          "description": "txzh007: 开发商是招商,和博联搞了一套基本上没什么用的智能家居,空调地暖都走的博联的控制面板.\n目前想换成米家生态,请问一下米家生态有哪些比较好用的面板以及开关.",
-          "link": "https://www.v2ex.com/t/1106568",
-          "publishedOn": "2025-01-20T09:42:24.000Z",
-          "wordCount": 333,
-          "title": "精装房如何实现智能家居",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106567",
-          "author": "fulajickhz",
-          "description": "fulajickhz: \n有没有网友知道上海联通 提升网络接入优先级的是什么业务？\nhttps://www.v2ex.com/t/1100656\nhttps://www.v2ex.com/t/1076361\n这两个之提到提升 QCI 等级\nhttps://www.v2ex.com/t/1076361#\n这边说 qci 是其次，还有个网络接入优先级。很多人 qci 是 6 ，接入优先级还是 low ，很少的是 high ，应该和套餐资费有关也不是绝对有关。电信有的人每个月 199 ，qci 居然是 9",
-          "link": "https://www.v2ex.com/t/1106567",
-          "publishedOn": "2025-01-20T09:41:41.000Z",
-          "wordCount": 431,
-          "title": "上海联通 提升网络接入优先级的是什么业务？提升 QCI 的是网络优化服务 pro",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106566",
-          "author": "hiplon",
-          "description": "hiplon: \n大概在 2024 年 11 月，有一个用了 10 年多的国区账户。可能由于登录了自己一台不常用的苹果设备 iPhone SE (2nd generation)，不知道促发了什么什么风控，导致账户被封锁。\n封锁期间，导致改手机基本无法使用。如下图，商店或者 iCloud 服务均提示错误或账户被锁等问题。如 Fig1,2\n\n\n后续，经官网 iforgot 、联系 Apple Support 解锁，陆续领略各种 Support\\Senior Support\\Genius 等的喂 SOP shit,又是让提交设备锁解锁申请、又是无回复等等，完全牛头不搭马嘴， 最终无果。见 Fig3,4\n\n\n最后是在消费者调解平台提出申诉， 第一次投诉至法人：苹果技术服务(上海)有限公司，Fig5\n\n应该是对象错了，最终 1 月 5 日左右投诉至另外一个法人：苹果电脑贸易(上海)有限公司\n阐明了基本的情况， 大概于 1 月 15 日有 support(Case ID 写着是 PE Tech)同事？电话联系说协调解决，1 月 19 日发现已经可以使用。Fig6\n\n前前后后加埋大概搞了 2 个多月，幸亏不是主用设备，不然真的。\n总结就是应该直接找到对应法人，经消费者调解渠道申诉。",
-          "link": "https://www.v2ex.com/t/1106566",
-          "publishedOn": "2025-01-20T09:40:42.000Z",
-          "wordCount": 406,
-          "title": "国区苹果账户（Apple Account）封锁之后的解锁路径尝试",
           "imageUrl": null
         }
       ]

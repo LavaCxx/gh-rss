@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-20 datetime="2025-01-20T13:30:15.000Z">2025-01-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-20 datetime="2025-01-20T13:30:15.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-20 datetime="2025-01-20T16:36:48.000Z">2025-01-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-20 datetime="2025-01-20T16:36:48.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,451 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106638"
+                        open
+                      >
+                        <summary class="article-expander__title">Rustdesk docker 端口问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106638">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>roxanne299: 
+问题如下：
+按照很多教程配置好了 docker ，但是端口看着是启起来了，但是端口扫描 21115-21119 全是关闭状态，只有 api 的 21114 是开启状态，不清楚是什么问题。
+废话不多说，直接上配置：
+docker-compose.yml 内容
+version: &#x27;3&#x27;
+
+networks:
+  rustdesk-net:
+    external: false
+
+services:
+  hbbs:
+    container_name: hbbs
+    ports:
+      - 21115:21115
+      - 21116:21116
+      - 21116:21116/udp
+      - 21118:21118
+    image: rustdesk/rustdesk-server:latest
+    command: hbbs -r  [ myip ] :21117  -k _
+    volumes:
+      - ./data:/root
+    networks:
+      - rustdesk-net
+    depends_on:
+      - hbbr
+    restart: unless-stopped
+
+  hbbr:
+    container_name: hbbr
+    ports:
+      - 21117:21117
+      - 21119:21119
+    image: rustdesk/rustdesk-server:latest
+    command: hbbr  -k _
+    volumes:
+      - ./data:/root
+    networks:
+      - rustdesk-net
+    restart: unless-stopped
+
+  rustdesk-api-server:
+    container_name: rustdesk-api-server
+    image: kingmo888/rustdesk-api-server:latest
+    environment:
+      - CSRF_TRUSTED_ORIGINS&#x3D;http:// [ myip ] :21114 #防跨域信任来源，可选
+      - ID_SERVER&#x3D; [ myip ] :21114 #Web 控制端使用的 ID 服务器
+    volumes:
+      - /opt/rustdesk/db:/rustdesk-api-server/db #修改为你宿主机数据库挂载目录
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+        # network_mode: bridge
+    networks:
+      - rustdesk-net
+    ports:
+      - &quot;21114:21114&quot;
+    restart: unless-stopped
+
+防火墙是关闭状态，阿里云安全组：
+
+下面是 docker 启动状态
+
+查看端口状态：
+
+下面是 docker-compose 的相关日志：</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106637"
+                        open
+                      >
+                        <summary class="article-expander__title">X（twitter）是不是挂了？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106637">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>datou: 
+阿川流量这么大的吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106636"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 发展如此迅猛的情况下软件工程/计算机专业本科生关于未来职业选择的一些咨询</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106636">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jinhanzhang2005: 
+背景
+我现在是国内某弱 211 软件工程系的一名大三本科生，预计可以拿到保研资格，大概率可以保到某 985 中下学校。大学期间有一些还不错的奖项，也做过一些 AI 方向的科研项目。
+目前比较喜欢和熟练使用的技术栈主要是 Node.js ，对折腾各种新技术比较感兴趣。
+疑惑
+前面三年其实花了很多时间去提升自己的技术和代码能力，但是这三年正好是 GPT 等大模型迅猛发展的时期，亲身经历了从 GPT3 爆火到各种大模型遍地开花这段时期。
+之前其实还没有太大的危机感，最近用 Cursor 完成了一些课堂作业之后感觉 AI 比我想象的强大太多。。好多前后端的小项目完完全全用 AI 来实现了（ Express+Vue ），几乎一行代码没有写。
+咨询
+请问在现在这种背景下，下面的几年（包括研究生）应该往什么方向继续发展？如果还只是提升自己的代码能力
+很担心吃不上饭。。
+谢谢各位大佬！！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106635"
+                        open
+                      >
+                        <summary class="article-expander__title">求推荐记笔记的平板</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106635">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>weiyujia: 
+预算 3000 全新和二手都可
+唯一需求是看 pdf 和记笔记，影音和游戏都是别的设备
+之前的 ipad air 3 用了四年多实在坚持不住了（各种断触之类问题），本来想买 ipad pro 2024 11 寸，但是感觉需求面太窄了，买了性价比太低。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106633"
+                        open
+                      >
+                        <summary class="article-expander__title">想正儿八经做一款喜欢的产品，不喜欢做蹭流量的练手产品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106633">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BeEureka: 
+最近 AI 工具满天飞，很多产品都在追流量热点，看起来很火，但其实没什么真正的价值。和朋友聊到这件事时，我常听到有人说：&quot;做个练手项目吧，蹭点热度试试水。&quot; 但我觉得，如果要做产品，还是要认真做点让自己喜欢、也能帮到别人的东西。
+上个月上线了一个让我个人想做的产品——Logomate 。
+https://www.ailogogenerator.sh/
+Logomate 是一款用 AI 生成 LOGO 的工具，简单来说，就是用户输入描述，比如“科技风，蓝色调，简约设计”，它就能自动生成几个高质量的 LOGO 设计供你选择。
+为什么推荐 Logomate ？
+帮你解决实际问题
+创业初期设计 LOGO 有多麻烦，大家都懂。找设计师成本高、沟通耗时，而且有时候效果还不一定满意。而 Logomate 可以快速生成多个符合你要求的设计，让你更省心。
+不是随便做的练手项目
+Logomate 是经过精心打磨的产品，生成的 LOGO 不只是好看，还兼顾了实用性和专业性。从用户体验到功能细节，都能看出来团队是真的用心在做。
+灵活可定制
+颜色、字体、风格、图标，Logomate 都支持调整。这种高度的自由度让每个 LOGO 都可以完全贴合你的品牌需求。
+简单高效
+就算你是设计小白，也完全不用担心操作问题。输入几句话，几秒钟后就能看到成品。而且它生成的选项都很有参考价值。
+Logomate 适合谁？
+初创团队：帮你快速打造品牌形象，省钱又省事。
+自由职业者：提高工作效率，给客户多点选择。
+设计师：当作灵感来源，节省创作时间。
+如果你正在找一个轻松生成高质量 LOGO 的方式，Logomate 一定不会让你失望。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106631"
+                        open
+                      >
+                        <summary class="article-expander__title">openwrt 意外重启后， home assistant 容器丢失且无法重新安装。帮忙解决可以付费</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106631">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>googooog: 
+openwrt 意外重启后 HA 的容器突然消失了
+现在状态是能看到 4 个容器 4 个镜像，之前是 5 个容器 5 个镜像。
+我重新安装 HA 的镜像提示已存在
+重新 run HA 容器提示 docker: Error response from daemon: layer does not exist.
+大佬们如何修复这个问题？可以接受重新安装 HA 的容器。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106630"
+                        open
+                      >
+                        <summary class="article-expander__title">魔都国补用掉了，加上 jd 优惠比直营店省了 1232。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106630">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>snsn: 
+如题 上上周末 11 号直营店线下买的 iPadair6 。刚好赶上国补和退货周期。现在只希望 jd 的苹果官方店不要出幺蛾子了。
+直接省了一根 pencil pro 出来</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106629"
+                        open
+                      >
+                        <summary class="article-expander__title">小米 13 已经 root,最好的备份微信聊天记录的方案是啥？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106629">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wty95:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106628"
+                        open
+                      >
+                        <summary class="article-expander__title">反复问 AI 同一个问题， LLM 大模型会给出一样的答案吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106628">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jacketma: 
+一个训练完成的大模型离线使用，且没有加入任何反馈或自修正功能，同一个问题，无论问多少次，LLM 都应该给出一模一样的答案吗？
+我找了几个在线模型测试，同一个问题，一分钟内全部问 10 次，前面三五次大同小异，五次之后，很多几千字的答案几乎都是一样的。有没有大佬了解输出答案背后的“微扰”因素是什么?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106627"
+                        open
+                      >
+                        <summary class="article-expander__title">分享前天晚上喝酒时候为 hackrf 写的 hopper app</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106627">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zxkmm: 
+功能
+该它可以载入或者手动填入 0 至 24 个频率，然后在这些频率之间 hopping 地发送随机 FSK/随机 FM/随机 CW/CW sweep
+此程序仅允许在无线通信实验室中帮助测试无线电环境使用。
+源码
+https://github.com/zxkmm/mayhem-firmware/tree/hopper_app
+如果代码对你有帮助请点星星</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106626"
+                        open
+                      >
+                        <summary class="article-expander__title">unblock 到底拦截了什么</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106626">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xueyuehua: 
+b 站 真有那么多广告吗，为什么页面没打开多久就显示一堆拦截</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106625"
+                        open
+                      >
+                        <summary class="article-expander__title">一年来一次，又是针对贪小便宜的人的骗局</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106625">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>KDCJT: http://baizhangw.com/6895e1m/MRMG644T0UXEJDMV4TDWLMM1JT51MYM2b7ss48y64z3xzf5b1mc2fci1anxkitrhNGhqM2Y3NXg5ZXI1Nzk1ag&#x3D;&#x3D;?xay7ds389t&#x3D;1737382082723#1737382120380
+这个网站，又是原域名被注入了诈骗网站，主要针对贪小便宜的那群人，已报告原域名拥有方
+不知各位大佬有没有兴趣逆向一下
+PS：这个网站只能在微信移动端环境下运行</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106623"
+                        open
+                      >
+                        <summary class="article-expander__title">使用腾旭云轻量服务器的老铁看过来（web3 老哥看看）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106623">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>OKOH: 
+5 腾讯云的轻量新用户物美价廉，很多大批量 web3 的老哥，要用许多节点的老哥们，需要大批量开轻量，一个是价格问题，毕竟新用户就那么多，另外一个就是配额问题。举例说明北京地区轻量入门型 2h2g3m 带宽 200g 流量包（ 40/2&#x3D;20 ），是不是就很划算。新加坡入门型 2h2g20m （ 30/2&#x3D;14 ）。量大还可以再谈。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106621"
+                        open
+                      >
+                        <summary class="article-expander__title">从闲林搬去老余杭 咋样</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106621">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zhouyin: 
+现在住在五常大道 冬天没处去 每天闷在家真的很闷 夏天几乎每天去南苕溪钓鱼 来回要 20 公里 太远
+想今年房租到期后 搬到老余杭去 
+房租会不会便宜点？ 现在的房间蛮大的 室内面积 30 多平方  2268 元每月
+老余杭会不会太偏了？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106620"
+                        open
+                      >
+                        <summary class="article-expander__title">rss 不知道该说点什么，看着一大堆未读订阅发呆</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106620">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>fengFly: follow 的昙花一现让我对 rss 又重新打起来希望，可是坚持看了一个季度因为各种原因就坚持不了天天阅读了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106619"
+                        open
+                      >
+                        <summary class="article-expander__title">美区 lark 被下架了，其他哪个区可以下载 lark？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106619">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>JoDragon:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106618"
+                        open
+                      >
+                        <summary class="article-expander__title">有没点过痣的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106618">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>leonidas: 
+脸上痣比较多，想问问有没点过痣的，点了会不会留疤，点后会不会复发？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -568,539 +1013,6 @@ https://www.chinesepoems.org/</span>
                             <span class="media-object__text">
                               <span>szdosar: 
 求助。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106588"
-                        open
-                      >
-                        <summary class="article-expander__title">各位三段奶粉有啥推荐的吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106588">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>owne: 
-娃一岁半了，一直吃的皇家美素力，目前还用的是二段， 想更换的原因如下：
-1 、从目前来看，也是不咋长肉的，但身高体重都在标准范围内；（ 1 岁之后：1 天三顿奶两顿辅食， 现在两顿奶（偶尔三顿奶）两顿饭）
-2 、晚上睡觉，后半夜睡不踏实，容易醒来哼哼唧唧，甚至哭闹； （这点年后准备去医院做个全面检查，看是否有啥微量元素缺乏）
-3 、另外皇家美素力也挺贵的，2 段 350 左右一罐（ 800g ）, 一般都是京东购买（其他渠道了解较少）
-主要是以上两点吧，可能不一定强相关，但还想着尝试更换下（一直用一种，总感觉有点不好）。 想听听过来人的做法和建议，在此先谢谢各位大佬</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106586"
-                        open
-                      >
-                        <summary class="article-expander__title">iPhone 切成 4g 信号比 5g 好很多，但是网速又比 5g 慢</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106586">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>thosai: 真难搞哦，不知道 v 友们是怎么权衡的</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106585"
-                        open
-                      >
-                        <summary class="article-expander__title">《好东西》看了一半关了，感觉不适合我，更像一部给未婚本科及以上学历城市生活没买房爱看豆瓣微博女性定制的电影。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106585">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>jojoadv:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106584"
-                        open
-                      >
-                        <summary class="article-expander__title">请问大家如何评价“无耻之徒”？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106584">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>potatouu: 虽然还没看到完结，但是目前已经看完九季了，并不是为了追剧而追的剧，看完脑袋有些空，有很多感触，汇集在一起反而有些迷茫了</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106583"
-                        open
-                      >
-                        <summary class="article-expander__title">[羊毛] 国区 App Store 春节搞活动 送 10%充值金额</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106583">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>sjdeak: 
-直接手机 App Store 里充值, 我自己充了 1000 送 100, 折算 91 折, 还是挺划算的
-每个人只能充一次</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106582"
-                        open
-                      >
-                        <summary class="article-expander__title">写一个目前 cursor 无法实现的小程序：石榴申硕英语，在职研究生同等学力申硕英语助考微信小程序。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106582">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wen20: 
-一周前我发布了一款花好久写出来的微信小程序。  
-上线第二天既没有登上 iOS 应用付费区和免费区榜单，也没有登上 Google 应用商店。   
-表现这么差？因为我上线的是微信小程序。  
-不出意外，微信小程序下载榜单也没有我的应用。  
-TA 只静静的躺在我的个人小程序中。但用户收藏比例满高的 9/71 &#x3D; 12.6%。  
-这个收藏比例我知道 TA 不错。 
-
-
-
-
-
-
-
-
-
-不是神话的成人学士学位类小程序 添加到我的小程序比例  42/622 &#x3D; 6.7%
-
-为什么收藏比例蛮高
-因为真实弥补了市场空白，高频单词、高频词组都来源于真题，基于真题统计出现次数，帮助同学整理出考卷真实的高频考点。
-
-致歉
-程序员学习营销的一天，对我过激的语言致歉。respect!
-https://v2ex.com/t/1106325
-如果您在备考英语，这个小程序会多少有助力。
-总结
-在职研究生，同等学力申硕英语 备考、模拟考、高频单词、高频词组可以试试：石榴申硕英语
-
-成人本科学士学位英语三级 备考、模拟考、高频单词、高频词组可以试试：石榴英语真题助手
-
-最后的补充
-既然 title 有蹭 cursor 热度，必须给出个人使用体感。  
-cursor 是 AI 编程的一个重要角色，和其他 AI 产品一样是很好的编程助手，它写页面、样式比我写的漂亮，复杂逻辑需自己实现。  
-cursor, github copilot ，tencent copliot, marscode , 灵码 都有尝试， 虽然它们都是婴儿，但比我强大非常非常非常非常非常非常非常...多。   
-我只能做一个逻辑缝合怪，一个人类需求到 ai 实现的粘合助手。  
-没错，它不是助手，我是它的助手。 不知过几年它长大是否会嫌弃我。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106581"
-                        open
-                      >
-                        <summary class="article-expander__title">该给家人买点什么礼物？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106581">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>imjiaoyuan: 
-大四在实习，这段时间自己弄了点事挣了几千块钱，过年回家了想给家里人买点礼物但是不知道买什么，各位推荐一下，不要太贵，钱包遭不住。家里有我爸妈，我哥我嫂子还有个四年级的侄子</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106580"
-                        open
-                      >
-                        <summary class="article-expander__title">怎么自己低成本的搞一台服务器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106580">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>junwind: 
-手机，树莓派，二手笔记本
-内网穿透</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106579"
-                        open
-                      >
-                        <summary class="article-expander__title">新发布上线的 VsCode 插件： Cursor Rules 规则助手 ，模板化创建本地.cursorrules，感兴趣的自取</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106579">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ppboyhai: 
-插件如图：
-
-介绍如下：
-Cursor Rules 规则助手
-我是一个帮助您快速配置 Cursor Rules 编程助手 VSCode 插件
-安装 •
-功能特点 •
-使用方法 •
-规则管理 •
-贡献
-✨ 功能特点
-🎯 预设四大类规则模板
-一、Web 应用开发
-🔸 Web 应用-React：React Web 应用开发规则
-🔸 Web 应用-Vue：Vue.js Web 应用开发规则
-🔸 Web 应用-Nextjs：Next.js 14 全栈开发规则
-二、移动应用开发
-📱 App 开发-ReactNative：React Native 跨平台应用开发规则
-📱 App 开发-Flutter：Flutter 跨平台应用开发规则
-三、小程序开发
-💠 微信小程序：微信小程序开发规则
-四、其他开发
-🕷️ 爬虫-Python：Python 开发规则
-🔧 通用：适用于所有项目的基础规则
-🛠️ 规则管理功能
-✅ 添加规则：支持通过命令面板或右键菜单添加规则
-👀 规则预览：添加前可预览规则内容
-🔄 规则合并：支持将新规则与现有规则合并
-🔁 规则覆盖：可选择覆盖现有规则
-🎨 图形化界面：直观的规则选择和管理界面
-💡 使用便捷
-⌨️ 命令面板快速访问
-🖱️ 文件夹右键菜单支持
-📊 状态栏快速访问
-🇨🇳 中文友好界面
-📝 详细的规则说明
-📖 使用方法
-方式一：命令面板
-在 VSCode 中打开你的项目文件夹
-使用快捷键 Ctrl+Shift+P（ Windows ）或 Cmd+Shift+P（ Mac ）打开命令面板
-输入 &quot;添加 Cursor 规则文件&quot;
-从列表中选择想要添加的规则类型
-在预览窗口中确认规则内容
-确认添加规则
-方式二：右键菜单
-在 VSCode 的资源管理器中
-右键点击任意文件夹
-选择 &quot;添加 Cursor 规则文件&quot;
-选择规则类型并确认
-在预览窗口中确认规则内容
-确认添加规则
-⚙️ 规则文件处理
-如果目标位置已经存在 .cursorrules 文件，插件会提供以下选项：
-🔄 覆盖：用新规则替换现有规则
-🔀 合并：将新规则与现有规则合并
-❌ 取消：保持现有规则不变
-👨‍💻 开发者信息
-Made with ❤️ by a passionate developer</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106578"
-                        open
-                      >
-                        <summary class="article-expander__title">央国企以及公职人员 2025 年薪资普涨 5%？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106578">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>1311317: 身在运营商和公务员的小伙伴都说已经涨过了，那么问题来了，未来的薪资调整是否会影响到其他行业的工资水平？各行业会不会普遍上涨？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106574"
-                        open
-                      >
-                        <summary class="article-expander__title">给过年要开高速，一年两箱油的朋友或者新手一个建议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106574">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>blucas01: 
-中午同事给我看了个车祸视频，原内容是视线不好（天黑还是起雾，没仔细看），小车在高速上开近光灯没看到前车、追尾发生车祸。
-我的第一想法司机是新手，判断逻辑来于视线不好却只开了近光灯。然后给同事说，高速上只要天开始暗下来就应该把远光灯打开。
-这句话其实不严谨，但作为新手你不用管太多 case 。你只需要记住视线不好的时候，及时打开远光灯，在中间保持匀速速度行驶肯定没问题，对你、对别人都好。
-Q：全程开着都没事吗？
-A：（大不了罚款，我个人没因此被罚过款</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106573"
-                        open
-                      >
-                        <summary class="article-expander__title">用 cursor 开发一款结构化思维工具 Thinkmind</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106573">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>songweibiao: 
-由来
-最近在使用 AI 去完成较复杂任务的时候，总是先聊了个整体思考框架，然后一部分一部分细化，结果聊着聊着就忘了最开始整体的思考框架。因此用 cursor 帮助开发了一个浏览器插件 thinkmind ，基本功能开发得差不多了，还差一些细节。先抛产品界面出来，回头说上线了第一时间告诉兄弟们。
-
-
-
-
-
-Thinkmind V1.0 产品介绍
-一个简洁、高效的思维导图工具，让思维更有序，让创意更自由。
-功能特性
-1. 文件管理
-创建、打开、删除文件
-支持文件备份导出和恢复导入
-自动保存，无需手动操作
-2. 需求管理
-多级需求层级结构
-支持需求的添加、编辑、删除
-支持需求的拖拽排序
-支持批量删除功能
-3. 编辑功能
-实时字数统计
-支持最多 100 字符的需求描述
-支持需求完成状态标记
-支持子需求的快速生成
-4. 界面特性
-简洁现代的界面设计
-响应式布局
-流畅的交互动画
-清晰的层级导航
-5. 数据存储
-本地存储，无需联网
-支持数据的导入导出
-自动保存所有修改
-使用说明
-基本操作
-创建文件：点击&quot;创建文件&quot;按钮，输入文件名
-编辑需求：点击需求项右侧的&quot;编辑&quot;按钮
-删除需求：点击需求项右侧的&quot;删除&quot;按钮
-添加子需求：选中需求项，在右侧面板输入内容并点击&quot;生成需求&quot;
-返回上级：点击面板顶部的&quot;返回上一级&quot;按钮
-高级功能
-批量删除：
-按住 Ctrl/Command 键点击多个需求进行多选
-按住 Shift 键可以进行范围选择
-点击&quot;批量删除&quot;按钮删除选中项
-需求排序：
-拖拽需求项可以调整顺序
-支持同级需求之间的拖拽排序
-数据备份：
-点击导航栏的&quot;导出备份&quot;按钮导出数据
-点击&quot;导入备份&quot;按钮恢复之前的备份</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106572"
-                        open
-                      >
-                        <summary class="article-expander__title">iCloud 对于“已隐藏”的照片和视频会有特别的隐私处理逻辑吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106572">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Tsing2: 
-“我有个朋友”，一些非常私密的照片和视频保存在了 iPhone 的“已隐藏”区域，同时他也买了 iCloud （国区，云上贵州），会自动备份所有文件，所以想问一下 Apple 对于“已隐藏”媒体有没有特别的隐私处理逻辑，比如加密之类的。
-谢谢。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106571"
-                        open
-                      >
-                        <summary class="article-expander__title">Trae AI IDE 免费的 Claude 3.5 Sonnet</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106571">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>iwdmb: 
-基于 VSCode
-免费使用 Claude 3.5 Sonnet
-目前仅支援 MacOS
-不知道能不能给 Cursor 起压力
-https://www.trae.ai/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106570"
-                        open
-                      >
-                        <summary class="article-expander__title">一套键盘,如何同时控制两台苹果设备？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106570">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>dropdatabase: 
-一台 MacBook ，一台 Macmini ，一个外接显示器。
-如何使用一套键盘鼠标 or 键盘触摸板控制两台设备？
-用远程桌面工具（ rustdesk ），在外接显示器上窗口铺不满，而且很糊很卡（ macmini 直连显示器一切正常）。
-有啥好用的工具推荐？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106568"
-                        open
-                      >
-                        <summary class="article-expander__title">精装房如何实现智能家居</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106568">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>txzh007: 开发商是招商,和博联搞了一套基本上没什么用的智能家居,空调地暖都走的博联的控制面板.
-目前想换成米家生态,请问一下米家生态有哪些比较好用的面板以及开关.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106567"
-                        open
-                      >
-                        <summary class="article-expander__title">上海联通 提升网络接入优先级的是什么业务？提升 QCI 的是网络优化服务 pro</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106567">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>fulajickhz: 
-有没有网友知道上海联通 提升网络接入优先级的是什么业务？
-https://www.v2ex.com/t/1100656
-https://www.v2ex.com/t/1076361
-这两个之提到提升 QCI 等级
-https://www.v2ex.com/t/1076361#
-这边说 qci 是其次，还有个网络接入优先级。很多人 qci 是 6 ，接入优先级还是 low ，很少的是 high ，应该和套餐资费有关也不是绝对有关。电信有的人每个月 199 ，qci 居然是 9</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106566"
-                        open
-                      >
-                        <summary class="article-expander__title">国区苹果账户（Apple Account）封锁之后的解锁路径尝试</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106566">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>hiplon: 
-大概在 2024 年 11 月，有一个用了 10 年多的国区账户。可能由于登录了自己一台不常用的苹果设备 iPhone SE (2nd generation)，不知道促发了什么什么风控，导致账户被封锁。
-封锁期间，导致改手机基本无法使用。如下图，商店或者 iCloud 服务均提示错误或账户被锁等问题。如 Fig1,2
-
-
-后续，经官网 iforgot 、联系 Apple Support 解锁，陆续领略各种 Support\Senior Support\Genius 等的喂 SOP shit,又是让提交设备锁解锁申请、又是无回复等等，完全牛头不搭马嘴， 最终无果。见 Fig3,4
-
-
-最后是在消费者调解平台提出申诉， 第一次投诉至法人：苹果技术服务(上海)有限公司，Fig5
-
-应该是对象错了，最终 1 月 5 日左右投诉至另外一个法人：苹果电脑贸易(上海)有限公司
-阐明了基本的情况， 大概于 1 月 15 日有 support(Case ID 写着是 PE Tech)同事？电话联系说协调解决，1 月 19 日发现已经可以使用。Fig6
-
-前前后后加埋大概搞了 2 个多月，幸亏不是主用设备，不然真的。
-总结就是应该直接找到对应法人，经消费者调解渠道申诉。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2428,8 +2340,8 @@ https://innei.in/notes/162
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12873695917">
-        <time id="build-timestamp" datetime="2025-01-20T18:14:12.952Z">2025-01-20T18:14:12.952Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12874355199">
+        <time id="build-timestamp" datetime="2025-01-20T19:08:13.647Z">2025-01-20T19:08:13.647Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
