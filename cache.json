@@ -147,23 +147,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/184",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/184\n\n那晚的街道\n这一年的开始，一切都看似朝着好的方向发展。跨年的那一天，还和朋友们在一起。那一天，我们在乌镇，新的一年的起点，凌晨走在乌镇的街上，很冷清，吹着冷风，但是和朋友们在一起聊着各种的话题，让原本的冷清多了一份温暖。跨过一年的节点，仿佛前路也变得更加明朗了。\nhttps://innei.in/notes/161\n一次远行\n年初的时候，（前）公司组织的一次团建。让我第一次踏上了离家两千多公里的中国西部——那是一个我未曾到过的地方。从上海启程，虽然因航班延误错过了第一个白天的行程，但大理的夜晚依然温柔地接纳了我。行程暂时停滞，但窗外的风景和远离城市喧嚣的安静，似乎也成为了一种“远程工作”以外的小确幸。短短几天，走过了大理古城，洱海S湾，丽江古城..，登上了玉龙雪山。在这次团建中，我和同事们一起交流、一起旅行，原本遥远的同事关系似乎因为这一段旅程而拉近了许多。\n\nhttps://innei.in/notes/162\n那次突如其来的裁员\n那一天，生活给我上了一堂意外的课。在远程工作的平静生活中，一切看似安稳，我也曾以为可以持续这样下去。然而，变故还是来临了。我收到了一个令人措手不及的通知：“项目组资金砍半，团队需要优化人员结构。” 回想起来，我仍然感到些许失望。从前公司离职后，我选择了一家更符合个人理想的公司，期待能与志同道合的伙伴们一起创造有意义的产品。但最终这段旅程提前结束了，这让我不得不思考：在职业发展中，如何在理想与现实之间找到平衡？\n想到当初，（前）老板曾对我说：“希望你不要太早抛弃我们。” 但命运总是充满讽刺，最终被抛弃的却是我自己。那天的劝退，我依然记得清清楚楚，（前）老板说了一句：“以后我们也做不了朋友了。” 我知道，员工和老板之间本就不…",
-          "link": "https://innei.in/notes/184",
-          "publishedOn": "2024-12-22T16:21:21.000Z",
-          "wordCount": 1806,
-          "title": "2024 · 前路未尽，初心犹在",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -384,7 +367,7 @@
           "description": "jinhanzhang2005: \n背景\n我现在是国内某弱 211 软件工程系的一名大三本科生，预计可以拿到保研资格，大概率可以保到某 985 中下学校。大学期间有一些还不错的奖项，也做过一些 AI 方向的科研项目。\n目前比较喜欢和熟练使用的技术栈主要是 Node.js ，对折腾各种新技术比较感兴趣。\n疑惑\n前面三年其实花了很多时间去提升自己的技术和代码能力，但是这三年正好是 GPT 等大模型迅猛发展的时期，亲身经历了从 GPT3 爆火到各种大模型遍地开花这段时期。\n之前其实还没有太大的危机感，最近用 Cursor 完成了一些课堂作业之后感觉 AI 比我想象的强大太多。。好多前后端的小项目完完全全用 AI 来实现了（ Express+Vue ），几乎一行代码没有写。\n咨询\n请问在现在这种背景下，下面的几年（包括研究生）应该往什么方向继续发展？如果还只是提升自己的代码能力\n很担心吃不上饭。。\n谢谢各位大佬！！",
           "link": "https://www.v2ex.com/t/1106636",
           "publishedOn": "2025-01-20T16:12:26.000Z",
-          "wordCount": 394,
+          "wordCount": 400,
           "title": "AI 发展如此迅猛的情况下软件工程/计算机专业本科生关于未来职业选择的一些咨询",
           "imageUrl": null
         },
@@ -414,7 +397,7 @@
           "description": "googooog: \nopenwrt 意外重启后 HA 的容器突然消失了\n现在状态是能看到 4 个容器 4 个镜像，之前是 5 个容器 5 个镜像。\n我重新安装 HA 的镜像提示已存在\n重新 run HA 容器提示 docker: Error response from daemon: layer does not exist.\n大佬们如何修复这个问题？可以接受重新安装 HA 的容器。",
           "link": "https://www.v2ex.com/t/1106631",
           "publishedOn": "2025-01-20T15:25:09.000Z",
-          "wordCount": 401,
+          "wordCount": 402,
           "title": "openwrt 意外重启后， home assistant 容器丢失且无法重新安装。帮忙解决可以付费",
           "imageUrl": null
         },
@@ -444,7 +427,7 @@
           "description": "jacketma: \n一个训练完成的大模型离线使用，且没有加入任何反馈或自修正功能，同一个问题，无论问多少次，LLM 都应该给出一模一样的答案吗？\n我找了几个在线模型测试，同一个问题，一分钟内全部问 10 次，前面三五次大同小异，五次之后，很多几千字的答案几乎都是一样的。有没有大佬了解输出答案背后的“微扰”因素是什么?",
           "link": "https://www.v2ex.com/t/1106628",
           "publishedOn": "2025-01-20T15:09:29.000Z",
-          "wordCount": 403,
+          "wordCount": 426,
           "title": "反复问 AI 同一个问题， LLM 大模型会给出一样的答案吗？",
           "imageUrl": null
         },
@@ -464,7 +447,7 @@
           "description": "xueyuehua: \nb 站 真有那么多广告吗，为什么页面没打开多久就显示一堆拦截",
           "link": "https://www.v2ex.com/t/1106626",
           "publishedOn": "2025-01-20T14:45:26.000Z",
-          "wordCount": 375,
+          "wordCount": 383,
           "title": "unblock 到底拦截了什么",
           "imageUrl": null
         },
@@ -524,7 +507,7 @@
           "description": "leonidas: \n脸上痣比较多，想问问有没点过痣的，点了会不会留疤，点后会不会复发？",
           "link": "https://www.v2ex.com/t/1106618",
           "publishedOn": "2025-01-20T13:44:02.000Z",
-          "wordCount": 535,
+          "wordCount": 560,
           "title": "有没点过痣的？",
           "imageUrl": null
         },
@@ -534,7 +517,7 @@
           "description": "cccchg: \n最近老款 model y 降价很厉害，但是焕新 y 也上了，有没有懂哥对比下",
           "link": "https://www.v2ex.com/t/1106614",
           "publishedOn": "2025-01-20T13:30:15.000Z",
-          "wordCount": 525,
+          "wordCount": 517,
           "title": "入 Tesla 焕新 Model Y，还是老款 Y，有没有懂哥！",
           "imageUrl": null
         },
@@ -544,7 +527,7 @@
           "description": "xulianbang: \n哔哩官方群不活跃，所以自己建了个 B 站 UP 主交流学习群；\nRmVkLVh1邀请进群。",
           "link": "https://www.v2ex.com/t/1106613",
           "publishedOn": "2025-01-20T13:28:35.000Z",
-          "wordCount": 381,
+          "wordCount": 363,
           "title": "哔哩官方群不活跃，所以自己建了个 B 站 UP 主交流学习微信群",
           "imageUrl": null
         },
@@ -564,7 +547,7 @@
           "description": "VisualStudioCode: \n早前上线的新闻： https://www.ithome.com/0/450/216.htm",
           "link": "https://www.v2ex.com/t/1106610",
           "publishedOn": "2025-01-20T13:20:22.000Z",
-          "wordCount": 380,
+          "wordCount": 399,
           "title": "高德地图之前上线的『地震地图』已经默默下线了，搜不到了",
           "imageUrl": null
         },
@@ -574,7 +557,7 @@
           "description": "alect: 安徽电信，最近新添置了个大硬盘，重新开刷 PT ，\n五天已经累计 3TB 上传了，下载不到 1TB ，会被当成 PCDN 封宽带吗？",
           "link": "https://www.v2ex.com/t/1106609",
           "publishedOn": "2025-01-20T13:19:51.000Z",
-          "wordCount": 469,
+          "wordCount": 470,
           "title": "下 PT 会被当成 PCDN 么？",
           "imageUrl": null
         },
@@ -594,7 +577,7 @@
           "description": "fu82581983: \n\n⚡  性能媲美 OpenAI-o1\n📖 完全开源的模型和技术报告\n🏆 MIT 许可：可自由蒸馏、商业化！\nX: https://x.com/deepseek_ai/status/1881318130334814301\nGithub: https://github.com/deepseek-ai/DeepSeek-R1\nDeepSeek 太强了，再这样发展下去，感觉要成为开源大模型的扛把子了",
           "link": "https://www.v2ex.com/t/1106607",
           "publishedOn": "2025-01-20T13:14:08.000Z",
-          "wordCount": 528,
+          "wordCount": 599,
           "title": "DeepSeek-R1 对标 OpenAI-o1 模型开源了",
           "imageUrl": null
         },
@@ -604,7 +587,7 @@
           "description": "1145148964: 硬件组成包括 5950x 128G 内存 傲腾 900p 280p 2 块 2t 固态 4 块 4t 机械。一台普通 ups ，一台 7840hs 小主机，一台 12 代 i7 小主机。一台 mac air 。\n要求：提供 mac air 的时间机器，dropbox 同步，cloudreve 架设，国内软件使用，国外软件使用、股票交易软件单独部署。偶尔游戏。\n要求：架构简单，在出现意外的情况下能够自行维护。\n软件部分：Windows server 2025 。这个发行版非常好用，几乎保存了除了 amd 显卡驱动安装的以外的所有日常使用功能。日常使用没有任何问题。\n5950x 主机安装 Windows server 2025 ， 开启 hyper-v 、安装 firefox 、frp 、zerotier 。\n开启 smb 共享和 openssh 存储空间去重。关闭 defender 。\n固态硬盘开启”refs 去重和压缩“保存虚拟机文件。机械硬盘使用存储池。\ndropbox ，cloudreve ，git ，国内，国外，mtphotos ，股票软件分别使用不同虚拟机。只有一台虚拟机使用了 win11 其他都是 server 2025 出乎意料的好用。\ndropbox 使用 smb 共享出来。cloudreve 使用 webdav 和浏览器访问。所有主机都可以通过 Windows.local 类似的格式使用 rdp 登陆。文件任意乱扔，系统处理去重。\n实现了自由备份，任意打快照和重启，无任何影响。软件响应飞快。即使换机也只需要迁移 vhdx 。\n一些问题的解决方案：\n1.怎么装显卡驱动，我没有安装。\n但是可以通过版本转换，转换成工作站版本之后正常安装，再转换回来。\n2.怎么备份\n重要文件 dropbox ，次重要小主机。不重要不备份。\n3.refs 去重和压缩\n一个 win 的新技术。=https://learn.microsoft.com/zh-cn/azure/azure-local/manage/refs-deduplication-and-compression?tabs=windowsadmincenter\n4.rdp 安全性\n目前使用一个不常见用户名和不长的密码。更换了主机的 3389 端口。\n5.refs 安全性\n备份的那台小主机是 ntfs 。dropbox 备份不用考虑格式。\n6.怎么打游戏\n所有虚拟机保存，重启到游戏盘或者用小主机打。\n7.Windows server 使用微软账号登陆后，有概率无法本地登陆，只能 rdp 登陆，看起来像是本地认证的问题。在 hyperv 里也有类似情况。关闭增强模式之后即可。或者使用 mstsc 。\n8.本机 mstsc 快于 remote desktop 。原因不详。\n9.ibkr 和 thinkorswim 在 amd 平台疑似慢于 intel 。故购入 intel 主机。\n10.windows server 可以自动安装 intel 核显驱动，amd 不行。\n11.mac 使用 smb 上的虚拟磁盘备份。\n12.windows denfender 使用 Windows server manager 卸载。\n13.这个方案迁移配合千兆网/wifi6 几乎没有压力。\n14.hyper-v 使用无线网卡接入，会有各种问题。只建议有线网络。",
           "link": "https://www.v2ex.com/t/1106606",
           "publishedOn": "2025-01-20T13:08:38.000Z",
-          "wordCount": 480,
+          "wordCount": 462,
           "title": "分享一个方便迁移 Windows 主机软硬件方案。",
           "imageUrl": null
         },
@@ -614,7 +597,7 @@
           "description": "cobbage: 我村里面的父辈大概都 60 左右了，就算给父母红包感觉他们接收也没很爽快。今天给我花妈（地方叫法）我只有微信转账过去也是不收。23 年相亲碰到的喜欢的女孩子也是什么也不收，后来没成送的东西未拆封又寄给我了。有时候笑笑真想哭",
           "link": "https://www.v2ex.com/t/1106605",
           "publishedOn": "2025-01-20T13:07:44.000Z",
-          "wordCount": 389,
+          "wordCount": 354,
           "title": "红包送不出去",
           "imageUrl": null
         },
@@ -624,7 +607,7 @@
           "description": "xtdhwl: 体验 cursor 感觉 ai 编程时代来了，想法不算成熟但有方向\n1：ai 工具链\n2：课程培训\n3：外包\n4：行业软件\n希望软件工程所一起加入讨论创业方向的\nwx:13021266639",
           "link": "https://www.v2ex.com/t/1106603",
           "publishedOn": "2025-01-20T12:53:54.000Z",
-          "wordCount": 384,
+          "wordCount": 353,
           "title": "AiCode 创业讨论小组",
           "imageUrl": null
         },
@@ -634,7 +617,7 @@
           "description": "yiyiniu:",
           "link": "https://www.v2ex.com/t/1106602",
           "publishedOn": "2025-01-20T12:53:09.000Z",
-          "wordCount": 377,
+          "wordCount": 384,
           "title": "有人对接过华为的 AI 模型吗？",
           "imageUrl": null
         },
@@ -644,7 +627,7 @@
           "description": "dinjufen: 如题，奶奶不识字，目前只会用按键老年机接电话，来电了按一下绿色的就行。如果想双方视频通话，有什么好的办法吗，只能智能手机加微信？",
           "link": "https://www.v2ex.com/t/1106601",
           "publishedOn": "2025-01-20T12:41:42.000Z",
-          "wordCount": 480,
+          "wordCount": 478,
           "title": "老人不识字，有没有简单的方式视频通话",
           "imageUrl": null
         },
@@ -674,7 +657,7 @@
           "description": "rizon: \n国内 aws 机器。\n原本是 python 代码，对 jina.ai 的 embedding  API 接口发 reques 请求，请求是可以成功的。\n但是换成 nodejs 后，用 fetch 或 axios 请求，总会 connect timeout 。\n找不到解决办法，特来求助大佬们，谢谢",
           "link": "https://www.v2ex.com/t/1106597",
           "publishedOn": "2025-01-20T12:24:06.000Z",
-          "wordCount": 764,
+          "wordCount": 739,
           "title": "[求助大佬！] nodejs axios 连接超时问题",
           "imageUrl": null
         },
@@ -684,7 +667,7 @@
           "description": "wyj0320: 公司情况\n1. 上海大厂\n2. 工作时长：10-8-5\n要求\n1. 3 年或以上程序开发经验，有 1 年以上完整的 Java 开发经验。\n2. 211/985 ，或等同水平海外学校。\n3. 能够独立沟通需求，理解产品价值。积极主动，有较强的学习能力，独立解决问题。\n4. 有出海产品，或者海外经历加分。\n请查看上述要求，其中(1)(2)是硬性要求。\n面试流程较短，核心考察基础编程能力，计算机知识，以及沟通能力。\n有兴趣的请私信我，或把简历发送到： ignited.referral@gmail.com",
           "link": "https://www.v2ex.com/t/1106595",
           "publishedOn": "2025-01-20T12:21:57.000Z",
-          "wordCount": 430,
+          "wordCount": 436,
           "title": "[上海] [大厂] 后端工程师招聘",
           "imageUrl": null
         }
