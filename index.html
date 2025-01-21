@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-21 datetime="2025-01-21T16:47:07.000Z">2025-01-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-21 datetime="2025-01-21T16:47:07.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-21 datetime="2025-01-21T19:18:37.000Z">2025-01-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-21 datetime="2025-01-21T19:18:37.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,175 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106936"
+                        open
+                      >
+                        <summary class="article-expander__title">我妈想买个折叠手机 预算 1w 以内 大家有何推荐？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106936">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>HuPu:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106935"
+                        open
+                      >
+                        <summary class="article-expander__title">RouterOS 7.18beta2 已支持跳过 IPV6 服务端 DUID 认证，中兴 vbras 可正常获取 IPV6 PD</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106935">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>nivalxer: 最新的 7.18beta2 已添加选项，可以跳过 duid 验证，可正常获取 IPV6 PD
+以下为更新日志描述：
+dhcpv6-client - added &quot;validate-server-duid&quot; option;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106934"
+                        open
+                      >
+                        <summary class="article-expander__title">为了看 RSS，也是醉了，自己动手撸了个 RSS 阅读器</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106934">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>pizone: 
+今天看到一个帖子，有人说“rss 不知道该说点什么，看着一大堆未读订阅发呆”。本来不想说 RSS 这个非常小众的话题，看到这个标题突然感到这个观点似曾相识，还是可以聊一聊。
+之前我分享过用 AI 编程工具 Cursor 开发复杂项目的一些心得（帖子地址）。今天不聊 Cursor ，想和大家聊聊我对 RSS 的一些新想法。
+对 RSS 的复杂情感：又爱又恨
+说实话，我对 RSS 的感情很复杂，又爱又恨。我喜欢订阅各种 RSS 源，但有时会忘了看，导致未读消息越积越多，最后干脆放弃。但过一段时间，我又会忍不住重新用回 RSS 。我觉得应该是缺少一款趁手的 RSS 订阅工具，只要体验足够好，还是可以让我每天刷一刷。所以，那段时间一直在寻找各种优秀的 RSS 工具，希望自己能每天坚持阅读。其实也找到了比较满意的 RSS 阅读器，但阅读 RSS 的习惯还总是断断续续。
+为什么 RSS 难以坚持？
+后来我仔细想了想，问题其实出在 RSS 阅读本身带来的价值含量偏低。低价值再叠加类似强迫症（消掉未读数）来支撑阅读 RSS 动力还不完全足够。虽然大家都说 RSS 订阅足够精准、没有广告，可以对抗推荐算法的说法上有点过于理想化了，真实情况是：各个订阅源的内容非常杂乱，即使是某些垂直领域的博主也话题很广，基本上什么热门话题也会说点，其实跟推荐算法有区别好像又没有区别。所以，在内容推荐算法或短视频这种让人上瘾的东西面前，RSS 逐渐被抛弃也是很正常的。它唯一明显的优势，可能就是按时间排序了。
+我为什么还喜欢 RSS ？
+尽管 RSS 有这么多问题，但我仍然喜欢它。也许，我只是想重新掌握信息的主动权，而不是被算法牵着鼻子走，其实不能说掌握主动权，只能说做一些挣扎。因此，我萌生了自己开发一款 RSS 阅读器的想法。首先我需要解决以下几个问题：
+内容质量不高
+未读消息太多
+没时间看
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106932"
+                        open
+                      >
+                        <summary class="article-expander__title">Oh-PyTorch: 用 PyTorch 解决 numpy-100 的练习题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106932">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>huangyezhufeng: 
+TL;DR: https://github.com/shenxiangzhuang/Oh-PyTorch/blob/master/100-PyTorch-Exercises.ipynb
+主要是帮助练习和学习 Torch 的一些基本概念和基本操作，希望能对大家有帮助！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106931"
+                        open
+                      >
+                        <summary class="article-expander__title">有福建的泉州和南安相关的朋友吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106931">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jeesk: 
+你们能够正常访问 cf 提供 cdn 服务吗？
+目前观测到一些网络现象， 发现你们的联通节点貌似有问题。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106930"
+                        open
+                      >
+                        <summary class="article-expander__title">腾讯云原来也没人审核 commit 啊，笑，网页多了几个“一级主标题、一级副标题”字样，测试代码上生产了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106930">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Licsber: 
+官网点活动 底下就能看见（ 小问题 不过确实显得不专业
+V2 好像贴不上链接 会被识别成 aff
+
+
+一级主标题
+
+一级副标题
+
+
+
+
+
+
+
+最近在蹲轻量活动
+3 年之前买的快到期了 在想换啥好
+200M 的看起来还挺香的（？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1106928"
+                        open
+                      >
+                        <summary class="article-expander__title">开源一款年味十足的桌面端 APP —— 桌面春联。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106928">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>lioiu: 这是一款跨平台桌面应用，让传统春联以现代方式展现在你的电脑上 🧨！ 欢迎大家下载体验😊
+GitHub 地址： https://github.com/liou666/couplet</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -354,23 +523,6 @@ npm
 现在手痒了又想玩</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106909"
-                        open
-                      >
-                        <summary class="article-expander__title">一个人有多耀眼，就会有多快陨落，马斯克——下一个“马云”？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106909">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>lucasj:</span>
                             </span>
                           </div>
                         </a>
@@ -936,162 +1088,6 @@ Root 必选（因为要用 WG 内核 等），然后主要看网络/射频，日
 家里用的软路由的 openclash 科学上网，今天突然发现智能门锁的实时监控用不了了。试了下用另一个手机开热点就可以用，门锁没问题，要怎么破，把智能门锁弄成直连？
 家里是软路由拨号 硬路由是做有线中继模式，由软路由统一下发所有 ip ，门锁是鹿客的 s6max ，有没人知道要怎么搞</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106885"
-                        open
-                      >
-                        <summary class="article-expander__title">[视频] 牛马不还乡 😂</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106885">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>lucasj: 
-牛马不还乡 - 哔哩哔哩</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106884"
-                        open
-                      >
-                        <summary class="article-expander__title">分享一个开源的白板工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106884">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>kikoroc: 
-一个开源的白板工具，支持思维导图、流程图和画笔等多种功能。
-不仅提供了丰富的绘图工具，还具备自动保存、导出为 PNG 、JPG 和 JSON 等多种实用功能。
-网站网址： https://drawnix.com
-项目地址： https://github.com/plait-board/drawnix</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106882"
-                        open
-                      >
-                        <summary class="article-expander__title">电脑和路由器里能看到 240e 开头的 IPV6 的地址，但是访问测试网址却说没有侦测到</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106882">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xingye163: 电脑和路由器里能看到 240e 开头的 IPV6 的地址，但是访问测试网址却说没有侦测到 IPV6 地址
-光猫设置了桥接，路由器拨号，用的是爱快路由器系统
-已经正确打开了 IPV6 地址分配，能在路由器和本地电脑上看到 240E 开头的 IPV6 地址
-但是播放 IPV6 的直播源却打不开，访问 IPV6 测试网址，也显示说没有侦测到 IPV6 地址，请问这是怎么回事呢。
-求教各位大佬！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106881"
-                        open
-                      >
-                        <summary class="article-expander__title">我喜欢在左侧车道开</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106881">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>maladaxia: 
-主要原因是左侧车速要比中间更快, 还有原因是我比较懒, 不喜欢变道
-我的习惯是:
-前方没车时, 130 速度巡航
-前方有车且车速大于 110 小于 130 时, 跟车
-前方有车且车速小于 110, 超过去, 然后再并到左侧
-老司机看看, 这样开有问题吗</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106880"
-                        open
-                      >
-                        <summary class="article-expander__title">新生儿嫌少，毕业生嫌多。</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106880">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>salor: 
-
-
-都不敢想后面十几年就业压力有多大，往死里卷吧。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106879"
-                        open
-                      >
-                        <summary class="article-expander__title">求教哪些安卓手机在国外使用比较方便呢？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106879">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>yangyu: 
-各位大佬好，平时在国外工作，一直用的是 iPhone 。这次回国买了一个安卓备用机，大电池，快充，高刷，信号还好，比 iPhone 好用太多了。打算趁国补买个配置高点的当主力机用。目前有以下这些问题：
-我目前用的是荣耀，尽管内置了 Google 框架，但是感觉功能不完整。哪些手机对 Google Pay 和 Android Auto 的支持比较好呢？
-国产手机都内置了反诈吗？有没有办法屏蔽或者直接刷成外版系统来规避？
-由于我会频繁去日本，请问国产手机对 NFC-F(Felica)的支持如何呢？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1106878"
-                        open
-                      >
-                        <summary class="article-expander__title">春节期间想出来转转</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1106878">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>pacino: 
-没去过福建，优先考虑想去泉州、厦门看看，然后潮汕那边据说年味也很足，也都没去过。大家有啥推荐的吗？没太多特殊要求，亲子友好即可。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2202,8 +2198,8 @@ A CSS Wishlist for 2025 originally published on CSS-Tricks, which is part of the
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12895911562">
-        <time id="build-timestamp" datetime="2025-01-21T21:10:13.089Z">2025-01-21T21:10:13.089Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12896803831">
+        <time id="build-timestamp" datetime="2025-01-21T22:10:10.812Z">2025-01-21T22:10:10.812Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
