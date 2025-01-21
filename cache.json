@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -287,7 +293,7 @@
           "description": "CurChen: 以下是原文：\n我们发送此电子邮件是为了通知您，您的 Google Play 发布商帐号已被终止。\n状态：帐号已被终止\nGoogle Play 发布商帐号被终止与开发者的行为有关，可能还会影响多个注册帐号和相关的 Google 服务。请访问开发者政策中心，详细了解我们如何贯彻实施开发者计划政策。\n发现了问题： 高风险行为\n我们发现了与您的开发者账号相关的高风险或滥用情况，并将根据“政策覆盖范围”政策采取这项措施。\n以下是政策地址： https://support.google.com/googleplay/android-developer/answer/10146128\n\n这里的“政策覆盖范围”政策 有人知道是什么意思吗\n今天操作了添加银行卡操作作为收款账号，绑定的是招商的 OSA 账户，这个账户 app store 上收款是没问题的\n其他就没操作啥了，不知道为啥会被封号\n有遇到这种情况的大佬吗",
           "link": "https://www.v2ex.com/t/1106905",
           "publishedOn": "2025-01-21T13:45:05.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "google play 账号被封了，因为““政策覆盖范围”政策”",
           "imageUrl": null
         },
@@ -297,7 +303,7 @@
           "description": "SGL:",
           "link": "https://www.v2ex.com/t/1106904",
           "publishedOn": "2025-01-21T13:38:11.000Z",
-          "wordCount": 386,
+          "wordCount": 395,
           "title": "老哥们，后端开发 go，年后什么方向的职位可能短缺，大模型应用开发方向有搞头吗",
           "imageUrl": null
         },
@@ -437,7 +443,7 @@
           "description": "tutugreen: \nRT ，\n前面也蹲了挺久，大概也知道国内方便解的大致只有一加了，但（之前）看一加全系没有 N79 ，就缓着了，本来早上还觉得 0 目标。。。\n想着等等魅族、三星，能 root 也行。\n然群友推了一个 Ace5Pro ，和客服确认有 n1/n3/n5/n8/n28A/n38/n40/n41/n48/n66/n77/n78/n79/n80/n81/n83A/n84/n89 ，刚好符合，准备趁国补先下手了，但其它方面砍的挺多，防水、无线充、影像、USB3.0 等等。\n还有评测也不是很多，不知道射频什么组合。\n好像是唯一机型了？还是个中端机\n向看看 v2 还有其他大满贯选项吗，或者能解锁的旗舰级等等（加钱可及吗\n小米国行解锁都变多专业考研题了，还随便指定出勤时间答题，纯粹恶心人了，最近传又收紧了，暂不考虑。。（要是 15u 国际版能解再说\nRoot 必选（因为要用 WG 内核 等），然后主要看网络/射频，日常体验。性能调教倒是放最后了，游戏很少在手机上。",
           "link": "https://www.v2ex.com/t/1106889",
           "publishedOn": "2025-01-21T12:16:25.000Z",
-          "wordCount": 466,
+          "wordCount": 468,
           "title": "8 Elite + N79/频段不砍 + 能解 BL/ROOT，还有得选吗",
           "imageUrl": null
         },
@@ -447,7 +453,7 @@
           "description": "Astronaut258: \n家里用的软路由的 openclash 科学上网，今天突然发现智能门锁的实时监控用不了了。试了下用另一个手机开热点就可以用，门锁没问题，要怎么破，把智能门锁弄成直连？\n家里是软路由拨号 硬路由是做有线中继模式，由软路由统一下发所有 ip ，门锁是鹿客的 s6max ，有没人知道要怎么搞",
           "link": "https://www.v2ex.com/t/1106888",
           "publishedOn": "2025-01-21T12:12:43.000Z",
-          "wordCount": 475,
+          "wordCount": 479,
           "title": "科学上网后智能门锁的实时监控连不上了怎么办",
           "imageUrl": null
         },
@@ -537,7 +543,7 @@
           "description": "firstmetcs: 在高架上突然发现除了限速摄像头旁边的小牌子还多了个常驻右上角的大牌子显示，目前试了一下只有在高架上可以显示，上高架自动显示，下高架就消失了，刷新也蛮及时的在弯道岔路之类的。\n手机系统是 iOS14.8 居然也能显示出来:)",
           "link": "https://www.v2ex.com/t/1106876",
           "publishedOn": "2025-01-21T10:54:37.000Z",
-          "wordCount": 346,
+          "wordCount": 350,
           "title": "CarPlay 的限速标志可以常驻显示了",
           "imageUrl": null
         },
@@ -577,7 +583,7 @@
           "description": "SmithJohn: 看到隔壁前端面试题帖子了.\n我们 javaer 需要自己的题库.\n各种常见的不常见的面试题,大家来互相交流吧.",
           "link": "https://www.v2ex.com/t/1106872",
           "publishedOn": "2025-01-21T10:39:46.000Z",
-          "wordCount": 1368,
+          "wordCount": 1370,
           "title": "大佬们，一人出一道后端面试题，年后准备跳槽",
           "imageUrl": null
         },
@@ -597,7 +603,7 @@
           "description": "StephenJoseDai: \n我有两个问题，第一个是，树莓派只有后一个 RJ45 口以及一个 WIFI ，抛开 WIFI 不说，怎么让这一个 RJ45 口既做 WAN 又做 LAN ？ WAN 口向上游获取 IP 或者 PPPOE,LAN 则是下发 IP 给客户端？\n第二个是，我的 RJ45 用来做 WAN ，WIFI 用来做 LAN ，客户端连接到 WIFI 后会得到一个 IP ，但是这里有个点，我是这么设置的，WAN 获取 IPV4 ，再建一个 WAN6 来获取 IPV6 ，均由上游下发，这个时候我想 WIFI 也能拿到上游给的 IPV6 并且下发给下面的客户端，这个该咋做，搞了好久始终拿不到上面的 V6  \n图 1\n图 2\n图 3",
           "link": "https://www.v2ex.com/t/1106870",
           "publishedOn": "2025-01-21T10:26:04.000Z",
-          "wordCount": 535,
+          "wordCount": 537,
           "title": "Openwrt 单臂路由",
           "imageUrl": null
         },
@@ -607,7 +613,7 @@
           "description": "WenJimmy: \n交强险已经垫付了 18,000 ，司机个人垫付了 12,500\n昨天刚出院，对于肇事者保险公司，我应该怎么与他们沟通，应该主张哪些赔偿项目，有没有什么坑？工伤这一块公司倒是很主动，认定没下来期间让我请了病假。\n我打算等我拆除钢板后再与保险公司索赔，也就是大概一年后。",
           "link": "https://www.v2ex.com/t/1106867",
           "publishedOn": "2025-01-21T10:22:10.000Z",
-          "wordCount": 373,
+          "wordCount": 374,
           "title": "上班途中开门杀锁骨骨折，上了钢板，关于工伤赔偿和交通事故肇事赔偿应该怎么主张？",
           "imageUrl": null
         },
@@ -617,7 +623,7 @@
           "description": "hrshanbay: 工作职责：\n1.负责公司 iOS 平台应用的设计、开发与维护，确保产品的高质量交付；\n2.参与项目需求分析、功能设计，与团队成员紧密协作，制定技术方案；\n3.依据产品需求进行 iOS 应用的界面设计、模块编码，优化用户体验；\n4.负责解决开发过程中的技术难题，对应用进行性能优化、调试与修复；\n5.跟进 iOS 系统版本更新，适配新特性，确保应用的兼容性与稳定性；\n6.协助完成应用的测试、上线部署工作，配合产品团队处理线上问题。\n职位要求：\n1.本科及以上学历，计算机相关专业，3 年以上 iOS 开发经验；\n2.熟练掌握 Swift 编程语言，熟悉 iOS 开发框架；\n3.具备扎实的数据结构与算法基础，能独立完成复杂功能模块开发；\n4.熟悉 iOS 应用的性能优化方法，了解内存管理、多线程编程；\n5.掌握常用的设计模式，具备良好的代码规范与编程习惯；\n6.有过完整 iOS 项目上线经验，熟悉 App Store 上架流程；\n7.具备良好的团队协作精神，较强的学习能力与问题解决能力；\n加分项：\n1.熟悉 AI 编程，有利用 AI 技术（如机器学习、深度学习框架，如 TensorFlow 或 PyTorch 在 iOS 平台的移植运用）优化 iOS 应用功能的实践经验;\n2.熟悉 Flutter 技术，能够独立使用 Flutter 搭建跨平台应用的基础架构，实现部分功能模块开发\n\n关于扇贝团队：\n扇贝是国内知名的在线学习平台，致力于成为最受用户信赖的终身学习平台。目前已经拥有过亿用户。\n我们一直在努力，秉持“让每个人都能通过学习变得更好”这个使命，为每一个用户提供有趣的、个性化的学习体验，让他们成为更好的自己。\n我们在分布式架构，自然语言处理等技术方面也有长期积累，结合精良的内容制作，能够为用户提供独特和优秀的产品服务。\n简历可以投递至 recruit@shanbay.com",
           "link": "https://www.v2ex.com/t/1106866",
           "publishedOn": "2025-01-21T10:13:23.000Z",
-          "wordCount": 431,
+          "wordCount": 433,
           "title": "扇贝-iOS 工程师-南京-招聘",
           "imageUrl": null
         },
@@ -627,7 +633,7 @@
           "description": "wuhunyu: \n如题，我在使用 jOOQ 的时候，事务无法正常生效，无论是声明式事务还是编程式事务\n当我以为是代码问题时，我换回了 mybatis ，发现事务是正常的\n使用编程式事务时，大致代码如下\n@Service(\"userService4Jooq\")\n@RequiredArgsConstructor\n@Slf4j\npublic class UserService4Jooq {\n\n    private final TUserDao userDao;\n\n    @Transactional(rollbackFor = Exception.class)\n    public Integer insert(final Long userId, final String userName) {\n        final TUserRecord tUserRecord = new TUserRecord();\n        tUserRecord.setId(userId);\n        tUserRecord.setUserName(userName);\n        final TUser tUser = tUserRecord.into(TUser.class);\n        userDao.insert(tUser);\n        return 1;\n    }\n\n    @Transactional(readOnly = true)\n    public TUser selectById(final Long userId) {\n        return userDao.fetchOneById(userId);\n    }\n\n    @Transactional(rollbackFor = Exception.class)\n    public TUser insertRetuning(final Long userId, final String userName) {\n        this.insert(userId, userName);\n        return this.selectById(userId);\n    }\n\n    @Transactional(rollbackFor = Exception.class)\n    public TUser insertRetuningThrow(final Long userId, final String userName) {\n        final TUser tUser = this.insertRetuning(userId, userName);\n        // TODO: 手动异常，待删除\n        int i = 10 / 0;\n        return tUser;\n    }\n\n}\n\n完整的样例代码可以访问这里",
           "link": "https://www.v2ex.com/t/1106864",
           "publishedOn": "2025-01-21T10:03:34.000Z",
-          "wordCount": 567,
+          "wordCount": 569,
           "title": "jOOQ 事务失效",
           "imageUrl": null
         },
@@ -637,7 +643,7 @@
           "description": "darktutu:",
           "link": "https://www.v2ex.com/t/1106863",
           "publishedOn": "2025-01-21T10:01:27.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "oyunfor 购买礼品卡 收到这个提示 Payment has not been approved. 如何解决啊",
           "imageUrl": null
         },
@@ -647,7 +653,7 @@
           "description": "coorey: \n怎么修复",
           "link": "https://www.v2ex.com/t/1106862",
           "publishedOn": "2025-01-21T09:51:53.000Z",
-          "wordCount": 363,
+          "wordCount": 365,
           "title": "NTFS for Mac 格式化的 NTFS 硬盘在 windows 上识别不了",
           "imageUrl": null
         },
@@ -657,7 +663,7 @@
           "description": "74123gzy: 之前一直没想起来这个事情，前两天才发现，qq 可以导入本机上的旧版 qq 的消息记录。\n然后现在我有两台电脑，都已经导入了旧版的消息记录，但是我想导出的时候发现没这个功能，我想合并新旧电脑上的新 qq 数据，因为新电脑已经用了一段时间了，所以不好直接覆盖\nTLDR：均为新版 qq 聊天记录，如何备份旧电脑上的聊天记录，然后和新电脑上的记录合并？",
           "link": "https://www.v2ex.com/t/1106860",
           "publishedOn": "2025-01-21T09:50:28.000Z",
-          "wordCount": 382,
+          "wordCount": 383,
           "title": "现在有没有什么好的 pc 版 qq 消息备份+同步的方案？",
           "imageUrl": null
         },
@@ -667,7 +673,7 @@
           "description": "limubai66: 今天发现京东上线了国补，要用云闪付支付，然后按照正常流程领取资格，京东下单，但没注意地址错误，使用了非上海地址，导致支付完成后，秒退单，且资格未返还，打京东客服说是 48 小时内返还。\n后面想了下，上一年使用国补，基本都是秒返还的，感觉有些不对。然后在抖音、百度搜索，发现也有一些朋友遇到了这个问题，也发现黑猫投诉，商务部投诉都有类似情况，结果不得而知，但大多数都说没办法，只能用朋友或家人的账号下单了.\n所以大概我的资格也回不来了！\n难崩😭",
           "link": "https://www.v2ex.com/t/1106859",
           "publishedOn": "2025-01-21T09:49:29.000Z",
-          "wordCount": 424,
+          "wordCount": 433,
           "title": "云闪付国补支付后不要退款！",
           "imageUrl": null
         },
@@ -677,7 +683,7 @@
           "description": "hxlgg01: \n（注：此方法仅适用于像我这样 GitHub 下载顶天 1.5MB 然后下载一半直接 0KB/S 的 speedtest 20MBps 的网速差的人）\n首先，你要有一台海外 VPS 。\n然后，在 GitHub 上复制下载链接，然后在你的 VPS 上输入 wget gituub-url\n这样就可以很快的下载完毕。然后在你的本地，可以用 SFTP 或者 SSH 来下载。\n虽然因带宽限制，速度依然不会很快，但也比在本地 0KB 要好得多。\n当然，这个方法也适用于很多国内下载速度慢/无法下载的资源。\n如果你家网速较好，就不必像我这样多此一举了。",
           "link": "https://www.v2ex.com/t/1106858",
           "publishedOn": "2025-01-21T09:48:07.000Z",
-          "wordCount": 587,
+          "wordCount": 585,
           "title": "发现一种加快 github 下载速度的方法",
           "imageUrl": null
         },
