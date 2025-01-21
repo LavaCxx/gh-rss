@@ -287,7 +287,7 @@
           "description": "thorby: \n因为有几个女性好友都主动说，其实女人比男人更好赚钱。\n但网络上，漫天的都是女性抱怨缺少工作/赚钱机会。\n所以真相是什么？\nps：只谈合法、且可公开的前提。",
           "link": "https://www.v2ex.com/t/1106747",
           "publishedOn": "2025-01-21T04:33:25.000Z",
-          "wordCount": 495,
+          "wordCount": 587,
           "title": "客观讨论当前社会，“男人和女人”谁更容易获得赚钱机会？",
           "imageUrl": null
         },
@@ -317,7 +317,7 @@
           "description": "promise2mm: \n背景：土区家庭共享 200G\n主账号余额不足 79.99 里拉了（看了下，只有四十多）\n但是现在貌似子账号的功能都能正常使用？\n近期扣费记录，24 年 12 月没扣？\n\n功能貌似都正常",
           "link": "https://www.v2ex.com/t/1106744",
           "publishedOn": "2025-01-21T03:54:57.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "AppleStore 余额不足了，但是 iCloud+ 还能用？",
           "imageUrl": null
         },
@@ -327,7 +327,7 @@
           "description": "RIckV2: \n用过 cursor ，感觉 gitHub copilot 已经和 cursor 差不多了， 而且免费，有没有深度对比过的 v 友，cursor 还值得买吗？",
           "link": "https://www.v2ex.com/t/1106743",
           "publishedOn": "2025-01-21T03:54:35.000Z",
-          "wordCount": 682,
+          "wordCount": 725,
           "title": "gitHub copilot 比 cursor 怎么样",
           "imageUrl": null
         },
@@ -347,7 +347,7 @@
           "description": "5261: \n请求流程如下\n用户请求 -> nginx -> kong 网关\n需求如下\n想通过 kong 网关 ip-restriction 插件 限制部分用户的真实 ip 访问接口\n遇到的问题\n1 、kong 网关这边获取到的 X-real-ip 一直都是 nginx 节点的 ip ，导致 ip-restriction 插件失效\nnginx 部分配置\n location / {\n            proxy_pass        http://a.kong.com/;\n            proxy_set_header   X-Real-IP        $remote_addr;\n            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;\n}\n\nkong 网关配置\nserver {\n   server_name kong;\n   listen 0.0.0.0:8000;\n   error_page 400 404 408 411 412 413 414 417 494 /kong_error_handler;\n   error_page 500 502 503 504 /kong_error_handler;\n\n   access_log logs/access.log main;\n   error_log logs/error.log notice;\n\n   client_body_buffer_size 8k;\n\n\n   real_ip_header     X-Real-IP;\n   real_ip_recursive  off;\n   set_real_ip_from 0.0.0.0/0;\n   set_real_ip_from ::/0;\n\n\n   in…",
           "link": "https://www.v2ex.com/t/1106741",
           "publishedOn": "2025-01-21T03:52:52.000Z",
-          "wordCount": 626,
+          "wordCount": 695,
           "title": "小开发咨询下运维的问题,nginx 转发到 kong 网关， ip-restriction 插件失效问题",
           "imageUrl": null
         },
@@ -357,7 +357,7 @@
           "description": "BlackSnow: \n向 V 友们请教下 \n我现在使用的是联想 Y7000P 笔本（ 2018 美版） 如果省电模式下 进入休眠模式不能远程访问 目前了解到机制是 休眠后网卡适配器后台不运行 可能是联想的硬件机制或者 win 的设计（之前那个 USB C 休眠无法唤醒外置屏幕踩过坑）\n我现在的使用情况是，在电源选项中选择了从不进入休眠状态，代价是即使进入锁屏界面，显示器也会保持常亮\n我这边需求是，能否定制这样的电源模式，不进入休眠，同时也能够过保证待机一段时间后熄屏（远程还能重连）。",
           "link": "https://www.v2ex.com/t/1106740",
           "publishedOn": "2025-01-21T03:51:50.000Z",
-          "wordCount": 374,
+          "wordCount": 378,
           "title": "联想 Y700P 待机熄屏",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "mylovesaber: \n形参要 Integer ，传了个 String 进来（小程序报错页面是这么提示的），导致后续整个订单流程崩溃。医保扣钱了，然后把我订单关掉了，总机转分机全都打不通，后来找到微信小程序里面联系客服，让我去缴费记录里面再付款一次，然后医保又扣了我一次钱，但付完款返回的时候提示订单失败，感觉他们数据库中我的数据链被搞乱了，跟客服反馈让她摇开发处理下了。。。。\n真该死啊给患者写 bug 。。。真服了 orz",
           "link": "https://www.v2ex.com/t/1106739",
           "publishedOn": "2025-01-21T03:51:24.000Z",
-          "wordCount": 391,
+          "wordCount": 418,
           "title": "南京骨楼医院互联网医院微信小程序开发商写 bug 啊，只扣钱不开单",
           "imageUrl": null
         },
@@ -387,7 +387,7 @@
           "description": "520discuz: 我最近买的国内积存金，发现即使是国际金不涨甚至下跌的情况下，但只要钱贬值了，那么我的国内积存金还是会上涨。\n现在有个问题，我也想在支付宝里买纳斯达克 100 基金和标普 500 基金，那么这些美股基金会和黄金一样受汇率影响吗？",
           "link": "https://www.v2ex.com/t/1106737",
           "publishedOn": "2025-01-21T03:46:07.000Z",
-          "wordCount": 387,
+          "wordCount": 389,
           "title": "支付宝里买纳斯达克 100 基金和标普 500 基金会受汇率影响吗？",
           "imageUrl": null
         },
@@ -397,7 +397,7 @@
           "description": "elza: \n楼主河南人，28 岁，已婚已育，毕业五年一直在上海从事后端开发工作。\n五年时间楼主在中厂、大厂都呆过，技术水平自认中上等。刚毕业的前两年时间，对技术抱有高度热情，喜欢看技术视频、书籍、源码和博客来扩展深度、广度。\n但随着时间的推移，个人在这行的发展，不出意外的话也是一眼望到头。最近三年技术热情持续降低，一直处于吃老本的状态，自身越来越焦虑。\n35 岁的危机也没剩几年，以自身的能力也没法在上海扎根。\n届时必然在十八线小县城里买房，带着老婆孩子回去。\n到时候肯定会面临生计问题，所以眼下想开展一门副业，为到时候做准备。\n写小说（尝试了两个月，断断续续写了 6 万字，码字太痛苦了，有必要再坚持吗?）\n学摄影（回去开个小影楼？）\n少儿编程（有这行的基础，会不会好做点，县城里能好做吗？）\n待补充.\n现在很是迷茫，不知道发展那个合适，求大佬提点建议。",
           "link": "https://www.v2ex.com/t/1106735",
           "publishedOn": "2025-01-21T03:41:43.000Z",
-          "wordCount": 511,
+          "wordCount": 587,
           "title": "中年程序员的未来发展规划",
           "imageUrl": null
         },
@@ -437,7 +437,7 @@
           "description": "churchmice: \n坐标 021 ，上次汇了 1w 刀，卡了两天汇出的\n这次想汇个 2w 刀，不知道会不会被卡住\n有试过的朋友吗",
           "link": "https://www.v2ex.com/t/1106730",
           "publishedOn": "2025-01-21T03:33:03.000Z",
-          "wordCount": 382,
+          "wordCount": 384,
           "title": "兴业的寰宇人生跨境回款一次最大多少可以不触发审核？",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "sikuu2al: \n大概率是转港版的 总感觉国行有很多区别和限制\n主要是想体验一下三星的生态和相机，但是对安卓的认知还停留在读书的时候用小米 5 的那种安装包要全世界找，广告满天飞，卡的不行的情况。不知道近些年有无好转。个人基本不用手机打游戏因为有电脑，最多就金铲铲一下吧。\n建议从 ios 转不？ 三星上有没有类似 iCloud 的开套餐的云服务勒，个人目前 iCloud 相册近 500g 了，平时拍照比较多",
           "link": "https://www.v2ex.com/t/1106729",
           "publishedOn": "2025-01-21T03:32:29.000Z",
-          "wordCount": 497,
+          "wordCount": 505,
           "title": "有用三星的 v 友吗？ 有点想从 ios 转三星（24 ultra）了",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "codersdp1: \n平时工作中用到这类工具比较多，索性就自己写个，后续会加入更多节点，刚好熟悉下 next.js.\nhttps://net.pansss.cn/\nhttps://i.imgur.com/PWS7wwr.png\n另外 Vercel+cf 的部署，没想到国内可以这么丝滑。",
           "link": "https://www.v2ex.com/t/1106728",
           "publishedOn": "2025-01-21T03:30:22.000Z",
-          "wordCount": 403,
+          "wordCount": 440,
           "title": "用 AI 写了一个拨测网址",
           "imageUrl": null
         },
@@ -467,7 +467,7 @@
           "description": "bn: \n日常跑高速连接 CarPlay 习惯使用系统自带地图，界面简单和系统集成更好，使用起来更加流畅，特别是夏天发热更低，但是跑高速的时候缺少服务区等必要的信息，也缺少红绿灯倒计时功能。\n所以我平时用的时候会用 CarPlay 后再加一个安卓手机开个百度地图，比如想看看前面路况，手机操作起来确实更方便。\n不知道使用 CarPlay 的车主，更习惯使用谁家的地图？",
           "link": "https://www.v2ex.com/t/1106727",
           "publishedOn": "2025-01-21T03:27:50.000Z",
-          "wordCount": 539,
+          "wordCount": 607,
           "title": "CarPlay 跑高速哪个导航最好用，苹果地图百度还是高德，你怎么选",
           "imageUrl": null
         },
@@ -487,7 +487,7 @@
           "description": "lk1ngaa7: NLP 算法工程师—对话方向、智能外呼方向\n岗位职责\n1. 负责对话、文本生成、语义理解等核心算法的研发；\n2. 将最前沿的文本生成、对话交互等技术在智能外呼业务场景中进行创新应用；\n3. 负责海外/国内产品的对话算法工作，与产品、工程团队紧密协作，将算法方案在实际业务场景落地\n任职要求\n1. 熟练掌握 NLP 相关理论、精通 NLP 常用模型算法；\n2. 两年以上对话、文本生成等算法研发落地经验；\n3. 有大模型训练及应用经验者优先；\n4. 主动性强，沟通能力好，团队合作意识强。\n简历发送至 lk1ngaa7@gmail.com",
           "link": "https://www.v2ex.com/t/1106725",
           "publishedOn": "2025-01-21T03:24:00.000Z",
-          "wordCount": 396,
+          "wordCount": 400,
           "title": "求简历-NLP 算法工程师—对话方向、智能外呼方向",
           "imageUrl": null
         },
@@ -497,7 +497,7 @@
           "description": "aqx: \n百度文库坑人套路：\n由于工作需要，在某宝以非常便宜的价格买了百度文库 7 天会员卡，但是充值时下方会写一个很小的一行字，说会自动续费，正常的消费者很少有能看到这行字的，然后就被自动续费。\n算比账，假设你 1 元买一个百度文库 7 天会员卡，那么你会被百度悄悄的自动续费（直到你发现后才能取消，大概会被坑 100 元左右）相当于这个文档你是 100 元下载的。\n如果百度文库自动续费的小字用户没留意到，这自动续费的钱，百度可就阴到了。\n以下截图还是百度客服发给我的，向百度客服学习到了，谢谢啊。\n\n与百度客服沟通过程：\n我被百度用上述方法坑了俩次，分别是 2024 年至今和 2022 年。我联系人工客服的时候，惊奇的发现自动续费退款和取消自动续费按钮，就在发起客诉聊天框下方，说明这个问题是常态问题。百度是懂的，但为什么不改呢？\n百度客服反馈给我的观点：\n1.第一笔退款给我全退了，一共五个月，因为我上面手动退了一个月，截图没截到。\n\n2.2022 年开启自动续费的一波，不给我退，以下是截图：\n\n我被坑了俩次的证据：（红框内是自动续费消费记录）\n\nOP 的心声和总结：\n1.损失 72 元不是啥大事，我知道百度公关不可能让 V 站删帖，所以我把贴发这里。\n我就是想提醒大家引以为戒，远离百度文库。\n2.发这个帖子肯定会有人在楼底下骂我不仔细看，活该之类的话。\n这种人我就不回你了。你是懂杠精学的。祝福你多百度一下，多知道一些。\n希望 V 站好心人把这个帖子顶上去，防止更多人被骗，我这个账号不如为何被降权了，发帖和回帖所消耗的铜币很多。",
           "link": "https://www.v2ex.com/t/1106724",
           "publishedOn": "2025-01-21T03:19:57.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "提醒大家，我被百度文库自动续费坑了俩次钱，直到今天才发现，有一次可退款，另一次不给退。",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "Solace202: \n坐标西安，初二一家三口打算自驾去洛阳玩几天，儿子三岁 8 个月，一直心心念念想看龙门石窟，初五下午返程，不知道过年的时候石窟人多不多，有什么推荐的景点？需要注意什么？",
           "link": "https://www.v2ex.com/t/1106722",
           "publishedOn": "2025-01-21T03:15:46.000Z",
-          "wordCount": 434,
+          "wordCount": 461,
           "title": "大年初二准备自驾去洛阳，过年洛阳人多吗？",
           "imageUrl": null
         },
@@ -517,7 +517,7 @@
           "description": "SmartTom:",
           "link": "https://www.v2ex.com/t/1106721",
           "publishedOn": "2025-01-21T03:13:00.000Z",
-          "wordCount": 389,
+          "wordCount": 391,
           "title": "今年会发售新的 iPad 吗？",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "miaomiaotu: 目前在 iqoo13 ，荣耀 magic6 至臻班，magic7 ，真我 gt7pro 几个里面选择，好难选啊，之前还装备买 15plus ，看了下价格劝退了",
           "link": "https://www.v2ex.com/t/1106720",
           "publishedOn": "2025-01-21T03:10:35.000Z",
-          "wordCount": 417,
+          "wordCount": 446,
           "title": "国补手机选择",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "cander0815:",
           "link": "https://www.v2ex.com/t/1106715",
           "publishedOn": "2025-01-21T02:53:26.000Z",
-          "wordCount": 501,
+          "wordCount": 509,
           "title": "14 寸的 mac book pro m4 pro 芯片的，在打开多个 idea 编辑器做开发的时候，风扇会很吵吗？想入一台。但是不知道笔记本会不会像 mac mini 一样安静。有拥有的大...",
           "imageUrl": null
         },
@@ -577,7 +577,7 @@
           "description": "seamonster: \n家人是我母亲，我母亲几乎是文盲，到现在也只能歪歪扭扭的写出自己的名字，认不到几个字，平时沟通都是微信视频、语音加电话  \n去年过年回家，她告诉我她买了个什么理财保险，让我帮他看看，我大概看了下，觉得这个对于我母亲的情况来说风险极高，现在记不太清合同内同了，我简单介绍一下我记得的：  \n产品名称：农银人寿金穗臻享  \n产品是 5 年期，每年缴存 2 万，第 6 年起，享受 3.5% 收益利率，前五年没有任何收益，如果提前退保，则按照合同规定的现金价值折扣提取，最低折扣到 30% 的本金价值，也就是说如果中途因为任何原因中断缴存，最后本金都会大打折扣  \n对于我母亲这种几乎文盲的用户来说，银行怎么推销这种产品的我表示很怀疑，有没有将各种风险告知我母亲我也不清楚，我打电话给客户经理，告诉我她们合法合规正常推销，有全程录音录像，如果我需要可以去她们支行调取查看。  \n去年看了后我很气愤，但是我母亲一再请求我不要告诉我父亲和我姐姐，她说她每年按时存钱就行了，我当时觉得已经到了这种情况，也没有其他办法，告诉其他人，除了徒增对母亲的责备，也没其他办法，就帮她隐瞒了，今年父亲帮母亲查工资到账情况，登了她的农行 app ，发现了扣款记录，才问出来这个事情，我姐夫也给我说可以去银行然后报警处理，我才又重视这个事。  \n我对银行的这种行为非常气愤，她们为了自己的业绩，对一个完全不了解合同全貌的用户推销这种产品，是真的合规的吗  \n这种我可以帮我母亲维权取消合同拿回已经缴存的全额本金吗？",
           "link": "https://www.v2ex.com/t/1106714",
           "publishedOn": "2025-01-21T02:52:41.000Z",
-          "wordCount": 580,
+          "wordCount": 614,
           "title": "家人被银行忽悠买了风险极高的理财保险，这种情况可以维权吗",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "hammy: \n假设预设一个设定：\n30 岁，单身且不结婚，从大城市回到四线城市或三线城市的郊区县。\n有房子或住处，无房贷车贷，无车或一辆代步小破车。\n无不良嗜好，无重大疾病。\n在 0 主动收入的前提下，需要多少钱才能躺平呢？\n或者在 0 主动收入的前提下，怎么运作才能有效躺平 or 发展更多的被动收入？",
           "link": "https://www.v2ex.com/t/1106713",
           "publishedOn": "2025-01-21T02:51:27.000Z",
-          "wordCount": 529,
+          "wordCount": 546,
           "title": "在四线城市躺平需要多少钱？",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "cichon: 设备：\n1. 移动宽带 300Mbps ，光猫网口为全千兆口；\n2. 路由器：全新官网购入，刚开封的小米 AX3000T ；\n3. 水星 8 口全千兆，钢壳，非网管型交换机；\n4. 网线为大唐电信 CAT6 网线，所有网线经过 iperf3 测试，可以跑千兆；\n情况一：\n光猫 <--> 电脑\n可以跑满 300Mbps\n情况二：\n光猫 <--> 路由器 <--> 电脑\n可以跑满 300Mbps\n情况三：\n光猫 <--> 路由器 <--> 交换机 <--> 电脑\n只能跑 50Mbps\n为什么会出现情况三？",
           "link": "https://www.v2ex.com/t/1106712",
           "publishedOn": "2025-01-21T02:49:43.000Z",
-          "wordCount": 518,
+          "wordCount": 529,
           "title": "今天办理了移动 300Mbps 宽带，发现经过交换机后，网速只能跑到 50Mbps，正文有详细的网络拓扑，大佬帮忙分析一下原因",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "Zcyisabigman: \n全套设备想要统一账号转区去美区，但是目前给 MacBook air 和 apple watch 都买了 Apple ccare ，\n想请问下转区过去会不会存在问题？ AC 能否转移过去，或者说转移过去后 AC 还能否续费？",
           "link": "https://www.v2ex.com/t/1106711",
           "publishedOn": "2025-01-21T02:48:35.000Z",
-          "wordCount": 425,
+          "wordCount": 474,
           "title": "关于买了 AC 但是想转区的请教，国区 -> 美区。",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "KURANADO: \n一直以来通过 Hammerspoon 实现自定义快捷键切换输入法，比如 Option + j 切换英文，Option + k 切换中文，Option + l 切换日语。\nNeovim 中通过插件调用 im-select 命令来自动切换系统输入法。\nIdeavim 中借助 IdeaVimExtension 插件自动切换输入法。\n但我发现只有 IdeaVimExtension 插件的输入法切换总是有效的，其他工具的输入法切换总会出现一个问题：如果切换的速度太快，经常会从英文切到中文/日语/其他语言失败，尽管菜单栏的输入法图标已经变成了中文/日语/其他语言，但还是只能输入英文。此时只有放慢切换速度，比如先按快捷键切换回英文，一两秒之后再按快捷键切换到中文，才能够输入中文。\n此前曾查过这类问题，这似乎是 Mac 系统留下来的 Bug 或者是系统添加的一些防误触/保护机制？不太确定...\n如果是系统 Bug ，我很好奇 IdeaVimExtension 是怎么做到总是有效的输入法切换？有朋友知道原因吗？\n我看了 IdeaVimExtension 插件的源码，发现其中调用了 libinput-source-switcher.dylib 库，我想可能和这个库的实现有关，但我没找到这个库的源码。",
           "link": "https://www.v2ex.com/t/1106710",
           "publishedOn": "2025-01-21T02:42:05.000Z",
-          "wordCount": 414,
+          "wordCount": 416,
           "title": "Mac 输入法切换问题",
           "imageUrl": null
         },
@@ -627,7 +627,7 @@
           "description": "37Y37: \n在总结 2024 年的全年自驾旅行时我有感慨：12 个月近 20 次旅行，足迹达 4 省 18 市，总行程 2 万余公里，期间或许会有感到平淡和遗憾，但直到这一刻，一年结束回头再看，没有平淡，全是惊喜，没有遗憾，十分圆满。旅行带给我的除了旅行本身的体验之外，更为重要的是回忆，每每回忆起那些旅行的瞬间，涌上心头的都是开心、愉悦、轻松和满足，这些积极正向的情绪支撑了我呆在忙碌的城市，去面对那些让人心累或是无聊烦闷的琐事\n我喜欢旅行，不管去到哪里，所以每隔一段时间就出发，这一次去了嘉兴海盐\nhttps://blog.ops-coffee.cn/r/city-china-zhejiang-jiaxing-haiyan",
           "link": "https://www.v2ex.com/t/1106708",
           "publishedOn": "2025-01-21T02:40:16.000Z",
-          "wordCount": 447,
+          "wordCount": 474,
           "title": "2025 年旅行继续",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "chittypaopao: \n21 个 Kong 中国开发岗位正在招聘中，我们中国的研发中心搭建已经有 3 年啦，布局的是核心产品开发团队，详情请直接👇官方招聘\n\n加入我们，No AI without APIs — 我们有一个工位，面朝大海，春暖花开（其实是面朝新天地，背靠马当路）。\n招聘岗位：\n2 个 AI Gateway 开发：Rust, Lua\n7 个网关开发（ Rust, Lua ）\n1 个网关开发经理（ Rust, Lua, C++）\n3 个前端开发 （ React ）\n4 个前端开发 （ Vue ）\n2 个网关测试开发（ TS/JS, Cypress ），英语口语流利\n2 个后端开发（ Go ）\n欢迎感兴趣的朋友直接投递您的英文简历到 china-hiring@konghq.com ，Kong Offer 等你来拿！\n分享下我们提前发春节红包的喜悦！",
           "link": "https://www.v2ex.com/t/1106706",
           "publishedOn": "2025-01-21T02:38:14.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "21 个 Kong 中国开发岗位正在招聘中",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "eggt: 父亲确诊胃癌 IV 期伴肝转移刚 1 年，消极的做过几次化疗，最后一次是 12 月 4 号，紫杉醇 2 支还口服了一阵阿帕替尼。 现在身体已经完全在卧床状态了，可能剩下的日子不多了，而且目前坐立难安，感觉很痛苦，主要是腹胀，一天总进食量可能就只有小半碗。而且现在比较排斥继续治疗了，视死如归的想法。作为子女，很是心疼， 如何能稍微的减缓一下痛苦，有没有过来的大佬请教一下子女能够做的护理？",
           "link": "https://www.v2ex.com/t/1106705",
           "publishedOn": "2025-01-21T02:37:40.000Z",
-          "wordCount": 418,
+          "wordCount": 426,
           "title": "咨询下各位护理过晚期胃癌后期的经验",
           "imageUrl": null
         },
