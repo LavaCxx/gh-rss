@@ -288,12 +288,182 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106927",
+          "author": "HoshinoSuzumi",
+          "description": "HoshinoSuzumi: \n一句简介\n只需要输入你想要的主题就可以帮你生成一副春联的东西。马上成为春联领域高手！\n使用\n🚀 couplets.bh8.ga\n介绍\n输入一句提示词即可生成春联\n福字可以反转\n上下联位置可以对调\n红底黑字和红底黄字\n可以复制、下载无水印对联图片\n可以分享生成结果给其他人查看\n开源\nGitHub\n截图预览\nhttps://imgur.com/a/nn98eXT\n注意\n所有对联内容由 AI 生成",
+          "link": "https://www.v2ex.com/t/1106927",
+          "publishedOn": "2025-01-21T16:47:07.000Z",
+          "wordCount": 394,
+          "title": "[免费] AI 春联生成器 - 马上成为春联领域高手！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106926",
+          "author": "0A0",
+          "description": "0A0: 手边两台 4k 16:10 3840x2400 分辨率的屏幕\nusb c 连接 mac mini 只显示 3840x2160 16:9 的分辨率列表\n显示器有 16:10 16:9 两个模式，不管调整哪个模式 macos 死活只显示 16:9 的那个。\n试过 betterdisplay 自定义分辨率也无效，网传的 hidpi 脚本也无效。\nswitchrex 也不生效。\n16:9 的列表里有一个 1920x1200 是 16:10 的但是开不了 hidpi 文字糊成一片。\n系统 macos15 ，连接 windows 显示正常。\n想知道到底还有什么办法能让 macos 正确识别 16:10 的比例，搞了好久也没搞定。\n看网传修改 edid 好像也失效了。这个 macos 咋越来越难用。。。\n![qxvocu.png]( https://files.catbox.moe/qxvocu.png)",
+          "link": "https://www.v2ex.com/t/1106926",
+          "publishedOn": "2025-01-21T16:39:49.000Z",
+          "wordCount": 418,
+          "title": "macos 无法识别 16:10 的屏幕",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106924",
+          "author": "joynvda",
+          "description": "joynvda: \n不知不觉屯了好些大模型。有送的，有主动充值的。跟以前忍不住手买 vps 一样。\n国外:\nxAI Grok\nOpenrouter Claude 3.5\n其它通过网关代理的 gpt4 、Claude 3.5\n国内:\n硅基 Deepseek V2.5 （历史原因先开通了，原来用在 cursor ；还充了一次）\nDeepseek V3 （现在用在 cursor ）\ndoubao\nkimi\nBAT 三家（因为有账号顺手开的）\n现在用下来：\nDeepseek V3   代码辅助主用\nDeepseek V2.5 拿去做一般的文本总结，主要中文方面\nGrok 拿去做国外网站的文本总结，便宜\nOpenrouter （ Claude 3.5 ）作为 Grok 后备\n之前充值的 gpt-4 网关、开账户送的 doubao 、kimi 使用在哪好呢？\n还是搞一个网关负载均衡空闲的大模型服务？",
+          "link": "https://www.v2ex.com/t/1106924",
+          "publishedOn": "2025-01-21T15:40:11.000Z",
+          "wordCount": 457,
+          "title": "大模型服务使用推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106920",
+          "author": "NotLongNil",
+          "description": "NotLongNil: \n如何让 Fork （ https://git-fork.com ）通过系统代理？\n我使用 Clash Verge Rev 翻墙，提交代码时需要开启 TUN 模式，但开启后常遇到问题，使用后必须关闭，很麻烦。\nFork 必须使用其自带的 Git 才能使 GitHub 授权通过 HTTPS 。我尝试了多种方法，但始终无法让 Fork 自带的 Git 走系统代理。\n有哪位大佬知道解决方法吗？",
+          "link": "https://www.v2ex.com/t/1106920",
+          "publishedOn": "2025-01-21T15:18:42.000Z",
+          "wordCount": 419,
+          "title": "有人在 mac 上使用 Fork 这个 Git GUI 吗？怎么样才能让它走系统代理提交代码到 GitHub",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106919",
+          "author": "ToDayMkCode",
+          "description": "ToDayMkCode: \n哈哈，在之前自动化流程工具上，加了一些功能，1 、支持 npm 下载实现 2 、支持可变参数 3 、支持电脑键盘操作 4 、完成桌面应用打包\nnpm\n操作电脑键盘、设置参数、完成发送微信信息\n演示\n其实是想完成语音控制，去操作电脑、浏览器一些自动化操作。",
+          "link": "https://www.v2ex.com/t/1106919",
+          "publishedOn": "2025-01-21T15:06:20.000Z",
+          "wordCount": 367,
+          "title": "有一种感觉！看以前写的代码就是一堆屎山！ [迭代]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106917",
+          "author": "playniuniu",
+          "description": "playniuniu: \n想从苹果换到安卓，买了一个一加 13 ，升级到最新的 ColorOS 15 ，但是无论怎样都获取不了家里路由器分配的 IPv6 的地址，同样的网络，iphone ，mac mini ，macbook pro 都没任何问题，头疼中。请问一下有什么可以设置的地方吗？",
+          "link": "https://www.v2ex.com/t/1106917",
+          "publishedOn": "2025-01-21T14:58:50.000Z",
+          "wordCount": 429,
+          "title": "一加 13， ColorOS 15，获取不到 ipv6 地址，求助",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106916",
+          "author": "erosripe",
+          "description": "erosripe: mac 用了一年屏幕，一两天不用，屏幕和键盘粘连在一块，必须先从两遍慢慢翘起来，这个各位是如何解决的",
+          "link": "https://www.v2ex.com/t/1106916",
+          "publishedOn": "2025-01-21T14:52:51.000Z",
+          "wordCount": 380,
+          "title": "mac 用了一段时间屏幕和键盘粘连",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106915",
+          "author": "ko20",
+          "description": "ko20: \n现在应该统一使用了 byd.com 域名，使用网站子目录的方式区分国家或地区。\n以前中国区是 byd.com.cn ，现在是 byd.com/cn\n不过这个和苹果中国似乎恰恰相反，苹果以前是 apple.com/cn 现在是专门的 apple.com.cn 。不过这两种设计各有优劣。\n不过我想说的是，以前 byd 官网是真掉价，养那么多程序员做不出来一个像样的网站，最近一次更新我发现了很多不错的点\n字体应该变了，不懂设计，但是感觉和苹果苹方那种黑体更加相近，变得更好看了\n网站运用了大量毛玻璃效果，很有果味，不再像以前那么土了，有一些高级感了\n点击中国大陆， [选择国家或地区] 可以看到全球布局，byd 还是有野心的\n充电站地图很丝滑很可以\n总体体验和苹果中国官网风格有些像，浏览体验好了很多\n这次是真招了前沿前端程序员重构了网站了 [捂脸哭]",
+          "link": "https://www.v2ex.com/t/1106915",
+          "publishedOn": "2025-01-21T14:45:50.000Z",
+          "wordCount": 384,
+          "title": "byd 官网更新了，更加国际化和现代化了，充电站地图很好用很丝滑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106914",
+          "author": "zhoudaiyu",
+          "description": "zhoudaiyu: 2024 的冬天北京空气质量几乎每天非常棒，前几年可是不停出现雾霾，这是为什么呢？",
+          "link": "https://www.v2ex.com/t/1106914",
+          "publishedOn": "2025-01-21T14:35:34.000Z",
+          "wordCount": 435,
+          "title": "大家有没有发现今年北京冬天雾霾少了很多",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106913",
+          "author": "Ivan555",
+          "description": "Ivan555: \n最近鱿鱼游戏挺火，我就想着趁热度做个在线游戏，做完了一打听，原来是个电影，啊~啊西八！网址放这了，兄弟们进去体验体验吧： https://sgthanos.com",
+          "link": "https://www.v2ex.com/t/1106913",
+          "publishedOn": "2025-01-21T14:31:47.000Z",
+          "wordCount": 399,
+          "title": "最近鱿鱼游戏挺火，兄弟们过来玩啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106912",
+          "author": "benzbf",
+          "description": "benzbf: 如果周末安排 2 日曼谷特种兵式 City Walk 如何安排？\n有哪些东西是旅行必备？\n快速出入境、交通卡、地铁一日票、自助餐、景区门票、通常我们更需要了解哪些？\n分享一篇\n曼谷 2 日 City walk 杂文： https://boyinthai.com/magazine/2025-01-15/\n友情提示： 英文贴，英文不太好的可以直接 pass 。",
+          "link": "https://www.v2ex.com/t/1106912",
+          "publishedOn": "2025-01-21T14:25:35.000Z",
+          "wordCount": 405,
+          "title": "曼谷两日特种兵式 City Walk",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106911",
+          "author": "eqweqwead",
+          "description": "eqweqwead: \n我这有高级车，需要的加\n绿色 app （ Base64 ）: MTQxMzM1MzQ4ODg=",
+          "link": "https://www.v2ex.com/t/1106911",
+          "publishedOn": "2025-01-21T14:19:09.000Z",
+          "wordCount": 343,
+          "title": "Switch 家庭高级会员车",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106910",
+          "author": "WilliamColton",
+          "description": "WilliamColton: \n最近恰逢帝国时代四打折，不知道该入手 3 还是 4 ，之前暑假玩过 30 小时的帝国时代 3 ，感觉还不错\n现在手痒了又想玩",
+          "link": "https://www.v2ex.com/t/1106910",
+          "publishedOn": "2025-01-21T14:18:13.000Z",
+          "wordCount": 411,
+          "title": "帝国时代四大家觉得怎么样",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106909",
+          "author": "lucasj",
+          "description": "lucasj:",
+          "link": "https://www.v2ex.com/t/1106909",
+          "publishedOn": "2025-01-21T14:17:06.000Z",
+          "wordCount": 115,
+          "title": "一个人有多耀眼，就会有多快陨落，马斯克——下一个“马云”？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106908",
+          "author": "jukanntenn",
+          "description": "jukanntenn: \n这是我的方案：\nNAS 上运行 frpc ，云服务器运行 frps ，假设我要暴露 alist 服务（运行在 NAS 上，端口 5244 ），frpc 的配置就是：\n[[proxies]]\nname = \"alist\"\ntype = \"tcp\"\nlocalIP = \"127.0.0.1\"\nlocalPort = 5244\nremotePort = 5245\ntransport.useCompression = true\n\n域名 alist.myhome.com 解析到云服务器上，云服务上运行一个 caddy ，将 https://alist.myhome.com 的访问转给云服务器上的 127.0.0.1:5245 。\nNAS 上我在配置 Nginx 的反向代理，源为 https://alist.myhome.com 目的为 localhost:5244 ，这样 HTTPS 就启用成功了。\n我不明白的地方是 frp server 将请求发给 frp client 后，为什么会经过 Nginx ？",
+          "link": "https://www.v2ex.com/t/1106908",
+          "publishedOn": "2025-01-21T14:05:05.000Z",
+          "wordCount": 521,
+          "title": "frp 内网穿透开启了 HTTPS，但不是很明白其中的原理",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106907",
+          "author": "summerday666",
+          "description": "summerday666: \n这个是 DNS 的问题，还是 b 站的问题\n不管是运营商的还是第三方的都有这个问题，被随机解析到电信去，导致我移动宽带就跨网访问了，尤其是晚上 20 点之后跨网爆炸了，一个网页几分钟才能完全加载。\n另外提一嘴，现在的 pcdn 为了避免省间结算，已经开始跨网调度了（乐），比如我这 b 站就是从联通那边调度的，明晃晃的写着 2408",
+          "link": "https://www.v2ex.com/t/1106907",
+          "publishedOn": "2025-01-21T14:04:56.000Z",
+          "wordCount": 515,
+          "title": "b 站的某些网址会随机解析到电信去",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106906",
+          "author": "brucmao",
+          "description": "brucmao: \n我想买 n3pro,但是重庆地区国补不包含投影仪，我是不是把收货地址改成朋友湖北地址就可以了，然后发货的时候练习快递员修改地址？\nhttps://s3.bmp.ovh/imgs/2025/01/21/cd983f7849b09c17.jpg",
+          "link": "https://www.v2ex.com/t/1106906",
+          "publishedOn": "2025-01-21T13:57:50.000Z",
+          "wordCount": 371,
+          "title": "如果领取其他地区的国补呢",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106905",
           "author": "CurChen",
           "description": "CurChen: 以下是原文：\n我们发送此电子邮件是为了通知您，您的 Google Play 发布商帐号已被终止。\n状态：帐号已被终止\nGoogle Play 发布商帐号被终止与开发者的行为有关，可能还会影响多个注册帐号和相关的 Google 服务。请访问开发者政策中心，详细了解我们如何贯彻实施开发者计划政策。\n发现了问题： 高风险行为\n我们发现了与您的开发者账号相关的高风险或滥用情况，并将根据“政策覆盖范围”政策采取这项措施。\n以下是政策地址： https://support.google.com/googleplay/android-developer/answer/10146128\n\n这里的“政策覆盖范围”政策 有人知道是什么意思吗\n今天操作了添加银行卡操作作为收款账号，绑定的是招商的 OSA 账户，这个账户 app store 上收款是没问题的\n其他就没操作啥了，不知道为啥会被封号\n有遇到这种情况的大佬吗",
           "link": "https://www.v2ex.com/t/1106905",
           "publishedOn": "2025-01-21T13:45:05.000Z",
-          "wordCount": 396,
+          "wordCount": 398,
           "title": "google play 账号被封了，因为““政策覆盖范围”政策”",
           "imageUrl": null
         },
@@ -303,7 +473,7 @@
           "description": "SGL:",
           "link": "https://www.v2ex.com/t/1106904",
           "publishedOn": "2025-01-21T13:38:11.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "老哥们，后端开发 go，年后什么方向的职位可能短缺，大模型应用开发方向有搞头吗",
           "imageUrl": null
         },
@@ -313,7 +483,7 @@
           "description": "LnTrx: \n近年来，被刷流量一直是站长和开发者的心头大患。如果碰上可能会损失一大笔钱，而且受害者的挑选也根本不讲道理，国内也缺乏更合适的选项。幸运的是，最近陆续出现了一些可能可以避免被“刷破产”的产品。因此想开一贴专门收集这类服务，欢迎回复、更新相关信息。  \n定义\n本帖收集的服务需要满足以下条件：  \n服务能力满足一般个人用户需求（例如服务器上行带宽≥50Mbps ）\n开启后无需担心钱包遭殃（止损>维持服务，被 DDCC 不会造成花费或花费可控）\n价格在一般个人用户可以接受的范畴\n此外服务的质量，被 DDCC 后官方的处理方式（删号、黑洞、限速等）等也可纳入讨论。\n钱包风险的级别包括（以境外服务为例）：\n完全无需担心：免费的服务（例：Cloudflare ，基础的 DNS 、CDN 服务不计费，TB 级用量也不一定会封号）  \n基本无需担心：收费但承诺不额外加收的服务（例：一般中小境外主机商，一次性付费，此后不限流量或达量限速，不额外收费）  \n或许无需担心：提供了防止被刷的手段/余量，但不提供保证（例：Cloudfront CDN ，1TB 的下行流量不容易被用完、也支持账单提醒。但如果攻击者愣是刷完了或者制造请求次数等扣费，也无法避免遭殃）  \n这里倾向于收集前 2 个分类。注意本贴收集的是中国大陆境内的服务。建议给出钱包风险相关的官方文档参考。  \n示例\nEdgeOne Pages\nhttps://edgeone.cloud.tencent.com/pages/document/162936949996421120 \n阿里云 200M 轻量\nhttps://help.aliyun.com/zh/simple-application-server/product-overview/billing-faq \n腾讯云 EdgeOne\nhttps://cloud.tencent.com/document/product/1552/103577",
           "link": "https://www.v2ex.com/t/1106902",
           "publishedOn": "2025-01-21T13:32:07.000Z",
-          "wordCount": 457,
+          "wordCount": 459,
           "title": "中国境内无需担心钱包被 DDCC 的云服务",
           "imageUrl": null
         },
@@ -323,7 +493,7 @@
           "description": "RanShunliu: ①昨晚瑜伽垫练了 30 分钟腹肌，包含 12 个动作，每个动作 30 秒，12 个动作为一组，中间不休息。共 2 组\n②练完没放松\n③这两天开车，手动挡，一天开 3 小时，新手，刚拿到驾照\n④之前有段时间也试过，开电瓶车，背着 20 斤的背包，开一个小时，后面腰有点不舒服\n⑤但是刺痛，直到今天还是第一次\n想请教下各位平时如何保养腰的，不想以后老了，腰不舒服一辈子",
           "link": "https://www.v2ex.com/t/1106901",
           "publishedOn": "2025-01-21T13:27:10.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "各位开车怎么不腰痛，第一次腰痛，骨头有一瞬间的刺痛酸麻感",
           "imageUrl": null
         },
@@ -333,7 +503,7 @@
           "description": "bn: \n今天下午开始， 服务器中的多个虚拟机持续抖动报掉线，起初以为就是单纯的网络抖动，但是转念一想，这些监控探测是在局域网中的，和外网无关。\n持续了几个小时，终于不能忍了，发现在局域网中尝试 ssh 连接报掉线的机器，确实会卡主十几秒，通过 ping 检查，发现很多虚拟机同时失联。于是\n检查家中的软路由和旁路由，查询后台日志没有发现异常日志。\n检查路由器交换机网线是否有松动，排查后依然会有离线告警。\nIDRAC 后台检查服务是否有告警，没有告警，硬件全部正常。\n在有些机器网络抖动的时候发现直通网卡连接交换机的机器网络正常，使用 ESXI 虚拟交换机的机器会抖动。\n检查服务器上的网线是否有松动，全部使劲插了一下网线头，在机柜里两三年没动了，网线插头确实有点松动了。\n至此问题解决，竟然是网线松了😭。\n还好，在会老家之前出了这个问题，不然这 10 多天可能就失联了。\n建议各位玩机的 v 友，回乡前检查一下家里的网络设备，谨防失联。👍🏻",
           "link": "https://www.v2ex.com/t/1106900",
           "publishedOn": "2025-01-21T13:23:27.000Z",
-          "wordCount": 453,
+          "wordCount": 455,
           "title": "建议各位玩 Nas 和 Homelab 的各位回乡前检查家中网线插头是否松动",
           "imageUrl": null
         },
@@ -343,7 +513,7 @@
           "description": "coolair: 好像还是开源的？\n搜了下，发现了 Batocera ，还有其他的吗？",
           "link": "https://www.v2ex.com/t/1106899",
           "publishedOn": "2025-01-21T13:11:40.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "刷短视频，看到可以给老旧主机刷个系统专门打街机的，请问下是啥系统，哪里可以下载？",
           "imageUrl": null
         },
@@ -353,7 +523,7 @@
           "description": "codertracker: \n用时半年，开发了一款极简的倒数日 App ，用于记录和管理值得期待的瞬间，生日、纪念日、旅行计划...相对于其他倒数日 App ，无开屏，无广告，页面简洁，支持日历视图，暗黑模式，目前限免，¥0 解锁永久会员（截至 1.29 春节当天）。\n在 appStore 上搜索 [萌萌纪念日]，数据都是本地存储，图片也不会上传到云端，放心使用。\n官网： https://mengapp.vercel.app/\nappStore 下载地址： https://apps.apple.com/app/id6737198411\n如果你对我们的产品有其他期待，欢迎关注我们给我们提需求： https://www.xiaohongshu.com/user/profile/600b59470000000001002ec7",
           "link": "https://www.v2ex.com/t/1106898",
           "publishedOn": "2025-01-21T13:08:26.000Z",
-          "wordCount": 456,
+          "wordCount": 458,
           "title": "[限免！] 做了一个极简倒数日 App，附带桌面小组件",
           "imageUrl": null
         },
@@ -363,7 +533,7 @@
           "description": "hekouwang123: \n自从上次急性肠胃炎被救护车送去医院后，我的身体就一直没有好过。\n总是不停地在拉肚子，晚一秒去厕所可能就会拉在裤裆里，一天得经历好几次生与死的冒险。\n我不是一个特别爱去医院的人，害怕那个地方。平时有点小毛小病的宁肯拖很久让它自愈，也不愿意去医院治疗。可是这次真的拖不下去了，工作日影响工作不说，节假日都不敢出门。\n有一次周五请了半天假去医院，医生让我做了一个大便检测，就在等检测结果出来的那一个小时。我感觉有些疲惫，本来应该很忙碌的下午，一下子变得很空虚了，在人少的地方找了个凳子坐了下来。周围来来往往的人很多，神色匆匆的从一个房间奔赴另一个房间， 从一层楼奔赴另一层楼，我感觉寂静的可怕。手里还拿着从医院获得的各种纸张，包括收据，清单，广告纸背后写着大肠癌的一些注意事项，后背一阵发凉。刹那间，检查前一直在看工作群的消息真的有那么重要吗？手机里的各种视频或者新闻真的那么有意思吗？感觉我就是孤立在世界的一个个体，周围的一切跟我有什么关系呢？\n还好最后检测下来没什么大的问题，医生开了一些药。吃了大概两周多的药，终于过上了几个月安稳的生活。\n可是最近一段时间又复发了，长时间蹲在厕所，想出去又没办法出去，主动忍受各种臭味和烟味，我受够了，我倒要看看究竟是个什么情况，去做个肠镜检查一下。\n其实我很害怕做肠镜，主要是有一种羞耻感。记得很多年前做过胃镜，那个小医院还没有麻醉技术，医生直接让我在病床上躺着，侧躺着，双脚蜷缩着，有一根很细的软管直接从鼻子里插进去，我就眼睁睁的看着它从鼻孔进去直到看不到那根管子，喉咙，食道却能明显感觉到有异物进来。一点一点向前推进，那根一米多的管子逐渐消失在我的身体里。做的时候感觉很难受，做完却觉得很舒服。一直吃不下饭很久了，每天都很饿，但是真正到了饭点又吃不下几口，吃完就会在那干呕。那时候还在上高中，不会因为饿了就能找个很充裕的时间去吃饭。但是在医院做完胃镜后，我感觉原来一直被堵着的食道变得通畅了，那根软管好像把这些堵塞物全都推走了，整个食道变得空旷了起来，那种恐惧感和最后的通畅感我到现在还忘不了。\n这次在医院挂号，医生让我把肠胃镜一起做了，医生说的总是没有错的，当即约好了时间。\n检测前一天，要吃泻药。问了一下我之前做过的同事，说可能会比较狼狈，会连续拉几个小时，一直要等拉干净了才能上床，不然弄的到处都是。\n做完要弄点热的有营养的东西比如鸡汤吃吃，我跟他开玩笑说做完喝两瓶加热的红牛补补如何？\n晚上 10 点我开始吃两包硫酸镁，喝 750ml 的脉动，本来医嘱上写着水或者脉动都行，脉动相比水还更甜一些。10 点到 11 点，这个时间段风平浪静。\n11 点又开始吃了三包硫酸镁，喝了 1000ml 的脉动，这时候感觉就来了，真的是一泻千里。此后的两个小时，基本没有离开过马桶。我以为吃这种泻药是很痛苦的体验，没想到感觉一般，无非是在厕所的时间呆的更长了一点。这种急性腹泻前几个月的时间里我一直深有体会，身体早已经麻木了。一直折腾到晚上 1 点多，整个肚子才算是完全排空，距离 6 点起床已经不足 4 个小时了。\n早上大清早起来，在医院做好登记，接着就被送到一个大房间里挂吊瓶了，还喝了一瓶口服液一样的液体。喝完当时就感觉舌头麻了，变得很僵硬。\n大房间里人很多，大家都要先打着吊瓶等着前面的显示板叫号。旁边就是手术室，每次电动门一打开，就意味着一个病人的检查做完了，检查台子就是一张可移动的小床，一做完，就立马被医护人员推出来，下一个继续进去做，电动门关闭，周而复始，循环往复。刚出来的大叔似乎被深深的麻醉了，也许是药效还没有过，旁边的医护人员拍怕他肩膀，拍拍他的脸，甚至用力的推他，可是怎么都醒不了，无奈的冲着我笑了笑。\n这次做肠胃镜是全麻的。刚进入病房，一个医生让我把裤子脱到膝盖的地方，侧躺着，我原先以为撅着很尴尬，他拿了一块布盖住身体就稍微好点了。另外一个医生拿来一个圆管让我含着，待会胃镜的管子就从那个圆管里插进去吧。三四个医生在一个房间，各自忙各自的，熟练的让我做这个动作，做那个动作，我看着头顶上的的灯光，感觉自己不是一个人了，是一坨肉，一坨任人摆布的肉。整个身体都是紧绷的状态，口水顺着那个圆管一点一点的流了下来。印象中最后一个医生过来，让我伸出手臂，看她拿了一个很粗很粗的注射器给我注射一种液体。我以为麻醉需要一些时间，会不会在做检查的时候突然苏醒过来？没想到效果强的可怕，为啥是最后一个医生，因为注射完之后整个人立马就昏昏沉沉的睡过去，不省人事了。等我再醒过来的时候，大脑一片空白，记忆只停留在注射的时候了。\n醒来手术已经做完了，检测报告也全都出来了，至于是怎么做的，经历了多长时间，吊瓶什么时候打完的，一概不知。\n每次去医院地方我感觉这个既神奇，又很无奈，希望读者朋友们都身体健康，无病无痛。",
           "link": "https://www.v2ex.com/t/1106897",
           "publishedOn": "2025-01-21T13:05:02.000Z",
-          "wordCount": 389,
+          "wordCount": 391,
           "title": "2024 的一次肠胃镜",
           "imageUrl": null
         },
@@ -373,7 +543,7 @@
           "description": "daju233: \n配置:华擎 J3455 ITX ，DDR3 两根总共 16G ，国产梵想 256g 的 SATA 盘做系统，希捷的 4T 盘,用的飞牛 OS\n挪位置的时候把插头拽掉了，没电直接关机。\n开机报错：\n1.468036] mce: [Hardware Error]: CPU 0: Machine Check: 0 Bank 4: a6ooo000000\n1.468085] mce: [Hardware Error]: TSC 0 ADDR fef13b80\n1.468109] mce: [Hardware Error]: PROCESSOR 0:506c9 TIME 1737459043 SOCKET 0\nview/sub2: clean, 90723/4194304 files, 2856380/16752896 blocks\n5.712561] tpm_crb NSFT0101:00: [Firmware Bug]: ACPI region does not cover t\n5.712716] tpm_crb NSFT0101:00: [Firmware Bug]: ACPI region does not cover t\n6.985858] EDRC pnd2: Failed to register device with error -22.\n再关机报错：\n[ 967.982704] libvirt-guests.sh[5090]: Can't connect to default. Skipping.\n[FAILED] Failed unmounting vol1.mount - /vol1.\n（ AI 图转文字，不对的地方我基本改掉了，可能还是有遗漏）\n目前症状：每次开机都要进 grub 确定，或者等几秒。开机之后需要 3-4 分钟启动相册和影视之类的 docker 应用，之前是秒开的，其他问题暂时没有发现。\n想问问大佬们有遇到这种情况吗？我在谷歌查了一下，大多数帖子大意都是没什么问题，后续使用正常，小白第一次存钱装 NAS ，碰到这种情况还是有点慌。先提前谢谢各位大佬指点，祝大佬们新年大吉！",
           "link": "https://www.v2ex.com/t/1106896",
           "publishedOn": "2025-01-21T12:56:46.000Z",
-          "wordCount": 482,
+          "wordCount": 484,
           "title": "挪位置的时候把插头拽掉了，开机出现了问题",
           "imageUrl": null
         },
@@ -383,7 +553,7 @@
           "description": "hiiragiharunatsu: \n书接上回，犹豫了很久还是入手了丐中丐 m4 作为路由器使用，汇报一下使用情况\n我的情况是使用 iphone15pro 热点机替代宽带使用（房子周围是保留地，无法拉光纤，而星链的月租抵得上 2 个双不限的月租）\n每天回家只需要将手机用线连上 macmini ，mac 就会自动打开热点，十分优雅，同时信号也很不错，可以自己手动选择信道，2.4g 是 144M,5g 则是直接来到 1201M ，甚至可以与专门的路由器相比了。\n吃灰的朋友们可以试试，我愿称之为小户型 allinone 的终极解决方案。",
           "link": "https://www.v2ex.com/t/1106895",
           "publishedOn": "2025-01-21T12:36:24.000Z",
-          "wordCount": 499,
+          "wordCount": 501,
           "title": "最强主路由器 Mac mini m4",
           "imageUrl": null
         },
@@ -393,7 +563,7 @@
           "description": "magic961102: \n如题，如何用 java 删除 jpg 等图片的类似作者、标题等信息，目前测试使用以下方法没效果\n try (FileOutputStream fos = new FileOutputStream(outputPath)) {\n                // 删除所有 EXIF 元数据\n                new ExifRewriter().removeExifMetadata(\n                    new File(inputPath), \n                    fos\n                );\n            }",
           "link": "https://www.v2ex.com/t/1106894",
           "publishedOn": "2025-01-21T12:32:46.000Z",
-          "wordCount": 394,
+          "wordCount": 395,
           "title": "想咨询下各位大哥，如何用 Java 删除图片的元数据并且不影响图片质量？",
           "imageUrl": null
         },
@@ -403,7 +573,7 @@
           "description": "xinlin:",
           "link": "https://www.v2ex.com/t/1106893",
           "publishedOn": "2025-01-21T12:28:44.000Z",
-          "wordCount": 363,
+          "wordCount": 364,
           "title": "找兼职朋友在海外社交平台上创建矩阵号，需要能登陆海外网站以及懂一点点英语，日结，一单 10 分钟 7 块钱左右，可以联系 akikunn_98",
           "imageUrl": null
         },
@@ -413,7 +583,7 @@
           "description": "IndexOutOfBounds: \n下午发到推广节点没人看😂，站长容我在这再发一回，插件完全免费\nTLDR\nChrome 商店： https://chromewebstore.google.com/detail/沉浸式导读/jnjhalaghogaleoidplmjhjnemmakffp\n\n介绍\n目前市面上的各类 “网页 copilot”：网页摘要，提问需要打开侧边栏\n个人不太习惯这种对照式的阅读体验，所以：\n所谓的思维导图总结，为什么不能作为网页的内嵌 “目录” 呢？\n\n同理，为什么不能划词自由提问呢？\n\n大家为什么都不支持自定义 API Key 了呢？要恰饭很是理解，但作为用户我想实时配置最 nb ，最便宜的模型\n\n...\n详细介绍： https://e1eobdwuvh.feishu.cn/docx/CUH3dllZAoD6bjx3KPJc54VvnDf",
           "link": "https://www.v2ex.com/t/1106892",
           "publishedOn": "2025-01-21T12:24:51.000Z",
-          "wordCount": 469,
+          "wordCount": 471,
           "title": "做了个 “沉浸式导读” Chrome 插件（我这应该不算碰瓷沉浸式翻译？）",
           "imageUrl": null
         },
@@ -423,7 +593,7 @@
           "description": "Windyzhou:",
           "link": "https://www.v2ex.com/t/1106891",
           "publishedOn": "2025-01-21T12:19:42.000Z",
-          "wordCount": 366,
+          "wordCount": 367,
           "title": "为什么我用 windsurf，用了一段时间会打字会卡顿，重启后变好，用了一段时间又卡顿了。",
           "imageUrl": null
         },
@@ -433,7 +603,7 @@
           "description": "imba97: \nmatchinitx\nmatchinitx 前身是 initx-collective/initx 项目中的功能，在插件中定义了匹配规则，然后 initx 会收集所有插件，根据用户在命令行输入的关键字，匹配、调用对应的插件\n来看看它具体能干嘛\n使用\nimport { type MatcherRules, useInitxMatcher } from 'matchinitx'\n\n基础匹配器\n匹配器默认规则类型是这样的，为了演示就简化的写一下\ntype MatcherRules<T> = T & {\n  matching: (string | RegExp)[]\n}\n\n这个对象最后会返回给一个处理函数，但会把 matching 移除\n所以我们需要自定义一些需要的字段，并且定义好匹配规则\ninterface CustomField {\n  name: string\n}\n\nconst rules: MatcherRules<CustomField> = [\n  {\n    matching: [\n      'foo',\n      /^bar/\n    ],\n    name: 'first'\n  },\n  {\n    matching: [\n      'test',\n      /^t/\n    ],\n    name: 'second'\n  }\n]\n\n然后需要一个处理函数，把它传给 useInitxMatcher\ninterface CustomResult {\n  rule: CustomField\n  others: string[]\n}\n\nfunction resultFn(rule: CustomField, ...others: string[]): CustomResult {\n  return { rule, others }\n}\n\nconst…",
           "link": "https://www.v2ex.com/t/1106890",
           "publishedOn": "2025-01-21T12:17:41.000Z",
-          "wordCount": 611,
+          "wordCount": 612,
           "title": "写了个不错的匹配器 matchinitx",
           "imageUrl": null
         },
@@ -443,7 +613,7 @@
           "description": "tutugreen: \nRT ，\n前面也蹲了挺久，大概也知道国内方便解的大致只有一加了，但（之前）看一加全系没有 N79 ，就缓着了，本来早上还觉得 0 目标。。。\n想着等等魅族、三星，能 root 也行。\n然群友推了一个 Ace5Pro ，和客服确认有 n1/n3/n5/n8/n28A/n38/n40/n41/n48/n66/n77/n78/n79/n80/n81/n83A/n84/n89 ，刚好符合，准备趁国补先下手了，但其它方面砍的挺多，防水、无线充、影像、USB3.0 等等。\n还有评测也不是很多，不知道射频什么组合。\n好像是唯一机型了？还是个中端机\n向看看 v2 还有其他大满贯选项吗，或者能解锁的旗舰级等等（加钱可及吗\n小米国行解锁都变多专业考研题了，还随便指定出勤时间答题，纯粹恶心人了，最近传又收紧了，暂不考虑。。（要是 15u 国际版能解再说\nRoot 必选（因为要用 WG 内核 等），然后主要看网络/射频，日常体验。性能调教倒是放最后了，游戏很少在手机上。",
           "link": "https://www.v2ex.com/t/1106889",
           "publishedOn": "2025-01-21T12:16:25.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "8 Elite + N79/频段不砍 + 能解 BL/ROOT，还有得选吗",
           "imageUrl": null
         },
@@ -453,7 +623,7 @@
           "description": "Astronaut258: \n家里用的软路由的 openclash 科学上网，今天突然发现智能门锁的实时监控用不了了。试了下用另一个手机开热点就可以用，门锁没问题，要怎么破，把智能门锁弄成直连？\n家里是软路由拨号 硬路由是做有线中继模式，由软路由统一下发所有 ip ，门锁是鹿客的 s6max ，有没人知道要怎么搞",
           "link": "https://www.v2ex.com/t/1106888",
           "publishedOn": "2025-01-21T12:12:43.000Z",
-          "wordCount": 479,
+          "wordCount": 481,
           "title": "科学上网后智能门锁的实时监控连不上了怎么办",
           "imageUrl": null
         },
@@ -463,7 +633,7 @@
           "description": "lucasj: \n牛马不还乡 - 哔哩哔哩",
           "link": "https://www.v2ex.com/t/1106885",
           "publishedOn": "2025-01-21T12:03:44.000Z",
-          "wordCount": 339,
+          "wordCount": 340,
           "title": "[视频] 牛马不还乡 😂",
           "imageUrl": null
         },
@@ -473,7 +643,7 @@
           "description": "kikoroc: \n一个开源的白板工具，支持思维导图、流程图和画笔等多种功能。\n不仅提供了丰富的绘图工具，还具备自动保存、导出为 PNG 、JPG 和 JSON 等多种实用功能。\n网站网址： https://drawnix.com\n项目地址： https://github.com/plait-board/drawnix",
           "link": "https://www.v2ex.com/t/1106884",
           "publishedOn": "2025-01-21T12:01:44.000Z",
-          "wordCount": 355,
+          "wordCount": 357,
           "title": "分享一个开源的白板工具",
           "imageUrl": null
         },
@@ -483,7 +653,7 @@
           "description": "xingye163: 电脑和路由器里能看到 240e 开头的 IPV6 的地址，但是访问测试网址却说没有侦测到 IPV6 地址\n光猫设置了桥接，路由器拨号，用的是爱快路由器系统\n已经正确打开了 IPV6 地址分配，能在路由器和本地电脑上看到 240E 开头的 IPV6 地址\n但是播放 IPV6 的直播源却打不开，访问 IPV6 测试网址，也显示说没有侦测到 IPV6 地址，请问这是怎么回事呢。\n求教各位大佬！",
           "link": "https://www.v2ex.com/t/1106882",
           "publishedOn": "2025-01-21T11:42:03.000Z",
-          "wordCount": 443,
+          "wordCount": 445,
           "title": "电脑和路由器里能看到 240e 开头的 IPV6 的地址，但是访问测试网址却说没有侦测到",
           "imageUrl": null
         },
@@ -493,7 +663,7 @@
           "description": "maladaxia: \n主要原因是左侧车速要比中间更快, 还有原因是我比较懒, 不喜欢变道\n我的习惯是:\n前方没车时, 130 速度巡航\n前方有车且车速大于 110 小于 130 时, 跟车\n前方有车且车速小于 110, 超过去, 然后再并到左侧\n老司机看看, 这样开有问题吗",
           "link": "https://www.v2ex.com/t/1106881",
           "publishedOn": "2025-01-21T11:14:18.000Z",
-          "wordCount": 507,
+          "wordCount": 509,
           "title": "我喜欢在左侧车道开",
           "imageUrl": null
         },
@@ -503,7 +673,7 @@
           "description": "salor: \n\n\n都不敢想后面十几年就业压力有多大，往死里卷吧。",
           "link": "https://www.v2ex.com/t/1106880",
           "publishedOn": "2025-01-21T11:12:34.000Z",
-          "wordCount": 444,
+          "wordCount": 446,
           "title": "新生儿嫌少，毕业生嫌多。",
           "imageUrl": null
         },
@@ -513,7 +683,7 @@
           "description": "yangyu: \n各位大佬好，平时在国外工作，一直用的是 iPhone 。这次回国买了一个安卓备用机，大电池，快充，高刷，信号还好，比 iPhone 好用太多了。打算趁国补买个配置高点的当主力机用。目前有以下这些问题：\n我目前用的是荣耀，尽管内置了 Google 框架，但是感觉功能不完整。哪些手机对 Google Pay 和 Android Auto 的支持比较好呢？\n国产手机都内置了反诈吗？有没有办法屏蔽或者直接刷成外版系统来规避？\n由于我会频繁去日本，请问国产手机对 NFC-F(Felica)的支持如何呢？",
           "link": "https://www.v2ex.com/t/1106879",
           "publishedOn": "2025-01-21T11:11:53.000Z",
-          "wordCount": 420,
+          "wordCount": 422,
           "title": "求教哪些安卓手机在国外使用比较方便呢？",
           "imageUrl": null
         },
@@ -523,188 +693,8 @@
           "description": "pacino: \n没去过福建，优先考虑想去泉州、厦门看看，然后潮汕那边据说年味也很足，也都没去过。大家有啥推荐的吗？没太多特殊要求，亲子友好即可。",
           "link": "https://www.v2ex.com/t/1106878",
           "publishedOn": "2025-01-21T11:11:18.000Z",
-          "wordCount": 365,
+          "wordCount": 367,
           "title": "春节期间想出来转转",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106877",
-          "author": "NovemberEleven",
-          "description": "NovemberEleven:  [文件闪传] 是一款类似锤子 Handshaker 的安卓 App ，不过不需要在电脑安装客户端，用浏览器连接。\n第一次在 V2 发布文件闪传已经是 7 年前了： https://www.v2ex.com/t/409687\n之前的界面长这样的：\n\n\n有时候被用户吐槽“绿色 + 黑色”的界面好丑😂，于是 24 年自学了 figma ，参考着 Mac 的 Finder 和 iCloud 把界面进行了更新，主题色也从绿色变成了蓝色，因为我看很多办公效率软件都是用蓝色，新界面如下：\n\n\n新界面同时优化了交互体验，如果是桌面浏览器，操作方式类似“文件管理器”，支持 Ctrl 和 Shift 多选，鼠标框选，右键菜单。\n主要功能：\n分类浏览手机文件\n\n照片预览：\n\n文件传输：\n\n文件夹加到侧栏快键访问：\n\n\n互传文件的 APP 有很多，如果想找类似 Handshaker 的，希望您可以试试看，非常感谢。\n官网下载： https://www.xiaolifaa.com/",
-          "link": "https://www.v2ex.com/t/1106877",
-          "publishedOn": "2025-01-21T11:03:40.000Z",
-          "wordCount": 400,
-          "title": "分享我做的类 Handshaker App，文件闪传-电脑快速下载手机照片",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106876",
-          "author": "firstmetcs",
-          "description": "firstmetcs: 在高架上突然发现除了限速摄像头旁边的小牌子还多了个常驻右上角的大牌子显示，目前试了一下只有在高架上可以显示，上高架自动显示，下高架就消失了，刷新也蛮及时的在弯道岔路之类的。\n手机系统是 iOS14.8 居然也能显示出来:)",
-          "link": "https://www.v2ex.com/t/1106876",
-          "publishedOn": "2025-01-21T10:54:37.000Z",
-          "wordCount": 350,
-          "title": "CarPlay 的限速标志可以常驻显示了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106875",
-          "author": "pianjiao",
-          "description": "pianjiao: 去年 11 月点 公司裁员离职，然后 12 月 1 月 到年底了。碰到生病就没怎么面试，一开始 12 月初 有家要给 offer 但是薪资降的太多 有 30% ，然后就拒了， 结果后面面试都没得。\n然后本来这个月都快过年了，已经不打算找了，准备等年后，结果意外面了个过了。但是薪资降的也是厉害呢。\n结果现在一点高兴的心情都没得。。。咋整。。先接下来在骑驴找马？这样算下来 与之前 一年差了 5 6w. 而且社保是最低的。\n\n不接吗，年后又不知道啥时候能找到，，",
-          "link": "https://www.v2ex.com/t/1106875",
-          "publishedOn": "2025-01-21T10:53:18.000Z",
-          "wordCount": 389,
-          "title": "年前找到工作了，可是我却开心不起来。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106874",
-          "author": "wxf66",
-          "description": "wxf66: \n发现网络不好的情况下这个请求会影响页面渲染，但我这个页面是纯客户端的组件，只是原地更改查询参数的导航都会一直触发这个请求，官方文档也没找到什么能控制这个行为的地方",
-          "link": "https://www.v2ex.com/t/1106874",
-          "publishedOn": "2025-01-21T10:50:59.000Z",
-          "wordCount": 353,
-          "title": "每次导航会有一个 _rsc 参数的请求怎么能阻止",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106873",
-          "author": "AOK123",
-          "description": "AOK123: 最近终于买了魔兽的线搞定了 M1Pro+LGC3 的 4K120HDR ，但是发现几个问题\n- 打开 HDR 后电视亮度就不能调整了，必须在 macOS 里调整，有些不方便。\n- 特定的缩放无法开起 HDR ，比如 3008x1692. 而这个正好是我平时用的缩放。。。\n- 休眠唤醒/插拔显示器有一定概率不能点亮屏幕。Mac 已经识别到屏幕但屏幕显示无信号，在设置中关闭 HDR 就能立刻有信号，再打开 HDR 也可以成功切换。\n大家平时会一直开启 HDR 吗？\n在 Windows 有快捷键可以快速开起关闭，macOS 有类似的快捷键吗？或者是方便调整 HDR 模式亮度的快捷键？",
-          "link": "https://www.v2ex.com/t/1106873",
-          "publishedOn": "2025-01-21T10:45:43.000Z",
-          "wordCount": 446,
-          "title": "Mac 外接显示器开启 HDR 的小问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106872",
-          "author": "SmithJohn",
-          "description": "SmithJohn: 看到隔壁前端面试题帖子了.\n我们 javaer 需要自己的题库.\n各种常见的不常见的面试题,大家来互相交流吧.",
-          "link": "https://www.v2ex.com/t/1106872",
-          "publishedOn": "2025-01-21T10:39:46.000Z",
-          "wordCount": 1370,
-          "title": "大佬们，一人出一道后端面试题，年后准备跳槽",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106871",
-          "author": "k9982874",
-          "description": "k9982874: 3 个交易日收官了，轻仓过年，一月收益不错，只可惜差一点没做到 50%",
-          "link": "https://www.v2ex.com/t/1106871",
-          "publishedOn": "2025-01-21T10:34:32.000Z",
-          "wordCount": 344,
-          "title": "收官过年了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106870",
-          "author": "StephenJoseDai",
-          "description": "StephenJoseDai: \n我有两个问题，第一个是，树莓派只有后一个 RJ45 口以及一个 WIFI ，抛开 WIFI 不说，怎么让这一个 RJ45 口既做 WAN 又做 LAN ？ WAN 口向上游获取 IP 或者 PPPOE,LAN 则是下发 IP 给客户端？\n第二个是，我的 RJ45 用来做 WAN ，WIFI 用来做 LAN ，客户端连接到 WIFI 后会得到一个 IP ，但是这里有个点，我是这么设置的，WAN 获取 IPV4 ，再建一个 WAN6 来获取 IPV6 ，均由上游下发，这个时候我想 WIFI 也能拿到上游给的 IPV6 并且下发给下面的客户端，这个该咋做，搞了好久始终拿不到上面的 V6  \n图 1\n图 2\n图 3",
-          "link": "https://www.v2ex.com/t/1106870",
-          "publishedOn": "2025-01-21T10:26:04.000Z",
-          "wordCount": 537,
-          "title": "Openwrt 单臂路由",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106867",
-          "author": "WenJimmy",
-          "description": "WenJimmy: \n交强险已经垫付了 18,000 ，司机个人垫付了 12,500\n昨天刚出院，对于肇事者保险公司，我应该怎么与他们沟通，应该主张哪些赔偿项目，有没有什么坑？工伤这一块公司倒是很主动，认定没下来期间让我请了病假。\n我打算等我拆除钢板后再与保险公司索赔，也就是大概一年后。",
-          "link": "https://www.v2ex.com/t/1106867",
-          "publishedOn": "2025-01-21T10:22:10.000Z",
-          "wordCount": 374,
-          "title": "上班途中开门杀锁骨骨折，上了钢板，关于工伤赔偿和交通事故肇事赔偿应该怎么主张？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106866",
-          "author": "hrshanbay",
-          "description": "hrshanbay: 工作职责：\n1.负责公司 iOS 平台应用的设计、开发与维护，确保产品的高质量交付；\n2.参与项目需求分析、功能设计，与团队成员紧密协作，制定技术方案；\n3.依据产品需求进行 iOS 应用的界面设计、模块编码，优化用户体验；\n4.负责解决开发过程中的技术难题，对应用进行性能优化、调试与修复；\n5.跟进 iOS 系统版本更新，适配新特性，确保应用的兼容性与稳定性；\n6.协助完成应用的测试、上线部署工作，配合产品团队处理线上问题。\n职位要求：\n1.本科及以上学历，计算机相关专业，3 年以上 iOS 开发经验；\n2.熟练掌握 Swift 编程语言，熟悉 iOS 开发框架；\n3.具备扎实的数据结构与算法基础，能独立完成复杂功能模块开发；\n4.熟悉 iOS 应用的性能优化方法，了解内存管理、多线程编程；\n5.掌握常用的设计模式，具备良好的代码规范与编程习惯；\n6.有过完整 iOS 项目上线经验，熟悉 App Store 上架流程；\n7.具备良好的团队协作精神，较强的学习能力与问题解决能力；\n加分项：\n1.熟悉 AI 编程，有利用 AI 技术（如机器学习、深度学习框架，如 TensorFlow 或 PyTorch 在 iOS 平台的移植运用）优化 iOS 应用功能的实践经验;\n2.熟悉 Flutter 技术，能够独立使用 Flutter 搭建跨平台应用的基础架构，实现部分功能模块开发\n\n关于扇贝团队：\n扇贝是国内知名的在线学习平台，致力于成为最受用户信赖的终身学习平台。目前已经拥有过亿用户。\n我们一直在努力，秉持“让每个人都能通过学习变得更好”这个使命，为每一个用户提供有趣的、个性化的学习体验，让他们成为更好的自己。\n我们在分布式架构，自然语言处理等技术方面也有长期积累，结合精良的内容制作，能够为用户提供独特和优秀的产品服务。\n简历可以投递至 recruit@shanbay.com",
-          "link": "https://www.v2ex.com/t/1106866",
-          "publishedOn": "2025-01-21T10:13:23.000Z",
-          "wordCount": 433,
-          "title": "扇贝-iOS 工程师-南京-招聘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106864",
-          "author": "wuhunyu",
-          "description": "wuhunyu: \n如题，我在使用 jOOQ 的时候，事务无法正常生效，无论是声明式事务还是编程式事务\n当我以为是代码问题时，我换回了 mybatis ，发现事务是正常的\n使用编程式事务时，大致代码如下\n@Service(\"userService4Jooq\")\n@RequiredArgsConstructor\n@Slf4j\npublic class UserService4Jooq {\n\n    private final TUserDao userDao;\n\n    @Transactional(rollbackFor = Exception.class)\n    public Integer insert(final Long userId, final String userName) {\n        final TUserRecord tUserRecord = new TUserRecord();\n        tUserRecord.setId(userId);\n        tUserRecord.setUserName(userName);\n        final TUser tUser = tUserRecord.into(TUser.class);\n        userDao.insert(tUser);\n        return 1;\n    }\n\n    @Transactional(readOnly = true)\n    public TUser selectById(final Long userId) {\n        return userDao.fetchOneById(userId);\n    }\n\n    @Transactional(rollbackFor = Exception.class)\n    public TUser insertRetuning(final Long userId, final String userName) {\n        this.insert(userId, userName);\n        return this.selectById(userId);\n    }\n\n    @Transactional(rollbackFor = Exception.class)\n    public TUser insertRetuningThrow(final Long userId, final String userName) {\n        final TUser tUser = this.insertRetuning(userId, userName);\n        // TODO: 手动异常，待删除\n        int i = 10 / 0;\n        return tUser;\n    }\n\n}\n\n完整的样例代码可以访问这里",
-          "link": "https://www.v2ex.com/t/1106864",
-          "publishedOn": "2025-01-21T10:03:34.000Z",
-          "wordCount": 569,
-          "title": "jOOQ 事务失效",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106863",
-          "author": "darktutu",
-          "description": "darktutu:",
-          "link": "https://www.v2ex.com/t/1106863",
-          "publishedOn": "2025-01-21T10:01:27.000Z",
-          "wordCount": 410,
-          "title": "oyunfor 购买礼品卡 收到这个提示 Payment has not been approved. 如何解决啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106862",
-          "author": "coorey",
-          "description": "coorey: \n怎么修复",
-          "link": "https://www.v2ex.com/t/1106862",
-          "publishedOn": "2025-01-21T09:51:53.000Z",
-          "wordCount": 365,
-          "title": "NTFS for Mac 格式化的 NTFS 硬盘在 windows 上识别不了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106860",
-          "author": "74123gzy",
-          "description": "74123gzy: 之前一直没想起来这个事情，前两天才发现，qq 可以导入本机上的旧版 qq 的消息记录。\n然后现在我有两台电脑，都已经导入了旧版的消息记录，但是我想导出的时候发现没这个功能，我想合并新旧电脑上的新 qq 数据，因为新电脑已经用了一段时间了，所以不好直接覆盖\nTLDR：均为新版 qq 聊天记录，如何备份旧电脑上的聊天记录，然后和新电脑上的记录合并？",
-          "link": "https://www.v2ex.com/t/1106860",
-          "publishedOn": "2025-01-21T09:50:28.000Z",
-          "wordCount": 383,
-          "title": "现在有没有什么好的 pc 版 qq 消息备份+同步的方案？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106859",
-          "author": "limubai66",
-          "description": "limubai66: 今天发现京东上线了国补，要用云闪付支付，然后按照正常流程领取资格，京东下单，但没注意地址错误，使用了非上海地址，导致支付完成后，秒退单，且资格未返还，打京东客服说是 48 小时内返还。\n后面想了下，上一年使用国补，基本都是秒返还的，感觉有些不对。然后在抖音、百度搜索，发现也有一些朋友遇到了这个问题，也发现黑猫投诉，商务部投诉都有类似情况，结果不得而知，但大多数都说没办法，只能用朋友或家人的账号下单了.\n所以大概我的资格也回不来了！\n难崩😭",
-          "link": "https://www.v2ex.com/t/1106859",
-          "publishedOn": "2025-01-21T09:49:29.000Z",
-          "wordCount": 433,
-          "title": "云闪付国补支付后不要退款！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106858",
-          "author": "hxlgg01",
-          "description": "hxlgg01: \n（注：此方法仅适用于像我这样 GitHub 下载顶天 1.5MB 然后下载一半直接 0KB/S 的 speedtest 20MBps 的网速差的人）\n首先，你要有一台海外 VPS 。\n然后，在 GitHub 上复制下载链接，然后在你的 VPS 上输入 wget gituub-url\n这样就可以很快的下载完毕。然后在你的本地，可以用 SFTP 或者 SSH 来下载。\n虽然因带宽限制，速度依然不会很快，但也比在本地 0KB 要好得多。\n当然，这个方法也适用于很多国内下载速度慢/无法下载的资源。\n如果你家网速较好，就不必像我这样多此一举了。",
-          "link": "https://www.v2ex.com/t/1106858",
-          "publishedOn": "2025-01-21T09:48:07.000Z",
-          "wordCount": 585,
-          "title": "发现一种加快 github 下载速度的方法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106857",
-          "author": "uSy62nMkdH",
-          "description": "uSy62nMkdH: 不考虑海外微信，只考虑海外应用",
-          "link": "https://www.v2ex.com/t/1106857",
-          "publishedOn": "2025-01-21T09:41:37.000Z",
-          "wordCount": 400,
-          "title": "海外有没有类似小程序的方案？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106856",
-          "author": "huage",
-          "description": "huage: 1.需要在浏览器网页上登录才能答题；\n2.题目都是从题库里随机出的；\n3.题目都是单选题，但是顺序随机变化。\n4.答完第一页，需要点击下一页。\n请问有没有什么工具能够实现自动或者半自动呢？\n例如我登录后，开启这个工具或者插件，然后自动或者半自动完成答题",
-          "link": "https://www.v2ex.com/t/1106856",
-          "publishedOn": "2025-01-21T09:38:09.000Z",
-          "wordCount": 333,
-          "title": "有没有什么工具或者插件可以完成自动答题？",
           "imageUrl": null
         }
       ]
