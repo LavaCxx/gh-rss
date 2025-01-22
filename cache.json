@@ -261,12 +261,182 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107205",
+          "author": "stobacco",
+          "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
+          "link": "https://www.v2ex.com/t/1107205",
+          "publishedOn": "2025-01-22T17:02:08.000Z",
+          "wordCount": 451,
+          "title": "现在话费起充都是 50 了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107204",
+          "author": "NamelessRain",
+          "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
+          "link": "https://www.v2ex.com/t/1107204",
+          "publishedOn": "2025-01-22T16:45:30.000Z",
+          "wordCount": 509,
+          "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107202",
+          "author": "Symbo1ic",
+          "description": "Symbo1ic: \n如题。我是一个图形程序员，目前正在做 UE5 相关的工作。日常就是写 cpp 和 vulkan ，除了 Macbook 以外手机 ipad iwatch 都正在用。以前使用黑苹果体验过 Sonoma ，没有体验随航以及镜像啥的功能，不是非常适应按键和 terminal 的权限问题，因为虽然是类 unix 操作系统但是居然不能对系统目录有操作权限，这个真的不舒服。目前软件需求的话就是 CSP 、Rider 、VSCode 、Maya 还有 Pytorch 。刚需是能够轻度游戏（包括转译），进行游戏开发，如果能进行游戏引擎开发就更好了。现在确实有机会能搞到一台 MBP ，或者转卖换钱。我觉得我能克服按键的问题，但其余因素有点拿不定。想问问各位，我这个情况整一台 MBP 是否合适呢？",
+          "link": "https://www.v2ex.com/t/1107202",
+          "publishedOn": "2025-01-22T16:31:10.000Z",
+          "wordCount": 405,
+          "title": "图形程序员是否需要 Macbook Pro M4？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107201",
+          "author": "HenryDai",
+          "description": "HenryDai: \n背景：题主在二线城市，是一个三年工作经验的全栈开发，主要是做国产化 toG 的业务。前一段时间因为失业，长住在做嵌入式的朋友家。期间聊到 C++、jni 、AndroidFramework 。对 AndroidFramework 产生了非常大的兴趣。\n之前的工作内容都是偏业务多一点可替代性极强，因为题主垃圾本科的学历和项目经验问题，无法进入大厂镀金，个人喜欢技术岗，希望职业生涯能长点，想换个赛道。\n疑问\n1.AndroidFramework 偏底层的开发没有年龄危机吗？\n2.是否建议转 Framework 开发？\n3.AndroidFramework 应该怎么转？\n希望能够得到大佬们的回答和帮助",
+          "link": "https://www.v2ex.com/t/1107201",
+          "publishedOn": "2025-01-22T16:23:26.000Z",
+          "wordCount": 399,
+          "title": "求助帖： Android Framework 的前景?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107200",
+          "author": "adamwang",
+          "description": "adamwang: \nRocketSim( https://apps.apple.com/cn/app/rocketsim-for-xcode-simulator/id15049401) 是一个 iOS 模拟器调试工具，可以在本地方便的进行通知、深色模式、网络控制、UserDefaults 读写等功能。\n原本订阅价格为 328CNY/年，但是现在作者出了个活动，给他的邮件 newsletter 拉新，拉 30 个人的话可以领一个终身的码。\n有需要的同学可以关注一下。\n这个是我的邀请链接： https://join.swiftlee-weekly.com/cb2f1e2f/\n介意的朋友可以去除后面的 refer ，直接从他的网站订阅",
+          "link": "https://www.v2ex.com/t/1107200",
+          "publishedOn": "2025-01-22T16:04:23.000Z",
+          "wordCount": 374,
+          "title": "iOS 模拟器调试工具 RocketSim 限时活动",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107198",
+          "author": "Adminmaster",
+          "description": "Adminmaster: \n公司简介\n我们是一家专注于 AI 驱动的语言学习 的科技公司，致力于通过 个性化 AI 教学 让语言学习更自然、更高效。我们的应用采用 AI 互动化身（ Avatar ） 技术，让用户能够与 AI 教师进行沉浸式对话，模拟真人语言交流体验。我们在全球 100 多个国家拥有 超过 120 万月活跃用户，过去 12 个月内实现了 近 2000 万美元的营收，并已完成 3550 万美元的 A 轮融资，正处于快速增长阶段。我们正在寻找一位 高级 Unity 开发工程师，负责构建创新的互动应用。您将与设计师、艺术家和其他工程师紧密合作，开发和优化基于 Unity 的产品，为用户提供沉浸式学习体验。\n岗位职责\n设计、开发和维护高性能的 Unity 应用，确保用户体验的流畅度和稳定性。\n实现和优化交互逻辑、用户界面（ UI ）和 3D 视觉效果。\n开发 AI 互动功能，与后端团队合作实现智能对话和个性化学习场景。\n进行性能优化，包括渲染、物理计算和资源管理，确保在不同设备上良好运行。\n解决技术难题，调试和优化代码，提高系统的稳定性和可扩展性。\n研究和应用最新的 Unity 技术，以提升产品的沉浸感和交互体验。\n指导初级开发人员，推动团队技术水平的提升。\n岗位要求\n5 年及以上 Unity 开发经验，具备扎实的 C# 编程能力 和 Unity API 经验。\n熟悉 3D 渲染、物理引擎、动画、Shader 开发和 UI 交互设计。\n有 AI 交互、语音识别、LLM （大语言模型）集成经验 的优先考虑。\n具备 Unity 性能优化 经验，能够进行 内存管理、Draw Call 优化、资源加载优化。\n了解 多端开发（ iOS 、Android 、WebGL ），熟悉平台相关优化方法。\n有多人交互开发经验（如 Photon 、Mirror 、Netcode for GameObjects ）的优先。\n具备优秀的团队协作能力，能够与产品、设计和后端团队高效沟通。\n流利的英文听说读写能力，能够无障碍地与国际团队合作。\n薪资\n30k - 40k\n有意者请将简历发送至 hr@rampingup.com",
+          "link": "https://www.v2ex.com/t/1107198",
+          "publishedOn": "2025-01-22T15:25:18.000Z",
+          "wordCount": 463,
+          "title": "招聘高级 Unity 开发工程师",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107197",
+          "author": "awendujitang",
+          "description": "awendujitang: 简单好用的 SVG 格式转换工具，支持：\nBase64 编码 → SVG 代码与文件\nSVG 代码 → Base64 编码\nSVG 文件上传 → 获取代码和 Base64\n特点：支持预览、一键复制、SVG 文件下载。适合前端开发、设计师快速处理 SVG 素材。\n🔗 在线使用： https://xcoff.ee/base64-to-svg.html",
+          "link": "https://www.v2ex.com/t/1107197",
+          "publishedOn": "2025-01-22T15:18:05.000Z",
+          "wordCount": 390,
+          "title": "🎨 SVG 在线转换工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107196",
+          "author": "tlerbao",
+          "description": "tlerbao:",
+          "link": "https://www.v2ex.com/t/1107196",
+          "publishedOn": "2025-01-22T15:17:55.000Z",
+          "wordCount": 387,
+          "title": "Trae 的 UI 配色方案挺好啊，有大神能移植到 Vscode 或者 Cursor 上吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107195",
+          "author": "CC11001100",
+          "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
+          "link": "https://www.v2ex.com/t/1107195",
+          "publishedOn": "2025-01-22T15:07:49.000Z",
+          "wordCount": 667,
+          "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107194",
+          "author": "wchluxi",
+          "description": "wchluxi: 是 windows 为了推 edge 使的招吗？",
+          "link": "https://www.v2ex.com/t/1107194",
+          "publishedOn": "2025-01-22T14:57:42.000Z",
+          "wordCount": 363,
+          "title": "windows 更新后好像固定在任务栏的 chrome 消失了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107193",
+          "author": "sn0wdr1am",
+          "description": "sn0wdr1am: \n分享一个自己封装的 qBittorrent 镜像，欢迎大家使用。\n默认情况下，账号密码随机生成，非常安全。\n您也可以参考项目地址文档，运行的时候，传入自己的账户密码。\n开源项目地址： https://github.com/snowdreamtech/qbittorrent\ndocker 镜像托管在：\nhttps://github.com/snowdreamtech/qbittorrent/pkgs/container/qbittorrent\nhttps://quay.io/repository/snowdreamtech/qbittorrent\nhttps://hub.docker.com/r/snowdreamtech/qbittorrent\nalpine 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/riscv64,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:alpine\n\ndebian 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/ppc64le,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:debian",
+          "link": "https://www.v2ex.com/t/1107193",
+          "publishedOn": "2025-01-22T14:48:02.000Z",
+          "wordCount": 472,
+          "title": "如何使用 Docker 一键部署 qBittorrent",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107192",
+          "author": "Niner",
+          "description": "Niner: \nUser u = userMapper.selectOne(id);\nu.setName(myname);\nu.setAge(myAge);\nuserMapper.updateById(u);\n\n我看工作里面很多代码都是这样更新的，虽然方便但是有并发问题，大佬们 cr 遇到会打回去吗？",
+          "link": "https://www.v2ex.com/t/1107192",
+          "publishedOn": "2025-01-22T14:47:55.000Z",
+          "wordCount": 515,
+          "title": "update 大家会允许这样写吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107191",
+          "author": "javazero",
+          "description": "javazero: \n试了一下，qbit 一改端口就被封了。我说怎么上传一点速度都没有\n老哥们有什么好办法吗？",
+          "link": "https://www.v2ex.com/t/1107191",
+          "publishedOn": "2025-01-22T14:44:08.000Z",
+          "wordCount": 403,
+          "title": "0755 公网 ip 封 bt 端口",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107190",
+          "author": "ZJamss",
+          "description": "ZJamss: \n推荐的直播永远肯定是擦边女主播，哪怕我从来没看过，只看过 LPL\n无论对擦边视频点多少次视频内容或者 UP 主不感兴趣，下一次加载总会有存在莫名其妙的擦边穿搭，cos ，舞蹈等等\n我还以为是根据性别推荐的牛皮癣，甩不掉的，结果看了一下资料，默认保密我没动过。其实也不是什么大事，只是有时候 npy 看见总要说两句我看擦边，又有大数据推荐原理帮着背书，等于坐实了罪名，难办啊",
+          "link": "https://www.v2ex.com/t/1107190",
+          "publishedOn": "2025-01-22T14:43:34.000Z",
+          "wordCount": 406,
+          "title": "吐槽一下 b 站的推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107187",
+          "author": "joesph",
+          "description": "joesph: 本人所在的一家 web3 公司，第一季度正在搭建 AI 算法产品的团队，急需各位大厂人才来投递，有以下岗位：\n算法 leader\nAI 平台产品经理\n大模型算法\n应用研发-chatbot 、AI 营销、搜推、KYC\n平台研发-AI 平台、Agent 、RAG 、模型仓库\nAIGC 多模态算法\n高级模型工程师\n风控数据分析算法\n算法部署工程师\n算法核心工程师（ CV 方向）\n [薪资待遇] 工作经验至少 3 年以上，普通岗位年包 40w-100w ，总监岗 100w+，工资发 usdt ，14-18 薪，公司不交社保公积金，直接发钱自己缴纳或者不缴纳都可以。季度团建费，学习费，健康费 各 100U ，年假 10 天。节假日按照国内的照常放，各类婚假，丧假，育儿假都有。会签海外的合同，公司注册地在海外。\n [工作时长]  大小周，10-7 ，需要 WLB 不用来投递了哈\n\n以下是具体的 jd：\n算法 leader\n岗位职责：\n1 、从事 AI 领域的深度学习算法研究、实现和优化，负责提供特定需求的深度学习算法解决方案；\n2 、负责针对业务问题，设计和实现具体应用的深度学习模型、策略、算法，对业务进行赋能；\n3 、负责算法的整体规划，基于视觉、语音、图像、搜推等算法能力，结合技术和产品团队实际落地;\n4 、深入理解业务场景，与团队协作，提出创新性解决方案，推动项目进展；\n岗位职责：\n1 、计算机科学、人工智能、统计、数学等相关专业硕士/博士学历；\n2 、掌握 Java,Python 等至少一门编程语言，有深度学习开发经验，具备独立实现算法的能力，夯实的工程能力；\n3 、8 年以上深度学习领域相关工作经验，3 年以上团队管理经验，有丰富的实际项目经验，包括但不限于大规模语言模型、图像生成、搜推等；\n4 、对数据敏感，用数据说话，深信数据在驱动业务、支撑决策上的价值；…",
+          "link": "https://www.v2ex.com/t/1107187",
+          "publishedOn": "2025-01-22T14:30:26.000Z",
+          "wordCount": 798,
+          "title": "[web3] [远程办公] AI 算法产品团队搭建，也有其他开发，业务岗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107186",
+          "author": "livc",
+          "description": "livc: \nhttps://gitlab.winehq.org/wine/wine/-/releases/wine-10.0",
+          "link": "https://www.v2ex.com/t/1107186",
+          "publishedOn": "2025-01-22T14:24:14.000Z",
+          "wordCount": 352,
+          "title": "wine 10.0 发布了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107185",
+          "author": "trihuan",
+          "description": "trihuan: 很积极正向的问题哦",
+          "link": "https://www.v2ex.com/t/1107185",
+          "publishedOn": "2025-01-22T14:11:00.000Z",
+          "wordCount": 401,
+          "title": "有没有通用的办法 根据一个 dy/xhs 视频逆向搜用户 id？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107184",
           "author": "gongxuanzhang",
           "description": "gongxuanzhang: \n我出去买瓶可乐都能遇到 7 个半小时用 cursor 上线项目的人。",
           "link": "https://www.v2ex.com/t/1107184",
           "publishedOn": "2025-01-22T14:08:47.000Z",
-          "wordCount": 398,
+          "wordCount": 391,
           "title": "做网站就做网站，写前端就写前端，可以不说 cursor 了吗",
           "imageUrl": null
         },
@@ -286,7 +456,7 @@
           "description": "dnjat: \n上头交给年后任务，开发一款用来在线教育的音视频软件，先让我先研究一下，然后规划下流程方案和技术选型，主导这个软件的开发（我会 c++,java ，另外两个会 java ）。\n本人无音视频开发经验也无理论知识，完全从头开始研发。\n为什么不用市面上已有产品？因为要交钱，老板希望有自己的产品，方便日后扩展，升级，满足他的控制欲，为称霸扫平道路。\n👑希望能得到音视频大佬们的指点👑。\n软件需求：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n下面是我这两天的查阅，拼湊出的一个简略框架和流程：\n大体框架：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n大体流程：\n1 、通过 gRPC 传输信令，建立 WebRTC 点对点连接（这里打算直接用 P2P 建立连接，涉及到 NAT 穿透，如果穿不透，使用 TURN 做中继,用中继后所有流量都得走服务器，人一多，对服务器带宽是个挑战，基本一个 5M 带宽，最多支持 5 个一对一，那得多少带宽才能带得动）。\n2 、教师通过系统 API 捕获屏幕，摄像头采集，麦克风采集，通过 ffmpeg 处理后，用 WebRTC 传输。\n3 、学生端直接使用 WebRTC 显示。\n使用 WebRTC：\n使用 WebRTC 比较方便，有网络自适应。但好像只能在浏览器中使用。\nWebRTC 也有 native 库（原生 native 库，metartc ），直接在 C++调用，不知道坑多不多。\n不使用 WebRTC:\n采用 RTMP/RTSP 传输，ffmpeg 解码后，用 OpenSL ，OpenGL 之类自己做渲染。\n疑问：\n1 、使用 WebRTC 方便 还是 用 RTMP/RTSP 传输后自己解码显示？\n2 、如何避免/减少点对点流量对服务器造成的带宽压力？\n这中间有的地方可能理解得不对🐞，希望得到大佬们的批评指点🌻。如果有不错的学习资源，帮忙推荐一下🎁。",
           "link": "https://www.v2ex.com/t/1107182",
           "publishedOn": "2025-01-22T13:24:06.000Z",
-          "wordCount": 840,
+          "wordCount": 877,
           "title": "如何开发一款会议室(音视频)产品？好像有点难",
           "imageUrl": null
         },
@@ -336,7 +506,7 @@
           "description": "dream0689: 起因：云机器的 ipv6 分配了但不通，尝试了重做系统，就联系客服处理，对方要求 root 密码或者给予临时权限。于是我就把密码改成相对简单的密码。没过多久流量就耗尽了。大概半个小时 300 多 G 流量吧。\n经过：再次联系客服，反馈情况，我以为是系统 bug 。客服反馈流量耗尽，付费增加流量后必须重置系统。同时提醒我网络不是家里的电脑，密码不能太简单。\n结果与思考：付费增加 100G 流量，等待系统重置。\n留下两个疑问：\n1.公网设备 root 密码这么容易爆破么？\n2.增加流量的同时必须重置系统的原因是什么？",
           "link": "https://www.v2ex.com/t/1107174",
           "publishedOn": "2025-01-22T12:30:19.000Z",
-          "wordCount": 531,
+          "wordCount": 535,
           "title": "云机器流量这么容易被耗尽嘛？",
           "imageUrl": null
         },
@@ -366,7 +536,7 @@
           "description": "huijiewei: \nfunction ToggleButtonRemastered({ isEnabled, children }) {\n  return (\n    <button\n      className={clsx(\n        isEnabled && \"scale-110\",\n        \"transition-transform duration-200 w-max text-xl\"\n      )}\n    >\n    {children}\n  </button>\n  )\n}\n\n和\nfunction ToggleButtonClassicEdition({ isEnabled, children }) {\n  return (\n    <button\n      data-enabled={isEnabled}\n      className=\"data-[enabled=truel:scale-110 transition-transform duration-200 w-max text-xl\"\n    >\n      {children}\n    </button>\n  )\n}",
           "link": "https://www.v2ex.com/t/1107170",
           "publishedOn": "2025-01-22T12:20:37.000Z",
-          "wordCount": 486,
+          "wordCount": 488,
           "title": "React 组件样式的实现方式哪种更好？ 大家都发表一下意见么",
           "imageUrl": null
         },
@@ -406,7 +576,7 @@
           "description": "saranz:",
           "link": "https://www.v2ex.com/t/1107166",
           "publishedOn": "2025-01-22T12:12:44.000Z",
-          "wordCount": 367,
+          "wordCount": 382,
           "title": "有没有适合中学生参加的游戏开发竟赛推荐？",
           "imageUrl": null
         },
@@ -426,7 +596,7 @@
           "description": "WuDiHaiTai: \n我今年刚毕业，但是已经拥有了 2 次共计 2 年的租房史，多次约开锁师傅经历（因为我是糊涂蛋）。\n这次是我第 3 次租房，刚租好的房子冰箱坏了，在它工作的时候会发出吱吱的开门声，酒店式布局不修的话睡觉都睡不好。今天我上班的时候告诉房东冰箱的事，表示想找个啄木鸟修一修，房东是个退休大爷，很欣然的同意了，中午的时候我就打开了啄木鸟的小程序看看报价，这也开始了今天的故事...\n啄木鸟维修定价很笼统，没说修具体故障多少钱，但是把维修过程每一项价格都给规定好了，价格不低。我紧接着去抖音搜了下，发现啄木鸟差评满满，师傅漫天要价，坐地起价，恶评比比皆是。\n没过多久就来了客服电话，主动要给我预约维修，我说你都不知道我是什么坏了就要帮我下单，收费多少你告诉我啊？那边的女客服全程用喊的语气和我说话，还有湖北口音，服务态度就别说了，她的办公条件一定很差，很多人打电话的话确实只能靠喊，和联通人工客服那种心平气和的语气截然相反，她说，“之后会有师傅联系你报价”，总之她很想完成帮人下单这件业绩，她也只负责下单。我也不多想了，给了地址，下单。\n过了十分钟接到了师傅的电话，我问了招呼然后便和他粗略的讲冰箱的故障，他特别冷漠的语气，完全忽略我的发言，目的直接地问我地址在哪，几点上门，完全不在乎冰箱坏的是哪里，更不用谈报价了。\n就这样稀里糊涂的我竟然约上了啄木鸟维修，我当时越想越不对，这完全不是奔着修理家电来的，这是为了钱啊，你都不知道我冰箱哪里坏了，难道你不带配件空着手来赚我的上门费吗？所以果断去小程序取消了订单。\n进而我想到前段时间在 V 站看到有人说自己社会经验不足的事，我在想，如果我也是刚刚进入社会，会不会今天也会上当。虽然修理的钱是房东报销的，但是总不能不拿别人的钱当钱，出租屋的冰箱就 700 块钱，大于 300 如果是我我是绝对不会接受的，这也太逆天了。前段时间开锁也是，每次约上门开锁都是和美团报价都是两个标准，约单的人不管钱，师傅打电话报个价，上门了看你长得年轻是学生就开始坐地起价，这个不行，那个你门锁太高级了，搞不了，拿根棍子伸进去捅一下门把手的事，真当别人都是傻子，只有你板着脸让他不开就走，他才会乖乖从袋子里掏出那根棍。\n出社会第一件事是学会胯起个批脸，太老实的结果一定是受骗。",
           "link": "https://www.v2ex.com/t/1107162",
           "publishedOn": "2025-01-22T11:46:06.000Z",
-          "wordCount": 497,
+          "wordCount": 499,
           "title": "从啄木鸟家电维修想到了所谓社会经验的问题",
           "imageUrl": null
         },
@@ -478,176 +648,6 @@
           "publishedOn": "2025-01-22T11:14:11.000Z",
           "wordCount": 395,
           "title": "Apple 健康：如何让某些数据重新由手机监测，而非 Apple Watch",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107155",
-          "author": "SayHelloHi",
-          "description": "SayHelloHi: \n🍎设置 -> 桌面与程序坞 -> 小组件 -> 关闭 使用 iPhone 小组件\n \n再次打开 iPhone 镜像 可正常使用",
-          "link": "https://www.v2ex.com/t/1107155",
-          "publishedOn": "2025-01-22T11:10:47.000Z",
-          "wordCount": 359,
-          "title": "macOS 升级到 15.x 无法使用 iPhone 镜像 解决方法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107154",
-          "author": "vincentWdp",
-          "description": "vincentWdp: \n这种功能典型的拿人不当人. 反过来想, 你家老总愿意和 AI 打电话吗?\n除非本人明确知道对方是 AI, 然后主动打过去, 否则很厌烦. 不知道你们有没有这个感受...",
-          "link": "https://www.v2ex.com/t/1107154",
-          "publishedOn": "2025-01-22T11:02:08.000Z",
-          "wordCount": 469,
-          "title": "我本人非常反感 AI 给我打推销电话, 本来是银行的电话, 结果对话反应跟个 AI 一样, 气得我骂了一句就挂了!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107153",
-          "author": "houshuu",
-          "description": "houshuu: \nGitHub\n👉 https://github.com/fang2hou/blink-copilot\n动机\n自从 LazyVim 转了 blink 之后，因为 blink-cmp-copilot 中日文支持差其实一直停留在了 nvim-cmp，但是又眼馋 blink.cmp 的性能优势。\nblink-cmp-copilot 的 Unicode bug 修复了。\ncopilot-cmp 的皮毛。同时公司政策只准用 copilot.vim 不允许用 copilot.lua（第三方），所以自己动手做了一个合规且更快的新 source 。\n主要特性\n可自定义的多补全候选项功能\n用 Lua 重写了和 LSP 的交互，比 copilot.lua 的同时也能作用于 copilot.vim\n使用最新的 Copilot LSP API ，最小化预处理以获得更快的速度\nLSP 客户端在缓冲区切换时进行检测状态，提升可用性\n增强的预览功能，具有智能缩进和代码片段优化\n从 blink-cmp-copilot 转 blink-copilot 的话有什么好处？\n补全预览中的缩进能够被正确识别并格式化，不会再有代码飞出框很远的情况了\n支持 copilot.lua 和 copilot.vim 作为后端，符合很多大厂的安全规范\n支持多个补全候选项，并且相关参数均可配置\nLSP 交互不再依赖 copilot.lua 。新的 LSP 交互代码在确保符合最新的官方 API 规范的前提下，减少了不必要的代码预处理，有很微小的性能提升\nblink-cmp-copilot 在启动时如果打开了不支持的文件格式文件，那么其他文件都会无法使用补全。blink-copilot 会在后续打开支持的文件格式时自动重新检测 Copilot 来解决这个问题",
-          "link": "https://www.v2ex.com/t/1107153",
-          "publishedOn": "2025-01-22T10:56:06.000Z",
-          "wordCount": 422,
-          "title": "blink-copilot - 同时支持 copilot.vim 和 copilot.lua 的 blink.cmp 代码补全源",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107150",
-          "author": "ccctttwww",
-          "description": "ccctttwww: 背景：今天和之前的一个同事聊天，他们公司在用 AI 给企业赋能，AI 帮助企业节省了很多员工，甚至开发都节省了很多，帮公司降本了。我思考了很多。。\n对话：\n我：这个东西如何给公司带来利润呢，我们现在公司的业务线是实体行业，大环境不好后没人来消费，亏了很多钱，这个 AI 的用处是什么呢？\n他：一个是盈利，一个是节省，节省可以借助 AI 完成，亦是一种盈利\n我：那不就是裁员吗？\n他：比如说，客服原来需要 100 个人才能解决，现在 AI 助力一部分，只需要 50 人，就可以节省 50 人的人力成本\n我：节省了 50 个人的成本，对社会是好事吗，50 个人又不花钱了，企业更难赚到钱\n他巴拉巴拉又讲了很多这个对于企业怎么降本的好处\n我在想啊，现在企业一味的追求降本，也就是裁员，就业环境会变差，消费更加萎靡，企业不是更难赚到钱吗？这样的恶性循环难道是对的吗？无人驾驶、无人超市、AI 写代码，这个好处先不谈，坏处就是这个岗位的人没了收入，这么做的人越来越多，没收入的人也就越来越多，经济能好起来吗？\n我最早知道 AI 是 GPT ，确实给我带来很多便利，从 GPT 诞生到现在，大家现在好像都在往 AI 代替人工方向狂奔，不知道这些人都没有想过，自己也有可能被 AI 替代的\n我最近用 vscode copilot 和 cursor 的写了一些代码，目前只能写一些玩具和小东西，在生产环境根本用不了，公司的美工都在用 AI 生成的图，效果也挺一般的，但我感觉未来某一天可能真的会被 AI 替代，可未来我又能去做什么呢。。\n鲁迅曾经说过“从来如此，便对么？”",
-          "link": "https://www.v2ex.com/t/1107150",
-          "publishedOn": "2025-01-22T10:42:36.000Z",
-          "wordCount": 407,
-          "title": "AI 的方向问题，如果 AI 只有降本，那方向还是对的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107149",
-          "author": "vanillaxxx",
-          "description": "vanillaxxx: \n刚才刷到 /t/1107118 这位兄弟关于腾讯的帖子，忍不住来吐槽一下高德。\n事情是这样的，我们 2019 年前后开发了个社交 APP ，里面有使用到高德的两个产品：\n客户端使用了定位 SDK 用来获取经纬度，日均调用两百多次；\n服务端使用了地理编码 API ，日均调用一百多次。\n看这数据大家应该能猜出来我们这 APP 大概是什么体量了吧...\n前两天一企业微信认证为“高德云图服务中心”的人，先是打电话，我没有接，随后发短信曰“未进行合法授权，要限制接口调用次数为 1”。\n我心想这可不行啊，停用之后线上不就出问题了。\n于是马上联系短信中的微信，加上之后我还没说话呢，直接甩给我服务协议“以商业目的使用本服务但是未获得商用授权，则高德有权采取相应措施，包括但不限于通知您限期购买商用服务、暂停或终止全部或部分的使用，且无需向您和任何方承担责任”。\n众所周知现在市场上架 APP 需要企业认证，我们那个以公司名义上架的 APP 大概也算是“商业目的”吧，于是询问如何获得授权，答曰每年 5 万。\n我其实当时就觉得可笑了，你说我这调用量且算一年 10 万次，你问我一年收 5 万块，合着每次调用要 2 毛？你高德要抢钱直说好了嘞。或者你高德把我们这 APP 买去你自己试试一年能挣 5 万块不？\n高德可能是真的缺钱了吧，手往小开发者这边申。于是礼貌拒绝，转头开了个百度的，先顶着用，至少先不要影响线上的用户。\n后续打算把经纬度这玩意儿直接删了，本意是想能给俩用户显示个距离，没有经纬度就按照用户自己填写的地区排个同城得了。\n高德按照用户协议办事儿也无可厚非，怪我们这小开发者配不上他。不过为啥从 2019 年开始没找过，偏偏年前找呢，这我不好说啊，毕竟“解释权”都是他们拥有的。",
-          "link": "https://www.v2ex.com/t/1107149",
-          "publishedOn": "2025-01-22T10:34:14.000Z",
-          "wordCount": 547,
-          "title": "高德你是觉得市场上只有你一家地图服务提供商吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107148",
-          "author": "love8",
-          "description": "love8: \n开发者 Netskao 通过逆向工程发现，\n微信这一功能的实现抛弃了以往的 CallKit 方案，\n而是通过调用 iOS17.4+ 的新 LiveCommunicationKit 接口实现。\n微信：你禁用 CallKit ，跟我 LiveCommunicationKit 有什么关系。\n所以想要实现这个功能你先要是 iOS17.4+ 的系统以上。然后是最新版微信。如果还没有出现的话，手机上退出微信账号登录，重新密码登录下就可以了。",
-          "link": "https://www.v2ex.com/t/1107148",
-          "publishedOn": "2025-01-22T10:30:06.000Z",
-          "wordCount": 590,
-          "title": "原来新版微信所谓的 CallKit 是曲线救市",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107147",
-          "author": "asanelder",
-          "description": "asanelder: 无聊玩了几天小红书的聊天室。发现以下几个现象\n1. 小红书的用户英文水平真的高，随便一个都能和老外对答如流\n2. 小红书的敏感度也真的高，不管有的没的，莫名你就违规了，所以必须要使用英文代替，你要是英文水平不行，基本上说不出话来了。\n3. 两性话题，吐槽原生家庭，还有心理问题，或者聊吃玩（比如你那里冷不冷，吃不吃辣）这几个是相对安全的话题。除此之外的话题，那违规率不是一般的高。\n4. 很多词用中文说问题大大的，用英文就没问题了。。。\n高强度聊了几天后，发现现实中，自己已经不能像正常人那些说话了。比如会说：能加一个绿泡泡？这个东西多少米？你在英某某村生活的怎么样？美某丽某村，肘子村等等。。。",
-          "link": "https://www.v2ex.com/t/1107147",
-          "publishedOn": "2025-01-22T10:24:58.000Z",
-          "wordCount": 420,
-          "title": "你要不会点英文，在小红书简直寸步难行。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107146",
-          "author": "qqqtz",
-          "description": "qqqtz:",
-          "link": "https://www.v2ex.com/t/1107146",
-          "publishedOn": "2025-01-22T10:24:50.000Z",
-          "wordCount": 389,
-          "title": "广东要取消求职补贴？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107145",
-          "author": "dengyao1014",
-          "description": "dengyao1014: \n👋 Hello everyone! I'd like to share a project I've been working on - a web interface for DeepSeek AI models.\n🔍 What is DeepSeekr?\nIt's a platform that provides free access to DeepSeek AI models. No registration required, no API key needed - just open and start chatting.\n✨ Key Features:\n• Supports both DeepSeek-7B and 67B models\n• Completely free to use\n• No registration required\n• Clean, minimalist interface\n• Fast response time\n🛠 Tech Stack:\n• Frontend: Next.js\n• Backend: Node.js\n• AI: DeepSeek API\n🔗 Website: https://deepseekr1.site\n💡 Use Cases:\n• General conversation and Q&A\n• Programming assistance\n• Content creation\n• Learning and education\n🎯 Motivation:\nI noticed many people wanted to try DeepSeek models but were blocked by various barriers. So I developed this simple tool to help more people experience AI technology.\n📝 Future Plans:\n• Add more useful features\n• Optimize response speed\n• Support more models\n• Expand use case scenarios\nI welcome any feedback and suggestions. Feel free to try it out and leave your comments below.\n#AI #DeepSeek #OpenSource",
-          "link": "https://www.v2ex.com/t/1107145",
-          "publishedOn": "2025-01-22T10:21:45.000Z",
-          "wordCount": 532,
-          "title": "DeepSeekr1 - A Free Web Interface for DeepSeek AI Models",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107144",
-          "author": "Xheldon",
-          "description": "Xheldon: 原贴地址： https://www.v2ex.com/t/1025569\n当时因为支付麻烦没做支付，留了打赏地址，这两年插件收入为 0 ，因此开源了。\n一来怕人担心有恶意代码，毕竟插件要求了很多 token 如 github notion 各个 oss/cos 的，所以难免有这个担心，二来个人经历有限，后续规划的 AI 能力开发进度缓慢，希望能一起共建。\n因为当初没想开源所以代码写的比较糙（我相信很多闭源的产品不开源的原因都有这一点），又不是不能跑，欢迎 PR 。\n地址: https://github.com/Xheldon/Notion-Flow\n使用说明: https://notion-flow.xheldon.com\n另外预告一下在开发另一个收费的也是跟开发者相关的插件，已经调研完收款的方式，准备闭源收款了😎",
-          "link": "https://www.v2ex.com/t/1107144",
-          "publishedOn": "2025-01-22T10:19:28.000Z",
-          "wordCount": 406,
-          "title": "因为我这个浏览器插件不赚钱，所以开源了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107143",
-          "author": "drymonfidelia",
-          "description": "drymonfidelia:",
-          "link": "https://www.v2ex.com/t/1107143",
-          "publishedOn": "2025-01-22T10:12:32.000Z",
-          "wordCount": 512,
-          "title": "为什么国内的手游公司这么爱用 Lua 搞热更，国外的公司很少用？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107142",
-          "author": "mythcry",
-          "description": "mythcry: \n之前加了一些群感觉不活跃，所以自己建了个交流学习群。\n群内主要聊一些加密、隐私安全、信息交流，也可吹水聊天。\n目前群内 100 多人，想交流学习的来：\nhttps://signal.group/#CjQKILtNj1I7z1rfKh6zoY2NrjOVanlFOuAD58BKvAgle8yqEhAIY8BVY10ck1A16onlafvR",
-          "link": "https://www.v2ex.com/t/1107142",
-          "publishedOn": "2025-01-22T10:00:01.000Z",
-          "wordCount": 360,
-          "title": "建了个加密软件，隐私安全的交流群",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107141",
-          "author": "bugyaluwang",
-          "description": "bugyaluwang: \n春招将至，趁势做了一个能根据 JD 自动修改简历的工具（站在巨人的肩膀上写得就是快）\n数据都本地化了，安心食用。\n体验地址： https://grinzero.github.io/Reactive-Resume/\n仓库地址： https://github.com/GrinZero/Reactive-Resume/tree/master\n现在对于 prompt 有点疑惑，分享的同时也想问一下大家，有什么优化建议。",
-          "link": "https://www.v2ex.com/t/1107141",
-          "publishedOn": "2025-01-22T09:59:37.000Z",
-          "wordCount": 385,
-          "title": "[开源分享] 基于 AI + JD 自动修改简历",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107140",
-          "author": "YJi",
-          "description": "YJi: \n狼人杀能支持到 30 个人么？哈哈",
-          "link": "https://www.v2ex.com/t/1107140",
-          "publishedOn": "2025-01-22T09:49:50.000Z",
-          "wordCount": 394,
-          "title": "有没有适合线下人多一起玩，能活跃气氛的游戏推荐？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107139",
-          "author": "toury",
-          "description": "toury: \n家里的联通网，用公网 ipv6,弄了个 tailscale drep 服务，udp 流量出不去。\n然后试着开 HTTP3/QUIC ，也是 UDP 被屏蔽的感觉，http3 开启不了。\n现在运营商直接一刀切 udp 吗，这也不是 QoS 的样子？ 电信好像正常能放 udp 流量进来。",
-          "link": "https://www.v2ex.com/t/1107139",
-          "publishedOn": "2025-01-22T09:48:11.000Z",
-          "wordCount": 423,
-          "title": "请问现在联通的 ipv6，屏蔽了 UDP 进入流量吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107136",
-          "author": "kandaakihito",
-          "description": "kandaakihito: \n我有什么：\n机场的订阅链接。\n我想要什么：\n类似于 cfw 在导入订阅链接后，所生成的 config.yaml ，如下图：\nhttps://i.imgur.com/tnRcPXQ.png \n我遇到了什么问题：\n我不清楚订阅链接的生成和转换原理，网上找不到对应的分析，甚至找不到有效的转换库；\n我尝试将订阅链接直接进行 base64 解码，解析出来的节点数据像是被加密了一样；\ncfw 生成的订阅规则前面还有很多诸如 proxy-group 之类的属性，不知道怎么生成的；\n我想得到什么帮助：\n订阅链接的生成和转换原理是啥？\ncfw 的 config.yaml 生成库是啥？\n有现成的转换工具吗？\n只安装 clash-core 是否需要折腾 config.yaml ？我看别的脚本怎么都是 wget 一下就结束了，我是不是绕路了？\n为什么我会遇到这些问题：\n在尝试自己写一个一键安装 clash core 的脚本练手，结果卡壳了。\n菜菜，佬佬，救救，爱爱",
-          "link": "https://www.v2ex.com/t/1107136",
-          "publishedOn": "2025-01-22T09:34:32.000Z",
-          "wordCount": 504,
-          "title": "[求助] 如何将机场的订阅链接转换为 clash 可用的 config.yaml 文件？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107135",
-          "author": "gemisgoat81",
-          "description": "gemisgoat81: 国行小米一堆广告 国际版小米目前为止根本没有与 su7 的车机联动 等小米 15pro 全球版发布不知道会不会有 为什么不给国际版手机做车机联动？ 是因为政策规定？",
-          "link": "https://www.v2ex.com/t/1107135",
-          "publishedOn": "2025-01-22T09:29:38.000Z",
-          "wordCount": 407,
-          "title": "小米手机国际版有希望实现与小米 su7 车机联动吗？",
           "imageUrl": null
         }
       ]
