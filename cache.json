@@ -137,12 +137,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": []
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -322,7 +316,7 @@
           "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
           "link": "https://www.v2ex.com/t/1107205",
           "publishedOn": "2025-01-22T17:02:08.000Z",
-          "wordCount": 453,
+          "wordCount": 484,
           "title": "现在话费起充都是 50 了？",
           "imageUrl": null
         },
@@ -332,7 +326,7 @@
           "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
           "link": "https://www.v2ex.com/t/1107204",
           "publishedOn": "2025-01-22T16:45:30.000Z",
-          "wordCount": 529,
+          "wordCount": 531,
           "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
           "imageUrl": null
         },
@@ -342,7 +336,7 @@
           "description": "Symbo1ic: \n如题。我是一个图形程序员，目前正在做 UE5 相关的工作。日常就是写 cpp 和 vulkan ，除了 Macbook 以外手机 ipad iwatch 都正在用。以前使用黑苹果体验过 Sonoma ，没有体验随航以及镜像啥的功能，不是非常适应按键和 terminal 的权限问题，因为虽然是类 unix 操作系统但是居然不能对系统目录有操作权限，这个真的不舒服。目前软件需求的话就是 CSP 、Rider 、VSCode 、Maya 还有 Pytorch 。刚需是能够轻度游戏（包括转译），进行游戏开发，如果能进行游戏引擎开发就更好了。现在确实有机会能搞到一台 MBP ，或者转卖换钱。我觉得我能克服按键的问题，但其余因素有点拿不定。想问问各位，我这个情况整一台 MBP 是否合适呢？",
           "link": "https://www.v2ex.com/t/1107202",
           "publishedOn": "2025-01-22T16:31:10.000Z",
-          "wordCount": 407,
+          "wordCount": 415,
           "title": "图形程序员是否需要 Macbook Pro M4？",
           "imageUrl": null
         },
@@ -402,7 +396,7 @@
           "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
           "link": "https://www.v2ex.com/t/1107195",
           "publishedOn": "2025-01-22T15:07:49.000Z",
-          "wordCount": 685,
+          "wordCount": 703,
           "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
           "imageUrl": null
         },
@@ -422,7 +416,7 @@
           "description": "sn0wdr1am: \n分享一个自己封装的 qBittorrent 镜像，欢迎大家使用。\n默认情况下，账号密码随机生成，非常安全。\n您也可以参考项目地址文档，运行的时候，传入自己的账户密码。\n开源项目地址： https://github.com/snowdreamtech/qbittorrent\ndocker 镜像托管在：\nhttps://github.com/snowdreamtech/qbittorrent/pkgs/container/qbittorrent\nhttps://quay.io/repository/snowdreamtech/qbittorrent\nhttps://hub.docker.com/r/snowdreamtech/qbittorrent\nalpine 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/riscv64,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:alpine\n\ndebian 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/ppc64le,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:debian",
           "link": "https://www.v2ex.com/t/1107193",
           "publishedOn": "2025-01-22T14:48:02.000Z",
-          "wordCount": 485,
+          "wordCount": 487,
           "title": "如何使用 Docker 一键部署 qBittorrent",
           "imageUrl": null
         },
@@ -432,7 +426,7 @@
           "description": "Niner: \nUser u = userMapper.selectOne(id);\nu.setName(myname);\nu.setAge(myAge);\nuserMapper.updateById(u);\n\n我看工作里面很多代码都是这样更新的，虽然方便但是有并发问题，大佬们 cr 遇到会打回去吗？",
           "link": "https://www.v2ex.com/t/1107192",
           "publishedOn": "2025-01-22T14:47:55.000Z",
-          "wordCount": 527,
+          "wordCount": 533,
           "title": "update 大家会允许这样写吗？",
           "imageUrl": null
         },
@@ -452,7 +446,7 @@
           "description": "ZJamss: \n推荐的直播永远肯定是擦边女主播，哪怕我从来没看过，只看过 LPL\n无论对擦边视频点多少次视频内容或者 UP 主不感兴趣，下一次加载总会有存在莫名其妙的擦边穿搭，cos ，舞蹈等等\n我还以为是根据性别推荐的牛皮癣，甩不掉的，结果看了一下资料，默认保密我没动过。其实也不是什么大事，只是有时候 npy 看见总要说两句我看擦边，又有大数据推荐原理帮着背书，等于坐实了罪名，难办啊",
           "link": "https://www.v2ex.com/t/1107190",
           "publishedOn": "2025-01-22T14:43:34.000Z",
-          "wordCount": 406,
+          "wordCount": 413,
           "title": "吐槽一下 b 站的推荐",
           "imageUrl": null
         },
@@ -652,7 +646,7 @@
           "description": "WuDiHaiTai: \n我今年刚毕业，但是已经拥有了 2 次共计 2 年的租房史，多次约开锁师傅经历（因为我是糊涂蛋）。\n这次是我第 3 次租房，刚租好的房子冰箱坏了，在它工作的时候会发出吱吱的开门声，酒店式布局不修的话睡觉都睡不好。今天我上班的时候告诉房东冰箱的事，表示想找个啄木鸟修一修，房东是个退休大爷，很欣然的同意了，中午的时候我就打开了啄木鸟的小程序看看报价，这也开始了今天的故事...\n啄木鸟维修定价很笼统，没说修具体故障多少钱，但是把维修过程每一项价格都给规定好了，价格不低。我紧接着去抖音搜了下，发现啄木鸟差评满满，师傅漫天要价，坐地起价，恶评比比皆是。\n没过多久就来了客服电话，主动要给我预约维修，我说你都不知道我是什么坏了就要帮我下单，收费多少你告诉我啊？那边的女客服全程用喊的语气和我说话，还有湖北口音，服务态度就别说了，她的办公条件一定很差，很多人打电话的话确实只能靠喊，和联通人工客服那种心平气和的语气截然相反，她说，“之后会有师傅联系你报价”，总之她很想完成帮人下单这件业绩，她也只负责下单。我也不多想了，给了地址，下单。\n过了十分钟接到了师傅的电话，我问了招呼然后便和他粗略的讲冰箱的故障，他特别冷漠的语气，完全忽略我的发言，目的直接地问我地址在哪，几点上门，完全不在乎冰箱坏的是哪里，更不用谈报价了。\n就这样稀里糊涂的我竟然约上了啄木鸟维修，我当时越想越不对，这完全不是奔着修理家电来的，这是为了钱啊，你都不知道我冰箱哪里坏了，难道你不带配件空着手来赚我的上门费吗？所以果断去小程序取消了订单。\n进而我想到前段时间在 V 站看到有人说自己社会经验不足的事，我在想，如果我也是刚刚进入社会，会不会今天也会上当。虽然修理的钱是房东报销的，但是总不能不拿别人的钱当钱，出租屋的冰箱就 700 块钱，大于 300 如果是我我是绝对不会接受的，这也太逆天了。前段时间开锁也是，每次约上门开锁都是和美团报价都是两个标准，约单的人不管钱，师傅打电话报个价，上门了看你长得年轻是学生就开始坐地起价，这个不行，那个你门锁太高级了，搞不了，拿根棍子伸进去捅一下门把手的事，真当别人都是傻子，只有你板着脸让他不开就走，他才会乖乖从袋子里掏出那根棍。\n出社会第一件事是学会胯起个批脸，太老实的结果一定是受骗。",
           "link": "https://www.v2ex.com/t/1107162",
           "publishedOn": "2025-01-22T11:46:06.000Z",
-          "wordCount": 534,
+          "wordCount": 536,
           "title": "从啄木鸟家电维修想到了所谓社会经验的问题",
           "imageUrl": null
         }
