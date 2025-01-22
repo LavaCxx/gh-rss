@@ -94,6 +94,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -129,12 +135,6 @@
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
       ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": []
     },
     {
       "title": "阮一峰的网络日志",
@@ -266,7 +266,7 @@
           "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
           "link": "https://www.v2ex.com/t/1107205",
           "publishedOn": "2025-01-22T17:02:08.000Z",
-          "wordCount": 451,
+          "wordCount": 453,
           "title": "现在话费起充都是 50 了？",
           "imageUrl": null
         },
@@ -276,7 +276,7 @@
           "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
           "link": "https://www.v2ex.com/t/1107204",
           "publishedOn": "2025-01-22T16:45:30.000Z",
-          "wordCount": 509,
+          "wordCount": 519,
           "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
           "imageUrl": null
         },
@@ -286,7 +286,7 @@
           "description": "Symbo1ic: \n如题。我是一个图形程序员，目前正在做 UE5 相关的工作。日常就是写 cpp 和 vulkan ，除了 Macbook 以外手机 ipad iwatch 都正在用。以前使用黑苹果体验过 Sonoma ，没有体验随航以及镜像啥的功能，不是非常适应按键和 terminal 的权限问题，因为虽然是类 unix 操作系统但是居然不能对系统目录有操作权限，这个真的不舒服。目前软件需求的话就是 CSP 、Rider 、VSCode 、Maya 还有 Pytorch 。刚需是能够轻度游戏（包括转译），进行游戏开发，如果能进行游戏引擎开发就更好了。现在确实有机会能搞到一台 MBP ，或者转卖换钱。我觉得我能克服按键的问题，但其余因素有点拿不定。想问问各位，我这个情况整一台 MBP 是否合适呢？",
           "link": "https://www.v2ex.com/t/1107202",
           "publishedOn": "2025-01-22T16:31:10.000Z",
-          "wordCount": 405,
+          "wordCount": 407,
           "title": "图形程序员是否需要 Macbook Pro M4？",
           "imageUrl": null
         },
@@ -336,7 +336,7 @@
           "description": "tlerbao:",
           "link": "https://www.v2ex.com/t/1107196",
           "publishedOn": "2025-01-22T15:17:55.000Z",
-          "wordCount": 387,
+          "wordCount": 399,
           "title": "Trae 的 UI 配色方案挺好啊，有大神能移植到 Vscode 或者 Cursor 上吗？",
           "imageUrl": null
         },
@@ -346,7 +346,7 @@
           "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
           "link": "https://www.v2ex.com/t/1107195",
           "publishedOn": "2025-01-22T15:07:49.000Z",
-          "wordCount": 667,
+          "wordCount": 669,
           "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
           "imageUrl": null
         },
@@ -376,7 +376,7 @@
           "description": "Niner: \nUser u = userMapper.selectOne(id);\nu.setName(myname);\nu.setAge(myAge);\nuserMapper.updateById(u);\n\n我看工作里面很多代码都是这样更新的，虽然方便但是有并发问题，大佬们 cr 遇到会打回去吗？",
           "link": "https://www.v2ex.com/t/1107192",
           "publishedOn": "2025-01-22T14:47:55.000Z",
-          "wordCount": 515,
+          "wordCount": 527,
           "title": "update 大家会允许这样写吗？",
           "imageUrl": null
         },
@@ -436,7 +436,7 @@
           "description": "gongxuanzhang: \n我出去买瓶可乐都能遇到 7 个半小时用 cursor 上线项目的人。",
           "link": "https://www.v2ex.com/t/1107184",
           "publishedOn": "2025-01-22T14:08:47.000Z",
-          "wordCount": 391,
+          "wordCount": 403,
           "title": "做网站就做网站，写前端就写前端，可以不说 cursor 了吗",
           "imageUrl": null
         },
@@ -456,7 +456,7 @@
           "description": "dnjat: \n上头交给年后任务，开发一款用来在线教育的音视频软件，先让我先研究一下，然后规划下流程方案和技术选型，主导这个软件的开发（我会 c++,java ，另外两个会 java ）。\n本人无音视频开发经验也无理论知识，完全从头开始研发。\n为什么不用市面上已有产品？因为要交钱，老板希望有自己的产品，方便日后扩展，升级，满足他的控制欲，为称霸扫平道路。\n👑希望能得到音视频大佬们的指点👑。\n软件需求：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n下面是我这两天的查阅，拼湊出的一个简略框架和流程：\n大体框架：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n大体流程：\n1 、通过 gRPC 传输信令，建立 WebRTC 点对点连接（这里打算直接用 P2P 建立连接，涉及到 NAT 穿透，如果穿不透，使用 TURN 做中继,用中继后所有流量都得走服务器，人一多，对服务器带宽是个挑战，基本一个 5M 带宽，最多支持 5 个一对一，那得多少带宽才能带得动）。\n2 、教师通过系统 API 捕获屏幕，摄像头采集，麦克风采集，通过 ffmpeg 处理后，用 WebRTC 传输。\n3 、学生端直接使用 WebRTC 显示。\n使用 WebRTC：\n使用 WebRTC 比较方便，有网络自适应。但好像只能在浏览器中使用。\nWebRTC 也有 native 库（原生 native 库，metartc ），直接在 C++调用，不知道坑多不多。\n不使用 WebRTC:\n采用 RTMP/RTSP 传输，ffmpeg 解码后，用 OpenSL ，OpenGL 之类自己做渲染。\n疑问：\n1 、使用 WebRTC 方便 还是 用 RTMP/RTSP 传输后自己解码显示？\n2 、如何避免/减少点对点流量对服务器造成的带宽压力？\n这中间有的地方可能理解得不对🐞，希望得到大佬们的批评指点🌻。如果有不错的学习资源，帮忙推荐一下🎁。",
           "link": "https://www.v2ex.com/t/1107182",
           "publishedOn": "2025-01-22T13:24:06.000Z",
-          "wordCount": 877,
+          "wordCount": 879,
           "title": "如何开发一款会议室(音视频)产品？好像有点难",
           "imageUrl": null
         },
@@ -576,7 +576,7 @@
           "description": "saranz:",
           "link": "https://www.v2ex.com/t/1107166",
           "publishedOn": "2025-01-22T12:12:44.000Z",
-          "wordCount": 382,
+          "wordCount": 384,
           "title": "有没有适合中学生参加的游戏开发竟赛推荐？",
           "imageUrl": null
         },
