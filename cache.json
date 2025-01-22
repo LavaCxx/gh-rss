@@ -37,7 +37,7 @@
           "description": "Lee Meyer with a super clever idea using scroll-driven animations as an interaction to \"like\" or \"dislike\" something.\nWeb-Slinger.css: Across the Swiper-Verse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/web-slinger-css-across-the-swiper-verse/",
           "publishedOn": "2025-01-15T15:03:25.000Z",
-          "wordCount": 3148,
+          "wordCount": 3196,
           "title": "Web-Slinger.css: Across the Swiper-Verse",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383533"
         },
@@ -271,6 +271,26 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1106938",
+          "author": "yangtianming",
+          "description": "yangtianming: 有没有同类人，对人脸识别非常抗拒。比如小区人脸识别才能进去，银行人脸识别才能办理业务，app 人脸识别才能继续，这里特别反感银行和政务 app ，没了人脸识别仿佛什么事都做不了。以上说的人脸识别不是 face id ，face id 我还是比较能接受的",
+          "link": "https://www.v2ex.com/t/1106938",
+          "publishedOn": "2025-01-21T22:31:13.000Z",
+          "wordCount": 491,
+          "title": "抗拒人脸识别",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1106937",
+          "author": "jiandandkl",
+          "description": "jiandandkl: \n看 Bitcoin Magazine CEO 说懂王的前 200 项行政命令中包括比特币或加密货币，今天已经开始涨了，大家还有推荐能上车的吗",
+          "link": "https://www.v2ex.com/t/1106937",
+          "publishedOn": "2025-01-21T20:36:48.000Z",
+          "wordCount": 369,
+          "title": "还有什么推荐入手的币吗",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1106936",
           "author": "HuPu",
           "description": "HuPu:",
@@ -286,7 +306,7 @@
           "description": "nivalxer: 最新的 7.18beta2 已添加选项，可以跳过 duid 验证，可正常获取 IPV6 PD\n以下为更新日志描述：\ndhcpv6-client - added \"validate-server-duid\" option;",
           "link": "https://www.v2ex.com/t/1106935",
           "publishedOn": "2025-01-21T18:22:58.000Z",
-          "wordCount": 387,
+          "wordCount": 396,
           "title": "RouterOS 7.18beta2 已支持跳过 IPV6 服务端 DUID 认证，中兴 vbras 可正常获取 IPV6 PD",
           "imageUrl": null
         },
@@ -296,7 +316,7 @@
           "description": "pizone: \n今天看到一个帖子，有人说“rss 不知道该说点什么，看着一大堆未读订阅发呆”。本来不想说 RSS 这个非常小众的话题，看到这个标题突然感到这个观点似曾相识，还是可以聊一聊。\n之前我分享过用 AI 编程工具 Cursor 开发复杂项目的一些心得（帖子地址）。今天不聊 Cursor ，想和大家聊聊我对 RSS 的一些新想法。\n对 RSS 的复杂情感：又爱又恨\n说实话，我对 RSS 的感情很复杂，又爱又恨。我喜欢订阅各种 RSS 源，但有时会忘了看，导致未读消息越积越多，最后干脆放弃。但过一段时间，我又会忍不住重新用回 RSS 。我觉得应该是缺少一款趁手的 RSS 订阅工具，只要体验足够好，还是可以让我每天刷一刷。所以，那段时间一直在寻找各种优秀的 RSS 工具，希望自己能每天坚持阅读。其实也找到了比较满意的 RSS 阅读器，但阅读 RSS 的习惯还总是断断续续。\n为什么 RSS 难以坚持？\n后来我仔细想了想，问题其实出在 RSS 阅读本身带来的价值含量偏低。低价值再叠加类似强迫症（消掉未读数）来支撑阅读 RSS 动力还不完全足够。虽然大家都说 RSS 订阅足够精准、没有广告，可以对抗推荐算法的说法上有点过于理想化了，真实情况是：各个订阅源的内容非常杂乱，即使是某些垂直领域的博主也话题很广，基本上什么热门话题也会说点，其实跟推荐算法有区别好像又没有区别。所以，在内容推荐算法或短视频这种让人上瘾的东西面前，RSS 逐渐被抛弃也是很正常的。它唯一明显的优势，可能就是按时间排序了。\n我为什么还喜欢 RSS ？\n尽管 RSS 有这么多问题，但我仍然喜欢它。也许，我只是想重新掌握信息的主动权，而不是被算法牵着鼻子走，其实不能说掌握主动权，只能说做一些挣扎。因此，我萌生了自己开发一款 RSS 阅读器的想法。首先我需要解决以下几个问题：\n内容质量不高\n未读消息太多\n没时间看\n…",
           "link": "https://www.v2ex.com/t/1106934",
           "publishedOn": "2025-01-21T18:03:23.000Z",
-          "wordCount": 507,
+          "wordCount": 532,
           "title": "为了看 RSS，也是醉了，自己动手撸了个 RSS 阅读器",
           "imageUrl": null
         },
@@ -306,7 +326,7 @@
           "description": "huangyezhufeng: \nTL;DR: https://github.com/shenxiangzhuang/Oh-PyTorch/blob/master/100-PyTorch-Exercises.ipynb\n主要是帮助练习和学习 Torch 的一些基本概念和基本操作，希望能对大家有帮助！",
           "link": "https://www.v2ex.com/t/1106932",
           "publishedOn": "2025-01-21T17:46:28.000Z",
-          "wordCount": 442,
+          "wordCount": 457,
           "title": "Oh-PyTorch: 用 PyTorch 解决 numpy-100 的练习题",
           "imageUrl": null
         },
@@ -316,7 +336,7 @@
           "description": "jeesk: \n你们能够正常访问 cf 提供 cdn 服务吗？\n目前观测到一些网络现象， 发现你们的联通节点貌似有问题。",
           "link": "https://www.v2ex.com/t/1106931",
           "publishedOn": "2025-01-21T17:32:19.000Z",
-          "wordCount": 366,
+          "wordCount": 377,
           "title": "有福建的泉州和南安相关的朋友吗？",
           "imageUrl": null
         },
@@ -326,7 +346,7 @@
           "description": "Licsber: \n官网点活动 底下就能看见（ 小问题 不过确实显得不专业\nV2 好像贴不上链接 会被识别成 aff\n<div class=\"uno-section    \" id=\"\" name=\"\"><div class=\"uno-section-inner\"><div class=\"uno-section-header\" style=\"text-align:\"><h2 class=\"uno-section-tit\"><span>一级主标题</span></h2><div><div class=\"sub-title-inline-block\"><div class=\"uno-section-sub-tit\"><span>一级副标题</span></div></div></div></div><div class=\"uno-section-body\"><div class=\"uno-buy-card-wrap uno-module\"><div class=\"uno-grid-row\" style=\"margin:-10px\"></div></div></div></div></div>\n\n最近在蹲轻量活动\n3 年之前买的快到期了 在想换啥好\n200M 的看起来还挺香的（？",
           "link": "https://www.v2ex.com/t/1106930",
           "publishedOn": "2025-01-21T17:12:56.000Z",
-          "wordCount": 449,
+          "wordCount": 454,
           "title": "腾讯云原来也没人审核 commit 啊，笑，网页多了几个“一级主标题、一级副标题”字样，测试代码上生产了",
           "imageUrl": null
         },
@@ -336,7 +356,7 @@
           "description": "lioiu: 这是一款跨平台桌面应用，让传统春联以现代方式展现在你的电脑上 🧨！ 欢迎大家下载体验😊\nGitHub 地址： https://github.com/liou666/couplet",
           "link": "https://www.v2ex.com/t/1106928",
           "publishedOn": "2025-01-21T16:58:32.000Z",
-          "wordCount": 363,
+          "wordCount": 377,
           "title": "开源一款年味十足的桌面端 APP —— 桌面春联。",
           "imageUrl": null
         },
@@ -346,7 +366,7 @@
           "description": "HoshinoSuzumi: \n一句简介\n只需要输入你想要的主题就可以帮你生成一副春联的东西。马上成为春联领域高手！\n使用\n🚀 couplets.bh8.ga\n介绍\n输入一句提示词即可生成春联\n福字可以反转\n上下联位置可以对调\n红底黑字和红底黄字\n可以复制、下载无水印对联图片\n可以分享生成结果给其他人查看\n开源\nGitHub\n截图预览\nhttps://imgur.com/a/nn98eXT\n注意\n所有对联内容由 AI 生成",
           "link": "https://www.v2ex.com/t/1106927",
           "publishedOn": "2025-01-21T16:47:07.000Z",
-          "wordCount": 401,
+          "wordCount": 416,
           "title": "[免费] AI 春联生成器 - 马上成为春联领域高手！",
           "imageUrl": null
         },
@@ -366,7 +386,7 @@
           "description": "joynvda: \n不知不觉屯了好些大模型。有送的，有主动充值的。跟以前忍不住手买 vps 一样。\n国外:\nxAI Grok\nOpenrouter Claude 3.5\n其它通过网关代理的 gpt4 、Claude 3.5\n国内:\n硅基 Deepseek V2.5 （历史原因先开通了，原来用在 cursor ；还充了一次）\nDeepseek V3 （现在用在 cursor ）\ndoubao\nkimi\nBAT 三家（因为有账号顺手开的）\n现在用下来：\nDeepseek V3   代码辅助主用\nDeepseek V2.5 拿去做一般的文本总结，主要中文方面\nGrok 拿去做国外网站的文本总结，便宜\nOpenrouter （ Claude 3.5 ）作为 Grok 后备\n之前充值的 gpt-4 网关、开账户送的 doubao 、kimi 使用在哪好呢？\n还是搞一个网关负载均衡空闲的大模型服务？",
           "link": "https://www.v2ex.com/t/1106924",
           "publishedOn": "2025-01-21T15:40:11.000Z",
-          "wordCount": 457,
+          "wordCount": 476,
           "title": "大模型服务使用推荐",
           "imageUrl": null
         },
@@ -376,7 +396,7 @@
           "description": "NotLongNil: \n如何让 Fork （ https://git-fork.com ）通过系统代理？\n我使用 Clash Verge Rev 翻墙，提交代码时需要开启 TUN 模式，但开启后常遇到问题，使用后必须关闭，很麻烦。\nFork 必须使用其自带的 Git 才能使 GitHub 授权通过 HTTPS 。我尝试了多种方法，但始终无法让 Fork 自带的 Git 走系统代理。\n有哪位大佬知道解决方法吗？",
           "link": "https://www.v2ex.com/t/1106920",
           "publishedOn": "2025-01-21T15:18:42.000Z",
-          "wordCount": 419,
+          "wordCount": 469,
           "title": "有人在 mac 上使用 Fork 这个 Git GUI 吗？怎么样才能让它走系统代理提交代码到 GitHub",
           "imageUrl": null
         },
@@ -396,7 +416,7 @@
           "description": "playniuniu: \n想从苹果换到安卓，买了一个一加 13 ，升级到最新的 ColorOS 15 ，但是无论怎样都获取不了家里路由器分配的 IPv6 的地址，同样的网络，iphone ，mac mini ，macbook pro 都没任何问题，头疼中。请问一下有什么可以设置的地方吗？",
           "link": "https://www.v2ex.com/t/1106917",
           "publishedOn": "2025-01-21T14:58:50.000Z",
-          "wordCount": 431,
+          "wordCount": 438,
           "title": "一加 13， ColorOS 15，获取不到 ipv6 地址，求助",
           "imageUrl": null
         },
@@ -406,7 +426,7 @@
           "description": "erosripe: mac 用了一年屏幕，一两天不用，屏幕和键盘粘连在一块，必须先从两遍慢慢翘起来，这个各位是如何解决的",
           "link": "https://www.v2ex.com/t/1106916",
           "publishedOn": "2025-01-21T14:52:51.000Z",
-          "wordCount": 380,
+          "wordCount": 387,
           "title": "mac 用了一段时间屏幕和键盘粘连",
           "imageUrl": null
         },
@@ -416,7 +436,7 @@
           "description": "ko20: \n现在应该统一使用了 byd.com 域名，使用网站子目录的方式区分国家或地区。\n以前中国区是 byd.com.cn ，现在是 byd.com/cn\n不过这个和苹果中国似乎恰恰相反，苹果以前是 apple.com/cn 现在是专门的 apple.com.cn 。不过这两种设计各有优劣。\n不过我想说的是，以前 byd 官网是真掉价，养那么多程序员做不出来一个像样的网站，最近一次更新我发现了很多不错的点\n字体应该变了，不懂设计，但是感觉和苹果苹方那种黑体更加相近，变得更好看了\n网站运用了大量毛玻璃效果，很有果味，不再像以前那么土了，有一些高级感了\n点击中国大陆， [选择国家或地区] 可以看到全球布局，byd 还是有野心的\n充电站地图很丝滑很可以\n总体体验和苹果中国官网风格有些像，浏览体验好了很多\n这次是真招了前沿前端程序员重构了网站了 [捂脸哭]",
           "link": "https://www.v2ex.com/t/1106915",
           "publishedOn": "2025-01-21T14:45:50.000Z",
-          "wordCount": 388,
+          "wordCount": 431,
           "title": "byd 官网更新了，更加国际化和现代化了，充电站地图很好用很丝滑",
           "imageUrl": null
         },
@@ -426,7 +446,7 @@
           "description": "zhoudaiyu: 2024 的冬天北京空气质量几乎每天非常棒，前几年可是不停出现雾霾，这是为什么呢？",
           "link": "https://www.v2ex.com/t/1106914",
           "publishedOn": "2025-01-21T14:35:34.000Z",
-          "wordCount": 477,
+          "wordCount": 494,
           "title": "大家有没有发现今年北京冬天雾霾少了很多",
           "imageUrl": null
         },
@@ -446,7 +466,7 @@
           "description": "benzbf: 如果周末安排 2 日曼谷特种兵式 City Walk 如何安排？\n有哪些东西是旅行必备？\n快速出入境、交通卡、地铁一日票、自助餐、景区门票、通常我们更需要了解哪些？\n分享一篇\n曼谷 2 日 City walk 杂文： https://boyinthai.com/magazine/2025-01-15/\n友情提示： 英文贴，英文不太好的可以直接 pass 。",
           "link": "https://www.v2ex.com/t/1106912",
           "publishedOn": "2025-01-21T14:25:35.000Z",
-          "wordCount": 405,
+          "wordCount": 439,
           "title": "曼谷两日特种兵式 City Walk",
           "imageUrl": null
         },
@@ -456,7 +476,7 @@
           "description": "eqweqwead: \n我这有高级车，需要的加\n绿色 app （ Base64 ）: MTQxMzM1MzQ4ODg=",
           "link": "https://www.v2ex.com/t/1106911",
           "publishedOn": "2025-01-21T14:19:09.000Z",
-          "wordCount": 343,
+          "wordCount": 356,
           "title": "Switch 家庭高级会员车",
           "imageUrl": null
         },
@@ -466,7 +486,7 @@
           "description": "WilliamColton: \n最近恰逢帝国时代四打折，不知道该入手 3 还是 4 ，之前暑假玩过 30 小时的帝国时代 3 ，感觉还不错\n现在手痒了又想玩",
           "link": "https://www.v2ex.com/t/1106910",
           "publishedOn": "2025-01-21T14:18:13.000Z",
-          "wordCount": 418,
+          "wordCount": 439,
           "title": "帝国时代四大家觉得怎么样",
           "imageUrl": null
         },
@@ -476,7 +496,7 @@
           "description": "jukanntenn: \n这是我的方案：\nNAS 上运行 frpc ，云服务器运行 frps ，假设我要暴露 alist 服务（运行在 NAS 上，端口 5244 ），frpc 的配置就是：\n[[proxies]]\nname = \"alist\"\ntype = \"tcp\"\nlocalIP = \"127.0.0.1\"\nlocalPort = 5244\nremotePort = 5245\ntransport.useCompression = true\n\n域名 alist.myhome.com 解析到云服务器上，云服务上运行一个 caddy ，将 https://alist.myhome.com 的访问转给云服务器上的 127.0.0.1:5245 。\nNAS 上我在配置 Nginx 的反向代理，源为 https://alist.myhome.com 目的为 localhost:5244 ，这样 HTTPS 就启用成功了。\n我不明白的地方是 frp server 将请求发给 frp client 后，为什么会经过 Nginx ？",
           "link": "https://www.v2ex.com/t/1106908",
           "publishedOn": "2025-01-21T14:05:05.000Z",
-          "wordCount": 521,
+          "wordCount": 534,
           "title": "frp 内网穿透开启了 HTTPS，但不是很明白其中的原理",
           "imageUrl": null
         },
@@ -506,7 +526,7 @@
           "description": "CurChen: 以下是原文：\n我们发送此电子邮件是为了通知您，您的 Google Play 发布商帐号已被终止。\n状态：帐号已被终止\nGoogle Play 发布商帐号被终止与开发者的行为有关，可能还会影响多个注册帐号和相关的 Google 服务。请访问开发者政策中心，详细了解我们如何贯彻实施开发者计划政策。\n发现了问题： 高风险行为\n我们发现了与您的开发者账号相关的高风险或滥用情况，并将根据“政策覆盖范围”政策采取这项措施。\n以下是政策地址： https://support.google.com/googleplay/android-developer/answer/10146128\n\n这里的“政策覆盖范围”政策 有人知道是什么意思吗\n今天操作了添加银行卡操作作为收款账号，绑定的是招商的 OSA 账户，这个账户 app store 上收款是没问题的\n其他就没操作啥了，不知道为啥会被封号\n有遇到这种情况的大佬吗",
           "link": "https://www.v2ex.com/t/1106905",
           "publishedOn": "2025-01-21T13:45:05.000Z",
-          "wordCount": 398,
+          "wordCount": 420,
           "title": "google play 账号被封了，因为““政策覆盖范围”政策”",
           "imageUrl": null
         },
@@ -536,7 +556,7 @@
           "description": "RanShunliu: ①昨晚瑜伽垫练了 30 分钟腹肌，包含 12 个动作，每个动作 30 秒，12 个动作为一组，中间不休息。共 2 组\n②练完没放松\n③这两天开车，手动挡，一天开 3 小时，新手，刚拿到驾照\n④之前有段时间也试过，开电瓶车，背着 20 斤的背包，开一个小时，后面腰有点不舒服\n⑤但是刺痛，直到今天还是第一次\n想请教下各位平时如何保养腰的，不想以后老了，腰不舒服一辈子",
           "link": "https://www.v2ex.com/t/1106901",
           "publishedOn": "2025-01-21T13:27:10.000Z",
-          "wordCount": 377,
+          "wordCount": 384,
           "title": "各位开车怎么不腰痛，第一次腰痛，骨头有一瞬间的刺痛酸麻感",
           "imageUrl": null
         },
@@ -586,7 +606,7 @@
           "description": "daju233: \n配置:华擎 J3455 ITX ，DDR3 两根总共 16G ，国产梵想 256g 的 SATA 盘做系统，希捷的 4T 盘,用的飞牛 OS\n挪位置的时候把插头拽掉了，没电直接关机。\n开机报错：\n1.468036] mce: [Hardware Error]: CPU 0: Machine Check: 0 Bank 4: a6ooo000000\n1.468085] mce: [Hardware Error]: TSC 0 ADDR fef13b80\n1.468109] mce: [Hardware Error]: PROCESSOR 0:506c9 TIME 1737459043 SOCKET 0\nview/sub2: clean, 90723/4194304 files, 2856380/16752896 blocks\n5.712561] tpm_crb NSFT0101:00: [Firmware Bug]: ACPI region does not cover t\n5.712716] tpm_crb NSFT0101:00: [Firmware Bug]: ACPI region does not cover t\n6.985858] EDRC pnd2: Failed to register device with error -22.\n再关机报错：\n[ 967.982704] libvirt-guests.sh[5090]: Can't connect to default. Skipping.\n[FAILED] Failed unmounting vol1.mount - /vol1.\n（ AI 图转文字，不对的地方我基本改掉了，可能还是有遗漏）\n目前症状：每次开机都要进 grub 确定，或者等几秒。开机之后需要 3-4 分钟启动相册和影视之类的 docker 应用，之前是秒开的，其他问题暂时没有发现。\n想问问大佬们有遇到这种情况吗？我在谷歌查了一下，大多数帖子大意都是没什么问题，后续使用正常，小白第一次存钱装 NAS ，碰到这种情况还是有点慌。先提前谢谢各位大佬指点，祝大佬们新年大吉！",
           "link": "https://www.v2ex.com/t/1106896",
           "publishedOn": "2025-01-21T12:56:46.000Z",
-          "wordCount": 484,
+          "wordCount": 504,
           "title": "挪位置的时候把插头拽掉了，开机出现了问题",
           "imageUrl": null
         },
@@ -626,7 +646,7 @@
           "description": "IndexOutOfBounds: \n下午发到推广节点没人看😂，站长容我在这再发一回，插件完全免费\nTLDR\nChrome 商店： https://chromewebstore.google.com/detail/沉浸式导读/jnjhalaghogaleoidplmjhjnemmakffp\n\n介绍\n目前市面上的各类 “网页 copilot”：网页摘要，提问需要打开侧边栏\n个人不太习惯这种对照式的阅读体验，所以：\n所谓的思维导图总结，为什么不能作为网页的内嵌 “目录” 呢？\n\n同理，为什么不能划词自由提问呢？\n\n大家为什么都不支持自定义 API Key 了呢？要恰饭很是理解，但作为用户我想实时配置最 nb ，最便宜的模型\n\n...\n详细介绍： https://e1eobdwuvh.feishu.cn/docx/CUH3dllZAoD6bjx3KPJc54VvnDf",
           "link": "https://www.v2ex.com/t/1106892",
           "publishedOn": "2025-01-21T12:24:51.000Z",
-          "wordCount": 471,
+          "wordCount": 489,
           "title": "做了个 “沉浸式导读” Chrome 插件（我这应该不算碰瓷沉浸式翻译？）",
           "imageUrl": null
         },
@@ -656,18 +676,8 @@
           "description": "tutugreen: \nRT ，\n前面也蹲了挺久，大概也知道国内方便解的大致只有一加了，但（之前）看一加全系没有 N79 ，就缓着了，本来早上还觉得 0 目标。。。\n想着等等魅族、三星，能 root 也行。\n然群友推了一个 Ace5Pro ，和客服确认有 n1/n3/n5/n8/n28A/n38/n40/n41/n48/n66/n77/n78/n79/n80/n81/n83A/n84/n89 ，刚好符合，准备趁国补先下手了，但其它方面砍的挺多，防水、无线充、影像、USB3.0 等等。\n还有评测也不是很多，不知道射频什么组合。\n好像是唯一机型了？还是个中端机\n向看看 v2 还有其他大满贯选项吗，或者能解锁的旗舰级等等（加钱可及吗\n小米国行解锁都变多专业考研题了，还随便指定出勤时间答题，纯粹恶心人了，最近传又收紧了，暂不考虑。。（要是 15u 国际版能解再说\nRoot 必选（因为要用 WG 内核 等），然后主要看网络/射频，日常体验。性能调教倒是放最后了，游戏很少在手机上。",
           "link": "https://www.v2ex.com/t/1106889",
           "publishedOn": "2025-01-21T12:16:25.000Z",
-          "wordCount": 479,
-          "title": "8 Elite + N79/频段不砍 + 能解 BL/ROOT，还有得选吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1106888",
-          "author": "Astronaut258",
-          "description": "Astronaut258: \n家里用的软路由的 openclash 科学上网，今天突然发现智能门锁的实时监控用不了了。试了下用另一个手机开热点就可以用，门锁没问题，要怎么破，把智能门锁弄成直连？\n家里是软路由拨号 硬路由是做有线中继模式，由软路由统一下发所有 ip ，门锁是鹿客的 s6max ，有没人知道要怎么搞",
-          "link": "https://www.v2ex.com/t/1106888",
-          "publishedOn": "2025-01-21T12:12:43.000Z",
           "wordCount": 481,
-          "title": "科学上网后智能门锁的实时监控连不上了怎么办",
+          "title": "8 Elite + N79/频段不砍 + 能解 BL/ROOT，还有得选吗",
           "imageUrl": null
         }
       ]

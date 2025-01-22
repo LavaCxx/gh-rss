@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-21T23:10:22.134Z</id>
+    <id>urn:2025-01-22T00:52:30.816Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-21T23:10:22.134Z</updated>
+    <updated>2025-01-22T00:52:30.816Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[抗拒人脸识别]]></title>
+        <id>https://www.v2ex.com/t/1106938</id>
+        <link href="https://www.v2ex.com/t/1106938"/>
+        <updated>2025-01-21T22:31:13.000Z</updated>
+        <summary type="html"><![CDATA[yangtianming: 有没有同类人，对人脸识别非常抗拒。比如小区人脸识别才能进去，银行人脸识别才能办理业务，app 人脸识别才能继续，这里特别反感银行和政务 app ，没了人脸识别仿佛什么事都做不了。以上说的人脸识别不是 face id ，face id 我还是比较能接受的]]></summary>
+        <author>
+            <name>yangtianming</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[还有什么推荐入手的币吗]]></title>
+        <id>https://www.v2ex.com/t/1106937</id>
+        <link href="https://www.v2ex.com/t/1106937"/>
+        <updated>2025-01-21T20:36:48.000Z</updated>
+        <summary type="html"><![CDATA[jiandandkl: 
+看 Bitcoin Magazine CEO 说懂王的前 200 项行政命令中包括比特币或加密货币，今天已经开始涨了，大家还有推荐能上车的吗]]></summary>
+        <author>
+            <name>jiandandkl</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我妈想买个折叠手机 预算 1w 以内 大家有何推荐？]]></title>
         <id>https://www.v2ex.com/t/1106936</id>
@@ -688,18 +709,6 @@ RT ，
 Root 必选（因为要用 WG 内核 等），然后主要看网络/射频，日常体验。性能调教倒是放最后了，游戏很少在手机上。]]></summary>
         <author>
             <name>tutugreen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科学上网后智能门锁的实时监控连不上了怎么办]]></title>
-        <id>https://www.v2ex.com/t/1106888</id>
-        <link href="https://www.v2ex.com/t/1106888"/>
-        <updated>2025-01-21T12:12:43.000Z</updated>
-        <summary type="html"><![CDATA[Astronaut258: 
-家里用的软路由的 openclash 科学上网，今天突然发现智能门锁的实时监控用不了了。试了下用另一个手机开热点就可以用，门锁没问题，要怎么破，把智能门锁弄成直连？
-家里是软路由拨号 硬路由是做有线中继模式，由软路由统一下发所有 ip ，门锁是鹿客的 s6max ，有没人知道要怎么搞]]></summary>
-        <author>
-            <name>Astronaut258</name>
         </author>
     </entry>
     <entry>
