@@ -267,6 +267,56 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107210",
+          "author": "wuruxu",
+          "description": "wuruxu: \n安装 wpa-openssl 包，然后编辑 /etc/config/wireless\nconfig wifi-device 'radio2'\noption type 'mac80211'\noption path 'soc@0/20000000.pci/pci0000:00/0000:00:00.0/0000:01:00.0'\noption band '5g'\noption country 'US'\noption channel '36'\noption txpower 'auto'\noption htmode 'HE160'\noption mu_beamformer '1'\noption cell_density '0'\noption disabled '0'\n\nconfig wifi-iface 'default_radio2'\noption device 'radio2'\noption network 'lan'\noption mode 'ap'\noption ssid 'mySSID'\noption encryption 'sae'\noption key 'myPassword'\noption ieee80211r '1'\noption ieee80211k '1'\noption ieee80211v '1'\noption wnm_sleep_mode '1'\noption bss_transition '1'\noption mobility_domain 'abce'\noption ft_over_ds '0'\noption ft_psk_generate_local '0'\noption reassociation_deadline '20000'\noption disassoc_low_ack '0'",
+          "link": "https://www.v2ex.com/t/1107210",
+          "publishedOn": "2025-01-22T20:06:36.000Z",
+          "wordCount": 449,
+          "title": "在 openwrt 下，配置 80211r 实现 AP 节点漫游",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107209",
+          "author": "xixiv5",
+          "description": "xixiv5: 最好是包月包天的那种 不按流量付\n无需实名最好 国内外都行\n谢谢各位",
+          "link": "https://www.v2ex.com/t/1107209",
+          "publishedOn": "2025-01-22T19:58:17.000Z",
+          "wordCount": 376,
+          "title": "求推荐动态 HTTP 或 S5 代理 爬虫用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107208",
+          "author": "readman",
+          "description": "readman: 两个地方需要，\n1.接 sony65 寸电视。\n2.给 ds923+当 plex server 解码器。\n好像两个都能推的动电视。。。\n是 m2 当解码器还是 eq13 当解码器？\neq13 配置如下：\nBeelink Mini PC, EQ13 Pro Intel 12th Gen Alder Lake-N200(Up to 3.7GHz), 16GB DDR4 RAM 500GB M.2 SSD, Mini Desktop Computer Support 4K Dual Display/WiFi6/BT5.2/Dual LAN 1000Mbps for Home/Office",
+          "link": "https://www.v2ex.com/t/1107208",
+          "publishedOn": "2025-01-22T18:58:06.000Z",
+          "wordCount": 437,
+          "title": "m2 mac mini 和 零刻 EQ13 如何分配？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107207",
+          "author": "PowtainGen1",
+          "description": "PowtainGen1: \n直播回放 + 中文版核心观点总结：\n右上角选择语言:\nhttps://web.powtain.com/pow/sMOE8j?1\n<美国总统谈人工智能基础设施（“星际门”项目）>\n宣布成立一家名为“星际门”的新人工智能公司，投资 5000 亿美元用于美国的人工智能基础设施。\n预计将创造超过 10 万个新的美国就业岗位，并在全国范围内快速建设大型数据中心。\n强调保持美国在人工智能领域的领导地位，以与中国等国竞争。\n<拉里·埃里森（甲骨文）>\n确认甲骨文将在德克萨斯州等地建设大规模数据中心，以支持人工智能项目。\n强调使用人工智能来处理健康记录、癌症治疗和改善患者护理。\n提到计划利用电子健康数据，实现快速诊断和个性化护理。\n(Read more)",
+          "link": "https://www.v2ex.com/t/1107207",
+          "publishedOn": "2025-01-22T18:11:29.000Z",
+          "wordCount": 358,
+          "title": "美国宣布 5000 亿美元“星际门”人工智能基础设施项目：甲骨文创始人、软银创始人、OpenAI 创始人",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107206",
+          "author": "serafin",
+          "description": "serafin: \nApple Pencil Pro 官网演示侧旋功能用的是哪款 APP ？",
+          "link": "https://www.v2ex.com/t/1107206",
+          "publishedOn": "2025-01-22T17:16:31.000Z",
+          "wordCount": 378,
+          "title": "Apple Pencil Pro 官网演示侧旋用的是哪款 APP？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107205",
           "author": "stobacco",
           "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
@@ -282,7 +332,7 @@
           "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
           "link": "https://www.v2ex.com/t/1107204",
           "publishedOn": "2025-01-22T16:45:30.000Z",
-          "wordCount": 521,
+          "wordCount": 529,
           "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
           "imageUrl": null
         },
@@ -352,7 +402,7 @@
           "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
           "link": "https://www.v2ex.com/t/1107195",
           "publishedOn": "2025-01-22T15:07:49.000Z",
-          "wordCount": 676,
+          "wordCount": 685,
           "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
           "imageUrl": null
         },
@@ -372,7 +422,7 @@
           "description": "sn0wdr1am: \n分享一个自己封装的 qBittorrent 镜像，欢迎大家使用。\n默认情况下，账号密码随机生成，非常安全。\n您也可以参考项目地址文档，运行的时候，传入自己的账户密码。\n开源项目地址： https://github.com/snowdreamtech/qbittorrent\ndocker 镜像托管在：\nhttps://github.com/snowdreamtech/qbittorrent/pkgs/container/qbittorrent\nhttps://quay.io/repository/snowdreamtech/qbittorrent\nhttps://hub.docker.com/r/snowdreamtech/qbittorrent\nalpine 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/riscv64,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:alpine\n\ndebian 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/ppc64le,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:debian",
           "link": "https://www.v2ex.com/t/1107193",
           "publishedOn": "2025-01-22T14:48:02.000Z",
-          "wordCount": 472,
+          "wordCount": 485,
           "title": "如何使用 Docker 一键部署 qBittorrent",
           "imageUrl": null
         },
@@ -472,7 +522,7 @@
           "description": "heliushao88: 问下各位老师，我有好几台 linux 系统，每个系统有数据库，现在想把各虚拟机的数据库备份文件，备份到同局域网的 windows 目录下，用哪种方法好呢？我现在所知，有 smb ，有 ftp ，还可以用 rsync ，不知道大家谁有经验，哪种效果好，各有什么弊端吗，谢谢。",
           "link": "https://www.v2ex.com/t/1107181",
           "publishedOn": "2025-01-22T13:08:29.000Z",
-          "wordCount": 470,
+          "wordCount": 472,
           "title": "Linux 文件备份到 windows 系统问题求助。",
           "imageUrl": null
         },
@@ -602,58 +652,8 @@
           "description": "WuDiHaiTai: \n我今年刚毕业，但是已经拥有了 2 次共计 2 年的租房史，多次约开锁师傅经历（因为我是糊涂蛋）。\n这次是我第 3 次租房，刚租好的房子冰箱坏了，在它工作的时候会发出吱吱的开门声，酒店式布局不修的话睡觉都睡不好。今天我上班的时候告诉房东冰箱的事，表示想找个啄木鸟修一修，房东是个退休大爷，很欣然的同意了，中午的时候我就打开了啄木鸟的小程序看看报价，这也开始了今天的故事...\n啄木鸟维修定价很笼统，没说修具体故障多少钱，但是把维修过程每一项价格都给规定好了，价格不低。我紧接着去抖音搜了下，发现啄木鸟差评满满，师傅漫天要价，坐地起价，恶评比比皆是。\n没过多久就来了客服电话，主动要给我预约维修，我说你都不知道我是什么坏了就要帮我下单，收费多少你告诉我啊？那边的女客服全程用喊的语气和我说话，还有湖北口音，服务态度就别说了，她的办公条件一定很差，很多人打电话的话确实只能靠喊，和联通人工客服那种心平气和的语气截然相反，她说，“之后会有师傅联系你报价”，总之她很想完成帮人下单这件业绩，她也只负责下单。我也不多想了，给了地址，下单。\n过了十分钟接到了师傅的电话，我问了招呼然后便和他粗略的讲冰箱的故障，他特别冷漠的语气，完全忽略我的发言，目的直接地问我地址在哪，几点上门，完全不在乎冰箱坏的是哪里，更不用谈报价了。\n就这样稀里糊涂的我竟然约上了啄木鸟维修，我当时越想越不对，这完全不是奔着修理家电来的，这是为了钱啊，你都不知道我冰箱哪里坏了，难道你不带配件空着手来赚我的上门费吗？所以果断去小程序取消了订单。\n进而我想到前段时间在 V 站看到有人说自己社会经验不足的事，我在想，如果我也是刚刚进入社会，会不会今天也会上当。虽然修理的钱是房东报销的，但是总不能不拿别人的钱当钱，出租屋的冰箱就 700 块钱，大于 300 如果是我我是绝对不会接受的，这也太逆天了。前段时间开锁也是，每次约上门开锁都是和美团报价都是两个标准，约单的人不管钱，师傅打电话报个价，上门了看你长得年轻是学生就开始坐地起价，这个不行，那个你门锁太高级了，搞不了，拿根棍子伸进去捅一下门把手的事，真当别人都是傻子，只有你板着脸让他不开就走，他才会乖乖从袋子里掏出那根棍。\n出社会第一件事是学会胯起个批脸，太老实的结果一定是受骗。",
           "link": "https://www.v2ex.com/t/1107162",
           "publishedOn": "2025-01-22T11:46:06.000Z",
-          "wordCount": 512,
+          "wordCount": 534,
           "title": "从啄木鸟家电维修想到了所谓社会经验的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107160",
-          "author": "vfx666",
-          "description": "vfx666: 尤其是一个消息里面视频很多一起加载的时候，卡半天\n排除线路问题，因为我看 Twitter 视频就嘎嘎快",
-          "link": "https://www.v2ex.com/t/1107160",
-          "publishedOn": "2025-01-22T11:35:57.000Z",
-          "wordCount": 372,
-          "title": "有没有人觉得电报看视频很容易卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107159",
-          "author": "fancy2020",
-          "description": "fancy2020: \n我每次拿到一个新 Mac 对触摸板都至少要做两项设置：\nTap to click\nThree finger drag\n它们默认是关闭的我可以理解，但为什么 Three finger drag 要放到 Accessibility 中呢？真的不理解这个功能和障碍性人士有啥关系？\n官方甚至有专门的一篇文档解释如何开启： https://support.apple.com/en-us/102341 ，说明这个问题应该是个比较普遍性的需求了。",
-          "link": "https://www.v2ex.com/t/1107159",
-          "publishedOn": "2025-01-22T11:34:04.000Z",
-          "wordCount": 535,
-          "title": "macOS 的三指拖移(three finger drag)设置为什么隐藏在 Accessibility 里呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107158",
-          "author": "ningxiaoshi",
-          "description": "ningxiaoshi: \n手机派送一天了，快递员说系统出问题无法上传照片啥的，派送不了。\n这次国补需要拆封，激活。\n地区：四川",
-          "link": "https://www.v2ex.com/t/1107158",
-          "publishedOn": "2025-01-22T11:25:26.000Z",
-          "wordCount": 388,
-          "title": "京东国补系统是不是有问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107157",
-          "author": "LieEar",
-          "description": "LieEar: \n谢谢您的分享，收获很多！请教一个小白问题，我用 okx 钱包转账时一直提示 gas 不足，不知道怎么办。我的 12 字短语是 iron observe slam photo awesome vast kitchen faint ，谢谢\n我删除了中间几个词。这是骗子吗？他会怎么骗人呢？比较好奇。求解答",
-          "link": "https://www.v2ex.com/t/1107157",
-          "publishedOn": "2025-01-22T11:15:39.000Z",
-          "wordCount": 410,
-          "title": "在 youtube 评论区看到一个可能是虚拟币诈骗的评论",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107156",
-          "author": "CatCode",
-          "description": "CatCode: \n比如睡眠：\n请问这个时候应该如何重新启用 iPhone 的睡眠数据监测呢？（即使精确度和全面性可能不如 Watch ）\n同理，还有每日目标，Watch 是三个环，iPhone 的是一个环。不佩戴 Watch 但即使带了一天的手机，环也是完全空的。",
-          "link": "https://www.v2ex.com/t/1107156",
-          "publishedOn": "2025-01-22T11:14:11.000Z",
-          "wordCount": 395,
-          "title": "Apple 健康：如何让某些数据重新由手机监测，而非 Apple Watch",
           "imageUrl": null
         }
       ]

@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-22T21:08:49.939Z</id>
+    <id>urn:2025-01-22T22:10:42.656Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-22T21:08:49.939Z</updated>
+    <updated>2025-01-22T22:10:42.656Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[在 openwrt 下，配置 80211r 实现 AP 节点漫游]]></title>
+        <id>https://www.v2ex.com/t/1107210</id>
+        <link href="https://www.v2ex.com/t/1107210"/>
+        <updated>2025-01-22T20:06:36.000Z</updated>
+        <summary type="html"><![CDATA[wuruxu: 
+安装 wpa-openssl 包，然后编辑 /etc/config/wireless
+config wifi-device 'radio2'
+option type 'mac80211'
+option path 'soc@0/20000000.pci/pci0000:00/0000:00:00.0/0000:01:00.0'
+option band '5g'
+option country 'US'
+option channel '36'
+option txpower 'auto'
+option htmode 'HE160'
+option mu_beamformer '1'
+option cell_density '0'
+option disabled '0'
+
+config wifi-iface 'default_radio2'
+option device 'radio2'
+option network 'lan'
+option mode 'ap'
+option ssid 'mySSID'
+option encryption 'sae'
+option key 'myPassword'
+option ieee80211r '1'
+option ieee80211k '1'
+option ieee80211v '1'
+option wnm_sleep_mode '1'
+option bss_transition '1'
+option mobility_domain 'abce'
+option ft_over_ds '0'
+option ft_psk_generate_local '0'
+option reassociation_deadline '20000'
+option disassoc_low_ack '0']]></summary>
+        <author>
+            <name>wuruxu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求推荐动态 HTTP 或 S5 代理 爬虫用]]></title>
+        <id>https://www.v2ex.com/t/1107209</id>
+        <link href="https://www.v2ex.com/t/1107209"/>
+        <updated>2025-01-22T19:58:17.000Z</updated>
+        <summary type="html"><![CDATA[xixiv5: 最好是包月包天的那种 不按流量付
+无需实名最好 国内外都行
+谢谢各位]]></summary>
+        <author>
+            <name>xixiv5</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[m2 mac mini 和 零刻 EQ13 如何分配？]]></title>
+        <id>https://www.v2ex.com/t/1107208</id>
+        <link href="https://www.v2ex.com/t/1107208"/>
+        <updated>2025-01-22T18:58:06.000Z</updated>
+        <summary type="html"><![CDATA[readman: 两个地方需要，
+1.接 sony65 寸电视。
+2.给 ds923+当 plex server 解码器。
+好像两个都能推的动电视。。。
+是 m2 当解码器还是 eq13 当解码器？
+eq13 配置如下：
+Beelink Mini PC, EQ13 Pro Intel 12th Gen Alder Lake-N200(Up to 3.7GHz), 16GB DDR4 RAM 500GB M.2 SSD, Mini Desktop Computer Support 4K Dual Display/WiFi6/BT5.2/Dual LAN 1000Mbps for Home/Office]]></summary>
+        <author>
+            <name>readman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国宣布 5000 亿美元“星际门”人工智能基础设施项目：甲骨文创始人、软银创始人、OpenAI 创始人]]></title>
+        <id>https://www.v2ex.com/t/1107207</id>
+        <link href="https://www.v2ex.com/t/1107207"/>
+        <updated>2025-01-22T18:11:29.000Z</updated>
+        <summary type="html"><![CDATA[PowtainGen1: 
+直播回放 + 中文版核心观点总结：
+右上角选择语言:
+https://web.powtain.com/pow/sMOE8j?1
+<美国总统谈人工智能基础设施（“星际门”项目）>
+宣布成立一家名为“星际门”的新人工智能公司，投资 5000 亿美元用于美国的人工智能基础设施。
+预计将创造超过 10 万个新的美国就业岗位，并在全国范围内快速建设大型数据中心。
+强调保持美国在人工智能领域的领导地位，以与中国等国竞争。
+<拉里·埃里森（甲骨文）>
+确认甲骨文将在德克萨斯州等地建设大规模数据中心，以支持人工智能项目。
+强调使用人工智能来处理健康记录、癌症治疗和改善患者护理。
+提到计划利用电子健康数据，实现快速诊断和个性化护理。
+(Read more)]]></summary>
+        <author>
+            <name>PowtainGen1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Pencil Pro 官网演示侧旋用的是哪款 APP？]]></title>
+        <id>https://www.v2ex.com/t/1107206</id>
+        <link href="https://www.v2ex.com/t/1107206"/>
+        <updated>2025-01-22T17:16:31.000Z</updated>
+        <summary type="html"><![CDATA[serafin: 
+Apple Pencil Pro 官网演示侧旋功能用的是哪款 APP ？]]></summary>
+        <author>
+            <name>serafin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[现在话费起充都是 50 了？]]></title>
         <id>https://www.v2ex.com/t/1107205</id>
@@ -698,70 +799,6 @@ google 插件直达:Snail Timer]]></summary>
 出社会第一件事是学会胯起个批脸，太老实的结果一定是受骗。]]></summary>
         <author>
             <name>WuDiHaiTai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有没有人觉得电报看视频很容易卡]]></title>
-        <id>https://www.v2ex.com/t/1107160</id>
-        <link href="https://www.v2ex.com/t/1107160"/>
-        <updated>2025-01-22T11:35:57.000Z</updated>
-        <summary type="html"><![CDATA[vfx666: 尤其是一个消息里面视频很多一起加载的时候，卡半天
-排除线路问题，因为我看 Twitter 视频就嘎嘎快]]></summary>
-        <author>
-            <name>vfx666</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[macOS 的三指拖移(three finger drag)设置为什么隐藏在 Accessibility 里呢？]]></title>
-        <id>https://www.v2ex.com/t/1107159</id>
-        <link href="https://www.v2ex.com/t/1107159"/>
-        <updated>2025-01-22T11:34:04.000Z</updated>
-        <summary type="html"><![CDATA[fancy2020: 
-我每次拿到一个新 Mac 对触摸板都至少要做两项设置：
-Tap to click
-Three finger drag
-它们默认是关闭的我可以理解，但为什么 Three finger drag 要放到 Accessibility 中呢？真的不理解这个功能和障碍性人士有啥关系？
-官方甚至有专门的一篇文档解释如何开启： https://support.apple.com/en-us/102341 ，说明这个问题应该是个比较普遍性的需求了。]]></summary>
-        <author>
-            <name>fancy2020</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[京东国补系统是不是有问题]]></title>
-        <id>https://www.v2ex.com/t/1107158</id>
-        <link href="https://www.v2ex.com/t/1107158"/>
-        <updated>2025-01-22T11:25:26.000Z</updated>
-        <summary type="html"><![CDATA[ningxiaoshi: 
-手机派送一天了，快递员说系统出问题无法上传照片啥的，派送不了。
-这次国补需要拆封，激活。
-地区：四川]]></summary>
-        <author>
-            <name>ningxiaoshi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 youtube 评论区看到一个可能是虚拟币诈骗的评论]]></title>
-        <id>https://www.v2ex.com/t/1107157</id>
-        <link href="https://www.v2ex.com/t/1107157"/>
-        <updated>2025-01-22T11:15:39.000Z</updated>
-        <summary type="html"><![CDATA[LieEar: 
-谢谢您的分享，收获很多！请教一个小白问题，我用 okx 钱包转账时一直提示 gas 不足，不知道怎么办。我的 12 字短语是 iron observe slam photo awesome vast kitchen faint ，谢谢
-我删除了中间几个词。这是骗子吗？他会怎么骗人呢？比较好奇。求解答]]></summary>
-        <author>
-            <name>LieEar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple 健康：如何让某些数据重新由手机监测，而非 Apple Watch]]></title>
-        <id>https://www.v2ex.com/t/1107156</id>
-        <link href="https://www.v2ex.com/t/1107156"/>
-        <updated>2025-01-22T11:14:11.000Z</updated>
-        <summary type="html"><![CDATA[CatCode: 
-比如睡眠：
-请问这个时候应该如何重新启用 iPhone 的睡眠数据监测呢？（即使精确度和全面性可能不如 Watch ）
-同理，还有每日目标，Watch 是三个环，iPhone 的是一个环。不佩戴 Watch 但即使带了一天的手机，环也是完全空的。]]></summary>
-        <author>
-            <name>CatCode</name>
         </author>
     </entry>
     <entry>
