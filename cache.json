@@ -282,7 +282,7 @@
           "description": "lurenjiaMAX: \n程序是这样的: \n后端维护 96 个通道, 每个通道中有三种需要绘图的数据, 每隔 1s 更新一次.\n前端则需要将 96 个通道数据绘制在折线图上, 但是不一定全部都挤在一个屏幕显示上.\n二者交互的数据包含三种浮点数数据和他们对应的时间戳, 二者之间可以通过 ws 通信, 也可通过 ipc 通信.\n问题有这些:\n交互时, 是将 96 个通道数据一起发送好还是单独发送好.\n前端绘制时选择什么绘图库性能好, 可选交互功能.\n选择这种前后端分离的架构, 却追求性能, 是不是从一开始就走错了方向? 如果有其他架构, 选择什么样的架构比较合适?\n目前我选择的是 tauri+vite+react+highchart(highstock).\n我调研的每一个绘图库都吹榜他的性能, 包括上面选择的 highstock.\n后端性能没有问题, 交互时后端单独发送数据, 前端使用 debounce.\n但是性能却非常糟糕.",
           "link": "https://www.v2ex.com/t/1107258",
           "publishedOn": "2025-01-23T02:11:35.000Z",
-          "wordCount": 707,
+          "wordCount": 779,
           "title": "请教一个前端设计及实现问题, 绘制并实时更新 96 个折线图的最佳实践?",
           "imageUrl": null
         },
@@ -292,7 +292,7 @@
           "description": "cpxjaz: rt ，昨天在家里自建了个 rustdesk 服务器，在手机上装了个 rustdesk 远程家里的安卓平板刷游戏\n今天上班打卡非说我使用虚拟定位软件。。。\n卸载了就能打卡了，挺难绷的",
           "link": "https://www.v2ex.com/t/1107257",
           "publishedOn": "2025-01-23T02:10:26.000Z",
-          "wordCount": 388,
+          "wordCount": 400,
           "title": "钉钉这么流氓吗",
           "imageUrl": null
         },
@@ -312,7 +312,7 @@
           "description": "loveshuyuan: \n那感受只能用 4 个字来形容，痛不欲生...这里也奉劝大家，多喝水。",
           "link": "https://www.v2ex.com/t/1107254",
           "publishedOn": "2025-01-23T02:06:27.000Z",
-          "wordCount": 577,
+          "wordCount": 656,
           "title": "各位有经历过肾结石吗？",
           "imageUrl": null
         },
@@ -322,7 +322,7 @@
           "description": "jacketma: 试了几个，有的能去，有的去不了。最搞的这个插件是：Youtube™ 廣告清潔工：去廣告、省時間！\n5 秒的广告都去了，全长的广告一个都拦不了，还不能跳过，每次看完四五分钟的全篇广告，才能进入节目",
           "link": "https://www.v2ex.com/t/1107253",
           "publishedOn": "2025-01-23T02:06:06.000Z",
-          "wordCount": 398,
+          "wordCount": 412,
           "title": "Edge/Chrome 油管去广告插件，哪个去的比较干净？",
           "imageUrl": null
         },
@@ -352,7 +352,7 @@
           "description": "easyii: 每个房间有有预留网线，想实现全屋覆盖，那种方案好一点。\n路由器有推荐的吗？\n纯小白，查询了很多资料，也都不是很懂",
           "link": "https://www.v2ex.com/t/1107249",
           "publishedOn": "2025-01-23T02:02:03.000Z",
-          "wordCount": 530,
+          "wordCount": 537,
           "title": "烦请大佬解疑：关于 mesh 组网的一些疑问？",
           "imageUrl": null
         },
@@ -372,7 +372,7 @@
           "description": "leegoo: \n小年福利,疯狂星期四,加特林烟花免费送(比市场价低 30%~40%的平台,真香警告)\n一根也是批发价，比市场价便宜好多\n大家不要问客服私家车能不能拉哦,我们的客服经过专业的培训,一定是回答不行的哦,但是 😄 😄 😄 \n目前仅在湖南长沙地区开店,长沙各片区均有自提点\n自己买的一些烟花礼盒燃放视频(礼盒系列的确实好看)\nhttps://b23.tv/l8BlJ5s\n[烟花烟花-哔哩哔哩]  https://b23.tv/pVJrrMs\n很多宝子都在问,除了湖南长沙地区,其他地区有没有?\n其他省份城市也在进行加急接入中,进群获取第一消息\n祝大家,蛇年快乐,祝你兜里的钱像你的表情包一样丰富，永远不缺货，吃嘛嘛香，身体倍儿棒，干啥啥顺，蛇年发大财，钞票滚滚来！  😄 😄 😄",
           "link": "https://www.v2ex.com/t/1107247",
           "publishedOn": "2025-01-23T01:57:24.000Z",
-          "wordCount": 426,
+          "wordCount": 440,
           "title": "小年福利,疯狂星期四,加特林烟花免费送(比市场价低 30%~40%的平台,真香警告)",
           "imageUrl": null
         },
@@ -382,7 +382,7 @@
           "description": "luoyou1014: \n目前就启用了邮箱的 smtp 功能，然后用 python 的 smtp.sendmail 方法直接发送注册验证码。\n但是担心这样大规模发邮件验证码，会被丢进垃圾箱，所以想问一下有没有提供类似于发送短信服务的，可以确保发送邮件验证码不会被扔进垃圾箱的服务。上网搜索了一下，貌似没有看到相关信息。",
           "link": "https://www.v2ex.com/t/1107246",
           "publishedOn": "2025-01-23T01:57:22.000Z",
-          "wordCount": 697,
+          "wordCount": 699,
           "title": "发送邮件存在类似于发送短信那样的服务商吗，还是直接用 Python 的 sendmail 函数直接发送就行了",
           "imageUrl": null
         },
@@ -392,7 +392,7 @@
           "description": "chunqicoder: \n如题，还带一个礼包，里面有一个背包、一个水杯还有一个耳机，说实在还行，不过要用云闪付和线下要打开包装打孔有点麻烦",
           "link": "https://www.v2ex.com/t/1107245",
           "publishedOn": "2025-01-23T01:56:38.000Z",
-          "wordCount": 517,
+          "wordCount": 554,
           "title": "国补还是可以的[狗头]， 4499 到手小米 15 16+512 绿色 实打实少了 500 真香 可惜不能分 24 期了",
           "imageUrl": null
         },
@@ -412,7 +412,7 @@
           "description": "nanrenlei: 由于离家几百公里，算短途导致要么不放票，要么放了很少的票瞬间没，但我看着他们短途的也都坐火车回家了，不知道怎么抢到的",
           "link": "https://www.v2ex.com/t/1107243",
           "publishedOn": "2025-01-23T01:56:11.000Z",
-          "wordCount": 500,
+          "wordCount": 522,
           "title": "大家过年都是怎么抢到火车票的",
           "imageUrl": null
         },
@@ -422,7 +422,7 @@
           "description": "zmmt: \n首先家里的主路由器不支持 iptv ，想问问电视机在客厅安装了 iptv 能正常使用不",
           "link": "https://www.v2ex.com/t/1107242",
           "publishedOn": "2025-01-23T01:50:11.000Z",
-          "wordCount": 483,
+          "wordCount": 506,
           "title": "想问下大佬们，像我这种网络结构能安装 iptv 吗",
           "imageUrl": null
         },
@@ -432,7 +432,7 @@
           "description": "pursuit9: \n目前是已经买了电话卡，机酒定好了。有啥需要提前搞的\n比如：\n需要提前兑换港币吗\n要不要办公交地铁卡\n银行卡有啥要求不，银联卡能用吗\n还有没有什么需要注意的\n另外，有啥好去处后者购物的求推荐下",
           "link": "https://www.v2ex.com/t/1107241",
           "publishedOn": "2025-01-23T01:37:25.000Z",
-          "wordCount": 938,
+          "wordCount": 1030,
           "title": "大佬们，去港澳有啥需要注意的",
           "imageUrl": null
         },
@@ -452,7 +452,7 @@
           "description": "mark257: \n打算今天上完班 6 点下班回家收拾好 7 点出发, 700 公里不知道能不能扛得住.",
           "link": "https://www.v2ex.com/t/1107239",
           "publishedOn": "2025-01-23T01:31:19.000Z",
-          "wordCount": 1334,
+          "wordCount": 1335,
           "title": "白天上完班晚上通宵开车回家要注意什么",
           "imageUrl": null
         },
@@ -472,7 +472,7 @@
           "description": "tsja: \nAI 总结，额度 100 次/月\n收藏时点\n周报总结\n皮肤替换\n最吸引我的是更换图标功能",
           "link": "https://www.v2ex.com/t/1107236",
           "publishedOn": "2025-01-23T01:27:34.000Z",
-          "wordCount": 533,
+          "wordCount": 579,
           "title": "小宇宙出 Plus 会员了 120 元/年",
           "imageUrl": null
         },
@@ -482,7 +482,7 @@
           "description": "linjunyi22: base 广州，这几年一直在基金代销公司做，但薪资一直不高（月薪还没到 20k ），希望年后找找面面。\n2017 年本科毕业，7 年后端，技术栈为 golang, nodejs ，各类中间件都整过，ai 应用相关的内容也有接触\n项目主要是做过一些基金交易的系统功能，做过支付调度系统（但不是对接银行），做过全流程的系统压测和对应的性能优化，还从 0~1 搭建过 AI 应用（ agent chatbot ）。\n有好几年没出去面试了，现在不知道行情如何，个人期望月薪能有 30k 以上。（不知道有没有太高？）\n现在面试主要还是算法+八股基础么？另外，有老哥推荐下 golang 相关面经信息或网站么，不胜感激 🌹",
           "link": "https://www.v2ex.com/t/1107235",
           "publishedOn": "2025-01-23T01:26:39.000Z",
-          "wordCount": 516,
+          "wordCount": 523,
           "title": "年后广州 golang 求职",
           "imageUrl": null
         },
@@ -492,7 +492,7 @@
           "description": "gearfox: 这个请问如何解决呀，还没刷几条，就出来一个广告，真的烦死了",
           "link": "https://www.v2ex.com/t/1107234",
           "publishedOn": "2025-01-23T01:24:43.000Z",
-          "wordCount": 365,
+          "wordCount": 374,
           "title": "apple 美区商店里的微信朋友圈广告太多",
           "imageUrl": null
         },
@@ -502,7 +502,7 @@
           "description": "Scalalala: 想在 windows 电脑上通过 mihomo 达成多网卡分流的效果，现在有两个网卡：A 有线网卡连接公司内网，B 无线网卡通过 CPE 连外网。我希望公司的私有云桌面软件走 A ，其他一切流量走 B 。mihomo 已打开 tun 模式，我认为这样就能生效：\ntun:\n  enable: true\n  stack: system\n  dns-hijack:\n    - 0.0.0.0:53\n  auto-route: true\nproxies:\n  - name: \"direct\"\n    type: direct\n    interface-name: WLAN\n  - name: \"neiwang\"\n    type: direct\n    interface-name: NEIWANG\nrules:\n  - PROCESS-NAME-REGEX,云桌面,NEIWANG\n  - MATCH,direct\n  \n却两边都无法访问，之后我手动配置了路由表可以访问了：\nroute add -p xx.xxx.0.0 mask 255.255.0.0 xx.xxx.xxx.xxx metric 1 //（内网）\nroute add -p 0.0.0.0 mask 0.0.0.0 192.168.8.1 metric 1 //（外网）\nmihomo 应该怎样配置，才能自动做到这一切，而不用手动配置路由表？",
           "link": "https://www.v2ex.com/t/1107233",
           "publishedOn": "2025-01-23T01:21:42.000Z",
-          "wordCount": 429,
+          "wordCount": 430,
           "title": "windows 多网卡的情况下， mihomo 配置文件如何编写？",
           "imageUrl": null
         },
@@ -512,7 +512,7 @@
           "description": "dzdh: \n做多渠道适配。其他语言的时候，基本上都是起个 interface ，实现个抽象然后改抽象。\ngo 也按这么来了\n// 定义个接口\ntype I interface {\n   Retrieve(s string) error\n}\n// 有个抽象实现\ntype Abstract struct {\n}\nfunc (self *Abstract) Retrieve(s string) error {\n    这里有坑\n}\n\n因为是多渠道。但是各个渠道只是 api 地址不一样接口大差不差。但是多多少少有差别，但是行业标准参数名起码都一样。\n然后就\ntype Channel1 struct { *Abstract }\ntype Channel2 struct { *Abstract }\ntype Channel3 struct { *Abstract }\n\nfunc GetChan(s string) {\n    switch s {\n       case \"1\":\n       return &Channel1{&Abstract{url, apikey, mode:ws, ....}\n    }\n}\n\n今天接了个需求。有 3 个渠道变了，人家比较牛逼，人家自己魔改了协议，需要重新适配。\n但是，也只是修改了 2 个参数名和 URL 或者是编码。但是其他都一样。\n所以。问题来了。我怎么在 Abstract.Retrieve 获取当前的实例名知道是谁被调用了(获取 str=Channel1) 😂\n还是，干脆就重新写，相同的逻辑，尽管 c+v 吧。",
           "link": "https://www.v2ex.com/t/1107231",
           "publishedOn": "2025-01-23T01:19:54.000Z",
-          "wordCount": 525,
+          "wordCount": 570,
           "title": "仿佛把自己坑到了不得了的地步。关于 interface",
           "imageUrl": null
         },
@@ -522,7 +522,7 @@
           "description": "beyond1314: 今天办公室人就没几个了，后天休息一天，26 号开启长途自驾游。",
           "link": "https://www.v2ex.com/t/1107230",
           "publishedOn": "2025-01-23T01:19:20.000Z",
-          "wordCount": 610,
+          "wordCount": 642,
           "title": "坐等放假，明天再上一天。",
           "imageUrl": null
         },
@@ -532,7 +532,7 @@
           "description": "Dosenf: 韩版 M1 MacBookAir ，原主人把键盘上的韩语一个一个磨掉了...\n这得有多讨厌韩国啊🤔",
           "link": "https://www.v2ex.com/t/1107229",
           "publishedOn": "2025-01-23T01:18:58.000Z",
-          "wordCount": 540,
+          "wordCount": 551,
           "title": "收到一台很牛逼的 macbook",
           "imageUrl": null
         },
@@ -562,7 +562,7 @@
           "description": "zrxjava: 不想续约了，但是主动不续约没赔偿，公司又不能很快招到替代的，已经被打上标签了，有什么好办法吗",
           "link": "https://www.v2ex.com/t/1107226",
           "publishedOn": "2025-01-23T01:14:57.000Z",
-          "wordCount": 550,
+          "wordCount": 571,
           "title": "年后劳动合同到期",
           "imageUrl": null
         },
@@ -572,7 +572,7 @@
           "description": "xiaohupro: \n如标题，25 年打算 3 月到 4 月份裸辞后重新找工作，目前房贷剩下 20 万，存款 40 万，GAP 1 ～ 2 个月找工作，这样风险大吗？有这样操作过大兄弟姐妹吗？",
           "link": "https://www.v2ex.com/t/1107225",
           "publishedOn": "2025-01-23T01:09:04.000Z",
-          "wordCount": 765,
+          "wordCount": 788,
           "title": "房贷 20 万，存款 40 万，打算裸辞利用一个月重新找工作风险大吗",
           "imageUrl": null
         },
@@ -592,7 +592,7 @@
           "description": "ChrisLii: 家里人过年买了个国内的洗地机运到海外，没仔细看电压的问题。目前使用地的电压 110v ，60hz ，但说明书上没写宽频，只有 220hz 。\n看到这个品牌在海外也有售，但没有一模一样的型号。有多少可能性产品能在低电压下直接使用，如果使用变压器，交流频率需要特别注意吗",
           "link": "https://www.v2ex.com/t/1107223",
           "publishedOn": "2025-01-23T00:55:46.000Z",
-          "wordCount": 422,
+          "wordCount": 424,
           "title": "添可洗地机海外使用",
           "imageUrl": null
         },
@@ -602,7 +602,7 @@
           "description": "58369046: 闲来没事做了个小工具。\n控制鼠标移动,  控制键盘输入, 让手机成为电脑的键盘鼠标, 手机控制电脑, 包括按键, 组合键, 音量媒体控制、简易鼠标、简易 26 键键盘等。\nweb 浏览器端的形式，微信里面打开局域网页面就行。\n支持简易查看远程桌面, 触控点击远程桌面, 文本输入发送。\n支持控制网页版抖音常见快捷键, 方便躺着刷电脑上的抖音（ https://imgur.com/a/7D20pPi ）。\n按键传输采用 http 请求, 鼠标移动和远程桌面采用 websocket 。\n更多效果图和源码： https://github.com/dhjz/dcontrol",
           "link": "https://www.v2ex.com/t/1107221",
           "publishedOn": "2025-01-23T00:38:01.000Z",
-          "wordCount": 436,
+          "wordCount": 450,
           "title": "go 语言写了一个手机远程控制电脑键盘鼠标的软件, 类似原来的万能遥控器",
           "imageUrl": null
         },
@@ -622,7 +622,7 @@
           "description": "MrMarting: 我在两个圆圈处的位置不动，wifi 一直在主路由和子路由之间来回切换导致突然断网成 4g 又连上 wifi ，iPhone 的右上角一会是移动信号📶一会变成 wifi 图标，导致玩游戏会突然掉线又马上重连，频率很高，大概 1 分钟两三次。\n https://imgur.com/C3f7bWY",
           "link": "https://www.v2ex.com/t/1107219",
           "publishedOn": "2025-01-23T00:20:40.000Z",
-          "wordCount": 588,
+          "wordCount": 598,
           "title": "小米有线 Mesh 一直来回切换怎么办？",
           "imageUrl": null
         },
@@ -632,7 +632,7 @@
           "description": "majiajia: 《微信电话来了，iOS 微信 Callkit 这样开启！》\nhttps://mp.weixin.qq.com/s/vATuM9Wc2HNP9l8okATYKA",
           "link": "https://www.v2ex.com/t/1107218",
           "publishedOn": "2025-01-23T00:16:55.000Z",
-          "wordCount": 763,
+          "wordCount": 796,
           "title": "分享 Netskao 大佬 iOS 微信 Callkit 开启方法",
           "imageUrl": null
         },
@@ -662,7 +662,7 @@
           "description": "conge: \n原发： https://conge.livingwithfcs.org/2025/01/22/2024-reading-review/\n目录\n读过多少种？\n[读了多少本？ 106 ，108 ，109 ，110 ？]( https://conge.livingwithfcs.org/2025/01/22/2024-reading-review/#读了多少本 106108109110)\n读了多少时间？\n艺术是我的短板\n360 阅读挑战\n读书链接他人\n读经\n杨定一\n第一个群推荐\n第二个群推荐\n书评汇总\n封面墙\n往年阅读回顾\n数字游戏\n读过多少种？\n2024 年我读书主打的还是通识。涉猎的书的涉及 历史，小说，军事\n，地理，佛教，觉醒，健康，育儿，跑步，社会学，宇宙，心理学，睡眠，CBT，动物保护，文学，艺术，传记，营养学，数学，金融学。\n2024 所读书，书单的来源大致如下：\n非虚构的书，多数来自千叶主持的共读群和海东的读书群。海东的读书群，也时常有针对某本书的群读，我也参加了几次。而虚构的小说和诗歌，我则是采用瞎碰的原则，想要看小说时，就看朋友最近推荐了哪本儿，看着哪一本顺眼就读它。\n\n微信读书说我读最多的是文学，其中有误。\n扩展性通识阅读，最常读的是各个学科的学科史。一年之中，遍历了数学史，经济史，宇宙史，地理学史，艺术史，政治史，军事史，美国史……但每个类别读个 2 到 4 本的样子。这样看下来，积累下来的，按照分类作图的话，就会文学类的书一枝独秀，导致微信读书说我偏爱文学。其实说起来，这一年读的各种历史更多。\n豆瓣给的分类，就更均衡些：科普、历史、艺术和小说类占比都差不太多。\n\n读了多少本？ 106 ，108 ，109 ，110 ？\n我读书的流程已经比较固定了。\n2024 年读的书，都是在微信读书 app 上读的。微信读书有的就在上面读，没有的，就下载了倒…",
           "link": "https://www.v2ex.com/t/1107215",
           "publishedOn": "2025-01-22T23:59:26.000Z",
-          "wordCount": 736,
+          "wordCount": 754,
           "title": "2024 年读书总结",
           "imageUrl": null
         },
@@ -672,7 +672,7 @@
           "description": "wencan: \n不想自建，麻烦，资源也有限\n之前一直用马福报家的\n但马福报和他家员工的格局，实在让人反感\n但凡能替代的，都找替代品\n网上找了下\n一些服务操作太复杂，看不懂\n一些服务看起来早就下线了\n所以，现在还有国内可用的好用又免费的 docker 私有镜像仓库吗？",
           "link": "https://www.v2ex.com/t/1107214",
           "publishedOn": "2025-01-22T23:55:26.000Z",
-          "wordCount": 496,
+          "wordCount": 509,
           "title": "有哪些简单的国内可用的免费的 docker 私有镜像仓库？",
           "imageUrl": null
         },
@@ -682,7 +682,7 @@
           "description": "kk2syc: 教你在 5 分钟之内和心仪女生开始交往\n👇👇👇👇👇👇👇👇👇👇👇👇\n\n----\n今天开始放假了，祝大家 2025 新年快乐！嘻嘻~太开心了，原谅我当一回标题党。",
           "link": "https://www.v2ex.com/t/1107213",
           "publishedOn": "2025-01-22T23:30:23.000Z",
-          "wordCount": 379,
+          "wordCount": 377,
           "title": "教你在 5 分钟之内和心仪女生开始交往",
           "imageUrl": null
         },
@@ -692,7 +692,7 @@
           "description": "lxiian: 请问类似番茄小说这种平台，小说章节内容是以何种方式存储的？是 nosql 数据库呢 还是直接用文件形式存储到对象存储里呢？文件的话 是每更新一章就在源文件追加还是生成新文件呢。\n有晓得的大佬吗，谢谢🫡",
           "link": "https://www.v2ex.com/t/1107212",
           "publishedOn": "2025-01-22T22:32:52.000Z",
-          "wordCount": 510,
+          "wordCount": 529,
           "title": "请教一下各位大佬关于小说平台后端方案问题。",
           "imageUrl": null
         },
