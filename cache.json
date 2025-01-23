@@ -137,6 +137,12 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": []
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -261,6 +267,26 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107212",
+          "author": "lxiian",
+          "description": "lxiian: 请问类似番茄小说这种平台，小说章节内容是以何种方式存储的？是 nosql 数据库呢 还是直接用文件形式存储到对象存储里呢？文件的话 是每更新一章就在源文件追加还是生成新文件呢。\n有晓得的大佬吗，谢谢🫡",
+          "link": "https://www.v2ex.com/t/1107212",
+          "publishedOn": "2025-01-22T22:32:52.000Z",
+          "wordCount": 403,
+          "title": "请教一下各位大佬关于小说平台后端方案问题。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107211",
+          "author": "ruimz",
+          "description": "ruimz: 问题描述：每次打开 Office 系列软件都会丢失登录和授权状态，需要重新输入邮箱账号，无法像 windows 下的 Office 一样保存登录及授权状态。但是 outlook 和 onedrive 都可以记住账号，没有这个问题\n类似这种情况\n\n这时候的 Office 只需要输入邮箱就可以获取激活状态，不需要进一步验证密码，这说明软件里应该存储了登录信息\n\n尝试过但无效的办法：删除 keychain ，卸载重新安装，通过 dmg 重新安装\n以下均不管用\nhttps://answers.microsoft.com/zh-hans/msoffice/forum/all/在 mac 系统下每/b4b7c7a9-2419-4ea6-92a2-ada7c1081291\nhttps://answers.microsoft.com/en-us/outlook_com/forum/all/outlook-365-di-macbook-keep-asking-me-to-sign-in/741640d7-5683-4b87-bcac-9fdf17b028ff\nhttps://answers.microsoft.com/en-us/msoffice/forum/all/office-365-mac-the-software-keeps-logging-me-out/5a40fb23-e9c4-4f75-900a-8cfe05f43205\nhttps://answers.microsoft.com/zh-hans/msoffice/forum/all/在使用 word-for-mac/c6892361-cfc2-4239-bda4-f8eb70af4f85\n\n背景：MacBook air M1 ，有效 Office365 订阅，Office 是 app store 里下载的\n\n如果有解决方法还望不吝赐教，提前感谢各位",
+          "link": "https://www.v2ex.com/t/1107211",
+          "publishedOn": "2025-01-22T20:29:45.000Z",
+          "wordCount": 376,
+          "title": "如何解决 macOS 下 Office365 丢失登录状态，每次打开都要求登录",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107210",
           "author": "wuruxu",
           "description": "wuruxu: \n安装 wpa-openssl 包，然后编辑 /etc/config/wireless\nconfig wifi-device 'radio2'\noption type 'mac80211'\noption path 'soc@0/20000000.pci/pci0000:00/0000:00:00.0/0000:01:00.0'\noption band '5g'\noption country 'US'\noption channel '36'\noption txpower 'auto'\noption htmode 'HE160'\noption mu_beamformer '1'\noption cell_density '0'\noption disabled '0'\n\nconfig wifi-iface 'default_radio2'\noption device 'radio2'\noption network 'lan'\noption mode 'ap'\noption ssid 'mySSID'\noption encryption 'sae'\noption key 'myPassword'\noption ieee80211r '1'\noption ieee80211k '1'\noption ieee80211v '1'\noption wnm_sleep_mode '1'\noption bss_transition '1'\noption mobility_domain 'abce'\noption ft_over_ds '0'\noption ft_psk_generate_local '0'\noption reassociation_deadline '20000'\noption disassoc_low_ack '0'",
@@ -286,7 +312,7 @@
           "description": "readman: 两个地方需要，\n1.接 sony65 寸电视。\n2.给 ds923+当 plex server 解码器。\n好像两个都能推的动电视。。。\n是 m2 当解码器还是 eq13 当解码器？\neq13 配置如下：\nBeelink Mini PC, EQ13 Pro Intel 12th Gen Alder Lake-N200(Up to 3.7GHz), 16GB DDR4 RAM 500GB M.2 SSD, Mini Desktop Computer Support 4K Dual Display/WiFi6/BT5.2/Dual LAN 1000Mbps for Home/Office",
           "link": "https://www.v2ex.com/t/1107208",
           "publishedOn": "2025-01-22T18:58:06.000Z",
-          "wordCount": 437,
+          "wordCount": 447,
           "title": "m2 mac mini 和 零刻 EQ13 如何分配？",
           "imageUrl": null
         },
@@ -296,7 +322,7 @@
           "description": "PowtainGen1: \n直播回放 + 中文版核心观点总结：\n右上角选择语言:\nhttps://web.powtain.com/pow/sMOE8j?1\n<美国总统谈人工智能基础设施（“星际门”项目）>\n宣布成立一家名为“星际门”的新人工智能公司，投资 5000 亿美元用于美国的人工智能基础设施。\n预计将创造超过 10 万个新的美国就业岗位，并在全国范围内快速建设大型数据中心。\n强调保持美国在人工智能领域的领导地位，以与中国等国竞争。\n<拉里·埃里森（甲骨文）>\n确认甲骨文将在德克萨斯州等地建设大规模数据中心，以支持人工智能项目。\n强调使用人工智能来处理健康记录、癌症治疗和改善患者护理。\n提到计划利用电子健康数据，实现快速诊断和个性化护理。\n(Read more)",
           "link": "https://www.v2ex.com/t/1107207",
           "publishedOn": "2025-01-22T18:11:29.000Z",
-          "wordCount": 358,
+          "wordCount": 372,
           "title": "美国宣布 5000 亿美元“星际门”人工智能基础设施项目：甲骨文创始人、软银创始人、OpenAI 创始人",
           "imageUrl": null
         },
@@ -316,7 +342,7 @@
           "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
           "link": "https://www.v2ex.com/t/1107205",
           "publishedOn": "2025-01-22T17:02:08.000Z",
-          "wordCount": 484,
+          "wordCount": 510,
           "title": "现在话费起充都是 50 了？",
           "imageUrl": null
         },
@@ -326,7 +352,7 @@
           "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
           "link": "https://www.v2ex.com/t/1107204",
           "publishedOn": "2025-01-22T16:45:30.000Z",
-          "wordCount": 531,
+          "wordCount": 577,
           "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
           "imageUrl": null
         },
@@ -336,7 +362,7 @@
           "description": "Symbo1ic: \n如题。我是一个图形程序员，目前正在做 UE5 相关的工作。日常就是写 cpp 和 vulkan ，除了 Macbook 以外手机 ipad iwatch 都正在用。以前使用黑苹果体验过 Sonoma ，没有体验随航以及镜像啥的功能，不是非常适应按键和 terminal 的权限问题，因为虽然是类 unix 操作系统但是居然不能对系统目录有操作权限，这个真的不舒服。目前软件需求的话就是 CSP 、Rider 、VSCode 、Maya 还有 Pytorch 。刚需是能够轻度游戏（包括转译），进行游戏开发，如果能进行游戏引擎开发就更好了。现在确实有机会能搞到一台 MBP ，或者转卖换钱。我觉得我能克服按键的问题，但其余因素有点拿不定。想问问各位，我这个情况整一台 MBP 是否合适呢？",
           "link": "https://www.v2ex.com/t/1107202",
           "publishedOn": "2025-01-22T16:31:10.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "图形程序员是否需要 Macbook Pro M4？",
           "imageUrl": null
         },
@@ -376,7 +402,7 @@
           "description": "awendujitang: 简单好用的 SVG 格式转换工具，支持：\nBase64 编码 → SVG 代码与文件\nSVG 代码 → Base64 编码\nSVG 文件上传 → 获取代码和 Base64\n特点：支持预览、一键复制、SVG 文件下载。适合前端开发、设计师快速处理 SVG 素材。\n🔗 在线使用： https://xcoff.ee/base64-to-svg.html",
           "link": "https://www.v2ex.com/t/1107197",
           "publishedOn": "2025-01-22T15:18:05.000Z",
-          "wordCount": 390,
+          "wordCount": 391,
           "title": "🎨 SVG 在线转换工具",
           "imageUrl": null
         },
@@ -386,7 +412,7 @@
           "description": "tlerbao:",
           "link": "https://www.v2ex.com/t/1107196",
           "publishedOn": "2025-01-22T15:17:55.000Z",
-          "wordCount": 399,
+          "wordCount": 416,
           "title": "Trae 的 UI 配色方案挺好啊，有大神能移植到 Vscode 或者 Cursor 上吗？",
           "imageUrl": null
         },
@@ -396,7 +422,7 @@
           "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
           "link": "https://www.v2ex.com/t/1107195",
           "publishedOn": "2025-01-22T15:07:49.000Z",
-          "wordCount": 703,
+          "wordCount": 728,
           "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
           "imageUrl": null
         },
@@ -416,7 +442,7 @@
           "description": "sn0wdr1am: \n分享一个自己封装的 qBittorrent 镜像，欢迎大家使用。\n默认情况下，账号密码随机生成，非常安全。\n您也可以参考项目地址文档，运行的时候，传入自己的账户密码。\n开源项目地址： https://github.com/snowdreamtech/qbittorrent\ndocker 镜像托管在：\nhttps://github.com/snowdreamtech/qbittorrent/pkgs/container/qbittorrent\nhttps://quay.io/repository/snowdreamtech/qbittorrent\nhttps://hub.docker.com/r/snowdreamtech/qbittorrent\nalpine 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/riscv64,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:alpine\n\ndebian 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/ppc64le,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:debian",
           "link": "https://www.v2ex.com/t/1107193",
           "publishedOn": "2025-01-22T14:48:02.000Z",
-          "wordCount": 487,
+          "wordCount": 553,
           "title": "如何使用 Docker 一键部署 qBittorrent",
           "imageUrl": null
         },
@@ -426,7 +452,7 @@
           "description": "Niner: \nUser u = userMapper.selectOne(id);\nu.setName(myname);\nu.setAge(myAge);\nuserMapper.updateById(u);\n\n我看工作里面很多代码都是这样更新的，虽然方便但是有并发问题，大佬们 cr 遇到会打回去吗？",
           "link": "https://www.v2ex.com/t/1107192",
           "publishedOn": "2025-01-22T14:47:55.000Z",
-          "wordCount": 533,
+          "wordCount": 548,
           "title": "update 大家会允许这样写吗？",
           "imageUrl": null
         },
@@ -446,7 +472,7 @@
           "description": "ZJamss: \n推荐的直播永远肯定是擦边女主播，哪怕我从来没看过，只看过 LPL\n无论对擦边视频点多少次视频内容或者 UP 主不感兴趣，下一次加载总会有存在莫名其妙的擦边穿搭，cos ，舞蹈等等\n我还以为是根据性别推荐的牛皮癣，甩不掉的，结果看了一下资料，默认保密我没动过。其实也不是什么大事，只是有时候 npy 看见总要说两句我看擦边，又有大数据推荐原理帮着背书，等于坐实了罪名，难办啊",
           "link": "https://www.v2ex.com/t/1107190",
           "publishedOn": "2025-01-22T14:43:34.000Z",
-          "wordCount": 413,
+          "wordCount": 466,
           "title": "吐槽一下 b 站的推荐",
           "imageUrl": null
         },
@@ -486,7 +512,7 @@
           "description": "gongxuanzhang: \n我出去买瓶可乐都能遇到 7 个半小时用 cursor 上线项目的人。",
           "link": "https://www.v2ex.com/t/1107184",
           "publishedOn": "2025-01-22T14:08:47.000Z",
-          "wordCount": 403,
+          "wordCount": 417,
           "title": "做网站就做网站，写前端就写前端，可以不说 cursor 了吗",
           "imageUrl": null
         },
@@ -506,7 +532,7 @@
           "description": "dnjat: \n上头交给年后任务，开发一款用来在线教育的音视频软件，先让我先研究一下，然后规划下流程方案和技术选型，主导这个软件的开发（我会 c++,java ，另外两个会 java ）。\n本人无音视频开发经验也无理论知识，完全从头开始研发。\n为什么不用市面上已有产品？因为要交钱，老板希望有自己的产品，方便日后扩展，升级，满足他的控制欲，为称霸扫平道路。\n👑希望能得到音视频大佬们的指点👑。\n软件需求：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n下面是我这两天的查阅，拼湊出的一个简略框架和流程：\n大体框架：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n大体流程：\n1 、通过 gRPC 传输信令，建立 WebRTC 点对点连接（这里打算直接用 P2P 建立连接，涉及到 NAT 穿透，如果穿不透，使用 TURN 做中继,用中继后所有流量都得走服务器，人一多，对服务器带宽是个挑战，基本一个 5M 带宽，最多支持 5 个一对一，那得多少带宽才能带得动）。\n2 、教师通过系统 API 捕获屏幕，摄像头采集，麦克风采集，通过 ffmpeg 处理后，用 WebRTC 传输。\n3 、学生端直接使用 WebRTC 显示。\n使用 WebRTC：\n使用 WebRTC 比较方便，有网络自适应。但好像只能在浏览器中使用。\nWebRTC 也有 native 库（原生 native 库，metartc ），直接在 C++调用，不知道坑多不多。\n不使用 WebRTC:\n采用 RTMP/RTSP 传输，ffmpeg 解码后，用 OpenSL ，OpenGL 之类自己做渲染。\n疑问：\n1 、使用 WebRTC 方便 还是 用 RTMP/RTSP 传输后自己解码显示？\n2 、如何避免/减少点对点流量对服务器造成的带宽压力？\n这中间有的地方可能理解得不对🐞，希望得到大佬们的批评指点🌻。如果有不错的学习资源，帮忙推荐一下🎁。",
           "link": "https://www.v2ex.com/t/1107182",
           "publishedOn": "2025-01-22T13:24:06.000Z",
-          "wordCount": 879,
+          "wordCount": 906,
           "title": "如何开发一款会议室(音视频)产品？好像有点难",
           "imageUrl": null
         },
@@ -526,7 +552,7 @@
           "description": "Honwhy: \n公众号关注人数不多，所以官方赠送的额度不多哈\n点击阅读文章，文章中领取（官方要求的）\nhttps://mp.weixin.qq.com/s/ZIMQmkrWLJuXJZmrcp7uKg?token=587859591&lang=zh_CN",
           "link": "https://www.v2ex.com/t/1107180",
           "publishedOn": "2025-01-22T12:59:49.000Z",
-          "wordCount": 362,
+          "wordCount": 367,
           "title": "通过写公众号获得的奖励，给大家派一个红包封面",
           "imageUrl": null
         },
@@ -536,7 +562,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1107177",
           "publishedOn": "2025-01-22T12:46:54.000Z",
-          "wordCount": 429,
+          "wordCount": 440,
           "title": "现在 Android 模拟器的性能好牛逼，几乎和原生 Windows 应用没区别了，比 Flutter 写的 Win 程序还流畅好几倍。为什么 VMware 等虚拟机里装 Windows 做不到这样...",
           "imageUrl": null
         },
@@ -596,7 +622,7 @@
           "description": "MagicGroot: \n接上文\n六个月前，我开始开发这款 App ，初衷是为了在 Apple TV 上实现接近 Apple TV+的操作体验。\n向您介绍 —— Reflix: 重新定义 Emby 观影体验\nReflix 是一款专为 Emby 用户打造的智能客户端，它不仅能轻松管理您的多个 Emby 资源库，还能帮助您统一查找和匹配内容，让观影体验更加高效、愉悦。\n与市面上其他 Emby 播放器不同，Reflix 彻底颠覆了传统的 Emby 观影逻辑。在多个 Emby 资源库内容高度重合的现状下，Reflix 创新地集成了全球影视数据库，并在首页为您推荐正在热播的全球热门内容。当您选择某一影片或剧集时，Reflix 会智能地从所有已添加的资源库中查找对应内容，并按照画质、音效等媒体规格为您自动排序，确保您始终享受最佳观影体验。\n更令人惊喜的是，Reflix 内置了一套独立于 Emby 服务器的同步记录功能。无论您在哪个资源库中观看内容，所有观影记录都会统一存储在 Reflix 中，随时随地轻松查看。再也不用为分散的记录而烦恼，Reflix 让您的观影生活更加井然有序。\n想象一个场景\n在使用 Reflix 之前：\n晚上七点，忙碌了一天的您终于可以坐下来放松一下。您打开电视，准备看点下饭视频。然而，正当您兴致勃勃地选择一个资源库时，却发现由于高峰期带宽被占满，视频加载缓慢甚至卡顿。无奈之下，您只能退出当前资源库，切换到另一个资源库，重新搜索剧集、定位集数、调整进度... 这一系列操作不仅繁琐，还让您的观影兴致大打折扣。\n在使用 Reflix 之后：\n同样是晚上七点，您打开 Reflix ，选择您想看的视频。Reflix 瞬间从所有已添加的资源库中搜索出相同的内容，并为您推荐最佳资源。点击播放，流畅的画面立刻呈现在眼前。如果在高峰期遇到卡顿，您只需轻点一下，即可在播放器页面无缝切换到另一个资源库，继续观看。更棒的是，您的观影进度和记录完全同步，无需任何手动操作。整个过程轻松自如，让您完全沉浸在观影的乐趣中。\nReflix 亮点功能\n全球内容推荐/搜索：不再局限于 Emby 库中已有的资源。\n权威平台评分集成：您可以在 Reflix 中查看每一部影片在 IMDb/TMDb/Trakt/Letterboxd/烂番茄 上的最新评分。\n预告片支持：在查看一部吸引您的陌生影片时，Reflix 会自动播放预告片。\n多资源整合：在浏览一部影片时，Reflix 会自动搜寻已添加资源库中的对应内容，省去繁琐的搜索操作。\n独立的观影记录：在多资源库观影时，您的播放记录不再是分散的，而是统一存储在 Reflix 中，并使用 iCloud 同步到您的 iPad 、Apple TV 、Mac 上。与家人一起使用时，也能隔离各自的观影记录。\n下一集预告：在追剧时，您可以看到下一集的播出时间。\n小组件：通过追新小组件，您可以在 iPhone 主屏幕上追踪正在观看的影片。当新集更新时，Reflix 会自动查找已添加的资源库中是否有新集，并通知您。\n上次观看时间：Reflix 会自动帮您记录上次使用该 emby 服观看的时间。\n一流的 UI 风格：果粉狂喜的设计，完美融入 Apple 生态系统。\n更多细节，欢迎您下载体验！\n\n\n\nApp Store 全区搜索：Reflix 点击下载",
           "link": "https://www.v2ex.com/t/1107169",
           "publishedOn": "2025-01-22T12:19:10.000Z",
-          "wordCount": 491,
+          "wordCount": 512,
           "title": "历时六个月，我打造出了独一无二的 Emby 体验",
           "imageUrl": null
         },
@@ -636,18 +662,8 @@
           "description": "lixcc: \n今天看到飞牛 OS 出了虚拟机功能，打算买一个 N100 主机自己组建 NAS 玩 All in One 。想飞牛 OS+ikuai+openwrt ，问问大家下面的方案那种好一点。\n1.PVE 做底层虚拟化和硬件直通，装 ikuai+openwrt 和飞牛 OS 。\n2.飞牛 OS 做底层，利用他的虚拟机功能装 ikuai 和 openwrt 。",
           "link": "https://www.v2ex.com/t/1107165",
           "publishedOn": "2025-01-22T12:09:41.000Z",
-          "wordCount": 494,
+          "wordCount": 504,
           "title": "求助： NAS 虚拟化方案选择",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107162",
-          "author": "WuDiHaiTai",
-          "description": "WuDiHaiTai: \n我今年刚毕业，但是已经拥有了 2 次共计 2 年的租房史，多次约开锁师傅经历（因为我是糊涂蛋）。\n这次是我第 3 次租房，刚租好的房子冰箱坏了，在它工作的时候会发出吱吱的开门声，酒店式布局不修的话睡觉都睡不好。今天我上班的时候告诉房东冰箱的事，表示想找个啄木鸟修一修，房东是个退休大爷，很欣然的同意了，中午的时候我就打开了啄木鸟的小程序看看报价，这也开始了今天的故事...\n啄木鸟维修定价很笼统，没说修具体故障多少钱，但是把维修过程每一项价格都给规定好了，价格不低。我紧接着去抖音搜了下，发现啄木鸟差评满满，师傅漫天要价，坐地起价，恶评比比皆是。\n没过多久就来了客服电话，主动要给我预约维修，我说你都不知道我是什么坏了就要帮我下单，收费多少你告诉我啊？那边的女客服全程用喊的语气和我说话，还有湖北口音，服务态度就别说了，她的办公条件一定很差，很多人打电话的话确实只能靠喊，和联通人工客服那种心平气和的语气截然相反，她说，“之后会有师傅联系你报价”，总之她很想完成帮人下单这件业绩，她也只负责下单。我也不多想了，给了地址，下单。\n过了十分钟接到了师傅的电话，我问了招呼然后便和他粗略的讲冰箱的故障，他特别冷漠的语气，完全忽略我的发言，目的直接地问我地址在哪，几点上门，完全不在乎冰箱坏的是哪里，更不用谈报价了。\n就这样稀里糊涂的我竟然约上了啄木鸟维修，我当时越想越不对，这完全不是奔着修理家电来的，这是为了钱啊，你都不知道我冰箱哪里坏了，难道你不带配件空着手来赚我的上门费吗？所以果断去小程序取消了订单。\n进而我想到前段时间在 V 站看到有人说自己社会经验不足的事，我在想，如果我也是刚刚进入社会，会不会今天也会上当。虽然修理的钱是房东报销的，但是总不能不拿别人的钱当钱，出租屋的冰箱就 700 块钱，大于 300 如果是我我是绝对不会接受的，这也太逆天了。前段时间开锁也是，每次约上门开锁都是和美团报价都是两个标准，约单的人不管钱，师傅打电话报个价，上门了看你长得年轻是学生就开始坐地起价，这个不行，那个你门锁太高级了，搞不了，拿根棍子伸进去捅一下门把手的事，真当别人都是傻子，只有你板着脸让他不开就走，他才会乖乖从袋子里掏出那根棍。\n出社会第一件事是学会胯起个批脸，太老实的结果一定是受骗。",
-          "link": "https://www.v2ex.com/t/1107162",
-          "publishedOn": "2025-01-22T11:46:06.000Z",
-          "wordCount": 536,
-          "title": "从啄木鸟家电维修想到了所谓社会经验的问题",
           "imageUrl": null
         }
       ]
