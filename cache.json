@@ -277,6 +277,26 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107461",
+          "author": "iintothewind",
+          "description": "iintothewind: \n昨天重刷 Breaking Bad,\n在第二季老白给学生上课的时候提到过 Synthetic Diamond 的技术发明人 H.Tracy.Hall.\n他的技术专利给 GE 公司带来了巨额的财富, 但 GE 公司只给了他 10 美元的 Saving Bond.\n老白讽刺到这就是\"a carbon-based life form being paid in a carbon paper certificate for his work with carbon.\"\n一个碳基生命因为碳方面的工作以碳纸证书的形式获取到了报酬.\n然后我就去 wikipedia 查了查这个人,\n果然老白所说的是真的,\n而且 Wikipedia 还特意加了一段是 Breaking Bad 提及到了他.",
+          "link": "https://www.v2ex.com/t/1107461",
+          "publishedOn": "2025-01-23T19:11:08.000Z",
+          "wordCount": 432,
+          "title": "技术人员受到不公平待遇也不是国内独有的事情",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107459",
+          "author": "BNineCoding",
+          "description": "BNineCoding:",
+          "link": "https://www.v2ex.com/t/1107459",
+          "publishedOn": "2025-01-23T18:01:40.000Z",
+          "wordCount": 395,
+          "title": "app store 现在充值 9 折优惠的活动能续费 688 开发者证书不？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107458",
           "author": "nanajj",
           "description": "nanajj: \n比如怪猎荒野和文明 7 ，前作玩的时长还挺多的。\n玩文明 6 的时候应该还在上学，是个假期，在屋子里爆玩一百多个小时。怪猎前做崛起恰逢家里蹲，也是数百个小时玩的飞起。\n越来越难沉下心了玩游戏了。有可能一冲动就买了，然后吃灰。就像黑神话，是好玩，而且我也是从第一个视频起，持续关注到发售。可是前段时间项目一忙，玩了半截就吃灰，再也没兴趣打开了。再早以前还能三五好友一起开黑，比如 LOL 、 吃鸡、MMO ， 再后来还有一二朋友打打永劫之类的，到现在就只是自己大乱斗了。\n早几年有段时间，我一直是觉得是因为现在的游戏环境变了：MMO 没人玩了，大家都去玩手游了，RTS 不受欢迎了。 后来发现是自己的心态变了，不那么纯粹了。一段时间不玩游戏会突然间像被爪子挠一下，想玩点什么。打开游戏后，又尬在那里最后叉掉，陷入自我折磨。\n近段时间想通了，游戏，干就完了，当一个聪明的墨菲特。",
@@ -312,7 +332,7 @@
           "description": "xinjiawei: \n目前只是疑似，不太好复现。\n博文\nhttps://blog.csdn.net/qq363685855/article/details/143089391 中这个老哥去年 10 月份发现的问题，有另外一名老哥在评论区说他最近 1 月 8 号发现的劫持问题。目前能确定的共同点是，都安装了 51la 统计代码，手机浏览器触发跳转。\n\n我是今天经朋友提醒才发现的问题：\n\n\n直接访问跳转地址，如果不加参数会跳到百度，应该是国人作恶了。\n如果各位在最近也有类似经历，欢迎交流！",
           "link": "https://www.v2ex.com/t/1107455",
           "publishedOn": "2025-01-23T16:51:04.000Z",
-          "wordCount": 419,
+          "wordCount": 431,
           "title": "51la 统计疑似又开始劫持跳转了",
           "imageUrl": null
         },
@@ -322,7 +342,7 @@
           "description": "xiao17174: \n不知道又是哪个插件或者软件搞的，但是这种行为实在是太过份了，为了保留现场我没有关掉。有没有人知道他是怎么做到的？\n几类尝试：\n长页面上下滚动它都固定在同一个位置\nF12 看不到没有任何布局痕迹\n可以确定不是植入到页面里的。我即使新建一个空的 empty.html ，打开这个悬浮窗还是在那里",
           "link": "https://www.v2ex.com/t/1107454",
           "publishedOn": "2025-01-23T16:20:57.000Z",
-          "wordCount": 429,
+          "wordCount": 443,
           "title": "求助，如何排查 chrome 被 360 劫持新姿势",
           "imageUrl": null
         },
@@ -352,7 +372,7 @@
           "description": "StarryLight: 最近打算新办一个手机号码，考虑到新手机号如何尽量避免被电话骚扰，垃圾短信。\n现在有情况是已经有一个长期使用的手机号，已经绑定了各种银行卡和 app 网站等。\n大家都有哪些践行的方法呢？",
           "link": "https://www.v2ex.com/t/1107451",
           "publishedOn": "2025-01-23T15:27:48.000Z",
-          "wordCount": 412,
+          "wordCount": 420,
           "title": "新号 新手机号如何尽量避免被电话骚扰",
           "imageUrl": null
         },
@@ -362,7 +382,7 @@
           "description": "qianchengv:",
           "link": "https://www.v2ex.com/t/1107450",
           "publishedOn": "2025-01-23T15:22:23.000Z",
-          "wordCount": 430,
+          "wordCount": 435,
           "title": "安卓手机二选一： iQOO z9 Turbo+ 和 vivo Y300 Pro 都是 16G+256 的选哪个？",
           "imageUrl": null
         },
@@ -392,7 +412,7 @@
           "description": "SugarLord: \n🦬起源\n3R 教室 TS 全栈开发课是一套由 3R 社区制作的 js/ts 全栈开发课程。从 2022 年，3R 教室开始推出《 react+nestjs 全栈开发最佳实战》开始到如今已经两年半的时间。而随着时间的推移，js/ts 方面的生态也在日新月异的变化中。由于 nestjs 太重、性能拉胯、不适合 node.js 后端开发风格以及生态老旧等原因，站长一直在寻找一款可以替代它的新的 node.js 框架。直到接触到 Hono.js ！\nhono.js 是一款基于 node.js 的新后端微框架。相对于 nestjs 有着大量的优势，比如性能更加优异、与 next.js 的 server action 天然整合(不需要像 nestjs 一样，通过 monorepo 去组织两者的代码)，原生支持 esm 规范等。而且 hono.js 是一款微框架，这就使得学习曲线更加平滑易用，这也是站长自营的 3R 工作室的诸多新外包项目的后端部分开始由 nestjs 转型 hono.js 的原因。\n而旧课程的前端部分，是围绕站长自行开发的一套名为 toomejs 的后台管理面板制作。但 react+vite 构建一个 spa 中后台的课程，对于想前端部分学习的同学显然已经没多大意义了（事实上，教室有相当一部分同学都是老 javaer 或者 go,python 等后端开发者，想转型成为全栈而学习前端目的购买的 3R 会员）。因为如今网络上充斥着各种还用开源的 react 中后台项目，基本可以拿来即用，根本没必要自己从零搭建一款后台面板。即使有需要了解这部分知识，也只是用于提升前端技能，而实际中大概率不会自己去专门浪费时间写一个后台面板并长期维护。另外，在 react 生态中，next.js 慢慢已经成为事实上的标准。next.js 支持对 seo 友好的 ssr…",
           "link": "https://www.v2ex.com/t/1107447",
           "publishedOn": "2025-01-23T15:14:49.000Z",
-          "wordCount": 791,
+          "wordCount": 792,
           "title": "[讨论] 2025 年告别 NestJS？ Hono.js 性能暴打 NestJS，为什么我们的新项目都转向了 Hono",
           "imageUrl": null
         },
@@ -572,7 +592,7 @@
           "description": "vasto: \n您不能再使用 PayPal 了\nPayPal 非常重视为客户打造安全的交易社区。我们注意到，您的账户活动有违我们的《用户协议》，因此我们不再向您提供 PayPal 服务。\n若此决定适用，那么基于这一决定，您将不再符合享受用户协议中所规定的 PayPal 卖家保障的资格。此决定将适用于您现有的和未来收到的所有事件。\n与您的 PayPal 账户关联的任何银行信息或信用卡信息均不能移除，也不能用于创建新账户。您仍可以登录并查看您的账户信息，但无法收发款项。余额中的所有款项将被冻结 180 天，之后我们将给您发送电子邮件，告知如何转移资金。\n太他妈搞笑了吧？提现 patreon 到国区 paypal 里面，让我证明这笔资金来源，我说是 patreon 的提现，截了张图，然后就把我封了，求大佬教教怎么办",
           "link": "https://www.v2ex.com/t/1107425",
           "publishedOn": "2025-01-23T13:04:43.000Z",
-          "wordCount": 400,
+          "wordCount": 401,
           "title": "您不能再使用 PayPal 了。patreon 提现到 paypal 被永久封禁",
           "imageUrl": null
         },
@@ -674,36 +694,6 @@
           "publishedOn": "2025-01-23T10:32:23.000Z",
           "wordCount": 442,
           "title": "请教一下跨境的远程桌面软件/方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107411",
-          "author": "makry",
-          "description": "makry: 退出微信账号，让任意微信好友给退出的微信账号拨语音;\n注意，这个电话要打到超时，语音和视频都行，等提示“对方无应答之后”，登回去大号就成了\nPS:保险起见，拨打 2 次以上~~\n上述操作结束后，爱思把微信版本降级到 8.0.54 就是满血的 callkit 。",
-          "link": "https://www.v2ex.com/t/1107411",
-          "publishedOn": "2025-01-23T10:27:58.000Z",
-          "wordCount": 1192,
-          "title": "[非改语言!非反馈客服!] 亲测有效开通微信 callkit 的方法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107410",
-          "author": "atom42",
-          "description": "atom42: 卧室有一台闲置的电视，想配个盒子看 nas 和 b 站。现在客厅用 atv ，买了 cheers 和 infuse 体验非常好。\n现在再买一个 atv 也挺贵的，而且每年都说要出新的 atv ，就更不想现在买了。有没有别的盒子可以平替的，搜了搜大概有安卓盒子（谷歌？）或是 fire stick 。\n想问问看 B 站方便吗？云视听小电视是不是不如别的 B 站客户端方便。这个看 nas 里的资源应该用什么 app ？有没有人有类似的经验分享一下呀？",
-          "link": "https://www.v2ex.com/t/1107410",
-          "publishedOn": "2025-01-23T10:15:22.000Z",
-          "wordCount": 447,
-          "title": "请问轻量使用，有没有 apple tv 平替的电视盒子？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107409",
-          "author": "retrocode",
-          "description": "retrocode: \n在数码荔枝上买的激活码,最近快到期了想着续费下,发现数码荔枝把 jb 系的软件都下架了,有人知道是什么情况吗?",
-          "link": "https://www.v2ex.com/t/1107409",
-          "publishedOn": "2025-01-23T10:14:55.000Z",
-          "wordCount": 375,
-          "title": "数码荔枝的 idea 下架了?",
           "imageUrl": null
         }
       ]
