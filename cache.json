@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -272,7 +266,7 @@
           "description": "luermao: 老股民们 推荐一下定投，稳定增长的。每月定投 3-5k 。 收益不用太大。主要存钱为主。\n  \n  之前都是每月往余额宝转入 5000 。 收益太低，灵活性又太强了。压根存不住。想着存股市里面去，同时又避免掉 某些朋友借钱。",
           "link": "https://www.v2ex.com/t/1107378",
           "publishedOn": "2025-01-23T08:21:23.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "小白股票推荐",
           "imageUrl": null
         },
@@ -282,7 +276,7 @@
           "description": "linmilu: \n大佬们 你们公司要求每人都写年终述职吗？要命",
           "link": "https://www.v2ex.com/t/1107377",
           "publishedOn": "2025-01-23T08:21:01.000Z",
-          "wordCount": 384,
+          "wordCount": 394,
           "title": "关于年终述职",
           "imageUrl": null
         },
@@ -312,7 +306,7 @@
           "description": "landfill: 编程语言是 Java 。 不知道弱类型的语言会有什么不同吗\nPOST /api/parse/message-type-a\nPOST /api/parse/message-type-b\n每个 API 返回对应类型的 payload\n\nPOST /api/parse\n请求体中带上 message type ，返回一个包装后的 payload\n\n每个 type 返回的字段差别挺大的，type 现在有十来个，未来还有可能增加",
           "link": "https://www.v2ex.com/t/1107374",
           "publishedOn": "2025-01-23T08:11:44.000Z",
-          "wordCount": 488,
+          "wordCount": 493,
           "title": "这两种 API 设计哪种更好？",
           "imageUrl": null
         },
@@ -322,7 +316,7 @@
           "description": "haw86104: \n\n\n实时在线预览：\nhttps://oss.icegl.cn/#/plugins/freeDigitalHome/demo\n本人 tvt.js 三维开源项目作者，这两天研究了 homeassistant ，因为小米最近开源接入了 homeassistant ，所以想看看我们的三维开源项目打包个插件接入进来，市面上看到的都是伪三维，或者图片卡片，咱们要介入的是真三维炫酷级别的炸裂展示。\n智能家居和 homeassitant 的结合、在 TvT 生态下联动控制居家智能设备与展示，真三维， 可连接小米生态设备，可配置\n视频地址\n[智能家居 homeassitant 真三维展示控制+小米设备-哔哩哔哩] \nhttps://b23.tv/wirOYUH\n详细配置方案 以及 免费源码：\nhttps://www.icegl.cn/ask/article/22756.html",
           "link": "https://www.v2ex.com/t/1107373",
           "publishedOn": "2025-01-23T08:07:56.000Z",
-          "wordCount": 407,
+          "wordCount": 409,
           "title": "过年放假折腾： homeassitant-小米设备-智能家居-真三维展示控制",
           "imageUrl": null
         },
@@ -332,7 +326,7 @@
           "description": "Gcourage: \n有个表弟就在附近，问我要不要一起坐他车，\n是没 L2 辅助的车，就定速巡航，准备脚踩\n我自己有个能 L2 辅助的代步车，去年直接四个小时，我一个人中途没休息开回去，去年他坐我车\n总里程就 350km 左右\n准备除夕早上 6 点出发\n之前我自己开回去，基本上在家停着没开\n只要是当心没辅助驾驶，脚踩太累，大概率两人轮流开",
           "link": "https://www.v2ex.com/t/1107372",
           "publishedOn": "2025-01-23T08:07:53.000Z",
-          "wordCount": 497,
+          "wordCount": 501,
           "title": "有人开车可以搭车，还会自己再开车",
           "imageUrl": null
         },
@@ -342,7 +336,7 @@
           "description": "tialias: \n年底了，为啥这几天雾霾这么大，都飙到 200 了",
           "link": "https://www.v2ex.com/t/1107371",
           "publishedOn": "2025-01-23T08:05:43.000Z",
-          "wordCount": 360,
+          "wordCount": 365,
           "title": "成都天气咋了",
           "imageUrl": null
         },
@@ -352,7 +346,7 @@
           "description": "xiaotuzi: \n如题，年底放假前不想干活，最后一周，摸鱼摸着经常 emo ，回忆过去，每年都听到公司月销售量几百万上千万，外界新闻也是动不动上千万，几亿几十亿，对这些数字都听麻木了，但是自己手里的工资一年也就 20w 不到，年纪也快 35 了，然后自己估摸想想干点啥副业或者转个行什么的，一年赚个 20w 就够了，有没有这样的路子？\n俗话说，白嫖确实不地道或者说不对，那我就自己摸索了一下。\n因为自身是程序员，做个网站写个小程序啥的也没啥问题，然后我想着弄个取名算命的程序，发现网上也有一大堆，随便搜搜也有不少这样的东西，利润如何呢？不确定，便宜的使用一次付费功能 19-40RMB 左右。\n然后查了下，那种 MBTI 测试题付费的，这个比较高，好像 30+RMB 起步费用，也不知道多少人付费。这两种我感觉是比较容易搭建或者实践的项目，但是竞品太多了，还要不断的投广告。烧钱。\n有同事在弄卖资料书籍这些的，没有问赚多少，反正应该每个月有一点吧。\n各位大神怎么才能赚 20w 一年？",
           "link": "https://www.v2ex.com/t/1107370",
           "publishedOn": "2025-01-23T08:01:27.000Z",
-          "wordCount": 612,
+          "wordCount": 628,
           "title": "本人程序员，每到过年放假前经常 emo，想问下大家不当程序员一年赚 20w 容易吗？",
           "imageUrl": null
         },
@@ -362,7 +356,7 @@
           "description": "bler: \n有大佬对 google 的 api 熟悉么，Gmail API 使用 OAuth2.0 需要在浏览器中验证登录，无法实现完全的自动化\n有替代的方案了\n我还知道一个方案是在账户中开启两部验证，活到应用专用密码\n如果我指向用 google API 的情况下，有解决方案吗",
           "link": "https://www.v2ex.com/t/1107369",
           "publishedOn": "2025-01-23T08:00:42.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "有大佬对 google 的 api 熟悉么， Gmail API 使用 OAuth2.0 需要在浏览器中验证登录，无法实现完全的自动化",
           "imageUrl": null
         },
@@ -372,7 +366,7 @@
           "description": "Charlie17Li: \n背景\n偶然发现外部系统都会使用 requestId 来追踪请求的调用栈，但是我参与的项目中没有，排查问题时非常依赖于日志中的各种关键字，定位 bug 时只能一边看代码，一边使用各种关键字追踪这个请求的调用栈。\n尤其是当这个服务有多个实例的时候，不可能登录到每个实例看请求打在哪个实例上，只能在日志平台一点点根据关键字排查，但这个日志平台出现过吞日志等问题（不知道是不是没上报成功还是啥），增加定位问题的难度\n想知道大家排查问题时有什么最佳实践吗，基于 requestId 是不是一个好方法呢？",
           "link": "https://www.v2ex.com/t/1107367",
           "publishedOn": "2025-01-23T07:57:38.000Z",
-          "wordCount": 611,
+          "wordCount": 649,
           "title": "[golang] 在 golang 项目中如何使用 requestId 来追踪请求的调用栈",
           "imageUrl": null
         },
@@ -392,7 +386,7 @@
           "description": "musi: \nFlutter 使用 rust 构建的 test.a 和 test.so 静态库，同样一个方法，在安卓模拟器上可以，在 iOS 模拟器上报\n“Failed to lookup symbol: dlsym(RTLD_DEFAULT, rust_dump_file): symbol not found”\n已经在 xcode 上配置了 Link Binary with Librarys 和 strip style 和 dead code stripping\nif (Platform.isAndroid) {\n    try {\n    _lib = DynamicLibrary.open('test.so');\n    } catch (e) {\n        print('Error: $e');\n        rethrow;\n    }\n} else if (Platform.isIOS) {\n    _lib = DynamicLibrary.process();\n} else {\n    throw UnsupportedError('Unsupported platform');\n}\n\nfinal void Function(Pointer<Utf8>) test = _lib\n      .lookup<NativeFunction<Void Function(Pointer<Utf8>)>>(\"test\")\n      .asFunction();",
           "link": "https://www.v2ex.com/t/1107365",
           "publishedOn": "2025-01-23T07:52:57.000Z",
-          "wordCount": 576,
+          "wordCount": 596,
           "title": "Flutter 在 iOS 上使用 rust 构建的静态库报错 symbol not found",
           "imageUrl": null
         },
@@ -412,7 +406,7 @@
           "description": "monkey110: 对理财接触不深，唯一的就是余额宝，但余额宝 30 日年化 1.29%七日年化 1.46%,感觉挺低的，\n没多少钱全部家当也就八万左右，放哪里比较划算，比余额宝高就行，重要的是安全本金别丢，\n股票之类的完全不考虑。",
           "link": "https://www.v2ex.com/t/1107363",
           "publishedOn": "2025-01-23T07:50:46.000Z",
-          "wordCount": 636,
+          "wordCount": 672,
           "title": "2025 年，手里七八万存哪安全又划算？",
           "imageUrl": null
         },
@@ -422,7 +416,7 @@
           "description": "liuliren: （非专业人员，用词不专业见谅。）\n我们的节目是用了某首歌的旋律，按照原有歌词进行了改编，想借用 sona ai 将改编的歌词唱进旋律里面。目前是将音频上传到 sona 后，歌词可以正常演唱，但改变了原有旋律。请教大佬们有没有什么办法不改变原有旋律唱我们想要的歌词？\n另外我们还需要做一些背景和歌词的效果（非商用），有合适的网站、工具帮忙推荐～",
           "link": "https://www.v2ex.com/t/1107362",
           "publishedOn": "2025-01-23T07:49:07.000Z",
-          "wordCount": 1402,
+          "wordCount": 1415,
           "title": "年会 ai 制作节目求助！",
           "imageUrl": "/static/icon-192.png"
         },
@@ -462,7 +456,7 @@
           "description": "highkay: \nhttps://mp.weixin.qq.com/s/v8gSlFXAHfqIX4QIZ_l6ew\n其实不光是科学研究，IT 行业也是适用的，非常有见地的职业规划和一些小建议。",
           "link": "https://www.v2ex.com/t/1107356",
           "publishedOn": "2025-01-23T07:25:20.000Z",
-          "wordCount": 374,
+          "wordCount": 376,
           "title": "感觉挺多人对自己的职业生涯很困惑，分享一篇刚刚读到的文章",
           "imageUrl": null
         },
@@ -492,7 +486,7 @@
           "description": "coyove: \n前身： https://v2ex.com/t/1007853\n无限猴子定理： https://zh.wikipedia.org/zh-hans/%E7%84%A1%E9%99%90%E7%8C%B4%E5%AD%90%E5%AE%9A%E7%90%86\n作为一个在线多人记事本，虽然已经运行了一年多，但早期的 2D 画布理念实在有点难懂和反直觉，所以现在大刀阔斧地改回了传统记事本形式，同时 serverless 上云。\n欢迎写日记的正经人、互联网史学家、碎碎念打工人、todolist 爱好者、后室研究员、聊天室遗老、灵长类……来到打字猴计划。\n传送：\nhttps://dazihou.com\n图书馆：\nhttps://dazihou.com/1000000000\n小彩蛋：\nhttps://dazihou.com/1e100",
           "link": "https://www.v2ex.com/t/1107352",
           "publishedOn": "2025-01-23T07:11:11.000Z",
-          "wordCount": 412,
+          "wordCount": 418,
           "title": "打字猴 - 如果这事不用记下来，那就一定要记下来",
           "imageUrl": null
         },
@@ -502,7 +496,7 @@
           "description": "midone: \n1.没签字就强制降薪，邮件回复 hr 不同意降薪通知书。然后找公司注册地的劳动纠察大队填写单子，目前没反馈。过去问了意思是十五个工作日给答复，但是感觉希望不大。在等转到仲裁，但是这需要很久。\n2.公司刚发了员工管理，大概看了下管理的挺严的。\n3.公司不会裁人，如果有裁员也不会有这么多事情。\n咨询各位大佬，我看有公司降薪的新闻，有没有经历过降薪并讨要到赔偿的？需要做哪些？非常感谢！",
           "link": "https://www.v2ex.com/t/1107351",
           "publishedOn": "2025-01-23T07:06:26.000Z",
-          "wordCount": 586,
+          "wordCount": 605,
           "title": "公司强制降薪，如果操作维护自己的正当权益？",
           "imageUrl": null
         },
@@ -532,7 +526,7 @@
           "description": "Meld: 欢迎多方面讨论，但劳烦尽量不要互相攻击",
           "link": "https://www.v2ex.com/t/1107348",
           "publishedOn": "2025-01-23T06:57:48.000Z",
-          "wordCount": 1280,
+          "wordCount": 115,
           "title": "柯洁 LG 杯的经历你怎么看？",
           "imageUrl": null
         },
@@ -562,7 +556,7 @@
           "description": "iv8d: \n怎么学习和入手呢\n目前就看和使用过 huggingface 上 gpt2 示例。\nmodel 相关的 api 不知道怎么查找，比如像使用 gpt2 的 qa 类任务应该如何来做。\n本地能跑起来 gpt2 的示例，换成 llama2 的 7b 模型直接就结束了，是因为集显性能原因跑不起来吗\n预训练怎么做，上传语料线上训练还是直接本地训练\n本地预训练有示例么，简单点的\n求教想深入学 ai ，我应该怎么继续下去",
           "link": "https://www.v2ex.com/t/1107344",
           "publishedOn": "2025-01-23T06:52:55.000Z",
-          "wordCount": 463,
+          "wordCount": 490,
           "title": "LLM local 模型入门和使用",
           "imageUrl": null
         },
@@ -592,7 +586,7 @@
           "description": "sead: github: https://github.com/seadfeng/headless-browser-clusters\n## 项目包含两部分\n1.express app 控制浏览器 (app)\n2. 浏览器服务集群 (browser)\n## 主要技术栈\n- redis\n- express\n- playwright\n- chromium\n- typescript\n- docker\n## 用于截图？\n记得把 needBlocked 注释掉",
           "link": "https://www.v2ex.com/t/1107340",
           "publishedOn": "2025-01-23T06:45:50.000Z",
-          "wordCount": 376,
+          "wordCount": 396,
           "title": "docker 无头浏览器群控， express 开箱即用",
           "imageUrl": null
         },
@@ -602,7 +596,7 @@
           "description": "ggstudy1: \n短信内容:\n[ HSBC ] 汇丰：新春将至，请查这份“汇福丰禄新春限定礼盒”。其设计灵感源于“葫芦”这一中国吉祥符号，寓意福禄寿喜，聚势招财，祝您在新的一年盛满福气与财运！即刻点击登记领取礼品:https://cloud.messaging.hsbc.com.hk/PNC-GIFT?ck= 详情请致电汇丰香港客服热线。查询 +852 2233 3005\n点开链接,提示:\n汇丰私人财富规划服务由位于内地汇丰人寿保险有限公司（“汇丰人寿中国”）或汇丰保险经纪有限公司（“汇丰经纪中国”）在各自营业区域内为您提供。请您确保已提供正确的联系方式并留意来电，以免因信息错误或因汇丰专员无法联系到您，从而导致您无法获得活动礼遇。\n是不是要买他家的保险,才给送?",
           "link": "https://www.v2ex.com/t/1107339",
           "publishedOn": "2025-01-23T06:42:52.000Z",
-          "wordCount": 420,
+          "wordCount": 433,
           "title": "有人收到汇丰\"2025 汇福丰禄新春限定礼盒\"的短信吗?这个活动有坑吗?",
           "imageUrl": null
         },
@@ -612,7 +606,7 @@
           "description": "5261: \n疑问点\n区间测速路段，如果整个区间段结束后，平均速度超过限定速度是否会罚款？\n界定罚款的标准是不是参考普通的超速的标准\n1 、不超过 10% ，只是警告\n2 、超过 10% 到 20% xxx\n3 、超过 20% xxxx\n如果真是按照上面来判定的话，那我只要平均速度不超过限定速度的 10% 就问题不大吧？\n有懂王给解释下不",
           "link": "https://www.v2ex.com/t/1107338",
           "publishedOn": "2025-01-23T06:42:44.000Z",
-          "wordCount": 522,
+          "wordCount": 537,
           "title": "关于高速区间测速段如何合理超速的问题",
           "imageUrl": null
         },
@@ -642,7 +636,7 @@
           "description": "wryyyyyyyyyyyy: 上海 ，pdd 百亿补贴也参加国补了，但型号很少。",
           "link": "https://www.v2ex.com/t/1107335",
           "publishedOn": "2025-01-23T06:32:19.000Z",
-          "wordCount": 634,
+          "wordCount": 636,
           "title": "想趁着国补换个手机， 5000￥左右的，有推荐吗？",
           "imageUrl": null
         },
@@ -672,7 +666,7 @@
           "description": "coolair: 最近 1 、2 年频繁死机，而且大部分时间是点开微信图片的时候（聊天窗口点开图片，有时候一载入完成就死机）。\n最近在学习机器学习的时候，发现一跑 CPU 模型就死机。\n然后，我用图吧工具箱里的“P95 一键烤机”，一开始烤机就立马死机。\n是 CPU 要挂了吗？\n我用的机器是 DeskMini + i7 7700K ，换过内存和硬盘，仍旧死机，感觉唯一的问题就是 CPU 了……",
           "link": "https://www.v2ex.com/t/1107332",
           "publishedOn": "2025-01-23T06:25:28.000Z",
-          "wordCount": 671,
+          "wordCount": 681,
           "title": "电脑频繁死机，是 CPU 要挂了吗？",
           "imageUrl": null
         },
@@ -682,7 +676,7 @@
           "description": "PROJECT: \n如图\n到时候可以直接访问国际互联网了？",
           "link": "https://www.v2ex.com/t/1107331",
           "publishedOn": "2025-01-23T06:19:19.000Z",
-          "wordCount": 670,
+          "wordCount": 115,
           "title": "上海要开放国际互联网试点了嘛？",
           "imageUrl": null
         },
