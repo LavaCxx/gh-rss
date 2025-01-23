@@ -94,12 +94,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -272,7 +266,7 @@
           "description": "lxiian: 请问类似番茄小说这种平台，小说章节内容是以何种方式存储的？是 nosql 数据库呢 还是直接用文件形式存储到对象存储里呢？文件的话 是每更新一章就在源文件追加还是生成新文件呢。\n有晓得的大佬吗，谢谢🫡",
           "link": "https://www.v2ex.com/t/1107212",
           "publishedOn": "2025-01-22T22:32:52.000Z",
-          "wordCount": 403,
+          "wordCount": 459,
           "title": "请教一下各位大佬关于小说平台后端方案问题。",
           "imageUrl": null
         },
@@ -302,7 +296,7 @@
           "description": "xixiv5: 最好是包月包天的那种 不按流量付\n无需实名最好 国内外都行\n谢谢各位",
           "link": "https://www.v2ex.com/t/1107209",
           "publishedOn": "2025-01-22T19:58:17.000Z",
-          "wordCount": 376,
+          "wordCount": 387,
           "title": "求推荐动态 HTTP 或 S5 代理 爬虫用",
           "imageUrl": null
         },
@@ -312,7 +306,7 @@
           "description": "readman: 两个地方需要，\n1.接 sony65 寸电视。\n2.给 ds923+当 plex server 解码器。\n好像两个都能推的动电视。。。\n是 m2 当解码器还是 eq13 当解码器？\neq13 配置如下：\nBeelink Mini PC, EQ13 Pro Intel 12th Gen Alder Lake-N200(Up to 3.7GHz), 16GB DDR4 RAM 500GB M.2 SSD, Mini Desktop Computer Support 4K Dual Display/WiFi6/BT5.2/Dual LAN 1000Mbps for Home/Office",
           "link": "https://www.v2ex.com/t/1107208",
           "publishedOn": "2025-01-22T18:58:06.000Z",
-          "wordCount": 447,
+          "wordCount": 467,
           "title": "m2 mac mini 和 零刻 EQ13 如何分配？",
           "imageUrl": null
         },
@@ -322,7 +316,7 @@
           "description": "PowtainGen1: \n直播回放 + 中文版核心观点总结：\n右上角选择语言:\nhttps://web.powtain.com/pow/sMOE8j?1\n<美国总统谈人工智能基础设施（“星际门”项目）>\n宣布成立一家名为“星际门”的新人工智能公司，投资 5000 亿美元用于美国的人工智能基础设施。\n预计将创造超过 10 万个新的美国就业岗位，并在全国范围内快速建设大型数据中心。\n强调保持美国在人工智能领域的领导地位，以与中国等国竞争。\n<拉里·埃里森（甲骨文）>\n确认甲骨文将在德克萨斯州等地建设大规模数据中心，以支持人工智能项目。\n强调使用人工智能来处理健康记录、癌症治疗和改善患者护理。\n提到计划利用电子健康数据，实现快速诊断和个性化护理。\n(Read more)",
           "link": "https://www.v2ex.com/t/1107207",
           "publishedOn": "2025-01-22T18:11:29.000Z",
-          "wordCount": 372,
+          "wordCount": 408,
           "title": "美国宣布 5000 亿美元“星际门”人工智能基础设施项目：甲骨文创始人、软银创始人、OpenAI 创始人",
           "imageUrl": null
         },
@@ -342,7 +336,7 @@
           "description": "stobacco: 想着给手机充 10 块钱，打开支付宝/微信/淘宝\n全都是 50 起充\n说实话有点恶心",
           "link": "https://www.v2ex.com/t/1107205",
           "publishedOn": "2025-01-22T17:02:08.000Z",
-          "wordCount": 510,
+          "wordCount": 540,
           "title": "现在话费起充都是 50 了？",
           "imageUrl": null
         },
@@ -352,7 +346,7 @@
           "description": "NamelessRain: \n前情提要，坐标深圳，租了一个房子但是房东不让拉网络，100 块钱一个月 100M 速度平时还好夜间极差。\n\n我手机流量每个月有 700GB 啊！！！\n到货后，锁定 5g n78 频段  这台路由的 5G 性能理论是能跑 3600M 价格是 1800RMB\n我用的联通卡，最好测下载跑到了 500m 上传 240m ，时间是晚上 8 点，后面 9 点高峰期变成了 300m 下行 120 上行。\n但是这个明显不是我的手机卡极限，可能跟某些频段有关系没手机上分配的好，\n我手机锁 NR 能跑到平均 500m 的下行 87M 的上行 最高是 926m 上传是 143m\n顺便说下 我这里只能用 N1 N78 其他频段没有网络\n目前就测到这样，看看大家有没有什么想测的，或者有什么没调好欢迎交流。\n测试很多东西后打了一盘 LOL 拿了日志文件统计出来的\n目测没有丢包，但是有一定的波动。\n英雄联盟-艾欧尼亚电信区\n游戏时间\n开始时间：2025 年 1 月 22 日 23:07:56\n结束时间：2025 年 1 月 22 日 23:30:02\n游戏时长：22 分钟 6 秒\n网络指标\n延迟（ Ping ）\n最低值：26ms\n最高值：61ms\n平均值：32ms\n丢包率（ Packet Loss ）\n最低值：0%\n最高值：0%\n平均值：0%\n抖动（ Jitter ）\n最低值：4ms\n最高值：34ms\n平均值：12ms\n\n下边就放一些测试图片\n\n\n下面这张是直接插手机测的\n\n下面这张是用 CPE 路由无线\n\n这个张是电脑用福建联通测的锁的 N1",
           "link": "https://www.v2ex.com/t/1107204",
           "publishedOn": "2025-01-22T16:45:30.000Z",
-          "wordCount": 577,
+          "wordCount": 794,
           "title": "因为房东不让拉宽带，买了一台最强的 CPE_5G 路由！(测试结果)",
           "imageUrl": null
         },
@@ -362,7 +356,7 @@
           "description": "Symbo1ic: \n如题。我是一个图形程序员，目前正在做 UE5 相关的工作。日常就是写 cpp 和 vulkan ，除了 Macbook 以外手机 ipad iwatch 都正在用。以前使用黑苹果体验过 Sonoma ，没有体验随航以及镜像啥的功能，不是非常适应按键和 terminal 的权限问题，因为虽然是类 unix 操作系统但是居然不能对系统目录有操作权限，这个真的不舒服。目前软件需求的话就是 CSP 、Rider 、VSCode 、Maya 还有 Pytorch 。刚需是能够轻度游戏（包括转译），进行游戏开发，如果能进行游戏引擎开发就更好了。现在确实有机会能搞到一台 MBP ，或者转卖换钱。我觉得我能克服按键的问题，但其余因素有点拿不定。想问问各位，我这个情况整一台 MBP 是否合适呢？",
           "link": "https://www.v2ex.com/t/1107202",
           "publishedOn": "2025-01-22T16:31:10.000Z",
-          "wordCount": 417,
+          "wordCount": 431,
           "title": "图形程序员是否需要 Macbook Pro M4？",
           "imageUrl": null
         },
@@ -372,7 +366,7 @@
           "description": "HenryDai: \n背景：题主在二线城市，是一个三年工作经验的全栈开发，主要是做国产化 toG 的业务。前一段时间因为失业，长住在做嵌入式的朋友家。期间聊到 C++、jni 、AndroidFramework 。对 AndroidFramework 产生了非常大的兴趣。\n之前的工作内容都是偏业务多一点可替代性极强，因为题主垃圾本科的学历和项目经验问题，无法进入大厂镀金，个人喜欢技术岗，希望职业生涯能长点，想换个赛道。\n疑问\n1.AndroidFramework 偏底层的开发没有年龄危机吗？\n2.是否建议转 Framework 开发？\n3.AndroidFramework 应该怎么转？\n希望能够得到大佬们的回答和帮助",
           "link": "https://www.v2ex.com/t/1107201",
           "publishedOn": "2025-01-22T16:23:26.000Z",
-          "wordCount": 399,
+          "wordCount": 423,
           "title": "求助帖： Android Framework 的前景?",
           "imageUrl": null
         },
@@ -412,7 +406,7 @@
           "description": "tlerbao:",
           "link": "https://www.v2ex.com/t/1107196",
           "publishedOn": "2025-01-22T15:17:55.000Z",
-          "wordCount": 416,
+          "wordCount": 432,
           "title": "Trae 的 UI 配色方案挺好啊，有大神能移植到 Vscode 或者 Cursor 上吗？",
           "imageUrl": null
         },
@@ -422,7 +416,7 @@
           "description": "CC11001100: \n四道题全部 AC 。。。\n \n我连题目都没仔细看，就无复制粘贴题目给它，等它推理出结果就复制回提交框：\n \n中间有提交错误的：\n \n我把错误截图给大模型，让它继续推理，然后如此反复，除了最后一道题错了几次才推理出来，前边都是一把过，最后一道题错了两次推测出来了。\n跟一个力扣刷了几千道的朋友吐槽用大模型刷题，虽然我在嘴硬，但我自己撑死了也就是三道题的水平。。。AI 算法水平至少高我一个大段位。。。。\n \n不过还好，它用时大概半小时，比第一名耗时还长一些，碳基生物保住了一点脸面：\n \n但想一想，从 OpenAI 发布 Chatgpt 到今天，也才几年的时间就已经发展到这个程度了，我原本以为程序员能干到 35 岁也行，到时候回老家养猪，就很抽象，感觉撑不到 35 岁就得被淘汰了。。。过年回去得提前调研下养猪方案了。。。",
           "link": "https://www.v2ex.com/t/1107195",
           "publishedOn": "2025-01-22T15:07:49.000Z",
-          "wordCount": 728,
+          "wordCount": 1166,
           "title": "手贱拿大模型试了下最近一次的 LeetCode 周赛，道心破碎了，成仙路已断，前路在何方？",
           "imageUrl": null
         },
@@ -432,7 +426,7 @@
           "description": "wchluxi: 是 windows 为了推 edge 使的招吗？",
           "link": "https://www.v2ex.com/t/1107194",
           "publishedOn": "2025-01-22T14:57:42.000Z",
-          "wordCount": 363,
+          "wordCount": 370,
           "title": "windows 更新后好像固定在任务栏的 chrome 消失了？",
           "imageUrl": null
         },
@@ -442,7 +436,7 @@
           "description": "sn0wdr1am: \n分享一个自己封装的 qBittorrent 镜像，欢迎大家使用。\n默认情况下，账号密码随机生成，非常安全。\n您也可以参考项目地址文档，运行的时候，传入自己的账户密码。\n开源项目地址： https://github.com/snowdreamtech/qbittorrent\ndocker 镜像托管在：\nhttps://github.com/snowdreamtech/qbittorrent/pkgs/container/qbittorrent\nhttps://quay.io/repository/snowdreamtech/qbittorrent\nhttps://hub.docker.com/r/snowdreamtech/qbittorrent\nalpine 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/riscv64,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:alpine\n\ndebian 版本\n支持平台：\nplatforms: linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64le,linux/ppc64le,linux/s390x\ndocker run -d \\\n  --name=qbittorrent \\\n  -e TZ=Asia/Shanghai \\\n  -e WEBUI_LANG=zh_CN \\\n  -p 8080:8080 \\\n  -p 25413:25413 \\\n  -p 25413:25413/udp \\\n  -v ./data:/var/lib/qBittorrent/data  \\\n  -v ./downloads:/var/lib/qBittorrent/downloads  \\\n  -v ./incomplete:/var/lib/qBittorrent/incomplete  \\\n  -v ./torrents:/var/lib/qBittorrent/torrents  \\\n   ghcr.io/snowdreamtech/qbittorrent:debian",
           "link": "https://www.v2ex.com/t/1107193",
           "publishedOn": "2025-01-22T14:48:02.000Z",
-          "wordCount": 553,
+          "wordCount": 563,
           "title": "如何使用 Docker 一键部署 qBittorrent",
           "imageUrl": null
         },
@@ -452,7 +446,7 @@
           "description": "Niner: \nUser u = userMapper.selectOne(id);\nu.setName(myname);\nu.setAge(myAge);\nuserMapper.updateById(u);\n\n我看工作里面很多代码都是这样更新的，虽然方便但是有并发问题，大佬们 cr 遇到会打回去吗？",
           "link": "https://www.v2ex.com/t/1107192",
           "publishedOn": "2025-01-22T14:47:55.000Z",
-          "wordCount": 548,
+          "wordCount": 707,
           "title": "update 大家会允许这样写吗？",
           "imageUrl": null
         },
@@ -472,7 +466,7 @@
           "description": "ZJamss: \n推荐的直播永远肯定是擦边女主播，哪怕我从来没看过，只看过 LPL\n无论对擦边视频点多少次视频内容或者 UP 主不感兴趣，下一次加载总会有存在莫名其妙的擦边穿搭，cos ，舞蹈等等\n我还以为是根据性别推荐的牛皮癣，甩不掉的，结果看了一下资料，默认保密我没动过。其实也不是什么大事，只是有时候 npy 看见总要说两句我看擦边，又有大数据推荐原理帮着背书，等于坐实了罪名，难办啊",
           "link": "https://www.v2ex.com/t/1107190",
           "publishedOn": "2025-01-22T14:43:34.000Z",
-          "wordCount": 466,
+          "wordCount": 533,
           "title": "吐槽一下 b 站的推荐",
           "imageUrl": null
         },
@@ -482,7 +476,7 @@
           "description": "joesph: 本人所在的一家 web3 公司，第一季度正在搭建 AI 算法产品的团队，急需各位大厂人才来投递，有以下岗位：\n算法 leader\nAI 平台产品经理\n大模型算法\n应用研发-chatbot 、AI 营销、搜推、KYC\n平台研发-AI 平台、Agent 、RAG 、模型仓库\nAIGC 多模态算法\n高级模型工程师\n风控数据分析算法\n算法部署工程师\n算法核心工程师（ CV 方向）\n [薪资待遇] 工作经验至少 3 年以上，普通岗位年包 40w-100w ，总监岗 100w+，工资发 usdt ，14-18 薪，公司不交社保公积金，直接发钱自己缴纳或者不缴纳都可以。季度团建费，学习费，健康费 各 100U ，年假 10 天。节假日按照国内的照常放，各类婚假，丧假，育儿假都有。会签海外的合同，公司注册地在海外。\n [工作时长]  大小周，10-7 ，需要 WLB 不用来投递了哈\n\n以下是具体的 jd：\n算法 leader\n岗位职责：\n1 、从事 AI 领域的深度学习算法研究、实现和优化，负责提供特定需求的深度学习算法解决方案；\n2 、负责针对业务问题，设计和实现具体应用的深度学习模型、策略、算法，对业务进行赋能；\n3 、负责算法的整体规划，基于视觉、语音、图像、搜推等算法能力，结合技术和产品团队实际落地;\n4 、深入理解业务场景，与团队协作，提出创新性解决方案，推动项目进展；\n岗位职责：\n1 、计算机科学、人工智能、统计、数学等相关专业硕士/博士学历；\n2 、掌握 Java,Python 等至少一门编程语言，有深度学习开发经验，具备独立实现算法的能力，夯实的工程能力；\n3 、8 年以上深度学习领域相关工作经验，3 年以上团队管理经验，有丰富的实际项目经验，包括但不限于大规模语言模型、图像生成、搜推等；\n4 、对数据敏感，用数据说话，深信数据在驱动业务、支撑决策上的价值；…",
           "link": "https://www.v2ex.com/t/1107187",
           "publishedOn": "2025-01-22T14:30:26.000Z",
-          "wordCount": 798,
+          "wordCount": 810,
           "title": "[web3] [远程办公] AI 算法产品团队搭建，也有其他开发，业务岗",
           "imageUrl": null
         },
@@ -512,7 +506,7 @@
           "description": "gongxuanzhang: \n我出去买瓶可乐都能遇到 7 个半小时用 cursor 上线项目的人。",
           "link": "https://www.v2ex.com/t/1107184",
           "publishedOn": "2025-01-22T14:08:47.000Z",
-          "wordCount": 417,
+          "wordCount": 426,
           "title": "做网站就做网站，写前端就写前端，可以不说 cursor 了吗",
           "imageUrl": null
         },
@@ -522,7 +516,7 @@
           "description": "roeberry: 本人大厂干程序员一晃也有 10 年了，想和大家简单分享下自己的经验，不太知道聊些啥，请多多指教~\nB 站： https://www.bilibili.com/video/BV1XGfaYcELv/",
           "link": "https://www.v2ex.com/t/1107183",
           "publishedOn": "2025-01-22T14:07:20.000Z",
-          "wordCount": 392,
+          "wordCount": 400,
           "title": "简单聊聊我的 10 年程序员经历，微博，滴滴，爱彼迎",
           "imageUrl": null
         },
@@ -532,7 +526,7 @@
           "description": "dnjat: \n上头交给年后任务，开发一款用来在线教育的音视频软件，先让我先研究一下，然后规划下流程方案和技术选型，主导这个软件的开发（我会 c++,java ，另外两个会 java ）。\n本人无音视频开发经验也无理论知识，完全从头开始研发。\n为什么不用市面上已有产品？因为要交钱，老板希望有自己的产品，方便日后扩展，升级，满足他的控制欲，为称霸扫平道路。\n👑希望能得到音视频大佬们的指点👑。\n软件需求：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n下面是我这两天的查阅，拼湊出的一个简略框架和流程：\n大体框架：\n1 、桌面端界面使用 QT ，移动端界面使用 Flutter 或原生。\n2 、业务库统一用 C++实现，多端界面端统一调用业务库（粗略了解到过程中还有交叉编译之类的，不知道是不是很复杂）。\n大体流程：\n1 、通过 gRPC 传输信令，建立 WebRTC 点对点连接（这里打算直接用 P2P 建立连接，涉及到 NAT 穿透，如果穿不透，使用 TURN 做中继,用中继后所有流量都得走服务器，人一多，对服务器带宽是个挑战，基本一个 5M 带宽，最多支持 5 个一对一，那得多少带宽才能带得动）。\n2 、教师通过系统 API 捕获屏幕，摄像头采集，麦克风采集，通过 ffmpeg 处理后，用 WebRTC 传输。\n3 、学生端直接使用 WebRTC 显示。\n使用 WebRTC：\n使用 WebRTC 比较方便，有网络自适应。但好像只能在浏览器中使用。\nWebRTC 也有 native 库（原生 native 库，metartc ），直接在 C++调用，不知道坑多不多。\n不使用 WebRTC:\n采用 RTMP/RTSP 传输，ffmpeg 解码后，用 OpenSL ，OpenGL 之类自己做渲染。\n疑问：\n1 、使用 WebRTC 方便 还是 用 RTMP/RTSP 传输后自己解码显示？\n2 、如何避免/减少点对点流量对服务器造成的带宽压力？\n这中间有的地方可能理解得不对🐞，希望得到大佬们的批评指点🌻。如果有不错的学习资源，帮忙推荐一下🎁。",
           "link": "https://www.v2ex.com/t/1107182",
           "publishedOn": "2025-01-22T13:24:06.000Z",
-          "wordCount": 906,
+          "wordCount": 963,
           "title": "如何开发一款会议室(音视频)产品？好像有点难",
           "imageUrl": null
         },
@@ -552,7 +546,7 @@
           "description": "Honwhy: \n公众号关注人数不多，所以官方赠送的额度不多哈\n点击阅读文章，文章中领取（官方要求的）\nhttps://mp.weixin.qq.com/s/ZIMQmkrWLJuXJZmrcp7uKg?token=587859591&lang=zh_CN",
           "link": "https://www.v2ex.com/t/1107180",
           "publishedOn": "2025-01-22T12:59:49.000Z",
-          "wordCount": 367,
+          "wordCount": 390,
           "title": "通过写公众号获得的奖励，给大家派一个红包封面",
           "imageUrl": null
         },
@@ -562,7 +556,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1107177",
           "publishedOn": "2025-01-22T12:46:54.000Z",
-          "wordCount": 440,
+          "wordCount": 447,
           "title": "现在 Android 模拟器的性能好牛逼，几乎和原生 Windows 应用没区别了，比 Flutter 写的 Win 程序还流畅好几倍。为什么 VMware 等虚拟机里装 Windows 做不到这样...",
           "imageUrl": null
         },
@@ -572,7 +566,7 @@
           "description": "stong2: \n群晖 920+四盘位，之前 1 & 2 盘位用了 2T 组 SHR 成存储池 2 ，3 & 4 盘位组 raid0 成存储池 1 ；\n前段时间觉得没必要数据保护，就把 2 盘位硬盘拆下来，将存储池 2 手动降级成了无数据保护 SHR ，淘了块 14T 二手企业硬盘准备加进存储池 1 （脑抽的开始）；\n网上搜了一圈，发现 raid0 扩容好像是不可能的，但在 CSDN 看到有篇文章说扩容成功了，就抱着侥幸心理进行了以下操作：\nmdadm --grow /dev/md2 --raid-devices=3 --add /dev/sata4\n\n执行成功，同时开始了时长两周的空间重建，过程/proc/mdstat 信息如下：\nPersonalities : [raid1] [raid0] [raid6] [raid5] [raid4] [raidF1] \nmd3 : active raid1 sata3p5[0]\n      2925435456 blocks super 1.2 [1/1] [U]\n      \nmd2 : active raid4 sata4[3] sata1p3[0] sata2p3[1]\n      23428126720 blocks super 1.2 level 4, 64k chunk, algorithm 5 [4/3] [UU__]\n      [==================>..]  reshape = 93.0% (10902819456/11714063360) finish=426.7min speed=31685K/sec\n      \nmd4 : active raid1 nvme0n1p1[0]\n      488381952 blocks super 1.2 [1/1] [U]\n      \nmd1 : a…",
           "link": "https://www.v2ex.com/t/1107175",
           "publishedOn": "2025-01-22T12:38:00.000Z",
-          "wordCount": 655,
+          "wordCount": 664,
           "title": "求助帖，群晖 raid 丢失",
           "imageUrl": null
         },
@@ -582,7 +576,7 @@
           "description": "dream0689: 起因：云机器的 ipv6 分配了但不通，尝试了重做系统，就联系客服处理，对方要求 root 密码或者给予临时权限。于是我就把密码改成相对简单的密码。没过多久流量就耗尽了。大概半个小时 300 多 G 流量吧。\n经过：再次联系客服，反馈情况，我以为是系统 bug 。客服反馈流量耗尽，付费增加流量后必须重置系统。同时提醒我网络不是家里的电脑，密码不能太简单。\n结果与思考：付费增加 100G 流量，等待系统重置。\n留下两个疑问：\n1.公网设备 root 密码这么容易爆破么？\n2.增加流量的同时必须重置系统的原因是什么？",
           "link": "https://www.v2ex.com/t/1107174",
           "publishedOn": "2025-01-22T12:30:19.000Z",
-          "wordCount": 535,
+          "wordCount": 542,
           "title": "云机器流量这么容易被耗尽嘛？",
           "imageUrl": null
         },
@@ -622,7 +616,7 @@
           "description": "MagicGroot: \n接上文\n六个月前，我开始开发这款 App ，初衷是为了在 Apple TV 上实现接近 Apple TV+的操作体验。\n向您介绍 —— Reflix: 重新定义 Emby 观影体验\nReflix 是一款专为 Emby 用户打造的智能客户端，它不仅能轻松管理您的多个 Emby 资源库，还能帮助您统一查找和匹配内容，让观影体验更加高效、愉悦。\n与市面上其他 Emby 播放器不同，Reflix 彻底颠覆了传统的 Emby 观影逻辑。在多个 Emby 资源库内容高度重合的现状下，Reflix 创新地集成了全球影视数据库，并在首页为您推荐正在热播的全球热门内容。当您选择某一影片或剧集时，Reflix 会智能地从所有已添加的资源库中查找对应内容，并按照画质、音效等媒体规格为您自动排序，确保您始终享受最佳观影体验。\n更令人惊喜的是，Reflix 内置了一套独立于 Emby 服务器的同步记录功能。无论您在哪个资源库中观看内容，所有观影记录都会统一存储在 Reflix 中，随时随地轻松查看。再也不用为分散的记录而烦恼，Reflix 让您的观影生活更加井然有序。\n想象一个场景\n在使用 Reflix 之前：\n晚上七点，忙碌了一天的您终于可以坐下来放松一下。您打开电视，准备看点下饭视频。然而，正当您兴致勃勃地选择一个资源库时，却发现由于高峰期带宽被占满，视频加载缓慢甚至卡顿。无奈之下，您只能退出当前资源库，切换到另一个资源库，重新搜索剧集、定位集数、调整进度... 这一系列操作不仅繁琐，还让您的观影兴致大打折扣。\n在使用 Reflix 之后：\n同样是晚上七点，您打开 Reflix ，选择您想看的视频。Reflix 瞬间从所有已添加的资源库中搜索出相同的内容，并为您推荐最佳资源。点击播放，流畅的画面立刻呈现在眼前。如果在高峰期遇到卡顿，您只需轻点一下，即可在播放器页面无缝切换到另一个资源库，继续观看。更棒的是，您的观影进度和记录完全同步，无需任何手动操作。整个过程轻松自如，让您完全沉浸在观影的乐趣中。\nReflix 亮点功能\n全球内容推荐/搜索：不再局限于 Emby 库中已有的资源。\n权威平台评分集成：您可以在 Reflix 中查看每一部影片在 IMDb/TMDb/Trakt/Letterboxd/烂番茄 上的最新评分。\n预告片支持：在查看一部吸引您的陌生影片时，Reflix 会自动播放预告片。\n多资源整合：在浏览一部影片时，Reflix 会自动搜寻已添加资源库中的对应内容，省去繁琐的搜索操作。\n独立的观影记录：在多资源库观影时，您的播放记录不再是分散的，而是统一存储在 Reflix 中，并使用 iCloud 同步到您的 iPad 、Apple TV 、Mac 上。与家人一起使用时，也能隔离各自的观影记录。\n下一集预告：在追剧时，您可以看到下一集的播出时间。\n小组件：通过追新小组件，您可以在 iPhone 主屏幕上追踪正在观看的影片。当新集更新时，Reflix 会自动查找已添加的资源库中是否有新集，并通知您。\n上次观看时间：Reflix 会自动帮您记录上次使用该 emby 服观看的时间。\n一流的 UI 风格：果粉狂喜的设计，完美融入 Apple 生态系统。\n更多细节，欢迎您下载体验！\n\n\n\nApp Store 全区搜索：Reflix 点击下载",
           "link": "https://www.v2ex.com/t/1107169",
           "publishedOn": "2025-01-22T12:19:10.000Z",
-          "wordCount": 512,
+          "wordCount": 558,
           "title": "历时六个月，我打造出了独一无二的 Emby 体验",
           "imageUrl": null
         },
@@ -632,7 +626,7 @@
           "description": "mMartin: \n前贴\ngithub 仓库地址\nHass-Panel\n一个基于 React 的智能家居控制面板，基于 Home Assistant Websocket api 。\n视频预览\n\n预览图\n\n特性\n📱 响应式设计，支持移动端和桌面端\n灯光控制\n空调控制\n窗帘控制\n传感器监控\n摄像头查看\n场景控制\n更多设备支持中...\n🔧 高度可配置，自由拖拽布局，支持移动端和桌面端\n🚀 PWA 支持，可安装到桌面\n🎨 美观的用户界面，支持暗色模式\n快速开始\n配置\n项目使用外部配置文件方式，可以在不重新构建的情况下修改配置。\n复制示例配置文件：\n# 克隆项目\ngit clone https://github.com/mrtian2016/hass-panel.git\n\ncd hass-panel\n\ncp public/config/userConfig.json.example public/config/userConfig.json\n\n根据您的 Home Assistant 环境编辑 userConfig.json\n配置文件结构\n配置文件包含以下主要部分(参考CONFIG.md)：\n天气\n{\n  \"weather\": [\"weather.your_weather_entity\"]\n}\n\n灯光\n{\n  \"lights\": {\n    \"living_room\": {\n      \"entity_id\": \"light.your_light_entity\",\n      \"name\": \"客厅灯\",\n      \"room\": \"living_room\"\n    }\n  }\n}\n\n传感器\n{\n  \"sensors\": [\n    {\n      \"id\": \"LIVING_ROOM\",\n      \"name\": \"客厅\",\n      \"sensors\": {\n    …",
           "link": "https://www.v2ex.com/t/1107168",
           "publishedOn": "2025-01-22T12:16:43.000Z",
-          "wordCount": 646,
+          "wordCount": 656,
           "title": "一个基于 React 和 Homeassitent 的智能家居控制面板，使用 Cursor 一周完成。",
           "imageUrl": null
         },
@@ -642,7 +636,7 @@
           "description": "SixGodHave7: \n开发灵感来源于被不死蜗牛永恒追杀与时间的可视化，欢迎交流\n慢吞吞 - Snail Timer 是一款专为提升工作效率而设计的 Google Chrome 扩展程序。通过其独特的可爱蜗牛动画，帮助用户在浏览非工作相关网站时保持专注。当用户访问非工作网站时，一只可爱的蜗牛会开始追逐用户，逐渐覆盖整个页面，直到用户返回工作状态。Snail Timer 支持自定义工作网站列表和倒计时设置，是一款轻量级且自动化的工具，旨在通过简单、有效的方式帮助用户提高专注力和生产力。无论是开发者、学生还是普通上班族，Snail Timer 都能通过其直观的视觉反馈和个性化设置，帮助用户养成良好的上网习惯，优化时间管理。\n简介:Snail Timer\ngoogle 插件直达:Snail Timer",
           "link": "https://www.v2ex.com/t/1107167",
           "publishedOn": "2025-01-22T12:14:19.000Z",
-          "wordCount": 382,
+          "wordCount": 369,
           "title": "开发了一款致力于提升注意力提升工作效率的免费谷歌插件",
           "imageUrl": null
         },
@@ -652,7 +646,7 @@
           "description": "saranz:",
           "link": "https://www.v2ex.com/t/1107166",
           "publishedOn": "2025-01-22T12:12:44.000Z",
-          "wordCount": 384,
+          "wordCount": 398,
           "title": "有没有适合中学生参加的游戏开发竟赛推荐？",
           "imageUrl": null
         },
@@ -662,7 +656,7 @@
           "description": "lixcc: \n今天看到飞牛 OS 出了虚拟机功能，打算买一个 N100 主机自己组建 NAS 玩 All in One 。想飞牛 OS+ikuai+openwrt ，问问大家下面的方案那种好一点。\n1.PVE 做底层虚拟化和硬件直通，装 ikuai+openwrt 和飞牛 OS 。\n2.飞牛 OS 做底层，利用他的虚拟机功能装 ikuai 和 openwrt 。",
           "link": "https://www.v2ex.com/t/1107165",
           "publishedOn": "2025-01-22T12:09:41.000Z",
-          "wordCount": 504,
+          "wordCount": 535,
           "title": "求助： NAS 虚拟化方案选择",
           "imageUrl": null
         }
