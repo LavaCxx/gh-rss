@@ -104,12 +104,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -157,6 +151,16 @@
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
       "articles": [
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周春节假期，周刊休息。）\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n香港历史建筑\"和昌大押\"，布置了一条盘旋两层楼的金蛇，迎接蛇年。（via）\n年底的未来已来\n大概两周前，我就在想，龙年的最后一期周刊，要写什么？\n正好这一个月，有很多新发明、新技术发布。我想到，可以把它们放在一起，作为下一年的展望。\n编辑过程中，它们勾起了我的一点回忆。\n十年前，我接了一个活，为北京的一家杂志写文章，向普通读者介绍技术的新进展，以此赚一点稿费。写久了，我就有一个感觉，技术进展太快了，快于所有人的预期。我明明写的是真实事件，但是很多时候像在写科幻小说。\n就是在那个时候，我开始意识到，那句有名的话是千真万确：\"未来已来，只是尚未流行\"。那些我们觉得很遥远、很科幻的事情，其实已经是活生生的现实，很快就会强烈地、不可避免地影响每个人的生活，可能是好的影响，也可能是不好的影响（技能过时了，行业消失了）。\n2017年，我把那些文章结集，起了一个书名《未来世界的幸存者》，表达我的这种想法，希望读者对即将到来的时代变革有所准备。\n十年后的今天，世界仿佛全然不同，我发现自己还在做同样的事情，还在介绍那些像科幻小说一样的真实技术。不同的是，我已经很明白了，为未来做准备，就是在为现在做准备，做一个未来世界的幸存者，就是做一个今日世界的幸存者。\n科技动态\n1、AI 陪护\n新加坡最近世界首个将 AI 引入了养老院，用来陪护老人。\n\n这个 AI 是一个女护士的样子，每天早上带领老人做早操、玩游戏、唱歌。\n她承担不了具体的医疗照护工作（比如喂饭打针），但是可以一天24小时，跟老人互动聊天，减少孤独感。\n\n她还会按时提醒老人吃药，一旦侦测到老人有异常，立刻发出警报。\n这是一…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html",
+          "publishedOn": "2025-01-24T00:06:14.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 335 期）：年底的未来已来",
+          "imageUrl": null
+        },
         {
           "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html",
           "author": null,
@@ -282,7 +286,7 @@
           "description": "trihuan: 十五分钟内都是神仙美女，一小时后都是普通美女。怎么破，有人有相同体验吗，这是防沉迷机制？",
           "link": "https://www.v2ex.com/t/1107463",
           "publishedOn": "2025-01-23T23:18:55.000Z",
-          "wordCount": 387,
+          "wordCount": 461,
           "title": "小红书刷的时间越长推荐内容质量越差",
           "imageUrl": null
         },
@@ -302,7 +306,7 @@
           "description": "iintothewind: \n昨天重刷 Breaking Bad,\n在第二季老白给学生上课的时候提到过 Synthetic Diamond 的技术发明人 H.Tracy.Hall.\n他的技术专利给 GE 公司带来了巨额的财富, 但 GE 公司只给了他 10 美元的 Saving Bond.\n老白讽刺到这就是\"a carbon-based life form being paid in a carbon paper certificate for his work with carbon.\"\n一个碳基生命因为碳方面的工作以碳纸证书的形式获取到了报酬.\n然后我就去 wikipedia 查了查这个人,\n果然老白所说的是真的,\n而且 Wikipedia 还特意加了一段是 Breaking Bad 提及到了他.",
           "link": "https://www.v2ex.com/t/1107461",
           "publishedOn": "2025-01-23T19:11:08.000Z",
-          "wordCount": 489,
+          "wordCount": 575,
           "title": "技术人员受到不公平待遇也不是国内独有的事情",
           "imageUrl": null
         },
@@ -312,7 +316,7 @@
           "description": "BNineCoding:",
           "link": "https://www.v2ex.com/t/1107459",
           "publishedOn": "2025-01-23T18:01:40.000Z",
-          "wordCount": 395,
+          "wordCount": 414,
           "title": "app store 现在充值 9 折优惠的活动能续费 688 开发者证书不？",
           "imageUrl": null
         },
@@ -322,7 +326,7 @@
           "description": "nanajj: \n比如怪猎荒野和文明 7 ，前作玩的时长还挺多的。\n玩文明 6 的时候应该还在上学，是个假期，在屋子里爆玩一百多个小时。怪猎前做崛起恰逢家里蹲，也是数百个小时玩的飞起。\n越来越难沉下心了玩游戏了。有可能一冲动就买了，然后吃灰。就像黑神话，是好玩，而且我也是从第一个视频起，持续关注到发售。可是前段时间项目一忙，玩了半截就吃灰，再也没兴趣打开了。再早以前还能三五好友一起开黑，比如 LOL 、 吃鸡、MMO ， 再后来还有一二朋友打打永劫之类的，到现在就只是自己大乱斗了。\n早几年有段时间，我一直是觉得是因为现在的游戏环境变了：MMO 没人玩了，大家都去玩手游了，RTS 不受欢迎了。 后来发现是自己的心态变了，不那么纯粹了。一段时间不玩游戏会突然间像被爪子挠一下，想玩点什么。打开游戏后，又尬在那里最后叉掉，陷入自我折磨。\n近段时间想通了，游戏，干就完了，当一个聪明的墨菲特。",
           "link": "https://www.v2ex.com/t/1107458",
           "publishedOn": "2025-01-23T17:22:36.000Z",
-          "wordCount": 406,
+          "wordCount": 536,
           "title": "25 年二月份似乎有不少游戏新续作",
           "imageUrl": null
         },
@@ -332,7 +336,7 @@
           "description": "PPPaul: \n大佬们，有没有什么提升开发生产力的订阅推荐啊，我 leader 让我每周抽出时间尝试一些新的生产力工具，但是我感觉 Cursor + GPT 已经解决我绝大多数问题了，有没有什么其他的推荐？ PS：Web 开发方面",
           "link": "https://www.v2ex.com/t/1107457",
           "publishedOn": "2025-01-23T17:19:40.000Z",
-          "wordCount": 409,
+          "wordCount": 429,
           "title": "有没有什么提升开发生产力的订阅推荐啊？ PS：已经有 GPT 和 Cursor 了",
           "imageUrl": null
         },
@@ -342,7 +346,7 @@
           "description": "oceaneleven: \n随便找一个小众博主做的读书栏目，单口或双口慢慢地讲，听着都比大热的霸榜的四字播客舒服\n有对耳朵友好的推荐吗，新闻读书电影类都行。自己在听的有联合早报东谈西论，the real story 報道者，全球串聯早安新聞，纵横四海，南洋杉 FM 。",
           "link": "https://www.v2ex.com/t/1107456",
           "publishedOn": "2025-01-23T17:03:37.000Z",
-          "wordCount": 360,
+          "wordCount": 380,
           "title": "那种没说几句就开始哈哈大笑的小圈子文化播客，为何受众一点不少？",
           "imageUrl": null
         },
@@ -352,7 +356,7 @@
           "description": "xinjiawei: \n目前只是疑似，不太好复现。\n博文\nhttps://blog.csdn.net/qq363685855/article/details/143089391 中这个老哥去年 10 月份发现的问题，有另外一名老哥在评论区说他最近 1 月 8 号发现的劫持问题。目前能确定的共同点是，都安装了 51la 统计代码，手机浏览器触发跳转。\n\n我是今天经朋友提醒才发现的问题：\n\n\n直接访问跳转地址，如果不加参数会跳到百度，应该是国人作恶了。\n如果各位在最近也有类似经历，欢迎交流！",
           "link": "https://www.v2ex.com/t/1107455",
           "publishedOn": "2025-01-23T16:51:04.000Z",
-          "wordCount": 444,
+          "wordCount": 442,
           "title": "51la 统计疑似又开始劫持跳转了",
           "imageUrl": null
         },
@@ -362,7 +366,7 @@
           "description": "xiao17174: \n不知道又是哪个插件或者软件搞的，但是这种行为实在是太过份了，为了保留现场我没有关掉。有没有人知道他是怎么做到的？\n几类尝试：\n长页面上下滚动它都固定在同一个位置\nF12 看不到没有任何布局痕迹\n可以确定不是植入到页面里的。我即使新建一个空的 empty.html ，打开这个悬浮窗还是在那里",
           "link": "https://www.v2ex.com/t/1107454",
           "publishedOn": "2025-01-23T16:20:57.000Z",
-          "wordCount": 458,
+          "wordCount": 486,
           "title": "求助，如何排查 chrome 被 360 劫持新姿势",
           "imageUrl": null
         },
@@ -372,7 +376,7 @@
           "description": "yuuluu: \n目前 mihomo party 开的是 tun 模式。\n路由器开的 UU 加速器的插件。\n这样 steam 客户端商店会报错 100 ，如果关闭 tun 模式，就能正常访问商店。\n这时候打开 mihomo 的系统代理可以访问 steam 商店。关掉代理打开 tun 也能访问。然后过了 15 分钟左右就又不能访问了。\n看了日志，走的都是 DIRECT 。不能访问时的日志如下：\n[TCP] dial DIRECT (match ProcessName/steamwebhelper.exe) 198.18.0.1:2043(steamwebhelper.exe) --> store.steampowered.com:443 error: connect failed: dial tcp 23.46.197.62:443: i/o timeout\n\n感觉是 DNS 设置的有问题，但不知道该怎么分析。",
           "link": "https://www.v2ex.com/t/1107453",
           "publishedOn": "2025-01-23T15:47:58.000Z",
-          "wordCount": 390,
+          "wordCount": 404,
           "title": "请教 UU 加速器路由器插件和 mihomo tun 模式该怎么兼容",
           "imageUrl": null
         },
@@ -392,7 +396,7 @@
           "description": "StarryLight: 最近打算新办一个手机号码，考虑到新手机号如何尽量避免被电话骚扰，垃圾短信。\n现在有情况是已经有一个长期使用的手机号，已经绑定了各种银行卡和 app 网站等。\n大家都有哪些践行的方法呢？",
           "link": "https://www.v2ex.com/t/1107451",
           "publishedOn": "2025-01-23T15:27:48.000Z",
-          "wordCount": 427,
+          "wordCount": 444,
           "title": "新号 新手机号如何尽量避免被电话骚扰",
           "imageUrl": null
         },
@@ -402,7 +406,7 @@
           "description": "qianchengv:",
           "link": "https://www.v2ex.com/t/1107450",
           "publishedOn": "2025-01-23T15:22:23.000Z",
-          "wordCount": 457,
+          "wordCount": 477,
           "title": "安卓手机二选一： iQOO z9 Turbo+ 和 vivo Y300 Pro 都是 16G+256 的选哪个？",
           "imageUrl": null
         },
@@ -412,7 +416,7 @@
           "description": "565656: 我去才发现啥软件都没开能刷",
           "link": "https://www.v2ex.com/t/1107449",
           "publishedOn": "2025-01-23T15:21:34.000Z",
-          "wordCount": 349,
+          "wordCount": 355,
           "title": "湖北电信可以直接访问 v2",
           "imageUrl": null
         },
@@ -422,7 +426,7 @@
           "description": "jukanntenn: \n图便宜双十一买了天翼云，本来想着跑个 frp 做下内网穿透，结果域名备案不在天翼云的 80 和 443 端口均不开放，我域名备案在阿里云，后来用腾讯云服务器跑 frp 了，一切正常，没有遇到上述限制。\n如果准备用来跑网站但有不想在天翼云备案的，慎买。",
           "link": "https://www.v2ex.com/t/1107448",
           "publishedOn": "2025-01-23T15:16:59.000Z",
-          "wordCount": 400,
+          "wordCount": 407,
           "title": "天翼云踩坑",
           "imageUrl": null
         },
@@ -432,7 +436,7 @@
           "description": "SugarLord: \n🦬起源\n3R 教室 TS 全栈开发课是一套由 3R 社区制作的 js/ts 全栈开发课程。从 2022 年，3R 教室开始推出《 react+nestjs 全栈开发最佳实战》开始到如今已经两年半的时间。而随着时间的推移，js/ts 方面的生态也在日新月异的变化中。由于 nestjs 太重、性能拉胯、不适合 node.js 后端开发风格以及生态老旧等原因，站长一直在寻找一款可以替代它的新的 node.js 框架。直到接触到 Hono.js ！\nhono.js 是一款基于 node.js 的新后端微框架。相对于 nestjs 有着大量的优势，比如性能更加优异、与 next.js 的 server action 天然整合(不需要像 nestjs 一样，通过 monorepo 去组织两者的代码)，原生支持 esm 规范等。而且 hono.js 是一款微框架，这就使得学习曲线更加平滑易用，这也是站长自营的 3R 工作室的诸多新外包项目的后端部分开始由 nestjs 转型 hono.js 的原因。\n而旧课程的前端部分，是围绕站长自行开发的一套名为 toomejs 的后台管理面板制作。但 react+vite 构建一个 spa 中后台的课程，对于想前端部分学习的同学显然已经没多大意义了（事实上，教室有相当一部分同学都是老 javaer 或者 go,python 等后端开发者，想转型成为全栈而学习前端目的购买的 3R 会员）。因为如今网络上充斥着各种还用开源的 react 中后台项目，基本可以拿来即用，根本没必要自己从零搭建一款后台面板。即使有需要了解这部分知识，也只是用于提升前端技能，而实际中大概率不会自己去专门浪费时间写一个后台面板并长期维护。另外，在 react 生态中，next.js 慢慢已经成为事实上的标准。next.js 支持对 seo 友好的 ssr…",
           "link": "https://www.v2ex.com/t/1107447",
           "publishedOn": "2025-01-23T15:14:49.000Z",
-          "wordCount": 797,
+          "wordCount": 799,
           "title": "[讨论] 2025 年告别 NestJS？ Hono.js 性能暴打 NestJS，为什么我们的新项目都转向了 Hono",
           "imageUrl": null
         },
@@ -452,7 +456,7 @@
           "description": "HKViolet: 家有廣州移動，到美國 AT&T 的時候基本上會繞香港出口走一圈到美國，這樣時延就遠比 ChinaNet 和聯通 169 高許多，而且據我所知 CMI 在北美跟 AT&T 基本上沒有互聯，需要經過香港出口跟 NTT 對接，而且電信的 ChinaNet 和聯通 169 基本上都在北美跟 AT&T 都有互聯，所以就不用繞一大圈去香港出口。\n感覺 CMI 在北美的上游只對接了 Cogentco 和 Lumen 這兩個 ISP ，其餘的話根本好像應該是沒有對接的。",
           "link": "https://www.v2ex.com/t/1107445",
           "publishedOn": "2025-01-23T15:01:28.000Z",
-          "wordCount": 482,
+          "wordCount": 494,
           "title": "移動基本上去北美都會繞香港走一圈",
           "imageUrl": null
         },
@@ -462,7 +466,7 @@
           "description": "jdrrragon: mac 如何在使用浏览器时让 command+w 失效\n或者让特定网页弹出关闭确认的提示框？\n经常多应用切换，一不小心就关闭了一个在线文档，重新打开耗时又麻烦",
           "link": "https://www.v2ex.com/t/1107444",
           "publishedOn": "2025-01-23T14:53:55.000Z",
-          "wordCount": 398,
+          "wordCount": 417,
           "title": "如何避免错手关闭网页",
           "imageUrl": null
         },
@@ -472,7 +476,7 @@
           "description": "mumuy: \n这是我迄今为止最成功的开源项目了，友友们可以看下还有啥可以改进的，或者哪些称谓没有收录哈！\nPS.小米 MIUI 系统中的亲戚计算器，用的就是本项目 2017 年初的版本\n🔗链接\n演示地址：https://passer-by.com/relationship/\n源码仓库：https://github.com/mumuy/relationship\n📜介绍\n“中国亲戚关系计算器”为你避免了叫错、不会叫亲戚的尴尬，收录了中国亲戚关系称呼大全，只需简单的输入即可完成称呼计算。称呼计算器同时兼容了不同地域的方言叫法，你可以称呼父亲为：“老爸”、“爹地”、“老爷子”等等。让您准确的叫出亲戚称谓，理清亲属之间的亲戚关系，轻松掌握中国式的亲戚关系换算，让你更了解中国文化。\n功能支持：\n通过亲戚的关系链计算亲戚称谓；\n通过亲戚称呼寻找对应关系；\n计算两个亲戚之间的对称及合称",
           "link": "https://www.v2ex.com/t/1107443",
           "publishedOn": "2025-01-23T14:46:29.000Z",
-          "wordCount": 423,
+          "wordCount": 486,
           "title": "马上就要过年了！不得不展示下我的开源项目",
           "imageUrl": null
         },
@@ -522,7 +526,7 @@
           "description": "iovekkk: 果然游戏就是可以如此简单的让人快乐\n虽然两者在金钱上毫无可比性\n祝愿各位 2025 年都能少一些郁闷和烦恼，多一些简单的快乐",
           "link": "https://www.v2ex.com/t/1107438",
           "publishedOn": "2025-01-23T14:21:04.000Z",
-          "wordCount": 335,
+          "wordCount": 342,
           "title": "得知年终绩效被扣郁闷了一下午，晚上打游戏抽卡出了双金又开心了一晚上",
           "imageUrl": null
         },
@@ -542,7 +546,7 @@
           "description": "YaakovZiv: \n下班路上，骑电驴正常绿灯走，因为路口经常有闯红灯的，特意等了大概三秒确认没车走灯尾，快过去路口，发现有个闯红灯的，直冲我的电驴而来，我一个甩尾拦住对方就开始输出，对方风挡+粉红头盔+围巾+闯红灯，简直拉满了我对闯红灯人群的定位点，输出完，估计她没反应过来，但是我第一时间发现，对方的衣服和包，好像是我上级单位领导，还是主管一个和我工作有点关联的业务，估计是我穿的护具太多，对方没看出我是谁，我直接骑电驴开溜。也不知道后续接触到会不会被认出来。 \n回想这种尴尬，上次还是直接怼了我直属领导的直属领导。是因为那个大婶骑电驴走 S ，我当时心里一团莫名的火，下班这么堵车，一个电驴走 S 弯挡一群人，直接一个甩尾给她逼停路边，她也是没认出我，估计是我护具防护的过于严密，我在和她争吵了一分钟后，我发现，她眼角有个特征很像大领导，最后也是我骑电驴开溜。有次午饭同事和我讲，领导因为路上被路人骑电驴骂了，改为开车或者坐车上班，不敢骑电驴了。从领导在办公室反应看，可能是没认出我。但是从时间上预估，同事说的那个路人，大概率是我。",
           "link": "https://www.v2ex.com/t/1107435",
           "publishedOn": "2025-01-23T14:10:24.000Z",
-          "wordCount": 396,
+          "wordCount": 450,
           "title": "尴尬的正义感，我好像班后戾气变重了",
           "imageUrl": null
         },
@@ -552,7 +556,7 @@
           "description": "albin504: \n公司有一些虚拟商品，计划接入 Google Pay ，看了官方文档，文档描述的都是安卓、js 如何接入，没找到服务端相关对接流程。\n用户完成支付后，google js api 会返回 token 信息，官方说，接着把这个信息传递给支付网关（如 paypal ）。\n那么，接下来到底服务端该如何做呢？\n如何传递给支付网关，传递之后如何完成剩下的流程？\n能不能不使用支付网关？  这里收到 token 之后，直接传递给自己的服务端，服务端根据 token 判断交易是否成功，然后修改订单状态之类的。\n真是头大，看了半个小时不知道该如何办。\npaymentsClient.loadPaymentData(paymentDataRequest).then(function(paymentData){\n  // if using gateway tokenization, pass this token without modification\n  paymentToken = paymentData.paymentMethodData.tokenizationData.token;\n}).catch(function(err){\n  // show error in developer console for debugging\n  console.error(err);\n});",
           "link": "https://www.v2ex.com/t/1107434",
           "publishedOn": "2025-01-23T14:09:14.000Z",
-          "wordCount": 454,
+          "wordCount": 461,
           "title": "请教下 google Pay 接入流程",
           "imageUrl": null
         },
@@ -562,7 +566,7 @@
           "description": "xqher042: \n因为绘制的微信表情包有一定的发送量，微信奖励了一些红包封面。于是用 ai 生成了一些个人感觉还不错的封面分享给大家。\n\n\n因为红包封面同时只能有三个处于审核中，所以当前只有以下三款封面，另外两份封面在审核成功后会即时更新发布，到时候可通过微信红包封面专区搜索「虚青海」领取。\n\n领取方式\n截止时间为 2025-02-12\n只能使用手机微信领取，领取方式包括以下渠道：\n通过表情包页领取红包\n\n可通过「手机扫码」和「手机微信点击链接」进入表情包页面获取。\n领取时选择发送同款给好友\n\n[通用] 红包专区搜索\n\n发红包时点击红包封面->点击领封面->搜索「虚青海」以获取封面\n因为发送数量限制，待审核的后两个封面需要通过该方式才能获取\n围巾猫\n\nhttps://w.url.cn/s/ArTmKWF#wechat_redirect\n油画猫\n\nhttps://w.url.cn/s/ANofr63#wechat_redirect\n折纸猫\n\nhttps://w.url.cn/s/AE770LJ#wechat_redirect",
           "link": "https://www.v2ex.com/t/1107431",
           "publishedOn": "2025-01-23T13:35:54.000Z",
-          "wordCount": 420,
+          "wordCount": 430,
           "title": "分享一些猫猫主题的微信红包封面",
           "imageUrl": null
         },
@@ -572,7 +576,7 @@
           "description": "Ccf: 系统 ros7.17 ，nas 系统 windows server 2022 ，一般通过 mac 或者手机远程桌面连一下。大多数情况下，就是作为媒体库和 pt 挂机。这台机子是通过一个小交换机 gs108t 直接连主路由的。\n困扰我的问题是，这台 nas 偶尔会出现掉线，ping 不通，远程桌面连不上，只能断电解决。后来在后面插了诱骗器防止它进入休眠啥的唤醒不了。现在又出现了。。。。\n怎么排除问题，有没有好的办法让它即使网络不通的情况下，也能在局域网的机子上远程桌面控制它？关机重启啥的。",
           "link": "https://www.v2ex.com/t/1107430",
           "publishedOn": "2025-01-23T13:28:12.000Z",
-          "wordCount": 549,
+          "wordCount": 575,
           "title": "有没有好的方法确保局域网下一台 windows 即使网络不通也能从远程桌面加以控制？",
           "imageUrl": null
         },
@@ -582,7 +586,7 @@
           "description": "SeleiXi: \n目前想到的方案\nRedis List ，每个 element 对应一个 Hash Map\n一个用 sync.RWMutex 实现共享锁的队列，每个 element 储存一个 Hash Map\n但这两个还是得用 O(n)的时间复杂度去遍历，才能知道前面有多少个元素\n[]{\n    {\"12345\": true},\n    {\"23561\": false},\n    {\"23562\": false},\n}\n\n补充：业务场景储存的键本来就是有序的，且与创建时间相关。而值是一个 bool 值。感觉性能优化的难点还是在需要知道前面还有多少个键值对是先于他创建且没有被删除的，Redis List 的索引不会动态更新，因此没法在前面有成员被删除后知道前面实际还有多少个成员",
           "link": "https://www.v2ex.com/t/1107429",
           "publishedOn": "2025-01-23T13:21:05.000Z",
-          "wordCount": 589,
+          "wordCount": 607,
           "title": "高并发场景下需要实现一个被频繁查询，读多写少的键值对（需要用键查询对应的值 & 知道前面还有多少个键值对是先于他创建且没有被删除的 ，所以数据结构需要是有...",
           "imageUrl": null
         },
@@ -602,7 +606,7 @@
           "description": "syh2: \n如题，本人现在三线城市，母公司准备倒闭，现在想寻求新的机会\n因为地方不是很大，所以工作机会不是很多。\n加上老婆怀孕，所以短时间内不想去太远的地方\n所以请教一下 v 友们，如果我做自由职业、独立开发、远程工作应该怎么购买社保？\n是需要找公司挂靠么，如果挂靠的话一般是怎么样的收费。\n因为人在国内，有缴纳社保、医保的话小朋友打预防针、看病各方面还是好一些，所以不想断缴\n还请 v 友们指点一下。\n或者二三线有什么可以搞钱的，我也持开放态度，谢谢各位🙏",
           "link": "https://www.v2ex.com/t/1107426",
           "publishedOn": "2025-01-23T13:13:16.000Z",
-          "wordCount": 454,
+          "wordCount": 456,
           "title": "想问问自由职业、独立开发和远程工作者们怎么购买社保",
           "imageUrl": null
         },
@@ -622,7 +626,7 @@
           "description": "asd999cxcx: 这框架感觉奇奇怪怪的。本来打算尝试学习下 angluar 项目，跟着官方文档创建了一个项目，同时新增了一个 login 组件，改成模块化之后就不停报错，这个怎么解决的？\n这些是我的代码\nhttps://img520.com/vSoqyj.png\nhttps://img520.com/hztgXV.png\nhttps://img520.com/hKH6t2.png\nhttps://img520.com/0IMba4.png\nhttps://img520.com/YWdsxT.png\nhttps://img520.com/7wacem.png\n下面是项目启动报错\nhttps://img520.com/690GUn.png",
           "link": "https://www.v2ex.com/t/1107424",
           "publishedOn": "2025-01-23T12:53:32.000Z",
-          "wordCount": 404,
+          "wordCount": 405,
           "title": "Angular 项目上手失败....",
           "imageUrl": null
         },
@@ -632,7 +636,7 @@
           "description": "jiuzhougege: 我自己开发一个水木社区 app 客户端，app 会用 WebView 打开水木登录页，用户输入用户名密码点击登录后弹出验证条，点击验证条后登录成功，app 获取到 cookie 后保存起来，后续用这个 cookie 请求帖子列表，帖子详情等接口，后续包括发帖，回帖等都需要重新唤起验证码页面，点击验证码后才能发帖，回帖，但是苹果的审核人员（在国外，而且大概率用的 vpn ）他访问不到这个验证码系统( https://gcaptcha4.geetest.com)，验证码系统服务器 ip 在国内，国外访问超时严重到无法使用，导致苹果审核人员无法审核，这个 app 也就无法上架，有什么好办法吗？",
           "link": "https://www.v2ex.com/t/1107421",
           "publishedOn": "2025-01-23T11:42:02.000Z",
-          "wordCount": 417,
+          "wordCount": 424,
           "title": "[求助] 一个关于 app 上架 app store 审核的问题",
           "imageUrl": null
         },
@@ -642,7 +646,7 @@
           "description": "shinsekai: \n这里说的禁止截屏是指无论在应用内还是近期任务的缩略图都截不了的。如果能做到截屏不通知 app 就更好了",
           "link": "https://www.v2ex.com/t/1107420",
           "publishedOn": "2025-01-23T11:35:56.000Z",
-          "wordCount": 367,
+          "wordCount": 382,
           "title": "iOS 有巨魔能否绕过禁止截屏",
           "imageUrl": null
         },
@@ -672,7 +676,7 @@
           "description": "xiyy02: RT ，最近陆陆续续毕业了一些人，有个合作的很好的人也走了，原因据说是他老板觉得他除了业务产出以外没有任何有价值的产出，就给开了\n感慨一下，现在已经卷到踏踏实实干活都要被末位淘汰掉的地步了吗，就在职期间不仅要加班赶进度，要协调各种乱七八糟的资源，还要不断整花活让公司看到你的特殊价值，不然就要被淘汰",
           "link": "https://www.v2ex.com/t/1107417",
           "publishedOn": "2025-01-23T11:12:07.000Z",
-          "wordCount": 496,
+          "wordCount": 530,
           "title": "绩效考核时问：你觉得你做的最成功的是什么？收获最大的是什么？这种逼问题怎么回答？",
           "imageUrl": null
         },
