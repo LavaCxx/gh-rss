@@ -292,7 +292,7 @@
           "description": "starkmk: \n这篇是开篇前言了，后面陆续更新。\nhttps://mp.weixin.qq.com/s/RCnfPNvhTYW9z6jySpyN-w\n简单介绍自己：\n22 年 5 月 All in Web3.\n运气好拿了 20+web3 黑客松奖（搞了 10 几个 PoC ，落地了 5-6 个 MVP ，现在上线 3 个）\n*写书是为了获得流量，并且为我的《 Web3 的字节跳动》模式的孵化器做流量运营\n*这个书主要做普及科普入门实战性质，不是写很深的概念，为了尽可能让书的受众更广的思路写\n后面会连续出一系列书，其实是我的《从零到市场》这本书做了拆分写的\n关注我的 X： https://x.com/StarkEVM99\n公众号 1：Web3HackerWorld\n公众号 2：HelloRWA",
           "link": "https://www.v2ex.com/t/1107511",
           "publishedOn": "2025-01-24T02:40:50.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "写了第一本书：《保姆级区块链入门实战课程》，本篇是前言部分，后面陆续更新",
           "imageUrl": null
         },
@@ -302,7 +302,7 @@
           "description": "xingye163: 用了黑群晖几年了，出现过几次硬盘警告严重的情况，前后换了 3 个硬盘了，每次都是重启后出现的问题，之前因为停电，或者可能是蜗牛星际的背板掉盘的问题，也没怎么在意，换了个背板，加了个 UPS ，但是最近又一个硬盘出现这个情况了，此前出现过严重状态的硬盘我拆了放电脑里当临时下载盘，也用了快 2 年了，中间重装系统折腾什么的很久也没出现什么毛病，但是插回群晖就是严重警告，无法添加硬盘。因为群晖里面也没存什么重要资料，都是些电影什么的，丢了也不要紧，想问问大家这种情况怎么处理，用群晖的 SecureErase 工具扫了两三次也无用。",
           "link": "https://www.v2ex.com/t/1107510",
           "publishedOn": "2025-01-24T02:39:09.000Z",
-          "wordCount": 402,
+          "wordCount": 408,
           "title": "群晖硬盘状态为严重，怎么修复？",
           "imageUrl": null
         },
@@ -312,7 +312,7 @@
           "description": "RainZack: \n前几天俺去联通营业厅办了张新卡当作流量卡，结果这两天时不时收到 500\\1000 支出的微信支付验证码；\n->尝试用这个号登录了下微信，发现需要密码\n->应该是注册过微信号的，但是用手机号搜索朋友显示未找到\n->给微信客服反馈了，目前未回应\n请教下大佬们，以上情况下，这张卡继续使用会有问题吗？安全考虑接下来该怎么操作，是否要去找联通换卡？",
           "link": "https://www.v2ex.com/t/1107509",
           "publishedOn": "2025-01-24T02:36:05.000Z",
-          "wordCount": 386,
+          "wordCount": 403,
           "title": "新手机号，但是收到了微信支付验证码？",
           "imageUrl": null
         },
@@ -322,7 +322,7 @@
           "description": "CareiOS: \n今天想爬点 nytimes 的新闻来看，爬这个地址的时候，每条消息的 date 爬取不到。\nhttps://www.nytimes.com/section/politics\n我加了 scrapy-playwright 还是一样的。求爬虫大声指点一下。\n这是爬虫代码\nimport scrapy\n\nfrom my_spider.items import MySpiderItem\n\nclass Mypider(scrapy.Spider):\n    name = \"myspider\"\n    allowed_domains = [\"nytimes.com\"]\n    start_urls = [\"https://www.nytimes.com/section/politics\"]\n\n    def start_requests(self):\n        for url in self.start_urls:\n            # 使用 PlaywrightRequest 来加载动态内容\n            # GET request\n            yield scrapy.Request(url, meta={\"playwright\": True})\n            # POST request\n            yield scrapy.FormRequest(\n                url=\"https://httpbin.org/post\",\n                formdata={\"foo\": \"bar\"},\n                meta={\"playwright\": True},\n            )\n\n    def parse(self, response):\n        for article in response.css('.css-18yolpw'):\n            item = MySpiderItem()\n            item[\"title\"] = article.css('div:nth-child(1) > article:nth-child(1) > a:nth-child(2) > h3:nth-child(1)::text').get()\n            t = article.xpath('div/article/a/h3/text()').get() \n            item[\"date\"] = article.css('div:nth-child(1) > div:nth-child(2) > span:nth-child(1)::text').get()\n            d = article.xpath('div/div/span/text()').get()\n            item[\"url\"] = response.urljoin(article.css('div:nth-child(1) > article:nth-child(1) > a:nth-child(2)::attr(href)').get())\n            item[\"claim\"] = article.css('div:nth-child(1) > article:nth-child(1) > p:nth-child(3)::text').get()\n            item[\"rating\"] = \"True\"\n            item[\"site\"] = \"NYTimes\"\n            item[\"tag\"] = \"NYTimes\"\n            yield item\n\nd 的值都是\"\\u00a0\"",
           "link": "https://www.v2ex.com/t/1107508",
           "publishedOn": "2025-01-24T02:34:44.000Z",
-          "wordCount": 507,
+          "wordCount": 509,
           "title": "[求助] 使用 scrapy 爬 nytimes, html 中时间的值总是错误的",
           "imageUrl": null
         },
@@ -342,7 +342,7 @@
           "description": "quqivo:",
           "link": "https://www.v2ex.com/t/1107506",
           "publishedOn": "2025-01-24T02:33:06.000Z",
-          "wordCount": 385,
+          "wordCount": 397,
           "title": "做梦梦到 v2 删帖需要花费自己的银币",
           "imageUrl": null
         },
@@ -352,7 +352,7 @@
           "description": "ZGame: \n滴滴",
           "link": "https://www.v2ex.com/t/1107505",
           "publishedOn": "2025-01-24T02:31:02.000Z",
-          "wordCount": 508,
+          "wordCount": 537,
           "title": "想组一个游戏群 steam 的,主要是吹水的, 有兴趣的发 wx,我加好友到时候一起组下,到时候",
           "imageUrl": null
         },
@@ -362,7 +362,7 @@
           "description": "ahz549467483: \n准备搞个 nas ，用来存储小孩子的视频和照片，解放手机内存，同时搞个 4k 视频存储，平时消遣下，有没有推荐的，本人比较追求性价比",
           "link": "https://www.v2ex.com/t/1107504",
           "publishedOn": "2025-01-24T02:30:25.000Z",
-          "wordCount": 628,
+          "wordCount": 657,
           "title": "nas 推荐",
           "imageUrl": null
         },
@@ -382,7 +382,7 @@
           "description": "automationIan: 包含 .NET Core,.NET 6 7 8 9 等框架\n其他中间件等\n可以包含电商，上位机，RPA 及其他互联网行业",
           "link": "https://www.v2ex.com/t/1107502",
           "publishedOn": "2025-01-24T02:25:46.000Z",
-          "wordCount": 431,
+          "wordCount": 474,
           "title": "大佬们，一人来一道.NET 面试题，准备年后跳槽",
           "imageUrl": null
         },
@@ -392,7 +392,7 @@
           "description": "moyt: \n之前发了个做饭的帖子，https://www.v2ex.com/t/1093010 ，发现好多兄弟也做饭，但是不少人反应刀工不行，我刀工也不太行，只能切个片，切丝就顶不住了，最近入了一款擦丝器，太好用了，擦出来的跟刀切基本没区别,附上实战效果 https://imgur.com/a/K7BCn0Q ，用的时候一定要集中注意力，这玩意比菜刀切手可快太多了，害怕的兄弟可以去买个防割手套。\n工具名称：龙江擦丝器，几个购物平台都有，随便一搜一大把",
           "link": "https://www.v2ex.com/t/1107501",
           "publishedOn": "2025-01-24T02:17:35.000Z",
-          "wordCount": 548,
+          "wordCount": 556,
           "title": "给经常做饭的兄弟推荐一个懒人厨具，亲测，真好用",
           "imageUrl": null
         },
@@ -402,7 +402,7 @@
           "description": "notifier: \n单位 WiFi 有审计，不太适合长期用，打算搞个 5G 随身 WiFi 摸鱼用。\n求推荐一款 5G 的设备，能自己插卡的，续航好些。\n另外，有没有量大管饱经济实惠的 5G 流量卡推荐？",
           "link": "https://www.v2ex.com/t/1107500",
           "publishedOn": "2025-01-24T02:16:48.000Z",
-          "wordCount": 413,
+          "wordCount": 435,
           "title": "求推荐一款好用的 5G 随身 WiFi",
           "imageUrl": null
         },
@@ -412,7 +412,7 @@
           "description": "Richared: \n不需要国外手机号，我验证成功，看 x 的评论应该是都能成功\n升级最新版微信 8.0.56\n拿到 Live  kit ，可以反馈获取，我是根据酷安一个大哥的操作，先切到小号，给大号打语音，然后悬浮窗切到大号，接听，卡住了，然后挂掉就有了，不需要反馈，百分百成功，不知道这位大哥是怎么发现的\n使用爱思助手把微信降级成 8.0.54,我感觉爱思上应该是国际包包含 callkit 模块，而且 Livekit 和 callkit 使用的同一种判断条件\n附上 x 的链接，可以自己去看一下\nhttps://x.com/abskoop/status/1882441152349241495",
           "link": "https://www.v2ex.com/t/1107499",
           "publishedOn": "2025-01-24T02:09:55.000Z",
-          "wordCount": 688,
+          "wordCount": 697,
           "title": "在 X 上发现一个能开启真正 callkit 的方法",
           "imageUrl": null
         },
@@ -422,7 +422,7 @@
           "description": "kcerty: \n记录一下今年工作的最后一天，已经想好回去后要怎么玩了，有点小兴奋，无心工作。",
           "link": "https://www.v2ex.com/t/1107498",
           "publishedOn": "2025-01-24T02:09:35.000Z",
-          "wordCount": 414,
+          "wordCount": 416,
           "title": "今年工作的最后一天",
           "imageUrl": null
         },
@@ -432,7 +432,7 @@
           "description": "NewConn: \n威联通的系统好卡啊，请问有什么解决办法吗？比如装 TrueNAS 或者黑群晖？稳定性怎么样？正版威联通到第三方系统划算吗？\n目前在威联通是静态卷，这种底层是 lvm 吗？我想知道硬盘能被群晖或者 TrueNAS 直接读取吗？实在没有别的硬盘可以用来迁移",
           "link": "https://www.v2ex.com/t/1107496",
           "publishedOn": "2025-01-24T02:06:01.000Z",
-          "wordCount": 454,
+          "wordCount": 456,
           "title": "威联通 464C 好卡啊，求解决方案",
           "imageUrl": null
         },
@@ -442,7 +442,7 @@
           "description": "ccsulzf0627: \n背景：\n不知道有没有朋友也喜欢看大刘便利店和勇哥说餐饮。我有时候看到很多人开店前过于冲动，连基本的数据都没搞清楚。所以我打算做一个工具小程序，帮助大家在开店之前大致算算初始投入和盈亏平衡点，做到心中有数，这是我写这个小程序的初衷\n这个小程序能做什么\n填写开店数据，分析开店数据：用户首先填写铺面信息、一次性投入、员工投入以及大致的经营规划数据，系统会根据这些数据计算开店的相关信息，并提供明细和分析。明细部分让用户了解开店的各项数据，确保没有遗漏，分析部分则帮助计算一次性投入、每月固定成本、毛利和利润、回本周期及盈亏平衡点等。\n常用工具：常用工具目前还很少哈，只有阶梯抽成计算器（适用于瑞幸咖啡和库迪咖啡等阶梯抽成模式）和分红计算器（例如米村拌饭采用分红模式）。\nCoze AI 大模型的工作流：虽然预设了一些数据，但填写过程依然有些繁琐，尤其是很多人对开店的具体细节不太了解。coze 也出来，所以也玩了一下 coze 的工作流，用户只需告知想开什么店或想在哪个地方开店，系统就能提供一个大致的方案，用户可以在此基础上进行修改，简化操作，提高效率。\n我觉得这个小程序有啥缺点\n数据是保存在本地的，后期打算接入微信的云开发，好像云开发降价了，只要 19.9 一个月了\n虽然接入了 COZE ，但是提示工程做的并不好，需要优化，已经在学习大神吴恩达的提示工程课，也关注一下 deepseek ，大家啥推荐的学习课程，我觉得调教 AI 模型，有时候真的像是在开盲盒\n界面还是不好看，一股子程序员味，UI 和交互做的都不好，这个只能借鉴慢慢优化了\n技术\n目前是用的 uni-app，vue3+ts，tailwindcss，pinia，这一套开发下来，挺舒服的，然后效率还算高，UI 框架只用了 uni-app 自带的组件\n说一下整体感受：\nHbuilder uni-app 开发遇到的几个问题\n编辑器有时候不灵敏，就是我更新了文件，但是编译出来还是旧的，有时候总要手工触发重新编辑一下，虽然频率不高，但是也很苦恼\n对 typescript 的支持不是那么好，每次都要重新打开 HBuilder\n插件没有 vscode 那么多，后期还是打算用 vscode 开发算了\n开发过程中遇到的一些问题：\n微信小程序生成图片进行分享：\n之前我们都是使用的 wxDraw ，一个轻量的小程序 canvas 动画库，但是针对动态数据不行，不好用\n了解到工具 Painter ，定义一套 JSON 规范，然后画出 canvas ，如果是固定的数据，我觉得这个工具应该是很好用的，因为给出了一个在线的设计工具，导出 JSON 就可以用了，比自己画还是要强大很多，但是还是没看到动态数据的解决方案。\n最后还是使用了官方的 wxml-to-canvas ，用下来还不错，wxml 来写布局，styles 来写样式，结合起来生成 canvas ，就是调试比较繁琐，坑的话也不多，可以自己进行源码改造\ncoze 的工作流调用：\n这个就很简单了，就是跟着官方示例，用 api 进行调用即可，就是 tokens 消耗起比较多啊，感觉 AI 大模型以后会慢慢变成水电网一样的基建设施了，推荐大家都去玩一玩。\n请教\n大家看看我这个小程序还缺点啥，或者还有什么需要优化的，建议和批评都接受，工具类大家有没有需要添加的\n最后\n大家如果有 taro 和 uni-app 的小程序开发兼职可以找我\n想玩一下 coze 的可以找我，coze 稍微踩了一两个坑\nvx(base64)：aGV5MTQ3MjI1OA== \n小程序名 - 开店算一算\n小程序码如下",
           "link": "https://www.v2ex.com/t/1107495",
           "publishedOn": "2025-01-24T02:05:38.000Z",
-          "wordCount": 432,
+          "wordCount": 453,
           "title": "兄弟们，玩了一下 uni-app 和 coze，做了个小程序",
           "imageUrl": null
         },
@@ -462,7 +462,7 @@
           "description": "terrysnake: 利用业余时间做了 iOS 开发，账号里绑的是国内银行卡，人也在国内。\n如果有收入的话（希望有，哈哈哈），打到我卡里的钱，还需要交税吗？还是“苹果税”就已经包含了？\n另外，15% 的苹果税怎么申请呢？\n感谢。",
           "link": "https://www.v2ex.com/t/1107493",
           "publishedOn": "2025-01-24T02:03:55.000Z",
-          "wordCount": 455,
+          "wordCount": 461,
           "title": "iOS 独立开发，收入还需要交税吗？",
           "imageUrl": null
         },
@@ -482,7 +482,7 @@
           "description": "privatekm: \n8 天假期可以好好休息一下，回老家田地里逛逛去班味，找我的好朋友。\n正月初二跟爱人去看烟花晚会。",
           "link": "https://www.v2ex.com/t/1107491",
           "publishedOn": "2025-01-24T02:00:07.000Z",
-          "wordCount": 435,
+          "wordCount": 437,
           "title": "春节值得让我愉快的一些事情",
           "imageUrl": null
         },
@@ -512,7 +512,7 @@
           "description": "paranoia: \n迫于自己现在用的 k860 要送人，自己要换个键盘。\n之前用的 k860 挺好，有点好奇有没有能平替这个的其他品牌的键盘\n需求如下：\n全尺寸键盘。（不是全尺寸也能接受，主要是方向键还有小数字键盘用习惯了）\nmac 键位布局，特别是 cmd 和 x 对齐。\n人体工学，带腕托最好，因为习惯了 k860 的腕托抬高，整个手都可以搭在键盘上无需悬空。\n价位 1000 以内为佳，可以略微升高。\n没有机械键盘需求，没有改键映射需求。\n还望各位吴彦祖不吝赐教哈。",
           "link": "https://www.v2ex.com/t/1107488",
           "publishedOn": "2025-01-24T01:54:49.000Z",
-          "wordCount": 441,
+          "wordCount": 443,
           "title": "求推荐一个好用的人体工学， mac 键盘布局的键盘。码代码用",
           "imageUrl": null
         },
@@ -532,7 +532,7 @@
           "description": "zhaojiaxing: \n像群晖、极空间、飞牛这种，会不会后台偷跑呢？",
           "link": "https://www.v2ex.com/t/1107486",
           "publishedOn": "2025-01-24T01:51:55.000Z",
-          "wordCount": 644,
+          "wordCount": 674,
           "title": "突然想到一个问题，自建 NAS 也要走第三方的系统，是否也会有隐私问题?",
           "imageUrl": null
         },
@@ -542,7 +542,7 @@
           "description": "pomelo11: \n2 年运维和 2 年实施经验，欢迎大佬们来提问、交流~",
           "link": "https://www.v2ex.com/t/1107485",
           "publishedOn": "2025-01-24T01:42:40.000Z",
-          "wordCount": 846,
+          "wordCount": 911,
           "title": "大佬们，一人出一道运维面试题，年后准备跳槽",
           "imageUrl": null
         },
@@ -552,7 +552,7 @@
           "description": "MrBrand: \n我的 ubantu 服务器是不是被人植入了恶意代码。。。。\n我上面只跑了我的博客，都是 nodejs ，nginx ，mysql 和 Let's Encrypt 证书管理，没有跑过其他服务。",
           "link": "https://www.v2ex.com/t/1107484",
           "publishedOn": "2025-01-24T01:40:29.000Z",
-          "wordCount": 526,
+          "wordCount": 515,
           "title": "我的 ubantu 服务器是不是被人植入了恶意代码了",
           "imageUrl": null
         },
@@ -562,7 +562,7 @@
           "description": "finab: 域名是 api.day.app\n不是简单的被墙了，情况有点奇怪。\n首先域名解析是正常，证明没有 DNS 污染\n直接访问 IP 正常的，证明 IP 没被封\n域名解析到另外一个 IP 访问正常，证明域名没被封\n但是域名解析到现在这个 IP ，请求就 Connection reset by peer 了\n只有杭州和宁波的移动网络存在这个问题，已经找腾讯云，腾讯云找了浙江移动运营商，反馈没有任何封禁。\n感觉能阻塞请求的部门太特么多了，不知道该找谁，有没有彦祖能提供点思路？",
           "link": "https://www.v2ex.com/t/1107483",
           "publishedOn": "2025-01-24T01:31:12.000Z",
-          "wordCount": 589,
+          "wordCount": 605,
           "title": "域名在杭州移动无法访问，有谁知道这种情况应该去哪申诉吗？",
           "imageUrl": null
         },
@@ -582,7 +582,7 @@
           "description": "Renco: \n跑路是肯定的，这公司没有薪资涨幅，并且福利一年比一年少，今年过节费和年终奖全部没了，节假日福利也全取消了，若不是找不到下家，早润了。\n要放假的年前，就昨天，本来开开心心准备过年，愣是开会讲了这一坨沟槽的操作。属于是人情味也给不上，福利待遇也给不了了。\n和软件部门领导八卦过了，大概率明年公司准备恶心我们一手，指通过变相考核或者降薪，来达到裁员目的（不补偿）。因此各位遇到这样的情况有没有比较好的维权手段。\n本人工作一直都是有做文档留存的，所以从工作量不饱和和工作时长不够这点来说，我有充分的办法证明我的工作量能够达标。其他的就不知道该咋弄了。",
           "link": "https://www.v2ex.com/t/1107480",
           "publishedOn": "2025-01-24T01:23:16.000Z",
-          "wordCount": 596,
+          "wordCount": 609,
           "title": "公司业务不行，接不到需求，觉得软件部门多余， 25 年准备 《降本增效》，有什么保护自己权益的方法提前做好防御吗。",
           "imageUrl": null
         },
@@ -612,7 +612,7 @@
           "description": "cat: 在选红包封面的界面，可以创建自己的封面，随便传自己的图",
           "link": "https://www.v2ex.com/t/1107475",
           "publishedOn": "2025-01-24T01:08:07.000Z",
-          "wordCount": 734,
+          "wordCount": 757,
           "title": "微信可以创建自己的红包封面了（个人）",
           "imageUrl": null
         },
@@ -622,7 +622,7 @@
           "description": "grei0814: \n机票退了，还是国内待吧，原计划带孩子出去遛一遛，各种担忧有点点后怕了",
           "link": "https://www.v2ex.com/t/1107473",
           "publishedOn": "2025-01-24T00:58:57.000Z",
-          "wordCount": 810,
+          "wordCount": 115,
           "title": "今年过年出国游还是算了吧",
           "imageUrl": null
         },
@@ -632,7 +632,7 @@
           "description": "anonymity: X86 软路由\n运营商给了两个 IPv4 ，一个独享 IPv4 一个 240 端口共享 IPv4\nmwan3 让 NAS 出口走独享 IP 。发现 qbittorrent 跑起来之后其他设备出现丢包现象\n此时路由器显示连接数大概 3000 多",
           "link": "https://www.v2ex.com/t/1107472",
           "publishedOn": "2025-01-24T00:56:17.000Z",
-          "wordCount": 409,
+          "wordCount": 431,
           "title": "有独享公网 IPv4 也会被限制连接数吗？",
           "imageUrl": null
         },
@@ -642,7 +642,7 @@
           "description": "kisshere:",
           "link": "https://www.v2ex.com/t/1107470",
           "publishedOn": "2025-01-24T00:50:50.000Z",
-          "wordCount": 635,
+          "wordCount": 676,
           "title": "截止 2025 年 1 月，有什么大流量且便宜的纯流量卡推荐？",
           "imageUrl": null
         },
@@ -652,7 +652,7 @@
           "description": "zealer8: 家用电脑台式机 win1123H2 ，\n有时候只是短暂的离开几个小时，因为开着不少东西不想关机，就直接离开电脑了，\n结果现在就是永不熄屏，可是我已经在控制面板里设置了 10 分钟自动熄屏，我怀疑是某个软件干涉了我的电脑休眠时间\n但是怎么找都找不到那个软件，有什么方式可以查出是哪个软件干涉了我的屏幕休眠时间吗",
           "link": "https://www.v2ex.com/t/1107469",
           "publishedOn": "2025-01-24T00:27:48.000Z",
-          "wordCount": 459,
+          "wordCount": 460,
           "title": "我的电脑不熄屏了",
           "imageUrl": null
         },
@@ -662,7 +662,7 @@
           "description": "Amose2024: \n我现在要听个歌，得下载好几个 APP ，因为有的歌曲会被独占。然后，因为本人在国外，很多时候会显示歌曲版权不支持当前地点播放。\n然后还有一点就是，发现大家听的歌曲已经很不一样了，无论说是审美不同也好，是因为用的软件不同也好，总之，很难有那种家喻户晓，人人都唱的歌了。。。",
           "link": "https://www.v2ex.com/t/1107468",
           "publishedOn": "2025-01-24T00:12:58.000Z",
-          "wordCount": 1162,
+          "wordCount": 115,
           "title": "音乐收费真的好吗？",
           "imageUrl": null
         },
@@ -682,7 +682,7 @@
           "description": "zuotun: 比如能跑的动本地代码补全吗？\n目前发现转码效果比我笔记本 3060 好，但这个需求也不是天天有。",
           "link": "https://www.v2ex.com/t/1107465",
           "publishedOn": "2025-01-23T23:44:14.000Z",
-          "wordCount": 499,
+          "wordCount": 501,
           "title": "有个闲置 16G 显卡能拿来做什么?",
           "imageUrl": null
         },
@@ -692,7 +692,7 @@
           "description": "trihuan: 十五分钟内都是神仙美女，一小时后都是普通美女。怎么破，有人有相同体验吗，这是防沉迷机制？",
           "link": "https://www.v2ex.com/t/1107463",
           "publishedOn": "2025-01-23T23:18:55.000Z",
-          "wordCount": 483,
+          "wordCount": 485,
           "title": "小红书刷的时间越长推荐内容质量越差",
           "imageUrl": null
         },
