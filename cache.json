@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -280,12 +286,22 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107736",
+          "author": "ly1878",
+          "description": "ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：\n1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。\n2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来\n3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。\n4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.",
+          "link": "https://www.v2ex.com/t/1107736",
+          "publishedOn": "2025-01-24T18:01:01.000Z",
+          "wordCount": 408,
+          "title": "Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。请大佬支招",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107735",
           "author": "qviqvi",
           "description": "qviqvi: \n以前有 simbox 多卡宝 ，可以多个卡同时待机，app 推送。有没有类似产品，或者有没有简单的制作方法。多个手机收短信，每次换卡太麻烦。",
           "link": "https://www.v2ex.com/t/1107735",
           "publishedOn": "2025-01-24T17:16:26.000Z",
-          "wordCount": 355,
+          "wordCount": 357,
           "title": "有替代 simbox 的多卡待机解决方案吗？",
           "imageUrl": null
         },
@@ -435,7 +451,7 @@
           "description": "BaiLinfeng: 一晚上了候补也没下落，候补了几个班次的车，感觉这机率渺茫啊，有啥好办法增加候补成功率的吗？我是买的直达，还有携程会员显示的我有一次加速抢票的机会，我也使用了，这加速也不行啊",
           "link": "https://www.v2ex.com/t/1107715",
           "publishedOn": "2025-01-24T14:21:46.000Z",
-          "wordCount": 416,
+          "wordCount": 423,
           "title": "12306 怎么提高抢票机率哦",
           "imageUrl": null
         },
@@ -475,7 +491,7 @@
           "description": "lazyjohnzhou: 刚请教了极空间客服（人工客服响应很快，赞一下）手机端 App 相册自动备份时机。反馈是 Android 和 iOS 都是在极空间 App 打开后自动触发备份。但是如果一直没有主动手动打开极空间 App 的话，相册就不会备份。因为我印象中现在系统对后台管理都很严格，这个也符合我的直觉。\n因为我一直在使用 iCloud ，很喜欢 iCloud 在不打开 App 下也能自动备份的能力。所以还是想请教一下有没有办法能给 NAS 实现不打开 App 也能自动在后台备份相册照片。\n    \n    吐槽一下，个人感觉相对于 NAS 系统这样复杂且重要的软件来说，作为销量不错的极空间，它的用户文档少得且简单得可怜，很多基础的功能和系统行为都需要自己去验证、搜索和询问人工客服，给我一种不太靠谱和用心的感觉。",
           "link": "https://www.v2ex.com/t/1107711",
           "publishedOn": "2025-01-24T13:29:52.000Z",
-          "wordCount": 445,
+          "wordCount": 447,
           "title": "请教极空间 NAS 相册自动备份问题",
           "imageUrl": null
         },
@@ -515,7 +531,7 @@
           "description": "hcsu: \n如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？\n已知的方法有：\n重新配对：不够快速方便\nUniversal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定\n请问还有其他方法吗？谢谢",
           "link": "https://www.v2ex.com/t/1107706",
           "publishedOn": "2025-01-24T12:40:41.000Z",
-          "wordCount": 378,
+          "wordCount": 380,
           "title": "请问妙控板可以在 2 台或多台设备间快速切换吗？",
           "imageUrl": null
         },
@@ -625,7 +641,7 @@
           "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
           "link": "https://www.v2ex.com/t/1107694",
           "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 450,
+          "wordCount": 451,
           "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
           "imageUrl": null
         },
@@ -667,26 +683,6 @@
           "publishedOn": "2025-01-24T10:31:43.000Z",
           "wordCount": 472,
           "title": "用 U 理财赚的钱可以拿来买房吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107687",
-          "author": "caisanli",
-          "description": "caisanli: \n现在有点小激动\n今年绩效 B+\n当程序八年这算是第三次领年终奖\n还是不容易哈哈哈😆\n谢谢内推我的领导",
-          "link": "https://www.v2ex.com/t/1107687",
-          "publishedOn": "2025-01-24T10:28:05.000Z",
-          "wordCount": 417,
-          "title": "来新公司的第一年领了两个月的年终奖",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107686",
-          "author": "paulluis2dev",
-          "description": "paulluis2dev: \n大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样。我个人是基本 2 年换一次，毕竟需要的话在日常也买了，本人年龄在 30~35 之间。给孩子我觉得还是需要的，毕竟过年买新衣新鞋也是营造一种过年氛围感",
-          "link": "https://www.v2ex.com/t/1107686",
-          "publishedOn": "2025-01-24T10:26:06.000Z",
-          "wordCount": 409,
-          "title": "大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样",
           "imageUrl": null
         }
       ]
