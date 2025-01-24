@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-24T21:09:57.976Z</id>
+    <id>urn:2025-01-24T22:10:46.269Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-24T21:09:57.976Z</updated>
+    <updated>2025-01-24T22:10:46.269Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。请大佬支招]]></title>
-        <id>https://www.v2ex.com/t/1107736</id>
-        <link href="https://www.v2ex.com/t/1107736"/>
-        <updated>2025-01-24T18:01:01.000Z</updated>
-        <summary type="html"><![CDATA[ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：
-1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。
-2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来
-3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。
-4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.]]></summary>
-        <author>
-            <name>ly1878</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[有替代 simbox 的多卡待机解决方案吗？]]></title>
         <id>https://www.v2ex.com/t/1107735</id>
@@ -730,6 +716,32 @@ API 接口开放
         <summary type="html"><![CDATA[Akiya: 发现 USDT 活期理财的收益还挺高，打算多放一些资金进去，求问各位如果未来有一天把这里的钱转出来买房的话，会不会遇到首付来源不明的问题？]]></summary>
         <author>
             <name>Akiya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[来新公司的第一年领了两个月的年终奖]]></title>
+        <id>https://www.v2ex.com/t/1107687</id>
+        <link href="https://www.v2ex.com/t/1107687"/>
+        <updated>2025-01-24T10:28:05.000Z</updated>
+        <summary type="html"><![CDATA[caisanli: 
+现在有点小激动
+今年绩效 B+
+当程序八年这算是第三次领年终奖
+还是不容易哈哈哈😆
+谢谢内推我的领导]]></summary>
+        <author>
+            <name>caisanli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样]]></title>
+        <id>https://www.v2ex.com/t/1107686</id>
+        <link href="https://www.v2ex.com/t/1107686"/>
+        <updated>2025-01-24T10:26:06.000Z</updated>
+        <summary type="html"><![CDATA[paulluis2dev: 
+大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样。我个人是基本 2 年换一次，毕竟需要的话在日常也买了，本人年龄在 30~35 之间。给孩子我觉得还是需要的，毕竟过年买新衣新鞋也是营造一种过年氛围感]]></summary>
+        <author>
+            <name>paulluis2dev</name>
         </author>
     </entry>
     <entry>

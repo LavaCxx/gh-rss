@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -286,22 +280,12 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1107736",
-          "author": "ly1878",
-          "description": "ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：\n1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。\n2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来\n3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。\n4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.",
-          "link": "https://www.v2ex.com/t/1107736",
-          "publishedOn": "2025-01-24T18:01:01.000Z",
-          "wordCount": 408,
-          "title": "Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。请大佬支招",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1107735",
           "author": "qviqvi",
           "description": "qviqvi: \n以前有 simbox 多卡宝 ，可以多个卡同时待机，app 推送。有没有类似产品，或者有没有简单的制作方法。多个手机收短信，每次换卡太麻烦。",
           "link": "https://www.v2ex.com/t/1107735",
           "publishedOn": "2025-01-24T17:16:26.000Z",
-          "wordCount": 342,
+          "wordCount": 355,
           "title": "有替代 simbox 的多卡待机解决方案吗？",
           "imageUrl": null
         },
@@ -331,7 +315,7 @@
           "description": "dcsuibian: \n\n如图，这是最好的情况，几分钟能下个 10%。但绝大多数时候都是卡在 0%不动，但也不是连接错误，就真的是很慢。这个 Remote-SSH Server 还老是会更新，真的很麻烦。\n坐标浙江嘉兴电信，如果我用 vscode 连腾讯云的服务器，Remote-SSH Server 下载速度就巨快，所以微软的服务器应该没有被墙。\n另外说一些我觉得无关的信息：\n我这是一台 Hyper-V 中的 Debian 虚拟机，但是和用的是对外连接的虚拟交换机，也就是说虚拟机的 IP 地址和宿主机是在同一网段的，不存在多一层 NAT 的情况\n我在虚拟机.bashrc里面配置了http_proxy、https_proxy、all_proxy，配置了/etc/apt/apt.conf。是同一局域网的一台 Clash 代理服务器。但这两个应该都没有影响到 vscode （前者估计是因为还没运行.bashrc，后者单纯只是影响apt），因为我在 Clash 的日志里看不到任何东西。\n接 2 ，我的宿主机也配置了系统代理，其中微软的网址都是走代理的，所以打开 vscode 的时候可以在 clash 里看到很多日志，都是走了代理的。vscode 和其插件更新都很快。所以如果虚拟机真的走了代理，那速度应该巨快\n我在虚拟机里装了 speedtest cli ，在 proxyoff 的情况下，速度完全正常。\n所以到这里，我是真的不知道哪里出问题了，希望哪位碰到过的大佬指点一下，感谢",
           "link": "https://www.v2ex.com/t/1107731",
           "publishedOn": "2025-01-24T16:19:39.000Z",
-          "wordCount": 507,
+          "wordCount": 511,
           "title": "VSCode Remote-SSH Server 下载速度巨慢怎么办？",
           "imageUrl": null
         },
@@ -361,7 +345,7 @@
           "description": "zhoudaiyu: 首次上线的时候怎么定？靠压力测试？后续应用不停上线、甚至改配置可能会导致内存、cpu 的变化，如何持续迭代更新每个应用的 request 和 limit 呢？",
           "link": "https://www.v2ex.com/t/1107726",
           "publishedOn": "2025-01-24T15:41:33.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "各位工作的公司生产 k8s 是怎么维护应用的 request 和 limit 的？",
           "imageUrl": null
         },
@@ -431,7 +415,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107718",
           "publishedOn": "2025-01-24T14:41:27.000Z",
-          "wordCount": 499,
+          "wordCount": 501,
           "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -491,7 +475,7 @@
           "description": "lazyjohnzhou: 刚请教了极空间客服（人工客服响应很快，赞一下）手机端 App 相册自动备份时机。反馈是 Android 和 iOS 都是在极空间 App 打开后自动触发备份。但是如果一直没有主动手动打开极空间 App 的话，相册就不会备份。因为我印象中现在系统对后台管理都很严格，这个也符合我的直觉。\n因为我一直在使用 iCloud ，很喜欢 iCloud 在不打开 App 下也能自动备份的能力。所以还是想请教一下有没有办法能给 NAS 实现不打开 App 也能自动在后台备份相册照片。\n    \n    吐槽一下，个人感觉相对于 NAS 系统这样复杂且重要的软件来说，作为销量不错的极空间，它的用户文档少得且简单得可怜，很多基础的功能和系统行为都需要自己去验证、搜索和询问人工客服，给我一种不太靠谱和用心的感觉。",
           "link": "https://www.v2ex.com/t/1107711",
           "publishedOn": "2025-01-24T13:29:52.000Z",
-          "wordCount": 440,
+          "wordCount": 445,
           "title": "请教极空间 NAS 相册自动备份问题",
           "imageUrl": null
         },
@@ -511,7 +495,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         },
@@ -531,7 +515,7 @@
           "description": "hcsu: \n如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？\n已知的方法有：\n重新配对：不够快速方便\nUniversal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定\n请问还有其他方法吗？谢谢",
           "link": "https://www.v2ex.com/t/1107706",
           "publishedOn": "2025-01-24T12:40:41.000Z",
-          "wordCount": 369,
+          "wordCount": 378,
           "title": "请问妙控板可以在 2 台或多台设备间快速切换吗？",
           "imageUrl": null
         },
@@ -683,6 +667,26 @@
           "publishedOn": "2025-01-24T10:31:43.000Z",
           "wordCount": 472,
           "title": "用 U 理财赚的钱可以拿来买房吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107687",
+          "author": "caisanli",
+          "description": "caisanli: \n现在有点小激动\n今年绩效 B+\n当程序八年这算是第三次领年终奖\n还是不容易哈哈哈😆\n谢谢内推我的领导",
+          "link": "https://www.v2ex.com/t/1107687",
+          "publishedOn": "2025-01-24T10:28:05.000Z",
+          "wordCount": 417,
+          "title": "来新公司的第一年领了两个月的年终奖",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107686",
+          "author": "paulluis2dev",
+          "description": "paulluis2dev: \n大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样。我个人是基本 2 年换一次，毕竟需要的话在日常也买了，本人年龄在 30~35 之间。给孩子我觉得还是需要的，毕竟过年买新衣新鞋也是营造一种过年氛围感",
+          "link": "https://www.v2ex.com/t/1107686",
+          "publishedOn": "2025-01-24T10:26:06.000Z",
+          "wordCount": 409,
+          "title": "大家每年过年还会买新衣新鞋换新装吗，可以的话，方便透露下自己的年龄区间吗，如 25~30 这样",
           "imageUrl": null
         }
       ]
