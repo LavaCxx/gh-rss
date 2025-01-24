@@ -277,12 +277,32 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107463",
+          "author": "trihuan",
+          "description": "trihuan: 十五分钟内都是神仙美女，一小时后都是普通美女。怎么破，有人有相同体验吗，这是防沉迷机制？",
+          "link": "https://www.v2ex.com/t/1107463",
+          "publishedOn": "2025-01-23T23:18:55.000Z",
+          "wordCount": 387,
+          "title": "小红书刷的时间越长推荐内容质量越差",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107462",
+          "author": "vasto",
+          "description": "vasto:",
+          "link": "https://www.v2ex.com/t/1107462",
+          "publishedOn": "2025-01-23T22:46:33.000Z",
+          "wordCount": 369,
+          "title": "为什么帖子发了后移动节点后看不到",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107461",
           "author": "iintothewind",
           "description": "iintothewind: \n昨天重刷 Breaking Bad,\n在第二季老白给学生上课的时候提到过 Synthetic Diamond 的技术发明人 H.Tracy.Hall.\n他的技术专利给 GE 公司带来了巨额的财富, 但 GE 公司只给了他 10 美元的 Saving Bond.\n老白讽刺到这就是\"a carbon-based life form being paid in a carbon paper certificate for his work with carbon.\"\n一个碳基生命因为碳方面的工作以碳纸证书的形式获取到了报酬.\n然后我就去 wikipedia 查了查这个人,\n果然老白所说的是真的,\n而且 Wikipedia 还特意加了一段是 Breaking Bad 提及到了他.",
           "link": "https://www.v2ex.com/t/1107461",
           "publishedOn": "2025-01-23T19:11:08.000Z",
-          "wordCount": 432,
+          "wordCount": 489,
           "title": "技术人员受到不公平待遇也不是国内独有的事情",
           "imageUrl": null
         },
@@ -302,7 +322,7 @@
           "description": "nanajj: \n比如怪猎荒野和文明 7 ，前作玩的时长还挺多的。\n玩文明 6 的时候应该还在上学，是个假期，在屋子里爆玩一百多个小时。怪猎前做崛起恰逢家里蹲，也是数百个小时玩的飞起。\n越来越难沉下心了玩游戏了。有可能一冲动就买了，然后吃灰。就像黑神话，是好玩，而且我也是从第一个视频起，持续关注到发售。可是前段时间项目一忙，玩了半截就吃灰，再也没兴趣打开了。再早以前还能三五好友一起开黑，比如 LOL 、 吃鸡、MMO ， 再后来还有一二朋友打打永劫之类的，到现在就只是自己大乱斗了。\n早几年有段时间，我一直是觉得是因为现在的游戏环境变了：MMO 没人玩了，大家都去玩手游了，RTS 不受欢迎了。 后来发现是自己的心态变了，不那么纯粹了。一段时间不玩游戏会突然间像被爪子挠一下，想玩点什么。打开游戏后，又尬在那里最后叉掉，陷入自我折磨。\n近段时间想通了，游戏，干就完了，当一个聪明的墨菲特。",
           "link": "https://www.v2ex.com/t/1107458",
           "publishedOn": "2025-01-23T17:22:36.000Z",
-          "wordCount": 383,
+          "wordCount": 406,
           "title": "25 年二月份似乎有不少游戏新续作",
           "imageUrl": null
         },
@@ -312,7 +332,7 @@
           "description": "PPPaul: \n大佬们，有没有什么提升开发生产力的订阅推荐啊，我 leader 让我每周抽出时间尝试一些新的生产力工具，但是我感觉 Cursor + GPT 已经解决我绝大多数问题了，有没有什么其他的推荐？ PS：Web 开发方面",
           "link": "https://www.v2ex.com/t/1107457",
           "publishedOn": "2025-01-23T17:19:40.000Z",
-          "wordCount": 396,
+          "wordCount": 409,
           "title": "有没有什么提升开发生产力的订阅推荐啊？ PS：已经有 GPT 和 Cursor 了",
           "imageUrl": null
         },
@@ -322,7 +342,7 @@
           "description": "oceaneleven: \n随便找一个小众博主做的读书栏目，单口或双口慢慢地讲，听着都比大热的霸榜的四字播客舒服\n有对耳朵友好的推荐吗，新闻读书电影类都行。自己在听的有联合早报东谈西论，the real story 報道者，全球串聯早安新聞，纵横四海，南洋杉 FM 。",
           "link": "https://www.v2ex.com/t/1107456",
           "publishedOn": "2025-01-23T17:03:37.000Z",
-          "wordCount": 341,
+          "wordCount": 360,
           "title": "那种没说几句就开始哈哈大笑的小圈子文化播客，为何受众一点不少？",
           "imageUrl": null
         },
@@ -332,7 +352,7 @@
           "description": "xinjiawei: \n目前只是疑似，不太好复现。\n博文\nhttps://blog.csdn.net/qq363685855/article/details/143089391 中这个老哥去年 10 月份发现的问题，有另外一名老哥在评论区说他最近 1 月 8 号发现的劫持问题。目前能确定的共同点是，都安装了 51la 统计代码，手机浏览器触发跳转。\n\n我是今天经朋友提醒才发现的问题：\n\n\n直接访问跳转地址，如果不加参数会跳到百度，应该是国人作恶了。\n如果各位在最近也有类似经历，欢迎交流！",
           "link": "https://www.v2ex.com/t/1107455",
           "publishedOn": "2025-01-23T16:51:04.000Z",
-          "wordCount": 431,
+          "wordCount": 444,
           "title": "51la 统计疑似又开始劫持跳转了",
           "imageUrl": null
         },
@@ -342,7 +362,7 @@
           "description": "xiao17174: \n不知道又是哪个插件或者软件搞的，但是这种行为实在是太过份了，为了保留现场我没有关掉。有没有人知道他是怎么做到的？\n几类尝试：\n长页面上下滚动它都固定在同一个位置\nF12 看不到没有任何布局痕迹\n可以确定不是植入到页面里的。我即使新建一个空的 empty.html ，打开这个悬浮窗还是在那里",
           "link": "https://www.v2ex.com/t/1107454",
           "publishedOn": "2025-01-23T16:20:57.000Z",
-          "wordCount": 443,
+          "wordCount": 458,
           "title": "求助，如何排查 chrome 被 360 劫持新姿势",
           "imageUrl": null
         },
@@ -372,7 +392,7 @@
           "description": "StarryLight: 最近打算新办一个手机号码，考虑到新手机号如何尽量避免被电话骚扰，垃圾短信。\n现在有情况是已经有一个长期使用的手机号，已经绑定了各种银行卡和 app 网站等。\n大家都有哪些践行的方法呢？",
           "link": "https://www.v2ex.com/t/1107451",
           "publishedOn": "2025-01-23T15:27:48.000Z",
-          "wordCount": 420,
+          "wordCount": 427,
           "title": "新号 新手机号如何尽量避免被电话骚扰",
           "imageUrl": null
         },
@@ -382,7 +402,7 @@
           "description": "qianchengv:",
           "link": "https://www.v2ex.com/t/1107450",
           "publishedOn": "2025-01-23T15:22:23.000Z",
-          "wordCount": 435,
+          "wordCount": 457,
           "title": "安卓手机二选一： iQOO z9 Turbo+ 和 vivo Y300 Pro 都是 16G+256 的选哪个？",
           "imageUrl": null
         },
@@ -402,7 +422,7 @@
           "description": "jukanntenn: \n图便宜双十一买了天翼云，本来想着跑个 frp 做下内网穿透，结果域名备案不在天翼云的 80 和 443 端口均不开放，我域名备案在阿里云，后来用腾讯云服务器跑 frp 了，一切正常，没有遇到上述限制。\n如果准备用来跑网站但有不想在天翼云备案的，慎买。",
           "link": "https://www.v2ex.com/t/1107448",
           "publishedOn": "2025-01-23T15:16:59.000Z",
-          "wordCount": 374,
+          "wordCount": 400,
           "title": "天翼云踩坑",
           "imageUrl": null
         },
@@ -412,7 +432,7 @@
           "description": "SugarLord: \n🦬起源\n3R 教室 TS 全栈开发课是一套由 3R 社区制作的 js/ts 全栈开发课程。从 2022 年，3R 教室开始推出《 react+nestjs 全栈开发最佳实战》开始到如今已经两年半的时间。而随着时间的推移，js/ts 方面的生态也在日新月异的变化中。由于 nestjs 太重、性能拉胯、不适合 node.js 后端开发风格以及生态老旧等原因，站长一直在寻找一款可以替代它的新的 node.js 框架。直到接触到 Hono.js ！\nhono.js 是一款基于 node.js 的新后端微框架。相对于 nestjs 有着大量的优势，比如性能更加优异、与 next.js 的 server action 天然整合(不需要像 nestjs 一样，通过 monorepo 去组织两者的代码)，原生支持 esm 规范等。而且 hono.js 是一款微框架，这就使得学习曲线更加平滑易用，这也是站长自营的 3R 工作室的诸多新外包项目的后端部分开始由 nestjs 转型 hono.js 的原因。\n而旧课程的前端部分，是围绕站长自行开发的一套名为 toomejs 的后台管理面板制作。但 react+vite 构建一个 spa 中后台的课程，对于想前端部分学习的同学显然已经没多大意义了（事实上，教室有相当一部分同学都是老 javaer 或者 go,python 等后端开发者，想转型成为全栈而学习前端目的购买的 3R 会员）。因为如今网络上充斥着各种还用开源的 react 中后台项目，基本可以拿来即用，根本没必要自己从零搭建一款后台面板。即使有需要了解这部分知识，也只是用于提升前端技能，而实际中大概率不会自己去专门浪费时间写一个后台面板并长期维护。另外，在 react 生态中，next.js 慢慢已经成为事实上的标准。next.js 支持对 seo 友好的 ssr…",
           "link": "https://www.v2ex.com/t/1107447",
           "publishedOn": "2025-01-23T15:14:49.000Z",
-          "wordCount": 792,
+          "wordCount": 797,
           "title": "[讨论] 2025 年告别 NestJS？ Hono.js 性能暴打 NestJS，为什么我们的新项目都转向了 Hono",
           "imageUrl": null
         },
@@ -522,7 +542,7 @@
           "description": "YaakovZiv: \n下班路上，骑电驴正常绿灯走，因为路口经常有闯红灯的，特意等了大概三秒确认没车走灯尾，快过去路口，发现有个闯红灯的，直冲我的电驴而来，我一个甩尾拦住对方就开始输出，对方风挡+粉红头盔+围巾+闯红灯，简直拉满了我对闯红灯人群的定位点，输出完，估计她没反应过来，但是我第一时间发现，对方的衣服和包，好像是我上级单位领导，还是主管一个和我工作有点关联的业务，估计是我穿的护具太多，对方没看出我是谁，我直接骑电驴开溜。也不知道后续接触到会不会被认出来。 \n回想这种尴尬，上次还是直接怼了我直属领导的直属领导。是因为那个大婶骑电驴走 S ，我当时心里一团莫名的火，下班这么堵车，一个电驴走 S 弯挡一群人，直接一个甩尾给她逼停路边，她也是没认出我，估计是我护具防护的过于严密，我在和她争吵了一分钟后，我发现，她眼角有个特征很像大领导，最后也是我骑电驴开溜。有次午饭同事和我讲，领导因为路上被路人骑电驴骂了，改为开车或者坐车上班，不敢骑电驴了。从领导在办公室反应看，可能是没认出我。但是从时间上预估，同事说的那个路人，大概率是我。",
           "link": "https://www.v2ex.com/t/1107435",
           "publishedOn": "2025-01-23T14:10:24.000Z",
-          "wordCount": 391,
+          "wordCount": 396,
           "title": "尴尬的正义感，我好像班后戾气变重了",
           "imageUrl": null
         },
@@ -562,7 +582,7 @@
           "description": "SeleiXi: \n目前想到的方案\nRedis List ，每个 element 对应一个 Hash Map\n一个用 sync.RWMutex 实现共享锁的队列，每个 element 储存一个 Hash Map\n但这两个还是得用 O(n)的时间复杂度去遍历，才能知道前面有多少个元素\n[]{\n    {\"12345\": true},\n    {\"23561\": false},\n    {\"23562\": false},\n}\n\n补充：业务场景储存的键本来就是有序的，且与创建时间相关。而值是一个 bool 值。感觉性能优化的难点还是在需要知道前面还有多少个键值对是先于他创建且没有被删除的，Redis List 的索引不会动态更新，因此没法在前面有成员被删除后知道前面实际还有多少个成员",
           "link": "https://www.v2ex.com/t/1107429",
           "publishedOn": "2025-01-23T13:21:05.000Z",
-          "wordCount": 567,
+          "wordCount": 589,
           "title": "高并发场景下需要实现一个被频繁查询，读多写少的键值对（需要用键查询对应的值 & 知道前面还有多少个键值对是先于他创建且没有被删除的 ，所以数据结构需要是有...",
           "imageUrl": null
         },
@@ -582,7 +602,7 @@
           "description": "syh2: \n如题，本人现在三线城市，母公司准备倒闭，现在想寻求新的机会\n因为地方不是很大，所以工作机会不是很多。\n加上老婆怀孕，所以短时间内不想去太远的地方\n所以请教一下 v 友们，如果我做自由职业、独立开发、远程工作应该怎么购买社保？\n是需要找公司挂靠么，如果挂靠的话一般是怎么样的收费。\n因为人在国内，有缴纳社保、医保的话小朋友打预防针、看病各方面还是好一些，所以不想断缴\n还请 v 友们指点一下。\n或者二三线有什么可以搞钱的，我也持开放态度，谢谢各位🙏",
           "link": "https://www.v2ex.com/t/1107426",
           "publishedOn": "2025-01-23T13:13:16.000Z",
-          "wordCount": 438,
+          "wordCount": 454,
           "title": "想问问自由职业、独立开发和远程工作者们怎么购买社保",
           "imageUrl": null
         },
@@ -622,7 +642,7 @@
           "description": "shinsekai: \n这里说的禁止截屏是指无论在应用内还是近期任务的缩略图都截不了的。如果能做到截屏不通知 app 就更好了",
           "link": "https://www.v2ex.com/t/1107420",
           "publishedOn": "2025-01-23T11:35:56.000Z",
-          "wordCount": 338,
+          "wordCount": 367,
           "title": "iOS 有巨魔能否绕过禁止截屏",
           "imageUrl": null
         },
@@ -632,7 +652,7 @@
           "description": "youx: 深圳联通 开始限制固定宽带 下行流量了",
           "link": "https://www.v2ex.com/t/1107419",
           "publishedOn": "2025-01-23T11:31:46.000Z",
-          "wordCount": 359,
+          "wordCount": 370,
           "title": "深圳联通 开始限制固定宽带 下行流量了",
           "imageUrl": null
         },
@@ -652,7 +672,7 @@
           "description": "xiyy02: RT ，最近陆陆续续毕业了一些人，有个合作的很好的人也走了，原因据说是他老板觉得他除了业务产出以外没有任何有价值的产出，就给开了\n感慨一下，现在已经卷到踏踏实实干活都要被末位淘汰掉的地步了吗，就在职期间不仅要加班赶进度，要协调各种乱七八糟的资源，还要不断整花活让公司看到你的特殊价值，不然就要被淘汰",
           "link": "https://www.v2ex.com/t/1107417",
           "publishedOn": "2025-01-23T11:12:07.000Z",
-          "wordCount": 476,
+          "wordCount": 496,
           "title": "绩效考核时问：你觉得你做的最成功的是什么？收获最大的是什么？这种逼问题怎么回答？",
           "imageUrl": null
         },
@@ -664,36 +684,6 @@
           "publishedOn": "2025-01-23T11:09:38.000Z",
           "wordCount": 402,
           "title": "[澳洲团队] [远程] 高级 Web3 开发， PWA",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107414",
-          "author": "pengyuedenai1234",
-          "description": "pengyuedenai1234: 春节快到了，当我过年回家之后。想看看电视台直播。正好听个响。也是春节快到了，把电视机调好来准备看春晚。我家里只安装了免费的联通宽带，没有安装有线电视或者 iptv 。就在网上买了一个免费的电视盒子用免费软件看 ipv6 的电视直播。当我安装上 ipv6 的免费电视直播软件的时候，发现大部分台都看不了。也在路由器后台打开了 ipv6 选项，手机浏览器也能正常获取 ipv6 地址。就是电视盒子看不了直播。然后去网上搜了一下发现好多地方的运营商都在屏蔽 v6 直播源。感觉是不是跨省结算还是侵犯广电利益的原因。想看电视直播要逼着我们再交钱办理有线电视或者 iptv 。",
-          "link": "https://www.v2ex.com/t/1107414",
-          "publishedOn": "2025-01-23T10:47:00.000Z",
-          "wordCount": 509,
-          "title": "运营商正在屏蔽 ipv6 直播源",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107413",
-          "author": "tootfsg",
-          "description": "tootfsg: 这个时间也不是阿里云/腾讯云的优惠时间，要不然我想买腾讯无忧。偏偏这时候旧的新用户优惠买的到期了，这个时间新用户也没啥好优惠，要不然找朋友借用下。\n虽然说不要求，大概 5m,10m 的带宽就可以，硬盘 3,40g 就可以。得有公网 ip ，除非能有流量便宜的 vps 可以内网转发，那不要公网也可以。",
-          "link": "https://www.v2ex.com/t/1107413",
-          "publishedOn": "2025-01-23T10:45:04.000Z",
-          "wordCount": 374,
-          "title": "请问，这个时间点能买到最便宜的 4h8g 服务器都有啥。不要求带宽，流量，其他基本也不要求。国内的。年付。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107412",
-          "author": "xtynoj",
-          "description": "xtynoj: \n有一台境外的电脑需要远程访问，想请教一下有没有什么稳定一些的方案可以选择，感谢",
-          "link": "https://www.v2ex.com/t/1107412",
-          "publishedOn": "2025-01-23T10:32:23.000Z",
-          "wordCount": 442,
-          "title": "请教一下跨境的远程桌面软件/方案",
           "imageUrl": null
         }
       ]
