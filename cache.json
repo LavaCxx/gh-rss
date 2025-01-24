@@ -12,12 +12,22 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=383506",
+          "author": "Preethi",
+          "description": "When it comes to positioning elements on a page, including text, there are many ways to go about it in CSS — the literal position property with corresponding inset-* properties, translate, margin, anchor() (limited browser support at the moment), and so forth. The offset property is another one that belongs in that list.\nPositioning Text Around Elements With CSS Offset originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/positioning-text-around-elements-with-css-offset/",
+          "publishedOn": "2025-01-24T14:59:25.000Z",
+          "wordCount": 2761,
+          "title": "Positioning Text Around Elements With CSS Offset",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383506"
+        },
+        {
           "id": "https://css-tricks.com/?p=383776",
           "author": "Geoff Graham",
           "description": "I was reading through Juan’s recent Almanac entry for the @counter-style at-rule and I’ll be darned if he didn’t uncover and unpack some extremely interesting things that we can do to style lists, notably the list marker. You’re probably already …\nSome Things You Might Not Know About Custom Counter Styles originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/some-things-you-might-not-know-about-custom-counter-styles/",
           "publishedOn": "2025-01-23T17:21:15.000Z",
-          "wordCount": 2458,
+          "wordCount": 2483,
           "title": "Some Things You Might Not Know About Custom Counter Styles",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383776"
         },
@@ -286,7 +296,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency  Bank Transfer  PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107699",
           "publishedOn": "2025-01-24T11:36:19.000Z",
-          "wordCount": 480,
+          "wordCount": 488,
           "title": "GoSSL 在这里赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -326,7 +336,7 @@
           "description": "edinina: \n大龄 UI 设计，现就职一家北京的 IT 类公司，在这已经工作十年。\n上个季度因为之前一直参与的一个项目结束了，也没新的项目续上，整个季度工作需求很少，但是有工作需求的都比较积极的完成了。评季度绩效（ 12 月底）的时候，部门大领导给打了倒数第二档，打分理由也是“需求较少，但是参与的工作都没问题”这种。因为我个人感觉需求较少不是我本身的原因，于是下班前咨询了人事管绩效这方面的同事，她说如果有异议可以提，但是也得需要我们部门领导同意修改。我于是跟她说那等我跟领导聊聊再咨询她。\n第二天还没等我问，人事就直接去问我们领导这个事（我也不知道人事是怎么个想法没先问我），然后领导微信上就问我（我是异地远程打卡办公）是对考核有意见什么的。我就硬着头皮跟部门领导谈了这个事，然后她说公司绩效制度就这样，说后面需求上来了再说什么的。我本来心里就因为是远程办公所以多少在这方面有点被动，于是这件事就这么过去了。\n但是最近需求量也没上来。今天下午，一个同事在给甲方做需求的时候，实在忙不过来了就让我帮忙，我答应了就赶紧帮忙开干，负责分配需求的小领导也帮忙去跟部门领导说同事忙不过来先让我帮忙一下。结果过了一会儿同事跟我说，领导不同意。当时我大概也明白了，现在就是有工作需求也不分配给我。\n我之前也问过关系好的同事，我们这个部门这几年被挤走很多人了，大概原因就是效益不好，也不直接辞退，这位部门领导是个女的，总喜欢在裁人前整一些有的没的，没有一次是痛痛快快善始善终的。甚至听说有位前同事被离职的时候在公司大闹，不要赔偿，而是坚持让她改绩效评价，追回克扣的三四千出气。\n现在整得我也是挺难受，其实这么久了对公司还是很有感情的，以前的领导和同事对我都特别好。几年前开始远程办公以后，我知道自己不久后肯定会主动或被动离开这里，但从没想过是像这样离开。\n以前感觉虽然公司不大，但同事领导都是很纯真善良的一帮人。头一次遇到这位这样的，实在是有点不知道接下来该怎么应对了。",
           "link": "https://www.v2ex.com/t/1107695",
           "publishedOn": "2025-01-24T11:12:29.000Z",
-          "wordCount": 394,
+          "wordCount": 406,
           "title": "看来要被优化了",
           "imageUrl": null
         },
@@ -336,7 +346,7 @@
           "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
           "link": "https://www.v2ex.com/t/1107694",
           "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 365,
+          "wordCount": 401,
           "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
           "imageUrl": null
         },
@@ -386,7 +396,7 @@
           "description": "Akiya: 发现 USDT 活期理财的收益还挺高，打算多放一些资金进去，求问各位如果未来有一天把这里的钱转出来买房的话，会不会遇到首付来源不明的问题？",
           "link": "https://www.v2ex.com/t/1107688",
           "publishedOn": "2025-01-24T10:31:43.000Z",
-          "wordCount": 470,
+          "wordCount": 472,
           "title": "用 U 理财赚的钱可以拿来买房吗？",
           "imageUrl": null
         },
@@ -396,7 +406,7 @@
           "description": "caisanli: \n现在有点小激动\n今年绩效 B+\n当程序八年这算是第三次领年终奖\n还是不容易哈哈哈😆\n谢谢内推我的领导",
           "link": "https://www.v2ex.com/t/1107687",
           "publishedOn": "2025-01-24T10:28:05.000Z",
-          "wordCount": 409,
+          "wordCount": 417,
           "title": "来新公司的第一年领了两个月的年终奖",
           "imageUrl": null
         },
@@ -466,7 +476,7 @@
           "description": "FranzKafka95: \n新进来的组员，资历非常深，工作十几年的老工程师。本来是其他组的，后来领导说归到我的组。然后让我当他的导师，试用期的绩效由我给他制定目标和评分。   \n这几天遇到一个问题，问题出现得比较突然，该组员确实没有机会提前识别到该问题。然后领导让我跟他一起看，复现问题后第一时间我们都有了各自的判断，他认为是系统的问题，而我认为是我们的应用导致系统出现了问题。当即按照我的思路进行了浮现，确认就是我们应用导致系统出的问题。  \n本来也没什么，恰好月底绩效流程走到我这里，我就顺手写了一个“能够按照要求完成相关开发任务，但对问题的钻研程度有待提升”的评价，这个评价不影响他转正（转正靠的是打分，而我都是给他打了不错的分数），后来该组员就找到我，认为我的这个评价有问题,当场表示他很生气。  \n一时间我有点懵逼，当即表示这个并不是说你不好，只是我的一个主观判断，而且不会影响转正。况且我的行事风格就是这样，说点好的一般也回带点不好的。一番沟通下来，该组员似乎“接受”了这个评价。   \n下来我自己想了想，一直反思自己做得到底对不对，各位 V 友怎么看",
           "link": "https://www.v2ex.com/t/1107679",
           "publishedOn": "2025-01-24T09:50:00.000Z",
-          "wordCount": 636,
+          "wordCount": 656,
           "title": "反思:不小心伤害到了组员的自尊",
           "imageUrl": null
         },
@@ -546,7 +556,7 @@
           "description": "eachann: \n原因：新房浴室窗户很亮，进浴室的门也有玻璃，暂时没有做遮挡、换门的想法。\n尝试过的方案：用水贴的那种遮光的纸，几个小时后就自己脱落了，而且楼下看着窗户是纯黑色有点丑\n\n各位有好的方案推荐吗",
           "link": "https://www.v2ex.com/t/1107671",
           "publishedOn": "2025-01-24T09:20:49.000Z",
-          "wordCount": 366,
+          "wordCount": 377,
           "title": "磨砂窗户怎么遮光啊",
           "imageUrl": null
         },
@@ -576,7 +586,7 @@
           "description": "jaredyam: \n想买了 65 寸电视，\n3500-4000 档看了海信 65E7N 和 TCL 65Q9K\n5000-5500 档看了 TCL Q10K 和海信 E8N Pro\n主要是希望电视色域和色准优秀，无其他特殊要求，大小也已经确定为选择 65 寸，不知道各位大佬有何建议？",
           "link": "https://www.v2ex.com/t/1107668",
           "publishedOn": "2025-01-24T09:10:22.000Z",
-          "wordCount": 574,
+          "wordCount": 576,
           "title": "买电视，纠结选海信还是 TCL",
           "imageUrl": null
         },
@@ -586,7 +596,7 @@
           "description": "SoyaDokio: \n背景\n电信宽带送的 IPTV 盒子的系统很难用，老人不太会。虽然手写了配图的非常细致的《如何看电视》说明书，老人还是时不时用不好。\n电视自带的系统就是传统的系统，参考小米 TV ，除了广告就是 VIP ，关键 VIP 还不通用。简言之就是电视里除了设置和节目的选项外，还有广告、APP 、电视和机顶盒分别是什么等概念，这个很难跟老人解释得通，即使解释通了第二天就忘了。\n家里有个长虹 chiQ 的 75 寸老电视，不知道型号是什么，用的是下图这个遥控器，它是 蓝牙遥控 的。\n\n打算\n现在打算上淘宝或拼多多买个销量高的、开机自动进入电视直播 APP 的机顶盒。在 B 站看了一些这种测评，反正只要几十块钱，试一下。\n课题\n电视是一个遥控器，机顶盒是另一个遥控器，如何只开一次机。（老人眼里只有电视，机顶盒和电视机分别是什么，以及它们如何合作的，老人是难以理解的）\n解决方案\n利用机顶盒的 CEC 功能实现机顶盒伴随关机 → 问题：①无法伴随开机②需要的是电视伴随机顶盒开关键，而非反过来。\n利用联动插板（检测到主控插口的设备开机后，自动给被控插口通电；反之断电）来给电视自动上电 → 问题：①电视不支持上电自动开机②机顶盒所谓的“关机”实际上是待机，那么“开机”前后功率变化很小是否能让插板的主控插口判定为开机？存疑\n想不出了...\n参考\n如何实现电视开机时启动 iptv 机顶盒？ \n请教各位路过的大佬如何让电视伴随机顶盒开关机？\n（不是强需求，实现不了也无所谓，就当学术讨论）",
           "link": "https://www.v2ex.com/t/1107667",
           "publishedOn": "2025-01-24T09:05:49.000Z",
-          "wordCount": 549,
+          "wordCount": 553,
           "title": "如何让电视伴随机顶盒开关机？",
           "imageUrl": null
         },
@@ -646,7 +656,7 @@
           "description": "0x535: \n朋友送了个滑板，因为小学时体育课玩滑板的时候摔过，就一直感觉这玩意儿真危险，所以一直没敢去玩。趁着今年不回家过年时间充裕，索性照着教学视频试了一下，一步一步来，并没有想像中的那么难。\n2024 年发生了很多事，有时候就感叹，就像从小被一条细细的铁链拴住的大象，困住自己的并不是客观的事物，而是内心的恐惧和习惯。突破了内心的束缚之后，世界突然变得宽广了。\n另外，肌肉酸痛的时候，也没时间去抑郁了。",
           "link": "https://www.v2ex.com/t/1107659",
           "publishedOn": "2025-01-24T08:49:49.000Z",
-          "wordCount": 418,
+          "wordCount": 423,
           "title": "闲着也是闲着，尝试一些新爱好——滑板",
           "imageUrl": null
         },
@@ -676,7 +686,7 @@
           "description": "rechardwong0522: 如题。最近收了个 iphone 11 ，系统版本还是 14.1 ，现在一些外网 app 要去 15.0 以上。老手机了，主要用来开发，所以我不想升级到最新版本。\n请问是不是没办法只能升级到最新版本了？",
           "link": "https://www.v2ex.com/t/1107655",
           "publishedOn": "2025-01-24T08:31:07.000Z",
-          "wordCount": 460,
+          "wordCount": 469,
           "title": "系统版本还在 14.1，有些 app 无法安装，有什么办法可以不升级到最新的 ios18.2.1 吗？",
           "imageUrl": null
         },
@@ -706,7 +716,7 @@
           "description": "mawen0726: 能 ping 通，延迟 200+\n但是所有的端口都 telnet 不通，重装系统，防火墙没开，ssh 的 22 不通\n改了端口，防火墙没开，这个端口也不通\n服务商是 hostdare ，节点是在美国的",
           "link": "https://www.v2ex.com/t/1107652",
           "publishedOn": "2025-01-24T08:26:48.000Z",
-          "wordCount": 488,
+          "wordCount": 503,
           "title": "请教下，我这个 vps 是不是没救了",
           "imageUrl": null
         },

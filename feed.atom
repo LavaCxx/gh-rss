@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-24T14:10:20.362Z</id>
+    <id>urn:2025-01-24T15:11:46.389Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-24T14:10:20.362Z</updated>
+    <updated>2025-01-24T15:11:46.389Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Positioning Text Around Elements With CSS Offset]]></title>
+        <id>https://css-tricks.com/?p=383506</id>
+        <link href="https://css-tricks.com/positioning-text-around-elements-with-css-offset/"/>
+        <updated>2025-01-24T14:59:25.000Z</updated>
+        <summary type="html"><![CDATA[When it comes to positioning elements on a page, including text, there are many ways to go about it in CSS — the literal position property with corresponding inset-* properties, translate, margin, anchor() (limited browser support at the moment), and so forth. The offset property is another one that belongs in that list.
+Positioning Text Around Elements With CSS Offset originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Preethi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GoSSL 在这里赠送 10 个一年通配符域证书,通配符域证书低至$10/年]]></title>
         <id>https://www.v2ex.com/t/1107699</id>
