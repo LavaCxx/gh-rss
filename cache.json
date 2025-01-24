@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -155,6 +149,12 @@
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
       ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": []
     },
     {
       "title": "阮一峰的网络日志",
@@ -306,7 +306,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107718",
           "publishedOn": "2025-01-24T14:41:27.000Z",
-          "wordCount": 483,
+          "wordCount": 492,
           "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -336,7 +336,7 @@
           "description": "kyonn: \n之前按照 https://v2ex.com/t/1073554 这个方案搭了套 fakeip 方案的 dns ， 主要就是用 paopao dns 和 paopao gateway 实现海外域名自动分流至 fakeip 网关，实际用下来发现 paopao dns 好像老是有些其奇怪的问题，突然可能出现 dns 解析公网 ip 失败的问题，执行下 debug.sh 又恢复正常了， 求推荐下有没有代替的稳定方案。",
           "link": "https://www.v2ex.com/t/1107714",
           "publishedOn": "2025-01-24T14:21:11.000Z",
-          "wordCount": 453,
+          "wordCount": 477,
           "title": "自建 dns 方案求推荐。",
           "imageUrl": null
         },
@@ -356,7 +356,7 @@
           "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
           "link": "https://www.v2ex.com/t/1107712",
           "publishedOn": "2025-01-24T13:42:44.000Z",
-          "wordCount": 431,
+          "wordCount": 442,
           "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
           "imageUrl": null
         },
@@ -386,7 +386,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 459,
+          "wordCount": 461,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         },
@@ -416,7 +416,7 @@
           "description": "GeekGuru: \n现在很多 2000 多价位的 M2 Mac mini ，买一个办公用区别不大吧？\n可以省一个 4k 显示器出来。",
           "link": "https://www.v2ex.com/t/1107705",
           "publishedOn": "2025-01-24T12:40:33.000Z",
-          "wordCount": 370,
+          "wordCount": 387,
           "title": "2025 年还能买 M2 Mac mini 么？",
           "imageUrl": null
         },
@@ -426,7 +426,7 @@
           "description": "Vtoecha: \n最近组了一台 all in one 设备，迷你精致还是纯 ecc 内存功耗也低，就是不支持 pcie acs 功能。\ncpu 是 5650ge ，主板是 Gagabyte b550i aorus pro ax ，2.5g 网口，支持 pcie 拆分。\nBios 里也没有 acs 选项，pve 编译了 acs 补丁内核也不起作用，导致主板上的有线网口和无线网卡都在同一个 iommu 组，没办法直通无线给里面的 win11 或者 batocera ，每次都只能用 usb 蓝牙连手柄...还不稳定，时不时开机就要重新插拔下。\ncpu 5650ge 是为了用纯 ecc 内存，然后 x570i 又没有 2.5g 网卡，两个换哪一个都好不爽啊啊啊。",
           "link": "https://www.v2ex.com/t/1107704",
           "publishedOn": "2025-01-24T12:20:53.000Z",
-          "wordCount": 435,
+          "wordCount": 442,
           "title": "是 B550 芯片组不支持还是 Ryzen G 系列不支持 acs",
           "imageUrl": null
         },
@@ -476,7 +476,7 @@
           "description": "xingdu: \nSteam 将于 2025 年 2 月 15 日停止支持 macOS Catalina\n20 年买的 20 款 MBP ，也是最后一款 intel 芯片的 macbook pro ，一直停留在 Catalina ，没有升级。现在一大堆软件不能升级，Chrome 也不能升级了，但是都还能用。现在 steam 不能用了，游戏也打不了。\n注：偶尔用 steam 玩玩雀魂，杀戮尖塔啥的，不玩各种 3A 大作。",
           "link": "https://www.v2ex.com/t/1107698",
           "publishedOn": "2025-01-24T11:34:53.000Z",
-          "wordCount": 389,
+          "wordCount": 404,
           "title": "Steam 不支持 macOS Catalina 了",
           "imageUrl": null
         },
@@ -516,7 +516,7 @@
           "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
           "link": "https://www.v2ex.com/t/1107694",
           "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 405,
+          "wordCount": 413,
           "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
           "imageUrl": null
         },
@@ -646,7 +646,7 @@
           "description": "FranzKafka95: \n新进来的组员，资历非常深，工作十几年的老工程师。本来是其他组的，后来领导说归到我的组。然后让我当他的导师，试用期的绩效由我给他制定目标和评分。   \n这几天遇到一个问题，问题出现得比较突然，该组员确实没有机会提前识别到该问题。然后领导让我跟他一起看，复现问题后第一时间我们都有了各自的判断，他认为是系统的问题，而我认为是我们的应用导致系统出现了问题。当即按照我的思路进行了浮现，确认就是我们应用导致系统出的问题。  \n本来也没什么，恰好月底绩效流程走到我这里，我就顺手写了一个“能够按照要求完成相关开发任务，但对问题的钻研程度有待提升”的评价，这个评价不影响他转正（转正靠的是打分，而我都是给他打了不错的分数），后来该组员就找到我，认为我的这个评价有问题,当场表示他很生气。  \n一时间我有点懵逼，当即表示这个并不是说你不好，只是我的一个主观判断，而且不会影响转正。况且我的行事风格就是这样，说点好的一般也回带点不好的。一番沟通下来，该组员似乎“接受”了这个评价。   \n下来我自己想了想，一直反思自己做得到底对不对，各位 V 友怎么看",
           "link": "https://www.v2ex.com/t/1107679",
           "publishedOn": "2025-01-24T09:50:00.000Z",
-          "wordCount": 683,
+          "wordCount": 689,
           "title": "反思:不小心伤害到了组员的自尊",
           "imageUrl": null
         },
@@ -726,7 +726,7 @@
           "description": "eachann: \n原因：新房浴室窗户很亮，进浴室的门也有玻璃，暂时没有做遮挡、换门的想法。\n尝试过的方案：用水贴的那种遮光的纸，几个小时后就自己脱落了，而且楼下看着窗户是纯黑色有点丑\n\n各位有好的方案推荐吗",
           "link": "https://www.v2ex.com/t/1107671",
           "publishedOn": "2025-01-24T09:20:49.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "磨砂窗户怎么遮光啊",
           "imageUrl": null
         },
@@ -736,7 +736,7 @@
           "description": "djunglec: 我是一个 Javer ，但是现在需要搞一些桌面端小工具，之前有搞过 JavaFx ，前段时间有接触到 Flutter 好像也可以。不知道各位大仙没有没有好的建议",
           "link": "https://www.v2ex.com/t/1107670",
           "publishedOn": "2025-01-24T09:13:42.000Z",
-          "wordCount": 472,
+          "wordCount": 505,
           "title": "各位大仙们，请教一个桌面端开发的选择",
           "imageUrl": null
         }
