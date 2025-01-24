@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -149,12 +155,6 @@
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
       ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": []
     },
     {
       "title": "阮一峰的网络日志",
@@ -291,12 +291,182 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107719",
+          "author": "DIO",
+          "description": "DIO: 随身携带的设备里没有能适配的代理软件，很多服务也无法连接热点后设置代理服务器。\n只能寄希望链接的 Wi-Fi 天然环境就是连接外网的。希望设备本身可以搭载 sim 卡或者连接手机热点，然后自己在出来的网络是代理环境的。",
+          "link": "https://www.v2ex.com/t/1107719",
+          "publishedOn": "2025-01-24T14:48:07.000Z",
+          "wordCount": 115,
+          "title": "有没有便携式可以实现透明代理的路由器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107718",
+          "author": "Theresago",
+          "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
+          "link": "https://www.v2ex.com/t/1107718",
+          "publishedOn": "2025-01-24T14:41:27.000Z",
+          "wordCount": 483,
+          "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107716",
+          "author": "sampeng",
+          "description": "sampeng: 最近越来越蠢。就踏实研究了一下，几个问题。\n1 ，官方移除了 long context 。这个事最恶劣，而且是悄悄移除的。这也是 cursor 整体变蠢的最大原因。因为以前 g 可以给大量 d 正确的 x 上下文。现在的上下文是裁剪的。最后结果就是车轱辘话来回来说。哪怕只改一个文件，明显多次理解不一样，丢失细节很严重。甚至这个文件你再问就感觉他都不知道他已经实现过了，又换一种方法实现一遍。目前没什么好办法其实。只要是裁剪后才给 llm 的，都是猜拳游戏。可能减少范围，聊两轮就关闭重起一个，然后再把上下文总结了继续会好点。我现在已经是写了大量设计文档，和 notepads ，我就纳闷我明明说的很清楚，为什么就是当没看见。有时候.cursorrules 都直接无视：很好验证，z 让他开始 s 回答前都必须说，是的先生。总有几次没带上。\n2 ，没有证据证明后台换算法。因为变蠢这是事就很玄学。但目测肯定有时候就不是 claud 3.5 。",
+          "link": "https://www.v2ex.com/t/1107716",
+          "publishedOn": "2025-01-24T14:28:34.000Z",
+          "wordCount": 396,
+          "title": "研究了两个月 cursor，看样子还是 cursor 不赚钱，不是活菩萨。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107715",
+          "author": "BaiLinfeng",
+          "description": "BaiLinfeng: 一晚上了候补也没下落，候补了几个班次的车，感觉这机率渺茫啊，有啥好办法增加候补成功率的吗？我是买的直达，还有携程会员显示的我有一次加速抢票的机会，我也使用了，这加速也不行啊",
+          "link": "https://www.v2ex.com/t/1107715",
+          "publishedOn": "2025-01-24T14:21:46.000Z",
+          "wordCount": 416,
+          "title": "12306 怎么提高抢票机率哦",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107714",
+          "author": "kyonn",
+          "description": "kyonn: \n之前按照 https://v2ex.com/t/1073554 这个方案搭了套 fakeip 方案的 dns ， 主要就是用 paopao dns 和 paopao gateway 实现海外域名自动分流至 fakeip 网关，实际用下来发现 paopao dns 好像老是有些其奇怪的问题，突然可能出现 dns 解析公网 ip 失败的问题，执行下 debug.sh 又恢复正常了， 求推荐下有没有代替的稳定方案。",
+          "link": "https://www.v2ex.com/t/1107714",
+          "publishedOn": "2025-01-24T14:21:11.000Z",
+          "wordCount": 453,
+          "title": "自建 dns 方案求推荐。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107713",
+          "author": "qazwsxkevin",
+          "description": "qazwsxkevin: \nRJ45 ，tuntap ，wifi 接口在不同的场合有 3 个，想做个统计，看看自己一个自然月消耗多少，需要多大的流量卡做参考",
+          "link": "https://www.v2ex.com/t/1107713",
+          "publishedOn": "2025-01-24T13:52:47.000Z",
+          "wordCount": 455,
+          "title": "Win11 有什么网络接口流量统计绿色软件好用？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107712",
+          "author": "sudoy",
+          "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
+          "link": "https://www.v2ex.com/t/1107712",
+          "publishedOn": "2025-01-24T13:42:44.000Z",
+          "wordCount": 431,
+          "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107711",
+          "author": "lazyjohnzhou",
+          "description": "lazyjohnzhou: 刚请教了极空间客服（人工客服响应很快，赞一下）手机端 App 相册自动备份时机。反馈是 Android 和 iOS 都是在极空间 App 打开后自动触发备份。但是如果一直没有主动手动打开极空间 App 的话，相册就不会备份。因为我印象中现在系统对后台管理都很严格，这个也符合我的直觉。\n因为我一直在使用 iCloud ，很喜欢 iCloud 在不打开 App 下也能自动备份的能力。所以还是想请教一下有没有办法能给 NAS 实现不打开 App 也能自动在后台备份相册照片。\n    \n    吐槽一下，个人感觉相对于 NAS 系统这样复杂且重要的软件来说，作为销量不错的极空间，它的用户文档少得且简单得可怜，很多基础的功能和系统行为都需要自己去验证、搜索和询问人工客服，给我一种不太靠谱和用心的感觉。",
+          "link": "https://www.v2ex.com/t/1107711",
+          "publishedOn": "2025-01-24T13:29:52.000Z",
+          "wordCount": 440,
+          "title": "请教极空间 NAS 相册自动备份问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107710",
+          "author": "CSGO",
+          "description": "CSGO: https://s3.bmp.ovh/imgs/2025/01/24/a21c2f0d8b228e94.png\n好像出现了有一周了。相同账号在 macos 上就不会。",
+          "link": "https://www.v2ex.com/t/1107710",
+          "publishedOn": "2025-01-24T13:24:27.000Z",
+          "wordCount": 374,
+          "title": "Windows chrome 网页中任意文字位置可以被鼠标点击出现输入框，这是为什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107709",
+          "author": "lynan",
+          "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
+          "link": "https://www.v2ex.com/t/1107709",
+          "publishedOn": "2025-01-24T13:08:18.000Z",
+          "wordCount": 459,
+          "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107707",
+          "author": "VisualStudioCode",
+          "description": "VisualStudioCode: \n\n（繁体字可能是因为我先从国区转到台湾区，再转到美国区的）\n通过快捷指令切换回中国区（不是切换商店账号），尝试点『更新』，也仍然提示这个。\n尝试卸载（不是删除）后再重新下载，直接不让我装了……",
+          "link": "https://www.v2ex.com/t/1107707",
+          "publishedOn": "2025-01-24T12:56:17.000Z",
+          "wordCount": 469,
+          "title": "苹果账号转到美国区后，抖音 App 无法更新了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107706",
+          "author": "hcsu",
+          "description": "hcsu: \n如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？\n已知的方法有：\n重新配对：不够快速方便\nUniversal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定\n请问还有其他方法吗？谢谢",
+          "link": "https://www.v2ex.com/t/1107706",
+          "publishedOn": "2025-01-24T12:40:41.000Z",
+          "wordCount": 369,
+          "title": "请问妙控板可以在 2 台或多台设备间快速切换吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107705",
+          "author": "GeekGuru",
+          "description": "GeekGuru: \n现在很多 2000 多价位的 M2 Mac mini ，买一个办公用区别不大吧？\n可以省一个 4k 显示器出来。",
+          "link": "https://www.v2ex.com/t/1107705",
+          "publishedOn": "2025-01-24T12:40:33.000Z",
+          "wordCount": 370,
+          "title": "2025 年还能买 M2 Mac mini 么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107704",
+          "author": "Vtoecha",
+          "description": "Vtoecha: \n最近组了一台 all in one 设备，迷你精致还是纯 ecc 内存功耗也低，就是不支持 pcie acs 功能。\ncpu 是 5650ge ，主板是 Gagabyte b550i aorus pro ax ，2.5g 网口，支持 pcie 拆分。\nBios 里也没有 acs 选项，pve 编译了 acs 补丁内核也不起作用，导致主板上的有线网口和无线网卡都在同一个 iommu 组，没办法直通无线给里面的 win11 或者 batocera ，每次都只能用 usb 蓝牙连手柄...还不稳定，时不时开机就要重新插拔下。\ncpu 5650ge 是为了用纯 ecc 内存，然后 x570i 又没有 2.5g 网卡，两个换哪一个都好不爽啊啊啊。",
+          "link": "https://www.v2ex.com/t/1107704",
+          "publishedOn": "2025-01-24T12:20:53.000Z",
+          "wordCount": 435,
+          "title": "是 B550 芯片组不支持还是 Ryzen G 系列不支持 acs",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107703",
+          "author": "nero233",
+          "description": "nero233: \n本人是微软云学生订阅开的香港 B1s 机器，可用性区域位于香港 Zone 1 ，免费额度无可用冗余。\n连续多天发现 vps 在运行 24-48 小时后 cpu 、内存、交换会爆满，负载打到 300 以至于无法维护，必须通过解除分配和重新分配，强制重启服务器，方可恢复使用，并进入 48 小时候暴死循环。\n经过排查，通过包括但不限于删除机器重开，重做系统等方式，最后确认非本人服务器配置问题和软件问题。htop 监测发现在机器启动后 24h-48h 不存在异常进程的情况下 cpu 突然飙升，负载拉满，及时通过 reboot 重启机器，问题依旧存在且持续，只有通过重新分配才能恢复。\n这免费微软云长得跟某些多开超开云一个姿色。\n临时解决方法有解除分配并重新分配，重新部署(redepoly)。\n如果想长效的解决问题，可以修改机器的可用性区域（比如从 Zone 1 换到 Zone 3 ），本人在日本的一台微软云之前通过切换可用性区域解决了相同问题。但是由于微软云的神秘机制，本人一直卡在“审核迁移策略”这一步，持续失败，且免费计划得不到客服的技术支持，只能写一个脚本监测 vps 状态并自动重新部署来缓解问题。",
+          "link": "https://www.v2ex.com/t/1107703",
+          "publishedOn": "2025-01-24T12:17:12.000Z",
+          "wordCount": 392,
+          "title": "白嫖的 Azure B1s 主机在香港 1 区遭遇的负载拉满问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107702",
+          "author": "cj323",
+          "description": "cj323: \n可能是 AI 火了后，使用 Tab 太多了，最近左手小拇指敲键盘会有痛感。\n手碰键盘不舒服这件事，一个码工怎么能忍。想办法中。。。。\n一些背景：\nMac 用户\ncapslock 已经改了 esc ，一个 cmd 改了 ctrl\n经常开很多程序和窗口，所以常 cmd + tab 或 ctrl+tab 切屏\n用 Vim 所以经常要按 esc\n不该可能改的习惯\ntab 补全，这个太通用了，感觉很难改别的，放弃\ncmd tab 切屏，同上\n改 shift 键，这个太难改了，放弃\n可能的解决办法\n改用 cmd+shift+[切 tab ，问题是用这个还是得用小拇指按 shift ，没太大区别。\n减少使用 esc ，改用 ctrl+[或者 ctrl+c ，问题是这个组合键位还是没有单键方便。\n改 esc 到别的键位，这个想了半天也没想到能改哪里。我希望是改到不容易累的手指，比如食指，但是中间的键位都太常用没法改。\n不知道有没有同病相怜的朋友给点建议。",
+          "link": "https://www.v2ex.com/t/1107702",
+          "publishedOn": "2025-01-24T12:15:32.000Z",
+          "wordCount": 498,
+          "title": "通过改键拯救小拇指",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107700",
+          "author": "CNM47589",
+          "description": "CNM47589: \n这是目前唯一能让我再度勃起的电子产品外观。\n举几个例子，三星画境电视、pixel tablet 、apple cinema display 、想象中去掉下巴的新款 iMac",
+          "link": "https://www.v2ex.com/t/1107700",
+          "publishedOn": "2025-01-24T12:05:02.000Z",
+          "wordCount": 380,
+          "title": "哪款 4K 以上显示器有优美的白色、四边等宽边框",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107699",
           "author": "Theresago",
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency  Bank Transfer  PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107699",
           "publishedOn": "2025-01-24T11:36:19.000Z",
-          "wordCount": 488,
+          "wordCount": 490,
           "title": "GoSSL 在这里赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -336,7 +506,7 @@
           "description": "edinina: \n大龄 UI 设计，现就职一家北京的 IT 类公司，在这已经工作十年。\n上个季度因为之前一直参与的一个项目结束了，也没新的项目续上，整个季度工作需求很少，但是有工作需求的都比较积极的完成了。评季度绩效（ 12 月底）的时候，部门大领导给打了倒数第二档，打分理由也是“需求较少，但是参与的工作都没问题”这种。因为我个人感觉需求较少不是我本身的原因，于是下班前咨询了人事管绩效这方面的同事，她说如果有异议可以提，但是也得需要我们部门领导同意修改。我于是跟她说那等我跟领导聊聊再咨询她。\n第二天还没等我问，人事就直接去问我们领导这个事（我也不知道人事是怎么个想法没先问我），然后领导微信上就问我（我是异地远程打卡办公）是对考核有意见什么的。我就硬着头皮跟部门领导谈了这个事，然后她说公司绩效制度就这样，说后面需求上来了再说什么的。我本来心里就因为是远程办公所以多少在这方面有点被动，于是这件事就这么过去了。\n但是最近需求量也没上来。今天下午，一个同事在给甲方做需求的时候，实在忙不过来了就让我帮忙，我答应了就赶紧帮忙开干，负责分配需求的小领导也帮忙去跟部门领导说同事忙不过来先让我帮忙一下。结果过了一会儿同事跟我说，领导不同意。当时我大概也明白了，现在就是有工作需求也不分配给我。\n我之前也问过关系好的同事，我们这个部门这几年被挤走很多人了，大概原因就是效益不好，也不直接辞退，这位部门领导是个女的，总喜欢在裁人前整一些有的没的，没有一次是痛痛快快善始善终的。甚至听说有位前同事被离职的时候在公司大闹，不要赔偿，而是坚持让她改绩效评价，追回克扣的三四千出气。\n现在整得我也是挺难受，其实这么久了对公司还是很有感情的，以前的领导和同事对我都特别好。几年前开始远程办公以后，我知道自己不久后肯定会主动或被动离开这里，但从没想过是像这样离开。\n以前感觉虽然公司不大，但同事领导都是很纯真善良的一帮人。头一次遇到这位这样的，实在是有点不知道接下来该怎么应对了。",
           "link": "https://www.v2ex.com/t/1107695",
           "publishedOn": "2025-01-24T11:12:29.000Z",
-          "wordCount": 406,
+          "wordCount": 408,
           "title": "看来要被优化了",
           "imageUrl": null
         },
@@ -346,7 +516,7 @@
           "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
           "link": "https://www.v2ex.com/t/1107694",
           "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 401,
+          "wordCount": 405,
           "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
           "imageUrl": null
         },
@@ -376,7 +546,7 @@
           "description": "nocover:",
           "link": "https://www.v2ex.com/t/1107691",
           "publishedOn": "2025-01-24T10:39:55.000Z",
-          "wordCount": 381,
+          "wordCount": 115,
           "title": "外烟七星蓝莓爆珠谁有途径，默认几家都停发了。",
           "imageUrl": null
         },
@@ -476,7 +646,7 @@
           "description": "FranzKafka95: \n新进来的组员，资历非常深，工作十几年的老工程师。本来是其他组的，后来领导说归到我的组。然后让我当他的导师，试用期的绩效由我给他制定目标和评分。   \n这几天遇到一个问题，问题出现得比较突然，该组员确实没有机会提前识别到该问题。然后领导让我跟他一起看，复现问题后第一时间我们都有了各自的判断，他认为是系统的问题，而我认为是我们的应用导致系统出现了问题。当即按照我的思路进行了浮现，确认就是我们应用导致系统出的问题。  \n本来也没什么，恰好月底绩效流程走到我这里，我就顺手写了一个“能够按照要求完成相关开发任务，但对问题的钻研程度有待提升”的评价，这个评价不影响他转正（转正靠的是打分，而我都是给他打了不错的分数），后来该组员就找到我，认为我的这个评价有问题,当场表示他很生气。  \n一时间我有点懵逼，当即表示这个并不是说你不好，只是我的一个主观判断，而且不会影响转正。况且我的行事风格就是这样，说点好的一般也回带点不好的。一番沟通下来，该组员似乎“接受”了这个评价。   \n下来我自己想了想，一直反思自己做得到底对不对，各位 V 友怎么看",
           "link": "https://www.v2ex.com/t/1107679",
           "publishedOn": "2025-01-24T09:50:00.000Z",
-          "wordCount": 656,
+          "wordCount": 683,
           "title": "反思:不小心伤害到了组员的自尊",
           "imageUrl": null
         },
@@ -556,7 +726,7 @@
           "description": "eachann: \n原因：新房浴室窗户很亮，进浴室的门也有玻璃，暂时没有做遮挡、换门的想法。\n尝试过的方案：用水贴的那种遮光的纸，几个小时后就自己脱落了，而且楼下看着窗户是纯黑色有点丑\n\n各位有好的方案推荐吗",
           "link": "https://www.v2ex.com/t/1107671",
           "publishedOn": "2025-01-24T09:20:49.000Z",
-          "wordCount": 377,
+          "wordCount": 384,
           "title": "磨砂窗户怎么遮光啊",
           "imageUrl": null
         },
@@ -568,166 +738,6 @@
           "publishedOn": "2025-01-24T09:13:42.000Z",
           "wordCount": 472,
           "title": "各位大仙们，请教一个桌面端开发的选择",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107669",
-          "author": "pyre",
-          "description": "pyre: \n[序]\n虽然这里大佬云集，\n[拍摄]\na7r4a + 50gm1.4 +14gm1.8  \n[注意：个人风格喜欢发竖图]\n\n[1]最大更新当然是换了 LG42C4,\n\n[2]1m5 的键盘垫更新成皮质的，\n为了考虑各种吃饭场景。  \n\n[3]背部追加一块洞洞板，\n\n[4]新增 3d 打印的键盘架拖，\n\n\n[5]新增永不翻车的小船 x2 ，\n\n[6]不明显的 ps5pro 追加光驱模块，\n\n[7]追加了大大小小的若干茶罐，\n\n[8]ps5pro 配 lg42c4 ，感觉最大的浪费在帧率上，\n\n[9]视距略微有点受限，以及镜面屏会反射背面灯带，\n\n[10]洞洞板配合 3d 打印模块，能垂直放很多东西，\n\n[11]以前都是用 27 寸双屏+屏幕支架，这次换 42 有点顶不住，\n\n[12]俯视图，碳晶垫子冬天踩上去非常的舒服，\n[末]\nOLED 是真的清晰(上一个屏幕 IPS)。  \n头一次用电视当显示器，需要调节各种参数后才能更好的使用。  \n国行换区折腾起来也挺麻烦(没部署软路由)，换区出去后拓展性更强。用上了朋友的 emby 影音库看电影还挺香，尤其是开了丝滑平移之后。  \n不过有一点，对于眼睛散光的人来说，再好的屏幕都有点浪费，因为明暗对比越强烈，眼球看到的散光越明显(尤其是黑底+白色字幕的时候)。  \n比较想吐槽那个游戏优化器的 ui 略土...",
-          "link": "https://www.v2ex.com/t/1107669",
-          "publishedOn": "2025-01-24T09:12:51.000Z",
-          "wordCount": 566,
-          "title": "[长图警告] 年底摸鱼,分享下自己搭建的打机环境",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107668",
-          "author": "jaredyam",
-          "description": "jaredyam: \n想买了 65 寸电视，\n3500-4000 档看了海信 65E7N 和 TCL 65Q9K\n5000-5500 档看了 TCL Q10K 和海信 E8N Pro\n主要是希望电视色域和色准优秀，无其他特殊要求，大小也已经确定为选择 65 寸，不知道各位大佬有何建议？",
-          "link": "https://www.v2ex.com/t/1107668",
-          "publishedOn": "2025-01-24T09:10:22.000Z",
-          "wordCount": 576,
-          "title": "买电视，纠结选海信还是 TCL",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107667",
-          "author": "SoyaDokio",
-          "description": "SoyaDokio: \n背景\n电信宽带送的 IPTV 盒子的系统很难用，老人不太会。虽然手写了配图的非常细致的《如何看电视》说明书，老人还是时不时用不好。\n电视自带的系统就是传统的系统，参考小米 TV ，除了广告就是 VIP ，关键 VIP 还不通用。简言之就是电视里除了设置和节目的选项外，还有广告、APP 、电视和机顶盒分别是什么等概念，这个很难跟老人解释得通，即使解释通了第二天就忘了。\n家里有个长虹 chiQ 的 75 寸老电视，不知道型号是什么，用的是下图这个遥控器，它是 蓝牙遥控 的。\n\n打算\n现在打算上淘宝或拼多多买个销量高的、开机自动进入电视直播 APP 的机顶盒。在 B 站看了一些这种测评，反正只要几十块钱，试一下。\n课题\n电视是一个遥控器，机顶盒是另一个遥控器，如何只开一次机。（老人眼里只有电视，机顶盒和电视机分别是什么，以及它们如何合作的，老人是难以理解的）\n解决方案\n利用机顶盒的 CEC 功能实现机顶盒伴随关机 → 问题：①无法伴随开机②需要的是电视伴随机顶盒开关键，而非反过来。\n利用联动插板（检测到主控插口的设备开机后，自动给被控插口通电；反之断电）来给电视自动上电 → 问题：①电视不支持上电自动开机②机顶盒所谓的“关机”实际上是待机，那么“开机”前后功率变化很小是否能让插板的主控插口判定为开机？存疑\n想不出了...\n参考\n如何实现电视开机时启动 iptv 机顶盒？ \n请教各位路过的大佬如何让电视伴随机顶盒开关机？\n（不是强需求，实现不了也无所谓，就当学术讨论）",
-          "link": "https://www.v2ex.com/t/1107667",
-          "publishedOn": "2025-01-24T09:05:49.000Z",
-          "wordCount": 553,
-          "title": "如何让电视伴随机顶盒开关机？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107666",
-          "author": "cais",
-          "description": "cais: \n我媳妇被诈骗犯盯上了，邮箱里说 50 小时内赚 bts ，具体看发送时间是 18 号，我媳妇不是太爱关注邮箱今天才发现，这年头还有这样的骗局。大家还是注意一下，别被骗了\n以下是内容：\nYour time is ticking away.\n\nTake a second to stop, inhale deeply, and concentrate on this message. It's crucial to give it your complete focus.\nWe're about to discuss a significant matter between us, and I'm absolutely not kidding.\nYou might not recognize me, but I'm familiar with you and at this moment, you're likely wondering how, right?\n\nYour browsing habits have been risky - scrolling through videos, clicking links, and visiting some unsafe websites.\nI deployed malware on an adult site, and you stumbled across it.\nWhile you were streaming, your system was exposed through rdp, allowing me full access to your device.\nNow I can monitor everything on your screen, remotely activate your camera…",
-          "link": "https://www.v2ex.com/t/1107666",
-          "publishedOn": "2025-01-24T09:05:42.000Z",
-          "wordCount": 1047,
-          "title": "邮箱诈骗，大过年的大家小心被骗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107665",
-          "author": "captain55",
-          "description": "captain55: \n我先来：龙腾蛇舞 v2ex",
-          "link": "https://www.v2ex.com/t/1107665",
-          "publishedOn": "2025-01-24T09:05:10.000Z",
-          "wordCount": 403,
-          "title": "大佬们，一人出一个口令红包，年后准备暴富了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107664",
-          "author": "jiaoguan1688",
-          "description": "jiaoguan1688: \n自己开个公司\n现在网络环境如下:带机 120 台(包含手机)\n现在 2 个方案\n方案 1:配个 x99 服务器 用 esxi 虚拟爱快 nas linux 等 公司用\n方案 2:配个小主机软路由,直接爱快,然后爱快里虚拟 nas linux docker 等\n再配个小主机用来装 win 自用",
-          "link": "https://www.v2ex.com/t/1107664",
-          "publishedOn": "2025-01-24T09:04:39.000Z",
-          "wordCount": 433,
-          "title": "aio 好 还是分开好?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107663",
-          "author": "tedzhou1221",
-          "description": "tedzhou1221: \n在看 B 站上的教程，看到关于 move 和 闭包的东西。\n地址是 https://b23.tv/dXol75P\n其实中说 FnOne 是至少调用一次。\n还有 Rust 圣经中也同样这么说。\n内容如下：\n所有的闭包都自动实现了 FnOnce 特征，因此任何一个闭包都至少可以被调用一次\n但 Kimi 的解释是：\nFnOnce 的设计目标是确保闭包在调用时可以安全地消耗变量的所有权，而不是强制要求闭包必须被调用。换句话说：\n“只能调用一次”：闭包被设计为只能调用一次，以避免多次调用导致的错误。\n“至少调用一次”：这不是 FnOnce 的要求。闭包可以选择不被调用，但一旦调用，就不能再次调用。\n\n大致意思就是“只能调用一次”\n我的理解也是只能调用一次。\nps: 前几天看到有个推荐 Rust 教程的页面，说《 Rust 语言圣经》错误太多。我现在找不到出处了。请问有哪些是错误的？",
-          "link": "https://www.v2ex.com/t/1107663",
-          "publishedOn": "2025-01-24T09:01:19.000Z",
-          "wordCount": 377,
-          "title": "FnOne 特征是至少调用一次还是只能调用一次？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107662",
-          "author": "dtdths1",
-          "description": "dtdths1: \n气死我了\n想办个宽带，淘宝搜索 “电信宽带”， 出现了一个带天猫 log 的宽带中心，点击后进入了天猫营业厅。\n我本着对天猫官方的信任，点了个立即办理，登记了我姓名、手机号、身份证、地址\n以上流程完全看不出问题。\n艹\n等我提交申请了，突然发现是下的第三方店铺的 0 元订单，再点进去看，0 元的虚拟商品下架了，店铺关闭了\nmd ，这 tm 不是第三方店铺借着官方渠道获取了我的所有信息，然后立刻跑路吗！！！\n客服更是 nt ，我说我信息被你们泄漏了，他更是让我自己去举报，纯 fw\n本来我大件 jd 小件拼夕夕，好不容易用次淘宝，居然踩个这么大坑\n我就问淘宝/天猫是 tm 怎么审核的，赶紧倒闭算了\n气死我了😡",
-          "link": "https://www.v2ex.com/t/1107662",
-          "publishedOn": "2025-01-24T08:59:59.000Z",
-          "wordCount": 468,
-          "title": "淘宝骗我个人信息， wcsndm",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107659",
-          "author": "0x535",
-          "description": "0x535: \n朋友送了个滑板，因为小学时体育课玩滑板的时候摔过，就一直感觉这玩意儿真危险，所以一直没敢去玩。趁着今年不回家过年时间充裕，索性照着教学视频试了一下，一步一步来，并没有想像中的那么难。\n2024 年发生了很多事，有时候就感叹，就像从小被一条细细的铁链拴住的大象，困住自己的并不是客观的事物，而是内心的恐惧和习惯。突破了内心的束缚之后，世界突然变得宽广了。\n另外，肌肉酸痛的时候，也没时间去抑郁了。",
-          "link": "https://www.v2ex.com/t/1107659",
-          "publishedOn": "2025-01-24T08:49:49.000Z",
-          "wordCount": 423,
-          "title": "闲着也是闲着，尝试一些新爱好——滑板",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107657",
-          "author": "ttkit",
-          "description": "ttkit: \n问题：父亲的弟弟的女儿的儿子叫我什么,我是男的。\n这个问题，deepseek v3 一直回答错误，第一次思考的 R1 版本回答的也是有问题。\nv3 回答如下：\n父亲的弟弟的女儿的儿子（即我的堂侄子或表侄子）会称呼我为“堂叔”或“表叔”。\nImgur\nR1 第一次回答：\n结论：父亲的弟弟的女儿的儿子（堂甥）的儿子应叫你 舅公。\n当我说出你的回答错误时，R1 版本重新思考🤔，如下：\n错误原因说明\n此前误将问题中的“儿子”理解为堂甥的儿子（即低两辈的“堂甥孙”），导致回答为“舅公”。\n实际上，问题中的“儿子”是堂甥本人（仅低一辈），因此正确称谓应为 舅舅/堂舅。\n称谓总结\n亲属关系链你的角色对方对你的称呼\n父亲 → 弟弟（叔叔）→ 女儿（堂姐妹）→ 儿子（堂甥）堂舅（母亲的堂兄弟）舅舅 或 堂舅\n感谢您的指正！🙏\n意外惊喜\n我回了句 “拉倒吧”\nR1 回复如下：\nImgur\n以上体验，感觉 R1 版本的确牛逼～ \n另外中国亲戚称谓关系也让 AI 苦恼吗🤔",
-          "link": "https://www.v2ex.com/t/1107657",
-          "publishedOn": "2025-01-24T08:47:33.000Z",
-          "wordCount": 422,
-          "title": "关于 DeepSeek V3 对亲戚称谓回答一直错误的问题， R1 版本略显牛逼",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107656",
-          "author": "3243212",
-          "description": "3243212: \n年初部门裁员一大半，自己做的方向感觉毫无希望，失业压力大，于是破罐子破摔，和老板直接互怼，终于换方向了。年底好几年没动的职级涨了，工资也跟着涨了，临近年关，右脚被骑电瓶车非机动车道中间逆行的人撞骨折了。",
-          "link": "https://www.v2ex.com/t/1107656",
-          "publishedOn": "2025-01-24T08:36:46.000Z",
-          "wordCount": 366,
-          "title": "总结一下 2024 年",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107655",
-          "author": "rechardwong0522",
-          "description": "rechardwong0522: 如题。最近收了个 iphone 11 ，系统版本还是 14.1 ，现在一些外网 app 要去 15.0 以上。老手机了，主要用来开发，所以我不想升级到最新版本。\n请问是不是没办法只能升级到最新版本了？",
-          "link": "https://www.v2ex.com/t/1107655",
-          "publishedOn": "2025-01-24T08:31:07.000Z",
-          "wordCount": 469,
-          "title": "系统版本还在 14.1，有些 app 无法安装，有什么办法可以不升级到最新的 ios18.2.1 吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107654",
-          "author": "Dotdotnetworks",
-          "description": "Dotdotnetworks: \nDotdotnetworks 美国服务器专家，产品全綫升级！\n#物理宿主机新增大宽带限流款，\n#VPS 全綫升级降价，万兆 4837 ，9299+CMIN2 ，CN2GIA  29.9USD/年起！\n#支持定制配置\nLookingglass\n中国电信 CN2GIA 线路 - http://103.141.1.156:8800/\n联通 4837 线路 - http://156.225.92.126:8800/\n精品回国 CU9929+CMIN2 线路 - http://45.221.99.2:8800/\n国际 BGP 线路 - http://103.119.15.130:8800/\n美国洛杉矶高端物理机系列，宿主机新增大宽带限流选项，可选择固定宽带 或 大宽带限流，可选择中国精品（ CU9929+CMIN2 ）或中国联通 4837 綫路\n购买链接： https://www.dotdotnetworks.com/index.php?rp=/store/dedicated-serve-usa\n美国洛杉矶精品回国綫路 VPS （ CU9929+CMIN2 ），高端回国綫路首选，99.99%稳定在綫率\n购买链接： https://www.dotdotnetworks.com/index.php?rp=/store/vpscu9929cmin2\n美国洛杉矶精品回国綫路 VPS （ CU9929+CMIN2 ）多 IP 站群 VPS ，新增 13 枚、25 枚 IP 小站群\n购买链接： https://www.dotdotnetworks.com/index.php?rp=/store/vpscn2gia\n美国洛杉联通 4837 綫路 VPS ，大宽带高性价比回国首选！\n购买链接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-chao-ji-fu-wu-qi-da-kuan-dai-xian-liu-xing\n美国洛杉矶电信 CN2GIA 綫路 VPS ，最快的回国綫路！\n购买链接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-ji-qun-fu-wu-qi\n关注 Telegram 官方频道，获取最新优惠信息： https://t.me/dotdotnetworks\nTelegram：@server901\nSkype：live:.cid.ff71d25b259c3b0f",
-          "link": "https://www.v2ex.com/t/1107654",
-          "publishedOn": "2025-01-24T08:30:25.000Z",
-          "wordCount": 439,
-          "title": "美国洛杉矶万兆 4837|9929+CMIN2|CN2GIA 29.9USD/年起 !匿名购买 可 U",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107653",
-          "author": "tool2dx",
-          "description": "tool2dx: 有人要送我一台 4k 显示器，被我婉拒了。\n感叹现在 PC 游戏对显卡要求真是离谱（比如 FF16 ），现在 4k 显示器其实没那么贵了，但是没有 40 系显卡的支撑，完全跑不动 3A 游戏。\n游戏画面 1080p+120 帧，和 4k+30 帧，我选择了前者。。",
-          "link": "https://www.v2ex.com/t/1107653",
-          "publishedOn": "2025-01-24T08:27:07.000Z",
-          "wordCount": 388,
-          "title": "有没有人因为显卡不给力，一直用不了 4k 显示器的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107652",
-          "author": "mawen0726",
-          "description": "mawen0726: 能 ping 通，延迟 200+\n但是所有的端口都 telnet 不通，重装系统，防火墙没开，ssh 的 22 不通\n改了端口，防火墙没开，这个端口也不通\n服务商是 hostdare ，节点是在美国的",
-          "link": "https://www.v2ex.com/t/1107652",
-          "publishedOn": "2025-01-24T08:26:48.000Z",
-          "wordCount": 503,
-          "title": "请教下，我这个 vps 是不是没救了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107651",
-          "author": "astuleur",
-          "description": "astuleur: 从招聘网站抓取招聘公司，行业分类，岗位信息，岗位要求，然后做数据分析，年龄，专业，学历，经验，技能，证书要求，倒推做出教育，专业，考证选择。但怎么鉴别公司实际用工需求，抓取公司组织架构有点难吧，另外结合企查查新注册公司信息，能获取最新行业方向吗",
-          "link": "https://www.v2ex.com/t/1107651",
-          "publishedOn": "2025-01-24T08:25:57.000Z",
-          "wordCount": 470,
-          "title": "用 Python 能做职业规划吗？",
           "imageUrl": null
         }
       ]
