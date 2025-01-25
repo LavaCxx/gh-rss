@@ -230,6 +230,57 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/692",
+          "author": null,
+          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/692",
+          "publishedOn": "2025-01-08T02:30:11.000Z",
+          "wordCount": null,
+          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/691",
+          "author": null,
+          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/691",
+          "publishedOn": "2025-01-06T05:12:02.000Z",
+          "wordCount": null,
+          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/690",
+          "author": null,
+          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/690",
+          "publishedOn": "2025-01-04T06:10:42.000Z",
+          "wordCount": null,
+          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -240,7 +291,7 @@
           "description": "mercury233: \n安装了某个 AI 编辑器后，几乎所有的代码文件的图标都变成了一坨黑色，看着有点难受，想统一修改\n找到的 IconPackager 和 7tsp 似乎都致力于替换系统文件，与这个需求不符\n是不是只能用 FileTypesMan 一个个替换了",
           "link": "https://www.v2ex.com/t/1107757",
           "publishedOn": "2025-01-25T02:57:53.000Z",
-          "wordCount": 396,
+          "wordCount": 418,
           "title": "大家有没有整体美化过 Windows 上代码文件的图标？",
           "imageUrl": null
         },
@@ -270,7 +321,7 @@
           "description": "Ivone29: \n我先做了一款 MacApp 试了试水感觉有细分市场的需求，可见这个帖子 给你的临时笔记一个好归宿。\n于是一周时间，我开发出来了 iOS 端，但开发者账户不知道为什么无法继续使用了（ Apple 回复说由于一个或多个原因无法完成），搞了好久终于才上架。\n我准备了 30 个兑换码，麻烦各位 v 友高抬贵手给个五星好评，老规矩，放在评论中，自取。没码了可以评论中问我要，我看到会生成新的给你回复。",
           "link": "https://www.v2ex.com/t/1107754",
           "publishedOn": "2025-01-25T02:28:01.000Z",
-          "wordCount": 530,
+          "wordCount": 571,
           "title": "🎁 [发码] 我开发了一款程序员三件套，但这款又有点不一样",
           "imageUrl": null
         },
@@ -280,7 +331,7 @@
           "description": "revival83: 感觉好麻烦",
           "link": "https://www.v2ex.com/t/1107753",
           "publishedOn": "2025-01-25T02:27:57.000Z",
-          "wordCount": 418,
+          "wordCount": 440,
           "title": "华硕主板这个奥创中心里的静音风扇设置，每次重启都要设置一次么？",
           "imageUrl": null
         },
@@ -320,7 +371,7 @@
           "description": "funcy: 年后想看看工作，奈何学历太差，求劝",
           "link": "https://www.v2ex.com/t/1107748",
           "publishedOn": "2025-01-25T01:40:34.000Z",
-          "wordCount": 500,
+          "wordCount": 513,
           "title": "非全本科找工作是不是没戏了",
           "imageUrl": null
         },
@@ -330,7 +381,7 @@
           "description": "jyrt: \n一直觉得苹果的产品默认连接蓝牙鼠标用轮滚的时候都非常卡。在 Mac 上可以使用 MOS 这样的软件使滚动变得平滑，但是在 iPad 上一直没有很好的解决方法。",
           "link": "https://www.v2ex.com/t/1107747",
           "publishedOn": "2025-01-25T01:29:08.000Z",
-          "wordCount": 385,
+          "wordCount": 396,
           "title": "iPad 有类似 Mac 的鼠标滚动优化工具吗",
           "imageUrl": null
         },
@@ -350,7 +401,7 @@
           "description": "Kite6: \n官方引以为傲的“安全隔离模式”：其实本质就是手动加了几条 iptables 防火墙，并且 ip6tables 还没配置，导致所有 ipv6 防火墙都不生效： https://forum.terra-master.com/cn/viewtopic.php?t=4619\n安装第三方套件后，不需要任何授权即可访问系统文件目录： https://forum.terra-master.com/cn/viewtopic.php?t=4772",
           "link": "https://www.v2ex.com/t/1107745",
           "publishedOn": "2025-01-25T00:57:22.000Z",
-          "wordCount": 541,
+          "wordCount": 566,
           "title": "有用铁威马 nas 的注意了，官方一堆安全问题，反馈了也不修复，可千万别存隐私文件",
           "imageUrl": null
         },
@@ -360,7 +411,7 @@
           "description": "trihuan: 具体行为，比如点击不喜欢，不适、点赞、点赞数量，一段时间内点赞收藏等等、划页面的速度、",
           "link": "https://www.v2ex.com/t/1107744",
           "publishedOn": "2025-01-25T00:51:16.000Z",
-          "wordCount": 397,
+          "wordCount": 436,
           "title": "有没有什么刻意引导 xhs 算法推送质量的行为",
           "imageUrl": null
         },
@@ -370,7 +421,7 @@
           "description": "gransh: \n在 v 站搜了很多相关的，各种方案都有，但是似乎没有一个靠谱的。\n有接入代收的，国内给你 rmb ，这种资金来源也有风险吧，抽成也挺高。\nwise 和 payoneer 好像也只能收公户转账，不能收私户转账。各位在网站上接入支付还有捐赠的时候怎么接入的呢？\n还有人说港卡收个人转账也会被封。\nstripe 开香港和英国公司是个稳定的选择，但是公户的钱要拿来花也很麻烦吧。\n有人用多道中转回国，中转的原则是什么呢，中转几次就安全了吗，有一个环节卡住就凉了吧。",
           "link": "https://www.v2ex.com/t/1107743",
           "publishedOn": "2025-01-25T00:48:50.000Z",
-          "wordCount": 751,
+          "wordCount": 787,
           "title": "关于个人开发者境外收款，有没有人能讲明白的？",
           "imageUrl": null
         },
@@ -430,7 +481,7 @@
           "description": "Damn: \nServicePointManager.ServerCertificateValidationCallback = delegate { return true; };\nprivate HttpWebResponse GetResponse(string url, string accept, ref CookieContainer container, bool allowRedirect, string referer)\n{\n    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);\n    request.ServicePoint.Expect100Continue = false;\n    request.CookieContainer = container;\n    request.Method = WebRequestMethods.Http.Get;\n    request.AllowAutoRedirect = allowRedirect;\n    request.KeepAlive = true;\n    request.UserAgent = \"Mozilla / 5.0(Windows NT 10.0; WOW64; Trident / 7.0; rv: 11.0) like Gecko\";\n    request.Accept = accept;\n    request.Referer = referer;\n    request.Headers[\"Accept-Encoding\"] = \"gzip, deflate\";\n    try\n    {\n        return (HttpWebResponse)request.GetResponse();\n    }\n    catch (WebException e)\n    {\n        if (e.Response == null)\n        {\n            throw;\n        }\n        return (HttpWebResponse)e.Response;\n    }\n}\n\n有一不受控的外部服务器，证书 CN 不匹配，用 fiddler 进行中间人，证书 CN 与之匹配了，代码能如预期运行。\n不使用 fiddler ，在请求 html 的时候能正常获取内容，说明忽略证书错误的代码起作用了，但请求 json 的时候 request.GetResponse()会卡住，debug 时断点在这里，按 F10/F11 就没有后续了。。\n不知问题出在何处。。",
           "link": "https://www.v2ex.com/t/1107733",
           "publishedOn": "2025-01-24T16:57:48.000Z",
-          "wordCount": 582,
+          "wordCount": 586,
           "title": "用 C#搓了个小工具，但有个诡异的地方不知如何解决",
           "imageUrl": null
         },
@@ -450,7 +501,7 @@
           "description": "misen89: \n起因是 Warp 的免费用量不够，所以就找了这个以前用过的觉得特别复古又酷的应用\n在 AI 的帮助下增加了 AI 功能，常见的指令随便问问就行了\n不用再切窗口问 AI 了，自己用着挺方便\n没有特别高级需求的新手小白可以用\n如果显示已损坏需要运行指令\nxattr -cr /Applications/cool-retro-term.app\ncodesign --force --deep --sign - /Applications/cool-retro-term.app\n\nhttps://github.com/nbmisen/cool-retro-term-ai/releases",
           "link": "https://www.v2ex.com/t/1107729",
           "publishedOn": "2025-01-24T16:18:37.000Z",
-          "wordCount": 386,
+          "wordCount": 395,
           "title": "魔改了一下 cool retro term 终端，增加了 AI 的侧边栏，开源可下载",
           "imageUrl": null
         },
@@ -590,7 +641,7 @@
           "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
           "link": "https://www.v2ex.com/t/1107712",
           "publishedOn": "2025-01-24T13:42:44.000Z",
-          "wordCount": 486,
+          "wordCount": 516,
           "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
           "imageUrl": null
         },
@@ -620,7 +671,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 550,
+          "wordCount": 575,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         }
