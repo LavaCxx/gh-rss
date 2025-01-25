@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -224,57 +230,6 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -315,7 +270,7 @@
           "description": "Ivone29: \n我先做了一款 MacApp 试了试水感觉有细分市场的需求，可见这个帖子 给你的临时笔记一个好归宿。\n于是一周时间，我开发出来了 iOS 端，但开发者账户不知道为什么无法继续使用了（ Apple 回复说由于一个或多个原因无法完成），搞了好久终于才上架。\n我准备了 30 个兑换码，麻烦各位 v 友高抬贵手给个五星好评，老规矩，放在评论中，自取。没码了可以评论中问我要，我看到会生成新的给你回复。",
           "link": "https://www.v2ex.com/t/1107754",
           "publishedOn": "2025-01-25T02:28:01.000Z",
-          "wordCount": 496,
+          "wordCount": 530,
           "title": "🎁 [发码] 我开发了一款程序员三件套，但这款又有点不一样",
           "imageUrl": null
         },
@@ -325,7 +280,7 @@
           "description": "revival83: 感觉好麻烦",
           "link": "https://www.v2ex.com/t/1107753",
           "publishedOn": "2025-01-25T02:27:57.000Z",
-          "wordCount": 404,
+          "wordCount": 418,
           "title": "华硕主板这个奥创中心里的静音风扇设置，每次重启都要设置一次么？",
           "imageUrl": null
         },
@@ -335,7 +290,7 @@
           "description": "mccoymir: \n{\"code\":500,\"msg\":\"server busy\",\"success\":false,\"t\":1737769849833,\"tid\":\"\"}\n大过年的。。",
           "link": "https://www.v2ex.com/t/1107752",
           "publishedOn": "2025-01-25T01:56:35.000Z",
-          "wordCount": 362,
+          "wordCount": 364,
           "title": "tuya 崩了？",
           "imageUrl": null
         },
@@ -355,7 +310,7 @@
           "description": "leecoocie: \n如题，前段时间手机收到了 IOS 版本更新的推送，就顺手升级到了 IOS 18.1.1\n但是不知道这个版本加入了什么神奇的功能\n只要我在手机上打开过音频播放类的 App 后，即使我后台强制关闭了该 APP 的进程，但每次我一上车，车机连接上手机的蓝牙之后，这个 APP （喜马拉雅） 的音频就又会开始自动播放。\n设置里找了半天没发现可以关闭自动播放的设置，尝试关闭 APP 的后台应用刷新也不行，只要车机一连上蓝牙，就会开始自动播放\n无奈直接卸载了该 App ，但是下一次上车时，他竟然又自动播放起了另一个之前使用过的音频类 App （播客）\n就很无解，IOS 升级之前都是好好的，虽然之前上车时也会自动连接蓝牙开始播放，但是只要我后台关闭该应用后，下一次上车就不再自动播放了。但是升级后我怎么都关闭不了蓝牙连接后自动播放的功能。\n不知道各类大佬有没有遇到类似的场景，想求助下有么有解决的办法？\n当然选择关闭蓝牙也是一个方法，但有时候开车的时候也还是需要蓝牙连接的，有没有更优雅的解决办法？",
           "link": "https://www.v2ex.com/t/1107749",
           "publishedOn": "2025-01-25T01:49:44.000Z",
-          "wordCount": 449,
+          "wordCount": 451,
           "title": "[求助] 有没有办法可以让车机连接上手机蓝牙后不自动播放音频？",
           "imageUrl": null
         },
@@ -365,7 +320,7 @@
           "description": "funcy: 年后想看看工作，奈何学历太差，求劝",
           "link": "https://www.v2ex.com/t/1107748",
           "publishedOn": "2025-01-25T01:40:34.000Z",
-          "wordCount": 494,
+          "wordCount": 500,
           "title": "非全本科找工作是不是没戏了",
           "imageUrl": null
         },
@@ -395,7 +350,7 @@
           "description": "Kite6: \n官方引以为傲的“安全隔离模式”：其实本质就是手动加了几条 iptables 防火墙，并且 ip6tables 还没配置，导致所有 ipv6 防火墙都不生效： https://forum.terra-master.com/cn/viewtopic.php?t=4619\n安装第三方套件后，不需要任何授权即可访问系统文件目录： https://forum.terra-master.com/cn/viewtopic.php?t=4772",
           "link": "https://www.v2ex.com/t/1107745",
           "publishedOn": "2025-01-25T00:57:22.000Z",
-          "wordCount": 536,
+          "wordCount": 541,
           "title": "有用铁威马 nas 的注意了，官方一堆安全问题，反馈了也不修复，可千万别存隐私文件",
           "imageUrl": null
         },
@@ -415,7 +370,7 @@
           "description": "gransh: \n在 v 站搜了很多相关的，各种方案都有，但是似乎没有一个靠谱的。\n有接入代收的，国内给你 rmb ，这种资金来源也有风险吧，抽成也挺高。\nwise 和 payoneer 好像也只能收公户转账，不能收私户转账。各位在网站上接入支付还有捐赠的时候怎么接入的呢？\n还有人说港卡收个人转账也会被封。\nstripe 开香港和英国公司是个稳定的选择，但是公户的钱要拿来花也很麻烦吧。\n有人用多道中转回国，中转的原则是什么呢，中转几次就安全了吗，有一个环节卡住就凉了吧。",
           "link": "https://www.v2ex.com/t/1107743",
           "publishedOn": "2025-01-25T00:48:50.000Z",
-          "wordCount": 723,
+          "wordCount": 751,
           "title": "关于个人开发者境外收款，有没有人能讲明白的？",
           "imageUrl": null
         },
@@ -425,7 +380,7 @@
           "description": "zdw1984: 昨天在群里搜索 DS Cloud 一些相关报道，发现一件神奇的事情，就是有人冒名顶替我，说是他开发了 DS Cloud ，但是我还是要谢谢这位大哥，这种不求名利的冒名顶替，还替我宣传了 App ，真实新年里的一股暖流啊，好人哪里都有😂。\n![]( )\n最后我说下，现在 DS Cloud 新年促销中，有兴趣的小伙伴可以关注一下。\n不了解 DS Cloud 的小伙伴可以看下这篇文章\nhttps://www.v2ex.com/t/1087273\n最后祝大家新年快乐，蛇年大吉~~",
           "link": "https://www.v2ex.com/t/1107742",
           "publishedOn": "2025-01-25T00:47:32.000Z",
-          "wordCount": 540,
+          "wordCount": 542,
           "title": "发现我被冒名顶替了，但是我要谢谢这位大哥",
           "imageUrl": null
         },
@@ -435,7 +390,7 @@
           "description": "shuiguomayi: \n大容量硬盘柜，比如 5 个盘位的 RAID5. 盘柜自己有电源支持，用 USB 线连接到树莓派。理论上，是不是没问题。问这个问题，主要是我之前遇到过一个诡异的问题，就是，以前买了个 3.5 的机械硬盘，还有一个配套的硬盘盒，自带电源供电，然后 ISB 连接到树莓派上，居然老是掉盘，一到写文件写了几十兆，盘符在系统里就不见了。树莓派上跑的是 raspbian. 想不明白哪里的问题，硬盘不是都自带电源了吗",
           "link": "https://www.v2ex.com/t/1107740",
           "publishedOn": "2025-01-25T00:41:54.000Z",
-          "wordCount": 506,
+          "wordCount": 507,
           "title": "树莓派能带的动大容量硬盘柜吗",
           "imageUrl": null
         },
@@ -475,7 +430,7 @@
           "description": "Damn: \nServicePointManager.ServerCertificateValidationCallback = delegate { return true; };\nprivate HttpWebResponse GetResponse(string url, string accept, ref CookieContainer container, bool allowRedirect, string referer)\n{\n    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);\n    request.ServicePoint.Expect100Continue = false;\n    request.CookieContainer = container;\n    request.Method = WebRequestMethods.Http.Get;\n    request.AllowAutoRedirect = allowRedirect;\n    request.KeepAlive = true;\n    request.UserAgent = \"Mozilla / 5.0(Windows NT 10.0; WOW64; Trident / 7.0; rv: 11.0) like Gecko\";\n    request.Accept = accept;\n    request.Referer = referer;\n    request.Headers[\"Accept-Encoding\"] = \"gzip, deflate\";\n    try\n    {\n        return (HttpWebResponse)request.GetResponse();\n    }\n    catch (WebException e)\n    {\n        if (e.Response == null)\n        {\n            throw;\n        }\n        return (HttpWebResponse)e.Response;\n    }\n}\n\n有一不受控的外部服务器，证书 CN 不匹配，用 fiddler 进行中间人，证书 CN 与之匹配了，代码能如预期运行。\n不使用 fiddler ，在请求 html 的时候能正常获取内容，说明忽略证书错误的代码起作用了，但请求 json 的时候 request.GetResponse()会卡住，debug 时断点在这里，按 F10/F11 就没有后续了。。\n不知问题出在何处。。",
           "link": "https://www.v2ex.com/t/1107733",
           "publishedOn": "2025-01-24T16:57:48.000Z",
-          "wordCount": 546,
+          "wordCount": 582,
           "title": "用 C#搓了个小工具，但有个诡异的地方不知如何解决",
           "imageUrl": null
         },
@@ -525,7 +480,7 @@
           "description": "LowerAI: 想弄个能装 12 块可拔插硬盘的大机箱，可支持 ATX/EATX 主板，两层的也行。\n卧式的话要求宽度小于等于 450mm ，深度小于等于 500mm 。竖式的话要求高度小于等于 450mm ，长度小于等于 500mm 。\n求大佬们推荐，谢谢。",
           "link": "https://www.v2ex.com/t/1107725",
           "publishedOn": "2025-01-24T15:13:50.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "求推荐合适的 NAS 机箱",
           "imageUrl": null
         },
@@ -575,7 +530,7 @@
           "description": "XuanYuan:",
           "link": "https://www.v2ex.com/t/1107720",
           "publishedOn": "2025-01-24T14:56:16.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "各位，有什么好的手机壁纸推荐吗？",
           "imageUrl": null
         },
@@ -595,7 +550,7 @@
           "description": "sampeng: 最近越来越蠢。就踏实研究了一下，几个问题。\n1 ，官方移除了 long context 。这个事最恶劣，而且是悄悄移除的。这也是 cursor 整体变蠢的最大原因。因为以前 g 可以给大量 d 正确的 x 上下文。现在的上下文是裁剪的。最后结果就是车轱辘话来回来说。哪怕只改一个文件，明显多次理解不一样，丢失细节很严重。甚至这个文件你再问就感觉他都不知道他已经实现过了，又换一种方法实现一遍。目前没什么好办法其实。只要是裁剪后才给 llm 的，都是猜拳游戏。可能减少范围，聊两轮就关闭重起一个，然后再把上下文总结了继续会好点。我现在已经是写了大量设计文档，和 notepads ，我就纳闷我明明说的很清楚，为什么就是当没看见。有时候.cursorrules 都直接无视：很好验证，z 让他开始 s 回答前都必须说，是的先生。总有几次没带上。\n2 ，没有证据证明后台换算法。因为变蠢这是事就很玄学。但目测肯定有时候就不是 claud 3.5 。",
           "link": "https://www.v2ex.com/t/1107716",
           "publishedOn": "2025-01-24T14:28:34.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "研究了两个月 cursor，看样子还是 cursor 不赚钱，不是活菩萨。",
           "imageUrl": null
         },
@@ -635,7 +590,7 @@
           "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
           "link": "https://www.v2ex.com/t/1107712",
           "publishedOn": "2025-01-24T13:42:44.000Z",
-          "wordCount": 478,
+          "wordCount": 486,
           "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
           "imageUrl": null
         },
@@ -665,7 +620,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 549,
+          "wordCount": 550,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         }
