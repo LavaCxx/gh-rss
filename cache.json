@@ -151,6 +151,12 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": []
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -275,6 +281,136 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107856",
+          "author": "bclerdx",
+          "description": "bclerdx: 据 DMIT 的消息，LAX Pro v6 不使用 AS4809 的 CN2 ，居然是境内段 CN 2 没有完成 IPv6 的网络建设？\n难道说 AS 4809 的 CN2 在境内段和跨境段仍没有完成 IPv6 的网络建设吗？难以置信！！！\nAS4809 境内段没有完成 IPv6 网络的建设。\n目前 AS4809 仅提供境外段（ X-F ） IPv6 互联。跨境段（ C-I ）与境内段均为 AS4134 。\n其质量与直接使用 AS4134 IPv6 相当，甚至质量更差。\n在 LAX Pro 中配置 CN2 IPv6 ，可以简单理解为 DMIT 支付 CN2 GIA 的成本，为提供客户 AS4134 的服务。",
+          "link": "https://www.v2ex.com/t/1107856",
+          "publishedOn": "2025-01-25T15:17:52.000Z",
+          "wordCount": 409,
+          "title": "据 DMIT 的消息， LAX Pro v6 不使用 AS4809 的 CN2，居然是境内段 CN 2 没有完成 IPv6 的网络建设？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107855",
+          "author": "giter",
+          "description": "giter: 多开程序后，多个相同托盘图标不太好区分，要是能修改 ico 就能更好地区分用途。",
+          "link": "https://www.v2ex.com/t/1107855",
+          "publishedOn": "2025-01-25T15:17:25.000Z",
+          "wordCount": 370,
+          "title": "Windows 有没有程序可以修改任务栏中任意程序的托盘图标？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107853",
+          "author": "fengshushu8",
+          "description": "fengshushu8: 我之前的最后一代 intel 的 mbp16 ，硬盘挂壁了，我不知道为什么，当然这事过去很久了。\n最近，我准备手上的 8G 内存的 M2 Mini 卖了换 M4 Mini ，当我通过 smartmontools 查看硬盘寿命，告诉群友使用了一年的时间硬盘写了 10T 的时候，有一个群友说的话，让我很不愉快，他说，他的电脑用 5 年也写不到 10T 的量。\n我一生气，嘛得，我搁这卖设备呢，你说这话，我设备还怎么卖？一生气就把他踢出群了。\n但是，越想越不对劲，10T 到底是个什么概念？ 1 年写入 10 T ，365 天每天都不歇停的话是日写 28GB ，可是，我这台 M2 mini 是一个备用机，1 年 365 天真正使用不超过 100 天，那这个就恐怖了，按 100 天算就是日写 102GB 。\n这就非常非常非常恐怖了，一台也就浏览浏览网页的电脑，硬盘日写 102GB ，我自己都惊讶到了。\n于是，我又通过 smartmontools ，查询了我那 2022 年买的 8G 内存的 iMac ，一查直接懵逼，硬盘写入量 57T 。\n57T 什么概念？ 256GB 硬盘的理论 TBW 应该是 100-150TB ，也就是说 57T 已经将这块硬盘的理论寿命消耗了一半了。\n我通过，Mac 自带的 [活动监视器] 查看 [磁盘] 发现，写入最大的是 PID 为 0 的 kernel_task 进程，几乎就是电脑放那啥也没操作的话，日写 20GB 以上。\n最近，我出去旅游了 5 天，回来特地看了一下 [活动监视器] ，磁盘写入量 1.25TB\n\n我翻阅了很多资料，问了很多 GPT ，基本掌握的结论就是 [内存不足会导致 macOS 频繁使用内存压缩和交换文件（ Swap ），从而增加硬盘写入量，表现为 kernel_task 进程频繁写入数据。] \n也就是说，选择 8G 内存的 Mac 电脑，你除了担心日常够不够用之外，还要考虑硬盘寿命够不够借用。\n所以，再买 Mac 电脑，请把所有预算都堆到内存上，尽量不要买丐版内存设备。\n当然，发此文章，并不是给各位制造硬盘寿命焦虑，但至少，应该，众所周知这一特性。",
+          "link": "https://www.v2ex.com/t/1107853",
+          "publishedOn": "2025-01-25T15:11:23.000Z",
+          "wordCount": 478,
+          "title": "买 Mac 电脑，一定要把所有预算堆到内存上，一定一定记住。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107850",
+          "author": "box2233",
+          "description": "box2233: 老家新房子\n光猫、路由器和机顶盒都是移动的\n路由器里面甚至不给你拨号的选项\n只能在桥、路由和无线中继里面选\n只能在桥、路由和无线中继里面选",
+          "link": "https://www.v2ex.com/t/1107850",
+          "publishedOn": "2025-01-25T14:44:57.000Z",
+          "wordCount": 346,
+          "title": "新房子網絡設備全移動，求破局方式",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107849",
+          "author": "NewMoorj",
+          "description": "NewMoorj: 翻了翻各种信息，好像还是没说明白啊？",
+          "link": "https://www.v2ex.com/t/1107849",
+          "publishedOn": "2025-01-25T14:42:15.000Z",
+          "wordCount": 380,
+          "title": "肯尼迪事件解密了，凶手是谁？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107846",
+          "author": "songweibiao",
+          "description": "songweibiao: \n你有没有过这样的困扰：和 AI 讨论复杂任务时，一开始搭建好的整体思考框架，讨论到后面却忘得一干二净？别担心，救星来啦 ——Thinkmind V1.0 浏览器插件，专为拯救混乱思维而生！\n现在已上架 edge 扩展商店，欢迎大家体验，吐槽、提建议！安装链接： https://microsoftedge.microsoft.com/addons/detail/ceffgmeepalinmgmfmhlabkjicoppohc\n一、Thinkmind V1.0：思维导图界的宝藏工具\nThinkmind V1.0 是一款简洁又高效的思维导图工具，能让你的思维瞬间变得井井有条，创意也能不受束缚地自由驰骋！不管你是职场达人、学生党，还是创意工作者，它都能成为你的得力助手。\n二、功能强大到超乎想象\n（一）文件管理超省心\n轻松实现文件的创建、打开和删除，操作简单易懂，就像在自己的电脑桌面整理文件一样方便。\n支持文件备份导出和恢复导入，再也不怕数据丢失！无论是换设备还是误操作，随时都能找回重要内容。\n自动保存功能超贴心，无需手动操作，你每一次的修改都会被稳稳记录，创作过程毫无后顾之忧。\n（二）需求管理超灵活\n多级需求层级结构，满足你从宏观规划到细节把控的所有需求。无论是大型项目的复杂规划，还是日常任务的简单梳理，都能轻松应对。\n支持需求的添加、编辑、删除，还能通过简单的拖拽进行排序，让你的思路调整更加随心所欲。批量删除功能更是能一键清理不需要的内容，高效又便捷。\n（三）编辑功能超实用\n自动分行：一大段内容，贴入，自动分行。\n每个需求支持最多 100 字符的描述，简洁又能抓住重点，帮助你快速记录关键信息。\n可以标记需求完成状态，任务进度一目了然，轻松实现自我监督和管理。\n子需求快速生成，思维拓展更顺畅，随时捕捉灵感火花，不让任何创意溜走。\n（四）界面设计超惊艳\n简洁现代的界面设计，摒弃繁杂元素，让你专注于内容创作，减少外界干扰。\n流畅的交互动画，操作起来丝滑无比，为你的使用过程增添乐趣。\n清晰的层级导航，让你在复杂的思维导图中也能快速找到自己需要的内容，轻松实现思维跳跃。\n（五）数据存储超安心\n本地存储，无需联网！不用担心网络问题影响使用，随时随地都能打开插件继续工作，保障你的隐私安全。\n支持数据的导入导出，方便你与他人分享或在不同环境下使用，轻松实现数据迁移。自动保存所有修改，每一次思考的成果都不会被辜负。",
+          "link": "https://www.v2ex.com/t/1107846",
+          "publishedOn": "2025-01-25T14:01:53.000Z",
+          "wordCount": 388,
+          "title": "还在为思维混乱发愁？这款神器帮你一键梳理！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107845",
+          "author": "fumer",
+          "description": "fumer: \nb 端比如用 admin 到还比较合理\nc 端用 client ，customer ，front ，好像都不大合适",
+          "link": "https://www.v2ex.com/t/1107845",
+          "publishedOn": "2025-01-25T13:40:37.000Z",
+          "wordCount": 409,
+          "title": "大家对 b 端， c 端的英文词汇一般用什么来表达",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107844",
+          "author": "LotusChuan",
+          "description": "LotusChuan: \n今天闲着看了支付宝账单，发现每隔一周就有笔 68 元的 App Store 消费记录，最后确定是因为给妹妹买 iPad 时为她注册了 Apple ID 并绑到了我的家人账号中，她通过 App Store 订阅了一个游戏内购项目，而支付走的是我的账号，由于我的支付宝设置的 Apple 免密支付所以可以直接扣款，又因为扣款回执发到的是妹妹的 Apple ID 上，所以我完全不知情。\n损失是 800+。这套操作下来我感觉也挺强的，想了下达成这种效果需要所有环节都做对（做错？）。\n苹果注册的未成年账号是默认开启购买软件和内购权限的。\n我有 iCloud 订阅，支付宝在 iCloud 订阅开启后免密支付不能关闭。而未成年账号用的是同一个 Apple 支付免密入口，因此想关闭未成年账号的免密支付需要同时关闭我的免密支付，也就是得把我的账号的 iCloud 也挺掉，这显然不现实。（我尝试单独关闭未成年账号的免密支付，提示有 iCloud 订阅所以不能关闭，如果有其他办法可以在回复提下解决方案🙏）\n苹果未成年账号购买软件和内购不会给监护人账号发账单，监护人也完全查不到相关信息。\n在最初注册未成年账号时我关闭了购买和内购软件权限，但是现在发现又开启了，之前购买软件会向监护人账号发一个申请，这个 iMessage 聊天记录我还能查到，所以现在不清楚是我什么时候手动开启的还是设置被重置了。\n所幸损失并不大，小孩也沟通过了，权限也重新设置了。唯一蛋疼的是支付宝中未成年账号的免密支付还是不能关，导致我现在总感觉以后还会发生这种事。各位如果有绑未成年账号的可以也看看权限设置得怎么样，查下账单是否有异常。哎快过年的这还被爆下金币，也是有点无语。",
+          "link": "https://www.v2ex.com/t/1107844",
+          "publishedOn": "2025-01-25T13:39:22.000Z",
+          "wordCount": 535,
+          "title": "快过年发现被妹妹和苹果联合爆金币了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107842",
+          "author": "pengyuedenai1234",
+          "description": "pengyuedenai1234: 本人 e 人一枚，从大学毕业参加工作之后，发现身边的同事都是已经结了婚生了小孩。所以工作了几年都没有参加过婚礼，没有吃过喜酒。\n最近，在朋友圈刷到了我一个朋友发的结婚请帖，婚礼的举办的地方离我住的地方也不远。但是那个朋友我和她也不是很熟悉。就是四年前在一个兴趣交流群里面加的好友。也没有说过几句话。然后互相在彼此的朋友圈静静地躺了四年。\n我思来想去，还是打算参加她的婚礼，我工作的地方都是一些年纪很大的已经结婚的人，很少新来的年轻的人。因为年龄的原因很少与他们有很多共同的交集。我在工作的时候很少有机会去新结交一些同龄的朋友。想通过这场婚礼去结交一些同龄人的朋友。扩宽一下我的社交面。本人也喜欢交朋友。认为多认识一些人也更好，多个朋友多条路。\n我也对美食比较感兴趣。平时社交面比较少。基本上没怎么去外面吃过饭。(去外面吃饭最好请几个朋友一起去，一个人去外面下馆子吃饭没什么意思)，想通过这次婚礼好好的吃一次美食。丰富一下我的胃口。\n网上的人说我这样做是在浪费钱，参加婚礼没意义。但是我还是很想去。想通过这次婚礼看看能不能结交一些年龄相近志同道合的朋友。请问这个婚礼我应该去参加吗。去参加不怎么熟悉的人的婚礼应该注意一些什么。我觉得去一次也花不了几个钱。按照我们当地风俗也就随个 100-200 元的份子钱。",
+          "link": "https://www.v2ex.com/t/1107842",
+          "publishedOn": "2025-01-25T13:30:43.000Z",
+          "wordCount": 455,
+          "title": "第一次参加不怎么熟悉的人的婚礼，应该去注意什么。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107840",
+          "author": "foufoufm",
+          "description": "foufoufm: \n还是 boss 直聘、猎聘、智联三件套吗？\n或者兼职什么的也可以",
+          "link": "https://www.v2ex.com/t/1107840",
+          "publishedOn": "2025-01-25T13:17:48.000Z",
+          "wordCount": 391,
+          "title": "目前找工作最好的方式是？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107839",
+          "author": "MissAW",
+          "description": "MissAW: 首先，今天在黄鱼买了超密进到移动光猫后台，与网上流行的方案（新增 WAN 连接然后各种设置，同时删除 TR069 ）不同，按照卖家指导，进入网络》宽带设置，直接打开已存在的网络连接‘2_INTERNET_B_VID_101’，然后把封装类型从‘PPPoE’改为‘IPoE’，业务类型从‘路由’改为‘桥接’，最后，设置小米路由器 PPPoE 拨号，打开 IPV6 。结果，成功了！\n不过，相比网上教程，我有些地方不太理解，希望 V 神解释下，谢谢！\n1. 请问，光猫这个‘IPoE 桥接’与传统的‘PPPoE 桥接’有什么区别吗，是否对我后期的网络使用以及网络设置有影响（比如使用旁路由或者 OP 主路由）\n2. 把现有的 101 连接更改'IPoE'和‘桥接’后，按照卖家指导没有勾除'DHCP sever'，但我看网上添加新连接的方法，新连接是勾除了'DHCP sever'的，请问我现在是否应该勾除掉？然后需要再设置路由器吗？\n3. 我看 IPoE 的 MTU 和小米路由器 MTU 是不同的，这个有没有什么问题？\n4. 本想按照网上的教程通过 F12 去删除 TR069 和远程 RMS 服务器，结果 F12 打开控制台完全没有什么按钮的 disable 属性，虽然不太懂，但我感觉应该是移动做了什么设置封了这个方法，不知道海有没有其他方法删除啊，然后如果不删除的话，后续移动是否又会把我的桥接改回去？卖家说不会。。\n5. 除了开始提到的光猫的两个改动，其他选项完全没动过，比如端口绑定，VLAN ID ，QoS 这些，请问还有没有什么需要设置的啊？太简单了有点慌。。\n6. 现在 IPV6 打开了，是否还需要再向移动申请才有公网 IP 呀？请问一般以什么方式和理由能够申请到啊？",
+          "link": "https://www.v2ex.com/t/1107839",
+          "publishedOn": "2025-01-25T13:12:27.000Z",
+          "wordCount": 501,
+          "title": "四川移动宽带，烽火 HG5043F 光猫改桥接和 IPV6，神奇方法与疑问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107837",
+          "author": "annoygaga",
+          "description": "annoygaga: \n如题，有哪个还不错的 LLM ，希望可以部署在手机（最新 CPU 手机）或者本地 PC 上？\n目前看到的都还是大模型为主的 ranking",
+          "link": "https://www.v2ex.com/t/1107837",
+          "publishedOn": "2025-01-25T12:42:16.000Z",
+          "wordCount": 404,
+          "title": "🦙 对话效果最好的 7B/1.5B 模型大家用的哪个？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107836",
+          "author": "jeesk",
+          "description": "jeesk: \n最近看到很多开源项目 readme 里放的赞助商直接是数字货币相关的，是游戏类的。 \n是不是很多独立开发已经到了擦锅底的地步了？ 不然也不会采取这种操作吧？ \n好，那晒出你的独立开发的产品？ 最好别涉及上面的内容。",
+          "link": "https://www.v2ex.com/t/1107836",
+          "publishedOn": "2025-01-25T12:22:23.000Z",
+          "wordCount": 115,
+          "title": "怎么看待开源项目赞助商直接贴加密货币的链接？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107835",
           "author": "mino0885",
           "description": "mino0885: mac screen sharing app 使用高性能模式连接另一个 mac 在使用 surge ponte 情况下 不可用\n通过标准模式连接可以连接。证明 surge ponte 配置本身好像没有问题。但是标准模式会打开被控机器的屏幕。\n尝试过在路由器转发里加入 5900 5901 5902.不通过 sruge ponte 但是还是不行。\n大家有遇到过这种情况吗？",
@@ -310,7 +446,7 @@
           "description": "RedisMasterNode: \n大家新年快乐！按照习惯之前每年都会给同事发开年红包（广东这边一人几十块图个喜庆，不值钱，勿喷），现在远程办公了，想给同事也发点类似的新年''红包''，大家有什么建议吗？\n需求：大概 20 份\n价值：每份 5-10 欧或者 USD 左右\n特殊需求：远程办公实物就不考虑了，虚拟物品比较合适！\n胡乱想的备选：youtube 会员？ netflix ？或者类似的？ amazon 购物卡？\n对国外这些东西了解确实比较少，同事分布欧美，希望有熟悉的朋友可以提供一点建议，非常感谢！价值超一点也没关系，20usd 的话，也可以减少份数做个抽奖。",
           "link": "https://www.v2ex.com/t/1107832",
           "publishedOn": "2025-01-25T11:44:37.000Z",
-          "wordCount": 437,
+          "wordCount": 446,
           "title": "新年快乐！远程办公，想给国外同事发礼物，发什么好呢？",
           "imageUrl": null
         },
@@ -320,7 +456,7 @@
           "description": "Raynard: 有一户，经常在小区里面摆摊，把液化气罐放到楼道口，甚至扯线吧冰柜放到楼栋通风井里，\n和他当面对线很多次了，他家里人多，并且不讲理，吵架实在吵不过\n物业多次协调也管不了，\n怎么弄呢……\n我有家有业的也不敢撕破脸，目前房价跌了不少，卖了就得赔不少",
           "link": "https://www.v2ex.com/t/1107831",
           "publishedOn": "2025-01-25T11:41:53.000Z",
-          "wordCount": 560,
+          "wordCount": 571,
           "title": "如何整治小区里没素质的人？",
           "imageUrl": null
         },
@@ -340,7 +476,7 @@
           "description": "qichunren: 虽然我 2024 年我在 A 股赚了 20 万，但是我的内心没有什么波澜，甚至还有一些焦虑。我思索了好久，明白了这是靠运气赚来的钱，特别是在大 A 。\n要是我靠写项目项目赚到 20 万，那估计带来的反馈截然不同。",
           "link": "https://www.v2ex.com/t/1107829",
           "publishedOn": "2025-01-25T11:18:29.000Z",
-          "wordCount": 423,
+          "wordCount": 438,
           "title": "2024 年我在 A 股赚了 20 万",
           "imageUrl": null
         },
@@ -350,7 +486,7 @@
           "description": "PeiXyJ: \n每次开始学前端就感觉好复杂?\n没有任何头绪现在感觉想学前端急要 HTML JS CSS VUE VITE 构建...还有 tailwind 还要不要学?\n大佬们有没有什么学习路径呀?",
           "link": "https://www.v2ex.com/t/1107828",
           "publishedOn": "2025-01-25T11:14:16.000Z",
-          "wordCount": 465,
+          "wordCount": 469,
           "title": "一个后端开发想学前端开发我究竟该学哪些东西?",
           "imageUrl": null
         },
@@ -360,7 +496,7 @@
           "description": "narip: \n如题，本人本科就读于某 985 院校（非 C9 ），学的是计算机。毕业以后因为个人爱好，转去了另外一所 985 （仍非 C9 ）高校做物理（纯理论，非应用）的科研。预计明年 2026 博士毕业，毕业之后就差不多 28 岁了。目前科研的成果不是特别好，比毕业的要求好一点点，但好得并不是很多。最近在琢磨毕业以后的工作和就业。我个人感觉大致有三个方向，其中有个想转码做计算机老本行的想法，想听一下大伙的意见。\n第一个方向就是继续做科研，争取找个高校的教职。关于这一个方向，有以下几点顾虑：\n预计毕业的时候可以比毕业要求多 1-2 篇文章（多的第一篇文章还没有写完，多的第二篇“文章”暂时还是一个想法，大概率可行，但不确定），但是估计 2026 年毕业的时候应该直接找不到 211 或者双非一本的教职（还没有太了解专科院校的情况，没有认识的人可以提供这方面的信息）。所以，如果继续做科研的话，是计划把这两篇文章做完之后争取申请国外的博士后职位（是否可以申请上的不确定性比较大）。在博士后出站之后再申请高校的教职。但是从网上了解到的信息和我个人获取的信息，过去几年（因此可见将来几年）高校招人的要求每年都有较大提升，所以博士后出站之后即使自己更厉害了，但是是否可以找到 211 或者双飞一本的教职依旧不太确定。\n我可以接受最后去处的不确定性，毕竟现在时代变化都非常快。但是我主要感觉投入和回报完全不成正比，没有很大的动力向前冲。即便冒着很大的风险，很大的不确定性，最后拿到了某 211 或双飞一本大学的讲师，其待遇也是不太好的。讲师的待遇加上年终一个月估计都没有 10k （家乡在重庆，主要从网上了解的待遇情况，不过讲师的待遇在全国各地都不高），而且有可能还是非升即走。再熬几年成副教授，一个月才有可能月入 10k （这一点已经满足了）。但不知道这么多年下来，高校是否会变成没有编制了，定期都要考核。感觉我的要求也不是很高，只想要保底一年 12w 就满足了，前提是工作比较稳定。\n第二个方向就是去当中学老师。这个方向的顾虑主要还是集中在薪资，看网上谈论的教师一个月工资可能也没有 10k 。薪资需要职称和工龄来提上去。不过看现在的出生人口，不知道到时候教师的工资会不会还要降。薪资是这个方向的主要顾虑。当然，这个方向也需要付出很多时间准备：需要一次性拿下教师资格证和具体市区的教育事业单位组织的考试。\n第三个方向就是转码了。这个方向的顾虑就是，以我现在的履历，是否 2025 年的 9 月份秋招拿 offer 太困难（博士非科班，本科虽然是科班，但是年龄相比本科为大龄）。现在马上 2 月份，距离 9 月初也就还剩 6 个月的时间，刚好半年。之前本科学的专业课有一些还记得，但是都模模糊糊，还是得重新再过一遍（可能根据牛客网的一些经验筛选一些重点），有很多细节当时应该也没有完全弄清楚。科研期间倒是有写代码，但是用的是 Matlab ，应聘用不上。如果转码主攻开发，选一门语言（ Jave 或者 CPP? 本科大一学的是 Java ）熟悉熟悉，然后看能不能尽量找到一点空余时间做一个项目放到简历里面，不过项目应该不会非常高大上，因为时间上感觉可能来不及。找实习应该是没时间了。如果转码算法岗位，感觉 6 个月搞不定，不是很确定学习路径，不大敢尝试。\n以上就是个人认为的就业可能的三个方向，希望大伙可以提提转码的意见😊。",
           "link": "https://www.v2ex.com/t/1107827",
           "publishedOn": "2025-01-25T11:09:58.000Z",
-          "wordCount": 553,
+          "wordCount": 589,
           "title": "28 岁转码建议？",
           "imageUrl": null
         },
@@ -370,7 +506,7 @@
           "description": "bilabila: 1. 不提供同车换座方案\n2. 不提供买长乘短、买短乘长方案\n上 12306 买不到，换携程买了",
           "link": "https://www.v2ex.com/t/1107826",
           "publishedOn": "2025-01-25T10:48:39.000Z",
-          "wordCount": 441,
+          "wordCount": 447,
           "title": "12306 相比第三方的缺点",
           "imageUrl": null
         },
@@ -390,7 +526,7 @@
           "description": "zhangjiashu2023: 前端小白就会用 tailwindcss 和 vue3 写写简单的项目。请教下各位前端佬，如图所示的效果用什么实现比较简单\n需求如图所示：\n左侧是个文本编辑器，右边返回的检测结果能对左侧的文本原文进行一些标记啥的。\nhttps://cdn.img2ipfs.com/ipfs/QmWA7xjYW44KxbuJYUc2bPQWtzj5o9wsWfrtnAMy3bDeEG?filename=image.png",
           "link": "https://www.v2ex.com/t/1107824",
           "publishedOn": "2025-01-25T10:42:49.000Z",
-          "wordCount": 337,
+          "wordCount": 353,
           "title": "前端问题求助",
           "imageUrl": null
         },
@@ -400,7 +536,7 @@
           "description": "liyafe1997: \n如题\n目前在试 RePlugin ，但是感觉坑有点多，文档缺失。\n最主要是我的 App 加上 RePlugin 的插件，就编译不起来了，各种折腾 SDK 版本，JDK 版本，Gradle 版本...\n有没有更简单的框架，最好不需要对 apk 作任何改动，能直接在容器（宿主） apk 中直接运行一个现成的 apk 。\n主要目的就是给现在已经开发好的企业应用（不考虑上任何应用商店/Google Play ，纯本地部署）做自动更新，在宿主 apk 中可以不断地后台检查更新，发现新版本就拉最新版的业务 apk 下来，每次启动（宿主 apk ）时就自动启动最新的业务 apk 。",
           "link": "https://www.v2ex.com/t/1107823",
           "publishedOn": "2025-01-25T10:40:11.000Z",
-          "wordCount": 441,
+          "wordCount": 451,
           "title": "有什么类似 RePlugin 这种，能在 APK 中运行 APK 的框架",
           "imageUrl": null
         },
@@ -430,7 +566,7 @@
           "description": "anyele: 想买一个小型的纯电车，看上了五菱缤果，吉利星愿，比亚迪海鸥，目前比较中意吉利星愿，到底哪个好一些呢？还有其他的推荐吗？",
           "link": "https://www.v2ex.com/t/1107819",
           "publishedOn": "2025-01-25T10:02:32.000Z",
-          "wordCount": 340,
+          "wordCount": 342,
           "title": "小型纯电车怎么选五菱缤果还是吉利星愿？",
           "imageUrl": null
         },
@@ -450,7 +586,7 @@
           "description": "xclrr: \n用了一个多月的空余时间写了一个在 Android 端测运行 Stable Diffusion 的 apk 。目前适配了两款模型，Anything V5 和 Stable Diffusion 2.1 。\nAnything V5 做了 CPU 和 NPU 版本，Stable Diffusion 2.1 只做了 NPU 版本。\n在 NPU 上运行：\n支持的芯片：骁龙 8gen2 8gen3 8gen4\n可能支持但我未验证过的芯片：骁龙 6gen1 8sgen3 7+gen3\n512 分辨率 10 秒出图\n在 CPU 上运行：\n近几年的设备应该都没问题\n速度很慢，8 位动态量化精度也一般\n支持 128 ，256 ，384 ，512 分辨率，256 分辨率大概 30 秒内能出图\n下载： https://github.com/xororz/local-dream/releases\nApk 内默认从 huggingface 下载模型，可以点击右上角下载设置修改成 hf-mirror",
           "link": "https://www.v2ex.com/t/1107815",
           "publishedOn": "2025-01-25T09:11:57.000Z",
-          "wordCount": 551,
+          "wordCount": 579,
           "title": "[Local Dream] 在 Android 端运行 Stable Diffusion，支持骁龙 NPU 加速",
           "imageUrl": null
         },
@@ -470,7 +606,7 @@
           "description": "NianBroken: 我找了快 3 天了，找到的工具都是只能显示最后一次复制的内容。\n例如讯飞输入法，我复制了内容 1 ，然后又复制了内容 2 。此时我打开剪贴板，剪贴板中只有内容 2 ，没有内容 1 。\n但是我想要的是无论我连续复制多少内容，剪贴板中都能显示的软件。\n想知道有这样的软件吗？我可以接受买断制付费。",
           "link": "https://www.v2ex.com/t/1107813",
           "publishedOn": "2025-01-25T09:04:46.000Z",
-          "wordCount": 697,
+          "wordCount": 699,
           "title": "iOS 中有没有支持连续复制的剪贴板软件？",
           "imageUrl": null
         },
@@ -480,7 +616,7 @@
           "description": "ChatGOP: \n刚被裁，目前是 GO 程序员， 以前熟悉 Java/Spring, C#/ASP.NET, TypeScript,现在都手生了， 想至少把 Java, C#拣回来，但是一看到好多东西都需要复习，觉得时间和精力都恐怕应付不过来。\n想听听兄弟们的意见， 是同时把 Java/Spring, C#/ASP.NET 都拣回来， 还是只专注 Java 或是只考虑 C#？\n谢谢先",
           "link": "https://www.v2ex.com/t/1107812",
           "publishedOn": "2025-01-25T08:59:11.000Z",
-          "wordCount": 477,
+          "wordCount": 499,
           "title": "该专注一门语言还是多种语言呢？",
           "imageUrl": null
         },
@@ -490,7 +626,7 @@
           "description": "xinmans: \n吃不了硬的食物，只能吃软一点的。年龄 64 岁了，有没有必要请牙医处理下？处理方向是如何的？",
           "link": "https://www.v2ex.com/t/1107811",
           "publishedOn": "2025-01-25T08:45:19.000Z",
-          "wordCount": 591,
+          "wordCount": 606,
           "title": "过年回家，母亲说牙齿都松动了，有没有治疗建议？",
           "imageUrl": null
         },
@@ -510,7 +646,7 @@
           "description": "acfan: \n虽然咱们这个行业好像社交属性较少，但还是想问下各位佬们在职场，生活中的社交礼仪，比如说饭局或者向上社交的时候。",
           "link": "https://www.v2ex.com/t/1107809",
           "publishedOn": "2025-01-25T08:22:41.000Z",
-          "wordCount": 395,
+          "wordCount": 407,
           "title": "关于社交礼仪的讨论",
           "imageUrl": null
         },
@@ -532,186 +668,6 @@
           "publishedOn": "2025-01-25T08:06:07.000Z",
           "wordCount": 400,
           "title": "写了个 CLI 程序, 想让配置新 mac 简单点",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107806",
-          "author": "privateproxies",
-          "description": "privateproxies: \nsimplynode.com\nKey Features:\n8M+ ethical IPs globally \nHTTPS/SOCKS5, 99.3% uptime\nPay-as-you-go, no expiry\nPricing:\nResidential: $6/GB → $2.5/GB bulk\nMobile: $8/GB → $4.5/GB bulk\nNew User: First GB $4 (Code: FIRSTGB)\nUse Cases:\nWeb scraping\nAd verification \nMarket research\nSocial media\n#proxy #data #tools #scraping",
-          "link": "https://www.v2ex.com/t/1107806",
-          "publishedOn": "2025-01-25T08:02:38.000Z",
-          "wordCount": 388,
-          "title": "SimplyNode: Proxy Service That Just Works",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107805",
-          "author": "billyu",
-          "description": "billyu: \n由于公众号一直在更新，微信今年继续送了一些红包封面额度，做了一个很喜庆的蛇年封面，今年是连续第三年发红包封面啦，希望 v 友们喜欢。\n红包预览：\n\n领取地址： https://mp.weixin.qq.com/s/77Li96IzOMXwezsroLpxOw\n往期回顾：\nhttps://v2ex.com/t/910007#reply73\nhttps://v2ex.com/t/1015170#reply9",
-          "link": "https://www.v2ex.com/t/1107805",
-          "publishedOn": "2025-01-25T07:59:50.000Z",
-          "wordCount": 443,
-          "title": "新鲜出炉的蛇年红包封面，欢迎 v 友们使用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107804",
-          "author": "SWBMESSI",
-          "description": "SWBMESSI: \n来个糖葫芦\n可以通过赠送糖葫芦的方式送出新年祝福\n装饰漂亮的糖葫芦扎\n收到的祝福将会在除夕夜全部解锁，请期待吧\n这是我收到的糖葫芦\n\n选择糖葫芦\n\n写下祝福语\n\n收到的祝福语\n\n快去和朋友们一起玩吧！！！",
-          "link": "https://www.v2ex.com/t/1107804",
-          "publishedOn": "2025-01-25T07:59:24.000Z",
-          "wordCount": 370,
-          "title": "做了一个新年收集糖葫芦送祝福的小程序",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107803",
-          "author": "kenshinhu",
-          "description": "kenshinhu: \n我在搭建一个个人内容管理库，想把各个平台的收藏内容都集中管理。尤其是 Twitter 的书签，手动复制同步太麻烦，想找个自动化的办法来获取。\n目前我知道有以下几种方法：\n通过 Twitter API：官方支持，比较稳定。但是费用高，还有调用次数限制，另外还得处理 API 认证和数据分页这些麻烦事。\n用浏览器插件抓取：直接通过浏览器插件，不过问题是需要手动同步，或者依赖插件（但感觉这类插件活不过一年）。\n通过 LLM 屏幕上分析内容截取：例如通过 midscenejs 来读取，这种方法类似于使用 Bot 在浏览器上模拟人类操作，浏览并记录数据。\n基于这些情况，我有几个问题想请教大家：\n有没有其他更高效的方法获取 Twitter 书签？\n比如有没有第三方服务或者开源项目，能绕过 API 限制，或者用其他技术手段抓取数据。\n用 API 的话，有什么优化策略能降低成本和应对限流？\n比如缓存机制、增量同步这些方法有没有效果。\n我的目标是搭建一个能自动同步和管理 Twitter 书签的系统，减少手动操作，提高效率。如果大家有相关经验或者资源，恳请指导一下，给个方向，感谢！",
-          "link": "https://www.v2ex.com/t/1107803",
-          "publishedOn": "2025-01-25T07:58:46.000Z",
-          "wordCount": 405,
-          "title": "怎么有效地获取 X.com 上的 书签？求大神指点",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107802",
-          "author": "nobia",
-          "description": "nobia: \n这两天有人玩吗  感觉匹配队友太菜了  我现在也纯意识流没什么操作了  不能 carry 但是守塔打打控制还是完全没问题的",
-          "link": "https://www.v2ex.com/t/1107802",
-          "publishedOn": "2025-01-25T07:50:39.000Z",
-          "wordCount": 417,
-          "title": "国服 黑色玫瑰 无限火力 无限乱斗 开黑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107800",
-          "author": "clear",
-          "description": "clear: \n不想做完整迁移，只想单独迁移邮件。\n使用导出功能再导入，目录结构和源 Mac 不一样。",
-          "link": "https://www.v2ex.com/t/1107800",
-          "publishedOn": "2025-01-25T07:50:09.000Z",
-          "wordCount": 366,
-          "title": "不使用迁移助理或者 Time Machine 的情况下，怎么完整迁移 Mac 的“邮件”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107799",
-          "author": "yasinDoyle97",
-          "description": "yasinDoyle97: \n春节一到，街上十分空旷，肉眼可见的人少了，物价渐渐贵了起来。\n突然想到，如果大家都可以在自己的家乡工作，社会环境是不是就不会这么卷了。\n能够在家门口上班下班，不用背井离乡跑来跑去，何尝不是一种幸福",
-          "link": "https://www.v2ex.com/t/1107799",
-          "publishedOn": "2025-01-25T07:45:04.000Z",
-          "wordCount": 429,
-          "title": "春节放假有感",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107798",
-          "author": "morphinewan",
-          "description": "morphinewan: \n主要是提供 PS 和 XBOX 官网商城上新的 RSS 订阅。共分两大类，一个是即将发售，一个是刚刚新发售的。订阅了每天在 RSS 阅读器里面就可以看到上新的信息推送了。每个地区的内容是略有不同的。详情请访问网站。\nhttps://strixcal.app\n有什么意见或者建议，也可以聊聊。还在活跃开发中，可能会调整。",
-          "link": "https://www.v2ex.com/t/1107798",
-          "publishedOn": "2025-01-25T07:24:30.000Z",
-          "wordCount": 348,
-          "title": "做了一个 RSS 订阅，欢迎大家使用。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107797",
-          "author": "NCityXu",
-          "description": "NCityXu: 之前买的 128G iPhone14 不够用了，不想换，也没钱换。就升级下存储空间到 512G 。\n有没操作过的同学反馈一下体验感如何啊？\n1.会影响日常使用吗？\n2.哪家靠谱、什么价格？\n3.怎么备份手机资料\n4.备份还原后，是不是所有软件都需要重新登陆。（当前 tg 和 WhatsApp 忘记密码了，国外的手机号也失效了）",
-          "link": "https://www.v2ex.com/t/1107797",
-          "publishedOn": "2025-01-25T07:16:33.000Z",
-          "wordCount": 476,
-          "title": "深圳推荐一家靠谱的改 iPhone 手机存储空间的店家，最好标注价格。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107796",
-          "author": "tomwhy",
-          "description": "tomwhy: 公司产品 Heyboss.xyz ，由 openai 投资的硅谷 startup \n职位描述：\n作为全栈工程师，你将负责从前端到后端的全链条开发工作，包括但不限于 Web 开发、移动应用开发、API 设计、数据库管理以及服务器配置等。你将致力于构建和优化我们的教育产品，确保技术的先进性和产品的高质量。\n工作要求：\n负责全栈开发，包括前端界面设计、后端逻辑处理、数据库设计和服务器部署等；\n跟踪并探索前沿 Web 技术，进行产品功能开发和性能优化；\n与产品、设计和教研部门紧密合作，确保产品的交付质量和速度；\n保持对全栈开发领域最新发展的了解，并将其应用于我们的产品。\n资格条件：\n全栈工程师，具备强大的全端开发能力，能够独立完成项目从概念到实现的全过程；\n精通 NextJS 、MongoDB 等；\n熟悉 shadcn/ui 、TailwindCSS 等；\n熟悉 React Native + Expo 等移动端开发框架；\n善于沟通，具备良好的团队合作精神，强烈的责任感和自我驱动力；\n具备优秀的问题解决能力和文档编写能力。\n加分项：\n有成功的 Web 应用或移动应用开发经验；\n参与过开源项目，有 GitHub 上的项目贡献记录；\n有创业经历，尤其是在技术驱动的初创团队中；\n在技术社区有影响力，如撰写技术博客或进行技术演讲。\n请联络 wechat：cocoonbabe",
-          "link": "https://www.v2ex.com/t/1107796",
-          "publishedOn": "2025-01-25T07:15:08.000Z",
-          "wordCount": 395,
-          "title": "Heyboss (openai 投资) 20K - 40K 招聘全栈工程师",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107795",
-          "author": "apollo007",
-          "description": "apollo007: \n家里设备是索尼电视+apple tv ，网络已经开通了 ipv6 ，之前是可以通过范明明的直播源看电视的，后来有一天就看不了了，直到现在，平时不喜欢看电视直播，只看看美剧，眼看要过年了，想来问问大伙，有没有办法在电视上看央视春晚呢？",
-          "link": "https://www.v2ex.com/t/1107795",
-          "publishedOn": "2025-01-25T07:11:49.000Z",
-          "wordCount": 548,
-          "title": "过年想看电视的春晚直播，有什么办法？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107792",
-          "author": "SkyLine7",
-          "description": "SkyLine7: \n27 程序员单身狗，爸妈催对象，所以在上海过年不回家，想找个兄弟一起出去玩。主要是想在大街上搭讪加联系方式，有一起的兄弟吗",
-          "link": "https://www.v2ex.com/t/1107792",
-          "publishedOn": "2025-01-25T06:58:59.000Z",
-          "wordCount": 369,
-          "title": "上海过年有不回去的兄弟出来玩吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107791",
-          "author": "xiaoyinququ",
-          "description": "xiaoyinququ: \n公司产品 Heyboss.xyz ，由 openai 投资的硅谷 startup\n职位描述：\n作为全栈工程师，你将负责从前端到后端的全链条开发工作，包括但不限于 Web 开发、移动应用开发、API 设计、数据库管理以及服务器配置等。你将致力于构建和优化我们的教育产品，确保技术的先进性和产品的高质量。\n工作要求：\n负责全栈开发，包括前端界面设计、后端逻辑处理、数据库设计和服务器部署等；\n跟踪并探索前沿 Web 技术，进行产品功能开发和性能优化；\n与产品、设计和教研部门紧密合作，确保产品的交付质量和速度；\n保持对全栈开发领域最新发展的了解，并将其应用于我们的产品。\n资格条件：\n全栈工程师，具备强大的全端开发能力，能够独立完成项目从概念到实现的全过程；\n精通 NextJS 、MongoDB 等；\n熟悉 shadcn/ui 、TailwindCSS 等；\n熟悉 React Native + Expo 等移动端开发框架；\n善于沟通，具备良好的团队合作精神，强烈的责任感和自我驱动力；\n具备优秀的问题解决能力和文档编写能力。\n加分项：\n有成功的 Web 应用或移动应用开发经验；\n参与过开源项目，有 GitHub 上的项目贡献记录；\n有创业经历，尤其是在技术驱动的初创团队中；\n在技术社区有影响力，如撰写技术博客或进行技术演讲。\n请联络 wechat：cocoonbabe",
-          "link": "https://www.v2ex.com/t/1107791",
-          "publishedOn": "2025-01-25T06:51:59.000Z",
-          "wordCount": 410,
-          "title": "openai 投资的 Heyboss（给不会写代码的人的 AI eng）招聘全栈",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107790",
-          "author": "JoonSumisu",
-          "description": "JoonSumisu: 先说下背景吧\n现在人在深圳，前后加一起 67 年了，突然醒悟发现深圳这个地方真比较难崩。\n先不论买房买车这些大件，就活着就感觉很没生活气息，也不会像中部城市那样东南西北都有其他城市可以去的地方比较多。\n加上现在工作的 toB 行业感觉越来越差，个人想着能不能试下转到其他行业\n现在是计划年后开始投简历，看下上海，杭州等地方有没有机会\n想问下老哥们什么看法？\n还有两个事情想打听下\n1. 这种换城市，搬家方面大家怎么搞的？ 我问了下大厂的朋友，他那时候公司是有给租两个星期酒店的，这个还是看公司.... 那一般情况下，怎么处理比较好？另外就是这么多年，东西还是比较多，虽然主要是主机屏幕这些比较大件，大家是卖掉还是搬走？\n2. 生活成本方面，我听上海工作的朋友提到，暖气费用花费不少，衣服这些都是额外的支出，有没有老哥说下综合生活成本会高出多少？\n非常感谢！",
-          "link": "https://www.v2ex.com/t/1107790",
-          "publishedOn": "2025-01-25T06:34:44.000Z",
-          "wordCount": 460,
-          "title": "这个年代，想跑到其他城市有没有什么好打法？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107789",
-          "author": "doujiangjiyaozha",
-          "description": "doujiangjiyaozha: 目前是第一个小版本,欢迎提 bug,提想法,谢谢\n官网地址\ntypral.com",
-          "link": "https://www.v2ex.com/t/1107789",
-          "publishedOn": "2025-01-25T06:29:09.000Z",
-          "wordCount": 377,
-          "title": "开发了一个浏览器翻译插件,主要是翻译编辑框里的内容,欢迎大家来试试",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107788",
-          "author": "hbomb",
-          "description": "hbomb: \n基于 it-tools 修改，提供一个纯净版的工具集合，优化后部署的站点，主要自己想用。\n同时也分享给大家。\n默认展示中文\n去掉多余的推广内容\n优化了部分样式问题\n后续如有新的想法，也会在这个工具集里面新增工具。\n如果,图片压缩，图片转换，微信公众号格式转换 等，敬请期待。\n访问：https://tool.lightnote.com.cn/",
-          "link": "https://www.v2ex.com/t/1107788",
-          "publishedOn": "2025-01-25T06:28:27.000Z",
-          "wordCount": 389,
-          "title": "开发者实用小工具集合： https://tool.lightnote.com.cn/",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107787",
-          "author": "zhaom",
-          "description": "zhaom: \n目前遇到的情况：\n1 ，关于春节放假，除了我们部门外，其他的部门都已经放假回家了，我们还在苦逼工作\n2 ，关于年终奖金，其他部门都已经发放奖金，只有我们部门还未一个人有奖金。\n3 ，关于加班，其他部门都有加班工资，我们部门这些年一直没有加班工资。\n4 ，关于问题，我们团队成员或我个人是否还有必要呆在这里，哪怕外面很难。\nps\n老板一直说我们属于他的嫡系部门，这些年，除了发现事最多，钱最少，没有发现其他的好处。",
-          "link": "https://www.v2ex.com/t/1107787",
-          "publishedOn": "2025-01-25T06:24:58.000Z",
-          "wordCount": 482,
-          "title": "关于年终奖讨论",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107786",
-          "author": "Nerv",
-          "description": "Nerv: \n如题，16G Pro 日常内存压力 50-60 ，想换个内存大点的，这两款价格差不多，好纠结。",
-          "link": "https://www.v2ex.com/t/1107786",
-          "publishedOn": "2025-01-25T06:21:00.000Z",
-          "wordCount": 560,
-          "title": "24 + 512 7199 国补 m3 air 还是 32 + 512 二手 M1 Pro",
           "imageUrl": null
         }
       ]
