@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -149,12 +155,6 @@
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
       ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": []
     },
     {
       "title": "阮一峰的网络日志",
@@ -281,12 +281,32 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107871",
+          "author": "haoyh1",
+          "description": "haoyh1: 富途和东财都没有，不上班，工作日平时出门旅游，至少需要盯着大盘指数，这个功能非常刚需啊",
+          "link": "https://www.v2ex.com/t/1107871",
+          "publishedOn": "2025-01-25T19:33:51.000Z",
+          "wordCount": 372,
+          "title": "到现在还没有一个行情软件支持实时活动和灵动岛吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107870",
+          "author": "Yosomi",
+          "description": "Yosomi: \n对已经绑定的没有影响，但是解绑以后重绑就无法再次绑定上了，\n目前试过的招行、建行、浦发 JCB 均无法绑定。\n应该是 JCB 已经有了识别发卡地区的能力，可能不是通过 BIN 码。",
+          "link": "https://www.v2ex.com/t/1107870",
+          "publishedOn": "2025-01-25T18:37:35.000Z",
+          "wordCount": 390,
+          "title": "国内 JCB 信用卡均已经无法绑定日区 Apple ID",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107869",
           "author": "kirieievk",
           "description": "kirieievk: \n看视频加特林才 15,这都哪里买的\n我们这里好几倍的价格了.",
           "link": "https://www.v2ex.com/t/1107869",
           "publishedOn": "2025-01-25T18:22:39.000Z",
-          "wordCount": 412,
+          "wordCount": 416,
           "title": "v2exer 可以放烟花吗,价格如何",
           "imageUrl": null
         },
@@ -346,7 +366,7 @@
           "description": "shadoworld: \n路由器是 192.168.5.1 ，桥接后想着方便访问光猫后台就改光猫地址，结果改成了 192.168.5.255\n有没有办法改回来？",
           "link": "https://www.v2ex.com/t/1107862",
           "publishedOn": "2025-01-25T15:49:46.000Z",
-          "wordCount": 387,
+          "wordCount": 431,
           "title": "光猫改桥接后改 ip 地址，脑抽改成 192.168.5.255",
           "imageUrl": null
         },
@@ -386,7 +406,7 @@
           "description": "Moosems: \n购买渠道: 中秋京东买的自营超市,店铺名称是忆江南京东自营旗舰店. 渠道是官方的没问题.\n龙井茶叶.\n今天泡了一包茶叶,泡茶的容器是类似于咖啡杯大小差不多的分茶器,就是茶叶放在这个分茶器里面泡,然后倒在小杯子里. 因为当时在聊天没注意,导致放了整整一包茶叶, 正常感觉放入 1/4 1/3 就差不多.\n不知道是不是茶叶放多了的原因,但是感觉可能不是这个原因.\n就是泡出来的茶 有点中药材的味道. \n本人不懂茶,也没喝过什么好茶,不知道是不是这个茶的问题还是本身就是这样.\nhttps://imgur.com/WPN8KQP\nhttps://imgur.com/ouhmir0",
           "link": "https://www.v2ex.com/t/1107858",
           "publishedOn": "2025-01-25T15:25:32.000Z",
-          "wordCount": 507,
+          "wordCount": 509,
           "title": "v 友们,帮忙看一下我是不是买到假茶叶了",
           "imageUrl": null
         },
@@ -396,7 +416,7 @@
           "description": "gegeligegeligo: 表现在：系统好几天不关机后，打开软件、在任务栏中切换不同的窗口、以及其它各种各样的操作上，都会出现明显的卡顿\n\n资源消耗：cpu 占用只有百分之十几，没有占用特别高的进程，内存还剩下一半，硬盘是固态\n\n所以我就不太明白，为什么会出现这种情况，有没有什么办法能够定位到问题？",
           "link": "https://www.v2ex.com/t/1107857",
           "publishedOn": "2025-01-25T15:22:36.000Z",
-          "wordCount": 431,
+          "wordCount": 440,
           "title": "为什么我的 win10 这么卡",
           "imageUrl": null
         },
@@ -426,7 +446,7 @@
           "description": "fengshushu8: 我之前的最后一代 intel 的 mbp16 ，硬盘挂壁了，我不知道为什么，当然这事过去很久了。\n最近，我准备手上的 8G 内存的 M2 Mini 卖了换 M4 Mini ，当我通过 smartmontools 查看硬盘寿命，告诉群友使用了一年的时间硬盘写了 10T 的时候，有一个群友说的话，让我很不愉快，他说，他的电脑用 5 年也写不到 10T 的量。\n我一生气，嘛得，我搁这卖设备呢，你说这话，我设备还怎么卖？一生气就把他踢出群了。\n但是，越想越不对劲，10T 到底是个什么概念？ 1 年写入 10 T ，365 天每天都不歇停的话是日写 28GB ，可是，我这台 M2 mini 是一个备用机，1 年 365 天真正使用不超过 100 天，那这个就恐怖了，按 100 天算就是日写 102GB 。\n这就非常非常非常恐怖了，一台也就浏览浏览网页的电脑，硬盘日写 102GB ，我自己都惊讶到了。\n于是，我又通过 smartmontools ，查询了我那 2022 年买的 8G 内存的 iMac ，一查直接懵逼，硬盘写入量 57T 。\n57T 什么概念？ 256GB 硬盘的理论 TBW 应该是 100-150TB ，也就是说 57T 已经将这块硬盘的理论寿命消耗了一半了。\n我通过，Mac 自带的 [活动监视器] 查看 [磁盘] 发现，写入最大的是 PID 为 0 的 kernel_task 进程，几乎就是电脑放那啥也没操作的话，日写 20GB 以上。\n最近，我出去旅游了 5 天，回来特地看了一下 [活动监视器] ，磁盘写入量 1.25TB\n\n我翻阅了很多资料，问了很多 GPT ，基本掌握的结论就是 [内存不足会导致 macOS 频繁使用内存压缩和交换文件（ Swap ），从而增加硬盘写入量，表现为 kernel_task 进程频繁写入数据。] \n也就是说，选择 8G 内存的 Mac 电脑，你除了担心日常够不够用之外，还要考虑硬盘寿命够不够借用。\n所以，再买 Mac 电脑，请把所有预算都堆到内存上，尽量不要买丐版内存设备。\n当然，发此文章，并不是给各位制造硬盘寿命焦虑，但至少，应该，众所周知这一特性。",
           "link": "https://www.v2ex.com/t/1107853",
           "publishedOn": "2025-01-25T15:11:23.000Z",
-          "wordCount": 542,
+          "wordCount": 550,
           "title": "买 Mac 电脑，一定要把所有预算堆到内存上，一定一定记住。",
           "imageUrl": null
         },
@@ -556,7 +576,7 @@
           "description": "RedisMasterNode: \n大家新年快乐！按照习惯之前每年都会给同事发开年红包（广东这边一人几十块图个喜庆，不值钱，勿喷），现在远程办公了，想给同事也发点类似的新年''红包''，大家有什么建议吗？\n需求：大概 20 份\n价值：每份 5-10 欧或者 USD 左右\n特殊需求：远程办公实物就不考虑了，虚拟物品比较合适！\n胡乱想的备选：youtube 会员？ netflix ？或者类似的？ amazon 购物卡？\n对国外这些东西了解确实比较少，同事分布欧美，希望有熟悉的朋友可以提供一点建议，非常感谢！价值超一点也没关系，20usd 的话，也可以减少份数做个抽奖。",
           "link": "https://www.v2ex.com/t/1107832",
           "publishedOn": "2025-01-25T11:44:37.000Z",
-          "wordCount": 493,
+          "wordCount": 500,
           "title": "新年快乐！远程办公，想给国外同事发礼物，发什么好呢？",
           "imageUrl": null
         },
@@ -658,16 +678,6 @@
           "publishedOn": "2025-01-25T10:33:45.000Z",
           "wordCount": 417,
           "title": "原道的入耳系列的 “有线动圈入耳式耳机” 音质效果还没有老版本的好",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107820",
-          "author": "zx9481",
-          "description": "zx9481: https://www.ithome.com/0/827/235.htm",
-          "link": "https://www.v2ex.com/t/1107820",
-          "publishedOn": "2025-01-25T10:13:18.000Z",
-          "wordCount": 388,
-          "title": "AMD：已将 DeepSeek-V3 模型集成到 Instinct MI300X GPU 上，利用 SGLang 彻底改变 AI 开发",
           "imageUrl": null
         }
       ]
