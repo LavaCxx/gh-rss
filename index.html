@@ -22,6 +22,424 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-25 datetime="2025-01-25T02:57:53.000Z">2025-01-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-25 datetime="2025-01-25T02:57:53.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >V2EX-最新主题</button>
+                  <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107757"
+                        open
+                      >
+                        <summary class="article-expander__title">大家有没有整体美化过 Windows 上代码文件的图标？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107757">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>mercury233: 
+安装了某个 AI 编辑器后，几乎所有的代码文件的图标都变成了一坨黑色，看着有点难受，想统一修改
+找到的 IconPackager 和 7tsp 似乎都致力于替换系统文件，与这个需求不符
+是不是只能用 FileTypesMan 一个个替换了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107756"
+                        open
+                      >
+                        <summary class="article-expander__title">powerdns 这么难配置的吗？有没有大佬帮忙瞅瞅哪里配错了。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107756">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>kyonn: 
+首次创建用户配置后， 登录 web 填写 API 和 API URL 保存，老是提示没权限 CSRF token 错误。
+[flask_seasurf.py:344] WARNING - Forbidden (CSRF token missing or incorrect.): /admin/setting/pdns
+# [Installing PowerDNS – ForestRacks]
+# ( https://help.forestracks.com/cloud/docker-compose/install-powerdns)
+
+services:
+  db:
+    image: mariadb:11.6.2-noble
+    container_name: pdns-db
+    restart: always
+    networks:
+      macvlan_network:
+        ipv4_address: 192.168.10.17
+    environment:
+      - TZ&#x3D;Asia/Shanghai
+      - MYSQL_ALLOW_EMPTY_PASSWORD&#x3D;yes
+      - MYSQL_DATABASE&#x3D;powerdnsadmin
+      - MYSQL_USER&#x3D;pdns
+      - MYSQL_PASSWORD&#x3D;H46beg4Bryhsf34g
+    # ports:
+    #   - 127.0.0.1:3306:3306
+    volumes:
+      - ./pda-mysql:/var/lib/mysql
+
+  pdns:
+    image: pschiffe/pdns-mysql:4.9
+    container_name: pdns
+    hostna…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107755"
+                        open
+                      >
+                        <summary class="article-expander__title">请大佬支招， Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107755">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：
+1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。
+2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来
+3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。
+4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107754"
+                        open
+                      >
+                        <summary class="article-expander__title">🎁 [发码] 我开发了一款程序员三件套，但这款又有点不一样</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107754">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ivone29: 
+我先做了一款 MacApp 试了试水感觉有细分市场的需求，可见这个帖子 给你的临时笔记一个好归宿。
+于是一周时间，我开发出来了 iOS 端，但开发者账户不知道为什么无法继续使用了（ Apple 回复说由于一个或多个原因无法完成），搞了好久终于才上架。
+我准备了 30 个兑换码，麻烦各位 v 友高抬贵手给个五星好评，老规矩，放在评论中，自取。没码了可以评论中问我要，我看到会生成新的给你回复。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107753"
+                        open
+                      >
+                        <summary class="article-expander__title">华硕主板这个奥创中心里的静音风扇设置，每次重启都要设置一次么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107753">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>revival83: 感觉好麻烦</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107752"
+                        open
+                      >
+                        <summary class="article-expander__title">tuya 崩了？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107752">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>mccoymir: 
+{&quot;code&quot;:500,&quot;msg&quot;:&quot;server busy&quot;,&quot;success&quot;:false,&quot;t&quot;:1737769849833,&quot;tid&quot;:&quot;&quot;}
+大过年的。。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107750"
+                        open
+                      >
+                        <summary class="article-expander__title">广材助手中数据有什么办法能导出来？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107750">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>icemanpro: 现想把广材助手中的信息价能导出到其它系统中，有没有什么办法？源 jgb 文件是 zip 压缩，但有密码。或有没有其它服务商能提供这类数据？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107749"
+                        open
+                      >
+                        <summary class="article-expander__title">[求助] 有没有办法可以让车机连接上手机蓝牙后不自动播放音频？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107749">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>leecoocie: 
+如题，前段时间手机收到了 IOS 版本更新的推送，就顺手升级到了 IOS 18.1.1
+但是不知道这个版本加入了什么神奇的功能
+只要我在手机上打开过音频播放类的 App 后，即使我后台强制关闭了该 APP 的进程，但每次我一上车，车机连接上手机的蓝牙之后，这个 APP （喜马拉雅） 的音频就又会开始自动播放。
+设置里找了半天没发现可以关闭自动播放的设置，尝试关闭 APP 的后台应用刷新也不行，只要车机一连上蓝牙，就会开始自动播放
+无奈直接卸载了该 App ，但是下一次上车时，他竟然又自动播放起了另一个之前使用过的音频类 App （播客）
+就很无解，IOS 升级之前都是好好的，虽然之前上车时也会自动连接蓝牙开始播放，但是只要我后台关闭该应用后，下一次上车就不再自动播放了。但是升级后我怎么都关闭不了蓝牙连接后自动播放的功能。
+不知道各类大佬有没有遇到类似的场景，想求助下有么有解决的办法？
+当然选择关闭蓝牙也是一个方法，但有时候开车的时候也还是需要蓝牙连接的，有没有更优雅的解决办法？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107748"
+                        open
+                      >
+                        <summary class="article-expander__title">非全本科找工作是不是没戏了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107748">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>funcy: 年后想看看工作，奈何学历太差，求劝</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107747"
+                        open
+                      >
+                        <summary class="article-expander__title">iPad 有类似 Mac 的鼠标滚动优化工具吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107747">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jyrt: 
+一直觉得苹果的产品默认连接蓝牙鼠标用轮滚的时候都非常卡。在 Mac 上可以使用 MOS 这样的软件使滚动变得平滑，但是在 iPad 上一直没有很好的解决方法。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107746"
+                        open
+                      >
+                        <summary class="article-expander__title">The Bazaar Game: 全面介绍</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107746">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>tarthal: 
+The Bazaar 是一款融合交易、卡组构筑与自动战斗的创新策略游戏。由 Tempo 开发的这款免费游玩作品，将战略规划与 RPG 机制完美结合，背景设定在充满活力的银河系动态市场中。无论你是休闲玩家还是竞技战略家，The Bazaar 都将带来激动人心的动态游戏体验。
+游戏机制
+1. 英雄选择与成长
+玩家首先选择拥有独特能力和战斗风格的英雄，这将从根本上塑造战略方向。选择三件免费初始物品之一后，玩家将通过系列日常事件展开冒险，每个事件都提供通过商人互动、NPC 战斗等方式强化构筑的机会。
+2. 日常事件与自动战斗
+The Bazaar 的每日进程划分为六个独特时段，每个时段触发新事件。事件类型包括买卖物品的商人互动，以及与 NPC 或其他玩家构筑的遭遇战。每日高潮是激烈的自动战斗对决，玩家精心挑选的物品将与其他构筑展开霸权争夺战。
+战斗中，玩家依赖自动冷却触发的武器库。这些物品可造成伤害、强化装备、治疗护盾、灼烧敌人或瓦解对手配置。战斗结果决定奖励内容，包括外观道具、新物品包和独特收藏品。
+3. 选牌/买卖/经济系统
+游戏提供丰富的选牌系统，玩家可收集协同增效的物品。通过拜访商人或击败 NPC 获取新物品。游戏主货币「黄金」每日根据「收入值」发放，该数值会受物品效果和随机事件影响。玩家可按半价出售不需要的物品。
+4. 经验/物品尺寸/技能/储物系统
+完成事件即可获得经验值，特殊物品或事件可提供额外经验。升级可获得增强伤害、添加护盾、提升生命值或赠送免费物品的被动加成。玩家的「储物箱」和「地毯」区域随等级扩展，提供更多存储空间。
+技能和物品可通过青铜、白银、黄金、钻石四个阶级升级，每阶都带来显著效果提升。物品阶级开放与游戏天数进度挂钩，高阶级物品将随进程逐步解锁。
+The Bazaar 故事
+星际大熔炉
+游戏背景设定在不断扩张的多元宇宙，每个地域都有独特的文化与居民。这个被无数世界视为机遇之地的集市，吸引着从落魄者到野心家的各色人群，所有人都在喧嚣中心追寻扬名立万的机会。
+佩拉戈斯之劫
+故事聚焦岛国佩拉戈斯，这里是英雄 Vanessa 的故乡。昔日的繁荣国度现已落入暴君掌控，迫使 Vanessa 与船员在 The Bazaar 寻求庇护。他们在此积蓄力量，谋划光复故土。
+社群与重复可玩性
+The Bazaar 凭借丰富的艺术风格和创新机制，同时吸引休闲与竞技玩家。动态选牌系统和无限重复可玩性确保每局游戏都充满新鲜感。社区维基和攻略为追求精进的玩家提供宝贵资源。
+如何游玩
+截至 2024 年 10 月 30 日，The Bazaar 已开启封闭测试，支持者及购买创始人礼包的新玩家可获得抢先体验。游戏将于 12 月公开测试期间转为免费，并于 2025 年 1 月正式发布。现可通过官方启动器在 PC/Mac 平台游玩，移动端版本正在开发中。
+总结
+The Bazaar 以独特魅力融合战略深度与趣味机制。无论你钟情于丰富叙事、动态交易系统，还是竞技自动战斗，这款游戏都能满足不同玩家的需求。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107745"
+                        open
+                      >
+                        <summary class="article-expander__title">有用铁威马 nas 的注意了，官方一堆安全问题，反馈了也不修复，可千万别存隐私文件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107745">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Kite6: 
+官方引以为傲的“安全隔离模式”：其实本质就是手动加了几条 iptables 防火墙，并且 ip6tables 还没配置，导致所有 ipv6 防火墙都不生效： https://forum.terra-master.com/cn/viewtopic.php?t&#x3D;4619
+安装第三方套件后，不需要任何授权即可访问系统文件目录： https://forum.terra-master.com/cn/viewtopic.php?t&#x3D;4772</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107744"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有什么刻意引导 xhs 算法推送质量的行为</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107744">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>trihuan: 具体行为，比如点击不喜欢，不适、点赞、点赞数量，一段时间内点赞收藏等等、划页面的速度、</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107743"
+                        open
+                      >
+                        <summary class="article-expander__title">关于个人开发者境外收款，有没有人能讲明白的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107743">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>gransh: 
+在 v 站搜了很多相关的，各种方案都有，但是似乎没有一个靠谱的。
+有接入代收的，国内给你 rmb ，这种资金来源也有风险吧，抽成也挺高。
+wise 和 payoneer 好像也只能收公户转账，不能收私户转账。各位在网站上接入支付还有捐赠的时候怎么接入的呢？
+还有人说港卡收个人转账也会被封。
+stripe 开香港和英国公司是个稳定的选择，但是公户的钱要拿来花也很麻烦吧。
+有人用多道中转回国，中转的原则是什么呢，中转几次就安全了吗，有一个环节卡住就凉了吧。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107742"
+                        open
+                      >
+                        <summary class="article-expander__title">发现我被冒名顶替了，但是我要谢谢这位大哥</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107742">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zdw1984: 昨天在群里搜索 DS Cloud 一些相关报道，发现一件神奇的事情，就是有人冒名顶替我，说是他开发了 DS Cloud ，但是我还是要谢谢这位大哥，这种不求名利的冒名顶替，还替我宣传了 App ，真实新年里的一股暖流啊，好人哪里都有😂。
+![]( )
+最后我说下，现在 DS Cloud 新年促销中，有兴趣的小伙伴可以关注一下。
+不了解 DS Cloud 的小伙伴可以看下这篇文章
+https://www.v2ex.com/t/1087273
+最后祝大家新年快乐，蛇年大吉~~</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1107740"
+                        open
+                      >
+                        <summary class="article-expander__title">树莓派能带的动大容量硬盘柜吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107740">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>shuiguomayi: 
+大容量硬盘柜，比如 5 个盘位的 RAID5. 盘柜自己有电源支持，用 USB 线连接到树莓派。理论上，是不是没问题。问这个问题，主要是我之前遇到过一个诡异的问题，就是，以前买了个 3.5 的机械硬盘，还有一个配套的硬盘盒，自带电源供电，然后 ISB 连接到树莓派上，居然老是掉盘，一到写文件写了几十兆，盘符在系统里就不见了。树莓派上跑的是 raspbian. 想不明白哪里的问题，硬盘不是都自带电源了吗</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-24 datetime="2025-01-24T18:01:01.000Z">2025-01-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-24 datetime="2025-01-24T18:01:01.000Z"></time>
           </button>
@@ -632,463 +1050,6 @@ RJ45 ，tuntap ，wifi 接口在不同的场合有 3 个，想做个统计，看
  
 太震惊了，这是合理合法的吗？</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107707"
-                        open
-                      >
-                        <summary class="article-expander__title">苹果账号转到美国区后，抖音 App 无法更新了？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107707">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VisualStudioCode: 
-
-（繁体字可能是因为我先从国区转到台湾区，再转到美国区的）
-通过快捷指令切换回中国区（不是切换商店账号），尝试点『更新』，也仍然提示这个。
-尝试卸载（不是删除）后再重新下载，直接不让我装了……</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107706"
-                        open
-                      >
-                        <summary class="article-expander__title">请问妙控板可以在 2 台或多台设备间快速切换吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107706">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>hcsu: 
-如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？
-已知的方法有：
-重新配对：不够快速方便
-Universal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定
-请问还有其他方法吗？谢谢</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107705"
-                        open
-                      >
-                        <summary class="article-expander__title">2025 年还能买 M2 Mac mini 么？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107705">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>GeekGuru: 
-现在很多 2000 多价位的 M2 Mac mini ，买一个办公用区别不大吧？
-可以省一个 4k 显示器出来。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107704"
-                        open
-                      >
-                        <summary class="article-expander__title">是 B550 芯片组不支持还是 Ryzen G 系列不支持 acs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107704">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Vtoecha: 
-最近组了一台 all in one 设备，迷你精致还是纯 ecc 内存功耗也低，就是不支持 pcie acs 功能。
-cpu 是 5650ge ，主板是 Gagabyte b550i aorus pro ax ，2.5g 网口，支持 pcie 拆分。
-Bios 里也没有 acs 选项，pve 编译了 acs 补丁内核也不起作用，导致主板上的有线网口和无线网卡都在同一个 iommu 组，没办法直通无线给里面的 win11 或者 batocera ，每次都只能用 usb 蓝牙连手柄...还不稳定，时不时开机就要重新插拔下。
-cpu 5650ge 是为了用纯 ecc 内存，然后 x570i 又没有 2.5g 网卡，两个换哪一个都好不爽啊啊啊。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107703"
-                        open
-                      >
-                        <summary class="article-expander__title">白嫖的 Azure B1s 主机在香港 1 区遭遇的负载拉满问题</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107703">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>nero233: 
-本人是微软云学生订阅开的香港 B1s 机器，可用性区域位于香港 Zone 1 ，免费额度无可用冗余。
-连续多天发现 vps 在运行 24-48 小时后 cpu 、内存、交换会爆满，负载打到 300 以至于无法维护，必须通过解除分配和重新分配，强制重启服务器，方可恢复使用，并进入 48 小时候暴死循环。
-经过排查，通过包括但不限于删除机器重开，重做系统等方式，最后确认非本人服务器配置问题和软件问题。htop 监测发现在机器启动后 24h-48h 不存在异常进程的情况下 cpu 突然飙升，负载拉满，及时通过 reboot 重启机器，问题依旧存在且持续，只有通过重新分配才能恢复。
-这免费微软云长得跟某些多开超开云一个姿色。
-临时解决方法有解除分配并重新分配，重新部署(redepoly)。
-如果想长效的解决问题，可以修改机器的可用性区域（比如从 Zone 1 换到 Zone 3 ），本人在日本的一台微软云之前通过切换可用性区域解决了相同问题。但是由于微软云的神秘机制，本人一直卡在“审核迁移策略”这一步，持续失败，且免费计划得不到客服的技术支持，只能写一个脚本监测 vps 状态并自动重新部署来缓解问题。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107702"
-                        open
-                      >
-                        <summary class="article-expander__title">通过改键拯救小拇指</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107702">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>cj323: 
-可能是 AI 火了后，使用 Tab 太多了，最近左手小拇指敲键盘会有痛感。
-手碰键盘不舒服这件事，一个码工怎么能忍。想办法中。。。。
-一些背景：
-Mac 用户
-capslock 已经改了 esc ，一个 cmd 改了 ctrl
-经常开很多程序和窗口，所以常 cmd + tab 或 ctrl+tab 切屏
-用 Vim 所以经常要按 esc
-不该可能改的习惯
-tab 补全，这个太通用了，感觉很难改别的，放弃
-cmd tab 切屏，同上
-改 shift 键，这个太难改了，放弃
-可能的解决办法
-改用 cmd+shift+[切 tab ，问题是用这个还是得用小拇指按 shift ，没太大区别。
-减少使用 esc ，改用 ctrl+[或者 ctrl+c ，问题是这个组合键位还是没有单键方便。
-改 esc 到别的键位，这个想了半天也没想到能改哪里。我希望是改到不容易累的手指，比如食指，但是中间的键位都太常用没法改。
-不知道有没有同病相怜的朋友给点建议。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107700"
-                        open
-                      >
-                        <summary class="article-expander__title">哪款 4K 以上显示器有优美的白色、四边等宽边框</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107700">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>CNM47589: 
-这是目前唯一能让我再度勃起的电子产品外观。
-举几个例子，三星画境电视、pixel tablet 、apple cinema display 、想象中去掉下巴的新款 iMac</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107699"
-                        open
-                      >
-                        <summary class="article-expander__title">GoSSL 在这里赠送 10 个一年通配符域证书,通配符域证书低至$10/年</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107699">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Theresago: 奖品：
-5 个 GoGetSSL 通配符 SSL 证书
-3 个 RapidSSL 通配符 SSL 证书
-2 个 Sectigo 基本通配符 SSL 证书
-为多个子域名提供经济实惠、可靠的 SSL 保护。
-活动期间：即日起至 2025 年 1 月 28 日。
-请确保您的回复是好的！
-我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！
-快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！
-
-关于 GoSSL 和我们的价格：
-在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。
-GoGetSSL 通配符 SSL–每年仅需 10 美元
-只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。
-在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp&#x3D;/store/gogetssl
-Sectigo 基本通配符 SSL–每年仅售$15
-Sectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。
-在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp&#x3D;/store/sectigo
-RapidSSL 通配符 SSL–每年仅售 15 美元
-RapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！
-在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp&#x3D;/store/rapidssl
-我们支持的付款方式:virtual currency  Bank Transfer  PayPal Basic （ paypal 需要提交支持单获取在线支付链接)
-特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！
-邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。
-好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。
-该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。
-提现方式：
-现金奖励可提现到 PayPal 账户。
-也可以选择提现至任何加密货币账户。
-参与者必须拥有 GoSSL 账户。
-被邀请的好友必须是首次购买 GoSSL 证书的新用户。
-退款与重新签发政策
-退款保障：
-购买的 SSL 保障证书提供 30 天全额退款。
-如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。
-无限次重新签发：
-在近证书内，GoSSL 提供无限次免费重新签发服务。
-无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107698"
-                        open
-                      >
-                        <summary class="article-expander__title">Steam 不支持 macOS Catalina 了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107698">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xingdu: 
-Steam 将于 2025 年 2 月 15 日停止支持 macOS Catalina
-20 年买的 20 款 MBP ，也是最后一款 intel 芯片的 macbook pro ，一直停留在 Catalina ，没有升级。现在一大堆软件不能升级，Chrome 也不能升级了，但是都还能用。现在 steam 不能用了，游戏也打不了。
-注：偶尔用 steam 玩玩雀魂，杀戮尖塔啥的，不玩各种 3A 大作。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107697"
-                        open
-                      >
-                        <summary class="article-expander__title">ChatGPT 出来这么久了，怎么没看到融合实体娃娃 / 机器人的产品？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107697">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>nealot: 
-最难的语言对话能力、图像识别能力 ChatGPT 已经解决得差不多了。
-在可预见的未来一段时间，AI 的成本还会一降再降，订阅费不再成为阻碍。
-如果实体 AI 伴侣这个概念能成立，说不定会对现有的人类社会产生难以估计的影响。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107696"
-                        open
-                      >
-                        <summary class="article-expander__title">B 站直播页网页全屏模式在 Safari 浏览器中两侧存在黑边</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107696">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>royzxq: 
-如图所示，播放器网页全屏模式两侧存在黑边
- 
-F12 发现是 .LiveVideoPlayer_root 的父节点给了个 overflow: hidden 的 css 导致的，
- 
-移除该 CSS 之后表现正常（和 chrome 一致）
- 
-Safari 版本： 版本 17.5 (19618.2.12.11.6)
-系统版本：14.5 (23F79)</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107695"
-                        open
-                      >
-                        <summary class="article-expander__title">看来要被优化了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107695">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>edinina: 
-大龄 UI 设计，现就职一家北京的 IT 类公司，在这已经工作十年。
-上个季度因为之前一直参与的一个项目结束了，也没新的项目续上，整个季度工作需求很少，但是有工作需求的都比较积极的完成了。评季度绩效（ 12 月底）的时候，部门大领导给打了倒数第二档，打分理由也是“需求较少，但是参与的工作都没问题”这种。因为我个人感觉需求较少不是我本身的原因，于是下班前咨询了人事管绩效这方面的同事，她说如果有异议可以提，但是也得需要我们部门领导同意修改。我于是跟她说那等我跟领导聊聊再咨询她。
-第二天还没等我问，人事就直接去问我们领导这个事（我也不知道人事是怎么个想法没先问我），然后领导微信上就问我（我是异地远程打卡办公）是对考核有意见什么的。我就硬着头皮跟部门领导谈了这个事，然后她说公司绩效制度就这样，说后面需求上来了再说什么的。我本来心里就因为是远程办公所以多少在这方面有点被动，于是这件事就这么过去了。
-但是最近需求量也没上来。今天下午，一个同事在给甲方做需求的时候，实在忙不过来了就让我帮忙，我答应了就赶紧帮忙开干，负责分配需求的小领导也帮忙去跟部门领导说同事忙不过来先让我帮忙一下。结果过了一会儿同事跟我说，领导不同意。当时我大概也明白了，现在就是有工作需求也不分配给我。
-我之前也问过关系好的同事，我们这个部门这几年被挤走很多人了，大概原因就是效益不好，也不直接辞退，这位部门领导是个女的，总喜欢在裁人前整一些有的没的，没有一次是痛痛快快善始善终的。甚至听说有位前同事被离职的时候在公司大闹，不要赔偿，而是坚持让她改绩效评价，追回克扣的三四千出气。
-现在整得我也是挺难受，其实这么久了对公司还是很有感情的，以前的领导和同事对我都特别好。几年前开始远程办公以后，我知道自己不久后肯定会主动或被动离开这里，但从没想过是像这样离开。
-以前感觉虽然公司不大，但同事领导都是很纯真善良的一帮人。头一次遇到这位这样的，实在是有点不知道接下来该怎么应对了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107694"
-                        open
-                      >
-                        <summary class="article-expander__title">关于程序员找对象这事，真心有需要可以咨询/了解下～～</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107694">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107693"
-                        open
-                      >
-                        <summary class="article-expander__title"># AIFly.Tools - 全球化的 AI 工具发现平台</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107693">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>smalltechnology: 
-大家好，我是 AIFly.Tools 的开发者。在过去几个月的独立开发过程中，我发现寻找合适的 AI 工具变得越来越困难。虽然市面上有很多 AI 工具导航网站，但大多缺乏深度对比和多语言支持。于是我开发了 AIFly.Tools 。
-🔍 解决的问题
-AI 工具快速迭代，信息更新不及时
-缺乏深度的工具对比和评测
-亚洲用户的语言障碍
-工具质量参差不齐
-🚀 核心功能
-多语言支持
-英文/中文/日文/韩文完整支持
-本地化的工具描述和评测
-工具验证系统
-严格的工具审核机制
-定期更新检查
-社区反馈验证
-智能分类
-场景化分类
-多维度标签
-相似工具推荐
-社区互动
-用户评分系统
-使用体验分享
-工具对比讨论
-🔮 产品界面
-
-
-
-
-🛠 技术栈
-前端：Nuxt.js 3 + Vue 3 + TypeScript
-样式：TailwindCSS
-后端：Supabase
-部署：Vercel
-搜索：Algolia
-🎯 目标用户
-开发者寻找 AI 开发工具
-创作者发现 AI 创意工具
-企业选择 AI 解决方案
-产品经理调研 AI 产品
-🌟 特色亮点
-首个专注亚洲市场的 AI 工具平台
-严格的工具验证机制
-深度的对比和评测
-活跃的用户社区
-🔮 未来规划
-AI 工具推荐系统
-API 接口开放
-更多语言支持
-工具对比矩阵
-🤝 寻求反馈
-目前产品处于公测阶段，欢迎各位独立开发者试用和提供建议。特别感兴趣：
-产品定位是否准确？
-还缺少哪些关键功能？
-如何提升用户体验？
-产品地址：AIFly.Tools
-欢迎交流讨论！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107692"
-                        open
-                      >
-                        <summary class="article-expander__title">闪迪的固态硬盘掉盘啥问题？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107692">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wrwj: 
-21 年买的闪迪至尊高速 NVME PCie3.0  这个 2T 的，电脑挂机连续几天不关机，就掉盘了。问闪迪的客服说可能主板的问题或者是接口的问题。大家如何解决掉盘的问题？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107689"
-                        open
-                      >
-                        <summary class="article-expander__title">做了一个简单的红包封面, 感兴趣的话可以领取</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107689">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>angusjune:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2251,8 +2212,8 @@ NPC 指的是电子游戏的&quot;非玩家角色&quot;，比如路人、门卫�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12961300474">
-        <time id="build-timestamp" datetime="2025-01-25T03:11:15.213Z">2025-01-25T03:11:15.213Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12961715153">
+        <time id="build-timestamp" datetime="2025-01-25T04:12:43.102Z">2025-01-25T04:12:43.102Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

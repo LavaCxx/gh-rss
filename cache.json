@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -149,6 +155,12 @@
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
         }
       ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": []
     },
     {
       "title": "阮一峰的网络日志",
@@ -274,12 +286,172 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107757",
+          "author": "mercury233",
+          "description": "mercury233: \n安装了某个 AI 编辑器后，几乎所有的代码文件的图标都变成了一坨黑色，看着有点难受，想统一修改\n找到的 IconPackager 和 7tsp 似乎都致力于替换系统文件，与这个需求不符\n是不是只能用 FileTypesMan 一个个替换了",
+          "link": "https://www.v2ex.com/t/1107757",
+          "publishedOn": "2025-01-25T02:57:53.000Z",
+          "wordCount": 394,
+          "title": "大家有没有整体美化过 Windows 上代码文件的图标？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107756",
+          "author": "kyonn",
+          "description": "kyonn: \n首次创建用户配置后， 登录 web 填写 API 和 API URL 保存，老是提示没权限 CSRF token 错误。\n[flask_seasurf.py:344] WARNING - Forbidden (CSRF token missing or incorrect.): /admin/setting/pdns\n# [Installing PowerDNS – ForestRacks]\n# ( https://help.forestracks.com/cloud/docker-compose/install-powerdns)\n\nservices:\n  db:\n    image: mariadb:11.6.2-noble\n    container_name: pdns-db\n    restart: always\n    networks:\n      macvlan_network:\n        ipv4_address: 192.168.10.17\n    environment:\n      - TZ=Asia/Shanghai\n      - MYSQL_ALLOW_EMPTY_PASSWORD=yes\n      - MYSQL_DATABASE=powerdnsadmin\n      - MYSQL_USER=pdns\n      - MYSQL_PASSWORD=H46beg4Bryhsf34g\n    # ports:\n    #   - 127.0.0.1:3306:3306\n    volumes:\n      - ./pda-mysql:/var/lib/mysql\n\n  pdns:\n    image: pschiffe/pdns-mysql:4.9\n    container_name: pdns\n    hostna…",
+          "link": "https://www.v2ex.com/t/1107756",
+          "publishedOn": "2025-01-25T02:53:39.000Z",
+          "wordCount": 588,
+          "title": "powerdns 这么难配置的吗？有没有大佬帮忙瞅瞅哪里配错了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107755",
+          "author": "ly1878",
+          "description": "ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：\n1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。\n2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来\n3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。\n4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.",
+          "link": "https://www.v2ex.com/t/1107755",
+          "publishedOn": "2025-01-25T02:31:02.000Z",
+          "wordCount": 425,
+          "title": "请大佬支招， Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107754",
+          "author": "Ivone29",
+          "description": "Ivone29: \n我先做了一款 MacApp 试了试水感觉有细分市场的需求，可见这个帖子 给你的临时笔记一个好归宿。\n于是一周时间，我开发出来了 iOS 端，但开发者账户不知道为什么无法继续使用了（ Apple 回复说由于一个或多个原因无法完成），搞了好久终于才上架。\n我准备了 30 个兑换码，麻烦各位 v 友高抬贵手给个五星好评，老规矩，放在评论中，自取。没码了可以评论中问我要，我看到会生成新的给你回复。",
+          "link": "https://www.v2ex.com/t/1107754",
+          "publishedOn": "2025-01-25T02:28:01.000Z",
+          "wordCount": 473,
+          "title": "🎁 [发码] 我开发了一款程序员三件套，但这款又有点不一样",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107753",
+          "author": "revival83",
+          "description": "revival83: 感觉好麻烦",
+          "link": "https://www.v2ex.com/t/1107753",
+          "publishedOn": "2025-01-25T02:27:57.000Z",
+          "wordCount": 368,
+          "title": "华硕主板这个奥创中心里的静音风扇设置，每次重启都要设置一次么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107752",
+          "author": "mccoymir",
+          "description": "mccoymir: \n{\"code\":500,\"msg\":\"server busy\",\"success\":false,\"t\":1737769849833,\"tid\":\"\"}\n大过年的。。",
+          "link": "https://www.v2ex.com/t/1107752",
+          "publishedOn": "2025-01-25T01:56:35.000Z",
+          "wordCount": 349,
+          "title": "tuya 崩了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107750",
+          "author": "icemanpro",
+          "description": "icemanpro: 现想把广材助手中的信息价能导出到其它系统中，有没有什么办法？源 jgb 文件是 zip 压缩，但有密码。或有没有其它服务商能提供这类数据？",
+          "link": "https://www.v2ex.com/t/1107750",
+          "publishedOn": "2025-01-25T01:52:41.000Z",
+          "wordCount": 393,
+          "title": "广材助手中数据有什么办法能导出来？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107749",
+          "author": "leecoocie",
+          "description": "leecoocie: \n如题，前段时间手机收到了 IOS 版本更新的推送，就顺手升级到了 IOS 18.1.1\n但是不知道这个版本加入了什么神奇的功能\n只要我在手机上打开过音频播放类的 App 后，即使我后台强制关闭了该 APP 的进程，但每次我一上车，车机连接上手机的蓝牙之后，这个 APP （喜马拉雅） 的音频就又会开始自动播放。\n设置里找了半天没发现可以关闭自动播放的设置，尝试关闭 APP 的后台应用刷新也不行，只要车机一连上蓝牙，就会开始自动播放\n无奈直接卸载了该 App ，但是下一次上车时，他竟然又自动播放起了另一个之前使用过的音频类 App （播客）\n就很无解，IOS 升级之前都是好好的，虽然之前上车时也会自动连接蓝牙开始播放，但是只要我后台关闭该应用后，下一次上车就不再自动播放了。但是升级后我怎么都关闭不了蓝牙连接后自动播放的功能。\n不知道各类大佬有没有遇到类似的场景，想求助下有么有解决的办法？\n当然选择关闭蓝牙也是一个方法，但有时候开车的时候也还是需要蓝牙连接的，有没有更优雅的解决办法？",
+          "link": "https://www.v2ex.com/t/1107749",
+          "publishedOn": "2025-01-25T01:49:44.000Z",
+          "wordCount": 444,
+          "title": "[求助] 有没有办法可以让车机连接上手机蓝牙后不自动播放音频？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107748",
+          "author": "funcy",
+          "description": "funcy: 年后想看看工作，奈何学历太差，求劝",
+          "link": "https://www.v2ex.com/t/1107748",
+          "publishedOn": "2025-01-25T01:40:34.000Z",
+          "wordCount": 471,
+          "title": "非全本科找工作是不是没戏了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107747",
+          "author": "jyrt",
+          "description": "jyrt: \n一直觉得苹果的产品默认连接蓝牙鼠标用轮滚的时候都非常卡。在 Mac 上可以使用 MOS 这样的软件使滚动变得平滑，但是在 iPad 上一直没有很好的解决方法。",
+          "link": "https://www.v2ex.com/t/1107747",
+          "publishedOn": "2025-01-25T01:29:08.000Z",
+          "wordCount": 383,
+          "title": "iPad 有类似 Mac 的鼠标滚动优化工具吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107746",
+          "author": "tarthal",
+          "description": "tarthal: \nThe Bazaar 是一款融合交易、卡组构筑与自动战斗的创新策略游戏。由 Tempo 开发的这款免费游玩作品，将战略规划与 RPG 机制完美结合，背景设定在充满活力的银河系动态市场中。无论你是休闲玩家还是竞技战略家，The Bazaar 都将带来激动人心的动态游戏体验。\n游戏机制\n1. 英雄选择与成长\n玩家首先选择拥有独特能力和战斗风格的英雄，这将从根本上塑造战略方向。选择三件免费初始物品之一后，玩家将通过系列日常事件展开冒险，每个事件都提供通过商人互动、NPC 战斗等方式强化构筑的机会。\n2. 日常事件与自动战斗\nThe Bazaar 的每日进程划分为六个独特时段，每个时段触发新事件。事件类型包括买卖物品的商人互动，以及与 NPC 或其他玩家构筑的遭遇战。每日高潮是激烈的自动战斗对决，玩家精心挑选的物品将与其他构筑展开霸权争夺战。\n战斗中，玩家依赖自动冷却触发的武器库。这些物品可造成伤害、强化装备、治疗护盾、灼烧敌人或瓦解对手配置。战斗结果决定奖励内容，包括外观道具、新物品包和独特收藏品。\n3. 选牌/买卖/经济系统\n游戏提供丰富的选牌系统，玩家可收集协同增效的物品。通过拜访商人或击败 NPC 获取新物品。游戏主货币「黄金」每日根据「收入值」发放，该数值会受物品效果和随机事件影响。玩家可按半价出售不需要的物品。\n4. 经验/物品尺寸/技能/储物系统\n完成事件即可获得经验值，特殊物品或事件可提供额外经验。升级可获得增强伤害、添加护盾、提升生命值或赠送免费物品的被动加成。玩家的「储物箱」和「地毯」区域随等级扩展，提供更多存储空间。\n技能和物品可通过青铜、白银、黄金、钻石四个阶级升级，每阶都带来显著效果提升。物品阶级开放与游戏天数进度挂钩，高阶级物品将随进程逐步解锁。\nThe Bazaar 故事\n星际大熔炉\n游戏背景设定在不断扩张的多元宇宙，每个地域都有独特的文化与居民。这个被无数世界视为机遇之地的集市，吸引着从落魄者到野心家的各色人群，所有人都在喧嚣中心追寻扬名立万的机会。\n佩拉戈斯之劫\n故事聚焦岛国佩拉戈斯，这里是英雄 Vanessa 的故乡。昔日的繁荣国度现已落入暴君掌控，迫使 Vanessa 与船员在 The Bazaar 寻求庇护。他们在此积蓄力量，谋划光复故土。\n社群与重复可玩性\nThe Bazaar 凭借丰富的艺术风格和创新机制，同时吸引休闲与竞技玩家。动态选牌系统和无限重复可玩性确保每局游戏都充满新鲜感。社区维基和攻略为追求精进的玩家提供宝贵资源。\n如何游玩\n截至 2024 年 10 月 30 日，The Bazaar 已开启封闭测试，支持者及购买创始人礼包的新玩家可获得抢先体验。游戏将于 12 月公开测试期间转为免费，并于 2025 年 1 月正式发布。现可通过官方启动器在 PC/Mac 平台游玩，移动端版本正在开发中。\n总结\nThe Bazaar 以独特魅力融合战略深度与趣味机制。无论你钟情于丰富叙事、动态交易系统，还是竞技自动战斗，这款游戏都能满足不同玩家的需求。",
+          "link": "https://www.v2ex.com/t/1107746",
+          "publishedOn": "2025-01-25T01:04:33.000Z",
+          "wordCount": 426,
+          "title": "The Bazaar Game: 全面介绍",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107745",
+          "author": "Kite6",
+          "description": "Kite6: \n官方引以为傲的“安全隔离模式”：其实本质就是手动加了几条 iptables 防火墙，并且 ip6tables 还没配置，导致所有 ipv6 防火墙都不生效： https://forum.terra-master.com/cn/viewtopic.php?t=4619\n安装第三方套件后，不需要任何授权即可访问系统文件目录： https://forum.terra-master.com/cn/viewtopic.php?t=4772",
+          "link": "https://www.v2ex.com/t/1107745",
+          "publishedOn": "2025-01-25T00:57:22.000Z",
+          "wordCount": 521,
+          "title": "有用铁威马 nas 的注意了，官方一堆安全问题，反馈了也不修复，可千万别存隐私文件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107744",
+          "author": "trihuan",
+          "description": "trihuan: 具体行为，比如点击不喜欢，不适、点赞、点赞数量，一段时间内点赞收藏等等、划页面的速度、",
+          "link": "https://www.v2ex.com/t/1107744",
+          "publishedOn": "2025-01-25T00:51:16.000Z",
+          "wordCount": 397,
+          "title": "有没有什么刻意引导 xhs 算法推送质量的行为",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107743",
+          "author": "gransh",
+          "description": "gransh: \n在 v 站搜了很多相关的，各种方案都有，但是似乎没有一个靠谱的。\n有接入代收的，国内给你 rmb ，这种资金来源也有风险吧，抽成也挺高。\nwise 和 payoneer 好像也只能收公户转账，不能收私户转账。各位在网站上接入支付还有捐赠的时候怎么接入的呢？\n还有人说港卡收个人转账也会被封。\nstripe 开香港和英国公司是个稳定的选择，但是公户的钱要拿来花也很麻烦吧。\n有人用多道中转回国，中转的原则是什么呢，中转几次就安全了吗，有一个环节卡住就凉了吧。",
+          "link": "https://www.v2ex.com/t/1107743",
+          "publishedOn": "2025-01-25T00:48:50.000Z",
+          "wordCount": 550,
+          "title": "关于个人开发者境外收款，有没有人能讲明白的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107742",
+          "author": "zdw1984",
+          "description": "zdw1984: 昨天在群里搜索 DS Cloud 一些相关报道，发现一件神奇的事情，就是有人冒名顶替我，说是他开发了 DS Cloud ，但是我还是要谢谢这位大哥，这种不求名利的冒名顶替，还替我宣传了 App ，真实新年里的一股暖流啊，好人哪里都有😂。\n![]( )\n最后我说下，现在 DS Cloud 新年促销中，有兴趣的小伙伴可以关注一下。\n不了解 DS Cloud 的小伙伴可以看下这篇文章\nhttps://www.v2ex.com/t/1087273\n最后祝大家新年快乐，蛇年大吉~~",
+          "link": "https://www.v2ex.com/t/1107742",
+          "publishedOn": "2025-01-25T00:47:32.000Z",
+          "wordCount": 504,
+          "title": "发现我被冒名顶替了，但是我要谢谢这位大哥",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107740",
+          "author": "shuiguomayi",
+          "description": "shuiguomayi: \n大容量硬盘柜，比如 5 个盘位的 RAID5. 盘柜自己有电源支持，用 USB 线连接到树莓派。理论上，是不是没问题。问这个问题，主要是我之前遇到过一个诡异的问题，就是，以前买了个 3.5 的机械硬盘，还有一个配套的硬盘盒，自带电源供电，然后 ISB 连接到树莓派上，居然老是掉盘，一到写文件写了几十兆，盘符在系统里就不见了。树莓派上跑的是 raspbian. 想不明白哪里的问题，硬盘不是都自带电源了吗",
+          "link": "https://www.v2ex.com/t/1107740",
+          "publishedOn": "2025-01-25T00:41:54.000Z",
+          "wordCount": 484,
+          "title": "树莓派能带的动大容量硬盘柜吗",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107736",
           "author": "ly1878",
           "description": "ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：\n1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。\n2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来\n3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。\n4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.",
           "link": "https://www.v2ex.com/t/1107736",
           "publishedOn": "2025-01-24T18:01:01.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。请大佬支招",
           "imageUrl": null
         },
@@ -289,7 +461,7 @@
           "description": "qviqvi: \n以前有 simbox 多卡宝 ，可以多个卡同时待机，app 推送。有没有类似产品，或者有没有简单的制作方法。多个手机收短信，每次换卡太麻烦。",
           "link": "https://www.v2ex.com/t/1107735",
           "publishedOn": "2025-01-24T17:16:26.000Z",
-          "wordCount": 362,
+          "wordCount": 364,
           "title": "有替代 simbox 的多卡待机解决方案吗？",
           "imageUrl": null
         },
@@ -369,7 +541,7 @@
           "description": "Ivan555: \n😄兄弟们来啊，把女朋友换成自己兄弟，看谁的速度快，地址放这了。\nhttps://picmagix.com",
           "link": "https://www.v2ex.com/t/1107724",
           "publishedOn": "2025-01-24T15:08:41.000Z",
-          "wordCount": 395,
+          "wordCount": 402,
           "title": "千呼万唤使出来， AI 换脸达摩神器 PicMagix 终于上线了！",
           "imageUrl": null
         },
@@ -379,7 +551,7 @@
           "description": "fengsi: \n试用了 Affine 这个笔记产品，感觉解决了我的几个小糟心的点。\nnotion 段落之间间距无法调整，太小了，我甚至分辨不出来这是不同的段落，如果单独空一行的，又太大了。\nnotion 的普通 heading 无法折叠； notion 的 toc 无法固定显示。\ncraft 文档中如果有代码块，鼠标滚动一直有问题。\n这个产品感觉很早之前就看到了，貌似当时聚集了一堆大佬，但是过去了几年？感觉现在像是不温不火的样子？而且当前的产品和我当时体验的产品预览也有很大的差距（这个帖子也可以看出： https://www.v2ex.com/t/877621 ）。看贡献者名单中也有几个 top 贡献者都已经离开 Affine 。\n目前 Affine 做了这么些年，看 git 记录更新的挺频繁的，但是好像一直没咋宣传？有关注 Affine 的人吗？后续 Affine 怎么发展呢？",
           "link": "https://www.v2ex.com/t/1107723",
           "publishedOn": "2025-01-24T15:08:27.000Z",
-          "wordCount": 401,
+          "wordCount": 421,
           "title": "一个笔记产品 Affine",
           "imageUrl": null
         },
@@ -389,7 +561,7 @@
           "description": "RedBeanIce: 父 55 岁了，母亲 51 岁，父亲马上就交完了职工医保。\n但是母亲是后面才交的，起码还得交 8-9 年才可以达到 20 年的年限。\n```\n所以现在有个问题，母亲的医保如何处理\n1 ，直接放弃缴纳职工医疗，交新农合？\n2 ，将职工医保补缴完？\n3 ，或者是其他的方案？\n```",
           "link": "https://www.v2ex.com/t/1107722",
           "publishedOn": "2025-01-24T15:01:09.000Z",
-          "wordCount": 455,
+          "wordCount": 472,
           "title": "[父母医保]",
           "imageUrl": null
         },
@@ -419,7 +591,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107718",
           "publishedOn": "2025-01-24T14:41:27.000Z",
-          "wordCount": 517,
+          "wordCount": 535,
           "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -449,7 +621,7 @@
           "description": "kyonn: \n之前按照 https://v2ex.com/t/1073554 这个方案搭了套 fakeip 方案的 dns ， 主要就是用 paopao dns 和 paopao gateway 实现海外域名自动分流至 fakeip 网关，实际用下来发现 paopao dns 好像老是有些其奇怪的问题，突然可能出现 dns 解析公网 ip 失败的问题，执行下 debug.sh 又恢复正常了， 求推荐下有没有代替的稳定方案。",
           "link": "https://www.v2ex.com/t/1107714",
           "publishedOn": "2025-01-24T14:21:11.000Z",
-          "wordCount": 522,
+          "wordCount": 526,
           "title": "自建 dns 方案求推荐。",
           "imageUrl": null
         },
@@ -469,7 +641,7 @@
           "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
           "link": "https://www.v2ex.com/t/1107712",
           "publishedOn": "2025-01-24T13:42:44.000Z",
-          "wordCount": 477,
+          "wordCount": 481,
           "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
           "imageUrl": null
         },
@@ -479,7 +651,7 @@
           "description": "lazyjohnzhou: 刚请教了极空间客服（人工客服响应很快，赞一下）手机端 App 相册自动备份时机。反馈是 Android 和 iOS 都是在极空间 App 打开后自动触发备份。但是如果一直没有主动手动打开极空间 App 的话，相册就不会备份。因为我印象中现在系统对后台管理都很严格，这个也符合我的直觉。\n因为我一直在使用 iCloud ，很喜欢 iCloud 在不打开 App 下也能自动备份的能力。所以还是想请教一下有没有办法能给 NAS 实现不打开 App 也能自动在后台备份相册照片。\n    \n    吐槽一下，个人感觉相对于 NAS 系统这样复杂且重要的软件来说，作为销量不错的极空间，它的用户文档少得且简单得可怜，很多基础的功能和系统行为都需要自己去验证、搜索和询问人工客服，给我一种不太靠谱和用心的感觉。",
           "link": "https://www.v2ex.com/t/1107711",
           "publishedOn": "2025-01-24T13:29:52.000Z",
-          "wordCount": 476,
+          "wordCount": 478,
           "title": "请教极空间 NAS 相册自动备份问题",
           "imageUrl": null
         },
@@ -499,168 +671,8 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 536,
+          "wordCount": 547,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107707",
-          "author": "VisualStudioCode",
-          "description": "VisualStudioCode: \n\n（繁体字可能是因为我先从国区转到台湾区，再转到美国区的）\n通过快捷指令切换回中国区（不是切换商店账号），尝试点『更新』，也仍然提示这个。\n尝试卸载（不是删除）后再重新下载，直接不让我装了……",
-          "link": "https://www.v2ex.com/t/1107707",
-          "publishedOn": "2025-01-24T12:56:17.000Z",
-          "wordCount": 484,
-          "title": "苹果账号转到美国区后，抖音 App 无法更新了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107706",
-          "author": "hcsu",
-          "description": "hcsu: \n如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？\n已知的方法有：\n重新配对：不够快速方便\nUniversal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定\n请问还有其他方法吗？谢谢",
-          "link": "https://www.v2ex.com/t/1107706",
-          "publishedOn": "2025-01-24T12:40:41.000Z",
-          "wordCount": 404,
-          "title": "请问妙控板可以在 2 台或多台设备间快速切换吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107705",
-          "author": "GeekGuru",
-          "description": "GeekGuru: \n现在很多 2000 多价位的 M2 Mac mini ，买一个办公用区别不大吧？\n可以省一个 4k 显示器出来。",
-          "link": "https://www.v2ex.com/t/1107705",
-          "publishedOn": "2025-01-24T12:40:33.000Z",
-          "wordCount": 498,
-          "title": "2025 年还能买 M2 Mac mini 么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107704",
-          "author": "Vtoecha",
-          "description": "Vtoecha: \n最近组了一台 all in one 设备，迷你精致还是纯 ecc 内存功耗也低，就是不支持 pcie acs 功能。\ncpu 是 5650ge ，主板是 Gagabyte b550i aorus pro ax ，2.5g 网口，支持 pcie 拆分。\nBios 里也没有 acs 选项，pve 编译了 acs 补丁内核也不起作用，导致主板上的有线网口和无线网卡都在同一个 iommu 组，没办法直通无线给里面的 win11 或者 batocera ，每次都只能用 usb 蓝牙连手柄...还不稳定，时不时开机就要重新插拔下。\ncpu 5650ge 是为了用纯 ecc 内存，然后 x570i 又没有 2.5g 网卡，两个换哪一个都好不爽啊啊啊。",
-          "link": "https://www.v2ex.com/t/1107704",
-          "publishedOn": "2025-01-24T12:20:53.000Z",
-          "wordCount": 502,
-          "title": "是 B550 芯片组不支持还是 Ryzen G 系列不支持 acs",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107703",
-          "author": "nero233",
-          "description": "nero233: \n本人是微软云学生订阅开的香港 B1s 机器，可用性区域位于香港 Zone 1 ，免费额度无可用冗余。\n连续多天发现 vps 在运行 24-48 小时后 cpu 、内存、交换会爆满，负载打到 300 以至于无法维护，必须通过解除分配和重新分配，强制重启服务器，方可恢复使用，并进入 48 小时候暴死循环。\n经过排查，通过包括但不限于删除机器重开，重做系统等方式，最后确认非本人服务器配置问题和软件问题。htop 监测发现在机器启动后 24h-48h 不存在异常进程的情况下 cpu 突然飙升，负载拉满，及时通过 reboot 重启机器，问题依旧存在且持续，只有通过重新分配才能恢复。\n这免费微软云长得跟某些多开超开云一个姿色。\n临时解决方法有解除分配并重新分配，重新部署(redepoly)。\n如果想长效的解决问题，可以修改机器的可用性区域（比如从 Zone 1 换到 Zone 3 ），本人在日本的一台微软云之前通过切换可用性区域解决了相同问题。但是由于微软云的神秘机制，本人一直卡在“审核迁移策略”这一步，持续失败，且免费计划得不到客服的技术支持，只能写一个脚本监测 vps 状态并自动重新部署来缓解问题。",
-          "link": "https://www.v2ex.com/t/1107703",
-          "publishedOn": "2025-01-24T12:17:12.000Z",
-          "wordCount": 392,
-          "title": "白嫖的 Azure B1s 主机在香港 1 区遭遇的负载拉满问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107702",
-          "author": "cj323",
-          "description": "cj323: \n可能是 AI 火了后，使用 Tab 太多了，最近左手小拇指敲键盘会有痛感。\n手碰键盘不舒服这件事，一个码工怎么能忍。想办法中。。。。\n一些背景：\nMac 用户\ncapslock 已经改了 esc ，一个 cmd 改了 ctrl\n经常开很多程序和窗口，所以常 cmd + tab 或 ctrl+tab 切屏\n用 Vim 所以经常要按 esc\n不该可能改的习惯\ntab 补全，这个太通用了，感觉很难改别的，放弃\ncmd tab 切屏，同上\n改 shift 键，这个太难改了，放弃\n可能的解决办法\n改用 cmd+shift+[切 tab ，问题是用这个还是得用小拇指按 shift ，没太大区别。\n减少使用 esc ，改用 ctrl+[或者 ctrl+c ，问题是这个组合键位还是没有单键方便。\n改 esc 到别的键位，这个想了半天也没想到能改哪里。我希望是改到不容易累的手指，比如食指，但是中间的键位都太常用没法改。\n不知道有没有同病相怜的朋友给点建议。",
-          "link": "https://www.v2ex.com/t/1107702",
-          "publishedOn": "2025-01-24T12:15:32.000Z",
-          "wordCount": 498,
-          "title": "通过改键拯救小拇指",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107700",
-          "author": "CNM47589",
-          "description": "CNM47589: \n这是目前唯一能让我再度勃起的电子产品外观。\n举几个例子，三星画境电视、pixel tablet 、apple cinema display 、想象中去掉下巴的新款 iMac",
-          "link": "https://www.v2ex.com/t/1107700",
-          "publishedOn": "2025-01-24T12:05:02.000Z",
-          "wordCount": 380,
-          "title": "哪款 4K 以上显示器有优美的白色、四边等宽边框",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107699",
-          "author": "Theresago",
-          "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency  Bank Transfer  PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
-          "link": "https://www.v2ex.com/t/1107699",
-          "publishedOn": "2025-01-24T11:36:19.000Z",
-          "wordCount": 490,
-          "title": "GoSSL 在这里赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107698",
-          "author": "xingdu",
-          "description": "xingdu: \nSteam 将于 2025 年 2 月 15 日停止支持 macOS Catalina\n20 年买的 20 款 MBP ，也是最后一款 intel 芯片的 macbook pro ，一直停留在 Catalina ，没有升级。现在一大堆软件不能升级，Chrome 也不能升级了，但是都还能用。现在 steam 不能用了，游戏也打不了。\n注：偶尔用 steam 玩玩雀魂，杀戮尖塔啥的，不玩各种 3A 大作。",
-          "link": "https://www.v2ex.com/t/1107698",
-          "publishedOn": "2025-01-24T11:34:53.000Z",
-          "wordCount": 406,
-          "title": "Steam 不支持 macOS Catalina 了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107697",
-          "author": "nealot",
-          "description": "nealot: \n最难的语言对话能力、图像识别能力 ChatGPT 已经解决得差不多了。\n在可预见的未来一段时间，AI 的成本还会一降再降，订阅费不再成为阻碍。\n如果实体 AI 伴侣这个概念能成立，说不定会对现有的人类社会产生难以估计的影响。",
-          "link": "https://www.v2ex.com/t/1107697",
-          "publishedOn": "2025-01-24T11:26:50.000Z",
-          "wordCount": 394,
-          "title": "ChatGPT 出来这么久了，怎么没看到融合实体娃娃 / 机器人的产品？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107696",
-          "author": "royzxq",
-          "description": "royzxq: \n如图所示，播放器网页全屏模式两侧存在黑边\n \nF12 发现是 .LiveVideoPlayer_root 的父节点给了个 overflow: hidden 的 css 导致的，\n \n移除该 CSS 之后表现正常（和 chrome 一致）\n \nSafari 版本： 版本 17.5 (19618.2.12.11.6)\n系统版本：14.5 (23F79)",
-          "link": "https://www.v2ex.com/t/1107696",
-          "publishedOn": "2025-01-24T11:19:02.000Z",
-          "wordCount": 372,
-          "title": "B 站直播页网页全屏模式在 Safari 浏览器中两侧存在黑边",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107695",
-          "author": "edinina",
-          "description": "edinina: \n大龄 UI 设计，现就职一家北京的 IT 类公司，在这已经工作十年。\n上个季度因为之前一直参与的一个项目结束了，也没新的项目续上，整个季度工作需求很少，但是有工作需求的都比较积极的完成了。评季度绩效（ 12 月底）的时候，部门大领导给打了倒数第二档，打分理由也是“需求较少，但是参与的工作都没问题”这种。因为我个人感觉需求较少不是我本身的原因，于是下班前咨询了人事管绩效这方面的同事，她说如果有异议可以提，但是也得需要我们部门领导同意修改。我于是跟她说那等我跟领导聊聊再咨询她。\n第二天还没等我问，人事就直接去问我们领导这个事（我也不知道人事是怎么个想法没先问我），然后领导微信上就问我（我是异地远程打卡办公）是对考核有意见什么的。我就硬着头皮跟部门领导谈了这个事，然后她说公司绩效制度就这样，说后面需求上来了再说什么的。我本来心里就因为是远程办公所以多少在这方面有点被动，于是这件事就这么过去了。\n但是最近需求量也没上来。今天下午，一个同事在给甲方做需求的时候，实在忙不过来了就让我帮忙，我答应了就赶紧帮忙开干，负责分配需求的小领导也帮忙去跟部门领导说同事忙不过来先让我帮忙一下。结果过了一会儿同事跟我说，领导不同意。当时我大概也明白了，现在就是有工作需求也不分配给我。\n我之前也问过关系好的同事，我们这个部门这几年被挤走很多人了，大概原因就是效益不好，也不直接辞退，这位部门领导是个女的，总喜欢在裁人前整一些有的没的，没有一次是痛痛快快善始善终的。甚至听说有位前同事被离职的时候在公司大闹，不要赔偿，而是坚持让她改绩效评价，追回克扣的三四千出气。\n现在整得我也是挺难受，其实这么久了对公司还是很有感情的，以前的领导和同事对我都特别好。几年前开始远程办公以后，我知道自己不久后肯定会主动或被动离开这里，但从没想过是像这样离开。\n以前感觉虽然公司不大，但同事领导都是很纯真善良的一帮人。头一次遇到这位这样的，实在是有点不知道接下来该怎么应对了。",
-          "link": "https://www.v2ex.com/t/1107695",
-          "publishedOn": "2025-01-24T11:12:29.000Z",
-          "wordCount": 430,
-          "title": "看来要被优化了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107694",
-          "author": "Dora5260",
-          "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
-          "link": "https://www.v2ex.com/t/1107694",
-          "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 469,
-          "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107693",
-          "author": "smalltechnology",
-          "description": "smalltechnology: \n大家好，我是 AIFly.Tools 的开发者。在过去几个月的独立开发过程中，我发现寻找合适的 AI 工具变得越来越困难。虽然市面上有很多 AI 工具导航网站，但大多缺乏深度对比和多语言支持。于是我开发了 AIFly.Tools 。\n🔍 解决的问题\nAI 工具快速迭代，信息更新不及时\n缺乏深度的工具对比和评测\n亚洲用户的语言障碍\n工具质量参差不齐\n🚀 核心功能\n多语言支持\n英文/中文/日文/韩文完整支持\n本地化的工具描述和评测\n工具验证系统\n严格的工具审核机制\n定期更新检查\n社区反馈验证\n智能分类\n场景化分类\n多维度标签\n相似工具推荐\n社区互动\n用户评分系统\n使用体验分享\n工具对比讨论\n🔮 产品界面\n\n\n\n\n🛠 技术栈\n前端：Nuxt.js 3 + Vue 3 + TypeScript\n样式：TailwindCSS\n后端：Supabase\n部署：Vercel\n搜索：Algolia\n🎯 目标用户\n开发者寻找 AI 开发工具\n创作者发现 AI 创意工具\n企业选择 AI 解决方案\n产品经理调研 AI 产品\n🌟 特色亮点\n首个专注亚洲市场的 AI 工具平台\n严格的工具验证机制\n深度的对比和评测\n活跃的用户社区\n🔮 未来规划\nAI 工具推荐系统\nAPI 接口开放\n更多语言支持\n工具对比矩阵\n🤝 寻求反馈\n目前产品处于公测阶段，欢迎各位独立开发者试用和提供建议。特别感兴趣：\n产品定位是否准确？\n还缺少哪些关键功能？\n如何提升用户体验？\n产品地址：AIFly.Tools\n欢迎交流讨论！",
-          "link": "https://www.v2ex.com/t/1107693",
-          "publishedOn": "2025-01-24T10:51:35.000Z",
-          "wordCount": 429,
-          "title": "# AIFly.Tools - 全球化的 AI 工具发现平台",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107692",
-          "author": "wrwj",
-          "description": "wrwj: \n21 年买的闪迪至尊高速 NVME PCie3.0  这个 2T 的，电脑挂机连续几天不关机，就掉盘了。问闪迪的客服说可能主板的问题或者是接口的问题。大家如何解决掉盘的问题？",
-          "link": "https://www.v2ex.com/t/1107692",
-          "publishedOn": "2025-01-24T10:45:02.000Z",
-          "wordCount": 422,
-          "title": "闪迪的固态硬盘掉盘啥问题？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107689",
-          "author": "angusjune",
-          "description": "angusjune:",
-          "link": "https://www.v2ex.com/t/1107689",
-          "publishedOn": "2025-01-24T10:32:21.000Z",
-          "wordCount": 352,
-          "title": "做了一个简单的红包封面, 感兴趣的话可以领取",
           "imageUrl": null
         }
       ]
