@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -281,6 +287,126 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107869",
+          "author": "kirieievk",
+          "description": "kirieievk: \n看视频加特林才 15,这都哪里买的\n我们这里好几倍的价格了.",
+          "link": "https://www.v2ex.com/t/1107869",
+          "publishedOn": "2025-01-25T18:22:39.000Z",
+          "wordCount": 382,
+          "title": "v2exer 可以放烟花吗,价格如何",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107868",
+          "author": "McreeWu",
+          "description": "McreeWu: \n车陂地铁站出来走 50 米的距离。",
+          "link": "https://www.v2ex.com/t/1107868",
+          "publishedOn": "2025-01-25T18:01:53.000Z",
+          "wordCount": 336,
+          "title": "广州今年过年有没有可以上门喂猫的，主要是陪玩一下。市场价结算",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107867",
+          "author": "hiuxia1",
+          "description": "hiuxia1: \n这篇主题来源于我在知乎上一篇有关 Anki 的使用经验贴。之后我在 linux do 论坛上进行了分享，收获了很多的反馈。这篇帖子是想借助 V2EX 论坛，获得佬友们更多的意见和反馈。这也是我撰写这篇帖子的初衷：在分享 anki 的同时，提示自己对它的理解。Open and Open,欢迎交流！\n以下是经验贴的内容：\n不知不觉已经使用 Anki 两年多了，他陪伴我度过了人生中最艰难的岁月，改变我的思维习惯和对学习的认知。在这里，我深深的感谢 @Thoughts Memo 在知乎的分享和他开发的 FSRS 算法。叶神只大我一岁，但是他所开发的算法已经让世界无数人所受益。他是我永远的学习榜样和偶像。\n前言\n人类的记忆可以粗略的分为工作记忆，长期记忆和程序性记忆三类  。其中工作记忆负责处理当前环境下的信息，对时效性的要求较高；长期记忆最具创新性，经常成为研究人员洗澡或散步时的灵感源泉；而程序性记忆则专门用于存储完成特定任务所需的知识，最适合用来考试。\n我们使用 Anki 的本质是通过间隔重复效应，通过特殊设计的 scheduler 算法，在任务量相同的前提下，使用最小的代价去形成记忆。举例来说，在同样的高考备战时间内，我们可以利用 Anki 对知识点进行间隔重复，在相同的时间内达到更高的分数（具体可以参考叶神的帖子 ）。\n在阅读正文前，请思考：你使用 Anki 的目的是什么？中学生经常是为了考试，他们使用 Anki 巩固的主要是程序性记忆。更进一步，当摆脱高考等选拔的桎梏后，大学生为了提高自己的工作技能，他们选择使用 Anki 去加强自己专业知识点的长期记忆。场景切换到研究或工作中，科研人员经常会凭借自己的长期积累，在工作记忆中时时浮现灵感。\n理解了 Anki 背后的原理，我们需要注意 Anki 正确的使用时间，以及它和实践的关联。这里总结了一些常见的对 A…",
+          "link": "https://www.v2ex.com/t/1107867",
+          "publishedOn": "2025-01-25T17:44:24.000Z",
+          "wordCount": 600,
+          "title": "Anki 使用经验贴",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107866",
+          "author": "jackie777",
+          "description": "jackie777: \n最近做了一个管理浏览器标签页的插件 TabTab. \n\n这里和大家分享一下开发历程.\n缘由\n为什么要做这个插件, 一方面 chrome 自身的书签管理不够直观；另一方面我常年重度使用浏览器开展我的工作, chrome 成了我实际的工作台. 我需要一个 简单直观 并且 操作简单 的 dashbord 来管理我的所有标签页. 最初, 我用过 NiceTab 这个插件, 但是 ui 和交互都不能让我满意, 于是有了自己构建一个的想法.\n技术选型\n我看了主流的框架, 谨慎 (拍脑袋) 地选择了 WXT 这个框架, 但作为一个业余前端, 我的前端技术栈一直停留在 Vue2.6.  WXT 默认不支持 Vue2, 我也意识到该升级下技术栈了.\n看了下 Vue3, 原本我习惯了选项式 api, 组合式 api 用起来不够顺手. 本来这一点我已经在克服了, 安慰自己这个是当下最时髦的写法.\n但是等我接触到 ref 和 reactive 等概念后, 我有点懵逼了. 原本我想用现有技术栈快速上手的, 但是升级 Vue3 的时间远远超出了我的预期.\n本着学都学了就学点最时髦技术的心态, 最终我的技术栈定为了 WXT + react + tailwind + shadcn ui.\n动手干\n接下来一到两周吧, react 、tailwind 、shadcn 、react-router 、WXT 我一一看了遍文档, 然后吭哧吭哧搭了一个主体框架.\n中间我顺便学了下 typescript, 之前我是一直 js 一直爽, 但是现在大部分项目 startup 都是 ts, 还要我研究怎么换成 js ...\n想想算了, 咬咬牙, 都到这儿了把 ts 也啃了算了.\nCursor 助力\n在这次体验之前, 我对 cursor 还停留在仅仅能写一些简单代码的印象上, 再次尝试后的我惊掉了下巴\ud83d…",
+          "link": "https://www.v2ex.com/t/1107866",
+          "publishedOn": "2025-01-25T17:18:06.000Z",
+          "wordCount": 754,
+          "title": "TabTab - Cursor / Trae 帮我写的第一个浏览器插件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107864",
+          "author": "xccc0r",
+          "description": "xccc0r:",
+          "link": "https://www.v2ex.com/t/1107864",
+          "publishedOn": "2025-01-25T16:03:33.000Z",
+          "wordCount": 379,
+          "title": "大家跟客户报价的时候会报两个价格吗，走公司户/个人户",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107863",
+          "author": "Awes0me",
+          "description": "Awes0me: \n4299 那个 esim 版本的一直抢不到，128 不够用，米家三件套加起来都 100g 了",
+          "link": "https://www.v2ex.com/t/1107863",
+          "publishedOn": "2025-01-25T15:58:43.000Z",
+          "wordCount": 380,
+          "title": "想买个 mini7 咋这么难？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107862",
+          "author": "shadoworld",
+          "description": "shadoworld: \n路由器是 192.168.5.1 ，桥接后想着方便访问光猫后台就改光猫地址，结果改成了 192.168.5.255\n有没有办法改回来？",
+          "link": "https://www.v2ex.com/t/1107862",
+          "publishedOn": "2025-01-25T15:49:46.000Z",
+          "wordCount": 387,
+          "title": "光猫改桥接后改 ip 地址，脑抽改成 192.168.5.255",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107861",
+          "author": "miwang",
+          "description": "miwang: \n坛子里有不少在洛杉矶的兄弟吧，这两月闲来无事，做了一个华人网站，类似 craigeslist 的分类广告网，只不过是面向北美华人的。。。\nhttps://huarentie.com",
+          "link": "https://www.v2ex.com/t/1107861",
+          "publishedOn": "2025-01-25T15:39:49.000Z",
+          "wordCount": 359,
+          "title": "有没有在加州的朋友，闲来无事，做了一个华人网",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107860",
+          "author": "winskyme",
+          "description": "winskyme: 一个简单但可靠的 linux C++服务端：\n1 ，通过 http 或者 tcp 接收客户端发过来的 json 格式的数据\n2 ，支持解析、修改 json 格式的数据，根据 json 里某些字段的内容，去数据库再去查一些信息，补充进 json 数据中\n3 ，将这些 json 格式的数据保存在任务队列中，支持根据 json 数据里的计算类型字段，划分多个任务队列，支持队列的查看、管理；将队列中的信息轮询发送给各个计算节点，节点计算完成后再发下一个\n4 ，接收计算节点返回的 json 格式计算结果，并写入指定的数据库\n5 ，支持和各个计算节点的心跳报文，以感知计算节点的状态、当前是否有计算任务\n6 ，支持监听端口、数据库地址、客户端 IP 从配置文件中读取",
+          "link": "https://www.v2ex.com/t/1107860",
+          "publishedOn": "2025-01-25T15:36:47.000Z",
+          "wordCount": 365,
+          "title": "有没有合适开源的 C++项目可以快速实现一些功能",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107859",
+          "author": "ronen",
+          "description": "ronen: \n来港的时候公司加班用车是 uber  所以一直用 uber ，不过操作习惯和内地差别很大。\n最近发现高德也可以 call 车了，因为在内地用户量也很大，应该不少人都已经安装了，推荐试下，免得要打车的时候手忙脚乱。",
+          "link": "https://www.v2ex.com/t/1107859",
+          "publishedOn": "2025-01-25T15:25:41.000Z",
+          "wordCount": 345,
+          "title": "高德接入香港打车了，过来玩如果不方便安装 uber 且不想打出租，可以试试。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107858",
+          "author": "Moosems",
+          "description": "Moosems: \n购买渠道: 中秋京东买的自营超市,店铺名称是忆江南京东自营旗舰店. 渠道是官方的没问题.\n龙井茶叶.\n今天泡了一包茶叶,泡茶的容器是类似于咖啡杯大小差不多的分茶器,就是茶叶放在这个分茶器里面泡,然后倒在小杯子里. 因为当时在聊天没注意,导致放了整整一包茶叶, 正常感觉放入 1/4 1/3 就差不多.\n不知道是不是茶叶放多了的原因,但是感觉可能不是这个原因.\n就是泡出来的茶 有点中药材的味道. \n本人不懂茶,也没喝过什么好茶,不知道是不是这个茶的问题还是本身就是这样.\nhttps://imgur.com/WPN8KQP\nhttps://imgur.com/ouhmir0",
+          "link": "https://www.v2ex.com/t/1107858",
+          "publishedOn": "2025-01-25T15:25:32.000Z",
+          "wordCount": 502,
+          "title": "v 友们,帮忙看一下我是不是买到假茶叶了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107857",
+          "author": "gegeligegeligo",
+          "description": "gegeligegeligo: 表现在：系统好几天不关机后，打开软件、在任务栏中切换不同的窗口、以及其它各种各样的操作上，都会出现明显的卡顿\n\n资源消耗：cpu 占用只有百分之十几，没有占用特别高的进程，内存还剩下一半，硬盘是固态\n\n所以我就不太明白，为什么会出现这种情况，有没有什么办法能够定位到问题？",
+          "link": "https://www.v2ex.com/t/1107857",
+          "publishedOn": "2025-01-25T15:22:36.000Z",
+          "wordCount": 427,
+          "title": "为什么我的 win10 这么卡",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107856",
           "author": "bclerdx",
           "description": "bclerdx: 据 DMIT 的消息，LAX Pro v6 不使用 AS4809 的 CN2 ，居然是境内段 CN 2 没有完成 IPv6 的网络建设？\n难道说 AS 4809 的 CN2 在境内段和跨境段仍没有完成 IPv6 的网络建设吗？难以置信！！！\nAS4809 境内段没有完成 IPv6 网络的建设。\n目前 AS4809 仅提供境外段（ X-F ） IPv6 互联。跨境段（ C-I ）与境内段均为 AS4134 。\n其质量与直接使用 AS4134 IPv6 相当，甚至质量更差。\n在 LAX Pro 中配置 CN2 IPv6 ，可以简单理解为 DMIT 支付 CN2 GIA 的成本，为提供客户 AS4134 的服务。",
@@ -306,7 +432,7 @@
           "description": "fengshushu8: 我之前的最后一代 intel 的 mbp16 ，硬盘挂壁了，我不知道为什么，当然这事过去很久了。\n最近，我准备手上的 8G 内存的 M2 Mini 卖了换 M4 Mini ，当我通过 smartmontools 查看硬盘寿命，告诉群友使用了一年的时间硬盘写了 10T 的时候，有一个群友说的话，让我很不愉快，他说，他的电脑用 5 年也写不到 10T 的量。\n我一生气，嘛得，我搁这卖设备呢，你说这话，我设备还怎么卖？一生气就把他踢出群了。\n但是，越想越不对劲，10T 到底是个什么概念？ 1 年写入 10 T ，365 天每天都不歇停的话是日写 28GB ，可是，我这台 M2 mini 是一个备用机，1 年 365 天真正使用不超过 100 天，那这个就恐怖了，按 100 天算就是日写 102GB 。\n这就非常非常非常恐怖了，一台也就浏览浏览网页的电脑，硬盘日写 102GB ，我自己都惊讶到了。\n于是，我又通过 smartmontools ，查询了我那 2022 年买的 8G 内存的 iMac ，一查直接懵逼，硬盘写入量 57T 。\n57T 什么概念？ 256GB 硬盘的理论 TBW 应该是 100-150TB ，也就是说 57T 已经将这块硬盘的理论寿命消耗了一半了。\n我通过，Mac 自带的 [活动监视器] 查看 [磁盘] 发现，写入最大的是 PID 为 0 的 kernel_task 进程，几乎就是电脑放那啥也没操作的话，日写 20GB 以上。\n最近，我出去旅游了 5 天，回来特地看了一下 [活动监视器] ，磁盘写入量 1.25TB\n\n我翻阅了很多资料，问了很多 GPT ，基本掌握的结论就是 [内存不足会导致 macOS 频繁使用内存压缩和交换文件（ Swap ），从而增加硬盘写入量，表现为 kernel_task 进程频繁写入数据。] \n也就是说，选择 8G 内存的 Mac 电脑，你除了担心日常够不够用之外，还要考虑硬盘寿命够不够借用。\n所以，再买 Mac 电脑，请把所有预算都堆到内存上，尽量不要买丐版内存设备。\n当然，发此文章，并不是给各位制造硬盘寿命焦虑，但至少，应该，众所周知这一特性。",
           "link": "https://www.v2ex.com/t/1107853",
           "publishedOn": "2025-01-25T15:11:23.000Z",
-          "wordCount": 515,
+          "wordCount": 538,
           "title": "买 Mac 电脑，一定要把所有预算堆到内存上，一定一定记住。",
           "imageUrl": null
         },
@@ -356,7 +482,7 @@
           "description": "LotusChuan: \n今天闲着看了支付宝账单，发现每隔一周就有笔 68 元的 App Store 消费记录，最后确定是因为给妹妹买 iPad 时为她注册了 Apple ID 并绑到了我的家人账号中，她通过 App Store 订阅了一个游戏内购项目，而支付走的是我的账号，由于我的支付宝设置的 Apple 免密支付所以可以直接扣款，又因为扣款回执发到的是妹妹的 Apple ID 上，所以我完全不知情。\n损失是 800+。这套操作下来我感觉也挺强的，想了下达成这种效果需要所有环节都做对（做错？）。\n苹果注册的未成年账号是默认开启购买软件和内购权限的。\n我有 iCloud 订阅，支付宝在 iCloud 订阅开启后免密支付不能关闭。而未成年账号用的是同一个 Apple 支付免密入口，因此想关闭未成年账号的免密支付需要同时关闭我的免密支付，也就是得把我的账号的 iCloud 也挺掉，这显然不现实。（我尝试单独关闭未成年账号的免密支付，提示有 iCloud 订阅所以不能关闭，如果有其他办法可以在回复提下解决方案🙏）\n苹果未成年账号购买软件和内购不会给监护人账号发账单，监护人也完全查不到相关信息。\n在最初注册未成年账号时我关闭了购买和内购软件权限，但是现在发现又开启了，之前购买软件会向监护人账号发一个申请，这个 iMessage 聊天记录我还能查到，所以现在不清楚是我什么时候手动开启的还是设置被重置了。\n所幸损失并不大，小孩也沟通过了，权限也重新设置了。唯一蛋疼的是支付宝中未成年账号的免密支付还是不能关，导致我现在总感觉以后还会发生这种事。各位如果有绑未成年账号的可以也看看权限设置得怎么样，查下账单是否有异常。哎快过年的这还被爆下金币，也是有点无语。",
           "link": "https://www.v2ex.com/t/1107844",
           "publishedOn": "2025-01-25T13:39:22.000Z",
-          "wordCount": 573,
+          "wordCount": 577,
           "title": "快过年发现被妹妹和苹果联合爆金币了",
           "imageUrl": null
         },
@@ -398,16 +524,6 @@
           "publishedOn": "2025-01-25T12:42:16.000Z",
           "wordCount": 404,
           "title": "🦙 对话效果最好的 7B/1.5B 模型大家用的哪个？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107836",
-          "author": "jeesk",
-          "description": "jeesk: \n最近看到很多开源项目 readme 里放的赞助商直接是数字货币相关的，是游戏类的。 \n是不是很多独立开发已经到了擦锅底的地步了？ 不然也不会采取这种操作吧？ \n好，那晒出你的独立开发的产品？ 最好别涉及上面的内容。",
-          "link": "https://www.v2ex.com/t/1107836",
-          "publishedOn": "2025-01-25T12:22:23.000Z",
-          "wordCount": 115,
-          "title": "怎么看待开源项目赞助商直接贴加密货币的链接？",
           "imageUrl": null
         },
         {
@@ -476,7 +592,7 @@
           "description": "qichunren: 虽然我 2024 年我在 A 股赚了 20 万，但是我的内心没有什么波澜，甚至还有一些焦虑。我思索了好久，明白了这是靠运气赚来的钱，特别是在大 A 。\n要是我靠写项目项目赚到 20 万，那估计带来的反馈截然不同。",
           "link": "https://www.v2ex.com/t/1107829",
           "publishedOn": "2025-01-25T11:18:29.000Z",
-          "wordCount": 447,
+          "wordCount": 449,
           "title": "2024 年我在 A 股赚了 20 万",
           "imageUrl": null
         },
@@ -496,7 +612,7 @@
           "description": "narip: \n如题，本人本科就读于某 985 院校（非 C9 ），学的是计算机。毕业以后因为个人爱好，转去了另外一所 985 （仍非 C9 ）高校做物理（纯理论，非应用）的科研。预计明年 2026 博士毕业，毕业之后就差不多 28 岁了。目前科研的成果不是特别好，比毕业的要求好一点点，但好得并不是很多。最近在琢磨毕业以后的工作和就业。我个人感觉大致有三个方向，其中有个想转码做计算机老本行的想法，想听一下大伙的意见。\n第一个方向就是继续做科研，争取找个高校的教职。关于这一个方向，有以下几点顾虑：\n预计毕业的时候可以比毕业要求多 1-2 篇文章（多的第一篇文章还没有写完，多的第二篇“文章”暂时还是一个想法，大概率可行，但不确定），但是估计 2026 年毕业的时候应该直接找不到 211 或者双非一本的教职（还没有太了解专科院校的情况，没有认识的人可以提供这方面的信息）。所以，如果继续做科研的话，是计划把这两篇文章做完之后争取申请国外的博士后职位（是否可以申请上的不确定性比较大）。在博士后出站之后再申请高校的教职。但是从网上了解到的信息和我个人获取的信息，过去几年（因此可见将来几年）高校招人的要求每年都有较大提升，所以博士后出站之后即使自己更厉害了，但是是否可以找到 211 或者双飞一本的教职依旧不太确定。\n我可以接受最后去处的不确定性，毕竟现在时代变化都非常快。但是我主要感觉投入和回报完全不成正比，没有很大的动力向前冲。即便冒着很大的风险，很大的不确定性，最后拿到了某 211 或双飞一本大学的讲师，其待遇也是不太好的。讲师的待遇加上年终一个月估计都没有 10k （家乡在重庆，主要从网上了解的待遇情况，不过讲师的待遇在全国各地都不高），而且有可能还是非升即走。再熬几年成副教授，一个月才有可能月入 10k （这一点已经满足了）。但不知道这么多年下来，高校是否会变成没有编制了，定期都要考核。感觉我的要求也不是很高，只想要保底一年 12w 就满足了，前提是工作比较稳定。\n第二个方向就是去当中学老师。这个方向的顾虑主要还是集中在薪资，看网上谈论的教师一个月工资可能也没有 10k 。薪资需要职称和工龄来提上去。不过看现在的出生人口，不知道到时候教师的工资会不会还要降。薪资是这个方向的主要顾虑。当然，这个方向也需要付出很多时间准备：需要一次性拿下教师资格证和具体市区的教育事业单位组织的考试。\n第三个方向就是转码了。这个方向的顾虑就是，以我现在的履历，是否 2025 年的 9 月份秋招拿 offer 太困难（博士非科班，本科虽然是科班，但是年龄相比本科为大龄）。现在马上 2 月份，距离 9 月初也就还剩 6 个月的时间，刚好半年。之前本科学的专业课有一些还记得，但是都模模糊糊，还是得重新再过一遍（可能根据牛客网的一些经验筛选一些重点），有很多细节当时应该也没有完全弄清楚。科研期间倒是有写代码，但是用的是 Matlab ，应聘用不上。如果转码主攻开发，选一门语言（ Jave 或者 CPP? 本科大一学的是 Java ）熟悉熟悉，然后看能不能尽量找到一点空余时间做一个项目放到简历里面，不过项目应该不会非常高大上，因为时间上感觉可能来不及。找实习应该是没时间了。如果转码算法岗位，感觉 6 个月搞不定，不是很确定学习路径，不大敢尝试。\n以上就是个人认为的就业可能的三个方向，希望大伙可以提提转码的意见😊。",
           "link": "https://www.v2ex.com/t/1107827",
           "publishedOn": "2025-01-25T11:09:58.000Z",
-          "wordCount": 617,
+          "wordCount": 615,
           "title": "28 岁转码建议？",
           "imageUrl": null
         },
@@ -516,7 +632,7 @@
           "description": "wowbaby: \n一直没太关注 GPU ，今天用到视频转码才留意到，即使什么都没开，活动监视器 WindowServer 进程占用的 GPU 在 20% ～ 40%跳动，重启几次都一样，google 也没搜到与 GPU 相关的。\n我的型号 16 寸 m1 pro ，系统是 Sonoma 14.7.2 ，帮我看下你们的 WindowServer 进程，什么都没开的情况下，GPU 的使用率，谢谢！",
           "link": "https://www.v2ex.com/t/1107825",
           "publishedOn": "2025-01-25T10:46:32.000Z",
-          "wordCount": 509,
+          "wordCount": 511,
           "title": "macOS 的 WindowServer 的 GPU 占用率高的问题？",
           "imageUrl": null
         },
@@ -536,7 +652,7 @@
           "description": "liyafe1997: \n如题\n目前在试 RePlugin ，但是感觉坑有点多，文档缺失。\n最主要是我的 App 加上 RePlugin 的插件，就编译不起来了，各种折腾 SDK 版本，JDK 版本，Gradle 版本...\n有没有更简单的框架，最好不需要对 apk 作任何改动，能直接在容器（宿主） apk 中直接运行一个现成的 apk 。\n主要目的就是给现在已经开发好的企业应用（不考虑上任何应用商店/Google Play ，纯本地部署）做自动更新，在宿主 apk 中可以不断地后台检查更新，发现新版本就拉最新版的业务 apk 下来，每次启动（宿主 apk ）时就自动启动最新的业务 apk 。",
           "link": "https://www.v2ex.com/t/1107823",
           "publishedOn": "2025-01-25T10:40:11.000Z",
-          "wordCount": 460,
+          "wordCount": 462,
           "title": "有什么类似 RePlugin 这种，能在 APK 中运行 APK 的框架",
           "imageUrl": null
         },
@@ -558,116 +674,6 @@
           "publishedOn": "2025-01-25T10:13:18.000Z",
           "wordCount": 388,
           "title": "AMD：已将 DeepSeek-V3 模型集成到 Instinct MI300X GPU 上，利用 SGLang 彻底改变 AI 开发",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107819",
-          "author": "anyele",
-          "description": "anyele: 想买一个小型的纯电车，看上了五菱缤果，吉利星愿，比亚迪海鸥，目前比较中意吉利星愿，到底哪个好一些呢？还有其他的推荐吗？",
-          "link": "https://www.v2ex.com/t/1107819",
-          "publishedOn": "2025-01-25T10:02:32.000Z",
-          "wordCount": 351,
-          "title": "小型纯电车怎么选五菱缤果还是吉利星愿？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107816",
-          "author": "kinfuy",
-          "description": "kinfuy: Suka 数字卡片，全新版本发布了，家人，股东朋友们🥳\n本次更新了大部分设计，带来了全新的三种卡片🤩\n梦境卡片，可以简单记录我们的梦境❤️\n植物记录卡片，可以简单记录小绿植的施肥浇水记录🌲\n心情卡片，可以记录我们的各种心情\n当然你可以把他当做一种轻量级卡片日记🤗\n距离上一次版本发布，应该过去很久了，还好赶在年前，发布了新版本 2.0 ❤️\n本次更新价格做了一定调整，新价格应该会在 26 号生效，今日就价格最后一天了，一直关注喜欢的朋友可以乘机入手👋\n最后祝大家新年快乐🎉🎉，发大财(੭˙ᗜ˙)੭🧧\nhttps://apps.apple.com/us/app/suka%E6%95%B0%E5%AD%97%E5%8D%A1%E7%89%87/id6661024172?l=vi&platform=iphone",
-          "link": "https://www.v2ex.com/t/1107816",
-          "publishedOn": "2025-01-25T09:28:12.000Z",
-          "wordCount": 371,
-          "title": "懒人日记党狂喜，用卡片的方式写日记🥰",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107815",
-          "author": "xclrr",
-          "description": "xclrr: \n用了一个多月的空余时间写了一个在 Android 端测运行 Stable Diffusion 的 apk 。目前适配了两款模型，Anything V5 和 Stable Diffusion 2.1 。\nAnything V5 做了 CPU 和 NPU 版本，Stable Diffusion 2.1 只做了 NPU 版本。\n在 NPU 上运行：\n支持的芯片：骁龙 8gen2 8gen3 8gen4\n可能支持但我未验证过的芯片：骁龙 6gen1 8sgen3 7+gen3\n512 分辨率 10 秒出图\n在 CPU 上运行：\n近几年的设备应该都没问题\n速度很慢，8 位动态量化精度也一般\n支持 128 ，256 ，384 ，512 分辨率，256 分辨率大概 30 秒内能出图\n下载： https://github.com/xororz/local-dream/releases\nApk 内默认从 huggingface 下载模型，可以点击右上角下载设置修改成 hf-mirror",
-          "link": "https://www.v2ex.com/t/1107815",
-          "publishedOn": "2025-01-25T09:11:57.000Z",
-          "wordCount": 585,
-          "title": "[Local Dream] 在 Android 端运行 Stable Diffusion，支持骁龙 NPU 加速",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107814",
-          "author": "SoulDee",
-          "description": "SoulDee: \n试用了三种方式，目前个人比较喜欢 Cursor：\nWindsurf\nCursor\nVscode + Cline + Deepseek Chat\nPlayback Speed Calculator - Playback Speed Calculator",
-          "link": "https://www.v2ex.com/t/1107814",
-          "publishedOn": "2025-01-25T09:08:06.000Z",
-          "wordCount": 384,
-          "title": "做一个小工具来练手 AI 开发",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107813",
-          "author": "NianBroken",
-          "description": "NianBroken: 我找了快 3 天了，找到的工具都是只能显示最后一次复制的内容。\n例如讯飞输入法，我复制了内容 1 ，然后又复制了内容 2 。此时我打开剪贴板，剪贴板中只有内容 2 ，没有内容 1 。\n但是我想要的是无论我连续复制多少内容，剪贴板中都能显示的软件。\n想知道有这样的软件吗？我可以接受买断制付费。",
-          "link": "https://www.v2ex.com/t/1107813",
-          "publishedOn": "2025-01-25T09:04:46.000Z",
-          "wordCount": 731,
-          "title": "iOS 中有没有支持连续复制的剪贴板软件？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107812",
-          "author": "ChatGOP",
-          "description": "ChatGOP: \n刚被裁，目前是 GO 程序员， 以前熟悉 Java/Spring, C#/ASP.NET, TypeScript,现在都手生了， 想至少把 Java, C#拣回来，但是一看到好多东西都需要复习，觉得时间和精力都恐怕应付不过来。\n想听听兄弟们的意见， 是同时把 Java/Spring, C#/ASP.NET 都拣回来， 还是只专注 Java 或是只考虑 C#？\n谢谢先",
-          "link": "https://www.v2ex.com/t/1107812",
-          "publishedOn": "2025-01-25T08:59:11.000Z",
-          "wordCount": 501,
-          "title": "该专注一门语言还是多种语言呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107811",
-          "author": "xinmans",
-          "description": "xinmans: \n吃不了硬的食物，只能吃软一点的。年龄 64 岁了，有没有必要请牙医处理下？处理方向是如何的？",
-          "link": "https://www.v2ex.com/t/1107811",
-          "publishedOn": "2025-01-25T08:45:19.000Z",
-          "wordCount": 631,
-          "title": "过年回家，母亲说牙齿都松动了，有没有治疗建议？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107810",
-          "author": "vfx666",
-          "description": "vfx666: 如果盯着导航电子狗会被拍吗",
-          "link": "https://www.v2ex.com/t/1107810",
-          "publishedOn": "2025-01-25T08:26:24.000Z",
-          "wordCount": 567,
-          "title": "高速堵车走应急车道你们怎么看",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107809",
-          "author": "acfan",
-          "description": "acfan: \n虽然咱们这个行业好像社交属性较少，但还是想问下各位佬们在职场，生活中的社交礼仪，比如说饭局或者向上社交的时候。",
-          "link": "https://www.v2ex.com/t/1107809",
-          "publishedOn": "2025-01-25T08:22:41.000Z",
-          "wordCount": 418,
-          "title": "关于社交礼仪的讨论",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107808",
-          "author": "Windyzhou",
-          "description": "Windyzhou:",
-          "link": "https://www.v2ex.com/t/1107808",
-          "publishedOn": "2025-01-25T08:09:03.000Z",
-          "wordCount": 379,
-          "title": "cursor Claude 3.5 我一个月 40 刀,几天就用完了,还有用了 deepseek 的 r1,有很长的<think>标签是怎么回事?可以破吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107807",
-          "author": "yechentide",
-          "description": "yechentide: \n虽然有 Homebrew 以及 dotfiles 仓库,\n然后呢某天我知道了defaults命令, plistBuddy命令,\n这个 CLI 程序是用 Swift 和 macOS 自带命令来实现的,\n系统/软件设置, 以及查看备份和当前设置的区别.  \n还原设置功能还没写(滑稽)\nEasySync - Github\n目前的功能\n# 备份\n./easy-sync backup --output-dir /tmp/domains\n\n# 查看变更了的设置\n./easy-sync diff --input-dir /tmp/domains",
-          "link": "https://www.v2ex.com/t/1107807",
-          "publishedOn": "2025-01-25T08:06:07.000Z",
-          "wordCount": 400,
-          "title": "写了个 CLI 程序, 想让配置新 mac 简单点",
           "imageUrl": null
         }
       ]
