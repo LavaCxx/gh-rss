@@ -151,12 +151,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": []
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -285,7 +279,7 @@
           "description": "ly1878: 新款 Mac mini ，Raycast 1.88.3 ，file search 用的 beta 的自带搜索功能，非 spotilight ，用了一个月，始终有以下情况：\n1 、文件搜索不完整，重新 index ，要么始终 indexing file ，要么进行中，之后能搜到更多的文件，但无法得知是否检索完全。\n2 、文件名字好几个字的时候，输入名字开头的字能搜索到，输入中间的字却搜不到，同样用 QSpace 直接秒搜出来\n3 、搜索文件时报错，显示 Indexing Error Request error: the channel is closed 。\n4 、忽略文件夹如何使用？看了网站也还是没明白。Ignore Patterns 。Configure patterns to exclude files and folders from the search index.",
           "link": "https://www.v2ex.com/t/1107736",
           "publishedOn": "2025-01-24T18:01:01.000Z",
-          "wordCount": 408,
+          "wordCount": 419,
           "title": "Raycast 搜索文件总是不全，始终 indexing files 或者 indexing error。请大佬支招",
           "imageUrl": null
         },
@@ -295,7 +289,7 @@
           "description": "qviqvi: \n以前有 simbox 多卡宝 ，可以多个卡同时待机，app 推送。有没有类似产品，或者有没有简单的制作方法。多个手机收短信，每次换卡太麻烦。",
           "link": "https://www.v2ex.com/t/1107735",
           "publishedOn": "2025-01-24T17:16:26.000Z",
-          "wordCount": 357,
+          "wordCount": 362,
           "title": "有替代 simbox 的多卡待机解决方案吗？",
           "imageUrl": null
         },
@@ -355,7 +349,7 @@
           "description": "zhoudaiyu: 首次上线的时候怎么定？靠压力测试？后续应用不停上线、甚至改配置可能会导致内存、cpu 的变化，如何持续迭代更新每个应用的 request 和 limit 呢？",
           "link": "https://www.v2ex.com/t/1107726",
           "publishedOn": "2025-01-24T15:41:33.000Z",
-          "wordCount": 423,
+          "wordCount": 427,
           "title": "各位工作的公司生产 k8s 是怎么维护应用的 request 和 limit 的？",
           "imageUrl": null
         },
@@ -365,7 +359,7 @@
           "description": "LowerAI: 想弄个能装 12 块可拔插硬盘的大机箱，可支持 ATX/EATX 主板，两层的也行。\n卧式的话要求宽度小于等于 450mm ，深度小于等于 500mm 。竖式的话要求高度小于等于 450mm ，长度小于等于 500mm 。\n求大佬们推荐，谢谢。",
           "link": "https://www.v2ex.com/t/1107725",
           "publishedOn": "2025-01-24T15:13:50.000Z",
-          "wordCount": 364,
+          "wordCount": 366,
           "title": "求推荐合适的 NAS 机箱",
           "imageUrl": null
         },
@@ -395,7 +389,7 @@
           "description": "RedBeanIce: 父 55 岁了，母亲 51 岁，父亲马上就交完了职工医保。\n但是母亲是后面才交的，起码还得交 8-9 年才可以达到 20 年的年限。\n```\n所以现在有个问题，母亲的医保如何处理\n1 ，直接放弃缴纳职工医疗，交新农合？\n2 ，将职工医保补缴完？\n3 ，或者是其他的方案？\n```",
           "link": "https://www.v2ex.com/t/1107722",
           "publishedOn": "2025-01-24T15:01:09.000Z",
-          "wordCount": 450,
+          "wordCount": 455,
           "title": "[父母医保]",
           "imageUrl": null
         },
@@ -415,7 +409,7 @@
           "description": "XuanYuan:",
           "link": "https://www.v2ex.com/t/1107720",
           "publishedOn": "2025-01-24T14:56:16.000Z",
-          "wordCount": 396,
+          "wordCount": 398,
           "title": "各位，有什么好的手机壁纸推荐吗？",
           "imageUrl": null
         },
@@ -425,7 +419,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107718",
           "publishedOn": "2025-01-24T14:41:27.000Z",
-          "wordCount": 508,
+          "wordCount": 517,
           "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -455,7 +449,7 @@
           "description": "kyonn: \n之前按照 https://v2ex.com/t/1073554 这个方案搭了套 fakeip 方案的 dns ， 主要就是用 paopao dns 和 paopao gateway 实现海外域名自动分流至 fakeip 网关，实际用下来发现 paopao dns 好像老是有些其奇怪的问题，突然可能出现 dns 解析公网 ip 失败的问题，执行下 debug.sh 又恢复正常了， 求推荐下有没有代替的稳定方案。",
           "link": "https://www.v2ex.com/t/1107714",
           "publishedOn": "2025-01-24T14:21:11.000Z",
-          "wordCount": 492,
+          "wordCount": 522,
           "title": "自建 dns 方案求推荐。",
           "imageUrl": null
         },
@@ -475,7 +469,7 @@
           "description": "sudoy: \n最近刚入 m4 的 MacBook pro ，准备配个蓝牙鼠标，网上好像有个说法说 mac 配蓝牙鼠标都容易漂，忽然想起来之前用 MacBook air 的时候换好几个鼠标，还以为是鼠标问题。不知道 m4 芯片有没有合适的鼠标推荐",
           "link": "https://www.v2ex.com/t/1107712",
           "publishedOn": "2025-01-24T13:42:44.000Z",
-          "wordCount": 455,
+          "wordCount": 477,
           "title": "2025 年了，求推荐一个 MacBook pro 鼠标",
           "imageUrl": null
         },
@@ -485,7 +479,7 @@
           "description": "lazyjohnzhou: 刚请教了极空间客服（人工客服响应很快，赞一下）手机端 App 相册自动备份时机。反馈是 Android 和 iOS 都是在极空间 App 打开后自动触发备份。但是如果一直没有主动手动打开极空间 App 的话，相册就不会备份。因为我印象中现在系统对后台管理都很严格，这个也符合我的直觉。\n因为我一直在使用 iCloud ，很喜欢 iCloud 在不打开 App 下也能自动备份的能力。所以还是想请教一下有没有办法能给 NAS 实现不打开 App 也能自动在后台备份相册照片。\n    \n    吐槽一下，个人感觉相对于 NAS 系统这样复杂且重要的软件来说，作为销量不错的极空间，它的用户文档少得且简单得可怜，很多基础的功能和系统行为都需要自己去验证、搜索和询问人工客服，给我一种不太靠谱和用心的感觉。",
           "link": "https://www.v2ex.com/t/1107711",
           "publishedOn": "2025-01-24T13:29:52.000Z",
-          "wordCount": 463,
+          "wordCount": 476,
           "title": "请教极空间 NAS 相册自动备份问题",
           "imageUrl": null
         },
@@ -505,7 +499,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 514,
+          "wordCount": 536,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         },
@@ -525,7 +519,7 @@
           "description": "hcsu: \n如果有 2 台 Mac 和一个妙控板，请问妙控板可以在这 2 台机器间快速切换吗？\n已知的方法有：\n重新配对：不够快速方便\nUniversal Control: 之前只用过 2 台电脑共用同一套键盘鼠标，体验并不好，不够丝滑稳定\n请问还有其他方法吗？谢谢",
           "link": "https://www.v2ex.com/t/1107706",
           "publishedOn": "2025-01-24T12:40:41.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "请问妙控板可以在 2 台或多台设备间快速切换吗？",
           "imageUrl": null
         },
@@ -535,7 +529,7 @@
           "description": "GeekGuru: \n现在很多 2000 多价位的 M2 Mac mini ，买一个办公用区别不大吧？\n可以省一个 4k 显示器出来。",
           "link": "https://www.v2ex.com/t/1107705",
           "publishedOn": "2025-01-24T12:40:33.000Z",
-          "wordCount": 464,
+          "wordCount": 498,
           "title": "2025 年还能买 M2 Mac mini 么？",
           "imageUrl": null
         },
@@ -545,7 +539,7 @@
           "description": "Vtoecha: \n最近组了一台 all in one 设备，迷你精致还是纯 ecc 内存功耗也低，就是不支持 pcie acs 功能。\ncpu 是 5650ge ，主板是 Gagabyte b550i aorus pro ax ，2.5g 网口，支持 pcie 拆分。\nBios 里也没有 acs 选项，pve 编译了 acs 补丁内核也不起作用，导致主板上的有线网口和无线网卡都在同一个 iommu 组，没办法直通无线给里面的 win11 或者 batocera ，每次都只能用 usb 蓝牙连手柄...还不稳定，时不时开机就要重新插拔下。\ncpu 5650ge 是为了用纯 ecc 内存，然后 x570i 又没有 2.5g 网卡，两个换哪一个都好不爽啊啊啊。",
           "link": "https://www.v2ex.com/t/1107704",
           "publishedOn": "2025-01-24T12:20:53.000Z",
-          "wordCount": 455,
+          "wordCount": 502,
           "title": "是 B550 芯片组不支持还是 Ryzen G 系列不支持 acs",
           "imageUrl": null
         },
@@ -625,7 +619,7 @@
           "description": "edinina: \n大龄 UI 设计，现就职一家北京的 IT 类公司，在这已经工作十年。\n上个季度因为之前一直参与的一个项目结束了，也没新的项目续上，整个季度工作需求很少，但是有工作需求的都比较积极的完成了。评季度绩效（ 12 月底）的时候，部门大领导给打了倒数第二档，打分理由也是“需求较少，但是参与的工作都没问题”这种。因为我个人感觉需求较少不是我本身的原因，于是下班前咨询了人事管绩效这方面的同事，她说如果有异议可以提，但是也得需要我们部门领导同意修改。我于是跟她说那等我跟领导聊聊再咨询她。\n第二天还没等我问，人事就直接去问我们领导这个事（我也不知道人事是怎么个想法没先问我），然后领导微信上就问我（我是异地远程打卡办公）是对考核有意见什么的。我就硬着头皮跟部门领导谈了这个事，然后她说公司绩效制度就这样，说后面需求上来了再说什么的。我本来心里就因为是远程办公所以多少在这方面有点被动，于是这件事就这么过去了。\n但是最近需求量也没上来。今天下午，一个同事在给甲方做需求的时候，实在忙不过来了就让我帮忙，我答应了就赶紧帮忙开干，负责分配需求的小领导也帮忙去跟部门领导说同事忙不过来先让我帮忙一下。结果过了一会儿同事跟我说，领导不同意。当时我大概也明白了，现在就是有工作需求也不分配给我。\n我之前也问过关系好的同事，我们这个部门这几年被挤走很多人了，大概原因就是效益不好，也不直接辞退，这位部门领导是个女的，总喜欢在裁人前整一些有的没的，没有一次是痛痛快快善始善终的。甚至听说有位前同事被离职的时候在公司大闹，不要赔偿，而是坚持让她改绩效评价，追回克扣的三四千出气。\n现在整得我也是挺难受，其实这么久了对公司还是很有感情的，以前的领导和同事对我都特别好。几年前开始远程办公以后，我知道自己不久后肯定会主动或被动离开这里，但从没想过是像这样离开。\n以前感觉虽然公司不大，但同事领导都是很纯真善良的一帮人。头一次遇到这位这样的，实在是有点不知道接下来该怎么应对了。",
           "link": "https://www.v2ex.com/t/1107695",
           "publishedOn": "2025-01-24T11:12:29.000Z",
-          "wordCount": 423,
+          "wordCount": 430,
           "title": "看来要被优化了",
           "imageUrl": null
         },
@@ -635,7 +629,7 @@
           "description": "Dora5260: 程序员这个群体 我个人认为大部分的男孩子还是比较实诚的，我对象也是程序员，但发现一个现象，他身边的程序员确实不少都是单身的，有些年龄也不小了，但从我个人的角度还是蛮优秀的，我就喜欢帮他们介绍对象，哈哈，目前已经成功了四五对啦，而且都已经结婚领证生娃了，当然，我除了觉得不想浪费资源以外，我还觉得这本身就是一件美好的事情。如果有需要的男孩子可以找我了解或咨询下哇，成人之美，何乐不为。但我有个习惯是，我自己本身需要对你足够了解或认可，我才能放心地把你介绍出去，不然对大家都不负责就不好了，仅限深圳区域哇😭",
           "link": "https://www.v2ex.com/t/1107694",
           "publishedOn": "2025-01-24T11:00:48.000Z",
-          "wordCount": 465,
+          "wordCount": 469,
           "title": "关于程序员找对象这事，真心有需要可以咨询/了解下～～",
           "imageUrl": null
         },
@@ -667,16 +661,6 @@
           "publishedOn": "2025-01-24T10:32:21.000Z",
           "wordCount": 352,
           "title": "做了一个简单的红包封面, 感兴趣的话可以领取",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107688",
-          "author": "Akiya",
-          "description": "Akiya: 发现 USDT 活期理财的收益还挺高，打算多放一些资金进去，求问各位如果未来有一天把这里的钱转出来买房的话，会不会遇到首付来源不明的问题？",
-          "link": "https://www.v2ex.com/t/1107688",
-          "publishedOn": "2025-01-24T10:31:43.000Z",
-          "wordCount": 472,
-          "title": "用 U 理财赚的钱可以拿来买房吗？",
           "imageUrl": null
         }
       ]
