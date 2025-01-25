@@ -291,7 +291,7 @@
           "description": "mercury233: \n安装了某个 AI 编辑器后，几乎所有的代码文件的图标都变成了一坨黑色，看着有点难受，想统一修改\n找到的 IconPackager 和 7tsp 似乎都致力于替换系统文件，与这个需求不符\n是不是只能用 FileTypesMan 一个个替换了",
           "link": "https://www.v2ex.com/t/1107757",
           "publishedOn": "2025-01-25T02:57:53.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "大家有没有整体美化过 Windows 上代码文件的图标？",
           "imageUrl": null
         },
@@ -301,7 +301,7 @@
           "description": "kyonn: \n首次创建用户配置后， 登录 web 填写 API 和 API URL 保存，老是提示没权限 CSRF token 错误。\n[flask_seasurf.py:344] WARNING - Forbidden (CSRF token missing or incorrect.): /admin/setting/pdns\n# [Installing PowerDNS – ForestRacks]\n# ( https://help.forestracks.com/cloud/docker-compose/install-powerdns)\n\nservices:\n  db:\n    image: mariadb:11.6.2-noble\n    container_name: pdns-db\n    restart: always\n    networks:\n      macvlan_network:\n        ipv4_address: 192.168.10.17\n    environment:\n      - TZ=Asia/Shanghai\n      - MYSQL_ALLOW_EMPTY_PASSWORD=yes\n      - MYSQL_DATABASE=powerdnsadmin\n      - MYSQL_USER=pdns\n      - MYSQL_PASSWORD=H46beg4Bryhsf34g\n    # ports:\n    #   - 127.0.0.1:3306:3306\n    volumes:\n      - ./pda-mysql:/var/lib/mysql\n\n  pdns:\n    image: pschiffe/pdns-mysql:4.9\n    container_name: pdns\n    hostna…",
           "link": "https://www.v2ex.com/t/1107756",
           "publishedOn": "2025-01-25T02:53:39.000Z",
-          "wordCount": 588,
+          "wordCount": 592,
           "title": "powerdns 这么难配置的吗？有没有大佬帮忙瞅瞅哪里配错了。",
           "imageUrl": null
         },
@@ -321,7 +321,7 @@
           "description": "Ivone29: \n我先做了一款 MacApp 试了试水感觉有细分市场的需求，可见这个帖子 给你的临时笔记一个好归宿。\n于是一周时间，我开发出来了 iOS 端，但开发者账户不知道为什么无法继续使用了（ Apple 回复说由于一个或多个原因无法完成），搞了好久终于才上架。\n我准备了 30 个兑换码，麻烦各位 v 友高抬贵手给个五星好评，老规矩，放在评论中，自取。没码了可以评论中问我要，我看到会生成新的给你回复。",
           "link": "https://www.v2ex.com/t/1107754",
           "publishedOn": "2025-01-25T02:28:01.000Z",
-          "wordCount": 473,
+          "wordCount": 488,
           "title": "🎁 [发码] 我开发了一款程序员三件套，但这款又有点不一样",
           "imageUrl": null
         },
@@ -331,7 +331,7 @@
           "description": "revival83: 感觉好麻烦",
           "link": "https://www.v2ex.com/t/1107753",
           "publishedOn": "2025-01-25T02:27:57.000Z",
-          "wordCount": 368,
+          "wordCount": 392,
           "title": "华硕主板这个奥创中心里的静音风扇设置，每次重启都要设置一次么？",
           "imageUrl": null
         },
@@ -351,7 +351,7 @@
           "description": "icemanpro: 现想把广材助手中的信息价能导出到其它系统中，有没有什么办法？源 jgb 文件是 zip 压缩，但有密码。或有没有其它服务商能提供这类数据？",
           "link": "https://www.v2ex.com/t/1107750",
           "publishedOn": "2025-01-25T01:52:41.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "广材助手中数据有什么办法能导出来？",
           "imageUrl": null
         },
@@ -371,7 +371,7 @@
           "description": "funcy: 年后想看看工作，奈何学历太差，求劝",
           "link": "https://www.v2ex.com/t/1107748",
           "publishedOn": "2025-01-25T01:40:34.000Z",
-          "wordCount": 471,
+          "wordCount": 490,
           "title": "非全本科找工作是不是没戏了",
           "imageUrl": null
         },
@@ -381,7 +381,7 @@
           "description": "jyrt: \n一直觉得苹果的产品默认连接蓝牙鼠标用轮滚的时候都非常卡。在 Mac 上可以使用 MOS 这样的软件使滚动变得平滑，但是在 iPad 上一直没有很好的解决方法。",
           "link": "https://www.v2ex.com/t/1107747",
           "publishedOn": "2025-01-25T01:29:08.000Z",
-          "wordCount": 383,
+          "wordCount": 385,
           "title": "iPad 有类似 Mac 的鼠标滚动优化工具吗",
           "imageUrl": null
         },
@@ -401,7 +401,7 @@
           "description": "Kite6: \n官方引以为傲的“安全隔离模式”：其实本质就是手动加了几条 iptables 防火墙，并且 ip6tables 还没配置，导致所有 ipv6 防火墙都不生效： https://forum.terra-master.com/cn/viewtopic.php?t=4619\n安装第三方套件后，不需要任何授权即可访问系统文件目录： https://forum.terra-master.com/cn/viewtopic.php?t=4772",
           "link": "https://www.v2ex.com/t/1107745",
           "publishedOn": "2025-01-25T00:57:22.000Z",
-          "wordCount": 521,
+          "wordCount": 534,
           "title": "有用铁威马 nas 的注意了，官方一堆安全问题，反馈了也不修复，可千万别存隐私文件",
           "imageUrl": null
         },
@@ -411,7 +411,7 @@
           "description": "trihuan: 具体行为，比如点击不喜欢，不适、点赞、点赞数量，一段时间内点赞收藏等等、划页面的速度、",
           "link": "https://www.v2ex.com/t/1107744",
           "publishedOn": "2025-01-25T00:51:16.000Z",
-          "wordCount": 397,
+          "wordCount": 398,
           "title": "有没有什么刻意引导 xhs 算法推送质量的行为",
           "imageUrl": null
         },
@@ -421,7 +421,7 @@
           "description": "gransh: \n在 v 站搜了很多相关的，各种方案都有，但是似乎没有一个靠谱的。\n有接入代收的，国内给你 rmb ，这种资金来源也有风险吧，抽成也挺高。\nwise 和 payoneer 好像也只能收公户转账，不能收私户转账。各位在网站上接入支付还有捐赠的时候怎么接入的呢？\n还有人说港卡收个人转账也会被封。\nstripe 开香港和英国公司是个稳定的选择，但是公户的钱要拿来花也很麻烦吧。\n有人用多道中转回国，中转的原则是什么呢，中转几次就安全了吗，有一个环节卡住就凉了吧。",
           "link": "https://www.v2ex.com/t/1107743",
           "publishedOn": "2025-01-25T00:48:50.000Z",
-          "wordCount": 550,
+          "wordCount": 620,
           "title": "关于个人开发者境外收款，有没有人能讲明白的？",
           "imageUrl": null
         },
@@ -431,7 +431,7 @@
           "description": "zdw1984: 昨天在群里搜索 DS Cloud 一些相关报道，发现一件神奇的事情，就是有人冒名顶替我，说是他开发了 DS Cloud ，但是我还是要谢谢这位大哥，这种不求名利的冒名顶替，还替我宣传了 App ，真实新年里的一股暖流啊，好人哪里都有😂。\n![]( )\n最后我说下，现在 DS Cloud 新年促销中，有兴趣的小伙伴可以关注一下。\n不了解 DS Cloud 的小伙伴可以看下这篇文章\nhttps://www.v2ex.com/t/1087273\n最后祝大家新年快乐，蛇年大吉~~",
           "link": "https://www.v2ex.com/t/1107742",
           "publishedOn": "2025-01-25T00:47:32.000Z",
-          "wordCount": 504,
+          "wordCount": 526,
           "title": "发现我被冒名顶替了，但是我要谢谢这位大哥",
           "imageUrl": null
         },
@@ -441,7 +441,7 @@
           "description": "shuiguomayi: \n大容量硬盘柜，比如 5 个盘位的 RAID5. 盘柜自己有电源支持，用 USB 线连接到树莓派。理论上，是不是没问题。问这个问题，主要是我之前遇到过一个诡异的问题，就是，以前买了个 3.5 的机械硬盘，还有一个配套的硬盘盒，自带电源供电，然后 ISB 连接到树莓派上，居然老是掉盘，一到写文件写了几十兆，盘符在系统里就不见了。树莓派上跑的是 raspbian. 想不明白哪里的问题，硬盘不是都自带电源了吗",
           "link": "https://www.v2ex.com/t/1107740",
           "publishedOn": "2025-01-25T00:41:54.000Z",
-          "wordCount": 484,
+          "wordCount": 502,
           "title": "树莓派能带的动大容量硬盘柜吗",
           "imageUrl": null
         },
@@ -481,7 +481,7 @@
           "description": "Damn: \nServicePointManager.ServerCertificateValidationCallback = delegate { return true; };\nprivate HttpWebResponse GetResponse(string url, string accept, ref CookieContainer container, bool allowRedirect, string referer)\n{\n    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);\n    request.ServicePoint.Expect100Continue = false;\n    request.CookieContainer = container;\n    request.Method = WebRequestMethods.Http.Get;\n    request.AllowAutoRedirect = allowRedirect;\n    request.KeepAlive = true;\n    request.UserAgent = \"Mozilla / 5.0(Windows NT 10.0; WOW64; Trident / 7.0; rv: 11.0) like Gecko\";\n    request.Accept = accept;\n    request.Referer = referer;\n    request.Headers[\"Accept-Encoding\"] = \"gzip, deflate\";\n    try\n    {\n        return (HttpWebResponse)request.GetResponse();\n    }\n    catch (WebException e)\n    {\n        if (e.Response == null)\n        {\n            throw;\n        }\n        return (HttpWebResponse)e.Response;\n    }\n}\n\n有一不受控的外部服务器，证书 CN 不匹配，用 fiddler 进行中间人，证书 CN 与之匹配了，代码能如预期运行。\n不使用 fiddler ，在请求 html 的时候能正常获取内容，说明忽略证书错误的代码起作用了，但请求 json 的时候 request.GetResponse()会卡住，debug 时断点在这里，按 F10/F11 就没有后续了。。\n不知问题出在何处。。",
           "link": "https://www.v2ex.com/t/1107733",
           "publishedOn": "2025-01-24T16:57:48.000Z",
-          "wordCount": 508,
+          "wordCount": 525,
           "title": "用 C#搓了个小工具，但有个诡异的地方不知如何解决",
           "imageUrl": null
         },
@@ -491,7 +491,7 @@
           "description": "dcsuibian: \n\n如图，这是最好的情况，几分钟能下个 10%。但绝大多数时候都是卡在 0%不动，但也不是连接错误，就真的是很慢。这个 Remote-SSH Server 还老是会更新，真的很麻烦。\n坐标浙江嘉兴电信，如果我用 vscode 连腾讯云的服务器，Remote-SSH Server 下载速度就巨快，所以微软的服务器应该没有被墙。\n另外说一些我觉得无关的信息：\n我这是一台 Hyper-V 中的 Debian 虚拟机，但是和用的是对外连接的虚拟交换机，也就是说虚拟机的 IP 地址和宿主机是在同一网段的，不存在多一层 NAT 的情况\n我在虚拟机.bashrc里面配置了http_proxy、https_proxy、all_proxy，配置了/etc/apt/apt.conf。是同一局域网的一台 Clash 代理服务器。但这两个应该都没有影响到 vscode （前者估计是因为还没运行.bashrc，后者单纯只是影响apt），因为我在 Clash 的日志里看不到任何东西。\n接 2 ，我的宿主机也配置了系统代理，其中微软的网址都是走代理的，所以打开 vscode 的时候可以在 clash 里看到很多日志，都是走了代理的。vscode 和其插件更新都很快。所以如果虚拟机真的走了代理，那速度应该巨快\n我在虚拟机里装了 speedtest cli ，在 proxyoff 的情况下，速度完全正常。\n所以到这里，我是真的不知道哪里出问题了，希望哪位碰到过的大佬指点一下，感谢",
           "link": "https://www.v2ex.com/t/1107731",
           "publishedOn": "2025-01-24T16:19:39.000Z",
-          "wordCount": 511,
+          "wordCount": 512,
           "title": "VSCode Remote-SSH Server 下载速度巨慢怎么办？",
           "imageUrl": null
         },
@@ -521,7 +521,7 @@
           "description": "zhoudaiyu: 首次上线的时候怎么定？靠压力测试？后续应用不停上线、甚至改配置可能会导致内存、cpu 的变化，如何持续迭代更新每个应用的 request 和 limit 呢？",
           "link": "https://www.v2ex.com/t/1107726",
           "publishedOn": "2025-01-24T15:41:33.000Z",
-          "wordCount": 427,
+          "wordCount": 455,
           "title": "各位工作的公司生产 k8s 是怎么维护应用的 request 和 limit 的？",
           "imageUrl": null
         },
@@ -541,7 +541,7 @@
           "description": "Ivan555: \n😄兄弟们来啊，把女朋友换成自己兄弟，看谁的速度快，地址放这了。\nhttps://picmagix.com",
           "link": "https://www.v2ex.com/t/1107724",
           "publishedOn": "2025-01-24T15:08:41.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "千呼万唤使出来， AI 换脸达摩神器 PicMagix 终于上线了！",
           "imageUrl": null
         },
@@ -551,7 +551,7 @@
           "description": "fengsi: \n试用了 Affine 这个笔记产品，感觉解决了我的几个小糟心的点。\nnotion 段落之间间距无法调整，太小了，我甚至分辨不出来这是不同的段落，如果单独空一行的，又太大了。\nnotion 的普通 heading 无法折叠； notion 的 toc 无法固定显示。\ncraft 文档中如果有代码块，鼠标滚动一直有问题。\n这个产品感觉很早之前就看到了，貌似当时聚集了一堆大佬，但是过去了几年？感觉现在像是不温不火的样子？而且当前的产品和我当时体验的产品预览也有很大的差距（这个帖子也可以看出： https://www.v2ex.com/t/877621 ）。看贡献者名单中也有几个 top 贡献者都已经离开 Affine 。\n目前 Affine 做了这么些年，看 git 记录更新的挺频繁的，但是好像一直没咋宣传？有关注 Affine 的人吗？后续 Affine 怎么发展呢？",
           "link": "https://www.v2ex.com/t/1107723",
           "publishedOn": "2025-01-24T15:08:27.000Z",
-          "wordCount": 421,
+          "wordCount": 425,
           "title": "一个笔记产品 Affine",
           "imageUrl": null
         },
@@ -561,7 +561,7 @@
           "description": "RedBeanIce: 父 55 岁了，母亲 51 岁，父亲马上就交完了职工医保。\n但是母亲是后面才交的，起码还得交 8-9 年才可以达到 20 年的年限。\n```\n所以现在有个问题，母亲的医保如何处理\n1 ，直接放弃缴纳职工医疗，交新农合？\n2 ，将职工医保补缴完？\n3 ，或者是其他的方案？\n```",
           "link": "https://www.v2ex.com/t/1107722",
           "publishedOn": "2025-01-24T15:01:09.000Z",
-          "wordCount": 472,
+          "wordCount": 474,
           "title": "[父母医保]",
           "imageUrl": null
         },
@@ -591,7 +591,7 @@
           "description": "Theresago: 奖品：\n5 个 GoGetSSL 通配符 SSL 证书\n3 个 RapidSSL 通配符 SSL 证书\n2 个 Sectigo 基本通配符 SSL 证书\n为多个子域名提供经济实惠、可靠的 SSL 保护。\n活动期间：即日起至 2025 年 1 月 28 日。\n请确保您的回复是好的！\n我们将在这个帖子中发布获奖者名单，所以一定要回头看看你是否是幸运的人之一！\n快来加入这个乐趣吧，你可能会成为免费 SSL 证书的赢家之一！\n\n关于 GoSSL 和我们的价格：\n在 GoSSL ，我们提供价格合理、质量高的 SSL 证书，以帮助保护您的网站。无论您是保护一个域名还是管理多个子域名，我们都能为您提供服务。\nGoGetSSL 通配符 SSL–每年仅需 10 美元\n只需每年 10 美元即可获得 GoGetSSL 通配符 SSL ，并保护您的所有子域。非常适合那些需要跨多个站点进行安全保护而不破坏银行的人。\n在此处购买 GoGetSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/gogetssl\nSectigo 基本通配符 SSL–每年仅售$15\nSectigo Essential Wildcard SSL 证书为多个子域名提供可靠的加密，起价仅为每年 15 美元。对于那些想要可靠、负担得起的保护的人来说，这是一个很好的选择。\n在此处购买 Sectigo Essential 通配符 SSL： https://www.gossl.net/index.php?rp=/store/sectigo\nRapidSSL 通配符 SSL–每年仅售 15 美元\nRapidSSL 通配符 SSL 证书为多个子域名提供快速部署和可信加密，每年仅需 15 美元。让您的网站在短时间内安全！\n在此处购买 RapidSSL 通配符 SSL： https://www.gossl.net/index.php?rp=/store/rapidssl\n我们支持的付款方式:virtual currency Bank Transfer PayPal Basic （ paypal 需要提交支持单获取在线支付链接)\n特别活动：邀请好友首次购买证书，额外获得 5 美元现金奖励！\n邀请方式：参与者通过 GoSSL 平台生成专属推荐链接，邀请好友点击购买。\n好友首次购买：好友点击推荐链接并完成首次 GoSSL 证书购买后，邀请人将获得 5 美元现金奖励。\n该奖励将在好友购买的退款结束后发放，具体的退款为 30 天。\n提现方式：\n现金奖励可提现到 PayPal 账户。\n也可以选择提现至任何加密货币账户。\n参与者必须拥有 GoSSL 账户。\n被邀请的好友必须是首次购买 GoSSL 证书的新用户。\n退款与重新签发政策\n退款保障：\n购买的 SSL 保障证书提供 30 天全额退款。\n如果您在购买后的 30 不满意，可以申请退款，退款将通过原支付方式处理。\n无限次重新签发：\n在近证书内，GoSSL 提供无限次免费重新签发服务。\n无论因交换机域名、生成新的 CSR 、更新密钥等原因，您都可以随时申请免费重新签发，确保您的 SSL 证书始终满足需求。",
           "link": "https://www.v2ex.com/t/1107718",
           "publishedOn": "2025-01-24T14:41:27.000Z",
-          "wordCount": 535,
+          "wordCount": 544,
           "title": "免费赠送 10 个一年通配符域证书,通配符域证书低至$10/年",
           "imageUrl": null
         },
@@ -601,7 +601,7 @@
           "description": "sampeng: 最近越来越蠢。就踏实研究了一下，几个问题。\n1 ，官方移除了 long context 。这个事最恶劣，而且是悄悄移除的。这也是 cursor 整体变蠢的最大原因。因为以前 g 可以给大量 d 正确的 x 上下文。现在的上下文是裁剪的。最后结果就是车轱辘话来回来说。哪怕只改一个文件，明显多次理解不一样，丢失细节很严重。甚至这个文件你再问就感觉他都不知道他已经实现过了，又换一种方法实现一遍。目前没什么好办法其实。只要是裁剪后才给 llm 的，都是猜拳游戏。可能减少范围，聊两轮就关闭重起一个，然后再把上下文总结了继续会好点。我现在已经是写了大量设计文档，和 notepads ，我就纳闷我明明说的很清楚，为什么就是当没看见。有时候.cursorrules 都直接无视：很好验证，z 让他开始 s 回答前都必须说，是的先生。总有几次没带上。\n2 ，没有证据证明后台换算法。因为变蠢这是事就很玄学。但目测肯定有时候就不是 claud 3.5 。",
           "link": "https://www.v2ex.com/t/1107716",
           "publishedOn": "2025-01-24T14:28:34.000Z",
-          "wordCount": 427,
+          "wordCount": 439,
           "title": "研究了两个月 cursor，看样子还是 cursor 不赚钱，不是活菩萨。",
           "imageUrl": null
         },
@@ -671,7 +671,7 @@
           "description": "lynan: \n订单结算页面\n \n支付顺序设置页面\n \n太震惊了，这是合理合法的吗？",
           "link": "https://www.v2ex.com/t/1107709",
           "publishedOn": "2025-01-24T13:08:18.000Z",
-          "wordCount": 547,
+          "wordCount": 549,
           "title": "京东 App 无视用户选择的扣款顺序，强行默认打白条支付",
           "imageUrl": null
         }
