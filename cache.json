@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -287,12 +281,312 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1107910",
+          "author": "ChengPu",
+          "description": "ChengPu: \n最近在开发 Next Idea NewTab 时遇到一个问题。这个插件的工具库部分需要显示各种第三方网站的 logo ，本来使用 Google 的 favicon 服务效果很好，但是你懂的，国内用户打开就看到 logo 了。\n中间考虑过几种方案，效果都不满意，昨天突然想到 CloudFlare R2 可以薅免费存储和 CDN ，于是鼓捣了一个小工具：Image URL Converter 。\n这个小工具让你只需要输入图片原始 URL ，就会自动上传到 R2 ，然后返回图片 CDN 地址。源码里也实现了 API ，所以如果觉得手动在前端操作比较麻烦，也可以把 API 集成到你的项目里。\n因为涉及到私有 key 的使用，所以没有搭建公开访问的 demo ，大家有需要可以 fork 源码，在本地跑一跑，README 提供了 0 门槛操作指导。\n开源地址： https://github.com/weijunext/image-url-converter\n页面展示：\n\n\n现在 Next Idea NewTab 插件中的所有图片都使用这个方案处理图片，确保了全球用户都能稳定访问，希望国内开发者也多多支持。",
+          "link": "https://www.v2ex.com/t/1107910",
+          "publishedOn": "2025-01-26T03:35:05.000Z",
+          "wordCount": 410,
+          "title": "开源了一个小工具，输入 URL 就能把图片上传到 CloudFlare R2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107909",
+          "author": "672795574",
+          "description": "672795574: 设备是 mac mini ，终端手动运行脚本没有问题，\n但是用 launchd 和 cron 定时执行都是相同的问题，每次都会弹窗提示 ”selenium-manager 需要访问文稿 xxx ，允许 or 拒绝”。\n已经给了 selenium-manager 完全磁盘权限。ai 提供的一些方法都尝试了依旧不行\n不知道还有什么思路吗？",
+          "link": "https://www.v2ex.com/t/1107909",
+          "publishedOn": "2025-01-26T03:19:40.000Z",
+          "wordCount": 388,
+          "title": "crontab 执行脚本，总是提示 selenium-manager 需要访问文稿权限",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107908",
+          "author": "HeyCaptainJack",
+          "description": "HeyCaptainJack: \n客户需要定制一个商城 CMS 的小程序，github 扒了一圈也没找到开源的。\npc 和 h5 的倒是挺多，小程序的为啥没有嘞",
+          "link": "https://www.v2ex.com/t/1107908",
+          "publishedOn": "2025-01-26T03:19:27.000Z",
+          "wordCount": 374,
+          "title": "急！请问有推荐的开源小程序电商平台吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107907",
+          "author": "carlliuxx",
+          "description": "carlliuxx: \n做了一个安卓版的语音快捷指令，各位大佬们帮忙给看看~\nShortcuts for Android (SFA)\n为安卓设备打造快捷指令，用语音实现自动化操作！  \nShortcuts for Android（简称 SFA）是一款功能强大的工具，能够在安卓系统中实现类似 iOS 快捷指令的功能。通过语音，轻松解锁更多便捷操作！  \n🚀 快速开始\n借助 SFA ，你可以轻松创建属于自己的快捷指令。以下是几个功能示例：  \n语音自动化操作：语音执行一套自动化操作流程，例如听歌、播放番剧、导航等。  \n语音发送消息：通过语音向 QQ 的某位联系人发送消息。  \n语音完成任务：语音打车、购物等一气呵成。  \n🛠️ 如何创建快捷指令？\n只需 3-4 个简单步骤，即可完成快捷指令的创建：\n\n\n🎥 教程视频\n想快速上手？跟着视频一步步学习，创建属于你的快捷指令！\n教程视频\n✨ 项目亮点\n语音快捷指令：量身定制，用语音解锁更高效的操作方式。  \n操作简单：支持录制操作或手动添加，轻松创建专属指令。  \n高效自动化：优化日常繁琐操作，节省时间，提高效率。  \n📦 安装指南\n下载 Shortcuts for Android 安装包：  \nGitHub Releases \n蓝奏云下载链接 \n按提示完成安装。  \n开始创造你的快捷指令，解锁全新操作体验！  \n✅ 测试功能场景\n以下是本人已测试的功能场景，欢迎提交反馈！  \n提示：成功率优先级排序为：软件版本 > 弹窗情况 > 系统版本。如果执行失败，请优先确认使用推荐版本，或参考教程对快捷指令进行调整。\n\n手机型号\n系统版本\n版本\n执行命令\n是否成功\n\n\n\n\nQQ\nRedmi Turbo3\n1.0.16.0UNPCNXM\n9.1.35\nQQ 发送<message>给<name> eg. QQ 发送你好吗给张伟\n√\n\n\n飞书\n\n\n7.35.6\n发飞书消息<message>给<name> eg. 发飞书消息去吃饭给划水群\n√\n\n\n滴滴打车\n\n\n7.0.0\n我想打车去<place> eg. 我想打车去动物园\n√\n\n\n京东\n\n\n15.0.10\n京东购买<goods> eg. 京东购买手表\n√\n\n\n百度地图\n\n\n20.14.30\n导航到<place> eg. 导航到北京邮电大学\n√\n\n\nbilibili\n\n\n8.31.0\n在 B 站播放<drama> eg. 在 B 站播放命运冠位指定\n√\n\n\nQQ 音乐\n\n\n14.1.0.8\n我想听<sing> eg. 我想听青花瓷\n√\n\n\nQQ 音乐\n\n\n14.1.0.8\nQQ 音乐每日推荐\n√\n\n\n汽水音乐\n\n\n13.4.0\n播放音乐<song> eg. 播放音乐青花瓷\n√\n\n\n汽水音乐\n\n\n13.4.0\n听我喜欢的音乐\n√\n\n\n网易云音乐\n\n\n9.2.45\n播放我的收藏歌单\n√\n\n\n酷我音乐\n\n\n11.1.4.0\n帮我播放<song> eg. 帮我播放青花瓷\n√\n\n\n懒人听书\n\n\n8.5.4\n我想听书<story> eg. 我想听书三国演义\n√\n\n\n直播吧\n\n\n6.8.8\n我要看<team>最近的赛事 eg. 我要看曼联最近的赛事\n√\n\n\n河马剧场\n\n\n1.17.6\n播放短剧<playlet> eg. 播放短剧打工奇遇\n√\n\n\n知乎\n\n\n10.39.0\n打开知乎热榜\n√\n\n\n同花顺\n\n\n11.21.02\n查一下<company>的股票 eg. 查一下京东的股票\n√\n\n\n锤子便签\n\n\n4.1.7\n记录一下<tips> eg. 记录一下今天发版啦\n√\n\n\n\n期待你的加入，一起让安卓设备变得更加智能高效！🎉",
+          "link": "https://www.v2ex.com/t/1107907",
+          "publishedOn": "2025-01-26T03:19:18.000Z",
+          "wordCount": 531,
+          "title": "安卓版语音快捷指令 - 我自己做了一个 AI 手机助手",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107906",
+          "author": "IMZQZ",
+          "description": "IMZQZ: \n是不是我不会用。。。。",
+          "link": "https://www.v2ex.com/t/1107906",
+          "publishedOn": "2025-01-26T03:18:48.000Z",
+          "wordCount": 387,
+          "title": "发现 macbook 前置摄像头 自拍录制视频只有 1080p。。。还没有手机好，至少手机还能 4K",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107905",
+          "author": "Cellinlab",
+          "description": "Cellinlab: \n之前在 V 站吐槽用户输入错误，最近几次交流活动被用户又吐槽了\n产品起名字一定要注意⚠️，你完全想不到用户理解的你的名字和你想表达的效果\n\n还是决定改名字了，入乡随俗，豆包、飞猪、咸鱼，小火炉！",
+          "link": "https://www.v2ex.com/t/1107905",
+          "publishedOn": "2025-01-26T03:13:53.000Z",
+          "wordCount": 354,
+          "title": "为了更好地服务国内用户，我还是决定改名字了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107904",
+          "author": "Croow",
+          "description": "Croow: 场景：\n我接触 react 一个月了，想试一下 cicd 发布项目，我写的一个纯前端的项目，打包后上传到腾讯云，用指令：cross-env PUBLIC_URL=xxx 腾讯云存储桶地址 node scripts/build.js ，把所有资源导入方式都改成了腾讯云的地址。\n问题：\n但是我访问 index.html 时一直是白屏，查了半天发现 js ，css 等资源获取成功了，原因在 index.html 读取不到路由。\n解决办法：\n然后在 index.js 把\nimport {BrowserRouter} from 'react-router-dom';\nroot.render(\n  <BrowserRouter>\n    <App />\n  </BrowserRouter>\n);\n改为 hash 模式，发现就能正常访问了。\nimport {HashRouter as Router} from 'react-router-dom';\nroot.render(\n  <Router >\n    <App />\n  </Router>\n);\n疑问：\n为啥要 hash 才行呢？那生产环境发布代码大多数也不是用的 hash 吧",
+          "link": "https://www.v2ex.com/t/1107904",
+          "publishedOn": "2025-01-26T03:13:49.000Z",
+          "wordCount": 424,
+          "title": "家人们，想问一个 react 路由相关的问题，求大佬解答。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107903",
+          "author": "wcxxxxxxxxxxx",
+          "description": "wcxxxxxxxxxxx: \n入户墙打了一面柜子，本来有一半想做挂衣区，但是墙厚有线管，如何固定，保证称重，或有啥推荐的挂衣架\n\n其中标红色区域为大白墙，虚线为线管，图片左侧是入户门",
+          "link": "https://www.v2ex.com/t/1107903",
+          "publishedOn": "2025-01-26T03:11:50.000Z",
+          "wordCount": 348,
+          "title": "万能的 V 友，入户挂衣架，求方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107902",
+          "author": "frankyzf",
+          "description": "frankyzf: \n如题，浏览器插件和 web 版有很多，但用起来不如 PC 端软件方便，需要复制粘贴。先谢谢了",
+          "link": "https://www.v2ex.com/t/1107902",
+          "publishedOn": "2025-01-26T03:11:36.000Z",
+          "wordCount": 365,
+          "title": "windows 桌面端翻译软件支持大模型翻译的有哪些？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107901",
+          "author": "huntagain2008",
+          "description": "huntagain2008: 最近玩《王国风云 2 》经历了两次开局就入狱。第一次扮演法兰西国王，命令祭司去某地做宗教研究，结果祭司劝我改教，导致叛军四起，最终被皇帝关进监牢。第二次是英格兰国王，娶了表妹，不久后我爱上了某领地的伯爵夫人。宴会上与她热舞，多次与她亲近，一次小树林中遭遇恶狼我英雄救美，抱得美人归，一次偷情被伯爵发现（还好我跑得快），伯爵成为仇敌，接着我被自己的妻子囚禁，困于监牢，无法自赎，需要摄政王同意，而他正是被我绿帽的伯爵，最终我死在了狱中，年仅 31 岁。\n这游戏还是不会玩，我的心境出了问题，以前不会死这么快。",
+          "link": "https://www.v2ex.com/t/1107901",
+          "publishedOn": "2025-01-26T03:04:31.000Z",
+          "wordCount": 366,
+          "title": "怀疑是我心境出了问题《王国风云 2》两次被关进监牢的悲剧故事",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107899",
+          "author": "lucasj",
+          "description": "lucasj: \n下面是我的 AI 工具组合：\n聊天：Open AI 的付费 API + 自部署 AI 客户端 LobeChat\n网页搜索：Microsoft Copilot\n写代码：GitHub Copilot",
+          "link": "https://www.v2ex.com/t/1107899",
+          "publishedOn": "2025-01-26T02:54:35.000Z",
+          "wordCount": 445,
+          "title": "2025 年，大家都在用哪些 AI 工具？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107898",
+          "author": "chenqh",
+          "description": "chenqh: \n我用 deepseek 搜索 vscode quickpick 不排序,怎么告诉我用这个属性去弄?但是谷歌没有搜到啊.",
+          "link": "https://www.v2ex.com/t/1107898",
+          "publishedOn": "2025-01-26T02:52:44.000Z",
+          "wordCount": 382,
+          "title": "vscode quickpickitem 有 keepWhenSort 这个属性吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107897",
+          "author": "tuchuanw",
+          "description": "tuchuanw: 目前盈透开户，在最后一步存入金了，但是页面并没有提示需要存入多少入金，直接 google 搜，看到好像是要 1w 美金的入金，是这样吗？\n因为现在人民币换美元太贵了，只是想说先开个户头，如果要换 1w 美元的话，感觉有点划不来。",
+          "link": "https://www.v2ex.com/t/1107897",
+          "publishedOn": "2025-01-26T02:52:12.000Z",
+          "wordCount": 358,
+          "title": "关于盈透开户需要多少入金求问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107896",
+          "author": "3575448925a",
+          "description": "3575448925a: 之前出于兴趣安装了 kali 虚拟机，结果问题不断，现在也基本不用了，尝试删除也删不干净，有没有大佬能教教怎么删干净",
+          "link": "https://www.v2ex.com/t/1107896",
+          "publishedOn": "2025-01-26T02:46:39.000Z",
+          "wordCount": 377,
+          "title": "怎么删除 kali 虚拟机",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107895",
+          "author": "oldking24",
+          "description": "oldking24: \n之前看到有人发这个类似于小程序短链接的文案《#小程序://支付有优惠/ChShTNTs3Pfk6Pt 》，想咨询下这种是在小程序后台生成的嘛还是在哪里，求解答方法，感谢！！",
+          "link": "https://www.v2ex.com/t/1107895",
+          "publishedOn": "2025-01-26T02:42:58.000Z",
+          "wordCount": 395,
+          "title": "小程序短链接求解答",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107892",
+          "author": "Brixlabs",
+          "description": "Brixlabs: \n今年正好有一些红包封面的余额，结合蛇年就做了一条贪吃蛇送给大家。\n没什么特殊高大上的寓意，就是觉得好玩，联想到小时候玩黑白机贪吃蛇快乐的日子。\n咱们 24 年的辛苦了。努力工作，努力生活，照顾家人。所以在 25 年春节假期，别委屈自己，好好放松，吃点好的。\n祝我们在新的一年，身体和精神都被养的愈来愈充盈。\n这是红包大概的预览图👇🏻 !  !  !\n\n \n领取方式：\n直接扫图片中的二维码就可以领取\n \n如果扫码提示封面已经领完，可以点击这个链接进行领取。\n最后祝各位蛇年不卷，顺顺利利！蛇年好运“盘”到手，幸福天天“溜”！多吃点好吃的！",
+          "link": "https://www.v2ex.com/t/1107892",
+          "publishedOn": "2025-01-26T02:36:57.000Z",
+          "wordCount": 507,
+          "title": "[🧧红包封面] 做了一款贪吃蛇像素主题红包封面，祝咱新的一年吃的盆满钵满！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107891",
+          "author": "sxinsuoyu20",
+          "description": "sxinsuoyu20: 1 、年龄越来越大了，家里有老人孩子\n2 、工作不稳定，劳务派遣，有降薪优化的风险",
+          "link": "https://www.v2ex.com/t/1107891",
+          "publishedOn": "2025-01-26T02:33:08.000Z",
+          "wordCount": 396,
+          "title": "迷惘，除了打工，还能干点啥吗？希望大家给提点建议！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107889",
+          "author": "foufoufm",
+          "description": "foufoufm: 如题，我已经用过很多画板工具了，目前看来体感最好的竟然是飞书画板，有很多微细节：\n- 模板\n- 自动连接\n- 改变剪头方向\n- 引入图标、图片\n- 支持多种 ERD",
+          "link": "https://www.v2ex.com/t/1107889",
+          "publishedOn": "2025-01-26T02:07:44.000Z",
+          "wordCount": 451,
+          "title": "飞书画板是不是目前最好用的白板工具？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107888",
+          "author": "superkeke",
+          "description": "superkeke: 1 、试了小窗模式，一次只能一个小窗，这个是目前最鸡肋的地方，白瞎了那么大的屏幕。\n2 、配上键盘鼠标，类似于记忆中七八年前使用 ipad 的体验（最新的 ipadOS 没有体验过🐶），但是快捷键是单独的一套，跟 macos 完全不同，如果适应了的话应该可以接受。\n3 、试了几个 app 模拟 airplay 给 mac 做副屏，清晰度和流畅度上都很差，放弃。果然有钱的话还的上 ipad ～\n4 、屏幕素质不错、充电很快。\n5 、重，配上保护套后是真的重，比 ipad air2 重多了，毕竟屏幕大一些，长时间只能放桌子上，拿手上是不可能的。\n目前就这么多，后续摸索中。。。",
+          "link": "https://www.v2ex.com/t/1107888",
+          "publishedOn": "2025-01-26T01:58:29.000Z",
+          "wordCount": 497,
+          "title": "由于贫穷国补买了 oppo android 平板，初步使用一天总结一下使用体验。另外用它轻办公有什么奇技淫巧推荐吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107887",
+          "author": "pujx233",
+          "description": "pujx233: 能打开网页，但不管发什么内容，都会立刻回复 Something went wrong. If this issue persists please contact us through our help center at help.openai.com.\n测了一下，只有使用 O1-mini 模型的时候会有这个问题，GPT4o 和 GPT4 都是正常的，这个是我账号被限制了吗，APP 下面所有模型都是正常的",
+          "link": "https://www.v2ex.com/t/1107887",
+          "publishedOn": "2025-01-26T01:55:54.000Z",
+          "wordCount": 365,
+          "title": "GPT O1-mini 模型提示 Something went wrong，怎么排除问题原因？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107886",
+          "author": "shyrock",
+          "description": "shyrock: 看下有多少跟我一样苦逼的同胞。\n昨天看了高善文的演讲，觉得还是真实反映了当前经济的现状。\n看来这苦逼的日子还远未到头。",
+          "link": "https://www.v2ex.com/t/1107886",
+          "publishedOn": "2025-01-26T01:48:01.000Z",
+          "wordCount": 488,
+          "title": "没有年终奖并且今天还要上班的兄弟来打卡了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107885",
+          "author": "finalenterx",
+          "description": "finalenterx: \nCasvisor 是一款开源的混合云、多云主机管理平台，带有美观易用、傻瓜式的 Web UI 操作界面。提供强大的主机管理和云资源管理功能，支持对多种远程桌面协议、SSH 操作、SQL 语句进行权限管控和审计日志，防止非授权访问。\n支持 RDP 、VNC 、SSH 等多种远程桌面协议；\nAWS 、Azure 、阿里云、腾讯云等多家公有云的云主机管理\nKVM 、PVE 、VMWare Workstation 等多家私有云的云主机管理\n远程桌面支持内网穿透，被控机器不需要具有公网 IP ；\n支持对多台主机进行批量命令下发执行；\n支持统计 CPU 占用率、内存占用率、磁盘占用率、进程列表等（通过 SSH 协议或 Agent ）；\n所有操作保存审计日志，管理员可查看、修改，方便审计、计费等操作；\nUI 界面语言支持中文、英文等十几国语言；\n采用 Go 语言开发，二进制易于部署，仅需 50MB 内存即可运行。\n在线体验：\n演示站（只读）： https://door.casvisor.com\n演示站（可修改）： https://demo.casvisor.com\n源码：\nGitHub： https://github.com/casvisor/casvisor\n官网文档： https://casvisor.org\n社区反馈：\nDiscord: https://discord.gg/devUNrWXrh\nQQ 群：767939681",
+          "link": "https://www.v2ex.com/t/1107885",
+          "publishedOn": "2025-01-26T01:43:36.000Z",
+          "wordCount": 437,
+          "title": "Casvisor: 带 Web UI 的开源云管平台，支持 RDP、VNC、SSH 远程桌面、AWS、Azure、阿里云、腾讯云、KVM、PVE、VMWare 等多云主机管理、文件管理等",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107884",
+          "author": "IMZQZ",
+          "description": "IMZQZ: \nNOTION ai 的功能是单独的？不管是否订阅付费会员，AI 都要收 10 刀一个月？",
+          "link": "https://www.v2ex.com/t/1107884",
+          "publishedOn": "2025-01-26T01:41:44.000Z",
+          "wordCount": 429,
+          "title": "NOTION ai 的功能是单独的？不管是否订阅付费会员， AI 都要收 10 刀一个月？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107883",
+          "author": "Dora5260",
+          "description": "Dora5260:",
+          "link": "https://www.v2ex.com/t/1107883",
+          "publishedOn": "2025-01-26T01:41:30.000Z",
+          "wordCount": 565,
+          "title": "有没有和我一样，今天还在打卡上班，然后工作内容是摸鱼的 😭",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107882",
+          "author": "luxiu",
+          "description": "luxiu: 冬日早上的阳光总是来的很晚。旁边的老树瘦的一批，光秃秃的，一根毛发都没有。就直挺挺的在那里杵着。",
+          "link": "https://www.v2ex.com/t/1107882",
+          "publishedOn": "2025-01-26T01:31:52.000Z",
+          "wordCount": 399,
+          "title": "《冬日小记》 各位今日抒情篇",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107881",
+          "author": "q1102389095",
+          "description": "q1102389095: \n最近几天在休班没用上 gpt ，今天弄点东西突然发现 O1 一直报错包括 O1-mini ，4O 能正常使用",
+          "link": "https://www.v2ex.com/t/1107881",
+          "publishedOn": "2025-01-26T01:05:32.000Z",
+          "wordCount": 525,
+          "title": "好久不用我的 chatgpt-O1 出问题了你们的怎么样",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107880",
+          "author": "eccentric579",
+          "description": "eccentric579: \n限速跑，还是限流量跑，还是限时间跑",
+          "link": "https://www.v2ex.com/t/1107880",
+          "publishedOn": "2025-01-26T00:47:41.000Z",
+          "wordCount": 398,
+          "title": "成都电信 PT 怎么传比较安全",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107879",
+          "author": "readman",
+          "description": "readman: 今天睡醒突然想起来，不对啊，做备份的意义是什么？\n我刚建了个 nas 四盘，感觉我数据没什么必要做 raid 都是小姐姐或者老电影\n然后重要的照片和一些文档我做四盘备份\n但是今天突然想起来，不对啊，如果我一个数据坏了，那么备份后的数据也是坏的啊，这不是相当于没任何冗余吗？",
+          "link": "https://www.v2ex.com/t/1107879",
+          "publishedOn": "2025-01-26T00:45:19.000Z",
+          "wordCount": 701,
+          "title": "突然想不通了，做备份的意义是什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107878",
+          "author": "shuxuanshu",
+          "description": "shuxuanshu: \n海外项目，寻求远程前端，薪资 6~10k ，有意者可加微信 15298779393 细聊\n职位要求\n熟练使用 HTML5/CSS3 快速进行页面开发，能够进行移动端 web 开发\n精通 js 、jquery 、Canvas 等前端开发技术，熟练掌握 Vue 并能够使用 Vue 进行快速迭代开发\n熟练掌握 leaflet 、mapbox 、cesium 、geoserver 等 GIS 相关前端开发技术\n对用户体验、交互设计等有一定掌握\n计算机或相关专业本科以上学历",
+          "link": "https://www.v2ex.com/t/1107878",
+          "publishedOn": "2025-01-26T00:41:19.000Z",
+          "wordCount": 400,
+          "title": "求远程前端，兼职/全职",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1107877",
+          "author": "kd9yYw2RyhQwAwzn",
+          "description": "kd9yYw2RyhQwAwzn: 虽然不知道为啥今天还要上班 想必还是兄弟们太敬业了吧\n我就不一样了 来打卡摸鱼的\n也祝已经开始休假的朋友们 春节假期愉快",
+          "link": "https://www.v2ex.com/t/1107877",
+          "publishedOn": "2025-01-26T00:37:41.000Z",
+          "wordCount": 1217,
+          "title": "今天还在打卡上班的朋友们 我们干杯🍻",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1107876",
           "author": "claytonxia",
           "description": "claytonxia: 写了一个小工具，免费把 medium 文章转成 pdf 下载到本地，会员文章也没有限制，欢迎使用\nhttp://106.53.115.154:3007",
           "link": "https://www.v2ex.com/t/1107876",
           "publishedOn": "2025-01-26T00:05:46.000Z",
-          "wordCount": 409,
+          "wordCount": 450,
           "title": "Medium 文章转 PDF",
           "imageUrl": null
         },
@@ -302,7 +596,7 @@
           "description": "vhvlqn: 最近睡眠状态不好，入睡困难。设置的 22:30-06:30 睡眠时间。10 点多躺下开始酝酿睡意，约莫 12 点前才睡着，这段时间手表都记录上了核心睡眠，期间也记录了多次清醒！！\n夜起了三次，起来后再睡也是过了十分钟才入睡，手表两次没记录上，另一次记录清醒时间与实际有落差。\n有准确点的睡眠监测 app 吗？",
           "link": "https://www.v2ex.com/t/1107875",
           "publishedOn": "2025-01-25T23:45:10.000Z",
-          "wordCount": 489,
+          "wordCount": 509,
           "title": "Apple Watch 睡眠监测不准",
           "imageUrl": null
         },
@@ -312,7 +606,7 @@
           "description": "iseki: \n我让他写一个对应 PE header 中某字段的 enum ，结果不是缺条目就是把数值写错。虽然可能不常发生，但是这意味着每个输出都需要我人工校对，体验了下发现比我自己从规格书上复制粘贴还要累。",
           "link": "https://www.v2ex.com/t/1107874",
           "publishedOn": "2025-01-25T23:34:49.000Z",
-          "wordCount": 438,
+          "wordCount": 440,
           "title": "大家用 cursor 的时候，怎么解决回复可能不可靠的问题？",
           "imageUrl": null
         },
@@ -332,7 +626,7 @@
           "description": "fphobal: \n现有一个机会进入一所 985 高校做技术（已拿到口头 offer ）。\n优点：\n相对稳定，和大多数私企相对应该要稳定得多\n年龄歧视相对较小，OP 现年 35 ，现在去市场找工作应该没那么好找，再过几年情况可能更差\n福利不错：跟大学老师的工会福利一样，可能能帮忙解决小孩读书问题？(还不确定)\n缺点\n工资低，比现在公司年包少了近 7W\n要出差，一次不会超过 1 个月，有额外的补贴\n内网开发，因为是做军工相关的项目，到部队后需要内网调试和部署，甚至内网开发\n离家远，虽然都在一个城市，但是相距 35 公里，开车需要近 1 个小时\n技术成长性差\n再简单说一下现在的情况，目前在一家小团队 remote ，不卷，965 ，不通勤，不打卡，较自由，技术上比较前沿，且业务比较有挑战性，只是产品不太好卖，涨薪无望，无年终，无任何福利，随时面临解散\n求各位 v 友帮忙分析下是否值得去？",
           "link": "https://www.v2ex.com/t/1107872",
           "publishedOn": "2025-01-25T23:10:49.000Z",
-          "wordCount": 567,
+          "wordCount": 590,
           "title": "高校合同工值得去么？",
           "imageUrl": null
         },
@@ -342,7 +636,7 @@
           "description": "haoyh1: 富途和东财都没有，不上班，工作日平时出门旅游，至少需要盯着大盘指数，这个功能非常刚需啊",
           "link": "https://www.v2ex.com/t/1107871",
           "publishedOn": "2025-01-25T19:33:51.000Z",
-          "wordCount": 377,
+          "wordCount": 379,
           "title": "到现在还没有一个行情软件支持实时活动和灵动岛吗",
           "imageUrl": null
         },
@@ -352,7 +646,7 @@
           "description": "Yosomi: \n对已经绑定的没有影响，但是解绑以后重绑就无法再次绑定上了，\n目前试过的招行、建行、浦发 JCB 均无法绑定。\n应该是 JCB 已经有了识别发卡地区的能力，可能不是通过 BIN 码。",
           "link": "https://www.v2ex.com/t/1107870",
           "publishedOn": "2025-01-25T18:37:35.000Z",
-          "wordCount": 520,
+          "wordCount": 533,
           "title": "国内 JCB 信用卡均已经无法绑定日区 Apple ID",
           "imageUrl": null
         },
@@ -362,7 +656,7 @@
           "description": "kirieievk: \n看视频加特林才 15,这都哪里买的\n我们这里好几倍的价格了.",
           "link": "https://www.v2ex.com/t/1107869",
           "publishedOn": "2025-01-25T18:22:39.000Z",
-          "wordCount": 436,
+          "wordCount": 440,
           "title": "v2exer 可以放烟花吗,价格如何",
           "imageUrl": null
         },
@@ -372,7 +666,7 @@
           "description": "McreeWu: \n车陂地铁站出来走 50 米的距离。",
           "link": "https://www.v2ex.com/t/1107868",
           "publishedOn": "2025-01-25T18:01:53.000Z",
-          "wordCount": 361,
+          "wordCount": 368,
           "title": "广州今年过年有没有可以上门喂猫的，主要是陪玩一下。市场价结算",
           "imageUrl": null
         },
@@ -382,7 +676,7 @@
           "description": "hiuxia1: \n这篇主题来源于我在知乎上一篇有关 Anki 的使用经验贴。之后我在 linux do 论坛上进行了分享，收获了很多的反馈。这篇帖子是想借助 V2EX 论坛，获得佬友们更多的意见和反馈。这也是我撰写这篇帖子的初衷：在分享 anki 的同时，提示自己对它的理解。Open and Open,欢迎交流！\n以下是经验贴的内容：\n不知不觉已经使用 Anki 两年多了，他陪伴我度过了人生中最艰难的岁月，改变我的思维习惯和对学习的认知。在这里，我深深的感谢 @Thoughts Memo 在知乎的分享和他开发的 FSRS 算法。叶神只大我一岁，但是他所开发的算法已经让世界无数人所受益。他是我永远的学习榜样和偶像。\n前言\n人类的记忆可以粗略的分为工作记忆，长期记忆和程序性记忆三类  。其中工作记忆负责处理当前环境下的信息，对时效性的要求较高；长期记忆最具创新性，经常成为研究人员洗澡或散步时的灵感源泉；而程序性记忆则专门用于存储完成特定任务所需的知识，最适合用来考试。\n我们使用 Anki 的本质是通过间隔重复效应，通过特殊设计的 scheduler 算法，在任务量相同的前提下，使用最小的代价去形成记忆。举例来说，在同样的高考备战时间内，我们可以利用 Anki 对知识点进行间隔重复，在相同的时间内达到更高的分数（具体可以参考叶神的帖子 ）。\n在阅读正文前，请思考：你使用 Anki 的目的是什么？中学生经常是为了考试，他们使用 Anki 巩固的主要是程序性记忆。更进一步，当摆脱高考等选拔的桎梏后，大学生为了提高自己的工作技能，他们选择使用 Anki 去加强自己专业知识点的长期记忆。场景切换到研究或工作中，科研人员经常会凭借自己的长期积累，在工作记忆中时时浮现灵感。\n理解了 Anki 背后的原理，我们需要注意 Anki 正确的使用时间，以及它和实践的关联。这里总结了一些常见的对 A…",
           "link": "https://www.v2ex.com/t/1107867",
           "publishedOn": "2025-01-25T17:44:24.000Z",
-          "wordCount": 616,
+          "wordCount": 618,
           "title": "Anki 使用经验贴",
           "imageUrl": null
         },
@@ -392,7 +686,7 @@
           "description": "jackie777: \n最近做了一个管理浏览器标签页的插件 TabTab. \n\n这里和大家分享一下开发历程.\n缘由\n为什么要做这个插件, 一方面 chrome 自身的书签管理不够直观；另一方面我常年重度使用浏览器开展我的工作, chrome 成了我实际的工作台. 我需要一个 简单直观 并且 操作简单 的 dashbord 来管理我的所有标签页. 最初, 我用过 NiceTab 这个插件, 但是 ui 和交互都不能让我满意, 于是有了自己构建一个的想法.\n技术选型\n我看了主流的框架, 谨慎 (拍脑袋) 地选择了 WXT 这个框架, 但作为一个业余前端, 我的前端技术栈一直停留在 Vue2.6.  WXT 默认不支持 Vue2, 我也意识到该升级下技术栈了.\n看了下 Vue3, 原本我习惯了选项式 api, 组合式 api 用起来不够顺手. 本来这一点我已经在克服了, 安慰自己这个是当下最时髦的写法.\n但是等我接触到 ref 和 reactive 等概念后, 我有点懵逼了. 原本我想用现有技术栈快速上手的, 但是升级 Vue3 的时间远远超出了我的预期.\n本着学都学了就学点最时髦技术的心态, 最终我的技术栈定为了 WXT + react + tailwind + shadcn ui.\n动手干\n接下来一到两周吧, react 、tailwind 、shadcn 、react-router 、WXT 我一一看了遍文档, 然后吭哧吭哧搭了一个主体框架.\n中间我顺便学了下 typescript, 之前我是一直 js 一直爽, 但是现在大部分项目 startup 都是 ts, 还要我研究怎么换成 js ...\n想想算了, 咬咬牙, 都到这儿了把 ts 也啃了算了.\nCursor 助力\n在这次体验之前, 我对 cursor 还停留在仅仅能写一些简单代码的印象上, 再次尝试后的我惊掉了下巴\ud83d…",
           "link": "https://www.v2ex.com/t/1107866",
           "publishedOn": "2025-01-25T17:18:06.000Z",
-          "wordCount": 761,
+          "wordCount": 773,
           "title": "TabTab - Cursor / Trae 帮我写的第一个浏览器插件",
           "imageUrl": null
         },
@@ -412,7 +706,7 @@
           "description": "Awes0me: \n4299 那个 esim 版本的一直抢不到，128 不够用，米家三件套加起来都 100g 了",
           "link": "https://www.v2ex.com/t/1107863",
           "publishedOn": "2025-01-25T15:58:43.000Z",
-          "wordCount": 404,
+          "wordCount": 455,
           "title": "想买个 mini7 咋这么难？",
           "imageUrl": null
         },
@@ -434,256 +728,6 @@
           "publishedOn": "2025-01-25T15:39:49.000Z",
           "wordCount": 359,
           "title": "有没有在加州的朋友，闲来无事，做了一个华人网",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107860",
-          "author": "winskyme",
-          "description": "winskyme: 一个简单但可靠的 linux C++服务端：\n1 ，通过 http 或者 tcp 接收客户端发过来的 json 格式的数据\n2 ，支持解析、修改 json 格式的数据，根据 json 里某些字段的内容，去数据库再去查一些信息，补充进 json 数据中\n3 ，将这些 json 格式的数据保存在任务队列中，支持根据 json 数据里的计算类型字段，划分多个任务队列，支持队列的查看、管理；将队列中的信息轮询发送给各个计算节点，节点计算完成后再发下一个\n4 ，接收计算节点返回的 json 格式计算结果，并写入指定的数据库\n5 ，支持和各个计算节点的心跳报文，以感知计算节点的状态、当前是否有计算任务\n6 ，支持监听端口、数据库地址、客户端 IP 从配置文件中读取",
-          "link": "https://www.v2ex.com/t/1107860",
-          "publishedOn": "2025-01-25T15:36:47.000Z",
-          "wordCount": 377,
-          "title": "有没有合适开源的 C++项目可以快速实现一些功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107859",
-          "author": "ronen",
-          "description": "ronen: \n来港的时候公司加班用车是 uber  所以一直用 uber ，不过操作习惯和内地差别很大。\n最近发现高德也可以 call 车了，因为在内地用户量也很大，应该不少人都已经安装了，推荐试下，免得要打车的时候手忙脚乱。",
-          "link": "https://www.v2ex.com/t/1107859",
-          "publishedOn": "2025-01-25T15:25:41.000Z",
-          "wordCount": 345,
-          "title": "高德接入香港打车了，过来玩如果不方便安装 uber 且不想打出租，可以试试。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107858",
-          "author": "Moosems",
-          "description": "Moosems: \n购买渠道: 中秋京东买的自营超市,店铺名称是忆江南京东自营旗舰店. 渠道是官方的没问题.\n龙井茶叶.\n今天泡了一包茶叶,泡茶的容器是类似于咖啡杯大小差不多的分茶器,就是茶叶放在这个分茶器里面泡,然后倒在小杯子里. 因为当时在聊天没注意,导致放了整整一包茶叶, 正常感觉放入 1/4 1/3 就差不多.\n不知道是不是茶叶放多了的原因,但是感觉可能不是这个原因.\n就是泡出来的茶 有点中药材的味道. \n本人不懂茶,也没喝过什么好茶,不知道是不是这个茶的问题还是本身就是这样.\nhttps://imgur.com/WPN8KQP\nhttps://imgur.com/ouhmir0",
-          "link": "https://www.v2ex.com/t/1107858",
-          "publishedOn": "2025-01-25T15:25:32.000Z",
-          "wordCount": 532,
-          "title": "v 友们,帮忙看一下我是不是买到假茶叶了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107857",
-          "author": "gegeligegeligo",
-          "description": "gegeligegeligo: 表现在：系统好几天不关机后，打开软件、在任务栏中切换不同的窗口、以及其它各种各样的操作上，都会出现明显的卡顿\n\n资源消耗：cpu 占用只有百分之十几，没有占用特别高的进程，内存还剩下一半，硬盘是固态\n\n所以我就不太明白，为什么会出现这种情况，有没有什么办法能够定位到问题？",
-          "link": "https://www.v2ex.com/t/1107857",
-          "publishedOn": "2025-01-25T15:22:36.000Z",
-          "wordCount": 431,
-          "title": "为什么我的 win10 这么卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107856",
-          "author": "bclerdx",
-          "description": "bclerdx: 据 DMIT 的消息，LAX Pro v6 不使用 AS4809 的 CN2 ，居然是境内段 CN 2 没有完成 IPv6 的网络建设？\n难道说 AS 4809 的 CN2 在境内段和跨境段仍没有完成 IPv6 的网络建设吗？难以置信！！！\nAS4809 境内段没有完成 IPv6 网络的建设。\n目前 AS4809 仅提供境外段（ X-F ） IPv6 互联。跨境段（ C-I ）与境内段均为 AS4134 。\n其质量与直接使用 AS4134 IPv6 相当，甚至质量更差。\n在 LAX Pro 中配置 CN2 IPv6 ，可以简单理解为 DMIT 支付 CN2 GIA 的成本，为提供客户 AS4134 的服务。",
-          "link": "https://www.v2ex.com/t/1107856",
-          "publishedOn": "2025-01-25T15:17:52.000Z",
-          "wordCount": 441,
-          "title": "据 DMIT 的消息， LAX Pro v6 不使用 AS4809 的 CN2，居然是境内段 CN 2 没有完成 IPv6 的网络建设？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107855",
-          "author": "giter",
-          "description": "giter: 多开程序后，多个相同托盘图标不太好区分，要是能修改 ico 就能更好地区分用途。",
-          "link": "https://www.v2ex.com/t/1107855",
-          "publishedOn": "2025-01-25T15:17:25.000Z",
-          "wordCount": 372,
-          "title": "Windows 有没有程序可以修改任务栏中任意程序的托盘图标？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107853",
-          "author": "fengshushu8",
-          "description": "fengshushu8: 我之前的最后一代 intel 的 mbp16 ，硬盘挂壁了，我不知道为什么，当然这事过去很久了。\n最近，我准备手上的 8G 内存的 M2 Mini 卖了换 M4 Mini ，当我通过 smartmontools 查看硬盘寿命，告诉群友使用了一年的时间硬盘写了 10T 的时候，有一个群友说的话，让我很不愉快，他说，他的电脑用 5 年也写不到 10T 的量。\n我一生气，嘛得，我搁这卖设备呢，你说这话，我设备还怎么卖？一生气就把他踢出群了。\n但是，越想越不对劲，10T 到底是个什么概念？ 1 年写入 10 T ，365 天每天都不歇停的话是日写 28GB ，可是，我这台 M2 mini 是一个备用机，1 年 365 天真正使用不超过 100 天，那这个就恐怖了，按 100 天算就是日写 102GB 。\n这就非常非常非常恐怖了，一台也就浏览浏览网页的电脑，硬盘日写 102GB ，我自己都惊讶到了。\n于是，我又通过 smartmontools ，查询了我那 2022 年买的 8G 内存的 iMac ，一查直接懵逼，硬盘写入量 57T 。\n57T 什么概念？ 256GB 硬盘的理论 TBW 应该是 100-150TB ，也就是说 57T 已经将这块硬盘的理论寿命消耗了一半了。\n我通过，Mac 自带的 [活动监视器] 查看 [磁盘] 发现，写入最大的是 PID 为 0 的 kernel_task 进程，几乎就是电脑放那啥也没操作的话，日写 20GB 以上。\n最近，我出去旅游了 5 天，回来特地看了一下 [活动监视器] ，磁盘写入量 1.25TB\n\n我翻阅了很多资料，问了很多 GPT ，基本掌握的结论就是 [内存不足会导致 macOS 频繁使用内存压缩和交换文件（ Swap ），从而增加硬盘写入量，表现为 kernel_task 进程频繁写入数据。] \n也就是说，选择 8G 内存的 Mac 电脑，你除了担心日常够不够用之外，还要考虑硬盘寿命够不够借用。\n所以，再买 Mac 电脑，请把所有预算都堆到内存上，尽量不要买丐版内存设备。\n当然，发此文章，并不是给各位制造硬盘寿命焦虑，但至少，应该，众所周知这一特性。",
-          "link": "https://www.v2ex.com/t/1107853",
-          "publishedOn": "2025-01-25T15:11:23.000Z",
-          "wordCount": 742,
-          "title": "买 Mac 电脑，一定要把所有预算堆到内存上，一定一定记住。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107850",
-          "author": "box2233",
-          "description": "box2233: 老家新房子\n光猫、路由器和机顶盒都是移动的\n路由器里面甚至不给你拨号的选项\n只能在桥、路由和无线中继里面选\n只能在桥、路由和无线中继里面选",
-          "link": "https://www.v2ex.com/t/1107850",
-          "publishedOn": "2025-01-25T14:44:57.000Z",
-          "wordCount": 362,
-          "title": "新房子網絡設備全移動，求破局方式",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107849",
-          "author": "NewMoorj",
-          "description": "NewMoorj: 翻了翻各种信息，好像还是没说明白啊？",
-          "link": "https://www.v2ex.com/t/1107849",
-          "publishedOn": "2025-01-25T14:42:15.000Z",
-          "wordCount": 433,
-          "title": "肯尼迪事件解密了，凶手是谁？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107846",
-          "author": "songweibiao",
-          "description": "songweibiao: \n你有没有过这样的困扰：和 AI 讨论复杂任务时，一开始搭建好的整体思考框架，讨论到后面却忘得一干二净？别担心，救星来啦 ——Thinkmind V1.0 浏览器插件，专为拯救混乱思维而生！\n现在已上架 edge 扩展商店，欢迎大家体验，吐槽、提建议！安装链接： https://microsoftedge.microsoft.com/addons/detail/ceffgmeepalinmgmfmhlabkjicoppohc\n一、Thinkmind V1.0：思维导图界的宝藏工具\nThinkmind V1.0 是一款简洁又高效的思维导图工具，能让你的思维瞬间变得井井有条，创意也能不受束缚地自由驰骋！不管你是职场达人、学生党，还是创意工作者，它都能成为你的得力助手。\n二、功能强大到超乎想象\n（一）文件管理超省心\n轻松实现文件的创建、打开和删除，操作简单易懂，就像在自己的电脑桌面整理文件一样方便。\n支持文件备份导出和恢复导入，再也不怕数据丢失！无论是换设备还是误操作，随时都能找回重要内容。\n自动保存功能超贴心，无需手动操作，你每一次的修改都会被稳稳记录，创作过程毫无后顾之忧。\n（二）需求管理超灵活\n多级需求层级结构，满足你从宏观规划到细节把控的所有需求。无论是大型项目的复杂规划，还是日常任务的简单梳理，都能轻松应对。\n支持需求的添加、编辑、删除，还能通过简单的拖拽进行排序，让你的思路调整更加随心所欲。批量删除功能更是能一键清理不需要的内容，高效又便捷。\n（三）编辑功能超实用\n自动分行：一大段内容，贴入，自动分行。\n每个需求支持最多 100 字符的描述，简洁又能抓住重点，帮助你快速记录关键信息。\n可以标记需求完成状态，任务进度一目了然，轻松实现自我监督和管理。\n子需求快速生成，思维拓展更顺畅，随时捕捉灵感火花，不让任何创意溜走。\n（四）界面设计超惊艳\n简洁现代的界面设计，摒弃繁杂元素，让你专注于内容创作，减少外界干扰。\n流畅的交互动画，操作起来丝滑无比，为你的使用过程增添乐趣。\n清晰的层级导航，让你在复杂的思维导图中也能快速找到自己需要的内容，轻松实现思维跳跃。\n（五）数据存储超安心\n本地存储，无需联网！不用担心网络问题影响使用，随时随地都能打开插件继续工作，保障你的隐私安全。\n支持数据的导入导出，方便你与他人分享或在不同环境下使用，轻松实现数据迁移。自动保存所有修改，每一次思考的成果都不会被辜负。",
-          "link": "https://www.v2ex.com/t/1107846",
-          "publishedOn": "2025-01-25T14:01:53.000Z",
-          "wordCount": 388,
-          "title": "还在为思维混乱发愁？这款神器帮你一键梳理！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107845",
-          "author": "fumer",
-          "description": "fumer: \nb 端比如用 admin 到还比较合理\nc 端用 client ，customer ，front ，好像都不大合适",
-          "link": "https://www.v2ex.com/t/1107845",
-          "publishedOn": "2025-01-25T13:40:37.000Z",
-          "wordCount": 433,
-          "title": "大家对 b 端， c 端的英文词汇一般用什么来表达",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107844",
-          "author": "LotusChuan",
-          "description": "LotusChuan: \n今天闲着看了支付宝账单，发现每隔一周就有笔 68 元的 App Store 消费记录，最后确定是因为给妹妹买 iPad 时为她注册了 Apple ID 并绑到了我的家人账号中，她通过 App Store 订阅了一个游戏内购项目，而支付走的是我的账号，由于我的支付宝设置的 Apple 免密支付所以可以直接扣款，又因为扣款回执发到的是妹妹的 Apple ID 上，所以我完全不知情。\n损失是 800+。这套操作下来我感觉也挺强的，想了下达成这种效果需要所有环节都做对（做错？）。\n苹果注册的未成年账号是默认开启购买软件和内购权限的。\n我有 iCloud 订阅，支付宝在 iCloud 订阅开启后免密支付不能关闭。而未成年账号用的是同一个 Apple 支付免密入口，因此想关闭未成年账号的免密支付需要同时关闭我的免密支付，也就是得把我的账号的 iCloud 也挺掉，这显然不现实。（我尝试单独关闭未成年账号的免密支付，提示有 iCloud 订阅所以不能关闭，如果有其他办法可以在回复提下解决方案🙏）\n苹果未成年账号购买软件和内购不会给监护人账号发账单，监护人也完全查不到相关信息。\n在最初注册未成年账号时我关闭了购买和内购软件权限，但是现在发现又开启了，之前购买软件会向监护人账号发一个申请，这个 iMessage 聊天记录我还能查到，所以现在不清楚是我什么时候手动开启的还是设置被重置了。\n所幸损失并不大，小孩也沟通过了，权限也重新设置了。唯一蛋疼的是支付宝中未成年账号的免密支付还是不能关，导致我现在总感觉以后还会发生这种事。各位如果有绑未成年账号的可以也看看权限设置得怎么样，查下账单是否有异常。哎快过年的这还被爆下金币，也是有点无语。",
-          "link": "https://www.v2ex.com/t/1107844",
-          "publishedOn": "2025-01-25T13:39:22.000Z",
-          "wordCount": 591,
-          "title": "快过年发现被妹妹和苹果联合爆金币了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107842",
-          "author": "pengyuedenai1234",
-          "description": "pengyuedenai1234: 本人 e 人一枚，从大学毕业参加工作之后，发现身边的同事都是已经结了婚生了小孩。所以工作了几年都没有参加过婚礼，没有吃过喜酒。\n最近，在朋友圈刷到了我一个朋友发的结婚请帖，婚礼的举办的地方离我住的地方也不远。但是那个朋友我和她也不是很熟悉。就是四年前在一个兴趣交流群里面加的好友。也没有说过几句话。然后互相在彼此的朋友圈静静地躺了四年。\n我思来想去，还是打算参加她的婚礼，我工作的地方都是一些年纪很大的已经结婚的人，很少新来的年轻的人。因为年龄的原因很少与他们有很多共同的交集。我在工作的时候很少有机会去新结交一些同龄的朋友。想通过这场婚礼去结交一些同龄人的朋友。扩宽一下我的社交面。本人也喜欢交朋友。认为多认识一些人也更好，多个朋友多条路。\n我也对美食比较感兴趣。平时社交面比较少。基本上没怎么去外面吃过饭。(去外面吃饭最好请几个朋友一起去，一个人去外面下馆子吃饭没什么意思)，想通过这次婚礼好好的吃一次美食。丰富一下我的胃口。\n网上的人说我这样做是在浪费钱，参加婚礼没意义。但是我还是很想去。想通过这次婚礼看看能不能结交一些年龄相近志同道合的朋友。请问这个婚礼我应该去参加吗。去参加不怎么熟悉的人的婚礼应该注意一些什么。我觉得去一次也花不了几个钱。按照我们当地风俗也就随个 100-200 元的份子钱。",
-          "link": "https://www.v2ex.com/t/1107842",
-          "publishedOn": "2025-01-25T13:30:43.000Z",
-          "wordCount": 521,
-          "title": "第一次参加不怎么熟悉的人的婚礼，应该去注意什么。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107840",
-          "author": "foufoufm",
-          "description": "foufoufm: \n还是 boss 直聘、猎聘、智联三件套吗？\n或者兼职什么的也可以",
-          "link": "https://www.v2ex.com/t/1107840",
-          "publishedOn": "2025-01-25T13:17:48.000Z",
-          "wordCount": 429,
-          "title": "目前找工作最好的方式是？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107839",
-          "author": "MissAW",
-          "description": "MissAW: 首先，今天在黄鱼买了超密进到移动光猫后台，与网上流行的方案（新增 WAN 连接然后各种设置，同时删除 TR069 ）不同，按照卖家指导，进入网络》宽带设置，直接打开已存在的网络连接‘2_INTERNET_B_VID_101’，然后把封装类型从‘PPPoE’改为‘IPoE’，业务类型从‘路由’改为‘桥接’，最后，设置小米路由器 PPPoE 拨号，打开 IPV6 。结果，成功了！\n不过，相比网上教程，我有些地方不太理解，希望 V 神解释下，谢谢！\n1. 请问，光猫这个‘IPoE 桥接’与传统的‘PPPoE 桥接’有什么区别吗，是否对我后期的网络使用以及网络设置有影响（比如使用旁路由或者 OP 主路由）\n2. 把现有的 101 连接更改'IPoE'和‘桥接’后，按照卖家指导没有勾除'DHCP sever'，但我看网上添加新连接的方法，新连接是勾除了'DHCP sever'的，请问我现在是否应该勾除掉？然后需要再设置路由器吗？\n3. 我看 IPoE 的 MTU 和小米路由器 MTU 是不同的，这个有没有什么问题？\n4. 本想按照网上的教程通过 F12 去删除 TR069 和远程 RMS 服务器，结果 F12 打开控制台完全没有什么按钮的 disable 属性，虽然不太懂，但我感觉应该是移动做了什么设置封了这个方法，不知道海有没有其他方法删除啊，然后如果不删除的话，后续移动是否又会把我的桥接改回去？卖家说不会。。\n5. 除了开始提到的光猫的两个改动，其他选项完全没动过，比如端口绑定，VLAN ID ，QoS 这些，请问还有没有什么需要设置的啊？太简单了有点慌。。\n6. 现在 IPV6 打开了，是否还需要再向移动申请才有公网 IP 呀？请问一般以什么方式和理由能够申请到啊？",
-          "link": "https://www.v2ex.com/t/1107839",
-          "publishedOn": "2025-01-25T13:12:27.000Z",
-          "wordCount": 548,
-          "title": "四川移动宽带，烽火 HG5043F 光猫改桥接和 IPV6，神奇方法与疑问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107837",
-          "author": "annoygaga",
-          "description": "annoygaga: \n如题，有哪个还不错的 LLM ，希望可以部署在手机（最新 CPU 手机）或者本地 PC 上？\n目前看到的都还是大模型为主的 ranking",
-          "link": "https://www.v2ex.com/t/1107837",
-          "publishedOn": "2025-01-25T12:42:16.000Z",
-          "wordCount": 404,
-          "title": "🦙 对话效果最好的 7B/1.5B 模型大家用的哪个？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107835",
-          "author": "mino0885",
-          "description": "mino0885: mac screen sharing app 使用高性能模式连接另一个 mac 在使用 surge ponte 情况下 不可用\n通过标准模式连接可以连接。证明 surge ponte 配置本身好像没有问题。但是标准模式会打开被控机器的屏幕。\n尝试过在路由器转发里加入 5900 5901 5902.不通过 sruge ponte 但是还是不行。\n大家有遇到过这种情况吗？",
-          "link": "https://www.v2ex.com/t/1107835",
-          "publishedOn": "2025-01-25T12:02:22.000Z",
-          "wordCount": 406,
-          "title": "mac screen sharing app 使用高性能模式连接另一个 mac 在使用 surge ponte 情况下 不可用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107834",
-          "author": "546L5LiK6ZOt",
-          "description": "546L5LiK6ZOt: \n最近 qdii 限购严重，发现国内一些红利指数年化收益率可以赶上标普 500 ，遂想要挑选些红利指数基金。但是发现很多平台（雪球、同花顺、wind 、choice ）的指数 pe 估值都是简单的 sum(成分股市值)/sum(成分股净利润) ，没有考虑成分股权重。中证官网的指数估值不是 ttm ，有点滞后。我希望的指数估值包括 pe 和股息率，以及对应的历史分位数。其中 pe 是考虑权重的滚动市盈率，不剔除亏损公司。不知道有哪家平台可以查看这样的数据？",
-          "link": "https://www.v2ex.com/t/1107834",
-          "publishedOn": "2025-01-25T11:59:01.000Z",
-          "wordCount": 414,
-          "title": "指数估值哪家准",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107833",
-          "author": "perpetually",
-          "description": "perpetually: \n0 公司地址在南山区南山云科技大厦附近\n1 不要求有地铁，距离公司方圆 8km 以内，城中村也可\n2 骑电驴通勤 30 分钟以内即可。\n3 要求一室一厅，能做饭，预算 1500-2000\n4 房子干净整洁，不要太脏乱差了",
-          "link": "https://www.v2ex.com/t/1107833",
-          "publishedOn": "2025-01-25T11:51:10.000Z",
-          "wordCount": 366,
-          "title": "深圳南山租房求推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107832",
-          "author": "RedisMasterNode",
-          "description": "RedisMasterNode: \n大家新年快乐！按照习惯之前每年都会给同事发开年红包（广东这边一人几十块图个喜庆，不值钱，勿喷），现在远程办公了，想给同事也发点类似的新年''红包''，大家有什么建议吗？\n需求：大概 20 份\n价值：每份 5-10 欧或者 USD 左右\n特殊需求：远程办公实物就不考虑了，虚拟物品比较合适！\n胡乱想的备选：youtube 会员？ netflix ？或者类似的？ amazon 购物卡？\n对国外这些东西了解确实比较少，同事分布欧美，希望有熟悉的朋友可以提供一点建议，非常感谢！价值超一点也没关系，20usd 的话，也可以减少份数做个抽奖。",
-          "link": "https://www.v2ex.com/t/1107832",
-          "publishedOn": "2025-01-25T11:44:37.000Z",
-          "wordCount": 515,
-          "title": "新年快乐！远程办公，想给国外同事发礼物，发什么好呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107831",
-          "author": "Raynard",
-          "description": "Raynard: 有一户，经常在小区里面摆摊，把液化气罐放到楼道口，甚至扯线吧冰柜放到楼栋通风井里，\n和他当面对线很多次了，他家里人多，并且不讲理，吵架实在吵不过\n物业多次协调也管不了，\n怎么弄呢……\n我有家有业的也不敢撕破脸，目前房价跌了不少，卖了就得赔不少",
-          "link": "https://www.v2ex.com/t/1107831",
-          "publishedOn": "2025-01-25T11:41:53.000Z",
-          "wordCount": 567,
-          "title": "如何整治小区里没素质的人？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107830",
-          "author": "Inzufu",
-          "description": "Inzufu: 如题，今天在 Settings > Network & Internet > WI-FI > Manage known networks 里发现了重装系统前的 WIFI 信息，这些信息是通过微软账号同步的吗？如果是的话我感觉应该是刚刚加上的，因为很早前链接的 WIFI 信息没有被保存。\n我翻了中文和英文的微软论坛，有一些用户都反映过这个问题，但都没有明确的答复。",
-          "link": "https://www.v2ex.com/t/1107830",
-          "publishedOn": "2025-01-25T11:25:30.000Z",
-          "wordCount": 420,
-          "title": "Windows 会自动同步 WIFI 密码吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107829",
-          "author": "qichunren",
-          "description": "qichunren: 虽然我 2024 年我在 A 股赚了 20 万，但是我的内心没有什么波澜，甚至还有一些焦虑。我思索了好久，明白了这是靠运气赚来的钱，特别是在大 A 。\n要是我靠写项目项目赚到 20 万，那估计带来的反馈截然不同。",
-          "link": "https://www.v2ex.com/t/1107829",
-          "publishedOn": "2025-01-25T11:18:29.000Z",
-          "wordCount": 502,
-          "title": "2024 年我在 A 股赚了 20 万",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107828",
-          "author": "PeiXyJ",
-          "description": "PeiXyJ: \n每次开始学前端就感觉好复杂?\n没有任何头绪现在感觉想学前端急要 HTML JS CSS VUE VITE 构建...还有 tailwind 还要不要学?\n大佬们有没有什么学习路径呀?",
-          "link": "https://www.v2ex.com/t/1107828",
-          "publishedOn": "2025-01-25T11:14:16.000Z",
-          "wordCount": 491,
-          "title": "一个后端开发想学前端开发我究竟该学哪些东西?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107827",
-          "author": "narip",
-          "description": "narip: \n如题，本人本科就读于某 985 院校（非 C9 ），学的是计算机。毕业以后因为个人爱好，转去了另外一所 985 （仍非 C9 ）高校做物理（纯理论，非应用）的科研。预计明年 2026 博士毕业，毕业之后就差不多 28 岁了。目前科研的成果不是特别好，比毕业的要求好一点点，但好得并不是很多。最近在琢磨毕业以后的工作和就业。我个人感觉大致有三个方向，其中有个想转码做计算机老本行的想法，想听一下大伙的意见。\n第一个方向就是继续做科研，争取找个高校的教职。关于这一个方向，有以下几点顾虑：\n预计毕业的时候可以比毕业要求多 1-2 篇文章（多的第一篇文章还没有写完，多的第二篇“文章”暂时还是一个想法，大概率可行，但不确定），但是估计 2026 年毕业的时候应该直接找不到 211 或者双非一本的教职（还没有太了解专科院校的情况，没有认识的人可以提供这方面的信息）。所以，如果继续做科研的话，是计划把这两篇文章做完之后争取申请国外的博士后职位（是否可以申请上的不确定性比较大）。在博士后出站之后再申请高校的教职。但是从网上了解到的信息和我个人获取的信息，过去几年（因此可见将来几年）高校招人的要求每年都有较大提升，所以博士后出站之后即使自己更厉害了，但是是否可以找到 211 或者双飞一本的教职依旧不太确定。\n我可以接受最后去处的不确定性，毕竟现在时代变化都非常快。但是我主要感觉投入和回报完全不成正比，没有很大的动力向前冲。即便冒着很大的风险，很大的不确定性，最后拿到了某 211 或双飞一本大学的讲师，其待遇也是不太好的。讲师的待遇加上年终一个月估计都没有 10k （家乡在重庆，主要从网上了解的待遇情况，不过讲师的待遇在全国各地都不高），而且有可能还是非升即走。再熬几年成副教授，一个月才有可能月入 10k （这一点已经满足了）。但不知道这么多年下来，高校是否会变成没有编制了，定期都要考核。感觉我的要求也不是很高，只想要保底一年 12w 就满足了，前提是工作比较稳定。\n第二个方向就是去当中学老师。这个方向的顾虑主要还是集中在薪资，看网上谈论的教师一个月工资可能也没有 10k 。薪资需要职称和工龄来提上去。不过看现在的出生人口，不知道到时候教师的工资会不会还要降。薪资是这个方向的主要顾虑。当然，这个方向也需要付出很多时间准备：需要一次性拿下教师资格证和具体市区的教育事业单位组织的考试。\n第三个方向就是转码了。这个方向的顾虑就是，以我现在的履历，是否 2025 年的 9 月份秋招拿 offer 太困难（博士非科班，本科虽然是科班，但是年龄相比本科为大龄）。现在马上 2 月份，距离 9 月初也就还剩 6 个月的时间，刚好半年。之前本科学的专业课有一些还记得，但是都模模糊糊，还是得重新再过一遍（可能根据牛客网的一些经验筛选一些重点），有很多细节当时应该也没有完全弄清楚。科研期间倒是有写代码，但是用的是 Matlab ，应聘用不上。如果转码主攻开发，选一门语言（ Jave 或者 CPP? 本科大一学的是 Java ）熟悉熟悉，然后看能不能尽量找到一点空余时间做一个项目放到简历里面，不过项目应该不会非常高大上，因为时间上感觉可能来不及。找实习应该是没时间了。如果转码算法岗位，感觉 6 个月搞不定，不是很确定学习路径，不大敢尝试。\n以上就是个人认为的就业可能的三个方向，希望大伙可以提提转码的意见😊。",
-          "link": "https://www.v2ex.com/t/1107827",
-          "publishedOn": "2025-01-25T11:09:58.000Z",
-          "wordCount": 794,
-          "title": "28 岁转码建议？",
           "imageUrl": null
         }
       ]
