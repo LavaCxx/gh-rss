@@ -151,6 +151,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -290,7 +307,7 @@
           "description": "ysxb1145: \n如题，问一下大佬们有没有适合计算机小白的入门读物，能激发兴趣更好，对过是个妹子，感觉不应该像爷们一样😂",
           "link": "https://www.v2ex.com/t/1108010",
           "publishedOn": "2025-01-26T15:17:02.000Z",
-          "wordCount": 417,
+          "wordCount": 421,
           "title": "求推荐计算机小白入门读物",
           "imageUrl": null
         },
@@ -330,7 +347,7 @@
           "description": "importmeta: \n设置 隐私设置 系统权限 相册权限 允许识别并分析相册内容.\n我是怎么发现/怀疑的?\n那天晚上给我推荐了跟我长得神似的一个主播, 我前两天自拍了好多照片.\n然后引起了我的警觉, 翻到了这个配置.\n要是真的作恶, 迟早天收.",
           "link": "https://www.v2ex.com/t/1108003",
           "publishedOn": "2025-01-26T14:09:45.000Z",
-          "wordCount": 537,
+          "wordCount": 539,
           "title": "抖音默认会扫描你的相册",
           "imageUrl": null
         },
@@ -390,7 +407,7 @@
           "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
           "link": "https://www.v2ex.com/t/1107992",
           "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 490,
+          "wordCount": 503,
           "title": "有没有人评论一下日本本地人的居住水平",
           "imageUrl": null
         },
@@ -520,7 +537,7 @@
           "description": "billlee999: \n楼主之前用的都是 12, 最近想着换一台新的手机, 于是就买了台 16plus\n由于 12 之前都是楼主都是用安卓机, 所以没有 i2i 数据转移的经历, 之前道听途说这个转移非常方便, ‘甚至没有买新手机的感觉’, 于是就体验了一下 (其实也没得选)\n结果完犊子了, 首先先是用 12 传给 16, 结果到最后一步可能是连接断了还是什么, 必须得把 16 还原了 (?)\n我心想好吧, 可能是 ios 固有的一些问题, 就重试了一下, 结果还是要还原...\n到这已经有点燥了, 还原之后我就选了 iCloud 恢复; 结果更难受了: 主页面是进去了, 由于要同步的数据太大了, (基本上) 所有的 app 都用不了 (甚至原生的), 能用的只有电话, 连短信都发不了! \n到这里真的是想问候一下 Apple 的工程师了, 对数据的恢复完全没有一个先后顺序的吗? 不能先保证用户的基础功能可用, 再同步那些 ‘可有可无’ 的数据吗? 为什么不能设定数据的先后恢复顺序?\n对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!\n似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下",
           "link": "https://www.v2ex.com/t/1107977",
           "publishedOn": "2025-01-26T10:46:24.000Z",
-          "wordCount": 728,
+          "wordCount": 742,
           "title": "新旧 iPhone 的数据转移真是折磨...",
           "imageUrl": null
         },
@@ -560,7 +577,7 @@
           "description": "HOMO114514: \nJellyfin 现在已经是最强的媒体服务器，没有之一。但作为一个新兴开源项目，它的客户端仍在持续地进化，各种派系和解决方案仍未完成大一统，远未达到像 Netflix 那样一站式点开即享的水平。\n在大约一年以前，我曾经自己总结过关于Jellyfin 的客户端和媒体内核的二三事。但是，那个时候我用的是 iPhone ，对 Android 那边具体的客户端了解不深，直到去年下旬我换了 Android 手机，评测了一圈之后发现那时客户端阵营真的很糟糕，可以说是基本没有一个能用的。\n到了 2025 年，情况发生了一些变化：\nYamby 作者因为 Google 商店账号被封，交涉最终失败，加之其他原因决定将 99%的付费功能放出，相当于宣布免费\nVidHub 在 24 年 10 月左右登陆安卓，在持续迭代后，与 2025 年 1 月 23 日更新1.1.8 版本正式支持媒体服务器\nFindroid 项目正在使用 Jetpack Compose 重构前端界面，可能即将焕然新生\nJellyfin for Android 官方客户端已经修复了 External Player 无法传送字幕文件的问题\n一路坎坷，终见曙光。作为一个小规模（约 100 人）服务器运营者，一直在持续关注相关的动态，并且对每一个客户端都会进行深度地使用，到现在我的手机里同时存在高达 5 个 Jellyfin 的 app 。于是，我总结了一些主流客户端的对比，大家参考选用。\n前提说明\n在 Android 端，经过多方综合考虑，我认定 mpv 为唯一的播放器后端，不采用 mpv 的客户端不作考量，理由如下：\n解码格式已经全覆盖，复杂特效 ASS 字幕也已完全支持，同时对于 Dolby P5 片源也具备下映射到 SDR 的能力\nHDR 回放的用户需求在我这非常非常少，而且主力观看用户都在看番，内容…",
           "link": "https://www.v2ex.com/t/1107970",
           "publishedOn": "2025-01-26T09:45:26.000Z",
-          "wordCount": 754,
+          "wordCount": 758,
           "title": "2025 年 Android 主流 Jellyfin 客户端一览",
           "imageUrl": null
         },
@@ -620,7 +637,7 @@
           "description": "Acheao: \n2022 年的时候我劝朋友抄底比特币，并拿到 2024 年。那段时间价格在 1.7 万美元到 3 万美元之间。然而没有人听我的，有人还对我冷嘲热讽。而我自己计划投资 4 万块，并拿到 2024 年。最终因为国内监管变严格以及手头上的闲钱不多，只投资了 1.6 万（我从不担心比特币的价格会崩，但是我担心法规的和随意执法还有交易所跑路）。由于中间交易过，换了一半以太坊，目前总价在 5 万块左右。下面说说我为什么看好比特币，并预测其总市值将超越黄金的原因。\n货币和金融资产的本质是信息和账本，用来记录持有者占有的社会财富和资源\n黄金的工业价值支持不起现在的价格，因此黄金具备金融属性\n黄金是总量有限，去中心化的资产（表现在世界上任何国家和地区都有可能发现金矿）\n比特币是总量有限，去中心化的账本，在现存加密货币中取得最广泛社会共识（解决了很多人说我也可以发行猫币，狗币，A 币，B 币的问题），因此可以视为剥离了工业价值的黄金。\n黄金和比特币总量有限的特点，导致天然通缩。因此不适合日常交易流通，所以比特币只能成为金融资产，即数字黄金，而无法成为流通货币。\n基于第 5 点，比特币挑战的是黄金的地位而不是美元\n比特币比黄金流动性强，更方便交易、携带和分割，防伪性强\n基于以上 7 点，预测比特币总市值将超越黄金。\n最后如果你因为我的分享而赚到钱或者觉得认可的话，请往这个比特币地址打赏，当然不愿意也没关系。\n1EWk4zcRyELhnseN4eqTQ2efBbHtMBfehw",
           "link": "https://www.v2ex.com/t/1107964",
           "publishedOn": "2025-01-26T09:20:25.000Z",
-          "wordCount": 1447,
+          "wordCount": 1467,
           "title": "我为什么看好比特币，并认为其总市值将超越黄金",
           "imageUrl": null
         },
