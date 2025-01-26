@@ -157,23 +157,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -553,7 +536,7 @@
           "description": "pikachues001: \n过年回到家忽然觉得基本上没有朋友可以约出来玩，以前的朋友要么就是没有回家，要么就是有自己的事情，去年感觉还好一些，越长大越发觉得以前玩的好的朋友联系也越来越少了，所以感觉朋友越来越少，请问 v 友们你们有这种感觉嘛。",
           "link": "https://www.v2ex.com/t/1107982",
           "publishedOn": "2025-01-26T11:22:51.000Z",
-          "wordCount": 483,
+          "wordCount": 488,
           "title": "大家有没有觉得越长大越孤独？",
           "imageUrl": null
         },
@@ -563,7 +546,7 @@
           "description": "findu: \nlz 做安卓开发的，2016 年入行，能力一般。测试转开发以来一直在中小公司工作。我是双非硕，别人以为我工资两三万。\n我一直不懂行业的薪资规则（我知道根据能力来），就是不知道要多少合适。我一直觉得 1 万多的工资对我来说就很多了，每次跳槽都不敢要高，我担心实力达不到。\n得知别人毕业就 1 万 3 ，公司内运维岗位的年轻人也比自己高，心理就破防了。",
           "link": "https://www.v2ex.com/t/1107981",
           "publishedOn": "2025-01-26T11:14:27.000Z",
-          "wordCount": 437,
+          "wordCount": 439,
           "title": "程序员工资要多少合适？",
           "imageUrl": null
         },
