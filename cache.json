@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -296,7 +302,7 @@
           "description": "zachary99: 老 iPad Pro 想换个电池京东到家标准版 285 ，高容量版 335 ，不知道有没有换过的，这俩区别大吗",
           "link": "https://www.v2ex.com/t/1107932",
           "publishedOn": "2025-01-26T06:30:27.000Z",
-          "wordCount": 391,
+          "wordCount": 396,
           "title": "京东到家换电池服务如何",
           "imageUrl": null
         },
@@ -306,7 +312,7 @@
           "description": "siyemao: 背景：外包。\n时间：距离过年没两天。\n事件：突然看他被叫出去谈话，回来的时候就开始交接代码，感觉有点奇怪，一问，好家伙，项目经理以他不符合项目组氛围为由，让他下周不用来了。\n我大受震撼。\n前段时间为了赶工期，我们各种加班，一天忙到晚，现在事情刚刚告一段落，连年都没过，就让人家别来了。\n大哥说可能是因为他上班摸鱼几次被发现，上次还被单独警告过，但是我想不至于因为这种原因吧？\n更可能的是，因为项目盘子小，明年他的活不多了，干脆就借着这个理由让他走了。\n我跟其他同事都惊了，这不是过河拆桥吗？\n大哥情绪很稳定，不过我却挺心酸的，有一种兔死狐悲的感觉。\n累死累活给人干，破外包一分钱年终奖也没有，换来的是大过年丢了工作。\n说实话，就算是要降本增效，我也无法理解这种行为。\n你哪怕过完年再来这一出呢。\n可能这就是职场吧，没有人情只有利益。",
           "link": "https://www.v2ex.com/t/1107931",
           "publishedOn": "2025-01-26T06:29:07.000Z",
-          "wordCount": 458,
+          "wordCount": 497,
           "title": "新年还没到，隔壁工位的大哥被走人了",
           "imageUrl": null
         },
@@ -316,7 +322,7 @@
           "description": "zhwguest: \n这不是最好的说服教材么？",
           "link": "https://www.v2ex.com/t/1107930",
           "publishedOn": "2025-01-26T06:19:33.000Z",
-          "wordCount": 533,
+          "wordCount": 558,
           "title": "ai 我也觉得很牛，但是就是百思不得其姐姐，这么牛逼的 chatGPT 怎么不用 ai 把那个对话界面弄好点？",
           "imageUrl": null
         },
@@ -326,7 +332,7 @@
           "description": "edifier: \n请问一下安装巨魔之后，去哪里下载 app ？\n主要是想白嫖 Lightroom ，不知道有没有",
           "link": "https://www.v2ex.com/t/1107929",
           "publishedOn": "2025-01-26T06:00:15.000Z",
-          "wordCount": 413,
+          "wordCount": 426,
           "title": "请教关于巨魔的资源问题",
           "imageUrl": null
         },
@@ -346,7 +352,7 @@
           "description": "Moosems: 前因后果: https://v2ex.com/t/1107858\n平时的购物基本上都在京东平台,一直觉得京东是个值得信任的平台.\n\n感觉这些年京东口碑下降就是被这些垃圾商家给稿的.\nhttps://imgur.com/2pwjluv\n问店铺客服,店铺客服的意思说, 你买的这款本身质量就差,所以 喝着有中药味道 以及茶叶颜色是黑色也是正常的. \n商品详情页 显示的都是鲜绿的绿茶.\n避雷吧.\n# 关于茶叶大家踩过的其他坑 在下面回复吧",
           "link": "https://www.v2ex.com/t/1107927",
           "publishedOn": "2025-01-26T05:26:20.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "关于 茶叶 避雷 京东 忆江南这个品牌",
           "imageUrl": null
         },
@@ -366,7 +372,7 @@
           "description": "ricardo: \n有一台 arch linux 小主机做主路由，成都电信目前 pppoe ipv4 协议栈完全正常工作。ipv6 使用 systemd-networkd 未正常工作，路由器自己可以获取 ipv6 地址，但是无法通告 ipv6 网络给局域网。有没有朋友有类似的配置经验。\n使用 openwrt 测试 dhcpv6 获取的 Pv6-PD: 240e:XX:XX:XXXX::/60 这种地址。lan 分配的 240e:XX:XX:XXXX::1/60 但 wan 口是 fe80::XXXX:XX:6a/128 地址。",
           "link": "https://www.v2ex.com/t/1107925",
           "publishedOn": "2025-01-26T05:18:11.000Z",
-          "wordCount": 411,
+          "wordCount": 426,
           "title": "如何使用 arch Linux 、ubuntu 等非嵌入式 Linux 发行版做路由器并成功配置 ipv6",
           "imageUrl": null
         },
@@ -376,7 +382,7 @@
           "description": "magic3584: \n正在客厅坐着，突然听见呲水声，第一反应就是马桶出的问题。\n最近进水阀出问题了，马桶里水快要满的时候会有呲水的声音。出水阀也很难弹起来。我本来是打算过完年回来再修，走的时候把角阀都给关了。入户的总水阀也生锈了，无法关紧，因此我一般不去动它。\n15 块钱外卖买了条软管给换上了，然后给房东反馈了下想换个新马桶。这两天人都回老家，估计得等年后了。还好不是过年回家的时候爆掉。。。\n租住几年了，自己买了冰柜洗衣机，换过空调煤气灶抽油烟机。前几天厨房水龙头也坏了，我本来是想拆开换个阀芯的，结果都锈死了，只得整体换掉。本着给房东省钱，能换的都自己换了，然后再找房东报销😂。\n有个小插曲是外卖多给了条软管，联系了商家，说是孩子帮忙看店多给了。交待了下别为难孩子😂晚上他们再上门把管子取走。",
           "link": "https://www.v2ex.com/t/1107924",
           "publishedOn": "2025-01-26T05:16:52.000Z",
-          "wordCount": 370,
+          "wordCount": 384,
           "title": "昨天晚上，水管爆了",
           "imageUrl": null
         },
@@ -386,7 +392,7 @@
           "description": "lanrete: 十多年前买了台电脑，后来陆陆续续换了不少组件，但是系统盘一直没换，买电脑的时候是一块 128G 的 SSD 做系统盘，一块 1T 的 HDD 做存储，去年双十一又加了一块 2T 的 SSD 做存储。\n因为 C 盘的那块 SSD 实在太小了，空间老是不够用，前几年自己下了个 EaseUS PM ，按照 UI 从 HDD 里切了一小块(50G 左右)出来，本来是想要并进 C 盘空间里的，Ease US PM 给我挂成 A 盘了，下面有 A:\\Users 。我当时以为系统层面是无缝的，但 C 盘还是经常需要清理，这次想要彻底解决这个问题。\n现在的硬盘情况：\nhttps://imgur.com/a/UYH3jvw\n我想实现的效果是这样的：\n从新的 SSD 里切出一块，500G 左右，直接和原来的 C 盘合并，系统上看到一个 600G 大小的 C 盘，做尽量少的修改和迁移。\n不知道这样是不是 best practice ，还是说直接把新的 SSD 变成系统盘会更好一点？ 我不确定这样会不会需要做很多迁移，修改路径之类的问题，目前也不是很方便做备份来还原系统",
           "link": "https://www.v2ex.com/t/1107923",
           "publishedOn": "2025-01-26T05:05:02.000Z",
-          "wordCount": 453,
+          "wordCount": 470,
           "title": "一个历史遗留的硬盘分区问题",
           "imageUrl": null
         },
@@ -396,7 +402,7 @@
           "description": "SurfaceView: 两周前被优化了, 拿了 n+1 （下个月 10 号到账)\n看了下自己的社保,连续缴纳了 12 年了, 是的 自己像老黄牛一样干了 12 年了.\n2022 年的时候看了看北京的房子,当时一犹豫,没买,结果看中的几套房子在看的几个月中都降了 100-120w 附近,(总价 350 附近)，吓得我再也不考虑买房的事了\n这次失业以后想了想 既然不准备在北京买房, 也摇不到号了\n所以第一时间申请了失业金, 从下个月 15 号开始每个月有 2100+\n然后这几天一直有点睡不着的感觉, 没啥事就打打 cs, 偶尔做做 leetcode\n媳妇预产期是下个月 10 号,对于我来说 可能最好的方式就是\n在家休息,等待孩子生产,然后暂时不找工作,在家带孩子\n也算是给自己放个假\n但是现在就是一闲下来就有负罪感.玩也玩不下去, 然后 Java 和 go 那些八股文 我看了看, 要看的太多了,现在年前也看不下去, 只能硬逼着自己做做 leetcode, 这种状态特别难受...而一想到从下个月 10 号赔偿金到了以后 就再也没有工资入账了...就开始心慌\n有老哥指点下么 怎么缓解这种状态",
           "link": "https://www.v2ex.com/t/1107922",
           "publishedOn": "2025-01-26T05:01:42.000Z",
-          "wordCount": 660,
+          "wordCount": 704,
           "title": "为什么一闲下来就有负罪感",
           "imageUrl": null
         },
@@ -406,7 +412,7 @@
           "description": "doujiangjiyaozha: \n害,独立开发果然难,都在想要不要开源,就怕开源都没人想用,哈哈哈\n有感兴趣的来看看\nncurator.com",
           "link": "https://www.v2ex.com/t/1107921",
           "publishedOn": "2025-01-26T04:36:36.000Z",
-          "wordCount": 426,
+          "wordCount": 448,
           "title": "我做的一个本地知识库系统的浏览器插件,感觉不太行呀",
           "imageUrl": null
         },
@@ -426,7 +432,7 @@
           "description": "Awes0me: \n到底是谁家一天到晚非要吃糙米啊，一丁点米香味都没有，我是一口都吃不下去，而且怎么说都不肯改，就非要吃糙米。\n小时候就很讨厌吃饭，跟嚼蜡一样，完全是靠辣椒哄自己咽下去的，一直到自己上班了买了一袋五常大米，当时真的是惊为天人，原来大米可以这么香甜，哪里需要用辣椒骗舌头，所以我从一个无辣不欢的人逐渐变成不怎么爱吃辣的人了。",
           "link": "https://www.v2ex.com/t/1107919",
           "publishedOn": "2025-01-26T04:35:42.000Z",
-          "wordCount": 626,
+          "wordCount": 698,
           "title": "家里的饭是真的好难吃，不吐不快",
           "imageUrl": null
         },
@@ -436,7 +442,7 @@
           "description": "AppleLix: \n目前只发现 CSDN 有污染的模型是 deepseek ，其他模型没试过，比如搜索“xxx 开源的 github 项目”，有一半结果居然披着 Github 的 logo 点进去居然是 csdn,进去后完全跟搜索的内容无关，就算有一点关联也是进去后的 csdn 没内容的 Gitcode 开源项目。\n1.有没有从事大模型的大佬这种欺骗模型是怎么做到的？有无破解之策？\n2.建议做大模型的大佬把这种内容农场垃圾站给屏蔽掉，纯浪费用户时间",
           "link": "https://www.v2ex.com/t/1107918",
           "publishedOn": "2025-01-26T04:22:05.000Z",
-          "wordCount": 435,
+          "wordCount": 442,
           "title": "无语,万恶的 CSDN 现在已经开始污染 AI 了!大佬们怎么破?",
           "imageUrl": null
         },
@@ -446,7 +452,7 @@
           "description": "balabalaXMX: \n我用 pyexiv2 和 pyqt5 写了一个很简单的 demo ，想试一下这个打包，但是我发现在 macbook 里很容易就打出来了，把 pyexiv2 依赖的动态库 exiv2.dll 和 lib/exiv2api.dylib 加载进去就可以了，但是在 windows 下却有问题。\n问题并不是打包失败或者运行报错，而是有时候可以有时候不行。不行的时候也不报错，而是就是好像跳过那一行直接返回了。",
           "link": "https://www.v2ex.com/t/1107916",
           "publishedOn": "2025-01-26T03:53:21.000Z",
-          "wordCount": 445,
+          "wordCount": 463,
           "title": "pyinstaller 打包的奇怪问题",
           "imageUrl": null
         },
@@ -466,7 +472,7 @@
           "description": "Keystroke: \n最近我爸妈的新房子装修，为了厨房问题伤透了脑筋。\n原本的厨房太小太小了，非常非常压抑，一开始考虑开放式厨房，但是我家乡的燃气公司是不允许开放式厨房的。\n一开始想到的办法是，定制一个 L 型的 PVC 门（是固定的，不是那种拆卸应付检查的），然后平时就隐藏在两边的定制柜里。打电话咨询燃气公司，说法是 PVC 门不符合规定。\n为了让厨房没那么压抑，第二个想法是把餐厅纳入厨房，然后定制一个铝合金的折叠门，相当于把 PVC 的材质换成了铝合金，好处是满足了材质要求，并且每一扇的宽度只有 10cm ，这样折叠起来以后，我就可以隐藏在柜子里。打电话咨询燃气公司，说法是这种门不行，有缝隙，要传统的推拉门。我问，传统推拉门没缝隙是吗？不说话，总之就是不可以。\n好吧，你当官你说了算。第三个办法，终于想办法装了推拉门，然后面积太大，这扇门花了 1 万多。然后上门开通燃气，说你的门安装在这里不行，要安装在开发商规定的厨房里。说不允许扩大厨房，门安装在餐厅就是不行，扯皮很久死活不让，最后收了 3000 块小费才肯开通。\n我不知道一个小区是不是同一个人负责，保守算一下整个楼盘的小费起码是百万级别的。\n如果是我观念上存在错误或者确实有相应的法律法规，请各位指出，我虚心学习。如果我没有问题，这种情况有没有办法反制？",
           "link": "https://www.v2ex.com/t/1107913",
           "publishedOn": "2025-01-26T03:45:25.000Z",
-          "wordCount": 760,
+          "wordCount": 786,
           "title": "对于燃气公司，有没有什么反制手段？",
           "imageUrl": null
         },
@@ -476,7 +482,7 @@
           "description": "Onei: \n如题 一个电脑同时跑前后端太卡 所以用了两台电脑跑前端和后端\n\n写代码经常需要 alt+tab 切换前后端 而且在远程里 alt+tab 不到主窗口中 非常麻烦\n有没有什么软件能把被远程的主机上的程序窗口映射到主桌面上 就像 VMware 中的 unity 模式一样",
           "link": "https://www.v2ex.com/t/1107912",
           "publishedOn": "2025-01-26T03:37:54.000Z",
-          "wordCount": 444,
+          "wordCount": 446,
           "title": "windows 远程桌面程序窗口映射到主机桌面问题",
           "imageUrl": null
         },
@@ -516,7 +522,7 @@
           "description": "HeyCaptainJack: \n客户需要定制一个商城 CMS 的小程序，github 扒了一圈也没找到开源的。\npc 和 h5 的倒是挺多，小程序的为啥没有嘞",
           "link": "https://www.v2ex.com/t/1107908",
           "publishedOn": "2025-01-26T03:19:27.000Z",
-          "wordCount": 413,
+          "wordCount": 424,
           "title": "急！请问有推荐的开源小程序电商平台吗",
           "imageUrl": null
         },
@@ -546,7 +552,7 @@
           "description": "Cellinlab: \n之前在 V 站吐槽用户输入错误，最近几次交流活动被用户又吐槽了\n产品起名字一定要注意⚠️，你完全想不到用户理解的你的名字和你想表达的效果\n\n还是决定改名字了，入乡随俗，豆包、飞猪、咸鱼，小火炉！",
           "link": "https://www.v2ex.com/t/1107905",
           "publishedOn": "2025-01-26T03:13:53.000Z",
-          "wordCount": 390,
+          "wordCount": 392,
           "title": "为了更好地服务国内用户，我还是决定改名字了",
           "imageUrl": null
         },
@@ -586,7 +592,7 @@
           "description": "huntagain2008: 最近玩《王国风云 2 》经历了两次开局就入狱。第一次扮演法兰西国王，命令祭司去某地做宗教研究，结果祭司劝我改教，导致叛军四起，最终被皇帝关进监牢。第二次是英格兰国王，娶了表妹，不久后我爱上了某领地的伯爵夫人。宴会上与她热舞，多次与她亲近，一次小树林中遭遇恶狼我英雄救美，抱得美人归，一次偷情被伯爵发现（还好我跑得快），伯爵成为仇敌，接着我被自己的妻子囚禁，困于监牢，无法自赎，需要摄政王同意，而他正是被我绿帽的伯爵，最终我死在了狱中，年仅 31 岁。\n这游戏还是不会玩，我的心境出了问题，以前不会死这么快。",
           "link": "https://www.v2ex.com/t/1107901",
           "publishedOn": "2025-01-26T03:04:31.000Z",
-          "wordCount": 375,
+          "wordCount": 382,
           "title": "怀疑是我心境出了问题《王国风云 2》两次被关进监牢的悲剧故事",
           "imageUrl": null
         },
@@ -596,7 +602,7 @@
           "description": "lucasj: \n下面是我的 AI 工具组合：\n聊天：Open AI 的付费 API + 自部署 AI 客户端 LobeChat\n网页搜索：Microsoft Copilot\n写代码：GitHub Copilot",
           "link": "https://www.v2ex.com/t/1107899",
           "publishedOn": "2025-01-26T02:54:35.000Z",
-          "wordCount": 526,
+          "wordCount": 535,
           "title": "2025 年，大家都在用哪些 AI 工具？",
           "imageUrl": null
         },
@@ -626,7 +632,7 @@
           "description": "3575448925a: 之前出于兴趣安装了 kali 虚拟机，结果问题不断，现在也基本不用了，尝试删除也删不干净，有没有大佬能教教怎么删干净",
           "link": "https://www.v2ex.com/t/1107896",
           "publishedOn": "2025-01-26T02:46:39.000Z",
-          "wordCount": 441,
+          "wordCount": 446,
           "title": "怎么删除 kali 虚拟机",
           "imageUrl": null
         },
@@ -636,7 +642,7 @@
           "description": "oldking24: \n之前看到有人发这个类似于小程序短链接的文案《#小程序://支付有优惠/ChShTNTs3Pfk6Pt 》，想咨询下这种是在小程序后台生成的嘛还是在哪里，求解答方法，感谢！！",
           "link": "https://www.v2ex.com/t/1107895",
           "publishedOn": "2025-01-26T02:42:58.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "小程序短链接求解答",
           "imageUrl": null
         },
@@ -646,7 +652,7 @@
           "description": "Brixlabs: \n今年正好有一些红包封面的余额，结合蛇年就做了一条贪吃蛇送给大家。\n没什么特殊高大上的寓意，就是觉得好玩，联想到小时候玩黑白机贪吃蛇快乐的日子。\n咱们 24 年的辛苦了。努力工作，努力生活，照顾家人。所以在 25 年春节假期，别委屈自己，好好放松，吃点好的。\n祝我们在新的一年，身体和精神都被养的愈来愈充盈。\n这是红包大概的预览图👇🏻 !  !  !\n\n \n领取方式：\n直接扫图片中的二维码就可以领取\n \n如果扫码提示封面已经领完，可以点击这个链接进行领取。\n最后祝各位蛇年不卷，顺顺利利！蛇年好运“盘”到手，幸福天天“溜”！多吃点好吃的！",
           "link": "https://www.v2ex.com/t/1107892",
           "publishedOn": "2025-01-26T02:36:57.000Z",
-          "wordCount": 661,
+          "wordCount": 691,
           "title": "[🧧红包封面] 做了一款贪吃蛇像素主题红包封面，祝咱新的一年吃的盆满钵满！",
           "imageUrl": null
         },
@@ -656,7 +662,7 @@
           "description": "sxinsuoyu20: 1 、年龄越来越大了，家里有老人孩子\n2 、工作不稳定，劳务派遣，有降薪优化的风险",
           "link": "https://www.v2ex.com/t/1107891",
           "publishedOn": "2025-01-26T02:33:08.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "迷惘，除了打工，还能干点啥吗？希望大家给提点建议！",
           "imageUrl": null
         },
@@ -666,7 +672,7 @@
           "description": "foufoufm: 如题，我已经用过很多画板工具了，目前看来体感最好的竟然是飞书画板，有很多微细节：\n- 模板\n- 自动连接\n- 改变剪头方向\n- 引入图标、图片\n- 支持多种 ERD",
           "link": "https://www.v2ex.com/t/1107889",
           "publishedOn": "2025-01-26T02:07:44.000Z",
-          "wordCount": 479,
+          "wordCount": 488,
           "title": "飞书画板是不是目前最好用的白板工具？",
           "imageUrl": null
         },
@@ -676,7 +682,7 @@
           "description": "superkeke: 1 、试了小窗模式，一次只能一个小窗，这个是目前最鸡肋的地方，白瞎了那么大的屏幕。\n2 、配上键盘鼠标，类似于记忆中七八年前使用 ipad 的体验（最新的 ipadOS 没有体验过🐶），但是快捷键是单独的一套，跟 macos 完全不同，如果适应了的话应该可以接受。\n3 、试了几个 app 模拟 airplay 给 mac 做副屏，清晰度和流畅度上都很差，放弃。果然有钱的话还的上 ipad ～\n4 、屏幕素质不错、充电很快。\n5 、重，配上保护套后是真的重，比 ipad air2 重多了，毕竟屏幕大一些，长时间只能放桌子上，拿手上是不可能的。\n目前就这么多，后续摸索中。。。",
           "link": "https://www.v2ex.com/t/1107888",
           "publishedOn": "2025-01-26T01:58:29.000Z",
-          "wordCount": 554,
+          "wordCount": 599,
           "title": "由于贫穷国补买了 oppo android 平板，初步使用一天总结一下使用体验。另外用它轻办公有什么奇技淫巧推荐吗？",
           "imageUrl": null
         },
@@ -686,7 +692,7 @@
           "description": "pujx233: 能打开网页，但不管发什么内容，都会立刻回复 Something went wrong. If this issue persists please contact us through our help center at help.openai.com.\n测了一下，只有使用 O1-mini 模型的时候会有这个问题，GPT4o 和 GPT4 都是正常的，这个是我账号被限制了吗，APP 下面所有模型都是正常的",
           "link": "https://www.v2ex.com/t/1107887",
           "publishedOn": "2025-01-26T01:55:54.000Z",
-          "wordCount": 365,
+          "wordCount": 403,
           "title": "GPT O1-mini 模型提示 Something went wrong，怎么排除问题原因？",
           "imageUrl": null
         },
@@ -696,7 +702,7 @@
           "description": "shyrock: 看下有多少跟我一样苦逼的同胞。\n昨天看了高善文的演讲，觉得还是真实反映了当前经济的现状。\n看来这苦逼的日子还远未到头。",
           "link": "https://www.v2ex.com/t/1107886",
           "publishedOn": "2025-01-26T01:48:01.000Z",
-          "wordCount": 530,
+          "wordCount": 568,
           "title": "没有年终奖并且今天还要上班的兄弟来打卡了",
           "imageUrl": null
         },
