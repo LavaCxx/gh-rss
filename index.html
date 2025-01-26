@@ -761,7 +761,7 @@ lz 做安卓开发的，2016 年入行，能力一般。测试转开发以来一
 到这里真的是想问候一下 Apple 的工程师了, 对数据的恢复完全没有一个先后顺序的吗? 不能先保证用户的基础功能可用, 再同步那些 ‘可有可无’ 的数据吗? 为什么不能设定数据的先后恢复顺序?
 对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!
 似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -858,6 +858,57 @@ Jellyfin for Android 官方客户端已经修复了 External Player 无法传送
 解码格式已经全覆盖，复杂特效 ASS 字幕也已完全支持，同时对于 Dolby P5 片源也具备下映射到 SDR 的能力
 HDR 回放的用户需求在我这非常非常少，而且主力观看用户都在看番，内容…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >静かな森</button>
+                  <a class="source-heading__link" href="https://innei.in">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://innei.in/posts/tech/react-native-uikit-colors"
+                        open
+                      >
+                        <summary class="article-expander__title">React Native 实践：Colors</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/react-native-uikit-colors">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports &#x3D; function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      [&#x27;babel-preset-expo&#x27;, { jsxImportSource: &#x27;nativewind&#x27; }],
+      &#x27;nativewind/b…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2015,8 +2066,8 @@ Thank You (2024 Edition) originally published on CSS-Tricks, which is part of th
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12978772874">
-        <time id="build-timestamp" datetime="2025-01-26T22:09:26.260Z">2025-01-26T22:09:26.260Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12979185139">
+        <time id="build-timestamp" datetime="2025-01-26T23:09:31.800Z">2025-01-26T23:09:31.800Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -157,6 +157,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -456,7 +473,7 @@
           "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
           "link": "https://www.v2ex.com/t/1107992",
           "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 514,
+          "wordCount": 532,
           "title": "有没有人评论一下日本本地人的居住水平",
           "imageUrl": null
         },
@@ -536,7 +553,7 @@
           "description": "pikachues001: \n过年回到家忽然觉得基本上没有朋友可以约出来玩，以前的朋友要么就是没有回家，要么就是有自己的事情，去年感觉还好一些，越长大越发觉得以前玩的好的朋友联系也越来越少了，所以感觉朋友越来越少，请问 v 友们你们有这种感觉嘛。",
           "link": "https://www.v2ex.com/t/1107982",
           "publishedOn": "2025-01-26T11:22:51.000Z",
-          "wordCount": 488,
+          "wordCount": 490,
           "title": "大家有没有觉得越长大越孤独？",
           "imageUrl": null
         },
@@ -586,7 +603,7 @@
           "description": "billlee999: \n楼主之前用的都是 12, 最近想着换一台新的手机, 于是就买了台 16plus\n由于 12 之前都是楼主都是用安卓机, 所以没有 i2i 数据转移的经历, 之前道听途说这个转移非常方便, ‘甚至没有买新手机的感觉’, 于是就体验了一下 (其实也没得选)\n结果完犊子了, 首先先是用 12 传给 16, 结果到最后一步可能是连接断了还是什么, 必须得把 16 还原了 (?)\n我心想好吧, 可能是 ios 固有的一些问题, 就重试了一下, 结果还是要还原...\n到这已经有点燥了, 还原之后我就选了 iCloud 恢复; 结果更难受了: 主页面是进去了, 由于要同步的数据太大了, (基本上) 所有的 app 都用不了 (甚至原生的), 能用的只有电话, 连短信都发不了! \n到这里真的是想问候一下 Apple 的工程师了, 对数据的恢复完全没有一个先后顺序的吗? 不能先保证用户的基础功能可用, 再同步那些 ‘可有可无’ 的数据吗? 为什么不能设定数据的先后恢复顺序?\n对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!\n似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下",
           "link": "https://www.v2ex.com/t/1107977",
           "publishedOn": "2025-01-26T10:46:24.000Z",
-          "wordCount": 744,
+          "wordCount": 751,
           "title": "新旧 iPhone 的数据转移真是折磨...",
           "imageUrl": null
         },
