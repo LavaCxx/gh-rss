@@ -157,6 +157,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -296,7 +313,7 @@
           "description": "revival83: 实在不喜欢这个软件…",
           "link": "https://www.v2ex.com/t/1108018",
           "publishedOn": "2025-01-26T17:18:52.000Z",
-          "wordCount": 363,
+          "wordCount": 365,
           "title": "除了爱思，还有什么办法把微信降级到 8.0.54？",
           "imageUrl": null
         },
@@ -356,7 +373,7 @@
           "description": "ysxb1145: \n如题，问一下大佬们有没有适合计算机小白的入门读物，能激发兴趣更好，对过是个妹子，感觉不应该像爷们一样😂",
           "link": "https://www.v2ex.com/t/1108010",
           "publishedOn": "2025-01-26T15:17:02.000Z",
-          "wordCount": 428,
+          "wordCount": 430,
           "title": "求推荐计算机小白入门读物",
           "imageUrl": null
         },
@@ -456,7 +473,7 @@
           "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
           "link": "https://www.v2ex.com/t/1107992",
           "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 512,
+          "wordCount": 514,
           "title": "有没有人评论一下日本本地人的居住水平",
           "imageUrl": null
         },
@@ -496,7 +513,7 @@
           "description": "amiwrong123: \n看主板商品页面写的是 6 相供电。\n另外，也想问下这个主板兼容内存条的情况。（问客服，说没有兼容列表。。不行就只买海力士 A die 的好了）\nPS：硬件知识有点欠缺，正在学习中，这个问题求大佬们解答。",
           "link": "https://www.v2ex.com/t/1107987",
           "publishedOn": "2025-01-26T11:55:51.000Z",
-          "wordCount": 386,
+          "wordCount": 388,
           "title": "精粤 H610M-D plus wifi，搭 i5-12490f，能带得动吗？兼容内存条？",
           "imageUrl": null
         },
@@ -546,7 +563,7 @@
           "description": "findu: \nlz 做安卓开发的，2016 年入行，能力一般。测试转开发以来一直在中小公司工作。我是双非硕，别人以为我工资两三万。\n我一直不懂行业的薪资规则（我知道根据能力来），就是不知道要多少合适。我一直觉得 1 万多的工资对我来说就很多了，每次跳槽都不敢要高，我担心实力达不到。\n得知别人毕业就 1 万 3 ，公司内运维岗位的年轻人也比自己高，心理就破防了。",
           "link": "https://www.v2ex.com/t/1107981",
           "publishedOn": "2025-01-26T11:14:27.000Z",
-          "wordCount": 420,
+          "wordCount": 437,
           "title": "程序员工资要多少合适？",
           "imageUrl": null
         },

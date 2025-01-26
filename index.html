@@ -867,6 +867,57 @@ HDR 回放的用户需求在我这非常非常少，而且主力观看用户都�
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >静かな森</button>
+                  <a class="source-heading__link" href="https://innei.in">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://innei.in/posts/tech/react-native-uikit-colors"
+                        open
+                      >
+                        <summary class="article-expander__title">React Native 实践：Colors</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/react-native-uikit-colors">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports &#x3D; function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      [&#x27;babel-preset-expo&#x27;, { jsxImportSource: &#x27;nativewind&#x27; }],
+      &#x27;nativewind/b…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -2015,8 +2066,8 @@ Thank You (2024 Edition) originally published on CSS-Tricks, which is part of th
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12977949917">
-        <time id="build-timestamp" datetime="2025-01-26T20:11:21.380Z">2025-01-26T20:11:21.380Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12978358717">
+        <time id="build-timestamp" datetime="2025-01-26T21:09:00.771Z">2025-01-26T21:09:00.771Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
