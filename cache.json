@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=384002",
+          "author": "Andy Clarke",
+          "description": "After 20 years since Andy Clarke first published his book about Multi-Column Layout in CSS, he's back to encourage a fresh look at CSS columns for enhanced readability and design flexibility.\nRevisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/revisiting-css-multi-column-layout/",
+          "publishedOn": "2025-01-27T15:35:44.000Z",
+          "wordCount": 3610,
+          "title": "Revisiting CSS Multi-Column Layout",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384002"
+        },
+        {
           "id": "https://css-tricks.com/?p=383506",
           "author": "Preethi",
           "description": "When it comes to positioning elements on a page, including text, there are many ways to go about it in CSS — the literal position property with corresponding inset-* properties, translate, margin, anchor() (limited browser support at the moment), and so forth. The offset property is another one that belongs in that list.\nPositioning Text Around Elements With CSS Offset originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -114,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -153,23 +157,6 @@
           "wordCount": 1052,
           "title": "第206期 - 标致的狗",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -298,12 +285,242 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108131",
+          "author": "zachary99",
+          "description": "zachary99:  [手机游戏性能终极大横评！掉帧？发热？作弊？猫腻太多！-哔哩哔哩]  https://b23.tv/jtSoJ5r\n\n苹果芯片的优势很弱了，没想到的是谷歌的处理器这么拉，比华为还拉",
+          "link": "https://www.v2ex.com/t/1108131",
+          "publishedOn": "2025-01-27T15:32:24.000Z",
+          "wordCount": 351,
+          "title": "极客湾对 2024 年性能手机的评测",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108130",
+          "author": "hahawode",
+          "description": "hahawode: \n如何快速优雅干净完成安装 clash chrome everything steam firefox idm uu 加速等软件呢",
+          "link": "https://www.v2ex.com/t/1108130",
+          "publishedOn": "2025-01-27T15:25:09.000Z",
+          "wordCount": 436,
+          "title": "2025 重装 Windows 系统后如何快速安装常用软件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108129",
+          "author": "klchai",
+          "description": "klchai: \n小弟目前在一家大厂，目前有中厂的 offer ，薪资相对满意但会很卷。同时也面试了一些外企，在内推/面试时，感觉大厂有一定的背书效果。\n想问下各位如果去了中厂，在工作经历都符合的情况下，以后中厂再跳外企是否会更困难？\n感谢🙏祝大家春节快乐",
+          "link": "https://www.v2ex.com/t/1108129",
+          "publishedOn": "2025-01-27T15:20:46.000Z",
+          "wordCount": 352,
+          "title": "外企简历筛选是怎么样的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108128",
+          "author": "abcfreedom",
+          "description": "abcfreedom: \n今天放假回家过年，岳父大人开车在车站接我，结果碰到一个人开车堵在了我们车前面，我们车后面也有停着的车辆，进退两难。岳父大人礼貌请前车挪一下，那人死活不让，然后岳父大人鸣笛了两声，结果那人开始骂人，岳父大人火气一下就上来了，下车跑去跟那人理论。\n我一看架势不对，赶紧下车跟上去，拦在两人中间，避免发生肢体冲突，结果对面那人越骂越起劲，各种乱骂，岳父大人比较克制一直讲道理，最后那人家人来了劝住了走了。\n想问问 v 友们碰到这种事情怎么处理比较好，我们是被骂的一方，但是我又不能上去把人揍一顿，只能压制己方火力避免事态失控。",
+          "link": "https://www.v2ex.com/t/1108128",
+          "publishedOn": "2025-01-27T15:17:06.000Z",
+          "wordCount": 349,
+          "title": "碰到这种情况该怎么处理",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108126",
+          "author": "n2l",
+          "description": "n2l: 如题，现在的方式是换成 cat 输出文本，然后鼠标选中内容自动复制到 win 剪切板，但是这种方法不优雅。",
+          "link": "https://www.v2ex.com/t/1108126",
+          "publishedOn": "2025-01-27T15:02:20.000Z",
+          "wordCount": 386,
+          "title": "putty 连接 Linux ，如何将 vim 模式下的文本复制到 win 的剪切板中？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108125",
+          "author": "RYAN10041",
+          "description": "RYAN10041: \n最近换了新的 iPhone 16 Pro ，旧的 iPhone 13 里面有 60 多个 G 的图片视频。目前迁移以前拍摄的 livephoto 照片遇到了难题。一方面因为两台都是苹果手机均能支持 livephoto ，另一方面 livephoto 存储了动态影像资料以及声音，能够更佳还原记忆中的效果，所以不想放弃 livephoto 。\n目前我用的方法是使用 onedrive ，虽然可以以视频播放器的组件的方式查看 livephoto ，但是效果不尽如人意，而且不能自动保存到系统相册当中。\n有什么好办法能够优雅的备份或者是迁移这些 livephoto 呢？最好是还能够满足以下几点要求\n多设备之间的系统相册自动同步\n免费开源\n局域网传输，速度快、稳定性高\n本地备份到 windows 、nas 等\n支持在其他设备上预览（例如 windows ，甚至安卓手机等）\n备份其他数据（例如系统设置、日历、联系人等等）",
+          "link": "https://www.v2ex.com/t/1108125",
+          "publishedOn": "2025-01-27T15:02:07.000Z",
+          "wordCount": 430,
+          "title": "如何优雅的备份 livephoto",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108124",
+          "author": "Cineray",
+          "description": "Cineray: \n我在群晖中使用 docker 部署服务，网络 network 使用的默认的 bridge ，不是 host 也不是 bridge-host ，理论上是不是不应该可以访问宿主机网段？\ndocker 服务的 network 是默认的：172.17.0.0/16\n我任意进入在这个网路的服务，/bin/sh 去 ping - 192.168.0.0/24 的服务都是可以 ping 通的。\n然后我去 用这个 172.17.0.0/16 - ping 另一个 docker 创建的网络 172.19.0.0/16 也是可以 ping 通的,完全没有隔离，是我哪里理解错了吗？\n我之所以纠结这个问题，就是如果我的某个 docker 有漏洞，有人拿了我 docker 的 shell ，是不是理论可以随意攻击我的局域网了。\n请各位指教一下。",
+          "link": "https://www.v2ex.com/t/1108124",
+          "publishedOn": "2025-01-27T14:58:00.000Z",
+          "wordCount": 477,
+          "title": "群晖下 docker 容器 bridge 隔离网可以直接访问宿主机",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108123",
+          "author": "BruceWayne111",
+          "description": "BruceWayne111: \nMacOS14 及以前的老版本无此问题。同样的屏保 Fliqlo 当时两个显示器都好用。\nFliqlo 存在此问题，又下载了另一个屏保 Padbury Clock 也存在问题。只有系统自带的\"其他\"栏目以外的屏保可双屏正常显示。\n如果重启一次此问题会消失，但是睡眠一次后又会复现。",
+          "link": "https://www.v2ex.com/t/1108123",
+          "publishedOn": "2025-01-27T14:46:25.000Z",
+          "wordCount": 349,
+          "title": "M1 芯片 MacOS15.2 双显示器使用，第三方和系统自带的\"其他\"栏下的屏保——都只能在扩展显示器显示，主显示器无法显示。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108122",
+          "author": "SGL",
+          "description": "SGL: 场景：在外租房打工，不想配台式机，对 3a 游戏也没有兴趣。\n就是影音+Coding ，未来有经济实例了，再购置点硬件鼓捣大模型。",
+          "link": "https://www.v2ex.com/t/1108122",
+          "publishedOn": "2025-01-27T14:38:31.000Z",
+          "wordCount": 548,
+          "title": "小白请教：买一个 Mac mini M4 当服务器用，合适不。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108121",
+          "author": "wweerrgtc",
+          "description": "wweerrgtc: 昨天晚上朋友约我喝酒, 没想到是去了一家清吧\n那种点一杯酒, 喝一晚上的那种, 我觉得没啥意思还很贵, 但是朋友强烈推荐并表示他买单\n去了之后发现, 小县城的小酒馆里人还挺多, 16 个位置包括我和朋友坐了 10 个人, 旁边的大型蹦迪酒吧反而没人而打烊了\n酒吧老板是两个女生, 很漂亮, 这应该是酒吧的核心竞争力 哈哈哈\n旁边有一位客人很捧场 应该是常客, 一个人就点了三杯酒加上他的朋友们消费的酒和小吃, 应该贡献了不少营业额, 他作为\"榜一大哥\", 前台小姐姐忙完就和他们闲聊, 大哥又拿出一瓶自带的高级红酒, 平均倒了几杯酒, 也请了小姐姐喝了一杯\n一人点一杯酒, 和朋友聊了 2 个小时, 听着轻柔的音乐, 体验很不错\n我朋友表示 他也是最近几个月才尝试去清吧喝酒, 甚至有时候自己一个人去, 和前台小姐姐聊天, 我也觉得很不错, 是个适合初次约会的地方呢, 也推荐给 v 友。",
+          "link": "https://www.v2ex.com/t/1108121",
+          "publishedOn": "2025-01-27T14:27:44.000Z",
+          "wordCount": 389,
+          "title": "20250127 午夜俱乐部",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108120",
+          "author": "xiniu",
+          "description": "xiniu: \n我有一个 sim 卡，可以走国际漫游，访问国外的网站。以此为前提，有这样一个需求\n当访问国外网站的时候，走 sim 卡\n当访问国内网站的时候，走宽带服务\n目前，我找到的方法是，弄一个带 sim 卡的软路由设备，搭载 openwrt 系统，插上 sim 卡和宽带后，进行流量分流。「只是资料中查到，没有实际操作过」。\n现在想问问上述方案是否合适，如果合适，有没有这种软路由设备推荐。另外，不要推荐全局代理或者什么。这个场景就是 sim 卡和宽带服务。感谢。",
+          "link": "https://www.v2ex.com/t/1108120",
+          "publishedOn": "2025-01-27T14:25:29.000Z",
+          "wordCount": 445,
+          "title": "流量分流，国外的走 SIM 卡，国内的走宽带",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108119",
+          "author": "kongkongye",
+          "description": "kongkongye: \n我之前也不看，不刷，认为那是奶头乐，是信息茧房，只有情绪表达，只有小姐姐擦边，但现在发现那是我的傲慢与偏见。\n抖音，tiktok 的火不是偶然，是因为里面的世界真的很精彩。\n从赚钱角度，我发现直播玩的是真的花，赚钱方式五花八门，交易是那么的简单，也不用花几周几个月搞一个高大上的自嗨产品，然后发现没人用那么苦逼。\n我要脱下我技术的长衫，加入进去。",
+          "link": "https://www.v2ex.com/t/1108119",
+          "publishedOn": "2025-01-27T14:25:14.000Z",
+          "wordCount": 369,
+          "title": "来刷短视频，看直播吧，真的很好看。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108118",
+          "author": "trihuan",
+          "description": "trihuan: 10$太贵了嗯",
+          "link": "https://www.v2ex.com/t/1108118",
+          "publishedOn": "2025-01-27T14:23:32.000Z",
+          "wordCount": 375,
+          "title": "微图坊 v2ph 有替代品吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108117",
+          "author": "chengyiqun",
+          "description": "chengyiqun: 我看了网上很多帖子说的，发现不管是蓝牙还是接收器，总有人碰到偶发断联。\n更新固件可以降低概率，但不能杜绝，表现是 2 ～ 3h 会突然断开连接，然后西瓜封闪烁重连，这对很多动作游戏来说都及其讨厌。\n而且看起来买接收器也并不能彻底解决，官方也不卖接收器了，那种淘宝闲鱼上卖的几十一个的，不用想，肯定是翻新或者假货之类的，可能用的官方芯片，但可靠性没法保证。\n我倒是有个猜想，这个可能是开了手柄振动，又使用干电池供电，在电池快没电的时候，振动工作压降太严重会影响无线和蓝牙稳定性。因为上次我遇到好几次断联，把振动关闭就好很多。但是我又不想关闭。\n固件我已经更新到最新了，偶发断联并没有改善\n把 xbox series 手柄用到不工作，测量干电池开路电压发现竟然还有 1.3v ，这个手柄对电量利用能力确实不太行啊。\n也就是说，按照这个推断，我用一个锂电池充电套组可能更好？\n毕竟锂电池电压范围 2.5v 到 4.2v ，天生放电能力就比干电池强。\n要是这样我可能考虑买个充电底座套组，而不是买个接收器了。有线不考虑反正。\n看了下底座，雷蛇的太贵，八位堂的有灯效，澳加狮的有 usb 扩展看着还行\n新得利的看着不太行\n推荐哪个呢？",
+          "link": "https://www.v2ex.com/t/1108117",
+          "publishedOn": "2025-01-27T13:59:21.000Z",
+          "wordCount": 389,
+          "title": "为什么 xbox series 手柄会断连",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108116",
+          "author": "daishuge",
+          "description": "daishuge: \n家中电信升级了 129 元千兆套餐，目前 ax5 感觉不太够了\n求推荐一款路由器，满足以下要求，不分先后\n能覆盖 110 平的房子\n互联网至少千兆\n局域网最好要达到 150MB/s （有自制 nas 的打算）\n要有 ssh 权限，会运行透明代理全家科学\n感谢全能的 v 友们！各位大哥大姐新年快乐！",
+          "link": "https://www.v2ex.com/t/1108116",
+          "publishedOn": "2025-01-27T13:57:52.000Z",
+          "wordCount": 431,
+          "title": "求 v 友推荐路由器！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108115",
+          "author": "admirez",
+          "description": "admirez:",
+          "link": "https://www.v2ex.com/t/1108115",
+          "publishedOn": "2025-01-27T13:50:56.000Z",
+          "wordCount": 485,
+          "title": "初一的孩子想要学 Python , 有好的视频集合推荐吗, 孩子能看得懂的书也可以",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108113",
+          "author": "vulgur",
+          "description": "vulgur: \n2025,0120-0126\n孩子住了七天院，总算是在年前出院了。但又没真的住院，因为医院离家非常近，每天晚上打完点滴就回家了。但是每天早上还要去医院打点滴，又不得不早起去医院，被迫这一周都睡得很早。\n早起的人才能享受医院的停车位。\n我发现咖啡的戒断反应有点严重。虽然这周每天睡得早，但是早上醒来就要去医院，来不及做咖啡，医院还没有卖咖啡的自动贩卖机，点外卖的话还需要去排电梯下楼去门诊楼去取，自己又嫌冷懒得出去买，这就导致一上午都没有喝上一口咖啡，结果就是精神萎靡，浑身难受……\n\nWindsurf 一周使用\n这一周写代码的时间不多，而且 99% 的代码都是 Windsurf 完成的。\n极简时钟 iOS\n这周提交了极简时钟 iOS v4.8.1 ，更新内容就只有一个：加入了葡萄牙语（巴西）的本地化。\n一开始我是想要用 String Catalog 这个在线工具做的，但是我的免费额度用完了，继续使用的的话需要升级，最低 10 美元/月。而我上周才刚刚订阅了 Windsurf ，心想着能省就省，有什么就用什么吧。\n上个月我用 Windsurf 给安卓项目添加本地化的时候费了老劲了，不过那次是找出各个本地化语言中缺失的翻译，和这次给 iOS 项目添加一个新的本地化语言的需求还是不一样的，但是这次也是足足花了一下午才搞定。\n我的 iOS 项目的本地化字符串格式都改成了 String Catalog，其实就是把之前各个 key-value 的本地化文件都统一到了一个 json 文件里，这就导致了这个 json 文件非常大。极简时钟的本地化文件有 15K 行，Windsurf 无法一次处理完成，它就建议：\n备份源文件\n将源文件按字母拆分成四个小文件\n在小文件里添加葡语的翻译\n合并小文件成为一个大文件，并覆盖源文件\n听上去很完美，我就同意让 Windsurf 放手去干了。不…",
+          "link": "https://www.v2ex.com/t/1108113",
+          "publishedOn": "2025-01-27T13:42:02.000Z",
+          "wordCount": 524,
+          "title": "独立开发周记 102：金蛇送福",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108112",
+          "author": "Jiajin",
+          "description": "Jiajin: \nDeepSeek\n\nGPT4o\n\n通义千问\n\nGemini 版",
+          "link": "https://www.v2ex.com/t/1108112",
+          "publishedOn": "2025-01-27T13:39:57.000Z",
+          "wordCount": 403,
+          "title": "大模型混战：请按照《过秦论》的风格，写一篇过“美利坚论”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108111",
+          "author": "luoyuhao",
+          "description": "luoyuhao: \n场景是这样的，我想家里的网络：\n所有默认连入网的设备，使用运营商自己下发的 v4 和 v6 的 DNS ，不经过路由的 dnsmasq 提供的 dns 代理。\n路由的 dnsmasq 配置好了 DNS 分流，只供家里的某些设备使用。\n目前的问题是 IPv4 通过 dhcp_option 这个配置项可以做到，但是 v6 的不行（不管怎样弄拿到的都是默认的），有人试过类似的场景配置成功的吗？",
+          "link": "https://www.v2ex.com/t/1108111",
+          "publishedOn": "2025-01-27T13:25:47.000Z",
+          "wordCount": 386,
+          "title": "OpenWrt 下，静态 DHCP 分配 ipv4 的主机，能配置独立的 ipv6 的 dns 吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108110",
+          "author": "ilanting",
+          "description": "ilanting: 12 月的时候官方出了邮件 不在新境内的人银行卡要停用,说是 12 月 15 前要提交证明文件,但是到今天了  我刚试了下还是可以正常存入的,账户并没有停用,是不是默认就这样了,之前发的公告也就是发出来看看?     有没有人遇到一样的情况呀?     因为目前来说这张卡还是比较方便使用的,没有办理其他港卡.",
+          "link": "https://www.v2ex.com/t/1108110",
+          "publishedOn": "2025-01-27T13:24:41.000Z",
+          "wordCount": 488,
+          "title": "关于新加坡 OCBC 相关讨论下",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108109",
+          "author": "ljlljl0",
+          "description": "ljlljl0: 目前好像没有 ai 可以实现文字描述产品功能生成对应设计图，后续可以根据设计图来开发。\n我目前是让 ai 生成 html 来看前端效果，但是不如 figma 那种省事，自己注册后画了一下感觉不怎么好看。\nai 往这方面发展发展感觉也是一条路。",
+          "link": "https://www.v2ex.com/t/1108109",
+          "publishedOn": "2025-01-27T13:21:51.000Z",
+          "wordCount": 403,
+          "title": "产品设计图生成+ai 也是一个应用场景",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108108",
+          "author": "keppelfei",
+          "description": "keppelfei: \n团队需要一个前端，项目属于 3d 相关的 web3 项目，技术栈用到threejs和nextjs，目前已经有一个专攻threejs的队友，需要一个精通nextjs的队友，下面是要求：\n精通 HTML5 、CSS3 、Javascript 、Typescript 等前端相关技术\n熟练使用 ES6 及 git 、webpack 等工具\n熟练使用前端 React 框架及熟悉 next 框架，并对其各项机制有基本认知\n有前端组件化开发思维，且有从业务提炼出组建的能力\n熟练掌握常用前端调试工具，构建工具及性能优化工具\n加分项\n有 three.js 相关经验，场景渲染优化经验\n了解 react-native\n具有 less 、sass 和 nodejs 相关经验\n待遇的话需要跟人事面谈，有兴趣的可以发简历到邮箱：eWVmZWlAdjJzcy5jbg==",
+          "link": "https://www.v2ex.com/t/1108108",
+          "publishedOn": "2025-01-27T13:17:09.000Z",
+          "wordCount": 405,
+          "title": "[珠海] 招前端开发一个。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108107",
+          "author": "Vneix",
+          "description": "Vneix: \n如题，最好是京东自营就能买到的，谢谢。\n目的是\n内部网络：电脑手机等设备，WPA3 加密\n访客网络 1：智能家居，WPA2/WPA3 加密\n访客网络 2：客人使用，WPA2/WPA3 加密\n（不知道这样划分合理吗？）",
+          "link": "https://www.v2ex.com/t/1108107",
+          "publishedOn": "2025-01-27T12:59:25.000Z",
+          "wordCount": 504,
+          "title": "求问有没有支持两个或以上访客 WIFI 的路由器？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108106",
           "author": "pdog18",
           "description": "pdog18: \n哪怕是同一种风格，甚至外立面材料都一样的情况下都觉得二层的档次高出好几个数量级。。。",
           "link": "https://www.v2ex.com/t/1108106",
           "publishedOn": "2025-01-27T12:58:47.000Z",
-          "wordCount": 399,
+          "wordCount": 404,
           "title": "为什么我现在路过农村看到漂亮的自建房，二层的觉得很美，三层的就觉得很普通",
           "imageUrl": null
         },
@@ -323,7 +540,7 @@
           "description": "701dota2019: \n父亲是那种乱花钱大手大脚的人，学会了网购不停在网上买东西，而且还只买不会退，下午刚把他把一件大几百的衣服退了那做工就像几十块钱的，我想禁用他使用微信小程序，但又怕遇到不方便的地方毕竟很多服务都是小程序，然后他银行卡是不是也有办法管控这种行为啊，每个月发工资，他都能花光光的样子，因为和他不在一个城市，现在也比较头疼怎么遏制他这种行为，他自控力很差，听不进别人说，真头疼。。求教各位大神有没有什么办法呢",
           "link": "https://www.v2ex.com/t/1108104",
           "publishedOn": "2025-01-27T12:41:10.000Z",
-          "wordCount": 368,
+          "wordCount": 376,
           "title": "过年回趟家发现微信小程序上那么多垃圾商城平台",
           "imageUrl": null
         },
@@ -383,7 +600,7 @@
           "description": "sickoo: \n各位小伙伴，今年辛苦了\n提前预祝各位春节快乐，适当放松一直以来绷紧的神经",
           "link": "https://www.v2ex.com/t/1108098",
           "publishedOn": "2025-01-27T11:30:49.000Z",
-          "wordCount": 357,
+          "wordCount": 359,
           "title": "各位小伙伴，今年辛苦了",
           "imageUrl": null
         },
@@ -403,7 +620,7 @@
           "description": "Pandyyyyy: 在 2023 年 7 月 9 号的时候，基于 Facebook 的一款开源框架搭建了个人博客网站\n随后在 GitHub 开源，也就是 ken 这个项目： https://github.com/Penggeor/ken\n得益于持续的写作和框架良好的 SEO 功能，现在网站的月访问用户达到 900+\n可是与之相比的是，ken 目前只有 3 个 star ，不温不火\n反思了一下，虽然 ken 集成了霞鹜文楷、Giscus 、Posthog ，并且支持多个知识库和多博客，我自认为不错的东西，其他用户只需 fork 一份，就可以快速搭建自己的个人博客网站\n但我在两方面上做得不好，一个是项目启动问题，在环境变量缺失下无法启动，二是 README 写得稀烂\n有则改之，现在把上述的两个问题处理了一下，把项目启动和 README 重整了一下，并且支持 Vercel 一键部署\n现在 ken 变得非常易用了，如果你也有搭建个人博客网站的想法，不妨 try try",
           "link": "https://www.v2ex.com/t/1108096",
           "publishedOn": "2025-01-27T11:26:50.000Z",
-          "wordCount": 486,
+          "wordCount": 505,
           "title": "反思了一下维护 500 多天的开源项目",
           "imageUrl": null
         },
@@ -433,7 +650,7 @@
           "description": "uselessVisitor: 不知道有没有人能看到，我语言表达能力一般，希望大家理解，能给一些意见最好了，先谢谢各位了。\n先说一下我的个人情况吧，我来自东北的一个省会城市，家境一般，智商也一般，独生子，但是父母比较支持学习。\n毕业于一个比较一般的 211 的计算机专业，20 年毕业，目前算本 4 吧。\n由于学习能力和智商一般。（ C 语言我现在都没学明白），所以选择了 Java 开发，入门比较简单。\n工作经历如下：\n1. 2020.8~2021.5 时长 9 个月 广西某国企 薪资：5~6K 无年终奖，但有人才补贴\n2. 2021.7~2023.3 时长 1 年 8 个月，西安某车企，薪资 9K 无年终奖 \n3. 2023.9~至今，西安某外包，薪资 11K ，无年终奖\n个人总结是工作经历是比较差的，能力也一般，但是做业务还是可以的，一直做的也都是普通的内部系统，没接触过互联网。\n寻求大家帮助的理由，一是我自己的选择结果都比较差，二是感觉自己再这样混下去可能 35 就真的只能回家啃老了。\n我的一些想法：\n目前西安其实离我家也是比较远的（没有直达的高铁或动车，最快还是坐飞机），我也没有定居的欲望。\n目标城市：\n1. 北上：北京\n2. 南下：南京、苏州、杭州、上海\n3. 留在西安\n想试一下，但是不太了解就业环境以及通勤住宿等，也不知道能涨多少薪资。\n这几年生病等也花了不少钱，让我产生换工作的想法也是甲方的加班要求，一个月至少要 28H 。\n现在手里只有 10 个，换城市又是一笔开销。希望大家看到帖子能给我一些意见。。。谢谢大家。",
           "link": "https://www.v2ex.com/t/1108092",
           "publishedOn": "2025-01-27T10:39:19.000Z",
-          "wordCount": 439,
+          "wordCount": 441,
           "title": "求助职业规划问题",
           "imageUrl": null
         },
@@ -443,7 +660,7 @@
           "description": "199808lanlan1111: \n人在深圳打工，父母在家，父母关系不好，我小时候经常吵架，我是 26  父亲 60  母亲 40+，对于这个年龄段，我在过年时期做点什么能提升父母晚年幸福感",
           "link": "https://www.v2ex.com/t/1108091",
           "publishedOn": "2025-01-27T10:17:15.000Z",
-          "wordCount": 501,
+          "wordCount": 505,
           "title": "如何提升父母幸福感",
           "imageUrl": null
         },
@@ -473,7 +690,7 @@
           "description": "yuanyao: 以前的几个公司在最后一天下午三四点就会通知让大家提前下班回家过年了，现在呆的公司等到现在都没通知，看来得耗到晚上 8 点半打卡下班了，这两天也是一直摸鱼玩手游看 b 站，时间过的好慢呀！",
           "link": "https://www.v2ex.com/t/1108087",
           "publishedOn": "2025-01-27T09:41:23.000Z",
-          "wordCount": 460,
+          "wordCount": 464,
           "title": "年前最后一天你们公司让早下班吗？",
           "imageUrl": null
         },
@@ -505,226 +722,6 @@
           "publishedOn": "2025-01-27T09:03:16.000Z",
           "wordCount": 498,
           "title": "注册港区的苹果开发者账号需要身份认证吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108082",
-          "author": "RotkPPP",
-          "description": "RotkPPP: \n目前 27 岁，单纯是不想戴眼镜了，想找个时间去北大国际做近视眼手术，但是因为目前是程序员，比较用眼，想问一下那些做过的，或者本来想做但是又放弃的，给点建议。做了以后怎么规划在工作上的时间，以及会有多久的适应期，避免高强度写代码和用眼，谢谢。\n只希望能找做过或者调研过的给点建议哈，近视眼的风险，和具体的流程都在 xhs 和 b 站全方位了解过和学习过了，因为这里程序员比较多，所以特地来问问。如果还以“马化腾都戴眼镜”和“医生都不做这个手术”等等观点发表言论就不用浪费币来评论了，感激不尽。",
-          "link": "https://www.v2ex.com/t/1108082",
-          "publishedOn": "2025-01-27T08:56:15.000Z",
-          "wordCount": 513,
-          "title": "有做过近视眼手术的程序员给点建议吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108081",
-          "author": "trusky",
-          "description": "trusky: 计划 3 月份去日本旅游，会到东京，想买一部 iPhone16 pro 和 5070Ti 显卡带回来，但没有这方面经验，所以想请教下有哪些电器店可以购买呀？也不知道显卡能不能买的到。\n另外就是回国过海关是否会被税，这是不是纯看运气呀？\n感谢",
-          "link": "https://www.v2ex.com/t/1108081",
-          "publishedOn": "2025-01-27T08:27:09.000Z",
-          "wordCount": 441,
-          "title": "请教一下去日本旅游顺便购买手机和显卡回国会被税吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108080",
-          "author": "fwz233",
-          "description": "fwz233: \n写了一个的 deepseek 的 api 简易 AI 群聊机器人,腾讯 QQ 的群里机器人下载安装，和之前帖子发的版本相比，加入了联网搜索百度百科的功能，适配了 novelAI 的小说模型，可以快乐的在群内创作小说了，加入了正常聊天状态下的记忆和清楚记忆功能\n把电脑开着 QQ 挂后台就行,不像那些 QQ 机器儿项目一样又是前端又是后端,麻烦的要死,\n适合几个人或几十人的人群聊\n我自己用的 deepseek 的 api,包括最新的 R1 思考模型",
-          "link": "https://www.v2ex.com/t/1108080",
-          "publishedOn": "2025-01-27T08:18:24.000Z",
-          "wordCount": 390,
-          "title": "[R1][更新]腾讯 QQ 的 deepseek 的 api 简易 AI 群聊机器人",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108079",
-          "author": "dizhang",
-          "description": "dizhang: \n之前精品网 pt 一直不限速，拨号到非精品网会到 116.226 竞技场，后来几个月前精品网开始限速，跑测试正常，pt 基本上 1-2MB/s ，前阵子测试了下拨号到非精品网，101.229 网段，跑了几个礼拜没有限速，基本上 30-40MB/s 全天跑 pt 没事。今天继续拨回精品网，还是限速状态。\n翻了下几个月来的拨号日志，发现拨号里面经常出现 remote message :user locked ，但是还是可以成功拨上去，不知道大家有没有发现拨号日志里面的异常警报？",
-          "link": "https://www.v2ex.com/t/1108079",
-          "publishedOn": "2025-01-27T08:00:58.000Z",
-          "wordCount": 430,
-          "title": "精品网限速，非精品网不限速？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108078",
-          "author": "honword",
-          "description": "honword: \n刷题了大半年，最近打算开始投简历，顺手分享一下我从零开始刷 LeetCode 的统计数据给大家参考。\n先说一下我刷 LeetCode 的方法，我是用 NeetCode 和 Grind 整理的题单，并且会分成好几轮来刷。\n第一轮：先刷 Easy + 简单 Medium ，重点在于让自己熟悉常见的数据结构和算法（ Linked List 、Tree 、Graph 、Sliding Window...等）。\n第二轮：回头刷当初没刷完的 Medium ，并且学习第一轮跳过的较难的算法（ DP 、Greedy 、Monotonic Stack...等）。\n第三轮：把 Hard 刷完，并且复习前面所有内容。\n我目前已把第一和第二轮刷完，正要进展到第三轮，而我在前两轮的学习时间统计下来，大概各自花费了 100 小时左右（所以总共是 200 小时），如果是以一周学习 4 ～ 5 小时的话，那就是大概要准备 10 个月左右...。\n至于周赛部分我只打了 15 场左右，目前周赛分数为 1648 ，仍旧是很新手的阶段，所以也不敢说完全刷透了 LeetCode ，但仍旧希望能提供一些方向给刚开始准备刷题的人参考。\n我用的学习资源和教材：\nNeetCode 经典题： https://neetcode.io/practice?tab=neetcode150\nGrind 经典题： https://www.techinterviewhandbook.org/grind75/?weeks=26&grouping=topics\nHello 算法：hello-algo.com\nLeetCode 官方题解\n祝福大家都能够早日上岸。\nPS: 我平常也有在写技术部落格，感兴趣的欢迎订阅电子报  https://kucw.io/bio/",
-          "link": "https://www.v2ex.com/t/1108078",
-          "publishedOn": "2025-01-27T08:00:13.000Z",
-          "wordCount": 486,
-          "title": "200 小时的 LeetCode 刷题经验分享",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108077",
-          "author": "littlemcdull",
-          "description": "littlemcdull: \n在我发了啥？中产不适合移民？聊聊我为什么适合移民帖子下我发现了人性的恶，如果是分享一些他们所谓的“干货”，没人会说“推广”、冷嘲热讽，反而会使劲收藏。\n我上个帖子 36 岁本想做个独立开发，没成想润了出去 也是把我内心真实的想法表达出来，风格应该是和这个帖子一样的，有 100 个收藏，8 人感谢，5439 次点击，我估计原因就是我把各个国家的移民政策给解读了下吧（大概是好多人不知道怎么搜索信息？）。\n而今天分享的这个话题，可能是随便一个人都能聊几句，然后就开始把人性的那点恶暴露无疑了。\n我后面再也不在 V2EX 上分享了，就这样吧，再见。",
-          "link": "https://www.v2ex.com/t/1108077",
-          "publishedOn": "2025-01-27T07:51:51.000Z",
-          "wordCount": 463,
-          "title": "再见 v2ex",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108076",
-          "author": "FatChou",
-          "description": "FatChou: linksys 的 velop 路由器，过一段时间就有测速跑满，信号满格，但上网就是很慢的现象，翻了很多论坛后关掉 ipv6 后稳定了，到目前为止设备上网都没问题。\n但另一个问题来了，只是怀疑啊，之前运行得好好的群晖，在这之后每隔三四天就会出现 CPU 跑满的现象，导致群晖上的一些服务连 ipv4 也获取不到。但局域网访问没问题，公网访问也没问题。咨询过客服，说 CPU 飙这么高还是网络问题，一些服务连不上才导致的。\n我估计路由端打开 IPv6 应该能解决群晖的问题，但那样又会导致其他设备的上网问题。\n那么，我想知道 ipv6 不稳定吗？（宽带是江苏电信）有谁的家庭网络或者群晖跟我有类似问题？怎么解决？",
-          "link": "https://www.v2ex.com/t/1108076",
-          "publishedOn": "2025-01-27T07:40:39.000Z",
-          "wordCount": 356,
-          "title": "IPv6 不稳定吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108075",
-          "author": "clear",
-          "description": "clear: \n看到有人评论，说 9G 内存就够跑 Qwen 14B 了，效果直逼 o1mini ，高配 32B 都可以跑。\n求证一下，有没有大佬已经上手了，感觉怎么样。",
-          "link": "https://www.v2ex.com/t/1108075",
-          "publishedOn": "2025-01-27T07:17:57.000Z",
-          "wordCount": 392,
-          "title": "有用 Mac 跑 deepseek 模型的么，效果怎么样，有坑没有",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108074",
-          "author": "NianBroken",
-          "description": "NianBroken: \n目前我知道的有 ChatGPT 和豆包，想知道还有哪些 AI 模型也支持在快捷指令中使用呢？",
-          "link": "https://www.v2ex.com/t/1108074",
-          "publishedOn": "2025-01-27T07:10:08.000Z",
-          "wordCount": 385,
-          "title": "iOS 中支持在快捷指令中使用的 AI 大模型有哪些？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108073",
-          "author": "RichardDon",
-          "description": "RichardDon: \nSurge for Mac 版无法让另一部手机通过代理的方式，使用 telegram 。\n当我在 Mac （假设叫 A ）安装了 surge 并开启了允许 Wi-Fi 访问，在另一部手机上（假设叫 B ），两者在一个 Wi-Fi 下 。\nB 希望使用 telegram ，并且配置了 telegram 的代理服务器为 A ，在 B 上输入了 A 的 IP 地址作为代理服务器的地址，端口根据 surge 的提示，使用了默认的 6153 端口。协议时 Socket5 。\n结论是：在 telegram 上显示，一直连接不到 A 服务器。\n我测试过，如果在 B 上使用 A 提供的 Http 代理模式，B 上的浏览器翻墙没问题。目前在 A 上使用 surge 的 dashboard 监控，发现 B 设备上的 telegram 一直没有连接到 A 。\n现在搞不懂是不是 surge 的配置有问题？配置如下：\n[General]\n// General\nmacOS Only\nhttp-listen = 0.0.0.0:6152\nsocks5-listen = 0.0.0.0:6153\nexternal-controller-access = lhie1@0.0.0.0:6170\ninternet-test-url = http://www.gstatic.com/generate_204\nproxy-test-url = http://www.gstatic.com/generate_204\ntest-timeout = 3\nipv6 = false\nshow-error-page-for-reject = true\n// DNS\ndns-server = system, 8.8.8.8, 119.29.29.29, 119.28.28.28, 8.8.4.4, 1.2.4.8, 182.254.116.116\n// Advanced\nloglevel = notify\nskip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, .local, www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com.crashlytics.com, seed-sequoia.siri.apple.com, sequoia.apple.com\nexclude-simple-hostnames = true\nuse-default-policy-if-wifi-not-primary = false\n// Others\nallow-wifi-access = true\nenhanced-mode-by-rule = false\n// network-framework = true\nwifi-access-socks5-port = 6153",
-          "link": "https://www.v2ex.com/t/1108073",
-          "publishedOn": "2025-01-27T07:00:14.000Z",
-          "wordCount": 595,
-          "title": "Surge for Mac 版无法让另一部手机通过代理的方式，使用 telegram 。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108070",
-          "author": "Jinnmki",
-          "description": "Jinnmki: \n类似这种错误，我共五千多张，有 115 张导出错误，错误代码都是-1009\nhttps://discussionschinese.apple.com/thread/252047686?sortBy=rank",
-          "link": "https://www.v2ex.com/t/1108070",
-          "publishedOn": "2025-01-27T06:37:36.000Z",
-          "wordCount": 359,
-          "title": "mac 相册导出功能部分照片发生导出错误怎么办， 115 张也不好一个个解决",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108069",
-          "author": "huage",
-          "description": "huage: deepseek 不仅有详细的思考分析过程，还能给出接近完整的答案。对比之下，o1 模型经常不知所云，而且经常 down 掉，稳定性太差，没有 4o 稳定。",
-          "link": "https://www.v2ex.com/t/1108069",
-          "publishedOn": "2025-01-27T06:21:44.000Z",
-          "wordCount": 368,
-          "title": "这几天用了 deepseek R1 后，发现 chatgpt o1 啥也不是了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108068",
-          "author": "revival83",
-          "description": "revival83: 不知道换绑完影响不影响微信支付？",
-          "link": "https://www.v2ex.com/t/1108068",
-          "publishedOn": "2025-01-27T06:11:25.000Z",
-          "wordCount": 483,
-          "title": "iOS 微信换绑大湾区香港实体电话卡能开 callkit 么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108067",
-          "author": "lhsakudsgdsik",
-          "description": "lhsakudsgdsik: 今天是 1 月 27 日，上班最后一天，下午可以提前走，反正闲着没事，想着给过去的工作和生活做个小结，顺便整理下自己的心路历程。\n我大概是 2020 年步入职场的，当时大学刚毕业，做的是销售需要跑业务。公司是做 PLC 设备的，主要客户是化工、能源类的公。说白了我的工作就是陪好喝好，具体业务类的东西都是有商务那块去做的。\n那段时间我接触了形形色色的人，他们大都非常有钱，生活方式和价值观和我从小接触的环境截然不同。我家里是在菜场做生意的，从小耳濡目染的就是菜场里面夫妻间柴米油盐、鸡毛蒜皮的小吵小闹。对男女关系的认识，我听过的最离经叛道的事，也就是听说有个老板的女儿做了舞女，话传话被知道了老板就到菜场和别人闹，那时候只觉得这件事挺有意思的，直到我自己踏入社会，才发现世界的复杂远超我的想象。我清楚记得，那半年我大概是去了四五十次舞厅、ktv 、酒吧之类的地方，几乎每周两三次吧，我这里不是要说自己是被迫的还是炫耀或者又当又立那种，我就想说那段时间我确实沦陷了。\n后来呢，进了现在的公司，做环境运维工作。这是个完全不需要应酬的工作，和个夜猫子一样，主要工作时间就是夜里，然后完成一些项目的部署升级工作。转眼也做了三年多了，这三年除了完成本职工作，更多的时间是去寻找一种更充实的方式去填补生活中的空白和\"空虚\"。\n这三年,我读了将近 50 本书，内容五花八门，从地理到科学，从历史到哲学。在历史方面，我主要看了《世界通史》《中国通史》《走向共和》《觉醒年代》《东周列国传》等等。同时逛博物馆也成为了我的爱好之一，最近几年逛了至少三十个博物馆，浙江博物馆、上海博物馆、嘉兴博物馆、湖南博物馆、湘潭博物馆、南通博物苑、南京博物院、安徽博物院等等，以前大学的时候觉得博物馆是最无聊的地方，现在每次走进博物馆，我都能感受到一种跨越时空的连接，其实我觉得历史并不是遥远的过去，而是与当下紧密相连的。每一件文物、每一个故事，都是历史的碎片，拼凑出人类社会的兴衰与变迁。\n记得去齐白石故居的时候，看到关于齐白石的小故事，据说他当年办画展，赚了很多法币，结果最后那些钱却连几头牛都买不起。这个故事让我特意去看了北平无战事，还查了很多资料，了解到法币、金圆券的崩溃，还有宋氏家族的兴衰，这些也让我认识到了个人和时代的关系，经济、政治、社会等因素对个人命运的影响是巨大的。\n除了看书观展，我还喜欢上了爬山，过去一年我就爬了虞山、灵岩山、泰山、岳麓山、紫金山、栖霞山等等好几座山，完成了西湖标毅线、虞山雄鹰线，每一次站在山顶，看看风景，吹吹风，都会有种特别的轻松感，仿佛一切烦恼都可以放下。\n回头看过去这些年呢，从销售到运维，其实整个过程并不怎么轻松，期间还有很多琐事。但不管怎样，结果是好的。\n最后也想说给有相似经历的人听：我们都慢慢来，但别停下（期间其实待业了快一年）。生活总有办法让人找到属于自己的方向。",
-          "link": "https://www.v2ex.com/t/1108067",
-          "publishedOn": "2025-01-27T05:44:52.000Z",
-          "wordCount": 385,
-          "title": "从销售到运维工作总结-1.27 号上班最后一天摸鱼写写自己的感受",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108066",
-          "author": "sunny2580839896",
-          "description": "sunny2580839896: \n愤怒的父亲，哭泣的母亲，无能的我，感觉这个家庭已经支离破碎",
-          "link": "https://www.v2ex.com/t/1108066",
-          "publishedOn": "2025-01-27T05:44:41.000Z",
-          "wordCount": 934,
-          "title": "30 岁未结婚的我，父亲对我冷嘲热讽",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108065",
-          "author": "missz",
-          "description": "missz: 刚刚想试试切换至日区续费看通过汇率能否便宜一点（详情见我一年前的主题），发现与美元对标后，试图重新切回 china,结果有 30 天冷却，然而还有 6 天就需要续费了。。。",
-          "link": "https://www.v2ex.com/t/1108065",
-          "publishedOn": "2025-01-27T05:40:50.000Z",
-          "wordCount": 455,
-          "title": "jetbrains 地区切换新增 30 天冷却",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108063",
-          "author": "ggp1ot2",
-          "description": "ggp1ot2: \n年后去京都玩，飞的是大阪（因为便宜），落地时间是下午 6.30\n想问下，怎样去京都最快最方便\n另外提一句，因为有境外接送机（汇丰银行的），可以大阪接送 50km 。\n所以不知道在这个前提下，是否可以有更好的方案。\n目前看小红书是计划，接去新大阪站，然后坐新干线？\n还是说机场直达京都更好",
-          "link": "https://www.v2ex.com/t/1108063",
-          "publishedOn": "2025-01-27T05:30:24.000Z",
-          "wordCount": 646,
-          "title": "请问大阪去京都的最好方案？有接送机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108061",
-          "author": "yagamil",
-          "description": "yagamil: 除了说的便宜，成本低，实际它用多少块 GPU ，也没人知道。\n在网页上用，感受不到什么区别，总是给我错误的回复，或者打太极，反而觉得还没有豆包好。\n感觉是媒体在造势？",
-          "link": "https://www.v2ex.com/t/1108061",
-          "publishedOn": "2025-01-27T04:33:51.000Z",
-          "wordCount": 517,
-          "title": "deepseek 有什么厉害的地方？用了之后没发现有什么特别的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108060",
-          "author": "pureGirl",
-          "description": "pureGirl: 用 django celery 可以实现吗",
-          "link": "https://www.v2ex.com/t/1108060",
-          "publishedOn": "2025-01-27T04:29:36.000Z",
-          "wordCount": 571,
-          "title": "需要高并发读取 xlsx 文件存入数据库怎么处理比较好",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108059",
-          "author": "PROJECT",
-          "description": "PROJECT: 大家有这种感觉嘛？",
-          "link": "https://www.v2ex.com/t/1108059",
-          "publishedOn": "2025-01-27T04:25:27.000Z",
-          "wordCount": 382,
-          "title": "今年感觉 1 月 20 号后国际出口扩容了？以往我连到我海外 vps 总是丢包速度跑不满， 20 号后能跑满不丢包了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108058",
-          "author": "EmbraceQWQ",
-          "description": "EmbraceQWQ: 如题来吹吹水，摸摸鱼。今天还上班，能是什么好公司，赶紧来吐槽一下。\n\n摸鱼福利： https://www.girls-rating.com",
-          "link": "https://www.v2ex.com/t/1108058",
-          "publishedOn": "2025-01-27T04:09:50.000Z",
-          "wordCount": 373,
-          "title": "最后一个工作日了，来摸摸鱼，吹吹水",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108057",
-          "author": "CC11001100",
-          "description": "CC11001100: \n从早上就在用 AI 生成写页面，但是时不时卡半天没响应，或者卡半天给个固定回答，一点也不丝滑了。。。。用得好难受。。。\n \n跟 ChatGPT 当时感觉类似，ChatGPT 当时就是用的人一多就各种资源不够崩溃搞得用户也崩溃了，只好去用其他产品。。。\n现在被迫用回 kimi 了。。。",
-          "link": "https://www.v2ex.com/t/1108057",
-          "publishedOn": "2025-01-27T04:02:56.000Z",
-          "wordCount": 540,
-          "title": "全球工单系统： deepseek 是挂了吗？",
           "imageUrl": null
         }
       ]
