@@ -157,23 +157,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,12 +281,72 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108026",
+          "author": "littlemcdull",
+          "description": "littlemcdull: \n出国之前就看到很多人在说“只有穷人和有钱人适合移民，中产不适合”，今天就来聊下这个话题。\n穷人\n首先来说下穷人或者低收入的人适合移民，我感觉这就是一句正确的废话，就像说炒股票，你只要低买高卖就能赚钱一样滑稽，低买高卖当然能赚钱了，问题关键是怎么才能做到低买高卖。\n首先来说低收入的人有几个会产生“移民”的想法的？\n就算产生移民想法了，如何出去？通过劳务输出？出去了护照被收上去？这其中大概率会被别有用心的人诈骗吧，就算没被骗，后面如何拿身份？靠刷盘子是移不了名吧？各个国家对移民职业都有列表，里面压根就没有刷盘子这种职业。除了职业要求大部分国家拿身份是需要英语成绩的吧，你们觉得有几个低收入的人是能通过英语考试的？\n如果你非要说走线、黑在当地，这是非法移民，不在讨论范围内。\n有钱人\n再来说下有钱人，我当然不是有钱人，我没离职前顶多算个小康，聊有钱人的生活难免会闹出“皇帝也用金锄头”这样的笑话，但说“穷人和有钱人适合移民”的那些人他们也不是有钱人，所以我想着不妨我们菜鸡互啄一下，大家就当听个乐\n有钱人的概念太宽泛了，\n那我们就从最有钱的人开始聊，最有钱的人的生意肯定是和一个国家的国民经济深度绑定在一起了，我相信大家脑子里面已经蹦出几个名字了，你们觉得这些最有钱的人真的想走就能走的了？他能把资产带走？你要是说这些最有钱的人可以不需要把全部资产都带走，带一部分就足够生活了，我想说最有钱的人不一定比我们普通人自由多少。\n然后就再低一级的有钱人，我想这些人把老婆、孩子送到国外主要的目的是为了躲避风险吧，毕竟万一哪天进去了，至少家人还能在国外享福，这部分有钱人应该是一个人在国内捞钱，家人在外面享受，他们移民是为了避险，甚至只能只能选择出去，这和我们普通人说的移民压根就不是一个事。\n然后就再低一级的有钱人，他们享受着各种特供服务，我是实在想不出这种人有几个是想移民的…",
+          "link": "https://www.v2ex.com/t/1108026",
+          "publishedOn": "2025-01-26T21:39:54.000Z",
+          "wordCount": 446,
+          "title": "啥？中产不适合移民？聊聊我为什么适合移民",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108025",
+          "author": "readman",
+          "description": "readman: 我在美国。应该不是 VPN 问题。。。。\nqbittorrent:\n        stdin_open: true\n        tty: true\n        image: nevinee/qbittorrent:4.3.9\n        container_name: qbittorrent\n        environment:\n            - PUID=1026\n            - PGID=1000\n            - TZ=Etc/UTC\n            - QB_USERNAME=xxx\n            - QB_PASSWORD=xxx\n            - WEBUI_PORT=8080\n            - TORRENTING_PORT=6881\n            - ENABLE_AUTO_CATEGORY=true\n            - CATEGORY_OR_TAG=category\n            - CRON_AUTO_CATEGORY=32 */2 * * *\n        volumes:\n            - /volume1/docker/qbittorrent:/data/config:rw\n            - /volume5/btcache:/data/downloads:rw #optional\n        ports:\n            - 7001:8080\n            - 6881:6881\n            - 9000:9000\n            - 32109:32109\n            - 6881:6881/udp\n        restart: unless-stopped\n\n不知道该怎么办了",
+          "link": "https://www.v2ex.com/t/1108025",
+          "publishedOn": "2025-01-26T21:19:33.000Z",
+          "wordCount": 467,
+          "title": "群晖上跑 qbittorrent docker， 一直显示 \"下载元数据\", 但是用种子文件直接下载就可以",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108024",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia:",
+          "link": "https://www.v2ex.com/t/1108024",
+          "publishedOn": "2025-01-26T20:09:50.000Z",
+          "wordCount": 374,
+          "title": "现在手机游戏冷启动一个比一个慢，是否是为了延长轻度玩家游戏时间有意为之的行为？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108023",
+          "author": "dingzi",
+          "description": "dingzi: 写在 2025 ，喝了点劣质伏特加，不知怎么竟忽然想起当初第一次敲下 ssh 命令的那个深夜。屏幕里黑底白字一闪一闪，好像预示着我要踏进一扇前所未见的神秘大门。那时候，我还主要做平面设计和电商店铺运营，对服务器没什么概念，只是觉得“掌控一台远程机器”听起来很酷。结果没想到，这个貌似“酷炫”的举动，竟给我带来了一连串意想不到的折腾，也让我多年来断断续续地跟“VPS 管理”纠缠不清。\n   回顾这条路，我买过无数台 VPS：刚开始是为了搭 LNMP 环境，轻松跑个网站；接着想科学上网，就买了海外机子部署 ss 或 v2ray ，顺手还折腾过极路由的 ssh 代理；后来还玩起了私有云，囤了一堆用得着或用不着的服务器。因为我白天常常要处理设计图、做店铺文案，忙得不可开交，就很少去登录管理那些 VPS ，导致每次查账单时都会大吃一惊：“天哪，这台机子怎么又续了我几个月的钱？” 更离谱的是，我甚至不记得它的 IP ，是哪时买的、用来干什么都忘了——这不就是在给服务器商交冤枉钱吗？\n   正是为了减少这种“智商税”，我才开始在社区里寻找探针工具。2021 年，有人给我安利 ServerStatus ，说能把多台机器的状态放进一个网页里看，在线/离线、CPU 、带宽都一览无余。我装上试试，确实比我一个个终端 ssh 登录去看方便多了，哪里宕机一眼就知道。接着，哪吒探针也火了起来，据说功能更丰富。可我慢慢发现，它们都以“实时监控”为主，最多也就带一点简单的历史记录功能，却无法满足我对“过去几周甚至几个月流量”做回溯的需求。对我来说，这块才是核心：如果我能知道这台 VPS 在上个月到底有没有跑流量，我就能理智地判断要不要续费，不会再傻乎乎交钱。\n   等到 2023 年，我才碰到 Neko 探针。它最吸引我的点，就是可以保存并查看一定时长的历史流量数据。很快我就给每台 VPS …",
+          "link": "https://www.v2ex.com/t/1108023",
+          "publishedOn": "2025-01-26T20:03:14.000Z",
+          "wordCount": null,
+          "title": "写在 2025，喝了点劣质伏特加居然灵感爆发",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108022",
+          "author": "bccah",
+          "description": "bccah: 平时需要用 u 的地方比较多（日常消费和代购），感觉除了换成 cny 有点麻烦，其他地方都挺方便\n刚开始玩币的时候玩过合约杠杆，感觉大部分情况应该是亏钱。上了倍率经常会去看，不是什么大心脏选手，但市场又是 24 小时运转的。实在没能力玩这个，也不想在这方面投入太多时间。\n现在的想法是，通过交易所的稳定币（ usdt usdc dai ）活期赚币和定投一些热门的币（ eth sol btc ），有一定收益再卖掉重新定投，还有囤 bnb 拿平台奖励，以此来小赚一点。\n听说链上玩 defi 可以随便拿到超过交易所的收益，但考虑流动性和 eth 链的 gas 好像也不便宜，就没深入了。\n想请教一下有没有更好的方案，以及我现在的想法有没有什么问题。",
+          "link": "https://www.v2ex.com/t/1108022",
+          "publishedOn": "2025-01-26T19:36:26.000Z",
+          "wordCount": 357,
+          "title": "在加密货币获得收益的一些想法，求指点",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108021",
+          "author": "dayeye2006199",
+          "description": "dayeye2006199: \n我主力机常年都是 linux 。之前为了时不时打打游戏还装个双系统。这几年因为工作忙，游戏基本也没时间打了。\n最近重新捡回来一些游戏玩玩，发觉 linux 下的游戏体验非常不错。\n感谢 valve 的 SD ，proton 现在最相当多的游戏兼容非常不错。\n周末还尝试了下 GeForce Now ，只要浏览器都可以获得不错的 3A 游戏体验（我的显卡还是 1060 ），单机 FPS 都玩起来挺流畅，有极偶然的卡帧。\n感觉现在玩玩游戏完全不用装回 windows 。",
+          "link": "https://www.v2ex.com/t/1108021",
+          "publishedOn": "2025-01-26T19:25:29.000Z",
+          "wordCount": 378,
+          "title": "Linux gaming 的可玩性现在非常高",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108019",
           "author": "wodexinhaoleng",
           "description": "wodexinhaoleng: 用的 wechaty ，但是手机退出以后，服务器登的微信也会跟着退。这咋解决啊，不可能手机一直登啊，总有没电关机的时候呀。\n有没有什么解决方案可以单挂一个在服务器上，和手机不影响的？",
           "link": "https://www.v2ex.com/t/1108019",
           "publishedOn": "2025-01-26T17:26:31.000Z",
-          "wordCount": 373,
+          "wordCount": 384,
           "title": "老哥们，求教个微信机器人的问题",
           "imageUrl": null
         },
@@ -313,7 +356,7 @@
           "description": "revival83: 实在不喜欢这个软件…",
           "link": "https://www.v2ex.com/t/1108018",
           "publishedOn": "2025-01-26T17:18:52.000Z",
-          "wordCount": 365,
+          "wordCount": 401,
           "title": "除了爱思，还有什么办法把微信降级到 8.0.54？",
           "imageUrl": null
         },
@@ -353,7 +396,7 @@
           "description": "amiwrong123: \n\n风扇正反面如上。\n\n但这个接口有点不太明白了？所以这不是我们常用的 4pin 的接口吗，看起来是 3pin 接口，但是又拓展出来的这个宽大的接口又不知道干嘛用来（而且这个宽大接口的 4 个孔里，只有 2 个孔里有金属）。\nPS：这样的风扇 5,6 个，本来合计想在装机时用上。\nPSS：想买的主板上，只有两个 4pin 的风扇接口，应该是一个给 cpu 散热器，一个给机箱风扇的。",
           "link": "https://www.v2ex.com/t/1108014",
           "publishedOn": "2025-01-26T15:57:26.000Z",
-          "wordCount": 372,
+          "wordCount": 395,
           "title": "帮忙看下我这个机箱风扇是什么接口类型的？",
           "imageUrl": null
         },
@@ -373,7 +416,7 @@
           "description": "ysxb1145: \n如题，问一下大佬们有没有适合计算机小白的入门读物，能激发兴趣更好，对过是个妹子，感觉不应该像爷们一样😂",
           "link": "https://www.v2ex.com/t/1108010",
           "publishedOn": "2025-01-26T15:17:02.000Z",
-          "wordCount": 430,
+          "wordCount": 449,
           "title": "求推荐计算机小白入门读物",
           "imageUrl": null
         },
@@ -413,7 +456,7 @@
           "description": "importmeta: \n设置 隐私设置 系统权限 相册权限 允许识别并分析相册内容.\n我是怎么发现/怀疑的?\n那天晚上给我推荐了跟我长得神似的一个主播, 我前两天自拍了好多照片.\n然后引起了我的警觉, 翻到了这个配置.\n要是真的作恶, 迟早天收.",
           "link": "https://www.v2ex.com/t/1108003",
           "publishedOn": "2025-01-26T14:09:45.000Z",
-          "wordCount": 539,
+          "wordCount": 549,
           "title": "抖音默认会扫描你的相册",
           "imageUrl": null
         },
@@ -433,7 +476,7 @@
           "description": "zhwguest: \n想拿来膜拜一下，V3 和 R1 的。还有量化方案也在里面么？",
           "link": "https://www.v2ex.com/t/1107998",
           "publishedOn": "2025-01-26T13:42:24.000Z",
-          "wordCount": 380,
+          "wordCount": 388,
           "title": "deepseek 的源代码开源在哪里啊？",
           "imageUrl": null
         },
@@ -453,7 +496,7 @@
           "description": "zachary99: 支付宝付款了，好几天了完全没有后续反应。tg 群全身诈骗广告，QQ 群也禁止加入了，我在支付宝已经举报了",
           "link": "https://www.v2ex.com/t/1107994",
           "publishedOn": "2025-01-26T13:03:31.000Z",
-          "wordCount": 350,
+          "wordCount": 356,
           "title": "小黑屋作者是否已经跑路",
           "imageUrl": null
         },
@@ -473,7 +516,7 @@
           "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
           "link": "https://www.v2ex.com/t/1107992",
           "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 532,
+          "wordCount": 566,
           "title": "有没有人评论一下日本本地人的居住水平",
           "imageUrl": null
         },
@@ -543,7 +586,7 @@
           "description": "lance1ot: \n起因：收到系统通知显示账户交易违规，暂停收款功能一个月(p1)\n背景：几年前为了免手续费提现开通了商家服务\n经过：我在这个月内的交易只有 4 笔，且全是和阿里官方的交易，没有和第三方交易(p5)。这一年多来都没有使用过二维码收款(p6)。我没有任何违规/试图违规的操作。\n方案：自助解限(p2)。人脸识别+签署承诺函(p3)\np1-p2-p3\np4-p5-p6\n我不爽的点在于：我完全没有违规交易，没有收款，更没有违规收款，凭什么要我签承诺书。这就像：你去商场买东西，老板说你偷东西把你关小黑屋，但是又拿不出证据证明你偷东西，让你签《再也不偷东西保证书》，说以后如果再偷就关更久。是个正常人都不会签吧\n要求：请客服复核，要么说明我的违规操作，要么人工解除限制。（咽不下这口气）\n结果：找了两次客服，没有用，最后的解决方案要么我自己签承诺书，要么等 30 天。\n跟客服的详细对话：\n转接到二级客服，自称“洛溪”。\n我：请你查看我这个月的交易记录，有哪一笔是违规的？\n客服：有些交易记录不会显示\n我：那我怎么证明？你们系统里肯定会有详细记录\n客服：这个限制是系统多维度判断得出的结果\n我：我理解系统会犯错，所以现在我请你人工复核\n客服：您这是商家服务，系统检测您的经营模式发生了变化，请问是开餐馆还是什么？\n我：这和我违规交易有什么关系吗？我是个生意惨淡的商家，没有任何收款，这也违规了吗？\n客服：不是这个意思\n更讽刺的是，在我的收款页面下方（ p4 ），还有“邀你成为支付宝商家 收钱享提现免费”\n一直对支付宝印象都不差，结果这两天彻底改观，被恶心到了",
           "link": "https://www.v2ex.com/t/1107984",
           "publishedOn": "2025-01-26T11:33:44.000Z",
-          "wordCount": 371,
+          "wordCount": 384,
           "title": "被支付宝背刺的一次体验",
           "imageUrl": null
         },
@@ -603,48 +646,8 @@
           "description": "billlee999: \n楼主之前用的都是 12, 最近想着换一台新的手机, 于是就买了台 16plus\n由于 12 之前都是楼主都是用安卓机, 所以没有 i2i 数据转移的经历, 之前道听途说这个转移非常方便, ‘甚至没有买新手机的感觉’, 于是就体验了一下 (其实也没得选)\n结果完犊子了, 首先先是用 12 传给 16, 结果到最后一步可能是连接断了还是什么, 必须得把 16 还原了 (?)\n我心想好吧, 可能是 ios 固有的一些问题, 就重试了一下, 结果还是要还原...\n到这已经有点燥了, 还原之后我就选了 iCloud 恢复; 结果更难受了: 主页面是进去了, 由于要同步的数据太大了, (基本上) 所有的 app 都用不了 (甚至原生的), 能用的只有电话, 连短信都发不了! \n到这里真的是想问候一下 Apple 的工程师了, 对数据的恢复完全没有一个先后顺序的吗? 不能先保证用户的基础功能可用, 再同步那些 ‘可有可无’ 的数据吗? 为什么不能设定数据的先后恢复顺序?\n对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!\n似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下",
           "link": "https://www.v2ex.com/t/1107977",
           "publishedOn": "2025-01-26T10:46:24.000Z",
-          "wordCount": 751,
+          "wordCount": 760,
           "title": "新旧 iPhone 的数据转移真是折磨...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107976",
-          "author": "SSSLC77",
-          "description": "SSSLC77: 本人对房子转供这块不熟，请教下懂的 v 友，我该怎么才能将父母在供的房子转到我名下，由我来供。",
-          "link": "https://www.v2ex.com/t/1107976",
-          "publishedOn": "2025-01-26T10:41:21.000Z",
-          "wordCount": 520,
-          "title": "父母早些年买了套房，一直在供着，但是准备要转给我供了，有什么方式可以转，另外我需要提供什么材料呢",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107975",
-          "author": "wniming",
-          "description": "wniming: \n我配置好了 apt source ，可以下载例如 pciutils 这样的包的源码包，但是下载不了内核的源码包，会报如下错误：\nroot@ubuntu:~# uname -r\n6.8.0-1010-raspi\nroot@ubuntu:~# \nroot@ubuntu:~# apt source linux-image-unsigned-$(uname -r)\nReading package lists... Done\nE: Unable to find a source package for linux-image-unsigned-6.8.0-1010-raspi\nroot@ubuntu:~#",
-          "link": "https://www.v2ex.com/t/1107975",
-          "publishedOn": "2025-01-26T10:38:01.000Z",
-          "wordCount": 527,
-          "title": "ubuntu 24.04 怎么下载树莓派 5 的内核源码包？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107972",
-          "author": "cjd6568358",
-          "description": "cjd6568358: 最好是大券商，有的联系我 Y2pkNjU2ODM1OA==",
-          "link": "https://www.v2ex.com/t/1107972",
-          "publishedOn": "2025-01-26T10:24:22.000Z",
-          "wordCount": 377,
-          "title": "谁有券商万 0.85 免 5 的渠道？我要开户",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107970",
-          "author": "HOMO114514",
-          "description": "HOMO114514: \nJellyfin 现在已经是最强的媒体服务器，没有之一。但作为一个新兴开源项目，它的客户端仍在持续地进化，各种派系和解决方案仍未完成大一统，远未达到像 Netflix 那样一站式点开即享的水平。\n在大约一年以前，我曾经自己总结过关于Jellyfin 的客户端和媒体内核的二三事。但是，那个时候我用的是 iPhone ，对 Android 那边具体的客户端了解不深，直到去年下旬我换了 Android 手机，评测了一圈之后发现那时客户端阵营真的很糟糕，可以说是基本没有一个能用的。\n到了 2025 年，情况发生了一些变化：\nYamby 作者因为 Google 商店账号被封，交涉最终失败，加之其他原因决定将 99%的付费功能放出，相当于宣布免费\nVidHub 在 24 年 10 月左右登陆安卓，在持续迭代后，与 2025 年 1 月 23 日更新1.1.8 版本正式支持媒体服务器\nFindroid 项目正在使用 Jetpack Compose 重构前端界面，可能即将焕然新生\nJellyfin for Android 官方客户端已经修复了 External Player 无法传送字幕文件的问题\n一路坎坷，终见曙光。作为一个小规模（约 100 人）服务器运营者，一直在持续关注相关的动态，并且对每一个客户端都会进行深度地使用，到现在我的手机里同时存在高达 5 个 Jellyfin 的 app 。于是，我总结了一些主流客户端的对比，大家参考选用。\n前提说明\n在 Android 端，经过多方综合考虑，我认定 mpv 为唯一的播放器后端，不采用 mpv 的客户端不作考量，理由如下：\n解码格式已经全覆盖，复杂特效 ASS 字幕也已完全支持，同时对于 Dolby P5 片源也具备下映射到 SDR 的能力\nHDR 回放的用户需求在我这非常非常少，而且主力观看用户都在看番，内容…",
-          "link": "https://www.v2ex.com/t/1107970",
-          "publishedOn": "2025-01-26T09:45:26.000Z",
-          "wordCount": 758,
-          "title": "2025 年 Android 主流 Jellyfin 客户端一览",
           "imageUrl": null
         }
       ]

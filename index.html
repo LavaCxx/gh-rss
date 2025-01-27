@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-26 datetime="2025-01-26T17:26:31.000Z">2025-01-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-26 datetime="2025-01-26T17:26:31.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-26 datetime="2025-01-26T21:39:54.000Z">2025-01-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-26 datetime="2025-01-26T21:39:54.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,170 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108026"
+                        open
+                      >
+                        <summary class="article-expander__title">啥？中产不适合移民？聊聊我为什么适合移民</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108026">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>littlemcdull: 
+出国之前就看到很多人在说“只有穷人和有钱人适合移民，中产不适合”，今天就来聊下这个话题。
+穷人
+首先来说下穷人或者低收入的人适合移民，我感觉这就是一句正确的废话，就像说炒股票，你只要低买高卖就能赚钱一样滑稽，低买高卖当然能赚钱了，问题关键是怎么才能做到低买高卖。
+首先来说低收入的人有几个会产生“移民”的想法的？
+就算产生移民想法了，如何出去？通过劳务输出？出去了护照被收上去？这其中大概率会被别有用心的人诈骗吧，就算没被骗，后面如何拿身份？靠刷盘子是移不了名吧？各个国家对移民职业都有列表，里面压根就没有刷盘子这种职业。除了职业要求大部分国家拿身份是需要英语成绩的吧，你们觉得有几个低收入的人是能通过英语考试的？
+如果你非要说走线、黑在当地，这是非法移民，不在讨论范围内。
+有钱人
+再来说下有钱人，我当然不是有钱人，我没离职前顶多算个小康，聊有钱人的生活难免会闹出“皇帝也用金锄头”这样的笑话，但说“穷人和有钱人适合移民”的那些人他们也不是有钱人，所以我想着不妨我们菜鸡互啄一下，大家就当听个乐
+有钱人的概念太宽泛了，
+那我们就从最有钱的人开始聊，最有钱的人的生意肯定是和一个国家的国民经济深度绑定在一起了，我相信大家脑子里面已经蹦出几个名字了，你们觉得这些最有钱的人真的想走就能走的了？他能把资产带走？你要是说这些最有钱的人可以不需要把全部资产都带走，带一部分就足够生活了，我想说最有钱的人不一定比我们普通人自由多少。
+然后就再低一级的有钱人，我想这些人把老婆、孩子送到国外主要的目的是为了躲避风险吧，毕竟万一哪天进去了，至少家人还能在国外享福，这部分有钱人应该是一个人在国内捞钱，家人在外面享受，他们移民是为了避险，甚至只能只能选择出去，这和我们普通人说的移民压根就不是一个事。
+然后就再低一级的有钱人，他们享受着各种特供服务，我是实在想不出这种人有几个是想移民的…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108025"
+                        open
+                      >
+                        <summary class="article-expander__title">群晖上跑 qbittorrent docker， 一直显示 &quot;下载元数据&quot;, 但是用种子文件直接下载就可以</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108025">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>readman: 我在美国。应该不是 VPN 问题。。。。
+qbittorrent:
+        stdin_open: true
+        tty: true
+        image: nevinee/qbittorrent:4.3.9
+        container_name: qbittorrent
+        environment:
+            - PUID&#x3D;1026
+            - PGID&#x3D;1000
+            - TZ&#x3D;Etc/UTC
+            - QB_USERNAME&#x3D;xxx
+            - QB_PASSWORD&#x3D;xxx
+            - WEBUI_PORT&#x3D;8080
+            - TORRENTING_PORT&#x3D;6881
+            - ENABLE_AUTO_CATEGORY&#x3D;true
+            - CATEGORY_OR_TAG&#x3D;category
+            - CRON_AUTO_CATEGORY&#x3D;32 */2 * * *
+        volumes:
+            - /volume1/docker/qbittorrent:/data/config:rw
+            - /volume5/btcache:/data/downloads:rw #optional
+        ports:
+            - 7001:8080
+            - 6881:6881
+            - 9000:9000
+            - 32109:32109
+            - 6881:6881/udp
+        restart: unless-stopped
+
+不知道该怎么办了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108024"
+                        open
+                      >
+                        <summary class="article-expander__title">现在手机游戏冷启动一个比一个慢，是否是为了延长轻度玩家游戏时间有意为之的行为？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108024">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>drymonfidelia:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108023"
+                        open
+                      >
+                        <summary class="article-expander__title">写在 2025，喝了点劣质伏特加居然灵感爆发</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108023">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dingzi: 写在 2025 ，喝了点劣质伏特加，不知怎么竟忽然想起当初第一次敲下 ssh 命令的那个深夜。屏幕里黑底白字一闪一闪，好像预示着我要踏进一扇前所未见的神秘大门。那时候，我还主要做平面设计和电商店铺运营，对服务器没什么概念，只是觉得“掌控一台远程机器”听起来很酷。结果没想到，这个貌似“酷炫”的举动，竟给我带来了一连串意想不到的折腾，也让我多年来断断续续地跟“VPS 管理”纠缠不清。
+   回顾这条路，我买过无数台 VPS：刚开始是为了搭 LNMP 环境，轻松跑个网站；接着想科学上网，就买了海外机子部署 ss 或 v2ray ，顺手还折腾过极路由的 ssh 代理；后来还玩起了私有云，囤了一堆用得着或用不着的服务器。因为我白天常常要处理设计图、做店铺文案，忙得不可开交，就很少去登录管理那些 VPS ，导致每次查账单时都会大吃一惊：“天哪，这台机子怎么又续了我几个月的钱？” 更离谱的是，我甚至不记得它的 IP ，是哪时买的、用来干什么都忘了——这不就是在给服务器商交冤枉钱吗？
+   正是为了减少这种“智商税”，我才开始在社区里寻找探针工具。2021 年，有人给我安利 ServerStatus ，说能把多台机器的状态放进一个网页里看，在线/离线、CPU 、带宽都一览无余。我装上试试，确实比我一个个终端 ssh 登录去看方便多了，哪里宕机一眼就知道。接着，哪吒探针也火了起来，据说功能更丰富。可我慢慢发现，它们都以“实时监控”为主，最多也就带一点简单的历史记录功能，却无法满足我对“过去几周甚至几个月流量”做回溯的需求。对我来说，这块才是核心：如果我能知道这台 VPS 在上个月到底有没有跑流量，我就能理智地判断要不要续费，不会再傻乎乎交钱。
+   等到 2023 年，我才碰到 Neko 探针。它最吸引我的点，就是可以保存并查看一定时长的历史流量数据。很快我就给每台 VPS …</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108022"
+                        open
+                      >
+                        <summary class="article-expander__title">在加密货币获得收益的一些想法，求指点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108022">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bccah: 平时需要用 u 的地方比较多（日常消费和代购），感觉除了换成 cny 有点麻烦，其他地方都挺方便
+刚开始玩币的时候玩过合约杠杆，感觉大部分情况应该是亏钱。上了倍率经常会去看，不是什么大心脏选手，但市场又是 24 小时运转的。实在没能力玩这个，也不想在这方面投入太多时间。
+现在的想法是，通过交易所的稳定币（ usdt usdc dai ）活期赚币和定投一些热门的币（ eth sol btc ），有一定收益再卖掉重新定投，还有囤 bnb 拿平台奖励，以此来小赚一点。
+听说链上玩 defi 可以随便拿到超过交易所的收益，但考虑流动性和 eth 链的 gas 好像也不便宜，就没深入了。
+想请教一下有没有更好的方案，以及我现在的想法有没有什么问题。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108021"
+                        open
+                      >
+                        <summary class="article-expander__title">Linux gaming 的可玩性现在非常高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108021">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dayeye2006199: 
+我主力机常年都是 linux 。之前为了时不时打打游戏还装个双系统。这几年因为工作忙，游戏基本也没时间打了。
+最近重新捡回来一些游戏玩玩，发觉 linux 下的游戏体验非常不错。
+感谢 valve 的 SD ，proton 现在最相当多的游戏兼容非常不错。
+周末还尝试了下 GeForce Now ，只要浏览器都可以获得不错的 3A 游戏体验（我的显卡还是 1060 ），单机 FPS 都玩起来挺流畅，有极偶然的卡帧。
+感觉现在玩玩游戏完全不用装回 windows 。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -762,153 +926,6 @@ lz 做安卓开发的，2016 年入行，能力一般。测试转开发以来一
 对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!
 似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107976"
-                        open
-                      >
-                        <summary class="article-expander__title">父母早些年买了套房，一直在供着，但是准备要转给我供了，有什么方式可以转，另外我需要提供什么材料呢</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107976">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>SSSLC77: 本人对房子转供这块不熟，请教下懂的 v 友，我该怎么才能将父母在供的房子转到我名下，由我来供。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107975"
-                        open
-                      >
-                        <summary class="article-expander__title">ubuntu 24.04 怎么下载树莓派 5 的内核源码包？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107975">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wniming: 
-我配置好了 apt source ，可以下载例如 pciutils 这样的包的源码包，但是下载不了内核的源码包，会报如下错误：
-root@ubuntu:~# uname -r
-6.8.0-1010-raspi
-root@ubuntu:~# 
-root@ubuntu:~# apt source linux-image-unsigned-$(uname -r)
-Reading package lists... Done
-E: Unable to find a source package for linux-image-unsigned-6.8.0-1010-raspi
-root@ubuntu:~#</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107972"
-                        open
-                      >
-                        <summary class="article-expander__title">谁有券商万 0.85 免 5 的渠道？我要开户</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107972">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>cjd6568358: 最好是大券商，有的联系我 Y2pkNjU2ODM1OA&#x3D;&#x3D;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1107970"
-                        open
-                      >
-                        <summary class="article-expander__title">2025 年 Android 主流 Jellyfin 客户端一览</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1107970">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>HOMO114514: 
-Jellyfin 现在已经是最强的媒体服务器，没有之一。但作为一个新兴开源项目，它的客户端仍在持续地进化，各种派系和解决方案仍未完成大一统，远未达到像 Netflix 那样一站式点开即享的水平。
-在大约一年以前，我曾经自己总结过关于Jellyfin 的客户端和媒体内核的二三事。但是，那个时候我用的是 iPhone ，对 Android 那边具体的客户端了解不深，直到去年下旬我换了 Android 手机，评测了一圈之后发现那时客户端阵营真的很糟糕，可以说是基本没有一个能用的。
-到了 2025 年，情况发生了一些变化：
-Yamby 作者因为 Google 商店账号被封，交涉最终失败，加之其他原因决定将 99%的付费功能放出，相当于宣布免费
-VidHub 在 24 年 10 月左右登陆安卓，在持续迭代后，与 2025 年 1 月 23 日更新1.1.8 版本正式支持媒体服务器
-Findroid 项目正在使用 Jetpack Compose 重构前端界面，可能即将焕然新生
-Jellyfin for Android 官方客户端已经修复了 External Player 无法传送字幕文件的问题
-一路坎坷，终见曙光。作为一个小规模（约 100 人）服务器运营者，一直在持续关注相关的动态，并且对每一个客户端都会进行深度地使用，到现在我的手机里同时存在高达 5 个 Jellyfin 的 app 。于是，我总结了一些主流客户端的对比，大家参考选用。
-前提说明
-在 Android 端，经过多方综合考虑，我认定 mpv 为唯一的播放器后端，不采用 mpv 的客户端不作考量，理由如下：
-解码格式已经全覆盖，复杂特效 ASS 字幕也已完全支持，同时对于 Dolby P5 片源也具备下映射到 SDR 的能力
-HDR 回放的用户需求在我这非常非常少，而且主力观看用户都在看番，内容…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/posts/tech/react-native-uikit-colors"
-                        open
-                      >
-                        <summary class="article-expander__title">React Native 实践：Colors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/react-native-uikit-colors">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports &#x3D; function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      [&#x27;babel-preset-expo&#x27;, { jsxImportSource: &#x27;nativewind&#x27; }],
-      &#x27;nativewind/b…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2066,8 +2083,8 @@ Thank You (2024 Edition) originally published on CSS-Tricks, which is part of th
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12979185139">
-        <time id="build-timestamp" datetime="2025-01-26T23:09:31.800Z">2025-01-26T23:09:31.800Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/12980005805">
+        <time id="build-timestamp" datetime="2025-01-27T00:52:33.541Z">2025-01-27T00:52:33.541Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
