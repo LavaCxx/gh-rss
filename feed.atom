@@ -1,10 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-27T00:52:33.561Z</id>
+    <id>urn:2025-01-27T02:11:15.571Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-27T00:52:33.561Z</updated>
+    <updated>2025-01-27T02:11:15.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[有对海外版三星手机比较了解的吗？]]></title>
+        <id>https://www.v2ex.com/t/1108033</id>
+        <link href="https://www.v2ex.com/t/1108033"/>
+        <updated>2025-01-27T00:49:58.000Z</updated>
+        <summary type="html"><![CDATA[jsjcjsjc: 有对海外版三星手机比较了解的吗？
+不想用 iphone 了，想试试三星 s25u,就两个硬性要求
+1.至少一个物理卡槽+esim ，因为有国内手机号和美国手机号
+2.频段尽可能多，经常国外国内跑
+有推荐的吗？美版，欧版，奥版，港版？
+感谢]]></summary>
+        <author>
+            <name>jsjcjsjc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[心猿意马: 一份中年软件工程师的 2024 年终总结]]></title>
+        <id>https://www.v2ex.com/t/1108032</id>
+        <link href="https://www.v2ex.com/t/1108032"/>
+        <updated>2025-01-27T00:45:20.000Z</updated>
+        <summary type="html"><![CDATA[hutusi: 
+2024 年，我年满四十。
+孔子说：“四十不惑”。而但丁却说：“人生过半，我在黑暗森林里迷失了方向。”经历过四十岁前后的挣扎，我更赞同但丁。
+这篇总结是我过去一年的心路历程。2025 年，我将继续在这“黑暗森林”里探索，践行洪堡的名言：
+“在生命最广泛的体验中，提炼出智慧。”
+心猿意马（ 2024 年总结）： https://hutusi.com/articles/restless-mind-2024-review 
+——————————————————————————————————
+甲辰年上班最后一天，提前给大家拜年，祝大家新年快乐，万事如意！]]></summary>
+        <author>
+            <name>hutusi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[朋友们快到工位领取今天的登录奖励]]></title>
+        <id>https://www.v2ex.com/t/1108031</id>
+        <link href="https://www.v2ex.com/t/1108031"/>
+        <updated>2025-01-27T00:34:27.000Z</updated>
+        <summary type="html"><![CDATA[mohuani:]]></summary>
+        <author>
+            <name>mohuani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel E1000E 网卡高负载断流]]></title>
+        <id>https://www.v2ex.com/t/1108030</id>
+        <link href="https://www.v2ex.com/t/1108030"/>
+        <updated>2025-01-27T00:32:15.000Z</updated>
+        <summary type="html"><![CDATA[lx01xsz: 
+设备是 NUC8beki5 ，装了 PVE 。网卡在网络 IO 高负载时会发生问题，syslog 如下。
+现象 1: NUC 网络连接中断，等待几十秒-几分钟后恢复
+现象 2: 协商速率由 1000MB/s 变为 100MB/s ，手动设置为 1000MB/s 后恢复 (网卡和路由器都支持千兆)
+Jan 27 23:35:35 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Down
+Jan 27 23:35:35 pve kernel: vmbr0: port 1(eno1) entered disabled state
+Jan 27 23:35:42 pve kernel:  connection1:0: ping timeout of 5 secs expired, recv timeout 5, last rx 10254116869, last ping 10254121984, now 10254127104
+Jan 27 23:35:42 pve kernel:  connection1:0: detected conn error (1022)
+Jan 27 23:35:48 pve pvestatd[1233]: status update time (19.582 seconds)
+Jan 27 23:36:12 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx
+Jan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered blocking state
+Jan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered forwarding state
+Jan 27 23:36:14 pve iscsid[3627392]: connection1:0 is operational after recovery (3 attempts)
+Jan 27 23:36:37 pve pvestatd[1233]: status update time (19.299 seconds)
+Jan 27 23:36:38 pve kernel: sd 4:0:0:0: Power-on or device reset occurred
+
+驱动版本信息:
+root@pve:~# ethtool -i eno1 
+driver: e1000e
+version: 6.8.12-4-pve
+firmware-version: 0.4-4
+expansion-rom-version: 
+bus-info: 0000:00:1f.6
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes
+
+已经尝试更换网线并按照下面两个帖子的建议关闭了 tso
+https://forum.proxmox.com/threads/e1000e-network-issue-on-proxmox.139141/
+https://forum.proxmox.com/threads/e1000-driver-hang.58284/page-8#post-390709
+但在持续高负载时还会出现上述问题，这个问题是在用 Rsync 恢复备份的时候发现的，尝试用 --bwlimit 限制 Rsync 到 50M, 40M, 30M 。
+但均无法解决问题，难道只有硬改网卡了吗？]]></summary>
+        <author>
+            <name>lx01xsz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[请问如何下载 app store 首页的图片和视频，谢谢]]></title>
+        <id>https://www.v2ex.com/t/1108029</id>
+        <link href="https://www.v2ex.com/t/1108029"/>
+        <updated>2025-01-27T00:25:57.000Z</updated>
+        <summary type="html"><![CDATA[liyudong770: 
+https://apps.apple.com/cn/story/id1779877228
+请问如何下载 app store 首页的图片和视频，谢谢]]></summary>
+        <author>
+            <name>liyudong770</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.27 号还在打卡上班的朋友们，我们击掌。]]></title>
+        <id>https://www.v2ex.com/t/1108028</id>
+        <link href="https://www.v2ex.com/t/1108028"/>
+        <updated>2025-01-27T00:12:47.000Z</updated>
+        <summary type="html"><![CDATA[DissDoge: 对今日还在上班的朋友们给予敬意，恭喜我们完成了兢兢业业的一年。
+明天就是中华民族的真正意义上的新年，在此祝大家阖家欢乐、世虑全消。]]></summary>
+        <author>
+            <name>DissDoge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[终于解决了困扰大半年（不止）的 Caps 切换中英文不顺手的问题了]]></title>
+        <id>https://www.v2ex.com/t/1108027</id>
+        <link href="https://www.v2ex.com/t/1108027"/>
+        <updated>2025-01-26T22:31:15.000Z</updated>
+        <summary type="html"><![CDATA[netabare: 这问题之前就遇到，但是特别诡异，大体上，是每次写顺手的时候，要从中文切换到英文，或者反过来，都会出现切不回去的问题。
+一开始想要复现「每次都没复现成功，但是在不想复现的时候它一定会复现」，简直见了鬼了，还以为是这输入法成精了。
+后来才意识到可能是快速切换的时候会出现延时和回退，复现的时候大概率输入速度放慢反而无法复现。然后有过盯着右上角的输入法图标，发现输入法从 EN 闪成了中文然后秒变回去的情况，也有压根没闪一直在 EN 的情况。
+然后就这样一直受这个问题困扰然后搜索也找不到啥东西的状态。
+最后还是在 v 站找到了解决方案。
+以下是参考的一些先前的讨论串：
+https://www.v2ex.com/t/832952 （这个对我无效）
+https://v2ex.com/t/851971 （这里面提到了 Karabiner ，但我更倾向于更简单的解决方案，不过里面提到了这个机制可能的工作原理）
+https://hk.v2ex.com/t/1007071 
+然后这里面提到了一个放在 GitHub 上的小工具：
+https://github.com/gkpln3/CapsLockNoDelay
+这个工具里面建议先试用以下代码：
+```bash
+hidutil property --set '{"CapsLockDelayOverride":0}'
+```
+这个代码对我无效。所以我选择继续安装这玩意。
+然后发现困扰大半年（不止）的这个鬼问题消失了。刚才打这一大段文字的时候切了好几次中英文，都没有延迟，舒服了。
+发这个贴也只是想给后来人一个指路，毕竟先前那个贴子的 23 楼看起来没太多人看到过，要不是我这段时间有事没事搜这个鬼问题可能也不一定会发现这个解决办法。]]></summary>
+        <author>
+            <name>netabare</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[啥？中产不适合移民？聊聊我为什么适合移民]]></title>
         <id>https://www.v2ex.com/t/1108026</id>
@@ -296,6 +431,33 @@ Github 仓库: https://github.com/go-dev-frame/sponge]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[二年磨一剑， Flutter 功能引导库 feature_guider 更新啦！]]></title>
         <id>https://www.v2ex.com/t/1108001</id>
         <link href="https://www.v2ex.com/t/1108001"/>
@@ -489,85 +651,6 @@ p4-p5-p6
 一直对支付宝印象都不差，结果这两天彻底改观，被恶心到了]]></summary>
         <author>
             <name>lance1ot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大家有没有觉得越长大越孤独？]]></title>
-        <id>https://www.v2ex.com/t/1107982</id>
-        <link href="https://www.v2ex.com/t/1107982"/>
-        <updated>2025-01-26T11:22:51.000Z</updated>
-        <summary type="html"><![CDATA[pikachues001: 
-过年回到家忽然觉得基本上没有朋友可以约出来玩，以前的朋友要么就是没有回家，要么就是有自己的事情，去年感觉还好一些，越长大越发觉得以前玩的好的朋友联系也越来越少了，所以感觉朋友越来越少，请问 v 友们你们有这种感觉嘛。]]></summary>
-        <author>
-            <name>pikachues001</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[程序员工资要多少合适？]]></title>
-        <id>https://www.v2ex.com/t/1107981</id>
-        <link href="https://www.v2ex.com/t/1107981"/>
-        <updated>2025-01-26T11:14:27.000Z</updated>
-        <summary type="html"><![CDATA[findu: 
-lz 做安卓开发的，2016 年入行，能力一般。测试转开发以来一直在中小公司工作。我是双非硕，别人以为我工资两三万。
-我一直不懂行业的薪资规则（我知道根据能力来），就是不知道要多少合适。我一直觉得 1 万多的工资对我来说就很多了，每次跳槽都不敢要高，我担心实力达不到。
-得知别人毕业就 1 万 3 ，公司内运维岗位的年轻人也比自己高，心理就破防了。]]></summary>
-        <author>
-            <name>findu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[能不能让 SSR Plus 或 PassWall 2 使用独立的 DNS？]]></title>
-        <id>https://www.v2ex.com/t/1107980</id>
-        <link href="https://www.v2ex.com/t/1107980"/>
-        <updated>2025-01-26T11:12:36.000Z</updated>
-        <summary type="html"><![CDATA[dcsuibian: 
-我的需求是这样：主路由上开启访问控制，只给指定设备走代理。其他都默认直连。除了指定设备外其它设备完全不受影响。
-接上贴： https://www.v2ex.com/t/1107731
-我发现 PassWall 2 会影响整个 DNS ，于是我换成了 ShadowSocksR Plus+。结果发现还是会影响到 DNS 。
-目前只要我开了翻墙插件，nslookup vscode.download.prss.microsoft.com 就会解析到国外。关了就解析到国内。]]></summary>
-        <author>
-            <name>dcsuibian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的上海联通手机没有 ipv6 了，是个人现象还是统一的？]]></title>
-        <id>https://www.v2ex.com/t/1107979</id>
-        <link href="https://www.v2ex.com/t/1107979"/>
-        <updated>2025-01-26T10:58:33.000Z</updated>
-        <summary type="html"><![CDATA[s82kd92l: 
-之前经常用 ipv6 连接境外的小鸡 ssh 端口。最近几天发现手机端的 v6 地址没了。
-是上海联通全这样还是被惩罚了呢？]]></summary>
-        <author>
-            <name>s82kd92l</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[发动机机舱里掉进个小螺丝，有事吗？]]></title>
-        <id>https://www.v2ex.com/t/1107978</id>
-        <link href="https://www.v2ex.com/t/1107978"/>
-        <updated>2025-01-26T10:56:27.000Z</updated>
-        <summary type="html"><![CDATA[xiebow: 自己动手换空气滤芯的时候不小心把螺丝掉进去了，照了半天没看到掉在哪。去了兔师傅检查也没找到，检查小哥说可能路上跑掉了，我又问如果没有跑出来会有问题吗，他说不碍事。
-自己网上搜了半天也不知道到底有没有问题，郁闷的一天。]]></summary>
-        <author>
-            <name>xiebow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新旧 iPhone 的数据转移真是折磨...]]></title>
-        <id>https://www.v2ex.com/t/1107977</id>
-        <link href="https://www.v2ex.com/t/1107977"/>
-        <updated>2025-01-26T10:46:24.000Z</updated>
-        <summary type="html"><![CDATA[billlee999: 
-楼主之前用的都是 12, 最近想着换一台新的手机, 于是就买了台 16plus
-由于 12 之前都是楼主都是用安卓机, 所以没有 i2i 数据转移的经历, 之前道听途说这个转移非常方便, ‘甚至没有买新手机的感觉’, 于是就体验了一下 (其实也没得选)
-结果完犊子了, 首先先是用 12 传给 16, 结果到最后一步可能是连接断了还是什么, 必须得把 16 还原了 (?)
-我心想好吧, 可能是 ios 固有的一些问题, 就重试了一下, 结果还是要还原...
-到这已经有点燥了, 还原之后我就选了 iCloud 恢复; 结果更难受了: 主页面是进去了, 由于要同步的数据太大了, (基本上) 所有的 app 都用不了 (甚至原生的), 能用的只有电话, 连短信都发不了! 
-到这里真的是想问候一下 Apple 的工程师了, 对数据的恢复完全没有一个先后顺序的吗? 不能先保证用户的基础功能可用, 再同步那些 ‘可有可无’ 的数据吗? 为什么不能设定数据的先后恢复顺序?
-对于买新机的朋友们, 假如你有急事, 必须用这台新机做事, 我的建议就是选择 ‘先不恢复’, 把必要的数据先同步了, 然后再登陆 iCloud 同步; 不然真的啥功能都用不了!
-似乎 Apple 有提供使用数据线传输, 那样的话比网络和蓝牙快多了; 不过我目前就试不了了, 等待评论区有经验的朋友分享一下]]></summary>
-        <author>
-            <name>billlee999</name>
         </author>
     </entry>
     <entry>
