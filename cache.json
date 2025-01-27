@@ -167,6 +167,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -291,12 +308,42 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108146",
+          "author": "350041264812",
+          "description": "350041264812: \nhello ，我是魔王哒，流光卡片开发者，来分享一下自己最新的 ai 编程实践经验，不管你是零基础小白还是专业技术人这里的思路相信一定会对你有启发。\n一句话总结，让 deepseek 成为你与 cursor 沟通的桥梁，让其他 deepseek 来将作为 编程小白 的我们的语言转换为更适合与 cursor 对话的提示词。\n有人要问了，这能说是最佳实践吗？是不是不知道，但是他解决了很多技术人或者小白的痛点，那就是不知道该如何好好和 cursor 进行对话让人写出精确的代码功能模块。\n技术人懒得花更多心思在和 cursor 沟通这件事情上，觉得不如自己写代码，大部分时候更倾向复用过往的传统手艺写代码经验，懒得花时间深度沟通试错。\n小白则不知道如何沟通，存在很多知识盲区，一方面对未知有些害怕恐惧，就像技术人写多了 bug ，对运行代码产生了恐惧一样。\n接下来开始实践 ! 👇\n第一步：让 deepseek 了解 cursor\n打开 https://chat.deepseek.com/ ，启动 联网搜索 和 深度思考：\n提问：你知道 cursor 这个 ai 编程产品吗？\n先让 ai 自己了解搜索 cursor 这个产品。\n\n第二步：告诉 deepseek 如何帮助我们\n提问：接下来我需要你来扮演我的 cursor 交流专家，你是我和 cursor 沟通的桥梁，你需要理解我的需求，转化成能够让 cursor 更稳定更精确些代码的 prompt ，我是一个编程小白，经常语言描述不精确导致 cursor 误判我的意思改错代码，这让我很苦恼。\n\n第二步还没结束，还需要做补充，让他了解 cursor 的缺点，才能更好的解决我的问题 👇\n提问：目前的模型能力并不能让 cursor 一下子同时写很多代码，有时候我的需求可能描述的会比较复杂，你需要拆解功能，分成一个个提示词，来一步步引导 cursor 写代码，同时写一大堆功能逻辑会让 cursor 写的代码变得不可靠，错误概率提升！\n\n第三步：描述需求生成 cursor 步骤提示词\n这里在 deepseek 中上传文件需要关闭 联网搜索，否则无法上传\n例如提问：\n我接下来需要让 cursor 给我购买的一个模板写一个后台管理系统的后端 API 。\n技术栈主要采用 fastAPI ，数据库使用 Supabase ，将所有代码都放到一个文件中。\n##功能需求\n看我上传的 需求整理.docx 文件，你只需要从中提取后端需求部分\n##数据库结构（数据库我都已经自己创建好了，主要为了你能更好理解我的业务逻辑）\n看我上传的 sql 文件\n\n这里刚开始运行不太顺利，他给我直接生成了完整代码，加一句提示纠正错误\n你这个不对啊，我需要你整理需求提示词让我引导 cursor 来写，这才是我们想要的结果！\n最终结果如下图 👇\n\n那么到这里就结束了，有什么问题欢迎留言讨论❤️\n最后也展示一下我的小产品流光卡片，如果你需要让文字更好看美丽的展现分享给别人可以来试试，还能一键将你的内容长文拆分，发布小红书很方便的，在 Google 、Edge 中直接搜索可以找到的",
+          "link": "https://www.v2ex.com/t/1108146",
+          "publishedOn": "2025-01-27T20:48:26.000Z",
+          "wordCount": 493,
+          "title": "结合 deepseek R1 模型，新的 AI Cursor 编程最佳实践！让第三方 ai 成为我们和 cursor 沟通的桥梁",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108145",
+          "author": "Uzuki",
+          "description": "Uzuki: \n在新手机上登录了 Google 账户，登陆之后点开邮件，发现前几天提醒我 voice 即将过期。\n于是我在 play 商店下载了 voice ，登录之后连发三条消息，再发到第三条的之后发不出去了。\n我打开网页，发现这个账户已经没有 voice 界面了。\n请问我还有办法能保住我这个手机号码吗",
+          "link": "https://www.v2ex.com/t/1108145",
+          "publishedOn": "2025-01-27T20:22:46.000Z",
+          "wordCount": 403,
+          "title": "Google voice 突然没了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108143",
+          "author": "deepout",
+          "description": "deepout: \n无论是 macOS 还是 iOS 我都是 Chrome 为主力浏览器在使用。\n最近开始深度使用 iPad ，习惯性地用 Chrome 登录 V2 ，登录微博，发现 Chrome 根本没法打字，巨卡无比，上屏速度甚至不如 286.\n尝试用了 safari ，那叫一个流畅。\n目前发贴我用的就是 safari ，Chrome 在 iPad 上根本没法打字。\n但又很难放弃 Chrome 的书签和操作习惯的统一性，包括浏览记录的连续性。\n还有个办法就是需要打字的地方，我先切到其他应用比如备忘录，打好字之后复制过去。这比较适合需要大段文字内容输入的地方。但如果仅仅就打几个字也需要切个 app 的话，我感觉特别难受。希望 Chrome 早点修复这个问题吧。",
+          "link": "https://www.v2ex.com/t/1108143",
+          "publishedOn": "2025-01-27T19:11:04.000Z",
+          "wordCount": 373,
+          "title": "iPad 版 Chrome 打字巨卡",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108142",
           "author": "ra4",
           "description": "ra4: \n算是之前学校 pt 的老水管了吧，记录 https://ibb.co/jRH37NZ\n邮箱 enN5NDY2MTc4OTY1QGdtYWlsLmNvbQ==\n感谢各位大佬！",
           "link": "https://www.v2ex.com/t/1108142",
           "publishedOn": "2025-01-27T18:28:50.000Z",
-          "wordCount": 348,
+          "wordCount": 361,
           "title": "想求大佬们给 MT 或者其他 pt 大站的邀请",
           "imageUrl": null
         },
@@ -346,7 +393,7 @@
           "description": "djasdjds: 家里的很多事真是不知道如何是好，先从我姐说起吧，我家在北方的农村家庭，从小就很穷，什么东西都得平分，不怎么富裕的家庭，我姐性格从小就特别自私，认为我妈偏我，什么都留给我。但是她从小的性格，我已经想不通是本性还是怎么发展出来的。\n  \n  我姐从小学习很好，都是年级前几，这让我从小经受着父母的辱骂和捶打，人身攻击各种，初中时候开始，就变本加厉，什么都跟我姐比，我姐比我大三岁，我初一，她高一，考入了我们县城的高中尖子班，导致我的初中，只要玩耍，都要被骂是个玩货，各种难听的，我在初中时候基本全班前 10 ，但是总有个姐比较。父母对我们的学习十分看重，我爸是村里小学的老师，身处教师家庭，那种痛苦不言而喻，基本没什么童年，从小没啥玩伴，在家里，不能出门，视线里离开，回来就要骂又去哪里害人了。有什么同学如果路上碰到或者提到被我爹妈知道，都要查户口本他家哪里的，父母干嘛的，所以从小基本没可能有同学或者朋友来我家里，也根本没可能。父母只会骂你让你学习，不然就像他们农村务农种地。我姐从小基本没干过什么农活，也许是保护的比较好，我则是分担家里，每当干活的时候，背麦子、抬粮食袋子，都要被夸长大了。\n  \n  我姐大学上了省内的 211 大学，也是第一次离开了家里去外面了，但在专业上面，从小逆来顺受，没有自己的主见，也不知道选什么，父母专门咨询了混的好的亲戚，推荐学了当年火热的医学，但是没学临床，学的药学，而我姐的同学，也有好几个女生，从小也是她的同学，学习都比较好，也学的医学，临床偏多。我是觉得她肯定不适合临床，专业并没有什么问题，但是多年后，变成了她埋怨父母的又一理由。大学刚开始，我姐和家里沟通很多，后来基本发消息不回了，我爸去她的城市，很多时候觉得我爸妈丢脸不想见，很不情愿。她大学时候，看耽美小说，工作后，看的肖战王一博这种小鲜肉类型的电视剧，我也不懂是哪一种群体。大三考…",
           "link": "https://www.v2ex.com/t/1108137",
           "publishedOn": "2025-01-27T16:28:16.000Z",
-          "wordCount": 644,
+          "wordCount": 651,
           "title": "原生家庭，过年刚回家和家里白眼狼姐打起来了",
           "imageUrl": null
         },
@@ -376,7 +423,7 @@
           "description": "zachary99:  [手机游戏性能终极大横评！掉帧？发热？作弊？猫腻太多！-哔哩哔哩]  https://b23.tv/jtSoJ5r\n\n苹果芯片的优势很弱了，没想到的是谷歌的处理器这么拉，比华为还拉",
           "link": "https://www.v2ex.com/t/1108131",
           "publishedOn": "2025-01-27T15:32:24.000Z",
-          "wordCount": 362,
+          "wordCount": 364,
           "title": "极客湾对 2024 年性能手机的评测",
           "imageUrl": null
         },
@@ -426,7 +473,7 @@
           "description": "RYAN10041: \n最近换了新的 iPhone 16 Pro ，旧的 iPhone 13 里面有 60 多个 G 的图片视频。目前迁移以前拍摄的 livephoto 照片遇到了难题。一方面因为两台都是苹果手机均能支持 livephoto ，另一方面 livephoto 存储了动态影像资料以及声音，能够更佳还原记忆中的效果，所以不想放弃 livephoto 。\n目前我用的方法是使用 onedrive ，虽然可以以视频播放器的组件的方式查看 livephoto ，但是效果不尽如人意，而且不能自动保存到系统相册当中。\n有什么好办法能够优雅的备份或者是迁移这些 livephoto 呢？最好是还能够满足以下几点要求\n多设备之间的系统相册自动同步\n免费开源\n局域网传输，速度快、稳定性高\n本地备份到 windows 、nas 等\n支持在其他设备上预览（例如 windows ，甚至安卓手机等）\n备份其他数据（例如系统设置、日历、联系人等等）",
           "link": "https://www.v2ex.com/t/1108125",
           "publishedOn": "2025-01-27T15:02:07.000Z",
-          "wordCount": 448,
+          "wordCount": 449,
           "title": "如何优雅的备份 livephoto",
           "imageUrl": null
         },
@@ -476,7 +523,7 @@
           "description": "xiniu: \n我有一个 sim 卡，可以走国际漫游，访问国外的网站。以此为前提，有这样一个需求\n当访问国外网站的时候，走 sim 卡\n当访问国内网站的时候，走宽带服务\n目前，我找到的方法是，弄一个带 sim 卡的软路由设备，搭载 openwrt 系统，插上 sim 卡和宽带后，进行流量分流。「只是资料中查到，没有实际操作过」。\n现在想问问上述方案是否合适，如果合适，有没有这种软路由设备推荐。另外，不要推荐全局代理或者什么。这个场景就是 sim 卡和宽带服务。感谢。",
           "link": "https://www.v2ex.com/t/1108120",
           "publishedOn": "2025-01-27T14:25:29.000Z",
-          "wordCount": 527,
+          "wordCount": 531,
           "title": "流量分流，国外的走 SIM 卡，国内的走宽带",
           "imageUrl": null
         },
@@ -546,7 +593,7 @@
           "description": "Jiajin: \nDeepSeek\n\nGPT4o\n\n通义千问\n\nGemini 版",
           "link": "https://www.v2ex.com/t/1108112",
           "publishedOn": "2025-01-27T13:39:57.000Z",
-          "wordCount": 403,
+          "wordCount": 418,
           "title": "大模型混战：请按照《过秦论》的风格，写一篇过“美利坚论”",
           "imageUrl": null
         },
@@ -596,7 +643,7 @@
           "description": "Vneix: \n如题，最好是京东自营就能买到的，谢谢。\n目的是\n内部网络：电脑手机等设备，WPA3 加密\n访客网络 1：智能家居，WPA2/WPA3 加密\n访客网络 2：客人使用，WPA2/WPA3 加密\n（不知道这样划分合理吗？）",
           "link": "https://www.v2ex.com/t/1108107",
           "publishedOn": "2025-01-27T12:59:25.000Z",
-          "wordCount": 525,
+          "wordCount": 527,
           "title": "求问有没有支持两个或以上访客 WIFI 的路由器？",
           "imageUrl": null
         },
@@ -698,36 +745,6 @@
           "publishedOn": "2025-01-27T11:29:14.000Z",
           "wordCount": 424,
           "title": "有推荐类似于 Mac mini 的高性价比 Linux 小主机么?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108096",
-          "author": "Pandyyyyy",
-          "description": "Pandyyyyy: 在 2023 年 7 月 9 号的时候，基于 Facebook 的一款开源框架搭建了个人博客网站\n随后在 GitHub 开源，也就是 ken 这个项目： https://github.com/Penggeor/ken\n得益于持续的写作和框架良好的 SEO 功能，现在网站的月访问用户达到 900+\n可是与之相比的是，ken 目前只有 3 个 star ，不温不火\n反思了一下，虽然 ken 集成了霞鹜文楷、Giscus 、Posthog ，并且支持多个知识库和多博客，我自认为不错的东西，其他用户只需 fork 一份，就可以快速搭建自己的个人博客网站\n但我在两方面上做得不好，一个是项目启动问题，在环境变量缺失下无法启动，二是 README 写得稀烂\n有则改之，现在把上述的两个问题处理了一下，把项目启动和 README 重整了一下，并且支持 Vercel 一键部署\n现在 ken 变得非常易用了，如果你也有搭建个人博客网站的想法，不妨 try try",
-          "link": "https://www.v2ex.com/t/1108096",
-          "publishedOn": "2025-01-27T11:26:50.000Z",
-          "wordCount": 509,
-          "title": "反思了一下维护 500 多天的开源项目",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108095",
-          "author": "PatrickLe",
-          "description": "PatrickLe: 准备把乡下房子重建，想自己先把大概的布局勾勒出来，现在 AI 工具这么多，有这类型的工具推荐吗",
-          "link": "https://www.v2ex.com/t/1108095",
-          "publishedOn": "2025-01-27T11:18:07.000Z",
-          "wordCount": 370,
-          "title": "有没有新手画房子构造图的软件呢？比较简单的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108093",
-          "author": "WilliamColton",
-          "description": "WilliamColton: \n据说只有 600 万的成本，2000 张显卡\n半导体方面今天股价全线下滑，台积电和英伟达盘前就跌了 10 个点",
-          "link": "https://www.v2ex.com/t/1108093",
-          "publishedOn": "2025-01-27T10:42:34.000Z",
-          "wordCount": 394,
-          "title": "DeepSeek 是不是颠覆了以往对 GPU 的大需求？",
           "imageUrl": null
         }
       ]
