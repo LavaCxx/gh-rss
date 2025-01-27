@@ -114,12 +114,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -281,12 +275,212 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108056",
+          "author": "Jinnmki",
+          "description": "Jinnmki: \n重复照片太多了，一个一个点合并也太离谱了",
+          "link": "https://www.v2ex.com/t/1108056",
+          "publishedOn": "2025-01-27T03:55:58.000Z",
+          "wordCount": 349,
+          "title": "求助 mac 的合并重复照片没有批量功能吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108055",
+          "author": "arloor",
+          "description": "arloor:",
+          "link": "https://www.v2ex.com/t/1108055",
+          "publishedOn": "2025-01-27T03:55:52.000Z",
+          "wordCount": 408,
+          "title": "850w 电源带的动 ultra265k + 5080 显卡吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108054",
+          "author": "liyuhang",
+          "description": "liyuhang:",
+          "link": "https://www.v2ex.com/t/1108054",
+          "publishedOn": "2025-01-27T03:49:40.000Z",
+          "wordCount": 373,
+          "title": "求推荐几个能自定义 API 的桌面 AI 客户端",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108053",
+          "author": "fancy2020",
+          "description": "fancy2020: \n先说一下我的个人情况：\n基本情况：目前收入是外币(SGD)，业余时间在炒美股。\n经过几天的研究，想过几天去开 3 张卡：\n汇丰香港，外资银行隐私性较好，用来接收外币收入，然后入金证券账户(IB)\n中银香港，优点是与内地的工行之间汇款免费，但是汇到内地之后还是需要结汇，会占用外汇额度\n工银亚洲，优点是在内地的工行 ATM 取现免费，但是汇款收费\n另外，据我了解在香港的银行账户之间转账是可以免费的。\n所以，我的资金需求主要是外币回国内消费，工银取现加中银汇款应该可以比较好的解决。另外还有一部分是数字产品的订阅，比如 Netflix 等，这个应该可以用汇丰的蓝狮子（还是红狮子，不太确定）卡解决。\n大家可以评价一下我的方案，有错误的地方请指正。也可以分享一下你的资金需求以及方案，有比较好的视频或文字链接也可以发上来。",
+          "link": "https://www.v2ex.com/t/1108053",
+          "publishedOn": "2025-01-27T03:49:10.000Z",
+          "wordCount": 376,
+          "title": "关于香港银行卡网上大部分攻略都是关于如何开卡，想讨论一下开卡之后在大陆的使用问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108051",
+          "author": "kyonn",
+          "description": "kyonn: \n淘汰下来块小的 ssd, 基于物尽其用的原则, 拿来单独挂载作为下载临时目录, 但是有的资源又比较大, ssd 又放不下, 就想直接拿 ssd 作为机械硬盘的 cache\n用 bcache ssd 加速 btrfs 机械硬盘的话, 有没有什么注意事项? 一般用哪种缓存策略(writeback /writethrough /writearoud )? \n假如使用过程中, ssd 写挂了,能否自动 fallback 到直写机械硬盘.\n机械硬盘已有数据的情况下, 能否跟新建的 bcache 关联起来?\n异常掉电的情况, bcache 会给数据恢复新增哪方面的问题?\n加入 bcache 后, 大概会有怎样的性能提升?",
+          "link": "https://www.v2ex.com/t/1108051",
+          "publishedOn": "2025-01-27T03:40:18.000Z",
+          "wordCount": 437,
+          "title": "用过 Bcache 的请进, 问几个问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108050",
+          "author": "lerry",
+          "description": "lerry:",
+          "link": "https://www.v2ex.com/t/1108050",
+          "publishedOn": "2025-01-27T02:59:18.000Z",
+          "wordCount": 362,
+          "title": "有没有 IP 多的 VPS 推荐， 30-100 个，加 IP 最好不要太贵",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108048",
+          "author": "xueweihan",
+          "description": "xueweihan: \n兴趣是最好的老师，HelloGitHub 让你对编程感兴趣！\n\n简介\nHelloGitHub 分享 GitHub 上有趣、入门级的开源项目。\ngithub.com/521xueweihan/HelloGitHub\n这里有实战项目、入门教程、黑科技、开源书籍、大厂开源项目等，涵盖多种编程语言 Python 、Java 、Go 、C/C++、Swift...让你在短时间内感受到开源的魅力，对编程产生兴趣！\n以下为本期内容｜每个月 28 号更新\nC 项目\n1 、sshfs：通过 SSH 挂载远程文件系统的工具。这是一个基于 SFTP 协议的文件系统工具，可通过 SSH 协议将远程文件系统挂载到本地。它操作简单，仅需一条命令，即可像访问本地文件系统一样管理远程文件和目录，兼容 Linux 、BSD 和 macOS 系统。\n挂载文件系统\nsshfs [user@]hostname:[directory] mountpoint\n卸载文件系统\nfusermount -u mountpoint\n\nC# 项目\n2 、mRemoteNG：集成多协议的远程连接管理工具。这是一款功能强大的远程连接管理工具，支持 RDP 、VNC 、SSH 等多种主流协议。它提供了标签式界面，用户可同时管理和切换多个远程连接，支持 Windows 11 、10 等系统。\n\n3 、msstyleEditor：开箱即用的 Windows 视觉样式编辑器。这是一款用于编辑 Windows 视觉样式（.msstyles 文件）的工具，兼容 Windows 7 、8 、10 和 11 系统。它无需安装、开箱即用，支持快速查看所有组件并修改其属性，轻松自定义主题样式。\n\nC++ 项目\n4 、Memento：边看视频边学日语的视频播放器。这是一款基于 mpv 的开源视频播放器，专为学习日语而设计。它能够帮…",
+          "link": "https://www.v2ex.com/t/1108048",
+          "publishedOn": "2025-01-27T02:42:32.000Z",
+          "wordCount": 1405,
+          "title": "《HelloGitHub》第 106 期",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108047",
+          "author": "junas7",
+          "description": "junas7: 偷跑就怕上面突然摇人说要开会，这时候人到不了，跟领导说个什么理由然后把请假补上",
+          "link": "https://www.v2ex.com/t/1108047",
+          "publishedOn": "2025-01-27T02:41:26.000Z",
+          "wordCount": 426,
+          "title": "上班偷跑的话，被发现问起来，能说个什么理由",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108046",
+          "author": "foufoufm",
+          "description": "foufoufm: \n如题，比如有许多调研的模板、问题收集的模板、自己需求分析的模板等等。\n一般有具体项目还好，可以跟随 project ，但是作为模板沉淀的话，似乎现有的知识管理工具没有考虑到资源这一层。我没有好的实践方式，请教一下有没有对于资源管理的好办法？",
+          "link": "https://www.v2ex.com/t/1108046",
+          "publishedOn": "2025-01-27T02:23:56.000Z",
+          "wordCount": 391,
+          "title": "大家是如何管理自己的 Excel 文件的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108044",
+          "author": "kailyn",
+          "description": "kailyn: 自己写项目总是三分钟热度，经常做到一小半甚至域名刚买下就放弃了，这下这个小工具开发量足够小，使得可以在还未放弃就能一鼓作气搞完基础功能。\n需求背景\n前几天和做外贸的同学聊，无意间发现他们官网的产品我看了半天，很难清楚的知道两个同系产品的参数差距，然后联想到之前买车的时候，app 上都有不同车的参数比较的功能，很好用，能一目了然的看出车辆属性差别。所以搞了这个工具。\n\n欢迎大家的吐槽与意见（不用在意首页那个定价，目前随便写的）\n体验地址： https://comparely.wow-data.top ，需要 google 登录。",
+          "link": "https://www.v2ex.com/t/1108044",
+          "publishedOn": "2025-01-27T02:21:33.000Z",
+          "wordCount": 358,
+          "title": "趁着过年前有空，借助 AI，写了一个商品参数比对的小工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108043",
+          "author": "1023",
+          "description": "1023: 公司 thinkpad 笔记本肯定是有装监控的\n若是用 u 盘 pe ，或者 usb 系统，进入 u 盘系统\n摸鱼会被抓吗？",
+          "link": "https://www.v2ex.com/t/1108043",
+          "publishedOn": "2025-01-27T02:18:51.000Z",
+          "wordCount": 374,
+          "title": "公司笔记本用 u 盘 pe 或者 u 盘系统摸鱼会被抓吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108042",
+          "author": "hahh959927",
+          "description": "hahh959927: \n盘库吧 \nhttps://panku8.com\n基本上爬虫实时在爬网络上的有效的网盘链接，\n可以搜索电影电视剧，有热门排行榜实时更新，\n有效链接也会实时来处理删除，\n网站还在完善中，\n大家给给支持下~~",
+          "link": "https://www.v2ex.com/t/1108042",
+          "publishedOn": "2025-01-27T02:10:24.000Z",
+          "wordCount": 340,
+          "title": "盘库吧！分享好的网盘聚合搜索神器！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108041",
+          "author": "sunfly",
+          "description": "sunfly:",
+          "link": "https://www.v2ex.com/t/1108041",
+          "publishedOn": "2025-01-27T02:00:21.000Z",
+          "wordCount": 429,
+          "title": "V 站使用 ipv6 可以直连了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108040",
+          "author": "readman",
+          "description": "readman: /dev$ smartctl --scan\n# scan_smart_devices: glob(3) aborted matching pattern /dev/discs/disc*\n\n搜了所有地方，没解答。。。",
+          "link": "https://www.v2ex.com/t/1108040",
+          "publishedOn": "2025-01-27T01:55:58.000Z",
+          "wordCount": 432,
+          "title": "群晖上跑 smartctl，返回错误？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108039",
+          "author": "skyrim61",
+          "description": "skyrim61: \n你们回去要多少公里? 外地人伤不起啊",
+          "link": "https://www.v2ex.com/t/1108039",
+          "publishedOn": "2025-01-27T01:47:30.000Z",
+          "wordCount": 590,
+          "title": "1.27 号班上到中午 12:00, 结束后开车 800 公里奔赴老家过年.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108038",
+          "author": "szsgz",
+          "description": "szsgz: 之前几乎一直用苹果，有时候审美疲劳很想从苹果换安卓\n但是发现安卓手机国内外价格差距有点大\n如果买国行的小米 15 或者 Oppo Reno 13 ，拿到新加坡用，会不会有什么问题？\n谷歌框架装上就能用 Google Pay 了吗？\n这里非常依赖信用卡触控付款（这里叫做 Pay Wave), 苹果使用 apple pay ，双击呼出卡片（ VISA/Master)就可以使用，效果跟拿实体信用卡是一致的。\n这里每天吃饭购物，最重要是公交地铁都是用这个 pay wave ，应该是手机使用的最主要功能之一。\n虽然我还没用过，但是谷歌原版的系统里的 google pay 应该也是同样效果。\n不知道国内的手机系统是否能顺利使用这个功能，还是说要刷国际版系统才可以？",
+          "link": "https://www.v2ex.com/t/1108038",
+          "publishedOn": "2025-01-27T01:43:41.000Z",
+          "wordCount": 583,
+          "title": "国行小米或 Oppo 在新加坡使用问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108037",
+          "author": "lizzzy",
+          "description": "lizzzy: \n可以一起聊聊这，分享好的方法\n邮箱：Proton ，Tuta\n密码管理工具:bitwarden ，1Password ，keepass\nSession,Threema ，Wire ，Signal\n浏览器：brave\n搜索引擎：DuckDuckGo\n群号：\nhttps://signal.group/#CjQKILtNj1I7z1rfKh6zoY2NrjOVanlFOuAD58BKvAgle8yqEhAgheYQJU4aE0Re9SV0iKWQ",
+          "link": "https://www.v2ex.com/t/1108037",
+          "publishedOn": "2025-01-27T01:34:23.000Z",
+          "wordCount": 377,
+          "title": "有对数据隐私安全有兴趣的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108036",
+          "author": "ttgo",
+          "description": "ttgo:",
+          "link": "https://www.v2ex.com/t/1108036",
+          "publishedOn": "2025-01-27T01:32:06.000Z",
+          "wordCount": 468,
+          "title": "deepseek 崩了？今天网页端一直是“不好意思，和 DeepSeek 聊天的人有点太多了，请过一会儿再提问吧。”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108035",
+          "author": "dream0689",
+          "description": "dream0689: 最近先后注册了两个外区 id ，都没多久就提示账户被停用了。不知有办法破局没？开始以为是使用频率不够，发现并不是😓新账号才三五天就被停用了。",
+          "link": "https://www.v2ex.com/t/1108035",
+          "publishedOn": "2025-01-27T01:27:03.000Z",
+          "wordCount": 402,
+          "title": "现在 appleid 是不是很容易被封停？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108034",
+          "author": "Dora5260",
+          "description": "Dora5260: 最后一天打卡上班，地铁都空了\n明天就是除夕了 牛马今天都还在打卡\n年味虽淡 班味很浓\n倒计时 10 天 又要打卡上班\n祝大家吃好喝好 身体安康 过个胖胖年 \n如果有时间有机会有缘分 单身的朋友相个亲 说不定就成了哇 蛇来运转 哈哈",
+          "link": "https://www.v2ex.com/t/1108034",
+          "publishedOn": "2025-01-27T01:08:58.000Z",
+          "wordCount": 467,
+          "title": "最后一天摸鱼的都还在吗，集合打卡唠嗑啦，坐等下班！",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108033",
           "author": "jsjcjsjc",
           "description": "jsjcjsjc: 有对海外版三星手机比较了解的吗？\n不想用 iphone 了，想试试三星 s25u,就两个硬性要求\n1.至少一个物理卡槽+esim ，因为有国内手机号和美国手机号\n2.频段尽可能多，经常国外国内跑\n有推荐的吗？美版，欧版，奥版，港版？\n感谢",
           "link": "https://www.v2ex.com/t/1108033",
           "publishedOn": "2025-01-27T00:49:58.000Z",
-          "wordCount": 409,
+          "wordCount": 413,
           "title": "有对海外版三星手机比较了解的吗？",
           "imageUrl": null
         },
@@ -296,7 +490,7 @@
           "description": "hutusi: \n2024 年，我年满四十。\n孔子说：“四十不惑”。而但丁却说：“人生过半，我在黑暗森林里迷失了方向。”经历过四十岁前后的挣扎，我更赞同但丁。\n这篇总结是我过去一年的心路历程。2025 年，我将继续在这“黑暗森林”里探索，践行洪堡的名言：\n“在生命最广泛的体验中，提炼出智慧。”\n心猿意马（ 2024 年总结）： https://hutusi.com/articles/restless-mind-2024-review \n——————————————————————————————————\n甲辰年上班最后一天，提前给大家拜年，祝大家新年快乐，万事如意！",
           "link": "https://www.v2ex.com/t/1108032",
           "publishedOn": "2025-01-27T00:45:20.000Z",
-          "wordCount": 456,
+          "wordCount": 479,
           "title": "心猿意马: 一份中年软件工程师的 2024 年终总结",
           "imageUrl": null
         },
@@ -316,7 +510,7 @@
           "description": "lx01xsz: \n设备是 NUC8beki5 ，装了 PVE 。网卡在网络 IO 高负载时会发生问题，syslog 如下。\n现象 1: NUC 网络连接中断，等待几十秒-几分钟后恢复\n现象 2: 协商速率由 1000MB/s 变为 100MB/s ，手动设置为 1000MB/s 后恢复 (网卡和路由器都支持千兆)\nJan 27 23:35:35 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Down\nJan 27 23:35:35 pve kernel: vmbr0: port 1(eno1) entered disabled state\nJan 27 23:35:42 pve kernel:  connection1:0: ping timeout of 5 secs expired, recv timeout 5, last rx 10254116869, last ping 10254121984, now 10254127104\nJan 27 23:35:42 pve kernel:  connection1:0: detected conn error (1022)\nJan 27 23:35:48 pve pvestatd[1233]: status update time (19.582 seconds)\nJan 27 23:36:12 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx\nJan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered blocking state\nJan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered forwarding state\nJan 27 23:36:14 pve iscsid[3627392]: connection1:0 is operational after recovery (3 attempts)\nJan 27 23:36:37 pve pvestatd[1233]: status update time (19.299 seconds)\nJan 27 23:36:38 pve kernel: sd 4:0:0:0: Power-on or device reset occurred\n\n驱动版本信息:\nroot@pve:~# ethtool -i eno1 \ndriver: e1000e\nversion: 6.8.12-4-pve\nfirmware-version: 0.4-4\nexpansion-rom-version: \nbus-info: 0000:00:1f.6\nsupports-statistics: yes\nsupports-test: yes\nsupports-eeprom-access: yes\nsupports-register-dump: yes\nsupports-priv-flags: yes\n\n已经尝试更换网线并按照下面两个帖子的建议关闭了 tso\nhttps://forum.proxmox.com/threads/e1000e-network-issue-on-proxmox.139141/\nhttps://forum.proxmox.com/threads/e1000-driver-hang.58284/page-8#post-390709\n但在持续高负载时还会出现上述问题，这个问题是在用 Rsync 恢复备份的时候发现的，尝试用 --bwlimit 限制 Rsync 到 50M, 40M, 30M 。\n但均无法解决问题，难道只有硬改网卡了吗？",
           "link": "https://www.v2ex.com/t/1108030",
           "publishedOn": "2025-01-27T00:32:15.000Z",
-          "wordCount": 595,
+          "wordCount": 627,
           "title": "Intel E1000E 网卡高负载断流",
           "imageUrl": null
         },
@@ -326,7 +520,7 @@
           "description": "liyudong770: \nhttps://apps.apple.com/cn/story/id1779877228\n请问如何下载 app store 首页的图片和视频，谢谢",
           "link": "https://www.v2ex.com/t/1108029",
           "publishedOn": "2025-01-27T00:25:57.000Z",
-          "wordCount": 429,
+          "wordCount": 443,
           "title": "请问如何下载 app store 首页的图片和视频，谢谢",
           "imageUrl": null
         },
@@ -346,7 +540,7 @@
           "description": "netabare: 这问题之前就遇到，但是特别诡异，大体上，是每次写顺手的时候，要从中文切换到英文，或者反过来，都会出现切不回去的问题。\n一开始想要复现「每次都没复现成功，但是在不想复现的时候它一定会复现」，简直见了鬼了，还以为是这输入法成精了。\n后来才意识到可能是快速切换的时候会出现延时和回退，复现的时候大概率输入速度放慢反而无法复现。然后有过盯着右上角的输入法图标，发现输入法从 EN 闪成了中文然后秒变回去的情况，也有压根没闪一直在 EN 的情况。\n然后就这样一直受这个问题困扰然后搜索也找不到啥东西的状态。\n最后还是在 v 站找到了解决方案。\n以下是参考的一些先前的讨论串：\nhttps://www.v2ex.com/t/832952 （这个对我无效）\nhttps://v2ex.com/t/851971 （这里面提到了 Karabiner ，但我更倾向于更简单的解决方案，不过里面提到了这个机制可能的工作原理）\nhttps://hk.v2ex.com/t/1007071 \n然后这里面提到了一个放在 GitHub 上的小工具：\nhttps://github.com/gkpln3/CapsLockNoDelay\n这个工具里面建议先试用以下代码：\n```bash\nhidutil property --set '{\"CapsLockDelayOverride\":0}'\n```\n这个代码对我无效。所以我选择继续安装这玩意。\n然后发现困扰大半年（不止）的这个鬼问题消失了。刚才打这一大段文字的时候切了好几次中英文，都没有延迟，舒服了。\n发这个贴也只是想给后来人一个指路，毕竟先前那个贴子的 23 楼看起来没太多人看到过，要不是我这段时间有事没事搜这个鬼问题可能也不一定会发现这个解决办法。",
           "link": "https://www.v2ex.com/t/1108027",
           "publishedOn": "2025-01-26T22:31:15.000Z",
-          "wordCount": 424,
+          "wordCount": 426,
           "title": "终于解决了困扰大半年（不止）的 Caps 切换中英文不顺手的问题了",
           "imageUrl": null
         },
@@ -356,7 +550,7 @@
           "description": "littlemcdull: \n出国之前就看到很多人在说“只有穷人和有钱人适合移民，中产不适合”，今天就来聊下这个话题。\n穷人\n首先来说下穷人或者低收入的人适合移民，我感觉这就是一句正确的废话，就像说炒股票，你只要低买高卖就能赚钱一样滑稽，低买高卖当然能赚钱了，问题关键是怎么才能做到低买高卖。\n首先来说低收入的人有几个会产生“移民”的想法的？\n就算产生移民想法了，如何出去？通过劳务输出？出去了护照被收上去？这其中大概率会被别有用心的人诈骗吧，就算没被骗，后面如何拿身份？靠刷盘子是移不了名吧？各个国家对移民职业都有列表，里面压根就没有刷盘子这种职业。除了职业要求大部分国家拿身份是需要英语成绩的吧，你们觉得有几个低收入的人是能通过英语考试的？\n如果你非要说走线、黑在当地，这是非法移民，不在讨论范围内。\n有钱人\n再来说下有钱人，我当然不是有钱人，我没离职前顶多算个小康，聊有钱人的生活难免会闹出“皇帝也用金锄头”这样的笑话，但说“穷人和有钱人适合移民”的那些人他们也不是有钱人，所以我想着不妨我们菜鸡互啄一下，大家就当听个乐\n有钱人的概念太宽泛了，\n那我们就从最有钱的人开始聊，最有钱的人的生意肯定是和一个国家的国民经济深度绑定在一起了，我相信大家脑子里面已经蹦出几个名字了，你们觉得这些最有钱的人真的想走就能走的了？他能把资产带走？你要是说这些最有钱的人可以不需要把全部资产都带走，带一部分就足够生活了，我想说最有钱的人不一定比我们普通人自由多少。\n然后就再低一级的有钱人，我想这些人把老婆、孩子送到国外主要的目的是为了躲避风险吧，毕竟万一哪天进去了，至少家人还能在国外享福，这部分有钱人应该是一个人在国内捞钱，家人在外面享受，他们移民是为了避险，甚至只能只能选择出去，这和我们普通人说的移民压根就不是一个事。\n然后就再低一级的有钱人，他们享受着各种特供服务，我是实在想不出这种人有几个是想移民的…",
           "link": "https://www.v2ex.com/t/1108026",
           "publishedOn": "2025-01-26T21:39:54.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "啥？中产不适合移民？聊聊我为什么适合移民",
           "imageUrl": null
         },
@@ -376,7 +570,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108024",
           "publishedOn": "2025-01-26T20:09:50.000Z",
-          "wordCount": 425,
+          "wordCount": 453,
           "title": "现在手机游戏冷启动一个比一个慢，是否是为了延长轻度玩家游戏时间有意为之的行为？",
           "imageUrl": null
         },
@@ -416,7 +610,7 @@
           "description": "wodexinhaoleng: 用的 wechaty ，但是手机退出以后，服务器登的微信也会跟着退。这咋解决啊，不可能手机一直登啊，总有没电关机的时候呀。\n有没有什么解决方案可以单挂一个在服务器上，和手机不影响的？",
           "link": "https://www.v2ex.com/t/1108019",
           "publishedOn": "2025-01-26T17:26:31.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "老哥们，求教个微信机器人的问题",
           "imageUrl": null
         },
@@ -426,7 +620,7 @@
           "description": "revival83: 实在不喜欢这个软件…",
           "link": "https://www.v2ex.com/t/1108018",
           "publishedOn": "2025-01-26T17:18:52.000Z",
-          "wordCount": 467,
+          "wordCount": 545,
           "title": "除了爱思，还有什么办法把微信降级到 8.0.54？",
           "imageUrl": null
         },
@@ -436,7 +630,7 @@
           "description": "YoungAsen: \n成本 299 元\n选购的是 akko 家的德国 cn2 gia 线路，电信联通回城 gia ，移动回城 cmin2,电信联通去程 gia ，移动去程直连\n线路表现非常不错，性价比很高。\n\n\n我用它自建了一个 teamspeak 的服务器，我的几个朋友都在国内，移动联通电信都有，实际上移动在使用上延迟也不会明显比联通电信高，并且丢包率也是 0\n如果有想使用的朋友可以联系我，只收成本价，预计找五个人摊。",
           "link": "https://www.v2ex.com/t/1108017",
           "publishedOn": "2025-01-26T17:14:11.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "我自己搭建了一个欧洲回国的 teamspeak 服务器",
           "imageUrl": null
         },
@@ -446,7 +640,7 @@
           "description": "bfc: \n简单做了个测试页面： https://copyai-kappa.vercel.app/",
           "link": "https://www.v2ex.com/t/1108016",
           "publishedOn": "2025-01-26T16:46:54.000Z",
-          "wordCount": 385,
+          "wordCount": 389,
           "title": "CopyAI，一键复制一个和别人差不多的图片获取流量",
           "imageUrl": null
         },
@@ -456,7 +650,7 @@
           "description": "neilxu: 咸鱼掏的在保箱说全的 ax4200 ，现在自用 ax3000 。\n稳定用了两天，今天家里米家设备突然连不上，逐渐手机电脑也上不了网，经排查：\n路由器 DHCP 的地址池是 192.168.1 段的，手机电脑获取的地址是 192.168.0 段的。\n从官改固件还原回官方固件（官网下的）、重置过、路由器只插一个 WAN 口、无 U 盘、重设过地址池为 192.168.50 段\n手机电脑忽略 SSID ，重新连依然是 192.168.0 段。\n想问下是 ax4200 有什么新功能、新选项要改吗？我照着旧路由器设置也不行。\n实在不行就走售后了。。。",
           "link": "https://www.v2ex.com/t/1108015",
           "publishedOn": "2025-01-26T16:07:27.000Z",
-          "wordCount": 394,
+          "wordCount": 359,
           "title": "用华硕 ax4200 路由器的麻烦进来看下，奇怪的问题",
           "imageUrl": null
         },
@@ -486,7 +680,7 @@
           "description": "ysxb1145: \n如题，问一下大佬们有没有适合计算机小白的入门读物，能激发兴趣更好，对过是个妹子，感觉不应该像爷们一样😂",
           "link": "https://www.v2ex.com/t/1108010",
           "publishedOn": "2025-01-26T15:17:02.000Z",
-          "wordCount": 476,
+          "wordCount": 487,
           "title": "求推荐计算机小白入门读物",
           "imageUrl": null
         },
@@ -506,158 +700,8 @@
           "description": "dengyiquan: \n打算假期一个人去游玩，不知道去哪？",
           "link": "https://www.v2ex.com/t/1108007",
           "publishedOn": "2025-01-26T14:32:19.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "一个人适合去哪里旅游？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108005",
-          "author": "li8888",
-          "description": "li8888: \n兄弟们，有没有 claude 的 artifacts 的平替啊，收费的或者开源的，能自己填个 key 能用的最好",
-          "link": "https://www.v2ex.com/t/1108005",
-          "publishedOn": "2025-01-26T14:19:03.000Z",
-          "wordCount": 442,
-          "title": "求一个类似 claude 的 Artifacts 的替代",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108003",
-          "author": "importmeta",
-          "description": "importmeta: \n设置 隐私设置 系统权限 相册权限 允许识别并分析相册内容.\n我是怎么发现/怀疑的?\n那天晚上给我推荐了跟我长得神似的一个主播, 我前两天自拍了好多照片.\n然后引起了我的警觉, 翻到了这个配置.\n要是真的作恶, 迟早天收.",
-          "link": "https://www.v2ex.com/t/1108003",
-          "publishedOn": "2025-01-26T14:09:45.000Z",
-          "wordCount": 598,
-          "title": "抖音默认会扫描你的相册",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108001",
-          "author": "burden7",
-          "description": "burden7: \ngithub\npub.dev\n效果预览\n由于事情杂乱+太不自律，feature_guider 的 1.0.0 版本耗了一年多才更新，本次更新主要功能：\n支持自定义提示内容 Widget （ 0x 版本只支持文本）\n重新定义了 position 枚举\n修复了 duration 等参数失效的 bug\n欢迎大家使用，有任何问题或需求 v 站或者直接提出 issue ！\n有帮助的话麻烦给个 star ，感激不尽",
-          "link": "https://www.v2ex.com/t/1108001",
-          "publishedOn": "2025-01-26T13:53:19.000Z",
-          "wordCount": 404,
-          "title": "二年磨一剑， Flutter 功能引导库 feature_guider 更新啦！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107998",
-          "author": "zhwguest",
-          "description": "zhwguest: \n想拿来膜拜一下，V3 和 R1 的。还有量化方案也在里面么？",
-          "link": "https://www.v2ex.com/t/1107998",
-          "publishedOn": "2025-01-26T13:42:24.000Z",
-          "wordCount": 478,
-          "title": "deepseek 的源代码开源在哪里啊？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107997",
-          "author": "xyz3210",
-          "description": "xyz3210: 目前 HN 这里。晚高峰电信 5G 到联通家宽没有限速，移动家宽到联通家宽速率只有 12Mbps ！想问一下，其他地方也是吗？",
-          "link": "https://www.v2ex.com/t/1107997",
-          "publishedOn": "2025-01-26T13:30:19.000Z",
-          "wordCount": 390,
-          "title": "跨网限速问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107994",
-          "author": "zachary99",
-          "description": "zachary99: 支付宝付款了，好几天了完全没有后续反应。tg 群全身诈骗广告，QQ 群也禁止加入了，我在支付宝已经举报了",
-          "link": "https://www.v2ex.com/t/1107994",
-          "publishedOn": "2025-01-26T13:03:31.000Z",
-          "wordCount": 365,
-          "title": "小黑屋作者是否已经跑路",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107993",
-          "author": "pureGirl",
-          "description": "pureGirl:",
-          "link": "https://www.v2ex.com/t/1107993",
-          "publishedOn": "2025-01-26T12:49:38.000Z",
-          "wordCount": 386,
-          "title": "cursor 付费了还是用不了自动补全怎么办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107992",
-          "author": "unt",
-          "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
-          "link": "https://www.v2ex.com/t/1107992",
-          "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 602,
-          "title": "有没有人评论一下日本本地人的居住水平",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107991",
-          "author": "uselessVisitor",
-          "description": "uselessVisitor: 如图所示：\nhttps://imgur.com/0JqDoZH",
-          "link": "https://www.v2ex.com/t/1107991",
-          "publishedOn": "2025-01-26T12:30:49.000Z",
-          "wordCount": 368,
-          "title": "抖音安卓客户端，左下角突然出现标签，重启应用无效，怎么办？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107990",
-          "author": "hubayi",
-          "description": "hubayi: \n一做计划就头大",
-          "link": "https://www.v2ex.com/t/1107990",
-          "publishedOn": "2025-01-26T12:28:07.000Z",
-          "wordCount": 398,
-          "title": "现在旅游跟团哪个软件好？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107988",
-          "author": "iampure",
-          "description": "iampure: \n大家好，我是之前的💧回血计划的作者，我做的事情是把券商开户的邀请人奖励，返还一半给被邀请人，比如华盛，你走我的邀请码注册，我可以得到 400hkd 现金，我拿到奖励之后返给你现金 200hkd ，你自己的新用户奖励照常。\n现在和长桥、老虎、华盛都有合作，走我的 code 获得的奖励（可能是）全网最高的。\n另外这次增加下，香港两家银行可以薅的开户奖励，分别是 welab bank 和 fusion bank 。\nwelab bank 拿 300 hkd （有邀请上限，提前联系确认活动还在不在）\n你开户往里存 2000 hkd ，你拿 200hkd ，我这里拿 200hkd ，我转你一半，你得 300 hkd 。\n邀请码：FPK10R\n下载方式：App Store 或 Google Play 搜索 WeLab Bank\n\nfusion bank （无邀请上限，直接冲）\n邀请码：CASH2D3S\n送你一个+16.8%加息券，我得 100hkd ，分你一半，也就是 50hkd 。\n最低存 1 万港币，最高 10 万港币，存一周，最高可以拿 322hkd ，截止时间 2025.3.31\n下载方式：搜索 Fusion Bank App ，开户填写我的邀请码 CASH2D3S ，成功开户后，即获+16.8%加息券一张。\n开户链接： https://www.fusionbank.com/h5/coupon/index.html?inviteCode=CASH2D3S\n最后 & 联系方式\n最后，我返奖励也是为了赚钱，只不过更坦诚一些，在家呆着也是呆着，搞口饭吃，请多包涵。\n🌐 回血计划 Telegram 群：@HKCashback\n📺 回血计划 Telegram 频道：@augustoffcial\n✈️ Telegram ID：iamaugusts\n\n盲盒抽奖\n另外从老虎那里搞了几个盲盒、抱枕还有几个 U 形枕，抽选 10 位用户送出，截止时间为年后上班的第二天（ 2 月 6 日），礼物根据评论顺序优先挑选，回帖即可参与抽奖，不需要留邮箱，截止之后我会在 [1 - 楼层总数] 之间随机出 10 个数字，对应楼层的朋友即为中奖者。\n抽中的朋友我会 @ 你，届时「 V2EX > 提醒系统」会通知你，你将通知你的截图发送邮件到 bilges-roar-95@icloud.com 或者加我微信即可，邮件标题为「 v 站抽奖」。\n结束，新年快乐。",
-          "link": "https://www.v2ex.com/t/1107988",
-          "publishedOn": "2025-01-26T12:08:15.000Z",
-          "wordCount": 505,
-          "title": "[送周边] 💧回血计划新加入两家香港银行，可领 300 港币+",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107987",
-          "author": "amiwrong123",
-          "description": "amiwrong123: \n看主板商品页面写的是 6 相供电。\n另外，也想问下这个主板兼容内存条的情况。（问客服，说没有兼容列表。。不行就只买海力士 A die 的好了）\nPS：硬件知识有点欠缺，正在学习中，这个问题求大佬们解答。",
-          "link": "https://www.v2ex.com/t/1107987",
-          "publishedOn": "2025-01-26T11:55:51.000Z",
-          "wordCount": 388,
-          "title": "精粤 H610M-D plus wifi，搭 i5-12490f，能带得动吗？兼容内存条？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107986",
-          "author": "libasten",
-          "description": "libasten: 小朋友用的斑马 AI 点读笔，提示要更新数据内容，我看接口是 micro-usb ，就随便在家里找个线插上，结果电脑识别不了。\n然后看网站上教程，几次提到“原装”数据线，好家伙，家里好些个数据线早混在一起了，也不知道有没有这个“原装”的，试了好几条，基本上都是指示灯亮，但是电脑识别不到设备。\n最后终于有一条成功了，莫非就是原装的，赶紧做好标记。\n难道不是只有 Type-C 时代才有各家私有协议的？\n充电头管理还好，现在各家数据线也独占协议，管理太烦了。",
-          "link": "https://www.v2ex.com/t/1107986",
-          "publishedOn": "2025-01-26T11:35:38.000Z",
-          "wordCount": 426,
-          "title": "Micro-USB 数据线也有什么私有协议吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107985",
-          "author": "airportIllIl",
-          "description": "airportIllIl: \n各位大佬，请问一加 Ace3pro 和 Ace5 怎么选，叠加国家补贴后 16+512G 的价格相差不到一百块",
-          "link": "https://www.v2ex.com/t/1107985",
-          "publishedOn": "2025-01-26T11:35:31.000Z",
-          "wordCount": 378,
-          "title": "请教下手机选择",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1107984",
-          "author": "lance1ot",
-          "description": "lance1ot: \n起因：收到系统通知显示账户交易违规，暂停收款功能一个月(p1)\n背景：几年前为了免手续费提现开通了商家服务\n经过：我在这个月内的交易只有 4 笔，且全是和阿里官方的交易，没有和第三方交易(p5)。这一年多来都没有使用过二维码收款(p6)。我没有任何违规/试图违规的操作。\n方案：自助解限(p2)。人脸识别+签署承诺函(p3)\np1-p2-p3\np4-p5-p6\n我不爽的点在于：我完全没有违规交易，没有收款，更没有违规收款，凭什么要我签承诺书。这就像：你去商场买东西，老板说你偷东西把你关小黑屋，但是又拿不出证据证明你偷东西，让你签《再也不偷东西保证书》，说以后如果再偷就关更久。是个正常人都不会签吧\n要求：请客服复核，要么说明我的违规操作，要么人工解除限制。（咽不下这口气）\n结果：找了两次客服，没有用，最后的解决方案要么我自己签承诺书，要么等 30 天。\n跟客服的详细对话：\n转接到二级客服，自称“洛溪”。\n我：请你查看我这个月的交易记录，有哪一笔是违规的？\n客服：有些交易记录不会显示\n我：那我怎么证明？你们系统里肯定会有详细记录\n客服：这个限制是系统多维度判断得出的结果\n我：我理解系统会犯错，所以现在我请你人工复核\n客服：您这是商家服务，系统检测您的经营模式发生了变化，请问是开餐馆还是什么？\n我：这和我违规交易有什么关系吗？我是个生意惨淡的商家，没有任何收款，这也违规了吗？\n客服：不是这个意思\n更讽刺的是，在我的收款页面下方（ p4 ），还有“邀你成为支付宝商家 收钱享提现免费”\n一直对支付宝印象都不差，结果这两天彻底改观，被恶心到了",
-          "link": "https://www.v2ex.com/t/1107984",
-          "publishedOn": "2025-01-26T11:33:44.000Z",
-          "wordCount": 386,
-          "title": "被支付宝背刺的一次体验",
           "imageUrl": null
         }
       ]
