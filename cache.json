@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -157,23 +163,6 @@
           "wordCount": 1052,
           "title": "第206期 - 标致的狗",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -357,7 +346,7 @@
           "description": "djasdjds: 家里的很多事真是不知道如何是好，先从我姐说起吧，我家在北方的农村家庭，从小就很穷，什么东西都得平分，不怎么富裕的家庭，我姐性格从小就特别自私，认为我妈偏我，什么都留给我。但是她从小的性格，我已经想不通是本性还是怎么发展出来的。\n  \n  我姐从小学习很好，都是年级前几，这让我从小经受着父母的辱骂和捶打，人身攻击各种，初中时候开始，就变本加厉，什么都跟我姐比，我姐比我大三岁，我初一，她高一，考入了我们县城的高中尖子班，导致我的初中，只要玩耍，都要被骂是个玩货，各种难听的，我在初中时候基本全班前 10 ，但是总有个姐比较。父母对我们的学习十分看重，我爸是村里小学的老师，身处教师家庭，那种痛苦不言而喻，基本没什么童年，从小没啥玩伴，在家里，不能出门，视线里离开，回来就要骂又去哪里害人了。有什么同学如果路上碰到或者提到被我爹妈知道，都要查户口本他家哪里的，父母干嘛的，所以从小基本没可能有同学或者朋友来我家里，也根本没可能。父母只会骂你让你学习，不然就像他们农村务农种地。我姐从小基本没干过什么农活，也许是保护的比较好，我则是分担家里，每当干活的时候，背麦子、抬粮食袋子，都要被夸长大了。\n  \n  我姐大学上了省内的 211 大学，也是第一次离开了家里去外面了，但在专业上面，从小逆来顺受，没有自己的主见，也不知道选什么，父母专门咨询了混的好的亲戚，推荐学了当年火热的医学，但是没学临床，学的药学，而我姐的同学，也有好几个女生，从小也是她的同学，学习都比较好，也学的医学，临床偏多。我是觉得她肯定不适合临床，专业并没有什么问题，但是多年后，变成了她埋怨父母的又一理由。大学刚开始，我姐和家里沟通很多，后来基本发消息不回了，我爸去她的城市，很多时候觉得我爸妈丢脸不想见，很不情愿。她大学时候，看耽美小说，工作后，看的肖战王一博这种小鲜肉类型的电视剧，我也不懂是哪一种群体。大三考…",
           "link": "https://www.v2ex.com/t/1108137",
           "publishedOn": "2025-01-27T16:28:16.000Z",
-          "wordCount": 613,
+          "wordCount": 644,
           "title": "原生家庭，过年刚回家和家里白眼狼姐打起来了",
           "imageUrl": null
         },
@@ -387,7 +376,7 @@
           "description": "zachary99:  [手机游戏性能终极大横评！掉帧？发热？作弊？猫腻太多！-哔哩哔哩]  https://b23.tv/jtSoJ5r\n\n苹果芯片的优势很弱了，没想到的是谷歌的处理器这么拉，比华为还拉",
           "link": "https://www.v2ex.com/t/1108131",
           "publishedOn": "2025-01-27T15:32:24.000Z",
-          "wordCount": 355,
+          "wordCount": 362,
           "title": "极客湾对 2024 年性能手机的评测",
           "imageUrl": null
         },
@@ -487,7 +476,7 @@
           "description": "xiniu: \n我有一个 sim 卡，可以走国际漫游，访问国外的网站。以此为前提，有这样一个需求\n当访问国外网站的时候，走 sim 卡\n当访问国内网站的时候，走宽带服务\n目前，我找到的方法是，弄一个带 sim 卡的软路由设备，搭载 openwrt 系统，插上 sim 卡和宽带后，进行流量分流。「只是资料中查到，没有实际操作过」。\n现在想问问上述方案是否合适，如果合适，有没有这种软路由设备推荐。另外，不要推荐全局代理或者什么。这个场景就是 sim 卡和宽带服务。感谢。",
           "link": "https://www.v2ex.com/t/1108120",
           "publishedOn": "2025-01-27T14:25:29.000Z",
-          "wordCount": 478,
+          "wordCount": 527,
           "title": "流量分流，国外的走 SIM 卡，国内的走宽带",
           "imageUrl": null
         },
@@ -607,7 +596,7 @@
           "description": "Vneix: \n如题，最好是京东自营就能买到的，谢谢。\n目的是\n内部网络：电脑手机等设备，WPA3 加密\n访客网络 1：智能家居，WPA2/WPA3 加密\n访客网络 2：客人使用，WPA2/WPA3 加密\n（不知道这样划分合理吗？）",
           "link": "https://www.v2ex.com/t/1108107",
           "publishedOn": "2025-01-27T12:59:25.000Z",
-          "wordCount": 513,
+          "wordCount": 525,
           "title": "求问有没有支持两个或以上访客 WIFI 的路由器？",
           "imageUrl": null
         },
@@ -677,7 +666,7 @@
           "description": "daishuge: \n设备是树莓派 5 8GB RAM 版本\n目前用 256GB ssd 做系统盘，打算用 2TB+500GB 西数蓝盘做 nas 储存\n日常会运行个 Minecraft 服务器，用 alist 存存文件\n希望有投屏到局域网电视功能\n目前习惯使用 Debian 系系统\n希望有类似绿联 nas 的应用或者 web\n感谢各位！新年快乐！",
           "link": "https://www.v2ex.com/t/1108100",
           "publishedOn": "2025-01-27T11:56:02.000Z",
-          "wordCount": 458,
+          "wordCount": 461,
           "title": "请问树莓派做 nas 有什么好用的系统？",
           "imageUrl": null
         },
