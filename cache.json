@@ -114,6 +114,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -147,23 +153,6 @@
           "wordCount": 1052,
           "title": "第206期 - 标致的狗",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -297,7 +286,7 @@
           "description": "jsjcjsjc: 有对海外版三星手机比较了解的吗？\n不想用 iphone 了，想试试三星 s25u,就两个硬性要求\n1.至少一个物理卡槽+esim ，因为有国内手机号和美国手机号\n2.频段尽可能多，经常国外国内跑\n有推荐的吗？美版，欧版，奥版，港版？\n感谢",
           "link": "https://www.v2ex.com/t/1108033",
           "publishedOn": "2025-01-27T00:49:58.000Z",
-          "wordCount": 388,
+          "wordCount": 409,
           "title": "有对海外版三星手机比较了解的吗？",
           "imageUrl": null
         },
@@ -307,7 +296,7 @@
           "description": "hutusi: \n2024 年，我年满四十。\n孔子说：“四十不惑”。而但丁却说：“人生过半，我在黑暗森林里迷失了方向。”经历过四十岁前后的挣扎，我更赞同但丁。\n这篇总结是我过去一年的心路历程。2025 年，我将继续在这“黑暗森林”里探索，践行洪堡的名言：\n“在生命最广泛的体验中，提炼出智慧。”\n心猿意马（ 2024 年总结）： https://hutusi.com/articles/restless-mind-2024-review \n——————————————————————————————————\n甲辰年上班最后一天，提前给大家拜年，祝大家新年快乐，万事如意！",
           "link": "https://www.v2ex.com/t/1108032",
           "publishedOn": "2025-01-27T00:45:20.000Z",
-          "wordCount": 421,
+          "wordCount": 456,
           "title": "心猿意马: 一份中年软件工程师的 2024 年终总结",
           "imageUrl": null
         },
@@ -327,7 +316,7 @@
           "description": "lx01xsz: \n设备是 NUC8beki5 ，装了 PVE 。网卡在网络 IO 高负载时会发生问题，syslog 如下。\n现象 1: NUC 网络连接中断，等待几十秒-几分钟后恢复\n现象 2: 协商速率由 1000MB/s 变为 100MB/s ，手动设置为 1000MB/s 后恢复 (网卡和路由器都支持千兆)\nJan 27 23:35:35 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Down\nJan 27 23:35:35 pve kernel: vmbr0: port 1(eno1) entered disabled state\nJan 27 23:35:42 pve kernel:  connection1:0: ping timeout of 5 secs expired, recv timeout 5, last rx 10254116869, last ping 10254121984, now 10254127104\nJan 27 23:35:42 pve kernel:  connection1:0: detected conn error (1022)\nJan 27 23:35:48 pve pvestatd[1233]: status update time (19.582 seconds)\nJan 27 23:36:12 pve kernel: e1000e 0000:00:1f.6 eno1: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx\nJan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered blocking state\nJan 27 23:36:12 pve kernel: vmbr0: port 1(eno1) entered forwarding state\nJan 27 23:36:14 pve iscsid[3627392]: connection1:0 is operational after recovery (3 attempts)\nJan 27 23:36:37 pve pvestatd[1233]: status update time (19.299 seconds)\nJan 27 23:36:38 pve kernel: sd 4:0:0:0: Power-on or device reset occurred\n\n驱动版本信息:\nroot@pve:~# ethtool -i eno1 \ndriver: e1000e\nversion: 6.8.12-4-pve\nfirmware-version: 0.4-4\nexpansion-rom-version: \nbus-info: 0000:00:1f.6\nsupports-statistics: yes\nsupports-test: yes\nsupports-eeprom-access: yes\nsupports-register-dump: yes\nsupports-priv-flags: yes\n\n已经尝试更换网线并按照下面两个帖子的建议关闭了 tso\nhttps://forum.proxmox.com/threads/e1000e-network-issue-on-proxmox.139141/\nhttps://forum.proxmox.com/threads/e1000-driver-hang.58284/page-8#post-390709\n但在持续高负载时还会出现上述问题，这个问题是在用 Rsync 恢复备份的时候发现的，尝试用 --bwlimit 限制 Rsync 到 50M, 40M, 30M 。\n但均无法解决问题，难道只有硬改网卡了吗？",
           "link": "https://www.v2ex.com/t/1108030",
           "publishedOn": "2025-01-27T00:32:15.000Z",
-          "wordCount": 575,
+          "wordCount": 595,
           "title": "Intel E1000E 网卡高负载断流",
           "imageUrl": null
         },
@@ -337,7 +326,7 @@
           "description": "liyudong770: \nhttps://apps.apple.com/cn/story/id1779877228\n请问如何下载 app store 首页的图片和视频，谢谢",
           "link": "https://www.v2ex.com/t/1108029",
           "publishedOn": "2025-01-27T00:25:57.000Z",
-          "wordCount": 406,
+          "wordCount": 429,
           "title": "请问如何下载 app store 首页的图片和视频，谢谢",
           "imageUrl": null
         },
@@ -347,7 +336,7 @@
           "description": "DissDoge: 对今日还在上班的朋友们给予敬意，恭喜我们完成了兢兢业业的一年。\n明天就是中华民族的真正意义上的新年，在此祝大家阖家欢乐、世虑全消。",
           "link": "https://www.v2ex.com/t/1108028",
           "publishedOn": "2025-01-27T00:12:47.000Z",
-          "wordCount": 989,
+          "wordCount": 1096,
           "title": "1.27 号还在打卡上班的朋友们，我们击掌。",
           "imageUrl": null
         },
@@ -357,7 +346,7 @@
           "description": "netabare: 这问题之前就遇到，但是特别诡异，大体上，是每次写顺手的时候，要从中文切换到英文，或者反过来，都会出现切不回去的问题。\n一开始想要复现「每次都没复现成功，但是在不想复现的时候它一定会复现」，简直见了鬼了，还以为是这输入法成精了。\n后来才意识到可能是快速切换的时候会出现延时和回退，复现的时候大概率输入速度放慢反而无法复现。然后有过盯着右上角的输入法图标，发现输入法从 EN 闪成了中文然后秒变回去的情况，也有压根没闪一直在 EN 的情况。\n然后就这样一直受这个问题困扰然后搜索也找不到啥东西的状态。\n最后还是在 v 站找到了解决方案。\n以下是参考的一些先前的讨论串：\nhttps://www.v2ex.com/t/832952 （这个对我无效）\nhttps://v2ex.com/t/851971 （这里面提到了 Karabiner ，但我更倾向于更简单的解决方案，不过里面提到了这个机制可能的工作原理）\nhttps://hk.v2ex.com/t/1007071 \n然后这里面提到了一个放在 GitHub 上的小工具：\nhttps://github.com/gkpln3/CapsLockNoDelay\n这个工具里面建议先试用以下代码：\n```bash\nhidutil property --set '{\"CapsLockDelayOverride\":0}'\n```\n这个代码对我无效。所以我选择继续安装这玩意。\n然后发现困扰大半年（不止）的这个鬼问题消失了。刚才打这一大段文字的时候切了好几次中英文，都没有延迟，舒服了。\n发这个贴也只是想给后来人一个指路，毕竟先前那个贴子的 23 楼看起来没太多人看到过，要不是我这段时间有事没事搜这个鬼问题可能也不一定会发现这个解决办法。",
           "link": "https://www.v2ex.com/t/1108027",
           "publishedOn": "2025-01-26T22:31:15.000Z",
-          "wordCount": 411,
+          "wordCount": 424,
           "title": "终于解决了困扰大半年（不止）的 Caps 切换中英文不顺手的问题了",
           "imageUrl": null
         },
@@ -367,7 +356,7 @@
           "description": "littlemcdull: \n出国之前就看到很多人在说“只有穷人和有钱人适合移民，中产不适合”，今天就来聊下这个话题。\n穷人\n首先来说下穷人或者低收入的人适合移民，我感觉这就是一句正确的废话，就像说炒股票，你只要低买高卖就能赚钱一样滑稽，低买高卖当然能赚钱了，问题关键是怎么才能做到低买高卖。\n首先来说低收入的人有几个会产生“移民”的想法的？\n就算产生移民想法了，如何出去？通过劳务输出？出去了护照被收上去？这其中大概率会被别有用心的人诈骗吧，就算没被骗，后面如何拿身份？靠刷盘子是移不了名吧？各个国家对移民职业都有列表，里面压根就没有刷盘子这种职业。除了职业要求大部分国家拿身份是需要英语成绩的吧，你们觉得有几个低收入的人是能通过英语考试的？\n如果你非要说走线、黑在当地，这是非法移民，不在讨论范围内。\n有钱人\n再来说下有钱人，我当然不是有钱人，我没离职前顶多算个小康，聊有钱人的生活难免会闹出“皇帝也用金锄头”这样的笑话，但说“穷人和有钱人适合移民”的那些人他们也不是有钱人，所以我想着不妨我们菜鸡互啄一下，大家就当听个乐\n有钱人的概念太宽泛了，\n那我们就从最有钱的人开始聊，最有钱的人的生意肯定是和一个国家的国民经济深度绑定在一起了，我相信大家脑子里面已经蹦出几个名字了，你们觉得这些最有钱的人真的想走就能走的了？他能把资产带走？你要是说这些最有钱的人可以不需要把全部资产都带走，带一部分就足够生活了，我想说最有钱的人不一定比我们普通人自由多少。\n然后就再低一级的有钱人，我想这些人把老婆、孩子送到国外主要的目的是为了躲避风险吧，毕竟万一哪天进去了，至少家人还能在国外享福，这部分有钱人应该是一个人在国内捞钱，家人在外面享受，他们移民是为了避险，甚至只能只能选择出去，这和我们普通人说的移民压根就不是一个事。\n然后就再低一级的有钱人，他们享受着各种特供服务，我是实在想不出这种人有几个是想移民的…",
           "link": "https://www.v2ex.com/t/1108026",
           "publishedOn": "2025-01-26T21:39:54.000Z",
-          "wordCount": 465,
+          "wordCount": 476,
           "title": "啥？中产不适合移民？聊聊我为什么适合移民",
           "imageUrl": null
         },
@@ -377,7 +366,7 @@
           "description": "readman: 我在美国。应该不是 VPN 问题。。。。\nqbittorrent:\n        stdin_open: true\n        tty: true\n        image: nevinee/qbittorrent:4.3.9\n        container_name: qbittorrent\n        environment:\n            - PUID=1026\n            - PGID=1000\n            - TZ=Etc/UTC\n            - QB_USERNAME=xxx\n            - QB_PASSWORD=xxx\n            - WEBUI_PORT=8080\n            - TORRENTING_PORT=6881\n            - ENABLE_AUTO_CATEGORY=true\n            - CATEGORY_OR_TAG=category\n            - CRON_AUTO_CATEGORY=32 */2 * * *\n        volumes:\n            - /volume1/docker/qbittorrent:/data/config:rw\n            - /volume5/btcache:/data/downloads:rw #optional\n        ports:\n            - 7001:8080\n            - 6881:6881\n            - 9000:9000\n            - 32109:32109\n            - 6881:6881/udp\n        restart: unless-stopped\n\n不知道该怎么办了",
           "link": "https://www.v2ex.com/t/1108025",
           "publishedOn": "2025-01-26T21:19:33.000Z",
-          "wordCount": 483,
+          "wordCount": 487,
           "title": "群晖上跑 qbittorrent docker， 一直显示 \"下载元数据\", 但是用种子文件直接下载就可以",
           "imageUrl": null
         },
@@ -387,7 +376,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108024",
           "publishedOn": "2025-01-26T20:09:50.000Z",
-          "wordCount": 403,
+          "wordCount": 425,
           "title": "现在手机游戏冷启动一个比一个慢，是否是为了延长轻度玩家游戏时间有意为之的行为？",
           "imageUrl": null
         },
@@ -407,7 +396,7 @@
           "description": "bccah: 平时需要用 u 的地方比较多（日常消费和代购），感觉除了换成 cny 有点麻烦，其他地方都挺方便\n刚开始玩币的时候玩过合约杠杆，感觉大部分情况应该是亏钱。上了倍率经常会去看，不是什么大心脏选手，但市场又是 24 小时运转的。实在没能力玩这个，也不想在这方面投入太多时间。\n现在的想法是，通过交易所的稳定币（ usdt usdc dai ）活期赚币和定投一些热门的币（ eth sol btc ），有一定收益再卖掉重新定投，还有囤 bnb 拿平台奖励，以此来小赚一点。\n听说链上玩 defi 可以随便拿到超过交易所的收益，但考虑流动性和 eth 链的 gas 好像也不便宜，就没深入了。\n想请教一下有没有更好的方案，以及我现在的想法有没有什么问题。",
           "link": "https://www.v2ex.com/t/1108022",
           "publishedOn": "2025-01-26T19:36:26.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "在加密货币获得收益的一些想法，求指点",
           "imageUrl": null
         },
@@ -427,7 +416,7 @@
           "description": "wodexinhaoleng: 用的 wechaty ，但是手机退出以后，服务器登的微信也会跟着退。这咋解决啊，不可能手机一直登啊，总有没电关机的时候呀。\n有没有什么解决方案可以单挂一个在服务器上，和手机不影响的？",
           "link": "https://www.v2ex.com/t/1108019",
           "publishedOn": "2025-01-26T17:26:31.000Z",
-          "wordCount": 386,
+          "wordCount": 397,
           "title": "老哥们，求教个微信机器人的问题",
           "imageUrl": null
         },
@@ -437,7 +426,7 @@
           "description": "revival83: 实在不喜欢这个软件…",
           "link": "https://www.v2ex.com/t/1108018",
           "publishedOn": "2025-01-26T17:18:52.000Z",
-          "wordCount": 442,
+          "wordCount": 467,
           "title": "除了爱思，还有什么办法把微信降级到 8.0.54？",
           "imageUrl": null
         },
@@ -447,7 +436,7 @@
           "description": "YoungAsen: \n成本 299 元\n选购的是 akko 家的德国 cn2 gia 线路，电信联通回城 gia ，移动回城 cmin2,电信联通去程 gia ，移动去程直连\n线路表现非常不错，性价比很高。\n\n\n我用它自建了一个 teamspeak 的服务器，我的几个朋友都在国内，移动联通电信都有，实际上移动在使用上延迟也不会明显比联通电信高，并且丢包率也是 0\n如果有想使用的朋友可以联系我，只收成本价，预计找五个人摊。",
           "link": "https://www.v2ex.com/t/1108017",
           "publishedOn": "2025-01-26T17:14:11.000Z",
-          "wordCount": 387,
+          "wordCount": 394,
           "title": "我自己搭建了一个欧洲回国的 teamspeak 服务器",
           "imageUrl": null
         },
@@ -457,7 +446,7 @@
           "description": "bfc: \n简单做了个测试页面： https://copyai-kappa.vercel.app/",
           "link": "https://www.v2ex.com/t/1108016",
           "publishedOn": "2025-01-26T16:46:54.000Z",
-          "wordCount": 373,
+          "wordCount": 385,
           "title": "CopyAI，一键复制一个和别人差不多的图片获取流量",
           "imageUrl": null
         },
@@ -477,7 +466,7 @@
           "description": "amiwrong123: \n\n风扇正反面如上。\n\n但这个接口有点不太明白了？所以这不是我们常用的 4pin 的接口吗，看起来是 3pin 接口，但是又拓展出来的这个宽大的接口又不知道干嘛用来（而且这个宽大接口的 4 个孔里，只有 2 个孔里有金属）。\nPS：这样的风扇 5,6 个，本来合计想在装机时用上。\nPSS：想买的主板上，只有两个 4pin 的风扇接口，应该是一个给 cpu 散热器，一个给机箱风扇的。",
           "link": "https://www.v2ex.com/t/1108014",
           "publishedOn": "2025-01-26T15:57:26.000Z",
-          "wordCount": 423,
+          "wordCount": 427,
           "title": "帮忙看下我这个机箱风扇是什么接口类型的？",
           "imageUrl": null
         },
@@ -487,7 +476,7 @@
           "description": "majiajia: 有朋友遇到过这种情况不？",
           "link": "https://www.v2ex.com/t/1108011",
           "publishedOn": "2025-01-26T15:33:57.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "iPhone “阻止此来电号码”无效，仍能收到对方发来的信息",
           "imageUrl": null
         },
@@ -497,7 +486,7 @@
           "description": "ysxb1145: \n如题，问一下大佬们有没有适合计算机小白的入门读物，能激发兴趣更好，对过是个妹子，感觉不应该像爷们一样😂",
           "link": "https://www.v2ex.com/t/1108010",
           "publishedOn": "2025-01-26T15:17:02.000Z",
-          "wordCount": 458,
+          "wordCount": 476,
           "title": "求推荐计算机小白入门读物",
           "imageUrl": null
         },
@@ -517,7 +506,7 @@
           "description": "dengyiquan: \n打算假期一个人去游玩，不知道去哪？",
           "link": "https://www.v2ex.com/t/1108007",
           "publishedOn": "2025-01-26T14:32:19.000Z",
-          "wordCount": 362,
+          "wordCount": 375,
           "title": "一个人适合去哪里旅游？",
           "imageUrl": null
         },
@@ -527,7 +516,7 @@
           "description": "li8888: \n兄弟们，有没有 claude 的 artifacts 的平替啊，收费的或者开源的，能自己填个 key 能用的最好",
           "link": "https://www.v2ex.com/t/1108005",
           "publishedOn": "2025-01-26T14:19:03.000Z",
-          "wordCount": 430,
+          "wordCount": 442,
           "title": "求一个类似 claude 的 Artifacts 的替代",
           "imageUrl": null
         },
@@ -537,7 +526,7 @@
           "description": "importmeta: \n设置 隐私设置 系统权限 相册权限 允许识别并分析相册内容.\n我是怎么发现/怀疑的?\n那天晚上给我推荐了跟我长得神似的一个主播, 我前两天自拍了好多照片.\n然后引起了我的警觉, 翻到了这个配置.\n要是真的作恶, 迟早天收.",
           "link": "https://www.v2ex.com/t/1108003",
           "publishedOn": "2025-01-26T14:09:45.000Z",
-          "wordCount": 569,
+          "wordCount": 598,
           "title": "抖音默认会扫描你的相册",
           "imageUrl": null
         },
@@ -547,7 +536,7 @@
           "description": "burden7: \ngithub\npub.dev\n效果预览\n由于事情杂乱+太不自律，feature_guider 的 1.0.0 版本耗了一年多才更新，本次更新主要功能：\n支持自定义提示内容 Widget （ 0x 版本只支持文本）\n重新定义了 position 枚举\n修复了 duration 等参数失效的 bug\n欢迎大家使用，有任何问题或需求 v 站或者直接提出 issue ！\n有帮助的话麻烦给个 star ，感激不尽",
           "link": "https://www.v2ex.com/t/1108001",
           "publishedOn": "2025-01-26T13:53:19.000Z",
-          "wordCount": 399,
+          "wordCount": 404,
           "title": "二年磨一剑， Flutter 功能引导库 feature_guider 更新啦！",
           "imageUrl": null
         },
@@ -557,7 +546,7 @@
           "description": "zhwguest: \n想拿来膜拜一下，V3 和 R1 的。还有量化方案也在里面么？",
           "link": "https://www.v2ex.com/t/1107998",
           "publishedOn": "2025-01-26T13:42:24.000Z",
-          "wordCount": 423,
+          "wordCount": 478,
           "title": "deepseek 的源代码开源在哪里啊？",
           "imageUrl": null
         },
@@ -577,7 +566,7 @@
           "description": "zachary99: 支付宝付款了，好几天了完全没有后续反应。tg 群全身诈骗广告，QQ 群也禁止加入了，我在支付宝已经举报了",
           "link": "https://www.v2ex.com/t/1107994",
           "publishedOn": "2025-01-26T13:03:31.000Z",
-          "wordCount": 363,
+          "wordCount": 365,
           "title": "小黑屋作者是否已经跑路",
           "imageUrl": null
         },
@@ -597,7 +586,7 @@
           "description": "unt: 刚从东京回来，有被东京的繁华震撼到，不愧是亚洲第一甚至世界第一的城市。\n但是据我了解日本的房价并没有那么贵，而且日本平均收入很高（虽然消费也高），那是不是所有人都能买得起房子",
           "link": "https://www.v2ex.com/t/1107992",
           "publishedOn": "2025-01-26T12:48:58.000Z",
-          "wordCount": 580,
+          "wordCount": 602,
           "title": "有没有人评论一下日本本地人的居住水平",
           "imageUrl": null
         },
@@ -657,7 +646,7 @@
           "description": "airportIllIl: \n各位大佬，请问一加 Ace3pro 和 Ace5 怎么选，叠加国家补贴后 16+512G 的价格相差不到一百块",
           "link": "https://www.v2ex.com/t/1107985",
           "publishedOn": "2025-01-26T11:35:31.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "请教下手机选择",
           "imageUrl": null
         },
