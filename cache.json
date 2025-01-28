@@ -303,7 +303,7 @@
           "description": "wuruxu: \n由于现在只有 ipv6 的公网地址，我想通过 ipv6 的公网地址，访问 lan 内部的设备\nipv6 wan --> ipv6 lan 是可以成功的\nipv4 wan --> ipv4 lan 也是可以的\nipv6 wan --> ipv4 lan 始终不成功",
           "link": "https://www.v2ex.com/t/1108238",
           "publishedOn": "2025-01-28T16:12:01.000Z",
-          "wordCount": 437,
+          "wordCount": 446,
           "title": "lan ipv4 的设备可以通过 wan ipv6 进行端口映射吗？",
           "imageUrl": null
         },
@@ -313,7 +313,7 @@
           "description": "jimliang: \n春节过年回家，意外发现家里老母亲被熟人忽悠，花了近十万购入什么周林频谱治疗屋，功能大概类似汗蒸房，宣称能通过\"仿生频谱\"治疗三高、关节炎等老年病，实则连医疗器械备案都查无此证。\n劝了也不信，说人家做了十几年，村里很多都买了，用了有效果。家里有小弟，也有做康复治疗的亲戚，买的时候也不商量，老爸也不停劝说，还是不听，我也是回家了才知道此事。\n这是中国留守老人困境的缩影，日渐衰老的身体再加上见识有限，成为保健品骗局的猎物，我们该如何为父母筑起防护墙？\n网上能找到这个产品，但是描述上看怎么都是智商税，而且主流的电商平台都没有卖的\nhttps://www.zhoulin.com.cn/index.php?c=show&id=3\nhttps://imgur.com/a/GRtlctY",
           "link": "https://www.v2ex.com/t/1108237",
           "publishedOn": "2025-01-28T16:00:31.000Z",
-          "wordCount": 371,
+          "wordCount": 380,
           "title": "家里老人被骗十万买了所谓的频谱治疗屋，农村保健品销售乱象",
           "imageUrl": null
         },
@@ -343,7 +343,7 @@
           "description": "daidr: \n前情提要\n想在 PC 上简单便捷地测试 DualSense ，但是没找到符合自己要求的，所以自己写了一个网页版本，能够通过 WebHID 技术连接手柄。\n截图\n\n这次更新了什么\n代码结构全给重构了一遍（之前的扩展性太差）\n支持同时连接多个手柄，并提供了切换功能\n重绘了一些图片资源，和整体风格更加统一\n支持连接 DualSense Edge ，同时增加了 fnL/fnR/paddleL/paddleR 按键显示\nDualSense Edge 的配置开发中，能够获取 DualSense 的自定义配置名称（还不能编辑）\n支持了工厂信息读取（固件版本/序列号/各部件条码等）\n可视化陀螺仪/加速度计信号，PIXI.js 实现\n完整的离线化 PWA(IWA)支持，安装后可以在无网络情况下使用\n之后计划更新什么\nDualSense Edge 的自定义按键配置/校准\n麦克风/耳机/扬声器测试\n读取 DualSense Edge 可拆卸摇杆模块的序列号\n传送门\n仓库地址： https://gtihub.com/daidr/dualsense-tester\n工具地址： https://ds.daidr.me\n只支持 Chrome 、Edge 这类基于 Chromium 的浏览器，如果使用上遇到了什么问题或是有什么建议，欢迎回帖提 issue\n大伙除夕快乐！\n碎碎念\n为了测试专门破费购入了一个 DualSense Edge 30 周年版",
           "link": "https://www.v2ex.com/t/1108234",
           "publishedOn": "2025-01-28T15:15:35.000Z",
-          "wordCount": 428,
+          "wordCount": 443,
           "title": "趁着春节更新了一下自己开源的 DualSense 测试网站，支持了 DualSenseEdge",
           "imageUrl": null
         },
@@ -363,7 +363,7 @@
           "description": "VisualStudioCode: \nhttps://www.ithome.com/0/827/764.htm\nhttps://www.reddit.com/r/mac/comments/1h0xwn8",
           "link": "https://www.v2ex.com/t/1108232",
           "publishedOn": "2025-01-28T14:37:14.000Z",
-          "wordCount": 402,
+          "wordCount": 404,
           "title": "用户称 MacBook Pro 车祸中被毁， AppleCare+ 拒赔",
           "imageUrl": null
         },
@@ -383,7 +383,7 @@
           "description": "jsomin: \n终于等到了，女神老了，看一场少一场，希望女神能一直唱下去-Faye Wong",
           "link": "https://www.v2ex.com/t/1108230",
           "publishedOn": "2025-01-28T13:46:20.000Z",
-          "wordCount": 379,
+          "wordCount": 383,
           "title": "春晚只为看王菲",
           "imageUrl": null
         },
@@ -413,7 +413,7 @@
           "description": "hereis00: 最近想拍个小电影，发现手头的 Apple 设备都能显示 10bit/HDR 内容\n遂大喜，抓起自己的松下 G9 录了点 V-log 素材去达芬奇剪\n根据 B 站的杜比视界的制作流程分享 https://www.bilibili.com/video/BV1jA4m157UG/ 看了看发现…\n我 Macbook Air M1 的显示设置根本就没有“预置”的选项，\n颜色配置文件里也找不到“HDR Video ST-2084”，\n去线下零售店看了看 Pro 款才发现这个预设会将桌面白色锁在 203nit ，\n整个显示器的伽马曲线会变成 PQ 曲线（就是预置写的 ST-2084 ），\n而自己 Air 可选的每个颜色配置文件，都没有 HDR 用的伽马曲线（ PQ 或 HLG ）…\n所以自己达芬奇调色预览时会感觉欠曝、欠饱和。\n之后也试了试 Final Cut Pro ，这个更惨，项目设置连 Rec2020 HLG 的选项都不给。\n有没有对 Mac 显示机制了解比较深的老哥，\n想问问怎样用非正常手段将 Air 伽马曲线强行改为 PQ 或 HLG ，\n不然的话我就要当波形图战士了",
           "link": "https://www.v2ex.com/t/1108226",
           "publishedOn": "2025-01-28T13:17:51.000Z",
-          "wordCount": 501,
+          "wordCount": 503,
           "title": "库克等级森严使我 air 无力战胜 HDR 剪辑",
           "imageUrl": null
         },
@@ -423,7 +423,7 @@
           "description": "nightnotlate: 经典相声我听得还算比较多，\n感觉讲相声的就像一个大师，\n台上不动声色地抖包袱 台下乐得捂着肚子，\n是一门很有技术含量的艺术，\n你要比观众高几个段位 才能逗笑他们。\n但岳云鹏的 是真不喜欢，\n他给我的印象，就是那种卖蠢 卖丑 卖笨拙，\n就像个小丑（不是骂人） 靠卖弄自己的愚笨，\n靠自低身份来让人笑，这就很下乘了。\n印象里他在春晚的相声都不咋样，\n但很奇怪 火的莫名其妙\n五环之歌也火了，那首歌就是他的风格写照，卖蠢，而他还当包袱多次自己引用......",
           "link": "https://www.v2ex.com/t/1108225",
           "publishedOn": "2025-01-28T13:01:41.000Z",
-          "wordCount": 609,
+          "wordCount": 611,
           "title": "很不喜欢岳云鹏的相声",
           "imageUrl": null
         },
@@ -463,7 +463,7 @@
           "description": "huntagain2008: \n记录父亲的回答：\n短视频的专家讲解得非常好，通俗易懂，远比新闻中那些难以理解的术语，比如“gpt”或“chatGPT”要好得多。\n微信的普及程度非常高，还有移动支付功能，使用的人那么多，你怎么能不使用微信呢？\n年利率下降对银行来说是个好消息，和俄罗斯银行 20%的利率相比，倒闭风险要低得多。中国的银行都是国有的，非常稳健。\n我的华为 Mate60 运行得很流畅，我使用的是鸿蒙 OS ，没有升级到纯血鸿蒙是因为需要玩游戏，纯血鸿蒙不支持我玩的游戏。而且 Mate70 及以上才可以升级到鸿蒙 Next 。\n你怎么能不爱国呢？看看中国有那么多民族，从古至今都渴望统一。\n美剧《星际之门》简直就是肥皂剧，只有一个破门，拍摄得很简陋。我现在在看《大奉打更人》，真是欢乐。\n疫情的来源是什么呢？我跟你说，以前的非典就有一种说法：“吸烟者对非典高度免疫”。在非典发生的两年前，世界卫生组织曾呼吁吸烟致癌，导致国内吸烟人数减少，结果非典随即爆发。你看，这时间刚好吻合。美国为什么也有疫情，那是美国自己误伤了自己。\n你妈妈就应该把你搞到美国去，到时候讨饭都没人理你\n（真的是每年和父亲有类似的谈话，实在是太没意思了）",
           "link": "https://www.v2ex.com/t/1108220",
           "publishedOn": "2025-01-28T11:45:34.000Z",
-          "wordCount": 487,
+          "wordCount": 491,
           "title": "2025-01-28.与父亲的一次面谈",
           "imageUrl": null
         },
@@ -613,7 +613,7 @@
           "description": "KingZZZZ: \n车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？",
           "link": "https://www.v2ex.com/t/1108203",
           "publishedOn": "2025-01-28T08:29:48.000Z",
-          "wordCount": 441,
+          "wordCount": 443,
           "title": "车辆被撞",
           "imageUrl": null
         },
@@ -683,7 +683,7 @@
           "description": "angelinamott3772:",
           "link": "https://www.v2ex.com/t/1108192",
           "publishedOn": "2025-01-28T07:21:25.000Z",
-          "wordCount": 437,
+          "wordCount": 439,
           "title": "兄弟们 o1 和 o1 mini 炸了 model not found",
           "imageUrl": null
         },
@@ -693,7 +693,7 @@
           "description": "ooops: \n\n然后一顿瞎说，目前测下来只有豆包是对的。",
           "link": "https://www.v2ex.com/t/1108191",
           "publishedOn": "2025-01-28T07:14:42.000Z",
-          "wordCount": 631,
+          "wordCount": 633,
           "title": "好多 AI 都识别不出来这是啥字",
           "imageUrl": null
         },
@@ -703,7 +703,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108190",
           "publishedOn": "2025-01-28T07:12:18.000Z",
-          "wordCount": 532,
+          "wordCount": 577,
           "title": "如果 AES 无法用 GCM 模式，用明文 hash 作为 IV 以实现完整性校验是一个好的实现吗？",
           "imageUrl": null
         },
