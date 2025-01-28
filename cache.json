@@ -124,6 +124,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -147,23 +153,6 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -357,7 +346,7 @@
           "description": "ZRS: https://v2ex.com/t/1091359",
           "link": "https://www.v2ex.com/t/1108204",
           "publishedOn": "2025-01-28T08:47:52.000Z",
-          "wordCount": 387,
+          "wordCount": 392,
           "title": "iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题",
           "imageUrl": null
         },
@@ -367,7 +356,7 @@
           "description": "KingZZZZ: \n车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？",
           "link": "https://www.v2ex.com/t/1108203",
           "publishedOn": "2025-01-28T08:29:48.000Z",
-          "wordCount": 420,
+          "wordCount": 430,
           "title": "车辆被撞",
           "imageUrl": null
         },
@@ -447,7 +436,7 @@
           "description": "ooops: \n\n然后一顿瞎说，目前测下来只有豆包是对的。",
           "link": "https://www.v2ex.com/t/1108191",
           "publishedOn": "2025-01-28T07:14:42.000Z",
-          "wordCount": 577,
+          "wordCount": 597,
           "title": "好多 AI 都识别不出来这是啥字",
           "imageUrl": null
         },
@@ -497,7 +486,7 @@
           "description": "fbxshit: \n正在想做一个野外监测项目，拍拍小动物像松鼠小鸟之类。\n大约需要 4-6 个摄像头+一个无线硬盘录像机，摄像头在户外空旷区域互相距离有 50-100 米左右。每个无线摄像头开启移动侦测后把拍到的内容自动保存到录像机里面。每个无线摄像头和录像机使用一块小的太阳能电池板供电。\n网络连接现在的预想方案是中兴 F50 之类的 5G 移动 wifi 插流量卡，接一个 openwrt 路由器组一个局域网，移动 wifi 和路由器也用太阳能电池板供电，以上所有摄像头录像机接入这个小局域网。\n要求是在家里远程可随时登录入组建的网络，查看或者拉取录像。\n由于电源电量受限，而且不需要随时保持在线传输，只是需要时再登录查看，可能几天或十几天一次。能否给随身 wifi 的供电模块安装一个远控功能？用一个低耗电的 4G 模块远程控制随身 wifi 的电源，此供电模块只要保持最低限度的连接和唤醒能力即可。每隔几天等需要登录局域网传输数据了再远程控制给随身 wifi 上电接入 5G 网络。\n虽然最简单方案是直接用支持 4G 的摄像头+太阳能电池板，但是考虑到以后可能还会添加一些其他传感器之类的在里面，所以希望有一个远程组网的方案更加通用和灵活。\n请大家推荐一下适合这个项目的随身 wifi 、远控电源模块、openwrt 路由器、以及内网穿透的软件方案，谢谢。",
           "link": "https://www.v2ex.com/t/1108185",
           "publishedOn": "2025-01-28T06:43:18.000Z",
-          "wordCount": 499,
+          "wordCount": 501,
           "title": "野外无供电区域、有 4G/5G 信号，组建可远程访问的局域网，求方案推荐。",
           "imageUrl": null
         },
@@ -507,7 +496,7 @@
           "description": "fdgdbr: \n往年村里放炮随便放，今年村委会的人竟然挨家挨户来宣传了，村里的大喇叭也是整天在放禁止燃放烟花爆竹",
           "link": "https://www.v2ex.com/t/1108184",
           "publishedOn": "2025-01-28T06:42:07.000Z",
-          "wordCount": 445,
+          "wordCount": 479,
           "title": "今年感觉禁放烟花爆竹执行异常严格",
           "imageUrl": null
         },
@@ -537,7 +526,7 @@
           "description": "iliaoliao: 最近写的应用老被破解，有没有大佬可以提供一套安全的解决方案，预算 1k 。要求 1 月 4 号前完成。\n联系 vx：bHgxMDc2OTg4OTQ",
           "link": "https://www.v2ex.com/t/1108181",
           "publishedOn": "2025-01-28T06:22:29.000Z",
-          "wordCount": 453,
+          "wordCount": 477,
           "title": "有偿寻求安全大佬提供一套方案防破解",
           "imageUrl": null
         },
@@ -577,7 +566,7 @@
           "description": "jiaoguan1688: \n着急死了,全世界的源都挂了好像",
           "link": "https://www.v2ex.com/t/1108177",
           "publishedOn": "2025-01-28T05:34:48.000Z",
-          "wordCount": 519,
+          "wordCount": 540,
           "title": "看春晚 大家给个能用的 v6 源啊",
           "imageUrl": null
         },
@@ -597,7 +586,7 @@
           "description": "windyboy: \n通过自己筛选过的文档强化一下本地模型，加上 Cursor 是不是就是目前最好的 AI 辅助方式？",
           "link": "https://www.v2ex.com/t/1108172",
           "publishedOn": "2025-01-28T04:57:26.000Z",
-          "wordCount": 417,
+          "wordCount": 431,
           "title": "一个本地运行的 DeepSeek 加上 Cursor，是不是目前一个程序员的终极解决方案？",
           "imageUrl": null
         },
@@ -607,7 +596,7 @@
           "description": "scienhub: \n最近我正在重构一个基于 Vue3 和 Vite 的 SPA 项目，同时调研一些可用的技术方案。\n我们的需求是让少部分页面（如主页、About Us 、Contact 、Terms of Use 等）在构建时生成纯静态页面；而其余页面使用动态路由（例如 “/username” 或 “/username/projectname”），前端通过路由参数动态获取数据，类似传统的 SPA 模式。\n由于觉得 SSR 的实现需要额外的服务器支持，显得过于繁重，因此希望能采用一种仅靠 Nginx 就可以部署的方案。本质上，我们希望将 SPA 中的一部分页面静态化，以便于 SEO 优化。\n然而，经过一番搜索后发现，Next.js 最新的 App Router 在使用静态生成（output=export）时居然不支持动态路由。感觉这种需求非常常见和基础，却没有被很好地支持。\n从中感受到，Next.js 似乎为了配合 Vercel 的托管业务，有意推动用户更多地使用 SSR 。\n相关 GitHub 讨论：\nhttps://github.com/vercel/next.js/discussions/55393",
           "link": "https://www.v2ex.com/t/1108171",
           "publishedOn": "2025-01-28T04:49:32.000Z",
-          "wordCount": 455,
+          "wordCount": 496,
           "title": "Next.js 居然不支持 静态生成 时用 动态路由",
           "imageUrl": null
         },
@@ -617,7 +606,7 @@
           "description": "goodhellonice: \n最近也想做几个视频，看了几位 up 主的，发现很多里面用的是电影素材，不知道会不会是有版权的风险。还是说，里面画面用的时间短就不会有这个风险？有具体的条文或解释么。谢谢大家",
           "link": "https://www.v2ex.com/t/1108167",
           "publishedOn": "2025-01-28T04:18:21.000Z",
-          "wordCount": 473,
+          "wordCount": 475,
           "title": "v 友们，像‘小约翰可汗’这种 up 主，他的视频里素材都是来自于电影，这种会不会有侵权的风险？",
           "imageUrl": null
         },
@@ -627,7 +616,7 @@
           "description": "huiyanpohundh123: \nDLPlay 简介\nDLPlay 是一个基于 DLNA 协议的 Apple TV 端的投屏软件,最初是为了便于我看球赛而开发的软件,并且自豪的在 V2EX 首发.软件支持比AirPlay更多的视频格式,可以有效的作为AirPlay 的一个补充,也支持 B 站 4k+直播原画投屏(目前仅为可用状态 不要抱有太多期待).\n50 个抽奖名额留下邮件地址(可以使用 base64 格式)即可参与抽奖\n重要提示: 为了后续升级 最好在美区兑换喔\n软件地址: https://apps.apple.com/us/app/dlplay/id6448221325\n \n软件预览",
           "link": "https://www.v2ex.com/t/1108166",
           "publishedOn": "2025-01-28T04:11:37.000Z",
-          "wordCount": 684,
+          "wordCount": 688,
           "title": "DLPlay 抽奖活动! 过年了给家整一波抽奖活动助助兴,祝所有看到帖子的人好运🍀连连",
           "imageUrl": null
         },
@@ -637,7 +626,7 @@
           "description": "hubayi: \n心血来潮想去走走看看，发现票都预约完了，这是中国特殊国情，还是中日韩和欧美国家的普遍现象？",
           "link": "https://www.v2ex.com/t/1108165",
           "publishedOn": "2025-01-28T04:11:05.000Z",
-          "wordCount": 485,
+          "wordCount": 495,
           "title": "中国热门景点怎么都要提前预约啊",
           "imageUrl": null
         },
