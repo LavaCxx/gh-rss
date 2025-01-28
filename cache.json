@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -153,23 +147,6 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -303,7 +280,7 @@
           "description": "wuruxu: \n由于现在只有 ipv6 的公网地址，我想通过 ipv6 的公网地址，访问 lan 内部的设备\nipv6 wan --> ipv6 lan 是可以成功的\nipv4 wan --> ipv4 lan 也是可以的\nipv6 wan --> ipv4 lan 始终不成功",
           "link": "https://www.v2ex.com/t/1108238",
           "publishedOn": "2025-01-28T16:12:01.000Z",
-          "wordCount": 446,
+          "wordCount": 448,
           "title": "lan ipv4 的设备可以通过 wan ipv6 进行端口映射吗？",
           "imageUrl": null
         },
@@ -313,7 +290,7 @@
           "description": "jimliang: \n春节过年回家，意外发现家里老母亲被熟人忽悠，花了近十万购入什么周林频谱治疗屋，功能大概类似汗蒸房，宣称能通过\"仿生频谱\"治疗三高、关节炎等老年病，实则连医疗器械备案都查无此证。\n劝了也不信，说人家做了十几年，村里很多都买了，用了有效果。家里有小弟，也有做康复治疗的亲戚，买的时候也不商量，老爸也不停劝说，还是不听，我也是回家了才知道此事。\n这是中国留守老人困境的缩影，日渐衰老的身体再加上见识有限，成为保健品骗局的猎物，我们该如何为父母筑起防护墙？\n网上能找到这个产品，但是描述上看怎么都是智商税，而且主流的电商平台都没有卖的\nhttps://www.zhoulin.com.cn/index.php?c=show&id=3\nhttps://imgur.com/a/GRtlctY",
           "link": "https://www.v2ex.com/t/1108237",
           "publishedOn": "2025-01-28T16:00:31.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "家里老人被骗十万买了所谓的频谱治疗屋，农村保健品销售乱象",
           "imageUrl": null
         },
@@ -343,7 +320,7 @@
           "description": "daidr: \n前情提要\n想在 PC 上简单便捷地测试 DualSense ，但是没找到符合自己要求的，所以自己写了一个网页版本，能够通过 WebHID 技术连接手柄。\n截图\n\n这次更新了什么\n代码结构全给重构了一遍（之前的扩展性太差）\n支持同时连接多个手柄，并提供了切换功能\n重绘了一些图片资源，和整体风格更加统一\n支持连接 DualSense Edge ，同时增加了 fnL/fnR/paddleL/paddleR 按键显示\nDualSense Edge 的配置开发中，能够获取 DualSense 的自定义配置名称（还不能编辑）\n支持了工厂信息读取（固件版本/序列号/各部件条码等）\n可视化陀螺仪/加速度计信号，PIXI.js 实现\n完整的离线化 PWA(IWA)支持，安装后可以在无网络情况下使用\n之后计划更新什么\nDualSense Edge 的自定义按键配置/校准\n麦克风/耳机/扬声器测试\n读取 DualSense Edge 可拆卸摇杆模块的序列号\n传送门\n仓库地址： https://gtihub.com/daidr/dualsense-tester\n工具地址： https://ds.daidr.me\n只支持 Chrome 、Edge 这类基于 Chromium 的浏览器，如果使用上遇到了什么问题或是有什么建议，欢迎回帖提 issue\n大伙除夕快乐！\n碎碎念\n为了测试专门破费购入了一个 DualSense Edge 30 周年版",
           "link": "https://www.v2ex.com/t/1108234",
           "publishedOn": "2025-01-28T15:15:35.000Z",
-          "wordCount": 443,
+          "wordCount": 447,
           "title": "趁着春节更新了一下自己开源的 DualSense 测试网站，支持了 DualSenseEdge",
           "imageUrl": null
         },
@@ -423,7 +400,7 @@
           "description": "nightnotlate: 经典相声我听得还算比较多，\n感觉讲相声的就像一个大师，\n台上不动声色地抖包袱 台下乐得捂着肚子，\n是一门很有技术含量的艺术，\n你要比观众高几个段位 才能逗笑他们。\n但岳云鹏的 是真不喜欢，\n他给我的印象，就是那种卖蠢 卖丑 卖笨拙，\n就像个小丑（不是骂人） 靠卖弄自己的愚笨，\n靠自低身份来让人笑，这就很下乘了。\n印象里他在春晚的相声都不咋样，\n但很奇怪 火的莫名其妙\n五环之歌也火了，那首歌就是他的风格写照，卖蠢，而他还当包袱多次自己引用......",
           "link": "https://www.v2ex.com/t/1108225",
           "publishedOn": "2025-01-28T13:01:41.000Z",
-          "wordCount": 611,
+          "wordCount": 616,
           "title": "很不喜欢岳云鹏的相声",
           "imageUrl": null
         },
@@ -463,7 +440,7 @@
           "description": "huntagain2008: \n记录父亲的回答：\n短视频的专家讲解得非常好，通俗易懂，远比新闻中那些难以理解的术语，比如“gpt”或“chatGPT”要好得多。\n微信的普及程度非常高，还有移动支付功能，使用的人那么多，你怎么能不使用微信呢？\n年利率下降对银行来说是个好消息，和俄罗斯银行 20%的利率相比，倒闭风险要低得多。中国的银行都是国有的，非常稳健。\n我的华为 Mate60 运行得很流畅，我使用的是鸿蒙 OS ，没有升级到纯血鸿蒙是因为需要玩游戏，纯血鸿蒙不支持我玩的游戏。而且 Mate70 及以上才可以升级到鸿蒙 Next 。\n你怎么能不爱国呢？看看中国有那么多民族，从古至今都渴望统一。\n美剧《星际之门》简直就是肥皂剧，只有一个破门，拍摄得很简陋。我现在在看《大奉打更人》，真是欢乐。\n疫情的来源是什么呢？我跟你说，以前的非典就有一种说法：“吸烟者对非典高度免疫”。在非典发生的两年前，世界卫生组织曾呼吁吸烟致癌，导致国内吸烟人数减少，结果非典随即爆发。你看，这时间刚好吻合。美国为什么也有疫情，那是美国自己误伤了自己。\n你妈妈就应该把你搞到美国去，到时候讨饭都没人理你\n（真的是每年和父亲有类似的谈话，实在是太没意思了）",
           "link": "https://www.v2ex.com/t/1108220",
           "publishedOn": "2025-01-28T11:45:34.000Z",
-          "wordCount": 491,
+          "wordCount": 493,
           "title": "2025-01-28.与父亲的一次面谈",
           "imageUrl": null
         },
@@ -553,7 +530,7 @@
           "description": "OceanWaves: \n均为个人观点 欢迎大家讨论\n关于 YouTube 上的中文内容：不看，看中文内容我不会来这个平台，这个平台大量的优质内容（ podcast ）（ interview ）（ influencer ）（ lecture ）英文占绝大多数，中文内容键政居多，图一乐还可以\n老高与小茉：个人观点，这两个人讲故事能火是因为夫妻间的温情，故事本身不是重点 这里可以看 如何评价油管老高与小茉（原 kuaizero 老高频道）？\n关于 YouTube 算法：YouTube 算法是个黑盒，没人知道到底怎么运作的，但我们可以从中看出平台的意图，平台想的是最大化用户观看的时间，平台想让用户来 YouTube 观看内容，而不是从别的平台（ reddit/Facebook ）引流过来，平台也不想让 youtuber 的影响过大，所以在主页不会给你推荐你关注的博主，同样的原因 YouTube 的关注页没有分类功能，因为平台不想让你来只看某几个人的视频，YouTube 想让你享受这个平台整体 这里可以看 为什么 YouTube 算法永远都会是个谜 Why The YouTube Algorithm Will Always Be A Mystery 为什么我的视频火了？ My Video Went Viral. Here's Why YouTube 如何变现 This Video is Worth $13,568.99\n为什么没有弹幕功能？ 因为英语弹幕观感并不好，英语单词有长有短并不像汉字就方块字。还有文字信息熵的区别。参考为什么全世界只有中日两个国家弹幕视频网站成为流行？\nYouTube 的广告：YouTube 上边很多广告，原因也很简单，Video hosting 太费钱了。YouTube 上边有 Google Adsense ，还有 youtuber 接赞助商插入的视频广告，不同于国内抖音 b 站等平台，这部分广告 YouTube 是不抽成的，youtuber 还可以自己卖货（它们管这个叫 YouTube merch ）,youtube 也是不抽成的。\n如何屏蔽 YouTube 上的广告？ 如果是 web 端很简单，安装uBlock Origin即可屏蔽 Google Adsense ，或者订阅 YouTube Premium （低价区，家庭组等等）安装sponsorblock可跳过视频内的赞助商广告，（防喷我订阅 Premium ）\nAndroid 可以使用revanced\n如何在 YouTube 上找到自己喜欢的内容 我认为主要靠搜索，首先安装searchfixer for youtube 然后按自己需求打开其中的选项，然后搜索即可\n关于 Faceless channel 不漏脸的频道我首先会怀疑内容的质量，以及是不是念稿/ai 合成 对于我个人来说这是一个大大的 red flag\nYouTube 插件推荐 上边提过的我就不说了 DeArrow 替换视频封面 BlockTube 屏蔽 YouTube 频道 enhaced-h264ify 屏蔽 av1 ReturnYoutubeDislike unhook Remove Distractions\n目前就想到这么多 欢迎大家 提问/讨论/指正",
           "link": "https://www.v2ex.com/t/1108210",
           "publishedOn": "2025-01-28T10:06:10.000Z",
-          "wordCount": 542,
+          "wordCount": 547,
           "title": "YouTube 重度用户，回答一些分区经常看见的问题",
           "imageUrl": null
         },
@@ -603,7 +580,7 @@
           "description": "ZRS: https://v2ex.com/t/1091359",
           "link": "https://www.v2ex.com/t/1108204",
           "publishedOn": "2025-01-28T08:47:52.000Z",
-          "wordCount": 433,
+          "wordCount": 443,
           "title": "iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题",
           "imageUrl": null
         },
@@ -703,7 +680,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108190",
           "publishedOn": "2025-01-28T07:12:18.000Z",
-          "wordCount": 577,
+          "wordCount": 602,
           "title": "如果 AES 无法用 GCM 模式，用明文 hash 作为 IV 以实现完整性校验是一个好的实现吗？",
           "imageUrl": null
         },
