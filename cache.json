@@ -161,23 +161,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -235,17 +218,169 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/695",
+          "author": null,
+          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/695",
+          "publishedOn": "2025-01-25T07:34:43.000Z",
+          "wordCount": null,
+          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/692",
+          "author": null,
+          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/692",
+          "publishedOn": "2025-01-08T02:30:11.000Z",
+          "wordCount": null,
+          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/691",
+          "author": null,
+          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/691",
+          "publishedOn": "2025-01-06T05:12:02.000Z",
+          "wordCount": null,
+          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/690",
+          "author": null,
+          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/690",
+          "publishedOn": "2025-01-04T06:10:42.000Z",
+          "wordCount": null,
+          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1108166",
+          "author": "huiyanpohundh123",
+          "description": "huiyanpohundh123: \nDLPlay 简介\nDLPlay 是一个基于 DLNA 协议的 Apple TV 端的投屏软件,最初是为了便于我看球赛而开发的软件,并且自豪的在 V2EX 首发.软件支持比AirPlay更多的视频格式,可以有效的作为AirPlay 的一个补充,也支持 B 站 4k+直播原画投屏(目前仅为可用状态 不要抱有太多期待).\n50 个抽奖名额留下邮件地址(可以使用 base64 格式)即可参与抽奖\n重要提示: 为了后续升级 最好在美区兑换喔\n软件地址: https://apps.apple.com/us/app/dlplay/id6448221325\n \n软件预览",
+          "link": "https://www.v2ex.com/t/1108166",
+          "publishedOn": "2025-01-28T04:11:37.000Z",
+          "wordCount": 397,
+          "title": "DLPlay 抽奖活动! 过年了给家整一波抽奖活动助助兴,祝所有看到帖子的人好运🍀连连",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108165",
+          "author": "hubayi",
+          "description": "hubayi: \n心血来潮想去走走看看，发现票都预约完了，这是中国特殊国情，还是中日韩和欧美国家的普遍现象？",
+          "link": "https://www.v2ex.com/t/1108165",
+          "publishedOn": "2025-01-28T04:11:05.000Z",
+          "wordCount": 416,
+          "title": "中国热门景点怎么都要提前预约啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108164",
+          "author": "Eagleyes",
+          "description": "Eagleyes: 有 2 个 iPhone ，分别登陆 2 个不同 ID\n可以连接同一个 AirPods Pro2 么？（不同时播放）\n如果是 3 个设备呢？\n比如 ID1 有 2 个设备，ID2 有 1 个设备。",
+          "link": "https://www.v2ex.com/t/1108164",
+          "publishedOn": "2025-01-28T03:41:57.000Z",
+          "wordCount": 417,
+          "title": "AirPods Pro2 是否可以连接 2 个不同 ID 的设备？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108160",
+          "author": "afkool",
+          "description": "afkool: 最近就打算做 dex 或 mev 。大概 50W(CNY)的预算，链上的都建议我做 mev 。。咱也不太懂主要\n小夹子不赚钱。大夹子需要节点。\n那如果自建节点来做 mev 呢？\n技术水平需要懂算法的大神老手还是普通一两年工作经验的就足以？\n再次谢过~",
+          "link": "https://www.v2ex.com/t/1108160",
+          "publishedOn": "2025-01-28T03:02:04.000Z",
+          "wordCount": 413,
+          "title": "现在做链上的 mev 是不是成本特别大？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108159",
+          "author": "100APPLTD",
+          "description": "100APPLTD: \nJanus Pro 是 Deepseek 的多模态理解和生图模型。不仅仅是生图模型。还具备多模态理解能力。\n这次又吊打了 openai ，不过是 dalle ，本身也不是效果最佳的模型。  期待 deepseek 能吊打 flux ！\n点击免费体验 Janus Pro",
+          "link": "https://www.v2ex.com/t/1108159",
+          "publishedOn": "2025-01-28T02:45:57.000Z",
+          "wordCount": 390,
+          "title": "这次 Deepseek 来势汹汹，做了个 Janus Pro 免费在线体验。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108157",
+          "author": "GeekGuru",
+          "description": "GeekGuru: \nDeepSeek 很好，不啰嗦，这个妥妥的是个买入的好时候。",
+          "link": "https://www.v2ex.com/t/1108157",
+          "publishedOn": "2025-01-28T01:50:19.000Z",
+          "wordCount": 406,
+          "title": "抄底美科技股的时候到了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108155",
+          "author": "InDom",
+          "description": "InDom: \n日企不过春节, 初一请假三天.",
+          "link": "https://www.v2ex.com/t/1108155",
+          "publishedOn": "2025-01-28T01:40:15.000Z",
+          "wordCount": 457,
+          "title": "让我看看是谁除夕还上班的, 原来是我啊🤡.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108154",
+          "author": "wheat0r",
+          "description": "wheat0r: 某北部边疆省份。\n2023 年，财政厅颁布的信息化服务预算测算标准规定驻场运维项目按照最高每人每月 12k 计算。\n然而几乎所有厅局客户都在去年开始要求节假日值班保障，还经常不提前通知。\n现在外地员工都回家了，公司技术部几个不领加班费的经理和个别本地员工在用户现场倒班。",
+          "link": "https://www.v2ex.com/t/1108154",
+          "publishedOn": "2025-01-28T01:29:24.000Z",
+          "wordCount": 427,
+          "title": "政务运维越来越难做了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108153",
+          "author": "qweruiop",
+          "description": "qweruiop: \n最开始用的 graylog ，但是发现太耗系统资源。。。后来切换到 loki ，快是快了，但是日志多了，经常搜索超时，然后想配置，只保留最近 30 天或者 100G 的日志，也一直搞不定，不知道各位佬门，还有啥可以推荐的可以自己部署开箱即用的日志系统推荐。。。",
+          "link": "https://www.v2ex.com/t/1108153",
+          "publishedOn": "2025-01-28T01:12:43.000Z",
+          "wordCount": 475,
+          "title": "graylog, loki 之外的日志系统推荐？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1108151",
           "author": "kaiwen0110",
           "description": "kaiwen0110: 请问各位大佬有别的可以装插件的浏览器推荐嘛？",
           "link": "https://www.v2ex.com/t/1108151",
           "publishedOn": "2025-01-28T01:06:56.000Z",
-          "wordCount": 523,
+          "wordCount": 532,
           "title": "kiwi 归档了， play 商店也下架了",
           "imageUrl": null
         },
@@ -255,7 +390,7 @@
           "description": "pinecone1: \n先不考虑结婚生子，就一个人生活，不考虑家庭因素\n像长沙，重庆，成都这种资源也很丰富的二线城市，200 万够不够把房子车子搞定？然后 400 万自己搞钱生钱，自己也不是说纯躺了，想卷也有大厂可以进去卷，继续搞钱放蓄水池里，想躺吃理财低保也能月入个一两万，自己买买保险，这样未来也很稳\n大家觉得这种有可行性么？我物欲不高，车子搞个 30 万的小米 su7 就挺不错，买房买个差不多的就行，特意选的房价比较亲民的二线城市",
           "link": "https://www.v2ex.com/t/1108150",
           "publishedOn": "2025-01-28T00:38:25.000Z",
-          "wordCount": 605,
+          "wordCount": 684,
           "title": "600 万人民币可以在国内二线过闲适生活了么？",
           "imageUrl": null
         },
@@ -265,7 +400,7 @@
           "description": "DissDoge: 蛇年到啦，祝你生活里全是“蛇”来运转的惊喜，工作上尽是“蛇”全其美的顺遂，我要去打扫卫生和准备忙了，在此祝福看到这个帖子的朋友，今天与家长团团圆圆，和和气气的过完这两天，借着这今天的美酒慰籍自己一整年的辛勤付出。让我们（゜-゜）つロ 干杯～\n（゜-゜）つロ 干杯～\n（゜-゜）つロ 干杯～\n（゜-゜）つロ 干杯～",
           "link": "https://www.v2ex.com/t/1108149",
           "publishedOn": "2025-01-28T00:03:01.000Z",
-          "wordCount": 405,
+          "wordCount": 407,
           "title": "1.28 号，打卡今年最后的一天。愿今年没有归家的朋友们也吃好喝好玩好开心（゜-゜）つロ 干杯～",
           "imageUrl": null
         },
@@ -275,7 +410,7 @@
           "description": "HKViolet: 當年的飛信可真是火極一時，當年有不少內地人會用這個即時通訊程式，沒想到飛信從一開始的飽受歡迎到後面的被邊緣化，再到後面慢慢推出了曆史舞台，如果當年開放給中國電信和中國聯通使用的話，或許飛信今天還能稍微存活一段時間，結果移動到後面發現 WeChat 已經開始搶佔市場，發現晚了之後才開放感覺還是真的太遲了，感覺這是移動曆史上最大的一次敗筆了。\n唉，想當年我跟內地朋友聯繫也會用這個即時通訊程式，或者是用 MSN ，另外的話可能就是 QQ 了，後者現在繼續作為 Microsoft 的入門網站而活，QQ 的話到現在還是有不少內地的年青人還在使用，包括我自己跟內地年青人也是使用 QQ 跟他們保持聯繫，或者的話可能內地的年青人也會爬梯，用臉書或者 WTS 這些之類的程式差不多也是可以的，不過 MSN 通訊社交程式這塊差不多也已經沒了。",
           "link": "https://www.v2ex.com/t/1108148",
           "publishedOn": "2025-01-27T23:33:01.000Z",
-          "wordCount": 508,
+          "wordCount": 520,
           "title": "飛信為什麼會失敗？",
           "imageUrl": null
         },
@@ -285,7 +420,7 @@
           "description": "lpe234: \n记录着宝宝的喂养详情。\n昨晚半夜刷手机然后睡着了，早晨发现备忘录内容只有几行了。\n查了好久，发现备忘录只会有最新的记录，不会像 Git 那样存储历史版本。\n如果是备忘录记录被删除，还有可能找回；\n备忘录内容被删除，当时可以撤回，否则便没有办法再恢复。\n赶紧起床唤醒电脑，然后断网。结果发现已经同步...\n然后打开 iPad 断网，发现还有 20 天之前的记录，算是侥幸了一些吧。之前也发现，iPad 上的备忘录只有打开时才会同步。还好之前打开看过一下。\n刚突然想到，会不会直接断路由器，再唤醒电脑会好一些。唉！\n反思:\n重要数据一定要做好备份\n不要迷迷瞪瞪半夜刷手机",
           "link": "https://www.v2ex.com/t/1108147",
           "publishedOn": "2025-01-27T23:10:04.000Z",
-          "wordCount": 427,
+          "wordCount": 438,
           "title": "备忘录 Notes 内容被误删除，无法恢复",
           "imageUrl": null
         },
@@ -305,7 +440,7 @@
           "description": "Uzuki: \n在新手机上登录了 Google 账户，登陆之后点开邮件，发现前几天提醒我 voice 即将过期。\n于是我在 play 商店下载了 voice ，登录之后连发三条消息，再发到第三条的之后发不出去了。\n我打开网页，发现这个账户已经没有 voice 界面了。\n请问我还有办法能保住我这个手机号码吗",
           "link": "https://www.v2ex.com/t/1108145",
           "publishedOn": "2025-01-27T20:22:46.000Z",
-          "wordCount": 465,
+          "wordCount": 481,
           "title": "Google voice 突然没了",
           "imageUrl": null
         },
@@ -315,7 +450,7 @@
           "description": "deepout: \n无论是 macOS 还是 iOS 我都是 Chrome 为主力浏览器在使用。\n最近开始深度使用 iPad ，习惯性地用 Chrome 登录 V2 ，登录微博，发现 Chrome 根本没法打字，巨卡无比，上屏速度甚至不如 286.\n尝试用了 safari ，那叫一个流畅。\n目前发贴我用的就是 safari ，Chrome 在 iPad 上根本没法打字。\n但又很难放弃 Chrome 的书签和操作习惯的统一性，包括浏览记录的连续性。\n还有个办法就是需要打字的地方，我先切到其他应用比如备忘录，打好字之后复制过去。这比较适合需要大段文字内容输入的地方。但如果仅仅就打几个字也需要切个 app 的话，我感觉特别难受。希望 Chrome 早点修复这个问题吧。",
           "link": "https://www.v2ex.com/t/1108143",
           "publishedOn": "2025-01-27T19:11:04.000Z",
-          "wordCount": 449,
+          "wordCount": 451,
           "title": "iPad 版 Chrome 打字巨卡",
           "imageUrl": null
         },
@@ -365,7 +500,7 @@
           "description": "djasdjds: 家里的很多事真是不知道如何是好，先从我姐说起吧，我家在北方的农村家庭，从小就很穷，什么东西都得平分，不怎么富裕的家庭，我姐性格从小就特别自私，认为我妈偏我，什么都留给我。但是她从小的性格，我已经想不通是本性还是怎么发展出来的。\n  \n  我姐从小学习很好，都是年级前几，这让我从小经受着父母的辱骂和捶打，人身攻击各种，初中时候开始，就变本加厉，什么都跟我姐比，我姐比我大三岁，我初一，她高一，考入了我们县城的高中尖子班，导致我的初中，只要玩耍，都要被骂是个玩货，各种难听的，我在初中时候基本全班前 10 ，但是总有个姐比较。父母对我们的学习十分看重，我爸是村里小学的老师，身处教师家庭，那种痛苦不言而喻，基本没什么童年，从小没啥玩伴，在家里，不能出门，视线里离开，回来就要骂又去哪里害人了。有什么同学如果路上碰到或者提到被我爹妈知道，都要查户口本他家哪里的，父母干嘛的，所以从小基本没可能有同学或者朋友来我家里，也根本没可能。父母只会骂你让你学习，不然就像他们农村务农种地。我姐从小基本没干过什么农活，也许是保护的比较好，我则是分担家里，每当干活的时候，背麦子、抬粮食袋子，都要被夸长大了。\n  \n  我姐大学上了省内的 211 大学，也是第一次离开了家里去外面了，但在专业上面，从小逆来顺受，没有自己的主见，也不知道选什么，父母专门咨询了混的好的亲戚，推荐学了当年火热的医学，但是没学临床，学的药学，而我姐的同学，也有好几个女生，从小也是她的同学，学习都比较好，也学的医学，临床偏多。我是觉得她肯定不适合临床，专业并没有什么问题，但是多年后，变成了她埋怨父母的又一理由。大学刚开始，我姐和家里沟通很多，后来基本发消息不回了，我爸去她的城市，很多时候觉得我爸妈丢脸不想见，很不情愿。她大学时候，看耽美小说，工作后，看的肖战王一博这种小鲜肉类型的电视剧，我也不懂是哪一种群体。大三考…",
           "link": "https://www.v2ex.com/t/1108137",
           "publishedOn": "2025-01-27T16:28:16.000Z",
-          "wordCount": 857,
+          "wordCount": 880,
           "title": "原生家庭，过年刚回家和家里白眼狼姐打起来了",
           "imageUrl": null
         },
@@ -375,7 +510,7 @@
           "description": "fanju745: \nProxMonitor\nProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应用。它提供了直观的界面来查看和控制您的虚拟化环境。\n仓库地址： https://github.com/Fanju6/ProxMonitor\nTelegram： https://t.me/ProxMonitor\n功能特点\n🖥️ 资源监控\n实时查看节点、虚拟机和存储的状态\n监控 CPU 、内存、网络和磁盘使用情况\n支持图表展示历史数据\n💻 虚拟机管理\n开机/关机操作\n通过 noVNC 访问虚拟机控制台\n查看虚拟机详细信息和性能指标\n📊 存储管理\n查看存储空间使用情况\n监控存储性能\n浏览存储内容\n🔒 安全特性\n支持 HTTPS 连接\n基于 ticket 的身份验证\n安全的凭证存储\n系统要求\nAndroid 6.0 (API 24) 或更高版本\nProxmox VE 7.0 或更高版本\n网络连接到 Proxmox VE 服务器\n安装说明（暂时未发布安装包）\n从 Releases 页面下载最新的 APK\n在 Android 设备上安装 APK\n服务器地址 (例如: https://pve.example.com:8006)\n用户名 (格式: user@pam 或 user@pve)\n密码\n使用说明\n登录\n输入服务器地址、用户名和密码\n点击登录按钮\n登录成功后会自动保存凭证\n资源监控\n主页面显示所有节点、虚拟机和存储的概览\n点击任意资源可查看详细信息\n支持下拉刷新更新数据\n虚拟机管理\n点击虚拟机卡片进入详情页面\n使用顶部工具栏的按钮进行开机/关机操作\n点击控制台图标打开 noVNC 远程访问\n存储管理\n在存储详情页面可查看使用情况\n支持查看存储内容列表\n提供多个时间范围的性能数据图表",
           "link": "https://www.v2ex.com/t/1108136",
           "publishedOn": "2025-01-27T16:25:00.000Z",
-          "wordCount": 514,
+          "wordCount": 522,
           "title": "ProxMonitor 用于监控和管理 Proxmox VE 服务器的 Android 应用",
           "imageUrl": null
         },
@@ -395,7 +530,7 @@
           "description": "zachary99:  [手机游戏性能终极大横评！掉帧？发热？作弊？猫腻太多！-哔哩哔哩]  https://b23.tv/jtSoJ5r\n\n苹果芯片的优势很弱了，没想到的是谷歌的处理器这么拉，比华为还拉",
           "link": "https://www.v2ex.com/t/1108131",
           "publishedOn": "2025-01-27T15:32:24.000Z",
-          "wordCount": 433,
+          "wordCount": 438,
           "title": "极客湾对 2024 年性能手机的评测",
           "imageUrl": null
         },
@@ -415,7 +550,7 @@
           "description": "klchai: \n小弟目前在一家大厂，目前有中厂的 offer ，薪资相对满意但会很卷。同时也面试了一些外企，在内推/面试时，感觉大厂有一定的背书效果。\n想问下各位如果去了中厂，在工作经历都符合的情况下，以后中厂再跳外企是否会更困难？\n感谢🙏祝大家春节快乐",
           "link": "https://www.v2ex.com/t/1108129",
           "publishedOn": "2025-01-27T15:20:46.000Z",
-          "wordCount": 398,
+          "wordCount": 402,
           "title": "外企简历筛选是怎么样的",
           "imageUrl": null
         },
@@ -425,7 +560,7 @@
           "description": "abcfreedom: \n今天放假回家过年，岳父大人开车在车站接我，结果碰到一个人开车堵在了我们车前面，我们车后面也有停着的车辆，进退两难。岳父大人礼貌请前车挪一下，那人死活不让，然后岳父大人鸣笛了两声，结果那人开始骂人，岳父大人火气一下就上来了，下车跑去跟那人理论。\n我一看架势不对，赶紧下车跟上去，拦在两人中间，避免发生肢体冲突，结果对面那人越骂越起劲，各种乱骂，岳父大人比较克制一直讲道理，最后那人家人来了劝住了走了。\n想问问 v 友们碰到这种事情怎么处理比较好，我们是被骂的一方，但是我又不能上去把人揍一顿，只能压制己方火力避免事态失控。",
           "link": "https://www.v2ex.com/t/1108128",
           "publishedOn": "2025-01-27T15:17:06.000Z",
-          "wordCount": 387,
+          "wordCount": 398,
           "title": "碰到这种情况该怎么处理",
           "imageUrl": null
         },
@@ -445,7 +580,7 @@
           "description": "RYAN10041: \n最近换了新的 iPhone 16 Pro ，旧的 iPhone 13 里面有 60 多个 G 的图片视频。目前迁移以前拍摄的 livephoto 照片遇到了难题。一方面因为两台都是苹果手机均能支持 livephoto ，另一方面 livephoto 存储了动态影像资料以及声音，能够更佳还原记忆中的效果，所以不想放弃 livephoto 。\n目前我用的方法是使用 onedrive ，虽然可以以视频播放器的组件的方式查看 livephoto ，但是效果不尽如人意，而且不能自动保存到系统相册当中。\n有什么好办法能够优雅的备份或者是迁移这些 livephoto 呢？最好是还能够满足以下几点要求\n多设备之间的系统相册自动同步\n免费开源\n局域网传输，速度快、稳定性高\n本地备份到 windows 、nas 等\n支持在其他设备上预览（例如 windows ，甚至安卓手机等）\n备份其他数据（例如系统设置、日历、联系人等等）",
           "link": "https://www.v2ex.com/t/1108125",
           "publishedOn": "2025-01-27T15:02:07.000Z",
-          "wordCount": 544,
+          "wordCount": 546,
           "title": "如何优雅的备份 livephoto",
           "imageUrl": null
         },
@@ -475,7 +610,7 @@
           "description": "SGL: 场景：在外租房打工，不想配台式机，对 3a 游戏也没有兴趣。\n就是影音+Coding ，未来有经济实例了，再购置点硬件鼓捣大模型。",
           "link": "https://www.v2ex.com/t/1108122",
           "publishedOn": "2025-01-27T14:38:31.000Z",
-          "wordCount": 693,
+          "wordCount": 715,
           "title": "小白请教：买一个 Mac mini M4 当服务器用，合适不。",
           "imageUrl": null
         },
@@ -505,7 +640,7 @@
           "description": "kongkongye: \n我之前也不看，不刷，认为那是奶头乐，是信息茧房，只有情绪表达，只有小姐姐擦边，但现在发现那是我的傲慢与偏见。\n抖音，tiktok 的火不是偶然，是因为里面的世界真的很精彩。\n从赚钱角度，我发现直播玩的是真的花，赚钱方式五花八门，交易是那么的简单，也不用花几周几个月搞一个高大上的自嗨产品，然后发现没人用那么苦逼。\n我要脱下我技术的长衫，加入进去。",
           "link": "https://www.v2ex.com/t/1108119",
           "publishedOn": "2025-01-27T14:25:14.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "来刷短视频，看直播吧，真的很好看。",
           "imageUrl": null
         },
@@ -515,7 +650,7 @@
           "description": "trihuan: 10$太贵了嗯",
           "link": "https://www.v2ex.com/t/1108118",
           "publishedOn": "2025-01-27T14:23:32.000Z",
-          "wordCount": 375,
+          "wordCount": 387,
           "title": "微图坊 v2ph 有替代品吗",
           "imageUrl": null
         },
@@ -527,126 +662,6 @@
           "publishedOn": "2025-01-27T13:59:21.000Z",
           "wordCount": 405,
           "title": "为什么 xbox series 手柄会断连",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108116",
-          "author": "daishuge",
-          "description": "daishuge: \n家中电信升级了 129 元千兆套餐，目前 ax5 感觉不太够了\n求推荐一款路由器，满足以下要求，不分先后\n能覆盖 110 平的房子\n互联网至少千兆\n局域网最好要达到 150MB/s （有自制 nas 的打算）\n要有 ssh 权限，会运行透明代理全家科学\n感谢全能的 v 友们！各位大哥大姐新年快乐！",
-          "link": "https://www.v2ex.com/t/1108116",
-          "publishedOn": "2025-01-27T13:57:52.000Z",
-          "wordCount": 445,
-          "title": "求 v 友推荐路由器！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108115",
-          "author": "admirez",
-          "description": "admirez:",
-          "link": "https://www.v2ex.com/t/1108115",
-          "publishedOn": "2025-01-27T13:50:56.000Z",
-          "wordCount": 576,
-          "title": "初一的孩子想要学 Python , 有好的视频集合推荐吗, 孩子能看得懂的书也可以",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108113",
-          "author": "vulgur",
-          "description": "vulgur: \n2025,0120-0126\n孩子住了七天院，总算是在年前出院了。但又没真的住院，因为医院离家非常近，每天晚上打完点滴就回家了。但是每天早上还要去医院打点滴，又不得不早起去医院，被迫这一周都睡得很早。\n早起的人才能享受医院的停车位。\n我发现咖啡的戒断反应有点严重。虽然这周每天睡得早，但是早上醒来就要去医院，来不及做咖啡，医院还没有卖咖啡的自动贩卖机，点外卖的话还需要去排电梯下楼去门诊楼去取，自己又嫌冷懒得出去买，这就导致一上午都没有喝上一口咖啡，结果就是精神萎靡，浑身难受……\n\nWindsurf 一周使用\n这一周写代码的时间不多，而且 99% 的代码都是 Windsurf 完成的。\n极简时钟 iOS\n这周提交了极简时钟 iOS v4.8.1 ，更新内容就只有一个：加入了葡萄牙语（巴西）的本地化。\n一开始我是想要用 String Catalog 这个在线工具做的，但是我的免费额度用完了，继续使用的的话需要升级，最低 10 美元/月。而我上周才刚刚订阅了 Windsurf ，心想着能省就省，有什么就用什么吧。\n上个月我用 Windsurf 给安卓项目添加本地化的时候费了老劲了，不过那次是找出各个本地化语言中缺失的翻译，和这次给 iOS 项目添加一个新的本地化语言的需求还是不一样的，但是这次也是足足花了一下午才搞定。\n我的 iOS 项目的本地化字符串格式都改成了 String Catalog，其实就是把之前各个 key-value 的本地化文件都统一到了一个 json 文件里，这就导致了这个 json 文件非常大。极简时钟的本地化文件有 15K 行，Windsurf 无法一次处理完成，它就建议：\n备份源文件\n将源文件按字母拆分成四个小文件\n在小文件里添加葡语的翻译\n合并小文件成为一个大文件，并覆盖源文件\n听上去很完美，我就同意让 Windsurf 放手去干了。不…",
-          "link": "https://www.v2ex.com/t/1108113",
-          "publishedOn": "2025-01-27T13:42:02.000Z",
-          "wordCount": 524,
-          "title": "独立开发周记 102：金蛇送福",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108112",
-          "author": "Jiajin",
-          "description": "Jiajin: \nDeepSeek\n\nGPT4o\n\n通义千问\n\nGemini 版",
-          "link": "https://www.v2ex.com/t/1108112",
-          "publishedOn": "2025-01-27T13:39:57.000Z",
-          "wordCount": 435,
-          "title": "大模型混战：请按照《过秦论》的风格，写一篇过“美利坚论”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108111",
-          "author": "luoyuhao",
-          "description": "luoyuhao: \n场景是这样的，我想家里的网络：\n所有默认连入网的设备，使用运营商自己下发的 v4 和 v6 的 DNS ，不经过路由的 dnsmasq 提供的 dns 代理。\n路由的 dnsmasq 配置好了 DNS 分流，只供家里的某些设备使用。\n目前的问题是 IPv4 通过 dhcp_option 这个配置项可以做到，但是 v6 的不行（不管怎样弄拿到的都是默认的），有人试过类似的场景配置成功的吗？",
-          "link": "https://www.v2ex.com/t/1108111",
-          "publishedOn": "2025-01-27T13:25:47.000Z",
-          "wordCount": 386,
-          "title": "OpenWrt 下，静态 DHCP 分配 ipv4 的主机，能配置独立的 ipv6 的 dns 吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108110",
-          "author": "ilanting",
-          "description": "ilanting: 12 月的时候官方出了邮件 不在新境内的人银行卡要停用,说是 12 月 15 前要提交证明文件,但是到今天了  我刚试了下还是可以正常存入的,账户并没有停用,是不是默认就这样了,之前发的公告也就是发出来看看?     有没有人遇到一样的情况呀?     因为目前来说这张卡还是比较方便使用的,没有办理其他港卡.",
-          "link": "https://www.v2ex.com/t/1108110",
-          "publishedOn": "2025-01-27T13:24:41.000Z",
-          "wordCount": 461,
-          "title": "关于新加坡 OCBC 相关讨论下",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108109",
-          "author": "ljlljl0",
-          "description": "ljlljl0: 目前好像没有 ai 可以实现文字描述产品功能生成对应设计图，后续可以根据设计图来开发。\n我目前是让 ai 生成 html 来看前端效果，但是不如 figma 那种省事，自己注册后画了一下感觉不怎么好看。\nai 往这方面发展发展感觉也是一条路。",
-          "link": "https://www.v2ex.com/t/1108109",
-          "publishedOn": "2025-01-27T13:21:51.000Z",
-          "wordCount": 415,
-          "title": "产品设计图生成+ai 也是一个应用场景",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108108",
-          "author": "keppelfei",
-          "description": "keppelfei: \n团队需要一个前端，项目属于 3d 相关的 web3 项目，技术栈用到threejs和nextjs，目前已经有一个专攻threejs的队友，需要一个精通nextjs的队友，下面是要求：\n精通 HTML5 、CSS3 、Javascript 、Typescript 等前端相关技术\n熟练使用 ES6 及 git 、webpack 等工具\n熟练使用前端 React 框架及熟悉 next 框架，并对其各项机制有基本认知\n有前端组件化开发思维，且有从业务提炼出组建的能力\n熟练掌握常用前端调试工具，构建工具及性能优化工具\n加分项\n有 three.js 相关经验，场景渲染优化经验\n了解 react-native\n具有 less 、sass 和 nodejs 相关经验\n待遇的话需要跟人事面谈，有兴趣的可以发简历到邮箱：eWVmZWlAdjJzcy5jbg==",
-          "link": "https://www.v2ex.com/t/1108108",
-          "publishedOn": "2025-01-27T13:17:09.000Z",
-          "wordCount": 432,
-          "title": "[珠海] 招前端开发一个。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108107",
-          "author": "Vneix",
-          "description": "Vneix: \n如题，最好是京东自营就能买到的，谢谢。\n目的是\n内部网络：电脑手机等设备，WPA3 加密\n访客网络 1：智能家居，WPA2/WPA3 加密\n访客网络 2：客人使用，WPA2/WPA3 加密\n（不知道这样划分合理吗？）",
-          "link": "https://www.v2ex.com/t/1108107",
-          "publishedOn": "2025-01-27T12:59:25.000Z",
-          "wordCount": 612,
-          "title": "求问有没有支持两个或以上访客 WIFI 的路由器？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108106",
-          "author": "pdog18",
-          "description": "pdog18: \n哪怕是同一种风格，甚至外立面材料都一样的情况下都觉得二层的档次高出好几个数量级。。。",
-          "link": "https://www.v2ex.com/t/1108106",
-          "publishedOn": "2025-01-27T12:58:47.000Z",
-          "wordCount": 390,
-          "title": "为什么我现在路过农村看到漂亮的自建房，二层的觉得很美，三层的就觉得很普通",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108105",
-          "author": "pianjiao",
-          "description": "pianjiao: 我不开心。",
-          "link": "https://www.v2ex.com/t/1108105",
-          "publishedOn": "2025-01-27T12:42:20.000Z",
-          "wordCount": 368,
-          "title": "过年了，你开心吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108104",
-          "author": "701dota2019",
-          "description": "701dota2019: \n父亲是那种乱花钱大手大脚的人，学会了网购不停在网上买东西，而且还只买不会退，下午刚把他把一件大几百的衣服退了那做工就像几十块钱的，我想禁用他使用微信小程序，但又怕遇到不方便的地方毕竟很多服务都是小程序，然后他银行卡是不是也有办法管控这种行为啊，每个月发工资，他都能花光光的样子，因为和他不在一个城市，现在也比较头疼怎么遏制他这种行为，他自控力很差，听不进别人说，真头疼。。求教各位大神有没有什么办法呢",
-          "link": "https://www.v2ex.com/t/1108104",
-          "publishedOn": "2025-01-27T12:41:10.000Z",
-          "wordCount": 376,
-          "title": "过年回趟家发现微信小程序上那么多垃圾商城平台",
           "imageUrl": null
         }
       ]
