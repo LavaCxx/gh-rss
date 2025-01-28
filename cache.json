@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -313,7 +307,7 @@
           "description": "ooops: \n\n然后一顿瞎说，目前测下来只有豆包是对的。",
           "link": "https://www.v2ex.com/t/1108191",
           "publishedOn": "2025-01-28T07:14:42.000Z",
-          "wordCount": 473,
+          "wordCount": 512,
           "title": "好多 AI 都识别不出来这是啥字",
           "imageUrl": null
         },
@@ -323,7 +317,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108190",
           "publishedOn": "2025-01-28T07:12:18.000Z",
-          "wordCount": 415,
+          "wordCount": 424,
           "title": "如果 AES 无法用 GCM 模式，用明文 hash 作为 IV 以实现完整性校验是一个好的实现吗？",
           "imageUrl": null
         },
@@ -333,7 +327,7 @@
           "description": "einsdisp: \n一般的海康/大华录像机, 录像是明文存储在硬盘里面的, 把硬盘拆卸下接入电脑就能用软件查看了.\n有哪个品牌/型号的录像机, 硬盘是全盘加密的, 没密码的情况下, 就算拆硬盘也看不了录像, 就算是厂商也看不了, 类似 BitLocker 的作用.\n只需支持要 4-8 路, 2M-8M 分辨率即可.\n国内没有的话, 国外牌子也行, 但要国内能买到的.",
           "link": "https://www.v2ex.com/t/1108189",
           "publishedOn": "2025-01-28T07:02:06.000Z",
-          "wordCount": 428,
+          "wordCount": 443,
           "title": "有支持加密存储的 NVR 硬盘录像机吗",
           "imageUrl": null
         },
@@ -363,7 +357,7 @@
           "description": "fbxshit: \n正在想做一个野外监测项目，拍拍小动物像松鼠小鸟之类。\n大约需要 4-6 个摄像头+一个无线硬盘录像机，摄像头在户外空旷区域互相距离有 50-100 米左右。每个无线摄像头开启移动侦测后把拍到的内容自动保存到录像机里面。每个无线摄像头和录像机使用一块小的太阳能电池板供电。\n网络连接现在的预想方案是中兴 F50 之类的 5G 移动 wifi 插流量卡，接一个 openwrt 路由器组一个局域网，移动 wifi 和路由器也用太阳能电池板供电，以上所有摄像头录像机接入这个小局域网。\n要求是在家里远程可随时登录入组建的网络，查看或者拉取录像。\n由于电源电量受限，而且不需要随时保持在线传输，只是需要时再登录查看，可能几天或十几天一次。能否给随身 wifi 的供电模块安装一个远控功能？用一个低耗电的 4G 模块远程控制随身 wifi 的电源，此供电模块只要保持最低限度的连接和唤醒能力即可。每隔几天等需要登录局域网传输数据了再远程控制给随身 wifi 上电接入 5G 网络。\n虽然最简单方案是直接用支持 4G 的摄像头+太阳能电池板，但是考虑到以后可能还会添加一些其他传感器之类的在里面，所以希望有一个远程组网的方案更加通用和灵活。\n请大家推荐一下适合这个项目的随身 wifi 、远控电源模块、openwrt 路由器、以及内网穿透的软件方案，谢谢。",
           "link": "https://www.v2ex.com/t/1108185",
           "publishedOn": "2025-01-28T06:43:18.000Z",
-          "wordCount": 488,
+          "wordCount": 492,
           "title": "野外无供电区域、有 4G/5G 信号，组建可远程访问的局域网，求方案推荐。",
           "imageUrl": null
         },
@@ -373,7 +367,7 @@
           "description": "fdgdbr: \n往年村里放炮随便放，今年村委会的人竟然挨家挨户来宣传了，村里的大喇叭也是整天在放禁止燃放烟花爆竹",
           "link": "https://www.v2ex.com/t/1108184",
           "publishedOn": "2025-01-28T06:42:07.000Z",
-          "wordCount": 391,
+          "wordCount": 400,
           "title": "今年感觉禁放烟花爆竹执行异常严格",
           "imageUrl": null
         },
@@ -383,7 +377,7 @@
           "description": "lower: 我用 ollama 在本地跑了个 deepseek-r1:7b,然后在一个 Page Assist 的 webui 里既配置了本地 ollama 模型，又配置了在线 deepseek 的 apikey ，我选择本地的模型，问它，它却回答它是在线运行的，\n有什么办法让它正确获取到它运行在哪的",
           "link": "https://www.v2ex.com/t/1108183",
           "publishedOn": "2025-01-28T06:27:51.000Z",
-          "wordCount": 481,
+          "wordCount": 492,
           "title": "怎么能够让 AI 知道它是运行在云端还是我本地电脑上的啊？",
           "imageUrl": null
         },
@@ -403,7 +397,7 @@
           "description": "iliaoliao: 最近写的应用老被破解，有没有大佬可以提供一套安全的解决方案，预算 1k 。要求 1 月 4 号前完成。\n联系 vx：bHgxMDc2OTg4OTQ",
           "link": "https://www.v2ex.com/t/1108181",
           "publishedOn": "2025-01-28T06:22:29.000Z",
-          "wordCount": 435,
+          "wordCount": 441,
           "title": "有偿寻求安全大佬提供一套方案防破解",
           "imageUrl": null
         },
@@ -433,7 +427,7 @@
           "description": "lingyi95: \n简介\n青云记账是一款专注于极简、高效的个人记账 App ，全程无广告干扰，并为用户提供直观清晰的图表分析，帮助轻松管理财务。\n目前仅上架了 app store\n商店链接： https://apps.apple.com/us/app/qingyunji/id6670430586\n开发理念\n一步到位\n常用功能入口一步到位，力争三步完成操作。全流程无广告，无干扰，给用户最便捷的记账体验。\n隐私第一\n青云十分注重隐私数据的保护，支持仅邮箱注册，隐私数据全部本地加密存储在云端。正因此，后续记账数据也实现不了云端搜索，搜索全部基于本地实时计算。\n清晰明了\n图表分析很重要，饼图、柱状图、折线图、排行榜等可视化呈现，清晰明了。\n简单可靠\n抛弃传统的记账概念、交互，让 UI 、交互回归简单纯粹，以 less is more 为准则，轻量简洁，但应有尽有。数据保本地存储，云端备份。\n好风凭借力，助你上青云。\n预览\n\nPromo Code\n非尊享会员也能享用绝大部分功能\n月度尊享 code 5 个\nAJNAKYEHYTLT\nFLJALFLN4K9M\nM4J4EM94EJ3A\nAX477KWKAKRJ\nTRNYXFNYHF6W\n年度尊享 code 1 个\nHWEPANRE4NYT\n兑换码在系统应用商店使用。为了最大化兑换码的功用，给真正在使用的人，且保证一定的随机和公平。\n因为上次送码发现有些用户抢先兑换了但是并没有使用 app ，导致后面看到的 v 友无法兑换，评论区额外赠送一些 code.\n评论区送码规则\n注册成功后 UID 最后一位数字是5 、6 、8的\nuid 在 App  [我的]  -  [会员信息] 查看，点击复制评论即可。uid 是随机的。赠送 3 个年度会员，送完即止。\n评论区随机抽取 5 个（月+年）\n如果各位大佬能在应用商店给个好评，则有如甘露春霖，感激不尽。\n最后祝大家新年快乐，万事如愿，所思所想所求就能有所成！🎉🎉🎉",
           "link": "https://www.v2ex.com/t/1108178",
           "publishedOn": "2025-01-28T05:42:56.000Z",
-          "wordCount": 553,
+          "wordCount": 590,
           "title": "[新年送码🎉] 简洁记账 app 送码，可能是北半球最好用的记账 app 了",
           "imageUrl": null
         },
@@ -443,7 +437,7 @@
           "description": "jiaoguan1688: \n着急死了,全世界的源都挂了好像",
           "link": "https://www.v2ex.com/t/1108177",
           "publishedOn": "2025-01-28T05:34:48.000Z",
-          "wordCount": 498,
+          "wordCount": 501,
           "title": "看春晚 大家给个能用的 v6 源啊",
           "imageUrl": null
         },
@@ -453,7 +447,7 @@
           "description": "HawkinsSherpherd: \n有没有什么办法用 IPTV 盒子之外的设备看 IPTV 线路上的直播源？",
           "link": "https://www.v2ex.com/t/1108176",
           "publishedOn": "2025-01-28T05:11:55.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "有 IPTV 线路但盒子不知道为啥启动不了",
           "imageUrl": null
         },
@@ -473,7 +467,7 @@
           "description": "windyboy: \n通过自己筛选过的文档强化一下本地模型，加上 Cursor 是不是就是目前最好的 AI 辅助方式？",
           "link": "https://www.v2ex.com/t/1108172",
           "publishedOn": "2025-01-28T04:57:26.000Z",
-          "wordCount": 396,
+          "wordCount": 406,
           "title": "一个本地运行的 DeepSeek 加上 Cursor，是不是目前一个程序员的终极解决方案？",
           "imageUrl": null
         },
@@ -483,7 +477,7 @@
           "description": "scienhub: \n最近我正在重构一个基于 Vue3 和 Vite 的 SPA 项目，同时调研一些可用的技术方案。\n我们的需求是让少部分页面（如主页、About Us 、Contact 、Terms of Use 等）在构建时生成纯静态页面；而其余页面使用动态路由（例如 “/username” 或 “/username/projectname”），前端通过路由参数动态获取数据，类似传统的 SPA 模式。\n由于觉得 SSR 的实现需要额外的服务器支持，显得过于繁重，因此希望能采用一种仅靠 Nginx 就可以部署的方案。本质上，我们希望将 SPA 中的一部分页面静态化，以便于 SEO 优化。\n然而，经过一番搜索后发现，Next.js 最新的 App Router 在使用静态生成（output=export）时居然不支持动态路由。感觉这种需求非常常见和基础，却没有被很好地支持。\n从中感受到，Next.js 似乎为了配合 Vercel 的托管业务，有意推动用户更多地使用 SSR 。\n相关 GitHub 讨论：\nhttps://github.com/vercel/next.js/discussions/55393",
           "link": "https://www.v2ex.com/t/1108171",
           "publishedOn": "2025-01-28T04:49:32.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "Next.js 居然不支持 静态生成 时用 动态路由",
           "imageUrl": null
         },
@@ -493,7 +487,7 @@
           "description": "goodhellonice: \n最近也想做几个视频，看了几位 up 主的，发现很多里面用的是电影素材，不知道会不会是有版权的风险。还是说，里面画面用的时间短就不会有这个风险？有具体的条文或解释么。谢谢大家",
           "link": "https://www.v2ex.com/t/1108167",
           "publishedOn": "2025-01-28T04:18:21.000Z",
-          "wordCount": 426,
+          "wordCount": 433,
           "title": "v 友们，像‘小约翰可汗’这种 up 主，他的视频里素材都是来自于电影，这种会不会有侵权的风险？",
           "imageUrl": null
         },
@@ -503,7 +497,7 @@
           "description": "huiyanpohundh123: \nDLPlay 简介\nDLPlay 是一个基于 DLNA 协议的 Apple TV 端的投屏软件,最初是为了便于我看球赛而开发的软件,并且自豪的在 V2EX 首发.软件支持比AirPlay更多的视频格式,可以有效的作为AirPlay 的一个补充,也支持 B 站 4k+直播原画投屏(目前仅为可用状态 不要抱有太多期待).\n50 个抽奖名额留下邮件地址(可以使用 base64 格式)即可参与抽奖\n重要提示: 为了后续升级 最好在美区兑换喔\n软件地址: https://apps.apple.com/us/app/dlplay/id6448221325\n \n软件预览",
           "link": "https://www.v2ex.com/t/1108166",
           "publishedOn": "2025-01-28T04:11:37.000Z",
-          "wordCount": 552,
+          "wordCount": 601,
           "title": "DLPlay 抽奖活动! 过年了给家整一波抽奖活动助助兴,祝所有看到帖子的人好运🍀连连",
           "imageUrl": null
         },
@@ -513,7 +507,7 @@
           "description": "hubayi: \n心血来潮想去走走看看，发现票都预约完了，这是中国特殊国情，还是中日韩和欧美国家的普遍现象？",
           "link": "https://www.v2ex.com/t/1108165",
           "publishedOn": "2025-01-28T04:11:05.000Z",
-          "wordCount": 469,
+          "wordCount": 471,
           "title": "中国热门景点怎么都要提前预约啊",
           "imageUrl": null
         },
@@ -533,7 +527,7 @@
           "description": "afkool: 最近就打算做 dex 或 mev 。大概 50W(CNY)的预算，链上的都建议我做 mev 。。咱也不太懂主要\n小夹子不赚钱。大夹子需要节点。\n那如果自建节点来做 mev 呢？\n技术水平需要懂算法的大神老手还是普通一两年工作经验的就足以？\n再次谢过~",
           "link": "https://www.v2ex.com/t/1108160",
           "publishedOn": "2025-01-28T03:02:04.000Z",
-          "wordCount": 442,
+          "wordCount": 460,
           "title": "现在做链上的 mev 是不是成本特别大？",
           "imageUrl": null
         },
@@ -553,7 +547,7 @@
           "description": "GeekGuru: \nDeepSeek 很好，不啰嗦，这个妥妥的是个买入的好时候。",
           "link": "https://www.v2ex.com/t/1108157",
           "publishedOn": "2025-01-28T01:50:19.000Z",
-          "wordCount": 498,
+          "wordCount": 517,
           "title": "抄底美科技股的时候到了",
           "imageUrl": null
         },
@@ -563,7 +557,7 @@
           "description": "InDom: \n日企不过春节, 初一请假三天.",
           "link": "https://www.v2ex.com/t/1108155",
           "publishedOn": "2025-01-28T01:40:15.000Z",
-          "wordCount": 457,
+          "wordCount": 469,
           "title": "让我看看是谁除夕还上班的, 原来是我啊🤡.",
           "imageUrl": null
         },
@@ -583,7 +577,7 @@
           "description": "qweruiop: \n最开始用的 graylog ，但是发现太耗系统资源。。。后来切换到 loki ，快是快了，但是日志多了，经常搜索超时，然后想配置，只保留最近 30 天或者 100G 的日志，也一直搞不定，不知道各位佬门，还有啥可以推荐的可以自己部署开箱即用的日志系统推荐。。。",
           "link": "https://www.v2ex.com/t/1108153",
           "publishedOn": "2025-01-28T01:12:43.000Z",
-          "wordCount": 486,
+          "wordCount": 488,
           "title": "graylog, loki 之外的日志系统推荐？",
           "imageUrl": null
         },
@@ -593,7 +587,7 @@
           "description": "kaiwen0110: 请问各位大佬有别的可以装插件的浏览器推荐嘛？",
           "link": "https://www.v2ex.com/t/1108151",
           "publishedOn": "2025-01-28T01:06:56.000Z",
-          "wordCount": 543,
+          "wordCount": 562,
           "title": "kiwi 归档了， play 商店也下架了",
           "imageUrl": null
         },
@@ -603,7 +597,7 @@
           "description": "pinecone1: \n先不考虑结婚生子，就一个人生活，不考虑家庭因素\n像长沙，重庆，成都这种资源也很丰富的二线城市，200 万够不够把房子车子搞定？然后 400 万自己搞钱生钱，自己也不是说纯躺了，想卷也有大厂可以进去卷，继续搞钱放蓄水池里，想躺吃理财低保也能月入个一两万，自己买买保险，这样未来也很稳\n大家觉得这种有可行性么？我物欲不高，车子搞个 30 万的小米 su7 就挺不错，买房买个差不多的就行，特意选的房价比较亲民的二线城市",
           "link": "https://www.v2ex.com/t/1108150",
           "publishedOn": "2025-01-28T00:38:25.000Z",
-          "wordCount": 936,
+          "wordCount": 993,
           "title": "600 万人民币可以在国内二线过闲适生活了么？",
           "imageUrl": null
         },
