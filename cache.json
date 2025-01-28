@@ -147,33 +147,6 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        },
-        {
-          "id": "https://weekly.tw93.fun/posts/206-%E6%A0%87%E8%87%B4%E7%9A%84%E7%8B%97/",
-          "author": null,
-          "description": "封面图拍摄于外面看到的一只小狗，被圈养在围栏里面，非常标致、毛发很好，甚至让它坐着就很乖坐着，挺可爱。",
-          "link": "https://weekly.tw93.fun/posts/206-%E6%A0%87%E8%87%B4%E7%9A%84%E7%8B%97/",
-          "publishedOn": "2024-12-30T00:00:00.000Z",
-          "wordCount": 1052,
-          "title": "第206期 - 标致的狗",
-          "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -307,7 +280,7 @@
           "description": "OceanWaves: \n均为个人观点 欢迎大家讨论\n关于 YouTube 上的中文内容：不看，看中文内容我不会来这个平台，这个平台大量的优质内容（ podcast ）（ interview ）（ influencer ）（ lecture ）英文占绝大多数，中文内容键政居多，图一乐还可以\n老高与小茉：个人观点，这两个人讲故事能火是因为夫妻间的温情，故事本身不是重点 这里可以看 如何评价油管老高与小茉（原 kuaizero 老高频道）？\n关于 YouTube 算法：YouTube 算法是个黑盒，没人知道到底怎么运作的，但我们可以从中看出平台的意图，平台想的是最大化用户观看的时间，平台想让用户来 YouTube 观看内容，而不是从别的平台（ reddit/Facebook ）引流过来，平台也不想让 youtuber 的影响过大，所以在主页不会给你推荐你关注的博主，同样的原因 YouTube 的关注页没有分类功能，因为平台不想让你来只看某几个人的视频，YouTube 想让你享受这个平台整体 这里可以看 为什么 YouTube 算法永远都会是个谜 Why The YouTube Algorithm Will Always Be A Mystery 为什么我的视频火了？ My Video Went Viral. Here's Why YouTube 如何变现 This Video is Worth $13,568.99\n为什么没有弹幕功能？ 因为英语弹幕观感并不好，英语单词有长有短并不像汉字就方块字。还有文字信息熵的区别。参考为什么全世界只有中日两个国家弹幕视频网站成为流行？\nYouTube 的广告：YouTube 上边很多广告，原因也很简单，Video hosting 太费钱了。YouTube 上边有 Google Adsense ，还有 youtuber 接赞助商插入的视频广告，不同于国内抖音 b 站等平台，这部分广告 YouTube 是不抽成的，youtuber 还可以自己卖货（它们管这个叫 YouTube merch ）,youtube 也是不抽成的。\n如何屏蔽 YouTube 上的广告？ 如果是 web 端很简单，安装uBlock Origin即可屏蔽 Google Adsense ，或者订阅 YouTube Premium （低价区，家庭组等等）安装sponsorblock可跳过视频内的赞助商广告，（防喷我订阅 Premium ）\nAndroid 可以使用revanced\n如何在 YouTube 上找到自己喜欢的内容 我认为主要靠搜索，首先安装searchfixer for youtube 然后按自己需求打开其中的选项，然后搜索即可\n关于 Faceless channel 不漏脸的频道我首先会怀疑内容的质量，以及是不是念稿/ai 合成 对于我个人来说这是一个大大的 red flag\nYouTube 插件推荐 上边提过的我就不说了 DeArrow 替换视频封面 BlockTube 屏蔽 YouTube 频道 enhaced-h264ify 屏蔽 av1 ReturnYoutubeDislike unhook Remove Distractions\n目前就想到这么多 欢迎大家 提问/讨论/指正",
           "link": "https://www.v2ex.com/t/1108210",
           "publishedOn": "2025-01-28T10:06:10.000Z",
-          "wordCount": 516,
+          "wordCount": 530,
           "title": "YouTube 重度用户，回答一些分区经常看见的问题",
           "imageUrl": null
         },
@@ -317,7 +290,7 @@
           "description": "justtokankan: \n如题，并不少缺少年味，只是自己长大了而已",
           "link": "https://www.v2ex.com/t/1108209",
           "publishedOn": "2025-01-28T10:00:10.000Z",
-          "wordCount": 352,
+          "wordCount": 359,
           "title": "闲蛋疼，启动王者荣耀",
           "imageUrl": null
         },
@@ -357,7 +330,7 @@
           "description": "razios: 两台 iphone 手机登录同一个 apple id ，一台复制，有时另外一台有时会弹出“粘贴自“XX”的 iphone” 然后这个弹出只有一个取消选项，但是怎么点都退不出，而且显示在最顶层。按关机打算重启，发现还在锁屏界面顶层，无法滑动关机。最后只能耗电，自动关机才行。\n有这么严重的 bug ，靠…郁闷了半天只能干等",
           "link": "https://www.v2ex.com/t/1108205",
           "publishedOn": "2025-01-28T08:52:39.000Z",
-          "wordCount": 372,
+          "wordCount": 379,
           "title": "ios 一个严重 bug",
           "imageUrl": null
         },
@@ -367,7 +340,7 @@
           "description": "ZRS: https://v2ex.com/t/1091359",
           "link": "https://www.v2ex.com/t/1108204",
           "publishedOn": "2025-01-28T08:47:52.000Z",
-          "wordCount": 354,
+          "wordCount": 365,
           "title": "iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题",
           "imageUrl": null
         },
@@ -377,7 +350,7 @@
           "description": "KingZZZZ: \n车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？",
           "link": "https://www.v2ex.com/t/1108203",
           "publishedOn": "2025-01-28T08:29:48.000Z",
-          "wordCount": 413,
+          "wordCount": 420,
           "title": "车辆被撞",
           "imageUrl": null
         },
@@ -417,7 +390,7 @@
           "description": "lgapple: 妈妈之前用的是小米手机，总之不算省心。\n去年给她换了 iPhone15pro ，然后总是被她和她的朋友们嫌弃拍的不好看。\n帮忙推荐一下适合老年人傻瓜化的美颜相机。\n以上，谢谢！",
           "link": "https://www.v2ex.com/t/1108198",
           "publishedOn": "2025-01-28T08:01:31.000Z",
-          "wordCount": 373,
+          "wordCount": 393,
           "title": "给老年人用的 iOS 第三方美颜相机，求推荐",
           "imageUrl": null
         },
@@ -427,7 +400,7 @@
           "description": "8eacekeep: \n如题🤔",
           "link": "https://www.v2ex.com/t/1108196",
           "publishedOn": "2025-01-28T07:51:04.000Z",
-          "wordCount": 394,
+          "wordCount": 403,
           "title": "如果苹果国内使用的是 deepseek，你们还会买国行吗？",
           "imageUrl": null
         },
@@ -437,7 +410,7 @@
           "description": "zreyu: 试了换语言都不看到入口\nchatgpt 倒是搞定了",
           "link": "https://www.v2ex.com/t/1108194",
           "publishedOn": "2025-01-28T07:25:21.000Z",
-          "wordCount": 372,
+          "wordCount": 385,
           "title": "ip16 pm 美版在国内怎么没有卫星通讯应用？",
           "imageUrl": null
         },
@@ -457,7 +430,7 @@
           "description": "ooops: \n\n然后一顿瞎说，目前测下来只有豆包是对的。",
           "link": "https://www.v2ex.com/t/1108191",
           "publishedOn": "2025-01-28T07:14:42.000Z",
-          "wordCount": 527,
+          "wordCount": 561,
           "title": "好多 AI 都识别不出来这是啥字",
           "imageUrl": null
         },
@@ -467,7 +440,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108190",
           "publishedOn": "2025-01-28T07:12:18.000Z",
-          "wordCount": 498,
+          "wordCount": 502,
           "title": "如果 AES 无法用 GCM 模式，用明文 hash 作为 IV 以实现完整性校验是一个好的实现吗？",
           "imageUrl": null
         },
@@ -517,7 +490,7 @@
           "description": "fdgdbr: \n往年村里放炮随便放，今年村委会的人竟然挨家挨户来宣传了，村里的大喇叭也是整天在放禁止燃放烟花爆竹",
           "link": "https://www.v2ex.com/t/1108184",
           "publishedOn": "2025-01-28T06:42:07.000Z",
-          "wordCount": 426,
+          "wordCount": 435,
           "title": "今年感觉禁放烟花爆竹执行异常严格",
           "imageUrl": null
         },
@@ -527,7 +500,7 @@
           "description": "lower: 我用 ollama 在本地跑了个 deepseek-r1:7b,然后在一个 Page Assist 的 webui 里既配置了本地 ollama 模型，又配置了在线 deepseek 的 apikey ，我选择本地的模型，问它，它却回答它是在线运行的，\n有什么办法让它正确获取到它运行在哪的",
           "link": "https://www.v2ex.com/t/1108183",
           "publishedOn": "2025-01-28T06:27:51.000Z",
-          "wordCount": 499,
+          "wordCount": 513,
           "title": "怎么能够让 AI 知道它是运行在云端还是我本地电脑上的啊？",
           "imageUrl": null
         },
@@ -537,7 +510,7 @@
           "description": "nkdsbd: \n我不喜欢短视频，认为其中虚假内容占了大多数。\n真实生活已经很假很累了，还要在刷手机短视频的时候，分辨哪些是真的，哪些些些些些些些些是摆拍的。\n尤其反感的一种是，操着方言土话和你拉近距离，假装记录生活，实则绞尽脑汁编造剧情脚本，想让观众误以为这是它的生活。例如：把北漂生活描述的每天美好充实，成天搬家串门的，就这 还能被北京卫视采访，尼搁糊弄鬼树立模范呢？\n我身边的人也知道里面内容质量不高，但还是忍不住去刷。\n包括我，即使这么反感这泡，但偶尔刷上也经常停不下来。奋力在茅坑里淘金。\n如何理性看待短视频？",
           "link": "https://www.v2ex.com/t/1108182",
           "publishedOn": "2025-01-28T06:26:20.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "如何理性看待短视频",
           "imageUrl": null
         },
@@ -547,7 +520,7 @@
           "description": "iliaoliao: 最近写的应用老被破解，有没有大佬可以提供一套安全的解决方案，预算 1k 。要求 1 月 4 号前完成。\n联系 vx：bHgxMDc2OTg4OTQ",
           "link": "https://www.v2ex.com/t/1108181",
           "publishedOn": "2025-01-28T06:22:29.000Z",
-          "wordCount": 441,
+          "wordCount": 446,
           "title": "有偿寻求安全大佬提供一套方案防破解",
           "imageUrl": null
         },
@@ -577,7 +550,7 @@
           "description": "lingyi95: \n简介\n青云记账是一款专注于极简、高效的个人记账 App ，全程无广告干扰，并为用户提供直观清晰的图表分析，帮助轻松管理财务。\n目前仅上架了 app store\n商店链接： https://apps.apple.com/us/app/qingyunji/id6670430586\n开发理念\n一步到位\n常用功能入口一步到位，力争三步完成操作。全流程无广告，无干扰，给用户最便捷的记账体验。\n隐私第一\n青云十分注重隐私数据的保护，支持仅邮箱注册，隐私数据全部本地加密存储在云端。正因此，后续记账数据也实现不了云端搜索，搜索全部基于本地实时计算。\n清晰明了\n图表分析很重要，饼图、柱状图、折线图、排行榜等可视化呈现，清晰明了。\n简单可靠\n抛弃传统的记账概念、交互，让 UI 、交互回归简单纯粹，以 less is more 为准则，轻量简洁，但应有尽有。数据保本地存储，云端备份。\n好风凭借力，助你上青云。\n预览\n\nPromo Code\n非尊享会员也能享用绝大部分功能\n月度尊享 code 5 个\nAJNAKYEHYTLT\nFLJALFLN4K9M\nM4J4EM94EJ3A\nAX477KWKAKRJ\nTRNYXFNYHF6W\n年度尊享 code 1 个\nHWEPANRE4NYT\n兑换码在系统应用商店使用。为了最大化兑换码的功用，给真正在使用的人，且保证一定的随机和公平。\n因为上次送码发现有些用户抢先兑换了但是并没有使用 app ，导致后面看到的 v 友无法兑换，评论区额外赠送一些 code.\n评论区送码规则\n注册成功后 UID 最后一位数字是5 、6 、8的\nuid 在 App  [我的]  -  [会员信息] 查看，点击复制评论即可。uid 是随机的。赠送 3 个年度会员，送完即止。\n评论区随机抽取 5 个（月+年）\n如果各位大佬能在应用商店给个好评，则有如甘露春霖，感激不尽。\n最后祝大家新年快乐，万事如愿，所思所想所求就能有所成！🎉🎉🎉",
           "link": "https://www.v2ex.com/t/1108178",
           "publishedOn": "2025-01-28T05:42:56.000Z",
-          "wordCount": 612,
+          "wordCount": 637,
           "title": "[新年送码🎉] 简洁记账 app 送码，可能是北半球最好用的记账 app 了",
           "imageUrl": null
         },
@@ -587,7 +560,7 @@
           "description": "jiaoguan1688: \n着急死了,全世界的源都挂了好像",
           "link": "https://www.v2ex.com/t/1108177",
           "publishedOn": "2025-01-28T05:34:48.000Z",
-          "wordCount": 501,
+          "wordCount": 511,
           "title": "看春晚 大家给个能用的 v6 源啊",
           "imageUrl": null
         },
@@ -607,7 +580,7 @@
           "description": "windyboy: \n通过自己筛选过的文档强化一下本地模型，加上 Cursor 是不是就是目前最好的 AI 辅助方式？",
           "link": "https://www.v2ex.com/t/1108172",
           "publishedOn": "2025-01-28T04:57:26.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "一个本地运行的 DeepSeek 加上 Cursor，是不是目前一个程序员的终极解决方案？",
           "imageUrl": null
         },
@@ -627,7 +600,7 @@
           "description": "goodhellonice: \n最近也想做几个视频，看了几位 up 主的，发现很多里面用的是电影素材，不知道会不会是有版权的风险。还是说，里面画面用的时间短就不会有这个风险？有具体的条文或解释么。谢谢大家",
           "link": "https://www.v2ex.com/t/1108167",
           "publishedOn": "2025-01-28T04:18:21.000Z",
-          "wordCount": 451,
+          "wordCount": 465,
           "title": "v 友们，像‘小约翰可汗’这种 up 主，他的视频里素材都是来自于电影，这种会不会有侵权的风险？",
           "imageUrl": null
         },
@@ -637,7 +610,7 @@
           "description": "huiyanpohundh123: \nDLPlay 简介\nDLPlay 是一个基于 DLNA 协议的 Apple TV 端的投屏软件,最初是为了便于我看球赛而开发的软件,并且自豪的在 V2EX 首发.软件支持比AirPlay更多的视频格式,可以有效的作为AirPlay 的一个补充,也支持 B 站 4k+直播原画投屏(目前仅为可用状态 不要抱有太多期待).\n50 个抽奖名额留下邮件地址(可以使用 base64 格式)即可参与抽奖\n重要提示: 为了后续升级 最好在美区兑换喔\n软件地址: https://apps.apple.com/us/app/dlplay/id6448221325\n \n软件预览",
           "link": "https://www.v2ex.com/t/1108166",
           "publishedOn": "2025-01-28T04:11:37.000Z",
-          "wordCount": 620,
+          "wordCount": 660,
           "title": "DLPlay 抽奖活动! 过年了给家整一波抽奖活动助助兴,祝所有看到帖子的人好运🍀连连",
           "imageUrl": null
         },
@@ -647,7 +620,7 @@
           "description": "hubayi: \n心血来潮想去走走看看，发现票都预约完了，这是中国特殊国情，还是中日韩和欧美国家的普遍现象？",
           "link": "https://www.v2ex.com/t/1108165",
           "publishedOn": "2025-01-28T04:11:05.000Z",
-          "wordCount": 471,
+          "wordCount": 478,
           "title": "中国热门景点怎么都要提前预约啊",
           "imageUrl": null
         },
@@ -657,7 +630,7 @@
           "description": "Eagleyes: 有 2 个 iPhone ，分别登陆 2 个不同 ID\n可以连接同一个 AirPods Pro2 么？（不同时播放）\n如果是 3 个设备呢？\n比如 ID1 有 2 个设备，ID2 有 1 个设备。",
           "link": "https://www.v2ex.com/t/1108164",
           "publishedOn": "2025-01-28T03:41:57.000Z",
-          "wordCount": 421,
+          "wordCount": 428,
           "title": "AirPods Pro2 是否可以连接 2 个不同 ID 的设备？",
           "imageUrl": null
         }

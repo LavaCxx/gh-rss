@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-28T11:09:15.491Z</id>
+    <id>urn:2025-01-28T12:20:14.503Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-28T11:09:15.491Z</updated>
+    <updated>2025-01-28T12:20:14.503Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -525,33 +525,6 @@ Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...]]></title>
         <id>https://t.me/vps_xhq/695</id>
         <link href="https://t.me/vps_xhq/695"/>
@@ -923,16 +896,6 @@ DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻
 Thank You (2024 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第206期 - 标致的狗]]></title>
-        <id>https://weekly.tw93.fun/posts/206-%E6%A0%87%E8%87%B4%E7%9A%84%E7%8B%97/</id>
-        <link href="https://weekly.tw93.fun/posts/206-%E6%A0%87%E8%87%B4%E7%9A%84%E7%8B%97/"/>
-        <updated>2024-12-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[封面图拍摄于外面看到的一只小狗，被圈养在围栏里面，非常标致、毛发很好，甚至让它坐着就很乖坐着，挺可爱。]]></summary>
-        <author>
-            <name>潮流周刊</name>
         </author>
     </entry>
 </feed>
