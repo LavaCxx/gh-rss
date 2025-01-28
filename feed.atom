@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-28T20:11:39.266Z</id>
+    <id>urn:2025-01-28T21:10:18.207Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-28T20:11:39.266Z</updated>
+    <updated>2025-01-28T21:10:18.207Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Apple Intelligent 是不是可以直接找 deepseek 谈合作了]]></title>
+        <id>https://www.v2ex.com/t/1108241</id>
+        <link href="https://www.v2ex.com/t/1108241"/>
+        <updated>2025-01-28T18:53:10.000Z</updated>
+        <summary type="html"><![CDATA[moudy: 开源模型，效果好，负载低，无利益冲突]]></summary>
+        <author>
+            <name>moudy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电脑经常死机，求各位大佬帮忙分析下是哪个部件出问题了]]></title>
+        <id>https://www.v2ex.com/t/1108240</id>
+        <link href="https://www.v2ex.com/t/1108240"/>
+        <updated>2025-01-28T17:55:44.000Z</updated>
+        <summary type="html"><![CDATA[mikeab: 
+四五年前自组的台式，AU+N 卡，双通道 16G 内存。
+最近时不时出现使用中突然死机的情况，屏幕先卡住不动（这个时候还有声音），然后过几秒后显示器直接黑屏无信号，只能强制重启（这个时候声音也没了）
+有点拿不准是哪里出了问题，因为以前有过类似情况，玩大型游戏的时候会死机，当时加了两条内存解决了（后面发现 4 条内存插满稳定性很差就又拆了两条）  
+但是这次的情况是，电脑只开了一个浏览器看视频也会卡死，而且有时会在某块不特定区域出现一瞬间的黑斑，又有点像显卡有问题，求大佬帮忙分析一下]]></summary>
+        <author>
+            <name>mikeab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从语言编码到发展原因的一种可能性]]></title>
+        <id>https://www.v2ex.com/t/1108239</id>
+        <link href="https://www.v2ex.com/t/1108239"/>
+        <updated>2025-01-28T17:37:53.000Z</updated>
+        <summary type="html"><![CDATA[lauy: 
+很想分享这个观点, 原文发表在知乎
+我得出的结论是广义上的语言是影响社会发展的一个重要因素
+最近在看编码这本书, 让我想到在中西方语言编码或者语言本身的差异的角度来看这个问题
+中文是表意文字, 每个汉字能承载相对丰富的信息, 大部分能直接表达语义, 因此可以传达更丰富的内涵, 在某种程度上直接带来了文化上的繁荣, 也无形中增加了学习的门槛
+而英文是由其 26 个字母组合而成, 从而逻辑性得到衍生, 例如前后缀与词根等等的使用, 在某种程度上推动了理性思考的浪潮, 也往往因为语言文字本身的属性便于传播
+且不提计算机的出现与语言编码的直接相关, 我想讨论的是
+科学技术的发展乃至文化特质的形成与语言之间的联系
+中文表达偏向隐含和多义, 所以中华文化中艺术与文学在世界有其自有的独特性, 但对于科学研究所需的严谨性产生了一种微妙的阻碍, 同时对于思想与文化的塑成而言, 则是趋于保守或种种设想中的特征, 而思想与文化二者相互作用进而筑起了无数有形无形的"长城"
+也请给我一个站在制高点的机会:
+无穷的远方, 无数的人们过完了这一生, 殊不知那些苦难, 劣根性和周围的所有一切, 竟来源于我们所说的语言与文字......
+试想在遥远的过去无数个瞬间, 同一时间东方人与西方人在面对同样的思想灵感闪现时, 看着不同的文字被匆匆写下, 转身走向截然不同的历史的未来里......
+非相关专业人士的有感而发, 无所谓有无意义
+敬请批评指正, 若有相关研究, 那真的挺好的
+参考:
+编码
+book.douban.com/subject/4822685/
+https://chatgpt.com/share/6797af22-54cc-8011-9d1f-dc8654d8f51f
+DeepSeek : (由于还不能共享对话, 借用 ChatGPT 的共享功能
+https://chatgpt.com/share/679916df-dc30-8011-8a50-3bc756c5cd79]]></summary>
+        <author>
+            <name>lauy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[lan ipv4 的设备可以通过 wan ipv6 进行端口映射吗？]]></title>
         <id>https://www.v2ex.com/t/1108238</id>
@@ -33,17 +86,6 @@ https://www.zhoulin.com.cn/index.php?c=show&id=3
 https://imgur.com/a/GRtlctY]]></summary>
         <author>
             <name>jimliang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[无]]></title>
-        <id>https://www.v2ex.com/t/1108236</id>
-        <link href="https://www.v2ex.com/t/1108236"/>
-        <updated>2025-01-28T15:37:34.000Z</updated>
-        <summary type="html"><![CDATA[LiJohnson002: 
-无]]></summary>
-        <author>
-            <name>LiJohnson002</name>
         </author>
     </entry>
     <entry>
@@ -609,42 +651,6 @@ chatgpt 倒是搞定了]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[好多 AI 都识别不出来这是啥字]]></title>
-        <id>https://www.v2ex.com/t/1108191</id>
-        <link href="https://www.v2ex.com/t/1108191"/>
-        <updated>2025-01-28T07:14:42.000Z</updated>
-        <summary type="html"><![CDATA[ooops: 
-
-然后一顿瞎说，目前测下来只有豆包是对的。]]></summary>
-        <author>
-            <name>ooops</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如果 AES 无法用 GCM 模式，用明文 hash 作为 IV 以实现完整性校验是一个好的实现吗？]]></title>
-        <id>https://www.v2ex.com/t/1108190</id>
-        <link href="https://www.v2ex.com/t/1108190"/>
-        <updated>2025-01-28T07:12:18.000Z</updated>
-        <summary type="html"><![CDATA[drymonfidelia:]]></summary>
-        <author>
-            <name>drymonfidelia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有支持加密存储的 NVR 硬盘录像机吗]]></title>
-        <id>https://www.v2ex.com/t/1108189</id>
-        <link href="https://www.v2ex.com/t/1108189"/>
-        <updated>2025-01-28T07:02:06.000Z</updated>
-        <summary type="html"><![CDATA[einsdisp: 
-一般的海康/大华录像机, 录像是明文存储在硬盘里面的, 把硬盘拆卸下接入电脑就能用软件查看了.
-有哪个品牌/型号的录像机, 硬盘是全盘加密的, 没密码的情况下, 就算拆硬盘也看不了录像, 就算是厂商也看不了, 类似 BitLocker 的作用.
-只需支持要 4-8 路, 2M-8M 分辨率即可.
-国内没有的话, 国外牌子也行, 但要国内能买到的.]]></summary>
-        <author>
-            <name>einsdisp</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -653,6 +659,33 @@ chatgpt 倒是搞定了]]></summary>
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
