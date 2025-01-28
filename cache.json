@@ -124,12 +124,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -281,6 +275,156 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108226",
+          "author": "hereis00",
+          "description": "hereis00: 最近想拍个小电影，发现手头的 Apple 设备都能显示 10bit/HDR 内容\n遂大喜，抓起自己的松下 G9 录了点 V-log 素材去达芬奇剪\n根据 B 站的杜比视界的制作流程分享 https://www.bilibili.com/video/BV1jA4m157UG/ 看了看发现…\n我 Macbook Air M1 的显示设置根本就没有“预置”的选项，\n颜色配置文件里也找不到“HDR Video ST-2084”，\n去线下零售店看了看 Pro 款才发现这个预设会将桌面白色锁在 203nit ，\n整个显示器的伽马曲线会变成 PQ 曲线（就是预置写的 ST-2084 ），\n而自己 Air 可选的每个颜色配置文件，都没有 HDR 用的伽马曲线（ PQ 或 HLG ）…\n所以自己达芬奇调色预览时会感觉欠曝、欠饱和。\n之后也试了试 Final Cut Pro ，这个更惨，项目设置连 Rec2020 HLG 的选项都不给。\n有没有对 Mac 显示机制了解比较深的老哥，\n想问问怎样用非正常手段将 Air 伽马曲线强行改为 PQ 或 HLG ，\n不然的话我就要当波形图战士了",
+          "link": "https://www.v2ex.com/t/1108226",
+          "publishedOn": "2025-01-28T13:17:51.000Z",
+          "wordCount": 454,
+          "title": "库克等级森严使我 air 无力战胜 HDR 剪辑",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108225",
+          "author": "nightnotlate",
+          "description": "nightnotlate: 经典相声我听得还算比较多，\n感觉讲相声的就像一个大师，\n台上不动声色地抖包袱 台下乐得捂着肚子，\n是一门很有技术含量的艺术，\n你要比观众高几个段位 才能逗笑他们。\n但岳云鹏的 是真不喜欢，\n他给我的印象，就是那种卖蠢 卖丑 卖笨拙，\n就像个小丑（不是骂人） 靠卖弄自己的愚笨，\n靠自低身份来让人笑，这就很下乘了。\n印象里他在春晚的相声都不咋样，\n但很奇怪 火的莫名其妙\n五环之歌也火了，那首歌就是他的风格写照，卖蠢，而他还当包袱多次自己引用......",
+          "link": "https://www.v2ex.com/t/1108225",
+          "publishedOn": "2025-01-28T13:01:41.000Z",
+          "wordCount": 419,
+          "title": "很不喜欢岳云鹏的相声",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108224",
+          "author": "agood",
+          "description": "agood: 个人对春节的感受是越来越差，没有一点年味，除了感受陋习之外没有任何好处\n陋习 1️⃣：鞭炮、烟花造成严重的空气污染和噪声污染。\n陋习 2️⃣：过年家人亲戚除了催婚就是说风凉话。\n陋习 3️⃣：大量人口流动造成交通不便，乱停车尤为严重。",
+          "link": "https://www.v2ex.com/t/1108224",
+          "publishedOn": "2025-01-28T12:54:59.000Z",
+          "wordCount": 115,
+          "title": "春节是不是最大的陋习？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108223",
+          "author": "ziyouhua",
+          "description": "ziyouhua: 请问安装好了极光面板，但后台显示部署失败，为什么出现 STDOUT No stdout found!\n如果正确的安装好了极光面板，何以判断是它给网站起到了加速作用？",
+          "link": "https://www.v2ex.com/t/1108223",
+          "publishedOn": "2025-01-28T12:44:42.000Z",
+          "wordCount": 372,
+          "title": "请问安装好了极光面板，但后台显示部署失败，为什么出现 STDOUT No stdout found!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108222",
+          "author": "huxinchen",
+          "description": "huxinchen: \n第一次在國外過年～\n祝大家新年快樂！萬事如意！",
+          "link": "https://www.v2ex.com/t/1108222",
+          "publishedOn": "2025-01-28T12:08:07.000Z",
+          "wordCount": 375,
+          "title": "新年快樂！ Happy Chinese New Year!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108221",
+          "author": "qichunren",
+          "description": "qichunren: 这些年我对传统拜年方式越来越困惑：明明春节假期只有七天，却要花四五天在不同亲戚家赶场。每家停留两小时，说重复的客套话，感觉身心俱疲。\n我始终不明白：\n为什么不能各家派代表，约个共同时间集体聚餐？\n长辈们是否也疲惫于年复一年的迎来送往？\n这种消耗式拜年，真的比深度团聚更有温度吗？\n今年尝试和父母沟通调整形式，他们却说\"会被说不懂礼数\"。想问问大家：\n你们当地有创新型的拜年方式吗？\n年轻人如何平衡传统习俗与自我需求？\n这种疲惫感是独属于我们这代，还是长辈们也有同感？\n特别想知道：\n如果改为\"初一团拜+初三自由活动\"的模式，真的会破坏年味吗？",
+          "link": "https://www.v2ex.com/t/1108221",
+          "publishedOn": "2025-01-28T12:03:46.000Z",
+          "wordCount": 519,
+          "title": "有没有和我一样觉得走亲戚式拜年太耗精力？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108220",
+          "author": "huntagain2008",
+          "description": "huntagain2008: \n记录父亲的回答：\n短视频的专家讲解得非常好，通俗易懂，远比新闻中那些难以理解的术语，比如“gpt”或“chatGPT”要好得多。\n微信的普及程度非常高，还有移动支付功能，使用的人那么多，你怎么能不使用微信呢？\n年利率下降对银行来说是个好消息，和俄罗斯银行 20%的利率相比，倒闭风险要低得多。中国的银行都是国有的，非常稳健。\n我的华为 Mate60 运行得很流畅，我使用的是鸿蒙 OS ，没有升级到纯血鸿蒙是因为需要玩游戏，纯血鸿蒙不支持我玩的游戏。而且 Mate70 及以上才可以升级到鸿蒙 Next 。\n你怎么能不爱国呢？看看中国有那么多民族，从古至今都渴望统一。\n美剧《星际之门》简直就是肥皂剧，只有一个破门，拍摄得很简陋。我现在在看《大奉打更人》，真是欢乐。\n疫情的来源是什么呢？我跟你说，以前的非典就有一种说法：“吸烟者对非典高度免疫”。在非典发生的两年前，世界卫生组织曾呼吁吸烟致癌，导致国内吸烟人数减少，结果非典随即爆发。你看，这时间刚好吻合。美国为什么也有疫情，那是美国自己误伤了自己。\n你妈妈就应该把你搞到美国去，到时候讨饭都没人理你\n（真的是每年和父亲有类似的谈话，实在是太没意思了）",
+          "link": "https://www.v2ex.com/t/1108220",
+          "publishedOn": "2025-01-28T11:45:34.000Z",
+          "wordCount": 465,
+          "title": "2025-01-28.与父亲的一次面谈",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108219",
+          "author": "rtz",
+          "description": "rtz: \n楼主大学学的是电子，平常写单片机基本上就搞搞寄存器，学校也没学算法\n现在感觉遇到瓶颈了，串口的环形缓冲区都有点吃力\n想问问各位大佬，嵌入式用的算法和普通的算法应该是通用的吧，怎么入门快一点",
+          "link": "https://www.v2ex.com/t/1108219",
+          "publishedOn": "2025-01-28T11:42:16.000Z",
+          "wordCount": 381,
+          "title": "电子专业跨行学算法有推荐路径吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108218",
+          "author": "nealot",
+          "description": "nealot: \n最近仿制药争议不断。\n对程序员群体来说，偶尔生个病 (非重疾)，配个几块钱、几十块钱的药，是没有必要像 JICAI 那样极致省钱的。\n拿着处方单去京东上买同成分的原研药，可以或多或少地减少副作用，增加疗效。\n但是这个操作有一个明显的问题：医院开的廉价仿制药变成了无效支出，还要另外付一笔原研药的钱。\n小毛病的支出，就算不多 (假设一年几百块钱)，但是长期累积下来仍然是一笔不小的钱。\n或许，买个合适的商业保险，是解决这个问题的最佳途径？\n保险天然具有杠杆属性。因为买保险的人，就是有一部分不生病。每月最大赔付 200 元的产品，很可能只需要每月支付 50 到 100 元。\n这样，就可以通过一个持续的小额支出，持续地享受到最佳质量的原研药。\n剩下的问题，就是如何选择一个赔付条款合适的商业保险了。",
+          "link": "https://www.v2ex.com/t/1108218",
+          "publishedOn": "2025-01-28T11:27:24.000Z",
+          "wordCount": 460,
+          "title": "商业保险：购买原研药的最佳选择？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108217",
+          "author": "zhouyin",
+          "description": "zhouyin: 是实例的临时 public ip\n看了圈没发现",
+          "link": "https://www.v2ex.com/t/1108217",
+          "publishedOn": "2025-01-28T11:27:19.000Z",
+          "wordCount": 421,
+          "title": "ansible 或 terraform 有没有方法获得刚创建的 ec2 实例的 public ip？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108216",
+          "author": "tlerbao",
+          "description": "tlerbao: \n为什么 AI 不能自动创建文件，一顿弹出保存文件对话框，然后保存的文件里也没有内容\n如图这两个文件根本也没有创建，什么情况",
+          "link": "https://www.v2ex.com/t/1108216",
+          "publishedOn": "2025-01-28T11:11:11.000Z",
+          "wordCount": 382,
+          "title": "有使用 vscode 的 Copilot Edit 的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108215",
+          "author": "YuTengjing",
+          "description": "YuTengjing: \n利用下班和周末时间开发了一个 AI 生成图片网站，准备邀请一部分内测用户体验（做慈善）。\n内测用户赠送 360 积分（相当于 360 张 flux schnell 或者 kolors 生成），可以使用多个模型，flux dev, recraft, idogram, kolors 等。\n预计马上会支持（画饼， 过年嘛）midjourney 模型（其实早就支持了但是还没做安全检测，先不开放）, upscale, 视频生成（后面重点开发方向）.\n想体验的朋友可以发 google 邮箱账号，我会发送给你一个邀请注册的链接，V2EX 会邀请最多 50 名内测用户。\n欢迎提出你的意见和给我反馈 bug 。\n网站地址：artiffuse",
+          "link": "https://www.v2ex.com/t/1108215",
+          "publishedOn": "2025-01-28T11:00:23.000Z",
+          "wordCount": 399,
+          "title": "开发了一个 AI 生成图片网站",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108214",
+          "author": "Yukisama",
+          "description": "Yukisama: \n接：上文\n在之前尝试自制一个本地的电子书阅读器，收到了大家很多的建议，这段时间对 App 进行了几轮更新，同时也加入了很多功能，现在主要功能如下：\n支持系列书籍的整合分类\n对书籍样式支持完善（包括弹出式脚注等）\n支持给书籍添加标签分类\n可以自定义书籍封面\n阅读页支持高度自定义（行距、段距、字体、字号、四周边距都可自定义）\n自定义字体可以导入 ttf 、otf 字体\n夜间模式适配\n阅读信息统计（单册书籍统计、整体数据统计）\n阅读计时器\n目前正在适配 txt 和 cbz 漫画格式，azw3 和 azw4 格式也在适配中，未来会增加数据云同步和元数据刮削功能。\niOS 下载链接：下载地址\n目前尝试上架收费，8 块钱买断制，不是指望赚钱，只是想看看能给开发者账号回多少本，文末附兑换码。安卓在尝试上架 Play 商店，不过目前还在解决 14 天封闭测试。\n交流反馈 QQ 群：979919343\n兑换码：\nLMJ67MF3PYPL\n4ALP6JL3PLNA\n6FJY9NWPYNTN\nYHJ3EYK96RJE\n3JMF3THTKPA4\nTPRTWLF7PFXY\nY3NJ7R9X3H3Y\nWFR49P7HFMHJ\n7X3RLLEMTXP3\nN6M4F4NHFRMN\n如果觉得不错可以在 App Store 点点评分，祝大家新年快乐！\n预览图：",
+          "link": "https://www.v2ex.com/t/1108214",
+          "publishedOn": "2025-01-28T10:47:22.000Z",
+          "wordCount": 492,
+          "title": "[附兑换码] Moeli 阅读，简单易用的电子书阅读器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108213",
+          "author": "wubalabadub",
+          "description": "wubalabadub: \n原本以为今年不用回老家拜七大姑八大姨，会在家里比较安逸，结果却感到挺难受和窒息。\n前两天熬夜看英超曼城和切尔西的比赛，4 点才睡，提前和家里人说了要熬夜看比赛，早上会晚起。\n结果早上还是 8 点被喊起来吃早饭。\n然后、被问平时是不是一直这个作息，说不吃早饭会得这个结石那个病。\n下午老妈出去晒太阳了, 我在家洗澡, 就因为没用太阳能、用的热水器，回来被说为什么不用太阳能，我说我不知道太阳能是开着的。\n然后问我为什么不打电话问，进而引出我回来在家里不沟通，平时不经常给他们打电话。\n然后说沟通是多么重要，引出我平时是不是和同事也不沟通，给我转发一些营销号励志演讲，晚饭滔滔不绝说是为了让我「少走点社会的弯路」。\n前两天晚上开车去看亲戚，路上停车想在便利店买条烟、去送给爱抽烟的那一家。\n然后又被说：“家里有谁谁谁送来的烟啊、为什么要到外面买”，我说不知道，买就买了也没几个钱。\n然后说完我就知道完蛋了，又开始讲起自己平时是如何如何节约的，电动车坏了只买二手的、手机用了 xx 年不愿意换（我之前想帮她换的，她死活不愿意）、买菜怎么省的、水电怎么省的。\n然后我实在绷不住了，我就抱怨了两句说为了这点小钱影响心情不至于，然后又差点吵起来：“省的钱还不是为了你！以后都是你的！”。\n今年看了「非暴力沟通」，还以为自己学到了，觉得很多事确实和同事朋友解决起来方便多了。\n感觉自己还是太年轻了，现在只想赶紧过完年。\n除夕夜的一点碎碎念，大家看的图一乐吧，祝大家家庭和睦，新年快乐。",
+          "link": "https://www.v2ex.com/t/1108213",
+          "publishedOn": "2025-01-28T10:44:43.000Z",
+          "wordCount": 471,
+          "title": "过年回家，现在感觉很窒息",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108212",
+          "author": "chanChristin",
+          "description": "chanChristin: \nhttps://youtrack.jetbrains.com/issue/WEB-67146/Dont-suggest-Module-option-in-Find-in-Files\n然后我找技术支持问了一下，后面好像是又开了个 issue ，提问新版功能建议，如果有需要用到类似功能的可以去评论一下，让他们尽快加回来这个功能，对我来说挺有用的。我是把多个项目添加到同一个窗口中，需要搜索不同的项目直接在模块里选就行了，这下直接没了，只能暂时用老版本。\nhttps://youtrack.jetbrains.com/issue/WEB-71396",
+          "link": "https://www.v2ex.com/t/1108212",
+          "publishedOn": "2025-01-28T10:40:17.000Z",
+          "wordCount": 338,
+          "title": "webstorm 新版本在全局搜索中取消了模块选项卡",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108210",
           "author": "OceanWaves",
           "description": "OceanWaves: \n均为个人观点 欢迎大家讨论\n关于 YouTube 上的中文内容：不看，看中文内容我不会来这个平台，这个平台大量的优质内容（ podcast ）（ interview ）（ influencer ）（ lecture ）英文占绝大多数，中文内容键政居多，图一乐还可以\n老高与小茉：个人观点，这两个人讲故事能火是因为夫妻间的温情，故事本身不是重点 这里可以看 如何评价油管老高与小茉（原 kuaizero 老高频道）？\n关于 YouTube 算法：YouTube 算法是个黑盒，没人知道到底怎么运作的，但我们可以从中看出平台的意图，平台想的是最大化用户观看的时间，平台想让用户来 YouTube 观看内容，而不是从别的平台（ reddit/Facebook ）引流过来，平台也不想让 youtuber 的影响过大，所以在主页不会给你推荐你关注的博主，同样的原因 YouTube 的关注页没有分类功能，因为平台不想让你来只看某几个人的视频，YouTube 想让你享受这个平台整体 这里可以看 为什么 YouTube 算法永远都会是个谜 Why The YouTube Algorithm Will Always Be A Mystery 为什么我的视频火了？ My Video Went Viral. Here's Why YouTube 如何变现 This Video is Worth $13,568.99\n为什么没有弹幕功能？ 因为英语弹幕观感并不好，英语单词有长有短并不像汉字就方块字。还有文字信息熵的区别。参考为什么全世界只有中日两个国家弹幕视频网站成为流行？\nYouTube 的广告：YouTube 上边很多广告，原因也很简单，Video hosting 太费钱了。YouTube 上边有 Google Adsense ，还有 youtuber 接赞助商插入的视频广告，不同于国内抖音 b 站等平台，这部分广告 YouTube 是不抽成的，youtuber 还可以自己卖货（它们管这个叫 YouTube merch ）,youtube 也是不抽成的。\n如何屏蔽 YouTube 上的广告？ 如果是 web 端很简单，安装uBlock Origin即可屏蔽 Google Adsense ，或者订阅 YouTube Premium （低价区，家庭组等等）安装sponsorblock可跳过视频内的赞助商广告，（防喷我订阅 Premium ）\nAndroid 可以使用revanced\n如何在 YouTube 上找到自己喜欢的内容 我认为主要靠搜索，首先安装searchfixer for youtube 然后按自己需求打开其中的选项，然后搜索即可\n关于 Faceless channel 不漏脸的频道我首先会怀疑内容的质量，以及是不是念稿/ai 合成 对于我个人来说这是一个大大的 red flag\nYouTube 插件推荐 上边提过的我就不说了 DeArrow 替换视频封面 BlockTube 屏蔽 YouTube 频道 enhaced-h264ify 屏蔽 av1 ReturnYoutubeDislike unhook Remove Distractions\n目前就想到这么多 欢迎大家 提问/讨论/指正",
@@ -321,22 +465,12 @@
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1108206",
-          "author": "bapp",
-          "description": "bapp: \n事情的起因是过年回家不乏要提到工作，和老爸说到这一块的时候我说我们作为打工人一点也不喜欢国产的东西。\n拿苹果和华为来说，做过果链相关的都知道，苹果对于人权红线这一块要求有多严格，华为国内外混用闪存，奋斗者协议，35 毕业，251 天等等这些事实摆在他眼前也揣这明白装糊涂。我说支持国产就是在吸打工人的血，不是开地图炮骂在这些公司的同学啊，只是说像格力，宁德时代，福耀等等等等企业做了些什么事大家都有目共睹，这种情况你有几千块钱是去买苹果还是华为呢(非广告，可同等替换其它产品，电脑啊，车啊等等)\n现在发帖并不想继续改变老一辈的想法，而是怎么改变我的想法，是不是有人生重大决策的时候不要想着和家里商量，假如有下一代的时候是否该让父母参与三观教育\n接受大家的评判和指责，也希望大家能给我些建设性的意见",
-          "link": "https://www.v2ex.com/t/1108206",
-          "publishedOn": "2025-01-28T09:04:44.000Z",
-          "wordCount": 115,
-          "title": "过年回家，发现与家里三观越来越不合",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1108205",
           "author": "razios",
           "description": "razios: 两台 iphone 手机登录同一个 apple id ，一台复制，有时另外一台有时会弹出“粘贴自“XX”的 iphone” 然后这个弹出只有一个取消选项，但是怎么点都退不出，而且显示在最顶层。按关机打算重启，发现还在锁屏界面顶层，无法滑动关机。最后只能耗电，自动关机才行。\n有这么严重的 bug ，靠…郁闷了半天只能干等",
           "link": "https://www.v2ex.com/t/1108205",
           "publishedOn": "2025-01-28T08:52:39.000Z",
-          "wordCount": 381,
+          "wordCount": 397,
           "title": "ios 一个严重 bug",
           "imageUrl": null
         },
@@ -346,7 +480,7 @@
           "description": "ZRS: https://v2ex.com/t/1091359",
           "link": "https://www.v2ex.com/t/1108204",
           "publishedOn": "2025-01-28T08:47:52.000Z",
-          "wordCount": 392,
+          "wordCount": 411,
           "title": "iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题",
           "imageUrl": null
         },
@@ -356,7 +490,7 @@
           "description": "KingZZZZ: \n车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？",
           "link": "https://www.v2ex.com/t/1108203",
           "publishedOn": "2025-01-28T08:29:48.000Z",
-          "wordCount": 430,
+          "wordCount": 434,
           "title": "车辆被撞",
           "imageUrl": null
         },
@@ -386,7 +520,7 @@
           "description": "fwqaaq: \n之前写这篇文章的账号被平台删除了，不知道为什么？用小号重新发一下\n先说我去年的时候刚接触 Bitget 吧。相信很多新人第一次和我一样，使用的都是币安，然后在推特上看到了 Bitget 的大量广告以及公关活动，才选择了 Bitget 。我当时也是这样，看到了大量 Bitget 的客服对用户服务周到，不遗余力换回用户损失的资金，然后正巧想买 kaspa ，就选择了 Bitget ，并且将 Bitget 作为自己的首选交易所。\n先说结论：我被推特上无底限的 Bitget 广告给骗了，它们同样是为了赚钱，并不会为了用户利益而服务，有的只是对用户的搪塞。\n事情的起因\n去年的时候我在 Bitget 上充错了一笔跨链桥的 USDC ，当我意识到这点的时候，我立刻联系了 Bitget 的客服，希望他们能够帮我找回这笔资金。我当时心存侥幸，像 Bitget 这么大的交易所肯定会帮助用户挽回损失，并且他们掌握了地址的私钥，他们可以帮助用户找回这笔资金，当然我想错了。\n\n\n\n正如你在图片中看到的那样，Bitget 的客服并不想也不乐于帮我找回转错的资产，他更像是一个 Bitget 的 NPC ，只会重复：“我懒得帮你找”。对啊，这种事情又不是他们的责任，他们只是一个交易所，他们不会为了用户的利益而服务，他们只会为了自己的利益而服务。而且这种跨链的资产怎么可能上交易所呢？而且为什么要等到它上交易所才能退回呢？对，一切都是他们说得准，他们无条件服务顾客也真的是无条件。（顾客的问题，关我交易所什么事呢？）\n事情的发展\n币圈是个黑暗森林，永远不要相信推特上某些 KOL 的话，他们为了所谓的推广费而不择手段，不考虑他人，只是为了吃别人的人血馒头。\n当我看到推特上漫天的 KOL 推广 Bitget 的  debit card 的时候，我就想起了拼多多的砍一刀和华为的遥遥领先。侧重避轻的宣传只会让用户感到恶心和反感：\n让我们来揭秘一下这个 Bitget 的 debit card 吧，让你如何吃屎也吃的很开心，所以我不得不佩服 Bitget 的营销手段，这种营销手段真的是无底线。\n先来看一下，Bitget 宣传的“优享支付卡“到底有多优享吧。\n\n了不起，Bitget 竟然还能绑定这么多东西，还能在境外消费，费率最优是多优呢？想想看，你使用 USDC 的等价币在 coinbase 出金 1:1 没有任何手续费的时候，它还要给你兑换成 SGD 之后可能还要再转成其它货币再给你使用，连费率具体数字都不给你，这种所谓的“优享支付卡”真的是太优享了。然后你存个 3w 美元才能开户，这种所谓的“优享支付卡”真的是太亲民啦，一点没有把用户当外人。\n不如我们直接来看 Chase 的开户奖励吧，你可以直接 dd 获得 300 美元，然后存入 15000 美元 90 天获得 200 美元，同时做到再奖励 400 美元，相比要 3w 美元才能开户的 Bitget ，Chase 的奖励真的是太“搞笑”了是吧？毕竟 Bitget 才是真正的“优享支付卡”。\n当然漫天的推广文案我只选择了官方的，毕竟官方的下限还是高一点，如果你感兴趣，可以搜索一下推特上的 KOL 推广文案，你会发现这种营销手段真的是无底线。\n正如我所遇到的，他们把大量的金钱都用到营销上了，就像华为和苹果的售后比，Bitget 的售后就是依托答辩可以这么说。\n最后\n当我发这个贴子的时候，我不知道会有多少人看，多少水军喷我，但我只想告诉一些新人，不要相信币圈任何想带你赚钱的话，他们只是想割你，将你的加密货币提到你的硬件钱包吧，不要相信任何人，只有你自己才是最可靠的。\n如果你说 Chase 是美卡开不了，是因为 Chase 并没有像 Bitget 一样无所不用其集的营销，你可以申请 ITIN 开户也可也直接在美国使用护照开户，当你在简中大看到大量的推广文案的时候，你就应该警惕了，因为他们只是想割你，不会为了你的利益而服务。",
           "link": "https://www.v2ex.com/t/1108199",
           "publishedOn": "2025-01-28T08:09:55.000Z",
-          "wordCount": 477,
+          "wordCount": 490,
           "title": "我现在为什么讨厌 Bitget（重发）",
           "imageUrl": null
         },
@@ -436,7 +570,7 @@
           "description": "ooops: \n\n然后一顿瞎说，目前测下来只有豆包是对的。",
           "link": "https://www.v2ex.com/t/1108191",
           "publishedOn": "2025-01-28T07:14:42.000Z",
-          "wordCount": 597,
+          "wordCount": 617,
           "title": "好多 AI 都识别不出来这是啥字",
           "imageUrl": null
         },
@@ -486,7 +620,7 @@
           "description": "fbxshit: \n正在想做一个野外监测项目，拍拍小动物像松鼠小鸟之类。\n大约需要 4-6 个摄像头+一个无线硬盘录像机，摄像头在户外空旷区域互相距离有 50-100 米左右。每个无线摄像头开启移动侦测后把拍到的内容自动保存到录像机里面。每个无线摄像头和录像机使用一块小的太阳能电池板供电。\n网络连接现在的预想方案是中兴 F50 之类的 5G 移动 wifi 插流量卡，接一个 openwrt 路由器组一个局域网，移动 wifi 和路由器也用太阳能电池板供电，以上所有摄像头录像机接入这个小局域网。\n要求是在家里远程可随时登录入组建的网络，查看或者拉取录像。\n由于电源电量受限，而且不需要随时保持在线传输，只是需要时再登录查看，可能几天或十几天一次。能否给随身 wifi 的供电模块安装一个远控功能？用一个低耗电的 4G 模块远程控制随身 wifi 的电源，此供电模块只要保持最低限度的连接和唤醒能力即可。每隔几天等需要登录局域网传输数据了再远程控制给随身 wifi 上电接入 5G 网络。\n虽然最简单方案是直接用支持 4G 的摄像头+太阳能电池板，但是考虑到以后可能还会添加一些其他传感器之类的在里面，所以希望有一个远程组网的方案更加通用和灵活。\n请大家推荐一下适合这个项目的随身 wifi 、远控电源模块、openwrt 路由器、以及内网穿透的软件方案，谢谢。",
           "link": "https://www.v2ex.com/t/1108185",
           "publishedOn": "2025-01-28T06:43:18.000Z",
-          "wordCount": 501,
+          "wordCount": 517,
           "title": "野外无供电区域、有 4G/5G 信号，组建可远程访问的局域网，求方案推荐。",
           "imageUrl": null
         },
@@ -496,7 +630,7 @@
           "description": "fdgdbr: \n往年村里放炮随便放，今年村委会的人竟然挨家挨户来宣传了，村里的大喇叭也是整天在放禁止燃放烟花爆竹",
           "link": "https://www.v2ex.com/t/1108184",
           "publishedOn": "2025-01-28T06:42:07.000Z",
-          "wordCount": 479,
+          "wordCount": 517,
           "title": "今年感觉禁放烟花爆竹执行异常严格",
           "imageUrl": null
         },
@@ -526,7 +660,7 @@
           "description": "iliaoliao: 最近写的应用老被破解，有没有大佬可以提供一套安全的解决方案，预算 1k 。要求 1 月 4 号前完成。\n联系 vx：bHgxMDc2OTg4OTQ",
           "link": "https://www.v2ex.com/t/1108181",
           "publishedOn": "2025-01-28T06:22:29.000Z",
-          "wordCount": 477,
+          "wordCount": 505,
           "title": "有偿寻求安全大佬提供一套方案防破解",
           "imageUrl": null
         },
@@ -556,7 +690,7 @@
           "description": "lingyi95: \n简介\n青云记账是一款专注于极简、高效的个人记账 App ，全程无广告干扰，并为用户提供直观清晰的图表分析，帮助轻松管理财务。\n目前仅上架了 app store\n商店链接： https://apps.apple.com/us/app/qingyunji/id6670430586\n开发理念\n一步到位\n常用功能入口一步到位，力争三步完成操作。全流程无广告，无干扰，给用户最便捷的记账体验。\n隐私第一\n青云十分注重隐私数据的保护，支持仅邮箱注册，隐私数据全部本地加密存储在云端。正因此，后续记账数据也实现不了云端搜索，搜索全部基于本地实时计算。\n清晰明了\n图表分析很重要，饼图、柱状图、折线图、排行榜等可视化呈现，清晰明了。\n简单可靠\n抛弃传统的记账概念、交互，让 UI 、交互回归简单纯粹，以 less is more 为准则，轻量简洁，但应有尽有。数据保本地存储，云端备份。\n好风凭借力，助你上青云。\n预览\n\nPromo Code\n非尊享会员也能享用绝大部分功能\n月度尊享 code 5 个\nAJNAKYEHYTLT\nFLJALFLN4K9M\nM4J4EM94EJ3A\nAX477KWKAKRJ\nTRNYXFNYHF6W\n年度尊享 code 1 个\nHWEPANRE4NYT\n兑换码在系统应用商店使用。为了最大化兑换码的功用，给真正在使用的人，且保证一定的随机和公平。\n因为上次送码发现有些用户抢先兑换了但是并没有使用 app ，导致后面看到的 v 友无法兑换，评论区额外赠送一些 code.\n评论区送码规则\n注册成功后 UID 最后一位数字是5 、6 、8的\nuid 在 App  [我的]  -  [会员信息] 查看，点击复制评论即可。uid 是随机的。赠送 3 个年度会员，送完即止。\n评论区随机抽取 5 个（月+年）\n如果各位大佬能在应用商店给个好评，则有如甘露春霖，感激不尽。\n最后祝大家新年快乐，万事如愿，所思所想所求就能有所成！🎉🎉🎉",
           "link": "https://www.v2ex.com/t/1108178",
           "publishedOn": "2025-01-28T05:42:56.000Z",
-          "wordCount": 641,
+          "wordCount": 648,
           "title": "[新年送码🎉] 简洁记账 app 送码，可能是北半球最好用的记账 app 了",
           "imageUrl": null
         },
@@ -566,78 +700,8 @@
           "description": "jiaoguan1688: \n着急死了,全世界的源都挂了好像",
           "link": "https://www.v2ex.com/t/1108177",
           "publishedOn": "2025-01-28T05:34:48.000Z",
-          "wordCount": 540,
+          "wordCount": 545,
           "title": "看春晚 大家给个能用的 v6 源啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108176",
-          "author": "HawkinsSherpherd",
-          "description": "HawkinsSherpherd: \n有没有什么办法用 IPTV 盒子之外的设备看 IPTV 线路上的直播源？",
-          "link": "https://www.v2ex.com/t/1108176",
-          "publishedOn": "2025-01-28T05:11:55.000Z",
-          "wordCount": 383,
-          "title": "有 IPTV 线路但盒子不知道为啥启动不了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108172",
-          "author": "windyboy",
-          "description": "windyboy: \n通过自己筛选过的文档强化一下本地模型，加上 Cursor 是不是就是目前最好的 AI 辅助方式？",
-          "link": "https://www.v2ex.com/t/1108172",
-          "publishedOn": "2025-01-28T04:57:26.000Z",
-          "wordCount": 431,
-          "title": "一个本地运行的 DeepSeek 加上 Cursor，是不是目前一个程序员的终极解决方案？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108171",
-          "author": "scienhub",
-          "description": "scienhub: \n最近我正在重构一个基于 Vue3 和 Vite 的 SPA 项目，同时调研一些可用的技术方案。\n我们的需求是让少部分页面（如主页、About Us 、Contact 、Terms of Use 等）在构建时生成纯静态页面；而其余页面使用动态路由（例如 “/username” 或 “/username/projectname”），前端通过路由参数动态获取数据，类似传统的 SPA 模式。\n由于觉得 SSR 的实现需要额外的服务器支持，显得过于繁重，因此希望能采用一种仅靠 Nginx 就可以部署的方案。本质上，我们希望将 SPA 中的一部分页面静态化，以便于 SEO 优化。\n然而，经过一番搜索后发现，Next.js 最新的 App Router 在使用静态生成（output=export）时居然不支持动态路由。感觉这种需求非常常见和基础，却没有被很好地支持。\n从中感受到，Next.js 似乎为了配合 Vercel 的托管业务，有意推动用户更多地使用 SSR 。\n相关 GitHub 讨论：\nhttps://github.com/vercel/next.js/discussions/55393",
-          "link": "https://www.v2ex.com/t/1108171",
-          "publishedOn": "2025-01-28T04:49:32.000Z",
-          "wordCount": 496,
-          "title": "Next.js 居然不支持 静态生成 时用 动态路由",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108167",
-          "author": "goodhellonice",
-          "description": "goodhellonice: \n最近也想做几个视频，看了几位 up 主的，发现很多里面用的是电影素材，不知道会不会是有版权的风险。还是说，里面画面用的时间短就不会有这个风险？有具体的条文或解释么。谢谢大家",
-          "link": "https://www.v2ex.com/t/1108167",
-          "publishedOn": "2025-01-28T04:18:21.000Z",
-          "wordCount": 475,
-          "title": "v 友们，像‘小约翰可汗’这种 up 主，他的视频里素材都是来自于电影，这种会不会有侵权的风险？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108166",
-          "author": "huiyanpohundh123",
-          "description": "huiyanpohundh123: \nDLPlay 简介\nDLPlay 是一个基于 DLNA 协议的 Apple TV 端的投屏软件,最初是为了便于我看球赛而开发的软件,并且自豪的在 V2EX 首发.软件支持比AirPlay更多的视频格式,可以有效的作为AirPlay 的一个补充,也支持 B 站 4k+直播原画投屏(目前仅为可用状态 不要抱有太多期待).\n50 个抽奖名额留下邮件地址(可以使用 base64 格式)即可参与抽奖\n重要提示: 为了后续升级 最好在美区兑换喔\n软件地址: https://apps.apple.com/us/app/dlplay/id6448221325\n \n软件预览",
-          "link": "https://www.v2ex.com/t/1108166",
-          "publishedOn": "2025-01-28T04:11:37.000Z",
-          "wordCount": 688,
-          "title": "DLPlay 抽奖活动! 过年了给家整一波抽奖活动助助兴,祝所有看到帖子的人好运🍀连连",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108165",
-          "author": "hubayi",
-          "description": "hubayi: \n心血来潮想去走走看看，发现票都预约完了，这是中国特殊国情，还是中日韩和欧美国家的普遍现象？",
-          "link": "https://www.v2ex.com/t/1108165",
-          "publishedOn": "2025-01-28T04:11:05.000Z",
-          "wordCount": 495,
-          "title": "中国热门景点怎么都要提前预约啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108164",
-          "author": "Eagleyes",
-          "description": "Eagleyes: 有 2 个 iPhone ，分别登陆 2 个不同 ID\n可以连接同一个 AirPods Pro2 么？（不同时播放）\n如果是 3 个设备呢？\n比如 ID1 有 2 个设备，ID2 有 1 个设备。",
-          "link": "https://www.v2ex.com/t/1108164",
-          "publishedOn": "2025-01-28T03:41:57.000Z",
-          "wordCount": 430,
-          "title": "AirPods Pro2 是否可以连接 2 个不同 ID 的设备？",
           "imageUrl": null
         }
       ]
