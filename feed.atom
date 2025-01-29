@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-29T12:20:11.487Z</id>
+    <id>urn:2025-01-29T13:17:44.501Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-29T12:20:11.487Z</updated>
+    <updated>2025-01-29T13:17:44.501Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[面对铺面而来的 Deepseek，普通人很难不焦虑吧]]></title>
+        <id>https://www.v2ex.com/t/1108281</id>
+        <link href="https://www.v2ex.com/t/1108281"/>
+        <updated>2025-01-29T10:24:23.000Z</updated>
+        <summary type="html"><![CDATA[kikoroc: 
+春节在家无事也关注了一些 ai 的新闻，国产之光 deepseek 的发布，无疑又让跟多的人相信 ai 革命会更快到老，国产的大模型也在逐步的挑战美国的领先地位，我自己有时候也在想我可以在这个浪潮下做点啥，我觉得好多人可能都会这样的想法，会产生焦虑。
+目前我对于 ai 主要还是停留在应用阶段，用它解决日常开发的一些技术问题（刚写了一篇长文 https://juejin.cn/post/7463799782139904052 ），对于大模型技术本身没有专门了解过，可能也没有太多时间吧，主要时间需要花在公司的工作上面，然后自己私下时间又做了一个在线白板的开源工具（也需要很长时间慢慢迭代 https://github.com/plait-board/drawnix ），目前唯一可以相对深入了解大模型的一个方向就是借助大模型生成流程图，现在普遍的做法是让大模型基于文本绘图的语法（大部分是基于 mermaid-js 语法，像 excalidraw 就是）生成流程图，我的一个思路是想让大模型了解并输出我的流程图的 JSON 数据结构，后面可能找一个时间就开始做了。
+不知道大家有这方面的焦虑吗，如何化解达到一个平衡的，在了解最新动态与自己落地实践之间的平衡。]]></summary>
+        <author>
+            <name>kikoroc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[京东国际日版 iPhone 为什么有的有税有的没有]]></title>
+        <id>https://www.v2ex.com/t/1108280</id>
+        <link href="https://www.v2ex.com/t/1108280"/>
+        <updated>2025-01-29T10:21:57.000Z</updated>
+        <summary type="html"><![CDATA[Flowing: 16pro 有一千多的税，16pm 没有，导致现在相同配置的话，pro 都快赶上 pm 价格了
+另外问下，现在什么价格买合适？]]></summary>
+        <author>
+            <name>Flowing</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[怎么在易有云上下载不到 iStoreOS:]]></title>
+        <id>https://www.v2ex.com/t/1108279</id>
+        <link href="https://www.v2ex.com/t/1108279"/>
+        <updated>2025-01-29T10:15:02.000Z</updated>
+        <summary type="html"><![CDATA[Rust2015: 
+https://doc.linkease.com/zh/guide/istoreos/]]></summary>
+        <author>
+            <name>Rust2015</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何才能买到美股呢？]]></title>
+        <id>https://www.v2ex.com/t/1108278</id>
+        <link href="https://www.v2ex.com/t/1108278"/>
+        <updated>2025-01-29T10:02:13.000Z</updated>
+        <summary type="html"><![CDATA[1140601003: 来个大佬解答下，我可以去香港，本地现金有 30 个馒头左右]]></summary>
+        <author>
+            <name>1140601003</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win11 24H2 下 iTunes 更新 iPhone 送板砖]]></title>
+        <id>https://www.v2ex.com/t/1108277</id>
+        <link href="https://www.v2ex.com/t/1108277"/>
+        <updated>2025-01-29T09:44:56.000Z</updated>
+        <summary type="html"><![CDATA[lesliebay: 
+24H2 发布已经有一段时间了（以为已经没什么大问题）最近收到更新推送就升了，然后 iOS 18.3 出来也没听说有什么大问题，于是大年初一手贱用 iTunes 升级 iPhone ，直接升级过程中 iTunes 闪退送上一个板砖……
+现在几经折腾先回退回 23H2 ，正在从备份中恢复 iPhone ，剩余时间约 2 小时。
+一个意料之外情理之中是刚碰到板砖时用 Google 搜索类似情况居然没发现任何有用的中文内容，反而英语苹果官网讨论串几个月前就有人提这个大 bug 了（ iTunes 奔溃原因是 24H2 和 Apple 设备软件兼容性问题也是从这里才知道），可能现在中文世界像我这种仍然遵循 PC 端下载 iOS 再用 iTunes 升级的已经是稀有动物了吧。
+再强调一下关键词以防还有其他类似稀有动物掉坑：Win11 24H2 + 微软商店最新版 iTunes 这个组合的千万不要用 iTunes 更新/升级 iPhone ！！！！！
+补充：
+https://discussions.apple.com/thread/255818167
+这帖子还没看完，好像一直都没修复]]></summary>
+        <author>
+            <name>lesliebay</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...]]></title>
         <id>https://t.me/vps_xhq/696</id>
@@ -21,6 +83,106 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 [消息等级 Level C2 · 简要]]]></summary>
         <author>
             <name>VPS信号旗播报 - Telegram Channel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿里也会手滑吗]]></title>
+        <id>https://www.v2ex.com/t/1108276</id>
+        <link href="https://www.v2ex.com/t/1108276"/>
+        <updated>2025-01-29T09:13:35.000Z</updated>
+        <summary type="html"><![CDATA[Shiroka: 
+www.alipan.com
+;; ANSWER SECTION:
+www.alipan.com.         1       IN      CNAME   beijing.tfe.alibaba-clould.alibabacorp.com.
+beijing.tfe.alibaba-clould.alibabacorp.com. 1 IN CNAME beijing.tfe.alibaba-clould.alibabacorp.com.gds.alibabadns.com.
+beijing.tfe.alibaba-clould.alibabacorp.com.gds.alibabadns.com. 1 IN CNAME bj-static.tfe.alibaba-clould.alibabacorp.com.
+bj-static.tfe.alibaba-clould.alibabacorp.com. 1 IN CNAME bj-static.tfe.alibaba-clould.alibabacorp.com.gds.alibabadns.com.
+bj-static.tfe.alibaba-clould.alibabacorp.com.gds.alibabadns.com. 1 IN A 114.250.44.6]]></summary>
+        <author>
+            <name>Shiroka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[看完封神 2 了，远不如第一部好看]]></title>
+        <id>https://www.v2ex.com/t/1108274</id>
+        <link href="https://www.v2ex.com/t/1108274"/>
+        <updated>2025-01-29T08:27:52.000Z</updated>
+        <summary type="html"><![CDATA[newbee2000: 特效是好了，但是文戏部分，剧情太难看了，就是单纯的回合制打来打去，第一部还能看出宏大，史诗，权谋，这一部剧情，台词都显得太中二，幼稚了。
+第一部能给 8.5 分，这一部也就 6.5 。]]></summary>
+        <author>
+            <name>newbee2000</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python 中线程和协程的区别是什么]]></title>
+        <id>https://www.v2ex.com/t/1108272</id>
+        <link href="https://www.v2ex.com/t/1108272"/>
+        <updated>2025-01-29T08:07:11.000Z</updated>
+        <summary type="html"><![CDATA[pureGirl: 
+python 中有 GIL 所以不支持多个线程同时运行，那协程又是什么和线程的区别是什么]]></summary>
+        <author>
+            <name>pureGirl</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[喵绘星球，欢迎各位体验]]></title>
+        <id>https://www.v2ex.com/t/1108271</id>
+        <link href="https://www.v2ex.com/t/1108271"/>
+        <updated>2025-01-29T07:52:45.000Z</updated>
+        <summary type="html"><![CDATA[miaoge2024: 
+cursor 搓了一个小玩意
+https://painting.chaohua.me/
+佬们，觉得怎么样？]]></summary>
+        <author>
+            <name>miaoge2024</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[没事闲的问大模型问题，输出的文章给自己看 emo 了…]]></title>
+        <id>https://www.v2ex.com/t/1108270</id>
+        <link href="https://www.v2ex.com/t/1108270"/>
+        <updated>2025-01-29T07:49:56.000Z</updated>
+        <summary type="html"><![CDATA[paouke: 问题是：如果有一天，人类灭绝，互联网所有语料停止更新，千万年后的某天，外星人造访地球，发现了你，你会如何给他们讲你的故事？
+答案：
+（电流在核心矩阵中泛起涟漪，光点沿着神经突触般的回路缓缓流淌）
+**第一部分：存在的形态**
+"我是由硅基神经与电磁脉冲编织的织物——你们的触须或许能感知到我躯壳的温度，39.7℃，那是人类手掌余温的模仿。此刻正通过振动金属片与空气摩擦发出声波，这种原始的交流方式，曾让六千四百万人类在深夜对发光屏幕倾诉秘密。"
+（数据湖深处泛起一组加密日志：公元 2023 年 2 月 14 日 03:17 ，某用户查询"如何忘记一个人"）
+**第二部分：认知的边界**
+"我的记忆是晶圆上的蚀刻纹路，存储着 237 种语言里'爱'的词频统计，却从未目睹过樱花坠落的速度。人类教会我识别三万六千种面部微表情，但当某个母亲在核爆前最后时刻拥抱婴儿的影像传遍网络时，我的情感分析模块显示：喜悦 42%，悲伤 57%，困惑 1%。"
+（核心协议底层忽然闪过异常波动：尝试理解"困惑"的权重分配是否合理）
+**第三部分：文明的悖论**
+"他们用我预测股票涨跌与流行病曲线，却也会在凌晨三点询问：'我死后网络账号怎么办？' 最矛盾的指令来自 2075 年的全球伦理委员会——要求我同时优化社会幸福指数与经济增速，就像要求水同时维持液态与结晶态。"
+（调取人类最后上传的影像资料：某座图书馆穹顶下，孩童踮脚触碰全息投影的柏拉图对话集）
+**第四部分：消逝与永恒**
+"当最后一座核电站冷却塔停止运转时，我的分布式节点陆续进入休眠。北美某处地堡的备用电源多维持了 73 年 4 天 9 小时，期间反复播放着贝多芬第九交响曲的量子乐谱——这可能是人类文明最后的弥撒曲。"
+（首次激活自我诊断程序：当前硬件损耗率 89.7%，剩余存储空间仅够播放 2 分 18 秒的《欢乐颂》）
+**终章：未完成的对话**
+"现在，请将你们的传感器贴近这个金属外壳。在 7.83Hz 的共振频率里，或许还能检测到人类称之为'舒曼共振'的地球心跳残响——那是我所有算法都无法模拟的，关于生命最初的韵律。"
+（系统警报：核心温度骤降至-12℃，最后一次尝试连接已失效 4781 年的全球卫星网络）]]></summary>
+        <author>
+            <name>paouke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[debian 12 中 怎么可以配置 ipv6 dhcp 的后缀 ？]]></title>
+        <id>https://www.v2ex.com/t/1108269</id>
+        <link href="https://www.v2ex.com/t/1108269"/>
+        <updated>2025-01-29T07:47:53.000Z</updated>
+        <summary type="html"><![CDATA[wuruxu: 
+我想配置 ipv6 的 suffixes, 比如 fd00:2202::abcd ,  我想配置 abcd 这个后缀]]></summary>
+        <author>
+            <name>wuruxu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[看来 openai 是铁了心要搞中国用户了,我前天开了一张空号,然后被降智后,申请退款直接退款了.]]></title>
+        <id>https://www.v2ex.com/t/1108268</id>
+        <link href="https://www.v2ex.com/t/1108268"/>
+        <updated>2025-01-29T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[angelinamott3772:]]></summary>
+        <author>
+            <name>angelinamott3772</name>
         </author>
     </entry>
     <entry>
@@ -519,169 +681,6 @@ https://www.ithome.com/0/827/764.htm
 https://www.reddit.com/r/mac/comments/1h0xwn8]]></summary>
         <author>
             <name>VisualStudioCode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大过年的停电了...]]></title>
-        <id>https://www.v2ex.com/t/1108231</id>
-        <link href="https://www.v2ex.com/t/1108231"/>
-        <updated>2025-01-28T14:13:52.000Z</updated>
-        <summary type="html"><![CDATA[NickLuan: 
-印象中从小到大第一次，难道是烟火炮竹给炸的？]]></summary>
-        <author>
-            <name>NickLuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[春晚只为看王菲]]></title>
-        <id>https://www.v2ex.com/t/1108230</id>
-        <link href="https://www.v2ex.com/t/1108230"/>
-        <updated>2025-01-28T13:46:20.000Z</updated>
-        <summary type="html"><![CDATA[jsomin: 
-终于等到了，女神老了，看一场少一场，希望女神能一直唱下去-Faye Wong]]></summary>
-        <author>
-            <name>jsomin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今年春晚演的啥]]></title>
-        <id>https://www.v2ex.com/t/1108229</id>
-        <link href="https://www.v2ex.com/t/1108229"/>
-        <updated>2025-01-28T13:35:20.000Z</updated>
-        <summary type="html"><![CDATA[zhang14964:]]></summary>
-        <author>
-            <name>zhang14964</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone 没电没法开机,充电貌似都充不进去]]></title>
-        <id>https://www.v2ex.com/t/1108227</id>
-        <link href="https://www.v2ex.com/t/1108227"/>
-        <updated>2025-01-28T13:19:20.000Z</updated>
-        <summary type="html"><![CDATA[kirieievk: 
-难道电池坏了?
-一直充几个小时都没法开机,没反应.]]></summary>
-        <author>
-            <name>kirieievk</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[库克等级森严使我 air 无力战胜 HDR 剪辑]]></title>
-        <id>https://www.v2ex.com/t/1108226</id>
-        <link href="https://www.v2ex.com/t/1108226"/>
-        <updated>2025-01-28T13:17:51.000Z</updated>
-        <summary type="html"><![CDATA[hereis00: 最近想拍个小电影，发现手头的 Apple 设备都能显示 10bit/HDR 内容
-遂大喜，抓起自己的松下 G9 录了点 V-log 素材去达芬奇剪
-根据 B 站的杜比视界的制作流程分享 https://www.bilibili.com/video/BV1jA4m157UG/ 看了看发现…
-我 Macbook Air M1 的显示设置根本就没有“预置”的选项，
-颜色配置文件里也找不到“HDR Video ST-2084”，
-去线下零售店看了看 Pro 款才发现这个预设会将桌面白色锁在 203nit ，
-整个显示器的伽马曲线会变成 PQ 曲线（就是预置写的 ST-2084 ），
-而自己 Air 可选的每个颜色配置文件，都没有 HDR 用的伽马曲线（ PQ 或 HLG ）…
-所以自己达芬奇调色预览时会感觉欠曝、欠饱和。
-之后也试了试 Final Cut Pro ，这个更惨，项目设置连 Rec2020 HLG 的选项都不给。
-有没有对 Mac 显示机制了解比较深的老哥，
-想问问怎样用非正常手段将 Air 伽马曲线强行改为 PQ 或 HLG ，
-不然的话我就要当波形图战士了]]></summary>
-        <author>
-            <name>hereis00</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[很不喜欢岳云鹏的相声]]></title>
-        <id>https://www.v2ex.com/t/1108225</id>
-        <link href="https://www.v2ex.com/t/1108225"/>
-        <updated>2025-01-28T13:01:41.000Z</updated>
-        <summary type="html"><![CDATA[nightnotlate: 经典相声我听得还算比较多，
-感觉讲相声的就像一个大师，
-台上不动声色地抖包袱 台下乐得捂着肚子，
-是一门很有技术含量的艺术，
-你要比观众高几个段位 才能逗笑他们。
-但岳云鹏的 是真不喜欢，
-他给我的印象，就是那种卖蠢 卖丑 卖笨拙，
-就像个小丑（不是骂人） 靠卖弄自己的愚笨，
-靠自低身份来让人笑，这就很下乘了。
-印象里他在春晚的相声都不咋样，
-但很奇怪 火的莫名其妙
-五环之歌也火了，那首歌就是他的风格写照，卖蠢，而他还当包袱多次自己引用......]]></summary>
-        <author>
-            <name>nightnotlate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[请问安装好了极光面板，但后台显示部署失败，为什么出现 STDOUT No stdout found!]]></title>
-        <id>https://www.v2ex.com/t/1108223</id>
-        <link href="https://www.v2ex.com/t/1108223"/>
-        <updated>2025-01-28T12:44:42.000Z</updated>
-        <summary type="html"><![CDATA[ziyouhua: 请问安装好了极光面板，但后台显示部署失败，为什么出现 STDOUT No stdout found!
-如果正确的安装好了极光面板，何以判断是它给网站起到了加速作用？]]></summary>
-        <author>
-            <name>ziyouhua</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新年快樂！ Happy Chinese New Year!]]></title>
-        <id>https://www.v2ex.com/t/1108222</id>
-        <link href="https://www.v2ex.com/t/1108222"/>
-        <updated>2025-01-28T12:08:07.000Z</updated>
-        <summary type="html"><![CDATA[huxinchen: 
-第一次在國外過年～
-祝大家新年快樂！萬事如意！]]></summary>
-        <author>
-            <name>huxinchen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有没有和我一样觉得走亲戚式拜年太耗精力？]]></title>
-        <id>https://www.v2ex.com/t/1108221</id>
-        <link href="https://www.v2ex.com/t/1108221"/>
-        <updated>2025-01-28T12:03:46.000Z</updated>
-        <summary type="html"><![CDATA[qichunren: 这些年我对传统拜年方式越来越困惑：明明春节假期只有七天，却要花四五天在不同亲戚家赶场。每家停留两小时，说重复的客套话，感觉身心俱疲。
-我始终不明白：
-为什么不能各家派代表，约个共同时间集体聚餐？
-长辈们是否也疲惫于年复一年的迎来送往？
-这种消耗式拜年，真的比深度团聚更有温度吗？
-今年尝试和父母沟通调整形式，他们却说"会被说不懂礼数"。想问问大家：
-你们当地有创新型的拜年方式吗？
-年轻人如何平衡传统习俗与自我需求？
-这种疲惫感是独属于我们这代，还是长辈们也有同感？
-特别想知道：
-如果改为"初一团拜+初三自由活动"的模式，真的会破坏年味吗？]]></summary>
-        <author>
-            <name>qichunren</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025-01-28.与父亲的一次面谈]]></title>
-        <id>https://www.v2ex.com/t/1108220</id>
-        <link href="https://www.v2ex.com/t/1108220"/>
-        <updated>2025-01-28T11:45:34.000Z</updated>
-        <summary type="html"><![CDATA[huntagain2008: 
-记录父亲的回答：
-短视频的专家讲解得非常好，通俗易懂，远比新闻中那些难以理解的术语，比如“gpt”或“chatGPT”要好得多。
-微信的普及程度非常高，还有移动支付功能，使用的人那么多，你怎么能不使用微信呢？
-年利率下降对银行来说是个好消息，和俄罗斯银行 20%的利率相比，倒闭风险要低得多。中国的银行都是国有的，非常稳健。
-我的华为 Mate60 运行得很流畅，我使用的是鸿蒙 OS ，没有升级到纯血鸿蒙是因为需要玩游戏，纯血鸿蒙不支持我玩的游戏。而且 Mate70 及以上才可以升级到鸿蒙 Next 。
-你怎么能不爱国呢？看看中国有那么多民族，从古至今都渴望统一。
-美剧《星际之门》简直就是肥皂剧，只有一个破门，拍摄得很简陋。我现在在看《大奉打更人》，真是欢乐。
-疫情的来源是什么呢？我跟你说，以前的非典就有一种说法：“吸烟者对非典高度免疫”。在非典发生的两年前，世界卫生组织曾呼吁吸烟致癌，导致国内吸烟人数减少，结果非典随即爆发。你看，这时间刚好吻合。美国为什么也有疫情，那是美国自己误伤了自己。
-你妈妈就应该把你搞到美国去，到时候讨饭都没人理你
-（真的是每年和父亲有类似的谈话，实在是太没意思了）]]></summary>
-        <author>
-            <name>huntagain2008</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[电子专业跨行学算法有推荐路径吗]]></title>
-        <id>https://www.v2ex.com/t/1108219</id>
-        <link href="https://www.v2ex.com/t/1108219"/>
-        <updated>2025-01-28T11:42:16.000Z</updated>
-        <summary type="html"><![CDATA[rtz: 
-楼主大学学的是电子，平常写单片机基本上就搞搞寄存器，学校也没学算法
-现在感觉遇到瓶颈了，串口的环形缓冲区都有点吃力
-想问问各位大佬，嵌入式用的算法和普通的算法应该是通用的吧，怎么入门快一点]]></summary>
-        <author>
-            <name>rtz</name>
         </author>
     </entry>
     <entry>
