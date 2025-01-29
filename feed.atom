@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-29T03:12:44.424Z</id>
+    <id>urn:2025-01-29T04:13:55.858Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-29T03:12:44.424Z</updated>
+    <updated>2025-01-29T04:13:55.858Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -727,6 +727,33 @@ Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...]]></title>
         <id>https://t.me/vps_xhq/695</id>
         <link href="https://t.me/vps_xhq/695"/>
@@ -751,37 +778,6 @@ BuyVM 改将卢森堡机房迁往瑞士
 Positioning Text Around Elements With CSS Offset originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Preethi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科技爱好者周刊（第 335 期）：年底的未来已来]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html"/>
-        <updated>2025-01-24T00:06:14.000Z</updated>
-        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。（[通知] 下周春节假期，周刊休息。）
-本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
-封面图
-
-香港历史建筑"和昌大押"，布置了一条盘旋两层楼的金蛇，迎接蛇年。（via）
-年底的未来已来
-大概两周前，我就在想，龙年的最后一期周刊，要写什么？
-正好这一个月，有很多新发明、新技术发布。我想到，可以把它们放在一起，作为下一年的展望。
-编辑过程中，它们勾起了我的一点回忆。
-十年前，我接了一个活，为北京的一家杂志写文章，向普通读者介绍技术的新进展，以此赚一点稿费。写久了，我就有一个感觉，技术进展太快了，快于所有人的预期。我明明写的是真实事件，但是很多时候像在写科幻小说。
-就是在那个时候，我开始意识到，那句有名的话是千真万确："未来已来，只是尚未流行"。那些我们觉得很遥远、很科幻的事情，其实已经是活生生的现实，很快就会强烈地、不可避免地影响每个人的生活，可能是好的影响，也可能是不好的影响（技能过时了，行业消失了）。
-2017年，我把那些文章结集，起了一个书名《未来世界的幸存者》，表达我的这种想法，希望读者对即将到来的时代变革有所准备。
-十年后的今天，世界仿佛全然不同，我发现自己还在做同样的事情，还在介绍那些像科幻小说一样的真实技术。不同的是，我已经很明白了，为未来做准备，就是在为现在做准备，做一个未来世界的幸存者，就是做一个今日世界的幸存者。
-科技动态
-1、AI 陪护
-新加坡最近世界首个将 AI 引入了养老院，用来陪护老人。
-
-这个 AI 是一个女护士的样子，每天早上带领老人做早操、玩游戏、唱歌。
-她承担不了具体的医疗照护工作（比如喂饭打针），但是可以一天24小时，跟老人互动聊天，减少孤独感。
-
-她还会按时提醒老人吃药，一旦侦测到老人有异常，立刻发出警报。
-这是一…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
         </author>
     </entry>
     <entry>
@@ -833,83 +829,6 @@ Fancy Menu Navigation Using Anchor Positioning originally published on CSS-Trick
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[科技爱好者周刊（第 334 期）：年终笔记四则]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html"/>
-        <updated>2025-01-17T00:17:52.000Z</updated>
-        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
-本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
-封面图
-
-武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）
-年终笔记四则
-下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。
-前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。
-一、工作也有利息
-银行存款有利息，存得越久，利息越多。
-工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。
-
-工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。
-这提示我们：
-（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。
-（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。
-（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。
-（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。
-二、巴菲特的选人标准
-巴菲特说，他考察候选人，就看三个"i"。
-
-integrity（正直）
-intelligence（智慧）
-initiative（主动）
-这三个"i"当中，"主动"最重要。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
-三、快乐机
-1974年，一个美国哲学家提出一个假设，如果世界上有"快乐机"，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI 搞定微信小程序]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html"/>
-        <updated>2025-01-16T00:23:18.000Z</updated>
-        <summary type="html"><![CDATA[一、前言
-AI 生成代码，早不是新鲜事了，但是 AI 生成微信小程序，似乎还不多见。
-
-究其原因，大概是小程序的开源项目较少，模型训练不好搞。
-上周，我遇到腾讯的同学，得知"腾讯云开发"最近有一个大的版本更新，大幅加强了小程序的 AI 能力。我还挺期待的，腾讯自己搞小程序 AI，要比其他人更合适。
-后来，我试用了本次更新的 AI 功能，有一个强烈的感觉，微信小程序可能很快就会成为国内 AI 应用（又称"智能体"）的主要载体。
-因为本次更新以后，小程序调用 AI 模型，以及生成智能体，变得非常方便。并且，小程序从 API 到开发工具，都把 AI 整合进去了，整个开发过程都有 AI 辅助，不仅开发效率提高了，而且大量代码可以通过 AI 生成。
-下面就是我的试用过程的介绍和记录。这些功能都是公开的，大部分已经上线，剩下的也即将发布，大家现在就可以跟着做，体验 AI 生成小程序。
-二、云开发助手：进入方法
-我的第一步是体验小程序的"云开发助手"（又称云开发 Copilot）。它的作用是通过 AI 加快小程序的开发。
-它的全功能版，目前要通过"腾讯云开发平台"网站使用。
-
-此外，还有一个游客版的小程序，可以体验部分功能。如果你手边只有手机，可以先试试游客版。
-
-手机上，点击"从 AI 开始探索云开发"，就能进入。
-
-手机版看一下就可以了，正式的开发还是要使用网站。本文下面的内容，都是基于网站的全功能版。
-首先，登录"云开发平台"后，页面右下角就会出现小助手图标。
-
-点击它，就能打开"云开发助手"。
-
-它的右上角有一个"全屏"图标（下图）。
-
-点击进入完整界面。
-
-三、云开发助手：文档功能
-"云开发助手"的主要功能如下图。
-
-这些功能可以分成两大类，一类是文档相关的功能，另一类是代码生成。
-先看看文档功能。
-（1）Copilot
-这个功能是 AI 问答引擎，任何关于小程序的问题，都可以…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Web-Slinger.css: Across the Swiper-Verse]]></title>
         <id>https://css-tricks.com/?p=383533</id>
         <link href="https://css-tricks.com/web-slinger-css-across-the-swiper-verse/"/>
@@ -951,34 +870,6 @@ How to Wait for the sibling-count() and sibling-index() Functions originally pub
         <summary type="html"><![CDATA[封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。]]></summary>
         <author>
             <name>潮流周刊</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科技爱好者周刊（第 333 期）：一切都要支付两次]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html"/>
-        <updated>2025-01-10T00:14:37.000Z</updated>
-        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
-本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
-封面图
-
-42层的深圳金融科技研究院大楼，去年6月封顶了，采用了不规则外形的设计。（via）
-一切都要支付两次
-有一句古语"书非借不能读也"，大家可能都听过。
-它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。
-
-这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。
-我最近看到一篇老外的文章，他给这种现象起了一个全新的名字，让人觉得很贴切。老外的概念化能力真是强。
-他提出，人们买书却不读，是因为没有意识到每样东西都需要两次支付。
-
-第一次是货币支付，你付出货币，得到自己想要的东西，比如一本书，一个 App，一辆自行车，一颗卷心菜等等。
-但是，你还必须支付第二次，才能真正消费这个东西。这次你付出的是你的时间和努力，来获得它的收益。
-第二次支付可能比第一次支付贵得多。假设一本书的第一次支付是20元，第二次支付可能就是10小时的阅读时间。只有支付第二次，你才算真正消费了这本书。如果没有第二次支付，第一次支付就意义不大了，跟把钱扔进垃圾箱差不多。
-生活中，到处都是两次支付的例子。购买 App 后，你必须学习如何使用，并且经常使用，才能得到它的价值。购买自行车后，你必须忍受痛苦的初学者阶段，然后才能上街骑行。购买蔬菜后，必须切碎、蒸熟并咀嚼，然后才能为你提供营养。
-我们经常犯的一个错误，就是只完成了第一次支付，没有第二次支付，比如未使用的会员资格，未读的书籍，未玩的游戏，未编织的毛线。由于没有第二次支付，所以你并没有真正使用，第一次支付的钱实际上扔进了垃圾桶。
-这种行为方式的深层次原因，就是现代社会太强调消费，过于看重第一次支付的经济价…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
         </author>
     </entry>
     <entry>
@@ -1054,39 +945,6 @@ https://bwh81.net/aff.php?aff=47294&pid=153
 [消息等级 Level C2 · 简要]]]></summary>
         <author>
             <name>VPS信号旗播报 - Telegram Channel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html"/>
-        <updated>2025-01-03T01:10:55.000Z</updated>
-        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
-本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
-封面图
-
-世界最长的高速公路隧道"天山胜利隧道"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）
-西蒙·威利森的年终总结，梁文锋的访谈
-英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。
-
-本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。
-
-他提到，AI 的发展速度快得难以想象。
-一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。
-
-一年过去了，大家猜猜，GPT-4 现在排名多少？
-
-答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。
-短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。
-西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。
-
-DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。
-它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。
-
-而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。
-西蒙·威利斯说："DeepSeek V3 的训练…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
         </author>
     </entry>
     <entry>
