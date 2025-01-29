@@ -334,16 +334,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1108303",
-          "author": "laikick",
-          "description": "laikick: \n还有人半夜 2-3 点放，还 TM 对着路边的绿化带放，简直脑子有病，恨不能弄几串鞭炮挂他们身上，把这些智障炮决了。",
-          "link": "https://www.v2ex.com/t/1108303",
-          "publishedOn": "2025-01-29T16:47:23.000Z",
-          "wordCount": 506,
-          "title": "鞭炮这种又是烟又是噪声又是垃圾的东西,为什么某地还那么喜欢放?",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1108301",
           "author": "Leon6868",
           "description": "Leon6868: \n如题，请问有哪些软件能实现类似 Unity 模式，将虚拟机中窗口透传到桌面的功能呢？",
@@ -449,7 +439,7 @@
           "description": "yescola: 用 Mac 已经十年出头了，当初入 Mac 最主要是因为 UI 和字体渲染的原因。\n最近有点想入个 PC ，问一下现如今的 Win10 、Win11 之类的，字体渲染的情况如何了？\n能否能做到 绝大部分第三方软件 字体渲染效果清晰平滑？\n谢谢。\nPS：普通用户，偶尔用 Adobe ，大部分时候是日常办公用",
           "link": "https://www.v2ex.com/t/1108284",
           "publishedOn": "2025-01-29T11:36:52.000Z",
-          "wordCount": 418,
+          "wordCount": 424,
           "title": "现如今 Windows 的字体渲染效果如何？",
           "imageUrl": null
         },
@@ -469,7 +459,7 @@
           "description": "bwijn: \nscrapy 的 spider 抓取了很多 item 然后交给 pipeline,\n但是 pipeline 处理的太慢了,我的业务很耗时,但是 spider 还在不停抓取,导致任务积压\n我目前打算使用 arq(异步消息框架)\nspider 抓到的 item 直接扔给 arq,扔之前查看任务队列是否过多,可以暂停发布任务\n各位有好的想法吗",
           "link": "https://www.v2ex.com/t/1108282",
           "publishedOn": "2025-01-29T10:45:40.000Z",
-          "wordCount": 514,
+          "wordCount": 516,
           "title": "scrapy 的 item 队列把内存挤爆",
           "imageUrl": null
         },
@@ -509,7 +499,7 @@
           "description": "1140601003: 来个大佬解答下，我可以去香港，本地现金有 30 个馒头左右",
           "link": "https://www.v2ex.com/t/1108278",
           "publishedOn": "2025-01-29T10:02:13.000Z",
-          "wordCount": 451,
+          "wordCount": 458,
           "title": "如何才能买到美股呢？",
           "imageUrl": null
         },
@@ -549,7 +539,7 @@
           "description": "pureGirl: \npython 中有 GIL 所以不支持多个线程同时运行，那协程又是什么和线程的区别是什么",
           "link": "https://www.v2ex.com/t/1108272",
           "publishedOn": "2025-01-29T08:07:11.000Z",
-          "wordCount": 774,
+          "wordCount": 778,
           "title": "Python 中线程和协程的区别是什么",
           "imageUrl": null
         },
@@ -599,7 +589,7 @@
           "description": "northbrunv: \n看不到人生的意义。\n有人在大厂卷够了裸辞，有人裸辞半年闲的发荒又回去上班\n中学说上大学就好了，大学说工作就好了，工作说挣钱多就好了。\n人是会有幻想的，望梅止渴，微光之于黑暗，哪怕有一丁点的希望和可能性，都愿意相信。\n然而这个简单美好的故事已经不再能延续下去了，逐渐逐渐感受到它是漏洞百出，纸鹤落水，一点一点融化沉没湮灭。\n月薪 2w 少了，要赚 3w ，月薪 3w 少了，要赚 5w ，月薪 5w 少了，要赚 10w 。。\n100w 少了，要攒 300w ，300w 少了，要攒 600w ，600w 少了，要攒 1000w 。。\n每当你达到一个数字之后，永远有更多一级更高一级的数字。。只要睁开眼睛，视线是没有尽头的。位置变换后，永远有新的尽头。\n你大可以，顶级碳板/顶级缓冲跑鞋每月换一双，月月不重样；大平层换掉小公寓；豪车换掉平价车； 5090 显卡换掉 4060ti ；二等座换成商务舱...\n然而..人心若是烧没了,修好一座破庙又有什么用呢?\n人生的意义是什么呢，奔头是什么呢？\n树枝戳向水中月，它破了。天上的月万里之外，荒芜极地\n竹篮打水一场空。如何寻找/构建真实的希望",
           "link": "https://www.v2ex.com/t/1108266",
           "publishedOn": "2025-01-29T07:12:58.000Z",
-          "wordCount": 898,
+          "wordCount": 901,
           "title": "金钱💰能补偿心灵的空洞吗？",
           "imageUrl": null
         },
@@ -609,7 +599,7 @@
           "description": "Awes0me: \n不得不说 60hz 真的还好，刚手机切换过来可能会有点不适，但是用个 1 分钟就没什么感觉了。\n最难受的其实是 Touch ID ，Face ID 实在是太舒服和无感了。\n而且 mini 7 的 Touch ID 不是触摸解锁，锁屏的时候不仅得按下去，还得还得停留一会才能解锁，挺麻烦的。\n第二点就是太宽了，打字有些难受，本人手不算大，如果这个黑边能缩一半应该会好很多。",
           "link": "https://www.v2ex.com/t/1108265",
           "publishedOn": "2025-01-29T06:33:00.000Z",
-          "wordCount": 615,
+          "wordCount": 617,
           "title": "iPad mini 7 到手了，没想到使用起来最不习惯的并不是 60hz 屏幕",
           "imageUrl": null
         },
@@ -649,7 +639,7 @@
           "description": "smalltong02: \nGemini 2.0：Google 最新的多模态大模型\nGemini 2.0 是 Google 最新的统一大模型，能够同时处理 文本、音频和视频数据，并支持 音频输出。这意味着你可以通过 摄像头和麦克风，与该模型进行 实时对话。  \n目前，在 GitHub 上可以找到的部署方案大多是针对 PC 端 的 Gemini 2.0 多模态实时交互，而我可能是第一个将这一功能移植到手机端的开发者。不知道是否有朋友感兴趣，想看看它在 移动设备 上的效果？  \n现有功能\n✅ 音频交互：通过手机麦克风赋予 Gemini 2.0 听觉能力，实现 实时问答。\n视觉交互：通过手机摄像头赋予 Gemini 2.0 视觉能力，进行 实时图像分析与交互。\n联网与代码执行：模型支持 联网查询实时数据 及 代码执行功能，使其更加强大。\n免费使用：目前该功能 完全免费，无需额外付费。  \n功能限制\n⚠ 国内可能无法使用：由于模型依赖 Google 的服务，在中国大陆地区可能无法正常访问。\n时长限制：目前 Google 仍在测试该模型，因此对话时长受限：  \n纯音频对话 最长 15 分钟 \n音频 + 视觉交互 最长 3 分钟 \n这是 Google 设定的限制，非技术问题导致。  \n如果你对这个项目感兴趣，欢迎讨论和交流！\nAndroid 版本： https://play.google.com/store/apps/details?id=com.keras.keras_android_chatbot\n苹果版本： https://apps.apple.com/us/app/keras-chatbot-voice-assistant/id6608969280",
           "link": "https://www.v2ex.com/t/1108261",
           "publishedOn": "2025-01-29T04:35:28.000Z",
-          "wordCount": 492,
+          "wordCount": 494,
           "title": "我把 Gemini 2.0 实时视频语音对话功能添加到了手机 APP 中",
           "imageUrl": null
         },
@@ -669,7 +659,7 @@
           "description": "RuiCBai: \n刚参加工作， 好奇大家会给同事领导主动私聊拜年吗， 还是说只有元旦会发个祝福，春节尽量不打扰同事及领导。",
           "link": "https://www.v2ex.com/t/1108258",
           "publishedOn": "2025-01-29T03:58:50.000Z",
-          "wordCount": 582,
+          "wordCount": 584,
           "title": "职场新人，大家新年会给同事及领导私聊拜年吗",
           "imageUrl": null
         },
