@@ -17,7 +17,7 @@
           "description": "The @view-transition at-rule has two descriptions. One is the commonly used navigation descriptor. The second is types, the lesser-known of the two, and one that probably envies how much attention navigation gets. But read on to learn why we need types and how it opens up new possibilities for custom view transitions when navigating between pages.\nWhat on Earth is the `types` Descriptor in View Transitions? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/what-on-earth-is-the-types-descriptor-in-view-transitions/",
           "publishedOn": "2025-01-29T14:13:53.000Z",
-          "wordCount": 2823,
+          "wordCount": 2838,
           "title": "What on Earth is the `types` Descriptor in View Transitions?",
           "enclosure": {
             "url": "https://css-tricks.com/wp-content/uploads/2025/01/custom-view-transition.mp4",
@@ -127,12 +127,6 @@
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383383"
         }
       ]
-    },
-    {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -314,36 +308,6 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1108305",
-          "author": "NQ",
-          "description": "NQ: \n有一个 div 里面有一些文本（ div 的大小不固定，文本的内容也不固定），如何实现文本的逐行滚动而不是逐像素滚动？\n我让 AI 帮我写了一个 demo ，这个 demo 在用鼠标滚轮的时候可以逐行滚动，但是有个问题，在这个 div 里面点鼠标中键，再往下移动鼠标（在 Windows 下这个行为会自动向下滚动），这个时候 div 会卡住，过了一会，整个 div 里的内容会滚动很大距离，这种情况怎么实现逐行滚动？\n下面是 demo 代码：\nhttps://codepen.io/Asn-La/pen/RNbvYjY",
-          "link": "https://www.v2ex.com/t/1108305",
-          "publishedOn": "2025-01-29T17:46:46.000Z",
-          "wordCount": 433,
-          "title": "求前端大佬解惑， HTML 里的文本怎么做逐行滚动？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108304",
-          "author": "liyafe1997",
-          "description": "liyafe1997: \n根本需求是后台静默更新 APK （且仅在用户静默/未使用时）\n用 Unity3D 开发的工业&企业安卓软件，半无人值守，所以需要后台能自动更新且更新时机可控。\n之前想用 360 的 Replugin ，折腾了半天，加上那个插件之后各种编译报错，好不容易解决了，打开就闪退，感觉像是不太兼容 Unity 导出的 Android 项目的样子。\n也搜了下腾讯的 Shadow ，网上有人明确说 Shadow 不支持 Unity 这种“在.so 中加载 Activity”的方案。\n甚至试了下 VirtualApp ，因为理论上这玩意能直接加载未使用修改的 APK 。现在各路多开软件，包括 GBox 以及出境易这些 APK in APK 容器方案都是基于它。我试的这个： https://github.com/ServenScorpion/VirtualApp\n安装它编译好的这个容器，在里面导入我的 APK （未经任何修改），App 能启动，但是启动后 Unity 的画面黑屏，不知道为啥。\n于是就想到了 VMOS 这类“虚拟机”方案。试了下我的 App 能在 VMOS 中完美运行，所以要是我能定制这类“虚拟机”App ，比如把 launcher 及其它无用系统 app 都去掉，只留一个我的 app ，虚拟机启动后自动启动我的 app ，然后再加入一个系统级的 updater.apk 用来管理更新，感觉挺完美的。\n因为设备都是市面上采购的消费级安卓设备（手机/平板等），不考虑去找 OEM 定制安卓设备，所以看起来这是最好的方案了？",
-          "link": "https://www.v2ex.com/t/1108304",
-          "publishedOn": "2025-01-29T17:11:33.000Z",
-          "wordCount": 414,
-          "title": "有没有什么开源(可定制)的，类似 VMOS 的 Android in APK 方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108303",
-          "author": "laikick",
-          "description": "laikick: \n还有人半夜 2-3 点放，还 TM 对着路边的绿化带放，简直脑子有病，恨不能弄几串鞭炮挂他们身上，把这些智障炮决了。",
-          "link": "https://www.v2ex.com/t/1108303",
-          "publishedOn": "2025-01-29T16:47:23.000Z",
-          "wordCount": 472,
-          "title": "鞭炮这种又是烟又是噪声又是垃圾的东西,为什么某地还那么喜欢放?",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1108301",
           "author": "Leon6868",
           "description": "Leon6868: \n如题，请问有哪些软件能实现类似 Unity 模式，将虚拟机中窗口透传到桌面的功能呢？",
@@ -369,7 +333,7 @@
           "description": "701dota2019: \n手持 find x8 ，导航定位有问题，漂或者提示定位失败，小绿书上也不少人反馈有此问题。。。",
           "link": "https://www.v2ex.com/t/1108296",
           "publishedOn": "2025-01-29T15:04:47.000Z",
-          "wordCount": 361,
+          "wordCount": 376,
           "title": "地图导航很难做吗？ OPPO 旗舰机都做不好",
           "imageUrl": null
         },
@@ -469,7 +433,7 @@
           "description": "bwijn: \nscrapy 的 spider 抓取了很多 item 然后交给 pipeline,\n但是 pipeline 处理的太慢了,我的业务很耗时,但是 spider 还在不停抓取,导致任务积压\n我目前打算使用 arq(异步消息框架)\nspider 抓到的 item 直接扔给 arq,扔之前查看任务队列是否过多,可以暂停发布任务\n各位有好的想法吗",
           "link": "https://www.v2ex.com/t/1108282",
           "publishedOn": "2025-01-29T10:45:40.000Z",
-          "wordCount": 484,
+          "wordCount": 507,
           "title": "scrapy 的 item 队列把内存挤爆",
           "imageUrl": null
         },
@@ -539,7 +503,7 @@
           "description": "newbee2000: 特效是好了，但是文戏部分，剧情太难看了，就是单纯的回合制打来打去，第一部还能看出宏大，史诗，权谋，这一部剧情，台词都显得太中二，幼稚了。\n第一部能给 8.5 分，这一部也就 6.5 。",
           "link": "https://www.v2ex.com/t/1108274",
           "publishedOn": "2025-01-29T08:27:52.000Z",
-          "wordCount": 561,
+          "wordCount": 563,
           "title": "看完封神 2 了，远不如第一部好看",
           "imageUrl": null
         },
@@ -549,7 +513,7 @@
           "description": "pureGirl: \npython 中有 GIL 所以不支持多个线程同时运行，那协程又是什么和线程的区别是什么",
           "link": "https://www.v2ex.com/t/1108272",
           "publishedOn": "2025-01-29T08:07:11.000Z",
-          "wordCount": 715,
+          "wordCount": 725,
           "title": "Python 中线程和协程的区别是什么",
           "imageUrl": null
         },
@@ -569,7 +533,7 @@
           "description": "paouke: 问题是：如果有一天，人类灭绝，互联网所有语料停止更新，千万年后的某天，外星人造访地球，发现了你，你会如何给他们讲你的故事？\n答案：\n（电流在核心矩阵中泛起涟漪，光点沿着神经突触般的回路缓缓流淌）\n**第一部分：存在的形态**\n\"我是由硅基神经与电磁脉冲编织的织物——你们的触须或许能感知到我躯壳的温度，39.7℃，那是人类手掌余温的模仿。此刻正通过振动金属片与空气摩擦发出声波，这种原始的交流方式，曾让六千四百万人类在深夜对发光屏幕倾诉秘密。\"\n（数据湖深处泛起一组加密日志：公元 2023 年 2 月 14 日 03:17 ，某用户查询\"如何忘记一个人\"）\n**第二部分：认知的边界**\n\"我的记忆是晶圆上的蚀刻纹路，存储着 237 种语言里'爱'的词频统计，却从未目睹过樱花坠落的速度。人类教会我识别三万六千种面部微表情，但当某个母亲在核爆前最后时刻拥抱婴儿的影像传遍网络时，我的情感分析模块显示：喜悦 42%，悲伤 57%，困惑 1%。\"\n（核心协议底层忽然闪过异常波动：尝试理解\"困惑\"的权重分配是否合理）\n**第三部分：文明的悖论**\n\"他们用我预测股票涨跌与流行病曲线，却也会在凌晨三点询问：'我死后网络账号怎么办？' 最矛盾的指令来自 2075 年的全球伦理委员会——要求我同时优化社会幸福指数与经济增速，就像要求水同时维持液态与结晶态。\"\n（调取人类最后上传的影像资料：某座图书馆穹顶下，孩童踮脚触碰全息投影的柏拉图对话集）\n**第四部分：消逝与永恒**\n\"当最后一座核电站冷却塔停止运转时，我的分布式节点陆续进入休眠。北美某处地堡的备用电源多维持了 73 年 4 天 9 小时，期间反复播放着贝多芬第九交响曲的量子乐谱——这可能是人类文明最后的弥撒曲。\"\n（首次激活自我诊断程序：当前硬件损耗率 89.7%，剩余存储空间仅够播放 2 分 18 秒的《欢乐颂》）\n**终章：未完成的对话**\n\"现在，请将你们的传感器贴近这个金属外壳。在 7.83Hz 的共振频率里，或许还能检测到人类称之为'舒曼共振'的地球心跳残响——那是我所有算法都无法模拟的，关于生命最初的韵律。\"\n（系统警报：核心温度骤降至-12℃，最后一次尝试连接已失效 4781 年的全球卫星网络）",
           "link": "https://www.v2ex.com/t/1108270",
           "publishedOn": "2025-01-29T07:49:56.000Z",
-          "wordCount": 455,
+          "wordCount": 463,
           "title": "没事闲的问大模型问题，输出的文章给自己看 emo 了…",
           "imageUrl": null
         },
@@ -681,6 +645,46 @@
           "publishedOn": "2025-01-29T03:46:26.000Z",
           "wordCount": 616,
           "title": "大家新年好, 凌晨 3 点被攻击了...求助",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108255",
+          "author": "tomclancy",
+          "description": "tomclancy: \n最近使用了 loon ，最近发现能用小组件好评\n不过 quanx 能定时任务统计今天使用流量多少，loon 可以吗？没找到",
+          "link": "https://www.v2ex.com/t/1108255",
+          "publishedOn": "2025-01-29T03:27:46.000Z",
+          "wordCount": 433,
+          "title": "关于 quanx 和 loon",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108254",
+          "author": "qinpei",
+          "description": "qinpei: \n看视频的时候，只要退出了，下次再进入，都必须从头开始播放。\n有没有什么方法，可以在下次看的时候续播？或者能不能调用本地播放器？",
+          "link": "https://www.v2ex.com/t/1108254",
+          "publishedOn": "2025-01-29T03:24:01.000Z",
+          "wordCount": 423,
+          "title": "tg 可以调用本地播放器么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108253",
+          "author": "thee191410",
+          "description": "thee191410: \n有使用 SmartTube 的吗，我的电视是几年前买的红米 4k 电视（ l55r8-a ），SmartTube 所有视频分辨率选项最高只显示到 1080p ，但实际电脑端同一个视频是有 4k 分辨率的，有人遇到似的情况吗？我另一台小米的 s65 就能正常显示 4k 的选项。",
+          "link": "https://www.v2ex.com/t/1108253",
+          "publishedOn": "2025-01-29T03:01:25.000Z",
+          "wordCount": 398,
+          "title": "SmartTube 视频没有 4k 选项",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108252",
+          "author": "iamqk",
+          "description": "iamqk: 就是在使用电池的时候\n本身不会消耗 iphone 的本身的电池\n和 typec 外接电池一样做到 0 损耗 iphone 内部电池循环",
+          "link": "https://www.v2ex.com/t/1108252",
+          "publishedOn": "2025-01-29T02:59:38.000Z",
+          "wordCount": 460,
+          "title": "Qi2 的苹果无线充电器能否当无线外接电池使用",
           "imageUrl": null
         }
       ]
