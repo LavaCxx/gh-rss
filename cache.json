@@ -110,18 +110,14 @@
           "wordCount": 2748,
           "title": "The Importance of Investing in Soft Skills in the Age of AI",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383383"
-        },
-        {
-          "id": "https://css-tricks.com/?p=383295",
-          "author": "Geoff Graham",
-          "description": "I'm more thankful this time around because, last year, I didn't even get to write this post. But now that I'm back, writing this feels so, so, so good. There's a lot more gusto going into my writing when I say: thank you so very much! Let's tie a bow on this year and round up what happened around here in 2024.\nThank You (2024 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/thank-you-2024-edition/",
-          "publishedOn": "2024-12-30T16:15:37.000Z",
-          "wordCount": 3760,
-          "title": "Thank You (2024 Edition)",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383295"
         }
       ]
+    },
+    {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -164,6 +160,63 @@
           "wordCount": 1793,
           "title": "React Native 实践：Colors",
           "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
+      "title": "阮一峰的网络日志",
+      "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
+      "siteUrl": "http://www.ruanyifeng.com/blog/",
+      "articles": [
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周春节假期，周刊休息。）\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n香港历史建筑\"和昌大押\"，布置了一条盘旋两层楼的金蛇，迎接蛇年。（via）\n年底的未来已来\n大概两周前，我就在想，龙年的最后一期周刊，要写什么？\n正好这一个月，有很多新发明、新技术发布。我想到，可以把它们放在一起，作为下一年的展望。\n编辑过程中，它们勾起了我的一点回忆。\n十年前，我接了一个活，为北京的一家杂志写文章，向普通读者介绍技术的新进展，以此赚一点稿费。写久了，我就有一个感觉，技术进展太快了，快于所有人的预期。我明明写的是真实事件，但是很多时候像在写科幻小说。\n就是在那个时候，我开始意识到，那句有名的话是千真万确：\"未来已来，只是尚未流行\"。那些我们觉得很遥远、很科幻的事情，其实已经是活生生的现实，很快就会强烈地、不可避免地影响每个人的生活，可能是好的影响，也可能是不好的影响（技能过时了，行业消失了）。\n2017年，我把那些文章结集，起了一个书名《未来世界的幸存者》，表达我的这种想法，希望读者对即将到来的时代变革有所准备。\n十年后的今天，世界仿佛全然不同，我发现自己还在做同样的事情，还在介绍那些像科幻小说一样的真实技术。不同的是，我已经很明白了，为未来做准备，就是在为现在做准备，做一个未来世界的幸存者，就是做一个今日世界的幸存者。\n科技动态\n1、AI 陪护\n新加坡最近世界首个将 AI 引入了养老院，用来陪护老人。\n\n这个 AI 是一个女护士的样子，每天早上带领老人做早操、玩游戏、唱歌。\n她承担不了具体的医疗照护工作（比如喂饭打针），但是可以一天24小时，跟老人互动聊天，减少孤独感。\n\n她还会按时提醒老人吃药，一旦侦测到老人有异常，立刻发出警报。\n这是一…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html",
+          "publishedOn": "2025-01-24T00:06:14.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 335 期）：年底的未来已来",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）\n年终笔记四则\n下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。\n前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。\n一、工作也有利息\n银行存款有利息，存得越久，利息越多。\n工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。\n\n工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。\n这提示我们：\n（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。\n（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。\n（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。\n（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。\n二、巴菲特的选人标准\n巴菲特说，他考察候选人，就看三个\"i\"。\n\nintegrity（正直）\nintelligence（智慧）\ninitiative（主动）\n这三个\"i\"当中，\"主动\"最重要。\"正直\"和\"智慧\"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。\n三、快乐机\n1974年，一个美国哲学家提出一个假设，如果世界上有\"快乐机\"，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html",
+          "publishedOn": "2025-01-17T00:17:52.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 334 期）：年终笔记四则",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html",
+          "author": null,
+          "description": "一、前言\nAI 生成代码，早不是新鲜事了，但是 AI 生成微信小程序，似乎还不多见。\n\n究其原因，大概是小程序的开源项目较少，模型训练不好搞。\n上周，我遇到腾讯的同学，得知\"腾讯云开发\"最近有一个大的版本更新，大幅加强了小程序的 AI 能力。我还挺期待的，腾讯自己搞小程序 AI，要比其他人更合适。\n后来，我试用了本次更新的 AI 功能，有一个强烈的感觉，微信小程序可能很快就会成为国内 AI 应用（又称\"智能体\"）的主要载体。\n因为本次更新以后，小程序调用 AI 模型，以及生成智能体，变得非常方便。并且，小程序从 API 到开发工具，都把 AI 整合进去了，整个开发过程都有 AI 辅助，不仅开发效率提高了，而且大量代码可以通过 AI 生成。\n下面就是我的试用过程的介绍和记录。这些功能都是公开的，大部分已经上线，剩下的也即将发布，大家现在就可以跟着做，体验 AI 生成小程序。\n二、云开发助手：进入方法\n我的第一步是体验小程序的\"云开发助手\"（又称云开发 Copilot）。它的作用是通过 AI 加快小程序的开发。\n它的全功能版，目前要通过\"腾讯云开发平台\"网站使用。\n\n此外，还有一个游客版的小程序，可以体验部分功能。如果你手边只有手机，可以先试试游客版。\n\n手机上，点击\"从 AI 开始探索云开发\"，就能进入。\n\n手机版看一下就可以了，正式的开发还是要使用网站。本文下面的内容，都是基于网站的全功能版。\n首先，登录\"云开发平台\"后，页面右下角就会出现小助手图标。\n\n点击它，就能打开\"云开发助手\"。\n\n它的右上角有一个\"全屏\"图标（下图）。\n\n点击进入完整界面。\n\n三、云开发助手：文档功能\n\"云开发助手\"的主要功能如下图。\n\n这些功能可以分成两大类，一类是文档相关的功能，另一类是代码生成。\n先看看文档功能。\n（1）Copilot\n这个功能是 AI 问答引擎，任何关于小程序的问题，都可以…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html",
+          "publishedOn": "2025-01-16T00:23:18.000Z",
+          "wordCount": null,
+          "title": "AI 搞定微信小程序",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n42层的深圳金融科技研究院大楼，去年6月封顶了，采用了不规则外形的设计。（via）\n一切都要支付两次\n有一句古语\"书非借不能读也\"，大家可能都听过。\n它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。\n\n这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。\n我最近看到一篇老外的文章，他给这种现象起了一个全新的名字，让人觉得很贴切。老外的概念化能力真是强。\n他提出，人们买书却不读，是因为没有意识到每样东西都需要两次支付。\n\n第一次是货币支付，你付出货币，得到自己想要的东西，比如一本书，一个 App，一辆自行车，一颗卷心菜等等。\n但是，你还必须支付第二次，才能真正消费这个东西。这次你付出的是你的时间和努力，来获得它的收益。\n第二次支付可能比第一次支付贵得多。假设一本书的第一次支付是20元，第二次支付可能就是10小时的阅读时间。只有支付第二次，你才算真正消费了这本书。如果没有第二次支付，第一次支付就意义不大了，跟把钱扔进垃圾箱差不多。\n生活中，到处都是两次支付的例子。购买 App 后，你必须学习如何使用，并且经常使用，才能得到它的价值。购买自行车后，你必须忍受痛苦的初学者阶段，然后才能上街骑行。购买蔬菜后，必须切碎、蒸熟并咀嚼，然后才能为你提供营养。\n我们经常犯的一个错误，就是只完成了第一次支付，没有第二次支付，比如未使用的会员资格，未读的书籍，未玩的游戏，未编织的毛线。由于没有第二次支付，所以你并没有真正使用，第一次支付的钱实际上扔进了垃圾桶。\n这种行为方式的深层次原因，就是现代社会太强调消费，过于看重第一次支付的经济价…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
+          "publishedOn": "2025-01-10T00:14:37.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 333 期）：一切都要支付两次",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html",
+          "author": null,
+          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n世界最长的高速公路隧道\"天山胜利隧道\"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）\n西蒙·威利森的年终总结，梁文锋的访谈\n英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。\n\n本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。\n\n他提到，AI 的发展速度快得难以想象。\n一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。\n\n一年过去了，大家猜猜，GPT-4 现在排名多少？\n\n答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。\n短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。\n西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。\n\nDeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。\n它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。\n\n而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。\n西蒙·威利斯说：\"DeepSeek V3 的训练…",
+          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html",
+          "publishedOn": "2025-01-03T01:10:55.000Z",
+          "wordCount": null,
+          "title": "科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈",
+          "imageUrl": null
         }
       ]
     },
@@ -235,12 +288,142 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108260",
+          "author": "maobukui",
+          "description": "maobukui: \n去年因为搬家，MT 一段时间没有登录，被封禁了。现在生活步入正轨，求一个 MT 邀，感谢感谢\nbWVuZ21hMDIxQGdtYWlsLmNvbQ==",
+          "link": "https://www.v2ex.com/t/1108260",
+          "publishedOn": "2025-01-29T04:30:38.000Z",
+          "wordCount": 374,
+          "title": "求一个 M-Team 邀",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108259",
+          "author": "darkscope",
+          "description": "darkscope: \n作为 shell 命令苦手，这个工具的目的就是用自然语言执行我想要的操作\n比如解压、压缩、设置系统参数、git 一些特殊操作之类的，按你的想法描述就可以了\n通过大模型转化为具体的 shell 命令\n只测过 deepseek 的 api ，用 Mac 的朋友可以试试看\n仓库地址：supershell",
+          "link": "https://www.v2ex.com/t/1108259",
+          "publishedOn": "2025-01-29T04:08:16.000Z",
+          "wordCount": 420,
+          "title": "写了个大模型加持的 shell 命令工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108258",
+          "author": "RuiCBai",
+          "description": "RuiCBai: \n刚参加工作， 好奇大家会给同事领导主动私聊拜年吗， 还是说只有元旦会发个祝福，春节尽量不打扰同事及领导。",
+          "link": "https://www.v2ex.com/t/1108258",
+          "publishedOn": "2025-01-29T03:58:50.000Z",
+          "wordCount": 393,
+          "title": "职场新人，大家新年会给同事及领导私聊拜年吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108257",
+          "author": "kentxxq",
+          "description": "kentxxq: \n凌晨 5 点看到有 2 份邮件,说我以前的博客域名新增了所有者, tamiyamagnum01@gmail.com,sonictamiya03@gmail.com 觉得很奇怪 \n登录 google search,并没有发现成员  \n于是我访问 blog.kentxxq.com , 跳转到了 https://blog.kentxxq.com/?spm=a2o4j.pdp_revamp.icms-5000527-1511531232618.1.7e7e31e1ZOg4vY\n  \n翻译一下 FOKUS777 >> BANDAR SLOT JUDI ONLINE TERPERCAYA DAN TERBAIK SAAT INI SERVER INTERNATIONAL 说是个菠菜平台, 我立马就警觉了(域名备案过,搞不好会出大问题)\n立马检查域名解析, blog.kentxxq.com=>kentxxq.github.io , 于是我尝试把 cname 改到了 baidu.com, 现在 blog.kentxxq.com 已经打不开了",
+          "link": "https://www.v2ex.com/t/1108257",
+          "publishedOn": "2025-01-29T03:46:26.000Z",
+          "wordCount": 531,
+          "title": "大家新年好, 凌晨 3 点被攻击了...求助",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108256",
+          "author": "syboy",
+          "description": "syboy:",
+          "link": "https://www.v2ex.com/t/1108256",
+          "publishedOn": "2025-01-29T03:43:07.000Z",
+          "wordCount": 449,
+          "title": "有没有今年没看春晚的 v 友？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108255",
+          "author": "tomclancy",
+          "description": "tomclancy: \n最近使用了 loon ，最近发现能用小组件好评\n不过 quanx 能定时任务统计今天使用流量多少，loon 可以吗？没找到",
+          "link": "https://www.v2ex.com/t/1108255",
+          "publishedOn": "2025-01-29T03:27:46.000Z",
+          "wordCount": 383,
+          "title": "关于 quanx 和 loon",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108254",
+          "author": "qinpei",
+          "description": "qinpei: \n看视频的时候，只要退出了，下次再进入，都必须从头开始播放。\n有没有什么方法，可以在下次看的时候续播？或者能不能调用本地播放器？",
+          "link": "https://www.v2ex.com/t/1108254",
+          "publishedOn": "2025-01-29T03:24:01.000Z",
+          "wordCount": 394,
+          "title": "tg 可以调用本地播放器么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108253",
+          "author": "thee191410",
+          "description": "thee191410: \n有使用 SmartTube 的吗，我的电视是几年前买的红米 4k 电视（ l55r8-a ），SmartTube 所有视频分辨率选项最高只显示到 1080p ，但实际电脑端同一个视频是有 4k 分辨率的，有人遇到似的情况吗？我另一台小米的 s65 就能正常显示 4k 的选项。",
+          "link": "https://www.v2ex.com/t/1108253",
+          "publishedOn": "2025-01-29T03:01:25.000Z",
+          "wordCount": 398,
+          "title": "SmartTube 视频没有 4k 选项",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108252",
+          "author": "iamqk",
+          "description": "iamqk: 就是在使用电池的时候\n本身不会消耗 iphone 的本身的电池\n和 typec 外接电池一样做到 0 损耗 iphone 内部电池循环",
+          "link": "https://www.v2ex.com/t/1108252",
+          "publishedOn": "2025-01-29T02:59:38.000Z",
+          "wordCount": 395,
+          "title": "Qi2 的苹果无线充电器能否当无线外接电池使用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108251",
+          "author": "coderluan",
+          "description": "coderluan: \n不介意的话，大家可以发一下城市和位置之类的信息，互相了解一下各地的习俗和经济水平。\n本人老家东北县城。往年会发 2000 左右的红包。但是今年是本命年，按当地说法，我会倒霉一整年，所以红包得反着来，今年红包得反正来。我说我可不信这个，给我的红包直接发微信红包，大家一起抢，看看我是不抢的最少的。最后抢了 400 多，用科技手段战胜了迷信，皆大欢喜。",
+          "link": "https://www.v2ex.com/t/1108251",
+          "publishedOn": "2025-01-29T02:37:53.000Z",
+          "wordCount": 442,
+          "title": "[国内对账] 2025 新年你发了多少红包又收了多少红包。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108250",
+          "author": "466162659",
+          "description": "466162659: \n4o 上传图片,拿 o1 和 o1 mini 怎么搞",
+          "link": "https://www.v2ex.com/t/1108250",
+          "publishedOn": "2025-01-29T02:24:12.000Z",
+          "wordCount": 433,
+          "title": "回复正常但是被降智了,openai 是什么煞笔操作啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108249",
+          "author": "LouisGuo",
+          "description": "LouisGuo: \n与电视相关的记忆：\n小学一二年级，在同村发小 A 家看电视，周星驰的大话西游，忘记时间差点下午上学迟到，当时有一种已经有几节课没上的感觉，感觉自己旷课了，同学说还没上课呢\n小学三年级的时候，邻居家买了电视，那个时候产生把墙扒掉的幻想，产生新建一个互通的门的幻想（好去邻居家看电视）\n小学四五年级，晚上去同村发小 B 家及他奶奶家看电视  \n初中的时候，有个收音机，我在收音机上听了很多电台节目，相声，影视频道的电视剧。后来我妈发现我晚上不睡觉听收音机，把耳机给我没收了\n初中，从我大爷家把电视搬到了我家，看了大半夜的黑白星花电视剧，晚上不舍得睡\n初中，每天晚上吃吃完饭，我爸就消失不见。后来我也学着他去邻居大爷家看电视。有一次看完电视出来，在我大爷家院子里我爸跟我说，电视有啥意思呢，不都是人演的吗。我当时很诧异，因为他天天晚上跑别人家看电视。当时我没有说话\n初中跟我妈商量买电视的事，我妈不同意\n初中考了年级第四名，也没有实现电视梦，从此就断了买电视的念头\n初中，我姨家买了彩电  \n我堂哥家的彩电，他家平时没人在家，有次他跟我说要经常去他家打开电视看一看，不然电视长时间不开机会容易坏掉\n春节过年，都是早早吃完饭去侄子家看春晚，因为家里没电视  \n大学毕业，第一份工作半年后过年回家，给家里买了一台乐事的 40 寸电视",
+          "link": "https://www.v2ex.com/t/1108249",
+          "publishedOn": "2025-01-29T02:19:00.000Z",
+          "wordCount": 381,
+          "title": "描述自己的早期记忆（主要兴趣）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108248",
+          "author": "8eacekeep",
+          "description": "8eacekeep: \n比如新年重新整理下文件、书签、密码和本地知识库之类的东西。",
+          "link": "https://www.v2ex.com/t/1108248",
+          "publishedOn": "2025-01-29T01:57:29.000Z",
+          "wordCount": 490,
+          "title": "新年快乐！大家会进行赛博大扫除吗？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108246",
           "author": "szsgz",
           "description": "szsgz: 春节期间虚拟产品有特价促销的吗？\n软件，订阅，服务之类的，求推荐！",
           "link": "https://www.v2ex.com/t/1108246",
           "publishedOn": "2025-01-29T00:42:53.000Z",
-          "wordCount": 409,
+          "wordCount": 431,
           "title": "春节期间虚拟产品有特价促销的吗？",
           "imageUrl": null
         },
@@ -250,7 +433,7 @@
           "description": "privater: MacBook Pro M1 Max 64G 可以跑 DeepSeek R1 的大模型当 AI 服务器，当年想都没想过还有这个用途。\n\n之前本机跑 Llama 3 性能并不好，能力不如大部分收费的模型，但是如今有了 DeepSeek ，一下就山鸡变凤凰，相当于本地跑个 Chatgpt o4 mini 的水平，这就很够用了。\n当然 70B 模型虽然能跑动，回答速度是比较慢的，目测大概 3 tokens/s ，只能用来问适合思考的问题，例如我问了个黑洞视线的问题，花了大约 2 分钟才输出完毕。但是如果降低点要求用 32B 模型，输出能快到 15 tokens/s ，基本和线上服务相似，就非常可用了：",
           "link": "https://www.v2ex.com/t/1108245",
           "publishedOn": "2025-01-28T23:36:40.000Z",
-          "wordCount": 451,
+          "wordCount": 491,
           "title": "买大内存 MacBook 的一个意外好处——私人 AI 服务器",
           "imageUrl": null
         },
@@ -260,7 +443,7 @@
           "description": "mhj144007: \nHappy New Year ！",
           "link": "https://www.v2ex.com/t/1108244",
           "publishedOn": "2025-01-28T23:21:13.000Z",
-          "wordCount": 362,
+          "wordCount": 374,
           "title": "NB 的 V 油们！",
           "imageUrl": null
         },
@@ -280,7 +463,7 @@
           "description": "tarthal: \nJanus Pro  is a cutting-edge AI model designed to redefine the boundaries of artificial intelligence. Named after the Roman god Janus, who could see both the past and the future, this model embodies a dual vision for AI—one that learns from vast amounts of data and anticipates future needs.\nAt its core, Janus Pro is built on advanced neural networks that enable it to process and understand complex patterns in data. It excels in natural language processing, making it capable of engaging in sophisticated conversations and generating human-like text. Whether it's drafting emails, writing creative stories, or providing detailed explanations, Janus Pro delivers high-quality content.\nWhat sets Janus Pro apart is its adaptability. It can be fine-tuned for various applications, from customer service chatbots to educational tools. Its ability to learn continuously ensures it stays relevant and effective in a rapidly changing world.\nJanus Pro also prioritizes safety and compliance. It is designed to adhere to ethical standards, avoiding harmful content and promoting responsible AI usage. With its powerful capabilities and commitment to safety, Janus Pro is poised to transform industries and enhance human productivity in meaningful ways.",
           "link": "https://www.v2ex.com/t/1108242",
           "publishedOn": "2025-01-28T22:50:24.000Z",
-          "wordCount": 535,
+          "wordCount": 547,
           "title": "Janus Pro: A Revolutionary AI Model",
           "imageUrl": null
         },
@@ -290,7 +473,7 @@
           "description": "moudy: 开源模型，效果好，负载低，无利益冲突",
           "link": "https://www.v2ex.com/t/1108241",
           "publishedOn": "2025-01-28T18:53:10.000Z",
-          "wordCount": 387,
+          "wordCount": 401,
           "title": "Apple Intelligent 是不是可以直接找 deepseek 谈合作了",
           "imageUrl": null
         },
@@ -300,7 +483,7 @@
           "description": "mikeab: \n四五年前自组的台式，AU+N 卡，双通道 16G 内存。\n最近时不时出现使用中突然死机的情况，屏幕先卡住不动（这个时候还有声音），然后过几秒后显示器直接黑屏无信号，只能强制重启（这个时候声音也没了）\n有点拿不准是哪里出了问题，因为以前有过类似情况，玩大型游戏的时候会死机，当时加了两条内存解决了（后面发现 4 条内存插满稳定性很差就又拆了两条）  \n但是这次的情况是，电脑只开了一个浏览器看视频也会卡死，而且有时会在某块不特定区域出现一瞬间的黑斑，又有点像显卡有问题，求大佬帮忙分析一下",
           "link": "https://www.v2ex.com/t/1108240",
           "publishedOn": "2025-01-28T17:55:44.000Z",
-          "wordCount": 501,
+          "wordCount": 515,
           "title": "电脑经常死机，求各位大佬帮忙分析下是哪个部件出问题了",
           "imageUrl": null
         },
@@ -310,7 +493,7 @@
           "description": "lauy: \n很想分享这个观点, 原文发表在知乎\n我得出的结论是广义上的语言是影响社会发展的一个重要因素\n最近在看编码这本书, 让我想到在中西方语言编码或者语言本身的差异的角度来看这个问题\n中文是表意文字, 每个汉字能承载相对丰富的信息, 大部分能直接表达语义, 因此可以传达更丰富的内涵, 在某种程度上直接带来了文化上的繁荣, 也无形中增加了学习的门槛\n而英文是由其 26 个字母组合而成, 从而逻辑性得到衍生, 例如前后缀与词根等等的使用, 在某种程度上推动了理性思考的浪潮, 也往往因为语言文字本身的属性便于传播\n且不提计算机的出现与语言编码的直接相关, 我想讨论的是\n科学技术的发展乃至文化特质的形成与语言之间的联系\n中文表达偏向隐含和多义, 所以中华文化中艺术与文学在世界有其自有的独特性, 但对于科学研究所需的严谨性产生了一种微妙的阻碍, 同时对于思想与文化的塑成而言, 则是趋于保守或种种设想中的特征, 而思想与文化二者相互作用进而筑起了无数有形无形的\"长城\"\n也请给我一个站在制高点的机会:\n无穷的远方, 无数的人们过完了这一生, 殊不知那些苦难, 劣根性和周围的所有一切, 竟来源于我们所说的语言与文字......\n试想在遥远的过去无数个瞬间, 同一时间东方人与西方人在面对同样的思想灵感闪现时, 看着不同的文字被匆匆写下, 转身走向截然不同的历史的未来里......\n非相关专业人士的有感而发, 无所谓有无意义\n敬请批评指正, 若有相关研究, 那真的挺好的\n参考:\n编码\nbook.douban.com/subject/4822685/\nhttps://chatgpt.com/share/6797af22-54cc-8011-9d1f-dc8654d8f51f\nDeepSeek : (由于还不能共享对话, 借用 ChatGPT 的共享功能\nhttps://chatgpt.com/share/679916df-dc30-8011-8a50-3bc756c5cd79",
           "link": "https://www.v2ex.com/t/1108239",
           "publishedOn": "2025-01-28T17:37:53.000Z",
-          "wordCount": 444,
+          "wordCount": 458,
           "title": "从语言编码到发展原因的一种可能性",
           "imageUrl": null
         },
@@ -330,7 +513,7 @@
           "description": "jimliang: \n春节过年回家，意外发现家里老母亲被熟人忽悠，花了近十万购入什么周林频谱治疗屋，功能大概类似汗蒸房，宣称能通过\"仿生频谱\"治疗三高、关节炎等老年病，实则连医疗器械备案都查无此证。\n劝了也不信，说人家做了十几年，村里很多都买了，用了有效果。家里有小弟，也有做康复治疗的亲戚，买的时候也不商量，老爸也不停劝说，还是不听，我也是回家了才知道此事。\n这是中国留守老人困境的缩影，日渐衰老的身体再加上见识有限，成为保健品骗局的猎物，我们该如何为父母筑起防护墙？\n网上能找到这个产品，但是描述上看怎么都是智商税，而且主流的电商平台都没有卖的\nhttps://www.zhoulin.com.cn/index.php?c=show&id=3\nhttps://imgur.com/a/GRtlctY",
           "link": "https://www.v2ex.com/t/1108237",
           "publishedOn": "2025-01-28T16:00:31.000Z",
-          "wordCount": 452,
+          "wordCount": 454,
           "title": "家里老人被骗十万买了所谓的频谱治疗屋，农村保健品销售乱象",
           "imageUrl": null
         },
@@ -370,7 +553,7 @@
           "description": "VisualStudioCode: \nhttps://www.ithome.com/0/827/764.htm\nhttps://www.reddit.com/r/mac/comments/1h0xwn8",
           "link": "https://www.v2ex.com/t/1108232",
           "publishedOn": "2025-01-28T14:37:14.000Z",
-          "wordCount": 425,
+          "wordCount": 429,
           "title": "用户称 MacBook Pro 车祸中被毁， AppleCare+ 拒赔",
           "imageUrl": null
         },
@@ -380,7 +563,7 @@
           "description": "NickLuan: \n印象中从小到大第一次，难道是烟火炮竹给炸的？",
           "link": "https://www.v2ex.com/t/1108231",
           "publishedOn": "2025-01-28T14:13:52.000Z",
-          "wordCount": 467,
+          "wordCount": 475,
           "title": "大过年的停电了...",
           "imageUrl": null
         },
@@ -400,7 +583,7 @@
           "description": "zhang14964:",
           "link": "https://www.v2ex.com/t/1108229",
           "publishedOn": "2025-01-28T13:35:20.000Z",
-          "wordCount": 492,
+          "wordCount": 494,
           "title": "今年春晚演的啥",
           "imageUrl": null
         },
@@ -410,7 +593,7 @@
           "description": "kirieievk: \n难道电池坏了?\n一直充几个小时都没法开机,没反应.",
           "link": "https://www.v2ex.com/t/1108227",
           "publishedOn": "2025-01-28T13:19:20.000Z",
-          "wordCount": 406,
+          "wordCount": 410,
           "title": "iPhone 没电没法开机,充电貌似都充不进去",
           "imageUrl": null
         },
@@ -420,7 +603,7 @@
           "description": "hereis00: 最近想拍个小电影，发现手头的 Apple 设备都能显示 10bit/HDR 内容\n遂大喜，抓起自己的松下 G9 录了点 V-log 素材去达芬奇剪\n根据 B 站的杜比视界的制作流程分享 https://www.bilibili.com/video/BV1jA4m157UG/ 看了看发现…\n我 Macbook Air M1 的显示设置根本就没有“预置”的选项，\n颜色配置文件里也找不到“HDR Video ST-2084”，\n去线下零售店看了看 Pro 款才发现这个预设会将桌面白色锁在 203nit ，\n整个显示器的伽马曲线会变成 PQ 曲线（就是预置写的 ST-2084 ），\n而自己 Air 可选的每个颜色配置文件，都没有 HDR 用的伽马曲线（ PQ 或 HLG ）…\n所以自己达芬奇调色预览时会感觉欠曝、欠饱和。\n之后也试了试 Final Cut Pro ，这个更惨，项目设置连 Rec2020 HLG 的选项都不给。\n有没有对 Mac 显示机制了解比较深的老哥，\n想问问怎样用非正常手段将 Air 伽马曲线强行改为 PQ 或 HLG ，\n不然的话我就要当波形图战士了",
           "link": "https://www.v2ex.com/t/1108226",
           "publishedOn": "2025-01-28T13:17:51.000Z",
-          "wordCount": 525,
+          "wordCount": 740,
           "title": "库克等级森严使我 air 无力战胜 HDR 剪辑",
           "imageUrl": null
         },
@@ -430,7 +613,7 @@
           "description": "nightnotlate: 经典相声我听得还算比较多，\n感觉讲相声的就像一个大师，\n台上不动声色地抖包袱 台下乐得捂着肚子，\n是一门很有技术含量的艺术，\n你要比观众高几个段位 才能逗笑他们。\n但岳云鹏的 是真不喜欢，\n他给我的印象，就是那种卖蠢 卖丑 卖笨拙，\n就像个小丑（不是骂人） 靠卖弄自己的愚笨，\n靠自低身份来让人笑，这就很下乘了。\n印象里他在春晚的相声都不咋样，\n但很奇怪 火的莫名其妙\n五环之歌也火了，那首歌就是他的风格写照，卖蠢，而他还当包袱多次自己引用......",
           "link": "https://www.v2ex.com/t/1108225",
           "publishedOn": "2025-01-28T13:01:41.000Z",
-          "wordCount": 660,
+          "wordCount": 662,
           "title": "很不喜欢岳云鹏的相声",
           "imageUrl": null
         },
@@ -460,7 +643,7 @@
           "description": "qichunren: 这些年我对传统拜年方式越来越困惑：明明春节假期只有七天，却要花四五天在不同亲戚家赶场。每家停留两小时，说重复的客套话，感觉身心俱疲。\n我始终不明白：\n为什么不能各家派代表，约个共同时间集体聚餐？\n长辈们是否也疲惫于年复一年的迎来送往？\n这种消耗式拜年，真的比深度团聚更有温度吗？\n今年尝试和父母沟通调整形式，他们却说\"会被说不懂礼数\"。想问问大家：\n你们当地有创新型的拜年方式吗？\n年轻人如何平衡传统习俗与自我需求？\n这种疲惫感是独属于我们这代，还是长辈们也有同感？\n特别想知道：\n如果改为\"初一团拜+初三自由活动\"的模式，真的会破坏年味吗？",
           "link": "https://www.v2ex.com/t/1108221",
           "publishedOn": "2025-01-28T12:03:46.000Z",
-          "wordCount": 697,
+          "wordCount": 706,
           "title": "有没有和我一样觉得走亲戚式拜年太耗精力？",
           "imageUrl": null
         },
@@ -480,18 +663,8 @@
           "description": "rtz: \n楼主大学学的是电子，平常写单片机基本上就搞搞寄存器，学校也没学算法\n现在感觉遇到瓶颈了，串口的环形缓冲区都有点吃力\n想问问各位大佬，嵌入式用的算法和普通的算法应该是通用的吧，怎么入门快一点",
           "link": "https://www.v2ex.com/t/1108219",
           "publishedOn": "2025-01-28T11:42:16.000Z",
-          "wordCount": 402,
+          "wordCount": 411,
           "title": "电子专业跨行学算法有推荐路径吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108218",
-          "author": "nealot",
-          "description": "nealot: \n最近仿制药争议不断。\n对程序员群体来说，偶尔生个病 (非重疾)，配个几块钱、几十块钱的药，是没有必要像 JICAI 那样极致省钱的。\n拿着处方单去京东上买同成分的原研药，可以或多或少地减少副作用，增加疗效。\n但是这个操作有一个明显的问题：医院开的廉价仿制药变成了无效支出，还要另外付一笔原研药的钱。\n小毛病的支出，就算不多 (假设一年几百块钱)，但是长期累积下来仍然是一笔不小的钱。\n或许，买个合适的商业保险，是解决这个问题的最佳途径？\n保险天然具有杠杆属性。因为买保险的人，就是有一部分不生病。每月最大赔付 200 元的产品，很可能只需要每月支付 50 到 100 元。\n这样，就可以通过一个持续的小额支出，持续地享受到最佳质量的原研药。\n剩下的问题，就是如何选择一个赔付条款合适的商业保险了。",
-          "link": "https://www.v2ex.com/t/1108218",
-          "publishedOn": "2025-01-28T11:27:24.000Z",
-          "wordCount": 115,
-          "title": "商业保险：购买原研药的最佳选择？",
           "imageUrl": null
         },
         {
@@ -500,7 +673,7 @@
           "description": "zhouyin: 是实例的临时 public ip\n看了圈没发现",
           "link": "https://www.v2ex.com/t/1108217",
           "publishedOn": "2025-01-28T11:27:19.000Z",
-          "wordCount": 432,
+          "wordCount": 433,
           "title": "ansible 或 terraform 有没有方法获得刚创建的 ec2 实例的 public ip？",
           "imageUrl": null
         },
@@ -520,7 +693,7 @@
           "description": "YuTengjing: \n利用下班和周末时间开发了一个 AI 生成图片网站，准备邀请一部分内测用户体验（做慈善）。\n内测用户赠送 360 积分（相当于 360 张 flux schnell 或者 kolors 生成），可以使用多个模型，flux dev, recraft, idogram, kolors 等。\n预计马上会支持（画饼， 过年嘛）midjourney 模型（其实早就支持了但是还没做安全检测，先不开放）, upscale, 视频生成（后面重点开发方向）.\n想体验的朋友可以发 google 邮箱账号，我会发送给你一个邀请注册的链接，V2EX 会邀请最多 50 名内测用户。\n欢迎提出你的意见和给我反馈 bug 。\n网站地址：artiffuse",
           "link": "https://www.v2ex.com/t/1108215",
           "publishedOn": "2025-01-28T11:00:23.000Z",
-          "wordCount": 436,
+          "wordCount": 454,
           "title": "开发了一个 AI 生成图片网站",
           "imageUrl": null
         },
@@ -530,7 +703,7 @@
           "description": "Yukisama: \n接：上文\n在之前尝试自制一个本地的电子书阅读器，收到了大家很多的建议，这段时间对 App 进行了几轮更新，同时也加入了很多功能，现在主要功能如下：\n支持系列书籍的整合分类\n对书籍样式支持完善（包括弹出式脚注等）\n支持给书籍添加标签分类\n可以自定义书籍封面\n阅读页支持高度自定义（行距、段距、字体、字号、四周边距都可自定义）\n自定义字体可以导入 ttf 、otf 字体\n夜间模式适配\n阅读信息统计（单册书籍统计、整体数据统计）\n阅读计时器\n目前正在适配 txt 和 cbz 漫画格式，azw3 和 azw4 格式也在适配中，未来会增加数据云同步和元数据刮削功能。\niOS 下载链接：下载地址\n目前尝试上架收费，8 块钱买断制，不是指望赚钱，只是想看看能给开发者账号回多少本，文末附兑换码。安卓在尝试上架 Play 商店，不过目前还在解决 14 天封闭测试。\n交流反馈 QQ 群：979919343\n兑换码：\nLMJ67MF3PYPL\n4ALP6JL3PLNA\n6FJY9NWPYNTN\nYHJ3EYK96RJE\n3JMF3THTKPA4\nTPRTWLF7PFXY\nY3NJ7R9X3H3Y\nWFR49P7HFMHJ\n7X3RLLEMTXP3\nN6M4F4NHFRMN\n如果觉得不错可以在 App Store 点点评分，祝大家新年快乐！\n预览图：",
           "link": "https://www.v2ex.com/t/1108214",
           "publishedOn": "2025-01-28T10:47:22.000Z",
-          "wordCount": 585,
+          "wordCount": 587,
           "title": "[附兑换码] Moeli 阅读，简单易用的电子书阅读器",
           "imageUrl": null
         },
@@ -540,7 +713,7 @@
           "description": "wubalabadub: \n原本以为今年不用回老家拜七大姑八大姨，会在家里比较安逸，结果却感到挺难受和窒息。\n前两天熬夜看英超曼城和切尔西的比赛，4 点才睡，提前和家里人说了要熬夜看比赛，早上会晚起。\n结果早上还是 8 点被喊起来吃早饭。\n然后、被问平时是不是一直这个作息，说不吃早饭会得这个结石那个病。\n下午老妈出去晒太阳了, 我在家洗澡, 就因为没用太阳能、用的热水器，回来被说为什么不用太阳能，我说我不知道太阳能是开着的。\n然后问我为什么不打电话问，进而引出我回来在家里不沟通，平时不经常给他们打电话。\n然后说沟通是多么重要，引出我平时是不是和同事也不沟通，给我转发一些营销号励志演讲，晚饭滔滔不绝说是为了让我「少走点社会的弯路」。\n前两天晚上开车去看亲戚，路上停车想在便利店买条烟、去送给爱抽烟的那一家。\n然后又被说：“家里有谁谁谁送来的烟啊、为什么要到外面买”，我说不知道，买就买了也没几个钱。\n然后说完我就知道完蛋了，又开始讲起自己平时是如何如何节约的，电动车坏了只买二手的、手机用了 xx 年不愿意换（我之前想帮她换的，她死活不愿意）、买菜怎么省的、水电怎么省的。\n然后我实在绷不住了，我就抱怨了两句说为了这点小钱影响心情不至于，然后又差点吵起来：“省的钱还不是为了你！以后都是你的！”。\n今年看了「非暴力沟通」，还以为自己学到了，觉得很多事确实和同事朋友解决起来方便多了。\n感觉自己还是太年轻了，现在只想赶紧过完年。\n除夕夜的一点碎碎念，大家看的图一乐吧，祝大家家庭和睦，新年快乐。",
           "link": "https://www.v2ex.com/t/1108213",
           "publishedOn": "2025-01-28T10:44:43.000Z",
-          "wordCount": 536,
+          "wordCount": 538,
           "title": "过年回家，现在感觉很窒息",
           "imageUrl": null
         },
@@ -552,116 +725,6 @@
           "publishedOn": "2025-01-28T10:40:17.000Z",
           "wordCount": 338,
           "title": "webstorm 新版本在全局搜索中取消了模块选项卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108210",
-          "author": "OceanWaves",
-          "description": "OceanWaves: \n均为个人观点 欢迎大家讨论\n关于 YouTube 上的中文内容：不看，看中文内容我不会来这个平台，这个平台大量的优质内容（ podcast ）（ interview ）（ influencer ）（ lecture ）英文占绝大多数，中文内容键政居多，图一乐还可以\n老高与小茉：个人观点，这两个人讲故事能火是因为夫妻间的温情，故事本身不是重点 这里可以看 如何评价油管老高与小茉（原 kuaizero 老高频道）？\n关于 YouTube 算法：YouTube 算法是个黑盒，没人知道到底怎么运作的，但我们可以从中看出平台的意图，平台想的是最大化用户观看的时间，平台想让用户来 YouTube 观看内容，而不是从别的平台（ reddit/Facebook ）引流过来，平台也不想让 youtuber 的影响过大，所以在主页不会给你推荐你关注的博主，同样的原因 YouTube 的关注页没有分类功能，因为平台不想让你来只看某几个人的视频，YouTube 想让你享受这个平台整体 这里可以看 为什么 YouTube 算法永远都会是个谜 Why The YouTube Algorithm Will Always Be A Mystery 为什么我的视频火了？ My Video Went Viral. Here's Why YouTube 如何变现 This Video is Worth $13,568.99\n为什么没有弹幕功能？ 因为英语弹幕观感并不好，英语单词有长有短并不像汉字就方块字。还有文字信息熵的区别。参考为什么全世界只有中日两个国家弹幕视频网站成为流行？\nYouTube 的广告：YouTube 上边很多广告，原因也很简单，Video hosting 太费钱了。YouTube 上边有 Google Adsense ，还有 youtuber 接赞助商插入的视频广告，不同于国内抖音 b 站等平台，这部分广告 YouTube 是不抽成的，youtuber 还可以自己卖货（它们管这个叫 YouTube merch ）,youtube 也是不抽成的。\n如何屏蔽 YouTube 上的广告？ 如果是 web 端很简单，安装uBlock Origin即可屏蔽 Google Adsense ，或者订阅 YouTube Premium （低价区，家庭组等等）安装sponsorblock可跳过视频内的赞助商广告，（防喷我订阅 Premium ）\nAndroid 可以使用revanced\n如何在 YouTube 上找到自己喜欢的内容 我认为主要靠搜索，首先安装searchfixer for youtube 然后按自己需求打开其中的选项，然后搜索即可\n关于 Faceless channel 不漏脸的频道我首先会怀疑内容的质量，以及是不是念稿/ai 合成 对于我个人来说这是一个大大的 red flag\nYouTube 插件推荐 上边提过的我就不说了 DeArrow 替换视频封面 BlockTube 屏蔽 YouTube 频道 enhaced-h264ify 屏蔽 av1 ReturnYoutubeDislike unhook Remove Distractions\n目前就想到这么多 欢迎大家 提问/讨论/指正",
-          "link": "https://www.v2ex.com/t/1108210",
-          "publishedOn": "2025-01-28T10:06:10.000Z",
-          "wordCount": 549,
-          "title": "YouTube 重度用户，回答一些分区经常看见的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108209",
-          "author": "justtokankan",
-          "description": "justtokankan: \n如题，并不少缺少年味，只是自己长大了而已",
-          "link": "https://www.v2ex.com/t/1108209",
-          "publishedOn": "2025-01-28T10:00:10.000Z",
-          "wordCount": 374,
-          "title": "闲蛋疼，启动王者荣耀",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108208",
-          "author": "SiLenceControL",
-          "description": "SiLenceControL: 好奇大家的年夜饭好吃吗\n开心吗\n吃完撑吗",
-          "link": "https://www.v2ex.com/t/1108208",
-          "publishedOn": "2025-01-28T09:35:09.000Z",
-          "wordCount": 333,
-          "title": "各位年夜饭都是什么啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108207",
-          "author": "hbomb",
-          "description": "hbomb: \n交互式音乐教程增加新功能 [调音器] https://lightnote.com.cn/tuner\n如果在学习乐器的大哥们，可以试试调音，识别音准。需要的自取.",
-          "link": "https://www.v2ex.com/t/1108207",
-          "publishedOn": "2025-01-28T09:22:51.000Z",
-          "wordCount": 361,
-          "title": "交互式音乐教程增加新功能 [调音器] https://lightnote.com.cn/tuner",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108205",
-          "author": "razios",
-          "description": "razios: 两台 iphone 手机登录同一个 apple id ，一台复制，有时另外一台有时会弹出“粘贴自“XX”的 iphone” 然后这个弹出只有一个取消选项，但是怎么点都退不出，而且显示在最顶层。按关机打算重启，发现还在锁屏界面顶层，无法滑动关机。最后只能耗电，自动关机才行。\n有这么严重的 bug ，靠…郁闷了半天只能干等",
-          "link": "https://www.v2ex.com/t/1108205",
-          "publishedOn": "2025-01-28T08:52:39.000Z",
-          "wordCount": 397,
-          "title": "ios 一个严重 bug",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108204",
-          "author": "ZRS",
-          "description": "ZRS: https://v2ex.com/t/1091359",
-          "link": "https://www.v2ex.com/t/1108204",
-          "publishedOn": "2025-01-28T08:47:52.000Z",
-          "wordCount": 456,
-          "title": "iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108203",
-          "author": "KingZZZZ",
-          "description": "KingZZZZ: \n车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？",
-          "link": "https://www.v2ex.com/t/1108203",
-          "publishedOn": "2025-01-28T08:29:48.000Z",
-          "wordCount": 462,
-          "title": "车辆被撞",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108202",
-          "author": "fangyex",
-          "description": "fangyex: \nhttps://www.color4bg.com 这是一款在线的背景图片生成器，基于 Webgl ，能够生成各种好看的背景图，让你的网页或者文稿项目不再为背景发愁\n现在产品登录了 ProductHunt ，请帮我投一票，感激不尽！！\n传送： https://www.producthunt.com/posts/color4bg",
-          "link": "https://www.v2ex.com/t/1108202",
-          "publishedOn": "2025-01-28T08:29:24.000Z",
-          "wordCount": 359,
-          "title": "一款免费、开源的在线背景图生成器，请各位帮我在 ProductHunt 上面投一票！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108201",
-          "author": "iamyxl",
-          "description": "iamyxl: \n几个常看的站点\nhttps://www.artificial-intelligence.blog/\nhttps://ailongtail.com/\nhttps://www.theaiblog.net/",
-          "link": "https://www.v2ex.com/t/1108201",
-          "publishedOn": "2025-01-28T08:27:44.000Z",
-          "wordCount": null,
-          "title": "AI 新闻站点",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108199",
-          "author": "fwqaaq",
-          "description": "fwqaaq: \n之前写这篇文章的账号被平台删除了，不知道为什么？用小号重新发一下\n先说我去年的时候刚接触 Bitget 吧。相信很多新人第一次和我一样，使用的都是币安，然后在推特上看到了 Bitget 的大量广告以及公关活动，才选择了 Bitget 。我当时也是这样，看到了大量 Bitget 的客服对用户服务周到，不遗余力换回用户损失的资金，然后正巧想买 kaspa ，就选择了 Bitget ，并且将 Bitget 作为自己的首选交易所。\n先说结论：我被推特上无底限的 Bitget 广告给骗了，它们同样是为了赚钱，并不会为了用户利益而服务，有的只是对用户的搪塞。\n事情的起因\n去年的时候我在 Bitget 上充错了一笔跨链桥的 USDC ，当我意识到这点的时候，我立刻联系了 Bitget 的客服，希望他们能够帮我找回这笔资金。我当时心存侥幸，像 Bitget 这么大的交易所肯定会帮助用户挽回损失，并且他们掌握了地址的私钥，他们可以帮助用户找回这笔资金，当然我想错了。\n\n\n\n正如你在图片中看到的那样，Bitget 的客服并不想也不乐于帮我找回转错的资产，他更像是一个 Bitget 的 NPC ，只会重复：“我懒得帮你找”。对啊，这种事情又不是他们的责任，他们只是一个交易所，他们不会为了用户的利益而服务，他们只会为了自己的利益而服务。而且这种跨链的资产怎么可能上交易所呢？而且为什么要等到它上交易所才能退回呢？对，一切都是他们说得准，他们无条件服务顾客也真的是无条件。（顾客的问题，关我交易所什么事呢？）\n事情的发展\n币圈是个黑暗森林，永远不要相信推特上某些 KOL 的话，他们为了所谓的推广费而不择手段，不考虑他人，只是为了吃别人的人血馒头。\n当我看到推特上漫天的 KOL 推广 Bitget 的  debit card 的时候，我就想起了拼多多的砍一刀和华为的遥遥领先。侧重避轻的宣传只会让用户感到恶心和反感：\n让我们来揭秘一下这个 Bitget 的 debit card 吧，让你如何吃屎也吃的很开心，所以我不得不佩服 Bitget 的营销手段，这种营销手段真的是无底线。\n先来看一下，Bitget 宣传的“优享支付卡“到底有多优享吧。\n\n了不起，Bitget 竟然还能绑定这么多东西，还能在境外消费，费率最优是多优呢？想想看，你使用 USDC 的等价币在 coinbase 出金 1:1 没有任何手续费的时候，它还要给你兑换成 SGD 之后可能还要再转成其它货币再给你使用，连费率具体数字都不给你，这种所谓的“优享支付卡”真的是太优享了。然后你存个 3w 美元才能开户，这种所谓的“优享支付卡”真的是太亲民啦，一点没有把用户当外人。\n不如我们直接来看 Chase 的开户奖励吧，你可以直接 dd 获得 300 美元，然后存入 15000 美元 90 天获得 200 美元，同时做到再奖励 400 美元，相比要 3w 美元才能开户的 Bitget ，Chase 的奖励真的是太“搞笑”了是吧？毕竟 Bitget 才是真正的“优享支付卡”。\n当然漫天的推广文案我只选择了官方的，毕竟官方的下限还是高一点，如果你感兴趣，可以搜索一下推特上的 KOL 推广文案，你会发现这种营销手段真的是无底线。\n正如我所遇到的，他们把大量的金钱都用到营销上了，就像华为和苹果的售后比，Bitget 的售后就是依托答辩可以这么说。\n最后\n当我发这个贴子的时候，我不知道会有多少人看，多少水军喷我，但我只想告诉一些新人，不要相信币圈任何想带你赚钱的话，他们只是想割你，将你的加密货币提到你的硬件钱包吧，不要相信任何人，只有你自己才是最可靠的。\n如果你说 Chase 是美卡开不了，是因为 Chase 并没有像 Bitget 一样无所不用其集的营销，你可以申请 ITIN 开户也可也直接在美国使用护照开户，当你在简中大看到大量的推广文案的时候，你就应该警惕了，因为他们只是想割你，不会为了你的利益而服务。",
-          "link": "https://www.v2ex.com/t/1108199",
-          "publishedOn": "2025-01-28T08:09:55.000Z",
-          "wordCount": 522,
-          "title": "我现在为什么讨厌 Bitget（重发）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108198",
-          "author": "lgapple",
-          "description": "lgapple: 妈妈之前用的是小米手机，总之不算省心。\n去年给她换了 iPhone15pro ，然后总是被她和她的朋友们嫌弃拍的不好看。\n帮忙推荐一下适合老年人傻瓜化的美颜相机。\n以上，谢谢！",
-          "link": "https://www.v2ex.com/t/1108198",
-          "publishedOn": "2025-01-28T08:01:31.000Z",
-          "wordCount": 399,
-          "title": "给老年人用的 iOS 第三方美颜相机，求推荐",
           "imageUrl": null
         }
       ]

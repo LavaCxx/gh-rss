@@ -1,10 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-29T04:13:55.858Z</id>
+    <id>urn:2025-01-29T05:10:56.398Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-29T04:13:55.858Z</updated>
+    <updated>2025-01-29T05:10:56.398Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[求一个 M-Team 邀]]></title>
+        <id>https://www.v2ex.com/t/1108260</id>
+        <link href="https://www.v2ex.com/t/1108260"/>
+        <updated>2025-01-29T04:30:38.000Z</updated>
+        <summary type="html"><![CDATA[maobukui: 
+去年因为搬家，MT 一段时间没有登录，被封禁了。现在生活步入正轨，求一个 MT 邀，感谢感谢
+bWVuZ21hMDIxQGdtYWlsLmNvbQ==]]></summary>
+        <author>
+            <name>maobukui</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写了个大模型加持的 shell 命令工具]]></title>
+        <id>https://www.v2ex.com/t/1108259</id>
+        <link href="https://www.v2ex.com/t/1108259"/>
+        <updated>2025-01-29T04:08:16.000Z</updated>
+        <summary type="html"><![CDATA[darkscope: 
+作为 shell 命令苦手，这个工具的目的就是用自然语言执行我想要的操作
+比如解压、压缩、设置系统参数、git 一些特殊操作之类的，按你的想法描述就可以了
+通过大模型转化为具体的 shell 命令
+只测过 deepseek 的 api ，用 Mac 的朋友可以试试看
+仓库地址：supershell]]></summary>
+        <author>
+            <name>darkscope</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[职场新人，大家新年会给同事及领导私聊拜年吗]]></title>
+        <id>https://www.v2ex.com/t/1108258</id>
+        <link href="https://www.v2ex.com/t/1108258"/>
+        <updated>2025-01-29T03:58:50.000Z</updated>
+        <summary type="html"><![CDATA[RuiCBai: 
+刚参加工作， 好奇大家会给同事领导主动私聊拜年吗， 还是说只有元旦会发个祝福，春节尽量不打扰同事及领导。]]></summary>
+        <author>
+            <name>RuiCBai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大家新年好, 凌晨 3 点被攻击了...求助]]></title>
+        <id>https://www.v2ex.com/t/1108257</id>
+        <link href="https://www.v2ex.com/t/1108257"/>
+        <updated>2025-01-29T03:46:26.000Z</updated>
+        <summary type="html"><![CDATA[kentxxq: 
+凌晨 5 点看到有 2 份邮件,说我以前的博客域名新增了所有者, tamiyamagnum01@gmail.com,sonictamiya03@gmail.com 觉得很奇怪 
+登录 google search,并没有发现成员  
+于是我访问 blog.kentxxq.com , 跳转到了 https://blog.kentxxq.com/?spm=a2o4j.pdp_revamp.icms-5000527-1511531232618.1.7e7e31e1ZOg4vY
+  
+翻译一下 FOKUS777 >> BANDAR SLOT JUDI ONLINE TERPERCAYA DAN TERBAIK SAAT INI SERVER INTERNATIONAL 说是个菠菜平台, 我立马就警觉了(域名备案过,搞不好会出大问题)
+立马检查域名解析, blog.kentxxq.com=>kentxxq.github.io , 于是我尝试把 cname 改到了 baidu.com, 现在 blog.kentxxq.com 已经打不开了]]></summary>
+        <author>
+            <name>kentxxq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有今年没看春晚的 v 友？]]></title>
+        <id>https://www.v2ex.com/t/1108256</id>
+        <link href="https://www.v2ex.com/t/1108256"/>
+        <updated>2025-01-29T03:43:07.000Z</updated>
+        <summary type="html"><![CDATA[syboy:]]></summary>
+        <author>
+            <name>syboy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 quanx 和 loon]]></title>
+        <id>https://www.v2ex.com/t/1108255</id>
+        <link href="https://www.v2ex.com/t/1108255"/>
+        <updated>2025-01-29T03:27:46.000Z</updated>
+        <summary type="html"><![CDATA[tomclancy: 
+最近使用了 loon ，最近发现能用小组件好评
+不过 quanx 能定时任务统计今天使用流量多少，loon 可以吗？没找到]]></summary>
+        <author>
+            <name>tomclancy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tg 可以调用本地播放器么？]]></title>
+        <id>https://www.v2ex.com/t/1108254</id>
+        <link href="https://www.v2ex.com/t/1108254"/>
+        <updated>2025-01-29T03:24:01.000Z</updated>
+        <summary type="html"><![CDATA[qinpei: 
+看视频的时候，只要退出了，下次再进入，都必须从头开始播放。
+有没有什么方法，可以在下次看的时候续播？或者能不能调用本地播放器？]]></summary>
+        <author>
+            <name>qinpei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SmartTube 视频没有 4k 选项]]></title>
+        <id>https://www.v2ex.com/t/1108253</id>
+        <link href="https://www.v2ex.com/t/1108253"/>
+        <updated>2025-01-29T03:01:25.000Z</updated>
+        <summary type="html"><![CDATA[thee191410: 
+有使用 SmartTube 的吗，我的电视是几年前买的红米 4k 电视（ l55r8-a ），SmartTube 所有视频分辨率选项最高只显示到 1080p ，但实际电脑端同一个视频是有 4k 分辨率的，有人遇到似的情况吗？我另一台小米的 s65 就能正常显示 4k 的选项。]]></summary>
+        <author>
+            <name>thee191410</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qi2 的苹果无线充电器能否当无线外接电池使用]]></title>
+        <id>https://www.v2ex.com/t/1108252</id>
+        <link href="https://www.v2ex.com/t/1108252"/>
+        <updated>2025-01-29T02:59:38.000Z</updated>
+        <summary type="html"><![CDATA[iamqk: 就是在使用电池的时候
+本身不会消耗 iphone 的本身的电池
+和 typec 外接电池一样做到 0 损耗 iphone 内部电池循环]]></summary>
+        <author>
+            <name>iamqk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[国内对账] 2025 新年你发了多少红包又收了多少红包。]]></title>
+        <id>https://www.v2ex.com/t/1108251</id>
+        <link href="https://www.v2ex.com/t/1108251"/>
+        <updated>2025-01-29T02:37:53.000Z</updated>
+        <summary type="html"><![CDATA[coderluan: 
+不介意的话，大家可以发一下城市和位置之类的信息，互相了解一下各地的习俗和经济水平。
+本人老家东北县城。往年会发 2000 左右的红包。但是今年是本命年，按当地说法，我会倒霉一整年，所以红包得反着来，今年红包得反正来。我说我可不信这个，给我的红包直接发微信红包，大家一起抢，看看我是不抢的最少的。最后抢了 400 多，用科技手段战胜了迷信，皆大欢喜。]]></summary>
+        <author>
+            <name>coderluan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[回复正常但是被降智了,openai 是什么煞笔操作啊]]></title>
+        <id>https://www.v2ex.com/t/1108250</id>
+        <link href="https://www.v2ex.com/t/1108250"/>
+        <updated>2025-01-29T02:24:12.000Z</updated>
+        <summary type="html"><![CDATA[466162659: 
+4o 上传图片,拿 o1 和 o1 mini 怎么搞]]></summary>
+        <author>
+            <name>466162659</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[描述自己的早期记忆（主要兴趣）]]></title>
+        <id>https://www.v2ex.com/t/1108249</id>
+        <link href="https://www.v2ex.com/t/1108249"/>
+        <updated>2025-01-29T02:19:00.000Z</updated>
+        <summary type="html"><![CDATA[LouisGuo: 
+与电视相关的记忆：
+小学一二年级，在同村发小 A 家看电视，周星驰的大话西游，忘记时间差点下午上学迟到，当时有一种已经有几节课没上的感觉，感觉自己旷课了，同学说还没上课呢
+小学三年级的时候，邻居家买了电视，那个时候产生把墙扒掉的幻想，产生新建一个互通的门的幻想（好去邻居家看电视）
+小学四五年级，晚上去同村发小 B 家及他奶奶家看电视  
+初中的时候，有个收音机，我在收音机上听了很多电台节目，相声，影视频道的电视剧。后来我妈发现我晚上不睡觉听收音机，把耳机给我没收了
+初中，从我大爷家把电视搬到了我家，看了大半夜的黑白星花电视剧，晚上不舍得睡
+初中，每天晚上吃吃完饭，我爸就消失不见。后来我也学着他去邻居大爷家看电视。有一次看完电视出来，在我大爷家院子里我爸跟我说，电视有啥意思呢，不都是人演的吗。我当时很诧异，因为他天天晚上跑别人家看电视。当时我没有说话
+初中跟我妈商量买电视的事，我妈不同意
+初中考了年级第四名，也没有实现电视梦，从此就断了买电视的念头
+初中，我姨家买了彩电  
+我堂哥家的彩电，他家平时没人在家，有次他跟我说要经常去他家打开电视看一看，不然电视长时间不开机会容易坏掉
+春节过年，都是早早吃完饭去侄子家看春晚，因为家里没电视  
+大学毕业，第一份工作半年后过年回家，给家里买了一台乐事的 40 寸电视]]></summary>
+        <author>
+            <name>LouisGuo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐！大家会进行赛博大扫除吗？]]></title>
+        <id>https://www.v2ex.com/t/1108248</id>
+        <link href="https://www.v2ex.com/t/1108248"/>
+        <updated>2025-01-29T01:57:29.000Z</updated>
+        <summary type="html"><![CDATA[8eacekeep: 
+比如新年重新整理下文件、书签、密码和本地知识库之类的东西。]]></summary>
+        <author>
+            <name>8eacekeep</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[春节期间虚拟产品有特价促销的吗？]]></title>
         <id>https://www.v2ex.com/t/1108246</id>
@@ -422,25 +590,6 @@ https://www.reddit.com/r/mac/comments/1h0xwn8]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[商业保险：购买原研药的最佳选择？]]></title>
-        <id>https://www.v2ex.com/t/1108218</id>
-        <link href="https://www.v2ex.com/t/1108218"/>
-        <updated>2025-01-28T11:27:24.000Z</updated>
-        <summary type="html"><![CDATA[nealot: 
-最近仿制药争议不断。
-对程序员群体来说，偶尔生个病 (非重疾)，配个几块钱、几十块钱的药，是没有必要像 JICAI 那样极致省钱的。
-拿着处方单去京东上买同成分的原研药，可以或多或少地减少副作用，增加疗效。
-但是这个操作有一个明显的问题：医院开的廉价仿制药变成了无效支出，还要另外付一笔原研药的钱。
-小毛病的支出，就算不多 (假设一年几百块钱)，但是长期累积下来仍然是一笔不小的钱。
-或许，买个合适的商业保险，是解决这个问题的最佳途径？
-保险天然具有杠杆属性。因为买保险的人，就是有一部分不生病。每月最大赔付 200 元的产品，很可能只需要每月支付 50 到 100 元。
-这样，就可以通过一个持续的小额支出，持续地享受到最佳质量的原研药。
-剩下的问题，就是如何选择一个赔付条款合适的商业保险了。]]></summary>
-        <author>
-            <name>nealot</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ansible 或 terraform 有没有方法获得刚创建的 ec2 实例的 public ip？]]></title>
         <id>https://www.v2ex.com/t/1108217</id>
         <link href="https://www.v2ex.com/t/1108217"/>
@@ -555,167 +704,6 @@ https://youtrack.jetbrains.com/issue/WEB-71396]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[YouTube 重度用户，回答一些分区经常看见的问题]]></title>
-        <id>https://www.v2ex.com/t/1108210</id>
-        <link href="https://www.v2ex.com/t/1108210"/>
-        <updated>2025-01-28T10:06:10.000Z</updated>
-        <summary type="html"><![CDATA[OceanWaves: 
-均为个人观点 欢迎大家讨论
-关于 YouTube 上的中文内容：不看，看中文内容我不会来这个平台，这个平台大量的优质内容（ podcast ）（ interview ）（ influencer ）（ lecture ）英文占绝大多数，中文内容键政居多，图一乐还可以
-老高与小茉：个人观点，这两个人讲故事能火是因为夫妻间的温情，故事本身不是重点 这里可以看 如何评价油管老高与小茉（原 kuaizero 老高频道）？
-关于 YouTube 算法：YouTube 算法是个黑盒，没人知道到底怎么运作的，但我们可以从中看出平台的意图，平台想的是最大化用户观看的时间，平台想让用户来 YouTube 观看内容，而不是从别的平台（ reddit/Facebook ）引流过来，平台也不想让 youtuber 的影响过大，所以在主页不会给你推荐你关注的博主，同样的原因 YouTube 的关注页没有分类功能，因为平台不想让你来只看某几个人的视频，YouTube 想让你享受这个平台整体 这里可以看 为什么 YouTube 算法永远都会是个谜 Why The YouTube Algorithm Will Always Be A Mystery 为什么我的视频火了？ My Video Went Viral. Here's Why YouTube 如何变现 This Video is Worth $13,568.99
-为什么没有弹幕功能？ 因为英语弹幕观感并不好，英语单词有长有短并不像汉字就方块字。还有文字信息熵的区别。参考为什么全世界只有中日两个国家弹幕视频网站成为流行？
-YouTube 的广告：YouTube 上边很多广告，原因也很简单，Video hosting 太费钱了。YouTube 上边有 Google Adsense ，还有 youtuber 接赞助商插入的视频广告，不同于国内抖音 b 站等平台，这部分广告 YouTube 是不抽成的，youtuber 还可以自己卖货（它们管这个叫 YouTube merch ）,youtube 也是不抽成的。
-如何屏蔽 YouTube 上的广告？ 如果是 web 端很简单，安装uBlock Origin即可屏蔽 Google Adsense ，或者订阅 YouTube Premium （低价区，家庭组等等）安装sponsorblock可跳过视频内的赞助商广告，（防喷我订阅 Premium ）
-Android 可以使用revanced
-如何在 YouTube 上找到自己喜欢的内容 我认为主要靠搜索，首先安装searchfixer for youtube 然后按自己需求打开其中的选项，然后搜索即可
-关于 Faceless channel 不漏脸的频道我首先会怀疑内容的质量，以及是不是念稿/ai 合成 对于我个人来说这是一个大大的 red flag
-YouTube 插件推荐 上边提过的我就不说了 DeArrow 替换视频封面 BlockTube 屏蔽 YouTube 频道 enhaced-h264ify 屏蔽 av1 ReturnYoutubeDislike unhook Remove Distractions
-目前就想到这么多 欢迎大家 提问/讨论/指正]]></summary>
-        <author>
-            <name>OceanWaves</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[闲蛋疼，启动王者荣耀]]></title>
-        <id>https://www.v2ex.com/t/1108209</id>
-        <link href="https://www.v2ex.com/t/1108209"/>
-        <updated>2025-01-28T10:00:10.000Z</updated>
-        <summary type="html"><![CDATA[justtokankan: 
-如题，并不少缺少年味，只是自己长大了而已]]></summary>
-        <author>
-            <name>justtokankan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[各位年夜饭都是什么啊]]></title>
-        <id>https://www.v2ex.com/t/1108208</id>
-        <link href="https://www.v2ex.com/t/1108208"/>
-        <updated>2025-01-28T09:35:09.000Z</updated>
-        <summary type="html"><![CDATA[SiLenceControL: 好奇大家的年夜饭好吃吗
-开心吗
-吃完撑吗]]></summary>
-        <author>
-            <name>SiLenceControL</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[交互式音乐教程增加新功能 [调音器] https://lightnote.com.cn/tuner]]></title>
-        <id>https://www.v2ex.com/t/1108207</id>
-        <link href="https://www.v2ex.com/t/1108207"/>
-        <updated>2025-01-28T09:22:51.000Z</updated>
-        <summary type="html"><![CDATA[hbomb: 
-交互式音乐教程增加新功能 [调音器] https://lightnote.com.cn/tuner
-如果在学习乐器的大哥们，可以试试调音，识别音准。需要的自取.]]></summary>
-        <author>
-            <name>hbomb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ios 一个严重 bug]]></title>
-        <id>https://www.v2ex.com/t/1108205</id>
-        <link href="https://www.v2ex.com/t/1108205"/>
-        <updated>2025-01-28T08:52:39.000Z</updated>
-        <summary type="html"><![CDATA[razios: 两台 iphone 手机登录同一个 apple id ，一台复制，有时另外一台有时会弹出“粘贴自“XX”的 iphone” 然后这个弹出只有一个取消选项，但是怎么点都退不出，而且显示在最顶层。按关机打算重启，发现还在锁屏界面顶层，无法滑动关机。最后只能耗电，自动关机才行。
-有这么严重的 bug ，靠…郁闷了半天只能干等]]></summary>
-        <author>
-            <name>razios</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS 18.3 仍然没有修复后台任务卡片色彩过饱和的问题]]></title>
-        <id>https://www.v2ex.com/t/1108204</id>
-        <link href="https://www.v2ex.com/t/1108204"/>
-        <updated>2025-01-28T08:47:52.000Z</updated>
-        <summary type="html"><![CDATA[ZRS: https://v2ex.com/t/1091359]]></summary>
-        <author>
-            <name>ZRS</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[车辆被撞]]></title>
-        <id>https://www.v2ex.com/t/1108203</id>
-        <link href="https://www.v2ex.com/t/1108203"/>
-        <updated>2025-01-28T08:29:48.000Z</updated>
-        <summary type="html"><![CDATA[KingZZZZ: 
-车辆被撞，对方全责，各位 v 友，有要成功折旧费、交通费的吗？]]></summary>
-        <author>
-            <name>KingZZZZ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一款免费、开源的在线背景图生成器，请各位帮我在 ProductHunt 上面投一票！]]></title>
-        <id>https://www.v2ex.com/t/1108202</id>
-        <link href="https://www.v2ex.com/t/1108202"/>
-        <updated>2025-01-28T08:29:24.000Z</updated>
-        <summary type="html"><![CDATA[fangyex: 
-https://www.color4bg.com 这是一款在线的背景图片生成器，基于 Webgl ，能够生成各种好看的背景图，让你的网页或者文稿项目不再为背景发愁
-现在产品登录了 ProductHunt ，请帮我投一票，感激不尽！！
-传送： https://www.producthunt.com/posts/color4bg]]></summary>
-        <author>
-            <name>fangyex</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI 新闻站点]]></title>
-        <id>https://www.v2ex.com/t/1108201</id>
-        <link href="https://www.v2ex.com/t/1108201"/>
-        <updated>2025-01-28T08:27:44.000Z</updated>
-        <summary type="html"><![CDATA[iamyxl: 
-几个常看的站点
-https://www.artificial-intelligence.blog/
-https://ailongtail.com/
-https://www.theaiblog.net/]]></summary>
-        <author>
-            <name>iamyxl</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我现在为什么讨厌 Bitget（重发）]]></title>
-        <id>https://www.v2ex.com/t/1108199</id>
-        <link href="https://www.v2ex.com/t/1108199"/>
-        <updated>2025-01-28T08:09:55.000Z</updated>
-        <summary type="html"><![CDATA[fwqaaq: 
-之前写这篇文章的账号被平台删除了，不知道为什么？用小号重新发一下
-先说我去年的时候刚接触 Bitget 吧。相信很多新人第一次和我一样，使用的都是币安，然后在推特上看到了 Bitget 的大量广告以及公关活动，才选择了 Bitget 。我当时也是这样，看到了大量 Bitget 的客服对用户服务周到，不遗余力换回用户损失的资金，然后正巧想买 kaspa ，就选择了 Bitget ，并且将 Bitget 作为自己的首选交易所。
-先说结论：我被推特上无底限的 Bitget 广告给骗了，它们同样是为了赚钱，并不会为了用户利益而服务，有的只是对用户的搪塞。
-事情的起因
-去年的时候我在 Bitget 上充错了一笔跨链桥的 USDC ，当我意识到这点的时候，我立刻联系了 Bitget 的客服，希望他们能够帮我找回这笔资金。我当时心存侥幸，像 Bitget 这么大的交易所肯定会帮助用户挽回损失，并且他们掌握了地址的私钥，他们可以帮助用户找回这笔资金，当然我想错了。
-
-
-
-正如你在图片中看到的那样，Bitget 的客服并不想也不乐于帮我找回转错的资产，他更像是一个 Bitget 的 NPC ，只会重复：“我懒得帮你找”。对啊，这种事情又不是他们的责任，他们只是一个交易所，他们不会为了用户的利益而服务，他们只会为了自己的利益而服务。而且这种跨链的资产怎么可能上交易所呢？而且为什么要等到它上交易所才能退回呢？对，一切都是他们说得准，他们无条件服务顾客也真的是无条件。（顾客的问题，关我交易所什么事呢？）
-事情的发展
-币圈是个黑暗森林，永远不要相信推特上某些 KOL 的话，他们为了所谓的推广费而不择手段，不考虑他人，只是为了吃别人的人血馒头。
-当我看到推特上漫天的 KOL 推广 Bitget 的  debit card 的时候，我就想起了拼多多的砍一刀和华为的遥遥领先。侧重避轻的宣传只会让用户感到恶心和反感：
-让我们来揭秘一下这个 Bitget 的 debit card 吧，让你如何吃屎也吃的很开心，所以我不得不佩服 Bitget 的营销手段，这种营销手段真的是无底线。
-先来看一下，Bitget 宣传的“优享支付卡“到底有多优享吧。
-
-了不起，Bitget 竟然还能绑定这么多东西，还能在境外消费，费率最优是多优呢？想想看，你使用 USDC 的等价币在 coinbase 出金 1:1 没有任何手续费的时候，它还要给你兑换成 SGD 之后可能还要再转成其它货币再给你使用，连费率具体数字都不给你，这种所谓的“优享支付卡”真的是太优享了。然后你存个 3w 美元才能开户，这种所谓的“优享支付卡”真的是太亲民啦，一点没有把用户当外人。
-不如我们直接来看 Chase 的开户奖励吧，你可以直接 dd 获得 300 美元，然后存入 15000 美元 90 天获得 200 美元，同时做到再奖励 400 美元，相比要 3w 美元才能开户的 Bitget ，Chase 的奖励真的是太“搞笑”了是吧？毕竟 Bitget 才是真正的“优享支付卡”。
-当然漫天的推广文案我只选择了官方的，毕竟官方的下限还是高一点，如果你感兴趣，可以搜索一下推特上的 KOL 推广文案，你会发现这种营销手段真的是无底线。
-正如我所遇到的，他们把大量的金钱都用到营销上了，就像华为和苹果的售后比，Bitget 的售后就是依托答辩可以这么说。
-最后
-当我发这个贴子的时候，我不知道会有多少人看，多少水军喷我，但我只想告诉一些新人，不要相信币圈任何想带你赚钱的话，他们只是想割你，将你的加密货币提到你的硬件钱包吧，不要相信任何人，只有你自己才是最可靠的。
-如果你说 Chase 是美卡开不了，是因为 Chase 并没有像 Bitget 一样无所不用其集的营销，你可以申请 ITIN 开户也可也直接在美国使用护照开户，当你在简中大看到大量的推广文案的时候，你就应该警惕了，因为他们只是想割你，不会为了你的利益而服务。]]></summary>
-        <author>
-            <name>fwqaaq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[给老年人用的 iOS 第三方美颜相机，求推荐]]></title>
-        <id>https://www.v2ex.com/t/1108198</id>
-        <link href="https://www.v2ex.com/t/1108198"/>
-        <updated>2025-01-28T08:01:31.000Z</updated>
-        <summary type="html"><![CDATA[lgapple: 妈妈之前用的是小米手机，总之不算省心。
-去年给她换了 iPhone15pro ，然后总是被她和她的朋友们嫌弃拍的不好看。
-帮忙推荐一下适合老年人傻瓜化的美颜相机。
-以上，谢谢！]]></summary>
-        <author>
-            <name>lgapple</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -781,6 +769,37 @@ Positioning Text Around Elements With CSS Offset originally published on CSS-Tri
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 335 期）：年底的未来已来]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-335.html"/>
+        <updated>2025-01-24T00:06:14.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。（[通知] 下周春节假期，周刊休息。）
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+香港历史建筑"和昌大押"，布置了一条盘旋两层楼的金蛇，迎接蛇年。（via）
+年底的未来已来
+大概两周前，我就在想，龙年的最后一期周刊，要写什么？
+正好这一个月，有很多新发明、新技术发布。我想到，可以把它们放在一起，作为下一年的展望。
+编辑过程中，它们勾起了我的一点回忆。
+十年前，我接了一个活，为北京的一家杂志写文章，向普通读者介绍技术的新进展，以此赚一点稿费。写久了，我就有一个感觉，技术进展太快了，快于所有人的预期。我明明写的是真实事件，但是很多时候像在写科幻小说。
+就是在那个时候，我开始意识到，那句有名的话是千真万确："未来已来，只是尚未流行"。那些我们觉得很遥远、很科幻的事情，其实已经是活生生的现实，很快就会强烈地、不可避免地影响每个人的生活，可能是好的影响，也可能是不好的影响（技能过时了，行业消失了）。
+2017年，我把那些文章结集，起了一个书名《未来世界的幸存者》，表达我的这种想法，希望读者对即将到来的时代变革有所准备。
+十年后的今天，世界仿佛全然不同，我发现自己还在做同样的事情，还在介绍那些像科幻小说一样的真实技术。不同的是，我已经很明白了，为未来做准备，就是在为现在做准备，做一个未来世界的幸存者，就是做一个今日世界的幸存者。
+科技动态
+1、AI 陪护
+新加坡最近世界首个将 AI 引入了养老院，用来陪护老人。
+
+这个 AI 是一个女护士的样子，每天早上带领老人做早操、玩游戏、唱歌。
+她承担不了具体的医疗照护工作（比如喂饭打针），但是可以一天24小时，跟老人互动聊天，减少孤独感。
+
+她还会按时提醒老人吃药，一旦侦测到老人有异常，立刻发出警报。
+这是一…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Some Things You Might Not Know About Custom Counter Styles]]></title>
         <id>https://css-tricks.com/?p=383776</id>
         <link href="https://css-tricks.com/some-things-you-might-not-know-about-custom-counter-styles/"/>
@@ -829,6 +848,83 @@ Fancy Menu Navigation Using Anchor Positioning originally published on CSS-Trick
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 334 期）：年终笔记四则]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-334.html"/>
+        <updated>2025-01-17T00:17:52.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+武汉光谷是今年春节晚会的分会场，将表演灯光秀，非常有科幻感。（via）
+年终笔记四则
+下面是过去的笔记，我读到有意思的文章时，记录下来的感想，每一则都不长。
+前几天翻阅，觉得可以放在一起，重新发布，今天先发四则。
+一、工作也有利息
+银行存款有利息，存得越久，利息越多。
+工作也是一样，也有利息。如果今年的工作可以节省明年或未来的工作时间，就是一份有利息的工作。
+
+工作有利息，意味着你未来的工作时间会变少，多出来的时间，就可以去做别的事情，创造更多的价值。
+这提示我们：
+（1）不要轻易更换工作领域，否则以前积累的利息就作废了。只有在同一个工作领域，才可能产生长期积累，以前的工作为以后打基础，最终产生巨大的利息。
+（2）在职业生涯的早期，积累效果最好，最容易产生复利。开始积累越晚，产生复利就越少。
+（3）有些劳动没有积累效果，不会产生利息，比如重复性的机械劳动（快递、咖啡店员、门卫......），你明年还是要重复做这些事情。
+（4）最好的人生策略就是，找到你深感兴趣、可以长期做下去的领域，在上面投入大量的工作时间（包括质量和数量），然后随着年龄增长，享受以前工作的复利。
+二、巴菲特的选人标准
+巴菲特说，他考察候选人，就看三个"i"。
+
+integrity（正直）
+intelligence（智慧）
+initiative（主动）
+这三个"i"当中，"主动"最重要。"正直"和"智慧"的人到处都是，但如果不主动，不是自己想去做些什么，就什么也不会发生。
+三、快乐机
+1974年，一个美国哲学家提出一个假设，如果世界上有"快乐机"，只要插上电源，就能带来源源不断的快乐，并且无法分辨，这种机器快乐与现实世界的快乐有…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI 搞定微信小程序]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/tencent-cloud-copilot.html"/>
+        <updated>2025-01-16T00:23:18.000Z</updated>
+        <summary type="html"><![CDATA[一、前言
+AI 生成代码，早不是新鲜事了，但是 AI 生成微信小程序，似乎还不多见。
+
+究其原因，大概是小程序的开源项目较少，模型训练不好搞。
+上周，我遇到腾讯的同学，得知"腾讯云开发"最近有一个大的版本更新，大幅加强了小程序的 AI 能力。我还挺期待的，腾讯自己搞小程序 AI，要比其他人更合适。
+后来，我试用了本次更新的 AI 功能，有一个强烈的感觉，微信小程序可能很快就会成为国内 AI 应用（又称"智能体"）的主要载体。
+因为本次更新以后，小程序调用 AI 模型，以及生成智能体，变得非常方便。并且，小程序从 API 到开发工具，都把 AI 整合进去了，整个开发过程都有 AI 辅助，不仅开发效率提高了，而且大量代码可以通过 AI 生成。
+下面就是我的试用过程的介绍和记录。这些功能都是公开的，大部分已经上线，剩下的也即将发布，大家现在就可以跟着做，体验 AI 生成小程序。
+二、云开发助手：进入方法
+我的第一步是体验小程序的"云开发助手"（又称云开发 Copilot）。它的作用是通过 AI 加快小程序的开发。
+它的全功能版，目前要通过"腾讯云开发平台"网站使用。
+
+此外，还有一个游客版的小程序，可以体验部分功能。如果你手边只有手机，可以先试试游客版。
+
+手机上，点击"从 AI 开始探索云开发"，就能进入。
+
+手机版看一下就可以了，正式的开发还是要使用网站。本文下面的内容，都是基于网站的全功能版。
+首先，登录"云开发平台"后，页面右下角就会出现小助手图标。
+
+点击它，就能打开"云开发助手"。
+
+它的右上角有一个"全屏"图标（下图）。
+
+点击进入完整界面。
+
+三、云开发助手：文档功能
+"云开发助手"的主要功能如下图。
+
+这些功能可以分成两大类，一类是文档相关的功能，另一类是代码生成。
+先看看文档功能。
+（1）Copilot
+这个功能是 AI 问答引擎，任何关于小程序的问题，都可以…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Web-Slinger.css: Across the Swiper-Verse]]></title>
         <id>https://css-tricks.com/?p=383533</id>
         <link href="https://css-tricks.com/web-slinger-css-across-the-swiper-verse/"/>
@@ -870,6 +966,34 @@ How to Wait for the sibling-count() and sibling-index() Functions originally pub
         <summary type="html"><![CDATA[封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。]]></summary>
         <author>
             <name>潮流周刊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 333 期）：一切都要支付两次]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html"/>
+        <updated>2025-01-10T00:14:37.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+42层的深圳金融科技研究院大楼，去年6月封顶了，采用了不规则外形的设计。（via）
+一切都要支付两次
+有一句古语"书非借不能读也"，大家可能都听过。
+它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。
+
+这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。
+我最近看到一篇老外的文章，他给这种现象起了一个全新的名字，让人觉得很贴切。老外的概念化能力真是强。
+他提出，人们买书却不读，是因为没有意识到每样东西都需要两次支付。
+
+第一次是货币支付，你付出货币，得到自己想要的东西，比如一本书，一个 App，一辆自行车，一颗卷心菜等等。
+但是，你还必须支付第二次，才能真正消费这个东西。这次你付出的是你的时间和努力，来获得它的收益。
+第二次支付可能比第一次支付贵得多。假设一本书的第一次支付是20元，第二次支付可能就是10小时的阅读时间。只有支付第二次，你才算真正消费了这本书。如果没有第二次支付，第一次支付就意义不大了，跟把钱扔进垃圾箱差不多。
+生活中，到处都是两次支付的例子。购买 App 后，你必须学习如何使用，并且经常使用，才能得到它的价值。购买自行车后，你必须忍受痛苦的初学者阶段，然后才能上街骑行。购买蔬菜后，必须切碎、蒸熟并咀嚼，然后才能为你提供营养。
+我们经常犯的一个错误，就是只完成了第一次支付，没有第二次支付，比如未使用的会员资格，未读的书籍，未玩的游戏，未编织的毛线。由于没有第二次支付，所以你并没有真正使用，第一次支付的钱实际上扔进了垃圾桶。
+这种行为方式的深层次原因，就是现代社会太强调消费，过于看重第一次支付的经济价…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
         </author>
     </entry>
     <entry>
@@ -948,14 +1072,36 @@ https://bwh81.net/aff.php?aff=47294&pid=153
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Thank You (2024 Edition)]]></title>
-        <id>https://css-tricks.com/?p=383295</id>
-        <link href="https://css-tricks.com/thank-you-2024-edition/"/>
-        <updated>2024-12-30T16:15:37.000Z</updated>
-        <summary type="html"><![CDATA[I'm more thankful this time around because, last year, I didn't even get to write this post. But now that I'm back, writing this feels so, so, so good. There's a lot more gusto going into my writing when I say: thank you so very much! Let's tie a bow on this year and round up what happened around here in 2024.
-Thank You (2024 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <title type="html"><![CDATA[科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html"/>
+        <updated>2025-01-03T01:10:55.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+世界最长的高速公路隧道"天山胜利隧道"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）
+西蒙·威利森的年终总结，梁文锋的访谈
+英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。
+
+本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。
+
+他提到，AI 的发展速度快得难以想象。
+一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。
+
+一年过去了，大家猜猜，GPT-4 现在排名多少？
+
+答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。
+短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。
+西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。
+
+DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。
+它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。
+
+而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。
+西蒙·威利斯说："DeepSeek V3 的训练…]]></summary>
         <author>
-            <name>Geoff Graham</name>
+            <name>阮一峰的网络日志</name>
         </author>
     </entry>
 </feed>
