@@ -1,83 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-29T17:09:46.812Z</id>
+    <id>urn:2025-01-29T18:14:47.072Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-29T17:09:46.812Z</updated>
+    <updated>2025-01-29T18:14:47.072Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[VMware Unity 替代品求推荐！]]></title>
-        <id>https://www.v2ex.com/t/1108301</id>
-        <link href="https://www.v2ex.com/t/1108301"/>
-        <updated>2025-01-29T16:11:57.000Z</updated>
-        <summary type="html"><![CDATA[Leon6868: 
-如题，请问有哪些软件能实现类似 Unity 模式，将虚拟机中窗口透传到桌面的功能呢？]]></summary>
-        <author>
-            <name>Leon6868</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有打算转用“中介 API”了，想问一些问题...]]></title>
-        <id>https://www.v2ex.com/t/1108300</id>
-        <link href="https://www.v2ex.com/t/1108300"/>
-        <updated>2025-01-29T16:02:15.000Z</updated>
-        <summary type="html"><![CDATA[qazwsxkevin: 
-不知道”中介 API“这种说法是否准确，
-他们会使用假模型吗，比如自己搭建的回应你？（在已经选择了指定的模型情况下)
-会使用次级的模型回应你吗？ 而 token 扣费使用高级模型的费用？
-他们的 API 接口，在国区，能不走梯就能使用吗？ 如果可以，打算也给哪些没办法维护梯子亲戚用，也省事]]></summary>
-        <author>
-            <name>qazwsxkevin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[地图导航很难做吗？ OPPO 旗舰机都做不好]]></title>
-        <id>https://www.v2ex.com/t/1108296</id>
-        <link href="https://www.v2ex.com/t/1108296"/>
-        <updated>2025-01-29T15:04:47.000Z</updated>
-        <summary type="html"><![CDATA[701dota2019: 
-手持 find x8 ，导航定位有问题，漂或者提示定位失败，小绿书上也不少人反馈有此问题。。。]]></summary>
-        <author>
-            <name>701dota2019</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[单从 app 流畅度来说， pdd 吊打 tb、jd]]></title>
-        <id>https://www.v2ex.com/t/1108295</id>
-        <link href="https://www.v2ex.com/t/1108295"/>
-        <updated>2025-01-29T14:59:26.000Z</updated>
-        <summary type="html"><![CDATA[dsg001: 
-pdd 也集成了游戏果园这些乱七八糟的玩意儿，还有臭名昭著的砍一刀
-几年前的中端机，运行最新版 pdd ，下单流畅，完全不卡
-猫狗两家的的旧版都卡的不行，太影响下单体验了]]></summary>
-        <author>
-            <name>dsg001</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[临近毕业的开发程序员如何提升自己？]]></title>
-        <id>https://www.v2ex.com/t/1108294</id>
-        <link href="https://www.v2ex.com/t/1108294"/>
-        <updated>2025-01-29T14:52:51.000Z</updated>
-        <summary type="html"><![CDATA[buynonsense: 
-op 是今年 6 月双非本毕业，目前刚入一家初创公司实习一个月。做的很普通的运维工作（是那种现场运维更像管理机器是否正常的保安？）感觉完全不能学到技能，倒是对职场人际方面有了点适应。
-我想做开发，此前学习的最多的是 Java ＋ vue 。学的不精通。并且 Java 太卷，所以重新开始学其他的语言也可以。提升的自己的话直接上手做项目是成长最快的。但是该如何有做项目的机会呢？（补充：不是为了学习而学习的那种网上千篇一律的课程项目，而是希望根据真实需求一点一点完善一个项目的体验）]]></summary>
-        <author>
-            <name>buynonsense</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome Canary 感觉比稳定版丝滑]]></title>
-        <id>https://www.v2ex.com/t/1108292</id>
-        <link href="https://www.v2ex.com/t/1108292"/>
-        <updated>2025-01-29T14:34:38.000Z</updated>
-        <summary type="html"><![CDATA[cj323: 
-最近 Macbook 上的 Chrome 老是莫名登出，无奈尝试换浏览器。试了一圈发现 Chrome Canary 表现有明显上升，不知道是不是我的幻觉？
-另外感慨一下谷歌在 Web 的垄断。近两年其他浏览器体验已经明显跟不上 Chrome 了- Firefox 系列会有指纹登陆等小问题，Safari 复杂页面和插件不行，总体流畅度也都差谷歌一截。]]></summary>
-        <author>
-            <name>cj323</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[What on Earth is the `types` Descriptor in View Transitions?]]></title>
         <id>https://css-tricks.com/?p=383818</id>
@@ -90,30 +17,13 @@ What on Earth is the `types` Descriptor in View Transitions? originally publis
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[发现一个开源的在线钢琴项目]]></title>
-        <id>https://www.v2ex.com/t/1108291</id>
-        <link href="https://www.v2ex.com/t/1108291"/>
-        <updated>2025-01-29T14:06:35.000Z</updated>
-        <summary type="html"><![CDATA[yandong9713: 
-发现一个开源的在线钢琴项目 pianoonline.cc
-最近在给孩子找钢琴启蒙工具，偶然发现了这个项目。
-Tech Stack:
-前端：原生 JS + Web Audio API
-采样：真实钢琴采样
-键盘映射：支持全键盘模拟钢琴按键
-Features:
-完全开源，无广告
-支持键盘按键提示
-内置基础曲目练习
-支持录音回放
-响应式设计，移动端也能用
-实际体验：
-用了一个多月，主要用来辅助孩子练琴。键盘按键提示对初学者很友好，采样的音色也不错。最近作者还加了教程模块，对新手很有帮助。
-项目应该是某位开发者给自己孩子做的，代码挺干净的，有兴趣的可以去 GitHub 看看。
-https://github.com/yandong2023/piano-online
-希望对同样有孩子在学琴的 V 友有帮助。]]></summary>
+        <title type="html"><![CDATA[为什么 V2EX 无法访问了?]]></title>
+        <id>https://www.v2ex.com/t/1108290</id>
+        <link href="https://www.v2ex.com/t/1108290"/>
+        <updated>2025-01-29T13:24:21.000Z</updated>
+        <summary type="html"><![CDATA[angelinamott3772: 这什么破社区,连他吗网费都交不起.]]></summary>
         <author>
-            <name>yandong9713</name>
+            <name>angelinamott3772</name>
         </author>
     </entry>
     <entry>
@@ -148,6 +58,16 @@ https://github.com/yandong2023/piano-online
 谢谢。]]></summary>
         <author>
             <name>gegeligegeligo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[站长你是傻的吧？？]]></title>
+        <id>https://www.v2ex.com/t/1108285</id>
+        <link href="https://www.v2ex.com/t/1108285"/>
+        <updated>2025-01-29T11:56:03.000Z</updated>
+        <summary type="html"><![CDATA[HiCode:]]></summary>
+        <author>
+            <name>HiCode</name>
         </author>
     </entry>
     <entry>
@@ -369,6 +289,16 @@ https://painting.chaohua.me/
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[看来 openai 是铁了心要搞中国用户了,我前天开了一张空号,然后被降智后,申请退款直接退款了.]]></title>
+        <id>https://www.v2ex.com/t/1108268</id>
+        <link href="https://www.v2ex.com/t/1108268"/>
+        <updated>2025-01-29T07:35:00.000Z</updated>
+        <summary type="html"><![CDATA[angelinamott3772:]]></summary>
+        <author>
+            <name>angelinamott3772</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[求问大家推荐对 DeepSeek R1 这类 thinking 模型支持较好的 webUI，希望看到思考过程]]></title>
         <id>https://www.v2ex.com/t/1108267</id>
         <link href="https://www.v2ex.com/t/1108267"/>
@@ -571,6 +501,156 @@ Android 版本： https://play.google.com/store/apps/details?id=com.keras.keras_
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[国内对账] 2025 新年你发了多少红包又收了多少红包。]]></title>
+        <id>https://www.v2ex.com/t/1108251</id>
+        <link href="https://www.v2ex.com/t/1108251"/>
+        <updated>2025-01-29T02:37:53.000Z</updated>
+        <summary type="html"><![CDATA[coderluan: 
+不介意的话，大家可以发一下城市和位置之类的信息，互相了解一下各地的习俗和经济水平。
+本人老家东北县城。往年会发 2000 左右的红包。但是今年是本命年，按当地说法，我会倒霉一整年，所以红包得反着来，今年红包得反正来。我说我可不信这个，给我的红包直接发微信红包，大家一起抢，看看我是不抢的最少的。最后抢了 400 多，用科技手段战胜了迷信，皆大欢喜。]]></summary>
+        <author>
+            <name>coderluan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[回复正常但是被降智了,openai 是什么煞笔操作啊]]></title>
+        <id>https://www.v2ex.com/t/1108250</id>
+        <link href="https://www.v2ex.com/t/1108250"/>
+        <updated>2025-01-29T02:24:12.000Z</updated>
+        <summary type="html"><![CDATA[466162659: 
+4o 上传图片,拿 o1 和 o1 mini 怎么搞]]></summary>
+        <author>
+            <name>466162659</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[描述自己的早期记忆（主要兴趣）]]></title>
+        <id>https://www.v2ex.com/t/1108249</id>
+        <link href="https://www.v2ex.com/t/1108249"/>
+        <updated>2025-01-29T02:19:00.000Z</updated>
+        <summary type="html"><![CDATA[LouisGuo: 
+与电视相关的记忆：
+小学一二年级，在同村发小 A 家看电视，周星驰的大话西游，忘记时间差点下午上学迟到，当时有一种已经有几节课没上的感觉，感觉自己旷课了，同学说还没上课呢
+小学三年级的时候，邻居家买了电视，那个时候产生把墙扒掉的幻想，产生新建一个互通的门的幻想（好去邻居家看电视）
+小学四五年级，晚上去同村发小 B 家及他奶奶家看电视  
+初中的时候，有个收音机，我在收音机上听了很多电台节目，相声，影视频道的电视剧。后来我妈发现我晚上不睡觉听收音机，把耳机给我没收了
+初中，从我大爷家把电视搬到了我家，看了大半夜的黑白星花电视剧，晚上不舍得睡
+初中，每天晚上吃吃完饭，我爸就消失不见。后来我也学着他去邻居大爷家看电视。有一次看完电视出来，在我大爷家院子里我爸跟我说，电视有啥意思呢，不都是人演的吗。我当时很诧异，因为他天天晚上跑别人家看电视。当时我没有说话
+初中跟我妈商量买电视的事，我妈不同意
+初中考了年级第四名，也没有实现电视梦，从此就断了买电视的念头
+初中，我姨家买了彩电  
+我堂哥家的彩电，他家平时没人在家，有次他跟我说要经常去他家打开电视看一看，不然电视长时间不开机会容易坏掉
+春节过年，都是早早吃完饭去侄子家看春晚，因为家里没电视  
+大学毕业，第一份工作半年后过年回家，给家里买了一台乐事的 40 寸电视]]></summary>
+        <author>
+            <name>LouisGuo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年快乐！大家会进行赛博大扫除吗？]]></title>
+        <id>https://www.v2ex.com/t/1108248</id>
+        <link href="https://www.v2ex.com/t/1108248"/>
+        <updated>2025-01-29T01:57:29.000Z</updated>
+        <summary type="html"><![CDATA[8eacekeep: 
+比如新年重新整理下文件、书签、密码和本地知识库之类的东西。]]></summary>
+        <author>
+            <name>8eacekeep</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[春节期间虚拟产品有特价促销的吗？]]></title>
+        <id>https://www.v2ex.com/t/1108246</id>
+        <link href="https://www.v2ex.com/t/1108246"/>
+        <updated>2025-01-29T00:42:53.000Z</updated>
+        <summary type="html"><![CDATA[szsgz: 春节期间虚拟产品有特价促销的吗？
+软件，订阅，服务之类的，求推荐！]]></summary>
+        <author>
+            <name>szsgz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[买大内存 MacBook 的一个意外好处——私人 AI 服务器]]></title>
+        <id>https://www.v2ex.com/t/1108245</id>
+        <link href="https://www.v2ex.com/t/1108245"/>
+        <updated>2025-01-28T23:36:40.000Z</updated>
+        <summary type="html"><![CDATA[privater: MacBook Pro M1 Max 64G 可以跑 DeepSeek R1 的大模型当 AI 服务器，当年想都没想过还有这个用途。
+
+之前本机跑 Llama 3 性能并不好，能力不如大部分收费的模型，但是如今有了 DeepSeek ，一下就山鸡变凤凰，相当于本地跑个 Chatgpt o4 mini 的水平，这就很够用了。
+当然 70B 模型虽然能跑动，回答速度是比较慢的，目测大概 3 tokens/s ，只能用来问适合思考的问题，例如我问了个黑洞视线的问题，花了大约 2 分钟才输出完毕。但是如果降低点要求用 32B 模型，输出能快到 15 tokens/s ，基本和线上服务相似，就非常可用了：]]></summary>
+        <author>
+            <name>privater</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NB 的 V 油们！]]></title>
+        <id>https://www.v2ex.com/t/1108244</id>
+        <link href="https://www.v2ex.com/t/1108244"/>
+        <updated>2025-01-28T23:21:13.000Z</updated>
+        <summary type="html"><![CDATA[mhj144007: 
+Happy New Year ！]]></summary>
+        <author>
+            <name>mhj144007</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国洛杉矶 vps 万兆 4837|9929+CMIN2|CN2GIA 月付全场 8.5 永久折扣！]]></title>
+        <id>https://www.v2ex.com/t/1108243</id>
+        <link href="https://www.v2ex.com/t/1108243"/>
+        <updated>2025-01-28T22:57:04.000Z</updated>
+        <summary type="html"><![CDATA[Dotdotnetworks: 
+Dotdotnetworks 美国洛杉矶 2025 新年特惠！
+月付 vps 全场 8.5 折永久折扣！（不含多 IP 站群型）
+折扣码：LX6MAN5N3G
+折扣码截止日期：2025/2/12
+美国洛杉矶 vps-中国精品 CUVIP+CMIN2
+LookingGlass： http://45.221.99.2:8800/
+AMD EPYC 8 核/6G DDR4/50G NVME SSD/300M/4T 流量 折后 16.9USD/月
+AMD EPYC 10 核/8G DDR4/60G NVME SSD/300M/6T 流量 折后 25.4USD/月
+更多配置参见以下链接
+购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vpscn2gia
+美国洛杉矶 vps-中国联通 CU4837
+LookingGlass： http://156.225.92.126:8800/
+AMD EPYC 6 核/4G DDR4/30G NVME SSD/10G/4T 流量 折后 8.4USD/月
+AMD EPYC 8 核/6G DDR4/40G NVME SSD/10G/6T 流量 折后 12.6USD/月
+更多配置参见以下链接
+购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-chao-ji-fu-wu-qi-da-kuan-dai-xian-liu-xing
+美国洛杉矶 vps-中国电信 CN2 GIA
+LookingGlass： http://103.141.1.156:8800/
+AMD EPYC 4 核/2G DDR4/30G NVME SSD/50M/1T 流量  折后 6.7USD/月
+AMD EPYC 6 核/4G DDR4/40G NVME SSD/50M/2T 流量  折后 13.5USD/月
+更多配置参见以下链接
+购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-ji-qun-fu-wu-qi
+美国洛杉矶 vps-中国精品高防清洗-高速 DDOS 清洗，精品回国路由！
+LookingGlass： http://45.203.215.2:8800/
+AMD EPYC 4 核/2G DDR4/50G NVME SSD/20M/不限流量/30G 防御   折后 76.4USD/月
+AMD EPYC 8 核/6G DDR4/80G NVME SSD/30M/不限流量/50G 防御   折后 127.4USD/月
+更多配置参见以下链接
+购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vps
+美国洛杉矶 vps-国际 BGP
+LookingGlass： http://103.119.15.130:8800/
+AMD EPYC 2 核/1G DDR4/20G NVME SSD/1G/2T 流量  折后 2.4USD/月
+AMD EPYC 4 核/2G DDR4/30G NVME SSD/3G/4T 流量  折后 6.7USD/月
+更多配置参见以下链接
+购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vpsbgp
+关注 Telegram 官方频道，获取最新优惠信息： https://t.me/dotdotnetworks
+Telegram：@server901
+Skype：live:.cid.ff71d25b259c3b0f
+Email： host@dotdotnetworks.com]]></summary>
+        <author>
+            <name>Dotdotnetworks</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Intelligent 是不是可以直接找 deepseek 谈合作了]]></title>
+        <id>https://www.v2ex.com/t/1108241</id>
+        <link href="https://www.v2ex.com/t/1108241"/>
+        <updated>2025-01-28T18:53:10.000Z</updated>
+        <summary type="html"><![CDATA[moudy: 开源模型，效果好，负载低，无利益冲突]]></summary>
+        <author>
+            <name>moudy</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -579,6 +659,33 @@ Android 版本： https://play.google.com/store/apps/details?id=com.keras.keras_
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>

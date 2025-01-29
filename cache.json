@@ -129,12 +129,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -158,6 +152,23 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -297,73 +308,13 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1108301",
-          "author": "Leon6868",
-          "description": "Leon6868: \n如题，请问有哪些软件能实现类似 Unity 模式，将虚拟机中窗口透传到桌面的功能呢？",
-          "link": "https://www.v2ex.com/t/1108301",
-          "publishedOn": "2025-01-29T16:11:57.000Z",
-          "wordCount": 369,
-          "title": "VMware Unity 替代品求推荐！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108300",
-          "author": "qazwsxkevin",
-          "description": "qazwsxkevin: \n不知道”中介 API“这种说法是否准确，\n他们会使用假模型吗，比如自己搭建的回应你？（在已经选择了指定的模型情况下)\n会使用次级的模型回应你吗？ 而 token 扣费使用高级模型的费用？\n他们的 API 接口，在国区，能不走梯就能使用吗？ 如果可以，打算也给哪些没办法维护梯子亲戚用，也省事",
-          "link": "https://www.v2ex.com/t/1108300",
-          "publishedOn": "2025-01-29T16:02:15.000Z",
-          "wordCount": 383,
-          "title": "有打算转用“中介 API”了，想问一些问题...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108296",
-          "author": "701dota2019",
-          "description": "701dota2019: \n手持 find x8 ，导航定位有问题，漂或者提示定位失败，小绿书上也不少人反馈有此问题。。。",
-          "link": "https://www.v2ex.com/t/1108296",
-          "publishedOn": "2025-01-29T15:04:47.000Z",
-          "wordCount": 361,
-          "title": "地图导航很难做吗？ OPPO 旗舰机都做不好",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108295",
-          "author": "dsg001",
-          "description": "dsg001: \npdd 也集成了游戏果园这些乱七八糟的玩意儿，还有臭名昭著的砍一刀\n几年前的中端机，运行最新版 pdd ，下单流畅，完全不卡\n猫狗两家的的旧版都卡的不行，太影响下单体验了",
-          "link": "https://www.v2ex.com/t/1108295",
-          "publishedOn": "2025-01-29T14:59:26.000Z",
-          "wordCount": 403,
-          "title": "单从 app 流畅度来说， pdd 吊打 tb、jd",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108294",
-          "author": "buynonsense",
-          "description": "buynonsense: \nop 是今年 6 月双非本毕业，目前刚入一家初创公司实习一个月。做的很普通的运维工作（是那种现场运维更像管理机器是否正常的保安？）感觉完全不能学到技能，倒是对职场人际方面有了点适应。\n我想做开发，此前学习的最多的是 Java ＋ vue 。学的不精通。并且 Java 太卷，所以重新开始学其他的语言也可以。提升的自己的话直接上手做项目是成长最快的。但是该如何有做项目的机会呢？（补充：不是为了学习而学习的那种网上千篇一律的课程项目，而是希望根据真实需求一点一点完善一个项目的体验）",
-          "link": "https://www.v2ex.com/t/1108294",
-          "publishedOn": "2025-01-29T14:52:51.000Z",
-          "wordCount": 397,
-          "title": "临近毕业的开发程序员如何提升自己？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108292",
-          "author": "cj323",
-          "description": "cj323: \n最近 Macbook 上的 Chrome 老是莫名登出，无奈尝试换浏览器。试了一圈发现 Chrome Canary 表现有明显上升，不知道是不是我的幻觉？\n另外感慨一下谷歌在 Web 的垄断。近两年其他浏览器体验已经明显跟不上 Chrome 了- Firefox 系列会有指纹登陆等小问题，Safari 复杂页面和插件不行，总体流畅度也都差谷歌一截。",
-          "link": "https://www.v2ex.com/t/1108292",
-          "publishedOn": "2025-01-29T14:34:38.000Z",
-          "wordCount": 374,
-          "title": "Chrome Canary 感觉比稳定版丝滑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108291",
-          "author": "yandong9713",
-          "description": "yandong9713: \n发现一个开源的在线钢琴项目 pianoonline.cc\n最近在给孩子找钢琴启蒙工具，偶然发现了这个项目。\nTech Stack:\n前端：原生 JS + Web Audio API\n采样：真实钢琴采样\n键盘映射：支持全键盘模拟钢琴按键\nFeatures:\n完全开源，无广告\n支持键盘按键提示\n内置基础曲目练习\n支持录音回放\n响应式设计，移动端也能用\n实际体验：\n用了一个多月，主要用来辅助孩子练琴。键盘按键提示对初学者很友好，采样的音色也不错。最近作者还加了教程模块，对新手很有帮助。\n项目应该是某位开发者给自己孩子做的，代码挺干净的，有兴趣的可以去 GitHub 看看。\nhttps://github.com/yandong2023/piano-online\n希望对同样有孩子在学琴的 V 友有帮助。",
-          "link": "https://www.v2ex.com/t/1108291",
-          "publishedOn": "2025-01-29T14:06:35.000Z",
-          "wordCount": 433,
-          "title": "发现一个开源的在线钢琴项目",
+          "id": "https://www.v2ex.com/t/1108290",
+          "author": "angelinamott3772",
+          "description": "angelinamott3772: 这什么破社区,连他吗网费都交不起.",
+          "link": "https://www.v2ex.com/t/1108290",
+          "publishedOn": "2025-01-29T13:24:21.000Z",
+          "wordCount": 115,
+          "title": "为什么 V2EX 无法访问了?",
           "imageUrl": null
         },
         {
@@ -382,7 +333,7 @@
           "description": "SeleiXi: \n \n但貌似申请暑假实习岗的时间已经过了…如果是内推的话还有机会吗？最近接了个外包，内容都可以自己包装而且最后也会上线，有必要多加个这样的项目来多套点八股文吗？可以用 java 来写，然后用同一份简历同时投 java 和 go 岗吗？感谢 v 友们！！",
           "link": "https://www.v2ex.com/t/1108288",
           "publishedOn": "2025-01-29T13:10:20.000Z",
-          "wordCount": 551,
+          "wordCount": 561,
           "title": "28 届想找大厂暑假实习…这个简历有可改善的地方吗？",
           "imageUrl": null
         },
@@ -394,6 +345,16 @@
           "publishedOn": "2025-01-29T12:45:23.000Z",
           "wordCount": 414,
           "title": "扩展屏买哪家好",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108285",
+          "author": "HiCode",
+          "description": "HiCode:",
+          "link": "https://www.v2ex.com/t/1108285",
+          "publishedOn": "2025-01-29T11:56:03.000Z",
+          "wordCount": 115,
+          "title": "站长你是傻的吧？？",
           "imageUrl": null
         },
         {
@@ -472,7 +433,7 @@
           "description": "lesliebay: \n24H2 发布已经有一段时间了（以为已经没什么大问题）最近收到更新推送就升了，然后 iOS 18.3 出来也没听说有什么大问题，于是大年初一手贱用 iTunes 升级 iPhone ，直接升级过程中 iTunes 闪退送上一个板砖……\n现在几经折腾先回退回 23H2 ，正在从备份中恢复 iPhone ，剩余时间约 2 小时。\n一个意料之外情理之中是刚碰到板砖时用 Google 搜索类似情况居然没发现任何有用的中文内容，反而英语苹果官网讨论串几个月前就有人提这个大 bug 了（ iTunes 奔溃原因是 24H2 和 Apple 设备软件兼容性问题也是从这里才知道），可能现在中文世界像我这种仍然遵循 PC 端下载 iOS 再用 iTunes 升级的已经是稀有动物了吧。\n再强调一下关键词以防还有其他类似稀有动物掉坑：Win11 24H2 + 微软商店最新版 iTunes 这个组合的千万不要用 iTunes 更新/升级 iPhone ！！！！！\n补充：\nhttps://discussions.apple.com/thread/255818167\n这帖子还没看完，好像一直都没修复",
           "link": "https://www.v2ex.com/t/1108277",
           "publishedOn": "2025-01-29T09:44:56.000Z",
-          "wordCount": 571,
+          "wordCount": 573,
           "title": "Win11 24H2 下 iTunes 更新 iPhone 送板砖",
           "imageUrl": null
         },
@@ -492,7 +453,7 @@
           "description": "newbee2000: 特效是好了，但是文戏部分，剧情太难看了，就是单纯的回合制打来打去，第一部还能看出宏大，史诗，权谋，这一部剧情，台词都显得太中二，幼稚了。\n第一部能给 8.5 分，这一部也就 6.5 。",
           "link": "https://www.v2ex.com/t/1108274",
           "publishedOn": "2025-01-29T08:27:52.000Z",
-          "wordCount": 550,
+          "wordCount": 552,
           "title": "看完封神 2 了，远不如第一部好看",
           "imageUrl": null
         },
@@ -502,7 +463,7 @@
           "description": "pureGirl: \npython 中有 GIL 所以不支持多个线程同时运行，那协程又是什么和线程的区别是什么",
           "link": "https://www.v2ex.com/t/1108272",
           "publishedOn": "2025-01-29T08:07:11.000Z",
-          "wordCount": 649,
+          "wordCount": 702,
           "title": "Python 中线程和协程的区别是什么",
           "imageUrl": null
         },
@@ -512,7 +473,7 @@
           "description": "miaoge2024: \ncursor 搓了一个小玩意\nhttps://painting.chaohua.me/\n佬们，觉得怎么样？",
           "link": "https://www.v2ex.com/t/1108271",
           "publishedOn": "2025-01-29T07:52:45.000Z",
-          "wordCount": 380,
+          "wordCount": 387,
           "title": "喵绘星球，欢迎各位体验",
           "imageUrl": null
         },
@@ -537,6 +498,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.v2ex.com/t/1108268",
+          "author": "angelinamott3772",
+          "description": "angelinamott3772:",
+          "link": "https://www.v2ex.com/t/1108268",
+          "publishedOn": "2025-01-29T07:35:00.000Z",
+          "wordCount": 115,
+          "title": "看来 openai 是铁了心要搞中国用户了,我前天开了一张空号,然后被降智后,申请退款直接退款了.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108267",
           "author": "a174871",
           "description": "a174871: \n目前在用 lobechat ，支持 r1 但是没给出思考过程，希望大家能够推荐展示出来思考过程的 webui",
@@ -552,7 +523,7 @@
           "description": "northbrunv: \n看不到人生的意义。\n有人在大厂卷够了裸辞，有人裸辞半年闲的发荒又回去上班\n中学说上大学就好了，大学说工作就好了，工作说挣钱多就好了。\n人是会有幻想的，望梅止渴，微光之于黑暗，哪怕有一丁点的希望和可能性，都愿意相信。\n然而这个简单美好的故事已经不再能延续下去了，逐渐逐渐感受到它是漏洞百出，纸鹤落水，一点一点融化沉没湮灭。\n月薪 2w 少了，要赚 3w ，月薪 3w 少了，要赚 5w ，月薪 5w 少了，要赚 10w 。。\n100w 少了，要攒 300w ，300w 少了，要攒 600w ，600w 少了，要攒 1000w 。。\n每当你达到一个数字之后，永远有更多一级更高一级的数字。。只要睁开眼睛，视线是没有尽头的。位置变换后，永远有新的尽头。\n你大可以，顶级碳板/顶级缓冲跑鞋每月换一双，月月不重样；大平层换掉小公寓；豪车换掉平价车； 5090 显卡换掉 4060ti ；二等座换成商务舱...\n然而..人心若是烧没了,修好一座破庙又有什么用呢?\n人生的意义是什么呢，奔头是什么呢？\n树枝戳向水中月，它破了。天上的月万里之外，荒芜极地\n竹篮打水一场空。如何寻找/构建真实的希望",
           "link": "https://www.v2ex.com/t/1108266",
           "publishedOn": "2025-01-29T07:12:58.000Z",
-          "wordCount": 876,
+          "wordCount": 891,
           "title": "金钱💰能补偿心灵的空洞吗？",
           "imageUrl": null
         },
@@ -562,7 +533,7 @@
           "description": "Awes0me: \n不得不说 60hz 真的还好，刚手机切换过来可能会有点不适，但是用个 1 分钟就没什么感觉了。\n最难受的其实是 Touch ID ，Face ID 实在是太舒服和无感了。\n而且 mini 7 的 Touch ID 不是触摸解锁，锁屏的时候不仅得按下去，还得还得停留一会才能解锁，挺麻烦的。\n第二点就是太宽了，打字有些难受，本人手不算大，如果这个黑边能缩一半应该会好很多。",
           "link": "https://www.v2ex.com/t/1108265",
           "publishedOn": "2025-01-29T06:33:00.000Z",
-          "wordCount": 594,
+          "wordCount": 596,
           "title": "iPad mini 7 到手了，没想到使用起来最不习惯的并不是 60hz 屏幕",
           "imageUrl": null
         },
@@ -612,7 +583,7 @@
           "description": "darkscope: \n作为 shell 命令苦手，这个工具的目的就是用自然语言执行我想要的操作\n比如解压、压缩、设置系统参数、git 一些特殊操作之类的，按你的想法描述就可以了\n通过大模型转化为具体的 shell 命令\n只测过 deepseek 的 api ，用 Mac 的朋友可以试试看\n仓库地址：supershell",
           "link": "https://www.v2ex.com/t/1108259",
           "publishedOn": "2025-01-29T04:08:16.000Z",
-          "wordCount": 533,
+          "wordCount": 535,
           "title": "写了个大模型加持的 shell 命令工具",
           "imageUrl": null
         },
@@ -622,7 +593,7 @@
           "description": "RuiCBai: \n刚参加工作， 好奇大家会给同事领导主动私聊拜年吗， 还是说只有元旦会发个祝福，春节尽量不打扰同事及领导。",
           "link": "https://www.v2ex.com/t/1108258",
           "publishedOn": "2025-01-29T03:58:50.000Z",
-          "wordCount": 562,
+          "wordCount": 566,
           "title": "职场新人，大家新年会给同事及领导私聊拜年吗",
           "imageUrl": null
         },
@@ -674,6 +645,96 @@
           "publishedOn": "2025-01-29T02:59:38.000Z",
           "wordCount": 460,
           "title": "Qi2 的苹果无线充电器能否当无线外接电池使用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108251",
+          "author": "coderluan",
+          "description": "coderluan: \n不介意的话，大家可以发一下城市和位置之类的信息，互相了解一下各地的习俗和经济水平。\n本人老家东北县城。往年会发 2000 左右的红包。但是今年是本命年，按当地说法，我会倒霉一整年，所以红包得反着来，今年红包得反正来。我说我可不信这个，给我的红包直接发微信红包，大家一起抢，看看我是不抢的最少的。最后抢了 400 多，用科技手段战胜了迷信，皆大欢喜。",
+          "link": "https://www.v2ex.com/t/1108251",
+          "publishedOn": "2025-01-29T02:37:53.000Z",
+          "wordCount": 528,
+          "title": "[国内对账] 2025 新年你发了多少红包又收了多少红包。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108250",
+          "author": "466162659",
+          "description": "466162659: \n4o 上传图片,拿 o1 和 o1 mini 怎么搞",
+          "link": "https://www.v2ex.com/t/1108250",
+          "publishedOn": "2025-01-29T02:24:12.000Z",
+          "wordCount": 462,
+          "title": "回复正常但是被降智了,openai 是什么煞笔操作啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108249",
+          "author": "LouisGuo",
+          "description": "LouisGuo: \n与电视相关的记忆：\n小学一二年级，在同村发小 A 家看电视，周星驰的大话西游，忘记时间差点下午上学迟到，当时有一种已经有几节课没上的感觉，感觉自己旷课了，同学说还没上课呢\n小学三年级的时候，邻居家买了电视，那个时候产生把墙扒掉的幻想，产生新建一个互通的门的幻想（好去邻居家看电视）\n小学四五年级，晚上去同村发小 B 家及他奶奶家看电视  \n初中的时候，有个收音机，我在收音机上听了很多电台节目，相声，影视频道的电视剧。后来我妈发现我晚上不睡觉听收音机，把耳机给我没收了\n初中，从我大爷家把电视搬到了我家，看了大半夜的黑白星花电视剧，晚上不舍得睡\n初中，每天晚上吃吃完饭，我爸就消失不见。后来我也学着他去邻居大爷家看电视。有一次看完电视出来，在我大爷家院子里我爸跟我说，电视有啥意思呢，不都是人演的吗。我当时很诧异，因为他天天晚上跑别人家看电视。当时我没有说话\n初中跟我妈商量买电视的事，我妈不同意\n初中考了年级第四名，也没有实现电视梦，从此就断了买电视的念头\n初中，我姨家买了彩电  \n我堂哥家的彩电，他家平时没人在家，有次他跟我说要经常去他家打开电视看一看，不然电视长时间不开机会容易坏掉\n春节过年，都是早早吃完饭去侄子家看春晚，因为家里没电视  \n大学毕业，第一份工作半年后过年回家，给家里买了一台乐事的 40 寸电视",
+          "link": "https://www.v2ex.com/t/1108249",
+          "publishedOn": "2025-01-29T02:19:00.000Z",
+          "wordCount": 455,
+          "title": "描述自己的早期记忆（主要兴趣）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108248",
+          "author": "8eacekeep",
+          "description": "8eacekeep: \n比如新年重新整理下文件、书签、密码和本地知识库之类的东西。",
+          "link": "https://www.v2ex.com/t/1108248",
+          "publishedOn": "2025-01-29T01:57:29.000Z",
+          "wordCount": 566,
+          "title": "新年快乐！大家会进行赛博大扫除吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108246",
+          "author": "szsgz",
+          "description": "szsgz: 春节期间虚拟产品有特价促销的吗？\n软件，订阅，服务之类的，求推荐！",
+          "link": "https://www.v2ex.com/t/1108246",
+          "publishedOn": "2025-01-29T00:42:53.000Z",
+          "wordCount": 555,
+          "title": "春节期间虚拟产品有特价促销的吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108245",
+          "author": "privater",
+          "description": "privater: MacBook Pro M1 Max 64G 可以跑 DeepSeek R1 的大模型当 AI 服务器，当年想都没想过还有这个用途。\n\n之前本机跑 Llama 3 性能并不好，能力不如大部分收费的模型，但是如今有了 DeepSeek ，一下就山鸡变凤凰，相当于本地跑个 Chatgpt o4 mini 的水平，这就很够用了。\n当然 70B 模型虽然能跑动，回答速度是比较慢的，目测大概 3 tokens/s ，只能用来问适合思考的问题，例如我问了个黑洞视线的问题，花了大约 2 分钟才输出完毕。但是如果降低点要求用 32B 模型，输出能快到 15 tokens/s ，基本和线上服务相似，就非常可用了：",
+          "link": "https://www.v2ex.com/t/1108245",
+          "publishedOn": "2025-01-28T23:36:40.000Z",
+          "wordCount": 846,
+          "title": "买大内存 MacBook 的一个意外好处——私人 AI 服务器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108244",
+          "author": "mhj144007",
+          "description": "mhj144007: \nHappy New Year ！",
+          "link": "https://www.v2ex.com/t/1108244",
+          "publishedOn": "2025-01-28T23:21:13.000Z",
+          "wordCount": 374,
+          "title": "NB 的 V 油们！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108243",
+          "author": "Dotdotnetworks",
+          "description": "Dotdotnetworks: \nDotdotnetworks 美国洛杉矶 2025 新年特惠！\n月付 vps 全场 8.5 折永久折扣！（不含多 IP 站群型）\n折扣码：LX6MAN5N3G\n折扣码截止日期：2025/2/12\n美国洛杉矶 vps-中国精品 CUVIP+CMIN2\nLookingGlass： http://45.221.99.2:8800/\nAMD EPYC 8 核/6G DDR4/50G NVME SSD/300M/4T 流量 折后 16.9USD/月\nAMD EPYC 10 核/8G DDR4/60G NVME SSD/300M/6T 流量 折后 25.4USD/月\n更多配置参见以下链接\n购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vpscn2gia\n美国洛杉矶 vps-中国联通 CU4837\nLookingGlass： http://156.225.92.126:8800/\nAMD EPYC 6 核/4G DDR4/30G NVME SSD/10G/4T 流量 折后 8.4USD/月\nAMD EPYC 8 核/6G DDR4/40G NVME SSD/10G/6T 流量 折后 12.6USD/月\n更多配置参见以下链接\n购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-chao-ji-fu-wu-qi-da-kuan-dai-xian-liu-xing\n美国洛杉矶 vps-中国电信 CN2 GIA\nLookingGlass： http://103.141.1.156:8800/\nAMD EPYC 4 核/2G DDR4/30G NVME SSD/50M/1T 流量  折后 6.7USD/月\nAMD EPYC 6 核/4G DDR4/40G NVME SSD/50M/2T 流量  折后 13.5USD/月\n更多配置参见以下链接\n购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/mei-guo-ji-qun-fu-wu-qi\n美国洛杉矶 vps-中国精品高防清洗-高速 DDOS 清洗，精品回国路由！\nLookingGlass： http://45.203.215.2:8800/\nAMD EPYC 4 核/2G DDR4/50G NVME SSD/20M/不限流量/30G 防御   折后 76.4USD/月\nAMD EPYC 8 核/6G DDR4/80G NVME SSD/30M/不限流量/50G 防御   折后 127.4USD/月\n更多配置参见以下链接\n购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vps\n美国洛杉矶 vps-国际 BGP\nLookingGlass： http://103.119.15.130:8800/\nAMD EPYC 2 核/1G DDR4/20G NVME SSD/1G/2T 流量  折后 2.4USD/月\nAMD EPYC 4 核/2G DDR4/30G NVME SSD/3G/4T 流量  折后 6.7USD/月\n更多配置参见以下链接\n购买连接： https://www.dotdotnetworks.com/index.php?rp=/store/vpsbgp\n关注 Telegram 官方频道，获取最新优惠信息： https://t.me/dotdotnetworks\nTelegram：@server901\nSkype：live:.cid.ff71d25b259c3b0f\nEmail： host@dotdotnetworks.com",
+          "link": "https://www.v2ex.com/t/1108243",
+          "publishedOn": "2025-01-28T22:57:04.000Z",
+          "wordCount": 522,
+          "title": "美国洛杉矶 vps 万兆 4837|9929+CMIN2|CN2GIA 月付全场 8.5 永久折扣！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108241",
+          "author": "moudy",
+          "description": "moudy: 开源模型，效果好，负载低，无利益冲突",
+          "link": "https://www.v2ex.com/t/1108241",
+          "publishedOn": "2025-01-28T18:53:10.000Z",
+          "wordCount": 442,
+          "title": "Apple Intelligent 是不是可以直接找 deepseek 谈合作了",
           "imageUrl": null
         }
       ]
