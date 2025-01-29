@@ -1,20 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-29T07:10:36.080Z</id>
+    <id>urn:2025-01-29T08:14:29.351Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-29T07:10:36.080Z</updated>
+    <updated>2025-01-29T08:14:29.351Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[求一个 M-Team 邀]]></title>
-        <id>https://www.v2ex.com/t/1108260</id>
-        <link href="https://www.v2ex.com/t/1108260"/>
-        <updated>2025-01-29T04:30:38.000Z</updated>
-        <summary type="html"><![CDATA[maobukui: 
-去年因为搬家，MT 一段时间没有登录，被封禁了。现在生活步入正轨，求一个 MT 邀，感谢感谢
-bWVuZ21hMDIxQGdtYWlsLmNvbQ==]]></summary>
+        <title type="html"><![CDATA[求问大家推荐对 DeepSeek R1 这类 thinking 模型支持较好的 webUI，希望看到思考过程]]></title>
+        <id>https://www.v2ex.com/t/1108267</id>
+        <link href="https://www.v2ex.com/t/1108267"/>
+        <updated>2025-01-29T07:16:12.000Z</updated>
+        <summary type="html"><![CDATA[a174871: 
+目前在用 lobechat ，支持 r1 但是没给出思考过程，希望大家能够推荐展示出来思考过程的 webui]]></summary>
         <author>
-            <name>maobukui</name>
+            <name>a174871</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[金钱💰能补偿心灵的空洞吗？]]></title>
+        <id>https://www.v2ex.com/t/1108266</id>
+        <link href="https://www.v2ex.com/t/1108266"/>
+        <updated>2025-01-29T07:12:58.000Z</updated>
+        <summary type="html"><![CDATA[northbrunv: 
+看不到人生的意义。
+有人在大厂卷够了裸辞，有人裸辞半年闲的发荒又回去上班
+中学说上大学就好了，大学说工作就好了，工作说挣钱多就好了。
+人是会有幻想的，望梅止渴，微光之于黑暗，哪怕有一丁点的希望和可能性，都愿意相信。
+然而这个简单美好的故事已经不再能延续下去了，逐渐逐渐感受到它是漏洞百出，纸鹤落水，一点一点融化沉没湮灭。
+月薪 2w 少了，要赚 3w ，月薪 3w 少了，要赚 5w ，月薪 5w 少了，要赚 10w 。。
+100w 少了，要攒 300w ，300w 少了，要攒 600w ，600w 少了，要攒 1000w 。。
+每当你达到一个数字之后，永远有更多一级更高一级的数字。。只要睁开眼睛，视线是没有尽头的。位置变换后，永远有新的尽头。
+你大可以，顶级碳板/顶级缓冲跑鞋每月换一双，月月不重样；大平层换掉小公寓；豪车换掉平价车； 5090 显卡换掉 4060ti ；二等座换成商务舱...
+然而..人心若是烧没了,修好一座破庙又有什么用呢?
+人生的意义是什么呢，奔头是什么呢？
+树枝戳向水中月，它破了。天上的月万里之外，荒芜极地
+竹篮打水一场空。如何寻找/构建真实的希望]]></summary>
+        <author>
+            <name>northbrunv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPad mini 7 到手了，没想到使用起来最不习惯的并不是 60hz 屏幕]]></title>
+        <id>https://www.v2ex.com/t/1108265</id>
+        <link href="https://www.v2ex.com/t/1108265"/>
+        <updated>2025-01-29T06:33:00.000Z</updated>
+        <summary type="html"><![CDATA[Awes0me: 
+不得不说 60hz 真的还好，刚手机切换过来可能会有点不适，但是用个 1 分钟就没什么感觉了。
+最难受的其实是 Touch ID ，Face ID 实在是太舒服和无感了。
+而且 mini 7 的 Touch ID 不是触摸解锁，锁屏的时候不仅得按下去，还得还得停留一会才能解锁，挺麻烦的。
+第二点就是太宽了，打字有些难受，本人手不算大，如果这个黑边能缩一半应该会好很多。]]></summary>
+        <author>
+            <name>Awes0me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[aws console legacy login 需要属于两次 code 但显示 invalid]]></title>
+        <id>https://www.v2ex.com/t/1108264</id>
+        <link href="https://www.v2ex.com/t/1108264"/>
+        <updated>2025-01-29T06:25:29.000Z</updated>
+        <summary type="html"><![CDATA[zhouyin: 看图 https://imgur.la/image/awslogin.xlOXI
+把一串密码粘贴到了 google authenticator 上 然后显示出 6 个数字  等那个倒计时圈圈消失再显示 6 个数字  都输入了 然后显示 invalid
+一段时间没用 aws 了  他们改登录方式了  我还是选了 legacy 用 root email 登录的方式   他们还是要开启 MFA 最后就是上面这个]]></summary>
+        <author>
+            <name>zhouyin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[各位 v 友过年好！祝各位今年挣大钱！]]></title>
+        <id>https://www.v2ex.com/t/1108263</id>
+        <link href="https://www.v2ex.com/t/1108263"/>
+        <updated>2025-01-29T06:22:03.000Z</updated>
+        <summary type="html"><![CDATA[ciyouwu: 来年不做外包！！]]></summary>
+        <author>
+            <name>ciyouwu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新年好，激活版 skinny 已到国内 78 包邮，初八发货]]></title>
+        <id>https://www.v2ex.com/t/1108262</id>
+        <link href="https://www.v2ex.com/t/1108262"/>
+        <updated>2025-01-29T04:59:35.000Z</updated>
+        <summary type="html"><![CDATA[xierduo:  [闲鱼]  https://m.tb.cn/h.TNBbz0I?tk=EToIefhsimf MF278 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」
+点击链接直接打开
+
+25 年元旦在新西兰激活，直接下单，初八发货。
+
+ranger7hero
+可以加我进保号群]]></summary>
+        <author>
+            <name>xierduo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我把 Gemini 2.0 实时视频语音对话功能添加到了手机 APP 中]]></title>
+        <id>https://www.v2ex.com/t/1108261</id>
+        <link href="https://www.v2ex.com/t/1108261"/>
+        <updated>2025-01-29T04:35:28.000Z</updated>
+        <summary type="html"><![CDATA[smalltong02: 
+Gemini 2.0：Google 最新的多模态大模型
+Gemini 2.0 是 Google 最新的统一大模型，能够同时处理 文本、音频和视频数据，并支持 音频输出。这意味着你可以通过 摄像头和麦克风，与该模型进行 实时对话。  
+目前，在 GitHub 上可以找到的部署方案大多是针对 PC 端 的 Gemini 2.0 多模态实时交互，而我可能是第一个将这一功能移植到手机端的开发者。不知道是否有朋友感兴趣，想看看它在 移动设备 上的效果？  
+现有功能
+✅ 音频交互：通过手机麦克风赋予 Gemini 2.0 听觉能力，实现 实时问答。
+视觉交互：通过手机摄像头赋予 Gemini 2.0 视觉能力，进行 实时图像分析与交互。
+联网与代码执行：模型支持 联网查询实时数据 及 代码执行功能，使其更加强大。
+免费使用：目前该功能 完全免费，无需额外付费。  
+功能限制
+⚠ 国内可能无法使用：由于模型依赖 Google 的服务，在中国大陆地区可能无法正常访问。
+时长限制：目前 Google 仍在测试该模型，因此对话时长受限：  
+纯音频对话 最长 15 分钟 
+音频 + 视觉交互 最长 3 分钟 
+这是 Google 设定的限制，非技术问题导致。  
+如果你对这个项目感兴趣，欢迎讨论和交流！
+Android 版本： https://play.google.com/store/apps/details?id=com.keras.keras_android_chatbot
+苹果版本： https://apps.apple.com/us/app/keras-chatbot-voice-assistant/id6608969280]]></summary>
+        <author>
+            <name>smalltong02</name>
         </author>
     </entry>
     <entry>
@@ -57,16 +158,6 @@ bWVuZ21hMDIxQGdtYWlsLmNvbQ==]]></summary>
 立马检查域名解析, blog.kentxxq.com=>kentxxq.github.io , 于是我尝试把 cname 改到了 baidu.com, 现在 blog.kentxxq.com 已经打不开了]]></summary>
         <author>
             <name>kentxxq</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有没有今年没看春晚的 v 友？]]></title>
-        <id>https://www.v2ex.com/t/1108256</id>
-        <link href="https://www.v2ex.com/t/1108256"/>
-        <updated>2025-01-29T03:43:07.000Z</updated>
-        <summary type="html"><![CDATA[syboy:]]></summary>
-        <author>
-            <name>syboy</name>
         </author>
     </entry>
     <entry>
@@ -254,20 +345,6 @@ Skype：live:.cid.ff71d25b259c3b0f
 Email： host@dotdotnetworks.com]]></summary>
         <author>
             <name>Dotdotnetworks</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Janus Pro: A Revolutionary AI Model]]></title>
-        <id>https://www.v2ex.com/t/1108242</id>
-        <link href="https://www.v2ex.com/t/1108242"/>
-        <updated>2025-01-28T22:50:24.000Z</updated>
-        <summary type="html"><![CDATA[tarthal: 
-Janus Pro  is a cutting-edge AI model designed to redefine the boundaries of artificial intelligence. Named after the Roman god Janus, who could see both the past and the future, this model embodies a dual vision for AI—one that learns from vast amounts of data and anticipates future needs.
-At its core, Janus Pro is built on advanced neural networks that enable it to process and understand complex patterns in data. It excels in natural language processing, making it capable of engaging in sophisticated conversations and generating human-like text. Whether it's drafting emails, writing creative stories, or providing detailed explanations, Janus Pro delivers high-quality content.
-What sets Janus Pro apart is its adaptability. It can be fine-tuned for various applications, from customer service chatbots to educational tools. Its ability to learn continuously ensures it stays relevant and effective in a rapidly changing world.
-Janus Pro also prioritizes safety and compliance. It is designed to adhere to ethical standards, avoiding harmful content and promoting responsible AI usage. With its powerful capabilities and commitment to safety, Janus Pro is poised to transform industries and enhance human productivity in meaningful ways.]]></summary>
-        <author>
-            <name>tarthal</name>
         </author>
     </entry>
     <entry>
@@ -587,120 +664,6 @@ https://www.reddit.com/r/mac/comments/1h0xwn8]]></summary>
 想问问各位大佬，嵌入式用的算法和普通的算法应该是通用的吧，怎么入门快一点]]></summary>
         <author>
             <name>rtz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ansible 或 terraform 有没有方法获得刚创建的 ec2 实例的 public ip？]]></title>
-        <id>https://www.v2ex.com/t/1108217</id>
-        <link href="https://www.v2ex.com/t/1108217"/>
-        <updated>2025-01-28T11:27:19.000Z</updated>
-        <summary type="html"><![CDATA[zhouyin: 是实例的临时 public ip
-看了圈没发现]]></summary>
-        <author>
-            <name>zhouyin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有使用 vscode 的 Copilot Edit 的吗？]]></title>
-        <id>https://www.v2ex.com/t/1108216</id>
-        <link href="https://www.v2ex.com/t/1108216"/>
-        <updated>2025-01-28T11:11:11.000Z</updated>
-        <summary type="html"><![CDATA[tlerbao: 
-为什么 AI 不能自动创建文件，一顿弹出保存文件对话框，然后保存的文件里也没有内容
-如图这两个文件根本也没有创建，什么情况]]></summary>
-        <author>
-            <name>tlerbao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[开发了一个 AI 生成图片网站]]></title>
-        <id>https://www.v2ex.com/t/1108215</id>
-        <link href="https://www.v2ex.com/t/1108215"/>
-        <updated>2025-01-28T11:00:23.000Z</updated>
-        <summary type="html"><![CDATA[YuTengjing: 
-利用下班和周末时间开发了一个 AI 生成图片网站，准备邀请一部分内测用户体验（做慈善）。
-内测用户赠送 360 积分（相当于 360 张 flux schnell 或者 kolors 生成），可以使用多个模型，flux dev, recraft, idogram, kolors 等。
-预计马上会支持（画饼， 过年嘛）midjourney 模型（其实早就支持了但是还没做安全检测，先不开放）, upscale, 视频生成（后面重点开发方向）.
-想体验的朋友可以发 google 邮箱账号，我会发送给你一个邀请注册的链接，V2EX 会邀请最多 50 名内测用户。
-欢迎提出你的意见和给我反馈 bug 。
-网站地址：artiffuse]]></summary>
-        <author>
-            <name>YuTengjing</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[附兑换码] Moeli 阅读，简单易用的电子书阅读器]]></title>
-        <id>https://www.v2ex.com/t/1108214</id>
-        <link href="https://www.v2ex.com/t/1108214"/>
-        <updated>2025-01-28T10:47:22.000Z</updated>
-        <summary type="html"><![CDATA[Yukisama: 
-接：上文
-在之前尝试自制一个本地的电子书阅读器，收到了大家很多的建议，这段时间对 App 进行了几轮更新，同时也加入了很多功能，现在主要功能如下：
-支持系列书籍的整合分类
-对书籍样式支持完善（包括弹出式脚注等）
-支持给书籍添加标签分类
-可以自定义书籍封面
-阅读页支持高度自定义（行距、段距、字体、字号、四周边距都可自定义）
-自定义字体可以导入 ttf 、otf 字体
-夜间模式适配
-阅读信息统计（单册书籍统计、整体数据统计）
-阅读计时器
-目前正在适配 txt 和 cbz 漫画格式，azw3 和 azw4 格式也在适配中，未来会增加数据云同步和元数据刮削功能。
-iOS 下载链接：下载地址
-目前尝试上架收费，8 块钱买断制，不是指望赚钱，只是想看看能给开发者账号回多少本，文末附兑换码。安卓在尝试上架 Play 商店，不过目前还在解决 14 天封闭测试。
-交流反馈 QQ 群：979919343
-兑换码：
-LMJ67MF3PYPL
-4ALP6JL3PLNA
-6FJY9NWPYNTN
-YHJ3EYK96RJE
-3JMF3THTKPA4
-TPRTWLF7PFXY
-Y3NJ7R9X3H3Y
-WFR49P7HFMHJ
-7X3RLLEMTXP3
-N6M4F4NHFRMN
-如果觉得不错可以在 App Store 点点评分，祝大家新年快乐！
-预览图：]]></summary>
-        <author>
-            <name>Yukisama</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[过年回家，现在感觉很窒息]]></title>
-        <id>https://www.v2ex.com/t/1108213</id>
-        <link href="https://www.v2ex.com/t/1108213"/>
-        <updated>2025-01-28T10:44:43.000Z</updated>
-        <summary type="html"><![CDATA[wubalabadub: 
-原本以为今年不用回老家拜七大姑八大姨，会在家里比较安逸，结果却感到挺难受和窒息。
-前两天熬夜看英超曼城和切尔西的比赛，4 点才睡，提前和家里人说了要熬夜看比赛，早上会晚起。
-结果早上还是 8 点被喊起来吃早饭。
-然后、被问平时是不是一直这个作息，说不吃早饭会得这个结石那个病。
-下午老妈出去晒太阳了, 我在家洗澡, 就因为没用太阳能、用的热水器，回来被说为什么不用太阳能，我说我不知道太阳能是开着的。
-然后问我为什么不打电话问，进而引出我回来在家里不沟通，平时不经常给他们打电话。
-然后说沟通是多么重要，引出我平时是不是和同事也不沟通，给我转发一些营销号励志演讲，晚饭滔滔不绝说是为了让我「少走点社会的弯路」。
-前两天晚上开车去看亲戚，路上停车想在便利店买条烟、去送给爱抽烟的那一家。
-然后又被说：“家里有谁谁谁送来的烟啊、为什么要到外面买”，我说不知道，买就买了也没几个钱。
-然后说完我就知道完蛋了，又开始讲起自己平时是如何如何节约的，电动车坏了只买二手的、手机用了 xx 年不愿意换（我之前想帮她换的，她死活不愿意）、买菜怎么省的、水电怎么省的。
-然后我实在绷不住了，我就抱怨了两句说为了这点小钱影响心情不至于，然后又差点吵起来：“省的钱还不是为了你！以后都是你的！”。
-今年看了「非暴力沟通」，还以为自己学到了，觉得很多事确实和同事朋友解决起来方便多了。
-感觉自己还是太年轻了，现在只想赶紧过完年。
-除夕夜的一点碎碎念，大家看的图一乐吧，祝大家家庭和睦，新年快乐。]]></summary>
-        <author>
-            <name>wubalabadub</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[webstorm 新版本在全局搜索中取消了模块选项卡]]></title>
-        <id>https://www.v2ex.com/t/1108212</id>
-        <link href="https://www.v2ex.com/t/1108212"/>
-        <updated>2025-01-28T10:40:17.000Z</updated>
-        <summary type="html"><![CDATA[chanChristin: 
-https://youtrack.jetbrains.com/issue/WEB-67146/Dont-suggest-Module-option-in-Find-in-Files
-然后我找技术支持问了一下，后面好像是又开了个 issue ，提问新版功能建议，如果有需要用到类似功能的可以去评论一下，让他们尽快加回来这个功能，对我来说挺有用的。我是把多个项目添加到同一个窗口中，需要搜索不同的项目直接在模块里选就行了，这下直接没了，只能暂时用老版本。
-https://youtrack.jetbrains.com/issue/WEB-71396]]></summary>
-        <author>
-            <name>chanChristin</name>
         </author>
     </entry>
     <entry>
