@@ -172,23 +172,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -359,7 +342,7 @@
           "description": "jakezh: \n问客服说不能提供原因，问能不能恢复数据到新服务器上，说没有任何办法。\n有遇到过的朋友吗，上面就运行了个 bitwarden ，还运行了个 docker look busy 保活\n这也能被删？\n稳定运行三年多了，不知道为什么被 target 了\n一怒之下又注册了两个号，还好 bitwarden 定时备份，但是很不爽，客服说这个邮箱再也不能注册新账号了，简直深井冰，不知道 PM 是谁，怎么做出的这种脑残决定",
           "link": "https://www.v2ex.com/t/1108363",
           "publishedOn": "2025-01-30T15:04:06.000Z",
-          "wordCount": 386,
+          "wordCount": 394,
           "title": "oracle 直接把我账号给删了",
           "imageUrl": null
         },
@@ -369,7 +352,7 @@
           "description": "abc2xyz: 之前抓包发现两个 CCTV4K 的组播地址，以为一个是备用的就没在意，这几天看春晚发现其中一个竟然可以点亮我 LG 电视的 HDR ，PC 上 PotPlayer 也能点亮 HDR 。试了下把吃灰的电信盒子打开，现在里面的 CCTV4K 并不能点亮 HDR （也可能是我盒子太老了，或者姿势不对）。\nCCTV4K:\n239.45.0.55:5140\nCCTV4K HDR:\n239.45.1.21:5140",
           "link": "https://www.v2ex.com/t/1108362",
           "publishedOn": "2025-01-30T15:00:57.000Z",
-          "wordCount": 380,
+          "wordCount": 402,
           "title": "上海电信 CCTV4K HDR 组播地址分享",
           "imageUrl": null
         },
@@ -389,7 +372,7 @@
           "description": "CNM47589: \n过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！",
           "link": "https://www.v2ex.com/t/1108359",
           "publishedOn": "2025-01-30T14:04:58.000Z",
-          "wordCount": 491,
+          "wordCount": 514,
           "title": "什么时候出新 12 寸 MacBook",
           "imageUrl": null
         },
@@ -459,7 +442,7 @@
           "description": "letterLim: 前端 平时写 rn 的。 想换个大内存的电脑。现在用的是公司的 m1 pro 16+512 。平时用起来卡卡的。想自己买个电脑在家里，看中两款\nm1pro 32+1t 。9500 左右\nm3pro 官翻 36+1t 15000 左右\n请问哪款比较合适呢",
           "link": "https://www.v2ex.com/t/1108348",
           "publishedOn": "2025-01-30T12:29:07.000Z",
-          "wordCount": 521,
+          "wordCount": 523,
           "title": "现在买 m1 pro 还是 m3pro",
           "imageUrl": null
         },
@@ -579,7 +562,7 @@
           "description": "momo2023:",
           "link": "https://www.v2ex.com/t/1108331",
           "publishedOn": "2025-01-30T06:25:14.000Z",
-          "wordCount": 500,
+          "wordCount": 502,
           "title": "好像最近 Deepseek 的网络不太稳定",
           "imageUrl": null
         },
@@ -609,7 +592,7 @@
           "description": "nnegier: 我是写 java 代码的，感觉后续的一些语法更补不是很让人满意，只是写习惯了，不过也萌生了对那种编程语言的美的思考，表现力强，整洁优美，但我自身接触的语言实在有限，所以想想问问大家，如果可以，也希望可以附上一段你喜欢的代码。\n自己提下 python 吧，但只接触过一点，未实际项目，它有一种语法层面的整洁美，那个缩进。",
           "link": "https://www.v2ex.com/t/1108327",
           "publishedOn": "2025-01-30T05:34:50.000Z",
-          "wordCount": 1101,
+          "wordCount": 1121,
           "title": "可以讲下你看到的编程语言的美吗？",
           "imageUrl": null
         },
@@ -659,7 +642,7 @@
           "description": "imxiaolong: \n人到中年，感觉身体明显不如以前。\n现在整天感觉到犯困，想做点事，但总感觉精力不足。\n其实每天睡得不少，每晚睡 7~8 小时，有时候中午抗不住了还睡 20 分钟，但就是感觉力不从心。\n想想还得干二十多年才能退休，这身体还能抗得住嘛\n有没有好的办法解决目前的状态？",
           "link": "https://www.v2ex.com/t/1108320",
           "publishedOn": "2025-01-30T03:06:10.000Z",
-          "wordCount": 923,
+          "wordCount": 925,
           "title": "大家有没有整天都犯困的感觉，有没有好的解决办法",
           "imageUrl": null
         },
