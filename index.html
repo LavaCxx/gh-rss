@@ -22,11 +22,858 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-30 datetime="2025-01-30T14:31:08.000Z">2025-01-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-30 datetime="2025-01-30T14:31:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-30 datetime="2025-01-30T20:30:47.000Z">2025-01-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-30 datetime="2025-01-30T20:30:47.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >V2EX-最新主题</button>
+                  <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108370"
+                        open
+                      >
+                        <summary class="article-expander__title">Gemini 是否违反了 GDPR？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108370">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>drymonfidelia: 
+我测试 Gemini for Workspace 的时候不小心上传了一份不能公开的公司文件，找了半天发现居然没有删除按钮
+我通知了 Google Workspace 的管理员，让他帮忙删除，他找了半天说后台没有这个功能，清空 Gemini 数据的功能都没有
+我搜了下，才发现 8 个月前就有人在 Reddit 上讨论这个问题了，到现在为止 Google 没做任何改善：
+https://www.reddit.com/r/Bard/comments/1d0xpeo/workspace_users_are_unable_to_delete_gemini/
+按理说更应该重视用户隐私的企业版 Gemini ，上传文件/提问后居然没有任何办法删除记录，即使是超过 72 小时、有组织管理员权限也不行。
+Gemini 宣传是遵守 GDPR 的，我查了下 GDPR 的内容， https://gdpr-info.eu/art-17-gdpr/
+第 17 条有规定用户有权利要求删除个人数据，节选
+The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies:
+(b) the data subject withdraws consent on which the processing is based according to point (a) of Article 6(1), or point (a) of Article 9(2), and where there is no other legal ground for the processing;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108369"
+                        open
+                      >
+                        <summary class="article-expander__title">deepseek.diy</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108369">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>daoremi: 做一个 deepseek 各式资源的集合站，现在想的是把 GitHub 上相关 repo 整理下来，收集一些社媒讨论，看看能不能促进软硬融合的创新</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108368"
+                        open
+                      >
+                        <summary class="article-expander__title">一加 Ace5Pro 到了， 5Ghz WiFi 支持 33dBm</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108368">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>tutugreen: 什么芯片，抢不抢网不知道，但
+iw list 看 5Ghz 在 5745(149)~5845(169) 有支持 33.0 dBm （约 2W)？这对吗（
+*好吧，发帖前搜了下，在 5.8Ghz 下，33dBm 是合规的。
+只记得很多起夜级路由 AP 都没有开到 33 dBm 的，多数到 27 dBm 。
+
+
+附一个旧手机 iw dev 结果：
+2412(1)~2472(13) 20.0 dBm
+5180(36)~5240(48) 20.0 dBm
+5260(52)~5240(64) 23.0 dBm
+5745(149)~5825(165) 20.0 dBm
+对比下来都有提升。
+换算：
+20 dBm ~ 100 mw
+25 dBm ~ 316.22776602 mw
+33 dBm ~ 1995.26231497 mw
+
+本来是在研究那个“手机搬家”在实际传数据的时候是怎么创建出 160Mhz 频宽热点的（&gt;&#x3D;2400Mbps)，顺便看的。
+自己开热点，或第三方某热点 APP 设置也不行，目前发现只有手机搬家自己可以开出来。。。呆懂得大佬解答。
+*同步 txrjy （</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108367"
+                        open
+                      >
+                        <summary class="article-expander__title">二手机械硬盘被回收后有什么用？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108367">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>BigShot404: 
+京东以旧换新里有回收二手机械硬盘的，不论好坏 1T 的蓝盘抵 30 块，这东西坏的也值 30 么？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108366"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有用过爱快 Q3000 当 AP 的小伙伴</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108366">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>amyw495062: 
+现在爱快软路由+小米，ap 模式组 mesh 各种不明环路
+https://www.right.com.cn/forum/thread-4110374-1-1.html
+https://www.v2ex.com/t/760559 
+最近过年朋友来家里玩，又频频出现，一旦环路报错，整个局域网都会卡一会，简直太**
+目前家里的结构是这样的，所以小米路由组 mesh 就是 ap 模式组的，现在是打算把小米路由替换成 Q3000</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108365"
+                        open
+                      >
+                        <summary class="article-expander__title">像 DeepSeek 这种资源要求比较低的大模型有没有可能在工业 AI 中应用？目前工业领域的 AI 一般是什么样的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108365">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>reallittoma:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108364"
+                        open
+                      >
+                        <summary class="article-expander__title">国行苹果 15Pro/16Pro 支持 Esim？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108364">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>pinyoung: 用 aida64 测信息，那个手机卡兼容性写着支持 ai ，也写着手机是实体卡+Esim 的选项，不知道是不是 aida64 软件写错了，还是说 15Pro/16Pro 硬件上还是存在 esim ，但是是被系统级别禁用了？？？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108363"
+                        open
+                      >
+                        <summary class="article-expander__title">oracle 直接把我账号给删了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108363">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jakezh: 
+问客服说不能提供原因，问能不能恢复数据到新服务器上，说没有任何办法。
+有遇到过的朋友吗，上面就运行了个 bitwarden ，还运行了个 docker look busy 保活
+这也能被删？
+稳定运行三年多了，不知道为什么被 target 了
+一怒之下又注册了两个号，还好 bitwarden 定时备份，但是很不爽，客服说这个邮箱再也不能注册新账号了，简直深井冰，不知道 PM 是谁，怎么做出的这种脑残决定</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108362"
+                        open
+                      >
+                        <summary class="article-expander__title">上海电信 CCTV4K HDR 组播地址分享</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108362">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>abc2xyz: 之前抓包发现两个 CCTV4K 的组播地址，以为一个是备用的就没在意，这几天看春晚发现其中一个竟然可以点亮我 LG 电视的 HDR ，PC 上 PotPlayer 也能点亮 HDR 。试了下把吃灰的电信盒子打开，现在里面的 CCTV4K 并不能点亮 HDR （也可能是我盒子太老了，或者姿势不对）。
+CCTV4K:
+239.45.0.55:5140
+CCTV4K HDR:
+239.45.1.21:5140</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108360"
+                        open
+                      >
+                        <summary class="article-expander__title">Github 访问不了？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108360">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>kongmeng12: 504 Gateway Time-out</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108359"
+                        open
+                      >
+                        <summary class="article-expander__title">什么时候出新 12 寸 MacBook</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108359">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>CNM47589: 
+过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108357"
+                        open
+                      >
+                        <summary class="article-expander__title">从 28 号早上 8 点从魔都出发开车，直到今天 30 号下午 18 点才抵达弥勒。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108357">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>beyond1314: 从 28 号早上 8 点从魔都出发开车，直到今天 30 号下午 18 点才抵达弥勒，三个白天开了 2400 公里，每天就开 800 公里,然后下高速找酒店休息！弥勒的气温真舒服啊，穿个薄外套就行，接下来一周就躺平了！等到 6 号了再出发回魔都！
+https://imgur.com/a/10TPTEo</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108356"
+                        open
+                      >
+                        <summary class="article-expander__title">新手 Mac 选购</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108356">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>SGL: 14 寸 M4pro(14C20G) 24+1T 价格 20884(线下店教育优惠＋国补)
+16 寸 M4pro(14C20G) 48+512 价格 18999(线下店教育优惠＋国补)
+14 寸 M4pro(14C20G) 48+512 价格 19391(狗东自营国补)
+14 寸 M4pro(14C20G) 48+1T 价格 20884(狗东自营国补)
+个人场景需求：后端开发，对折腾各种本地数据，知识库感兴趣，甚至想折腾点本地小模型(幻想)。以前对前端无感，现在对前端可视化方面有点私人兴趣。喜欢折腾点有的没的。
+个人偏好：偏好小巧精致一点的，有内存焦虑。对游戏不太感兴趣。
+目前手头设备：联想 yoga14s 16+1T 一台，公司发烂 win 本一个，大屏外接显示器一个。其他无。
+未来动向：未来一两年内有换城市的规划。
+经济和可持续：不是富哥，咬牙上的，刚入职场， 想站未来，想有自己的设备。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108355"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有和我一样经常听同一首音乐？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108355">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>3059349417: 
+放假没回家，很无聊，听音乐又不想切歌就一直听，再看点文字混时间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108352"
+                        open
+                      >
+                        <summary class="article-expander__title">今年过年大家观察到身边有哪些变化?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108352">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>fancy2020: 
+我观察到的是今年拜年消息明显变少了，以前大年三十晚上各种群里都会冒出来一些拜年消息，还有些私发或群发的，今年几乎都没有了。
+我的感觉是大家越来越懒得装了。
+另外就是放鞭炮的明显少很多</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108350"
+                        open
+                      >
+                        <summary class="article-expander__title">求助新手用 deepseek 写了个类似某博的图片上传发文功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108350">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AndrewHenry: 但这个图片上传哪里去了
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/2w 后面一大串</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108349"
+                        open
+                      >
+                        <summary class="article-expander__title">智行软件提交订单你就是直接帮我候补？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108349">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wuyiccc: 候补火车票一直买不到，然后用了一下智行 app ，发现智行 app 直接帮我在 12306 上提交的候补订单，我心态崩了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108348"
+                        open
+                      >
+                        <summary class="article-expander__title">现在买 m1 pro 还是 m3pro</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108348">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>letterLim: 前端 平时写 rn 的。 想换个大内存的电脑。现在用的是公司的 m1 pro 16+512 。平时用起来卡卡的。想自己买个电脑在家里，看中两款
+m1pro 32+1t 。9500 左右
+m3pro 官翻 36+1t 15000 左右
+请问哪款比较合适呢</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108347"
+                        open
+                      >
+                        <summary class="article-expander__title">单片机开发需求</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108347">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>humbass: 
+外包业务，其中 iot 部分需求一位单片机开发合作，软件方向，需要懂原理图。
+合作形式、报酬面谈
+坐标：深圳，长期合作
+tG:  aHR0cHM6Ly90Lm1lL2RhbGlfY2hlbg&#x3D;&#x3D;
+
+qQ:  MTg3MTg5Ng&#x3D;&#x3D;</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108344"
+                        open
+                      >
+                        <summary class="article-expander__title">广东的朋友春节都在干什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108344">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>VchentozV: 
+央视春晚收视率只有 5 个点，请问都在忙什么？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108343"
+                        open
+                      >
+                        <summary class="article-expander__title">Copilot+ PC 已经可以本地运行 DeepSeek R1 模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108343">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Fdyo: 
+微软宣布 Copilot+ PC 已经可以在本地运行 DeepSeek R1 模型，Copilot+ PC 用户可以通过 AI Toolkit 来在本地使用 DeepSeek R1 模型（ DeepSeek-R1-Distill-Qwen-1.5B ），未来 AI Toolkit 还会提供 7B 和 14B 的选项。
+via WinDiscover</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108342"
+                        open
+                      >
+                        <summary class="article-expander__title">[餐刻 App] 3.0 版</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108342">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Edwardai: 
+整整一年前，我发布了餐刻 App 的 1.0 版本（去年主题的地址： https://v2ex.com/t/1015211#reply2 ），完全是出于业余爱好和一个执念。然而，发布后我发现 App 基本没有太大的使用价值。一个重要的原因是，食谱 App 本质上还是一个以数据为核心的应用，食谱内容过于匮乏。过去的一年里，工作繁忙，年龄也渐长（而且我并不是专业的工程师），因此只能在有限的空闲时间里偶尔进行一些调整。直到今年农历新年，3.0 版本基本完成。实际上，这个 3.0 版本，可以说是 1.0 版本的升级，至少现在它有了一定的使用价值。
+餐刻 App 并不是一本传统的食谱大全，而是希望将我们在短视频中常看到的食谱链接统一添加到同一个地方。这样，不需要每次去短视频 App 的收藏夹里找那些经常会丢失的食谱，也能避免每次参考的烹饪视频都不一致。对于像我这样虽然能做点儿菜，但并非烹饪专家的人来说，简直是太方便了。
+起初，我的想法是专注于做一个素食食谱 App ，这也是我一直以来的心愿（尽管如今 App 的时代早已过去，这个项目更多像是我内心的一份执念）。年轻时，我曾学习过 Objective-C ，并写过几个与佛教咒语相关的应用。但素食者终究是少数群体，所以我最终还是决定做一个包含更多食谱的全面性 App 。
+实际上，一个人独自开发一个 App ，涉及到产品设计、数据管理和编码等多个方面，对于我来说是一个不小的挑战。不过，1 年多前，GPT 的出现让编码过程变得轻松了很多，感谢这个时代。
+我在 X 上放了一个比较简单的视频演示，如果感兴趣可以私信我，我会给你们免费的内购码；如果有去年下载还没有升级的，直接升级即可。
+https://x.com/edwardai2/status/1884907516225819082?s&#x3D;61
+[餐刻 3.0 新功能] 
+• 探索页面
+全新入口，轻松发现更多优质食谱与烹饪灵感。
+• 计划功能
+将食谱添加到指定日期并自动提醒，避免错过烹饪时机。
+• 搜索食谱
+如果食谱库中没有，可以直接跳转到短视频平台进行搜索。
+• 购买食材
+一键添加所需食材至提醒事项，简化购物流程。
+• 烹饪时刻
+集中展示所有烹饪回忆，便于随时回顾或再次尝试。
+• 随机食谱回退
+随机生成后可随时回到上一道食谱，更灵活便捷。
+• 首次启动自动导入烹饪链接
+安装后可选择倒入食谱烹饪演示链接，助力新手快速上手。
+• 其它
+新增了 500 多种新食谱，修复了一些已知的问题。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108340"
+                        open
+                      >
+                        <summary class="article-expander__title">试管和工作之间选哪个，表示很纠结，真的不知道咋办了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108340">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Dora5260: 过了年可能就要开始试管了
+但是现在的工作压力特别大
+导致内分泌失调 脸上长痘没停过
+如果继续工作怕影响试管效果
+试管成本也很高 还是想要一次成功
+但是工作也刚好有升职加薪的机会
+现在那么卷 真的是进退两难 太难了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108339"
+                        open
+                      >
+                        <summary class="article-expander__title">郑州，长沙，重庆年后找工作的看过来。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108339">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>banzhaun: 数字马力，蚂蚁子公司，做的蚂蚁的项目，感觉还可以，有想从一线回来的可以内推。联系:d2VpeGluZ182Njkz</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108337"
+                        open
+                      >
+                        <summary class="article-expander__title">怎么快速制作聊天表情包？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108337">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>astuleur: 某音，某书，某剧，尤其是连续剧里带字幕的，梗爆多</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108336"
+                        open
+                      >
+                        <summary class="article-expander__title">网易云 MP3 格式格式上传云盘, 还会吞掉部分 是咋回事呢?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108336">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>11yue11ri: 
+从网盘下载的 未加密的 MP3,FLAC 格式的歌曲
+上传到  网易云 云盘,  还会吞掉部分 是咋回事呢?
+http://forumupload.ru/uploads/001c/66/a6/2/611255.jpg
+没权限发图片吗</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108335"
+                        open
+                      >
+                        <summary class="article-expander__title">春节期间给大家分享几个跟“酒”这个话题有关的视频。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108335">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xiaozecn: 
+
+
+
+（排序分先后）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108334"
+                        open
+                      >
+                        <summary class="article-expander__title">没有之前工作经验的数字游民去香港开户怎么安排？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108334">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>lyH0k1a: 
+请问作为数字游民，去香港开户收工资应该如何安排？
+我是 24 年毕业的，没有工作经验，因此银行流水基本都是父母给的生活费(甚至大部分记录都在支付宝上)
+大三有出国交换的经历，但是现在在大陆
+没有投资股票或购买保险
+我的公司总部在美国，已拿到工作 offer ，请问这个 offer 是否可以作为收入证明使用？
+我之前查过一些资料，关于究竟要不要说自己炒港股似乎争议很大，有人说不要说，有人说要说。以及，如果这些条件没法开户的话，是否有必要购买股票/购买保险来达到开户的目的？
+感谢各位大佬 orz</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108333"
+                        open
+                      >
+                        <summary class="article-expander__title">问一个大模型本地部署的问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108333">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>sakujo: 
+在 pc 上跑了 ollama ，想在软路由的 docker 上布置个 open-webui 供家里其他设备使用。部署好了，但是 open-webui 一直找不到模型。
+我确定 ollama 的服务搭的没问题，环境变量也改了，在局域网的其他机器上都能访问到。
+open-webui 的 ollama 设置里也改成了 pcip:11434,但 open-webui 就是连接不到 ollama ，有没有懂得麻烦给指导一下</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108331"
+                        open
+                      >
+                        <summary class="article-expander__title">好像最近 Deepseek 的网络不太稳定</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108331">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>momo2023:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108330"
+                        open
+                      >
+                        <summary class="article-expander__title">前后端开发毕设,求建议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108330">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>buynonsense: 
+上次在 v 站询问做项目的灵感,来保持正反馈的动力。（ https://www.v2ex.com/t/1108294 ）
+这次谈谈我的毕业设计吧。
+这个毕设项目大概的构思是做出一个 web 端的养成系模拟器，不过养的是植物不是少女。就跟那些小游戏差不多吧，浇水施肥什么的。这个项目足够有趣，在完成之后考虑加入 ai ，让每一个植物开口说话来介绍自己和文字互动，来给用户科普植物学吧。
+我做这个项目的目的是：项目简单，但尽量想用一些新的、好用的技术栈，让自己上手熟悉一遍。俗称杀鸡用牛刀。
+所以各位大佬有什么建议吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108328"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有出租 deepseek 本地模型的云服务器？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108328">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Themyth: 
+我很好奇，有没有人将 deepseek 搭建在服务器上，然后对外提供出租服务的？
+比如给个 mstsc ，或者弄个外网访问权限的。
+可以让租用的人在本地调用这个云服务器上的模型的....</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108327"
+                        open
+                      >
+                        <summary class="article-expander__title">可以讲下你看到的编程语言的美吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108327">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>nnegier: 我是写 java 代码的，感觉后续的一些语法更补不是很让人满意，只是写习惯了，不过也萌生了对那种编程语言的美的思考，表现力强，整洁优美，但我自身接触的语言实在有限，所以想想问问大家，如果可以，也希望可以附上一段你喜欢的代码。
+自己提下 python 吧，但只接触过一点，未实际项目，它有一种语法层面的整洁美，那个缩进。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108326"
+                        open
+                      >
+                        <summary class="article-expander__title">Chorme 老是将首页快捷图标从双列改成单列</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108326">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>SiWXie: 
+这个问题已经遇到很多次了，每次解决办法都是从 chrome://flags/ 中更改 NTP ，但每次更新后，它又变回原样，不得不又改一次。最近几天，又从双列变成单列了，烦。
+为啥非要把双列排版快捷方式改成单列呢？这是有什么执念吗？单列排列的话，丑的简直没法看呀！逼死强迫症。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108325"
+                        open
+                      >
+                        <summary class="article-expander__title">google 的 gemini-2.0-flash-thinking 这个推理模型是不让用了吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108325">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>pizone: 
+这两天 google 的推理模型调用 API 都报 500 错误，想用 deepseek R1 来替代一下，发现 deepseek R1 的服务也是非常不稳定，大部分情况是调用不了的，只是偶尔有反应，全看运气。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108324"
+                        open
+                      >
+                        <summary class="article-expander__title">x 是什么勾八算法，打开全是 deepseek。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108324">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>565656: 实在是审美疲劳了，为啥权重全是这个，上次是 cursor ，东西是好东西但是看的烦了现在看见这个词就厌恶了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108322"
+                        open
+                      >
+                        <summary class="article-expander__title">有什么方便老人使用的大模型语音交互小家电吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108322">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>yanaraika: 
+家里老人视力很差，看不清老人机的屏幕，只能靠收音机和聊天获取外界信息，但是思维还是很清晰的。这次回家过年给老人展示了几个语音交互的大模型，老人表示很有意思，但是他看不见屏幕用不了手机。搜了下各种语音助手家电，但是不是交互太复杂就是功能太简单（老人希望至少能够联网对话获取每日新闻，而不是只有闹钟、提醒功能）。想问下 V 站各位有没有比较合适的大模型小家电方便老人使用？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1329,8 +2176,8 @@ DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13062170105">
-        <time id="build-timestamp" datetime="2025-01-30T22:10:16.746Z">2025-01-30T22:10:16.746Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13062986632">
+        <time id="build-timestamp" datetime="2025-01-30T23:11:57.800Z">2025-01-30T23:11:57.800Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
