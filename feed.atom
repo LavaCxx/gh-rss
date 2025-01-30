@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-30T14:10:36.674Z</id>
+    <id>urn:2025-01-30T15:11:20.711Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-30T14:10:36.674Z</updated>
+    <updated>2025-01-30T15:11:20.711Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Mistakes of CSS]]></title>
+        <id>https://css-tricks.com/?p=384089</id>
+        <link href="https://css-tricks.com/the-mistakes-of-css/"/>
+        <updated>2025-01-30T14:31:08.000Z</updated>
+        <summary type="html"><![CDATA[All of the things that the CSS Working Group would change if they had a time-traveling Delorean to go back and do things over.
+The Mistakes of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Juan Diego Rodríguez</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[劲爆消息， Bybit 放大水啦，不需要 L2 认证可以直接申请卡！]]></title>
         <id>https://www.v2ex.com/t/1108354</id>
