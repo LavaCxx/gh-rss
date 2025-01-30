@@ -172,6 +172,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -372,7 +389,7 @@
           "description": "CNM47589: \n过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！",
           "link": "https://www.v2ex.com/t/1108359",
           "publishedOn": "2025-01-30T14:04:58.000Z",
-          "wordCount": 484,
+          "wordCount": 491,
           "title": "什么时候出新 12 寸 MacBook",
           "imageUrl": null
         },
@@ -422,7 +439,7 @@
           "description": "AndrewHenry: 但这个图片上传哪里去了\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/2w 后面一大串",
           "link": "https://www.v2ex.com/t/1108350",
           "publishedOn": "2025-01-30T12:39:40.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "求助新手用 deepseek 写了个类似某博的图片上传发文功能",
           "imageUrl": null
         },
@@ -442,7 +459,7 @@
           "description": "letterLim: 前端 平时写 rn 的。 想换个大内存的电脑。现在用的是公司的 m1 pro 16+512 。平时用起来卡卡的。想自己买个电脑在家里，看中两款\nm1pro 32+1t 。9500 左右\nm3pro 官翻 36+1t 15000 左右\n请问哪款比较合适呢",
           "link": "https://www.v2ex.com/t/1108348",
           "publishedOn": "2025-01-30T12:29:07.000Z",
-          "wordCount": 513,
+          "wordCount": 521,
           "title": "现在买 m1 pro 还是 m3pro",
           "imageUrl": null
         },
@@ -562,7 +579,7 @@
           "description": "momo2023:",
           "link": "https://www.v2ex.com/t/1108331",
           "publishedOn": "2025-01-30T06:25:14.000Z",
-          "wordCount": 489,
+          "wordCount": 500,
           "title": "好像最近 Deepseek 的网络不太稳定",
           "imageUrl": null
         },
@@ -592,7 +609,7 @@
           "description": "nnegier: 我是写 java 代码的，感觉后续的一些语法更补不是很让人满意，只是写习惯了，不过也萌生了对那种编程语言的美的思考，表现力强，整洁优美，但我自身接触的语言实在有限，所以想想问问大家，如果可以，也希望可以附上一段你喜欢的代码。\n自己提下 python 吧，但只接触过一点，未实际项目，它有一种语法层面的整洁美，那个缩进。",
           "link": "https://www.v2ex.com/t/1108327",
           "publishedOn": "2025-01-30T05:34:50.000Z",
-          "wordCount": 1088,
+          "wordCount": 1101,
           "title": "可以讲下你看到的编程语言的美吗？",
           "imageUrl": null
         },
@@ -632,7 +649,7 @@
           "description": "yanaraika: \n家里老人视力很差，看不清老人机的屏幕，只能靠收音机和聊天获取外界信息，但是思维还是很清晰的。这次回家过年给老人展示了几个语音交互的大模型，老人表示很有意思，但是他看不见屏幕用不了手机。搜了下各种语音助手家电，但是不是交互太复杂就是功能太简单（老人希望至少能够联网对话获取每日新闻，而不是只有闹钟、提醒功能）。想问下 V 站各位有没有比较合适的大模型小家电方便老人使用？",
           "link": "https://www.v2ex.com/t/1108322",
           "publishedOn": "2025-01-30T03:41:00.000Z",
-          "wordCount": 539,
+          "wordCount": 541,
           "title": "有什么方便老人使用的大模型语音交互小家电吗？",
           "imageUrl": null
         },
@@ -642,7 +659,7 @@
           "description": "imxiaolong: \n人到中年，感觉身体明显不如以前。\n现在整天感觉到犯困，想做点事，但总感觉精力不足。\n其实每天睡得不少，每晚睡 7~8 小时，有时候中午抗不住了还睡 20 分钟，但就是感觉力不从心。\n想想还得干二十多年才能退休，这身体还能抗得住嘛\n有没有好的办法解决目前的状态？",
           "link": "https://www.v2ex.com/t/1108320",
           "publishedOn": "2025-01-30T03:06:10.000Z",
-          "wordCount": 921,
+          "wordCount": 923,
           "title": "大家有没有整天都犯困的感觉，有没有好的解决办法",
           "imageUrl": null
         },
