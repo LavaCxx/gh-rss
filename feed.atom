@@ -1,10 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-30T00:50:30.121Z</id>
+    <id>urn:2025-01-30T02:07:49.522Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-30T00:50:30.121Z</updated>
+    <updated>2025-01-30T02:07:49.522Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Macos 15.2 中如何消除“Bartender 5 正在访问你的屏幕”弹窗]]></title>
+        <id>https://www.v2ex.com/t/1108313</id>
+        <link href="https://www.v2ex.com/t/1108313"/>
+        <updated>2025-01-30T01:34:29.000Z</updated>
+        <summary type="html"><![CDATA[MasterCai: 
+如图所示，最近不小心更新 Macos 15.2 之后就有这个弹窗了，非常影响工作专注。查了下，发现之前也出现过这个问题 https://v2ex.com/t/971960 ，但是没有给出可行的解决办法。不知道现在有人解决这个问题了没有？直接解决 bartender 的问题或者换用什么功能相同的替代品？
+新年快乐！]]></summary>
+        <author>
+            <name>MasterCai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple 日区 ID 没有办法使用国内和香港的 JCB 卡绑定了]]></title>
+        <id>https://www.v2ex.com/t/1108312</id>
+        <link href="https://www.v2ex.com/t/1108312"/>
+        <updated>2025-01-30T01:25:54.000Z</updated>
+        <summary type="html"><![CDATA[las917vki: 之前绑定的其他账户好像还能正常使用。
+但是新的账户想绑定 JCB 卡的时候，被拒绝了，查了一下好像是上个月开始，外区 JCB 卡也不给绑定了。
+现在大家有什么可行的绑定付款方式？
+让朋友在日本买 Visa Prepaid 能绑定使用吗？（ ANA Pay 的卡什么的）
+PS：别说买礼物卡，我还想号活久一点。]]></summary>
+        <author>
+            <name>las917vki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从头搭建一个中国传统文学网站]]></title>
+        <id>https://www.v2ex.com/t/1108311</id>
+        <link href="https://www.v2ex.com/t/1108311"/>
+        <updated>2025-01-30T01:17:50.000Z</updated>
+        <summary type="html"><![CDATA[AlexJesus: 为了整理一些自己看的书籍，所以用最简单的模板整理了一个中文图书网站，目前主要收录的都是历史小说，但遇到的问题也很明显，各种传统文学的库比较杂乱，内容也参差不其，准备一边自己读读，一边订正和更新。
+https://chinesebook.org/zh]]></summary>
+        <author>
+            <name>AlexJesus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测评： DMIT-LAX.EB.Intro 29.9-电信联通 9929，移动 CMIN2]]></title>
+        <id>https://www.v2ex.com/t/1108310</id>
+        <link href="https://www.v2ex.com/t/1108310"/>
+        <updated>2025-01-30T00:56:01.000Z</updated>
+        <summary type="html"><![CDATA[BestVPS: 
+线路：
+电信联通 9929 ，移动 CMIN2
+（电信是 cmin2&9929 负载均衡的跑）
+推荐使用移动宽带的用户入手，双程 cmin2 。
+每 15 天可免费更换一次 IP
+配置信息：
+LAX.EB.Intro(热门)
+1 vCPU
+1 GB RAM
+10G SSD Storage
+400GB Transfer
+0.5Gbps VirtIO Interface
+1 IPv4 & 1 IPv6 /64
+价格：$29.9/年（限量款）
+DMIT 测评可见： https://990599.xyz/dmit/
+①DMIT EB 美西网络情况（所有 eb 套餐的线路都一样）
+
+②三网回程情况
+
+③流媒体解锁情况
+
+④IP 质量
+
+可以测试一下 DMIT LAX EB 速度和 looking glass：
+点我测试你的速度 
+限量款，就不放购买链接了，有需要可以在推广贴里面搜索]]></summary>
+        <author>
+            <name>BestVPS</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国内 PHP 卷王是鸟哥]]></title>
+        <id>https://www.v2ex.com/t/1108309</id>
+        <link href="https://www.v2ex.com/t/1108309"/>
+        <updated>2025-01-30T00:30:17.000Z</updated>
+        <summary type="html"><![CDATA[zhouyin: 
+最近学了 python 原生协程 async await 以及 asyncio 库
+回头重新看了 php 协程 发现 php 协程实在太垃圾了 好像有个官方文档 提供了大量示例 协程也可以取消 但它是把所有 job 放入一个队列 取消就是从队列删除  实在太垃圾了 跟 python asyncio 比都不能比 python asyncio 可以直接把函数创建为 task 然后超时的话 在主控制函数里直接 task.cancel()
+php 的协程代码也是看起来太啰嗦 一团糟
+这几年 php 的份额不断被 js go 蚕食 php 要推出 jit 主要作者是鸟哥 其实鸟哥是国内 php 卷王 必须要维持自己的生存 不断给 php 进化 不然 php 被抛弃了 被扫进历史垃圾堆了 他的日子也要不好过了]]></summary>
+        <author>
+            <name>zhouyin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近研究出来一套乞丐客厅游戏解决方案]]></title>
+        <id>https://www.v2ex.com/t/1108308</id>
+        <link href="https://www.v2ex.com/t/1108308"/>
+        <updated>2025-01-29T23:55:27.000Z</updated>
+        <summary type="html"><![CDATA[dayeye2006199: 
+最近使用了 GeForce now ，体验相当不错。
+进一步研究出了一套东拼西凑的客厅游戏解决方案。
+我在客厅电视 firetv stick 上面安装了 GeForce now 的套壳 app ，应该就是个浏览器。
+又把闲置的 xbox c controller 连上了电视棒。
+于是在电视上也可以玩游戏了]]></summary>
+        <author>
+            <name>dayeye2006199</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025 年 ESXi vs Proxmox VE (PVE)：虚拟化方案选哪个?]]></title>
+        <id>https://www.v2ex.com/t/1108307</id>
+        <link href="https://www.v2ex.com/t/1108307"/>
+        <updated>2025-01-29T22:42:55.000Z</updated>
+        <summary type="html"><![CDATA[Int100: 
+请各位大佬分享一下选择方案和使用体验.
+感谢🙏]]></summary>
+        <author>
+            <name>Int100</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[求前端大佬解惑， HTML 里的文本怎么做逐行滚动？]]></title>
         <id>https://www.v2ex.com/t/1108305</id>
@@ -461,101 +575,6 @@ https://painting.chaohua.me/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[各位 v 友过年好！祝各位今年挣大钱！]]></title>
-        <id>https://www.v2ex.com/t/1108263</id>
-        <link href="https://www.v2ex.com/t/1108263"/>
-        <updated>2025-01-29T06:22:03.000Z</updated>
-        <summary type="html"><![CDATA[ciyouwu: 来年不做外包！！]]></summary>
-        <author>
-            <name>ciyouwu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新年好，激活版 skinny 已到国内 78 包邮，初八发货]]></title>
-        <id>https://www.v2ex.com/t/1108262</id>
-        <link href="https://www.v2ex.com/t/1108262"/>
-        <updated>2025-01-29T04:59:35.000Z</updated>
-        <summary type="html"><![CDATA[xierduo:  [闲鱼]  https://m.tb.cn/h.TNBbz0I?tk=EToIefhsimf MF278 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」
-点击链接直接打开
-
-25 年元旦在新西兰激活，直接下单，初八发货。
-
-ranger7hero
-可以加我进保号群]]></summary>
-        <author>
-            <name>xierduo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我把 Gemini 2.0 实时视频语音对话功能添加到了手机 APP 中]]></title>
-        <id>https://www.v2ex.com/t/1108261</id>
-        <link href="https://www.v2ex.com/t/1108261"/>
-        <updated>2025-01-29T04:35:28.000Z</updated>
-        <summary type="html"><![CDATA[smalltong02: 
-Gemini 2.0：Google 最新的多模态大模型
-Gemini 2.0 是 Google 最新的统一大模型，能够同时处理 文本、音频和视频数据，并支持 音频输出。这意味着你可以通过 摄像头和麦克风，与该模型进行 实时对话。  
-目前，在 GitHub 上可以找到的部署方案大多是针对 PC 端 的 Gemini 2.0 多模态实时交互，而我可能是第一个将这一功能移植到手机端的开发者。不知道是否有朋友感兴趣，想看看它在 移动设备 上的效果？  
-现有功能
-✅ 音频交互：通过手机麦克风赋予 Gemini 2.0 听觉能力，实现 实时问答。
-视觉交互：通过手机摄像头赋予 Gemini 2.0 视觉能力，进行 实时图像分析与交互。
-联网与代码执行：模型支持 联网查询实时数据 及 代码执行功能，使其更加强大。
-免费使用：目前该功能 完全免费，无需额外付费。  
-功能限制
-⚠ 国内可能无法使用：由于模型依赖 Google 的服务，在中国大陆地区可能无法正常访问。
-时长限制：目前 Google 仍在测试该模型，因此对话时长受限：  
-纯音频对话 最长 15 分钟 
-音频 + 视觉交互 最长 3 分钟 
-这是 Google 设定的限制，非技术问题导致。  
-如果你对这个项目感兴趣，欢迎讨论和交流！
-Android 版本： https://play.google.com/store/apps/details?id=com.keras.keras_android_chatbot
-苹果版本： https://apps.apple.com/us/app/keras-chatbot-voice-assistant/id6608969280]]></summary>
-        <author>
-            <name>smalltong02</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[写了个大模型加持的 shell 命令工具]]></title>
-        <id>https://www.v2ex.com/t/1108259</id>
-        <link href="https://www.v2ex.com/t/1108259"/>
-        <updated>2025-01-29T04:08:16.000Z</updated>
-        <summary type="html"><![CDATA[darkscope: 
-作为 shell 命令苦手，这个工具的目的就是用自然语言执行我想要的操作
-比如解压、压缩、设置系统参数、git 一些特殊操作之类的，按你的想法描述就可以了
-通过大模型转化为具体的 shell 命令
-只测过 deepseek 的 api ，用 Mac 的朋友可以试试看
-仓库地址：supershell]]></summary>
-        <author>
-            <name>darkscope</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[职场新人，大家新年会给同事及领导私聊拜年吗]]></title>
-        <id>https://www.v2ex.com/t/1108258</id>
-        <link href="https://www.v2ex.com/t/1108258"/>
-        <updated>2025-01-29T03:58:50.000Z</updated>
-        <summary type="html"><![CDATA[RuiCBai: 
-刚参加工作， 好奇大家会给同事领导主动私聊拜年吗， 还是说只有元旦会发个祝福，春节尽量不打扰同事及领导。]]></summary>
-        <author>
-            <name>RuiCBai</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大家新年好, 凌晨 3 点被攻击了...求助]]></title>
-        <id>https://www.v2ex.com/t/1108257</id>
-        <link href="https://www.v2ex.com/t/1108257"/>
-        <updated>2025-01-29T03:46:26.000Z</updated>
-        <summary type="html"><![CDATA[kentxxq: 
-凌晨 5 点看到有 2 份邮件,说我以前的博客域名新增了所有者, tamiyamagnum01@gmail.com,sonictamiya03@gmail.com 觉得很奇怪 
-登录 google search,并没有发现成员  
-于是我访问 blog.kentxxq.com , 跳转到了 https://blog.kentxxq.com/?spm=a2o4j.pdp_revamp.icms-5000527-1511531232618.1.7e7e31e1ZOg4vY
-  
-翻译一下 FOKUS777 >> BANDAR SLOT JUDI ONLINE TERPERCAYA DAN TERBAIK SAAT INI SERVER INTERNATIONAL 说是个菠菜平台, 我立马就警觉了(域名备案过,搞不好会出大问题)
-立马检查域名解析, blog.kentxxq.com=>kentxxq.github.io , 于是我尝试把 cname 改到了 baidu.com, 现在 blog.kentxxq.com 已经打不开了]]></summary>
-        <author>
-            <name>kentxxq</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -564,6 +583,33 @@ Android 版本： https://play.google.com/store/apps/details?id=com.keras.keras_
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
