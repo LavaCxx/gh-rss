@@ -159,12 +159,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -188,6 +182,23 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -327,6 +338,16 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108468",
+          "author": "ddddd0",
+          "description": "ddddd0: \nhttps://openai.com/index/openai-o3-mini/",
+          "link": "https://www.v2ex.com/t/1108468",
+          "publishedOn": "2025-01-31T20:52:37.000Z",
+          "wordCount": 433,
+          "title": "openai 上线了 o3-mini",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108466",
           "author": "mmdsun",
           "description": "mmdsun: 大家新年好。我想请问下 2025 年 Windows 和 iPhone 互联性怎么样？（比如电脑操作手机的文件拷贝、接电话发短信验证码快速自动填充）\n手里没有 Win11 设备测试，IT 新闻看到的互联性应该有很大提高\nhttps://www.ithome.com/0/828/048.htm\n我记得微软画的大饼 Link to Phone 软件，发短信、电话，验证码、文件拷贝复制，不知道现在可以实现多少，（如果是国内网络环境怎么样？安卓互联性比 iPhone 多多少功能？）   提前感谢。\nhttps://apps.apple.com/us/app/%E8%BF%9E%E6%8E%A5%E8%87%B3-windows/id6443686328?l=zh-Hans-CN",
@@ -392,7 +413,7 @@
           "description": "whetherTsmile: https://imgur.com/a/nxXQI9U\n另外 cloudflare 转发也经常失败，已经转 gmail 了",
           "link": "https://www.v2ex.com/t/1108459",
           "publishedOn": "2025-01-31T16:17:34.000Z",
-          "wordCount": 372,
+          "wordCount": 402,
           "title": "outlook 就很神奇，会收到收件人不是我的邮件和发件人是我的邮件",
           "imageUrl": null
         },
@@ -432,7 +453,7 @@
           "description": "V2April: \n大年初一的时候和亲戚吃饭，一大桌子人除了我和几个平辈（二十来岁）就都是长辈（五六十岁）。吃到一大半，我妈凑过来跟我说让我去敬一圈酒，就是挨个和桌上每家人喝一杯，说句身体健康万事如意啥的。本来不是难事，但就让人很不爽，我从大概小学开始每次参加聚餐我妈必让我做这件事，小时候敬的是饮料，桌上所有小孩都要被自己父母撺掇敬酒，还要比谁说得好听，一桌大人跟看表演一样。\n更让我不爽的是，经我妈这一撺掇我里外不是人，如果我去敬酒，就是非要老妈提醒才去敬酒，而且感觉像在表演很不自然。如果我不去，那就更不懂事了，让你敬酒你还不敬。但反过来在她眼里，如果她不提醒我我肯定不会敬酒，她提醒我之后我至少去敬了。当然她想的也没错，她不来撺掇我我肯定不会去做这种事。虽然能理解这种事，在饭桌上敬个酒也相当于活跃活跃气氛，但就是很不爽，很童年阴影",
           "link": "https://www.v2ex.com/t/1108454",
           "publishedOn": "2025-01-31T15:12:07.000Z",
-          "wordCount": 490,
+          "wordCount": 497,
           "title": "从童年保留至今的阴影：“去敬一圈酒”",
           "imageUrl": null
         },
@@ -442,7 +463,7 @@
           "description": "levelworm: \n算了下，四十多岁的我，其实也没多少这种状态比较好的日子了，怎么过好每一天呢？居然想不出来，真是有点悲哀。",
           "link": "https://www.v2ex.com/t/1108452",
           "publishedOn": "2025-01-31T14:59:44.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "刚到公司准备上班，怎么更有意义的过好这一天呢？",
           "imageUrl": null
         },
@@ -452,7 +473,7 @@
           "description": "TheWire2: 个人有两个服务在两个不同的云服务器上运行，一个是个人博客，用的是 2h2g 的服务器，一个是自己瞎搞的服务，用的是 2h4g 的服务器。这两个服务器都是用新用户的身份买的，后续要续费时，两个服务器加起来还是有点贵的（本人还是在读学生）。\n在网上搜寻过一些资料，有的叫小主机，有的叫小型服务器，不知道有没有什么区别；想买个价格在 1000 元左右的设备，不知道是否可以满足。是买硬件自己组装还是买整机好。",
           "link": "https://www.v2ex.com/t/1108451",
           "publishedOn": "2025-01-31T14:16:19.000Z",
-          "wordCount": 453,
+          "wordCount": 461,
           "title": "小主机/小型服务器推荐",
           "imageUrl": null
         },
@@ -482,7 +503,7 @@
           "description": "shrimpDumpling: 晚上一个人看《 k 星异客》，结局看到一个演员很像绝命毒师里的小粉，截图下来却不知道分享给谁，\n 想起来绝命毒师、风骚律师这么长、这么精彩的剧也是一个人看的，不知道跟谁讨论。\n 高中身边总是不缺看美剧，听 billboard 的同学，都没有保持联系，当时只道是寻常。",
           "link": "https://www.v2ex.com/t/1108448",
           "publishedOn": "2025-01-31T14:04:11.000Z",
-          "wordCount": 462,
+          "wordCount": 471,
           "title": "越大越觉得孤单",
           "imageUrl": null
         },
@@ -542,7 +563,7 @@
           "description": "piaochen0: \n家里初二固定节目，是我外婆这边家庭聚会，基本上要聚一天。\n一大家子吃饭的时候，好不容易找到引起一些大家都有话说的话题，也基本上点到为止，要么要么被长辈给粗暴打断，要么由于观点差异巨大适可而止。  \n由于从小就痛恨打牌，下午闲暇时刻，满满一大屋子的人，发现能跟我聊天的，居然也就剩下表弟家一个 6 ，7 岁大的小孩。\n我发现那个小女孩一直在玩恐龙的玩具，我就把我逛博物馆拍的恐龙照片给她看，她两眼立马放光，跟她讲了一下午各种恐龙...    \n晚上吃完饭各自散去，怅然若失。   \n不知道你们的家庭聚会是不是也是这样？是怎么打法这样的时间的，还是有什么方法能把这样家庭聚会变的更有意思。",
           "link": "https://www.v2ex.com/t/1108442",
           "publishedOn": "2025-01-31T13:04:19.000Z",
-          "wordCount": 570,
+          "wordCount": 568,
           "title": "过年，亲戚待在一起，是如何打发时间的？",
           "imageUrl": null
         },
@@ -662,7 +683,7 @@
           "description": "apollo007: \n做对的事情，把事情作对，当然非常重要，在执行层面我发现发现错了马上改，才是最重要的人生法则。\n我发现，通常情况下，犯一次错是不会造成太大的代价的，真正造成致命打击的是一错再错，错上加错，一错到底。\n如果能遵循“发现错了马上改”，通常结局都不会太差。\n例子太多了，\n健康问题，发现身体毛病及时看医生及时处理，别等到小病变成大病再处理\n感情问题，在谈恋爱阶段发现对方不合适及时分手，别拖到进入婚姻有了孩子再离婚\n工作问题，发现工作不适合自己马上跳槽，别耗上几年青春再追悔莫及\n股票投资问题，发现买错股票马上抛，别等未来能不能回本\n遇到骗子朋友/亲戚，马上拉黑不来往\n。。。都是如此。\n最好是能建立一个条件反射，让自己毫不犹豫的执行“发现错了马上改”的指令。",
           "link": "https://www.v2ex.com/t/1108424",
           "publishedOn": "2025-01-31T10:16:28.000Z",
-          "wordCount": 529,
+          "wordCount": 527,
           "title": "发现错了马上改，是最重要的人生法则。",
           "imageUrl": null
         },
@@ -692,28 +713,8 @@
           "description": "Rust2015: 现在 webstorm 也免费了，说说你们的理由",
           "link": "https://www.v2ex.com/t/1108420",
           "publishedOn": "2025-01-31T09:46:27.000Z",
-          "wordCount": 614,
+          "wordCount": 612,
           "title": "webstorm 和 vscode，你选哪个：",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108419",
-          "author": "dcy7287",
-          "description": "dcy7287: \n无论你拿多少东西都把你当外人\n好像女儿天生低人一等一样\n儿子拿东西是给家里置办年货，女儿拿东西好像是欠娘家的一样",
-          "link": "https://www.v2ex.com/t/1108419",
-          "publishedOn": "2025-01-31T09:34:53.000Z",
-          "wordCount": 475,
-          "title": "回娘家真没意思",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108418",
-          "author": "okura",
-          "description": "okura: \nRT ，在纸飞机上面搞了个别人的 RSS 机器人，推特用了 RSSHUB 的格式，\nhttps://rsshub.app/twitter/user/openai/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150&excludeReplies=false&includeRts=false\n设置的是十分钟刷新一次，但是一般无法成功，总是在一个很奇怪的时间点刷新，然后一次性刷新一大堆的数据，朋友说是时差的问题，请问有什么办法可以解决这个问题呢？\n另外贴吧的 RSS 有办法吗？我看到 RSSHUB 上只有针对某个用户之类的，我想针对某个贴吧可以吗？\n求大佬指点",
-          "link": "https://www.v2ex.com/t/1108418",
-          "publishedOn": "2025-01-31T09:05:40.000Z",
-          "wordCount": 399,
-          "title": "如何 RSS 推特和贴吧",
           "imageUrl": null
         }
       ]

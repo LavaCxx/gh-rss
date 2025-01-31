@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-31T22:09:58.988Z</id>
+    <id>urn:2025-01-31T23:09:52.572Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-31T22:09:58.988Z</updated>
+    <updated>2025-01-31T23:09:52.572Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[openai 上线了 o3-mini]]></title>
+        <id>https://www.v2ex.com/t/1108468</id>
+        <link href="https://www.v2ex.com/t/1108468"/>
+        <updated>2025-01-31T20:52:37.000Z</updated>
+        <summary type="html"><![CDATA[ddddd0: 
+https://openai.com/index/openai-o3-mini/]]></summary>
+        <author>
+            <name>ddddd0</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2025 年 Windows 和 iPhone 互联性怎么样？]]></title>
         <id>https://www.v2ex.com/t/1108466</id>
@@ -561,34 +572,6 @@ animeprofilepictures.com]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[回娘家真没意思]]></title>
-        <id>https://www.v2ex.com/t/1108419</id>
-        <link href="https://www.v2ex.com/t/1108419"/>
-        <updated>2025-01-31T09:34:53.000Z</updated>
-        <summary type="html"><![CDATA[dcy7287: 
-无论你拿多少东西都把你当外人
-好像女儿天生低人一等一样
-儿子拿东西是给家里置办年货，女儿拿东西好像是欠娘家的一样]]></summary>
-        <author>
-            <name>dcy7287</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何 RSS 推特和贴吧]]></title>
-        <id>https://www.v2ex.com/t/1108418</id>
-        <link href="https://www.v2ex.com/t/1108418"/>
-        <updated>2025-01-31T09:05:40.000Z</updated>
-        <summary type="html"><![CDATA[okura: 
-RT ，在纸飞机上面搞了个别人的 RSS 机器人，推特用了 RSSHUB 的格式，
-https://rsshub.app/twitter/user/openai/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150&excludeReplies=false&includeRts=false
-设置的是十分钟刷新一次，但是一般无法成功，总是在一个很奇怪的时间点刷新，然后一次性刷新一大堆的数据，朋友说是时差的问题，请问有什么办法可以解决这个问题呢？
-另外贴吧的 RSS 有办法吗？我看到 RSSHUB 上只有针对某个用户之类的，我想针对某个贴吧可以吗？
-求大佬指点]]></summary>
-        <author>
-            <name>okura</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Mistakes of CSS]]></title>
         <id>https://css-tricks.com/?p=384089</id>
         <link href="https://css-tricks.com/the-mistakes-of-css/"/>
@@ -637,6 +620,33 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
