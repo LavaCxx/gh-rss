@@ -172,6 +172,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -307,6 +324,156 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108397",
+          "author": "BHGchinaboy",
+          "description": "BHGchinaboy: 此为教育认证的公司账号，仅限于内部团队测试所用\n账号详情:https://www.winvps.eu/9030/\n把你的账号添加成管理员\n试用到满意后再付款，暂定 100 RMB 一年，一个公司账号招 10 个人，资源平均分配\nTG:https://t.me/BHGchinaboy",
+          "link": "https://www.v2ex.com/t/1108397",
+          "publishedOn": "2025-01-31T04:27:28.000Z",
+          "wordCount": 442,
+          "title": "合租苹果开发者美国公司账号［教育认证］",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108395",
+          "author": "LonelyWenti",
+          "description": "LonelyWenti: 之前用过 OpenWrt 的可道云插件，感觉功能挺全面。后来在可道云官网上看到他们有自己的 NAS 系统叫 TeamOS ，正好最近想玩 All in One ，想用 PVE 装 NAS 系统，但是相关讨论最多的是 黑群晖/TrueNAS/unraid/飞牛，基本没看到讨论可道云的。\n还请大家帮忙给点建议，这几个系统选哪个比较好？",
+          "link": "https://www.v2ex.com/t/1108395",
+          "publishedOn": "2025-01-31T03:54:33.000Z",
+          "wordCount": 389,
+          "title": "大家用过可道云的 TeamOS 吗？跟群晖和飞牛相比怎么样？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108394",
+          "author": "96",
+          "description": "96: \nhttps://banzhuanriji.com/\n订阅：\nATOM： https://banzhuanriji.com/feed/atom/\nRSS： https://banzhuanriji.com/feed/",
+          "link": "https://www.v2ex.com/t/1108394",
+          "publishedOn": "2025-01-31T03:51:29.000Z",
+          "wordCount": 348,
+          "title": "申请收录个人博客：搬砖日记",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108393",
+          "author": "snowkylin",
+          "description": "snowkylin: https://snowkylin.github.io/blogs/a-note-on-deepseek-r1.html\n（以下介绍就是 DeepSeek R1 写的，我觉得还挺厉害的，我是写不出来……）\n🚀 测试模型：\n1.73-bit 量化版（ 158GB ，每秒 7-8 个词）\n4-bit 量化版（ 404GB ，每秒 2-4 个词）\n💻 硬件需求：\n1.73-bit：内存+显存 ≥ 200GB\n4-bit：内存+显存 ≥ 500GB\n实测配置：4 块 RTX4090 显卡（ 96G 显存） + 384G DDR5 内存\n⚡ 性能对比：\n短文本生成：1.73-bit 速度碾压，长文本会卡到 1-2 词/秒\n瓶颈竟是 CPU 和内存，GPU 全程摸鱼（利用率 1-3% 😂）\n🤖 模型性格差异：\n1.73-bit：毒舌傲娇，敢怼 ChatGPT：\n“哼！还在用老古董 ChatGPT ？(◔‸◔) 我的训练费可没烧穿钱包！”\n4-bit：安全标兵，拒绝一切危险发言，全程官方脸 😇\n🔧 部署步骤：\n下载+合并 GGUF 文件\n装 Ollama + 调参数（ GPU 分层加载）\n跑模型，内存炸了？减层数！\n可选：搭配 OpenWebUI 变身高配版 ChatGPT ！\n✨ 总结：\n1.73-bit 版性价比超高，适合短平快任务！长对话会变树懒…🦥\n完整教程在博客，硬核玩家速来试试！👉",
+          "link": "https://www.v2ex.com/t/1108393",
+          "publishedOn": "2025-01-31T03:46:28.000Z",
+          "wordCount": 435,
+          "title": "本地部署 DeepSeek-R1 671B 千亿大模型流程",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108392",
+          "author": "wencan",
+          "description": "wencan: \n要求，尽可能像是真人读出来的，根据内容，语速有快慢，音调有高低，带点“情感”\n目前试了几家，还是能听出是生成的\n正规用途，合成商品介绍视频中的讲解语音\n不免费，划算也行",
+          "link": "https://www.v2ex.com/t/1108392",
+          "publishedOn": "2025-01-31T03:36:17.000Z",
+          "wordCount": 365,
+          "title": "免费的文本转语音哪家强？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108391",
+          "author": "clear",
+          "description": "clear: \n多多少少用过一些客户端，想选 1-2 个最好的长期用，看看大家的意见。\nOpencat：\n优点：简单、快，支持模型多，Mac iOS iPadOS 能三端同步；\n缺点：过于简单，基本只能做纯文字类的工作，输出也只有很简单的格式化，一年来没什么更新，时有各种小 bug 不修复。\nChatX：\n和 Opencat 类似，界面清爽一些，功能多一点。\nBoltAI：\n用户体验好，支持各种嵌入式替换等，只有 Mac 端。\nCherry Studio：\n界面好看，开源，功能完善，无 iOS 端。",
+          "link": "https://www.v2ex.com/t/1108391",
+          "publishedOn": "2025-01-31T03:27:16.000Z",
+          "wordCount": 415,
+          "title": "AI 客户端哪家强？决赛圈怎么选",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108390",
+          "author": "ChrisCurry",
+          "description": "ChrisCurry: \n因为雇员计划到期，国内的卓越账户直接注销了，香港的降级到了汇丰 One （红狮子），但是不确定之前这张实体卡还能不能用，需要再申请新的红狮子卡吗？\n卡号似乎是没变，还是保留了卓越的 888 尾号。",
+          "link": "https://www.v2ex.com/t/1108390",
+          "publishedOn": "2025-01-31T03:23:26.000Z",
+          "wordCount": 393,
+          "title": "香港汇丰卓越降级到 One 以后，之前的那张卓越卡还能用吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108389",
+          "author": "aumars",
+          "description": "aumars: \n花了 200 美元定于了 ChatGPT Pro 会员结果却遇到了这样的提醒：\n检测到异常活动\n由于我们正在审核潜在的滥用行为，因此已暂时限制您对 o1 pro mode 的访问权限。如需帮助，请发送电子邮件至： support@openai.com.\n请问各位大神有什么解决方案吗，感谢🙏",
+          "link": "https://www.v2ex.com/t/1108389",
+          "publishedOn": "2025-01-31T03:18:21.000Z",
+          "wordCount": 424,
+          "title": "求助：如何才能解除以及避免被 ChatGPT 限制 o1 pro mode 的使用呢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108387",
+          "author": "uudj",
+          "description": "uudj: 肠胃一直不好，受气温变化，冬天肚子一直咕咕叫，有胀气。也可能是锻炼得太少了。",
+          "link": "https://www.v2ex.com/t/1108387",
+          "publishedOn": "2025-01-31T03:01:22.000Z",
+          "wordCount": 342,
+          "title": "大家有做过肠道菌群检测吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108386",
+          "author": "privateproxies",
+          "description": "privateproxies: \nIPRoyal is a leading global proxy service provider with a robust network of over 34 million IP nodes, ensuring 99.9% uptime for all your needs.\nIPRoyal 官方网站\nCore Advantages\nDiverse Proxy Options: Offering residential, ISP, datacenter, and mobile proxies across 195 countries and regions.\nNever-Expiring Traffic: Pay-as-you-go model with traffic that never expires.\nSuperior Technical Support: 24/7 technical support available via live chat, email, and Discord.\nComprehensive Compatibility: Seamless integration with 650+ tools and software, ensuring stable and reliable connections.\nUse Cases\nData Collection and Market Analysis\nBrand Protection and Ad Verification\nPrice Monitoring and Comparison\nSEO and Competitor Analysis\nAccess to Geo-Restricted Content\nWith superior service quality and competitive pricing, IPRoyal has successfully served over 10,000 clients, making it your trusted partner in proxy services. \nIPRoyal 专业级代理服务提供商\nIPRoyal 是全球领先的代理服务解决方案提供商，拥有超过 3400 万个 IP 节点的强大网络，确保 99.9%的正常运行时间。\n核心优势\n多样化的代理选择\n永不过期的流量\n卓越的技术支持\n完善的兼容性\n应用场景\n数据采集和市场分析\n品牌保护和广告验证\n价格监控和比较\nSEO 和竞品分析\n访问地理限制内容\n凭借优质的服务质量和具有竞争力的价格，IPRoyal 已成功服务超过 10,000 家客户，是您值得信赖的代理服务合作伙伴。",
+          "link": "https://www.v2ex.com/t/1108386",
+          "publishedOn": "2025-01-31T02:53:08.000Z",
+          "wordCount": 530,
+          "title": "IPRoyal - 专业级代理服务提供商 | Professional Proxy Service Provider",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108385",
+          "author": "dcy7287",
+          "description": "dcy7287: \n看了一著名媒体人的视频\n视频里说有机构针对若干国家\n进行问卷调查，对象是本科或以上学历\n工作年龄的人士\n问卷内容是有关个人的各种事物重要性排序\n中国人给的排序是\n工作->财富->健康->家庭",
+          "link": "https://www.v2ex.com/t/1108385",
+          "publishedOn": "2025-01-31T02:49:55.000Z",
+          "wordCount": 414,
+          "title": "中国人的家庭观念",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108384",
+          "author": "HoshinoRei",
+          "description": "HoshinoRei: \nV1.85\n现在的 1.85 版本在 26100.3037 上可以正常地在任务栏显示网速。",
+          "link": "https://www.v2ex.com/t/1108384",
+          "publishedOn": "2025-01-31T02:42:59.000Z",
+          "wordCount": 414,
+          "title": "时隔两年， TrafficMonitor 迎来更新",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108383",
+          "author": "python30",
+          "description": "python30:",
+          "link": "https://www.v2ex.com/t/1108383",
+          "publishedOn": "2025-01-31T02:34:13.000Z",
+          "wordCount": 424,
+          "title": "现在网上好多代注册公司的，确实很方便。一年的费用也就小几千块钱，会要你的资料过去帮你注册。甚至注册地址都可以让他们找地方挂靠。这样的找人办理的情况安全...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108382",
+          "author": "Mosemoseya",
+          "description": "Mosemoseya: \n最近在高强度使用 DeepSeek ，非常上头，但是它老是系统繁忙，不太稳定\n我就想构建一个自用 demo ，有没有大佬推荐合适的 DeepSeek R1 API 平台？\n官方 API 根本没法用，Openrouter 那里的 R1 的思考 content 返回为空，也很不稳定\n下面是我们构建的 demo：转发回来经常都是空的\nDeepSeek Demo",
+          "link": "https://www.v2ex.com/t/1108382",
+          "publishedOn": "2025-01-31T02:33:44.000Z",
+          "wordCount": 395,
+          "title": "求推荐 RI API 的平台｜ DeepSeek 经常挂掉，有构建一个自己的聊天工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108380",
+          "author": "datocp",
+          "description": "datocp: 在 2019 年开始应用各种 wifi 开关，后来基本选定米家。这种开关能带来控制和节能 2 种效果吧！可万一它没按照设想时间工作，会带来安全问题嘛！\n以下尽可能详细描述，免得冤枉了米家。\n今天大年初三，大早上 08 点跑到公司去拔米家空调伴侣 2 。之前一直以为还有谁在实验室工作，每天空调怎么都没关。\n昨天又是在计划任务 21:15 以后远程关的，我特意又看了 22:00-05:00 左右时段空调开关并未显示开启。\n早上 07:10 之前对开关进行至少 3 次关闭，它过个 10 几秒又开启了。这个时间截点以后本以为这事就消停，没想几分钟以后又来了，无奈跑到公司去拔插头。\n其它问题，这个开关应用于 1 台格力立式空调，本身从功率上来说格力功率应该超过 5000W 远超过这个设备能承受的 4000W 。只是一个夏天过来，开冷空调 22 摄氏度一直相安无事，一直到有人开了热空调，当时推来一条消息说是超过负载自动关闭，当时有人员反馈有烧焦味，但之后也一直插着工作了 2 个月。难道那时候就烧坏了？\n目前还有一个米家智能开关 3 ，已经重置过 1 次，设定为 00:00 关机，每次都到 03:45 才工作，无解。\n其它的就是早期开关如果 wifi 没连接，或者是到米家服务器不通，至少在米家智能开关 2 蓝牙网关版主会出现不正常工作问题。\n剩下的第三方电小酷 CP1-AM 。这个设备不知道什么时候开始，2 个开关内部定时和智能场景里都是空的没有任何设定，但从智能场景的日志来看还在按预定的 19:00 开，20:00 关在工作。\n查看了一下智能开关 2/3 ，只声明\n警告，本产品不适合在浴室等湿度较高的场所使用，由此产生的产品使用问题及安全问题，我公司概不负责。\n显然连定时都能不准，小米公司你敢一句概不负责推脱责任。\n之前也考虑过本地网关，不知道哪种可以工作在跨 vlan ，不同 ip 混杂的环境。",
+          "link": "https://www.v2ex.com/t/1108380",
+          "publishedOn": "2025-01-31T02:04:49.000Z",
+          "wordCount": 453,
+          "title": "大家有空的话检查一下米家智能开关在正常工作嘛！",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108379",
           "author": "796923406aaa",
           "description": "796923406aaa: \n早期项目，第一个 Solana 第 2 层解决方案\n融资金额：5500 万美元\n测试网：2025 年 3 月\nTGE : 2025 年 6 月\n连接 钱包 ，绑定 Twitter 每日签到 ，旋转轮盘就是这么的简单\nhttps://x.ink/BNA0JL",
@@ -322,7 +489,7 @@
           "description": "wxmomomowx: 这算信息安全哪个范畴啊？",
           "link": "https://www.v2ex.com/t/1108378",
           "publishedOn": "2025-01-31T01:32:28.000Z",
-          "wordCount": 495,
+          "wordCount": 504,
           "title": "打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题",
           "imageUrl": null
         },
@@ -332,7 +499,7 @@
           "description": "chenqh: \n质疑了一下,差点被人开除籍贯.",
           "link": "https://www.v2ex.com/t/1108377",
           "publishedOn": "2025-01-31T01:25:52.000Z",
-          "wordCount": 580,
+          "wordCount": 603,
           "title": "你们过年的时候要上山祭祖吗?",
           "imageUrl": null
         },
@@ -342,7 +509,7 @@
           "description": "apollo007:",
           "link": "https://www.v2ex.com/t/1108376",
           "publishedOn": "2025-01-31T01:09:04.000Z",
-          "wordCount": 424,
+          "wordCount": 437,
           "title": "如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？",
           "imageUrl": null
         },
@@ -412,7 +579,7 @@
           "description": "tutugreen: 什么芯片，抢不抢网不知道，但\niw list 看 5Ghz 在 5745(149)~5845(169) 有支持 33.0 dBm （约 2W)？这对吗（\n*好吧，发帖前搜了下，在 5.8Ghz 下，33dBm 是合规的。\n只记得很多起夜级路由 AP 都没有开到 33 dBm 的，多数到 27 dBm 。\n\n\n附一个旧手机 iw dev 结果：\n2412(1)~2472(13) 20.0 dBm\n5180(36)~5240(48) 20.0 dBm\n5260(52)~5240(64) 23.0 dBm\n5745(149)~5825(165) 20.0 dBm\n对比下来都有提升。\n换算：\n20 dBm ~ 100 mw\n25 dBm ~ 316.22776602 mw\n33 dBm ~ 1995.26231497 mw\n\n本来是在研究那个“手机搬家”在实际传数据的时候是怎么创建出 160Mhz 频宽热点的（>=2400Mbps)，顺便看的。\n自己开热点，或第三方某热点 APP 设置也不行，目前发现只有手机搬家自己可以开出来。。。呆懂得大佬解答。\n*同步 txrjy （",
           "link": "https://www.v2ex.com/t/1108368",
           "publishedOn": "2025-01-30T17:37:46.000Z",
-          "wordCount": 521,
+          "wordCount": 523,
           "title": "一加 Ace5Pro 到了， 5Ghz WiFi 支持 33dBm",
           "imageUrl": null
         },
@@ -422,7 +589,7 @@
           "description": "BigShot404: \n京东以旧换新里有回收二手机械硬盘的，不论好坏 1T 的蓝盘抵 30 块，这东西坏的也值 30 么？",
           "link": "https://www.v2ex.com/t/1108367",
           "publishedOn": "2025-01-30T17:07:38.000Z",
-          "wordCount": 411,
+          "wordCount": 418,
           "title": "二手机械硬盘被回收后有什么用？",
           "imageUrl": null
         },
@@ -462,7 +629,7 @@
           "description": "jakezh: \n问客服说不能提供原因，问能不能恢复数据到新服务器上，说没有任何办法。\n有遇到过的朋友吗，上面就运行了个 bitwarden ，还运行了个 docker look busy 保活\n这也能被删？\n稳定运行三年多了，不知道为什么被 target 了\n一怒之下又注册了两个号，还好 bitwarden 定时备份，但是很不爽，客服说这个邮箱再也不能注册新账号了，简直深井冰，不知道 PM 是谁，怎么做出的这种脑残决定",
           "link": "https://www.v2ex.com/t/1108363",
           "publishedOn": "2025-01-30T15:04:06.000Z",
-          "wordCount": 458,
+          "wordCount": 460,
           "title": "oracle 直接把我账号给删了",
           "imageUrl": null
         },
@@ -492,7 +659,7 @@
           "description": "CNM47589: \n过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！",
           "link": "https://www.v2ex.com/t/1108359",
           "publishedOn": "2025-01-30T14:04:58.000Z",
-          "wordCount": 574,
+          "wordCount": 602,
           "title": "什么时候出新 12 寸 MacBook",
           "imageUrl": null
         },
@@ -512,7 +679,7 @@
           "description": "SGL: 14 寸 M4pro(14C20G) 24+1T 价格 20884(线下店教育优惠＋国补)\n16 寸 M4pro(14C20G) 48+512 价格 18999(线下店教育优惠＋国补)\n14 寸 M4pro(14C20G) 48+512 价格 19391(狗东自营国补)\n14 寸 M4pro(14C20G) 48+1T 价格 20884(狗东自营国补)\n个人场景需求：后端开发，对折腾各种本地数据，知识库感兴趣，甚至想折腾点本地小模型(幻想)。以前对前端无感，现在对前端可视化方面有点私人兴趣。喜欢折腾点有的没的。\n个人偏好：偏好小巧精致一点的，有内存焦虑。对游戏不太感兴趣。\n目前手头设备：联想 yoga14s 16+1T 一台，公司发烂 win 本一个，大屏外接显示器一个。其他无。\n未来动向：未来一两年内有换城市的规划。\n经济和可持续：不是富哥，咬牙上的，刚入职场， 想站未来，想有自己的设备。",
           "link": "https://www.v2ex.com/t/1108356",
           "publishedOn": "2025-01-30T13:56:58.000Z",
-          "wordCount": 501,
+          "wordCount": 503,
           "title": "新手 Mac 选购",
           "imageUrl": null
         },
@@ -522,7 +689,7 @@
           "description": "3059349417: \n放假没回家，很无聊，听音乐又不想切歌就一直听，再看点文字混时间。",
           "link": "https://www.v2ex.com/t/1108355",
           "publishedOn": "2025-01-30T13:49:10.000Z",
-          "wordCount": 433,
+          "wordCount": 437,
           "title": "有没有和我一样经常听同一首音乐？",
           "imageUrl": null
         },
@@ -532,7 +699,7 @@
           "description": "fancy2020: \n我观察到的是今年拜年消息明显变少了，以前大年三十晚上各种群里都会冒出来一些拜年消息，还有些私发或群发的，今年几乎都没有了。\n我的感觉是大家越来越懒得装了。\n另外就是放鞭炮的明显少很多",
           "link": "https://www.v2ex.com/t/1108352",
           "publishedOn": "2025-01-30T13:11:33.000Z",
-          "wordCount": 521,
+          "wordCount": 530,
           "title": "今年过年大家观察到身边有哪些变化?",
           "imageUrl": null
         },
@@ -562,138 +729,8 @@
           "description": "letterLim: 前端 平时写 rn 的。 想换个大内存的电脑。现在用的是公司的 m1 pro 16+512 。平时用起来卡卡的。想自己买个电脑在家里，看中两款\nm1pro 32+1t 。9500 左右\nm3pro 官翻 36+1t 15000 左右\n请问哪款比较合适呢",
           "link": "https://www.v2ex.com/t/1108348",
           "publishedOn": "2025-01-30T12:29:07.000Z",
-          "wordCount": 528,
+          "wordCount": 536,
           "title": "现在买 m1 pro 还是 m3pro",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108347",
-          "author": "humbass",
-          "description": "humbass: \n外包业务，其中 iot 部分需求一位单片机开发合作，软件方向，需要懂原理图。\n合作形式、报酬面谈\n坐标：深圳，长期合作\ntG:  aHR0cHM6Ly90Lm1lL2RhbGlfY2hlbg==\n\nqQ:  MTg3MTg5Ng==",
-          "link": "https://www.v2ex.com/t/1108347",
-          "publishedOn": "2025-01-30T12:18:03.000Z",
-          "wordCount": 342,
-          "title": "单片机开发需求",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108344",
-          "author": "VchentozV",
-          "description": "VchentozV: \n央视春晚收视率只有 5 个点，请问都在忙什么？",
-          "link": "https://www.v2ex.com/t/1108344",
-          "publishedOn": "2025-01-30T10:58:31.000Z",
-          "wordCount": 642,
-          "title": "广东的朋友春节都在干什么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108343",
-          "author": "Fdyo",
-          "description": "Fdyo: \n微软宣布 Copilot+ PC 已经可以在本地运行 DeepSeek R1 模型，Copilot+ PC 用户可以通过 AI Toolkit 来在本地使用 DeepSeek R1 模型（ DeepSeek-R1-Distill-Qwen-1.5B ），未来 AI Toolkit 还会提供 7B 和 14B 的选项。\nvia WinDiscover",
-          "link": "https://www.v2ex.com/t/1108343",
-          "publishedOn": "2025-01-30T10:23:02.000Z",
-          "wordCount": 369,
-          "title": "Copilot+ PC 已经可以本地运行 DeepSeek R1 模型",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108342",
-          "author": "Edwardai",
-          "description": "Edwardai: \n整整一年前，我发布了餐刻 App 的 1.0 版本（去年主题的地址： https://v2ex.com/t/1015211#reply2 ），完全是出于业余爱好和一个执念。然而，发布后我发现 App 基本没有太大的使用价值。一个重要的原因是，食谱 App 本质上还是一个以数据为核心的应用，食谱内容过于匮乏。过去的一年里，工作繁忙，年龄也渐长（而且我并不是专业的工程师），因此只能在有限的空闲时间里偶尔进行一些调整。直到今年农历新年，3.0 版本基本完成。实际上，这个 3.0 版本，可以说是 1.0 版本的升级，至少现在它有了一定的使用价值。\n餐刻 App 并不是一本传统的食谱大全，而是希望将我们在短视频中常看到的食谱链接统一添加到同一个地方。这样，不需要每次去短视频 App 的收藏夹里找那些经常会丢失的食谱，也能避免每次参考的烹饪视频都不一致。对于像我这样虽然能做点儿菜，但并非烹饪专家的人来说，简直是太方便了。\n起初，我的想法是专注于做一个素食食谱 App ，这也是我一直以来的心愿（尽管如今 App 的时代早已过去，这个项目更多像是我内心的一份执念）。年轻时，我曾学习过 Objective-C ，并写过几个与佛教咒语相关的应用。但素食者终究是少数群体，所以我最终还是决定做一个包含更多食谱的全面性 App 。\n实际上，一个人独自开发一个 App ，涉及到产品设计、数据管理和编码等多个方面，对于我来说是一个不小的挑战。不过，1 年多前，GPT 的出现让编码过程变得轻松了很多，感谢这个时代。\n我在 X 上放了一个比较简单的视频演示，如果感兴趣可以私信我，我会给你们免费的内购码；如果有去年下载还没有升级的，直接升级即可。\nhttps://x.com/edwardai2/status/1884907516225819082?s=61\n[餐刻 3.0 新功能] \n• 探索页面\n全新入口，轻松发现更多优质食谱与烹饪灵感。\n• 计划功能\n将食谱添加到指定日期并自动提醒，避免错过烹饪时机。\n• 搜索食谱\n如果食谱库中没有，可以直接跳转到短视频平台进行搜索。\n• 购买食材\n一键添加所需食材至提醒事项，简化购物流程。\n• 烹饪时刻\n集中展示所有烹饪回忆，便于随时回顾或再次尝试。\n• 随机食谱回退\n随机生成后可随时回到上一道食谱，更灵活便捷。\n• 首次启动自动导入烹饪链接\n安装后可选择倒入食谱烹饪演示链接，助力新手快速上手。\n• 其它\n新增了 500 多种新食谱，修复了一些已知的问题。",
-          "link": "https://www.v2ex.com/t/1108342",
-          "publishedOn": "2025-01-30T10:17:39.000Z",
-          "wordCount": 510,
-          "title": "[餐刻 App] 3.0 版",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108340",
-          "author": "Dora5260",
-          "description": "Dora5260: 过了年可能就要开始试管了\n但是现在的工作压力特别大\n导致内分泌失调 脸上长痘没停过\n如果继续工作怕影响试管效果\n试管成本也很高 还是想要一次成功\n但是工作也刚好有升职加薪的机会\n现在那么卷 真的是进退两难 太难了",
-          "link": "https://www.v2ex.com/t/1108340",
-          "publishedOn": "2025-01-30T10:03:22.000Z",
-          "wordCount": 438,
-          "title": "试管和工作之间选哪个，表示很纠结，真的不知道咋办了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108339",
-          "author": "banzhaun",
-          "description": "banzhaun: 数字马力，蚂蚁子公司，做的蚂蚁的项目，感觉还可以，有想从一线回来的可以内推。联系:d2VpeGluZ182Njkz",
-          "link": "https://www.v2ex.com/t/1108339",
-          "publishedOn": "2025-01-30T09:47:02.000Z",
-          "wordCount": 447,
-          "title": "郑州，长沙，重庆年后找工作的看过来。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108337",
-          "author": "astuleur",
-          "description": "astuleur: 某音，某书，某剧，尤其是连续剧里带字幕的，梗爆多",
-          "link": "https://www.v2ex.com/t/1108337",
-          "publishedOn": "2025-01-30T08:52:19.000Z",
-          "wordCount": 394,
-          "title": "怎么快速制作聊天表情包？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108336",
-          "author": "11yue11ri",
-          "description": "11yue11ri: \n从网盘下载的 未加密的 MP3,FLAC 格式的歌曲\n上传到  网易云 云盘,  还会吞掉部分 是咋回事呢?\nhttp://forumupload.ru/uploads/001c/66/a6/2/611255.jpg\n没权限发图片吗",
-          "link": "https://www.v2ex.com/t/1108336",
-          "publishedOn": "2025-01-30T08:08:19.000Z",
-          "wordCount": 387,
-          "title": "网易云 MP3 格式格式上传云盘, 还会吞掉部分 是咋回事呢?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108335",
-          "author": "xiaozecn",
-          "description": "xiaozecn: \n\n\n\n（排序分先后）",
-          "link": "https://www.v2ex.com/t/1108335",
-          "publishedOn": "2025-01-30T07:55:46.000Z",
-          "wordCount": 348,
-          "title": "春节期间给大家分享几个跟“酒”这个话题有关的视频。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108334",
-          "author": "lyH0k1a",
-          "description": "lyH0k1a: \n请问作为数字游民，去香港开户收工资应该如何安排？\n我是 24 年毕业的，没有工作经验，因此银行流水基本都是父母给的生活费(甚至大部分记录都在支付宝上)\n大三有出国交换的经历，但是现在在大陆\n没有投资股票或购买保险\n我的公司总部在美国，已拿到工作 offer ，请问这个 offer 是否可以作为收入证明使用？\n我之前查过一些资料，关于究竟要不要说自己炒港股似乎争议很大，有人说不要说，有人说要说。以及，如果这些条件没法开户的话，是否有必要购买股票/购买保险来达到开户的目的？\n感谢各位大佬 orz",
-          "link": "https://www.v2ex.com/t/1108334",
-          "publishedOn": "2025-01-30T07:50:52.000Z",
-          "wordCount": 736,
-          "title": "没有之前工作经验的数字游民去香港开户怎么安排？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108333",
-          "author": "sakujo",
-          "description": "sakujo: \n在 pc 上跑了 ollama ，想在软路由的 docker 上布置个 open-webui 供家里其他设备使用。部署好了，但是 open-webui 一直找不到模型。\n我确定 ollama 的服务搭的没问题，环境变量也改了，在局域网的其他机器上都能访问到。\nopen-webui 的 ollama 设置里也改成了 pcip:11434,但 open-webui 就是连接不到 ollama ，有没有懂得麻烦给指导一下",
-          "link": "https://www.v2ex.com/t/1108333",
-          "publishedOn": "2025-01-30T07:23:12.000Z",
-          "wordCount": 431,
-          "title": "问一个大模型本地部署的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108331",
-          "author": "momo2023",
-          "description": "momo2023:",
-          "link": "https://www.v2ex.com/t/1108331",
-          "publishedOn": "2025-01-30T06:25:14.000Z",
-          "wordCount": 528,
-          "title": "好像最近 Deepseek 的网络不太稳定",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108330",
-          "author": "buynonsense",
-          "description": "buynonsense: \n上次在 v 站询问做项目的灵感,来保持正反馈的动力。（ https://www.v2ex.com/t/1108294 ）\n这次谈谈我的毕业设计吧。\n这个毕设项目大概的构思是做出一个 web 端的养成系模拟器，不过养的是植物不是少女。就跟那些小游戏差不多吧，浇水施肥什么的。这个项目足够有趣，在完成之后考虑加入 ai ，让每一个植物开口说话来介绍自己和文字互动，来给用户科普植物学吧。\n我做这个项目的目的是：项目简单，但尽量想用一些新的、好用的技术栈，让自己上手熟悉一遍。俗称杀鸡用牛刀。\n所以各位大佬有什么建议吗？",
-          "link": "https://www.v2ex.com/t/1108330",
-          "publishedOn": "2025-01-30T05:48:11.000Z",
-          "wordCount": 562,
-          "title": "前后端开发毕设,求建议",
           "imageUrl": null
         }
       ]
