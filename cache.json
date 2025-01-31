@@ -12,6 +12,16 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=383910",
+          "author": "Geoff Graham",
+          "description": "Did you see the release notes for Chrome 133? It's currently in beta, but the Chrome team has been publishing a slew of new articles with pretty incredible demos that are tough to ignore. I figured I'd round those up in one place.\nChrome 133 Goodies originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/chrome-133-goodies/",
+          "publishedOn": "2025-01-31T15:27:50.000Z",
+          "wordCount": 2572,
+          "title": "Chrome 133 Goodies",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383910"
+        },
+        {
           "id": "https://css-tricks.com/?p=384089",
           "author": "Juan Diego Rodríguez",
           "description": "All of the things that the CSS Working Group would change if they had a time-traveling Delorean to go back and do things over.\nThe Mistakes of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -137,12 +147,6 @@
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383383"
         }
       ]
-    },
-    {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -329,7 +333,7 @@
           "description": "SGL:",
           "link": "https://www.v2ex.com/t/1108446",
           "publishedOn": "2025-01-31T13:35:23.000Z",
-          "wordCount": 376,
+          "wordCount": 402,
           "title": "刚进入职场的程序员应该在哪些方面提升自己，如何看好未来的路",
           "imageUrl": null
         },
@@ -339,7 +343,7 @@
           "description": "DopaminePlz: \n前几年搭建的容器，现在都不能用了：\nkmb32123/youtube-dl-server：增加--cookies 选项可以用，但是没有 WebUI ；\ntzahi12345/youtubedl-material：也提示 Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication ，但是在 WebUI 上上传了 cookie 文件也照旧出错。\n请问有哪些容器（带 WebUI ）现在还是可用的？",
           "link": "https://www.v2ex.com/t/1108445",
           "publishedOn": "2025-01-31T13:15:14.000Z",
-          "wordCount": 425,
+          "wordCount": 432,
           "title": "有哪些 Youtube 下载工具（带 WebUI 的容器）还可用？",
           "imageUrl": null
         },
@@ -359,7 +363,7 @@
           "description": "alect: 坐标安徽电信，测了几个外地的异网测速点，\n都能跑满或者半满吧，不像以前晚高峰时期限制在 6Mbps 左右。",
           "link": "https://www.v2ex.com/t/1108443",
           "publishedOn": "2025-01-31T13:14:05.000Z",
-          "wordCount": 355,
+          "wordCount": 357,
           "title": "大过节的，跨网 QOS 疑似取消",
           "imageUrl": null
         },
@@ -369,7 +373,7 @@
           "description": "piaochen0: \n家里初二固定节目，是我外婆这边家庭聚会，基本上要聚一天。\n一大家子吃饭的时候，好不容易找到引起一些大家都有话说的话题，也基本上点到为止，要么要么被长辈给粗暴打断，要么由于观点差异巨大适可而止。  \n由于从小就痛恨打牌，下午闲暇时刻，满满一大屋子的人，发现能跟我聊天的，居然也就剩下表弟家一个 6 ，7 岁大的小孩。\n我发现那个小女孩一直在玩恐龙的玩具，我就把我逛博物馆拍的恐龙照片给她看，她两眼立马放光，跟她讲了一下午各种恐龙...    \n晚上吃完饭各自散去，怅然若失。   \n不知道你们的家庭聚会是不是也是这样？是怎么打法这样的时间的，还是有什么方法能把这样家庭聚会变的更有意思。",
           "link": "https://www.v2ex.com/t/1108442",
           "publishedOn": "2025-01-31T13:04:19.000Z",
-          "wordCount": 515,
+          "wordCount": 528,
           "title": "过年，亲戚待在一起，是如何打发时间的？",
           "imageUrl": null
         },
@@ -399,7 +403,7 @@
           "description": "kurthumburgmtz97: \n比如：ChatGPT 到底有多厉害？  \n里面必然会推知乎的写作训练营之类的  \n我怎么发现的呢？因为同一个问题（或类似的问题）重复出现几百次了！",
           "link": "https://www.v2ex.com/t/1108439",
           "publishedOn": "2025-01-31T12:42:38.000Z",
-          "wordCount": 369,
+          "wordCount": 375,
           "title": "一个冷知识：知乎首页第 2 个问答，必然含有广告",
           "imageUrl": null
         },
@@ -469,7 +473,7 @@
           "description": "teenthsch: \n目前无需注册即可开始使用，欢迎体验\nanimeprofilepictures.com",
           "link": "https://www.v2ex.com/t/1108427",
           "publishedOn": "2025-01-31T10:46:12.000Z",
-          "wordCount": 371,
+          "wordCount": 373,
           "title": "开发了一个 ai 生成动漫图片的网站",
           "imageUrl": null
         },
@@ -489,7 +493,7 @@
           "description": "apollo007: \n做对的事情，把事情作对，当然非常重要，在执行层面我发现发现错了马上改，才是最重要的人生法则。\n我发现，通常情况下，犯一次错是不会造成太大的代价的，真正造成致命打击的是一错再错，错上加错，一错到底。\n如果能遵循“发现错了马上改”，通常结局都不会太差。\n例子太多了，\n健康问题，发现身体毛病及时看医生及时处理，别等到小病变成大病再处理\n感情问题，在谈恋爱阶段发现对方不合适及时分手，别拖到进入婚姻有了孩子再离婚\n工作问题，发现工作不适合自己马上跳槽，别耗上几年青春再追悔莫及\n股票投资问题，发现买错股票马上抛，别等未来能不能回本\n遇到骗子朋友/亲戚，马上拉黑不来往\n。。。都是如此。\n最好是能建立一个条件反射，让自己毫不犹豫的执行“发现错了马上改”的指令。",
           "link": "https://www.v2ex.com/t/1108424",
           "publishedOn": "2025-01-31T10:16:28.000Z",
-          "wordCount": 489,
+          "wordCount": 511,
           "title": "发现错了马上改，是最重要的人生法则。",
           "imageUrl": null
         },
@@ -509,7 +513,7 @@
           "description": "hzqim: 借助 MSMG toolkit 对 Windows 10 镜像进行精简，在精简掉 WD 、安全中心、防火墙等组件后如常安装系统，安装后一切如愿。但进行系统更新后，精简的组件又被安装回来了。\n请问有没有方法，既可以顺利更新系统，又可以在更新后不安装被精简的组件？",
           "link": "https://www.v2ex.com/t/1108422",
           "publishedOn": "2025-01-31T09:55:04.000Z",
-          "wordCount": 448,
+          "wordCount": 469,
           "title": "如何禁止 Windows 10 精简的组件，在 Windows Update 更新后再次安装？",
           "imageUrl": null
         },
@@ -519,7 +523,7 @@
           "description": "Rust2015: 现在 webstorm 也免费了，说说你们的理由",
           "link": "https://www.v2ex.com/t/1108420",
           "publishedOn": "2025-01-31T09:46:27.000Z",
-          "wordCount": 544,
+          "wordCount": 550,
           "title": "webstorm 和 vscode，你选哪个：",
           "imageUrl": null
         },
@@ -529,7 +533,7 @@
           "description": "dcy7287: \n无论你拿多少东西都把你当外人\n好像女儿天生低人一等一样\n儿子拿东西是给家里置办年货，女儿拿东西好像是欠娘家的一样",
           "link": "https://www.v2ex.com/t/1108419",
           "publishedOn": "2025-01-31T09:34:53.000Z",
-          "wordCount": 453,
+          "wordCount": 464,
           "title": "回娘家真没意思",
           "imageUrl": null
         },
@@ -549,7 +553,7 @@
           "description": "drymonfidelia: NVIDIA 官方宣称 5070 帧率表现相当于 4090 ，但是我看很多博主测评说是 DLSS AI 插值的效果，实际效果远不如真正的 4090 ，在 UI 和游戏画面交接处经常出现扭曲",
           "link": "https://www.v2ex.com/t/1108417",
           "publishedOn": "2025-01-31T09:01:34.000Z",
-          "wordCount": 693,
+          "wordCount": 694,
           "title": "以前 NVIDIA 两代间的显卡有像 4080->5080 提升幅度这么小（综合看只有 10%）的吗？ 5080 性价比真的非常低吗？最近制作游戏想升级下显卡， 4080 还是 5080 更值",
           "imageUrl": null
         },
@@ -559,7 +563,7 @@
           "description": "luluaa:",
           "link": "https://www.v2ex.com/t/1108416",
           "publishedOn": "2025-01-31T08:52:49.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "腾讯云 VPS 到期了，资源也释放了，请问还有什么办法恢复吗？",
           "imageUrl": null
         },
@@ -569,7 +573,7 @@
           "description": "YGHMXFAL: \n我经常在手机上使用 zarchiver 来打压缩包,然后传输到其它设备或者网盘\n但是我发现为压缩包取名对我而言是一件很费脑的事儿,我觉得只需要为它编号就足够了\n但是又有强迫症,不知道是否存在一款 APP,能够让我输入数字,然后它使用 0 补全到指定长度,再让我复制结果,就类似  printf '%08d' '56'  这种效果",
           "link": "https://www.v2ex.com/t/1108415",
           "publishedOn": "2025-01-31T08:35:05.000Z",
-          "wordCount": 447,
+          "wordCount": 460,
           "title": "大家新年好!请问是否存在一款格式化指定数字的 Android APP 呢?输出效果类似于 printf 那种?",
           "imageUrl": null
         },
@@ -589,7 +593,7 @@
           "description": "busterian: 海关会因为中国缺少高端芯片网开一面不税它吗?\n如果不网开一面的话,出境申报时把笔记本和显卡显卡坞一起申报(笔记本很多都支持 oculink), 回来时把 5090 显卡换壳带回来怎么样?",
           "link": "https://www.v2ex.com/t/1108412",
           "publishedOn": "2025-01-31T07:48:24.000Z",
-          "wordCount": 460,
+          "wordCount": 475,
           "title": "去日本旅游带块 5090 回来能回多少?",
           "imageUrl": null
         },
@@ -609,7 +613,7 @@
           "description": "nightnotlate: 我自己买的，\n1 养生壶，很快底部就生锈，看评论是常见问题，客服说这不是质量问题。\n2 新风机 300 ，不到半年不出风，报修后第一次换了电机没好，后面说是里面的板子坏了，第二次上门免费换后修好了。\n3 净水器 h1000g ，过保了，年前还是正常的，年后回来通电没反应了。\n查了下价格 维修估计要三百左右。\n心塞",
           "link": "https://www.v2ex.com/t/1108409",
           "publishedOn": "2025-01-31T07:13:02.000Z",
-          "wordCount": 718,
+          "wordCount": 759,
           "title": "小米小家电的质量真是不敢恭维",
           "imageUrl": null
         },
@@ -619,7 +623,7 @@
           "description": "Joomaen: \n比如我的图片链接是\nhttps://coastal-silver-moose.myfilebase.com/ipfs/QmNUxGJsRXq8aDnGkyQhrQyoNQZCzjV13771qii6ET8bEb\n\n当网关挂了导致图片无法加载时，将/ipfs/xxx 前面的部分动态替换掉。\n能否用油猴脚本实现",
           "link": "https://www.v2ex.com/t/1108408",
           "publishedOn": "2025-01-31T06:50:47.000Z",
-          "wordCount": 453,
+          "wordCount": 455,
           "title": "能否动态替换网关",
           "imageUrl": null
         },
@@ -629,7 +633,7 @@
           "description": "lvyc: \n之前有个帖子说计算机是普通人能选择的最好专业，\n但现在观身边样本（我哥我姑父以及朋友）有感。航空行业真是越老越吃香，面试不难，学校只要是个中国民航大学都可以随便去各个公司，只是刚毕业可能工资没那么高，大概七八千，过个几年就月薪一万到两万了，还稳定…这不比计算机好吗",
           "link": "https://www.v2ex.com/t/1108404",
           "publishedOn": "2025-01-31T05:37:08.000Z",
-          "wordCount": 614,
+          "wordCount": 620,
           "title": "观航空行业有感…",
           "imageUrl": null
         },

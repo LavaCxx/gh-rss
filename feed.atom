@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-31T15:11:07.694Z</id>
+    <id>urn:2025-01-31T16:13:15.243Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-31T15:11:07.694Z</updated>
+    <updated>2025-01-31T16:13:15.243Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
+        <id>https://css-tricks.com/?p=383910</id>
+        <link href="https://css-tricks.com/chrome-133-goodies/"/>
+        <updated>2025-01-31T15:27:50.000Z</updated>
+        <summary type="html"><![CDATA[Did you see the release notes for Chrome 133? It's currently in beta, but the Chrome team has been publishing a slew of new articles with pretty incredible demos that are tough to ignore. I figured I'd round those up in one place.
+Chrome 133 Goodies originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[刚进入职场的程序员应该在哪些方面提升自己，如何看好未来的路]]></title>
         <id>https://www.v2ex.com/t/1108446</id>
