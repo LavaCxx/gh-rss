@@ -139,12 +139,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -329,7 +323,7 @@
           "description": "796923406aaa: \n早期项目，第一个 Solana 第 2 层解决方案\n融资金额：5500 万美元\n测试网：2025 年 3 月\nTGE : 2025 年 6 月\n连接 钱包 ，绑定 Twitter 每日签到 ，旋转轮盘就是这么的简单\nhttps://x.ink/BNA0JL",
           "link": "https://www.v2ex.com/t/1108379",
           "publishedOn": "2025-01-31T01:49:46.000Z",
-          "wordCount": 359,
+          "wordCount": 382,
           "title": "XOS 空投项目",
           "imageUrl": null
         },
@@ -339,7 +333,7 @@
           "description": "wxmomomowx: 这算信息安全哪个范畴啊？",
           "link": "https://www.v2ex.com/t/1108378",
           "publishedOn": "2025-01-31T01:32:28.000Z",
-          "wordCount": 376,
+          "wordCount": 463,
           "title": "打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题",
           "imageUrl": null
         },
@@ -349,7 +343,7 @@
           "description": "chenqh: \n质疑了一下,差点被人开除籍贯.",
           "link": "https://www.v2ex.com/t/1108377",
           "publishedOn": "2025-01-31T01:25:52.000Z",
-          "wordCount": 458,
+          "wordCount": 521,
           "title": "你们过年的时候要上山祭祖吗?",
           "imageUrl": null
         },
@@ -359,7 +353,7 @@
           "description": "apollo007:",
           "link": "https://www.v2ex.com/t/1108376",
           "publishedOn": "2025-01-31T01:09:04.000Z",
-          "wordCount": 390,
+          "wordCount": 405,
           "title": "如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？",
           "imageUrl": null
         },
@@ -369,7 +363,7 @@
           "description": "dcy7287: \n人均利润 10 万每年，那就是 100 亿了",
           "link": "https://www.v2ex.com/t/1108375",
           "publishedOn": "2025-01-31T01:02:06.000Z",
-          "wordCount": 399,
+          "wordCount": 442,
           "title": "妙瓦底有 36 个团伙，“员工”超十万人",
           "imageUrl": null
         },
@@ -379,7 +373,7 @@
           "description": "wniming: \n我在 m2 的 macbook air 上使用 asahi linux ，打字时右手手掌经常会因为触摸到触摸板导致光标移动，这部分区域在 macos 系统下之所以不会在打字时误触是因为 macos 使用了一种神经网络算法来判断用户是否在操作触摸板，asahi linux 不太可能开发一套类似效果的算法来解决误触的问题。所以我想通过禁用掉容易误触的这 1/3 的触摸板空间来避免误触。\nPS:\n虽然可以在 kde 里设置打字时禁用触摸板，但这会导致触摸板的响应略微变慢",
           "link": "https://www.v2ex.com/t/1108374",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 446,
+          "wordCount": 487,
           "title": "Linux 如何限制笔记本电脑触摸板的大小？",
           "imageUrl": null
         },
@@ -389,7 +383,7 @@
           "description": "haixinsc: \n外网访问 NAS 下载文件，直接限速 3M ，如果用 wireguard 连回去，下载速率能到 60M ，以前直连可以到 100M.\nIP 180.172 ，MTU 1492",
           "link": "https://www.v2ex.com/t/1108373",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 372,
+          "wordCount": 374,
           "title": "上海电信 上传限速",
           "imageUrl": null
         },
@@ -399,7 +393,7 @@
           "description": "wniming: \n用 remuxing 方法播放时非常卡顿，jellyfin 官方文档对 remuxing 这种播放方法就只有一行解释：\nhttps://jellyfin.org/docs/general/server/transcoding/\nRemux: Changes the container but leaves both audio and video streams untouched.\n这个解释中的更改容器我不知道指的是什么容器，google 搜 jellyfin container 搜出来的都是 docker 容器，但我觉得这个问题应该跟 docker 容器无关。",
           "link": "https://www.v2ex.com/t/1108372",
           "publishedOn": "2025-01-31T00:13:30.000Z",
-          "wordCount": 437,
+          "wordCount": 447,
           "title": "jellyfin 播放视频的 remuxing 播放方法是什么？如何避免用这种方法播放？",
           "imageUrl": null
         },
@@ -429,7 +423,7 @@
           "description": "tutugreen: 什么芯片，抢不抢网不知道，但\niw list 看 5Ghz 在 5745(149)~5845(169) 有支持 33.0 dBm （约 2W)？这对吗（\n*好吧，发帖前搜了下，在 5.8Ghz 下，33dBm 是合规的。\n只记得很多起夜级路由 AP 都没有开到 33 dBm 的，多数到 27 dBm 。\n\n\n附一个旧手机 iw dev 结果：\n2412(1)~2472(13) 20.0 dBm\n5180(36)~5240(48) 20.0 dBm\n5260(52)~5240(64) 23.0 dBm\n5745(149)~5825(165) 20.0 dBm\n对比下来都有提升。\n换算：\n20 dBm ~ 100 mw\n25 dBm ~ 316.22776602 mw\n33 dBm ~ 1995.26231497 mw\n\n本来是在研究那个“手机搬家”在实际传数据的时候是怎么创建出 160Mhz 频宽热点的（>=2400Mbps)，顺便看的。\n自己开热点，或第三方某热点 APP 设置也不行，目前发现只有手机搬家自己可以开出来。。。呆懂得大佬解答。\n*同步 txrjy （",
           "link": "https://www.v2ex.com/t/1108368",
           "publishedOn": "2025-01-30T17:37:46.000Z",
-          "wordCount": 497,
+          "wordCount": 512,
           "title": "一加 Ace5Pro 到了， 5Ghz WiFi 支持 33dBm",
           "imageUrl": null
         },
@@ -469,7 +463,7 @@
           "description": "pinyoung: 用 aida64 测信息，那个手机卡兼容性写着支持 ai ，也写着手机是实体卡+Esim 的选项，不知道是不是 aida64 软件写错了，还是说 15Pro/16Pro 硬件上还是存在 esim ，但是是被系统级别禁用了？？？",
           "link": "https://www.v2ex.com/t/1108364",
           "publishedOn": "2025-01-30T15:48:48.000Z",
-          "wordCount": 424,
+          "wordCount": 435,
           "title": "国行苹果 15Pro/16Pro 支持 Esim？",
           "imageUrl": null
         },
@@ -479,7 +473,7 @@
           "description": "jakezh: \n问客服说不能提供原因，问能不能恢复数据到新服务器上，说没有任何办法。\n有遇到过的朋友吗，上面就运行了个 bitwarden ，还运行了个 docker look busy 保活\n这也能被删？\n稳定运行三年多了，不知道为什么被 target 了\n一怒之下又注册了两个号，还好 bitwarden 定时备份，但是很不爽，客服说这个邮箱再也不能注册新账号了，简直深井冰，不知道 PM 是谁，怎么做出的这种脑残决定",
           "link": "https://www.v2ex.com/t/1108363",
           "publishedOn": "2025-01-30T15:04:06.000Z",
-          "wordCount": 444,
+          "wordCount": 452,
           "title": "oracle 直接把我账号给删了",
           "imageUrl": null
         },
@@ -509,7 +503,7 @@
           "description": "CNM47589: \n过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！",
           "link": "https://www.v2ex.com/t/1108359",
           "publishedOn": "2025-01-30T14:04:58.000Z",
-          "wordCount": 544,
+          "wordCount": 553,
           "title": "什么时候出新 12 寸 MacBook",
           "imageUrl": null
         },
@@ -539,7 +533,7 @@
           "description": "3059349417: \n放假没回家，很无聊，听音乐又不想切歌就一直听，再看点文字混时间。",
           "link": "https://www.v2ex.com/t/1108355",
           "publishedOn": "2025-01-30T13:49:10.000Z",
-          "wordCount": 419,
+          "wordCount": 421,
           "title": "有没有和我一样经常听同一首音乐？",
           "imageUrl": null
         },
@@ -549,7 +543,7 @@
           "description": "fancy2020: \n我观察到的是今年拜年消息明显变少了，以前大年三十晚上各种群里都会冒出来一些拜年消息，还有些私发或群发的，今年几乎都没有了。\n我的感觉是大家越来越懒得装了。\n另外就是放鞭炮的明显少很多",
           "link": "https://www.v2ex.com/t/1108352",
           "publishedOn": "2025-01-30T13:11:33.000Z",
-          "wordCount": 485,
+          "wordCount": 501,
           "title": "今年过年大家观察到身边有哪些变化?",
           "imageUrl": null
         },
@@ -569,7 +563,7 @@
           "description": "wuyiccc: 候补火车票一直买不到，然后用了一下智行 app ，发现智行 app 直接帮我在 12306 上提交的候补订单，我心态崩了",
           "link": "https://www.v2ex.com/t/1108349",
           "publishedOn": "2025-01-30T12:37:06.000Z",
-          "wordCount": 444,
+          "wordCount": 464,
           "title": "智行软件提交订单你就是直接帮我候补？",
           "imageUrl": null
         },
@@ -599,7 +593,7 @@
           "description": "VchentozV: \n央视春晚收视率只有 5 个点，请问都在忙什么？",
           "link": "https://www.v2ex.com/t/1108344",
           "publishedOn": "2025-01-30T10:58:31.000Z",
-          "wordCount": 604,
+          "wordCount": 612,
           "title": "广东的朋友春节都在干什么？",
           "imageUrl": null
         },
@@ -639,7 +633,7 @@
           "description": "banzhaun: 数字马力，蚂蚁子公司，做的蚂蚁的项目，感觉还可以，有想从一线回来的可以内推。联系:d2VpeGluZ182Njkz",
           "link": "https://www.v2ex.com/t/1108339",
           "publishedOn": "2025-01-30T09:47:02.000Z",
-          "wordCount": 441,
+          "wordCount": 447,
           "title": "郑州，长沙，重庆年后找工作的看过来。",
           "imageUrl": null
         },
@@ -669,7 +663,7 @@
           "description": "xiaozecn: \n\n\n\n（排序分先后）",
           "link": "https://www.v2ex.com/t/1108335",
           "publishedOn": "2025-01-30T07:55:46.000Z",
-          "wordCount": 333,
+          "wordCount": 346,
           "title": "春节期间给大家分享几个跟“酒”这个话题有关的视频。",
           "imageUrl": null
         },
