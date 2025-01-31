@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-31T18:14:22.080Z</id>
+    <id>urn:2025-01-31T19:08:47.384Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-31T18:14:22.080Z</updated>
+    <updated>2025-01-31T19:08:47.384Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[tg 号突然没了, 有类似的软件推荐吗]]></title>
+        <id>https://www.v2ex.com/t/1108461</id>
+        <link href="https://www.v2ex.com/t/1108461"/>
+        <updated>2025-01-31T16:51:14.000Z</updated>
+        <summary type="html"><![CDATA[lslqtz: 
+也不能说是突然吧, 上个月的 27 号在正常聊天的过程中突然被踢下线, 然后再次登录就提示手机号被 ban 了, 挺令人意外的. 发了好几封邮件给官方, 一概无视了.
+账号是 +44 非 VoIP, 注册约 6 年 (但最近几个月才换到 +44), 无 SPAM. 也许是 Cloudflare WARP 引起的. 依稀记得之前群友还在提醒我发送消息太多 (还无人回应) 可能会被 ban, 虽然我以前都是这么做的...
+通过在已登录设备上断网备份收藏夹, 也算是降低了一点损失.
+寻找替代软件发现还真没几个比 Telegram 易用又适当宽松的, 关键是群组生态上不去. 有人有类似的经历或替代软件推荐的吗? 已经试过 Signal 除了表情包 sticker 外主要的问题就是群组生态了.]]></summary>
+        <author>
+            <name>lslqtz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cursor 哥一小时速成的网站]]></title>
+        <id>https://www.v2ex.com/t/1108460</id>
+        <link href="https://www.v2ex.com/t/1108460"/>
+        <updated>2025-01-31T16:45:31.000Z</updated>
+        <summary type="html"><![CDATA[WLLTB: 
+有一说一，cursor 真的是好东西，我一个没写过 nextjs 的人，一个多小时写了个 demo ，从创建项目到部署啥的，一条龙指导服务，我甚至没细看过里面的代码，连数据都是他提供好的，我只是简单规划一下。（好吧，归根到底，Claude 也有功劳在）
+网站链接 useful-tool.top]]></summary>
+        <author>
+            <name>WLLTB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[outlook 就很神奇，会收到收件人不是我的邮件和发件人是我的邮件]]></title>
+        <id>https://www.v2ex.com/t/1108459</id>
+        <link href="https://www.v2ex.com/t/1108459"/>
+        <updated>2025-01-31T16:17:34.000Z</updated>
+        <summary type="html"><![CDATA[whetherTsmile: https://imgur.com/a/nxXQI9U
+另外 cloudflare 转发也经常失败，已经转 gmail 了]]></summary>
+        <author>
+            <name>whetherTsmile</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[招聘｜ 3-5 年前端开发，远程兼职，后期可全职 15-25K]]></title>
+        <id>https://www.v2ex.com/t/1108458</id>
+        <link href="https://www.v2ex.com/t/1108458"/>
+        <updated>2025-01-31T16:17:00.000Z</updated>
+        <summary type="html"><![CDATA[sqrtthree: 寻找一位长期开发加入美国核心团队，目前兼职，3-6 个月内如果合适，可转全职 (15-25K)。
+
+工作地点：远程
+工作时间：
+由于团队有时差，我们偏向 async slack 沟通。
+希望你能在中国时间上午和晚上及时回复。
+其余工作时间可自由安排，没有固定上班时间。
+中英文工作环境：
+开发和设计讲中文（ slack+call ），运营和 marketing 英文（ slack only ）
+
+学历与经验
+- 计算机相关专业
+- 最近 3 年以上前端跨端方向开发经验
+
+专业技能
+- 熟练掌握 JavaScript 、HTML 、CSS 等原生前端基础技术，熟悉相关规范，具备良好的 UI 交互实现能力
+- 深入了解 React 、Next.js 和 React Native 技术栈，并有实际项目经验
+- 深入了解前端工程化及原理，具备良好的架构设计和工程设计能力
+
+个人能力
+- 对技术充满热情，具备强烈的技术进取心
+- 拥有优秀的问题分析及解决能力
+- 有良好的沟通与合作精神
+- 英文读写能力强
+- 学习能力强
+
+其他要求
+- 拥有良好的网络条件，能够稳定访问 Google 相关技术产品
+
+公司简介
+Theatr (theatr-app.com) 是一个创立于纽约的社区型二手票务平台，目前业务以百老汇票务为主。自上线以来增长迅速，在成立第二年便已成功帮助 10,000+ 美国用户完成转票交易，受到福布斯 Forbes 、NPR 、Vulture 等美国主流媒体的报道。目前上线了移动端 (app store 4.9, 1K+ ratings)，计划 Q1 上线网页端，并在不久的将来扩张到美国其他城市和英国。
+附福布斯报道： https://www.forbes.com/sites/marchershberg/2024/01/07/new-app-allows-broadway-theatergoers-to-find-last-minute-deals/
+
+欢迎将简历发至： founder@theatr-app.com
+期待你来信！]]></summary>
+        <author>
+            <name>sqrtthree</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用 C# 类型系统做了个 Brainfuck 编译器]]></title>
+        <id>https://www.v2ex.com/t/1108457</id>
+        <link href="https://www.v2ex.com/t/1108457"/>
+        <updated>2025-01-31T16:08:43.000Z</updated>
+        <summary type="html"><![CDATA[hez2010: 
+最近花了点时间做了个 Brainfuck 编译器，编译后的程序用 C# 的类型来表达。
+比如这是一个编译出来的 Hello World 的 Brainfuck 程序：
+AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex8>,Loop<AddPointer<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex4>, Loop<AddPointer<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex2>, AddPointer<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex3>, AddPointer<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex3>, AddPointer<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddData<Int<Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex0, Hex1>, AddPointer<…]]></summary>
+        <author>
+            <name>hez2010</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[过户一个 上海联通 1000/200 月租 49 的宽带]]></title>
+        <id>https://www.v2ex.com/t/1108456</id>
+        <link href="https://www.v2ex.com/t/1108456"/>
+        <updated>2025-01-31T15:59:18.000Z</updated>
+        <summary type="html"><![CDATA[MrMechanic:]]></summary>
+        <author>
+            <name>MrMechanic</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
@@ -17,6 +121,40 @@ Chrome 133 Goodies originally published on CSS-Tricks, which is part of the Digi
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[从童年保留至今的阴影：“去敬一圈酒”]]></title>
+        <id>https://www.v2ex.com/t/1108454</id>
+        <link href="https://www.v2ex.com/t/1108454"/>
+        <updated>2025-01-31T15:12:07.000Z</updated>
+        <summary type="html"><![CDATA[V2April: 
+大年初一的时候和亲戚吃饭，一大桌子人除了我和几个平辈（二十来岁）就都是长辈（五六十岁）。吃到一大半，我妈凑过来跟我说让我去敬一圈酒，就是挨个和桌上每家人喝一杯，说句身体健康万事如意啥的。本来不是难事，但就让人很不爽，我从大概小学开始每次参加聚餐我妈必让我做这件事，小时候敬的是饮料，桌上所有小孩都要被自己父母撺掇敬酒，还要比谁说得好听，一桌大人跟看表演一样。
+更让我不爽的是，经我妈这一撺掇我里外不是人，如果我去敬酒，就是非要老妈提醒才去敬酒，而且感觉像在表演很不自然。如果我不去，那就更不懂事了，让你敬酒你还不敬。但反过来在她眼里，如果她不提醒我我肯定不会敬酒，她提醒我之后我至少去敬了。当然她想的也没错，她不来撺掇我我肯定不会去做这种事。虽然能理解这种事，在饭桌上敬个酒也相当于活跃活跃气氛，但就是很不爽，很童年阴影]]></summary>
+        <author>
+            <name>V2April</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[刚到公司准备上班，怎么更有意义的过好这一天呢？]]></title>
+        <id>https://www.v2ex.com/t/1108452</id>
+        <link href="https://www.v2ex.com/t/1108452"/>
+        <updated>2025-01-31T14:59:44.000Z</updated>
+        <summary type="html"><![CDATA[levelworm: 
+算了下，四十多岁的我，其实也没多少这种状态比较好的日子了，怎么过好每一天呢？居然想不出来，真是有点悲哀。]]></summary>
+        <author>
+            <name>levelworm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小主机/小型服务器推荐]]></title>
+        <id>https://www.v2ex.com/t/1108451</id>
+        <link href="https://www.v2ex.com/t/1108451"/>
+        <updated>2025-01-31T14:16:19.000Z</updated>
+        <summary type="html"><![CDATA[TheWire2: 个人有两个服务在两个不同的云服务器上运行，一个是个人博客，用的是 2h2g 的服务器，一个是自己瞎搞的服务，用的是 2h4g 的服务器。这两个服务器都是用新用户的身份买的，后续要续费时，两个服务器加起来还是有点贵的（本人还是在读学生）。
+在网上搜寻过一些资料，有的叫小主机，有的叫小型服务器，不知道有没有什么区别；想买个价格在 1000 元左右的设备，不知道是否可以满足。是买硬件自己组装还是买整机好。]]></summary>
+        <author>
+            <name>TheWire2</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Keeping the page interactive while a View Transition is running]]></title>
         <id>https://css-tricks.com/?p=384331</id>
         <link href="https://css-tricks.com/keeping-the-page-interactive-while-a-view-transition-is-running/"/>
@@ -26,6 +164,52 @@ Chrome 133 Goodies originally published on CSS-Tricks, which is part of the Digi
 Keeping the page interactive while a View Transition is running originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025 年了，有哪些 vscode 插件是你觉得应该卸载的？]]></title>
+        <id>https://www.v2ex.com/t/1108450</id>
+        <link href="https://www.v2ex.com/t/1108450"/>
+        <updated>2025-01-31T14:06:54.000Z</updated>
+        <summary type="html"><![CDATA[dcsuibian: 
+或者反着来说，有哪些插件是你觉得必须要安装的？
+另外，设置（ settings.json ）中有哪些是你觉得应该恢复成默认值的，又有哪些是必须要修改的]]></summary>
+        <author>
+            <name>dcsuibian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有优雅的俩人， mac 和 win 的共用使用方案吗？]]></title>
+        <id>https://www.v2ex.com/t/1108449</id>
+        <link href="https://www.v2ex.com/t/1108449"/>
+        <updated>2025-01-31T14:05:57.000Z</updated>
+        <summary type="html"><![CDATA[yoiteshaw: 
+假设我和我对象想共用一台 mac 和 win 。家里已经有两台显示器了那么我们如何能流畅在各自显示屏上随意切换不同主机呢
+我手头没有 macmini ，不知道能不能 win 和 mac 主机都接两个显示器，然后在显示器端接键鼠，然后系统用双用户]]></summary>
+        <author>
+            <name>yoiteshaw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[越大越觉得孤单]]></title>
+        <id>https://www.v2ex.com/t/1108448</id>
+        <link href="https://www.v2ex.com/t/1108448"/>
+        <updated>2025-01-31T14:04:11.000Z</updated>
+        <summary type="html"><![CDATA[shrimpDumpling: 晚上一个人看《 k 星异客》，结局看到一个演员很像绝命毒师里的小粉，截图下来却不知道分享给谁，
+ 想起来绝命毒师、风骚律师这么长、这么精彩的剧也是一个人看的，不知道跟谁讨论。
+ 高中身边总是不缺看美剧，听 billboard 的同学，都没有保持联系，当时只道是寻常。]]></summary>
+        <author>
+            <name>shrimpDumpling</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[找到系统变卡的原因了]]></title>
+        <id>https://www.v2ex.com/t/1108447</id>
+        <link href="https://www.v2ex.com/t/1108447"/>
+        <updated>2025-01-31T13:56:15.000Z</updated>
+        <summary type="html"><![CDATA[gegeligegeligo: 最近新买了一个游戏本，使用过程中总是出现卡顿的情况，后来发现是电脑长时间没关机，一直用休眠来代替，然后有时候唤醒了会出现 cpu 锁频率的情况，难怪会变得很卡。。。。。。这是 windows 的原因还是电源管理芯片的问题？稍微搜了一下，发现不止我一个人有遇到过这种情况]]></summary>
+        <author>
+            <name>gegeligegeligo</name>
         </author>
     </entry>
     <entry>
@@ -401,132 +585,6 @@ DoH ，国内支持 DoH 的服务器都被污染过，国外的知名 DoH 服务
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[去日本旅游带块 5090 回来能回多少?]]></title>
-        <id>https://www.v2ex.com/t/1108412</id>
-        <link href="https://www.v2ex.com/t/1108412"/>
-        <updated>2025-01-31T07:48:24.000Z</updated>
-        <summary type="html"><![CDATA[busterian: 海关会因为中国缺少高端芯片网开一面不税它吗?
-如果不网开一面的话,出境申报时把笔记本和显卡显卡坞一起申报(笔记本很多都支持 oculink), 回来时把 5090 显卡换壳带回来怎么样?]]></summary>
-        <author>
-            <name>busterian</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[手机上可自定义 Key 的大模型客户端整理]]></title>
-        <id>https://www.v2ex.com/t/1108411</id>
-        <link href="https://www.v2ex.com/t/1108411"/>
-        <updated>2025-01-31T07:37:07.000Z</updated>
-        <summary type="html"><![CDATA[SiWXie: 
-Chatbox ，无广告，不收费，客卢端做的有些廉价感（感觉是套了个网页），优点是 markdown 和 latex 公式支持很好（ latex 支持可以说是我用过移动端上体验最好的）。
-2. ChatX ，挺出圈的客户端，功能也挺完善，UI 简洁（但一片绿我有点欣赏不来 T_T ），无广，限免过很多次，挺良心的客户端，缺点是 latex 语法支持不完善，很多公式渲染不出来，代码渲染还可以。
-3. BotGem ，UI 简洁美观（也是一片绿），功能完善，免费无广，挺好的一个客户端，感觉作者在做慈善，缺点与 ChatX 类似，latex 语法支持不完善，日常够用。
-4.  OpenCat ，也算比较出圈的客户端，以前挺好用，现在每次进去都弹广告让购买他们的 Key ，遂卸载了，UI 配色还不错，但功能按钮感觉比较混乱，有待进一步优化。
-5. AiChat ，一个开源的客户端，知道的人比较少，UI 做的实际挺不错的，IOS 还在上架，缺点是一年多没更新了，有些功能不完善。
-最后，感觉都有点问题，希望出一个集百家之长的客户端，接受付费 𓋼𖤣𖥧𓋼𓍊]]></summary>
-        <author>
-            <name>SiWXie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小米小家电的质量真是不敢恭维]]></title>
-        <id>https://www.v2ex.com/t/1108409</id>
-        <link href="https://www.v2ex.com/t/1108409"/>
-        <updated>2025-01-31T07:13:02.000Z</updated>
-        <summary type="html"><![CDATA[nightnotlate: 我自己买的，
-1 养生壶，很快底部就生锈，看评论是常见问题，客服说这不是质量问题。
-2 新风机 300 ，不到半年不出风，报修后第一次换了电机没好，后面说是里面的板子坏了，第二次上门免费换后修好了。
-3 净水器 h1000g ，过保了，年前还是正常的，年后回来通电没反应了。
-查了下价格 维修估计要三百左右。
-心塞]]></summary>
-        <author>
-            <name>nightnotlate</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[能否动态替换网关]]></title>
-        <id>https://www.v2ex.com/t/1108408</id>
-        <link href="https://www.v2ex.com/t/1108408"/>
-        <updated>2025-01-31T06:50:47.000Z</updated>
-        <summary type="html"><![CDATA[Joomaen: 
-比如我的图片链接是
-https://coastal-silver-moose.myfilebase.com/ipfs/QmNUxGJsRXq8aDnGkyQhrQyoNQZCzjV13771qii6ET8bEb
-
-当网关挂了导致图片无法加载时，将/ipfs/xxx 前面的部分动态替换掉。
-能否用油猴脚本实现]]></summary>
-        <author>
-            <name>Joomaen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[观航空行业有感…]]></title>
-        <id>https://www.v2ex.com/t/1108404</id>
-        <link href="https://www.v2ex.com/t/1108404"/>
-        <updated>2025-01-31T05:37:08.000Z</updated>
-        <summary type="html"><![CDATA[lvyc: 
-之前有个帖子说计算机是普通人能选择的最好专业，
-但现在观身边样本（我哥我姑父以及朋友）有感。航空行业真是越老越吃香，面试不难，学校只要是个中国民航大学都可以随便去各个公司，只是刚毕业可能工资没那么高，大概七八千，过个几年就月薪一万到两万了，还稳定…这不比计算机好吗]]></summary>
-        <author>
-            <name>lvyc</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[求推荐当前时间购买手机的选择]]></title>
-        <id>https://www.v2ex.com/t/1108402</id>
-        <link href="https://www.v2ex.com/t/1108402"/>
-        <updated>2025-01-31T05:18:45.000Z</updated>
-        <summary type="html"><![CDATA[werwer: 安卓旗舰，不要苹果
-不一定最新款，上一代也可以
-屏幕大，比例上来说，宽度尽量宽，这样适合于竖屏使用
-重量轻，不要超过 200g
-摄像好，尤其长焦也要好
-其他方面不需要重点考虑
-谢谢]]></summary>
-        <author>
-            <name>werwer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[轻量 nas 怎么设置 jellyfin 刮削？]]></title>
-        <id>https://www.v2ex.com/t/1108401</id>
-        <link href="https://www.v2ex.com/t/1108401"/>
-        <updated>2025-01-31T05:09:33.000Z</updated>
-        <summary type="html"><![CDATA[mrleft: 在老家放了台矿渣改的 nas ，想要设置一个 jellyfin 作为电视的媒体前端。
-参考网上的 nas-tools 设置，使用 nas-tools 来目录同步，刮削
-nas-tools 会硬链接 media/TVshows 下的单个剧集到 media/link/TVshows 下
-但会生成 国产剧/name 这样的结构，在 jellyfin 中导入媒体库却会识别名称为“国产剧”，是那边设置有问题？现在 nastools 和 jellyfin 都会刮削？
-其实我需要的也仅是 文件同步（硬链接）和刮削两个功能，nastool 还挺大的，有什么替代能少点磁盘占用的吗？
-还有定义片头时间是刮削做的吗？我只看到有些是媒体自带的？如何自己定义？]]></summary>
-        <author>
-            <name>mrleft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你遇见过的最 simple 或者最有意思的算法和数据结构]]></title>
-        <id>https://www.v2ex.com/t/1108398</id>
-        <link href="https://www.v2ex.com/t/1108398"/>
-        <updated>2025-01-31T04:56:28.000Z</updated>
-        <summary type="html"><![CDATA[forgottenPerson: 
-simple 指的不一定是代码量越少越好
-最有意思指的是给你一种恍然大悟这也能行的感觉以及你感受到的美，美包括奇妙的思路以及时间以及空间复杂度达到你认为的 trade-off,或者有很高的实用价值以及你觉得有趣的。]]></summary>
-        <author>
-            <name>forgottenPerson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[合租苹果开发者美国公司账号［教育认证］]]></title>
-        <id>https://www.v2ex.com/t/1108397</id>
-        <link href="https://www.v2ex.com/t/1108397"/>
-        <updated>2025-01-31T04:27:28.000Z</updated>
-        <summary type="html"><![CDATA[BHGchinaboy: 此为教育认证的公司账号，仅限于内部团队测试所用
-账号详情:https://www.winvps.eu/9030/
-把你的账号添加成管理员
-试用到满意后再付款，暂定 100 RMB 一年，一个公司账号招 10 个人，资源平均分配
-TG:https://t.me/BHGchinaboy]]></summary>
-        <author>
-            <name>BHGchinaboy</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Mistakes of CSS]]></title>
         <id>https://css-tricks.com/?p=384089</id>
         <link href="https://css-tricks.com/the-mistakes-of-css/"/>
@@ -575,6 +633,33 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
