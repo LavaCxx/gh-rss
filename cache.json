@@ -139,12 +139,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -329,7 +323,7 @@
           "description": "BHGchinaboy: 此为教育认证的公司账号，仅限于内部团队测试所用\n账号详情:https://www.winvps.eu/9030/\n把你的账号添加成管理员\n试用到满意后再付款，暂定 100 RMB 一年，一个公司账号招 10 个人，资源平均分配\nTG:https://t.me/BHGchinaboy",
           "link": "https://www.v2ex.com/t/1108397",
           "publishedOn": "2025-01-31T04:27:28.000Z",
-          "wordCount": 442,
+          "wordCount": 446,
           "title": "合租苹果开发者美国公司账号［教育认证］",
           "imageUrl": null
         },
@@ -359,7 +353,7 @@
           "description": "snowkylin: https://snowkylin.github.io/blogs/a-note-on-deepseek-r1.html\n（以下介绍就是 DeepSeek R1 写的，我觉得还挺厉害的，我是写不出来……）\n🚀 测试模型：\n1.73-bit 量化版（ 158GB ，每秒 7-8 个词）\n4-bit 量化版（ 404GB ，每秒 2-4 个词）\n💻 硬件需求：\n1.73-bit：内存+显存 ≥ 200GB\n4-bit：内存+显存 ≥ 500GB\n实测配置：4 块 RTX4090 显卡（ 96G 显存） + 384G DDR5 内存\n⚡ 性能对比：\n短文本生成：1.73-bit 速度碾压，长文本会卡到 1-2 词/秒\n瓶颈竟是 CPU 和内存，GPU 全程摸鱼（利用率 1-3% 😂）\n🤖 模型性格差异：\n1.73-bit：毒舌傲娇，敢怼 ChatGPT：\n“哼！还在用老古董 ChatGPT ？(◔‸◔) 我的训练费可没烧穿钱包！”\n4-bit：安全标兵，拒绝一切危险发言，全程官方脸 😇\n🔧 部署步骤：\n下载+合并 GGUF 文件\n装 Ollama + 调参数（ GPU 分层加载）\n跑模型，内存炸了？减层数！\n可选：搭配 OpenWebUI 变身高配版 ChatGPT ！\n✨ 总结：\n1.73-bit 版性价比超高，适合短平快任务！长对话会变树懒…🦥\n完整教程在博客，硬核玩家速来试试！👉",
           "link": "https://www.v2ex.com/t/1108393",
           "publishedOn": "2025-01-31T03:46:28.000Z",
-          "wordCount": 435,
+          "wordCount": 455,
           "title": "本地部署 DeepSeek-R1 671B 千亿大模型流程",
           "imageUrl": null
         },
@@ -369,7 +363,7 @@
           "description": "wencan: \n要求，尽可能像是真人读出来的，根据内容，语速有快慢，音调有高低，带点“情感”\n目前试了几家，还是能听出是生成的\n正规用途，合成商品介绍视频中的讲解语音\n不免费，划算也行",
           "link": "https://www.v2ex.com/t/1108392",
           "publishedOn": "2025-01-31T03:36:17.000Z",
-          "wordCount": 365,
+          "wordCount": 398,
           "title": "免费的文本转语音哪家强？",
           "imageUrl": null
         },
@@ -389,7 +383,7 @@
           "description": "ChrisCurry: \n因为雇员计划到期，国内的卓越账户直接注销了，香港的降级到了汇丰 One （红狮子），但是不确定之前这张实体卡还能不能用，需要再申请新的红狮子卡吗？\n卡号似乎是没变，还是保留了卓越的 888 尾号。",
           "link": "https://www.v2ex.com/t/1108390",
           "publishedOn": "2025-01-31T03:23:26.000Z",
-          "wordCount": 393,
+          "wordCount": 397,
           "title": "香港汇丰卓越降级到 One 以后，之前的那张卓越卡还能用吗",
           "imageUrl": null
         },
@@ -399,7 +393,7 @@
           "description": "aumars: \n花了 200 美元定于了 ChatGPT Pro 会员结果却遇到了这样的提醒：\n检测到异常活动\n由于我们正在审核潜在的滥用行为，因此已暂时限制您对 o1 pro mode 的访问权限。如需帮助，请发送电子邮件至： support@openai.com.\n请问各位大神有什么解决方案吗，感谢🙏",
           "link": "https://www.v2ex.com/t/1108389",
           "publishedOn": "2025-01-31T03:18:21.000Z",
-          "wordCount": 424,
+          "wordCount": 433,
           "title": "求助：如何才能解除以及避免被 ChatGPT 限制 o1 pro mode 的使用呢",
           "imageUrl": null
         },
@@ -409,7 +403,7 @@
           "description": "uudj: 肠胃一直不好，受气温变化，冬天肚子一直咕咕叫，有胀气。也可能是锻炼得太少了。",
           "link": "https://www.v2ex.com/t/1108387",
           "publishedOn": "2025-01-31T03:01:22.000Z",
-          "wordCount": 342,
+          "wordCount": 344,
           "title": "大家有做过肠道菌群检测吗",
           "imageUrl": null
         },
@@ -419,7 +413,7 @@
           "description": "privateproxies: \nIPRoyal is a leading global proxy service provider with a robust network of over 34 million IP nodes, ensuring 99.9% uptime for all your needs.\nIPRoyal 官方网站\nCore Advantages\nDiverse Proxy Options: Offering residential, ISP, datacenter, and mobile proxies across 195 countries and regions.\nNever-Expiring Traffic: Pay-as-you-go model with traffic that never expires.\nSuperior Technical Support: 24/7 technical support available via live chat, email, and Discord.\nComprehensive Compatibility: Seamless integration with 650+ tools and software, ensuring stable and reliable connections.\nUse Cases\nData Collection and Market Analysis\nBrand Protection and Ad Verification\nPrice Monitoring and Comparison\nSEO and Competitor Analysis\nAccess to Geo-Restricted Content\nWith superior service quality and competitive pricing, IPRoyal has successfully served over 10,000 clients, making it your trusted partner in proxy services. \nIPRoyal 专业级代理服务提供商\nIPRoyal 是全球领先的代理服务解决方案提供商，拥有超过 3400 万个 IP 节点的强大网络，确保 99.9%的正常运行时间。\n核心优势\n多样化的代理选择\n永不过期的流量\n卓越的技术支持\n完善的兼容性\n应用场景\n数据采集和市场分析\n品牌保护和广告验证\n价格监控和比较\nSEO 和竞品分析\n访问地理限制内容\n凭借优质的服务质量和具有竞争力的价格，IPRoyal 已成功服务超过 10,000 家客户，是您值得信赖的代理服务合作伙伴。",
           "link": "https://www.v2ex.com/t/1108386",
           "publishedOn": "2025-01-31T02:53:08.000Z",
-          "wordCount": 530,
+          "wordCount": 546,
           "title": "IPRoyal - 专业级代理服务提供商 | Professional Proxy Service Provider",
           "imageUrl": null
         },
@@ -429,7 +423,7 @@
           "description": "dcy7287: \n看了一著名媒体人的视频\n视频里说有机构针对若干国家\n进行问卷调查，对象是本科或以上学历\n工作年龄的人士\n问卷内容是有关个人的各种事物重要性排序\n中国人给的排序是\n工作->财富->健康->家庭",
           "link": "https://www.v2ex.com/t/1108385",
           "publishedOn": "2025-01-31T02:49:55.000Z",
-          "wordCount": 414,
+          "wordCount": 424,
           "title": "中国人的家庭观念",
           "imageUrl": null
         },
@@ -439,7 +433,7 @@
           "description": "HoshinoRei: \nV1.85\n现在的 1.85 版本在 26100.3037 上可以正常地在任务栏显示网速。",
           "link": "https://www.v2ex.com/t/1108384",
           "publishedOn": "2025-01-31T02:42:59.000Z",
-          "wordCount": 414,
+          "wordCount": 438,
           "title": "时隔两年， TrafficMonitor 迎来更新",
           "imageUrl": null
         },
@@ -449,7 +443,7 @@
           "description": "python30:",
           "link": "https://www.v2ex.com/t/1108383",
           "publishedOn": "2025-01-31T02:34:13.000Z",
-          "wordCount": 424,
+          "wordCount": 435,
           "title": "现在网上好多代注册公司的，确实很方便。一年的费用也就小几千块钱，会要你的资料过去帮你注册。甚至注册地址都可以让他们找地方挂靠。这样的找人办理的情况安全...",
           "imageUrl": null
         },
@@ -489,7 +483,7 @@
           "description": "wxmomomowx: 这算信息安全哪个范畴啊？",
           "link": "https://www.v2ex.com/t/1108378",
           "publishedOn": "2025-01-31T01:32:28.000Z",
-          "wordCount": 504,
+          "wordCount": 577,
           "title": "打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题",
           "imageUrl": null
         },
@@ -499,7 +493,7 @@
           "description": "chenqh: \n质疑了一下,差点被人开除籍贯.",
           "link": "https://www.v2ex.com/t/1108377",
           "publishedOn": "2025-01-31T01:25:52.000Z",
-          "wordCount": 603,
+          "wordCount": 622,
           "title": "你们过年的时候要上山祭祖吗?",
           "imageUrl": null
         },
@@ -509,7 +503,7 @@
           "description": "apollo007:",
           "link": "https://www.v2ex.com/t/1108376",
           "publishedOn": "2025-01-31T01:09:04.000Z",
-          "wordCount": 437,
+          "wordCount": 453,
           "title": "如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？",
           "imageUrl": null
         },
@@ -519,7 +513,7 @@
           "description": "dcy7287: \n人均利润 10 万每年，那就是 100 亿了",
           "link": "https://www.v2ex.com/t/1108375",
           "publishedOn": "2025-01-31T01:02:06.000Z",
-          "wordCount": 451,
+          "wordCount": 115,
           "title": "妙瓦底有 36 个团伙，“员工”超十万人",
           "imageUrl": null
         },
@@ -529,7 +523,7 @@
           "description": "wniming: \n我在 m2 的 macbook air 上使用 asahi linux ，打字时右手手掌经常会因为触摸到触摸板导致光标移动，这部分区域在 macos 系统下之所以不会在打字时误触是因为 macos 使用了一种神经网络算法来判断用户是否在操作触摸板，asahi linux 不太可能开发一套类似效果的算法来解决误触的问题。所以我想通过禁用掉容易误触的这 1/3 的触摸板空间来避免误触。\nPS:\n虽然可以在 kde 里设置打字时禁用触摸板，但这会导致触摸板的响应略微变慢",
           "link": "https://www.v2ex.com/t/1108374",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 489,
+          "wordCount": 499,
           "title": "Linux 如何限制笔记本电脑触摸板的大小？",
           "imageUrl": null
         },
@@ -539,7 +533,7 @@
           "description": "haixinsc: \n外网访问 NAS 下载文件，直接限速 3M ，如果用 wireguard 连回去，下载速率能到 60M ，以前直连可以到 100M.\nIP 180.172 ，MTU 1492",
           "link": "https://www.v2ex.com/t/1108373",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 374,
+          "wordCount": 385,
           "title": "上海电信 上传限速",
           "imageUrl": null
         },
@@ -579,7 +573,7 @@
           "description": "tutugreen: 什么芯片，抢不抢网不知道，但\niw list 看 5Ghz 在 5745(149)~5845(169) 有支持 33.0 dBm （约 2W)？这对吗（\n*好吧，发帖前搜了下，在 5.8Ghz 下，33dBm 是合规的。\n只记得很多起夜级路由 AP 都没有开到 33 dBm 的，多数到 27 dBm 。\n\n\n附一个旧手机 iw dev 结果：\n2412(1)~2472(13) 20.0 dBm\n5180(36)~5240(48) 20.0 dBm\n5260(52)~5240(64) 23.0 dBm\n5745(149)~5825(165) 20.0 dBm\n对比下来都有提升。\n换算：\n20 dBm ~ 100 mw\n25 dBm ~ 316.22776602 mw\n33 dBm ~ 1995.26231497 mw\n\n本来是在研究那个“手机搬家”在实际传数据的时候是怎么创建出 160Mhz 频宽热点的（>=2400Mbps)，顺便看的。\n自己开热点，或第三方某热点 APP 设置也不行，目前发现只有手机搬家自己可以开出来。。。呆懂得大佬解答。\n*同步 txrjy （",
           "link": "https://www.v2ex.com/t/1108368",
           "publishedOn": "2025-01-30T17:37:46.000Z",
-          "wordCount": 523,
+          "wordCount": 528,
           "title": "一加 Ace5Pro 到了， 5Ghz WiFi 支持 33dBm",
           "imageUrl": null
         },
@@ -589,7 +583,7 @@
           "description": "BigShot404: \n京东以旧换新里有回收二手机械硬盘的，不论好坏 1T 的蓝盘抵 30 块，这东西坏的也值 30 么？",
           "link": "https://www.v2ex.com/t/1108367",
           "publishedOn": "2025-01-30T17:07:38.000Z",
-          "wordCount": 418,
+          "wordCount": 420,
           "title": "二手机械硬盘被回收后有什么用？",
           "imageUrl": null
         },
@@ -599,7 +593,7 @@
           "description": "amyw495062: \n现在爱快软路由+小米，ap 模式组 mesh 各种不明环路\nhttps://www.right.com.cn/forum/thread-4110374-1-1.html\nhttps://www.v2ex.com/t/760559 \n最近过年朋友来家里玩，又频频出现，一旦环路报错，整个局域网都会卡一会，简直太**\n目前家里的结构是这样的，所以小米路由组 mesh 就是 ap 模式组的，现在是打算把小米路由替换成 Q3000",
           "link": "https://www.v2ex.com/t/1108366",
           "publishedOn": "2025-01-30T16:42:09.000Z",
-          "wordCount": 625,
+          "wordCount": 626,
           "title": "有没有用过爱快 Q3000 当 AP 的小伙伴",
           "imageUrl": null
         },
@@ -639,7 +633,7 @@
           "description": "abc2xyz: 之前抓包发现两个 CCTV4K 的组播地址，以为一个是备用的就没在意，这几天看春晚发现其中一个竟然可以点亮我 LG 电视的 HDR ，PC 上 PotPlayer 也能点亮 HDR 。试了下把吃灰的电信盒子打开，现在里面的 CCTV4K 并不能点亮 HDR （也可能是我盒子太老了，或者姿势不对）。\nCCTV4K:\n239.45.0.55:5140\nCCTV4K HDR:\n239.45.1.21:5140",
           "link": "https://www.v2ex.com/t/1108362",
           "publishedOn": "2025-01-30T15:00:57.000Z",
-          "wordCount": 455,
+          "wordCount": 507,
           "title": "上海电信 CCTV4K HDR 组播地址分享",
           "imageUrl": null
         },
@@ -659,7 +653,7 @@
           "description": "CNM47589: \n过年回家，连 13 寸 MacBook 都有点懒得拿出来用，还是不够便携，这时候才理解为啥很多人怀念当年的 12 寸 MacBook ，给我 12 寸 MacBook M4 吧！！",
           "link": "https://www.v2ex.com/t/1108359",
           "publishedOn": "2025-01-30T14:04:58.000Z",
-          "wordCount": 602,
+          "wordCount": 607,
           "title": "什么时候出新 12 寸 MacBook",
           "imageUrl": null
         },
@@ -699,7 +693,7 @@
           "description": "fancy2020: \n我观察到的是今年拜年消息明显变少了，以前大年三十晚上各种群里都会冒出来一些拜年消息，还有些私发或群发的，今年几乎都没有了。\n我的感觉是大家越来越懒得装了。\n另外就是放鞭炮的明显少很多",
           "link": "https://www.v2ex.com/t/1108352",
           "publishedOn": "2025-01-30T13:11:33.000Z",
-          "wordCount": 530,
+          "wordCount": 533,
           "title": "今年过年大家观察到身边有哪些变化?",
           "imageUrl": null
         },
@@ -729,7 +723,7 @@
           "description": "letterLim: 前端 平时写 rn 的。 想换个大内存的电脑。现在用的是公司的 m1 pro 16+512 。平时用起来卡卡的。想自己买个电脑在家里，看中两款\nm1pro 32+1t 。9500 左右\nm3pro 官翻 36+1t 15000 左右\n请问哪款比较合适呢",
           "link": "https://www.v2ex.com/t/1108348",
           "publishedOn": "2025-01-30T12:29:07.000Z",
-          "wordCount": 536,
+          "wordCount": 555,
           "title": "现在买 m1 pro 还是 m3pro",
           "imageUrl": null
         }
