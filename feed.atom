@@ -1,10 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-31T00:51:39.442Z</id>
+    <id>urn:2025-01-31T02:09:42.053Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-31T00:51:39.442Z</updated>
+    <updated>2025-01-31T02:09:42.053Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[XOS 空投项目]]></title>
+        <id>https://www.v2ex.com/t/1108379</id>
+        <link href="https://www.v2ex.com/t/1108379"/>
+        <updated>2025-01-31T01:49:46.000Z</updated>
+        <summary type="html"><![CDATA[796923406aaa: 
+早期项目，第一个 Solana 第 2 层解决方案
+融资金额：5500 万美元
+测试网：2025 年 3 月
+TGE : 2025 年 6 月
+连接 钱包 ，绑定 Twitter 每日签到 ，旋转轮盘就是这么的简单
+https://x.ink/BNA0JL]]></summary>
+        <author>
+            <name>796923406aaa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题]]></title>
+        <id>https://www.v2ex.com/t/1108378</id>
+        <link href="https://www.v2ex.com/t/1108378"/>
+        <updated>2025-01-31T01:32:28.000Z</updated>
+        <summary type="html"><![CDATA[wxmomomowx: 这算信息安全哪个范畴啊？]]></summary>
+        <author>
+            <name>wxmomomowx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你们过年的时候要上山祭祖吗?]]></title>
+        <id>https://www.v2ex.com/t/1108377</id>
+        <link href="https://www.v2ex.com/t/1108377"/>
+        <updated>2025-01-31T01:25:52.000Z</updated>
+        <summary type="html"><![CDATA[chenqh: 
+质疑了一下,差点被人开除籍贯.]]></summary>
+        <author>
+            <name>chenqh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？]]></title>
+        <id>https://www.v2ex.com/t/1108376</id>
+        <link href="https://www.v2ex.com/t/1108376"/>
+        <updated>2025-01-31T01:09:04.000Z</updated>
+        <summary type="html"><![CDATA[apollo007:]]></summary>
+        <author>
+            <name>apollo007</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[妙瓦底有 36 个团伙，“员工”超十万人]]></title>
+        <id>https://www.v2ex.com/t/1108375</id>
+        <link href="https://www.v2ex.com/t/1108375"/>
+        <updated>2025-01-31T01:02:06.000Z</updated>
+        <summary type="html"><![CDATA[dcy7287: 
+人均利润 10 万每年，那就是 100 亿了]]></summary>
+        <author>
+            <name>dcy7287</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux 如何限制笔记本电脑触摸板的大小？]]></title>
+        <id>https://www.v2ex.com/t/1108374</id>
+        <link href="https://www.v2ex.com/t/1108374"/>
+        <updated>2025-01-31T00:52:28.000Z</updated>
+        <summary type="html"><![CDATA[wniming: 
+我在 m2 的 macbook air 上使用 asahi linux ，打字时右手手掌经常会因为触摸到触摸板导致光标移动，这部分区域在 macos 系统下之所以不会在打字时误触是因为 macos 使用了一种神经网络算法来判断用户是否在操作触摸板，asahi linux 不太可能开发一套类似效果的算法来解决误触的问题。所以我想通过禁用掉容易误触的这 1/3 的触摸板空间来避免误触。
+PS:
+虽然可以在 kde 里设置打字时禁用触摸板，但这会导致触摸板的响应略微变慢]]></summary>
+        <author>
+            <name>wniming</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海电信 上传限速]]></title>
+        <id>https://www.v2ex.com/t/1108373</id>
+        <link href="https://www.v2ex.com/t/1108373"/>
+        <updated>2025-01-31T00:52:28.000Z</updated>
+        <summary type="html"><![CDATA[haixinsc: 
+外网访问 NAS 下载文件，直接限速 3M ，如果用 wireguard 连回去，下载速率能到 60M ，以前直连可以到 100M.
+IP 180.172 ，MTU 1492]]></summary>
+        <author>
+            <name>haixinsc</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jellyfin 播放视频的 remuxing 播放方法是什么？如何避免用这种方法播放？]]></title>
+        <id>https://www.v2ex.com/t/1108372</id>
+        <link href="https://www.v2ex.com/t/1108372"/>
+        <updated>2025-01-31T00:13:30.000Z</updated>
+        <summary type="html"><![CDATA[wniming: 
+用 remuxing 方法播放时非常卡顿，jellyfin 官方文档对 remuxing 这种播放方法就只有一行解释：
+https://jellyfin.org/docs/general/server/transcoding/
+Remux: Changes the container but leaves both audio and video streams untouched.
+这个解释中的更改容器我不知道指的是什么容器，google 搜 jellyfin container 搜出来的都是 docker 容器，但我觉得这个问题应该跟 docker 容器无关。]]></summary>
+        <author>
+            <name>wniming</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gemini 是否违反了 GDPR？]]></title>
         <id>https://www.v2ex.com/t/1108370</id>
@@ -449,74 +546,6 @@ open-webui 的 ollama 设置里也改成了 pcip:11434,但 open-webui 就是连�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[有没有出租 deepseek 本地模型的云服务器？]]></title>
-        <id>https://www.v2ex.com/t/1108328</id>
-        <link href="https://www.v2ex.com/t/1108328"/>
-        <updated>2025-01-30T05:37:29.000Z</updated>
-        <summary type="html"><![CDATA[Themyth: 
-我很好奇，有没有人将 deepseek 搭建在服务器上，然后对外提供出租服务的？
-比如给个 mstsc ，或者弄个外网访问权限的。
-可以让租用的人在本地调用这个云服务器上的模型的....]]></summary>
-        <author>
-            <name>Themyth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[可以讲下你看到的编程语言的美吗？]]></title>
-        <id>https://www.v2ex.com/t/1108327</id>
-        <link href="https://www.v2ex.com/t/1108327"/>
-        <updated>2025-01-30T05:34:50.000Z</updated>
-        <summary type="html"><![CDATA[nnegier: 我是写 java 代码的，感觉后续的一些语法更补不是很让人满意，只是写习惯了，不过也萌生了对那种编程语言的美的思考，表现力强，整洁优美，但我自身接触的语言实在有限，所以想想问问大家，如果可以，也希望可以附上一段你喜欢的代码。
-自己提下 python 吧，但只接触过一点，未实际项目，它有一种语法层面的整洁美，那个缩进。]]></summary>
-        <author>
-            <name>nnegier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chorme 老是将首页快捷图标从双列改成单列]]></title>
-        <id>https://www.v2ex.com/t/1108326</id>
-        <link href="https://www.v2ex.com/t/1108326"/>
-        <updated>2025-01-30T05:23:47.000Z</updated>
-        <summary type="html"><![CDATA[SiWXie: 
-这个问题已经遇到很多次了，每次解决办法都是从 chrome://flags/ 中更改 NTP ，但每次更新后，它又变回原样，不得不又改一次。最近几天，又从双列变成单列了，烦。
-为啥非要把双列排版快捷方式改成单列呢？这是有什么执念吗？单列排列的话，丑的简直没法看呀！逼死强迫症。]]></summary>
-        <author>
-            <name>SiWXie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[google 的 gemini-2.0-flash-thinking 这个推理模型是不让用了吗]]></title>
-        <id>https://www.v2ex.com/t/1108325</id>
-        <link href="https://www.v2ex.com/t/1108325"/>
-        <updated>2025-01-30T05:15:15.000Z</updated>
-        <summary type="html"><![CDATA[pizone: 
-这两天 google 的推理模型调用 API 都报 500 错误，想用 deepseek R1 来替代一下，发现 deepseek R1 的服务也是非常不稳定，大部分情况是调用不了的，只是偶尔有反应，全看运气。]]></summary>
-        <author>
-            <name>pizone</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[x 是什么勾八算法，打开全是 deepseek。]]></title>
-        <id>https://www.v2ex.com/t/1108324</id>
-        <link href="https://www.v2ex.com/t/1108324"/>
-        <updated>2025-01-30T04:13:02.000Z</updated>
-        <summary type="html"><![CDATA[565656: 实在是审美疲劳了，为啥权重全是这个，上次是 cursor ，东西是好东西但是看的烦了现在看见这个词就厌恶了。]]></summary>
-        <author>
-            <name>565656</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有什么方便老人使用的大模型语音交互小家电吗？]]></title>
-        <id>https://www.v2ex.com/t/1108322</id>
-        <link href="https://www.v2ex.com/t/1108322"/>
-        <updated>2025-01-30T03:41:00.000Z</updated>
-        <summary type="html"><![CDATA[yanaraika: 
-家里老人视力很差，看不清老人机的屏幕，只能靠收音机和聊天获取外界信息，但是思维还是很清晰的。这次回家过年给老人展示了几个语音交互的大模型，老人表示很有意思，但是他看不见屏幕用不了手机。搜了下各种语音助手家电，但是不是交互太复杂就是功能太简单（老人希望至少能够联网对话获取每日新闻，而不是只有闹钟、提醒功能）。想问下 V 站各位有没有比较合适的大模型小家电方便老人使用？]]></summary>
-        <author>
-            <name>yanaraika</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What on Earth is the `types` Descriptor in View Transitions?]]></title>
         <id>https://css-tricks.com/?p=383818</id>
         <link href="https://css-tricks.com/what-on-earth-is-the-types-descriptor-in-view-transitions/"/>
@@ -528,6 +557,24 @@ What on Earth is the `types` Descriptor in View Transitions? originally publis
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...]]></title>
+        <id>https://t.me/vps_xhq/696</id>
+        <link href="https://t.me/vps_xhq/696"/>
+        <updated>2025-01-29T09:14:56.000Z</updated>
+        <summary type="html"><![CDATA[DMIT补货限量款 29.90刀年付美西9929
+DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。
+配置如下：
+1 vCPU           1 GB RAM
+10G SSD       400GB Transfer
+500Mbps      1 IPv4 & 1 IPv6 /64
+https://www.dmit.io/aff.php?aff=3439&pid=231
+该机器每日限 100 个订单。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -536,6 +583,49 @@ What on Earth is the `types` Descriptor in View Transitions? originally publis
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...]]></title>
+        <id>https://t.me/vps_xhq/695</id>
+        <link href="https://t.me/vps_xhq/695"/>
+        <updated>2025-01-25T07:34:43.000Z</updated>
+        <summary type="html"><![CDATA[VPS信号旗播报:
+BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…
+
+BuyVM 改将卢森堡机房迁往瑞士
+今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。
+这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
         </author>
     </entry>
     <entry>
@@ -600,6 +690,21 @@ Some Things You Might Not Know About Custom Counter Styles originally published 
 Creating a “Starred” Feed originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...]]></title>
+        <id>https://t.me/vps_xhq/694</id>
+        <link href="https://t.me/vps_xhq/694"/>
+        <updated>2025-01-19T11:07:54.000Z</updated>
+        <summary type="html"><![CDATA[腾讯云轻量锐驰200M版内测结束，发售在即
+该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。
+腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。
+在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。
+尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
         </author>
     </entry>
     <entry>
@@ -774,6 +879,20 @@ Tight Mode: Why Browsers Produce Different Performance Results originally publis
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...]]></title>
+        <id>https://t.me/vps_xhq/692</id>
+        <link href="https://t.me/vps_xhq/692"/>
+        <updated>2025-01-08T02:30:11.000Z</updated>
+        <summary type="html"><![CDATA[BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰
+BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。
+BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。
+新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Importance of Investing in Soft Skills in the Age of AI]]></title>
         <id>https://css-tricks.com/?p=383383</id>
         <link href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/"/>
@@ -785,6 +904,19 @@ The Importance of Investing in Soft Skills in the Age of AI originally published
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...]]></title>
+        <id>https://t.me/vps_xhq/691</id>
+        <link href="https://t.me/vps_xhq/691"/>
+        <updated>2025-01-06T05:12:02.000Z</updated>
+        <summary type="html"><![CDATA[Akamai 将终止在中国的 CDN 服务
+全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。
+Akamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[第207期 - 水培红薯]]></title>
         <id>https://weekly.tw93.fun/posts/207-%E6%B0%B4%E5%9F%B9%E7%BA%A2%E8%96%AF/</id>
         <link href="https://weekly.tw93.fun/posts/207-%E6%B0%B4%E5%9F%B9%E7%BA%A2%E8%96%AF/"/>
@@ -792,6 +924,22 @@ The Importance of Investing in Soft Skills in the Age of AI originally published
         <summary type="html"><![CDATA[封面图拍摄于家里水培的红薯，相比买的绿植长得要好不少，一个红薯扔杯子里面加点儿水，不怎么管，过一个月就变成艺术品了，你也可以试试。]]></summary>
         <author>
             <name>潮流周刊</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...]]></title>
+        <id>https://t.me/vps_xhq/690</id>
+        <link href="https://t.me/vps_xhq/690"/>
+        <updated>2025-01-04T06:10:42.000Z</updated>
+        <summary type="html"><![CDATA[搬瓦工上新 POWERBOX-30-1536
+这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。
+该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。
+https://bwh81.net/aff.php?aff=47294&pid=153
+优惠码：BWHCGLUKKB （6.77%）
+搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。
+[消息等级 Level C2 · 简要]]]></summary>
+        <author>
+            <name>VPS信号旗播报 - Telegram Channel</name>
         </author>
     </entry>
     <entry>

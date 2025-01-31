@@ -139,6 +139,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -162,6 +168,23 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -223,10 +246,163 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/696",
+          "author": null,
+          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/696",
+          "publishedOn": "2025-01-29T09:14:56.000Z",
+          "wordCount": null,
+          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/695",
+          "author": null,
+          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/695",
+          "publishedOn": "2025-01-25T07:34:43.000Z",
+          "wordCount": null,
+          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/692",
+          "author": null,
+          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/692",
+          "publishedOn": "2025-01-08T02:30:11.000Z",
+          "wordCount": null,
+          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/691",
+          "author": null,
+          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/691",
+          "publishedOn": "2025-01-06T05:12:02.000Z",
+          "wordCount": null,
+          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/690",
+          "author": null,
+          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/690",
+          "publishedOn": "2025-01-04T06:10:42.000Z",
+          "wordCount": null,
+          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1108379",
+          "author": "796923406aaa",
+          "description": "796923406aaa: \n早期项目，第一个 Solana 第 2 层解决方案\n融资金额：5500 万美元\n测试网：2025 年 3 月\nTGE : 2025 年 6 月\n连接 钱包 ，绑定 Twitter 每日签到 ，旋转轮盘就是这么的简单\nhttps://x.ink/BNA0JL",
+          "link": "https://www.v2ex.com/t/1108379",
+          "publishedOn": "2025-01-31T01:49:46.000Z",
+          "wordCount": 359,
+          "title": "XOS 空投项目",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108378",
+          "author": "wxmomomowx",
+          "description": "wxmomomowx: 这算信息安全哪个范畴啊？",
+          "link": "https://www.v2ex.com/t/1108378",
+          "publishedOn": "2025-01-31T01:32:28.000Z",
+          "wordCount": 376,
+          "title": "打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108377",
+          "author": "chenqh",
+          "description": "chenqh: \n质疑了一下,差点被人开除籍贯.",
+          "link": "https://www.v2ex.com/t/1108377",
+          "publishedOn": "2025-01-31T01:25:52.000Z",
+          "wordCount": 458,
+          "title": "你们过年的时候要上山祭祖吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108376",
+          "author": "apollo007",
+          "description": "apollo007:",
+          "link": "https://www.v2ex.com/t/1108376",
+          "publishedOn": "2025-01-31T01:09:04.000Z",
+          "wordCount": 390,
+          "title": "如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108375",
+          "author": "dcy7287",
+          "description": "dcy7287: \n人均利润 10 万每年，那就是 100 亿了",
+          "link": "https://www.v2ex.com/t/1108375",
+          "publishedOn": "2025-01-31T01:02:06.000Z",
+          "wordCount": 399,
+          "title": "妙瓦底有 36 个团伙，“员工”超十万人",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108374",
+          "author": "wniming",
+          "description": "wniming: \n我在 m2 的 macbook air 上使用 asahi linux ，打字时右手手掌经常会因为触摸到触摸板导致光标移动，这部分区域在 macos 系统下之所以不会在打字时误触是因为 macos 使用了一种神经网络算法来判断用户是否在操作触摸板，asahi linux 不太可能开发一套类似效果的算法来解决误触的问题。所以我想通过禁用掉容易误触的这 1/3 的触摸板空间来避免误触。\nPS:\n虽然可以在 kde 里设置打字时禁用触摸板，但这会导致触摸板的响应略微变慢",
+          "link": "https://www.v2ex.com/t/1108374",
+          "publishedOn": "2025-01-31T00:52:28.000Z",
+          "wordCount": 446,
+          "title": "Linux 如何限制笔记本电脑触摸板的大小？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108373",
+          "author": "haixinsc",
+          "description": "haixinsc: \n外网访问 NAS 下载文件，直接限速 3M ，如果用 wireguard 连回去，下载速率能到 60M ，以前直连可以到 100M.\nIP 180.172 ，MTU 1492",
+          "link": "https://www.v2ex.com/t/1108373",
+          "publishedOn": "2025-01-31T00:52:28.000Z",
+          "wordCount": 372,
+          "title": "上海电信 上传限速",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108372",
+          "author": "wniming",
+          "description": "wniming: \n用 remuxing 方法播放时非常卡顿，jellyfin 官方文档对 remuxing 这种播放方法就只有一行解释：\nhttps://jellyfin.org/docs/general/server/transcoding/\nRemux: Changes the container but leaves both audio and video streams untouched.\n这个解释中的更改容器我不知道指的是什么容器，google 搜 jellyfin container 搜出来的都是 docker 容器，但我觉得这个问题应该跟 docker 容器无关。",
+          "link": "https://www.v2ex.com/t/1108372",
+          "publishedOn": "2025-01-31T00:13:30.000Z",
+          "wordCount": 437,
+          "title": "jellyfin 播放视频的 remuxing 播放方法是什么？如何避免用这种方法播放？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1108370",
           "author": "drymonfidelia",
@@ -303,7 +479,7 @@
           "description": "jakezh: \n问客服说不能提供原因，问能不能恢复数据到新服务器上，说没有任何办法。\n有遇到过的朋友吗，上面就运行了个 bitwarden ，还运行了个 docker look busy 保活\n这也能被删？\n稳定运行三年多了，不知道为什么被 target 了\n一怒之下又注册了两个号，还好 bitwarden 定时备份，但是很不爽，客服说这个邮箱再也不能注册新账号了，简直深井冰，不知道 PM 是谁，怎么做出的这种脑残决定",
           "link": "https://www.v2ex.com/t/1108363",
           "publishedOn": "2025-01-30T15:04:06.000Z",
-          "wordCount": 404,
+          "wordCount": 444,
           "title": "oracle 直接把我账号给删了",
           "imageUrl": null
         },
@@ -313,7 +489,7 @@
           "description": "abc2xyz: 之前抓包发现两个 CCTV4K 的组播地址，以为一个是备用的就没在意，这几天看春晚发现其中一个竟然可以点亮我 LG 电视的 HDR ，PC 上 PotPlayer 也能点亮 HDR 。试了下把吃灰的电信盒子打开，现在里面的 CCTV4K 并不能点亮 HDR （也可能是我盒子太老了，或者姿势不对）。\nCCTV4K:\n239.45.0.55:5140\nCCTV4K HDR:\n239.45.1.21:5140",
           "link": "https://www.v2ex.com/t/1108362",
           "publishedOn": "2025-01-30T15:00:57.000Z",
-          "wordCount": 451,
+          "wordCount": 455,
           "title": "上海电信 CCTV4K HDR 组播地址分享",
           "imageUrl": null
         },
@@ -363,7 +539,7 @@
           "description": "3059349417: \n放假没回家，很无聊，听音乐又不想切歌就一直听，再看点文字混时间。",
           "link": "https://www.v2ex.com/t/1108355",
           "publishedOn": "2025-01-30T13:49:10.000Z",
-          "wordCount": 412,
+          "wordCount": 419,
           "title": "有没有和我一样经常听同一首音乐？",
           "imageUrl": null
         },
@@ -373,7 +549,7 @@
           "description": "fancy2020: \n我观察到的是今年拜年消息明显变少了，以前大年三十晚上各种群里都会冒出来一些拜年消息，还有些私发或群发的，今年几乎都没有了。\n我的感觉是大家越来越懒得装了。\n另外就是放鞭炮的明显少很多",
           "link": "https://www.v2ex.com/t/1108352",
           "publishedOn": "2025-01-30T13:11:33.000Z",
-          "wordCount": 467,
+          "wordCount": 485,
           "title": "今年过年大家观察到身边有哪些变化?",
           "imageUrl": null
         },
@@ -423,7 +599,7 @@
           "description": "VchentozV: \n央视春晚收视率只有 5 个点，请问都在忙什么？",
           "link": "https://www.v2ex.com/t/1108344",
           "publishedOn": "2025-01-30T10:58:31.000Z",
-          "wordCount": 570,
+          "wordCount": 604,
           "title": "广东的朋友春节都在干什么？",
           "imageUrl": null
         },
@@ -443,7 +619,7 @@
           "description": "Edwardai: \n整整一年前，我发布了餐刻 App 的 1.0 版本（去年主题的地址： https://v2ex.com/t/1015211#reply2 ），完全是出于业余爱好和一个执念。然而，发布后我发现 App 基本没有太大的使用价值。一个重要的原因是，食谱 App 本质上还是一个以数据为核心的应用，食谱内容过于匮乏。过去的一年里，工作繁忙，年龄也渐长（而且我并不是专业的工程师），因此只能在有限的空闲时间里偶尔进行一些调整。直到今年农历新年，3.0 版本基本完成。实际上，这个 3.0 版本，可以说是 1.0 版本的升级，至少现在它有了一定的使用价值。\n餐刻 App 并不是一本传统的食谱大全，而是希望将我们在短视频中常看到的食谱链接统一添加到同一个地方。这样，不需要每次去短视频 App 的收藏夹里找那些经常会丢失的食谱，也能避免每次参考的烹饪视频都不一致。对于像我这样虽然能做点儿菜，但并非烹饪专家的人来说，简直是太方便了。\n起初，我的想法是专注于做一个素食食谱 App ，这也是我一直以来的心愿（尽管如今 App 的时代早已过去，这个项目更多像是我内心的一份执念）。年轻时，我曾学习过 Objective-C ，并写过几个与佛教咒语相关的应用。但素食者终究是少数群体，所以我最终还是决定做一个包含更多食谱的全面性 App 。\n实际上，一个人独自开发一个 App ，涉及到产品设计、数据管理和编码等多个方面，对于我来说是一个不小的挑战。不过，1 年多前，GPT 的出现让编码过程变得轻松了很多，感谢这个时代。\n我在 X 上放了一个比较简单的视频演示，如果感兴趣可以私信我，我会给你们免费的内购码；如果有去年下载还没有升级的，直接升级即可。\nhttps://x.com/edwardai2/status/1884907516225819082?s=61\n[餐刻 3.0 新功能] \n• 探索页面\n全新入口，轻松发现更多优质食谱与烹饪灵感。\n• 计划功能\n将食谱添加到指定日期并自动提醒，避免错过烹饪时机。\n• 搜索食谱\n如果食谱库中没有，可以直接跳转到短视频平台进行搜索。\n• 购买食材\n一键添加所需食材至提醒事项，简化购物流程。\n• 烹饪时刻\n集中展示所有烹饪回忆，便于随时回顾或再次尝试。\n• 随机食谱回退\n随机生成后可随时回到上一道食谱，更灵活便捷。\n• 首次启动自动导入烹饪链接\n安装后可选择倒入食谱烹饪演示链接，助力新手快速上手。\n• 其它\n新增了 500 多种新食谱，修复了一些已知的问题。",
           "link": "https://www.v2ex.com/t/1108342",
           "publishedOn": "2025-01-30T10:17:39.000Z",
-          "wordCount": 497,
+          "wordCount": 510,
           "title": "[餐刻 App] 3.0 版",
           "imageUrl": null
         },
@@ -463,7 +639,7 @@
           "description": "banzhaun: 数字马力，蚂蚁子公司，做的蚂蚁的项目，感觉还可以，有想从一线回来的可以内推。联系:d2VpeGluZ182Njkz",
           "link": "https://www.v2ex.com/t/1108339",
           "publishedOn": "2025-01-30T09:47:02.000Z",
-          "wordCount": 421,
+          "wordCount": 441,
           "title": "郑州，长沙，重庆年后找工作的看过来。",
           "imageUrl": null
         },
@@ -535,66 +711,6 @@
           "publishedOn": "2025-01-30T05:48:11.000Z",
           "wordCount": 562,
           "title": "前后端开发毕设,求建议",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108328",
-          "author": "Themyth",
-          "description": "Themyth: \n我很好奇，有没有人将 deepseek 搭建在服务器上，然后对外提供出租服务的？\n比如给个 mstsc ，或者弄个外网访问权限的。\n可以让租用的人在本地调用这个云服务器上的模型的....",
-          "link": "https://www.v2ex.com/t/1108328",
-          "publishedOn": "2025-01-30T05:37:29.000Z",
-          "wordCount": 495,
-          "title": "有没有出租 deepseek 本地模型的云服务器？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108327",
-          "author": "nnegier",
-          "description": "nnegier: 我是写 java 代码的，感觉后续的一些语法更补不是很让人满意，只是写习惯了，不过也萌生了对那种编程语言的美的思考，表现力强，整洁优美，但我自身接触的语言实在有限，所以想想问问大家，如果可以，也希望可以附上一段你喜欢的代码。\n自己提下 python 吧，但只接触过一点，未实际项目，它有一种语法层面的整洁美，那个缩进。",
-          "link": "https://www.v2ex.com/t/1108327",
-          "publishedOn": "2025-01-30T05:34:50.000Z",
-          "wordCount": 1197,
-          "title": "可以讲下你看到的编程语言的美吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108326",
-          "author": "SiWXie",
-          "description": "SiWXie: \n这个问题已经遇到很多次了，每次解决办法都是从 chrome://flags/ 中更改 NTP ，但每次更新后，它又变回原样，不得不又改一次。最近几天，又从双列变成单列了，烦。\n为啥非要把双列排版快捷方式改成单列呢？这是有什么执念吗？单列排列的话，丑的简直没法看呀！逼死强迫症。",
-          "link": "https://www.v2ex.com/t/1108326",
-          "publishedOn": "2025-01-30T05:23:47.000Z",
-          "wordCount": 367,
-          "title": "Chorme 老是将首页快捷图标从双列改成单列",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108325",
-          "author": "pizone",
-          "description": "pizone: \n这两天 google 的推理模型调用 API 都报 500 错误，想用 deepseek R1 来替代一下，发现 deepseek R1 的服务也是非常不稳定，大部分情况是调用不了的，只是偶尔有反应，全看运气。",
-          "link": "https://www.v2ex.com/t/1108325",
-          "publishedOn": "2025-01-30T05:15:15.000Z",
-          "wordCount": 546,
-          "title": "google 的 gemini-2.0-flash-thinking 这个推理模型是不让用了吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108324",
-          "author": "565656",
-          "description": "565656: 实在是审美疲劳了，为啥权重全是这个，上次是 cursor ，东西是好东西但是看的烦了现在看见这个词就厌恶了。",
-          "link": "https://www.v2ex.com/t/1108324",
-          "publishedOn": "2025-01-30T04:13:02.000Z",
-          "wordCount": 416,
-          "title": "x 是什么勾八算法，打开全是 deepseek。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108322",
-          "author": "yanaraika",
-          "description": "yanaraika: \n家里老人视力很差，看不清老人机的屏幕，只能靠收音机和聊天获取外界信息，但是思维还是很清晰的。这次回家过年给老人展示了几个语音交互的大模型，老人表示很有意思，但是他看不见屏幕用不了手机。搜了下各种语音助手家电，但是不是交互太复杂就是功能太简单（老人希望至少能够联网对话获取每日新闻，而不是只有闹钟、提醒功能）。想问下 V 站各位有没有比较合适的大模型小家电方便老人使用？",
-          "link": "https://www.v2ex.com/t/1108322",
-          "publishedOn": "2025-01-30T03:41:00.000Z",
-          "wordCount": 548,
-          "title": "有什么方便老人使用的大模型语音交互小家电吗？",
           "imageUrl": null
         }
       ]
