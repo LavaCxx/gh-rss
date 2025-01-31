@@ -159,6 +159,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -182,23 +188,6 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -343,7 +332,7 @@
           "description": "lslqtz: \n也不能说是突然吧, 上个月的 27 号在正常聊天的过程中突然被踢下线, 然后再次登录就提示手机号被 ban 了, 挺令人意外的. 发了好几封邮件给官方, 一概无视了.\n账号是 +44 非 VoIP, 注册约 6 年 (但最近几个月才换到 +44), 无 SPAM. 也许是 Cloudflare WARP 引起的. 依稀记得之前群友还在提醒我发送消息太多 (还无人回应) 可能会被 ban, 虽然我以前都是这么做的...\n通过在已登录设备上断网备份收藏夹, 也算是降低了一点损失.\n寻找替代软件发现还真没几个比 Telegram 易用又适当宽松的, 关键是群组生态上不去. 有人有类似的经历或替代软件推荐的吗? 已经试过 Signal 除了表情包 sticker 外主要的问题就是群组生态了.",
           "link": "https://www.v2ex.com/t/1108461",
           "publishedOn": "2025-01-31T16:51:14.000Z",
-          "wordCount": 454,
+          "wordCount": 497,
           "title": "tg 号突然没了, 有类似的软件推荐吗",
           "imageUrl": null
         },
@@ -453,7 +442,7 @@
           "description": "shrimpDumpling: 晚上一个人看《 k 星异客》，结局看到一个演员很像绝命毒师里的小粉，截图下来却不知道分享给谁，\n 想起来绝命毒师、风骚律师这么长、这么精彩的剧也是一个人看的，不知道跟谁讨论。\n 高中身边总是不缺看美剧，听 billboard 的同学，都没有保持联系，当时只道是寻常。",
           "link": "https://www.v2ex.com/t/1108448",
           "publishedOn": "2025-01-31T14:04:11.000Z",
-          "wordCount": 453,
+          "wordCount": 460,
           "title": "越大越觉得孤单",
           "imageUrl": null
         },
@@ -463,7 +452,7 @@
           "description": "gegeligegeligo: 最近新买了一个游戏本，使用过程中总是出现卡顿的情况，后来发现是电脑长时间没关机，一直用休眠来代替，然后有时候唤醒了会出现 cpu 锁频率的情况，难怪会变得很卡。。。。。。这是 windows 的原因还是电源管理芯片的问题？稍微搜了一下，发现不止我一个人有遇到过这种情况",
           "link": "https://www.v2ex.com/t/1108447",
           "publishedOn": "2025-01-31T13:56:15.000Z",
-          "wordCount": 411,
+          "wordCount": 423,
           "title": "找到系统变卡的原因了",
           "imageUrl": null
         },
@@ -473,7 +462,7 @@
           "description": "SGL:",
           "link": "https://www.v2ex.com/t/1108446",
           "publishedOn": "2025-01-31T13:35:23.000Z",
-          "wordCount": 431,
+          "wordCount": 433,
           "title": "刚进入职场的程序员应该在哪些方面提升自己，如何看好未来的路",
           "imageUrl": null
         },
@@ -513,7 +502,7 @@
           "description": "piaochen0: \n家里初二固定节目，是我外婆这边家庭聚会，基本上要聚一天。\n一大家子吃饭的时候，好不容易找到引起一些大家都有话说的话题，也基本上点到为止，要么要么被长辈给粗暴打断，要么由于观点差异巨大适可而止。  \n由于从小就痛恨打牌，下午闲暇时刻，满满一大屋子的人，发现能跟我聊天的，居然也就剩下表弟家一个 6 ，7 岁大的小孩。\n我发现那个小女孩一直在玩恐龙的玩具，我就把我逛博物馆拍的恐龙照片给她看，她两眼立马放光，跟她讲了一下午各种恐龙...    \n晚上吃完饭各自散去，怅然若失。   \n不知道你们的家庭聚会是不是也是这样？是怎么打法这样的时间的，还是有什么方法能把这样家庭聚会变的更有意思。",
           "link": "https://www.v2ex.com/t/1108442",
           "publishedOn": "2025-01-31T13:04:19.000Z",
-          "wordCount": 547,
+          "wordCount": 552,
           "title": "过年，亲戚待在一起，是如何打发时间的？",
           "imageUrl": null
         },
@@ -563,7 +552,7 @@
           "description": "wangshushu: rt ，搞个群交流一下最近大热的 deepseek",
           "link": "https://www.v2ex.com/t/1108435",
           "publishedOn": "2025-01-31T12:03:35.000Z",
-          "wordCount": 355,
+          "wordCount": 357,
           "title": "deepseek 交流群",
           "imageUrl": null
         },
@@ -673,7 +662,7 @@
           "description": "dcy7287: \n无论你拿多少东西都把你当外人\n好像女儿天生低人一等一样\n儿子拿东西是给家里置办年货，女儿拿东西好像是欠娘家的一样",
           "link": "https://www.v2ex.com/t/1108419",
           "publishedOn": "2025-01-31T09:34:53.000Z",
-          "wordCount": 473,
+          "wordCount": 475,
           "title": "回娘家真没意思",
           "imageUrl": null
         },
