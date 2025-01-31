@@ -329,7 +329,7 @@
           "description": "busterian: 海关会因为中国缺少高端芯片网开一面不税它吗?\n如果不网开一面的话,出境申报时把笔记本和显卡显卡坞一起申报(笔记本很多都支持 oculink), 回来时把 5090 显卡换壳带回来怎么样?",
           "link": "https://www.v2ex.com/t/1108412",
           "publishedOn": "2025-01-31T07:48:24.000Z",
-          "wordCount": 426,
+          "wordCount": 452,
           "title": "去日本旅游带块 5090 回来能回多少?",
           "imageUrl": null
         },
@@ -339,7 +339,7 @@
           "description": "SiWXie: \nChatbox ，无广告，不收费，客卢端做的有些廉价感（感觉是套了个网页），优点是 markdown 和 latex 公式支持很好（ latex 支持可以说是我用过移动端上体验最好的）。\n2. ChatX ，挺出圈的客户端，功能也挺完善，UI 简洁（但一片绿我有点欣赏不来 T_T ），无广，限免过很多次，挺良心的客户端，缺点是 latex 语法支持不完善，很多公式渲染不出来，代码渲染还可以。\n3. BotGem ，UI 简洁美观（也是一片绿），功能完善，免费无广，挺好的一个客户端，感觉作者在做慈善，缺点与 ChatX 类似，latex 语法支持不完善，日常够用。\n4.  OpenCat ，也算比较出圈的客户端，以前挺好用，现在每次进去都弹广告让购买他们的 Key ，遂卸载了，UI 配色还不错，但功能按钮感觉比较混乱，有待进一步优化。\n5. AiChat ，一个开源的客户端，知道的人比较少，UI 做的实际挺不错的，IOS 还在上架，缺点是一年多没更新了，有些功能不完善。\n最后，感觉都有点问题，希望出一个集百家之长的客户端，接受付费 𓋼𖤣𖥧𓋼𓍊",
           "link": "https://www.v2ex.com/t/1108411",
           "publishedOn": "2025-01-31T07:37:07.000Z",
-          "wordCount": 401,
+          "wordCount": 420,
           "title": "手机上可自定义 Key 的大模型客户端整理",
           "imageUrl": null
         },
@@ -349,7 +349,7 @@
           "description": "nightnotlate: 我自己买的，\n1 养生壶，很快底部就生锈，看评论是常见问题，客服说这不是质量问题。\n2 新风机 300 ，不到半年不出风，报修后第一次换了电机没好，后面说是里面的板子坏了，第二次上门免费换后修好了。\n3 净水器 h1000g ，过保了，年前还是正常的，年后回来通电没反应了。\n查了下价格 维修估计要三百左右。\n心塞",
           "link": "https://www.v2ex.com/t/1108409",
           "publishedOn": "2025-01-31T07:13:02.000Z",
-          "wordCount": 402,
+          "wordCount": 488,
           "title": "小米小家电的质量真是不敢恭维",
           "imageUrl": null
         },
@@ -359,7 +359,7 @@
           "description": "Joomaen: \n比如我的图片链接是\nhttps://coastal-silver-moose.myfilebase.com/ipfs/QmNUxGJsRXq8aDnGkyQhrQyoNQZCzjV13771qii6ET8bEb\n\n当网关挂了导致图片无法加载时，将/ipfs/xxx 前面的部分动态替换掉。\n能否用油猴脚本实现",
           "link": "https://www.v2ex.com/t/1108408",
           "publishedOn": "2025-01-31T06:50:47.000Z",
-          "wordCount": 423,
+          "wordCount": 427,
           "title": "能否动态替换网关",
           "imageUrl": null
         },
@@ -369,7 +369,7 @@
           "description": "lvyc: \n之前有个帖子说计算机是普通人能选择的最好专业，\n但现在观身边样本（我哥我姑父以及朋友）有感。航空行业真是越老越吃香，面试不难，学校只要是个中国民航大学都可以随便去各个公司，只是刚毕业可能工资没那么高，大概七八千，过个几年就月薪一万到两万了，还稳定…这不比计算机好吗",
           "link": "https://www.v2ex.com/t/1108404",
           "publishedOn": "2025-01-31T05:37:08.000Z",
-          "wordCount": 552,
+          "wordCount": 554,
           "title": "观航空行业有感…",
           "imageUrl": null
         },
@@ -399,7 +399,7 @@
           "description": "forgottenPerson: \nsimple 指的不一定是代码量越少越好\n最有意思指的是给你一种恍然大悟这也能行的感觉以及你感受到的美，美包括奇妙的思路以及时间以及空间复杂度达到你认为的 trade-off,或者有很高的实用价值以及你觉得有趣的。",
           "link": "https://www.v2ex.com/t/1108398",
           "publishedOn": "2025-01-31T04:56:28.000Z",
-          "wordCount": 501,
+          "wordCount": 503,
           "title": "你遇见过的最 simple 或者最有意思的算法和数据结构",
           "imageUrl": null
         },
@@ -439,7 +439,7 @@
           "description": "snowkylin: https://snowkylin.github.io/blogs/a-note-on-deepseek-r1.html\n（以下介绍就是 DeepSeek R1 写的，我觉得还挺厉害的，我是写不出来……）\n🚀 测试模型：\n1.73-bit 量化版（ 158GB ，每秒 7-8 个词）\n4-bit 量化版（ 404GB ，每秒 2-4 个词）\n💻 硬件需求：\n1.73-bit：内存+显存 ≥ 200GB\n4-bit：内存+显存 ≥ 500GB\n实测配置：4 块 RTX4090 显卡（ 96G 显存） + 384G DDR5 内存\n⚡ 性能对比：\n短文本生成：1.73-bit 速度碾压，长文本会卡到 1-2 词/秒\n瓶颈竟是 CPU 和内存，GPU 全程摸鱼（利用率 1-3% 😂）\n🤖 模型性格差异：\n1.73-bit：毒舌傲娇，敢怼 ChatGPT：\n“哼！还在用老古董 ChatGPT ？(◔‸◔) 我的训练费可没烧穿钱包！”\n4-bit：安全标兵，拒绝一切危险发言，全程官方脸 😇\n🔧 部署步骤：\n下载+合并 GGUF 文件\n装 Ollama + 调参数（ GPU 分层加载）\n跑模型，内存炸了？减层数！\n可选：搭配 OpenWebUI 变身高配版 ChatGPT ！\n✨ 总结：\n1.73-bit 版性价比超高，适合短平快任务！长对话会变树懒…🦥\n完整教程在博客，硬核玩家速来试试！👉",
           "link": "https://www.v2ex.com/t/1108393",
           "publishedOn": "2025-01-31T03:46:28.000Z",
-          "wordCount": 589,
+          "wordCount": 591,
           "title": "本地部署 DeepSeek-R1 671B 千亿大模型流程",
           "imageUrl": null
         },
@@ -459,7 +459,7 @@
           "description": "clear: \n多多少少用过一些客户端，想选 1-2 个最好的长期用，看看大家的意见。\nOpencat：\n优点：简单、快，支持模型多，Mac iOS iPadOS 能三端同步；\n缺点：过于简单，基本只能做纯文字类的工作，输出也只有很简单的格式化，一年来没什么更新，时有各种小 bug 不修复。\nChatX：\n和 Opencat 类似，界面清爽一些，功能多一点。\nBoltAI：\n用户体验好，支持各种嵌入式替换等，只有 Mac 端。\nCherry Studio：\n界面好看，开源，功能完善，无 iOS 端。",
           "link": "https://www.v2ex.com/t/1108391",
           "publishedOn": "2025-01-31T03:27:16.000Z",
-          "wordCount": 460,
+          "wordCount": 464,
           "title": "AI 客户端哪家强？决赛圈怎么选",
           "imageUrl": null
         },
@@ -509,7 +509,7 @@
           "description": "dcy7287: \n看了一著名媒体人的视频\n视频里说有机构针对若干国家\n进行问卷调查，对象是本科或以上学历\n工作年龄的人士\n问卷内容是有关个人的各种事物重要性排序\n中国人给的排序是\n工作->财富->健康->家庭",
           "link": "https://www.v2ex.com/t/1108385",
           "publishedOn": "2025-01-31T02:49:55.000Z",
-          "wordCount": 442,
+          "wordCount": 449,
           "title": "中国人的家庭观念",
           "imageUrl": null
         },
@@ -519,7 +519,7 @@
           "description": "HoshinoRei: \nV1.85\n现在的 1.85 版本在 26100.3037 上可以正常地在任务栏显示网速。",
           "link": "https://www.v2ex.com/t/1108384",
           "publishedOn": "2025-01-31T02:42:59.000Z",
-          "wordCount": 475,
+          "wordCount": 478,
           "title": "时隔两年， TrafficMonitor 迎来更新",
           "imageUrl": null
         },
@@ -529,7 +529,7 @@
           "description": "python30:",
           "link": "https://www.v2ex.com/t/1108383",
           "publishedOn": "2025-01-31T02:34:13.000Z",
-          "wordCount": 516,
+          "wordCount": 538,
           "title": "现在网上好多代注册公司的，确实很方便。一年的费用也就小几千块钱，会要你的资料过去帮你注册。甚至注册地址都可以让他们找地方挂靠。这样的找人办理的情况安全...",
           "imageUrl": null
         },
@@ -559,7 +559,7 @@
           "description": "796923406aaa: \n早期项目，第一个 Solana 第 2 层解决方案\n融资金额：5500 万美元\n测试网：2025 年 3 月\nTGE : 2025 年 6 月\n连接 钱包 ，绑定 Twitter 每日签到 ，旋转轮盘就是这么的简单\nhttps://x.ink/BNA0JL",
           "link": "https://www.v2ex.com/t/1108379",
           "publishedOn": "2025-01-31T01:49:46.000Z",
-          "wordCount": 386,
+          "wordCount": 394,
           "title": "XOS 空投项目",
           "imageUrl": null
         },
@@ -569,7 +569,7 @@
           "description": "wxmomomowx: 这算信息安全哪个范畴啊？",
           "link": "https://www.v2ex.com/t/1108378",
           "publishedOn": "2025-01-31T01:32:28.000Z",
-          "wordCount": 814,
+          "wordCount": 817,
           "title": "打电话给苹果客服，提供我的 icloud 账号后和序列号，有技术人员远程帮我 debug 问题",
           "imageUrl": null
         },
@@ -579,7 +579,7 @@
           "description": "chenqh: \n质疑了一下,差点被人开除籍贯.",
           "link": "https://www.v2ex.com/t/1108377",
           "publishedOn": "2025-01-31T01:25:52.000Z",
-          "wordCount": 753,
+          "wordCount": 766,
           "title": "你们过年的时候要上山祭祖吗?",
           "imageUrl": null
         },
@@ -589,7 +589,7 @@
           "description": "apollo007:",
           "link": "https://www.v2ex.com/t/1108376",
           "publishedOn": "2025-01-31T01:09:04.000Z",
-          "wordCount": 505,
+          "wordCount": 513,
           "title": "如何设置 MBA M1 在连接 redmi 4k 外接显示器时，始终保持内置屏幕息屏状态，仅在拔掉外接显示器时才自动切换回内置屏幕显示？",
           "imageUrl": null
         },
@@ -599,7 +599,7 @@
           "description": "wniming: \n我在 m2 的 macbook air 上使用 asahi linux ，打字时右手手掌经常会因为触摸到触摸板导致光标移动，这部分区域在 macos 系统下之所以不会在打字时误触是因为 macos 使用了一种神经网络算法来判断用户是否在操作触摸板，asahi linux 不太可能开发一套类似效果的算法来解决误触的问题。所以我想通过禁用掉容易误触的这 1/3 的触摸板空间来避免误触。\nPS:\n虽然可以在 kde 里设置打字时禁用触摸板，但这会导致触摸板的响应略微变慢",
           "link": "https://www.v2ex.com/t/1108374",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 705,
+          "wordCount": 722,
           "title": "Linux 如何限制笔记本电脑触摸板的大小？",
           "imageUrl": null
         },
@@ -609,7 +609,7 @@
           "description": "haixinsc: \n外网访问 NAS 下载文件，直接限速 3M ，如果用 wireguard 连回去，下载速率能到 60M ，以前直连可以到 100M.\nIP 180.172 ，MTU 1492",
           "link": "https://www.v2ex.com/t/1108373",
           "publishedOn": "2025-01-31T00:52:28.000Z",
-          "wordCount": 400,
+          "wordCount": 402,
           "title": "上海电信 上传限速",
           "imageUrl": null
         },
@@ -649,7 +649,7 @@
           "description": "tutugreen: 什么芯片，抢不抢网不知道，但\niw list 看 5Ghz 在 5745(149)~5845(169) 有支持 33.0 dBm （约 2W)？这对吗（\n*好吧，发帖前搜了下，在 5.8Ghz 下，33dBm 是合规的。\n只记得很多起夜级路由 AP 都没有开到 33 dBm 的，多数到 27 dBm 。\n\n\n附一个旧手机 iw dev 结果：\n2412(1)~2472(13) 20.0 dBm\n5180(36)~5240(48) 20.0 dBm\n5260(52)~5240(64) 23.0 dBm\n5745(149)~5825(165) 20.0 dBm\n对比下来都有提升。\n换算：\n20 dBm ~ 100 mw\n25 dBm ~ 316.22776602 mw\n33 dBm ~ 1995.26231497 mw\n\n本来是在研究那个“手机搬家”在实际传数据的时候是怎么创建出 160Mhz 频宽热点的（>=2400Mbps)，顺便看的。\n自己开热点，或第三方某热点 APP 设置也不行，目前发现只有手机搬家自己可以开出来。。。呆懂得大佬解答。\n*同步 txrjy （",
           "link": "https://www.v2ex.com/t/1108368",
           "publishedOn": "2025-01-30T17:37:46.000Z",
-          "wordCount": 531,
+          "wordCount": 532,
           "title": "一加 Ace5Pro 到了， 5Ghz WiFi 支持 33dBm",
           "imageUrl": null
         },
@@ -659,7 +659,7 @@
           "description": "BigShot404: \n京东以旧换新里有回收二手机械硬盘的，不论好坏 1T 的蓝盘抵 30 块，这东西坏的也值 30 么？",
           "link": "https://www.v2ex.com/t/1108367",
           "publishedOn": "2025-01-30T17:07:38.000Z",
-          "wordCount": 427,
+          "wordCount": 454,
           "title": "二手机械硬盘被回收后有什么用？",
           "imageUrl": null
         },
@@ -669,7 +669,7 @@
           "description": "amyw495062: \n现在爱快软路由+小米，ap 模式组 mesh 各种不明环路\nhttps://www.right.com.cn/forum/thread-4110374-1-1.html\nhttps://www.v2ex.com/t/760559 \n最近过年朋友来家里玩，又频频出现，一旦环路报错，整个局域网都会卡一会，简直太**\n目前家里的结构是这样的，所以小米路由组 mesh 就是 ap 模式组的，现在是打算把小米路由替换成 Q3000",
           "link": "https://www.v2ex.com/t/1108366",
           "publishedOn": "2025-01-30T16:42:09.000Z",
-          "wordCount": 633,
+          "wordCount": 643,
           "title": "有没有用过爱快 Q3000 当 AP 的小伙伴",
           "imageUrl": null
         },
