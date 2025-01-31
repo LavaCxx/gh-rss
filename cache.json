@@ -192,23 +192,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -344,6 +327,46 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108466",
+          "author": "mmdsun",
+          "description": "mmdsun: 大家新年好。我想请问下 2025 年 Windows 和 iPhone 互联性怎么样？（比如电脑操作手机的文件拷贝、接电话发短信验证码快速自动填充）\n手里没有 Win11 设备测试，IT 新闻看到的互联性应该有很大提高\nhttps://www.ithome.com/0/828/048.htm\n我记得微软画的大饼 Link to Phone 软件，发短信、电话，验证码、文件拷贝复制，不知道现在可以实现多少，（如果是国内网络环境怎么样？安卓互联性比 iPhone 多多少功能？）   提前感谢。\nhttps://apps.apple.com/us/app/%E8%BF%9E%E6%8E%A5%E8%87%B3-windows/id6443686328?l=zh-Hans-CN",
+          "link": "https://www.v2ex.com/t/1108466",
+          "publishedOn": "2025-01-31T18:37:41.000Z",
+          "wordCount": 413,
+          "title": "2025 年 Windows 和 iPhone 互联性怎么样？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108465",
+          "author": "nwq115212",
+          "description": "nwq115212: \n试了一下 deepseek 感觉他的图片是 ocr 识别的，很容易出错\n但是 gpt 却可以正确识别",
+          "link": "https://www.v2ex.com/t/1108465",
+          "publishedOn": "2025-01-31T17:20:58.000Z",
+          "wordCount": 357,
+          "title": "有没有大佬告诉我 deepseek 的图片到底是如何识别的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108464",
+          "author": "levelworm",
+          "description": "levelworm: \n首先声明一下，我承认我是个很烂的程序员。我甚至不愿意承认自己是程序员。（也许这就是原因？）\n因为公司转向 Flink ，所以今天决定学习一下。但是不知道为什么，看到 map()就觉得生理上的厌恶，和看见一只蟑螂一样。\n其实我自己也不能理解这种厌恶--我能理解为什么自己不喜欢，因为 map()本身没有可读性，你看到这个，就得去里头看到底是调用了什么函数。但是我不知道为什么我会有生理上的厌恶。同理，我在 PySpark 里看到 map()，也会极其厌恶，尤其是配合 lambda 食用，则更加厌恶。比如说\nresult = map(lambda x: x[\"id\"], data[\"item\"])\n\n看到一次我就恶心一次。\n不知道有没有类似的朋友，你们是如何克服的？我看了一下，Flink 里似乎无法避免 map()。所以只能自己习惯了。",
+          "link": "https://www.v2ex.com/t/1108464",
+          "publishedOn": "2025-01-31T17:17:26.000Z",
+          "wordCount": 631,
+          "title": "不知道为什么，我很厌恶 map()",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108463",
+          "author": "Daybyedream",
+          "description": "Daybyedream: \n之前在做一些简单的自动化操作时，按键精灵安卓版还挺实用的。就我目前的需求而言，它的多点比色功能基本能满足使用。不过感觉它后续发展停滞，没什么新的功能进步。\n目前我是将按键精灵用于多点比色，而后续的数据识别与存储则用 Python 脚本实现。最近我了解到了 Airtest 框架，打算之后将其整合进来实现更一体化的操作。\n想请教一下，在实现这类自动化识别与数据处理任务上，有没有更高级、更优化的编程思路或者代码写法推荐呢？无论是基于按键精灵、Airtest 还是其他工具，希望能得到一些能提升效率和功能完整性的建议。",
+          "link": "https://www.v2ex.com/t/1108463",
+          "publishedOn": "2025-01-31T17:09:19.000Z",
+          "wordCount": 402,
+          "title": "现在安卓模拟器里脚本用啥写好呢？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108461",
           "author": "lslqtz",
           "description": "lslqtz: \n也不能说是突然吧, 上个月的 27 号在正常聊天的过程中突然被踢下线, 然后再次登录就提示手机号被 ban 了, 挺令人意外的. 发了好几封邮件给官方, 一概无视了.\n账号是 +44 非 VoIP, 注册约 6 年 (但最近几个月才换到 +44), 无 SPAM. 也许是 Cloudflare WARP 引起的. 依稀记得之前群友还在提醒我发送消息太多 (还无人回应) 可能会被 ban, 虽然我以前都是这么做的...\n通过在已登录设备上断网备份收藏夹, 也算是降低了一点损失.\n寻找替代软件发现还真没几个比 Telegram 易用又适当宽松的, 关键是群组生态上不去. 有人有类似的经历或替代软件推荐的吗? 已经试过 Signal 除了表情包 sticker 外主要的问题就是群组生态了.",
@@ -419,7 +442,7 @@
           "description": "levelworm: \n算了下，四十多岁的我，其实也没多少这种状态比较好的日子了，怎么过好每一天呢？居然想不出来，真是有点悲哀。",
           "link": "https://www.v2ex.com/t/1108452",
           "publishedOn": "2025-01-31T14:59:44.000Z",
-          "wordCount": 403,
+          "wordCount": 415,
           "title": "刚到公司准备上班，怎么更有意义的过好这一天呢？",
           "imageUrl": null
         },
@@ -519,7 +542,7 @@
           "description": "piaochen0: \n家里初二固定节目，是我外婆这边家庭聚会，基本上要聚一天。\n一大家子吃饭的时候，好不容易找到引起一些大家都有话说的话题，也基本上点到为止，要么要么被长辈给粗暴打断，要么由于观点差异巨大适可而止。  \n由于从小就痛恨打牌，下午闲暇时刻，满满一大屋子的人，发现能跟我聊天的，居然也就剩下表弟家一个 6 ，7 岁大的小孩。\n我发现那个小女孩一直在玩恐龙的玩具，我就把我逛博物馆拍的恐龙照片给她看，她两眼立马放光，跟她讲了一下午各种恐龙...    \n晚上吃完饭各自散去，怅然若失。   \n不知道你们的家庭聚会是不是也是这样？是怎么打法这样的时间的，还是有什么方法能把这样家庭聚会变的更有意思。",
           "link": "https://www.v2ex.com/t/1108442",
           "publishedOn": "2025-01-31T13:04:19.000Z",
-          "wordCount": 566,
+          "wordCount": 570,
           "title": "过年，亲戚待在一起，是如何打发时间的？",
           "imageUrl": null
         },
@@ -691,46 +714,6 @@
           "publishedOn": "2025-01-31T09:05:40.000Z",
           "wordCount": 399,
           "title": "如何 RSS 推特和贴吧",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108417",
-          "author": "drymonfidelia",
-          "description": "drymonfidelia: NVIDIA 官方宣称 5070 帧率表现相当于 4090 ，但是我看很多博主测评说是 DLSS AI 插值的效果，实际效果远不如真正的 4090 ，在 UI 和游戏画面交接处经常出现扭曲",
-          "link": "https://www.v2ex.com/t/1108417",
-          "publishedOn": "2025-01-31T09:01:34.000Z",
-          "wordCount": 703,
-          "title": "以前 NVIDIA 两代间的显卡有像 4080->5080 提升幅度这么小（综合看只有 10%）的吗？ 5080 性价比真的非常低吗？最近制作游戏想升级下显卡， 4080 还是 5080 更值",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108416",
-          "author": "luluaa",
-          "description": "luluaa:",
-          "link": "https://www.v2ex.com/t/1108416",
-          "publishedOn": "2025-01-31T08:52:49.000Z",
-          "wordCount": 423,
-          "title": "腾讯云 VPS 到期了，资源也释放了，请问还有什么办法恢复吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108415",
-          "author": "YGHMXFAL",
-          "description": "YGHMXFAL: \n我经常在手机上使用 zarchiver 来打压缩包,然后传输到其它设备或者网盘\n但是我发现为压缩包取名对我而言是一件很费脑的事儿,我觉得只需要为它编号就足够了\n但是又有强迫症,不知道是否存在一款 APP,能够让我输入数字,然后它使用 0 补全到指定长度,再让我复制结果,就类似  printf '%08d' '56'  这种效果",
-          "link": "https://www.v2ex.com/t/1108415",
-          "publishedOn": "2025-01-31T08:35:05.000Z",
-          "wordCount": 462,
-          "title": "大家新年好!请问是否存在一款格式化指定数字的 Android APP 呢?输出效果类似于 printf 那种?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108414",
-          "author": "shuiguomayi",
-          "description": "shuiguomayi: \n可以解决的问题\n自定义内部域名解析。\n拦截广告。\n无法解决的问题\nDNS 污染。该递归器如果将内部无法解析的请求转发到国内的公共 DNS 递归器，则依然无法正确解析，因为国内的 DNS 递归器都是受污染过的。\nDNS 拦截。如果 DNS 服务器之间通信采用的 UDP ，则非常容易被 ISP 或者 GFW 篡改。除非采用 DNSSEC 或者 TCP 。但 UDP 依然是默认用的最多的场景。\nDoH ，国内支持 DoH 的服务器都被污染过，国外的知名 DoH 服务器都被 GFW 墙掉了。\n要实现私有 DNS 不受污染和被拦截的问题，除非在海外有主机（暂称为代理机），该私有 DNS 直接通过隧道跟代理机建联，国内域名直接转发到国内 DNS 递归器，国外域名全都通过代理机翻到国外的请求。这里还要求该隧道不被 GFW 干扰。貌似，最现成的解决方案是 clash?\n请大佬们继续赐教。",
-          "link": "https://www.v2ex.com/t/1108414",
-          "publishedOn": "2025-01-31T08:34:03.000Z",
-          "wordCount": 507,
-          "title": "自建私用 DNS 递归服务器无法解决的问题",
           "imageUrl": null
         }
       ]
