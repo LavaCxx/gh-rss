@@ -192,23 +192,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -369,7 +352,7 @@
           "description": "Ivan555: \n完全免费，欢迎体验\n🔗 https://celeblookalike.org",
           "link": "https://www.v2ex.com/t/1108562",
           "publishedOn": "2025-02-01T14:49:32.000Z",
-          "wordCount": 357,
+          "wordCount": 359,
           "title": "[产品自荐] Celebrity Look Alike，一款使用 AI 技术帮你找到最像你的明星！",
           "imageUrl": null
         },
@@ -379,7 +362,7 @@
           "description": "145431: \n老婆过两个月准备辞职，说不想再上班了，想弄个卤货店。理由是年纪大了，不太适应职场了，工作也没有更大前景了反而有被裁员的可能。一方面我还是想让她继续工作，因为她现在的工资其实并不低（大概 2w+），而且她对于创业并没有太多经验（虽然她曾经创业过两次但都失败了），另一方面我又深刻感觉到，上班真的太不稳定，等 40 岁以后大概率没人要了，现在赚到的这点钱意义就没那么大了。无产阶级终究是无产阶级，哎，可是创业也可能会变得更穷。。。。。。。\n想问问大家的看法，以及对于经营卤货方面，有什么建议吗？搞加盟还是去哪里可以拜师学到好的技术呢？迷茫...",
           "link": "https://www.v2ex.com/t/1108561",
           "publishedOn": "2025-02-01T14:42:03.000Z",
-          "wordCount": 582,
+          "wordCount": 600,
           "title": "老婆想创业卖卤货，大家有什么建议吗？",
           "imageUrl": null
         },
@@ -419,7 +402,7 @@
           "description": "Manley: \nhttps://support.microsoft.com/zh-cn/windows/%E5%9C%A8%E6%AD%A4%E6%9B%B4%E6%96%B0%E4%B8%AD-93c5c27c-f96e-43c2-a08e-5812d92f220d?OCID=WUSettings\nWindows 现在提供 sudo 命令，这是一个将熟悉的提升方法引入命令行界面的新增功能。 配置 sudo 命令非常简单：打开 “设置” > “系统 > 面向开发人员”，然后打开 sudo 命令。 然后，你可以选择首选操作模式，无论是在新窗口中、禁用输入还是内联模式，根据你对高效命令行体验的特定需求进行定制。\n若要了解详细信息，请参阅 Sudo for Windows 文档。",
           "link": "https://www.v2ex.com/t/1108557",
           "publishedOn": "2025-02-01T13:54:19.000Z",
-          "wordCount": 417,
+          "wordCount": 424,
           "title": "Windows 支持 sudo 了",
           "imageUrl": null
         },
@@ -439,7 +422,7 @@
           "description": "NanFengxuan: \n现在人常住香港，在考虑要不要把微信转成 WeChat 。有几个问题。\n转区风险多大，容易被封号吗？\n有没有哪些功能只支持微信不支持 WeChat ？\n消息延迟严重吗？\n求解答，谢谢！",
           "link": "https://www.v2ex.com/t/1108555",
           "publishedOn": "2025-02-01T13:32:26.000Z",
-          "wordCount": 484,
+          "wordCount": 498,
           "title": "问几个微信转 WeChat 的问题，求解答",
           "imageUrl": null
         },
@@ -519,7 +502,7 @@
           "description": "LnTrx: \n最近自费买了个 2.5G 光猫，经过测试发现固件虽然能用，但又缺少一些原光猫有的高级功能。于是想到，既然路由器固件（ OpenWrt ）可以在小主机虚拟化运行，那多了一个光电转换的光猫是不是也有可能虚拟化呢？\n想到几种应用场景：\n加载其它厂商固件，宿主系统从 RAM 和 ROM 直接读取管理员密码等参数，免于破解之苦\n实现开源固件，模仿官方固件的行为验证、联网，同时使路由、桥接、IPTV 、电话、设备识别特征等可以高度自定义\n光纤直接连入 All in Boom 软路由，最大程度减少空间、插座占用\n本人没有深入研究过光猫的软硬件，想探讨一下这是否有这种可能。",
           "link": "https://www.v2ex.com/t/1108542",
           "publishedOn": "2025-02-01T11:32:29.000Z",
-          "wordCount": 715,
+          "wordCount": 734,
           "title": "光猫是否有可能实现虚拟化？",
           "imageUrl": null
         },
@@ -549,7 +532,7 @@
           "description": "kleos: \n黑五的时候购买一个欧洲机器(ipv6 only)，主要进行辅助工作(欧洲区域组网)，日常流量使用比较少。\n问题出现\n时间来到今年一月份，登录服务器想部署一个新的项目，发现入站流量已经达到了 1.3T 之多,并且流量一直在持续入站。\n问题排查以及尝试解决\n经过 tcpdump 得出的日志发现，流量来自 ptr.default.28000 。\n问题解决\n我的解决思路是 dig 出 ip ，使用 iptables 防火墙 ban 掉 ip\n很不幸，使用内外网的 dns 解析都显示域名不存在，失败了。。。\n在问题出现的当天便已经发送了 tk 给商家 24 小时并无问题解决方法，只说在调查问题。\n也没有解决。。。\ntcpdump 的部分日志\n11:05:32.771620 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 45622:46668, ack 17815, win 501, options [nop,nop,TS val 1712976733 ecr 2823061016], length 1046\n11:05:32.772517 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 46668:47711, ack 18203, win 501, options [nop,nop,TS val 1712976735 ecr 2823061018], length 1043\n11:05:32.773231 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 47711:48755, ack 18590, win 501, op…",
           "link": "https://www.v2ex.com/t/1108539",
           "publishedOn": "2025-02-01T11:05:13.000Z",
-          "wordCount": 1324,
+          "wordCount": 1334,
           "title": "来自 ipv6 only 的神秘问题，收到无法解析地址的流量",
           "imageUrl": null
         },
@@ -559,7 +542,7 @@
           "description": "crazyBlack: \n这两天放假在家开始折腾路由器，遇到了一些问题没太搞明白想请教一下各位\n需求是我希望在外面可以通过域名访问家中的服务器\n下面是我做的事情\nipv6 已经准备好了，测试没问题，我可以正确的通过 ip 地址直接访问家中对应的服务（坐标上海移动，话说居然没封掉我的 80 端口，真是不可思议）\n我的域名在 Cloudflare, 通过 openWrt 的 ddns-go 将 ipv6 动态绑定在我的域名上，赛博菩萨 Cludflare 还默认给了我 https 证书，在这一步我可以直接通过 https + 域名访问家中的路由器没有问题\n我不太希望家里的服务裸奔，并且我不确定 80 端口是否一直都不会被封，所以我希望禁用掉 wan 口的入站数据，使用防火墙端口转发的方式仅开放部分我希望开放的端口，在这一步通过 ip 地址 + 端口号我可以正确的访问家中服务\n问题出在这一步，我没办法通过域名 + 端口号的方式访问到我家中的服务（报错 SSL handshake failed ）\n问题：\n为什么我没办法通过域名 + 端口号的方式访问家中服务\n我的 openwrt 的管理界面理论上应该是在 80 端口上，Cloudflare 给我提供了 https 证书，那么讲道理应该会访问到我服务的 443 端口，在我什么都没做的情况下为什么还是能正确访问到 80 端口上的服务\n手机端运行 surge 或者电脑端的 surge 开启 enhanced mode 似乎都会会影响我直接访问 ipv6 地址，这个有什么解决办法吗\n我做的尝试：\n我了解 Cloudflare 仅仅会代理部分端口 由于是 https 我特意将防火墙的对外端口设置为 2053 ，但是无论是开启代理还是关闭代理（黄云/灰云）都没办法通过域名 + 端口号访问服务\n我在 itdog 使用 tcping 域名 + 端口是全绿的\n不是专业的，搞了好几天搞不定，来请教一下大家\n下面是各种配置的截图",
           "link": "https://www.v2ex.com/t/1108536",
           "publishedOn": "2025-02-01T10:31:55.000Z",
-          "wordCount": 868,
+          "wordCount": 870,
           "title": "请教一个 openwrt + ipv6 + cloudflare 路由器回家的问题",
           "imageUrl": null
         },
@@ -599,7 +582,7 @@
           "description": "hapsinge:",
           "link": "https://www.v2ex.com/t/1108531",
           "publishedOn": "2025-02-01T09:49:59.000Z",
-          "wordCount": 592,
+          "wordCount": 603,
           "title": "离过婚 比 没结婚 强吗？",
           "imageUrl": null
         },
@@ -609,7 +592,7 @@
           "description": "auniel: \n最近在论坛里看到有人提到硅基流动 (SiliconFlow) 这个平台，说是现在支持 DeepSeek 的 V3 和 R1 模型了。\n出于好奇，我也去简单看了看。\n初步印象：速度还可以，模型更新挺快，但平台本身有待进一步了解\n模型更新速度: DeepSeek V3 和 R1 出来也有一两周了，硅基流动就跟上了，这点反应速度确实挺快的。\n速度表现: 有人测速 V3 模型能跑到 10-15 token/s ，这个速度看起来还不错。我自己也简单试了下，速度确实还可以。 但实际体验是否稳定，尤其是在高峰期怎么样，还需要进一步观察，毕竟刚上线第一天。\n注册方面: 注册倒是挺方便，手机号就行，国内外号码都支持。不用实名这点，对于只想体验国内模型的用户来说，算是个优点。\n有兴趣的朋友，可以去他们平台看看： https://cloud.siliconflow.cn/i/ND6afVZP\n有新闻说 2 月份硅基流动和华为云搞了个合作，说是基于华为云昇腾云服务搞 DeepSeek 推理。 \n新闻写得是“昇腾云服务”，不知道是不是用的昇腾芯片？还是说用的是别家的芯片提供的服务？感觉现在很多家都喜欢提昇腾，实际效果嘛... 有了解的可以说说。\n关于实名和手机号：注意个人信息\n国内模型不用实名，这个是优点。\n但如果要用国外模型像 LLaMA ，还是要实名。\n但是实名只提供给中国大陆用户，基本上外籍与港澳台人士就无缘了。\n定价，这里我手动对比一下 Openrouter 上面的价格：\n结论：硅基流动接近 Deepseek 官方定价和 DeepInfra 平台的定价，可以说是第一梯队。\n硅基流动平台上 DeepSeek 模型的定价\nDeepSeek V3: ¥2 / 百万 Tokens\nDeepSeek R1: ¥16 / 百万 Tokens\nOpenRouter 上的 DeepSeek V3 \nDeepInfra: Input $0.49 + Output $0.89\nNebius: Input $0.5 + Output $1.5\nNovitaAI: Input $0.89 + Output $0.89\nFireworks: Input $0.9 + Output $0.9\nTogether: Input $1.25 + Output $1.25\nDeepSeek (fp8): Input $0.14 + Output $0.28\nOpenRouter 上的 DeepSeek R1\nNebius: Input $0.8 + Output $2.4\nNovitaAI: Input $4 + Output $4\nFeatherless: Input $6.5 + Output $8\nAvian.io: Input $6.9 + Output $7\nTogether: Input $7 + Output $7\nFireworks: Input $8 + Output $8\nDeepInfra: Input $0.75 + Output $2.4\nDeepSeek (fp8): Input $0.55 + Output $2.19\nKluster: Input $2 + Output $2",
           "link": "https://www.v2ex.com/t/1108530",
           "publishedOn": "2025-02-01T09:29:59.000Z",
-          "wordCount": 545,
+          "wordCount": 549,
           "title": "硅基流动第 1 天支持 DeepSeek V3 和 R1, 还算是稳定",
           "imageUrl": null
         },
@@ -719,7 +702,7 @@
           "description": "wsseo: 总榜第一是长津湖 57.75 亿，猫眼今天预测哪吒 2 最终票房 67.40 亿。\n去影院看了，有几个低级笑点，武力值不明确，谁谁都是五五开，但是特效炸裂，适合家带孩子看，不太适合单身人士。",
           "link": "https://www.v2ex.com/t/1108516",
           "publishedOn": "2025-02-01T06:48:51.000Z",
-          "wordCount": 644,
+          "wordCount": 646,
           "title": "哪吒 2 要冲击中国影史票房？",
           "imageUrl": null
         }
