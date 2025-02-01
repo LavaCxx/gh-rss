@@ -1,10 +1,569 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-01T11:07:52.835Z</id>
+    <id>urn:2025-02-01T12:17:56.392Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-01T11:07:52.835Z</updated>
+    <updated>2025-02-01T12:17:56.392Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[MasterCard 官网活动数据库疑似被脱，请参加过去年 Master 港卡返现活动的及时锁卡报失]]></title>
+        <id>https://www.v2ex.com/t/1108520</id>
+        <link href="https://www.v2ex.com/t/1108520"/>
+        <updated>2025-02-01T08:03:46.000Z</updated>
+        <summary type="html"><![CDATA[clear: 
+去年 MasterCard 有个活动，每张卡内地人民币消费可返 10%，需要在官网输入卡号和 CVV 登记。
+https://redemption.mastercard.com/
+最近爆出，登记的卡被批量盗刷，一些卡仅在官网登记从来没有使用过，经过交叉验证和推上各网友对账，基本能锁定是官网数据泄漏。
+请参与过该活动的网友，记得关注自己账户异动，及时锁卡、报失。]]></summary>
+        <author>
+            <name>clear</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek 与主流 AI 模型对比评测]]></title>
+        <id>https://www.v2ex.com/t/1108519</id>
+        <link href="https://www.v2ex.com/t/1108519"/>
+        <updated>2025-02-01T07:21:22.000Z</updated>
+        <summary type="html"><![CDATA[GeekGao: 
+https://www.williamlong.info/archives/7485.html]]></summary>
+        <author>
+            <name>GeekGao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 16 Pro Apple Pay 无法重新添加部分卡片，求解方案]]></title>
+        <id>https://www.v2ex.com/t/1108518</id>
+        <link href="https://www.v2ex.com/t/1108518"/>
+        <updated>2025-02-01T07:11:02.000Z</updated>
+        <summary type="html"><![CDATA[leshijiazu: 
+背景信息
+我的手机是 iPhone 16 Pro ，Apple ID 属于 美区，此前已成功绑定 中国大陆、中国香港、美国的信用卡和借记卡，并且一直正常使用。
+上周由于 手机设置问题，我 登出了 iCloud 。但在登出过程中，只收到部分卡片的 Apple Pay 注销短信，重新登录后，发现 大部分借记卡和信用卡无法重新添加。
+我怀疑可能是 iCloud 仍残留部分卡片的注册信息，导致系统认为这些卡仍在设备上，从而阻止重新绑定。
+已尝试但无效的解决方案：
+1️⃣ 登出 iCloud 后重新登录 → 无效
+2️⃣ 确保手机 SIM 卡与银行预留手机号一致 → 无效
+3️⃣ 手机硬重启 → 无效
+4️⃣ 切换不同网络（直连 & 翻墙） → 无效
+5️⃣ iMessage & FaceTime ID 与 iCloud ID 保持一致 → 无效
+6️⃣ 部分汇丰 HK 卡触发风控，解除后可添加，但其他汇丰 HK 卡无法触发风控，银行也无法手动解除风控 → 依旧无法添加
+这个问题我搜索了一下，不止我一个人遇到这个问题了，但都没有有效的解决方案，各位有什么经验吗？]]></summary>
+        <author>
+            <name>leshijiazu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哪吒 2 要冲击中国影史票房？]]></title>
+        <id>https://www.v2ex.com/t/1108516</id>
+        <link href="https://www.v2ex.com/t/1108516"/>
+        <updated>2025-02-01T06:48:51.000Z</updated>
+        <summary type="html"><![CDATA[wsseo: 总榜第一是长津湖 57.75 亿，猫眼今天预测哪吒 2 最终票房 67.40 亿。
+去影院看了，有几个低级笑点，武力值不明确，谁谁都是五五开，但是特效炸裂，适合家带孩子看，不太适合单身人士。]]></summary>
+        <author>
+            <name>wsseo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[亲宝宝怎么批量下载图片视频]]></title>
+        <id>https://www.v2ex.com/t/1108515</id>
+        <link href="https://www.v2ex.com/t/1108515"/>
+        <updated>2025-02-01T06:48:02.000Z</updated>
+        <summary type="html"><![CDATA[wnpllrzodiac: 2024.3 改了策略，不冲会员批量下载也不给了。黑道有办法呢。想抓个 https 包麻烦的很，模拟器试了两款都是启动闪退。真机抓 api 又麻烦。也没有 web 端页面。真蛋疼。怕他们过段时间倒闭就废了。
+一千多张图片一张张存好费劲]]></summary>
+        <author>
+            <name>wnpllrzodiac</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XXL-RPC v1.9.0 | RPC 服务框架]]></title>
+        <id>https://www.v2ex.com/t/1108514</id>
+        <link href="https://www.v2ex.com/t/1108514"/>
+        <updated>2025-02-01T06:31:48.000Z</updated>
+        <summary type="html"><![CDATA[xuxueli: 
+Release Notes
+1 、 [优化] 服务底层代码重构优化，精简依赖、减少依赖包体；
+XXL-CONF：一站式服务管理平台（配置中心、注册中心），提供 动态配置管理、服务注册及发现能力；降低中间件认知及运维成本。
+Github： https://github.com/xuxueli/xxl-conf ）；
+官方文档： https://www.xuxueli.com/xxl-conf/
+3 、 [调整] 服务注册中心逻辑调整，借助 XXL-CONF 的 OpenApi 实现 动态服务注册与发现；
+4 、 [优化] 优化获取本地 IP 地址逻辑，调整了获取本地地址顺序；
+5 、 [升级] 多个项目依赖升级至较新稳定版本；
+XXL- RPC 快速接入示例
+代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-rpc/tree/master/xxl-rpc-samples
+1 、服务注册中心搭建：一行命令启动注册中心，一站式提供服务动态注册发现能力。
+基于 XXL-CONF 搭建 “轻量级注册中心”：一行命令启动注册中心，一站式提供服务动态注册发现能力。
+XXL-CONF：分布式服务管理平台，作为服务 配置中心 与 注册中心，提供 动态配置管理、服务注册与发现 等核心能力；
+Github： https://github.com/xuxueli/xxl-conf 
+官方文档： https://www.xuxueli.com/xxl-conf/
+// 说明：xxl-conf 详细配置可参考官方文档
+docker pull xuxueli/xxl-conf-admin
+docker run -p 8080:8080 -v /tmp:/data/applogs --name xxl-conf-admin …]]></summary>
+        <author>
+            <name>xuxueli</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有朋友买过 TG 的成品号]]></title>
+        <id>https://www.v2ex.com/t/1108513</id>
+        <link href="https://www.v2ex.com/t/1108513"/>
+        <updated>2025-02-01T06:29:10.000Z</updated>
+        <summary type="html"><![CDATA[dugrey: 
+同样 tg 号无了 XD ，之前是 gv 号注册的，但现在 gv 号好像也不稳。看 v 友评论说可以在 sms-activate 买成品号，想请问有没有买过的朋友？稳不稳？买的是 tdata 吗？有什么注意事项？如登录节点要求，怎么保号之类的？谢谢。]]></summary>
+        <author>
+            <name>dugrey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 TrueNas 的 core 和 scale（2025.1.28-1.31 使用体验）]]></title>
+        <id>https://www.v2ex.com/t/1108512</id>
+        <link href="https://www.v2ex.com/t/1108512"/>
+        <updated>2025-02-01T06:19:22.000Z</updated>
+        <summary type="html"><![CDATA[siyiye: 
+近期搞了几块盘，一直想用一下物理机装 TrueNas
+分别测试了两个版本：
+TrueNAS-13.0-U6.7
+TrueNAS-SCALE-24.10.2
+吐槽一下：
+1 、两个版本的基本一半功能在国内不好用了
+core 因为 freebsd 的原因，基本插件、虚拟机什么的都废了，只能专注存储； scale 因为 docker 在国内被禁，要想办法走代理，用起来麻烦。但是这个确是大趋势，以后社区版会继续走 linux 这一条路了。
+突然觉得用整台物理机单独装 truenas 好浪费，要不还是走 exsi 吧
+2 、croe ，只支持 root 用户登录 webui （ scale 版本稍好点，但也是最近版本才支持其他用户设置管理员权限登录），两个版本的密码都不支持常用特殊字符！安全性我想 fk ！
+3 、中文方面，core 版本简直是渣！确实推荐用英文版； scale 版本稍微好点，起码不会像机翻，推荐用中文界面]]></summary>
+        <author>
+            <name>siyiye</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2025 年，求推荐 15w 以内的电车或油车，硬性指标：后备箱能装得下一个折叠轮椅]]></title>
+        <id>https://www.v2ex.com/t/1108511</id>
+        <link href="https://www.v2ex.com/t/1108511"/>
+        <updated>2025-02-01T05:42:05.000Z</updated>
+        <summary type="html"><![CDATA[zealinux: 
+大减价新年好，最近急需要购买人生第一辆车
+用车情况：
+每天城市内通勤来回 60 公里+
+每月回老家，单程 100 公里
+家庭用，能坐得下两个老人+老婆小孩 5 个人（小孩子 8 岁）
+老人身体原因，后备箱是必须要能放折叠轮椅的 -- 刚需
+（之前一直借的亲戚家的大众朗逸开的）]]></summary>
+        <author>
+            <name>zealinux</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天塌了， chrome 的扩展大面积失效]]></title>
+        <id>https://www.v2ex.com/t/1108510</id>
+        <link href="https://www.v2ex.com/t/1108510"/>
+        <updated>2025-02-01T05:41:57.000Z</updated>
+        <summary type="html"><![CDATA[pinocc012: 
+记得前段时间好像有提示，估计现在是到期
+求应急办法]]></summary>
+        <author>
+            <name>pinocc012</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[春节回家发现农村人迷信赤脚医生]]></title>
+        <id>https://www.v2ex.com/t/1108508</id>
+        <link href="https://www.v2ex.com/t/1108508"/>
+        <updated>2025-02-01T05:33:45.000Z</updated>
+        <summary type="html"><![CDATA[0xABCD: 我有皮肤病，类似于癣那种，在上海、北京的正规三甲医院都看过，说是特应性皮炎，无法根治，只能缓解。
+跟家里人说了之后，就要带我去某农村卫生室的杨医生，说医术高明，很多大医院都治不好的他都能治。我是不太相信的，但是碍于情面，还是跟着他们去看了，好家伙，用药很猛，每天打两针，每餐饭前、饭后各一包西药，每包有 10 粒左右的药，共 4 、5 种药丸。需要坚持这样一周。
+问题是过两天开工了，我不太想请假在村里治病，现在是进退两难，唉。
+难道村镇医生真的比人家大城市医学博士牛？我十分怀疑，不知道老家的人为啥这么相信赤脚医生，不去正规对县医院]]></summary>
+        <author>
+            <name>0xABCD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap V4 中如何从 PoolManager 获取指定池的 ETH 余额？]]></title>
+        <id>https://www.v2ex.com/t/1108507</id>
+        <link href="https://www.v2ex.com/t/1108507"/>
+        <updated>2025-02-01T05:33:14.000Z</updated>
+        <summary type="html"><![CDATA[dwu8555: 在 Uniswap V2 和 V3 中，我们可以直接调用池合约的 balanceOf 方法来获取池中的余额。
+但在 Uniswap V4 中，所有流动性均由统一的 PoolManager 合约管理，这使得单个池的余额查询变得不那么直观。
+举个例子：
+ - 池 A： 由 1000 个 TokenA 和 1 个 ETH 组成
+ - 池 B： 由 1000 个 TokenB 和 1 个 ETH 组成
+此时，PoolManager 合约中总共存有 2 个 ETH 。
+请问，在这种情况下，如何使用类似于 balanceOf 的方式，查询到具体某个池（例如池 A 或池 B ）的 ETH 余额？有什么思路或接口可以参考吗？]]></summary>
+        <author>
+            <name>dwu8555</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac 的 Quantumult X 无法访问 IPv6]]></title>
+        <id>https://www.v2ex.com/t/1108506</id>
+        <link href="https://www.v2ex.com/t/1108506"/>
+        <updated>2025-02-01T05:28:08.000Z</updated>
+        <summary type="html"><![CDATA[ae: 和手机共用一个配置（具体如下），手机正常，而 MAC 关闭 Quantumult X 才能访问 IPv6 （选择全部直连也没用）
+no-ipv6 已去掉；
+已新增 ip6-cidr, ::/0, direct ；
+设置里也已开启兼容模式。]]></summary>
+        <author>
+            <name>ae</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注册就能使用 DeepSeek-R1，免费 2000 万 Tokens]]></title>
+        <id>https://www.v2ex.com/t/1108505</id>
+        <link href="https://www.v2ex.com/t/1108505"/>
+        <updated>2025-02-01T05:26:52.000Z</updated>
+        <summary type="html"><![CDATA[08110920: 
+基于华为云昇腾云服务的 DeepSeek-R1
+下面链接带邀请
+https://cloud.siliconflow.cn/i/W2XhTHGw]]></summary>
+        <author>
+            <name>08110920</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[通用网页 deepseek 屏蔽器]]></title>
+        <id>https://www.v2ex.com/t/1108504</id>
+        <link href="https://www.v2ex.com/t/1108504"/>
+        <updated>2025-02-01T04:39:44.000Z</updated>
+        <summary type="html"><![CDATA[xieqiqiang00: 
+厌烦了网页上满屏的某个热点话题？
+试试 通用网页屏蔽器
+这个简单的脚本会自动遍历网页上的所有文本，如果发现目标字符串，就直接把整段内容划掉，眼不见心不烦。
+但有趣的是，被屏蔽的内容还在那个位置，那种存在感依旧还在，你还能感知到它的热度。
+
+
+
+https://greasyfork.org/zh-CN/scripts/525492-%E7%BD%91%E9%A1%B5%E7%89%B9%E5%AE%9A%E6%96%87%E6%9C%AC%E5%B1%8F%E8%94%BD%E5%99%A8
+想屏蔽别的内容只需修改 blockTexts 里的配置更换目标文本。
+咱们都是程序员，就不整那些繁琐的设置界面了，直接上手代码，更加自在。]]></summary>
+        <author>
+            <name>xieqiqiang00</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[这个年真难啊，被催婚“成功”把父母、亲戚朋友都得罪一边]]></title>
+        <id>https://www.v2ex.com/t/1108502</id>
+        <link href="https://www.v2ex.com/t/1108502"/>
+        <updated>2025-02-01T04:29:54.000Z</updated>
+        <summary type="html"><![CDATA[qzh993:]]></summary>
+        <author>
+            <name>qzh993</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源免费 AI 简历编辑器-魔方简历，集成 DeepSeek, 豆包大模型]]></title>
+        <id>https://www.v2ex.com/t/1108500</id>
+        <link href="https://www.v2ex.com/t/1108500"/>
+        <updated>2025-02-01T04:16:28.000Z</updated>
+        <summary type="html"><![CDATA[haishangrain: 开源的简历编辑器已经完善的差不多了，最近完善了 seo,内置了字体，完善模板相关，今天再打个广告，欢迎体验，纯免费，如果觉得不错，点个小星星就是对我最大的支持
+官网: https://magicv.art/
+github: https://github.com/JOYCEQL/magic-resume]]></summary>
+        <author>
+            <name>haishangrain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有类似沪江开心词场的开源背单词工具]]></title>
+        <id>https://www.v2ex.com/t/1108499</id>
+        <link href="https://www.v2ex.com/t/1108499"/>
+        <updated>2025-02-01T04:02:25.000Z</updated>
+        <summary type="html"><![CDATA[4352503045: 之前一直用 Anki ，也制作了很多卡片，但是发现沪江在互动性上比较好，闯关模式的确能帮助到我。在非英语的场景下可以让你做一些选择题，这样既不用自己打字，又不像 anki 那样无检验。非英语也很重要，我要背日语单词，这就是我为什么只说沪江，我接触的其他 app 比如墨墨只能背英语
+但沪江无法导入自己的单词本，所以想找一款其他的工具，要求就是 1. 有类似的闯关模式（如下图） 2. 支持其他语言 3. 能导入自己的单词 4. 能开源的最好了]]></summary>
+        <author>
+            <name>4352503045</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今年最大的心愿，放松紧绷的情绪]]></title>
+        <id>https://www.v2ex.com/t/1108498</id>
+        <link href="https://www.v2ex.com/t/1108498"/>
+        <updated>2025-02-01T03:58:22.000Z</updated>
+        <summary type="html"><![CDATA[xiaocongcong1: 
+前两天一个人在家整理手机相册时，突然有些感慨。自从 2023 年辞职创业以来，手机里的照片几乎全都与工作相关。翻看过去的自己，才发现这两年眉头紧锁，笑容越来越少。
+细细想了想，我的性格其实并不太适合创业。从最早辞职做香薰就只把它当成一种“摆地摊式”的想法在进行，并没有想着做成一个品牌。以前在公司上班，按部就班，不用费太多心思。而现在，必须和客户、供应商沟通，对我来说，这是一件相当困难的事情。
+再者，我总是容易陷入细枝末节，看问题不够长远。眼前一点小事，都能被我放大到山一样大，常常因此感到焦虑和不安。
+不过，创业这两年也带给了我不少收获。
+一方面是思考方式变得更加全面，也更早意识到“设计”这个行业并不适合自己，所以当初辞职，其实也是正确的选择。
+其次，身体状况比以前要好了。上班时，常常被重复的工作和极致的细节要求折磨得血压飙升，甚至头晕恶心。而现在，这种情况几乎没有再发生。
+再来说收入方面。虽然我从 2015 年大学毕业后就进入了电商行业，但过去一直做的是设计，从未想过自己会去开一家淘宝店。直到 2023 年真正开店后，我才意识到，过去的十年，真的是中国电商的黄金时代。如果能早点明白这个道理，十年前的我或许会选择成为一名淘宝店主，而不是淘宝设计师。抓住时代的机会，远比找到一份“体面”的工作更重要。
+最后，在识人和思考问题的能力上，也有了提升。每天经营淘宝店，都会接触形形色色的顾客，聊天的过程中，要短时间判断一个人的意图，毫无缘由的恶意差评也更能体会人性的复杂。与此同时，我开始思考：什么是适合自己的？什么才是真正应该去做的？ 许多表面看似重要的事情，可能只是浮云，只有看清其背后的本质，才能做出正确的判断。现在，我特别佩服那些能用一句话点破事物本质的人。
+因为今年春节没有回家，最近一直在 V2 上闲逛。就在这里，祝看到这篇帖子的 V 友们——新年快乐！㊗️2025 年情绪稳定，身体健康，财务自由！]]></summary>
+        <author>
+            <name>xiaocongcong1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap v4 出来了，怎么看不懂啊]]></title>
+        <id>https://www.v2ex.com/t/1108497</id>
+        <link href="https://www.v2ex.com/t/1108497"/>
+        <updated>2025-02-01T03:52:55.000Z</updated>
+        <summary type="html"><![CDATA[dwu8555: 所有的池子都统一归 PoolManager 管，那我如何查询某个池子的流动性呢？]]></summary>
+        <author>
+            <name>dwu8555</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在 macOS 上都用什么安卓的手机助手软件？]]></title>
+        <id>https://www.v2ex.com/t/1108496</id>
+        <link href="https://www.v2ex.com/t/1108496"/>
+        <updated>2025-02-01T03:51:52.000Z</updated>
+        <summary type="html"><![CDATA[TUTU2014: 想将安卓手机中的照片导入 macOS 中，现都有哪些实现此需求的在 macOS 平台上的助手软件？]]></summary>
+        <author>
+            <name>TUTU2014</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在返程,大家路上堵了多久]]></title>
+        <id>https://www.v2ex.com/t/1108495</id>
+        <link href="https://www.v2ex.com/t/1108495"/>
+        <updated>2025-02-01T03:36:31.000Z</updated>
+        <summary type="html"><![CDATA[jiangliou520: 扬州到上海 4 小时]]></summary>
+        <author>
+            <name>jiangliou520</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deepseek 搭配 Claude sonnet 使用]]></title>
+        <id>https://www.v2ex.com/t/1108494</id>
+        <link href="https://www.v2ex.com/t/1108494"/>
+        <updated>2025-02-01T03:22:00.000Z</updated>
+        <summary type="html"><![CDATA[leiiiooo: 大家最近有了解过这种使用方式吗？将 Deepseek 的<think>内容喂给 claude 使用，然后通过 claude 得到最终的代码片段。有大佬使用过这种方式吗？是否已经有可以直接使用这种交互方式的网站或者工具呢？]]></summary>
+        <author>
+            <name>leiiiooo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[父母如果从来不吵架，是不是说明两人之间的沟通是有问题的]]></title>
+        <id>https://www.v2ex.com/t/1108493</id>
+        <link href="https://www.v2ex.com/t/1108493"/>
+        <updated>2025-02-01T03:18:16.000Z</updated>
+        <summary type="html"><![CDATA[LouisGuo: 
+冲突和合作是 描述人与人关联关系程度这一属性的两个不同程度的度量。 一个害怕冲突的人同样也是害怕合作的。
+“人们经常相信左右是互相对立的，男女、冷热、光暗、强弱也是互相对立的。但是，从科学的立场看来，它们不是互相对立的事物，而是同一件东西的变异。它们是依照某种理想的假定排列而成的量表上的不同程度。同样的，好和坏、常态和变态也都不是对立的事物，而是同一事物的变异。”]]></summary>
+        <author>
+            <name>LouisGuo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[mac clion 调试怎么才能看到 stl 容器的值]]></title>
+        <id>https://www.v2ex.com/t/1108491</id>
+        <link href="https://www.v2ex.com/t/1108491"/>
+        <updated>2025-02-01T02:40:47.000Z</updated>
+        <summary type="html"><![CDATA[rednose1037: 
+
+mac 不维护 gdb ，不想手动配置特定版本；默认使用 libc++，我改成 libstdc++,
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++ -I/opt/homebrew/Cellar/gcc/13.2.0/include/c++/13.2.0 -I/opt/homebrew/Cellar/gcc/13.2.0/include/c++/13.2.0/aarch64-apple-darwin23.4.0")
+
+一大堆找不到 stl 报错，路径确认没问题，没搞来
+累了，。。。换 ide 就不用建议了，就想知道 mac clion 这个够吧 调试怎么才能看 stl 的值...]]></summary>
+        <author>
+            <name>rednose1037</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿里云 200M 服务器用途]]></title>
+        <id>https://www.v2ex.com/t/1108489</id>
+        <link href="https://www.v2ex.com/t/1108489"/>
+        <updated>2025-02-01T02:36:16.000Z</updated>
+        <summary type="html"><![CDATA[cutedogspark: 
+看到有新用户优惠，68 一年可以买 2C2G 的服务器，峰值带宽 200M 。本人就直接购买了，地区为乌兰察布，各位大佬有推荐做什么用途吗。]]></summary>
+        <author>
+            <name>cutedogspark</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cf 保护下的 json 采集]]></title>
+        <id>https://www.v2ex.com/t/1108488</id>
+        <link href="https://www.v2ex.com/t/1108488"/>
+        <updated>2025-02-01T02:35:11.000Z</updated>
+        <summary type="html"><![CDATA[lsww: cf 保护下的 json ，有什么好用的 python 库。试过一下 github 库，不太好使。]]></summary>
+        <author>
+            <name>lsww</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bilibili 央视 2025 年春晚回放错误使用了 PQ 曲线]]></title>
+        <id>https://www.v2ex.com/t/1108487</id>
+        <link href="https://www.v2ex.com/t/1108487"/>
+        <updated>2025-02-01T02:29:09.000Z</updated>
+        <summary type="html"><![CDATA[LeonXu: 
+根据已有的公开信息，央视 4K 超高清频道的视频源使用 HLG 曲线，而上传到 Bilibili 的视频使用了 PQ 曲线且没有正确转换，导致画面亮度和色彩映射错误。]]></summary>
+        <author>
+            <name>LeonXu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小工具分享：无需上传到服务器，在浏览器内完成视频提取音频]]></title>
+        <id>https://www.v2ex.com/t/1108486</id>
+        <link href="https://www.v2ex.com/t/1108486"/>
+        <updated>2025-02-01T02:28:05.000Z</updated>
+        <summary type="html"><![CDATA[chendahui007: 
+欢迎体验。
+同时还做了一个 将 wav 转成 mp3 小工具。
+这两款工具都是基于 https://ffmpegwasm.netlify.app/ ， 非常好用的 ffmpeg 库，推荐给大家～]]></summary>
+        <author>
+            <name>chendahui007</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[春节回乡感慨]]></title>
+        <id>https://www.v2ex.com/t/1108485</id>
+        <link href="https://www.v2ex.com/t/1108485"/>
+        <updated>2025-02-01T02:25:42.000Z</updated>
+        <summary type="html"><![CDATA[dcy7287: 
+今年回家过年的最大感慨就是哪里给钱多，就去哪里生活。
+北京钱多就留北京，杭州给钱多就回杭州。
+人生短短几十年，生活质量很重要。
+卷天卷地卷不来大富大贵，只卷走了自己的身体。
+工作不是生活的全部，也不是富贵的来源。
+不过，疑惑的是，什么能保障我们能够富贵起来呢？]]></summary>
+        <author>
+            <name>dcy7287</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[手机 APP 怎么做到动态切换域名？]]></title>
+        <id>https://www.v2ex.com/t/1108484</id>
+        <link href="https://www.v2ex.com/t/1108484"/>
+        <updated>2025-02-01T02:19:55.000Z</updated>
+        <summary type="html"><![CDATA[xhwdy26: 
+在手机 APP 初始化配置了域名 A 和域名 B ，如果域名 A 访问慢，切换到域名 B 访问，我们是根据 ping 值，或者无法访问作为一个判断的依据。
+这样有没有问题，请教诸位大神，或者有更好的思路不吝赐教。]]></summary>
+        <author>
+            <name>xhwdy26</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[土区 ios 的 Microsoft office 365 订阅涨价了]]></title>
+        <id>https://www.v2ex.com/t/1108483</id>
+        <link href="https://www.v2ex.com/t/1108483"/>
+        <updated>2025-02-01T02:08:12.000Z</updated>
+        <summary type="html"><![CDATA[ygwhence: 
+土区 ios 的 microsoft office 365 订阅价格从 229.99 里拉涨到 329.99,2 月 14 号生效
+今天收到微软邮件说涨价的事，我才发现续订价格不再是 15.99 了，2 月份续费就已经是 229.99 了，有点奇怪没收到邮件]]></summary>
+        <author>
+            <name>ygwhence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepseek 的 logo 有意思,包含了有 2 条鱼/2 个眼神]]></title>
+        <id>https://www.v2ex.com/t/1108482</id>
+        <link href="https://www.v2ex.com/t/1108482"/>
+        <updated>2025-02-01T02:07:09.000Z</updated>
+        <summary type="html"><![CDATA[xbox360: 
+https://cdn.deepseek.com/logo.png
+第一眼是一条鲸鱼,再细看一点会看到一条鲨鱼.
+鲸鱼和鲨鱼看你的眼神不一样.]]></summary>
+        <author>
+            <name>xbox360</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[openai 的模型命名乱七八糟，不知道应该用哪个了]]></title>
+        <id>https://www.v2ex.com/t/1108481</id>
+        <link href="https://www.v2ex.com/t/1108481"/>
+        <updated>2025-02-01T02:01:47.000Z</updated>
+        <summary type="html"><![CDATA[ocsp: gpt-4o
+gpt-4o-mini
+o1
+o1-mini
+o3-mini]]></summary>
+        <author>
+            <name>ocsp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米电动牙刷你们用哪个？]]></title>
+        <id>https://www.v2ex.com/t/1108479</id>
+        <link href="https://www.v2ex.com/t/1108479"/>
+        <updated>2025-02-01T01:41:23.000Z</updated>
+        <summary type="html"><![CDATA[nathanw: 之前用的飞利浦的，后来年会中奖了一个小米 T300 ，感觉刷毛对我来说有点偏硬，当然，官方也有偏敏感的刷头，耗材不算贵，但也不便宜。
+现在 T300 官网也下架了，都出到 T302 了。
+小米也出了扫振牙刷，不知道好不好用。
+你们现在主要用哪个？]]></summary>
+        <author>
+            <name>nathanw</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「抚子」语言的调试功能??]]></title>
+        <id>https://www.v2ex.com/t/1108475</id>
+        <link href="https://www.v2ex.com/t/1108475"/>
+        <updated>2025-02-01T01:15:43.000Z</updated>
+        <summary type="html"><![CDATA[xuanwu: 
+https://zhuanlan.zhihu.com/p/20889903559
+想的=（ 6の乱数）＋１
+猜的＝「你猜？」と尋ねる。
+
+後判定で繰り返す
+　　もし、猜的>想的ならば
+　　  猜的＝「大了，再猜？」と尋ねる。
+　　違えば、もし、猜的<想的ならば
+　　  猜的＝「小了，再猜？」と尋ねる。
+　　違えば
+　　  「中了！」と表示
+　　ここまで
+
+  ?? 猜的
+  ?? 猜的==想的
+ここまで、(猜的≠想的)の間。]]></summary>
+        <author>
+            <name>xuanwu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[请问大家有没有自动填写各种简历投递的表单插件好用？]]></title>
+        <id>https://www.v2ex.com/t/1108474</id>
+        <link href="https://www.v2ex.com/t/1108474"/>
+        <updated>2025-02-01T01:11:41.000Z</updated>
+        <summary type="html"><![CDATA[BHGSniper: 
+简历投递需要填写非常多的表单，由于有些表单的内容相似，但标题不一样，传统的自动填表工具很难完全映射上，效果很差，有没有一些能结合 AI 的工具自动或者辅助填表？]]></summary>
+        <author>
+            <name>BHGSniper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有类似 Office tab 能让 PPT 多标签页切换的插件推荐？]]></title>
+        <id>https://www.v2ex.com/t/1108473</id>
+        <link href="https://www.v2ex.com/t/1108473"/>
+        <updated>2025-02-01T01:01:09.000Z</updated>
+        <summary type="html"><![CDATA[romancekami:]]></summary>
+        <author>
+            <name>romancekami</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[腾讯云的 nodejs sdk 安装后 85M]]></title>
+        <id>https://www.v2ex.com/t/1108471</id>
+        <link href="https://www.v2ex.com/t/1108471"/>
+        <updated>2025-02-01T00:43:32.000Z</updated>
+        <summary type="html"><![CDATA[scienhub: 
+最近发现项目的node_modules打包越打越大，不看不知道，一看吓一跳。
+腾讯云的 sdk 85M ，为了对比，还特地看了下@aws-sdk。
+cd node_modules && du -sh * | sort -h
+13M    @aws-sdk
+.
+.
+.
+12M     prisma
+13M     @types
+17M     @sentry
+23M     typescript
+29M     @opentelemetry
+38M     @prisma
+85M     tencentcloud-sdk-nodejs
+
+进一步去里面看了下cd node_modules/tencentcloud-sdk-nodejs && du -sh * | sort -h
+537Kexamples
+3.9Mtest
+4.9MSERVICE_CHANGELOG.md
+5.1MCHANGELOG.md
+28Msrc
+34Mtencentcloud
+
+这 src 和 tencentcloud 是不是重复了？
+还有一个 CHANGELOG 和 SERVICE_CHANGELOG 都快 10M 了。]]></summary>
+        <author>
+            <name>scienhub</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
@@ -77,33 +636,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
