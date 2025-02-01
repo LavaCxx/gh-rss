@@ -334,6 +334,36 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108568",
+          "author": "sqrtthree",
+          "description": "sqrtthree: 招一名 3-5 年经验的全职产品设计师！欢迎各位推荐朋友或前同事，成功入职后可获 8000 元红包奖励。\n公司简介\nTheatr (theatr-app.com) 是一个创立于纽约的社区型二手票务平台（与闲鱼类似），目前业务以百老汇戏剧票务为主。自上线以来增长迅速，在成立第二年便已成功帮助 10,000+ 美国用户完成转票交易，受到 Forbes 、NPR 、Vulture 等美国主流媒体的报道。目前上线了移动端 (app store 4.9, 1K+ ratings)，计划 Q1 上线网页端，并在不久的将来扩张到美国其他城市和英国。\n产品上线 2 年，目前还在快速迭代优化中。\n需要逻辑思维和解决问题能力特别强，并且平时喜欢研究美国 app 产品，并且英文读写都还不错，对文化产品有热情，有审美的设计师。和 CEO 与主开发对接，能及时响应需求，跟进迭代速度，并且主动提出需求以外的产品提升意见。\n远程工作，需要能灵活调整时间配合时差 （中国时间上午和晚上与纽约团队开会），未来能来纽约出差。\n加分项\n- 近几年在一线城市外企互联网公司工作过\n- 有海外留学经验\n- 对戏剧、现场演出、文化艺术行业有浓厚兴趣和理解\n- 了解前端开发基础知识\n- 优秀的英语读写和口语表达能力\n感兴趣请将简历和作品集发送至: founder@theatr-app.com",
+          "link": "https://www.v2ex.com/t/1108568",
+          "publishedOn": "2025-02-01T17:58:59.000Z",
+          "wordCount": 416,
+          "title": "招全职 UIUX 设计师 ｜ 类似闲鱼的社区属性二手票 APP，努力+氛围友好的纽约团队！（欢迎推荐， 8000 元奖励）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108567",
+          "author": "MFWT",
+          "description": "MFWT: \n是这样的 我有一个弔图库在 NAS 上，里面上万张弔图，导致找图是个麻烦事\n好在很多弔图都有文字，可以根据文本检索，所以来问问有没有什么可以对图片进行 OCR 并建立索引的图库软件，方便部署在 NAS 上。\n最终出来的结果应该是：搜索『你这配置太高端了』就能找到那只橘猫拆机的图片\n注：NAS 没有显卡，不确定问题大不大，不过跑慢点没关系，一晚上啥都跑完了，跑不完就再来一晚上",
+          "link": "https://www.v2ex.com/t/1108567",
+          "publishedOn": "2025-02-01T17:44:50.000Z",
+          "wordCount": 404,
+          "title": "有没有什么图片管理软件，可以自动对图片进行 OCR",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108566",
+          "author": "olympus",
+          "description": "olympus: \n项目介绍\n一个基于 Streamlit 的可视化工具，用于执行 OAuth2 流程以授予对 Google Photos 和/或 Google Drive 服务的访问权限，这些权限随后可以被第三方应用程序使用。\n有鉴于公共令牌生成器存在隐私及安全问题，故写了一个可以自行搭建的网页小程序。\n使用场景\n第三方软体如 rclone ，alist 等\n部署\nStreamlit Community Cloud\n演示站\n访问以上演示站，然后点击右上角'Fork'按钮在 Streamlit Community Cloud 上部署自己的程序，并用 code spaces 检测代码。虽然说我的演示站能开箱即食，但这违背了我项目的初衷。我的项目目标是实现自托管。\n本地部署（推荐）\nclone 项目地址\npip install -r requirements.txt 安装依赖\nstreamlit run Home.py 运行\n访问 http://localhost:8501\n预览",
+          "link": "https://www.v2ex.com/t/1108566",
+          "publishedOn": "2025-02-01T17:37:03.000Z",
+          "wordCount": 407,
+          "title": "小工具分享： DIY 谷歌服务令牌生成器（Photos & Drive)",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108565",
           "author": "wty95",
           "description": "wty95: \n如题爸妈的短视频平台三观越来越歪，不结婚就该死，治病就得中医这种极端言论。\n越刷越魔怔。\n有没有办法解决推送问题？",
@@ -379,7 +409,7 @@
           "description": "145431: \n老婆过两个月准备辞职，说不想再上班了，想弄个卤货店。理由是年纪大了，不太适应职场了，工作也没有更大前景了反而有被裁员的可能。一方面我还是想让她继续工作，因为她现在的工资其实并不低（大概 2w+），而且她对于创业并没有太多经验（虽然她曾经创业过两次但都失败了），另一方面我又深刻感觉到，上班真的太不稳定，等 40 岁以后大概率没人要了，现在赚到的这点钱意义就没那么大了。无产阶级终究是无产阶级，哎，可是创业也可能会变得更穷。。。。。。。\n想问问大家的看法，以及对于经营卤货方面，有什么建议吗？搞加盟还是去哪里可以拜师学到好的技术呢？迷茫...",
           "link": "https://www.v2ex.com/t/1108561",
           "publishedOn": "2025-02-01T14:42:03.000Z",
-          "wordCount": 609,
+          "wordCount": 616,
           "title": "老婆想创业卖卤货，大家有什么建议吗？",
           "imageUrl": null
         },
@@ -439,7 +469,7 @@
           "description": "NanFengxuan: \n现在人常住香港，在考虑要不要把微信转成 WeChat 。有几个问题。\n转区风险多大，容易被封号吗？\n有没有哪些功能只支持微信不支持 WeChat ？\n消息延迟严重吗？\n求解答，谢谢！",
           "link": "https://www.v2ex.com/t/1108555",
           "publishedOn": "2025-02-01T13:32:26.000Z",
-          "wordCount": 517,
+          "wordCount": 521,
           "title": "问几个微信转 WeChat 的问题，求解答",
           "imageUrl": null
         },
@@ -449,7 +479,7 @@
           "description": "s82kd92l: \n目前用的是上海联通的 5 月米粉卡套餐，每个月还送 1G 流量，按理说是保号神器。但现在大部分时间在境外，接电话漫游费很肉痛，就想换用移动的无忧行用网络接电话。\n现在携转到移动的话有啥适合保号的套餐吗？最好也送一点流量，以及有 1 元 1G 日包这样的？",
           "link": "https://www.v2ex.com/t/1108554",
           "publishedOn": "2025-02-01T13:23:21.000Z",
-          "wordCount": 437,
+          "wordCount": 443,
           "title": "想携号转网到移动找个低价保号套餐求推荐",
           "imageUrl": null
         },
@@ -469,7 +499,7 @@
           "description": "BennettHoward: \n前情提要：之前一直混 tjupt ，12 月底关站了，据说 2.17 会重开，期间注了一些小站(pttime,rousi,skysnow)，发现还是公网站的资源更丰富一些。\n现在想向大佬跪求一个 mt 的邀请，准备专注养一个公网大站当主力。\n下附最近一个月三站点的 ptpp 的数据(没怎么刷上传下载)。\n\nicloud 邮箱：YXVzdGluaG93YXJkYmVubmV0dEBpY2xvdWQuY29t (b64)\n不甚感激！",
           "link": "https://www.v2ex.com/t/1108550",
           "publishedOn": "2025-02-01T12:42:57.000Z",
-          "wordCount": 406,
+          "wordCount": 408,
           "title": "求馒头(m-team)的邀请",
           "imageUrl": null
         },
@@ -499,7 +529,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1108545",
           "publishedOn": "2025-02-01T11:46:10.000Z",
-          "wordCount": 578,
+          "wordCount": 589,
           "title": "为什么 LLM 模型不能按语言拆分，英文问题就只用英文语料训练出来的模型、日文问题就只用日文语料训练出来的模型，这样不是可以大幅减少参数量？",
           "imageUrl": null
         },
@@ -689,38 +719,8 @@
           "description": "clear: \n去年 MasterCard 有个活动，每张卡内地人民币消费可返 10%，需要在官网输入卡号和 CVV 登记。\nhttps://redemption.mastercard.com/\n最近爆出，登记的卡被批量盗刷，一些卡仅在官网登记从来没有使用过，经过交叉验证和推上各网友对账，基本能锁定是官网数据泄漏。\n请参与过该活动的网友，记得关注自己账户异动，及时锁卡、报失。",
           "link": "https://www.v2ex.com/t/1108520",
           "publishedOn": "2025-02-01T08:03:46.000Z",
-          "wordCount": 574,
+          "wordCount": 578,
           "title": "MasterCard 官网活动数据库疑似被脱，请参加过去年 Master 港卡返现活动的及时锁卡报失",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108519",
-          "author": "GeekGao",
-          "description": "GeekGao: \nhttps://www.williamlong.info/archives/7485.html",
-          "link": "https://www.v2ex.com/t/1108519",
-          "publishedOn": "2025-02-01T07:21:22.000Z",
-          "wordCount": 363,
-          "title": "DeepSeek 与主流 AI 模型对比评测",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108518",
-          "author": "leshijiazu",
-          "description": "leshijiazu: \n背景信息\n我的手机是 iPhone 16 Pro ，Apple ID 属于 美区，此前已成功绑定 中国大陆、中国香港、美国的信用卡和借记卡，并且一直正常使用。\n上周由于 手机设置问题，我 登出了 iCloud 。但在登出过程中，只收到部分卡片的 Apple Pay 注销短信，重新登录后，发现 大部分借记卡和信用卡无法重新添加。\n我怀疑可能是 iCloud 仍残留部分卡片的注册信息，导致系统认为这些卡仍在设备上，从而阻止重新绑定。\n已尝试但无效的解决方案：\n1️⃣ 登出 iCloud 后重新登录 → 无效\n2️⃣ 确保手机 SIM 卡与银行预留手机号一致 → 无效\n3️⃣ 手机硬重启 → 无效\n4️⃣ 切换不同网络（直连 & 翻墙） → 无效\n5️⃣ iMessage & FaceTime ID 与 iCloud ID 保持一致 → 无效\n6️⃣ 部分汇丰 HK 卡触发风控，解除后可添加，但其他汇丰 HK 卡无法触发风控，银行也无法手动解除风控 → 依旧无法添加\n这个问题我搜索了一下，不止我一个人遇到这个问题了，但都没有有效的解决方案，各位有什么经验吗？",
-          "link": "https://www.v2ex.com/t/1108518",
-          "publishedOn": "2025-02-01T07:11:02.000Z",
-          "wordCount": 449,
-          "title": "iPhone 16 Pro Apple Pay 无法重新添加部分卡片，求解方案",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108516",
-          "author": "wsseo",
-          "description": "wsseo: 总榜第一是长津湖 57.75 亿，猫眼今天预测哪吒 2 最终票房 67.40 亿。\n去影院看了，有几个低级笑点，武力值不明确，谁谁都是五五开，但是特效炸裂，适合家带孩子看，不太适合单身人士。",
-          "link": "https://www.v2ex.com/t/1108516",
-          "publishedOn": "2025-02-01T06:48:51.000Z",
-          "wordCount": 646,
-          "title": "哪吒 2 要冲击中国影史票房？",
           "imageUrl": null
         }
       ]

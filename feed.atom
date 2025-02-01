@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-01T20:12:20.650Z</id>
+    <id>urn:2025-02-01T21:09:37.275Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-01T20:12:20.650Z</updated>
+    <updated>2025-02-01T21:09:37.275Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[招全职 UIUX 设计师 ｜ 类似闲鱼的社区属性二手票 APP，努力+氛围友好的纽约团队！（欢迎推荐， 8000 元奖励）]]></title>
+        <id>https://www.v2ex.com/t/1108568</id>
+        <link href="https://www.v2ex.com/t/1108568"/>
+        <updated>2025-02-01T17:58:59.000Z</updated>
+        <summary type="html"><![CDATA[sqrtthree: 招一名 3-5 年经验的全职产品设计师！欢迎各位推荐朋友或前同事，成功入职后可获 8000 元红包奖励。
+公司简介
+Theatr (theatr-app.com) 是一个创立于纽约的社区型二手票务平台（与闲鱼类似），目前业务以百老汇戏剧票务为主。自上线以来增长迅速，在成立第二年便已成功帮助 10,000+ 美国用户完成转票交易，受到 Forbes 、NPR 、Vulture 等美国主流媒体的报道。目前上线了移动端 (app store 4.9, 1K+ ratings)，计划 Q1 上线网页端，并在不久的将来扩张到美国其他城市和英国。
+产品上线 2 年，目前还在快速迭代优化中。
+需要逻辑思维和解决问题能力特别强，并且平时喜欢研究美国 app 产品，并且英文读写都还不错，对文化产品有热情，有审美的设计师。和 CEO 与主开发对接，能及时响应需求，跟进迭代速度，并且主动提出需求以外的产品提升意见。
+远程工作，需要能灵活调整时间配合时差 （中国时间上午和晚上与纽约团队开会），未来能来纽约出差。
+加分项
+- 近几年在一线城市外企互联网公司工作过
+- 有海外留学经验
+- 对戏剧、现场演出、文化艺术行业有浓厚兴趣和理解
+- 了解前端开发基础知识
+- 优秀的英语读写和口语表达能力
+感兴趣请将简历和作品集发送至: founder@theatr-app.com]]></summary>
+        <author>
+            <name>sqrtthree</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有没有什么图片管理软件，可以自动对图片进行 OCR]]></title>
+        <id>https://www.v2ex.com/t/1108567</id>
+        <link href="https://www.v2ex.com/t/1108567"/>
+        <updated>2025-02-01T17:44:50.000Z</updated>
+        <summary type="html"><![CDATA[MFWT: 
+是这样的 我有一个弔图库在 NAS 上，里面上万张弔图，导致找图是个麻烦事
+好在很多弔图都有文字，可以根据文本检索，所以来问问有没有什么可以对图片进行 OCR 并建立索引的图库软件，方便部署在 NAS 上。
+最终出来的结果应该是：搜索『你这配置太高端了』就能找到那只橘猫拆机的图片
+注：NAS 没有显卡，不确定问题大不大，不过跑慢点没关系，一晚上啥都跑完了，跑不完就再来一晚上]]></summary>
+        <author>
+            <name>MFWT</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小工具分享： DIY 谷歌服务令牌生成器（Photos & Drive)]]></title>
+        <id>https://www.v2ex.com/t/1108566</id>
+        <link href="https://www.v2ex.com/t/1108566"/>
+        <updated>2025-02-01T17:37:03.000Z</updated>
+        <summary type="html"><![CDATA[olympus: 
+项目介绍
+一个基于 Streamlit 的可视化工具，用于执行 OAuth2 流程以授予对 Google Photos 和/或 Google Drive 服务的访问权限，这些权限随后可以被第三方应用程序使用。
+有鉴于公共令牌生成器存在隐私及安全问题，故写了一个可以自行搭建的网页小程序。
+使用场景
+第三方软体如 rclone ，alist 等
+部署
+Streamlit Community Cloud
+演示站
+访问以上演示站，然后点击右上角'Fork'按钮在 Streamlit Community Cloud 上部署自己的程序，并用 code spaces 检测代码。虽然说我的演示站能开箱即食，但这违背了我项目的初衷。我的项目目标是实现自托管。
+本地部署（推荐）
+clone 项目地址
+pip install -r requirements.txt 安装依赖
+streamlit run Home.py 运行
+访问 http://localhost:8501
+预览]]></summary>
+        <author>
+            <name>olympus</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何劫持爸妈的网络，给他们推送点正常的东西]]></title>
         <id>https://www.v2ex.com/t/1108565</id>
@@ -676,50 +737,6 @@ https://redemption.mastercard.com/
 请参与过该活动的网友，记得关注自己账户异动，及时锁卡、报失。]]></summary>
         <author>
             <name>clear</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek 与主流 AI 模型对比评测]]></title>
-        <id>https://www.v2ex.com/t/1108519</id>
-        <link href="https://www.v2ex.com/t/1108519"/>
-        <updated>2025-02-01T07:21:22.000Z</updated>
-        <summary type="html"><![CDATA[GeekGao: 
-https://www.williamlong.info/archives/7485.html]]></summary>
-        <author>
-            <name>GeekGao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone 16 Pro Apple Pay 无法重新添加部分卡片，求解方案]]></title>
-        <id>https://www.v2ex.com/t/1108518</id>
-        <link href="https://www.v2ex.com/t/1108518"/>
-        <updated>2025-02-01T07:11:02.000Z</updated>
-        <summary type="html"><![CDATA[leshijiazu: 
-背景信息
-我的手机是 iPhone 16 Pro ，Apple ID 属于 美区，此前已成功绑定 中国大陆、中国香港、美国的信用卡和借记卡，并且一直正常使用。
-上周由于 手机设置问题，我 登出了 iCloud 。但在登出过程中，只收到部分卡片的 Apple Pay 注销短信，重新登录后，发现 大部分借记卡和信用卡无法重新添加。
-我怀疑可能是 iCloud 仍残留部分卡片的注册信息，导致系统认为这些卡仍在设备上，从而阻止重新绑定。
-已尝试但无效的解决方案：
-1️⃣ 登出 iCloud 后重新登录 → 无效
-2️⃣ 确保手机 SIM 卡与银行预留手机号一致 → 无效
-3️⃣ 手机硬重启 → 无效
-4️⃣ 切换不同网络（直连 & 翻墙） → 无效
-5️⃣ iMessage & FaceTime ID 与 iCloud ID 保持一致 → 无效
-6️⃣ 部分汇丰 HK 卡触发风控，解除后可添加，但其他汇丰 HK 卡无法触发风控，银行也无法手动解除风控 → 依旧无法添加
-这个问题我搜索了一下，不止我一个人遇到这个问题了，但都没有有效的解决方案，各位有什么经验吗？]]></summary>
-        <author>
-            <name>leshijiazu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[哪吒 2 要冲击中国影史票房？]]></title>
-        <id>https://www.v2ex.com/t/1108516</id>
-        <link href="https://www.v2ex.com/t/1108516"/>
-        <updated>2025-02-01T06:48:51.000Z</updated>
-        <summary type="html"><![CDATA[wsseo: 总榜第一是长津湖 57.75 亿，猫眼今天预测哪吒 2 最终票房 67.40 亿。
-去影院看了，有几个低级笑点，武力值不明确，谁谁都是五五开，但是特效炸裂，适合家带孩子看，不太适合单身人士。]]></summary>
-        <author>
-            <name>wsseo</name>
         </author>
     </entry>
     <entry>
