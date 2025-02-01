@@ -192,6 +192,23 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -322,7 +339,7 @@
           "description": "MonkeyCoder: \n去年十月份国庆过完上了一周的班,老板就决定把公司关了,原地失业了.\n然后尝试找了一下工作,但是基本都已读不回,想着应该是年底了外加快过年没什么机会,就直接躺平了.\n这中间也没有学习,连八股都没看.失业以后感觉时间过得好快,刚才数了一下直接躺了四个月了.现在过完年了,突然就很慌,也有点恐惧找工作了,年龄大了,也在考虑转行,总之就是想得很多,偏悲观吧.唉,随便发泄一下.",
           "link": "https://www.v2ex.com/t/1108541",
           "publishedOn": "2025-02-01T11:07:00.000Z",
-          "wordCount": 426,
+          "wordCount": 445,
           "title": "年过完了,但是害怕找工作.",
           "imageUrl": null
         },
@@ -342,7 +359,7 @@
           "description": "kleos: \n黑五的时候购买一个欧洲机器(ipv6 only)，主要进行辅助工作(欧洲区域组网)，日常流量使用比较少。\n问题出现\n时间来到今年一月份，登录服务器想部署一个新的项目，发现入站流量已经达到了 1.3T 之多,并且流量一直在持续入站。\n问题排查以及尝试解决\n经过 tcpdump 得出的日志发现，流量来自 ptr.default.28000 。\n问题解决\n我的解决思路是 dig 出 ip ，使用 iptables 防火墙 ban 掉 ip\n很不幸，使用内外网的 dns 解析都显示域名不存在，失败了。。。\n在问题出现的当天便已经发送了 tk 给商家 24 小时并无问题解决方法，只说在调查问题。\n也没有解决。。。\ntcpdump 的部分日志\n11:05:32.771620 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 45622:46668, ack 17815, win 501, options [nop,nop,TS val 1712976733 ecr 2823061016], length 1046\n11:05:32.772517 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 46668:47711, ack 18203, win 501, options [nop,nop,TS val 1712976735 ecr 2823061018], length 1043\n11:05:32.773231 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 47711:48755, ack 18590, win 501, op…",
           "link": "https://www.v2ex.com/t/1108539",
           "publishedOn": "2025-02-01T11:05:13.000Z",
-          "wordCount": 1122,
+          "wordCount": 1123,
           "title": "来自 ipv6 only 的神秘问题，收到无法解析地址的流量",
           "imageUrl": null
         },
@@ -352,7 +369,7 @@
           "description": "crazyBlack: \n这两天放假在家开始折腾路由器，遇到了一些问题没太搞明白想请教一下各位\n需求是我希望在外面可以通过域名访问家中的服务器\n下面是我做的事情\nipv6 已经准备好了，测试没问题，我可以正确的通过 ip 地址直接访问家中对应的服务（坐标上海移动，话说居然没封掉我的 80 端口，真是不可思议）\n我的域名在 Cloudflare, 通过 openWrt 的 ddns-go 将 ipv6 动态绑定在我的域名上，赛博菩萨 Cludflare 还默认给了我 https 证书，在这一步我可以直接通过 https + 域名访问家中的路由器没有问题\n我不太希望家里的服务裸奔，并且我不确定 80 端口是否一直都不会被封，所以我希望禁用掉 wan 口的入站数据，使用防火墙端口转发的方式仅开放部分我希望开放的端口，在这一步通过 ip 地址 + 端口号我可以正确的访问家中服务\n问题出在这一步，我没办法通过域名 + 端口号的方式访问到我家中的服务（报错 SSL handshake failed ）\n问题：\n为什么我没办法通过域名 + 端口号的方式访问家中服务\n我的 openwrt 的管理界面理论上应该是在 80 端口上，Cloudflare 给我提供了 https 证书，那么讲道理应该会访问到我服务的 443 端口，在我什么都没做的情况下为什么还是能正确访问到 80 端口上的服务\n手机端运行 surge 或者电脑端的 surge 开启 enhanced mode 似乎都会会影响我直接访问 ipv6 地址，这个有什么解决办法吗\n我做的尝试：\n我了解 Cloudflare 仅仅会代理部分端口 由于是 https 我特意将防火墙的对外端口设置为 2053 ，但是无论是开启代理还是关闭代理（黄云/灰云）都没办法通过域名 + 端口号访问服务\n我在 itdog 使用 tcping 域名 + 端口是全绿的\n不是专业的，搞了好几天搞不定，来请教一下大家\n下面是各种配置的截图",
           "link": "https://www.v2ex.com/t/1108536",
           "publishedOn": "2025-02-01T10:31:55.000Z",
-          "wordCount": 667,
+          "wordCount": 707,
           "title": "请教一个 openwrt + ipv6 + cloudflare 路由器回家的问题",
           "imageUrl": null
         },
@@ -382,7 +399,7 @@
           "description": "ygwhence: 很难理解父母这一辈人是怎么想的，小时候吃不饱饭这么艰难的日子都过来了，临到退休了生活无虞，为了面子和控制欲把孩子拒于千里之外。\n有能力的父母可以给子女安排好工作，整合家庭资源财富增殖，父慈子孝其乐融融。没能力的父母不提供支持，反而对子女有各种不切实际的要求，别人家的孩子考上公务员了，你也要考公回本地，但是得在职考，辞职回家备考就是不孝啃老，别人家的孩子结婚生娃了，你也要相亲结婚，但是房子自己买，彩礼自己置备。\n在外工作面临未来的不确定和人生的迷茫，对父母唯一的需求就是能拉拉家常不增压，但这也成了奢求。\n真羡慕能把老家当作避风港的人啊",
           "link": "https://www.v2ex.com/t/1108532",
           "publishedOn": "2025-02-01T09:50:40.000Z",
-          "wordCount": 386,
+          "wordCount": 392,
           "title": "父母过几年就能退休拿养老金，工作不辛苦，平时打打牌跳跳舞，日子可以过得很好，却一定要在工作和个人问题上激化矛盾，既然无法沟通不如不回家",
           "imageUrl": null
         },
@@ -392,7 +409,7 @@
           "description": "hapsinge:",
           "link": "https://www.v2ex.com/t/1108531",
           "publishedOn": "2025-02-01T09:49:59.000Z",
-          "wordCount": 517,
+          "wordCount": 533,
           "title": "离过婚 比 没结婚 强吗？",
           "imageUrl": null
         },
@@ -412,7 +429,7 @@
           "description": "cutedogspark: \n目前手头有一台树莓派家里云，有动态的公网 ip\n一台香港服务器\n两台国内服务器，其中一台是阿里云的 200M 带宽的服务器\n求各位佬推荐一下有没有什么好玩或者能盈利的项目。\n可以要求初始资金。",
           "link": "https://www.v2ex.com/t/1108528",
           "publishedOn": "2025-02-01T09:23:25.000Z",
-          "wordCount": 376,
+          "wordCount": 391,
           "title": "求各位佬推荐一些好玩的项目",
           "imageUrl": null
         },
@@ -432,7 +449,7 @@
           "description": "jenson47: \n如题，我发现 vscode 下使用 vue 官方插件，使用 vue3+typescript 去开发，我发现在 template 上 typescript 是没效果。\n比如\n第三方扩展自动引入\n属性自动识别 [看情况] \n不存在属性或方法无法提示错误，总之 typescript 不生效\n官方插件偶尔飘",
           "link": "https://www.v2ex.com/t/1108526",
           "publishedOn": "2025-02-01T09:10:42.000Z",
-          "wordCount": 518,
+          "wordCount": 522,
           "title": "请教 Vue3 + typescript 最佳实践问题",
           "imageUrl": null
         },
@@ -452,7 +469,7 @@
           "description": "fushall: \n如题， \n楼主从业开始用 Python 七八年了，这几年也看到了行业的不景气，  \n自己这几年一直很努力学习 Python 技术+领域驱动设计+需求分析， \n以前的梦想就是当一个合格的 Python 软件工程师，可现实吧......哎.....\n不知道自己能在这个行业还能多久，过年期间突然想着给心爱的 Python 留点儿什么， \n于是开始了翻译（其实英文原文也很通俗易懂，楼主翻译完全是自己太闲了）\n基本上是 AI+人工复制粘贴，这几天正在人工核对一些翻译不准确的地方...  \n仓库的 Readme.md 里可以看所有的文字，也没有什么商业目的，单纯希望 Python 越来越好，  \n这是翻译后的 github：\nhttps://github.com/fushall/cosmicpython-book \n这是原作者的 github:\nhttps://github.com/cosmicpython/book \n下面书的目录：\nChapter\n章节\n\n\n\n\nPreface\n前言（已翻译）\n\n\nIntroduction: Why do our designs go wrong?\n引言：为什么我们的设计会出问题？（已翻译）\n\n\nPart 1 Intro\n第一部分简介（已翻译）\n\n\nChapter 1: Domain Model\n第一章：领域模型（已翻译）\n\n\nChapter 2: Repository\n第二章：仓储（已翻译）\n\n\nChapter 3: Interlude: Abstractions\n第三章：插曲：抽象（已翻译）\n\n\nChapter 4: Service Layer (and Flask API)\n第四章：服务层（和 Flask API ）（已翻译）\n\n\nChapter 5: TDD in High Gear and Low Gear\n第五章：高速档与低速档中的测试驱动开发（ TDD ）（已翻译）\n\n\nChapter 6: Unit of Work\n第六章：工作单元（已翻译）\n\n\nChapter 7: Aggregates\n第七章：聚合（已翻译）\n\n\nPart 2 Intro\n第二部分简介（已翻译）\n\n\nChapter 8: Domain Events and a Simple Message Bus\n第八章：领域事件与简单消息总线（已翻译）\n\n\nChapter 9: Going to Town on the MessageBus\n第九章：深入探讨消息总线（已翻译）\n\n\nChapter 10: Commands\n第十章：命令（已翻译）\n\n\nChapter 11: External Events for Integration\n第十一章：集成外部事件（已翻译）\n\n\nChapter 12: CQRS\n第十二章：命令查询责任分离（已翻译）\n\n\nChapter 13: Dependency Injection\n第十三章：依赖注入（已翻译）\n\n\nEpilogue: How do I get there from here?\n尾声：我该如何开始？（已翻译）\n\n\nAppendix A: Recap table\n附录 A：总结表格（已翻译）\n\n\nAppendix B: Project Structure\n附录 B：项目结构（已翻译）\n\n\nAppendix C: A major infrastructure change, made easy\n附录 C：轻松替换重要的基础设施（已翻译）\n\n\nAppendix D: Django\n附录 D：Django （已翻译）\n\n\nAppendix F: Validation\n附录 F：校验（已翻译）",
           "link": "https://www.v2ex.com/t/1108524",
           "publishedOn": "2025-02-01T08:59:18.000Z",
-          "wordCount": 642,
+          "wordCount": 644,
           "title": "[蛇年进阶 Python ！] 过年蹲家里翻译了本书《Cosmic Python 》，楼主认为是 Python 届的 DDD（领域驱动设计）手把手喂饭教学",
           "imageUrl": null
         },
@@ -492,7 +509,7 @@
           "description": "GeekGao: \nhttps://www.williamlong.info/archives/7485.html",
           "link": "https://www.v2ex.com/t/1108519",
           "publishedOn": "2025-02-01T07:21:22.000Z",
-          "wordCount": 351,
+          "wordCount": 353,
           "title": "DeepSeek 与主流 AI 模型对比评测",
           "imageUrl": null
         },
@@ -512,7 +529,7 @@
           "description": "wsseo: 总榜第一是长津湖 57.75 亿，猫眼今天预测哪吒 2 最终票房 67.40 亿。\n去影院看了，有几个低级笑点，武力值不明确，谁谁都是五五开，但是特效炸裂，适合家带孩子看，不太适合单身人士。",
           "link": "https://www.v2ex.com/t/1108516",
           "publishedOn": "2025-02-01T06:48:51.000Z",
-          "wordCount": 502,
+          "wordCount": 525,
           "title": "哪吒 2 要冲击中国影史票房？",
           "imageUrl": null
         },
@@ -582,7 +599,7 @@
           "description": "0xABCD: 我有皮肤病，类似于癣那种，在上海、北京的正规三甲医院都看过，说是特应性皮炎，无法根治，只能缓解。\n跟家里人说了之后，就要带我去某农村卫生室的杨医生，说医术高明，很多大医院都治不好的他都能治。我是不太相信的，但是碍于情面，还是跟着他们去看了，好家伙，用药很猛，每天打两针，每餐饭前、饭后各一包西药，每包有 10 粒左右的药，共 4 、5 种药丸。需要坚持这样一周。\n问题是过两天开工了，我不太想请假在村里治病，现在是进退两难，唉。\n难道村镇医生真的比人家大城市医学博士牛？我十分怀疑，不知道老家的人为啥这么相信赤脚医生，不去正规对县医院",
           "link": "https://www.v2ex.com/t/1108508",
           "publishedOn": "2025-02-01T05:33:45.000Z",
-          "wordCount": 767,
+          "wordCount": 794,
           "title": "春节回家发现农村人迷信赤脚医生",
           "imageUrl": null
         },
@@ -662,7 +679,7 @@
           "description": "xiaocongcong1: \n前两天一个人在家整理手机相册时，突然有些感慨。自从 2023 年辞职创业以来，手机里的照片几乎全都与工作相关。翻看过去的自己，才发现这两年眉头紧锁，笑容越来越少。\n细细想了想，我的性格其实并不太适合创业。从最早辞职做香薰就只把它当成一种“摆地摊式”的想法在进行，并没有想着做成一个品牌。以前在公司上班，按部就班，不用费太多心思。而现在，必须和客户、供应商沟通，对我来说，这是一件相当困难的事情。\n再者，我总是容易陷入细枝末节，看问题不够长远。眼前一点小事，都能被我放大到山一样大，常常因此感到焦虑和不安。\n不过，创业这两年也带给了我不少收获。\n一方面是思考方式变得更加全面，也更早意识到“设计”这个行业并不适合自己，所以当初辞职，其实也是正确的选择。\n其次，身体状况比以前要好了。上班时，常常被重复的工作和极致的细节要求折磨得血压飙升，甚至头晕恶心。而现在，这种情况几乎没有再发生。\n再来说收入方面。虽然我从 2015 年大学毕业后就进入了电商行业，但过去一直做的是设计，从未想过自己会去开一家淘宝店。直到 2023 年真正开店后，我才意识到，过去的十年，真的是中国电商的黄金时代。如果能早点明白这个道理，十年前的我或许会选择成为一名淘宝店主，而不是淘宝设计师。抓住时代的机会，远比找到一份“体面”的工作更重要。\n最后，在识人和思考问题的能力上，也有了提升。每天经营淘宝店，都会接触形形色色的顾客，聊天的过程中，要短时间判断一个人的意图，毫无缘由的恶意差评也更能体会人性的复杂。与此同时，我开始思考：什么是适合自己的？什么才是真正应该去做的？ 许多表面看似重要的事情，可能只是浮云，只有看清其背后的本质，才能做出正确的判断。现在，我特别佩服那些能用一句话点破事物本质的人。\n因为今年春节没有回家，最近一直在 V2 上闲逛。就在这里，祝看到这篇帖子的 V 友们——新年快乐！㊗️2025 年情绪稳定，身体健康，财务自由！",
           "link": "https://www.v2ex.com/t/1108498",
           "publishedOn": "2025-02-01T03:58:22.000Z",
-          "wordCount": 428,
+          "wordCount": 432,
           "title": "今年最大的心愿，放松紧绷的情绪",
           "imageUrl": null
         },
@@ -682,7 +699,7 @@
           "description": "TUTU2014: 想将安卓手机中的照片导入 macOS 中，现都有哪些实现此需求的在 macOS 平台上的助手软件？",
           "link": "https://www.v2ex.com/t/1108496",
           "publishedOn": "2025-02-01T03:51:52.000Z",
-          "wordCount": 495,
+          "wordCount": 503,
           "title": "现在 macOS 上都用什么安卓的手机助手软件？",
           "imageUrl": null
         },
@@ -702,7 +719,7 @@
           "description": "leiiiooo: 大家最近有了解过这种使用方式吗？将 Deepseek 的<think>内容喂给 claude 使用，然后通过 claude 得到最终的代码片段。有大佬使用过这种方式吗？是否已经有可以直接使用这种交互方式的网站或者工具呢？",
           "link": "https://www.v2ex.com/t/1108494",
           "publishedOn": "2025-02-01T03:22:00.000Z",
-          "wordCount": 446,
+          "wordCount": 448,
           "title": "Deepseek 搭配 Claude sonnet 使用",
           "imageUrl": null
         },
@@ -712,7 +729,7 @@
           "description": "LouisGuo: \n冲突和合作是 描述人与人关联关系程度这一属性的两个不同程度的度量。 一个害怕冲突的人同样也是害怕合作的。\n“人们经常相信左右是互相对立的，男女、冷热、光暗、强弱也是互相对立的。但是，从科学的立场看来，它们不是互相对立的事物，而是同一件东西的变异。它们是依照某种理想的假定排列而成的量表上的不同程度。同样的，好和坏、常态和变态也都不是对立的事物，而是同一事物的变异。”",
           "link": "https://www.v2ex.com/t/1108493",
           "publishedOn": "2025-02-01T03:18:16.000Z",
-          "wordCount": 426,
+          "wordCount": 428,
           "title": "父母如果从来不吵架，是不是说明两人之间的沟通是有问题的",
           "imageUrl": null
         }
