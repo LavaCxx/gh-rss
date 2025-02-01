@@ -1,10 +1,368 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-01T12:17:56.392Z</id>
+    <id>urn:2025-02-01T13:12:14.470Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-01T12:17:56.392Z</updated>
+    <updated>2025-02-01T13:12:14.470Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[年过完了,但是害怕找工作.]]></title>
+        <id>https://www.v2ex.com/t/1108541</id>
+        <link href="https://www.v2ex.com/t/1108541"/>
+        <updated>2025-02-01T11:07:00.000Z</updated>
+        <summary type="html"><![CDATA[MonkeyCoder: 
+去年十月份国庆过完上了一周的班,老板就决定把公司关了,原地失业了.
+然后尝试找了一下工作,但是基本都已读不回,想着应该是年底了外加快过年没什么机会,就直接躺平了.
+这中间也没有学习,连八股都没看.失业以后感觉时间过得好快,刚才数了一下直接躺了四个月了.现在过完年了,突然就很慌,也有点恐惧找工作了,年龄大了,也在考虑转行,总之就是想得很多,偏悲观吧.唉,随便发泄一下.]]></summary>
+        <author>
+            <name>MonkeyCoder</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大家似乎对剧版史密斯夫妇评价一般]]></title>
+        <id>https://www.v2ex.com/t/1108540</id>
+        <link href="https://www.v2ex.com/t/1108540"/>
+        <updated>2025-02-01T11:06:22.000Z</updated>
+        <summary type="html"><![CDATA[jojoadv: 
+但我真觉得是神作，关于婚姻，关于感情的描写很好啊，然后加上动作特工戏，我心目的满分剧集。
+然后加上村井浩和纳德·格洛弗，两位我非常喜欢的导演，这剧我觉得至少是个 8.5 不奇怪啊。]]></summary>
+        <author>
+            <name>jojoadv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[来自 ipv6 only 的神秘问题，收到无法解析地址的流量]]></title>
+        <id>https://www.v2ex.com/t/1108539</id>
+        <link href="https://www.v2ex.com/t/1108539"/>
+        <updated>2025-02-01T11:05:13.000Z</updated>
+        <summary type="html"><![CDATA[kleos: 
+黑五的时候购买一个欧洲机器(ipv6 only)，主要进行辅助工作(欧洲区域组网)，日常流量使用比较少。
+问题出现
+时间来到今年一月份，登录服务器想部署一个新的项目，发现入站流量已经达到了 1.3T 之多,并且流量一直在持续入站。
+问题排查以及尝试解决
+经过 tcpdump 得出的日志发现，流量来自 ptr.default.28000 。
+问题解决
+我的解决思路是 dig 出 ip ，使用 iptables 防火墙 ban 掉 ip
+很不幸，使用内外网的 dns 解析都显示域名不存在，失败了。。。
+在问题出现的当天便已经发送了 tk 给商家 24 小时并无问题解决方法，只说在调查问题。
+也没有解决。。。
+tcpdump 的部分日志
+11:05:32.771620 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 45622:46668, ack 17815, win 501, options [nop,nop,TS val 1712976733 ecr 2823061016], length 1046
+11:05:32.772517 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 46668:47711, ack 18203, win 501, options [nop,nop,TS val 1712976735 ecr 2823061018], length 1043
+11:05:32.773231 IP ptr.default.28000 > default.google.com.36150: Flags [P.], seq 47711:48755, ack 18590, win 501, op…]]></summary>
+        <author>
+            <name>kleos</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[请教一个 openwrt + ipv6 + cloudflare 路由器回家的问题]]></title>
+        <id>https://www.v2ex.com/t/1108536</id>
+        <link href="https://www.v2ex.com/t/1108536"/>
+        <updated>2025-02-01T10:31:55.000Z</updated>
+        <summary type="html"><![CDATA[crazyBlack: 
+这两天放假在家开始折腾路由器，遇到了一些问题没太搞明白想请教一下各位
+需求是我希望在外面可以通过域名访问家中的服务器
+下面是我做的事情
+ipv6 已经准备好了，测试没问题，我可以正确的通过 ip 地址直接访问家中对应的服务（坐标上海移动，话说居然没封掉我的 80 端口，真是不可思议）
+我的域名在 Cloudflare, 通过 openWrt 的 ddns-go 将 ipv6 动态绑定在我的域名上，赛博菩萨 Cludflare 还默认给了我 https 证书，在这一步我可以直接通过 https + 域名访问家中的路由器没有问题
+我不太希望家里的服务裸奔，并且我不确定 80 端口是否一直都不会被封，所以我希望禁用掉 wan 口的入站数据，使用防火墙端口转发的方式仅开放部分我希望开放的端口，在这一步通过 ip 地址 + 端口号我可以正确的访问家中服务
+问题出在这一步，我没办法通过域名 + 端口号的方式访问到我家中的服务（报错 SSL handshake failed ）
+问题：
+为什么我没办法通过域名 + 端口号的方式访问家中服务
+我的 openwrt 的管理界面理论上应该是在 80 端口上，Cloudflare 给我提供了 https 证书，那么讲道理应该会访问到我服务的 443 端口，在我什么都没做的情况下为什么还是能正确访问到 80 端口上的服务
+手机端运行 surge 或者电脑端的 surge 开启 enhanced mode 似乎都会会影响我直接访问 ipv6 地址，这个有什么解决办法吗
+我做的尝试：
+我了解 Cloudflare 仅仅会代理部分端口 由于是 https 我特意将防火墙的对外端口设置为 2053 ，但是无论是开启代理还是关闭代理（黄云/灰云）都没办法通过域名 + 端口号访问服务
+我在 itdog 使用 tcping 域名 + 端口是全绿的
+不是专业的，搞了好几天搞不定，来请教一下大家
+下面是各种配置的截图]]></summary>
+        <author>
+            <name>crazyBlack</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Safari 撤销文本输入是否有快捷键？]]></title>
+        <id>https://www.v2ex.com/t/1108534</id>
+        <link href="https://www.v2ex.com/t/1108534"/>
+        <updated>2025-02-01T10:00:58.000Z</updated>
+        <summary type="html"><![CDATA[suibianzai: 
+天杀的，今天在网页版 163 邮箱写了一大段话，打错了字，就想撤销，下意识按了好几下 cmd+z ，结果直接跳转到了上一页，所有的输入都没了……才想起来 Safari 的 cmd+z 默认是撤销关闭页面……但是 v2 在编辑文本时，cmd+z 就是撤销键入。这是否跟网页的设计有关？在 163 邮箱的编写页面，有没有撤销键入的快捷键呢？]]></summary>
+        <author>
+            <name>suibianzai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google 港区账号]]></title>
+        <id>https://www.v2ex.com/t/1108533</id>
+        <link href="https://www.v2ex.com/t/1108533"/>
+        <updated>2025-02-01T09:52:50.000Z</updated>
+        <summary type="html"><![CDATA[GDSR: 新注册账号，无辅助电话号码，账号地区香港，2fa 等一切功能均正常。有意向的发送邮件到 jgqcfo57t@mozmail.com 联系 。一个账号 ¥5 ，不接受砍价，数量有限。
+对于用户所造成的账号被封禁的后果，本人不承担任何责任，不得使用账号进行诈骗等违法活动。]]></summary>
+        <author>
+            <name>GDSR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[父母过几年就能退休拿养老金，工作不辛苦，平时打打牌跳跳舞，日子可以过得很好，却一定要在工作和个人问题上激化矛盾，既然无法沟通不如不回家]]></title>
+        <id>https://www.v2ex.com/t/1108532</id>
+        <link href="https://www.v2ex.com/t/1108532"/>
+        <updated>2025-02-01T09:50:40.000Z</updated>
+        <summary type="html"><![CDATA[ygwhence: 很难理解父母这一辈人是怎么想的，小时候吃不饱饭这么艰难的日子都过来了，临到退休了生活无虞，为了面子和控制欲把孩子拒于千里之外。
+有能力的父母可以给子女安排好工作，整合家庭资源财富增殖，父慈子孝其乐融融。没能力的父母不提供支持，反而对子女有各种不切实际的要求，别人家的孩子考上公务员了，你也要考公回本地，但是得在职考，辞职回家备考就是不孝啃老，别人家的孩子结婚生娃了，你也要相亲结婚，但是房子自己买，彩礼自己置备。
+在外工作面临未来的不确定和人生的迷茫，对父母唯一的需求就是能拉拉家常不增压，但这也成了奢求。
+真羡慕能把老家当作避风港的人啊]]></summary>
+        <author>
+            <name>ygwhence</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[离过婚 比 没结婚 强吗？]]></title>
+        <id>https://www.v2ex.com/t/1108531</id>
+        <link href="https://www.v2ex.com/t/1108531"/>
+        <updated>2025-02-01T09:49:59.000Z</updated>
+        <summary type="html"><![CDATA[hapsinge:]]></summary>
+        <author>
+            <name>hapsinge</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硅基流动第 1 天支持 DeepSeek V3 和 R1, 还算是稳定]]></title>
+        <id>https://www.v2ex.com/t/1108530</id>
+        <link href="https://www.v2ex.com/t/1108530"/>
+        <updated>2025-02-01T09:29:59.000Z</updated>
+        <summary type="html"><![CDATA[auniel: 
+最近在论坛里看到有人提到硅基流动 (SiliconFlow) 这个平台，说是现在支持 DeepSeek 的 V3 和 R1 模型了。
+出于好奇，我也去简单看了看。
+初步印象：速度还可以，模型更新挺快，但平台本身有待进一步了解
+模型更新速度: DeepSeek V3 和 R1 出来也有一两周了，硅基流动就跟上了，这点反应速度确实挺快的。
+速度表现: 有人测速 V3 模型能跑到 10-15 token/s ，这个速度看起来还不错。我自己也简单试了下，速度确实还可以。 但实际体验是否稳定，尤其是在高峰期怎么样，还需要进一步观察，毕竟刚上线第一天。
+注册方面: 注册倒是挺方便，手机号就行，国内外号码都支持。不用实名这点，对于只想体验国内模型的用户来说，算是个优点。
+有兴趣的朋友，可以去他们平台看看： https://cloud.siliconflow.cn/i/ND6afVZP
+有新闻说 2 月份硅基流动和华为云搞了个合作，说是基于华为云昇腾云服务搞 DeepSeek 推理。 
+新闻写得是“昇腾云服务”，不知道是不是用的昇腾芯片？还是说用的是别家的芯片提供的服务？感觉现在很多家都喜欢提昇腾，实际效果嘛... 有了解的可以说说。
+关于实名和手机号：注意个人信息
+国内模型不用实名，这个是优点。
+但如果要用国外模型像 LLaMA ，还是要实名。
+但是实名只提供给中国大陆用户，基本上外籍与港澳台人士就无缘了。
+定价，这里我手动对比一下 Openrouter 上面的价格：
+结论：硅基流动接近 Deepseek 官方定价和 DeepInfra 平台的定价，可以说是第一梯队。
+硅基流动平台上 DeepSeek 模型的定价
+DeepSeek V3: ¥2 / 百万 Tokens
+DeepSeek R1: ¥16 / 百万 Tokens
+OpenRouter 上的 DeepSeek V3 
+DeepInfra: Input $0.49 + Output $0.89
+Nebius: Input $0.5 + Output $1.5
+NovitaAI: Input $0.89 + Output $0.89
+Fireworks: Input $0.9 + Output $0.9
+Together: Input $1.25 + Output $1.25
+DeepSeek (fp8): Input $0.14 + Output $0.28
+OpenRouter 上的 DeepSeek R1
+Nebius: Input $0.8 + Output $2.4
+NovitaAI: Input $4 + Output $4
+Featherless: Input $6.5 + Output $8
+Avian.io: Input $6.9 + Output $7
+Together: Input $7 + Output $7
+Fireworks: Input $8 + Output $8
+DeepInfra: Input $0.75 + Output $2.4
+DeepSeek (fp8): Input $0.55 + Output $2.19
+Kluster: Input $2 + Output $2]]></summary>
+        <author>
+            <name>auniel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求各位佬推荐一些好玩的项目]]></title>
+        <id>https://www.v2ex.com/t/1108528</id>
+        <link href="https://www.v2ex.com/t/1108528"/>
+        <updated>2025-02-01T09:23:25.000Z</updated>
+        <summary type="html"><![CDATA[cutedogspark: 
+目前手头有一台树莓派家里云，有动态的公网 ip
+一台香港服务器
+两台国内服务器，其中一台是阿里云的 200M 带宽的服务器
+求各位佬推荐一下有没有什么好玩或者能盈利的项目。
+可以要求初始资金。]]></summary>
+        <author>
+            <name>cutedogspark</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[笔记本的触控板那总容易进灰，请问各位是如何解决的]]></title>
+        <id>https://www.v2ex.com/t/1108527</id>
+        <link href="https://www.v2ex.com/t/1108527"/>
+        <updated>2025-02-01T09:11:19.000Z</updated>
+        <summary type="html"><![CDATA[mackyuqi: 我基本不用触控板，都是外接键盘和鼠标的，发现触控版那比较容易进灰，有没有解决办法]]></summary>
+        <author>
+            <name>mackyuqi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[请教 Vue3 + typescript 最佳实践问题]]></title>
+        <id>https://www.v2ex.com/t/1108526</id>
+        <link href="https://www.v2ex.com/t/1108526"/>
+        <updated>2025-02-01T09:10:42.000Z</updated>
+        <summary type="html"><![CDATA[jenson47: 
+如题，我发现 vscode 下使用 vue 官方插件，使用 vue3+typescript 去开发，我发现在 template 上 typescript 是没效果。
+比如
+第三方扩展自动引入
+属性自动识别 [看情况] 
+不存在属性或方法无法提示错误，总之 typescript 不生效
+官方插件偶尔飘]]></summary>
+        <author>
+            <name>jenson47</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费开源 AI 简历编辑器-魔方简历， DeepSeek, 豆包大模型驱动]]></title>
+        <id>https://www.v2ex.com/t/1108525</id>
+        <link href="https://www.v2ex.com/t/1108525"/>
+        <updated>2025-02-01T09:06:33.000Z</updated>
+        <summary type="html"><![CDATA[haishangrain: 开源的简历编辑器已经完善的差不多了，最近完善了 seo,内置了字体，完善模板相关，今天再打个广告，欢迎体验，纯免费，如果觉得不错，点个小星星就是对我最大的支持
+官网: https://magicv.art/
+github: https://github.com/JOYCEQL/magic-resume]]></summary>
+        <author>
+            <name>haishangrain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[蛇年进阶 Python ！] 过年蹲家里翻译了本书《Cosmic Python 》，楼主认为是 Python 届的 DDD（领域驱动设计）手把手喂饭教学]]></title>
+        <id>https://www.v2ex.com/t/1108524</id>
+        <link href="https://www.v2ex.com/t/1108524"/>
+        <updated>2025-02-01T08:59:18.000Z</updated>
+        <summary type="html"><![CDATA[fushall: 
+如题， 
+楼主从业开始用 Python 七八年了，这几年也看到了行业的不景气，  
+自己这几年一直很努力学习 Python 技术+领域驱动设计+需求分析， 
+以前的梦想就是当一个合格的 Python 软件工程师，可现实吧......哎.....
+不知道自己能在这个行业还能多久，过年期间突然想着给心爱的 Python 留点儿什么， 
+于是开始了翻译（其实英文原文也很通俗易懂，楼主翻译完全是自己太闲了）
+基本上是 AI+人工复制粘贴，这几天正在人工核对一些翻译不准确的地方...  
+仓库的 Readme.md 里可以看所有的文字，也没有什么商业目的，单纯希望 Python 越来越好，  
+这是翻译后的 github：
+https://github.com/fushall/cosmicpython-book 
+这是原作者的 github:
+https://github.com/cosmicpython/book 
+下面书的目录：
+Chapter
+章节
+
+
+
+
+Preface
+前言（已翻译）
+
+
+Introduction: Why do our designs go wrong?
+引言：为什么我们的设计会出问题？（已翻译）
+
+
+Part 1 Intro
+第一部分简介（已翻译）
+
+
+Chapter 1: Domain Model
+第一章：领域模型（已翻译）
+
+
+Chapter 2: Repository
+第二章：仓储（已翻译）
+
+
+Chapter 3: Interlude: Abstractions
+第三章：插曲：抽象（已翻译）
+
+
+Chapter 4: Service Layer (and Flask API)
+第四章：服务层（和 Flask API ）（已翻译）
+
+
+Chapter 5: TDD in High Gear and Low Gear
+第五章：高速档与低速档中的测试驱动开发（ TDD ）（已翻译）
+
+
+Chapter 6: Unit of Work
+第六章：工作单元（已翻译）
+
+
+Chapter 7: Aggregates
+第七章：聚合（已翻译）
+
+
+Part 2 Intro
+第二部分简介（已翻译）
+
+
+Chapter 8: Domain Events and a Simple Message Bus
+第八章：领域事件与简单消息总线（已翻译）
+
+
+Chapter 9: Going to Town on the MessageBus
+第九章：深入探讨消息总线（已翻译）
+
+
+Chapter 10: Commands
+第十章：命令（已翻译）
+
+
+Chapter 11: External Events for Integration
+第十一章：集成外部事件（已翻译）
+
+
+Chapter 12: CQRS
+第十二章：命令查询责任分离（已翻译）
+
+
+Chapter 13: Dependency Injection
+第十三章：依赖注入（已翻译）
+
+
+Epilogue: How do I get there from here?
+尾声：我该如何开始？（已翻译）
+
+
+Appendix A: Recap table
+附录 A：总结表格（已翻译）
+
+
+Appendix B: Project Structure
+附录 B：项目结构（已翻译）
+
+
+Appendix C: A major infrastructure change, made easy
+附录 C：轻松替换重要的基础设施（已翻译）
+
+
+Appendix D: Django
+附录 D：Django （已翻译）
+
+
+Appendix F: Validation
+附录 F：校验（已翻译）]]></summary>
+        <author>
+            <name>fushall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[汇丰蓝狮扣账卡绑定 apple pay 在币安 app 法币购买 BTC 失败]]></title>
+        <id>https://www.v2ex.com/t/1108523</id>
+        <link href="https://www.v2ex.com/t/1108523"/>
+        <updated>2025-02-01T08:40:12.000Z</updated>
+        <summary type="html"><![CDATA[Zeb1104: 
+连续两次都提示失败, 失败原因是发卡行拒绝了此次交易, 各位老哥知道是为什么? 香港汇丰不支持的话, 有哪些境外银行是支持的呢? 以及这种购买 U 的方法安全吗? 谢谢大家]]></summary>
+        <author>
+            <name>Zeb1104</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电报群里都有啥好东西呢？]]></title>
+        <id>https://www.v2ex.com/t/1108522</id>
+        <link href="https://www.v2ex.com/t/1108522"/>
+        <updated>2025-02-01T08:25:53.000Z</updated>
+        <summary type="html"><![CDATA[shuiguomayi: 我用电报下载器就从电报群里下载点电影啥的，发现好多人在用下载器，好奇，大家发现电报群里都还有其他啥好东西？不能都是下载电影的吧？]]></summary>
+        <author>
+            <name>shuiguomayi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MasterCard 官网活动数据库疑似被脱，请参加过去年 Master 港卡返现活动的及时锁卡报失]]></title>
         <id>https://www.v2ex.com/t/1108520</id>
@@ -339,229 +697,6 @@ github: https://github.com/JOYCEQL/magic-resume]]></summary>
 “人们经常相信左右是互相对立的，男女、冷热、光暗、强弱也是互相对立的。但是，从科学的立场看来，它们不是互相对立的事物，而是同一件东西的变异。它们是依照某种理想的假定排列而成的量表上的不同程度。同样的，好和坏、常态和变态也都不是对立的事物，而是同一事物的变异。”]]></summary>
         <author>
             <name>LouisGuo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mac clion 调试怎么才能看到 stl 容器的值]]></title>
-        <id>https://www.v2ex.com/t/1108491</id>
-        <link href="https://www.v2ex.com/t/1108491"/>
-        <updated>2025-02-01T02:40:47.000Z</updated>
-        <summary type="html"><![CDATA[rednose1037: 
-
-mac 不维护 gdb ，不想手动配置特定版本；默认使用 libc++，我改成 libstdc++,
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++ -I/opt/homebrew/Cellar/gcc/13.2.0/include/c++/13.2.0 -I/opt/homebrew/Cellar/gcc/13.2.0/include/c++/13.2.0/aarch64-apple-darwin23.4.0")
-
-一大堆找不到 stl 报错，路径确认没问题，没搞来
-累了，。。。换 ide 就不用建议了，就想知道 mac clion 这个够吧 调试怎么才能看 stl 的值...]]></summary>
-        <author>
-            <name>rednose1037</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[阿里云 200M 服务器用途]]></title>
-        <id>https://www.v2ex.com/t/1108489</id>
-        <link href="https://www.v2ex.com/t/1108489"/>
-        <updated>2025-02-01T02:36:16.000Z</updated>
-        <summary type="html"><![CDATA[cutedogspark: 
-看到有新用户优惠，68 一年可以买 2C2G 的服务器，峰值带宽 200M 。本人就直接购买了，地区为乌兰察布，各位大佬有推荐做什么用途吗。]]></summary>
-        <author>
-            <name>cutedogspark</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[cf 保护下的 json 采集]]></title>
-        <id>https://www.v2ex.com/t/1108488</id>
-        <link href="https://www.v2ex.com/t/1108488"/>
-        <updated>2025-02-01T02:35:11.000Z</updated>
-        <summary type="html"><![CDATA[lsww: cf 保护下的 json ，有什么好用的 python 库。试过一下 github 库，不太好使。]]></summary>
-        <author>
-            <name>lsww</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bilibili 央视 2025 年春晚回放错误使用了 PQ 曲线]]></title>
-        <id>https://www.v2ex.com/t/1108487</id>
-        <link href="https://www.v2ex.com/t/1108487"/>
-        <updated>2025-02-01T02:29:09.000Z</updated>
-        <summary type="html"><![CDATA[LeonXu: 
-根据已有的公开信息，央视 4K 超高清频道的视频源使用 HLG 曲线，而上传到 Bilibili 的视频使用了 PQ 曲线且没有正确转换，导致画面亮度和色彩映射错误。]]></summary>
-        <author>
-            <name>LeonXu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小工具分享：无需上传到服务器，在浏览器内完成视频提取音频]]></title>
-        <id>https://www.v2ex.com/t/1108486</id>
-        <link href="https://www.v2ex.com/t/1108486"/>
-        <updated>2025-02-01T02:28:05.000Z</updated>
-        <summary type="html"><![CDATA[chendahui007: 
-欢迎体验。
-同时还做了一个 将 wav 转成 mp3 小工具。
-这两款工具都是基于 https://ffmpegwasm.netlify.app/ ， 非常好用的 ffmpeg 库，推荐给大家～]]></summary>
-        <author>
-            <name>chendahui007</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[春节回乡感慨]]></title>
-        <id>https://www.v2ex.com/t/1108485</id>
-        <link href="https://www.v2ex.com/t/1108485"/>
-        <updated>2025-02-01T02:25:42.000Z</updated>
-        <summary type="html"><![CDATA[dcy7287: 
-今年回家过年的最大感慨就是哪里给钱多，就去哪里生活。
-北京钱多就留北京，杭州给钱多就回杭州。
-人生短短几十年，生活质量很重要。
-卷天卷地卷不来大富大贵，只卷走了自己的身体。
-工作不是生活的全部，也不是富贵的来源。
-不过，疑惑的是，什么能保障我们能够富贵起来呢？]]></summary>
-        <author>
-            <name>dcy7287</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[手机 APP 怎么做到动态切换域名？]]></title>
-        <id>https://www.v2ex.com/t/1108484</id>
-        <link href="https://www.v2ex.com/t/1108484"/>
-        <updated>2025-02-01T02:19:55.000Z</updated>
-        <summary type="html"><![CDATA[xhwdy26: 
-在手机 APP 初始化配置了域名 A 和域名 B ，如果域名 A 访问慢，切换到域名 B 访问，我们是根据 ping 值，或者无法访问作为一个判断的依据。
-这样有没有问题，请教诸位大神，或者有更好的思路不吝赐教。]]></summary>
-        <author>
-            <name>xhwdy26</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[土区 ios 的 Microsoft office 365 订阅涨价了]]></title>
-        <id>https://www.v2ex.com/t/1108483</id>
-        <link href="https://www.v2ex.com/t/1108483"/>
-        <updated>2025-02-01T02:08:12.000Z</updated>
-        <summary type="html"><![CDATA[ygwhence: 
-土区 ios 的 microsoft office 365 订阅价格从 229.99 里拉涨到 329.99,2 月 14 号生效
-今天收到微软邮件说涨价的事，我才发现续订价格不再是 15.99 了，2 月份续费就已经是 229.99 了，有点奇怪没收到邮件]]></summary>
-        <author>
-            <name>ygwhence</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[deepseek 的 logo 有意思,包含了有 2 条鱼/2 个眼神]]></title>
-        <id>https://www.v2ex.com/t/1108482</id>
-        <link href="https://www.v2ex.com/t/1108482"/>
-        <updated>2025-02-01T02:07:09.000Z</updated>
-        <summary type="html"><![CDATA[xbox360: 
-https://cdn.deepseek.com/logo.png
-第一眼是一条鲸鱼,再细看一点会看到一条鲨鱼.
-鲸鱼和鲨鱼看你的眼神不一样.]]></summary>
-        <author>
-            <name>xbox360</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[openai 的模型命名乱七八糟，不知道应该用哪个了]]></title>
-        <id>https://www.v2ex.com/t/1108481</id>
-        <link href="https://www.v2ex.com/t/1108481"/>
-        <updated>2025-02-01T02:01:47.000Z</updated>
-        <summary type="html"><![CDATA[ocsp: gpt-4o
-gpt-4o-mini
-o1
-o1-mini
-o3-mini]]></summary>
-        <author>
-            <name>ocsp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小米电动牙刷你们用哪个？]]></title>
-        <id>https://www.v2ex.com/t/1108479</id>
-        <link href="https://www.v2ex.com/t/1108479"/>
-        <updated>2025-02-01T01:41:23.000Z</updated>
-        <summary type="html"><![CDATA[nathanw: 之前用的飞利浦的，后来年会中奖了一个小米 T300 ，感觉刷毛对我来说有点偏硬，当然，官方也有偏敏感的刷头，耗材不算贵，但也不便宜。
-现在 T300 官网也下架了，都出到 T302 了。
-小米也出了扫振牙刷，不知道好不好用。
-你们现在主要用哪个？]]></summary>
-        <author>
-            <name>nathanw</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「抚子」语言的调试功能??]]></title>
-        <id>https://www.v2ex.com/t/1108475</id>
-        <link href="https://www.v2ex.com/t/1108475"/>
-        <updated>2025-02-01T01:15:43.000Z</updated>
-        <summary type="html"><![CDATA[xuanwu: 
-https://zhuanlan.zhihu.com/p/20889903559
-想的=（ 6の乱数）＋１
-猜的＝「你猜？」と尋ねる。
-
-後判定で繰り返す
-　　もし、猜的>想的ならば
-　　  猜的＝「大了，再猜？」と尋ねる。
-　　違えば、もし、猜的<想的ならば
-　　  猜的＝「小了，再猜？」と尋ねる。
-　　違えば
-　　  「中了！」と表示
-　　ここまで
-
-  ?? 猜的
-  ?? 猜的==想的
-ここまで、(猜的≠想的)の間。]]></summary>
-        <author>
-            <name>xuanwu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[请问大家有没有自动填写各种简历投递的表单插件好用？]]></title>
-        <id>https://www.v2ex.com/t/1108474</id>
-        <link href="https://www.v2ex.com/t/1108474"/>
-        <updated>2025-02-01T01:11:41.000Z</updated>
-        <summary type="html"><![CDATA[BHGSniper: 
-简历投递需要填写非常多的表单，由于有些表单的内容相似，但标题不一样，传统的自动填表工具很难完全映射上，效果很差，有没有一些能结合 AI 的工具自动或者辅助填表？]]></summary>
-        <author>
-            <name>BHGSniper</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有没有类似 Office tab 能让 PPT 多标签页切换的插件推荐？]]></title>
-        <id>https://www.v2ex.com/t/1108473</id>
-        <link href="https://www.v2ex.com/t/1108473"/>
-        <updated>2025-02-01T01:01:09.000Z</updated>
-        <summary type="html"><![CDATA[romancekami:]]></summary>
-        <author>
-            <name>romancekami</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[腾讯云的 nodejs sdk 安装后 85M]]></title>
-        <id>https://www.v2ex.com/t/1108471</id>
-        <link href="https://www.v2ex.com/t/1108471"/>
-        <updated>2025-02-01T00:43:32.000Z</updated>
-        <summary type="html"><![CDATA[scienhub: 
-最近发现项目的node_modules打包越打越大，不看不知道，一看吓一跳。
-腾讯云的 sdk 85M ，为了对比，还特地看了下@aws-sdk。
-cd node_modules && du -sh * | sort -h
-13M    @aws-sdk
-.
-.
-.
-12M     prisma
-13M     @types
-17M     @sentry
-23M     typescript
-29M     @opentelemetry
-38M     @prisma
-85M     tencentcloud-sdk-nodejs
-
-进一步去里面看了下cd node_modules/tencentcloud-sdk-nodejs && du -sh * | sort -h
-537Kexamples
-3.9Mtest
-4.9MSERVICE_CHANGELOG.md
-5.1MCHANGELOG.md
-28Msrc
-34Mtencentcloud
-
-这 src 和 tencentcloud 是不是重复了？
-还有一个 CHANGELOG 和 SERVICE_CHANGELOG 都快 10M 了。]]></summary>
-        <author>
-            <name>scienhub</name>
         </author>
     </entry>
     <entry>
@@ -966,39 +1101,6 @@ https://bwh81.net/aff.php?aff=47294&pid=153
 [消息等级 Level C2 · 简要]]]></summary>
         <author>
             <name>VPS信号旗播报 - Telegram Channel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科技爱好者周刊（第 332 期）：西蒙·威利森的年终总结，梁文锋的访谈]]></title>
-        <id>http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html</id>
-        <link href="http://www.ruanyifeng.com/blog/2025/01/weekly-issue-332.html"/>
-        <updated>2025-01-03T01:10:55.000Z</updated>
-        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
-本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
-封面图
-
-世界最长的高速公路隧道"天山胜利隧道"本周贯通，长达22.13公里，汽车要在里面开20分钟。它连接了被天山隔断的南疆和北疆。（via）
-西蒙·威利森的年终总结，梁文锋的访谈
-英国程序员西蒙·威利森（Simon Willison）最近两年非常出名，他的个人网站有很多文章，介绍 AI 的最新进展。
-
-本周，他发表了很长一篇的2024年大模型回顾（非官方的中译），非常精彩。
-
-他提到，AI 的发展速度快得难以想象。
-一年前的2023年底，排名第一的 AI 模型是 OpenAI 公司的 GPT-4，没有其他模型能超过它。
-
-一年过去了，大家猜猜，GPT-4 现在排名多少？
-
-答案是第69位（上图），已经有18家公司的大模型超过了它。其中的一些模型，甚至可以在笔记本电脑运行。
-短短一年，榜首模型就被大量竞争者轻松超过，家用硬件就能达到它的运行效果。AI 的进化速度就是这么惊人。
-西蒙·威利森特别提到了来自中国的大模型 DeepSeek V3。
-
-DeepSeek V3 是2024年12月25日发布的，来自杭州的量化基金公司幻方量化。一经发布，它就引起了国际范围的轰动。
-它在多个参数上，击败了 OpenAI 公司最新的 o1 模型。目前，它在大模型排行榜上排名第7，要知道前十名里面，只有它是开源模型，而且是最少限制的 MIT 许可证，其他都是大公司的专有模型。
-
-而且，它的运行效率很高，训练成本估计只有 Meta 公司的 Llama 3.1 405B 模型的11分之一，而后者的效果还不如它。这就是说，DeepSeek 找到了高效使用硬件、提高模型效果的方法。
-西蒙·威利斯说："DeepSeek V3 的训练…]]></summary>
-        <author>
-            <name>阮一峰的网络日志</name>
         </author>
     </entry>
 </feed>
