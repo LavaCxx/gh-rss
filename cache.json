@@ -102,7 +102,7 @@
           "description": "Anchor positioning can be great for little interactive effects — as Temani Afif shows off with this clever idea for a menu hover.\nFancy Menu Navigation Using Anchor Positioning originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/fancy-menu-navigation-using-anchor-positioning/",
           "publishedOn": "2025-01-17T14:57:39.000Z",
-          "wordCount": 3468,
+          "wordCount": 3492,
           "title": "Fancy Menu Navigation Using Anchor Positioning",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383518"
         },
@@ -182,33 +182,6 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -327,12 +300,82 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108668",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia: 看完 /t/1108591 想到的点子",
+          "link": "https://www.v2ex.com/t/1108668",
+          "publishedOn": "2025-02-02T19:07:11.000Z",
+          "wordCount": 362,
+          "title": "给笔记本内置一个支架或是屏幕（BC 面之间）加个伸缩杆会不会有市场？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108666",
+          "author": "1F357",
+          "description": "1F357: \n\n在看腾讯云被骂这个 issue 的时候发现了这样一句话\n\n突发奇想看看最近几个新的模型能不能理解，但结果有点失望？\nDeepSeek R1:\n“小嘴 more 了 mee”是中文网络用语中常见的谐音梗，通常有以下几种解释方向：\n谐音直译\n这句话的发音接近“小嘴摸了没”（ xiǎo zuǐ mō le méi ），是一种调侃或开玩笑的表达，可能用于亲密或轻松的场景中，比如询问对方是否被亲吻或触摸（带有戏谑意味）。\n方言或发音变体\n“more 了”可能是“摸了”（ mō le ）的谐音，而“mee”可能模仿方言中“吗”（ ma ）的发音（如某些南方口音或网络卖萌语气）。\n组合起来可能是：“小嘴摸了吗？”（类似“亲过了吗？”）。\n网络用语延伸\n这类表达常见于社交平台评论区或聊天中，可能源自短视频、段子或梗的二次创作。例如：\n配合表情包或特定语境（如情侣互动），用于幽默调情。\n可能隐晦地指向某种行为（如接吻），但需结合具体使用场景判断。\n其他可能性\n若拆分理解，“more”在英文中意为“更多”，可能暗示“小嘴说了更多话”或“小嘴更活跃了”，但此解释较牵强，更可能是谐音玩法。\n总结：最合理的解释是谐音梗“小嘴摸了没”，常用于网络互动中的玩笑或调侃。具体含义需结合上下文，但需注意使用时可能带有暧昧或轻浮的意味，需谨慎根据关系选择场合。\n\nChatGPT o3 mini high\n这句话并不是一个标准、固定的表达，而更像是网络上的俏皮或调侃用语，其具体含义往往依赖于使用的上下文和语境。下面提供几种可能的解读，供参考：\n1.调侃式夸赞或逗趣\n“小嘴”直译就是“小嘴巴”，“more”是英语“更多”的意思，而“了”表示状态的变化，结尾的“mee”则带有一种可爱、俏皮的语气。整体看，有时可能是在调侃对方“嘴上功夫”了得、总是让人觉得“还想要更多”，类似于夸对方话多、会撩或是“嘴甜”的意思。当然，这种解读往往带有幽默、调侃的意味。\n2.网络流行语或弹幕用语\n在网络弹幕或聊天中，混用中英文以及带上类似“mee”这样的拟声词或语气词比较常见，用来增加可爱或俏皮的效果。这时这句话可能并不具有严谨的语法和明确的逻辑，而是一种“情绪化”的表达，用来表达对某个瞬间、某个行为或某种气质的赞叹或调侃。\n3.特殊场景或特定群体内部的梗\n有时一些表达会在特定圈子（比如二次元、直播弹幕圈、粉丝群体等）内流传，成为内部“梗”。如果这句话来源于某个视频、直播或社交平台，那么它可能与那个具体场景、人物或情节有关，意思就会更加明确。例如，可能是在某个场合下形容某位主播或角色“嘴上功夫了得”、“让人忍不住想要更多”，表达调侃或赞赏。\n\n总的来说：\n“‘小嘴 more 了 mee’”这句话并无统一、固定的解释，其意思会根据说话者的意图和使用环境有所不同。如果你是在某个特定的视频、帖子或聊天中看到这句话，可以结合当时的语境来理解其含义。如果还有更多背景信息，也可以提供出来，我们可以再一起探讨更准确的解释。\n\no1 、o3 mini 、4o 答案均类似，使用英文提问结果也差不多",
+          "link": "https://www.v2ex.com/t/1108666",
+          "publishedOn": "2025-02-02T18:47:33.000Z",
+          "wordCount": 492,
+          "title": "没有 AI 能理解“小嘴 more 了 mee”这句话吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108665",
+          "author": "SuilWinG5658",
+          "description": "SuilWinG5658: \n我现在想换港币到 za 银行上面，但是通过我的内地银行卡转账需要手续费而且不及时，我朋友 za 账户上有港币，我直接借他的，然后我在内地银行上还给他人民币不就行了，这样做需要考虑的风险点在哪边呢",
+          "link": "https://www.v2ex.com/t/1108665",
+          "publishedOn": "2025-02-02T18:29:45.000Z",
+          "wordCount": 340,
+          "title": "众安港币入金疑问？对敲可行吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108664",
+          "author": "iovekkk",
+          "description": "iovekkk: 使用有大半年了，一直以来有个很困扰的事情，就是在高速下载或者拷贝文件的时候会发现 macOS 中的 kernel task 进程会出现非常高的 cpu 占用，严重的时候，cpu 占用高达 90%，导致系统巨卡无比，之前一直都没有找到具体的原因\n这个春节假期花了好几天时间做了一件事，就是把硬盘柜中的四块硬盘的格式从 APFS 换成了 HFS+，这个是偶然间了解到的，APFS 格式是苹果为固态硬盘打造的硬盘格式，支持了比较多的高级功能，因此机械硬盘如果使用了这个硬盘格式，会有一些性能损耗，而 HFS+作为早期的苹果硬盘格式，功能较为简单，更适合机械硬盘使用。\n为了格式化这四块机械硬盘，也就免不了硬盘之间文件互拷，将一个硬盘中的文件都备份到另外一个硬盘上才能格式化这块硬盘，之后再拷回来，整个过程历时大概 3 天时间。而在硬盘互拷的过程中，又不可避免的出现 kernel task 进程高 cpu 占用的问题，这次有了大把的时间，经过多次实验和对比，应该算是总结出了问题的原因：\n也就是硬盘柜中多个硬盘同时读取写入时，cpu 占用就会出现异常高的情况。\n目前猜测是硬盘柜中多个硬盘同时读写时，硬盘柜外置电源的功率不够导致的。铁威马确实也很小气，只给配了一个 12v6A 的电源，基本上是不够四块硬盘同时满载运行的。\n猜到这个原因之后，后面再进行两个硬盘之间备份文件时，我就把另外两块硬盘直接推出，只保留同时读写的两块硬盘挂载，果然就再也没有出现过 cpu 占用过高的情况了\n现在在挂 pt 下载的时候，也尽量避免同时往两块硬盘下载的情况，今后的使用体验应该会好一些吧",
+          "link": "https://www.v2ex.com/t/1108664",
+          "publishedOn": "2025-02-02T18:16:11.000Z",
+          "wordCount": 400,
+          "title": "铁威马 D4-320 硬盘柜使用有感",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108663",
+          "author": "jackie777",
+          "description": "jackie777: \n来和大家介绍下我做的浏览器插件 「 TabTab 」 https://tabtab.xyz \n创建过程可以看我另一帖子 TabTab - Cursor / Trae 帮我写的第一个浏览器插件。\n之所以会创建这个插件，是为了解决我浏览器书签的使用痛点。一直以来在我工作中需要重度使用浏览器，常常会打开一堆的标签页。\n查一个线上问题，可能需要打开若干个网页，c 端线上网页、测试端网页、日志后台、运维后台、dms ...\n完成一个需求，需要打开产品文档、task 单、测试环境网页、运维后台\n重大活动期间，需要打开若干页面观测线上负载\n... \n诸如上述情形，我很多时候需要快速打开一批网页完成某项工作。\n另外，平时处理一些问题时，不断深究下去，往往会打开若干网页，我需要保存下所有的网页，留下一份快照，以待下次继续处理。\n对于一些常用的网站我需要一些创建快捷方式方便快速访问。\n浏览器的书签以及标签组也能完成上述需求，但是操作往往很繁琐。我需要的是一个宫格式的布局，能平铺开我所有收藏的书签，于是就做了这个 TabTab 来管理我收藏的书签。\n\n相比于默认书签页的树状管理，TabTab 采取更简单的两层结构：空间 & 合集 (Space & Collection)。你可以创建不同的空间用于区分不同的场景，比如个人 or 工作；创建合集归置一组相关的网页，合集支持一键打开，并且支持一键将当前浏览器网页状态保存为新的合集。\n此外，TabTab 简化了操作方式，通过简单拖拽即可完成收藏、排序等操作。\nTabTab 还会接管浏览器的默认启始页，当你通过 ctrl + t 快捷键打开新标签页时，即会打开 TabTab 。\n至此，TabTab 会帮助你把浏览器打造成更加高效的工作台。\n你可以快速打开 TabTab ，打开某个收藏站点。因为是宫格式卡片的布局，所有收藏的网页一目了然。\n你可以快速打开 TabTab ，当前打开的网页会展示在右侧栏中，你可以将其拖入到合集区域，即可完成收藏。\n如果你和我有相似的困扰，👏 欢迎来体验一下 https://www.tabtab.xyz ，看看能否提高效率解决你的困扰。\n如果对你有用，希望客官老爷们好评转发。（我也上线了 Product Hunt,  https://www.producthunt.com/products/tabtab-3 , 麻烦点个赞）",
+          "link": "https://www.v2ex.com/t/1108663",
+          "publishedOn": "2025-02-02T17:59:49.000Z",
+          "wordCount": 416,
+          "title": "TabTab 简洁高效的浏览器书签管理工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108662",
+          "author": "ChoateYao",
+          "description": "ChoateYao: \nbluesky —— 去中心化的社交平台，类似 X\nlinktr - 一个链接聚合平台\ntumblr - 汤不热，创建博客之后可以获取免费外链\ncarrd - 个人网站生成器\ntwitch - 直播平台，创建自己的频道之后可以设置外链\n6 plurk - 另外一个类似 X 的社交平台，创建账号需要 3 天后才能添加外链",
+          "link": "https://www.v2ex.com/t/1108662",
+          "publishedOn": "2025-02-02T17:54:59.000Z",
+          "wordCount": 375,
+          "title": "免费外链社交平台，已经全部验证过了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108660",
+          "author": "eric107008",
+          "description": "eric107008: \n去年因为做了个数据量比较大的项目，外加各种模型权重、数据集越来越多，患上了存储空间焦虑症。年底的时候回国扛了一台绿联的 DXP6800Pro ，外加 6 个西数 16T 二手企业盘和 2 个 2T 的致钛 Ti600 的 SSD 到办公室，现在不焦虑存储空间了，但有点纠结怎么用好这个 NAS 。网上搜索+问了问 ChatGPT ，并没有在方案设计上找到什么有建设性的答案。\n目前的状态\n刷了 Debian12 ，6 个 HDD 用 ZFS 组了个 RaidZ2 ，两个 SSD 做镜像后现在是 ZFS 的 LOG 。本意是想加速一下写入，但似乎并没有起到太大的作用。我自己还搞了个万兆交换机，配合手动配置 IP ，让电脑和 NAS 之间通过万兆局域网连接，平时会通过一个跑在 podman 里的 samba 挂载到(Windows 和 Linux 都有)电脑上。Samba 开了个共享账号给周围的同事用，自己有一个单独的 Samba 账号。本来还搭了个 Aria2 ，但因为 podman 容器里挂载目录的权限问题比 docker 要复杂一些，所以还没跑通。\n总结来说，现在的 NAS 用起来有以下几个痛点\n读写性能跑不满自己搭的万兆局域网，最多跑满 HDD 的顺序读写，SSD 似乎没有起到什么作用\n所有的东西塞在一个大存储池里，偶尔手动把数据复制到用于备份的另一台机器上\n一旦有点大规模的（特别是随机的）读写，企业盘炒豆子的声音会引起一些同事的抗议\n鄙人的核心诉求大概如下（重要性从高到低）\n不能丢数据\n尽可能充分利用现有硬件，提升性能和存储空间利用率\n减少维护时的心智和体力负担\n作为隐私焦虑症患者，希望尽可能保障隐私和安全性(例如在一些应用/软件选择上使用了开源方案而非商业方案）。但考虑到 3 ，可以选一些“退而求其次”的选择，比如 debian 换成 ubun…",
+          "link": "https://www.v2ex.com/t/1108660",
+          "publishedOn": "2025-02-02T17:34:04.000Z",
+          "wordCount": 862,
+          "title": "6+2 盘位的 NAS 放在办公室如何规划存储和应用？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108659",
           "author": "haha2333haha",
           "description": "haha2333haha: 众所周知苹果 m1 m2 兼顾高性能与低能耗\n而且目前网络上存在某些 macbook air/pro 拆机主板\n然后 m1m2 cpu 支持 linux\n那么 8 核的 m2 是否碾压一切嵌入式服务器\nbcm2712 bcm2711\nrk3566 rk3588\nn100 n5105\n好像没一个有能与装了 linux 的无头 m2 对垒",
           "link": "https://www.v2ex.com/t/1108659",
           "publishedOn": "2025-02-02T16:28:36.000Z",
-          "wordCount": 473,
+          "wordCount": 475,
           "title": "二手 m1 m2 主板当家用服务器",
           "imageUrl": null
         },
@@ -382,7 +425,7 @@
           "description": "mifafaovo: \n咋们这地方发帖后无法删帖。 有些职场的问题，想来吐槽/咨询意见的，一说太细感觉很有可能就被定位了...这点怎么破。 但是又真切想得到大家的意见",
           "link": "https://www.v2ex.com/t/1108654",
           "publishedOn": "2025-02-02T15:08:19.000Z",
-          "wordCount": 1319,
+          "wordCount": 1443,
           "title": "v2ex 发帖隐私性问题",
           "imageUrl": "/static/icon-192.png"
         },
@@ -412,7 +455,7 @@
           "description": "thatmrl: \n用「 Sign in with Apple 」创建第三方账户时有两个选项：\na.共享邮箱，第三方服务可以获取 apple ID 的主要邮箱。\nb.隐藏邮箱，第三方服务可以获取一个随机邮箱，可以通过随机邮箱转发到主要邮箱。\nApple 现在允许修改 Apple ID 的主要邮箱。\n根据上述两点，如果创建完第三方账户后修改「 Apple ID 」的主要邮箱，会对第三方账户产生什么影响？\n我的猜测是，第三方账户实际是基于 openid ，修改主要邮箱应该不改变 openid 。\n因此两种选项下创建的账户应该都仍然可以登录。\n至于邮件，\na.选项下第三方服务不确定是否仍向注册时的地址发件，以致无法接受。同时不确定 Apple 和第三方有没有提供更新收件地址的地方。\nb.选项下随机地址应该仍保留，第三方服务仍能正常发件。即使不能自动转发到新地址，也可以手动在 Apple 提供的设置中更新转发的目标地址，所以至少有办法解决。\n有没有了解其中细节的，或者实际这样操作过的；来说明一下？",
           "link": "https://www.v2ex.com/t/1108649",
           "publishedOn": "2025-02-02T14:57:56.000Z",
-          "wordCount": 450,
+          "wordCount": 452,
           "title": "用「Sign in with Apple」创建第三方账户后，修改「Apple ID」的主要邮箱，会对第三方账户产生什么影响？",
           "imageUrl": null
         },
@@ -452,7 +495,7 @@
           "description": "maymay5: \nGithub： https://github.com/MayDay-wpf/Think\n技术栈：vue+electron+nodejs\n功能列表：\n文件上传、图像上传、Mermaid 图表兼容\n本地联网模式(完全免费，无需第三方 API)\n基础设置，渠道管理，支持 Ollama\n用量统计\n基础部分：\n双语界面\n深浅色模式\n全代码开源\n拖拽排序\n后续将会上线内容：\n更多渠道兼容\n本地工作流\n自定义插件\n语音，图像，视频等生成 API 兼容\nFAQ\n为什么只打包了 MacOS ？\n因为暂时没有 PC ，等复工了再去打包\n数据存在哪？\n所有数据在本地 sqllite\n支持在线升级？\n暂不支持，需要卸载重装才可进行后续升级，将在后面版本中解决这个问题\n和其他客户端比有什么优势或区别？\n这个系统愿景并不打算做很多复杂功能，而是专注用户使用体验\n盈利模式？\n暂无盈利计划，后续可能做一个 PRO 的付费版本，不过这个优先级很低\n二次开发和商用？\n无限制\n在哪下载？\ngithub releases\n用户支持？\ngithub readme QQ 群，暂时没人 T_T\n相关截图\n\n\n\n\n\nAD:我的商用项目 https://aibotpro.cn\n全开源： https://github.com/MayDay-wpf/AIBotPublic",
           "link": "https://www.v2ex.com/t/1108645",
           "publishedOn": "2025-02-02T14:34:39.000Z",
-          "wordCount": 435,
+          "wordCount": 437,
           "title": "[开源]一次 vite+electron 实践， AI 对话客户端， ThinkChat，已发行 MacOS， Windows 会尽快打包发布",
           "imageUrl": null
         },
@@ -542,7 +585,7 @@
           "description": "leenhawk2: \n开发者设置打开 linux 支持，会有一个 terminal app ，打开安装，详见 https://www.bilibili.com/video/BV1TgFReREfe\n但是楼主在 android studio 上表示安装 termial 失败了，看起来目前只有 pixel 实机能用，亦或者我没搞清怎么在虚拟机上安装\n如果推广了 termux 要 G 了",
           "link": "https://www.v2ex.com/t/1108636",
           "publishedOn": "2025-02-02T13:23:10.000Z",
-          "wordCount": 802,
+          "wordCount": 806,
           "title": "安卓 16 支持 Linux 子系统了",
           "imageUrl": null
         },
@@ -662,7 +705,7 @@
           "description": "SmithJohn: 买了个 T480S.准备 40G 内存插满装个 linux 以后当上网开发本用.\n本来寻思了一下,这种货按理说应该全都是商家走私进来的洋垃圾,那么就无所谓商家还是个人卖家了.然后这一寻思,就坏事了.\n买之前还专门确认了两遍,是不是全原装,来自广州的商家也确认了是全原装.那我寻思你既然都这么明确的告诉我说全原装那就没问题了,让商家发了个没硬盘(我也不想要商家那边发的垃圾硬盘)的空机过来.,还提前要了他拍视频把机器的序列号拍了发过来.\n到手立马拍了拆包到拆机的全程视频对 SN 码,越对越心凉,主板,网卡,后盖,全部都不是原装的.屏幕和键盘不好拆就先没看,估计也够呛.\n然后就去找商家,说好的全原装,你卖我一组装机,那么你得给我退货啊.\n商家表示,虽然你拍了视频,但是一定是你偷偷换了我的零件.我一看你这还倒打一耙,那就找闲鱼客服呗.\n客服总不能不认我拍的视频.\n结果还真就不认.\n闲鱼客服电话里表示虽然商家发给你的是没装硬盘开不了机的组装机,但是你没有经过商家同意就拆机,那么你的一切售后要求不可能,无脑判卖家赢.\n那我寻思以后以后在闲鱼买的一切数码产品都可以默认是组装机了.\n如果你没拆机,那么你无法验证是否是原装.\n如果你拆机了,那么即使商家卖的是组装机,因为你未经过卖家同意就拆机你依然无法要求退货.\n\nQED,逻辑毫无漏洞.\n\n又一个新的致富道路出现了.",
           "link": "https://www.v2ex.com/t/1108623",
           "publishedOn": "2025-02-02T10:03:44.000Z",
-          "wordCount": 747,
+          "wordCount": 751,
           "title": "又一个闲鱼受害者,还是一个自以为很懂的垃圾佬",
           "imageUrl": null
         },
@@ -704,86 +747,6 @@
           "publishedOn": "2025-02-02T09:34:01.000Z",
           "wordCount": 384,
           "title": "现在有什么提供稳定的 deepseek r1 模型 api 吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108618",
-          "author": "Siaospeed",
-          "description": "Siaospeed: \n120 多天前我的 Pixel 8a 暴毙，当时怀疑 CPU 虚焊，本人是在京东某店家购买的，店家以刷过机为由拒绝保修，表示需要加钱修，沟通无效，平台介入后仍然没谈妥。索性找了线下的修手机的主板精修店修理，也没有修好，症状依旧。就目前的情况我的 Pixel 还有修理的价值了吗，各位有什么建议？另外 Pixel 目前仍在官方保固期，寄回官方修理是否可行？",
-          "link": "https://www.v2ex.com/t/1108618",
-          "publishedOn": "2025-02-02T09:30:46.000Z",
-          "wordCount": 384,
-          "title": "Pixel 修理问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108616",
-          "author": "ygcaicn",
-          "description": "ygcaicn: \n鉴于 DeepSeek 强悍的能力和低廉的价格，尝试调教了一个自动写技术文章的 Agent ，不知能否和 CSDN 的博客文章一较高低，大家提提意见争取早日不生产垃圾。\nhttps://hot.dawoai.com/",
-          "link": "https://www.v2ex.com/t/1108616",
-          "publishedOn": "2025-02-02T09:05:22.000Z",
-          "wordCount": 377,
-          "title": "用 DeepSeek 实现了“垃圾”制造 Agent",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108615",
-          "author": "s1xu",
-          "description": "s1xu: \n大家新年好\n闲着在家无聊玩 tg ，有些感兴趣的视频想转发到收藏夹，无奈有些频道禁止转发，google 到一款机器人每天免费只能五次\n于是兴趣驱动下做了这个 bot\n功能是能转发公开频道禁止转发的视频消息\n现在是第一版\n有什么使用问题欢迎大家提出来~\ntelegram 转发机器人\nhttps://t.me/octopussssbot",
-          "link": "https://www.v2ex.com/t/1108615",
-          "publishedOn": "2025-02-02T08:52:21.000Z",
-          "wordCount": 457,
-          "title": "做了一个 telegram 突破频道转发限制 bot",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108614",
-          "author": "YukiLieu",
-          "description": "YukiLieu: \n因为 cherry studio 太好用了，但是官方开发者似乎不太关注 linux 版本，导致 linux 至今只有 appimage 版本。（真的很难用啊）\n本着强迫症的原则，修复了一些 bug ，编译出了 rpm 版本，deb 也能编译通过，但是由于我使用的是 fedora ，只在 fedora 上做过测试，所以只放出 rpm 版本。后续视情况发布 deb 版本。\n注意：此为测试版本，并且没有添加依赖，如果有依赖问题欢迎反馈。\n地址： https://github.com/baka-world/cherry-studio-RPM/releases/tag/v0.9.17-rpm",
-          "link": "https://www.v2ex.com/t/1108614",
-          "publishedOn": "2025-02-02T08:49:42.000Z",
-          "wordCount": 384,
-          "title": "超好用 AI 工具 Cherry Studio 的 rpm 版本-修复高分屏分数缩放错误和图标不显示错误",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108613",
-          "author": "loneranger1024",
-          "description": "loneranger1024: \n今天来对我的第一个产品（微信聊天记录可视化报告）复盘下，从 2024 年 4 月 5 号开始写下第一行代码，到如今也快 10 个月了。这篇文章既是这 10 个月的心路历程，也是对该项目的经验复盘（踩坑指南），希望对大家有所帮助\n\n🌱 背景介绍\n2024 年初与哥飞公众号的邂逅，像一颗种子落进心田。《纳瓦尔宝典》中关于\"时间复利资产\"的论述，与\"代码+媒体\"双重杠杆的提法产生强烈共振。于是在那时开始萌生做网站的想法，期待收获自己的一片果园。\n🔍 需求挖掘\n最早是在 2024 年一月份在 Github 了解到 [留痕] 这个项目，它能够提取微信聊天记录，将其导出成 HTML 、Word 、CSV 文档永久保存。在此之前我也有用过其他方法导出过微信聊天记录，不过操作步骤上还是比较繁琐复杂的。留痕的出现可以帮助普通用户也可以很方便地导出微信聊天记录出来。不过第一次看到这个项目的时候也没有太多的想法，只是觉得这个项目很赞，直到我在小红书刷到一篇很火的笔记： [当我把和男朋友两年半的聊天记录可视化] ，我就开始萌生一个想法💡：简化制作聊天记录可视化报告的流程，让用户一键便可以生成聊天记录可视化报告。这是因为我在该笔记下面的评论看到很多求教程的，但要制作像博主那样精美的报告不是那么容易的事情，需要花费很多时间和精力才行，所以当时觉得这应该是个需求。虽然想法很早就有了，但之前一直忙于其他事情，直到 2024 年 5 月份才把网站进行上线，也算填完坑了哈哈\n\n🛠️ 产品实现\n产品原型是在weijunext开源的smart-excel-ai基础上进行修改的，功能很齐全，节省了大量的时间。微信聊天记录报告生成说难不难，无非就是对数据进行预处理之后，再进行数据可视化，但说简单也不简单，主要生成的报告要好看，所以很多时间都是花在调试报告样式及配色中。一开始参…",
-          "link": "https://www.v2ex.com/t/1108613",
-          "publishedOn": "2025-02-02T08:39:32.000Z",
-          "wordCount": 581,
-          "title": "从 0 到 2000 元，我花了 10 个月",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108612",
-          "author": "a3000xgyj",
-          "description": "a3000xgyj: \n如题 会有下载 和上传的限速吗？\n不太懂啊 我比特彗星 好像没啥上传限速啊",
-          "link": "https://www.v2ex.com/t/1108612",
-          "publishedOn": "2025-02-02T08:27:41.000Z",
-          "wordCount": 360,
-          "title": "兄弟们！上海电信 101.229 网段 有限速吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108611",
-          "author": "Rust2015",
-          "description": "Rust2015: \n基本能做到一天一充",
-          "link": "https://www.v2ex.com/t/1108611",
-          "publishedOn": "2025-02-02T08:27:12.000Z",
-          "wordCount": 584,
-          "title": "iOS 18.3、丝滑又回来了：",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108610",
-          "author": "lyxxxh2",
-          "description": "lyxxxh2: \n我父母要回广东,买不到票,所以给他们在滴滴买个顺风车。\n过程\n平台换车不需要我同意的 。   (这个没啥)\n迟到十几分钟,算了,小问题。\n最后让我生气的是,我父母上车了。\n我看到滴滴订单被取消了!\n(在此之前,我电话还跟他说过,想通过平台交易。）\n\n\n我马上质问司机为什么取消,他说平台取消的!\n把我当傻子???\n如果是我自己,我会马上下车。\n但是我不在那里,只有我父母。\n拿我父母当作要挟我 (在我眼里就是这样)\n我心态不爽,别人搞我,我想报复回去。\n他说钱肯定不会多收的,跟平台一样,放心吧。\n本来就是陌生人 + 他这操作,没啥可信度的。\n最后\n等我父母到家,我就举报。\n司机肯定不会承认,平台拿他有办法吗?\n估计没办法,毕竟没证据。\n对\"司机\"职业的印象\n之前去广州长隆乐园,高德打车 43,然后那个司机说: 让我帮个忙,不走平台了,給我优惠些。\n我想着也行,对我没区别,取消订单了,最后下车我收 50 。\n从此我就很反感不走平台的司机。\n前几年在中山车站,很多私家车在车站拉客的。\n然后我上去,到了车上收我十几块钱一小时!\n当然我直接下车了,在路口上。\n从此我再也不理会在车站那些私人出租车。\n我想只要是打车的,都被坑过。\nb 站经常有司机的吐槽平台,抱歉,我同情不了。\n我对\"司机\"这个职业没什么好感。",
-          "link": "https://www.v2ex.com/t/1108610",
-          "publishedOn": "2025-02-02T08:02:22.000Z",
-          "wordCount": 508,
-          "title": "记一次被司机恶心的操作",
           "imageUrl": null
         }
       ]
