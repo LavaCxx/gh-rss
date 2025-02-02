@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-02 datetime="2025-02-02T08:27:41.000Z">2025-02-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-02 datetime="2025-02-02T08:27:41.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-02 datetime="2025-02-02T11:24:36.000Z">2025-02-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-02 datetime="2025-02-02T11:24:36.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,376 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108628"
+                        open
+                      >
+                        <summary class="article-expander__title">Telegram 这么多缓存文件是干嘛的？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108628">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>beyondstars: 
+cd ~/Library/Caches/ru.keepcoder.Telegram/org.sparkle-project.Sparkle/PersistentDownloads
+
+
+gdu -c -d 0 -h 2&gt;/dev/null
+# 38G.
+# 38Gtotal
+
+gfind . -type f -and -size +100M -printf &quot;%p\t size&#x3D;%k KB inode&#x3D;%i symlink&#x3D;%l\n&quot; | head -n 10
+# .//Telegram 270736/Telegram.app/Contents/MacOS/Telegram size&#x3D;166828 KB inode&#x3D;45401604 symlink&#x3D;
+# .//Telegram 270736/Telegram.app.zip size&#x3D;116244 KB inode&#x3D;45401596 symlink&#x3D;
+# .//Telegram 270736/Telegram.app/Contents/MacOS/Telegram size&#x3D;166828 KB inode&#x3D;45780017 symlink&#x3D;
+# .//Telegram 270736/Telegram.app.zip size&#x3D;116244 KB inode&#x3D;45780010 symlink&#x3D;
+# .//Telegram 270736/Telegram.app/Contents/MacOS/Telegram size&#x3D;166828 KB inode&#x3D;45336996 symlink&#x3D;
+# .//Telegram 270736/Telegram.app.zip size&#x3D;116244 KB inode&#x3D;45336988 symlink&#x3D;
+# .//Telegram 270736/Telegram.app/Contents/MacOS/Telegram size&#x3D;166828 KB inode&#x3D;45631291 symlink&#x3D;
+# .//Telegram 270736/Telegram.app.zip size&#x3D;116244 KB inode&#x3D;45631284 symlink&#x3D;
+# .//Telegram 270736/Telegram.app/Contents/MacOS/Telegram size&#x3D;166828 KB inode&#x3D;45248084 symlink&#x3D;
+# .//Telegram 270736/Telegram.app.zip size&#x3D;116244 KB inode&#x3D;45248077 symlink&#x3D;
+
+足足 38G ，Telegram 和 Telegram.app.zip 这两个文件重复了很多次，不是 symlink 或者 hardlink ，也没有体现在 Telegram 用户界面呈现的 disk usage 。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108627"
+                        open
+                      >
+                        <summary class="article-expander__title">DNS 解析使用主路由器网关 IP 作为 DNS 解析好，还是使用外域公网 DNS IP 解析好？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108627">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bclerdx:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108626"
+                        open
+                      >
+                        <summary class="article-expander__title">AI 语音已经可以如此顺滑的对话了，为什么语音音箱还是如此的弱智</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108626">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jianghu52: 
+今天让小度音箱放歌，他给我来了一句，播放列表中含有会员权益歌曲，非会员只能试听一部分。
+我的脑海里下意识的就是：
+-“在播放音乐时，如果歌曲需要会员权限，请自动跳过。”
+-“播放音乐时，跳过会员歌曲。”
+
+后来才发现面对的是智障音箱。
+我很奇怪的是，为什么 AI 的语音对话已经如此流畅的今天，语音音箱连基础的对话分析还是如此费劲。
+比如下面几个需求：
+ 1.在下雨的当天，问雨什么时候会停。
+ 2.在周末的时候，问明天早上几点会下雪。
+ 3.下班的时候，问他今晚有没有云，能不能赏月
+
+给出的回答都是关于一整天的天气预报。或者是答的驴唇不对马嘴。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108625"
+                        open
+                      >
+                        <summary class="article-expander__title">3000 以下 55 寸电视有推荐吗？主要是看 4k 影视，玩玩 3a 单机游戏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108625">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>quzard:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108623"
+                        open
+                      >
+                        <summary class="article-expander__title">又一个闲鱼受害者,还是一个自以为很懂的垃圾佬</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108623">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>SmithJohn: 买了个 T480S.准备 40G 内存插满装个 linux 以后当上网开发本用.
+本来寻思了一下,这种货按理说应该全都是商家走私进来的洋垃圾,那么就无所谓商家还是个人卖家了.然后这一寻思,就坏事了.
+买之前还专门确认了两遍,是不是全原装,来自广州的商家也确认了是全原装.那我寻思你既然都这么明确的告诉我说全原装那就没问题了,让商家发了个没硬盘(我也不想要商家那边发的垃圾硬盘)的空机过来.,还提前要了他拍视频把机器的序列号拍了发过来.
+到手立马拍了拆包到拆机的全程视频对 SN 码,越对越心凉,主板,网卡,后盖,全部都不是原装的.屏幕和键盘不好拆就先没看,估计也够呛.
+然后就去找商家,说好的全原装,你卖我一组装机,那么你得给我退货啊.
+商家表示,虽然你拍了视频,但是一定是你偷偷换了我的零件.我一看你这还倒打一耙,那就找闲鱼客服呗.
+客服总不能不认我拍的视频.
+结果还真就不认.
+闲鱼客服电话里表示虽然商家发给你的是没装硬盘开不了机的组装机,但是你没有经过商家同意就拆机,那么你的一切售后要求不可能,无脑判卖家赢.
+那我寻思以后以后在闲鱼买的一切数码产品都可以默认是组装机了.
+如果你没拆机,那么你无法验证是否是原装.
+如果你拆机了,那么即使商家卖的是组装机,因为你未经过卖家同意就拆机你依然无法要求退货.
+
+QED,逻辑毫无漏洞.
+
+又一个新的致富道路出现了.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108622"
+                        open
+                      >
+                        <summary class="article-expander__title">bybit 卡无需 LV2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108622">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>laiyibeimeishi: 快冲啊
+注册账号没要求什么地区都可以，申请 bybit 卡的时候选择澳大利亚，无需地址秒审批通过
+有护照的可以注册两个账户，问过 bybit 客服了他们系统设计的就支持双开，可以申请两张欧元一张美元一张</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108621"
+                        open
+                      >
+                        <summary class="article-expander__title">LG Ultrafine 4k 出现图像残留</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108621">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>LotusChuan: 
+差不多 4 年前苹果官网买了 2 台 LG Ultrafine 4k ，今天回来打开用了一段时间发现其中一块有图像残留，有点震惊，之前一直以为 oled 屏才会烧屏。网上查了资料了解到 ips 也会有类似问题，但是是可逆的，静置一会儿会恢复。实际试了下确实会慢慢恢复。推测是房间太冷了，我开空调后冷热反应把显示器整出问题了。
+感觉出现这种问题已经说明这显示器快坏了吧。我对它还是很满意的，之前还想着用个十年没问题呢，现在这样让我哪里去找 24 寸 4k 还带 macOS 适配的显示器。
+现在关了有问题这台，用另一块显示器在 v 站写帖子。停下来想了想，感叹这年过的，真多灾多难。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108620"
+                        open
+                      >
+                        <summary class="article-expander__title">对于依赖注入的思考-二</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108620">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>llej: 
+之前写了 对于依赖注入的思考 一文，得到了许多网友的指点，发现自己的理解存在很大的偏差。
+经过一段时间的学习，我发现我要解决的问题和依赖注入这个名词的关系不大，这块要解决的问题其实更像是 Algebraic Effects（代数效应），和依赖注入相同的地方在于，它们都是为了解决编程工程化上的一些难题（我简单的理解为在不修改旧代码的情况下可以替换其中的函数实现）
+对于依赖注入的思考-代码示例
+function baseFn_A(){}
+function baseFn_B(){}
+function higherFn_B(){
+baseFn_A()
+//other baseFn ...
+}
+
+function higherFn_C(){
+higherFn_B()
+//other baseFn / higherFn ...
+}
+// 这中间还可能有更多层次的这样的套娃
+
+// 上面存在一个依赖链路 higherFn_C&gt;higherFn_B&gt;baseFn_A
+// 如果我要实现一个新的函数 higherFn_C2 ，它和 higherFn_C 唯一的区别就是调用的是 baseFn_B 而非 baseFn_A
+// 我认为依赖注入就是为了更方便的创建 higherFn_C2 而不需要改动特别多的代码
+
+其实在 2021 年我就触碰过这个问题（js 一个函数执行的时候如何判断自己是否处于另一个的调用栈中？，这个提问现在看来显然是一个 XY problem）
+下面是我刚刚得到的一些灵感，记录在手机记事本中：
+上下文传递方法使用一个同名变量 ctx，起始于一个全局变量 ctx 然后从这个全局变量派生出来一棵树，每个模块乃至于函数都会有自己的 ctx（从上级 ctx 派生），许多需要的方法都是要从这个上下文中来获取。
+这个是实现一个类似代数效应以及依赖注入的方法，也等价于实现了…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108619"
+                        open
+                      >
+                        <summary class="article-expander__title">现在有什么提供稳定的 deepseek r1 模型 api 吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108619">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>dai269619118: 
+目前是知道硅基流动是提供 r1
+还有其他厂商提供吗 想要满血的版本。
+要跑很多数据  想找一个合适的</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108618"
+                        open
+                      >
+                        <summary class="article-expander__title">Pixel 修理问题</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108618">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Siaospeed: 
+120 多天前我的 Pixel 8a 暴毙，当时怀疑 CPU 虚焊，本人是在京东某店家购买的，店家以刷过机为由拒绝保修，表示需要加钱修，沟通无效，平台介入后仍然没谈妥。索性找了线下的修手机的主板精修店修理，也没有修好，症状依旧。就目前的情况我的 Pixel 还有修理的价值了吗，各位有什么建议？另外 Pixel 目前仍在官方保固期，寄回官方修理是否可行？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108616"
+                        open
+                      >
+                        <summary class="article-expander__title">用 DeepSeek 实现了“垃圾”制造 Agent</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108616">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ygcaicn: 
+鉴于 DeepSeek 强悍的能力和低廉的价格，尝试调教了一个自动写技术文章的 Agent ，不知能否和 CSDN 的博客文章一较高低，大家提提意见争取早日不生产垃圾。
+https://hot.dawoai.com/</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108615"
+                        open
+                      >
+                        <summary class="article-expander__title">做了一个 telegram 突破频道转发限制 bot</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108615">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>s1xu: 
+大家新年好
+闲着在家无聊玩 tg ，有些感兴趣的视频想转发到收藏夹，无奈有些频道禁止转发，google 到一款机器人每天免费只能五次
+于是兴趣驱动下做了这个 bot
+功能是能转发公开频道禁止转发的视频消息
+现在是第一版
+有什么使用问题欢迎大家提出来~
+telegram 转发机器人
+https://t.me/octopussssbot</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108614"
+                        open
+                      >
+                        <summary class="article-expander__title">超好用 AI 工具 Cherry Studio 的 rpm 版本-修复高分屏分数缩放错误和图标不显示错误</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108614">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>YukiLieu: 
+因为 cherry studio 太好用了，但是官方开发者似乎不太关注 linux 版本，导致 linux 至今只有 appimage 版本。（真的很难用啊）
+本着强迫症的原则，修复了一些 bug ，编译出了 rpm 版本，deb 也能编译通过，但是由于我使用的是 fedora ，只在 fedora 上做过测试，所以只放出 rpm 版本。后续视情况发布 deb 版本。
+注意：此为测试版本，并且没有添加依赖，如果有依赖问题欢迎反馈。
+地址： https://github.com/baka-world/cherry-studio-RPM/releases/tag/v0.9.17-rpm</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1108613"
+                        open
+                      >
+                        <summary class="article-expander__title">从 0 到 2000 元，我花了 10 个月</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108613">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>loneranger1024: 
+今天来对我的第一个产品（微信聊天记录可视化报告）复盘下，从 2024 年 4 月 5 号开始写下第一行代码，到如今也快 10 个月了。这篇文章既是这 10 个月的心路历程，也是对该项目的经验复盘（踩坑指南），希望对大家有所帮助
+
+🌱 背景介绍
+2024 年初与哥飞公众号的邂逅，像一颗种子落进心田。《纳瓦尔宝典》中关于&quot;时间复利资产&quot;的论述，与&quot;代码+媒体&quot;双重杠杆的提法产生强烈共振。于是在那时开始萌生做网站的想法，期待收获自己的一片果园。
+🔍 需求挖掘
+最早是在 2024 年一月份在 Github 了解到 [留痕] 这个项目，它能够提取微信聊天记录，将其导出成 HTML 、Word 、CSV 文档永久保存。在此之前我也有用过其他方法导出过微信聊天记录，不过操作步骤上还是比较繁琐复杂的。留痕的出现可以帮助普通用户也可以很方便地导出微信聊天记录出来。不过第一次看到这个项目的时候也没有太多的想法，只是觉得这个项目很赞，直到我在小红书刷到一篇很火的笔记： [当我把和男朋友两年半的聊天记录可视化] ，我就开始萌生一个想法💡：简化制作聊天记录可视化报告的流程，让用户一键便可以生成聊天记录可视化报告。这是因为我在该笔记下面的评论看到很多求教程的，但要制作像博主那样精美的报告不是那么容易的事情，需要花费很多时间和精力才行，所以当时觉得这应该是个需求。虽然想法很早就有了，但之前一直忙于其他事情，直到 2024 年 5 月份才把网站进行上线，也算填完坑了哈哈
+
+🛠️ 产品实现
+产品原型是在weijunext开源的smart-excel-ai基础上进行修改的，功能很齐全，节省了大量的时间。微信聊天记录报告生成说难不难，无非就是对数据进行预处理之后，再进行数据可视化，但说简单也不简单，主要生成的报告要好看，所以很多时间都是花在调试报告样式及配色中。一开始参…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -72,7 +442,7 @@
                             <span class="media-object__text">
                               <span>Rust2015: 
 基本能做到一天一充</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -123,7 +493,7 @@
 我想只要是打车的,都被坑过。
 b 站经常有司机的吐槽平台,抱歉,我同情不了。
 我对&quot;司机&quot;这个职业没什么好感。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -731,24 +1101,6 @@ RT,coloros15 自带的东西太多了。。。。喜欢类原生，能不能氢 
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108583"
-                        open
-                      >
-                        <summary class="article-expander__title">是否大部分人最后都在医院里面？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108583">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ok168168: 
-所有人最后的归宿都一样！无疾而终是福报！生老病死自然规律。</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.v2ex.com/t/1108582"
                         open
                       >
@@ -816,340 +1168,6 @@ AI 与开发者服务：ChatGPT Plus 、OpenAI API 、Claude AI 、Midjourney �
 成年以后工作总是面试表现非常优秀，进入公司以后就露馅，被冷眼相待，甚至辞退。
 随便说了几点，不止如此，总觉得自己是个失败者，性格软弱，老实巴交，讨好型人格，工作能力差，一事无成。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108577"
-                        open
-                      >
-                        <summary class="article-expander__title">玩 PT NAS 求推荐</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108577">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>platle: 刷刷上传保保种
-存点照片看看剧
-需求就这些
-大伙有推荐吗</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108576"
-                        open
-                      >
-                        <summary class="article-expander__title">过年回个老家，服务器 ip 被墙了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108576">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wdv2ly: 香港服务器，用 vless+ws 伪装成普通 https 过墙，深圳打工一直在用非常稳定，不管是住处电信宽带还是联通和电信手机网络，高峰期延迟稳定 50ms 以内，体验非常爽。
-
-过年回老家河南，第二天发现 443 端口直接被封了，所有正常网页也打不开了。交叉对比发现是老家的移动宽带封的。彼时其它端口还能访问，于是切换成了其它端口的 ss ，想着临时用几天。
-
-结果过了两天，这个端口也不行了，再一看完蛋了，不管哪个网络环境哪个端口统统连不上。返深也不行了。线上全球 ping 了一下彻底死心，除了港台和国外，国内全部节点都是红的。
-
-最后无奈套了个 cf 的壳，算是抢救了一把，现在延迟变成了 300ms ，肉眼可见的卡顿感，体验很不爽。
-
-只能感慨一下，我大河南局域网建设工作遥遥领先啊</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108575"
-                        open
-                      >
-                        <summary class="article-expander__title">家庭宽带测速正常，但是就是很慢，微信发不出去，朋友圈缩略图加载不出来</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108575">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wty95: 
-如题，请问怎么办？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108574"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么没有全功能 Type-C 口的扩展坞？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108574">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>zgayjjf: 最近买了个便携屏，支持一线直连，可以将便携屏和电脑用一根双 C 口的线直接链接，以取代 HDMI + C 口供电的麻烦。用起来挺方便的，一根线插上就能用。
-最近想要买一个扩展坞，用扩展坞来外接便携屏，还有其他设备。
-但是发现似乎没有全功能的 Type-C 接口的扩展坞？要么只支持数据传输，要么只支持供电。
-问了倍思的客服，就没有这种产品。
-这是有什么技术限制？还是我没找到而已。
-备注：因为对接口协议这些并不熟悉，所以表述可能存在问题。大佬多指点。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108573"
-                        open
-                      >
-                        <summary class="article-expander__title">发现 NAT 这东西挺好用啊</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108573">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Int100: 
-发现 NAT 这东西挺好用啊，做一层 nat ，不做端口映射，后面的服务器基本不用担心来自公网的爆破了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-01 datetime="2025-02-01T23:44:24.000Z">2025-02-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-01 datetime="2025-02-01T23:44:24.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >V2EX-最新主题</button>
-                  <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108572"
-                        open
-                      >
-                        <summary class="article-expander__title">upic 的错误日志该如何查看？在哪里查看</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108572">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>justincnn: 
-我自建的图床网页端可以没有任何问题，但是用 upic 上传的时候，一直报错 500 ，
-在 upic 的 app 里面没有查看日志选项，
-请问下大家，该如何查看 upic 具体的日志啊？
-谢谢</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108568"
-                        open
-                      >
-                        <summary class="article-expander__title">招全职 UIUX 设计师 ｜ 类似闲鱼的社区属性二手票 APP，努力+氛围友好的纽约团队！（欢迎推荐， 8000 元奖励）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108568">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>sqrtthree: 招一名 3-5 年经验的全职产品设计师！欢迎各位推荐朋友或前同事，成功入职后可获 8000 元红包奖励。
-公司简介
-Theatr (theatr-app.com) 是一个创立于纽约的社区型二手票务平台（与闲鱼类似），目前业务以百老汇戏剧票务为主。自上线以来增长迅速，在成立第二年便已成功帮助 10,000+ 美国用户完成转票交易，受到 Forbes 、NPR 、Vulture 等美国主流媒体的报道。目前上线了移动端 (app store 4.9, 1K+ ratings)，计划 Q1 上线网页端，并在不久的将来扩张到美国其他城市和英国。
-产品上线 2 年，目前还在快速迭代优化中。
-需要逻辑思维和解决问题能力特别强，并且平时喜欢研究美国 app 产品，并且英文读写都还不错，对文化产品有热情，有审美的设计师。和 CEO 与主开发对接，能及时响应需求，跟进迭代速度，并且主动提出需求以外的产品提升意见。
-远程工作，需要能灵活调整时间配合时差 （中国时间上午和晚上与纽约团队开会），未来能来纽约出差。
-加分项
-- 近几年在一线城市外企互联网公司工作过
-- 有海外留学经验
-- 对戏剧、现场演出、文化艺术行业有浓厚兴趣和理解
-- 了解前端开发基础知识
-- 优秀的英语读写和口语表达能力
-感兴趣请将简历和作品集发送至: founder@theatr-app.com</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108567"
-                        open
-                      >
-                        <summary class="article-expander__title">有没有什么图片管理软件，可以自动对图片进行 OCR</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108567">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MFWT: 
-是这样的 我有一个弔图库在 NAS 上，里面上万张弔图，导致找图是个麻烦事
-好在很多弔图都有文字，可以根据文本检索，所以来问问有没有什么可以对图片进行 OCR 并建立索引的图库软件，方便部署在 NAS 上。
-最终出来的结果应该是：搜索『你这配置太高端了』就能找到那只橘猫拆机的图片
-注：NAS 没有显卡，不确定问题大不大，不过跑慢点没关系，一晚上啥都跑完了，跑不完就再来一晚上</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108566"
-                        open
-                      >
-                        <summary class="article-expander__title">小工具分享： DIY 谷歌服务令牌生成器（Photos &amp; Drive)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108566">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>olympus: 
-项目介绍
-一个基于 Streamlit 的可视化工具，用于执行 OAuth2 流程以授予对 Google Photos 和/或 Google Drive 服务的访问权限，这些权限随后可以被第三方应用程序使用。
-有鉴于公共令牌生成器存在隐私及安全问题，故写了一个可以自行搭建的网页小程序。
-使用场景
-第三方软体如 rclone ，alist 等
-部署
-Streamlit Community Cloud
-演示站
-访问以上演示站，然后点击右上角&#x27;Fork&#x27;按钮在 Streamlit Community Cloud 上部署自己的程序，并用 code spaces 检测代码。虽然说我的演示站能开箱即食，但这违背了我项目的初衷。我的项目目标是实现自托管。
-本地部署（推荐）
-clone 项目地址
-pip install -r requirements.txt 安装依赖
-streamlit run Home.py 运行
-访问 http://localhost:8501
-预览</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108565"
-                        open
-                      >
-                        <summary class="article-expander__title">如何劫持爸妈的网络，给他们推送点正常的东西</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108565">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wty95: 
-如题爸妈的短视频平台三观越来越歪，不结婚就该死，治病就得中医这种极端言论。
-越刷越魔怔。
-有没有办法解决推送问题？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108564"
-                        open
-                      >
-                        <summary class="article-expander__title">感觉 Harbor 好难用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108564">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>dcsuibian: 
-第一个问题是它的镜像仓库显示不全，比如：
-
-这时候我 mysql 已经 pull 成功了，配额也变了，但是就是看不到内容。
-再 pull 一个 nginx ，可以看到配额也变了，但是没有内容。
-
-等了一会儿以后，nginx 显示出来了，但 mysql 还是没显示出来（ mysql 可是先进去的啊）：
-
-第二个问题是它不能支持不带前缀的镜像加速。
-如果用过阿里云的就知道，只要如下设置：
-
-你 pull 就是从镜像仓库 pull 了。
-但是根据这个 issue所说，Harbor 就是不行，你必须要写成docker pull Harbor 服务器/Harbor 项目/xxx才行。这个挺烦人的。
-第三个，也是致命的，在系统重启后，Harbor 居然不能自动恢复？？？
-你可以看到，在刚刚安装完成后，Harbor 运行了 9 个容器。
-
-但在我系统重启后，就只剩下 4 个了：
-
-有几个就根本不启动，你必须手动进入到harbor目录下，然后sudo docker compose restart才行。
-如果说前两个我还能忍，这个我是真的忍不了啊喂。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1108563"
-                        open
-                      >
-                        <summary class="article-expander__title">招游戏 2D 动画，插画师，接受远程全职/兼职</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1108563">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>viinan888: 
-长期项目，有意联系 dGc6IEBmbGlwczAwMA&#x3D;&#x3D; （ base64 ）
-或者
-邮箱联系，简历及作品或链接发送至  dmlpbmFuODg4QEflprnlhL8K</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1328,45 +1346,6 @@ What on Earth is the &#x60;types&#x60; Descriptor in View Transitions? origina
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/696"
-                        open
-                      >
-                        <summary class="article-expander__title">DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/696">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>DMIT补货限量款 29.90刀年付美西9929
-DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。
-配置如下：
-1 vCPU           1 GB RAM
-10G SSD       400GB Transfer
-500Mbps      1 IPv4 &amp; 1 IPv6 /64
-https://www.dmit.io/aff.php?aff&#x3D;3439&amp;pid&#x3D;231
-该机器每日限 100 个订单。
-[消息等级 Level C2 · 简要]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -1473,57 +1452,6 @@ module.exports &#x3D; function (api) {
       &#x27;nativewind/b…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-25 datetime="2025-01-25T07:34:43.000Z">2025-01-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-25 datetime="2025-01-25T07:34:43.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/695"
-                        open
-                      >
-                        <summary class="article-expander__title">↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/695">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VPS信号旗播报:
-BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…
-
-BuyVM 改将卢森堡机房迁往瑞士
-今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。
-这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。
-[消息等级 Level C2 · 简要]</span>
                             </span>
                           </div>
                         </a>
@@ -1723,56 +1651,6 @@ Some Things You Might Not Know About Custom Counter Styles originally published 
 Creating a “Starred” Feed originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-19 datetime="2025-01-19T11:07:54.000Z">2025-01-19</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-19 datetime="2025-01-19T11:07:54.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/694"
-                        open
-                      >
-                        <summary class="article-expander__title">腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/694">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>腾讯云轻量锐驰200M版内测结束，发售在即
-该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。
-腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。
-在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。
-尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。
-[消息等级 Level C2 · 简要]</span>
                             </span>
                           </div>
                         </a>
@@ -2266,55 +2144,6 @@ Tight Mode: Why Browsers Produce Different Performance Results originally publis
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-08 datetime="2025-01-08T02:30:11.000Z">2025-01-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-08 datetime="2025-01-08T02:30:11.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/692"
-                        open
-                      >
-                        <summary class="article-expander__title">BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/692">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰
-BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。
-BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。
-新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。
-[消息等级 Level C2 · 简要]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-06 datetime="2025-01-06T14:58:46.000Z">2025-01-06</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-06 datetime="2025-01-06T14:58:46.000Z"></time>
           </button>
@@ -2362,40 +2191,6 @@ The Importance of Investing in Soft Skills in the Age of AI originally published
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/691"
-                        open
-                      >
-                        <summary class="article-expander__title">Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/691">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Akamai 将终止在中国的 CDN 服务
-全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。
-Akamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。
-[消息等级 Level C2 · 简要]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >潮流周刊</button>
                   <a class="source-heading__link" href="https://weekly.tw93.fun/">Open</a>
                 </h3>
@@ -2425,61 +2220,10 @@ Akamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供�
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-04 datetime="2025-01-04T06:10:42.000Z">2025-01-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-04 datetime="2025-01-04T06:10:42.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >VPS信号旗播报 - Telegram Channel</button>
-                  <a class="source-heading__link" href="https://t.me/s/vps_xhq">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://t.me/vps_xhq/690"
-                        open
-                      >
-                        <summary class="article-expander__title">搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://t.me/vps_xhq/690">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>搬瓦工上新 POWERBOX-30-1536
-这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。
-该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。
-https://bwh81.net/aff.php?aff&#x3D;47294&amp;pid&#x3D;153
-优惠码：BWHCGLUKKB （6.77%）
-搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。
-[消息等级 Level C2 · 简要]</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13098202371">
-        <time id="build-timestamp" datetime="2025-02-02T11:07:46.126Z">2025-02-02T11:07:46.126Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13098672077">
+        <time id="build-timestamp" datetime="2025-02-02T12:18:29.998Z">2025-02-02T12:18:29.998Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
