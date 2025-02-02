@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-01T23:10:17.869Z</id>
+    <id>urn:2025-02-02T00:54:12.488Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-01T23:10:17.869Z</updated>
+    <updated>2025-02-02T00:54:12.488Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -726,20 +726,6 @@ Appendix F: Validation
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MasterCard 官网活动数据库疑似被脱，请参加过去年 Master 港卡返现活动的及时锁卡报失]]></title>
-        <id>https://www.v2ex.com/t/1108520</id>
-        <link href="https://www.v2ex.com/t/1108520"/>
-        <updated>2025-02-01T08:03:46.000Z</updated>
-        <summary type="html"><![CDATA[clear: 
-去年 MasterCard 有个活动，每张卡内地人民币消费可返 10%，需要在官网输入卡号和 CVV 登记。
-https://redemption.mastercard.com/
-最近爆出，登记的卡被批量盗刷，一些卡仅在官网登记从来没有使用过，经过交叉验证和推上各网友对账，基本能锁定是官网数据泄漏。
-请参与过该活动的网友，记得关注自己账户异动，及时锁卡、报失。]]></summary>
-        <author>
-            <name>clear</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -811,33 +797,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
