@@ -159,12 +159,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -188,6 +182,33 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -297,17 +318,6 @@
           "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/690",
-          "author": null,
-          "description": "搬瓦工上新 POWERBOX-30-1536\n这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存储，2.5Gigabit带宽。售价为$45/y，优惠后$41.95。无需邀请码。\n该机型同样位于 DC99，默认走优化线路，三网通过电信CN2回程，但“尽力而为”，目前为止该系列保持了良好的连通率。根据测试，该机器使用Intel CPU，磁盘IO有显著提升。\nhttps://bwh81.net/aff.php?aff=47294&pid=153\n优惠码：BWHCGLUKKB （6.77%）\n搬瓦工的管理员还宣布将在DC99率先推出IPv6，之后是所有洛杉矶的VPS。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/690",
-          "publishedOn": "2025-01-04T06:10:42.000Z",
-          "wordCount": null,
-          "title": "搬瓦工上新 POWERBOX-30-1536 这是BOX 的最新版本，POWERBOX 较前代在内存、存储配置和流量上都有所提升。该机器配置为：1vCPU，1536MB内存，1500GB流量，30GB存...",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -317,9 +327,139 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108659",
+          "author": "haha2333haha",
+          "description": "haha2333haha: 众所周知苹果 m1 m2 兼顾高性能与低能耗\n而且目前网络上存在某些 macbook air/pro 拆机主板\n然后 m1m2 cpu 支持 linux\n那么 8 核的 m2 是否碾压一切嵌入式服务器\nbcm2712 bcm2711\nrk3566 rk3588\nn100 n5105\n好像没一个有能与装了 linux 的无头 m2 对垒",
+          "link": "https://www.v2ex.com/t/1108659",
+          "publishedOn": "2025-02-02T16:28:36.000Z",
+          "wordCount": 458,
+          "title": "二手 m1 m2 主板当家用服务器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108658",
+          "author": "mifafaovo",
+          "description": "mifafaovo: \nhttps://pic1.imgdb.cn/item/679f94efd0e0a243d4f99e22.png",
+          "link": "https://www.v2ex.com/t/1108658",
+          "publishedOn": "2025-02-02T15:55:44.000Z",
+          "wordCount": 379,
+          "title": "和团队组长相处几乎抑郁，身体出问题，请教大伙儿接下来该怎么办",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108657",
+          "author": "hoodjannn",
+          "description": "hoodjannn: \n个人网站： https://hujianbo.com/\n年前 deepseek 爆火还没那么卡的时候，用 Continue 插件 接入 api,拿着几个 headless 的 ui 库喂了进去，重新构建了自己的个人网站。\n代码花了大概两天时间，加上自己 p 图用 illustrator 画图的话大概总计 2 天半。因为也很久没有写文章博客了，直接把以前的文章套了过来，顺序是乱的，之后改改。\n现在 ai 编码真是对我这种普通码农并且是懒癌党的福音，完全离不开 cursor 和插件接入大模型 api 工具",
+          "link": "https://www.v2ex.com/t/1108657",
+          "publishedOn": "2025-02-02T15:35:20.000Z",
+          "wordCount": 403,
+          "title": "用 deepseek 花两天时间快速的重构了一下自己的个人网站，真是写代码利器",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108656",
+          "author": "leon1293",
+          "description": "leon1293: \n我在软路由上配置了 openclash ，用的 fakeip+混合模式+Dnsmasq 转发，能正常使用其他 app 和 chatgpt 网页。但 chatgpt app 就用不了，进 app 就一直转圈。查看 clash 的日志发现 chatgpt 被解析到 facebook 和 google 的 ip 了，但其他 app 和网页就没这情况。请问各位这是咋回事，应该如何解决呢？",
+          "link": "https://www.v2ex.com/t/1108656",
+          "publishedOn": "2025-02-02T15:26:30.000Z",
+          "wordCount": 404,
+          "title": "[求助]为何只有 ChatGPT app 被 DNS 污染，如何解决？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108655",
+          "author": "juzi214032",
+          "description": "juzi214032: \n\n这样一个拓扑图，如果我的 PC1 从互联网下载文件，PC2 从 nas 下载文件，是不是这两个 pc 的总速率会被限制为 1000M ，有办法解决这种问题吗，看起来像是交换机级联就会产生这样的问题",
+          "link": "https://www.v2ex.com/t/1108655",
+          "publishedOn": "2025-02-02T15:12:05.000Z",
+          "wordCount": 422,
+          "title": "有个交换机的疑问",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108654",
+          "author": "mifafaovo",
+          "description": "mifafaovo: \n咋们这地方发帖后无法删帖。 有些职场的问题，想来吐槽/咨询意见的，一说太细感觉很有可能就被定位了...这点怎么破。 但是又真切想得到大家的意见",
+          "link": "https://www.v2ex.com/t/1108654",
+          "publishedOn": "2025-02-02T15:08:19.000Z",
+          "wordCount": 1315,
+          "title": "v2ex 发帖隐私性问题",
+          "imageUrl": "/static/icon-192.png"
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108651",
+          "author": "mxdyeah",
+          "description": "mxdyeah: \n我自己呢，写了一篇博客 别让 SSL ，成为泄漏源站 IP 的最佳助攻 但是写完博客我才觉得，这个方法可能太低级了，且只能防住 censys 。\n看了一下 fofa 的官网，只能说这句话不如不说，感觉就像是绑架一样 如果我的设备不希望被 fofa 收录，我应该如何操作？ \n如果我的设备不希望被 fofa 收录，我应该如何操作？\n不要将设备放在外网。\n但是，网站哪里有不在外网的😂，所以来求助下大家，如何解决。",
+          "link": "https://www.v2ex.com/t/1108651",
+          "publishedOn": "2025-02-02T15:01:05.000Z",
+          "wordCount": 424,
+          "title": "如何避免 fofa、censys 等网站，查询到自己的源站 ip 或者其他信息？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108650",
+          "author": "wanxiaoba123",
+          "description": "wanxiaoba123: 中文网址： https://midjourneysref.com/zh\n日语网址： https://midjourneysref.com/ja\n韩文网址： https://midjourneysref.com/ko\n法语网址： https://midjourneysref.com/fr\n德语网址： https://midjourneysref.com/de\n西语网址： https://midjourneysref.com/es\n多语言支持后对 SEO 有一定的帮助！",
+          "link": "https://www.v2ex.com/t/1108650",
+          "publishedOn": "2025-02-02T14:59:55.000Z",
+          "wordCount": 359,
+          "title": "网站兼容了多语言！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108649",
+          "author": "thatmrl",
+          "description": "thatmrl: \n用「 Sign in with Apple 」创建第三方账户时有两个选项：\na.共享邮箱，第三方服务可以获取 apple ID 的主要邮箱。\nb.隐藏邮箱，第三方服务可以获取一个随机邮箱，可以通过随机邮箱转发到主要邮箱。\nApple 现在允许修改 Apple ID 的主要邮箱。\n根据上述两点，如果创建完第三方账户后修改「 Apple ID 」的主要邮箱，会对第三方账户产生什么影响？\n我的猜测是，第三方账户实际是基于 openid ，修改主要邮箱应该不改变 openid 。\n因此两种选项下创建的账户应该都仍然可以登录。\n至于邮件，\na.选项下第三方服务不确定是否仍向注册时的地址发件，以致无法接受。同时不确定 Apple 和第三方有没有提供更新收件地址的地方。\nb.选项下随机地址应该仍保留，第三方服务仍能正常发件。即使不能自动转发到新地址，也可以手动在 Apple 提供的设置中更新转发的目标地址，所以至少有办法解决。\n有没有了解其中细节的，或者实际这样操作过的；来说明一下？",
+          "link": "https://www.v2ex.com/t/1108649",
+          "publishedOn": "2025-02-02T14:57:56.000Z",
+          "wordCount": 394,
+          "title": "用「Sign in with Apple」创建第三方账户后，修改「Apple ID」的主要邮箱，会对第三方账户产生什么影响？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108648",
+          "author": "ziyouhua",
+          "description": "ziyouhua:",
+          "link": "https://www.v2ex.com/t/1108648",
+          "publishedOn": "2025-02-02T14:55:55.000Z",
+          "wordCount": 373,
+          "title": "安卓 Chrome 经常重置网页,填资料一填就没了，要重新填，有什么办法解决吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108647",
+          "author": "monkeyk",
+          "description": "monkeyk: \n成都今年的城区有到处放烟花；\n你们都放了吗？如何获取到货的、",
+          "link": "https://www.v2ex.com/t/1108647",
+          "publishedOn": "2025-02-02T14:49:25.000Z",
+          "wordCount": 337,
+          "title": "2025 年春节成都有烟花放？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108646",
+          "author": "jeesk",
+          "description": "jeesk: \n终于通过谷歌 google play 的封闭审核了,   注册开发者和应用上架都是一次审核通过,所有文件访问权限没有那么难申请,向审核人员通过视频的方式说明了一些必要性,审核人员也没有拒绝. \nhttps://relaxpic.com/ 这是我们的官方网站.\n这时商店的内部链接, https://play.google.com/store/apps/details?id=com.shanjiancaofu.gallery.preview\n这是网页链接, https://play.google.com/apps/testing/com.shanjiancaofu.gallery.preview\n欢迎留下邮箱, 将小伙伴添加到封闭测试中,或发送邮件到 support@relaxpic.com ,我们会将您加入封闭测试.\n只有加入上面的封闭测试中,上面的链接才能成功访问.",
+          "link": "https://www.v2ex.com/t/1108646",
+          "publishedOn": "2025-02-02T14:34:45.000Z",
+          "wordCount": 366,
+          "title": "慢图浏览(相册)应用上架谷歌招收封闭测试用户",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108645",
+          "author": "maymay5",
+          "description": "maymay5: \nGithub： https://github.com/MayDay-wpf/Think\n技术栈：vue+electron+nodejs\n功能列表：\n文件上传、图像上传、Mermaid 图表兼容\n本地联网模式(完全免费，无需第三方 API)\n基础设置，渠道管理，支持 Ollama\n用量统计\n基础部分：\n双语界面\n深浅色模式\n全代码开源\n拖拽排序\n后续将会上线内容：\n更多渠道兼容\n本地工作流\n自定义插件\n语音，图像，视频等生成 API 兼容\nFAQ\n为什么只打包了 MacOS ？\n因为暂时没有 PC ，等复工了再去打包\n数据存在哪？\n所有数据在本地 sqllite\n支持在线升级？\n暂不支持，需要卸载重装才可进行后续升级，将在后面版本中解决这个问题\n和其他客户端比有什么优势或区别？\n这个系统愿景并不打算做很多复杂功能，而是专注用户使用体验\n盈利模式？\n暂无盈利计划，后续可能做一个 PRO 的付费版本，不过这个优先级很低\n二次开发和商用？\n无限制\n在哪下载？\ngithub releases\n用户支持？\ngithub readme QQ 群，暂时没人 T_T\n相关截图\n\n\n\n\n\nAD:我的商用项目 https://aibotpro.cn\n全开源： https://github.com/MayDay-wpf/AIBotPublic",
+          "link": "https://www.v2ex.com/t/1108645",
+          "publishedOn": "2025-02-02T14:34:39.000Z",
+          "wordCount": 437,
+          "title": "[开源]一次 vite+electron 实践， AI 对话客户端， ThinkChat，已发行 MacOS， Windows 会尽快打包发布",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108644",
           "author": "zhaochenyong",
-          "description": "zhaochenyong: \n各位我没有遇到过 win11 关机重启被阻止的情况？\n之前遇到过有规律名字的比方说 intel 集显驱动也就算了。\n最近家里电脑经常遇到随机应用阻止关。例如\"2[9h1(dk!~jdO.y6\"这种，这个应用阻止你重启，每次名字还不一样，阻塞一会儿后就成功关机 a 或重启了，顿时感觉很可怕。网上能查到也都是怎么让他不提示，看了 eventvwr 没有相关的信息，通过 sysinternal 工具看进程、看网络链接也没有特别值得关注的，windows defender 全盘扫描也无关。\n完全一头雾水……各位大佬有什么建议么？",
+          "description": "zhaochenyong: \n各位我没有遇到过 win11 关机重启被阻止的情况？\n之前遇到过有规律名字的比方说 intel 集显驱动也就算了。\n最近家里电脑经常遇到随机应用阻止关。例如\"2[9h1(dk!~jdO.y6\"这种，这个应用阻止你重启，每次名字还不一样，阻塞一会儿后就成功关机 或重启了，顿时感觉很可怕。网上能查到也都是怎么让他不提示，看了 eventvwr 没有相关的信息，通过 sysinternal 工具看进程、看网络链接也没有特别值得关注的，windows defender 全盘扫描也无关。\n完全一头雾水……各位大佬有什么建议么？",
           "link": "https://www.v2ex.com/t/1108644",
           "publishedOn": "2025-02-02T14:28:13.000Z",
           "wordCount": 426,
@@ -332,7 +472,7 @@
           "description": "fancy2020: \n主要想看看英文原版书，以及历史政治之类的国内买不到的书。",
           "link": "https://www.v2ex.com/t/1108643",
           "publishedOn": "2025-02-02T14:21:09.000Z",
-          "wordCount": 394,
+          "wordCount": 389,
           "title": "去香港买书去哪?",
           "imageUrl": null
         },
@@ -352,7 +492,7 @@
           "description": "donglinjieshi: \n预算 4000-5000 元。\n想要 15 或 16 寸的 macbook pro ，用来做 Java 开发。\n目标：19-21 之间的二手 mbp ，但具体型号自己搞不清楚。\n尤其是 i7 或 M1 等芯片之间的差距。",
           "link": "https://www.v2ex.com/t/1108641",
           "publishedOn": "2025-02-02T14:17:40.000Z",
-          "wordCount": 475,
+          "wordCount": 463,
           "title": "求推荐二手苹果电脑 macbook",
           "imageUrl": null
         },
@@ -402,7 +542,7 @@
           "description": "leenhawk2: \n开发者设置打开 linux 支持，会有一个 terminal app ，打开安装，详见 https://www.bilibili.com/video/BV1TgFReREfe\n但是楼主在 android studio 上表示安装 termial 失败了，看起来目前只有 pixel 实机能用，亦或者我没搞清怎么在虚拟机上安装\n如果推广了 termux 要 G 了",
           "link": "https://www.v2ex.com/t/1108636",
           "publishedOn": "2025-02-02T13:23:10.000Z",
-          "wordCount": 737,
+          "wordCount": 758,
           "title": "安卓 16 支持 Linux 子系统了",
           "imageUrl": null
         },
@@ -412,7 +552,7 @@
           "description": "Rust2015: \nhttps://imgur.com/a/0mgswm4",
           "link": "https://www.v2ex.com/t/1108635",
           "publishedOn": "2025-02-02T13:20:42.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "OpenClash 出了什么问题，如图",
           "imageUrl": null
         },
@@ -512,7 +652,7 @@
           "description": "quzard:",
           "link": "https://www.v2ex.com/t/1108625",
           "publishedOn": "2025-02-02T10:35:02.000Z",
-          "wordCount": 445,
+          "wordCount": 447,
           "title": "3000 以下 55 寸电视有推荐吗？主要是看 4k 影视，玩玩 3a 单机游戏",
           "imageUrl": null
         },
@@ -522,7 +662,7 @@
           "description": "SmithJohn: 买了个 T480S.准备 40G 内存插满装个 linux 以后当上网开发本用.\n本来寻思了一下,这种货按理说应该全都是商家走私进来的洋垃圾,那么就无所谓商家还是个人卖家了.然后这一寻思,就坏事了.\n买之前还专门确认了两遍,是不是全原装,来自广州的商家也确认了是全原装.那我寻思你既然都这么明确的告诉我说全原装那就没问题了,让商家发了个没硬盘(我也不想要商家那边发的垃圾硬盘)的空机过来.,还提前要了他拍视频把机器的序列号拍了发过来.\n到手立马拍了拆包到拆机的全程视频对 SN 码,越对越心凉,主板,网卡,后盖,全部都不是原装的.屏幕和键盘不好拆就先没看,估计也够呛.\n然后就去找商家,说好的全原装,你卖我一组装机,那么你得给我退货啊.\n商家表示,虽然你拍了视频,但是一定是你偷偷换了我的零件.我一看你这还倒打一耙,那就找闲鱼客服呗.\n客服总不能不认我拍的视频.\n结果还真就不认.\n闲鱼客服电话里表示虽然商家发给你的是没装硬盘开不了机的组装机,但是你没有经过商家同意就拆机,那么你的一切售后要求不可能,无脑判卖家赢.\n那我寻思以后以后在闲鱼买的一切数码产品都可以默认是组装机了.\n如果你没拆机,那么你无法验证是否是原装.\n如果你拆机了,那么即使商家卖的是组装机,因为你未经过卖家同意就拆机你依然无法要求退货.\n\nQED,逻辑毫无漏洞.\n\n又一个新的致富道路出现了.",
           "link": "https://www.v2ex.com/t/1108623",
           "publishedOn": "2025-02-02T10:03:44.000Z",
-          "wordCount": 710,
+          "wordCount": 715,
           "title": "又一个闲鱼受害者,还是一个自以为很懂的垃圾佬",
           "imageUrl": null
         },
@@ -532,7 +672,7 @@
           "description": "laiyibeimeishi: 快冲啊\n注册账号没要求什么地区都可以，申请 bybit 卡的时候选择澳大利亚，无需地址秒审批通过\n有护照的可以注册两个账户，问过 bybit 客服了他们系统设计的就支持双开，可以申请两张欧元一张美元一张",
           "link": "https://www.v2ex.com/t/1108622",
           "publishedOn": "2025-02-02T09:58:23.000Z",
-          "wordCount": 515,
+          "wordCount": 517,
           "title": "bybit 卡无需 LV2",
           "imageUrl": null
         },
@@ -542,7 +682,7 @@
           "description": "LotusChuan: \n差不多 4 年前苹果官网买了 2 台 LG Ultrafine 4k ，今天回来打开用了一段时间发现其中一块有图像残留，有点震惊，之前一直以为 oled 屏才会烧屏。网上查了资料了解到 ips 也会有类似问题，但是是可逆的，静置一会儿会恢复。实际试了下确实会慢慢恢复。推测是房间太冷了，我开空调后冷热反应把显示器整出问题了。\n感觉出现这种问题已经说明这显示器快坏了吧。我对它还是很满意的，之前还想着用个十年没问题呢，现在这样让我哪里去找 24 寸 4k 还带 macOS 适配的显示器。\n现在关了有问题这台，用另一块显示器在 v 站写帖子。停下来想了想，感叹这年过的，真多灾多难。",
           "link": "https://www.v2ex.com/t/1108621",
           "publishedOn": "2025-02-02T09:43:08.000Z",
-          "wordCount": 562,
+          "wordCount": 570,
           "title": "LG Ultrafine 4k 出现图像残留",
           "imageUrl": null
         },
@@ -592,7 +732,7 @@
           "description": "s1xu: \n大家新年好\n闲着在家无聊玩 tg ，有些感兴趣的视频想转发到收藏夹，无奈有些频道禁止转发，google 到一款机器人每天免费只能五次\n于是兴趣驱动下做了这个 bot\n功能是能转发公开频道禁止转发的视频消息\n现在是第一版\n有什么使用问题欢迎大家提出来~\ntelegram 转发机器人\nhttps://t.me/octopussssbot",
           "link": "https://www.v2ex.com/t/1108615",
           "publishedOn": "2025-02-02T08:52:21.000Z",
-          "wordCount": 439,
+          "wordCount": 434,
           "title": "做了一个 telegram 突破频道转发限制 bot",
           "imageUrl": null
         },
@@ -632,7 +772,7 @@
           "description": "Rust2015: \n基本能做到一天一充",
           "link": "https://www.v2ex.com/t/1108611",
           "publishedOn": "2025-02-02T08:27:12.000Z",
-          "wordCount": 582,
+          "wordCount": 584,
           "title": "iOS 18.3、丝滑又回来了：",
           "imageUrl": null
         },
@@ -644,136 +784,6 @@
           "publishedOn": "2025-02-02T08:02:22.000Z",
           "wordCount": 508,
           "title": "记一次被司机恶心的操作",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108609",
-          "author": "haishangrain",
-          "description": "haishangrain: \n🥳 魔方简历 - 开源免费在线简历编辑器\n项目介绍\n魔方简历是一款基于现代技术栈构建的免费在线简历编辑器，提供清爽的 UI 和流畅的用户体验。\n技术栈\nNext.js: 用于构建快速、高效的 Web 应用。\nShadcn/ui: 提供美观且功能丰富的 UI 组件。\nMotion: 实现流畅的动画效果。\n主要功能\nAI 润色与诊断:\n集成 DeepSeekV3 和 豆包，提供 AI 驱动的简历润色和诊断功能。\n本地存储:\n系统文件夹级存储，确保数据备份不丢失。\n免注册、免登录:\n无需注册或登录，随时随地使用。\n官网\n访问官网了解更多信息：https://magicv.art\n\nGithub\nhttps://github.com/JOYCEQL/magic-resume",
-          "link": "https://www.v2ex.com/t/1108609",
-          "publishedOn": "2025-02-02T07:54:40.000Z",
-          "wordCount": 430,
-          "title": "正式介绍开源简历编辑器-魔方简历， DeepSeekV3, 豆包大模型驱动",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108608",
-          "author": "lnbiuc",
-          "description": "lnbiuc: \n自组的 NAS 还在路上，最近做了很多功课，我发现大家对 NAS 要不要组 Raid 有很大争议，一般的教程上来就是硬盘插满然后 Raid5 ，我了解到如果不是企业级硬盘，Raid5 重组成功概率很低，而且每次扩容都需要很长时间进行重组，重组失败的结果就是数据全丢。那我不得不作出一个假设：硬盘是一定会坏的，数据是一定会丢的。\n数据按重要程度分组+多个备份应该是比较合理的。这样的话 NAS 的用途变成了：\n1 、一个下载器\n2 、家庭影院\n3 、数据中转站\n4 、照片查看器\n5 、Docker\n为什么是这样的用途，1 和 2 我想应该不用解释了，主要是 3 和 4\n在我的使用场景里，并不是所有数据都是重要的，比如照片（重要），下载的电影（不重要），保存的密码（非常重要），工作文档文件（重要）\n其中照片是占用空间最大的，我的方案是，OneDrive 自动同步+NAS 自动同步，NAS 因为是本地数据可以方便照片查看，也就是上述 4 的功能，除此之外，并不寄希望于 NAS 可以用来永久储存照片，OneDrive 目前来说没有删除过用户数据吧，我用着目前来说没有，如果不信任任何云存储的话，那就需要加密备份了\n对于除了照片之外的其他提及不大但是重要数据，我的方案是定时加密备份，具体来说我写了个 shell 脚本，每周或每天或每小时，直接对某个目录进行 7z 加密压缩，之后将压缩文件 cp 到 NAS 自动云同步到目录里，删除压缩包。云同步的目录里设置了多个文件夹，根据重要级别，对压缩包同步到腾讯云对象存储、百度网盘、OneDrive ，这就是上面的功能 3 ，数据中转站的功能。\n这样看来，NAS 就不应该组 Raid ，原因：1 、重组成功率不高； 2 、空间浪费； 3 、不能自由增删硬盘。\n缺点：\n1 、无法享受 Raid 到读写加速了\n2 、没有考虑到多人使用的场景，目前只有自己一个人在用\n3 、网盘会员，COS 存储费等额外等费用\n发帖只是想分享下自己的使用方案，同时看看有没有更好的方案我借鉴借鉴。",
-          "link": "https://www.v2ex.com/t/1108608",
-          "publishedOn": "2025-02-02T07:32:43.000Z",
-          "wordCount": 857,
-          "title": "NAS 要不要组 Raid， NAS 是否不能用来存放重要数据",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108607",
-          "author": "zhouyin",
-          "description": "zhouyin: 有台机器还在 centos6 ] \n```javascript\n[root@guest ~]# cat /etc/redhat-release\nCentOS release 6.10 (Final)\n\n[root@guest ~]# docker pull node\nPulling repository node\nError: Status 410 trying to pull repository library/node: \"<html>\\r\\n<head><title>410 Gone</title></head>\\r\\n<body>\\r\\n<center><h1>410 Gone</h1></center>\\r\\n<hr><center>openresty</center>\\r\\n</body>\\r\\n</html>\\r\\n\"\n\n[root@guest ~]# docker info\nContainers: 10\nImages: 1\nStorage Driver: devicemapper\n Pool Name: docker-252:2-7446570-pool\n Pool Blocksize: 65.54 kB\n Backing Filesystem: extfs\n Data file: /dev/loop1\n Metadata file: /dev/loop2\n Data Space Used: 3.016 GB\n Data Space Total: 107.4 GB\n Data Space Available: 46.13 GB\n Metadata Space Used: 2.691 MB\n Metadata Space Total: 2.147 GB\n Metadata Space Available: 2.145 GB\n Udev Sync Supported: true\n Deferred Removal Enabled: false\n Data loop file: /var/lib/docker/devicemapper/devicemapper/data\n Metadata loop file: /var/lib/docker/devicemapper/devicemapper/metadata\n Library Version: 1.02.117-RHEL6 (2016-12-13)\nExecution Driver: native-0.2\nLogging Driver: json-file\nKernel Version: 2.6.32-754.35.1.el6.x86_64\nOperating System: <unknown>\nCPUs: 10\nTotal Memory: 49.35 GiB\nID: JFIX:6Y6J:WFIP:RRTP:UYO3:NSZG:WKJO:C2FR:SZAR:M7XB:BMTZ:CKT2\n```\n现在里面有个镜像 是从别的机器新版本 docker 导出再导入的",
-          "link": "https://www.v2ex.com/t/1108607",
-          "publishedOn": "2025-02-02T07:29:46.000Z",
-          "wordCount": 506,
-          "title": "docker centos6 无法拉取镜像",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108606",
-          "author": "Winda",
-          "description": "Winda: 1.手机苹果 ios ，巨魔。卡一流量  卡二主卡\n2.手机里有 X telegram\n3.手机里有反诈 app ，但是没打开过，就是摆在应付\n原由：接到 PC 电话说涉嫌被诈骗，浏览了什么网站，叫我在村里等他们你来，现在去另外一个村也有一个。来这只有加我不要刷单，翻了我手机浏览器，不要下载国外的 app ，帮我反诈的实名认证了，微信关注了反诈。没了\na.我想知道什么原理，那天登录一个 telegram 的账号，但是不在这个手机上的手机号，获取验证码收不到。点了什么网站我忘记了，可能是点了一些不三不四的网站，我都没有输入什么手机号，怎么发现的。\nb.我用的是卡一流量卡，卡二是我的主卡，打电话通知我卡二\nc.如何避免这个，最近先不卸载反诈了\nd.网上说 ios 改香港地区 语言会好点真假\ne.如何避免这些，x 和 telegram 都是正版的，里面的聊天记录应该是不知道的",
-          "link": "https://www.v2ex.com/t/1108606",
-          "publishedOn": "2025-02-02T06:57:28.000Z",
-          "wordCount": 736,
-          "title": "IOS 装反炸了，就放手机里摆设被注册，被 pc 电话通知有风险，有人知道原理吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108605",
-          "author": "leconio",
-          "description": "leconio: 树莓派 5 ，8G 内存，CPU 运算。\n跑了下 r1 1.5b 和 7b\n7b: 速度慢的要死，一条消息跑了快 5min ，大概 1s 出 2 个字。\n1.5b: 速度还可以，类似 o1 的速度（直觉上）。3 条消息以后，要思考挺久，几乎是不能用的状态。\n使用 ollama 推理\n综上，几乎是不能用的状态。",
-          "link": "https://www.v2ex.com/t/1108605",
-          "publishedOn": "2025-02-02T06:53:45.000Z",
-          "wordCount": 422,
-          "title": "用树莓派跑了一下 deepseek",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108604",
-          "author": "g1eny0ung",
-          "description": "g1eny0ung: \nhttps://github.com/TencentCloud/tencentcloud-sdk-nodejs/issues/160\n我要笑死了哈哈哈哈哈",
-          "link": "https://www.v2ex.com/t/1108604",
-          "publishedOn": "2025-02-02T05:54:10.000Z",
-          "wordCount": 409,
-          "title": "这是专属于程序员的春晚节目啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108602",
-          "author": "pinyoung",
-          "description": "pinyoung: \n安卓 iperf3 客户端测速软件有哪些？\n晚上包括 github 找了好多没有，但是苹果 app store 却有",
-          "link": "https://www.v2ex.com/t/1108602",
-          "publishedOn": "2025-02-02T05:39:11.000Z",
-          "wordCount": 449,
-          "title": "安卓 iperf3 客户端测速软件有哪些？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108601",
-          "author": "dcy7287",
-          "description": "dcy7287: \n新加，谁出钱买的房归谁，婚前婚后赠与加名的都可以追回。\n私生子有继承权，这条原来就有。\n据分析利好老登找三妻四妾生私生子，离婚大房啥也拿不到。\n小伙子想通过赚钱买房娶媳妇，可能也娶不到了，都给富豪留着。\n继续重创生育率。\n大家怎么看",
-          "link": "https://www.v2ex.com/t/1108601",
-          "publishedOn": "2025-02-02T05:36:25.000Z",
-          "wordCount": 518,
-          "title": "今天新婚姻法生效",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108600",
-          "author": "muzihuaner",
-          "description": "muzihuaner: \n📱 环境要求\nAndroid 8.0+ 设备\n剩余存储空间 ≥5GB\nRAM ≥4GB （推荐 6GB+）\n稳定（国际）网络连接\n教程： https://blog.quickso.cn/2025/02/02/Termux%20+%20Debian%20+%20Ollama%20%E5%AE%9E%E7%8E%B0%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8A%E9%83%A8%E7%BD%B2%20DeepSeek-R1-1.5B/",
-          "link": "https://www.v2ex.com/t/1108600",
-          "publishedOn": "2025-02-02T05:31:58.000Z",
-          "wordCount": 373,
-          "title": "Termux + Debian + Ollama 实现在手机上部署 DeepSeek-R1-1.5B",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108599",
-          "author": "AgentSmith",
-          "description": "AgentSmith: \n有没有人在用 chatgpt canvas preview html/react/python 时只出现一片空白？ 我用 firefox 无 error ，用 chrome 时有 403/cors 问题？ 有没有机会是 IP 问题？ 我留意国外没有太多人表示有问题。",
-          "link": "https://www.v2ex.com/t/1108599",
-          "publishedOn": "2025-02-02T05:29:13.000Z",
-          "wordCount": 360,
-          "title": "Chatgpt canvas preview 空白",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108598",
-          "author": "Hawthorne",
-          "description": "Hawthorne: \n以前都是按几次空格键，没有问题。最近换到 mini ，发现屏幕点亮有点慢，点亮后密码框里已经输入几个字符了。\n尝试改用其他键，但习惯一时半会改不过来。大家都是用什么键唤醒？",
-          "link": "https://www.v2ex.com/t/1108598",
-          "publishedOn": "2025-02-02T05:05:59.000Z",
-          "wordCount": 516,
-          "title": "大家都用哪个键唤醒系统？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108597",
-          "author": "bboring",
-          "description": "bboring: \n明明是离开家乡，但回到「都市」为什么反而觉得很亲切～\n感觉还是回到自己的「狗窝」舒服～",
-          "link": "https://www.v2ex.com/t/1108597",
-          "publishedOn": "2025-02-02T05:02:43.000Z",
-          "wordCount": 480,
-          "title": "返程了，还是自己的「狗窝」舒服～",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108595",
-          "author": "manimalt",
-          "description": "manimalt: 时不时地就弹出来，烦死了。。。求问各位，怎么关闭这个通知提醒好？谢谢",
-          "link": "https://www.v2ex.com/t/1108595",
-          "publishedOn": "2025-02-02T04:46:16.000Z",
-          "wordCount": 348,
-          "title": "macOS 时不时地有一个通知弹出来“有更新项目，新软件已可安装”怎么关闭？",
           "imageUrl": null
         }
       ]
