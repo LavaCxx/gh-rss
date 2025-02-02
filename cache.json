@@ -332,7 +332,7 @@
           "description": "haha2333haha: 众所周知苹果 m1 m2 兼顾高性能与低能耗\n而且目前网络上存在某些 macbook air/pro 拆机主板\n然后 m1m2 cpu 支持 linux\n那么 8 核的 m2 是否碾压一切嵌入式服务器\nbcm2712 bcm2711\nrk3566 rk3588\nn100 n5105\n好像没一个有能与装了 linux 的无头 m2 对垒",
           "link": "https://www.v2ex.com/t/1108659",
           "publishedOn": "2025-02-02T16:28:36.000Z",
-          "wordCount": 458,
+          "wordCount": 468,
           "title": "二手 m1 m2 主板当家用服务器",
           "imageUrl": null
         },
@@ -372,7 +372,7 @@
           "description": "juzi214032: \n\n这样一个拓扑图，如果我的 PC1 从互联网下载文件，PC2 从 nas 下载文件，是不是这两个 pc 的总速率会被限制为 1000M ，有办法解决这种问题吗，看起来像是交换机级联就会产生这样的问题",
           "link": "https://www.v2ex.com/t/1108655",
           "publishedOn": "2025-02-02T15:12:05.000Z",
-          "wordCount": 422,
+          "wordCount": 430,
           "title": "有个交换机的疑问",
           "imageUrl": null
         },
@@ -382,7 +382,7 @@
           "description": "mifafaovo: \n咋们这地方发帖后无法删帖。 有些职场的问题，想来吐槽/咨询意见的，一说太细感觉很有可能就被定位了...这点怎么破。 但是又真切想得到大家的意见",
           "link": "https://www.v2ex.com/t/1108654",
           "publishedOn": "2025-02-02T15:08:19.000Z",
-          "wordCount": 1315,
+          "wordCount": 1311,
           "title": "v2ex 发帖隐私性问题",
           "imageUrl": "/static/icon-192.png"
         },
@@ -412,7 +412,7 @@
           "description": "thatmrl: \n用「 Sign in with Apple 」创建第三方账户时有两个选项：\na.共享邮箱，第三方服务可以获取 apple ID 的主要邮箱。\nb.隐藏邮箱，第三方服务可以获取一个随机邮箱，可以通过随机邮箱转发到主要邮箱。\nApple 现在允许修改 Apple ID 的主要邮箱。\n根据上述两点，如果创建完第三方账户后修改「 Apple ID 」的主要邮箱，会对第三方账户产生什么影响？\n我的猜测是，第三方账户实际是基于 openid ，修改主要邮箱应该不改变 openid 。\n因此两种选项下创建的账户应该都仍然可以登录。\n至于邮件，\na.选项下第三方服务不确定是否仍向注册时的地址发件，以致无法接受。同时不确定 Apple 和第三方有没有提供更新收件地址的地方。\nb.选项下随机地址应该仍保留，第三方服务仍能正常发件。即使不能自动转发到新地址，也可以手动在 Apple 提供的设置中更新转发的目标地址，所以至少有办法解决。\n有没有了解其中细节的，或者实际这样操作过的；来说明一下？",
           "link": "https://www.v2ex.com/t/1108649",
           "publishedOn": "2025-02-02T14:57:56.000Z",
-          "wordCount": 394,
+          "wordCount": 403,
           "title": "用「Sign in with Apple」创建第三方账户后，修改「Apple ID」的主要邮箱，会对第三方账户产生什么影响？",
           "imageUrl": null
         },
@@ -472,7 +472,7 @@
           "description": "fancy2020: \n主要想看看英文原版书，以及历史政治之类的国内买不到的书。",
           "link": "https://www.v2ex.com/t/1108643",
           "publishedOn": "2025-02-02T14:21:09.000Z",
-          "wordCount": 389,
+          "wordCount": 403,
           "title": "去香港买书去哪?",
           "imageUrl": null
         },
@@ -492,7 +492,7 @@
           "description": "donglinjieshi: \n预算 4000-5000 元。\n想要 15 或 16 寸的 macbook pro ，用来做 Java 开发。\n目标：19-21 之间的二手 mbp ，但具体型号自己搞不清楚。\n尤其是 i7 或 M1 等芯片之间的差距。",
           "link": "https://www.v2ex.com/t/1108641",
           "publishedOn": "2025-02-02T14:17:40.000Z",
-          "wordCount": 463,
+          "wordCount": 475,
           "title": "求推荐二手苹果电脑 macbook",
           "imageUrl": null
         },
@@ -542,7 +542,7 @@
           "description": "leenhawk2: \n开发者设置打开 linux 支持，会有一个 terminal app ，打开安装，详见 https://www.bilibili.com/video/BV1TgFReREfe\n但是楼主在 android studio 上表示安装 termial 失败了，看起来目前只有 pixel 实机能用，亦或者我没搞清怎么在虚拟机上安装\n如果推广了 termux 要 G 了",
           "link": "https://www.v2ex.com/t/1108636",
           "publishedOn": "2025-02-02T13:23:10.000Z",
-          "wordCount": 758,
+          "wordCount": 781,
           "title": "安卓 16 支持 Linux 子系统了",
           "imageUrl": null
         },
@@ -662,7 +662,7 @@
           "description": "SmithJohn: 买了个 T480S.准备 40G 内存插满装个 linux 以后当上网开发本用.\n本来寻思了一下,这种货按理说应该全都是商家走私进来的洋垃圾,那么就无所谓商家还是个人卖家了.然后这一寻思,就坏事了.\n买之前还专门确认了两遍,是不是全原装,来自广州的商家也确认了是全原装.那我寻思你既然都这么明确的告诉我说全原装那就没问题了,让商家发了个没硬盘(我也不想要商家那边发的垃圾硬盘)的空机过来.,还提前要了他拍视频把机器的序列号拍了发过来.\n到手立马拍了拆包到拆机的全程视频对 SN 码,越对越心凉,主板,网卡,后盖,全部都不是原装的.屏幕和键盘不好拆就先没看,估计也够呛.\n然后就去找商家,说好的全原装,你卖我一组装机,那么你得给我退货啊.\n商家表示,虽然你拍了视频,但是一定是你偷偷换了我的零件.我一看你这还倒打一耙,那就找闲鱼客服呗.\n客服总不能不认我拍的视频.\n结果还真就不认.\n闲鱼客服电话里表示虽然商家发给你的是没装硬盘开不了机的组装机,但是你没有经过商家同意就拆机,那么你的一切售后要求不可能,无脑判卖家赢.\n那我寻思以后以后在闲鱼买的一切数码产品都可以默认是组装机了.\n如果你没拆机,那么你无法验证是否是原装.\n如果你拆机了,那么即使商家卖的是组装机,因为你未经过卖家同意就拆机你依然无法要求退货.\n\nQED,逻辑毫无漏洞.\n\n又一个新的致富道路出现了.",
           "link": "https://www.v2ex.com/t/1108623",
           "publishedOn": "2025-02-02T10:03:44.000Z",
-          "wordCount": 715,
+          "wordCount": 724,
           "title": "又一个闲鱼受害者,还是一个自以为很懂的垃圾佬",
           "imageUrl": null
         },
@@ -672,7 +672,7 @@
           "description": "laiyibeimeishi: 快冲啊\n注册账号没要求什么地区都可以，申请 bybit 卡的时候选择澳大利亚，无需地址秒审批通过\n有护照的可以注册两个账户，问过 bybit 客服了他们系统设计的就支持双开，可以申请两张欧元一张美元一张",
           "link": "https://www.v2ex.com/t/1108622",
           "publishedOn": "2025-02-02T09:58:23.000Z",
-          "wordCount": 517,
+          "wordCount": 522,
           "title": "bybit 卡无需 LV2",
           "imageUrl": null
         },
@@ -682,7 +682,7 @@
           "description": "LotusChuan: \n差不多 4 年前苹果官网买了 2 台 LG Ultrafine 4k ，今天回来打开用了一段时间发现其中一块有图像残留，有点震惊，之前一直以为 oled 屏才会烧屏。网上查了资料了解到 ips 也会有类似问题，但是是可逆的，静置一会儿会恢复。实际试了下确实会慢慢恢复。推测是房间太冷了，我开空调后冷热反应把显示器整出问题了。\n感觉出现这种问题已经说明这显示器快坏了吧。我对它还是很满意的，之前还想着用个十年没问题呢，现在这样让我哪里去找 24 寸 4k 还带 macOS 适配的显示器。\n现在关了有问题这台，用另一块显示器在 v 站写帖子。停下来想了想，感叹这年过的，真多灾多难。",
           "link": "https://www.v2ex.com/t/1108621",
           "publishedOn": "2025-02-02T09:43:08.000Z",
-          "wordCount": 570,
+          "wordCount": 572,
           "title": "LG Ultrafine 4k 出现图像残留",
           "imageUrl": null
         },
@@ -732,7 +732,7 @@
           "description": "s1xu: \n大家新年好\n闲着在家无聊玩 tg ，有些感兴趣的视频想转发到收藏夹，无奈有些频道禁止转发，google 到一款机器人每天免费只能五次\n于是兴趣驱动下做了这个 bot\n功能是能转发公开频道禁止转发的视频消息\n现在是第一版\n有什么使用问题欢迎大家提出来~\ntelegram 转发机器人\nhttps://t.me/octopussssbot",
           "link": "https://www.v2ex.com/t/1108615",
           "publishedOn": "2025-02-02T08:52:21.000Z",
-          "wordCount": 434,
+          "wordCount": 448,
           "title": "做了一个 telegram 突破频道转发限制 bot",
           "imageUrl": null
         },
