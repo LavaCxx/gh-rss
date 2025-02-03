@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-03T00:55:04.042Z</id>
+    <id>urn:2025-02-03T02:12:27.918Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-03T00:55:04.042Z</updated>
+    <updated>2025-02-03T02:12:27.918Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Surge 如何指定域名不使用 DNS 缓存]]></title>
+        <id>https://www.v2ex.com/t/1108673</id>
+        <link href="https://www.v2ex.com/t/1108673"/>
+        <updated>2025-02-02T22:10:49.000Z</updated>
+        <summary type="html"><![CDATA[Socrazy: 
+Surge 默认启用乐观 DNS 缓存，自己的 DDNS 域名更新很久了，也不生效，使用 always-real-ip 好像也不是这个作用，有没有啥配置可以指定不用缓存？]]></summary>
+        <author>
+            <name>Socrazy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[突然想到，测试驱动开发是不是有一个用处是「不想写代码的时候可以先把结构打好」]]></title>
+        <id>https://www.v2ex.com/t/1108672</id>
+        <link href="https://www.v2ex.com/t/1108672"/>
+        <updated>2025-02-02T22:02:40.000Z</updated>
+        <summary type="html"><![CDATA[netabare: 因为测试相对来说会比较机械化，简单一点，比较适合不想写代码的时候维持低程度的日常输出。但同时测试用例又可以让对代码的理解程度不至于过于生疏。
+（只是一个想法而已，因为最近确实感觉不太想写东西，就在想是不是可以通过写测试来绕过这个低谷期）]]></summary>
+        <author>
+            <name>netabare</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pycharm 如何做远程开发？]]></title>
+        <id>https://www.v2ex.com/t/1108670</id>
+        <link href="https://www.v2ex.com/t/1108670"/>
+        <updated>2025-02-02T21:32:47.000Z</updated>
+        <summary type="html"><![CDATA[ota: 他会在远程服务器启动一个 ide 。真卡，而且耗资源。我的目的是同步项目文件，并且调用远程服务器的 py 解释器以及包来运行代码。
+这样可以实时进行生产环境上的程序调试。
+还有最大理由就是不想在本地装 py 。]]></summary>
+        <author>
+            <name>ota</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[现在的 openai 唐完了]]></title>
+        <id>https://www.v2ex.com/t/1108669</id>
+        <link href="https://www.v2ex.com/t/1108669"/>
+        <updated>2025-02-02T20:50:03.000Z</updated>
+        <summary type="html"><![CDATA[Baoo: 同一个问题，o3-mini-high 问的问题，公式化敷衍回答，稍微换一下内容就完全错误，我叫它纠正还是错误的回答。
+deepseek-R1 不仅能回答的满意,还帮我解决一些潜在错误思路，叫它添加功能也是完美结合，比 openai 的模型有灵性多了。
+
+真是菜完了，你还每月 20 美元？？？]]></summary>
+        <author>
+            <name>Baoo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[给笔记本内置一个支架或是屏幕（BC 面之间）加个伸缩杆会不会有市场？]]></title>
         <id>https://www.v2ex.com/t/1108668</id>
@@ -654,103 +701,6 @@ gfind . -type f -and -size +100M -printf "%p\t size=%k KB inode=%i symlink=%l\n"
         <summary type="html"><![CDATA[quzard:]]></summary>
         <author>
             <name>quzard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[又一个闲鱼受害者,还是一个自以为很懂的垃圾佬]]></title>
-        <id>https://www.v2ex.com/t/1108623</id>
-        <link href="https://www.v2ex.com/t/1108623"/>
-        <updated>2025-02-02T10:03:44.000Z</updated>
-        <summary type="html"><![CDATA[SmithJohn: 买了个 T480S.准备 40G 内存插满装个 linux 以后当上网开发本用.
-本来寻思了一下,这种货按理说应该全都是商家走私进来的洋垃圾,那么就无所谓商家还是个人卖家了.然后这一寻思,就坏事了.
-买之前还专门确认了两遍,是不是全原装,来自广州的商家也确认了是全原装.那我寻思你既然都这么明确的告诉我说全原装那就没问题了,让商家发了个没硬盘(我也不想要商家那边发的垃圾硬盘)的空机过来.,还提前要了他拍视频把机器的序列号拍了发过来.
-到手立马拍了拆包到拆机的全程视频对 SN 码,越对越心凉,主板,网卡,后盖,全部都不是原装的.屏幕和键盘不好拆就先没看,估计也够呛.
-然后就去找商家,说好的全原装,你卖我一组装机,那么你得给我退货啊.
-商家表示,虽然你拍了视频,但是一定是你偷偷换了我的零件.我一看你这还倒打一耙,那就找闲鱼客服呗.
-客服总不能不认我拍的视频.
-结果还真就不认.
-闲鱼客服电话里表示虽然商家发给你的是没装硬盘开不了机的组装机,但是你没有经过商家同意就拆机,那么你的一切售后要求不可能,无脑判卖家赢.
-那我寻思以后以后在闲鱼买的一切数码产品都可以默认是组装机了.
-如果你没拆机,那么你无法验证是否是原装.
-如果你拆机了,那么即使商家卖的是组装机,因为你未经过卖家同意就拆机你依然无法要求退货.
-
-QED,逻辑毫无漏洞.
-
-又一个新的致富道路出现了.]]></summary>
-        <author>
-            <name>SmithJohn</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bybit 卡无需 LV2]]></title>
-        <id>https://www.v2ex.com/t/1108622</id>
-        <link href="https://www.v2ex.com/t/1108622"/>
-        <updated>2025-02-02T09:58:23.000Z</updated>
-        <summary type="html"><![CDATA[laiyibeimeishi: 快冲啊
-注册账号没要求什么地区都可以，申请 bybit 卡的时候选择澳大利亚，无需地址秒审批通过
-有护照的可以注册两个账户，问过 bybit 客服了他们系统设计的就支持双开，可以申请两张欧元一张美元一张]]></summary>
-        <author>
-            <name>laiyibeimeishi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LG Ultrafine 4k 出现图像残留]]></title>
-        <id>https://www.v2ex.com/t/1108621</id>
-        <link href="https://www.v2ex.com/t/1108621"/>
-        <updated>2025-02-02T09:43:08.000Z</updated>
-        <summary type="html"><![CDATA[LotusChuan: 
-差不多 4 年前苹果官网买了 2 台 LG Ultrafine 4k ，今天回来打开用了一段时间发现其中一块有图像残留，有点震惊，之前一直以为 oled 屏才会烧屏。网上查了资料了解到 ips 也会有类似问题，但是是可逆的，静置一会儿会恢复。实际试了下确实会慢慢恢复。推测是房间太冷了，我开空调后冷热反应把显示器整出问题了。
-感觉出现这种问题已经说明这显示器快坏了吧。我对它还是很满意的，之前还想着用个十年没问题呢，现在这样让我哪里去找 24 寸 4k 还带 macOS 适配的显示器。
-现在关了有问题这台，用另一块显示器在 v 站写帖子。停下来想了想，感叹这年过的，真多灾多难。]]></summary>
-        <author>
-            <name>LotusChuan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[对于依赖注入的思考-二]]></title>
-        <id>https://www.v2ex.com/t/1108620</id>
-        <link href="https://www.v2ex.com/t/1108620"/>
-        <updated>2025-02-02T09:37:30.000Z</updated>
-        <summary type="html"><![CDATA[llej: 
-之前写了 对于依赖注入的思考 一文，得到了许多网友的指点，发现自己的理解存在很大的偏差。
-经过一段时间的学习，我发现我要解决的问题和依赖注入这个名词的关系不大，这块要解决的问题其实更像是 Algebraic Effects（代数效应），和依赖注入相同的地方在于，它们都是为了解决编程工程化上的一些难题（我简单的理解为在不修改旧代码的情况下可以替换其中的函数实现）
-对于依赖注入的思考-代码示例
-function baseFn_A(){}
-function baseFn_B(){}
-function higherFn_B(){
-baseFn_A()
-//other baseFn ...
-}
-
-function higherFn_C(){
-higherFn_B()
-//other baseFn / higherFn ...
-}
-// 这中间还可能有更多层次的这样的套娃
-
-// 上面存在一个依赖链路 higherFn_C>higherFn_B>baseFn_A
-// 如果我要实现一个新的函数 higherFn_C2 ，它和 higherFn_C 唯一的区别就是调用的是 baseFn_B 而非 baseFn_A
-// 我认为依赖注入就是为了更方便的创建 higherFn_C2 而不需要改动特别多的代码
-
-其实在 2021 年我就触碰过这个问题（js 一个函数执行的时候如何判断自己是否处于另一个的调用栈中？，这个提问现在看来显然是一个 XY problem）
-下面是我刚刚得到的一些灵感，记录在手机记事本中：
-上下文传递方法使用一个同名变量 ctx，起始于一个全局变量 ctx 然后从这个全局变量派生出来一棵树，每个模块乃至于函数都会有自己的 ctx（从上级 ctx 派生），许多需要的方法都是要从这个上下文中来获取。
-这个是实现一个类似代数效应以及依赖注入的方法，也等价于实现了…]]></summary>
-        <author>
-            <name>llej</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[现在有什么提供稳定的 deepseek r1 模型 api 吗？]]></title>
-        <id>https://www.v2ex.com/t/1108619</id>
-        <link href="https://www.v2ex.com/t/1108619"/>
-        <updated>2025-02-02T09:34:01.000Z</updated>
-        <summary type="html"><![CDATA[dai269619118: 
-目前是知道硅基流动是提供 r1
-还有其他厂商提供吗 想要满血的版本。
-要跑很多数据  想找一个合适的]]></summary>
-        <author>
-            <name>dai269619118</name>
         </author>
     </entry>
     <entry>
