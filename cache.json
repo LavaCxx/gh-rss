@@ -159,12 +159,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -311,7 +305,7 @@
           "description": "Socrazy: \nSurge 默认启用乐观 DNS 缓存，自己的 DDNS 域名更新很久了，也不生效，使用 always-real-ip 好像也不是这个作用，有没有啥配置可以指定不用缓存？",
           "link": "https://www.v2ex.com/t/1108673",
           "publishedOn": "2025-02-02T22:10:49.000Z",
-          "wordCount": 391,
+          "wordCount": 411,
           "title": "Surge 如何指定域名不使用 DNS 缓存",
           "imageUrl": null
         },
@@ -321,7 +315,7 @@
           "description": "netabare: 因为测试相对来说会比较机械化，简单一点，比较适合不想写代码的时候维持低程度的日常输出。但同时测试用例又可以让对代码的理解程度不至于过于生疏。\n（只是一个想法而已，因为最近确实感觉不太想写东西，就在想是不是可以通过写测试来绕过这个低谷期）",
           "link": "https://www.v2ex.com/t/1108672",
           "publishedOn": "2025-02-02T22:02:40.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "突然想到，测试驱动开发是不是有一个用处是「不想写代码的时候可以先把结构打好」",
           "imageUrl": null
         },
@@ -331,7 +325,7 @@
           "description": "ota: 他会在远程服务器启动一个 ide 。真卡，而且耗资源。我的目的是同步项目文件，并且调用远程服务器的 py 解释器以及包来运行代码。\n这样可以实时进行生产环境上的程序调试。\n还有最大理由就是不想在本地装 py 。",
           "link": "https://www.v2ex.com/t/1108670",
           "publishedOn": "2025-02-02T21:32:47.000Z",
-          "wordCount": 479,
+          "wordCount": 496,
           "title": "pycharm 如何做远程开发？",
           "imageUrl": null
         },
@@ -341,7 +335,7 @@
           "description": "Baoo: 同一个问题，o3-mini-high 问的问题，公式化敷衍回答，稍微换一下内容就完全错误，我叫它纠正还是错误的回答。\ndeepseek-R1 不仅能回答的满意,还帮我解决一些潜在错误思路，叫它添加功能也是完美结合，比 openai 的模型有灵性多了。\n\n真是菜完了，你还每月 20 美元？？？",
           "link": "https://www.v2ex.com/t/1108669",
           "publishedOn": "2025-02-02T20:50:03.000Z",
-          "wordCount": 410,
+          "wordCount": 417,
           "title": "现在的 openai 唐完了",
           "imageUrl": null
         },
@@ -351,7 +345,7 @@
           "description": "drymonfidelia: 看完 /t/1108591 想到的点子",
           "link": "https://www.v2ex.com/t/1108668",
           "publishedOn": "2025-02-02T19:07:11.000Z",
-          "wordCount": 382,
+          "wordCount": 391,
           "title": "给笔记本内置一个支架或是屏幕（BC 面之间）加个伸缩杆会不会有市场？",
           "imageUrl": null
         },
@@ -371,7 +365,7 @@
           "description": "SuilWinG5658: \n我现在想换港币到 za 银行上面，但是通过我的内地银行卡转账需要手续费而且不及时，我朋友 za 账户上有港币，我直接借他的，然后我在内地银行上还给他人民币不就行了，这样做需要考虑的风险点在哪边呢",
           "link": "https://www.v2ex.com/t/1108665",
           "publishedOn": "2025-02-02T18:29:45.000Z",
-          "wordCount": 370,
+          "wordCount": 376,
           "title": "众安港币入金疑问？对敲可行吗？",
           "imageUrl": null
         },
@@ -381,7 +375,7 @@
           "description": "iovekkk: 使用有大半年了，一直以来有个很困扰的事情，就是在高速下载或者拷贝文件的时候会发现 macOS 中的 kernel task 进程会出现非常高的 cpu 占用，严重的时候，cpu 占用高达 90%，导致系统巨卡无比，之前一直都没有找到具体的原因\n这个春节假期花了好几天时间做了一件事，就是把硬盘柜中的四块硬盘的格式从 APFS 换成了 HFS+，这个是偶然间了解到的，APFS 格式是苹果为固态硬盘打造的硬盘格式，支持了比较多的高级功能，因此机械硬盘如果使用了这个硬盘格式，会有一些性能损耗，而 HFS+作为早期的苹果硬盘格式，功能较为简单，更适合机械硬盘使用。\n为了格式化这四块机械硬盘，也就免不了硬盘之间文件互拷，将一个硬盘中的文件都备份到另外一个硬盘上才能格式化这块硬盘，之后再拷回来，整个过程历时大概 3 天时间。而在硬盘互拷的过程中，又不可避免的出现 kernel task 进程高 cpu 占用的问题，这次有了大把的时间，经过多次实验和对比，应该算是总结出了问题的原因：\n也就是硬盘柜中多个硬盘同时读取写入时，cpu 占用就会出现异常高的情况。\n目前猜测是硬盘柜中多个硬盘同时读写时，硬盘柜外置电源的功率不够导致的。铁威马确实也很小气，只给配了一个 12v6A 的电源，基本上是不够四块硬盘同时满载运行的。\n猜到这个原因之后，后面再进行两个硬盘之间备份文件时，我就把另外两块硬盘直接推出，只保留同时读写的两块硬盘挂载，果然就再也没有出现过 cpu 占用过高的情况了\n现在在挂 pt 下载的时候，也尽量避免同时往两块硬盘下载的情况，今后的使用体验应该会好一些吧",
           "link": "https://www.v2ex.com/t/1108664",
           "publishedOn": "2025-02-02T18:16:11.000Z",
-          "wordCount": 407,
+          "wordCount": 417,
           "title": "铁威马 D4-320 硬盘柜使用有感",
           "imageUrl": null
         },
@@ -391,7 +385,7 @@
           "description": "jackie777: \n来和大家介绍下我做的浏览器插件 「 TabTab 」 https://tabtab.xyz \n创建过程可以看我另一帖子 TabTab - Cursor / Trae 帮我写的第一个浏览器插件。\n之所以会创建这个插件，是为了解决我浏览器书签的使用痛点。一直以来在我工作中需要重度使用浏览器，常常会打开一堆的标签页。\n查一个线上问题，可能需要打开若干个网页，c 端线上网页、测试端网页、日志后台、运维后台、dms ...\n完成一个需求，需要打开产品文档、task 单、测试环境网页、运维后台\n重大活动期间，需要打开若干页面观测线上负载\n... \n诸如上述情形，我很多时候需要快速打开一批网页完成某项工作。\n另外，平时处理一些问题时，不断深究下去，往往会打开若干网页，我需要保存下所有的网页，留下一份快照，以待下次继续处理。\n对于一些常用的网站我需要一些创建快捷方式方便快速访问。\n浏览器的书签以及标签组也能完成上述需求，但是操作往往很繁琐。我需要的是一个宫格式的布局，能平铺开我所有收藏的书签，于是就做了这个 TabTab 来管理我收藏的书签。\n\n相比于默认书签页的树状管理，TabTab 采取更简单的两层结构：空间 & 合集 (Space & Collection)。你可以创建不同的空间用于区分不同的场景，比如个人 or 工作；创建合集归置一组相关的网页，合集支持一键打开，并且支持一键将当前浏览器网页状态保存为新的合集。\n此外，TabTab 简化了操作方式，通过简单拖拽即可完成收藏、排序等操作。\nTabTab 还会接管浏览器的默认启始页，当你通过 ctrl + t 快捷键打开新标签页时，即会打开 TabTab 。\n至此，TabTab 会帮助你把浏览器打造成更加高效的工作台。\n你可以快速打开 TabTab ，打开某个收藏站点。因为是宫格式卡片的布局，所有收藏的网页一目了然。\n你可以快速打开 TabTab ，当前打开的网页会展示在右侧栏中，你可以将其拖入到合集区域，即可完成收藏。\n如果你和我有相似的困扰，👏 欢迎来体验一下 https://www.tabtab.xyz ，看看能否提高效率解决你的困扰。\n如果对你有用，希望客官老爷们好评转发。（我也上线了 Product Hunt,  https://www.producthunt.com/products/tabtab-3 , 麻烦点个赞）",
           "link": "https://www.v2ex.com/t/1108663",
           "publishedOn": "2025-02-02T17:59:49.000Z",
-          "wordCount": 416,
+          "wordCount": 424,
           "title": "TabTab 简洁高效的浏览器书签管理工具",
           "imageUrl": null
         },
@@ -411,7 +405,7 @@
           "description": "eric107008: \n去年因为做了个数据量比较大的项目，外加各种模型权重、数据集越来越多，患上了存储空间焦虑症。年底的时候回国扛了一台绿联的 DXP6800Pro ，外加 6 个西数 16T 二手企业盘和 2 个 2T 的致钛 Ti600 的 SSD 到办公室，现在不焦虑存储空间了，但有点纠结怎么用好这个 NAS 。网上搜索+问了问 ChatGPT ，并没有在方案设计上找到什么有建设性的答案。\n目前的状态\n刷了 Debian12 ，6 个 HDD 用 ZFS 组了个 RaidZ2 ，两个 SSD 做镜像后现在是 ZFS 的 LOG 。本意是想加速一下写入，但似乎并没有起到太大的作用。我自己还搞了个万兆交换机，配合手动配置 IP ，让电脑和 NAS 之间通过万兆局域网连接，平时会通过一个跑在 podman 里的 samba 挂载到(Windows 和 Linux 都有)电脑上。Samba 开了个共享账号给周围的同事用，自己有一个单独的 Samba 账号。本来还搭了个 Aria2 ，但因为 podman 容器里挂载目录的权限问题比 docker 要复杂一些，所以还没跑通。\n总结来说，现在的 NAS 用起来有以下几个痛点\n读写性能跑不满自己搭的万兆局域网，最多跑满 HDD 的顺序读写，SSD 似乎没有起到什么作用\n所有的东西塞在一个大存储池里，偶尔手动把数据复制到用于备份的另一台机器上\n一旦有点大规模的（特别是随机的）读写，企业盘炒豆子的声音会引起一些同事的抗议\n鄙人的核心诉求大概如下（重要性从高到低）\n不能丢数据\n尽可能充分利用现有硬件，提升性能和存储空间利用率\n减少维护时的心智和体力负担\n作为隐私焦虑症患者，希望尽可能保障隐私和安全性(例如在一些应用/软件选择上使用了开源方案而非商业方案）。但考虑到 3 ，可以选一些“退而求其次”的选择，比如 debian 换成 ubun…",
           "link": "https://www.v2ex.com/t/1108660",
           "publishedOn": "2025-02-02T17:34:04.000Z",
-          "wordCount": 950,
+          "wordCount": 971,
           "title": "6+2 盘位的 NAS 放在办公室如何规划存储和应用？",
           "imageUrl": null
         },
@@ -421,7 +415,7 @@
           "description": "haha2333haha: 众所周知苹果 m1 m2 兼顾高性能与低能耗\n而且目前网络上存在某些 macbook air/pro 拆机主板\n然后 m1m2 cpu 支持 linux\n那么 8 核的 m2 是否碾压一切嵌入式服务器\nbcm2712 bcm2711\nrk3566 rk3588\nn100 n5105\n好像没一个有能与装了 linux 的无头 m2 对垒",
           "link": "https://www.v2ex.com/t/1108659",
           "publishedOn": "2025-02-02T16:28:36.000Z",
-          "wordCount": 525,
+          "wordCount": 549,
           "title": "二手 m1 m2 主板当家用服务器",
           "imageUrl": null
         },
@@ -431,7 +425,7 @@
           "description": "mifafaovo: \nhttps://pic1.imgdb.cn/item/679f94efd0e0a243d4f99e22.png",
           "link": "https://www.v2ex.com/t/1108658",
           "publishedOn": "2025-02-02T15:55:44.000Z",
-          "wordCount": 415,
+          "wordCount": 434,
           "title": "和团队组长相处几乎抑郁，身体出问题，请教大伙儿接下来该怎么办",
           "imageUrl": null
         },
@@ -451,7 +445,7 @@
           "description": "leon1293: \n我在软路由上配置了 openclash ，用的 fakeip+混合模式+Dnsmasq 转发，能正常使用其他 app 和 chatgpt 网页。但 chatgpt app 就用不了，进 app 就一直转圈。查看 clash 的日志发现 chatgpt 被解析到 facebook 和 google 的 ip 了，但其他 app 和网页就没这情况。请问各位这是咋回事，应该如何解决呢？",
           "link": "https://www.v2ex.com/t/1108656",
           "publishedOn": "2025-02-02T15:26:30.000Z",
-          "wordCount": 422,
+          "wordCount": 424,
           "title": "[求助]为何只有 ChatGPT app 被 DNS 污染，如何解决？",
           "imageUrl": null
         },
@@ -461,7 +455,7 @@
           "description": "juzi214032: \n\n这样一个拓扑图，如果我的 PC1 从互联网下载文件，PC2 从 nas 下载文件，是不是这两个 pc 的总速率会被限制为 1000M ，有办法解决这种问题吗，看起来像是交换机级联就会产生这样的问题",
           "link": "https://www.v2ex.com/t/1108655",
           "publishedOn": "2025-02-02T15:12:05.000Z",
-          "wordCount": 471,
+          "wordCount": 489,
           "title": "有个交换机的疑问",
           "imageUrl": null
         },
@@ -471,7 +465,7 @@
           "description": "mifafaovo: \n咋们这地方发帖后无法删帖。 有些职场的问题，想来吐槽/咨询意见的，一说太细感觉很有可能就被定位了...这点怎么破。 但是又真切想得到大家的意见",
           "link": "https://www.v2ex.com/t/1108654",
           "publishedOn": "2025-02-02T15:08:19.000Z",
-          "wordCount": 1446,
+          "wordCount": 1303,
           "title": "v2ex 发帖隐私性问题",
           "imageUrl": "/static/icon-192.png"
         },
@@ -551,7 +545,7 @@
           "description": "zhaochenyong: \n各位我没有遇到过 win11 关机重启被阻止的情况？\n之前遇到过有规律名字的比方说 intel 集显驱动也就算了。\n最近家里电脑经常遇到随机应用阻止关。例如\"2[9h1(dk!~jdO.y6\"这种，这个应用阻止你重启，每次名字还不一样，阻塞一会儿后就成功关机 或重启了，顿时感觉很可怕。网上能查到也都是怎么让他不提示，看了 eventvwr 没有相关的信息，通过 sysinternal 工具看进程、看网络链接也没有特别值得关注的，windows defender 全盘扫描也无关。\n完全一头雾水……各位大佬有什么建议么？",
           "link": "https://www.v2ex.com/t/1108644",
           "publishedOn": "2025-02-02T14:28:13.000Z",
-          "wordCount": 484,
+          "wordCount": 494,
           "title": "win11 关机重启被随机名字应用阻止",
           "imageUrl": null
         },
@@ -561,7 +555,7 @@
           "description": "fancy2020: \n主要想看看英文原版书，以及历史政治之类的国内买不到的书。",
           "link": "https://www.v2ex.com/t/1108643",
           "publishedOn": "2025-02-02T14:21:09.000Z",
-          "wordCount": 422,
+          "wordCount": 424,
           "title": "去香港买书去哪?",
           "imageUrl": null
         },
@@ -631,7 +625,7 @@
           "description": "leenhawk2: \n开发者设置打开 linux 支持，会有一个 terminal app ，打开安装，详见 https://www.bilibili.com/video/BV1TgFReREfe\n但是楼主在 android studio 上表示安装 termial 失败了，看起来目前只有 pixel 实机能用，亦或者我没搞清怎么在虚拟机上安装\n如果推广了 termux 要 G 了",
           "link": "https://www.v2ex.com/t/1108636",
           "publishedOn": "2025-02-02T13:23:10.000Z",
-          "wordCount": 841,
+          "wordCount": 853,
           "title": "安卓 16 支持 Linux 子系统了",
           "imageUrl": null
         },
@@ -641,7 +635,7 @@
           "description": "Rust2015: \nhttps://imgur.com/a/0mgswm4",
           "link": "https://www.v2ex.com/t/1108635",
           "publishedOn": "2025-02-02T13:20:42.000Z",
-          "wordCount": 390,
+          "wordCount": 392,
           "title": "OpenClash 出了什么问题，如图",
           "imageUrl": null
         },
@@ -701,7 +695,7 @@
           "description": "frankyzf: \n我之前在 Apple 平台上用 paypal 订阅 ChatGPT 是没有税的，前一段因为降智所以停了。后来在 google play 平台上用同样的 paypal 订阅就含税了。想问下 apple 平台上是不是仍然是免税的？",
           "link": "https://www.v2ex.com/t/1108629",
           "publishedOn": "2025-02-02T11:30:54.000Z",
-          "wordCount": 433,
+          "wordCount": 435,
           "title": "在 Google Play 或 Apple 平台上订阅 ChatGPT 都需要交税吗？",
           "imageUrl": null
         },
