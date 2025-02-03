@@ -338,7 +338,7 @@
           "description": "teli: 昨天在 v 站发帖问，怎么制作短视频，宣传互联网产品直播带货 https://v2ex.com/t/1108640#reply4\n网友建议参考抖音上 WPS 等的内容\n看到 WPS 的一种短视频，效果就像是播放 PPT\n宽高比例大概 3：4 ，有一个框架，有背景音乐，有产品截图切换，边上有文字介绍\n重点就是一系列产品截图，加上介绍，再美化\nppt 应该可以做这样的，但估计比较复杂。我也试着找了模板，没找到，或者是关键字不对\n但有没有更方便制作这类的软件或者服务？",
           "link": "https://www.v2ex.com/t/1108714",
           "publishedOn": "2025-02-03T05:27:06.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "ppt 效果的手机短视频，怎么制作？",
           "imageUrl": null
         },
@@ -348,7 +348,7 @@
           "description": "wanghaiping009: 套餐 1:月租 49 元，包含 70G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、500 兆宽带(目前有活动免费长期提速 1000 兆)。\n套餐 2:月租 129 元，包含 90G 通用流量、600 分钟通话、最多 4 张 0.1 元月租副卡、1000 兆宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 36 个月返还)、携转用户免预存也不返还。\n套餐 3:月租 159 元，包含 110G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、1000/100 宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 24 个月返还)、携转用户免预存也不返还。\n套餐 4:月租 239 元，包含 150G 通用流量、1200 分钟通话、最多 4 张 0.1 元月租副卡、2000/200 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n套餐 5:月租 199 元，包含 120G 通用流量、1000 分钟通话、最多 4 张 0.1 元月租副卡、2000/45 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n所有套餐均为到期默认原资费延续使用，套餐内容不变。\n所有套餐宽带安装费均为 100 元\n所有套餐仅限新开上海联通号码或者上海电信上海移动号码转网办理，异地号码无法携转，建议改保号套餐。\n上海联通不欢迎 PCDN 客户，除了此类客户，其他客户正常使用不受影响，免费提供公网 V4/V6 地址。\n如果需要 IPTV 机顶盒 10 元/月/路。第一路免安装费、第二三路安装费 100 元/路\n如果有国际加速需求可以叠加 9929 国际直通车，资费 20 元/月。叠加此包后会失去公网 ip\n套餐 4/5 可以免费加送一条 1000/45 二宽(100 安装费)\nKaddy921 绿色联系 Kaddy921",
           "link": "https://www.v2ex.com/t/1108713",
           "publishedOn": "2025-02-03T05:19:37.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "上海联通二月迎新春特惠套餐合辑-限时千兆继续",
           "imageUrl": null
         },
@@ -358,7 +358,7 @@
           "description": "revival83: 求个 clash verge 简单易用的分流规则",
           "link": "https://www.v2ex.com/t/1108712",
           "publishedOn": "2025-02-03T05:18:41.000Z",
-          "wordCount": 375,
+          "wordCount": 439,
           "title": "大佬们求个 clash verge 简单易用的分流规则",
           "imageUrl": null
         },
@@ -368,7 +368,7 @@
           "description": "ddd270700: \n背景：\n腾讯云上有一个 taiga 服务，必须要通过 https 访问才能完全可用。但是，我将域名指向腾讯云的时候，提示要备案，厌恶至极。\n既然域名不能用，所以，我想尝试一下用 openssl 自签 IP 地址的证书，然后用 Nginx Proxy Manager 做代理访问 taiga 。请注意，如果不挂证书，我已经能用 NPM 反代 taiga 了，但是不是 https 。\n问题来了：\n我参照网上的自签方式，给我的 IP 签证书，挂到 NPM ，但是浏览器访问，总是提示：ERR_SSL_UNRECOGNIZED_NAME_ALERT 。水平有限，解决不了。\n酬谢：\n请指点，有酬谢。",
           "link": "https://www.v2ex.com/t/1108711",
           "publishedOn": "2025-02-03T05:11:40.000Z",
-          "wordCount": 434,
+          "wordCount": 456,
           "title": "给腾讯云的 IP 申请自签证书，出现 SSL_UNRECOGNIZED 错误 [有偿求教]",
           "imageUrl": null
         },
@@ -378,7 +378,7 @@
           "description": "ChrisLii: 目前手里有一个论坛，日 pv10000 左右的站点，注册用户 20000 个。三年前建站的时候没多想就用了 Wordpress ，用的是 2c4g 的 vps ，（机器上同时还托管了几个同学的博客，不过访问量都不大）现在感觉速度很慢。\n考虑到期之后上一个 8c16g 的大机器，线路不在考虑范围内，2022 年夏天被 ddos 打了 300 多 gbps 导致整个网站完全打不开，所以一直在用 cf ，机器一年估计 1200 左右.\n考虑到 wordpress 本身也不是为了论坛而设计的，所以暑假还有计划把整个站点迁移到 discourse ，是专门做论坛的项目，所以个人认为性能和用户管理都应该会比 wordpress 好很多。\n希望各位能给些建议，如果换了 8c16g 服务器，wordpress 速度会得到多大的优化，在网上找了很久也没看到相关的横向对比。\n同时，新的 vps 上打算用 docker 弄个雷池 waf 反代站点，会遇到性能瓶颈吗？",
           "link": "https://www.v2ex.com/t/1108709",
           "publishedOn": "2025-02-03T05:05:45.000Z",
-          "wordCount": 447,
+          "wordCount": 466,
           "title": "Wordpress VPS 性能讨论",
           "imageUrl": null
         },
@@ -388,7 +388,7 @@
           "description": "0xABCD: 票放出来秒光，这些上了年纪的大爷大妈是怎么买到票的？拼的是运气还是手速？\n\n我提前预约了，也没有抢到坐票，最后只能买站票返程。上车之后看到好多大爷大妈都有座位陷入了沉思……\n\n不是看不起大爷大妈，单纯好奇他们是怎么买票的。",
           "link": "https://www.v2ex.com/t/1108708",
           "publishedOn": "2025-02-03T05:00:57.000Z",
-          "wordCount": 466,
+          "wordCount": 518,
           "title": "春运期间大爷大妈是怎么买到票的？",
           "imageUrl": null
         },
@@ -398,7 +398,7 @@
           "description": "hackpro: \n作为同时使用 C++和 Python 的全栈开发者，目前遇到个人开发环境搭建困境：\n▶ 痛点需求\n免费开源方案（规避 License 问题）\n跨平台支持（ Win/Mac/Linux 三端同步）\n智能补全/重构\n可视化调试界面\n目管理一致性\n▶ 当前方案缺陷（现用 VSCode 困扰）\n插件组合每次需手动配置（ C++：CMakeTools/LLDB ； Python：Pylance/Jupyter ）\n调试配置迁移成本高（ launch.json 总需要适配不同机器）\n开发环境隔离困难（公司/个人项目依赖常冲突）\n▶ 尝试过的方法：\na. VSCode 方案\nSettings Sync 同步配置（但遇到插件版本兼容问题）\n创建通用 workspace 模板（仍需要手动调整路径）\nDev Container 容器化（机器性能消耗过大）\nb. 其他 IDE\nQt Creator （ Python 支持弱）\nEclipse CDT （界面交互过时）\nThonny （仅适合教学场景）\n▶ 核心诉求：\n寻找可实现\"配置一次，多端复用\"的方案，期望达到：\n新机器登录即用（配置秒级同步）\n语言支持开箱即用（ C++17/Python3.10+）\n调试环境自适配（自动识别 gcc/clang 解释器）\n▶ 特别请教：\n是否有基于 VSCode 的强化发行版？（如 Codium+预制配置包）\n开源 IDE 中是否存在接近 CLion 的替代品？（试过 KDevelop 不够流畅）\n容器化方案优化建议（是否可通过预构建镜像加速部署？）\n期待各位分享实战经验，特别是多设备开发环境维护的技巧！",
           "link": "https://www.v2ex.com/t/1108707",
           "publishedOn": "2025-02-03T04:56:49.000Z",
-          "wordCount": 427,
+          "wordCount": 441,
           "title": "[求助] 2025 年跨平台 IDE 配置方案：如何实现接近 CLion/Pycharm 的开箱体验？",
           "imageUrl": null
         },
@@ -418,7 +418,7 @@
           "description": "PowtainGen1: \n今天，我们推出了 ChatGPT 的深度研究功能，这是一种新的智能能力，可以在互联网上进行多步骤研究，适用于复杂任务。它在十几分钟内完成的工作，相当于人类需要花费数小时才能完成的事情。\n深度研究是 OpenAI 的下一个代理，可以独立为您工作——您给它一个提示，ChatGPT 将找到、分析和综合数百个在线来源，以创建相当于研究分析师水平的综合报告。基于即将推出的 OpenAI o3 模型的一个版本，该模型经过优化以进行网页浏览和数据分析，深度研究能够利用推理搜索、解释和分析互联网上大量的文本、图像和 PDF ，并根据遇到的信息灵活调整。\n合成知识的能力是创造新知识的前提。因此，深入研究是实现我们长期设想的能够产生新颖科学研究的通用人工智能（ AGI ）这一更大目标的重要一步。\n观看视频：https://web.powtain.com/pow/KVdA5Q?1\n=====\nV 友们，你们说他是不是急了？",
           "link": "https://www.v2ex.com/t/1108705",
           "publishedOn": "2025-02-03T04:43:36.000Z",
-          "wordCount": 426,
+          "wordCount": 442,
           "title": "OpenAI 发布 Deep Research. 2025.02.02",
           "imageUrl": null
         },
@@ -428,7 +428,7 @@
           "description": "jacketma: \n就是图片上这种半躺尸座椅\n\n座椅换过好几把，便宜的到几千的，都经不住坐久了腰难受，这种半躺式座椅应该可以做到接近零重力座椅的舒适吧，有大神实际使用效果怎么样，长坐能不能缓解腰部压力，看起来要进入骇客帝国模式了",
           "link": "https://www.v2ex.com/t/1108704",
           "publishedOn": "2025-02-03T04:39:52.000Z",
-          "wordCount": 388,
+          "wordCount": 396,
           "title": "太空舱电脑椅除了贵之外，是不是办公椅的终极形态？",
           "imageUrl": null
         },
@@ -438,7 +438,7 @@
           "description": "importmeta: \n正在写个项目, 模块一多心智负担较大.\n略微吐槽一下,简直是现实版茴字有几种写法.\n1.把中间件拆成 Middleware,Guards,Interceptors,Exception,Pipes, 并且他们都能获取请求上下文(Request, Response), 并且有不同的顺序, 但同类别内也有顺序, 并且生命周期是如此的繁琐.\nhttps://docs.nestjs.com/faq/request-lifecycle\n2.封装一个三方 API 花样太多了.\n单独的 Service, Providers, Dynamic Module, ConfigurableModuleClass\n这里面还有分 Sync 和 Async 导入, Global 模块.\n3.模块系统是 Angular 那一套, 注册繁琐, 还会出现循环依赖.\n心智负担比 Spring Boot 高太多了.\nJS 的后端框架不像前端那样卷, 真希望能出个好用的.",
           "link": "https://www.v2ex.com/t/1108703",
           "publishedOn": "2025-02-03T04:32:44.000Z",
-          "wordCount": 473,
+          "wordCount": 526,
           "title": "吐槽一下 Nest.js 太复杂了",
           "imageUrl": null
         },
@@ -448,7 +448,7 @@
           "description": "siyiye: \nesxi 做底层\ntruenas 虚拟机接管 12 块 HDD 硬盘提供存储整合（直通 HBA 卡给 truenas ，Rz2 ，作为一整个存储池）\n构想 1：用 truenas 的 iSCSI 给 esxi 挂载为存储，然后作为硬盘插到群晖虚拟机中；\n构想 2：用 NFS 共享直接在群晖虚拟里中挂载为共享文件\n主要是想把存储层完全独立出来，让其他虚拟机能够使用",
           "link": "https://www.v2ex.com/t/1108701",
           "publishedOn": "2025-02-03T04:13:47.000Z",
-          "wordCount": 456,
+          "wordCount": 458,
           "title": "esxi 做底层， Truenas 接管硬盘提供存储整合---用哪种方式好？",
           "imageUrl": null
         },
@@ -468,7 +468,7 @@
           "description": "DragonHunter: \n目前使用的是中国移动 159 套餐里带的宽带，2 月底到期，终于可以解放了，即将拜托昂贵的月资费。\n但是问题来了，找来找去都找不到划算的单宽带套餐\n为什么一定要单宽带？因为不想绑定合约了，解绑真的很麻烦\n退而求其次，如果实在找不到单宽带套餐，那也只好找合约套餐了，求大佬们指路咾\n坐标：北京",
           "link": "https://www.v2ex.com/t/1108699",
           "publishedOn": "2025-02-03T04:08:06.000Z",
-          "wordCount": 413,
+          "wordCount": 424,
           "title": "北京联通、移动、电信只办理单宽带的话，有优惠吗？求大佬指个路，着急啊！",
           "imageUrl": null
         },
@@ -488,7 +488,7 @@
           "description": "moxnet: \n春节把电脑带来，没带键盘。但没找到有线键盘，只有一个未配对的蓝牙键盘，还找到一个有线 USB 鼠标。\n登录界面输入密码的时候，无法调出虚拟键盘，无法使用鼠标输入密码；\n用另一台电脑使用远程远程桌面，发现无法连接。（感觉是未登录，远程连接的服务端未启动）\n即使 ssh ，也无法从另一台电脑登录。（猜测原因同上）\n这种情况，只能找个有线键盘？",
           "link": "https://www.v2ex.com/t/1108697",
           "publishedOn": "2025-02-03T03:45:41.000Z",
-          "wordCount": 375,
+          "wordCount": 381,
           "title": "iMac /黑苹果，只有未配对的蓝牙键盘+有线鼠标，能登录么？",
           "imageUrl": null
         },
@@ -498,7 +498,7 @@
           "description": "nishuoshenme: npy 驾照考出来好几年了，一直没怎么开过，想问下上海有哪里路上车少一点，适合新手练车的？",
           "link": "https://www.v2ex.com/t/1108696",
           "publishedOn": "2025-02-03T03:31:28.000Z",
-          "wordCount": 403,
+          "wordCount": 422,
           "title": "上海哪里适合新手练车？",
           "imageUrl": null
         },
@@ -508,7 +508,7 @@
           "description": "test9106: 营养品？不知道买什么比较好，谢谢",
           "link": "https://www.v2ex.com/t/1108695",
           "publishedOn": "2025-02-03T03:25:38.000Z",
-          "wordCount": 415,
+          "wordCount": 430,
           "title": "亲戚，肺癌晚期，想去看看，送什么比较好啊？",
           "imageUrl": null
         },
@@ -518,7 +518,7 @@
           "description": "Trinity99: \n我们的外公是亲兄弟，今年过年他没回家，听他姐姐说之前领女朋友回家，父母不同意。女方是再婚，有个女儿。于是他们单领证不办仪式了。",
           "link": "https://www.v2ex.com/t/1108692",
           "publishedOn": "2025-02-03T03:15:46.000Z",
-          "wordCount": 387,
+          "wordCount": 433,
           "title": "从小玩到大的伙伴决定只领证不办婚礼",
           "imageUrl": null
         },
@@ -528,7 +528,7 @@
           "description": "z5238384: 很奇怪的问题 我在 ios 上使用 perplexity app 我开 singbox 开全局代理 无法访问，但是我用 quantumultX 全局就可以正常访问，用的节点是同一个节点， 有大佬能试试看吗？\n我在后台看日志 perplexity 的域名 是正确走了节点的。\n配置如下：\n{  \"log\": {\n    \"level\": \"info\",\n    \"timestamp\": true\n  },\n  \"experimental\": {\n    \"cache_file\": {\n      \"enabled\": true,\n      \"store_fakeip\": true,\n      \"store_rdrc\": true\n    },\n    \"clash_api\": {\n      \"external_controller\": \"127.0.0.1:9090\",\n      \"external_ui\": \"ui\",\n      \"external_ui_download_url\": \"https://ghproxy.cn/github.com/MetaCubeX/metacubexd/archive/gh-pages.zip\",\n      \"external_ui_download_detour\": \"direct\"\n    }\n  },\n  \"dns\": {\n    \"servers\": [\n      {\n        \"tag\": \"google\",\n        \"address\": \"https://8.8.8.8/dns-query\"\n      },\n      {\n        \"tag\": \"local\",\n        \"address\": \"https://223.5.5.5/dns-query\",\n      …",
           "link": "https://www.v2ex.com/t/1108690",
           "publishedOn": "2025-02-03T02:40:45.000Z",
-          "wordCount": 843,
+          "wordCount": 910,
           "title": "Singbox 似乎无法正确处理 perplexity ios 端 app 代理",
           "imageUrl": null
         },
@@ -538,7 +538,7 @@
           "description": "huyudong1991: 不知道是不是颜色策略问题，我买了两代的 gram 都有这个问题，一瞬间看不清，然后等一会又清楚了，有老哥知道啥情况吗",
           "link": "https://www.v2ex.com/t/1108686",
           "publishedOn": "2025-02-03T02:25:54.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "LG Gram 屏幕发白不清晰",
           "imageUrl": null
         },
@@ -548,7 +548,7 @@
           "description": "cjbkobe: \n黑群 918 稳定运行四五年了，最近换了小机箱散热嗷嗷叫就给 CPU 限制了 TDP ，结果就是 VMM 里的 WIN10 卡到爆\n研究了好几天的 PVE ，结果有人说还不如用 WIN10+VM ，win 毕竟相对更熟悉而且我最终目的也还是要用 WIN+NAS\n有没有过来人说说 1.继续物理机； 2.PVE+黑群； 3.WIN10+VM 黑群这三个哪个更推荐一些？",
           "link": "https://www.v2ex.com/t/1108685",
           "publishedOn": "2025-02-03T02:17:33.000Z",
-          "wordCount": 485,
+          "wordCount": 492,
           "title": "想把物理黑群换成 WIN10+VM，有没有人打醒我",
           "imageUrl": null
         },
@@ -578,7 +578,7 @@
           "description": "LouisGuo: 类似于现在搁上海说： “听说外滩的排骨年糕都开门了，我推你去尝尝”",
           "link": "https://www.v2ex.com/t/1108681",
           "publishedOn": "2025-02-03T01:53:00.000Z",
-          "wordCount": 455,
+          "wordCount": 457,
           "title": "“听说北海的花儿都开了，我推着你去走走” 是不是低调的凡尔赛？",
           "imageUrl": null
         },
@@ -588,7 +588,7 @@
           "description": "supahotfire: 倍控 N100 （ 8G+128G 固态）安装了 PVE ，创建了 immortalwrt 和 ubuntu22.04 ，前者海淘作旁路由，核显直通给 ubuntu ，买了一块 2T 机械硬盘直通也给 ubuntu ，并 docker 部署了 jellyfin ，rclone 把 onedrive 的音乐、电影都拷贝到机械硬盘，发现 jellyfin 官方客户端 iPhone 上播放音乐不能后台。\n请教各位大佬：\n音乐需求有无其他方案，部署 navidrome 吗？\n不想搞黑裙或者飞牛了，云存储需求不大，这个方案合理吗？\nubuntu 需要设置硬盘休眠吗？",
           "link": "https://www.v2ex.com/t/1108679",
           "publishedOn": "2025-02-03T01:47:07.000Z",
-          "wordCount": 432,
+          "wordCount": 443,
           "title": "春节几天折腾了一下 PVE",
           "imageUrl": null
         },
@@ -598,7 +598,7 @@
           "description": "romancekami:",
           "link": "https://www.v2ex.com/t/1108678",
           "publishedOn": "2025-02-03T01:31:10.000Z",
-          "wordCount": 459,
+          "wordCount": 466,
           "title": "现在从 b 站 YouTube 之类的视频网站下载视频推荐用什么软件或者方法？",
           "imageUrl": null
         },
@@ -608,7 +608,7 @@
           "description": "M48A1: \n认识一位女生，每天没有需要特别投入的事情，就会想起她；\n可是也不是那种会一直找她？\n回避型依恋人格？\n也没有好奇她在做什么，只是单纯地想到她；\n如果每天都经常想到她，是喜欢她了吗？",
           "link": "https://www.v2ex.com/t/1108675",
           "publishedOn": "2025-02-03T00:12:21.000Z",
-          "wordCount": 643,
+          "wordCount": 666,
           "title": "每个小时或者每间隔十几分钟就想起她，是喜欢吗？",
           "imageUrl": null
         },
@@ -618,7 +618,7 @@
           "description": "calloc: \n这种感觉是 24 年开始有的。当然只是感觉，不知道大家有没有这种感觉。",
           "link": "https://www.v2ex.com/t/1108674",
           "publishedOn": "2025-02-03T00:00:33.000Z",
-          "wordCount": 687,
+          "wordCount": 696,
           "title": "感觉互联网上错别字变多了",
           "imageUrl": null
         },
@@ -628,7 +628,7 @@
           "description": "Socrazy: \nSurge 默认启用乐观 DNS 缓存，自己的 DDNS 域名更新很久了，也不生效，使用 always-real-ip 好像也不是这个作用，有没有啥配置可以指定不用缓存？",
           "link": "https://www.v2ex.com/t/1108673",
           "publishedOn": "2025-02-02T22:10:49.000Z",
-          "wordCount": 437,
+          "wordCount": 450,
           "title": "Surge 如何指定域名不使用 DNS 缓存",
           "imageUrl": null
         },
@@ -658,7 +658,7 @@
           "description": "Baoo: 同一个问题，o3-mini-high 问的问题，公式化敷衍回答，稍微换一下内容就完全错误，我叫它纠正还是错误的回答。\ndeepseek-R1 不仅能回答的满意,还帮我解决一些潜在错误思路，叫它添加功能也是完美结合，比 openai 的模型有灵性多了。\n\n真是菜完了，你还每月 20 美元？？？",
           "link": "https://www.v2ex.com/t/1108669",
           "publishedOn": "2025-02-02T20:50:03.000Z",
-          "wordCount": 473,
+          "wordCount": 475,
           "title": "现在的 openai 唐完了",
           "imageUrl": null
         },
