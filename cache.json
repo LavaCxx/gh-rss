@@ -12,12 +12,22 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=384050",
+          "author": "Ryan Trimble",
+          "description": "Are partials the only thing keeping you writing CSS in Sass? With a little configuration, it's possible to compile partial CSS files without a Sass dependency. Ryan Trimble has the details.\nCompiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/compiling-css-with-vite-and-lightning-css/",
+          "publishedOn": "2025-02-03T15:23:37.000Z",
+          "wordCount": 4139,
+          "title": "Compiling CSS With Vite and Lightning CSS",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384050"
+        },
+        {
           "id": "https://css-tricks.com/?p=383910",
           "author": "Geoff Graham",
           "description": "Did you see the release notes for Chrome 133? It's currently in beta, but the Chrome team has been publishing a slew of new articles with pretty incredible demos that are tough to ignore. I figured I'd round those up in one place.\nChrome 133 Goodies originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/chrome-133-goodies/",
           "publishedOn": "2025-01-31T15:27:50.000Z",
-          "wordCount": 2572,
+          "wordCount": 2569,
           "title": "Chrome 133 Goodies",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383910"
         },
@@ -37,7 +47,7 @@
           "description": "All of the things that the CSS Working Group would change if they had a time-traveling Delorean to go back and do things over.\nThe Mistakes of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/the-mistakes-of-css/",
           "publishedOn": "2025-01-30T14:31:08.000Z",
-          "wordCount": 1973,
+          "wordCount": 1970,
           "title": "The Mistakes of CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384089"
         },
@@ -47,7 +57,7 @@
           "description": "The @view-transition at-rule has two descriptions. One is the commonly used navigation descriptor. The second is types, the lesser-known of the two, and one that probably envies how much attention navigation gets. But read on to learn why we need types and how it opens up new possibilities for custom view transitions when navigating between pages.\nWhat on Earth is the `types` Descriptor in View Transitions? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/what-on-earth-is-the-types-descriptor-in-view-transitions/",
           "publishedOn": "2025-01-29T14:13:53.000Z",
-          "wordCount": 2934,
+          "wordCount": 2931,
           "title": "What on Earth is the `types` Descriptor in View Transitions?",
           "enclosure": {
             "url": "https://css-tricks.com/wp-content/uploads/2025/01/custom-view-transition.mp4",
@@ -62,7 +72,7 @@
           "description": "After 20 years since Andy Clarke first published his book about Multi-Column Layout in CSS, he's back to encourage a fresh look at CSS columns for enhanced readability and design flexibility.\nRevisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/revisiting-css-multi-column-layout/",
           "publishedOn": "2025-01-27T15:35:44.000Z",
-          "wordCount": 3720,
+          "wordCount": 3717,
           "title": "Revisiting CSS Multi-Column Layout",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384002"
         },
@@ -72,7 +82,7 @@
           "description": "When it comes to positioning elements on a page, including text, there are many ways to go about it in CSS — the literal position property with corresponding inset-* properties, translate, margin, anchor() (limited browser support at the moment), and so forth. The offset property is another one that belongs in that list.\nPositioning Text Around Elements With CSS Offset originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/positioning-text-around-elements-with-css-offset/",
           "publishedOn": "2025-01-24T14:59:25.000Z",
-          "wordCount": 2798,
+          "wordCount": 2795,
           "title": "Positioning Text Around Elements With CSS Offset",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383506"
         },
@@ -82,7 +92,7 @@
           "description": "I was reading through Juan’s recent Almanac entry for the @counter-style at-rule and I’ll be darned if he didn’t uncover and unpack some extremely interesting things that we can do to style lists, notably the list marker. You’re probably already …\nSome Things You Might Not Know About Custom Counter Styles originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/some-things-you-might-not-know-about-custom-counter-styles/",
           "publishedOn": "2025-01-23T17:21:15.000Z",
-          "wordCount": 2486,
+          "wordCount": 2483,
           "title": "Some Things You Might Not Know About Custom Counter Styles",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383776"
         },
@@ -92,7 +102,7 @@
           "description": "Chris wrote about “Likes” pages a long while back. The idea is rather simple: “Like” an item in your RSS reader and display it in a feed of other liked items. The little example Chris made is still really good.…\nCreating a “Starred” Feed originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/creating-a-starred-feed/",
           "publishedOn": "2025-01-21T14:21:32.000Z",
-          "wordCount": 3149,
+          "wordCount": 3146,
           "title": "Creating a “Starred” Feed",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/382660"
         },
@@ -112,7 +122,7 @@
           "description": "Lee Meyer with a super clever idea using scroll-driven animations as an interaction to \"like\" or \"dislike\" something.\nWeb-Slinger.css: Across the Swiper-Verse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/web-slinger-css-across-the-swiper-verse/",
           "publishedOn": "2025-01-15T15:03:25.000Z",
-          "wordCount": 3199,
+          "wordCount": 3196,
           "title": "Web-Slinger.css: Across the Swiper-Verse",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383533"
         },
@@ -132,7 +142,7 @@
           "description": "Today, I want to look into one of those cases of impatient and how the community has waited for that feature, to be specific, two upcoming functions: sibling-count() and sibling-index().\nHow to Wait for the sibling-count() and sibling-index() Functions originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/how-to-wait-for-the-sibling-count-and-sibling-index-functions/",
           "publishedOn": "2025-01-13T15:08:01.000Z",
-          "wordCount": 4195,
+          "wordCount": 4192,
           "title": "How to Wait for the sibling-count() and sibling-index() Functions",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383435"
         },
@@ -142,7 +152,7 @@
           "description": "I wrote a post for Smashing Magazine that was published today about this thing that Chrome and Safari have called “Tight Mode” and how it impacts page performance. I’d never heard the term until DebugBear’s Matt Zeunert mentioned it in …\nTight Mode: Why Browsers Produce Different Performance Results originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/tight-mode-why-browsers-produce-different-performance-results/",
           "publishedOn": "2025-01-09T16:16:15.000Z",
-          "wordCount": 1930,
+          "wordCount": 1927,
           "title": "Tight Mode: Why Browsers Produce Different Performance Results",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383563"
         },
@@ -152,7 +162,7 @@
           "description": "I am still an AI skeptic. The biggest risk I foresee is that if your sole responsibility is to write code, your job is at risk. It’s not time to panic, but I do see a lot of value in evolving your soft skills.\nThe Importance of Investing in Soft Skills in the Age of AI originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/",
           "publishedOn": "2025-01-06T14:58:46.000Z",
-          "wordCount": 2761,
+          "wordCount": 2758,
           "title": "The Importance of Investing in Soft Skills in the Age of AI",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383383"
         }
@@ -333,136 +343,6 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1108774",
-          "author": "testonly",
-          "description": "testonly: 看了下原来台的法律，\n抚养权方面，立遗嘱也没用，抚养权只能归亲生父母还活着的那个所有，\n没立遗嘱的话遗产至少她子女不会少过一半吧？\n但说不定后面会有类似于当年华懋小甜甜打假遗嘱验签名的官司出现，毕竟万一本身没遗嘱，她家人肯定不会愿意汪拿走那些钱，如果她遗产多，说不定台官方会护航，\n不用怀疑，2023 年五亿高中生案父子没了（基本上父子都是被谋杀的），台狗的官为了不让遗产和剩下的大量市区土地进那可怜的福建女人口袋无所不用其极。\n不过当然，汪小菲不是那福建女人，他有钱有资源，看后面官司怎么打了。\n先说明，我对子女和遗产该谁获得没有预设立场，只是说一下情况是这样。",
-          "link": "https://www.v2ex.com/t/1108774",
-          "publishedOn": "2025-02-03T14:06:16.000Z",
-          "wordCount": 352,
-          "title": "人生有时真是比戏剧还戏剧，汪小菲这下拿到了子女抚养权，还可能拿到遗产",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108773",
-          "author": "ciaochaos",
-          "description": "ciaochaos: \n详细流程图见下图：\n\n包含：\n成立上海公司\n开通国内银行公户\n成立美国公司\n开通美国对公银行账户\n申请邓白氏编号\n开通公司 Stripe\n开通公司 App Store\n获得版权登记证书一张\n发现有的时候根本不是事情难，纯纯就是信息差，比如：\n走苹果渠道申请邓白氏只用三天，但官网要一周到一个月\n传统银行开户麻烦 + 入金超高，可以无脑冲 mercury\n独立开发者要勇敢迈出第一步：注册公司，后面的事情都会很顺利很有信心\n觉得有用的话可以关注一下我们！latentcat.com / troyni.com",
-          "link": "https://www.v2ex.com/t/1108773",
-          "publishedOn": "2025-02-03T13:44:50.000Z",
-          "wordCount": 456,
-          "title": "分享一个自己整理的纯干货：独立开发者 / 独立小团队如何在一周内搞定所有的资质开始在 App Store / Steam / Stripe 收款",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108771",
-          "author": "ackbit",
-          "description": "ackbit: \n分享个任务兼职平台，安卓能下载，就是些进入小程序游戏后截图提交上传就好了，虽然钱不多胜在轻松\nhttps://i.ibb.co/N6QRg0xT/Screenshot-20250201-221600-com-yjhb-android-feibang.jpg\nhttps://i.ibb.co/rGrnffjG/Screenshot-20250201-223459-com-yjhb-android-feibang.jpg\nhttps://i.ibb.co/wFPGthVg/Screenshot-20250201-223325-com-tencent-mm.jpg\n了解加 v 备注 兼职赏帮: \nyylm1066\n\nhttps://i.ibb.co/TZL1YV2/mmqrcode1648300908643.jpg",
-          "link": "https://www.v2ex.com/t/1108771",
-          "publishedOn": "2025-02-03T13:32:23.000Z",
-          "wordCount": 343,
-          "title": "兼职赚钱平台",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108770",
-          "author": "iisboy",
-          "description": "iisboy: \nhttps://i.imgur.com/V3pg6kP.jpeg \n新号遇到这个问题",
-          "link": "https://www.v2ex.com/t/1108770",
-          "publishedOn": "2025-02-03T13:26:28.000Z",
-          "wordCount": 379,
-          "title": "又能解决派安盈新号入金的不？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108769",
-          "author": "angeni",
-          "description": "angeni: \n前言\n这段时间本菜鸟熬夜搞了一个小东西，想可以命中一点用户需求\nshell 脚本太多不好找\n收藏的 shell 过于分散，跳出命令端去查找太麻烦\nshellok 导航 or 最强融合怪\n为什么叫最强融合怪呢？\n因为它支持自己去定义想要的脚本，把日常自己收藏的脚本放进去也就是自定义一个自己的融合怪，我称为千人千怪，看起来就是这样。\n在网站上编辑常用命令\n\n命令行里就直接用\n\nshell 导航站\n同时他还是一个 shell 导航站，我收录了很多常用的脚本。在网页端和命令行端都可以很方便的复制一键命令\n\n\n\n安装\n小脚本的安装写了一个一键脚本放在了 github \n详细文档\n安装\ncurl -L https://www.shellok.com/install.sh -o ok.sh && chmod +x ok.sh && sudo bash ok.sh\n\n卸载\ncurl -L https://www.shellok.com/install.sh -o ok.sh && chmod +x ok.sh && sudo bash ok.sh uninstall\n\n常见问题\n大陆访问 github 有困难\n目前只支持 github 的第三方登录，账号密码登录在计划中\n小程序安全性\n虽然是未开源的二进制脚本，但是可以抓包查看，只有下载操作没有任何上传（我花了蛮多功夫去做，没必要在自己的项目里下毒吧）\n第三方脚本安全性\n收录的多是开源脚本可以自行查看，网站后续会上举报功能会及时下架有害脚本\n付费模式\n暂未考虑直接向大家要钱，后续为了良性发展可能会适当的加入点广告（会控制体验）\n兼容性\n目前只适配了 centos 和 debian 的最近几个比较近的版本，后续会根据反馈逐步支持\n最后\n看好这个创意的小伙伴可以 star 下仓库\nhttps://github.com/zhangjunjie6b/shellok\n也可以收藏下我主页\nhttps://www.shellok.com/\n这是我第一个 cs 项目，可能有一些不足，大家放心提出我会改、",
-          "link": "https://www.v2ex.com/t/1108769",
-          "publishedOn": "2025-02-03T13:14:04.000Z",
-          "wordCount": 435,
-          "title": "shell 导航+融合怪",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108768",
-          "author": "vulgur",
-          "description": "vulgur: \n2025,0127-0202\n祝各位在蛇年里，如灵蛇般 灵动智慧、游刃有余，在人生的道路上 化险为夷，步步高升！愿 好运如金蛇缠身，财富如瑞蛇蜿蜒而至，所求皆如愿，所行皆坦途！\n（以上祝福语由 ChatGPT 生成😜）\n1 月数据总结\n下载量（极简时钟）\nApp Store ，下降 13%\nGoogle Play ，下降 3.77%\n国内安卓市场，下降 11.38%\n收入\nApp Store ，上升 0.53%\nGoogle Play ，下降 12.54%\nAdmob ，下降 19.95%\n国内安卓市场，下降 9.3%\n极简便签的 DAU 已经马上赶上极简时钟了，但是日启动次数已经远超极简时钟了，应该发掘一下如何提高转化率了。\n极简时钟 tvOS 版本上个月的收入几乎达到了十倍的增长，只要起点够低，涨幅就能吓一跳。\n\n新年不停工\n大年初一，提交了极简时钟 iOS v4.8.2 ，修复了浮雕时钟的两个 bug：\n在 iOS 17 以下的版本中阴影的 bug\n数字 4 的阴影叠加位置有误的 bug\n没想到，SwiftUI 的 shadow 居然在 iOS 17 和以下系统版本上表现不一样，我找了一整个下午才找到这个原因。一开始还以为是半透明颜色的问题，后来以为是 border 的问题，最后才定位到是 shadow 的问题。\n大年初二，提交了极简日记 iOS v1.8.10 ，优化了标签选择的性能，消除了之前的卡顿。\n大年初三，优化了极简时钟 iOS 里浮雕时钟的一个动画，但是没有提交。\n大年初五，提交了极简日记 iOS v1.8.11 ，修复了长按进行语音输入在 iOS 18 后就失效的 bug 。\n除了初一那天时间比较多，UI 方面的代码都是自己写的，其余几天真正的工作时间非常少，绝大部分都是 Windsurf 给解决的。过年期间，苹果的审核速度也很快，三…",
-          "link": "https://www.v2ex.com/t/1108768",
-          "publishedOn": "2025-02-03T13:11:24.000Z",
-          "wordCount": 577,
-          "title": "独立开发周记 103： 1 月数据总结",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108767",
-          "author": "nocover",
-          "description": "nocover: 郑中基也厉害，但卫兰这声线一出来，完全不一样，yt 对唱有的，真的厉害！",
-          "link": "https://www.v2ex.com/t/1108767",
-          "publishedOn": "2025-02-03T13:07:16.000Z",
-          "wordCount": 334,
-          "title": "港曲卫兰这空灵的声线，当年就“爱”上她了...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108766",
-          "author": "nullcache",
-          "description": "nullcache: \n我这个情况比较特殊，一般情况我是懒得去换电池的\n用了第一年多一点电池健康肉眼速度掉到 83 ，现在两年半了，ac 快过期，还是 83\n我去店里检测，说是 81 了，我觉得还是有换个电池的必要的\n那么有没有朋友成功实践快速掉的，别纸上谈兵啊",
-          "link": "https://www.v2ex.com/t/1108766",
-          "publishedOn": "2025-02-03T12:34:20.000Z",
-          "wordCount": 401,
-          "title": "怎么快速掉 mac 电池的健康度的，现在 81",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108765",
-          "author": "Strikplf",
-          "description": "Strikplf: \n如何在新窗口右键，能够保持活跃窗口在新窗口上（或者说如何激活新窗口）？\n比如：我在 ChatGPT 复制一段代码，然后在“终端”右键-粘贴，然后我输入回车想执行的时候发现实际上是在 ChatGPT 的窗口上输入回车，而不是在“终端”上。我想在“终端”右键的时候就转到“终端”这个窗口了，而不是维持在 ChatGPT 的窗口。请问下这个在 Mac 上面能够实现吗？",
-          "link": "https://www.v2ex.com/t/1108765",
-          "publishedOn": "2025-02-03T12:33:46.000Z",
-          "wordCount": 386,
-          "title": "Mac 新手询问一下老手一些问题。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108764",
-          "author": "jy00295017",
-          "description": "jy00295017: 腾讯极光 6 ，当贝 H3 ，小米盒子 4pro 接索尼电视盒子以后，色彩都变的特别艳丽，特别刺眼。\n这三个里面只有 腾讯极光 6 可以关闭 hdr ，关了以后颜色稍微舒服那么一点。\n 但还是没有索尼 9000f 直出舒服，9000f 出来的色彩暗一点，没那么亮，眼睛舒服。\n 还有其他可以关闭 hdr 的电视盒子推荐吗？\natv 太贵没试过。",
-          "link": "https://www.v2ex.com/t/1108764",
-          "publishedOn": "2025-02-03T12:27:15.000Z",
-          "wordCount": 405,
-          "title": "电视盒子接索尼电视使用，哪些品牌的能关闭 HDR？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108763",
-          "author": "letitbesqzr",
-          "description": "letitbesqzr: 使用的分流规则，看了下 loon 的请求记录，分流规则没问题，没有相关的域名使用代理的记录。\n关闭代理后就可以正常使用。\n尝试了下连接到本地的抓包软件，随后开启全局代理，也会遇到相关问题。  \n瑞幸的接口是有相关判断是否开启了 vpn ？\n有没有同样遇到这个问题的，是如何解决的。\nhttps://imgur.com/a/VfTUQYS",
-          "link": "https://www.v2ex.com/t/1108763",
-          "publishedOn": "2025-02-03T12:25:10.000Z",
-          "wordCount": 423,
-          "title": "ios 开了 loon 后，瑞幸咖啡小程序登录会报错\"code、openid 参数不能为空\"",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108762",
-          "author": "windmano",
-          "description": "windmano: 📢 [高薪兼职] 招募 Telegram 机器人开发工程师（ Python 方向）\n🚀 岗位要求：\n精通 Telegram Bot API 开发，能够实现消息监听、Inline 模式、支付接口对接等核心功能\n熟练掌握 Python 开发，擅长使用 pyrogram/aiogram 等主流框架\n具备独立开发能力，能够完成从需求分析到部署上线的完整流程\n💻 工作模式：\n✅ 灵活接单制：按项目需求接单，支持多任务并行开发\n✅ 即时结算：项目验收后 24 小时内完成付款（支持 USDT ）\n✅ 全程远程：自由安排工作时间，每周提供进度同步\n✨ 加分项：\n• 有成熟机器人作品集（附 GitHub 链接优先）\n• 熟悉 Django/Flask 等 Web 框架\n• MysqlDb/MongoDB 数据库\n🔧 典型项目：\n跨境电商客服机器人开发\n社群管理自动化工具\n加密货币行情提醒系统\n多语言游戏机器人开发\n📩 应聘方式：\n请发送以下信息至 https://t.me/yizidang",
-          "link": "https://www.v2ex.com/t/1108762",
-          "publishedOn": "2025-02-03T11:58:34.000Z",
-          "wordCount": 403,
-          "title": "[高薪兼职] 招募 Telegram 机器人开发工程师（ Python 方向）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108761",
-          "author": "MrLonely",
-          "description": "MrLonely: 最近买了个 Dedicated Server ， 装了 Windows Server 2022. \n设置了强密码，但是出于其他限制因素，并不能改端口或者改掉 Administrator 用户名。\n所以在 Win Server 自带的 Firewall 里找到 RDP 相关的两个 inbound rule ，都加了 IP 白名单。但让我困惑的是，设置好了以后过一段时间就会发现 log 里有 ID 为 4625 的记录。 这些都是别人试图爆破的记录。\n可是他们的来源 IP 明明没有在我的白名单里呀。为什么还会被记录下来呢？不是应该要在防火墙阶段直接被阻断吗？\nFailure Reason:Unknown user name or bad password.\n这个 Failure Reason 表明我的 Win Server 还认真匹配了一下用户名和密码。匹配不上才拒绝。但是从 RDP 登录请求发出的 IP 来算，对方和 3389 端口不应该有任何 TCP 或者 UDP 的连接。",
-          "link": "https://www.v2ex.com/t/1108761",
-          "publishedOn": "2025-02-03T11:48:54.000Z",
-          "wordCount": 843,
-          "title": "Win Server 的 Firewall 运行方式让我很困惑。",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1108759",
           "author": "makisang",
           "description": "makisang: \n期望职位\n前端或者全栈开发，最好是 Web3 方向的，因为可能经验比较对口\n联系方式\n微信: cinder_rrr 可以加微信发详细简历\n个人简介\n最近三四年都在做 Web3 方向的 Dapp 开发，对各个公链的生态比较熟悉\n有创业项目从 0-1 的全栈开发经验，技术栈就是比较流行的 Next.JS, MongoDB 这些\n对于前端界面和后端业务开发都比较熟悉，可快速完成项目框架，页面逻辑，开发效率比较高\n英文水平不错，可作为工作语言\n学习能力和抗压能力不错，如果项目有一些新东西需要研究或者需要接手旧代码的话，可以很快的入门并开始工作",
@@ -478,7 +358,7 @@
           "description": "fanju745: \nProxMonitor\nProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应用。它提供了直观的界面来查看和控制您的虚拟化环境。\n\n\n功能特点\n🖥️ 资源监控\n实时查看节点、虚拟机和存储的状态\n监控 CPU 、内存、网络和磁盘使用情况\n支持图表展示历史数据\n💻 虚拟机管理\n开机/关机操作\n通过 noVNC 访问虚拟机控制台\n查看虚拟机详细信息和性能指标\n📊 存储管理\n查看存储空间使用情况\n监控存储性能\n浏览存储内容\n🔒 安全特性\n支持 HTTPS 连接\n基于 ticket 的身份验证\n安全的凭证存储\n系统要求\nAndroid 8.0 (API 26) 或更高版本\nProxmox VE 7.0 或更高版本\n网络连接到 Proxmox VE 服务器\n安装说明\n从 Releases 页面下载最新的 APK\n在 Android 设备上安装 APK\n服务器地址 (例如: https://pve.example.com:8006)\n用户名 (格式: user@pam 或 user@pve)\n密码\n使用说明\n登录\n输入服务器地址、用户名和密码\n点击登录按钮\n登录成功后会自动保存凭证\n资源监控\n主页面显示所有节点、虚拟机和存储的概览\n点击任意资源可查看详细信息\n支持下拉刷新更新数据\n虚拟机管理\n点击虚拟机卡片进入详情页面\n使用顶部工具栏的按钮进行开机/关机操作\n点击控制台图标打开 noVNC 远程访问\n存储管理\n在存储详情页面可查看使用情况\n支持查看存储内容列表\n提供多个时间范围的性能数据图表\n技术栈\n使用 Kotlin 和 Jetpack Compose 开发\n遵循 Material Design 3 设计规范\n采用 MVVM 架构\n使用 Hilt 进行依赖注入\n使用 Retrofit 进行网络请求\n使用 DataStore 进行数据持久化",
           "link": "https://www.v2ex.com/t/1108758",
           "publishedOn": "2025-02-03T11:11:02.000Z",
-          "wordCount": 567,
+          "wordCount": 587,
           "title": "Proxmox VE 服务器监控和管理的 Android 应用",
           "imageUrl": null
         },
@@ -498,7 +378,7 @@
           "description": "shylockhg: \n每次催为了不丢面子，我都高冷地回复：忙着奋斗\n这似乎给了他们错觉：觉得我认真了就能找到\n事实上我已经非常努力地在各种交友 app 上狂舔了。。",
           "link": "https://www.v2ex.com/t/1108755",
           "publishedOn": "2025-02-03T10:31:18.000Z",
-          "wordCount": 766,
+          "wordCount": 804,
           "title": "如何委婉告诉父母其实我找不到对象",
           "imageUrl": null
         },
@@ -508,7 +388,7 @@
           "description": "linglingfa: \n求救!\n我一台 vps 服务器，上个月突然流量暴涨，把流量撑爆后导致服务中断。\n这个月服务重启后发现继续下行流量占满了每一秒的带宽。我进入宝塔面板把所有 web 服务都停掉发现流量还是那么大。这才感觉不对劲。\n用 nethogs 和 iftop 来查看流量情况，发现如下面两张图所示。\n\n\n大量的单方面的下行流量，都来自 209.151.125.* 的地址，那个 we-are 点 parallax 点 net 的网址也全部对应这这个 IP 段。\n\n是不是这个 vps 被 DDoS 攻击了？ 还是被 UDP Flood 攻击？\n我对 linux 服务器不是太熟悉，目前对此束手无策，眼看着带宽被占满。怎么办啊？？",
           "link": "https://www.v2ex.com/t/1108754",
           "publishedOn": "2025-02-03T10:25:29.000Z",
-          "wordCount": 461,
+          "wordCount": 471,
           "title": "MayDay!MayDay!MayDay! 服务器疑似被攻击，求大神来帮忙看看",
           "imageUrl": null
         },
@@ -538,7 +418,7 @@
           "description": "shuiguomayi: \n如果阿里云买域名后没有备案，然后把解析指向国外的 ip. 以后这样正常使用，还是会不久就被封？\nBTW 正常网站，没有不良内容。",
           "link": "https://www.v2ex.com/t/1108751",
           "publishedOn": "2025-02-03T09:58:24.000Z",
-          "wordCount": 494,
+          "wordCount": 505,
           "title": "阿里云买域名指向国外 IP 会怎么样？",
           "imageUrl": null
         },
@@ -568,7 +448,7 @@
           "description": "83f420984: 最近打算入手一辆车，预算不高，二手车的话 2 万左右，有什么靠谱的推荐吗？主要想要省心耐用、维修便宜、油耗低的车型。\n如果是新车的话，5-6 万左右有什么值得考虑的吗？自动挡、代步通勤为主，配置够用就行。",
           "link": "https://www.v2ex.com/t/1108746",
           "publishedOn": "2025-02-03T09:26:45.000Z",
-          "wordCount": 547,
+          "wordCount": 569,
           "title": "2 万左右的二手车推荐？",
           "imageUrl": null
         },
@@ -638,7 +518,7 @@
           "description": "GeekGuru: \n去线下体验了几个国产办公椅，1000 ～ 3000 价位的总觉得腰部的支撑有点软，不知道贵的会不会好点？",
           "link": "https://www.v2ex.com/t/1108737",
           "publishedOn": "2025-02-03T08:30:27.000Z",
-          "wordCount": 389,
+          "wordCount": 403,
           "title": "2025 年牛马也要对自己好一点，买什么办公椅靠谱？",
           "imageUrl": null
         },
@@ -740,6 +620,146 @@
           "publishedOn": "2025-02-03T07:21:44.000Z",
           "wordCount": 399,
           "title": "用 ai 学外语的感想",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108725",
+          "author": "zaizaizai2333",
+          "description": "zaizaizai2333: \n热榜现在是\n哪吒，8.5 ，热度 343 万\n射雕，没有分，热度 220 万。\n唐探，6.5 ，热度 164 万\n是不是不太方便开分，显得豆瓣评分算法好笑？",
+          "link": "https://www.v2ex.com/t/1108725",
+          "publishedOn": "2025-02-03T07:17:42.000Z",
+          "wordCount": 378,
+          "title": "豆瓣为啥到现在都没给春节档电影《射雕英雄传：侠之大者》开分？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108724",
+          "author": "jeesk",
+          "description": "jeesk: 1.  12 人封闭测试 14 天, 难. 难点不是 12 人, 是激活量\n2.   我通过 v2ex, linux.do, 小众软件等平台 (某些平台还不能发送链接, 要么不能发, 要么直接封号, 呵呵. 在加上海外对 chinese 开发的应用的各种不信任) ,  年前到現在招募了 30 多人, 看后台数据激活量只有 1/5, 也就是说 12 人大约要招募 60 多人. 你觉得有多少人能招募 60 人?  \n3.  收费招募, 加入了一个互助群, 有同学花了 300 成功上架, 结果没两天就下架了. 该软件账号可能涉嫌作弊违规.  \n\n我的建议: \n  听天由命,  通过 Google play 海外创收大概率比国内上架还难. 大概率软件这个行业逐渐走向封闭, 从而慢慢杀死各种应用.",
+          "link": "https://www.v2ex.com/t/1108724",
+          "publishedOn": "2025-02-03T07:13:29.000Z",
+          "wordCount": 634,
+          "title": "个人开发者在海外正在慢性死亡",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108723",
+          "author": "aiprediction",
+          "description": "aiprediction: \n有朋友跟我推荐 Blox Fruits 这款游戏，有人玩吗？\n搜索了下，没看明白是干嘛的？，好玩吗？\nhttps://bloxfruits.info/\nhttps://blox-fruits.fandom.com/wiki/Blox_Fruits_Wiki",
+          "link": "https://www.v2ex.com/t/1108723",
+          "publishedOn": "2025-02-03T07:07:00.000Z",
+          "wordCount": 346,
+          "title": "有人玩 Blox Fruits 这款游戏吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108722",
+          "author": "revival83",
+          "description": "revival83: 预算最高 800 吧，感谢感谢",
+          "link": "https://www.v2ex.com/t/1108722",
+          "publishedOn": "2025-02-03T06:47:43.000Z",
+          "wordCount": 609,
+          "title": "求大佬们推荐入门软路由，之前的 N1 太不稳定了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108721",
+          "author": "amiwrong123",
+          "description": "amiwrong123: \n第 1 天早上去，第 2 天晚上回来。\n整个景区的路线就是一个 y 字型，我感觉因为是两天时间，所以说可以慢慢的把精华的地方都走完。\n去过的朋友可以看看怎么规划这个路线吗？\nps:第 2 天结束的时候，想在景区外面的餐馆吃一个牦牛火锅，大家伙有推荐的店吗？最好是吃完还方便坐拼车或者大巴走",
+          "link": "https://www.v2ex.com/t/1108721",
+          "publishedOn": "2025-02-03T06:42:43.000Z",
+          "wordCount": 409,
+          "title": "两天时间玩九寨沟，怎么规划路线？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108719",
+          "author": "bennie2024",
+          "description": "bennie2024: \n近期在尝试开一辆 infuse 的车，infuse 官网说家庭共享时，需要“共享购买的账户和使用购买的账户都需要激活购买项目共享”，激活购买项目光想需要添加付款方式，土区车是没有添加付款方式的，这就给我彻底搞蒙了。没看到有人写写相关内容，我做了一些尝试后，把我的尝试写下来。\n美区(组织者)邀请土区（成员）进入家庭，成功进入。组织者打开订阅+购买项目共享，但是无法使用任意成员的订阅以及软件共享。原因应该是不同区导致的。\n土区(组织者)邀请美区(成员)进入家庭，成功进入，组织者仅开启订阅共享 [如果需要开启购买项目共享，需要组织者绑定支付方式(土区信用卡或手机号扣款)] ，所有成员无法查看家庭内成员购买项目，仅显示组织者的订阅共享，美区(成员)下载 infuse ，无法恢复购买。\n土区(组织者)邀请土区(成员)进入家庭，成功进入，组织者仅开启订阅共享，土区(成员)使用自己的账号下载 infuse ，打开软件后，订阅激活成功。\n以上尝试说明，共享订阅无须打开「购买项目共享」，仅需两点，①组织者与成员在同一地区，②组织者开启订阅共享，满足以上两点即可。",
+          "link": "https://www.v2ex.com/t/1108719",
+          "publishedOn": "2025-02-03T06:15:56.000Z",
+          "wordCount": 451,
+          "title": "关于 Apple 家庭组的一些尝试记录",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108718",
+          "author": "apollo007",
+          "description": "apollo007: \n家里 AppleTV+infuse 播放 4k ，体验是不错，还有 1 个月阿里云盘 svip 到期了，后面第三方权益也会到期，需要继续续费。我的问题是继续续费还是换其他的网盘？\n之前买过一个 M 开头的 emby ，结果跑路了。而且中途频繁更换路线，体验太差了。所以就不考虑 emby 了。\n自建 NAS 也不考虑，毕竟看电视时间不是太多，不想在这方面折腾太多时间。\n更换其他网盘，最重要考虑的是在 TG 上要方便找到资源。似乎目前夸克云盘的资源有点多。\n所以，是继续续费阿里云盘还是换其他的网盘？谢谢各位，祝大家新年快乐！",
+          "link": "https://www.v2ex.com/t/1108718",
+          "publishedOn": "2025-02-03T06:14:25.000Z",
+          "wordCount": 529,
+          "title": "阿里云盘 svip 到期了，续费还是找替代的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108717",
+          "author": "Doragd",
+          "description": "Doragd: \n工作以后，怎么做笔记管理呢？\n以前用的 notion ，工作以后用的公司内部文档。\n虽然话说的好，工作内容用公司内部文档，非工作内容用个人笔记。\n但实际上感觉有时候很难分开。",
+          "link": "https://www.v2ex.com/t/1108717",
+          "publishedOn": "2025-02-03T06:13:22.000Z",
+          "wordCount": 471,
+          "title": "工作以后，笔记管理该怎么做？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108716",
+          "author": "milu2003516968",
+          "description": "milu2003516968: \nSmil：智能笔记管理，重构你的记录方式\nSmil 是一款全新设计的笔记应用，专注于提升用户的记录、整理与输出体验。\n🌟 主要特性：\n✅ 极简输入，自动分类\n✅ 智能优化，让内容更清晰\n✅ 智能淘汰机制\n每条笔记都有 新鲜值，每天会自动衰减。当新鲜值低于一定阈值，系统会自动将其归档，保持你的笔记区整洁高效，常用笔记则保持在主界面，方便随时查阅。\n这个机制可以：\n减少信息冗余，避免长期未访问的笔记占据主要视图。\n让重要内容始终新鲜，最近访问或编辑的笔记会保持活跃状态。\n自动整理归档，无需手动清理，笔记会根据使用频率动态管理。\n手动编辑，查看都可以提升 新鲜值，防止重要笔记被自动归档。\n📖 支持类型：\n灵感：随时记录突如其来的灵感和想法。\n知识：保存教程、观点、文章等内容，支持排版、翻译、打标签、可视化（大纲，思维导图）等。\n书签：记录感兴趣的网址，支持智能分类与访问频率统计。\n清单（即将上线）：高效跟进任务与待办事项。\n打卡（即将上线）：记录每日打卡与进度\n点击这里进入试用",
+          "link": "https://www.v2ex.com/t/1108716",
+          "publishedOn": "2025-02-03T06:01:41.000Z",
+          "wordCount": 492,
+          "title": "一款 AI 笔记本，随时记录想法，智能分类整理",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108715",
+          "author": "penzoe",
+          "description": "penzoe:",
+          "link": "https://www.v2ex.com/t/1108715",
+          "publishedOn": "2025-02-03T05:34:03.000Z",
+          "wordCount": 451,
+          "title": "请问 pcloud 网盘如何 wenbdav 同步思源笔记？设置了半天~",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108714",
+          "author": "teli",
+          "description": "teli: 昨天在 v 站发帖问，怎么制作短视频，宣传互联网产品直播带货 https://v2ex.com/t/1108640#reply4\n网友建议参考抖音上 WPS 等的内容\n看到 WPS 的一种短视频，效果就像是播放 PPT\n宽高比例大概 3：4 ，有一个框架，有背景音乐，有产品截图切换，边上有文字介绍\n重点就是一系列产品截图，加上介绍，再美化\nppt 应该可以做这样的，但估计比较复杂。我也试着找了模板，没找到，或者是关键字不对\n但有没有更方便制作这类的软件或者服务？",
+          "link": "https://www.v2ex.com/t/1108714",
+          "publishedOn": "2025-02-03T05:27:06.000Z",
+          "wordCount": 397,
+          "title": "ppt 效果的手机短视频，怎么制作？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108713",
+          "author": "wanghaiping009",
+          "description": "wanghaiping009: 套餐 1:月租 49 元，包含 70G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、500 兆宽带(目前有活动免费长期提速 1000 兆)。\n套餐 2:月租 129 元，包含 90G 通用流量、600 分钟通话、最多 4 张 0.1 元月租副卡、1000 兆宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 36 个月返还)、携转用户免预存也不返还。\n套餐 3:月租 159 元，包含 110G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、1000/100 宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 24 个月返还)、携转用户免预存也不返还。\n套餐 4:月租 239 元，包含 150G 通用流量、1200 分钟通话、最多 4 张 0.1 元月租副卡、2000/200 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n套餐 5:月租 199 元，包含 120G 通用流量、1000 分钟通话、最多 4 张 0.1 元月租副卡、2000/45 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n所有套餐均为到期默认原资费延续使用，套餐内容不变。\n所有套餐宽带安装费均为 100 元\n所有套餐仅限新开上海联通号码或者上海电信上海移动号码转网办理，异地号码无法携转，建议改保号套餐。\n上海联通不欢迎 PCDN 客户，除了此类客户，其他客户正常使用不受影响，免费提供公网 V4/V6 地址。\n如果需要 IPTV 机顶盒 10 元/月/路。第一路免安装费、第二三路安装费 100 元/路\n如果有国际加速需求可以叠加 9929 国际直通车，资费 20 元/月。叠加此包后会失去公网 ip\n套餐 4/5 可以免费加送一条 1000/45 二宽(100 安装费)\nKaddy921 绿色联系 Kaddy921",
+          "link": "https://www.v2ex.com/t/1108713",
+          "publishedOn": "2025-02-03T05:19:37.000Z",
+          "wordCount": 472,
+          "title": "上海联通二月迎新春特惠套餐合辑-限时千兆继续",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108712",
+          "author": "revival83",
+          "description": "revival83: 求个 clash verge 简单易用的分流规则",
+          "link": "https://www.v2ex.com/t/1108712",
+          "publishedOn": "2025-02-03T05:18:41.000Z",
+          "wordCount": 475,
+          "title": "大佬们求个 clash verge 简单易用的分流规则",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108711",
+          "author": "ddd270700",
+          "description": "ddd270700: \n背景：\n腾讯云上有一个 taiga 服务，必须要通过 https 访问才能完全可用。但是，我将域名指向腾讯云的时候，提示要备案，厌恶至极。\n既然域名不能用，所以，我想尝试一下用 openssl 自签 IP 地址的证书，然后用 Nginx Proxy Manager 做代理访问 taiga 。请注意，如果不挂证书，我已经能用 NPM 反代 taiga 了，但是不是 https 。\n问题来了：\n我参照网上的自签方式，给我的 IP 签证书，挂到 NPM ，但是浏览器访问，总是提示：ERR_SSL_UNRECOGNIZED_NAME_ALERT 。水平有限，解决不了。\n酬谢：\n请指点，有酬谢。",
+          "link": "https://www.v2ex.com/t/1108711",
+          "publishedOn": "2025-02-03T05:11:40.000Z",
+          "wordCount": 645,
+          "title": "给腾讯云的 IP 申请自签证书，出现 SSL_UNRECOGNIZED 错误 [有偿求教]",
           "imageUrl": null
         }
       ]
