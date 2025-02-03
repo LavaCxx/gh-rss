@@ -17,7 +17,7 @@
           "description": "Are partials the only thing keeping you writing CSS in Sass? With a little configuration, it's possible to compile partial CSS files without a Sass dependency. Ryan Trimble has the details.\nCompiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/compiling-css-with-vite-and-lightning-css/",
           "publishedOn": "2025-02-03T15:23:37.000Z",
-          "wordCount": 4139,
+          "wordCount": 4188,
           "title": "Compiling CSS With Vite and Lightning CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384050"
         },
@@ -202,6 +202,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -249,68 +276,6 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/696",
-          "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/696",
-          "publishedOn": "2025-01-29T09:14:56.000Z",
-          "wordCount": null,
-          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/695",
-          "author": null,
-          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/695",
-          "publishedOn": "2025-01-25T07:34:43.000Z",
-          "wordCount": null,
-          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/692",
-          "author": null,
-          "description": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰\nBuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。\nBuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直是BuyVM的重要部分，许多人用它来规避DMCA版权投诉。\n新地点的选址大概率是荷兰，这是另外一个对执行版权法不那么严格的国家。据了解，荷兰不要求运营商主动检测其服务中的盗版内容，只需要在接到投诉后删除即可免责。不过很难说，荷兰的法律在对待DMCA上是否同卢森堡不相上下。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/692",
-          "publishedOn": "2025-01-08T02:30:11.000Z",
-          "wordCount": null,
-          "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -331,7 +296,7 @@
           "description": "ciaochaos: \n详细流程图见下图：\n\n包含：\n成立上海公司\n开通国内银行公户\n成立美国公司\n开通美国对公银行账户\n申请邓白氏编号\n开通公司 Stripe\n开通公司 App Store\n获得版权登记证书一张\n发现有的时候根本不是事情难，纯纯就是信息差，比如：\n走苹果渠道申请邓白氏只用三天，但官网要一周到一个月\n传统银行开户麻烦 + 入金超高，可以无脑冲 mercury\n独立开发者要勇敢迈出第一步：注册公司，后面的事情都会很顺利很有信心\n觉得有用的话可以关注一下我们！latentcat.com / troyni.com",
           "link": "https://www.v2ex.com/t/1108773",
           "publishedOn": "2025-02-03T13:44:50.000Z",
-          "wordCount": 527,
+          "wordCount": 557,
           "title": "分享一个自己整理的纯干货：独立开发者 / 独立小团队如何在一周内搞定所有的资质开始在 App Store / Steam / Stripe 收款",
           "imageUrl": null
         },
@@ -371,7 +336,7 @@
           "description": "vulgur: \n2025,0127-0202\n祝各位在蛇年里，如灵蛇般 灵动智慧、游刃有余，在人生的道路上 化险为夷，步步高升！愿 好运如金蛇缠身，财富如瑞蛇蜿蜒而至，所求皆如愿，所行皆坦途！\n（以上祝福语由 ChatGPT 生成😜）\n1 月数据总结\n下载量（极简时钟）\nApp Store ，下降 13%\nGoogle Play ，下降 3.77%\n国内安卓市场，下降 11.38%\n收入\nApp Store ，上升 0.53%\nGoogle Play ，下降 12.54%\nAdmob ，下降 19.95%\n国内安卓市场，下降 9.3%\n极简便签的 DAU 已经马上赶上极简时钟了，但是日启动次数已经远超极简时钟了，应该发掘一下如何提高转化率了。\n极简时钟 tvOS 版本上个月的收入几乎达到了十倍的增长，只要起点够低，涨幅就能吓一跳。\n\n新年不停工\n大年初一，提交了极简时钟 iOS v4.8.2 ，修复了浮雕时钟的两个 bug：\n在 iOS 17 以下的版本中阴影的 bug\n数字 4 的阴影叠加位置有误的 bug\n没想到，SwiftUI 的 shadow 居然在 iOS 17 和以下系统版本上表现不一样，我找了一整个下午才找到这个原因。一开始还以为是半透明颜色的问题，后来以为是 border 的问题，最后才定位到是 shadow 的问题。\n大年初二，提交了极简日记 iOS v1.8.10 ，优化了标签选择的性能，消除了之前的卡顿。\n大年初三，优化了极简时钟 iOS 里浮雕时钟的一个动画，但是没有提交。\n大年初五，提交了极简日记 iOS v1.8.11 ，修复了长按进行语音输入在 iOS 18 后就失效的 bug 。\n除了初一那天时间比较多，UI 方面的代码都是自己写的，其余几天真正的工作时间非常少，绝大部分都是 Windsurf 给解决的。过年期间，苹果的审核速度也很快，三…",
           "link": "https://www.v2ex.com/t/1108768",
           "publishedOn": "2025-02-03T13:11:24.000Z",
-          "wordCount": 603,
+          "wordCount": 605,
           "title": "独立开发周记 103： 1 月数据总结",
           "imageUrl": null
         },
@@ -401,7 +366,7 @@
           "description": "Strikplf: \n如何在新窗口右键，能够保持活跃窗口在新窗口上（或者说如何激活新窗口）？\n比如：我在 ChatGPT 复制一段代码，然后在“终端”右键-粘贴，然后我输入回车想执行的时候发现实际上是在 ChatGPT 的窗口上输入回车，而不是在“终端”上。我想在“终端”右键的时候就转到“终端”这个窗口了，而不是维持在 ChatGPT 的窗口。请问下这个在 Mac 上面能够实现吗？",
           "link": "https://www.v2ex.com/t/1108765",
           "publishedOn": "2025-02-03T12:33:46.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "Mac 新手询问一下老手一些问题。",
           "imageUrl": null
         },
@@ -481,7 +446,7 @@
           "description": "shylockhg: \n每次催为了不丢面子，我都高冷地回复：忙着奋斗\n这似乎给了他们错觉：觉得我认真了就能找到\n事实上我已经非常努力地在各种交友 app 上狂舔了。。",
           "link": "https://www.v2ex.com/t/1108755",
           "publishedOn": "2025-02-03T10:31:18.000Z",
-          "wordCount": 818,
+          "wordCount": 830,
           "title": "如何委婉告诉父母其实我找不到对象",
           "imageUrl": null
         },
@@ -551,7 +516,7 @@
           "description": "83f420984: 最近打算入手一辆车，预算不高，二手车的话 2 万左右，有什么靠谱的推荐吗？主要想要省心耐用、维修便宜、油耗低的车型。\n如果是新车的话，5-6 万左右有什么值得考虑的吗？自动挡、代步通勤为主，配置够用就行。",
           "link": "https://www.v2ex.com/t/1108746",
           "publishedOn": "2025-02-03T09:26:45.000Z",
-          "wordCount": 593,
+          "wordCount": 601,
           "title": "2 万左右的二手车推荐？",
           "imageUrl": null
         },
@@ -561,7 +526,7 @@
           "description": "ttgo: \n查了一下，其他独占的大部分是美国政府，电信运营商/云服务商。\n都是互联网圈的\"old money\"啊。",
           "link": "https://www.v2ex.com/t/1108745",
           "publishedOn": "2025-02-03T09:17:12.000Z",
-          "wordCount": 509,
+          "wordCount": 518,
           "title": "才知道苹果自己独占了一个/8 的网段 17.0.0.0/8",
           "imageUrl": null
         },
