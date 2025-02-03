@@ -37,7 +37,7 @@
           "description": "When using View Transitions you’ll notice the page becomes unresponsive to clicks while a View Transition is running. […] This happens because of the ::view-transition pseudo element – the one that contains all animated snapshots – gets overlayed on top \n…\nKeeping the page interactive while a View Transition is running originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/keeping-the-page-interactive-while-a-view-transition-is-running/",
           "publishedOn": "2025-01-31T14:11:00.000Z",
-          "wordCount": 1909,
+          "wordCount": 1906,
           "title": "Keeping the page interactive while a View Transition is running",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384331"
         },
@@ -112,7 +112,7 @@
           "description": "Anchor positioning can be great for little interactive effects — as Temani Afif shows off with this clever idea for a menu hover.\nFancy Menu Navigation Using Anchor Positioning originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/fancy-menu-navigation-using-anchor-positioning/",
           "publishedOn": "2025-01-17T14:57:39.000Z",
-          "wordCount": 3577,
+          "wordCount": 3574,
           "title": "Fancy Menu Navigation Using Anchor Positioning",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383518"
         },
@@ -167,12 +167,6 @@
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383383"
         }
       ]
-    },
-    {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -348,7 +342,7 @@
           "description": "ne6rd: \n技术：\n5 年 JAVA & Javascript ，2 年 PHP ，4 年 C#。\n现在纯后端做 API ，技术栈 c#, netcore, azure 。\n这两天看了下市场上的招聘，c#搞 API 的少，用 azure 的也没几个。\n感觉大厂用 Java ，初创小公司 Go 比较多。\n语言:\n英语对话和书写都是 Business Level 。\n日语考了 N2 。\n感觉只能找纯英语的公司。\n薪资：\n税后年收换算成日元大概 8M 日元，想找税前最少 10M 的，一是房贷有压力，二是方便申请高才签证。\n这两天脑补了几个方向，选择很多，有点迷茫。\nJAVA ，习惯了 c#之后有点厌恶 JAVA 的语法，好像目前 kotlin 很火，有用这个做 API 的吗，还是大多是移动端\nGo, 个人挺感兴趣的，自己上手应该没问题，但是担心 0 经验没有竞争力\nC# Azure, 继续死磕 azure ，目标日本 MS ，之前投了两次，面试机会都没有。\nC# Unity, 一直有做游戏的梦想，但是工作上没机会实现，而且感觉需要很多 3D 方面的知识。\n日语，继续学日语，扩大选择面，但是没有环境效率低。\n有没有在日的大佬能指点一下，该往哪个方向努力比较好？",
           "link": "https://www.v2ex.com/t/1108789",
           "publishedOn": "2025-02-03T20:31:28.000Z",
-          "wordCount": 491,
+          "wordCount": 548,
           "title": "中年想去日本，求指点迷津",
           "imageUrl": null
         },
@@ -358,7 +352,7 @@
           "description": "CureDovahkiin: \n在页面加载前拦截 xhr 和 fetch 对象\n加个响应拦截器，屏蔽放在用户信息流里面的广告，返回处理后的数据，还能顺便屏蔽 up 主发的广告\n屏蔽一些跟踪脚本的请求，然后不会像 ublock 之类的疯狂在控制台报错，直接把请求吞了。\n之前写了一个 但是感觉会重复造轮子就凑合用没继续写。\n如果是一个扩展，感觉可以订阅一些请求和响应拦截器的脚本和规则，不过做起来好麻烦还是算了🤓",
           "link": "https://www.v2ex.com/t/1108788",
           "publishedOn": "2025-02-03T17:22:57.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "有没有基于拦截浏览器请求来达成一些事情的浏览器扩展",
           "imageUrl": null
         },
@@ -368,7 +362,7 @@
           "description": "lettres: 我不知道我是不是一个人，但是我在我的生活中频繁要使用如同上个世代的网站：不支持 iOS Safari （“您的浏览器不支持第三方 cookie ，建议切换至'主流浏览器'”），交互故障重重，界面简陋无比，字体极其难读。越是巨头的企业、组织、甚至是官方网站，越是常常刷新我的认知。假如说我改行当任何一家中国报纸的记者，有很大概率我第一个要写的就是网站的再设计稿。\n坦然地说，我相当理解他们不愿更新网站的种种动机，成本太高，理由太少——但这无法平复我在使用时的不适、焦躁（如果是不美观）和抓狂（如果是充满 bug ），何况有些上古网站其实是今人的鬼斧神工。篡改一句歌词来说，人生很短，用丑陋的软件只会更短。\n追求美是人的本能，而这种本能于我特别强烈。写代码不必为了谋生，却是一种表达自我的手段。我常常想：要是能帮这些网站都重新装修一番，甚至做一个虽是第三方但是胜过官方的版本供人使用，该有多好？未必现实，然而至少也能作为自己些许小情绪的表达。\n最近日检出分，查分的又是一个上古的网站。平心而论，虽然古老，但并不难用。或许有人会说，这些实用性网站能用即可。的确如此，不过想到人若是只能用便过得去，心里总莫名有些遗憾和失落。而且离这样体量的基金会、“教育部教育考试院”这样的名号还是差太远了。加之不很复杂，可光向官网注入 CSS 又丝毫不够，便迅速地用 Next.js 克隆并美化了一番，做了一个极简的第三方开源查分器（ https://github.com/NarixHine/modernised ），终于迈出了“上古网站装修计划”的第一步。其实美观未必要丰富，更新也未必大费周章，往往只需简洁清晰和一点跟上潮流的现代感。其实现在 AI 的出现大大方便了个性化软件的产生，在 v0 帮助下只花了一小时便搞定。\n\n不过虽说这将会是“beautiful by default”的所谓“personalised software”的时代，通过克隆再美化毕竟是曲线救国，你不可能给世界上每一个上古网站都重新装修一遍，故而这个项目唯一的意义只能是以这种曲折的方式引起讨论和反思，希望“美”成为新的 Web 标准，寄希望于企业自身翻新自己网站。然而这积聚动量实在太难（有些抽象），退一万步说你也永远无法低估巨头的惰性，不论是自驱力还是外部向内部的压力。故而第二步不知会不会迈，遑论何时迈了。\n你要说这有意义吗？要是像新闻里常常出现的那样“许多人表示共鸣”“众多程序员纷纷贡献”“引发各大企业重视”“一个项目掀起一阵潮流”引起话题，那还挺有的。但是不可能，所以其实没有，除了满足对美的一点点孩子气的固执。\n（当然，还有满足想将截图转发朋友圈又碍于官网太简陋的日语大佬们。）\n——睡不着，信笔写写、聊聊。写到这里有些不知所云了，迷糊见谅。",
           "link": "https://www.v2ex.com/t/1108787",
           "publishedOn": "2025-02-03T17:10:29.000Z",
-          "wordCount": 405,
+          "wordCount": 407,
           "title": "对上古风前端的一点点不满，对巨头的惰性的一个小反抗",
           "imageUrl": null
         },
@@ -378,7 +372,7 @@
           "description": "radishzz: 前段时间发现 15pro 的热点有问题。用安卓机连接 iPhone 热点，再用第三方软件 Sync 同步照片（类似 QQ 的面对面快传），iPhone 信号必定会断掉后重连。有些困扰但也没啥大碍，想想算了。\n结果前几天更新完 iOS18.3 以后，发现信号彻底消失。信号图标一直以波浪状起伏。刚开始以为是系统版本 bug ，上网搜了一圈，没有发现相同的情况。仔细研究后发现，蜂窝数据网络显示检测到问题，调制调解器固件显示为空白。\n预约去天才吧维修，但最快也得三天后。第二天断网了一整天，于是晚上试试自己刷机，看能不能解决。\n备份好数据，恢复模式和 DFU 模式各刷了一遍，问题好像解决了。能连上网络了，调解器固件也显示数字了。但仔细检查后发现，偶尔还是会断网，蜂窝网络会错误地显示 4 张 SIM 卡，并且会随机自动重启…\n今天去天才吧维修，工作人员用调试模式和售后工具进行检测，都没有发现问题。在得到我的同意之后，帮我重置了系统。但重置之后，一旦开启热点并同步照片，信号还是会百分百断联。售后还挺谨慎，拿来一台测试机进行复测，结果测试机就不会出现这种问题。这下终于确证了。\n之前在网上看到说，如果无磕无碰，并确认是基带问题的话，可以直接当场换新。我心想这还挺好，没想到他给的方案是更换主板，3-5 天之后主板到货了，再来门店更换维修。那也行吧。256G 的主板价格为 557 英镑，实付为零。\n唯一的变化是，维修以后会从国行变成欧版，也就是从双卡槽变成了单卡槽+ esim 。手上的 Lebara 物理卡倒是可以顺利转成 esim ，但以后在国内只能塞一张卡了。所以想顺带问问，esim 在国内有什么玩法吗？",
           "link": "https://www.v2ex.com/t/1108786",
           "publishedOn": "2025-02-03T16:56:14.000Z",
-          "wordCount": 397,
+          "wordCount": 412,
           "title": "iPhone 维修分享，国行变欧版",
           "imageUrl": null
         },
@@ -388,7 +382,7 @@
           "description": "SingeeKing: 我知道是为了防盗版，但是 epub / pdf 满天飞的情况下，真的会有人去费力不讨好爬微信读书网页版吗，退一步就算想从微信网页版去获得书籍源文件，也应该不至于去模拟人工一页页爬吧，JS 逆向或者从网络包分析应该更合理啊\n但是这个加密就让想用/写个插件的我很难受了；各种划词工具用不了，最近想写个 AI Research 工具也无解……",
           "link": "https://www.v2ex.com/t/1108785",
           "publishedOn": "2025-02-03T16:50:38.000Z",
-          "wordCount": 440,
+          "wordCount": 465,
           "title": "（纯吐槽）微信读书网页版为啥要做加密啊",
           "imageUrl": null
         },
@@ -438,7 +432,7 @@
           "description": "flowerfly: \n岳父是小学老师，今年过来我们这过年，来的时候从家里带来了许多腊肠、腊肉，来到之后又在年前炸了好多酥肉，全部放到冰箱里，加上他又爱下厨做饭，于是乎天天吃的差不多都是这些肉。",
           "link": "https://www.v2ex.com/t/1108777",
           "publishedOn": "2025-02-03T15:24:14.000Z",
-          "wordCount": 830,
+          "wordCount": 863,
           "title": "大家有和岳父起过冲突吗？",
           "imageUrl": null
         },
@@ -458,7 +452,7 @@
           "description": "ciaochaos: \n详细流程图见下图：\n\n包含：\n成立上海公司\n开通国内银行公户\n成立美国公司\n开通美国对公银行账户\n申请邓白氏编号\n开通公司 Stripe\n开通公司 App Store\n获得版权登记证书一张\n发现有的时候根本不是事情难，纯纯就是信息差，比如：\n走苹果渠道申请邓白氏只用三天，但官网要一周到一个月\n传统银行开户麻烦 + 入金超高，可以无脑冲 mercury\n独立开发者要勇敢迈出第一步：注册公司，后面的事情都会很顺利很有信心\n觉得有用的话可以关注一下我们！latentcat.com / troyni.com",
           "link": "https://www.v2ex.com/t/1108773",
           "publishedOn": "2025-02-03T13:44:50.000Z",
-          "wordCount": 561,
+          "wordCount": 568,
           "title": "分享一个自己整理的纯干货：独立开发者 / 独立小团队如何在一周内搞定所有的资质开始在 App Store / Steam / Stripe 收款",
           "imageUrl": null
         },
@@ -518,7 +512,7 @@
           "description": "nullcache: \n我这个情况比较特殊，一般情况我是懒得去换电池的\n用了第一年多一点电池健康肉眼速度掉到 83 ，现在两年半了，ac 快过期，还是 83\n我去店里检测，说是 81 了，我觉得还是有换个电池的必要的\n那么有没有朋友成功实践快速掉的，别纸上谈兵啊",
           "link": "https://www.v2ex.com/t/1108766",
           "publishedOn": "2025-02-03T12:34:20.000Z",
-          "wordCount": 443,
+          "wordCount": 451,
           "title": "怎么快速掉 mac 电池的健康度的，现在 81",
           "imageUrl": null
         },
@@ -548,7 +542,7 @@
           "description": "letitbesqzr: 使用的分流规则，看了下 loon 的请求记录，分流规则没问题，没有相关的域名使用代理的记录。\n关闭代理后就可以正常使用。\n尝试了下连接到本地的抓包软件，随后开启全局代理，也会遇到相关问题。  \n瑞幸的接口是有相关判断是否开启了 vpn ？\n有没有同样遇到这个问题的，是如何解决的。\nhttps://imgur.com/a/VfTUQYS",
           "link": "https://www.v2ex.com/t/1108763",
           "publishedOn": "2025-02-03T12:25:10.000Z",
-          "wordCount": 427,
+          "wordCount": 434,
           "title": "ios 开了 loon 后，瑞幸咖啡小程序登录会报错\"code、openid 参数不能为空\"",
           "imageUrl": null
         },
@@ -568,7 +562,7 @@
           "description": "MrLonely: 最近买了个 Dedicated Server ， 装了 Windows Server 2022. \n设置了强密码，但是出于其他限制因素，并不能改端口或者改掉 Administrator 用户名。\n所以在 Win Server 自带的 Firewall 里找到 RDP 相关的两个 inbound rule ，都加了 IP 白名单。但让我困惑的是，设置好了以后过一段时间就会发现 log 里有 ID 为 4625 的记录。 这些都是别人试图爆破的记录。\n可是他们的来源 IP 明明没有在我的白名单里呀。为什么还会被记录下来呢？不是应该要在防火墙阶段直接被阻断吗？\nFailure Reason:Unknown user name or bad password.\n这个 Failure Reason 表明我的 Win Server 还认真匹配了一下用户名和密码。匹配不上才拒绝。但是从 RDP 登录请求发出的 IP 来算，对方和 3389 端口不应该有任何 TCP 或者 UDP 的连接。",
           "link": "https://www.v2ex.com/t/1108761",
           "publishedOn": "2025-02-03T11:48:54.000Z",
-          "wordCount": 891,
+          "wordCount": 896,
           "title": "Win Server 的 Firewall 运行方式让我很困惑。",
           "imageUrl": null
         },
@@ -638,7 +632,7 @@
           "description": "zolo: 我尝试了多家供应商的 Wireguard 节点都遇到相同的问题，当出现错误提示时，再次刷新页面即可正常访问。\n而连接其他 VMESS 节点时未出现这一问题。\n请教各位，这可能是什么原因？谢谢！",
           "link": "https://www.v2ex.com/t/1108752",
           "publishedOn": "2025-02-03T10:00:08.000Z",
-          "wordCount": 401,
+          "wordCount": 403,
           "title": "Surge 使用 Wireguard 时， Chrome 打开网页会间歇发生 ERR_CONNECTION_CLOSED",
           "imageUrl": null
         },
@@ -648,7 +642,7 @@
           "description": "shuiguomayi: \n如果阿里云买域名后没有备案，然后把解析指向国外的 ip. 以后这样正常使用，还是会不久就被封？\nBTW 正常网站，没有不良内容。",
           "link": "https://www.v2ex.com/t/1108751",
           "publishedOn": "2025-02-03T09:58:24.000Z",
-          "wordCount": 513,
+          "wordCount": 515,
           "title": "阿里云买域名指向国外 IP 会怎么样？",
           "imageUrl": null
         },
@@ -658,7 +652,7 @@
           "description": "Hsssst: 家里面经常投诉信号不好网速慢，回去看了下路由器的网口插在光猫的百兆口上😂😂😂后面换成千兆口就好了",
           "link": "https://www.v2ex.com/t/1108749",
           "publishedOn": "2025-02-03T09:48:24.000Z",
-          "wordCount": 399,
+          "wordCount": 406,
           "title": "家里网速慢的原因找到了",
           "imageUrl": null
         },
