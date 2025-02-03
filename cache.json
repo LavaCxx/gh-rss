@@ -159,6 +159,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -182,6 +188,33 @@
           "wordCount": 1037,
           "title": "第207期 - 水培红薯",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -300,12 +333,212 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108714",
+          "author": "teli",
+          "description": "teli: 昨天在 v 站发帖问，怎么制作短视频，宣传互联网产品直播带货 https://v2ex.com/t/1108640#reply4\n网友建议参考抖音上 WPS 等的内容\n看到 WPS 的一种短视频，效果就像是播放 PPT\n宽高比例大概 3：4 ，有一个框架，有背景音乐，有产品截图切换，边上有文字介绍\n重点就是一系列产品截图，加上介绍，再美化\nppt 应该可以做这样的，但估计比较复杂。我也试着找了模板，没找到，或者是关键字不对\n但有没有更方便制作这类的软件或者服务？",
+          "link": "https://www.v2ex.com/t/1108714",
+          "publishedOn": "2025-02-03T05:27:06.000Z",
+          "wordCount": 379,
+          "title": "ppt 效果的手机短视频，怎么制作？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108713",
+          "author": "wanghaiping009",
+          "description": "wanghaiping009: 套餐 1:月租 49 元，包含 70G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、500 兆宽带(目前有活动免费长期提速 1000 兆)。\n套餐 2:月租 129 元，包含 90G 通用流量、600 分钟通话、最多 4 张 0.1 元月租副卡、1000 兆宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 36 个月返还)、携转用户免预存也不返还。\n套餐 3:月租 159 元，包含 110G 通用流量、800 分钟通话、最多 4 张 0.1 元月租副卡、1000/100 宽带。全屋光纤覆盖一主一从。新开用户预存 399 元(分 24 个月返还)、携转用户免预存也不返还。\n套餐 4:月租 239 元，包含 150G 通用流量、1200 分钟通话、最多 4 张 0.1 元月租副卡、2000/200 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n套餐 5:月租 199 元，包含 120G 通用流量、1000 分钟通话、最多 4 张 0.1 元月租副卡、2000/45 宽带。全屋光纤覆盖一主二从。新开/携转用户预存 699 元(分 24 个月返还)。\n所有套餐均为到期默认原资费延续使用，套餐内容不变。\n所有套餐宽带安装费均为 100 元\n所有套餐仅限新开上海联通号码或者上海电信上海移动号码转网办理，异地号码无法携转，建议改保号套餐。\n上海联通不欢迎 PCDN 客户，除了此类客户，其他客户正常使用不受影响，免费提供公网 V4/V6 地址。\n如果需要 IPTV 机顶盒 10 元/月/路。第一路免安装费、第二三路安装费 100 元/路\n如果有国际加速需求可以叠加 9929 国际直通车，资费 20 元/月。叠加此包后会失去公网 ip\n套餐 4/5 可以免费加送一条 1000/45 二宽(100 安装费)\nKaddy921 绿色联系 Kaddy921",
+          "link": "https://www.v2ex.com/t/1108713",
+          "publishedOn": "2025-02-03T05:19:37.000Z",
+          "wordCount": 430,
+          "title": "上海联通二月迎新春特惠套餐合辑-限时千兆继续",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108712",
+          "author": "revival83",
+          "description": "revival83: 求个 clash verge 简单易用的分流规则",
+          "link": "https://www.v2ex.com/t/1108712",
+          "publishedOn": "2025-02-03T05:18:41.000Z",
+          "wordCount": 375,
+          "title": "大佬们求个 clash verge 简单易用的分流规则",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108711",
+          "author": "ddd270700",
+          "description": "ddd270700: \n背景：\n腾讯云上有一个 taiga 服务，必须要通过 https 访问才能完全可用。但是，我将域名指向腾讯云的时候，提示要备案，厌恶至极。\n既然域名不能用，所以，我想尝试一下用 openssl 自签 IP 地址的证书，然后用 Nginx Proxy Manager 做代理访问 taiga 。请注意，如果不挂证书，我已经能用 NPM 反代 taiga 了，但是不是 https 。\n问题来了：\n我参照网上的自签方式，给我的 IP 签证书，挂到 NPM ，但是浏览器访问，总是提示：ERR_SSL_UNRECOGNIZED_NAME_ALERT 。水平有限，解决不了。\n酬谢：\n请指点，有酬谢。",
+          "link": "https://www.v2ex.com/t/1108711",
+          "publishedOn": "2025-02-03T05:11:40.000Z",
+          "wordCount": 434,
+          "title": "给腾讯云的 IP 申请自签证书，出现 SSL_UNRECOGNIZED 错误 [有偿求教]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108709",
+          "author": "ChrisLii",
+          "description": "ChrisLii: 目前手里有一个论坛，日 pv10000 左右的站点，注册用户 20000 个。三年前建站的时候没多想就用了 Wordpress ，用的是 2c4g 的 vps ，（机器上同时还托管了几个同学的博客，不过访问量都不大）现在感觉速度很慢。\n考虑到期之后上一个 8c16g 的大机器，线路不在考虑范围内，2022 年夏天被 ddos 打了 300 多 gbps 导致整个网站完全打不开，所以一直在用 cf ，机器一年估计 1200 左右.\n考虑到 wordpress 本身也不是为了论坛而设计的，所以暑假还有计划把整个站点迁移到 discourse ，是专门做论坛的项目，所以个人认为性能和用户管理都应该会比 wordpress 好很多。\n希望各位能给些建议，如果换了 8c16g 服务器，wordpress 速度会得到多大的优化，在网上找了很久也没看到相关的横向对比。\n同时，新的 vps 上打算用 docker 弄个雷池 waf 反代站点，会遇到性能瓶颈吗？",
+          "link": "https://www.v2ex.com/t/1108709",
+          "publishedOn": "2025-02-03T05:05:45.000Z",
+          "wordCount": 447,
+          "title": "Wordpress VPS 性能讨论",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108708",
+          "author": "0xABCD",
+          "description": "0xABCD: 票放出来秒光，这些上了年纪的大爷大妈是怎么买到票的？拼的是运气还是手速？\n\n我提前预约了，也没有抢到坐票，最后只能买站票返程。上车之后看到好多大爷大妈都有座位陷入了沉思……\n\n不是看不起大爷大妈，单纯好奇他们是怎么买票的。",
+          "link": "https://www.v2ex.com/t/1108708",
+          "publishedOn": "2025-02-03T05:00:57.000Z",
+          "wordCount": 466,
+          "title": "春运期间大爷大妈是怎么买到票的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108707",
+          "author": "hackpro",
+          "description": "hackpro: \n作为同时使用 C++和 Python 的全栈开发者，目前遇到个人开发环境搭建困境：\n▶ 痛点需求\n免费开源方案（规避 License 问题）\n跨平台支持（ Win/Mac/Linux 三端同步）\n智能补全/重构\n可视化调试界面\n目管理一致性\n▶ 当前方案缺陷（现用 VSCode 困扰）\n插件组合每次需手动配置（ C++：CMakeTools/LLDB ； Python：Pylance/Jupyter ）\n调试配置迁移成本高（ launch.json 总需要适配不同机器）\n开发环境隔离困难（公司/个人项目依赖常冲突）\n▶ 尝试过的方法：\na. VSCode 方案\nSettings Sync 同步配置（但遇到插件版本兼容问题）\n创建通用 workspace 模板（仍需要手动调整路径）\nDev Container 容器化（机器性能消耗过大）\nb. 其他 IDE\nQt Creator （ Python 支持弱）\nEclipse CDT （界面交互过时）\nThonny （仅适合教学场景）\n▶ 核心诉求：\n寻找可实现\"配置一次，多端复用\"的方案，期望达到：\n新机器登录即用（配置秒级同步）\n语言支持开箱即用（ C++17/Python3.10+）\n调试环境自适配（自动识别 gcc/clang 解释器）\n▶ 特别请教：\n是否有基于 VSCode 的强化发行版？（如 Codium+预制配置包）\n开源 IDE 中是否存在接近 CLion 的替代品？（试过 KDevelop 不够流畅）\n容器化方案优化建议（是否可通过预构建镜像加速部署？）\n期待各位分享实战经验，特别是多设备开发环境维护的技巧！",
+          "link": "https://www.v2ex.com/t/1108707",
+          "publishedOn": "2025-02-03T04:56:49.000Z",
+          "wordCount": 427,
+          "title": "[求助] 2025 年跨平台 IDE 配置方案：如何实现接近 CLion/Pycharm 的开箱体验？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108706",
+          "author": "LiuJiang",
+          "description": "LiuJiang: 我妈在除夕前几天去医院看病，感染了细菌性流感。双肺炎症，医生当场下达住院通知书，还好救治及时，所幸无恙，流感真的可怕！\n我也被感染了，我的症状还行，轻度，但一直有咳嗽，还未完全恢复",
+          "link": "https://www.v2ex.com/t/1108706",
+          "publishedOn": "2025-02-03T04:54:08.000Z",
+          "wordCount": 115,
+          "title": "观大 S 因染流感死亡有感",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108705",
+          "author": "PowtainGen1",
+          "description": "PowtainGen1: \n今天，我们推出了 ChatGPT 的深度研究功能，这是一种新的智能能力，可以在互联网上进行多步骤研究，适用于复杂任务。它在十几分钟内完成的工作，相当于人类需要花费数小时才能完成的事情。\n深度研究是 OpenAI 的下一个代理，可以独立为您工作——您给它一个提示，ChatGPT 将找到、分析和综合数百个在线来源，以创建相当于研究分析师水平的综合报告。基于即将推出的 OpenAI o3 模型的一个版本，该模型经过优化以进行网页浏览和数据分析，深度研究能够利用推理搜索、解释和分析互联网上大量的文本、图像和 PDF ，并根据遇到的信息灵活调整。\n合成知识的能力是创造新知识的前提。因此，深入研究是实现我们长期设想的能够产生新颖科学研究的通用人工智能（ AGI ）这一更大目标的重要一步。\n观看视频：https://web.powtain.com/pow/KVdA5Q?1\n=====\nV 友们，你们说他是不是急了？",
+          "link": "https://www.v2ex.com/t/1108705",
+          "publishedOn": "2025-02-03T04:43:36.000Z",
+          "wordCount": 426,
+          "title": "OpenAI 发布 Deep Research. 2025.02.02",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108704",
+          "author": "jacketma",
+          "description": "jacketma: \n就是图片上这种半躺尸座椅\n\n座椅换过好几把，便宜的到几千的，都经不住坐久了腰难受，这种半躺式座椅应该可以做到接近零重力座椅的舒适吧，有大神实际使用效果怎么样，长坐能不能缓解腰部压力，看起来要进入骇客帝国模式了",
+          "link": "https://www.v2ex.com/t/1108704",
+          "publishedOn": "2025-02-03T04:39:52.000Z",
+          "wordCount": 388,
+          "title": "太空舱电脑椅除了贵之外，是不是办公椅的终极形态？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108703",
+          "author": "importmeta",
+          "description": "importmeta: \n正在写个项目, 模块一多心智负担较大.\n略微吐槽一下,简直是现实版茴字有几种写法.\n1.把中间件拆成 Middleware,Guards,Interceptors,Exception,Pipes, 并且他们都能获取请求上下文(Request, Response), 并且有不同的顺序, 但同类别内也有顺序, 并且生命周期是如此的繁琐.\nhttps://docs.nestjs.com/faq/request-lifecycle\n2.封装一个三方 API 花样太多了.\n单独的 Service, Providers, Dynamic Module, ConfigurableModuleClass\n这里面还有分 Sync 和 Async 导入, Global 模块.\n3.模块系统是 Angular 那一套, 注册繁琐, 还会出现循环依赖.\n心智负担比 Spring Boot 高太多了.\nJS 的后端框架不像前端那样卷, 真希望能出个好用的.",
+          "link": "https://www.v2ex.com/t/1108703",
+          "publishedOn": "2025-02-03T04:32:44.000Z",
+          "wordCount": 473,
+          "title": "吐槽一下 Nest.js 太复杂了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108701",
+          "author": "siyiye",
+          "description": "siyiye: \nesxi 做底层\ntruenas 虚拟机接管 12 块 HDD 硬盘提供存储整合（直通 HBA 卡给 truenas ，Rz2 ，作为一整个存储池）\n构想 1：用 truenas 的 iSCSI 给 esxi 挂载为存储，然后作为硬盘插到群晖虚拟机中；\n构想 2：用 NFS 共享直接在群晖虚拟里中挂载为共享文件\n主要是想把存储层完全独立出来，让其他虚拟机能够使用",
+          "link": "https://www.v2ex.com/t/1108701",
+          "publishedOn": "2025-02-03T04:13:47.000Z",
+          "wordCount": 456,
+          "title": "esxi 做底层， Truenas 接管硬盘提供存储整合---用哪种方式好？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108700",
+          "author": "zhangjiashu2023",
+          "description": "zhangjiashu2023: \n我知道的 sms forward 项目是可以做到微信消息 webhook 推送的，但是不能安卓登录 会挤掉原 ios 登录，想试试安卓平板配合 sms forward 来实现。好像雷电模拟器可以模拟平板？还是说只是不同分辨率的手机？所以想找个支持模拟器的云服务器来试试。有无推荐，方案是否可行。或者更好的方案？",
+          "link": "https://www.v2ex.com/t/1108700",
+          "publishedOn": "2025-02-03T04:11:29.000Z",
+          "wordCount": 382,
+          "title": "求解决微信消息推送问题[sms forward][安卓平板模拟器推荐]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108699",
+          "author": "DragonHunter",
+          "description": "DragonHunter: \n目前使用的是中国移动 159 套餐里带的宽带，2 月底到期，终于可以解放了，即将拜托昂贵的月资费。\n但是问题来了，找来找去都找不到划算的单宽带套餐\n为什么一定要单宽带？因为不想绑定合约了，解绑真的很麻烦\n退而求其次，如果实在找不到单宽带套餐，那也只好找合约套餐了，求大佬们指路咾\n坐标：北京",
+          "link": "https://www.v2ex.com/t/1108699",
+          "publishedOn": "2025-02-03T04:08:06.000Z",
+          "wordCount": 413,
+          "title": "北京联通、移动、电信只办理单宽带的话，有优惠吗？求大佬指个路，着急啊！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108698",
+          "author": "iqoo",
+          "description": "iqoo: \n由于“是”字很常用，一直以来按 s 第一个就是这个字。但几天前突然莫名其妙按 s 后全是生僻字，前几个变成什么“溯”、“塞”、“③” 等等，往下翻几十页都到乱码字了也没看到 “是” 字，不得不按 “shi” 才能打出来。\n很奇怪~不知道有没有遇到过的。",
+          "link": "https://www.v2ex.com/t/1108698",
+          "publishedOn": "2025-02-03T04:00:51.000Z",
+          "wordCount": 402,
+          "title": "Mac 搜狗输入法按 “s” 居然打不出 “是” 字了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108697",
+          "author": "moxnet",
+          "description": "moxnet: \n春节把电脑带来，没带键盘。但没找到有线键盘，只有一个未配对的蓝牙键盘，还找到一个有线 USB 鼠标。\n登录界面输入密码的时候，无法调出虚拟键盘，无法使用鼠标输入密码；\n用另一台电脑使用远程远程桌面，发现无法连接。（感觉是未登录，远程连接的服务端未启动）\n即使 ssh ，也无法从另一台电脑登录。（猜测原因同上）\n这种情况，只能找个有线键盘？",
+          "link": "https://www.v2ex.com/t/1108697",
+          "publishedOn": "2025-02-03T03:45:41.000Z",
+          "wordCount": 375,
+          "title": "iMac /黑苹果，只有未配对的蓝牙键盘+有线鼠标，能登录么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108696",
+          "author": "nishuoshenme",
+          "description": "nishuoshenme: npy 驾照考出来好几年了，一直没怎么开过，想问下上海有哪里路上车少一点，适合新手练车的？",
+          "link": "https://www.v2ex.com/t/1108696",
+          "publishedOn": "2025-02-03T03:31:28.000Z",
+          "wordCount": 403,
+          "title": "上海哪里适合新手练车？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108695",
+          "author": "test9106",
+          "description": "test9106: 营养品？不知道买什么比较好，谢谢",
+          "link": "https://www.v2ex.com/t/1108695",
+          "publishedOn": "2025-02-03T03:25:38.000Z",
+          "wordCount": 415,
+          "title": "亲戚，肺癌晚期，想去看看，送什么比较好啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108692",
+          "author": "Trinity99",
+          "description": "Trinity99: \n我们的外公是亲兄弟，今年过年他没回家，听他姐姐说之前领女朋友回家，父母不同意。女方是再婚，有个女儿。于是他们单领证不办仪式了。",
+          "link": "https://www.v2ex.com/t/1108692",
+          "publishedOn": "2025-02-03T03:15:46.000Z",
+          "wordCount": 387,
+          "title": "从小玩到大的伙伴决定只领证不办婚礼",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108690",
+          "author": "z5238384",
+          "description": "z5238384: 很奇怪的问题 我在 ios 上使用 perplexity app 我开 singbox 开全局代理 无法访问，但是我用 quantumultX 全局就可以正常访问，用的节点是同一个节点， 有大佬能试试看吗？\n我在后台看日志 perplexity 的域名 是正确走了节点的。\n配置如下：\n{  \"log\": {\n    \"level\": \"info\",\n    \"timestamp\": true\n  },\n  \"experimental\": {\n    \"cache_file\": {\n      \"enabled\": true,\n      \"store_fakeip\": true,\n      \"store_rdrc\": true\n    },\n    \"clash_api\": {\n      \"external_controller\": \"127.0.0.1:9090\",\n      \"external_ui\": \"ui\",\n      \"external_ui_download_url\": \"https://ghproxy.cn/github.com/MetaCubeX/metacubexd/archive/gh-pages.zip\",\n      \"external_ui_download_detour\": \"direct\"\n    }\n  },\n  \"dns\": {\n    \"servers\": [\n      {\n        \"tag\": \"google\",\n        \"address\": \"https://8.8.8.8/dns-query\"\n      },\n      {\n        \"tag\": \"local\",\n        \"address\": \"https://223.5.5.5/dns-query\",\n      …",
+          "link": "https://www.v2ex.com/t/1108690",
+          "publishedOn": "2025-02-03T02:40:45.000Z",
+          "wordCount": 843,
+          "title": "Singbox 似乎无法正确处理 perplexity ios 端 app 代理",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108686",
           "author": "huyudong1991",
           "description": "huyudong1991: 不知道是不是颜色策略问题，我买了两代的 gram 都有这个问题，一瞬间看不清，然后等一会又清楚了，有老哥知道啥情况吗",
           "link": "https://www.v2ex.com/t/1108686",
           "publishedOn": "2025-02-03T02:25:54.000Z",
-          "wordCount": 404,
+          "wordCount": 417,
           "title": "LG Gram 屏幕发白不清晰",
           "imageUrl": null
         },
@@ -315,7 +548,7 @@
           "description": "cjbkobe: \n黑群 918 稳定运行四五年了，最近换了小机箱散热嗷嗷叫就给 CPU 限制了 TDP ，结果就是 VMM 里的 WIN10 卡到爆\n研究了好几天的 PVE ，结果有人说还不如用 WIN10+VM ，win 毕竟相对更熟悉而且我最终目的也还是要用 WIN+NAS\n有没有过来人说说 1.继续物理机； 2.PVE+黑群； 3.WIN10+VM 黑群这三个哪个更推荐一些？",
           "link": "https://www.v2ex.com/t/1108685",
           "publishedOn": "2025-02-03T02:17:33.000Z",
-          "wordCount": 463,
+          "wordCount": 485,
           "title": "想把物理黑群换成 WIN10+VM，有没有人打醒我",
           "imageUrl": null
         },
@@ -335,7 +568,7 @@
           "description": "emean: \n稀缺资源中国台湾省教育部官方邮箱 不可别名\n逼格满满独享使用可改密码 带售后服务\n包含社区帐号和三个邮箱\n（性价比极高一个号有三个独立的邮箱: @mail.edu.tw 和 @go.edu.tw 和  @ms.edu.tw ）\n教育雲端帳號就是您的帳號也是您的電子郵件（例\n如: account123@mail.edu.tw\n邮箱托管在 Google ，outlook ，和教育部自带的邮件系统：输入账号密码即可登录\nhttps://mail.edu.tw/edumail.html\n你发前缀邮箱名我来定制 99R\n规则:必须大于六位字母不可 aabbcc 这种连号\n注意不支持数字\n数量有限 \n联系绿泡泡 ZWR1X3Nob3A=\ntg 联系 https://t.me/sexkxd",
           "link": "https://www.v2ex.com/t/1108682",
           "publishedOn": "2025-02-03T01:59:40.000Z",
-          "wordCount": 496,
+          "wordCount": 115,
           "title": "出一点 台湾教育部邮箱 @mail.edu.tw 定制前缀",
           "imageUrl": null
         },
@@ -345,7 +578,7 @@
           "description": "LouisGuo: 类似于现在搁上海说： “听说外滩的排骨年糕都开门了，我推你去尝尝”",
           "link": "https://www.v2ex.com/t/1108681",
           "publishedOn": "2025-02-03T01:53:00.000Z",
-          "wordCount": 450,
+          "wordCount": 455,
           "title": "“听说北海的花儿都开了，我推着你去走走” 是不是低调的凡尔赛？",
           "imageUrl": null
         },
@@ -355,7 +588,7 @@
           "description": "supahotfire: 倍控 N100 （ 8G+128G 固态）安装了 PVE ，创建了 immortalwrt 和 ubuntu22.04 ，前者海淘作旁路由，核显直通给 ubuntu ，买了一块 2T 机械硬盘直通也给 ubuntu ，并 docker 部署了 jellyfin ，rclone 把 onedrive 的音乐、电影都拷贝到机械硬盘，发现 jellyfin 官方客户端 iPhone 上播放音乐不能后台。\n请教各位大佬：\n音乐需求有无其他方案，部署 navidrome 吗？\n不想搞黑裙或者飞牛了，云存储需求不大，这个方案合理吗？\nubuntu 需要设置硬盘休眠吗？",
           "link": "https://www.v2ex.com/t/1108679",
           "publishedOn": "2025-02-03T01:47:07.000Z",
-          "wordCount": 412,
+          "wordCount": 432,
           "title": "春节几天折腾了一下 PVE",
           "imageUrl": null
         },
@@ -365,7 +598,7 @@
           "description": "romancekami:",
           "link": "https://www.v2ex.com/t/1108678",
           "publishedOn": "2025-02-03T01:31:10.000Z",
-          "wordCount": 443,
+          "wordCount": 459,
           "title": "现在从 b 站 YouTube 之类的视频网站下载视频推荐用什么软件或者方法？",
           "imageUrl": null
         },
@@ -375,7 +608,7 @@
           "description": "M48A1: \n认识一位女生，每天没有需要特别投入的事情，就会想起她；\n可是也不是那种会一直找她？\n回避型依恋人格？\n也没有好奇她在做什么，只是单纯地想到她；\n如果每天都经常想到她，是喜欢她了吗？",
           "link": "https://www.v2ex.com/t/1108675",
           "publishedOn": "2025-02-03T00:12:21.000Z",
-          "wordCount": 615,
+          "wordCount": 643,
           "title": "每个小时或者每间隔十几分钟就想起她，是喜欢吗？",
           "imageUrl": null
         },
@@ -385,7 +618,7 @@
           "description": "calloc: \n这种感觉是 24 年开始有的。当然只是感觉，不知道大家有没有这种感觉。",
           "link": "https://www.v2ex.com/t/1108674",
           "publishedOn": "2025-02-03T00:00:33.000Z",
-          "wordCount": 663,
+          "wordCount": 687,
           "title": "感觉互联网上错别字变多了",
           "imageUrl": null
         },
@@ -405,7 +638,7 @@
           "description": "netabare: 因为测试相对来说会比较机械化，简单一点，比较适合不想写代码的时候维持低程度的日常输出。但同时测试用例又可以让对代码的理解程度不至于过于生疏。\n（只是一个想法而已，因为最近确实感觉不太想写东西，就在想是不是可以通过写测试来绕过这个低谷期）",
           "link": "https://www.v2ex.com/t/1108672",
           "publishedOn": "2025-02-02T22:02:40.000Z",
-          "wordCount": 413,
+          "wordCount": 419,
           "title": "突然想到，测试驱动开发是不是有一个用处是「不想写代码的时候可以先把结构打好」",
           "imageUrl": null
         },
@@ -415,7 +648,7 @@
           "description": "ota: 他会在远程服务器启动一个 ide 。真卡，而且耗资源。我的目的是同步项目文件，并且调用远程服务器的 py 解释器以及包来运行代码。\n这样可以实时进行生产环境上的程序调试。\n还有最大理由就是不想在本地装 py 。",
           "link": "https://www.v2ex.com/t/1108670",
           "publishedOn": "2025-02-02T21:32:47.000Z",
-          "wordCount": 540,
+          "wordCount": 546,
           "title": "pycharm 如何做远程开发？",
           "imageUrl": null
         },
@@ -425,7 +658,7 @@
           "description": "Baoo: 同一个问题，o3-mini-high 问的问题，公式化敷衍回答，稍微换一下内容就完全错误，我叫它纠正还是错误的回答。\ndeepseek-R1 不仅能回答的满意,还帮我解决一些潜在错误思路，叫它添加功能也是完美结合，比 openai 的模型有灵性多了。\n\n真是菜完了，你还每月 20 美元？？？",
           "link": "https://www.v2ex.com/t/1108669",
           "publishedOn": "2025-02-02T20:50:03.000Z",
-          "wordCount": 459,
+          "wordCount": 473,
           "title": "现在的 openai 唐完了",
           "imageUrl": null
         },
@@ -455,258 +688,8 @@
           "description": "SuilWinG5658: \n我现在想换港币到 za 银行上面，但是通过我的内地银行卡转账需要手续费而且不及时，我朋友 za 账户上有港币，我直接借他的，然后我在内地银行上还给他人民币不就行了，这样做需要考虑的风险点在哪边呢",
           "link": "https://www.v2ex.com/t/1108665",
           "publishedOn": "2025-02-02T18:29:45.000Z",
-          "wordCount": 383,
+          "wordCount": 385,
           "title": "众安港币入金疑问？对敲可行吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108664",
-          "author": "iovekkk",
-          "description": "iovekkk: 使用有大半年了，一直以来有个很困扰的事情，就是在高速下载或者拷贝文件的时候会发现 macOS 中的 kernel task 进程会出现非常高的 cpu 占用，严重的时候，cpu 占用高达 90%，导致系统巨卡无比，之前一直都没有找到具体的原因\n这个春节假期花了好几天时间做了一件事，就是把硬盘柜中的四块硬盘的格式从 APFS 换成了 HFS+，这个是偶然间了解到的，APFS 格式是苹果为固态硬盘打造的硬盘格式，支持了比较多的高级功能，因此机械硬盘如果使用了这个硬盘格式，会有一些性能损耗，而 HFS+作为早期的苹果硬盘格式，功能较为简单，更适合机械硬盘使用。\n为了格式化这四块机械硬盘，也就免不了硬盘之间文件互拷，将一个硬盘中的文件都备份到另外一个硬盘上才能格式化这块硬盘，之后再拷回来，整个过程历时大概 3 天时间。而在硬盘互拷的过程中，又不可避免的出现 kernel task 进程高 cpu 占用的问题，这次有了大把的时间，经过多次实验和对比，应该算是总结出了问题的原因：\n也就是硬盘柜中多个硬盘同时读取写入时，cpu 占用就会出现异常高的情况。\n目前猜测是硬盘柜中多个硬盘同时读写时，硬盘柜外置电源的功率不够导致的。铁威马确实也很小气，只给配了一个 12v6A 的电源，基本上是不够四块硬盘同时满载运行的。\n猜到这个原因之后，后面再进行两个硬盘之间备份文件时，我就把另外两块硬盘直接推出，只保留同时读写的两块硬盘挂载，果然就再也没有出现过 cpu 占用过高的情况了\n现在在挂 pt 下载的时候，也尽量避免同时往两块硬盘下载的情况，今后的使用体验应该会好一些吧",
-          "link": "https://www.v2ex.com/t/1108664",
-          "publishedOn": "2025-02-02T18:16:11.000Z",
-          "wordCount": 419,
-          "title": "铁威马 D4-320 硬盘柜使用有感",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108663",
-          "author": "jackie777",
-          "description": "jackie777: \n来和大家介绍下我做的浏览器插件 「 TabTab 」 https://tabtab.xyz \n创建过程可以看我另一帖子 TabTab - Cursor / Trae 帮我写的第一个浏览器插件。\n之所以会创建这个插件，是为了解决我浏览器书签的使用痛点。一直以来在我工作中需要重度使用浏览器，常常会打开一堆的标签页。\n查一个线上问题，可能需要打开若干个网页，c 端线上网页、测试端网页、日志后台、运维后台、dms ...\n完成一个需求，需要打开产品文档、task 单、测试环境网页、运维后台\n重大活动期间，需要打开若干页面观测线上负载\n... \n诸如上述情形，我很多时候需要快速打开一批网页完成某项工作。\n另外，平时处理一些问题时，不断深究下去，往往会打开若干网页，我需要保存下所有的网页，留下一份快照，以待下次继续处理。\n对于一些常用的网站我需要一些创建快捷方式方便快速访问。\n浏览器的书签以及标签组也能完成上述需求，但是操作往往很繁琐。我需要的是一个宫格式的布局，能平铺开我所有收藏的书签，于是就做了这个 TabTab 来管理我收藏的书签。\n\n相比于默认书签页的树状管理，TabTab 采取更简单的两层结构：空间 & 合集 (Space & Collection)。你可以创建不同的空间用于区分不同的场景，比如个人 or 工作；创建合集归置一组相关的网页，合集支持一键打开，并且支持一键将当前浏览器网页状态保存为新的合集。\n此外，TabTab 简化了操作方式，通过简单拖拽即可完成收藏、排序等操作。\nTabTab 还会接管浏览器的默认启始页，当你通过 ctrl + t 快捷键打开新标签页时，即会打开 TabTab 。\n至此，TabTab 会帮助你把浏览器打造成更加高效的工作台。\n你可以快速打开 TabTab ，打开某个收藏站点。因为是宫格式卡片的布局，所有收藏的网页一目了然。\n你可以快速打开 TabTab ，当前打开的网页会展示在右侧栏中，你可以将其拖入到合集区域，即可完成收藏。\n如果你和我有相似的困扰，👏 欢迎来体验一下 https://www.tabtab.xyz ，看看能否提高效率解决你的困扰。\n如果对你有用，希望客官老爷们好评转发。（我也上线了 Product Hunt,  https://www.producthunt.com/products/tabtab-3 , 麻烦点个赞）",
-          "link": "https://www.v2ex.com/t/1108663",
-          "publishedOn": "2025-02-02T17:59:49.000Z",
-          "wordCount": 467,
-          "title": "TabTab 简洁高效的浏览器书签管理工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108662",
-          "author": "ChoateYao",
-          "description": "ChoateYao: \nbluesky —— 去中心化的社交平台，类似 X\nlinktr - 一个链接聚合平台\ntumblr - 汤不热，创建博客之后可以获取免费外链\ncarrd - 个人网站生成器\ntwitch - 直播平台，创建自己的频道之后可以设置外链\n6 plurk - 另外一个类似 X 的社交平台，创建账号需要 3 天后才能添加外链",
-          "link": "https://www.v2ex.com/t/1108662",
-          "publishedOn": "2025-02-02T17:54:59.000Z",
-          "wordCount": 375,
-          "title": "免费外链社交平台，已经全部验证过了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108660",
-          "author": "eric107008",
-          "description": "eric107008: \n去年因为做了个数据量比较大的项目，外加各种模型权重、数据集越来越多，患上了存储空间焦虑症。年底的时候回国扛了一台绿联的 DXP6800Pro ，外加 6 个西数 16T 二手企业盘和 2 个 2T 的致钛 Ti600 的 SSD 到办公室，现在不焦虑存储空间了，但有点纠结怎么用好这个 NAS 。网上搜索+问了问 ChatGPT ，并没有在方案设计上找到什么有建设性的答案。\n目前的状态\n刷了 Debian12 ，6 个 HDD 用 ZFS 组了个 RaidZ2 ，两个 SSD 做镜像后现在是 ZFS 的 LOG 。本意是想加速一下写入，但似乎并没有起到太大的作用。我自己还搞了个万兆交换机，配合手动配置 IP ，让电脑和 NAS 之间通过万兆局域网连接，平时会通过一个跑在 podman 里的 samba 挂载到(Windows 和 Linux 都有)电脑上。Samba 开了个共享账号给周围的同事用，自己有一个单独的 Samba 账号。本来还搭了个 Aria2 ，但因为 podman 容器里挂载目录的权限问题比 docker 要复杂一些，所以还没跑通。\n总结来说，现在的 NAS 用起来有以下几个痛点\n读写性能跑不满自己搭的万兆局域网，最多跑满 HDD 的顺序读写，SSD 似乎没有起到什么作用\n所有的东西塞在一个大存储池里，偶尔手动把数据复制到用于备份的另一台机器上\n一旦有点大规模的（特别是随机的）读写，企业盘炒豆子的声音会引起一些同事的抗议\n鄙人的核心诉求大概如下（重要性从高到低）\n不能丢数据\n尽可能充分利用现有硬件，提升性能和存储空间利用率\n减少维护时的心智和体力负担\n作为隐私焦虑症患者，希望尽可能保障隐私和安全性(例如在一些应用/软件选择上使用了开源方案而非商业方案）。但考虑到 3 ，可以选一些“退而求其次”的选择，比如 debian 换成 ubun…",
-          "link": "https://www.v2ex.com/t/1108660",
-          "publishedOn": "2025-02-02T17:34:04.000Z",
-          "wordCount": 1045,
-          "title": "6+2 盘位的 NAS 放在办公室如何规划存储和应用？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108659",
-          "author": "haha2333haha",
-          "description": "haha2333haha: 众所周知苹果 m1 m2 兼顾高性能与低能耗\n而且目前网络上存在某些 macbook air/pro 拆机主板\n然后 m1m2 cpu 支持 linux\n那么 8 核的 m2 是否碾压一切嵌入式服务器\nbcm2712 bcm2711\nrk3566 rk3588\nn100 n5105\n好像没一个有能与装了 linux 的无头 m2 对垒",
-          "link": "https://www.v2ex.com/t/1108659",
-          "publishedOn": "2025-02-02T16:28:36.000Z",
-          "wordCount": 571,
-          "title": "二手 m1 m2 主板当家用服务器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108658",
-          "author": "mifafaovo",
-          "description": "mifafaovo: \nhttps://pic1.imgdb.cn/item/679f94efd0e0a243d4f99e22.png",
-          "link": "https://www.v2ex.com/t/1108658",
-          "publishedOn": "2025-02-02T15:55:44.000Z",
-          "wordCount": 528,
-          "title": "和团队组长相处几乎抑郁，身体出问题，请教大伙儿接下来该怎么办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108657",
-          "author": "hoodjannn",
-          "description": "hoodjannn: \n个人网站： https://hujianbo.com/\n年前 deepseek 爆火还没那么卡的时候，用 Continue 插件 接入 api,拿着几个 headless 的 ui 库喂了进去，重新构建了自己的个人网站。\n代码花了大概两天时间，加上自己 p 图用 illustrator 画图的话大概总计 2 天半。因为也很久没有写文章博客了，直接把以前的文章套了过来，顺序是乱的，之后改改。\n现在 ai 编码真是对我这种普通码农并且是懒癌党的福音，完全离不开 cursor 和插件接入大模型 api 工具",
-          "link": "https://www.v2ex.com/t/1108657",
-          "publishedOn": "2025-02-02T15:35:20.000Z",
-          "wordCount": 403,
-          "title": "用 deepseek 花两天时间快速的重构了一下自己的个人网站，真是写代码利器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108656",
-          "author": "leon1293",
-          "description": "leon1293: \n我在软路由上配置了 openclash ，用的 fakeip+混合模式+Dnsmasq 转发，能正常使用其他 app 和 chatgpt 网页。但 chatgpt app 就用不了，进 app 就一直转圈。查看 clash 的日志发现 chatgpt 被解析到 facebook 和 google 的 ip 了，但其他 app 和网页就没这情况。请问各位这是咋回事，应该如何解决呢？",
-          "link": "https://www.v2ex.com/t/1108656",
-          "publishedOn": "2025-02-02T15:26:30.000Z",
-          "wordCount": 424,
-          "title": "[求助]为何只有 ChatGPT app 被 DNS 污染，如何解决？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108655",
-          "author": "juzi214032",
-          "description": "juzi214032: \n\n这样一个拓扑图，如果我的 PC1 从互联网下载文件，PC2 从 nas 下载文件，是不是这两个 pc 的总速率会被限制为 1000M ，有办法解决这种问题吗，看起来像是交换机级联就会产生这样的问题",
-          "link": "https://www.v2ex.com/t/1108655",
-          "publishedOn": "2025-02-02T15:12:05.000Z",
-          "wordCount": 458,
-          "title": "有个交换机的疑问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108654",
-          "author": "mifafaovo",
-          "description": "mifafaovo: \n咋们这地方发帖后无法删帖。 有些职场的问题，想来吐槽/咨询意见的，一说太细感觉很有可能就被定位了...这点怎么破。 但是又真切想得到大家的意见",
-          "link": "https://www.v2ex.com/t/1108654",
-          "publishedOn": "2025-02-02T15:08:19.000Z",
-          "wordCount": 1440,
-          "title": "v2ex 发帖隐私性问题",
-          "imageUrl": "/static/icon-192.png"
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108651",
-          "author": "mxdyeah",
-          "description": "mxdyeah: \n我自己呢，写了一篇博客 别让 SSL ，成为泄漏源站 IP 的最佳助攻 但是写完博客我才觉得，这个方法可能太低级了，且只能防住 censys 。\n看了一下 fofa 的官网，只能说这句话不如不说，感觉就像是绑架一样 如果我的设备不希望被 fofa 收录，我应该如何操作？ \n如果我的设备不希望被 fofa 收录，我应该如何操作？\n不要将设备放在外网。\n但是，网站哪里有不在外网的😂，所以来求助下大家，如何解决。",
-          "link": "https://www.v2ex.com/t/1108651",
-          "publishedOn": "2025-02-02T15:01:05.000Z",
-          "wordCount": 450,
-          "title": "如何避免 fofa、censys 等网站，查询到自己的源站 ip 或者其他信息？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108650",
-          "author": "wanxiaoba123",
-          "description": "wanxiaoba123: 中文网址： https://midjourneysref.com/zh\n日语网址： https://midjourneysref.com/ja\n韩文网址： https://midjourneysref.com/ko\n法语网址： https://midjourneysref.com/fr\n德语网址： https://midjourneysref.com/de\n西语网址： https://midjourneysref.com/es\n多语言支持后对 SEO 有一定的帮助！",
-          "link": "https://www.v2ex.com/t/1108650",
-          "publishedOn": "2025-02-02T14:59:55.000Z",
-          "wordCount": 359,
-          "title": "网站兼容了多语言！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108649",
-          "author": "thatmrl",
-          "description": "thatmrl: \n用「 Sign in with Apple 」创建第三方账户时有两个选项：\na.共享邮箱，第三方服务可以获取 apple ID 的主要邮箱。\nb.隐藏邮箱，第三方服务可以获取一个随机邮箱，可以通过随机邮箱转发到主要邮箱。\nApple 现在允许修改 Apple ID 的主要邮箱。\n根据上述两点，如果创建完第三方账户后修改「 Apple ID 」的主要邮箱，会对第三方账户产生什么影响？\n我的猜测是，第三方账户实际是基于 openid ，修改主要邮箱应该不改变 openid 。\n因此两种选项下创建的账户应该都仍然可以登录。\n至于邮件，\na.选项下第三方服务不确定是否仍向注册时的地址发件，以致无法接受。同时不确定 Apple 和第三方有没有提供更新收件地址的地方。\nb.选项下随机地址应该仍保留，第三方服务仍能正常发件。即使不能自动转发到新地址，也可以手动在 Apple 提供的设置中更新转发的目标地址，所以至少有办法解决。\n有没有了解其中细节的，或者实际这样操作过的；来说明一下？",
-          "link": "https://www.v2ex.com/t/1108649",
-          "publishedOn": "2025-02-02T14:57:56.000Z",
-          "wordCount": 469,
-          "title": "用「Sign in with Apple」创建第三方账户后，修改「Apple ID」的主要邮箱，会对第三方账户产生什么影响？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108648",
-          "author": "ziyouhua",
-          "description": "ziyouhua:",
-          "link": "https://www.v2ex.com/t/1108648",
-          "publishedOn": "2025-02-02T14:55:55.000Z",
-          "wordCount": 388,
-          "title": "安卓 Chrome 经常重置网页,填资料一填就没了，要重新填，有什么办法解决吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108647",
-          "author": "monkeyk",
-          "description": "monkeyk: \n成都今年的城区有到处放烟花；\n你们都放了吗？如何获取到货的、",
-          "link": "https://www.v2ex.com/t/1108647",
-          "publishedOn": "2025-02-02T14:49:25.000Z",
-          "wordCount": 337,
-          "title": "2025 年春节成都有烟花放？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108646",
-          "author": "jeesk",
-          "description": "jeesk: \n终于通过谷歌 google play 的封闭审核了,   注册开发者和应用上架都是一次审核通过,所有文件访问权限没有那么难申请,向审核人员通过视频的方式说明了一些必要性,审核人员也没有拒绝. \nhttps://relaxpic.com/ 这是我们的官方网站.\n这时商店的内部链接, https://play.google.com/store/apps/details?id=com.shanjiancaofu.gallery.preview\n这是网页链接, https://play.google.com/apps/testing/com.shanjiancaofu.gallery.preview\n欢迎留下邮箱, 将小伙伴添加到封闭测试中,或发送邮件到 support@relaxpic.com ,我们会将您加入封闭测试.\n只有加入上面的封闭测试中,上面的链接才能成功访问.",
-          "link": "https://www.v2ex.com/t/1108646",
-          "publishedOn": "2025-02-02T14:34:45.000Z",
-          "wordCount": 366,
-          "title": "慢图浏览(相册)应用上架谷歌招收封闭测试用户",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108645",
-          "author": "maymay5",
-          "description": "maymay5: \nGithub： https://github.com/MayDay-wpf/Think\n技术栈：vue+electron+nodejs\n功能列表：\n文件上传、图像上传、Mermaid 图表兼容\n本地联网模式(完全免费，无需第三方 API)\n基础设置，渠道管理，支持 Ollama\n用量统计\n基础部分：\n双语界面\n深浅色模式\n全代码开源\n拖拽排序\n后续将会上线内容：\n更多渠道兼容\n本地工作流\n自定义插件\n语音，图像，视频等生成 API 兼容\nFAQ\n为什么只打包了 MacOS ？\n因为暂时没有 PC ，等复工了再去打包\n数据存在哪？\n所有数据在本地 sqllite\n支持在线升级？\n暂不支持，需要卸载重装才可进行后续升级，将在后面版本中解决这个问题\n和其他客户端比有什么优势或区别？\n这个系统愿景并不打算做很多复杂功能，而是专注用户使用体验\n盈利模式？\n暂无盈利计划，后续可能做一个 PRO 的付费版本，不过这个优先级很低\n二次开发和商用？\n无限制\n在哪下载？\ngithub releases\n用户支持？\ngithub readme QQ 群，暂时没人 T_T\n相关截图\n\n\n\n\n\nAD:我的商用项目 https://aibotpro.cn\n全开源： https://github.com/MayDay-wpf/AIBotPublic",
-          "link": "https://www.v2ex.com/t/1108645",
-          "publishedOn": "2025-02-02T14:34:39.000Z",
-          "wordCount": 437,
-          "title": "[开源]一次 vite+electron 实践， AI 对话客户端， ThinkChat，已发行 MacOS， Windows 会尽快打包发布",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108644",
-          "author": "zhaochenyong",
-          "description": "zhaochenyong: \n各位我没有遇到过 win11 关机重启被阻止的情况？\n之前遇到过有规律名字的比方说 intel 集显驱动也就算了。\n最近家里电脑经常遇到随机应用阻止关。例如\"2[9h1(dk!~jdO.y6\"这种，这个应用阻止你重启，每次名字还不一样，阻塞一会儿后就成功关机 或重启了，顿时感觉很可怕。网上能查到也都是怎么让他不提示，看了 eventvwr 没有相关的信息，通过 sysinternal 工具看进程、看网络链接也没有特别值得关注的，windows defender 全盘扫描也无关。\n完全一头雾水……各位大佬有什么建议么？",
-          "link": "https://www.v2ex.com/t/1108644",
-          "publishedOn": "2025-02-02T14:28:13.000Z",
-          "wordCount": 494,
-          "title": "win11 关机重启被随机名字应用阻止",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108643",
-          "author": "fancy2020",
-          "description": "fancy2020: \n主要想看看英文原版书，以及历史政治之类的国内买不到的书。",
-          "link": "https://www.v2ex.com/t/1108643",
-          "publishedOn": "2025-02-02T14:21:09.000Z",
-          "wordCount": 424,
-          "title": "去香港买书去哪?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108642",
-          "author": "liuxyon",
-          "description": "liuxyon: \nv2ex id liv22\n他宣传的连接是 这个 有兴趣看这个 https://linktr.ee/webank88\n微信号是：llpzp8\n他宣称免费帮你办港卡，陪你去办. 结果今年 1 月份微信上与他约好,他说很多人办完没开证券账户,所以让你先通过他的链接注册证券账户. 结果我通过他注册了一个老虎证券. 当你到 hk 后,他就说他不去了. 不陪你办卡了.理由得流感了. 头一天晚上才说好,他保证陪我去. 结果放鸽子. \n我不介意中介, 你赚钱起码把事办了. 做人没底线.. 所以大家注意任何人说让你先通过他链接注册证券账户的,都可能存在被骗的风险.",
-          "link": "https://www.v2ex.com/t/1108642",
-          "publishedOn": "2025-02-02T14:20:57.000Z",
-          "wordCount": 413,
-          "title": "大家注意这个 v2id 是 liv22 骗子中介",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108641",
-          "author": "donglinjieshi",
-          "description": "donglinjieshi: \n预算 4000-5000 元。\n想要 15 或 16 寸的 macbook pro ，用来做 Java 开发。\n目标：19-21 之间的二手 mbp ，但具体型号自己搞不清楚。\n尤其是 i7 或 M1 等芯片之间的差距。",
-          "link": "https://www.v2ex.com/t/1108641",
-          "publishedOn": "2025-02-02T14:17:40.000Z",
-          "wordCount": 485,
-          "title": "求推荐二手苹果电脑 macbook",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108640",
-          "author": "teli",
-          "description": "teli: 考虑开直播，推销互联网服务产品，非游戏\n准备了文案、产品页面截图\n但一直没开干\n因为总是觉得不是那么回事\n比方说，卖衣服，一个小姐姐出境试衣；卖宠物用品，宠物出境；卖农产品，直接拍农村田园\n卖个互联网服务产品，截了几张图，准备了几分钟的文案，无论自己出境，还是文案转语音， 或者创建一个虚拟主播，总感觉不是那么回事\n不吸引人，谁来看啊？\n如果只是产品介绍视频还好，可以把产品操作流程跑一遍，加上讲解。\n但直播带货，重点是把顾客吸引来\n大家有没有什么好建议，或者有类似的可以参考吗？\n之前在一家公司，参与了那家公司的直播带货系统开发\n直播时，就是两个人，在屏幕前扯淡几十分钟，惨淡经营……\n竞争对手做得相对专业，跑到外面找个漂亮背景，加上美颜，但销量也没见好到哪去",
-          "link": "https://www.v2ex.com/t/1108640",
-          "publishedOn": "2025-02-02T13:52:12.000Z",
-          "wordCount": 411,
-          "title": "互联网服务产品如何直播带货？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108639",
-          "author": "bclerdx",
-          "description": "bclerdx: 为什么从北京鹏博士线路到 119.29.29.29 的公众 DNS 的 ping 延迟有点高啊？是有限制了？还是腾讯公众 DNS 119.29.29.29 到北京鹏博士的线路的带宽不足造成的。我这边测试了一下 ping 平均延迟都快到 70ms 了。而北京联通到 DNS 119.29.29.29 的平均延迟也仅仅在 20ms 左右。另外，北京鹏博士线路到 DNS 119.28.28.28 的平均延迟就比较低，基本在 20ms 左右哦！\n@johnjiang85",
-          "link": "https://www.v2ex.com/t/1108639",
-          "publishedOn": "2025-02-02T13:45:55.000Z",
-          "wordCount": 413,
-          "title": "为什么从北京鹏博士线路到 119.29.29.29 的公众 DNS 的 ping 延迟有点高啊？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108638",
-          "author": "orangutan92",
-          "description": "orangutan92: 试过了网上的一些方法，都不太好使，不知道怎么办了，这个会影响我的软件正常使用，我需要在里面设置排除项。这个也没法彻底卸载吧。",
-          "link": "https://www.v2ex.com/t/1108638",
-          "publishedOn": "2025-02-02T13:35:24.000Z",
-          "wordCount": 421,
-          "title": "win11 安全中心打开界面是空白的怎么解决？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108637",
-          "author": "vincentzlt",
-          "description": "vincentzlt: \n如题 麻烦各位老哥",
-          "link": "https://www.v2ex.com/t/1108637",
-          "publishedOn": "2025-02-02T13:26:02.000Z",
-          "wordCount": 382,
-          "title": "现在这个时间节点 20250202 从那儿还能用到 DeepSeek R1 + 联网搜索？",
           "imageUrl": null
         }
       ]
