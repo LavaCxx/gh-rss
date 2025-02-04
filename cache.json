@@ -169,12 +169,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -333,12 +327,202 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108900",
+          "author": "ldz",
+          "description": "ldz: 氧 OS 15 Root 了之后通过 Shamiko+隐藏应用列表+Play Integrity Fix 把除了得物 App 之外所有其他 App （包括各大银行 App ）的 Root 检测都搞定了\n就剩下这一个搞不定\n得物恶心就恶心在检测到 Root 之后动不动给你跳验证码\n我也试了微信的得物小程序 也是一样跳验证码\n请各位有经验的大佬指点下应该咋整",
+          "link": "https://www.v2ex.com/t/1108900",
+          "publishedOn": "2025-02-04T14:52:55.000Z",
+          "wordCount": 377,
+          "title": "怎样绕过得物 App 的 Root 检测？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108899",
+          "author": "YGBlvcAK",
+          "description": "YGBlvcAK: 影片结尾，为什么要拿一个屠城的杀人犯来打趣？全镇人的生命就不是命吗？就这么轻易被遗忘了吗？这跟人血馒头有什么区别？",
+          "link": "https://www.v2ex.com/t/1108899",
+          "publishedOn": "2025-02-04T14:51:02.000Z",
+          "wordCount": 351,
+          "title": "哪吒看完了，给不了 6 分，就喷这一点",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108898",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia: \n有人知道是什么问题吗？\n我发现在打开新游戏的时候这个占用会增加十几 GB ，关闭游戏不减，重启个几次就到一百 GB 以上了",
+          "link": "https://www.v2ex.com/t/1108898",
+          "publishedOn": "2025-02-04T14:44:43.000Z",
+          "wordCount": 405,
+          "title": "Hyper-V GPU 分区玩游戏 vmmem 进程的内存占用很不正常，我给虚拟机分 32GB 运行内存， vmmem 进程的 Commit Size 经常跑到 130GB 以上，然后把虚拟内存占满了，...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108897",
+          "author": "qianchengv",
+          "description": "qianchengv:",
+          "link": "https://www.v2ex.com/t/1108897",
+          "publishedOn": "2025-02-04T14:23:16.000Z",
+          "wordCount": 413,
+          "title": "DeepSeek App 的后端服务又又又崩了（2025-02-04）？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108894",
+          "author": "ghostben",
+          "description": "ghostben: \n平常会在两台设备上使用微信，家里电脑和公司电脑，如果两边分别登录的话聊天记录有时候会同步不及时导致丢记录，有没有什么办法可以在两台设备上同时使用微信并且保证有设备（家里的电脑）中的聊天记录是完整的呢？\n有想到一个比较麻烦的办法就是直接 RDP 到家里电脑使用微信，但是这样家里电脑就得全天在线，很不方便。\n也有用 onedrive 同步聊天记录文件夹的方法，但是微信文件夹已经大到无法用免费的 5G 存下。\n也有说 syncthing 的，不知道跨设备同步会不会造成冲突或者聊天记录重复的问题。\n求各位大佬给点建议",
+          "link": "https://www.v2ex.com/t/1108894",
+          "publishedOn": "2025-02-04T14:08:37.000Z",
+          "wordCount": 362,
+          "title": "有没有多台 PC 设备同时使用微信客户端的方法？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108892",
+          "author": "shuiguomayi",
+          "description": "shuiguomayi: \nMac mini 2018 用 蓝牙键盘 A1314 和 触摸板 A1339 间歇性间断, 每次间断 5,6 秒钟，多久会断一次时间不确定。房间里放了 1 个小米路由器 mini ，开启 2.4G 和 5G 信号。BTW ，两者都是足电的，80%电量以上。\n极度依赖 2.4G 网络，因为有个 broadlink 智能开关和一个小米音箱只能用 2.4G 网络。\n5G 网络从频段原理上看，跟蓝牙的频段没有任何冲突。\n各位有排查思路么？\n如果，非得换有线的话，请教推荐一个好用的适配 macOS 的有线键盘和鼠标，好用， 迁移代价低。多谢了。",
+          "link": "https://www.v2ex.com/t/1108892",
+          "publishedOn": "2025-02-04T14:06:53.000Z",
+          "wordCount": 406,
+          "title": "Mac 上蓝牙键盘和触摸板间歇性间断，排查思路？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108891",
+          "author": "revival83",
+          "description": "revival83: 不是特臃肿就是版本特旧\nN1 挂了 需要重刷",
+          "link": "https://www.v2ex.com/t/1108891",
+          "publishedOn": "2025-02-04T14:05:16.000Z",
+          "wordCount": 394,
+          "title": "求个最新的 N1 旁路由固件… 找了好多都不太靠谱",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108888",
+          "author": "Int100",
+          "description": "Int100: \n请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?\n只讨论满血版 671B, 阉割版不在讨论范围内.\n需要稳定的, 官网 API 已经连续 9 天 Major/Partial Outage 了.\n硅基流动就别说了, 慢的受不了.🤦",
+          "link": "https://www.v2ex.com/t/1108888",
+          "publishedOn": "2025-02-04T13:37:46.000Z",
+          "wordCount": 401,
+          "title": "请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108887",
+          "author": "lucasj",
+          "description": "lucasj: \nhttps://www.douban.com/search?q=%E4%BD%A0%E5%A5%BD",
+          "link": "https://www.v2ex.com/t/1108887",
+          "publishedOn": "2025-02-04T13:37:06.000Z",
+          "wordCount": 345,
+          "title": "豆瓣又挂了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108886",
+          "author": "PROJECT",
+          "description": "PROJECT: 我缺一个这样的路由器当旁路由，之前拿笔记本当旁路由，然后发现屏幕坏了。。想搞个硬路由或者软路由，求大佬们推荐",
+          "link": "https://www.v2ex.com/t/1108886",
+          "publishedOn": "2025-02-04T13:32:03.000Z",
+          "wordCount": 389,
+          "title": "求大佬推荐路由器或者软路由，要求 Xray+Xhttp+reality 能跑满 500m 的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108884",
+          "author": "dsg001",
+          "description": "dsg001: \n官网的深度思考经常用不了",
+          "link": "https://www.v2ex.com/t/1108884",
+          "publishedOn": "2025-02-04T13:03:15.000Z",
+          "wordCount": 373,
+          "title": "请教，哪家云厂商的 DeepSeekR1 是自己部署的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108883",
+          "author": "hxlgg01",
+          "description": "hxlgg01: \n刚才花了 7 块钱买了一个美国手机号来注册 claude ，一次成功，刚聊几句话，就告诉我没额度了，让我明天下午再来，无语     \n使用体验也不尽人意，连联网搜索都没有，感觉没有网上说的和 GPT 比肩那么强。  \n现在用回的慷慨的 Gemini ，感觉不比 GPT 差。  \n这里奉劝各位，如果不想开 pro ，千万别跟风注册 Claude",
+          "link": "https://www.v2ex.com/t/1108883",
+          "publishedOn": "2025-02-04T12:52:48.000Z",
+          "wordCount": 494,
+          "title": "7 块钱注册 Claude，感觉亏了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108880",
+          "author": "felixzzz",
+          "description": "felixzzz: \nNOTICE:\nThis software is using TrueLicense 2. TrueLicense 2 is covered by a commercial\nlicense agreement and the AGPLv3 - see\nhttps://christian-schlichtherle.github.io/truelicense/licensing.html .\nYou see this message because this software is currently subject to the terms of\nthe AGPLv3. This implies that the source code for this software must be\navailable for free. If this is not the case, please contact the software vendor.\ninstall lic\nNo license\nProcess finished with exit code 0\nspringboot 项目，这个该怎么办？",
+          "link": "https://www.v2ex.com/t/1108880",
+          "publishedOn": "2025-02-04T12:32:24.000Z",
+          "wordCount": 527,
+          "title": "我的项目是开源项目二次开发的，今天突然提示这个",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108879",
+          "author": "xingye163",
+          "description": "xingye163: 之前办理了个在网 3 年的合约，4 月马上到期，想改个便宜点的单网套餐，应该公网 IP 会丢失吧。",
+          "link": "https://www.v2ex.com/t/1108879",
+          "publishedOn": "2025-02-04T12:30:28.000Z",
+          "wordCount": 412,
+          "title": "湖南电信融合宽带 1000 兆每月 199 包月，换套餐想保留公网 IP 怎么办？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108878",
+          "author": "mickeytm",
+          "description": "mickeytm: \n目前用的是 Memos Sync 插件，貌似只能从服务器端单向下载到 Obsidian 的日记中，而我在 Memor 下增删的内容不能反向同步到服务器上\n求一个解决方案？",
+          "link": "https://www.v2ex.com/t/1108878",
+          "publishedOn": "2025-02-04T12:30:13.000Z",
+          "wordCount": 348,
+          "title": "Obsidian 下有没有可以双向同步 Memos 的插件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108877",
+          "author": "dwu8555",
+          "description": "dwu8555:",
+          "link": "https://www.v2ex.com/t/1108877",
+          "publishedOn": "2025-02-04T12:27:06.000Z",
+          "wordCount": 386,
+          "title": "1Password 7 不能打开了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108876",
+          "author": "ChiuLam",
+          "description": "ChiuLam: \n从其他行业转行编程的朋友们，不管是通过培训还是自学，你们现在怎样了，会后悔这一决定吗？",
+          "link": "https://www.v2ex.com/t/1108876",
+          "publishedOn": "2025-02-04T12:25:28.000Z",
+          "wordCount": 401,
+          "title": "从其他行业转行到开发的，你们现在怎样了，后悔了吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108875",
+          "author": "xuromky",
+          "description": "xuromky: \n一直在说 ipv6 ipv6 今天总算是捣鼓了一把，ip138 打开能正常显示 ipv6 地址，也是能正常获取 ipv6 地址了\n就是在 https://ipv4.testipv6.cn/ 站测试的时候一直提示 IPv6 大数据包传输测试超时   \n部分网站可能无法正常显示，请向运营商咨询 MTU 是否存在问题，尤其是网络隧道的 MTU 。 检查你的防火墙，确保已放行 ICMPv6 消息（尤其是第 2 类，“数据包过大”）\n光猫已经改了桥接，主路由 K2P （ padavan 固件） PPPOE 拨号上网",
+          "link": "https://www.v2ex.com/t/1108875",
+          "publishedOn": "2025-02-04T12:11:13.000Z",
+          "wordCount": 483,
+          "title": "IPv6 大数据包传输测试超时",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108874",
+          "author": "HireWeb3",
+          "description": "HireWeb3: 风控策略专员\n岗位职责：\n- 用户监控与分析：识别漏洞 / 异常交易用户行为，为现有机制升级监控。\n- 审核与资金安全：轮班负责交易订单的实时审核操作，确保资金安全。\n- 策略优化与创新：提供不同风险控制视角，协助制定并调整风控策略以降低潜在损失。\n- 数据分析：利用数据分析工具对交易行为进行深入挖掘，发现潜在风险点，持续完善防控体系。\n- 团队协作：与技术、运营、产品等部门紧密合作，确保风控措施的高效执行。\n任职要求：\n- 2-3 年及以上风控策略经验，熟悉市场套利策略和用户行为。交易所 (CEX / DEX) 经验优先\n- 具备较强的数据分析能力，熟练使用 Java, Python, Pandas, SQL 等分析工具，有风控模型设计经验者优先。\n- 了解套利或交易等复杂交易的相关知识和能力;\n- 熟练使用大数据模型及统计分析软件；\n- 有能力深入研究其源码并做模改优化\n入围面试者，将在 5 个工作日内收到面试邀请。\n有意者可以通过电邮至 Goal@artemishr.xyz 附上简历，注明求职岗位。入围面试者，将在 5 个工作日内收到面试邀请。",
+          "link": "https://www.v2ex.com/t/1108874",
+          "publishedOn": "2025-02-04T12:02:48.000Z",
+          "wordCount": 392,
+          "title": "[远程 Web3 交易所] - 风控策略专员",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108873",
           "author": "bugmakerxs",
-          "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \nhttps://imgur.com/B6k7H2s\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\nhttps://imgur.com/cxNCx00\n虚拟机抓包(192.168.50.108)：\nhttps://imgur.com/jupVG74",
+          "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \n\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\n\n虚拟机抓包(192.168.50.108)：",
           "link": "https://www.v2ex.com/t/1108873",
           "publishedOn": "2025-02-04T11:53:00.000Z",
-          "wordCount": 445,
+          "wordCount": 449,
           "title": "访问 V2EX 的问题",
           "imageUrl": null
         },
@@ -348,7 +532,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 455,
+          "wordCount": 478,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
@@ -358,7 +542,7 @@
           "description": "pangjiuquan: \n我的 mac 是 M1 芯片，版本是：15.3 (24D60)。QQ 版本：6.7.5 、6.7.6 、6.8.2 全部都打不开闪退。想问一下你们的都可以打开吗？",
           "link": "https://www.v2ex.com/t/1108870",
           "publishedOn": "2025-02-04T11:39:10.000Z",
-          "wordCount": 402,
+          "wordCount": 410,
           "title": "MAC QQ 老版本哪一个现在可以正常运行？",
           "imageUrl": null
         },
@@ -388,7 +572,7 @@
           "description": "Dalexfefun: 过年回家第五天，已经解锁了以下成就：\n✅ 把手机里所有 APP 点开三遍\n✅ 陪三舅公数完他养的 17 只鸡\n✅ 成功蹭到邻居家时断时续的 WiFi\n✅ 把春晚重播看到能接台词\n现在深刻理解什么叫\"快乐是他们的，我什么都没有\"！昨天试图教奶奶玩吃鸡，结果她老人家以为手机烫手是新型暖手宝...（奶奶咱家路由器该退休了，网速还没您走路快！）\n最近被迫开发了新技能：在 2G 网速里玩成语接龙，结果现在满脑子都是\"为所欲为→为虎作伥→娼妓从良→凉拌黄瓜...\"（好像有哪里不对？）\n实在无聊到开始收集全网冷笑话，手滑建了个野生网站（ hmmm 大概是被冻傻了吧）👉 https://funny-jokes.co/dad-jokes 现在连家里大黄狗看到我都绕道走，可能怕我给它讲新编的\"狗为什么改不了吃 shi\"系列冷笑话...（求组团开发农村娱乐新方式！）",
           "link": "https://www.v2ex.com/t/1108864",
           "publishedOn": "2025-02-04T10:18:46.000Z",
-          "wordCount": 360,
+          "wordCount": 381,
           "title": "过年回家，没网，不探亲，没人认识，麻了",
           "imageUrl": null
         },
@@ -398,7 +582,7 @@
           "description": "chjerry2008: 我在上海和江苏各有一条移动宽带，利用 ipv6 下的 wg 协议打通为内网。\n目前表现为江苏向上海传输文件，满上行（约 80Mb ），而从上海向江苏传输文件，只有 7Mb(满值为 50Mb 左右)。\n裸 ipv6 地址（非 wg 协议）可以 scp 到满上行。各项测速也都正常。\n是不是表明上海移动识别 wg 协议，限速了？还是我自己的设置哪里有问题？\n如果是限速了，有什么好的解决方法吗？",
           "link": "https://www.v2ex.com/t/1108861",
           "publishedOn": "2025-02-04T09:56:38.000Z",
-          "wordCount": 479,
+          "wordCount": 490,
           "title": "上海移动是不是识别 wg 协议，限速了？（非出国）",
           "imageUrl": null
         },
@@ -408,7 +592,7 @@
           "description": "Seck: \n1.官方也很卡顿，还经常打不开\n2.导出文档卡，就是死也导不出来，pdf,html ,markdown 都导不出来\n有相同的经历的出来说下。以前从来没有过，用了挺久的\n刚去打开 notion 官网，挂梯子，打不开了。",
           "link": "https://www.v2ex.com/t/1108860",
           "publishedOn": "2025-02-04T09:47:48.000Z",
-          "wordCount": 353,
+          "wordCount": 354,
           "title": "notion 有相同用户经历的吗?",
           "imageUrl": null
         },
@@ -418,7 +602,7 @@
           "description": "seth19960929: 陈晓舟 黄兰英 夫妻应该是已经不在了，应该差不多一百岁了，不知道他们的子女是否还在？\n已知的信息：以前曾是国军连长",
           "link": "https://www.v2ex.com/t/1108859",
           "publishedOn": "2025-02-04T09:38:01.000Z",
-          "wordCount": 421,
+          "wordCount": 426,
           "title": "有台湾的朋友认识 陈晓舟​黄兰英​ 夫妻吗？",
           "imageUrl": null
         },
@@ -438,7 +622,7 @@
           "description": "luyan: \nRt.",
           "link": "https://www.v2ex.com/t/1108856",
           "publishedOn": "2025-02-04T09:02:55.000Z",
-          "wordCount": 373,
+          "wordCount": 388,
           "title": "准备用手机 App 云听会员听广播，麻烦问一下坛友有云听会员不用要出的吗？",
           "imageUrl": null
         },
@@ -448,7 +632,7 @@
           "description": "IceySwan: 接上文 https://www.v2ex.com/t/1094454#reply5\n前几天发现 copilot 不能使用了, 显示\n>  You cannot proceed\nWe are sorry, but after reviewing we have determined that the billing information supplied is ineligible for transactions with GitHub due to government restrictions.\nLearn more about GitHub and trade control regulations.\n附图 https://imgur.com/a/Z4WM0N9\n本人正版学生, 使用学信网档案申请的",
           "link": "https://www.v2ex.com/t/1108855",
           "publishedOn": "2025-02-04T09:02:12.000Z",
-          "wordCount": 450,
+          "wordCount": 452,
           "title": "疑似 github 学生包不能使用大陆邮箱?",
           "imageUrl": null
         },
@@ -468,7 +652,7 @@
           "description": "beginor: \n今年开车去岳母家，高速上看到不少摩托车，车速估计能到 150 公里，高速上敢这么开的车手真是头一年见到，不知道该说啥，炫车技还是嫌命长？",
           "link": "https://www.v2ex.com/t/1108853",
           "publishedOn": "2025-02-04T08:56:33.000Z",
-          "wordCount": 631,
+          "wordCount": 674,
           "title": "高速上看到不少敢开 150 公里摩托车",
           "imageUrl": null
         },
@@ -490,186 +674,6 @@
           "publishedOn": "2025-02-04T08:18:53.000Z",
           "wordCount": 475,
           "title": "win10 怎么给孩子建立个账户和我的分开？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108850",
-          "author": "qazwsxkevin",
-          "description": "qazwsxkevin: \n有个场景，场所提供一个 SSID （叫 officeWifiA 吧)\n想在 Openwrt 的平台上（其它纯 Linux ，可以二次开发的平台也行）\n使方案可连接到 officeWifiA 拿到 IP ，获得外联网络出口，\n同时方案提供 officeWifiB SSID ，让其它设备接入，\n在 opwenwrt+MT7628/7688 平台下，进行一些非常简单，要求不高的 IP 流量处理，\n\n如果 MT7628 这种便宜平台做不到，哪也只能找 R2S 再加个 USB WIFI 在 arbian 上实现了吧？",
-          "link": "https://www.v2ex.com/t/1108850",
-          "publishedOn": "2025-02-04T08:17:56.000Z",
-          "wordCount": 425,
-          "title": "MT7628、7688 这些满大街的方案，能做到既路由、又 AP， 无线双模式吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108849",
-          "author": "balabalaguguji",
-          "description": "balabalaguguji: \n过年每天都吃个不停，能控制不吃的都是狠人，吃饱了这不年后了就得开始减了嘛。\n给大家推荐我的健身 APP 吧： https://lianlian.gzyunke.cn?f=v2\n跟 Keep 是不一样的，Keep 主要是做有氧，我这个主要是做力量训练的。\n如果你想去健身房训练，一定要试下。\n有了这个 APP 你完全可以自学健身了，不需要请昂贵的私教，也不用怕跑路。\nAPP 提供科学的训练计划和讲解，每天跟着计划练就可以了。\n老手也可以用来记录自己的训练、安排计划，这样能看到自己的成长曲线和训练日历，非常有成就感。\n\n支持手表上训练，还可以脱离手机使用。\n\n\n讲讲我的成就：\n获得了鸿蒙商店的编辑推荐，作为首个适配鸿蒙 NEXT 的健身 APP ，还获得了《鸿蒙先锋奖》。\n华为运动健康合作伙伴，现在是 GT5 预装 APP",
-          "link": "https://www.v2ex.com/t/1108849",
-          "publishedOn": "2025-02-04T08:13:04.000Z",
-          "wordCount": 392,
-          "title": "每逢佳节胖三斤，那么试下我的健身 APP 吧",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108848",
-          "author": "1140601003",
-          "description": "1140601003:",
-          "link": "https://www.v2ex.com/t/1108848",
-          "publishedOn": "2025-02-04T08:10:39.000Z",
-          "wordCount": 374,
-          "title": "deepseek 一直服务繁忙，请问站在技术的角度下，如何去解决恢复呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108847",
-          "author": "dcdyouget",
-          "description": "dcdyouget: \n老家是太原的,目前在深圳工作\n双非本科学历\n技术栈主要是 java 、k8s 相关\n不知道太原的情况怎么样",
-          "link": "https://www.v2ex.com/t/1108847",
-          "publishedOn": "2025-02-04T08:01:35.000Z",
-          "wordCount": 468,
-          "title": "工作两年想回太原",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108846",
-          "author": "qazwsxkevin",
-          "description": "qazwsxkevin: \n老机器，源库 MySQL 5.6 ，没有开 binlog ，磁盘、网络接口 I/O 都很慢，整个库有 80 多 GB",
-          "link": "https://www.v2ex.com/t/1108846",
-          "publishedOn": "2025-02-04T07:44:51.000Z",
-          "wordCount": 439,
-          "title": "有用过 SyncNavigator 或者类似的简单数据库同步软件吗，",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108844",
-          "author": "ksc010",
-          "description": "ksc010: 用的 mqtt.js 库 目前能用的版本 是 v4.1.0 \n其他的版本的基本不兼容小程序(浏览器上倒是很稳定）\n各种莫名其妙的掉线，卡住\n---开发者工具，调试也各种问题\n模拟器上和真机运行 不一样，模拟器正常 真机不行\n真机调试很拉跨，调试日志发送不过来\n局域网网段自动选择的也不对(也没看到哪里可以修改）",
-          "link": "https://www.v2ex.com/t/1108844",
-          "publishedOn": "2025-02-04T07:31:25.000Z",
-          "wordCount": 346,
-          "title": "微信小程序上使用 mqtt， 太恶心了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108843",
-          "author": "Gilfoyle26",
-          "description": "Gilfoyle26: \n前几年关注的一批博客都搜不到了\n很多群都没什么消息了，大家好像都变得沉默了，甚至连发擦边的图都变少了\n最神奇的是 B 站上有很多躺平博主，甚至还有组团躺平的，视频有很多播放量，这个现象真的。。。。",
-          "link": "https://www.v2ex.com/t/1108843",
-          "publishedOn": "2025-02-04T07:28:18.000Z",
-          "wordCount": 526,
-          "title": "现在的大环境，好像很多事情都没有以前🔥（火热）了，貌似大家都没什么热情了❤️",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108840",
-          "author": "ugpu",
-          "description": "ugpu: \n各位佬新春好.\n因为业务选型 之前一直使用 cpp/lua/c#\n目前打算使用 golang 作为新产品的游戏服务器开发语言.\n对 golang 的选型不知道如何抉择.开发业务为游戏服务器.\n如果是游戏服务器开发老鸟可能知道 c#有 et lua 南方地区偏向 skynet （小厂居多.方便快捷\ncpp 的框架一看一大把,多半自己撸一套.\n那么有用过 golang 框架的吗？希望这个框架一直在维护.最好类似 skynet 这种.主要是一直在维护，且有多个公司上线部署验证过的.最好还是有社区",
-          "link": "https://www.v2ex.com/t/1108840",
-          "publishedOn": "2025-02-04T07:11:29.000Z",
-          "wordCount": 504,
-          "title": "Golang 游戏开发框架选型",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108839",
-          "author": "albert0yyyy",
-          "description": "albert0yyyy: 早餐、午餐、午餐都可以\n咸辣皆可，\n出差一两天",
-          "link": "https://www.v2ex.com/t/1108839",
-          "publishedOn": "2025-02-04T07:01:16.000Z",
-          "wordCount": 342,
-          "title": "南昌有什么好吃的店铺推荐吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108838",
-          "author": "gordonlgy",
-          "description": "gordonlgy: \nwifi6e 和 wifi7 都不温不火，设备又昂贵，是不是被组织放弃治疗了，难道 wifi 也步入 window 的宿命，好一代，萎一代？",
-          "link": "https://www.v2ex.com/t/1108838",
-          "publishedOn": "2025-02-04T06:57:14.000Z",
-          "wordCount": 615,
-          "title": "感觉 wifi6 战未来",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108836",
-          "author": "YuiTH",
-          "description": "YuiTH: 可能是还在过节，各家目前没有提供类似 OpenAI 的那种 finetune 资料库的服务，也只有官方和 silicon flow 提供全量模型的服务。有自己 finetune 的方法吗？\n另外 finetune 后在类似 ecs.r8a.24xlarge 这种阿里云的纯 CPU 服务器（ 700G 内存）的服务器上运行可行吗？",
-          "link": "https://www.v2ex.com/t/1108836",
-          "publishedOn": "2025-02-04T06:53:38.000Z",
-          "wordCount": 401,
-          "title": "deepseek r1 现在有比较成熟的 finetune 文档库的流程吗？ finetune 后在 CPU 云服务器上运行靠谱吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108835",
-          "author": "no0ne",
-          "description": "no0ne: \n15.2 版本的系统，steam 上打了几把 dota2 ，steam 的内存直接飙到 60g 了，但是 stem 实际内存显示只有几百。然后系统直接弹出内存过大的提示，要求强制关闭内存过大的 steam ，然后 dota2 就直接卡住了 。有人碰到过吗？\n之前老的 intel 芯片 mbp 也这样，这次换成 m3 了还是这样",
-          "link": "https://www.v2ex.com/t/1108835",
-          "publishedOn": "2025-02-04T06:51:22.000Z",
-          "wordCount": 367,
-          "title": "macos 的 steam 内存一直变大",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108834",
-          "author": "abcd2022",
-          "description": "abcd2022: \n小弟我(23 届)原来是做业务开发的，由于业务发展不好等等各种原因，自己选择了离职。自己业余时间对开源很感兴趣，现在也是 apache 某项目(对应领域在国内较有名气)的 pmc member 和其他较为知名项目的 member 成员，现在比较困惑的就是：\n很想转入业余做的这个领域，因为是偏基础架构的开发，想知道在社招中这种情况会被卡的严重吗\n开源经历帮助会有多大，因为我没有在这个领域公司层面的落地经验\n希望大家能给些建议或看法，如果有相关经历的同学最好了",
-          "link": "https://www.v2ex.com/t/1108834",
-          "publishedOn": "2025-02-04T06:48:54.000Z",
-          "wordCount": 456,
-          "title": "业务开发转基架求职咨询，望不吝赐教",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108832",
-          "author": "bboring",
-          "description": "bboring: \n《哪吒 2 》看完了，很好看的电影，值得一看。\n多少人是当代「申公豹」？\n出身平凡，怀揣梦想，刻苦学习，走出大山；\n摸爬滚打，努力拼搏，忍辱负重，收获甚微；\n多少人又是那只「土拨鼠」，职场牛马，饭碗说没就没，被砸了也只能不甘、无奈...\n继续努力吧，朋友",
-          "link": "https://www.v2ex.com/t/1108832",
-          "publishedOn": "2025-02-04T05:54:41.000Z",
-          "wordCount": 423,
-          "title": "多少人是当代「申公豹」？多少人又是那只「土拨鼠」？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108829",
-          "author": "xkjack0000",
-          "description": "xkjack0000: \nTop 百亿+私募量化投资公司，地点：北京/上海。\n竞争力的薪资，精英团队。\n感兴趣邮件： jxiao@hiringby.com\n微信私聊：15210750729\n基本要求：\n年轻高潜，聪明，代码能力强，学校 211 起，对金融领域感兴趣。\n大厂或知名外企背景，量化从业者加分。\n核心系统开发工程师 C++\n主要工作职责：负责量化交易系统架构的设计和搭建；负责在不同编译器、操作系统和网络环境下的性能优化；学习和了解其他高科技行业的尖端技术，寻找技术突破的灵感。\n岗位要求\n1 ）国内外知名院校的计算机科学本科及以上学历；\n2 ）对技术革新和软件开发充满热情，对低延迟系统开发有一定经验；\n3 ）精通数据结构和算法，具备扎实的 C++/C 语言编程能力；\n4 ）掌握高级的 Linux 内核知识更佳；\n5 ）具有优秀的书面表达与沟通协调能力；\n6 ）永远追求最高效的解决方案。\nPython 高级开发工程师\n[岗位职责]  负责与策略研究人员沟通，协助策略研究工作，与策略研究人员紧密合作，解决技术难点，对策略依赖的算子、投研框架及工具进行开发和性能优化，并支持工程团队开发基于多机的低延迟计算平台，以应对各种频率的投研场景；完成其他交办的交易系统平台开发任务。\n1 年以上相关工作经验；  \n优秀的软件设计能力，掌握基本的设计模式；  \n良好的软件调试和性能优化能力；  \n热爱 coding ，愿意主动花时间钻研技术；  \n良好的编程习惯，高效的沟通能力和快速学习能力；  \n熟练使用 Python ；\n[加分项]  1. 有 C++开发、性能调优经验； 2. 熟悉金融交易类业务、技术架构； 3. 了解业界常用的 pipeline 工具及并行开发框架；\n其他岗位：\n数据开发（数据仓库，数据平台，数据处理等）-211,3 年+;\n机器学习平台开发（机器学习平台、训练框架底层相关开发经验）-3 年+；\n运维开发 -3 年+，有 SRE ，DevOps ，后台开发经验，主要技术栈：Python ；\n全栈开发 -3-6 年，全栈开发经验（ react+python ）；\n前端开发 - 211 ，5-8 年，知名互联网经验；\n高性能计算工程师-985 ，3 年+；\n高性能系统优化-985 ，3 年+；\n8.ai 算法-985 ，大厂或量化公司，打比赛经历； 量化策略算法、大模型算法；",
-          "link": "https://www.v2ex.com/t/1108829",
-          "publishedOn": "2025-02-04T05:36:37.000Z",
-          "wordCount": 453,
-          "title": "[北京/上海] 百亿私募量化公司 C++/ Python /算法/数据开发等",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108828",
-          "author": "bn",
-          "description": "bn: \n邀请链接：https://cloud.siliconflow.cn/i/mbDKedP3\n通过邀请链接注册赠送免费体验额度。\n即使 DeepSeek 官方 API 被攻击，也能正常使用 R1 。",
-          "link": "https://www.v2ex.com/t/1108828",
-          "publishedOn": "2025-02-04T05:31:49.000Z",
-          "wordCount": 377,
-          "title": "硅基流动 DeepSeek-R1 免费体验",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108827",
-          "author": "kekxv",
-          "description": "kekxv: \n就那个图标为</>",
-          "link": "https://www.v2ex.com/t/1108827",
-          "publishedOn": "2025-02-04T05:08:05.000Z",
-          "wordCount": 371,
-          "title": "v2ex 的篡改猴插件，有哪个是兼容 userscripts 的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108824",
-          "author": "GSDgsd",
-          "description": "GSDgsd: 日本 IT 募集信息更新：\n1.项目 Leader：\n需要日语流利 OK ，有项目管理经验；\n懂 IT 开发，管理项目团队\n\n2.PG （ Java 方向）：\n3 年及以上开发经验，技术可以独立开发；\n会些日语即可，要求不高\n\n3.SAP\n人材缺口大，每月 10~20 人缺口；\n日语 OK ，有相关 SAP 方向经验\n\n4.Python\n3 年及以上开发经验，日语 n2 及以上；\nPG/SE 均可~\n\n另外其他技术方向需求也在募集：\nPM/PL/D365 FO/AWS/AI 相关/C#/Salesforce/Servicenow/PEGA/UIPATH/SE 等均在招聘，\n日语 n2 及以上，可以应对全程日语面试；\n待遇 OK ，具体根据技术能力与日语能力定薪；（ 400~1200 万円不等）\n有高度人才+20 分，可以实现永驻；\n福利厚生年金保险等完备，有給休暇~\n\n以上所有需求可以投递履历书至邮： beibei6782023@163.com\nWeChat：ls152023678",
-          "link": "https://www.v2ex.com/t/1108824",
-          "publishedOn": "2025-02-04T04:38:43.000Z",
-          "wordCount": 424,
-          "title": "东京 IT|Leader 募集(日语)、PG( Java )3 年经验，可以独立开发、SAP(10~20 人)，待遇 OK，其他技术方向也在招",
           "imageUrl": null
         }
       ]
