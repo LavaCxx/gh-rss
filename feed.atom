@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-04T20:11:46.999Z</id>
+    <id>urn:2025-02-04T21:10:12.298Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-04T20:11:46.999Z</updated>
+    <updated>2025-02-04T21:10:12.298Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[不带手机去公司， apple watch 能自己连上之前已经连过的 WiFi 吗？]]></title>
+        <id>https://www.v2ex.com/t/1108919</id>
+        <link href="https://www.v2ex.com/t/1108919"/>
+        <updated>2025-02-04T20:34:33.000Z</updated>
+        <summary type="html"><![CDATA[stark123: 
+假如我的 watch 通过手机连上了办公室的 WiFi ，去办公室忘带手机了，那 watch 能连上 WiFi 吗？
+请有 watch 的朋友们指点下，我好确定是买 WiFi 版的还是蜂窝版的。
+以下是 ChatGPT 的回答：
+不一定，取决于你的手表型号和 WiFi 连接方式。 
+如果你的 手表支持独立 WiFi 连接（比如部分 Apple Watch 、Wear OS 手表等），并且 之前已经通过手机同步保存了办公室 WiFi 密码，那么即使忘带手机，手表仍然可以自动连接办公室 WiFi 并正常使用网络功能（比如收发消息、使用云同步等）。  
+但如果你的手表 仅通过蓝牙从手机共享网络，或者 没有独立 WiFi 功能，那么在办公室忘带手机后，手表就无法连接 WiFi 。  
+你可以检查：
+手表的 WiFi 设置：看是否有独立的 WiFi 选项，或者手动连接 WiFi 的功能。
+手机和手表的同步设置：有些手表只有在与手机连接时才会获取 WiFi 信息，断开后无法自动连接。
+手表是否支持蜂窝网络（如果是 LTE 版，可以直接用流量）。  
+如果你用的是 Apple Watch （ GPS 版），它只能连接 已知 WiFi，但不能手动添加新 WiFi ，所以之前没连过的 WiFi ，它是连不上的。]]></summary>
+        <author>
+            <name>stark123</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024 国庆旅游流水账]]></title>
+        <id>https://www.v2ex.com/t/1108918</id>
+        <link href="https://www.v2ex.com/t/1108918"/>
+        <updated>2025-02-04T19:18:13.000Z</updated>
+        <summary type="html"><![CDATA[d284476422: 2024-10-21
+7:00 长沙黄花机场
+9:10-11:00 长沙黄花机场-成都天府机场
+13:03-13:30 高铁：天府机场-成都东站
+午饭：泡面+零食
+14:44-16:54 高铁：成都东站-黄龙九寨
+17:10-19:40 大巴：黄龙九寨-酒店
+晚饭：西红柿牦牛肉汤锅 美团券 高原特色 4 人餐 232 元，加了个青稞饼（ 35 元），口味一般般
+ 2024-10-22
+购票人数 40259 入园人数 39783
+7 点 20 门口排队，8 点 20 坐上大巴去往左线，诺日朗中心站没有下车换乘去右线，9 点多到达长海（海拔 3100 米），往下参观，11 点到诺日朗中心点吃饭，同行人员高反，休息 1 小时后没有好后，去了医务室吸氧半小时（ 35 元），情况好了点带了氧气瓶去坐右侧线路大巴，13:50 到达箭竹海向下参观，16.20 回到诺日朗中心点步行去看诺日朗瀑布，步行至犀牛海坐大巴出去，下行线路没有游玩。
+午饭：米糕 x1 （ 20 元/大份）、葱油饼 x2 （ 10 元/个）酸辣粉 x3 （ 30 元/份）
+晚饭：人民食堂土菜馆 美团券 2-3 人特色川菜套餐干锅鸡 152 元 （有辣味能下饭，青稞饼比西红柿好牛肉汤锅的好吃），点菜（紫菜蛋汤，羊肚包肉 3 个，麻婆豆腐） 134 元
+2024-10-23 
+9:00 从酒店坐大巴到黄龙九寨高铁站
+午饭：泡面+零食
+11:43-12:10 黄龙九寨—成都东站
+晚上去蜀艺剧院看川剧表演，现场提前去买票可以买到座位靠前的票，本来是看其他的川剧，闲鱼上买不到比较好位置的票
+晚饭：正南齐北火锅，一般般
+2024-10-24 
+9 点去宽窄巷子买熊猫玩偶
+13 点退房行李寄存到前台
+午饭：三川里川菜馆，店庆福利 4-6 人餐 美团券 114 元 （ 4 热菜 2 冷菜 1 饮料分量足）， 点菜（自贡鲜锅兔 比较碎但是好歹尝尝味道，小炒黄牛肉） 113 元
+下午太古里闲逛，真空包装兔头和张飞牛肉送人，回酒店取行李打车去机场
+18:55-21:10 成都天府机场-长沙黄花机场
+
+建议：
+1 、旺季提前买票订酒店！！！忘记买返程票，候补了临时城际动车，导致 2 日游变成了 1 日游，九寨沟行程过于紧张。
+2 、去高海拔地区带上便携式氧气瓶，防止意外，诺日朗中心医务室打氧 30 元]]></summary>
+        <author>
+            <name>d284476422</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国内如何买到原生 android TV 电视？]]></title>
+        <id>https://www.v2ex.com/t/1108917</id>
+        <link href="https://www.v2ex.com/t/1108917"/>
+        <updated>2025-02-04T18:40:48.000Z</updated>
+        <summary type="html"><![CDATA[Raynard: 国产电视系统真是受够了，不想外接盒子用了，
+正巧主卧需要装个电视，
+最好是知名品牌，能接受溢价
+或者有靠谱大件海运渠道推荐吗？]]></summary>
+        <author>
+            <name>Raynard</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cursor tab 的 prompt 是什么？]]></title>
         <id>https://www.v2ex.com/t/1108916</id>
@@ -570,17 +642,6 @@ springboot 项目，这个该怎么办？]]></summary>
 我的 mac 是 M1 芯片，版本是：15.3 (24D60)。QQ 版本：6.7.5 、6.7.6 、6.8.2 全部都打不开闪退。想问一下你们的都可以打开吗？]]></summary>
         <author>
             <name>pangjiuquan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[买了个欧版 S25U，我看 imei 是质保已经在 2 周前被激活？]]></title>
-        <id>https://www.v2ex.com/t/1108867</id>
-        <link href="https://www.v2ex.com/t/1108867"/>
-        <updated>2025-02-04T11:02:09.000Z</updated>
-        <summary type="html"><![CDATA[Liftman: 
-买了个欧版 S25U ，我看 imei 是质保已经在 2 周前被激活？所以是因为在他的购买地 完成购买瞬间就算激活了？卖家说是拆开入关。所以拆开发货，机器先发。盒子之后发。这个风险不大吧？毕竟刚发布。。。。]]></summary>
-        <author>
-            <name>Liftman</name>
         </author>
     </entry>
     <entry>
