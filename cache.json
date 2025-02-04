@@ -169,12 +169,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -313,17 +307,6 @@
           "title": "BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰 BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板...",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/691",
-          "author": null,
-          "description": "Akamai 将终止在中国的 CDN 服务\n全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非激活特定合作伙伴的解决方案，否则任何剩余的内容请求都将自动从邻国提供。\nAkamai 同时宣布与腾讯云和网宿科技建立合作伙伴关系，提供专为在中国大陆提供高性能内容交付和增强安全性而设计的解决方案。Akamai 将作为经销商，客户现在可以直接从 Akamai 购买这些解决方案，确保与现有的服务无缝集成。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/691",
-          "publishedOn": "2025-01-06T05:12:02.000Z",
-          "wordCount": null,
-          "title": "Akamai 将终止在中国的 CDN 服务 全球最大的CDN基础设施提供商 Akamai 通过官网宣布，自 2026 年 6 月 30 日起，所有中国 CDN 服务都将停用。在此日期之后，除非...",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -333,12 +316,162 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108916",
+          "author": "Scarb",
+          "description": "Scarb: \n最近一直用 cursor ，感觉它的 cursor tab 十分好用，实际使用体验比 github copilot 、windsurf 的自动补全都要智能。想知道它的 prompt 是什么\n另：之前这个帖子中 https://www.v2ex.com/t/1107765 ，@jsq2627 把 composer 的 prompt 逆向出来了。",
+          "link": "https://www.v2ex.com/t/1108916",
+          "publishedOn": "2025-02-04T17:48:28.000Z",
+          "wordCount": 407,
+          "title": "Cursor tab 的 prompt 是什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108915",
+          "author": "cbc009",
+          "description": "cbc009: \n万能的 v 友，我有一个飞利浦壁挂新风机 FAP108 ，用了 5 年了，噪音有点大，当时也不懂买了个一进一出两个孔，由于孔距的原因，现在也不方便换，因为找不到相同孔距和孔径的壁挂新风，我拆开看了一下是其中一个直流电机噪音很大，型号是芝浦 SIC-41CVJ-F134-5,某宝某鱼某巴都搜了，没有找到相同型号的，所以请教一下了解无刷电机的朋友以下几个问题：\n1.如果换同品牌不同型号的电机能用吗，比如功率比现在的低，转速也比现在的低\n2.直流无刷电机的转向是必须与原型号相同吗，这个转向是电机内部自己控制的还是新风主板控制的，我看某宝卖的同品牌其他型号大部分标记的转向都跟我的相反。\n3.自己拆开电机换轴承的可行性。\n本人对电机一窍不通，纯小白，请熟悉这块的 v 友多多指点",
+          "link": "https://www.v2ex.com/t/1108915",
+          "publishedOn": "2025-02-04T17:38:45.000Z",
+          "wordCount": 380,
+          "title": "有懂直流无刷电机的朋友，请教几个问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108914",
+          "author": "revival83",
+          "description": "revival83: 不太喜欢迅雷，也不想付费 IDM ，更不想用学习版\n免费的有么？必须付费的话越少越好",
+          "link": "https://www.v2ex.com/t/1108914",
+          "publishedOn": "2025-02-04T17:31:29.000Z",
+          "wordCount": 393,
+          "title": "求推荐 chrome 有没有下载加速插件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108913",
+          "author": "telun",
+          "description": "telun:",
+          "link": "https://www.v2ex.com/t/1108913",
+          "publishedOn": "2025-02-04T17:23:00.000Z",
+          "wordCount": 359,
+          "title": "什么时候开始国区 app store 可以直接下载 X 了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108912",
+          "author": "xuxueli",
+          "description": "xuxueli: \nRelease Notes\n1 、 [升级] 项目重构升级；定位 多级缓存框架，高效组合本地缓存和分布式缓存(Redis+Caffeine)，支持“多级缓存、一致性保障、TTL 、Category 隔离、防穿透”等能力，提供高性能多级缓存解决方案。\n2 、 [重构] 高性能系统重构设计，底层设计 L1(Local)+L2(Remote)多级缓存模型，除分布式缓存之外前置在应用层设置本地缓存，高热查询前置本地处理避免远程通讯，最大化提升性能；\n3 、 [重构] 一致性保障设计，支持多层级、集群多节点之间缓存数据一致性保障，借助广播消息（ Redis Pub/Sub ）以及客户端主动过期，实现 L1 及 L2 之间以及 L1 各集群节点间缓存数据一致性同步；\n4 、 [重构] 框架进行模块化抽象设计，本地缓存、分布式缓存以及序列化方案均支持自定义扩展；\n5 、 [易用性] 缓存 API 优化改造，多级缓存框架支持业务透明接入，屏蔽底层实现细节，降低业务开发成本，以及学习认知成本；\n6 、 [升级] 多个依赖升级最新版本，如 jedis 、spring 等；\n7 、 [优化] 核心依赖推送 maven 中央仓库, 方便用户接入和使用;\nXXL- CACHE 快速接入示例\n代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-cache/tree/master/xxl-cache-samples\n1 、Maven 引入：\n<!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-cache-core -->\n<dependency>\n    <groupId>com.xuxueli</groupId>\n    <artifactId>xxl-cache…",
+          "link": "https://www.v2ex.com/t/1108912",
+          "publishedOn": "2025-02-04T17:11:04.000Z",
+          "wordCount": 595,
+          "title": "XXL-CACHE v1.1.0 ｜ 多级缓存框架",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108911",
+          "author": "websong188",
+          "description": "websong188: \n\n2025 年我在香港成功办理了中银和汇丰银行卡、蓝狮子和万事达扣账卡; \n现在所有实体卡都已收到,其中众安数字虚拟卡也申请成功;\n分享一些经验给大家，希望想要办理香港银行卡的朋友们少走弯路。\nhttps://blog.taoluyuan.com/blog/how-to-open-a-bank-account-in-hongkong-2025\n主要内容包含以下几个方面\n如何预约香港银行开户、深圳到香港的交通路线\n所需材料的准备、 银行面谈技巧\n卡片激活流程、红狮子与蓝狮子的区别\n香港办卡的常见问题\n需要探索的地方\n很多还在探索,比如卡的用途还有哪些,知道的巨佬可以提示下\n另外关于地址证明是否一定是账单地址,激活卡的金额其实也不是固定的\n大佬们有不一样成功的体验 可以提供下经历 我完善完善\n正文内容:2025 年香港银行开户攻略",
+          "link": "https://www.v2ex.com/t/1108911",
+          "publishedOn": "2025-02-04T16:50:06.000Z",
+          "wordCount": 373,
+          "title": "刚出炉的 ! 2025 年香港银行开户攻略,中银万事达、汇丰、众安、蓝狮子、实体卡下卡成功",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108910",
+          "author": "revival83",
+          "description": "revival83: N1 的科学突然挂了，自己折腾半天也不行，想重刷，请大哥留个 tg 或者 wx",
+          "link": "https://www.v2ex.com/t/1108910",
+          "publishedOn": "2025-02-04T16:48:25.000Z",
+          "wordCount": 368,
+          "title": "有老哥能协助装下 N1 openwrt 么？请杯奶茶",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108909",
+          "author": "clhcowboy",
+          "description": "clhcowboy: \n[ Lokica 是什么？] \nLokica 是一款颠覆性的浏览器插件，旨在彻底改变你管理窗口、标签页、书签、浏览记录和阅读列表的方式。无论你是需要处理大量标签页的开发者，频繁在不同任务间切换的多任务处理者，还是希望打造个性化浏览体验的普通用户，Lokica 都能帮助你轻松高效地管理浏览环境。\n非常感谢大家的反馈，v1.3.0 版本\n优化了：\n1 ） newtab 功能，调整为默认不开启 lokica newtab 页面，可以在选项里面按需开启；\n2 ）侧边栏窗口/tab 状态实时同步\n新增了：\n1 ）滑词翻译功能\n\nLokica 让你的浏览体验更加智能、高效、有序！立即尝试，开启全新上网方式 🚀\n立即体验：\nhttps://chromewebstore.google.com/detail/lokica-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8B/lcgiffhanmeoclicpmfgjbhjdcbpibgf\n[核心功能] \nAI 滑词翻译 (新增功能！)：在网页上划选单词或短语，即可即时翻译，无需跳转页面，让阅读更加顺畅无障碍；一键复制所需要的原文和译文。\n（可以在选项里设置是否开启、选择谷歌、chatgpt 等作为翻译引擎）\n全局搜索：快速查找窗口标签页、书签、阅读列表或历史记录。\n\n可视化管理：以层级结构查看所有窗口和标签页，清晰直观，还可为窗口添加备注，提高组织效率。\n阅读列表：保存并管理文章，随时查找，方便稍后阅读。\n高效任务切换：流畅地在不同工作流之间切换，提高工作效率。\n书签 & 历史记录访问：快速、直观地访问你的重要内容。\n快速导航：无缝切换标签页和窗口，不再迷失方向。\n个性化工作台：自定义新标签页，添加常用网站，并支持跨多个搜索引擎的统一搜索。\n[为什么选择 Lokica ？] \n革新式窗口 & 标签管理：全新的组织和导航方式，让你的浏览更加高效。\n个性化工作台：构建属于你的浏览空间，将最常访问的网站集中管理，提升生产力。\n智能工作流切换：适用于开发者、多任务处理者以及任何希望优化浏览体验的用户。\nAI 智能助力：AI 滑词翻译功能，让你轻松阅读外文内容，无需切换页面。\n提升生产力：告别繁琐的标签页管理，减少查找重要内容的时间浪费。\n极致用户体验：轻量级、直观易用，完美融入你的日常浏览习惯。\nLokica 让你的浏览体验更加智能、高效、有序！立即尝试，开启全新上网方式 🚀\n立即体验：\nhttps://chromewebstore.google.com/detail/lokica-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8B/lcgiffhanmeoclicpmfgjbhjdcbpibgf",
+          "link": "https://www.v2ex.com/t/1108909",
+          "publishedOn": "2025-02-04T16:38:31.000Z",
+          "wordCount": 421,
+          "title": "浏览器助手 Lokica v1.3.0 发布了～新增滑词翻译， newtab 和悬浮球可以在选项里开启关闭啦",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108908",
+          "author": "ttifme",
+          "description": "ttifme: \n你 tg 频道接广告都不审核一下的吗？接了个代找视频的广告，1 月初支付宝口令红包付了几十块让代找的这货帮找一个视频，这货找不到，我让他退款，他说支付宝渠道退款需要等 1 个月，要到 2 月份才能退。\n现在到 2 月份了，我才发现这货删了聊天记录。\n下面放一下图片：\n\n\n以下 tg 账号打 2 个码，避免为骗子推广：\n骗子 tg：@SourceG**\n用户昵称：出处君\n用户 ID：7150421312\nDC：5\n骗子 tg 频道：@avsour**",
+          "link": "https://www.v2ex.com/t/1108908",
+          "publishedOn": "2025-02-04T16:38:20.000Z",
+          "wordCount": 451,
+          "title": "@v2exPush 这个 V2 的 tg 推送频道主请出来",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108907",
+          "author": "cosven",
+          "description": "cosven: \n有图有真相！\n\nAI 功能也得有个图 ~\n\n接着说说有啥特性\n一键安装，各流行平台均有打包（如 Arch Linux, Windows, macOS 等）\n有各媒体资源平台的插件，充分且合理的利用全网免费资源（如 Youtube Music 等）\n基础功能完善，桌面歌词、资源智能替换、多音质选择、nowplaying 协议等\n核心模块有较好的测试覆盖、核心接口保持较好的向后兼容\n大模型加持：AI 电台、自然语言转歌单等\n提供基于 TCP 的交互控制协议\n基于文本的歌单，方便与朋友分享、设备之间同步\n支持基于 Python 的配置文件 .fuorc，类似 .vimrc 和 .emacs\n试用一下？\nArch Linux 用户可以用如下命令安装\n# Arch Linux\nyay -S feeluown          # 安装稳定版，最新版的包名为 feeluown-git\nyay -S feeluown-netease  # 按需安装其它扩展\nyay -S feeluown-ytmusic\nyay -S feeluown-bilibili\n\nyay -S feeluown-git python-openai  # 最新版（ 4.1.9 ）才有 AI :)\n\nmacOS 和 windows 用户也可以考虑直接安装二进制包，链接在这里 https://github.com/feeluown/FeelUOwn/releases\n其它平台用户可以瞄一眼文档 https://feeluown.readthedocs.io/en/latest/quickstart.html\n废话不多说，来来来\n项目： https://github.com/feeluown/FeelUOwn\n交流群：telegram 交流群\n文档（安装使用 /开发）： https://feeluown.readthedocs.io/\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n三遍~",
+          "link": "https://www.v2ex.com/t/1108907",
+          "publishedOn": "2025-02-04T16:16:16.000Z",
+          "wordCount": 469,
+          "title": "写了 10 年的音乐播放器，第 11 年有了 AI 加持！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108905",
+          "author": "1140601003",
+          "description": "1140601003: 为什么大厂对于这种问题，不能从根本上去解决呢？大佬们有什么看法",
+          "link": "https://www.v2ex.com/t/1108905",
+          "publishedOn": "2025-02-04T15:55:17.000Z",
+          "wordCount": 368,
+          "title": "假设 deepseek 一直被攻击，是不是服务会一直繁忙？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108904",
+          "author": "epeeian",
+          "description": "epeeian: 1.尺寸，6.2 寸以下吧，太大了不好拿。她现在手机 s10e 很小 5.8 寸她很喜欢。\n2.日常就照相聊天，看在线视频，无游戏需求。\n3.要很方便上 play 商店，需要日常用 WhatsApp 和 YouTube 等 play 商店应用。\n4.预算三千我觉得差不多了吧。\n完全没研究手机很多年了。求推荐。",
+          "link": "https://www.v2ex.com/t/1108904",
+          "publishedOn": "2025-02-04T15:31:07.000Z",
+          "wordCount": 428,
+          "title": "给老婆买手机，求推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108903",
+          "author": "w179942218",
+          "description": "w179942218: \n坐标江苏 0516\n联通原来分配的公网 ip 153.36 网段全天不限速\n后来光猫重新拨号\n发现被绑到了 ip 116.147 网段晚高峰开始限速\n而且 ip 坐标也不再是我所在的城市了",
+          "link": "https://www.v2ex.com/t/1108903",
+          "publishedOn": "2025-02-04T15:17:31.000Z",
+          "wordCount": 351,
+          "title": "联通也开始搞 ip 段限速了吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108902",
+          "author": "xinmans",
+          "description": "xinmans: 目前用 rsync 同步 A 目录到 B 目录，由于 A 目录需要保持全量文件，B 目录只需要定期把新增文件同步过来就行\nrsync 的--remove-source-files 会删除源文件，有没有好的办法只同步新增的文件，被同步过的文件不再同步，两个目录 A 和 B 的文件可以有差异？",
+          "link": "https://www.v2ex.com/t/1108902",
+          "publishedOn": "2025-02-04T14:58:00.000Z",
+          "wordCount": 441,
+          "title": "如何只同步 A 目录下新加入的文件到 B 目录下？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108901",
+          "author": "snowonion",
+          "description": "snowonion: \n我 iCloud 空间是 50GB 。几个月前，因为空间满了，所以被迫暂停了 iPhone 和 iCloud 的同步。但同步开关一直开着。\n现在，我清理了 iCloud 空间，剩余可用 10GB 。手机上有 55GB 的照片。\n[我希望开启同步，让手机上的照片尽量多地同步到 iCloud （这样我就可以在电脑上方便地继续清理照片）。但系统并未自动开始同步。] \n然后我尝试重启同步开关。可以关掉，但打开时，系统提示 iCloud 空间不足、无法开启同步，让我必须升级计划。\n有不升级就能达成目的的办法吗？感谢🙏",
+          "link": "https://www.v2ex.com/t/1108901",
+          "publishedOn": "2025-02-04T14:57:48.000Z",
+          "wordCount": 404,
+          "title": "iCloud 空间不够全量同步，我希望它能尽量同步，但同步开关打不开了，有办法吗？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108900",
           "author": "ldz",
           "description": "ldz: 氧 OS 15 Root 了之后通过 Shamiko+隐藏应用列表+Play Integrity Fix 把除了得物 App 之外所有其他 App （包括各大银行 App ）的 Root 检测都搞定了\n就剩下这一个搞不定\n得物恶心就恶心在检测到 Root 之后动不动给你跳验证码\n我也试了微信的得物小程序 也是一样跳验证码\n请各位有经验的大佬指点下应该咋整",
           "link": "https://www.v2ex.com/t/1108900",
           "publishedOn": "2025-02-04T14:52:55.000Z",
-          "wordCount": 430,
+          "wordCount": 440,
           "title": "怎样绕过得物 App 的 Root 检测？",
           "imageUrl": null
         },
@@ -358,7 +491,7 @@
           "description": "drymonfidelia: \n有人知道是什么问题吗？\n我发现在打开新游戏的时候这个占用会增加十几 GB ，关闭游戏不减，重启个几次就到一百 GB 以上了",
           "link": "https://www.v2ex.com/t/1108898",
           "publishedOn": "2025-02-04T14:44:43.000Z",
-          "wordCount": 409,
+          "wordCount": 423,
           "title": "Hyper-V GPU 分区玩游戏 vmmem 进程的内存占用很不正常，我给虚拟机分 32GB 运行内存， vmmem 进程的 Commit Size 经常跑到 130GB 以上，然后把虚拟内存占满了，...",
           "imageUrl": null
         },
@@ -368,7 +501,7 @@
           "description": "qianchengv:",
           "link": "https://www.v2ex.com/t/1108897",
           "publishedOn": "2025-02-04T14:23:16.000Z",
-          "wordCount": 428,
+          "wordCount": 430,
           "title": "DeepSeek App 的后端服务又又又崩了（2025-02-04）？",
           "imageUrl": null
         },
@@ -378,7 +511,7 @@
           "description": "ghostben: \n平常会在两台设备上使用微信，家里电脑和公司电脑，如果两边分别登录的话聊天记录有时候会同步不及时导致丢记录，有没有什么办法可以在两台设备上同时使用微信并且保证有设备（家里的电脑）中的聊天记录是完整的呢？\n有想到一个比较麻烦的办法就是直接 RDP 到家里电脑使用微信，但是这样家里电脑就得全天在线，很不方便。\n也有用 onedrive 同步聊天记录文件夹的方法，但是微信文件夹已经大到无法用免费的 5G 存下。\n也有说 syncthing 的，不知道跨设备同步会不会造成冲突或者聊天记录重复的问题。\n求各位大佬给点建议",
           "link": "https://www.v2ex.com/t/1108894",
           "publishedOn": "2025-02-04T14:08:37.000Z",
-          "wordCount": 371,
+          "wordCount": 382,
           "title": "有没有多台 PC 设备同时使用微信客户端的方法？",
           "imageUrl": null
         },
@@ -398,7 +531,7 @@
           "description": "revival83: 不是特臃肿就是版本特旧\nN1 挂了 需要重刷",
           "link": "https://www.v2ex.com/t/1108891",
           "publishedOn": "2025-02-04T14:05:16.000Z",
-          "wordCount": 398,
+          "wordCount": 409,
           "title": "求个最新的 N1 旁路由固件… 找了好多都不太靠谱",
           "imageUrl": null
         },
@@ -408,7 +541,7 @@
           "description": "Int100: \n请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?\n只讨论满血版 671B, 阉割版不在讨论范围内.\n需要稳定的, 官网 API 已经连续 9 天 Major/Partial Outage 了.\n硅基流动就别说了, 慢的受不了.🤦",
           "link": "https://www.v2ex.com/t/1108888",
           "publishedOn": "2025-02-04T13:37:46.000Z",
-          "wordCount": 416,
+          "wordCount": 438,
           "title": "请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?",
           "imageUrl": null
         },
@@ -468,7 +601,7 @@
           "description": "xingye163: 之前办理了个在网 3 年的合约，4 月马上到期，想改个便宜点的单网套餐，应该公网 IP 会丢失吧。",
           "link": "https://www.v2ex.com/t/1108879",
           "publishedOn": "2025-02-04T12:30:28.000Z",
-          "wordCount": 429,
+          "wordCount": 450,
           "title": "湖南电信融合宽带 1000 兆每月 199 包月，换套餐想保留公网 IP 怎么办？",
           "imageUrl": null
         },
@@ -498,7 +631,7 @@
           "description": "ChiuLam: \n从其他行业转行编程的朋友们，不管是通过培训还是自学，你们现在怎样了，会后悔这一决定吗？",
           "link": "https://www.v2ex.com/t/1108876",
           "publishedOn": "2025-02-04T12:25:28.000Z",
-          "wordCount": 401,
+          "wordCount": 407,
           "title": "从其他行业转行到开发的，你们现在怎样了，后悔了吗？",
           "imageUrl": null
         },
@@ -528,7 +661,7 @@
           "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \n\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\n\n虚拟机抓包(192.168.50.108)：",
           "link": "https://www.v2ex.com/t/1108873",
           "publishedOn": "2025-02-04T11:53:00.000Z",
-          "wordCount": 459,
+          "wordCount": 474,
           "title": "访问 V2EX 的问题",
           "imageUrl": null
         },
@@ -538,7 +671,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 480,
+          "wordCount": 513,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
@@ -558,128 +691,8 @@
           "description": "Liftman: \n买了个欧版 S25U ，我看 imei 是质保已经在 2 周前被激活？所以是因为在他的购买地 完成购买瞬间就算激活了？卖家说是拆开入关。所以拆开发货，机器先发。盒子之后发。这个风险不大吧？毕竟刚发布。。。。",
           "link": "https://www.v2ex.com/t/1108867",
           "publishedOn": "2025-02-04T11:02:09.000Z",
-          "wordCount": 414,
+          "wordCount": 426,
           "title": "买了个欧版 S25U，我看 imei 是质保已经在 2 周前被激活？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108866",
-          "author": "xierduo",
-          "description": "xierduo:  [闲鱼]  https://m.tb.cn/h.TMtrCW1?tk=tUmTe5QhxgC CZ057 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」\n点击链接直接打开\n\n数量不多，保号群➕:ranger7hero",
-          "link": "https://www.v2ex.com/t/1108866",
-          "publishedOn": "2025-02-04T10:50:09.000Z",
-          "wordCount": 368,
-          "title": "25 年元旦新西兰激活 skinny 电话卡¥78 包邮",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108864",
-          "author": "Dalexfefun",
-          "description": "Dalexfefun: 过年回家第五天，已经解锁了以下成就：\n✅ 把手机里所有 APP 点开三遍\n✅ 陪三舅公数完他养的 17 只鸡\n✅ 成功蹭到邻居家时断时续的 WiFi\n✅ 把春晚重播看到能接台词\n现在深刻理解什么叫\"快乐是他们的，我什么都没有\"！昨天试图教奶奶玩吃鸡，结果她老人家以为手机烫手是新型暖手宝...（奶奶咱家路由器该退休了，网速还没您走路快！）\n最近被迫开发了新技能：在 2G 网速里玩成语接龙，结果现在满脑子都是\"为所欲为→为虎作伥→娼妓从良→凉拌黄瓜...\"（好像有哪里不对？）\n实在无聊到开始收集全网冷笑话，手滑建了个野生网站（ hmmm 大概是被冻傻了吧）👉 https://funny-jokes.co/dad-jokes 现在连家里大黄狗看到我都绕道走，可能怕我给它讲新编的\"狗为什么改不了吃 shi\"系列冷笑话...（求组团开发农村娱乐新方式！）",
-          "link": "https://www.v2ex.com/t/1108864",
-          "publishedOn": "2025-02-04T10:18:46.000Z",
-          "wordCount": 383,
-          "title": "过年回家，没网，不探亲，没人认识，麻了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108861",
-          "author": "chjerry2008",
-          "description": "chjerry2008: 我在上海和江苏各有一条移动宽带，利用 ipv6 下的 wg 协议打通为内网。\n目前表现为江苏向上海传输文件，满上行（约 80Mb ），而从上海向江苏传输文件，只有 7Mb(满值为 50Mb 左右)。\n裸 ipv6 地址（非 wg 协议）可以 scp 到满上行。各项测速也都正常。\n是不是表明上海移动识别 wg 协议，限速了？还是我自己的设置哪里有问题？\n如果是限速了，有什么好的解决方法吗？",
-          "link": "https://www.v2ex.com/t/1108861",
-          "publishedOn": "2025-02-04T09:56:38.000Z",
-          "wordCount": 492,
-          "title": "上海移动是不是识别 wg 协议，限速了？（非出国）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108860",
-          "author": "Seck",
-          "description": "Seck: \n1.官方也很卡顿，还经常打不开\n2.导出文档卡，就是死也导不出来，pdf,html ,markdown 都导不出来\n有相同的经历的出来说下。以前从来没有过，用了挺久的\n刚去打开 notion 官网，挂梯子，打不开了。",
-          "link": "https://www.v2ex.com/t/1108860",
-          "publishedOn": "2025-02-04T09:47:48.000Z",
-          "wordCount": 372,
-          "title": "notion 有相同用户经历的吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108859",
-          "author": "seth19960929",
-          "description": "seth19960929: 陈晓舟 黄兰英 夫妻应该是已经不在了，应该差不多一百岁了，不知道他们的子女是否还在？\n已知的信息：以前曾是国军连长",
-          "link": "https://www.v2ex.com/t/1108859",
-          "publishedOn": "2025-02-04T09:38:01.000Z",
-          "wordCount": 478,
-          "title": "有台湾的朋友认识 陈晓舟​黄兰英​ 夫妻吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108858",
-          "author": "wegbjwjm",
-          "description": "wegbjwjm:",
-          "link": "https://www.v2ex.com/t/1108858",
-          "publishedOn": "2025-02-04T09:28:29.000Z",
-          "wordCount": 382,
-          "title": "steam deck 换了下硬盘，电源芯片烧了，苏州上海有没有介绍的维修店？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108856",
-          "author": "luyan",
-          "description": "luyan: \nRt.",
-          "link": "https://www.v2ex.com/t/1108856",
-          "publishedOn": "2025-02-04T09:02:55.000Z",
-          "wordCount": 390,
-          "title": "准备用手机 App 云听会员听广播，麻烦问一下坛友有云听会员不用要出的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108855",
-          "author": "IceySwan",
-          "description": "IceySwan: 接上文 https://www.v2ex.com/t/1094454#reply5\n前几天发现 copilot 不能使用了, 显示\n>  You cannot proceed\nWe are sorry, but after reviewing we have determined that the billing information supplied is ineligible for transactions with GitHub due to government restrictions.\nLearn more about GitHub and trade control regulations.\n附图 https://imgur.com/a/Z4WM0N9\n本人正版学生, 使用学信网档案申请的",
-          "link": "https://www.v2ex.com/t/1108855",
-          "publishedOn": "2025-02-04T09:02:12.000Z",
-          "wordCount": 463,
-          "title": "疑似 github 学生包不能使用大陆邮箱?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108854",
-          "author": "reDesign",
-          "description": "reDesign: DeepSeek R1 模型本身是不支持视觉（图像识别）的，DeepSeek 官方客户端的图像识别功能，虽然好像是只是 OCR 文字，但还挺好用的。但有一个问题是，官方客户端调用起来经常会失败，而第三方客户端或者是自己本地部署，又普遍不支持图像识别功能 有没有好的第三方客户端 能去很好的识别图像 然后再去喂给 DeepSeek R1 ？",
-          "link": "https://www.v2ex.com/t/1108854",
-          "publishedOn": "2025-02-04T08:59:27.000Z",
-          "wordCount": 377,
-          "title": "deepseek 识别图像的疑惑",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108853",
-          "author": "beginor",
-          "description": "beginor: \n今年开车去岳母家，高速上看到不少摩托车，车速估计能到 150 公里，高速上敢这么开的车手真是头一年见到，不知道该说啥，炫车技还是嫌命长？",
-          "link": "https://www.v2ex.com/t/1108853",
-          "publishedOn": "2025-02-04T08:56:33.000Z",
-          "wordCount": 731,
-          "title": "高速上看到不少敢开 150 公里摩托车",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108852",
-          "author": "nbweb",
-          "description": "nbweb: 昨天从外地返回广东，走广连高速，中午 12 点进入广东界，晚上 11 点半才到东莞。\n主要原因是两个隧道堵。进入隧道时速 20 公里，出了隧道立马 120 的时速，全是蜗牛。第二个隧道，更无语，走了 4 小时才通过隧道。\n春运时节，遇到隧道，堵车三五十公里，那是随随便便。",
-          "link": "https://www.v2ex.com/t/1108852",
-          "publishedOn": "2025-02-04T08:37:14.000Z",
-          "wordCount": 378,
-          "title": "如何解决隧道堵？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108851",
-          "author": "revival83",
-          "description": "revival83: 每次用完… 多了一堆软件\n如果两个账户是不是一个有毒，另外一个没问题？",
-          "link": "https://www.v2ex.com/t/1108851",
-          "publishedOn": "2025-02-04T08:18:53.000Z",
-          "wordCount": 475,
-          "title": "win10 怎么给孩子建立个账户和我的分开？",
           "imageUrl": null
         }
       ]
