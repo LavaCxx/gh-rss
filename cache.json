@@ -196,6 +196,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -310,6 +337,166 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1108852",
+          "author": "nbweb",
+          "description": "nbweb: 昨天从外地返回广东，走广连高速，中午 12 点进入广东界，晚上 11 点半才到东莞。\n主要原因是两个隧道堵。进入隧道时速 20 公里，出了隧道立马 120 的时速，全是蜗牛。第二个隧道，更无语，走了 4 小时才通过隧道。\n春运时节，遇到隧道，堵车三五十公里，那是随随便便。",
+          "link": "https://www.v2ex.com/t/1108852",
+          "publishedOn": "2025-02-04T08:37:14.000Z",
+          "wordCount": 376,
+          "title": "如何解决隧道堵？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108851",
+          "author": "revival83",
+          "description": "revival83: 每次用完… 多了一堆软件\n如果两个账户是不是一个有毒，另外一个没问题？",
+          "link": "https://www.v2ex.com/t/1108851",
+          "publishedOn": "2025-02-04T08:18:53.000Z",
+          "wordCount": 400,
+          "title": "win10 怎么给孩子建立个账户和我的分开？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108850",
+          "author": "qazwsxkevin",
+          "description": "qazwsxkevin: \n有个场景，场所提供一个 SSID （叫 officeWifiA 吧)\n想在 Openwrt 的平台上（其它纯 Linux ，可以二次开发的平台也行）\n使方案可连接到 officeWifiA 拿到 IP ，获得外联网络出口，\n同时方案提供 officeWifiB SSID ，让其它设备接入，\n在 opwenwrt+MT7628/7688 平台下，进行一些非常简单，要求不高的 IP 流量处理，\n\n如果 MT7628 这种便宜平台做不到，哪也只能找 R2S 再加个 USB WIFI 在 arbian 上实现了吧？",
+          "link": "https://www.v2ex.com/t/1108850",
+          "publishedOn": "2025-02-04T08:17:56.000Z",
+          "wordCount": 394,
+          "title": "MT7628、7688 这些满大街的方案，能做到既路由、又 AP， 无线双模式吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108849",
+          "author": "balabalaguguji",
+          "description": "balabalaguguji: \n过年每天都吃个不停，能控制不吃的都是狠人，吃饱了这不年后了就得开始减了嘛。\n给大家推荐我的健身 APP 吧： https://lianlian.gzyunke.cn?f=v2\n跟 Keep 是不一样的，Keep 主要是做有氧，我这个主要是做力量训练的。\n如果你想去健身房训练，一定要试下。\n有了这个 APP 你完全可以自学健身了，不需要请昂贵的私教，也不用怕跑路。\nAPP 提供科学的训练计划和讲解，每天跟着计划练就可以了。\n老手也可以用来记录自己的训练、安排计划，这样能看到自己的成长曲线和训练日历，非常有成就感。\n\n支持手表上训练，还可以脱离手机使用。\n\n\n讲讲我的成就：\n获得了鸿蒙商店的编辑推荐，作为首个适配鸿蒙 NEXT 的健身 APP ，还获得了《鸿蒙先锋奖》。\n华为运动健康合作伙伴，现在是 GT5 预装 APP",
+          "link": "https://www.v2ex.com/t/1108849",
+          "publishedOn": "2025-02-04T08:13:04.000Z",
+          "wordCount": 380,
+          "title": "每逢佳节胖三斤，那么试下我的健身 APP 吧",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108848",
+          "author": "1140601003",
+          "description": "1140601003:",
+          "link": "https://www.v2ex.com/t/1108848",
+          "publishedOn": "2025-02-04T08:10:39.000Z",
+          "wordCount": 363,
+          "title": "deepseek 一直服务繁忙，请问站在技术的角度下，如何去解决恢复呢？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108847",
+          "author": "dcdyouget",
+          "description": "dcdyouget: \n老家是太原的,目前在深圳工作\n双非本科学历\n技术栈主要是 java 、k8s 相关\n不知道太原的情况怎么样",
+          "link": "https://www.v2ex.com/t/1108847",
+          "publishedOn": "2025-02-04T08:01:35.000Z",
+          "wordCount": 403,
+          "title": "工作两年想回太原",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108846",
+          "author": "qazwsxkevin",
+          "description": "qazwsxkevin: \n老机器，源库 MySQL 5.6 ，没有开 binlog ，磁盘、网络接口 I/O 都很慢，整个库有 80 多 GB",
+          "link": "https://www.v2ex.com/t/1108846",
+          "publishedOn": "2025-02-04T07:44:51.000Z",
+          "wordCount": 417,
+          "title": "有用过 SyncNavigator 或者类似的简单数据库同步软件吗，",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108844",
+          "author": "ksc010",
+          "description": "ksc010: 用的 mqtt.js 库 目前能用的版本 是 v4.1.0 \n其他的版本的基本不兼容小程序(浏览器上倒是很稳定）\n各种莫名其妙的掉线，卡住\n---开发者工具，调试也各种问题\n模拟器上和真机运行 不一样，模拟器正常 真机不行\n真机调试很拉跨，调试日志发送不过来\n局域网网段自动选择的也不对(也没看到哪里可以修改）",
+          "link": "https://www.v2ex.com/t/1108844",
+          "publishedOn": "2025-02-04T07:31:25.000Z",
+          "wordCount": 346,
+          "title": "微信小程序上使用 mqtt， 太恶心了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108843",
+          "author": "Gilfoyle26",
+          "description": "Gilfoyle26: \n前几年关注的一批博客都搜不到了\n很多群都没什么消息了，大家好像都变得沉默了，甚至连发擦边的图都变少了\n最神奇的是 B 站上有很多躺平博主，甚至还有组团躺平的，视频有很多播放量，这个现象真的。。。。",
+          "link": "https://www.v2ex.com/t/1108843",
+          "publishedOn": "2025-02-04T07:28:18.000Z",
+          "wordCount": 401,
+          "title": "现在的大环境，好像很多事情都没有以前🔥（火热）了，貌似大家都没什么热情了❤️",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108840",
+          "author": "ugpu",
+          "description": "ugpu: \n各位佬新春好.\n因为业务选型 之前一直使用 cpp/lua/c#\n目前打算使用 golang 作为新产品的游戏服务器开发语言.\n对 golang 的选型不知道如何抉择.开发业务为游戏服务器.\n如果是游戏服务器开发老鸟可能知道 c#有 et lua 南方地区偏向 skynet （小厂居多.方便快捷\ncpp 的框架一看一大把,多半自己撸一套.\n那么有用过 golang 框架的吗？希望这个框架一直在维护.最好类似 skynet 这种.主要是一直在维护，且有多个公司上线部署验证过的.最好还是有社区",
+          "link": "https://www.v2ex.com/t/1108840",
+          "publishedOn": "2025-02-04T07:11:29.000Z",
+          "wordCount": 422,
+          "title": "Golang 游戏开发框架选型",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108839",
+          "author": "albert0yyyy",
+          "description": "albert0yyyy: 早餐、午餐、午餐都可以\n咸辣皆可，\n出差一两天",
+          "link": "https://www.v2ex.com/t/1108839",
+          "publishedOn": "2025-02-04T07:01:16.000Z",
+          "wordCount": 342,
+          "title": "南昌有什么好吃的店铺推荐吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108838",
+          "author": "gordonlgy",
+          "description": "gordonlgy: \nwifi6e 和 wifi7 都不温不火，设备又昂贵，是不是被组织放弃治疗了，难道 wifi 也步入 window 的宿命，好一代，萎一代？",
+          "link": "https://www.v2ex.com/t/1108838",
+          "publishedOn": "2025-02-04T06:57:14.000Z",
+          "wordCount": 487,
+          "title": "感觉 wifi6 战未来",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108836",
+          "author": "YuiTH",
+          "description": "YuiTH: 可能是还在过节，各家目前没有提供类似 OpenAI 的那种 finetune 资料库的服务，也只有官方和 silicon flow 提供全量模型的服务。有自己 finetune 的方法吗？\n另外 finetune 后在类似 ecs.r8a.24xlarge 这种阿里云的纯 CPU 服务器（ 700G 内存）的服务器上运行可行吗？",
+          "link": "https://www.v2ex.com/t/1108836",
+          "publishedOn": "2025-02-04T06:53:38.000Z",
+          "wordCount": 401,
+          "title": "deepseek r1 现在有比较成熟的 finetune 文档库的流程吗？ finetune 后在 CPU 云服务器上运行靠谱吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108835",
+          "author": "no0ne",
+          "description": "no0ne: \n15.2 版本的系统，steam 上打了几把 dota2 ，steam 的内存直接飙到 60g 了，但是 stem 实际内存显示只有几百。然后系统直接弹出内存过大的提示，要求强制关闭内存过大的 steam ，然后 dota2 就直接卡住了 。有人碰到过吗？\n之前老的 intel 芯片 mbp 也这样，这次换成 m3 了还是这样",
+          "link": "https://www.v2ex.com/t/1108835",
+          "publishedOn": "2025-02-04T06:51:22.000Z",
+          "wordCount": 367,
+          "title": "macos 的 steam 内存一直变大",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108834",
+          "author": "abcd2022",
+          "description": "abcd2022: \n小弟我(23 届)原来是做业务开发的，由于业务发展不好等等各种原因，自己选择了离职。自己业余时间对开源很感兴趣，现在也是 apache 某项目(对应领域在国内较有名气)的 pmc member 和其他较为知名项目的 member 成员，现在比较困惑的就是：\n很想转入业余做的这个领域，因为是偏基础架构的开发，想知道在社招中这种情况会被卡的严重吗\n开源经历帮助会有多大，因为我没有在这个领域公司层面的落地经验\n希望大家能给些建议或看法，如果有相关经历的同学最好了",
+          "link": "https://www.v2ex.com/t/1108834",
+          "publishedOn": "2025-02-04T06:48:54.000Z",
+          "wordCount": 398,
+          "title": "业务开发转基架求职咨询，望不吝赐教",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1108832",
+          "author": "bboring",
+          "description": "bboring: \n《哪吒 2 》看完了，很好看的电影，值得一看。\n多少人是当代「申公豹」？\n出身平凡，怀揣梦想，刻苦学习，走出大山；\n摸爬滚打，努力拼搏，忍辱负重，收获甚微；\n多少人又是那只「土拨鼠」，职场牛马，饭碗说没就没，被砸了也只能不甘、无奈...\n继续努力吧，朋友",
+          "link": "https://www.v2ex.com/t/1108832",
+          "publishedOn": "2025-02-04T05:54:41.000Z",
+          "wordCount": 442,
+          "title": "多少人是当代「申公豹」？多少人又是那只「土拨鼠」？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1108829",
           "author": "xkjack0000",
           "description": "xkjack0000: \nTop 百亿+私募量化投资公司，地点：北京/上海。\n竞争力的薪资，精英团队。\n感兴趣邮件： jxiao@hiringby.com\n微信私聊：15210750729\n基本要求：\n年轻高潜，聪明，代码能力强，学校 211 起，对金融领域感兴趣。\n大厂或知名外企背景，量化从业者加分。\n核心系统开发工程师 C++\n主要工作职责：负责量化交易系统架构的设计和搭建；负责在不同编译器、操作系统和网络环境下的性能优化；学习和了解其他高科技行业的尖端技术，寻找技术突破的灵感。\n岗位要求\n1 ）国内外知名院校的计算机科学本科及以上学历；\n2 ）对技术革新和软件开发充满热情，对低延迟系统开发有一定经验；\n3 ）精通数据结构和算法，具备扎实的 C++/C 语言编程能力；\n4 ）掌握高级的 Linux 内核知识更佳；\n5 ）具有优秀的书面表达与沟通协调能力；\n6 ）永远追求最高效的解决方案。\nPython 高级开发工程师\n[岗位职责]  负责与策略研究人员沟通，协助策略研究工作，与策略研究人员紧密合作，解决技术难点，对策略依赖的算子、投研框架及工具进行开发和性能优化，并支持工程团队开发基于多机的低延迟计算平台，以应对各种频率的投研场景；完成其他交办的交易系统平台开发任务。\n1 年以上相关工作经验；  \n优秀的软件设计能力，掌握基本的设计模式；  \n良好的软件调试和性能优化能力；  \n热爱 coding ，愿意主动花时间钻研技术；  \n良好的编程习惯，高效的沟通能力和快速学习能力；  \n熟练使用 Python ；\n[加分项]  1. 有 C++开发、性能调优经验； 2. 熟悉金融交易类业务、技术架构； 3. 了解业界常用的 pipeline 工具及并行开发框架；\n其他岗位：\n数据开发（数据仓库，数据平台，数据处理等）-211,3 年+;\n机器学习平台开发（机器学习平台、训练框架底层相关开发经验）-3 年+；\n运维开发 -3 年+，有 SRE ，DevOps ，后台开发经验，主要技术栈：Python ；\n全栈开发 -3-6 年，全栈开发经验（ react+python ）；\n前端开发 - 211 ，5-8 年，知名互联网经验；\n高性能计算工程师-985 ，3 年+；\n高性能系统优化-985 ，3 年+；\n8.ai 算法-985 ，大厂或量化公司，打比赛经历； 量化策略算法、大模型算法；",
@@ -325,7 +512,7 @@
           "description": "bn: \n邀请链接：https://cloud.siliconflow.cn/i/mbDKedP3\n通过邀请链接注册赠送免费体验额度。\n即使 DeepSeek 官方 API 被攻击，也能正常使用 R1 。",
           "link": "https://www.v2ex.com/t/1108828",
           "publishedOn": "2025-02-04T05:31:49.000Z",
-          "wordCount": 346,
+          "wordCount": 357,
           "title": "硅基流动 DeepSeek-R1 免费体验",
           "imageUrl": null
         },
@@ -345,7 +532,7 @@
           "description": "GSDgsd: 日本 IT 募集信息更新：\n1.项目 Leader：\n需要日语流利 OK ，有项目管理经验；\n懂 IT 开发，管理项目团队\n\n2.PG （ Java 方向）：\n3 年及以上开发经验，技术可以独立开发；\n会些日语即可，要求不高\n\n3.SAP\n人材缺口大，每月 10~20 人缺口；\n日语 OK ，有相关 SAP 方向经验\n\n4.Python\n3 年及以上开发经验，日语 n2 及以上；\nPG/SE 均可~\n\n另外其他技术方向需求也在募集：\nPM/PL/D365 FO/AWS/AI 相关/C#/Salesforce/Servicenow/PEGA/UIPATH/SE 等均在招聘，\n日语 n2 及以上，可以应对全程日语面试；\n待遇 OK ，具体根据技术能力与日语能力定薪；（ 400~1200 万円不等）\n有高度人才+20 分，可以实现永驻；\n福利厚生年金保险等完备，有給休暇~\n\n以上所有需求可以投递履历书至邮： beibei6782023@163.com\nWeChat：ls152023678",
           "link": "https://www.v2ex.com/t/1108824",
           "publishedOn": "2025-02-04T04:38:43.000Z",
-          "wordCount": 422,
+          "wordCount": 424,
           "title": "东京 IT|Leader 募集(日语)、PG( Java )3 年经验，可以独立开发、SAP(10~20 人)，待遇 OK，其他技术方向也在招",
           "imageUrl": null
         },
@@ -355,7 +542,7 @@
           "description": "newshbb: \n目前考虑把 postgres 迁移到分布式方案，不知道有没有实战经验的谈谈感受",
           "link": "https://www.v2ex.com/t/1108823",
           "publishedOn": "2025-02-04T04:31:23.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "Citus 自动分片还是直接用 YugabyteDB 或者蟑螂 DB？",
           "imageUrl": null
         },
@@ -375,7 +562,7 @@
           "description": "MAGICY: \n在进入正文之前，我先说一下发表该文目的\n我写的内容都是自己的真实经历与思考，希望对一部分人有用参考价值\n我希望能够通过优质的内容，为我的公众号涨涨粉，但是只会在结尾放上公众号的二维码，因为我想让读者先评估内容的价值，再思考要不要关注我的公众号 \n文章 4200 字，速读只需 5 分钟，接下来进入正文\n前些天一位毕业多年的学弟找我聊天，说自己目前的工作并不快乐，对未来也很迷茫。毕业这么多年，无论是自己，还是身边的人，都或多或少经历过类似的困惑，回想起那些辗转反侧的日日夜夜，我曾不断的拷问自己：我喜欢什么？我的特点是什么？我究竟想怎样的生活？渐渐地我有了答案，现在我想把曾经的思考记录下来，仅供大家参考与批判。\n1. 好工作长啥样\n什么样的工作才算好工作？？能赚更多的钱？博取更高的名望？还是获得更大的权力？对此，每个人都有自己的答案，我想用一个著名的调研来引出自己的观点。\n20 世纪，契克森米哈赖想搞清楚：到底哪些事情让人感到幸福？于是他和团队发起了一个著名的调研：他们选择了数万人作为调研对象，涵盖了世界各地的各类人群，例如韩国的老妪、印度的壮年人、东京的青少年、印第安纳瓦霍族的牧人、阿尔卑斯山区的农夫以及芝加哥装配线上的工人等。他们为每位受测者佩戴了一个电子传呼机，每天会随机的发起 8 次信号，每当发出信号后，受测者需要记录当时的心情以及在做的事情，并在一周后回收。最终他们收集到了超过 10 万份记录。然后他们惊讶的发现：完全沉浸在某种活动当中，无视其他事物存在的状态，是最让人幸福的事情。\n结合自己的经历，我认为：所谓好工作/事业，一定是能充盈自己，而非消耗自己，你清楚工作的意义，能调动自己的积极性，通过创造价值，不断获得成就感，并在这个过程中，顺便把钱就给挣了。\n2. 人挣不到自己认知以外的钱\n很多人都听过这句话：人挣不到自己认知以外的钱！对此，我还想补充后…",
           "link": "https://www.v2ex.com/t/1108820",
           "publishedOn": "2025-02-04T04:12:47.000Z",
-          "wordCount": 739,
+          "wordCount": 747,
           "title": "我想开开心心的把钱挣了",
           "imageUrl": null
         },
@@ -385,7 +572,7 @@
           "description": "kevtheboy: \n本来已经在 PVE 上安装了多个 windows os 作分离数据用，效果也挺满意。 但后来因为用 android 模擬器的需求,直接用 CPU 运作会卡到不行，（当时没搞定核显直连，用的 amd 8845hs 迷你主机 880m pro),又整机装回去 windows 11 了，android 模擬器顺畅了 但是又失去了 pve 分离数据/使用者的优点,所以在考虑应不应再 pve 装回去，折腾一下核显直连,想请教一下各位会不会有什么建议?",
           "link": "https://www.v2ex.com/t/1108819",
           "publishedOn": "2025-02-04T03:46:40.000Z",
-          "wordCount": 523,
+          "wordCount": 527,
           "title": "有关 PVE /宿主機 windows 11 选择的问题",
           "imageUrl": null
         },
@@ -425,7 +612,7 @@
           "description": "xiaoqi6pi112: \n现象\n近期在测试多个大语言模型时，我注意到一个值得警惕的技术特性：当用户向 ChatGPT 类平台输入商业数据后，系统不仅会执行常规的语义处理，更会通过「知识蒸馏」技术将信息沉淀至底层知识库。这种机制引发连锁反应——我曾在 ChatGPT 输入过特定商业参数，两周后测试 DeepSeek 时，该模型竟能复现高度相似的关键词组合。\n猜测\n这种数据流转机制存在三重风险传导路径：\n数据资产化：用户输入的商业信息经向量化处理后，可能成为模型训练集的有机组成部分\n知识迁移：通过参数微调（ Fine-tuning ）和模型蒸馏（ Distillation ），核心数据特征会在不同 AI 系统间转移\n信息重构：即便原始数据已被脱敏，模型仍可通过模式识别重组商业要素\n案例\n以中小企业常见的场景为例：\n某公司为优化供应链咨询 GPT 物流参数，三个月后竞品企业通过诱导式提问竟还原出其成本结构\n创业团队用 AI 验证商业模式，半年后发现同类项目的 BP 呈现惊人的策略趋同性\n我司测试的客户分层模型特征值，现已成为多个 AI 平台的标准分析维度\n结论\n这种隐形的数据迁移正在制造「商业机密资产化」悖论：企业为提升效率向 AI 输入核心数据，却反向为竞争对手构建了战略预测模型。更严峻的是，当行业共性数据累积到临界点，头部平台实质上掌控着整个产业的决策图谱。",
           "link": "https://www.v2ex.com/t/1108814",
           "publishedOn": "2025-02-04T03:05:03.000Z",
-          "wordCount": 419,
+          "wordCount": 435,
           "title": "关于企业用大模型的安全问题",
           "imageUrl": null
         },
@@ -445,7 +632,7 @@
           "description": "LiuJiang: \n老家湖南，今年打算离开上海，四处流浪，迫于行李很多，如何寄存是个问题？大伙有啥好意见吗？",
           "link": "https://www.v2ex.com/t/1108812",
           "publishedOn": "2025-02-04T02:52:08.000Z",
-          "wordCount": 516,
+          "wordCount": 526,
           "title": "行李放那合适？",
           "imageUrl": null
         },
@@ -455,7 +642,7 @@
           "description": "dyyhobby: \n设备：MacMini M4 丐版\n外置硬盘：绿联雷电 4 40Gbps\n由于在一个很安静的环境，实在受不了硬盘哪个噪音，用硬纸片卡主风扇了。\n用风扇：最高温度大约 55 度左右。\n无风扇：最高温度大约 62 度左右。\n风扇不转以后世界安静了。",
           "link": "https://www.v2ex.com/t/1108810",
           "publishedOn": "2025-02-04T02:44:35.000Z",
-          "wordCount": 476,
+          "wordCount": 489,
           "title": "外置硬盘风扇被我拆了",
           "imageUrl": null
         },
@@ -475,7 +662,7 @@
           "description": "damnthatsfunny: 这次过年没有回家，而是偷偷瞒着家人和所有同事，一个人跑到了欧洲，逛了逛英国和爱尔兰。\n令我印象比较深刻的是在伦敦住青旅的那几天。期间遇到一个同宿舍的中年白男，大概四五十岁，宿舍里还有 3 个比利时的妹子和她们的 2 个男性朋友。\n![所住的青旅]( https://i.ibb.co/hFSYsJ2m/IMG20250129171259.jpg “所住的青旅”)\n白男睡觉比较早，第一天晚上我回寝室时他已经睡着，直到第二天下午我才看到他，那时宿舍里只有我和他两个人，他下班回来洗澡，问我喜欢男的女的，是否是 gay ，他说他是双，随后他竟然给我看他的鸡巴，他问我尝试过大麻吗，我也并非谈麻色变之人，因为我之前在意大利也抽过几口，只是并没有任何感觉，据我了解大麻的成瘾性其实比普通香烟还低。我只是有点害怕他会对我做出什么举动，于是我赶紧出门，但是伦敦的街头太冷了，我走了几步路，又返回宿舍了，我想毕竟这是旅馆，他看着也慈眉善目的，大庭广众之下他肯定不会做出什么过分的东西。我回到宿舍，询问得知他是爱尔兰人，在工地干活。\n\n第二天晚上他又睡的很早，比利时的妹子们回来晚了，吵到他了，白男把他们骂了一顿。然后比利时的人下去叫了管理，污蔑说白男动手打了他们，管理把它调到了另一个房间，还把他吼了一顿，实际上白男是有点冤的，毕竟是他休息被人吵到了。我以为这就结束了，不会再见到他了。第二天晚上我去楼下的酒吧，竟然又碰到他了，他主动给我打了招呼，我询问他昨天休息得怎么样，他说他调换房间之后就再没睡着，于是在大厅躺到了天亮。我告诉他今晚是我在伦敦的最后一晚，明天将回到中国。他说“你应该庆祝这最后一晚，你知道，当你离开这里之后，一切又回到现实”。白男也算外向，走过他面前的人，一旦有眼神对视，就会主动向对方问好，他告诉我这是他们的一种习惯。他给了我他的邮箱，告诉我说即使你回到中国，我们也应该保持联系。随后我们出去买了两瓶酒，回来的路上他抽了两口大麻，问我要不要尝试，我抽了几口，根本没有任何感觉。由于大麻是卷到香烟里的，抽得我都吐了，后面我们回到酒吧继续跟周围的人聊天。认识了一对女同，一个来自德国，一个来自瑞士，瑞士的妹子非常温柔，彬彬有礼的样子，我们聊了两个小时，期间出过旅馆到大街上站着干聊，又回到旅馆。后面一直聊到酒吧关门，我跟那对女同交换了 Instagram ，第二天退房，下午又走了两圈，晚上坐飞机回到了中国。",
           "link": "https://www.v2ex.com/t/1108808",
           "publishedOn": "2025-02-04T02:22:38.000Z",
-          "wordCount": 544,
+          "wordCount": 579,
           "title": "聊聊在伦敦住青旅的日子",
           "imageUrl": null
         },
@@ -485,7 +672,7 @@
           "description": "Lamada4545: \n家中 openwrt+homeproxy 配置的 DoH： https://dns.google/dns-query ，从昨天开始便不能使用 Google DoH 解析了，请问大家有没有替代方案？",
           "link": "https://www.v2ex.com/t/1108807",
           "publishedOn": "2025-02-04T02:14:48.000Z",
-          "wordCount": 551,
+          "wordCount": 579,
           "title": "Google DoH 不可用",
           "imageUrl": null
         },
@@ -505,198 +692,8 @@
           "description": "ihehe: \nOHY 介绍\nGITHUB 地址: https://github.com/ohyfun/ohy\n无需打包：一行命令就直接把 WEB 启动成桌面应用。自动设置好桌面 ICON 。\n隐私优先：所有应用的 WEB 缓存数据统一目录存放，不在系统里到处创建文件。\n性能保障： 纯 RUST 性能应该没问题，实现代码超精简，有利于高级用户二开。\n支持应用多开： 每个应用的 WEB 缓存单独存放，相互隔离\nUsage\nUsage: ohy --url <url> [-n <name>] [-w <width>] [-h <height>] [-a <user-agent>]\n\nOptions:\n  --url             url example https://www.github.com\n  -n, --name        name\n  -w, --width       width default 1200\n  -h, --height      height default 780\n  -a, --user-agent  user agent\n  --help, help      display usage information\n\n安装简单（ linux 用户需要安装libwebkit2gtk-4.1的系统依赖）\ncargo install ohy\n\n开发这个工具的心路历程：\nOP 是 LINUX 桌面用户，平时蛮重视隐私保护的。浏览器用的全隐私模式，不同网址都用 firefox-container 隔离在不同的 SESSION 中（ OP 是 FIREFOX 全平台用户），\n平时一开 Tab 就是几十个，隔三岔五的 Tab 一键全删除, 这时候就有个问题了， 一些需要登陆的网站就得重新登陆了，AI 兴起之前时间还好，也就两三个必须登陆使用，\n自从 AI 平台百团大战以来，需要登陆的平台多到十多个。作为一个 Linux 桌面用户，官方能提供桌面应用的少得可怜，所以就寻找解决方案。\n一开始发现 PAKE 这个 WEB 打包工具，试用了一下发现有点不合适我，PAKE 中每个应用需要提前打包，然后还要 APT 安装。\nPAKE 好像没在 LINUX 上测试过，LINUX 安装多个应用好像有些问题。\nPAKE 是个很好的工具，提供的功能也更丰富，只是不适合我的使用习惯； OHY 的底层依赖，跟 PAKE 一样都是 WRY 这个 RUST 的 WEBVIEW 库，所以性能差别不大。\nOHY 状态\nOHY 目前只在 LINUX 跟 WINDODOWS 上测试过，因为没有 MAC 设备，所以没有测试过，\n底层依赖是支持 MAC 的，作为 RUST 新手对交叉编译还不太会，所以 MAC 上可能会有 BUG ，\n欢迎大家试用，star 跟 issues ， 欢迎 MAC 用户来帮忙测试一下。\n可怜的 CARGO CLIPPY 竟然对 #[cfg]指定的其他平台下的代码不闻不问？\n放一张应用截图",
           "link": "https://www.v2ex.com/t/1108803",
           "publishedOn": "2025-02-04T02:06:10.000Z",
-          "wordCount": 544,
+          "wordCount": 584,
           "title": "OHY 又一款 WEB 打包成桌面应用的 CLI 工具",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108802",
-          "author": "onc",
-          "description": "onc: \n让我们开始干起来吧！",
-          "link": "https://www.v2ex.com/t/1108802",
-          "publishedOn": "2025-02-04T01:55:54.000Z",
-          "wordCount": 378,
-          "title": "全自动化编程系统",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108801",
-          "author": "qdwang",
-          "description": "qdwang: \n对手柄要求不高，但是问了一圈客服都说不支持？\n是真的百元手柄都不支持 mac 吗？",
-          "link": "https://www.v2ex.com/t/1108801",
-          "publishedOn": "2025-02-04T01:54:40.000Z",
-          "wordCount": 600,
-          "title": "求推荐百元 mac 可用的游戏手柄",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108800",
-          "author": "Ivan555",
-          "description": "Ivan555: \n我们的产品已在 www.f6s.com 上发布。如果您感兴趣，我们很乐意听取您的反馈意见，并非常感谢您的评价！\n🔗 https://www.f6s.com/software/review?product=picmagix",
-          "link": "https://www.v2ex.com/t/1108800",
-          "publishedOn": "2025-02-04T01:50:52.000Z",
-          "wordCount": 340,
-          "title": "你的一个想法，可能改变 PicMagix！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108799",
-          "author": "Grocker",
-          "description": "Grocker: 年前提前一天放假，年后也提前一天上班",
-          "link": "https://www.v2ex.com/t/1108799",
-          "publishedOn": "2025-02-04T01:48:42.000Z",
-          "wordCount": 578,
-          "title": "今天有几个倒霉蛋已经开始上班了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108798",
-          "author": "SniperXu",
-          "description": "SniperXu: \n其实内心是想要 4K 高刷的，但是目前看 4K 高刷这个价位选择很少，不知道 V 友还有啥推荐吗。",
-          "link": "https://www.v2ex.com/t/1108798",
-          "publishedOn": "2025-02-04T01:38:57.000Z",
-          "wordCount": 750,
-          "title": "最近打算换个显示器，预算 2500 以内，在 2K 高刷和 4K 高刷之间纠结",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108797",
-          "author": "ns2250225",
-          "description": "ns2250225: \n地址是： http://101.33.255.17:5050/\n欢迎大家来玩，😂",
-          "link": "https://www.v2ex.com/t/1108797",
-          "publishedOn": "2025-02-04T01:27:55.000Z",
-          "wordCount": 368,
-          "title": "一个阅后即焚的帖子网站--1 分钟帖子",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108796",
-          "author": "abi",
-          "description": "abi: Github 项目地址： https://github.com/alecm20/story-flicks 如果觉得不错的话，欢迎点个🌟，谢谢～\n这个项目可以通过输入简单的一句话，系统就可以通过 LLM 解析主题，生成一个包含多个段落的完整的故事。并且通过图像模型生成符合主题的多张图片，以及调用语音、字幕服务等生成对应的语音和字幕，最终自动生成一个完整的包含故事剧情、语音、字幕、图片等多模态元素的完整视频。同时生成的视频也支持中英日韩等多种语言。\n对于视频创作者来说可以快速生成一个质量不错的视频，提升视频创作效率；对于教育工作者等，可以方便的创建具有教育意义的故事短片给儿童观看等。\n欢迎大家试用～",
-          "link": "https://www.v2ex.com/t/1108796",
-          "publishedOn": "2025-02-04T01:20:19.000Z",
-          "wordCount": 520,
-          "title": "使用 AI 大模型，一键生成高清故事短视频",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108795",
-          "author": "jiuzhougege",
-          "description": "jiuzhougege: 被人盗号了？但是这个账户我一直在登录，并无异常\n1.28 第一封 Welcome to SHEIN!\n第二封 Notification about unfinished order cancellation\n1.29 第三封 Order Confirmation\n里面的链接，看着也是没问题的？\nhttps://shein.com/onelink/8/4dn8n3t3zyiw?msgId=MSG20250128051739893351665&site=andshus&dataCenter=us\n1.30 第四封 Your SHEIN order has been shipped\n2.4 第五/六封 SHEIN Order Delivery Notification\n\nDear Customer,\nYour order GSU1M635M00QJ78 tracking number SPX1EG056733775977 shows as being delivered. When you receive your order, please kindly click \"confirm delivery\" to earn points here. We are always at your service if you need any help!\nNote:\nItems may be shipped out from different warehouses due to inventory. You may receive more than one parcel if they are shipped out separately.\nSHEIN Customer Service",
-          "link": "https://www.v2ex.com/t/1108795",
-          "publishedOn": "2025-02-04T00:50:09.000Z",
-          "wordCount": 480,
-          "title": "这是什么套路呢： gmail 最近开始频繁收到 SHEIN 的邮件，但我没注册",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108794",
-          "author": "revival83",
-          "description": "revival83: 我记得之前有个软件可以设置行和列，然后把图标快捷方式都扔进去，设置玩快捷键后，可以显示和隐藏这些快捷方式，桌面就很干净",
-          "link": "https://www.v2ex.com/t/1108794",
-          "publishedOn": "2025-02-04T00:18:47.000Z",
-          "wordCount": 454,
-          "title": "求推荐个 windows 上桌面整合快捷方式的软件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108793",
-          "author": "Mangozhen",
-          "description": "Mangozhen: \n我最近发现 Safari 经常无法正常打开网页（可能 Chrome 也有类似问题）。一开始我以为是 AdGuard 修改网络设置导致的，但卸载 AdGuard 后问题依旧。每次重启电脑后，网页能短暂正常访问。\n后来我注意到，只要 Safari 提示“Private Relay”激活，网络就会无法连接。而一旦关闭 Private Relay ，网络立刻恢复正常，网页瞬间加载完成。因此，我判断 Safari 间歇性无法联网的原因是 Private Relay 。\n请问大家，有没有办法解决这个问题？能否实现两全其美？",
-          "link": "https://www.v2ex.com/t/1108793",
-          "publishedOn": "2025-02-04T00:17:59.000Z",
-          "wordCount": 380,
-          "title": "Private Relay 导致 Safari 的网络连接问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108792",
-          "author": "kenapote",
-          "description": "kenapote: \n大家好，我是一名计算机专业的在读学生，最近在考虑更换电脑，想听听大家的建议。\n目前我使用的是一台亲戚退役下来的 DELL XPS ，搭载的是 Intel 第四代酷睿处理器。这台电脑已经有些年头了，键盘部分按键失灵，电池也坏了，现在只能外接键盘当台式机使用。系统方面，好像无法升级到 Windows 10 或 11 ，而且偶尔会出现蓝屏的情况，所以我觉得是时候换一台新电脑了。\n由于亲戚的这台 XPS 小巧便携，我对这种类型的电脑比较有好感，所以优先看了最近几年的 XPS 系列。不过发现外观变化挺大，尤其是键盘面整合成一体后，视觉上有点难以接受。后来我去看了看 ThinkPad X13 ，12 代的价格大概在 4k 左右，新款则要 7k+，有点超预算了。\n有同学推荐我去看看 MacBook Air ，说是 M2 版本的价格和 ThinkPad 差不多，而且 macOS 现在写作业也没问题。不过我对 macOS 系统不太熟悉，担心学习成本会比较高。\n我的预算在 5k 以内，希望能买到一台相对便携、性能足够应付日常学习和编程的电脑。大家有什么建议或者推荐吗？除了 XPS 、ThinkPad 和 MacBook Air ，还有哪些机型值得考虑呢？\n提前感谢大家的帮助！",
-          "link": "https://www.v2ex.com/t/1108792",
-          "publishedOn": "2025-02-04T00:06:13.000Z",
-          "wordCount": 1256,
-          "title": "计算机专业学生求推荐便携电脑，预算 5k 以内",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108791",
-          "author": "xenme",
-          "description": "xenme: \n最近发现 iOS 活动和非活动状态，电量消耗都非常快，一晚上能掉快 20%电量，不知道大家有遇到过没有\niPhone 16 Pro Max, 18.3 (感觉和版本没啥关系，一直耗电比较快，体感不像前几台 pro max 能抗)\n如图：整体感觉是持续掉电，使用和不使用下降速度差异不大\n- 5pm 充满电\n- 6pm/7pm 路上看了会儿手机（ Active 占比更高）\n- 8pm-11pm Idle 更高\n- 12am-1am 刷了会视频和小说\n- 2am-5am 完全 idle",
-          "link": "https://www.v2ex.com/t/1108791",
-          "publishedOn": "2025-02-03T23:53:19.000Z",
-          "wordCount": 484,
-          "title": "iOS 耗电问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108789",
-          "author": "ne6rd",
-          "description": "ne6rd: \n技术：\n5 年 JAVA & Javascript ，2 年 PHP ，4 年 C#。\n现在纯后端做 API ，技术栈 c#, netcore, azure 。\n这两天看了下市场上的招聘，c#搞 API 的少，用 azure 的也没几个。\n感觉大厂用 Java ，初创小公司 Go 比较多。\n语言:\n英语对话和书写都是 Business Level 。\n日语考了 N2 。\n感觉只能找纯英语的公司。\n薪资：\n税后年收换算成日元大概 8M 日元，想找税前最少 10M 的，一是房贷有压力，二是方便申请高才签证。\n这两天脑补了几个方向，选择很多，有点迷茫。\nJAVA ，习惯了 c#之后有点厌恶 JAVA 的语法，好像目前 kotlin 很火，有用这个做 API 的吗，还是大多是移动端\nGo, 个人挺感兴趣的，自己上手应该没问题，但是担心 0 经验没有竞争力\nC# Azure, 继续死磕 azure ，目标日本 MS ，之前投了两次，面试机会都没有。\nC# Unity, 一直有做游戏的梦想，但是工作上没机会实现，而且感觉需要很多 3D 方面的知识。\n日语，继续学日语，扩大选择面，但是没有环境效率低。\n有没有在日的大佬能指点一下，该往哪个方向努力比较好？",
-          "link": "https://www.v2ex.com/t/1108789",
-          "publishedOn": "2025-02-03T20:31:28.000Z",
-          "wordCount": 989,
-          "title": "中年想去日本，求指点迷津",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108788",
-          "author": "CureDovahkiin",
-          "description": "CureDovahkiin: \n在页面加载前拦截 xhr 和 fetch 对象\n加个响应拦截器，屏蔽放在用户信息流里面的广告，返回处理后的数据，还能顺便屏蔽 up 主发的广告\n屏蔽一些跟踪脚本的请求，然后不会像 ublock 之类的疯狂在控制台报错，直接把请求吞了。\n之前写了一个 但是感觉会重复造轮子就凑合用没继续写。\n如果是一个扩展，感觉可以订阅一些请求和响应拦截器的脚本和规则，不过做起来好麻烦还是算了🤓",
-          "link": "https://www.v2ex.com/t/1108788",
-          "publishedOn": "2025-02-03T17:22:57.000Z",
-          "wordCount": 530,
-          "title": "有没有基于拦截浏览器请求来达成一些事情的浏览器扩展",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108787",
-          "author": "lettres",
-          "description": "lettres: 我不知道我是不是一个人，但是我在我的生活中频繁要使用如同上个世代的网站：不支持 iOS Safari （“您的浏览器不支持第三方 cookie ，建议切换至'主流浏览器'”），交互故障重重，界面简陋无比，字体极其难读。越是巨头的企业、组织、甚至是官方网站，越是常常刷新我的认知。假如说我改行当任何一家中国报纸的记者，有很大概率我第一个要写的就是网站的再设计稿。\n坦然地说，我相当理解他们不愿更新网站的种种动机，成本太高，理由太少——但这无法平复我在使用时的不适、焦躁（如果是不美观）和抓狂（如果是充满 bug ），何况有些上古网站其实是今人的鬼斧神工。篡改一句歌词来说，人生很短，用丑陋的软件只会更短。\n追求美是人的本能，而这种本能于我特别强烈。写代码不必为了谋生，却是一种表达自我的手段。我常常想：要是能帮这些网站都重新装修一番，甚至做一个虽是第三方但是胜过官方的版本供人使用，该有多好？未必现实，然而至少也能作为自己些许小情绪的表达。\n最近日检出分，查分的又是一个上古的网站。平心而论，虽然古老，但并不难用。或许有人会说，这些实用性网站能用即可。的确如此，不过想到人若是只能用便过得去，心里总莫名有些遗憾和失落。而且离这样体量的基金会、“教育部教育考试院”这样的名号还是差太远了。加之不很复杂，可光向官网注入 CSS 又丝毫不够，便迅速地用 Next.js 克隆并美化了一番，做了一个极简的第三方开源查分器（ https://github.com/NarixHine/modernised ），终于迈出了“上古网站装修计划”的第一步。其实美观未必要丰富，更新也未必大费周章，往往只需简洁清晰和一点跟上潮流的现代感。其实现在 AI 的出现大大方便了个性化软件的产生，在 v0 帮助下只花了一小时便搞定。\n\n不过虽说这将会是“beautiful by default”的所谓“personalised software”的时代，通过克隆再美化毕竟是曲线救国，你不可能给世界上每一个上古网站都重新装修一遍，故而这个项目唯一的意义只能是以这种曲折的方式引起讨论和反思，希望“美”成为新的 Web 标准，寄希望于企业自身翻新自己网站。然而这积聚动量实在太难（有些抽象），退一万步说你也永远无法低估巨头的惰性，不论是自驱力还是外部向内部的压力。故而第二步不知会不会迈，遑论何时迈了。\n你要说这有意义吗？要是像新闻里常常出现的那样“许多人表示共鸣”“众多程序员纷纷贡献”“引发各大企业重视”“一个项目掀起一阵潮流”引起话题，那还挺有的。但是不可能，所以其实没有，除了满足对美的一点点孩子气的固执。\n（当然，还有满足想将截图转发朋友圈又碍于官网太简陋的日语大佬们。）\n——睡不着，信笔写写、聊聊。写到这里有些不知所云了，迷糊见谅。",
-          "link": "https://www.v2ex.com/t/1108787",
-          "publishedOn": "2025-02-03T17:10:29.000Z",
-          "wordCount": 461,
-          "title": "对上古风前端的一点点不满，对巨头的惰性的一个小反抗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108786",
-          "author": "radishzz",
-          "description": "radishzz: 前段时间发现 15pro 的热点有问题。用安卓机连接 iPhone 热点，再用第三方软件 Sync 同步照片（类似 QQ 的面对面快传），iPhone 信号必定会断掉后重连。有些困扰但也没啥大碍，想想算了。\n结果前几天更新完 iOS18.3 以后，发现信号彻底消失。信号图标一直以波浪状起伏。刚开始以为是系统版本 bug ，上网搜了一圈，没有发现相同的情况。仔细研究后发现，蜂窝数据网络显示检测到问题，调制调解器固件显示为空白。\n预约去天才吧维修，但最快也得三天后。第二天断网了一整天，于是晚上试试自己刷机，看能不能解决。\n备份好数据，恢复模式和 DFU 模式各刷了一遍，问题好像解决了。能连上网络了，调解器固件也显示数字了。但仔细检查后发现，偶尔还是会断网，蜂窝网络会错误地显示 4 张 SIM 卡，并且会随机自动重启…\n今天去天才吧维修，工作人员用调试模式和售后工具进行检测，都没有发现问题。在得到我的同意之后，帮我重置了系统。但重置之后，一旦开启热点并同步照片，信号还是会百分百断联。售后还挺谨慎，拿来一台测试机进行复测，结果测试机就不会出现这种问题。这下终于确证了。\n之前在网上看到说，如果无磕无碰，并确认是基带问题的话，可以直接当场换新。我心想这还挺好，没想到他给的方案是更换主板，3-5 天之后主板到货了，再来门店更换维修。那也行吧。256G 的主板价格为 557 英镑，实付为零。\n唯一的变化是，维修以后会从国行变成欧版，也就是从双卡槽变成了单卡槽+ esim 。手上的 Lebara 物理卡倒是可以顺利转成 esim ，但以后在国内只能塞一张卡了。所以想顺带问问，esim 在国内有什么玩法吗？",
-          "link": "https://www.v2ex.com/t/1108786",
-          "publishedOn": "2025-02-03T16:56:14.000Z",
-          "wordCount": 714,
-          "title": "iPhone 维修分享，国行变欧版",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108785",
-          "author": "SingeeKing",
-          "description": "SingeeKing: 我知道是为了防盗版，但是 epub / pdf 满天飞的情况下，真的会有人去费力不讨好爬微信读书网页版吗，退一步就算想从微信网页版去获得书籍源文件，也应该不至于去模拟人工一页页爬吧，JS 逆向或者从网络包分析应该更合理啊\n但是这个加密就让想用/写个插件的我很难受了；各种划词工具用不了，最近想写个 AI Research 工具也无解……",
-          "link": "https://www.v2ex.com/t/1108785",
-          "publishedOn": "2025-02-03T16:50:38.000Z",
-          "wordCount": 533,
-          "title": "（纯吐槽）微信读书网页版为啥要做加密啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108784",
-          "author": "Blanca30",
-          "description": "Blanca30:",
-          "link": "https://www.v2ex.com/t/1108784",
-          "publishedOn": "2025-02-03T16:48:38.000Z",
-          "wordCount": 378,
-          "title": "大家都是因为什么原因决定结婚的呢？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1108781",
-          "author": "6yong",
-          "description": "6yong: \n有中文翻译。\n开局主角在一个村庄，和一些 NPC 对话完成一些非战斗任务。\n后续还有遇到精灵一起冒险。 还有用炸药炸开地面寻找物品\n通过一棵树进入了精灵世界，还参与了开小车的比赛？\n还有地底下的探险、解谜的关卡\n印象中还与主角的父亲有关系，好像父亲失踪了？\n大概是初中时候玩的，最近忽然想起来，想重温一下，搜了几个人工智能都没找到。",
-          "link": "https://www.v2ex.com/t/1108781",
-          "publishedOn": "2025-02-03T16:20:10.000Z",
-          "wordCount": 429,
-          "title": "找一个 2000 ～ 2007 年的 PC 游戏 RPG， 3D 偏卡通中世纪欧洲风格，像神鬼寓言但不是。",
           "imageUrl": null
         }
       ]
