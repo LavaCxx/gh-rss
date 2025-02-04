@@ -169,12 +169,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -188,6 +182,33 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -320,7 +341,7 @@
           "description": "revival83: 不太喜欢迅雷，也不想付费 IDM ，更不想用学习版\n免费的有么？必须付费的话越少越好",
           "link": "https://www.v2ex.com/t/1108914",
           "publishedOn": "2025-02-04T17:31:29.000Z",
-          "wordCount": 414,
+          "wordCount": 416,
           "title": "求推荐 chrome 有没有下载加速插件？",
           "imageUrl": null
         },
@@ -330,7 +351,7 @@
           "description": "telun:",
           "link": "https://www.v2ex.com/t/1108913",
           "publishedOn": "2025-02-04T17:23:00.000Z",
-          "wordCount": 374,
+          "wordCount": 376,
           "title": "什么时候开始国区 app store 可以直接下载 X 了？",
           "imageUrl": null
         },
@@ -340,7 +361,7 @@
           "description": "xuxueli: \nRelease Notes\n1 、 [升级] 项目重构升级；定位 多级缓存框架，高效组合本地缓存和分布式缓存(Redis+Caffeine)，支持“多级缓存、一致性保障、TTL 、Category 隔离、防穿透”等能力，提供高性能多级缓存解决方案。\n2 、 [重构] 高性能系统重构设计，底层设计 L1(Local)+L2(Remote)多级缓存模型，除分布式缓存之外前置在应用层设置本地缓存，高热查询前置本地处理避免远程通讯，最大化提升性能；\n3 、 [重构] 一致性保障设计，支持多层级、集群多节点之间缓存数据一致性保障，借助广播消息（ Redis Pub/Sub ）以及客户端主动过期，实现 L1 及 L2 之间以及 L1 各集群节点间缓存数据一致性同步；\n4 、 [重构] 框架进行模块化抽象设计，本地缓存、分布式缓存以及序列化方案均支持自定义扩展；\n5 、 [易用性] 缓存 API 优化改造，多级缓存框架支持业务透明接入，屏蔽底层实现细节，降低业务开发成本，以及学习认知成本；\n6 、 [升级] 多个依赖升级最新版本，如 jedis 、spring 等；\n7 、 [优化] 核心依赖推送 maven 中央仓库, 方便用户接入和使用;\nXXL- CACHE 快速接入示例\n代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-cache/tree/master/xxl-cache-samples\n1 、Maven 引入：\n<!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-cache-core -->\n<dependency>\n    <groupId>com.xuxueli</groupId>\n    <artifactId>xxl-cache…",
           "link": "https://www.v2ex.com/t/1108912",
           "publishedOn": "2025-02-04T17:11:04.000Z",
-          "wordCount": 597,
+          "wordCount": 595,
           "title": "XXL-CACHE v1.1.0 ｜ 多级缓存框架",
           "imageUrl": null
         },
@@ -350,7 +371,7 @@
           "description": "websong188: \n\n2025 年我在香港成功办理了中银和汇丰银行卡、蓝狮子和万事达扣账卡; \n现在所有实体卡都已收到,其中众安数字虚拟卡也申请成功;\n分享一些经验给大家，希望想要办理香港银行卡的朋友们少走弯路。\nhttps://blog.taoluyuan.com/blog/how-to-open-a-bank-account-in-hongkong-2025\n主要内容包含以下几个方面\n如何预约香港银行开户、深圳到香港的交通路线\n所需材料的准备、 银行面谈技巧\n卡片激活流程、红狮子与蓝狮子的区别\n香港办卡的常见问题\n需要探索的地方\n很多还在探索,比如卡的用途还有哪些,知道的巨佬可以提示下\n另外关于地址证明是否一定是账单地址,激活卡的金额其实也不是固定的\n大佬们有不一样成功的体验 可以提供下经历 我完善完善\n正文内容:2025 年香港银行开户攻略",
           "link": "https://www.v2ex.com/t/1108911",
           "publishedOn": "2025-02-04T16:50:06.000Z",
-          "wordCount": 375,
+          "wordCount": 382,
           "title": "刚出炉的 ! 2025 年香港银行开户攻略,中银万事达、汇丰、众安、蓝狮子、实体卡下卡成功",
           "imageUrl": null
         },
@@ -380,7 +401,7 @@
           "description": "ttifme: \n你 tg 频道接广告都不审核一下的吗？接了个代找视频的广告，1 月初支付宝口令红包付了几十块让代找的这货帮找一个视频，这货找不到，我让他退款，他说支付宝渠道退款需要等 1 个月，要到 2 月份才能退。\n现在到 2 月份了，我才发现这货删了聊天记录。\n下面放一下图片：\n\n\n以下 tg 账号打 2 个码，避免为骗子推广：\n骗子 tg：@SourceG**\n用户昵称：出处君\n用户 ID：7150421312\nDC：5\n骗子 tg 频道：@avsour**",
           "link": "https://www.v2ex.com/t/1108908",
           "publishedOn": "2025-02-04T16:38:20.000Z",
-          "wordCount": 461,
+          "wordCount": 463,
           "title": "@v2exPush 这个 V2 的 tg 推送频道主请出来",
           "imageUrl": null
         },
@@ -440,7 +461,7 @@
           "description": "snowonion: \n我 iCloud 空间是 50GB 。几个月前，因为空间满了，所以被迫暂停了 iPhone 和 iCloud 的同步。但同步开关一直开着。\n现在，我清理了 iCloud 空间，剩余可用 10GB 。手机上有 55GB 的照片。\n[我希望开启同步，让手机上的照片尽量多地同步到 iCloud （这样我就可以在电脑上方便地继续清理照片）。但系统并未自动开始同步。] \n然后我尝试重启同步开关。可以关掉，但打开时，系统提示 iCloud 空间不足、无法开启同步，让我必须升级计划。\n有不升级就能达成目的的办法吗？感谢🙏",
           "link": "https://www.v2ex.com/t/1108901",
           "publishedOn": "2025-02-04T14:57:48.000Z",
-          "wordCount": 414,
+          "wordCount": 416,
           "title": "iCloud 空间不够全量同步，我希望它能尽量同步，但同步开关打不开了，有办法吗？",
           "imageUrl": null
         },
@@ -460,7 +481,7 @@
           "description": "YGBlvcAK: 影片结尾，为什么要拿一个屠城的杀人犯来打趣？全镇人的生命就不是命吗？就这么轻易被遗忘了吗？这跟人血馒头有什么区别？",
           "link": "https://www.v2ex.com/t/1108899",
           "publishedOn": "2025-02-04T14:51:02.000Z",
-          "wordCount": 353,
+          "wordCount": 360,
           "title": "哪吒看完了，给不了 6 分，就喷这一点",
           "imageUrl": null
         },
@@ -470,7 +491,7 @@
           "description": "drymonfidelia: \n有人知道是什么问题吗？\n我发现在打开新游戏的时候这个占用会增加十几 GB ，关闭游戏不减，重启个几次就到一百 GB 以上了",
           "link": "https://www.v2ex.com/t/1108898",
           "publishedOn": "2025-02-04T14:44:43.000Z",
-          "wordCount": 432,
+          "wordCount": 434,
           "title": "Hyper-V GPU 分区玩游戏 vmmem 进程的内存占用很不正常，我给虚拟机分 32GB 运行内存， vmmem 进程的 Commit Size 经常跑到 130GB 以上，然后把虚拟内存占满了，...",
           "imageUrl": null
         },
@@ -490,7 +511,7 @@
           "description": "ghostben: \n平常会在两台设备上使用微信，家里电脑和公司电脑，如果两边分别登录的话聊天记录有时候会同步不及时导致丢记录，有没有什么办法可以在两台设备上同时使用微信并且保证有设备（家里的电脑）中的聊天记录是完整的呢？\n有想到一个比较麻烦的办法就是直接 RDP 到家里电脑使用微信，但是这样家里电脑就得全天在线，很不方便。\n也有用 onedrive 同步聊天记录文件夹的方法，但是微信文件夹已经大到无法用免费的 5G 存下。\n也有说 syncthing 的，不知道跨设备同步会不会造成冲突或者聊天记录重复的问题。\n求各位大佬给点建议",
           "link": "https://www.v2ex.com/t/1108894",
           "publishedOn": "2025-02-04T14:08:37.000Z",
-          "wordCount": 382,
+          "wordCount": 389,
           "title": "有没有多台 PC 设备同时使用微信客户端的方法？",
           "imageUrl": null
         },
@@ -650,7 +671,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 515,
+          "wordCount": 524,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
