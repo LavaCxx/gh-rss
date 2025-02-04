@@ -17,7 +17,7 @@
           "description": "Are partials the only thing keeping you writing CSS in Sass? With a little configuration, it's possible to compile partial CSS files without a Sass dependency. Ryan Trimble has the details.\nCompiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/compiling-css-with-vite-and-lightning-css/",
           "publishedOn": "2025-02-03T15:23:37.000Z",
-          "wordCount": 4188,
+          "wordCount": 4274,
           "title": "Compiling CSS With Vite and Lightning CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384050"
         },
@@ -169,6 +169,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -182,6 +188,33 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -305,7 +338,7 @@
           "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \nhttps://imgur.com/B6k7H2s\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\nhttps://imgur.com/cxNCx00\n虚拟机抓包(192.168.50.108)：\nhttps://imgur.com/jupVG74",
           "link": "https://www.v2ex.com/t/1108873",
           "publishedOn": "2025-02-04T11:53:00.000Z",
-          "wordCount": 414,
+          "wordCount": 445,
           "title": "访问 V2EX 的问题",
           "imageUrl": null
         },
@@ -315,7 +348,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 416,
+          "wordCount": 455,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
@@ -325,7 +358,7 @@
           "description": "pangjiuquan: \n我的 mac 是 M1 芯片，版本是：15.3 (24D60)。QQ 版本：6.7.5 、6.7.6 、6.8.2 全部都打不开闪退。想问一下你们的都可以打开吗？",
           "link": "https://www.v2ex.com/t/1108870",
           "publishedOn": "2025-02-04T11:39:10.000Z",
-          "wordCount": 400,
+          "wordCount": 402,
           "title": "MAC QQ 老版本哪一个现在可以正常运行？",
           "imageUrl": null
         },
@@ -335,7 +368,7 @@
           "description": "Liftman: \n买了个欧版 S25U ，我看 imei 是质保已经在 2 周前被激活？所以是因为在他的购买地 完成购买瞬间就算激活了？卖家说是拆开入关。所以拆开发货，机器先发。盒子之后发。这个风险不大吧？毕竟刚发布。。。。",
           "link": "https://www.v2ex.com/t/1108867",
           "publishedOn": "2025-02-04T11:02:09.000Z",
-          "wordCount": 408,
+          "wordCount": 414,
           "title": "买了个欧版 S25U，我看 imei 是质保已经在 2 周前被激活？",
           "imageUrl": null
         },
@@ -375,7 +408,7 @@
           "description": "Seck: \n1.官方也很卡顿，还经常打不开\n2.导出文档卡，就是死也导不出来，pdf,html ,markdown 都导不出来\n有相同的经历的出来说下。以前从来没有过，用了挺久的\n刚去打开 notion 官网，挂梯子，打不开了。",
           "link": "https://www.v2ex.com/t/1108860",
           "publishedOn": "2025-02-04T09:47:48.000Z",
-          "wordCount": 343,
+          "wordCount": 353,
           "title": "notion 有相同用户经历的吗?",
           "imageUrl": null
         },
@@ -415,7 +448,7 @@
           "description": "IceySwan: 接上文 https://www.v2ex.com/t/1094454#reply5\n前几天发现 copilot 不能使用了, 显示\n>  You cannot proceed\nWe are sorry, but after reviewing we have determined that the billing information supplied is ineligible for transactions with GitHub due to government restrictions.\nLearn more about GitHub and trade control regulations.\n附图 https://imgur.com/a/Z4WM0N9\n本人正版学生, 使用学信网档案申请的",
           "link": "https://www.v2ex.com/t/1108855",
           "publishedOn": "2025-02-04T09:02:12.000Z",
-          "wordCount": 430,
+          "wordCount": 450,
           "title": "疑似 github 学生包不能使用大陆邮箱?",
           "imageUrl": null
         },
@@ -435,7 +468,7 @@
           "description": "beginor: \n今年开车去岳母家，高速上看到不少摩托车，车速估计能到 150 公里，高速上敢这么开的车手真是头一年见到，不知道该说啥，炫车技还是嫌命长？",
           "link": "https://www.v2ex.com/t/1108853",
           "publishedOn": "2025-02-04T08:56:33.000Z",
-          "wordCount": 572,
+          "wordCount": 631,
           "title": "高速上看到不少敢开 150 公里摩托车",
           "imageUrl": null
         },
@@ -465,7 +498,7 @@
           "description": "qazwsxkevin: \n有个场景，场所提供一个 SSID （叫 officeWifiA 吧)\n想在 Openwrt 的平台上（其它纯 Linux ，可以二次开发的平台也行）\n使方案可连接到 officeWifiA 拿到 IP ，获得外联网络出口，\n同时方案提供 officeWifiB SSID ，让其它设备接入，\n在 opwenwrt+MT7628/7688 平台下，进行一些非常简单，要求不高的 IP 流量处理，\n\n如果 MT7628 这种便宜平台做不到，哪也只能找 R2S 再加个 USB WIFI 在 arbian 上实现了吧？",
           "link": "https://www.v2ex.com/t/1108850",
           "publishedOn": "2025-02-04T08:17:56.000Z",
-          "wordCount": 410,
+          "wordCount": 425,
           "title": "MT7628、7688 这些满大街的方案，能做到既路由、又 AP， 无线双模式吗？",
           "imageUrl": null
         },
@@ -475,7 +508,7 @@
           "description": "balabalaguguji: \n过年每天都吃个不停，能控制不吃的都是狠人，吃饱了这不年后了就得开始减了嘛。\n给大家推荐我的健身 APP 吧： https://lianlian.gzyunke.cn?f=v2\n跟 Keep 是不一样的，Keep 主要是做有氧，我这个主要是做力量训练的。\n如果你想去健身房训练，一定要试下。\n有了这个 APP 你完全可以自学健身了，不需要请昂贵的私教，也不用怕跑路。\nAPP 提供科学的训练计划和讲解，每天跟着计划练就可以了。\n老手也可以用来记录自己的训练、安排计划，这样能看到自己的成长曲线和训练日历，非常有成就感。\n\n支持手表上训练，还可以脱离手机使用。\n\n\n讲讲我的成就：\n获得了鸿蒙商店的编辑推荐，作为首个适配鸿蒙 NEXT 的健身 APP ，还获得了《鸿蒙先锋奖》。\n华为运动健康合作伙伴，现在是 GT5 预装 APP",
           "link": "https://www.v2ex.com/t/1108849",
           "publishedOn": "2025-02-04T08:13:04.000Z",
-          "wordCount": 382,
+          "wordCount": 392,
           "title": "每逢佳节胖三斤，那么试下我的健身 APP 吧",
           "imageUrl": null
         },
@@ -485,7 +518,7 @@
           "description": "1140601003:",
           "link": "https://www.v2ex.com/t/1108848",
           "publishedOn": "2025-02-04T08:10:39.000Z",
-          "wordCount": 372,
+          "wordCount": 374,
           "title": "deepseek 一直服务繁忙，请问站在技术的角度下，如何去解决恢复呢？",
           "imageUrl": null
         },
@@ -495,7 +528,7 @@
           "description": "dcdyouget: \n老家是太原的,目前在深圳工作\n双非本科学历\n技术栈主要是 java 、k8s 相关\n不知道太原的情况怎么样",
           "link": "https://www.v2ex.com/t/1108847",
           "publishedOn": "2025-02-04T08:01:35.000Z",
-          "wordCount": 439,
+          "wordCount": 468,
           "title": "工作两年想回太原",
           "imageUrl": null
         },
@@ -505,7 +538,7 @@
           "description": "qazwsxkevin: \n老机器，源库 MySQL 5.6 ，没有开 binlog ，磁盘、网络接口 I/O 都很慢，整个库有 80 多 GB",
           "link": "https://www.v2ex.com/t/1108846",
           "publishedOn": "2025-02-04T07:44:51.000Z",
-          "wordCount": 430,
+          "wordCount": 439,
           "title": "有用过 SyncNavigator 或者类似的简单数据库同步软件吗，",
           "imageUrl": null
         },
@@ -525,7 +558,7 @@
           "description": "Gilfoyle26: \n前几年关注的一批博客都搜不到了\n很多群都没什么消息了，大家好像都变得沉默了，甚至连发擦边的图都变少了\n最神奇的是 B 站上有很多躺平博主，甚至还有组团躺平的，视频有很多播放量，这个现象真的。。。。",
           "link": "https://www.v2ex.com/t/1108843",
           "publishedOn": "2025-02-04T07:28:18.000Z",
-          "wordCount": 519,
+          "wordCount": 526,
           "title": "现在的大环境，好像很多事情都没有以前🔥（火热）了，貌似大家都没什么热情了❤️",
           "imageUrl": null
         },
@@ -535,7 +568,7 @@
           "description": "ugpu: \n各位佬新春好.\n因为业务选型 之前一直使用 cpp/lua/c#\n目前打算使用 golang 作为新产品的游戏服务器开发语言.\n对 golang 的选型不知道如何抉择.开发业务为游戏服务器.\n如果是游戏服务器开发老鸟可能知道 c#有 et lua 南方地区偏向 skynet （小厂居多.方便快捷\ncpp 的框架一看一大把,多半自己撸一套.\n那么有用过 golang 框架的吗？希望这个框架一直在维护.最好类似 skynet 这种.主要是一直在维护，且有多个公司上线部署验证过的.最好还是有社区",
           "link": "https://www.v2ex.com/t/1108840",
           "publishedOn": "2025-02-04T07:11:29.000Z",
-          "wordCount": 489,
+          "wordCount": 504,
           "title": "Golang 游戏开发框架选型",
           "imageUrl": null
         },
@@ -555,7 +588,7 @@
           "description": "gordonlgy: \nwifi6e 和 wifi7 都不温不火，设备又昂贵，是不是被组织放弃治疗了，难道 wifi 也步入 window 的宿命，好一代，萎一代？",
           "link": "https://www.v2ex.com/t/1108838",
           "publishedOn": "2025-02-04T06:57:14.000Z",
-          "wordCount": 594,
+          "wordCount": 615,
           "title": "感觉 wifi6 战未来",
           "imageUrl": null
         },
@@ -585,7 +618,7 @@
           "description": "abcd2022: \n小弟我(23 届)原来是做业务开发的，由于业务发展不好等等各种原因，自己选择了离职。自己业余时间对开源很感兴趣，现在也是 apache 某项目(对应领域在国内较有名气)的 pmc member 和其他较为知名项目的 member 成员，现在比较困惑的就是：\n很想转入业余做的这个领域，因为是偏基础架构的开发，想知道在社招中这种情况会被卡的严重吗\n开源经历帮助会有多大，因为我没有在这个领域公司层面的落地经验\n希望大家能给些建议或看法，如果有相关经历的同学最好了",
           "link": "https://www.v2ex.com/t/1108834",
           "publishedOn": "2025-02-04T06:48:54.000Z",
-          "wordCount": 440,
+          "wordCount": 456,
           "title": "业务开发转基架求职咨询，望不吝赐教",
           "imageUrl": null
         },
