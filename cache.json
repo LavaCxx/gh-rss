@@ -305,7 +305,7 @@
           "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \nhttps://imgur.com/B6k7H2s\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\nhttps://imgur.com/cxNCx00\n虚拟机抓包(192.168.50.108)：\nhttps://imgur.com/jupVG74",
           "link": "https://www.v2ex.com/t/1108873",
           "publishedOn": "2025-02-04T11:53:00.000Z",
-          "wordCount": 401,
+          "wordCount": 414,
           "title": "访问 V2EX 的问题",
           "imageUrl": null
         },
@@ -315,7 +315,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 406,
+          "wordCount": 416,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
@@ -325,7 +325,7 @@
           "description": "pangjiuquan: \n我的 mac 是 M1 芯片，版本是：15.3 (24D60)。QQ 版本：6.7.5 、6.7.6 、6.8.2 全部都打不开闪退。想问一下你们的都可以打开吗？",
           "link": "https://www.v2ex.com/t/1108870",
           "publishedOn": "2025-02-04T11:39:10.000Z",
-          "wordCount": 380,
+          "wordCount": 400,
           "title": "MAC QQ 老版本哪一个现在可以正常运行？",
           "imageUrl": null
         },
@@ -335,7 +335,7 @@
           "description": "Liftman: \n买了个欧版 S25U ，我看 imei 是质保已经在 2 周前被激活？所以是因为在他的购买地 完成购买瞬间就算激活了？卖家说是拆开入关。所以拆开发货，机器先发。盒子之后发。这个风险不大吧？毕竟刚发布。。。。",
           "link": "https://www.v2ex.com/t/1108867",
           "publishedOn": "2025-02-04T11:02:09.000Z",
-          "wordCount": 386,
+          "wordCount": 408,
           "title": "买了个欧版 S25U，我看 imei 是质保已经在 2 周前被激活？",
           "imageUrl": null
         },
@@ -355,7 +355,7 @@
           "description": "Dalexfefun: 过年回家第五天，已经解锁了以下成就：\n✅ 把手机里所有 APP 点开三遍\n✅ 陪三舅公数完他养的 17 只鸡\n✅ 成功蹭到邻居家时断时续的 WiFi\n✅ 把春晚重播看到能接台词\n现在深刻理解什么叫\"快乐是他们的，我什么都没有\"！昨天试图教奶奶玩吃鸡，结果她老人家以为手机烫手是新型暖手宝...（奶奶咱家路由器该退休了，网速还没您走路快！）\n最近被迫开发了新技能：在 2G 网速里玩成语接龙，结果现在满脑子都是\"为所欲为→为虎作伥→娼妓从良→凉拌黄瓜...\"（好像有哪里不对？）\n实在无聊到开始收集全网冷笑话，手滑建了个野生网站（ hmmm 大概是被冻傻了吧）👉 https://funny-jokes.co/dad-jokes 现在连家里大黄狗看到我都绕道走，可能怕我给它讲新编的\"狗为什么改不了吃 shi\"系列冷笑话...（求组团开发农村娱乐新方式！）",
           "link": "https://www.v2ex.com/t/1108864",
           "publishedOn": "2025-02-04T10:18:46.000Z",
-          "wordCount": 358,
+          "wordCount": 360,
           "title": "过年回家，没网，不探亲，没人认识，麻了",
           "imageUrl": null
         },
@@ -385,7 +385,7 @@
           "description": "seth19960929: 陈晓舟 黄兰英 夫妻应该是已经不在了，应该差不多一百岁了，不知道他们的子女是否还在？\n已知的信息：以前曾是国军连长",
           "link": "https://www.v2ex.com/t/1108859",
           "publishedOn": "2025-02-04T09:38:01.000Z",
-          "wordCount": 415,
+          "wordCount": 421,
           "title": "有台湾的朋友认识 陈晓舟​黄兰英​ 夫妻吗？",
           "imageUrl": null
         },
@@ -395,7 +395,7 @@
           "description": "wegbjwjm:",
           "link": "https://www.v2ex.com/t/1108858",
           "publishedOn": "2025-02-04T09:28:29.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "steam deck 换了下硬盘，电源芯片烧了，苏州上海有没有介绍的维修店？",
           "imageUrl": null
         },
@@ -415,7 +415,7 @@
           "description": "IceySwan: 接上文 https://www.v2ex.com/t/1094454#reply5\n前几天发现 copilot 不能使用了, 显示\n>  You cannot proceed\nWe are sorry, but after reviewing we have determined that the billing information supplied is ineligible for transactions with GitHub due to government restrictions.\nLearn more about GitHub and trade control regulations.\n附图 https://imgur.com/a/Z4WM0N9\n本人正版学生, 使用学信网档案申请的",
           "link": "https://www.v2ex.com/t/1108855",
           "publishedOn": "2025-02-04T09:02:12.000Z",
-          "wordCount": 442,
+          "wordCount": 430,
           "title": "疑似 github 学生包不能使用大陆邮箱?",
           "imageUrl": null
         },
@@ -435,7 +435,7 @@
           "description": "beginor: \n今年开车去岳母家，高速上看到不少摩托车，车速估计能到 150 公里，高速上敢这么开的车手真是头一年见到，不知道该说啥，炫车技还是嫌命长？",
           "link": "https://www.v2ex.com/t/1108853",
           "publishedOn": "2025-02-04T08:56:33.000Z",
-          "wordCount": 496,
+          "wordCount": 572,
           "title": "高速上看到不少敢开 150 公里摩托车",
           "imageUrl": null
         },
@@ -455,7 +455,7 @@
           "description": "revival83: 每次用完… 多了一堆软件\n如果两个账户是不是一个有毒，另外一个没问题？",
           "link": "https://www.v2ex.com/t/1108851",
           "publishedOn": "2025-02-04T08:18:53.000Z",
-          "wordCount": 471,
+          "wordCount": 475,
           "title": "win10 怎么给孩子建立个账户和我的分开？",
           "imageUrl": null
         },
@@ -465,7 +465,7 @@
           "description": "qazwsxkevin: \n有个场景，场所提供一个 SSID （叫 officeWifiA 吧)\n想在 Openwrt 的平台上（其它纯 Linux ，可以二次开发的平台也行）\n使方案可连接到 officeWifiA 拿到 IP ，获得外联网络出口，\n同时方案提供 officeWifiB SSID ，让其它设备接入，\n在 opwenwrt+MT7628/7688 平台下，进行一些非常简单，要求不高的 IP 流量处理，\n\n如果 MT7628 这种便宜平台做不到，哪也只能找 R2S 再加个 USB WIFI 在 arbian 上实现了吧？",
           "link": "https://www.v2ex.com/t/1108850",
           "publishedOn": "2025-02-04T08:17:56.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "MT7628、7688 这些满大街的方案，能做到既路由、又 AP， 无线双模式吗？",
           "imageUrl": null
         },
@@ -485,7 +485,7 @@
           "description": "1140601003:",
           "link": "https://www.v2ex.com/t/1108848",
           "publishedOn": "2025-02-04T08:10:39.000Z",
-          "wordCount": 365,
+          "wordCount": 372,
           "title": "deepseek 一直服务繁忙，请问站在技术的角度下，如何去解决恢复呢？",
           "imageUrl": null
         },
@@ -505,7 +505,7 @@
           "description": "qazwsxkevin: \n老机器，源库 MySQL 5.6 ，没有开 binlog ，磁盘、网络接口 I/O 都很慢，整个库有 80 多 GB",
           "link": "https://www.v2ex.com/t/1108846",
           "publishedOn": "2025-02-04T07:44:51.000Z",
-          "wordCount": 417,
+          "wordCount": 430,
           "title": "有用过 SyncNavigator 或者类似的简单数据库同步软件吗，",
           "imageUrl": null
         },
@@ -525,7 +525,7 @@
           "description": "Gilfoyle26: \n前几年关注的一批博客都搜不到了\n很多群都没什么消息了，大家好像都变得沉默了，甚至连发擦边的图都变少了\n最神奇的是 B 站上有很多躺平博主，甚至还有组团躺平的，视频有很多播放量，这个现象真的。。。。",
           "link": "https://www.v2ex.com/t/1108843",
           "publishedOn": "2025-02-04T07:28:18.000Z",
-          "wordCount": 514,
+          "wordCount": 519,
           "title": "现在的大环境，好像很多事情都没有以前🔥（火热）了，貌似大家都没什么热情了❤️",
           "imageUrl": null
         },
@@ -535,7 +535,7 @@
           "description": "ugpu: \n各位佬新春好.\n因为业务选型 之前一直使用 cpp/lua/c#\n目前打算使用 golang 作为新产品的游戏服务器开发语言.\n对 golang 的选型不知道如何抉择.开发业务为游戏服务器.\n如果是游戏服务器开发老鸟可能知道 c#有 et lua 南方地区偏向 skynet （小厂居多.方便快捷\ncpp 的框架一看一大把,多半自己撸一套.\n那么有用过 golang 框架的吗？希望这个框架一直在维护.最好类似 skynet 这种.主要是一直在维护，且有多个公司上线部署验证过的.最好还是有社区",
           "link": "https://www.v2ex.com/t/1108840",
           "publishedOn": "2025-02-04T07:11:29.000Z",
-          "wordCount": 488,
+          "wordCount": 489,
           "title": "Golang 游戏开发框架选型",
           "imageUrl": null
         },
@@ -555,7 +555,7 @@
           "description": "gordonlgy: \nwifi6e 和 wifi7 都不温不火，设备又昂贵，是不是被组织放弃治疗了，难道 wifi 也步入 window 的宿命，好一代，萎一代？",
           "link": "https://www.v2ex.com/t/1108838",
           "publishedOn": "2025-02-04T06:57:14.000Z",
-          "wordCount": 592,
+          "wordCount": 594,
           "title": "感觉 wifi6 战未来",
           "imageUrl": null
         },
@@ -585,7 +585,7 @@
           "description": "abcd2022: \n小弟我(23 届)原来是做业务开发的，由于业务发展不好等等各种原因，自己选择了离职。自己业余时间对开源很感兴趣，现在也是 apache 某项目(对应领域在国内较有名气)的 pmc member 和其他较为知名项目的 member 成员，现在比较困惑的就是：\n很想转入业余做的这个领域，因为是偏基础架构的开发，想知道在社招中这种情况会被卡的严重吗\n开源经历帮助会有多大，因为我没有在这个领域公司层面的落地经验\n希望大家能给些建议或看法，如果有相关经历的同学最好了",
           "link": "https://www.v2ex.com/t/1108834",
           "publishedOn": "2025-02-04T06:48:54.000Z",
-          "wordCount": 419,
+          "wordCount": 440,
           "title": "业务开发转基架求职咨询，望不吝赐教",
           "imageUrl": null
         },
@@ -615,7 +615,7 @@
           "description": "bn: \n邀请链接：https://cloud.siliconflow.cn/i/mbDKedP3\n通过邀请链接注册赠送免费体验额度。\n即使 DeepSeek 官方 API 被攻击，也能正常使用 R1 。",
           "link": "https://www.v2ex.com/t/1108828",
           "publishedOn": "2025-02-04T05:31:49.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "硅基流动 DeepSeek-R1 免费体验",
           "imageUrl": null
         },
