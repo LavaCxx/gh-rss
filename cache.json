@@ -327,7 +327,7 @@
           "description": "stark123: \n假如我的 watch 通过手机连上了办公室的 WiFi ，去办公室忘带手机了，那 watch 能连上 WiFi 吗？\n请有 watch 的朋友们指点下，我好确定是买 WiFi 版的还是蜂窝版的。\n以下是 ChatGPT 的回答：\n不一定，取决于你的手表型号和 WiFi 连接方式。 \n如果你的 手表支持独立 WiFi 连接（比如部分 Apple Watch 、Wear OS 手表等），并且 之前已经通过手机同步保存了办公室 WiFi 密码，那么即使忘带手机，手表仍然可以自动连接办公室 WiFi 并正常使用网络功能（比如收发消息、使用云同步等）。  \n但如果你的手表 仅通过蓝牙从手机共享网络，或者 没有独立 WiFi 功能，那么在办公室忘带手机后，手表就无法连接 WiFi 。  \n你可以检查：\n手表的 WiFi 设置：看是否有独立的 WiFi 选项，或者手动连接 WiFi 的功能。\n手机和手表的同步设置：有些手表只有在与手机连接时才会获取 WiFi 信息，断开后无法自动连接。\n手表是否支持蜂窝网络（如果是 LTE 版，可以直接用流量）。  \n如果你用的是 Apple Watch （ GPS 版），它只能连接 已知 WiFi，但不能手动添加新 WiFi ，所以之前没连过的 WiFi ，它是连不上的。",
           "link": "https://www.v2ex.com/t/1108919",
           "publishedOn": "2025-02-04T20:34:33.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "不带手机去公司， apple watch 能自己连上之前已经连过的 WiFi 吗？",
           "imageUrl": null
         },
@@ -347,7 +347,7 @@
           "description": "Raynard: 国产电视系统真是受够了，不想外接盒子用了，\n正巧主卧需要装个电视，\n最好是知名品牌，能接受溢价\n或者有靠谱大件海运渠道推荐吗？",
           "link": "https://www.v2ex.com/t/1108917",
           "publishedOn": "2025-02-04T18:40:48.000Z",
-          "wordCount": 409,
+          "wordCount": 427,
           "title": "国内如何买到原生 android TV 电视？",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "revival83: 不太喜欢迅雷，也不想付费 IDM ，更不想用学习版\n免费的有么？必须付费的话越少越好",
           "link": "https://www.v2ex.com/t/1108914",
           "publishedOn": "2025-02-04T17:31:29.000Z",
-          "wordCount": 425,
+          "wordCount": 427,
           "title": "求推荐 chrome 有没有下载加速插件？",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "websong188: \n\n2025 年我在香港成功办理了中银和汇丰银行卡、蓝狮子和万事达扣账卡; \n现在所有实体卡都已收到,其中众安数字虚拟卡也申请成功;\n分享一些经验给大家，希望想要办理香港银行卡的朋友们少走弯路。\nhttps://blog.taoluyuan.com/blog/how-to-open-a-bank-account-in-hongkong-2025\n主要内容包含以下几个方面\n如何预约香港银行开户、深圳到香港的交通路线\n所需材料的准备、 银行面谈技巧\n卡片激活流程、红狮子与蓝狮子的区别\n香港办卡的常见问题\n需要探索的地方\n很多还在探索,比如卡的用途还有哪些,知道的巨佬可以提示下\n另外关于地址证明是否一定是账单地址,激活卡的金额其实也不是固定的\n大佬们有不一样成功的体验 可以提供下经历 我完善完善\n正文内容:2025 年香港银行开户攻略",
           "link": "https://www.v2ex.com/t/1108911",
           "publishedOn": "2025-02-04T16:50:06.000Z",
-          "wordCount": 418,
+          "wordCount": 420,
           "title": "刚出炉的 ! 2025 年香港银行开户攻略,中银万事达、汇丰、众安、蓝狮子、实体卡下卡成功",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "cosven: \n有图有真相！\n\nAI 功能也得有个图 ~\n\n接着说说有啥特性\n一键安装，各流行平台均有打包（如 Arch Linux, Windows, macOS 等）\n有各媒体资源平台的插件，充分且合理的利用全网免费资源（如 Youtube Music 等）\n基础功能完善，桌面歌词、资源智能替换、多音质选择、nowplaying 协议等\n核心模块有较好的测试覆盖、核心接口保持较好的向后兼容\n大模型加持：AI 电台、自然语言转歌单等\n提供基于 TCP 的交互控制协议\n基于文本的歌单，方便与朋友分享、设备之间同步\n支持基于 Python 的配置文件 .fuorc，类似 .vimrc 和 .emacs\n试用一下？\nArch Linux 用户可以用如下命令安装\n# Arch Linux\nyay -S feeluown          # 安装稳定版，最新版的包名为 feeluown-git\nyay -S feeluown-netease  # 按需安装其它扩展\nyay -S feeluown-ytmusic\nyay -S feeluown-bilibili\n\nyay -S feeluown-git python-openai  # 最新版（ 4.1.9 ）才有 AI :)\n\nmacOS 和 windows 用户也可以考虑直接安装二进制包，链接在这里 https://github.com/feeluown/FeelUOwn/releases\n其它平台用户可以瞄一眼文档 https://feeluown.readthedocs.io/en/latest/quickstart.html\n废话不多说，来来来\n项目： https://github.com/feeluown/FeelUOwn\n交流群：telegram 交流群\n文档（安装使用 /开发）： https://feeluown.readthedocs.io/\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n三遍~",
           "link": "https://www.v2ex.com/t/1108907",
           "publishedOn": "2025-02-04T16:16:16.000Z",
-          "wordCount": 469,
+          "wordCount": 498,
           "title": "写了 10 年的音乐播放器，第 11 年有了 AI 加持！",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "1140601003: 为什么大厂对于这种问题，不能从根本上去解决呢？大佬们有什么看法",
           "link": "https://www.v2ex.com/t/1108905",
           "publishedOn": "2025-02-04T15:55:17.000Z",
-          "wordCount": 368,
+          "wordCount": 375,
           "title": "假设 deepseek 一直被攻击，是不是服务会一直繁忙？",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "drymonfidelia: \n有人知道是什么问题吗？\n我发现在打开新游戏的时候这个占用会增加十几 GB ，关闭游戏不减，重启个几次就到一百 GB 以上了",
           "link": "https://www.v2ex.com/t/1108898",
           "publishedOn": "2025-02-04T14:44:43.000Z",
-          "wordCount": 434,
+          "wordCount": 460,
           "title": "Hyper-V GPU 分区玩游戏 vmmem 进程的内存占用很不正常，我给虚拟机分 32GB 运行内存， vmmem 进程的 Commit Size 经常跑到 130GB 以上，然后把虚拟内存占满了，...",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "revival83: 不是特臃肿就是版本特旧\nN1 挂了 需要重刷",
           "link": "https://www.v2ex.com/t/1108891",
           "publishedOn": "2025-02-04T14:05:16.000Z",
-          "wordCount": 433,
+          "wordCount": 437,
           "title": "求个最新的 N1 旁路由固件… 找了好多都不太靠谱",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "dwu8555:",
           "link": "https://www.v2ex.com/t/1108877",
           "publishedOn": "2025-02-04T12:27:06.000Z",
-          "wordCount": 397,
+          "wordCount": 399,
           "title": "1Password 7 不能打开了",
           "imageUrl": null
         },
@@ -707,7 +707,7 @@
           "description": "nizhong044: 趁国补买了台新的笔记本电脑，想买来做游戏直播用。感觉自己以前用电脑都乱糟糟的，需要什么软件下什么软件，打开文件目录一看乱七八糟的，卸载的软件目录都还有。\n有没有什么可以让电脑一直清清爽爽的设置和使用方法？除此以外，还有哪些新电脑可以做的增强用户体验的设置操作？",
           "link": "https://www.v2ex.com/t/1108872",
           "publishedOn": "2025-02-04T11:49:24.000Z",
-          "wordCount": 531,
+          "wordCount": 533,
           "title": "新买的电脑可以做哪些设置？",
           "imageUrl": null
         },
