@@ -196,33 +196,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -342,7 +315,7 @@
           "description": "ne6rd: \n技术：\n5 年 JAVA & Javascript ，2 年 PHP ，4 年 C#。\n现在纯后端做 API ，技术栈 c#, netcore, azure 。\n这两天看了下市场上的招聘，c#搞 API 的少，用 azure 的也没几个。\n感觉大厂用 Java ，初创小公司 Go 比较多。\n语言:\n英语对话和书写都是 Business Level 。\n日语考了 N2 。\n感觉只能找纯英语的公司。\n薪资：\n税后年收换算成日元大概 8M 日元，想找税前最少 10M 的，一是房贷有压力，二是方便申请高才签证。\n这两天脑补了几个方向，选择很多，有点迷茫。\nJAVA ，习惯了 c#之后有点厌恶 JAVA 的语法，好像目前 kotlin 很火，有用这个做 API 的吗，还是大多是移动端\nGo, 个人挺感兴趣的，自己上手应该没问题，但是担心 0 经验没有竞争力\nC# Azure, 继续死磕 azure ，目标日本 MS ，之前投了两次，面试机会都没有。\nC# Unity, 一直有做游戏的梦想，但是工作上没机会实现，而且感觉需要很多 3D 方面的知识。\n日语，继续学日语，扩大选择面，但是没有环境效率低。\n有没有在日的大佬能指点一下，该往哪个方向努力比较好？",
           "link": "https://www.v2ex.com/t/1108789",
           "publishedOn": "2025-02-03T20:31:28.000Z",
-          "wordCount": 682,
+          "wordCount": 772,
           "title": "中年想去日本，求指点迷津",
           "imageUrl": null
         },
@@ -352,7 +325,7 @@
           "description": "CureDovahkiin: \n在页面加载前拦截 xhr 和 fetch 对象\n加个响应拦截器，屏蔽放在用户信息流里面的广告，返回处理后的数据，还能顺便屏蔽 up 主发的广告\n屏蔽一些跟踪脚本的请求，然后不会像 ublock 之类的疯狂在控制台报错，直接把请求吞了。\n之前写了一个 但是感觉会重复造轮子就凑合用没继续写。\n如果是一个扩展，感觉可以订阅一些请求和响应拦截器的脚本和规则，不过做起来好麻烦还是算了🤓",
           "link": "https://www.v2ex.com/t/1108788",
           "publishedOn": "2025-02-03T17:22:57.000Z",
-          "wordCount": 402,
+          "wordCount": 426,
           "title": "有没有基于拦截浏览器请求来达成一些事情的浏览器扩展",
           "imageUrl": null
         },
@@ -362,7 +335,7 @@
           "description": "lettres: 我不知道我是不是一个人，但是我在我的生活中频繁要使用如同上个世代的网站：不支持 iOS Safari （“您的浏览器不支持第三方 cookie ，建议切换至'主流浏览器'”），交互故障重重，界面简陋无比，字体极其难读。越是巨头的企业、组织、甚至是官方网站，越是常常刷新我的认知。假如说我改行当任何一家中国报纸的记者，有很大概率我第一个要写的就是网站的再设计稿。\n坦然地说，我相当理解他们不愿更新网站的种种动机，成本太高，理由太少——但这无法平复我在使用时的不适、焦躁（如果是不美观）和抓狂（如果是充满 bug ），何况有些上古网站其实是今人的鬼斧神工。篡改一句歌词来说，人生很短，用丑陋的软件只会更短。\n追求美是人的本能，而这种本能于我特别强烈。写代码不必为了谋生，却是一种表达自我的手段。我常常想：要是能帮这些网站都重新装修一番，甚至做一个虽是第三方但是胜过官方的版本供人使用，该有多好？未必现实，然而至少也能作为自己些许小情绪的表达。\n最近日检出分，查分的又是一个上古的网站。平心而论，虽然古老，但并不难用。或许有人会说，这些实用性网站能用即可。的确如此，不过想到人若是只能用便过得去，心里总莫名有些遗憾和失落。而且离这样体量的基金会、“教育部教育考试院”这样的名号还是差太远了。加之不很复杂，可光向官网注入 CSS 又丝毫不够，便迅速地用 Next.js 克隆并美化了一番，做了一个极简的第三方开源查分器（ https://github.com/NarixHine/modernised ），终于迈出了“上古网站装修计划”的第一步。其实美观未必要丰富，更新也未必大费周章，往往只需简洁清晰和一点跟上潮流的现代感。其实现在 AI 的出现大大方便了个性化软件的产生，在 v0 帮助下只花了一小时便搞定。\n\n不过虽说这将会是“beautiful by default”的所谓“personalised software”的时代，通过克隆再美化毕竟是曲线救国，你不可能给世界上每一个上古网站都重新装修一遍，故而这个项目唯一的意义只能是以这种曲折的方式引起讨论和反思，希望“美”成为新的 Web 标准，寄希望于企业自身翻新自己网站。然而这积聚动量实在太难（有些抽象），退一万步说你也永远无法低估巨头的惰性，不论是自驱力还是外部向内部的压力。故而第二步不知会不会迈，遑论何时迈了。\n你要说这有意义吗？要是像新闻里常常出现的那样“许多人表示共鸣”“众多程序员纷纷贡献”“引发各大企业重视”“一个项目掀起一阵潮流”引起话题，那还挺有的。但是不可能，所以其实没有，除了满足对美的一点点孩子气的固执。\n（当然，还有满足想将截图转发朋友圈又碍于官网太简陋的日语大佬们。）\n——睡不着，信笔写写、聊聊。写到这里有些不知所云了，迷糊见谅。",
           "link": "https://www.v2ex.com/t/1108787",
           "publishedOn": "2025-02-03T17:10:29.000Z",
-          "wordCount": 419,
+          "wordCount": 441,
           "title": "对上古风前端的一点点不满，对巨头的惰性的一个小反抗",
           "imageUrl": null
         },
@@ -372,7 +345,7 @@
           "description": "radishzz: 前段时间发现 15pro 的热点有问题。用安卓机连接 iPhone 热点，再用第三方软件 Sync 同步照片（类似 QQ 的面对面快传），iPhone 信号必定会断掉后重连。有些困扰但也没啥大碍，想想算了。\n结果前几天更新完 iOS18.3 以后，发现信号彻底消失。信号图标一直以波浪状起伏。刚开始以为是系统版本 bug ，上网搜了一圈，没有发现相同的情况。仔细研究后发现，蜂窝数据网络显示检测到问题，调制调解器固件显示为空白。\n预约去天才吧维修，但最快也得三天后。第二天断网了一整天，于是晚上试试自己刷机，看能不能解决。\n备份好数据，恢复模式和 DFU 模式各刷了一遍，问题好像解决了。能连上网络了，调解器固件也显示数字了。但仔细检查后发现，偶尔还是会断网，蜂窝网络会错误地显示 4 张 SIM 卡，并且会随机自动重启…\n今天去天才吧维修，工作人员用调试模式和售后工具进行检测，都没有发现问题。在得到我的同意之后，帮我重置了系统。但重置之后，一旦开启热点并同步照片，信号还是会百分百断联。售后还挺谨慎，拿来一台测试机进行复测，结果测试机就不会出现这种问题。这下终于确证了。\n之前在网上看到说，如果无磕无碰，并确认是基带问题的话，可以直接当场换新。我心想这还挺好，没想到他给的方案是更换主板，3-5 天之后主板到货了，再来门店更换维修。那也行吧。256G 的主板价格为 557 英镑，实付为零。\n唯一的变化是，维修以后会从国行变成欧版，也就是从双卡槽变成了单卡槽+ esim 。手上的 Lebara 物理卡倒是可以顺利转成 esim ，但以后在国内只能塞一张卡了。所以想顺带问问，esim 在国内有什么玩法吗？",
           "link": "https://www.v2ex.com/t/1108786",
           "publishedOn": "2025-02-03T16:56:14.000Z",
-          "wordCount": 414,
+          "wordCount": 433,
           "title": "iPhone 维修分享，国行变欧版",
           "imageUrl": null
         },
@@ -382,7 +355,7 @@
           "description": "SingeeKing: 我知道是为了防盗版，但是 epub / pdf 满天飞的情况下，真的会有人去费力不讨好爬微信读书网页版吗，退一步就算想从微信网页版去获得书籍源文件，也应该不至于去模拟人工一页页爬吧，JS 逆向或者从网络包分析应该更合理啊\n但是这个加密就让想用/写个插件的我很难受了；各种划词工具用不了，最近想写个 AI Research 工具也无解……",
           "link": "https://www.v2ex.com/t/1108785",
           "publishedOn": "2025-02-03T16:50:38.000Z",
-          "wordCount": 479,
+          "wordCount": 501,
           "title": "（纯吐槽）微信读书网页版为啥要做加密啊",
           "imageUrl": null
         },
@@ -432,7 +405,7 @@
           "description": "flowerfly: \n岳父是小学老师，今年过来我们这过年，来的时候从家里带来了许多腊肠、腊肉，来到之后又在年前炸了好多酥肉，全部放到冰箱里，加上他又爱下厨做饭，于是乎天天吃的差不多都是这些肉。",
           "link": "https://www.v2ex.com/t/1108777",
           "publishedOn": "2025-02-03T15:24:14.000Z",
-          "wordCount": 934,
+          "wordCount": 1011,
           "title": "大家有和岳父起过冲突吗？",
           "imageUrl": null
         },
@@ -442,7 +415,7 @@
           "description": "jiuzhougege: \n前端项目，不管是 vue,react ，就是 cpu 占用长期 400%以上，有时候持续好多天，导致 macbook 温度一直在 70+度以上，\n1.猜测是 node_modules 文件过多，建立索引的问题，设置-编辑器-文件类型-排除-node_modules 已经添加。\n2.猜测内存分配少了，毕竟 java 开发的 webstorm ，可能会频繁垃圾回收，给分配大点\n分配的内存也不少了\n-Xms1024m\n-Xmx8192m\n-XX:ReservedCodeCacheSize=1024m\n3.所有插件都禁用\n以上都试过了，无果，目前 cpu 稳定在 200%+,怎么都降低不下来",
           "link": "https://www.v2ex.com/t/1108776",
           "publishedOn": "2025-02-03T14:43:58.000Z",
-          "wordCount": 458,
+          "wordCount": 493,
           "title": "webstorm 的 cpu 占用长期很高让我很苦恼",
           "imageUrl": null
         },
@@ -492,7 +465,7 @@
           "description": "vulgur: \n2025,0127-0202\n祝各位在蛇年里，如灵蛇般 灵动智慧、游刃有余，在人生的道路上 化险为夷，步步高升！愿 好运如金蛇缠身，财富如瑞蛇蜿蜒而至，所求皆如愿，所行皆坦途！\n（以上祝福语由 ChatGPT 生成😜）\n1 月数据总结\n下载量（极简时钟）\nApp Store ，下降 13%\nGoogle Play ，下降 3.77%\n国内安卓市场，下降 11.38%\n收入\nApp Store ，上升 0.53%\nGoogle Play ，下降 12.54%\nAdmob ，下降 19.95%\n国内安卓市场，下降 9.3%\n极简便签的 DAU 已经马上赶上极简时钟了，但是日启动次数已经远超极简时钟了，应该发掘一下如何提高转化率了。\n极简时钟 tvOS 版本上个月的收入几乎达到了十倍的增长，只要起点够低，涨幅就能吓一跳。\n\n新年不停工\n大年初一，提交了极简时钟 iOS v4.8.2 ，修复了浮雕时钟的两个 bug：\n在 iOS 17 以下的版本中阴影的 bug\n数字 4 的阴影叠加位置有误的 bug\n没想到，SwiftUI 的 shadow 居然在 iOS 17 和以下系统版本上表现不一样，我找了一整个下午才找到这个原因。一开始还以为是半透明颜色的问题，后来以为是 border 的问题，最后才定位到是 shadow 的问题。\n大年初二，提交了极简日记 iOS v1.8.10 ，优化了标签选择的性能，消除了之前的卡顿。\n大年初三，优化了极简时钟 iOS 里浮雕时钟的一个动画，但是没有提交。\n大年初五，提交了极简日记 iOS v1.8.11 ，修复了长按进行语音输入在 iOS 18 后就失效的 bug 。\n除了初一那天时间比较多，UI 方面的代码都是自己写的，其余几天真正的工作时间非常少，绝大部分都是 Windsurf 给解决的。过年期间，苹果的审核速度也很快，三…",
           "link": "https://www.v2ex.com/t/1108768",
           "publishedOn": "2025-02-03T13:11:24.000Z",
-          "wordCount": 612,
+          "wordCount": 619,
           "title": "独立开发周记 103： 1 月数据总结",
           "imageUrl": null
         },
@@ -532,7 +505,7 @@
           "description": "jy00295017: 腾讯极光 6 ，当贝 H3 ，小米盒子 4pro 接索尼电视盒子以后，色彩都变的特别艳丽，特别刺眼。\n这三个里面只有 腾讯极光 6 可以关闭 hdr ，关了以后颜色稍微舒服那么一点。\n 但还是没有索尼 9000f 直出舒服，9000f 出来的色彩暗一点，没那么亮，眼睛舒服。\n 还有其他可以关闭 hdr 的电视盒子推荐吗？\natv 太贵没试过。",
           "link": "https://www.v2ex.com/t/1108764",
           "publishedOn": "2025-02-03T12:27:15.000Z",
-          "wordCount": 407,
+          "wordCount": 424,
           "title": "电视盒子接索尼电视使用，哪些品牌的能关闭 HDR？",
           "imageUrl": null
         },
@@ -582,7 +555,7 @@
           "description": "fanju745: \nProxMonitor\nProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应用。它提供了直观的界面来查看和控制您的虚拟化环境。\n\n\n功能特点\n🖥️ 资源监控\n实时查看节点、虚拟机和存储的状态\n监控 CPU 、内存、网络和磁盘使用情况\n支持图表展示历史数据\n💻 虚拟机管理\n开机/关机操作\n通过 noVNC 访问虚拟机控制台\n查看虚拟机详细信息和性能指标\n📊 存储管理\n查看存储空间使用情况\n监控存储性能\n浏览存储内容\n🔒 安全特性\n支持 HTTPS 连接\n基于 ticket 的身份验证\n安全的凭证存储\n系统要求\nAndroid 8.0 (API 26) 或更高版本\nProxmox VE 7.0 或更高版本\n网络连接到 Proxmox VE 服务器\n安装说明\n从 Releases 页面下载最新的 APK\n在 Android 设备上安装 APK\n服务器地址 (例如: https://pve.example.com:8006)\n用户名 (格式: user@pam 或 user@pve)\n密码\n使用说明\n登录\n输入服务器地址、用户名和密码\n点击登录按钮\n登录成功后会自动保存凭证\n资源监控\n主页面显示所有节点、虚拟机和存储的概览\n点击任意资源可查看详细信息\n支持下拉刷新更新数据\n虚拟机管理\n点击虚拟机卡片进入详情页面\n使用顶部工具栏的按钮进行开机/关机操作\n点击控制台图标打开 noVNC 远程访问\n存储管理\n在存储详情页面可查看使用情况\n支持查看存储内容列表\n提供多个时间范围的性能数据图表\n技术栈\n使用 Kotlin 和 Jetpack Compose 开发\n遵循 Material Design 3 设计规范\n采用 MVVM 架构\n使用 Hilt 进行依赖注入\n使用 Retrofit 进行网络请求\n使用 DataStore 进行数据持久化",
           "link": "https://www.v2ex.com/t/1108758",
           "publishedOn": "2025-02-03T11:11:02.000Z",
-          "wordCount": 599,
+          "wordCount": 601,
           "title": "Proxmox VE 服务器监控和管理的 Android 应用",
           "imageUrl": null
         },
@@ -602,7 +575,7 @@
           "description": "shylockhg: \n每次催为了不丢面子，我都高冷地回复：忙着奋斗\n这似乎给了他们错觉：觉得我认真了就能找到\n事实上我已经非常努力地在各种交友 app 上狂舔了。。",
           "link": "https://www.v2ex.com/t/1108755",
           "publishedOn": "2025-02-03T10:31:18.000Z",
-          "wordCount": 844,
+          "wordCount": 914,
           "title": "如何委婉告诉父母其实我找不到对象",
           "imageUrl": null
         },
@@ -612,7 +585,7 @@
           "description": "linglingfa: \n求救!\n我一台 vps 服务器，上个月突然流量暴涨，把流量撑爆后导致服务中断。\n这个月服务重启后发现继续下行流量占满了每一秒的带宽。我进入宝塔面板把所有 web 服务都停掉发现流量还是那么大。这才感觉不对劲。\n用 nethogs 和 iftop 来查看流量情况，发现如下面两张图所示。\n\n\n大量的单方面的下行流量，都来自 209.151.125.* 的地址，那个 we-are 点 parallax 点 net 的网址也全部对应这这个 IP 段。\n\n是不是这个 vps 被 DDoS 攻击了？ 还是被 UDP Flood 攻击？\n我对 linux 服务器不是太熟悉，目前对此束手无策，眼看着带宽被占满。怎么办啊？？",
           "link": "https://www.v2ex.com/t/1108754",
           "publishedOn": "2025-02-03T10:25:29.000Z",
-          "wordCount": 473,
+          "wordCount": 506,
           "title": "MayDay!MayDay!MayDay! 服务器疑似被攻击，求大神来帮忙看看",
           "imageUrl": null
         },
@@ -622,7 +595,7 @@
           "description": "yaott2020: 在用的 TheB.AI 一直抽风，API 也发癫。想问问各位 V 友在用啥聚合平台？",
           "link": "https://www.v2ex.com/t/1108753",
           "publishedOn": "2025-02-03T10:03:32.000Z",
-          "wordCount": 388,
+          "wordCount": 402,
           "title": "有啥好用的 AI 聚合平台吗",
           "imageUrl": null
         },
@@ -652,7 +625,7 @@
           "description": "Hsssst: 家里面经常投诉信号不好网速慢，回去看了下路由器的网口插在光猫的百兆口上😂😂😂后面换成千兆口就好了",
           "link": "https://www.v2ex.com/t/1108749",
           "publishedOn": "2025-02-03T09:48:24.000Z",
-          "wordCount": 413,
+          "wordCount": 423,
           "title": "家里网速慢的原因找到了",
           "imageUrl": null
         },
@@ -672,7 +645,7 @@
           "description": "83f420984: 最近打算入手一辆车，预算不高，二手车的话 2 万左右，有什么靠谱的推荐吗？主要想要省心耐用、维修便宜、油耗低的车型。\n如果是新车的话，5-6 万左右有什么值得考虑的吗？自动挡、代步通勤为主，配置够用就行。",
           "link": "https://www.v2ex.com/t/1108746",
           "publishedOn": "2025-02-03T09:26:45.000Z",
-          "wordCount": 612,
+          "wordCount": 623,
           "title": "2 万左右的二手车推荐？",
           "imageUrl": null
         },
@@ -682,7 +655,7 @@
           "description": "ttgo: \n查了一下，其他独占的大部分是美国政府，电信运营商/云服务商。\n都是互联网圈的\"old money\"啊。",
           "link": "https://www.v2ex.com/t/1108745",
           "publishedOn": "2025-02-03T09:17:12.000Z",
-          "wordCount": 567,
+          "wordCount": 569,
           "title": "才知道苹果自己独占了一个/8 的网段 17.0.0.0/8",
           "imageUrl": null
         },
