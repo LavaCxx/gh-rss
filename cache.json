@@ -169,12 +169,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -188,6 +182,33 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -300,7 +321,7 @@
           "description": "stark123: \n假如我的 watch 通过手机连上了办公室的 WiFi ，去办公室忘带手机了，那 watch 能连上 WiFi 吗？\n请有 watch 的朋友们指点下，我好确定是买 WiFi 版的还是蜂窝版的。\n以下是 ChatGPT 的回答：\n不一定，取决于你的手表型号和 WiFi 连接方式。 \n如果你的 手表支持独立 WiFi 连接（比如部分 Apple Watch 、Wear OS 手表等），并且 之前已经通过手机同步保存了办公室 WiFi 密码，那么即使忘带手机，手表仍然可以自动连接办公室 WiFi 并正常使用网络功能（比如收发消息、使用云同步等）。  \n但如果你的手表 仅通过蓝牙从手机共享网络，或者 没有独立 WiFi 功能，那么在办公室忘带手机后，手表就无法连接 WiFi 。  \n你可以检查：\n手表的 WiFi 设置：看是否有独立的 WiFi 选项，或者手动连接 WiFi 的功能。\n手机和手表的同步设置：有些手表只有在与手机连接时才会获取 WiFi 信息，断开后无法自动连接。\n手表是否支持蜂窝网络（如果是 LTE 版，可以直接用流量）。  \n如果你用的是 Apple Watch （ GPS 版），它只能连接 已知 WiFi，但不能手动添加新 WiFi ，所以之前没连过的 WiFi ，它是连不上的。",
           "link": "https://www.v2ex.com/t/1108919",
           "publishedOn": "2025-02-04T20:34:33.000Z",
-          "wordCount": 453,
+          "wordCount": 472,
           "title": "不带手机去公司， apple watch 能自己连上之前已经连过的 WiFi 吗？",
           "imageUrl": null
         },
@@ -320,7 +341,7 @@
           "description": "Raynard: 国产电视系统真是受够了，不想外接盒子用了，\n正巧主卧需要装个电视，\n最好是知名品牌，能接受溢价\n或者有靠谱大件海运渠道推荐吗？",
           "link": "https://www.v2ex.com/t/1108917",
           "publishedOn": "2025-02-04T18:40:48.000Z",
-          "wordCount": 491,
+          "wordCount": 505,
           "title": "国内如何买到原生 android TV 电视？",
           "imageUrl": null
         },
@@ -340,7 +361,7 @@
           "description": "cbc009: \n万能的 v 友，我有一个飞利浦壁挂新风机 FAP108 ，用了 5 年了，噪音有点大，当时也不懂买了个一进一出两个孔，由于孔距的原因，现在也不方便换，因为找不到相同孔距和孔径的壁挂新风，我拆开看了一下是其中一个直流电机噪音很大，型号是芝浦 SIC-41CVJ-F134-5,某宝某鱼某巴都搜了，没有找到相同型号的，所以请教一下了解无刷电机的朋友以下几个问题：\n1.如果换同品牌不同型号的电机能用吗，比如功率比现在的低，转速也比现在的低\n2.直流无刷电机的转向是必须与原型号相同吗，这个转向是电机内部自己控制的还是新风主板控制的，我看某宝卖的同品牌其他型号大部分标记的转向都跟我的相反。\n3.自己拆开电机换轴承的可行性。\n本人对电机一窍不通，纯小白，请熟悉这块的 v 友多多指点",
           "link": "https://www.v2ex.com/t/1108915",
           "publishedOn": "2025-02-04T17:38:45.000Z",
-          "wordCount": 382,
+          "wordCount": 394,
           "title": "有懂直流无刷电机的朋友，请教几个问题",
           "imageUrl": null
         },
@@ -350,7 +371,7 @@
           "description": "revival83: 不太喜欢迅雷，也不想付费 IDM ，更不想用学习版\n免费的有么？必须付费的话越少越好",
           "link": "https://www.v2ex.com/t/1108914",
           "publishedOn": "2025-02-04T17:31:29.000Z",
-          "wordCount": 427,
+          "wordCount": 428,
           "title": "求推荐 chrome 有没有下载加速插件？",
           "imageUrl": null
         },
@@ -360,7 +381,7 @@
           "description": "telun:",
           "link": "https://www.v2ex.com/t/1108913",
           "publishedOn": "2025-02-04T17:23:00.000Z",
-          "wordCount": 405,
+          "wordCount": 414,
           "title": "什么时候开始国区 app store 可以直接下载 X 了？",
           "imageUrl": null
         },
@@ -370,7 +391,7 @@
           "description": "xuxueli: \nRelease Notes\n1 、 [升级] 项目重构升级；定位 多级缓存框架，高效组合本地缓存和分布式缓存(Redis+Caffeine)，支持“多级缓存、一致性保障、TTL 、Category 隔离、防穿透”等能力，提供高性能多级缓存解决方案。\n2 、 [重构] 高性能系统重构设计，底层设计 L1(Local)+L2(Remote)多级缓存模型，除分布式缓存之外前置在应用层设置本地缓存，高热查询前置本地处理避免远程通讯，最大化提升性能；\n3 、 [重构] 一致性保障设计，支持多层级、集群多节点之间缓存数据一致性保障，借助广播消息（ Redis Pub/Sub ）以及客户端主动过期，实现 L1 及 L2 之间以及 L1 各集群节点间缓存数据一致性同步；\n4 、 [重构] 框架进行模块化抽象设计，本地缓存、分布式缓存以及序列化方案均支持自定义扩展；\n5 、 [易用性] 缓存 API 优化改造，多级缓存框架支持业务透明接入，屏蔽底层实现细节，降低业务开发成本，以及学习认知成本；\n6 、 [升级] 多个依赖升级最新版本，如 jedis 、spring 等；\n7 、 [优化] 核心依赖推送 maven 中央仓库, 方便用户接入和使用;\nXXL- CACHE 快速接入示例\n代码参考 github 仓库 /test 目录： https://github.com/xuxueli/xxl-cache/tree/master/xxl-cache-samples\n1 、Maven 引入：\n<!-- https://mvnrepository.com/artifact/com.xuxueli/xxl-cache-core -->\n<dependency>\n    <groupId>com.xuxueli</groupId>\n    <artifactId>xxl-cache…",
           "link": "https://www.v2ex.com/t/1108912",
           "publishedOn": "2025-02-04T17:11:04.000Z",
-          "wordCount": 613,
+          "wordCount": 615,
           "title": "XXL-CACHE v1.1.0 ｜ 多级缓存框架",
           "imageUrl": null
         },
@@ -380,7 +401,7 @@
           "description": "websong188: \n\n2025 年我在香港成功办理了中银和汇丰银行卡、蓝狮子和万事达扣账卡; \n现在所有实体卡都已收到,其中众安数字虚拟卡也申请成功;\n分享一些经验给大家，希望想要办理香港银行卡的朋友们少走弯路。\nhttps://blog.taoluyuan.com/blog/how-to-open-a-bank-account-in-hongkong-2025\n主要内容包含以下几个方面\n如何预约香港银行开户、深圳到香港的交通路线\n所需材料的准备、 银行面谈技巧\n卡片激活流程、红狮子与蓝狮子的区别\n香港办卡的常见问题\n需要探索的地方\n很多还在探索,比如卡的用途还有哪些,知道的巨佬可以提示下\n另外关于地址证明是否一定是账单地址,激活卡的金额其实也不是固定的\n大佬们有不一样成功的体验 可以提供下经历 我完善完善\n正文内容:2025 年香港银行开户攻略",
           "link": "https://www.v2ex.com/t/1108911",
           "publishedOn": "2025-02-04T16:50:06.000Z",
-          "wordCount": 420,
+          "wordCount": 427,
           "title": "刚出炉的 ! 2025 年香港银行开户攻略,中银万事达、汇丰、众安、蓝狮子、实体卡下卡成功",
           "imageUrl": null
         },
@@ -390,7 +411,7 @@
           "description": "revival83: N1 的科学突然挂了，自己折腾半天也不行，想重刷，请大哥留个 tg 或者 wx",
           "link": "https://www.v2ex.com/t/1108910",
           "publishedOn": "2025-02-04T16:48:25.000Z",
-          "wordCount": 419,
+          "wordCount": 458,
           "title": "有老哥能协助装下 N1 openwrt 么？请杯奶茶",
           "imageUrl": null
         },
@@ -400,7 +421,7 @@
           "description": "clhcowboy: \n[ Lokica 是什么？] \nLokica 是一款颠覆性的浏览器插件，旨在彻底改变你管理窗口、标签页、书签、浏览记录和阅读列表的方式。无论你是需要处理大量标签页的开发者，频繁在不同任务间切换的多任务处理者，还是希望打造个性化浏览体验的普通用户，Lokica 都能帮助你轻松高效地管理浏览环境。\n非常感谢大家的反馈，v1.3.0 版本\n优化了：\n1 ） newtab 功能，调整为默认不开启 lokica newtab 页面，可以在选项里面按需开启；\n2 ）侧边栏窗口/tab 状态实时同步\n新增了：\n1 ）滑词翻译功能\n\nLokica 让你的浏览体验更加智能、高效、有序！立即尝试，开启全新上网方式 🚀\n立即体验：\nhttps://chromewebstore.google.com/detail/lokica-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8B/lcgiffhanmeoclicpmfgjbhjdcbpibgf\n[核心功能] \nAI 滑词翻译 (新增功能！)：在网页上划选单词或短语，即可即时翻译，无需跳转页面，让阅读更加顺畅无障碍；一键复制所需要的原文和译文。\n（可以在选项里设置是否开启、选择谷歌、chatgpt 等作为翻译引擎）\n全局搜索：快速查找窗口标签页、书签、阅读列表或历史记录。\n\n可视化管理：以层级结构查看所有窗口和标签页，清晰直观，还可为窗口添加备注，提高组织效率。\n阅读列表：保存并管理文章，随时查找，方便稍后阅读。\n高效任务切换：流畅地在不同工作流之间切换，提高工作效率。\n书签 & 历史记录访问：快速、直观地访问你的重要内容。\n快速导航：无缝切换标签页和窗口，不再迷失方向。\n个性化工作台：自定义新标签页，添加常用网站，并支持跨多个搜索引擎的统一搜索。\n[为什么选择 Lokica ？] \n革新式窗口 & 标签管理：全新的组织和导航方式，让你的浏览更加高效。\n个性化工作台：构建属于你的浏览空间，将最常访问的网站集中管理，提升生产力。\n智能工作流切换：适用于开发者、多任务处理者以及任何希望优化浏览体验的用户。\nAI 智能助力：AI 滑词翻译功能，让你轻松阅读外文内容，无需切换页面。\n提升生产力：告别繁琐的标签页管理，减少查找重要内容的时间浪费。\n极致用户体验：轻量级、直观易用，完美融入你的日常浏览习惯。\nLokica 让你的浏览体验更加智能、高效、有序！立即尝试，开启全新上网方式 🚀\n立即体验：\nhttps://chromewebstore.google.com/detail/lokica-%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8A%A9%E6%89%8B/lcgiffhanmeoclicpmfgjbhjdcbpibgf",
           "link": "https://www.v2ex.com/t/1108909",
           "publishedOn": "2025-02-04T16:38:31.000Z",
-          "wordCount": 421,
+          "wordCount": 431,
           "title": "浏览器助手 Lokica v1.3.0 发布了～新增滑词翻译， newtab 和悬浮球可以在选项里开启关闭啦",
           "imageUrl": null
         },
@@ -410,7 +431,7 @@
           "description": "ttifme: \n你 tg 频道接广告都不审核一下的吗？接了个代找视频的广告，1 月初支付宝口令红包付了几十块让代找的这货帮找一个视频，这货找不到，我让他退款，他说支付宝渠道退款需要等 1 个月，要到 2 月份才能退。\n现在到 2 月份了，我才发现这货删了聊天记录。\n下面放一下图片：\n\n\n以下 tg 账号打 2 个码，避免为骗子推广：\n骗子 tg：@SourceG**\n用户昵称：出处君\n用户 ID：7150421312\nDC：5\n骗子 tg 频道：@avsour**",
           "link": "https://www.v2ex.com/t/1108908",
           "publishedOn": "2025-02-04T16:38:20.000Z",
-          "wordCount": 476,
+          "wordCount": 497,
           "title": "@v2exPush 这个 V2 的 tg 推送频道主请出来",
           "imageUrl": null
         },
@@ -420,7 +441,7 @@
           "description": "cosven: \n有图有真相！\n\nAI 功能也得有个图 ~\n\n接着说说有啥特性\n一键安装，各流行平台均有打包（如 Arch Linux, Windows, macOS 等）\n有各媒体资源平台的插件，充分且合理的利用全网免费资源（如 Youtube Music 等）\n基础功能完善，桌面歌词、资源智能替换、多音质选择、nowplaying 协议等\n核心模块有较好的测试覆盖、核心接口保持较好的向后兼容\n大模型加持：AI 电台、自然语言转歌单等\n提供基于 TCP 的交互控制协议\n基于文本的歌单，方便与朋友分享、设备之间同步\n支持基于 Python 的配置文件 .fuorc，类似 .vimrc 和 .emacs\n试用一下？\nArch Linux 用户可以用如下命令安装\n# Arch Linux\nyay -S feeluown          # 安装稳定版，最新版的包名为 feeluown-git\nyay -S feeluown-netease  # 按需安装其它扩展\nyay -S feeluown-ytmusic\nyay -S feeluown-bilibili\n\nyay -S feeluown-git python-openai  # 最新版（ 4.1.9 ）才有 AI :)\n\nmacOS 和 windows 用户也可以考虑直接安装二进制包，链接在这里 https://github.com/feeluown/FeelUOwn/releases\n其它平台用户可以瞄一眼文档 https://feeluown.readthedocs.io/en/latest/quickstart.html\n废话不多说，来来来\n项目： https://github.com/feeluown/FeelUOwn\n交流群：telegram 交流群\n文档（安装使用 /开发）： https://feeluown.readthedocs.io/\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n特别欢迎对 Python / AI / GUI 技术感兴趣的小伙伴一起来折腾！\n三遍~",
           "link": "https://www.v2ex.com/t/1108907",
           "publishedOn": "2025-02-04T16:16:16.000Z",
-          "wordCount": 504,
+          "wordCount": 512,
           "title": "写了 10 年的音乐播放器，第 11 年有了 AI 加持！",
           "imageUrl": null
         },
@@ -430,7 +451,7 @@
           "description": "1140601003: 为什么大厂对于这种问题，不能从根本上去解决呢？大佬们有什么看法",
           "link": "https://www.v2ex.com/t/1108905",
           "publishedOn": "2025-02-04T15:55:17.000Z",
-          "wordCount": 377,
+          "wordCount": 528,
           "title": "假设 deepseek 一直被攻击，是不是服务会一直繁忙？",
           "imageUrl": null
         },
@@ -440,7 +461,7 @@
           "description": "epeeian: 1.尺寸，6.2 寸以下吧，太大了不好拿。她现在手机 s10e 很小 5.8 寸她很喜欢。\n2.日常就照相聊天，看在线视频，无游戏需求。\n3.要很方便上 play 商店，需要日常用 WhatsApp 和 YouTube 等 play 商店应用。\n4.预算三千我觉得差不多了吧。\n完全没研究手机很多年了。求推荐。",
           "link": "https://www.v2ex.com/t/1108904",
           "publishedOn": "2025-02-04T15:31:07.000Z",
-          "wordCount": 428,
+          "wordCount": 474,
           "title": "给老婆买手机，求推荐",
           "imageUrl": null
         },
@@ -450,7 +471,7 @@
           "description": "w179942218: \n坐标江苏 0516\n联通原来分配的公网 ip 153.36 网段全天不限速\n后来光猫重新拨号\n发现被绑到了 ip 116.147 网段晚高峰开始限速\n而且 ip 坐标也不再是我所在的城市了",
           "link": "https://www.v2ex.com/t/1108903",
           "publishedOn": "2025-02-04T15:17:31.000Z",
-          "wordCount": 351,
+          "wordCount": 363,
           "title": "联通也开始搞 ip 段限速了吗",
           "imageUrl": null
         },
@@ -480,7 +501,7 @@
           "description": "ldz: 氧 OS 15 Root 了之后通过 Shamiko+隐藏应用列表+Play Integrity Fix 把除了得物 App 之外所有其他 App （包括各大银行 App ）的 Root 检测都搞定了\n就剩下这一个搞不定\n得物恶心就恶心在检测到 Root 之后动不动给你跳验证码\n我也试了微信的得物小程序 也是一样跳验证码\n请各位有经验的大佬指点下应该咋整",
           "link": "https://www.v2ex.com/t/1108900",
           "publishedOn": "2025-02-04T14:52:55.000Z",
-          "wordCount": 462,
+          "wordCount": 493,
           "title": "怎样绕过得物 App 的 Root 检测？",
           "imageUrl": null
         },
@@ -500,7 +521,7 @@
           "description": "drymonfidelia: \n有人知道是什么问题吗？\n我发现在打开新游戏的时候这个占用会增加十几 GB ，关闭游戏不减，重启个几次就到一百 GB 以上了",
           "link": "https://www.v2ex.com/t/1108898",
           "publishedOn": "2025-02-04T14:44:43.000Z",
-          "wordCount": 482,
+          "wordCount": 492,
           "title": "Hyper-V GPU 分区玩游戏 vmmem 进程的内存占用很不正常，我给虚拟机分 32GB 运行内存， vmmem 进程的 Commit Size 经常跑到 130GB 以上，然后把虚拟内存占满了，...",
           "imageUrl": null
         },
@@ -530,7 +551,7 @@
           "description": "shuiguomayi: \nMac mini 2018 用 蓝牙键盘 A1314 和 触摸板 A1339 间歇性间断, 每次间断 5,6 秒钟，多久会断一次时间不确定。房间里放了 1 个小米路由器 mini ，开启 2.4G 和 5G 信号。BTW ，两者都是足电的，80%电量以上。\n极度依赖 2.4G 网络，因为有个 broadlink 智能开关和一个小米音箱只能用 2.4G 网络。\n5G 网络从频段原理上看，跟蓝牙的频段没有任何冲突。\n各位有排查思路么？\n如果，非得换有线的话，请教推荐一个好用的适配 macOS 的有线键盘和鼠标，好用， 迁移代价低。多谢了。",
           "link": "https://www.v2ex.com/t/1108892",
           "publishedOn": "2025-02-04T14:06:53.000Z",
-          "wordCount": 415,
+          "wordCount": 424,
           "title": "Mac 上蓝牙键盘和触摸板间歇性间断，排查思路？",
           "imageUrl": null
         },
@@ -540,7 +561,7 @@
           "description": "revival83: 不是特臃肿就是版本特旧\nN1 挂了 需要重刷",
           "link": "https://www.v2ex.com/t/1108891",
           "publishedOn": "2025-02-04T14:05:16.000Z",
-          "wordCount": 437,
+          "wordCount": 446,
           "title": "求个最新的 N1 旁路由固件… 找了好多都不太靠谱",
           "imageUrl": null
         },
@@ -550,7 +571,7 @@
           "description": "Int100: \n请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?\n只讨论满血版 671B, 阉割版不在讨论范围内.\n需要稳定的, 官网 API 已经连续 9 天 Major/Partial Outage 了.\n硅基流动就别说了, 慢的受不了.🤦",
           "link": "https://www.v2ex.com/t/1108888",
           "publishedOn": "2025-02-04T13:37:46.000Z",
-          "wordCount": 440,
+          "wordCount": 451,
           "title": "请问一下大伙儿, 现在“最快的” DeepSeek API 是哪家?",
           "imageUrl": null
         },
@@ -610,7 +631,7 @@
           "description": "xingye163: 之前办理了个在网 3 年的合约，4 月马上到期，想改个便宜点的单网套餐，应该公网 IP 会丢失吧。",
           "link": "https://www.v2ex.com/t/1108879",
           "publishedOn": "2025-02-04T12:30:28.000Z",
-          "wordCount": 464,
+          "wordCount": 483,
           "title": "湖南电信融合宽带 1000 兆每月 199 包月，换套餐想保留公网 IP 怎么办？",
           "imageUrl": null
         },
@@ -640,7 +661,7 @@
           "description": "ChiuLam: \n从其他行业转行编程的朋友们，不管是通过培训还是自学，你们现在怎样了，会后悔这一决定吗？",
           "link": "https://www.v2ex.com/t/1108876",
           "publishedOn": "2025-02-04T12:25:28.000Z",
-          "wordCount": 424,
+          "wordCount": 438,
           "title": "从其他行业转行到开发的，你们现在怎样了，后悔了吗？",
           "imageUrl": null
         },
@@ -670,7 +691,7 @@
           "description": "bugmakerxs: 家里的台式 win11 挂不挂代理(ssr)都无法访问 V2EX ，https 报不安全，powershell 访问 Invoke-WebRequest \"https://www.v2ex.com\" 报错 [基础连接已经关闭: 发送时发生错误。] \n\n用 vmware 开一台 win10 虚拟机，用路由器的透明代理，就能访问 V2EX ，，wireshark 抓包发现主机发了 tls1.2 的 handshake ，而虚拟机用的是 quic 协议访问 V2EX ，我怀疑是 V2EX 不支持 tls1.2 协议访问但是发起的 tls1.2 协议 handshake 所以无法连接成功。。\n那么问题来了，这个谷歌浏览器怎么判断应该用什么协议访问对端服务呢？另外，为啥挂了本地系统代理，但是抓包无请求发送到代理服务器？\n主机抓包(192.168.50.91)：\n\n虚拟机抓包(192.168.50.108)：",
           "link": "https://www.v2ex.com/t/1108873",
           "publishedOn": "2025-02-04T11:53:00.000Z",
-          "wordCount": 476,
+          "wordCount": 500,
           "title": "访问 V2EX 的问题",
           "imageUrl": null
         },
