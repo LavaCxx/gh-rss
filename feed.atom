@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-05T02:10:53.768Z</id>
+    <id>urn:2025-02-05T03:14:41.492Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-05T02:10:53.768Z</updated>
+    <updated>2025-02-05T03:14:41.492Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -656,42 +656,6 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[新年的路]]></title>
-        <id>https://innei.in/notes/185</id>
-        <link href="https://innei.in/notes/185"/>
-        <updated>2025-02-02T16:28:11.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
-
-许久没有写代码了，原因是最近自驾去了挺多地方。
-年前，去了海宁神仙湖。第一次上高速。
-:::gallery
-https://object.innei.in/bed/2025/0202_1738511753954.jpeg
-https://object.innei.in/bed/2025/0202_1738511757142.jpeg
-:::
-冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
-然后去了南北湖。比较一般。没咋拍。
-除夕前一晚，去了巧克力小镇。也比较一般。
-除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
-
-同时，去了附近的景区，也是有很多老板按箱放烟花的。
-初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
-
-
-后面去了盐官。但是没看到潮水，刚好错过了。
-
-去了大风车。
-
-过年期间，不管是哪个有点名气的景点人都挺多的。
-上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
-提车两个月，已经跑了 2300km+。
-好久没有写代码了，还是感到非常的焦虑。
-
-看完了？说点什么呢]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -763,33 +727,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -1070,17 +1007,6 @@ BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺�
 [消息等级 Level C2 · 简要]]]></summary>
         <author>
             <name>VPS信号旗播报 - Telegram Channel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Importance of Investing in Soft Skills in the Age of AI]]></title>
-        <id>https://css-tricks.com/?p=383383</id>
-        <link href="https://css-tricks.com/the-importance-of-investing-in-soft-skills-in-the-age-of-ai/"/>
-        <updated>2025-01-06T14:58:46.000Z</updated>
-        <summary type="html"><![CDATA[I am still an AI skeptic. The biggest risk I foresee is that if your sole responsibility is to write code, your job is at risk. It’s not time to panic, but I do see a lot of value in evolving your soft skills.
-The Importance of Investing in Soft Skills in the Age of AI originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
-        <author>
-            <name>Andy Bell</name>
         </author>
     </entry>
 </feed>
