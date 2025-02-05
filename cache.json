@@ -182,33 +182,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -337,7 +310,7 @@
           "description": "ysy950803: \n最近有人说 DeepSeek 是蒸馏了 ChatGPT 的，以此来降低成本，有没有大模型领域的佬来解释下，业界内这种做法算常规吗？\n然后我突发奇想，如果两个模型互相蒸馏，反复进行，最终它们会变成一个模型吗？比如说回答的内容会变成一模一样的。从技术上如何解释？",
           "link": "https://www.v2ex.com/t/1109144",
           "publishedOn": "2025-02-05T08:59:11.000Z",
-          "wordCount": 392,
+          "wordCount": 408,
           "title": "如果两个模型互相蒸馏，最终是什么结果？",
           "imageUrl": null
         },
@@ -367,7 +340,7 @@
           "description": "littleworm: \n大家好，最近我们开发上线了一个专业的医院陪诊服务平台：北京陪诊服务中心 (beijingpeizhen.com)。欢迎体验。\n为什么要做这个平台？\n北京汇集了全国顶级的医疗资源，各知名综合医院和专科医院，协和、阜外、儿童医院、积水潭、宣武、天坛等知名医院都位于北京核心区、二三环内。\n全国人民看病都想往北京跑。但想着在北京看病不容易，看过的人都知道。一点也不夸张，北京的医院尤其三甲医院挤满了全国各地的人，人多，等待时间长，拍一个片子可能要等两周甚至几个月时间（比如宣武医院神经内科要等 2/3 个月左右才能排上），很多人因为工作繁忙无暇陪同父母就医，或是对医院环境不熟悉导致耽误很多时间。在协和医院，我曾看到外地来的老人排队半个多小时后发现排错了队。这些经历促使我们开发这个平台。\n我们的优势\n覆盖协和、301 、天坛等 30+家三甲医院\n位于北京北二环，平均 30 分钟内可到各大医院\n提供陪诊（半天、全天）、代办跑腿、取药等一站式服务\n24 小时响应服务需求\n适合哪些人使用？\n外地需要来京就医的人\n因为工作太忙，没时间陪父母看病的北京人\n不熟悉医院环境的外地患者\n需要专业陪护的老年人\n来华就医的外籍人士\n真实案例分享\n上周有位 V 友的父亲在老家检查出脑血管堵塞，需要到天坛医院做 DSA 检查。他在外地出差走不开，通过我们的服务：\n提前得知天坛医院停车、住宿信息\n陪诊人员提前到院，全程协助挂号、问诊\n及时同步检查结果，约到了下一次手术时间\n病人家属反馈非常满意\n服务内容\n半天/全天陪诊服务\n代办服务（取报告、取药等）\n预约挂号服务\n跑腿服务\n24 小时在线咨询\n如何联系我们？\n北京陪诊服务中心网址： https://beijingpeizhen.com/\n欢迎体验使用，也欢迎分享给可能需要的人（ V 友需要陪诊服务可以享受折扣，请提前告知客服）。\n#北京陪诊 #陪诊服务 #三甲医院",
           "link": "https://www.v2ex.com/t/1109141",
           "publishedOn": "2025-02-05T08:58:28.000Z",
-          "wordCount": 449,
+          "wordCount": 484,
           "title": "「北京陪诊」做了一个专业医院陪诊平台，分享给需要的人 - 北京陪诊服务中心",
           "imageUrl": null
         },
@@ -377,7 +350,7 @@
           "description": "yxmyxmyyy: 以前用小米的时候内置 114dns ，后来被喷改了后就没内置了，现在换一加又发现系统内置 114dns\n\n症状为，如果 dhcp 只有一个 dns ，那么系统会自动添加一个 114dns",
           "link": "https://www.v2ex.com/t/1109140",
           "publishedOn": "2025-02-05T08:54:56.000Z",
-          "wordCount": 530,
+          "wordCount": 536,
           "title": "oppo 一加现在也内置 114dns 了",
           "imageUrl": null
         },
@@ -397,7 +370,7 @@
           "description": "Jaime668: \n上午接了个汇丰银行卓越理财的电话，这下可好，先是反炸机器人致电，过一会儿反炸人工致电，最后社区派出所上门亲切慰问，总结：感受到了我国公安系统对人民无微不至的关怀。",
           "link": "https://www.v2ex.com/t/1109138",
           "publishedOn": "2025-02-05T08:51:02.000Z",
-          "wordCount": 546,
+          "wordCount": 564,
           "title": "接了个 HK 汇丰银行电话之后",
           "imageUrl": null
         },
@@ -407,7 +380,7 @@
           "description": "OliverLee: \n年年被催，真的是心力交瘁了，找形婚靠谱不，怎么找形婚。",
           "link": "https://www.v2ex.com/t/1109137",
           "publishedOn": "2025-02-05T08:48:30.000Z",
-          "wordCount": 501,
+          "wordCount": 518,
           "title": "通讯录被催婚怎么破",
           "imageUrl": null
         },
@@ -447,7 +420,7 @@
           "description": "dnzh1wei: \n如题，过年双方见了父母，做媒的长辈噼啪一通讲，好像要准备结婚了，想听听各位的爱情故事。",
           "link": "https://www.v2ex.com/t/1109133",
           "publishedOn": "2025-02-05T08:36:12.000Z",
-          "wordCount": 567,
+          "wordCount": 576,
           "title": "从哪一刻开始，你想和 TA 结婚",
           "imageUrl": null
         },
@@ -527,7 +500,7 @@
           "description": "chunqicoder: \n如题，产品经理再拉说实在的也是带了经理俩字的，就是脱离了搬砖活了，今年的计划就是提升转职的成功率，明年计划开始转职\n1.备考软考高级信息系统项目管理师，这个一年有两次机会，我准备好考两次的打算了，5 月和 11 月\n2.备考 PMP ，这个我看很多相关职位都优先选择，所以打算考一个，主要是据我了解 PMP 成功率极高，不过要报培训班，这点我倒是能接受这是必要的支出\n3.学习产品经理和项目经理相关技术栈，这个就 b 站找找课",
           "link": "https://www.v2ex.com/t/1109124",
           "publishedOn": "2025-02-05T08:11:40.000Z",
-          "wordCount": 630,
+          "wordCount": 632,
           "title": "多年 Java 后端想转产品经理或者项目经理有没有路子？反正就是相进管理层但是自己编程能力一般干不了架构师只能想想其他办法 [狗头]，希望能得到大家的建议",
           "imageUrl": null
         },
@@ -557,7 +530,7 @@
           "description": "zhonghanwen: \n大家新年好,\n作为一个 30 多岁的男性,最近越发感觉头发稀疏的问题在加重。以前就有些脱发,但现在情况更糟了 - 每天梳头掉一大把,洗头时掉的更多,头顶和发际线的情况也在恶化。\n照镜子的时候特别明显,头顶已经能隐约看到头皮了,发际线和太阳穴位置也在慢慢\"扩大\"。之前买过米诺地尔,用了一段时间,但是没有坚持下来。现在感觉情况越来越严重,应该是雄激素性脱发(雄脱)在继续发展。看着镜子里的自己,感觉比实际年龄老了好几岁,心情很低落。\n想问问遇到类似情况的朋友们:\n有人在坚持使用米诺地尔吗?效果如何?\n除了米诺地尔,还有什么行之有效的治疗方法吗?\n特别想知道有没有朋友能坚持使用米诺地尔,想听听你们的使用感受。",
           "link": "https://www.v2ex.com/t/1109120",
           "publishedOn": "2025-02-05T08:01:23.000Z",
-          "wordCount": 723,
+          "wordCount": 740,
           "title": "30 多岁男生,头发越来越稀疏了,雄脱真是太痛苦了...",
           "imageUrl": null
         },
@@ -567,7 +540,7 @@
           "description": "yexiaoqiu358: \n99 年大专、目前 20k ，想着年初看看机会，有机会吗？\n5 年前端，目前技术栈：react 、小程序、taro 、next 、midway 、electron 、docker 、nginx 都比较熟悉，有做过不少项目包括前后端一起搞的，独立开发并发布过 chrome 、vscode 、idea 插件，AI 方面也有一定研究\n个人开发过 AI 应用，公司里面有负责对接过大模型、tts 、stt 和 数字人\n就是学历太差了，要求不高，能平薪，全额公积金、有年终奖就行。现在就是固定 12 薪，公积金最低、没有年终奖\n杭州还有希望吗？",
           "link": "https://www.v2ex.com/t/1109119",
           "publishedOn": "2025-02-05T08:00:07.000Z",
-          "wordCount": 439,
+          "wordCount": 451,
           "title": "现在杭州前端行情怎么样，年初时候能换吗？",
           "imageUrl": null
         },
@@ -597,7 +570,7 @@
           "description": "Climile: \n求一个可以在线使用 ComfyUI 服务的平台，期望可以，按需收费，使用频率较低",
           "link": "https://www.v2ex.com/t/1109113",
           "publishedOn": "2025-02-05T07:52:30.000Z",
-          "wordCount": 389,
+          "wordCount": 391,
           "title": "求一个可以在线使用 ComfyUI 服务的平台",
           "imageUrl": null
         },
@@ -617,7 +590,7 @@
           "description": "stimw: \n前段时间应该是做了个大更新，UI 是好看了点，但体验是真一坨，打开需要等三秒。\nhttps://github.com/bitwarden/clients/issues/12286\nhttps://issues.chromium.org/issues/383343320\n看了相关 issue ，似乎是 chrome 的问题，解决方法是删除扩展然后重新添加。",
           "link": "https://www.v2ex.com/t/1109110",
           "publishedOn": "2025-02-05T07:42:31.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "如果你的 bitwarden 浏览器扩展很卡",
           "imageUrl": null
         },
@@ -657,7 +630,7 @@
           "description": "Philosophy6: \n求教老哥前辈们\n大家当时结婚都是怎么搞定的？过年回去就被催婚，年纪也快 30 岁了，没有合适的结婚对象。自己买了房子还一身负债，家里根本帮不上你，只会一个劲的催你。我都不知道咋结婚，都不知道自己什么时候能结婚，不排斥结婚可是现实情况根本结不了婚。\n老家：河南\n工作地：上海\n现状：工作以后才发现有个合适的结婚对象真的好难。",
           "link": "https://www.v2ex.com/t/1109106",
           "publishedOn": "2025-02-05T07:39:01.000Z",
-          "wordCount": 673,
+          "wordCount": 680,
           "title": "关于结婚，真的好难",
           "imageUrl": null
         },
@@ -667,7 +640,7 @@
           "description": "HK560: \n坐标广州，想在新国标前买个电动自行车，最近看上一个深远 gt1 2.0 ，结果问老板说这车很难上牌，不加电池都基本超重了，要上牌得拆零件换零件上完之后再装回来。。。\n实在是想吐槽一下这电自国标，门槛高又起不到什么作用保障。。。反正上完牌一样也是改装",
           "link": "https://www.v2ex.com/t/1109103",
           "publishedOn": "2025-02-05T07:35:37.000Z",
-          "wordCount": 479,
+          "wordCount": 518,
           "title": "想买个电自通勤，结果发现有些车裸车车架都已经超重 55kg 上不了牌！",
           "imageUrl": null
         },
@@ -687,7 +660,7 @@
           "description": "coffeeing: \n年后就要开始忙手头的项目，大上海找技术合伙人不容易，WebGL ，Three.js ，前端，设计，每一块如果都自己来，实在有心无力，还是做好自己的游戏运营策划老本行，过年期间体验了几款独立游戏，都挺不错的，画风，玩法，都用心在做，希望 2025 大家都能心想事成。\n有在徐汇的可以约着聊聊，砥砺前行，互勉。",
           "link": "https://www.v2ex.com/t/1109100",
           "publishedOn": "2025-02-05T07:27:31.000Z",
-          "wordCount": 394,
+          "wordCount": 400,
           "title": "谈谈创业做游戏这回事",
           "imageUrl": null
         },
