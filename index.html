@@ -77,6 +77,386 @@ Baseline Status in a WordPress Block originally published on CSS-Tricks, which i
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109204"
+                        open
+                      >
+                        <summary class="article-expander__title">分享一个独立开发者开发国际化项目提效的思路</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109204">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>hamsterbase: 分享一下我所有项目都在用的工作流
+1. 以源码作为唯一的 i18n 配置源
+代码里所有的文案都是 localize(&#x27;key&#x27;,&#x27;Default Message&#x27;) 这种格式
+key 没有专门规范，想到什么用什么
+
+2. 使用脚本解析 ast ，自动生成默认的 en-US.json 和 (zh-CN.json ....)
+  &quot;highlight.action.EditNote&quot;: {
+    &quot;defaultMessage&quot;: &quot;Edit Note&quot;,
+    &quot;content&quot;: &quot;Edit Note&quot;
+  },
+
+  &quot;highlight.action.EditNote&quot;: {
+    &quot;defaultMessage&quot;: &quot;Edit Note&quot;,
+    &quot;content&quot;: &quot;&quot;
+  },
+
+未翻译的为空白字符串。
+
+3. 编写脚本，把所有未翻译的 json 都拆出来。 提交给 ai ，把所有 content :&#x27;&#x27; 为空的都翻译好
+
+
+按照这个思路，在开发的时候完全不需要管翻译，只需要无脑写代码就行了。
+在发布之前，跑一下脚本，就可以自动翻译好整个项目。
+
+
+我写了一个 vscode 插件给自己用，感兴趣的可以下载 
+https://marketplace.visualstudio.com/items?itemName&#x3D;hamsterbase.i18nease
+
+插件本书完全离线，自行配置 openai 的 key 就可以使用。
+
+如果是希望参考脚本， 我之前给一个 10000 多 star 多项目提了 PR 。 感兴趣可以参考
+https://github.com/caprover/caprover-frontend/blob/master/scripts/generate-locales.mjs</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109203"
+                        open
+                      >
+                        <summary class="article-expander__title">PPT / 规划 / 总结 / 汇报能力如何提升？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109203">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bugmakerxs: 人到中年面临角色转变，我感觉我做了很多东西但是给+2 汇报人家感觉体现不出我的价值。。那么有什么方法论 / 课程 能够提升自己的这些能力呢？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109202"
+                        open
+                      >
+                        <summary class="article-expander__title">考研考杭州电子科技大学怕考不上，可以考浙工大或者浙理工吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109202">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wang5635099: 这两个是双非，但是在杭州，竞争的激烈程度应该没有杭电大，但是不是 211 ，好考吗？然后考双非的研究生有意义吗？求指导</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109200"
+                        open
+                      >
+                        <summary class="article-expander__title">迁移网站到 nextjs 了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109200">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>thedog: 
+之前 blog 一直用的是 typecho + pinghsu 主题，并且部署在自己家里的 NAS 上。说实话，体验挺好的。主题简洁大方，typecho 用作 blog 管理也很方便，后台逻辑清晰易用。但是用到现在还是发现了三个问题：
+家里发生了几次断电、断网事件，虽然很快就恢复了，但是也导致了网站服务中断了一段时间。
+在 SEO 上似乎不太友好
+我想学一点前端了
+So ，趁着春节假期，在 ChatGPT 的帮助下，用 nextjs + typescript + tailwind 写了一个静态网站，可以直接部署在 vercel 上。新的网站可以说是  pinghsu 的不完美复刻。目测还没实现的功能有：
+ 搜索
+ 评论
+ 文章无配图时自动获取配图
+ 单栏页面视图
+ 文章后的版权声明
+等。
+但是也有一些新的优点：
+ 现在是静态网站了，部署成本变低了
+ 因为是纯静态网站，所以访问速度似乎变快了一点
+ SEO 友好
+ 支持流程图（似乎我也不怎么在 blog 里使用流程图）
+不多说了，放上 项目地址 ，代码比较乱，还请大佬们多多提意见呐。
+顺便交换一波友链：
+网站：栖木的网络日志
+地址: https://thedoga.tech
+网站说明：要像树一样，树只会向上生长
+最后问个 SEO 的问题，我的 blog 一直没有被 google 索引，给的判定是「已抓取 - 尚未编入索引」，这个是说我的页面质量低吗？这个能怎么解决啊？虽然 blog 内容不多，但都是自己认真写的啊。。。难受。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109199"
+                        open
+                      >
+                        <summary class="article-expander__title">iOS 代理工具哪个最省电呢？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109199">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>revival83: 我现在用小火箭，就普通规则使用，也没开复写什么高级功能，感觉刷刷掉电，太夸张了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109198"
+                        open
+                      >
+                        <summary class="article-expander__title">mac 端的日历同步到 iPhone 端后看不到附件</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109198">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>GaGaGood: 
+苹果的日历，在 mac 端创建后添加了附件，但是 iphone 端同步到的日历事件中没有附件。确定 mac 和 iphone 端的日历 app 都是可以添加附件的版本</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109197"
+                        open
+                      >
+                        <summary class="article-expander__title">珍爱生命，远离 qq 音乐</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109197">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xxsjk: 今天宽带被限速了，一查我舍友电脑天塌了，qq 音乐一个月跑了将近 10 个 t 的上行。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109196"
+                        open
+                      >
+                        <summary class="article-expander__title">结婚多年后发现，上交工资卡是最愚蠢的行为。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109196">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>TheWalkingDead: 
+结婚初期，主动上交工资卡，想的是体现男方责任心。
+现在想想，真的好愚蠢啊。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109192"
+                        open
+                      >
+                        <summary class="article-expander__title">准备 boss 直聘体验下地狱级面试难度纪念 35 岁</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109192">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>woniuppp: 体验下传说中的 35 岁前端面试</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109191"
+                        open
+                      >
+                        <summary class="article-expander__title">WiFi 连接解决方案 - 二维码极速联网</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109191">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>redreamality: 
+需求源于春节家中做客，Wifi 要一遍遍告知，于是自己写了个分享 WiFi 二维码联网的网站。生成的二维码直接打印出来贴着哈哈。也可以发到微信群
+核心痛点
+现代场景中的高频联网需求：
+🏡 家庭场景：亲友拜访时反复口述复杂密码的尴尬
+☕ 商业空间：咖啡厅/餐厅 WiFi/酒店 WiFi前台持续应对顾客的联网咨询
+🏢 企业场景：商务访客需要快速接入办公网络
+🎉 活动场景：展会/婚礼等大型活动中的群体性联网需求
+专业解决方案
+基于 WPA/WPA2 协议规范开发的二维码生成系统：
+三秒配置：SSID+密码即时生成符合 ISO 标准的连接二维码
+全平台兼容：支持 iOS/Android 系统原生相机扫码识别
+安全传输：前端本地生成，敏感信息零服务器传输
+打印方便：可以直接打印相关信息，所有格式/排版都已经优化好。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109190"
+                        open
+                      >
+                        <summary class="article-expander__title">[问与答] 被裁员后，我在考虑做一个 AI 面试助手，有需求吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109190">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Odyssey98: 
+Hi ，V 友们好！
+前段时间被裁员了，作为一名深圳开发者，正在考虑做一个基于 DeepSeek AI 的面试助手，想先和大家讨论下需求。
+
+🎯 计划中的功能
+📝 AI 简历分析
+让 AI 分析简历优劣
+给出改进建议
+预测可能的面试问题
+🤖 面试模拟
+根据简历生成个性化面试题
+实时语音/文字对话
+AI 评分和反馈
+💰 薪资参考
+分析市场行情
+结合个人情况给建议
+谈判话术指导
+🤔 我的思考
+目前市面上的面试模拟工具：
+要么是固定的题库
+要么是通用的 ChatGPT
+缺少针对性和专业性
+计划使用 DeepSeek AI：
+更懂中文语境
+专业性更强
+API 更实惠
+❓ 想请教大家
+你觉得这个工具有用吗？
+最需要哪些具体功能？
+愿意为这样的工具付费吗？
+有什么建议和想法？
+目前正在找工作，也在考虑要不要全职来做这个项目。
+如果大家觉得有价值，我就认真做一下。
+欢迎各位 V 友提建议，也欢迎有类似想法的朋友一起交流！
+#深圳 #求职 #面试 #AI</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109189"
+                        open
+                      >
+                        <summary class="article-expander__title">因项目延期不断焦虑，不安，应该怎么办？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109189">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AaronZero: 
+半年前，24 年年中入职国内某大厂。入职后就被分配了一个大的技术改造项目。大干了一个月，整出来了技术方案，然后评审完开始开工。 [此时大概是 8 月份了] 
+做了 1 个多月，突然 TL 跟我说，有另外一个遗留的技术改造项目，优先级更高，先去做那个项目（一个大半年前立项，技术方案已经弄好了，但是没有实施去做的项目。这次是因为相关方跑去大老板那里催，大老板过来给 TL 压力，所以突然把优先级提上来）。 [此时已经是 10 月份了] 
+为了赶这个突然插入的高优先级项目，原来做了一个月的项目只能先放着了。相关团队那边为了 okr 目标，各种明示暗示，希望能在年前完成（年底绩效讲故事）。然而此时距离年底只有 2 个月了。
+也行吧，各种熬夜，基本上连续一个月没有上网冲浪，就是赶这个项目，希望能在年底前做完上线。然而事与愿违，一方面日常业务需求一直不断需要接，分散了很多精力；另一方面在做的过程中，不断发现有更多的细节需要实现，甚至有些东西当初的技术方案里没有评估到，具体做的过程中才不断被发现，需要额外的开发量。最终导致年底了项目也没能上线完成。
+目前处于极度焦虑的过程中，觉得自己 miss 了之前承诺的时间，感觉自己把自己的技术口碑搞坏了。
+现在一方面要努力把这个项目收尾，上线；另一方面又要马不停蹄面对原来刚入职时分配的那个项目，继续捡起来做，又是一个庞大的工程，也不知道后续做的时候会面对什么更多的坑。
+总的来说是觉得自己项目逾期了，很自责，内耗。但是感觉这种自责似乎不必要：同组另外一个同事，他手里也有一个技术改造项目，当初一开始说 8 月份能做完，最后到年底了也没完全做完，还在各种收尾。
+自己反思下来，可能在发现项目需要额外的开发量的时候，没有及时向上暴露风险，还是保持着原定的年底上线的排期（当时觉得自己多熬几个夜，吃下这部分额外的工作量就好了，不想错过年底承诺的时间）。最终导致现在非常被动吧，希望各位 v 友给给建议。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109188"
+                        open
+                      >
+                        <summary class="article-expander__title">父母都是农民，还没到 60，要补缴养老保险吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109188">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>yucn: rt ，想减轻以后的养老负担，有没有补缴过的给点意见？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1109187"
+                        open
+                      >
+                        <summary class="article-expander__title">2025 年 iOS 国区安装小火箭方式？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109187">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Eagleyes: 搜了一圈全是要使用外区 ID 的。
+不想使用外区 id ，包括商店（谢谢，不要劝）
+有什么“正常”方式安装？以前用助手直接导入 ipa 现在这个路子似乎不通了，网上也没有 ipa 包了。
+研究了一下似乎巨魔可以自签安装，无奈版本太高无法安装。
+真的没有“合理”安装火箭的方法了么？或者各路前辈给提供下替代软件也可以。不胜感激
+（电脑和 android 不受影响）</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.v2ex.com/t/1109185"
                         open
                       >
@@ -704,493 +1084,6 @@ watch 解绑还原重新连接、蓝牙断开重新连、各种重启。还是�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109154"
-                        open
-                      >
-                        <summary class="article-expander__title">我的网站第一天放谷歌广告，收入 5 美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109154">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>johnwilson: 
-去年做了个临时邮箱，过完年后，我立马就把谷歌广告加上了，审核了几天，今早上起来发现已经有收入了，万分惊喜。
-
-访问地址：临时邮箱
-访问地址：Temporary Mail</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109153"
-                        open
-                      >
-                        <summary class="article-expander__title">Swift 操作 plist 文件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109153">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>f1197199424: 如题：有没有 swift 大佬告知一下，MacOS 业内开发如果需要操作 plist 一般用什么库啊？
-我有一定的开发经验 但是无 IOS 或者 MacOS 开发经验。
-我尝试使用 PropertyListSerialization 来操作，他是系统内置，不需要引入额外的开发包。但是带来的问题也就很麻烦。比如我通过命令行执行：
-&#x60;&#x60;&#x60;
-/usr/libexec/PlistBuddy -c &quot;Add :NowDays:1:Children:0:Checked dict&quot; xx.plist
-&#x60;&#x60;&#x60;
-就很方便，但是使用 PropertyListSerialization 就特别难受。
-所以请教下各位 IOS 或者 MacOS 大佬，有无类似的经验，给小弟一点启发或者参考。谢谢🙏。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109152"
-                        open
-                      >
-                        <summary class="article-expander__title">IT 码农，抬头没脖子怎么办（没下颚线）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109152">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>markyun02: 甚至还有点双下巴。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109151"
-                        open
-                      >
-                        <summary class="article-expander__title">LUKS 加密磁盘后的 vps 是不是就彻底安全了，求指教</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109151">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xingyue: 
-环境
-出于性价比考虑，购买了国内某家小型 IDC 的 VPS ，通过支付宝完成了实名认证流程。VPS 有 100G 的系统盘和 2T 的数据盘，宿主机采用 KVM 虚拟化。
-家里的宽带有公网 IP ，路由器将一个端口转发到家里的 NAS 设备，供 WireGuard 连接使用。
-本人从事前端开发，对后端知识了解有限。
-需求
-由于 IDC 运营方禁止机器与墙外互联，因此 VPS 通过 WireGuard 连接到家里，再使用 NAS 上的 Clash 局域网共享代理，从而可以访问 GitHub 等墙外开发资源。
-VPS 用于正常业务，作为个人练手学习 Golang 的环境，会有部分用户的音视频数据临时存储在数据盘上。
-安全处理
-VPS 通过 GRUB+VNC 重装了系统，使用官方 Debian 12 镜像，在图形化安装界面中选择了加密系统盘，密码为 14 位的强密码。
-安装完成后，又使用 LUKS 对数据盘进行加密，数据盘配置为自动解密挂载，密钥存放在 /root/luks.key 中。
-SSH 关闭了密码登录，仅允许密钥方式登录。
-安全疑虑
-由于机器是通过 “小作坊” 购买的，而且我的 WireGuard 配置文件可直接用于连接家里的设备，一旦数据被拷贝，后果不堪设想。因此我对安全性存有担忧。按照各家 AI 的说法，我现在的安全措施已经足够（除非 IDC 直接拷贝我的内存数据），但仍不敢完全相信 AI 的评估，故发帖求教。
-附件</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109150"
-                        open
-                      >
-                        <summary class="article-expander__title">含 300M+带宽、流量 50G+、月租 40，有没有这样的手机卡？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109150">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>pdone: 
-归属地河南 求推荐 最好能长期</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109149"
-                        open
-                      >
-                        <summary class="article-expander__title">next.js 如何正确向子组件传递数据？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109149">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>thedog: 目前通过 chatgpt 查询到向子组件传递数据有两种方式：
-1. 子组件自己走 api 调用获取数据
-2. 由父组件向子组件传递
-
-有一个子组件在所有页面都被使用到， 如果由父组件传递，就会产生很多重复的冗余代码。而走 api 调用会影响页面 seo 。想知道，有没有其他方式可以通过子组件直接获取数据？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109148"
-                        open
-                      >
-                        <summary class="article-expander__title">新一线城市开发区，在当地开一个智能家居整合商合适吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109148">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>dawenxi11: 如题，整合商意味着没有生产设计智能家居设备能力，也不只做单一品牌设备全屋智能方案。而是利用 ha ，hb 等中枢服务，将不同品牌设备联系起来，利用苹果家庭 app/homepod 或者米家 app/小爱等实现手机和语音控制。提供方案设计、设备采买、安装调试、售后维护一条龙服务。这样搞下来前期投入大概要多少？多久能回本？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109147"
-                        open
-                      >
-                        <summary class="article-expander__title">求推荐好用的长视频生成 AI 模型或平台</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109147">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wingor2015: 
-如题，最好能生成 3 分钟视频或以上</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109146"
-                        open
-                      >
-                        <summary class="article-expander__title">有可以在浏览器中运行小程序容器的方案吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109146">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MagicalCarl: 有一个需求是，用户在左侧修改小程序的配置，右侧实时展示小程序效果。小程序是微信小程序原生开发。几乎不需要复杂的 js 逻辑和小程序的生命周期，只需要样式随着配置变化即可。由于单个页面中引用了很多组件，没法直接复制到 html 中。
-由于一开始就是使用的原生开发，没有办法使用类似于 uniapp 的特性；我尝试过利用工具转换成 uniapp ，效果很不理想很多组件有问题。
-有没有成本最低的方法？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109145"
-                        open
-                      >
-                        <summary class="article-expander__title">AI 编程有推荐的工具?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109145">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>jsjcjsjc: 只是写写小脚本,最好是使用自己的 API key 而不是只能用内置的收费服务.
-有推荐的吗?
-感谢</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109144"
-                        open
-                      >
-                        <summary class="article-expander__title">如果两个模型互相蒸馏，最终是什么结果？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109144">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ysy950803: 
-最近有人说 DeepSeek 是蒸馏了 ChatGPT 的，以此来降低成本，有没有大模型领域的佬来解释下，业界内这种做法算常规吗？
-然后我突发奇想，如果两个模型互相蒸馏，反复进行，最终它们会变成一个模型吗？比如说回答的内容会变成一模一样的。从技术上如何解释？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109143"
-                        open
-                      >
-                        <summary class="article-expander__title">求助，大模型分支选择如何写提示词才算优雅</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109143">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>dicc: 
-请结合上述聊天内容进行判断，尤其是注意用户最后说的话，下列选项仅选其一（序号不影响优先级，重要的是结合用户需求进行选择正确的处理）：
-0. 调用 cancel_callback() 方法取消上一次的操作（如果用户最后有取消的意思，优先考虑这个）
-1. 直接根据对话内容回答用户的问题，回答时需要简洁，要模拟人进行答复
-2. 调用 send_msg_later(user: str, msg: str, at: str&#x3D;&#x27;2024-01-14 10:00:00&#x27;) 方法
-3. 调用 send_email_later(user: str, msg: str, at: str&#x3D;&#x27;2024-01-14 10:00:00&#x27;) 方法
-4. 调用 XXXXXXXXXXXX
-5. 调用 XXXXXXXXXXXX
-6. 调用 XXXXXXXXXXXX
-7. 调用 billing_recieve_plan(user&#x3D;current_user) 方法,查询账单收款计划(固定调用，不要修改参数)
-如果是调用方法，请按如下类似格式给出(用***包裹)，时间类的参数注意时间格式：
-***
-send_msg_later(&quot;xx&quot;, &quot;call me&quot;, &quot;2024-01-22 15:00:00&quot;)
-***
-注意，消息转达类的需要结合当前发信人将消息进行处理
-注意，如果是直接回答（第 1 点），如果用户是进行一些我们不支持的指令设置，或者是对于我们的结果的一个回复确认（比如用户说“好的”，或者一些比较常见的无关紧要的回复），则只需要返回“好的”/“嗯嗯”/“收到”/“不清楚哦”就行了（根据语境），别乱说一些人类会觉得很突兀的话。
-注意，如果你能很明确用户的需求是调用方法，才返回方法调用所需的内容，如果用户需求不满足，直接回复&quot;还未支持此功能&quot;。
-
-如上，私密部分已打码，请问这种如何？有更好的推荐吗</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109142"
-                        open
-                      >
-                        <summary class="article-expander__title">新年快乐,过年见闻分享讨论</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109142">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>csfreshman: 
-过年期间发现几个有意思的现象，不知道各位是否存在类似感受？
-1.发红包的人少了，相比往年，直线下滑，以前同事群 吹水群 family 群各种发红包
-2.微信、短信拜年的少了，连房产中介都不怎么发了
-3.今年放了不少烟花，除夕夜村子里断断续续没停过，也没人管</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109141"
-                        open
-                      >
-                        <summary class="article-expander__title">「北京陪诊」做了一个专业医院陪诊平台，分享给需要的人 - 北京陪诊服务中心</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109141">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>littleworm: 
-大家好，最近我们开发上线了一个专业的医院陪诊服务平台：北京陪诊服务中心 (beijingpeizhen.com)。欢迎体验。
-为什么要做这个平台？
-北京汇集了全国顶级的医疗资源，各知名综合医院和专科医院，协和、阜外、儿童医院、积水潭、宣武、天坛等知名医院都位于北京核心区、二三环内。
-全国人民看病都想往北京跑。但想着在北京看病不容易，看过的人都知道。一点也不夸张，北京的医院尤其三甲医院挤满了全国各地的人，人多，等待时间长，拍一个片子可能要等两周甚至几个月时间（比如宣武医院神经内科要等 2/3 个月左右才能排上），很多人因为工作繁忙无暇陪同父母就医，或是对医院环境不熟悉导致耽误很多时间。在协和医院，我曾看到外地来的老人排队半个多小时后发现排错了队。这些经历促使我们开发这个平台。
-我们的优势
-覆盖协和、301 、天坛等 30+家三甲医院
-位于北京北二环，平均 30 分钟内可到各大医院
-提供陪诊（半天、全天）、代办跑腿、取药等一站式服务
-24 小时响应服务需求
-适合哪些人使用？
-外地需要来京就医的人
-因为工作太忙，没时间陪父母看病的北京人
-不熟悉医院环境的外地患者
-需要专业陪护的老年人
-来华就医的外籍人士
-真实案例分享
-上周有位 V 友的父亲在老家检查出脑血管堵塞，需要到天坛医院做 DSA 检查。他在外地出差走不开，通过我们的服务：
-提前得知天坛医院停车、住宿信息
-陪诊人员提前到院，全程协助挂号、问诊
-及时同步检查结果，约到了下一次手术时间
-病人家属反馈非常满意
-服务内容
-半天/全天陪诊服务
-代办服务（取报告、取药等）
-预约挂号服务
-跑腿服务
-24 小时在线咨询
-如何联系我们？
-北京陪诊服务中心网址： https://beijingpeizhen.com/
-欢迎体验使用，也欢迎分享给可能需要的人（ V 友需要陪诊服务可以享受折扣，请提前告知客服）。
-#北京陪诊 #陪诊服务 #三甲医院</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109140"
-                        open
-                      >
-                        <summary class="article-expander__title">oppo 一加现在也内置 114dns 了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109140">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>yxmyxmyyy: 以前用小米的时候内置 114dns ，后来被喷改了后就没内置了，现在换一加又发现系统内置 114dns
-
-症状为，如果 dhcp 只有一个 dns ，那么系统会自动添加一个 114dns</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109139"
-                        open
-                      >
-                        <summary class="article-expander__title">[多图预警] 分享一下春节前后拍的照片</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109139">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>klo424: 
-拍照已经成为我的爱好，希望把这份乐趣也传递给各位看官！
-欢迎大家用照片铺楼。
-正片开始：
-1.想你的风吹到了北陵公园。
-
-2.北陵公园正门。
-
-3.孩子们在打雪仗。
-
-4.偶遇四只小鸭子。
-
-5.内墙大门口略显破败的石狮子。
-
-6.城墙两壁间窥得一隅。
-
-7.侧方看城墙。
-
-8.暖暖阳阳祝您春节快乐！
-
-9.故宫外场亭子一角。
-
-10.俯瞰故宫全景。
-
-11.旧时代风格——沈阳。
-
-12.猜猜是什么吧？
-
-13.玩雪时拍了这张应景。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109138"
-                        open
-                      >
-                        <summary class="article-expander__title">接了个 HK 汇丰银行电话之后</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109138">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Jaime668: 
-上午接了个汇丰银行卓越理财的电话，这下可好，先是反炸机器人致电，过一会儿反炸人工致电，最后社区派出所上门亲切慰问，总结：感受到了我国公安系统对人民无微不至的关怀。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109137"
-                        open
-                      >
-                        <summary class="article-expander__title">通讯录被催婚怎么破</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109137">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>OliverLee: 
-年年被催，真的是心力交瘁了，找形婚靠谱不，怎么找形婚。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109136"
-                        open
-                      >
-                        <summary class="article-expander__title">求一个免费的德语翻译 APP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109136">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>LuckyPocketWatch: 
-主要用于德语和英语中某些单词的翻译，某德国人的英语实在有点差，经常遇到一些英语单词，我都用 APP 打出来了，他还是不认识，但他坚持是我的英语差。。。。
-一。免费，就用一个月，最多用到 3 月中旬，去年翻译用的德语助手，用着不错但试用期过了，想继续用但这玩意老贵了，家境贫寒，实在舍不得为了这一个多月的时间花钱
-二。要有智能输入，比如德文有几个字母，是英语里面没有的。比如德文“tschüss”，我希望我输入“tschuss”，APP 能自动识别出来
-三。IOS 商城里有的</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -1234,80 +1127,6 @@ send_msg_later(&quot;xx&quot;, &quot;call me&quot;, &quot;2024-01-22 15:00:00&qu
                               <span>Are partials the only thing keeping you writing CSS in Sass? With a little configuration, it&#x27;s possible to compile partial CSS files without a Sass dependency. Ryan Trimble has the details.
 Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-02 datetime="2025-02-02T16:28:11.000Z">2025-02-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-02 datetime="2025-02-02T16:28:11.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/notes/185"
-                        open
-                      >
-                        <summary class="article-expander__title">新年的路</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/notes/185">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
-
-许久没有写代码了，原因是最近自驾去了挺多地方。
-年前，去了海宁神仙湖。第一次上高速。
-:::gallery
-https://object.innei.in/bed/2025/0202_1738511753954.jpeg
-https://object.innei.in/bed/2025/0202_1738511757142.jpeg
-:::
-冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
-然后去了南北湖。比较一般。没咋拍。
-除夕前一晚，去了巧克力小镇。也比较一般。
-除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
-
-同时，去了附近的景区，也是有很多老板按箱放烟花的。
-初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
-
-
-后面去了盐官。但是没看到潮水，刚好错过了。
-
-去了大风车。
-
-过年期间，不管是哪个有点名气的景点人都挺多的。
-上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
-提车两个月，已经跑了 2300km+。
-好久没有写代码了，还是感到非常的焦虑。
-
-看完了？说点什么呢</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1565,71 +1384,6 @@ https://www.dmit.io/aff.php?aff&#x3D;3439&amp;pid&#x3D;231
                               <span>After 20 years since Andy Clarke first published his book about Multi-Column Layout in CSS, he&#x27;s back to encourage a fresh look at CSS columns for enhanced readability and design flexibility.
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-26 datetime="2025-01-26T13:57:34.000Z">2025-01-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-26 datetime="2025-01-26T13:57:34.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >静かな森</button>
-                  <a class="source-heading__link" href="https://innei.in">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://innei.in/posts/tech/react-native-uikit-colors"
-                        open
-                      >
-                        <summary class="article-expander__title">React Native 实践：Colors</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://innei.in/posts/tech/react-native-uikit-colors">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://innei.in/home-og" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports &#x3D; function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      [&#x27;babel-preset-expo&#x27;, { jsxImportSource: &#x27;nativewind&#x27; }],
-      &#x27;nativewind/b…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2468,8 +2222,8 @@ BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺�
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13160450516">
-        <time id="build-timestamp" datetime="2025-02-05T15:11:28.845Z">2025-02-05T15:11:28.845Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13161693947">
+        <time id="build-timestamp" datetime="2025-02-05T16:13:30.222Z">2025-02-05T16:13:30.222Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
