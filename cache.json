@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -327,6 +321,46 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1109209",
+          "author": "jjshare",
+          "description": "jjshare: 家里的茶喝没了，拆了一包新疆大枣，煮了代茶，是真的不错。\n各种代茶的口感如下\n野菊花：苦味太重，比较难下咽\n柠檬：量少没味，量多太酸\n山楂：过酸\n枸杞：味道寡淡，几乎没啥味道\n枸杞芽茶：青叶味比较重，推测是炮制的问题，反正不好喝，下面条吃应该是不错的，或者做成枸杞芽炒鸡蛋，应该不错",
+          "link": "https://www.v2ex.com/t/1109209",
+          "publishedOn": "2025-02-05T17:43:11.000Z",
+          "wordCount": 351,
+          "title": "红枣泡水，口感真不错，甘甜，顺带小结一下不同花茶、代茶的口感",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109208",
+          "author": "mrmurong",
+          "description": "mrmurong: \n如题，如果想去国外工作，应该怎么 make it happen ？\n1.去哪找到相关职位？\n2.有什么前置条件？\n3.流程如何？",
+          "link": "https://www.v2ex.com/t/1109208",
+          "publishedOn": "2025-02-05T17:19:00.000Z",
+          "wordCount": 381,
+          "title": "想去国外工作，可以有哪些路子？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109206",
+          "author": "qinrui",
+          "description": "qinrui:",
+          "link": "https://www.v2ex.com/t/1109206",
+          "publishedOn": "2025-02-05T16:43:21.000Z",
+          "wordCount": 394,
+          "title": "想问下在腾讯年薪 200 万属于什么段位？比如要管多大的项目或者管多少人？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109205",
+          "author": "fecat",
+          "description": "fecat: \n重点“免费”&“稳定”。\n没错，就是既要又要哈哈。",
+          "link": "https://www.v2ex.com/t/1109205",
+          "publishedOn": "2025-02-05T15:25:09.000Z",
+          "wordCount": 405,
+          "title": "安卓系统有什么渠道/APP 长期免费看 CBA 篮球",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1109204",
           "author": "hamsterbase",
           "description": "hamsterbase: 分享一下我所有项目都在用的工作流\n1. 以源码作为唯一的 i18n 配置源\n代码里所有的文案都是 localize('key','Default Message') 这种格式\nkey 没有专门规范，想到什么用什么\n\n2. 使用脚本解析 ast ，自动生成默认的 en-US.json 和 (zh-CN.json ....)\n  \"highlight.action.EditNote\": {\n    \"defaultMessage\": \"Edit Note\",\n    \"content\": \"Edit Note\"\n  },\n\n  \"highlight.action.EditNote\": {\n    \"defaultMessage\": \"Edit Note\",\n    \"content\": \"\"\n  },\n\n未翻译的为空白字符串。\n\n3. 编写脚本，把所有未翻译的 json 都拆出来。 提交给 ai ，把所有 content :'' 为空的都翻译好\n\n\n按照这个思路，在开发的时候完全不需要管翻译，只需要无脑写代码就行了。\n在发布之前，跑一下脚本，就可以自动翻译好整个项目。\n\n\n我写了一个 vscode 插件给自己用，感兴趣的可以下载 \nhttps://marketplace.visualstudio.com/items?itemName=hamsterbase.i18nease\n\n插件本书完全离线，自行配置 openai 的 key 就可以使用。\n\n如果是希望参考脚本， 我之前给一个 10000 多 star 多项目提了 PR 。 感兴趣可以参考\nhttps://github.com/caprover/caprover-frontend/blob/master/scripts/generate-locales.mjs",
@@ -392,7 +426,7 @@
           "description": "xxsjk: 今天宽带被限速了，一查我舍友电脑天塌了，qq 音乐一个月跑了将近 10 个 t 的上行。",
           "link": "https://www.v2ex.com/t/1109197",
           "publishedOn": "2025-02-05T13:58:19.000Z",
-          "wordCount": 530,
+          "wordCount": 532,
           "title": "珍爱生命，远离 qq 音乐",
           "imageUrl": null
         },
@@ -402,7 +436,7 @@
           "description": "TheWalkingDead: \n结婚初期，主动上交工资卡，想的是体现男方责任心。\n现在想想，真的好愚蠢啊。",
           "link": "https://www.v2ex.com/t/1109196",
           "publishedOn": "2025-02-05T13:50:00.000Z",
-          "wordCount": 593,
+          "wordCount": 601,
           "title": "结婚多年后发现，上交工资卡是最愚蠢的行为。",
           "imageUrl": null
         },
@@ -412,7 +446,7 @@
           "description": "woniuppp: 体验下传说中的 35 岁前端面试",
           "link": "https://www.v2ex.com/t/1109192",
           "publishedOn": "2025-02-05T13:12:06.000Z",
-          "wordCount": 392,
+          "wordCount": 394,
           "title": "准备 boss 直聘体验下地狱级面试难度纪念 35 岁",
           "imageUrl": null
         },
@@ -457,16 +491,6 @@
           "imageUrl": null
         },
         {
-          "id": "https://www.v2ex.com/t/1109187",
-          "author": "Eagleyes",
-          "description": "Eagleyes: 搜了一圈全是要使用外区 ID 的。\n不想使用外区 id ，包括商店（谢谢，不要劝）\n有什么“正常”方式安装？以前用助手直接导入 ipa 现在这个路子似乎不通了，网上也没有 ipa 包了。\n研究了一下似乎巨魔可以自签安装，无奈版本太高无法安装。\n真的没有“合理”安装火箭的方法了么？或者各路前辈给提供下替代软件也可以。不胜感激\n（电脑和 android 不受影响）",
-          "link": "https://www.v2ex.com/t/1109187",
-          "publishedOn": "2025-02-05T12:24:03.000Z",
-          "wordCount": 115,
-          "title": "2025 年 iOS 国区安装小火箭方式？",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1109185",
           "author": "NianBroken",
           "description": "NianBroken: \n我目前在用招商银行 App 看金价，想问下还有没有其他的 App 推荐？",
@@ -482,7 +506,7 @@
           "description": "wonginoueu: 请教大家，想在京东自营买个 ipad mini7 ，不知道是否可以利用 vpn+海外 appleid 就可以使用完全体的 Apple Intelligence ？",
           "link": "https://www.v2ex.com/t/1109184",
           "publishedOn": "2025-02-05T11:48:06.000Z",
-          "wordCount": 474,
+          "wordCount": 478,
           "title": "关于国行 iPad 使用 apple intelligence？",
           "imageUrl": null
         },
@@ -502,7 +526,7 @@
           "description": "inkpan95: 是一个和 everything 一样的文件搜索 app 。\n鉴于 everthing 有点老旧，重新写了 UI 和后端。\n融入了 OCR 可以搜图里的文字。正在加入更多的搜索功能，以后能搜图里的内容。也能搜视频和音频。\n想做成 windows 上最好用的 launcher 。\n有没有老哥想试用这个 launcher 并且帮忙测试提 bug 的，可以留个邮箱。\n我给大家发内测安装包。",
           "link": "https://www.v2ex.com/t/1109181",
           "publishedOn": "2025-02-05T11:37:51.000Z",
-          "wordCount": 402,
+          "wordCount": 423,
           "title": "做了一个 windows 的搜索文件的 app，有没有老哥感兴趣帮忙内测的",
           "imageUrl": null
         },
@@ -674,46 +698,6 @@
           "publishedOn": "2025-02-05T10:06:58.000Z",
           "wordCount": 398,
           "title": "如果你的微信好友都是 AI 扮演，只有你是真人，好玩还是恐怖？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109158",
-          "author": "GaGaGood",
-          "description": "GaGaGood: \n表格图片（比如 excel 的截图）给 AI 分析汇总时，几乎必然出现错乱，有什么好的办法吗？比如有没有提示词可以指导 AI 正确的识别",
-          "link": "https://www.v2ex.com/t/1109158",
-          "publishedOn": "2025-02-05T10:05:51.000Z",
-          "wordCount": 342,
-          "title": "AI 解析表格图片总是错乱，有什么好的办法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109157",
-          "author": "sikuu2al",
-          "description": "sikuu2al: \n电池 100%",
-          "link": "https://www.v2ex.com/t/1109157",
-          "publishedOn": "2025-02-05T10:02:55.000Z",
-          "wordCount": 426,
-          "title": "1k 的全原美版刚过保 se3 64g 值吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109156",
-          "author": "drlee",
-          "description": "drlee: 家宽有动态公网 v4 ，小米做主路由拨号，群晖开启自带 DDNS ，虚拟机安装 openwrt 做旁路网关，并开启 ss sever:home\n手机配置 home 节点及家庭局域网网段分流策略 home ，实现外网访问内网服务\n手机代理始终开启，那么手机在内网环境访问内网服务有两个疑问：\n通过内网 ip+内网端口访问内网服务是直连还是 home 分流？分流策略下局域网速度是否受影响？\n通过域名+公网端口访问，是否需要在主路由或旁路网关配置域名映射，指定 DDNS 域名到群晖 ip\n我的考虑是会走 home 分流，需要做域名映射\n请大佬分析",
-          "link": "https://www.v2ex.com/t/1109156",
-          "publishedOn": "2025-02-05T10:01:18.000Z",
-          "wordCount": 503,
-          "title": "关于 ss 回家相关问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109155",
-          "author": "GeekGuru",
-          "description": "GeekGuru: \n定位广东，同事互相发一发，领导给的多，今年略有盈余。",
-          "link": "https://www.v2ex.com/t/1109155",
-          "publishedOn": "2025-02-05T09:59:56.000Z",
-          "wordCount": 369,
-          "title": "收了 1000 多开工红包，发了 700，图个开心",
           "imageUrl": null
         }
       ]
