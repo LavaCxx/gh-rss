@@ -191,6 +191,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -319,7 +346,7 @@
           "description": "wang5635099: 这两个是双非，但是在杭州，竞争的激烈程度应该没有杭电大，但是不是 211 ，好考吗？然后考双非的研究生有意义吗？求指导",
           "link": "https://www.v2ex.com/t/1109202",
           "publishedOn": "2025-02-05T14:40:01.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "考研考杭州电子科技大学怕考不上，可以考浙工大或者浙理工吗？",
           "imageUrl": null
         },
@@ -359,7 +386,7 @@
           "description": "xxsjk: 今天宽带被限速了，一查我舍友电脑天塌了，qq 音乐一个月跑了将近 10 个 t 的上行。",
           "link": "https://www.v2ex.com/t/1109197",
           "publishedOn": "2025-02-05T13:58:19.000Z",
-          "wordCount": 442,
+          "wordCount": 500,
           "title": "珍爱生命，远离 qq 音乐",
           "imageUrl": null
         },
@@ -369,7 +396,7 @@
           "description": "TheWalkingDead: \n结婚初期，主动上交工资卡，想的是体现男方责任心。\n现在想想，真的好愚蠢啊。",
           "link": "https://www.v2ex.com/t/1109196",
           "publishedOn": "2025-02-05T13:50:00.000Z",
-          "wordCount": 558,
+          "wordCount": 563,
           "title": "结婚多年后发现，上交工资卡是最愚蠢的行为。",
           "imageUrl": null
         },
@@ -379,7 +406,7 @@
           "description": "woniuppp: 体验下传说中的 35 岁前端面试",
           "link": "https://www.v2ex.com/t/1109192",
           "publishedOn": "2025-02-05T13:12:06.000Z",
-          "wordCount": 383,
+          "wordCount": 385,
           "title": "准备 boss 直聘体验下地狱级面试难度纪念 35 岁",
           "imageUrl": null
         },
@@ -399,7 +426,7 @@
           "description": "Odyssey98: \nHi ，V 友们好！\n前段时间被裁员了，作为一名深圳开发者，正在考虑做一个基于 DeepSeek AI 的面试助手，想先和大家讨论下需求。\n\n🎯 计划中的功能\n📝 AI 简历分析\n让 AI 分析简历优劣\n给出改进建议\n预测可能的面试问题\n🤖 面试模拟\n根据简历生成个性化面试题\n实时语音/文字对话\nAI 评分和反馈\n💰 薪资参考\n分析市场行情\n结合个人情况给建议\n谈判话术指导\n🤔 我的思考\n目前市面上的面试模拟工具：\n要么是固定的题库\n要么是通用的 ChatGPT\n缺少针对性和专业性\n计划使用 DeepSeek AI：\n更懂中文语境\n专业性更强\nAPI 更实惠\n❓ 想请教大家\n你觉得这个工具有用吗？\n最需要哪些具体功能？\n愿意为这样的工具付费吗？\n有什么建议和想法？\n目前正在找工作，也在考虑要不要全职来做这个项目。\n如果大家觉得有价值，我就认真做一下。\n欢迎各位 V 友提建议，也欢迎有类似想法的朋友一起交流！\n#深圳 #求职 #面试 #AI",
           "link": "https://www.v2ex.com/t/1109190",
           "publishedOn": "2025-02-05T13:00:41.000Z",
-          "wordCount": 465,
+          "wordCount": 467,
           "title": "[问与答] 被裁员后，我在考虑做一个 AI 面试助手，有需求吗？",
           "imageUrl": null
         },
@@ -439,7 +466,7 @@
           "description": "NianBroken: \n我目前在用招商银行 App 看金价，想问下还有没有其他的 App 推荐？",
           "link": "https://www.v2ex.com/t/1109185",
           "publishedOn": "2025-02-05T12:17:35.000Z",
-          "wordCount": 422,
+          "wordCount": 427,
           "title": "iOS 端有推荐的看黄金金价的软件吗？",
           "imageUrl": null
         },
@@ -449,7 +476,7 @@
           "description": "wonginoueu: 请教大家，想在京东自营买个 ipad mini7 ，不知道是否可以利用 vpn+海外 appleid 就可以使用完全体的 Apple Intelligence ？",
           "link": "https://www.v2ex.com/t/1109184",
           "publishedOn": "2025-02-05T11:48:06.000Z",
-          "wordCount": 422,
+          "wordCount": 430,
           "title": "关于国行 iPad 使用 apple intelligence？",
           "imageUrl": null
         },
@@ -469,7 +496,7 @@
           "description": "inkpan95: 是一个和 everything 一样的文件搜索 app 。\n鉴于 everthing 有点老旧，重新写了 UI 和后端。\n融入了 OCR 可以搜图里的文字。正在加入更多的搜索功能，以后能搜图里的内容。也能搜视频和音频。\n想做成 windows 上最好用的 launcher 。\n有没有老哥想试用这个 launcher 并且帮忙测试提 bug 的，可以留个邮箱。\n我给大家发内测安装包。",
           "link": "https://www.v2ex.com/t/1109181",
           "publishedOn": "2025-02-05T11:37:51.000Z",
-          "wordCount": 400,
+          "wordCount": 402,
           "title": "做了一个 windows 的搜索文件的 app，有没有老哥感兴趣帮忙内测的",
           "imageUrl": null
         },
@@ -489,7 +516,7 @@
           "description": "mackyuqi: \n如题，我二十多岁时都是干得不爽就辞职，到现在不敢轻举妄动了",
           "link": "https://www.v2ex.com/t/1109179",
           "publishedOn": "2025-02-05T11:19:43.000Z",
-          "wordCount": 470,
+          "wordCount": 475,
           "title": "想问问大家从多少岁就开始不敢轻易裸辞了",
           "imageUrl": null
         },
@@ -519,7 +546,7 @@
           "description": "ultraseven: 大概这个现象已经有 2-3 周了，似乎是 ntt/CLOUDFLARE 日本的回程绕路了，不知道什么原因造成。\n\n目标 IP: <a href=\"172.67.25.176\">172.67.25.176</a>\n1        192.168.1.1               0 ms           0 ms           0 ms        局域网        *               \n2        *********              4 ms           7 ms           8 ms        共享地址        *               \n3        *********           6 ms           6 ms          14 ms        局域网        *               \n4        210.13.116.94             5 ms           8 ms           8 ms        中国 上海 chinaunicom.com 联通        AS9929               \n5        210.13.116.89             5 ms           *              *           中国 上海 chinaunicom.com 联通        AS9929               \n6        218.105.2.173             5 ms           5 ms           6 ms        中国 上海 chinaunicom.com 联通        AS9929               \n7        218.105.2.202             6 ms           6 ms          10 ms        中国 上海 chinaunicom.com 联通        AS9929               \n8        129.250.8.152            37 ms          37 ms          43 ms        日本 东京都 东京 ntt.com        AS2914        xe-2-5-2-0.a03.tokyjp05.jp.bb.gin.ntt.net       \n9        *                         *              *              *                                  \n10        129.250.5.49             37 ms          46 ms          52 ms        日本 东京都 东京 ntt.com        AS2914        ae-7.a00.tokyjp09.jp.bb.gin.ntt.net       \n11        61.120.144.42           209 ms         209 ms         210 ms        日本 东京都 东京 ntt.com        AS2914               \n12        103.22.201.83           211 ms         211 ms         216 ms        日本 东京都 东京 cloudflare.com        AS13335               \n13        172.67.25.176           210 ms         210 ms         211 ms        CLOUDFLARE.COM cloudflare.com        AS13335",
           "link": "https://www.v2ex.com/t/1109176",
           "publishedOn": "2025-02-05T11:10:49.000Z",
-          "wordCount": 551,
+          "wordCount": 553,
           "title": "上海联通 9929 到日本 NTT 速度很拉跨",
           "imageUrl": null
         },
@@ -539,7 +566,7 @@
           "description": "ZeawinL: 事件的起因可能是因为一碗特别辣的麻辣猪肚鸡, 也有可能是不知名矿泉水(挂壁水一般来说应该没什么事).\n记得那晚忍着辣吃完那个猪肚鸡以后, 身体都有一阵刺激和麻麻的感觉流遍全身, 之后买了瓶酸奶喝也难以解辣.\n第二天中午吃了一份平常也点的姜葱鸡, 第一次感觉姜葱对我嘴唇有特别的刺激, 像是吃了特辣的辣椒一样, 嘴唇又红又胀, 像是动画片里吃了辣的主角. 晚上就和平日一样吃的麻辣烫. \n我听说熬夜特别伤身体, 所以 25 年来从没试过熬夜, 但是那天晚上背部真的是巨痒无比, 整晚都难以入睡(后来医生跟我说这种情况可以直接去急诊), 直到第二天早上才挂号去看的医生, 医生给我开了点药和打了针, 说过几天也要来.\n刚开始身体没什么特别的变化, 过了一两天整个身体除了脸都会显出明显的红色斑点, 密集程度堪比得了天花, 嘴唇和口腔里面也起泡泡. 在医院的一个老奶奶看了我都说我妈看我的话肯定很心疼... 但我当时精神还挺好, 以为只是医生诊断的简单的多型红斑而已, 应该打点药就好了. \n因为脚底也长泡, 拖鞋又有用来增加摩擦力的点点, 所以走起路来容易摩到脚底的水泡就会特别疼, 只能用脚底没有水泡的部位接触拖鞋底部走路, 所以那几天在来回医院的路上走的特别慢, 最后一天实在是忍不了疼痛直接打了路边的士去的医院.\n脚底长泡第二个难题是洗澡也困难, 还好得病是在夏天, 在广东城中村通常都是花洒淋浴, 如果要站着抬起一只脚单洗脚就不容易保持平衡, 容易摔倒, 所以我索性就拿个广东省省凳坐着洗澡了, 不得不说坐着洗澡是真的舒服, 虽然很奇怪就是了.\n那几天口腔内也长泡, 有点像嘴里长了很多的口腔溃疡, 所以吃东西也特别痛苦, 基本上是食物一碰到就疼, 所以那时也吃得少, 一天一两个三明治, 吃完就躺沙发睡, 一天差不多能睡 20h. \n因为城中村水质不是很好, 都是自己买的矿泉…",
           "link": "https://www.v2ex.com/t/1109171",
           "publishedOn": "2025-02-05T10:41:27.000Z",
-          "wordCount": 518,
+          "wordCount": 520,
           "title": "聊一聊患病住院的经历",
           "imageUrl": null
         },
@@ -549,7 +576,7 @@
           "description": "linora: \n发了年终，领导评价挺高！\n截止今日，贷款还完！ 0 负债！\n纪念一下！！！\n新的一年！愿各位越来越好！也希望我的公司业绩能够蒸蒸日上！\n蛇年大吉，巳巳如意！！！",
           "link": "https://www.v2ex.com/t/1109170",
           "publishedOn": "2025-02-05T10:36:41.000Z",
-          "wordCount": 525,
+          "wordCount": 534,
           "title": "0 负债了！纪念一下！",
           "imageUrl": null
         },
@@ -609,7 +636,7 @@
           "description": "emyself: \n主路由 ubnt UCG-MAX,unifiOS\n旁路由 Openwrt(虚拟机），旁路由的作用不言而喻\n主路由设置 DHCP ，IPV4 的网路设置中网关可以自定义到旁路，但是 IPv6 的的网络设置中，没有网关的设置选项，默认的网关是主路由，造成的结果就是 ipv6 访问是不正常的。有什么解决方案吗？\n我查了一下资料，这些设置在/run/dnsmasq.conf.d/下的 ipv6 的 conf 中，但是我不太知道如何去设置，以及设置后的风险，有了解的朋友吗？",
           "link": "https://www.v2ex.com/t/1109163",
           "publishedOn": "2025-02-05T10:11:35.000Z",
-          "wordCount": 460,
+          "wordCount": 505,
           "title": "unifiOS 下，如何在 ipv6 的网络设置中引入旁路网关的 ipv6 地址",
           "imageUrl": null
         },
@@ -619,7 +646,7 @@
           "description": "SunOfHomeBoy:",
           "link": "https://www.v2ex.com/t/1109162",
           "publishedOn": "2025-02-05T10:07:58.000Z",
-          "wordCount": 360,
+          "wordCount": 362,
           "title": "感觉 微信公众号、B 站等也都开始擦边了。这算是劣币驱逐良币么？",
           "imageUrl": null
         },
@@ -659,7 +686,7 @@
           "description": "sikuu2al: \n电池 100%",
           "link": "https://www.v2ex.com/t/1109157",
           "publishedOn": "2025-02-05T10:02:55.000Z",
-          "wordCount": 417,
+          "wordCount": 424,
           "title": "1k 的全原美版刚过保 se3 64g 值吗？",
           "imageUrl": null
         },
