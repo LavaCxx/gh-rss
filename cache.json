@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -326,7 +332,7 @@
           "description": "leeolsen: \n需要三年以上 DS 相关工作经验，要求英语听说读写流利，有电商背景及外企海外工作经历加分，可以在国内远程面试，通过后公司办理工签（累积 5 年可转英国永居），办公室在伦敦市中心（非远程工作，需要 onsite)。\n业务发展扩张中，团队氛围好，work life balance 不错，25 天带薪年假+8 天公共假期+20 天全薪病假，薪资有竞争力。\n满足要求且感兴趣的同学可以投简历至个人邮箱 joohnsmithuk@gmail.com ，我会简单筛选后分别沟通内推。",
           "link": "https://www.v2ex.com/t/1109213",
           "publishedOn": "2025-02-06T00:02:18.000Z",
-          "wordCount": 436,
+          "wordCount": 442,
           "title": "[英国伦敦]招 data scientist/senior data analyst, 提供工签",
           "imageUrl": null
         },
@@ -336,7 +342,7 @@
           "description": "LeeLou: \n用机房的三台 x86 pc 服务器自己组了一个 pve 集群,刚开始都用得好好的.\n有一台虚拟的 win2008r2, 突然不能 rdp 远程了,打开 console 看打不开 .直接重启了虚拟机,启动失败了.然后用 winpe 光盘启动进去看了一下硬盘, 发现好像 c 盘少了不少文件,难怪启动不了,难道是黑客上来把文件删了,感觉又不太可能.\n过了一段时间,一台 hfish 蜜罐服务端的 web 管理页面打不开了,但是 ssh 还能登录上去,看到有不少 zombie 进程,  但是 reboot 和 shutdown 都启动失败了.  就又去强制重启了一下,又进不去系统了.  难道又被黑了?\n想不明白怎么回事. 从 pve 界面上看,三台服务器运行了 200 来天,没有异常重启过.\n唯一有点类似的情况,是两台虚拟机都运行在 ceph 的磁盘上,三台服务器硬盘空间相差比较大,随意组了个 ceph,ceph 好像一直有 warning 的状态.",
           "link": "https://www.v2ex.com/t/1109212",
           "publishedOn": "2025-02-05T22:56:31.000Z",
-          "wordCount": 424,
+          "wordCount": 457,
           "title": "奇怪的 pve 故障",
           "imageUrl": null
         },
@@ -356,7 +362,7 @@
           "description": "GWesley: JSON 格式化网站我们大家应该每天都在用，而且网站相关网站非常多\n但是我日常工作中查看请求日志和 json data 字段时，经常会遇到下图这种多重嵌套的情况\n\n我找了一下常见的 json 格式化网站并没有能解决这个问题的，于是自己手搓了一个网站 https://nextjson.com\nJSON Formatter 相关的词现在竞争难度很大，比较难做\n下面分享一下这个网站上线后的一些数据，供大家参考\nBing\n\nGoogle\n\nGoogle 流量虽然比 Bing 多一些， 但是由于整体点击率差别很大\n点击数差别并不大，我猜测是 Bing 能够针对这个相对小众的需求，做更精准的推送\n如果大家日常编码，需要用到 json 格式化的工具\n可以试试我这个暂时无广告的小站 https://nextjson.com\n谢谢",
           "link": "https://www.v2ex.com/t/1109210",
           "publishedOn": "2025-02-05T21:48:14.000Z",
-          "wordCount": 456,
+          "wordCount": 510,
           "title": "JSON 格式化网站千千万，为何我又造了一个",
           "imageUrl": null
         },
@@ -366,7 +372,7 @@
           "description": "jjshare: 家里的茶喝没了，拆了一包新疆大枣，煮了代茶，是真的不错。\n各种代茶的口感如下\n野菊花：苦味太重，比较难下咽\n柠檬：量少没味，量多太酸\n山楂：过酸\n枸杞：味道寡淡，几乎没啥味道\n枸杞芽茶：青叶味比较重，推测是炮制的问题，反正不好喝，下面条吃应该是不错的，或者做成枸杞芽炒鸡蛋，应该不错",
           "link": "https://www.v2ex.com/t/1109209",
           "publishedOn": "2025-02-05T17:43:11.000Z",
-          "wordCount": 360,
+          "wordCount": 362,
           "title": "红枣泡水，口感真不错，甘甜，顺带小结一下不同花茶、代茶的口感",
           "imageUrl": null
         },
@@ -376,7 +382,7 @@
           "description": "mrmurong: \n如题，如果想去国外工作，应该怎么 make it happen ？\n1.去哪找到相关职位？\n2.有什么前置条件？\n3.流程如何？",
           "link": "https://www.v2ex.com/t/1109208",
           "publishedOn": "2025-02-05T17:19:00.000Z",
-          "wordCount": 395,
+          "wordCount": 419,
           "title": "想去国外工作，可以有哪些路子？",
           "imageUrl": null
         },
@@ -386,7 +392,7 @@
           "description": "qinrui:",
           "link": "https://www.v2ex.com/t/1109206",
           "publishedOn": "2025-02-05T16:43:21.000Z",
-          "wordCount": 387,
+          "wordCount": 389,
           "title": "想问下在腾讯年薪 200 万属于什么段位？比如要管多大的项目或者管多少人？",
           "imageUrl": null
         },
@@ -406,7 +412,7 @@
           "description": "hamsterbase: 分享一下我所有项目都在用的工作流\n1. 以源码作为唯一的 i18n 配置源\n代码里所有的文案都是 localize('key','Default Message') 这种格式\nkey 没有专门规范，想到什么用什么\n\n2. 使用脚本解析 ast ，自动生成默认的 en-US.json 和 (zh-CN.json ....)\n  \"highlight.action.EditNote\": {\n    \"defaultMessage\": \"Edit Note\",\n    \"content\": \"Edit Note\"\n  },\n\n  \"highlight.action.EditNote\": {\n    \"defaultMessage\": \"Edit Note\",\n    \"content\": \"\"\n  },\n\n未翻译的为空白字符串。\n\n3. 编写脚本，把所有未翻译的 json 都拆出来。 提交给 ai ，把所有 content :'' 为空的都翻译好\n\n\n按照这个思路，在开发的时候完全不需要管翻译，只需要无脑写代码就行了。\n在发布之前，跑一下脚本，就可以自动翻译好整个项目。\n\n\n我写了一个 vscode 插件给自己用，感兴趣的可以下载 \nhttps://marketplace.visualstudio.com/items?itemName=hamsterbase.i18nease\n\n插件本书完全离线，自行配置 openai 的 key 就可以使用。\n\n如果是希望参考脚本， 我之前给一个 10000 多 star 多项目提了 PR 。 感兴趣可以参考\nhttps://github.com/caprover/caprover-frontend/blob/master/scripts/generate-locales.mjs",
           "link": "https://www.v2ex.com/t/1109204",
           "publishedOn": "2025-02-05T14:53:55.000Z",
-          "wordCount": 420,
+          "wordCount": 427,
           "title": "分享一个独立开发者开发国际化项目提效的思路",
           "imageUrl": null
         },
@@ -416,7 +422,7 @@
           "description": "bugmakerxs: 人到中年面临角色转变，我感觉我做了很多东西但是给+2 汇报人家感觉体现不出我的价值。。那么有什么方法论 / 课程 能够提升自己的这些能力呢？",
           "link": "https://www.v2ex.com/t/1109203",
           "publishedOn": "2025-02-05T14:42:20.000Z",
-          "wordCount": 372,
+          "wordCount": 374,
           "title": "PPT / 规划 / 总结 / 汇报能力如何提升？",
           "imageUrl": null
         },
@@ -426,7 +432,7 @@
           "description": "wang5635099: 这两个是双非，但是在杭州，竞争的激烈程度应该没有杭电大，但是不是 211 ，好考吗？然后考双非的研究生有意义吗？求指导",
           "link": "https://www.v2ex.com/t/1109202",
           "publishedOn": "2025-02-05T14:40:01.000Z",
-          "wordCount": 504,
+          "wordCount": 519,
           "title": "考研考杭州电子科技大学怕考不上，可以考浙工大或者浙理工吗？",
           "imageUrl": null
         },
@@ -436,7 +442,7 @@
           "description": "thedog: \n之前 blog 一直用的是 typecho + pinghsu 主题，并且部署在自己家里的 NAS 上。说实话，体验挺好的。主题简洁大方，typecho 用作 blog 管理也很方便，后台逻辑清晰易用。但是用到现在还是发现了三个问题：\n家里发生了几次断电、断网事件，虽然很快就恢复了，但是也导致了网站服务中断了一段时间。\n在 SEO 上似乎不太友好\n我想学一点前端了\nSo ，趁着春节假期，在 ChatGPT 的帮助下，用 nextjs + typescript + tailwind 写了一个静态网站，可以直接部署在 vercel 上。新的网站可以说是  pinghsu 的不完美复刻。目测还没实现的功能有：\n 搜索\n 评论\n 文章无配图时自动获取配图\n 单栏页面视图\n 文章后的版权声明\n等。\n但是也有一些新的优点：\n 现在是静态网站了，部署成本变低了\n 因为是纯静态网站，所以访问速度似乎变快了一点\n SEO 友好\n 支持流程图（似乎我也不怎么在 blog 里使用流程图）\n不多说了，放上 项目地址 ，代码比较乱，还请大佬们多多提意见呐。\n顺便交换一波友链：\n网站：栖木的网络日志\n地址: https://thedoga.tech\n网站说明：要像树一样，树只会向上生长\n最后问个 SEO 的问题，我的 blog 一直没有被 google 索引，给的判定是「已抓取 - 尚未编入索引」，这个是说我的页面质量低吗？这个能怎么解决啊？虽然 blog 内容不多，但都是自己认真写的啊。。。难受。",
           "link": "https://www.v2ex.com/t/1109200",
           "publishedOn": "2025-02-05T14:17:14.000Z",
-          "wordCount": 419,
+          "wordCount": 446,
           "title": "迁移网站到 nextjs 了",
           "imageUrl": null
         },
@@ -446,7 +452,7 @@
           "description": "revival83: 我现在用小火箭，就普通规则使用，也没开复写什么高级功能，感觉刷刷掉电，太夸张了",
           "link": "https://www.v2ex.com/t/1109199",
           "publishedOn": "2025-02-05T14:02:48.000Z",
-          "wordCount": 412,
+          "wordCount": 418,
           "title": "iOS 代理工具哪个最省电呢？",
           "imageUrl": null
         },
@@ -456,7 +462,7 @@
           "description": "GaGaGood: \n苹果的日历，在 mac 端创建后添加了附件，但是 iphone 端同步到的日历事件中没有附件。确定 mac 和 iphone 端的日历 app 都是可以添加附件的版本",
           "link": "https://www.v2ex.com/t/1109198",
           "publishedOn": "2025-02-05T13:59:04.000Z",
-          "wordCount": 413,
+          "wordCount": 415,
           "title": "mac 端的日历同步到 iPhone 端后看不到附件",
           "imageUrl": null
         },
@@ -466,7 +472,7 @@
           "description": "xxsjk: 今天宽带被限速了，一查我舍友电脑天塌了，qq 音乐一个月跑了将近 10 个 t 的上行。",
           "link": "https://www.v2ex.com/t/1109197",
           "publishedOn": "2025-02-05T13:58:19.000Z",
-          "wordCount": 748,
+          "wordCount": 776,
           "title": "珍爱生命，远离 qq 音乐",
           "imageUrl": null
         },
@@ -476,7 +482,7 @@
           "description": "TheWalkingDead: \n结婚初期，主动上交工资卡，想的是体现男方责任心。\n现在想想，真的好愚蠢啊。",
           "link": "https://www.v2ex.com/t/1109196",
           "publishedOn": "2025-02-05T13:50:00.000Z",
-          "wordCount": 747,
+          "wordCount": 915,
           "title": "结婚多年后发现，上交工资卡是最愚蠢的行为。",
           "imageUrl": null
         },
@@ -486,7 +492,7 @@
           "description": "woniuppp: 体验下传说中的 35 岁前端面试",
           "link": "https://www.v2ex.com/t/1109192",
           "publishedOn": "2025-02-05T13:12:06.000Z",
-          "wordCount": 412,
+          "wordCount": 422,
           "title": "准备 boss 直聘体验下地狱级面试难度纪念 35 岁",
           "imageUrl": null
         },
@@ -496,7 +502,7 @@
           "description": "redreamality: \n需求源于春节家中做客，Wifi 要一遍遍告知，于是自己写了个分享 WiFi 二维码联网的网站。生成的二维码直接打印出来贴着哈哈。也可以发到微信群\n核心痛点\n现代场景中的高频联网需求：\n🏡 家庭场景：亲友拜访时反复口述复杂密码的尴尬\n☕ 商业空间：咖啡厅/餐厅 WiFi/酒店 WiFi前台持续应对顾客的联网咨询\n🏢 企业场景：商务访客需要快速接入办公网络\n🎉 活动场景：展会/婚礼等大型活动中的群体性联网需求\n专业解决方案\n基于 WPA/WPA2 协议规范开发的二维码生成系统：\n三秒配置：SSID+密码即时生成符合 ISO 标准的连接二维码\n全平台兼容：支持 iOS/Android 系统原生相机扫码识别\n安全传输：前端本地生成，敏感信息零服务器传输\n打印方便：可以直接打印相关信息，所有格式/排版都已经优化好。",
           "link": "https://www.v2ex.com/t/1109191",
           "publishedOn": "2025-02-05T13:06:56.000Z",
-          "wordCount": 431,
+          "wordCount": 435,
           "title": "WiFi 连接解决方案 - 二维码极速联网",
           "imageUrl": null
         },
@@ -506,7 +512,7 @@
           "description": "Odyssey98: \nHi ，V 友们好！\n前段时间被裁员了，作为一名深圳开发者，正在考虑做一个基于 DeepSeek AI 的面试助手，想先和大家讨论下需求。\n\n🎯 计划中的功能\n📝 AI 简历分析\n让 AI 分析简历优劣\n给出改进建议\n预测可能的面试问题\n🤖 面试模拟\n根据简历生成个性化面试题\n实时语音/文字对话\nAI 评分和反馈\n💰 薪资参考\n分析市场行情\n结合个人情况给建议\n谈判话术指导\n🤔 我的思考\n目前市面上的面试模拟工具：\n要么是固定的题库\n要么是通用的 ChatGPT\n缺少针对性和专业性\n计划使用 DeepSeek AI：\n更懂中文语境\n专业性更强\nAPI 更实惠\n❓ 想请教大家\n你觉得这个工具有用吗？\n最需要哪些具体功能？\n愿意为这样的工具付费吗？\n有什么建议和想法？\n目前正在找工作，也在考虑要不要全职来做这个项目。\n如果大家觉得有价值，我就认真做一下。\n欢迎各位 V 友提建议，也欢迎有类似想法的朋友一起交流！\n#深圳 #求职 #面试 #AI",
           "link": "https://www.v2ex.com/t/1109190",
           "publishedOn": "2025-02-05T13:00:41.000Z",
-          "wordCount": 513,
+          "wordCount": 521,
           "title": "[问与答] 被裁员后，我在考虑做一个 AI 面试助手，有需求吗？",
           "imageUrl": null
         },
@@ -516,7 +522,7 @@
           "description": "AaronZero: \n半年前，24 年年中入职国内某大厂。入职后就被分配了一个大的技术改造项目。大干了一个月，整出来了技术方案，然后评审完开始开工。 [此时大概是 8 月份了] \n做了 1 个多月，突然 TL 跟我说，有另外一个遗留的技术改造项目，优先级更高，先去做那个项目（一个大半年前立项，技术方案已经弄好了，但是没有实施去做的项目。这次是因为相关方跑去大老板那里催，大老板过来给 TL 压力，所以突然把优先级提上来）。 [此时已经是 10 月份了] \n为了赶这个突然插入的高优先级项目，原来做了一个月的项目只能先放着了。相关团队那边为了 okr 目标，各种明示暗示，希望能在年前完成（年底绩效讲故事）。然而此时距离年底只有 2 个月了。\n也行吧，各种熬夜，基本上连续一个月没有上网冲浪，就是赶这个项目，希望能在年底前做完上线。然而事与愿违，一方面日常业务需求一直不断需要接，分散了很多精力；另一方面在做的过程中，不断发现有更多的细节需要实现，甚至有些东西当初的技术方案里没有评估到，具体做的过程中才不断被发现，需要额外的开发量。最终导致年底了项目也没能上线完成。\n目前处于极度焦虑的过程中，觉得自己 miss 了之前承诺的时间，感觉自己把自己的技术口碑搞坏了。\n现在一方面要努力把这个项目收尾，上线；另一方面又要马不停蹄面对原来刚入职时分配的那个项目，继续捡起来做，又是一个庞大的工程，也不知道后续做的时候会面对什么更多的坑。\n总的来说是觉得自己项目逾期了，很自责，内耗。但是感觉这种自责似乎不必要：同组另外一个同事，他手里也有一个技术改造项目，当初一开始说 8 月份能做完，最后到年底了也没完全做完，还在各种收尾。\n自己反思下来，可能在发现项目需要额外的开发量的时候，没有及时向上暴露风险，还是保持着原定的年底上线的排期（当时觉得自己多熬几个夜，吃下这部分额外的工作量就好了，不想错过年底承诺的时间）。最终导致现在非常被动吧，希望各位 v 友给给建议。",
           "link": "https://www.v2ex.com/t/1109189",
           "publishedOn": "2025-02-05T12:30:31.000Z",
-          "wordCount": 452,
+          "wordCount": 454,
           "title": "因项目延期不断焦虑，不安，应该怎么办？",
           "imageUrl": null
         },
@@ -526,7 +532,7 @@
           "description": "yucn: rt ，想减轻以后的养老负担，有没有补缴过的给点意见？",
           "link": "https://www.v2ex.com/t/1109188",
           "publishedOn": "2025-02-05T12:25:58.000Z",
-          "wordCount": 467,
+          "wordCount": 488,
           "title": "父母都是农民，还没到 60，要补缴养老保险吗？",
           "imageUrl": null
         },
@@ -536,7 +542,7 @@
           "description": "NianBroken: \n我目前在用招商银行 App 看金价，想问下还有没有其他的 App 推荐？",
           "link": "https://www.v2ex.com/t/1109185",
           "publishedOn": "2025-02-05T12:17:35.000Z",
-          "wordCount": 434,
+          "wordCount": 436,
           "title": "iOS 端有推荐的看黄金金价的软件吗？",
           "imageUrl": null
         },
@@ -546,7 +552,7 @@
           "description": "wonginoueu: 请教大家，想在京东自营买个 ipad mini7 ，不知道是否可以利用 vpn+海外 appleid 就可以使用完全体的 Apple Intelligence ？",
           "link": "https://www.v2ex.com/t/1109184",
           "publishedOn": "2025-02-05T11:48:06.000Z",
-          "wordCount": 552,
+          "wordCount": 587,
           "title": "关于国行 iPad 使用 apple intelligence？",
           "imageUrl": null
         },
@@ -556,7 +562,7 @@
           "description": "wyoung: 网络环境如下：\nSite A：\nInterface 1：IPv4 内网 1 - 光猫 - Internet 。\nInterface 2：TR069 网段 （ IPv4 内网 2 ）。\nSite B：\nInterface：TR069 网段（ IPv4 内网 2 ）。可以 ping 通 Site A 的 Interface 2：TR069 网段 对应的 IP 。\n需要实现 Site B 多设备（有线+无线）访问 Internet 。\n预想的网络拓扑如下：\nSite B AP -  Site B 内网 - NAT - Site B Interface （ TR069 IP ） - Site A Interface 2 - Site A Interface 1 （ IPv4 内网 1 ）\n理想情况下，希望 Site B 内网和 Site A Interface 1 （ IPv4 内网 1 ）是同一个内网，这样通过 Site B 的 AP 即可以获取获到 Site A 的内网 1 IP ，实现 DHCP 上网。\n网上有看到使用 wireguard 组网，但是不确定 wireguard 能否实现我的需求，以及还需要用到哪些工具，用 Windows ，还是 OpenWRT 之类的（更希望使用 Windows ，有存在 2 个网口的 Windows 电脑）。希望能指点一二，非常感谢。",
           "link": "https://www.v2ex.com/t/1109183",
           "publishedOn": "2025-02-05T11:43:17.000Z",
-          "wordCount": 514,
+          "wordCount": 523,
           "title": "请教关于使用 TR069 连接组网，并实现 Internet 访问的实现",
           "imageUrl": null
         },
@@ -586,7 +592,7 @@
           "description": "mackyuqi: \n如题，我二十多岁时都是干得不爽就辞职，到现在不敢轻举妄动了",
           "link": "https://www.v2ex.com/t/1109179",
           "publishedOn": "2025-02-05T11:19:43.000Z",
-          "wordCount": 509,
+          "wordCount": 560,
           "title": "想问问大家从多少岁就开始不敢轻易裸辞了",
           "imageUrl": null
         },
@@ -596,7 +602,7 @@
           "description": "NianBroken: \n正常情况下不应该是抵买高卖吗？\n而根据近一年的金价走势图来看，目前的金价处于最高位。\n而一般情况下，都是会一会高一会低的。\n现在的金价正处于最高位，也就是意味着未来某一天他会跌下来，那么为什么现在还有那么多人购买呢？",
           "link": "https://www.v2ex.com/t/1109178",
           "publishedOn": "2025-02-05T11:13:28.000Z",
-          "wordCount": 381,
+          "wordCount": 383,
           "title": "现在的黄金金价处于高位，为什么还有那么多人购买？",
           "imageUrl": null
         },
@@ -616,7 +622,7 @@
           "description": "ultraseven: 大概这个现象已经有 2-3 周了，似乎是 ntt/CLOUDFLARE 日本的回程绕路了，不知道什么原因造成。\n\n目标 IP: <a href=\"172.67.25.176\">172.67.25.176</a>\n1        192.168.1.1               0 ms           0 ms           0 ms        局域网        *               \n2        *********              4 ms           7 ms           8 ms        共享地址        *               \n3        *********           6 ms           6 ms          14 ms        局域网        *               \n4        210.13.116.94             5 ms           8 ms           8 ms        中国 上海 chinaunicom.com 联通        AS9929               \n5        210.13.116.89             5 ms           *              *           中国 上海 chinaunicom.com 联通        AS9929               \n6        218.105.2.173             5 ms           5 ms           6 ms        中国 上海 chinaunicom.com 联通        AS9929               \n7        218.105.2.202             6 ms           6 ms          10 ms        中国 上海 chinaunicom.com 联通        AS9929               \n8        129.250.8.152            37 ms          37 ms          43 ms        日本 东京都 东京 ntt.com        AS2914        xe-2-5-2-0.a03.tokyjp05.jp.bb.gin.ntt.net       \n9        *                         *              *              *                                  \n10        129.250.5.49             37 ms          46 ms          52 ms        日本 东京都 东京 ntt.com        AS2914        ae-7.a00.tokyjp09.jp.bb.gin.ntt.net       \n11        61.120.144.42           209 ms         209 ms         210 ms        日本 东京都 东京 ntt.com        AS2914               \n12        103.22.201.83           211 ms         211 ms         216 ms        日本 东京都 东京 cloudflare.com        AS13335               \n13        172.67.25.176           210 ms         210 ms         211 ms        CLOUDFLARE.COM cloudflare.com        AS13335",
           "link": "https://www.v2ex.com/t/1109176",
           "publishedOn": "2025-02-05T11:10:49.000Z",
-          "wordCount": 736,
+          "wordCount": 791,
           "title": "上海联通 9929 到日本 NTT 速度很拉跨",
           "imageUrl": null
         },
@@ -646,7 +652,7 @@
           "description": "linora: \n发了年终，领导评价挺高！\n截止今日，贷款还完！ 0 负债！\n纪念一下！！！\n新的一年！愿各位越来越好！也希望我的公司业绩能够蒸蒸日上！\n蛇年大吉，巳巳如意！！！",
           "link": "https://www.v2ex.com/t/1109170",
           "publishedOn": "2025-02-05T10:36:41.000Z",
-          "wordCount": 774,
+          "wordCount": 938,
           "title": "0 负债了！纪念一下！",
           "imageUrl": null
         },
@@ -656,7 +662,7 @@
           "description": "18k: 最近 watch 和手机通讯不知道除了什么情况，出现几个个问题：\n①睡眠闹铃变成了手机响，手边不震了。\n②健康和三色环数据不能及时同步。\n③手机解锁同步解锁 watch 也不管用。还是要输入密码\n已经操作了：\nwatch 解绑还原重新连接、蓝牙断开重新连、各种重启。还是不行。\n网上各种搜索到的办法也都试了下。不管用。\n系统都是最新的 IOS18.3 和 11.3 ，请问有人遇到过吗。",
           "link": "https://www.v2ex.com/t/1109168",
           "publishedOn": "2025-02-05T10:34:44.000Z",
-          "wordCount": 389,
+          "wordCount": 409,
           "title": "watch 睡眠闹铃不响，健康数据和三色环数据不能及时同步",
           "imageUrl": null
         },
