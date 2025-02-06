@@ -321,7 +321,7 @@
           "description": "chinaguaiu: \n写了一篇在 x 鱼上卖二手的帖子，吐槽现在机器人很多，结果换了好几个节点都发不出去，v 站提示：请不要把和技术无关的敏感话题发到这里\n服了，我把想到的敏感词删了半天没什么用。我想发的这个主题有问题吗？",
           "link": "https://www.v2ex.com/t/1109471",
           "publishedOn": "2025-02-06T15:29:07.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "请问 v 站发帖现在是有话题限制吗？",
           "imageUrl": null
         },
@@ -331,7 +331,7 @@
           "description": "qazwsxkevin: \n先前写好的 config.yaml ，是正常运行的\n现在所在场所的宽带网络设备年后发生了变化（估计是宽带路由器的防火墙升级了）\n现在更新 providers 的 url 都不行，多数节点也连接不上\n\n请教，mihomo 的 config 是否有这种方式，mihomo 本身也通过 sock5 走出去？\n（这个 sock5 服务器，是不从这个宽带路由器出去的）\n看了 mihomo 的 doc 下面的 example.yaml ，好像不具备这种做法？\n还是要在 linux 系统本身上花功夫，装点什么的，让 mihomo 的进程的流量，全部走 sock5?",
           "link": "https://www.v2ex.com/t/1109470",
           "publishedOn": "2025-02-06T15:25:29.000Z",
-          "wordCount": 438,
+          "wordCount": 450,
           "title": "mihomo 是否存在这种配置（所有流量，先走一个 SOCK5）",
           "imageUrl": null
         },
@@ -371,7 +371,7 @@
           "description": "zisen: \nDLSS 有两个关键功能，一个是 AI 超分辨率，另一个是 AI 补帧。\n因此我对 DLSS 的看法就是，如果使用 4060 这种入门显卡，玩 4k 纯属找罪受，要么各种卡顿，要么画质还不如 2k ，也享受不到高刷。而使用 2k 显示器，可以同时享受到 DLSS 超分和补帧两个提升。因此在丝滑的 2k120 帧和卡顿 4k60 帧之间，毫无疑问选择 2k120 帧丝滑体验，还能发挥显卡的最大能力。因此如果你玩的游戏支持 DLSS ，那么一定要高刷显示器，这样补帧才有意义，4k30 帧补到 60 帧的体验远低于 2k60 帧补到 120 帧！\n已经下单了一款 2k180hz 的显示器替换我现在的 4k 显示器了，而且 ps5 玩游戏我也是开 60 帧性能模式，4k 根本用不上，除非是那种不吃性能的游戏。",
           "link": "https://www.v2ex.com/t/1109464",
           "publishedOn": "2025-02-06T14:56:20.000Z",
-          "wordCount": 448,
+          "wordCount": 460,
           "title": "分享一下我对 DLSS 的看法",
           "imageUrl": null
         },
@@ -521,7 +521,7 @@
           "description": "bensaka: \n哪位老哥知道 YouTube Analytics API 的 Queries per minute 和 Queries per day 要怎么提额吗？\n有偿\n有偿\n有偿\n帮助文档都翻烂了也找不到提额的入口，只能联系上 google cloud 的销售团队   头疼",
           "link": "https://www.v2ex.com/t/1109445",
           "publishedOn": "2025-02-06T12:05:28.000Z",
-          "wordCount": 459,
+          "wordCount": 467,
           "title": "YouTube Analytics API 的每日配额怎么申请提额？有偿",
           "imageUrl": null
         },
@@ -631,7 +631,7 @@
           "description": "sighforever: \n现在就在 AI 相关的行业里做应用层，感觉每一个项目落地都很难说真正完全的解决了用户的问题，只能说差不多在特定条件下有一定的效果。和以前的 IT 化项目或互联网传统项目比，效果上的程度差的很远。\n在互联网 C 端，除了编程相关的，几乎没有出圈的产品，其他的差不多都是原有的产品里面增加几个 AI 擅长方面的功能。\n而且和上游的大模型公司的同学也聊过，实际上至少国内的大模型 api ，并发量调用量很低的，和传统业务没法比。\n但是看行业的新闻和公司大佬，基本上都是一副过不了几年，所有工作都会由 AI 代替，所有人都去享受生活的样子。\n倒也不是说 AI 没用，大模型很好用，我也天天用，但就感觉很纠结，完全看不懂为啥现在是这样...",
           "link": "https://www.v2ex.com/t/1109429",
           "publishedOn": "2025-02-06T11:00:00.000Z",
-          "wordCount": 545,
+          "wordCount": 547,
           "title": "[AI] 为啥现在一边喊着 AI 代替人类，另一边各种场景 AI 落地却困难重重",
           "imageUrl": null
         },
@@ -671,7 +671,7 @@
           "description": "xtx: 记录仪视频： https://b23.tv/X6yk711\n各位看完视频可以先想想这哥们有几处违规行为。\n每天都要打开随申办瞅两眼，因为过年的原因，审核时间挺久的，现在过完年了，交警叔叔开始上班了，猛猛过，开年红包了属于是。\n举报了六项目前还有一个连续跨越双车道还在审核中，不知道六项都过这哥们要扣几分。\n随申办真好用！我爱说实话。",
           "link": "https://www.v2ex.com/t/1109425",
           "publishedOn": "2025-02-06T10:47:09.000Z",
-          "wordCount": 441,
+          "wordCount": 453,
           "title": "爽！年前遇到一辆马路当自家客厅的理想，直接给这哥们来了个大满贯套餐。",
           "imageUrl": null
         },
