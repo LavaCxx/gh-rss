@@ -62,7 +62,7 @@
           "description": "All of the things that the CSS Working Group would change if they had a time-traveling Delorean to go back and do things over.\nThe Mistakes of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/the-mistakes-of-css/",
           "publishedOn": "2025-01-30T14:31:08.000Z",
-          "wordCount": 2177,
+          "wordCount": 2176,
           "title": "The Mistakes of CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384089"
         },
@@ -197,33 +197,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -327,6 +300,46 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1109213",
+          "author": "leeolsen",
+          "description": "leeolsen: \n需要三年以上 DS 相关工作经验，要求英语听说读写流利，有电商背景及外企海外工作经历加分，可以在国内远程面试，通过后公司办理工签（累积 5 年可转英国永居），办公室在伦敦市中心（非远程工作，需要 onsite)。\n业务发展扩张中，团队氛围好，work life balance 不错，25 天带薪年假+8 天公共假期+20 天全薪病假，薪资有竞争力。\n满足要求且感兴趣的同学可以投简历至个人邮箱 joohnsmithuk@gmail.com ，我会简单筛选后分别沟通内推。",
+          "link": "https://www.v2ex.com/t/1109213",
+          "publishedOn": "2025-02-06T00:02:18.000Z",
+          "wordCount": 408,
+          "title": "[英国伦敦]招 data scientist/senior data analyst, 提供工签",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109212",
+          "author": "LeeLou",
+          "description": "LeeLou: \n用机房的三台 x86 pc 服务器自己组了一个 pve 集群,刚开始都用得好好的.\n有一台虚拟的 win2008r2, 突然不能 rdp 远程了,打开 console 看打不开 .直接重启了虚拟机,启动失败了.然后用 winpe 光盘启动进去看了一下硬盘, 发现好像 c 盘少了不少文件,难怪启动不了,难道是黑客上来把文件删了,感觉又不太可能.\n过了一段时间,一台 hfish 蜜罐服务端的 web 管理页面打不开了,但是 ssh 还能登录上去,看到有不少 zombie 进程,  但是 reboot 和 shutdown 都启动失败了.  就又去强制重启了一下,又进不去系统了.  难道又被黑了?\n想不明白怎么回事. 从 pve 界面上看,三台服务器运行了 200 来天,没有异常重启过.\n唯一有点类似的情况,是两台虚拟机都运行在 ceph 的磁盘上,三台服务器硬盘空间相差比较大,随意组了个 ceph,ceph 好像一直有 warning 的状态.",
+          "link": "https://www.v2ex.com/t/1109212",
+          "publishedOn": "2025-02-05T22:56:31.000Z",
+          "wordCount": 395,
+          "title": "奇怪的 pve 故障",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109211",
+          "author": "PowtainGen1",
+          "description": "PowtainGen1: \nARK Invest 发布《 2025 大想法》——你通向突破性技术的指南\n在新一轮前所未有的增长边缘，ARK Invest 的《 2025 大想法》照亮了今天五个技术创新平台之间复杂的交汇：人工智能、机器人技术、能源储存、公有区块链和多组学测序。这些平台应该推动各行业的指数级进步，并催化全球经济增长的根本变化。\n本年度报告中介绍了 11 个大想法，展示了当今发生的巨大变革。我们的研究表明，这些大想法有望显著提高生产力，彻底改变行业，并创造长期投资机会。\n加入我们，共同探讨创新的未来及其对投资者、企业和整个社会的深远影响。\n欢迎来到 ARK 的《 2025 大想法》\n=====\nhttps://web.powtain.com/pow/z9RFcw?1\n中文阅读请右上角切换语言",
+          "link": "https://www.v2ex.com/t/1109211",
+          "publishedOn": "2025-02-05T22:53:32.000Z",
+          "wordCount": 374,
+          "title": "ARK Invest（木头姐）的 2025 BIG IDEAS，欢迎阅读",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109210",
+          "author": "GWesley",
+          "description": "GWesley: JSON 格式化网站我们大家应该每天都在用，而且网站相关网站非常多\n但是我日常工作中查看请求日志和 json data 字段时，经常会遇到下图这种多重嵌套的情况\n\n我找了一下常见的 json 格式化网站并没有能解决这个问题的，于是自己手搓了一个网站 https://nextjson.com\nJSON Formatter 相关的词现在竞争难度很大，比较难做\n下面分享一下这个网站上线后的一些数据，供大家参考\nBing\n\nGoogle\n\nGoogle 流量虽然比 Bing 多一些， 但是由于整体点击率差别很大\n点击数差别并不大，我猜测是 Bing 能够针对这个相对小众的需求，做更精准的推送\n如果大家日常编码，需要用到 json 格式化的工具\n可以试试我这个暂时无广告的小站 https://nextjson.com\n谢谢",
+          "link": "https://www.v2ex.com/t/1109210",
+          "publishedOn": "2025-02-05T21:48:14.000Z",
+          "wordCount": 429,
+          "title": "JSON 格式化网站千千万，为何我又造了一个",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1109209",
           "author": "jjshare",
           "description": "jjshare: 家里的茶喝没了，拆了一包新疆大枣，煮了代茶，是真的不错。\n各种代茶的口感如下\n野菊花：苦味太重，比较难下咽\n柠檬：量少没味，量多太酸\n山楂：过酸\n枸杞：味道寡淡，几乎没啥味道\n枸杞芽茶：青叶味比较重，推测是炮制的问题，反正不好喝，下面条吃应该是不错的，或者做成枸杞芽炒鸡蛋，应该不错",
@@ -342,7 +355,7 @@
           "description": "mrmurong: \n如题，如果想去国外工作，应该怎么 make it happen ？\n1.去哪找到相关职位？\n2.有什么前置条件？\n3.流程如何？",
           "link": "https://www.v2ex.com/t/1109208",
           "publishedOn": "2025-02-05T17:19:00.000Z",
-          "wordCount": 381,
+          "wordCount": 388,
           "title": "想去国外工作，可以有哪些路子？",
           "imageUrl": null
         },
@@ -352,7 +365,7 @@
           "description": "qinrui:",
           "link": "https://www.v2ex.com/t/1109206",
           "publishedOn": "2025-02-05T16:43:21.000Z",
-          "wordCount": 394,
+          "wordCount": 379,
           "title": "想问下在腾讯年薪 200 万属于什么段位？比如要管多大的项目或者管多少人？",
           "imageUrl": null
         },
@@ -362,7 +375,7 @@
           "description": "fecat: \n重点“免费”&“稳定”。\n没错，就是既要又要哈哈。",
           "link": "https://www.v2ex.com/t/1109205",
           "publishedOn": "2025-02-05T15:25:09.000Z",
-          "wordCount": 405,
+          "wordCount": 413,
           "title": "安卓系统有什么渠道/APP 长期免费看 CBA 篮球",
           "imageUrl": null
         },
@@ -382,7 +395,7 @@
           "description": "bugmakerxs: 人到中年面临角色转变，我感觉我做了很多东西但是给+2 汇报人家感觉体现不出我的价值。。那么有什么方法论 / 课程 能够提升自己的这些能力呢？",
           "link": "https://www.v2ex.com/t/1109203",
           "publishedOn": "2025-02-05T14:42:20.000Z",
-          "wordCount": 380,
+          "wordCount": 365,
           "title": "PPT / 规划 / 总结 / 汇报能力如何提升？",
           "imageUrl": null
         },
@@ -392,7 +405,7 @@
           "description": "wang5635099: 这两个是双非，但是在杭州，竞争的激烈程度应该没有杭电大，但是不是 211 ，好考吗？然后考双非的研究生有意义吗？求指导",
           "link": "https://www.v2ex.com/t/1109202",
           "publishedOn": "2025-02-05T14:40:01.000Z",
-          "wordCount": 405,
+          "wordCount": 412,
           "title": "考研考杭州电子科技大学怕考不上，可以考浙工大或者浙理工吗？",
           "imageUrl": null
         },
@@ -412,7 +425,7 @@
           "description": "revival83: 我现在用小火箭，就普通规则使用，也没开复写什么高级功能，感觉刷刷掉电，太夸张了",
           "link": "https://www.v2ex.com/t/1109199",
           "publishedOn": "2025-02-05T14:02:48.000Z",
-          "wordCount": 371,
+          "wordCount": 377,
           "title": "iOS 代理工具哪个最省电呢？",
           "imageUrl": null
         },
@@ -422,7 +435,7 @@
           "description": "GaGaGood: \n苹果的日历，在 mac 端创建后添加了附件，但是 iphone 端同步到的日历事件中没有附件。确定 mac 和 iphone 端的日历 app 都是可以添加附件的版本",
           "link": "https://www.v2ex.com/t/1109198",
           "publishedOn": "2025-02-05T13:59:04.000Z",
-          "wordCount": 369,
+          "wordCount": 386,
           "title": "mac 端的日历同步到 iPhone 端后看不到附件",
           "imageUrl": null
         },
@@ -432,7 +445,7 @@
           "description": "xxsjk: 今天宽带被限速了，一查我舍友电脑天塌了，qq 音乐一个月跑了将近 10 个 t 的上行。",
           "link": "https://www.v2ex.com/t/1109197",
           "publishedOn": "2025-02-05T13:58:19.000Z",
-          "wordCount": 543,
+          "wordCount": 618,
           "title": "珍爱生命，远离 qq 音乐",
           "imageUrl": null
         },
@@ -442,7 +455,7 @@
           "description": "TheWalkingDead: \n结婚初期，主动上交工资卡，想的是体现男方责任心。\n现在想想，真的好愚蠢啊。",
           "link": "https://www.v2ex.com/t/1109196",
           "publishedOn": "2025-02-05T13:50:00.000Z",
-          "wordCount": 603,
+          "wordCount": 595,
           "title": "结婚多年后发现，上交工资卡是最愚蠢的行为。",
           "imageUrl": null
         },
@@ -452,7 +465,7 @@
           "description": "woniuppp: 体验下传说中的 35 岁前端面试",
           "link": "https://www.v2ex.com/t/1109192",
           "publishedOn": "2025-02-05T13:12:06.000Z",
-          "wordCount": 394,
+          "wordCount": 397,
           "title": "准备 boss 直聘体验下地狱级面试难度纪念 35 岁",
           "imageUrl": null
         },
@@ -462,7 +475,7 @@
           "description": "redreamality: \n需求源于春节家中做客，Wifi 要一遍遍告知，于是自己写了个分享 WiFi 二维码联网的网站。生成的二维码直接打印出来贴着哈哈。也可以发到微信群\n核心痛点\n现代场景中的高频联网需求：\n🏡 家庭场景：亲友拜访时反复口述复杂密码的尴尬\n☕ 商业空间：咖啡厅/餐厅 WiFi/酒店 WiFi前台持续应对顾客的联网咨询\n🏢 企业场景：商务访客需要快速接入办公网络\n🎉 活动场景：展会/婚礼等大型活动中的群体性联网需求\n专业解决方案\n基于 WPA/WPA2 协议规范开发的二维码生成系统：\n三秒配置：SSID+密码即时生成符合 ISO 标准的连接二维码\n全平台兼容：支持 iOS/Android 系统原生相机扫码识别\n安全传输：前端本地生成，敏感信息零服务器传输\n打印方便：可以直接打印相关信息，所有格式/排版都已经优化好。",
           "link": "https://www.v2ex.com/t/1109191",
           "publishedOn": "2025-02-05T13:06:56.000Z",
-          "wordCount": 408,
+          "wordCount": 409,
           "title": "WiFi 连接解决方案 - 二维码极速联网",
           "imageUrl": null
         },
@@ -472,7 +485,7 @@
           "description": "Odyssey98: \nHi ，V 友们好！\n前段时间被裁员了，作为一名深圳开发者，正在考虑做一个基于 DeepSeek AI 的面试助手，想先和大家讨论下需求。\n\n🎯 计划中的功能\n📝 AI 简历分析\n让 AI 分析简历优劣\n给出改进建议\n预测可能的面试问题\n🤖 面试模拟\n根据简历生成个性化面试题\n实时语音/文字对话\nAI 评分和反馈\n💰 薪资参考\n分析市场行情\n结合个人情况给建议\n谈判话术指导\n🤔 我的思考\n目前市面上的面试模拟工具：\n要么是固定的题库\n要么是通用的 ChatGPT\n缺少针对性和专业性\n计划使用 DeepSeek AI：\n更懂中文语境\n专业性更强\nAPI 更实惠\n❓ 想请教大家\n你觉得这个工具有用吗？\n最需要哪些具体功能？\n愿意为这样的工具付费吗？\n有什么建议和想法？\n目前正在找工作，也在考虑要不要全职来做这个项目。\n如果大家觉得有价值，我就认真做一下。\n欢迎各位 V 友提建议，也欢迎有类似想法的朋友一起交流！\n#深圳 #求职 #面试 #AI",
           "link": "https://www.v2ex.com/t/1109190",
           "publishedOn": "2025-02-05T13:00:41.000Z",
-          "wordCount": 467,
+          "wordCount": 473,
           "title": "[问与答] 被裁员后，我在考虑做一个 AI 面试助手，有需求吗？",
           "imageUrl": null
         },
@@ -482,7 +495,7 @@
           "description": "AaronZero: \n半年前，24 年年中入职国内某大厂。入职后就被分配了一个大的技术改造项目。大干了一个月，整出来了技术方案，然后评审完开始开工。 [此时大概是 8 月份了] \n做了 1 个多月，突然 TL 跟我说，有另外一个遗留的技术改造项目，优先级更高，先去做那个项目（一个大半年前立项，技术方案已经弄好了，但是没有实施去做的项目。这次是因为相关方跑去大老板那里催，大老板过来给 TL 压力，所以突然把优先级提上来）。 [此时已经是 10 月份了] \n为了赶这个突然插入的高优先级项目，原来做了一个月的项目只能先放着了。相关团队那边为了 okr 目标，各种明示暗示，希望能在年前完成（年底绩效讲故事）。然而此时距离年底只有 2 个月了。\n也行吧，各种熬夜，基本上连续一个月没有上网冲浪，就是赶这个项目，希望能在年底前做完上线。然而事与愿违，一方面日常业务需求一直不断需要接，分散了很多精力；另一方面在做的过程中，不断发现有更多的细节需要实现，甚至有些东西当初的技术方案里没有评估到，具体做的过程中才不断被发现，需要额外的开发量。最终导致年底了项目也没能上线完成。\n目前处于极度焦虑的过程中，觉得自己 miss 了之前承诺的时间，感觉自己把自己的技术口碑搞坏了。\n现在一方面要努力把这个项目收尾，上线；另一方面又要马不停蹄面对原来刚入职时分配的那个项目，继续捡起来做，又是一个庞大的工程，也不知道后续做的时候会面对什么更多的坑。\n总的来说是觉得自己项目逾期了，很自责，内耗。但是感觉这种自责似乎不必要：同组另外一个同事，他手里也有一个技术改造项目，当初一开始说 8 月份能做完，最后到年底了也没完全做完，还在各种收尾。\n自己反思下来，可能在发现项目需要额外的开发量的时候，没有及时向上暴露风险，还是保持着原定的年底上线的排期（当时觉得自己多熬几个夜，吃下这部分额外的工作量就好了，不想错过年底承诺的时间）。最终导致现在非常被动吧，希望各位 v 友给给建议。",
           "link": "https://www.v2ex.com/t/1109189",
           "publishedOn": "2025-02-05T12:30:31.000Z",
-          "wordCount": 433,
+          "wordCount": 440,
           "title": "因项目延期不断焦虑，不安，应该怎么办？",
           "imageUrl": null
         },
@@ -492,7 +505,7 @@
           "description": "yucn: rt ，想减轻以后的养老负担，有没有补缴过的给点意见？",
           "link": "https://www.v2ex.com/t/1109188",
           "publishedOn": "2025-02-05T12:25:58.000Z",
-          "wordCount": 435,
+          "wordCount": 407,
           "title": "父母都是农民，还没到 60，要补缴养老保险吗？",
           "imageUrl": null
         },
@@ -512,7 +525,7 @@
           "description": "wonginoueu: 请教大家，想在京东自营买个 ipad mini7 ，不知道是否可以利用 vpn+海外 appleid 就可以使用完全体的 Apple Intelligence ？",
           "link": "https://www.v2ex.com/t/1109184",
           "publishedOn": "2025-02-05T11:48:06.000Z",
-          "wordCount": 488,
+          "wordCount": 500,
           "title": "关于国行 iPad 使用 apple intelligence？",
           "imageUrl": null
         },
@@ -542,7 +555,7 @@
           "description": "22too: \n2024 年终总结\n2025-02-05\n前言\n成长会一直延续，当我们大学毕业的时候，在自我的世界中，我的性格就这样了，不可能有变化了。工作了几年，性格随着工作的磨砺也逐渐走向一个更稳重的心态能承受更多来自职场的压力。走入爱情，迈入婚姻，彼此之间的逐渐磨合也在让彼此成长，但是在这个过程中，因为有了彼此的出现，大概彼此也成了生活中部分痛苦的根源。\n有人孩子，成为了父亲母亲，性格成长重要转折点才真正的到来。开始以小家庭为核心逐步，思维上小家庭更加有了最高优先级。\n我们还是按照月份为单位，思路会更加的清晰。\n一月\n两个年轻人都战战兢兢的在整个孕期当中，等待着孩子的降生，因为医生判断妊娠期血糖水平太高有较高风险，孕期 36 周时候，医生决定进行催产。催产的过程比较漫长，就是等待，还是看相关的生产指标，达到指标送入产房。\n进入产房时候，继续等待相关指标，这个时候就是痛苦的等下，因为没有达到生产条件，医生也不会开无痛，就是等，痛苦等。终于漫长的等待之后，可以打无痛了，然后就是继续等，等待进入待产室。我也按照医生的指示进入了待产室给媳妇加油。一切都比较顺利，看到孩子那一刻，那种期待已久的喜悦带来的热泪盈眶，让我不知道使用什么形容，我当时甚至想到了‘老来得子’这个词。孩子出生之后，身体检查，抽血化验，孩子有些低血糖，最终外公外婆也只看到一眼，然后孩子就被送入新生儿病房了，病房不让探视，后面的几天也只能固定时间，在视频里面看到孩子。索性一切都是虚惊一场，孩子观察几天没问题，就出院了去了月子中心。\n二月\n我们时常感到痛苦，以前我总觉得是因为的我品行不够坚定，不能忍受这些痛苦。现在才明白，如果有足够的钱，那么那些痛苦，就自然消散，当然有人说，有钱人也有有钱人的痛苦，那么请让我体会一下有钱人的痛苦。\n月子中心（月嫂同理）是一个好东西，避免了很多家庭矛盾，同样也转移了家庭矛盾。 \n媳…",
           "link": "https://www.v2ex.com/t/1109180",
           "publishedOn": "2025-02-05T11:32:28.000Z",
-          "wordCount": 463,
+          "wordCount": 428,
           "title": "2024 年终总结，今年本命年感觉自己变得格外的絮絮叨叨",
           "imageUrl": null
         },
@@ -552,7 +565,7 @@
           "description": "mackyuqi: \n如题，我二十多岁时都是干得不爽就辞职，到现在不敢轻举妄动了",
           "link": "https://www.v2ex.com/t/1109179",
           "publishedOn": "2025-02-05T11:19:43.000Z",
-          "wordCount": 477,
+          "wordCount": 458,
           "title": "想问问大家从多少岁就开始不敢轻易裸辞了",
           "imageUrl": null
         },
@@ -612,7 +625,7 @@
           "description": "linora: \n发了年终，领导评价挺高！\n截止今日，贷款还完！ 0 负债！\n纪念一下！！！\n新的一年！愿各位越来越好！也希望我的公司业绩能够蒸蒸日上！\n蛇年大吉，巳巳如意！！！",
           "link": "https://www.v2ex.com/t/1109170",
           "publishedOn": "2025-02-05T10:36:41.000Z",
-          "wordCount": 550,
+          "wordCount": 569,
           "title": "0 负债了！纪念一下！",
           "imageUrl": null
         },
@@ -654,56 +667,6 @@
           "publishedOn": "2025-02-05T10:14:14.000Z",
           "wordCount": 425,
           "title": "Mac 上有没有什么软件可以把刘海两侧的空间上放点小玩意儿利用起来",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109164",
-          "author": "syliu",
-          "description": "syliu: \n35 已婚 未育 老婆海宁人 18 年海宁上车了一套房（还贷中）\n北漂 10 年 做开发大概 30 多 K\n北京这些年没怎么存钱，手里现在大概 30 个\n看了杭州政策准备 5 月考一下高软 试试能不能搞个 e 类\n想问一下今年过去的话有什么建议或者要注意的么",
-          "link": "https://www.v2ex.com/t/1109164",
-          "publishedOn": "2025-02-05T10:12:32.000Z",
-          "wordCount": 385,
-          "title": "10 年北漂想入杭有啥建议吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109163",
-          "author": "emyself",
-          "description": "emyself: \n主路由 ubnt UCG-MAX,unifiOS\n旁路由 Openwrt(虚拟机），旁路由的作用不言而喻\n主路由设置 DHCP ，IPV4 的网路设置中网关可以自定义到旁路，但是 IPv6 的的网络设置中，没有网关的设置选项，默认的网关是主路由，造成的结果就是 ipv6 访问是不正常的。有什么解决方案吗？\n我查了一下资料，这些设置在/run/dnsmasq.conf.d/下的 ipv6 的 conf 中，但是我不太知道如何去设置，以及设置后的风险，有了解的朋友吗？",
-          "link": "https://www.v2ex.com/t/1109163",
-          "publishedOn": "2025-02-05T10:11:35.000Z",
-          "wordCount": 507,
-          "title": "unifiOS 下，如何在 ipv6 的网络设置中引入旁路网关的 ipv6 地址",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109162",
-          "author": "SunOfHomeBoy",
-          "description": "SunOfHomeBoy:",
-          "link": "https://www.v2ex.com/t/1109162",
-          "publishedOn": "2025-02-05T10:07:58.000Z",
-          "wordCount": 362,
-          "title": "感觉 微信公众号、B 站等也都开始擦边了。这算是劣币驱逐良币么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109161",
-          "author": "yadoT",
-          "description": "yadoT: 资深 golang 开发工程师\n链接： https://neitui.italent.cn/37wan/sharejobs/detail?shareId=308ab670-5b7d-43e7-b03e-10a17e28fb69&language=zh_CN\n工作职责\n1. 主导平台增长业务系统的开发与优化，包括但不限于：私域运营管理中台、用户增长与活动系统、触达与用户召回平台。\n2. 负责系统架构设计、性能优化和技术升级，确保系统高可用性、可扩展性和安全性。\n任职资格\n1. 5 年及以上服务端开发经验，精通 Golang 语言特性及生态系统。\n2. 深入理解分布式系统架构，熟练掌握 MySQL 、Redis 、Kafka 等中间件的应用与调优。\n3. 熟悉 Kubernetes 集群运行原理，具备微服务架构设计与治理经验。\n4. 个人素质要求：\n对技术有浓厚兴趣，具有持续学习精神。\n良好的问题分析与解决能力。\n优秀的团队协作与沟通能力。\n5. 加分项：\n有支付系统或用户增长平台开发经验。\n有电商或游戏平台核心系统开发经验。\n有带领大型项目经验（项目负责人职责）。\n==========================================================\n高级 golang 开发工程师（ 1 ）\n链接： https://neitui.italent.cn/37wan/sharejobs/detail?shareId=972ef79b-9a0a-4d20-8fb6-1965d7146980&language=zh_CN\n工作职责\n1 、负责低代码平台的生成式 AI 编码功能开发；\n2 、设计和实施 DevOps 流程和架构，开发和维护 CI/CD 流水线；\n3 、提高团队开发效能和代码质量，推动团队技术提升。\n任职资格\n1 、计算机相关专业本科及以上学历，3 年以上开发经验；\n2 、熟悉 go 语言，熟悉至少一种开源 go 框架；\n3 、熟悉微服务架构，熟悉 k8s 、docker 等容器化技术；\n4 、熟悉 devops 、gitops 、Infra-as-code ，熟悉常用的 CI/CD 工具；\n5 、了解 aws 、腾讯云、阿里云等云服务商的基本服务；\n6 、了解前端技术，如 HTML 、CSS 、JavaScript 及相关框架（如 Vue 、React 等）。\n============================================================\n高级 golang 开发工程师(2)\n链接： https://neitui.italent.cn/37wan/sharejobs/detail?shareId=f3e01b68-cc0a-4067-b8f3-7751760a32ef&language=zh_CN\n工作职责\n1 、负责游戏平台新功能的后端开发及日常维护工作，撰写开发文档\n2 、根据需求独立完成系统设计、编码以及 codereview\n3 、参与完善平台安全体系、内容审核系统等等，保证平台平稳运行及性能扩展\n任职资格\n1 、计算机相关专业本科及以上学历，2~5 年的开发经验\n2 、熟悉 go 语言，熟悉至少一种开源 go 框架；了解 php 语言\n3 、熟悉 mysql 索引；熟练应用 redis 、kafka 等产品，并对底层原理有基本了解\n4 、熟悉 gitlab 代码管理\n5 、了解 linux 常用操作命令，了解 nginx 基本配置\n6 、有对新技术不断探索和研究的精神，工作有激情\n7 、有良好的团队合作能力、沟通能力、学习能力和自我管理能力\n==========================================================\n高级运维开发工程师\n链接： https://neitui.italent.cn/37wan/sharejobs/detail?shareId=a93de20a-1e1c-4a87-b7de-a47c1dee7dc9&language=zh_CN\n工作职责\n1. 负责运维平台开发；不限于：CMDB 、监控系统、域名证书、多云管理系统、日志系统等\n2. 为运维工程师提效，推动提高运维的工具化、自动化建设\n3. 对现有运维系统产品优化，不断完善运维系统的功能性和易用性\n任职资格\n1. 掌握 Python 、Golang 至少一种后端开发语言，针对具体的业务场景具备快速设计和实现能力，有开源项目实践经验更佳\n2. 熟悉 Vue 、React 等主流前端框架中的一种，能够独立完成前后端分离项目的开发\n3. 有良好的产品思维，具备从用户视角解决运维自动化问题的能力",
-          "link": "https://www.v2ex.com/t/1109161",
-          "publishedOn": "2025-02-05T10:07:05.000Z",
-          "wordCount": 479,
-          "title": "[广州-三七互娱-社招]资深 golang 开发工程师、高级 golang 开发工程师、高级运维开发工程师",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109160",
-          "author": "freebitter",
-          "description": "freebitter: \n想到几部电影：楚门的世界、西部世界中、头脑特工队，有感而发。\n可以是 AI 版微信\n社交中的角色性格、社交关系网的创建,都按自己的喜好来\n你的每次记录和对话，都会存入长记忆区，作为记忆碎片，由你自己控制管理，分配给你的 AI 好友\n家人眼中的你，朋友眼中的你，男女朋友眼中的你... 你就是猪脚宇宙中心...\n根据你的个性喜好，AI 发朋友圈给你看、AI 发公众号给你看、AI 自制你喜欢的短视频、虚拟资产零钱包等等\n总之，你就是金凯瑞、西部世界的游客、头脑特工队的小女孩\n这种产品有人喜欢吗？",
-          "link": "https://www.v2ex.com/t/1109160",
-          "publishedOn": "2025-02-05T10:06:58.000Z",
-          "wordCount": 398,
-          "title": "如果你的微信好友都是 AI 扮演，只有你是真人，好玩还是恐怖？",
           "imageUrl": null
         }
       ]
