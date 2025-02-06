@@ -316,6 +316,126 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1109484",
+          "author": "xuanwu",
+          "description": "xuanwu: \n整理一下木兰重现过程中碰到并中文化的报错和对应 python 代码（木兰的报错信息为运行对应木兰代码时的反馈信息），第一批十一个例程八种报错。在 Python 3.13.1 和 3.8 下测试。\nhttps://zhuanlan.zhihu.com/p/21325978608",
+          "link": "https://www.v2ex.com/t/1109484",
+          "publishedOn": "2025-02-06T18:03:02.000Z",
+          "wordCount": 362,
+          "title": "Python 和木兰报错信息对应例程整理（一）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109483",
+          "author": "NewMoorj",
+          "description": "NewMoorj: 高速限速 120 ，实际情况大伙都不是按限速走的，而是以不扣分不罚款走的。\n也就是会跑 130-140 左右。当然这里没说所有人都这样，咱讲个生活经验，不是来写论文的。\n当你跑 120-140 的时候，后车快速接近，那么后车的速度基本是 160+，可能 180 甚至 200 。\n高速上跑这么快，基本可以判断是个飙车的。\n飙车的左右穿插是基本操作，如果你的右侧有空间，他大概率要从这里穿过去。\n如果你主动变道了，会撞到你。",
+          "link": "https://www.v2ex.com/t/1109483",
+          "publishedOn": "2025-02-06T17:01:55.000Z",
+          "wordCount": 354,
+          "title": "关于后车快速接近，应不应该变道，我建议不要变道",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109482",
+          "author": "WilliamColton",
+          "description": "WilliamColton: \n大概 2 星期以前，我低烧了几天，实在怀疑，去医院查了一下，甲流阳性（没记错的话医生说是细菌性的），\n医生考虑到我比较年轻，而且已经扛了几天，就只开了 3 天的药，\n3 天之后还是咳嗽，这也没什么，\n但是最近发现咳嗽声音稍微大点的时候胸口中间会有点疼痛，不知道为什么 QAQ \n（个人感觉疼痛处就在整个人胸部正中央）",
+          "link": "https://www.v2ex.com/t/1109482",
+          "publishedOn": "2025-02-06T16:56:26.000Z",
+          "wordCount": 409,
+          "title": "感染甲流之后胸口疼，不知道有没有相同情况的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109481",
+          "author": "liyafe1997",
+          "description": "liyafe1997: \n今天用着用着，我的 WSL2 的 Terminal 包括 WSLg 的窗口突然消失了，Docker Desktop 也崩了。然后我马上尝试打开 wsl.exe ，提示 WSL 正在更新.....\n虽然这次没造成什么损失，但是觉得挺可怕的，说明这就不是一个安全/可靠的东西，哪天如果运行着非常 Serious 的东西，会不会突然直接给你停了然后自动更新....\n现在就连 Windows 本体也不会 Windows Update 自动重启了吧，至少我没遇到过，右上角那个标志提示重启超过一个星期了，也没给我自动重启。",
+          "link": "https://www.v2ex.com/t/1109481",
+          "publishedOn": "2025-02-06T16:52:51.000Z",
+          "wordCount": 361,
+          "title": "WSL2 会在后台自动更新并且直接强制停止？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109480",
+          "author": "yagamil",
+          "description": "yagamil: 每年除夕前一段时间，我老公一定会开车回老家，打扫卫生、贴对联，还要上坟烧纸。我劝过他很多次：“家里老人都不在了，老家那个院子又破又冷，咱年年跑那么远图啥啊？委托邻居帮忙不行吗？”可他却总是摇摇头，认真地回我一句：“不一样，这不一样。”\n以前过年回老家，的确是一件热闹又幸福的事儿。还没到村口呢，婆婆就站在路边等着了，身上围着棉围裙，手里捂着冻得发红的手指，远远地冲着车喊：“回来了！路上没出啥事吧？”车一停，公公就迎上来帮我们提东西，笑着说：“赶紧进屋，天这么冷，冻坏了吧？”\n家里早就热气腾腾，锅里炖着肉，桌上摆满了瓜子和糖，灶台边是蒸了一屉一屉的大白馒头。孩子们在院子里跑来跑去，鸡飞狗跳，热闹得不行。吃完饭，一家人围着火盆嗑瓜子，聊着这一年的大事小情，院子里亮着灯，年味就那么浓。\n可后来，公婆先后去世了。家里的热闹也随着他们的离开渐渐冷清下来。现在我们开车回去，村子已经不像以前那样人来人往了，路边空荡荡的，连站着张望的人都没了。家门口的老槐树依旧在那儿，可树下没人了，风吹得沙沙响，像在提醒我们，那里再也没有曾经的那份温暖了。\n到了老家，老公打开院门，一阵冷风夹着灰尘扑面而来，屋里到处是蜘蛛网，家具上厚厚一层土。他一声不吭，拿着扫帚从里到外地打扫，连屋檐下的灰都清得干干净净。每扫一处，他都会停下来，发一会儿呆。我看着他，心里说不出的难受。\n他忙完了，坐在院子里的那把破旧椅子上，点了根烟，低头不说话。半晌后，他抬起头看着小院，说了一句：“爸妈在的时候，这里多热闹啊，现在真安静得吓人。”\n贴好对联，他又去坟上清理杂草、烧纸磕头。我跟在后面，看到他低着头念叨：“爸妈，又过年了，我们都挺好，你们也别挂念。”说到一半，他的声音哽咽了。我心头一紧，眼眶也湿了。\n回来的路上，他开着车，没说话。刚出村口没多远，他突然把车停了下来，头埋在方向盘上，肩膀一抽一抽的。我吓了一跳，问他怎么了，他低声说：“以前爸妈总是送咱们到村口，站在那里，看着咱车开远了才回去。现在我走了，他们却没人送了。”\n那一刻，我明白了，他坚持年年回去，不是为了形式，更不是为了面子，而是为了心里那个“家”。那个破旧的小院子，承载着他所有的回忆和牵挂。回去，是他和过去告别的方式，是他心底的一点安慰。他害怕那院子彻底荒了，害怕那里再也没有家的影子。\n老公跟我说：“家没了，但故乡还在。趁我现在还能开车，再回去看看。以后等我真走不动了，想回来，怕是也回不来了。”\n听到这话，我的心一下子揪了起来。我们这些年为了在城市扎根拼命努力，买房子、供孩子读书，却差点忘了，那片曾经的土地，是我们生命的起点，是我们心底最柔软的地方。\n故乡也许已经荒凉了，但它还在那里等着我们。那里有父母留下的记忆，有我们小时候的欢笑，有曾经一家人围坐的热闹和温暖。\n快过年了，你还记得自己多久没回过故乡吗？那个家门口，也许还有一棵老槐树，静静地等着你；那条走了无数次的土路，也许还铺满了黄叶，盼着你的脚步。\n趁还能动，趁还能回，过年了，回家看看吧。 不管你现在有没有钱，家和故乡，永远是你心底最重要的东西。\n转自知乎。\n同感。",
+          "link": "https://www.v2ex.com/t/1109480",
+          "publishedOn": "2025-02-06T16:33:51.000Z",
+          "wordCount": 345,
+          "title": "老家没人了，过年你还回去吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109479",
+          "author": "googol2chen",
+          "description": "googol2chen: \n投资包括股票（ A 股，港股，美股），基金，黄金这些。",
+          "link": "https://www.v2ex.com/t/1109479",
+          "publishedOn": "2025-02-06T16:32:11.000Z",
+          "wordCount": 340,
+          "title": "假设你现在有 100w 做投资，你会如何分配？投资什么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109478",
+          "author": "yeqijie6",
+          "description": "yeqijie6: 阅读障碍，求一款 epub 文字转语音的软件，或者用 Python 部署的也可以，语音自然一点的有吗？",
+          "link": "https://www.v2ex.com/t/1109478",
+          "publishedOn": "2025-02-06T16:30:17.000Z",
+          "wordCount": 437,
+          "title": "阅读障碍，求一款 epub 文字转语音的软件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109477",
+          "author": "zanx817",
+          "description": "zanx817: \n十多年前拿了驾照， 除了今年年前雪路打滑没刹住车轻微蹭道旁障碍（土堆）外，从未出过主动事故（被追尾、被剐蹭的不算）。\n看到隔壁帖子很火， 开贴聊下自己的看法：\n开车的目的是为了 [安全、快速] 到达目的地，开车途中的事情都要围绕 [安全、快速] 这两个目标展开。\n保持车距不使用距离测算，速度变化时，人眼对距离的判断会有很大误差，高速上的测距牌也只有很少一部分路段才有，但我们需要随时保持距离。 一般根据车速，与前车保持 2 ～ 3 秒的距离即可。 太近了反应不及容易追尾，太远了容易被超车，很麻烦。\n遇到事情灵活处理。 例如主道上发生事故车未挪走时，是应该借用应急车道通过，还是排队等候事故完后走主路？   \n与人和善，不嫉恶如仇，不上纲上线。 遇到加塞的一般会拉链式通行让行。 谁没个急事或者走错道的时候？遇到其他轻微的涉嫌违法驾驶， 一般礼让通过。从来不抱惩治恶人而与之缠斗的想法，不做危险竞驶、不做举动激怒对方。知道法律也是会修订的，规定未必总是符合现实情况的。\n做好预判，未知环境下谨慎驾驶。越来越不爱晚上开车，遇到未知事件谨慎通过。反面例子就是回家过年时，山路有雪，下坡路段自动有加速而难以自知。在最后一个弯道剐蹭到了道旁障碍，幸而速度不快只是剐蹭到了保险杠。\n事故出于疏忽大意，这句话对老司机尤其适用。司机离开新手村后就不容易出事故，后面与越来越大意，越来越爱在危险操作的边缘试探（主要开车回微信），就越容易出事故。",
+          "link": "https://www.v2ex.com/t/1109477",
+          "publishedOn": "2025-02-06T16:24:32.000Z",
+          "wordCount": 396,
+          "title": "回家过年/高速应该怎么开？ 10 年实际驾龄老司机首次出主动事故 的 拙见分享",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109475",
+          "author": "revival83",
+          "description": "revival83: 自带的屏幕时间不太好用，想要个直观点儿的，每天设置多长时间  到了就彻底不能用，屏幕时间自带的总用不好，有时候它那个密码不知道为什么自己变了…",
+          "link": "https://www.v2ex.com/t/1109475",
+          "publishedOn": "2025-02-06T16:18:37.000Z",
+          "wordCount": 375,
+          "title": "iOS 上有什么软件可以限制孩子使用设备的 app？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109474",
+          "author": "Variazioni",
+          "description": "Variazioni: 例如使用 GestureDetector\nonPanUpdate: (details) {\ndetails.globalPosition;\n    details.localPosition;\n}这两个获取的都是相对窗口左上角的坐标。\n各种渠道查询的结果，也都是只能获取相对于窗口的坐标，获取不到相对于显示器的坐标。除了使用系统原生接口外，还有什么其他的办法吗？",
+          "link": "https://www.v2ex.com/t/1109474",
+          "publishedOn": "2025-02-06T15:59:58.000Z",
+          "wordCount": 406,
+          "title": "Flutter 开发桌面应用程序，如何获取鼠标的绝对坐标？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109473",
+          "author": "unt",
+          "description": "unt: 这个要求不高吧，不像别人张口闭口 6%8%。\n最好是支持季赎，最长不能超过 1 年赎。\n30W-50W 左右",
+          "link": "https://www.v2ex.com/t/1109473",
+          "publishedOn": "2025-02-06T15:41:06.000Z",
+          "wordCount": 496,
+          "title": "2025 年了，求稳定年化 4%方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109472",
+          "author": "m1klos",
+          "description": "m1klos: \n打算收一辆甲壳虫三代作为日常通勤代步工具，13 年及之后的，10w 公里及以下，无特大事故，无需过多整备，不要红色，预算 5w 左右，最好是山东/河北/河南/天津附近的车源，如果有虫友也可以给留下点建议",
+          "link": "https://www.v2ex.com/t/1109472",
+          "publishedOn": "2025-02-06T15:31:00.000Z",
+          "wordCount": 342,
+          "title": "求购一辆甲壳虫三代，预算 5w 左右",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1109471",
           "author": "chinaguaiu",
           "description": "chinaguaiu: \n写了一篇在 x 鱼上卖二手的帖子，吐槽现在机器人很多，结果换了好几个节点都发不出去，v 站提示：请不要把和技术无关的敏感话题发到这里\n服了，我把想到的敏感词删了半天没什么用。我想发的这个主题有问题吗？",
@@ -328,11 +448,11 @@
         {
           "id": "https://www.v2ex.com/t/1109470",
           "author": "qazwsxkevin",
-          "description": "qazwsxkevin: \n先前写好的 config.yaml ，是正常运行的\n现在所在场所的宽带网络设备年后发生了变化（估计是宽带路由器的防火墙升级了）\n现在更新 providers 的 url 都不行，多数节点也连接不上\n\n请教，mihomo 的 config 是否有这种方式，mihomo 本身也通过 sock5 走出去？\n（这个 sock5 服务器，是不从这个宽带路由器出去的）\n看了 mihomo 的 doc 下面的 example.yaml ，好像不具备这种做法？\n还是要在 linux 系统本身上花功夫，装点什么的，让 mihomo 的进程的流量，全部走 sock5?",
+          "description": "qazwsxkevin: \n先前写好的 config.yaml ，是正常运行的\n现在所在场所的宽带网络设备年后发生了变化（估计是宽带路由器的防火墙升级了）\n现在更新 providers 的 url 都不行，多数节点也连接不上\n\n请教，mihomo 的 config 是否有这种方式，mihomo 本身也通过 socks5 走出去？\n（这个 socks5 服务器，是不从这个宽带路由器出去的）\n看了 mihomo 的 doc 下面的 example.yaml ，好像不具备这种做法？\n还是要在 linux 系统本身上花功夫，装点什么的，让 mihomo 的进程的流量，全部走 socks5?",
           "link": "https://www.v2ex.com/t/1109470",
           "publishedOn": "2025-02-06T15:25:29.000Z",
-          "wordCount": 450,
-          "title": "mihomo 是否存在这种配置（所有流量，先走一个 SOCK5）",
+          "wordCount": 452,
+          "title": "mihomo 是否存在这种配置（所有流量，先走一个 SOCKS5）",
           "imageUrl": null
         },
         {
@@ -393,16 +513,6 @@
           "publishedOn": "2025-02-06T14:45:35.000Z",
           "wordCount": 340,
           "title": "舍友嫌弃我打呼噜 搬去其他宿舍了，个人 BMI:21 不到",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109461",
-          "author": "chasen",
-          "description": "chasen: YouTube Premium 乌克兰区招 2 人，年付 80 ，联系 TG: @Charson",
-          "link": "https://www.v2ex.com/t/1109461",
-          "publishedOn": "2025-02-06T14:35:58.000Z",
-          "wordCount": 115,
-          "title": "YouTube Premium 招人",
           "imageUrl": null
         },
         {
@@ -521,7 +631,7 @@
           "description": "bensaka: \n哪位老哥知道 YouTube Analytics API 的 Queries per minute 和 Queries per day 要怎么提额吗？\n有偿\n有偿\n有偿\n帮助文档都翻烂了也找不到提额的入口，只能联系上 google cloud 的销售团队   头疼",
           "link": "https://www.v2ex.com/t/1109445",
           "publishedOn": "2025-02-06T12:05:28.000Z",
-          "wordCount": 467,
+          "wordCount": 469,
           "title": "YouTube Analytics API 的每日配额怎么申请提额？有偿",
           "imageUrl": null
         },
@@ -541,7 +651,7 @@
           "description": "lengrongec: 如题\n今天更新后无法通过 Safari 打开 http 网页，关闭 vpn 可以打开。firefox 不受影响，。\n别问为什么还存在 http 的网页，那是因为公司的 oa 一直是煞笔 IT 不配置 https 。",
           "link": "https://www.v2ex.com/t/1109443",
           "publishedOn": "2025-02-06T12:02:03.000Z",
-          "wordCount": 406,
+          "wordCount": 415,
           "title": "更新 macOS15 和 iOS18 后使用 VPN Safari 无法打开 http 网页，关掉不受影响？大家有这种情况吗？",
           "imageUrl": null
         },
@@ -583,116 +693,6 @@
           "publishedOn": "2025-02-06T11:22:20.000Z",
           "wordCount": 404,
           "title": "分享一下以太坊 Protocol Wiki 中文版",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109434",
-          "author": "szsgz",
-          "description": "szsgz: 不知道从什么时候开始\n难道是我的罗技键盘出毛病了？\n还是说 win11 除了什么问题\n以前都是按一下 shift 切换中英文，现在突然变成按两下，每次切换都跟吃了屎一样难受....",
-          "link": "https://www.v2ex.com/t/1109434",
-          "publishedOn": "2025-02-06T11:12:34.000Z",
-          "wordCount": 387,
-          "title": "Win 11 的中英文输入切换突然变成按两下 shift 键了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109433",
-          "author": "BenjaminOliver",
-          "description": "BenjaminOliver: \n硅基流动部署的 deepseek 使用如何和官方的有什么区别吗？那个更好了？",
-          "link": "https://www.v2ex.com/t/1109433",
-          "publishedOn": "2025-02-06T11:10:03.000Z",
-          "wordCount": 406,
-          "title": "硅基流动部署的 deepseek",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109432",
-          "author": "wencan",
-          "description": "wencan: 提供 MBTI 、焦虑自评、抑郁自评、人格障碍、职业兴趣等大家感兴趣的心理测试\nAI 大语言模型在线生成解读报告\n手机淘宝，根据下面的关键词搜索，找到店铺\n然后在店铺里找喜欢的测试\n可以直接下单 0.49 元的\n其它的，请发送“体验尝鲜”四个字给客服，客服会自动回复三个优惠券链接，领取优惠券后，全部商品 1.9 元封顶。\n下单后，系统自动通过淘宝消息和短信，发送使用方法，请注意查收。\n如果想要玩“零元购”，确认收货后，请通过淘宝消息发送 支付宝账号（邮箱或者手机号码），我把你支付的金额，退还给你。发送的消息别透露太多了，被马老板的人发现了就不好了。哈哈。\n最后记得好评啊。谢谢大家",
-          "link": "https://www.v2ex.com/t/1109432",
-          "publishedOn": "2025-02-06T11:06:18.000Z",
-          "wordCount": 371,
-          "title": "AI 心理测试 淘宝新店“零元购” MBTI 抑郁焦虑 性格人格测试 AI 生成解读报告",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109430",
-          "author": "lijiantea",
-          "description": "lijiantea: \n问题如图。感谢。",
-          "link": "https://www.v2ex.com/t/1109430",
-          "publishedOn": "2025-02-06T11:04:05.000Z",
-          "wordCount": 381,
-          "title": "android 版 wine 只更新到 7.0 版，安装时提示 sdk 版本过低，有替代方案吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109429",
-          "author": "sighforever",
-          "description": "sighforever: \n现在就在 AI 相关的行业里做应用层，感觉每一个项目落地都很难说真正完全的解决了用户的问题，只能说差不多在特定条件下有一定的效果。和以前的 IT 化项目或互联网传统项目比，效果上的程度差的很远。\n在互联网 C 端，除了编程相关的，几乎没有出圈的产品，其他的差不多都是原有的产品里面增加几个 AI 擅长方面的功能。\n而且和上游的大模型公司的同学也聊过，实际上至少国内的大模型 api ，并发量调用量很低的，和传统业务没法比。\n但是看行业的新闻和公司大佬，基本上都是一副过不了几年，所有工作都会由 AI 代替，所有人都去享受生活的样子。\n倒也不是说 AI 没用，大模型很好用，我也天天用，但就感觉很纠结，完全看不懂为啥现在是这样...",
-          "link": "https://www.v2ex.com/t/1109429",
-          "publishedOn": "2025-02-06T11:00:00.000Z",
-          "wordCount": 547,
-          "title": "[AI] 为啥现在一边喊着 AI 代替人类，另一边各种场景 AI 落地却困难重重",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109428",
-          "author": "zealinux",
-          "description": "zealinux: \n本来已经有几十个未看的，但过了几天后，之前的没有了，只有最新的几十条记录。",
-          "link": "https://www.v2ex.com/t/1109428",
-          "publishedOn": "2025-02-06T10:58:35.000Z",
-          "wordCount": 336,
-          "title": "Follow 貌似会丢失历史未看的文章",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109427",
-          "author": "qbmiller",
-          "description": "qbmiller: feth8846: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 2800\nether 66:65:74:68:22:8e\npeer: feth3846\nmedia: autoselect\nstatus: active\nfeth3846: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> metric 5000 mtu 2800\nether b6:a3:48:18:44:6b\ninet 10.147.20.93 netmask 0xffffff00 broadcast 10.147.20.255\npeer: feth8846\nmedia: autoselect\nstatus: active\n重启又生效，docker 没启动",
-          "link": "https://www.v2ex.com/t/1109427",
-          "publishedOn": "2025-02-06T10:52:49.000Z",
-          "wordCount": 411,
-          "title": "macos ifconfig 这几个网路接口是什么，导致注册到 nacos 是它，不是 en0 无法与其他人交互",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109426",
-          "author": "elgae",
-          "description": "elgae: \n背景\n学生时代的肠胃状况已经记不清楚了。病久了，就不太记得正常是什么感觉了。只能回忆起几次比较严重的不适。\n初中某个夏天，刚吃完饭就严重腹泻。去厕所路上憋屎的汗、跑厕所的汗，再加上旱厕的臭味和蛆，印象深刻。\n还有一次，上吐下泻，吃什么排什么，几乎虚脱。\n另一次是在高二的时候，期中考试的前一天，整日腹泻，也是几乎虚脱。\n这几次都没有去诊所，最严重的那次只是吃了一些家里备的消炎药。其他两次，因为在学校，也没有意识到这是病、需要借助药物，全凭身体自身修复了。\n大概从那时候起，到最近两年，对肠胃的认识，都是不吐、不腹泻就是正常的，只要大便能排出来就好，不管便便状态是否正常。\n接着是持续的大便不成形、偶尔的肚子痛和拉肚子。直到高考完，我爹去找了中医大夫（找的时候是兽医 orz ），抓了一些中药，肚子算是有了一些改善。但还是没有完全正常，吃生冷食物，必拉肚子。\n22 年底，春节前跟领导喝酒。喝了大量的啤酒，从那次开始，几乎每天到了下午都要肚子痛。大便由之前每天一次，变成了每日两次。大约是 22 年的 8 、9 月份，挂了中日友好的消化科号，医生问了几个问题，诊断是肠易激、肠胃功能弱，给开了些益生菌。吃着益生菌、忌辛辣生冷，大便基本正常了。但一吃水果就又完蛋。\n肠镜\n23 年初，跟同事们一起吃饭时聊到我的肚子，大家都建议做个肠镜。我一拖再拖，直到 23 年底做了肠镜。做肠镜时发现了一个肠息肉，当时就切了。卧床大概两周，避免切口出血。\n做肠镜前，每天下午肚子痛的呲着牙，需要使劲按压缓解疼痛。做完康复后之后，基本没有疼痛的感觉了，吃生冷也都没啥问题。不过大便还是没有完全正常，特别是 24 年春节吃了我妈认为没变质的皮冻之后，大便明显变得更差了（持续性）。\n说重点，这次肠镜简直太值了。从长期疼痛中解脱的感觉，嗯～超值！\n我的情况，医生建议是满一年复查。我还没去，等天气暖和了去约。\n关于健康方面的经验、建议\n怀疑身体哪里有问题，及时就医。没问题最好，有问题发现治疗。一定不要拖，在拖延期间，会一直怀疑有病，容易焦虑、产生心理方面的问题，也可能造成病情恶化。\n病从口入不是说说而已，不要吃剩菜、剩饭，变质的东西直接扔，不要心疼。比起经济损失，健康更重要。\n呼吸如同吃饭一样重要，现在很多出租房空气质量不合格，及时离开这样的环境。比如换了一个新环境，皮肤瘙痒、结膜炎、湿疹、鼻腔刺痛、脱发，那就得注意了。\n不要过分迷信某个医生，感觉不靠谱的时候，换个医生/医院试一试。",
-          "link": "https://www.v2ex.com/t/1109426",
-          "publishedOn": "2025-02-06T10:47:26.000Z",
-          "wordCount": 369,
-          "title": "有感于 v 友的帖子，说说我的肠胃，祝大家健康",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109425",
-          "author": "xtx",
-          "description": "xtx: 记录仪视频： https://b23.tv/X6yk711\n各位看完视频可以先想想这哥们有几处违规行为。\n每天都要打开随申办瞅两眼，因为过年的原因，审核时间挺久的，现在过完年了，交警叔叔开始上班了，猛猛过，开年红包了属于是。\n举报了六项目前还有一个连续跨越双车道还在审核中，不知道六项都过这哥们要扣几分。\n随申办真好用！我爱说实话。",
-          "link": "https://www.v2ex.com/t/1109425",
-          "publishedOn": "2025-02-06T10:47:09.000Z",
-          "wordCount": 453,
-          "title": "爽！年前遇到一辆马路当自家客厅的理想，直接给这哥们来了个大满贯套餐。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109424",
-          "author": "sosme",
-          "description": "sosme: 强制所有链接在新标签页打开\n✅ 点击链接后，只在新标签打开，原页面不会跳转\n✅ 支持 油管、知乎、百度等动态加载网站\n✅ 阻止事件冒泡，绕过 油管 的 JavaScript 处理\n✅ 轻量高效，不会影响网站其他功能\n// ==UserScript==\n// @name         强制所有链接在新标签页打开\n// @namespace    http://tampermonkey.net/\n// @version      1.0\n// @description  让所有链接都在新标签页打开，同时原页面不会变化\n// @match        *://*/*\n// @grant        none\n// @license      MIT \n// ==/UserScript==\n(function() {\n    'use strict';\n    function openInNewTab(event) {\n        const link = event.target.closest('a');  // 找到点击的链接\n        if (link && link.href && !link.hasAttribute('target')) {\n            event.preventDefault();  // 阻止默认行为\n            event.stopPropagation(); // 阻止事件冒泡，避免内部 JS 触发跳转\n            setTimeout(() => {\n                window.open(link.href, '_blank');  // 在新标签页打开链接\n            }, 50); // 延迟执行，确保兼容\n        }\n    }\n    function observeLinks() {\n        document.addEventListener('click', openInNewTab, true);\n    }\n    observeLinks(); // 监听整个页面点击事件\n})();",
-          "link": "https://www.v2ex.com/t/1109424",
-          "publishedOn": "2025-02-06T10:38:20.000Z",
-          "wordCount": 449,
-          "title": "[油猴脚本] 强制所有链接在新标签页打开",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109423",
-          "author": "yafeilee",
-          "description": "yafeilee: \n公司简介\n深圳至简天成科技有限公司成立于 2019 年，致力于用 AI 重塑软件开发范式。作为获得红杉、高瓴、真格等顶级机构近亿元投资的科技创新企业，我们正在打造全球领先的 L3 级智能云开发环境 Clacky 。 \nClacky 是全球领先的 L3 级智能云开发环境。通过突破性的\"任务时光机\"技术，我们让开发效率提升 10 倍以上。从自然语言需求转译到实时代码生成，从智能代码优化到多线程协作，Clacky 正在重新定义开发者的工作方式。\n在这里，你将遇见一群追求极致的极客。我们崇尚技术创新，追求代码之美，渴望用 AI 技术创造令人惊叹的开发体验。如果你也对此充满热情，欢迎加入我们，一起探索 AI 与软件开发的无限可能。\n深耕技术创新 屡获行业认可\n国家级权威认证\n国家高新技术企业\n专精特新中小企业\n行业领军地位\n中国人力资源科技创新品牌 30 强\n中国新锐技术先锋企业\n粤港澳大湾区企业未来创造之星\n技术创新实力\n人工智能技术应用 HR 甄选供应商\n信通院实用互动创新应用优秀案例\n开源 GitOps 产业联盟证书\n招聘技术创新 HR 甄选供应商\n创新创业实力\n第十三届中国深圳创新创业大赛企业组三等奖\n创业之星大赛行业赛成长企业组一等奖\n天使项目优秀企业\n创始人荣誉\n2021 年科创中国青年创业榜单 U30 人物\n2021 中国人力资源科技影响力 TOP 人物\n创新南山 2021“创业之星”大赛第一名\n招聘岗位\n高级前端开发工程师（ 2 名，薪资待遇：15-28K ）\n岗位职责\n负责公司 Web 系统设计，核心代码开发，系统优化等工作；\n在复杂模块到子系统级别独当一面，高质量把控相关研发工作的全生命周期；\n参与并推动团队基础设施建设，逐步提升研发效率、研发质量，通过技术不断产出驱动业务的发展；\n关注前沿技术发展，能够将新知识传递给团队，并且转化到潜在项目中。\n岗位要求\n统招本科及以上学历，计算机 / 软件工程等相关专业；\n熟悉 Web 端开发，有良好的数据结构和算法基础，熟悉网络相关协议；\n熟练掌握 React / Next.js / TypeScript / TailwindCSS 等主流前端技术栈；\n熟悉 Node.js ，具备工具链以及工程化实践经验者更佳；\n熟悉主流单元测试和 e2e 测试方法、工具，如 Jest 、Cypress 等，并不断结合前沿技术提升整体测试效率和研发质量；\n主导或独立负责过一定规模产品前端，前端技术有专研领域；\n良好的团队沟通能力、协作能力、责任心、自驱力和学习能力；\n较好的产品意识，深入参与产品设计 / 讨论，善于规划执行、结果导向。\n加分项\nCloud IDE / 实时协同 / SaaS / 互联网背景；\n有使用云原生技术 Docker 、Kubernetes 、Istio 等经验；\n有优质技术产品或开源贡献经验。\n福利待遇\n入职提供 Apple MacBook Pro 和大屏显示器，BYOD 发放每月补贴；\n公司为员工每年设有 2 次调薪机会；\n公司为员工提供公平而广阔的职业晋升通道；\n社会福利：公司为员工入职即购买五险一金（一档社保）；\n下午茶：每周多次下午茶供给零食、水果、面包、各种饮品等丰富多样的食材；\n团建津贴：为增强员工幸福感和团队凝聚力，公司为员工和团队每月设置专项团建经费，鼓励员工和团队开展各种形式的团建活动；\n各种奖励：公司会设有各种奖励机制，用以激励员工不断创新成就卓尔不凡的自己；\n年终奖。\n公司信息\n公司名称： 深圳至简天成科技有限公司\n公司地址： 深圳市南山区惠恒大楼一期 301\n公司主页： https://clackyai.com/\n联系邮箱： hr@dao42.com （简历注明来自 V2EX ）",
-          "link": "https://www.v2ex.com/t/1109423",
-          "publishedOn": "2025-02-06T10:37:28.000Z",
-          "wordCount": 520,
-          "title": "[深圳] 科技创新企业 [至简天成] 招聘 高级前端开发工程师（AI 方向）2 人 - 25 年春招启动了",
           "imageUrl": null
         }
       ]
