@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,6 +193,33 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -299,7 +332,7 @@
           "description": "johnwilson: \n要求 DR>=20",
           "link": "https://www.v2ex.com/t/1109448",
           "publishedOn": "2025-02-06T12:14:56.000Z",
-          "wordCount": 376,
+          "wordCount": 396,
           "title": "哪些大佬有工具导航站啊？我想付费提交一下我的工具站",
           "imageUrl": null
         },
@@ -309,7 +342,7 @@
           "description": "ssxs727: \n使用 2.4G 接收器进行连接（插入一个绿联 120 块钱的扩展坞），在网络活动比较激烈（例如上传或下载，或者开关代理、切换节点、开关 TUN ）的时候，指针就会开始“掉帧”，就一卡一卡的……\n不知道各位有没有遇到过类似的情况，不知道这是非 Apple 鼠标在 Mac 上的通病，还是说是我的姿势不对。\n已经下载 Logi Options+ 并且把软件和固件都升级到最新版本了，身边也没有什么其它 2.4G 的设备了，键盘和音响都是 MacBook 内置，然后路由器的 2.4G 频段都给我关掉了。",
           "link": "https://www.v2ex.com/t/1109447",
           "publishedOn": "2025-02-06T12:14:23.000Z",
-          "wordCount": 365,
+          "wordCount": 409,
           "title": "MX Master 3s 在 macOS 上时不时卡顿",
           "imageUrl": null
         },
@@ -319,7 +352,7 @@
           "description": "bensaka: \n哪位老哥知道 YouTube Analytics API 的 Queries per minute 和 Queries per day 要怎么提额吗？\n有偿\n有偿\n有偿\n帮助文档都翻烂了也找不到提额的入口，只能联系上 google cloud 的销售团队   头疼",
           "link": "https://www.v2ex.com/t/1109445",
           "publishedOn": "2025-02-06T12:05:28.000Z",
-          "wordCount": 412,
+          "wordCount": 440,
           "title": "YouTube Analytics API 的每日配额怎么申请提额？有偿",
           "imageUrl": null
         },
@@ -329,7 +362,7 @@
           "description": "lianglu: \n目前公积金的房贷利率是 2.85%，还剩 100w 。现在有 10w 的闲钱，放在微众银行里活期 3.4%左右，是不是理财更划算，而且日后急需用钱还可以周转。不知道我这样计算有没有什么问题？",
           "link": "https://www.v2ex.com/t/1109444",
           "publishedOn": "2025-02-06T12:04:15.000Z",
-          "wordCount": 401,
+          "wordCount": 407,
           "title": "公积金有必要提前还款吗？",
           "imageUrl": null
         },
@@ -339,7 +372,7 @@
           "description": "lengrongec: 如题\n今天更新后无法通过 Safari 打开 http 网页，关闭 vpn 可以打开。firefox 不受影响，。\n别问为什么还存在 http 的网页，那是因为公司的 oa 一直是煞笔 IT 不配置 https 。",
           "link": "https://www.v2ex.com/t/1109443",
           "publishedOn": "2025-02-06T12:02:03.000Z",
-          "wordCount": 400,
+          "wordCount": 404,
           "title": "更新 macOS15 和 iOS18 后使用 VPN Safari 无法打开 http 网页，关掉不受影响？大家有这种情况吗？",
           "imageUrl": null
         },
@@ -389,7 +422,7 @@
           "description": "szsgz: 不知道从什么时候开始\n难道是我的罗技键盘出毛病了？\n还是说 win11 除了什么问题\n以前都是按一下 shift 切换中英文，现在突然变成按两下，每次切换都跟吃了屎一样难受....",
           "link": "https://www.v2ex.com/t/1109434",
           "publishedOn": "2025-02-06T11:12:34.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "Win 11 的中英文输入切换突然变成按两下 shift 键了？",
           "imageUrl": null
         },
@@ -399,7 +432,7 @@
           "description": "BenjaminOliver: \n硅基流动部署的 deepseek 使用如何和官方的有什么区别吗？那个更好了？",
           "link": "https://www.v2ex.com/t/1109433",
           "publishedOn": "2025-02-06T11:10:03.000Z",
-          "wordCount": 404,
+          "wordCount": 406,
           "title": "硅基流动部署的 deepseek",
           "imageUrl": null
         },
@@ -419,7 +452,7 @@
           "description": "lijiantea: \n问题如图。感谢。",
           "link": "https://www.v2ex.com/t/1109430",
           "publishedOn": "2025-02-06T11:04:05.000Z",
-          "wordCount": 377,
+          "wordCount": 379,
           "title": "android 版 wine 只更新到 7.0 版，安装时提示 sdk 版本过低，有替代方案吗？",
           "imageUrl": null
         },
@@ -469,7 +502,7 @@
           "description": "xtx: 记录仪视频： https://b23.tv/X6yk711\n各位看完视频可以先想想这哥们有几处违规行为。\n每天都要打开随申办瞅两眼，因为过年的原因，审核时间挺久的，现在过完年了，交警叔叔开始上班了，猛猛过，开年红包了属于是。\n举报了六项目前还有一个连续跨越双车道还在审核中，不知道六项都过这哥们要扣几分。\n随申办真好用！我爱说实话。",
           "link": "https://www.v2ex.com/t/1109425",
           "publishedOn": "2025-02-06T10:47:09.000Z",
-          "wordCount": 385,
+          "wordCount": 444,
           "title": "爽！年前遇到一辆马路当自家客厅的理想，直接给这哥们来了个大满贯套餐。",
           "imageUrl": null
         },
@@ -499,7 +532,7 @@
           "description": "AhECbt: \nhttps://greasyfork.org/ 也成为历史了。\n这次似乎很彻底，全部的，完整的污染加阻断。\n各位发表下获奖感言。",
           "link": "https://www.v2ex.com/t/1109422",
           "publishedOn": "2025-02-06T10:34:00.000Z",
-          "wordCount": 433,
+          "wordCount": 115,
           "title": "greasyfork.org 再次被墙，彻底的。",
           "imageUrl": null
         },
@@ -559,7 +592,7 @@
           "description": "ztstillwater: \n我在日本家庭的宽带自从一个月之前安装开通后，ipv4 和 ipv6 公网的 IP 地址一直没变过，是否可以认为固定了？",
           "link": "https://www.v2ex.com/t/1109414",
           "publishedOn": "2025-02-06T10:08:58.000Z",
-          "wordCount": 353,
+          "wordCount": 366,
           "title": "大家说的公网 IP 会变动，周期是多久？",
           "imageUrl": null
         },
@@ -579,7 +612,7 @@
           "description": "huzhikuizainali: \n以下截图出自《数学分析新讲》第一册 P114 。问题在截图下方\n\n\n证明过程中通过不断缩小无界闭区间套，已经导出了在 U(c,η)内有界了。而 U(c,η)又是包含在不断缩小的闭区间套[an,bn]中，自然包括在区间[a,b]内的。那么此时已经出现了矛盾。因此连续函数在区间[a,b]就不可能无界了。\n后面为什么还要进一步在 U(c,η)内寻找闭区间套[am,bm]来证明矛盾呢？\n此外，如果我用上面的证明逻辑来证明连续函数在开区间(a,b)有界，会在哪一步失败呢？（我知道这个命题不成立，因为 y=1/x 可以证否该命题。但是我想通过该命题进一步理解书中证明方法！）\n请不要提供 gpt 的回答，十分感谢！",
           "link": "https://www.v2ex.com/t/1109412",
           "publishedOn": "2025-02-06T10:01:01.000Z",
-          "wordCount": 408,
+          "wordCount": 443,
           "title": "闭区间连续函数有界的证明过程中已经找到了矛盾的区间 U(c,η)，为什么后续还要找闭区间[am,bm]?",
           "imageUrl": null
         },
@@ -599,7 +632,7 @@
           "description": "ysxb1145:  /t/1109277\n写了一篇东西放在树洞节点一天下来只有 16 浏览，之前发过的东西高低也有几十，现在我有两个疑问：一个是我这篇帖子的节点是否放置正确，不正确的话应该放在哪里？第二个是 V2 是否有这样的机制，就是只有那些热门节点内容才能上首页吗",
           "link": "https://www.v2ex.com/t/1109410",
           "publishedOn": "2025-02-06T09:54:14.000Z",
-          "wordCount": 1465,
+          "wordCount": 1300,
           "title": "V 站是只有固定节点内容才能上首页吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -609,7 +642,7 @@
           "description": "apollo007: \n设备是 mbp m1 ，当初预算有限就买了 256G ，用了 2 年空间不够用了，需要配一个外接的移动硬盘，有推荐耐用的吗？\n我的诉求是：耐用，别用着用着就挂了，里面的资料是无价的啊！价格也别太高了，预算有限。谢谢兄弟们",
           "link": "https://www.v2ex.com/t/1109409",
           "publishedOn": "2025-02-06T09:48:02.000Z",
-          "wordCount": 432,
+          "wordCount": 448,
           "title": "求助各位，我的 MacBook 需要配一个外接的移动硬盘",
           "imageUrl": null
         },
@@ -649,7 +682,7 @@
           "description": "wmaee: 今年看央视春晚，后半段有个歌曲节目叫伟业，内容大概是社会各行各业的代表合作唱完一首歌，其中也有个农民代表，一出场，舞台形象还是粗布挂衫 + 布鞋 + 草帽\n我立马想起了赵本山经典小品白云黑土，塑造的农民形象耿直愚昧，与时代有点脱节，惹人大笑。都 2025 年了，一谈起农民工，感觉在像春晚这样全国性的电视节目上，农民形象还是没有进化，永远是面朝黄土背朝天的感觉\n编排这些节目的导演怎么想的呢？",
           "link": "https://www.v2ex.com/t/1109404",
           "publishedOn": "2025-02-06T09:32:38.000Z",
-          "wordCount": 617,
+          "wordCount": 641,
           "title": "多少年了，农民的形象还是布鞋加草帽",
           "imageUrl": null
         },
@@ -659,7 +692,7 @@
           "description": "retrocode: \n每年一度相亲季, 我现在很烦朋友圈三天可见这个玩意,基本是个女生都是开的三天可见,跟防贼一样,一开头互相介绍完情况,就不知道该聊什么了, 想看下朋友圈快速了解一下对方个人兴趣爱好之类的吧,什么都没有\n紧接着就是互相问环节,碰上冷淡一点的简直是灾难,努力找各种话题,基本上就是不知道,了解过,这种反应很冷淡基本上就是聊不下去,我试过把话题往工作上引,引到吐槽老板上偶尔还能打开话匣子,但成功率也不高\n我个人的感受是, 出来相亲的这帮女生一开始态度都很绷得住, 基本喜笑不形于色的, 那你出来相亲干嘛我说,\n最后来个男方不主动,自己比较慢热, 锅甩我这边来了, 相亲一般都熟人介绍嘛,最后落个我要求太高给我一顿数落,他奶奶的\n不好意思,写着写着成吐槽了, 回归正题, 就是你们一般都是如何快速打开话匣子的?有什么经验分享吗?",
           "link": "https://www.v2ex.com/t/1109402",
           "publishedOn": "2025-02-06T09:26:21.000Z",
-          "wordCount": 538,
+          "wordCount": 555,
           "title": "[江湖救急]相亲次数比较多的老哥进来交流下,在第一次见或加好友与相亲对象聊天时,一般该如何打开话匣子?",
           "imageUrl": null
         },
@@ -689,7 +722,7 @@
           "description": "librasolo: \n过年和朋友聚了一下，发现工资确实比想象中低很多，我一直在家都可以拿到 6k 左右，原来朋友们在家拿的很低，包括一些家庭情况之类的，所以规劝了朋友外出闯荡一番。\n但是我个人的想法和认知确实比较浅显，还是看看大家都有什么好的想法和思路，来找到一条满意的道路吧。\n朋友目前情况：\n双非本 英语专业\n3 年工作经验(2 年补习老师，1 年的前台/总助)\n英语专八 教师资格证 英语六级\n性格偏向于 I 人，聊天过程中感觉还是很单纯，爱幻想\n我的想法可能是推荐一些，行政，外贸等方向，或者继续教培方面，不过要换一个大城市。看大家的有何见解吧，感谢🙇‍",
           "link": "https://www.v2ex.com/t/1109399",
           "publishedOn": "2025-02-06T09:20:33.000Z",
-          "wordCount": 550,
+          "wordCount": 566,
           "title": "帮朋友问下，英语专业怎么就业",
           "imageUrl": null
         }
