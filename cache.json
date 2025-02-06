@@ -191,6 +191,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -299,7 +326,7 @@
           "description": "retrocode: \n每年一度相亲季, 我现在很烦朋友圈三天可见这个玩意,基本是个女生都是开的三天可见,跟防贼一样,一开头互相介绍完情况,就不知道该聊什么了, 想看下朋友圈快速了解一下对方个人兴趣爱好之类的吧,什么都没有\n紧接着就是互相问环节,碰上冷淡一点的简直是灾难,努力找各种话题,基本上就是不知道,了解过,这种反应很冷淡基本上就是聊不下去,我试过把话题往工作上引,引到吐槽老板上偶尔还能打开话匣子,但成功率也不高\n我个人的感受是, 出来相亲的这帮女生一开始态度都很绷得住, 基本喜笑不形于色的, 那你出来相亲干嘛我说,\n最后来个男方不主动,自己比较慢热, 锅甩我这边来了, 相亲一般都熟人介绍嘛,最后落个我要求太高给我一顿数落,他奶奶的\n不好意思,写着写着成吐槽了, 回归正题, 就是你们一般都是如何快速打开话匣子的?有什么经验分享吗?",
           "link": "https://www.v2ex.com/t/1109402",
           "publishedOn": "2025-02-06T09:26:21.000Z",
-          "wordCount": 451,
+          "wordCount": 469,
           "title": "[江湖救急]相亲次数比较多的老哥进来交流下,在第一次见或加好友与相亲对象聊天时,一般该如何打开话匣子?",
           "imageUrl": null
         },
@@ -309,7 +336,7 @@
           "description": "hanxu317138: \n想通过 webpack 构建时 JavascriptParser Hooks 去解析所有的 \"Literal\" 节点, 获取[\"hello-world\", \"hello]\nconsole.log(\"hello-world\");\nvar name = \"hello\";\n\n但是实操半天发现没有任何头绪, 各种方法文档哪怕各种 gpt 都用了. 依然没有方案~~\n有哪个大佬做过. 求分享",
           "link": "https://www.v2ex.com/t/1109401",
           "publishedOn": "2025-02-06T09:23:49.000Z",
-          "wordCount": 427,
+          "wordCount": 442,
           "title": "webpack 求助如何解析字符串变量",
           "imageUrl": null
         },
@@ -319,7 +346,7 @@
           "description": "ArthurBruin: \n近年 AI 的发展，每月都有新的技术突破，不断刷新人类的已有认知。感慨生物人的物理构造太低端了\n学习能力差\n每一个知识点需要耗费大量时间去理解、找关联、才能形成体系，相对于 AI 模型来说，给数据训练后就能得出准确结果；\n记忆力差\n虽说人类生物大脑神经元有 860 亿神经元，但是相对于半导体存储来说真的是太 LOW 了，记忆 11 位电话号码都需要重复写入多遍并且无冗余机制，相对而言，几十年前最慢的半导体存储器 EPROM 也才 10 毫秒/字节，并且一次写入即可准确无误保存几十年；\n一致性差\n人类思考、记忆力时间有限，在短暂的生命周期中只有 10~30 岁左右是高峰期，生命前段要从 0 积累知识，生命后期又因为细胞衰老各项机能都跟不上，越来越差；但相对于半导体 AI 来说，整个过程都是一致，虽然会存在半导体老化，但是只要数据不丢，部件更新后又青春焕发；\n知识传递效率低\n人类知识传承效率太低了，不能直接通过脑对脑的知识传递，全部是间接传递：大脑>发送器官（口诉&手写文字）>接收器官（眼&耳）>理解>另一大脑，传输效率可能还不到 1Byte/秒，这还不算传输失真，中间任何一个环节有差错知识就无法有效接收，相对而言现在最普通机械硬盘速率也能到 60MByte/秒，并且即便是传输 1YB 数据也能保证准确无误；\n会劳累疲惫\n人类工作半天要休息半天，细胞代谢更新需要定时清理，否则就会宕机，相对而言 AI 真正 24*7 小时工作；\n无法分布式协助\n人类个体之间均是独立的，无法与其他人类形成集群无缝协助，即便是通过公司团队办公方式也是效率低的可怕，而 AI 则可以做到高效无缝协作；\n无法完全克隆：\n怀孕孕育过程太漫长且低效了，即便是现在能克隆出来的个体，大脑也是一片空白，也要从头开始学习，而 AI 可以无限复制\n寿命短\n生物人寿命平均按 100 年算吧，而 AI 理论上是没寿命限制的，即便是中途断电 100 年，只要数据还在都能接着玩\n现阶段唯一能想到作为生物人的优点是：出生后即有思想及自我意识，但这个优点可能也会马上被 AI 打破了，可预见未来 10 年内 AGI 肯定会出现！\n哎，想到这些就不想学习了！所有事情都让 AI 去做了吧，当然这篇文章也是通过 AI 润色过的！\nPS：但有一点值得期待的是，如果类似 Musk 的脑机接口能实现大脑 bit 级的克隆，到时候生物人也能摆脱肉体束缚变成半导体 AI 人，到时候咋们在虚拟世界中再讨论这个问题吧，但愿在我肉体消亡之前实现就好了！",
           "link": "https://www.v2ex.com/t/1109400",
           "publishedOn": "2025-02-06T09:22:00.000Z",
-          "wordCount": 488,
+          "wordCount": 524,
           "title": "作为生物人类的感慨：人类物理构造太 LOW，进化太慢了",
           "imageUrl": null
         },
@@ -329,7 +356,7 @@
           "description": "librasolo: \n过年和朋友聚了一下，发现工资确实比想象中低很多，我一直在家都可以拿到 6k 左右，原来朋友们在家拿的很低，包括一些家庭情况之类的，所以规劝了朋友外出闯荡一番。\n但是我个人的想法和认知确实比较浅显，还是看看大家都有什么好的想法和思路，来找到一条满意的道路吧。\n朋友目前情况：\n双非本 英语专业\n3 年工作经验(2 年补习老师，1 年的前台/总助)\n英语专八 教师资格证 英语六级\n性格偏向于 I 人，聊天过程中感觉还是很单纯，爱幻想\n我的想法可能是推荐一些，行政，外贸等方向，或者继续教培方面，不过要换一个大城市。看大家的有何见解吧，感谢🙇‍",
           "link": "https://www.v2ex.com/t/1109399",
           "publishedOn": "2025-02-06T09:20:33.000Z",
-          "wordCount": 474,
+          "wordCount": 508,
           "title": "帮朋友问下，英语专业怎么就业",
           "imageUrl": null
         },
@@ -339,7 +366,7 @@
           "description": "huranzhijian: \niCloud 2T 土区套餐稳定车\n5 人车，每人 400G\n目前差 2 人\n季付 33 年付 132\n绿色 dksycVc3cVg2eVc2aFRfd3hpZA==",
           "link": "https://www.v2ex.com/t/1109398",
           "publishedOn": "2025-02-06T09:18:57.000Z",
-          "wordCount": 374,
+          "wordCount": 376,
           "title": "土区 iCloud+2T 5 人家庭组缺 2",
           "imageUrl": null
         },
@@ -349,7 +376,7 @@
           "description": "agood: 先说优点：价格便宜（ 100 元左右），没有续航焦虑，佩戴舒适想戴多久都可以，真无损，不像蓝牙有时候有干扰会断断续续，个人感觉音质和 AirPods pro 差不多\n缺点：有线戴着走路不方便，容易掉，没有降噪、空间音频等功能",
           "link": "https://www.v2ex.com/t/1109396",
           "publishedOn": "2025-02-06T09:14:04.000Z",
-          "wordCount": 371,
+          "wordCount": 375,
           "title": "买了个 EarPods USB-C 体验还不错",
           "imageUrl": null
         },
@@ -359,7 +386,7 @@
           "description": "lengrongec: 虽然知道它漏洞很多，但是谁不图用起来方便\n在家里玩客云上用 docker 部署了它和 adguard ；\n无意间发现可以只要把 npm 的 docker 网络由 bridge 改为 host 主机模式，如果使用 ddns 解析到 ipv6 ，在做反代的时候内网可以使用局域网的 ipv4 地址。这样不影响外网的 ipv6 访问。可以精准访问内网服务",
           "link": "https://www.v2ex.com/t/1109395",
           "publishedOn": "2025-02-06T09:11:37.000Z",
-          "wordCount": 407,
+          "wordCount": 411,
           "title": "nginx proxy manager ipv6 反代指向内网 ipv4 局域网地址，还可以这样操作🤔？",
           "imageUrl": null
         },
@@ -369,7 +396,7 @@
           "description": "xcm153: \n最近遇到一个女生，性格很好很有趣，满满的情绪价值，但是样子比较普通，朴素，不是我喜欢的类型，刚开始接触想着帮她改造，让她化妆，穿好看衣服，爱美，但后面她也开始反感，质疑我太关注外貌\n我也知道不要以貌取人，但是心里还是有些嫌弃，而且之前谈的都是好看的类型，想找个心动的女生\n奔着结婚去的，我该怎么办",
           "link": "https://www.v2ex.com/t/1109394",
           "publishedOn": "2025-02-06T09:09:04.000Z",
-          "wordCount": 542,
+          "wordCount": 609,
           "title": "找对象遇到了一个女生，性格很好很有趣，但是长相普通不是很喜欢，我该怎么办？",
           "imageUrl": null
         },
@@ -379,7 +406,7 @@
           "description": "ixixi: \n本站几乎每个人都有自己项目，项目都有生命周期。\n想放弃但是觉得再投入一些精力努努力可能会有起色，会不停的犹豫怀疑。\n反反复复会浪费很多时间",
           "link": "https://www.v2ex.com/t/1109392",
           "publishedOn": "2025-02-06T09:06:50.000Z",
-          "wordCount": 369,
+          "wordCount": 376,
           "title": "如何下决定放弃一个项目 ？",
           "imageUrl": null
         },
@@ -389,7 +416,7 @@
           "description": "go522000: \n我属龙，应该是去年才是本命年才对啊，怎么 2025 一开局就崩了呢？\n年底比较忙，可能是比较晚睡上火了。\n最开始是在农历 29 ，感觉牙龈有点肿痛，牙有点痛，想着只是上火，喝点降火的冲剂就好了，没理它。晚上吃完饭有点晕，6 点半就去睡觉到第 2 天早上 6 点才醒。\n然后就开始了，鼻塞（应该是病毒感染，鼻涕都是绿色的，深绿色），然后喉咙痛，嘴唇上还长疱疹，耳鸣，再加上本身是个近视眼，整个头七个孔没个地方是好的。\n大年补一的，经常去问的诊所没开门，就村里找个老中医，开了几封中药，喝了几天毛用都没有，整个喉咙都没声音了，一说明就痒咳嗽。\n没办法，问了朋友，找到一个朋友他比较熟悉的医生，请人家来开门问诊，开了西药，吃了三天才不会流绿鼻涕，耳鸣在初二的时候就好了，到补七只剩下喉咙还没有啥声音。\n初八要开工，晚上朋友问要不要去吃鱼粥，想着喝粥而已不上火就去了，一个春节都没出门，就出发了。\n他来载我，一上车，他的后座放了一堆野营的东西，因为是晚上比较晚，我没有穿运动鞋，一双人字拖往车里一伸，被塑料盒子划了一道口，鲜血直流。\n。。。粥没喝成，还得消毒疗伤。\n初八带着口罩上班。",
           "link": "https://www.v2ex.com/t/1109391",
           "publishedOn": "2025-02-06T09:06:15.000Z",
-          "wordCount": 383,
+          "wordCount": 387,
           "title": "这个春节过得像是渡劫一样，五感剥夺。",
           "imageUrl": null
         },
@@ -399,7 +426,7 @@
           "description": "farseeraliens: \n求个分布式存储或搜索架构的工作机会，十年以上经验的老 cpper 。\n战绩包括算法优化掉一半的 cpu 占用，指令集优化掉一半的 CPU 占用，徒手撸 CPP 版 cassandra 等。",
           "link": "https://www.v2ex.com/t/1109390",
           "publishedOn": "2025-02-06T09:05:47.000Z",
-          "wordCount": 378,
+          "wordCount": 391,
           "title": "北京的底层存储/架构研发岗求职",
           "imageUrl": null
         },
@@ -419,7 +446,7 @@
           "description": "q11391: \n一年两箱油选手，想问下有没有经验的 v 友，离得远点也可以",
           "link": "https://www.v2ex.com/t/1109388",
           "publishedOn": "2025-02-06T08:58:44.000Z",
-          "wordCount": 384,
+          "wordCount": 399,
           "title": "v 友们，天通苑附近有没有停车免费的地方？",
           "imageUrl": null
         },
@@ -439,7 +466,7 @@
           "description": "alphaControler: \n有没有关注广州房市的 V 友？我职业是开发没有在广州呆过，目前存款 100 万左右，不想欠太多房贷，所以计划找总价在 200 万以内的房子，够在广州入手一套吗？在哪个片区或者地铁站附近找比较好？",
           "link": "https://www.v2ex.com/t/1109385",
           "publishedOn": "2025-02-06T08:49:34.000Z",
-          "wordCount": 468,
+          "wordCount": 451,
           "title": "广州的 V 友帮忙说下在哪个片区买房比较好",
           "imageUrl": null
         },
@@ -449,7 +476,7 @@
           "description": "cydleadingx: 岗位职责:\n1 、负责高并发系统服务端的架构设计&开发&性能优化；\n2 、负责后端业务系统功能开发。\n任职资格:\n1 、本科及以上学历，计算机相关专业。\n2 、熟练掌握 Golang 语言，2 年以上经验，能快速上手项目开发。\n3 、熟悉 linux 服务端开发工作；\n4 、熟悉 MySQL 数据库，并熟悉 redis ，es 或其他 nosql 数据库；\n5 、熟悉微服务架构，有高并发，大数据经验者；\n6 、具备一定的系统调优、性能调优，对疑难技术问题具备较强的排查能力；\n7 、具备良好的编码习惯，结构清晰，命名规范，逻辑性强，代码冗余率低；\n8 、熟悉 Internet 常用协议，如 HTTP 、TCP/IP 、熟悉 RESTful 规范；\n9 、有 k8s 经验优先；\n9 、热爱编程，有使命感和自我驱动力和团队协作能力。\n请先填写基础信息\nhttps://xinpianchang.feishu.cn/share/base/form/shrcncdT6jKDNKNyuY8ckosq9Lg\n\n求靠谱兄弟勾搭",
           "link": "https://www.v2ex.com/t/1109382",
           "publishedOn": "2025-02-06T08:38:09.000Z",
-          "wordCount": 480,
+          "wordCount": 490,
           "title": "[北京] 资深 golang 30k+",
           "imageUrl": null
         },
@@ -459,7 +486,7 @@
           "description": "linzhai: \n大家是不是本周都没什么事干，专注于摸鱼😏",
           "link": "https://www.v2ex.com/t/1109381",
           "publishedOn": "2025-02-06T08:37:02.000Z",
-          "wordCount": 396,
+          "wordCount": 377,
           "title": "开工第一周",
           "imageUrl": null
         },
@@ -479,7 +506,7 @@
           "description": "MFWT: \n一直以来都是 NATv6 凑合着用，但是最近想要让下游的 BT 机器也有 v6 入站的能力，感觉还是研究一下比较好\n环境\n光猫是移动的 H3-2r ，已经干进去了 Telnet （但无从下手），改了桥接\n主路由是一台跑了 Debian 12 的小主机，PPPoE 拨号可以正常拿到双栈地址（ v6 是/64 的地址）\n状况\n按照网上教程使用 wide-dhcpv6-client ，却无法获取 IPv6 PD 。手动运行 dhcp6c 也拿不到前缀，表现为远端无响应：\nroot@router:~# dhcp6c -dDfi ppp0\n\nFeb/06/2025 16:14:06: get_duid: extracted an existing DUID from /var/lib/dhcpv6/dhcp6c_duid: 00:01:00:01:2e:3a:7b:ae:*:*:*:*:*:*\nFeb/06/2025 16:14:06: dhcp6_reset_timer: reset a timer on ppp0, state=INIT, timeo=0, retrans=720\nFeb/06/2025 16:14:07: client6_send: a new XID (58d61a) is generated\nFeb/06/2025 16:14:07: copy_option: set client ID (len 14)\nFeb/06/2025 16:14:07: copy_option: set elapsed time (len 2)\nFeb/06/2025 16:14:07: client6_send: send information request to ff02::1:2%ppp0\nFeb/06/2025 16:14:07: dhcp6_reset_timer: reset a timer on ppp0, state=INFOREQ, timeo=0, retrans=987\n\n# 之后都是不断的重试\n\n\n尝试过\nping ff02::1:2%ppp0（通不通过-I 指定接口都尝试过），无响应\n切换为光猫拨号，就可以在光猫后台看到前缀，下级路由也可以拿到前缀，继续分地址（之所以不使用光猫拨号，原因在于，此时下级设备分到的 IPv6 地址的入站访问会被光猫拦截，即使是已经把所有 WebUI 上能找到的和防火墙有关的开关全部关闭，外部网络路由追踪可以发现，显示到光猫那一跳，再往下就没有任何回应了。而如果是路由器拨号，那么就可以一路直通到路由器，访问服务也正常）\n我的问题：\n可能会是因为光猫拨号时候有加入其他的参数进行鉴权吗？\n可能会和光猫 MAC 地址什么的有关系吗？\n这个小主机 WAN 口并不是直接接入路由器，而是类似 Trunk 口，接入网管交换机，通过 VLAN 一分四，再选一个接口（ 本例中 ppp0 对应的是 eth1.10 ）连接到光猫，会和这个有关系吗？\n以前使用 OpenWRT 软路由的时候没这么多幺蛾子，我需要尝试更换为 OpenWRT-x86 吗？\n后注：\n如有需要补充日志的，请留言指出，谢谢！",
           "link": "https://www.v2ex.com/t/1109379",
           "publishedOn": "2025-02-06T08:31:31.000Z",
-          "wordCount": 519,
+          "wordCount": 523,
           "title": "广东移动，路由器拨号无法获取 IPv6 前缀，光猫拨号可以，何解？",
           "imageUrl": null
         },
@@ -489,7 +516,7 @@
           "description": "tangler: \n当年毕业的时候赶上互联网(修仙)的红利,工作机会(灵气)很多,随便找了家公司就入职(筑基)了,可以开始程序员(修仙)之路\n现在慢慢行业萎缩(灵气减少)了,干了这么多年(修炼了这么久)还是个大头兵(筑基后期),没有遇上好的项目领导(机缘),马上就要到被失业的年纪了(即将坐化)\n韩天尊有小绿瓶逆天改命,普通人又能干啥呢",
           "link": "https://www.v2ex.com/t/1109377",
           "publishedOn": "2025-02-06T08:24:54.000Z",
-          "wordCount": 483,
+          "wordCount": 495,
           "title": "突然感觉程序员生涯就像凡人修仙传的世界",
           "imageUrl": null
         },
@@ -499,7 +526,7 @@
           "description": "joyhub2140: \n春节前把书房里三个书架上的所有关于 IT 相关的书记全部撤下了，换成经典的漫画书、儿童读物，模型、手办、手柄。\n已不知疲倦地卷了 10 年，是时候拥抱生活，把自己大量时间归还给自己的家人，并不是要告别自己的职业生涯，而是本职的事情可以更轻松地完成，无需再以苦行僧的修炼方式前行，再继续内卷下去的意义已经不大。\n如果未来小孩子某天问我一道书本上的题目，我还是会尝试以自己的理解去解答，如果不会，再拿出手机，同时问 chatgpt ，Gemini ，deepseek 三个 app ，选一个简单易懂的当面给娃解答。",
           "link": "https://www.v2ex.com/t/1109376",
           "publishedOn": "2025-02-06T08:21:24.000Z",
-          "wordCount": 401,
+          "wordCount": 413,
           "title": "试用一段时间的 deepseek 和 cursor 之后，一下子释怀了。",
           "imageUrl": null
         },
@@ -509,7 +536,7 @@
           "description": "chittypaopao: \n💻 21 个 Kong 中国开发岗位正在火热招聘中，我们的研发中心已经搭建 3 年啦，布局的是核心产品开发团队💪。详情请直接👇官方招聘\n\n🚀 加入 Kong 中国，开启你的技术之旅！🚀🌊 我们有一个工位，面朝新天地，背靠马当路，春暖花开，等你来坐！🌺\n🔧 招聘岗位：\n2 个 AI Gateway 开发：Rust, Lua 🛠️\n7 个网关开发：Rust, Lua 🌐\n1 个资深网关开发经理：Rust, Lua, C++ 🧠\n1 个全栈开发，偏前端：Vue, Go 🎨\n3 个前端开发：React ⚛️\n4 个前端开发：Vue 🖌️\n2 个网关测试开发：TS/JS, Cypress ，英语口语流利 🗣️\n1 个后端开发：Go 🚀\n欢迎感兴趣的朋友直接投递您的英文简历到 china-hiring@konghq.com ，Kong Offer 等你来拿！\nKong 祝大家 2025 蛇么都有，万事大吉！",
           "link": "https://www.v2ex.com/t/1109375",
           "publishedOn": "2025-02-06T08:19:15.000Z",
-          "wordCount": 455,
+          "wordCount": 459,
           "title": "21 个 Kong 中国开发岗位正在招聘中！🎉 加入我们， No AI without APIs！🎉",
           "imageUrl": null
         },
@@ -519,7 +546,7 @@
           "description": "geluofeng: \naldente 开启充电 80%限制后，没有打开在睡眠后停止 MacBook 充电，按照官网的说法，我的 Mac 在休眠后应该会自动充满电，但为什么合盖休眠后电源适配器依然不给电池充电，起床看还是原来的电量",
           "link": "https://www.v2ex.com/t/1109374",
           "publishedOn": "2025-02-06T08:18:08.000Z",
-          "wordCount": 398,
+          "wordCount": 413,
           "title": "aldente 影响 Mac 睡眠问题",
           "imageUrl": null
         },
@@ -539,7 +566,7 @@
           "description": "internelp: 这两天讨论高速开车的帖子真是各种思想大碰撞，令我大为震惊。\n标题中的问题应该很多人都会碰到，你们会如何处理呢？\n如果觉得已经顶着限速开了没问题不让，后面一辆接一辆的车迅速接近，然后大家都是纷纷从你右侧超车。\n各别车的驾驶员生气你不让，超车后迅速从右侧往你这边并试图这样吓唬你，你又当如何？",
           "link": "https://www.v2ex.com/t/1109372",
           "publishedOn": "2025-02-06T08:16:23.000Z",
-          "wordCount": 856,
+          "wordCount": 918,
           "title": "你在左车道 GPS 速度已经 120 了，后面有车迅速接近你，你让不让？",
           "imageUrl": null
         },
@@ -549,7 +576,7 @@
           "description": "AnotherSola: \n背景\n目前租房，且短时间内无购房打算，且目前住房不打算长租，原因是目前房子不太满意也不太合适，上班比较着急随便找的，打算下个房子找满意一点的。\n想装的东西以及原因\n智能门锁：带钥匙不方便，且一旦忘了带就得花 80 开锁\n洞洞板：书房用，感觉会很方便，但要打孔又感觉不太方便\n智能马桶：现在的马桶太次了，冲水效率极差\n升降桌电竞椅：没什么好说的，it 人士，提升玩电脑体验\n一些智能灯具等等。。。\n纠结的点\n主要还是因为是租房，很多东西装了也不方便带走（比如门锁、灯具），花钱整一次性用品总感觉太浪费了，其次也不想给房东留便宜，因为租房的时候他太抠了，让我很不爽。\n另一个纠结的点是：租房究竟是为了生活还是只是当个打工休息的地方。这点就很矛盾了。。有时候觉得折腾下能让自己的生活体验更好点，有时候又觉得很没必要，毕竟一搬家很多东西都要从头再来，也很麻烦，这时候就会想：能住就行。\n或者大家有无一些搬家的迁移方案、打包方案（门锁怎么一起带走之类的）等等？\n现在确实挺纠结的，每天回去觉得家里面各种东西用的难受，想花钱搞又觉得不值。。。租房人的痛",
           "link": "https://www.v2ex.com/t/1109371",
           "publishedOn": "2025-02-06T08:13:23.000Z",
-          "wordCount": 596,
+          "wordCount": 635,
           "title": "租房，但是想装一些能提升生活品质的东西，问下大家看法",
           "imageUrl": null
         },
@@ -569,7 +596,7 @@
           "description": "barantt01:",
           "link": "https://www.v2ex.com/t/1109369",
           "publishedOn": "2025-02-06T08:08:52.000Z",
-          "wordCount": 395,
+          "wordCount": 433,
           "title": "除了 V2EX，大家还在用什么其他摸鱼的论坛？",
           "imageUrl": null
         },
@@ -609,7 +636,7 @@
           "description": "miaomiaotu: 有人买川普币吗，我 26 买的，做 t 失败了，24.3 卖了。然后 16.8 买进去了，不知道会不会接着跌破这个，",
           "link": "https://www.v2ex.com/t/1109363",
           "publishedOn": "2025-02-06T07:58:17.000Z",
-          "wordCount": 496,
+          "wordCount": 465,
           "title": "川普币上不",
           "imageUrl": null
         },
@@ -619,7 +646,7 @@
           "description": "xzg1993: \n今天突然的觉得，好没劲啊。是时候开启人生下一阶段了吧",
           "link": "https://www.v2ex.com/t/1109362",
           "publishedOn": "2025-02-06T07:57:28.000Z",
-          "wordCount": 433,
+          "wordCount": 448,
           "title": "是到年纪了吗，今天突然的觉得很多事情都很无趣。",
           "imageUrl": null
         },
@@ -649,7 +676,7 @@
           "description": "syh2: \nApple Watch S8 已经用了快 2 年了，都是除了洗澡和充电的时候，基本每天戴着，一天 2 充的样子（晚上戴一晚睡醒之后掉到 70+了，没办法支撑一天），所以起床会充一次。\n4 月初 Apple Care+就要到期了，想免费换个电池。。怎么样才能健康度到 80%一下啊？\n我目前主要就日常听歌、收信息、接打电话（比较少），很少运动之类的。然后电池保护模式拿到手就关掉了（因为充电太慢了）",
           "link": "https://www.v2ex.com/t/1109359",
           "publishedOn": "2025-02-06T07:43:18.000Z",
-          "wordCount": 422,
+          "wordCount": 423,
           "title": "Apple Watch 一直维持在 82%好几个月，怎么才能降到 80%以下",
           "imageUrl": null
         },
@@ -659,7 +686,7 @@
           "description": "faizgear: 最近获得了公司的股权激励，公司是朝阳产业，正处于快速发展阶段，犹豫是否要买？买的话要考虑哪些因素？",
           "link": "https://www.v2ex.com/t/1109358",
           "publishedOn": "2025-02-06T07:41:17.000Z",
-          "wordCount": 457,
+          "wordCount": 442,
           "title": "朝阳产业的股权激励是否可买？",
           "imageUrl": null
         },
@@ -669,7 +696,7 @@
           "description": "unt: 从客户要求，系统架构，公司内部技术栈，领导偏好，个人使用体验等多方面聊聊",
           "link": "https://www.v2ex.com/t/1109357",
           "publishedOn": "2025-02-06T07:40:36.000Z",
-          "wordCount": 704,
+          "wordCount": 703,
           "title": "过来人说说， postgresql 和 mysql 究竟怎么选",
           "imageUrl": null
         },
@@ -689,7 +716,7 @@
           "description": "hushes: \n有位置的话留个联系方式",
           "link": "https://www.v2ex.com/t/1109353",
           "publishedOn": "2025-02-06T07:32:10.000Z",
-          "wordCount": 372,
+          "wordCount": 115,
           "title": "Surge for Mac 还有一个位置的吗？",
           "imageUrl": null
         }
