@@ -310,6 +310,186 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1109471",
+          "author": "chinaguaiu",
+          "description": "chinaguaiu: \n写了一篇在 x 鱼上卖二手的帖子，吐槽现在机器人很多，结果换了好几个节点都发不出去，v 站提示：请不要把和技术无关的敏感话题发到这里\n服了，我把想到的敏感词删了半天没什么用。我想发的这个主题有问题吗？",
+          "link": "https://www.v2ex.com/t/1109471",
+          "publishedOn": "2025-02-06T15:29:07.000Z",
+          "wordCount": 392,
+          "title": "请问 v 站发帖现在是有话题限制吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109470",
+          "author": "qazwsxkevin",
+          "description": "qazwsxkevin: \n先前写好的 config.yaml ，是正常运行的\n现在所在场所的宽带网络设备年后发生了变化（估计是宽带路由器的防火墙升级了）\n现在更新 providers 的 url 都不行，多数节点也连接不上\n\n请教，mihomo 的 config 是否有这种方式，mihomo 本身也通过 sock5 走出去？\n（这个 sock5 服务器，是不从这个宽带路由器出去的）\n看了 mihomo 的 doc 下面的 example.yaml ，好像不具备这种做法？\n还是要在 linux 系统本身上花功夫，装点什么的，让 mihomo 的进程的流量，全部走 sock5?",
+          "link": "https://www.v2ex.com/t/1109470",
+          "publishedOn": "2025-02-06T15:25:29.000Z",
+          "wordCount": 432,
+          "title": "mihomo 是否存在这种配置（所有流量，先走一个 SOCK5）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109469",
+          "author": "billonetreepty",
+          "description": "billonetreepty: 大家新年好；\n我本来用 google 账号在 gpt 网页端开了 plus 会员的 且已经正常使用一段时间 (证明应该不是信用卡问题；注意这个 google email 和我的 apple id email 不一样）\n前两天在 iphone 16 里面登录这个 gpt extension 之后，发现自己的 gpt 账户突然变成 free 版本了，ios app 和网页端都是， 非常奇怪；我记得当天登陆前都还在用网页端 4o ；也没有收到 openai 的邮件通知；后面试图用信用卡再去网页端 renew subscription 也不行。有没有大佬可以说明下是出了什么问题？\nhttps://imgur.com/a/IkCatbV\n感谢！！",
+          "link": "https://www.v2ex.com/t/1109469",
+          "publishedOn": "2025-02-06T15:25:28.000Z",
+          "wordCount": 393,
+          "title": "Apple Intelligence GPT 登录后自动降级成 Free",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109467",
+          "author": "ilanting",
+          "description": "ilanting: \n祝各位 新年快乐🎉\n一直有个想法,想在农村家里搞一套太阳能储电系统,想存 10-20 度,铅酸电池或其他电池 只要便宜就行,毕竟农村里空地还是挺大的. 北方的天气 还要考虑到冬季和雨水. 平常电跟不上 接入市电补足也行.  大概思路就这些,请教下各位 有没有整体的方案呀. 或者一起讨论下呢.",
+          "link": "https://www.v2ex.com/t/1109467",
+          "publishedOn": "2025-02-06T15:15:44.000Z",
+          "wordCount": 434,
+          "title": "请教各位,太阳能储电相关.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109465",
+          "author": "the1812",
+          "description": "the1812: \n很喜欢 Warp 提供的 Modern UX 输入体验, 但是又觉得其他功能比较多余 (登录账户, Drive, AI 之类的), 尝试找了一些替代品都不支持这种 Modern UX, 不知道是我没找着还是目前根本不存在这样的替代品.",
+          "link": "https://www.v2ex.com/t/1109465",
+          "publishedOn": "2025-02-06T15:03:34.000Z",
+          "wordCount": 402,
+          "title": "有类似 Wrap 的终端推荐吗?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109464",
+          "author": "zisen",
+          "description": "zisen: \nDLSS 有两个关键功能，一个是 AI 超分辨率，另一个是 AI 补帧。\n因此我对 DLSS 的看法就是，如果使用 4060 这种入门显卡，玩 4k 纯属找罪受，要么各种卡顿，要么画质还不如 2k ，也享受不到高刷。而使用 2k 显示器，可以同时享受到 DLSS 超分和补帧两个提升。因此在丝滑的 2k120 帧和卡顿 4k60 帧之间，毫无疑问选择 2k120 帧丝滑体验，还能发挥显卡的最大能力。因此如果你玩的游戏支持 DLSS ，那么一定要高刷显示器，这样补帧才有意义，4k30 帧补到 60 帧的体验远低于 2k60 帧补到 120 帧！\n已经下单了一款 2k180hz 的显示器替换我现在的 4k 显示器了，而且 ps5 玩游戏我也是开 60 帧性能模式，4k 根本用不上，除非是那种不吃性能的游戏。",
+          "link": "https://www.v2ex.com/t/1109464",
+          "publishedOn": "2025-02-06T14:56:20.000Z",
+          "wordCount": 460,
+          "title": "分享一下我对 DLSS 的看法",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109463",
+          "author": "vone",
+          "description": "vone: 从昨天晚上开始，巴西地区的客户陆续有网络异常的反馈，刚开始没有注意，今天反馈异常的人数陆续增加。\n目前 Cloudflare Status 只记录了北京时间 2025 年 2 月 6 日 10 点开始，16 点结束，持续 6 小时的一次故障： https://www.cloudflarestatus.com/incidents/733d94ygcgx1\n\n但是根据用户反馈和巴西当地的监测网站(downdetector) https://downdetector.com.br/fora-do-ar/cloudflare/ 的监测，Cloudflare 的故障并未恢复，从北京时间 19 点开始，仍然有大量当地用户陆续报告无法访问。\n\n目前该问题仍然存在，并且还没有被 Cloudflare Status 记录到。",
+          "link": "https://www.v2ex.com/t/1109463",
+          "publishedOn": "2025-02-06T14:52:28.000Z",
+          "wordCount": 384,
+          "title": "Cloudflare 巴西地区服务故障",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109462",
+          "author": "idragonet",
+          "description": "idragonet: \n打算挂号鼻鼾科看看",
+          "link": "https://www.v2ex.com/t/1109462",
+          "publishedOn": "2025-02-06T14:45:35.000Z",
+          "wordCount": 340,
+          "title": "舍友嫌弃我打呼噜 搬去其他宿舍了，个人 BMI:21 不到",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109461",
+          "author": "chasen",
+          "description": "chasen: YouTube Premium 乌克兰区招 2 人，年付 80 ，联系 TG: @Charson",
+          "link": "https://www.v2ex.com/t/1109461",
+          "publishedOn": "2025-02-06T14:35:58.000Z",
+          "wordCount": 380,
+          "title": "YouTube Premium 招人",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109458",
+          "author": "Abbeyok",
+          "description": "Abbeyok: \ntiktok developer: https://developers.tiktok.com/ \n自己注册实在是太麻烦了，有没有人卖账号，或者转移创建好的 app",
+          "link": "https://www.v2ex.com/t/1109458",
+          "publishedOn": "2025-02-06T14:17:57.000Z",
+          "wordCount": 379,
+          "title": "有没有卖 tiktok developer 账号的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109457",
+          "author": "hazard",
+          "description": "hazard: \n公司和产品简介\nOneTable [壹号表] 是一款致力于通过技术创新推动会计和财务行业效率的软件，主要用于 Excel 和 CSV 数据整理与合并，帮助会计和财务专业人士轻松处理海量文件和数据，节省时间的同时提高准确性，极大提升工作效率和质量。\n招聘岗位\nPython 桌面软件开发工程师或项目团队\n工作地点\n办公地点灵活，支持远程工作\n工作模式\n全职项目制工作模式，预计项目周期为 4-5 个月\n岗位职责\n负责 “OneTable” 产品的功能完善和提升\n确保软件功能符合会计和财务行业的专业需求\n提供稳定、高效的使用体验\n任职要求\n拥有 3-5 年 Python 桌面软件开发经验，熟练掌握 Python 编程语言\n熟悉常见的 Python 桌面开发框架，如 PyQt、PySide 等，能够独立完成桌面软件的开发任务\n熟悉 Flask 框架\n计算机相关专业，具备扎实的计算机基础知识\n具备会计和财务行业软件开发经验优先（不必须）\n具备良好的团队合作精神和沟通能力，能够与团队成员密切合作，共同推动项目的进展\n薪资待遇\n项目工资和奖金面谈\n我们将根据候选人的能力和经验提供具有竞争力的薪酬待遇\n同时，项目完成后还有丰厚的奖金激励\n应聘方式\n请将您的简历发送至 info@onetable.tech，邮件主题请注明 “应聘 Python 桌面软件开发工程师 - [您的姓名]”",
+          "link": "https://www.v2ex.com/t/1109457",
+          "publishedOn": "2025-02-06T14:01:51.000Z",
+          "wordCount": 414,
+          "title": "[代发] Python 桌面软件开发工程师或项目团队招聘（全职）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109456",
+          "author": "gaobh",
+          "description": "gaobh: \n灵机一动发现 cursor 不只能添加修改代码\n来个骚操作，在代码里说说话就能把参数添加到 GA4 事件，再也不用花费大量时间在 GA4 自定义分析上。\nprompt：\n在这个项目中我使用了 GA4 分析，除了 GA4 自带的分析外，你还推荐我添加什么自定义分析？我集成了 Google Tag Manager ，直接在 Google Tag Manager 中添加就可以了。请告诉我怎么添加。",
+          "link": "https://www.v2ex.com/t/1109456",
+          "publishedOn": "2025-02-06T13:21:42.000Z",
+          "wordCount": 396,
+          "title": "cursor 骚操作，说说话为 GA4 添加自定义分析代码",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109455",
+          "author": "lucien94xxx",
+          "description": "lucien94xxx: 公司打算部署个本地的 DeepSeek  671B 版本的需要什么硬件配置，有没有大佬告知下",
+          "link": "https://www.v2ex.com/t/1109455",
+          "publishedOn": "2025-02-06T13:17:50.000Z",
+          "wordCount": 402,
+          "title": "Deepseek R1 671B 本地部署计算机硬件配置？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109454",
+          "author": "tlerbao",
+          "description": "tlerbao: 诸如前后端分离的项目，大家用 Cursor 时是怎么处理的？\n1. 开两个窗口，分别处理两个项目。\n2. 两个项目方一个文件夹下，一个窗口同时处理两个项目。\n3. 向工作区添加两个项目文件夹处理。\n### 问题\n我向 Cursor 工作区添加了两个项目文件夹，但是似乎 Cursor 的 Chat 和 Composer 只能读取到第一个项目下的文件，后面添加的项目似乎他没有进行索引和关注呢？",
+          "link": "https://www.v2ex.com/t/1109454",
+          "publishedOn": "2025-02-06T12:57:45.000Z",
+          "wordCount": 408,
+          "title": "Cursor 是无法处理多项目的工作区吗？大家怎么做？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109452",
+          "author": "zhixiz1007",
+          "description": "zhixiz1007: 最近长时间在家，看着床笠被罩都有些旧了。（有些都被猫抓破了）狗东领了 5 折券买水晶家纺的被罩 60 支面要二百多。康尔馨四件套折后 700 多。以前我刚买房那会（ 18 年） 100 支床笠 1.8*2 也只要不到 200 。有木有类似铭都，康尔馨的代加工厂啊。实在太贵了，家里更新一番感觉开支不小。",
+          "link": "https://www.v2ex.com/t/1109452",
+          "publishedOn": "2025-02-06T12:48:37.000Z",
+          "wordCount": 403,
+          "title": "大家不踩雷的 1688 床笠被罩等家纺店铺可以推荐一下吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109451",
+          "author": "Amose2024",
+          "description": "Amose2024: \n本人业余时间修了个管理方向的硕士学位，经常需要看视频课程或者听音频课程，有的时候一堂课甚至超过 4 个小时。不想听，觉得看起来快多了。求一个应用，可以让我快速上传大文件，并且很快转成文本内容。\n感谢",
+          "link": "https://www.v2ex.com/t/1109451",
+          "publishedOn": "2025-02-06T12:42:40.000Z",
+          "wordCount": 472,
+          "title": "求推荐一个应用可以将音频文件转成文本",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109450",
+          "author": "imba97",
+          "description": "imba97: \n使用\n项目地址：https://dst-recipe.netlify.app\n基本搜索\n在下方输入框中输入关键字，可以是名称、拼音、拼音首字母\n展示食材基本信息、制作必须食材和条件\n\n多个结果\n多个结果可以滑动查看\n\n代码分析\n逻辑上来说是分为两块，一个是食材，一个是食谱\n食材\n每种食材有不同的属性，比如肉度、怪物度、鱼度等等\n所以就需要一个基类来表示食材\nexport abstract class IngredientBase extends InstanceClass {\n  protected abstract _name: string\n\n  /**\n   * 肉度\n   */\n  protected _meat?: number\n\n  /**\n   * 怪物度\n   */\n  protected _monster?: number\n\n  /**\n   * 鱼度\n   */\n  protected _fish?: number\n\n  // ...\n}\n\n实现类\nimport icon from '~/assets/images/ingredients/monster-meat.png'\nimport { IngredientBase } from '~/composables/ingredient/ingredientBaseClass'\n\nexport default class MonsterMeat extends IngredientBase {\n  protected _name = '怪物肉'\n  protected _image = icon\n\n  protected override _meat = 1\n  protected override _monster = 1\n}\n\n食谱\n每种食谱有不同的制作条件，比如所需食材、属性度条件…",
+          "link": "https://www.v2ex.com/t/1109450",
+          "publishedOn": "2025-02-06T12:41:12.000Z",
+          "wordCount": 827,
+          "title": "写了个饥荒食谱速查工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109449",
+          "author": "Liftman",
+          "description": "Liftman: \n店家之前完全不提。。我还特意问了澳版不支持 5g 。欧版支持吧？他说支持。。现在跟我说要刷国行可能支持。。我要是用国行系统我不是有病买欧版。",
+          "link": "https://www.v2ex.com/t/1109449",
+          "publishedOn": "2025-02-06T12:41:01.000Z",
+          "wordCount": 386,
+          "title": "悲伤，欧版 s25u 不支持电信或者移动 5g。联通没试。。。",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1109448",
           "author": "johnwilson",
           "description": "johnwilson: \n要求 DR>=20",
@@ -385,7 +565,7 @@
           "description": "huguadao: \n整了一个由 Notion+Tally+Google 组合提供的软件限免信息小站：xianmian.notion.site\n大家可在 xianmian.notion.site 提交限免和降价信息（数据至 Tally ）\nTally 发送表单提醒邮件～～通过邮件列表中转～～发送给个人邮箱。\nTally 将数据推至 Notion ～～展示在 xianmian.notion.site 上。\n希望邮件方式使用，请将 xianmian@huguadao.com 地址加入白名单。\n自助加入邮件列表（适用于 Google 账号）：发一封邮件给 xianmian+subscribe@huguadao.com ，会收到一封加入邮件（可能在垃圾箱中），点按其中的「 Join This Group 」，跳转的页面中点按「加入群组」，即可加入「软件限免」 Google 邮件邮件列表。\n人工加入邮件列表（适用于其他邮箱账号）：发一封邮件给 jujianren@outlook.com ，在内容中注明加入列表接收信息用的邮箱地址，人工为您加入后，您会收到一封成功加入的邮件通知（可能在垃圾箱中）。\n最终效果就是，当有人提交优惠信息的时候，在列表中的人可以实时收到该信息。当然大家也可以访问小站查阅所有优惠信息。\n热烈欢迎开发者和爱好者提交软件优惠信息，共建共享软件优惠信息库。",
           "link": "https://www.v2ex.com/t/1109439",
           "publishedOn": "2025-02-06T11:45:06.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "「软件限免」信息共建共享方案",
           "imageUrl": null
         },
@@ -445,7 +625,7 @@
           "description": "sighforever: \n现在就在 AI 相关的行业里做应用层，感觉每一个项目落地都很难说真正完全的解决了用户的问题，只能说差不多在特定条件下有一定的效果。和以前的 IT 化项目或互联网传统项目比，效果上的程度差的很远。\n在互联网 C 端，除了编程相关的，几乎没有出圈的产品，其他的差不多都是原有的产品里面增加几个 AI 擅长方面的功能。\n而且和上游的大模型公司的同学也聊过，实际上至少国内的大模型 api ，并发量调用量很低的，和传统业务没法比。\n但是看行业的新闻和公司大佬，基本上都是一副过不了几年，所有工作都会由 AI 代替，所有人都去享受生活的样子。\n倒也不是说 AI 没用，大模型很好用，我也天天用，但就感觉很纠结，完全看不懂为啥现在是这样...",
           "link": "https://www.v2ex.com/t/1109429",
           "publishedOn": "2025-02-06T11:00:00.000Z",
-          "wordCount": 499,
+          "wordCount": 536,
           "title": "[AI] 为啥现在一边喊着 AI 代替人类，另一边各种场景 AI 落地却困难重重",
           "imageUrl": null
         },
@@ -507,206 +687,6 @@
           "publishedOn": "2025-02-06T10:37:28.000Z",
           "wordCount": 520,
           "title": "[深圳] 科技创新企业 [至简天成] 招聘 高级前端开发工程师（AI 方向）2 人 - 25 年春招启动了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109422",
-          "author": "AhECbt",
-          "description": "AhECbt: \nhttps://greasyfork.org/ 也成为历史了。\n这次似乎很彻底，全部的，完整的污染加阻断。\n各位发表下获奖感言。",
-          "link": "https://www.v2ex.com/t/1109422",
-          "publishedOn": "2025-02-06T10:34:00.000Z",
-          "wordCount": 115,
-          "title": "greasyfork.org 再次被墙，彻底的。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109421",
-          "author": "herang",
-          "description": "herang:",
-          "link": "https://www.v2ex.com/t/1109421",
-          "publishedOn": "2025-02-06T10:27:18.000Z",
-          "wordCount": 345,
-          "title": "DeepSeek 初体验",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109418",
-          "author": "lgqfhwy2",
-          "description": "lgqfhwy2: \n我想双开应用，整了一个安卓手机，然后发现双开微信这种是可以的。当系统打开 clash 后，安卓的第一个 x 可以正常连接使用，当双开 x 后，应用分身后的 x 打开就显示网络问题了。该怎么操作，让双开后的应用也可以正常科学上网呢",
-          "link": "https://www.v2ex.com/t/1109418",
-          "publishedOn": "2025-02-06T10:11:38.000Z",
-          "wordCount": 421,
-          "title": "求助大家，安卓手机的应用分身后的应用，没法使用系统的 科学上网, 该怎么设置？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109417",
-          "author": "victimsss",
-          "description": "victimsss: 由于业务扩增，又引入使用类似 wiki 、answer 等一大坨开源服务，现在才考虑搭建内部的 oauth2 或者 oidc ，最主要的当然是保留当前用户数据。我这两天看了一下两种方案，一直犹豫不决。\n一、使用开源框架搭建，目前看中还维护的 nodejs 版本的有 https://github.com/panva/node-oidc-provider 和 https://github.com/node-oauth/node-oauth2-server ，需要做的大部分就是做一个适配器，连接数据库处理现有的用户数据结构\n二、或者直接使用开源的项目，在论坛看到了这个 https://docs.logto.io/introduction/set-up-logto-oss ，需要做的大概是迁移用户数据，在 demo 试了一下还行，但是刚想通过 cli 创建的时候就遇到问题了， 类似 https://github.com/logto-io/logto/issues/6981 。\n之前只写过 client 端，没接触过 provider ，想提前规避一些不必要的坑，或者有什么更好的建议，感谢大家指教。",
-          "link": "https://www.v2ex.com/t/1109417",
-          "publishedOn": "2025-02-06T10:11:06.000Z",
-          "wordCount": 440,
-          "title": "实现 iodc-provider 的最佳实践是什么",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109416",
-          "author": "setimouse",
-          "description": "setimouse: \n感谢用户的信任！\nhttps://chromewebstore.google.com/detail/LeapSearch/lapaieaegaclofackbjhjhbhfiplcgki?hl=en&authuser=0",
-          "link": "https://www.v2ex.com/t/1109416",
-          "publishedOn": "2025-02-06T10:09:15.000Z",
-          "wordCount": 353,
-          "title": "收到的每一个好评♥都是支持我持续做下去的动力！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109415",
-          "author": "smdbh",
-          "description": "smdbh: \n我的目的是想在 vscode 中使用阅读代码和写代码,无编译需求.\nwindows 上 vscode 只安装了插件提示的 clangd exe 文件\n有个 qt 项目,有compile_commands.json 文件,但使用后符号还是无法识别, 最基本的 std 关键字都不行\n我在 vscode 的用户配置里配置了 compile_commands.json, 还 include 了 c++的头文件目录(从 qt 安装包里拷过来的),但还是不行.\n我想问下这个可能是什么问题,是否还需要安装其他,例如编译器等工具? 谢谢",
-          "link": "https://www.v2ex.com/t/1109415",
-          "publishedOn": "2025-02-06T10:09:04.000Z",
-          "wordCount": 380,
-          "title": "在 windows 上 vscode 使用 clangd 插件的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109414",
-          "author": "ztstillwater",
-          "description": "ztstillwater: \n我在日本家庭的宽带自从一个月之前安装开通后，ipv4 和 ipv6 公网的 IP 地址一直没变过，是否可以认为固定了？",
-          "link": "https://www.v2ex.com/t/1109414",
-          "publishedOn": "2025-02-06T10:08:58.000Z",
-          "wordCount": 368,
-          "title": "大家说的公网 IP 会变动，周期是多久？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109413",
-          "author": "hengyee",
-          "description": "hengyee: \n同标题",
-          "link": "https://www.v2ex.com/t/1109413",
-          "publishedOn": "2025-02-06T10:07:38.000Z",
-          "wordCount": 384,
-          "title": "spring boot 现在除了 nacos 阿波罗 还有什么其他好用的类似中间件吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109412",
-          "author": "huzhikuizainali",
-          "description": "huzhikuizainali: \n以下截图出自《数学分析新讲》第一册 P114 。问题在截图下方\n\n\n证明过程中通过不断缩小无界闭区间套，已经导出了在 U(c,η)内有界了。而 U(c,η)又是包含在不断缩小的闭区间套[an,bn]中，自然包括在区间[a,b]内的。那么此时已经出现了矛盾。因此连续函数在区间[a,b]就不可能无界了。\n后面为什么还要进一步在 U(c,η)内寻找闭区间套[am,bm]来证明矛盾呢？\n此外，如果我用上面的证明逻辑来证明连续函数在开区间(a,b)有界，会在哪一步失败呢？（我知道这个命题不成立，因为 y=1/x 可以证否该命题。但是我想通过该命题进一步理解书中证明方法！）\n请不要提供 gpt 的回答，十分感谢！",
-          "link": "https://www.v2ex.com/t/1109412",
-          "publishedOn": "2025-02-06T10:01:01.000Z",
-          "wordCount": 500,
-          "title": "闭区间连续函数有界的证明过程中已经找到了矛盾的区间 U(c,η)，为什么后续还要找闭区间[am,bm]?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109411",
-          "author": "betnevs",
-          "description": "betnevs: \n感觉现在 AI 生成的代码只能写一些公用的函数，真正贴合业务逻辑的代码还是不能用，有落地的方案么？",
-          "link": "https://www.v2ex.com/t/1109411",
-          "publishedOn": "2025-02-06T09:57:55.000Z",
-          "wordCount": 395,
-          "title": "现在 AI 辅助编码能直接根据需求生成符合编码规范的代码码？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109410",
-          "author": "ysxb1145",
-          "description": "ysxb1145:  /t/1109277\n写了一篇东西放在树洞节点一天下来只有 16 浏览，之前发过的东西高低也有几十，现在我有两个疑问：一个是我这篇帖子的节点是否放置正确，不正确的话应该放在哪里？第二个是 V2 是否有这样的机制，就是只有那些热门节点内容才能上首页吗",
-          "link": "https://www.v2ex.com/t/1109410",
-          "publishedOn": "2025-02-06T09:54:14.000Z",
-          "wordCount": 1468,
-          "title": "V 站是只有固定节点内容才能上首页吗",
-          "imageUrl": "/static/icon-192.png"
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109409",
-          "author": "apollo007",
-          "description": "apollo007: \n设备是 mbp m1 ，当初预算有限就买了 256G ，用了 2 年空间不够用了，需要配一个外接的移动硬盘，有推荐耐用的吗？\n我的诉求是：耐用，别用着用着就挂了，里面的资料是无价的啊！价格也别太高了，预算有限。谢谢兄弟们",
-          "link": "https://www.v2ex.com/t/1109409",
-          "publishedOn": "2025-02-06T09:48:02.000Z",
-          "wordCount": 459,
-          "title": "求助各位，我的 MacBook 需要配一个外接的移动硬盘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109408",
-          "author": "Foxkeh",
-          "description": "Foxkeh: \n背景:\n遂有想法:\nPS:\n本地网络开发和办公没有高可用性要求.",
-          "link": "https://www.v2ex.com/t/1109408",
-          "publishedOn": "2025-02-06T09:47:51.000Z",
-          "wordCount": 549,
-          "title": "实现固定 IP 的组网方案请教",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109407",
-          "author": "stelvetica",
-          "description": "stelvetica: \n李飞飞团队用不到 50 美元训练出媲美 DeepSeek Rl 的 AI 推理模型\n格隆汇 2 月 6 日|据科创板日报，李飞飞等斯坦福大学和华盛顿大学研究人员近日以不到 50 美元的云计算费用训练了一个名叫 s1 的人工智能推理模型。该模型在数学和编码能力测试中的表现与 OpenAl 的 o1 和 DeepSeek 的 R1 等尖端推理模型类似。研究人员表示，s1 是通过蒸馏法由谷歌推理模型 Gemini 2.0 FlashThinking Experimental 提炼出来的。\n诸君这个有可能么，该怎么用上啊",
-          "link": "https://www.v2ex.com/t/1109407",
-          "publishedOn": "2025-02-06T09:45:18.000Z",
-          "wordCount": 427,
-          "title": "李飞飞团队用不到 50 美元训练出媲美 DeepSeek Rl 的 AI 推理模型，诸君这个有可能么，该怎么用上啊",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109405",
-          "author": "gaiba",
-          "description": "gaiba: 前端开发工程师\n职位描述：\n作为我们 SaaS 平台的前端开发工程师，您将负责构建和优化与 TikTok 达人和卖家合作的平台。您需要与产品团队紧密合作，确保我们的平台提供卓越的用户体验，并能够处理大量的用户交互和数据。\n工作职责：\n负责 SaaS 平台的前端开发，包括用户界面设计、实现和优化，确保在不同设备和浏览器上提供一致的用户体验；\n与设计师、产品经理和后端开发团队合作，将设计转化为高质量的前端代码；\n优化前端性能，包括加载速度、响应时间和交互流畅性；\n负责前端代码的维护和升级，确保平台的稳定性和安全性；\n跟踪最新的前端技术和趋势，持续改进平台的功能和性能。\n\n工作时间：全职兼职都可（兼职要求工作日至少 4 小时以上）\n办公地点：远程办公\n薪资待遇：工时制\n职位要求：\n本科及以上学历，计算机或相关专业，3 年以上前端开发经验；\n精通 HTML5 、CSS3 、JavaScript 等前端基础技术，熟悉 ES6/7 特性；\n熟练掌握至少一种主流前端框架，如 React 、Vue.js 等，并有实际项目开发经验；\n熟悉前端工程化工具，如 Webpack 、Vite 等，有前端工程化实践经验；\n了解 HTTP 协议和浏览器原理，精通前端性能优化；\n具备良好的团队协作精神和高度的责任心，能够独立工作并承受工作压力；\n有 SaaS 或 PaaS 领域经验者更佳，有开源项目经验者优先。\n加分项：\n有大型网站架构开发经验者优先；\n熟悉 Git 、Webpack 等工具；\n有良好的编码习惯，乐于和团队合作，追求代码质量和项目质量。\n\n简历投递：VX：godhaveajoke\nMail:godhaveajoke@gmail.com\n\n在招岗：前端，后端",
-          "link": "https://www.v2ex.com/t/1109405",
-          "publishedOn": "2025-02-06T09:38:56.000Z",
-          "wordCount": 431,
-          "title": "React 前端 | 海外电商 SaaS 招长期远程兼职/全职 |",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109404",
-          "author": "wmaee",
-          "description": "wmaee: 今年看央视春晚，后半段有个歌曲节目叫伟业，内容大概是社会各行各业的代表合作唱完一首歌，其中也有个农民代表，一出场，舞台形象还是粗布挂衫 + 布鞋 + 草帽\n我立马想起了赵本山经典小品白云黑土，塑造的农民形象耿直愚昧，与时代有点脱节，惹人大笑。都 2025 年了，一谈起农民工，感觉在像春晚这样全国性的电视节目上，农民形象还是没有进化，永远是面朝黄土背朝天的感觉\n编排这些节目的导演怎么想的呢？",
-          "link": "https://www.v2ex.com/t/1109404",
-          "publishedOn": "2025-02-06T09:32:38.000Z",
-          "wordCount": 710,
-          "title": "多少年了，农民的形象还是布鞋加草帽",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109402",
-          "author": "retrocode",
-          "description": "retrocode: \n每年一度相亲季, 我现在很烦朋友圈三天可见这个玩意,基本是个女生都是开的三天可见,跟防贼一样,一开头互相介绍完情况,就不知道该聊什么了, 想看下朋友圈快速了解一下对方个人兴趣爱好之类的吧,什么都没有\n紧接着就是互相问环节,碰上冷淡一点的简直是灾难,努力找各种话题,基本上就是不知道,了解过,这种反应很冷淡基本上就是聊不下去,我试过把话题往工作上引,引到吐槽老板上偶尔还能打开话匣子,但成功率也不高\n我个人的感受是, 出来相亲的这帮女生一开始态度都很绷得住, 基本喜笑不形于色的, 那你出来相亲干嘛我说,\n最后来个男方不主动,自己比较慢热, 锅甩我这边来了, 相亲一般都熟人介绍嘛,最后落个我要求太高给我一顿数落,他奶奶的\n不好意思,写着写着成吐槽了, 回归正题, 就是你们一般都是如何快速打开话匣子的?有什么经验分享吗?",
-          "link": "https://www.v2ex.com/t/1109402",
-          "publishedOn": "2025-02-06T09:26:21.000Z",
-          "wordCount": 557,
-          "title": "[江湖救急]相亲次数比较多的老哥进来交流下,在第一次见或加好友与相亲对象聊天时,一般该如何打开话匣子?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109401",
-          "author": "hanxu317138",
-          "description": "hanxu317138: \n想通过 webpack 构建时 JavascriptParser Hooks 去解析所有的 \"Literal\" 节点, 获取[\"hello-world\", \"hello]\nconsole.log(\"hello-world\");\nvar name = \"hello\";\n\n但是实操半天发现没有任何头绪, 各种方法文档哪怕各种 gpt 都用了. 依然没有方案~~\n有哪个大佬做过. 求分享",
-          "link": "https://www.v2ex.com/t/1109401",
-          "publishedOn": "2025-02-06T09:23:49.000Z",
-          "wordCount": 611,
-          "title": "webpack 求助如何解析字符串变量",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109400",
-          "author": "ArthurBruin",
-          "description": "ArthurBruin: \n近年 AI 的发展，每月都有新的技术突破，不断刷新人类的已有认知。感慨生物人的物理构造太低端了\n学习能力差\n每一个知识点需要耗费大量时间去理解、找关联、才能形成体系，相对于 AI 模型来说，给数据训练后就能得出准确结果；\n记忆力差\n虽说人类生物大脑神经元有 860 亿神经元，但是相对于半导体存储来说真的是太 LOW 了，记忆 11 位电话号码都需要重复写入多遍并且无冗余机制，相对而言，几十年前最慢的半导体存储器 EPROM 也才 10 毫秒/字节，并且一次写入即可准确无误保存几十年；\n一致性差\n人类思考、记忆力时间有限，在短暂的生命周期中只有 10~30 岁左右是高峰期，生命前段要从 0 积累知识，生命后期又因为细胞衰老各项机能都跟不上，越来越差；但相对于半导体 AI 来说，整个过程都是一致，虽然会存在半导体老化，但是只要数据不丢，部件更新后又青春焕发；\n知识传递效率低\n人类知识传承效率太低了，不能直接通过脑对脑的知识传递，全部是间接传递：大脑>发送器官（口诉&手写文字）>接收器官（眼&耳）>理解>另一大脑，传输效率可能还不到 1Byte/秒，这还不算传输失真，中间任何一个环节有差错知识就无法有效接收，相对而言现在最普通机械硬盘速率也能到 60MByte/秒，并且即便是传输 1YB 数据也能保证准确无误；\n会劳累疲惫\n人类工作半天要休息半天，细胞代谢更新需要定时清理，否则就会宕机，相对而言 AI 真正 24*7 小时工作；\n无法分布式协助\n人类个体之间均是独立的，无法与其他人类形成集群无缝协助，即便是通过公司团队办公方式也是效率低的可怕，而 AI 则可以做到高效无缝协作；\n无法完全克隆：\n怀孕孕育过程太漫长且低效了，即便是现在能克隆出来的个体，大脑也是一片空白，也要从头开始学习，而 AI 可以无限复制\n寿命短\n生物人寿命平均按 100 年算吧，而 AI 理论上是没寿命限制的，即便是中途断电 100 年，只要数据还在都能接着玩\n现阶段唯一能想到作为生物人的优点是：出生后即有思想及自我意识，但这个优点可能也会马上被 AI 打破了，可预见未来 10 年内 AGI 肯定会出现！\n哎，想到这些就不想学习了！所有事情都让 AI 去做了吧，当然这篇文章也是通过 AI 润色过的！\nPS：但有一点值得期待的是，如果类似 Musk 的脑机接口能实现大脑 bit 级的克隆，到时候生物人也能摆脱肉体束缚变成半导体 AI 人，到时候咋们在虚拟世界中再讨论这个问题吧，但愿在我肉体消亡之前实现就好了！",
-          "link": "https://www.v2ex.com/t/1109400",
-          "publishedOn": "2025-02-06T09:22:00.000Z",
-          "wordCount": 532,
-          "title": "作为生物人类的感慨：人类物理构造太 LOW，进化太慢了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109399",
-          "author": "librasolo",
-          "description": "librasolo: \n过年和朋友聚了一下，发现工资确实比想象中低很多，我一直在家都可以拿到 6k 左右，原来朋友们在家拿的很低，包括一些家庭情况之类的，所以规劝了朋友外出闯荡一番。\n但是我个人的想法和认知确实比较浅显，还是看看大家都有什么好的想法和思路，来找到一条满意的道路吧。\n朋友目前情况：\n双非本 英语专业\n3 年工作经验(2 年补习老师，1 年的前台/总助)\n英语专八 教师资格证 英语六级\n性格偏向于 I 人，聊天过程中感觉还是很单纯，爱幻想\n我的想法可能是推荐一些，行政，外贸等方向，或者继续教培方面，不过要换一个大城市。看大家的有何见解吧，感谢🙇‍",
-          "link": "https://www.v2ex.com/t/1109399",
-          "publishedOn": "2025-02-06T09:20:33.000Z",
-          "wordCount": 582,
-          "title": "帮朋友问下，英语专业怎么就业",
           "imageUrl": null
         }
       ]
