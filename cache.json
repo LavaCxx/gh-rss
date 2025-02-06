@@ -12,12 +12,22 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=384468",
+          "author": "Geoff Graham",
+          "description": "A little gem from Kevin Powell's \"HTML & CSS Tip of the Week\" website, reminding us that using container queries opens up container query units for sizing things based on the size of the queried container.\nContainer query units: cqi and cqb originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/container-query-units-cqi-and-cqb/",
+          "publishedOn": "2025-02-06T15:29:35.000Z",
+          "wordCount": 1971,
+          "title": "Container query units: cqi and cqb",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384468"
+        },
+        {
           "id": "https://css-tricks.com/?p=382311",
           "author": "Geoff Graham",
           "description": "The steps for how I took the Baseline Status web component and made it into a WordPress block that can be used on any page of post.\nBaseline Status in a WordPress Block originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/baseline-status-in-a-wordpress-block/",
           "publishedOn": "2025-02-05T14:58:18.000Z",
-          "wordCount": 3917,
+          "wordCount": 3935,
           "title": "Baseline Status in a WordPress Block",
           "enclosure": {
             "url": "https://css-tricks.com/wp-content/uploads/2024/11/Screen-Recording-2024-11-05-at-2.56.06 PM.mp4",
@@ -62,7 +72,7 @@
           "description": "All of the things that the CSS Working Group would change if they had a time-traveling Delorean to go back and do things over.\nThe Mistakes of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/the-mistakes-of-css/",
           "publishedOn": "2025-01-30T14:31:08.000Z",
-          "wordCount": 2176,
+          "wordCount": 2213,
           "title": "The Mistakes of CSS",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384089"
         },
@@ -160,16 +170,6 @@
           "wordCount": 4324,
           "title": "How to Wait for the sibling-count() and sibling-index() Functions",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383435"
-        },
-        {
-          "id": "https://css-tricks.com/?p=383563",
-          "author": "Geoff Graham",
-          "description": "I wrote a post for Smashing Magazine that was published today about this thing that Chrome and Safari have called “Tight Mode” and how it impacts page performance. I’d never heard the term until DebugBear’s Matt Zeunert mentioned it in …\nTight Mode: Why Browsers Produce Different Performance Results originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/tight-mode-why-browsers-produce-different-performance-results/",
-          "publishedOn": "2025-01-09T16:16:15.000Z",
-          "wordCount": 2059,
-          "title": "Tight Mode: Why Browsers Produce Different Performance Results",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383563"
         }
       ]
     },
@@ -187,6 +187,33 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -298,7 +325,7 @@
           "description": "ssxs727: \n使用 2.4G 接收器进行连接（插入一个绿联 120 块钱的扩展坞），在网络活动比较激烈（例如上传或下载，或者开关代理、切换节点、开关 TUN ）的时候，指针就会开始“掉帧”，就一卡一卡的……\n不知道各位有没有遇到过类似的情况，不知道这是非 Apple 鼠标在 Mac 上的通病，还是说是我的姿势不对。\n已经下载 Logi Options+ 并且把软件和固件都升级到最新版本了，身边也没有什么其它 2.4G 的设备了，键盘和音响都是 MacBook 内置，然后路由器的 2.4G 频段都给我关掉了。",
           "link": "https://www.v2ex.com/t/1109447",
           "publishedOn": "2025-02-06T12:14:23.000Z",
-          "wordCount": 442,
+          "wordCount": 446,
           "title": "MX Master 3s 在 macOS 上时不时卡顿",
           "imageUrl": null
         },
@@ -308,7 +335,7 @@
           "description": "bensaka: \n哪位老哥知道 YouTube Analytics API 的 Queries per minute 和 Queries per day 要怎么提额吗？\n有偿\n有偿\n有偿\n帮助文档都翻烂了也找不到提额的入口，只能联系上 google cloud 的销售团队   头疼",
           "link": "https://www.v2ex.com/t/1109445",
           "publishedOn": "2025-02-06T12:05:28.000Z",
-          "wordCount": 457,
+          "wordCount": 459,
           "title": "YouTube Analytics API 的每日配额怎么申请提额？有偿",
           "imageUrl": null
         },
@@ -318,7 +345,7 @@
           "description": "lianglu: \n目前公积金的房贷利率是 2.85%，还剩 100w 。现在有 10w 的闲钱，放在微众银行里活期 3.4%左右，是不是理财更划算，而且日后急需用钱还可以周转。不知道我这样计算有没有什么问题？",
           "link": "https://www.v2ex.com/t/1109444",
           "publishedOn": "2025-02-06T12:04:15.000Z",
-          "wordCount": 425,
+          "wordCount": 430,
           "title": "公积金有必要提前还款吗？",
           "imageUrl": null
         },
@@ -358,7 +385,7 @@
           "description": "huguadao: \n整了一个由 Notion+Tally+Google 组合提供的软件限免信息小站：xianmian.notion.site\n大家可在 xianmian.notion.site 提交限免和降价信息（数据至 Tally ）\nTally 发送表单提醒邮件～～通过邮件列表中转～～发送给个人邮箱。\nTally 将数据推至 Notion ～～展示在 xianmian.notion.site 上。\n希望邮件方式使用，请将 xianmian@huguadao.com 地址加入白名单。\n自助加入邮件列表（适用于 Google 账号）：发一封邮件给 xianmian+subscribe@huguadao.com ，会收到一封加入邮件（可能在垃圾箱中），点按其中的「 Join This Group 」，跳转的页面中点按「加入群组」，即可加入「软件限免」 Google 邮件邮件列表。\n人工加入邮件列表（适用于其他邮箱账号）：发一封邮件给 jujianren@outlook.com ，在内容中注明加入列表接收信息用的邮箱地址，人工为您加入后，您会收到一封成功加入的邮件通知（可能在垃圾箱中）。\n最终效果就是，当有人提交优惠信息的时候，在列表中的人可以实时收到该信息。当然大家也可以访问小站查阅所有优惠信息。\n热烈欢迎开发者和爱好者提交软件优惠信息，共建共享软件优惠信息库。",
           "link": "https://www.v2ex.com/t/1109439",
           "publishedOn": "2025-02-06T11:45:06.000Z",
-          "wordCount": 389,
+          "wordCount": 403,
           "title": "「软件限免」信息共建共享方案",
           "imageUrl": null
         },
@@ -378,7 +405,7 @@
           "description": "szsgz: 不知道从什么时候开始\n难道是我的罗技键盘出毛病了？\n还是说 win11 除了什么问题\n以前都是按一下 shift 切换中英文，现在突然变成按两下，每次切换都跟吃了屎一样难受....",
           "link": "https://www.v2ex.com/t/1109434",
           "publishedOn": "2025-02-06T11:12:34.000Z",
-          "wordCount": 386,
+          "wordCount": 387,
           "title": "Win 11 的中英文输入切换突然变成按两下 shift 键了？",
           "imageUrl": null
         },
@@ -498,7 +525,7 @@
           "description": "herang:",
           "link": "https://www.v2ex.com/t/1109421",
           "publishedOn": "2025-02-06T10:27:18.000Z",
-          "wordCount": 343,
+          "wordCount": 345,
           "title": "DeepSeek 初体验",
           "imageUrl": null
         },
@@ -558,7 +585,7 @@
           "description": "hengyee: \n同标题",
           "link": "https://www.v2ex.com/t/1109413",
           "publishedOn": "2025-02-06T10:07:38.000Z",
-          "wordCount": 371,
+          "wordCount": 384,
           "title": "spring boot 现在除了 nacos 阿波罗 还有什么其他好用的类似中间件吗",
           "imageUrl": null
         },
@@ -568,7 +595,7 @@
           "description": "huzhikuizainali: \n以下截图出自《数学分析新讲》第一册 P114 。问题在截图下方\n\n\n证明过程中通过不断缩小无界闭区间套，已经导出了在 U(c,η)内有界了。而 U(c,η)又是包含在不断缩小的闭区间套[an,bn]中，自然包括在区间[a,b]内的。那么此时已经出现了矛盾。因此连续函数在区间[a,b]就不可能无界了。\n后面为什么还要进一步在 U(c,η)内寻找闭区间套[am,bm]来证明矛盾呢？\n此外，如果我用上面的证明逻辑来证明连续函数在开区间(a,b)有界，会在哪一步失败呢？（我知道这个命题不成立，因为 y=1/x 可以证否该命题。但是我想通过该命题进一步理解书中证明方法！）\n请不要提供 gpt 的回答，十分感谢！",
           "link": "https://www.v2ex.com/t/1109412",
           "publishedOn": "2025-02-06T10:01:01.000Z",
-          "wordCount": 474,
+          "wordCount": 500,
           "title": "闭区间连续函数有界的证明过程中已经找到了矛盾的区间 U(c,η)，为什么后续还要找闭区间[am,bm]?",
           "imageUrl": null
         },
@@ -588,7 +615,7 @@
           "description": "ysxb1145:  /t/1109277\n写了一篇东西放在树洞节点一天下来只有 16 浏览，之前发过的东西高低也有几十，现在我有两个疑问：一个是我这篇帖子的节点是否放置正确，不正确的话应该放在哪里？第二个是 V2 是否有这样的机制，就是只有那些热门节点内容才能上首页吗",
           "link": "https://www.v2ex.com/t/1109410",
           "publishedOn": "2025-02-06T09:54:14.000Z",
-          "wordCount": 1307,
+          "wordCount": 1468,
           "title": "V 站是只有固定节点内容才能上首页吗",
           "imageUrl": "/static/icon-192.png"
         },
@@ -598,7 +625,7 @@
           "description": "apollo007: \n设备是 mbp m1 ，当初预算有限就买了 256G ，用了 2 年空间不够用了，需要配一个外接的移动硬盘，有推荐耐用的吗？\n我的诉求是：耐用，别用着用着就挂了，里面的资料是无价的啊！价格也别太高了，预算有限。谢谢兄弟们",
           "link": "https://www.v2ex.com/t/1109409",
           "publishedOn": "2025-02-06T09:48:02.000Z",
-          "wordCount": 452,
+          "wordCount": 459,
           "title": "求助各位，我的 MacBook 需要配一个外接的移动硬盘",
           "imageUrl": null
         },
@@ -638,7 +665,7 @@
           "description": "wmaee: 今年看央视春晚，后半段有个歌曲节目叫伟业，内容大概是社会各行各业的代表合作唱完一首歌，其中也有个农民代表，一出场，舞台形象还是粗布挂衫 + 布鞋 + 草帽\n我立马想起了赵本山经典小品白云黑土，塑造的农民形象耿直愚昧，与时代有点脱节，惹人大笑。都 2025 年了，一谈起农民工，感觉在像春晚这样全国性的电视节目上，农民形象还是没有进化，永远是面朝黄土背朝天的感觉\n编排这些节目的导演怎么想的呢？",
           "link": "https://www.v2ex.com/t/1109404",
           "publishedOn": "2025-02-06T09:32:38.000Z",
-          "wordCount": 682,
+          "wordCount": 710,
           "title": "多少年了，农民的形象还是布鞋加草帽",
           "imageUrl": null
         },
@@ -658,7 +685,7 @@
           "description": "hanxu317138: \n想通过 webpack 构建时 JavascriptParser Hooks 去解析所有的 \"Literal\" 节点, 获取[\"hello-world\", \"hello]\nconsole.log(\"hello-world\");\nvar name = \"hello\";\n\n但是实操半天发现没有任何头绪, 各种方法文档哪怕各种 gpt 都用了. 依然没有方案~~\n有哪个大佬做过. 求分享",
           "link": "https://www.v2ex.com/t/1109401",
           "publishedOn": "2025-02-06T09:23:49.000Z",
-          "wordCount": 598,
+          "wordCount": 611,
           "title": "webpack 求助如何解析字符串变量",
           "imageUrl": null
         },
@@ -668,7 +695,7 @@
           "description": "ArthurBruin: \n近年 AI 的发展，每月都有新的技术突破，不断刷新人类的已有认知。感慨生物人的物理构造太低端了\n学习能力差\n每一个知识点需要耗费大量时间去理解、找关联、才能形成体系，相对于 AI 模型来说，给数据训练后就能得出准确结果；\n记忆力差\n虽说人类生物大脑神经元有 860 亿神经元，但是相对于半导体存储来说真的是太 LOW 了，记忆 11 位电话号码都需要重复写入多遍并且无冗余机制，相对而言，几十年前最慢的半导体存储器 EPROM 也才 10 毫秒/字节，并且一次写入即可准确无误保存几十年；\n一致性差\n人类思考、记忆力时间有限，在短暂的生命周期中只有 10~30 岁左右是高峰期，生命前段要从 0 积累知识，生命后期又因为细胞衰老各项机能都跟不上，越来越差；但相对于半导体 AI 来说，整个过程都是一致，虽然会存在半导体老化，但是只要数据不丢，部件更新后又青春焕发；\n知识传递效率低\n人类知识传承效率太低了，不能直接通过脑对脑的知识传递，全部是间接传递：大脑>发送器官（口诉&手写文字）>接收器官（眼&耳）>理解>另一大脑，传输效率可能还不到 1Byte/秒，这还不算传输失真，中间任何一个环节有差错知识就无法有效接收，相对而言现在最普通机械硬盘速率也能到 60MByte/秒，并且即便是传输 1YB 数据也能保证准确无误；\n会劳累疲惫\n人类工作半天要休息半天，细胞代谢更新需要定时清理，否则就会宕机，相对而言 AI 真正 24*7 小时工作；\n无法分布式协助\n人类个体之间均是独立的，无法与其他人类形成集群无缝协助，即便是通过公司团队办公方式也是效率低的可怕，而 AI 则可以做到高效无缝协作；\n无法完全克隆：\n怀孕孕育过程太漫长且低效了，即便是现在能克隆出来的个体，大脑也是一片空白，也要从头开始学习，而 AI 可以无限复制\n寿命短\n生物人寿命平均按 100 年算吧，而 AI 理论上是没寿命限制的，即便是中途断电 100 年，只要数据还在都能接着玩\n现阶段唯一能想到作为生物人的优点是：出生后即有思想及自我意识，但这个优点可能也会马上被 AI 打破了，可预见未来 10 年内 AGI 肯定会出现！\n哎，想到这些就不想学习了！所有事情都让 AI 去做了吧，当然这篇文章也是通过 AI 润色过的！\nPS：但有一点值得期待的是，如果类似 Musk 的脑机接口能实现大脑 bit 级的克隆，到时候生物人也能摆脱肉体束缚变成半导体 AI 人，到时候咋们在虚拟世界中再讨论这个问题吧，但愿在我肉体消亡之前实现就好了！",
           "link": "https://www.v2ex.com/t/1109400",
           "publishedOn": "2025-02-06T09:22:00.000Z",
-          "wordCount": 530,
+          "wordCount": 532,
           "title": "作为生物人类的感慨：人类物理构造太 LOW，进化太慢了",
           "imageUrl": null
         },
@@ -678,7 +705,7 @@
           "description": "librasolo: \n过年和朋友聚了一下，发现工资确实比想象中低很多，我一直在家都可以拿到 6k 左右，原来朋友们在家拿的很低，包括一些家庭情况之类的，所以规劝了朋友外出闯荡一番。\n但是我个人的想法和认知确实比较浅显，还是看看大家都有什么好的想法和思路，来找到一条满意的道路吧。\n朋友目前情况：\n双非本 英语专业\n3 年工作经验(2 年补习老师，1 年的前台/总助)\n英语专八 教师资格证 英语六级\n性格偏向于 I 人，聊天过程中感觉还是很单纯，爱幻想\n我的想法可能是推荐一些，行政，外贸等方向，或者继续教培方面，不过要换一个大城市。看大家的有何见解吧，感谢🙇‍",
           "link": "https://www.v2ex.com/t/1109399",
           "publishedOn": "2025-02-06T09:20:33.000Z",
-          "wordCount": 578,
+          "wordCount": 582,
           "title": "帮朋友问下，英语专业怎么就业",
           "imageUrl": null
         }
