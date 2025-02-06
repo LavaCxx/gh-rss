@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -326,7 +332,7 @@
           "description": "retrocode: \n每年一度相亲季, 我现在很烦朋友圈三天可见这个玩意,基本是个女生都是开的三天可见,跟防贼一样,一开头互相介绍完情况,就不知道该聊什么了, 想看下朋友圈快速了解一下对方个人兴趣爱好之类的吧,什么都没有\n紧接着就是互相问环节,碰上冷淡一点的简直是灾难,努力找各种话题,基本上就是不知道,了解过,这种反应很冷淡基本上就是聊不下去,我试过把话题往工作上引,引到吐槽老板上偶尔还能打开话匣子,但成功率也不高\n我个人的感受是, 出来相亲的这帮女生一开始态度都很绷得住, 基本喜笑不形于色的, 那你出来相亲干嘛我说,\n最后来个男方不主动,自己比较慢热, 锅甩我这边来了, 相亲一般都熟人介绍嘛,最后落个我要求太高给我一顿数落,他奶奶的\n不好意思,写着写着成吐槽了, 回归正题, 就是你们一般都是如何快速打开话匣子的?有什么经验分享吗?",
           "link": "https://www.v2ex.com/t/1109402",
           "publishedOn": "2025-02-06T09:26:21.000Z",
-          "wordCount": 469,
+          "wordCount": 508,
           "title": "[江湖救急]相亲次数比较多的老哥进来交流下,在第一次见或加好友与相亲对象聊天时,一般该如何打开话匣子?",
           "imageUrl": null
         },
@@ -336,7 +342,7 @@
           "description": "hanxu317138: \n想通过 webpack 构建时 JavascriptParser Hooks 去解析所有的 \"Literal\" 节点, 获取[\"hello-world\", \"hello]\nconsole.log(\"hello-world\");\nvar name = \"hello\";\n\n但是实操半天发现没有任何头绪, 各种方法文档哪怕各种 gpt 都用了. 依然没有方案~~\n有哪个大佬做过. 求分享",
           "link": "https://www.v2ex.com/t/1109401",
           "publishedOn": "2025-02-06T09:23:49.000Z",
-          "wordCount": 442,
+          "wordCount": 581,
           "title": "webpack 求助如何解析字符串变量",
           "imageUrl": null
         },
@@ -356,7 +362,7 @@
           "description": "librasolo: \n过年和朋友聚了一下，发现工资确实比想象中低很多，我一直在家都可以拿到 6k 左右，原来朋友们在家拿的很低，包括一些家庭情况之类的，所以规劝了朋友外出闯荡一番。\n但是我个人的想法和认知确实比较浅显，还是看看大家都有什么好的想法和思路，来找到一条满意的道路吧。\n朋友目前情况：\n双非本 英语专业\n3 年工作经验(2 年补习老师，1 年的前台/总助)\n英语专八 教师资格证 英语六级\n性格偏向于 I 人，聊天过程中感觉还是很单纯，爱幻想\n我的想法可能是推荐一些，行政，外贸等方向，或者继续教培方面，不过要换一个大城市。看大家的有何见解吧，感谢🙇‍",
           "link": "https://www.v2ex.com/t/1109399",
           "publishedOn": "2025-02-06T09:20:33.000Z",
-          "wordCount": 508,
+          "wordCount": 521,
           "title": "帮朋友问下，英语专业怎么就业",
           "imageUrl": null
         },
@@ -386,7 +392,7 @@
           "description": "lengrongec: 虽然知道它漏洞很多，但是谁不图用起来方便\n在家里玩客云上用 docker 部署了它和 adguard ；\n无意间发现可以只要把 npm 的 docker 网络由 bridge 改为 host 主机模式，如果使用 ddns 解析到 ipv6 ，在做反代的时候内网可以使用局域网的 ipv4 地址。这样不影响外网的 ipv6 访问。可以精准访问内网服务",
           "link": "https://www.v2ex.com/t/1109395",
           "publishedOn": "2025-02-06T09:11:37.000Z",
-          "wordCount": 411,
+          "wordCount": 424,
           "title": "nginx proxy manager ipv6 反代指向内网 ipv4 局域网地址，还可以这样操作🤔？",
           "imageUrl": null
         },
@@ -396,7 +402,7 @@
           "description": "xcm153: \n最近遇到一个女生，性格很好很有趣，满满的情绪价值，但是样子比较普通，朴素，不是我喜欢的类型，刚开始接触想着帮她改造，让她化妆，穿好看衣服，爱美，但后面她也开始反感，质疑我太关注外貌\n我也知道不要以貌取人，但是心里还是有些嫌弃，而且之前谈的都是好看的类型，想找个心动的女生\n奔着结婚去的，我该怎么办",
           "link": "https://www.v2ex.com/t/1109394",
           "publishedOn": "2025-02-06T09:09:04.000Z",
-          "wordCount": 609,
+          "wordCount": 637,
           "title": "找对象遇到了一个女生，性格很好很有趣，但是长相普通不是很喜欢，我该怎么办？",
           "imageUrl": null
         },
@@ -406,7 +412,7 @@
           "description": "ixixi: \n本站几乎每个人都有自己项目，项目都有生命周期。\n想放弃但是觉得再投入一些精力努努力可能会有起色，会不停的犹豫怀疑。\n反反复复会浪费很多时间",
           "link": "https://www.v2ex.com/t/1109392",
           "publishedOn": "2025-02-06T09:06:50.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "如何下决定放弃一个项目 ？",
           "imageUrl": null
         },
@@ -426,7 +432,7 @@
           "description": "farseeraliens: \n求个分布式存储或搜索架构的工作机会，十年以上经验的老 cpper 。\n战绩包括算法优化掉一半的 cpu 占用，指令集优化掉一半的 CPU 占用，徒手撸 CPP 版 cassandra 等。",
           "link": "https://www.v2ex.com/t/1109390",
           "publishedOn": "2025-02-06T09:05:47.000Z",
-          "wordCount": 391,
+          "wordCount": 395,
           "title": "北京的底层存储/架构研发岗求职",
           "imageUrl": null
         },
@@ -446,7 +452,7 @@
           "description": "q11391: \n一年两箱油选手，想问下有没有经验的 v 友，离得远点也可以",
           "link": "https://www.v2ex.com/t/1109388",
           "publishedOn": "2025-02-06T08:58:44.000Z",
-          "wordCount": 399,
+          "wordCount": 401,
           "title": "v 友们，天通苑附近有没有停车免费的地方？",
           "imageUrl": null
         },
@@ -466,7 +472,7 @@
           "description": "alphaControler: \n有没有关注广州房市的 V 友？我职业是开发没有在广州呆过，目前存款 100 万左右，不想欠太多房贷，所以计划找总价在 200 万以内的房子，够在广州入手一套吗？在哪个片区或者地铁站附近找比较好？",
           "link": "https://www.v2ex.com/t/1109385",
           "publishedOn": "2025-02-06T08:49:34.000Z",
-          "wordCount": 451,
+          "wordCount": 511,
           "title": "广州的 V 友帮忙说下在哪个片区买房比较好",
           "imageUrl": null
         },
@@ -506,7 +512,7 @@
           "description": "MFWT: \n一直以来都是 NATv6 凑合着用，但是最近想要让下游的 BT 机器也有 v6 入站的能力，感觉还是研究一下比较好\n环境\n光猫是移动的 H3-2r ，已经干进去了 Telnet （但无从下手），改了桥接\n主路由是一台跑了 Debian 12 的小主机，PPPoE 拨号可以正常拿到双栈地址（ v6 是/64 的地址）\n状况\n按照网上教程使用 wide-dhcpv6-client ，却无法获取 IPv6 PD 。手动运行 dhcp6c 也拿不到前缀，表现为远端无响应：\nroot@router:~# dhcp6c -dDfi ppp0\n\nFeb/06/2025 16:14:06: get_duid: extracted an existing DUID from /var/lib/dhcpv6/dhcp6c_duid: 00:01:00:01:2e:3a:7b:ae:*:*:*:*:*:*\nFeb/06/2025 16:14:06: dhcp6_reset_timer: reset a timer on ppp0, state=INIT, timeo=0, retrans=720\nFeb/06/2025 16:14:07: client6_send: a new XID (58d61a) is generated\nFeb/06/2025 16:14:07: copy_option: set client ID (len 14)\nFeb/06/2025 16:14:07: copy_option: set elapsed time (len 2)\nFeb/06/2025 16:14:07: client6_send: send information request to ff02::1:2%ppp0\nFeb/06/2025 16:14:07: dhcp6_reset_timer: reset a timer on ppp0, state=INFOREQ, timeo=0, retrans=987\n\n# 之后都是不断的重试\n\n\n尝试过\nping ff02::1:2%ppp0（通不通过-I 指定接口都尝试过），无响应\n切换为光猫拨号，就可以在光猫后台看到前缀，下级路由也可以拿到前缀，继续分地址（之所以不使用光猫拨号，原因在于，此时下级设备分到的 IPv6 地址的入站访问会被光猫拦截，即使是已经把所有 WebUI 上能找到的和防火墙有关的开关全部关闭，外部网络路由追踪可以发现，显示到光猫那一跳，再往下就没有任何回应了。而如果是路由器拨号，那么就可以一路直通到路由器，访问服务也正常）\n我的问题：\n可能会是因为光猫拨号时候有加入其他的参数进行鉴权吗？\n可能会和光猫 MAC 地址什么的有关系吗？\n这个小主机 WAN 口并不是直接接入路由器，而是类似 Trunk 口，接入网管交换机，通过 VLAN 一分四，再选一个接口（ 本例中 ppp0 对应的是 eth1.10 ）连接到光猫，会和这个有关系吗？\n以前使用 OpenWRT 软路由的时候没这么多幺蛾子，我需要尝试更换为 OpenWRT-x86 吗？\n后注：\n如有需要补充日志的，请留言指出，谢谢！",
           "link": "https://www.v2ex.com/t/1109379",
           "publishedOn": "2025-02-06T08:31:31.000Z",
-          "wordCount": 523,
+          "wordCount": 547,
           "title": "广东移动，路由器拨号无法获取 IPv6 前缀，光猫拨号可以，何解？",
           "imageUrl": null
         },
@@ -516,7 +522,7 @@
           "description": "tangler: \n当年毕业的时候赶上互联网(修仙)的红利,工作机会(灵气)很多,随便找了家公司就入职(筑基)了,可以开始程序员(修仙)之路\n现在慢慢行业萎缩(灵气减少)了,干了这么多年(修炼了这么久)还是个大头兵(筑基后期),没有遇上好的项目领导(机缘),马上就要到被失业的年纪了(即将坐化)\n韩天尊有小绿瓶逆天改命,普通人又能干啥呢",
           "link": "https://www.v2ex.com/t/1109377",
           "publishedOn": "2025-02-06T08:24:54.000Z",
-          "wordCount": 495,
+          "wordCount": 510,
           "title": "突然感觉程序员生涯就像凡人修仙传的世界",
           "imageUrl": null
         },
@@ -526,7 +532,7 @@
           "description": "joyhub2140: \n春节前把书房里三个书架上的所有关于 IT 相关的书记全部撤下了，换成经典的漫画书、儿童读物，模型、手办、手柄。\n已不知疲倦地卷了 10 年，是时候拥抱生活，把自己大量时间归还给自己的家人，并不是要告别自己的职业生涯，而是本职的事情可以更轻松地完成，无需再以苦行僧的修炼方式前行，再继续内卷下去的意义已经不大。\n如果未来小孩子某天问我一道书本上的题目，我还是会尝试以自己的理解去解答，如果不会，再拿出手机，同时问 chatgpt ，Gemini ，deepseek 三个 app ，选一个简单易懂的当面给娃解答。",
           "link": "https://www.v2ex.com/t/1109376",
           "publishedOn": "2025-02-06T08:21:24.000Z",
-          "wordCount": 413,
+          "wordCount": 417,
           "title": "试用一段时间的 deepseek 和 cursor 之后，一下子释怀了。",
           "imageUrl": null
         },
@@ -546,7 +552,7 @@
           "description": "geluofeng: \naldente 开启充电 80%限制后，没有打开在睡眠后停止 MacBook 充电，按照官网的说法，我的 Mac 在休眠后应该会自动充满电，但为什么合盖休眠后电源适配器依然不给电池充电，起床看还是原来的电量",
           "link": "https://www.v2ex.com/t/1109374",
           "publishedOn": "2025-02-06T08:18:08.000Z",
-          "wordCount": 413,
+          "wordCount": 424,
           "title": "aldente 影响 Mac 睡眠问题",
           "imageUrl": null
         },
@@ -566,7 +572,7 @@
           "description": "internelp: 这两天讨论高速开车的帖子真是各种思想大碰撞，令我大为震惊。\n标题中的问题应该很多人都会碰到，你们会如何处理呢？\n如果觉得已经顶着限速开了没问题不让，后面一辆接一辆的车迅速接近，然后大家都是纷纷从你右侧超车。\n各别车的驾驶员生气你不让，超车后迅速从右侧往你这边并试图这样吓唬你，你又当如何？",
           "link": "https://www.v2ex.com/t/1109372",
           "publishedOn": "2025-02-06T08:16:23.000Z",
-          "wordCount": 918,
+          "wordCount": 973,
           "title": "你在左车道 GPS 速度已经 120 了，后面有车迅速接近你，你让不让？",
           "imageUrl": null
         },
@@ -576,7 +582,7 @@
           "description": "AnotherSola: \n背景\n目前租房，且短时间内无购房打算，且目前住房不打算长租，原因是目前房子不太满意也不太合适，上班比较着急随便找的，打算下个房子找满意一点的。\n想装的东西以及原因\n智能门锁：带钥匙不方便，且一旦忘了带就得花 80 开锁\n洞洞板：书房用，感觉会很方便，但要打孔又感觉不太方便\n智能马桶：现在的马桶太次了，冲水效率极差\n升降桌电竞椅：没什么好说的，it 人士，提升玩电脑体验\n一些智能灯具等等。。。\n纠结的点\n主要还是因为是租房，很多东西装了也不方便带走（比如门锁、灯具），花钱整一次性用品总感觉太浪费了，其次也不想给房东留便宜，因为租房的时候他太抠了，让我很不爽。\n另一个纠结的点是：租房究竟是为了生活还是只是当个打工休息的地方。这点就很矛盾了。。有时候觉得折腾下能让自己的生活体验更好点，有时候又觉得很没必要，毕竟一搬家很多东西都要从头再来，也很麻烦，这时候就会想：能住就行。\n或者大家有无一些搬家的迁移方案、打包方案（门锁怎么一起带走之类的）等等？\n现在确实挺纠结的，每天回去觉得家里面各种东西用的难受，想花钱搞又觉得不值。。。租房人的痛",
           "link": "https://www.v2ex.com/t/1109371",
           "publishedOn": "2025-02-06T08:13:23.000Z",
-          "wordCount": 635,
+          "wordCount": 641,
           "title": "租房，但是想装一些能提升生活品质的东西，问下大家看法",
           "imageUrl": null
         },
@@ -596,7 +602,7 @@
           "description": "barantt01:",
           "link": "https://www.v2ex.com/t/1109369",
           "publishedOn": "2025-02-06T08:08:52.000Z",
-          "wordCount": 433,
+          "wordCount": 115,
           "title": "除了 V2EX，大家还在用什么其他摸鱼的论坛？",
           "imageUrl": null
         },
@@ -646,7 +652,7 @@
           "description": "xzg1993: \n今天突然的觉得，好没劲啊。是时候开启人生下一阶段了吧",
           "link": "https://www.v2ex.com/t/1109362",
           "publishedOn": "2025-02-06T07:57:28.000Z",
-          "wordCount": 448,
+          "wordCount": 472,
           "title": "是到年纪了吗，今天突然的觉得很多事情都很无趣。",
           "imageUrl": null
         },
@@ -696,7 +702,7 @@
           "description": "unt: 从客户要求，系统架构，公司内部技术栈，领导偏好，个人使用体验等多方面聊聊",
           "link": "https://www.v2ex.com/t/1109357",
           "publishedOn": "2025-02-06T07:40:36.000Z",
-          "wordCount": 703,
+          "wordCount": 745,
           "title": "过来人说说， postgresql 和 mysql 究竟怎么选",
           "imageUrl": null
         },
