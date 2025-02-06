@@ -27,7 +27,7 @@
           "description": "The steps for how I took the Baseline Status web component and made it into a WordPress block that can be used on any page of post.\nBaseline Status in a WordPress Block originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
           "link": "https://css-tricks.com/baseline-status-in-a-wordpress-block/",
           "publishedOn": "2025-02-05T14:58:18.000Z",
-          "wordCount": 3935,
+          "wordCount": 3984,
           "title": "Baseline Status in a WordPress Block",
           "enclosure": {
             "url": "https://css-tricks.com/wp-content/uploads/2024/11/Screen-Recording-2024-11-05-at-2.56.06 PM.mp4",
@@ -197,6 +197,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -354,7 +381,7 @@
           "description": "yeqijie6: 阅读障碍，求一款 epub 文字转语音的软件，或者用 Python 部署的也可以，语音自然一点的有吗？",
           "link": "https://www.v2ex.com/t/1109478",
           "publishedOn": "2025-02-06T16:30:17.000Z",
-          "wordCount": 441,
+          "wordCount": 442,
           "title": "阅读障碍，求一款 epub 文字转语音的软件",
           "imageUrl": null
         },
@@ -384,7 +411,7 @@
           "description": "Variazioni: 例如使用 GestureDetector\nonPanUpdate: (details) {\ndetails.globalPosition;\n    details.localPosition;\n}这两个获取的都是相对窗口左上角的坐标。\n各种渠道查询的结果，也都是只能获取相对于窗口的坐标，获取不到相对于显示器的坐标。除了使用系统原生接口外，还有什么其他的办法吗？",
           "link": "https://www.v2ex.com/t/1109474",
           "publishedOn": "2025-02-06T15:59:58.000Z",
-          "wordCount": 415,
+          "wordCount": 417,
           "title": "Flutter 开发桌面应用程序，如何获取鼠标的绝对坐标？",
           "imageUrl": null
         },
@@ -394,7 +421,7 @@
           "description": "unt: 这个要求不高吧，不像别人张口闭口 6%8%。\n最好是支持季赎，最长不能超过 1 年赎。\n30W-50W 左右",
           "link": "https://www.v2ex.com/t/1109473",
           "publishedOn": "2025-02-06T15:41:06.000Z",
-          "wordCount": 496,
+          "wordCount": 519,
           "title": "2025 年了，求稳定年化 4%方案",
           "imageUrl": null
         },
