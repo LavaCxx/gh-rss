@@ -351,7 +351,7 @@
           "description": "sxguka: 本文针对移动等没有公网 V4 ，且 V6 不好用的用户\n本人无此困扰，发出了是为了给大家分享\n原贴： https://blog.eurekac.cn/p/daa17206.html\n由于帖子长度有限制，我删除了部分图片，请点击原链接查看。\n\n随心扯\nFebruary 15, 2024\n为什么我更想要 FullCone 网络\n  What is NAT\n  NAT has 4 main types\n  Let us have a try - to build up a server with FullCone NAT\n  STUN - A formal protocol to detect NAT pair\n  NAT2NAT - If we all can not get a Public IP\n  How to Transform Home networks to get FullCone NAT\n    Disable Firewall\n    Enable DMZ host\n    Change to Bridge\n  So, why I prefer FullCone NAT\n    Export My Server to Public Internet\n    Get A HighID in P2P download\n  It is Hard to Get a FullCone NAT\n    ISP is Afraid of PCDN\nFullCone 是什么？我是如何利用 FullCone 网络实现内网穿透的？为什么我会这么希望得到全锥网络？\n寒假的时候几个高中同学凑一块，想联机玩 Minecraft 。然而我们几个同学都没有公网 ip ，想要联机必须要内网穿透。\n为什么不用 IPV6 ？因为除了我之外其他人的路由器都是 NAT 在运营商给的智…",
           "link": "https://www.v2ex.com/t/1109760",
           "publishedOn": "2025-02-07T15:22:31.000Z",
-          "wordCount": 1797,
+          "wordCount": 1799,
           "title": "[转载] 为什么我更想要 FullCone 网络",
           "imageUrl": null
         },
@@ -421,7 +421,7 @@
           "description": "pdog18: \n我个人最喜欢的动画电影是 「机器人总动员 WALL·E (2008)」 真心觉得非常非常棒的一部电影。\n其他一些觉得好的动画电影，但是依旧无法动摇「机器人总动员」在我心中的地位。\n千与千寻\n寻梦环游记\n疯狂动物城\n龙猫\n天空之城\n哈尔的移动城堡\n悬崖上的金鱼姬\n飞屋环游记\n你的名字",
           "link": "https://www.v2ex.com/t/1109751",
           "publishedOn": "2025-02-07T14:13:16.000Z",
-          "wordCount": 552,
+          "wordCount": 559,
           "title": "大家觉得最好的动画电影是哪一部？",
           "imageUrl": null
         },
@@ -511,7 +511,7 @@
           "description": "zcf2009: \n起因是我在存钱时最后有一张钱一直识别不出来，我就多试了两次。外面排队的老头听到里面机器提示音请取出无法识别的钞票，就大声催我快点，存不了就别存了。我扭头就骂他，跟他对骂了一会儿。我也没心情存了，就出去了。出去的时候经过他就瞪着他，他突然就抓起我的衣领子推我，我也反抓他的推他。卧槽！我才发现我的力气竟然没他大，被他推着走。打架不丢人，输给老头才丢人！相互扭了半分钟就被人拉开了。\n过年期间好多亲朋好友都说我胖了该减肥了，我内心毫无波澜，但输给老头真的让我觉得是该好好锻炼减肥了！",
           "link": "https://www.v2ex.com/t/1109740",
           "publishedOn": "2025-02-07T12:59:04.000Z",
-          "wordCount": 506,
+          "wordCount": 511,
           "title": "前天在银行跟一个看起来 50 左右的老头打了一架，打输了",
           "imageUrl": null
         },
@@ -541,7 +541,7 @@
           "description": "zhouyin: \n###耗时 \nperl 最慢 等不及处理完 就停止了 perl\nnodejs 1 分钟多\nphp 30 多秒\nruby 30 多秒\npython 11 秒左右\ngo 4 秒左右\n###时间上 go 和 python 胜出\n###功能上面 这个 csv 文件不标准 有个字段有个单个双引号 \ngo 和 nodejs 和 ruby 都报错 无法处理完 上面它们两个的时间是把那个单引号移除后的 csv 文件 \nphp 没报错 但因为单个双引号忽略了很多行 它把那些双引号当分界符了\n功能上 python 胜出 python 完全能处理不标准的 csv 最后能生成正确 csv 就几行代码\n###代码写起来 nodejs 最恶心\nnodejs 屌什么屌 非常像 ghostscirpt 作者评价 perl 的话：perl 像从狗的肛门里吐出来的东西\n写这么个小项目 感觉 nodejs 才像从狗的肛门里吐出来的东西",
           "link": "https://www.v2ex.com/t/1109735",
           "publishedOn": "2025-02-07T12:18:06.000Z",
-          "wordCount": 989,
+          "wordCount": 1015,
           "title": "nodejs Python PHP ruby go perl 处理单个 4 百兆 csv 文件比较",
           "imageUrl": null
         },
@@ -651,7 +651,7 @@
           "description": "reallittoma:",
           "link": "https://www.v2ex.com/t/1109723",
           "publishedOn": "2025-02-07T11:02:46.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "小米 8 口千兆交换机有人在用吗？靠谱不？",
           "imageUrl": null
         },
@@ -691,7 +691,7 @@
           "description": "airbo: \n各位 V 友大家好，\n我们是一个创业团队，我们最近开发了一款名为 白瓜面试 的产品，想在今年的春招季推广给求职者。\n官网附上 https://m.baigua.com/\n简单介绍一下我们的产品：\n白瓜面试是一款主要面向求职者，特别是应届生的产品，旨在帮助大家在面试中更好地应对问题。我们的核心功能是通过 AI 技术，为用户提供面试题目的回答参考，帮助用户在面试中更有底气，提升表现。\n我们的目标用户群体主要是：\n应届毕业生\n希望在面试中表达更流利的求职者\n目前在推广方面我们遇到了一些困惑，想向 V 站的各位大佬请教：\n正值春招季，求职市场竞争激烈，我们希望能够精准有效地触达目标用户。对于 白瓜面试 这种类型的 To C 产品，并且是 在春招期间推广，大家有什么好的推广渠道和方法建议吗？\n目前我们采取了的措施有：\n新媒体平台的内容推广，流量不算很多。\n一点点 SEO 的尝试和推广，效果平平。\n有尝试过一点点线下推广 但是效果不是很理想。\n希望听取大家的宝贵意见和建议，任何想法都欢迎分享！ 如果您有任何校园产品推广的经验，或者对求职产品推广有见解，都非常期待您的指点。\n感谢各位 V 友的耐心阅读和帮助！",
           "link": "https://www.v2ex.com/t/1109717",
           "publishedOn": "2025-02-07T10:34:41.000Z",
-          "wordCount": 446,
+          "wordCount": 448,
           "title": "「大佬求教」AI 面试产品 推广渠道及方法",
           "imageUrl": null
         },
