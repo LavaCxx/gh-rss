@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,33 +187,6 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -288,7 +255,7 @@
         {
           "id": "https://t.me/vps_xhq/696",
           "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。\n[消息等级 Level C2 · 简要]",
+          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
           "link": "https://t.me/vps_xhq/696",
           "publishedOn": "2025-01-29T09:14:56.000Z",
           "wordCount": null,
@@ -341,7 +308,7 @@
           "description": "psklf: \n为啥我不能？\n\"Looking for Railway 12306?\nThis app won't work for your device\"",
           "link": "https://www.v2ex.com/t/1109697",
           "publishedOn": "2025-02-07T09:44:52.000Z",
-          "wordCount": 394,
+          "wordCount": 396,
           "title": "你们在 Google Play 能下载 12306 吗",
           "imageUrl": null
         },
@@ -351,7 +318,7 @@
           "description": "caiji111: 故事如下：\n去年相亲了一个女生，断断续续接触了一年。\n双方父母都见过，我也去她家好多次，以为能成的。结果她要求彩礼 30 万自己留着，武汉房子一套，贷款要少于三千，五金不能少，婚后不帮还贷款，只负责一部分家庭开支，几千上万包包要买的。\n这我不同意，掰扯了好久，她说她值得这么多彩礼，还说我拖拖拉拉，相亲就是要快。但我怕这种物质女人，没感情结婚分分钟会离，所以一直再拖看能不能先培养感情。但她根本不和我谈感情，说房子都没买，没资格跟她谈。最后只能狠心删除联系方式分开了，钱花了不少还手都没拉上。\n现在相亲都是这样的吗，如果没感情还结什么婚啊。而且基本所有女生都要求你有房子，没房子根本没资格跟她们谈，累了，还是单身好。",
           "link": "https://www.v2ex.com/t/1109696",
           "publishedOn": "2025-02-07T09:44:48.000Z",
-          "wordCount": 573,
+          "wordCount": 648,
           "title": "相亲真的只满足物质条件，不看感情的吗",
           "imageUrl": null
         },
@@ -361,7 +328,7 @@
           "description": "Peiiii: \n网址： https://agent.dimstack.com/\ngithub: https://github.com/Peiiii/AgentVerse\n\n目前只是个非常基础的 demo ，支持用一个 moderator agent 去创建管理其它 agent 。\n有很多拓展想法但还不完善，例如支持 mcp ，给每个 agent 配置记忆，更灵活的响应机制、让每个 agent 可以通过命令行等其它形式访问等。希望最终真的能做成 A Universe of Agents\n目前接的 qwen2.5-max,估计很快就会没钱，等没钱了就打算暂时下掉了",
           "link": "https://www.v2ex.com/t/1109694",
           "publishedOn": "2025-02-07T09:39:12.000Z",
-          "wordCount": 408,
+          "wordCount": 451,
           "title": "过年用 cursor 写了个多 agent 讨论系统（AgentVerse），已开源，免注册欢迎体验",
           "imageUrl": null
         },
@@ -371,7 +338,7 @@
           "description": "asus10tu: 给公司门店做的智能客服，有一些基础资料，想根据资料去回答客户问题，有什么思路或者小集成推荐嘛",
           "link": "https://www.v2ex.com/t/1109693",
           "publishedOn": "2025-02-07T09:34:34.000Z",
-          "wordCount": 402,
+          "wordCount": 414,
           "title": "想做一个借助 AI 的智能客服，有什么推荐嘛",
           "imageUrl": null
         },
@@ -381,7 +348,7 @@
           "description": "joooooker21: 新手司机，过年开车回老家，晚上车少的时候最高跑到时速 150 ，心里有点点发慌，担心看到前车时来不及涉车。想问问各位老司机，在路况良好的情况下，车速多少算安全车速？",
           "link": "https://www.v2ex.com/t/1109692",
           "publishedOn": "2025-02-07T09:31:11.000Z",
-          "wordCount": 442,
+          "wordCount": 454,
           "title": "高速路况良好的情况下，车速多少算安全车速？",
           "imageUrl": null
         },
@@ -411,7 +378,7 @@
           "description": "potatouu: 住在郊区，路灯较少，灯光较暗，路算挺破的但是不至于到重新修的地步，一条路上大概有 4 家公寓楼，还有几个工厂，两边都是免费划线停车位\n旁边建好党校后：\n1.整条路重新修了一下，为了进公寓经常要踩着泥巴，年前经常性施工到半夜，早上大概 6 7 点就开始，估计为了赶进度，很扰民\n2.晚上路变的超级亮，基本上隔 30 米两个路灯，马路两边对称，以前估计 100 米才一个灯，晚上乌漆麻黑的\n3.原先的免费停车位都取消了，停车位的地方变成马路了，道路扩宽了。不知道意义在哪里，住的人多，本来停车就难\n4.因为建党校修路带来的很多问题都忍了，今天说党校要揭彩仪式了，房东来通知说不要把要晒的衣服挂在阳台上，给我整无语了\n发该帖的目的有两个，第一是吐槽公权力的滥用，第二是讨论“如果遇到公权力滥用的问题”大家会怎么处理",
           "link": "https://www.v2ex.com/t/1109689",
           "publishedOn": "2025-02-07T09:26:07.000Z",
-          "wordCount": 448,
+          "wordCount": 474,
           "title": "关于我住的公寓旁边建了个党校，吐槽&讨论",
           "imageUrl": null
         },
@@ -451,7 +418,7 @@
           "description": "h1298841903: \n越来越多的岗位可能会被 AI 取代，尤其是程序员、设计师，这些都属于高薪行业。\n我之前还想着贷款买房，现在短时间不考虑了，说不定哪天就被取代了，现在变化太快了。\n想着等这波 AI 浪潮趋于平稳，之后再考虑，大家怎么看？",
           "link": "https://www.v2ex.com/t/1109678",
           "publishedOn": "2025-02-07T08:59:02.000Z",
-          "wordCount": 449,
+          "wordCount": 451,
           "title": "感觉这轮 AI 再次爆火，影响最大的就是房价，大家怎么看？",
           "imageUrl": null
         },
@@ -471,7 +438,7 @@
           "description": "Peiiii: \n网址： https://agent.dimstack.com/\ngithub: https://github.com/Peiiii/AgentVerse\n目前只是个非常基础的 demo ，支持了一个 moderator agent 去创建管理其它 agent 。\n有很多拓展想法但还不完善，例如支持 mcp ，给每个 agent 配置记忆，更灵活的响应机制、让每个 agent 可以通过命令行等其它形式访问等。希望最终真的能做成 A Universe of Agents\n目前接的 qwen2.5-max,估计很快就会没钱，等没钱了就打算暂时下掉了",
           "link": "https://www.v2ex.com/t/1109676",
           "publishedOn": "2025-02-07T08:54:46.000Z",
-          "wordCount": 428,
+          "wordCount": 552,
           "title": "过年用 cursor 写了个多 agent 讨论系统（AgentVerse），已开源，免注册欢迎体验",
           "imageUrl": null
         },
@@ -481,7 +448,7 @@
           "description": "zxcjqyy:",
           "link": "https://www.v2ex.com/t/1109674",
           "publishedOn": "2025-02-07T08:52:34.000Z",
-          "wordCount": 437,
+          "wordCount": 454,
           "title": "请教下，现在运维就业吗",
           "imageUrl": null
         },
@@ -491,7 +458,7 @@
           "description": "niceyuri: \n情况说明\nOP 和对象异地，最近家里催婚得紧，想着领回家，可是在见父母沟通的过程中遇到了很多分歧和迷茫，想求助 v 站大佬们出点主意\n人物背景\nOP 95 年属猪，远程工作，但收入不高（每月 10k~20k 不等，月均到手 11k 吧），现在处于旅居状态（重庆）。深圳有房有贷（可随时还清）\n对象 94 年属狗，在她老家（吉林辽源）某国企上班\n家庭背景\nOP 家底小 A8 ，对象家都是国企退休\nOP 独生子，江西的，对象有个已婚哥哥，和哥哥关系不太好。\n当前的盘算\n初次见过对象家里，对我还是希望有个稳定工作（哪怕不挣几个钱，原话），对于日后的发展没有要求。OP 本身还是很喜欢远程的，但是这个工作遭到了对象家极大的抵制与反感。现在我设想的办法如下：\n1 、对象那破工作不干了，和我找个城市定居。困难点在于那个工作是花钱买的，还搭了人情，拍拍屁股走了她觉得不妥。\n2 、我找个辽源就近的城市（长春、四平或者其他）随便找个工作就业，但是我担心自己也干不了多长时间，坚持不下去。\n3 、就近成立一个个体户（之前有一个公司主体在深圳），说我是自己干的小老板，也许可以...\n对象的想法\n没想法..有点子傻..",
           "link": "https://www.v2ex.com/t/1109673",
           "publishedOn": "2025-02-07T08:51:31.000Z",
-          "wordCount": 698,
+          "wordCount": 727,
           "title": "纠结坏了....到底如何和 TA 走下去呢...",
           "imageUrl": null
         },
@@ -511,7 +478,7 @@
           "description": "mpthink: \n后端开发一直用的 IDEA ，用了一段时间的 cursor 搞搞 python 、前端挺好用，后端使用的时候目前在 cursor 生成，然后跑到 idea 里面去 debug 调试，请问各位大佬有没有好的方法呢?\ncursor 里面我也下了 java 相关插件，但是不如 idea 好用",
           "link": "https://www.v2ex.com/t/1109669",
           "publishedOn": "2025-02-07T08:42:55.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "Java 后端开发一直用 IDEA， IDEA 有没有类似 cursor 的插件",
           "imageUrl": null
         },
@@ -561,7 +528,7 @@
           "description": "xiaon: \n我觉得现在身体健康最重要，但是喜欢熬夜，每每看到 B 站上癌症患者的劝告，说不要熬夜，我就心里害怕，督促自己早点睡，不要熬夜，但是有时候不困睡不着，如果睡不着的话有什么方法快速入睡吗，你们每天都睡眠几个小时呢？",
           "link": "https://www.v2ex.com/t/1109663",
           "publishedOn": "2025-02-07T08:29:18.000Z",
-          "wordCount": 549,
+          "wordCount": 553,
           "title": "大家每天都睡眠几个小时啊",
           "imageUrl": null
         },
@@ -571,7 +538,7 @@
           "description": "captalz: 手头有个项目。跑一个脚本要求虚拟机 vm 会玩的。工作时间自由，报酬丰厚",
           "link": "https://www.v2ex.com/t/1109662",
           "publishedOn": "2025-02-07T08:28:14.000Z",
-          "wordCount": 379,
+          "wordCount": 392,
           "title": "有没有想离职的程序员",
           "imageUrl": null
         },
@@ -591,7 +558,7 @@
           "description": "Tumblr: \n这几天看到很多 V 友分享驾车见闻，也来跟个风。  \n事情发生在某个岛上。\n\n（以下内容根据所见及所听整理后按顺序描述）\n经过 20 多分钟的风波，渡轮也到了，凌志开走，坦克 300 插到凌志的位置，大家上船。",
           "link": "https://www.v2ex.com/t/1109660",
           "publishedOn": "2025-02-07T08:26:22.000Z",
-          "wordCount": 396,
+          "wordCount": 410,
           "title": "过年开车见闻——插队惹众怒",
           "imageUrl": null
         },
@@ -601,7 +568,7 @@
           "description": "yoa1q7y: \n最近换了 iPhone ，头一次用上编织充电线，柔软，舒适，随意弯曲，相比以前的塑料线感觉好太多",
           "link": "https://www.v2ex.com/t/1109659",
           "publishedOn": "2025-02-07T08:23:50.000Z",
-          "wordCount": 415,
+          "wordCount": 424,
           "title": "编织充电线真是个好东西啊",
           "imageUrl": null
         },
@@ -611,7 +578,7 @@
           "description": "BraydenCai229: 这是帮我一个人很不错又母胎 solo 的女同事的相亲贴，我先写一下她的个人信息包括本人对她的印象：\n学历：本科\n身高体重：169cm 60kg \n籍贯：广东佛山\nmbti:ENFJ 宝剑哥\n兴趣爱好：喜欢徒步爬山，旅行，喜欢运动（羽毛球、乒乓球）\n性格特点：性格开朗，很正经又热心肠，爱笑，积极向上，正义感十足，热爱小动物，很会提供情绪价值和释放外向的能量，非常单纯\n工作：在广州一家外企当采购\n对男方的要求是年龄最好不要大她太多，5 岁内可以接受，在广东发展，广州或佛山更好，最好能不抽烟，需要正经成熟稳重一些\n诚心帮同事，如果有需要可以先加我 vx:Y2J5MTMyMjY3NTI5NjM=",
           "link": "https://www.v2ex.com/t/1109657",
           "publishedOn": "2025-02-07T08:21:37.000Z",
-          "wordCount": 434,
+          "wordCount": 446,
           "title": "帮广州 96 女生相亲贴(非常不错一女生",
           "imageUrl": null
         },
@@ -621,7 +588,7 @@
           "description": "Xbathy: 基本情况：我和老婆在上海工作，没有房子和车位\n买车理由：1 、老婆上班每天电驴通勤，半个小时左右路程，冬天比较冷，想买个车。2 、还有就是想周边玩的话比较方便（想象）。但是她现在还不会开..\n买车预算：10-15w\n现在试驾了 model3 和 su7 ，都挺好但是有点超预算，而且我俩没有车位，感觉充电比较麻烦。然后油车现在还没有沪牌，买的话只能先上外地牌..有限行...看看各位过来人有没有建议",
           "link": "https://www.v2ex.com/t/1109655",
           "publishedOn": "2025-02-07T08:18:12.000Z",
-          "wordCount": 637,
+          "wordCount": 657,
           "title": "想买个车，买 or 不买，油 or 电",
           "imageUrl": null
         },
@@ -631,7 +598,7 @@
           "description": "lurui45: \n有些播客没有 shownotes ，如果听完了想回头找一些信息，找起来很麻烦。\n各位经常听播客的有没有好的 AI 总结播客的方法。\n最笨的办法就是把播客音频下载下来，然后转成文本喂给 AI 总结。",
           "link": "https://www.v2ex.com/t/1109654",
           "publishedOn": "2025-02-07T08:17:07.000Z",
-          "wordCount": 412,
+          "wordCount": 419,
           "title": "播客 AI 总结",
           "imageUrl": null
         },
@@ -641,7 +608,7 @@
           "description": "awua: 就是代码写完了,通过了测试,但是自己有时间上线前还是会反复检查是否有问题.",
           "link": "https://www.v2ex.com/t/1109653",
           "publishedOn": "2025-02-07T08:17:06.000Z",
-          "wordCount": 498,
+          "wordCount": 505,
           "title": "大家都怎么减轻自己对于编写代码可能出问题的焦虑的?",
           "imageUrl": null
         },
@@ -651,7 +618,7 @@
           "description": "Glory10086: \n需求：RouteB 通过 Wireguard 接入 RouteA ，并实现访问互联网摸鱼。\n网络环境\nOpenwrt-RouteA(Lan 地址 192.168.100.1)：\n互联网线路 1：pppoe 拨号---运营商线路，可正常访问互联网\n内网线路 2：DHCP---公司内网，访问内网服务及 Wireguard 组网用\n\n\nOpenwrt-RouteB(Lan 地址 192.168.50.1)：\n内网线路：DHCP---公司内网，访问内网服务及 Wireguard 组网用\n\nRouteA 只有 1Wan+4Lan ，Wireguard 搭建好了。添加新接口 Lan1 ，DHCP ，只获取 IP 不获取网关。\nbr-lan 里面取消勾选 Lan1 口、防火墙加入 WAN 。放行 wireguard 端口 XXX 。\n遇到的问题是：\nWireguard 好像只绑定了 WAN 口，内网组网连不上，请教该怎么设置：\n让 Wireguard 绑定 Lan1 口通信，并且能实现 RouterB 上互联网。(RouteA 单独只插内网线路到 Wan 口是可以组网连通的)",
           "link": "https://www.v2ex.com/t/1109652",
           "publishedOn": "2025-02-07T08:15:29.000Z",
-          "wordCount": 437,
+          "wordCount": 460,
           "title": "请教关于 Openwrt 内外网双线， Wireguard 组网的设置",
           "imageUrl": null
         },
@@ -661,7 +628,7 @@
           "description": "HkMuxxx: 公积金账户余额有 4w 多了，因为是 23 年毕业，所以月平均只有 3w\n杭州公积金个人好像最高只能贷 60 万，可贷的金额是月平均✖️15\n所以是不是账户余额里有 4w 就行了，想着 2025 年每个月提一点用于租房",
           "link": "https://www.v2ex.com/t/1109650",
           "publishedOn": "2025-02-07T08:07:01.000Z",
-          "wordCount": 411,
+          "wordCount": 413,
           "title": "关于杭州公积金租房提取问题",
           "imageUrl": null
         }
