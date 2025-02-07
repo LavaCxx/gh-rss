@@ -191,33 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -320,202 +293,12 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
-          "id": "https://www.v2ex.com/t/1109762",
-          "author": "ChefIsAwesome",
-          "description": "ChefIsAwesome: \n川普大幅增加关税，驱赶移民/劳动力，势必影响物价。美国通胀会反弹，大放水也就不存在了。\n他瞎搞国际关系，甚至想开疆扩土。国际局势紧张，必然会影响金融市场。黄金不声不响的又涨起来，说明避险需求在增加。\n美股、加密货币，这些风险资产涨的够多了。川普全家甚至都发币骗钱。俨然是最后再割一波的态势。\n买股票就是赌国运。我认为美国未来几年要走下坡路了，美股的熊市要来了。",
-          "link": "https://www.v2ex.com/t/1109762",
-          "publishedOn": "2025-02-07T15:36:06.000Z",
-          "wordCount": 115,
-          "title": "美股熊市应该要来了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109761",
-          "author": "FakerLeung",
-          "description": "FakerLeung: \n已经达到 72g 了，执行过 docker system prune 了，还是有 72g🥵救救孩子",
-          "link": "https://www.v2ex.com/t/1109761",
-          "publishedOn": "2025-02-07T15:25:46.000Z",
-          "wordCount": 455,
-          "title": "/var/lib/docker 体积太大了？要怎么清理才行？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109760",
-          "author": "sxguka",
-          "description": "sxguka: 本文针对移动等没有公网 V4 ，且 V6 不好用的用户\n本人无此困扰，发出了是为了给大家分享\n原贴： https://blog.eurekac.cn/p/daa17206.html\n由于帖子长度有限制，我删除了部分图片，请点击原链接查看。\n\n随心扯\nFebruary 15, 2024\n为什么我更想要 FullCone 网络\n  What is NAT\n  NAT has 4 main types\n  Let us have a try - to build up a server with FullCone NAT\n  STUN - A formal protocol to detect NAT pair\n  NAT2NAT - If we all can not get a Public IP\n  How to Transform Home networks to get FullCone NAT\n    Disable Firewall\n    Enable DMZ host\n    Change to Bridge\n  So, why I prefer FullCone NAT\n    Export My Server to Public Internet\n    Get A HighID in P2P download\n  It is Hard to Get a FullCone NAT\n    ISP is Afraid of PCDN\nFullCone 是什么？我是如何利用 FullCone 网络实现内网穿透的？为什么我会这么希望得到全锥网络？\n寒假的时候几个高中同学凑一块，想联机玩 Minecraft 。然而我们几个同学都没有公网 ip ，想要联机必须要内网穿透。\n为什么不用 IPV6 ？因为除了我之外其他人的路由器都是 NAT 在运营商给的智…",
-          "link": "https://www.v2ex.com/t/1109760",
-          "publishedOn": "2025-02-07T15:22:31.000Z",
-          "wordCount": 1609,
-          "title": "[转载] 为什么我更想要 FullCone 网络",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109759",
-          "author": "jedeft",
-          "description": "jedeft: \n注册提示：Sign up is restricted.\n登录提示：Authentication blocked, please contactyour admin",
-          "link": "https://www.v2ex.com/t/1109759",
-          "publishedOn": "2025-02-07T15:15:30.000Z",
-          "wordCount": 386,
-          "title": "cursor 不能注册也不能登录了吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109758",
-          "author": "xuxueli",
-          "description": "xuxueli: \nRelease Notes\n1 、 [升级] 调度中心升级至 SpringBoot3 + JDK17 ；\n2 、 [升级]  Docker 镜像升级，镜像构建基于 JDK17 ；\n3 、 [优化]  IP 获取逻辑优化，优先遍历网卡来获取可用 IP ；\n4 、 [优化] 通用命令行任务(“commandJobHandler”)优化，支持多参数执行，命令及参数之间通过空格隔开；如任务参数 \"ls la\" 或 \"pwd\" 将会执行命令并输出数据；\n5 、 [优化] 通用 HTTP 任务（ httpJobHandler ）优化，任务参数格式调整为 json 格式；示例参数如\n6 、 [升级] 多个项目依赖升级至较新稳定版本，涉及 gson 、groovy 、spring/springboot 等；\n备注：\na 、本次升级数据模型及通讯协议向前兼容，v2.4.*及后续版本可无缝升级；\nb 、版本 3.x 开始要求 Jdk17 ；版本 2.x 及以下支持 Jdk1.8 。如对 Jdk 版本有诉求，可选择接入不同版本;\n代码接入示例\nXXL-JOB 支持多模式任务，下文以简单的“Bean 模式任务”为例介绍，三步快速开发接入。\n步骤一：执行器，开发 Job 方法\n@XxlJob(\"demoJobHandler\")\n public void demoJobHandler() throws Exception {\n    XxlJobHelper.log(\"XXL-JOB, Hello World.\");\n}\n\n步骤二：调度中心，新建调度任务\n\n步骤三：任务执行，查看任务进度及日志\n\n简介\nXXL-JOB 是一个轻量级分布式任务调度平台，其核心设计目标是开发迅速、学习简单、轻量级、易扩展。现已开放源代码并接入多家公司线上产品线，开箱即用。\n中文文档： http://ww…",
-          "link": "https://www.v2ex.com/t/1109758",
-          "publishedOn": "2025-02-07T15:00:51.000Z",
-          "wordCount": 601,
-          "title": "XXL-JOB v3.0.0 | 分布式任务调度平台（升级 SpringBoot3 + JDK17）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109757",
-          "author": "Nnup",
-          "description": "Nnup: \n24 年左右在 v 站上看到的，忘记收藏了。\n只记得总体是白色，中间是一个正方体，文字内容贴在上面，可以连续滚动，很丝滑。不过具体还有好多细节记不大清了，文字内容也记不清了。。。。\n自己已经找了好久了，搜索也搜了一个遍，还是没找到。\n用途是打算最近做一个网站，想参考下下前端的设计，自己做了几个总是不满意，想看看原网站的细节的又找不到。\n问问大家又没有印象，或者有类似的网站设计参考一下。\n谢谢啦",
-          "link": "https://www.v2ex.com/t/1109757",
-          "publishedOn": "2025-02-07T14:57:22.000Z",
-          "wordCount": 381,
-          "title": "找一个网站，前端 ui 是中间一个正方体的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109755",
-          "author": "pianjiao",
-          "description": "pianjiao: 难不成他也用的百度地图吗",
-          "link": "https://www.v2ex.com/t/1109755",
-          "publishedOn": "2025-02-07T14:38:24.000Z",
-          "wordCount": 380,
-          "title": "百度地图如何判断前方有前方有前端大车。后方有大车接近？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109753",
-          "author": "rhua0016",
-          "description": "rhua0016: 我本科的时候比较躺，基本没怎么搞过课外的内容。然后快毕业了找不到工作出国读了个一年水硕回来，投这些互联网大厂中厂都没过，最后进了一家城商行。行里用的技术都比较老而且很多都是自己封装的一套东西，基本上都是干的 curd ，感觉学不到什么东西。加班不算严重但也偶尔能弄到很晚。\n现在一年到手不到 15w 。我听说很多老员工干了快十年也才三十多，薪资提升基本靠时间慢慢熬，唯一的好处是不裁员。\n我是感觉现在的钱有点少了，但是不知道应该怎么提升自己，也不知道跳出去是不是好的选择，毕竟我们这边基本都不社招的。",
-          "link": "https://www.v2ex.com/t/1109753",
-          "publishedOn": "2025-02-07T14:19:15.000Z",
-          "wordCount": 398,
-          "title": "工作不算卷但收入也不高，很迷茫，想听听大家的意见",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109752",
-          "author": "ronen",
-          "description": "ronen: 安信发的，从此可以开始积累环联的信用分了。\n有个小插曲，年前通知我需要去网点取，取卡时间另行通知，结果一直也没有通知，我以为是春节导致的办事效率低。\n直到本周都开始发月结单了，我打电话去问，说随时可以去网点取了。",
-          "link": "https://www.v2ex.com/t/1109752",
-          "publishedOn": "2025-02-07T14:15:16.000Z",
-          "wordCount": 333,
-          "title": "昨天拿到了在港的第一张信用卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109751",
-          "author": "pdog18",
-          "description": "pdog18: \n我个人最喜欢的动画电影是 「机器人总动员 WALL·E (2008)」 真心觉得非常非常棒的一部电影。\n其他一些觉得好的动画电影，但是依旧无法动摇「机器人总动员」在我心中的地位。\n千与千寻\n寻梦环游记\n疯狂动物城\n龙猫\n天空之城\n哈尔的移动城堡\n悬崖上的金鱼姬\n飞屋环游记\n你的名字",
-          "link": "https://www.v2ex.com/t/1109751",
-          "publishedOn": "2025-02-07T14:13:16.000Z",
-          "wordCount": 529,
-          "title": "大家觉得最好的动画电影是哪一部？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109750",
-          "author": "zhwguest",
-          "description": "zhwguest: \n其实就是一个主表，里面有两个指向明细表的索引。\ncreate table pairs1(id serial primary key, ai int not null, bi int not null);\n\ncreate table pairs2(id serial primary key, ai int not null, bi int not null);\n\ncreate table items1(id serial primary key, name text not null);\n\ncreate table items2(id serial primary key, name text not null);\n\ncreate view pairs as select * from pairs1 union all select * from pairs2;\n\ncreate view items as select * from items1 union all select * from items2;\n\ncreate view viewpairs as select t0.id, t1.id as aid, t1.name as aname, t2.id as bid, t2.name as bname from pairs t0 left join items t1 on t0.ai=t1.id left join items t2 on t0.bi=t2.id;\n\n$ explain select * from viewpairs;\n                                              QUERY PLAN\n-------------------------------------------------…",
-          "link": "https://www.v2ex.com/t/1109750",
-          "publishedOn": "2025-02-07T13:55:12.000Z",
-          "wordCount": 660,
-          "title": "请假各位大哥 pg 中一个相对比较简单的查询为什么效率这么低",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109749",
-          "author": "han654",
-          "description": "han654: 我开了一个 1 个月的，就是美区家庭把你拉进去。\n是有什么坑吗？看起来店铺有 3 年、粉丝也不少、两个蓝色皇冠，不太像会跑路的",
-          "link": "https://www.v2ex.com/t/1109749",
-          "publishedOn": "2025-02-07T13:54:46.000Z",
-          "wordCount": 389,
-          "title": "淘宝上的 Apple fitness+ 9.9rmb/一个月，甚至 45 半年，是有什么坑吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109747",
-          "author": "leonz95",
-          "description": "leonz95: \n最近在听英文播客，有时候也挺多废话的，所以弄了个挂在桌面像歌词的实时翻译软件，就可以边打代码边听了。有英文会议也很有用。\n开源 GitHub repo，欢迎 star 。当前只支持 macOS ，有需要 windows 的可以提 issue 让我知道。",
-          "link": "https://www.v2ex.com/t/1109747",
-          "publishedOn": "2025-02-07T13:41:18.000Z",
-          "wordCount": 434,
-          "title": "[开源] Rust 写了个纯本地的实时语音转录翻译软件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109746",
-          "author": "LatentKSI",
-          "description": "LatentKSI: \n困扰\n这个问题困扰我有一段时间了，系统是 Win11 。\n自问自答\nChrome 地址栏输入 chrome://flags/#use-angle 回车。\n找到 Choose ANGLE graphics backend 选项。\n选择D3D11。\n重启 Chrome 即可。  \n用段时间看看会不会再出问题吧。",
-          "link": "https://www.v2ex.com/t/1109746",
-          "publishedOn": "2025-02-07T13:27:26.000Z",
-          "wordCount": 385,
-          "title": "Windows 系统 HDR 下 Chrome 非全屏播放视频存在画面过曝问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109745",
-          "author": "aozhou",
-          "description": "aozhou: 字节的 HR 都直接加微信的吗？\n之前就接到过，微信不通过就直接打电话，都不好装看不到，那次没跳槽意向就给拒绝了。\n最近看了看 boss ，又有自称字节 HR 的依然同流程操作，先 boss ，不回就加微信，不加就一个电话打过来。\n不是骗子吧……",
-          "link": "https://www.v2ex.com/t/1109745",
-          "publishedOn": "2025-02-07T13:24:18.000Z",
-          "wordCount": 437,
-          "title": "有没有字节的大佬帮忙解惑？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109744",
-          "author": "shiyidi",
-          "description": "shiyidi: 由于天气太冷电瓶车续航拉垮，夏天能跑 2 个来回，冬天冷的时候 1 个来回都跑不下来。\n重新买过一辆新国标电瓶车，第一年还可以，第二年冬天又跑不下来 1 个来回了。\n摩托车驾照是考下来了，听说摩托车牌照不给非京籍注册了，但听说又放开了，奈何都没有找到官方政策说明。\n如题，求助各位 V 友。",
-          "link": "https://www.v2ex.com/t/1109744",
-          "publishedOn": "2025-02-07T13:20:36.000Z",
-          "wordCount": 384,
-          "title": "非京籍想买摩托车可以上牌吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109742",
-          "author": "Librola",
-          "description": "Librola: \n是 Mac 的 Chrome ，版本是 132.0.6834.160 。\nB 站打开的是一个普通的视频，不是直播，是暂停挂在后台的，没有在播放。\n \n这一项就 300% 了，而且稳定地在 300% 左右波动。\nCPU 平均温度都被干到了 80+ °C 。\n \n而且开的标签页并不多，只要把 b 站这一个页面关掉 CPU 就会掉下去。这几天触发好几次了，不管什么视频都有可能触发。",
-          "link": "https://www.v2ex.com/t/1109742",
-          "publishedOn": "2025-02-07T13:06:47.000Z",
-          "wordCount": 423,
-          "title": "Chrome 只要把 B 站暂停挂后台就会持续高 CPU 占用吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109741",
-          "author": "iisboy",
-          "description": "iisboy: \n感觉现在很多方法都失效了，有无最新的办法？",
-          "link": "https://www.v2ex.com/t/1109741",
-          "publishedOn": "2025-02-07T13:06:42.000Z",
-          "wordCount": 365,
-          "title": "如何给网站增加高质量的外链？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109740",
-          "author": "zcf2009",
-          "description": "zcf2009: \n起因是我在存钱时最后有一张钱一直识别不出来，我就多试了两次。外面排队的老头听到里面机器提示音请取出无法识别的钞票，就大声催我快点，存不了就别存了。我扭头就骂他，跟他对骂了一会儿。我也没心情存了，就出去了。出去的时候经过他就瞪着他，他突然就抓起我的衣领子推我，我也反抓他的推他。卧槽！我才发现我的力气竟然没他大，被他推着走。打架不丢人，输给老头才丢人！相互扭了半分钟就被人拉开了。\n过年期间好多亲朋好友都说我胖了该减肥了，我内心毫无波澜，但输给老头真的让我觉得是该好好锻炼减肥了！",
-          "link": "https://www.v2ex.com/t/1109740",
-          "publishedOn": "2025-02-07T12:59:04.000Z",
-          "wordCount": 481,
-          "title": "前天在银行跟一个看起来 50 左右的老头打了一架，打输了",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.v2ex.com/t/1109737",
           "author": "stefwoo",
           "description": "stefwoo: \n有没有那种很细的线，并不需要那么高的速率，用来连接 DA 盒和电脑，速率别说 10g 了，1g 都够了。现在的线太粗了太硬了。",
           "link": "https://www.v2ex.com/t/1109737",
           "publishedOn": "2025-02-07T12:37:00.000Z",
-          "wordCount": 400,
+          "wordCount": 404,
           "title": "求推荐很软很细的 typec 线缆",
           "imageUrl": null
         },
@@ -535,7 +318,7 @@
           "description": "zhouyin: \n###耗时 \nperl 最慢 等不及处理完 就停止了 perl\nnodejs 1 分钟多\nphp 30 多秒\nruby 30 多秒\npython 11 秒左右\ngo 4 秒左右\n###时间上 go 和 python 胜出\n###功能上面 这个 csv 文件不标准 有个字段有个单个双引号 \ngo 和 nodejs 和 ruby 都报错 无法处理完 上面它们两个的时间是把那个单引号移除后的 csv 文件 \nphp 没报错 但因为单个双引号忽略了很多行 它把那些双引号当分界符了\n功能上 python 胜出 python 完全能处理不标准的 csv 最后能生成正确 csv 就几行代码\n###代码写起来 nodejs 最恶心\nnodejs 屌什么屌 非常像 ghostscirpt 作者评价 perl 的话：perl 像从狗的肛门里吐出来的东西\n写这么个小项目 感觉 nodejs 才像从狗的肛门里吐出来的东西",
           "link": "https://www.v2ex.com/t/1109735",
           "publishedOn": "2025-02-07T12:18:06.000Z",
-          "wordCount": 983,
+          "wordCount": 989,
           "title": "nodejs Python PHP ruby go perl 处理单个 4 百兆 csv 文件比较",
           "imageUrl": null
         },
@@ -595,7 +378,7 @@
           "description": "TossPig: \n家用环境，防止物业突然修变压器，\n之前的 H1000M 在一次突然停电后就无法开机了，国网赔了 150 ，\n自己添点 180 米上了个 UPS ，该有的都有感觉还可以。",
           "link": "https://www.v2ex.com/t/1109728",
           "publishedOn": "2025-02-07T11:56:05.000Z",
-          "wordCount": 477,
+          "wordCount": 481,
           "title": "杂牌 UPS 也是可以用",
           "imageUrl": null
         },
@@ -695,7 +478,7 @@
           "description": "chillwind: \n这里有搞鸿蒙开发的兄弟吗？今天遇到一个问题，搞了半天也没搞定。需求很简单就是让左边的竖线跟随整个 Row 的高度变化，整个 Row 的高度不定，后面的文本可能会换行。\nRow() {\n// Vertical line decoration\nRow()\n.width(3)\n.height('100%')\n.backgroundColor('#DDDDDD')\n    Column() {\n      Row() {\n        Text(\"Test1111\")\n          .fontSize(14)\n          .fontWeight(FontWeight.Lighter)\n          .fontStyle(FontStyle.Italic)\n          .foregroundColor('#DDDDDD')\n          .flexGrow(1)\n        Button() {\n          Text(\"button\")\n            .width(30)\n            .height(30)\n        }\n        .width(30)\n        .height(30)\n        .backgroundColor(Color.Transparent)\n        .foregroundColor('#DDDDDD')\n      }\n      .width('100%')\n      .alignItems(VerticalAlign.Top)\n      Text(\"long text long text long text long text long text \")\n        .fontSize(14)\n        .fontWeight(FontWeight.Lighter)\n        .foregroundColor('#DDDDDD')\n        .width('100%')\n        .margin({ top: 2 })\n    }\n    .margin({ left: 7 })\n    .layoutWeight(1)\n  }\n  .alignItems(VerticalAlign.Top)\n  .width('100%')\n  .margin({ top: 10 })",
           "link": "https://www.v2ex.com/t/1109716",
           "publishedOn": "2025-02-07T10:31:58.000Z",
-          "wordCount": 546,
+          "wordCount": 565,
           "title": "这里有搞鸿蒙开发的兄弟吗？遇到一个布局问题",
           "imageUrl": null
         },
@@ -705,7 +488,7 @@
           "description": "AmaQuinton: 同学介绍一女生，认识有一个月，总共见了 3 次面，同龄人，她是研究生毕业，我是本科，家里距离挺近的，都在农村\n目前遇到了一个矛盾，在确定关系的时候，她既没同意也没拒绝，这里面也有我的原因，后来她提醒我说，重要的事情，是需要仪式感的\n她现在想买房，然后自己去看了房子，她家里不支持，给不了什么帮助，然后问我什么意见，我说听赞成的，但是按照目前我们的关系，我无法给你提供经济上的帮助\n因为我自己房车都买了，如果让我去帮她，是有顾虑的，经济上我也扛不住，即便是帮了，最后闹崩了，啥也落不着\n刚开始我们聊的挺开心的，有着相同的兴趣爱好，工作地点距离的很近，工资差距不大\n然后我们的聊天频率，从最初的整天聊，到现在过两天聊几句，都是很客气\n我忍受不了这种情况，也问了她的想法，说是谈不上喜欢，但是也不讨厌，\n我说了结束吧，结果她把话题岔开了，然后又主动给我发消息，过两天又是不想聊\n看不懂，想放弃，问了朋友，说是让我再坚持一下，她在犹豫，但是也有可能现在没遇到更好的",
           "link": "https://www.v2ex.com/t/1109715",
           "publishedOn": "2025-02-07T10:29:46.000Z",
-          "wordCount": 401,
+          "wordCount": 403,
           "title": "买房&情感问题",
           "imageUrl": null
         },
@@ -727,6 +510,196 @@
           "publishedOn": "2025-02-07T10:26:35.000Z",
           "wordCount": 419,
           "title": "日本游戏开发 cocos， unity",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109712",
+          "author": "hugozach",
+          "description": "hugozach: \n一直用 v0 ！！！",
+          "link": "https://www.v2ex.com/t/1109712",
+          "publishedOn": "2025-02-07T10:24:03.000Z",
+          "wordCount": 115,
+          "title": "好消息 哪吒 2🔥火了 坏消息 不是哪吒 v2 探针版",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109711",
+          "author": "jiang1234321",
+          "description": "jiang1234321: \n如题。\n现在在一个中厂，领导从阿里出来的，味太冲，实在是受不了。\n拿到了这个 offer ，有没有在迅雷工作的，给点建议",
+          "link": "https://www.v2ex.com/t/1109711",
+          "publishedOn": "2025-02-07T10:22:22.000Z",
+          "wordCount": 440,
+          "title": "拿到迅雷的 web3 offer，签约主体是深圳布斯特科技有限公司。能不能接？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109710",
+          "author": "th00000",
+          "description": "th00000: \n购车对象：老家亲人\n购车目的：老车置换\n购车预算：车辆总价区间 13-18W \n车辆类型：中型、大型 SUV\n能源形式：非纯电；增程，插混，燃油都可\n品牌需求：没有明显的品牌倾向，国产、合资均可，希望单车型销量不是太低的型号，杜绝网约车型号\n其他需求：对空间有要求，最好具备高速 NOA 的能力，如果车企支持 3 年免息政策，可以适当提高预算到 20W\n感谢~",
+          "link": "https://www.v2ex.com/t/1109710",
+          "publishedOn": "2025-02-07T10:19:41.000Z",
+          "wordCount": 383,
+          "title": "为家人购车求推荐，预算 13-18W，非纯电类型",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109709",
+          "author": "xingchong",
+          "description": "xingchong: \n前段时间刚说过 18 款的 iPad pro 多么耐用，过个年，就把它丢了。。。\n\n年初二忘到高铁上了，过了几个小时才想起来时，已经定位到张家港，开了丢失模式，留了联系方式和酬谢留言，没有任何反馈，期间定位又辗转到了另一个地址，报警后公仆觉得本人不在当地，也没有实际证据而不能受理，是不是只能当丢了？\n\n已报 12306 调取监控，还没结果\n\n另外，丢了后，是不是只要设置丢失模式，数据就安全了？又买了一个 24 款 11 寸，是不是数据也备份不下来了？哎。。。",
+          "link": "https://www.v2ex.com/t/1109709",
+          "publishedOn": "2025-02-07T10:12:44.000Z",
+          "wordCount": 571,
+          "title": "iPad 忘到高铁被人拿走，是不是基本要不回来了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109708",
+          "author": "jackey007",
+          "description": "jackey007: \n如题，我想通过把本地的个人文档（主要是 pdf ，md ，doc 文档）同步到云端，创建一个在线的个人知识库。在网上看了一些方法，在云端创建，需要上传本地的文件，但是我本地文件比较多（几千个，主要是一些论文）且经常更新，不可能每次问问题都全部重新上传一次。在本地部署，只能使用参数量较小的蒸馏模型。并且个人认为大模型的未来还是在云端的，不太可能每个人都本地搭建一个。所以问题来了：\n现在有没有什么平台可以使用满血的开源大模型（比如 deepseek ，千问等），同时提供一定的存储空间（不需要很大，几个 GB 就行）？这样能够把自己的文档同步到云端，并且模型自动读取，以此实现通过本地调用 api 就能得到一个满血的个人知识库。",
+          "link": "https://www.v2ex.com/t/1109708",
+          "publishedOn": "2025-02-07T10:11:01.000Z",
+          "wordCount": 460,
+          "title": "有没有哪个平台可以使用满血大模型的同时提供一定的存储空间，以搭建线上个人知识库的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109706",
+          "author": "gh110827",
+          "description": "gh110827: office 365 拼车 2026 年 5 月 2 日到期，15 个月，只需 43 元。",
+          "link": "https://www.v2ex.com/t/1109706",
+          "publishedOn": "2025-02-07T10:01:51.000Z",
+          "wordCount": 405,
+          "title": "office 365 拼车， 15 个月，还有 4 位",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109705",
+          "author": "why1001",
+          "description": "why1001: \n看了阮一峰这周的周刊最后有一个文章是AI 让我变成文盲程序员。\n之前没有 AI 自己会经常折腾一下来扩展自己的知识广度，现在有了 AI 很少再去这样做了，有什么问题直接扔给 AI ，也不怎么去思考了。\n不过 AI 确实提升了效率，但是学习上的成就感减少了很多。",
+          "link": "https://www.v2ex.com/t/1109705",
+          "publishedOn": "2025-02-07T09:59:37.000Z",
+          "wordCount": 451,
+          "title": "AI 让我变成文盲程序员",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109704",
+          "author": "ReinerShir",
+          "description": "ReinerShir: 地址： https://github.com/reinershir/Shir-AI\n如今 AI 对话工具多如牛毛，联网功能和 RGA 对话也没有大厂做得好，干脆开源出来给新手学习用了\n大致功能有：\n 在线生成代码（根据表结构）\n 对话记录\n OPENAI 模型列表、微调等\n 用户角色权限字典等基础功能\n AI 联网、谷歌查询、RGA 对话、发送图片等\n有兴趣进一步改造该项目的可以联系我",
+          "link": "https://www.v2ex.com/t/1109704",
+          "publishedOn": "2025-02-07T09:55:44.000Z",
+          "wordCount": 370,
+          "title": "早些年写的 AI 对话工具，有联网功能、RGA 对话、发送图片等，现在看来已经没啥用了，现将其开源",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109702",
+          "author": "handsomehaitao",
+          "description": "handsomehaitao: \n笔记本是 m3 24g 1t 硬盘 本地安装能解决问题吗，本地安装回答的答案是否与在线问答一样精确？",
+          "link": "https://www.v2ex.com/t/1109702",
+          "publishedOn": "2025-02-07T09:53:09.000Z",
+          "wordCount": 387,
+          "title": "deepseek 在线提问总是“服务器繁忙，请稍后再试”，问的都是很基础的问题，有什么解决办法么",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109700",
+          "author": "xwartz",
+          "description": "xwartz: \n公司介绍\nimToken 是一家专注于区块链领域的创业公司，总部位于新加坡，目前已在全球 3 个国家和地区设立办公场所。致力于打造最为安全放心、简单易用的数字钱包，让每个人平等自由地享受有意义的数字生活\n工作地点\n新加坡/台湾/杭州\n支持远程办公\n岗位职责\n资深前端开发工程师\n沟通和理解产品需求，负责去中心化钱包、去中心化交易所、DApp 的开发\n参与前端工程建设，提升团队开发效率，降低维护成本\n发现产品和工程上的问题，设计优化方案，解决痛点\n跟进社区发展、快速了解和学习新技术、调研可行性\n任职要求\n有良好的计算机基础，熟练掌握前端技术及相关标准\n熟悉 TypeScript ，具备良好的类型设计能力\n熟悉 React 和 React Native ，具有相关项目经验\n深入了解前端工程化及原理，具备良好的架构设计和工程设计能力\n具备优秀的业务理解能力，遵循良好的开发规范，编写可维护的代码\n具备良好的沟通和文档协作能力\n关注技术社区发展和趋势，拥有快速持续学习新知识的能力和动力\n享受解决问题的乐趣，具备化繁为简的能力\n加分项\n积极参与开源项目，有 Github 开源项目作品\n熟悉区块链领域知识，有区块链项目开发经验\n擅长使用或开发效率工具\n联系方式\n投递邮箱： hr@token.im 或 xwz@token.im\n邮件主题：应聘岗位+姓名+来自 v2ex\n应聘岗位\n工作地点\n联系方式（邮件地址和手机号）\n简历",
+          "link": "https://www.v2ex.com/t/1109700",
+          "publishedOn": "2025-02-07T09:49:32.000Z",
+          "wordCount": 412,
+          "title": "[区块链] 去中心化钱包 imToken 招聘资深前端工程师",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109698",
+          "author": "Marker",
+          "description": "Marker: 最近在做项目需要制作一些电子印章，找到了一个还不错的在线工具分享给大家 - SealDigital ( https://sealsdigital.com/)\n主要功能特点：\n完全在线操作，无需下载软件\n提供多种专业印章模板（公司印章、合同章等）\n支持自定义功能：\n字体选择和大小调整\n压缩比例和分布因子调整\n图片导入功能\n内圆圈设计\n防伪图案生成\n特色功能：\nAI 驱动的印章设计器\n内置防伪模式生成器\n老化效果模拟\n支持矢量格式导出\n免费版本就能满足基本需求，支持导出（带水印），付费版解锁更多功能和无水印导出。\n适合以下场景：\n初创公司需要设计公司印章\n个人工作室制作业务印章\n文档电子化需要添加印章\n合同签署需要电子盖章\n界面简洁直观，操作也比较简单。分享给有类似需求的朋友。",
+          "link": "https://www.v2ex.com/t/1109698",
+          "publishedOn": "2025-02-07T09:45:00.000Z",
+          "wordCount": 338,
+          "title": "做了一个章子网站，特此来分享一下",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109697",
+          "author": "psklf",
+          "description": "psklf: \n为啥我不能？\n\"Looking for Railway 12306?\nThis app won't work for your device\"",
+          "link": "https://www.v2ex.com/t/1109697",
+          "publishedOn": "2025-02-07T09:44:52.000Z",
+          "wordCount": 384,
+          "title": "你们在 Google Play 能下载 12306 吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109696",
+          "author": "caiji111",
+          "description": "caiji111: 故事如下：\n去年相亲了一个女生，断断续续接触了一年。\n双方父母都见过，我也去她家好多次，以为能成的。结果她要求彩礼 30 万自己留着，武汉房子一套，贷款要少于三千，五金不能少，婚后不帮还贷款，只负责一部分家庭开支，几千上万包包要买的。\n这我不同意，掰扯了好久，她说她值得这么多彩礼，还说我拖拖拉拉，相亲就是要快。但我怕这种物质女人，没感情结婚分分钟会离，所以一直再拖看能不能先培养感情。但她根本不和我谈感情，说房子都没买，没资格跟她谈。最后只能狠心删除联系方式分开了，钱花了不少还手都没拉上。\n现在相亲都是这样的吗，如果没感情还结什么婚啊。而且基本所有女生都要求你有房子，没房子根本没资格跟她们谈，累了，还是单身好。",
+          "link": "https://www.v2ex.com/t/1109696",
+          "publishedOn": "2025-02-07T09:44:48.000Z",
+          "wordCount": 767,
+          "title": "相亲真的只满足物质条件，不看感情的吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109694",
+          "author": "Peiiii",
+          "description": "Peiiii: \n网址： https://agent.dimstack.com/\ngithub: https://github.com/Peiiii/AgentVerse\n\n目前只是个非常基础的 demo ，支持用一个 moderator agent 去创建管理其它 agent 。\n有很多拓展想法但还不完善，例如支持 mcp ，给每个 agent 配置记忆，更灵活的响应机制、让每个 agent 可以通过命令行等其它形式访问等。希望最终真的能做成 A Universe of Agents\n目前接的 qwen2.5-max,估计很快就会没钱，等没钱了就打算暂时下掉了",
+          "link": "https://www.v2ex.com/t/1109694",
+          "publishedOn": "2025-02-07T09:39:12.000Z",
+          "wordCount": 517,
+          "title": "过年用 cursor 写了个多 agent 讨论系统（AgentVerse），已开源，免注册欢迎体验",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109693",
+          "author": "asus10tu",
+          "description": "asus10tu: 给公司门店做的智能客服，有一些基础资料，想根据资料去回答客户问题，有什么思路或者小集成推荐嘛",
+          "link": "https://www.v2ex.com/t/1109693",
+          "publishedOn": "2025-02-07T09:34:34.000Z",
+          "wordCount": 418,
+          "title": "想做一个借助 AI 的智能客服，有什么推荐嘛",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109692",
+          "author": "joooooker21",
+          "description": "joooooker21: 新手司机，过年开车回老家，晚上车少的时候最高跑到时速 150 ，心里有点点发慌，担心看到前车时来不及涉车。想问问各位老司机，在路况良好的情况下，车速多少算安全车速？",
+          "link": "https://www.v2ex.com/t/1109692",
+          "publishedOn": "2025-02-07T09:31:11.000Z",
+          "wordCount": 496,
+          "title": "高速路况良好的情况下，车速多少算安全车速？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109691",
+          "author": "victer",
+          "description": "victer: 可以直接使用，也可以调用 api\nhttps://api.openxs.top",
+          "link": "https://www.v2ex.com/t/1109691",
+          "publishedOn": "2025-02-07T09:28:58.000Z",
+          "wordCount": 356,
+          "title": "自部署满血版 671b deepseek 欢迎使用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109690",
+          "author": "gule10",
+          "description": "gule10: \nhttps://github.com/forthxu/kv\n该项目主要举例 golang 项目结构设置、Makefile 程序编译、Docker 镜像打包、跨平台编译、amd64 和 arm64 不同 cpu 架构编译、github action 流程（发布 release 、发布 package ）",
+          "link": "https://www.v2ex.com/t/1109690",
+          "publishedOn": "2025-02-07T09:27:55.000Z",
+          "wordCount": 406,
+          "title": "golang 简易 KV 系统",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109689",
+          "author": "potatouu",
+          "description": "potatouu: 住在郊区，路灯较少，灯光较暗，路算挺破的但是不至于到重新修的地步，一条路上大概有 4 家公寓楼，还有几个工厂，两边都是免费划线停车位\n旁边建好党校后：\n1.整条路重新修了一下，为了进公寓经常要踩着泥巴，年前经常性施工到半夜，早上大概 6 7 点就开始，估计为了赶进度，很扰民\n2.晚上路变的超级亮，基本上隔 30 米两个路灯，马路两边对称，以前估计 100 米才一个灯，晚上乌漆麻黑的\n3.原先的免费停车位都取消了，停车位的地方变成马路了，道路扩宽了。不知道意义在哪里，住的人多，本来停车就难\n4.因为建党校修路带来的很多问题都忍了，今天说党校要揭彩仪式了，房东来通知说不要把要晒的衣服挂在阳台上，给我整无语了\n发该帖的目的有两个，第一是吐槽公权力的滥用，第二是讨论“如果遇到公权力滥用的问题”大家会怎么处理",
+          "link": "https://www.v2ex.com/t/1109689",
+          "publishedOn": "2025-02-07T09:26:07.000Z",
+          "wordCount": 115,
+          "title": "关于我住的公寓旁边建了个党校，吐槽&讨论",
           "imageUrl": null
         }
       ]
