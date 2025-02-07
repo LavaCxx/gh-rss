@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,33 +187,6 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -281,46 +248,6 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/696",
-          "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/696",
-          "publishedOn": "2025-01-29T09:14:56.000Z",
-          "wordCount": null,
-          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/695",
-          "author": null,
-          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/695",
-          "publishedOn": "2025-01-25T07:34:43.000Z",
-          "wordCount": null,
-          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -331,7 +258,7 @@
           "description": "wjx0912: \n显示器是 2k 的（有 2 个口，hdmi 和 dp ，目前暂不考虑换显示器），线是 hdmi->hdmi：\n默认的 2k-75hz 每隔几分钟闪屏一下；改成 2k-60hz 后，基本上好了，但是每天还是能碰到闪一两次，强迫症还是有点难受；\n\n改成 typec->hdmi 或者 typec->dp 会完全正常吗？（后者是否最佳方案）",
           "link": "https://www.v2ex.com/t/1109615",
           "publishedOn": "2025-02-07T06:40:50.000Z",
-          "wordCount": 356,
+          "wordCount": 358,
           "title": "mac mini m4（丐版）接显示器问题",
           "imageUrl": null
         },
@@ -341,7 +268,7 @@
           "description": "sheaned: 在 sql 查询中都说不推荐使用 select *，而是指定字段，性能会更好。尤其是返回大量数据的情况下。\n那么如果只返回一条数据的情况下，select * 和指定字段性能上会有多大的区别呢？",
           "link": "https://www.v2ex.com/t/1109614",
           "publishedOn": "2025-02-07T06:38:10.000Z",
-          "wordCount": 505,
+          "wordCount": 561,
           "title": "sql 性能讨论",
           "imageUrl": null
         },
@@ -351,7 +278,7 @@
           "description": "raw0xff: \n还是搞不清楚所谓的\"模型\"是什么东西,哪位神仙可以讲清楚.\n本地装了 ollama 和 chatbox, 使用 chatbox app 访问本地 ollama 可以使用,但是无法联网. chatbox app 提示说 ollama API 不支持联网,其他的非本地的 API 支持.\nollama,chatbox 是使用模型的工具,llama3:xb deepseekr1:xb 是不同的模型,我理解的对吧?chatbox 对话框有联网设置,怎样让本地模型可以联网呢?",
           "link": "https://www.v2ex.com/t/1109613",
           "publishedOn": "2025-02-07T06:36:21.000Z",
-          "wordCount": 369,
+          "wordCount": 384,
           "title": "想让本地运行的大语言模型可联网该怎么做?",
           "imageUrl": null
         },
@@ -361,7 +288,7 @@
           "description": "Tsing2: \n用户对虚拟定位的需求：\n不需要 PC/Mac 参与，纯 iPhone 的解决方案\n精确到街道的定位，支持路径，即可在一条路径上设定多个锚点，然后以固定的速度（或固定的时间内）完成锚点之间的依次移动\n可以考虑基于巨魔，也可以考虑 LBS 尾插\n不考虑海拔等其它参数的虚拟\n谢谢",
           "link": "https://www.v2ex.com/t/1109612",
           "publishedOn": "2025-02-07T06:34:05.000Z",
-          "wordCount": 347,
+          "wordCount": 369,
           "title": "请教一下基于 iPhone 的带路径的虚拟定位方案，有什么推荐的？",
           "imageUrl": null
         },
@@ -371,7 +298,7 @@
           "description": "ssgooglg: 用咸鱼好多年了，卖了不少也买了不少。期间不乏遇到一些不太愉快的交易。\n在这里跟 v 友交易过几次，感觉太爽了。基本就是签收不多久很快就主动确认了，也不会太吹毛求疵。我买了几个也很快都给好评了，可能是 v 站给的信任感比较足。\n年前卖了个 n100 小主机，里面带一根 16g 内存条一起发给买家(v 友)了。年后才收到，检查后很快啊，主动就把内存的钱转我\n太爽了。",
           "link": "https://www.v2ex.com/t/1109610",
           "publishedOn": "2025-02-07T06:31:13.000Z",
-          "wordCount": 362,
+          "wordCount": 436,
           "title": "在 v 站上交易了几次 感觉太爽了",
           "imageUrl": null
         },
@@ -381,7 +308,7 @@
           "description": "chenxiansheng: 请教下 V2 的大神们，如何在一台 32g 核显的设备商每秒钟写入 1000 万数据点，并且每隔一秒写一次，我这边使用的时序数据库，但是使用高并发写入最多也是 1s40 万数据点，有做过这方面的大佬吗，提供下想法也行.....",
           "link": "https://www.v2ex.com/t/1109609",
           "publishedOn": "2025-02-07T06:30:42.000Z",
-          "wordCount": 378,
+          "wordCount": 380,
           "title": "请教下 V2 的大神们",
           "imageUrl": null
         },
@@ -391,7 +318,7 @@
           "description": "najunuoyan: \n如题，mac 上面安装了小米互联服务，想试一下传说中的可以在 mac 上投屏并且控制手机的“妙享桌面”，但是一直没办法找到手机，连同一 wifi 试了，mac 连小米的热点也试了，一直是“当前暂无设备”，但是上面的“文件互传”是好的，小米手机的系统和相关软件都升级过了，mac 也是 15.3 的最新系统，有大佬能指点一下吗？",
           "link": "https://www.v2ex.com/t/1109608",
           "publishedOn": "2025-02-07T06:28:47.000Z",
-          "wordCount": 371,
+          "wordCount": 436,
           "title": "mac 连接小米手机大家试过吗",
           "imageUrl": null
         },
@@ -401,7 +328,7 @@
           "description": "CH122: \n使用了一段时间后，感觉已经离不开 cursor 了\n开始使用免费账号，后来在 tb 上买的企业账号车位，但是最近一直掉\n想问一下没国外银行卡的情况下是怎么支付的",
           "link": "https://www.v2ex.com/t/1109606",
           "publishedOn": "2025-02-07T06:26:38.000Z",
-          "wordCount": 453,
+          "wordCount": 624,
           "title": "求教国内用户怎么付费使用 cursor",
           "imageUrl": null
         },
@@ -411,7 +338,7 @@
           "description": "8UbNRbE5c9tvj2: 我有一份图片版 pdf ，也有它正确的文字内容，有没有办法让文字内容合并上去（加上文字层）？我希望这些文字内容的位置、字体颜色与原本的图片内容完全一致。",
           "link": "https://www.v2ex.com/t/1109605",
           "publishedOn": "2025-02-07T06:26:30.000Z",
-          "wordCount": 386,
+          "wordCount": 397,
           "title": "有没有办法自定义 PDF 文字层？",
           "imageUrl": null
         },
@@ -421,7 +348,7 @@
           "description": "E2kk0: 看上了雷鸟的电视，有鹏 7 （ OLED ）和鹤 6pro （ MiniLED ），有 V 友懂哪个观影体验比较好吗，有看球、纪录片，追剧这种需求",
           "link": "https://www.v2ex.com/t/1109604",
           "publishedOn": "2025-02-07T06:25:12.000Z",
-          "wordCount": 460,
+          "wordCount": 495,
           "title": "迫于国补，电视选 oled 好还是 MiniLED 好",
           "imageUrl": null
         },
@@ -431,7 +358,7 @@
           "description": "a23231s22s: \n我们是一家 base 在硅谷湾区的 AI 初创公司，目前在探索一款 AI 驱动的游戏化日常+社交的 to C 娱乐应用（旅行青蛙+ 多邻国 but for 日常习惯成长/打卡），我们的目标是通过 AI 帮助用户在日常中找到力量与治愈，变得更好！\n团队来自 00 后硅谷 AI 连续创业者，ex-Tencent 等，已完成天使轮融资，估值千万。\n目前我们希望找一位 full time 的全栈工程师小伙伴合作。\n要求：\n打造简洁、美观且易用的界面。\n开发交互功能，让用户通过动态元素、动画和实时响应感受到温暖和陪伴。\n开发基本的后端接口\n在团队头脑风暴中贡献你的灵感，一起设计用户真正需要的功能。\n我们希望你具备：\n-精通前端技术：\n精通 React Native ，熟悉其底层原理和性能优化。\n熟练掌握 JavaScript （ ES6+）和 TypeScript ，具备良好的编程习惯和代码风格。\n熟悉 HTML 、CSS ，了解 Web 标准和浏览器兼容性。\n有移动端 UI/UX 设计经验，熟悉 Material Design 或 iOS Human Interface Guidelines 。\n-熟悉后端技术：\n了解 Node.js 、Python 等后端语言，以及 Express 、Django 等后端框架。\n熟悉 RESTful API 设计和开发，具备良好的接口设计能力。\n了解数据库技术，如 MySQL 、MongoDB 等，具备 SQL 或 NoSQL 数据库操作经验。\n熟悉服务器部署和运维，了解 Linux 操作系统和常用命令。\n具备其他技能：\n有 App Store 上架经验，熟悉应用发布流程。\n关注细节，对用户体验和设计美感有极致追求。\n熟悉 API 调用及前后端协作流程。\n具备跨设备（ PC 、手机等）响应式设计经验。\n了解版本控制工具，如 Git 。\n具备良好的沟通能力和团队合作精神。\n加分项：对游戏化设计或心理健康产品感兴趣，有动画和动态效果开发经验。",
           "link": "https://www.v2ex.com/t/1109603",
           "publishedOn": "2025-02-07T06:24:53.000Z",
-          "wordCount": 445,
+          "wordCount": 449,
           "title": "硅谷 ai 产品团队招全职全栈工程师",
           "imageUrl": null
         },
@@ -441,7 +368,7 @@
           "description": "kyuuseiryuu: \n你右边的车和你同样的速度他都不占左侧车道，你为什么要占？\n想超车，又怕超速被罚，还不让别人超车？",
           "link": "https://www.v2ex.com/t/1109602",
           "publishedOn": "2025-02-07T06:20:24.000Z",
-          "wordCount": 347,
+          "wordCount": 353,
           "title": "关于高速并排话题的一个讨论盲点",
           "imageUrl": null
         },
@@ -451,7 +378,7 @@
           "description": "HancockXu: 最近远程面试了几个人，发现现在远程面试基本上很难规避对方用 AI 的行为，很多会开一个页面在另一个设备上，回答问题的时候眼睛不时瞟向那个方向，特别是有些人用的 AI 还不行，回答一股子 AI 味儿一听就知道。\n某次实在忍不了，问你是不是在对着 AI 回答，对方倒也直接说是的了。。。",
           "link": "https://www.v2ex.com/t/1109601",
           "publishedOn": "2025-02-07T06:19:56.000Z",
-          "wordCount": 378,
+          "wordCount": 380,
           "title": "大家怎么看远程面试的时候用 AI 的行为？",
           "imageUrl": null
         },
@@ -461,7 +388,7 @@
           "description": "gochendong: 为了方便管理和查看历史, 已经发布到 github 上, 后续不断更新\nhttps://github.com/gochendong/jobs",
           "link": "https://www.v2ex.com/t/1109600",
           "publishedOn": "2025-02-07T06:12:38.000Z",
-          "wordCount": 379,
+          "wordCount": 381,
           "title": "[web3 招聘][上海/北京/深圳/杭州/香港] 网络安全工程师 前端开发-RN Go 开发工程师 高级测试工程师 产品经理 大数据架构师 测试架构师 Java 开发",
           "imageUrl": null
         },
@@ -471,7 +398,7 @@
           "description": "Cyanhall: 场景：家有小孩，想让他多些观看英文的内容（目前看儿童动画片居多）\n交互：内容支持遥控器语音搜索\n\n可能是途径：国内电视 + Apple TV  + 代理 App +  Youtube Kids ？",
           "link": "https://www.v2ex.com/t/1109599",
           "publishedOn": "2025-02-07T06:09:24.000Z",
-          "wordCount": 377,
+          "wordCount": 379,
           "title": "国内的电视，有办法实现全英文内容的播放吗？",
           "imageUrl": null
         },
@@ -481,7 +408,7 @@
           "description": "sky31802: \n本人 92 年的，没有汽车维修和汽车美容行业的从业经验，现在汽车越来越多，想零基础去培训班学习汽车美容，不知道这个行业现状具体怎么样。有没有大佬了解的。",
           "link": "https://www.v2ex.com/t/1109598",
           "publishedOn": "2025-02-07T06:07:33.000Z",
-          "wordCount": 371,
+          "wordCount": 413,
           "title": "25 年改行做汽车美容怎么样？有了解这个行业的吗",
           "imageUrl": null
         },
@@ -491,7 +418,7 @@
           "description": "pizone: \n其实也不是说啥风凉话，因为 AI 工具每天都有在高频使用，也用 AI 编程开发了一些自用工具，的确在效率上有巨大帮助，但是却越来越没感觉，也没有做出东西来的兴奋感。\n刚开始时，接触 GPT 也是比较早，chatgpt3.5 刚出来没多久就开始在使用，那段时间感觉是遇到了新大陆，会特别留意一些新的 AI 工具或者一些 prompt 技巧相关的内容，看到好内容会兴奋、收藏起来慢慢研究。现在一听到各种吹 AI 的就感觉挺烦，没有太多想要讨论的意愿。\n都说 2 到 3 年 AGI 很快就要到来，这个我是相信的，要尽快拥抱 AI, 学习使用 AI 。 其实 AI 越来越智能，越智能越不需要技巧，你随手用就行了，现在 DeepSeek R1 一般情况下都不需要 prompt 了，除非是复杂的场景和逻辑，更何况 AGI 真来了那就更不需要技巧了，所以像掌握 AI 技能，学习使用 AI 也是个伪命题。 \n那些体验了某些 AI ，被震撼了，就大喊，未来属于能用 AI 的人，会用 AI 的人。说这种话的人也不经过大脑，AI 越智能,，傻子都会用，而且这些工具用的越多越依赖，会让人慢慢丧失思考能力。\n值得期望的是，AGI 实现后是否如大佬说的愿景那样，要通过 AGI 来探索新材料、在可控核聚变、人类医疗方面发力，用来探索星际了，但是人在这里面充当什么角色呢，是总导演呢还是说只是个 AI 鼓励师，还是说是两条平行线，人类只负责吃喝拉撒睡，享受诗和远方，彼此提供情绪价值，AI 负责干活和研发。\n不过大佬这么宏大的愿景，我是很怀疑的。\n突然感觉到有点可悲，并没有为 AI 智能时代感到多少兴奋，未来数年就会实现 AGI ，这其实是现实问题，这一代人不远的将来都需要直接面对，还是积极做好各方面的准备，想想有什么技能可以提供情绪价值的，方为上策。",
           "link": "https://www.v2ex.com/t/1109597",
           "publishedOn": "2025-02-07T06:06:43.000Z",
-          "wordCount": 486,
+          "wordCount": 568,
           "title": "每十天半个月就会看到各种 AI 领域的重大进展，以前是兴奋现在为何却越来越麻木了",
           "imageUrl": null
         },
@@ -501,7 +428,7 @@
           "description": "akring: \n自从新年前发布 年终给自己的礼物，也是给 V2EXer 们的礼物，OrbitRing 限免一天 已经过去了两星期了，假期我也一直在打磨和更新 OrbitRing 的功能，今天来展示一下最新的进展。\n1. OrbitRing 是什么\nOrbitRing 是一个 macOS 专用的快速 APP 启动器，按下配置好的触发键后，即可在鼠标周围展示一圈快速启动条，将鼠标移动到对应的 APP 上即可快速启动或切换。\n\n视频介绍：Youtube\n2. 新功能\nAPP 上限提升：可配置的 APP 上限提升至 8 个。\n支持双击触发键触发：可以最大限度的降低快捷键干扰。\n操作音效：触发和选择过程中添加音效支持。\n3. 优化和修复\n新增了一大波语言支持\n修复重启后无法正常使用的问题\nOrbitRing 发布的时间还很短，但是已经收到了大量的用户反馈邮件和建议，其中呼声最高的是放开 APP 上限，增加可选的 APP 数量，目前这个功能已经在开发过程中了，应该很快就能和大家见面。\n最后，再次感谢所有对 OrbitRing 提出建议和反馈的小伙伴们，OrbitRing 因为你们会变得更好！",
           "link": "https://www.v2ex.com/t/1109596",
           "publishedOn": "2025-02-07T06:04:58.000Z",
-          "wordCount": 440,
+          "wordCount": 485,
           "title": "环形 macOS 启动器 OrbitRing 更新了",
           "imageUrl": null
         },
@@ -511,7 +438,7 @@
           "description": "miaeLKK: 预警：吐槽贴，不喜欢的可以划走\n\n不知怎么，三十以后身体就各种故障：痛风走不了路、过敏性鼻炎打喷嚏不断到浑身发冷冒冷汗、今天又突然腰疼直不起来，初步判断是腰椎间盘突出…\n本来对生活还挺有热情的，各种毛病把热情浇灭了。为什么身体素质一下这么差了呢？小时候就喜欢玩雪，现在怕冷怕鼻炎；小时候大吃大喝现在吃口肉都要掂量掂量会不会痛风；小时候抱 50 斤大米上五楼，现在弯腰捡个东西都怕腰疼加重。忍着疼瘸着腿坚持上班，牺牲健康换来的工资真的值得吗？可不上班又吃什么呢…唉",
           "link": "https://www.v2ex.com/t/1109595",
           "publishedOn": "2025-02-07T06:01:58.000Z",
-          "wordCount": 366,
+          "wordCount": 372,
           "title": "三十以后，身体越来越差",
           "imageUrl": null
         },
@@ -551,7 +478,7 @@
           "description": "guanhui07: 中流感了把...\n下班得去搞点盐酸氨溴索",
           "link": "https://www.v2ex.com/t/1109590",
           "publishedOn": "2025-02-07T05:54:49.000Z",
-          "wordCount": 411,
+          "wordCount": 446,
           "title": "难受，咳嗽有痰没发烧，家人们有啥推荐",
           "imageUrl": null
         },
@@ -561,7 +488,7 @@
           "description": "v2hh: 准备置换，感觉有点不舍，开了快 6 年，别克君威，从来没出过问题。",
           "link": "https://www.v2ex.com/t/1109589",
           "publishedOn": "2025-02-07T05:54:40.000Z",
-          "wordCount": 407,
+          "wordCount": 430,
           "title": "各位第一辆车怎么处理的。",
           "imageUrl": null
         },
@@ -571,7 +498,7 @@
           "description": "FireFrog: \nmesh 连接方式（全是有线连接）：  \n  mesh 主路由\n  |\n交换机\n/ | \\\n   子 子 子\n   路 路 路\n   由 由 由\n\n终端设备都连接子路由的话，局域网流量都不经过主路由吧？",
           "link": "https://www.v2ex.com/t/1109588",
           "publishedOn": "2025-02-07T05:51:36.000Z",
-          "wordCount": 369,
+          "wordCount": 392,
           "title": "请教关于 mesh 路由器的问题",
           "imageUrl": null
         },
@@ -581,7 +508,7 @@
           "description": "aiprediction: \n之前做过程序员，技术经理，项目经理，产品经理，现在离职了，想先自己做点事，做什么比较好？",
           "link": "https://www.v2ex.com/t/1109587",
           "publishedOn": "2025-02-07T05:51:15.000Z",
-          "wordCount": 416,
+          "wordCount": 456,
           "title": "辞职了，接下来做什么工作好？",
           "imageUrl": null
         },
@@ -591,7 +518,7 @@
           "description": "NelsonBoss: \n特别是当 AltTab 、DockMate 等软件启动之后，由于其原理会需要持续访问屏幕，就拼命弹提示，很烦人",
           "link": "https://www.v2ex.com/t/1109586",
           "publishedOn": "2025-02-07T05:49:18.000Z",
-          "wordCount": 417,
+          "wordCount": 432,
           "title": "macOS 更新之后，有程序访问屏幕的时候会一直弹提示，有什么办法解决吗？",
           "imageUrl": null
         },
@@ -601,7 +528,7 @@
           "description": "jackrzhang: \n单程 5km,中午回家吃饭.电动车两轮推荐什么牌子/型号.",
           "link": "https://www.v2ex.com/t/1109585",
           "publishedOn": "2025-02-07T05:48:16.000Z",
-          "wordCount": 475,
+          "wordCount": 486,
           "title": "每天 20km,电动二轮车推荐",
           "imageUrl": null
         },
@@ -611,7 +538,7 @@
           "description": "aladdinding: \n加了 -ldflags=\"-s -w\" 这样的参数\nfunc Hello() {\nfmt.Println(\"hello world\")\n}\n\n一个 hello world 出来都要 2MB 多，更别说要写些业务代码了",
           "link": "https://www.v2ex.com/t/1109584",
           "publishedOn": "2025-02-07T05:47:33.000Z",
-          "wordCount": 478,
+          "wordCount": 493,
           "title": "go 编译 andriod .so 文件体积太大怎么解决呢",
           "imageUrl": null
         },
@@ -621,7 +548,7 @@
           "description": "Dora5260: 如果在深圳工作并有想法定居的，可以私信我，纯分享哈。这个小女孩是我之前的小同事，个人感觉她人很不错，很阳光，很正能量，大好的年华还是要谈恋爱啊，无奈大都市圈子确实有限。我就发个贴哇。\n也祝各位新年新气象，早日找到心上人。\n如果感兴趣的话，可以加我微信 RG9yYTEyMDZiaW5n",
           "link": "https://www.v2ex.com/t/1109583",
           "publishedOn": "2025-02-07T05:46:03.000Z",
-          "wordCount": 359,
+          "wordCount": 435,
           "title": "有没有对 99 年女孩子感兴趣的男生，男生最好 95 后（女孩子要求的😂)",
           "imageUrl": null
         },
@@ -631,7 +558,7 @@
           "description": "Chowe: \n港股的交易费用好高啊，有没有便宜的券商推荐啊",
           "link": "https://www.v2ex.com/t/1109582",
           "publishedOn": "2025-02-07T05:45:54.000Z",
-          "wordCount": 356,
+          "wordCount": 366,
           "title": "打算干港股，有便宜券商推荐吗",
           "imageUrl": null
         },
@@ -641,7 +568,7 @@
           "description": "com781517552:",
           "link": "https://www.v2ex.com/t/1109581",
           "publishedOn": "2025-02-07T05:41:20.000Z",
-          "wordCount": 478,
+          "wordCount": 591,
           "title": "各位家里都有族谱吗，坐标河南，我家没族谱，有时候会思考自己的祖辈是怎么在乱世中延续下来的，真的好奇",
           "imageUrl": null
         },
@@ -671,7 +598,7 @@
           "description": "zcljy: 大龄程序员就业困难了\n有个在群里发招聘信息 城发投的职位\n可用签长期合同\n有偿服务\n这种的可以冲吗 v 友们",
           "link": "https://www.v2ex.com/t/1109577",
           "publishedOn": "2025-02-07T05:10:12.000Z",
-          "wordCount": 359,
+          "wordCount": 367,
           "title": "城发投的工作靠谱吗",
           "imageUrl": null
         },
@@ -691,7 +618,7 @@
           "description": "tzwm: \n我们是\n一个乐于探索、爱挑战的 AIGC 领域创业团队\n目前团队规模不大，氛围友好，每个人能充分发挥自己的 power\n办公地点在上海模速空间，交通便利，周围吃喝玩乐都不少\n团队成员来自北大/清华/哥大/卡耐基梅隆等高校，有 Facebook 、阿里巴巴、字节跳动等优秀科技企业的资深背景及国际化经验\n热爱开源社区。团队内有 AnimateDiff 贡献者、ComfyUI 多个插件和社区镜像的贡献者。同时我们也开源了线上使用的二次元生图模型 neta art xl 等\n官网: https://nieta.art/\nGitHub: https://github.com/talesofai\nCivitai: https://civitai.com/user/neta_art\n产品: 应用市场搜索「捏 Ta 」，或者访问 https://app.nieta.art\n内容: B 站、抖音、小红书搜索「捏 Ta_AI 宅」\n你可以收获\n最前沿的 AIGC 技术研究、体验和分享\n从 0 到 1 Launch 产品，积累创业经验\n200 ~ 400 元/天 的实习工资\n职位描述\n有独立开发前后端完成一个小想法的能力，无论是通过 bot 、web 还是 app 等形式\n对新的好玩的东西有好奇心喜欢折腾\n有耐心能热心帮助团队里非技术同伴\n熟悉 web 开发相关知识\n熟悉 JavaScript ，了解 TypeScript 更好\n能连续实习三个月以上\n[加分项] 对 Python 有一定了解\n[加分项] 了解常用的 Linux 命令\n[加分项] 了解 Docker 的使用\n[加分项] 二次元爱好者\n薪资范围\n200 ~ 400 元/天\n联系方式\nEmail: 47@nieta.art\n简历投递请带上 GitHub 链接。",
           "link": "https://www.v2ex.com/t/1109575",
           "publishedOn": "2025-02-07T05:05:30.000Z",
-          "wordCount": 480,
+          "wordCount": 482,
           "title": "[上海] 招技术实习生 - AIGC 二次元创业公司",
           "imageUrl": null
         },
@@ -701,7 +628,7 @@
           "description": "NicholasZhan: 打算 2025 年购入人生第一辆车，想请大家的参谋参谋。\n\n我的情况：\n\n97 年的，坐标成都，租房，无车位，预算落地不超过 15w 左右（差不多一年半的存款）😅。\n\n今年年底准备回老家开车带父母去女朋友家拜访，商量后续提亲结婚的事情了，所以急需一个合适的交通工具。\n\n因为我和女朋友老家都在农村，所以主要长途需求是解决回老家（四川达州）和去女朋友老家（贵州铜仁）的交通问题，两个地方都是 600 公里左右。两地虽然大交通有火车高铁，但是小交通（约 20-50 公里）极为不便，以前还有班车，现在班车已经取消，所以得自己找车或者叫人来接，但是人和车也不是那么好找。这也是促使我想要买车的原因之一。\n\n我对汽车不是怎么了解，5 年前拿证之后就没怎么碰过车了，现在上下班我基本共享单车，女朋友地铁。这次是因为有真实需求才考虑到买车这事儿，我也在小红书懂车帝看了不少科普，但是快看懵了，不太能分清好坏。\n\n其它一些可能有用的信息：\n我妈有点晕车，所以倾向于没啥味道的车；\n由于我和对象差不多都是五六年前考的驾照，考完驾照后没摸过车，都需要重新上手；\n平时工作日大概率不会开车上下班，但是周末和假期有出行游玩的需求；\n\n请大家给给建议，不甚感激！\n\n\n最近试驾了比亚迪海豹 06DMI 、小鹏 Mona M03 、领克 Z20 ，因为之前没怎么开过车，也说不出什么 123 来。\n\n目前比较倾向于小鹏 Mona M03 和领克 Z20 ，各位懂车的大佬可以给一些建议，也可以推荐一些其他合适的车型，谢谢。",
           "link": "https://www.v2ex.com/t/1109571",
           "publishedOn": "2025-02-07T04:49:07.000Z",
-          "wordCount": 606,
+          "wordCount": 793,
           "title": "计划买人生第一辆车了，请万能的 V 友们推荐推荐",
           "imageUrl": null
         },
@@ -721,7 +648,7 @@
           "description": "xtx: 目前名下没有负债，取出来的话也只能拿去投资，如果用于投资，资金流向会被监控么？被发现是不是要提前还贷？我感觉买债基都稳赚不赔啊。",
           "link": "https://www.v2ex.com/t/1109569",
           "publishedOn": "2025-02-07T04:25:06.000Z",
-          "wordCount": 600,
+          "wordCount": 699,
           "title": "有点动心，招行闪电贷给了 20 万 2.78 的利率，这笔钱借出来可以去投资么？",
           "imageUrl": null
         },
@@ -731,7 +658,7 @@
           "description": "51fly: \nRT\n过年前 猫超自营买的 五粮液 1618 2 瓶\n鉴定\n按官网教程和网上视频教程看。\n塑料外壳看起来不假，各种码，各种条纹，包括里面酒盖附近的防伪标签都没开封，\n塑料壳的 NFC 查询都能查到，且显示是第一次查询，一瓶是 22 年 11 月，一瓶 23 年 11 月。\n可疑点\n每瓶酒的瓶身都有小瑕疵\n一瓶是上半部分白色区域有一个小红点，颜色和下部分红色一样。\n另一瓶就是瓶身有一小块有凸起，就是瓷器没完全抹平，中间一个糙点那种。\nhttps://i.postimg.cc/HWKpm45h/141738901063-pic.jpg\nhttps://i.postimg.cc/fT9MRtfT/151738901064-pic.jpg\n老司机们分享下，这种只是偶尔的瓶身加工问题，还是遇到高仿了。\n你们确定正品的 1618 遇到这种瑕疵多吗。",
           "link": "https://www.v2ex.com/t/1109567",
           "publishedOn": "2025-02-07T04:16:47.000Z",
-          "wordCount": 399,
+          "wordCount": 413,
           "title": "老司机帮忙看看 X 猫超市买的五粮液是正品吗",
           "imageUrl": null
         },
