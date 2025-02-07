@@ -191,6 +191,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,7 +325,7 @@
           "description": "id4alex: \n有一台老的 DS1815+ 显示正常，一台黑群 SA6400 升级到最新的 pat ，那个插件已安装，但是照片迁移过来好多都变成白板了。\n回退 SA6400 PAT 到 7.21 可以解决吗？  还有什么解决方案？",
           "link": "https://www.v2ex.com/t/1109558",
           "publishedOn": "2025-02-07T03:42:28.000Z",
-          "wordCount": 386,
+          "wordCount": 404,
           "title": "群晖 photos heic 照片怎么好多都变成白板了？",
           "imageUrl": null
         },
@@ -308,7 +335,7 @@
           "description": "success95: \n请问大佬 iphone16 的充电线可不可以用 usb-c 转 usb-a 转接在用一个 5w 充电器充电？",
           "link": "https://www.v2ex.com/t/1109556",
           "publishedOn": "2025-02-07T03:31:06.000Z",
-          "wordCount": 411,
+          "wordCount": 417,
           "title": "iphone16 充电",
           "imageUrl": null
         },
@@ -318,7 +345,7 @@
           "description": "gemisgoat81: 经常看到有人说苹果微信通知延迟严重 本人是 iPhone16promax 港版+美国号码注册的纯血 wechat 目前没有遇到过微信通知延迟问题。。难道国内版本的微信通知在 iOS 推送系统运行过程中会有网络连接不畅 类似于 gfw 的屏蔽吗 ？ wechat 的推送不会遇到这种情况是有区分？",
           "link": "https://www.v2ex.com/t/1109554",
           "publishedOn": "2025-02-07T03:23:27.000Z",
-          "wordCount": 422,
+          "wordCount": 450,
           "title": "iPhone 的微信消息通知延迟是否是刻意为之的？",
           "imageUrl": null
         },
@@ -328,7 +355,7 @@
           "description": "lsylsy2: 条例\n第七十八条　高速公路应当标明车道的行驶速度，最高车速不得超过每小时 120 公里，最低车速不得低于每小时 60 公里。\n在高速公路上行驶的小型载客汽车最高车速不得超过每小时 120 公里，其他机动车不得超过每小时 100 公里，摩托车不得超过每小时 80 公里。\n法\n第四十二条　机动车上道路行驶，不得超过限速标志标明的最高时速。在没有限速标志的路段，应当保持安全车速。\n第九十条　机动车驾驶人违反道路交通安全法律、法规关于道路通行规定的，处警告或者二十元以上二百元以下罚款。本法另有规定的，依照规定处罚。\n在高速开 121 时速是违法行为，处警告或 20~200 罚款。\n法律规定是这样，实际政府部门是否执行（或者叫选择性执法）和本身是否违法的性质无关。\n超速超过 20%的各种罚款扣分，属于“本法另有规定的，依照规定处罚。”的部分。",
           "link": "https://www.v2ex.com/t/1109553",
           "publishedOn": "2025-02-07T03:23:00.000Z",
-          "wordCount": 468,
+          "wordCount": 562,
           "title": "在中国大陆高速公路开 121km/h 是违法行为",
           "imageUrl": null
         },
@@ -338,7 +365,7 @@
           "description": "kingzeno: \nipad pro 已经用上了 m 系列芯片，完全可以接入 mac 系统，作为新的 mac 设备，主打轻办公，不至于让 ipad pro 处于现在这么鸡肋的地位\nipad air 和其他更低端的还继续使用 A 系列芯片，搭配 ipad os 系统，主打娱乐影音，便宜大碗",
           "link": "https://www.v2ex.com/t/1109552",
           "publishedOn": "2025-02-07T03:19:00.000Z",
-          "wordCount": 485,
+          "wordCount": 530,
           "title": "iPad 为什么不拆分为 mac pad 和 iPad 两条线？",
           "imageUrl": null
         },
@@ -348,7 +375,7 @@
           "description": "ciyouwu: 懂行的大佬们给参谋一下。\n红米 k30 5g 6+128 ，现在是 miui13.0.5 ，目前使用起来比较卡顿，几乎不能同时打开多个应用，切换应用后必会闪退。\n1.我觉得是硬件不行，运存太小了。但是貌似苹果的运存也很小，但是很流畅啊。\n2.难道是 miui13 太拉跨？那么哪个版本的系统能让 k30 老机如获新生呢。。",
           "link": "https://www.v2ex.com/t/1109551",
           "publishedOn": "2025-02-07T03:15:37.000Z",
-          "wordCount": 455,
+          "wordCount": 534,
           "title": "安卓手机卡顿和硬件有关还是和系统有关，想给红米 k30 5g 版刷机，想再用几年，又怕刷机不解决问题。",
           "imageUrl": null
         },
@@ -358,7 +385,7 @@
           "description": "BlackSnow: \n对美术没有要求，词条好改，前后端能够跑通就行。\n展示不考虑 RGPmaker 这种，像要个轻量一点的。",
           "link": "https://www.v2ex.com/t/1109550",
           "publishedOn": "2025-02-07T03:12:48.000Z",
-          "wordCount": 362,
+          "wordCount": 366,
           "title": "[求助]想实现一个 RPG 人物状态栏 UI，有没有推荐的开源库",
           "imageUrl": null
         },
@@ -368,7 +395,7 @@
           "description": "Renco: \n标题内容可以有点绕。\n大致意思就是，客户需要内网部署的 web 服务能在互联网访问到。首先提出方案，加一台前置机在互联网上，并可以访问到内网服务器。然后在上面部署 nginx ，通过端口 nginx 代理转发到内网服务器上。来实现外网访问。（之前类似需求，就是按照这套逻辑去实现的。）\n后来有客户不同意这种穿透模式，不让用 nginx ，说要么就是你们内网部署一套 web 服务，外网也部署一套相同的 web 服务，然后数据信息全部在内网服务器上。外网那边修改数据库访问的链接，外网到内网的端口由客户那边来打通。\n想了解下，为啥 nginx 那套不让用，客户说是安全性问题但是不是太理解，nginx 转发端口，一个是 nginx 内配置，同时客户那边也要打通端口才能转发到内网。第二套方案，不用 nginx 但是同样需要客户打通端口到内网。\n基于此情况，我们还有一个文件中心，文件中心由于是直接用的现成的对象存储方案，文件是 url 形式返回的。如果外网的 web 服务访问内网文件中心，那还是可能要通过 nginx 等代理方式实现转发。因此不是太理解两者区别。",
           "link": "https://www.v2ex.com/t/1109549",
           "publishedOn": "2025-02-07T03:12:27.000Z",
-          "wordCount": 442,
+          "wordCount": 463,
           "title": "前置服务器部署 nginx 用来转发到内网对应的服务上，和在前置服务器部署服务，然后将数据库相关部署内网服务器上，通过修改前置服务器部署的数据库连接访问数据...",
           "imageUrl": null
         },
@@ -378,7 +405,7 @@
           "description": "leigod: \n大家好！\nRizz App AI，这是一款专为帮助用户在社交场合中脱颖而出的 AI 工具，致力于生成完美的 rizz （聊天金句）和 pick-up lines （搭讪语）。\n🎯 我们的特点：\n多场景支持：无论是轻松搞笑、自然流畅，还是有点“调皮”的风格，Rizz App AI 都能提供最适合的聊天语句。\nAI 智能生成：输入上下文，AI 会根据你的需求即时生成适合的语句，轻松助力破冰或提高互动趣味性。\n高度个性化：支持上传截图、手动输入文本，或者直接生成有趣的 pick-up lines ，满足不同用户的需求。\n关键词优化：结合全球搜索趋势，确保提供的内容贴近用户最需要的流行语句。\n🌟 谁适合使用 Rizz App AI ？\n想提高社交聊天技能的人\n想在 Tinder 、Bumble 等社交平台上与众不同的人\n需要一点灵感来打破冷场的朋友们\n🚀 免费体验 & 官网地址：\n立即尝试：https://rizzappai.com/\n🛠️ 后台技术亮点：\n基于 NLP （自然语言处理） 和 GPT 技术的文本生成\n前端采用 Next.js 开发，优化用户体验和加载速度\n云端部署于高效的 Google Cloud 平台，支持高并发访问\n希望大家试用后可以分享你的体验！\n如果有任何问题或建议，欢迎随时留言，我们会积极回复！ 😄",
           "link": "https://www.v2ex.com/t/1109548",
           "publishedOn": "2025-02-07T03:11:51.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "🚀 全新 AI 工具发布： Rizz App AI - 专为社交场景设计的对话助手",
           "imageUrl": null
         },
@@ -388,7 +415,7 @@
           "description": "omt: \n因为抖音真的太费时间了，一刷上头了就停不下来",
           "link": "https://www.v2ex.com/t/1109544",
           "publishedOn": "2025-02-07T02:58:51.000Z",
-          "wordCount": 502,
+          "wordCount": 550,
           "title": "想戒掉抖音，但又不想错过那些实时新闻热点事件有什么好的解决方案嘛",
           "imageUrl": null
         },
@@ -398,7 +425,7 @@
           "description": "Blackricky: \n已经购买了 iCloud 200GB 的容量，但是最近满了\n如果升级到 2TB 一个月需要 68 元，感觉有点贵\n想咨询一下大家是怎么备份 iPhone 的数据呢？有没有性价比相对高的方案",
           "link": "https://www.v2ex.com/t/1109543",
           "publishedOn": "2025-02-07T02:58:25.000Z",
-          "wordCount": 421,
+          "wordCount": 429,
           "title": "iPhone 备份 数据，大家是怎么备份数据的呢？咨询一下高性价比的方案",
           "imageUrl": null
         },
@@ -408,7 +435,7 @@
           "description": "duanxianze: 30 了，公司也不太稳定，想改行了。\n是不是只有销售之类的不太限制专业？",
           "link": "https://www.v2ex.com/t/1109542",
           "publishedOn": "2025-02-07T02:53:36.000Z",
-          "wordCount": 480,
+          "wordCount": 522,
           "title": "郑州前端一个，不想干前端了，想去郑州比亚迪，除了流水线，还有啥岗位可以投？",
           "imageUrl": null
         },
@@ -418,7 +445,7 @@
           "description": "MasterCai: \n最近从 OS 15.0.1 更新到 15.2 之后，发现盒盖后（没有任何外接设备）电量经常掉到非常低，这个现象之前从未出现过。个人使用习惯，常用程序等都没有改变，主要的变量就是系统版本。\n\n如图中所示，18 时之后没有使用电脑，前几个小时掉电正常，大概从 22 时开始异常掉电\n经前人帖子经验查看了pmset -g log, 发现都是 mDNSResponder 在唤醒，但是能想到的和网络相关的设置就是“唤醒以供网络访问”，这个一直保持在“仅使用电源适配器时”的选项。\n是否有人遇到过类似的情况，有没有什么解决思路呢？\n附上一小段 log\n2025-02-06 22:00:11 +0800 Wake Requests       [process=mDNSResponder request=Maintenance deltaSecs=7198 wakeAt=2025-02-07 00:00:09 info=\"upkeep wake\"] [*process=dasd request=SleepService deltaSecs=1026 wakeAt=2025-02-06 22:17:17 info=\"com.apple.dasd:501:com.apple.duetexpertd.everydayshortcuts\"] [process=powerd request=TCPKATurnOff deltaSecs=294830 wakeAt=2025-02-10 07:54:01] [process=powerd request=CSPNEvaluation deltaSecs=3528 wakeAt=2025-02-06 22:58:59] [process=powerd request=UserWake deltaSecs=10539 wakeAt=2…",
           "link": "https://www.v2ex.com/t/1109539",
           "publishedOn": "2025-02-07T02:51:20.000Z",
-          "wordCount": 1369,
+          "wordCount": 1413,
           "title": "Macos 15.2 M1 MBP 合盖后异常掉电",
           "imageUrl": null
         },
@@ -428,7 +455,7 @@
           "description": "sunny155: 本来是家中放置了一部 iPhone SE3 常年开机用于短信自动转发，这样已经正常运行了 1 年以上。但从去年年底开始发现经常一段时间后就收不到自动转发的短信了，打开检查发现提示“iPhone 重启后需要输入密码以启用触控 ID”，感觉是自动重启了，于是查看日志，没看到有类似“panic full\"之类的硬件问题。后来重置系统，几天后仍然出现该现象，于是预约天才吧检修，到那里运行诊断却未发现问题，我以为是买的水货可能“中奖”了，就没管。\n今年春节回家，我把这张 SIM 卡放置在我常用的一部 iPhone14 Pro 里留在家，设置每天自动充电 1 小时，本以为这样就万无一失了，可没过几天再次发现短信自动转发失效了，从路由器后台看到设备不在线，“查找”APP 也显示找不到设备。昨天回到家中，打开手机又发现提示“iPhone 重启后需要输入密码以启用面容 ID”，也即再次自动重启了。这部手机我平常一直在用，应当不存在硬件问题。\n想请问大家有没有遇到过类似状况？我感觉应当不是手机硬件的问题，更像是设置错误。",
           "link": "https://www.v2ex.com/t/1109537",
           "publishedOn": "2025-02-07T02:35:29.000Z",
-          "wordCount": 464,
+          "wordCount": 509,
           "title": "用作短信转发的 iPhone 反复自动重启，可能是哪些设置错误导致？",
           "imageUrl": null
         },
@@ -438,7 +465,7 @@
           "description": "guchengzhihuan: \n\n众所周知，美国国债已经超发太多了，而关税战又启动了，导致最近的黄金价格大幅上涨。\n老美目前有 8000 多吨黄金储备，猜测会把黄金价格从 2800 美元炒到 280000 美元（这个价格只是举例），然后用这些黄金来还款解决美债压力，然后反手做空黄金，又把黄金买回来了。\n之前是想通过加密货币来完成这个骚操作的，但是 [有些国家] 不买加密货币的账，所以只能用黄金代替了。\n并且有预言家说过 2025 年开始，黄金价格会飙涨一个不可思议的地步。\n所以不管预言真假，抄底一部分黄金，是比较合适的。",
           "link": "https://www.v2ex.com/t/1109536",
           "publishedOn": "2025-02-07T02:31:52.000Z",
-          "wordCount": 393,
+          "wordCount": 408,
           "title": "[重磅] 2025 年起未来黄金价格预测。",
           "imageUrl": null
         },
@@ -448,7 +475,7 @@
           "description": "V2IEX: w：YWJjZC0tLTEyMzQ1Njc4OTA=",
           "link": "https://www.v2ex.com/t/1109535",
           "publishedOn": "2025-02-07T02:31:45.000Z",
-          "wordCount": 361,
+          "wordCount": 385,
           "title": "找一个 surge5 for mac 车位",
           "imageUrl": null
         },
@@ -458,7 +485,7 @@
           "description": "geligaoli: zerotier 用了几年了，自建的 moon 节点做中转，北京、香港、韩国，三个 moon 节点，之前国内、国外的节点一直都很稳定，相互访问速度也不错。\n但最近两三周，zerotier 节点，经常出现相互连接不上的情况，比如香港或北京的多台有公网 IP 的机器，直接 ping 都很正常，相互访问端口也正常，zerotier-cli listpeer / listmoons 也都显示正常，但就是无法通过 zerotier 的 IP 相互访问。网络像被分为了多个区一样，区内的可以相互访问速度也可以，但区之间就死活不通，甚至都有公网 IP 还一个地域的仍然不行。\n登录 my.zerotier.com 管理界面，大部分节点为 inactive ，last_sen 时间从几天到几个月都有。活跃节点只有一两个。\n于是开始折腾，全部升级到最新版本，无效。重建 moon 节点，配置重新分发，无效。怀疑运营商对 udp 限制，但用软件测试并没有，改用其他 udp 协议的 p2p 软件测试，连接也正常。询问官方的在线客服，一律是样板答案。\n实在找不到原因，又怀疑是不是版本升级，某些以前的配置无效了？重新翻看官方的文档，结果发现了这么句话：\nwarning\nUsing moons is now discouraged. Please contact us for advice and alternatives.\n尝试着删除了自定义 moon 的配置，结果节点就变 Active 了。换回自建 moon 的配置，刚开始还行，过几个小时，该节点就又连不上其它节点了。\n不使用自建 moon ，国内不能建立 p2p 直连的节点，访问就太慢了。联想到 zerotier 这个软件的免费版本，早年一个网络节点数限制为 1000 ，后来逐步限制到 500 、100 、25 、15 个，连个用户通知都没有，真心是怀疑这个软件是不是故意这么干的（偷偷限制自建 moon 只能用官方的），逼迫用户升级到付费版本。\n已经开始测试其它替代软件了，不想再忍了。",
           "link": "https://www.v2ex.com/t/1109533",
           "publishedOn": "2025-02-07T02:30:05.000Z",
-          "wordCount": 454,
+          "wordCount": 456,
           "title": "zerotier-one 可能偷偷做小动作限制自建 moon 了",
           "imageUrl": null
         },
@@ -468,7 +495,7 @@
           "description": "IWantToLaugh: \n17 年参加工作 19 年听朋友说基金赚钱 就买了几万基金后面赚了 70%收益率 没舍得卖 一直到后面跌到 25%才出手。也算是小赚了一点，后面觉得不过瘾 20 年就开始炒股 一开始还是小小的几万的买 后面越来越大 10 几万 再到后面融资融券 100 来万在里面 就这样在浑浑噩噩炒股中几年过去了 血本无归 买了个股 被强制 ST 退市 40w 一分钱拿不出来 还有中个新股缴了 12w 还幻想开市翻倍 结果第一天就破发 亏损 2w+ 不甘心 想着还能涨回来 直到一年后才想明白 垃圾终归是垃圾 亏了 5w 多卖了 诸如此类数不胜数 赚 20 来万不舍得走 倒亏 18w 割肉  不想在回顾了 去年 24 年 11 月 E 类人才也没考过 58 55 43 论文还被卡了。也怪自己不够努力，跟家里人坦白了欠了钱 先别催我结婚了 我这也算是给各位提个醒吧 没有认知的钱真的赚不到 也最好别碰 到头来害的是自己 以及家人。不过即使如此我依然还是没有放弃 自己欠的钱 咬牙也得完成 还上它  目前是只能工作收入 月薪 2w+ 也在尝试做自媒体 小红书卖货 尝试了一个月卖了 30 多单 赚了几百块钱  也是个不错的开始吧 还有别的好的渠道机会吗 有朋友可以指点指点吗？或者带带小弟 小弟真的是身体力行 有事第一个就上。",
           "link": "https://www.v2ex.com/t/1109532",
           "publishedOn": "2025-02-07T02:29:31.000Z",
-          "wordCount": 680,
+          "wordCount": 707,
           "title": "各位 30 岁 身无分文 欠款 80w 该如何东山再起？",
           "imageUrl": null
         },
@@ -478,7 +505,7 @@
           "description": "liuliuliucn:",
           "link": "https://www.v2ex.com/t/1109529",
           "publishedOn": "2025-02-07T02:24:48.000Z",
-          "wordCount": 454,
+          "wordCount": 460,
           "title": "又一年了，大家给父母怎么配置保险的。",
           "imageUrl": null
         },
@@ -488,7 +515,7 @@
           "description": "tsja: \n和女朋友两人一车，全程 4800km 。高速免费前一天上高速，免费零点出高速。\nDay1 ，Day2\n天津-重庆，中途服务区睡觉，春节高速免费零点出高速到达重庆。\n凌晨到达重庆，整个城市还开着灯，加上山城及楼房密度的视觉冲击，虽然之前来过，但依旧感觉很震撼。\nDay3\n重庆网红景点+Citywalk ，十八梯，山城步道，来福士。\n基本把渝中区的网红景点转了个遍，累计走了 4w 步。\nDay4\n开车绕重庆一圈，出发成都，宽窄巷子及周边，太古里。\nDay5\n出发川西，到达四姑娘山脚下。\nDay6\n四姑娘山景区-美人谷-雅拉雪山观景台\nDay7\n木雅大寺-格底拉姆-红海子-成都\nDay8\n成都玉林街-芳草街-出发西安\nDay9\n到达西安-回民街-古城墙\nDay10\n返回天津",
           "link": "https://www.v2ex.com/t/1109528",
           "publishedOn": "2025-02-07T02:24:23.000Z",
-          "wordCount": 524,
+          "wordCount": 538,
           "title": "春节 10 日自驾游：天津-重庆-成都-川西小环线-西安",
           "imageUrl": null
         },
@@ -498,7 +525,7 @@
           "description": "ldbmcs: \n🌟 我的 iOS 小工具终于迎来重大更新啦！ 经过完全重制的 LiveUp 现在支持更优雅的灵动岛展示和小组件交互，无论你是需要追踪快递单号、记录取餐码，还是管理出行日程，现在都可以直接在锁屏/桌面实时查看，彻底告别反复打开 App 的麻烦～\n🚀 新版亮点： ✔️ 支持 6 大生活场景模板（快递/餐饮/出行/健康等） ✔️ 新增图片扫描识别+文本解析功能 ✔️ 完全重制的灵动岛动效和 UI 界面 ✔️ 小组件尺寸适配优化\n💡 使用场景：✔️ 快递柜前秒查取件码  ✔️ 候机时锁屏看航班行程  ✔️ 餐厅等号不用亮屏反复确认 ✔️ 健身时实时记录运动数据  ✔️ 支持快捷指令灵活创建实时活动\n⏳ 限免倒计时 72 小时！ App Store 搜索\"LiveUp\"即可获取\n💌 特别期待听到你们的真实体验！如果在使用中发现任何问题，或者有想添加的功能模块，欢迎随时评论区告诉我～你们的建议可能会出现在下次更新中哦！",
           "link": "https://www.v2ex.com/t/1109527",
           "publishedOn": "2025-02-07T02:23:32.000Z",
-          "wordCount": 452,
+          "wordCount": 467,
           "title": "[限免中] 重新设计！ LiveUp 帮你告别频繁切应用的烦恼",
           "imageUrl": null
         },
@@ -518,7 +545,7 @@
           "description": "MRNiu: 今天是周五么？不，今天是周四！\n一旦假期时间长了，就容易让人产生永远不上班的想法。",
           "link": "https://www.v2ex.com/t/1109525",
           "publishedOn": "2025-02-07T02:12:38.000Z",
-          "wordCount": 459,
+          "wordCount": 483,
           "title": "终于懂了调休的良苦用心",
           "imageUrl": null
         },
@@ -528,7 +555,7 @@
           "description": "zebsave: \n2025 年过年期间和朋友聊到少儿编程+Ai 赛道的趋势，觉得这个是一个不错的想法，我想在三四线城市开设一所 7-12 岁的少儿编程培训班，课时定价也就 2k-3k 的样子，但是现在我的困难点如下：\n没有课程体系\n三四线城市教师资源少\n对三四线城市用户画像模糊\n有没有大佬在这个领域有过深究讨论一下？",
           "link": "https://www.v2ex.com/t/1109524",
           "publishedOn": "2025-02-07T02:11:32.000Z",
-          "wordCount": 665,
+          "wordCount": 711,
           "title": "想创业\"少儿编程\"的机构有没有好的建议？",
           "imageUrl": null
         },
@@ -548,7 +575,7 @@
           "description": "tomiaa: \n为什么总是听说谁谁谁朋友有房有车，几百平大平层，年入几十上百万，结婚彩礼 18w ，有房有车的，难道只有我一个人是穷 b 一个月下来存不上 2 千块",
           "link": "https://www.v2ex.com/t/1109522",
           "publishedOn": "2025-02-07T02:08:28.000Z",
-          "wordCount": 752,
+          "wordCount": 861,
           "title": "现在的人都很有钱吗？税前年入多少才算有钱？",
           "imageUrl": null
         },
@@ -578,7 +605,7 @@
           "description": "tool2dx: 这几天想先把网络问题解决了，现象是持续 10 分钟 TCP 后，会无响应 10 秒左右，然后恢复正常。我一般用屏幕串流软件，断流会有比较大的影响。\n在 google 上搜，找 github moonlight 的 issues ，有人说是 wifi 驱动问题，随即各种修改驱动参数并测试，发现无效。我还天真以为是运营商 QoS 的锅。\n然后某天无意间停电，发现网络竟然好了。于是怀疑到小米路由器上，又 ssh 上去后一通修改，并什么都没用，过了两天又开始断流。\n这次断流重启小米路由器没有用，重启了一次电信光猫，竟然恢复正常了。\n实在是大无语，真的是万能的重启。",
           "link": "https://www.v2ex.com/t/1109516",
           "publishedOn": "2025-02-07T02:02:23.000Z",
-          "wordCount": 468,
+          "wordCount": 481,
           "title": "不太好解决的 TCP 断流问题",
           "imageUrl": null
         },
@@ -588,7 +615,7 @@
           "description": "YVAN7123: \n大家有没有日常补充维生素或者叶黄素之类的？\n分享一下自己在吃的？",
           "link": "https://www.v2ex.com/t/1109515",
           "publishedOn": "2025-02-07T02:01:16.000Z",
-          "wordCount": 584,
+          "wordCount": 616,
           "title": "有没有日常维生素补充的推荐？",
           "imageUrl": null
         },
@@ -598,7 +625,7 @@
           "description": "xwayway: 建筑央企孙公司的信息化部门，领导前两年被忽悠买了低代码平台，搞数据中台(etl + pg 套壳大宽表)建设。\n提了一大堆需求，本来预计年后加人的，可能过年期间刷太多短视频了。\n今天上班第一天，收到如下发言 \n\"\n要用 deepseek 提升编写代码和 debug 的效率\n至少可以减一半的人\n任务还是这么多，时间也不能拖，但不得加人了，要学会使用新工具\n\"\n低代码平台是拖拉拽的，不是代码生成，是生成数据库配置，数据库结构啥的不清楚。",
           "link": "https://www.v2ex.com/t/1109514",
           "publishedOn": "2025-02-07T02:00:13.000Z",
-          "wordCount": 438,
+          "wordCount": 452,
           "title": "deepseek 能不能取代程序员我不清楚，反正感觉我离被取代不远了",
           "imageUrl": null
         },
@@ -618,7 +645,7 @@
           "description": "giganet: 之前用了一个千兆 USB 网卡，因为有发热，有时候会断网，买了个微软的 1821 ，说是新版的，发热更小，但是不兼容，X91L 的系统不能支持这个网卡....",
           "link": "https://www.v2ex.com/t/1109511",
           "publishedOn": "2025-02-07T01:57:36.000Z",
-          "wordCount": 385,
+          "wordCount": 389,
           "title": "买了个微软的 usb 网卡，结果不兼容",
           "imageUrl": null
         },
@@ -628,7 +655,7 @@
           "description": "jyao:",
           "link": "https://www.v2ex.com/t/1109509",
           "publishedOn": "2025-02-07T01:55:06.000Z",
-          "wordCount": 437,
+          "wordCount": 439,
           "title": "请问有个前端组件可以快速搭建 llm 应用的前端组件, 比如输入框,聊天气泡这些都是声明定义的,有谁知道吗",
           "imageUrl": null
         }
