@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-07T00:52:28.829Z</id>
+    <id>urn:2025-02-07T02:12:22.098Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-07T00:52:28.829Z</updated>
+    <updated>2025-02-07T02:12:22.098Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -19,6 +19,37 @@ https://blog.ops-coffee.cn/r/the-dream-of-my-life.html
 同时也想发个帖子问下大伙，你现在还有梦想吗？还记得曾经的梦想是什么吗？如果有关于梦想的故事分享那就更好了，如果方便的话留下年龄段，做个参考]]></summary>
         <author>
             <name>37Y37</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科技爱好者周刊（第 336 期）：面对 AI，互联网正在衰落]]></title>
+        <id>http://www.ruanyifeng.com/blog/2025/02/weekly-issue-336.html</id>
+        <link href="http://www.ruanyifeng.com/blog/2025/02/weekly-issue-336.html"/>
+        <updated>2025-02-07T00:20:56.000Z</updated>
+        <summary type="html"><![CDATA[这里记录每周值得分享的科技内容，周五发布。
+本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。
+封面图
+
+漳州钟法路的大榕树新春彩灯。（via）
+面对 AI，互联网正在衰落
+这一段日子，新闻焦点全是 DeepSeek，其他重要事件就不显眼了。
+我说的重要事件是，1月23日，就在 DeepSeek R1 模型发布三天后，OpenAI 公司推出了一个新的 AI 工具，叫做 Operator（操作员）。
+
+我认为，这个工具可能预示着，传统互联网的最终衰落。
+Operator 与其他 AI 产品截然不同。它不是一个内容生成工具，而是一个自动化工具，能够自动操作网页。
+OpenAI 公司展示了一个例子，你对 AI 说，去旅游网站 Tripadvisor 预定评分最高的"罗马一日游"，AI 就自动帮你预定了，你根本不必离开当前窗口（下图）。
+
+大家想一想，这意味着什么？
+以前，你要预订一个旅游产品，是这样操作的：首先去谷歌搜索 Tripadvisor 网址，然后访问该网站，找到发布"罗马一日游"的所有旅游社，最终预订评分最高的那一家。
+现在，AI 把这些中间步骤都取代了，你不再需要访问谷歌、Tripadvisor 和旅行社的产品页了，AI 帮你自动访问了。
+用户的体验就是，我不需要其他网站了，只要有 AI 就够了。
+AI 越是强大，其他网站的重要性就越低。
+如果未来的 AI 强大到无所不能，那么你有可能不需要访问任何网站，只要对着 AI 提出要求，它都可以帮你操作。
+你可以让 AI 帮你买东西、叫外卖、投资证券、播放视频，而不再需要去电商网站、外卖网站、券商网站、视频网站了。
+这意味着，传统的、以网站形式存在的互联网将走向消亡。
+我看到，一个老外预测，以后的商业模式可能是，各种服务商不直接面对用户，也不搭建网站…]]></summary>
+        <author>
+            <name>阮一峰的网络日志</name>
         </author>
     </entry>
     <entry>
