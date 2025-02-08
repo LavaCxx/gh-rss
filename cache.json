@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,33 +187,6 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -266,16 +233,6 @@
           "publishedOn": "2025-01-16T00:23:18.000Z",
           "wordCount": null,
           "title": "AI 搞定微信小程序",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
-          "author": null,
-          "description": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n封面图\n\n42层的深圳金融科技研究院大楼，去年6月封顶了，采用了不规则外形的设计。（via）\n一切都要支付两次\n有一句古语\"书非借不能读也\"，大家可能都听过。\n它的意思是，很多人买了书却不读，觉得不着急，拥有书就相当于已经开始学了，后面就慢慢来吧，反而是借来的书有急迫感会抓紧读完。\n\n这种事情很多。网址保存成书签，就扔在那里了，再也不去看它了。\n我最近看到一篇老外的文章，他给这种现象起了一个全新的名字，让人觉得很贴切。老外的概念化能力真是强。\n他提出，人们买书却不读，是因为没有意识到每样东西都需要两次支付。\n\n第一次是货币支付，你付出货币，得到自己想要的东西，比如一本书，一个 App，一辆自行车，一颗卷心菜等等。\n但是，你还必须支付第二次，才能真正消费这个东西。这次你付出的是你的时间和努力，来获得它的收益。\n第二次支付可能比第一次支付贵得多。假设一本书的第一次支付是20元，第二次支付可能就是10小时的阅读时间。只有支付第二次，你才算真正消费了这本书。如果没有第二次支付，第一次支付就意义不大了，跟把钱扔进垃圾箱差不多。\n生活中，到处都是两次支付的例子。购买 App 后，你必须学习如何使用，并且经常使用，才能得到它的价值。购买自行车后，你必须忍受痛苦的初学者阶段，然后才能上街骑行。购买蔬菜后，必须切碎、蒸熟并咀嚼，然后才能为你提供营养。\n我们经常犯的一个错误，就是只完成了第一次支付，没有第二次支付，比如未使用的会员资格，未读的书籍，未玩的游戏，未编织的毛线。由于没有第二次支付，所以你并没有真正使用，第一次支付的钱实际上扔进了垃圾桶。\n这种行为方式的深层次原因，就是现代社会太强调消费，过于看重第一次支付的经济价…",
-          "link": "http://www.ruanyifeng.com/blog/2025/01/weekly-issue-333.html",
-          "publishedOn": "2025-01-10T00:14:37.000Z",
-          "wordCount": null,
-          "title": "科技爱好者周刊（第 333 期）：一切都要支付两次",
           "imageUrl": null
         }
       ]
@@ -331,7 +288,7 @@
           "description": "flashy123: 25 岁男生, 工作在上海, 每周五回南京（ 300km 左右）, 月收入 2w 左右, 无房贷, 手里有 20 个, 能全款我想尽量全款。 平时除了回家, 也就带父母去南京周边转转。\n人生第一辆车, 比较关注:\n1. 容易上手, 驾照是自动挡,没摸过方向盘\n2. 安全性高, 车辆稳定性好\n3. 纯电貌似也合适 续航够用, 但是不知道后面维护成本、电池寿命等会不会有问题\n目前也在看一些, 好像有点偏爱 byd 汉\n油电混: 零跑 c11, 汉 dmi\n纯电: 智己 l6, 汉 ev\n油车: 没了解, 有 v 友推荐 合适也可以考虑",
           "link": "https://www.v2ex.com/t/1109977",
           "publishedOn": "2025-02-08T09:52:49.000Z",
-          "wordCount": 425,
+          "wordCount": 437,
           "title": "2025 年 v 友们推荐个家用车, 人生第一辆！",
           "imageUrl": null
         },
@@ -341,7 +298,7 @@
           "description": "Sirius8: 需求：\n1.每周偶尔跑几千米，偶尔在健身房撸铁\n2.跑步时带耳机听歌\n3.手机是 vivo ，先不考虑 iwatch\n目前看中了华为 GT5 pro 和华米的 trex3 ，两者都支持网易云音乐，华为多一个心电图功能，请大家推荐一下",
           "link": "https://www.v2ex.com/t/1109974",
           "publishedOn": "2025-02-08T09:49:03.000Z",
-          "wordCount": 473,
+          "wordCount": 479,
           "title": "2025 智能手表求推荐",
           "imageUrl": null
         },
@@ -361,7 +318,7 @@
           "description": "AOK123: 家里有 homepod 和一些别的 airplay 音响。\n用 homepod 好处就是想听歌的时候直接喊 siri 就好了，但是 siri 只会在 homepod 上播放（似乎并不通过手机，而是直接在 homepod 上播放）。\n在这种情况下如何让它自动同步所有 airplay 音响？\n我目前的方案就是设置了个快捷指令，在手机上 airplay 到所有音响，然后再通过手机播放音乐，但感觉还是有点麻烦。",
           "link": "https://www.v2ex.com/t/1109971",
           "publishedOn": "2025-02-08T09:39:31.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "怎么自动 airplay 到非 homepod 音响？",
           "imageUrl": null
         },
@@ -371,7 +328,7 @@
           "description": "maidenAssassins: \n怎么发图片???",
           "link": "https://www.v2ex.com/t/1109970",
           "publishedOn": "2025-02-08T09:36:10.000Z",
-          "wordCount": 401,
+          "wordCount": 410,
           "title": "如何看待 chatgpt 和 deepseek 回答不对 3.11 和 3.8 哪个大的问题？",
           "imageUrl": null
         },
@@ -381,7 +338,7 @@
           "description": "jackrzhang: \n我父母白天帮忙带娃,跟老婆商量好一个月给我妈转 2000 块,名义是买菜钱.结果长辈收了两次再也不收.\n现在是我妈的态度是:有退休工资,不收我们钱.而且收了钱还想办法通过其他名义塞回给我们.\n我老婆态度:带娃辛苦,不说孝敬父母,起码吃饭的食材付出一些.\n各位跟父母住一起算钱吗?",
           "link": "https://www.v2ex.com/t/1109969",
           "publishedOn": "2025-02-08T09:34:32.000Z",
-          "wordCount": 441,
+          "wordCount": 451,
           "title": "父母帮忙带娃,给长辈钱吗",
           "imageUrl": null
         },
@@ -421,7 +378,7 @@
           "description": "547911345: 今天看到一个新闻，安徽阜南一村民称花 28 万娶老挝儿媳，婚宴刚办完一周就失联。\n本人籍贯皖南，其实这种情况在我老家也有，就是花钱买的，很多都是生完孩子就走了，能真正留下来的很少。\n下面评论说，28w 已经很难找到了，因为牛排不仅要彩礼，还要房要车，没个上百万，基本结不了婚。\n曾几何时，作为大龄剩男的我也有过这样的想法，存一笔钱，50W 吧，远一点的去俄罗斯乌克兰，近一点的去越南、老挝、柬埔寨，找当地的相亲机构或者交友平台，找一个自己喜欢的，相处几个月，如果三观一致，性格相符，然后再见对方父母，双方父母同意，去大使馆办证，领回国结婚。\n不知道到有多少和我有一样想法的人，其实吧婚姻就是围墙，外面的人想进去，里面的人想出来。",
           "link": "https://www.v2ex.com/t/1109964",
           "publishedOn": "2025-02-08T09:18:33.000Z",
-          "wordCount": 589,
+          "wordCount": 629,
           "title": "关于找外国人做媳妇的问题",
           "imageUrl": null
         },
@@ -461,7 +418,7 @@
           "description": "3059349417:",
           "link": "https://www.v2ex.com/t/1109958",
           "publishedOn": "2025-02-08T09:03:41.000Z",
-          "wordCount": 395,
+          "wordCount": 390,
           "title": "失业半年，怎么停止焦虑获得安全感？",
           "imageUrl": null
         },
@@ -471,7 +428,7 @@
           "description": "gaomengyu42: 我觉得前端很不错啊，深入下去学习 3D 图形开发、音视频开发，都是非常不错的。",
           "link": "https://www.v2ex.com/t/1109957",
           "publishedOn": "2025-02-08T09:01:27.000Z",
-          "wordCount": 445,
+          "wordCount": 456,
           "title": "为什么现在很多人对前端很悲观？",
           "imageUrl": null
         },
@@ -491,7 +448,7 @@
           "description": "Slshaolong: \n求问各位大佬 前端怎么能评级呢\n阿里那种大厂的评级弟弟做不了\n小公司 专科",
           "link": "https://www.v2ex.com/t/1109954",
           "publishedOn": "2025-02-08T08:53:57.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "前端怎么评级啊",
           "imageUrl": null
         },
@@ -511,7 +468,7 @@
           "description": "diantongren: 如题，请大佬推荐一些适合新手的吉他",
           "link": "https://www.v2ex.com/t/1109952",
           "publishedOn": "2025-02-08T08:50:29.000Z",
-          "wordCount": 422,
+          "wordCount": 427,
           "title": "纯小白，想入坑电吉他",
           "imageUrl": null
         },
@@ -531,7 +488,7 @@
           "description": "Leoking222: \n朋友问我能不能做一个小型的网吧系统。\n主要功能有：\n下单系统 会员充值 英雄联盟和吃鸡赠送网费\n\n类似图片这样，万能的 v 友有没有类似的解决方案或者资料呢",
           "link": "https://www.v2ex.com/t/1109950",
           "publishedOn": "2025-02-08T08:44:13.000Z",
-          "wordCount": 469,
+          "wordCount": 533,
           "title": "求教，如何做一个网吧系统",
           "imageUrl": null
         },
@@ -541,7 +498,7 @@
           "description": "qiaofanxing: \n最近有点空闲的时间，想好好学习一下这部分的内容，求好心人推荐一些资源。",
           "link": "https://www.v2ex.com/t/1109949",
           "publishedOn": "2025-02-08T08:43:58.000Z",
-          "wordCount": 404,
+          "wordCount": 429,
           "title": "有没有推荐的学习写大模型提示词的资源",
           "imageUrl": null
         },
@@ -561,7 +518,7 @@
           "description": "garylikira: \n预算 3w 左右，想看看二手油车",
           "link": "https://www.v2ex.com/t/1109947",
           "publishedOn": "2025-02-08T08:36:33.000Z",
-          "wordCount": 442,
+          "wordCount": 448,
           "title": "2025 了。购买二手车有什么好的平台吗",
           "imageUrl": null
         },
@@ -571,7 +528,7 @@
           "description": "wanmyj: \n上海地区，预计 400 个，最多不超过 600 个。从 19 年开始看房，一直没买房，公共户口都换了两次了。但先暗自庆幸一波，因为最近我对比 20 年集中看房的价格，之前看过的 400 的新房，如今都没跑过 5 年利息，更别提有的都破发了，而之前看的 400 的二手，现在买至少打八折。\n今年小崽子要出生了，家里领导不想再老租房，就开始到处看，结果越看越挑。我们手里就这么点现金，基本上还是做不到全方面满意又一步到位。工作一个在张江，一个在静安。内环可以不买车，400 个基本还在老破小里晃荡，而买好停车的小区，基本都奔着外环去了。\n然而，最近了解到佘山的商墅，400 万直接买一多层联排，面积够大，带车库，阳光噪声全都再也不是烦恼，而旁边的正经住宅别墅，单价要贵上一倍，整套起码 1000W 。\n我想问问过来人，一条街区的距离，这 600W 的差价，里面到底都包括有啥。如果差距不大，400 的商墅能不能作为唯一一套家庭住房买起来。\n顺便大家如果有卖二手的打算，价格也在区间范围内，可以 dd 我 NDYwODM4MTQ0\n或者张江高科附近的租房也可以，8k 以内，6 月左右起租，方便停车最好了",
           "link": "https://www.v2ex.com/t/1109946",
           "publishedOn": "2025-02-08T08:36:08.000Z",
-          "wordCount": 551,
+          "wordCount": 553,
           "title": "大佬们了解商墅吗？动心了",
           "imageUrl": null
         },
@@ -581,7 +538,7 @@
           "description": "huangsijun17: \n不上 Docker 和 K8S ，有什么好的 java 项目的健康检查、自愈以及轻量级管理工具吗？\n另外，依靠 /actuator/health 来判断项目的工作状态，可靠吗？",
           "link": "https://www.v2ex.com/t/1109945",
           "publishedOn": "2025-02-08T08:32:31.000Z",
-          "wordCount": 390,
+          "wordCount": 394,
           "title": "关于 Java 项目的健康检查、自愈和轻量级管理",
           "imageUrl": null
         },
@@ -611,7 +568,7 @@
           "description": "BarryAllensJAVA: \n之前为了免费服务器不被回收，升级了付费账户，没想到服务器被黑，用来挖矿，发现异常流量之后，紧急删除了所有服务器，但是账单还是收到了。扣了 2000 多刀，人都傻了，联系了信用卡中心，说不是盗刷没办法帮忙，让我联系商户解决。\n各位大佬，有没有成功和 oracle 申请退款成功过的经历呀？求各位大佬帮忙。",
           "link": "https://www.v2ex.com/t/1109940",
           "publishedOn": "2025-02-08T08:17:03.000Z",
-          "wordCount": 432,
+          "wordCount": 440,
           "title": "[紧急求助] oracle Cloud 免费云服务器被黑，大量异常流量，导致扣费 2000 多刀，如何退款？",
           "imageUrl": null
         },
@@ -671,7 +628,7 @@
           "description": "chanChristin: \n源于之前一次去网吧上网的经历\n想装个 clash ，github 打不开；想从机场网站直接下载软件，机场网站打不开；想用手机开热点用手机代理，台式机不支持 WiFi 。最后还是装了个聊天软件，从手机上下好传到电脑上用。\n折腾了好长时间才连上",
           "link": "https://www.v2ex.com/t/1109933",
           "publishedOn": "2025-02-08T07:57:12.000Z",
-          "wordCount": 740,
+          "wordCount": 787,
           "title": "去网吧上网，你多久能连上外网？",
           "imageUrl": null
         },
@@ -711,7 +668,7 @@
           "description": "aero99: \n目前是 se3  18.3 ， 以前扔到家里当短信转发用，现在发现超过 3 天手机就会自动重启，然后需要重新输入密码登录，当然重新进入系统前短信转发就失效了\n网上查询是 ios18 开始后的苹果安全措施，就是手机 72 小时不用就自动重启必须重新输入密码才能正常使用\n所以我想有没有办法降级到 18 以下的版本",
           "link": "https://www.v2ex.com/t/1109929",
           "publishedOn": "2025-02-08T07:48:44.000Z",
-          "wordCount": 422,
+          "wordCount": 452,
           "title": "如果不保存数据，现在 ios 还能降级到哪个版本呢？",
           "imageUrl": null
         },
@@ -721,7 +678,7 @@
           "description": "crc8: \n同国内某云，一台在广州，一台在北京。\n看了下，如果要开通内网，带宽包一个月近 500 元/2Mbps 。\n但我 trace 了下，这两台服务器都是同一个 AS 下的，而且中间的 IP 都是* 或 私网 IP 。\n如果不开通内网。看 trace 结果就这样用算不算内网？\n相隔几千公里，内网也要几十 ms 的吧，目前是 45ms 左右。",
           "link": "https://www.v2ex.com/t/1109928",
           "publishedOn": "2025-02-08T07:45:35.000Z",
-          "wordCount": 469,
+          "wordCount": 515,
           "title": "ECS 云服务器内网带宽还挺贵。",
           "imageUrl": null
         }
