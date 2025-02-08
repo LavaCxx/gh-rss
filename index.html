@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-08 datetime="2025-02-08T18:01:50.000Z">2025-02-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-08 datetime="2025-02-08T18:01:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-08 datetime="2025-02-08T21:56:53.000Z">2025-02-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-08 datetime="2025-02-08T21:56:53.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,68 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110041"
+                        open
+                      >
+                        <summary class="article-expander__title">请教一下大佬们, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110041">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Int100: 
+目前不跨境的情况下使用的是 IPsec IKEv2.
+如果要跨境互联的话, 这个 ESP(协议号 50) 的数据包特征太明显了, 怕是见不到明天的太阳.
+请教一下, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?
+感谢🙏</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110040"
+                        open
+                      >
+                        <summary class="article-expander__title">有什么类似 toby 的平替插件？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110040">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Rooney1:</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110039"
+                        open
+                      >
+                        <summary class="article-expander__title">InfluxDB 3 Open Source Now in Public Alpha Under MIT/Apache 2 License</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110039">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>sNullp: 
+https://www.influxdata.com/products/influxdb/</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -902,60 +964,6 @@ M4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接�
 2.保障 APP 能稳定，及时收到消息的方案有哪些？（在线、离线、国内外场景）
 3.为了达到 1,2 点的方案，架构上需要怎么设计？
 4.产品基于开源框架 James 搭建了邮件服务系统，有哪些方案可以预防恶意发送垃圾邮件，有哪些方案可以预防阻止别人发送过来的垃圾邮件？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109990"
-                        open
-                      >
-                        <summary class="article-expander__title">有哪些时间戳比较准确的语音转字幕服务？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109990">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>henix: 
-场景：做视频加字幕（中文，不需要翻译），希望先自动出个字幕，然后人工校对
-可接受付费，最好付给不会跑路的大厂
-尝试过：
-1. 本地跑 openai-whipser
-本地跑 Python ，比较慢
-识别中文的时候，时间戳只能精确到 1 秒，而不是 0.1 秒（明明识别日语的时候都可以精确到 0.1 秒），导致字幕展示时间不精确，不能用
-2. 剪映字幕识别
-需要剪映 SVIP ，每月有免费额度
-断开的位置经常在一句话的中间，但我希望一个完整的意思作为一条字幕，需要后期人工修正时间轴
-3. 腾讯云录音文件识别 https://cloud.tencent.com/document/product/1093/37823
-单句太长，20 多秒中间没有任何断句，作为字幕不可行</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1109989"
-                        open
-                      >
-                        <summary class="article-expander__title">基本实现了小时候的心愿，开发了一个收服宝可梦的小游戏！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1109989">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>HarperLucky: 
-小时候特别喜欢看动画片《宠物小精灵》，就在年前找到一个契机，花了些时间开发了这个「宝可梦神奇之旅」的小游戏网站，也算是实现了小时候的一个小心愿吧。
-游戏玩法很简单，也很怀旧，就是回合制战斗，你打我一下，我打你一下，如果赢了，那么恭喜你，你收服了这个宝可梦，如果输了，没关系，换一个宝可梦重新再来。
-网站一共收录了 1280 个宝可梦，游戏宗旨是：只要战斗经验足够丰富，任何一个宝可梦都能够战胜比自己强大的对手！所以，只需要通过不断战斗，积累等级和血量，宝可梦就能所向披靡。
-欢迎来玩呀～
-网址： https://pokemonjourneytogether.com/zh</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2243,8 +2251,8 @@ How to Wait for the sibling-count() and sibling-index() Functions originally pub
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13219693193">
-        <time id="build-timestamp" datetime="2025-02-08T22:09:08.418Z">2025-02-08T22:09:08.418Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13220099853">
+        <time id="build-timestamp" datetime="2025-02-08T23:11:20.967Z">2025-02-08T23:11:20.967Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

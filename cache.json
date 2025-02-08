@@ -316,6 +316,36 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1110041",
+          "author": "Int100",
+          "description": "Int100: \n目前不跨境的情况下使用的是 IPsec IKEv2.\n如果要跨境互联的话, 这个 ESP(协议号 50) 的数据包特征太明显了, 怕是见不到明天的太阳.\n请教一下, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?\n感谢🙏",
+          "link": "https://www.v2ex.com/t/1110041",
+          "publishedOn": "2025-02-08T21:56:53.000Z",
+          "wordCount": 382,
+          "title": "请教一下大佬们, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110040",
+          "author": "Rooney1",
+          "description": "Rooney1:",
+          "link": "https://www.v2ex.com/t/1110040",
+          "publishedOn": "2025-02-08T21:49:41.000Z",
+          "wordCount": 368,
+          "title": "有什么类似 toby 的平替插件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110039",
+          "author": "sNullp",
+          "description": "sNullp: \nhttps://www.influxdata.com/products/influxdb/",
+          "link": "https://www.v2ex.com/t/1110039",
+          "publishedOn": "2025-02-08T20:48:53.000Z",
+          "wordCount": 373,
+          "title": "InfluxDB 3 Open Source Now in Public Alpha Under MIT/Apache 2 License",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1110038",
           "author": "SGL",
           "description": "SGL: 今天鼓捣 orbstack 虚拟机的时候，发现 modprobe 命令不起作用，然后查到 orbstack 不支持动态内核。纯小白产生一个问题，这个虚拟机软件是否支持动态内核是基于什么样的技术考虑，各有什么优劣。\n我看 vmware workstation 是支持。\n参考内容如下：\nhttps://github.com/orbstack/orbstack/issues/410\nDynamic kernel modules are not supported (see #258). All the modules you tried to load are already built into the kernel, so just remove the commands.\n动态内核模块不受支持（见 #258 ）。您尝试加载的所有模块都已内置到内核中，因此只需删除命令即可。",
@@ -401,7 +431,7 @@
           "description": "weishao666: \n背景，父母一个月可能来住个一两天，家里有两台电视，但是我不看，所以没有机顶盒。父母习惯看央视和本地卫视的直播节目，但现在的智能电视开机就是各种会员墙，连传统电视台都搜不到。尝试过影视仓，不大稳定。\n想请教各位 V 友：\n免费且稳定的直播方案有么？听说有 DTMB 地面波、IPTV 源、开源直播软件，哪种更适合普通用户？\n是否需要外接设备（如电视盒子）？如果有推荐型号更好（预算 200 以内）。\n是否有无需折腾硬件的软件方案？比如通过 TV 版 App 或浏览器直接访问直播源？\n如果自己搭建直播源服务器，复杂度和维护成本如何？\n希望方案能兼顾「父母易用性」和「长期稳定性」，感谢！",
           "link": "https://www.v2ex.com/t/1110029",
           "publishedOn": "2025-02-08T15:42:24.000Z",
-          "wordCount": 450,
+          "wordCount": 452,
           "title": "如何在长辈来的几天让电视免费收看央视及地方卫视直播频道？求优雅方案",
           "imageUrl": null
         },
@@ -411,7 +441,7 @@
           "description": "zuotun: 想在家里放一个机柜，至少 800 深但是感觉还是需要 1000 ，高度倒是不必 42 但是至少也要 22 或者 32 了，不然都不好买。\n由于是自用所以希望质量好一点的同时价格也能接受，年前华腾满 200 减 30 没买，现在有满 300 减 40 所以又看了一下，42 到手 1300 不到。\n有什么推荐的型号吗，价格感觉在一千以内都能接受，因为一个机箱也这个价了。\n最低配置 22U 800 深，但是感觉 1000 深更好。\n另外导轨好贵啊，大家都是怎么固定的？",
           "link": "https://www.v2ex.com/t/1110028",
           "publishedOn": "2025-02-08T15:23:38.000Z",
-          "wordCount": 430,
+          "wordCount": 434,
           "title": "家庭自用机柜选什么？",
           "imageUrl": null
         },
@@ -531,7 +561,7 @@
           "description": "ciaochaos: \n在 github.com/latentcat/graphpu 后，第二次用 Rust + wgpu 写项目，制作了一个 iOS / Windows / macOS 的跨端音画互动 app 。\n用 wgpu 解决了跨平台渲染的难题，可以呈现丰富的粒子效果，同时使用 Rust 实时合成声音，在 iOS 上支持后台播放、小组件、Haptic Feedback ，在电脑端支持设为动态屏幕壁纸！\n写了 4000 字详细介绍 + 创作历程，欢迎阅读！latentcat.com/zh-cn/blog/building-aelbum\n官网\nApp Store\nSteam",
           "link": "https://www.v2ex.com/t/1110012",
           "publishedOn": "2025-02-08T13:42:23.000Z",
-          "wordCount": 457,
+          "wordCount": 461,
           "title": "使用 Rust + wgpu 创作的音画互动 / 动态壁纸 App 上线 App Store / Steam 啦，欢迎体验支持！",
           "imageUrl": null
         },
@@ -673,26 +703,6 @@
           "publishedOn": "2025-02-08T11:17:05.000Z",
           "wordCount": 392,
           "title": "请教 IM 和邮件相关的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109990",
-          "author": "henix",
-          "description": "henix: \n场景：做视频加字幕（中文，不需要翻译），希望先自动出个字幕，然后人工校对\n可接受付费，最好付给不会跑路的大厂\n尝试过：\n1. 本地跑 openai-whipser\n本地跑 Python ，比较慢\n识别中文的时候，时间戳只能精确到 1 秒，而不是 0.1 秒（明明识别日语的时候都可以精确到 0.1 秒），导致字幕展示时间不精确，不能用\n2. 剪映字幕识别\n需要剪映 SVIP ，每月有免费额度\n断开的位置经常在一句话的中间，但我希望一个完整的意思作为一条字幕，需要后期人工修正时间轴\n3. 腾讯云录音文件识别 https://cloud.tencent.com/document/product/1093/37823\n单句太长，20 多秒中间没有任何断句，作为字幕不可行",
-          "link": "https://www.v2ex.com/t/1109990",
-          "publishedOn": "2025-02-08T11:10:27.000Z",
-          "wordCount": 489,
-          "title": "有哪些时间戳比较准确的语音转字幕服务？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109989",
-          "author": "HarperLucky",
-          "description": "HarperLucky: \n小时候特别喜欢看动画片《宠物小精灵》，就在年前找到一个契机，花了些时间开发了这个「宝可梦神奇之旅」的小游戏网站，也算是实现了小时候的一个小心愿吧。\n游戏玩法很简单，也很怀旧，就是回合制战斗，你打我一下，我打你一下，如果赢了，那么恭喜你，你收服了这个宝可梦，如果输了，没关系，换一个宝可梦重新再来。\n网站一共收录了 1280 个宝可梦，游戏宗旨是：只要战斗经验足够丰富，任何一个宝可梦都能够战胜比自己强大的对手！所以，只需要通过不断战斗，积累等级和血量，宝可梦就能所向披靡。\n欢迎来玩呀～\n网址： https://pokemonjourneytogether.com/zh",
-          "link": "https://www.v2ex.com/t/1109989",
-          "publishedOn": "2025-02-08T11:06:02.000Z",
-          "wordCount": 440,
-          "title": "基本实现了小时候的心愿，开发了一个收服宝可梦的小游戏！",
           "imageUrl": null
         }
       ]
