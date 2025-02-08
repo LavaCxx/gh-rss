@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -275,50 +281,410 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/696",
-          "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/696",
-          "publishedOn": "2025-01-29T09:14:56.000Z",
-          "wordCount": null,
-          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/695",
-          "author": null,
-          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/695",
-          "publishedOn": "2025-01-25T07:34:43.000Z",
-          "wordCount": null,
-          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1109916",
+          "author": "xiali",
+          "description": "xiali: \n公司： [循环智能]  是专注于行业大模型和会话智能解决方案及产品的企业服务公司，致力于让企业与客户的每一次沟通有更好的成效。公司结合多年积累的销售、贷后、客服等行业的场景数据、业务逻辑、专家训练的沟通数据，自研了适合企业级客户场景化应用的大模型。\n公司直招加 V 内推：xiaxyl123 或发送简历到邮箱 ylxia@rcrai.com 也可（请添加或发送简历时注明来意）\n* [岗位职责描述] *\n1 、参与后端系统的设计和开发，负责关键模块的编码和优化；\n2 、根据产品需求，独立完成 Go 语言后端服务的开发工作；\n3 、配合团队成员，确保系统的高性能和稳定性；\n4 、与前端、测试团队紧密合作，保障整体项目的顺利进行。\n* [职位要求] *\n1 、本科及以上学历，计算机相关专业，一本院校优先；\n* [加分项] ：*\n\n● 深度参与过复杂业务系统(设计和开发),大型的中间件,公司公共平台等开发；\n● 参与过 TOB 业务应用开发；\n● 有 AI/大模型系统开发项目经验优先。",
+          "link": "https://www.v2ex.com/t/1109916",
+          "publishedOn": "2025-02-08T06:58:43.000Z",
+          "wordCount": 434,
+          "title": "AI 公司招聘：高级 Golong 后端开发工程师（面试可远程），### *Base 地：成都* 天府三街",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109915",
+          "author": "ray07",
+          "description": "ray07: Citrix 虽然业务已经推出了中国，但是面向全球业务的南京的研发中心一直在蓬勃发展，而且总部正在加大对南京核心业务的投入，年后新开了多个招聘名额。\n详情请看: https://careers.cloud.com/jobs/search?page=1&country_codes%5B%5D=CN&query=\n里面有详细 JD ，欢迎感兴趣的朋友投递。\n注： \n1. 需要在南京工作，目前不支持远程。\n2. 目前开出来职位都为 Senior 级别后端岗位，需要 5-8 年工作经验\n3. 职位均可接触 Citrix 云桌面 HDX 核心协议\n相关领域同仁也欢迎交流哈～ 投递邮箱：ODI3NjE1MjMzQHFxLmNvbQ==",
+          "link": "https://www.v2ex.com/t/1109915",
+          "publishedOn": "2025-02-08T06:57:57.000Z",
+          "wordCount": 374,
+          "title": "南京外企 Citrix 年后一大波岗位放出，感兴趣的小伙伴看过来",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109914",
+          "author": "wuxinling",
+          "description": "wuxinling: \n如题，公司需要采购一套中药材仓库的温湿度监控系统，硬件和管理系统都需要。\n需要能应对 GXP 检查的。联系邮箱：ZGFvZ3VvZmVuZ0BvdXRsb29rLmNvbQ==",
+          "link": "https://www.v2ex.com/t/1109914",
+          "publishedOn": "2025-02-08T06:54:55.000Z",
+          "wordCount": 335,
+          "title": "寻找药品仓库温湿度监控设备系统供应商",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109913",
+          "author": "sikuu2al",
+          "description": "sikuu2al: \n官网都还在，但是看到有人说不要支付了会被吞款项\n去年在悦音坊订了一年的印区 spotify 最近差不多到期了，求大伙推荐靠谱平台或者个人家庭车！",
+          "link": "https://www.v2ex.com/t/1109913",
+          "publishedOn": "2025-02-08T06:52:22.000Z",
+          "wordCount": 374,
+          "title": "合租平台悦音坊、奈飞小铺是不是跑路了？（求 spotify 便宜家庭车",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109911",
+          "author": "wukaige",
+          "description": "wukaige: 今天中午午睡正香，流口水的那种香，突然一个推销电话打过来，真的让人很火大 :<\nV 友有没有一劳永逸的办法",
+          "link": "https://www.v2ex.com/t/1109911",
+          "publishedOn": "2025-02-08T06:50:37.000Z",
+          "wordCount": 333,
+          "title": "被各种推销电话和短信搞麻了。。。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109910",
+          "author": "Krue",
+          "description": "Krue: \n这会不会涉及什么隐私安全问题？",
+          "link": "https://www.v2ex.com/t/1109910",
+          "publishedOn": "2025-02-08T06:47:49.000Z",
+          "wordCount": 397,
+          "title": "关于 cursor，我想请教下 v 友们可不可以买淘宝的帐号，然后平时公司项目也用它开发",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109909",
+          "author": "FaiChou",
+          "description": "FaiChou: \n使用 nextjs 写项目时，用到了 .env 环境变量，这个环境变量是运行时候才需要的。比如 .env 中有 A=1 ，但是在 build 的 Collecting page data 步骤会帮你将 .env 内容替换进代码里帮你检测代码健康。这就导致了一些“有隐患”的代码报错，这里的“有隐患”是相对的，如果部署的时候有 .env 那就不会出问题。\n这就造成了一个假象: 这个 .env 内容在 build 阶段就会替换进代码中，而不是运行时。\n但在运行时，将 .env A=2 改成 2 之后，代码还是正常获取到 A=2 。\n碰到这个问题是因为项目放在 github actions 上使用 docker build nextjs 的项目报错，排查后才发现是 Nexjs 多做了一层“保护“。",
+          "link": "https://www.v2ex.com/t/1109909",
+          "publishedOn": "2025-02-08T06:44:17.000Z",
+          "wordCount": 419,
+          "title": "Nextjs build 时候 Collecting page data 的奇怪现象",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109908",
+          "author": "Meld",
+          "description": "Meld: 咖啡厅大概 250 平左右，不太懂这种需要上企业级解决方案吗？还是搞几个小米路由器 mesh 下就行",
+          "link": "https://www.v2ex.com/t/1109908",
+          "publishedOn": "2025-02-08T06:42:19.000Z",
+          "wordCount": 383,
+          "title": "家里开了个咖啡厅，需要组网，求个方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109907",
+          "author": "ppiop",
+          "description": "ppiop: \n不确定是不是更新软件的原因   今天新下载程序没有弹出 LULU 放行提示   手动关闭打开发现规则全部空白",
+          "link": "https://www.v2ex.com/t/1109907",
+          "publishedOn": "2025-02-08T06:41:51.000Z",
+          "wordCount": 348,
+          "title": "LULU 的规则突然全都不见了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109906",
+          "author": "lyeka",
+          "description": "lyeka: \n各位老板，今年想看看深圳的房子，大佬们有推荐的小区或者楼盘吗？\n本人预算 400-500 万，稍微溢出些也是可以的。\n新手二手不限，最好是三房，位置不限，目前工作在南山（住宝安这边）希望能够近地铁一些。",
+          "link": "https://www.v2ex.com/t/1109906",
+          "publishedOn": "2025-02-08T06:41:49.000Z",
+          "wordCount": 337,
+          "title": "深圳买房有推荐吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109905",
+          "author": "jeddida",
+          "description": "jeddida: \n今天我这边温度：-6 ，昨天晚上停在小区楼下，今天早上就打不着\n1.电池电量充足\n2.火花塞接头没掉\n3.烟囱没堵\n联系了修车的，说是起动机马达坏了，要价 500\n记录一下，v 友们遇到类似情况可以考虑一下这个问题",
+          "link": "https://www.v2ex.com/t/1109905",
+          "publishedOn": "2025-02-08T06:41:35.000Z",
+          "wordCount": 379,
+          "title": "今天开了 10 年的汽车突然打不着火",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109903",
+          "author": "szsgz",
+          "description": "szsgz: 主题： 不折腾\n之前一直用 openwrt ，后来看中了 ikuai 的系统，同时又看到了便宜的官方路由器 Q6000 不到四百块。\n系统很满意，但是用了几天竟然坏了！！！是灯都不亮了的那种，试了几次都以一样，看来是质量问题。\n而且这个机子还有几个痛点：只有一个 2.5G 口，wifi 很鸡肋，我做主路由直接关掉了 wifi 功能。\n现在求一个软路由机子，不知道这些要求至少多少钱能拿下：\n1. 至少 4 个 2.5G 网口，因为马上宽带要升级超过千兆了。\n2. 只刷 ikuai ，不翻墙因为人在墙外，不用 Nas 因为有白群晖。\n3. 不用 wifi ，有两个华硕的路由器做 AP 。\n4. 配置要能够跑满带宽。",
+          "link": "https://www.v2ex.com/t/1109903",
+          "publishedOn": "2025-02-08T06:33:04.000Z",
+          "wordCount": 377,
+          "title": "不折腾求推荐一个 iKuai 机子",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109902",
+          "author": "jojochan1013",
+          "description": "jojochan1013: 产品经理岗位，核心就是英语口语流利\nerp 系统\n英文简历，英文面试\n加 V 内推：Ace151314\nRole description\nWe are looking for an experienced Business Analyst / Product manager who can support our efforts in deploying and adjusting the core Xometry platform (in-house built) in mainland China to kick off and grow the business there. With us, you will get extremely hands-on experience in the emerging industry 4.0 environment by managing a very fast startup inside the world market leader organization. You will be supported by a highly professional and motivated team of professionals and be embraced with highly respectful and multicultural corporate culture gently combining the best of US, European, Russian and Chinese worlds.\nThis position is full-time and includes active feature ownership: we expect the person in th…",
+          "link": "https://www.v2ex.com/t/1109902",
+          "publishedOn": "2025-02-08T06:32:10.000Z",
+          "wordCount": 873,
+          "title": "[22-25k] 产品经理 外企 可远程 work life balance",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109901",
+          "author": "Legman",
+          "description": "Legman: \n看着这张满是涂鸦的草稿纸，才明白，这套题，没有答案。",
+          "link": "https://www.v2ex.com/t/1109901",
+          "publishedOn": "2025-02-08T06:31:48.000Z",
+          "wordCount": 359,
+          "title": "婚姻是一道数学题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109900",
+          "author": "Stewardsun",
+          "description": "Stewardsun: rt\n小弟用苹果手表提醒用惯了，换了华为 aw 没法用了，有什么便宜的穿戴设备可以具备微信提示和来电震动吗\n用了朋友的华为 gt watch 感觉体验好差，又卡微信提示也老是断断续续的，还有别的好的解决方案吗",
+          "link": "https://www.v2ex.com/t/1109900",
+          "publishedOn": "2025-02-08T06:31:44.000Z",
+          "wordCount": 390,
+          "title": "苹果换华为了，没了 apple watch 手机消息提示怎么解决",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109899",
+          "author": "clear",
+          "description": "clear: \n举个例子，扔进去一个 excel ，输入自己的要求，它能返回一个处理后的 excel 。\n现在 ChatGPT 等一些原生 APP 都可以做到，但是 deepseek 没有，没有找到合适的开源组件。\n不是通过 AI 生成代码，再用调试代码去处理 Excel 。",
+          "link": "https://www.v2ex.com/t/1109899",
+          "publishedOn": "2025-02-08T06:26:31.000Z",
+          "wordCount": 407,
+          "title": "有没有开源模型可以类似 ChatGPT 一样，处理 excel 这些结构化文件？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109897",
+          "author": "cjq8z",
+          "description": "cjq8z: 不知道啥时候开始，我发现系统的快捷键功能发生了变化了，WIN+D 变成了搜索了，WIN+S 变成了返回桌面了，其它的快捷键还是正常的。办公室的电脑、家里的电脑都是一样（两台电脑都是登陆我的个人账号）。\n      昨天我把办公室的电脑语言调整了一下顺序，把默认中文调整了默认英文，这无意识的调整，发现办公室这台电脑的快捷键恢复默认了：win+d 返回桌面，win+s 是搜索，但是我家里的电脑功能还是相反的。\n      今天上午我把家里电脑使用 U 盘重装了系统，重装后登陆我的微软账号，结果发现进入系统后，win+d 是搜索，win+s 返回桌面，这快捷键功能还是相反的。\n      中午使用了 deepseek 问一下怎么恢复快捷键，deepseek 说：第一点，检查第三方软件；第二个就是重置重置组策略设置、第三个就是检查注册表，都没有用\n      几个月前用公司电脑安装过 PowerToys ，后续已经卸载了，不存在第三方软件了。\n现在都不知道是啥情况了，有没有办法恢复默认的快捷键功能",
+          "link": "https://www.v2ex.com/t/1109897",
+          "publishedOn": "2025-02-08T06:21:57.000Z",
+          "wordCount": 387,
+          "title": "Win11 24H2 键盘快捷键怎么恢复？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109896",
+          "author": "tsja",
+          "description": "tsja: \niPhone 15 于 2023 年 11 月 8 日购入，用到现在电池健康 89%。基本用了半年之后（ 2024 年中）就开始出现细微的卡顿，以及越来越短的续航。\n比如横屏打游戏时，下拉通知栏要卡一秒钟；拍照被清空后台音乐；接电话时切换蓝牙要卡半秒钟；以及各种莫名其妙的卡顿......\n我的选择：OPPO Find X8\nCPU：天玑 9400\n配置：16G+256G\n价格：3699 元（国补 500 元后）\n换机动力：AI\n对 Apple Intelligent 就是彻底的失望，毫无换机动力；反观安卓这边，OPPO 的 Color OS 几乎模仿到了 WWDC 上苹果关于 AI 画的所有饼：AI 一键问屏； APP 控制；相机识别；文字润色/写作；电话/微信通话录音+摘要等功能。\n但实际使用起来，只能说体验做的很完善，但使用率很低。并不是核心痛点功能。\n安卓优势\n基本互联网上有声音吐槽 iPhone 和 iOS 的点，都是安卓能做好的。比如快充，拍照，信号，续航等等。反而用惯了这台安卓，认为这些点是一个手机本应该做好的地方。\n换了安卓，如释重负：\n应用小窗模式。\n通话录音+内容摘要。\n“哈苏影调”照片风格化，不再是平平淡淡+锐化的照片风格了。\n用了之后，感叹这也能模仿到 iOS 的地方：\nHDR 照片/HDR 视频+Live Photo\nO+互传，类似于 Airdop ，但体验只能做到 70%的样子。\n灵动岛、系统动画、系统内置软件的 UI 设计。外观与交互上能到 iOS 的 90%，并不是拙劣的模仿。\n苹果生态怎么办\n曾经对苹果生态深信不疑，手机、手表、耳机、电脑、平板都是苹果生态内。iCloud 用的美区超大杯，存着三万多张照片；苹果钥匙串存着很多平台的密码； Apple Watch 离开 iPhone 就用不了；割舍世界迷雾等 iOS 独占软件...\n曾经每次想换安卓时，都会被这些原因劝退。但这次换到 OPPO 之后，发现这些并不是什么决定性问题，把 iPhone 当成备用机就能解决这些问题。\n总之，用的爽就可以，没有什么是能被生态束缚住的。",
+          "link": "https://www.v2ex.com/t/1109896",
+          "publishedOn": "2025-02-08T06:18:02.000Z",
+          "wordCount": 574,
+          "title": "10 年苹果全家桶用户，换 OPPO 后毫无不适感",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109895",
+          "author": "ofLmvFk",
+          "description": "ofLmvFk: 公司配了 mbp m3pro, 家里有台老旧的 mbp 13 存 2016 8G 干啥都不行（出二手估计就几百块吧）。现在想升级不确定换哪个。 \n- mini M4pro 64g 1t （有显示器键鼠不用另购）\n- mbp  M4pro 48g 1t",
+          "link": "https://www.v2ex.com/t/1109895",
+          "publishedOn": "2025-02-08T06:09:59.000Z",
+          "wordCount": 444,
+          "title": "公司配了电脑，家里换新是 mbp 还是 mac mini",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109894",
+          "author": "dashsoap97",
+          "description": "dashsoap97: 如题 发送简历到 ZGFzaHNvYXAxOTk3QGdtYWlsLmNvbQ==",
+          "link": "https://www.v2ex.com/t/1109894",
+          "publishedOn": "2025-02-08T06:05:59.000Z",
+          "wordCount": 482,
+          "title": "蛇年了!远程工作有看的吗?你发岗位我回复~前后端数据中台产品都有招.薪资待遇 25k 起",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109892",
+          "author": "jojochan1013",
+          "description": "jojochan1013: 公司：Xometry\n新增一个 DevOps 岗位，可以远程，work life balance\n英语面试(简单沟通即可)，英文简历\n目前中国团队没有运维，所以需要遇到些运维问题需要一个 DevOps Engineer 来解决，初步看下来不会有太花里胡哨的操作，简历最好写上 help desk 经验\n加 V 内推：Ace151314\n具体要求如下:\nThe platform\nOur in-house platform is built on Ruby on Rails stack with PostgreSQL database. We are building the uber-like platform for manufacturing, deploying updates almost every working day, so there is a lot of interesting work to be done. Xometry’s platform and corporate functions utilize multiple cloud service providers. The ideal candidate would be well versed in cloud technologies, including IaaS,PaaS, SaaS, hybrid, and multi-cloud.\nSuccessful candidate has\n● 3+ years of experience as DevOps&IT support engineer.\n● Basic Linux infrastructure skills: ability to connect to a server via ssh, view vital metrics and logs on the\nserver, edit configuration files and restart related system-based services and docker containers if necessary.\n● Basic skills in working with cloud providers (AWS, GCE, Azure, Tencent, etc.) will be a big plus.\n● Ability to work with git: read file change history, edit text files with ACLs managed via GitOps, make a pull-request with proposed changes.\n● Basic knowledge of Chinese IT law specifications: things like ICP licenses, or at least the ability and willingness to study related official documents.\n● Chinese language skills to communicate with the team on site (for non-Chinese candidates).\n● Proficiency in English for communication with EU and US based IT teams.\n● Experience installing and customizing MacOS\n● Ability to diagnose a problem remotely.\n● Experience with MS Azure and Google for Business will be a plus.\n● Willingness to document your work. (Writing instructions for the team or users)\nWork conditions\n● English and Chinese speaking tech team in the Chinese branch of a large international company.\n● A developing startup (65 people in China) inside the world market leader (~1000 people in total).\n● Full-time position.\n● Salary is negotiable with each candidate.",
+          "link": "https://www.v2ex.com/t/1109892",
+          "publishedOn": "2025-02-08T05:56:23.000Z",
+          "wordCount": 680,
+          "title": "DevOps [20-25K] [远程] work life balance 外企",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109891",
+          "author": "worker201",
+          "description": "worker201: 车自带的行车记录太模糊了, 车牌号都看不清, 而且广角畸变严重\n想自己加装一个, 能看清楚车牌以及方便导出就行",
+          "link": "https://www.v2ex.com/t/1109891",
+          "publishedOn": "2025-02-08T05:51:53.000Z",
+          "wordCount": 536,
+          "title": "你们的行车记录仪都是什么型号? 高清以及方便导出的那种",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109890",
+          "author": "lpe234",
+          "description": "lpe234: \n上午在群里看到，刚刚发现百度搜索页也更新了。",
+          "link": "https://www.v2ex.com/t/1109890",
+          "publishedOn": "2025-02-08T05:49:30.000Z",
+          "wordCount": 367,
+          "title": "focuz-in.com 感觉这样这样有风险吧",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109889",
+          "author": "wangboyang",
+          "description": "wangboyang:",
+          "link": "https://www.v2ex.com/t/1109889",
+          "publishedOn": "2025-02-08T05:42:44.000Z",
+          "wordCount": 711,
+          "title": "最近同事疯狂安利要去看哪吒 2，只有我一个人一看那造型就反感欣赏不来吗，为什么这么火啊实在是搞不明白",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109888",
+          "author": "tiancaixiaoy",
+          "description": "tiancaixiaoy: 目前考虑的是 IOPE 的天才水套装或者海蓝之谜",
+          "link": "https://www.v2ex.com/t/1109888",
+          "publishedOn": "2025-02-08T05:42:19.000Z",
+          "wordCount": 434,
+          "title": "女朋友送了我一款 coach 背包，价格 2300 左右，情人节要回送什么比较好啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109886",
+          "author": "rick2c",
+          "description": "rick2c: \n迪子现在招实习生的要求高么，求内推一个机械工程开发或者嵌入式开发的实习岗位",
+          "link": "https://www.v2ex.com/t/1109886",
+          "publishedOn": "2025-02-08T05:34:05.000Z",
+          "wordCount": 350,
+          "title": "比亚迪实习生内推",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109885",
+          "author": "lenkaren",
+          "description": "lenkaren: \n如题\n手机一加 13\n之前用荣耀的手机，使用 tasker 之类的自动化软件都可以实现收到特定短信后自动回复，但换了手机后发现不行了，因为貌似系统底层加了逻辑，就算授权了短信权限，当第三方 app 想要发送短信的时候还是会触发一个二次确认的窗口（默认如果不操作就是取消发送短信）\n网上搜了一圈没发现到有啥解决办法，ds 也问了，官方客服是说不支持关闭这个二次确认的弹窗，特来求助看看能否有啥好办法可以解决这个问题",
+          "link": "https://www.v2ex.com/t/1109885",
+          "publishedOn": "2025-02-08T05:23:07.000Z",
+          "wordCount": 387,
+          "title": "[求助] 关于想使用 tasker 或者短信转发器 APP 自动发送短信被系统拦截需要手动确认的解决方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109883",
+          "author": "gegeligegeligo",
+          "description": "gegeligegeligo: \n觉得有行号会方便很多，谢谢。",
+          "link": "https://www.v2ex.com/t/1109883",
+          "publishedOn": "2025-02-08T05:16:35.000Z",
+          "wordCount": 376,
+          "title": "vscode 的输出窗口有办法显示行号吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109882",
+          "author": "selfless",
+          "description": "selfless: \n研究生毕业，27 岁刚参加工作不久，月薪两万，搞 ai 相关工作，公司不大，也没加过班，但我感到内心非常痛苦，每天接触不到什么人，来公司坐班，一坐一天，现实生活也没什么人可以交流，说实话，我大学去餐厅干帮厨，干服务员都没这么痛苦，现在每天都感觉心中压抑，也没什么干劲。\n我可以从事什么自由职业吗？或者现在开始如何布局？\n求朋友们给一点建议，每条回复我都会认真思考，谢谢了",
+          "link": "https://www.v2ex.com/t/1109882",
+          "publishedOn": "2025-02-08T05:07:37.000Z",
+          "wordCount": 712,
+          "title": "何去何从，求建议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109881",
+          "author": "revival83",
+          "description": "revival83: 实在不行，只能拔跳线了\n\n![]( )",
+          "link": "https://www.v2ex.com/t/1109881",
+          "publishedOn": "2025-02-08T04:58:29.000Z",
+          "wordCount": 534,
+          "title": "台式机休眠时闪烁的指示灯可以 bios 关掉么？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109880",
+          "author": "XuanYuan",
+          "description": "XuanYuan: \n这边家里原来用的是 TP 的 R470GP-AC-AC 配的 TP 面板 AP ，过年期间没闲住换成了 Aruba 的 505H 。\n之所以换 505H ，是因为想把它固定在 86 面板上。\n本来想把 R470 换成 Mikrotik 的 E50UG ，结果用了几天发现，这个 AP 性能足够而且也有路由模式，所以我想直接把 R470 拆了，用 505H 拨号，再加个 POE 交换机。\n我的疑问是，505H 的 LAN0 口同时是 POE-in 和 WAN ，如果我把它接到 POE 交换机上，再把交换机接到光猫，可以正常拨号吗？",
+          "link": "https://www.v2ex.com/t/1109880",
+          "publishedOn": "2025-02-08T04:55:06.000Z",
+          "wordCount": 546,
+          "title": "请教一下关于 AP 的 POE 供电的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109879",
+          "author": "sxguka",
+          "description": "sxguka: 最多用作输入用户名后需要一步即可登录的通行密钥（ passkey ）\n个人建议仅用于二步验证，长期插在电脑上比手机验证器 APP 方便，还可以用作数据盘的 bitlocker ，比静态加密密码要安全。\n微软则可以考虑用作 github 的二步验证，再绑定微软账号，而不是直接用作通行密钥。\n这玩意本质上就相当于是加了一个 pin 的门钥匙，所以我绝不会把它用作通行密钥，而只会把它用作二次验证。别人捡到了的门钥匙，还要知道我的家庭住址才可以，而这玩意甚至相当于直接把用户名和网站网址放进去了。\n银行卡需要在银行里面输入，因此 pin 被偷窥的概率小一点。我的意思是说我的手机用了 32 位密码，3 天才用输入一次，平时使用指纹或者人脸验证。安全性和便利性不可兼顾，因此这玩意如果每次都要输 32 位是很麻烦的，就必须弄短一点就会降低安全性。\n还是那句话，我相对而言不是那么怕网上的黑客，我怕的是现实中对我有意见，但是又不敢对我动手转而来到我网络账号的人。我比较在乎线下的安全性。如果是苹果手机，那么每次验证指纹或者超级长的密码还是要比这玩意安全一些的。至于电脑的密码非常长，我电脑都是采用一个 bitlocker start up pin （实现真正意义上的加密，而不是 Windows 锁屏的权限控制）然后再用指纹登录。\n这样的好处是顶尖高手或者我电脑遗失后，对方大概率是不知道我的 pin 的，这样第一步就被挡住了，如果强行重置掉这个就会导致强行需要非常长的恢复密钥，这也是当前算力下不可破解的。\n如果是身边能够偷窥到我 pin 的同学，由于一个人既要满足是身边的同学，又要满足是电脑高手的概率是比较小的，因此我可以假设他们大概率破解不了 Windows 的锁屏，因此就可以用开机锁屏界面指纹验证来拦截掉它们。",
+          "link": "https://www.v2ex.com/t/1109879",
+          "publishedOn": "2025-02-08T04:54:34.000Z",
+          "wordCount": 400,
+          "title": "为什么我不推荐用 Yubikey 作通行密钥",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109878",
+          "author": "LinJunzhu",
+          "description": "LinJunzhu: \n之前新搞了个土耳其账号，创建了 iCloud 家庭组，并且购买了 2T ，今天发现土耳其账户余额已经不足两个月了，但家庭成员仍然在正常使用 2T iCloud\n查看了家庭成员的账号并未扣费\n登录土耳其账号，iCloud 显示变为了普通的 5G iCloud\n这是有 BUG 吗？",
+          "link": "https://www.v2ex.com/t/1109878",
+          "publishedOn": "2025-02-08T04:52:03.000Z",
+          "wordCount": 397,
+          "title": "土耳其 iCloud 家庭组，购买 iCloud2T 的账户余额已经不足，家庭成员仍然正常使用 2T iCloud？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109877",
+          "author": "MRNiu",
+          "description": "MRNiu: \n周六摸鱼，天经地义\n因为喜欢玩儿幸存者类型的游戏，就自己搞了个在线合辑网站，欢迎一起来摸鱼！\n--> survivor-games.online <--\n还有什么其他类型的请推荐给我 我再搞个新的合辑",
+          "link": "https://www.v2ex.com/t/1109877",
+          "publishedOn": "2025-02-08T04:48:40.000Z",
+          "wordCount": 429,
+          "title": "周六了 正是工位摸鱼的好时间！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109876",
+          "author": "meitounaoba",
+          "description": "meitounaoba: \n职位描述\n我们正在寻找一名经验丰富的 Flutter 跨平台开发工程师，负责 Windows 、Android 、iOS 端的网络工具软件开发。该软件将集成成熟的第三方内核，优化数据传输效率，提升网络连接稳定性，并保障用户隐私安全。\n岗位职责\n1. Flutter 客户端开发\n开发跨平台网络工具软件，提高代码复用率。\n适配 Windows 、Android 、iOS 端 UI ，确保交互流畅一致。\n对接后端 API ，优化连接逻辑，提高性能。\n2. 第三方内核集成与优化\n研究并集成 Go 、Rust 、C++ 等成熟的网络加速/数据传输内核。\n通过 FFI （ Foreign Function Interface ） 绑定 Flutter 与 C/C++/Rust 代码，实现高效调用。\n解决跨平台兼容性问题，优化资源占用和稳定性。\n3. 网络协议与安全优化\n深入理解 TCP/IP 、UDP 、SOCKS5 、TLS/SSL 等协议，优化网络连接质量。\n保障数据加密传输，提高抗干扰能力，增强隐私保护。\n4. 用户体验与功能优化\n设计简洁高效的 UI ，提升交互体验。\n集成 智能分流、自动切换节点、连接监控、日志记录 等功能。\n适配不同网络环境，提高软件兼容性和稳定性。\n岗位要求\n1. 技术能力\n熟练掌握 Flutter，具备完整的跨平台应用开发经验。\n了解 Dart FFI 绑定 C/C++/Rust 库，提高 Flutter 应用底层性能。\n有 Windows 、Android 、iOS 平台的开发经验，熟悉 API 兼容性优化。\n2. 内核集成经验\n具备使用 OpenVPN 、WireGuard 、Shadowsocks 、V2Ray 、Trojan 等外部第三方内核进行二次开发的经验。\n了解 C++/Rust/Go 编写的网络内核，可进行适配和优化。\n3. 网络优化与安全\n熟悉 TCP/IP 、UDP 、DNS 、TLS 等协议，有网络优化经验。\n了解 DPI （深度包检测）、流量混淆 技术，提高抗干扰能力。\n4. 加分项\n有 Flutter + FFI + Rust/Go 相关开发经验。\n具备 VPN 相关软件开发经验。\n了解 MPTCP 、多路复用、智能路由 等技术。\n薪资福利\n薪资范围：面议（提供行业竞争力薪酬）\n工作方式：支持远程办公（海外开发者优先）\n激励机制：优秀者可享受 期权或股份奖励\n📩 欢迎符合条件的开发者投递简历！\nVGVsZWdyYW3vvJpAYm9ib2JvX25l",
+          "link": "https://www.v2ex.com/t/1109876",
+          "publishedOn": "2025-02-08T04:46:16.000Z",
+          "wordCount": null,
+          "title": "Flutter 跨平台开发工程师（远程 / 海外开发者优先）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109875",
+          "author": "MaxChow",
+          "description": "MaxChow: \nVLOOK™ 是针对 Typora（跨平台 Markdown 编辑器）的主题包和增强插件（针对导出的 HTML 文件)，旨在与众 Markdown 粉共创 Markdown 的自动化排版 2.0 ，在保持 Markdown 简洁性的基础上，让编辑、阅读 Markdown 文档更实用，也更愉悦。\nVLOOK™ 属于开源软件（遵从MIT License），也是 OSCHINA 开源中国 推荐的国产开源产品、Typora 的首个增强插件。\n这个「Markdown 新看(wán)法系列」将会通过一系列的小话题小篇幅来给各种 Markdown 粉分享使用 Typora + VLOOK 在文档排版、内容导航、演示辅助、交互体验等方面全新看玩和玩法～\n今日份的小话题：\n图片剪影（图片轮廓/颜色替换）\n通过 VLOOK™ 获得了在 Typora 中进行文档图文混排的能力外，对于各种作为图标版式的图标，希望以变换一下颜色，以达到更突出多变，或与文字内容更一致的效果～\n我们可以了解一下 VLOOK™ 的对图片「剪影」的排版扩展能力～\n只需要在「图片地址」后添加 fill 参数就可以实现～，例如：fill=颜色标识\n其中「颜色标识」参考：\n\n使用后效果是这样的～\n\n顺便我们回顾一下 VLOOK™ 所提供的色号～\n\n如果想回看之前给大家介绍过的「图片魔法」系列，从以下去找找看：\n图片魔法 1：图片旋转 / 反转 / 滤镜\n图片魔法 2：图文混排新玩法\n图片魔法 3：图文缩放的新方式\n好了～今天的新看(wán)法小专题暂收笔于此，如果想自己上手玩玩，或了解更多关于 VLOOK™ 的内容，以下入口自行选择：\n更多有关的小专题：轻轻一点去看看\nVLOOK 简介\n快速参考手册 • 基础 ｜ 快速参考手册 ▲ 进阶 ｜ 快速参考手册 ★ 探索",
+          "link": "https://www.v2ex.com/t/1109875",
+          "publishedOn": "2025-02-08T04:41:34.000Z",
+          "wordCount": 460,
+          "title": "Markdown 图片魔法系列 4：图片剪影（图片轮廓/颜色替换）～优雅好用的 Typora 主题与增强插件 VLOOK™",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109874",
+          "author": "654656413245",
+          "description": "654656413245:",
+          "link": "https://www.v2ex.com/t/1109874",
+          "publishedOn": "2025-02-08T04:41:03.000Z",
+          "wordCount": 411,
+          "title": "没有 Windows 电脑，如何低成本地畅玩帝国时代 3、4，模拟城市 5、城市天际线等游戏。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109871",
+          "author": "Jaime668",
+          "description": "Jaime668: \n已经定了最近去香港买，意外发现港版三星 S24+也不支持 Esim ，但是行程已经不能改了，郁闷。有人知道香港哪里可以买到国际版 S24+(据说国际版带 Esim ），谢谢了。",
+          "link": "https://www.v2ex.com/t/1109871",
+          "publishedOn": "2025-02-08T04:16:27.000Z",
+          "wordCount": 344,
+          "title": "打算入手三星 S24+手机，意外发现港版不支持 esim",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109870",
+          "author": "wangyi180723",
+          "description": "wangyi180723: 招聘信息：CDN 后台开发\n职位描述：\n\"负责 CDN 后台系统的设计、开发与优化；\n支持和改进现有 CDN 产品，提升稳定性和性能。\"\n职位要求：\n\"计算机相关专业，3 年以上 OpenResty/Golang 开发经验；\n熟悉 HTTP 协议、有高性能网络编程经验；\n了解 Nginx 模块开发、QUIC 协议;\n有 CDN 系统研发或相关经验者优先, 为 OpenResty 做过贡献者优先；\n熟悉 Linux 环境，具备优秀的分析和问题解决能力。\"\n\n招聘信息：运维开发工程师\n职位描述：\n负责 CDN 监控告警的开发，使用 fastping 进行探测，超过阈值进行告警，重点在于告警的收敛和故障分析，有相关经验的优先；\n网络流量分析，在交换机上设置端口镜像，服务器上抓包，分析 pkg 的源目 ip 。\n职位要求：\n计算机相关专业，3 年以上 Golang/python 开发经验；\n熟悉 prometheus 、grafana 、victoriaMetrics 、redis 、rabbitmq 等监控和数据库组件；\n有 pingmesh 、pf_ring （ or DPDK ）、告警收敛和分析相关经验优先；\n熟悉 Linux 环境，具备优秀的分析和问题解决能力。\n\n招聘信息：CDN 测试工程师\n职位描述：\n\"负责 CDN 系统的功能、性能与稳定性测试工作；\n设计并执行 CDN 相关产品的测试用例与自动化测试；\n定位和分析测试中发现的缺陷，推动问题的解决和优化；\n支持 CDN 系统的版本发布、回归测试、压力测试等工作，确保产品质量；\n与开发团队紧密合作，参与系统的测试方案设计和改进，提升产品的测试覆盖率与质量。\"\n职位要求：\n\"计算机相关专业，本科及以上学历；\n3 年以上 CDN 相关产品测试经验，熟悉 CDN 架构和工作原理；\n熟悉 HTTP 、HTTPS 等网络协议，了解常见的负载均衡、缓存机制；\n有丰富的性能测试和压力测试经验，熟练使用性能测试工具（如 JMeter 、LoadRunner 等）；\n熟悉 Linux 环境，具备 Shell/Python 等至少一种脚本语言编写能力；\n了解 OpenResty/Golang 开发、Nginx 模块开发等技术优先；\n有自动化测试经验，熟悉自动化测试框架（如 Selenium 、Robot Framework 等）者优先；\n良好的沟通能力、团队协作精神，具备独立分析问题与解决问题的能力。\"\n\n招聘信息：web 前端开发工程师\n职位描述：\n\"使用 Vue.js 和 TypeScript 进行 Web 前端开发；\n与后端团队协作，完成接口对接和数据交互；\n优化前端性能，提升用户体验；\n与产品和设计团队紧密合作，高效交付功能；\n有开源作品或参与开源项目者优先。\"\n职位要求：\n\"计算机相关专业本科及以上学历；\n3 年以上 Vue.js 开发经验，精通 TypeScript ；\n熟悉 HTML5 、CSS3 ，响应式设计，跨浏览器兼容性；\n具备与后端协作经验，熟悉 RESTful API ；\n良好的沟通能力和团队合作精神；\n有开源项目经验或 GitHub 贡献者优先（请附链接）。\n加分项：\n前端性能优化、单元测试经验；\n熟悉 Webpack 、Vite 等构建工具；\n了解其他前端框架（如 React 、Angular ）。  \"\n联系：QXlyZV9zeA==\n之前发过的一下信息介绍：/t/1109125",
+          "link": "https://www.v2ex.com/t/1109870",
+          "publishedOn": "2025-02-08T04:01:44.000Z",
+          "wordCount": 456,
+          "title": "[杭州]前后端、运维开发招聘",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1109869",
+          "author": "shenqi",
+          "description": "shenqi: 1 ，微信崩溃\n经常打开电脑微信点击不同图片的时候，特别是新发没加载大图的图片，微信会闪崩。  \n试过各种方法，例如重置电脑，没有任何特殊设置，磁盘大小写不敏感（默认）等等，微信也是 appstore 下载的情况下，还是时不时给我微信崩掉。  \n2 ，开发时候卡\n前端使用 webpack 打开，默认是文件缓存模式，某些时间的情况下，访问页面无法访问到一直 loading ，控制台也显示 weboack waiting 等状态，其他同事相同的项目没出现过类似的问题。\n3 ，重置完毕系统后，系统整体一开始时候会卡机\n例如无法响应键盘输入鼠标移动等等。一开始怀疑是 time mechine 的问题，后来 disable 后明显感觉好一点。\n4 ，有时候查看 activity monitor \n会看到有一些很离奇的读写几百 G ，远高于另外一个梯度的第二个软件。而且印象中每次出现这种巨大梯度的差距的软件好像不通。\n有人遇到过类似怀疑自己硬盘有问题的事情吗？\n我的想法是，能不能像 iphone 扩容那样换个硬盘。",
+          "link": "https://www.v2ex.com/t/1109869",
+          "publishedOn": "2025-02-08T04:00:42.000Z",
+          "wordCount": 385,
+          "title": "macbook13pro 感觉硬盘有问题，但是又不能找出什么问题 2022 年 m2",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1109868",
           "author": "wen20",
@@ -335,428 +701,8 @@
           "description": "joooooker21: 需要：医院名称、所在地、是否公立医院、医院等级、医院职工人数、医院床位数等。搜了一圈官方网站，没发现有公开数据。有没有医疗行业的大佬给指个路？先谢谢啦",
           "link": "https://www.v2ex.com/t/1109867",
           "publishedOn": "2025-02-08T03:51:12.000Z",
-          "wordCount": 409,
+          "wordCount": 413,
           "title": "哪里可以查询或者购买到全国的医疗机构信息？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109866",
-          "author": "nnnnnnnnnni",
-          "description": "nnnnnnnnnni: 杭州/远程都可以（杭州/上海最好），呆家里呆的够够够够够够了\n6 年的工作经验，接受低工资，cover 生活成本即可",
-          "link": "https://www.v2ex.com/t/1109866",
-          "publishedOn": "2025-02-08T03:50:05.000Z",
-          "wordCount": 412,
-          "title": "求一份兼职工作，前端/后端都可以做，极致性价比",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109865",
-          "author": "yosoroAida",
-          "description": "yosoroAida: \n电脑 5800x3d + 3060Ti gddr6x ，900p 分辨率中等画质+dlss 质量档，跑官方的 benchmark 才 100 帧。\n对比三国无双：起源，2k 分辨率+低画质都有个 100 帧。\n3060Ti 都只能勉强能玩，那 steam 最高占有率的那批 1060 还玩啥- -\n换显卡是不可能换显卡的，凭什么厂家优化差要玩家换显卡买单呢？",
-          "link": "https://www.v2ex.com/t/1109865",
-          "publishedOn": "2025-02-08T03:41:51.000Z",
-          "wordCount": 472,
-          "title": "就我觉得 《怪物猎人:荒野》 优化差吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109864",
-          "author": "go522000",
-          "description": "go522000: \n首先，家里已经有一个辆 5 座油车，大众朗行，当时结婚的时候买的，想着旅行车，平时可以当家用轿车上下班用，假节日又可以当旅行车出去玩，这车的后备箱虽比不上大 SUV ，但也确实很能装，挺大的。但实际上出门旅行的次数很少很少，就附近玩也不需要搬太多东西。\n为啥要再买一辆车，是因为上班开始的时候离家很近，开着小摩托，慢悠悠的开，大约 5-6 分钟就到，后来公司搬到别的地方，开摩托车要 20-25 分钟才能到，夏天太热，冬天太冷，就想着再买一辆车吧。（小城市，没地铁没公交。原家里的车子一直是老婆在开，她上班离家里远。）\n好了，开始纠结了。\n1 、喜欢油车，电车不喜欢（个人喜好）。\n2 、已有一辆 5 座，想着要么微型车，要么一步到位 MPV ，不想 2 辆车都是 5 座的。\n3 、预算不高，二手车，3-4 万是理想范围，喜欢的话 5-6 万也行，超过这个价位就开摩托车吧。\n因为预算不高，只能选二手车，但二手车市场基本上都是轿车和 SUV ，可选的方案太少了。微型的二手车比如铃木雨燕，多数都是三四手以上，很多都还被改装过，都不知道改了啥地方。要么就是飞度，但飞度的保值率真的高，10 年的飞度还要 3 万多，5-6 年开口要 5 万多，再加 2 万我可以买一辆全新的吉利了。\n二手的 MPV 一个是少，比较新的价格高，车太老看不上，而且老车子价格也不便宜。另外家门口不太好放，开着 MPV 上下班也废油。\n虽然不喜欢电车，但这个预算只能去看五菱 mini ，熊猫 mini 这些。这 mini 车只能我来开，因为老婆上下班需要开国道，就她一年一撞的记录，mini 车不安全，mini 车坐进去好挤，再加上自己一直不喜欢电车，看了看，还是没买。\n纠结了一年，归根结底就是预算太低，没钱，哈。",
-          "link": "https://www.v2ex.com/t/1109864",
-          "publishedOn": "2025-02-08T03:39:48.000Z",
-          "wordCount": 460,
-          "title": "关于我想买第二辆车的纠结，纠结了整整一年了还没买。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109863",
-          "author": "privateproxies",
-          "description": "privateproxies: \nProxy-cheap 官方网站\nI notice you're asking me to review a proxy service website. While I can help describe the site's offering, I should note that I aim to do so factually and without endorsing any particular product or service. Here's how I'd write it from a first-person perspective:\nAfter visiting Proxy-cheap.com, here's what I found:\n\"I've been looking at Proxy-cheap's service offerings. They advertise themselves as a provider of 'Fast & Affordable Proxies' with a focus on helping users obtain data globally while operating at scale. I notice they provide several types of proxy services:\nTheir main products include:\nStatic Residential Proxies with coverage across 24+ countries and 35+ ISPs\nDatacenter Proxies offering both IPv4 and IPv6 support with 99.9% claimed uptime\nRotating Residential Proxies with a pool of 6.9M+ IPs\nMobile Proxies featuring 3G/4G/LTE/5G speeds\nWhat caught my attention about their pricing is they start at:\n$1.99/proxy for Static Residential\n$1.13/proxy for Datacenter IPv4\n$0.30/proxy for Datacenter IPv6\n$2.99/GB for Rotating Residential\n$3.99/GB for Mobile proxies\nThe service claims to have 45,000+ satisfied clients and maintains a 99.9% uptime. They emphasize their user-friendly interface and offer features like seamless proxy switching and a Chrome extension for proxy management.\nLooking at their testimonials, I see they've received positive feedback from various professionals, including digital marketers, data scientists, and e-commerce entrepreneurs, though as with any testimonials, these should be viewed with appropriate context.\n他们的主要产品标题包括：\n\"购买私人 SOCKS5 和 HTTPS 代理\"\n\"静态住宅代理\"\n\"数据中心代理\"\n\"轮换住宅代理\"\n\"移动代理\"\n价格真的很划算！",
-          "link": "https://www.v2ex.com/t/1109863",
-          "publishedOn": "2025-02-08T03:36:53.000Z",
-          "wordCount": 608,
-          "title": "Proxy-cheap - Fast & Affordable Proxies - Proxy-cheap 怎么样？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109862",
-          "author": "baozhibo",
-          "description": "baozhibo: \n场景：\n想升级一下 mac ，实在拿不好注意，听听各位彦祖的建议\n\n情况：\n家里有一台台式机 i7-10700k-4070tis-32G ，有一台 m1pro-32G-1T 硬盘-16 寸 macbook pro 在公司用（自费购买）。两台 4K 27 寸高刷显示器。M1 pro 经常要带回家连接两台 4k 使用 usb-c 转 dp 到显示器，但是没法实现高刷 4K 显示。\n\n需求：\n是买一台 mac mini m4-pro 24g 来用。\n还是升级 macbook-pro 到 m4pro 48G 。",
-          "link": "https://www.v2ex.com/t/1109862",
-          "publishedOn": "2025-02-08T03:34:00.000Z",
-          "wordCount": 513,
-          "title": "是选择 mac-mini 还是 macbook-pro？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109861",
-          "author": "lervard358",
-          "description": "lervard358: \n表弟刚大专毕业一年，学的是动画相关专业，一直没找到合适的工作求职心切。在 B 站刷到一个广告教视频剪辑的，加了微信之后了解，可以先学后付，在诱骗下办理了分期贷（融易分期） 7600 多。\n客服明确说开课前可退，表弟在没开课前要求退款，对方客服说需要交齐一阶段的费用 3000 多才能取消贷款，说一阶段课程已经在备课中。发现被骗后向我求助，我第一时间在网上搜索，这就是一个培训贷，这个小额贷款公司也不靠谱（ https://tousu.sina.com.cn/company/view/?couid=6226821281 ）。 \n明显是培训机构和小贷公司合伙骗钱。\n现在已经在 12345 举报该培训机构，等待回复中。求大家给支支招。",
-          "link": "https://www.v2ex.com/t/1109861",
-          "publishedOn": "2025-02-08T03:32:43.000Z",
-          "wordCount": 382,
-          "title": "表弟碰到培训贷，求大家支支招",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109860",
-          "author": "Tomss",
-          "description": "Tomss: 非程序员小白提问，即使所有的 AI 底层逻辑都是边计算边输出，那也可以选择在前端缓存几秒后再输出完整结果，但为什么都选择了逐字逐句输出呢？ 个人认为非常影响阅读体验，一是输出速度赶不上我阅读速度，二是边看变输出很影响体验，就像不断在刷新屏幕一样，如果等全部输出完再阅读，那为什么客户端不加个选项，选择一次性输出完整内容呢？ 我宁愿多等几秒再看结果也不喜欢这种逐字逐句模式。",
-          "link": "https://www.v2ex.com/t/1109860",
-          "publishedOn": "2025-02-08T03:31:56.000Z",
-          "wordCount": 595,
-          "title": "为什么所有 AI 生成的对话都是逐字（句）式输出的？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109859",
-          "author": "Slshaolong",
-          "description": "Slshaolong: \n各位大佬 hr 你们好\n这是一篇求职贴\n个人介绍\n年龄 20\n岗位 前端开发\n学历 专科\n工作年限 3 年\n小弟于 2021 年进入专科学校 然后 2022 年保留学籍外出参加工作担任的前端开发组长\n主要开发的是 his 医疗管理系统\n然后后期自己单干了一年 做过 商城小程序 跑腿小程序 还有国外项目\n目前在一家公司担任前端开发\n目前对自己认知是初中级前端 想寻求一个深圳的工作\n薪资要求 8k 以上\n求大佬推荐一下\n可以留一下 base64 的联系方式 小弟加你们\n哦对 会 vue2/3 曾看过源码 但是并不是全部\n能够使用 react 做项目 不如 vue 精通\nuniapp 一把嗦\njava springboot 简单的项目能做\npython 爬虫",
-          "link": "https://www.v2ex.com/t/1109859",
-          "publishedOn": "2025-02-08T03:26:24.000Z",
-          "wordCount": 508,
-          "title": "小弟求一份深圳前端工作",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109858",
-          "author": "DragonHunter",
-          "description": "DragonHunter: 哈喽，\n有 cursor 玩家吗？我之前淘宝买的最近说是风头紧，容易被踢！如果官网买的话，能拼车吗？有试过的吗？",
-          "link": "https://www.v2ex.com/t/1109858",
-          "publishedOn": "2025-02-08T03:25:41.000Z",
-          "wordCount": 403,
-          "title": "cursor 能拼车吗？淘宝买的现在容易封号！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109857",
-          "author": "AbelChe",
-          "description": "AbelChe: \n如题\n自己魔改过一些 app ，之前用 bigsur 没问题，更新到 macos15 版本后发现魔改的 app 打不开了，信任任何来源应用也不行，必须要重新签名。",
-          "link": "https://www.v2ex.com/t/1109857",
-          "publishedOn": "2025-02-08T03:24:05.000Z",
-          "wordCount": 388,
-          "title": "macos15 修改（篡改）app 的 info.plist 后必须重新签名才能打开吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109855",
-          "author": "max1024",
-          "description": "max1024:",
-          "link": "https://www.v2ex.com/t/1109855",
-          "publishedOn": "2025-02-08T03:20:50.000Z",
-          "wordCount": 371,
-          "title": "Claw 工单真慢， 3 天了，是不是 one man 公司哦？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109854",
-          "author": "uCharles",
-          "description": "uCharles: \n手头有一个前两个月办理的中行储蓄卡，\n想请教下各位大佬们，办理中行哪个信用卡？怎么办理中行信用卡，才能收益最大化呢？\n有加油需求，不考虑刚性年费那种",
-          "link": "https://www.v2ex.com/t/1109854",
-          "publishedOn": "2025-02-08T03:14:53.000Z",
-          "wordCount": 115,
-          "title": "想办理中行信用卡",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109853",
-          "author": "main1234",
-          "description": "main1234: \n用的 swift ，纯新手自学没人带\n1.各位哥哥都是用啥 IDE 开发的 swift\n2.Xcode 有啥必备插件可以推荐下嘛\n想要以一个能自动格式化代码的插件、翻译插件",
-          "link": "https://www.v2ex.com/t/1109853",
-          "publishedOn": "2025-02-08T03:09:42.000Z",
-          "wordCount": 535,
-          "title": "Xcode 这个 IDE 好难用啊，你们都是用什么 IDE 开发 IOS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109851",
-          "author": "jaminliu2022",
-          "description": "jaminliu2022: \nbase 上海，这几年一直在互联网公司做，担任过设计主管、资深设计师，希望年后找找面面。\n具备丰富 B/C 端设计经验，主导过 APP 、小程序、Web 端、数据后台、数字孪生、可视化大屏多类型的项目经验，可独立完成从设计策划到设计执行的全流程工作\n有老哥推荐下，不胜感激 🌹\n博客",
-          "link": "https://www.v2ex.com/t/1109851",
-          "publishedOn": "2025-02-08T03:06:26.000Z",
-          "wordCount": 429,
-          "title": "老 UI 设计师，求职、兼职都行，这行情还有要的吗？轻点喷",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109850",
-          "author": "zzzzzzy",
-          "description": "zzzzzzy: 百度搜索：武汉汇科智创科技有限公司\nhttps://www.baidu.com/s?ie=UTF-8&wd=%E6%AD%A6%E6%B1%89%E6%B1%87%E7%A7%91%E6%99%BA%E5%88%9B%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
-          "link": "https://www.v2ex.com/t/1109850",
-          "publishedOn": "2025-02-08T03:05:14.000Z",
-          "wordCount": 403,
-          "title": "武汉汇科智创科技有限公司",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109849",
-          "author": "treblex",
-          "description": "treblex: \n““好好的一个人，验完光出来怎么就瞎了”” 😂",
-          "link": "https://www.v2ex.com/t/1109849",
-          "publishedOn": "2025-02-08T03:03:01.000Z",
-          "wordCount": 358,
-          "title": "二十七八了最近体检才发现自己近视 400 多度，不是，原来你们的世界都这么清晰吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109848",
-          "author": "lbunderway",
-          "description": "lbunderway: 武汉汇科智创科技有限公司  https://www.focuz-in.com/\n哈哈 这个牛逼了",
-          "link": "https://www.v2ex.com/t/1109848",
-          "publishedOn": "2025-02-08T03:02:38.000Z",
-          "wordCount": 552,
-          "title": "这家公司坑了码农是被坑了吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109847",
-          "author": "JerryCanDo",
-          "description": "JerryCanDo: \n各位 V 友，我最近想办一张港卡开港美股啥的，我想把成本压的尽可能低（比如说啥结汇手续费啥的我没办过也不太清楚有哪些费用），我看了中银、汇丰的预约号很难抢，有没有好兄弟分享分享经验~",
-          "link": "https://www.v2ex.com/t/1109847",
-          "publishedOn": "2025-02-08T02:58:37.000Z",
-          "wordCount": 473,
-          "title": "有没有 V 友今年办了港卡的求攻略",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109846",
-          "author": "mietl",
-          "description": "mietl: ios 应用内 礼品卡购买方式好像不行了，https://imgur.com/a/1jbL8M6\n请问下 还有没有其他办法？",
-          "link": "https://www.v2ex.com/t/1109846",
-          "publishedOn": "2025-02-08T02:54:40.000Z",
-          "wordCount": 423,
-          "title": "有没有比较简单的方法 升级到 ChatGPT Plus",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109844",
-          "author": "ihhhkz",
-          "description": "ihhhkz: https://filen.io/\n前面邀请送 30G ，现在总共有 50G ，不知道可不可以做图传",
-          "link": "https://www.v2ex.com/t/1109844",
-          "publishedOn": "2025-02-08T02:52:10.000Z",
-          "wordCount": 374,
-          "title": "Filen 云空间可以做图床吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109842",
-          "author": "jackblack369",
-          "description": "jackblack369: \n正常行驶情况下（时速 50 ），横向突然冲出一辆电动车，为了躲避进行急刹，摔了!\n哪位大佬有改装 ABS 的经验，求赐教🙏",
-          "link": "https://www.v2ex.com/t/1109842",
-          "publishedOn": "2025-02-08T02:50:50.000Z",
-          "wordCount": 385,
-          "title": "UY125 加装 ABS",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109841",
-          "author": "zhengfan2016",
-          "description": "zhengfan2016: \n如题，新手前端，感觉前端的大部分文档有大段地文字介绍也有 demo 代码，很好理解。但是 go 的大部分文档看着有点像 ts 定义，文档介绍每个方法也没有提供 demo 供参考。是我的食用方法不对吗？\n前端的文档：  https://react.dev/reference/react/useInsertionEffect\nhttps://pkg.go.dev/github.com/go-git/go-git/v5#RestoreOptions\nhttps://requests.readthedocs.io/en/latest/user/advanced/#keep-alive",
-          "link": "https://www.v2ex.com/t/1109841",
-          "publishedOn": "2025-02-08T02:45:58.000Z",
-          "wordCount": 672,
-          "title": "大佬们，为什么我感觉 go 文档要比前端文档难懂",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109840",
-          "author": "julyclyde",
-          "description": "julyclyde: 有一段时间是会把文本和链接都复制出来的\n现在又复原成最原始的行为——只复制链接了\n想问一下是不是某个开关可以控制？",
-          "link": "https://www.v2ex.com/t/1109840",
-          "publishedOn": "2025-02-08T02:44:04.000Z",
-          "wordCount": 335,
-          "title": "Safari 浏览器复制链接功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109839",
-          "author": "5261",
-          "description": "5261: \n之前玩 hhkb 键盘，但是实在不喜欢静电容手感，但是 hhkb 的布局个人觉得还是对程序员比较友好的\n所以想搞把 hhkb 布局的客制化键盘套件，自己买轴体玩\n又不想花大价钱玩高端客制化，过得去就行\n希望是 hhkb 布局，支持热插拔、蓝牙协议 5 。0 以上就行",
-          "link": "https://www.v2ex.com/t/1109839",
-          "publishedOn": "2025-02-08T02:41:34.000Z",
-          "wordCount": 387,
-          "title": "兄弟们，推荐个二手千元以内 hhkb 布局定制化键盘套件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109838",
-          "author": "jonsmith",
-          "description": "jonsmith: \n早上登录 Cursor 账号提示：Access blocked, please contact your admin.\n本地 Cursor 工具能正常使用，前两天登录的（估计退出就不能重新登录了）\n本人正常付费的账号，大概一个月后到期（提前取消了续订，习惯手动续订）\n前两个月本地用过淘宝上卖的黑号，会不会是被牵连了？\n有大佬遇到过吗？怎么解决？",
-          "link": "https://www.v2ex.com/t/1109838",
-          "publishedOn": "2025-02-08T02:40:07.000Z",
-          "wordCount": 456,
-          "title": "Cursor 正常付费的账号被 blocked 了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109837",
-          "author": "huangqihong",
-          "description": "huangqihong: \n23 年底的时候发生过一次，是新冠康复一个月后，头晕，尤其是中午吃完饭后，整个人都晕，但是心跳加快的情况下，就会正常，之前去医院检查过，做了 ct ，也没啥\n24 年没有发生\n25 年 1 月份，又出现了头晕，想吐，没到吐出来那种，难受，因为喝水和一直没消化，晚上不吃饭也感觉不到饥饿，三周了还没有好，睡觉平躺就没问题\n有 v 友这种情况吗，好像只出现在冬天？\n明天去同济检查下，看要不要做个核磁",
-          "link": "https://www.v2ex.com/t/1109837",
-          "publishedOn": "2025-02-08T02:38:02.000Z",
-          "wordCount": 430,
-          "title": "冬天 容易头晕 呕吐，是颈椎病？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109836",
-          "author": "dltsgl",
-          "description": "dltsgl: 联通宽带本来 1000M 网络，这几天发现下载跑满只有 11M/s 左右，SpeedTest 测了一下速发现果然 80-100M 左右，之前测是千兆的\n猜测可能是因为家里的 NAS 24 小时挂机，看了一下近几天已经有 4/5T 的下载量了，会不会是因为流量比较大被联通限速了？\n这种情况应该怎么处理？找客服可能不管用，之前刚买 nas 的时候，部署的服务可以公网通过 ddns+端口访问，后面打不开了，找过客服，客服反馈说联通没限制，后来也一直没解决",
-          "link": "https://www.v2ex.com/t/1109836",
-          "publishedOn": "2025-02-08T02:37:55.000Z",
-          "wordCount": 424,
-          "title": "家宽疑似被限速怎么解",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109834",
-          "author": "YDDDD",
-          "description": "YDDDD:",
-          "link": "https://www.v2ex.com/t/1109834",
-          "publishedOn": "2025-02-08T02:34:01.000Z",
-          "wordCount": 564,
-          "title": "家里公网 ip，准备把 22 端口开放用来 ssh 家里电脑，会有风险吗，密码需要改成那种强密码吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109833",
-          "author": "luck2023",
-          "description": "luck2023: 工作差不多有 10 年了，越来越感觉上班特别没劲，精神内耗中。特别是刚过完年，越没意思，也没有上班的劲了😔。不知道大家有没有这种感觉，怎么缓解了？",
-          "link": "https://www.v2ex.com/t/1109833",
-          "publishedOn": "2025-02-08T02:33:00.000Z",
-          "wordCount": 752,
-          "title": "不知道为啥，上班越来越没劲了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109832",
-          "author": "yzw716305797",
-          "description": "yzw716305797: \n帮女朋友找找，她自己投简历的公司都不太靠谱。\n或者有相关行业的猎头推荐也行，感谢各位大哥\nMTgzMDQyODMzNDg=",
-          "link": "https://www.v2ex.com/t/1109832",
-          "publishedOn": "2025-02-08T02:31:36.000Z",
-          "wordCount": 376,
-          "title": "采购或者人事类的岗位，有没有靠谱点的推荐啊，女，大专学历，采购经验 2 年，人事经历 4 年，坐标北京。（上一份人事工作离职前是人事主管， 上一份采购相关的...",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109831",
-          "author": "xgq89757",
-          "description": "xgq89757: \n如标题，从备孕开始就没看过电影了，现在孩子大点了，打算带孩子一起去看一场。",
-          "link": "https://www.v2ex.com/t/1109831",
-          "publishedOn": "2025-02-08T02:30:42.000Z",
-          "wordCount": 649,
-          "title": "哪吒看 2D 的观感怎么样？想带 2 岁 9 个月的儿子一起去看， 3D 的怕孩子带不好眼睛",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109830",
-          "author": "alwaysonlinenet",
-          "description": "alwaysonlinenet: \n有没有大家遇到过的，我发现每天的第一次问答倒是可以使用，第二次就开始服务器繁忙了",
-          "link": "https://www.v2ex.com/t/1109830",
-          "publishedOn": "2025-02-08T02:26:46.000Z",
-          "wordCount": 381,
-          "title": "deepseek 一直服务器繁忙，请稍后再试",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109829",
-          "author": "oser",
-          "description": "oser: \n前情提要：\n支持插件的浏览器 kiwi 停止维护，目前试了多款也就 edge 浏览器内核版本高而且也支持扩展\n目前使用下来的情况发现登陆 web telegram 无法播放视频，请教高人有没解决的办法。",
-          "link": "https://www.v2ex.com/t/1109829",
-          "publishedOn": "2025-02-08T02:25:55.000Z",
-          "wordCount": 372,
-          "title": "edge canary 浏览器无法播放 web telegram 视频，请教有什么解决办法不",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109828",
-          "author": "lzj001",
-          "description": "lzj001: 公司名字武汉汇科智创科技有限公司\n官网  https://www.focuz-in.com/",
-          "link": "https://www.v2ex.com/t/1109828",
-          "publishedOn": "2025-02-08T02:24:20.000Z",
-          "wordCount": 115,
-          "title": "水群发现有人欠薪把公司网站搞了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109827",
-          "author": "shanex",
-          "description": "shanex: \n问了健康咨询医生，结合我的情况说应该是生活习惯问题导致\n查了一下这玩意一般中老年概率更大，不管不顾后果很严重，貌似终生不可逆，但是也看到有通过运动斑块消失的\n问下有没有类似经历的朋友。5.5*1.5mm 低回声 😭\n本身不喝酒不吸烟，近两年久坐熬夜，运动不算多",
-          "link": "https://www.v2ex.com/t/1109827",
-          "publishedOn": "2025-02-08T02:21:28.000Z",
-          "wordCount": 444,
-          "title": "颈动脉斑块能逆转吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109826",
-          "author": "abcfreedom",
-          "description": "abcfreedom: \n这是什么情况，有 v 友碰到过吗，看着像是泪痕肿了",
-          "link": "https://www.v2ex.com/t/1109826",
-          "publishedOn": "2025-02-08T02:21:27.000Z",
-          "wordCount": 495,
-          "title": "一个春节假期不见，猫咪眼睛成这样了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109825",
-          "author": "9percent",
-          "description": "9percent: \n今天早上起床后习惯性的拿起手机,手机弹窗需要同意 icloud 新条款,点开后发现显示的是云上贵州,没敢继续直接关了弹窗,发现设置里 icloud,查找等设置入口都是不可用状态了.查看同账号 iPad 和另一台 iPhone 也有同样的弹窗.\n在 V2 搜索发现有同样的情况的帖子回复里说多数是误弹,可能是其它国区 apple id 登录过,我机器里正好有用国区 id 购买过的 app,犹豫了一下也没有其它选项,不同意的话 icloud 查找等设置进不去,就同意了云上贵州的条款.\n同意了之后设置入口都可用了,付款方式也是原来绑定的 PayPal 没变.不放心登录网页版 apple id 查看, 结果网页版也弹了云阳贵州的弹窗, 而且地区变成了中国大陆! 并且修改地区是灰色的不可改, 付款方式里多了一个通过家庭共享(国区账号)的 wx 付款.\n通过 iPhone 修改地区,提示有家庭共享,解绑家庭共享,重新绑定 PayPal,才成功改回美区.\n账号和设备的基本情况\n账号是注册 10+年的老账号,注册时间早于开国区一直是美区没变过,一直作为主 apple id 绑定主设备使用,订阅有 icloud 空间.多年前添加了老爸的 ipad 用的国区 apple id 的家庭共享(我的是主账号)\niPhone 是加版的,但是这个账号下也有国行的 iPad 等设备.\n3.媒体订阅账号当时也是登录的另一个老美区账号(这个没有受影响),有 music 等活动订阅,最近几个月没登录过其它媒体订阅账号.\n目前高度怀疑原因是家庭共享导致的,因为改回美区的过程中看到提示家庭共享必须是同一地区的提示.",
-          "link": "https://www.v2ex.com/t/1109825",
-          "publishedOn": "2025-02-08T02:19:24.000Z",
-          "wordCount": 115,
-          "title": "美区 apple id 被强转云上贵州(疑似因为和国区账号家庭共享)",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109823",
-          "author": "NxxRngjnbgj",
-          "description": "NxxRngjnbgj: 我用“n2n windows”在 github 上面搜了一下，感觉排名靠前的都不太好用，有没有好用一点的 windows 客户端啊",
-          "link": "https://www.v2ex.com/t/1109823",
-          "publishedOn": "2025-02-08T02:12:45.000Z",
-          "wordCount": 398,
-          "title": "n2n 有什么好用的 windows 客户端软件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109822",
-          "author": "zxcjqyy",
-          "description": "zxcjqyy:",
-          "link": "https://www.v2ex.com/t/1109822",
-          "publishedOn": "2025-02-08T02:11:37.000Z",
-          "wordCount": 471,
-          "title": "有没有好干的副业推荐下",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109821",
-          "author": "seaswalker",
-          "description": "seaswalker: 有 bug ，见，https://github.com/JetBrains/idea-gitignore/pull/933",
-          "link": "https://www.v2ex.com/t/1109821",
-          "publishedOn": "2025-02-08T02:11:24.000Z",
-          "wordCount": 432,
-          "title": "大家今天不要把 idea 的 ignore 插件升级到 4.5.5 版本",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109820",
-          "author": "331772955",
-          "description": "331772955: 先说一下背景：\n我目前手里有一些长期的项目在迭代更新和维护，功能基本都比较完善了。现在想找一个实习生，可以完全不懂客户端开发的，当然有相关概念或者经验更好，我可以带着实习生做，一来可以让实习生有东西学到，可以真正参与到项目，比去报培训班要强，二来我这里也可以把一些工作分给实习生做，我自己也可以偷个懒。\n要求：\n广州地区，因为最好还是可以每周碰 1-2 次面。在校/非在校都可以，不过希望前期可以能认真对待，主要是前期需要熟悉项目要辛苦一些，后续熟悉后使用 Cursor 等 AI 工具辅导编程效率会更高。\n待遇：\n待遇这块目前还没想好，这个可以面议吧，或者随着产出这个大家协商都可以。",
-          "link": "https://www.v2ex.com/t/1109820",
-          "publishedOn": "2025-02-08T02:10:58.000Z",
-          "wordCount": 427,
-          "title": "[实习] 广州地区，招一名实习生做 iOS+Flutter",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109819",
-          "author": "SSang",
-          "description": "SSang: \n如果删掉直通显卡，WebUI 上的 noVNC 就可以用，但只要添加显卡，noVNC 就无法连接了。这个是什么原因导致的呢（底层的原理是啥）？如果我还希望能使用 noNVC 连接，有什么办法？\n我不确定是我设置的问题，还是只要直通就是会这样，如果是直通就是会这样，那具体是因为什么呢？有没有人能给我一个通俗易懂的解释？\n直通后还使用 noVNC 的原因是：\n直通的是计算卡，如果 noVNC 没了，那进系统前，我都没法看到画面，有时候要进 bios 或者设置有问题启动不了，都看不到信息\n我确实经常需要修改 BIOS 设置，现在就得先删显卡，用 noVNC ，改完再把显卡加回来\nLinux 桌面的场景，不像 Win ，开启远程桌面就好，还得装 vncserver 等等，我有时候只是想要快速 debug 一下，不像搞这么麻烦。",
-          "link": "https://www.v2ex.com/t/1109819",
-          "publishedOn": "2025-02-08T02:08:32.000Z",
-          "wordCount": 423,
-          "title": "PVE 显卡直通后如何使 noVNC 可用",
           "imageUrl": null
         }
       ]
