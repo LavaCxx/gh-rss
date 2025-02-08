@@ -191,33 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -315,7 +288,7 @@
           "description": "johndududu: 最后三个 100 个都发完没 没办法再生成了 \n没抢到码的可以免费订阅可以免费体验三天哦\nP7X7XT6PRRM7\nM4WLA9LWH6WX\nWF374W66N6JL\n订阅源说明: https://nicetv.lol/t \n下载地址: https://apps.apple.com/us/app/nicetv-live-tv-movies/id6642658825",
           "link": "https://www.v2ex.com/t/1110007",
           "publishedOn": "2025-02-08T12:57:08.000Z",
-          "wordCount": 347,
+          "wordCount": 349,
           "title": "又来发码了 tvOS / iOS 通用",
           "imageUrl": null
         },
@@ -325,7 +298,7 @@
           "description": "SummerOrange: \n最近在搞跨境，翻译图片总是要花钱，趁过年肝了一个图片翻译的工具。\nwww.kjtool.cn",
           "link": "https://www.v2ex.com/t/1110005",
           "publishedOn": "2025-02-08T12:50:31.000Z",
-          "wordCount": 362,
+          "wordCount": 366,
           "title": "肝了一个图片翻译的工具，大家看看",
           "imageUrl": null
         },
@@ -335,7 +308,7 @@
           "description": "eccstartup: \n现在会员费一年接近 1000 了，免费版只支持 40 分钟，教育版也不单独出售。之前还买过会员，现在开始寻求平替了。\n佬们有什么好的建议吗？",
           "link": "https://www.v2ex.com/t/1110004",
           "publishedOn": "2025-02-08T12:45:19.000Z",
-          "wordCount": 394,
+          "wordCount": 445,
           "title": "老生常谈，腾讯会议的平替有什么？",
           "imageUrl": null
         },
@@ -345,7 +318,7 @@
           "description": "zbowen66: 主板是 Micro-Star MAG B660M MORTAR ，系统是 unraid 7.0\n刚才问了 AI ，说可以通过 USB Ethernet Gadget 实现，又是加参数又是重启的，我好像没有听过有人讨论这个，怕它胡说把系统搞挂了，有没有用过的老哥说说实际体验。",
           "link": "https://www.v2ex.com/t/1110003",
           "publishedOn": "2025-02-08T12:45:03.000Z",
-          "wordCount": 383,
+          "wordCount": 385,
           "title": "主板上有一个 20Gbps 的 Type-C 插槽，能连接 MacBook 的 Type-C 当网线用吗？",
           "imageUrl": null
         },
@@ -355,7 +328,7 @@
           "description": "sr004x: 主要是低月租，没有通话和短信需求（哑巴卡），最好是长期的（ 2 年以上有效，保持 9 元/月），不要那种只有前 6 个月或者前 3 个月有效后续就涨成 19 或者 29 的。\n如果没有 30G 以上的，一般 10 元以内能有多少流量呢？",
           "link": "https://www.v2ex.com/t/1110002",
           "publishedOn": "2025-02-08T12:44:50.000Z",
-          "wordCount": 390,
+          "wordCount": 450,
           "title": "有没有月租在 10 元以内，大概能有 30G 以上的流量卡？",
           "imageUrl": null
         },
@@ -365,7 +338,7 @@
           "description": "abcfreedom: \n手上有一张 ultramobile 美卡，每月 3 刀月租太贵了，听说 giffgaff 无月租，这卡好用吗，能绑定国外各种 app 吗",
           "link": "https://www.v2ex.com/t/1110001",
           "publishedOn": "2025-02-08T12:28:40.000Z",
-          "wordCount": 347,
+          "wordCount": 349,
           "title": "giffgaff 和 ultramobile 有什么区别",
           "imageUrl": null
         },
@@ -375,7 +348,7 @@
           "description": "kyonn: \n下面的想法前提是大部分电器不能直接用小爱音响创建定时任务，当然说直接根据当前时间，反算下时间，用电器的本地定时功能也能达到目的。但是比较麻烦，没办法做到统一的定时，有些电器是设置完成时间，有些电器是设置开始时间。\n想基于峰谷电时间做一个晚上 10 点洗衣服，洗碗等等错峰的功能。初步想法是操作终端设备时，利用开机、关机触发虚拟事件，在 nodered/n8n 或 home assitant 中记录这些事件（第一步）。\n第二步利用外部的开关，比如小米的无线开关（当然也可以用小爱同学）触发一次峰谷电任务，触发这个任务后去查询最近 5 分钟内是否有上面的虚拟事件产生，如果有，就创建一些定时任务，比如 22:00 点发送指令给洗衣机开始洗衣服。\n为什么一定要有第二步，而不是第一步直接创建定时任务？因为开关机这些操作不代表一定要启动峰谷电任务。\n现在的问题是，如何记录前面的虚拟事件比较方便？能方便让 ndoered 或者 n8n 这些自动化平台创建或记录事件，并且在后续的按键按下后查询前面记录的事件？\n比较简单的是创建个文件？然后去查文件创建时间？不知道有没有更优雅的方式？",
           "link": "https://www.v2ex.com/t/1110000",
           "publishedOn": "2025-02-08T12:24:18.000Z",
-          "wordCount": 397,
+          "wordCount": 401,
           "title": "集思广益，有什么基于 nodered/n8n 的轻量记录事件方法？",
           "imageUrl": null
         },
@@ -385,7 +358,7 @@
           "description": "kikoroc: \n在家里办公了一天，手脚冰凉，这两天真是冷啊，出去转一圈吧，这是这几天生活的一个写照。\n当冷的时候看一切事物都是冷的，当内心怯懦的时候任何事情可能都无法应对吧。\n半走半跑大概半小时手脚就开始热了，此时内心的想法翻涌起来，我想做这，我想做那，看着周围明亮的广告牌也产生了一些兴趣，也会想想这可能又是一个热血的品牌故事。\n和大多数人一样，一年到头回县城的日子非常少，当下的县城就是这样吧，人来人往，店铺也是，灯火通明，关店开张。\n有机会也应该多出去走走看看，听听更多的故事，了解更多的品牌，走着走着也许内心的火苗就起来了。\n也应该多回县城待待，多看看这里的灯火通明，多听听这里的家常理短。",
           "link": "https://www.v2ex.com/t/1109999",
           "publishedOn": "2025-02-08T12:21:29.000Z",
-          "wordCount": 364,
+          "wordCount": 368,
           "title": "小县城的冬天",
           "imageUrl": null
         },
@@ -395,7 +368,7 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 539,
+          "wordCount": 586,
           "title": "如何看待 M4 Mac mini 侠",
           "imageUrl": null
         },
@@ -425,7 +398,7 @@
           "description": "zhangtw2024: 75 一年一个家庭位 翻车退余额联系\n电报 t.me/danjang02\n邮箱 nataliereed720@gmail.com",
           "link": "https://www.v2ex.com/t/1109991",
           "publishedOn": "2025-02-08T11:15:07.000Z",
-          "wordCount": 359,
+          "wordCount": 372,
           "title": "youtube premium 尼区开车，速来！",
           "imageUrl": null
         },
@@ -435,7 +408,7 @@
           "description": "henix: \n场景：做视频加字幕（中文，不需要翻译），希望先自动出个字幕，然后人工校对\n可接受付费，最好付给不会跑路的大厂\n尝试过：\n1. 本地跑 openai-whipser\n本地跑 Python ，比较慢\n识别中文的时候，时间戳只能精确到 1 秒，而不是 0.1 秒（明明识别日语的时候都可以精确到 0.1 秒），导致字幕展示时间不精确，不能用\n2. 剪映字幕识别\n需要剪映 SVIP ，每月有免费额度\n断开的位置经常在一句话的中间，但我希望一个完整的意思作为一条字幕，需要后期人工修正时间轴\n3. 腾讯云录音文件识别 https://cloud.tencent.com/document/product/1093/37823\n单句太长，20 多秒中间没有任何断句，作为字幕不可行",
           "link": "https://www.v2ex.com/t/1109990",
           "publishedOn": "2025-02-08T11:10:27.000Z",
-          "wordCount": 447,
+          "wordCount": 463,
           "title": "有哪些时间戳比较准确的语音转字幕服务？",
           "imageUrl": null
         },
@@ -445,7 +418,7 @@
           "description": "HarperLucky: \n小时候特别喜欢看动画片《宠物小精灵》，就在年前找到一个契机，花了些时间开发了这个「宝可梦神奇之旅」的小游戏网站，也算是实现了小时候的一个小心愿吧。\n游戏玩法很简单，也很怀旧，就是回合制战斗，你打我一下，我打你一下，如果赢了，那么恭喜你，你收服了这个宝可梦，如果输了，没关系，换一个宝可梦重新再来。\n网站一共收录了 1280 个宝可梦，游戏宗旨是：只要战斗经验足够丰富，任何一个宝可梦都能够战胜比自己强大的对手！所以，只需要通过不断战斗，积累等级和血量，宝可梦就能所向披靡。\n欢迎来玩呀～\n网址： https://pokemonjourneytogether.com/zh",
           "link": "https://www.v2ex.com/t/1109989",
           "publishedOn": "2025-02-08T11:06:02.000Z",
-          "wordCount": 392,
+          "wordCount": 394,
           "title": "基本实现了小时候的心愿，开发了一个收服宝可梦的小游戏！",
           "imageUrl": null
         },
@@ -455,7 +428,7 @@
           "description": "royzxq: \n以及猫眼偷跑票房已经来到了 $1B 大关，前无古人。\n \n这就是人民的选择，你有不喜欢的权利，人民也有选择自己喜欢的事物的权利。\n真心可以换来真心，不管是流浪地球、黑神话、哪吒 2 均是如此。主创用心制作的内容，朴素的人民自会买单。",
           "link": "https://www.v2ex.com/t/1109988",
           "publishedOn": "2025-02-08T11:05:01.000Z",
-          "wordCount": 496,
+          "wordCount": 498,
           "title": "祝贺哪吒 2 登顶全球影史单一市场票房冠军",
           "imageUrl": null
         },
@@ -495,7 +468,7 @@
           "description": "CodeAllen: \nrt ，看到国家超算互联网平台页面上有不少算力挺高的产品，这个跟常见的云平台有什么区别？都是信创的纯国产设备吗？看起来像个国家单位机构，有人用过吗",
           "link": "https://www.v2ex.com/t/1109980",
           "publishedOn": "2025-02-08T10:17:07.000Z",
-          "wordCount": 443,
+          "wordCount": 467,
           "title": "国家超算互联网平台 跟公有云有什么区别？",
           "imageUrl": null
         },
@@ -505,7 +478,7 @@
           "description": "sikuu2al: \n求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了\n每次坐高铁匹到小孩头都大了",
           "link": "https://www.v2ex.com/t/1109979",
           "publishedOn": "2025-02-08T10:14:28.000Z",
-          "wordCount": 565,
+          "wordCount": 587,
           "title": "v 站有没有人大，能不能建议一下带小孩坐高铁的单独一个车厢",
           "imageUrl": null
         },
@@ -525,7 +498,7 @@
           "description": "flashy123: 25 岁男生, 工作在上海, 每周五回南京（ 300km 左右）, 月收入 2w 左右, 无房贷, 手里有 20 个, 能全款我想尽量全款。 平时除了回家, 也就带父母去南京周边转转。\n人生第一辆车, 比较关注:\n1. 容易上手, 驾照是自动挡,没摸过方向盘\n2. 安全性高, 车辆稳定性好\n3. 纯电貌似也合适 续航够用, 但是不知道后面维护成本、电池寿命等会不会有问题\n目前也在看一些, 好像有点偏爱 byd 汉\n油电混: 零跑 c11, 汉 dmi\n纯电: 智己 l6, 汉 ev\n油车: 没了解, 有 v 友推荐 合适也可以考虑",
           "link": "https://www.v2ex.com/t/1109977",
           "publishedOn": "2025-02-08T09:52:49.000Z",
-          "wordCount": 437,
+          "wordCount": 439,
           "title": "2025 年 v 友们推荐个家用车, 人生第一辆！",
           "imageUrl": null
         },
@@ -555,7 +528,7 @@
           "description": "AOK123: 家里有 homepod 和一些别的 airplay 音响。\n用 homepod 好处就是想听歌的时候直接喊 siri 就好了，但是 siri 只会在 homepod 上播放（似乎并不通过手机，而是直接在 homepod 上播放）。\n在这种情况下如何让它自动同步所有 airplay 音响？\n我目前的方案就是设置了个快捷指令，在手机上 airplay 到所有音响，然后再通过手机播放音乐，但感觉还是有点麻烦。",
           "link": "https://www.v2ex.com/t/1109971",
           "publishedOn": "2025-02-08T09:39:31.000Z",
-          "wordCount": 395,
+          "wordCount": 406,
           "title": "怎么自动 airplay 到非 homepod 音响？",
           "imageUrl": null
         },
@@ -575,7 +548,7 @@
           "description": "jackrzhang: \n我父母白天帮忙带娃,跟老婆商量好一个月给我妈转 2000 块,名义是买菜钱.结果长辈收了两次再也不收.\n现在是我妈的态度是:有退休工资,不收我们钱.而且收了钱还想办法通过其他名义塞回给我们.\n我老婆态度:带娃辛苦,不说孝敬父母,起码吃饭的食材付出一些.\n各位跟父母住一起算钱吗?",
           "link": "https://www.v2ex.com/t/1109969",
           "publishedOn": "2025-02-08T09:34:32.000Z",
-          "wordCount": 466,
+          "wordCount": 492,
           "title": "父母帮忙带娃,给长辈钱吗",
           "imageUrl": null
         },
@@ -655,7 +628,7 @@
           "description": "3059349417:",
           "link": "https://www.v2ex.com/t/1109958",
           "publishedOn": "2025-02-08T09:03:41.000Z",
-          "wordCount": 422,
+          "wordCount": 432,
           "title": "失业半年，怎么停止焦虑获得安全感？",
           "imageUrl": null
         }
