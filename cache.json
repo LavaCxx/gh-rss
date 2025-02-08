@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,33 +193,6 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -335,7 +314,7 @@
           "description": "eccstartup: \n现在会员费一年接近 1000 了，免费版只支持 40 分钟，教育版也不单独出售。之前还买过会员，现在开始寻求平替了。\n佬们有什么好的建议吗？",
           "link": "https://www.v2ex.com/t/1110004",
           "publishedOn": "2025-02-08T12:45:19.000Z",
-          "wordCount": 461,
+          "wordCount": 470,
           "title": "老生常谈，腾讯会议的平替有什么？",
           "imageUrl": null
         },
@@ -365,7 +344,7 @@
           "description": "abcfreedom: \n手上有一张 ultramobile 美卡，每月 3 刀月租太贵了，听说 giffgaff 无月租，这卡好用吗，能绑定国外各种 app 吗",
           "link": "https://www.v2ex.com/t/1110001",
           "publishedOn": "2025-02-08T12:28:40.000Z",
-          "wordCount": 372,
+          "wordCount": 374,
           "title": "giffgaff 和 ultramobile 有什么区别",
           "imageUrl": null
         },
@@ -395,7 +374,7 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 596,
+          "wordCount": 631,
           "title": "如何看待 M4 Mac mini 侠",
           "imageUrl": null
         },
@@ -425,7 +404,7 @@
           "description": "zhangtw2024: 75 一年一个家庭位 翻车退余额联系\n电报 t.me/danjang02\n邮箱 nataliereed720@gmail.com",
           "link": "https://www.v2ex.com/t/1109991",
           "publishedOn": "2025-02-08T11:15:07.000Z",
-          "wordCount": 376,
+          "wordCount": 115,
           "title": "youtube premium 尼区开车，速来！",
           "imageUrl": null
         },
@@ -435,7 +414,7 @@
           "description": "henix: \n场景：做视频加字幕（中文，不需要翻译），希望先自动出个字幕，然后人工校对\n可接受付费，最好付给不会跑路的大厂\n尝试过：\n1. 本地跑 openai-whipser\n本地跑 Python ，比较慢\n识别中文的时候，时间戳只能精确到 1 秒，而不是 0.1 秒（明明识别日语的时候都可以精确到 0.1 秒），导致字幕展示时间不精确，不能用\n2. 剪映字幕识别\n需要剪映 SVIP ，每月有免费额度\n断开的位置经常在一句话的中间，但我希望一个完整的意思作为一条字幕，需要后期人工修正时间轴\n3. 腾讯云录音文件识别 https://cloud.tencent.com/document/product/1093/37823\n单句太长，20 多秒中间没有任何断句，作为字幕不可行",
           "link": "https://www.v2ex.com/t/1109990",
           "publishedOn": "2025-02-08T11:10:27.000Z",
-          "wordCount": 487,
+          "wordCount": 489,
           "title": "有哪些时间戳比较准确的语音转字幕服务？",
           "imageUrl": null
         },
@@ -445,7 +424,7 @@
           "description": "HarperLucky: \n小时候特别喜欢看动画片《宠物小精灵》，就在年前找到一个契机，花了些时间开发了这个「宝可梦神奇之旅」的小游戏网站，也算是实现了小时候的一个小心愿吧。\n游戏玩法很简单，也很怀旧，就是回合制战斗，你打我一下，我打你一下，如果赢了，那么恭喜你，你收服了这个宝可梦，如果输了，没关系，换一个宝可梦重新再来。\n网站一共收录了 1280 个宝可梦，游戏宗旨是：只要战斗经验足够丰富，任何一个宝可梦都能够战胜比自己强大的对手！所以，只需要通过不断战斗，积累等级和血量，宝可梦就能所向披靡。\n欢迎来玩呀～\n网址： https://pokemonjourneytogether.com/zh",
           "link": "https://www.v2ex.com/t/1109989",
           "publishedOn": "2025-02-08T11:06:02.000Z",
-          "wordCount": 425,
+          "wordCount": 438,
           "title": "基本实现了小时候的心愿，开发了一个收服宝可梦的小游戏！",
           "imageUrl": null
         },
@@ -505,7 +484,7 @@
           "description": "sikuu2al: \n求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了求你了\n每次坐高铁匹到小孩头都大了",
           "link": "https://www.v2ex.com/t/1109979",
           "publishedOn": "2025-02-08T10:14:28.000Z",
-          "wordCount": 607,
+          "wordCount": 609,
           "title": "v 站有没有人大，能不能建议一下带小孩坐高铁的单独一个车厢",
           "imageUrl": null
         },
