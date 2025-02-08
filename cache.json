@@ -197,6 +197,33 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -374,7 +401,7 @@
           "description": "weishao666: \n背景，父母一个月可能来住个一两天，家里有两台电视，但是我不看，所以没有机顶盒。父母习惯看央视和本地卫视的直播节目，但现在的智能电视开机就是各种会员墙，连传统电视台都搜不到。尝试过影视仓，不大稳定。\n想请教各位 V 友：\n免费且稳定的直播方案有么？听说有 DTMB 地面波、IPTV 源、开源直播软件，哪种更适合普通用户？\n是否需要外接设备（如电视盒子）？如果有推荐型号更好（预算 200 以内）。\n是否有无需折腾硬件的软件方案？比如通过 TV 版 App 或浏览器直接访问直播源？\n如果自己搭建直播源服务器，复杂度和维护成本如何？\n希望方案能兼顾「父母易用性」和「长期稳定性」，感谢！",
           "link": "https://www.v2ex.com/t/1110029",
           "publishedOn": "2025-02-08T15:42:24.000Z",
-          "wordCount": 443,
+          "wordCount": 450,
           "title": "如何在长辈来的几天让电视免费收看央视及地方卫视直播频道？求优雅方案",
           "imageUrl": null
         },
@@ -384,7 +411,7 @@
           "description": "zuotun: 想在家里放一个机柜，至少 800 深但是感觉还是需要 1000 ，高度倒是不必 42 但是至少也要 22 或者 32 了，不然都不好买。\n由于是自用所以希望质量好一点的同时价格也能接受，年前华腾满 200 减 30 没买，现在有满 300 减 40 所以又看了一下，42 到手 1300 不到。\n有什么推荐的型号吗，价格感觉在一千以内都能接受，因为一个机箱也这个价了。\n最低配置 22U 800 深，但是感觉 1000 深更好。\n另外导轨好贵啊，大家都是怎么固定的？",
           "link": "https://www.v2ex.com/t/1110028",
           "publishedOn": "2025-02-08T15:23:38.000Z",
-          "wordCount": 417,
+          "wordCount": 430,
           "title": "家庭自用机柜选什么？",
           "imageUrl": null
         },
@@ -504,7 +531,7 @@
           "description": "ciaochaos: \n在 github.com/latentcat/graphpu 后，第二次用 Rust + wgpu 写项目，制作了一个 iOS / Windows / macOS 的跨端音画互动 app 。\n用 wgpu 解决了跨平台渲染的难题，可以呈现丰富的粒子效果，同时使用 Rust 实时合成声音，在 iOS 上支持后台播放、小组件、Haptic Feedback ，在电脑端支持设为动态屏幕壁纸！\n写了 4000 字详细介绍 + 创作历程，欢迎阅读！latentcat.com/zh-cn/blog/building-aelbum\n官网\nApp Store\nSteam",
           "link": "https://www.v2ex.com/t/1110012",
           "publishedOn": "2025-02-08T13:42:23.000Z",
-          "wordCount": 441,
+          "wordCount": 457,
           "title": "使用 Rust + wgpu 创作的音画互动 / 动态壁纸 App 上线 App Store / Steam 啦，欢迎体验支持！",
           "imageUrl": null
         },
@@ -554,7 +581,7 @@
           "description": "SummerOrange: \n最近在搞跨境，翻译图片总是要花钱，趁过年肝了一个图片翻译的工具。\nwww.kjtool.cn",
           "link": "https://www.v2ex.com/t/1110005",
           "publishedOn": "2025-02-08T12:50:31.000Z",
-          "wordCount": 371,
+          "wordCount": 373,
           "title": "肝了一个图片翻译的工具，大家看看",
           "imageUrl": null
         },
@@ -624,7 +651,7 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 642,
+          "wordCount": 643,
           "title": "如何看待 M4 Mac mini 侠",
           "imageUrl": null
         },
