@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -288,6 +282,56 @@
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1110038",
+          "author": "SGL",
+          "description": "SGL: 今天鼓捣 orbstack 虚拟机的时候，发现 modprobe 命令不起作用，然后查到 orbstack 不支持动态内核。纯小白产生一个问题，这个虚拟机软件是否支持动态内核是基于什么样的技术考虑，各有什么优劣。\n我看 vmware workstation 是支持。\n参考内容如下：\nhttps://github.com/orbstack/orbstack/issues/410\nDynamic kernel modules are not supported (see #258). All the modules you tried to load are already built into the kernel, so just remove the commands.\n动态内核模块不受支持（见 #258 ）。您尝试加载的所有模块都已内置到内核中，因此只需删除命令即可。",
+          "link": "https://www.v2ex.com/t/1110038",
+          "publishedOn": "2025-02-08T18:01:50.000Z",
+          "wordCount": 406,
+          "title": "orbstack 不支持动态内核",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110037",
+          "author": "Leon6868",
+          "description": "Leon6868: \n如题，假设组件 A 内部有多个子元素，我希望将 A 组件化的同时能分别配置改子元素的 ClassName ，请问怎样设计组件 A 比较好？",
+          "link": "https://www.v2ex.com/t/1110037",
+          "publishedOn": "2025-02-08T17:34:10.000Z",
+          "wordCount": 407,
+          "title": "组件化 Tailwind 传递 ClassName 参数最佳实践求解答",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110036",
+          "author": "leoli2024",
+          "description": "leoli2024: \n我的 AI 创作之旅：一个普通人如何用 BestImage.ai 玩转视觉魔法\n作为一个朝九晚五的上班族，我从来没想过自己能和\"艺术创作\"扯上关系——直到上个月，我在朋友圈看到有人用 AI 生成了一张赛博朋克风的猫咪壁纸。那张图里，机械尾巴的橘猫蹲在霓虹雨巷的屋顶，让我这个连简笔画都画不好的人瞬间心动：\"这种效果，我也能做吗？\"\n抱着试试看的心态，我点开了朋友推荐的BestImage.ai。没想到这个决定，彻底改变了我对\"创作\"二字的认知。\n一、从手残党到\"魔法师\"：我的第一次 AI 出图\n记得第一次打开网站时，密密麻麻的模型列表让我有点发懵。好在首页的\"新手村\"指引很贴心，推荐我先从 Stable Diffusion XL 开始：\"输入一句话，就能生成图片哦！\"\n我战战兢兢地在文本框敲下：\"一只戴着 VR 眼镜的柴犬，在火星上开咖啡店，卡通风格\"。点击生成后，进度条飞速前进——不到 10 秒，四张不同构图的图片跳了出来：有柴犬端着咖啡漂浮在红色沙丘上的，有它站在全息菜单前摇尾巴的，甚至还有一张火星极光背景的版本！\n最让我惊喜的是，每张图下方都有\"一键优化\"按钮。我选了最接近想象的那张，点击\"增加细节\"，AI 立刻给咖啡杯加上了蒸汽，给 VR 眼镜添了发光纹路，连柴犬的毛发都根根分明。当时我就截屏发了朋友圈：\"本手残党宣布，今天起转型 AI 艺术家！\"\n二、进阶之路：解锁专业工具的奇妙体验\n尝到甜头后，我开始探索更多功能。上周公司要做活动海报，我主动请缨设计主视觉图。没想到这次尝试，让我发现了 BestImage.ai 的三大秘密武器：\n风格迁移神器：图生 Prompt 功能\n老板给的参考图是一张水墨山水，但要求\"保留意境，改成科幻风\"。我正发愁怎么描述，突然发现工具栏里的 Image to Prompt——上传图片后，AI 居然自动分析出\"毛笔笔触…",
+          "link": "https://www.v2ex.com/t/1110036",
+          "publishedOn": "2025-02-08T16:22:17.000Z",
+          "wordCount": 496,
+          "title": "分享下用 DeepSeek R1 来写了这篇关于这款在线 AI 工具工具箱的文章",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110035",
+          "author": "jackchen7515",
+          "description": "jackchen7515: \n最近为了跟进 AI 前沿和技术动态，我发现推特简中圈有不少干货满满的博主，更新的推文都比较及时而且质量不错。基于 x-kit(感谢作者 xiaoxiunique) 写了网页： https://www.liuke-chat.top/tweets\n目前还是个初步尝试，欢迎大家提点意见：还有哪些优质的推特博主值得关注？同时也想请教各位平时是如何获取 AI 最新资讯的，期待大家的分享和交流！",
+          "link": "https://www.v2ex.com/t/1110035",
+          "publishedOn": "2025-02-08T16:16:29.000Z",
+          "wordCount": 351,
+          "title": "[分享]做了个 X 的 AI 简中推文网页|求推荐优质的博主",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110033",
+          "author": "okoklll",
+          "description": "okoklll: \n由于在国外的小伙伴回国了，需要向外教付费。\n求助，只有国内的银行卡，如何在国内向 GCash 转账呢？",
+          "link": "https://www.v2ex.com/t/1110033",
+          "publishedOn": "2025-02-08T16:05:11.000Z",
+          "wordCount": 392,
+          "title": "求助求助！在国内如何向 GCash 转账",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1110032",
           "author": "Lanyangzhi",
@@ -454,7 +498,7 @@
           "description": "ciaochaos: \n在 github.com/latentcat/graphpu 后，第二次用 Rust + wgpu 写项目，制作了一个 iOS / Windows / macOS 的跨端音画互动 app 。\n用 wgpu 解决了跨平台渲染的难题，可以呈现丰富的粒子效果，同时使用 Rust 实时合成声音，在 iOS 上支持后台播放、小组件、Haptic Feedback ，在电脑端支持设为动态屏幕壁纸！\n写了 4000 字详细介绍 + 创作历程，欢迎阅读！latentcat.com/zh-cn/blog/building-aelbum\n官网\nApp Store\nSteam",
           "link": "https://www.v2ex.com/t/1110012",
           "publishedOn": "2025-02-08T13:42:23.000Z",
-          "wordCount": 439,
+          "wordCount": 441,
           "title": "使用 Rust + wgpu 创作的音画互动 / 动态壁纸 App 上线 App Store / Steam 啦，欢迎体验支持！",
           "imageUrl": null
         },
@@ -616,26 +660,6 @@
           "publishedOn": "2025-02-08T11:06:02.000Z",
           "wordCount": 440,
           "title": "基本实现了小时候的心愿，开发了一个收服宝可梦的小游戏！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109988",
-          "author": "royzxq",
-          "description": "royzxq: \n以及猫眼偷跑票房已经来到了 $1B 大关，前无古人。\n \n这就是人民的选择，你有不喜欢的权利，人民也有选择自己喜欢的事物的权利。\n真心可以换来真心，不管是流浪地球、黑神话、哪吒 2 均是如此。主创用心制作的内容，朴素的人民自会买单。",
-          "link": "https://www.v2ex.com/t/1109988",
-          "publishedOn": "2025-02-08T11:05:01.000Z",
-          "wordCount": 499,
-          "title": "祝贺哪吒 2 登顶全球影史单一市场票房冠军",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109986",
-          "author": "wfd0807",
-          "description": "wfd0807: \n一家注册地在北京的人力资源公司，在全国很多城市设有分公司或者办事处。\n江苏南京的某甲方去年第因为业务调整，大量清场了该公司的外聘人员。\n过年来，这家公司正在给这些员工办理协商离职。离职需要退还设备，其实就是一台从上海某租赁公司租来的 108 手 thinkpad 笔记本电脑。\n搞笑的来了，这家公共要求离职的员工自费将电脑寄回北京公司，没错，就是员工付快递费，并且承担运损责任。\n在沟通过程中，员工提出两个方案：\n1 、寄快递到付，那边行政明确表示会拒收。\n2 、送到南京办事处，那边行政说办事处不归行政管。\n员工明确表示快递费不应该由离职员工付，然后行政来了一句，不寄过来不给离职证明，然后就把微信给删了。。。\n没错，删除了",
-          "link": "https://www.v2ex.com/t/1109986",
-          "publishedOn": "2025-02-08T10:49:03.000Z",
-          "wordCount": 406,
-          "title": "某上市（新四版）公司穷到付不起快递费了",
           "imageUrl": null
         }
       ]
