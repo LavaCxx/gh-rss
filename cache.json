@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,33 +193,6 @@
           "wordCount": 1064,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -325,7 +304,7 @@
           "description": "FirefoxChrome: 电信春雨卡 29 元 235G+100 分钟 长期套餐\n归属地：随机\n不发地区：新疆、西藏、云南、广西、贵州、海南\n配送方式：京东/顺丰\n激活方式：上门激活\n首充渠道：激活自动跳转首充\n办理年龄：20-60 岁\n违停复机：根据短信操作\n套餐合约：6 个月合约\n套餐构成：首月免费，之后每月 29 元/月，205G 通用（其中 155G 激活次月添加）+30G 定向+100 分钟通话长期有效\n注销方式：支持异地注销、营业厅注销，合约期内注销有违约金，违约金=（原套餐月租-当前月租）×已履约月份，如有变动以官方为准\n办理链接： https://ym.ksjhaoka.com/show?s=PlMfxsVh55624&id=82341909\n（链接需要关闭 VPN 访问）（如果在学校，收货地址尽量不要写学校，否则可能会开卡失败，可以写学校周围的街道小区几号楼）\n\n电信冰雪卡 29 元 230G 长期套餐\n归属地：随机\n不发地区：新疆、西藏、云南\n配送方式：京东\n激活方式：上门激活\n首充渠道：运营商会下发首充专属链接短信\n办理年龄：18-60 岁\n违停复机：根据短信操作\n套餐合约：12 个月合约\n套餐构成：首月免费，第 2-13 个月 29 元/月，第 14 个月 可再参加充送活动做到长期 29 元/月，200G 通用（其中 150G 在网 70 天后添加）+30G 定向长期有效\n注销方式：支持异地注销、营业厅注销，合约期内注销有违约金，违约金=（原套餐月租-当前月租）×已履约月份，如有变动以官方为准\n办理链接  ( https://ym.ksjhaoka.com/show?s=PlMfxsVh55624&id=82341908)\n（链接需要关闭 VPN 访问）（如果在学校，收货地址尽量不要写学校，否则可能会开卡失败，可以写学校周围的街道小区几号楼）\n更多大流量卡，店铺： https://ym.ksjhaoka.com/?s=PlMfxsVh55624\n电报频道 https://t.me/LiuLiangKa_2024\n注意合约期的意思的在合约期内注销号码会要求有违约金。不是套餐只能在合约期内用。套餐是长期的，合约期过了也是这个套餐",
           "link": "https://www.v2ex.com/t/1109772",
           "publishedOn": "2025-02-07T21:29:43.000Z",
-          "wordCount": 401,
+          "wordCount": 416,
           "title": "电信流量卡 29 元 235G 就这几天可以办理",
           "imageUrl": null
         },
@@ -345,7 +324,7 @@
           "description": "cbjistc: 捡漏一台 MacBook pro m3-pro 14 inch\n配置 16 + 512\nFacebook marketplace 800 购入，屏幕外壳均完美，保修到 2025 年 10 月份，准备抽空去苹果直营店补买一个 apple care\n除了以下几个缺点，其他完美\n1.盒盖后不齐\n2.卖家老哥叶子吸的应该不少，叶子味比较大（跪求除味方法）",
           "link": "https://www.v2ex.com/t/1109770",
           "publishedOn": "2025-02-07T19:17:45.000Z",
-          "wordCount": 409,
+          "wordCount": 505,
           "title": "捡漏一台 MacBook pro m3-pro 14 inch",
           "imageUrl": null
         },
@@ -375,7 +354,7 @@
           "description": "honmaple: \n手机是 OPPO Find X5Pro ，用了好些年了，早上还好好的，电量到 20%以下后自动关机，我还以为是没电了，插上充电线后就开始自动无限重启，长按音量键+电源键也进入不了恢复模式，跑去售后检测了一个小时，还是找不出是什么问题导致。现在不接充电线长按电源键会显示 OPPO logo 并提示插入充电线，但如果插入充电线则会无限重启(显示 OPPO logo 后立马黑屏)，重启时间大概在 20 秒左右\n请问还有什么补救数据的方式吗？能否在不开机的情况下读取里面的数据，adb 是否可以，里面有一些对我很重要的数据，拜托了各位大佬",
           "link": "https://www.v2ex.com/t/1109765",
           "publishedOn": "2025-02-07T16:11:39.000Z",
-          "wordCount": 419,
+          "wordCount": 450,
           "title": "手机无限重启，去售后也检测不出问题，请问还有什么补救数据的方式吗？",
           "imageUrl": null
         },
@@ -405,7 +384,7 @@
           "description": "FakerLeung: \n已经达到 72g 了，执行过 docker system prune 了，还是有 72g🥵救救孩子",
           "link": "https://www.v2ex.com/t/1109761",
           "publishedOn": "2025-02-07T15:25:46.000Z",
-          "wordCount": 541,
+          "wordCount": 577,
           "title": "/var/lib/docker 体积太大了？要怎么清理才行？",
           "imageUrl": null
         },
@@ -415,7 +394,7 @@
           "description": "sxguka: 本文针对移动等没有公网 V4 ，且 V6 不好用的用户\n本人无此困扰，发出了是为了给大家分享\n原贴： https://blog.eurekac.cn/p/daa17206.html\n由于帖子长度有限制，我删除了部分图片，请点击原链接查看。\n\n随心扯\nFebruary 15, 2024\n为什么我更想要 FullCone 网络\n  What is NAT\n  NAT has 4 main types\n  Let us have a try - to build up a server with FullCone NAT\n  STUN - A formal protocol to detect NAT pair\n  NAT2NAT - If we all can not get a Public IP\n  How to Transform Home networks to get FullCone NAT\n    Disable Firewall\n    Enable DMZ host\n    Change to Bridge\n  So, why I prefer FullCone NAT\n    Export My Server to Public Internet\n    Get A HighID in P2P download\n  It is Hard to Get a FullCone NAT\n    ISP is Afraid of PCDN\nFullCone 是什么？我是如何利用 FullCone 网络实现内网穿透的？为什么我会这么希望得到全锥网络？\n寒假的时候几个高中同学凑一块，想联机玩 Minecraft 。然而我们几个同学都没有公网 ip ，想要联机必须要内网穿透。\n为什么不用 IPV6 ？因为除了我之外其他人的路由器都是 NAT 在运营商给的智…",
           "link": "https://www.v2ex.com/t/1109760",
           "publishedOn": "2025-02-07T15:22:31.000Z",
-          "wordCount": 1799,
+          "wordCount": 1813,
           "title": "[转载] 为什么我更想要 FullCone 网络",
           "imageUrl": null
         },
@@ -445,7 +424,7 @@
           "description": "Nnup: \n24 年左右在 v 站上看到的，忘记收藏了。\n只记得总体是白色，中间是一个正方体，文字内容贴在上面，可以连续滚动，很丝滑。不过具体还有好多细节记不大清了，文字内容也记不清了。。。。\n自己已经找了好久了，搜索也搜了一个遍，还是没找到。\n用途是打算最近做一个网站，想参考下下前端的设计，自己做了几个总是不满意，想看看原网站的细节的又找不到。\n问问大家又没有印象，或者有类似的网站设计参考一下。\n谢谢啦",
           "link": "https://www.v2ex.com/t/1109757",
           "publishedOn": "2025-02-07T14:57:22.000Z",
-          "wordCount": 381,
+          "wordCount": 395,
           "title": "找一个网站，前端 ui 是中间一个正方体的",
           "imageUrl": null
         },
@@ -455,7 +434,7 @@
           "description": "pianjiao: 难不成他也用的百度地图吗",
           "link": "https://www.v2ex.com/t/1109755",
           "publishedOn": "2025-02-07T14:38:24.000Z",
-          "wordCount": 392,
+          "wordCount": 396,
           "title": "百度地图如何判断前方有前方有前端大车。后方有大车接近？",
           "imageUrl": null
         },
@@ -485,7 +464,7 @@
           "description": "pdog18: \n我个人最喜欢的动画电影是 「机器人总动员 WALL·E (2008)」 真心觉得非常非常棒的一部电影。\n其他一些觉得好的动画电影，但是依旧无法动摇「机器人总动员」在我心中的地位。\n千与千寻\n寻梦环游记\n疯狂动物城\n龙猫\n天空之城\n哈尔的移动城堡\n悬崖上的金鱼姬\n飞屋环游记\n你的名字",
           "link": "https://www.v2ex.com/t/1109751",
           "publishedOn": "2025-02-07T14:13:16.000Z",
-          "wordCount": 645,
+          "wordCount": 1111,
           "title": "大家觉得最好的动画电影是哪一部？",
           "imageUrl": null
         },
@@ -505,7 +484,7 @@
           "description": "han654: 我开了一个 1 个月的，就是美区家庭把你拉进去。\n是有什么坑吗？看起来店铺有 3 年、粉丝也不少、两个蓝色皇冠，不太像会跑路的",
           "link": "https://www.v2ex.com/t/1109749",
           "publishedOn": "2025-02-07T13:54:46.000Z",
-          "wordCount": 389,
+          "wordCount": 418,
           "title": "淘宝上的 Apple fitness+ 9.9rmb/一个月，甚至 45 半年，是有什么坑吗？",
           "imageUrl": null
         },
@@ -515,7 +494,7 @@
           "description": "leonz95: \n最近在听英文播客，有时候也挺多废话的，所以弄了个挂在桌面像歌词的实时翻译软件，就可以边打代码边听了。有英文会议也很有用。\n开源 GitHub repo，欢迎 star 。当前只支持 macOS ，有需要 windows 的可以提 issue 让我知道。",
           "link": "https://www.v2ex.com/t/1109747",
           "publishedOn": "2025-02-07T13:41:18.000Z",
-          "wordCount": 445,
+          "wordCount": 467,
           "title": "[开源] Rust 写了个纯本地的实时语音转录翻译软件",
           "imageUrl": null
         },
@@ -535,7 +514,7 @@
           "description": "aozhou: 字节的 HR 都直接加微信的吗？\n之前就接到过，微信不通过就直接打电话，都不好装看不到，那次没跳槽意向就给拒绝了。\n最近看了看 boss ，又有自称字节 HR 的依然同流程操作，先 boss ，不回就加微信，不加就一个电话打过来。\n不是骗子吧……",
           "link": "https://www.v2ex.com/t/1109745",
           "publishedOn": "2025-02-07T13:24:18.000Z",
-          "wordCount": 428,
+          "wordCount": 440,
           "title": "有没有字节的大佬帮忙解惑？",
           "imageUrl": null
         },
@@ -545,7 +524,7 @@
           "description": "shiyidi: 由于天气太冷电瓶车续航拉垮，夏天能跑 2 个来回，冬天冷的时候 1 个来回都跑不下来。\n重新买过一辆新国标电瓶车，第一年还可以，第二年冬天又跑不下来 1 个来回了。\n摩托车驾照是考下来了，听说摩托车牌照不给非京籍注册了，但听说又放开了，奈何都没有找到官方政策说明。\n如题，求助各位 V 友。",
           "link": "https://www.v2ex.com/t/1109744",
           "publishedOn": "2025-02-07T13:20:36.000Z",
-          "wordCount": 393,
+          "wordCount": 442,
           "title": "非京籍想买摩托车可以上牌吗",
           "imageUrl": null
         },
@@ -575,7 +554,7 @@
           "description": "zcf2009: \n起因是我在存钱时最后有一张钱一直识别不出来，我就多试了两次。外面排队的老头听到里面机器提示音请取出无法识别的钞票，就大声催我快点，存不了就别存了。我扭头就骂他，跟他对骂了一会儿。我也没心情存了，就出去了。出去的时候经过他就瞪着他，他突然就抓起我的衣领子推我，我也反抓他的推他。卧槽！我才发现我的力气竟然没他大，被他推着走。打架不丢人，输给老头才丢人！相互扭了半分钟就被人拉开了。\n过年期间好多亲朋好友都说我胖了该减肥了，我内心毫无波澜，但输给老头真的让我觉得是该好好锻炼减肥了！",
           "link": "https://www.v2ex.com/t/1109740",
           "publishedOn": "2025-02-07T12:59:04.000Z",
-          "wordCount": 527,
+          "wordCount": 664,
           "title": "前天在银行跟一个看起来 50 左右的老头打了一架，打输了",
           "imageUrl": null
         },
@@ -585,7 +564,7 @@
           "description": "stefwoo: \n有没有那种很细的线，并不需要那么高的速率，用来连接 DA 盒和电脑，速率别说 10g 了，1g 都够了。现在的线太粗了太硬了。",
           "link": "https://www.v2ex.com/t/1109737",
           "publishedOn": "2025-02-07T12:37:00.000Z",
-          "wordCount": 433,
+          "wordCount": 468,
           "title": "求推荐很软很细的 typec 线缆",
           "imageUrl": null
         },
@@ -595,7 +574,7 @@
           "description": "huc2: \ndeepseek 官方的 api 不允许充值了。网页版又基本处于不可用的状态。\n有没有什么别的类 nextChat 的工具推荐啊",
           "link": "https://www.v2ex.com/t/1109736",
           "publishedOn": "2025-02-07T12:24:05.000Z",
-          "wordCount": 404,
+          "wordCount": 423,
           "title": "nextChat 在使用硅基流动的 deepseek-r1 时无法正确显示\"推理过程\"",
           "imageUrl": null
         },
@@ -615,7 +594,7 @@
           "description": "WngShhng: \n邮件内容：\nWe are gaming monetization company. We rent old Google console account to publish our games and pay the account owners, due to the inability of buying new accounts that require 14 days delay of testers.\n\nOur payment ranges from $200 to $500 monthly per each game you publish for us.\n\nAlso, there will be revenue share percentage which you will get once you have reached a certain threshold\n\nIf this opportunity interest you, Send a recent video of your Google console account to us\n\n不止一次收到这种邮件，好奇",
           "link": "https://www.v2ex.com/t/1109734",
           "publishedOn": "2025-02-07T12:13:36.000Z",
-          "wordCount": 455,
+          "wordCount": 471,
           "title": "这种邮件是什么套路吗？",
           "imageUrl": null
         },
@@ -625,7 +604,7 @@
           "description": "idragonet: \n和直接充值差不多了",
           "link": "https://www.v2ex.com/t/1109733",
           "publishedOn": "2025-02-07T12:08:41.000Z",
-          "wordCount": 484,
+          "wordCount": 499,
           "title": "tb 的 cursor 越来越贵了：和直接充值差不多了",
           "imageUrl": null
         },
@@ -665,7 +644,7 @@
           "description": "TossPig: \n家用环境，防止物业突然修变压器，\n之前的 H1000M 在一次突然停电后就无法开机了，国网赔了 150 ，\n自己添点 180 米上了个 UPS ，该有的都有感觉还可以。",
           "link": "https://www.v2ex.com/t/1109728",
           "publishedOn": "2025-02-07T11:56:05.000Z",
-          "wordCount": 502,
+          "wordCount": 524,
           "title": "杂牌 UPS 也是可以用",
           "imageUrl": null
         },
@@ -675,7 +654,7 @@
           "description": "winskyme: macbook 远程 windows 电脑，使用微软官方的远程桌面，叫 windows app （以前的 remote desktop ），有几个问题：\n1 ，键位问题，比如 macbook 上哪个键对应 windows 徽标键，哪个键对应大小写切换，哪个键对应 windows 输入法里翻页 pagedown 、pageup ？\n2 ，鼠标滚轮上下翻动逻辑相反\n不想在 mac 里改逻辑，希望远程到 widnows 的时候就按照 windows 的逻辑，使用 mac os 的时候，就按照 mac 的逻辑",
           "link": "https://www.v2ex.com/t/1109727",
           "publishedOn": "2025-02-07T11:54:32.000Z",
-          "wordCount": 389,
+          "wordCount": 408,
           "title": "关于 macbook 远程 windows 的一些问题",
           "imageUrl": null
         },
@@ -685,7 +664,7 @@
           "description": "Yesr00: \nRT ，我手机分身只能多开一个账号，想要登第三个就得踢掉一个切换账号。。。→_→那么。。。多账号的大佬们是怎么处理的？有靠谱的微信分身么？从商店下了一个微信分身不到 10 分钟直接被踢下线说使用了三方。。。",
           "link": "https://www.v2ex.com/t/1109726",
           "publishedOn": "2025-02-07T11:43:27.000Z",
-          "wordCount": 437,
+          "wordCount": 447,
           "title": "微信多账号大佬们都是怎么处理的？",
           "imageUrl": null
         },
@@ -695,7 +674,7 @@
           "description": "amyw495062: \n现在由于农村老家没人住，所以大概要装 6 个摄像头，把老家里里外外都装上，然后在新家放个大屏幕随时可以看着，看了下海康有个 poe 录像机 7108n-f 是合适的，但是询问客服，海康互联移动端 app 长时预览只支持 20 分钟，20 分钟会自动暂停，这样非常不便，电脑端的长时预览收费，一年简直天价，经过了解还有个海康 4200 软件，可以局域网电脑预览，老家宽带没有公网，但是可以做 frp ，不知道 frp 转发能不能实现在新家装海康 4200 添加老家的录像机，实现低成本的远程看监控，顺便问问预览 4 路摄像头需要多大的上行，或者各位有更好的方案可以推荐下",
           "link": "https://www.v2ex.com/t/1109725",
           "publishedOn": "2025-02-07T11:36:12.000Z",
-          "wordCount": 444,
+          "wordCount": 476,
           "title": "关于海康威视监控远程查看的问题",
           "imageUrl": null
         },
@@ -715,7 +694,7 @@
           "description": "reallittoma:",
           "link": "https://www.v2ex.com/t/1109723",
           "publishedOn": "2025-02-07T11:02:46.000Z",
-          "wordCount": 442,
+          "wordCount": 455,
           "title": "小米 8 口千兆交换机有人在用吗？靠谱不？",
           "imageUrl": null
         }
