@@ -201,6 +201,43 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -328,7 +365,7 @@
           "description": "jectychen1990: \n苦于 n 年前的蜗牛星际 A 款（ j1900 ）性能落后，并且黑裙晖断电后再通电总是无法自动联网，台式机平时又用得少，萌生了用台式机做 nas 和家里云的想法。\n台式机配置:\n如果要兼顾平时 windows 日常工作，又要做 nas 还要装 linux 的需求，用这个机器合适吗？用什么方案可以完美实现？\n如果不合适的话推荐买什么设备？",
           "link": "https://www.v2ex.com/t/1110167",
           "publishedOn": "2025-02-09T16:40:01.000Z",
-          "wordCount": 470,
+          "wordCount": 472,
           "title": "台式机做 nas 可行吗",
           "imageUrl": null
         },
@@ -368,7 +405,7 @@
           "description": "zzzyyysss: \n不需要其他冗余的功能，指到单词上，即可朗读。",
           "link": "https://www.v2ex.com/t/1110162",
           "publishedOn": "2025-02-09T15:43:00.000Z",
-          "wordCount": 371,
+          "wordCount": 369,
           "title": "有没有鼠标放上去 即可朗读单词的网页插件",
           "imageUrl": null
         },
@@ -398,7 +435,7 @@
           "description": "azev: \n有点奇怪 就是我转存了别人的分享后 又分享 结果一会我的分享被屏蔽了 但是原始的别人的分享却是好好的\n如果是程序化的检测 不是很自然的应该往前继续找吗？\n不太明白这个检测程序 是个什么操作",
           "link": "https://www.v2ex.com/t/1110158",
           "publishedOn": "2025-02-09T14:58:18.000Z",
-          "wordCount": 392,
+          "wordCount": 390,
           "title": "夸克网盘这个问题是怎么回事？",
           "imageUrl": null
         },
@@ -428,7 +465,7 @@
           "description": "HikariLan: \n从第一台分时操作系统的横空出世，到 Intel 推出双核 CPU 打破摩尔定律的诅咒，新的技术迫使人们不断探索并发编程之路，以试图触碰人类几千年以来知识结晶的最大高度。\n引言\n如果你了解过计算机操作系统的历史，那么你一定知道，早期的计算机操作系统并不支持多用户功能，这是因为单个 CPU 无法同时处理来自多个用户的输入输出，同样，程序也无法同时运行，只能按顺序运行。后来被发明的分时操作系统解决了这个问题，同时也为程序员带来了“并发”的概念。\n在计算机科学中，“并发（ Concurrency ）”描述的是一种计算机程序的运行状态，即通过时间片轮转的方式，允许多个计算机程序在一段连续时间内以一定机制在一个或多个 CPU 核心上轮流运行，以营造一种所有计算机程序在同时运行的假象。\n诚然，这种基于操作系统抢占式调度的时间片轮转机制对于应用程序开发者是透明的，但是随着应用程序规模的不断膨胀和用户更多的需求产生，应用程序开发者意识到他们有时需要占用不止一个 CPU 资源，于是，并发编程应运而生。\n多进程模型\n早期操作系统其实是没有线程的概念的，一个进程只能有唯一一个线程存在，进程同时担任着最小的资源分配单位和最小的 CPU 调度单位的职责。在这种情况下，多进程是非常自然就能想到的并发模型。在这种模型下，进程与进程之间通过管道、Socket 等机制进行数据交换，并使用操作系统提供的并发原语来进行同步。\n多线程模型\n后来人们发现，进程并不适合担任 CPU 调度的最小单位，因此，线程横空出世。线程最大的特点是与同一个进程内的其他线程共享地址空间和操作系统资源（比如 I/O 句柄），这使得操作系统在调度到同一个进程的其他线程时只需要更换程序调用栈（ CPU 寄存器）即可，避免了高额的性能开销；同时，由于线程共享地址空间，线程与线程之间交换数据可以通过更高效（尽管有时并不安…",
           "link": "https://www.v2ex.com/t/1110155",
           "publishedOn": "2025-02-09T14:52:48.000Z",
-          "wordCount": 1047,
+          "wordCount": 1052,
           "title": "从进程到协程：计算机的并发编程之路",
           "imageUrl": null
         },
@@ -448,7 +485,7 @@
           "description": "rrZ2C: 我是在 JD 东莞线下门店买的，查了此时网上同款价格含补贴是 7999\n另外看局小红书情报深圳其他线下 苹果授权门店补货完成后也是 7999.\n这么看来 JD 还挺实在的  之前的批次不涨价",
           "link": "https://www.v2ex.com/t/1110153",
           "publishedOn": "2025-02-09T14:34:49.000Z",
-          "wordCount": 417,
+          "wordCount": 415,
           "title": "在 JD 线下门店使用国补用 7199 买了 Macbook Air M3 24+512，比 JD 网上便宜 800",
           "imageUrl": null
         },
@@ -498,7 +535,7 @@
           "description": "Bitram:",
           "link": "https://www.v2ex.com/t/1110147",
           "publishedOn": "2025-02-09T14:04:39.000Z",
-          "wordCount": 380,
+          "wordCount": 378,
           "title": "现在还有人自己建站搭建博客吃广告费吗？",
           "imageUrl": null
         },
@@ -528,7 +565,7 @@
           "description": "Cassano: \n依然发现还是完全够用。。。不知道最新的 M 处理器的 iPad pro 能否在日常使用中 能比 A12Z 这一代机器 显得更强悍 更有效率",
           "link": "https://www.v2ex.com/t/1110143",
           "publishedOn": "2025-02-09T13:44:58.000Z",
-          "wordCount": 461,
+          "wordCount": 463,
           "title": "手持 iPad Pro 11 寸 A12Z 处理器 是否有必要换新款 iPad Pro 了",
           "imageUrl": null
         },
@@ -548,7 +585,7 @@
           "description": "worldgg: \n初恋，30 了，又是一个人了",
           "link": "https://www.v2ex.com/t/1110139",
           "publishedOn": "2025-02-09T13:23:32.000Z",
-          "wordCount": 568,
+          "wordCount": 570,
           "title": "696 天，分手了",
           "imageUrl": null
         },
@@ -558,7 +595,7 @@
           "description": "poltao: \n个人背景：甘肃人在上海打工，目前是 Java 开发，学历小 211 本科\n想问下 V 站的各位大佬，有没有招工的，不局限于程序开发，大家畅所欲言，看看有没有什么工作/谋生手段推荐。\n卷不动了，真心卷不动了。\n最后，话说 V 站上有没有甘肃老乡，欢迎联系我咱们拉个老乡吹水/相亲交流群，我微信号同 v 站账户 id 。",
           "link": "https://www.v2ex.com/t/1110138",
           "publishedOn": "2025-02-09T13:23:25.000Z",
-          "wordCount": 406,
+          "wordCount": 404,
           "title": "甘肃兰州有啥工作推荐吗？",
           "imageUrl": null
         },
@@ -568,7 +605,7 @@
           "description": "microka: \n微信绑定的手机号，刚接连收到 6 条短信，内容均为\n「 [腾讯科技] 你正在登录微信，验证码******。转发可能导致账号被盗。如果这不是你本人操作，回复 JZ 可阻止该用户登录你的微信。」\n但微信没收到任何异常登录提醒，微信登录设备管理页面里也没有异常设备，搜到网上有讨论说这可能是诈骗\nhttps://zhuanlan.zhihu.com/p/614184476\nhttps://www.zhihu.com/question/276958504\n尝试搜索 106573028497362 、106573028495360 、106573028497360 这些短信发送方的身份，无果~\n用另一台手机尝试通过验证码登录这个手机号的微信，提示「你的账号今天登录较频繁，为了你的账号安全，你需要手动发送短信验证登录。」（我今天没有登出、重新登录过这个微信账号）\n\n这么说，收到的那些短信应该是微信官方发来的？\n其实我的问题是，有什么办法能查询 106573028497362 、106573028495360 、106573028497360 这些发送者的主体信息？\nhttps://www.zhihu.com/question/276958504/answer/579398839 这里有网友问过腾讯客服，客服也没给正面答复这些发送方号码是否来自腾讯。\n想到这里我就觉得很操蛋……",
           "link": "https://www.v2ex.com/t/1110136",
           "publishedOn": "2025-02-09T13:18:06.000Z",
-          "wordCount": 420,
+          "wordCount": 418,
           "title": "收到微信登录验证码短信，是诈骗吗？",
           "imageUrl": null
         },
@@ -578,7 +615,7 @@
           "description": "click: 个人搞副业需要一个沟通工具，但是个人微信经常被封，申诉几乎找不到活人客服。",
           "link": "https://www.v2ex.com/t/1110133",
           "publishedOn": "2025-02-09T12:49:40.000Z",
-          "wordCount": 368,
+          "wordCount": 366,
           "title": "作为个人想弄个认证的企业微信，有什么办法吗？",
           "imageUrl": null
         },
@@ -598,7 +635,7 @@
           "description": "googol2chen: \n从 chatgpt 横空出世后，到 deepseek 推理模型更强大的效果，工作，学习都更离不开 AI 了，有时候一个问题想了一会就不想思考了，看看 AI 给出什么方案，在此基础上再进一步提出问题，最终得到结论。\n人类如果什么事情都依赖 AI ，就像过度依赖导航软件一样，离开了导航甚至经常走的路都不会了，大脑会不会越来越退化？\n大家如何看待这个担忧（禁止 AI 生成的回答）",
           "link": "https://www.v2ex.com/t/1110129",
           "publishedOn": "2025-02-09T12:17:46.000Z",
-          "wordCount": 579,
+          "wordCount": 581,
           "title": "人类依赖 AI 会不会退化？",
           "imageUrl": null
         },
