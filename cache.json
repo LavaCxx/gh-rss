@@ -191,33 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -325,7 +298,7 @@
           "description": "bfhyqy: \n2025 提前祝大家元宵节快乐，今年再次抽奖回馈大家，可以参加充 10 元送 5 元的活动。\nT 楼抽奖规则\n奖品：30 张全新待激活的英国 giffgaff 卡\n参与方式：T 楼，不限内容，每人参与一次，重复回复会判无效，随机楼层中\n开奖规则：请参考 V2EX 抽奖小程序\n开奖时间：2025-02-09 21:25 自动开奖(取决于 21:25 前的楼层数和当天的排列五组合结果，有兴趣的可以参考 V2EX 抽奖小程序 自己测算)\n如何领奖\n1 访问 免费邮寄 提交邮寄信息\n2 访问 联系我们 联系客服审核\n3 客服审核通过后预计次日寄出\n4 领奖截止日期：2025-02-11\n万一没有中奖呢\n没有抽中的也可以联系我们 购买预置套餐或者储值的，产品规格 更丰富。\n实在对时效没有要求（大约需要 1 个月时间）的，也可以\n参考 这可能是目前最全面的 giffgaff 实体卡申请指南 \n或者\n参考 英国实体 SIM 卡 giffgaff 申请、激活和使用攻略 \n自助申请。\n也欢迎大家加入\nTG 群：eSIM card 交流群 ，主题 eSIM 、eSIM 卡。\n微信群：请访问 联系我们 加入",
           "link": "https://www.v2ex.com/t/1110043",
           "publishedOn": "2025-02-09T00:33:25.000Z",
-          "wordCount": 929,
+          "wordCount": 1153,
           "title": "T 楼抽奖免费送出（顺丰包邮）30 张全新待激活的英国 giffgaff 卡",
           "imageUrl": null
         },
@@ -365,7 +338,7 @@
           "description": "SGL: 今天鼓捣 orbstack 虚拟机的时候，发现 modprobe 命令不起作用，然后查到 orbstack 不支持动态内核。纯小白产生一个问题，这个虚拟机软件是否支持动态内核是基于什么样的技术考虑，各有什么优劣。\n我看 vmware workstation 是支持。\n参考内容如下：\nhttps://github.com/orbstack/orbstack/issues/410\nDynamic kernel modules are not supported (see #258). All the modules you tried to load are already built into the kernel, so just remove the commands.\n动态内核模块不受支持（见 #258 ）。您尝试加载的所有模块都已内置到内核中，因此只需删除命令即可。",
           "link": "https://www.v2ex.com/t/1110038",
           "publishedOn": "2025-02-08T18:01:50.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "orbstack 不支持动态内核",
           "imageUrl": null
         },
@@ -415,7 +388,7 @@
           "description": "Lanyangzhi: \n前两天修了一下房间里的电视，把原本接显示器的 hdmi 接到电视上，用 dp 接显示器，后发现显示器颜色饱和度低\n对同一区域进行截图取色得到\n\n我自己的电脑驱动配置均为 10(12)bit 色深、rgb 色域、完全动态范围\n\n左，朋友的截图；右，我的截图/dp\n我的截图/hdmi\n\n取色区域",
           "link": "https://www.v2ex.com/t/1110032",
           "publishedOn": "2025-02-08T16:00:40.000Z",
-          "wordCount": 449,
+          "wordCount": 465,
           "title": "hdmi 和 dp 的显色会不同吗？",
           "imageUrl": null
         },
@@ -435,7 +408,7 @@
           "description": "jeesk: 下面我上架踩的坑和遇到的一些问题， 一起记录下来，谢谢大家\n1. 注册谷歌开发者, 填写各种信息.\n25 美金的注册费, 可以使用银行的双币卡, 我自己使用的是招商银行的万事达,并且支持 Google play 购买内购\n注册后需要通过谷歌审核, 请上传合法的地址证明,比如水电费单据,租房单据, 通过审核后可以上传应用\n2. 上传应用\n2.1 签名问题\n1. 上传密钥证书\n我上传的是 bundle 包, 这个时候 bundle 包也是签名的, 这个签名叫作上传密钥证书\n2. 应用签名密钥证书\n商店会将 bundle 打包成 apk ,使用这个证书签名,这个叫作应用签名密钥证书. 这个一年只能更换一次.\n应用签名密钥证书很重要, 如果你要兼容已经发布的程序, 一定要上传自己的签名. 直接看控制台的签名配置就行了, 否则 Google Play 会用他的证书帮你签名, 会导致老用户无法从 Google Play 更新证书.\n这里一定要搞清楚上传密钥证书和应用签名密钥证书的区别.\n2.2 应用资料\n填写应用的资料,权限信息\nGoogle play 需要提交平板,手机,Chromebook 等截图, 建议使用 Android studio 模拟来截图, 否则你还要买实体设备.\n3.封闭测试\n封闭测试分为 Google group 和邮件白名单, 这里可以分别创建 1 个轨道\n这里推荐使用 Google group 的方式,否则你要收集邮箱, 这个太繁琐(不要问为什么,这里的 Google group 效率很高).\n加入 Google group 的链接\nhttps://play.google.com/apps/testing/com.shanjiancaofu.gallery.preview?authuser=1\n点击上面的链接成为测试者(不要发你的 Google group 的地址,用户还要找加入 Group 的按钮浪费时间).\n商店链接\nhttps://play.google.com/store/apps/details?id=com.shanjiancaofu.gallery.preview\n通过 https://groups.google.com/g/relaxpic, 这个是你的 Google group 地址,可以查看加入 group 的人数.\n如果在测试你们自己的应用的时候, 请将 com.shanjiancaofu.gallery.preview 替换成你们自己的包名.\n4.发帖宣传\n链接友好的平台, 注意要介绍你的应用,吸引观众去下载你的 App. 并且告诉用户一定要去 Google Play 商店里面去给出应用的反馈.\n酷安\nhttps://v2ex.com\nhttps://linux.do\nhttps://meta.appinn.ne/\nhttps://hu60.cn\nhttps://x.com\nhttps://www.reddit.com/r/AndroidClosedTesting/ (强烈推荐，老外多直接一对一回复然后相互测试)\n电报\nQQ,微信群\nandroidDeveloperPlayforward(一款帮助封闭测试的应用)\n上架特别注意事项\n使用合法合规的信息来源, 千万不要伪造数据, 否则 Google play 的工作人员可能随时将你账号封禁.\n尽量使用干净的 IP, 如果你使用的 IP 已经被其他申请过应用上架,并且被封禁了. 如果你也使用这个 IP 也有可能被封禁.\n原文地址: https://k2think.blogspot.com/2025/02/how-to-publish-the-app-on-google-play.html",
           "link": "https://www.v2ex.com/t/1110030",
           "publishedOn": "2025-02-08T15:42:42.000Z",
-          "wordCount": 515,
+          "wordCount": 517,
           "title": "2025 年上架 Google play 踩坑记录",
           "imageUrl": null
         },
@@ -445,7 +418,7 @@
           "description": "weishao666: \n背景，父母一个月可能来住个一两天，家里有两台电视，但是我不看，所以没有机顶盒。父母习惯看央视和本地卫视的直播节目，但现在的智能电视开机就是各种会员墙，连传统电视台都搜不到。尝试过影视仓，不大稳定。\n想请教各位 V 友：\n免费且稳定的直播方案有么？听说有 DTMB 地面波、IPTV 源、开源直播软件，哪种更适合普通用户？\n是否需要外接设备（如电视盒子）？如果有推荐型号更好（预算 200 以内）。\n是否有无需折腾硬件的软件方案？比如通过 TV 版 App 或浏览器直接访问直播源？\n如果自己搭建直播源服务器，复杂度和维护成本如何？\n希望方案能兼顾「父母易用性」和「长期稳定性」，感谢！",
           "link": "https://www.v2ex.com/t/1110029",
           "publishedOn": "2025-02-08T15:42:24.000Z",
-          "wordCount": 537,
+          "wordCount": 573,
           "title": "如何在长辈来的几天让电视免费收看央视及地方卫视直播频道？求优雅方案",
           "imageUrl": null
         },
@@ -455,7 +428,7 @@
           "description": "zuotun: 想在家里放一个机柜，至少 800 深但是感觉还是需要 1000 ，高度倒是不必 42 但是至少也要 22 或者 32 了，不然都不好买。\n由于是自用所以希望质量好一点的同时价格也能接受，年前华腾满 200 减 30 没买，现在有满 300 减 40 所以又看了一下，42 到手 1300 不到。\n有什么推荐的型号吗，价格感觉在一千以内都能接受，因为一个机箱也这个价了。\n最低配置 22U 800 深，但是感觉 1000 深更好。\n另外导轨好贵啊，大家都是怎么固定的？",
           "link": "https://www.v2ex.com/t/1110028",
           "publishedOn": "2025-02-08T15:23:38.000Z",
-          "wordCount": 449,
+          "wordCount": 494,
           "title": "家庭自用机柜选什么？",
           "imageUrl": null
         },
@@ -515,7 +488,7 @@
           "description": "jojoadv: 哪个比较准确呢",
           "link": "https://www.v2ex.com/t/1110022",
           "publishedOn": "2025-02-08T14:25:48.000Z",
-          "wordCount": 373,
+          "wordCount": 391,
           "title": "不懂色彩管理，有个 LG 4K 显示器，之前一直用显示器自带的 LG 4K 颜色管理配置，现在换成了 display P3，颜色变淡了，饱和度稍低",
           "imageUrl": null
         },
@@ -535,7 +508,7 @@
           "description": "wvv8oo: 我现在用的是红轴，感觉太费力了",
           "link": "https://www.v2ex.com/t/1110019",
           "publishedOn": "2025-02-08T14:15:40.000Z",
-          "wordCount": 429,
+          "wordCount": 431,
           "title": "求推荐一个敲击不费力的键盘",
           "imageUrl": null
         },
@@ -555,7 +528,7 @@
           "description": "Hilong: \n\n这是我住房的家具摆放设计图,目前觉得这样子的空间利用率很低.我想把床前和床边的两大块空地整合成更大的一块空闲的地方.有没有人能指导一下怎么重新摆放一下",
           "link": "https://www.v2ex.com/t/1110015",
           "publishedOn": "2025-02-08T13:51:08.000Z",
-          "wordCount": 368,
+          "wordCount": 373,
           "title": "求指导卧室家具摆放设计",
           "imageUrl": null
         },
@@ -585,7 +558,7 @@
           "description": "nightnotlate: https://b23.tv/vWRchce\n视频是想说明邻居很可爱 在监控里做搞怪动作，\n评论区清一色的是“这样的环境太安心了好想住” “有人花钱给我抓小偷 太好了”“真不懂为什么会有人怕监控，可想而知会是什么人”。\n还有抱怨“邻居反对自己装监控，邻居太多事了”。\n我看完评论区，感觉自己的三观出问题了。",
           "link": "https://www.v2ex.com/t/1110010",
           "publishedOn": "2025-02-08T13:28:06.000Z",
-          "wordCount": 393,
+          "wordCount": 399,
           "title": "在 b 站看到一个门口安了监控拍到邻居的视频",
           "imageUrl": null
         },
@@ -605,7 +578,7 @@
           "description": "redemptionc: \n我的一类卡，但是现在每日只能汇款 2500 美元左右（购汇还好，应该还是每年 40 万人民币?）",
           "link": "https://www.v2ex.com/t/1110008",
           "publishedOn": "2025-02-08T13:13:03.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "最近有在中行（BOC）购汇并汇款到香港（美元）的 V 友吗，你们有遇到限制吗？",
           "imageUrl": null
         },
@@ -625,7 +598,7 @@
           "description": "SummerOrange: \n最近在搞跨境，翻译图片总是要花钱，趁过年肝了一个图片翻译的工具。\nwww.kjtool.cn",
           "link": "https://www.v2ex.com/t/1110005",
           "publishedOn": "2025-02-08T12:50:31.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "肝了一个图片翻译的工具，大家看看",
           "imageUrl": null
         },
@@ -645,7 +618,7 @@
           "description": "zbowen66: 主板是 Micro-Star MAG B660M MORTAR ，系统是 unraid 7.0\n刚才问了 AI ，说可以通过 USB Ethernet Gadget 实现，又是加参数又是重启的，我好像没有听过有人讨论这个，怕它胡说把系统搞挂了，有没有用过的老哥说说实际体验。",
           "link": "https://www.v2ex.com/t/1110003",
           "publishedOn": "2025-02-08T12:45:03.000Z",
-          "wordCount": 385,
+          "wordCount": 402,
           "title": "主板上有一个 20Gbps 的 Type-C 插槽，能连接 MacBook 的 Type-C 当网线用吗？",
           "imageUrl": null
         },
@@ -655,7 +628,7 @@
           "description": "sr004x: 主要是低月租，没有通话和短信需求（哑巴卡），最好是长期的（ 2 年以上有效，保持 9 元/月），不要那种只有前 6 个月或者前 3 个月有效后续就涨成 19 或者 29 的。\n如果没有 30G 以上的，一般 10 元以内能有多少流量呢？",
           "link": "https://www.v2ex.com/t/1110002",
           "publishedOn": "2025-02-08T12:44:50.000Z",
-          "wordCount": 486,
+          "wordCount": 488,
           "title": "有没有月租在 10 元以内，大概能有 30G 以上的流量卡？",
           "imageUrl": null
         },
@@ -695,7 +668,7 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 680,
+          "wordCount": 682,
           "title": "如何看待 M4 Mac mini 侠",
           "imageUrl": null
         }
