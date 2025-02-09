@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -321,7 +315,7 @@
           "description": "Int100: \n目前不跨境的情况下使用的是 IPsec IKEv2.\n如果要跨境互联的话, 这个 ESP(协议号 50) 的数据包特征太明显了, 怕是见不到明天的太阳.\n请教一下, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?\n感谢🙏",
           "link": "https://www.v2ex.com/t/1110041",
           "publishedOn": "2025-02-08T21:56:53.000Z",
-          "wordCount": 389,
+          "wordCount": 397,
           "title": "请教一下大佬们, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?",
           "imageUrl": null
         },
@@ -331,7 +325,7 @@
           "description": "Rooney1:",
           "link": "https://www.v2ex.com/t/1110040",
           "publishedOn": "2025-02-08T21:49:41.000Z",
-          "wordCount": 368,
+          "wordCount": 384,
           "title": "有什么类似 toby 的平替插件？",
           "imageUrl": null
         },
@@ -351,7 +345,7 @@
           "description": "SGL: 今天鼓捣 orbstack 虚拟机的时候，发现 modprobe 命令不起作用，然后查到 orbstack 不支持动态内核。纯小白产生一个问题，这个虚拟机软件是否支持动态内核是基于什么样的技术考虑，各有什么优劣。\n我看 vmware workstation 是支持。\n参考内容如下：\nhttps://github.com/orbstack/orbstack/issues/410\nDynamic kernel modules are not supported (see #258). All the modules you tried to load are already built into the kernel, so just remove the commands.\n动态内核模块不受支持（见 #258 ）。您尝试加载的所有模块都已内置到内核中，因此只需删除命令即可。",
           "link": "https://www.v2ex.com/t/1110038",
           "publishedOn": "2025-02-08T18:01:50.000Z",
-          "wordCount": 406,
+          "wordCount": 433,
           "title": "orbstack 不支持动态内核",
           "imageUrl": null
         },
@@ -401,7 +395,7 @@
           "description": "Lanyangzhi: \n前两天修了一下房间里的电视，把原本接显示器的 hdmi 接到电视上，用 dp 接显示器，后发现显示器颜色饱和度低\n对同一区域进行截图取色得到\n\n我自己的电脑驱动配置均为 10(12)bit 色深、rgb 色域、完全动态范围\n\n左，朋友的截图；右，我的截图/dp\n我的截图/hdmi\n\n取色区域",
           "link": "https://www.v2ex.com/t/1110032",
           "publishedOn": "2025-02-08T16:00:40.000Z",
-          "wordCount": 407,
+          "wordCount": 445,
           "title": "hdmi 和 dp 的显色会不同吗？",
           "imageUrl": null
         },
@@ -431,7 +425,7 @@
           "description": "weishao666: \n背景，父母一个月可能来住个一两天，家里有两台电视，但是我不看，所以没有机顶盒。父母习惯看央视和本地卫视的直播节目，但现在的智能电视开机就是各种会员墙，连传统电视台都搜不到。尝试过影视仓，不大稳定。\n想请教各位 V 友：\n免费且稳定的直播方案有么？听说有 DTMB 地面波、IPTV 源、开源直播软件，哪种更适合普通用户？\n是否需要外接设备（如电视盒子）？如果有推荐型号更好（预算 200 以内）。\n是否有无需折腾硬件的软件方案？比如通过 TV 版 App 或浏览器直接访问直播源？\n如果自己搭建直播源服务器，复杂度和维护成本如何？\n希望方案能兼顾「父母易用性」和「长期稳定性」，感谢！",
           "link": "https://www.v2ex.com/t/1110029",
           "publishedOn": "2025-02-08T15:42:24.000Z",
-          "wordCount": 498,
+          "wordCount": 520,
           "title": "如何在长辈来的几天让电视免费收看央视及地方卫视直播频道？求优雅方案",
           "imageUrl": null
         },
@@ -441,7 +435,7 @@
           "description": "zuotun: 想在家里放一个机柜，至少 800 深但是感觉还是需要 1000 ，高度倒是不必 42 但是至少也要 22 或者 32 了，不然都不好买。\n由于是自用所以希望质量好一点的同时价格也能接受，年前华腾满 200 减 30 没买，现在有满 300 减 40 所以又看了一下，42 到手 1300 不到。\n有什么推荐的型号吗，价格感觉在一千以内都能接受，因为一个机箱也这个价了。\n最低配置 22U 800 深，但是感觉 1000 深更好。\n另外导轨好贵啊，大家都是怎么固定的？",
           "link": "https://www.v2ex.com/t/1110028",
           "publishedOn": "2025-02-08T15:23:38.000Z",
-          "wordCount": 434,
+          "wordCount": 442,
           "title": "家庭自用机柜选什么？",
           "imageUrl": null
         },
@@ -471,7 +465,7 @@
           "description": "qdwang: \n不接显示器的 mac mini ，即使睡眠灯也是常量的\n这应该如何判断它是否在睡眠中呢？",
           "link": "https://www.v2ex.com/t/1110025",
           "publishedOn": "2025-02-08T14:48:45.000Z",
-          "wordCount": 365,
+          "wordCount": 366,
           "title": "如何判断 mac mini 是否在睡眠中",
           "imageUrl": null
         },
@@ -501,7 +495,7 @@
           "description": "jojoadv: 哪个比较准确呢",
           "link": "https://www.v2ex.com/t/1110022",
           "publishedOn": "2025-02-08T14:25:48.000Z",
-          "wordCount": 364,
+          "wordCount": 371,
           "title": "不懂色彩管理，有个 LG 4K 显示器，之前一直用显示器自带的 LG 4K 颜色管理配置，现在换成了 display P3，颜色变淡了，饱和度稍低",
           "imageUrl": null
         },
@@ -511,7 +505,7 @@
           "description": "zhouyin: 不论是 xp 还是 scrum 还是 kanban 都是为了不让任何人偷懒 \n\n一个 scrum 团队 由产品经理和 scrum master 和其余开发人员组成\n\n产品经理的职责 是采集需求 编成文档 给出产品功能和设计界面  产品怎么设计其实也是耗脑的 因为我自己开发过产品 要不抄袭别人有自己原创设计 非常痛苦 \n\nscrum master 负责拆分分派任务 监工 每日管理每个人的进度  看起来工作量其实还是蛮轻的  其实差不多是小组长的角色  但我看有些公司会搞专门的 scrum master\n\n要开的会 其实跟农民工一样 \n计划会 每日例会 评审会 回顾会 迭代会 \n\n从我刚踏入职场 第一个项目就采用 xp 我完全知道敏捷是怎么回事 以及它的初衷",
           "link": "https://www.v2ex.com/t/1110021",
           "publishedOn": "2025-02-08T14:21:19.000Z",
-          "wordCount": 418,
+          "wordCount": 431,
           "title": "scrum master 的工作内容能饱和吗 相当于监工",
           "imageUrl": null
         },
@@ -521,7 +515,7 @@
           "description": "wvv8oo: 我现在用的是红轴，感觉太费力了",
           "link": "https://www.v2ex.com/t/1110019",
           "publishedOn": "2025-02-08T14:15:40.000Z",
-          "wordCount": 418,
+          "wordCount": 421,
           "title": "求推荐一个敲击不费力的键盘",
           "imageUrl": null
         },
@@ -531,7 +525,7 @@
           "description": "Alicewish: \no1 pro 是目前 AI 中写代码最强的。\nPro 会员的 GPT4 额度和 Plus 会员一样，3 小时 40 条，用完可以用 GPT4O ，另外你需要记住触发限额时的额度刷新时间，到了刷新时间后使用 4 ，要不 4O 也会消耗 4 的额度，刷新额度后问完 40 条 GPT4O 后就不能用 GPT4 了。GPT4 在某些方面比 4O 好用，世界知识比较扎实。\no1 和 o3-mini 应该是近乎无限使用，目前没触发限额。\n短时间内 o1 pro 用的比较多会触发滥用审核然后会把 o1 pro 和 o1 的权限都封了。当时是写几个不同的脚本，问了 o1 pro 几小时，本来以为是到限额了，第二天发现还是被封权限。最后写邮件申诉（可能一小时到几小时后回复）恢复了权限。如果每次都等答案生成完后再问下一个问题应该不至于触发滥用审核。\no1 pro 如果几秒钟就回复肯定是降智，可以用 iPhone 手机 chatGPT 客户端要求它重新回答。多数情况下 o1 pro 会推理两分钟到十分钟。\n用过 o1 pro 就很难接受没有 o1 pro 用。",
           "link": "https://www.v2ex.com/t/1110018",
           "publishedOn": "2025-02-08T14:13:21.000Z",
-          "wordCount": 461,
+          "wordCount": 468,
           "title": "付费使用 ChatGPT Pro 会员的一些体验",
           "imageUrl": null
         },
@@ -541,7 +535,7 @@
           "description": "Hilong: \n\n这是我住房的家具摆放设计图,目前觉得这样子的空间利用率很低.我想把床前和床边的两大块空地整合成更大的一块空闲的地方.有没有人能指导一下怎么重新摆放一下",
           "link": "https://www.v2ex.com/t/1110015",
           "publishedOn": "2025-02-08T13:51:08.000Z",
-          "wordCount": 359,
+          "wordCount": 368,
           "title": "求指导卧室家具摆放设计",
           "imageUrl": null
         },
@@ -621,7 +615,7 @@
           "description": "eccstartup: \n现在会员费一年接近 1000 了，免费版只支持 40 分钟，教育版也不单独出售。之前还买过会员，现在开始寻求平替了。\n佬们有什么好的建议吗？",
           "link": "https://www.v2ex.com/t/1110004",
           "publishedOn": "2025-02-08T12:45:19.000Z",
-          "wordCount": 472,
+          "wordCount": 482,
           "title": "老生常谈，腾讯会议的平替有什么？",
           "imageUrl": null
         },
@@ -641,7 +635,7 @@
           "description": "sr004x: 主要是低月租，没有通话和短信需求（哑巴卡），最好是长期的（ 2 年以上有效，保持 9 元/月），不要那种只有前 6 个月或者前 3 个月有效后续就涨成 19 或者 29 的。\n如果没有 30G 以上的，一般 10 元以内能有多少流量呢？",
           "link": "https://www.v2ex.com/t/1110002",
           "publishedOn": "2025-02-08T12:44:50.000Z",
-          "wordCount": 473,
+          "wordCount": 475,
           "title": "有没有月租在 10 元以内，大概能有 30G 以上的流量卡？",
           "imageUrl": null
         },
@@ -651,7 +645,7 @@
           "description": "abcfreedom: \n手上有一张 ultramobile 美卡，每月 3 刀月租太贵了，听说 giffgaff 无月租，这卡好用吗，能绑定国外各种 app 吗",
           "link": "https://www.v2ex.com/t/1110001",
           "publishedOn": "2025-02-08T12:28:40.000Z",
-          "wordCount": 374,
+          "wordCount": 383,
           "title": "giffgaff 和 ultramobile 有什么区别",
           "imageUrl": null
         },
@@ -671,7 +665,7 @@
           "description": "kikoroc: \n在家里办公了一天，手脚冰凉，这两天真是冷啊，出去转一圈吧，这是这几天生活的一个写照。\n当冷的时候看一切事物都是冷的，当内心怯懦的时候任何事情可能都无法应对吧。\n半走半跑大概半小时手脚就开始热了，此时内心的想法翻涌起来，我想做这，我想做那，看着周围明亮的广告牌也产生了一些兴趣，也会想想这可能又是一个热血的品牌故事。\n和大多数人一样，一年到头回县城的日子非常少，当下的县城就是这样吧，人来人往，店铺也是，灯火通明，关店开张。\n有机会也应该多出去走走看看，听听更多的故事，了解更多的品牌，走着走着也许内心的火苗就起来了。\n也应该多回县城待待，多看看这里的灯火通明，多听听这里的家常理短。",
           "link": "https://www.v2ex.com/t/1109999",
           "publishedOn": "2025-02-08T12:21:29.000Z",
-          "wordCount": 368,
+          "wordCount": 375,
           "title": "小县城的冬天",
           "imageUrl": null
         },
@@ -681,7 +675,7 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 656,
+          "wordCount": 658,
           "title": "如何看待 M4 Mac mini 侠",
           "imageUrl": null
         },
