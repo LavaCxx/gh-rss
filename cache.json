@@ -191,33 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -310,6 +283,216 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1110118",
+          "author": "Subilan",
+          "description": "Subilan: \n\n如图所示，有没有和我一样遇到这个问题的，你们知道解决的方法吗（除了抛弃搜狗输入法以外）？以及想知道这个 ;2P 的含义是什么（搜索引擎有符号过滤，不太好搜）。\n具体表现为：按几下 Shift （切换中英文）就出现几个 ;2P，只要在终端窗口中，随地都可以出现。",
+          "link": "https://www.v2ex.com/t/1110118",
+          "publishedOn": "2025-02-09T10:07:02.000Z",
+          "wordCount": 364,
+          "title": "求解： macOS 下搜狗输入法在终端输入时按 Shift 总出现多余字符",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110117",
+          "author": "luciovision",
+          "description": "luciovision: \n突然发现 zlibrary 的网站和电报机器人都用不了了，有人反馈 app 还能用",
+          "link": "https://www.v2ex.com/t/1110117",
+          "publishedOn": "2025-02-09T10:01:04.000Z",
+          "wordCount": 417,
+          "title": "zlibrary 网站用不了了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110116",
+          "author": "gdgoldlion",
+          "description": "gdgoldlion: 华强北方面已经接到有关部门美版有锁禁售令\n苹果方面，下一代 iPhone 17 会有 esim 的 Air 版本，手机厚度会被大幅度降低（四个型号机模已出）\n未来苹果会面推进 esim ，所有机器都用 esim 一直以来都是苹果的目标\n到那个时候 esim 的有锁机是不存在物理改卡的\n而且一旦手机厚度被压缩，通过预留卡槽空间这种双方案同用一套主设计也不再成为可能\n本身国外运营商就对违约机盗抢机的华强北灰产意见很大\n——这和苹果通过 iccid 配合运营商处理库存是两回事\n总之有锁机消失，这符合生态圈里大部分参与者的利益\n可以预见未来 iPhone 18 、iPhone 19 时代美版有锁会消失\n而国行唯一的未知数就是 esim 审核\n到时候国行会如何，尚不清楚",
+          "link": "https://www.v2ex.com/t/1110116",
+          "publishedOn": "2025-02-09T09:59:32.000Z",
+          "wordCount": 407,
+          "title": "未来美版有锁即将成为历史",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110114",
+          "author": "crac",
+          "description": "crac: \n有没有这样的 app：\n1.有个“收件箱”，随时收集但没空看的文档、url 丢进去\n2.自己能总结/生成概要预览\n3.根据内容自动分类，支持手动分类\n4.全局关键词搜索、日期筛选\n5.标记阅读状态/支持笔记\n求推荐",
+          "link": "https://www.v2ex.com/t/1110114",
+          "publishedOn": "2025-02-09T09:50:36.000Z",
+          "wordCount": 412,
+          "title": "求推荐稍后阅读的 app",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110113",
+          "author": "cutedogspark",
+          "description": "cutedogspark: \n新买了一个 iPod Nano4 ，有没有用过的佬知道如何导入歌曲啊。是只能导入下载的 mp3 和 mp4 文件吗，可不可以同步我的 Apple Music 的歌单进去。",
+          "link": "https://www.v2ex.com/t/1110113",
+          "publishedOn": "2025-02-09T09:50:28.000Z",
+          "wordCount": 382,
+          "title": "iPod 导入歌曲",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110112",
+          "author": "sosme",
+          "description": "sosme: 从动物进化到史前人，是由于史前人会使用工具生火……\n从石器时代到青铜，铁器，工业，蒸汽，电器，信息时代……人类的进化史其实就是工具的进化史！\n不禁感叹，如果现代人不会数量掌握各种与时代匹配的工具，那么就注定会被时代抛弃！淘汰！\n会用工具，善用工具，真的太重要了！",
+          "link": "https://www.v2ex.com/t/1110112",
+          "publishedOn": "2025-02-09T09:47:34.000Z",
+          "wordCount": 447,
+          "title": "随想：人所以为人，是因为人会用工具！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110111",
+          "author": "ShibanuDrill",
+          "description": "ShibanuDrill: 因为 deepseek 官网老是繁忙，于是在火山上搞了 r1 ，也开了 api 服务，但是找不到 app 能接入的",
+          "link": "https://www.v2ex.com/t/1110111",
+          "publishedOn": "2025-02-09T09:47:28.000Z",
+          "wordCount": 402,
+          "title": "ios 有类似 cherry studio 这样的应用吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110110",
+          "author": "anonymity",
+          "description": "anonymity: 21 年卖掉一加 7Pro 之后再没玩过安卓刷机，\n最近 iOS 越狱巨魔生态拉胯，常用的几个去广告插件基本都停更失效了\n从二手网捡了一台日版 Pixel9Pro ，打算重归安卓阵营\n想实现：\n1 、尽可能隐藏 BL 和 root （ pixel9 开始如果解 BL 的话 AI 功能会失效，以及某银行 app 在 iOS 上除了装 roothide 版越狱之外完全无法隐藏越狱，不清楚安卓是不是这样）\n2 、网飞能看 HDR10\n3 、国内 APP 能压住不至于续航拉胯，同时尽可能保留通知推送\n4 、能用 XP 框架\n检索了信息之后发现目前有 magisk 、kernelSU 和 APatch 三种 root 方案，然后 lsposed 已经停更了\n请教各位大佬，想实现以上目的应该怎么选 root 方案还有 XP 框架？",
+          "link": "https://www.v2ex.com/t/1110110",
+          "publishedOn": "2025-02-09T09:34:32.000Z",
+          "wordCount": 488,
+          "title": "2025 年 pixel 安卓玩机方案？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110109",
+          "author": "levin56",
+          "description": "levin56: \n现在 80%的代码还是自己写的，现在 ai 大致替代了之前搜索 Google 和 stackoverflow 的这一部分，为什么会这样，最主要的是通用型及一些辅助的 utility ai 作用比较大，因为这类代码关联的业务上下文比较少。\n一般情况，你需要告诉 ai 你需要做什么，而现实我的情况是，我写完代码之前，我都不知道整体的思路会是怎么样的，边写才边清楚的。而且很多场景，等我写完给 ai 的描述需求一大段文字，或者把关联的文件代码上上下文一个个找出来打上去的时候，这段时间我自己代码都写完了，所以很多时候，除了通用型 utility 等与具体业务关联不强的，基本上是自己写，因为写文字需求和写代码几乎是等效的。\ntab 提示对于小型项目效果也还可以，但是我们实际场合大多数是大型复杂业务的项目，这时候效果就会大打折扣。",
+          "link": "https://www.v2ex.com/t/1110109",
+          "publishedOn": "2025-02-09T09:26:58.000Z",
+          "wordCount": 720,
+          "title": "我怎么感觉现在， AI 对编程的辅助，并没有网上讨论的那样夸张",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110108",
+          "author": "CAze",
+          "description": "CAze: \n寻找一个全职安卓开发，做一个二开的项目，感兴趣的大佬可以加下 v ，具体私聊:d3hfaWQxMjEx",
+          "link": "https://www.v2ex.com/t/1110108",
+          "publishedOn": "2025-02-09T09:04:58.000Z",
+          "wordCount": 358,
+          "title": "寻找一个全职/兼职安卓开发，做一个二开的项目",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110106",
+          "author": "AhFei",
+          "description": "AhFei: \n以 serverstatus 为例，介绍借助 shawl 将任何程序作为 Windows 服务运行，并实现开机自启。\n指标\n描述\n\n\n\n\n适用系统\nWindows 10/11\n\n\n走通流程时间\n10 分钟\n\n\nshawl 运行任意程序作为 Windows 服务\nGitHub： mtkennerly/shawl: Windows service wrapper for arbitrary commands\n安装 shawl\n到 https://github.com/mtkennerly/shawl/releases 下载最新版本的压缩包，现在电脑基本都是 64 位，就下 shawl-v1.7.0-win64.zip 这种的。然后解压，里面有一个程序文件 shawl 。\n本文在桌面创建一个文件夹（C:/Users/AhFei/Desktop/serverstatus/），名称为 serverstatus ，将 shawl 移动到这个文件夹中，读者可自行选择这个文件夹创建的位置，但是选择好后就不能再移动，否则创建的服务无法运行。\n以管理员权限打开命令行，后续会用到，可以使用下面步骤：\nWin + R 快捷键打开“运行”窗口（ Win 就是徽标键，在空格左边，一般是一个窗口图案）\n输入 cmd\n再按住 ctrl+shift+enter ，会弹出框，允许后就会管理员权限运行了。\n输入 cd C:/Users/AhFei/Desktop/serverstatus/ 进入 shawl 的安装文件夹，记得改成自己的路径。\n使用步骤\n以 serverstatus-rust 为例，在 Windows 上使用可以看这篇文章： Rust 版 ServerStatus 探针安装步骤 - 技焉洲 ，直接在命令行运行 serverstatus 的命令是：\nC:/Users/AhFei/D…",
+          "link": "https://www.v2ex.com/t/1110106",
+          "publishedOn": "2025-02-09T08:50:01.000Z",
+          "wordCount": 616,
+          "title": "以 Windows 服务运行程序并开机自启 - 如 ServerStatus",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110105",
+          "author": "madao1993",
+          "description": "madao1993: \n问题关键词\n2017 年竣工楼盘、格力空调、隔楼层低频共振\n问题概况\n楼上的楼上（简称“楼上上”）的空调最初出现低频共振的时候是 2023 年 12 月，几乎全屋都有共振，卧室和卫生间以及客厅尤为明显，此时距离该格力空调的保修期结束只有 1 个月的时间\n2024 年 1 月初格力“楼上上”请格力的售后过来检查，格力售后说是正常，此时无奈打道回府，忍受低频噪音到春天来临\n2024 年 12 月初，楼上的格力空调也开始出现低频噪音，但是比较“楼上上”的空调噪音的影响范围稍小，此次经过物业沟通加装了减震垫，低频共振减弱 30%\n2025 年 1 月底，“楼上上”的另一间卧室的同型号的格力空调也开始出现低频共振从而影响我整个房屋\n2025 年 2 月初，他卧室门外即能感受到低频共振，但是室内没有共振，两个格力空调经过安装减震垫，低频共振减弱 20%\n最后双方达成共识，“楼上上”女主人人不错，委婉地以“这两个房间基本很难得有人使用，所以如果换个空调的话可能不太划算”为由，愿意在 22 点之前减少空调使用频率且将温度设置为维修师傅推荐的 22 摄氏度（虽然还是有共振，但是做到这一步对于大多数人来说应该已经仁至义尽了，所以我也没必要咄咄逼人）\n踩坑经验\n格力空调，尤其是外机比较小的，谨慎购买（维修师傅的暗示）\n格力空调的廉价产品不要购买，“楼上上”的其它空调没有噪音问题，只有两款同型号的低端产品出现了低频共振\n空调从开机到出现低频共振需要 10 分钟左右时间\n廉价的橡胶减震垫效果不佳，这次的减震垫我在淘宝上查过，四个一套 5 元钱，从淘宝某些踩过坑的用户的真实评价来看，好一些的减震垫最高能减去 60%的共振噪音\n购买房产请务必找个有问题的格力空调来测试一下建筑抗共振的能力，或者直接购买顶楼（虽然也有案例说是楼下的空调共振影响楼上，但是相对较少，就算漏水也要买顶楼，但是务必要注意电梯导致的低频噪音，电梯导致的低频噪音只有起诉一途）\n物业走过一遍之后如果无效请立即拨打 12345 ，且在问题解决之前不要给予回访“满意”评价\n12345 受理噪音问题后会下达给所在社区，社区会给到物业压力\n社区如果怠慢处事可以直接坐在社区办公室检查他们到岗情况\n在报警前最好物业和社区都走一遍\n遇到阿 sir 想草草结案可以选择在进门的时候就开始录像\n近年（ 2021 还是 2022 年？）出台过一个法律，这之后的楼盘的楼板撞击传声的标准提升了一些，有购房意愿的可以选择 2022 年之后的楼盘，可能抗共振效果更好一些，或是以后维权有法可依？\n实在想住鸽子窝的话，可以选择有预设供冷暖的房产，从外面看没有一户安装有空调，在五线城市贵不了多少\n低频共振的检测费用是三万左右，法律认可的鉴定只能委托当地法院司法鉴定，从省法院提供的机构名单里面抽签，且 2023 年后有鉴定资质的机构的鉴定结果也都不再具有法律效力\n低频共振是否超标请参照《社会生活环境噪声排放标准》，低频共振（尤其是由居民楼里面的固定设备导致的，比如空调）的标准和通常的噪音扰民的标准不同，是单独列出来的，且分贝标准要求更严格\n第一次沟通不成功，那么之后就不会再成功\n不要忍，请直接敲门，很多噪音制造者本身没有经历过低频共振的摧残，可能不太能感同身受\n低频共振可能不是楼上或者“楼上上”传来的，也可能是隔壁单元或者楼下传递过来\n承重墙很容易成为低频共振传递的媒介\n与其冒法律风险购买震楼器，不如合法地把我家楼上的格力空调都买了吧",
+          "link": "https://www.v2ex.com/t/1110105",
+          "publishedOn": "2025-02-09T08:47:48.000Z",
+          "wordCount": 507,
+          "title": "记一次空调低频共振的半解决经历",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110103",
+          "author": "irisdev",
+          "description": "irisdev: 姐姐问我手上有多少存款，我说大概 20w ，她跟我说姐夫公司有个什么股份内购计划，一定级别的员工可以内购公司股份（非上市公司），每年可以结算收益，收益率可以达到百分之十，希望我能认购一万股大概 11w 块钱，我觉得投资有风险，很多上市公司的资深员工都被股权套牢，何况非上市公司，于是拒绝，于是她又转而问我能否借她 11w 她自己投资（他们的目标是凑 110w 即 10w 股），说实话我很不想借，我列一下我们的情况，大家帮忙看下，我怎样拒绝能把对我们关系的伤害降低到最低。\n1.我今年 25 周岁，毕业两年多，姐姐比我大九岁，父母都是普通工人，六十岁，即将退休。\n2.我不想借的原因主要有:\n(1)今年回家催婚催的严重，但是我现在除了一点存款还一无所有，而且 it 工作不算稳定，公司去年裁员一半，难说今年会不会裁到我，借出去 11w 的话，支付宝余额就只有个位数 W 了，21 年实习时没啥钱吃过相当长时间的自热米饭和美团十二块钱炒饭，存款不够没啥安全感 \n(2)姐姐毕竟比我大九岁，而且已婚有娃无贷，将心比心的话，我觉得如果我有一个这样的弟弟或者妹妹，我是不会找她借钱的，把风险转嫁给她，我自己不愿意做的事也不愿意发生在我身上\n(3)借钱投资、结婚、买房在我看来都是比较傻逼的行为。。这是个人偏见，但在我的脑子是根深蒂固的印象了，上杠杆搞这些东西，万一亏了就是害人害己\n(4)11w 实在太多了，5w 以下我还是可以接受的，毕竟一个占了我的资产超过一半，一个只有四分之一（没办法穷..,而且自我毕业之后姐姐就时不时问我工资和存款，现在联想起来让我有点不爽\n(5)我觉得他们的实力不足以支撑一百多万的投资计划，姐夫公司的具体经营情况我不清楚，但是投资需谨慎，他们这么玩胆子属实有点大了。在沟通上至少我姐没有跟我说如果不投资对姐夫在公司的事业和发展有什么负面影响\n3.我的顾虑有:\n(1)姐姐对我还算不错，未婚之前会给我买点东西，加在一起有大几千。而且我欠她一个大人情，我大学曾因抑郁休学一年，不敢回老家在她家住了大半年。但是与之相对的，我工作之后给我小侄女买了不少东西，杂七杂八的也有大几千了。同时我高二高三母亲曾来租房给我陪读，当时我姐未婚，从外地回老家发展和我们住一起，虽然是爸妈租的房，但是也算沾了我的光吧，这也是我休学时我妈说我不想回家可以去姐姐家住的原因，陪读时妈妈问我会会影响学习的话可以让姐姐出去住，我说一家人住一起挺好，不影响学习，没必要，后面就一起住了两年。\n(2)姐姐性格比较暴躁，好胜心强，我这次不借的话，大概率会影响我们的关系。\n说到底还是穷吧，如果我有一百万存款肯定借了..但难说那时候会不会找我借五十万，唉",
+          "link": "https://www.v2ex.com/t/1110103",
+          "publishedOn": "2025-02-09T08:34:27.000Z",
+          "wordCount": 796,
+          "title": "姐姐找我借钱投资我不想借",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110102",
+          "author": "abcfreedom",
+          "description": "abcfreedom: \n以前没注意到，今天吃饭观察到海底捞员工碰面的时候会互相说声辛苦了，这个流程是套什么理论，会让员工缓解疲惫吗。",
+          "link": "https://www.v2ex.com/t/1110102",
+          "publishedOn": "2025-02-09T08:26:01.000Z",
+          "wordCount": 472,
+          "title": "海底捞员工间会互相说“辛苦了”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110101",
+          "author": "xiaoker",
+          "description": "xiaoker: \n燃油指标一直摇不到号，快 10 年了。。。那会儿是里程太短了，没有切换过去。现在都排到多少年后了？\n我倒不急着用，主要是考虑以后。现在就算有号了估计也不会通勤，公共交通太方便了，主要是外出开开，租车毕竟没有那么方便。\n如果从概率角度来说，是切换新能源指标还是持续摇号呢？\n大家说说看?",
+          "link": "https://www.v2ex.com/t/1110101",
+          "publishedOn": "2025-02-09T08:24:39.000Z",
+          "wordCount": 419,
+          "title": "新能源指标排到多少年后了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110100",
+          "author": "wencan",
+          "description": "wencan: \ncss 中表达式 calc(var(--vw, 1vw) * 100 - 1000)\n当--vw 是 12.34px 时，表达式计算结果为什么是 1174.15px ？\n\n正确答案： 表达式漏写了 px 单位",
+          "link": "https://www.v2ex.com/t/1110100",
+          "publishedOn": "2025-02-09T08:24:12.000Z",
+          "wordCount": 367,
+          "title": "这算是摸到 LLM 天花板了吗？一个难倒了 ChatGPT 03-mini、Claude 3.5 Sonnet、Deepseek R1 的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110099",
+          "author": "sosme",
+          "description": "sosme:",
+          "link": "https://www.v2ex.com/t/1110099",
+          "publishedOn": "2025-02-09T08:11:21.000Z",
+          "wordCount": 334,
+          "title": "xeggex 跑路了吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110098",
+          "author": "joynvda",
+          "description": "joynvda: 节过完，开工了。到处都是适配 Deepseek 、提供 Deepseek 服务的好消息。\n作为一个外包工程狗，无可避免接到把 Deepseek 用在生产上的任务。\n于是，这周做了一些调研。\n#1 Deepseek 的幻觉并不低\nhttps://www.vectara.com/blog/deepseek-r1-hallucinates-more-than-deepseek-v3\nhttps://github.com/vectara/hallucination-leaderboard\n#2 （基于硅基流动的） DeepseekV3 MoE 视觉理解准确率不如 QwQ ；虽然 DeepseekV3 价格低一些\n《只是初步测试，或者调整参数会有提升》\n\n个人可以理解用 DeepseekV3 的辅助编程；文字生成。这些还有人工调整或非关键性任务。\n但是。。。真的能把 DeepseekV3 或 R1 挂到生产系统和实时策略上吗？\n目前有 2 个场景：对小模型的结果进行复判；对告警信息进行汇总问答\n个人信心不足。\n哪位有成功案例给介绍介绍。",
+          "link": "https://www.v2ex.com/t/1110098",
+          "publishedOn": "2025-02-09T08:08:55.000Z",
+          "wordCount": 392,
+          "title": "盛名之下的 Deepseek 能支撑哪些生产场景？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110096",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia: \n因为 Tabby iTerm 都爆出过严重安全漏洞，所以我只能选择看起来最重视安全的 Termius 。然后发现了一堆比开源 SSH 软件还差的功能：\n电脑版要连自己的主机之前必须先注册登录他们的账号\nSFTP 连大部分开源 SSH 都支持的拖拽下载文件都不支持，也不支持断点续传\n更关键的是没有保存按钮，只能复制文件到左侧主机\nSFTP 连接不稳定重新连接后只能自动返回 home 目录，不能自动返回断开前的目录\n因为同时不支持拖拽下载文件且没有保存文件按钮，MAC 商店版完全不支持下载文件到本地\n主机延迟高或是带宽占满时有一个 100%复现的严重 Bug ，切换到一个文件多的目录再切换到一个文件少的目录，文件列表显示的 100%是文件多的目录，显示的路径又是文件少的那个目录，如果你尝试重命名或下载这个目录里的文件就会报错文件不存在。Termius 里往程序里塞个关不掉的遥测和一堆第三方 SDK ，我觉得不至于几年都没发现这个状态不同步的严重 bug 吧\n还有很多小问题就不逐一列出了，顺便问问还有没有什么 Mac 能用的终端推荐\n别推荐 Warp （我接受不了往 SSH 接入非端侧 AI ） WindTerm （ Bug 实在太多）\n可接受付费",
+          "link": "https://www.v2ex.com/t/1110096",
+          "publishedOn": "2025-02-09T07:49:08.000Z",
+          "wordCount": 816,
+          "title": "Termius 作为一个 SSH 终端缺少这么多基础功能，为什么有人用，顺便问问还有没有什么 Mac 能用的终端推荐",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110094",
+          "author": "rsfengzi",
+          "description": "rsfengzi: 电脑 A 和电脑 B 在同一内网,未使用梯子\n使用相同的 DNS 服务器, \n电脑 A 使用 nslookup 解析 nyaa.si 得到正常结果, \n电脑 B 使用 nslookup 解析 nyaa.si 返回的是 DNS request timed out.\n电脑 B 使用 VMware 虚拟机里面的 windows(网络桥接)用 nslookup 解析 nyaa.si 得到的也是正常结果, \n电脑 B 使用 hosts 指定 nyaa.si 的 IP 地址也无法生效\n使用梯子, 电脑 A 能正常访问 nyaa.si,电脑 B 使用各种梯子手段均无法访问 nyaa.si\n就好像是电脑 B 完全屏蔽了 nyaa.si 这个域名,不管用什么手段都无法解析到正常的 IP 哪怕是 hosts\n这该怎么排查问题啊, 各种网络重置 reset 全试过了 难道只能重装系统\n\n-----------------------\n....破案了,火绒拦截了, 艹",
+          "link": "https://www.v2ex.com/t/1110094",
+          "publishedOn": "2025-02-09T07:25:37.000Z",
+          "wordCount": 495,
+          "title": "非常诡异的网站 DNS 解析问题,求大佬赐教",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110093",
+          "author": "roeberry",
+          "description": "roeberry: 分成两部分和大家分享，第一个是不同职业阶段区别他人的特质，第二个是需要具备哪些方面能力保持竞争力。个人看法，多多指教~\nBilibili: https://www.bilibili.com/video/BV1CMNmerEax/",
+          "link": "https://www.v2ex.com/t/1110093",
+          "publishedOn": "2025-02-09T07:19:52.000Z",
+          "wordCount": 415,
+          "title": "聊聊我作为程序员凭借哪些特质走到现在",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1110092",
           "author": "CC11001100",
           "description": "CC11001100: \n \nhttps://wireless-sec.github.io/cmcc-bypass-poc/",
@@ -335,7 +518,7 @@
           "description": "ocsp: 这几天温度零下几度，双手和钢铁一样冰，\n请问这是是肾虚吗？应该怎么调理有效？",
           "link": "https://www.v2ex.com/t/1110088",
           "publishedOn": "2025-02-09T06:49:34.000Z",
-          "wordCount": 700,
+          "wordCount": 718,
           "title": "冬天双手冰凉是肾虚吗？",
           "imageUrl": null
         },
@@ -365,7 +548,7 @@
           "description": "xingye163: 开网店使用，之前注册了个阿里小号，现在好像不提供注册了，请问还有哪些平台提供稳定可靠的虚拟小号注册功能，因为不想办那么多手机卡，长期使用，开的网店都是要经营几年以上的，到时候可能提现或者换系统都要是接受验证码验证的，有没有大佬推荐指点下。",
           "link": "https://www.v2ex.com/t/1110083",
           "publishedOn": "2025-02-09T05:52:05.000Z",
-          "wordCount": 508,
+          "wordCount": 520,
           "title": "国内现在还有哪些稳定可靠虚拟手机号码的服务商",
           "imageUrl": null
         },
@@ -375,7 +558,7 @@
           "description": "lysShub: \n图\n这是 tcp ping-pong 的延迟, 目的地址相同，但会有一些连接的延时总是高 30ms 。\n一般路由只关心 ip 地址吧，为什么连接有关？",
           "link": "https://www.v2ex.com/t/1110080",
           "publishedOn": "2025-02-09T05:18:06.000Z",
-          "wordCount": 392,
+          "wordCount": 394,
           "title": "为什么不同的连接走不同的路由？",
           "imageUrl": null
         },
@@ -395,7 +578,7 @@
           "description": "cye3s: 最近发现手机市场下的评论，很多用户使用手机 TIM 会出现随机退出登录或被限制社交功能，问客服人员说不再维护 TIM ，那你出个官方公告，苹果市场 app 下架，官网电脑版也不能下载。想让我们移到功能更乱更好收费的 QQ ？那也别用这种卑贱的手段！！！！",
           "link": "https://www.v2ex.com/t/1110078",
           "publishedOn": "2025-02-09T04:50:38.000Z",
-          "wordCount": 450,
+          "wordCount": 458,
           "title": "最近大家手机 TIM 是不是老出问题",
           "imageUrl": null
         },
@@ -405,7 +588,7 @@
           "description": "cbjistc: 手头有一台 ipad air m2 11inch ，在保\n在纠结要不要换成一台 ipad pro m1 2021 13inch ，2021 年的二手\nipad pro 优点：\n1.ipad pro 屏幕是 xdr 的，但不知道提升有多大\n2.ipad pro 是面部识别\n    3.我有一整套 ipad pro 配件（ magic keyboard 和 apple pencil 2 ，均不支持 ipad air ）\nipad air 优点：\n1.电池全新\n    2.带保修\n    3.情况完好，ipad pro 不知道真机情况如何\n跪求推荐，谢谢！",
           "link": "https://www.v2ex.com/t/1110077",
           "publishedOn": "2025-02-09T04:29:12.000Z",
-          "wordCount": 580,
+          "wordCount": 582,
           "title": "求建议-- iPad pro vs. iPad air",
           "imageUrl": null
         },
@@ -425,7 +608,7 @@
           "description": "JingW: \n我有一个用了好多年的美区账户，偶尔用来买一些大陆不存在的 app 。\n这个账户之前是用雅虎邮箱注册的 xxx@ymail.com 的地址，雅虎邮箱对大陆不可用以后我也没管他。最近几个月我想起了这个事情就把这个账户的邮箱改到了 gmail 。当时看起来也没什么问题\n今天我想登陆这个美服账号时却说我密码不对，找回密码的界面不接受我的 gmail 邮箱，也不接受原来的雅虎邮箱，统一提示“此 Apple 账户无效或不受支持。”\n我想问一下大家有没有遇到这种问题，我这个账户还有救吗？如果没有的话，重新申请一个美区账号又什么可行的方案吗？",
           "link": "https://www.v2ex.com/t/1110075",
           "publishedOn": "2025-02-09T04:12:53.000Z",
-          "wordCount": 437,
+          "wordCount": 449,
           "title": "美区账户失效，找回密码提示”此 Apple 账户无效或不受支持“",
           "imageUrl": null
         },
@@ -455,7 +638,7 @@
           "description": "seafog: \n虽然已经毕业了好几年，但是回忆起大学四年还是非常痛苦。\n当年在山东上大学，没有独立卫浴也没有空调。\n夏天一到，一晚上不停地出汗，然后早上 8 点去上课，特别害怕自己身上有汗味。\n再加上我个人不愿意去大澡堂，于是我每天都要坐公交车 3 站，去有隔间的健身房洗澡。\n说实话，不知道自己怎么熬过来的。",
           "link": "https://www.v2ex.com/t/1110071",
           "publishedOn": "2025-02-09T03:47:38.000Z",
-          "wordCount": 905,
+          "wordCount": 946,
           "title": "大学没有独立卫浴这件事？",
           "imageUrl": null
         },
@@ -477,186 +660,6 @@
           "publishedOn": "2025-02-09T03:26:30.000Z",
           "wordCount": 422,
           "title": "有最近申请过 JetBrains 开源项目许可证的吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110068",
-          "author": "livc",
-          "description": "livc:",
-          "link": "https://www.v2ex.com/t/1110068",
-          "publishedOn": "2025-02-09T03:18:23.000Z",
-          "wordCount": 369,
-          "title": "求推荐折叠屏类似磁吸指环支架的配件",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110067",
-          "author": "nikelei",
-          "description": "nikelei: \n19 年入行坐标 hz ，去年 24 年职业生涯感觉真是走到了尽头。24 年五月底之后一直找到了九月底才入职，中途也陆续面了一些公司（外包 100%）。面试堪比造火箭，不过也怪自己八股文背得不太 6 。九月底入职的也是外包，工作内容全是擦屁股，连一个正经功能开发都没有。本以为可以稳定工作到今年行情好再找一个小自研。哪知道 12 月底传出甲方裁员，哈哈哈整个研发部门就剩一人。我这个外编自然也没岗位了，现在只能期望今年金三银四运气好点。（个人感觉：真招人的公司看运气，九月底进的外包就是因为项目经理看中我工作年限久经验足才选的我。难绷！！） java 五六年工作内容都比较杂，后端前端运维都做过。面试上真就得靠运气哈哈哈，因为问深了我答不出来。（去年被面试官嘲讽，不如他手底下的实习生。）唉，工作能力是有的就是好岗位难过面试那关。我这个条件，今年没运气的话也很难有胜算。现在也想着转哪个行业，也有物色几个方向。（ 1.抖音微信小游戏方向 2.全干工程师）来这水个帖子，和大家交流一下。",
-          "link": "https://www.v2ex.com/t/1110067",
-          "publishedOn": "2025-02-09T03:16:35.000Z",
-          "wordCount": 869,
-          "title": "28 岁大龄 javaer，失业中迷茫中",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110066",
-          "author": "zhouyin",
-          "description": "zhouyin: java 文档里有写 一个 char 由两个自己组成 但一个 utf8 汉字由三个字节组成\n为什么这样赋值没事？\nchar a = '我';",
-          "link": "https://www.v2ex.com/t/1110066",
-          "publishedOn": "2025-02-09T03:07:46.000Z",
-          "wordCount": 1393,
-          "title": "Java 为什么能给 char 类型赋值中文字符",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110064",
-          "author": "halden",
-          "description": "halden: \n写了一篇关于 BTC 矿场的文章，自己做的 research ，但我的专业性更多体现在商业模式的分析上，对 BTC 技术细节的部份可能有误差，求指正🙏 文章有点长，技术部份直接看第三部份： https://mp.weixin.qq.com/s/naj9-oYW2R3b99Hj2spIwQ",
-          "link": "https://www.v2ex.com/t/1110064",
-          "publishedOn": "2025-02-09T02:51:27.000Z",
-          "wordCount": 490,
-          "title": "请教社区大佬关于 BTC 挖矿行业的情况",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110063",
-          "author": "SherlockKevin",
-          "description": "SherlockKevin: \n操作很简单，主观体验还挺棒，感觉基本可以摆脱收费昂贵的 Adobe Acrobat 以及一些不好用的其他 PDF 编辑工具",
-          "link": "https://www.v2ex.com/t/1110063",
-          "publishedOn": "2025-02-09T02:50:00.000Z",
-          "wordCount": 393,
-          "title": "Firefox 135 更新加入了编辑 PDF 的功能",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110062",
-          "author": "996jiucai",
-          "description": "996jiucai: 卧槽，你们是不知道现在版本女英雄有多强势，哈哈。\n我昨天注册了一个 soul 女号，我靠，就发了 2 个露脸视频(网上找的) + 一个黑丝不露脸视频(网上找的)。2h 就有将近 100 人和我聊天，^_^。\n而且那个破软件，女号举报男的轻而易举，哪怕男的说的没有那个意思，只要女号多举报 2 次，100%限制男的私聊功能 （像不像现在的社会环境，哈哈）。\n而且你只要引导男的说一点点点骚话，你举报一次，它就可以 100%限制私聊了。哈哈。 比如男的问我多大，我说\"哥哥，你说的是什么\"，哈哈 （抱歉，我有点无聊，^_^）。我还会说\"哥哥年龄太大了\"，男号一般会问\"你喜欢多大的\"，我说\"18cm\"，^_^ 。男的只要回复，举报 100%成功。（像不像现在的社会环境，哈哈）。\n而且女号的匹配次数不受到限制哦，男的好像一天只有 20 次吧。只要我开始匹配，100 个男的 100 个都会和我聊天 （我突然感觉骗男的钱真容易，哈哈）\n你可以把这个看成一个无聊的社会小实验。\n\n最让我感觉到离谱的是，那个破软件上，很多男的居然都以过节给女的发钱为荣。什么春节发个 5200 ，情人节发个 13140 ，什么生气了发个 10000 ，什么刚见面就送个 16 pro max 。 （感觉骗男的钱真容易+1 ）\n很多女的也以男的给她们花钱为荣，什么男朋友很抠门，什么一个月 6000 不够自己花，什么男朋友发了 5w 年终奖，只给自己花 4w 不爱自己，哈哈，真离谱\n-------------------------------------------------------------------------------------\n我和你们说，那破软件，礼物不能体现。要不然我都能靠那个赚钱了。昨天收到了 10 个礼物吧，那个礼物好像是需要花钱买的。\n这软件两头吃，女号收了礼物不能体现，只能礼物换成别的礼物，神经病。可能是想让女号换了礼物送男号？？？\n你们看，即使一个如此偏爱女性的软件，最后涉及到利益也是两头吃，哈哈",
-          "link": "https://www.v2ex.com/t/1110062",
-          "publishedOn": "2025-02-09T02:31:28.000Z",
-          "wordCount": 1164,
-          "title": "关于我在 soul 注册了一个女号的社会小实验",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110061",
-          "author": "moefishtang",
-          "description": "moefishtang: \n使用设备管理软件(MDM)，配置“禁止配置蜂窝数据”（ no_config_mobile_network ）后，设置和控制中心快捷方式的确无法关闭蜂窝网络，也无法打开蜂窝网络配置面板了\nhttps://imgur.com/FZS0VAh\n您猜怎么着，直接长按控制面板的卡片，通过卡片中的开关就能关闭蜂窝网络，甚至能跳转到蜂窝网络配置面板，合着这个工作政策配置了个寂寞 😂\nhttps://imgur.com/TPXY5Pi\n更为抽象的是，配置“禁止配置无线网络”(no_config_wifi)却完美屏蔽了所有可能配置无线网络的选项.\n包括这个控制面板卡片（长按控制面板卡片会直接跳转到 Wifi 设置，然后显示“已被工作政策禁用”，没被限制的话是打开跟蜂窝网络类似的一个卡片）\nHyperOS 对于两种网络类型被工作政策限制时，表现的行为不一致啊...",
-          "link": "https://www.v2ex.com/t/1110061",
-          "publishedOn": "2025-02-09T02:29:35.000Z",
-          "wordCount": 448,
-          "title": "HyperOS 的抽象行为：受管理设备配置 no_config_mobile_network 后，仍然可以通过控制中心卡片关闭蜂窝网络",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110059",
-          "author": "Jianzs",
-          "description": "Jianzs: \n23 年买了一个 天钡 WTR ，CPU 是 AMD R5-5500U ，前几天不知道什么原因，关机了，可能是猫师傅动了电源线，然后就开不开机了。\n现象是：\n把机械硬盘、固态硬盘全部拔掉，还是卡在 American Megatrends 这个界面。\n把 U 盘系统盘也拔掉，会直接进入 BIOS ，看时间是正确的，主板电池应该还有电。\n请问 V 友，这种情况有哪些可能的原因，该如何排查如何修复？联系厂家让寄回，有些麻烦。",
-          "link": "https://www.v2ex.com/t/1110059",
-          "publishedOn": "2025-02-09T02:23:56.000Z",
-          "wordCount": 426,
-          "title": "NAS 卡在 AMI 怎么办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110058",
-          "author": "snarkprayer",
-          "description": "snarkprayer: \n一直卡在“分析，自动帮助 APP 开发者改进产品和服务”的界面上，点继续就转圈，转了一个多小时了，求助",
-          "link": "https://www.v2ex.com/t/1110058",
-          "publishedOn": "2025-02-09T02:17:13.000Z",
-          "wordCount": 374,
-          "title": "MacMini M4 昨晚上更新 15.3 后，重启一直卡在分析界面",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110057",
-          "author": "jijijjijjjjiijjj",
-          "description": "jijijjijjjjiijjj: \n因为 gpt 动不动就降智,每次要用都要先发图,弄的很烦,然后 deepseek 当时很好用.然后退订了.\n现在卷起来了.gpt 还降智吗?主要现在 deepseek 动不动就网络拥堵.第三方那几个也时不时卡",
-          "link": "https://www.v2ex.com/t/1110057",
-          "publishedOn": "2025-02-09T02:13:02.000Z",
-          "wordCount": 452,
-          "title": "最近 openai 还降智吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110053",
-          "author": "xgdgsc",
-          "description": "xgdgsc: \n最近经常遇到窗口莫名卡在最上面的，要最小化或者 cmd w 才好，不知道有没有同样的",
-          "link": "https://www.v2ex.com/t/1110053",
-          "publishedOn": "2025-02-09T02:00:35.000Z",
-          "wordCount": 338,
-          "title": "最近经常遇到任意窗口莫名卡在最上面的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110052",
-          "author": "jujyjse",
-          "description": "jujyjse: \n在一些网络环境下，docker pull 必会卡的死死的。于是大家想了很多办法：\n给 docker daemon 挂代理服务器\n找一个靠谱的 DockerHub 代理（好想现在也没什么太稳定的了）\n通过大慈善家 Cloudflare 自建一个 DockerHub 代理\n这里我做了一个 Chrome 扩展 ，给大家提供了一个新的思路：\n通过浏览器代理直接下载容器镜像文件 tar 文件，然后使用 docker load 导入镜像。\n\n在扩展弹出的窗口里面直接输入镜像名称即可，除了 DockerHub 外， ghcr.io 等也都是支持的！\n\nChrome 商店地址： https://chromewebstore.google.com/detail/docker-image-downloader/dfpojffmnkiglpjpjodlpmoejdcfobnd\n下载器的原理是这样的：\n根据 Docker Registry HTTP API 来模拟 docker pull 的行为\n将下载下来的 layers 根据 docker load 支持的格式组装起来，配合 tar-stream 直接流式打包\nchrome extension v3 支持 service-worker ，service-worker 支持 Fetch Event 可以让用户在浏览器的下载器中直接下载上一步流式打包的 tar 文件",
-          "link": "https://www.v2ex.com/t/1110052",
-          "publishedOn": "2025-02-09T01:53:23.000Z",
-          "wordCount": 523,
-          "title": "[Chrome 扩展] 直接在浏览器中下载 DockerHub 镜像（找不到好的镜像代理的新选择）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110051",
-          "author": "xiyy02",
-          "description": "xiyy02: 公司的上班时间在 965~985 之间徘徊，一个迭代 2 周，迭代内要做本迭代的需求（ 1~3 个），要准备下个迭代需求的评审和方案（也是 1~3 个），期间还要处理各种业务方提过来的琐事。。\n老代码的坑很多，经手的人太多导致编码思路也都大相径庭，按照上面的节奏，排期很紧张，有时甚至需要周末写代码追进度（而且周末不能申请加班，所以只能牺牲自己的周末时光）\n感觉精力被表面上 965 的工作消耗殆尽，如果我没工作，或者业余时间充裕，肯定会去研究 AI 、写自己的开源项目、做自媒体等一系列自己感兴趣的东西。\n为什么不周末做？因为被折腾了 5 天后，甚至有时还要周末加班追进度，真的是看到代码就恶心，只想睡大觉刷手机，怎么改善这种状态？",
-          "link": "https://www.v2ex.com/t/1110051",
-          "publishedOn": "2025-02-09T01:52:00.000Z",
-          "wordCount": 678,
-          "title": "被工作占据了大部分精力，下班只想躺平刷手机，看到代码就恶心，如何自救？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110050",
-          "author": "apollo007",
-          "description": "apollo007: \n去年买过 emby ，体验实在是不好，最后还跑路了。\n所以来问问各位所知道的靠谱的 emby 。\n诉求如下：\n不跑路（迄今已稳定运行多年）。\n线路稳定，不会频繁更换。这点很重要。\n代理路线和直连都能接受。价格适中都可以。",
-          "link": "https://www.v2ex.com/t/1110050",
-          "publishedOn": "2025-02-09T01:43:09.000Z",
-          "wordCount": 703,
-          "title": "各位有推荐靠谱的 emby 吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110049",
-          "author": "Keystroke",
-          "description": "Keystroke:",
-          "link": "https://www.v2ex.com/t/1110049",
-          "publishedOn": "2025-02-09T01:36:56.000Z",
-          "wordCount": 115,
-          "title": "如果 Apple Intelligence 接入 DeepSeek，如今国行苹果是不是没有那么不可接受了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110048",
-          "author": "hammy",
-          "description": "hammy: 未雨绸缪，学点东西",
-          "link": "https://www.v2ex.com/t/1110048",
-          "publishedOn": "2025-02-09T01:26:34.000Z",
-          "wordCount": 535,
-          "title": "有什么自学会计入门的网站、教程吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110047",
-          "author": "xierduo",
-          "description": "xierduo: 现货不议价，只要链接还在就可以直接拍。\n不挑号，盲发。走闲鱼，非偏远圆通包邮。\n全新未激活原封带卡板，有需要的朋友可以联系我\nV：Ranger7hero\n或者\nTelegram: @haisenbergor\n [闲鱼]  https://m.tb.cn/h.TLG5mpp?tk=fQUEeT9ujC1 HU591 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」\n点击链接直接打开\n或闲鱼搜用户：请叫偶达文西\n飞机换绑不成功的话就更换节点，或者下载最新版本重新注册。 激活后一年内免费接码，一年到期前充值 5NZD 或者转入 1NZD 即可续期一年，可以加我 V 已建互转群",
-          "link": "https://www.v2ex.com/t/1110047",
-          "publishedOn": "2025-02-09T01:25:55.000Z",
-          "wordCount": 406,
-          "title": "到手即用 0 成本保号 25 年元旦新西兰激活 skinny 电话卡¥78 包邮 现货不多",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110043",
-          "author": "bfhyqy",
-          "description": "bfhyqy: \n2025 提前祝大家元宵节快乐，今年再次抽奖回馈大家，可以参加充 10 元送 5 元的活动。\nT 楼抽奖规则\n奖品：30 张全新待激活的英国 giffgaff 卡\n参与方式：T 楼，不限内容，每人参与一次，重复回复会判无效，随机楼层中\n开奖规则：请参考 V2EX 抽奖小程序\n开奖时间：2025-02-09 21:25 自动开奖(取决于 21:25 前的楼层数和当天的排列五组合结果，有兴趣的可以参考 V2EX 抽奖小程序 自己测算)\n如何领奖\n1 访问 免费邮寄 提交邮寄信息\n2 访问 联系我们 联系客服审核\n3 客服审核通过后预计次日寄出\n4 领奖截止日期：2025-02-11\n万一没有中奖呢\n没有抽中的也可以联系我们 购买预置套餐或者储值的，产品规格 更丰富。\n实在对时效没有要求（大约需要 1 个月时间）的，也可以\n参考 这可能是目前最全面的 giffgaff 实体卡申请指南 \n或者\n参考 英国实体 SIM 卡 giffgaff 申请、激活和使用攻略 \n自助申请。\n也欢迎大家加入\nTG 群：eSIM card 交流群 ，主题 eSIM 、eSIM 卡。\n微信群：请访问 联系我们 加入",
-          "link": "https://www.v2ex.com/t/1110043",
-          "publishedOn": "2025-02-09T00:33:25.000Z",
-          "wordCount": 1225,
-          "title": "T 楼抽奖免费送出（顺丰包邮）30 张全新待激活的英国 giffgaff 卡",
           "imageUrl": null
         }
       ]
