@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -197,6 +203,43 @@
           "wordCount": 1069,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -248,50 +291,250 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/696",
-          "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/696",
-          "publishedOn": "2025-01-29T09:14:56.000Z",
-          "wordCount": null,
-          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/695",
-          "author": null,
-          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/695",
-          "publishedOn": "2025-01-25T07:34:43.000Z",
-          "wordCount": null,
-          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1110166",
+          "author": "pursuit",
+          "description": "pursuit: 看这些不能使你升职加薪\n但可使你技术视野宽广\n学术修养和素养内含光",
+          "link": "https://www.v2ex.com/t/1110166",
+          "publishedOn": "2025-02-09T16:08:36.000Z",
+          "wordCount": 351,
+          "title": "图书馆期刊室可看的计算机期刊学报",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110165",
+          "author": "orangy",
+          "description": "orangy: 之前一直在这个网站充值 oyunfor.com ，然后会跳转到 PayTR 网站支付，最近试了银联、运通、VISA 、JCB 各种卡，全部付款失败…\n大家有遇到吗？还有其他充值渠道吗？",
+          "link": "https://www.v2ex.com/t/1110165",
+          "publishedOn": "2025-02-09T16:05:32.000Z",
+          "wordCount": 389,
+          "title": "土区无法充值",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110164",
+          "author": "tlerbao",
+          "description": "tlerbao: https://marketplace.visualstudio.com/items/GitHub.copilot-chat/changelog\n更新了更新了！\nEdits 不是预览版了，增加了多点预测补全，又追回来了吗？\n这几天一直用 Cursor ，多点预测补全和 Composer 确实好用\n曾经的代码补全王者 Github Copiot 太安逸了，一下子让 Windsurf 和 Cursor 打击够呛。\n之前发布的 Edits 就好像 半成品的 Composer 。\n这次更新算是追回来一些了吗？还免费哈哈。",
+          "link": "https://www.v2ex.com/t/1110164",
+          "publishedOn": "2025-02-09T15:57:19.000Z",
+          "wordCount": 389,
+          "title": "曾经的王者 Copilot 这算是追上 Cursor 了吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110163",
+          "author": "dadaji",
+          "description": "dadaji:",
+          "link": "https://www.v2ex.com/t/1110163",
+          "publishedOn": "2025-02-09T15:53:09.000Z",
+          "wordCount": 349,
+          "title": "打算上半年学个车，有什么要避坑的吗，坐标深圳",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110162",
+          "author": "zzzyyysss",
+          "description": "zzzyyysss: \n不需要其他冗余的功能，指到单词上，即可朗读。",
+          "link": "https://www.v2ex.com/t/1110162",
+          "publishedOn": "2025-02-09T15:43:00.000Z",
+          "wordCount": 371,
+          "title": "有没有鼠标放上去 即可朗读单词的网页插件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110161",
+          "author": "Rust2015",
+          "description": "Rust2015: \n无法登录就看不到效果，有什么好的方法",
+          "link": "https://www.v2ex.com/t/1110161",
+          "publishedOn": "2025-02-09T15:42:48.000Z",
+          "wordCount": 340,
+          "title": "在 GitHub 下载的 program，无法登录",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110159",
+          "author": "Leon6868",
+          "description": "Leon6868: \n如题，比如 https://gemini.google.com/app gemini 的滚动条样式在 @media (pointer: fine){} 中定义，但是现在已经失效了",
+          "link": "https://www.v2ex.com/t/1110159",
+          "publishedOn": "2025-02-09T15:07:27.000Z",
+          "wordCount": 368,
+          "title": "Chrome 133.0.6943.60 @media (pointer: fine) 失效？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110158",
+          "author": "azev",
+          "description": "azev: \n有点奇怪 就是我转存了别人的分享后 又分享 结果一会我的分享被屏蔽了 但是原始的别人的分享却是好好的\n如果是程序化的检测 不是很自然的应该往前继续找吗？\n不太明白这个检测程序 是个什么操作",
+          "link": "https://www.v2ex.com/t/1110158",
+          "publishedOn": "2025-02-09T14:58:18.000Z",
+          "wordCount": 377,
+          "title": "夸克网盘这个问题是怎么回事？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110157",
+          "author": "xia0ta0",
+          "description": "xia0ta0: \nElven 是一家专注于 Web3 的财报平台，为 Crypto 项目、投资机构、研究机构提供一键化的透明、合规、可审计的财务报告服务。目前快速扩张中，欢迎有意 Web3 方向发展的同学。\n岗位职责:  \n负责财务平台的数据处理和计算，保证财务数据的准确性 \n参与系统的业务方案制定和相关接口开发 \n参与平台基础设施升级，持续重构\n优化 ETL 流程，保证亿级数据量的计算性能\n任职要求:\n熟练掌握 Python 编程语言，有三年以上的开发经验\n具备良好的系统设计和架构经验或能力，能够设计和开发高性能、可扩展的业务架构\n了解 Crypto 的基础技术概念，有很好的学习能力 \n熟练 Linux 操作系统的基本操作，有一定的运维能力\n有 MySQL 、PostgreSQL 等常用数据库的使用经验，了解任意一个列式数据库  \n良好的开发习惯，包括优秀的代码注释和有条理的开发文档编写  \n具备软件工程思维，能与团队紧密合作，理解和分析业务需求，并进行系统设计和开发\n有 Github 开源项目和 ETL 工具使用经验者优先\n公司技术栈：Node.js/Python/PostgreSQL/Dagster/Docker/DuckDB/Redis\n简历请发邮箱：amlueW9uZy56aHVAZWx2ZW4uY29t",
+          "link": "https://www.v2ex.com/t/1110157",
+          "publishedOn": "2025-02-09T14:53:42.000Z",
+          "wordCount": 402,
+          "title": "[北京] Web3 公司招聘 Python 开发工程师，可远程[20-26K]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110156",
+          "author": "yyws2012",
+          "description": "yyws2012: 如题，目前看微信键盘做了这个，但实在不太想用他们家的产品。\n试了下 gboard 是没有。\n或者有没有什么手段把苹果官方的这个功能给强行打开？",
+          "link": "https://www.v2ex.com/t/1110156",
+          "publishedOn": "2025-02-09T14:52:49.000Z",
+          "wordCount": 353,
+          "title": "苹果砍掉 11 寸设备的拆分键盘之后，自己实现了拆分键盘的输入法有哪些？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110155",
+          "author": "HikariLan",
+          "description": "HikariLan: \n从第一台分时操作系统的横空出世，到 Intel 推出双核 CPU 打破摩尔定律的诅咒，新的技术迫使人们不断探索并发编程之路，以试图触碰人类几千年以来知识结晶的最大高度。\n引言\n如果你了解过计算机操作系统的历史，那么你一定知道，早期的计算机操作系统并不支持多用户功能，这是因为单个 CPU 无法同时处理来自多个用户的输入输出，同样，程序也无法同时运行，只能按顺序运行。后来被发明的分时操作系统解决了这个问题，同时也为程序员带来了“并发”的概念。\n在计算机科学中，“并发（ Concurrency ）”描述的是一种计算机程序的运行状态，即通过时间片轮转的方式，允许多个计算机程序在一段连续时间内以一定机制在一个或多个 CPU 核心上轮流运行，以营造一种所有计算机程序在同时运行的假象。\n诚然，这种基于操作系统抢占式调度的时间片轮转机制对于应用程序开发者是透明的，但是随着应用程序规模的不断膨胀和用户更多的需求产生，应用程序开发者意识到他们有时需要占用不止一个 CPU 资源，于是，并发编程应运而生。\n多进程模型\n早期操作系统其实是没有线程的概念的，一个进程只能有唯一一个线程存在，进程同时担任着最小的资源分配单位和最小的 CPU 调度单位的职责。在这种情况下，多进程是非常自然就能想到的并发模型。在这种模型下，进程与进程之间通过管道、Socket 等机制进行数据交换，并使用操作系统提供的并发原语来进行同步。\n多线程模型\n后来人们发现，进程并不适合担任 CPU 调度的最小单位，因此，线程横空出世。线程最大的特点是与同一个进程内的其他线程共享地址空间和操作系统资源（比如 I/O 句柄），这使得操作系统在调度到同一个进程的其他线程时只需要更换程序调用栈（ CPU 寄存器）即可，避免了高额的性能开销；同时，由于线程共享地址空间，线程与线程之间交换数据可以通过更高效（尽管有时并不安…",
+          "link": "https://www.v2ex.com/t/1110155",
+          "publishedOn": "2025-02-09T14:52:48.000Z",
+          "wordCount": 1006,
+          "title": "从进程到协程：计算机的并发编程之路",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110154",
+          "author": "RichardY",
+          "description": "RichardY: 如果国内手机号换绑到国外手机，wechat ，能否使用网页版微信？",
+          "link": "https://www.v2ex.com/t/1110154",
+          "publishedOn": "2025-02-09T14:51:27.000Z",
+          "wordCount": 380,
+          "title": "国外手机号注册的 WeChat 能使用网页微信吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110153",
+          "author": "rrZ2C",
+          "description": "rrZ2C: 我是在 JD 东莞线下门店买的，查了此时网上同款价格含补贴是 7999\n另外看局小红书情报深圳其他线下 苹果授权门店补货完成后也是 7999.\n这么看来 JD 还挺实在的  之前的批次不涨价",
+          "link": "https://www.v2ex.com/t/1110153",
+          "publishedOn": "2025-02-09T14:34:49.000Z",
+          "wordCount": 399,
+          "title": "在 JD 线下门店使用国补用 7199 买了 Macbook Air M3 24+512，比 JD 网上便宜 800",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110152",
+          "author": "Dalexfefun",
+          "description": "Dalexfefun: 感谢 AI ，让普通人都可以做简单的小产品。但是做产品真的只是需要一个程序员吗？\nno ，no ，no 。不洞察用户需求，调研市场，埋头开发只是自嗨行为。\n以下 Tips 是每个独立开发都需要知道的：\nTIPS\n去找已经存在的需求，不要自己想需求；\n新手不要想太大的需求，尽量一个星期能够开发完成，否则会永远上不了线；\n用户需要的不是一个大而全且复杂的产，用户需要的是一个能够解决他们某一个需求的产品；\n别人做过的产品不代表我们不能做，尤其是别人正在赚钱的产品我们更可以做；\n已经被别人证明过的需求，我们再做一个，然后瞄准竞品暂时还没有进入的市场，就能拿到用户；\n需求即关键词，关键词即域名，域名即功能，见域名而知网站功能，会让推广事半功倍；\n不要一上线就去申请 Adsense ，等你有一定流量再去申请；\n更不要产品还没开发就浪费时间去注册海外公司；\n网站上线，只完成了赚钱之旅的 20%工作，剩下 80%都是推广工作，更要耐心去做。\n同一个关键词，发达国家比不发达国家价值更高\n离钱越近的关键词，价值越高（离购买动作越近就挖掘新是离钱越近） 此外，就流量主而言，也是离越贵的目标用户，越值钱。例如：酒店分享网站，可以投酒店的广告，而酒店属于高消费，流量就贵~\n\n\n目前我正在做流量站，以下是我的一些作品：\nhttps://funny-jokes.co/\nhttps://coreballjp.com/",
+          "link": "https://www.v2ex.com/t/1110152",
+          "publishedOn": "2025-02-09T14:34:22.000Z",
+          "wordCount": 372,
+          "title": "有了 AI，开发门槛降低，但独立开发者并不等于只需要开发就能挣钱",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110151",
+          "author": "CC11001100",
+          "description": "CC11001100: \n使用前：\n \n使用后：\n \n官网：\nhttps://llm-sec.github.io/deepseek-helper-userscript/\nGitHub 仓库： https://github.com/llm-sec/deepseek-helper-userscript",
+          "link": "https://www.v2ex.com/t/1110151",
+          "publishedOn": "2025-02-09T14:34:21.000Z",
+          "wordCount": 387,
+          "title": "DeepSeek“服务器繁忙”解决方案（饮鸩止渴版）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110150",
+          "author": "saySilence",
+          "description": "saySilence: \n用的 powershell7 ，并不是自带的 powershell 。\nt，他就变成下面这样了。\nPS C:\\Users\\acer\\Desktop\\web-online-modified\\blog-static.cnblogs.com\\files\\blogs\\806667> t],[\"PSReadLine\\\\PSConsoleHostReadLine\",2,\"\\r\\nPSConsoleHostReadLine \\r\\n\"],[\"PowerShellGet\\\\Publish-Module\",2,\"\\r\\nPublish-Module \\r\\n\"],[\"PowerShellGet\\\\Publish-Script\",2,\"\\r\\nPublish-Script \\r\\n\"],[\"PowerShellGet\\\\pumo\",2],[\"CimCmdlets\\\\rcie\",2],[\"CimCmdlets\\\\rcim\",2],[\"CimCmdlets\\\\rcms\",2],[\"PowerShellGet\\\\Register-PSRepository\",2,\"\\r\\nRegister-PSRepository \\r\\n\"],[\"Defender\\\\Remove-MpPreference\",2,\"\\r\\nRemove-MpPreference \\r\\n\"],[\"Defender\\\\Remove-MpThreat\",2,\"\\r\\nRemove-MpThreat \\r\\n\"],[\"'C:\\\\Program Files\\\\JetBrains\\\\IntelliJ IDEA 2021.3\\\\bin\\\\repair.exe'\",2,\"C:\\\\Program Files\\\\JetBrains\\\\IntelliJ IDEA 2021.3\\\\bin\\\\repair.exe\"],[\"D:\\\\…",
+          "link": "https://www.v2ex.com/t/1110150",
+          "publishedOn": "2025-02-09T14:18:06.000Z",
+          "wordCount": 624,
+          "title": "cursor 中使用 powershell 跳出一大堆路径",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110148",
+          "author": "jiayouzl",
+          "description": "jiayouzl: \n先说答案，最终发现问题是网线出问题了。。。。。\n这段时间 Nas 读写文件速度明显慢了很多，一直也没空找问题，趁着过年空就捣鼓下，各种排除都正常的，搞了大半天换了一条网线一切正常了。\n网线外观看先上去没任何问题，而且 Nas 我是放在家里柜子里的平时也碰不到的，还是绿联的品牌 6 类线没想到质量这么差，换了一条网线速度就正常了。\n我原本以为是 Nas 系统出问题了，因为这台 Nas 已经运行好几年了，没想到是网线坏了。",
+          "link": "https://www.v2ex.com/t/1110148",
+          "publishedOn": "2025-02-09T14:10:35.000Z",
+          "wordCount": 398,
+          "title": "Nas 读写文件速度奇慢无比，排错了半天，最终。。。。。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110147",
+          "author": "Bitram",
+          "description": "Bitram:",
+          "link": "https://www.v2ex.com/t/1110147",
+          "publishedOn": "2025-02-09T14:04:39.000Z",
+          "wordCount": 380,
+          "title": "现在还有人自己建站搭建博客吃广告费吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110146",
+          "author": "wxmomomowx",
+          "description": "wxmomomowx: 如密码为 123456 解锁到安卓 1 系统\n如密码为 654321 解锁到安卓 2 系统\n同时每个系统都可以正常使用",
+          "link": "https://www.v2ex.com/t/1110146",
+          "publishedOn": "2025-02-09T13:59:25.000Z",
+          "wordCount": 427,
+          "title": "安卓是否有开源系统可通过两个不同解锁密码，启用两个都可的安卓系统啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110145",
+          "author": "SD10",
+          "description": "SD10: 在公司熬了几年，等来了一个连续 20 工作日的假期，初步设想自驾从上海出发，去江苏、山东、东北、内蒙、新疆（如果来的及），现在还没有任何计划，有有经验的 V 友吗，什么时间合适，哪些沿路的游玩地点、景点推荐，或者其他自驾、旅游经验，欢迎各位大佬指导呀～",
+          "link": "https://www.v2ex.com/t/1110145",
+          "publishedOn": "2025-02-09T13:55:30.000Z",
+          "wordCount": 344,
+          "title": "想自驾游，求指导",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110143",
+          "author": "Cassano",
+          "description": "Cassano: \n依然发现还是完全够用。。。不知道最新的 M 处理器的 iPad pro 能否在日常使用中 能比 A12Z 这一代机器 显得更强悍 更有效率",
+          "link": "https://www.v2ex.com/t/1110143",
+          "publishedOn": "2025-02-09T13:44:58.000Z",
+          "wordCount": 448,
+          "title": "手持 iPad Pro 11 寸 A12Z 处理器 是否有必要换新款 iPad Pro 了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110142",
+          "author": "eden101010",
+          "description": "eden101010: 房子位于越秀区豪贤路 143 号，离一号线农讲所地铁站约 500 米。\n房子是 2 室 1 厅 ，原主卧室友因工作原因需搬离，现找一男室友合租。\n该区域属于越秀老城区，生活配套就不用多说了，楼下就是市场，步行十多分钟即可到北京路步行街，周边烟火气十足。\n乘坐地铁十分方便，步行约 7 分钟即达农讲所站，1 站到公园前、烈士陵园，2 站到东山口，3 站杨箕，与各个换乘地铁站距离非常近，去哪都很快。\n床、桌椅、空调、衣柜、冰箱、洗衣机、WIFI 等配套齐全，拎包即可入住。\nZu 金：十二张/月，押一付一\n水电：民用水电费，宽带费 25\n特别提醒：房子位于 8 楼（非顶楼），无电梯，每天需要爬楼锻炼身体",
+          "link": "https://www.v2ex.com/t/1110142",
+          "publishedOn": "2025-02-09T13:28:05.000Z",
+          "wordCount": 375,
+          "title": "广州越秀合租｜ 1200 主卧找室友，近地铁 1 号",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110139",
+          "author": "worldgg",
+          "description": "worldgg: \n初恋，30 了，又是一个人了",
+          "link": "https://www.v2ex.com/t/1110139",
+          "publishedOn": "2025-02-09T13:23:32.000Z",
+          "wordCount": 547,
+          "title": "696 天，分手了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110138",
+          "author": "poltao",
+          "description": "poltao: \n个人背景：甘肃人在上海打工，目前是 Java 开发，学历小 211 本科\n想问下 V 站的各位大佬，有没有招工的，不局限于程序开发，大家畅所欲言，看看有没有什么工作/谋生手段推荐。\n卷不动了，真心卷不动了。\n最后，话说 V 站上有没有甘肃老乡，欢迎联系我咱们拉个老乡吹水/相亲交流群，我微信号同 v 站账户 id 。",
+          "link": "https://www.v2ex.com/t/1110138",
+          "publishedOn": "2025-02-09T13:23:25.000Z",
+          "wordCount": 406,
+          "title": "甘肃兰州有啥工作推荐吗？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1110136",
           "author": "microka",
@@ -318,7 +561,7 @@
           "description": "taihengw: 帮朋友发的一个石家庄鹿泉开发区的公司软件开发岗位，具体工资还可以根据实际情况面谈，有兴趣的可以留言呀\n需要是有相关开发经验的，如果转岗或转语言方向的可能不太行~\nJD 如下\n [岗位名称] ：软件开发工程师\n [工作地点] ：河北省石家庄市鹿泉经济开发区\n [薪酬] ：7000-9000 元/月 五险一金\n [职责] ：参加客户的通信产品研发，负责按照设计说明书实现编码，负责单元测试及缺陷修复。\n [资格要求] ：\n1.精通 C/C++语言，具备软件工程知识，掌握研发工具链。\n2.精通 Linux/Unix 操作系统，了解通用算法； \n3.熟悉常用网络协议、网络领域知识；熟悉 IP 层网络协议、TCP/IP 网络技术、网络协议栈优先； \n4.熟悉 SIP 协议栈和 RTP 协议栈，有协议栈开发经验优先\n5. 本科生需要有 2 年以上工作经验，应届硕士生需要有实际编码经验。",
           "link": "https://www.v2ex.com/t/1110131",
           "publishedOn": "2025-02-09T12:33:01.000Z",
-          "wordCount": 455,
+          "wordCount": 457,
           "title": "[招聘] 帮朋友发石家庄 C/C++通信类软件开发岗招聘",
           "imageUrl": null
         },
@@ -328,7 +571,7 @@
           "description": "googol2chen: \n从 chatgpt 横空出世后，到 deepseek 推理模型更强大的效果，工作，学习都更离不开 AI 了，有时候一个问题想了一会就不想思考了，看看 AI 给出什么方案，在此基础上再进一步提出问题，最终得到结论。\n人类如果什么事情都依赖 AI ，就像过度依赖导航软件一样，离开了导航甚至经常走的路都不会了，大脑会不会越来越退化？\n大家如何看待这个担忧（禁止 AI 生成的回答）",
           "link": "https://www.v2ex.com/t/1110129",
           "publishedOn": "2025-02-09T12:17:46.000Z",
-          "wordCount": 534,
+          "wordCount": 544,
           "title": "人类依赖 AI 会不会退化？",
           "imageUrl": null
         },
@@ -358,7 +601,7 @@
           "description": "Kontinue: \n不出意外，下个月应该就发布 M4 的 Air 了。趁着开发布会前，经销商-3K + 国补 8 折，7200 拿下 M3 24G+512 的 Air 。\n第一次用 mac 的笔记本，主力机用的公司 PC 机，家里换 mac ，偶尔远程去做运维开发。Java 后端本地学习用用，24G 的应该也差不多，主要这个价格是真的香！\n现在还有补贴，有需要的可以去经销商蹲下！",
           "link": "https://www.v2ex.com/t/1110125",
           "publishedOn": "2025-02-09T11:52:43.000Z",
-          "wordCount": 501,
+          "wordCount": 510,
           "title": "人生第一个国补 M3 Macbook Air 24+512",
           "imageUrl": null
         },
@@ -378,7 +621,7 @@
           "description": "TheWalkingDead: \n以前觉得这种夫妻比较惨，两个都不稳定，都累。\n最近和一个同学聊天，他们都在某大厂，两个人同一时间毕业，大概工作十年了吧。\n同学说他们夫妻俩目前一年税前 180w ，男方 100 ，女方 80 ，可以理解为两个人都是 p7 层级吧（据说 p8 比较难升）\n然后就是，工作前五六年可能攒钱慢点，因为要买房买车各种开销。\n五年后，两个人都升 p7 了，有股票了，年薪涨幅比较大，两个人攒钱也很快。\n两个人的目标都是工作到 40 岁就差不多得了，手里可以有两套房（一套大的自住一套小的学区房）+ 数百万现金。\n40 之后看公司裁员不裁员情况，反正不准备拼了。\n相比于体制内的稳定，如果程序员家庭在 40 岁之前赚不到太多钱，性价比就比较低了。\n所以程序员的最佳伴侣，一个是家庭背景差不多，同样能赚钱的程序媛，一个是体制内，另一个是本地富婆。",
           "link": "https://www.v2ex.com/t/1110123",
           "publishedOn": "2025-02-09T10:43:09.000Z",
-          "wordCount": 550,
+          "wordCount": 556,
           "title": "双方都在互联网大厂的程序员夫妻，攒钱真迅猛。",
           "imageUrl": null
         },
@@ -420,226 +663,6 @@
           "publishedOn": "2025-02-09T10:01:04.000Z",
           "wordCount": 417,
           "title": "zlibrary 网站用不了了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110116",
-          "author": "gdgoldlion",
-          "description": "gdgoldlion: 华强北方面已经接到有关部门美版有锁禁售令\n苹果方面，下一代 iPhone 17 会有 esim 的 Air 版本，手机厚度会被大幅度降低（四个型号机模已出）\n未来苹果会面推进 esim ，所有机器都用 esim 一直以来都是苹果的目标\n到那个时候 esim 的有锁机是不存在物理改卡的\n而且一旦手机厚度被压缩，通过预留卡槽空间这种双方案同用一套主设计也不再成为可能\n本身国外运营商就对违约机盗抢机的华强北灰产意见很大\n——这和苹果通过 iccid 配合运营商处理库存是两回事\n总之有锁机消失，这符合生态圈里大部分参与者的利益\n可以预见未来 iPhone 18 、iPhone 19 时代美版有锁会消失\n而国行唯一的未知数就是 esim 审核\n到时候国行会如何，尚不清楚",
-          "link": "https://www.v2ex.com/t/1110116",
-          "publishedOn": "2025-02-09T09:59:32.000Z",
-          "wordCount": 409,
-          "title": "未来美版有锁即将成为历史",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110114",
-          "author": "crac",
-          "description": "crac: \n有没有这样的 app：\n1.有个“收件箱”，随时收集但没空看的文档、url 丢进去\n2.自己能总结/生成概要预览\n3.根据内容自动分类，支持手动分类\n4.全局关键词搜索、日期筛选\n5.标记阅读状态/支持笔记\n求推荐",
-          "link": "https://www.v2ex.com/t/1110114",
-          "publishedOn": "2025-02-09T09:50:36.000Z",
-          "wordCount": 416,
-          "title": "求推荐稍后阅读的 app",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110113",
-          "author": "cutedogspark",
-          "description": "cutedogspark: \n新买了一个 iPod Nano4 ，有没有用过的佬知道如何导入歌曲啊。是只能导入下载的 mp3 和 mp4 文件吗，可不可以同步我的 Apple Music 的歌单进去。",
-          "link": "https://www.v2ex.com/t/1110113",
-          "publishedOn": "2025-02-09T09:50:28.000Z",
-          "wordCount": 382,
-          "title": "iPod 导入歌曲",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110112",
-          "author": "sosme",
-          "description": "sosme: 从动物进化到史前人，是由于史前人会使用工具生火……\n从石器时代到青铜，铁器，工业，蒸汽，电器，信息时代……人类的进化史其实就是工具的进化史！\n不禁感叹，如果现代人不会数量掌握各种与时代匹配的工具，那么就注定会被时代抛弃！淘汰！\n会用工具，善用工具，真的太重要了！",
-          "link": "https://www.v2ex.com/t/1110112",
-          "publishedOn": "2025-02-09T09:47:34.000Z",
-          "wordCount": 477,
-          "title": "随想：人所以为人，是因为人会用工具！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110111",
-          "author": "ShibanuDrill",
-          "description": "ShibanuDrill: 因为 deepseek 官网老是繁忙，于是在火山上搞了 r1 ，也开了 api 服务，但是找不到 app 能接入的",
-          "link": "https://www.v2ex.com/t/1110111",
-          "publishedOn": "2025-02-09T09:47:28.000Z",
-          "wordCount": 404,
-          "title": "ios 有类似 cherry studio 这样的应用吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110110",
-          "author": "anonymity",
-          "description": "anonymity: 21 年卖掉一加 7Pro 之后再没玩过安卓刷机，\n最近 iOS 越狱巨魔生态拉胯，常用的几个去广告插件基本都停更失效了\n从二手网捡了一台日版 Pixel9Pro ，打算重归安卓阵营\n想实现：\n1 、尽可能隐藏 BL 和 root （ pixel9 开始如果解 BL 的话 AI 功能会失效，以及某银行 app 在 iOS 上除了装 roothide 版越狱之外完全无法隐藏越狱，不清楚安卓是不是这样）\n2 、网飞能看 HDR10\n3 、国内 APP 能压住不至于续航拉胯，同时尽可能保留通知推送\n4 、能用 XP 框架\n检索了信息之后发现目前有 magisk 、kernelSU 和 APatch 三种 root 方案，然后 lsposed 已经停更了\n请教各位大佬，想实现以上目的应该怎么选 root 方案还有 XP 框架？",
-          "link": "https://www.v2ex.com/t/1110110",
-          "publishedOn": "2025-02-09T09:34:32.000Z",
-          "wordCount": 550,
-          "title": "2025 年 pixel 安卓玩机方案？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110109",
-          "author": "levin56",
-          "description": "levin56: \n现在 80%的代码还是自己写的，现在 ai 大致替代了之前搜索 Google 和 stackoverflow 的这一部分，为什么会这样，最主要的是通用型及一些辅助的 utility ai 作用比较大，因为这类代码关联的业务上下文比较少。\n一般情况，你需要告诉 ai 你需要做什么，而现实我的情况是，我写完代码之前，我都不知道整体的思路会是怎么样的，边写才边清楚的。而且很多场景，等我写完给 ai 的描述需求一大段文字，或者把关联的文件代码上上下文一个个找出来打上去的时候，这段时间我自己代码都写完了，所以很多时候，除了通用型 utility 等与具体业务关联不强的，基本上是自己写，因为写文字需求和写代码几乎是等效的。\ntab 提示对于小型项目效果也还可以，但是我们实际场合大多数是大型复杂业务的项目，这时候效果就会大打折扣。",
-          "link": "https://www.v2ex.com/t/1110109",
-          "publishedOn": "2025-02-09T09:26:58.000Z",
-          "wordCount": 809,
-          "title": "我怎么感觉现在， AI 对编程的辅助，并没有网上讨论的那样夸张",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110108",
-          "author": "CAze",
-          "description": "CAze: \n寻找一个全职安卓开发，做一个二开的项目，感兴趣的大佬可以加下 v ，具体私聊:d3hfaWQxMjEx",
-          "link": "https://www.v2ex.com/t/1110108",
-          "publishedOn": "2025-02-09T09:04:58.000Z",
-          "wordCount": 358,
-          "title": "寻找一个全职/兼职安卓开发，做一个二开的项目",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110106",
-          "author": "AhFei",
-          "description": "AhFei: \n以 serverstatus 为例，介绍借助 shawl 将任何程序作为 Windows 服务运行，并实现开机自启。\n指标\n描述\n\n\n\n\n适用系统\nWindows 10/11\n\n\n走通流程时间\n10 分钟\n\n\nshawl 运行任意程序作为 Windows 服务\nGitHub： mtkennerly/shawl: Windows service wrapper for arbitrary commands\n安装 shawl\n到 https://github.com/mtkennerly/shawl/releases 下载最新版本的压缩包，现在电脑基本都是 64 位，就下 shawl-v1.7.0-win64.zip 这种的。然后解压，里面有一个程序文件 shawl 。\n本文在桌面创建一个文件夹（C:/Users/AhFei/Desktop/serverstatus/），名称为 serverstatus ，将 shawl 移动到这个文件夹中，读者可自行选择这个文件夹创建的位置，但是选择好后就不能再移动，否则创建的服务无法运行。\n以管理员权限打开命令行，后续会用到，可以使用下面步骤：\nWin + R 快捷键打开“运行”窗口（ Win 就是徽标键，在空格左边，一般是一个窗口图案）\n输入 cmd\n再按住 ctrl+shift+enter ，会弹出框，允许后就会管理员权限运行了。\n输入 cd C:/Users/AhFei/Desktop/serverstatus/ 进入 shawl 的安装文件夹，记得改成自己的路径。\n使用步骤\n以 serverstatus-rust 为例，在 Windows 上使用可以看这篇文章： Rust 版 ServerStatus 探针安装步骤 - 技焉洲 ，直接在命令行运行 serverstatus 的命令是：\nC:/Users/AhFei/D…",
-          "link": "https://www.v2ex.com/t/1110106",
-          "publishedOn": "2025-02-09T08:50:01.000Z",
-          "wordCount": 635,
-          "title": "以 Windows 服务运行程序并开机自启 - 如 ServerStatus",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110105",
-          "author": "madao1993",
-          "description": "madao1993: \n问题关键词\n2017 年竣工楼盘、格力空调、隔楼层低频共振\n问题概况\n楼上的楼上（简称“楼上上”）的空调最初出现低频共振的时候是 2023 年 12 月，几乎全屋都有共振，卧室和卫生间以及客厅尤为明显，此时距离该格力空调的保修期结束只有 1 个月的时间\n2024 年 1 月初格力“楼上上”请格力的售后过来检查，格力售后说是正常，此时无奈打道回府，忍受低频噪音到春天来临\n2024 年 12 月初，楼上的格力空调也开始出现低频噪音，但是比较“楼上上”的空调噪音的影响范围稍小，此次经过物业沟通加装了减震垫，低频共振减弱 30%\n2025 年 1 月底，“楼上上”的另一间卧室的同型号的格力空调也开始出现低频共振从而影响我整个房屋\n2025 年 2 月初，他卧室门外即能感受到低频共振，但是室内没有共振，两个格力空调经过安装减震垫，低频共振减弱 20%\n最后双方达成共识，“楼上上”女主人人不错，委婉地以“这两个房间基本很难得有人使用，所以如果换个空调的话可能不太划算”为由，愿意在 22 点之前减少空调使用频率且将温度设置为维修师傅推荐的 22 摄氏度（虽然还是有共振，但是做到这一步对于大多数人来说应该已经仁至义尽了，所以我也没必要咄咄逼人）\n踩坑经验\n格力空调，尤其是外机比较小的，谨慎购买（维修师傅的暗示）\n格力空调的廉价产品不要购买，“楼上上”的其它空调没有噪音问题，只有两款同型号的低端产品出现了低频共振\n空调从开机到出现低频共振需要 10 分钟左右时间\n廉价的橡胶减震垫效果不佳，这次的减震垫我在淘宝上查过，四个一套 5 元钱，从淘宝某些踩过坑的用户的真实评价来看，好一些的减震垫最高能减去 60%的共振噪音\n购买房产请务必找个有问题的格力空调来测试一下建筑抗共振的能力，或者直接购买顶楼（虽然也有案例说是楼下的空调共振影响楼上，但是相对较少，就算漏水也要买顶楼，但是务必要注意电梯导致的低频噪音，电梯导致的低频噪音只有起诉一途）\n物业走过一遍之后如果无效请立即拨打 12345 ，且在问题解决之前不要给予回访“满意”评价\n12345 受理噪音问题后会下达给所在社区，社区会给到物业压力\n社区如果怠慢处事可以直接坐在社区办公室检查他们到岗情况\n在报警前最好物业和社区都走一遍\n遇到阿 sir 想草草结案可以选择在进门的时候就开始录像\n近年（ 2021 还是 2022 年？）出台过一个法律，这之后的楼盘的楼板撞击传声的标准提升了一些，有购房意愿的可以选择 2022 年之后的楼盘，可能抗共振效果更好一些，或是以后维权有法可依？\n实在想住鸽子窝的话，可以选择有预设供冷暖的房产，从外面看没有一户安装有空调，在五线城市贵不了多少\n低频共振的检测费用是三万左右，法律认可的鉴定只能委托当地法院司法鉴定，从省法院提供的机构名单里面抽签，且 2023 年后有鉴定资质的机构的鉴定结果也都不再具有法律效力\n低频共振是否超标请参照《社会生活环境噪声排放标准》，低频共振（尤其是由居民楼里面的固定设备导致的，比如空调）的标准和通常的噪音扰民的标准不同，是单独列出来的，且分贝标准要求更严格\n第一次沟通不成功，那么之后就不会再成功\n不要忍，请直接敲门，很多噪音制造者本身没有经历过低频共振的摧残，可能不太能感同身受\n低频共振可能不是楼上或者“楼上上”传来的，也可能是隔壁单元或者楼下传递过来\n承重墙很容易成为低频共振传递的媒介\n与其冒法律风险购买震楼器，不如合法地把我家楼上的格力空调都买了吧",
-          "link": "https://www.v2ex.com/t/1110105",
-          "publishedOn": "2025-02-09T08:47:48.000Z",
-          "wordCount": 534,
-          "title": "记一次空调低频共振的半解决经历",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110103",
-          "author": "irisdev",
-          "description": "irisdev: 姐姐问我手上有多少存款，我说大概 20w ，她跟我说姐夫公司有个什么股份内购计划，一定级别的员工可以内购公司股份（非上市公司），每年可以结算收益，收益率可以达到百分之十，希望我能认购一万股大概 11w 块钱，我觉得投资有风险，很多上市公司的资深员工都被股权套牢，何况非上市公司，于是拒绝，于是她又转而问我能否借她 11w 她自己投资（他们的目标是凑 110w 即 10w 股），说实话我很不想借，我列一下我们的情况，大家帮忙看下，我怎样拒绝能把对我们关系的伤害降低到最低。\n1.我今年 25 周岁，毕业两年多，姐姐比我大九岁，父母都是普通工人，六十岁，即将退休。\n2.我不想借的原因主要有:\n(1)今年回家催婚催的严重，但是我现在除了一点存款还一无所有，而且 it 工作不算稳定，公司去年裁员一半，难说今年会不会裁到我，借出去 11w 的话，支付宝余额就只有个位数 W 了，21 年实习时没啥钱吃过相当长时间的自热米饭和美团十二块钱炒饭，存款不够没啥安全感 \n(2)姐姐毕竟比我大九岁，而且已婚有娃无贷，将心比心的话，我觉得如果我有一个这样的弟弟或者妹妹，我是不会找她借钱的，把风险转嫁给她，我自己不愿意做的事也不愿意发生在我身上\n(3)借钱投资、结婚、买房在我看来都是比较傻逼的行为。。这是个人偏见，但在我的脑子是根深蒂固的印象了，上杠杆搞这些东西，万一亏了就是害人害己\n(4)11w 实在太多了，5w 以下我还是可以接受的，毕竟一个占了我的资产超过一半，一个只有四分之一（没办法穷..,而且自我毕业之后姐姐就时不时问我工资和存款，现在联想起来让我有点不爽\n(5)我觉得他们的实力不足以支撑一百多万的投资计划，姐夫公司的具体经营情况我不清楚，但是投资需谨慎，他们这么玩胆子属实有点大了。在沟通上至少我姐没有跟我说如果不投资对姐夫在公司的事业和发展有什么负面影响\n3.我的顾虑有:\n(1)姐姐对我还算不错，未婚之前会给我买点东西，加在一起有大几千。而且我欠她一个大人情，我大学曾因抑郁休学一年，不敢回老家在她家住了大半年。但是与之相对的，我工作之后给我小侄女买了不少东西，杂七杂八的也有大几千了。同时我高二高三母亲曾来租房给我陪读，当时我姐未婚，从外地回老家发展和我们住一起，虽然是爸妈租的房，但是也算沾了我的光吧，这也是我休学时我妈说我不想回家可以去姐姐家住的原因，陪读时妈妈问我会会影响学习的话可以让姐姐出去住，我说一家人住一起挺好，不影响学习，没必要，后面就一起住了两年。\n(2)姐姐性格比较暴躁，好胜心强，我这次不借的话，大概率会影响我们的关系。\n说到底还是穷吧，如果我有一百万存款肯定借了..但难说那时候会不会找我借五十万，唉",
-          "link": "https://www.v2ex.com/t/1110103",
-          "publishedOn": "2025-02-09T08:34:27.000Z",
-          "wordCount": 991,
-          "title": "姐姐找我借钱投资我不想借",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110102",
-          "author": "abcfreedom",
-          "description": "abcfreedom: \n以前没注意到，今天吃饭观察到海底捞员工碰面的时候会互相说声辛苦了，这个流程是套什么理论，会让员工缓解疲惫吗。",
-          "link": "https://www.v2ex.com/t/1110102",
-          "publishedOn": "2025-02-09T08:26:01.000Z",
-          "wordCount": 520,
-          "title": "海底捞员工间会互相说“辛苦了”",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110101",
-          "author": "xiaoker",
-          "description": "xiaoker: \n燃油指标一直摇不到号，快 10 年了。。。那会儿是里程太短了，没有切换过去。现在都排到多少年后了？\n我倒不急着用，主要是考虑以后。现在就算有号了估计也不会通勤，公共交通太方便了，主要是外出开开，租车毕竟没有那么方便。\n如果从概率角度来说，是切换新能源指标还是持续摇号呢？\n大家说说看?",
-          "link": "https://www.v2ex.com/t/1110101",
-          "publishedOn": "2025-02-09T08:24:39.000Z",
-          "wordCount": 448,
-          "title": "新能源指标排到多少年后了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110100",
-          "author": "wencan",
-          "description": "wencan: \ncss 中表达式 calc(var(--vw, 1vw) * 100 - 1000)\n当--vw 是 12.34px 时，表达式计算结果为什么是 1174.15px ？\n\n正确答案： 表达式漏写了 px 单位",
-          "link": "https://www.v2ex.com/t/1110100",
-          "publishedOn": "2025-02-09T08:24:12.000Z",
-          "wordCount": 367,
-          "title": "这算是摸到 LLM 天花板了吗？一个难倒了 ChatGPT 03-mini、Claude 3.5 Sonnet、Deepseek R1 的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110099",
-          "author": "sosme",
-          "description": "sosme:",
-          "link": "https://www.v2ex.com/t/1110099",
-          "publishedOn": "2025-02-09T08:11:21.000Z",
-          "wordCount": 334,
-          "title": "xeggex 跑路了吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110098",
-          "author": "joynvda",
-          "description": "joynvda: 节过完，开工了。到处都是适配 Deepseek 、提供 Deepseek 服务的好消息。\n作为一个外包工程狗，无可避免接到把 Deepseek 用在生产上的任务。\n于是，这周做了一些调研。\n#1 Deepseek 的幻觉并不低\nhttps://www.vectara.com/blog/deepseek-r1-hallucinates-more-than-deepseek-v3\nhttps://github.com/vectara/hallucination-leaderboard\n#2 （基于硅基流动的） DeepseekV3 MoE 视觉理解准确率不如 QwQ ；虽然 DeepseekV3 价格低一些\n《只是初步测试，或者调整参数会有提升》\n\n个人可以理解用 DeepseekV3 的辅助编程；文字生成。这些还有人工调整或非关键性任务。\n但是。。。真的能把 DeepseekV3 或 R1 挂到生产系统和实时策略上吗？\n目前有 2 个场景：对小模型的结果进行复判；对告警信息进行汇总问答\n个人信心不足。\n哪位有成功案例给介绍介绍。",
-          "link": "https://www.v2ex.com/t/1110098",
-          "publishedOn": "2025-02-09T08:08:55.000Z",
-          "wordCount": 392,
-          "title": "盛名之下的 Deepseek 能支撑哪些生产场景？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110096",
-          "author": "drymonfidelia",
-          "description": "drymonfidelia: \n因为 Tabby iTerm 都爆出过严重安全漏洞，所以我只能选择看起来最重视安全的 Termius 。然后发现了一堆比开源 SSH 软件还差的功能：\n电脑版要连自己的主机之前必须先注册登录他们的账号\nSFTP 连大部分开源 SSH 都支持的拖拽下载文件都不支持，也不支持断点续传\n更关键的是没有保存按钮，只能复制文件到左侧主机\nSFTP 连接不稳定重新连接后只能自动返回 home 目录，不能自动返回断开前的目录\n因为同时不支持拖拽下载文件且没有保存文件按钮，MAC 商店版完全不支持下载文件到本地\n主机延迟高或是带宽占满时有一个 100%复现的严重 Bug ，切换到一个文件多的目录再切换到一个文件少的目录，文件列表显示的 100%是文件多的目录，显示的路径又是文件少的那个目录，如果你尝试重命名或下载这个目录里的文件就会报错文件不存在。Termius 里往程序里塞个关不掉的遥测和一堆第三方 SDK ，我觉得不至于几年都没发现这个状态不同步的严重 bug 吧\n还有很多小问题就不逐一列出了，顺便问问还有没有什么 Mac 能用的终端推荐\n别推荐 Warp （我接受不了往 SSH 接入非端侧 AI ） WindTerm （ Bug 实在太多）\n可接受付费",
-          "link": "https://www.v2ex.com/t/1110096",
-          "publishedOn": "2025-02-09T07:49:08.000Z",
-          "wordCount": 939,
-          "title": "Termius 作为一个 SSH 终端缺少这么多基础功能，为什么有人用，顺便问问还有没有什么 Mac 能用的终端推荐",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110094",
-          "author": "rsfengzi",
-          "description": "rsfengzi: 电脑 A 和电脑 B 在同一内网,未使用梯子\n使用相同的 DNS 服务器, \n电脑 A 使用 nslookup 解析 nyaa.si 得到正常结果, \n电脑 B 使用 nslookup 解析 nyaa.si 返回的是 DNS request timed out.\n电脑 B 使用 VMware 虚拟机里面的 windows(网络桥接)用 nslookup 解析 nyaa.si 得到的也是正常结果, \n电脑 B 使用 hosts 指定 nyaa.si 的 IP 地址也无法生效\n使用梯子, 电脑 A 能正常访问 nyaa.si,电脑 B 使用各种梯子手段均无法访问 nyaa.si\n就好像是电脑 B 完全屏蔽了 nyaa.si 这个域名,不管用什么手段都无法解析到正常的 IP 哪怕是 hosts\n这该怎么排查问题啊, 各种网络重置 reset 全试过了 难道只能重装系统\n\n-----------------------\n....破案了,火绒拦截了, 艹",
-          "link": "https://www.v2ex.com/t/1110094",
-          "publishedOn": "2025-02-09T07:25:37.000Z",
-          "wordCount": 520,
-          "title": "非常诡异的网站 DNS 解析问题,求大佬赐教",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110093",
-          "author": "roeberry",
-          "description": "roeberry: 分成两部分和大家分享，第一个是不同职业阶段区别他人的特质，第二个是需要具备哪些方面能力保持竞争力。个人看法，多多指教~\nBilibili: https://www.bilibili.com/video/BV1CMNmerEax/",
-          "link": "https://www.v2ex.com/t/1110093",
-          "publishedOn": "2025-02-09T07:19:52.000Z",
-          "wordCount": 513,
-          "title": "聊聊我作为程序员凭借哪些特质走到现在",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110092",
-          "author": "CC11001100",
-          "description": "CC11001100: \n \nhttps://wireless-sec.github.io/cmcc-bypass-poc/",
-          "link": "https://www.v2ex.com/t/1110092",
-          "publishedOn": "2025-02-09T07:12:44.000Z",
-          "wordCount": 386,
-          "title": "用 DeepSeek 给之前挖过的一个漏洞演示视频做了个 GitHub Pages 页面，观感确实要比 GitHub 原生 README 要好很多",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110091",
-          "author": "CatCode",
-          "description": "CatCode: 国内都是使用的高德提供的数据。\n高德地图我也安装了，它的离线地图大概几个月甚至半年才更新。\n但 iOS 自带地图的离线地图几乎 4~5 天就更新一次。",
-          "link": "https://www.v2ex.com/t/1110091",
-          "publishedOn": "2025-02-09T07:09:06.000Z",
-          "wordCount": 382,
-          "title": "为什么 iOS 自带地图的离线地图更新那么频繁？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110088",
-          "author": "ocsp",
-          "description": "ocsp: 这几天温度零下几度，双手和钢铁一样冰，\n请问这是是肾虚吗？应该怎么调理有效？",
-          "link": "https://www.v2ex.com/t/1110088",
-          "publishedOn": "2025-02-09T06:49:34.000Z",
-          "wordCount": 800,
-          "title": "冬天双手冰凉是肾虚吗？",
           "imageUrl": null
         }
       ]
