@@ -310,13 +310,33 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1110045",
+          "author": "leirenbb",
+          "description": "leirenbb: 星期天加班，看了几个帖子，都是🐢和天狗的，感叹于 V 站上🐢和天狗太多了。转念一想，为什么会这样，我想可能是如下原因吧。\n1 、V 站都是理工技术男，在人际交往上，和同龄甚至年龄更大的女性不在一个 level ，男女在乎的东西不在一个频道。\n2 、婚恋的经验欠缺，在应该谈感情的青春岁月没有谈过，把一些在青春岁月想要的东西或者感情观在应该现实一点的时期实践。\n3 、样本原因。有情感困惑的人，一般在外貌和经济上占据劣势。占有优势的人，也不会在这发帖。",
+          "link": "https://www.v2ex.com/t/1110045",
+          "publishedOn": "2025-02-09T00:36:24.000Z",
+          "wordCount": 115,
+          "title": "感叹于 V 站上🐢和天狗太多了。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110043",
+          "author": "bfhyqy",
+          "description": "bfhyqy: \n2025 提前祝大家元宵节快乐，今年再次抽奖回馈大家，可以参加充 10 元送 5 元的活动。\nT 楼抽奖规则\n奖品：30 张全新待激活的英国 giffgaff 卡\n参与方式：T 楼，不限内容，每人参与一次，重复回复会判无效，随机楼层中\n开奖规则：请参考 V2EX 抽奖小程序\n开奖时间：2025-02-09 21:25 自动开奖(取决于 21:25 前的楼层数和当天的排列五组合结果，有兴趣的可以参考 V2EX 抽奖小程序 自己测算)\n如何领奖\n1 访问 免费邮寄 提交邮寄信息\n2 访问 联系我们 联系客服审核\n3 客服审核通过后预计次日寄出\n4 领奖截止日期：2025-02-11\n万一没有中奖呢\n没有抽中的也可以联系我们 购买预置套餐或者储值的，产品规格 更丰富。\n实在对时效没有要求（大约需要 1 个月时间）的，也可以\n参考 这可能是目前最全面的 giffgaff 实体卡申请指南 \n或者\n参考 英国实体 SIM 卡 giffgaff 申请、激活和使用攻略 \n自助申请。\n也欢迎大家加入\nTG 群：eSIM card 交流群 ，主题 eSIM 、eSIM 卡。\n微信群：请访问 联系我们 加入",
+          "link": "https://www.v2ex.com/t/1110043",
+          "publishedOn": "2025-02-09T00:33:25.000Z",
+          "wordCount": 929,
+          "title": "T 楼抽奖免费送出（顺丰包邮）30 张全新待激活的英国 giffgaff 卡",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1110041",
           "author": "Int100",
           "description": "Int100: \n目前不跨境的情况下使用的是 IPsec IKEv2.\n如果要跨境互联的话, 这个 ESP(协议号 50) 的数据包特征太明显了, 怕是见不到明天的太阳.\n请教一下, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?\n感谢🙏",
           "link": "https://www.v2ex.com/t/1110041",
           "publishedOn": "2025-02-08T21:56:53.000Z",
-          "wordCount": 397,
-          "title": "请教一下大佬们, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?",
+          "wordCount": 399,
+          "title": "请教一下, 在不购买跨境专线/SD-WAN 的情况下, 企业跨境站点互联怎么做比较合适?",
           "imageUrl": null
         },
         {
@@ -325,7 +345,7 @@
           "description": "Rooney1:",
           "link": "https://www.v2ex.com/t/1110040",
           "publishedOn": "2025-02-08T21:49:41.000Z",
-          "wordCount": 384,
+          "wordCount": 389,
           "title": "有什么类似 toby 的平替插件？",
           "imageUrl": null
         },
@@ -345,7 +365,7 @@
           "description": "SGL: 今天鼓捣 orbstack 虚拟机的时候，发现 modprobe 命令不起作用，然后查到 orbstack 不支持动态内核。纯小白产生一个问题，这个虚拟机软件是否支持动态内核是基于什么样的技术考虑，各有什么优劣。\n我看 vmware workstation 是支持。\n参考内容如下：\nhttps://github.com/orbstack/orbstack/issues/410\nDynamic kernel modules are not supported (see #258). All the modules you tried to load are already built into the kernel, so just remove the commands.\n动态内核模块不受支持（见 #258 ）。您尝试加载的所有模块都已内置到内核中，因此只需删除命令即可。",
           "link": "https://www.v2ex.com/t/1110038",
           "publishedOn": "2025-02-08T18:01:50.000Z",
-          "wordCount": 433,
+          "wordCount": 440,
           "title": "orbstack 不支持动态内核",
           "imageUrl": null
         },
@@ -395,7 +415,7 @@
           "description": "Lanyangzhi: \n前两天修了一下房间里的电视，把原本接显示器的 hdmi 接到电视上，用 dp 接显示器，后发现显示器颜色饱和度低\n对同一区域进行截图取色得到\n\n我自己的电脑驱动配置均为 10(12)bit 色深、rgb 色域、完全动态范围\n\n左，朋友的截图；右，我的截图/dp\n我的截图/hdmi\n\n取色区域",
           "link": "https://www.v2ex.com/t/1110032",
           "publishedOn": "2025-02-08T16:00:40.000Z",
-          "wordCount": 445,
+          "wordCount": 449,
           "title": "hdmi 和 dp 的显色会不同吗？",
           "imageUrl": null
         },
@@ -415,7 +435,7 @@
           "description": "jeesk: 下面我上架踩的坑和遇到的一些问题， 一起记录下来，谢谢大家\n1. 注册谷歌开发者, 填写各种信息.\n25 美金的注册费, 可以使用银行的双币卡, 我自己使用的是招商银行的万事达,并且支持 Google play 购买内购\n注册后需要通过谷歌审核, 请上传合法的地址证明,比如水电费单据,租房单据, 通过审核后可以上传应用\n2. 上传应用\n2.1 签名问题\n1. 上传密钥证书\n我上传的是 bundle 包, 这个时候 bundle 包也是签名的, 这个签名叫作上传密钥证书\n2. 应用签名密钥证书\n商店会将 bundle 打包成 apk ,使用这个证书签名,这个叫作应用签名密钥证书. 这个一年只能更换一次.\n应用签名密钥证书很重要, 如果你要兼容已经发布的程序, 一定要上传自己的签名. 直接看控制台的签名配置就行了, 否则 Google Play 会用他的证书帮你签名, 会导致老用户无法从 Google Play 更新证书.\n这里一定要搞清楚上传密钥证书和应用签名密钥证书的区别.\n2.2 应用资料\n填写应用的资料,权限信息\nGoogle play 需要提交平板,手机,Chromebook 等截图, 建议使用 Android studio 模拟来截图, 否则你还要买实体设备.\n3.封闭测试\n封闭测试分为 Google group 和邮件白名单, 这里可以分别创建 1 个轨道\n这里推荐使用 Google group 的方式,否则你要收集邮箱, 这个太繁琐(不要问为什么,这里的 Google group 效率很高).\n加入 Google group 的链接\nhttps://play.google.com/apps/testing/com.shanjiancaofu.gallery.preview?authuser=1\n点击上面的链接成为测试者(不要发你的 Google group 的地址,用户还要找加入 Group 的按钮浪费时间).\n商店链接\nhttps://play.google.com/store/apps/details?id=com.shanjiancaofu.gallery.preview\n通过 https://groups.google.com/g/relaxpic, 这个是你的 Google group 地址,可以查看加入 group 的人数.\n如果在测试你们自己的应用的时候, 请将 com.shanjiancaofu.gallery.preview 替换成你们自己的包名.\n4.发帖宣传\n链接友好的平台, 注意要介绍你的应用,吸引观众去下载你的 App. 并且告诉用户一定要去 Google Play 商店里面去给出应用的反馈.\n酷安\nhttps://v2ex.com\nhttps://linux.do\nhttps://meta.appinn.ne/\nhttps://hu60.cn\nhttps://x.com\nhttps://www.reddit.com/r/AndroidClosedTesting/ (强烈推荐，老外多直接一对一回复然后相互测试)\n电报\nQQ,微信群\nandroidDeveloperPlayforward(一款帮助封闭测试的应用)\n上架特别注意事项\n使用合法合规的信息来源, 千万不要伪造数据, 否则 Google play 的工作人员可能随时将你账号封禁.\n尽量使用干净的 IP, 如果你使用的 IP 已经被其他申请过应用上架,并且被封禁了. 如果你也使用这个 IP 也有可能被封禁.\n原文地址: https://k2think.blogspot.com/2025/02/how-to-publish-the-app-on-google-play.html",
           "link": "https://www.v2ex.com/t/1110030",
           "publishedOn": "2025-02-08T15:42:42.000Z",
-          "wordCount": 494,
+          "wordCount": 515,
           "title": "2025 年上架 Google play 踩坑记录",
           "imageUrl": null
         },
@@ -425,7 +445,7 @@
           "description": "weishao666: \n背景，父母一个月可能来住个一两天，家里有两台电视，但是我不看，所以没有机顶盒。父母习惯看央视和本地卫视的直播节目，但现在的智能电视开机就是各种会员墙，连传统电视台都搜不到。尝试过影视仓，不大稳定。\n想请教各位 V 友：\n免费且稳定的直播方案有么？听说有 DTMB 地面波、IPTV 源、开源直播软件，哪种更适合普通用户？\n是否需要外接设备（如电视盒子）？如果有推荐型号更好（预算 200 以内）。\n是否有无需折腾硬件的软件方案？比如通过 TV 版 App 或浏览器直接访问直播源？\n如果自己搭建直播源服务器，复杂度和维护成本如何？\n希望方案能兼顾「父母易用性」和「长期稳定性」，感谢！",
           "link": "https://www.v2ex.com/t/1110029",
           "publishedOn": "2025-02-08T15:42:24.000Z",
-          "wordCount": 520,
+          "wordCount": 537,
           "title": "如何在长辈来的几天让电视免费收看央视及地方卫视直播频道？求优雅方案",
           "imageUrl": null
         },
@@ -435,7 +455,7 @@
           "description": "zuotun: 想在家里放一个机柜，至少 800 深但是感觉还是需要 1000 ，高度倒是不必 42 但是至少也要 22 或者 32 了，不然都不好买。\n由于是自用所以希望质量好一点的同时价格也能接受，年前华腾满 200 减 30 没买，现在有满 300 减 40 所以又看了一下，42 到手 1300 不到。\n有什么推荐的型号吗，价格感觉在一千以内都能接受，因为一个机箱也这个价了。\n最低配置 22U 800 深，但是感觉 1000 深更好。\n另外导轨好贵啊，大家都是怎么固定的？",
           "link": "https://www.v2ex.com/t/1110028",
           "publishedOn": "2025-02-08T15:23:38.000Z",
-          "wordCount": 442,
+          "wordCount": 449,
           "title": "家庭自用机柜选什么？",
           "imageUrl": null
         },
@@ -495,7 +515,7 @@
           "description": "jojoadv: 哪个比较准确呢",
           "link": "https://www.v2ex.com/t/1110022",
           "publishedOn": "2025-02-08T14:25:48.000Z",
-          "wordCount": 371,
+          "wordCount": 373,
           "title": "不懂色彩管理，有个 LG 4K 显示器，之前一直用显示器自带的 LG 4K 颜色管理配置，现在换成了 display P3，颜色变淡了，饱和度稍低",
           "imageUrl": null
         },
@@ -515,7 +535,7 @@
           "description": "wvv8oo: 我现在用的是红轴，感觉太费力了",
           "link": "https://www.v2ex.com/t/1110019",
           "publishedOn": "2025-02-08T14:15:40.000Z",
-          "wordCount": 421,
+          "wordCount": 429,
           "title": "求推荐一个敲击不费力的键盘",
           "imageUrl": null
         },
@@ -525,7 +545,7 @@
           "description": "Alicewish: \no1 pro 是目前 AI 中写代码最强的。\nPro 会员的 GPT4 额度和 Plus 会员一样，3 小时 40 条，用完可以用 GPT4O ，另外你需要记住触发限额时的额度刷新时间，到了刷新时间后使用 4 ，要不 4O 也会消耗 4 的额度，刷新额度后问完 40 条 GPT4O 后就不能用 GPT4 了。GPT4 在某些方面比 4O 好用，世界知识比较扎实。\no1 和 o3-mini 应该是近乎无限使用，目前没触发限额。\n短时间内 o1 pro 用的比较多会触发滥用审核然后会把 o1 pro 和 o1 的权限都封了。当时是写几个不同的脚本，问了 o1 pro 几小时，本来以为是到限额了，第二天发现还是被封权限。最后写邮件申诉（可能一小时到几小时后回复）恢复了权限。如果每次都等答案生成完后再问下一个问题应该不至于触发滥用审核。\no1 pro 如果几秒钟就回复肯定是降智，可以用 iPhone 手机 chatGPT 客户端要求它重新回答。多数情况下 o1 pro 会推理两分钟到十分钟。\n用过 o1 pro 就很难接受没有 o1 pro 用。",
           "link": "https://www.v2ex.com/t/1110018",
           "publishedOn": "2025-02-08T14:13:21.000Z",
-          "wordCount": 468,
+          "wordCount": 470,
           "title": "付费使用 ChatGPT Pro 会员的一些体验",
           "imageUrl": null
         },
@@ -585,7 +605,7 @@
           "description": "redemptionc: \n我的一类卡，但是现在每日只能汇款 2500 美元左右（购汇还好，应该还是每年 40 万人民币?）",
           "link": "https://www.v2ex.com/t/1110008",
           "publishedOn": "2025-02-08T13:13:03.000Z",
-          "wordCount": 390,
+          "wordCount": 395,
           "title": "最近有在中行（BOC）购汇并汇款到香港（美元）的 V 友吗，你们有遇到限制吗？",
           "imageUrl": null
         },
@@ -605,7 +625,7 @@
           "description": "SummerOrange: \n最近在搞跨境，翻译图片总是要花钱，趁过年肝了一个图片翻译的工具。\nwww.kjtool.cn",
           "link": "https://www.v2ex.com/t/1110005",
           "publishedOn": "2025-02-08T12:50:31.000Z",
-          "wordCount": 373,
+          "wordCount": 380,
           "title": "肝了一个图片翻译的工具，大家看看",
           "imageUrl": null
         },
@@ -635,7 +655,7 @@
           "description": "sr004x: 主要是低月租，没有通话和短信需求（哑巴卡），最好是长期的（ 2 年以上有效，保持 9 元/月），不要那种只有前 6 个月或者前 3 个月有效后续就涨成 19 或者 29 的。\n如果没有 30G 以上的，一般 10 元以内能有多少流量呢？",
           "link": "https://www.v2ex.com/t/1110002",
           "publishedOn": "2025-02-08T12:44:50.000Z",
-          "wordCount": 475,
+          "wordCount": 486,
           "title": "有没有月租在 10 元以内，大概能有 30G 以上的流量卡？",
           "imageUrl": null
         },
@@ -645,7 +665,7 @@
           "description": "abcfreedom: \n手上有一张 ultramobile 美卡，每月 3 刀月租太贵了，听说 giffgaff 无月租，这卡好用吗，能绑定国外各种 app 吗",
           "link": "https://www.v2ex.com/t/1110001",
           "publishedOn": "2025-02-08T12:28:40.000Z",
-          "wordCount": 383,
+          "wordCount": 385,
           "title": "giffgaff 和 ultramobile 有什么区别",
           "imageUrl": null
         },
@@ -665,7 +685,7 @@
           "description": "kikoroc: \n在家里办公了一天，手脚冰凉，这两天真是冷啊，出去转一圈吧，这是这几天生活的一个写照。\n当冷的时候看一切事物都是冷的，当内心怯懦的时候任何事情可能都无法应对吧。\n半走半跑大概半小时手脚就开始热了，此时内心的想法翻涌起来，我想做这，我想做那，看着周围明亮的广告牌也产生了一些兴趣，也会想想这可能又是一个热血的品牌故事。\n和大多数人一样，一年到头回县城的日子非常少，当下的县城就是这样吧，人来人往，店铺也是，灯火通明，关店开张。\n有机会也应该多出去走走看看，听听更多的故事，了解更多的品牌，走着走着也许内心的火苗就起来了。\n也应该多回县城待待，多看看这里的灯火通明，多听听这里的家常理短。",
           "link": "https://www.v2ex.com/t/1109999",
           "publishedOn": "2025-02-08T12:21:29.000Z",
-          "wordCount": 375,
+          "wordCount": 377,
           "title": "小县城的冬天",
           "imageUrl": null
         },
@@ -675,28 +695,8 @@
           "description": "movq: \n随着 3500 16+256 的 M4 Mac mini 发布，在网络各处都可以看到 M4 Mac mini 侠的身影，基本就是在说：“你这电子垃圾没人要了/卖贵了，M4 的 Mac mini 才 3500”\n说实话我不觉得丐版 M4 的 Mac mini 有什么香的。它唯一的改变就是一个外形，这个外形虽然长宽减少了，但是高度增加了，也不见得比老款 mac mini 小。\nM4 mac mini 的劣势是接口比老款少，你得插很多尿袋来补足接口问题。既然你买它是因为它小，它插这么多外设，那“小”还有什么意义呢？\n既然买丐版，说明也没有特别专业的需求，M1 我认为都够用了。\n在目前这个市场下，一旦有人出 M1 M2 的 mac mini 二手，就有人留言起哄说卖的贵了，导致老款价格低。我反而认为这让老款的价格更有优势，更香了。2000 多买个 M2 16+256 的 Mac mini ，我不觉得比 M4 的 mac mini 差了什么。省了(3500-2000)/3500=42%，这可不是一个小数目",
           "link": "https://www.v2ex.com/t/1109998",
           "publishedOn": "2025-02-08T12:02:36.000Z",
-          "wordCount": 658,
+          "wordCount": 680,
           "title": "如何看待 M4 Mac mini 侠",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109994",
-          "author": "MesutOzil",
-          "description": "MesutOzil: \n鼻窦炎好多年了，近半年嗅觉失灵，除非特别刺激性的才能闻到，有遇到过的道友吗",
-          "link": "https://www.v2ex.com/t/1109994",
-          "publishedOn": "2025-02-08T11:34:24.000Z",
-          "wordCount": 345,
-          "title": "鼻窦炎，嗅觉丧失好几个月了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1109992",
-          "author": "whyat",
-          "description": "whyat: \n今天面试有问到 IM 和邮件相关，答的不太好，有佬知道愿意分享下的吗？后端是 Java\n全球服务产品，大概有十万用户，有 IM 且要考虑全球用户共同使用\n1.保障 APP Socket 和服务端的长链接的稳定性方案有哪些？\n2.保障 APP 能稳定，及时收到消息的方案有哪些？（在线、离线、国内外场景）\n3.为了达到 1,2 点的方案，架构上需要怎么设计？\n4.产品基于开源框架 James 搭建了邮件服务系统，有哪些方案可以预防恶意发送垃圾邮件，有哪些方案可以预防阻止别人发送过来的垃圾邮件？",
-          "link": "https://www.v2ex.com/t/1109992",
-          "publishedOn": "2025-02-08T11:17:05.000Z",
-          "wordCount": 392,
-          "title": "请教 IM 和邮件相关的问题",
           "imageUrl": null
         }
       ]
