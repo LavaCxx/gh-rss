@@ -201,43 +201,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -335,7 +298,7 @@
           "description": "YoungAsen: \n我用国内腾讯轻量云服务器搭建了一个 socks5 ，然后 yy 也能挂上，但是依旧无法正常开麦说话，有大神懂这是什么原因吗？",
           "link": "https://www.v2ex.com/t/1110485",
           "publishedOn": "2025-02-10T19:03:33.000Z",
-          "wordCount": 373,
+          "wordCount": 386,
           "title": "为什么海外用户无法使用 YY（socks5）",
           "imageUrl": null
         },
@@ -425,7 +388,7 @@
           "description": "chengchengya: 号黑了？ 怎么破",
           "link": "https://www.v2ex.com/t/1110475",
           "publishedOn": "2025-02-10T15:52:04.000Z",
-          "wordCount": 368,
+          "wordCount": 370,
           "title": "国补下单不了",
           "imageUrl": null
         },
@@ -455,7 +418,7 @@
           "description": "Jackiee007: 今天在咸鱼二手出掉了自己使用 1 年半多的国行 iPad pro 2022 带 Apple pencil ，并预订了外版的 iPad air 6 ，说说想法吧。\n降级点：\n1 屏幕（ 120hz-60hz ，但其实自己的 M2 air 的 mac 一直都是 60hz ，自适应习惯了，换到 60hz 的 iPad 应该也没什么差别）\n2 摄像头（ iPad 摄像头基本很少用，无感）\n3 face id （ air 6 变成了 touch id ，看有人反馈不太灵敏，没有 Face id 丝滑，算是一个降级点）\n4 还有有一些无关痛痒的比如麦克风变少了之类的，此外 pencilp 不通用，需要额外购买，好在海鲜市场普遍 600 一支\n升级点：\n1 相比之前的国行（外版可以用 apple intelligence ，为即将到来的中文 ai 做铺垫）\n2 价格便宜，二手卖出，再购置不需要贴钱，反而余下很多\n现在想来，只能说 2023 年当时执迷于高刷买了 pro ，习惯了手机和 mac 的 60hz ，在 ipad pro 感知撕裂有但不大，和手机 mac 来回切换差距不是很明显，只能说适合自己的，才是最好的。\nps：2023 中旬 6500 带笔 128g 购买，4600 带笔卖出。3300 入手仅拆封未激活不带笔外版 air6 128G",
           "link": "https://www.v2ex.com/t/1110470",
           "publishedOn": "2025-02-10T15:36:05.000Z",
-          "wordCount": 484,
+          "wordCount": 494,
           "title": "我选择从 iPad Pro 22 降级到 Air 6",
           "imageUrl": null
         },
@@ -525,7 +488,7 @@
           "description": "coderchen: \n有哥们来聊聊吗",
           "link": "https://www.v2ex.com/t/1110462",
           "publishedOn": "2025-02-10T14:23:48.000Z",
-          "wordCount": 487,
+          "wordCount": 503,
           "title": "有什么途径认识女大吗？",
           "imageUrl": null
         },
