@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -197,6 +203,43 @@
           "wordCount": 1069,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -248,6 +291,46 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/696",
+          "author": null,
+          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/696",
+          "publishedOn": "2025-01-29T09:14:56.000Z",
+          "wordCount": null,
+          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/695",
+          "author": null,
+          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/695",
+          "publishedOn": "2025-01-25T07:34:43.000Z",
+          "wordCount": null,
+          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -258,7 +341,7 @@
           "description": "Fashion7woman: \n最近状态真的很差，感觉自己在事业、感情和健康上都过得一塌糊涂\n半年没工作了，今天面试了 dw 的技术支持，整体来看我的经验和要求是匹配的。上午一面聊得很顺利，没多久就通知下午二面了，我还挺兴奋的，觉得机会很大。但到了二面，突然紧张了，发挥得一般，不过整体感觉也还行，聊了 40 多分钟。结束后被告知面试没通过，也没说具体原因，当下真的有点懵，原本很期待这份工作，觉得自己各方面都符合，结果还是不要我，心里挺难受的😢\n除了工作，感情方面也挺迷茫的。到现在还没谈过恋爱，以前上学时完全没这方面的想法，毕业后一个人在上海工作，慢慢开始感到孤单，才意识到自己也想找个人一起生活。但完全不知道该怎么认识合适的异性，也不知道怎么开始一段感情。总觉得自己社交圈子太小了，遇不到合适的人，时间久了也开始焦虑了。\n身体健康上也没照顾好自己，本来就睡眠不好 还喜欢熬夜，也不好好吃饭，很多坏习惯明知道不行，但就是改不掉。这几年身体状态感觉变差了，偶尔也会担心，但就是控制不住自己。\n现在的感觉就是，生活好难，什么都没有做好，什么都不顺利。马上 25 岁了，事业没起色，感情一片空白，连身体健康都在透支，真的不知道该怎么调整……有点迷茫，也有点丧",
           "link": "https://www.v2ex.com/t/1110479",
           "publishedOn": "2025-02-10T16:29:09.000Z",
-          "wordCount": 387,
+          "wordCount": 401,
           "title": "面试被拒、单身迷茫、健康透支，感觉自己一事无成",
           "imageUrl": null
         },
@@ -268,7 +351,7 @@
           "description": "SGL: 一个 dmg 包，点开，拖拽，完了桌面再生成一个像是磁盘一样的东西。\n这是有什么历史的演变抽象在里面吗。",
           "link": "https://www.v2ex.com/t/1110478",
           "publishedOn": "2025-02-10T16:17:55.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "MacOS 的应用安装管理逻辑是怎么来的，跟 Linux 和 Windows 的习惯差异感觉好大",
           "imageUrl": null
         },
@@ -278,7 +361,7 @@
           "description": "cksuenlan: \n我是用的 nas 上的 TimeMachine 我的 MBP 大概 300 多 G 数据，TimeMachine 每小时给我上传 300 来 G ，TimeMachine 不是增量备份吗？ 这么个备份法空间扛不住了。",
           "link": "https://www.v2ex.com/t/1110477",
           "publishedOn": "2025-02-10T16:13:51.000Z",
-          "wordCount": 351,
+          "wordCount": 353,
           "title": "TimeMachine 备份是什么机制？",
           "imageUrl": null
         },
@@ -288,7 +371,7 @@
           "description": "mikeab: \n感觉脱离了学校环境之后真的很难静下心来去坚持学习什么东西了，最近在自学日语，给自己定的目标是能考过 N2/N1 的水平，用的黄色新标日那本书，自己在 B 站跟着视频学。\n计划的时候感觉良好，认为几天学一课很快能学完，但是等开始学了才感觉，只凭自制力真的挺难做到持续学习这个事情，最后就变成三天打鱼两天晒网，三四个月才学了十几课，感觉按我这个进度，学一年都不一定能考过 N5\n你们都是怎样去学习外语的，对于我这种情况的难道非得去报个培训班吗",
           "link": "https://www.v2ex.com/t/1110476",
           "publishedOn": "2025-02-10T15:57:20.000Z",
-          "wordCount": 402,
+          "wordCount": 415,
           "title": "你们是怎么坚持学习外语的？",
           "imageUrl": null
         },
@@ -318,7 +401,7 @@
           "description": "NelsonBoss: \n如题，最近入手了个 leobog a75 ，甚是满意，就是出场自带的键帽太难用了……淘宝上找了半天，大部分都没有分裂空格……",
           "link": "https://www.v2ex.com/t/1110471",
           "publishedOn": "2025-02-10T15:37:35.000Z",
-          "wordCount": 389,
+          "wordCount": 401,
           "title": "大伙儿有没有推荐的 alice75 配列的键帽啊？",
           "imageUrl": null
         },
@@ -428,7 +511,7 @@
           "description": "visitant: \n最近发现有个 27 寸 4k 240hz ips 的面板,量产是 24 年 Q3 ，但到现在都还没有对应的产品出来，有人了解过吗\nhttps://www.panelook.cn/ME270QUM-NF8_BOE_27.0_LCM_overview_cn_66986.html",
           "link": "https://www.v2ex.com/t/1110458",
           "publishedOn": "2025-02-10T13:57:18.000Z",
-          "wordCount": 374,
+          "wordCount": 389,
           "title": "发现有个 27 寸 4k 240hz ips 的面板，但还没有对应的产品",
           "imageUrl": null
         },
@@ -488,7 +571,7 @@
           "description": "sxguka: 无论是 ipv4 还是 ipv6 ，无论是阿里、114 、谷歌还是什么 DNS\n试过电信宽带。电信、移动流量\n现在 time.is 同步精确度极低，不知道为什么\n以前能精确到 5-20ms\nhttps://picx.zhimg.com/v2-023bb6b151013e5947dd1294b02e33c5_r.jpg",
           "link": "https://www.v2ex.com/t/1110450",
           "publishedOn": "2025-02-10T13:03:00.000Z",
-          "wordCount": 361,
+          "wordCount": 363,
           "title": "[求助] 网络问题： time.is 卡顿",
           "imageUrl": null
         },
@@ -558,7 +641,7 @@
           "description": "NianBroken: \n例如可以查看 iOS 系统的所有历史版本（内测版、公测版、正式版）的发布日期和更新日志以及其他完整的详细信息。\n并且可以查看各个版本的安装包大小。\n并且可以订阅更新通知，例如正式版发布更新时可以给我发通知。\n想知道有这样的 APP 或者网站吗？",
           "link": "https://www.v2ex.com/t/1110443",
           "publishedOn": "2025-02-10T12:23:52.000Z",
-          "wordCount": 351,
+          "wordCount": 364,
           "title": "有没有可以查看 iOS 系统版本的详细信息的 APP 或者网站？",
           "imageUrl": null
         },
@@ -658,7 +741,7 @@
           "description": "intermission: \n在工作中，我经常需要回答客户关于某个模型部署所需的显卡数量。但由于不同显卡的显存规格各不相同，大多数人很难记住每种配置，每次回答都需要临时查询。为了解决这个问题，我开发了一个 LLM 推理显存/显卡需求计算器：\nLLM 推理显存计算器\n它可以快速计算模型推理所需的显存，并估算所需的显卡数量，欢迎试用！",
           "link": "https://www.v2ex.com/t/1110431",
           "publishedOn": "2025-02-10T11:07:45.000Z",
-          "wordCount": 412,
+          "wordCount": 425,
           "title": "LLM 推理显存显卡计算器：快速估算部署需求",
           "imageUrl": null
         }
