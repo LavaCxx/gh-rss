@@ -1,10 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-10T20:11:18.618Z</id>
+    <id>urn:2025-02-10T21:10:30.349Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-10T20:11:18.618Z</updated>
+    <updated>2025-02-10T21:10:30.349Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[为什么海外用户无法使用 YY（socks5）]]></title>
+        <id>https://www.v2ex.com/t/1110485</id>
+        <link href="https://www.v2ex.com/t/1110485"/>
+        <updated>2025-02-10T19:03:33.000Z</updated>
+        <summary type="html"><![CDATA[YoungAsen: 
+我用国内腾讯轻量云服务器搭建了一个 socks5 ，然后 yy 也能挂上，但是依旧无法正常开麦说话，有大神懂这是什么原因吗？]]></summary>
+        <author>
+            <name>YoungAsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用 blot.new 写了个小工具: 测测你的电脑配置能跑什么 deepseek 大模型]]></title>
+        <id>https://www.v2ex.com/t/1110484</id>
+        <link href="https://www.v2ex.com/t/1110484"/>
+        <updated>2025-02-10T17:27:50.000Z</updated>
+        <summary type="html"><![CDATA[mumbler: 
+
+工具地址:https://mark.flashai.com.cn]]></summary>
+        <author>
+            <name>mumbler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[针对目前几款 SOTA LLMs 的蒸馏痕迹探讨]]></title>
+        <id>https://www.v2ex.com/t/1110483</id>
+        <link href="https://www.v2ex.com/t/1110483"/>
+        <updated>2025-02-10T17:19:08.000Z</updated>
+        <summary type="html"><![CDATA[H00kran: 
+测试工具：Ichigo Bot ，一款 LLM API 聚合 Telegram 聊天机器人（✨GitHub：https://github.com/rewired-gh/ichigo-bot）
+系统提示词：略；温度：0.2 ；测试提示词：Good morning
+提示词非常简单，也是最常见的提示词之一。这是为了避免变成智商测试。以下是 LLMs 的回复。
+GPT-4o （基准）：Good morning! ☀️ How can I assist you today? 😊
+以下为几乎确定是蒸馏的模型（ https://github.com/Aegis1863/LLMs-Distillation-Quantification ）。
+Qwen Max：Good morning! 🌞 How can I assist you today?
+DeepSeek R1：Good morning! 🌞 How can I assist you today?
+以下为暂无蒸馏证据的模型。
+o3-mini：Good morning! I'm Ichigo (いちご 🍓). I hope your day is off to a great start. How can I assist you today?
+Gemini 2.0 Flash Thinking：Good morning to you too! ☀️  Hope you have a wonderful day ahead! 😊  Is there anything I can help you with this morning?
+豆包 1.5 Pro：Good morning! It's a great start to the day. What exciting things do you have planned?
+结论：对于洁癖而言，不建议使用几款蒸馏的模型。]]></summary>
+        <author>
+            <name>H00kran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AppleWatch Ultra 冬天佩戴很不舒适，特别是今年冬天，突然对它失去了兴趣，不想戴了。]]></title>
+        <id>https://www.v2ex.com/t/1110482</id>
+        <link href="https://www.v2ex.com/t/1110482"/>
+        <updated>2025-02-10T17:06:22.000Z</updated>
+        <summary type="html"><![CDATA[klementina: 
+衣服太厚重，晚上睡觉和白天手腕都很不舒服，加上之前手臂与 AppleWatch 贴合的位置过敏（发红，痒。有 V 友发过说是，低温烫伤？？）]]></summary>
+        <author>
+            <name>klementina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大家一般把软件做的软件共享在哪里]]></title>
+        <id>https://www.v2ex.com/t/1110480</id>
+        <link href="https://www.v2ex.com/t/1110480"/>
+        <updated>2025-02-10T16:57:10.000Z</updated>
+        <summary type="html"><![CDATA[sgissb1: 业余时间做了一年多的小玩意，用了开源代码，然后套了一个界面和一堆逻辑代码。
+本来用来自用，不过发现测试不充分，想把程序分享出来给大家使用，提意见和建议，不晓得大家一般放什么平台]]></summary>
+        <author>
+            <name>sgissb1</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[面试被拒、单身迷茫、健康透支，感觉自己一事无成]]></title>
         <id>https://www.v2ex.com/t/1110479</id>
@@ -712,45 +779,6 @@ dt27@DT27-RMBP oa % make aaa
 data/backup /*%]]></summary>
         <author>
             <name>DT27</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新手开发了一个鸡肋随机分组工具，希望大家试用反馈]]></title>
-        <id>https://www.v2ex.com/t/1110435</id>
-        <link href="https://www.v2ex.com/t/1110435"/>
-        <updated>2025-02-10T11:37:22.000Z</updated>
-        <summary type="html"><![CDATA[zhangruyi: 
-大家好，我是一个刚入门的开发者，最近用业余时间做了一个在线随机分组工具 random-group-generator.com ，nuxt3+tailwind+shadcn-vue 。练手项目，期待大佬们提提建议🙏]]></summary>
-        <author>
-            <name>zhangruyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DS 爆火，程序员的未来在哪里]]></title>
-        <id>https://www.v2ex.com/t/1110434</id>
-        <link href="https://www.v2ex.com/t/1110434"/>
-        <updated>2025-02-10T11:36:41.000Z</updated>
-        <summary type="html"><![CDATA[Hmmmmmmm: 
-讲下个人背景吧，数据底层开发，近三年失业两次。
-gpt 刚出来的时候，用完当时觉得这种问题百出的 AI 一时间还难以替代程序员的工作，也就没有放在心上。
-但是最近 DeepSeek 的爆火，使用+刷了一些相关视频（超时），DS 的智能化和中文原生已经远超我对 AI 的认知，也第一次有了害怕的感觉，害怕跟不上 AI 时代被狠狠甩在后面。
-最开始的 AI 只是一朵小水花扑到脸上，然后两三年过去了，发现 AI 已经快变成潺潺小溪了。
-所以，提出问题： 普通底层开发，现在想入局，还有哪些方向可以努力。]]></summary>
-        <author>
-            <name>Hmmmmmmm</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LLM 推理显存显卡计算器：快速估算部署需求]]></title>
-        <id>https://www.v2ex.com/t/1110431</id>
-        <link href="https://www.v2ex.com/t/1110431"/>
-        <updated>2025-02-10T11:07:45.000Z</updated>
-        <summary type="html"><![CDATA[intermission: 
-在工作中，我经常需要回答客户关于某个模型部署所需的显卡数量。但由于不同显卡的显存规格各不相同，大多数人很难记住每种配置，每次回答都需要临时查询。为了解决这个问题，我开发了一个 LLM 推理显存/显卡需求计算器：
-LLM 推理显存计算器
-它可以快速计算模型推理所需的显存，并估算所需的显卡数量，欢迎试用！]]></summary>
-        <author>
-            <name>intermission</name>
         </author>
     </entry>
     <entry>
