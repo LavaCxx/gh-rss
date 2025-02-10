@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -335,7 +341,7 @@
           "description": "wuyiccc: macos m1 芯片使用 memory analyzer 工具报错 应用程序无法打开。\n有大佬知道怎么解决这个问题的吗？\n我使用的版本是最新的 memory analyzer 的 macos aarch64 版本的。\n第一次下载安装完成之后，先打开 mat 工具是闪退，然后根据网上的教程配置了 Info.plist 中的-vm 指定 java 的 bin 路径之后可以正常打开和使用了，然后电脑重启之后，再次打开 mat 工具就提示应用程序无法打开。\n卸载 mat 重装之后也还是报应用程序无法打开。\n后来我换前一个版本，进行相同的操作之后，也是第一次可以正常打开，后面电脑重启之后也是提示应用程序无法打开了。。。\n有大佬知道是怎么回事吗？\n我想看 mat 提示应用程序无法打开的报错详细日志，在网上百度了一下也没找到哪里可以看这个日志。",
           "link": "https://www.v2ex.com/t/1110455",
           "publishedOn": "2025-02-10T13:31:06.000Z",
-          "wordCount": 426,
+          "wordCount": 435,
           "title": "macos m1 芯片使用 memory analyzer 工具报错 应用程序无法打开",
           "imageUrl": null
         },
@@ -355,7 +361,7 @@
           "description": "catdevil: \n刚做完一个自定义转盘网站，你可以在里面创建转盘，也可以用别人做的转盘。\n可以用于各种用途，你创建的转盘会保存在你的 profile 里，可以随时打开来用。\n点这里尝试一下：Wespinner - Spin the Wheel\n欢迎大家来体验一下，如果有什么意见可以直接在评论区反馈。",
           "link": "https://www.v2ex.com/t/1110452",
           "publishedOn": "2025-02-10T13:21:44.000Z",
-          "wordCount": 386,
+          "wordCount": 392,
           "title": "做了一个可以自定义转盘的网站",
           "imageUrl": null
         },
@@ -375,7 +381,7 @@
           "description": "sxguka: 无论是 ipv4 还是 ipv6 ，无论是阿里、114 、谷歌还是什么 DNS\n试过电信宽带。电信、移动流量\n现在 time.is 同步精确度极低，不知道为什么\n以前能精确到 5-20ms\nhttps://picx.zhimg.com/v2-023bb6b151013e5947dd1294b02e33c5_r.jpg",
           "link": "https://www.v2ex.com/t/1110450",
           "publishedOn": "2025-02-10T13:03:00.000Z",
-          "wordCount": 348,
+          "wordCount": 360,
           "title": "[求助] 网络问题： time.is 卡顿",
           "imageUrl": null
         },
@@ -385,7 +391,7 @@
           "description": "Fucter: \n把你电脑和手机同时踢下线，让你更新最新版的 QQ 重新认证信息，刚刚把我用了好久的 9.0 版本给踢下线了。\n说是旧版本缺少了某些功能，必须强制更新到最新继续使用，原因是春节期间的事件？\n电脑 QQ 是新的，但是不能直接登录必须手机登录认证，这些操作真的让人恶心",
           "link": "https://www.v2ex.com/t/1110449",
           "publishedOn": "2025-02-10T12:51:43.000Z",
-          "wordCount": 357,
+          "wordCount": 359,
           "title": "QQ 最近开始疯狂的封堵旧版本 QQ 版本了",
           "imageUrl": null
         },
@@ -415,7 +421,7 @@
           "description": "holycrazy:",
           "link": "https://www.v2ex.com/t/1110446",
           "publishedOn": "2025-02-10T12:33:08.000Z",
-          "wordCount": 416,
+          "wordCount": 469,
           "title": "趁着国补，想入口一个家用的净水器，可以装在厨房橱柜下面的那种，有什么推荐的吗",
           "imageUrl": null
         },
@@ -455,7 +461,7 @@
           "description": "djunglec: 本人日常开发一些小工具，没有特殊的要求，只需要便宜，然后别玩两天就跑路的那种",
           "link": "https://www.v2ex.com/t/1110442",
           "publishedOn": "2025-02-10T12:13:58.000Z",
-          "wordCount": 425,
+          "wordCount": 427,
           "title": "大家有没有什么超便宜的云服务器推荐？不跑路那种",
           "imageUrl": null
         },
@@ -545,7 +551,7 @@
           "description": "intermission: \n在工作中，我经常需要回答客户关于某个模型部署所需的显卡数量。但由于不同显卡的显存规格各不相同，大多数人很难记住每种配置，每次回答都需要临时查询。为了解决这个问题，我开发了一个 LLM 推理显存/显卡需求计算器：\nLLM 推理显存计算器\n它可以快速计算模型推理所需的显存，并估算所需的显卡数量，欢迎试用！",
           "link": "https://www.v2ex.com/t/1110431",
           "publishedOn": "2025-02-10T11:07:45.000Z",
-          "wordCount": 405,
+          "wordCount": 410,
           "title": "LLM 推理显存显卡计算器：快速估算部署需求",
           "imageUrl": null
         },
@@ -565,7 +571,7 @@
           "description": "junwind: \n如题：搞 Ai 的，编程语言，python 是首选吗？",
           "link": "https://www.v2ex.com/t/1110428",
           "publishedOn": "2025-02-10T10:48:54.000Z",
-          "wordCount": 461,
+          "wordCount": 467,
           "title": "搞 Ai 大模型的，都是 Python 首选吗？",
           "imageUrl": null
         },
@@ -595,7 +601,7 @@
           "description": "DIMOJANG: 从最早的 App Store 的首页卡片，到后面的手记 APP 和 Apple Music 打开专辑/播放列表的动画改动，再到最近的 Sport 和 Invites ，都在刻意弱化从边缘返回的手势操作。应该是为了应对越来越大的手机屏幕和越来越窄的边框吧。",
           "link": "https://www.v2ex.com/t/1110425",
           "publishedOn": "2025-02-10T10:27:36.000Z",
-          "wordCount": 512,
+          "wordCount": 588,
           "title": "苹果对“全局返回”的新答卷逐渐清晰",
           "imageUrl": null
         },
@@ -605,7 +611,7 @@
           "description": "52boobs: \n最近水杯摔坏了，在找一个好看又实用的杯子，大家有什么推荐吗",
           "link": "https://www.v2ex.com/t/1110424",
           "publishedOn": "2025-02-10T10:26:33.000Z",
-          "wordCount": 501,
+          "wordCount": 503,
           "title": "听说 V 站喜欢收藏水杯，大家用的都是什么水杯吗，求推荐一个",
           "imageUrl": null
         },
@@ -645,7 +651,7 @@
           "description": "ly1878: 现在每次用 GoldenDict 字典软件查单词，要手动选中单词，然后运行下自动化软件（复制+查询粘贴板），频繁双击有点累，请问有什么好的方法可以实现双击选中吗？不止输入状态、浏览网页等情况下都需要查询。\n小白不懂代码，研究这个字典软件就花费很长时间，还望大佬指点，谢谢。",
           "link": "https://www.v2ex.com/t/1110419",
           "publishedOn": "2025-02-10T10:10:49.000Z",
-          "wordCount": 378,
+          "wordCount": 403,
           "title": "有什么方式可以实现双击选中单词效果？快捷键、applescript 都可。",
           "imageUrl": null
         },
@@ -665,7 +671,7 @@
           "description": "balabalaguguji: \n我的是 OPPO 手机，APP 设置了允许后台运行，然后后台杀了这个 APP ，但是查看应用详情可以看到“强行停止”还可以点击，不知道是什么在后台跑\n有什么工具可以查看吗？",
           "link": "https://www.v2ex.com/t/1110417",
           "publishedOn": "2025-02-10T10:05:42.000Z",
-          "wordCount": 401,
+          "wordCount": 434,
           "title": "安卓应用杀了后台还可以强行停止，什么在跑？",
           "imageUrl": null
         },
@@ -745,7 +751,7 @@
           "description": "ifelsexyz:",
           "link": "https://www.v2ex.com/t/1110409",
           "publishedOn": "2025-02-10T09:45:32.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "有没有免费 gpt api 支持上下文的 可以连续对话",
           "imageUrl": null
         },
