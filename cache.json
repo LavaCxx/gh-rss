@@ -201,43 +201,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -335,7 +298,7 @@
           "description": "FaiChou: \n项目地址: https://github.com/FaiChou/IntraPaste\n局域网内如果想共享一段文字或者一些照片文件到另一个设备，你首先想到使用什么工具？ AirDrop ？办公软件（ tg/qq/wechat ）？ LocalSend ？\n如果这个设备不具备上面的这些工具呢？\n基于上面的痛点，我开发了一款局域网内容分享工具: IntraPaste\n主要特点\n简单易用\n一键部署（支持 Docker ）\n无需注册登录\n支持文本/图片/视频/音频等多种格式\n支持一键复制和下载（尤其对于文本内容，点击即可复制）\n支持移动端访问，完全响应式设计\n安全可控\n建议部署在内网环境\n支持内容自动清理\n支持上传大小和频率限制（防止恶意刷上传）\n管理后台\n开箱即用\n提供原生 iOS 客户端（已上架 App Store ）\n支持深色模式\n支持媒体预览\n技术栈：\n前端：Next.js 15 + React 19 + TailwindCSS\n后端：Node.js + Prisma + SQLite\n存储：MinIO （可选，用于文件存储）\niOS：SwiftUI （ iOS 17+）\n部署：Docker + PM2\n项目完全开源，欢迎使用和贡献。如果觉得对你有帮助，也请给个 star 支持一下～\n更多详细信息和部署说明请查看 GitHub 项目页面。\niOS App 下载链接： https://apps.apple.com/cn/app/intrapaste/id6740268699\n有任何问题或建议都可以在评论区讨论。",
           "link": "https://www.v2ex.com/t/1110344",
           "publishedOn": "2025-02-10T07:26:46.000Z",
-          "wordCount": 433,
+          "wordCount": 454,
           "title": "介绍下我开源的局域网内容分享工具 IntraPaste",
           "imageUrl": null
         },
@@ -345,7 +308,7 @@
           "description": "jdz: \nrip\nhttps://img.picui.cn/free/2025/02/10/67a9a9ca7f751.png",
           "link": "https://www.v2ex.com/t/1110343",
           "publishedOn": "2025-02-10T07:25:53.000Z",
-          "wordCount": 626,
+          "wordCount": 681,
           "title": "华子又有员工加班猝死",
           "imageUrl": null
         },
@@ -355,7 +318,7 @@
           "description": "momomoi: https://global.v2ex.co/\n新的电脑，没看清地址，  服了",
           "link": "https://www.v2ex.com/t/1110341",
           "publishedOn": "2025-02-10T07:22:06.000Z",
-          "wordCount": 416,
+          "wordCount": 428,
           "title": "外面是不是有个仿站？ 刚才还输入了账号、密码",
           "imageUrl": null
         },
@@ -365,7 +328,7 @@
           "description": "ShioWSX: \n1 、各个大中厂内核网络开发，纯 C 语言开发岗位也要做 leecode 题目吗？\n2 、日常用的都是纯 C ，要是做 leecode ，没有 C++的 STL ，应该很难做吧？\n3 、有没有面过的指导下？大中厂的纯 C 开发也做题吗？内核网络方向的",
           "link": "https://www.v2ex.com/t/1110340",
           "publishedOn": "2025-02-10T07:19:47.000Z",
-          "wordCount": 456,
+          "wordCount": 468,
           "title": "纯 C 的开发岗位，面试也要刷题吗？",
           "imageUrl": null
         },
@@ -385,7 +348,7 @@
           "description": "JeffyChen: \n大家好，我是前端开发新人，目前正在学习 React 和 Next.js ，做了一个 AI 导航站。这个项目的目标是收集 AI 相关助手提供工具导航服务，帮助用户更便捷地找到感兴趣的内容。\n目前，项目已经初步完成，欢迎大家访问： https://www.largemi.com/ 并给出建议。如果有任何优化或者修改的建议，非常欢迎大家指出，特别是在 UI/UX 或者性能优化方面的意见！\n感谢大家的支持，也希望和大家一起进步！",
           "link": "https://www.v2ex.com/t/1110338",
           "publishedOn": "2025-02-10T07:18:47.000Z",
-          "wordCount": 427,
+          "wordCount": 440,
           "title": "新人前端项目： AI 导航站，用 React 和 Next.js 实现，欢迎大家提出建议与优化意见！",
           "imageUrl": null
         },
@@ -405,7 +368,7 @@
           "description": "alan9999: \nHR 发邮件说要实行新的绩效管理制度，要重签劳动合同，改薪资结构为基本 65%，绩效 35%，涉及公司所有人，这算变相降薪吗？\n这个违反劳动法吗？\n我正好合同到期了，这几天需要续签了\n现在大环境不好，不想换工作呀\n请教各位这个该怎么应对",
           "link": "https://www.v2ex.com/t/1110336",
           "publishedOn": "2025-02-10T07:14:28.000Z",
-          "wordCount": 485,
+          "wordCount": 501,
           "title": "公司这算变相降薪吗？要重签劳动合同，改薪资结构为基本工资 65%，绩效工资 35%，说是涉及公司所有人，请教各位这个该怎么应对",
           "imageUrl": null
         },
@@ -425,7 +388,7 @@
           "description": "skyrim61:",
           "link": "https://www.v2ex.com/t/1110332",
           "publishedOn": "2025-02-10T07:10:38.000Z",
-          "wordCount": 571,
+          "wordCount": 639,
           "title": "请教下各位 V 友, 最近老家地震频繁, 担心 30 年老房子不安全, 现在想盖一间房子, 带洗浴卫生间热水器给父母居住, 从哪里能搞到设计图, 预算 50000 元.",
           "imageUrl": null
         },
@@ -455,7 +418,7 @@
           "description": "duanxianze: 过年家里给介绍了一个女生，老家是一个县里的，在一个城市工作，过年忙没顾得上见面，就加了微信，就说等去了工作城市再见面。然后微信上互相介绍了各自的条件，都觉得挺合适的，然后就日常闲聊，发现三观和日常爱好也都很一致，然后女生也很主动，聊天也逐渐升温，都到了讨论假如在一起多久订婚多久结婚的地步了，我就有种彷佛遇到了命中注定的那个人的感觉，然后周末终于都有空了，我就去找她见面，结果一见面直接被 Pass 了，就说和微信头像有差距（我头像是我刚毕业的时候拍的，瘦一些，精神一些），现在变成就说先当朋友了，唉，难受一天了~",
           "link": "https://www.v2ex.com/t/1110329",
           "publishedOn": "2025-02-10T07:05:28.000Z",
-          "wordCount": 954,
+          "wordCount": 1195,
           "title": "惨痛经验，相亲一定要先见面再聊天，不然聊的再好都没用",
           "imageUrl": null
         },
@@ -465,7 +428,7 @@
           "description": "tzlovezaq:",
           "link": "https://www.v2ex.com/t/1110328",
           "publishedOn": "2025-02-10T07:02:39.000Z",
-          "wordCount": 390,
+          "wordCount": 412,
           "title": "大家的 iWatch 用的都是什么表盘?",
           "imageUrl": null
         },
@@ -475,7 +438,7 @@
           "description": "ZeawinL: 出来做开发工作也几年了，有些操作真的是让我开眼界了。\n首先是日报，周报，月报，年报制度，就是写下大概的工作，提交给领导看。\n还有工时制度，就是说完成一些工作要明确告诉老板花了多少工时，细分到小时，比如完成功能 A 需要 2h ，后面统一通过一个系统走工时的申报，每个月要达到 80%的工时才发完整工资，不然扣工资。\n考试制度，一个月有 1 天晚上下班后要留下来考试，考试大概半小时，没有工资没有加班费没有调休。（老板的意思是每个员工都要学习）\n打卡制度，下班忘记打卡有些还要返回到公司打卡。\n强制加班制度，明明下班后你已经没有工作，但还是得留在公司待几个小时后才能走。你领导同事都在，你不好意思不留。\n站会制度，每天早上或下班前要站着开会，每个人说一两句话。\n下班时间开会制度，开会专挑下班后的时间，这下员工不得不留下来开会。\n离职卡 14 号制，默认 14 号前离职不给你交当月社保。（当然这个一般可以协商）\n封闭式办公环境，出入公司需要刷工卡。（这个也不能说不合理。）\n加班没加班费或调休，法定节假日加班无三倍工资。\n线上值班无工资或调休。（程序员 24h on call 似乎也合理？）\n酒桌文化，团建吃饭一轮敬酒。\nxxx 下面的是道听途说，先写个免责：xxx\n每月扣 10%-30%的绩效工资，留到年底作为年终返还。\n上班时间手机上交。\n外包不得吃公司零食制度，正式员工和外包员工都坐一起，但是正式员工生日时外包员工不能进去，都是正式员工偷偷带零食出来分。\n年会强制新员工上台表演。\nxxx 暂时想到这些了，后面想到再补充了 xxx",
           "link": "https://www.v2ex.com/t/1110327",
           "publishedOn": "2025-02-10T07:01:06.000Z",
-          "wordCount": 434,
+          "wordCount": 436,
           "title": "聊一聊出来工作后一些让人恶心的规则制度",
           "imageUrl": null
         },
@@ -485,7 +448,7 @@
           "description": "VincenttLi:",
           "link": "https://www.v2ex.com/t/1110326",
           "publishedOn": "2025-02-10T07:00:06.000Z",
-          "wordCount": 377,
+          "wordCount": 384,
           "title": "做一个抢票软件,有没有懂的大神,坐标加拿大,远程",
           "imageUrl": null
         },
@@ -505,7 +468,7 @@
           "description": "libai9633: \n关于我们：\n我们是总公司（千万海外用户）的一个子项目；我们有丰富的推广资源\n我们业务是 VPN ，正规香港公司，已上架海外各大应用商店\n团队是远程工作，休假目前是单休+法定节假日休\n薪资试用期是周结：结算 USDT ；转正月结\n员工分红的总额是 30%；目前有 6 个人。\n目前的薄弱点是；运维架构这一块，不稳固，APP 偶尔会因为通讯域名被墙而网络不通；需整体升级。\n工作内容：\n1.运维架构方案调研，确定，落实\n2.PHP 开发\n3.少量的 GOlang 开发\n技术要求：\n1.PHP 、golang ，都要至少有 2 年的开发经验\n2.擅长运维架构设计，有充分的经验\n其他要求：\n1.学习调研能力要强\n2.结果导向，主动出击，有责任感，说到做到\n3.创业公司，要有事业心，能吃苦\n联系方式：dGVsZWdyYW3vvJogQGRkZ29nbw==",
           "link": "https://www.v2ex.com/t/1110324",
           "publishedOn": "2025-02-10T06:52:11.000Z",
-          "wordCount": 437,
+          "wordCount": 450,
           "title": "寻 PHP /go 后端架构师：（月薪 3000 美金+技术入股）",
           "imageUrl": null
         },
@@ -525,7 +488,7 @@
           "description": "lthero: \n上映 13 天已经 82 亿，猫眼或灯塔都预测会突破 110 亿……这太令人震惊了",
           "link": "https://www.v2ex.com/t/1110320",
           "publishedOn": "2025-02-10T06:46:20.000Z",
-          "wordCount": 526,
+          "wordCount": 595,
           "title": "哪吒 2 会突破 120 亿吗？",
           "imageUrl": null
         },
@@ -535,7 +498,7 @@
           "description": "Gooseberries: 网络安全相关的工作好找吗？\n主要做威胁情报这块，不会打什么菠菜啥的",
           "link": "https://www.v2ex.com/t/1110319",
           "publishedOn": "2025-02-10T06:44:23.000Z",
-          "wordCount": 344,
+          "wordCount": 346,
           "title": "请问大佬们，成都这边网络安全的就业环境咋样",
           "imageUrl": null
         },
@@ -545,7 +508,7 @@
           "description": "go522000: \n以前招聘是经理负责的，经理在忙别的，我是第一次负责招聘新人。共 2 个职位，一个前端，一个产品经理。\n关于前端的事。\n一般我是看到适合的简历，然后打招呼，之后就希望对方发一下最近的作品看看后再聊，有遇到几个作品就是好丑啊。\n关于对作品直说不好看的事，就遇到 2 人回复说是，美观美化是设计师负责的，前端是负责把效果实现出来（大概意思是我是程序员，我是写代码，美观不是我的事）。\n我自己本身是后端程序员，前端也有写，比较少。我个人觉得前端虽然主要也是写代码，但也是展现界面（产品外观）的实现者，最少需要一点点美感，而不是只单纯实现功能不管美观。\n大概对方会觉得我钱少事多吧。",
           "link": "https://www.v2ex.com/t/1110318",
           "publishedOn": "2025-02-10T06:43:45.000Z",
-          "wordCount": 1055,
+          "wordCount": 1136,
           "title": "第一次招聘，要求前端的作品美观漂亮要求很怪吗？",
           "imageUrl": null
         },
@@ -565,7 +528,7 @@
           "description": "Tassel: 之前 86 手机号被封，后面在接码平台绑定了加拿大手机号，所有设备都是通过 App 内的验证码进行登录的。在正常登录状态下，突然被踢下线了，现在再用原来的手机号提示验证码发到了 App 内，但是在其他设备打开 TG 就被踢下线，无解了，也登不进去 TG 了。\n这种情况，还有办法找回账号吗？账号用了很多年了",
           "link": "https://www.v2ex.com/t/1110313",
           "publishedOn": "2025-02-10T06:16:57.000Z",
-          "wordCount": 460,
+          "wordCount": 483,
           "title": "tg 正常登录被踢下线，验证码也无法接收，账号还能找回来吗",
           "imageUrl": null
         },
@@ -595,7 +558,7 @@
           "description": "abc634: 之前发了个前端 react 的招聘，有收到符合要求的简历投递和进行了录用，\n这次继续追加新的岗位。\n职位名称：JAVA 后端 工程师\n职位描述：\n我们正在寻找一位经验丰富的后端工程师，专注于与前端工程师配合，开发高质量的 WEB 用用（公司业务用） 。理想的候选人具备良好的编程能力和团队合作精神，能够与设计师和前端工程师紧密合作，推动项目的顺利进行。\n- 参与业务需求评审，分析软件产品的功能\n- 搭建基础研发环境，进行需求分析、接口设计、编码开发、测试等研发工作\n- 讨论技术方案和系统结构设计，解决性能、网络等技术问题\n- 根据需求设计、执行测试用例；完成系统测试及改进工作，定位产品缺陷或问题，排除故障\n- 不断优化项目开发流程和工具\n\n必须条件：\n掌握 JAVA 编程语言；\n熟练使用至少 1 种主流 Web 应用开发框架，至少 3 年经验。\nSQL 经验：熟练使用 SQL (postGresql / MySQL 至少一種)，能够进行数据库设计和查询优化。\n熟悉 Web Services(Restful, SOAP)系统框架和主流 Web 服务器(Tomcat,Apache,Nginx 等)；为前端提供基于角色权限控制的 API 。\n测试经验：掌握单元测试用例的编写和实施；\n基本的 git 版本控管流程概念及操作经验\n项目经验：参与过完整的项目开发周期，有实际项目上线经验者。\n\n更好条件：\n前端技术：熟悉 HTML 、CSS 和 JavaScript ，有 REACT 或者 VUE 的 开发经验\n团队开发流程理解：能够理解并遵循团队开发的流程，包括需求分析、设计、开发、测试和上线。\n团队合作：乐于学习，勇于发表自己的看法，同时尊重他人，能够与团队成员良好协作。\n具有 github/ gitlab CI/CD 配置及管理经验\n日语水平：N2 以上，能对话更佳\n理想人才标准\n主动性与责任感：拥有自己的意志，能够主动行动，并不满足于现状，持续思考并提出理想的设计和解决方案。\n团队合作精神：重视团队合作，能够与他人协作，共同创造，并积极影响团队。\n开放沟通：不拘泥于角色或职位，能够主动表达自己的想法，沟通时能站在他人的角度考虑问题。\n学习与成长：持有认真学习的态度，始终追求技能提升，对新技术保持兴趣并能够在工作中灵活应用。\n社会价值观：能够将自己积累的技术和商业能力应用于现实问题，并对此感到有价值。\n\n年薪：400-500w 日元\n联系邮件：YWJjNjM0QHltYWlsLm5lLmpw\n邮件标题格式： 后端 Java 应聘-您的姓名-202YMMDD\n请附上性别，年龄，学校毕业至今的履历\n入职大致流程：面试 > 远程试用 > 东京入职\n附加说明：\n正规日企，非派遣非中介，欢迎希望长期发展的你。\n本次对日语无要求，但是东京生活是需要日语的，请做好学习日语的心理准备",
           "link": "https://www.v2ex.com/t/1110310",
           "publishedOn": "2025-02-10T06:13:15.000Z",
-          "wordCount": 490,
+          "wordCount": 492,
           "title": "[日本/东京・转职] 诚聘有经验的后端 Java 工程师 202502",
           "imageUrl": null
         },
@@ -605,7 +568,7 @@
           "description": "guin: \nmac 上很喜欢用的软件，请问 windows 上有平替吗？\nraycast\nraycast 的剪切板功能，自定打开软件快捷键功能，浏览器标签和历史搜索（从 store 中下载的插件），这三个功能非常有用\nbob 翻译，还带 ocr 功能\nSnippetsLab 代码片段工具\nTermius ssh 工具\ndowine4 视频下载工具\ncleanShotX 截图工具\n用的最多的还是 raycast ，感觉太好用了，了解下 widnows 上有 utools ，但感觉和 raycast 还有很大差距，其他的还没研究过",
           "link": "https://www.v2ex.com/t/1110309",
           "publishedOn": "2025-02-10T06:12:59.000Z",
-          "wordCount": 560,
+          "wordCount": 564,
           "title": "请问从 mac 换到 windows 有什么平替的软件吗？",
           "imageUrl": null
         },
@@ -615,7 +578,7 @@
           "description": "PowerDi: 类似于 xftp ，左边 A 服务器，右边 B 服务器。实现左边传输到右边或右边传输到左边，虽然实现原理是先下载到本机再传输到目标服务器。",
           "link": "https://www.v2ex.com/t/1110308",
           "publishedOn": "2025-02-10T06:12:10.000Z",
-          "wordCount": 710,
+          "wordCount": 740,
           "title": "目前似乎没有一个终端管理器能实现服务器之间直接互传文件",
           "imageUrl": null
         },
@@ -645,7 +608,7 @@
           "description": "Arainc: \n现在用 cursor 编码开了个 pro 的会员，看他可以选择好多模型。GPT 大家族（ o1-preview/o1/4o ），claude 3.5 sonnet,还有现在大火的 dp-r1/v3",
           "link": "https://www.v2ex.com/t/1110304",
           "publishedOn": "2025-02-10T06:06:57.000Z",
-          "wordCount": 458,
+          "wordCount": 477,
           "title": "对于现在的各种模型，你们觉着哪个模型对编码帮助更大呀",
           "imageUrl": null
         },
@@ -655,7 +618,7 @@
           "description": "vanvan00097: 我当然知道要背单词，和多听多读，但我相信学习任何东西，除了死记硬背肯定有窍门的，就像中文认字可以通过偏旁部首这样去记同类词，\n来 V 社问问大家是怎么自学或者系统化学习英语的，用什么 APP 或者有什么方式比较好记住",
           "link": "https://www.v2ex.com/t/1110303",
           "publishedOn": "2025-02-10T06:04:11.000Z",
-          "wordCount": 380,
+          "wordCount": 389,
           "title": "想自学英语，请问大家平时都是怎么学英语的，",
           "imageUrl": null
         },
@@ -705,7 +668,7 @@
           "description": "qiabaobao: 技术开发\n后端开发（ Golang 、PHP 、Linux C ）\nApp 开发工程师 / 移动端网络技术专家\n研发工程师-钱包方向 / 研发架构师\n数据岗位\n大数据测试 / 数据分析 / 数据架构师\n产品 & 设计\n产品经理（金融底层、统一账户、SEO 、ASO 、API 方向）\n品牌（视觉）设计师 / 产品设计师\n其他\n项目经理\nWeb3 （产品、开发、测试）\n简历发送至（ base64 ）：cWlhZmFuNjY2QGdtYWlsLmNvbQ==",
           "link": "https://www.v2ex.com/t/1110295",
           "publishedOn": "2025-02-10T05:46:42.000Z",
-          "wordCount": 417,
+          "wordCount": 422,
           "title": "内推机会 | 技术岗 & 数据岗 & 产品岗 | 远程",
           "imageUrl": null
         }
