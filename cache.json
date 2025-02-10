@@ -207,43 +207,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -341,7 +304,7 @@
           "description": "52boobs: \n最近水杯摔坏了，在找一个好看又实用的杯子，大家有什么推荐吗",
           "link": "https://www.v2ex.com/t/1110424",
           "publishedOn": "2025-02-10T10:26:33.000Z",
-          "wordCount": 422,
+          "wordCount": 452,
           "title": "听说 V 站喜欢收藏水杯，大家用的都是什么水杯吗，求推荐一个",
           "imageUrl": null
         },
@@ -351,7 +314,7 @@
           "description": "wekecher: \n刚在小红书刷到一条吐槽成都随地吐痰问题的笔记：口痰之城--成都！\n你们不要喷我，我也是成都人，今天老辈子从车里面把谈吐到我肩膀上了，我身高 167 ，建议 150 左右的来成都旅游要戴口罩，免得老辈子吐你脸上了，我这个才是正儿八经的旅游攻略。\n捂脸笑。这让我想起最近一例吐痰事儿。\n春节我和朋友一路从天府广场散步到宽窄巷子附近，人流开始变得密集。突然，毫无征兆地前面一个穿深蓝制服的男子，朝着身体左侧就吐了一口痰。他压根儿就没家检查下身旁会不会有人超过去，万一...更讽刺的制服男还是城管，我当时整个人都不好了，遂赶紧超车甩之。\n有人一本正经地从饮食和中医的角度解释川渝地区的吐痰问题，但是如果你多搜搜看，会发现全国各地的网友都在争「痰都」的地位。当有人觉得这是老年人，特别是大爷们的独有恶习时，评论区就会出现各种年轻人的吐痰事迹了。看来好像并不是大爷这一代消失后就能好转的。到最后发现，虽然中国这个词，不兴随便贴，但在吐痰这个问题上，似乎相当匹配。此现状，令见痰色变者，痛心疾首唉。\n思来想去，大概也只有立法罚款才有效？我知道的，新加坡就是这么干的，而且罚款数额不小。但是我们如何才能推动呢？",
           "link": "https://www.v2ex.com/t/1110423",
           "publishedOn": "2025-02-10T10:19:09.000Z",
-          "wordCount": 422,
+          "wordCount": 458,
           "title": "随地吐痰，我最痛恨的公共恶习。有何改善之策？",
           "imageUrl": null
         },
@@ -361,7 +324,7 @@
           "description": "imjiaoyuan: \n坐标成都，想办一张能支付海外服务的卡，类似 vercel 、chatgpt 这样的，我记得国内某些银行有 visa 卡？但是听说有些似乎还是不能付，请问哪一种可以呢？本人学生，只用来支付",
           "link": "https://www.v2ex.com/t/1110421",
           "publishedOn": "2025-02-10T10:16:31.000Z",
-          "wordCount": 436,
+          "wordCount": 464,
           "title": "海外服务支付可以办哪种卡？",
           "imageUrl": null
         },
@@ -371,7 +334,7 @@
           "description": "SachinBeyond: 鱼跃的血糖尿酸检测仪 京东 166",
           "link": "https://www.v2ex.com/t/1110420",
           "publishedOn": "2025-02-10T10:11:22.000Z",
-          "wordCount": 431,
+          "wordCount": 449,
           "title": "鱼跃的血糖尿酸检测仪 有小伙伴 使用过吗? 体验如何? 检测准确吗?",
           "imageUrl": null
         },
@@ -411,7 +374,7 @@
           "description": "libai9633: \n关于我们：\n我们是总公司（千万海外用户）的一个子项目；我们有丰富的推广资源\n我们业务是 VPN ，正规香港公司，已上架海外各大应用商店\n团队是远程工作，休假目前是单休+法定节假日休\n薪资 3500 美金/月试用期是周结，试用期 80%：结算 USDT ；转正月结 \n员工分红的总额是 30%目前有 6 个人。\n目前的薄弱点是；运维架构这一块，不稳固，APP 偶尔会因为通讯域名被墙而网络不通；需整体升级。\n工作内容：\n1.运维架构方案；防御方案；防御压测\n2.APP 的网络通讯稳定方案（本行业有 IP ，域名被墙问题）\n3.PHP 开发\n4.可能有 golang 开发（有最好，不强求）\n技术要求：\n1.PHP 至少有 3 年的开发经验\n2.擅长运维架构设计，有充分的经验\n3.熟悉网络攻防\n4,熟悉网络层\n5.最好会 golang\n其他要求：\n1.学习调研能力要强\n2.结果导向，主动出击，说到做到\n3.创业公司，要有事业心，能吃苦\n联系方式：dGVsZWdyYW3vvJogQGRkZ29nbw==",
           "link": "https://www.v2ex.com/t/1110416",
           "publishedOn": "2025-02-10T10:04:33.000Z",
-          "wordCount": 442,
+          "wordCount": 444,
           "title": "找全职后端：运维网络攻防和 PHP 开发；；月薪 3500 美金+技术分红",
           "imageUrl": null
         },
@@ -481,7 +444,7 @@
           "description": "ifelsexyz:",
           "link": "https://www.v2ex.com/t/1110409",
           "publishedOn": "2025-02-10T09:45:32.000Z",
-          "wordCount": 392,
+          "wordCount": 399,
           "title": "有没有免费 gpt api 支持上下文的 可以连续对话",
           "imageUrl": null
         },
@@ -491,7 +454,7 @@
           "description": "fffq: \n1 ，准备小城市长期持有，省油，好开，耐用，毛病少，维护成本低，预算有限 8w\n2 ，家里有个小朋友\n3 ，家里第一辆车\n二手车水深，不敢碰",
           "link": "https://www.v2ex.com/t/1110408",
           "publishedOn": "2025-02-10T09:45:14.000Z",
-          "wordCount": 401,
+          "wordCount": 408,
           "title": "v 友们，家用车 suv 求推荐",
           "imageUrl": null
         },
@@ -511,7 +474,7 @@
           "description": "zhng920823: 少时学习 611 ，长大工作 996 ，最后猝死/跳楼/自杀终结于 ICU ，这不该是初高中生应有的生活\n\n611Study.ICU 是指“早 6 点上学， 晚 11 点放学， 生病 ICU” 。\n这是中国现在初高中学校的普遍强制要求。\n无数的初高中生因此承受生理和心理健康的双重折磨。 \n我们希望通过此项目，帮助中国学生们摆脱这种连监狱都不如的作息时间，拥有一个健康快乐的童年。\n本项目基于 996.ICU ，程序员对于 996 工作制的呐喊。\nhttps://github.com/IQAQI233/611Study.ICU/blob/master/README_CN.md",
           "link": "https://www.v2ex.com/t/1110405",
           "publishedOn": "2025-02-10T09:42:17.000Z",
-          "wordCount": 454,
+          "wordCount": 486,
           "title": "611Study.ICU",
           "imageUrl": null
         },
@@ -521,7 +484,7 @@
           "description": "stephen2009: \n1 、方法 1 ，购买国内 QDII 基金（比如：广发纳指 100ETF 联接（ QDII ）人民币 A ，基金代码 270042 ）\n2 、方法 2 ，开香港银行账户（中银香港，汇丰银行），把钱转到香港，再购买美股指数基金（比如 QQQ ）\n3 、上述方法 2 ，钱转出去，获利后转回来，会有哪些损耗？获利会不会被视为非法收入，或者受到其他监管？\n4 、上述方法 2 算上折损后，和方法 1 对比，年化收益率会相差多少？",
           "link": "https://www.v2ex.com/t/1110404",
           "publishedOn": "2025-02-10T09:41:22.000Z",
-          "wordCount": 435,
+          "wordCount": 459,
           "title": "直接投资美股和国内购买 QDII 基金收益差距多少？",
           "imageUrl": null
         },
@@ -531,7 +494,7 @@
           "description": "Adamo: \nIMAX 3D 制作的电影成本高，出品制作商热情低？\nIMAX 3D 票价高？观众不买单？\n本人只有 IMAX 3D 的电影才会去电影院看。\n从第一部阿凡达到漫威系列电影 IMAX 3D 看的真的爽啊！\n2 月 14 号的美国队长 4 ，没有了 IMAX 3D ，我都没有看的欲望了。\n或者是复仇者联盟 4：终局之战后，漫威电影宇宙已经开始没落了。\n哪吒系列支持 IMAX 3D ，你们看了哪吒 2 魔童闹海的 IMAX 3D 版了吗？",
           "link": "https://www.v2ex.com/t/1110403",
           "publishedOn": "2025-02-10T09:38:58.000Z",
-          "wordCount": 548,
+          "wordCount": 550,
           "title": "现在的电影怎么没人看 IMAX 3D 了吗？",
           "imageUrl": null
         },
@@ -541,7 +504,7 @@
           "description": "1140601003: 目前近视眼，拍照的时候总是双目无神。有做过激光手术的 v 友吗？",
           "link": "https://www.v2ex.com/t/1110402",
           "publishedOn": "2025-02-10T09:33:46.000Z",
-          "wordCount": 354,
+          "wordCount": 356,
           "title": "激光手术能解决双目无神问题吗？",
           "imageUrl": null
         },
@@ -551,7 +514,7 @@
           "description": "idblife: 看到大家讨论 cursor 那么激烈，说个自己的实际例子吧。\n有个自己看的小网站\nhttps://qingbuyaohaixiu.com/\n（ nsfw ）之前是用 django 写的，\n感觉部署不太方便，用 cursor 给改成了 gin 框架，背景信息给的够足再加上功能简单，用了半个多小时吧。\n感觉还是不错的。",
           "link": "https://www.v2ex.com/t/1110401",
           "publishedOn": "2025-02-10T09:31:03.000Z",
-          "wordCount": 544,
+          "wordCount": 555,
           "title": "举个自己用 cursor 的例子吧",
           "imageUrl": null
         },
@@ -571,7 +534,7 @@
           "description": "YukiHanaNo: \n2 月 8 日，民政部官网披露了 2024 年全国婚姻登记数据。 据民政部官网发布的《 2024 年 4 季度民政统计数据》显示，2024 年全国结婚登记数为 610.6 万对，离婚登记数为 262.1 万对。",
           "link": "https://www.v2ex.com/t/1110399",
           "publishedOn": "2025-02-10T09:22:51.000Z",
-          "wordCount": 461,
+          "wordCount": 463,
           "title": "2024 年全国结婚登记数为 610.6 万对 为 1978 年以来最低",
           "imageUrl": null
         },
@@ -591,7 +554,7 @@
           "description": "pursuit9: \n去澳门看他们好多人骑的摩托车，看着挺轻便的还很帅，不知道能不能买到那种样子的摩托车。\n想要那种轻便的、续航远的（如果是电摩的话）",
           "link": "https://www.v2ex.com/t/1110396",
           "publishedOn": "2025-02-10T09:19:43.000Z",
-          "wordCount": 395,
+          "wordCount": 403,
           "title": "推荐一款日常通勤的轻便摩托车，可以两人骑行的",
           "imageUrl": null
         },
@@ -631,7 +594,7 @@
           "description": "Robertwhite: \n去年被裁员后，休息了几个月，后面知道高中同学一直在做跨境，刚好我很感兴趣，毕竟前几年深圳流传着做跨境发了财的故事，就跟着他学了 1 个月跨境，做的亚马逊，算是把整个流程走了下吧，发现没经验也很难，现在做的人也很多，竞争激烈，而且他这种模式也不适合我\n如果有人对跨境感兴趣的，可以留言，在不涉及我同学的商业机密下，我知道的会给与解答",
           "link": "https://www.v2ex.com/t/1110391",
           "publishedOn": "2025-02-10T09:07:39.000Z",
-          "wordCount": 743,
+          "wordCount": 751,
           "title": "跟着同学学了 1 个月跨境，大家有什么问题可以问我",
           "imageUrl": null
         },
@@ -661,7 +624,7 @@
           "description": "flypei:",
           "link": "https://www.v2ex.com/t/1110388",
           "publishedOn": "2025-02-10T09:01:02.000Z",
-          "wordCount": 428,
+          "wordCount": 434,
           "title": "eSIM 卡平台 5ber 疑似跑路，你们的 5ber 还好吗？",
           "imageUrl": null
         },
@@ -671,7 +634,7 @@
           "description": "weishao666: \n粗粒度的功能需求如下，具体可私聊交流\n功能需求\n1. 移动端门户\n用户登录与权限管理：支持多种身份认证方式，权限控制需细致。\n位置服务：集成高精度定位功能，支持地图展示和轨迹记录。\n移动友好性：确保在不同设备上都有良好的用户体验。\n2. 后台管理\n数据管理：提供后台各类信息管理功能，包括数据录入、编辑和删除。\n权限控制：实现分级权限管理，保障数据安全。\n报表与分析：支持自动生成统计报表，并提供数据分析功能。\n3. 智能学习模块\n知识图谱构建：利用知识图谱技术实现智能教学内容的生成和推荐。\n推荐：个性化推荐\n4. 辅助办公与计划拟制\n线上办公功能：开发权限控制的在线审批系统。\n辅助计算与计划生成：利用算法优化学习计划，并提供可视化界面。\n5. 数据采集与分析\n实时数据采集：支持全流程数据采集和同步。\n自动化分析与反馈：根据采集的数据进行智能分析，并提供反馈建议。\n期望合作方\n具备丰富相关领域经验，不能烂尾。\n需求提供详细的技术方案和时间规划，要参与项目的整体流程，包括相关技术方案，设计开发，部署运维。\n沟通能力强，能够及时响应需求变化。\n联系方式\nd2FuZ3dlaTEwMDYx",
           "link": "https://www.v2ex.com/t/1110387",
           "publishedOn": "2025-02-10T08:54:35.000Z",
-          "wordCount": 389,
+          "wordCount": 368,
           "title": "找一个 APP 开发团队，有项目合作，可能需要驻场",
           "imageUrl": null
         },
@@ -731,7 +694,7 @@
           "description": "adajoy: \n每次上完厕所回来必被电，网上有人说是官方充电器没有接地口导致的。但是我拔掉电源用电池供电还是会被电，被电怕了已经",
           "link": "https://www.v2ex.com/t/1110381",
           "publishedOn": "2025-02-10T08:38:44.000Z",
-          "wordCount": 498,
+          "wordCount": 511,
           "title": "macbook 静电怎么解决",
           "imageUrl": null
         },
@@ -771,7 +734,7 @@
           "description": "songweibiao: \n开发背景\n近期，超低价集采的新闻将原研药与仿制药的争议推向了极点。作为一个纯编程小白，经过约 3 周的不懈努力，终于利用 cursor 成功开发出一款名为“原研汇”的原研药信息查询小程序，目的帮助大家区分和快速查找原研药信息。\n一、开发过程中的困难\n（一）数据来源\n起初，我在 GitHub 上查找数据，发现了两个与原研药数据的项目。一个项目包含约 400 个药品数据，另一个有 900 多个。然而，深入研究后发现这些数据存在不少问题，考虑到医疗数据的严谨性，没有采用。最终，花了不少时间从国家药监局网站收集数据，获取了权威且可靠的数据。\n（二）编程工具挑战\n虽然 cursor 能通过聊天的方式写代码，但是在使用过程中状况频发。比如，它有时会反复修改代码，甚至在新路径下创建新文件，进而导致路径和名称引用出错，还有一次直接把文件删除了，兼职气炸了！好在也是学习的过程，不断地与它“斗智斗勇”，通过持续摸索和调试，逐渐掌握了许多使用技巧，才最终基本实现了小程序的各项功能。\n二、产品介绍\n简介\n原研汇是一款专注于原研药信息查询的微信小程序，旨在为用户提供便捷、专业的原研药信息查询服务。\n核心功能\n药品搜索：支持通过药品名称、商品名、厂商等多维度搜索，轻松找到你需要的药品信息\n分类浏览：提供感冒发烧、细菌感染、病毒感染等多种疾病分类，方便你快速定位药品类别\n药品厂商：提供全世界顶级药品生产厂商的原研药，让你对药品来源一目了然\n个人中心：支持收藏常用药品，浏览历史记录等，方便你随时查看常用药品和个人用药记录个人信息\n产品体验入口\n\n希望“原研汇”能为大家提供帮助，有需要的朋友们可以随时使用它查询原研药信息。如果您对小程序有任何建议或反馈，欢迎随时联系我。我会积极进行优化改进，努力为大家带来更好的体验。\n三、产品截图",
           "link": "https://www.v2ex.com/t/1110375",
           "publishedOn": "2025-02-10T08:31:40.000Z",
-          "wordCount": 526,
+          "wordCount": 533,
           "title": "原研汇：原研药信息查询小程序上线，欢迎体验！",
           "imageUrl": null
         }
