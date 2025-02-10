@@ -22,6 +22,16 @@
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384306"
         },
         {
+          "id": "https://css-tricks.com/?p=384563",
+          "author": "Geoff Graham",
+          "description": "Stationery Pad is a handy way to nix a step in your workflow if you regularly use document templates on your Mac. The long-standing Finder feature essentially tells a file’s parent application to open a copy of it by default, ensuring that the original file remains unedited.\nMake Any File a Template Using This Hidden macOS Tool originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+          "link": "https://css-tricks.com/make-any-file-a-template-using-this-hidden-macos-tool/",
+          "publishedOn": "2025-02-10T13:54:00.000Z",
+          "wordCount": 1894,
+          "title": "Make Any File a Template Using This Hidden macOS Tool",
+          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/384563"
+        },
+        {
           "id": "https://css-tricks.com/?p=384468",
           "author": "Geoff Graham",
           "description": "A little gem from Kevin Powell's \"HTML & CSS Tip of the Week\" website, reminding us that using container queries opens up container query units for sizing things based on the size of the queried container.\nContainer query units: cqi and cqb originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -160,24 +170,8 @@
           "wordCount": 3328,
           "title": "Web-Slinger.css: Across the Swiper-Verse",
           "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/383533"
-        },
-        {
-          "id": "https://css-tricks.com/?p=382719",
-          "author": "Geoff Graham",
-          "description": "(This is a sponsored post.)\nIt’s probably no surprise to you that CSS-Tricks is (proudly) hosted on Cloudways, DigitalOcean’s managed hosting arm. Given both CSS-Tricks and Cloudways are part of DigitalOcean, it was just a matter of time …\nA Few Ways That Cloudways Makes Running This Site a Little Easier originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/a-few-ways-that-cloudways-makes-running-this-site-a-little-easier/",
-          "publishedOn": "2025-01-14T14:49:10.000Z",
-          "wordCount": 2566,
-          "title": "A Few Ways That Cloudways Makes Running This Site a Little Easier",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/382719"
         }
       ]
-    },
-    {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
     },
     {
       "title": "潮流周刊",
@@ -203,43 +197,6 @@
           "wordCount": 1069,
           "title": "第208期 - 配新电脑",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -291,57 +248,207 @@
       ]
     },
     {
-      "title": "VPS信号旗播报 - Telegram Channel",
-      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
-      "siteUrl": "https://t.me/s/vps_xhq",
-      "articles": [
-        {
-          "id": "https://t.me/vps_xhq/696",
-          "author": null,
-          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/696",
-          "publishedOn": "2025-01-29T09:14:56.000Z",
-          "wordCount": null,
-          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/695",
-          "author": null,
-          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/695",
-          "publishedOn": "2025-01-25T07:34:43.000Z",
-          "wordCount": null,
-          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://t.me/vps_xhq/694",
-          "author": null,
-          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
-          "link": "https://t.me/vps_xhq/694",
-          "publishedOn": "2025-01-19T11:07:54.000Z",
-          "wordCount": null,
-          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
-          "itunes": {},
-          "imageUrl": null
-        }
-      ]
-    },
-    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1110479",
+          "author": "Fashion7woman",
+          "description": "Fashion7woman: \n最近状态真的很差，感觉自己在事业、感情和健康上都过得一塌糊涂\n半年没工作了，今天面试了 dw 的技术支持，整体来看我的经验和要求是匹配的。上午一面聊得很顺利，没多久就通知下午二面了，我还挺兴奋的，觉得机会很大。但到了二面，突然紧张了，发挥得一般，不过整体感觉也还行，聊了 40 多分钟。结束后被告知面试没通过，也没说具体原因，当下真的有点懵，原本很期待这份工作，觉得自己各方面都符合，结果还是不要我，心里挺难受的😢\n除了工作，感情方面也挺迷茫的。到现在还没谈过恋爱，以前上学时完全没这方面的想法，毕业后一个人在上海工作，慢慢开始感到孤单，才意识到自己也想找个人一起生活。但完全不知道该怎么认识合适的异性，也不知道怎么开始一段感情。总觉得自己社交圈子太小了，遇不到合适的人，时间久了也开始焦虑了。\n身体健康上也没照顾好自己，本来就睡眠不好 还喜欢熬夜，也不好好吃饭，很多坏习惯明知道不行，但就是改不掉。这几年身体状态感觉变差了，偶尔也会担心，但就是控制不住自己。\n现在的感觉就是，生活好难，什么都没有做好，什么都不顺利。马上 25 岁了，事业没起色，感情一片空白，连身体健康都在透支，真的不知道该怎么调整……有点迷茫，也有点丧",
+          "link": "https://www.v2ex.com/t/1110479",
+          "publishedOn": "2025-02-10T16:29:09.000Z",
+          "wordCount": 387,
+          "title": "面试被拒、单身迷茫、健康透支，感觉自己一事无成",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110478",
+          "author": "SGL",
+          "description": "SGL: 一个 dmg 包，点开，拖拽，完了桌面再生成一个像是磁盘一样的东西。\n这是有什么历史的演变抽象在里面吗。",
+          "link": "https://www.v2ex.com/t/1110478",
+          "publishedOn": "2025-02-10T16:17:55.000Z",
+          "wordCount": 376,
+          "title": "MacOS 的应用安装管理逻辑是怎么来的，跟 Linux 和 Windows 的习惯差异感觉好大",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110477",
+          "author": "cksuenlan",
+          "description": "cksuenlan: \n我是用的 nas 上的 TimeMachine 我的 MBP 大概 300 多 G 数据，TimeMachine 每小时给我上传 300 来 G ，TimeMachine 不是增量备份吗？ 这么个备份法空间扛不住了。",
+          "link": "https://www.v2ex.com/t/1110477",
+          "publishedOn": "2025-02-10T16:13:51.000Z",
+          "wordCount": 351,
+          "title": "TimeMachine 备份是什么机制？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110476",
+          "author": "mikeab",
+          "description": "mikeab: \n感觉脱离了学校环境之后真的很难静下心来去坚持学习什么东西了，最近在自学日语，给自己定的目标是能考过 N2/N1 的水平，用的黄色新标日那本书，自己在 B 站跟着视频学。\n计划的时候感觉良好，认为几天学一课很快能学完，但是等开始学了才感觉，只凭自制力真的挺难做到持续学习这个事情，最后就变成三天打鱼两天晒网，三四个月才学了十几课，感觉按我这个进度，学一年都不一定能考过 N5\n你们都是怎样去学习外语的，对于我这种情况的难道非得去报个培训班吗",
+          "link": "https://www.v2ex.com/t/1110476",
+          "publishedOn": "2025-02-10T15:57:20.000Z",
+          "wordCount": 402,
+          "title": "你们是怎么坚持学习外语的？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110475",
+          "author": "chengchengya",
+          "description": "chengchengya: 号黑了？ 怎么破",
+          "link": "https://www.v2ex.com/t/1110475",
+          "publishedOn": "2025-02-10T15:52:04.000Z",
+          "wordCount": 351,
+          "title": "国补下单不了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110474",
+          "author": "isbase",
+          "description": "isbase:",
+          "link": "https://www.v2ex.com/t/1110474",
+          "publishedOn": "2025-02-10T15:47:15.000Z",
+          "wordCount": 384,
+          "title": "有见过中药治疗高血压 停药后不反弹的吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110471",
+          "author": "NelsonBoss",
+          "description": "NelsonBoss: \n如题，最近入手了个 leobog a75 ，甚是满意，就是出场自带的键帽太难用了……淘宝上找了半天，大部分都没有分裂空格……",
+          "link": "https://www.v2ex.com/t/1110471",
+          "publishedOn": "2025-02-10T15:37:35.000Z",
+          "wordCount": 389,
+          "title": "大伙儿有没有推荐的 alice75 配列的键帽啊？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110470",
+          "author": "Jackiee007",
+          "description": "Jackiee007: 今天在咸鱼二手出掉了自己使用 1 年半多的国行 iPad pro 2022 带 Apple pencil ，并预订了外版的 iPad air 6 ，说说想法吧。\n降级点：\n1 屏幕（ 120hz-60hz ，但其实自己的 M2 air 的 mac 一直都是 60hz ，自适应习惯了，换到 60hz 的 iPad 应该也没什么差别）\n2 摄像头（ iPad 摄像头基本很少用，无感）\n3 face id （ air 6 变成了 touch id ，看有人反馈不太灵敏，没有 Face id 丝滑，算是一个降级点）\n4 还有有一些无关痛痒的比如麦克风变少了之类的，此外 pencilp 不通用，需要额外购买，好在海鲜市场普遍 600 一支\n升级点：\n1 相比之前的国行（外版可以用 apple intelligence ，为即将到来的中文 ai 做铺垫）\n2 价格便宜，二手卖出，再购置不需要贴钱，反而余下很多\n现在想来，只能说 2023 年当时执迷于高刷买了 pro ，习惯了手机和 mac 的 60hz ，在 ipad pro 感知撕裂有但不大，和手机 mac 来回切换差距不是很明显，只能说适合自己的，才是最好的。\nps：2023 中旬 6500 带笔 128g 购买，4600 带笔卖出。3300 入手仅拆封未激活不带笔外版 air6 128G",
+          "link": "https://www.v2ex.com/t/1110470",
+          "publishedOn": "2025-02-10T15:36:05.000Z",
+          "wordCount": 438,
+          "title": "我选择从 iPad Pro 22 降级到 Air 6",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110469",
+          "author": "BaymaxK",
+          "description": "BaymaxK: \n在不知不觉中，我改造的英语学习网站已经稳定运行了 11 个月🤗。同时，也积累了不少用户，并收集了许多宝贵的改进意见🫡。\n最近，我花了一些时间开发了几个实用的新功能👇\n\n\n现在，你可以从 Excel 文档中批量导入单词数据了，大大降低了使用门槛\n对于已经录入的单词，现在可以通过勾选来批量删除了\n单词本现已支持直接删除，并且该单词本中的单词也会跟着一起删除。\n希望这些改进能为大家带来更好的使用体验。在此，祝愿大家在英语学习的旅程中坚持不懈，不断进步，创造属于自己的美好未来！\n在线访问地址: https://www.kaisir.cn/english-study\nGitHub 地址: https://github.com/likaia/qwerty-learner",
+          "link": "https://www.v2ex.com/t/1110469",
+          "publishedOn": "2025-02-10T15:31:07.000Z",
+          "wordCount": 398,
+          "title": "我改造的英语学习网站支持从 Excel 导入数据了～",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110468",
+          "author": "jjjmc",
+          "description": "jjjmc: 职位描述：\n1 、负责 AI 搜索架构研发，包括大规模生成式搜索、多模态搜索等，基于百亿级大规模数据推进搜索关键技术攻关，前瞻性地探索新型 AI 搜索系统架构设计，构建高可靠性、高性能、高可扩展性的系统，并推动落地。\n2 、负责支付宝 APP 全端搜索及首页推荐的产品研发，能深入理解产品和参与业务，迭代优化产品，负责搜索推荐在线/离线全链路架构设计，支撑业务快速发展\n3 、面向多场景应用，推进搜索平台化建设，提升迭代效率\n职位要求：\n1 、计算机相关专业，精通 Java/C++，3 年以上开发经验，基础功底扎实，拥有主导过大规模搜索引擎/推荐引擎/广告系统等方面经验，具备大规模网页离线系统、向量检索、索引等研发经验者优先\n2 、 具备大模型应用研发经验，包括生成式搜索、智能对话等，熟悉 TensorFlow/PyTorch 等业界主流 AI 框架并了解 MLSys 相关前沿技术者优先\n3 、有良好的沟通能力，跨团队协作能力，具备出色的计划和执行力，强烈的责任感；\n4 、学习能力强，有良好的创新能力和逻辑思维能力，善于主动思考，对技术有强烈激情。\n\n内推链接：\nhttps://talent.antgroup.com/off-campus-position?positionId=25010202922209&qrCode=A6PX3Z1H%2F8pHC%2FwtNmu3ypdzKReiSSubKfh%2FaWaZBsSWtLXKexa%2F0mXsAw_19XtJznbTDyC8CNYplKo0wfZw2A%3D%3D\n具体可以咨询绿泡泡：am1jODc5ODU1NzQw",
+          "link": "https://www.v2ex.com/t/1110468",
+          "publishedOn": "2025-02-10T15:25:45.000Z",
+          "wordCount": 379,
+          "title": "蚂蚁集团-搜推技术高级研发工程师/技术专家-北京/杭州 [急招]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110467",
+          "author": "codertracker",
+          "description": "codertracker: \n折腾了将近一年，连开发者账号的支出都没收回来，问问 V 友们，如何探索新的方向？",
+          "link": "https://www.v2ex.com/t/1110467",
+          "publishedOn": "2025-02-10T15:23:15.000Z",
+          "wordCount": 369,
+          "title": "独立开发深度求索，如何找寻开发的 idea",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110466",
+          "author": "cwei3790",
+          "description": "cwei3790: \n总结 2024 并为 2025 年做准备\n\n春节已经过去，但是 2024 年的总结迟迟未动笔，总是有做不完的事情，但是总结过去的一年是对自己的一个交代，必须要完成。\n2024 时间线\n翻开 Google Photos ，主要的事情如下：\n重新搭建了自己的网站，并通过 Medium 写作，通过代码或文字分享自己的想法\n去了香港、杭州/绍兴（带着女朋友去见了父母）、云南、武汉（异地相聚）等地\n换租了新的房子，更加安静，睡得更舒服了\n了解了更多投资知识：逐步远离 A 股，初步上手美股\n生存\n今年 Get Things Done 的能力得到了很大提升，主要是对事情有了判断力，学会合理安排优先级。同时借助 RSS 和一些好的群组，拥有了一个紧跟潮流的信息获取渠道。\n2024 是 AI 的迅猛发展的一年，入门一个未知领域或者解决问题都变得更加简单。这一年我都在尽力关注着 AI 的动向，非常看好半导体和 AI 的未来的同时，也立足当下上手各种 AI 工具。\n工作情况\n\nhttps://wakatime.com/@tfrain\n国内的工作环境更加恶劣了，充满寒气的言论在各个平台屡见不鲜。具体到我自身，工作内容变得更多，身边的同事笑容变得更少。\n工作的收获，无非是这一年在工作的铁拳下，我自认为更清楚自己几斤几两了，进一步有了自知之明。在这个不允许犯错的环境里，感谢现在的工作平台给了我犯错、修正的机会，感谢自己不再盲从各种言论和意识形态。\n工作之余\n\n英语方面：今年也持之以恒的学习了英语，听、说、读、写四个方面构造自己的英语学习环境：\nAnki：听、读\n浏览器插件：听、读  \nYoutube：听\n…\n但是在说、写这两方面做的不好，另外听、读的频率也稍显不足，不过确实也是时间不足，无法一口吃个胖子，持续学习就好。\n代码方面：业余用 Golang 刷了 Leetcode Ho…",
+          "link": "https://www.v2ex.com/t/1110466",
+          "publishedOn": "2025-02-10T14:44:58.000Z",
+          "wordCount": 504,
+          "title": "迟到的 2024 年总结-进步斐然",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110465",
+          "author": "abcfreedom",
+          "description": "abcfreedom: 春节买了件破洞装卫衣，今天头一次穿着去上班，忘了穿打底衫。\n上午同事夸我潮流，我还没反应过来。\n下午开完会之后，我才注意到破洞装特么的露肉啊！肚子啊、背啊白花花的一堆肉漏着。。。\n尴尬的我裹了一身羽绒服，直到晚上 9 点半下班，热的不行还不敢脱。。。",
+          "link": "https://www.v2ex.com/t/1110465",
+          "publishedOn": "2025-02-10T14:34:15.000Z",
+          "wordCount": 406,
+          "title": "头一次因为衣服尴尬了一天",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110463",
+          "author": "ZakaryTime",
+          "description": "ZakaryTime: \n自己在 NAS 部署了 RSShub 服务，已经可以正常访问，但是自己需要的网站不提供 RSS 地址，RSShub 也不提供，自己研究了半天一头雾水，请教有没有大佬可以帮忙定制路由，可有偿，如果能指导编写就更好了（本人没得 JS 、TS 经验）。\nDocker-Compose 如下\nservices:\n  rsshub:\n    image: diygod/rsshub:chromium-bundled\n    restart: unless-stopped\n    ports:\n      - \"1200:1200\"\n    environment:\n      NODE_ENV: production\n      CACHE_TYPE: redis\n      REDIS_URL: \"redis://redis:6379/\"\n      PUPPETEER_WS_ENDPOINT: \"ws://browserless:3000\"\n    depends_on:\n      - redis\n      - browserless\n    volumes:\n      - ./rsshub/lib/routes:/app/lib/routes\n\n  browserless:\n    image: browserless/chrome\n    restart: unless-stopped\n\n  redis:\n    image: redis:alpine\n    restart: unless-stopped\n    volumes:\n      - ./redis/data:/data\n\n暂时需要的网址如下列表：\n政策文件库\nhttp://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/\n\n区县动态\nhttp://www.cq.gov.cn/ywdt/zwhd/qxdt/\n\n部门动态\nhttp://www.cq.gov.cn/ywdt/zwhd/bmdt/\n\n今日重庆\nhttp://www.cq.gov.cn/ywdt/jrcq/\n\n回应关切\nhttp://www.cq.gov.cn/zwgk/zfxxgkml/hygq/\n\n部门解读\nhttp://www.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/bmjd/\n\n媒体视角\nhttp://www.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/mtsj/\n\n留言回复\nhttps://www.gov.cn/hudong/hygq/lyhf/\n\n地方动态\nhttps://www.gov.cn/lianbo/difang/\n\n部门动态\nhttps://www.gov.cn/lianbo/bumen/\n\n国务院工作进行时\nhttps://www.gov.cn/gzjxs/liebiao/\n\n决策部署\nhttps://www.gov.cn/gzjxs/toutiao/\n\n政策解读\nhttps://www.gov.cn/zhengce/jiedu/\n\n最新政策\nhttps://www.gov.cn/zhengce/zuixin/",
+          "link": "https://www.v2ex.com/t/1110463",
+          "publishedOn": "2025-02-10T14:24:45.000Z",
+          "wordCount": null,
+          "title": "求会 RSShub 定制路由的大佬帮帮忙",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110462",
+          "author": "coderchen",
+          "description": "coderchen: \n有哥们来聊聊吗",
+          "link": "https://www.v2ex.com/t/1110462",
+          "publishedOn": "2025-02-10T14:23:48.000Z",
+          "wordCount": 454,
+          "title": "有什么途径认识女大吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110460",
+          "author": "52txr",
+          "description": "52txr: \n静态资源（如 HTML/CSS/JS/ 图片）被刷流量 / CC 攻击主要表现为带宽消耗，而非直接的服务崩溃；动态网站每个请求都需要服务器动态生成内容，涉及 PHP 执行、数据库查询等操作，高频 CC 攻击会导致 MySQL 连接数暴增、查询堆积，最终表现为 CPU 和负载飙升。前置验证机制（如 JS Challenge 、CAPTCHA ）可有效过滤自动化攻击流量，Cloudflare 的 \"Under Attack Mode\" 正是基于此原理。\n对于 Typecho 博客，其实生态圈还是比较差的，相关的安全插件少之又少（当然最好的防御是在 CDN 层或者服务器安全组进行拦截，在访问层进行拦截不是最好的选择，但是总比没有好），于是就模仿着一些 SCDN 或者宝塔的 Ngixn 防火墙（付费版）进行了插件的开发。希望可以帮助到有需要的博友。\n插件采用两种验证模式：滑动解锁验证 和 数学计算验证。你可以根据网站的需求和目标用户群体来选择最适合的验证方式。\n[小陶出品]  Typecho 免费插件 EasyWaf ，一款简易的访问层拦截及验证插件：\nhttps://www.52txr.cn/2025/EasyWaf.html\n仅限个人研究，可能功能不咋滴，不喜勿喷，但是欢迎讨论和学习",
+          "link": "https://www.v2ex.com/t/1110460",
+          "publishedOn": "2025-02-10T14:05:34.000Z",
+          "wordCount": 396,
+          "title": "新手作品 : Typecho 免费插件 EasyWaf，一款简易的访问层拦截及验证插件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110459",
+          "author": "pureGirl",
+          "description": "pureGirl: 如果启动电脑，页面还会继续轮询吗",
+          "link": "https://www.v2ex.com/t/1110459",
+          "publishedOn": "2025-02-10T14:05:04.000Z",
+          "wordCount": 384,
+          "title": "如果电脑休眠了会影响网页轮询吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110458",
+          "author": "visitant",
+          "description": "visitant: \n最近发现有个 27 寸 4k 240hz ips 的面板,量产是 24 年 Q3 ，但到现在都还没有对应的产品出来，有人了解过吗\nhttps://www.panelook.cn/ME270QUM-NF8_BOE_27.0_LCM_overview_cn_66986.html",
+          "link": "https://www.v2ex.com/t/1110458",
+          "publishedOn": "2025-02-10T13:57:18.000Z",
+          "wordCount": 374,
+          "title": "发现有个 27 寸 4k 240hz ips 的面板，但还没有对应的产品",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110457",
+          "author": "llbqwhtxi",
+          "description": "llbqwhtxi: 我记得之前搜索完有个指引 怎么开发订阅源的 \n怎么现在找不到了 有知道的大佬分享一下吗",
+          "link": "https://www.v2ex.com/t/1110457",
+          "publishedOn": "2025-02-10T13:56:27.000Z",
+          "wordCount": 373,
+          "title": "关于 follow 的订阅源开发求指导",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1110455",
           "author": "wuyiccc",
           "description": "wuyiccc: macos m1 芯片使用 memory analyzer 工具报错 应用程序无法打开。\n有大佬知道怎么解决这个问题的吗？\n我使用的版本是最新的 memory analyzer 的 macos aarch64 版本的。\n第一次下载安装完成之后，先打开 mat 工具是闪退，然后根据网上的教程配置了 Info.plist 中的-vm 指定 java 的 bin 路径之后可以正常打开和使用了，然后电脑重启之后，再次打开 mat 工具就提示应用程序无法打开。\n卸载 mat 重装之后也还是报应用程序无法打开。\n后来我换前一个版本，进行相同的操作之后，也是第一次可以正常打开，后面电脑重启之后也是提示应用程序无法打开了。。。\n有大佬知道是怎么回事吗？\n我想看 mat 提示应用程序无法打开的报错详细日志，在网上百度了一下也没找到哪里可以看这个日志。",
           "link": "https://www.v2ex.com/t/1110455",
           "publishedOn": "2025-02-10T13:31:06.000Z",
-          "wordCount": 435,
+          "wordCount": 437,
           "title": "macos m1 芯片使用 memory analyzer 工具报错 应用程序无法打开",
           "imageUrl": null
         },
@@ -381,7 +488,7 @@
           "description": "sxguka: 无论是 ipv4 还是 ipv6 ，无论是阿里、114 、谷歌还是什么 DNS\n试过电信宽带。电信、移动流量\n现在 time.is 同步精确度极低，不知道为什么\n以前能精确到 5-20ms\nhttps://picx.zhimg.com/v2-023bb6b151013e5947dd1294b02e33c5_r.jpg",
           "link": "https://www.v2ex.com/t/1110450",
           "publishedOn": "2025-02-10T13:03:00.000Z",
-          "wordCount": 360,
+          "wordCount": 361,
           "title": "[求助] 网络问题： time.is 卡顿",
           "imageUrl": null
         },
@@ -421,7 +528,7 @@
           "description": "holycrazy:",
           "link": "https://www.v2ex.com/t/1110446",
           "publishedOn": "2025-02-10T12:33:08.000Z",
-          "wordCount": 469,
+          "wordCount": 481,
           "title": "趁着国补，想入口一个家用的净水器，可以装在厨房橱柜下面的那种，有什么推荐的吗",
           "imageUrl": null
         },
@@ -551,218 +658,8 @@
           "description": "intermission: \n在工作中，我经常需要回答客户关于某个模型部署所需的显卡数量。但由于不同显卡的显存规格各不相同，大多数人很难记住每种配置，每次回答都需要临时查询。为了解决这个问题，我开发了一个 LLM 推理显存/显卡需求计算器：\nLLM 推理显存计算器\n它可以快速计算模型推理所需的显存，并估算所需的显卡数量，欢迎试用！",
           "link": "https://www.v2ex.com/t/1110431",
           "publishedOn": "2025-02-10T11:07:45.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "LLM 推理显存显卡计算器：快速估算部署需求",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110429",
-          "author": "zgxxx",
-          "description": "zgxxx: https://www.ermao.net/article/nz313xp6/\n12 月份刚充了一年...",
-          "link": "https://www.v2ex.com/t/1110429",
-          "publishedOn": "2025-02-10T10:59:26.000Z",
-          "wordCount": 338,
-          "title": "EFCloud, SFCloud 机场跑路了吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110428",
-          "author": "junwind",
-          "description": "junwind: \n如题：搞 Ai 的，编程语言，python 是首选吗？",
-          "link": "https://www.v2ex.com/t/1110428",
-          "publishedOn": "2025-02-10T10:48:54.000Z",
-          "wordCount": 467,
-          "title": "搞 Ai 大模型的，都是 Python 首选吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110427",
-          "author": "guozozo",
-          "description": "guozozo: 现有硬件设备：\n1. 台式主机（ 13900k+内存 128G+1T ，单网口） 6 台\n2. 服务器（ 14900K+内存 128G+16T ，双网口） 1 台\n3. 若干台普通主机/笔记本\n4. 若干显卡（ 4090 ，A100 等）\n开发环境：\n1. 大型桌面程序开发，有界面（需要适配 debian10 ，debian12 ，windows 系统，特定的 ARM 系统），IDE 是 QTcreator\n2. 微信小程序开发\n3. python 程序开发\n测试环境：人工测试，需要有界面\nCICD 环境：自动跑单元测试，成功后编译出 release 包给测试环境（目前用自建的 gitlab 管理）\n希望达到的效果：\n1. 开发人员（小团队，不会超过 10 人）在受管理员控制的虚拟机内开发，一人一个开发环境。能够记录部分高危操作。\n2. 测试人员的测试环境能进行测试行为记录\n3. 测试环境能跑自动化界面测试（模拟人的一套固定操作）\n4. 支持微信，钉钉，WPS/office ，需要在上面考勤，交代任务，审批，写文档等\n目前想到的策略：\n1. 通过高性能主机/服务器，搭建 PVE 集群，需要时管理员手动创建多个虚拟机分配给员工用 RDP 连接进行远程开发/测试。创建 gitlab 服务器用于 CI/CD 。\n2. 普通电脑用于办公。\n几个问题：\n1.  PVE 虚拟机对带界面的程序开发是否影响界面调试？\n2. PVE 虚拟机是否支持 USB ，串口，光盘等硬件连接上 PVE 主机后，进行调试？\n3. PVE 虚拟机能否进行 GPU 加速的功能测试？\n4. 监控行为记录有没有免费的软件方案？\n5. 目前的网口数目是否支持想到的策略？\n6. 远程 RDP 开发的体验如何，是否用 ssh X11 转发更合适？",
-          "link": "https://www.v2ex.com/t/1110427",
-          "publishedOn": "2025-02-10T10:31:14.000Z",
-          "wordCount": 460,
-          "title": "如何搭建一个满足需求的开发/测试/CICD 环境，求各位大佬指点。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110426",
-          "author": "CNM47589",
-          "description": "CNM47589: \n新到的 Mac mini M4 耳机孔为啥这么紧，原先 M2 的 Mac mini 和 MacBook 耳机孔都挺正常的",
-          "link": "https://www.v2ex.com/t/1110426",
-          "publishedOn": "2025-02-10T10:29:04.000Z",
-          "wordCount": 355,
-          "title": "你的 Mac mini M4 耳机孔紧吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110425",
-          "author": "DIMOJANG",
-          "description": "DIMOJANG: 从最早的 App Store 的首页卡片，到后面的手记 APP 和 Apple Music 打开专辑/播放列表的动画改动，再到最近的 Sport 和 Invites ，都在刻意弱化从边缘返回的手势操作。应该是为了应对越来越大的手机屏幕和越来越窄的边框吧。",
-          "link": "https://www.v2ex.com/t/1110425",
-          "publishedOn": "2025-02-10T10:27:36.000Z",
-          "wordCount": 588,
-          "title": "苹果对“全局返回”的新答卷逐渐清晰",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110424",
-          "author": "52boobs",
-          "description": "52boobs: \n最近水杯摔坏了，在找一个好看又实用的杯子，大家有什么推荐吗",
-          "link": "https://www.v2ex.com/t/1110424",
-          "publishedOn": "2025-02-10T10:26:33.000Z",
-          "wordCount": 503,
-          "title": "听说 V 站喜欢收藏水杯，大家用的都是什么水杯吗，求推荐一个",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110423",
-          "author": "wekecher",
-          "description": "wekecher: \n刚在小红书刷到一条吐槽成都随地吐痰问题的笔记：口痰之城--成都！\n你们不要喷我，我也是成都人，今天老辈子从车里面把谈吐到我肩膀上了，我身高 167 ，建议 150 左右的来成都旅游要戴口罩，免得老辈子吐你脸上了，我这个才是正儿八经的旅游攻略。\n捂脸笑。这让我想起最近一例吐痰事儿。\n春节我和朋友一路从天府广场散步到宽窄巷子附近，人流开始变得密集。突然，毫无征兆地前面一个穿深蓝制服的男子，朝着身体左侧就吐了一口痰。他压根儿就没家检查下身旁会不会有人超过去，万一...更讽刺的制服男还是城管，我当时整个人都不好了，遂赶紧超车甩之。\n有人一本正经地从饮食和中医的角度解释川渝地区的吐痰问题，但是如果你多搜搜看，会发现全国各地的网友都在争「痰都」的地位。当有人觉得这是老年人，特别是大爷们的独有恶习时，评论区就会出现各种年轻人的吐痰事迹了。看来好像并不是大爷这一代消失后就能好转的。到最后发现，虽然中国这个词，不兴随便贴，但在吐痰这个问题上，似乎相当匹配。此现状，令见痰色变者，痛心疾首唉。\n思来想去，大概也只有立法罚款才有效？我知道的，新加坡就是这么干的，而且罚款数额不小。但是我们如何才能推动呢？",
-          "link": "https://www.v2ex.com/t/1110423",
-          "publishedOn": "2025-02-10T10:19:09.000Z",
-          "wordCount": 469,
-          "title": "随地吐痰，我最痛恨的公共恶习。有何改善之策？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110421",
-          "author": "imjiaoyuan",
-          "description": "imjiaoyuan: \n坐标成都，想办一张能支付海外服务的卡，类似 vercel 、chatgpt 这样的，我记得国内某些银行有 visa 卡？但是听说有些似乎还是不能付，请问哪一种可以呢？本人学生，只用来支付",
-          "link": "https://www.v2ex.com/t/1110421",
-          "publishedOn": "2025-02-10T10:16:31.000Z",
-          "wordCount": 498,
-          "title": "海外服务支付可以办哪种卡？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110420",
-          "author": "SachinBeyond",
-          "description": "SachinBeyond: 鱼跃的血糖尿酸检测仪 京东 166",
-          "link": "https://www.v2ex.com/t/1110420",
-          "publishedOn": "2025-02-10T10:11:22.000Z",
-          "wordCount": 452,
-          "title": "鱼跃的血糖尿酸检测仪 有小伙伴 使用过吗? 体验如何? 检测准确吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110419",
-          "author": "ly1878",
-          "description": "ly1878: 现在每次用 GoldenDict 字典软件查单词，要手动选中单词，然后运行下自动化软件（复制+查询粘贴板），频繁双击有点累，请问有什么好的方法可以实现双击选中吗？不止输入状态、浏览网页等情况下都需要查询。\n小白不懂代码，研究这个字典软件就花费很长时间，还望大佬指点，谢谢。",
-          "link": "https://www.v2ex.com/t/1110419",
-          "publishedOn": "2025-02-10T10:10:49.000Z",
-          "wordCount": 403,
-          "title": "有什么方式可以实现双击选中单词效果？快捷键、applescript 都可。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110418",
-          "author": "ybbutterfly",
-          "description": "ybbutterfly: \n业务来了就是配置一下，什么监控、AI 、知识分享、WIKI 、devops 、敏捷开发流程都做了，上云、大数据也做了，除了修下 bug ，支持下类似的业务就没啥了，请教下大家有在平台性质部门的都在干啥",
-          "link": "https://www.v2ex.com/t/1110418",
-          "publishedOn": "2025-02-10T10:09:50.000Z",
-          "wordCount": 385,
-          "title": "请教一下，平台部门把周边都支持完了，还要干啥",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110417",
-          "author": "balabalaguguji",
-          "description": "balabalaguguji: \n我的是 OPPO 手机，APP 设置了允许后台运行，然后后台杀了这个 APP ，但是查看应用详情可以看到“强行停止”还可以点击，不知道是什么在后台跑\n有什么工具可以查看吗？",
-          "link": "https://www.v2ex.com/t/1110417",
-          "publishedOn": "2025-02-10T10:05:42.000Z",
-          "wordCount": 434,
-          "title": "安卓应用杀了后台还可以强行停止，什么在跑？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110416",
-          "author": "libai9633",
-          "description": "libai9633: \n关于我们：\n我们是总公司（千万海外用户）的一个子项目；我们有丰富的推广资源\n我们业务是 VPN ，正规香港公司，已上架海外各大应用商店\n团队是远程工作，休假目前是单休+法定节假日休\n薪资 3500 美金/月试用期是周结，试用期 80%：结算 USDT ；转正月结 \n员工分红的总额是 30%目前有 6 个人。\n目前的薄弱点是；运维架构这一块，不稳固，APP 偶尔会因为通讯域名被墙而网络不通；需整体升级。\n工作内容：\n1.运维架构方案；防御方案；防御压测\n2.APP 的网络通讯稳定方案（本行业有 IP ，域名被墙问题）\n3.PHP 开发\n4.可能有 golang 开发（有最好，不强求）\n技术要求：\n1.PHP 至少有 3 年的开发经验\n2.擅长运维架构设计，有充分的经验\n3.熟悉网络攻防\n4,熟悉网络层\n5.最好会 golang\n其他要求：\n1.学习调研能力要强\n2.结果导向，主动出击，说到做到\n3.创业公司，要有事业心，能吃苦\n联系方式：dGVsZWdyYW3vvJogQGRkZ29nbw==",
-          "link": "https://www.v2ex.com/t/1110416",
-          "publishedOn": "2025-02-10T10:04:33.000Z",
-          "wordCount": 444,
-          "title": "找全职后端：运维网络攻防和 PHP 开发；；月薪 3500 美金+技术分红",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110415",
-          "author": "liuxyon",
-          "description": "liuxyon: \n目前自建自用无广告 DNS ，测试看 yb 没有广告. 可以提供测试机会. 留下你的联系方式,和你 ip 地址. 会加入你 ip 为白名单进行测试. 目前测试安卓端和 web 都没有广告.",
-          "link": "https://www.v2ex.com/t/1110415",
-          "publishedOn": "2025-02-10T10:02:11.000Z",
-          "wordCount": 368,
-          "title": "自建服务器,需要无广告的可以测试",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110414",
-          "author": "xkfe16",
-          "description": "xkfe16: \n\n1 、同步滚动、可折叠展开\n2 、进度连线圆点对齐表头文字。\n3 、响应式，大小屏幕不能影响右侧对齐",
-          "link": "https://www.v2ex.com/t/1110414",
-          "publishedOn": "2025-02-10T10:01:54.000Z",
-          "wordCount": 343,
-          "title": "请教下前端大佬们，这玩意咋写呀？😭 有什么类似的实现可以看一下的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110413",
-          "author": "tcper",
-          "description": "tcper: \n从项目里搜一个组件，大概 200 多个结果\n给 AI 一个模版，大概几十行代码，让 AI 按照这个模版把搜出来的对象填进模版里，\n最终代码，根据模版乘数，模版 4 行，生成 800 行，模版 10 行，生成 2000 行。\ncopilot 付费用户 gpt 4o ，从搜索结果里找 200 多个不重复值，生成到一半，失败。\nkimi ，找 200 多个结果，成功，生成模版代码到 50%直接失败。\ndeepseek ，因为 kimi 已经找到结果，copy 进去生成模版代码，直接服务繁忙。\n虽然没测市面上所有产品，但是大概率结果不会超出这几个。\n这类 AI 会做炫酷的演示，演示的例子代码量很少，但是到实际项目里基本歇菜",
-          "link": "https://www.v2ex.com/t/1110413",
-          "publishedOn": "2025-02-10T09:59:34.000Z",
-          "wordCount": 446,
-          "title": "AI 编程我觉得基本还不能用",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110412",
-          "author": "SirYuxuan",
-          "description": "SirYuxuan: 前后端运维都挺熟练的，10 年经验\n留个 wx: Z2ZoMjI5Xw==",
-          "link": "https://www.v2ex.com/t/1110412",
-          "publishedOn": "2025-02-10T09:53:22.000Z",
-          "wordCount": 352,
-          "title": "郑州有没有招全栈的",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110411",
-          "author": "yanhuijun1996",
-          "description": "yanhuijun1996: http://gs1.dz911.top/eycjklZ",
-          "link": "https://www.v2ex.com/t/1110411",
-          "publishedOn": "2025-02-10T09:52:48.000Z",
-          "wordCount": 333,
-          "title": "救助了一窝可爱的小猫，免费领养有意可联系，欢迎转发",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110410",
-          "author": "zhwguest",
-          "description": "zhwguest: \n路由器禁用 ipv6 后正常，这是咋回事？ \n默认突然 ipv6 能够直接连接到 chatgpt? 但是 ipv6 识别地区了？",
-          "link": "https://www.v2ex.com/t/1110410",
-          "publishedOn": "2025-02-10T09:52:20.000Z",
-          "wordCount": 349,
-          "title": "chatGPT 突然连接不上，连接被重置，发现是 ipv6 的问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110409",
-          "author": "ifelsexyz",
-          "description": "ifelsexyz:",
-          "link": "https://www.v2ex.com/t/1110409",
-          "publishedOn": "2025-02-10T09:45:32.000Z",
-          "wordCount": 410,
-          "title": "有没有免费 gpt api 支持上下文的 可以连续对话",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110408",
-          "author": "fffq",
-          "description": "fffq: \n1 ，准备小城市长期持有，省油，好开，耐用，毛病少，维护成本低，预算有限 8w\n2 ，家里有个小朋友\n3 ，家里第一辆车\n二手车水深，不敢碰",
-          "link": "https://www.v2ex.com/t/1110408",
-          "publishedOn": "2025-02-10T09:45:14.000Z",
-          "wordCount": 408,
-          "title": "v 友们，家用车 suv 求推荐",
           "imageUrl": null
         }
       ]
