@@ -201,43 +201,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -345,7 +308,7 @@
           "description": "xinmans: 有没有办法把现有的 windows10 和 C 盘数据打成一个镜像，pve 装好后，能够在 PVE 里启动起来，数据和系统都一摸一样？",
           "link": "https://www.v2ex.com/t/1110676",
           "publishedOn": "2025-02-11T07:43:57.000Z",
-          "wordCount": 438,
+          "wordCount": 454,
           "title": "目前有一个台式机，想转成 PVE 系统，现有的 windows 系统可以迁移进去，如何操作？",
           "imageUrl": null
         },
@@ -355,7 +318,7 @@
           "description": "spritecn: \n在 deepseek 大火且经常服务器繁忙的当下,个人日常桌面端 ai 使用已经转移到了 chatBox + 第三方(阿里) 的 deepseek V3 模型\n但移动端没有像 chatBox 一样的代替品\n需求\n主要功能类似 deepseek 移动端\nchat 部分使用兼容 chatGPT api 的 baseUrl 和 key\nchat 部分可以像 chatBox 一样定义 ai 角色\n需要确认可行性\n可以使用阿里/腾讯等第三方的录音转写",
           "link": "https://www.v2ex.com/t/1110675",
           "publishedOn": "2025-02-11T07:43:08.000Z",
-          "wordCount": 529,
+          "wordCount": 539,
           "title": "有没有类似 chatbox 的移动端应用呢",
           "imageUrl": null
         },
@@ -365,7 +328,7 @@
           "description": "mzmzzZ: \n双联通卡。\n年前还给联通打过电话重置网络也没有多大效果",
           "link": "https://www.v2ex.com/t/1110674",
           "publishedOn": "2025-02-11T07:39:52.000Z",
-          "wordCount": 421,
+          "wordCount": 425,
           "title": "iPhone 13pro 双卡，从年前开始信号觉得越来越糟糕的 换安卓的想法越来越强烈了",
           "imageUrl": null
         },
@@ -375,7 +338,7 @@
           "description": "sandy136: \n大佬们，今年想搞点副业增加一下收入，家庭开销太大了\n我目前想做的是服务型的私域，两个方向：\n1 、苹果手机软件多开\n2 、网站源代码获取\n大佬们，有什么副业介绍一下吗？生活太难了，一起交流 hghzx123456 有什么项目也可以一起交流，2025 年真的需要做点什么事情了",
           "link": "https://www.v2ex.com/t/1110672",
           "publishedOn": "2025-02-11T07:39:00.000Z",
-          "wordCount": 419,
+          "wordCount": 476,
           "title": "2025 年 副业搞钱",
           "imageUrl": null
         },
@@ -385,7 +348,7 @@
           "description": "alan9999: \n最近换了安卓手机，发现拼音输入不如 iOS 方便\niOS 输入拼音字母时会出现在 App 的输入框，大部分 App 都可以在整个输入过程中下拉显示联想的结果，安卓只能在选中汉字到输入框后显示下拉联想的内容\n请问安卓有什么系统设置 或者 输入法 可以实现 iOS 拼音输入的效果吗？",
           "link": "https://www.v2ex.com/t/1110671",
           "publishedOn": "2025-02-11T07:38:53.000Z",
-          "wordCount": 532,
+          "wordCount": 563,
           "title": "最近换手机转入安卓阵营，发现拼音输入不如 iOS 方便， iOS 输入拼音字母时会出现在 App 的输入框，大部分 App 都可以在整个输入过程中下拉显示联想的结果，安卓...",
           "imageUrl": null
         },
@@ -405,7 +368,7 @@
           "description": "hhjuteman: 周六脖子疼的不行到医院做了个核磁共振，确诊颈椎病。\n医生给我开了两种药，一种所谓的消炎药（实际就是止疼药），一种是颗粒中药。\n那个止疼药只要几十块钱，中药 200 多。我本着完全相信医生的想法也没把\"不要中药\"这种话说出口。\n结果果然中药没用，那个止疼药也没啥用。我最后吃了上次拔牙以后牙医开的止疼药，还算有点效果。\n周一晚上查一些病友的案例和一些经验，发现\"麦肯基训练\"这几个字反复出现。我对照着跟练视频挑选一些能够做到的项目循环练习了一个小时。除了刚开始有些许不适以外，训练到后面脖子居然可以开始有限的活动起来了，疼痛也减轻了不少。\n经过我个人的经历，我可以确认麦肯基的颈椎训练完全有用，我准备等我的脖子不适感减弱到不影响锻炼的情况下试试麦肯基的腰椎训练，毕竟我的腰椎也不是特别好。",
           "link": "https://www.v2ex.com/t/1110669",
           "publishedOn": "2025-02-11T07:36:17.000Z",
-          "wordCount": 342,
+          "wordCount": 344,
           "title": "中药就是拿来消耗医保余额的吧",
           "imageUrl": null
         },
@@ -415,7 +378,7 @@
           "description": "lg106: \n春节期间在转转上寄售一台 14 寸 32g m1pro ，过了好几天终于卖掉了，卖掉才知道有一个七天无理由退货，然后我就在想这人不会最后一天申请退货吧，没想到真的最后一天的下午申请退货了，主打一个白嫖。太 TMD 耽误事，机器被弄成什么样子都不知道，我都怀疑是不是平台自己故意的，好让我低价卖给平台，现在时间又耽误，机器又折旧，还不知道机器又没磕碰过。",
           "link": "https://www.v2ex.com/t/1110668",
           "publishedOn": "2025-02-11T07:35:42.000Z",
-          "wordCount": 573,
+          "wordCount": 636,
           "title": "千万别在转转寄售！",
           "imageUrl": null
         },
@@ -425,7 +388,7 @@
           "description": "francochan: \n🚀 我们是谁？\nOneKey 是专注于 Web3 安全和用户体验的创新公司，我们致力于构建简单易用且安全可靠的加密资产管理工具。\n🎯 招聘岗位：Web3 产品经理\n📌 职位要求：\n具备 Web3 行业知识，熟悉 DeFi 和钱包；\n有产品经理经验，能够独立负责产品规划、设计、迭代；\n善于沟通协调，与技术、设计、市场团队高效合作；\n关注用户体验，能优化产品流程，提高易用性。\n💰 薪资范围：30K - 45K \n📍 工作地点：深圳\n📧 简历投递： franco@onekey.so\n期待你的加入，一起探索 Web3 的未来！💡",
           "link": "https://www.v2ex.com/t/1110666",
           "publishedOn": "2025-02-11T07:32:03.000Z",
-          "wordCount": 395,
+          "wordCount": 406,
           "title": "[招聘] Web3 产品经理 - OneKey",
           "imageUrl": null
         },
@@ -435,7 +398,7 @@
           "description": "laraws: \n大家好，我 openai api 账户绑定了 google pay ，设置了余额低于 5 美元自动充值为 10 美元，前几次都成功扣款了，这次突然出现扣款失败了，失败邮件如下:\nAuto-recharge failed Your organization Personal (xxxx) is configured to automatically purchase more credits when your balance is low. The most recent attempt to charge your payment method failed, so auto-recharge has been disabled.\nPlease review your payment method, and manually purchase more credits or re-eneable auto-recharge.\n大家有没有遇到过这个情况，最后大家又是怎么解决的呢?",
           "link": "https://www.v2ex.com/t/1110665",
           "publishedOn": "2025-02-11T07:27:29.000Z",
-          "wordCount": 417,
+          "wordCount": 432,
           "title": "求助， openai api 账户绑定 google pay 自动扣款失败，如何解决？",
           "imageUrl": null
         },
@@ -445,7 +408,7 @@
           "description": "abc0123xyz: 如题，看到这篇标题有感\nhttps://v2ex.com/t/1110494\n有木有 60 岁的\n--------\n截至 2025 年 2 月 11 日",
           "link": "https://www.v2ex.com/t/1110664",
           "publishedOn": "2025-02-11T07:26:44.000Z",
-          "wordCount": 389,
+          "wordCount": 404,
           "title": "V 友们现身说法，你们见过年龄最大的程序员，还在敲代码时是多少岁？",
           "imageUrl": null
         },
@@ -475,7 +438,7 @@
           "description": "circleee: 如果采用 个人会奉上红包/\n  \n甲辰年 丁丑月 癸卯日 己未时\n这里是详情\n https://pcbz.iwzwh.com/#/paipan-result/index?MRType=0&guid=&location=%E6%9C%AA%E7%9F%A5%E5%9C%B0+%E5%8C%97%E4%BA%AC%E6%97%B6%E9%97%B4+--&name=%E6%A1%88%E4%BE%8B7&sex=1&solarTime=2025&solarTime=02&solarTime=03&solarTime=13&solarTime=04&sunTime=2025&sunTime=02&sunTime=03&sunTime=13&sunTime=04&lunarArr=[]&tg=%E7%94%B2&tg=%E4%B8%81&tg=%E7%99%B8&tg=%E5%B7%B1&dz=%E8%BE%B0&dz=%E4%B8%91&dz=%E5%8D%AF&dz=%E6%9C%AA&typeId=00000000-0000-0000-0000-000000000000&xls=0&unknowhour=0",
           "link": "https://www.v2ex.com/t/1110661",
           "publishedOn": "2025-02-11T07:21:13.000Z",
-          "wordCount": 383,
+          "wordCount": 392,
           "title": "有没有懂八字的 ， 给看看 取个名字， 或者有好的名字也可以给提供下。",
           "imageUrl": null
         },
@@ -495,7 +458,7 @@
           "description": "also1412: \n\nTL;DR:\n各位好，好久不见。燧炻创新 2025 春季招聘新开 HC ，希望能给大家带来一丝信心。\n关于燧炻创新和 FydeOS\nFydeOS 是燧炻创新（ Fyde Innovations ）打造的基于 Chromium 开源项目的操作系统产品。燧炻创新是目前世界上为数不多的专注 Chromium OS 开源项目的厂商。FydeOS 是目前行业内仅有的达到商用级别的全功能第三方 Chromium OS 操作系统产品；预装 FydeOS 的计算机设备可以拥有近似于 Google Chromebook 的使用体验，并可以无障碍地在中国大陆地区使用。FydeOS 也是市面上唯一一支长期存续的产品级 Chromium OS 操作系统，从 2018 年上线以来从未断更。FydeOS 配合定制化云集管平台以及附属云服务，打造安全可控的软硬件一站式解决方案，目前正在服务众多海内外行业客户。目前，燧炻创新已是专注于开源基础软件 + 硬件的一体化解决方案供应商。\n关于燧炻创新是如何工作的\n燧炻创新于 2015 年成立于英国伦敦，经历了漫长的技术积累，目前处在快速增长期。秉承欧式小而美技术公司的风格，燧炻创新十余人一起经历了这十年的历练并存活至今。从最初的原型验证到今天在操作系统市场上占据一席之地，燧炻相信一小部分人的力量依然可以发出足够大的声音，改变一个行业的格局。\n公司成立之初便与 V2EX 结下不解之缘。目前团队中几位核心员工均由 V2EX 社区认识 FydeOS 并最终加入我们。不少人也在这里看着我们这几年的成长，再次一并谢过。\n关于 small & beautiful 以及 WLB matters，分享几个或许和其它互联网技术公司不太一样的特质：\n不打卡，不精细管理，不写各种总结。\n在燧炻创新「弹性工作时间」的实施状况可以是下午四点半可以去接孩子放学，晚上陪家人吃饭。只要按时来开会、提交 commit 、消掉 Jira 上的任务。\nSlack 是公司唯一的即时沟通软件，技术岗位所有工作相关内容只在 Slack 上沟通。\n公司没有微信群，也从不会因为一点小事拉群。\n公司目前没有选用令人窒息的、侵犯隐私的以及试图把工作和生活混在一起的效率管理或即时通讯软件，以后也不会。\n团建一定是在工作日。\n需要电话沟通问题时，会先在 Slack 上问：「需要一个电话，现在方便么？」\n关于你\n无论是何种岗位，我们希望你具有如下品质：\nProficiency in comprehending complex and structured technical documentation; ability to acquire new technical knowledge in English first\n知晓并能实践工作场合所需的「职业素养」\n了解 FydeOS 是什么；认可燧炻创新存在的意义和价值\n对未知事物有着强烈的好奇心，有着自我驱动的学习力和找到问题答案的能力\n在寻找问题答案时主动解决困难并采用正确工具的能力\n良好的沟通能力及团队协作能力\n适应小而美公司的氛围；能自如应对独当一面的时刻\n对品质的追求及对雕琢细节的狂热追求\n关于在招聘的岗位的详细介绍\n [北京] 操作系统工程师\n [青岛] 互联网全栈工程师\n [青岛] 大前端工程师\n [北京] 产品、市场、媒体及渠道运营专员\n [北京/青岛] 品质保障及集成测试专员\n如何申请\n请撰写一封正式的求职邮件，发至这个邮箱，来信必复。\n最后，本来想在这里加上一段充满情怀的话语，以突显我们的逼格。想想作罢，没有人确切地知道未来会是怎样，我们只是希望能和你在创造未来的路上一起渡过一段还算开心的时光，如果能一直走下去，那再好不过。\n对了，今年是燧炻成立的第十年，just so you know ✨\nFydeOS is made possible by gentle souls with real ❤️ | © 2025 燧炻创新",
           "link": "https://www.v2ex.com/t/1110658",
           "publishedOn": "2025-02-11T07:19:31.000Z",
-          "wordCount": 528,
+          "wordCount": 536,
           "title": "[北京/青岛] 燧炻创新 FydeOS 2025 Spring Intake",
           "imageUrl": null
         },
@@ -515,7 +478,7 @@
           "description": "bearbest: \n24 年办了几个国家的签证，想偷懒，就难免绕不过旅行社，各种证明肯定是少不了的，身份证、护照、户口薄，甚至家人的一系列超级多材料在各种微信群、邮件组里面满天飞……\n当时就有点担心这些高清的隐私数据可能存在一定风险，而且每办理一种签证就要提供一大批材料，担心隐私泄露，更担心在不知不觉的情况下被办卡、被网贷 😢。\n起初我是手动在修图软件中给每个材料写上一些 “仅供 xx 旅行社办理 yy 签证所用” 之类的文字，可无奈材料实在太多了，而且还有不同的旅行社、不同的签证、不同的家人材料，真是搞得我一颗头两颗大 🤯。\n所以就想着开发这么一款应用，可以统一管理自己和家人的证件信息。\n得益于 AI 的帮助，经过几个月的摸索，终于搓出了这款应用 🎉：\n———— [🐻‍❄️ Bear.Locker 🔐] ————\n 通过相册 / 拍照快速录入证件信息\n 证件分类管理\n 三种列表视图可选\n 可设置卡面防窥显示，以防意外泄露隐私\n 导出证件时可以添加文字 / 图片水印\n 支持历史水印缓存，可以使用历史水印快速导出证件\n 支持导出原始照片\n 应用安全锁，仅允许解锁后访问应用内容\n 适配暗色主题\n 适配手机与平板布局\n目前只完成了卡片类证件信息的管理，后续计划支持常见文档（比如各种扫描件）管理。\n大家如果有什么新想法也欢迎提出哈\n———— [⏬ 下载地址 ⏬] ————\nhttps://apps.apple.com/app/bear-locker/id6738835164 ↗️\n感谢各位能够看到这里，以下是免费内购兑换码，欢迎下载体验：\nPKEA7JTR9YL3\nXP9W6HWEHLPM\nPETPEFRKP7NR\nTHLY7TPXR4PY\nL4Y4L4PAJNM9\nAYMJR7EAT3RH\nWR34H9H3JHAL\n7YFR9FJE4N73\nEJPFNFMA3YEM\nKY4MNMK44NKX\n如果觉得不错可以在 App Store 点点评分，非常感谢！\n祝大家新年快乐，幸福安康～～～",
           "link": "https://www.v2ex.com/t/1110655",
           "publishedOn": "2025-02-11T07:13:49.000Z",
-          "wordCount": 446,
+          "wordCount": 466,
           "title": "尝试用 AI 🤖开发了一个多端应用，隐私证照管理，授权分享避免滥用，内附兑换码～🎉",
           "imageUrl": null
         },
@@ -545,7 +508,7 @@
           "description": "songche: \n有大佬能解释下黄金上涨的逻辑不",
           "link": "https://www.v2ex.com/t/1110651",
           "publishedOn": "2025-02-11T07:12:20.000Z",
-          "wordCount": 371,
+          "wordCount": 383,
           "title": "黄金会涨到什么时候啊，看黄金 ETF 一年涨了好多啊",
           "imageUrl": null
         },
@@ -565,7 +528,7 @@
           "description": "sjbsjb233: \n银行电子流水打印发邮箱的 zip 解压密码基本都是 6-7 位数字形式的，这加密跟没加密有什么区别？\n今天申签证打了好多家银行的流水，基本都是纯数字加密的压缩包，连微信支付宝的流水都是纯数字的，纯纯多余加密\n（不过银行发件之前是要过人脸验证的，只要不输错邮件地址还算安全，吐槽下邮件附件的 zip 文件加密，感觉纯纯就是做样子😂）",
           "link": "https://www.v2ex.com/t/1110649",
           "publishedOn": "2025-02-11T07:10:28.000Z",
-          "wordCount": 475,
+          "wordCount": 495,
           "title": "银行电子流水打印发邮箱的 zip 解压密码开玩笑吗",
           "imageUrl": null
         },
@@ -575,7 +538,7 @@
           "description": "finolaire: \n写了 6 、7 年代码了，每天的工作量安排是合理的，按照每天认真 4-6 小时完成、划水 6+小时完成，但就是感觉好疲惫，不想写代码，回忆一下这感觉大概应该有 3 、4 年了。",
           "link": "https://www.v2ex.com/t/1110648",
           "publishedOn": "2025-02-11T07:07:44.000Z",
-          "wordCount": 379,
+          "wordCount": 397,
           "title": "30 岁、写代码好疲惫",
           "imageUrl": null
         },
@@ -585,7 +548,7 @@
           "description": "ytl: \ncursor 最近在淘宝也不好买便宜的了，也便宜嫖了那么久了考虑自己买了，但是偶尔还是想用一个 ai 对话，cursor 中的 sonnet 能在日常当作 ai 对话工具使用吗。",
           "link": "https://www.v2ex.com/t/1110647",
           "publishedOn": "2025-02-11T07:07:12.000Z",
-          "wordCount": 431,
+          "wordCount": 450,
           "title": "cursor 和 claude 只选一个可以吗",
           "imageUrl": null
         },
@@ -605,7 +568,7 @@
           "description": "Henri: 看很多人想趁着这批国补的风头推陈出新，但我依旧没有任何升级的欲望，如此这般近十年。\n下面是我现在日常使用的电子产品，而且都是在重度使用，且以下所有产品均为二手，无一首发购入。\n手机：iphone11 （ 128g 主力机）坚果 r1(8+128 备用机 基本吃灰)\n电脑：MacBook air2015 （ 500g ）台式 win （ 5600+2060 ）\n平板：iPad air3(64g)\n掌机：ndsill\n\n真就没有一点想换的想法，如果说非要有的话，那就是显卡吧，去年玩黑猴的时候确实明显感觉到 2060 不太行，我显示屏还是 2K38 吋的，画面实在太糊。但 2060 玩市面上绝大部分 3A 都能开 2k 中画质，对我来说太够了，感觉近两年也不太会换。\niphone11 是 20 年入的女生一手自用，这几年用起来极为舒适，尤其是这块饱受好评的 lcd ，期间电池换过一次以外没有任何问题。总有人说什么 60hz 太辣眼睛，oled 屏幕显示效果更好，a18 有多牛逼…对我来说没有任何吸引点，我一不玩任何手机游戏（除了小丑牌）二也不刷任何短视频和社交媒体，屏幕高刷对我感知约等于零。另外我一大直男，摄像头平时只用来扫码，根本不拍照，所以摄像头的升级更鸡肋，11 会用到打开 app 明显卡顿的那一天我才会换。\nmac 平时只用来敲字和处理工作文件，不需要换。\nipad 平时只用来看视频和 goodnotes ，不需要换。\n肯定会有人觉得你这就是穷就是屌丝换不起罢了，其实你心里想要更好的。是。但是想归想，换不换是另一码事。而且我 32 单身有房有车无贷款，最起码不能算上穷。\n我只是想传达一个你我皆知的观点：**适合自己的才是最好的。**\n不要被虚伪的消费主义和精英主义牵着走，近年经济下行，长期主义、低欲望主义、极简主义和实用主义等甚嚣尘上，其实在我看来都是“逆消费主义”，都是对曾经“消费主义”的自己一种抵抗和救赎。\n管他什么国家补贴百亿补贴，买之前反复问自己是不是真的需要换/买？买回来后使用的频率如何？吃灰的可能性有多大？但凡你犹豫再三，我的建议都是不要买，不买立省百分百，真钱白银攒在自己手里永远都不是最差选。",
           "link": "https://www.v2ex.com/t/1110645",
           "publishedOn": "2025-02-11T07:03:14.000Z",
-          "wordCount": 586,
+          "wordCount": 646,
           "title": "一个普通人的所有消费电子产品",
           "imageUrl": null
         },
@@ -625,7 +588,7 @@
           "description": "xboxv: 半年前检查 470 临床诊断 泌尿系统疾患\n今天检查  510 临床诊断 高尿酸血症\n正常范围 208-428",
           "link": "https://www.v2ex.com/t/1110643",
           "publishedOn": "2025-02-11T06:57:36.000Z",
-          "wordCount": 467,
+          "wordCount": 478,
           "title": "大家的 尿酸 有多高? 临床诊断为高尿酸血症",
           "imageUrl": null
         },
@@ -635,7 +598,7 @@
           "description": "cssTheGreatest: \n大家好，和对象准备三月底去云南，因为都没去过，准备走走几个著名的地方大理丽江洱海，想咨询一下前辈们：\n这个时候的气候如何，适不适合过去\n几个地方该如何串联路线，我们计划 5-6 天休闲游\n有什么需要提前准备的，例如玉龙雪山（但这个时节也推荐上去吗？）的门票好像要预订？\n有什么需要避雷的，例如商业化的古镇我们打算走马观花式地走一下就算了\n饮食方面有什么推荐的吗\n当地交通，目前就确定飞昆明后动车去大理，环洱海的话可能租个小电驴算了，其他交通就靠大车或者大巴，应该很方便？\n其他。。。\n希望去过的、呆过的、当地的朋友们可以指点一下，谢谢啦",
           "link": "https://www.v2ex.com/t/1110642",
           "publishedOn": "2025-02-11T06:56:50.000Z",
-          "wordCount": 646,
+          "wordCount": 694,
           "title": "大家好，三月底去云南，想咨询一下",
           "imageUrl": null
         },
@@ -645,7 +608,7 @@
           "description": "yinft: \n几年前跟风在火币买过狗狗币，没持几天就给卖了，加上手续费亏了几百块。昨天突发奇想（也不是突发奇想，毕竟看了好多个百倍涨幅的故事），在 okx 上简单了解了 meme ，然后随便挑了一个入了一千块钱，这会看了一下，就剩一百多块钱了。总结一下：普通人看看故事就好，还是别轻易尝试了，这一千块就当交学费了。",
           "link": "https://www.v2ex.com/t/1110640",
           "publishedOn": "2025-02-11T06:54:31.000Z",
-          "wordCount": 471,
+          "wordCount": 475,
           "title": "加密货币初尝试",
           "imageUrl": null
         },
@@ -655,7 +618,7 @@
           "description": "19260817: \n我们有个 Electron 应用，想监控下应用对能耗的影响。搜了一下，没找到有效的监控方法。",
           "link": "https://www.v2ex.com/t/1110638",
           "publishedOn": "2025-02-11T06:52:21.000Z",
-          "wordCount": 418,
+          "wordCount": 425,
           "title": "Mac 和 Windows 上有监控应用能耗的 API 吗",
           "imageUrl": null
         },
@@ -675,7 +638,7 @@
           "description": "ymlluo: \n大家好！距离上一次发帖侧边栏垂直标签页扩展 VertiTab 更新：云同步、树状标签页与自动快照！ 已经 2 个多月了。\nVertiTab 扩展最近做了一些重要更新，分享给大家，希望可以帮助你更高效地浏览和管理标签页。\n1. 标签页聚焦功能\n做这个功能的来源于：\n浏览器 tab 的插件想法 对重命名标题的讨论 。感谢 @archxm @jpyl0423 @cloudzhou\n和 reddit 的 Are there any good extensions for renaming tab titles?.\n因为扩展之前提供了「重命名标签页」的功能，这个属于一个增强型的功能，所以起了一个名字叫“标签页聚焦”。\n之前看到过V 站摸鱼的多吗？我开发了一个插件也许对你有用 帖子时深受启发。 如果你不使用侧边栏，可以使用 @hobbyliu 开发的Title Mirror。 在此感谢 @hobbyliu 。\n功能说明：\n自动提取关键内容：从网页中提取并在标签中显示重要信息，实时更新。\n常见用例：\n项目管理：显示任务状态\n金融：跟踪股市动态\n支持替换标签页标题：支持替换标签页标题，支持部分和正则匹配规则。\n示例场景：\n原标题：\"Ticket - T2025XXXX - Actual ticket description\" → \"Actual ticket description\"\n问题：多个工单标签都显示为 \"Ticket - T2025...\"，导致无法快速识别具体工单内容\n解决：移除固定前缀（\"Ticket - \"）和工单编号（\"T2025XXXX - \"），直接显示工单描述\n支持自动规则：新开工单标签时自动优化标题\n演示图片和视频\n点击查看视频演示：视频演示\n\n2. 自定义树状标签页\n现在，你可以通过自由拖放标签页，轻松构建属于自己的标签树，按组管理标签，提升标签管理效率。\n\n3. 快照管理系统\n快速保存和恢复工作区：新增的快照功能可以快速保存你的工作区，包括标签页的树状结构和分组，随时恢复之前的浏览状态，无论是标签组还是页面内容都能保留。\n\n4. AI 智能分组\n基于标题、URL 和自定义规则的分组：AI 智能分组功能通过网页的标题、URL 以及你自定义的规则对标签进行分组，完全开放灵活，适应不同需求。\n\n5. 最近访问标签\n快速定位最近访问的标签：当你打开大量标签页时，很难快速找到之前访问过的标签。通过“最近访问标签”功能，你可以一键查看并快速定位到最近访问的 5 个标签，节省查找时间。\n\n立即体验\n很高兴能为提升大家的浏览体验出一份力。欢迎在 Chrome 应用商店 下载 VertiTab ，体验这些新功能。如果你觉得好用，也欢迎分享给身边的朋友。\n感谢社区小伙伴们一直以来的支持和建议，正是你们的反馈让 VertiTab 变得更好！\n感谢 @hallomou  开发的 弄一个兑换码分享网站，欢迎大家使用\n提供 50 个 免费 1 个月的兑换码，获取兑换码需要在本帖子回复，然后进入网站输入自己的 id 即可。\n兑换码为一个月免费使用，如果觉得好用的话，可以考虑订阅支持哦！\n兑换码获取地址： https://redeem.ym.si/SJRBAE\n兑换状态：\n高级版兑换地址",
           "link": "https://www.v2ex.com/t/1110634",
           "publishedOn": "2025-02-11T06:33:26.000Z",
-          "wordCount": 508,
+          "wordCount": 551,
           "title": "侧边栏标签页扩展 VertiTab 最近更新：标签页聚焦|树状标签页|快照管理|AI 智能分组",
           "imageUrl": null
         },
@@ -685,7 +648,7 @@
           "description": "Jinnmki: \npro1 代用了好几年有电流杂音了，要再等等年底 pro3 代吗，3 代预计有什么升级，如果主要是助听器，降噪音质没变化的话是不是可以入手 2 代",
           "link": "https://www.v2ex.com/t/1110633",
           "publishedOn": "2025-02-11T06:26:34.000Z",
-          "wordCount": 390,
+          "wordCount": 394,
           "title": "airpods pro3 预计有什么升级，有必要现在买 pro2 吗",
           "imageUrl": null
         },
@@ -695,7 +658,7 @@
           "description": "liuliren: 岗位要求：\n根据监管的要求，负责数据安全制度的制定，分级分类的制定，对应的培训、评估、审查，项目和其他日常工作。\n非开发岗位，感觉有点抽象，不知道具体需要做什么。",
           "link": "https://www.v2ex.com/t/1110632",
           "publishedOn": "2025-02-11T06:26:21.000Z",
-          "wordCount": 367,
+          "wordCount": 369,
           "title": "小白求教，银行数据安全岗位是做什么的？如何上手？",
           "imageUrl": null
         },
