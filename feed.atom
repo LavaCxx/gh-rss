@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-11T11:10:23.715Z</id>
+    <id>urn:2025-02-11T12:21:30.660Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-11T11:10:23.715Z</updated>
+    <updated>2025-02-11T12:21:30.660Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -630,6 +630,42 @@ Make Any File a Template Using This Hidden macOS Tool originally published on CS
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
+        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
+        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
+        <updated>2025-02-09T15:59:33.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
+
+目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
+这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
+准备
+开始之前，确保你已经建立了一个 Expo 的项目。
+然后，通过以下命令创建一个 Expo Module。
+npx create-expo-module@latest --local
+根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
+.
+├── android
+│   ├── build.gradle
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           └── java
+│               └── expo
+│                   └── modules
+│                       └── testmodule
+│                           ├── TestModule.kt
+│                           └── TestModuleView.kt
+├── expo-module.config.json
+├── index.ts
+├── ios
+│   ├── TestModule.podspec
+│   ├── TestModule.swift
+│   └── TestMod…]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[第209期 - 又是一年]]></title>
         <id>https://weekly.tw93.fun/posts/209-%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/</id>
         <link href="https://weekly.tw93.fun/posts/209-%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/"/>
@@ -754,6 +790,42 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[新年的路]]></title>
+        <id>https://innei.in/notes/185</id>
+        <link href="https://innei.in/notes/185"/>
+        <updated>2025-02-02T16:28:11.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
+
+许久没有写代码了，原因是最近自驾去了挺多地方。
+年前，去了海宁神仙湖。第一次上高速。
+:::gallery
+https://object.innei.in/bed/2025/0202_1738511753954.jpeg
+https://object.innei.in/bed/2025/0202_1738511757142.jpeg
+:::
+冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
+然后去了南北湖。比较一般。没咋拍。
+除夕前一晚，去了巧克力小镇。也比较一般。
+除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
+
+同时，去了附近的景区，也是有很多老板按箱放烟花的。
+初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
+
+
+后面去了盐官。但是没看到潮水，刚好错过了。
+
+去了大风车。
+
+过年期间，不管是哪个有点名气的景点人都挺多的。
+上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
+提车两个月，已经跑了 2300km+。
+好久没有写代码了，还是感到非常的焦虑。
+
+看完了？说点什么呢]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -825,6 +897,33 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -1019,54 +1118,6 @@ AI 生成代码，早不是新鲜事了，但是 AI 生成微信小程序，似�
 Web-Slinger.css: Across the Swiper-Verse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Lee Meyer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第208期 - 配新电脑]]></title>
-        <id>https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/</id>
-        <link href="https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/"/>
-        <updated>2025-01-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。
-记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知
-初始化设置
-移除程序坞里面不常用的软件，保持简洁，同时设置自动隐藏收起，使用配置让打开速度更快，同时设置放到底部。
-把桌面背景改成全黑，因为我很不喜欢 Mac 的刘海屏，只能够这样眼不见心不烦了。
-设置触摸板为点触，相比需要按下去会舒服不少，这样轻点就可以确定。
-设置大量的我习惯好的快捷键，绝大多少的操作可以通过快捷键的方式唤起使用，形成了一些肌肉记忆。
-必备软件
-先安装科学上网工具 Stash
-https://stash.wiki/
-打字用的微信输入法
-https://z.weixin.qq.com/
-浏览器继续使用 ARC
-https://arc.net/
-好用软件
-妙言：好用的工程师笔记应用
-https://miaoyan.app/
-Raycast：一键唤起和众多快捷键
-https://www.raycast.com/
-Shotttr：功能完善的截图工具
-https://shottr.cc/
-Ice：收起你的菜单栏图标
-https://icemenubar.app/
-Input Source Pro：自定切换输入法
-https://inputsource.pro/zh-CN
-uPic：原生的图片上传工具
-https://github.com/gee1k/uPic
-Follow：好用的 RSS 订阅软件
-https://follow.is/
-Command X：让你的剪切文件的功能回来
-https://apps.apple.com/us/app/command-x/id6448461551?mt=12
-花钱工具
-Bob：非常好用的翻译和 OCR 工具
-https://bobtranslate.com/
-App Cleaner & Uninstaller：好用的卸载清理软件
-https://app-cleaner.com/
-Top Calendar：菜单栏日历软件
-https://apps.apple.com/us/app/top-calendar/id1544980542?mt=12
-我认为颜值最高的一个菜单栏日历软件，方便看时间和接下来的日程。]]></summary>
-        <author>
-            <name>潮流周刊</name>
         </author>
     </entry>
 </feed>

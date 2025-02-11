@@ -193,16 +193,43 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
         },
         {
-          "id": "https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/",
-          "author": null,
-          "description": "封面图拍摄于周末用国补买了一台星光色的 Mac Air 13.6 寸，这个手感、色彩、重量深得我心，相比那台 16 寸的好几斤的 Pro 更适合家里使用，刚好这一期想来分享一下我的必装软件。\n记录每周看到的接地气的潮流技术，筛选后发布于此，觉得不错可关注此周刊，方便获取更新通知\n初始化设置\n移除程序坞里面不常用的软件，保持简洁，同时设置自动隐藏收起，使用配置让打开速度更快，同时设置放到底部。\n把桌面背景改成全黑，因为我很不喜欢 Mac 的刘海屏，只能够这样眼不见心不烦了。\n设置触摸板为点触，相比需要按下去会舒服不少，这样轻点就可以确定。\n设置大量的我习惯好的快捷键，绝大多少的操作可以通过快捷键的方式唤起使用，形成了一些肌肉记忆。\n必备软件\n先安装科学上网工具 Stash\nhttps://stash.wiki/\n打字用的微信输入法\nhttps://z.weixin.qq.com/\n浏览器继续使用 ARC\nhttps://arc.net/\n好用软件\n妙言：好用的工程师笔记应用\nhttps://miaoyan.app/\nRaycast：一键唤起和众多快捷键\nhttps://www.raycast.com/\nShotttr：功能完善的截图工具\nhttps://shottr.cc/\nIce：收起你的菜单栏图标\nhttps://icemenubar.app/\nInput Source Pro：自定切换输入法\nhttps://inputsource.pro/zh-CN\nuPic：原生的图片上传工具\nhttps://github.com/gee1k/uPic\nFollow：好用的 RSS 订阅软件\nhttps://follow.is/\nCommand X：让你的剪切文件的功能回来\nhttps://apps.apple.com/us/app/command-x/id6448461551?mt=12\n花钱工具\nBob：非常好用的翻译和 OCR 工具\nhttps://bobtranslate.com/\nApp Cleaner & Uninstaller：好用的卸载清理软件\nhttps://app-cleaner.com/\nTop Calendar：菜单栏日历软件\nhttps://apps.apple.com/us/app/top-calendar/id1544980542?mt=12\n我认为颜值最高的一个菜单栏日历软件，方便看时间和接下来的日程。",
-          "link": "https://weekly.tw93.fun/posts/208-%E9%85%8D%E6%96%B0%E7%94%B5%E8%84%91/",
-          "publishedOn": "2025-01-13T00:00:00.000Z",
-          "wordCount": 1069,
-          "title": "第208期 - 配新电脑",
-          "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -304,7 +331,7 @@
           "description": "vvlaw: \n整个文件夹找不到了。\n请问下，如何可以恢复呢？谢谢",
           "link": "https://www.v2ex.com/t/1110745",
           "publishedOn": "2025-02-11T10:53:22.000Z",
-          "wordCount": 359,
+          "wordCount": 361,
           "title": "Joplin 和 InfiniCloud 同步后，某个文件夹同步没了。。。",
           "imageUrl": null
         },
@@ -314,7 +341,7 @@
           "description": "pppwww: \nrt,小弟目前要做一个基于 starRocks 的路径分析功能，参考火山引擎/神策数据，但是这两个平台没有展示 sql ，小弟感觉有点难以下手。\n目前的思路是：\n1 、首先要做到会话识别，通过窗口函数等操作将数据划分为一个个的会话\n2 、从这个会话上识别出路径，然后 group by 统计信息等\n上面的思路目前还是很模糊，有木有搞过的大佬分享下经验，万分感谢",
           "link": "https://www.v2ex.com/t/1110744",
           "publishedOn": "2025-02-11T10:52:42.000Z",
-          "wordCount": 351,
+          "wordCount": 353,
           "title": "[请教] 有木有大佬用 StarRocks 做过用户路径分析的哇",
           "imageUrl": null
         },
@@ -324,7 +351,7 @@
           "description": "ttgo: 我试了几个（比如 gamma 、还有几个国产的），都有一个问题，\n就是不会使用原文档（我用的 pdf ）中的图，而是网上瞎搜或者 ai 生成。\n有没有可以使用原文档中的图/表？",
           "link": "https://www.v2ex.com/t/1110743",
           "publishedOn": "2025-02-11T10:49:31.000Z",
-          "wordCount": 378,
+          "wordCount": 380,
           "title": "有没有可以根据已有文档制作 ppt 的 ai 工具？",
           "imageUrl": null
         },
@@ -334,7 +361,7 @@
           "description": "lnlnln: \n弟弟参加外国会议给的一张虚拟信用卡，绑定后无法正常支付，一会就被 blocked 了。\n求助有啥可以使用的办法么？ 400 刀",
           "link": "https://www.v2ex.com/t/1110742",
           "publishedOn": "2025-02-11T10:46:35.000Z",
-          "wordCount": 399,
+          "wordCount": 115,
           "title": "求助， 544768 开头的 Virtual Prepaid Mastercard 如何在国内使用",
           "imageUrl": null
         },
@@ -344,7 +371,7 @@
           "description": "jiangxinbixin: \n自动识别中考答题卡客观题选项。技术不限，封装成黑盒 可以调用，能快速精准识别客观题、题号、选中项",
           "link": "https://www.v2ex.com/t/1110741",
           "publishedOn": "2025-02-11T10:41:42.000Z",
-          "wordCount": 366,
+          "wordCount": 336,
           "title": "求图片识别大佬，帮忙解决问题，付费解决",
           "imageUrl": null
         },
@@ -354,7 +381,7 @@
           "description": "lcbp: \n日常家用的话，油车有哪些被电车暴击的痛点吗？",
           "link": "https://www.v2ex.com/t/1110740",
           "publishedOn": "2025-02-11T10:36:43.000Z",
-          "wordCount": 332,
+          "wordCount": 389,
           "title": "最近看了好多购车主题帖，为什么大家热衷于选择电车而不是油车？",
           "imageUrl": null
         },
@@ -364,7 +391,7 @@
           "description": "doujiangjiyaozha: \n如何操作?\n在输入框选择文本后,就可以直接吩咐 AI 给你改成你想要的文本,注意看下输入框的右上角是否有图标哦,有的话就代表插件加载成功了\n地址\nwww.typral.com",
           "link": "https://www.v2ex.com/t/1110739",
           "publishedOn": "2025-02-11T10:30:56.000Z",
-          "wordCount": 361,
+          "wordCount": 363,
           "title": "开发了一个, AI 写作助手的浏览器插件, 可以帮你改日报,文章,文本等等,只要是在浏览器的输入框操作,基本都可以操作",
           "imageUrl": null
         },
@@ -374,7 +401,7 @@
           "description": "hatter64: 打算入个丐版，主要用来看电视、日常家用。\n在 v2 里刷到评论讲 27 寸 4k 的屏幕用于 Mac OS 观感一般，在观看视频的时候会有体现吗？\n如果不适合，存在同等价位能实现 4K@240Hz 的视频输出的配置吗",
           "link": "https://www.v2ex.com/t/1110738",
           "publishedOn": "2025-02-11T10:25:45.000Z",
-          "wordCount": 386,
+          "wordCount": 404,
           "title": "Mac mini (m4) 适合作为 htpc 吗？",
           "imageUrl": null
         },
@@ -384,7 +411,7 @@
           "description": "razios: 舒服，耐用，简洁好看，价格可以稍微高点",
           "link": "https://www.v2ex.com/t/1110737",
           "publishedOn": "2025-02-11T10:23:39.000Z",
-          "wordCount": 367,
+          "wordCount": 369,
           "title": "有好的懒人椅推荐不？",
           "imageUrl": null
         },
@@ -394,7 +421,7 @@
           "description": "leejinhong:",
           "link": "https://www.v2ex.com/t/1110736",
           "publishedOn": "2025-02-11T10:18:49.000Z",
-          "wordCount": 361,
+          "wordCount": 365,
           "title": "最新深蓝 S07 出新款了，增加智驾，增程 2.0 以及底盘重新调教了，跟旧款优惠相差了 7K，选择 24 款还是最新款？有没有人 s7 车主对这款车评价评价？",
           "imageUrl": null
         },
@@ -444,7 +471,7 @@
           "description": "gnakzz: \n有时候写文章需要上传封面图，发帖子也需要配个图，大部分情况我只需要简单的文字、LOGO 、强调文字等即可。\n现有的各种 App 、Web 的卡片类应用都需要我打开他们的平台，然后选择合适的模板，最后还要充个会员，不然就限制我下载图片的大小，给我加个水印什么的。\n此 API 可以帮助我快速在任意场景下拿到一张想要的图片。\n并且如果是文章中配图，大部分技术平台都支持自动转存，很省心。\n比如： https://imgx.zzao.club/api/img/001/001/[Nuxt4]从入门到放弃系列+点击就送屠龙宝刀\n\nhttps://imgx.zzao.club/api/img/001/001/[Nuxt4]从入门到放弃系列+点击就送屠龙宝刀?bgColor=292a3a-536976&accentColor=0088a9&color=ffffff\n\n开源地址\n觉得有用的，欢迎 Star 、PR 。\n模板不符合自己用途的，可以联系我开发一个。\n技术方面\n核心是 satori 和 satori-html 这两个插件。没有用到无头浏览器 puppeteer 之类的，太重，太消耗服务器资源了。\n项目是 Nuxt 搭建的，通过 createSSRApp 和 renderToString，就可以拿到自己写好的 Vue 组件给 satori 渲染了，再把渲染后的 svg 转为 png, 接口直接把 png 返回\n所以这个接口就类似于动态内容的 png 图片了\n有条件的可以自己部署一下。\nMIT\n后续规划\n后面的使用继续朝着极简的方向走，通过登录后保存预设，只传递文字就可以拿到自己常用的图片。\n再个就是多加几个常用的模板了，比如其他卡片应用的模板，大家有喜欢的欢迎留言，我火速就给复刻出来。\n不过，应该没有人喜欢不停的换风格吧🤔\n各位觉得如何？ \n希望大佬们不吝赐教👏",
           "link": "https://www.v2ex.com/t/1110730",
           "publishedOn": "2025-02-11T09:51:32.000Z",
-          "wordCount": 495,
+          "wordCount": 555,
           "title": "一行 URL 动态生成封面图，免费、开源、极简",
           "imageUrl": null
         },
@@ -464,7 +491,7 @@
           "description": "gegeligegeligo: \n给 win7 分配四个以上 cpu ，虚拟机就会变得特别卡顿，同样的操作在其它虚拟机，比如在 win10 上就不会有这种情况。\n好奇怪啊，怎么给你更高的硬件配置反而还变卡了呢？",
           "link": "https://www.v2ex.com/t/1110727",
           "publishedOn": "2025-02-11T09:40:55.000Z",
-          "wordCount": 399,
+          "wordCount": 370,
           "title": "virtualbox 装 win7，碰到一个奇怪的问题",
           "imageUrl": null
         },
@@ -474,7 +501,7 @@
           "description": "pppwww: \nrt,小弟目前要做一个基于 starRocks 的路径分析功能，参考火山引擎/神策数据，但是这两个平台没有展示 sql ，小弟感觉有点难以下手。\n目前的思路是：\n1 、首先要做到会话识别，通过窗口函数等操作将数据划分为一个个的会话\n2 、从这个会话上识别出路径，然后 group by 统计信息等\n上面的思路目前还是很模糊，有木有搞过的大佬分享下经验，万分感谢",
           "link": "https://www.v2ex.com/t/1110726",
           "publishedOn": "2025-02-11T09:40:43.000Z",
-          "wordCount": 361,
+          "wordCount": 363,
           "title": "[请教] 有木有大佬用 StarRocks 做过用户路径分析的哇",
           "imageUrl": null
         },
@@ -484,7 +511,7 @@
           "description": "Evan0302: \n马上 35 了，在国 qi 上班，可以做点什么增加收入！感觉很焦虑",
           "link": "https://www.v2ex.com/t/1110725",
           "publishedOn": "2025-02-11T09:36:53.000Z",
-          "wordCount": 465,
+          "wordCount": 483,
           "title": "焦虑的 35",
           "imageUrl": null
         },
@@ -494,7 +521,7 @@
           "description": "linyou: 最近 deepseek 火了后身边不碰 ai 的朋友也开始用 ai 算命了，网上有很多 prompt 教大家怎么算，这会是个赚钱风口吗，以后算命师傅会被淘汰不？",
           "link": "https://www.v2ex.com/t/1110724",
           "publishedOn": "2025-02-11T09:35:51.000Z",
-          "wordCount": 389,
+          "wordCount": 406,
           "title": "请教 AI 大佬，基于大语言模型的 AI 占卜将会取代算命大师吗",
           "imageUrl": null
         },
@@ -504,7 +531,7 @@
           "description": "Chengyu7: 98 年生，ISTP ，去年 6 月硕士毕业，本硕双非科班，苏北人，家境一般般，校招实在没地方去找了个百人不到的小公司，有一读研时期带出来的本科女友，现在魔都读研（生物医药）。\n   回想自己这几年的经历，似乎一直不明白自己想要的是什么，16 年上大学时因为听说计算机赚钱，就在大一结束跟风转专业，为此还多读了一年，但此后的课程都得过且过，也无技术兴趣。21 年跟风考研失败调剂至西南偏远地区双非，遇到个放养的导师，结识了个当地女友，快活逍遥地玩了三年，发现西南生活节奏真的悠闲，山清水秀，最后辅助她考研成功，期间做了玩具级别的 NLP 课题，代码能力基本为 0 ，好在最后 GPT 帮助下快速水好论文。\n   等到毕业的时候深知没有拿得出手的技能，于是决定 all in 国企（还都 all in 上海，女友已在上海读研，加上我从小也想在上海发展），但都失败，除了个银行信息科技岗（实则坐柜），最后春招海投进了家不知名小公司做开发（税前 12k ，965 ，偶尔加班，但很忙）。\n   做了几个月后由于实在不想碰代码（不感兴趣也做不来），遂想裸辞出去看看别的行业，被挽留做产品相关，做了几月后发现实则各类文档打杂，（还有很多杂事，小公司身兼多职），去年年底绩效低无奖金，现坐在公司工位，手里忙着各种“拥抱 AI”的项目，对未来感到迷茫，同时也在反思这个曾经向往的大城市生活是否是自己想要的。\n   与女友交流，她未来想在苏南考个教师编（不想回西南家乡，原生家庭问题），得知我这几个月相比在学校少了很多笑容，抑郁了很多，想让我现在抓紧时间辞职考个苏南编，只是看到现在竞争水涨船高，对全职备考很是担忧。\n   本人深知选择大于努力，没有技术热情，不想在互联网行业做干电池，趁着还没有牛马三件套，想问下 V 友何去何从？",
           "link": "https://www.v2ex.com/t/1110723",
           "publishedOn": "2025-02-11T09:31:25.000Z",
-          "wordCount": 448,
+          "wordCount": 475,
           "title": "27 岁，去年硕士毕业，刚上班大半年，坐在工位对未来感到迷茫",
           "imageUrl": null
         },
@@ -524,7 +551,7 @@
           "description": "wuyiccc: 用了苹果电脑快两年了，macbookpro 配置 m2max, 32G+1TB 配置。\n之前听说苹果电脑很流畅，bug 少，我咋用了这么长时间，感觉问题好多，常遇到的比如\n1. 外接多屏幕的时候鼠标有时候会失去焦点，没办法在浏览器输入框里面输入文字，鼠标移动到屏幕 1 ，然后打出来的文字显示在屏幕 2\n2. 用第三方输入法的时候，搜狗和微信输入法一样，切换中英文的时候有时候没办法切换到中文输入，必须退出输入法重新打开才可以\n3. 用一些编程软件的时候比如 jetbrains 全家桶，navicat lite (ps: 都是官方付费正版，非第三方破解软件)，流畅的时候是真的流畅，卡的时候是真的卡，有一定几率会碰到软件直接无法响应，必须手动 kill 掉程序才可以.\n4. 有一定几率遇到鼠标失去焦点，可以通过快捷键切换程序界面，但是无法点击程序的界面，能打开活动程序窗口，同样无法点击活动程序窗口的程序去强行退出，同时无法点击程序坞来打开关闭程序。\n麻了，windows 和 macos 都是用的 jetbrains,navicat 这一套软件，之前用 windows 的时候最多就是感觉电脑配置不行，程序运行比较慢，但是很少出现卡死的情况，macos 就是反过来了，程序运行的快，流畅，但是卡的时候真的是卡的一点都动不了",
           "link": "https://www.v2ex.com/t/1110721",
           "publishedOn": "2025-02-11T09:29:24.000Z",
-          "wordCount": 582,
+          "wordCount": 571,
           "title": "难道我用的假的苹果电脑？",
           "imageUrl": null
         },
@@ -534,7 +561,7 @@
           "description": "h1orz: \n用了好几年了，循环优惠后年付 $46.8 ，2025 年 10 月 25 日到期。\n配置：\nCPU 1 核\n内存 512M\n硬盘 10G SSD\n流量 500G / 月\n不是博主，为了稳定自己搭梯子用的，用的很稳定。\n年纪大了，不折腾了。\n用了自己主邮箱，所以需要更换邮箱出售。\n明盘：费用按天折算 + 50RMB 。\n不太了解行情，请大家礼貌指导，🙇‍",
           "link": "https://www.v2ex.com/t/1110720",
           "publishedOn": "2025-02-11T09:29:19.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "出闲置搬瓦工 SPECIAL 10G KVM PROMO V5 - LOS ANGELES - CN2 GIA LIMITED EDITION",
           "imageUrl": null
         },
@@ -574,7 +601,7 @@
           "description": "wryyyyyyyyyyyy: 会不会像 gpt 刚出来一样疯狂封号呢？\n请在付费的大哥们解答一下。",
           "link": "https://www.v2ex.com/t/1110714",
           "publishedOn": "2025-02-11T09:09:38.000Z",
-          "wordCount": 405,
+          "wordCount": 426,
           "title": "cursor 白嫖不了了，付费安全吗？",
           "imageUrl": null
         },
@@ -584,7 +611,7 @@
           "description": "TQQQ: \n一直对 TTS 比较感兴趣，最近想写一个有声书程序。写之前问了一下 kimi ，发现已经有人做出来了，产品和我的想法简直如出一辙\n现在如果我直接照着别人的产品去写代码会不会不太道德？",
           "link": "https://www.v2ex.com/t/1110713",
           "publishedOn": "2025-02-11T09:08:11.000Z",
-          "wordCount": 490,
+          "wordCount": 515,
           "title": "想到一个 idea，但是已经有人实现过了，还有没有必要继续做？",
           "imageUrl": null
         },
@@ -594,7 +621,7 @@
           "description": "xwjlucky: \n坐标华东某省会 \n家里的宽带（ 1000Mbps ）->aws lightsail jp 浏览 v 站什么的都正常 下载和测速限制到了 1 - 2Mbps  非高峰时段白天\n公司电信测试正常 200Mbps\n有什么解决办法吗",
           "link": "https://www.v2ex.com/t/1110711",
           "publishedOn": "2025-02-11T09:00:34.000Z",
-          "wordCount": 412,
+          "wordCount": 416,
           "title": "疑似被联通 qos",
           "imageUrl": null
         },
@@ -614,7 +641,7 @@
           "description": "vanxx: 咨询客服后，千兆 FTTR 149 一月，三年起，300 安装费\n不想要 FTTR ，无光的 500m166/月，100 安装费\n想咨询下各位大佬应该怎么选择？",
           "link": "https://www.v2ex.com/t/1110709",
           "publishedOn": "2025-02-11T08:58:17.000Z",
-          "wordCount": 457,
+          "wordCount": 496,
           "title": "北京新装联通宽带求指导， FTTR 更便宜",
           "imageUrl": null
         },
@@ -634,7 +661,7 @@
           "description": "WoodenRobot: \n经常在豆瓣和 NeoDB 上搜书籍，因为 popclip 有一个豆瓣的插件，选择关键字直接点击就可以快速搜索，但 NeoDB\n每次都要手动去搜，今天尝试着用 DeepSeek 和 OpenAI 一个小时的时间完成了 popclip 的 NeoDB 插件。\nhttps://github.com/Wooden-Robot/Search-NeoDB-for-PopClip",
           "link": "https://www.v2ex.com/t/1110707",
           "publishedOn": "2025-02-11T08:51:08.000Z",
-          "wordCount": 422,
+          "wordCount": 444,
           "title": "利用大模型一个小时做了一个简单的 NeoDB Popclip 插件",
           "imageUrl": null
         },
@@ -644,7 +671,7 @@
           "description": "happydayandnight: 前几天相亲约了一个妹子 27 岁，比我小 10 岁。\n一起吃饭花了 200 多，她买护肤品是她自己的钱。感觉她也挺积极的，主动找话题聊，会主动挽着我的胳膊逛，晚上回去后说我给她印象很好。\n现在计划和她处对象。由于我们之间经济差异大，所以我肯定要多少给她一些生活费的，所以想问下大家的情况参考下。\n我们是在内地一个三线小城市，房价大约 1 万一平。平均工资 5000.",
           "link": "https://www.v2ex.com/t/1110706",
           "publishedOn": "2025-02-11T08:49:35.000Z",
-          "wordCount": 1044,
+          "wordCount": 1088,
           "title": "想问下大家每个月给女朋友多少生活费",
           "imageUrl": null
         },
@@ -664,7 +691,7 @@
           "description": "1813500063: 老家乡下的，前段时间回家时母亲和我抱怨说手机月租话费高，询问之下才明白，之前她去申请这个手机号办卡的时候，被那些地方营业厅的人坑了，办理了一个月租 90 多的宽带和固定电话套餐。我后来向电信的人工客服和工信部都投诉并要求退回这个套餐的费用，但是都被电信以当事人（我母亲）确认并签订了合同为由拒绝了。有没有其他办法申诉回来。",
           "link": "https://www.v2ex.com/t/1110703",
           "publishedOn": "2025-02-11T08:39:31.000Z",
-          "wordCount": 425,
+          "wordCount": 436,
           "title": "家中长辈被电信营业厅坑骗求助",
           "imageUrl": null
         },
