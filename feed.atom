@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-11T22:10:16.777Z</id>
+    <id>urn:2025-02-11T23:11:29.684Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-11T22:10:16.777Z</updated>
+    <updated>2025-02-11T23:11:29.684Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Mac 上切换应用真的烦死人。]]></title>
+        <id>https://www.v2ex.com/t/1110811</id>
+        <link href="https://www.v2ex.com/t/1110811"/>
+        <updated>2025-02-11T22:48:27.000Z</updated>
+        <summary type="html"><![CDATA[jojoadv: 
+主要是两点:
+首先是切换到 finder ，可是 finder 又不置顶到前台，当前应用也失去焦点。你要是切到 finder 也行啊，为什么 finder 不出现在所有窗口前？
+再就是当我全屏看视频时，比如 B 站，我从全屏 B 站切到别的应用后，然后我再按一下 command+tab ，结果切到是 Safari 那个窗口，上面显示“点按以退出全屏幕”，从全屏切到别的应用，那也从别的应用直接切到网页全屏啊，服了，什么逻辑啊]]></summary>
+        <author>
+            <name>jojoadv</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek 推荐我购买 22/23 AWG 规格的 Cat 6A 线，但是我找不到 22/23 AWG 规格的成品网线]]></title>
+        <id>https://www.v2ex.com/t/1110810</id>
+        <link href="https://www.v2ex.com/t/1110810"/>
+        <updated>2025-02-11T22:30:13.000Z</updated>
+        <summary type="html"><![CDATA[gentrydeng: 
+最近我把路由器换成了带有 2.5G 网口的 GL.iNet GL-MT6000 ，并且打算过几年看情况再换成 10G 网口的产品。于是我开始考虑是否要现在就“一步到位”购买支持 10G 负载的网线。
+此前因为急需一款路由器，我购买了 TP-LINK TL-7DR5130 （在此说句题外话：如果对自身网络环境有要求，不要使用 TP-LINK 的家用路由器）。
+我发现 TL-7DR5130 附带的网线是 Cat 6 24 AWG 规格的，而 GL-MT6000 的则是 Cat 6 26 AWG 规格的。
+在互联网和 DeepSeek 中搜索了一下，基本上都在说 AWG 越小越好。
+不过我目前的使用环境实际上只需要 5-10 米长的网线就可以了，这个距离用 24 还是 26 AWG 的网线没什么所谓。
+但是我在淘宝和京东上搜索，第一个弹出来的产品是从来没听过的 CHOSEAL 品牌的 32 AWG 线……
+而基本上各家的成品网线都是 24 或 26 AWG 的，我根本找不到 22 或 23 AWG 规格的成品网线。
+甚至根本就没有 AWG 这个搜索关键词，我很想知道是不是家用环境根本不需要考虑这种需求？]]></summary>
+        <author>
+            <name>gentrydeng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[看到 MBI 的消息有感]]></title>
+        <id>https://www.v2ex.com/t/1110809</id>
+        <link href="https://www.v2ex.com/t/1110809"/>
+        <updated>2025-02-11T22:08:32.000Z</updated>
+        <summary type="html"><![CDATA[Amose2024: 
+2016 年的时候，我被深圳的一同事强行拉去某酒店会议厅听课，名字好像叫“指尖上的商机”云云。
+当时我意识到这就是船销，但迫于给同事面子，还是坐在那里听完了。事后我劝他不要信，结果他很不高兴。借一起上厕所的机会，他将我引荐给他的上一级。我只是应付了一下，他们还要留听课的人一起吃晚餐，我借机跑了。从此我那位同事都没正眼瞧过我一眼，心底里觉得我傻，愚笨到不可救药。
+直到今天看新闻才知道骗局被揭穿了。
+只是可怜我那个同事，当时同时打三份工，一天休息不到 3 小时，不断往里投钱。。。
+已经好多年没联系了，想起来真是令人心痛。]]></summary>
+        <author>
+            <name>Amose2024</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么 Unity 的编译速度会这么离谱？真的是 Mono 的问题吗？]]></title>
         <id>https://www.v2ex.com/t/1110808</id>
@@ -48,7 +94,8 @@ Bento
 Telegraph
 Bluesky
 Patreon
-Medium]]></summary>
+Medium
+Notion]]></summary>
         <author>
             <name>JustinJack1</name>
         </author>
@@ -269,16 +316,6 @@ Format your response in markdown according to the following requirements:
 如果被邮件骚扰可以顺藤摸瓜找到对方吗？有哪些技术手段]]></summary>
         <author>
             <name>BlueSony</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[华为手机怎么怎样可以使用 ChatGpt App]]></title>
-        <id>https://www.v2ex.com/t/1110792</id>
-        <link href="https://www.v2ex.com/t/1110792"/>
-        <updated>2025-02-11T15:27:28.000Z</updated>
-        <summary type="html"><![CDATA[5870:]]></summary>
-        <author>
-            <name>5870</name>
         </author>
     </entry>
     <entry>
@@ -762,83 +799,6 @@ ChromeOS 下的体验最好。
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[做了一个玩具：歌词编辑器]]></title>
-        <id>https://www.v2ex.com/t/1110761</id>
-        <link href="https://www.v2ex.com/t/1110761"/>
-        <updated>2025-02-11T12:50:03.000Z</updated>
-        <summary type="html"><![CDATA[xiaoming1992: 
-feature
-音频可以上传文件，也可以使用在线音频
-歌词可以上传文件，也可以自行输入
-支持歌词的编辑、删除、添加、插入、调整时间、调整歌词内容
-可以配合波形图，时间轴调整更加精准
-可以直接拖动时间轴来调整时间
-时间轴/波形图 支持缩放
-跳转链接
-点击跳转歌词编辑器
-截图]]></summary>
-        <author>
-            <name>xiaoming1992</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我 wise 账户中的余额，怎么可以换成比特币或是 USDT]]></title>
-        <id>https://www.v2ex.com/t/1110760</id>
-        <link href="https://www.v2ex.com/t/1110760"/>
-        <updated>2025-02-11T12:32:34.000Z</updated>
-        <summary type="html"><![CDATA[haohello: 欢迎交流]]></summary>
-        <author>
-            <name>haohello</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[请教大家一个在 hono.js 中使用 ts 的类型兼容性问题]]></title>
-        <id>https://www.v2ex.com/t/1110759</id>
-        <link href="https://www.v2ex.com/t/1110759"/>
-        <updated>2025-02-11T12:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Belmode: 
-我现在想在 node.js 平台上使用 hono.js ，现在需要实现一个文件下载需求
-
-    //几个类型导入：
-    import { stream } from "hono/streaming"
-    import { Readable, Writable } from "node:stream"
-    import { ReadableStream } from "node:stream/web"
-
-// ......
-    const fileStream = createReadStream(filePath)
-    // 将文件流作为响应返回给客户端
-    return stream(
-      c,
-      async (stream) => {
-        // Write a process to be executed when aborted.
-        stream.onAbort(() => {
-          console.log('Aborted!')
-        })
-        // Write a Uint8Array.
-        await stream.write(
-          new Uint8Array([0x48, 0x65, 0x6c, 0x6c, 0x6f])
-        )
-        // Pipe a readable stream.
-        // 这里出现了类型不兼容
-        // await stream.pipe(Readable.toWeb(fileStream))
-        await stream.pipe(ReadableStream.from(fileStream))
-      },
-      async (err, stream) => {
-        // stream.writeln('An error occurred!')
-        console.error('An error occurred!', err)
-      }
-    )
-
-ts 提示：
-类型“import("stream/web").ReadableStream<any>”的参数不能赋给类型“ReadableStream<any>”的参数.
-属性“pipeThrough”的类型不兼容。
-我该如何解决，或者说如何在 nodejs 环境使用...
-谢谢大家了！🙇‍😘]]></summary>
-        <author>
-            <name>Belmode</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Organizing Design System Component Patterns With CSS Cascade Layers]]></title>
         <id>https://css-tricks.com/?p=384306</id>
         <link href="https://css-tricks.com/organizing-design-system-component-patterns-with-css-cascade-layers/"/>
@@ -858,6 +818,42 @@ Organizing Design System Component Patterns With CSS Cascade Layers originally p
 Make Any File a Template Using This Hidden macOS Tool originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
+        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
+        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
+        <updated>2025-02-09T15:59:33.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
+
+目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
+这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
+准备
+开始之前，确保你已经建立了一个 Expo 的项目。
+然后，通过以下命令创建一个 Expo Module。
+npx create-expo-module@latest --local
+根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
+.
+├── android
+│   ├── build.gradle
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           └── java
+│               └── expo
+│                   └── modules
+│                       └── testmodule
+│                           ├── TestModule.kt
+│                           └── TestModuleView.kt
+├── expo-module.config.json
+├── index.ts
+├── ios
+│   ├── TestModule.podspec
+│   ├── TestModule.swift
+│   └── TestMod…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -985,6 +981,42 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[新年的路]]></title>
+        <id>https://innei.in/notes/185</id>
+        <link href="https://innei.in/notes/185"/>
+        <updated>2025-02-02T16:28:11.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
+
+许久没有写代码了，原因是最近自驾去了挺多地方。
+年前，去了海宁神仙湖。第一次上高速。
+:::gallery
+https://object.innei.in/bed/2025/0202_1738511753954.jpeg
+https://object.innei.in/bed/2025/0202_1738511757142.jpeg
+:::
+冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
+然后去了南北湖。比较一般。没咋拍。
+除夕前一晚，去了巧克力小镇。也比较一般。
+除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
+
+同时，去了附近的景区，也是有很多老板按箱放烟花的。
+初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
+
+
+后面去了盐官。但是没看到潮水，刚好错过了。
+
+去了大风车。
+
+过年期间，不管是哪个有点名气的景点人都挺多的。
+上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
+提车两个月，已经跑了 2300km+。
+好久没有写代码了，还是感到非常的焦虑。
+
+看完了？说点什么呢]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -1056,6 +1088,33 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>

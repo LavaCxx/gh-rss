@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,6 +187,43 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -289,6 +320,36 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1110811",
+          "author": "jojoadv",
+          "description": "jojoadv: \n主要是两点:\n首先是切换到 finder ，可是 finder 又不置顶到前台，当前应用也失去焦点。你要是切到 finder 也行啊，为什么 finder 不出现在所有窗口前？\n再就是当我全屏看视频时，比如 B 站，我从全屏 B 站切到别的应用后，然后我再按一下 command+tab ，结果切到是 Safari 那个窗口，上面显示“点按以退出全屏幕”，从全屏切到别的应用，那也从别的应用直接切到网页全屏啊，服了，什么逻辑啊",
+          "link": "https://www.v2ex.com/t/1110811",
+          "publishedOn": "2025-02-11T22:48:27.000Z",
+          "wordCount": 352,
+          "title": "Mac 上切换应用真的烦死人。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110810",
+          "author": "gentrydeng",
+          "description": "gentrydeng: \n最近我把路由器换成了带有 2.5G 网口的 GL.iNet GL-MT6000 ，并且打算过几年看情况再换成 10G 网口的产品。于是我开始考虑是否要现在就“一步到位”购买支持 10G 负载的网线。\n此前因为急需一款路由器，我购买了 TP-LINK TL-7DR5130 （在此说句题外话：如果对自身网络环境有要求，不要使用 TP-LINK 的家用路由器）。\n我发现 TL-7DR5130 附带的网线是 Cat 6 24 AWG 规格的，而 GL-MT6000 的则是 Cat 6 26 AWG 规格的。\n在互联网和 DeepSeek 中搜索了一下，基本上都在说 AWG 越小越好。\n不过我目前的使用环境实际上只需要 5-10 米长的网线就可以了，这个距离用 24 还是 26 AWG 的网线没什么所谓。\n但是我在淘宝和京东上搜索，第一个弹出来的产品是从来没听过的 CHOSEAL 品牌的 32 AWG 线……\n而基本上各家的成品网线都是 24 或 26 AWG 的，我根本找不到 22 或 23 AWG 规格的成品网线。\n甚至根本就没有 AWG 这个搜索关键词，我很想知道是不是家用环境根本不需要考虑这种需求？",
+          "link": "https://www.v2ex.com/t/1110810",
+          "publishedOn": "2025-02-11T22:30:13.000Z",
+          "wordCount": 418,
+          "title": "DeepSeek 推荐我购买 22/23 AWG 规格的 Cat 6A 线，但是我找不到 22/23 AWG 规格的成品网线",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110809",
+          "author": "Amose2024",
+          "description": "Amose2024: \n2016 年的时候，我被深圳的一同事强行拉去某酒店会议厅听课，名字好像叫“指尖上的商机”云云。\n当时我意识到这就是船销，但迫于给同事面子，还是坐在那里听完了。事后我劝他不要信，结果他很不高兴。借一起上厕所的机会，他将我引荐给他的上一级。我只是应付了一下，他们还要留听课的人一起吃晚餐，我借机跑了。从此我那位同事都没正眼瞧过我一眼，心底里觉得我傻，愚笨到不可救药。\n直到今天看新闻才知道骗局被揭穿了。\n只是可怜我那个同事，当时同时打三份工，一天休息不到 3 小时，不断往里投钱。。。\n已经好多年没联系了，想起来真是令人心痛。",
+          "link": "https://www.v2ex.com/t/1110809",
+          "publishedOn": "2025-02-11T22:08:32.000Z",
+          "wordCount": 376,
+          "title": "看到 MBI 的消息有感",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1110808",
           "author": "drymonfidelia",
           "description": "drymonfidelia: 之前我一直用我的 M2 Max 的 MacBook 做游戏，实在忍受不了改一行代码要编译半分钟，改完运行游戏又要浪费半分钟，以为原因是 Apple 的 CPU 太垃圾了不适合做游戏，专门在知道会缩缸的情况下弄了台 14 代 i9 的电脑做游戏。这下改一行代码只要编译 5 秒了。但是现在项目变大一点了又开始越变越慢，编译一次要 40 秒，我研究了一堆优化方法，AsmDef 那些全都折腾了，编译速度都没有明显提升。不知道为什么别人的 Profiler 能看到编译的时候到底是哪里慢了，我把 Profiler 两种模式的每一个参数都看过了，CPU 使用一直是 20ms ，完全没统计到编译占用。后面问了别的游戏开发者，说 Mono 就是这么慢，没办法优化。我平常工作也都是写 C#，编译都是超快的，几十万行代码的项目也是几秒就编译好了，Mono 的性能真的这么糟糕吗？",
@@ -301,7 +362,7 @@
         {
           "id": "https://www.v2ex.com/t/1110807",
           "author": "JustinJack1",
-          "description": "JustinJack1: \n\n注册即送$1 额度，可以免费使用 H100/A100 等海外节点，实时推理，价格比 Replicate 和 Fal AI 便宜一半以上，而且稳定可用于生产，有 Python 和 JS 的包可以无缝从 Replicate 迁移，全球节点，包括各种模型比如\nblack-forest-labs/flux-1.1-pro\nblack-forest-labs/flux-schnell\ntencent/hunyuan3d-2\nstability-ai/stable-diffusion\nbytedance/sdxl-lightning-4step\nvetkastar/fooocus\nfofr/face-to-many\nfalcons-ai/nsfw_image_detection\nnightmareai/real-esrgan\ntencentarc/gfpgan\nsczhou/codeformer\nstability-ai/sdxl\nyorickvp/llava-13b\nSynexa AI is the most affordable way to run serverless AI API models\nGet the most cost-effective A100 GPU pricing for your AI workloads, saving up to 62% compared to other providers.\nAutomatic scaling: Seamless auto-scaling that handles traffic spikes instantly.\nWorld class developer experience: Integrate AI capabilities in minutes with our intuitive SDKs\nHigh-Performance GPUs: Enterprise-grade GPU infrastructure with A100s and H100s\nExtensive Model Collection: Access 100+ production-ready AI models\nBlazing Fast Inference Engine: optimized inference engine delivers up to 4x faster performance on diffusion models.\nLinktr\nBento\nTelegraph\nBluesky\nPatreon\nMedium",
+          "description": "JustinJack1: \n\n注册即送$1 额度，可以免费使用 H100/A100 等海外节点，实时推理，价格比 Replicate 和 Fal AI 便宜一半以上，而且稳定可用于生产，有 Python 和 JS 的包可以无缝从 Replicate 迁移，全球节点，包括各种模型比如\nblack-forest-labs/flux-1.1-pro\nblack-forest-labs/flux-schnell\ntencent/hunyuan3d-2\nstability-ai/stable-diffusion\nbytedance/sdxl-lightning-4step\nvetkastar/fooocus\nfofr/face-to-many\nfalcons-ai/nsfw_image_detection\nnightmareai/real-esrgan\ntencentarc/gfpgan\nsczhou/codeformer\nstability-ai/sdxl\nyorickvp/llava-13b\nSynexa AI is the most affordable way to run serverless AI API models\nGet the most cost-effective A100 GPU pricing for your AI workloads, saving up to 62% compared to other providers.\nAutomatic scaling: Seamless auto-scaling that handles traffic spikes instantly.\nWorld class developer experience: Integrate AI capabilities in minutes with our intuitive SDKs\nHigh-Performance GPUs: Enterprise-grade GPU infrastructure with A100s and H100s\nExtensive Model Collection: Access 100+ production-ready AI models\nBlazing Fast Inference Engine: optimized inference engine delivers up to 4x faster performance on diffusion models.\nLinktr\nBento\nTelegraph\nBluesky\nPatreon\nMedium\nNotion",
           "link": "https://www.v2ex.com/t/1110807",
           "publishedOn": "2025-02-11T20:00:52.000Z",
           "wordCount": 463,
@@ -394,7 +455,7 @@
           "description": "ixixi: \n目前有 macmini m4  和 i7-12700 + amd 的显卡 想买个 n 卡玩玩 ai \n求玩过的老哥说下经验",
           "link": "https://www.v2ex.com/t/1110797",
           "publishedOn": "2025-02-11T16:07:05.000Z",
-          "wordCount": 381,
+          "wordCount": 395,
           "title": "请问训练或者调试 yolo 用什么配置性价比较高。",
           "imageUrl": null
         },
@@ -426,16 +487,6 @@
           "publishedOn": "2025-02-11T15:37:39.000Z",
           "wordCount": 367,
           "title": "被一个固定邮箱发邮件骚扰，你会怎么办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110792",
-          "author": "5870",
-          "description": "5870:",
-          "link": "https://www.v2ex.com/t/1110792",
-          "publishedOn": "2025-02-11T15:27:28.000Z",
-          "wordCount": 115,
-          "title": "华为手机怎么怎样可以使用 ChatGpt App",
           "imageUrl": null
         },
         {
@@ -474,7 +525,7 @@
           "description": "Jerry23333: \n近日，苹果公司与中国互联网和电子商务巨头阿里巴巴集团展开合作，共同开发适用于中国市场的人工智能功能。此举是苹果为应对在中国市场销售下滑而采取的战略之一，通过提供更具吸引力的软件功能来增强竞争力。\n目前，苹果和阿里巴巴已将合作开发的中文 AI 功能提交给中国网信办审批，显示出双方合作已取得显著进展。面对华为、Vivo 等本土品牌的激烈竞争，苹果希望通过与阿里巴巴的合作，进一步巩固其在中国市场的地位。\n消息来源： https://www.theinformation.com/articles/apple-partners-with-alibaba-to-develop-ai-features-for-iphone-users-in-china",
           "link": "https://www.v2ex.com/t/1110788",
           "publishedOn": "2025-02-11T15:02:41.000Z",
-          "wordCount": 384,
+          "wordCount": 393,
           "title": "苹果与阿里巴巴合作开发人工智能",
           "imageUrl": null
         },
@@ -524,7 +575,7 @@
           "description": "bevishe: \n大家高频使用，干净无广告好用推荐的软件，不限 win 、mac 、android 、ios",
           "link": "https://www.v2ex.com/t/1110782",
           "publishedOn": "2025-02-11T14:17:05.000Z",
-          "wordCount": 469,
+          "wordCount": 471,
           "title": "大家有啥长期使用并安利的软件",
           "imageUrl": null
         },
@@ -594,7 +645,7 @@
           "description": "xingye163: 已经凉了几个 Telegram 号了，开始是 86 国内注册登录，后面用 iPhone 登录的也莫名其妙的退出，再也收不到码了，但是有时候一些服务群组又只有 TG 的，请教大家现在还有什么底层本少维护的方案吗？\n之前网上看说有改邮箱登录的，但是现在号都登录不了了也没法试，用接码平台注册貌似也收不到码，买实体卡的话，国内也不知道手机支持不支持，请问下各位大佬指点下。感激不尽。",
           "link": "https://www.v2ex.com/t/1110775",
           "publishedOn": "2025-02-11T14:03:24.000Z",
-          "wordCount": 448,
+          "wordCount": 457,
           "title": "请问现在最低成本注册登录 Telegram 的方法是哪种？",
           "imageUrl": null
         },
@@ -716,36 +767,6 @@
           "publishedOn": "2025-02-11T12:53:28.000Z",
           "wordCount": 419,
           "title": "有什么好用的多驱动管理软件吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110761",
-          "author": "xiaoming1992",
-          "description": "xiaoming1992: \nfeature\n音频可以上传文件，也可以使用在线音频\n歌词可以上传文件，也可以自行输入\n支持歌词的编辑、删除、添加、插入、调整时间、调整歌词内容\n可以配合波形图，时间轴调整更加精准\n可以直接拖动时间轴来调整时间\n时间轴/波形图 支持缩放\n跳转链接\n点击跳转歌词编辑器\n截图",
-          "link": "https://www.v2ex.com/t/1110761",
-          "publishedOn": "2025-02-11T12:50:03.000Z",
-          "wordCount": 354,
-          "title": "做了一个玩具：歌词编辑器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110760",
-          "author": "haohello",
-          "description": "haohello: 欢迎交流",
-          "link": "https://www.v2ex.com/t/1110760",
-          "publishedOn": "2025-02-11T12:32:34.000Z",
-          "wordCount": 393,
-          "title": "我 wise 账户中的余额，怎么可以换成比特币或是 USDT",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110759",
-          "author": "Belmode",
-          "description": "Belmode: \n我现在想在 node.js 平台上使用 hono.js ，现在需要实现一个文件下载需求\n\n    //几个类型导入：\n    import { stream } from \"hono/streaming\"\n    import { Readable, Writable } from \"node:stream\"\n    import { ReadableStream } from \"node:stream/web\"\n\n// ......\n    const fileStream = createReadStream(filePath)\n    // 将文件流作为响应返回给客户端\n    return stream(\n      c,\n      async (stream) => {\n        // Write a process to be executed when aborted.\n        stream.onAbort(() => {\n          console.log('Aborted!')\n        })\n        // Write a Uint8Array.\n        await stream.write(\n          new Uint8Array([0x48, 0x65, 0x6c, 0x6c, 0x6f])\n        )\n        // Pipe a readable stream.\n        // 这里出现了类型不兼容\n        // await stream.pipe(Readable.toWeb(fileStream))\n        await stream.pipe(ReadableStream.from(fileStream))\n      },\n      async (err, stream) => {\n        // stream.writeln('An error occurred!')\n        console.error('An error occurred!', err)\n      }\n    )\n\nts 提示：\n类型“import(\"stream/web\").ReadableStream<any>”的参数不能赋给类型“ReadableStream<any>”的参数.\n属性“pipeThrough”的类型不兼容。\n我该如何解决，或者说如何在 nodejs 环境使用...\n谢谢大家了！🙇‍😘",
-          "link": "https://www.v2ex.com/t/1110759",
-          "publishedOn": "2025-02-11T12:31:00.000Z",
-          "wordCount": 642,
-          "title": "请教大家一个在 hono.js 中使用 ts 的类型兼容性问题",
           "imageUrl": null
         }
       ]
