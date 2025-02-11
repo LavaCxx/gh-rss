@@ -201,6 +201,43 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,7 +335,7 @@
           "description": "YoungAsen: \n我用国内腾讯轻量云服务器搭建了一个 socks5 ，然后 yy 也能挂上，但是依旧无法正常开麦说话，有大神懂这是什么原因吗？",
           "link": "https://www.v2ex.com/t/1110485",
           "publishedOn": "2025-02-10T19:03:33.000Z",
-          "wordCount": 386,
+          "wordCount": 388,
           "title": "为什么海外用户无法使用 YY（socks5）",
           "imageUrl": null
         },
@@ -318,7 +355,7 @@
           "description": "H00kran: \n测试工具：Ichigo Bot ，一款 LLM API 聚合 Telegram 聊天机器人（✨GitHub：https://github.com/rewired-gh/ichigo-bot）\n系统提示词：略；温度：0.2 ；测试提示词：Good morning\n提示词非常简单，也是最常见的提示词之一。这是为了避免变成智商测试。以下是 LLMs 的回复。\nGPT-4o （基准）：Good morning! ☀️ How can I assist you today? 😊\n以下为几乎确定是蒸馏的模型（ https://github.com/Aegis1863/LLMs-Distillation-Quantification ）。\nQwen Max：Good morning! 🌞 How can I assist you today?\nDeepSeek R1：Good morning! 🌞 How can I assist you today?\n以下为暂无蒸馏证据的模型。\no3-mini：Good morning! I'm Ichigo (いちご 🍓). I hope your day is off to a great start. How can I assist you today?\nGemini 2.0 Flash Thinking：Good morning to you too! ☀️  Hope you have a wonderful day ahead! 😊  Is there anything I can help you with this morning?\n豆包 1.5 Pro：Good morning! It's a great start to the day. What exciting things do you have planned?\n结论：对于洁癖而言，不建议使用几款蒸馏的模型。",
           "link": "https://www.v2ex.com/t/1110483",
           "publishedOn": "2025-02-10T17:19:08.000Z",
-          "wordCount": 456,
+          "wordCount": 463,
           "title": "针对目前几款 SOTA LLMs 的蒸馏痕迹探讨",
           "imageUrl": null
         },
@@ -338,7 +375,7 @@
           "description": "sgissb1: 业余时间做了一年多的小玩意，用了开源代码，然后套了一个界面和一堆逻辑代码。\n本来用来自用，不过发现测试不充分，想把程序分享出来给大家使用，提意见和建议，不晓得大家一般放什么平台",
           "link": "https://www.v2ex.com/t/1110480",
           "publishedOn": "2025-02-10T16:57:10.000Z",
-          "wordCount": 366,
+          "wordCount": 384,
           "title": "大家一般把软件做的软件共享在哪里",
           "imageUrl": null
         },
@@ -348,7 +385,7 @@
           "description": "Fashion7woman: \n最近状态真的很差，感觉自己在事业、感情和健康上都过得一塌糊涂\n半年没工作了，今天面试了 dw 的技术支持，整体来看我的经验和要求是匹配的。上午一面聊得很顺利，没多久就通知下午二面了，我还挺兴奋的，觉得机会很大。但到了二面，突然紧张了，发挥得一般，不过整体感觉也还行，聊了 40 多分钟。结束后被告知面试没通过，也没说具体原因，当下真的有点懵，原本很期待这份工作，觉得自己各方面都符合，结果还是不要我，心里挺难受的😢\n除了工作，感情方面也挺迷茫的。到现在还没谈过恋爱，以前上学时完全没这方面的想法，毕业后一个人在上海工作，慢慢开始感到孤单，才意识到自己也想找个人一起生活。但完全不知道该怎么认识合适的异性，也不知道怎么开始一段感情。总觉得自己社交圈子太小了，遇不到合适的人，时间久了也开始焦虑了。\n身体健康上也没照顾好自己，本来就睡眠不好 还喜欢熬夜，也不好好吃饭，很多坏习惯明知道不行，但就是改不掉。这几年身体状态感觉变差了，偶尔也会担心，但就是控制不住自己。\n现在的感觉就是，生活好难，什么都没有做好，什么都不顺利。马上 25 岁了，事业没起色，感情一片空白，连身体健康都在透支，真的不知道该怎么调整……有点迷茫，也有点丧",
           "link": "https://www.v2ex.com/t/1110479",
           "publishedOn": "2025-02-10T16:29:09.000Z",
-          "wordCount": 401,
+          "wordCount": 418,
           "title": "面试被拒、单身迷茫、健康透支，感觉自己一事无成",
           "imageUrl": null
         },
@@ -358,7 +395,7 @@
           "description": "SGL: 一个 dmg 包，点开，拖拽，完了桌面再生成一个像是磁盘一样的东西。\n这是有什么历史的演变抽象在里面吗。",
           "link": "https://www.v2ex.com/t/1110478",
           "publishedOn": "2025-02-10T16:17:55.000Z",
-          "wordCount": 378,
+          "wordCount": 391,
           "title": "MacOS 的应用安装管理逻辑是怎么来的，跟 Linux 和 Windows 的习惯差异感觉好大",
           "imageUrl": null
         },
@@ -378,7 +415,7 @@
           "description": "mikeab: \n感觉脱离了学校环境之后真的很难静下心来去坚持学习什么东西了，最近在自学日语，给自己定的目标是能考过 N2/N1 的水平，用的黄色新标日那本书，自己在 B 站跟着视频学。\n计划的时候感觉良好，认为几天学一课很快能学完，但是等开始学了才感觉，只凭自制力真的挺难做到持续学习这个事情，最后就变成三天打鱼两天晒网，三四个月才学了十几课，感觉按我这个进度，学一年都不一定能考过 N5\n你们都是怎样去学习外语的，对于我这种情况的难道非得去报个培训班吗",
           "link": "https://www.v2ex.com/t/1110476",
           "publishedOn": "2025-02-10T15:57:20.000Z",
-          "wordCount": 431,
+          "wordCount": 443,
           "title": "你们是怎么坚持学习外语的？",
           "imageUrl": null
         },
@@ -388,7 +425,7 @@
           "description": "chengchengya: 号黑了？ 怎么破",
           "link": "https://www.v2ex.com/t/1110475",
           "publishedOn": "2025-02-10T15:52:04.000Z",
-          "wordCount": 370,
+          "wordCount": 377,
           "title": "国补下单不了",
           "imageUrl": null
         },
@@ -398,7 +435,7 @@
           "description": "isbase:",
           "link": "https://www.v2ex.com/t/1110474",
           "publishedOn": "2025-02-10T15:47:15.000Z",
-          "wordCount": 384,
+          "wordCount": 389,
           "title": "有见过中药治疗高血压 停药后不反弹的吗",
           "imageUrl": null
         },
@@ -418,7 +455,7 @@
           "description": "Jackiee007: 今天在咸鱼二手出掉了自己使用 1 年半多的国行 iPad pro 2022 带 Apple pencil ，并预订了外版的 iPad air 6 ，说说想法吧。\n降级点：\n1 屏幕（ 120hz-60hz ，但其实自己的 M2 air 的 mac 一直都是 60hz ，自适应习惯了，换到 60hz 的 iPad 应该也没什么差别）\n2 摄像头（ iPad 摄像头基本很少用，无感）\n3 face id （ air 6 变成了 touch id ，看有人反馈不太灵敏，没有 Face id 丝滑，算是一个降级点）\n4 还有有一些无关痛痒的比如麦克风变少了之类的，此外 pencilp 不通用，需要额外购买，好在海鲜市场普遍 600 一支\n升级点：\n1 相比之前的国行（外版可以用 apple intelligence ，为即将到来的中文 ai 做铺垫）\n2 价格便宜，二手卖出，再购置不需要贴钱，反而余下很多\n现在想来，只能说 2023 年当时执迷于高刷买了 pro ，习惯了手机和 mac 的 60hz ，在 ipad pro 感知撕裂有但不大，和手机 mac 来回切换差距不是很明显，只能说适合自己的，才是最好的。\nps：2023 中旬 6500 带笔 128g 购买，4600 带笔卖出。3300 入手仅拆封未激活不带笔外版 air6 128G",
           "link": "https://www.v2ex.com/t/1110470",
           "publishedOn": "2025-02-10T15:36:05.000Z",
-          "wordCount": 494,
+          "wordCount": 514,
           "title": "我选择从 iPad Pro 22 降级到 Air 6",
           "imageUrl": null
         },
@@ -468,7 +505,7 @@
           "description": "abcfreedom: 春节买了件破洞装卫衣，今天头一次穿着去上班，忘了穿打底衫。\n上午同事夸我潮流，我还没反应过来。\n下午开完会之后，我才注意到破洞装特么的露肉啊！肚子啊、背啊白花花的一堆肉漏着。。。\n尴尬的我裹了一身羽绒服，直到晚上 9 点半下班，热的不行还不敢脱。。。",
           "link": "https://www.v2ex.com/t/1110465",
           "publishedOn": "2025-02-10T14:34:15.000Z",
-          "wordCount": 406,
+          "wordCount": 413,
           "title": "头一次因为衣服尴尬了一天",
           "imageUrl": null
         },
@@ -488,7 +525,7 @@
           "description": "coderchen: \n有哥们来聊聊吗",
           "link": "https://www.v2ex.com/t/1110462",
           "publishedOn": "2025-02-10T14:23:48.000Z",
-          "wordCount": 503,
+          "wordCount": 600,
           "title": "有什么途径认识女大吗？",
           "imageUrl": null
         },
@@ -508,7 +545,7 @@
           "description": "pureGirl: 如果启动电脑，页面还会继续轮询吗",
           "link": "https://www.v2ex.com/t/1110459",
           "publishedOn": "2025-02-10T14:05:04.000Z",
-          "wordCount": 384,
+          "wordCount": 389,
           "title": "如果电脑休眠了会影响网页轮询吗",
           "imageUrl": null
         },
@@ -548,7 +585,7 @@
           "description": "LiuJiang: \n想买一个自己戴，价格 1000 左右，貔貅吊坠款式，不是很懂翡翠玉，有大佬指点下吗？谢谢",
           "link": "https://www.v2ex.com/t/1110454",
           "publishedOn": "2025-02-10T13:29:54.000Z",
-          "wordCount": 369,
+          "wordCount": 382,
           "title": "有了解翡翠玉的吗？",
           "imageUrl": null
         },
@@ -568,7 +605,7 @@
           "description": "CryptoKoKo: DS 算命感觉有点火，先不论测算准不准，这个话题所带来的流量还是可以的，想了解一下大家都有在上面算过吗？如果要做一款命理相关的产品，你觉得你最看重的是测算的准确性还是娱乐性或其它？一起探讨一下",
           "link": "https://www.v2ex.com/t/1110451",
           "publishedOn": "2025-02-10T13:07:48.000Z",
-          "wordCount": 368,
+          "wordCount": 386,
           "title": "命理玄学赛道还有哪些机会？",
           "imageUrl": null
         },
@@ -698,7 +735,7 @@
           "description": "reboofa8t: \n太长不看\n腾讯会议消息，看不到的，两种 QQ 都不行。\n为了查看这种消息，我狠狠贡献了下载量\nQQ 群聊中的一种神秘消息，在 Windows 怀旧版 QQ （版本号 9.7.23, 今天刚在 im.qq.com 下载的）上无法显示，提示让我更新版本：\n这是纯文本展示消息，我试了切换到“多彩气泡”，也是如此。\n好嘛，那就试试新出的 QQ NT （版本号 9.9.17, 也是今天刚在 im.qq.com 下载的），哈哈：\n嗯，看来 Windows 上的这两个版本 QQ都不支持这种消息。那么这是什么消息呢？\n谜底揭晓！（截屏自 iOS QQ ）用了好几年的 8 版本 iOS QQ 也特么看不到，非要我更新版本才能看到。\n怎么，是要把 Windows 上的 QQ 群用户赶到手机上开会吗？\n如果我非要在 Windows PC 上接入 QQ 群中的腾讯会议，我能想到的方法：\n先在手机上点开链接看到会议码，再在电脑上输入会议码上会。\n当然也可以先在手机上直接把会议链接转发到电脑，再在电脑上点开链接、拉起腾讯会议。\n但是何必这么麻烦呢？我一点鼠标就能完成的事儿，非要我掏出手机来。\n还是说，有什么特别的打开方式，彦祖们、亦菲们指点一下？",
           "link": "https://www.v2ex.com/t/1110438",
           "publishedOn": "2025-02-10T11:49:40.000Z",
-          "wordCount": 437,
+          "wordCount": 448,
           "title": "如何在 Windows PC 上查看 QQ 群中的神秘消息",
           "imageUrl": null
         },
