@@ -1,171 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-11T20:12:17.715Z</id>
+    <id>urn:2025-02-11T21:10:22.768Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-11T20:12:17.715Z</updated>
+    <updated>2025-02-11T21:10:22.768Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[为什么 Unity 的编译速度会这么离谱？真的是 Mono 的问题吗？]]></title>
-        <id>https://www.v2ex.com/t/1110808</id>
-        <link href="https://www.v2ex.com/t/1110808"/>
-        <updated>2025-02-11T20:01:02.000Z</updated>
-        <summary type="html"><![CDATA[drymonfidelia: 之前我一直用我的 M2 Max 的 MacBook 做游戏，实在忍受不了改一行代码要编译半分钟，改完运行游戏又要浪费半分钟，以为原因是 Apple 的 CPU 太垃圾了不适合做游戏，专门在知道会缩缸的情况下弄了台 14 代 i9 的电脑做游戏。这下改一行代码只要编译 5 秒了。但是现在项目变大一点了又开始越变越慢，编译一次要 40 秒，我研究了一堆优化方法，AsmDef 那些全都折腾了，编译速度都没有明显提升。不知道为什么别人的 Profiler 能看到编译的时候到底是哪里慢了，我把 Profiler 两种模式的每一个参数都看过了，CPU 使用一直是 20ms ，完全没统计到编译占用。后面问了别的游戏开发者，说 Mono 就是这么慢，没办法优化。我平常工作也都是写 C#，编译都是超快的，几十万行代码的项目也是几秒就编译好了，Mono 的性能真的这么糟糕吗？]]></summary>
-        <author>
-            <name>drymonfidelia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[AI] 发现一个新的便宜 AI API 平台]]></title>
-        <id>https://www.v2ex.com/t/1110807</id>
-        <link href="https://www.v2ex.com/t/1110807"/>
-        <updated>2025-02-11T20:00:52.000Z</updated>
-        <summary type="html"><![CDATA[JustinJack1: 
-
-注册即送$1 额度，可以免费使用 H100/A100 等海外节点，实时推理，价格比 Replicate 和 Fal AI 便宜一半以上，而且稳定可用于生产，有 Python 和 JS 的包可以无缝从 Replicate 迁移，全球节点，包括各种模型比如
-black-forest-labs/flux-1.1-pro
-black-forest-labs/flux-schnell
-tencent/hunyuan3d-2
-stability-ai/stable-diffusion
-bytedance/sdxl-lightning-4step
-vetkastar/fooocus
-fofr/face-to-many
-falcons-ai/nsfw_image_detection
-nightmareai/real-esrgan
-tencentarc/gfpgan
-sczhou/codeformer
-stability-ai/sdxl
-yorickvp/llava-13b
-Synexa AI is the most affordable way to run serverless AI API models
-Get the most cost-effective A100 GPU pricing for your AI workloads, saving up to 62% compared to other providers.
-Automatic scaling: Seamless auto-scaling that handles traffic spikes instantly.
-World class developer experience: Integrate AI capabilities in minutes with our intuitive SDKs
-High-Performance GPUs: Enterprise-grade GPU infrastructure with A100s and H100s
-Extensive Model Collection: Access 100+ production-ready AI models
-Blazing Fast Inference Engine: optimized inference engine delivers up to 4x faster performance on diffusion models.
-Linktr
-Bento
-Telegraph
-Bluesky
-Patreon
-Medium]]></summary>
-        <author>
-            <name>JustinJack1</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[招聘 Java 开发工程师 [9-29k]]]></title>
-        <id>https://www.v2ex.com/t/1110805</id>
-        <link href="https://www.v2ex.com/t/1110805"/>
-        <updated>2025-02-11T17:59:53.000Z</updated>
-        <summary type="html"><![CDATA[us10hmg: 工作内容：
-1. ﻿﻿负责 5g 网络规划与优化相关工作，为全球 200 多个国家与地区，提供高效、稳定的网络服务。
-2. ﻿﻿负责 PB/TB 级别数据平台系统的优化处理，保障系统安全、可靠、可用、可拓展
-3. ﻿﻿确定后端架构的整体技术路线和架构走向，保障系统整体架构良性发展
-4. ﻿﻿突破当前技术局限性，沟通协调技术团队，保障优化特性高效落地
-岗位要求：
-1. ﻿﻿精通 java 相关技术，编程基础扎实，理解 i/o 、多线路、集合等基础框架，具备优秀的编程能力以及良好的开发喜欢
-2. ﻿﻿精通 java 以及 Web 应用的开发，深入了解 spring/lbatis/Cache/JVM 等机制与代码
-3. ﻿﻿主导过大规模系统的架构设计，精通服务化、服务治理、领悟建模，对系统和业务抽象有非常丰富经验
-4. ﻿﻿熟悉分布式系统的设计和应用，熟悉分布式、缓存、消息等机制
-薪资福利：
-1 、基本工资+绩效工资+年终奖（ 2-4 个月，一般绩效 A-4 个月，B-2 个月）；
-2 、试用期内（ 6 个月）工资不打折
-3 、五险一金基数按基本工资，公积金比例 5%-12%，具体看 base 地。
-4 、带薪年假、入职&年度免费体检、免费夜宵、班车/加班打车免费、下午茶、节假日礼品等
-联系邮箱：
-base64: bXJyb290NDA0QGdtYWlsLmNvbQ== 邮件主题请备注 [ V2EX ]]]></summary>
-        <author>
-            <name>us10hmg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[alipan backup 备份文件到阿里云盘 | 跨平台]]></title>
-        <id>https://www.v2ex.com/t/1110804</id>
-        <link href="https://www.v2ex.com/t/1110804"/>
-        <updated>2025-02-11T17:53:37.000Z</updated>
-        <summary type="html"><![CDATA[yiyungent: 
-分享一波，也好让更多人来当免费测试（ bushi
-简介
-一行命令备份指定文件夹到阿里云盘（压缩后上传阿里云盘）, 需配合三方定时任务定时执行
-使用 zip 简单加密压缩, 没有复杂操作, 不易出现兼容/找回问题
-特点
-支持设置最大保留备份数
-支持 git 形式版本管理, 无变化则自动跳过备份
-支持加密压缩
-cloudDestPath="/加密备份/1panel"
-
-zipPassword="eqeqwewqeqwe"
-
-./coo alipan backup --from "/opt/1panel/apps/openresty/openresty/conf/conf.d" --to "$cloudDestPath" --remote-drive-type resource --max-backup-num 30 --password "$zipPassword" --git-history-last
-
-更多使用帮助
-./coo alipan backup --help
-
-GitHub 下载地址，下载 coo 即可
-https://github.com/yiyungent/KnifeHub/releases?q=coo&expanded=true]]></summary>
-        <author>
-            <name>yiyungent</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[申请收录： Shaun's Space]]></title>
-        <id>https://www.v2ex.com/t/1110803</id>
-        <link href="https://www.v2ex.com/t/1110803"/>
-        <updated>2025-02-11T17:21:47.000Z</updated>
-        <summary type="html"><![CDATA[cniter: 标题：Shaun's Space
-地址： https://cniter.github.io
-RSS： https://cniter.github.io/atom.xml]]></summary>
-        <author>
-            <name>cniter</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有 flutter 大佬么？请教几个问题]]></title>
-        <id>https://www.v2ex.com/t/1110802</id>
-        <link href="https://www.v2ex.com/t/1110802"/>
-        <updated>2025-02-11T17:13:27.000Z</updated>
-        <summary type="html"><![CDATA[jedeft: 
-1 、flutter 有啥中文社区可以发贴交流的?
-2 、flutter 里统计用户数据、比如日活、留存，有啥现成的第三方包比较好用?
-3 、flutter 里推送功能用哪个平台比较好？
-谢谢]]></summary>
-        <author>
-            <name>jedeft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FetchImage：一键提取网页图片的 Chrome 扩展，效率翻倍！求支持！]]></title>
-        <id>https://www.v2ex.com/t/1110801</id>
-        <link href="https://www.v2ex.com/t/1110801"/>
-        <updated>2025-02-11T17:09:46.000Z</updated>
-        <summary type="html"><![CDATA[zkv2: 
-大家好！我刚刚发布了一款 Chrome 扩展——FetchImage，它可以帮助你一键提取和下载网页中的图片，，都能轻松搞定！希望大家多多支持！🙏
-目前支持：Instagram, X, Pinterest, 小红书，Facebook 等等
-主要功能
-✅ 极速提取：瞬间抓取网页中的所有图片，无需等待。
-精准筛选：按尺寸快速筛选，找到你最想要的图片。
-一键保存：直接下载到本地，方便整理与分享。
-简单易用：小白也能轻松上手，操作超简单！
-适用场景
-设计师：快速收集灵感素材，提升工作效率。  
-旅行爱好者：保存美美的旅行照片，制作专属相册。  
-博主：轻松下载高清图片，丰富你的内容创作。  
-日常使用：保存喜欢的表情包、壁纸、美食图片，随时取用！
-操作方式及说明
-🔗 FetchImage 官网 
-求支持
-这是我独立开发的项目，
-（用了一些网站以及程序，发现都不是很顺手，就制作了一个）
-希望能为大家带来便利。如果你觉得 FetchImage 有用，欢迎：
-在 Chrome Web Store 上留下好评
-在评论区分享你的使用体验或建议
-分享给更多朋友，让更多人知道 FetchImage 
-你的支持是我继续改进和开发新功能的动力！感谢大家！🙌]]></summary>
-        <author>
-            <name>zkv2</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Unity 裁员把刚加的决策树又干没了， Unity 7 的大饼很可能也没了。]]></title>
         <id>https://www.v2ex.com/t/1110800</id>
@@ -836,6 +675,101 @@ ts 提示：
 谢谢大家了！🙇‍😘]]></summary>
         <author>
             <name>Belmode</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS 上有什么不错的自动记账（配合捷径）app 么？]]></title>
+        <id>https://www.v2ex.com/t/1110758</id>
+        <link href="https://www.v2ex.com/t/1110758"/>
+        <updated>2025-02-11T12:30:46.000Z</updated>
+        <summary type="html"><![CDATA[revival83: 一直用钱迹 1700 多天了，发现其它记账软件都有自动记账了，钱迹的自动记账还在雏形阶段，截图配合捷径只能自动识别金额，备注不能在捷径里一次输入完，还得再进 app 输入。]]></summary>
+        <author>
+            <name>revival83</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海电信现在还能换不是 SDN 的网关吗]]></title>
+        <id>https://www.v2ex.com/t/1110757</id>
+        <link href="https://www.v2ex.com/t/1110757"/>
+        <updated>2025-02-11T12:29:52.000Z</updated>
+        <summary type="html"><![CDATA[piggie18: SDN 网关什么都改不了，还经常莫名其妙断线]]></summary>
+        <author>
+            <name>piggie18</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求推荐，收集深圳便宜宽带]]></title>
+        <id>https://www.v2ex.com/t/1110756</id>
+        <link href="https://www.v2ex.com/t/1110756"/>
+        <updated>2025-02-11T12:25:48.000Z</updated>
+        <summary type="html"><![CDATA[ysmintor: 
+想给父母在城中村办理，没有联通资源，只有移动，电信，广电。
+目前给他们联通无限量限速 7.2Mbps 在手机上用。
+计划给办理宽带，自己平时在很远外地，可以远程协助，让他们多用下电脑之类，办个宽带感觉好些，保底买个插卡路由器，放限 7.2Mpbs 的卡使用，慢点就慢点，能获取信息优先。]]></summary>
+        <author>
+            <name>ysmintor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么丰田那么不思进取]]></title>
+        <id>https://www.v2ex.com/t/1110755</id>
+        <link href="https://www.v2ex.com/t/1110755"/>
+        <updated>2025-02-11T12:24:49.000Z</updated>
+        <summary type="html"><![CDATA[testFor: 
+一个比亚迪都打不过,还好意思说世界第一大车企]]></summary>
+        <author>
+            <name>testFor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求推荐一款 4K 显示器]]></title>
+        <id>https://www.v2ex.com/t/1110754</id>
+        <link href="https://www.v2ex.com/t/1110754"/>
+        <updated>2025-02-11T12:10:14.000Z</updated>
+        <summary type="html"><![CDATA[jamfer: 要求如下：
+4k 分辨率
+刷新率 120 以上
+HDMI 是满血的 2.1 规格
+C 口支持反向供电，最低要 90w ，越高越好（ 65w 不行）
+内置音箱
+加分项：4 边窄边框]]></summary>
+        <author>
+            <name>jamfer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求推荐一款适合 MacBook 的外接固态硬盘]]></title>
+        <id>https://www.v2ex.com/t/1110753</id>
+        <link href="https://www.v2ex.com/t/1110753"/>
+        <updated>2025-02-11T12:10:04.000Z</updated>
+        <summary type="html"><![CDATA[cl903254852: 
+本人 Macbook 硬盘空间不够了，想外接一个 500G-1T 的都行
+看网上说是要一个固态硬盘+硬盘盒组合
+我是 M1 的 Macbook ，求推荐一个性价比不错的组合。
+预算有限，固态硬盘+硬盘盒最好在 500 上下。。]]></summary>
+        <author>
+            <name>cl903254852</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[刚大学室友说存了第一个 100 万了]]></title>
+        <id>https://www.v2ex.com/t/1110752</id>
+        <link href="https://www.v2ex.com/t/1110752"/>
+        <updated>2025-02-11T12:08:09.000Z</updated>
+        <summary type="html"><![CDATA[dongdongdong: 不知道我能不能存到，遥遥无期，太穷了]]></summary>
+        <author>
+            <name>dongdongdong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[北京使用运营商 dns， doh.pub 解析到 127.0.0.1]]></title>
+        <id>https://www.v2ex.com/t/1110751</id>
+        <link href="https://www.v2ex.com/t/1110751"/>
+        <updated>2025-02-11T12:03:35.000Z</updated>
+        <summary type="html"><![CDATA[ik: 测试 移动 联通网络都能复现
+其他的还有 loli.net 的一些子域名]]></summary>
+        <author>
+            <name>ik</name>
         </author>
     </entry>
     <entry>
