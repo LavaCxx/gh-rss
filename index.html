@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-11 datetime="2025-02-11T04:46:35.000Z">2025-02-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-11 datetime="2025-02-11T04:46:35.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-11 datetime="2025-02-11T07:44:15.000Z">2025-02-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-11 datetime="2025-02-11T07:44:15.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,16 +42,64 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110600"
+                        data-accordion-key="https://www.v2ex.com/t/1110677"
                         open
                       >
-                        <summary class="article-expander__title">“无薪待岗”吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110600">
+                        <summary class="article-expander__title">Winform 使用 webview2 集成 React vite 项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110677">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>zhaotianxionkm: 
-事情是这样的，年前面试了一家 XX 大厂的外包岗位，对方急需人手，连入职时间都定好了，还美其名曰&quot;年后第一批入职&quot;。我一听这工作比现在的还&quot;香&quot;，二话不说就提了离职，准备好好过个年。
-结果年后到入职当天，对方突然说&quot;最近有点特殊情况&quot;，我就知道不对劲。果然，对方说因为后端架构师缺人，有人没确定入职时间，我进去没人对接，得等人员来齐了才能安排我入职。还在招后端，说是这周结束后会给我消息。我就问了，如果招不到怎么办？对方说只能继续推迟......还让我有没有合适的后端架构师推荐给他。</span>
+                              <span>zpzpzp: 常见的使用前端 html,css 构建 windows 客户端有 electron 和 tauri ，微软官方的 winform Hybrid 使用的是.net core 版本的 winform 和 wpf ，且集成的是 Blazor ，这个项目使用 winform .netframwork 版本，然后通过 webview2 集成了 react 前端项目，react 使用 vite 打包，wpf 同理
+项目中只包含 winform 代码，需要手动在 bin/debug 目录里面创建一个文件夹，名字为 ReactBuild ，然后将 react 打包后的文件放进去就可以了 可以自己改 winform 代码更改路径 
+同时因为使用 winform ，可以使用自带的 clickOnce 更新，解决了更新的问题
+多少有点剑走偏锋，适合这种情况：就是需要兼容 win7 ，需要访问 win32 Api ，团队成员后端语言是 C#，前端会点 react ，但是不想学习 xaml ，软件界面还想好看点，说的好像是我本人哈哈， 但是比 webview 封装一个网址来说少了后端服务器的资源占用，所以还是有点区别的。
+https://github.com/zpzpzp1024/WindowsFormsAppWithReact</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110676"
+                        open
+                      >
+                        <summary class="article-expander__title">目前有一个台式机，想转成 PVE 系统，现有的 windows 系统可以迁移进去，如何操作？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110676">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xinmans: 有没有办法把现有的 windows10 和 C 盘数据打成一个镜像，pve 装好后，能够在 PVE 里启动起来，数据和系统都一摸一样？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110675"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有类似 chatbox 的移动端应用呢</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110675">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>spritecn: 
+在 deepseek 大火且经常服务器繁忙的当下,个人日常桌面端 ai 使用已经转移到了 chatBox + 第三方(阿里) 的 deepseek V3 模型
+但移动端没有像 chatBox 一样的代替品
+需求
+主要功能类似 deepseek 移动端
+chat 部分使用兼容 chatGPT api 的 baseUrl 和 key
+chat 部分可以像 chatBox 一样定义 ai 角色
+需要确认可行性
+可以使用阿里/腾讯等第三方的录音转写</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
@@ -63,19 +111,16 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110599"
+                        data-accordion-key="https://www.v2ex.com/t/1110674"
                         open
                       >
-                        <summary class="article-expander__title">如何查询自己几个证券账户</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110599">
+                        <summary class="article-expander__title">iPhone 13pro 双卡，从年前开始信号觉得越来越糟糕的 换安卓的想法越来越强烈了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110674">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Ericlin666: 
-方法一：中国结算官网查询
-https://inv.chinaclear.cn/ ，点击右上角 “用户登录”。已有账号直接登录，无账号点击 “注册” 并完成实名认证。登录后完善客户资料，输入身份证号、手机验证激活 “一码通”。进入 “查询服务”，点击 “我的一码通”，查看名下证券账户详细信息，可按需保留或注销多余账户。
-方法二：微信公众号查询
-在微信搜索 “中国结算营业厅” 并关注，点击底部菜单栏 “我的账户”，选择 “账户注册” 或 “已有账号登录”。登录后点击 “已关联账户数 / 总账户数”，查看名下证券账户大致信息；点击 “我的证券账户” 旁 “眼睫毛” 图标，输入验证码查看完整账户号码.
-多余账户可考虑注销，新开以获取更低费率，加 v: netqqnet</span>
+                              <span>mzmzzZ: 
+双联通卡。
+年前还给联通打过电话重置网络也没有多大效果</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -87,15 +132,19 @@ https://inv.chinaclear.cn/ ，点击右上角 “用户登录”。已有账号�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110597"
+                        data-accordion-key="https://www.v2ex.com/t/1110672"
                         open
                       >
-                        <summary class="article-expander__title">貌似 ChatGPT 有个 bug，即使订阅到期后，不退出登录的话，还是可以用 plus 的功能？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110597">
+                        <summary class="article-expander__title">2025 年 副业搞钱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110672">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>huage: 我的订阅 2 月 6 日到期的，但是今天还是可以使用 PLUS 订阅才有的功能。
-是不是 bug ，还是说免费开放了。</span>
+                              <span>sandy136: 
+大佬们，今年想搞点副业增加一下收入，家庭开销太大了
+我目前想做的是服务型的私域，两个方向：
+1 、苹果手机软件多开
+2 、网站源代码获取
+大佬们，有什么副业介绍一下吗？生活太难了，一起交流 hghzx123456 有什么项目也可以一起交流，2025 年真的需要做点什么事情了</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -107,81 +156,17 @@ https://inv.chinaclear.cn/ ，点击右上角 “用户登录”。已有账号�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110593"
+                        data-accordion-key="https://www.v2ex.com/t/1110671"
                         open
                       >
-                        <summary class="article-expander__title">从探究“为学日益，为道日损”还是“为学者日益，为道者日损”来说说读书的乐趣</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110593">
+                        <summary class="article-expander__title">最近换手机转入安卓阵营，发现拼音输入不如 iOS 方便， iOS 输入拼音字母时会出现在 App 的输入框，大部分 App 都可以在整个输入过程中下拉显示联想的结果，安卓...</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110671">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>jciba5n4y6u: 
-读道德经，读得酣畅淋漓，就像解谜游戏，一次一次的感觉自己明白了，一次次的感觉自己和以前不一样了。
-就拿这句话来说，不同的版本说法不一，而且因为读音和词性的不确定，还有不同的理解方法。结合上下文展开就有好几种可能的解读。
-第一阶段，看到的是 通行本“为学日益，为道日损”，理解很简单，为是做的意思，做学问每天都有收获，修道则每天都有损耗
-第二阶段，发现有的人说到“无为而无以为”中的第一个“为”读四声，是表示目的的意思。那么是不是说以学为目的去干某件事，就会增加自己的见识，以修道为目的做某件事，就会减少自己的知识？因为后面跟着损之又损，以至于无为，说明这里和是否有为是关联的
-第三阶段，发现马王堆帛书版版本说的是“为学者日益，闻道者日损”，为啥是闻道而不是为道，是不是道这种虚无缥缈的是没办法为的，只有无为才能贴近全德，体会道？这里为啥多了一个者？加了者，就把人直接分成了两类，而不是以前我想的，当我为学时如何当我为道时如何了。这里如果是按照第一阶段理解，不能通，但是按照第二阶段的目的方式来理解，好像也还行。
-第四阶段，不对啊，北大汉简版里是“为学者日益，为道者日损”，那这里是谁对呢？按照老子全文理解，闻道更多一些，但为道好像也有啊。
-慢慢读，道德经读来还真是有趣。这样值得思考推敲的地方好多处，闻道者日损的意思，大概就是这样，原来堆积在体外的知识，慢慢的融合进自身的道，之所以要那样做，都是受道控制的，知道了来龙去脉就不需要专门去记住，用的时候自然而然的就能输出了。所以说的闻道日损，损的是身外物，是知识（知道和认识）
-读的过程中，去追查了民、百姓、君、神、居、弗好多字的本意和古代用法、区别，感觉世界就是个大的草台班子，老子的书写的很工整严谨，传播的过程中被不少蠢货给带歪了，真要感谢考古学家和文字学家还原真相。
-另外去找了钱穆的老子辨，提出的老子是庄子写出来的，以及太史詹、老徕子等的误会，还是很有趣的。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110592"
-                        open
-                      >
-                        <summary class="article-expander__title">招聘 Java P6/P7 Base 深圳 30~60K 16~20 薪</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110592">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>hhxsv5: 
-招聘 Java P6/P7 Base 深圳
-职位描述：
-建设业界领先的，高可用、高性能，安全可信分布式金融交易系统。我们是面向多种金融交易产品的业务研发团队，负责的领域包括高效、稳定的金融交易系统，需要支持各类不同的金融产品交易，面向海量客户群及高频交易用户。
-你将有机会参与以下产品的建设：
-构建高可用、高并发、低时延、水平扩展的云原生分布式应用
-建设灵活严谨的金融合规体系，包括但不限于 KYC 、AML 、CFT ，并能适应不同地区的合规监管要求
-参与复杂的金融交易系统设计与研发，严谨的记账对账体系设计与研发
-灵活的面向普通用户的量化交易系统的设计与研发
-面向全球、全渠道的运营支撑系统及营销体系研发
-面向用户的全链路系统优化，追求极致的高并发和低延迟
-职位要求：
-我们既需要虽然看起来经验不是那么足，但是具有技术 Geek 精神的小鲜肉，也需要行业经验丰富的大牛
-希望你能积极参与、勇于承担，做事情以结果为导向
-我们使用成熟的技术和框架，也鼓励在合适的场景使用合适的新技术高效的解决问题
-如果你有优秀开源软件，系统技术的源码研究，使用，定制开发经验，那我们会非常欢迎，包括但不限于：Dubbo 、Spring/SpringBoot/SpringCloud 、Kafka 、Redis 、Mysql ，Elasticsearch
-对技术有激情，喜欢钻研，能快速理解业务；
-良好的沟通表达能力和团队协作能力，能承担工作压力
-联系邮箱
-base64: aGh4c3Y1QHNpbmEuY29t 邮件主题请备注 [ V2EX ]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110591"
-                        open
-                      >
-                        <summary class="article-expander__title">能否跟公司协商，让公司辞退领个失业保险</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110591">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>xzg1993: 
-不要公司赔偿，只想领个失业保险，这种公司能同意么。</span>
+                              <span>alan9999: 
+最近换了安卓手机，发现拼音输入不如 iOS 方便
+iOS 输入拼音字母时会出现在 App 的输入框，大部分 App 都可以在整个输入过程中下拉显示联想的结果，安卓只能在选中汉字到输入框后显示下拉联想的内容
+请问安卓有什么系统设置 或者 输入法 可以实现 iOS 拼音输入的效果吗？</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
@@ -193,23 +178,667 @@ base64: aGh4c3Y1QHNpbmEuY29t 邮件主题请备注 [ V2EX ]</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110589"
+                        data-accordion-key="https://www.v2ex.com/t/1110670"
                         open
                       >
-                        <summary class="article-expander__title">[开源]分享我用 Cursor 写的小工具: 微信红包封面气泡挂件生成器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110589">
+                        <summary class="article-expander__title">[阿里云校招] 创新部门招 PM 和运营实习生</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110670">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>koala9527: 
+                              <span>Disgg: 
+产品经理🚀
+base：杭州
+职位描述📝
+1 、洞察及了解云计算市场需求，能基于客户需求和市场洞察完善产品功能的调研、规划，推动产品功能实现； 
+2 、负责产品项目管理，包括但不限于用户研究、竞品分析、产品上线及优化、产品迭代的管理和落地； 
+3 、进行产品核心卖点的挖掘和包装，完成优质产品内容及文档撰写，了解并逐步具备实现对客通道的内容设计和规划的能力； 
+4 、对产品用户增长及产品的健康发展、包括产品拉新和留存指标负责。
+职位要求📈
+1 、有产品岗位实习经验，有云计算产品和开发者产品及产品运营实习经历优先； 
+2 、对技术产品有兴趣，理工科专业背景，具有计算机语言系统学习经历； 
+3 、对数据敏感，有严谨的数据思维，能够通过数据发现问题； 
+4 、具备较好的学习能力、沟通能力、协同能力和团队合作能力，对新事物拥有好奇心，具备创新创业热情。
+学生及社团干部、大赛组织及参与经历者优先。 🎉 🎉
+用户运营及市场营销🌍
+base：杭州、北京
+职位描述📊
+1 、负责国际技术产品的用户增长运营，实现对技术产品的用户增长和留存指标，开发者产品端包括 iaas 、paas 、saas 类以云计算为依托的产品类型； 
+2 、洞察和了解海外用户需求，挖掘用户增长背后动因，参与设计和完成技术社群、市场营销、联盟增长中某一项领域的活动和策略设计，完成运营方案设计和落地规划； 
+3 、能协同产品、研发、财税法等多角色推动运营方案落地和实现，并完成一定的数字结果。
+职位要求💪
+1 、有用户增长、产品运营、市场营销、社群运营（ 4 选 1 ）岗位实习经验； 
+2 、有海外学习和实习经验，对欧美市场的用户习惯、文化了解，熟练使用海外 social media 及其他热门 media 平台； 
+3 、有较好的数据 sense 和用户需求洞察敏感度，热爱 GTM 和运营工作，对云计算和科技有热情；
+4 、具备创新创业的热情和较强的抗压能力，强烈的责任心和 owner 意识。乐观开朗，经常参与校园或社团活动，有组织大型活动和项目的经验优先。 🎉 🎉
+建立投递地址： 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉
+https://careers.aliyun.com/campus/position-detail?lang&#x3D;zh&amp;positionId&#x3D;9900005713
+https://careers.aliyun.com/campus/position-detail?lang&#x3D;zh&amp;positionId&#x3D;9900005407</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110669"
+                        open
+                      >
+                        <summary class="article-expander__title">中药就是拿来消耗医保余额的吧</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110669">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>hhjuteman: 周六脖子疼的不行到医院做了个核磁共振，确诊颈椎病。
+医生给我开了两种药，一种所谓的消炎药（实际就是止疼药），一种是颗粒中药。
+那个止疼药只要几十块钱，中药 200 多。我本着完全相信医生的想法也没把&quot;不要中药&quot;这种话说出口。
+结果果然中药没用，那个止疼药也没啥用。我最后吃了上次拔牙以后牙医开的止疼药，还算有点效果。
+周一晚上查一些病友的案例和一些经验，发现&quot;麦肯基训练&quot;这几个字反复出现。我对照着跟练视频挑选一些能够做到的项目循环练习了一个小时。除了刚开始有些许不适以外，训练到后面脖子居然可以开始有限的活动起来了，疼痛也减轻了不少。
+经过我个人的经历，我可以确认麦肯基的颈椎训练完全有用，我准备等我的脖子不适感减弱到不影响锻炼的情况下试试麦肯基的腰椎训练，毕竟我的腰椎也不是特别好。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110668"
+                        open
+                      >
+                        <summary class="article-expander__title">千万别在转转寄售！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110668">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>lg106: 
+春节期间在转转上寄售一台 14 寸 32g m1pro ，过了好几天终于卖掉了，卖掉才知道有一个七天无理由退货，然后我就在想这人不会最后一天申请退货吧，没想到真的最后一天的下午申请退货了，主打一个白嫖。太 TMD 耽误事，机器被弄成什么样子都不知道，我都怀疑是不是平台自己故意的，好让我低价卖给平台，现在时间又耽误，机器又折旧，还不知道机器又没磕碰过。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110666"
+                        open
+                      >
+                        <summary class="article-expander__title">[招聘] Web3 产品经理 - OneKey</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110666">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>francochan: 
+🚀 我们是谁？
+OneKey 是专注于 Web3 安全和用户体验的创新公司，我们致力于构建简单易用且安全可靠的加密资产管理工具。
+🎯 招聘岗位：Web3 产品经理
+📌 职位要求：
+具备 Web3 行业知识，熟悉 DeFi 和钱包；
+有产品经理经验，能够独立负责产品规划、设计、迭代；
+善于沟通协调，与技术、设计、市场团队高效合作；
+关注用户体验，能优化产品流程，提高易用性。
+💰 薪资范围：30K - 45K 
+📍 工作地点：深圳
+📧 简历投递： franco@onekey.so
+期待你的加入，一起探索 Web3 的未来！💡</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110665"
+                        open
+                      >
+                        <summary class="article-expander__title">求助， openai api 账户绑定 google pay 自动扣款失败，如何解决？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110665">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>laraws: 
+大家好，我 openai api 账户绑定了 google pay ，设置了余额低于 5 美元自动充值为 10 美元，前几次都成功扣款了，这次突然出现扣款失败了，失败邮件如下:
+Auto-recharge failed Your organization Personal (xxxx) is configured to automatically purchase more credits when your balance is low. The most recent attempt to charge your payment method failed, so auto-recharge has been disabled.
+Please review your payment method, and manually purchase more credits or re-eneable auto-recharge.
+大家有没有遇到过这个情况，最后大家又是怎么解决的呢?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110664"
+                        open
+                      >
+                        <summary class="article-expander__title">V 友们现身说法，你们见过年龄最大的程序员，还在敲代码时是多少岁？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110664">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>abc0123xyz: 如题，看到这篇标题有感
+https://v2ex.com/t/1110494
+有木有 60 岁的
+--------
+截至 2025 年 2 月 11 日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110663"
+                        open
+                      >
+                        <summary class="article-expander__title">Struts 2 远程代码执行漏洞（CVE-2024-53677）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110663">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>awsl: 
+Struts 的老项目又遭殃了，我们这边还在 2.3 ，
+这次修复官方说必须升级到 6.4 以上版本，还不兼容原有代码，
+需要自己更新后修改代码逻辑，旧代码就是屎山都不知道谁写的了，大佬们有没有办法救一救/(ㄒoㄒ)/~~</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110662"
+                        open
+                      >
+                        <summary class="article-expander__title">cpp 一个隐式转换奇怪的现象</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110662">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jdz: 
+std::map a;
+std::string m &#x3D; 2;  //编译失败
+a[&quot;hello&quot;] &#x3D; 1;  //编译成功
+为什么呢</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110661"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有懂八字的 ， 给看看 取个名字， 或者有好的名字也可以给提供下。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110661">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>circleee: 如果采用 个人会奉上红包/
+  
+甲辰年 丁丑月 癸卯日 己未时
+这里是详情
+ https://pcbz.iwzwh.com/#/paipan-result/index?MRType&#x3D;0&amp;guid&#x3D;&amp;location&#x3D;%E6%9C%AA%E7%9F%A5%E5%9C%B0+%E5%8C%97%E4%BA%AC%E6%97%B6%E9%97%B4+--&amp;name&#x3D;%E6%A1%88%E4%BE%8B7&amp;sex&#x3D;1&amp;solarTime&#x3D;2025&amp;solarTime&#x3D;02&amp;solarTime&#x3D;03&amp;solarTime&#x3D;13&amp;solarTime&#x3D;04&amp;sunTime&#x3D;2025&amp;sunTime&#x3D;02&amp;sunTime&#x3D;03&amp;sunTime&#x3D;13&amp;sunTime&#x3D;04&amp;lunarArr&#x3D;[]&amp;tg&#x3D;%E7%94%B2&amp;tg&#x3D;%E4%B8%81&amp;tg&#x3D;%E7%99%B8&amp;tg&#x3D;%E5%B7%B1&amp;dz&#x3D;%E8%BE%B0&amp;dz&#x3D;%E4%B8%91&amp;dz&#x3D;%E5%8D%AF&amp;dz&#x3D;%E6%9C%AA&amp;typeId&#x3D;00000000-0000-0000-0000-000000000000&amp;xls&#x3D;0&amp;unknowhour&#x3D;0</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110659"
+                        open
+                      >
+                        <summary class="article-expander__title">🏆 终极蓝锁对手指南： 集所有风格、兑换码和专业策略于一身！</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110659">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Ivan555: # 🎮 Blue Lock Rivals 终极攻略站 - 风格图鉴、兑换码、进阶技巧
+大家好！我最近为《 Blue Lock Rivals 》制作了一个完整的攻略网站，希望能帮助到正在玩这款游戏的小伙伴。
+## 📚 主要内容
+### 风格图鉴
+- 完整的角色风格介绍（国见、乌野等）
+- 详细的技能分析和使用技巧
+- 风格搭配推荐
+- 最新版本 Tier 排名
+### 兑换码系统
+- 最新的可用兑换码
+- 详细的兑换步骤说明
+- 兑换码有效期追踪
+- 奖励内容说明
+### 进阶攻略
+- 高级运球技巧教学
+- 团队阵型搭配指南
+- 胜利条件和得分技巧
+- 角色最佳搭配推荐
+### 特色功能
+- 支持 18 种语言（包括简体中文、繁体中文）
+- 完全免费使用
+- 定期更新内容
+- 视频教学指导
+## 🌟 网站特点
+- 界面简洁直观
+- 内容持续更新
+- 响应式设计，手机端体验良好
+- 加载速度快，访问流畅
+## 🔗 访问地址
+[https://bluelockrivals.online/]
+## 💡 更新计划
+1. 每周更新最新兑换码
+2. 定期更新风格图鉴
+3. 根据版本更新及时调整攻略内容
+4. 收集社区反馈，持续改进
+## 🤝 期待你的反馈
+如果你有任何建议或者想要补充的内容，欢迎在评论区留言。我会认真考虑每一条建议，让这个攻略站变得更好。
+---
+附：我是一名热爱《 Blue Lock 》的玩家，建立这个网站的初衷是希望能帮助更多的玩家提升游戏体验。网站会持续更新，欢迎大家收藏使用！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110658"
+                        open
+                      >
+                        <summary class="article-expander__title">[北京/青岛] 燧炻创新 FydeOS 2025 Spring Intake</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110658">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>also1412: 
 
-春节前公众号送了一些红包封面额度，就用各种 AI 工具制作了好几个，文生图，图生视频通过了几个，但是都很单调，就想着用 AI 从零开发一个网站做个性化的红包挂件
-GitHub： https://github.com/koala9527/wechat-image-gen
-我总结了三大功能需求：
-1.使用文生图大模型的 API 生成图片
+TL;DR:
+各位好，好久不见。燧炻创新 2025 春季招聘新开 HC ，希望能给大家带来一丝信心。
+关于燧炻创新和 FydeOS
+FydeOS 是燧炻创新（ Fyde Innovations ）打造的基于 Chromium 开源项目的操作系统产品。燧炻创新是目前世界上为数不多的专注 Chromium OS 开源项目的厂商。FydeOS 是目前行业内仅有的达到商用级别的全功能第三方 Chromium OS 操作系统产品；预装 FydeOS 的计算机设备可以拥有近似于 Google Chromebook 的使用体验，并可以无障碍地在中国大陆地区使用。FydeOS 也是市面上唯一一支长期存续的产品级 Chromium OS 操作系统，从 2018 年上线以来从未断更。FydeOS 配合定制化云集管平台以及附属云服务，打造安全可控的软硬件一站式解决方案，目前正在服务众多海内外行业客户。目前，燧炻创新已是专注于开源基础软件 + 硬件的一体化解决方案供应商。
+关于燧炻创新是如何工作的
+燧炻创新于 2015 年成立于英国伦敦，经历了漫长的技术积累，目前处在快速增长期。秉承欧式小而美技术公司的风格，燧炻创新十余人一起经历了这十年的历练并存活至今。从最初的原型验证到今天在操作系统市场上占据一席之地，燧炻相信一小部分人的力量依然可以发出足够大的声音，改变一个行业的格局。
+公司成立之初便与 V2EX 结下不解之缘。目前团队中几位核心员工均由 V2EX 社区认识 FydeOS 并最终加入我们。不少人也在这里看着我们这几年的成长，再次一并谢过。
+关于 small &amp; beautiful 以及 WLB matters，分享几个或许和其它互联网技术公司不太一样的特质：
+不打卡，不精细管理，不写各种总结。
+在燧炻创新「弹性工作时间」的实施状况可以是下午四点半可以去接孩子放学，晚上陪家人吃饭。只要按时来开会、提交 commit 、消掉 Jira 上的任务。
+Slack 是公司唯一的即时沟通软件，技术岗位所有工作相关内容只在 Slack 上沟通。
+公司没有微信群，也从不会因为一点小事拉群。
+公司目前没有选用令人窒息的、侵犯隐私的以及试图把工作和生活混在一起的效率管理或即时通讯软件，以后也不会。
+团建一定是在工作日。
+需要电话沟通问题时，会先在 Slack 上问：「需要一个电话，现在方便么？」
+关于你
+无论是何种岗位，我们希望你具有如下品质：
+Proficiency in comprehending complex and structured technical documentation; ability to acquire new technical knowledge in English first
+知晓并能实践工作场合所需的「职业素养」
+了解 FydeOS 是什么；认可燧炻创新存在的意义和价值
+对未知事物有着强烈的好奇心，有着自我驱动的学习力和找到问题答案的能力
+在寻找问题答案时主动解决困难并采用正确工具的能力
+良好的沟通能力及团队协作能力
+适应小而美公司的氛围；能自如应对独当一面的时刻
+对品质的追求及对雕琢细节的狂热追求
+关于在招聘的岗位的详细介绍
+ [北京] 操作系统工程师
+ [青岛] 互联网全栈工程师
+ [青岛] 大前端工程师
+ [北京] 产品、市场、媒体及渠道运营专员
+ [北京/青岛] 品质保障及集成测试专员
+如何申请
+请撰写一封正式的求职邮件，发至这个邮箱，来信必复。
+最后，本来想在这里加上一段充满情怀的话语，以突显我们的逼格。想想作罢，没有人确切地知道未来会是怎样，我们只是希望能和你在创造未来的路上一起渡过一段还算开心的时光，如果能一直走下去，那再好不过。
+对了，今年是燧炻成立的第十年，just so you know ✨
+FydeOS is made possible by gentle souls with real ❤️ | © 2025 燧炻创新</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110656"
+                        open
+                      >
+                        <summary class="article-expander__title">一个冷知识 特斯拉 Model Y 不属于 SUV</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110656">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ITI: Model Y 属于跨界多用途车，CUV （ Crossover Utility Vehicle ）。一种融合了轿车、SUV 以及 MPV 等多种车型特点的特殊车型。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110655"
+                        open
+                      >
+                        <summary class="article-expander__title">尝试用 AI 🤖开发了一个多端应用，隐私证照管理，授权分享避免滥用，内附兑换码～🎉</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110655">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>bearbest: 
+24 年办了几个国家的签证，想偷懒，就难免绕不过旅行社，各种证明肯定是少不了的，身份证、护照、户口薄，甚至家人的一系列超级多材料在各种微信群、邮件组里面满天飞……
+当时就有点担心这些高清的隐私数据可能存在一定风险，而且每办理一种签证就要提供一大批材料，担心隐私泄露，更担心在不知不觉的情况下被办卡、被网贷 😢。
+起初我是手动在修图软件中给每个材料写上一些 “仅供 xx 旅行社办理 yy 签证所用” 之类的文字，可无奈材料实在太多了，而且还有不同的旅行社、不同的签证、不同的家人材料，真是搞得我一颗头两颗大 🤯。
+所以就想着开发这么一款应用，可以统一管理自己和家人的证件信息。
+得益于 AI 的帮助，经过几个月的摸索，终于搓出了这款应用 🎉：
+———— [🐻‍❄️ Bear.Locker 🔐] ————
+ 通过相册 / 拍照快速录入证件信息
+ 证件分类管理
+ 三种列表视图可选
+ 可设置卡面防窥显示，以防意外泄露隐私
+ 导出证件时可以添加文字 / 图片水印
+ 支持历史水印缓存，可以使用历史水印快速导出证件
+ 支持导出原始照片
+ 应用安全锁，仅允许解锁后访问应用内容
+ 适配暗色主题
+ 适配手机与平板布局
+目前只完成了卡片类证件信息的管理，后续计划支持常见文档（比如各种扫描件）管理。
+大家如果有什么新想法也欢迎提出哈
+———— [⏬ 下载地址 ⏬] ————
+https://apps.apple.com/app/bear-locker/id6738835164 ↗️
+感谢各位能够看到这里，以下是免费内购兑换码，欢迎下载体验：
+PKEA7JTR9YL3
+XP9W6HWEHLPM
+PETPEFRKP7NR
+THLY7TPXR4PY
+L4Y4L4PAJNM9
+AYMJR7EAT3RH
+WR34H9H3JHAL
+7YFR9FJE4N73
+EJPFNFMA3YEM
+KY4MNMK44NKX
+如果觉得不错可以在 App Store 点点评分，非常感谢！
+祝大家新年快乐，幸福安康～～～</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110654"
+                        open
+                      >
+                        <summary class="article-expander__title">华硕的奥创 rbg 灯，有第三方工具代替么？这奥创好难用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110654">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>revival83: 用着用着 rbg 灯就全灭了，软件还死了，必须得重启才行
+原来是更新了一个情人节特效，结果这破软件死了，服了</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110652"
+                        open
+                      >
+                        <summary class="article-expander__title">分享下自己的开源项目 Folder2Podcast RSS,将文件夹转换为标准的 RSS 播客订阅源</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110652">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>july1995: 
+最近写了一个小工具,将文件夹的音频直接转换为标准的播客订阅源,可以在任何泛应用型的播客客户端中收听.
+为什么会有这个想法呢
+自己有不少音频节目,比如早起的一些访谈节目,或者一些素人录制的小说,只有音频文件.
+如果用音乐播放器或者百度云之类的,听起来很难受.
+音乐播放器没办法记录收听进度,是否收听过,很难受.
+基于上述需求,将自己的音频文件转换为标准的 rss 播客订阅源,利用播客客户端实现进度同步,断点播放.
+最近一次更新,增加了 web 页面, 使用非常友好,web 页面可以一键添加到各种播客客户端,apple podcast 等等~
+支持 npm 部署,和 docker 部署.
+项目地址: https://github.com/yaotutu/folder2podcast
+欢迎大家提提意见~
+刚刚突破 50star,还是很激动的.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110651"
+                        open
+                      >
+                        <summary class="article-expander__title">黄金会涨到什么时候啊，看黄金 ETF 一年涨了好多啊</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110651">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>songche: 
+有大佬能解释下黄金上涨的逻辑不</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110650"
+                        open
+                      >
+                        <summary class="article-expander__title">Hot/New Jobs： Position 一： QA manager/测试经理 Position 二： HR/TA/资深 TA Position 三： Talent Acquisition Associate</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110650">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>justinX: Hot/New Jobs：
+Position 一：QA manager/测试经理
+Job Type：Full-Time, Remote 
+Industry:  Web3/Exchange
+PS：
+1 、具备管理一个 15-20 人团队的 Leader 经验，
+2 、可以管理合约和现货两个业务线的测试团队，
+3 、具备 CMC 排名前 20 名以内交易所任职背景，
+4 、在管理和沟通上略微强势一点，原则性强，敢于面对冲突，
+5 、英文最好是达到工作语言的水平。
+Position 二：HR/TA/资深 TA
+Job Type：Full-Time ，Remote 
+Industry:  Web3/Exchange
+PS：
+1 、3/7 年经验，中英文流利，尤其口语可作为工作语言，
+2 、要具备 Exchange 行业从业背景，
+3 、商务岗位招聘经验丰富（非产研和职能岗位）。
+Position 三：Talent Acquisition Associate
+Job Type：Full-Time ，Onsite-Singapore
+Industry:  Web3/Exchange
+PS：
+2/3 年以上 Web3/Exchange 招聘工作经验，
+中英文无障碍沟通，有 admin 经验加分。
+携带简历咨询
+TG：@jtx_2023</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110649"
+                        open
+                      >
+                        <summary class="article-expander__title">银行电子流水打印发邮箱的 zip 解压密码开玩笑吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110649">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>sjbsjb233: 
+银行电子流水打印发邮箱的 zip 解压密码基本都是 6-7 位数字形式的，这加密跟没加密有什么区别？
+今天申签证打了好多家银行的流水，基本都是纯数字加密的压缩包，连微信支付宝的流水都是纯数字的，纯纯多余加密
+（不过银行发件之前是要过人脸验证的，只要不输错邮件地址还算安全，吐槽下邮件附件的 zip 文件加密，感觉纯纯就是做样子😂）</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110648"
+                        open
+                      >
+                        <summary class="article-expander__title">30 岁、写代码好疲惫</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110648">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>finolaire: 
+写了 6 、7 年代码了，每天的工作量安排是合理的，按照每天认真 4-6 小时完成、划水 6+小时完成，但就是感觉好疲惫，不想写代码，回忆一下这感觉大概应该有 3 、4 年了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110647"
+                        open
+                      >
+                        <summary class="article-expander__title">cursor 和 claude 只选一个可以吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110647">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ytl: 
+cursor 最近在淘宝也不好买便宜的了，也便宜嫖了那么久了考虑自己买了，但是偶尔还是想用一个 ai 对话，cursor 中的 sonnet 能在日常当作 ai 对话工具使用吗。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110646"
+                        open
+                      >
+                        <summary class="article-expander__title">netflix 拼车，含节点 30/月</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110646">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>apmfly: 
+由于目前 NF 低价区观看 IP 不一致导致的不稳定封号问题（本人 3 年使用经验，土/尼都用过）
+本人决定新开车含节点（ xray ），这样一车人都在一个 IP 下观看，可以稳定不封，30/月（不限观看 nf 流量）
+翻车按比例赔付，跳车不赔，半年起。
+可走黄鱼，芝麻信用 803
+有兴趣的＋ V18651050660 ，看清楚以上内容再来，不要浪费彼此时间。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110645"
+                        open
+                      >
+                        <summary class="article-expander__title">一个普通人的所有消费电子产品</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110645">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Henri: 看很多人想趁着这批国补的风头推陈出新，但我依旧没有任何升级的欲望，如此这般近十年。
+下面是我现在日常使用的电子产品，而且都是在重度使用，且以下所有产品均为二手，无一首发购入。
+手机：iphone11 （ 128g 主力机）坚果 r1(8+128 备用机 基本吃灰)
+电脑：MacBook air2015 （ 500g ）台式 win （ 5600+2060 ）
+平板：iPad air3(64g)
+掌机：ndsill
 
-尽管这项产品需求相对冷门，但对我启发很大，这个模板应该拿去改改做其他的也不错，希望对大家有用。
-过程非常令人震惊，两个小时基本功能就弄完了，效果比我想象中要好很多。
-欢迎提出你的意见和给我反馈 bug 。</span>
+真就没有一点想换的想法，如果说非要有的话，那就是显卡吧，去年玩黑猴的时候确实明显感觉到 2060 不太行，我显示屏还是 2K38 吋的，画面实在太糊。但 2060 玩市面上绝大部分 3A 都能开 2k 中画质，对我来说太够了，感觉近两年也不太会换。
+iphone11 是 20 年入的女生一手自用，这几年用起来极为舒适，尤其是这块饱受好评的 lcd ，期间电池换过一次以外没有任何问题。总有人说什么 60hz 太辣眼睛，oled 屏幕显示效果更好，a18 有多牛逼…对我来说没有任何吸引点，我一不玩任何手机游戏（除了小丑牌）二也不刷任何短视频和社交媒体，屏幕高刷对我感知约等于零。另外我一大直男，摄像头平时只用来扫码，根本不拍照，所以摄像头的升级更鸡肋，11 会用到打开 app 明显卡顿的那一天我才会换。
+mac 平时只用来敲字和处理工作文件，不需要换。
+ipad 平时只用来看视频和 goodnotes ，不需要换。
+肯定会有人觉得你这就是穷就是屌丝换不起罢了，其实你心里想要更好的。是。但是想归想，换不换是另一码事。而且我 32 单身有房有车无贷款，最起码不能算上穷。
+我只是想传达一个你我皆知的观点：**适合自己的才是最好的。**
+不要被虚伪的消费主义和精英主义牵着走，近年经济下行，长期主义、低欲望主义、极简主义和实用主义等甚嚣尘上，其实在我看来都是“逆消费主义”，都是对曾经“消费主义”的自己一种抵抗和救赎。
+管他什么国家补贴百亿补贴，买之前反复问自己是不是真的需要换/买？买回来后使用的频率如何？吃灰的可能性有多大？但凡你犹豫再三，我的建议都是不要买，不买立省百分百，真钱白银攒在自己手里永远都不是最差选。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110644"
+                        open
+                      >
+                        <summary class="article-expander__title">欧盟的 cookie 弹窗是否有免费或者开源的或简单的 js 办法？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110644">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>CSGO: 前提：本人设计，做了个公司纯静态落地页，是用于欧洲市场，所以需要一个他们要求的欧美 cookie 弹窗，也了解了一点，但对具体规则又不太清楚，比如点了确认后，多久之后又会弹窗之类细节不太清楚。
+所以，是否有开源的流行的欧盟 cookie 弹窗？简单的让其弹窗，确认的话，就会有统计代码等未来其他的 cookie ，如果拒绝，就不进行统计代码。
+以及试用了什么 cookiebot 、cookiehub ，要么有限制要么没效果；找了一圈开源似乎没多少人用。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -221,405 +850,166 @@ GitHub： https://github.com/koala9527/wechat-image-gen
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110588"
+                        data-accordion-key="https://www.v2ex.com/t/1110643"
                         open
                       >
-                        <summary class="article-expander__title">开源一个 Next.js15 应用，现代新野蛮风格的中文名 AI 生成器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110588">
+                        <summary class="article-expander__title">大家的 尿酸 有多高? 临床诊断为高尿酸血症</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110643">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>unique: 
-一个现代的 Web 应用，帮助非中文母语者创建有意义且文化适宜的中文名字，使用 Next.js 构建，采用新野蛮主义设计风格。
-📸 预览
+                              <span>xboxv: 半年前检查 470 临床诊断 泌尿系统疾患
+今天检查  510 临床诊断 高尿酸血症
+正常范围 208-428</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110642"
+                        open
+                      >
+                        <summary class="article-expander__title">大家好，三月底去云南，想咨询一下</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110642">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>cssTheGreatest: 
+大家好，和对象准备三月底去云南，因为都没去过，准备走走几个著名的地方大理丽江洱海，想咨询一下前辈们：
+这个时候的气候如何，适不适合过去
+几个地方该如何串联路线，我们计划 5-6 天休闲游
+有什么需要提前准备的，例如玉龙雪山（但这个时节也推荐上去吗？）的门票好像要预订？
+有什么需要避雷的，例如商业化的古镇我们打算走马观花式地走一下就算了
+饮食方面有什么推荐的吗
+当地交通，目前就确定飞昆明后动车去大理，环洱海的话可能租个小电驴算了，其他交通就靠大车或者大巴，应该很方便？
+其他。。。
+希望去过的、呆过的、当地的朋友们可以指点一下，谢谢啦</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110640"
+                        open
+                      >
+                        <summary class="article-expander__title">加密货币初尝试</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110640">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>yinft: 
+几年前跟风在火币买过狗狗币，没持几天就给卖了，加上手续费亏了几百块。昨天突发奇想（也不是突发奇想，毕竟看了好多个百倍涨幅的故事），在 okx 上简单了解了 meme ，然后随便挑了一个入了一千块钱，这会看了一下，就剩一百多块钱了。总结一下：普通人看看故事就好，还是别轻易尝试了，这一千块就当交学费了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110638"
+                        open
+                      >
+                        <summary class="article-expander__title">Mac 和 Windows 上有监控应用能耗的 API 吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110638">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>19260817: 
+我们有个 Electron 应用，想监控下应用对能耗的影响。搜了一下，没找到有效的监控方法。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110635"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有北京丰台小区的群，孩子想租个房子</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110635">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>sakurawzt: 有没有北京丰台的小区群，拉我一下呗，想租个房子，大概范围是丰台科技园 - 六里桥这个范围，或者是首经贸附近的也可以，一居室，现在住在宋家庄，一个月的租金是在 4650 ，套内面积 52 ，物业取暖全包，看看有没有合适的搬到这边来，最好是能平价移过来。
+万分感谢。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1110634"
+                        open
+                      >
+                        <summary class="article-expander__title">侧边栏标签页扩展 VertiTab 最近更新：标签页聚焦|树状标签页|快照管理|AI 智能分组</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110634">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ymlluo: 
+大家好！距离上一次发帖侧边栏垂直标签页扩展 VertiTab 更新：云同步、树状标签页与自动快照！ 已经 2 个多月了。
+VertiTab 扩展最近做了一些重要更新，分享给大家，希望可以帮助你更高效地浏览和管理标签页。
+1. 标签页聚焦功能
+做这个功能的来源于：
+浏览器 tab 的插件想法 对重命名标题的讨论 。感谢 @archxm @jpyl0423 @cloudzhou
+和 reddit 的 Are there any good extensions for renaming tab titles?.
+因为扩展之前提供了「重命名标签页」的功能，这个属于一个增强型的功能，所以起了一个名字叫“标签页聚焦”。
+之前看到过V 站摸鱼的多吗？我开发了一个插件也许对你有用 帖子时深受启发。 如果你不使用侧边栏，可以使用 @hobbyliu 开发的Title Mirror。 在此感谢 @hobbyliu 。
+功能说明：
+自动提取关键内容：从网页中提取并在标签中显示重要信息，实时更新。
+常见用例：
+项目管理：显示任务状态
+金融：跟踪股市动态
+支持替换标签页标题：支持替换标签页标题，支持部分和正则匹配规则。
+示例场景：
+原标题：&quot;Ticket - T2025XXXX - Actual ticket description&quot; → &quot;Actual ticket description&quot;
+问题：多个工单标签都显示为 &quot;Ticket - T2025...&quot;，导致无法快速识别具体工单内容
+解决：移除固定前缀（&quot;Ticket - &quot;）和工单编号（&quot;T2025XXXX - &quot;），直接显示工单描述
+支持自动规则：新开工单标签时自动优化标题
+演示图片和视频
+点击查看视频演示：视频演示
 
-预览地址: https://namesage.hellokaton.me
-Github 仓库: https://github.com/hellokaton/namesage
-✨ 核心功能
-🤖 人工智能驱动生成：根据个人特点和偏好自动生成中文名字
-🎯 文化内涵解读：提供名字的详细含义和文化背景说明
-🔍 汉字解析：包含每个字的笔画数量及详细解释
-🔉 发音指南：提供拼音支持以确保准确发音
-🔄 多样化建议：生成多个名字选项供选择
-🌍 跨文化适配：根据文化偏好调整名字以适应不同文化背景
-💫 专业审核：确保名字的适宜性和文化适当性
-📖 个人化故事：将个人的故事和意义融入名字建议中
-🛠️ 技术栈
-框架: Next.js 15 (App Router)
-开发语言: TypeScript
-样式:
-Tailwind CSS
-新野蛮主义设计
-UI 组件:
-Shadcn UI
-Radix UI
-图标: Lucide React
-状态管理: React Hooks
-AI 集成: DeepSeek API
-喜欢的朋友可以给个 star 吗☺️</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110587"
-                        open
-                      >
-                        <summary class="article-expander__title">给爸妈买新手机， iPhone 和国产安卓哪个好的呀，有没有研究过的老哥推荐下</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110587">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>liuhao21: 说下需求，爸妈快差不多 60 岁了，视力、听力都有有点点问题，之前偶尔看到一些贴子和视频说苹果系统和 ios 的适老化做的不错，AirPods 也能当助听器用，有点心动。
-价格其实还好，手机+耳机一起 5000 以内一个人都能接受，主要是他们用起来省心。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110586"
-                        open
-                      >
-                        <summary class="article-expander__title">最近好多 GKD 的订阅规则都 停止维护了，什么情况</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110586">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>mocxe2vwww:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110585"
-                        open
-                      >
-                        <summary class="article-expander__title">八小时工作制不包括吃饭时间？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110585">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>yuanyao: 
-周一至周五为工作日，上班时间区间为 10:30 ，下班时间区间为 20:30 （按班次出勤的特殊 岗位除外） ，午餐时间 12:00-13:30 ，晚餐时间 18:00-18:30 ，除 去午餐和晚餐时间，工作时长需满 8 小时；周六周日为休息日。
-第一次见到直接把这个写到考勤制度的公司</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110584"
-                        open
-                      >
-                        <summary class="article-expander__title">HomePod mini 间歇自启动/自重置怎么办</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110584">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Angryraven: 
-1 、出现的问题：
-家里一台 HomePod mini 总是忽然自己开口回答，即便是凌晨安静的时候也时有发生；
-连接 Mac 重置，情况没有改善，甚至会卡在重置的环节反复重启（指示灯在白、红、黄之间反复切换），后来不知道怎么回事自己重置好了；
-然后就进入了重置--自动回答--重置的循环，总之重置解决不了，干脆关闭 Siri 功能；
-再然后就发现会自动播放歌曲，不管白天黑夜，就是会突然播放。昨天下班回家发现已经把我 AM 的播放列表播完了；出问题的是两台中的一台，组成立体声后，自动播放歌曲的问题会出现在立体声组合上
-2 、尝试过的解决方法：
-重置没用之后，就把所有附加功能关了，包括广播、声音识别、自动化、辅助功能，没用；
-怀疑是屏幕灰尘造成触屏误判，把触屏时间拉长到 4 秒，没用；
-在 V 站和 Reddit 都有类似案例，出现的解决方法几乎都试过了，目前最有用的方法是拔掉这一台的电源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110583"
-                        open
-                      >
-                        <summary class="article-expander__title">监控和管理 Proxmox VE 服务器的 Android 应用</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110583">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>fanju745: 
-ProxMonitor
-ProxMonitor 是一个用于监控和管理 Proxmox VE 服务器的 Android 应用。它提供了直观的界面来查看和控制您的虚拟化环境。
-Telegram: https://t.me/ProxMonitor
-github: https://github.com/Fanju6/ProxMonitor/releases/latest
-功能特点
-🖥️ 资源监控
-实时查看节点、虚拟机和存储的状态
-监控 CPU 、内存、网络和磁盘使用情况
-支持图表展示历史数据
-💻 虚拟机管理
-开机/关机操作
-通过 noVNC 访问虚拟机控制台
-查看虚拟机详细信息和性能指标
-📊 存储管理
-查看存储空间使用情况
-监控存储性能
-浏览存储内容
-🔒 安全特性
-支持 HTTPS 连接
-基于 ticket 的身份验证
-安全的凭证存储
-系统要求
-Android 8.0 (API 26) 或更高版本
-Proxmox VE 7.0 或更高版本
-网络连接到 Proxmox VE 服务器
-安装说明
-从 Releases 页面下载最新的 APK
-在 Android 设备上安装 APK
-服务器地址 (例如: https://pve.example.com:8006)
-用户名 (格式: user@pam 或 user@pve)
-密码
-使用说明
-登录
-输入服务器地址、用户名和密码
-点击登录按钮
-登录成功后会自动保存凭证
-资源监控
-主页面显示所有节点、虚拟机和存储的概览
-点击任意资源可查看详细信息
-支持下拉刷新更新数据
-虚拟机管理
-点击虚拟机卡片进入详情页面
-使用顶部工具栏的按钮进行开机/关机操作
-点击控制台图标打开 noVNC 远程访问
-存储管理
-在存储详情页面可查看使用情况
-支持查看存储内容列表
-提供多个时间范围的性能数据图表</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110582"
-                        open
-                      >
-                        <summary class="article-expander__title">高德地图，你们能不能优化一下“下车检测”？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110582">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>nasaboy: 
-应该是从去年年底的几个版本加的新功能，可能是检测你在一个地方停留时间超过多少秒就会显示你已经下车了。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110581"
-                        open
-                      >
-                        <summary class="article-expander__title">贷款比全款还便宜，有懂行的 V 友吗，会不会有坑</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110581">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>phpnb: 
-准备买车， 问了几个销售，贷款能比全款优惠几个 w ，说是银行有返点才会便宜这么多， 没太懂底层逻辑，这合理吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110580"
-                        open
-                      >
-                        <summary class="article-expander__title">不想失去猫猫怎么办？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110580">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>RIckV2: 
-早上查了，猫猫毛过敏引起的哮喘。
-医生建议猫咪送人。目前是可逆的，如果长此以往，哮喘就会变成不可逆。
-还有就是打抗敏针，也不是根治的，一直养猫一直打，一月一次。
-我对猫依赖度还好，主要是我老婆不愿意送人，目前我的想法是：回家尽量距离猫远一点，扫地机器人勤打扫，尽可能戴口罩，不让猫去卧室。
-大家有什么建议吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110579"
-                        open
-                      >
-                        <summary class="article-expander__title">带点主动，去读书吧</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110579">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>LeslieLau: 
-Contents
-为什么我们需要阅读
-主动性阅读
-最后
-很多人说这是一个好的时代（主要是中老年人），因为他们觉得这个时代获取信息相比他们那个年代来说太方便了。我们需要什么信息或资源，只需要打开手机查一下就可以了。特别是现在还有 ai 工具的加持，我们只需要输入一个关键词，就可以得到很多相关的信息。
-但是他们错了，这个时代也是一个很“糟糕”的时代。的确获取信息和知识变得比以往任何时候都更易如反掌，但是你能保证你获取的信息都是高质量的吗？你能保证你获取到的知识都是对你有用，而不是浪费你的时间吗？如果你不能保证，那么这个时代对你来说就是一个“糟糕”的时代。
-原文地址： https://here-leslie-lau.github.io/post/reading/active_reading/</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110576"
-                        open
-                      >
-                        <summary class="article-expander__title">闪电贷额度太低了吧</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110576">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>awolfer: 利率 2.98%，一年先息后本，额度才 5.6w ，已经到账，准备明天提现再存到工行卡，进入股市。有什么需要注意的地方吗？顺便再问下，明年再申请的话，额度会不会提升点？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110575"
-                        open
-                      >
-                        <summary class="article-expander__title">来蹭一下哪吒 2 的热度</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110575">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>YogaHale: 
-先叠 buff ，无意引战，无意批评谁褒奖谁，就是一点感想
-就是从黑神话、哪吒系列已经近些年类似的新古典内容作品看到的创作思路：
-1 、基础人物和情节来自于经久不衰的作品，比如西游、封神等；
-2 、具体世界观、人物设定、情节，要么套用经典情节设定，要么直接借鉴优秀现代 ACG 作品；
-3 、美术设计以考古为主，对经典传世的古建、雕塑、壁画、国画以及各种经典设计等等进行高清扫描和简单精细化再加工；
-这样一个创作流程最突出的就是中国超强的来料加工和工业化生产的能力，规避了原创设计的经济风险和政治风险，同时满足了现在主流意识形态和审美的要求，预计未来还会有大量类似的作品涌现。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110573"
-                        open
-                      >
-                        <summary class="article-expander__title">币安中的几千美金现在怎么换成 RMB 安全?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110573">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>um6uih: RT
-都是我自己充钱进去玩现货挣的
-光听网上说容易冻结账户，一次也没有提现过
-币圈大佬们给支支招现在怎么提现安全点啊
-现在家里需要用钱，因为这再冻卡就完蛋了</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110572"
-                        open
-                      >
-                        <summary class="article-expander__title">给 LM-Studio Server API 做了个代理，增加联网搜索能力</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110572">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>nocmt: 
-效果（图片不够清楚，但功能是实实在在的）：
+2. 自定义树状标签页
+现在，你可以通过自由拖放标签页，轻松构建属于自己的标签树，按组管理标签，提升标签管理效率。
 
-背景：最近在用 Cherry Studio 客户端，但没联网搜索功能，于是用 Cursor 写个脚本支持代理（ AI 生成的也需要自己改改代码和调试），Python 写的，支持本地运行或者 Docker 一键部署。
-目前感觉效果还可以，开源给大家用用，期望多多 Star 。
-联网搜索逻辑：
-Chat 客户端发送内容中携带 #search 、/search 、/ss 或 #ss 强制开启联网搜索，否则由模型自行判断。
-目前支持搜索引擎：
-Google
-SearxNG
-本地模型服务：
-LM Studio
-或者其他兼容 OpenAI API 的服务，就代理了几个 API 。
-开源地址：https://github.com/nocmt/LLMSearchPlus</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110571"
-                        open
-                      >
-                        <summary class="article-expander__title">Docker 是彻底拉不下来镜像了！</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110571">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>jalena: 
-cloudflare 方案也拉不动了！！</span>
+3. 快照管理系统
+快速保存和恢复工作区：新增的快照功能可以快速保存你的工作区，包括标签页的树状结构和分组，随时恢复之前的浏览状态，无论是标签组还是页面内容都能保留。
+
+4. AI 智能分组
+基于标题、URL 和自定义规则的分组：AI 智能分组功能通过网页的标题、URL 以及你自定义的规则对标签进行分组，完全开放灵活，适应不同需求。
+
+5. 最近访问标签
+快速定位最近访问的标签：当你打开大量标签页时，很难快速找到之前访问过的标签。通过“最近访问标签”功能，你可以一键查看并快速定位到最近访问的 5 个标签，节省查找时间。
+
+立即体验
+很高兴能为提升大家的浏览体验出一份力。欢迎在 Chrome 应用商店 下载 VertiTab ，体验这些新功能。如果你觉得好用，也欢迎分享给身边的朋友。
+感谢社区小伙伴们一直以来的支持和建议，正是你们的反馈让 VertiTab 变得更好！
+感谢 @hallomou  开发的 弄一个兑换码分享网站，欢迎大家使用
+提供 50 个 免费 1 个月的兑换码，获取兑换码需要在本帖子回复，然后进入网站输入自己的 id 即可。
+兑换码为一个月免费使用，如果觉得好用的话，可以考虑订阅支持哦！
+兑换码获取地址： https://redeem.ym.si/SJRBAE
+兑换状态：
+高级版兑换地址</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
@@ -631,14 +1021,15 @@ cloudflare 方案也拉不动了！！</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110569"
+                        data-accordion-key="https://www.v2ex.com/t/1110633"
                         open
                       >
-                        <summary class="article-expander__title">程序员请重视 deepseek 这波机会，年后大大小小公司都有相关需求</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110569">
+                        <summary class="article-expander__title">airpods pro3 预计有什么升级，有必要现在买 pro2 吗</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110633">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>www12222:</span>
+                              <span>Jinnmki: 
+pro1 代用了好几年有电流杂音了，要再等等年底 pro3 代吗，3 代预计有什么升级，如果主要是助听器，降噪音质没变化的话是不是可以入手 2 代</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -650,55 +1041,16 @@ cloudflare 方案也拉不动了！！</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110568"
+                        data-accordion-key="https://www.v2ex.com/t/1110632"
                         open
                       >
-                        <summary class="article-expander__title">开源基于 selenium 的小红书 Agent 浏览帖子点赞收藏评论</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110568">
+                        <summary class="article-expander__title">小白求教，银行数据安全岗位是做什么的？如何上手？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110632">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>abigeater: 
-想法
-过年看着 Deepseek 的思考那么火爆下一直想让 AI 帮我养成小红书号，说干就干，只要能满足自动看贴，分析内容以及点赞收藏评论就好了。但是开年的时候 Deepseek 就被访问爆了，所以用的是 GoogleGemini 调试的，另一方面也是看 Gemini 在接口文档上支持传图片识别
-第一天便开始编写，忘记写反识别的下就可以测试，结果不到十次就被检测到异常封了一天，但把反识别+延迟操作加上去后疯狂的调试就正常多了，所以用的时候避免使用常用号（虽然我测试是用常用号）
-代码内有很多 time.sleep()都是为了延迟操作避免被识别机器人。
-昨天晚上测试跑着挺好的也算是让 GeminI 充实了我的收藏夹了😊
-仓库地址： https://github.com/kvnZero/xhs-agent
-说明
-基于 selenium + openai 的小红书自动化网页操作，访问探索频道帖子进行 AI 代理操作，仅作学习用途，请勿用于商业用途，任何商业化行为以仓库作者无关。
-基本功能
-缓存账户登录
-访问探索频道指定板块、搜索页面浏览
-浏览帖子
-获取小红书封面，下载并重置大小
-点赞
-收藏
-评论
-AI 功能
-可接入 Google Gemini ，DeepSeek ，OpenAI 等 AI 模型进行操作处理，传递帖子的首图，标题内容，帖子数据，由 AI 参考而决定是否点赞，收藏，评论以及评论内容。请在 ai.py 中配置提示词。
-注意事项
-请勿用于商业用途，任何商业化行为与仓库作者无关
-请勿用于违法用途，包括但不限于违法内容，违法操作等
-请勿使用自己常用账户操作，脚本虽做了反检测，但仍存在被封号风险，作者不承担任何责任</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110566"
-                        open
-                      >
-                        <summary class="article-expander__title">请问有什么地方可以从零开始学英语？视频或者文档都行</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110566">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>tomiaa: 视频和文档之类的都可以</span>
+                              <span>liuliren: 岗位要求：
+根据监管的要求，负责数据安全制度的制定，分级分类的制定，对应的培训、评估、审查，项目和其他日常工作。
+非开发岗位，感觉有点抽象，不知道具体需要做什么。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -710,308 +1062,18 @@ AI 功能
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110565"
+                        data-accordion-key="https://www.v2ex.com/t/1110631"
                         open
                       >
-                        <summary class="article-expander__title">[避坑帖] 分享日常踩坑</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110565">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>yurong3333333333: 
-1 、中兴 F50 的物联卡，流量虚标严重。
-花 89 元购买的 1500g 流量，实测用了 500g 就无法使用，联系客服还截图用了 1500g 。
-即使你追加差评，商家也可以重新上架新的商品来避免差评影响。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110564"
-                        open
-                      >
-                        <summary class="article-expander__title">想配防蓝光的平光眼镜, 求推荐</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110564">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Jove7: 左眼 1.2, 右眼 1.0 到 1.2 之间.
-因为是一个后端开发 天天看屏幕超过 8 小时, 现在发现眼睛容易疲劳, 所以想配一个防蓝光眼镜缓解一下.
-就是想问一下有没有必要配一个蔡司智锐的 1.5 的防蓝光镜片. 
-顺便想问问, 了解到蔡司有一种缓解疲劳的镜片. 就是镜片的下半部分会有一定的度数, 我手机用的也比较多, 有必要用这种镜片吗.
-求懂得老哥支支招</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110562"
-                        open
-                      >
-                        <summary class="article-expander__title">京东前端招聘啦，联系邮箱 base64: emhhbmdzaXl1YW4zMkBqZC5jb20&#x3D;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110562">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>917405917: 岗位职责：
-1 、负责京东物流供应链业务 Web 前端系统设计及开发
-2 、负责前端系统架构设计工作
-3 、按照项目计划，按时提交高质量代码，完成开发任务
-4 、规范文档的编写、维护，以及其他与项目相关工作
-5 、按时按需完成前端系统的维护及更新
-岗位要求：
-1.熟练掌握 HTML 、CSS3 、DOM 、ES6 、JavaScript 等规范和技术，熟悉常见跨域、跨浏览器问题，了解必要的计算机网络协议；
-2.熟练掌握前端工程化工具的使用并对其原理有深刻的理解，不限于 Gulp 、Webpack 、Rollup ；
-3.熟练掌握 MVX(React/Vue/Angular)框架，理解内部设计原理，有良好的 WEB 前端优化经验；
-4.学习能力强，有较强的问题分析、处理能力，以及高度的抽象设计能力，能独立分析和解决问题；
-5.具有良好的表达和沟通能力，以及团队合作精神，有较强的承受压力的能力,责任心强。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110561"
-                        open
-                      >
-                        <summary class="article-expander__title">有支持管理朋友圈的开源微信机器人产品介绍吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110561">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>8686:</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110560"
-                        open
-                      >
-                        <summary class="article-expander__title">迷茫的人生</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110560">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>soTired: 本人 96 年 学历普通本科
-目前在长沙 税后 20W+ 的水平 程序员
-感觉现在生活温水煮青蛙，在公司几年用的都是 CRUD 感觉没什么长进，很焦虑 35 危机
-因为长期程序员 缺少社会经验和阅历 与人打交道水平也一般
-以后被裁了都不知道还能干嘛 难道真的要 铁人三项 吗 很焦虑内耗
-迷茫的人生啊～～～</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110559"
-                        open
-                      >
-                        <summary class="article-expander__title">一个网卡为啥有两个 IPv4 地址?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110559">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>kokerkov: https://imgur.com/a/HSdkowr
-如图
-显然是网络故障。这个 192.168.1.110 是我手动指定的 IP 地址，但是他又会去自动获取一个错误的 IP 地址 169.254.x.x ，然后导致上不了网络。必须重新手动指定另一个 IP 地址，才能上网，不胜其烦。
-ARP 病毒导致的网络错误？怎么解决？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110558"
-                        open
-                      >
-                        <summary class="article-expander__title">gv 如果被封，那充到里面的钱会退回吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110558">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MEIerer: 
-自上次接不到消息，已经过了快半年了，现在已经开始发邮箱提示我一个月内就删号了，奈何还是登不上去，申诉也没用，只想看能不能把里面的钱提回来，虽然没多少</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110557"
-                        open
-                      >
-                        <summary class="article-expander__title">Cursor 使用 Azure 插件好像没有办法直接登录到账户查看可以用的资源</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110557">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>bocchiair: 
-如图：
-在 vscode 上面就可以直接登录，并且看到资源，这是什么原因啊？有朋友知道吗</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110556"
-                        open
-                      >
-                        <summary class="article-expander__title">AI 大模型接入微信群聊会被封吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110556">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>whythings: 
-微信群聊人数大概在 20 ～ 30 人，
-接入的目的是在微信群中解答一些客户问题
-请问会被封微信号或者微信群吗？
-（微信号被封不太怕，主要是群不要被封，要不客户在里边很尴尬了就）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110554"
-                        open
-                      >
-                        <summary class="article-expander__title">有没有可以看到最近 3 年甚至更久的黄金金价的 APP 或者网站？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110554">
+                        <summary class="article-expander__title">有没有可以查看 iOS 系统版本的详细信息的软件或者网站？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110631">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>NianBroken: 
-常规的 APP 和网站都是只能看到实时金价或者最近一年的金价，但是我想查看最近 3 年甚至更久的金价。
-想知道有这样的 APP 或者网站吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110553"
-                        open
-                      >
-                        <summary class="article-expander__title">为什么黄金会一直涨啊</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110553">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>skytenlc: 我原本以为川普上台之后，局势会稳，没想到关税大棒这么厉害。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110552"
-                        open
-                      >
-                        <summary class="article-expander__title">想买新手机现在是好时机吗？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110552">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>SoulFlame: 两个时间点：现在买，或者下个月中买。
-备选名单：苹果 16 、荣耀、vivo 旗舰机。
-下个月中还有望降价吗？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1110551"
-                        open
-                      >
-                        <summary class="article-expander__title">[招聘] 杭州滨江-Golang2 枚-15~25k</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1110551">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>CuChulainn: 
-工作地点： 杭州市滨江区聚才路地铁口附近
-岗位职责：
-参与公司核心后端系统的功能开发与架构设计，推动产品工程化进度；
-进行 Code Review ，确保高质量的代码输出，快速响应并解决线上 bug 和客户现场问题；
-研究前沿技术，评估新技术的应用价值，持续提升系统性能；
-编写相关技术文档，参与方案设计及模块划分，促进团队知识共享。
-岗位要求：
-统招本科及以上学历，计算机相关专业，拥有 3 年以上 Go 语言开发经验；
-熟悉 MySQL 、Oracle 、Redis 等数据库的相关知识；
-扎实的计算机基础知识，包括但不限于数据结构、算法、操作系统、网络原理等；
-具备出色的沟通能力、团队协作精神，能够高效解决问题和快速学习新技能。
-加分项：
-熟悉容器化技术（如 Docker 、Kubernetes ），并有实际项目经验者优先考虑；
-拥有数据库监控或优化经验者更佳。
-[超有吸引力的福利待遇等你来体验！] 
-常规的福利，我们都有！
-年终奖、五险一金、双休、带薪假、每年体检、年度旅游、节日福利、生日福利、晋升机会、导师带教、股权激励、团队聚餐、年会活动、技能培训、扁平管理
-不一般的福利，我们也有！
-准时下班是常态，偶尔工作日加班也有调休，还有加班餐！香不香！
-入职后，就有导师一对一的带教。
-免费零食随便吃！种类多、品质优！
-有假不敢请？怕影响绩效？在云趣，你的假期你做主！
-头痛脑热不慌，带薪病假安排！不需要三甲医院证明！主打一个信任！
-每年都换更大的办公室，致力于提供更舒适的工作环境！
-还有年轻的团队，工作氛围轻松愉快！
-如果您符合以上条件，欢迎投递简历至 hr@yunqutech.com 。期待与您一起共事！
-[公司介绍]
-浙江云趣网络科技有限公司（简称：云趣科技）是一家专业的数据库综合服务提供商。云趣团队通过在数据库、云计算等领域多年的积累，自主研发数据库安全管控、智能运维、SQL 代码审核等多款企业级产品，同时提供国产化数据库咨询、设计、实施、运维管理等一站式专业服务。
-我们希望通过“构筑数据安全，创造数据价值”的理念，并以“产品+服务”的模式帮助企业在迈向多云战略和数字化改革的过程中，持续提升数据库系统的安全合规水平和运行效率，释放数据驱动时代的想象力。</span>
+例如可以查看 iOS 系统的所有历史版本（内测版、公测版、正式版）的发布日期和更新日志以及其他完整的详细信息。
+并且可以查看各个版本的安装包大小。
+并且可以订阅更新通知，例如正式版发布更新时可以给我发通知。
+想知道有这样的 APP 或网站吗？</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -2480,8 +2542,8 @@ https://apps.apple.com/us/app/top-calendar/id1544980542?mt&#x3D;12
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13258481380">
-        <time id="build-timestamp" datetime="2025-02-11T08:14:38.423Z">2025-02-11T08:14:38.423Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13259412027">
+        <time id="build-timestamp" datetime="2025-02-11T09:11:53.172Z">2025-02-11T09:11:53.172Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
