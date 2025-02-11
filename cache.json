@@ -201,6 +201,43 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,7 +335,7 @@
           "description": "CKAJ555: \n我 4090 现在  要不要换 5090  不知道性能差多少",
           "link": "https://www.v2ex.com/t/1110519",
           "publishedOn": "2025-02-11T01:41:50.000Z",
-          "wordCount": 410,
+          "wordCount": 507,
           "title": "兄弟们 显卡要不要换啊 5090",
           "imageUrl": null
         },
@@ -308,7 +345,7 @@
           "description": "libasten: 最近看到这样一个程序员对国内各种智能驾驶的评价，感觉有点意思的。\n他说，很多人“胆子大”完全信任智驾系统，是他们不了解国内后台实现智驾的代码水平，很多都是用一些开源的方案修修补补，也就是业内人才知道“屎山”。\n反正他是不敢。\n我想问，有汽车行业的程序员朋友吗？你们是不是对代码执行结果的安全比普通软件公司高一些？",
           "link": "https://www.v2ex.com/t/1110518",
           "publishedOn": "2025-02-11T01:41:28.000Z",
-          "wordCount": 516,
+          "wordCount": 879,
           "title": "写代码的你都知道同行水平吧？敢把自己乘坐的车子交给代码控制？",
           "imageUrl": null
         },
@@ -318,7 +355,7 @@
           "description": "0xCAFEF00D: 分享一个逛着发现的挺好用的 singbox ui ，UI 是网页端，界面挺好用的，也可以随时关掉\nhttps://github.com/UIforFreedom/UIF",
           "link": "https://www.v2ex.com/t/1110517",
           "publishedOn": "2025-02-11T01:38:51.000Z",
-          "wordCount": 339,
+          "wordCount": 356,
           "title": "分享一个 singbox ui",
           "imageUrl": null
         },
@@ -328,7 +365,7 @@
           "description": "NothingExist: \n过去这一年用了很多 AI 工具，用的最多的是 ChatGPT ，Kimi.ai, Claude, Gemini,最终感觉最好用的 Google AI Studio 的 Gemini 2.0 Flash Thinking.\n想听听大家的看法。",
           "link": "https://www.v2ex.com/t/1110516",
           "publishedOn": "2025-02-11T01:36:08.000Z",
-          "wordCount": 460,
+          "wordCount": 536,
           "title": "个人年度体验最佳 AI： Gemini 2.0 Flash Thinking",
           "imageUrl": null
         },
@@ -338,7 +375,7 @@
           "description": "wniming: \n2 月 5 号在英国亚马逊的 Lenovo Store 下单了一个平板电脑，下单后信用卡只有一个预授权的扣款，订单状态一直是“Order received”，也没有预估送达时间，感觉不太正常，下单的是这个商品：\nhttps://www.amazon.co.uk/dp/B0DJQY6WM1\n如果我把地址改成英国的一个地址，比如 SW1W 0NY ，这个地址预估隔天就能送达，代表并不是商品无货，所以就不清楚为啥商家会不发货了。\n另外发现如果是 SW1W 0NY 这个地址的话商品价格会从 249 英镑上升到 299 英镑，不太理解这是什么操作，我又试了美国和加拿大的地址，价格都和国内的地址一样是 249 英镑，不过美国和加拿大的地址是可以看到预估的送达时间的。",
           "link": "https://www.v2ex.com/t/1110515",
           "publishedOn": "2025-02-11T01:35:48.000Z",
-          "wordCount": 406,
+          "wordCount": 480,
           "title": "在英国亚马逊海淘下单后卖家一直不发货，有 v 友遇到过一样的问题吗？",
           "imageUrl": null
         },
@@ -348,7 +385,7 @@
           "description": "smdbh: \n现在是用 vscode, copilot 是好用,但有次数限制.换了 continue + 第三方 key. 但不知道 model 需要满足啥条件才能用. 现在比较好用的是啥模型? 谢谢",
           "link": "https://www.v2ex.com/t/1110513",
           "publishedOn": "2025-02-11T01:32:34.000Z",
-          "wordCount": 393,
+          "wordCount": 414,
           "title": "想问下,代码智能补全是用什么类型模型",
           "imageUrl": null
         },
@@ -358,7 +395,7 @@
           "description": "jdjingdian: \n最近发现广东又有空调国补了，房间里的空调之前用着漏水，想换一个，但是对于流程不太熟悉\n旧的空调，是需要自己找人拆吗？还是当天来安装的师傅一起拆掉的？拆机器要额外付费吗？\n如果用京东的以旧换新方式，说是可以免费拆，但是有看到说这个东西是京东外包出去的，最后可能还是有坑，不知道有没有大佬有经验，推荐一下，到底是自己找人拆，还是用京东的以旧换新免费拆？会有隐藏收费吗",
           "link": "https://www.v2ex.com/t/1110512",
           "publishedOn": "2025-02-11T01:30:47.000Z",
-          "wordCount": 369,
+          "wordCount": 387,
           "title": "请教关于国补买空调",
           "imageUrl": null
         },
@@ -368,7 +405,7 @@
           "description": "marktask: \n迫于拍照需求，想换一个手机，目前用的是 20 年咸鱼买的红米 K30Pro 变焦版，已经用了 4 年多了，得益于红米 K30 pro 变焦版感人的出片效果，计划今年想换一个预算 2000 以内的二手手机，具体要求是长焦、人像、景物效果好，游戏没什么需求。\n目前看了下，暂时候选的有荣耀 100 、vivo S20 、oppo reno12 ，不知道大家有没有更好的推荐",
           "link": "https://www.v2ex.com/t/1110510",
           "publishedOn": "2025-02-11T01:28:28.000Z",
-          "wordCount": 402,
+          "wordCount": 458,
           "title": "求推荐一个拍照好的二手手机",
           "imageUrl": null
         },
@@ -378,7 +415,7 @@
           "description": "qtoq126: 通过 xcode 的 File -> Add Package Dependencies\n接着在右上角贴上 github 的地址，比如猫神的这个： https://github.com/onevcat/Kingfisher.git\n然后一直转菊花，要转很久，最后显示 Found 0 results\n这是什么原因？\n还有个就是，为什么我 remove 了包依赖，但是在左侧目录树上的最下方，还是会出现一些包依赖，根本删不干净\nxcode 是 16.2 ，系统是 Sequoia15.3\n我记得之前添加都是很顺利的，而且导入地址后，包很快就会出现，不知道为什么现在这么慢，而且加载不出包导致我无法进行后续的开发了",
           "link": "https://www.v2ex.com/t/1110509",
           "publishedOn": "2025-02-11T01:23:16.000Z",
-          "wordCount": 525,
+          "wordCount": 599,
           "title": "为什么通过 xcode 的 SPM 加载不出 github 上的库？",
           "imageUrl": null
         },
@@ -388,7 +425,7 @@
           "description": "otakustay: \n之前我有评过一次 SU7，回复里还有不少的讨论。当时我有说，SU7 我非常非常的喜欢，但买是不会买的，原因就在于 1 月底我终于买下了我真正心仪的梦中情车。\n \n从车落地到现在，大致 3 星期的时间，开了上下班的通勤，开了上海到宁波的高速来回，有过高速没车踩油门卡限速的，也有进了景区 500 米堵了半小时的，算是很多情况体验了一把，总结一些完全主观的感受\n我选的是 S+，加了轮毂外型、高级音响、流媒体后视镜\n这车也非常符合我对一辆好车的认知，它细节的问题我可以洋洋洒洒写出来这么长一个帖子，但是油门踩下去的痛快，弯心加速的舒爽，这是不可言喻的，只属于喜欢驾驶的人的灵魂美\n外观内饰\n帅，好看。买车不买好看的等于浪费钱！\n内饰非常的吉利，吉利的车什么外形不好说，但内饰基本都是在线的。小条的“仪表盘”，干净的结构和线条，坐在里面也算一种享受\n空调控制、开锁车门是实体按钮，很好，非常好！\n方向盘可伸出的距离有点短，我的腿稍微有点长，要是脚放舒服了，手拿方向盘就基本伸直了，打方向不是很方便。\n右脚有时候抖一抖，会撞到中控屏的左下角。而且撞的位置那是相当的棒，好像正好是一个麻筋，这要是撞重一点直接右腿失能可以撞车了。\n方向盘的材质在手出汗后有点滑，但如果选 Alcantara 的话，手汗把毛给粘住了也挺难受的……\n手机无线充电的那个位置，做的太平了。也就是说，我油门踩得厉害点，手机是会飞出来的。作为一款性能车，这个设计确实不应该\n开窗的 4 个按钮在非常前面的位置（大致比方向盘还要前面很多），结果就是我手也够长了，但身体不往前倾根本够不到。你说用语音吧也行，但就是别扭\n换档的按钮有点蛋疼，它是在水杯架边上一个竖着的拨杆，但这个东西长得有点高。它最后的结果就是，右手放平在扶手位置上，会被这玩意搁着……但你又不像宝马大鸡腿可以撸一撸，就这么戳着我的手一点好处也没有\n还…",
           "link": "https://www.v2ex.com/t/1110508",
           "publishedOn": "2025-02-11T01:18:56.000Z",
-          "wordCount": 573,
+          "wordCount": 646,
           "title": "来瞎评一下 Eletre 这车",
           "imageUrl": null
         },
@@ -398,7 +435,7 @@
           "description": "winglight2016: \n半年前发过一个帖子《也许美股更适合 A 股的老韭菜》： https://www.v2ex.com/t/1063790#reply11\n那时候我觉得美股科技类的 M7 波动够大，趋势稳定，适合 day trading ，虽然这半年多的确赚到钱了，但是感觉风险也很大。\n上周开始，我参加了 TV 组织的 Leap 比赛，因为只能交易期货，最终选择了 NQ1 ，我比较熟悉的板块，在 TV 提供的模拟账号里交易了几次之后，我发现 NQ 太适合有一定经验的 day trading 交易者，杠杆高，利润高，风险小。\n我昨天开始实盘，投入了 17k USD ，昨天的收益是 1k ，远远好过股票交易。关键是，盘前盘后波动小，只要有股票的 scalp 经验，很容易在 NQ 上获得利润。我每次交易的利润在一两百刀，仅有的一次亏损 145 刀，都在可控范围内。偶尔一次获得了 400 多刀的利润。\n对于有经验的交易者，美股股票远远不如 NQ 这类期权，因为交易方式几乎完全一样，开盘时间更长，符合东 8 区的日间范围，还能加 20 倍杠杆。资金少可以交易 MNQ ，资金达到 10 万以上可以交易 NQ 。\n期权我不太懂，不好评价，据说风险更高，要冒着归零的风险。",
           "link": "https://www.v2ex.com/t/1110507",
           "publishedOn": "2025-02-11T01:17:31.000Z",
-          "wordCount": 390,
+          "wordCount": 392,
           "title": "去年 7 月我开始炒美股，最近发现更适合的交易对象： NQ1",
           "imageUrl": null
         },
@@ -408,7 +445,7 @@
           "description": "chunqicoder: \n现在是骑的复古 大脚攀爬者 22 款 骑着倒是没啥问题但是很不方便，没法装箱子（太丑）想换 adv ，装个后尾箱放个头盔也好啊\n现在这个车连车带改装花了快 2w ，但是现在卖挂了几天出的最多的就是 8.8k ，感觉太亏了\n我想换的新车是 春风的 450mt 或者 700mt 当然 450mt 肯定是等几个月以后的 25 款了\n大家帮忙选一下\n8.8k 卖掉现在的买新的\n保留现在的不买新的\n保留现在的直接买新的\n如果买新车 450mt 和 700mt 选哪个？\n下图\n1.自己目前的\n\n2.春风 450mt\n\n3.春风 700mt",
           "link": "https://www.v2ex.com/t/1110505",
           "publishedOn": "2025-02-11T01:13:21.000Z",
-          "wordCount": 572,
+          "wordCount": 707,
           "title": "骑摩托的大佬帮忙给个建议,是留着现在骑的车还是换新的",
           "imageUrl": null
         },
@@ -418,7 +455,7 @@
           "description": "villivateur: \n我有多个服务器需要监控，主要就是实时监控 CPU 、内存、硬盘读写、网络速率等基础的信息。我希望的效果是打开一个页面（或者 APP ）后，能同时看到多个服务器的上述信息，每一秒左右更新一次。\n我尝试过 zabbix ，过重，页面丑陋，而且没法实时跳动信息。\n也尝试过 netdata ，页面很好看，但也很重，需要消耗好几个 G 的内存。",
           "link": "https://www.v2ex.com/t/1110504",
           "publishedOn": "2025-02-11T01:10:01.000Z",
-          "wordCount": 474,
+          "wordCount": 503,
           "title": "有没有轻量级的多服务器监控工具？",
           "imageUrl": null
         },
@@ -428,7 +465,7 @@
           "description": "jimmy7336: \n怎么说",
           "link": "https://www.v2ex.com/t/1110503",
           "publishedOn": "2025-02-11T01:09:41.000Z",
-          "wordCount": 499,
+          "wordCount": 680,
           "title": "比亚迪车主在吗？",
           "imageUrl": null
         },
@@ -438,7 +475,7 @@
           "description": "Tiande: 坑点：\n1. 朋友用移动漫游，网络很垃圾，甚至夜里的时候会无信号，同时依然有要开 VPN 。好在移动有个无优行 app 可以代收短信，有需要可以提前注册好。\n我用的 clubsim esim ，买好流量入港直接用，无需 VPN ，一天随便用也就用了不到 3G 。\n2. 买水被小贩多扫 2 块，回头要回来了，买东西注意对一下账单。\n3. 如果你的名字是两字常见的那种，线上注册可能失败率会比较高。\n准备材料：\n0. 人在香港\n1. 身份证\n2. 港澳通行证\n3. 入港后，等移民局小程序出入境证明\n4. 大陆银行卡，众安验证要用到（我建行不行，招行可以）\n5. 小红书、油管。能覆盖 100%的各种问题。\n港行券商: \n（有填邀请码的可以自己搜个用，好像都没啥羊毛了，有比没有强）\n1. 中银香港，线上。\n没难度。\n2. 汇丰香港，线上。\n必须是当天的入境证明，朋友拖延，24 点一过就失效！\n红米手机定位出错，须用 iphone 注册，成功后可以安卓正常登陆使用，设置流动保安编码等（就是把 app 自带的动态密码绑定在手机）。\n第二天 6 点不到就收到了 say hello 邮件。\n3. 中信银行国际，线上。\n没难度，但好像是这家还是哪家，要用数据流量，不能开 WiFi 。\n4. 汇立 welab ，线上。\n没难度。\n5. 众安 za ，线上。\n没难度。要验证大陆银行卡。\n6. 天星银行，线上。\n没难度。\n7. 富融 Fusion ，线上。\n没难度。\n8. 蚂蚁银行，线上。\napp 打不开，直接卸载。但可以在 alipayhk 里直接注册，没难度。\n9. IGM ，内地线上注册，预约到港激活。\n经理介绍产品很详细，聊了个把小时。\n10. FSMOne ，内地线上注册，预约到港激活。\n和 IGM 是同一家的，办公司就在同一层门对门，没有专门的经理，签个字就结束了。\n注意：其他一些券商好像是有开户奖励的，开之前小红书油管搜搜哪些羊毛，有些人会借帮助之名薅邀请你的奖励。\n其他：\n1. wise 、bybit card 、Google Pay 在这边体验都很好。\n2. 地铁不用安检直接进，有点不习惯，感觉太不安全（狗头\n3. 现金准备基础 1000 （旅店押金、应急），外加每天 500 感觉就够够的。即使不够，有很多银联 ATM 都能取现（可能收手续费）。",
           "link": "https://www.v2ex.com/t/1110502",
           "publishedOn": "2025-02-11T01:05:44.000Z",
-          "wordCount": 455,
+          "wordCount": 501,
           "title": "一天内开 10 家港行券商",
           "imageUrl": null
         },
@@ -448,7 +485,7 @@
           "description": "xscanqianmeng666:  [闲鱼]  https://m.tb.cn/h.TpIHdsp?tk=budte68rqc6 CZ193 「快来捡漏 [自用的 AirPodspro2 二代 C 口蓝牙耳机] 」\n点击链接直接打开\n\n问他他说保正品，可以检测，可以走验货宝。查了他发的序列号官网也能查看。\n华强北现在这么牛了？",
           "link": "https://www.v2ex.com/t/1110501",
           "publishedOn": "2025-02-11T01:03:10.000Z",
-          "wordCount": 439,
+          "wordCount": 494,
           "title": "闲鱼上看到的 AirPodspro2 耳机 230 这是真的吗",
           "imageUrl": null
         },
@@ -458,7 +495,7 @@
           "description": "jasonjun: \n听了昨天 V 友的推荐开了户准备小玩下，看是否能转移注意力缓解情绪...",
           "link": "https://www.v2ex.com/t/1110500",
           "publishedOn": "2025-02-11T01:02:35.000Z",
-          "wordCount": 546,
+          "wordCount": 703,
           "title": "炒股有什么需要注意的",
           "imageUrl": null
         },
@@ -468,7 +505,7 @@
           "description": "aolifu:",
           "link": "https://www.v2ex.com/t/1110499",
           "publishedOn": "2025-02-11T01:02:03.000Z",
-          "wordCount": 423,
+          "wordCount": 462,
           "title": "纯小白问一下，未来会不会有汽车共享充电宝？",
           "imageUrl": null
         },
@@ -478,7 +515,7 @@
           "description": "thiiadoewjwe:",
           "link": "https://www.v2ex.com/t/1110498",
           "publishedOn": "2025-02-11T01:01:43.000Z",
-          "wordCount": 758,
+          "wordCount": 1298,
           "title": "比亚迪杀疯了，昨晚发布会 10 万以下的车也有智驾， v 友们觉得未来比亚迪发展或者股价会怎么样",
           "imageUrl": null
         },
@@ -488,7 +525,7 @@
           "description": "R00tC: \n目前手上 iPhone 12 很卡，想换。听说 SE4 马上要出了。",
           "link": "https://www.v2ex.com/t/1110496",
           "publishedOn": "2025-02-11T00:56:56.000Z",
-          "wordCount": 588,
+          "wordCount": 726,
           "title": "iPhone SE4 和 iPhone 16 标准版，哪个性价比更高",
           "imageUrl": null
         },
@@ -498,7 +535,7 @@
           "description": "jzphx: \n不好意思，有一点点标题党，最近在帮我爹看车，由于老爹原先开的是 2011 的 POLO ，换车还是想看大众的 SUV ，他自己看上了一汽大众的探歌，但是这个车马上要换代了，我就张罗看了上汽大众途观 L ，内饰外观真的老气，和 POLO 比没有质的飞跃。\n同级别我还选了领克 08 、比亚迪宋 L-dmi 和唐。比亚迪内饰比较中庸，没有好看的感觉，暂时还没去试驾。试驾了领克 08 被惊艳到了，主要还是设计方面，底盘质感我觉🉐过得去。\n当然以上是我自己的试驾体验，具体还是想带他试驾个 4 到 5 辆，考虑插混、油车，不考虑纯电增程，看看大佬们有没有啥建议，或者吐槽。\n车型\n类型\n销量\n价格\n备注\n\n\n\n\n途观 L 330TSI\n油车\n26663\n17.99\n18.8 落地\n\n\n领克 08 E-MP\n插混\n5693\n17.58\n16.5 落地\n\n\n奥迪 Q3\n油车\n3225\n17.98\n25 年换代\n\n\n唐新能源\n插混\n15942\n17.98\n\n\n\n宋 l dmi\n插混\n\n13.68",
           "link": "https://www.v2ex.com/t/1110494",
           "publishedOn": "2025-02-11T00:53:03.000Z",
-          "wordCount": 981,
+          "wordCount": 1282,
           "title": "60 岁，人生第二辆车选车建议",
           "imageUrl": null
         },
@@ -508,7 +545,7 @@
           "description": "kaizceo8: \n我姥爷今年 84 岁，最近身体一直不太舒服，食欲也很差。去医院检查后，医生看了片子说是肺癌晚期。治疗方案上，医生建议做穿刺来确认癌症类型，然而家人们担心穿刺手术有一定的风险，怕做完后老人身体会变得更虚弱，所以倾向于选择保守治疗。\n但医生明确表示，如果不做穿刺，无法确认癌症类型，很多药物就无法使用，无法给出具体的治疗方案。这让我们陷入了两难，不知道是否该让老人承受穿刺的风险，还是选择保守治疗。我们真的不希望姥爷再受罪，但又不希望错过可能有效的治疗机会。\n请问大家有没有类似经验，或者有什么建议能帮助我们做出更合适的决策？",
           "link": "https://www.v2ex.com/t/1110493",
           "publishedOn": "2025-02-11T00:52:22.000Z",
-          "wordCount": 909,
+          "wordCount": 1275,
           "title": "84 岁姥爷肺癌晚期，是否需要做穿刺确认类型？",
           "imageUrl": null
         },
@@ -518,7 +555,7 @@
           "description": "littlemis: \n想要用来学习 AI 避免被时代洪流淘汰\n用于图形训练文字转图片、像是 Adobe PS 能画一圈自动修改图片功能\n请问已收海鲜垃圾建议什么组合",
           "link": "https://www.v2ex.com/t/1110492",
           "publishedOn": "2025-02-11T00:45:07.000Z",
-          "wordCount": 432,
+          "wordCount": 450,
           "title": "AI 服务器或桌机，请问 5000 预算有机会吗?",
           "imageUrl": null
         },
@@ -528,7 +565,7 @@
           "description": "HOMO114514: \n目前已经观察到了至少 2 家厂商，曾经在自己的发布会高调宣布自己将转型 AI/未来全面投入 AI ，并在 2024 年一整年的成果大多数都是：\n将 OCR+图文搜索集成并改名叫 AI 识图\n集成 whisper 量化模型并震撼上线 AI 字幕\n将内核的某种线程调度算法起名为“某 AI 调度引擎”\n这种相互之间没有任何生态和产品之间关联性，甚至连入口都要藏 3 级目录的 KPI 功能点，作用主要是填充“开发者大会”上 ppt 的仿 Apple 风格的格子。\n这些厂商在 deepseek 爆火之后，无一不是高速地选择接入了 deepseek-R1 ，并且大肆宣传我们的语音助手接入了满血 R1 ，太智能了，快来用吧\n这个时候大多数客户已经忘记数个月之前所谓的产品经理站在舞台上高喊全自研 AI 的决定——\n我的意思是，在手机行业的饱和淘汰期，有些厂商的宣传行为具有很明显的提振投资者估值、挽回消费者信心的意图，在这个意图导向下做的产出全都是亏本行为，需要做好干一票就跑到心理预期。一旦有低成本替代，他们一定会毫不犹豫地转舵，LLM 不是经营出现风险的企业玩得起自研的\n不是手机，但相应的另外一个例子是绿联 NAS 。他们现在甚至在公众号上教用户在一台跑 image classification 会过热自动重启的 Intel 8505 机器上本地部署 1.5b 的 R1-Qwen 蒸馏模型。整个产品线上没有真正洞悉技术应用的 PM ，只剩营销口一群将死之人想尽办法蹭热度的垂死挣扎。另外，不说已经被放弃的 ugos ，ugos pro 的更新也几乎属于停滞状态…唉，算了，有啥写啥，就想到这么多",
           "link": "https://www.v2ex.com/t/1110490",
           "publishedOn": "2025-02-11T00:19:09.000Z",
-          "wordCount": 560,
+          "wordCount": 633,
           "title": "在手机市场的下坡期，我们可能要练就一种分析厂商行为意图的能力",
           "imageUrl": null
         },
@@ -538,7 +575,7 @@
           "description": "vanpeisi7:",
           "link": "https://www.v2ex.com/t/1110489",
           "publishedOn": "2025-02-11T00:16:36.000Z",
-          "wordCount": 588,
+          "wordCount": 667,
           "title": "为什么一坐到工位上就感到疲惫、心慌？",
           "imageUrl": null
         },
@@ -558,7 +595,7 @@
           "description": "drymonfidelia: Avalonia 群里看到的聊天记录，用的是 02-05 模型，红字批注是我加的\n我尝试复现了但没他这个离谱，就用他的图了，但我测试出来的结果也是全瞎扯的，没有一行代码能用\n这种不是特别热门的 UI 框架的问题所有 AI 都答不好，但能答成这样也是我没想到的\n\n追问继续编\n\n连示例代码都有\n\n可惜没一个能用\n\n提出疑问后 “非常确定”\n\n还详细编出了排查方案\n\n连原因都给你编的清清楚楚\n\n\n第一个链接不知道哪找的废弃域名，里面的链接全是 404\n源代码我也搜了，连 Camera 都没有",
           "link": "https://www.v2ex.com/t/1110486",
           "publishedOn": "2025-02-10T20:58:17.000Z",
-          "wordCount": 661,
+          "wordCount": 746,
           "title": "Gemini 大概是所有 LLM 里最能张口就来的，把不存在的功能文档、示例代码都编得非常详细，还非常嘴硬，为什么排名能这么高",
           "imageUrl": null
         },
@@ -598,7 +635,7 @@
           "description": "klementina: \n衣服太厚重，晚上睡觉和白天手腕都很不舒服，加上之前手臂与 AppleWatch 贴合的位置过敏（发红，痒。有 V 友发过说是，低温烫伤？？）",
           "link": "https://www.v2ex.com/t/1110482",
           "publishedOn": "2025-02-10T17:06:22.000Z",
-          "wordCount": 343,
+          "wordCount": 361,
           "title": "AppleWatch Ultra 冬天佩戴很不舒适，特别是今年冬天，突然对它失去了兴趣，不想戴了。",
           "imageUrl": null
         },
@@ -618,7 +655,7 @@
           "description": "Fashion7woman: \n最近状态真的很差，感觉自己在事业、感情和健康上都过得一塌糊涂\n半年没工作了，今天面试了 dw 的技术支持，整体来看我的经验和要求是匹配的。上午一面聊得很顺利，没多久就通知下午二面了，我还挺兴奋的，觉得机会很大。但到了二面，突然紧张了，发挥得一般，不过整体感觉也还行，聊了 40 多分钟。结束后被告知面试没通过，也没说具体原因，当下真的有点懵，原本很期待这份工作，觉得自己各方面都符合，结果还是不要我，心里挺难受的😢\n除了工作，感情方面也挺迷茫的。到现在还没谈过恋爱，以前上学时完全没这方面的想法，毕业后一个人在上海工作，慢慢开始感到孤单，才意识到自己也想找个人一起生活。但完全不知道该怎么认识合适的异性，也不知道怎么开始一段感情。总觉得自己社交圈子太小了，遇不到合适的人，时间久了也开始焦虑了。\n身体健康上也没照顾好自己，本来就睡眠不好 还喜欢熬夜，也不好好吃饭，很多坏习惯明知道不行，但就是改不掉。这几年身体状态感觉变差了，偶尔也会担心，但就是控制不住自己。\n现在的感觉就是，生活好难，什么都没有做好，什么都不顺利。马上 25 岁了，事业没起色，感情一片空白，连身体健康都在透支，真的不知道该怎么调整……有点迷茫，也有点丧",
           "link": "https://www.v2ex.com/t/1110479",
           "publishedOn": "2025-02-10T16:29:09.000Z",
-          "wordCount": 473,
+          "wordCount": 570,
           "title": "面试被拒、单身迷茫、健康透支，感觉自己一事无成",
           "imageUrl": null
         },
@@ -628,7 +665,7 @@
           "description": "SGL: 一个 dmg 包，点开，拖拽，完了桌面再生成一个像是磁盘一样的东西。\n这是有什么历史的演变抽象在里面吗。",
           "link": "https://www.v2ex.com/t/1110478",
           "publishedOn": "2025-02-10T16:17:55.000Z",
-          "wordCount": 440,
+          "wordCount": 459,
           "title": "MacOS 的应用安装管理逻辑是怎么来的，跟 Linux 和 Windows 的习惯差异感觉好大",
           "imageUrl": null
         },
@@ -638,7 +675,7 @@
           "description": "cksuenlan: \n我是用的 nas 上的 TimeMachine 我的 MBP 大概 300 多 G 数据，TimeMachine 每小时给我上传 300 来 G ，TimeMachine 不是增量备份吗？ 这么个备份法空间扛不住了。",
           "link": "https://www.v2ex.com/t/1110477",
           "publishedOn": "2025-02-10T16:13:51.000Z",
-          "wordCount": 353,
+          "wordCount": 374,
           "title": "TimeMachine 备份是什么机制？",
           "imageUrl": null
         },
@@ -648,7 +685,7 @@
           "description": "mikeab: \n感觉脱离了学校环境之后真的很难静下心来去坚持学习什么东西了，最近在自学日语，给自己定的目标是能考过 N2/N1 的水平，用的黄色新标日那本书，自己在 B 站跟着视频学。\n计划的时候感觉良好，认为几天学一课很快能学完，但是等开始学了才感觉，只凭自制力真的挺难做到持续学习这个事情，最后就变成三天打鱼两天晒网，三四个月才学了十几课，感觉按我这个进度，学一年都不一定能考过 N5\n你们都是怎样去学习外语的，对于我这种情况的难道非得去报个培训班吗",
           "link": "https://www.v2ex.com/t/1110476",
           "publishedOn": "2025-02-10T15:57:20.000Z",
-          "wordCount": 532,
+          "wordCount": 567,
           "title": "你们是怎么坚持学习外语的？",
           "imageUrl": null
         },
@@ -658,7 +695,7 @@
           "description": "chengchengya: 号黑了？ 怎么破",
           "link": "https://www.v2ex.com/t/1110475",
           "publishedOn": "2025-02-10T15:52:04.000Z",
-          "wordCount": 394,
+          "wordCount": 401,
           "title": "国补下单不了",
           "imageUrl": null
         },
@@ -668,7 +705,7 @@
           "description": "isbase:",
           "link": "https://www.v2ex.com/t/1110474",
           "publishedOn": "2025-02-10T15:47:15.000Z",
-          "wordCount": 387,
+          "wordCount": 395,
           "title": "有见过中药治疗高血压 停药后不反弹的吗",
           "imageUrl": null
         },
@@ -678,7 +715,7 @@
           "description": "NelsonBoss: \n如题，最近入手了个 leobog a75 ，甚是满意，就是出场自带的键帽太难用了……淘宝上找了半天，大部分都没有分裂空格……",
           "link": "https://www.v2ex.com/t/1110471",
           "publishedOn": "2025-02-10T15:37:35.000Z",
-          "wordCount": 403,
+          "wordCount": 409,
           "title": "大伙儿有没有推荐的 alice75 配列的键帽啊？",
           "imageUrl": null
         },
@@ -688,7 +725,7 @@
           "description": "Jackiee007: 今天在咸鱼二手出掉了自己使用 1 年半多的国行 iPad pro 2022 带 Apple pencil ，并预订了外版的 iPad air 6 ，说说想法吧。\n降级点：\n1 屏幕（ 120hz-60hz ，但其实自己的 M2 air 的 mac 一直都是 60hz ，自适应习惯了，换到 60hz 的 iPad 应该也没什么差别）\n2 摄像头（ iPad 摄像头基本很少用，无感）\n3 face id （ air 6 变成了 touch id ，看有人反馈不太灵敏，没有 Face id 丝滑，算是一个降级点）\n4 还有有一些无关痛痒的比如麦克风变少了之类的，此外 pencilp 不通用，需要额外购买，好在海鲜市场普遍 600 一支\n升级点：\n1 相比之前的国行（外版可以用 apple intelligence ，为即将到来的中文 ai 做铺垫）\n2 价格便宜，二手卖出，再购置不需要贴钱，反而余下很多\n现在想来，只能说 2023 年当时执迷于高刷买了 pro ，习惯了手机和 mac 的 60hz ，在 ipad pro 感知撕裂有但不大，和手机 mac 来回切换差距不是很明显，只能说适合自己的，才是最好的。\nps：2023 中旬 6500 带笔 128g 购买，4600 带笔卖出。3300 入手仅拆封未激活不带笔外版 air6 128G",
           "link": "https://www.v2ex.com/t/1110470",
           "publishedOn": "2025-02-10T15:36:05.000Z",
-          "wordCount": 553,
+          "wordCount": 590,
           "title": "我选择从 iPad Pro 22 降级到 Air 6",
           "imageUrl": null
         }
