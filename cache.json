@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,43 +193,6 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -319,6 +288,76 @@
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
+        {
+          "id": "https://www.v2ex.com/t/1110808",
+          "author": "drymonfidelia",
+          "description": "drymonfidelia: 之前我一直用我的 M2 Max 的 MacBook 做游戏，实在忍受不了改一行代码要编译半分钟，改完运行游戏又要浪费半分钟，以为原因是 Apple 的 CPU 太垃圾了不适合做游戏，专门在知道会缩缸的情况下弄了台 14 代 i9 的电脑做游戏。这下改一行代码只要编译 5 秒了。但是现在项目变大一点了又开始越变越慢，编译一次要 40 秒，我研究了一堆优化方法，AsmDef 那些全都折腾了，编译速度都没有明显提升。不知道为什么别人的 Profiler 能看到编译的时候到底是哪里慢了，我把 Profiler 两种模式的每一个参数都看过了，CPU 使用一直是 20ms ，完全没统计到编译占用。后面问了别的游戏开发者，说 Mono 就是这么慢，没办法优化。我平常工作也都是写 C#，编译都是超快的，几十万行代码的项目也是几秒就编译好了，Mono 的性能真的这么糟糕吗？",
+          "link": "https://www.v2ex.com/t/1110808",
+          "publishedOn": "2025-02-11T20:01:02.000Z",
+          "wordCount": 406,
+          "title": "为什么 Unity 的编译速度会这么离谱？真的是 Mono 的问题吗？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110807",
+          "author": "JustinJack1",
+          "description": "JustinJack1: \n\n注册即送$1 额度，可以免费使用 H100/A100 等海外节点，实时推理，价格比 Replicate 和 Fal AI 便宜一半以上，而且稳定可用于生产，有 Python 和 JS 的包可以无缝从 Replicate 迁移，全球节点，包括各种模型比如\nblack-forest-labs/flux-1.1-pro\nblack-forest-labs/flux-schnell\ntencent/hunyuan3d-2\nstability-ai/stable-diffusion\nbytedance/sdxl-lightning-4step\nvetkastar/fooocus\nfofr/face-to-many\nfalcons-ai/nsfw_image_detection\nnightmareai/real-esrgan\ntencentarc/gfpgan\nsczhou/codeformer\nstability-ai/sdxl\nyorickvp/llava-13b\nSynexa AI is the most affordable way to run serverless AI API models\nGet the most cost-effective A100 GPU pricing for your AI workloads, saving up to 62% compared to other providers.\nAutomatic scaling: Seamless auto-scaling that handles traffic spikes instantly.\nWorld class developer experience: Integrate AI capabilities in minutes with our intuitive SDKs\nHigh-Performance GPUs: Enterprise-grade GPU infrastructure with A100s and H100s\nExtensive Model Collection: Access 100+ production-ready AI models\nBlazing Fast Inference Engine: optimized inference engine delivers up to 4x faster performance on diffusion models.\nLinktr\nBento\nTelegraph\nBluesky\nPatreon\nMedium",
+          "link": "https://www.v2ex.com/t/1110807",
+          "publishedOn": "2025-02-11T20:00:52.000Z",
+          "wordCount": 463,
+          "title": "[AI] 发现一个新的便宜 AI API 平台",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110805",
+          "author": "us10hmg",
+          "description": "us10hmg: 工作内容：\n1. ﻿﻿负责 5g 网络规划与优化相关工作，为全球 200 多个国家与地区，提供高效、稳定的网络服务。\n2. ﻿﻿负责 PB/TB 级别数据平台系统的优化处理，保障系统安全、可靠、可用、可拓展\n3. ﻿﻿确定后端架构的整体技术路线和架构走向，保障系统整体架构良性发展\n4. ﻿﻿突破当前技术局限性，沟通协调技术团队，保障优化特性高效落地\n岗位要求：\n1. ﻿﻿精通 java 相关技术，编程基础扎实，理解 i/o 、多线路、集合等基础框架，具备优秀的编程能力以及良好的开发喜欢\n2. ﻿﻿精通 java 以及 Web 应用的开发，深入了解 spring/lbatis/Cache/JVM 等机制与代码\n3. ﻿﻿主导过大规模系统的架构设计，精通服务化、服务治理、领悟建模，对系统和业务抽象有非常丰富经验\n4. ﻿﻿熟悉分布式系统的设计和应用，熟悉分布式、缓存、消息等机制\n薪资福利：\n1 、基本工资+绩效工资+年终奖（ 2-4 个月，一般绩效 A-4 个月，B-2 个月）；\n2 、试用期内（ 6 个月）工资不打折\n3 、五险一金基数按基本工资，公积金比例 5%-12%，具体看 base 地。\n4 、带薪年假、入职&年度免费体检、免费夜宵、班车/加班打车免费、下午茶、节假日礼品等\n联系邮箱：\nbase64: bXJyb290NDA0QGdtYWlsLmNvbQ== 邮件主题请备注 [ V2EX ]",
+          "link": "https://www.v2ex.com/t/1110805",
+          "publishedOn": "2025-02-11T17:59:53.000Z",
+          "wordCount": 404,
+          "title": "招聘 Java 开发工程师 [9-29k]",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110804",
+          "author": "yiyungent",
+          "description": "yiyungent: \n分享一波，也好让更多人来当免费测试（ bushi\n简介\n一行命令备份指定文件夹到阿里云盘（压缩后上传阿里云盘）, 需配合三方定时任务定时执行\n使用 zip 简单加密压缩, 没有复杂操作, 不易出现兼容/找回问题\n特点\n支持设置最大保留备份数\n支持 git 形式版本管理, 无变化则自动跳过备份\n支持加密压缩\ncloudDestPath=\"/加密备份/1panel\"\n\nzipPassword=\"eqeqwewqeqwe\"\n\n./coo alipan backup --from \"/opt/1panel/apps/openresty/openresty/conf/conf.d\" --to \"$cloudDestPath\" --remote-drive-type resource --max-backup-num 30 --password \"$zipPassword\" --git-history-last\n\n更多使用帮助\n./coo alipan backup --help\n\nGitHub 下载地址，下载 coo 即可\nhttps://github.com/yiyungent/KnifeHub/releases?q=coo&expanded=true",
+          "link": "https://www.v2ex.com/t/1110804",
+          "publishedOn": "2025-02-11T17:53:37.000Z",
+          "wordCount": 402,
+          "title": "alipan backup 备份文件到阿里云盘 | 跨平台",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110803",
+          "author": "cniter",
+          "description": "cniter: 标题：Shaun's Space\n地址： https://cniter.github.io\nRSS： https://cniter.github.io/atom.xml",
+          "link": "https://www.v2ex.com/t/1110803",
+          "publishedOn": "2025-02-11T17:21:47.000Z",
+          "wordCount": 349,
+          "title": "申请收录： Shaun's Space",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110802",
+          "author": "jedeft",
+          "description": "jedeft: \n1 、flutter 有啥中文社区可以发贴交流的?\n2 、flutter 里统计用户数据、比如日活、留存，有啥现成的第三方包比较好用?\n3 、flutter 里推送功能用哪个平台比较好？\n谢谢",
+          "link": "https://www.v2ex.com/t/1110802",
+          "publishedOn": "2025-02-11T17:13:27.000Z",
+          "wordCount": 370,
+          "title": "有 flutter 大佬么？请教几个问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1110801",
+          "author": "zkv2",
+          "description": "zkv2: \n大家好！我刚刚发布了一款 Chrome 扩展——FetchImage，它可以帮助你一键提取和下载网页中的图片，，都能轻松搞定！希望大家多多支持！🙏\n目前支持：Instagram, X, Pinterest, 小红书，Facebook 等等\n主要功能\n✅ 极速提取：瞬间抓取网页中的所有图片，无需等待。\n精准筛选：按尺寸快速筛选，找到你最想要的图片。\n一键保存：直接下载到本地，方便整理与分享。\n简单易用：小白也能轻松上手，操作超简单！\n适用场景\n设计师：快速收集灵感素材，提升工作效率。  \n旅行爱好者：保存美美的旅行照片，制作专属相册。  \n博主：轻松下载高清图片，丰富你的内容创作。  \n日常使用：保存喜欢的表情包、壁纸、美食图片，随时取用！\n操作方式及说明\n🔗 FetchImage 官网 \n求支持\n这是我独立开发的项目，\n（用了一些网站以及程序，发现都不是很顺手，就制作了一个）\n希望能为大家带来便利。如果你觉得 FetchImage 有用，欢迎：\n在 Chrome Web Store 上留下好评\n在评论区分享你的使用体验或建议\n分享给更多朋友，让更多人知道 FetchImage \n你的支持是我继续改进和开发新功能的动力！感谢大家！🙌",
+          "link": "https://www.v2ex.com/t/1110801",
+          "publishedOn": "2025-02-11T17:09:46.000Z",
+          "wordCount": 393,
+          "title": "FetchImage：一键提取网页图片的 Chrome 扩展，效率翻倍！求支持！",
+          "imageUrl": null
+        },
         {
           "id": "https://www.v2ex.com/t/1110800",
           "author": "LaTero",
@@ -435,7 +474,7 @@
           "description": "Jerry23333: \n近日，苹果公司与中国互联网和电子商务巨头阿里巴巴集团展开合作，共同开发适用于中国市场的人工智能功能。此举是苹果为应对在中国市场销售下滑而采取的战略之一，通过提供更具吸引力的软件功能来增强竞争力。\n目前，苹果和阿里巴巴已将合作开发的中文 AI 功能提交给中国网信办审批，显示出双方合作已取得显著进展。面对华为、Vivo 等本土品牌的激烈竞争，苹果希望通过与阿里巴巴的合作，进一步巩固其在中国市场的地位。\n消息来源： https://www.theinformation.com/articles/apple-partners-with-alibaba-to-develop-ai-features-for-iphone-users-in-china",
           "link": "https://www.v2ex.com/t/1110788",
           "publishedOn": "2025-02-11T15:02:41.000Z",
-          "wordCount": 374,
+          "wordCount": 384,
           "title": "苹果与阿里巴巴合作开发人工智能",
           "imageUrl": null
         },
@@ -485,7 +524,7 @@
           "description": "bevishe: \n大家高频使用，干净无广告好用推荐的软件，不限 win 、mac 、android 、ios",
           "link": "https://www.v2ex.com/t/1110782",
           "publishedOn": "2025-02-11T14:17:05.000Z",
-          "wordCount": 456,
+          "wordCount": 469,
           "title": "大家有啥长期使用并安利的软件",
           "imageUrl": null
         },
@@ -555,7 +594,7 @@
           "description": "xingye163: 已经凉了几个 Telegram 号了，开始是 86 国内注册登录，后面用 iPhone 登录的也莫名其妙的退出，再也收不到码了，但是有时候一些服务群组又只有 TG 的，请教大家现在还有什么底层本少维护的方案吗？\n之前网上看说有改邮箱登录的，但是现在号都登录不了了也没法试，用接码平台注册貌似也收不到码，买实体卡的话，国内也不知道手机支持不支持，请问下各位大佬指点下。感激不尽。",
           "link": "https://www.v2ex.com/t/1110775",
           "publishedOn": "2025-02-11T14:03:24.000Z",
-          "wordCount": 437,
+          "wordCount": 448,
           "title": "请问现在最低成本注册登录 Telegram 的方法是哪种？",
           "imageUrl": null
         },
@@ -707,86 +746,6 @@
           "publishedOn": "2025-02-11T12:31:00.000Z",
           "wordCount": 642,
           "title": "请教大家一个在 hono.js 中使用 ts 的类型兼容性问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110758",
-          "author": "revival83",
-          "description": "revival83: 一直用钱迹 1700 多天了，发现其它记账软件都有自动记账了，钱迹的自动记账还在雏形阶段，截图配合捷径只能自动识别金额，备注不能在捷径里一次输入完，还得再进 app 输入。",
-          "link": "https://www.v2ex.com/t/1110758",
-          "publishedOn": "2025-02-11T12:30:46.000Z",
-          "wordCount": 493,
-          "title": "iOS 上有什么不错的自动记账（配合捷径）app 么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110757",
-          "author": "piggie18",
-          "description": "piggie18: SDN 网关什么都改不了，还经常莫名其妙断线",
-          "link": "https://www.v2ex.com/t/1110757",
-          "publishedOn": "2025-02-11T12:29:52.000Z",
-          "wordCount": 405,
-          "title": "上海电信现在还能换不是 SDN 的网关吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110756",
-          "author": "ysmintor",
-          "description": "ysmintor: \n想给父母在城中村办理，没有联通资源，只有移动，电信，广电。\n目前给他们联通无限量限速 7.2Mbps 在手机上用。\n计划给办理宽带，自己平时在很远外地，可以远程协助，让他们多用下电脑之类，办个宽带感觉好些，保底买个插卡路由器，放限 7.2Mpbs 的卡使用，慢点就慢点，能获取信息优先。",
-          "link": "https://www.v2ex.com/t/1110756",
-          "publishedOn": "2025-02-11T12:25:48.000Z",
-          "wordCount": 441,
-          "title": "求推荐，收集深圳便宜宽带",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110755",
-          "author": "testFor",
-          "description": "testFor: \n一个比亚迪都打不过,还好意思说世界第一大车企",
-          "link": "https://www.v2ex.com/t/1110755",
-          "publishedOn": "2025-02-11T12:24:49.000Z",
-          "wordCount": 438,
-          "title": "为什么丰田那么不思进取",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110754",
-          "author": "jamfer",
-          "description": "jamfer: 要求如下：\n4k 分辨率\n刷新率 120 以上\nHDMI 是满血的 2.1 规格\nC 口支持反向供电，最低要 90w ，越高越好（ 65w 不行）\n内置音箱\n加分项：4 边窄边框",
-          "link": "https://www.v2ex.com/t/1110754",
-          "publishedOn": "2025-02-11T12:10:14.000Z",
-          "wordCount": 488,
-          "title": "求推荐一款 4K 显示器",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110753",
-          "author": "cl903254852",
-          "description": "cl903254852: \n本人 Macbook 硬盘空间不够了，想外接一个 500G-1T 的都行\n看网上说是要一个固态硬盘+硬盘盒组合\n我是 M1 的 Macbook ，求推荐一个性价比不错的组合。\n预算有限，固态硬盘+硬盘盒最好在 500 上下。。",
-          "link": "https://www.v2ex.com/t/1110753",
-          "publishedOn": "2025-02-11T12:10:04.000Z",
-          "wordCount": 460,
-          "title": "求推荐一款适合 MacBook 的外接固态硬盘",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110752",
-          "author": "dongdongdong",
-          "description": "dongdongdong: 不知道我能不能存到，遥遥无期，太穷了",
-          "link": "https://www.v2ex.com/t/1110752",
-          "publishedOn": "2025-02-11T12:08:09.000Z",
-          "wordCount": 521,
-          "title": "刚大学室友说存了第一个 100 万了",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1110751",
-          "author": "ik",
-          "description": "ik: 测试 移动 联通网络都能复现\n其他的还有 loli.net 的一些子域名",
-          "link": "https://www.v2ex.com/t/1110751",
-          "publishedOn": "2025-02-11T12:03:35.000Z",
-          "wordCount": 359,
-          "title": "北京使用运营商 dns， doh.pub 解析到 127.0.0.1",
           "imageUrl": null
         }
       ]
