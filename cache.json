@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -325,7 +331,7 @@
           "description": "a547534827: \n过年的几天实在无聊，做了个 一键转 GIF 的小程序，现在每天几个人用，，哎，，小程序越来越难搞了",
           "link": "https://www.v2ex.com/t/1111024",
           "publishedOn": "2025-02-12T10:45:21.000Z",
-          "wordCount": 402,
+          "wordCount": 408,
           "title": "过年没事搞了个视频转 GIF 工具的小程序，好像没屁用",
           "imageUrl": null
         },
@@ -355,7 +361,7 @@
           "description": "Jinnmki: \n以前用 mac os12 的时候还使用正常，15 就没法正常安装了，中间哪个版本系统可以用，或者有没有什么替代品",
           "link": "https://www.v2ex.com/t/1111021",
           "publishedOn": "2025-02-12T10:35:07.000Z",
-          "wordCount": 391,
+          "wordCount": 395,
           "title": "mac 版百度网盘破解版 2.2.2 最高能使用的系统是多少",
           "imageUrl": null
         },
@@ -365,7 +371,7 @@
           "description": "zer: \n先说下虚拟机的配置\n虚拟机 1 是 Win11 ，用虚拟屏幕开了 sunshine 串流\n以上 2 个虚拟机单独使用是没问题的，问题表现为：\n先转码后串流，一旦 Jellyfin 开转码，Win11 就无法串流。\n先串流后转码，此时通过 moonlight 串流的 Win11 屏幕冻住，无法操作。\n我观察转码时，显示的核显负载也不高。但此时 Win11 串流就是不行（转圈圈、屏幕卡死），sunshine 的 troubleshooting 也看不到报错。求教有遇到过此类问题的朋友，如何解决该问题？\nintel_gpu_top -d sriov",
           "link": "https://www.v2ex.com/t/1111020",
           "publishedOn": "2025-02-12T10:28:47.000Z",
-          "wordCount": 405,
+          "wordCount": 452,
           "title": "PVE 下核显开启 sriov 后，多个虚拟机不能同时用核显么？",
           "imageUrl": null
         },
@@ -395,7 +401,7 @@
           "description": "mizuki9: 后端语言从未统一，前端语言自从浏览器发展出来后 js 几乎就是唯一的选择。\n在此期间产生许多将后端语言转换为 js 的各种库，各种尝试，直到 WebAssembly 出现，给出了一条将其他语言都编译为 wasm ，提供给 js 使用的一条路。\n由于前端语言是唯一的，并且我们可以看到历史上不断有需求将其他语言转换为 js ，所以 wasm 必然在这个目标(需求)上成功。\n但除此之外，\n替代 docker ？各语言没有这个动力（需求），目前的 docker 已经满足了，想要推动这个目标，只有 wasi 相关的几家公司自己发展，就算 wasi 发展完善了，各语言也是要适配的，感觉不太能行，似乎没有希望。\ndocker 是自己去适应所有语言，其他程序跑在实体机(例如 Linux)与跑在 docker 对于程序自身感受来说，并没有什么明确的区别。\nwasi 除非把自己虚拟化成某个 Linux 的发行版，提供与这个系统相同的 api ，否则每种语言适配 wasi 就像适配一个新系统。",
           "link": "https://www.v2ex.com/t/1111015",
           "publishedOn": "2025-02-12T10:13:54.000Z",
-          "wordCount": 435,
+          "wordCount": 557,
           "title": "个人猜想 WebAssembly 的未来",
           "imageUrl": null
         },
@@ -405,7 +411,7 @@
           "description": "Zarhani: \n我最近想买一台可以在被窝里面玩的二手平板 (价格不超过一千), 顺便用它来远程控制我的电脑.\n我今天用我的手机测试了一下安卓端的 RDP 客户端(微软官方), 发现了以下痛点:\n鼠标前进后退键无效\n在 RDP 会话中滚动鼠标滚轮, 滚起来特别慢, 没滚动一格只有半行字\n键盘 F1-F12, win 等很多键无效\n部分 ctrl+space 之类的快捷键被手机端的输入法霸占, 难以有效调用电脑端的输入法\n大家有没有什么解决方案? 如果实在不行的话我就看看能刷 windows arm 的小米平板了",
           "link": "https://www.v2ex.com/t/1111014",
           "publishedOn": "2025-02-12T10:01:21.000Z",
-          "wordCount": 485,
+          "wordCount": 497,
           "title": "如何解决 android 平板用 RDP 远程控制 windows 时的一些不便之处?",
           "imageUrl": null
         },
@@ -415,7 +421,7 @@
           "description": "qcbf111: 现在 90%概率出现“服务器繁忙，请稍后再试。”。\n不过好像现在 chatgpt 倒是非常迅速流畅了，但测了几次发现 gpt 回答的没有 deepseek 好，好像倾向于用 deepseek 。\n虽说是在免费用，但是 gemini ，chatgpt 等等这些都不至于这么高的概率回答不了呀，现在基本上不太能用。",
           "link": "https://www.v2ex.com/t/1111013",
           "publishedOn": "2025-02-12T09:48:47.000Z",
-          "wordCount": 389,
+          "wordCount": 391,
           "title": "请问各位巨佬， deepseek 好久能正常用呀？",
           "imageUrl": null
         },
@@ -425,7 +431,7 @@
           "description": "duanrancosmos: \n价格来去基本不大，5080 一张显存 16G ，4090 一张 24G 。到底选哪个好，好纠结",
           "link": "https://www.v2ex.com/t/1111011",
           "publishedOn": "2025-02-12T09:39:08.000Z",
-          "wordCount": 398,
+          "wordCount": 400,
           "title": "求助，做 AI 深度学习服务器跑大模型推理，选 RTX5080*2 还是一张 4090",
           "imageUrl": null
         },
@@ -465,7 +471,7 @@
           "description": "WoodenRobot: \n开发的用来快速在 NeoDB 上搜索的 PopClip 插件被作者本人 Star 了！\nhttps://github.com/Wooden-Robot/Search-NeoDB-PopClip",
           "link": "https://www.v2ex.com/t/1111006",
           "publishedOn": "2025-02-12T09:14:17.000Z",
-          "wordCount": 382,
+          "wordCount": 405,
           "title": "开发的小插件被 PopClip 作者本人 Star 了？！",
           "imageUrl": null
         },
@@ -525,7 +531,7 @@
           "description": "calmlyman: \n摸鱼分享一下，事情是这样的，昨晚自己去某餐厅吃饭，没什么人，找了最里面的 4 人空桌自个点餐。过了一会进来了个妹纸，直接坐在我左侧旁边的 2 人空桌，面朝我左边的位置。后来出于礼貌我只偷瞄了一下，对我来说很对眼的感觉。后面一直到吃完饭，中间内心挣扎了 n 次想上去要微信，直到妹纸走了才后悔莫及。\n当时心想明明那么多空位，为什么就坐我旁边呢？有时真的只需一点点勇气呀！\n请大家理性评价，不要说什么 gui 啥的！",
           "link": "https://www.v2ex.com/t/1110999",
           "publishedOn": "2025-02-12T08:37:37.000Z",
-          "wordCount": 661,
+          "wordCount": 671,
           "title": "错过了很后悔！",
           "imageUrl": null
         },
@@ -545,7 +551,7 @@
           "description": "omz: 春节期间，亲戚朋友聚在一起吃饭、聊家常。本以为我的房贷已经还完，只剩车贷，生活压力小了许多，挺不错的。没想到一聊起来，大家纷纷谈到几百万、上千万的生意，话题越聊越大，我完全插不上话了，只能默默地嗑瓜子……\n似乎大环境不好在我身边压根不存在。",
           "link": "https://www.v2ex.com/t/1110996",
           "publishedOn": "2025-02-12T08:25:08.000Z",
-          "wordCount": 430,
+          "wordCount": 431,
           "title": "本以为自己生活还不错，没想到大家更好",
           "imageUrl": null
         },
@@ -615,7 +621,7 @@
           "description": "mialu0802: \n作为开发者，虽然软件还有提升空间，但它在抠图和背景替换方面还是非常实用，特别适合电商卖家和图片处理需求。\n⏰ 限免 3 天，原价 168 年会员，现在免费！\n🖼️ 一键抠图、换背景、保存 PNG ，支持 iOS 。\n有需要可以下载试试！\nhttps://apps.apple.com/us/app/background-remover-bg-eraser/id6502436500",
           "link": "https://www.v2ex.com/t/1110988",
           "publishedOn": "2025-02-12T07:59:31.000Z",
-          "wordCount": 393,
+          "wordCount": 400,
           "title": "🚀 限免福利：抠图软件 一键换背景。年订阅 168 元，现在 0 元购！ [Erasee AI]",
           "imageUrl": null
         },
@@ -625,7 +631,7 @@
           "description": "wwwz: 起因是登录一个 EDU 邮箱时 Google 提示我尽快开启两步验证否则不能登录云云（非 EDU 邮箱登录并没有收到，猜测是组织设置的？）。\n然后我尝试开启两步验证需要手机接收验证码，结果提示 We don't support delivering messages to your provider at this time. Try a number from a different provider.之前这个手机是可以正常接收验证码的。\n于是我来 V 站寻找原因估计可能是被运营商（北京联通）反诈默认拦截，于是我致电 10010 得知手机国际漫游是打开的，而且系统上看是可以接收境外电话和短信的。\n接着我尝试了更换机场节点和谷歌语言来接收短信结果真的又能接收到了（大概率是机场节点问题），马上设置好主账号所有两步验证方法，EDU 邮箱账号只设置了谷歌验证器。\n现在 EDU 账号想再设置其他的两步验证方法结果仍需要接收短信验证码（不能用手机上的谷歌验证器），然后我多次切换节点都接收不到验证码了（现已被锁定 4 小时）。而主账号点击设置两步验证方法可以用 Windows Hello 验证进去（通行密钥和安全密钥）。\n所以主账号看上去是完全可以脱离手机验证码了。EDU 账号手机上的谷歌验证器不丢的话可以正常登录，高危操作还需要接收手机验证码。\n感觉+86 越来越不稳，国外越来越严格了",
           "link": "https://www.v2ex.com/t/1110986",
           "publishedOn": "2025-02-12T07:55:22.000Z",
-          "wordCount": 478,
+          "wordCount": 482,
           "title": "强烈建议使用+86 手机绑定谷歌账号的马上开启所有两步验证方法（内附接收不到验证码的解决方案）",
           "imageUrl": null
         },
@@ -645,7 +651,7 @@
           "description": "Koril: \n背景\n我下载了 Debian12 的 iso 镜像（版本：debian-12.7.0-amd64-DVD-1.iso ，无桌面），在 virtualbox7 中安装好后，我发现默认使用的网络配置服务是 networing.service\n然后，我阅读了这个官方的文档： https://www.debian.org/doc/manuals/debian-reference/ch05.zh-cn.html\n在 5.3 小结中，文档给出了如何配置静态 IP 的方案，使用的是 systemd-networkd 。\n我在 virtualbox 给这个 debian 系统网络设置了桥接模式，然后根据文档配置了静态地址：\nsudo vim /etc/systemd/network/static.network \n\n[Match]\nName=en*\n\n[Network]\nDHCP=no\nAddress=192.168.0.201/24\nGateway=192.168.0.1\nDNS=192.168.0.1\n\n\n我的疑问\n我把 networking.service 直接关掉了，开启了 systemd-networkd.service ，执行的是以下命令：\n# 关闭 networking.service\nsudo systemctl disable networking.service\nsudo systemctl stop networking.service\n\n# 开启 systemd-networkd.service\nsudo systemctl enable systemd-networkd\nsudo systemctl start systemd-networkd\n\n\n第一个问题\n平稳运行了一段时间后，我发现重启服务器或者重启路由器，服务器的 ip 又会变成一个不是我指定的地址，我在配置文件指定的是 192.168.0.201 ，但是它会变成 192.168.0.106 之类的，我猜测和 DHCP 有关，请问这是为什么？\n第二个问题\n在安装了 Debian12 系统的服务器中，我该使用哪一个配置网络，networking.service 还是 systemd-networkd.service ？\n我在阿里云上买的云服务装的也是 debian12 ，它默认用的是 systemd-networkd.service 。\n而我本地虚拟机安装 debian12 ，默认用的是 networking.service 。",
           "link": "https://www.v2ex.com/t/1110984",
           "publishedOn": "2025-02-12T07:41:37.000Z",
-          "wordCount": 792,
+          "wordCount": 794,
           "title": "Debian12 的网络用什么配置？",
           "imageUrl": null
         },
@@ -665,7 +671,7 @@
           "description": "VchentozV: Linux 内核爆发 C / Rust 大战，核心开发者愤然离职 - IT 之家\nhttps://www.ithome.com/0/830/010.htm",
           "link": "https://www.v2ex.com/t/1110981",
           "publishedOn": "2025-02-12T07:39:25.000Z",
-          "wordCount": 928,
+          "wordCount": 930,
           "title": "为什么不直接用 rust 开发新的内核? 修修补补什么的, 最讨厌了.",
           "imageUrl": null
         },
@@ -695,7 +701,7 @@
           "description": "dong706: \n目前知道的只有字节的火山方舟，可以自定义知识库但是价格有点贵（光计算资源费用就每个月 259 元）。\n硅基流动的已确定没有知识库。\n求见多识广的大佬提点~\nps:总不能最后需要我本机搭建 deepseek 吧？没办法的办法~~~",
           "link": "https://www.v2ex.com/t/1110977",
           "publishedOn": "2025-02-12T07:36:06.000Z",
-          "wordCount": 400,
+          "wordCount": 411,
           "title": "谁家的 deepseek 模型 api 服务可以自己定义知识库的（最好价格也不贵的）？",
           "imageUrl": null
         }
