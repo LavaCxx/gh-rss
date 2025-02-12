@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-12T07:10:57.158Z</id>
+    <id>urn:2025-02-12T08:14:49.195Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-12T07:10:57.158Z</updated>
+    <updated>2025-02-12T08:14:49.195Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -710,42 +710,6 @@ Make Any File a Template Using This Hidden macOS Tool originally published on CS
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
-        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
-        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
-        <updated>2025-02-09T15:59:33.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
-
-目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
-这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
-准备
-开始之前，确保你已经建立了一个 Expo 的项目。
-然后，通过以下命令创建一个 Expo Module。
-npx create-expo-module@latest --local
-根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
-.
-├── android
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           ├── AndroidManifest.xml
-│           └── java
-│               └── expo
-│                   └── modules
-│                       └── testmodule
-│                           ├── TestModule.kt
-│                           └── TestModuleView.kt
-├── expo-module.config.json
-├── index.ts
-├── ios
-│   ├── TestModule.podspec
-│   ├── TestModule.swift
-│   └── TestMod…]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[第209期 - 又是一年]]></title>
         <id>https://weekly.tw93.fun/posts/209-%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/</id>
         <link href="https://weekly.tw93.fun/posts/209-%E5%8F%88%E6%98%AF%E4%B8%80%E5%B9%B4/"/>
@@ -870,42 +834,6 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[新年的路]]></title>
-        <id>https://innei.in/notes/185</id>
-        <link href="https://innei.in/notes/185"/>
-        <updated>2025-02-02T16:28:11.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
-
-许久没有写代码了，原因是最近自驾去了挺多地方。
-年前，去了海宁神仙湖。第一次上高速。
-:::gallery
-https://object.innei.in/bed/2025/0202_1738511753954.jpeg
-https://object.innei.in/bed/2025/0202_1738511757142.jpeg
-:::
-冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
-然后去了南北湖。比较一般。没咋拍。
-除夕前一晚，去了巧克力小镇。也比较一般。
-除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
-
-同时，去了附近的景区，也是有很多老板按箱放烟花的。
-初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
-
-
-后面去了盐官。但是没看到潮水，刚好错过了。
-
-去了大风车。
-
-过年期间，不管是哪个有点名气的景点人都挺多的。
-上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
-提车两个月，已经跑了 2300km+。
-好久没有写代码了，还是感到非常的焦虑。
-
-看完了？说点什么呢]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -951,24 +879,6 @@ What on Earth is the `types` Descriptor in View Transitions? originally publis
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...]]></title>
-        <id>https://t.me/vps_xhq/696</id>
-        <link href="https://t.me/vps_xhq/696"/>
-        <updated>2025-01-29T09:14:56.000Z</updated>
-        <summary type="html"><![CDATA[DMIT补货限量款 29.90刀年付美西9929
-DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。
-配置如下：
-1 vCPU           1 GB RAM
-10G SSD       400GB Transfer
-500Mbps      1 IPv4 & 1 IPv6 /64
-https://www.dmit.io/aff.php?aff=3439&pid=231
-该机器每日限 100 个订单。（更新：已售罄）
-[消息等级 Level C2 · 简要]]]></summary>
-        <author>
-            <name>VPS信号旗播报 - Telegram Channel</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Revisiting CSS Multi-Column Layout]]></title>
         <id>https://css-tricks.com/?p=384002</id>
         <link href="https://css-tricks.com/revisiting-css-multi-column-layout/"/>
@@ -977,49 +887,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...]]></title>
-        <id>https://t.me/vps_xhq/695</id>
-        <link href="https://t.me/vps_xhq/695"/>
-        <updated>2025-01-25T07:34:43.000Z</updated>
-        <summary type="html"><![CDATA[VPS信号旗播报:
-BuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…
-
-BuyVM 改将卢森堡机房迁往瑞士
-今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。
-这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。
-[消息等级 Level C2 · 简要]]]></summary>
-        <author>
-            <name>VPS信号旗播报 - Telegram Channel</name>
         </author>
     </entry>
     <entry>
@@ -1084,21 +951,6 @@ Some Things You Might Not Know About Custom Counter Styles originally published 
 Creating a “Starred” Feed originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...]]></title>
-        <id>https://t.me/vps_xhq/694</id>
-        <link href="https://t.me/vps_xhq/694"/>
-        <updated>2025-01-19T11:07:54.000Z</updated>
-        <summary type="html"><![CDATA[腾讯云轻量锐驰200M版内测结束，发售在即
-该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。
-腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。
-在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。
-尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。
-[消息等级 Level C2 · 简要]]]></summary>
-        <author>
-            <name>VPS信号旗播报 - Telegram Channel</name>
         </author>
     </entry>
     <entry>
