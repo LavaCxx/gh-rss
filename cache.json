@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,6 +193,43 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -298,7 +341,7 @@
           "description": "pangziliu: \n目前一个人租房，预算 3200 ，想找一间一室户，面积小一些也可以接受。最近在长清路、成山路附近看了一些房源，发现中介报价普遍在 3500+，比预期高不少，感觉有些离谱。\n想请教大家，有没有更好的方式可以找到合适的房子？我曾在小红书、豆瓣、Wellcee 这些平台上看房源，其中的房源大部分都是中介发的假的，很难有运气碰到真实转租或出租的。有没有其他渠道值得尝试？希望能听听大家的经验和建议！",
           "link": "https://www.v2ex.com/t/1110993",
           "publishedOn": "2025-02-12T08:17:44.000Z",
-          "wordCount": 366,
+          "wordCount": 380,
           "title": "[租房咨询] 浦东新区长清路或者成山路附近",
           "imageUrl": null
         },
@@ -308,7 +351,7 @@
           "description": "aeucon: 我们这四线城市，长白班不出力的工资，每月到手在 2500 左右，12 小时两班倒的工资，到手工资在 4500 左右。\n100W 现金做投资，一年能有 5 个点的涨幅，就相当于我边不吃不喝工作一年的最高收入了……",
           "link": "https://www.v2ex.com/t/1110992",
           "publishedOn": "2025-02-12T08:14:01.000Z",
-          "wordCount": 392,
+          "wordCount": 394,
           "title": "100 万对于我的概念",
           "imageUrl": null
         },
@@ -338,7 +381,7 @@
           "description": "mialu0802: \n作为开发者，虽然软件还有提升空间，但它在抠图和背景替换方面还是非常实用，特别适合电商卖家和图片处理需求。\n⏰ 限免 3 天，原价 168 年会员，现在免费！\n🖼️ 一键抠图、换背景、保存 PNG ，支持 iOS 。\n有需要可以下载试试！\nhttps://apps.apple.com/us/app/background-remover-bg-eraser/id6502436500",
           "link": "https://www.v2ex.com/t/1110988",
           "publishedOn": "2025-02-12T07:59:31.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "🚀 限免福利：抠图软件 一键换背景。年订阅 168 元，现在 0 元购！ [Erasee AI]",
           "imageUrl": null
         },
@@ -348,7 +391,7 @@
           "description": "wwwz: 起因是登录一个 EDU 邮箱时 Google 提示我尽快开启两步验证否则不能登录云云（非 EDU 邮箱登录并没有收到，猜测是组织设置的？）。\n然后我尝试开启两步验证需要手机接收验证码，结果提示 We don't support delivering messages to your provider at this time. Try a number from a different provider.之前这个手机是可以正常接收验证码的。\n于是我来 V 站寻找原因估计可能是被运营商（北京联通）反诈默认拦截，于是我致电 10010 得知手机国际漫游是打开的，而且系统上看是可以接收境外电话和短信的。\n接着我尝试了更换机场节点和谷歌语言来接收短信结果真的又能接收到了（大概率是机场节点问题），马上设置好主账号所有两步验证方法，EDU 邮箱账号只设置了谷歌验证器。\n现在 EDU 账号想再设置其他的两步验证方法结果仍需要接收短信验证码（不能用手机上的谷歌验证器），然后我多次切换节点都接收不到验证码了（现已被锁定 4 小时）。而主账号点击设置两步验证方法可以用 Windows Hello 验证进去（通行密钥和安全密钥）。\n所以主账号看上去是完全可以脱离手机验证码了。EDU 账号手机上的谷歌验证器不丢的话可以正常登录，高危操作还需要接收手机验证码。\n感觉+86 越来越不稳，国外越来越严格了",
           "link": "https://www.v2ex.com/t/1110986",
           "publishedOn": "2025-02-12T07:55:22.000Z",
-          "wordCount": 463,
+          "wordCount": 465,
           "title": "强烈建议使用+86 手机绑定谷歌账号的马上开启所有两步验证方法（内附接收不到验证码的解决方案）",
           "imageUrl": null
         },
@@ -368,7 +411,7 @@
           "description": "Koril: \n背景\n我下载了 Debian12 的 iso 镜像（版本：debian-12.7.0-amd64-DVD-1.iso ，无桌面），在 virtualbox7 中安装好后，我发现默认使用的网络配置服务是 networing.service\n然后，我阅读了这个官方的文档： https://www.debian.org/doc/manuals/debian-reference/ch05.zh-cn.html\n在 5.3 小结中，文档给出了如何配置静态 IP 的方案，使用的是 systemd-networkd 。\n我在 virtualbox 给这个 debian 系统网络设置了桥接模式，然后根据文档配置了静态地址：\nsudo vim /etc/systemd/network/static.network \n\n[Match]\nName=en*\n\n[Network]\nDHCP=no\nAddress=192.168.0.201/24\nGateway=192.168.0.1\nDNS=192.168.0.1\n\n\n我的疑问\n我把 networking.service 直接关掉了，开启了 systemd-networkd.service ，执行的是以下命令：\n# 关闭 networking.service\nsudo systemctl disable networking.service\nsudo systemctl stop networking.service\n\n# 开启 systemd-networkd.service\nsudo systemctl enable systemd-networkd\nsudo systemctl start systemd-networkd\n\n\n第一个问题\n平稳运行了一段时间后，我发现重启服务器或者重启路由器，服务器的 ip 又会变成一个不是我指定的地址，我在配置文件指定的是 192.168.0.201 ，但是它会变成 192.168.0.106 之类的，我猜测和 DHCP 有关，请问这是为什么？\n第二个问题\n在安装了 Debian12 系统的服务器中，我该使用哪一个配置网络，networking.service 还是 systemd-networkd.service ？\n我在阿里云上买的云服务装的也是 debian12 ，它默认用的是 systemd-networkd.service 。\n而我本地虚拟机安装 debian12 ，默认用的是 networking.service 。",
           "link": "https://www.v2ex.com/t/1110984",
           "publishedOn": "2025-02-12T07:41:37.000Z",
-          "wordCount": 693,
+          "wordCount": 756,
           "title": "Debian12 的网络用什么配置？",
           "imageUrl": null
         },
@@ -388,7 +431,7 @@
           "description": "VchentozV: Linux 内核爆发 C / Rust 大战，核心开发者愤然离职 - IT 之家\nhttps://www.ithome.com/0/830/010.htm",
           "link": "https://www.v2ex.com/t/1110981",
           "publishedOn": "2025-02-12T07:39:25.000Z",
-          "wordCount": 879,
+          "wordCount": 904,
           "title": "为什么不直接用 rust 开发新的内核? 修修补补什么的, 最讨厌了.",
           "imageUrl": null
         },
@@ -418,7 +461,7 @@
           "description": "dong706: \n目前知道的只有字节的火山方舟，可以自定义知识库但是价格有点贵（光计算资源费用就每个月 259 元）。\n硅基流动的已确定没有知识库。\n求见多识广的大佬提点~\nps:总不能最后需要我本机搭建 deepseek 吧？没办法的办法~~~",
           "link": "https://www.v2ex.com/t/1110977",
           "publishedOn": "2025-02-12T07:36:06.000Z",
-          "wordCount": 387,
+          "wordCount": 398,
           "title": "谁家的 deepseek 模型 api 服务可以自己定义知识库的（最好价格也不贵的）？",
           "imageUrl": null
         },
@@ -448,7 +491,7 @@
           "description": "worker201: 自己买了重疾险和医疗险, 给父母买了医疗险, 在想着要不要加一份意外险?",
           "link": "https://www.v2ex.com/t/1110973",
           "publishedOn": "2025-02-12T07:24:33.000Z",
-          "wordCount": 432,
+          "wordCount": 439,
           "title": "你们的保险都是怎么配置的?",
           "imageUrl": null
         },
@@ -468,7 +511,7 @@
           "description": "lzoje: \n不知道大家有没有同时用多个大模型服务提供商的 api 。\n最近 deepseek 官方接口一直很慢，于是转向使用第三方服务商提供的 deepseek api ，但是这些服务商的 api 速度也是参差不齐，时快时慢。\n所以我用 python 写了一个 openai 格式 api 的延迟测量工具，测量接口返回回答的时间。可以同时测量多个 api 的延迟，本地加密保存 key 。个人感觉还是有点用，不用手动写 curl 了。\ngithub 仓库: OpenAI API latency",
           "link": "https://www.v2ex.com/t/1110970",
           "publishedOn": "2025-02-12T07:19:41.000Z",
-          "wordCount": 466,
+          "wordCount": 470,
           "title": "OpenAI API 接口延迟测量工具",
           "imageUrl": null
         },
@@ -478,7 +521,7 @@
           "description": "silvrunrun: \n背景：\niCloud 里存了 380GB 的照片和视频，iPhone 等设备打开“优化 iPhone 存储空间”，本机只占用几个 G ，实际原图都在 iCloud 上，在照片 app 里查看旧照片时会转菊花加载原图。\n想法：\n考虑到有网友反应有 iCloud 照片丢失的问题，想着云服务总会有不可靠的时刻。所以为了安全起见，想把全部照片视频再找个地方备份一下，比如移动硬盘。\n针对备份，有几个问题：\n1 、我理解备份前，需要先在 iCloud 设置中打开“下载并保留原片”，把 iCloud 上的照片先全量原图下载下来吧？但是手头 iPhone 、iPad 都只有 256G 的，只有 Mac 是 1T 的，所以需要先在 Mac 把原图全量下载，然后再迁移备份到移动硬盘之类的地方？假设 Mac 也是 256G 的，没法全量下载，还有没有其他方式实现全量原图备份？\n2 、实况、空间照片、空间视频这些比较特殊的格式，如何保证备份的时候不会丢失照片信息？（比如实况照片的备份，以后再恢复导回到 iPhone 里，还是实况照片而不是只剩静态照片了）",
           "link": "https://www.v2ex.com/t/1110968",
           "publishedOn": "2025-02-12T07:16:22.000Z",
-          "wordCount": 489,
+          "wordCount": 505,
           "title": "请教一个 iCloud 照片备份的问题",
           "imageUrl": null
         },
@@ -488,7 +531,7 @@
           "description": "pxiphx891: 一个应用的价值，绝不应该 体现 在花了多么短的时间。你就花了 3 天写出来的 App ，能好用吗？",
           "link": "https://www.v2ex.com/t/1110967",
           "publishedOn": "2025-02-12T07:14:36.000Z",
-          "wordCount": 644,
+          "wordCount": 679,
           "title": "我很讨厌「只花 x 天做了一个 App」这种说法",
           "imageUrl": null
         },
@@ -518,7 +561,7 @@
           "description": "Her0: \n都进来说说，你们挖了多少啊？",
           "link": "https://www.v2ex.com/t/1110964",
           "publishedOn": "2025-02-12T07:12:06.000Z",
-          "wordCount": 455,
+          "wordCount": 461,
           "title": "挖了 6 年的 Pi 币，终于可以交易了。大妈们这波赢麻了😄",
           "imageUrl": null
         },
@@ -538,7 +581,7 @@
           "description": "libai9633: \n关于我们：\n我们是总公司（千万海外用户）的一个子项目；我们有丰富的推广资源\n我们业务是 VPN ，正规香港公司，已上架海外各大应用商店\n我们的行业竞争不激烈，具有长期大量盈利潜质\n团队是远程工作，休假目前是单休+法定节假日休\n薪资 3500 美金/月试用期是周结，试用期 80%：结算 USDT ；转正月结\n我们是创业型公司；员工分红的总额是 30%\n目前有 6 个人；我预期一年之后，月利润能有 500W\n需求：\n整个系统的稳定性\n1.我们遭受过 CC 攻击和 DOS 攻击，需要有效防御方案，和压测能力\n2.我们的行业有 API 通讯域名/IP 被墙的问题；要的效果是用户在 APP 使用无感知；需要有效的升级方案\n我们有过证书被封，导致 APP 就会不可用，虽然能更换，但是用户会用不了客户端，需要加固方案\n4.我们 API 现在用的是 IP,导致无法使用 ssl panning, 所以要给一个方案, 如何解决这个问题\n加分项：\n能写代码做开发：PHP 或 golang\n其他：\n如果你在安全攻防方面有，压测能力，但对于其他方面不熟悉，我们可以外包合作\n联系方式：dGVsZWdyYW3vvJogQGRkZ29nbw==",
           "link": "https://www.v2ex.com/t/1110962",
           "publishedOn": "2025-02-12T07:09:31.000Z",
-          "wordCount": 474,
+          "wordCount": 483,
           "title": "创业公司招全职后端运维架构负责系统稳定性，月薪 3500 美金+技术分红",
           "imageUrl": null
         },
@@ -548,7 +591,7 @@
           "description": "Misty99: \n有一样的网友嘛 都找到出路了嘛。顶不住了打算找工作了",
           "link": "https://www.v2ex.com/t/1110960",
           "publishedOn": "2025-02-12T06:54:29.000Z",
-          "wordCount": 505,
+          "wordCount": 561,
           "title": "半年没上班了",
           "imageUrl": null
         },
@@ -578,7 +621,7 @@
           "description": "lukaktus6768: \n要是用阿里自研的 ai,怕是有点弱了吧",
           "link": "https://www.v2ex.com/t/1110957",
           "publishedOn": "2025-02-12T06:47:17.000Z",
-          "wordCount": 572,
+          "wordCount": 624,
           "title": "苹果跟阿里合作 AI，阿里有没有可能收了 ds",
           "imageUrl": null
         },
@@ -588,7 +631,7 @@
           "description": "llllliu: \n前面在 V 站发了帖子 卖出自己的凯迪拉克 SUV 标价参考的车 300 回收价格。询价的比较少 \n由于闲置太久最近打算把车出车商。在小红书发了贴，约了瓜子二手车。\n交易过程中遇到如下问题 求解惑\n小红书找我的大部分是三无小号 就是没什么动态 微信也没什么动态 号称是车商的那部分人。价格到倒是给到预期 不知道这个有没有什么坑。\n他们的合同我看了 现场验车付全款，回去自己做茶博士 如果三方 S 不能过 主张退车退款+赔偿购车款 10% 这条我觉得争议比较大，我主张 先找三方验车通过在全款交易 被车商拒。\n瓜子过来看车表示车况很好。验车师傅私下加我微信，嘱咐我别让平台知道。可能是想转手卖信息吧。\n有过和车商卖二手车的老哥麻烦帮我解惑一下？这种三无号的交易后续会有啥风险不？还是我找大点的车商交易比较好？",
           "link": "https://www.v2ex.com/t/1110956",
           "publishedOn": "2025-02-12T06:45:41.000Z",
-          "wordCount": 604,
+          "wordCount": 614,
           "title": "卖二手车的坑 求指教。",
           "imageUrl": null
         },
@@ -608,7 +651,7 @@
           "description": "broli7753: 上周,京东买了个国补电脑，到货后 快递员说必须当面激活并拍照 否则不给货。 \n  \n  于是要我拆了包装让其拍照。 结果小哥拍摄的照片都被京东系统拒了，小哥也是第一次见到这种设备，不知道怎么走流程。\n陷入僵局... \n眼看不能交货，我就去上班了。 他将拆封后的电脑带回快递站点。\n下午又给我打电话说 照片上传成功了。说就是要插电并开机， 我表示震惊。\n晚上下班回家，他送货上门交货，我问他还能退吗。  他说除非质量问题，否则不能。",
           "link": "https://www.v2ex.com/t/1110953",
           "publishedOn": "2025-02-12T06:40:33.000Z",
-          "wordCount": 562,
+          "wordCount": 580,
           "title": "京东国补 mac mini M4 须当面激活",
           "imageUrl": null
         },
@@ -618,7 +661,7 @@
           "description": "HkMuxxx: rt\nS10 相对于 S9 除了尺寸变大还有什么升级吗？我听说 S10 的后盖由陶瓷改成了铝，不耐腐蚀了，尤其是出汗较多的人群\n另外好奇一点 苹果手表什么时候出血压监测\nbtw 祝大家元宵节快乐",
           "link": "https://www.v2ex.com/t/1110952",
           "publishedOn": "2025-02-12T06:30:29.000Z",
-          "wordCount": 487,
+          "wordCount": 494,
           "title": "Apple Watch S9 还是 S10 ？",
           "imageUrl": null
         },
