@@ -197,43 +197,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -331,7 +294,7 @@
           "description": "mistygg: 被 flutter 搞崩溃了，以前的代码在 新电脑上各种兼容问题跑不起来，只剩降级到 14 这一条路了",
           "link": "https://www.v2ex.com/t/1110848",
           "publishedOn": "2025-02-12T02:13:20.000Z",
-          "wordCount": 390,
+          "wordCount": 394,
           "title": "macmini m4 可以降级到 macos 14 吗？",
           "imageUrl": null
         },
@@ -341,7 +304,7 @@
           "description": "kiritoyui: 应该是之前安装过 ntfs 相关的软件\n目前检索到有如下残留文件：\n/Library/StagedExtensions/Library/Extensions/ms_ntfs.kext   # 赤友 NTFS?\n/Library/StagedExtensions/Library/Extensions/ufsd_NTFS.kext   # Paragon NTFS\n/private/var/db/KernelExtensionManagement/AuxKC/CurrentAuxKC/StashedExtensions/E9DF9377-4216-4F6D-952E-095509CDB7FC/ufsd_NTFS.kext\n以上文件无法 sudo rm 删除，报错 Operation not permitted\n \n 已经尝试重新安装以上软件，又软件自带的卸载功能卸载，无效 \n请问如何正确删除以上扩展？",
           "link": "https://www.v2ex.com/t/1110847",
           "publishedOn": "2025-02-12T02:12:35.000Z",
-          "wordCount": 422,
+          "wordCount": 444,
           "title": "怎么删除 macos 残留的第三方 ntfs 扩展",
           "imageUrl": null
         },
@@ -351,7 +314,7 @@
           "description": "aincvy: \n如题，  我目前使用得是 17 款 mbp 16G 内存， 现在有点内存不够， 按照我得想法是就算换成 macmini m4 16+256 一样会内存不足，  要么加钱上更高得内存， 要么换 Windows 小主机\n我得猜测应该没错把？",
           "link": "https://www.v2ex.com/t/1110846",
           "publishedOn": "2025-02-12T02:10:48.000Z",
-          "wordCount": 582,
+          "wordCount": 666,
           "title": "macbookpro 16G 内存不足得话， macmini 16g 应该一样不足把",
           "imageUrl": null
         },
@@ -361,7 +324,7 @@
           "description": "NxxRngjnbgj: 昨天成都赛道已经拿下第一，看看到月底发布会的时候，能拿下几个赛道\n---------------------------\n高翔说雷总发布会要搞个大的，看弹幕说要承办国内的 FE ，不知真假\n---------------------------\n雷总确实太能营销了，对传统车企简直就是降维打击\n---------------------------\n唉，我也想买，可惜没钱~",
           "link": "https://www.v2ex.com/t/1110845",
           "publishedOn": "2025-02-12T02:08:54.000Z",
-          "wordCount": 371,
+          "wordCount": 384,
           "title": "su7 ultra 开始了",
           "imageUrl": null
         },
@@ -371,7 +334,7 @@
           "description": "SoulFlame: 星愿多少预测到一点了，没想到的是星越 L 。\n吉利好几台车都爬升了，要发力了嘛",
           "link": "https://www.v2ex.com/t/1110844",
           "publishedOn": "2025-02-12T02:06:21.000Z",
-          "wordCount": 457,
+          "wordCount": 562,
           "title": "一月份懂车排行星越 L 登顶没想到哇",
           "imageUrl": null
         },
@@ -381,7 +344,7 @@
           "description": "Bananana: 看随地吐痰帖子有感。\n个人不抽烟，闻到烟味会感觉很难受，\n中国感觉哪都有走在马路上叼着根烟，特别是还有人在电梯里抽烟，进电梯那烟味。。。\n比起来，日本真的好很多，基本上大家都会去吸烟室抽烟，没见过走在路上叼着根烟的。",
           "link": "https://www.v2ex.com/t/1110842",
           "publishedOn": "2025-02-12T02:05:26.000Z",
-          "wordCount": 379,
+          "wordCount": 424,
           "title": "随地吸烟，我最痛恨的公共恶习。有何改善之策？",
           "imageUrl": null
         },
@@ -391,7 +354,7 @@
           "description": "coolair: 在 Nginx 配置了多个站点的情况下，如果有些站点没有启用 https （使用了通配符证书），而有些启用了 https 的话。\n在浏览器中访问没有启用 https 的域名，会强制跳转到 https ，导致解析到启用了 https 的网站，而不是自己 http 的网站。\n这个有没有办法在不修改客户端浏览器的情况下解决？",
           "link": "https://www.v2ex.com/t/1110841",
           "publishedOn": "2025-02-12T02:05:02.000Z",
-          "wordCount": 519,
+          "wordCount": 595,
           "title": "请教一个 Nginx 配置和浏览器强制 http 转 https 问题",
           "imageUrl": null
         },
@@ -401,7 +364,7 @@
           "description": "guanhui07: 收入流水？",
           "link": "https://www.v2ex.com/t/1110839",
           "publishedOn": "2025-02-12T01:58:14.000Z",
-          "wordCount": 395,
+          "wordCount": 428,
           "title": "取香港开香港银行卡要准备哪些资料？",
           "imageUrl": null
         },
@@ -411,7 +374,7 @@
           "description": "PrayT: \n背景：我家目前是烧水壶直接接自来水烧开放到保温壶里面。因为小孩子喝奶，然后家里还买了那种 5L 的桶装水，和热水对冲泡奶粉用。\n问题：口感上，个人感觉是口感上肯定是桶装水口感远好于自来水的。所以想知道大家的喝的水是怎么个形式。是只喝桶装水、矿泉水之类的饮用水。还是直接喝烧开的自来水（冷却），抑或是自来水过滤后再烧开的自来水（冷却）。产生这个问题的原因还有就是买这种饮用水的设备的问题上跟家人讨论出来的",
           "link": "https://www.v2ex.com/t/1110838",
           "publishedOn": "2025-02-12T01:56:02.000Z",
-          "wordCount": 635,
+          "wordCount": 738,
           "title": "关于喝水的问题",
           "imageUrl": null
         },
@@ -421,7 +384,7 @@
           "description": "youshangdepangzi: 前情提示： https://www.v2ex.com/t/1105576?p=1#reply130\n过年了，饮食没控制，晚上也吃点东西了，然后胖了 6 斤，但性能力竟然神奇般的回复了大半，巨硬，坚挺，最后这几天一次搞一个多小时也是，有一次搞了快两个消息，真痛快啊，可以可以，以后不能过度减肥，不过减肥的效果还是好的，人瘦了，好看",
           "link": "https://www.v2ex.com/t/1110836",
           "publishedOn": "2025-02-12T01:50:14.000Z",
-          "wordCount": 588,
+          "wordCount": 770,
           "title": "人到中年，性能力开始不行（二）",
           "imageUrl": null
         },
@@ -431,7 +394,7 @@
           "description": "easyii: 小区是拆迁房，都是隔断的房间，这两天去楼顶和楼层都找不到对应的房间。\n找物业，因为不是业主，无视，说他们也找不到。\n凌晨 3:30 开始鸡叫，隔一个小时鸡叫一次。。。\n求支招？换房还是等。。。",
           "link": "https://www.v2ex.com/t/1110835",
           "publishedOn": "2025-02-12T01:47:59.000Z",
-          "wordCount": 522,
+          "wordCount": 638,
           "title": "广大 v 友，年后回杭，发现， 有人在窗户外面养大公鸡！",
           "imageUrl": null
         },
@@ -441,7 +404,7 @@
           "description": "sumarker: \n因为一些原因下定决心要结束超过 5 年的北漂生活，回到老家。\n有没有 V2er 说下自己的经历，帮 OP 避避坑。\n有哪些事是可以提前准备的。五险一金提取 OR 转移 如何最大化利用？\n希望也能帮助到有同样想法的人",
           "link": "https://www.v2ex.com/t/1110834",
           "publishedOn": "2025-02-12T01:47:52.000Z",
-          "wordCount": 718,
+          "wordCount": 858,
           "title": "终于下定决心要结束北漂生活了",
           "imageUrl": null
         },
@@ -451,7 +414,7 @@
           "description": "BeforeTooLate: \n新闻源头： https://www.cls.cn/detail/1940305\n财联社 2 月 11 日电，苹果和阿里巴巴将合作为中国 iPhone 用户开发 AI 功能。知情人士透露，此举是苹果应对在中国销售下滑的策略之一，旨在提供更具吸引力的软件功能。知情人士表示，苹果自 2023 年起开始测试来自知名中国人工智能开发者的不同人工智能模型，并在去年选择了百度作为主要合作伙伴。知情人士称，苹果在最近几个月开始考虑其他选项，评估腾讯、字节跳动、阿里巴巴以及 Deepseek 开发的模型。 (The Information)",
           "link": "https://www.v2ex.com/t/1110832",
           "publishedOn": "2025-02-12T01:43:50.000Z",
-          "wordCount": 463,
+          "wordCount": 520,
           "title": "据称苹果和阿里巴巴将合作为中国 iPhone 用户开发 AI 功能？",
           "imageUrl": null
         },
@@ -461,7 +424,7 @@
           "description": "yyqxjwxy: 而且直接访问域名显示的是老版本的代码，必须在域名后加/任意字符才会正确的打开这个页面",
           "link": "https://www.v2ex.com/t/1110831",
           "publishedOn": "2025-02-12T01:42:33.000Z",
-          "wordCount": 650,
+          "wordCount": 676,
           "title": "有没有运维大佬我部署的网站直接访问域名打不开，必须得在域名后加/xxx 才能进入",
           "imageUrl": null
         },
@@ -471,7 +434,7 @@
           "description": "dingjuhan: \n最近想换工作，因为在武汉都是一些不喜欢的行业光通信居多，我想搞机器人相关的行业看来看出还是深圳或者杭州一线城市岗位多一些，不知道怎么办，好迷茫",
           "link": "https://www.v2ex.com/t/1110829",
           "publishedOn": "2025-02-12T01:38:28.000Z",
-          "wordCount": 429,
+          "wordCount": 456,
           "title": "嵌入式的未来",
           "imageUrl": null
         },
@@ -481,7 +444,7 @@
           "description": "c2ch: \n我先说：还没看过，打算去看一下。各位都几刷。经常刷到有人都三刷，四刷，这票房能不上来吗。",
           "link": "https://www.v2ex.com/t/1110827",
           "publishedOn": "2025-02-12T01:33:57.000Z",
-          "wordCount": 1226,
+          "wordCount": 1320,
           "title": "你们都几刷哪吒 2？这票房太猛了。。",
           "imageUrl": null
         },
@@ -491,7 +454,7 @@
           "description": "LHRUN: \n首先祝各位大佬元宵节快乐, 开工大吉, 2025 都 发发发!!! 🎉\n2024 年年中我加入了现在的开源团队, 虽然是开源团队, 但是我们的工作重心在过去一直放在内部的闭源项目, 一直在做一些面向公司需求的功能. 直到今年, 我们决定将更多的时间和精力转向开源, 大干一场 😂\n对于我们来说, 开源既是有些小私心, 想要提升团队的社区影响力, 也是想回馈技术社区、推动开源生态发展. 我们也希望通过开源和更多的技术同行建立联系, 分享我们的成果, 并在这一过程中不断进步. 今年, 我们已经有了不少计划和想法\n我们团队最初是在内部逐步集结起来的, 后来也加入一些来自社区的开发大佬. 不仅有充满干劲的应届名校生, 还有多年经验的大厂资深开发和架构, 也有一直活跃在开源社区的高 Star 达人.\n话不多说，欢迎大家关注我们的 GitHub ！今年会有很多新的功能和开源产品发布，我们会持续更新，也欢迎大家提建议和参与进来。\n开源项目介绍:\nOneTerm 是去年才正式开源的产品，是一个简单轻量的堡垒机项目. 实际上它在我们内部已经稳定使用了两年多。这个项目是用 GO 写的，目前堡垒机该有的核心功能都有了, 比如终端登录、会话录像、实时监控、访问控制、密码管理、安全审计等等, 具体内容可以看 README. \n如果觉得不错, 欢迎点一个 Star ⭐️. Star 就是对我们最大的鼓励. Thanks !\n如果你有任何建议，无论是功能上的，还是文档、交互体验方面的，欢迎随时告诉我们，或者直接联系我！让我们一起把这个项目做大做强！🥳\nGithub: https://github.com/veops/oneterm",
           "link": "https://www.v2ex.com/t/1110826",
           "publishedOn": "2025-02-12T01:32:51.000Z",
-          "wordCount": 451,
+          "wordCount": 461,
           "title": "2025 开源新征程",
           "imageUrl": null
         },
@@ -501,7 +464,7 @@
           "description": "sparrowwht7: \nWordix\n开源地址: https://github.com/sparrow-js/wordix\n体验地址: https://www.wordix.so/ \n宣传目的\n项目较为复杂,持续迭代中,希望邀请约 100 位种子用户体验并使用,同时接收用户反馈以修复 Bug 。目前注册后可获得 50 万 token(约 $1,按 one-api 计算)的免费额度,可供体验。\n产品介绍\nWordix 是一款完全由我个人耗时三个月,借助 AI 编程开发的工具。它能够通过执行文档流生成专属的 AI 应用,并集成了多种 LLM(大语言模型),包括:OpenAI 、Deepseek 、Anthropic 、Google 等。用户可以通过类似 Notion 的交互方式,利用文档流构建工作流。\n工具截图\n开发工具\nApp\n主页\n生成结果\n\n\n\n\n\n\n\n\n\n\n\n开源说明\nWordix 代码完全开源,支持自托管。您只需添加环境变量,并使用 one-api 管理渠道 token 即可。\n开源地址: https://github.com/sparrow-js/wordix\n使用步骤\n创建项目\n \n\n\n进入文档编辑\n \n\n\n运行调试\n \n\n\n发布\n \n\n\n\n如果有时间帮助体验测试,感谢🙏!",
           "link": "https://www.v2ex.com/t/1110825",
           "publishedOn": "2025-02-12T01:32:13.000Z",
-          "wordCount": 424,
+          "wordCount": 440,
           "title": "[开源] 借助 AI 编程耗时三个月，通过执行文档流，生成专属 AI 应用",
           "imageUrl": null
         },
@@ -511,7 +474,7 @@
           "description": "sdoughnut: win11 系统，chrome 浏览器，有些网站每次进去都显示\n[此处为网址]\n正在验证您是否是真人。这可能需要几秒钟时间。\n[此处是 cloudflare 的提示，有个圆圈一直转啊转]\n继续之前，[此处为网址] 需要先检查您的连接的安全性。\n等待的时间特别特别长，请问该如何解决？\n还有什么其他能帮助解决的信息遗漏了，也烦请各位告知。",
           "link": "https://www.v2ex.com/t/1110824",
           "publishedOn": "2025-02-12T01:29:56.000Z",
-          "wordCount": 512,
+          "wordCount": 524,
           "title": "部分网站每次进去都显示“正在验证您是否是真人。这可能需要几秒钟时间”该如何解决？",
           "imageUrl": null
         },
@@ -521,7 +484,7 @@
           "description": "linjunyi22: 昨天看有个老哥的帖子咨询炒股的： https://www.v2ex.com/t/1110500\n我也是个股市新手，最近一直在找一些入门资料...\n自己作为开发，之前学习技术之类的都能找到一个 roadmap ，按 roadmap 来入门并进阶\n但在股市这块有点茫然，不太清楚该怎么入门，请教各位有什么入门心得，该如何开始？谢谢 🌹",
           "link": "https://www.v2ex.com/t/1110823",
           "publishedOn": "2025-02-12T01:24:50.000Z",
-          "wordCount": 694,
+          "wordCount": 755,
           "title": "股市投资入门请教",
           "imageUrl": null
         },
@@ -531,7 +494,7 @@
           "description": "xierduo: 现货不议价，只要链接还在就可以直接拍。\n不挑号，盲发。走闲鱼，非偏远圆通包邮。\n全新未激活原封带卡板，有需要的朋友可以联系我\nV：Ranger7hero\n或者\nTelegram: @haisenbergor\n [闲鱼]  https://m.tb.cn/h.TKU3qTI?tk=RAKRe6Ao1Jo CZ057 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」\n点击链接直接打开\n或闲鱼搜用户：请叫偶达文西\n飞机换绑不成功的话就更换节点，或者下载最新版本重新注册。 激活后一年内免费接码，一年到期前充值 5NZD 或者转入 1NZD 即可续期一年，可以加我 V 已建互转群",
           "link": "https://www.v2ex.com/t/1110822",
           "publishedOn": "2025-02-12T01:23:49.000Z",
-          "wordCount": 429,
+          "wordCount": 531,
           "title": "丝滑接码 0 成本保号 25 年元旦新西兰激活 skinny 电话卡¥78 包邮 现货不多",
           "imageUrl": null
         },
@@ -551,7 +514,7 @@
           "description": "zhangxiaoaiw: \n个人胡子长的特别快，每天早上都要刮，感觉很麻烦，刮胡刀，时间都是成本。\n考虑要不要去直接激光脱毛，这样一劳永逸，有没有研究过的老哥，听说韩国那边很多男的都这样。",
           "link": "https://www.v2ex.com/t/1110819",
           "publishedOn": "2025-02-12T01:12:01.000Z",
-          "wordCount": 925,
+          "wordCount": 1072,
           "title": "V 友们是每天都刮胡子么，有个想法，大家觉得怎么样？",
           "imageUrl": null
         },
@@ -571,7 +534,7 @@
           "description": "kuanos: \n早上看有货随手下了一台，3599 ，目前还没有使用场景。。\n家里是 amd R7 5800x++B550+2070 显卡，玩游戏够了，就是系统总不稳定，偶尔卡死",
           "link": "https://www.v2ex.com/t/1110817",
           "publishedOn": "2025-02-12T01:04:18.000Z",
-          "wordCount": 617,
+          "wordCount": 744,
           "title": "某东 Mac mini 4 丐版放开买了？",
           "imageUrl": null
         },
@@ -591,7 +554,7 @@
           "description": "skytenlc: https://learnreact.design/posts/what-is-react/zh",
           "link": "https://www.v2ex.com/t/1110815",
           "publishedOn": "2025-02-12T00:46:45.000Z",
-          "wordCount": 401,
+          "wordCount": 417,
           "title": "想学一下 React，昨天看到一个内容很好的网站，但是看完之后没有续集了， v 友有好的教程吗？",
           "imageUrl": null
         },
@@ -601,7 +564,7 @@
           "description": "WillemNZ: \n坐标新西兰奥克兰，主角是我太太。在国内的时候毕业于华农中文系，做过几年文秘类工作。来新西兰后断断续续在超市，寿司店打过零工，IT 行业 0 经验。疫情期间在家自学考了 ISTQB ，去年读了一个奥克兰大学 1 年期 pgd 线上 IT 课程，圣诞节前毕业。去年年底回国度了个假，1 月初回奥克兰找工作。2 周前收到个本地数字传媒集团的面试邀请，职位是 associate test engineer ，运气好到爆炸，第一次有面试就直接通关拿到了 offer 。",
           "link": "https://www.v2ex.com/t/1110814",
           "publishedOn": "2025-02-12T00:24:09.000Z",
-          "wordCount": 668,
+          "wordCount": 713,
           "title": "中文系 0 经验在新西兰成功拿到 QA 工作 offer",
           "imageUrl": null
         },
@@ -621,7 +584,7 @@
           "description": "zhouyanliang: \n我们做什么\nNocoBase 是一个开源的无代码开发平台，为企业提供无代码/低代码基础设施。我们的商业用户分布在全球数十个国家，具备良好的用户口碑和越来越强的盈利能力。我们正在寻找一位优秀的 Node.js 后端工程师加入我们的技术团队，负责后端服务的设计、开发工作。\n我们是一个天然的远程工作团队，大家分布在各地。我们鼓励团队成员自由发挥，不受时间和地点限制，也没有任何繁琐的流程或约束，希望每个人都能够在最舒适的环境中发挥最大的创造力。\n职位要求\n熟练掌握 Node.js 编程，理解常见设计模式，深入了解其运行机制，并具备丰富的性能调优经验。\n熟悉 MySQL 、PostgreSQL 等常用关系型数据库，精通数据库建模与设计方法，具备数据库性能调优能力，能够优化复杂查询并提升数据访问效率。\n热衷于编写高效、清晰、易于维护的代码，具备良好的单元测试和集成测试习惯，确保系统的高可用性和可靠性。\n熟悉开源 Web 开发框架（如 Express.js 、Koa ）。\n具备出色的服务端问题分析和解决能力，能够持续优化架构设计，提升系统的稳定性与可扩展性。\n熟悉在线应用性能优化方法，能够在生产环境中快速定位并解决故障，保障系统稳定运行。\n长期主义者\n加分项\n具备良好的产品思维，能够理解业务需求并独立设计技术方案，将产品需求转化为可行的技术实现。\n具备分布式应用开发经验，了解分布式系统的部署、运维和扩展方法，能够高效管理微服务架构。\n理解 CI/CD 流程，能够推动工程效率提升，优化开发和部署流程。\n对大语言模型（ LLM ）有一定了解，对应用或研究此类技术抱有浓厚兴趣，并能够为后端系统提供支持或优化。\n具备前端开发基础，能够协作设计并实现前后端交互，提升全栈开发能力。\n薪资待遇\n基本工资：18-25k RMB/月\n年末奖金\n联系方式\nhello+jobs@nocobase.com",
           "link": "https://www.v2ex.com/t/1110812",
           "publishedOn": "2025-02-12T00:08:47.000Z",
-          "wordCount": 484,
+          "wordCount": 491,
           "title": "寻找 Node.js 后端工程师（远程工作）",
           "imageUrl": null
         },
@@ -631,7 +594,7 @@
           "description": "jojoadv: \n主要是两点:\n首先是切换到 finder ，可是 finder 又不置顶到前台，当前应用也失去焦点。你要是切到 finder 也行啊，为什么 finder 不出现在所有窗口前？\n再就是当我全屏看视频时，比如 B 站，我从全屏 B 站切到别的应用后，然后我再按一下 command+tab ，结果切到是 Safari 那个窗口，上面显示“点按以退出全屏幕”，从全屏切到别的应用，那也从别的应用直接切到网页全屏啊，服了，什么逻辑啊",
           "link": "https://www.v2ex.com/t/1110811",
           "publishedOn": "2025-02-11T22:48:27.000Z",
-          "wordCount": 612,
+          "wordCount": 618,
           "title": "Mac 上切换应用真的烦死人。",
           "imageUrl": null
         },
@@ -651,7 +614,7 @@
           "description": "Amose2024: \n2016 年的时候，我被深圳的一同事强行拉去某酒店会议厅听课，名字好像叫“指尖上的商机”云云。\n当时我意识到这就是船销，但迫于给同事面子，还是坐在那里听完了。事后我劝他不要信，结果他很不高兴。借一起上厕所的机会，他将我引荐给他的上一级。我只是应付了一下，他们还要留听课的人一起吃晚餐，我借机跑了。从此我那位同事都没正眼瞧过我一眼，心底里觉得我傻，愚笨到不可救药。\n直到今天看新闻才知道骗局被揭穿了。\n只是可怜我那个同事，当时同时打三份工，一天休息不到 3 小时，不断往里投钱。。。\n已经好多年没联系了，想起来真是令人心痛。",
           "link": "https://www.v2ex.com/t/1110809",
           "publishedOn": "2025-02-11T22:08:32.000Z",
-          "wordCount": 431,
+          "wordCount": 437,
           "title": "看到 MBI 的消息有感",
           "imageUrl": null
         },
@@ -681,7 +644,7 @@
           "description": "us10hmg: 工作内容：\n1. ﻿﻿负责 5g 网络规划与优化相关工作，为全球 200 多个国家与地区，提供高效、稳定的网络服务。\n2. ﻿﻿负责 PB/TB 级别数据平台系统的优化处理，保障系统安全、可靠、可用、可拓展\n3. ﻿﻿确定后端架构的整体技术路线和架构走向，保障系统整体架构良性发展\n4. ﻿﻿突破当前技术局限性，沟通协调技术团队，保障优化特性高效落地\n岗位要求：\n1. ﻿﻿精通 java 相关技术，编程基础扎实，理解 i/o 、多线路、集合等基础框架，具备优秀的编程能力以及良好的开发喜欢\n2. ﻿﻿精通 java 以及 Web 应用的开发，深入了解 spring/lbatis/Cache/JVM 等机制与代码\n3. ﻿﻿主导过大规模系统的架构设计，精通服务化、服务治理、领悟建模，对系统和业务抽象有非常丰富经验\n4. ﻿﻿熟悉分布式系统的设计和应用，熟悉分布式、缓存、消息等机制\n薪资福利：\n1 、基本工资+绩效工资+年终奖（ 2-4 个月，一般绩效 A-4 个月，B-2 个月）；\n2 、试用期内（ 6 个月）工资不打折\n3 、五险一金基数按基本工资，公积金比例 5%-12%，具体看 base 地。\n4 、带薪年假、入职&年度免费体检、免费夜宵、班车/加班打车免费、下午茶、节假日礼品等\n联系邮箱：\nbase64: bXJyb290NDA0QGdtYWlsLmNvbQ== 邮件主题请备注 [ V2EX ]",
           "link": "https://www.v2ex.com/t/1110805",
           "publishedOn": "2025-02-11T17:59:53.000Z",
-          "wordCount": 474,
+          "wordCount": 483,
           "title": "招聘 Java 开发工程师 [9-29k]",
           "imageUrl": null
         },
@@ -731,7 +694,7 @@
           "description": "LaTero: 去年 Unity 画 Unity 7 的大饼的时候还挺兴奋，股价也从 14 不到涨到了最高$27 （巅峰 200 ）。现在看真是烂泥扶不上墙，behavior graph 和 pro builder 实锤被裁，Unity 7 最重要特性之一的.Net Core CLR 也据说要没了，股价也掉回了 20 。\n.Net Core CLR 是把 runtime 和 build tools 从自制 Mono fork 改成微软官方的.Net Core ，可以大幅降低编译和 domain reload 时间。（现在大一点的项目改一行代码就要等上超过一分钟！！！ C++都没你离谱！）而 Behavior Graph 是一个填补了 Unity 长期以来连个决策树都没有的空白，极大地简化了 AI 等复杂逻辑的开发，UI 和 UX 远远强于第三方 asset ，结果去年底刚 release ，才更到 1.0.8 就没了。\n现在对 Unity 不抱任何希望了。无论是现状还是前景，Unreal 都是遥遥领先。Unity 这猪鼻管理层，游戏引擎做不好，看到虚幻往游戏外发展也屁颠屁颠跟在后面，搞了几年影视被吊着打又取消了。广告也在下坡，最近 AI 火了又来蹭搞什么 Muse 想骗投资，实际一用那叫一个烂。按这个架势新动画系统和 UI toolkit 也危险（新动画系统 PM 离职，UI toolkit 好久没什么动静）。Unity 完蛋吧，赶紧的。",
           "link": "https://www.v2ex.com/t/1110800",
           "publishedOn": "2025-02-11T16:45:10.000Z",
-          "wordCount": 492,
+          "wordCount": 494,
           "title": "Unity 裁员把刚加的决策树又干没了， Unity 7 的大饼很可能也没了。",
           "imageUrl": null
         },
