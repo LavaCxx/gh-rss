@@ -191,6 +191,43 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -298,7 +335,7 @@
           "description": "StringArk: Hello everyone, I’ve been testing various transcription software for handling meeting recordings, interviews, and other audio files. After trying several tools, I have to say that AccurateScribe.ai stands out.\nCompared to Turboscribe, the advantages of AccurateScribe.ai are very clear:\nHigh Accuracy: AccurateScribe.ai uses OpenAI’s Whisper technology, with an impressive accuracy rate of 99.8%. It handles multiple accents, complex terminology, and background noise much better.\nMultilingual Support: It supports over 134 languages, making it perfect for global content creators and professionals. On the other hand, Turboscribe doesn’t offer the same level of language diversity.\nFaster Transcription: The transcription process is faster, which helps save time when dealing with large files.\nBetter Features: AccurateScribe.ai offers features like timestamp integration, smart formatting, and various export formats (TXT, DOC, PDF, SRT) that make it much more versatile and user-friendly.\nIf you’re looking for a more reliable and efficient transcription tool, I highly recommend giving AccurateScribe.ai a try. It’s a game-changer! https://accuratescribe.ai",
           "link": "https://www.v2ex.com/t/1111059",
           "publishedOn": "2025-02-12T17:08:15.000Z",
-          "wordCount": 495,
+          "wordCount": 509,
           "title": "AccurateScribe.ai is way better than Turboscribe.ai",
           "imageUrl": null
         },
@@ -328,7 +365,7 @@
           "description": "kaminono: \n\"干中学独立开发访谈\"是公众号 [青年小雨] 的独立开发群组内的活动，希望可以让更多朋友了解一些独立开发者和他们的项目。\n可能一些读者需要这些项目，我希望可以帮助群友增加成交机会。\n可能一些读者正在犹豫要不要开始做独立项目，我希望可以激励你勇敢迈出第一步。\n文末我会放出项目链接，欢迎大家前往体验。\n如果你希望和大家交流，关注我，拉你进群。\n0 、简单自我介绍，让大家快速认识你\n刚子：快速认识也不是什么好事，有被利用的价值才有被认识的需要，就是搬砖的，其实没啥好介绍。\n小雨：简洁直白的自我介绍，也让人感受到一种自嘲和真实。虽然说自己是“搬砖”，但也正是这种踏实的态度才是很多独立开发者的真实写照，值得敬佩。\n1 、能简单介绍一下你的项目和核心功能吗？\n刚子：就是一般个体服务类型店里用的开会员卡（储值卡），记账软件,详细可以见软件首页： https://soft.hommm.com\n小雨：针对个体商户的记账软件，尤其是会员卡和储值卡功能的设计，能够帮助他们更高效地管理业务。这个领域是一个非常实用的市场，很多小商户都迫切需要这种简单易用的工具。通过提供实用的功能，能够真正解决用户的痛点。\n2 、这个项目是如何起步的？背后有什么灵感？\n刚子：本身就是专门做管理后台项目的搬砖，不涨技术还累。其实也没啥灵感，发现会员管理表格模板在咸鱼上也有很多人买，主要是这个简单啊，而且市面上有很多产品可以见鉴（这点很重要），如果还有很多这样的没技术产品还活着，那就不是拍脑袋的需求，直接卷（抄）起来就是....\n小雨：非常务实的思维，看到市场需求后，直接切入并简化了功能，降低了开发难度。正如你所说，如果市面上已有类似产品且能存活，就说明有需求。而你通过简化和使用现有的技术栈，有效降低了开发的复杂度，同时实现了快速推出。\n3 、初期遇到过哪些挑战？是如何解决的？\n刚子：一开始呢，是做…",
           "link": "https://www.v2ex.com/t/1111056",
           "publishedOn": "2025-02-12T15:46:43.000Z",
-          "wordCount": 408,
+          "wordCount": 410,
           "title": "干中学独立开发访谈 02：小店会员管家 针对个体商户的会员储值记账系统",
           "imageUrl": null
         },
@@ -338,7 +375,7 @@
           "description": "wxmomomowx: 就是好神奇，现在也不清楚安装 app 时是用了谁的账号，当时用爱思时用来越狱 注册了个新的 icloud\n有些 app 在商店里找不到的，爱思里有，安装了个爱思独有的 app （不是爱思助手 app) 类似迅雷的工具 app 两年了，app 不过期的， 而且手机上的爱思助手 app 早删除了",
           "link": "https://www.v2ex.com/t/1111055",
           "publishedOn": "2025-02-12T15:33:56.000Z",
-          "wordCount": 369,
+          "wordCount": 380,
           "title": "爱思好牛啊， 有原理科普为什么可以做到， mac 系统安装个 app 到手机上，两年了，不会过期。",
           "imageUrl": null
         },
@@ -528,7 +565,7 @@
           "description": "yfixx: 手动的不喜欢，主要用电动的，每次刮胡子都怕夹住胡子生疼，虽然说有一点心理作用，但是角度不对方向不对就有可能夹胡子或者扯一下，每次都小心翼翼的，而且不敢用快速档那个夹住更疼。越小心越怕就越可能夹，不知道你们是不是这样，还是剃须刀便宜两三百的那种不好用的缘故",
           "link": "https://www.v2ex.com/t/1111029",
           "publishedOn": "2025-02-12T11:47:19.000Z",
-          "wordCount": 498,
+          "wordCount": 500,
           "title": "你们刮胡子会怕夹胡子吗",
           "imageUrl": null
         },
