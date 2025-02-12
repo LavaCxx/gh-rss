@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,6 +187,43 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -244,6 +275,46 @@
       ]
     },
     {
+      "title": "VPS信号旗播报 - Telegram Channel",
+      "feedUrl": "https://rsshub.app/telegram/channel/vps_xhq",
+      "siteUrl": "https://t.me/s/vps_xhq",
+      "articles": [
+        {
+          "id": "https://t.me/vps_xhq/696",
+          "author": null,
+          "description": "DMIT补货限量款 29.90刀年付美西9929\nDMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移动走CMIN2 回程。\n配置如下：\n1 vCPU           1 GB RAM\n10G SSD       400GB Transfer\n500Mbps      1 IPv4 & 1 IPv6 /64\nhttps://www.dmit.io/aff.php?aff=3439&pid=231\n该机器每日限 100 个订单。（更新：已售罄）\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/696",
+          "publishedOn": "2025-01-29T09:14:56.000Z",
+          "wordCount": null,
+          "title": "DMIT补货限量款 29.90刀年付美西9929 DMIT 年付 29.9 美元限量版机器 LAX.EB.INTRO，该机型位于美国西部，具有Eyeball 网络层级，电信联通走 9929 线路回程，移...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/695",
+          "author": null,
+          "description": "VPS信号旗播报:\nBuyVM 宣布已被收购，卢森堡机房将迁移至荷兰  BuyVM 的老板在 LowEndTalk 上发帖宣布，BuyVM 已被 Cloudzy AI 收购，买主同样是一个云服务提供商，由 BuyVM 老板的朋友 Hannan Nozari 运营。他保证，除了换老板以外几乎什么都没有改变，老员工还在，他会继续参与运营，用户的IP、硬件配置、服务一如既往。除了一个问题。  BuyVM 将在未来6个月内搬迁卢森堡机房，公告解释原因为“缺少远程协助，以及供应商相关问题不断，几乎无法在该地点开展业务。”卢森堡机房一直…\n\nBuyVM 改将卢森堡机房迁往瑞士\n今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决定的荷兰。\n这家知名但是小众的 IDC 只有少数人员维护，抗版权投诉服务器是他们业务的特点。BuyVM 于本月初宣布被收购并由于维护困难的技术原因迁移卢森堡机房的决定。运营者很可能是在听取了 LET 社区用户的一系列反馈后做出了改变，一些用户非常排斥在欧盟成员国托管服务器。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/695",
+          "publishedOn": "2025-01-25T07:34:43.000Z",
+          "wordCount": null,
+          "title": "↩️ BuyVM 改将卢森堡机房迁往瑞士 今天，加拿大主机商 BuyVM 在其 Discord 频道发帖表示，由于大量抗议，该企业“看起来”将把卢森堡机房迁往瑞士而不是此前决...",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://t.me/vps_xhq/694",
+          "author": null,
+          "description": "腾讯云轻量锐驰200M版内测结束，发售在即\n该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带宽轻量云服务器后所采取的一项重要防御措施。\n腾讯云的200M轻量售价40元起（2C-1G-40G），在高配置机型上较阿里云有一些价格优势，但是香港区域低配版缺货严重。腾讯云轻量可能开出7K83、7K62 CPU（2.6GHz/3.3GHz），也可能开出 8255C 的CPU（2.5GHz/3.1GHz），前者主频略高于后者。一些区域开启IPv6后7K62将切换至英特尔8255c，7K83不支持IPv6。\n在内测中一些人已摸索出最优购机方案，其原理是先凑单再退款，之后通过领取的大额优惠券进行续费便能享有大幅折扣。评论区将给出一些由网友发布的攻略帖子链接供参考。预计腾讯将很快正式发售200M轻量云主机。\n尽管实际输出带宽还有待商榷，但两大巨头角力打破了国内云服务器低带宽的市场格局，为国内云主机市场的发展指明了方向，对用户而言是利好消息。\n[消息等级 Level C2 · 简要]",
+          "link": "https://t.me/vps_xhq/694",
+          "publishedOn": "2025-01-19T11:07:54.000Z",
+          "wordCount": null,
+          "title": "腾讯云轻量锐驰200M版内测结束，发售在即 该厂商自17日-19日的内测环节已然接近尾声，腾讯云200M轻量云主机正式发售在即。这是腾讯云继阿里云上月26日推出200M带...",
+          "itunes": {},
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "V2EX-最新主题",
       "feedUrl": "https://rsshub.app/v2ex/topics/latest",
       "siteUrl": "https://www.v2ex.com/",
@@ -274,7 +345,7 @@
           "description": "mariljacksoa: 最近打算购买安卓手机，之前一直用 iPhone ，iPhone 是 256GB ，现在才用了一半内存。安卓的话，256GB 够用吗？买 12GB 还是 16GB 的？\n       iPhone 暂时当备用机，以后可能就使用一部安卓机。\n       手机使用情况主要是微信、B 站、抖音等，游戏只玩 LOL 手游。\n       目前是想购买 OPPO Reno13 ，因为比较喜欢这款手机外观，处理器是天玑 8350 ，不知道怎么样（顺便吐槽一下现在国产安卓旗舰机型圆形镜头，真的好丑，个人审美哈）。也有考虑小米 15 ，纠结中。V 友可以给个建议吗？或者推荐一下其他也行。",
           "link": "https://www.v2ex.com/t/1110923",
           "publishedOn": "2025-02-12T05:11:45.000Z",
-          "wordCount": 807,
+          "wordCount": 861,
           "title": "安卓手机 256GB 够用吗",
           "imageUrl": null
         },
@@ -284,7 +355,7 @@
           "description": "ajaxgoldfish:",
           "link": "https://www.v2ex.com/t/1110921",
           "publishedOn": "2025-02-12T05:04:13.000Z",
-          "wordCount": 518,
+          "wordCount": 539,
           "title": "刚上车了人生第一台 mac 电脑别人国补仅拆封的 7199 的 m3 MacBook air 我+50 收回来的，这个价怎么样",
           "imageUrl": null
         },
@@ -294,7 +365,7 @@
           "description": "NianBroken: \n常规的 APP 和网站都是只能看到实时金价或者最近一年的金价，但是我想查看最近 5 年甚至更久的金价。 想知道有这样的 APP 或者网站吗？",
           "link": "https://www.v2ex.com/t/1110920",
           "publishedOn": "2025-02-12T05:02:57.000Z",
-          "wordCount": 418,
+          "wordCount": 115,
           "title": "有没有可以看到最近 5 年甚至更久的黄金金价的 APP 或网站？",
           "imageUrl": null
         },
@@ -324,7 +395,7 @@
           "description": "revival83: 不一定出什么完全问题吧？",
           "link": "https://www.v2ex.com/t/1110915",
           "publishedOn": "2025-02-12T04:47:44.000Z",
-          "wordCount": 538,
+          "wordCount": 599,
           "title": "Mac 转 win10 的请问大佬， win10 要是停止更新了，有必要升级 11 么？",
           "imageUrl": null
         },
@@ -364,7 +435,7 @@
           "description": "wcao: \n\n\n这是在线的地址：zcoloring.com",
           "link": "https://www.v2ex.com/t/1110911",
           "publishedOn": "2025-02-12T04:36:52.000Z",
-          "wordCount": 405,
+          "wordCount": 397,
           "title": "有奖问答（被采纳的赠送 zcoloring ai 模板源码一份），我现在的网站索引 17k, 但是点击量很低。是什么原因，网站是 AI 生成图片的网站。详细的网站信息如下：",
           "imageUrl": null
         },
@@ -394,7 +465,7 @@
           "description": "YaD2x: \n替身边的朋友咨询\n他已经写了几篇短篇小说，有发表过一篇，最近觉得自己习作水平停滞，产生了报写作班的想法。将近 1 万元的进阶课程中，包括老师提供四篇稿子的修改建议及一些直播课程。 \n跟的老师是一个叫周如刚的作家。\n我对这个不太了解，v2 大佬较多，涉及广泛。我是觉得 1 万块有点贵了，因为 9.9 的编程课程全网都是。\n有大佬能展开说说，是否报班，是否有坑，是否属于割韭菜。\n附上作家的视频号",
           "link": "https://www.v2ex.com/t/1110908",
           "publishedOn": "2025-02-12T04:12:03.000Z",
-          "wordCount": 409,
+          "wordCount": 423,
           "title": "关于学习写作是否有必要报培训班",
           "imageUrl": null
         },
@@ -404,7 +475,7 @@
           "description": "NianBroken: \n常规的 APP 和网站都是只能看到实时金价或者最近一年的金价，但是我想查看最近 3 年甚至更久的金价。 想知道有这样的 APP 或网站吗？",
           "link": "https://www.v2ex.com/t/1110907",
           "publishedOn": "2025-02-12T04:11:05.000Z",
-          "wordCount": 409,
+          "wordCount": 411,
           "title": "有没有可以看到最近 3 年甚至更久的黄金金价的 APP 或网站？",
           "imageUrl": null
         },
@@ -424,7 +495,7 @@
           "description": "ZhuWenJian: \n24 年 11 月被裁员，后面玩了两个星期，然后投简历，发现没什么公司年前招人。\n所以年后回来投，面了 6 家公司，好多都要求音视频经验，可惜以前没接触过。\n目前只有一个外包 offer （ n-5 ）*（ 14-1 ）。\n二本学历太糟糕了，好公司的简历筛选关都过不去。\n没啥存款了，准备接了去上班。\n职场天花板就这样，还有 6 年也 35 岁了，上班之后业余继续专心搞副业（失败，没赚回成本）。",
           "link": "https://www.v2ex.com/t/1110904",
           "publishedOn": "2025-02-12T03:58:25.000Z",
-          "wordCount": 550,
+          "wordCount": 572,
           "title": "4 年安卓，二本，求职真难，只拿了 1 个外包 offer，准备去上班了。",
           "imageUrl": null
         },
@@ -444,7 +515,7 @@
           "description": "moment082: \n最近几天，各大社区平台被 DeepSeek 刷屏了，不得不去体验一番。本来已经对 “百模大战” 审美疲劳了，但这个国产两个字就深深地吸引到了我，让我来描述 DeepSeek 的出现，那就真的是 孙猴子改生死簿，地覆天翻。\n但是 DeepSeek 实在是太火热了，导致截至今天都太多人反问，基本上只能每天问它一句，如果再进行上下文追问，就会服务器繁忙，请稍微再试了。\n如果你非常想使用，不妨来试试我们搭建的这个满血 DeepSeek ，响应速度超快，而且完全不会出现 服务器繁忙 的情况，访问地址如下：\n访问地址：alphachain\n完全免费！完全免费！完全免费！\n效果体验\n首先先来看一下官网的，目前没有什么情况：\n\n下图是我们的：\n\n两者对比，基本相同的思考结果，但是思考时间缩小了 6 秒。\n我们再尝试问一个问题：\n\n\n\n你会发现，deepseek 官网的出现了网络崩溃了，而后者仍能正常运行。\n更多的使用效果 欢迎体验，如果有什么问题，可以评论区里提出，更多的相关问题，可以添加我微信进行交流 yunmz777。",
           "link": "https://www.v2ex.com/t/1110900",
           "publishedOn": "2025-02-12T03:51:02.000Z",
-          "wordCount": 418,
+          "wordCount": 434,
           "title": "😍 DeepSeek 经常崩溃？来试试这个满血的 DeepSeek，响应速度嘎嘎快！",
           "imageUrl": null
         },
@@ -484,7 +555,7 @@
           "description": "imherer: \n一个内部系统，但是部署在公网上的，用户都是用 chrome 访问，基于安全性考虑加 IP 访问限制，但是有些用户没有固定公网 ip 或者甚至可能有移动设备访问。\n有没有什么办法像 app 那样取到设备信息呢，加设备白名单限制访问",
           "link": "https://www.v2ex.com/t/1110896",
           "publishedOn": "2025-02-12T03:40:06.000Z",
-          "wordCount": 995,
+          "wordCount": 1029,
           "title": "Web 如何限制访问设备",
           "imageUrl": null
         },
@@ -534,7 +605,7 @@
           "description": "wadjj: \n日常说模型准召说的很顺口，今天在写概念梳理文档的时候才意识到不对劲，我们日常说的似乎应该是“精召”？\n精确率：precision = TP / (TP + FP)\n召回率：recall = TP / (TP + FN)\n准确率：accuracy = (TP + TN) / (TP+ FP + TN + FN)\nF1-Score：F1 Score = 2（ PR ）/ (P+R)，其中 P 和 R 分别为 precision 和 recall\n你们日常会把 precision 叫成准确率吗？那你们怎么叫这个 accuracy 呢？\nTrue Positive(真正, TP)：将正类预测为正类数.\nTrue Negative(真负, TN)：将负类预测为负类数.\nFalse Positive(假正, FP)：将负类预测为正类数 →→ 误报 (Type I error).\nFalse Negative(假负, FN)：将正类预测为负类数 →→ 漏报 (Type II error).",
           "link": "https://www.v2ex.com/t/1110891",
           "publishedOn": "2025-02-12T03:24:57.000Z",
-          "wordCount": 472,
+          "wordCount": 487,
           "title": "突然意识到，我们日常说的模型“准召”是不是叫错了？",
           "imageUrl": null
         },
@@ -564,7 +635,7 @@
           "description": "boy666: \npt 新手，老师站被警告了，没注意新手任务也要求分享率，只顾完成下载了，求点魔力救一救，nas 是 24 小时在线的，，现在分享率才 0.3...QaQQaQQaQQaQ",
           "link": "https://www.v2ex.com/t/1110887",
           "publishedOn": "2025-02-12T03:14:01.000Z",
-          "wordCount": 376,
+          "wordCount": 387,
           "title": "求 pt 佬哥社点魔力",
           "imageUrl": null
         },
@@ -574,7 +645,7 @@
           "description": "tomiaa: \n19 年大专土木毕业还不是计算机专业\n在学校时挺迷茫的，不知道以后做什么，土木需要跟着工程项目走，同学去修路修桥之类的一去就是几年呆在项目上\n在工作的时候就通过朋友了解到前端，期间也在自学\n工作过两年后下定决心转了前端\n到了现在发现最大的瓶颈是吃了文化的亏，没学历根本没机会\n最近 3 个经历都是因为技术过关才破例进来的\n现在又感觉到了迷茫期，不知道以后怎么办，还能工作个几年会被淘汰，以后找不到开发工作了再倒回去原来的专业感觉也不现实\n何解？",
           "link": "https://www.v2ex.com/t/1110886",
           "publishedOn": "2025-02-12T03:13:28.000Z",
-          "wordCount": 585,
+          "wordCount": 615,
           "title": "大专前端是不是凉透了",
           "imageUrl": null
         },
@@ -604,7 +675,7 @@
           "description": "jiom: \n挺无语的，局方为了提高服务器资源利用率，年年都改个规则，今年更变态了\n云资源缩容利用率指标(属于低负载):\n1.VCPU: [ VCPU 平均利用率<8%日峰值利用率<60%]\n2 、内存: [内存平均利用率< 10% 且峰值利用<60%] \n云资源利用率指标(不属于低负载):\n1.VCPU: [ VCPU 平均利用率 ≥8%或峰值利用率 >60%)\n2.内存: [内存平均利用率≥10% 或峰值利用 ≥60%] \n好了，现在又要重新动态获取保证 cpu 与内存同时达标才行，上一年是 cpu 与内存满足一个要求就行，因此直接默认跑个 tomcat 把内存占满足平均利用率即可，今年开始 cpu+内存都同时满足。都什么脑子呢",
           "link": "https://www.v2ex.com/t/1110883",
           "publishedOn": "2025-02-12T03:11:47.000Z",
-          "wordCount": 587,
+          "wordCount": 588,
           "title": "挺无语的，局方为了提高服务器资源利用率，年年都改个规则",
           "imageUrl": null
         },
@@ -614,7 +685,7 @@
           "description": "wanderlustLee: \n在闲鱼上遇到了恶心的卖家，隐瞒瑕疵售卖且谩骂用户，想搞到他的手机号进行电话轰炸，大家有什么点子吗",
           "link": "https://www.v2ex.com/t/1110881",
           "publishedOn": "2025-02-12T03:07:23.000Z",
-          "wordCount": 419,
+          "wordCount": 115,
           "title": "知道一个人的闲鱼/淘宝 id，怎么能知道他的手机号",
           "imageUrl": null
         },
@@ -624,7 +695,7 @@
           "description": "freaks: \n第一次遇到这个，安全中心也给出了路径/var/tmp/java，但是到目录下也没找到程序，我是试用网页的功能隔离了进程，就想知道一般发生这种情况是不是服务器的 ssh 已被破解，我已经更换了密码，还需要做其他的动作吗，",
           "link": "https://www.v2ex.com/t/1110878",
           "publishedOn": "2025-02-12T03:00:21.000Z",
-          "wordCount": 399,
+          "wordCount": 401,
           "title": "ecs 发现并告警了挖矿程序，你们一般是怎么处理的",
           "imageUrl": null
         },
@@ -634,7 +705,7 @@
           "description": "squirrelgg: \n前提：无负债，纯纯现金存款，不包含那些有的没的的乱七八糟的非现金，就普通人的无负债 100W 现金存款",
           "link": "https://www.v2ex.com/t/1110877",
           "publishedOn": "2025-02-12T03:00:13.000Z",
-          "wordCount": 1492,
+          "wordCount": 1534,
           "title": "经常在各大论坛上看到 100W 不算啥，算个屁的言论和帖子，现在 100W 真算屁吗？",
           "imageUrl": null
         },
