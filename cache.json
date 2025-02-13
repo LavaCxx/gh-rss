@@ -405,7 +405,7 @@
           "description": "saitenasuk: \n由于想要在局域网下串流打游戏，使用 sunshine+moonlight 工具，出现了分辨率可以随意调整，但是码率只能最大 20mbps,超过就会被强行结束串流，经另一个帖子的小伙伴提醒，去测了下 udp 性能，帖子： https://www.v2ex.com/t/1110448#reply2\n先说测试结果，我的台式机 udp 上传只要超过 20mbps 就会丢包，但是下载不会\n但是这个情况在测试上传给个别机器又不会出现\n测试后觉得非常离谱，以让我不知如何判断是哪出了问题\n下面是我的网络拓扑\n\n1.我首先将笔记本与台式机网卡直连进行测试，得出丢包的结果\n192.168.1.12 是笔记本\n192.168.1.13 是台式机\n\n2.我将台式机连接回交换机,与 PVE 进行测试,结果并不会出现上传丢包的情况\n\n3.接着我将 PVE,台式机，openwrt 进行测试\n台式机上传给 openwrt 出现丢包情况，和 2 图差不多\nPVE 上传给 openwrt 未出现丢包情况，和 3 图一致\n测到这就放弃，不知道怎么判断哪出了问题",
           "link": "https://www.v2ex.com/t/1111319",
           "publishedOn": "2025-02-13T15:51:17.000Z",
-          "wordCount": 475,
+          "wordCount": 482,
           "title": "局域网下 iperf3 测试 udp 会丢包，排查不出问题",
           "imageUrl": null
         },
@@ -415,7 +415,7 @@
           "description": "tiRolin: \n做毕设的时候遇到的这个问题\n首先我的项目在不适用 XML 的前提下的 CURD 都是成功的，但是只要一使用 XML ，那么就报上面的异常，项目结构如下\n\n我的 Spring 版本是 3.4.2 、mybatis-plus 版本是 3.5.9\nMapper 接口中加入了 @Mapper 注解，启动类里也加入了 MapperScan 扫描\nresource 中的 xml 我是在 application 中指定了扫描路径的\nmybatis-plus:\n  mapper-locations: classpath*:/mapper/**/*.xml\n\nxml 文件中的接口名和命名空间都没有问题，下面是具体的 XML 代码\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE mapper PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\" \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\n<mapper namespace=\"com.rolin.orange.orangecommon.mapper.UserMapper\">\n\n    <select id=\"getAll\" resultType=\"com.rolin.orange.orangecommon.model.user.entity.User\">\n        select * from user\n    </select>\n</mapper>\n\n\nMapper 代码也没有问题，可以成功编译，可以成功启动\n在编译后的结果里，可以找到对应的 xml 文件\n\n感觉不管是哪里都没有问题，但是只要调用接口，就会报下面的异常\norg.apache.ibatis.binding.BindingE…",
           "link": "https://www.v2ex.com/t/1111318",
           "publishedOn": "2025-02-13T15:45:04.000Z",
-          "wordCount": 551,
+          "wordCount": 553,
           "title": "SpringBoot 部分 xml 接口报 Invalid bound statement (not found)问题怎么解决？",
           "imageUrl": null
         },
@@ -505,7 +505,7 @@
           "description": "xjoker:",
           "link": "https://www.v2ex.com/t/1111308",
           "publishedOn": "2025-02-13T14:30:11.000Z",
-          "wordCount": 409,
+          "wordCount": 416,
           "title": "Mac Mini M4 有必要买 649 延保吗",
           "imageUrl": null
         },
@@ -515,7 +515,7 @@
           "description": "ansnail: 一开始看到各种番外质量蛮好的，也很喜欢，很想去看看。但是年后各种各样的原因耽误没能看了。到现在各种铺天盖地的宣传有点烦了，导致不想去电影院了，就想等着上视频网站了。\n叠甲：无意诋毁哪吒质量，个人也很喜欢，可能就是对各种宣传有点烦了，应该是个人原因。",
           "link": "https://www.v2ex.com/t/1111307",
           "publishedOn": "2025-02-13T14:29:36.000Z",
-          "wordCount": 515,
+          "wordCount": 527,
           "title": "哪吒 2 预计什么时候下线能在视频网站看到？",
           "imageUrl": null
         },
