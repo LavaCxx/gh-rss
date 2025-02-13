@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -325,7 +331,7 @@
           "description": "ooo4: \n全年还约到几个面试，虽然都没过，但今年连面试都约不到了",
           "link": "https://www.v2ex.com/t/1111235",
           "publishedOn": "2025-02-13T08:36:11.000Z",
-          "wordCount": 572,
+          "wordCount": 613,
           "title": "今年这环境怎么更难找工作（前端）了？",
           "imageUrl": null
         },
@@ -335,7 +341,7 @@
           "description": "npe: \n自驾 / 2 天 1 晚 / 2 大 2 小\n预算 1000 （住宿+温泉费,不含油费和高速费）\n关于住宿，是直接订 温泉度假酒店 还是 民宿+自购温泉门票 比较好呢？个人倾向后者，认为除了泡温泉还可以逛逛，可以感受不同的风土人情。有去过的可以分享一下经验吗？谢谢！",
           "link": "https://www.v2ex.com/t/1111233",
           "publishedOn": "2025-02-13T08:24:44.000Z",
-          "wordCount": 382,
+          "wordCount": 384,
           "title": "周末去江西宜春泡温泉，求攻略~",
           "imageUrl": null
         },
@@ -355,7 +361,7 @@
           "description": "zephyr94: \nmini 是 m4 的，MacBook m1 。有啥好的方案",
           "link": "https://www.v2ex.com/t/1111230",
           "publishedOn": "2025-02-13T08:23:48.000Z",
-          "wordCount": 422,
+          "wordCount": 462,
           "title": "公司放一个 Mac mini,家里搞个 MacBook Pro。不想每天背个电脑上班，怎么可以做到无缝来回控制",
           "imageUrl": null
         },
@@ -375,7 +381,7 @@
           "description": "iloveyou: 比如统计的城乡平均月收入 3 、4k 的，根据常识也知道很难维持正常生活。这种统计数据会让大家感觉良好、心平气和、心生优越。但是体感上身边的人只要在城市里干点正经工作的基本上都 7 、8k 或者上万。",
           "link": "https://www.v2ex.com/t/1111228",
           "publishedOn": "2025-02-13T08:20:30.000Z",
-          "wordCount": 792,
+          "wordCount": 845,
           "title": "感觉国内统计的那些平均收入都是偏低，是来安慰人的，不知道对不？",
           "imageUrl": null
         },
@@ -395,7 +401,7 @@
           "description": "mylofsh: 1 、 新房子装修了打算入手小米 pro 新风空调是智商税吗？\n       看了好多测评说是新风量最大才 60 立/h ，风量太小没啥用\n2 、新房子装修了有 tvoc 和甲醛味道，买个空气净化器目前看中的是 352 ？\n    都说空气净化器除甲醛没有开窗效果好，想着家里有孩子想着晚上可以用净化器，白天通风，主要我这冬天零下 30 多度基本来不了窗户。我看了 352 空气净化器比较封闭有自己的 APP 控制，好像不能接入 homeassistant 中与其它设备联动。\n3 、新房子里已经预留好开关零线，零火智能开关也已经买了，但是朋友送了两个智能灯，为了这两个智能灯我是不是还得买灵动开关啊，虽然智能开关也能转无线，但是转无线的话具体怎么接线没了解过。\n4 、由于新房子是一梯一户，电梯厅门口那块基本上是自己使用，有什么办法实现智能呼叫电梯？我看某宝上的配件 mesh 接入米家，进门出门时呼叫，有没有其它方法实现楼下回家也能呼叫电梯到一楼？\n5 、由于处于北方地区属于集中供暖，好多人觉越热越好太热的话就开窗户解决，但是我收不了太热也不想开窗户，想着调节暖气水阀门开度实现采暖。但是新房子是用了一个无线（ lora 协议）温控面板控制暖气水开度，网上查了查好像也挺封闭的，不能接入 homeassistant 自由方便。控温面板和阀门是廊坊方尔科技的东西，这个有解决方法吗？",
           "link": "https://www.v2ex.com/t/1111226",
           "publishedOn": "2025-02-13T08:13:44.000Z",
-          "wordCount": 443,
+          "wordCount": 478,
           "title": "新房子装修的智商税疑问？",
           "imageUrl": null
         },
@@ -435,7 +441,7 @@
           "description": "NianBroken: \n我看很多人推荐 zlib ，但是 zlib 好像已经被 ban 了。",
           "link": "https://www.v2ex.com/t/1111222",
           "publishedOn": "2025-02-13T08:09:38.000Z",
-          "wordCount": 474,
+          "wordCount": 476,
           "title": "求推荐下载电子书的 APP 或者网站",
           "imageUrl": null
         },
@@ -445,7 +451,7 @@
           "description": "annoygaga: \n目前每天的数据量其实不大，但是有比较复杂的 SQL 分析需求，希望走一个 OLAP 数据，目前用的 clickhouse （ 2C ，4GB ），但每时每刻都会有不少 mem 和 cpu 消耗，想问问类似情况下哪些数据库在这个场景比较好呢？",
           "link": "https://www.v2ex.com/t/1111221",
           "publishedOn": "2025-02-13T08:06:36.000Z",
-          "wordCount": 420,
+          "wordCount": 451,
           "title": "单机器（4C 或 2C）OLAP 数据库选型",
           "imageUrl": null
         },
@@ -465,7 +471,7 @@
           "description": "MaMimi: \n介绍\nBark 推送服务通常来说是单节点运行的, BarkLB可以通过配置多个服务器地址尽可能保证推送通知送达.\n快速开始\n需配合已有 bark 原版服务器使用, 并确保 barklb 可以访问原版 bark 服务.\n通过 Docker 运行: \ndocker run -d --restart=always \\\n  --name barklb \\\n  -p 18089:8089 \\\n  -e BARK_NODES=\"https://bark-origin-server1:port,https://bark-origin-server2:port\"\n  -v ${HOME}/barklb-data:/barklb-data \\\n  martin0313/barklb:latest\n\n启动成功后在 bark app 中添加服务器, 地址为 barklb 运行的地址和端口. 若服务端添加成功推送 key 会显示为LB-xxxxxxxx.\n随后其余使用方式与原版 bark 无异.\nBARK_NODES 参数指定了两个原版 bark 服务节点. barklb 会在两个节点中随机选择节点发送通知. 若节点下线则尝试采用其他节点. \n\n可以添加配置`https://api.day.app`, 这是 bark 官方提供的服务器地址.\n\n功能与特性\n目前仅对接了原版 bark 服务端的 post body 推送形式\n负载均衡策略为简单的随机策略, 主要解决的问题为尽可能保证高可用.\n健康检查会及时更新在线服务器列表.\n一个推送 key: LB-xxxxxxx 即可使用多个 bark 服务后端. 原版服务器的注册,删除,配置变更等均由barklb自动操作.\nbark 服务节点配置变更: 修改启动参数BARK_NODES, 服务端重启即可, 手机 app 无需重新注册和其他额外操作.\n链接\nGithub: https://github.com/mty0313/barklb\nDockerHub: https://hub.docker.com/r/martin0313/barklb",
           "link": "https://www.v2ex.com/t/1111219",
           "publishedOn": "2025-02-13T08:06:06.000Z",
-          "wordCount": 457,
+          "wordCount": 475,
           "title": "BarkLB: Bark 推送服务的负载均衡与高可用",
           "imageUrl": null
         },
@@ -475,7 +481,7 @@
           "description": "jeffssss: 最近在开发一款 MacOS 上用的 app ，准备上架 AppStore 。\n我的设想是可以免费下载试用一段时间，然后就需要付费购买，或者免费版限制使用次数，然后付费解锁全部内容。\n我的疑问是，我是否一定需要服务器来对接 AppStore 的一些 api ？\n我查阅了一些资料(& AI)，说是可以不需要服务器端的程序，但是我没有看到分析不同服务器可能存在哪些问题的信息。\n有没有老哥能好心解答一下。",
           "link": "https://www.v2ex.com/t/1111218",
           "publishedOn": "2025-02-13T07:59:08.000Z",
-          "wordCount": 418,
+          "wordCount": 424,
           "title": "AppStore 上架带有内购的 App，是不是一定需要有服务器？",
           "imageUrl": null
         },
@@ -485,7 +491,7 @@
           "description": "Foxalone: \n简单介绍:\n本人远程(项目合同开发, 一年一签.每个月固定 + 新项目就加提成 其实跟发工资的待遇差不多) + 附近公司上班的.\n老婆会计, 在上家做了几个月不到就离职了.(大小周, 工资 6k), 差不多是上一年 8 月份的事情. \n事情经过:\n昨天下午面试完回家突然想说创业,因为去面试感觉工资都不高, 待遇也不怎么样.打算周六末拖着我在附近卖点东西. 我支持她去做.\n1. 卖盐焗鸡翅. 本人因为爱吃. 所以经常做给自己吃. 做了好多次. 从材料到食物知道怎么选.(主要是本人会做饭). 关键点来了. 我说要做的话得多拿货成本就低点. 因为按照最低 5 斤的话. 制作出来也就只能赚 70 左右. 她觉得赚的少. \n2. 她想早上跟我一起卖炒粉. 因为觉得粉成本低. 我跟她说早上做是可以. 家里的锅一下炒不了那么多.改成蒸米粉.她否决, 感觉就是炒米粉好吃. 我说调料那些也要买吧. 她觉得有油 + 酱油 + 盐就够了. 然后争论了一下. \n3. 最后她网上买了手链之类的. 准备让我陪她摆摊. 然后营销的时候又争论了(可能我的销路想法有问题. 我的意思是有一部分丑的可以卖贵点, 感觉好看的卖的比丑的便宜一点, 然后再卖一点常规的), 跟她提了点建议, 她感觉我是教她做事. 不让她干这干那.\n\n最后:\n开始我好声好气的说.包括提意见的时候也是先说一句我提个意见可以不参考. 结果说完就说我想法有问题. 后面她说什么我都开始沉默了. 面试说实话我也感觉她有点眼高手低,不是说自己老婆不好. 可能她的心态没放对, 去年说到现在要找高薪的工作, 简历看了也比较糟糕.我也不敢说.她不让插手她的工作和学习. 她说 8k 以上的工作在哪里大把, 然后又不见她有面试, 现在一直徘徊 5~6k(大小周)这样的面试工作. 她感觉这样的薪资不想干.\n老实说我是有点窝火. 主要大半年我从未说过她工作之类的.老是说创业还是做别的很简单.之前又说学化妆, 学运营. 学做销售. 一样没能坚持下. 感觉就是短视频看多了心血来潮.我可以理解她找不到好工作.心思不集中, 喜欢乱想. 现在是没办法给她做思想工作. 一说工作就心态爆炸就是没有商量的余地. 我现在也不劝了. 她说让我再兼职一份工作. 主要看我晚上也不工作. 说实话我是有点想骂人了, 真的.\n总归来说, 还是我老婆. 就是不知道怎么开导她. 目前她状态有点糟糕, 反正我是肯定是不敢关心工作上的事情. 一问大爆炸. 难绷. 不知道该怎么办了.",
           "link": "https://www.v2ex.com/t/1111217",
           "publishedOn": "2025-02-13T07:56:35.000Z",
-          "wordCount": 640,
+          "wordCount": 647,
           "title": "老婆年后找工作, 心态有点崩. 应该怎么调整?",
           "imageUrl": null
         },
@@ -495,7 +501,7 @@
           "description": "kingdom8: 使用过 chrome 的 Glarity 和 Glarity 插件,都没折腾成功过 ollama 的本地 http://127.0.0.1:11434 指向,感觉对于页面总结和翻译,使用 qwen2.5:3b 就足够了,没必要使用付费的 API 了(之前用过一段时间 DK 的 V1,感觉有点浪费)",
           "link": "https://www.v2ex.com/t/1111216",
           "publishedOn": "2025-02-13T07:54:34.000Z",
-          "wordCount": 424,
+          "wordCount": 427,
           "title": "是否有浏览器页面总结和翻译的插件,基于本地 ollama 的?",
           "imageUrl": null
         },
@@ -505,7 +511,7 @@
           "description": "Dreamful: 一个人付出了但是大家都能看得到",
           "link": "https://www.v2ex.com/t/1111215",
           "publishedOn": "2025-02-13T07:48:55.000Z",
-          "wordCount": 535,
+          "wordCount": 553,
           "title": "放烟花算不算一种开源行为",
           "imageUrl": null
         },
@@ -515,7 +521,7 @@
           "description": "ZeekChatCom: \n求大家支招。",
           "link": "https://www.v2ex.com/t/1111214",
           "publishedOn": "2025-02-13T07:34:33.000Z",
-          "wordCount": 367,
+          "wordCount": 369,
           "title": "只有 Mac mini M4，但是最近要基于 Windows 做开发，有什么好办法吗？",
           "imageUrl": null
         },
@@ -525,7 +531,7 @@
           "description": "axuadm19: \n各位佬们，小弟最近遇到一个问题，不知道有没有发财的有缘人给出个主意。\n背景：\n17 年父亲给我买了房子但是做了接力贷，本人的名下银行卡作为每月还贷款的卡。\n现在准备卖房，但是父亲年纪大了（ 69 ），准备把房子卖掉一部分给父母养老，一部分投资。可就算做了公正委托我卖方后，房款还是只能直接打到他名下的卡里。\n上次问银行想开网银，这样等钱到账了我再帮他操作转账，可银行一听年龄都不允许开通网银，所谓“必须要看到他老人家会用网银才给开通”，我：WTF ？\n有什么办法可以顺利的把老人银行卡下面的钱转回给我吗？\n老人去柜台转账是个办法，但是老人身体腿脚不好，中风后嘴巴说不利索，不知道去柜台后（县级市银行），又被他们当成什么，各种拷问或者不同意转账。这样就更没办法搞了，明明自己的钱，变得更难搞。\n不知道大家卖的时候是否可以跟买房人协调，打给另一个人的卡上吗，比如房本上是我父亲的名字，但买房人直接把钱打给我。",
           "link": "https://www.v2ex.com/t/1111213",
           "publishedOn": "2025-02-13T07:31:24.000Z",
-          "wordCount": 686,
+          "wordCount": 722,
           "title": "父亲名下的钱怎么转给自己？",
           "imageUrl": null
         },
@@ -545,7 +551,7 @@
           "description": "doveccl: 光猫型号是创维的 SK-D740\n装宽带的时候我就让师傅改桥接，他没听懂，然后我说我不想光猫拨号，我要路由器拨号，他信誓旦旦地说现在没有拨号了都是动态分配的 ip\n然后我用 admin/admin 账号登到后台，发现 \"PPPoE\" 字样赫然在列\n后来打客服电话要到了公网，我在电话里还问，公网 ip 是挂在光猫上的吧，能直接分配到路由器上吗，客服也是信心满满的说你把光猫重启一下就有了\n结果就是现在光猫是有公网了，给我路由器分配了个 192.168.100.2\n先上网找了一圈相关光猫型号的超密，有的大多也是联通或者别的省市的经验分享，都无法进超管后台\n然后又去找客服，客服又给我排了个维修单给之前那个安装师傅（我觉得一个听不懂改桥接的师傅大概率是没法解决问题的）\n所以这事情我能自己动手解决吗，还是需要继续跟客服周旋？",
           "link": "https://www.v2ex.com/t/1111211",
           "publishedOn": "2025-02-13T07:23:26.000Z",
-          "wordCount": 508,
+          "wordCount": 522,
           "title": "020 珠宽很容易申请到了公网 ip 但是光猫没地方改桥接，有无解法",
           "imageUrl": null
         },
@@ -555,7 +561,7 @@
           "description": "harryxtse: \n实在太卷了，被迫试水淘宝，低价试水，有需要的可以试一试\n喜欢滇红的宝子可以来试，反正这个价钱买不了吃亏买不了上当\nhttps://item.taobao.com/item.htm?ft=t&id=886701967314\n昌宁滇红 · 琥珀金汤，一品千年茶韵\n[高山云雾孕珍茗，匠心凝香敬知音]\n北纬 24°，云南昌宁，世界茶源之心。\n这里群山叠翠，澜沧江畔的云雾滋养着百年古茶树，每一片芽叶都饱含阳光与雨露的恩赐。昌宁滇红，传承非遗工艺，大师手作，以火淬香——金毫显露，汤色如琥珀流光；入口醇厚绵柔，蜜香、兰香、果香次第绽放，暖意自喉间漫入心田。",
           "link": "https://www.v2ex.com/t/1111210",
           "publishedOn": "2025-02-13T07:22:45.000Z",
-          "wordCount": 380,
+          "wordCount": 382,
           "title": "意想不到的低价好茶（滇红）",
           "imageUrl": null
         },
@@ -605,7 +611,7 @@
           "description": "yanyan919: 👋 我们正在寻找有自驱力、动手能力强的研发同学，一起探索 AI+情感陪伴的更多可能性。\n💡 我们是谁？\n我们是 FlowGPT ，聚焦情感陪伴赛道，通过角色扮演的方式为用户提供互动体验。我们在探索 AI 在社交、内容和陪伴领域的新玩法，期待你的加入！\n🔍 我们在招哪些方向？\n•后端（ Node.js ）\n    •前端（ RN ）\n•算法（ LLM 、推荐、AIGC ）\n•数据\n    •产品\n🚀 为什么加入我们？\n•有趣的产品方向：AI+社交的新赛道，很多东西都可以一起探索\n•不卷流程，结果导向：小团队高效协作，不浪费时间开无意义的会\n•成长快，影响大：早期加入核心团队，有更多技术决策权\n💰 薪资 & 其他信息\n•薪资范围：具体面议\n•工作地点：北京 / 远程可谈\n•其他福利：期权+弹性工作\n📮 联系方式\n📩 直接发简历到 eWFueWFuQGZsb3dncHQuY29t 或加微信 MTM5NDQ4NzU4MTE=，备注 [ V2EX+岗位] \n如果你对 AI 、情感陪伴或者有趣的产品感兴趣，欢迎聊聊！🚀",
           "link": "https://www.v2ex.com/t/1111205",
           "publishedOn": "2025-02-13T07:01:07.000Z",
-          "wordCount": 520,
+          "wordCount": 530,
           "title": "🚀创业公司招研发，和我们一起搞点不一样的！",
           "imageUrl": null
         },
@@ -625,7 +631,7 @@
           "description": "kylin1: 也没干什么，几十个 chrome 网页 + vscode 敲 LaTex + zotero 看 pdf ，感觉今年起步内存提高了之后 ram 也开始更紧张了。\n除了 chrome 后台网页经常需要重新加载以外也没啥其他用起来卡的地方。\n在想有没有必要升级一个 32+256 的 m4 mac mini ，或者等 m4 的 air\n（不过 m1 的 air 常年合盖当移动主机连不同地方的显示器，感觉好像也不太需要 MacBook Air ，mini 就够了，真要出行手上的 m1 也还能用）",
           "link": "https://www.v2ex.com/t/1111203",
           "publishedOn": "2025-02-13T06:53:37.000Z",
-          "wordCount": 465,
+          "wordCount": 467,
           "title": "m1 air 16G 内存常年黄 是不是该升级了",
           "imageUrl": null
         },
@@ -635,7 +641,7 @@
           "description": "kyonn: \n按照 nexus 设置，已经配置了 docker proxy 类型的代理，分别指向 dockerhub ，ghcr ，mcr 等 docker 源。同时配置 docker group 类型代理，将前面 3 个地址纳入 member 管理。\n然后在 docker client 的 /etc/docker/daemon.json 配置 registry-mirrors 指向 nexus 所在机器的 docker group 地址。\n现在发现，直接用 docker pull nginxproxy/nginx-proxy:1.7.0-alpine 可以拉取到 dockerhub 的镜像，并且在 nexus 缓存。但是，如果拉 ghcr 或 mcr 专有的镜像，则会提示失败，但是拉取镜像前面加上 nexus 的地址则可以成功，类似 docker pull 192.168.100.100:8080/nginxproxy/nginx-proxy:1.7.0-alpine ，假设 192.168.100.100 是 docker group 代理的地址。\n失败提示：\nError response from daemon: pull access denied for devcontainers/base, repository does not exist or may require 'docker login': denied: requested access to the resource is denied\n按照我的理解，既然已经在 daemon.json 设置了 mirros ，则所有原生不加地址前缀的 docker 请求都会被发往  nexus docker group 端口，看上去像 nexus 无法处理这种非 dockerhub 镜像的请求（已经尝试登录 dockerhub 外的私有站点，仍然无效）。",
           "link": "https://www.v2ex.com/t/1111202",
           "publishedOn": "2025-02-13T06:46:38.000Z",
-          "wordCount": 584,
+          "wordCount": 675,
           "title": "nexus 代理 docker 时怎么设置才能省略 地址前缀。",
           "imageUrl": null
         },
@@ -655,7 +661,7 @@
           "description": "coffeygao: \n陕西咸阳\n\n我当时娶媳妇彩礼 10 万，本来 8 万，丈母娘说 8 万的时候我还了个嘴，硬是给了 10 万。给嘴买单。\n\n我一个宝鸡女同事说他们那彩礼 28 万，她们那好像都是（宝鸡靠近甘肃的地方），并且对象家里也知道行情如此欣然接受。\n\n一个山西女同事，要求上门入赘，并且家里还要有钱，长相还得好，各种挑剔，还得拿 10 万块。\n\n之前一个山西男同事，谈的他们那，谈了挺久，彩礼 30 万。就感觉很吃惊。",
           "link": "https://www.v2ex.com/t/1111200",
           "publishedOn": "2025-02-13T06:42:12.000Z",
-          "wordCount": 992,
+          "wordCount": 1099,
           "title": "你们当地彩礼都是多少？",
           "imageUrl": null
         },
@@ -675,7 +681,7 @@
           "description": "pengyuedenai1234: 昨天晚上看元宵节晚会，顺手下了一个央视频，把 CCTV8k 频道投到电视上面进行观看。发现播放时候十分流畅也不卡。画面很清晰，色彩明暗突出。有 hdr 。然后再切回有线电视同一个频道，发现画面很糊。画面颜色暗淡模糊。没有 hdr 。感觉现在广电画质真的不行，好多台都很糊。连官方 APP 投屏都不如。官方 APP 投屏都很清晰流畅有 hdr 有线电视糊的没法看。机顶盒也是广电最新的高清机顶盒，HDMI 连接电视。电视机是海信最新款电视机。有线电视也是老的同轴线接入。所以我今天都打算退掉有线电视，广电有线电视画质不如 APP 充会员最高画质。要是只看央视的话还不如央视频 APP 投屏。",
           "link": "https://www.v2ex.com/t/1111197",
           "publishedOn": "2025-02-13T06:36:23.000Z",
-          "wordCount": 522,
+          "wordCount": 526,
           "title": "感觉广电有线电视清晰度连央视频免费投屏都不如",
           "imageUrl": null
         },
@@ -735,7 +741,7 @@
           "description": "sillydaddy: 基于 NFC 的「碰一碰」，目前已经在商超收银机（付款场景）、麦当劳的桌面（点餐场景）上见到了。感觉确实比拿相机扫二维码更便捷：\n「碰一碰」： 开启手机 NFC -> 随手碰一碰 -> OK\n「扫一扫」： 开启 APP -> 点击扫一扫按钮 -> 对准二维码扫码 -> OK\n「碰一碰」只需要 2 个步骤，且对操作的精确性要求低，只需要 1 次精确点击，\n而「扫一扫」需要 3 个步骤，且对操作的精确性要求高，需要 2.5 次精确点击或瞄准。\n这算不算支付宝在支付领域抢占入口的一次尝试？",
           "link": "https://www.v2ex.com/t/1111190",
           "publishedOn": "2025-02-13T06:18:12.000Z",
-          "wordCount": 704,
+          "wordCount": 733,
           "title": "支付宝的「碰一碰」，作为新的交互方式，尝试反超二维码「扫一扫」？",
           "imageUrl": null
         },
@@ -765,7 +771,7 @@
           "description": "TOM2333:",
           "link": "https://www.v2ex.com/t/1111186",
           "publishedOn": "2025-02-13T06:00:50.000Z",
-          "wordCount": 533,
+          "wordCount": 553,
           "title": "Rust 替代 C? 除非 Rust 写进指令集。",
           "imageUrl": null
         }
