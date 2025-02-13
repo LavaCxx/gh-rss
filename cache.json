@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -331,7 +325,7 @@
           "description": "kirieievk: \n解禁成人内容了?",
           "link": "https://www.v2ex.com/t/1111328",
           "publishedOn": "2025-02-13T17:29:29.000Z",
-          "wordCount": 356,
+          "wordCount": 358,
           "title": "openai 放大招了吗",
           "imageUrl": null
         },
@@ -401,7 +395,7 @@
           "description": "SeleiXi:",
           "link": "https://www.v2ex.com/t/1111320",
           "publishedOn": "2025-02-13T15:51:24.000Z",
-          "wordCount": 393,
+          "wordCount": 395,
           "title": "内推的时候内推者貌似可以给被内推者写个评价/评语，这个“评语”的官方名称是什么来着",
           "imageUrl": null
         },
@@ -421,7 +415,7 @@
           "description": "tiRolin: \n做毕设的时候遇到的这个问题\n首先我的项目在不适用 XML 的前提下的 CURD 都是成功的，但是只要一使用 XML ，那么就报上面的异常，项目结构如下\n\n我的 Spring 版本是 3.4.2 、mybatis-plus 版本是 3.5.9\nMapper 接口中加入了 @Mapper 注解，启动类里也加入了 MapperScan 扫描\nresource 中的 xml 我是在 application 中指定了扫描路径的\nmybatis-plus:\n  mapper-locations: classpath*:/mapper/**/*.xml\n\nxml 文件中的接口名和命名空间都没有问题，下面是具体的 XML 代码\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE mapper PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\" \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\n<mapper namespace=\"com.rolin.orange.orangecommon.mapper.UserMapper\">\n\n    <select id=\"getAll\" resultType=\"com.rolin.orange.orangecommon.model.user.entity.User\">\n        select * from user\n    </select>\n</mapper>\n\n\nMapper 代码也没有问题，可以成功编译，可以成功启动\n在编译后的结果里，可以找到对应的 xml 文件\n\n感觉不管是哪里都没有问题，但是只要调用接口，就会报下面的异常\norg.apache.ibatis.binding.BindingE…",
           "link": "https://www.v2ex.com/t/1111318",
           "publishedOn": "2025-02-13T15:45:04.000Z",
-          "wordCount": 544,
+          "wordCount": 551,
           "title": "SpringBoot 部分 xml 接口报 Invalid bound statement (not found)问题怎么解决？",
           "imageUrl": null
         },
@@ -431,7 +425,7 @@
           "description": "amiwrong123: \n最近装了个机，买的主板是精粤 H610M gaming wifi V1.11 。\n问了客服，主板不支持 dc 调速。更新 bios 也不会支持这个功能。\n我的机箱风扇都是 3pin 的，只能接受 dc 调速。\n现在一开机就是满速运行。\n\n看了下 bios 设置，只有自动、手动、全速 3 种。而且这看起来应该是不支持 dc 调速吧。\nPS：这个板子价格确实便宜，丐就丐吧。\n如果有什么解决方案，大家可以说一下，感谢。",
           "link": "https://www.v2ex.com/t/1111317",
           "publishedOn": "2025-02-13T15:27:59.000Z",
-          "wordCount": 502,
+          "wordCount": 514,
           "title": "精粤主板不支持 dc 调速，这个问题是不是没有解决方案了？",
           "imageUrl": null
         },
@@ -511,7 +505,7 @@
           "description": "xjoker:",
           "link": "https://www.v2ex.com/t/1111308",
           "publishedOn": "2025-02-13T14:30:11.000Z",
-          "wordCount": 405,
+          "wordCount": 409,
           "title": "Mac Mini M4 有必要买 649 延保吗",
           "imageUrl": null
         },
@@ -521,7 +515,7 @@
           "description": "ansnail: 一开始看到各种番外质量蛮好的，也很喜欢，很想去看看。但是年后各种各样的原因耽误没能看了。到现在各种铺天盖地的宣传有点烦了，导致不想去电影院了，就想等着上视频网站了。\n叠甲：无意诋毁哪吒质量，个人也很喜欢，可能就是对各种宣传有点烦了，应该是个人原因。",
           "link": "https://www.v2ex.com/t/1111307",
           "publishedOn": "2025-02-13T14:29:36.000Z",
-          "wordCount": 513,
+          "wordCount": 515,
           "title": "哪吒 2 预计什么时候下线能在视频网站看到？",
           "imageUrl": null
         },
