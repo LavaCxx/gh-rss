@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,43 +193,6 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -325,7 +294,7 @@
           "description": "Megiddo:",
           "link": "https://www.v2ex.com/t/1111310",
           "publishedOn": "2025-02-13T14:42:44.000Z",
-          "wordCount": 336,
+          "wordCount": 338,
           "title": "请问现在有没有支持 esim 的软路由产品，如果现在没有，那将来什么时候会有",
           "imageUrl": null
         },
@@ -335,7 +304,7 @@
           "description": "xjoker:",
           "link": "https://www.v2ex.com/t/1111308",
           "publishedOn": "2025-02-13T14:30:11.000Z",
-          "wordCount": 383,
+          "wordCount": 389,
           "title": "Mac Mini M4 有必要买 649 延保吗",
           "imageUrl": null
         },
@@ -345,7 +314,7 @@
           "description": "ansnail: 一开始看到各种番外质量蛮好的，也很喜欢，很想去看看。但是年后各种各样的原因耽误没能看了。到现在各种铺天盖地的宣传有点烦了，导致不想去电影院了，就想等着上视频网站了。\n叠甲：无意诋毁哪吒质量，个人也很喜欢，可能就是对各种宣传有点烦了，应该是个人原因。",
           "link": "https://www.v2ex.com/t/1111307",
           "publishedOn": "2025-02-13T14:29:36.000Z",
-          "wordCount": 430,
+          "wordCount": 477,
           "title": "哪吒 2 预计什么时候下线能在视频网站看到？",
           "imageUrl": null
         },
@@ -355,7 +324,7 @@
           "description": "jiaoguan1688: \n机票太贵了\n有便宜的渠道吗?",
           "link": "https://www.v2ex.com/t/1111306",
           "publishedOn": "2025-02-13T13:50:48.000Z",
-          "wordCount": 371,
+          "wordCount": 393,
           "title": "6 月底 7 月 打算带孩子们去日本,请问如何去比较划算!",
           "imageUrl": null
         },
@@ -375,7 +344,7 @@
           "description": "jsjcjsjc: 同时支持 gpt gpts midjourney claude ...的 API 的那种,关键是要稳定哈,贵点可以接受哈",
           "link": "https://www.v2ex.com/t/1111303",
           "publishedOn": "2025-02-13T13:36:39.000Z",
-          "wordCount": 431,
+          "wordCount": 435,
           "title": "稳定的 all in one 的 AI 的 API 有推荐的吗?",
           "imageUrl": null
         },
@@ -405,7 +374,7 @@
           "description": "hrx00747: \n名字：FlowCharts\n功能：\nFlow Charts 是一款通过文本生成流程图的应用。\n这也许是你见过的最快的流程图生成方式。\n应用分为两个区域：编辑区和显示区。\n你可以在编辑区输入各种命令，流程图会在显示区实时生成。\n相比传统的流程图软件，我们有三大优势：\n快：\n一条命令可以生成一个图形。不需要拖拽，位置恰到好处。\n一条命令可以调整图形的形状和样式。不需要手动调整。\n一条命令可以改变流程图的布局。横向、纵向、随你选择。\n多：\n支持多种命令，生成复杂的流程图。\n支持多种样式，生成多样的流程图。\n支持导出多种格式,满足多场景的需求。\n好：\n编辑区支持关键词高亮，命令缩进，方便编辑和查看\n显示区图形的大小，位置都是精确计算的，恰到好处。\n导出图片跟显示区的效果完全一致，清晰度高。\n\n\n\n\napp store 下载地址\nhttps://apps.apple.com/cn/app/flow-charts-%E6%96%87%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE/id6738784664?mt=12",
           "link": "https://www.v2ex.com/t/1111297",
           "publishedOn": "2025-02-13T13:05:04.000Z",
-          "wordCount": 405,
+          "wordCount": 417,
           "title": "做了一个文本直接生成流程图的 App，欢迎大家来试用，多多提意见更好！",
           "imageUrl": null
         },
@@ -425,7 +394,7 @@
           "description": "loading: \n现场了解了科大讯飞的学习机，初略感觉还行。\n学而思也有，有兄弟谈谈体验吗？",
           "link": "https://www.v2ex.com/t/1111293",
           "publishedOn": "2025-02-13T12:43:09.000Z",
-          "wordCount": 402,
+          "wordCount": 406,
           "title": "学习机，值得买给小孩吗？",
           "imageUrl": null
         },
@@ -435,7 +404,7 @@
           "description": "Narya: \n公司官网： https://narya.ai/\n产品官网： https://www.mumblenote.com/\n职位投递邮箱： jobs@narya.ai\n公司目前初创阶段，融资千万，MVP 产品已上线，已有付费用户\n公司介绍\n我们是一家专注于 AI 应用层创新的初创公司。我们致力于开发新一代的效率工具，帮助用户捕捉灵感、组织信息，构建个人知识网络，记录和处理繁杂的工作内容。我们的目标是通过打造强化人类能力的 AI 产品，提升用户的日常效率与幸福感。\n我们目前正在开发的产品 Mumble Note ( https://www.mumblenote.com/) 是一款 AI 语音笔记应用。Mumble Note 作为拥有用户“外部记忆”的智能助手，它不仅能够通过 AI 将您的即时想法和生活瞬间转化为结构化的笔记，更能将它们有效地组织起来，帮助您轻松访问和回顾过去的内容。\n创始团队来自加州理工大学和佐治亚理工大学的顶尖 AI 研究者，公司位于美国硅谷，目前已获得多家全球顶级 VC 的支持。\n我们正在寻找：\n一名高度自驱，具备创业精神的 iOS 工程师加入我们的团队。如果你热爱探索未知，乐于解决问题，对开发笔记应用抱有浓厚兴趣或是将最新的 AI 技术产品化感到兴奋，我们非常期待和你聊聊。\n该岗位同时开放全职和实习机会。\n岗位职责：\n使用原生 Swift 开发和维护公司的 iOS 应用 Mumble Note\n与产品和设计团队紧密合作，确保应用的高性能和优质用户体验\n参与产品的设计和迭代，提出技术改进建议\n编写高质量的代码，确保代码的可维护性和可扩展性\n职位要求：\n至少有 1-3 年 iOS 应用开发经验\n具备完整的 iOS 产品从 0 到 1 的开发经验\n精通 Swift/SwiftUI/UIKit/CoreData\n熟悉 Apple 的设计原则和界面指南，具备优秀的 iOS 应用技术框架设计能力\n擅长分析和解决问题，拥有优秀的代码编写和优化能力\n良好的英语沟通能力和沟通意愿，能在小团队中紧密合作，高效交付\n对代码质量，产品品质和交付标准有要求\n加分项：\n具备在 iOS 平台上开发大语言模型应用的经验\n具备在 iOS 平台上开发语音笔记或者其他个人效率类应用的经验\n熟悉并使用过 Figma 使用方式，有能力设计自己的业余项目\n热爱生活，有自己能被称之为“专家”的工作外的爱好\n通过邮箱投递简历jobs@narya.ai，或者微信联系 ZXhwbG9yaXVtMjAxNg==",
           "link": "https://www.v2ex.com/t/1111292",
           "publishedOn": "2025-02-13T12:40:16.000Z",
-          "wordCount": 497,
+          "wordCount": 499,
           "title": "[全职招聘-上海] Narya.ai | 大模型应用赛道 | 急招 iOS 开发 | 月薪 35～ 55K+ RMB",
           "imageUrl": null
         },
@@ -485,7 +454,7 @@
           "description": "davecat: 公司通知降薪了，在这个大背景下，特别是 AI 的加持下，公司普遍觉得技术不再那么值钱，当然高精尖除外，就算你干到 40 岁，然后呢？ 大家有没有想过这个问题，大家觉得继续学习新的技术，继续卷技术，变成高级、资深专家这些还有价值么",
           "link": "https://www.v2ex.com/t/1111286",
           "publishedOn": "2025-02-13T12:11:54.000Z",
-          "wordCount": 487,
+          "wordCount": 516,
           "title": "在这个论坛混的大多都是程序员吧。。大家觉得继续卷技术还有前途吗？",
           "imageUrl": null
         },
@@ -545,7 +514,7 @@
           "description": "zhaotianxionkm: 今天去面了一个天使轮融资的公司，老板直接面，说因为 AI 风口，要新起一个项目，从原有公司抽资源去做，目前就缺一个前端，让我当前端主程。时间 4 个月，月薪 10k 996 。4 个月后重签协议，项目运行成功有期权，没面临过这种情况，有人能帮忙看看我该如何做吗？另外手里有个 15k 的大厂外包 offer 。我算了下，996 月薪 10k 其实也就 7k ，一来一去 4 个月 2.8w 没了。相当于花 2.8 万投了个风投？",
           "link": "https://www.v2ex.com/t/1111275",
           "publishedOn": "2025-02-13T11:09:12.000Z",
-          "wordCount": 574,
+          "wordCount": 583,
           "title": "二线 10k 月薪 996 该去吗？",
           "imageUrl": null
         },
@@ -555,7 +524,7 @@
           "description": "pureGirl: 用了 cursor 感觉自己干 2-3 个人的活没啥问题",
           "link": "https://www.v2ex.com/t/1111274",
           "publishedOn": "2025-02-13T11:05:47.000Z",
-          "wordCount": 511,
+          "wordCount": 540,
           "title": "ai 对程序员行业的冲击到底有多大",
           "imageUrl": null
         },
@@ -585,7 +554,7 @@
           "description": "xixiv5: 大概 30 分钟一次吧 30 秒左右恢复\n网关：100.64.0.1\n你们有吗？\n装维佬说反正就是要签协议的 不签不给解，起诉的话 已经立案了 还没开庭日期，看看能不能杠成功吧",
           "link": "https://www.v2ex.com/t/1111271",
           "publishedOn": "2025-02-13T10:37:43.000Z",
-          "wordCount": 461,
+          "wordCount": 463,
           "title": "广州电信 PCDN 标记会阻断 TCP 443 的连接",
           "imageUrl": null
         },
@@ -595,7 +564,7 @@
           "description": "ixixi: \n夸克 88vip 网盘 + alist （ webdav ）+ 网易爆米花\n用完发现手里的 nas 不香了，中间省了很多环节 能直接观看。\n1.无需等待漫长的下载过程 下载一次硬盘敲锣打鼓可闹腾了\n2.无需安装 plex 等服务端 大大简化了流程\n3.电视也能用 多端能同步进度\n4.成本低，88vip 多用外卖券成本几乎为 0",
           "link": "https://www.v2ex.com/t/1111270",
           "publishedOn": "2025-02-13T10:27:25.000Z",
-          "wordCount": 408,
+          "wordCount": 419,
           "title": "以下是否是最顶的穷鬼观影套餐？",
           "imageUrl": null
         },
@@ -665,7 +634,7 @@
           "description": "cdy: \n传送门 https://www.1point3acres.com/bbs/thread-1083414-1-1.html\n我就是被老婆投 d 到肾衰竭心脏病的大冤种\n据说她现在正在逃离瑞典, 正在操作 transfer 到漂亮国, 大家注意避雷\n奇怪的血液病: 我在瑞典中毒始末\nhttps://rattvisan.blog/2024/06/30/%E5%A5%87%E6%80%AA%E7%9A%84%E8%A1%80%E6%B6%B2%E7%97%85-%E6%88%91%E5%9C%A8%E5%8C%97%E6%AC%A7%E4%B8%AD%E6%AF%92%E6%A1%88%E5%A7%8B%E6%9C%AB/\n看完之后震惊了，为什么人与人之间要这样，不能好走好散吗。。。",
           "link": "https://www.v2ex.com/t/1111261",
           "publishedOn": "2025-02-13T09:50:51.000Z",
-          "wordCount": 443,
+          "wordCount": 450,
           "title": "某华人站看到在谷歌工作的妻子投毒了，有视频，震惊了",
           "imageUrl": null
         }
