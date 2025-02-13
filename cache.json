@@ -191,43 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -325,7 +288,7 @@
           "description": "qingyingwan: \n创业公司，远程，homework ，各位大佬评价一下\nhttps://www.notion.so/Published-Senior-Backend-Engineer-24-hour-Coding-Homework-199deed8503c80e392b7d88ceff07ebf",
           "link": "https://www.v2ex.com/t/1111173",
           "publishedOn": "2025-02-13T05:32:48.000Z",
-          "wordCount": 467,
+          "wordCount": 565,
           "title": "面试 homework 分享，如何评价留作业的行为",
           "imageUrl": null
         },
@@ -335,7 +298,7 @@
           "description": "ly1878: 如题，在网上搜索了一些内容，要么反馈失效，要么不可行。\n特别的，在用 pd 切换回 macOS 时，必定会提醒一次，再次切换回来，又会提醒一次。。。。",
           "link": "https://www.v2ex.com/t/1111172",
           "publishedOn": "2025-02-13T05:32:31.000Z",
-          "wordCount": 363,
+          "wordCount": 367,
           "title": "🙏如何有效彻底屏蔽 macOS 系统更新提示？尤其用 PD 虚拟机切换桌面后必再次提醒！",
           "imageUrl": null
         },
@@ -345,7 +308,7 @@
           "description": "CNN: \n习惯性关机，不太喜欢待机，所以想找个能方便开机的底座。",
           "link": "https://www.v2ex.com/t/1111171",
           "publishedOn": "2025-02-13T05:31:42.000Z",
-          "wordCount": 411,
+          "wordCount": 528,
           "title": "有什么方便开机的 M4 mini 底座推荐？",
           "imageUrl": null
         },
@@ -355,7 +318,7 @@
           "description": "fancy2020: \n这次去的目的是办卡，总共就呆了两天。\n感受如下：\n2.城市确实很老旧，但是，他们的大部分设施只是老，但是功能没有任何问题。和内地比起来我觉得是金玉其外和金玉其内的区别（关于这点后面会有更深的感受）。\n3.交通方面并没有想象的方便，之前以为香港地方不大人口密度那么高，地铁应该会很方便，但情况并不是这样，地铁通常要走挺远，公交站（好像分大巴小巴之类的）密度应该挺大，但车辆的频率并不高，我坐的那次（小巴）等了快半小时。还有可能是我自己的原因，他们的公交站牌我没看懂。\n另外，坐小巴如果乘客不按铃是不停站的，我坐的那次就坐过了，是到了下一站有个女士按了铃我才跟着下去的，这方面我觉得是为了节省时间。\n总体第一天因为赶时间和不熟悉路况等原因，感受挺差的。但是接下来就完全颠覆了我的感受。\n1.几顿饭都是随便进的小饭店吃的，价格平均大概 50 左右，都很好吃，吃得出来食材质量都很好（对比国内的预制菜），分量也很足\n2.车上车流人流那么密集，但是两天下来我只听到 3 次按喇叭（特意留心数的），都是很短暂的滴一下那种，很不可思议。而且好像没看到过堵车的情况，路上车速都很快，即使在中环这种市中心区域。我猜测原因可能是严格的人车分流以及大家都遵守规则，路两边都有护栏，只在红绿灯位置开放给行人，所以香港的道路几乎全是快速路。\n3.每个红绿灯路口都有盲人导航用的那种滴滴滴的声音，而且声音很大。一开始听着还觉着有点刺耳且觉得有这个必要吗，直到我看到有一个盲人单独拿着一根导盲杖在路上行走，我才感受到这个城市对障碍人士的用心。路上有很多坐轮椅的人，他们几乎可以顺利通行任何地方。\n4.关于香港本地人歧视说普通话的内地人，我个人的感受是这是个误会。举个例子，我第一次办卡的那个分行，客户经理跟我说话非常客气，然后中间我在填表格的时候来了个本地人用粤语跟他说一些事情（我完全听不懂），他们俩对话就跟吵架似的，然后中途时不时客户经理会弯下腰小声非常客气地跟我指导\"x 先生，您 xxx\"，然后站起来接着跟那位本地大街\"吵架\"，那种感觉就像面对家里来的客人。也的确遇到过几次态度不好，一次是坐小巴我问了下司机这车是不是到 xx ，对方是个五六十岁的大叔，非常不耐烦地说了几句，我没听懂，然后我就下车了。还有饭店老板大部分不会像内地这样笑脸相迎，更多的是面无表情的滴给你菜单，但他们面对说粤语的本地人也就那样。\n我个人的感觉是，第一他们的商家和消费者是更平等的关系，而不是像内地这样好像去消费就是大爷。还有他们做事更讲究按规则办事，所以人和人之间显得比较冷漠。我个人不觉得这有什么问题。\n总结，这次去有好的感受也有不好的，但总体我觉得还是感受到了发达经济体和发展中经济体的区别。\n我觉得香港的文明程度还是很高的，感觉在那边不用总提防着如何不被坑蒙拐骗，这种能够放心的感觉太棒了。\n香港对我们内地这些 8090 后来说是一个太特殊的存在了，想说的话挺多的，所以内容组织可能有点混乱。\n最后真心希望香港可以保持自己的独特性，千篇一律的世界真的很没意思。",
           "link": "https://www.v2ex.com/t/1111170",
           "publishedOn": "2025-02-13T05:29:34.000Z",
-          "wordCount": 393,
+          "wordCount": 553,
           "title": "初次去香港的一些见闻和感受",
           "imageUrl": null
         },
@@ -365,7 +328,7 @@
           "description": "flashmamba: \n有真的吗，，",
           "link": "https://www.v2ex.com/t/1111169",
           "publishedOn": "2025-02-13T05:19:55.000Z",
-          "wordCount": 482,
+          "wordCount": null,
           "title": "推特 X 上那面那些交换 FQ",
           "imageUrl": null
         },
@@ -375,7 +338,7 @@
           "description": "jqknono: \n此贴 90 天前我发了帖子湖北电信 ipv6 连不到网络了\n当时怀疑两种可能, \n一是被检测到 pcdn, 但我没有主动用 pcdn, 只是有些 bt 下载. 后续做了上传限速, 但原因似乎不在此.\n二是将博客的源站放在家里的服务器上, 通过 cloudflare 的回源规则指定端口回源, 按运营商定义可能相当于\"商用\".\n经过三个月的尝试发现, 更可能是由于暴露端口提供 http/https 服务引起.\n不管是 http 还是 https 的回源规则, 任意端口, 都可能引起隔天封 ipv6. 并且 tailscale 无法真实直连.\n具体表现为:\nipv6 仍然可以获得 56 前缀, 各设备都可以获得全局 ipv6 分配, 但是无法外访.\n桥接在光猫上的路由器的 ipv6 可以外访.\n除了暴露端口的源站服务器可以在 tailscale 中测试显示直连, 其它设备都无法显示直连.\ntailscale 测试, 源站服务器显示直连, 却有 400ms 左右延迟. 其它设备走的中继, 半个中国的往返延迟只有 80ms.",
           "link": "https://www.v2ex.com/t/1111168",
           "publishedOn": "2025-02-13T05:18:36.000Z",
-          "wordCount": 420,
+          "wordCount": 424,
           "title": "家网反代暴露端口可能导致封 IPv6 和直连问题",
           "imageUrl": null
         },
@@ -385,7 +348,7 @@
           "description": "pengyuedenai1234: 最近电视想用国外软件，看港台或者国外节目。电视是老电视，不方便安装软件。就是电视盒子安装 Netflix NOW TV 和 my tv super 。想流畅的卡翡翠台但是人不在广东。盒子也会看看国内平台的视频如爱奇艺，腾讯视频，哔哩哔哩等和安装小飞直播之类的软件看看国内电视台直播。没有办广电。是专门买一个外贸盒子还是弄一个骁龙 8 系 CPU 的屏幕坏了的旧手机改装电视盒子。家里的路由器也不方便安装软件科学上网。也没有软路由。第一感觉还是弄骁龙 8 盒子的旧手机改电视盒子比较好。好像现在配备了骁龙 8 系的手机都有谷歌框架，安装国外的软件很方便。而且手机也比较好安装翻墙软件。和国外软件。另外，骁龙 8 系盒子性能比较好，骁龙 8 系盒子只要不用国产的流氓软件可以用个五六年都没什么问题也不卡。也可以偶尔用来连电视打打电视游戏代替专门的游戏机。外贸盒子我看了很多 CPU 内存配置都不太行，好像装不了翻墙软件必须要路由器支持之类的。请问大家建议我选外贸盒子还是骁龙 8 系旧手机改装盒子？",
           "link": "https://www.v2ex.com/t/1111167",
           "publishedOn": "2025-02-13T05:15:56.000Z",
-          "wordCount": 476,
+          "wordCount": 494,
           "title": "电视想用国外软件，是旧手机改盒子好还是外贸盒子比较好？",
           "imageUrl": null
         },
@@ -425,7 +388,7 @@
           "description": "momo2023:",
           "link": "https://www.v2ex.com/t/1111161",
           "publishedOn": "2025-02-13T04:44:38.000Z",
-          "wordCount": 592,
+          "wordCount": 741,
           "title": "曾经喜欢的女生结婚了，怎么放下这段关系",
           "imageUrl": null
         },
@@ -435,7 +398,7 @@
           "description": "june4: \n进口，成人全脂，我用来泡咖啡麦片什么的，\n这价从不到 10 元一斤到几十元，这差别是什么？\n便宜的货是怎么来的？不到 10 元的成本都不够吧？过期重新包装？",
           "link": "https://www.v2ex.com/t/1111160",
           "publishedOn": "2025-02-13T04:44:22.000Z",
-          "wordCount": 424,
+          "wordCount": 433,
           "title": "PDD 上的成人奶粉价格相差这么大，有什么坑吗",
           "imageUrl": null
         },
@@ -445,7 +408,7 @@
           "description": "sxszzhrrt: rt ，你们都用大模型做过哪些有趣的项目，网上铺天盖地都是部署教程，有什么有趣的小项目可以试试的？",
           "link": "https://www.v2ex.com/t/1111159",
           "publishedOn": "2025-02-13T04:41:40.000Z",
-          "wordCount": 376,
+          "wordCount": 378,
           "title": "你们都用大模型做过哪些有趣的项目",
           "imageUrl": null
         },
@@ -465,7 +428,7 @@
           "description": "ClkLog: \n引言\n随着互联网和移动设备的普及，用户对数字化产品和服务的需求不断攀升。如何更好地了解用户行为，提升用户体验，以及优化广告效果，成为企业亟待解决的问题。\n在这样的背景下，埋点分析成为了一种非常有效的数据收集和分析技术，为企业提供了深入了解用户行为和需求的工具，从而优化产品和服务，提升用户体验和满意度。\n什么是埋点？\n所谓埋点，就是通过在应用程序或网站中插入代码，针对用户行为或事件进行捕获，以收集用户的各种行为数据，比如用户点击了某个按钮、页面访问时间、功能使用频率等。\n通过分析这些数据，数据产品经理或数据分析师能够深入理解用户行为，优化用户体验，并根据埋点数据改进产品功能。\n埋点事件分类\n埋点事件可以根据不同的业务需求进行分类：\n页面浏览事件：\n定义： 用户打开页面的事件。\n示例： 记录用户访问某个页面的次数，了解页面流量和受欢迎程度。\n点击事件：\n定义： 用户点击页面上的元素时触发的事件。\n示例：记录按钮、链接、图标等的点击次数，用于分析用户互动和页面导航。\n用户行为路径事件：\n定义： 记录用户在应用或网站中的行为路径。\n示例：跟踪用户从登录到完成购买的整个行为流程，分析用户行为转化路径。\n其他定制事件：\n定义： 根据具体业务需求而定义的特定事件。\n示例：针对特殊活动或功能，设置自定义事件，例如用户参与某项活动的次数或完成某项任务的情况。\n常见的埋点方案对比分析\n从技术层面上，埋点方案主要有三种：代码埋点、全埋点、可视化埋点。\n代码埋点\n代码埋点是最古老，也是最常见的一种埋点方式，比如我们所熟知的 Google Analytics 就是采用的代码埋点方案。主要是指根据业务的分析需求，将埋点的采集代码加入到应用端。根据埋点地方的不同，又分为客户端埋点和服务端埋点。\n（ 1 ）客户端埋点\n客户端埋点是前端开发人员通过手动定义数据采集时机和内容，将特定的数据采…",
           "link": "https://www.v2ex.com/t/1111157",
           "publishedOn": "2025-02-13T04:27:59.000Z",
-          "wordCount": 481,
+          "wordCount": 482,
           "title": "深入了解埋点分析： Clklog 助你优化用户体验",
           "imageUrl": null
         },
@@ -475,7 +438,7 @@
           "description": "pujx233: \n去年真的很辛苦，一个需求接一个需求，整个人都是连轴转的状态，周末加班赶进度也是家常便饭\n每天 11 点回到家的时候，唯一的念想就是也许会有好的绩效和年终奖，结果刚刚才知道公司今年不发年终奖……\n说实话去年公司效益不好，股票一直在跌，年中也裁了一批人。年终奖减少我是有预期的，但是一分钱都没有实在是有点破防了，那我去年那么辛苦地当牛马是为了什么呢\n心态有点崩了，这种情况应该骑驴找马吗。大环境太差整的有点焦虑了",
           "link": "https://www.v2ex.com/t/1111156",
           "publishedOn": "2025-02-13T04:23:13.000Z",
-          "wordCount": 472,
+          "wordCount": 534,
           "title": "今年公司不发年终奖，心态有点崩",
           "imageUrl": null
         },
@@ -485,7 +448,7 @@
           "description": "TianHu123: 前端要求：\n1 、前端基础知识扎实，精通 HTML 、CSS 、JS ，熟悉页面架构和布局。\n2 、有 JavaScript 逆向、App 逆向及后端开发能力（如 Go 、Node.js ）者优先。\n3 、具备 React 、Vue 等主流前端框架的开发经验，具备小程序开发能力。\n4 、熟悉 Cursor 、Windsurf 、ChatGPT 、DeepSeek 、Git 等工具。\n5 、热爱技术，乐于钻研，具备良好的设计感。\n后端要求：\n1 、熟练掌握 Golang ，了解其生态环境，具备扎实的数据结构和算法基础。\n2 、熟练使用 MySQL 、MongoDB 、Redis 等数据库，具备深入理解。\n3 、熟悉 Go-zero 、Gin 、Goframe 、Kratos 等主流框架，拥有 Web 项目开发经验者优先。\n4 、了解 RESTful API 开发及微服务架构，具备良好的代码规范和质量意识。\n5 、具备良好的问题分析与解决能力，能快速响应技术难题。\n6 、熟悉 AI 工具的使用，能够有效提升开发效率和代码质量。\n待遇：\n五险\n无一金\n966\n基本不加班。\n联系方式： zhuyurui@an-idear.com",
           "link": "https://www.v2ex.com/t/1111155",
           "publishedOn": "2025-02-13T04:21:14.000Z",
-          "wordCount": 516,
+          "wordCount": 607,
           "title": "郑州招前端和 go 后端，自研项目，非外包",
           "imageUrl": null
         },
@@ -495,7 +458,7 @@
           "description": "nandie: \n本人 35 ，身高 165 ，颜值尚可，某中部省份三四线城市，私企工作，年收入 8-9 万。有一套四室，房贷三千，一辆卡罗拉。这些年陆陆续续家里相过一些，诸如看不上，异地，感觉自身经济条件不够等等原因没成。\n放假某天我妈说舅妈要给我介绍一个，这个女生上一年舅妈就说给我介绍，表侄给我看了照片，长得不错，但是舅妈说这个女生好多人介绍，加了几个人微信，聊没聊不知道。其中有个男生说要去她家做客，她同意了，但是跟他说不要带东西，实在要带意思一下就行。结果这个男生带的烟酒比较多，估计超过了一千。把人轰走谈崩了。舅妈说觉得这个女生比较难搞没去说，今年再去，说是已经谈了男朋友。\n女 B ，刚毕业时相过一次，对方当时甚至还没毕业。某亲戚年年拿这个女生说事，每每拒绝。今年又说，说见一次拉倒。对方在深圳某几百人公司做财务，颜值尚可，但是化了妆素颜怎么样看不出来，她爸妈不好看。聊得还不错，但是异地是最大的问题，对方不一定会回老家，我现在的状态没有心情长时间在线聊。对方这种情况真要相亲，让同事帮忙介绍也不缺资源。双方达成统一意见，没加微信，送回家告辞。\n回家反馈结果，没有告知原因，因为说了原因，我妈就会再想办法找中间人说合，所以不说。我妈震怒，说这个你都看不上，另一个是单亲家庭你更看不上，她就不去说了。其实经济条件家庭条件根本不在我的考虑范围呢，但是我也懒得说。我说行。\n某天二嫂发了一张照片给我，长相还行，但完全不是我喜欢的类型。比我大两岁，要求 170 以上。我说我身高不合格，她说问问女方意愿，后续无消息。\n某邻居在婚介所工作，我妈说让帮忙找找，见一个女生 200 。我说不要报太大希望，在婚介所找的，我看得上的，人家估计看不上我。发了一个女生照片给我看，又胖又丑，严词拒绝。又发了一个女生照片给我看，又胖又丑，严词拒绝。跟我妈严肃吐槽，这样的还需要花钱吗？随便在大街上找一个都比这好看呐！发了第三个女生照片，尚可，尚能一见。后续反馈跟别人在相。\n回去上班，某天我妈给我打电话有个女生让我回去见见。我问有照片没有。我妈说估计没有，长的应该可以。我说我不相信你的话，去问一下有没有，免得见了浪费时间，实在没有去见也行，但是最好有。后续反馈，因为是附近的她找人打听了一下情况，估计我看不上给人回了。好好好。",
           "link": "https://www.v2ex.com/t/1111154",
           "publishedOn": "2025-02-13T04:10:39.000Z",
-          "wordCount": 440,
+          "wordCount": 487,
           "title": "过年相亲杂谈",
           "imageUrl": null
         },
@@ -505,7 +468,7 @@
           "description": "importmeta: \n经常到了某个时间点,好多个股统一就放量了,成交量图非常明显,背后到底是什么力量?",
           "link": "https://www.v2ex.com/t/1111153",
           "publishedOn": "2025-02-13T04:08:53.000Z",
-          "wordCount": 345,
+          "wordCount": 352,
           "title": "统一放量是什么力量?",
           "imageUrl": null
         },
@@ -525,7 +488,7 @@
           "description": "fqzz: \n最近电脑总是弹框提示输入密码，一天能弹好多回，弹框样子是这样的。\n\n有啥办法确定是那个 app 弹的么？",
           "link": "https://www.v2ex.com/t/1111151",
           "publishedOn": "2025-02-13T04:04:51.000Z",
-          "wordCount": 356,
+          "wordCount": 362,
           "title": "求大佬帮鉴定这是什么 app 在弹框",
           "imageUrl": null
         },
@@ -535,7 +498,7 @@
           "description": "kepenj:",
           "link": "https://www.v2ex.com/t/1111150",
           "publishedOn": "2025-02-13T04:01:04.000Z",
-          "wordCount": 527,
+          "wordCount": 554,
           "title": "刚看到的消息文言开免费了，国内大模型白菜价时代开始了？",
           "imageUrl": null
         },
@@ -575,7 +538,7 @@
           "description": "u21t20o15: \n有新的业务系统，想对接一个新的短信供应商，性价比高的来\n谢谢:pray:",
           "link": "https://www.v2ex.com/t/1111146",
           "publishedOn": "2025-02-13T03:51:19.000Z",
-          "wordCount": 384,
+          "wordCount": 386,
           "title": "麻烦佬友们推荐些短信供应商",
           "imageUrl": null
         },
@@ -585,7 +548,7 @@
           "description": "DamonXPlus: \n和女友谈三四年了吧，我俩老家距离很远很远。\n听对方妈妈说彩礼要三十万，这对于我来说，实在太多了。女友的表态是努力拿 10w 回来。\n要结婚的话，光彩礼就要三十万，杂七杂八加起来又得多少。我想了想，婚后的日子简直不用过了，肯定是一地鸡毛。\n我既愤怒对方这一卖女儿式的高额彩礼，又悲哀这一段注定没有结果的恋爱。我不晓得该如何做，目前我自己的心态就是和对方过一天算一天，继续好好挣钱，同时我也不舍得分手，毕竟相处很久了。",
           "link": "https://www.v2ex.com/t/1111145",
           "publishedOn": "2025-02-13T03:48:53.000Z",
-          "wordCount": 883,
+          "wordCount": 1160,
           "title": "付高额彩礼还是提出分手，唉",
           "imageUrl": null
         },
@@ -595,7 +558,7 @@
           "description": "acoaaaum: 公司名字私聊，是头部的互联网教育公司，想做出海相关的业务，在香港有 office ，因为港府要求得有香港本地的人的纳税，所以需要一个有香港身份的后端。\n要求：\n工作经验：2 年以上，业务方向不限\n必须项：香港身份\n学历：本科以上\nJD:\n后端工程师，base 香港，语言不限，IC 岗\n岗位职责：\n1 、提供优质流畅的 AIGC 服务, 利用 AIGC 技术创造出不同以往的用户体验；.\n2 、负责 AIGC 系统架构的设计, 构建和优化；.\n3 、研究 AIGC 前沿技术, 为系统迭代提供开创性的解决方案。\n岗位要求：\n1 、本科以上学历，计算机或相关专业；\n2 、熟悉 Golang 、Python 、Shell 至少两种开发语言； \n3 、掌握扎实的计算机基础知识，深入理解数据结构、算法和操作系统知识；\n4 、有优秀的逻辑分析能力，能够对业务逻辑进行合理的抽象和拆分；\n5 、有强烈的求知欲，优秀的学习和沟通能力；\n6 、有机器学习项目背景者加分。\n面试流程：2 轮，技术面（ eazy 模式）+HR\n薪资预算：30-40k/月(HKD) 15 薪\n联系方式： ia.oaczy@gmail.com",
           "link": "https://www.v2ex.com/t/1111144",
           "publishedOn": "2025-02-13T03:45:18.000Z",
-          "wordCount": 506,
+          "wordCount": 585,
           "title": "[香港] 一个适合躺平的后端职位",
           "imageUrl": null
         },
@@ -605,7 +568,7 @@
           "description": "datocp: 对不起大家了，经常在这论坛回复该买什么摄像头。\n推荐萤石的。早些年 C4W 是可以被海康 IVMS4500+管理的。\n今天到到手萤石 H3 ，废了。\n1.无法使用海康 ivms4500+管理\n2.使用海康的互联，又提示被萤石管理\n3.使用 pc 管理，当摄像头获得互联网时可管理\n4.当断开摄像头互联网时，萤石 pc 软件还看到摄像头在线\n5.重启摄像头时，局域网网能发现摄像头，再也没有画面\n哎，选错产品了，这年头竟然还有产品必须得依靠互联网，以后再也不推荐萤石产品。",
           "link": "https://www.v2ex.com/t/1111143",
           "publishedOn": "2025-02-13T03:43:37.000Z",
-          "wordCount": 399,
+          "wordCount": 477,
           "title": "被海康萤石踢来踢去",
           "imageUrl": null
         },
@@ -635,7 +598,7 @@
           "description": "Misty99: \nhttps://i.postimg.cc/Dyy5mz1p/f31e00bd9a620988cecef8f99686bb5.jpg",
           "link": "https://www.v2ex.com/t/1111138",
           "publishedOn": "2025-02-13T03:34:36.000Z",
-          "wordCount": 413,
+          "wordCount": 414,
           "title": "为什么 得物 app 与 他们得小程序上 商品价格不一致",
           "imageUrl": null
         },
@@ -645,7 +608,7 @@
           "description": "bocchiair: \n想换一个显示器，这款的双模有点吸引我了， 求 V 友解答，或者有没有别的不错的显示器？",
           "link": "https://www.v2ex.com/t/1111136",
           "publishedOn": "2025-02-13T03:32:21.000Z",
-          "wordCount": 470,
+          "wordCount": 484,
           "title": "提问， 4070S 可以带动 4K 240Hz 31.5 寸的显示器吗？看的是 ROG 的 PG32UCDP",
           "imageUrl": null
         },
@@ -655,7 +618,7 @@
           "description": "zhenlang: \n关于最近的感情问题（远嫁）\n1.简单介绍\n1.1 我\n90 后 末代人\n在能源巨头做内部包，系统运维岗，\n河南人，目前在海口工作，月薪入门级薪资，五险一金＋社保常规的都有\n前年（ 23 年）在工厂和外企都做过系统运维岗的外包，当然前年也有幸收到 shopee 的 offer ，为了自己所为的爱情，我没有选择 shopee 。\n去年在海口开了家小公司，利用身边朋友、资源接了些小活，也赚了一点，但是生活上很潇洒，入不敷出。\n我的家庭环境\n我家里有姐姐（海南琼海）和哥哥（北京），也有稳定的事业，他们都有自己的小孩了。\n去年的时候，我妈检查出来心血管狭窄，也有点高血糖高血压，过年的时候，了解到，我妈每月吃药都要花 1k 多，\n之前带爸妈看病，姐姐要出钱（父母没有要），哥哥带父母在郑州，北京阜外都看过，\n我爸在农村做砂石料生意，客户群体就是农村谁家盖房子，体力活，近 10 年生意不好做，也交叉做了副业\n我爸的副业是收农作物，囤货，然后根据市场浮动出货。\n我爸妈是农民，把我们三姐弟培养出来都是大学生。\n之前带父母去检查都是\n我们家有车、铲车、院子有几套，我爸给我们每人安利了一套房子，我的房子也盖好了，还未装修，父母的意思是回家有的住。\n1.2 我的女友\n我也不知道该不该以这个“我的女友”称呼来称呼她了，暂时以“我的女友”和“她”来代指她。\n海南农村人，家里 2 个女儿，1 个弟弟，\n去年她专升本毕业，一直在海口没有找到合适工作,我一直养着她\n她父母也是农民，不过没有自己的农田，她们是承包别人的农田来种植热带水果，对接内地批发商，手下面也有几十个工人。\n她大姐离异后再婚，她二姐也前年闹一下离婚什么的（因为婆媳关系），她弟 （去年中专毕业），女友引导他报了升本，还未完成单招。\n家里也没有车，只是两层 的小院，从北方人的角度看像别墅，但南方都是这样的建筑。\n2.我和女友…",
           "link": "https://www.v2ex.com/t/1111135",
           "publishedOn": "2025-02-13T03:31:33.000Z",
-          "wordCount": 512,
+          "wordCount": 521,
           "title": "远嫁，你怎么看",
           "imageUrl": null
         },
@@ -665,7 +628,7 @@
           "description": "cp19890714: \n公司在开发一个内部使用的 APP ，用于在外地连接到公司网络，访问公司内部系统。公司内部系统在安全网关中，限定了 IP 白名单。\n所以这个 APP 需要通过 NEVPNManager API 建立 VPN 通道，与公司服务器建立连接。\n有这方面经验的开发者是否可以指导下，这个 APP 能在苹果 APP Store 正常上架吗？是不是需要公司有 VPN 资质才行？\n我看到飞书飞连、aliyun SASE 是可以上架的。",
           "link": "https://www.v2ex.com/t/1111134",
           "publishedOn": "2025-02-13T03:30:43.000Z",
-          "wordCount": 416,
+          "wordCount": 420,
           "title": "国内 APP 使用 NEVPNManager API 能上架 App Store 吗？",
           "imageUrl": null
         },
@@ -675,7 +638,7 @@
           "description": "amiwrong123: \n想买个 2t 或 4t 的 cmr 机械硬盘，4t 最好。\n\n拼多多官方，看到这个海康 vs002 机械，问客服是不是 cmr ，客服直接让问官方。这种盘能买吗？",
           "link": "https://www.v2ex.com/t/1111133",
           "publishedOn": "2025-02-13T03:28:59.000Z",
-          "wordCount": 352,
+          "wordCount": 367,
           "title": "拼多多官方的海康 vs002，是不是 cmr 的？",
           "imageUrl": null
         },
@@ -685,7 +648,7 @@
           "description": "nini0804: <远程>黑料撰写人员 🍎6-10k\n<远程>文案编辑  🍎8-12k\n<远程>媒体运营  🍎6-8k\n<远程>产品评测  🍎7-10k\n<远程>flutter      🍎10-20k\n<远程>golang     🍎18-20k\n<远程>视频剪辑  🍎8-12k\n<远程>高级 flutter    🍎18-25k\n<远程>高级产品运营 🍎15-20k\n<远程>平面设计 🍎8-12k\n<远程>活动策划 🍎10-15k\n<远程>帐号运营 🍎10-15k\n<远程>社群运营 🍎10-15k\n<远程>高级数据分析师        🍎15-20k\n<远程>高级用户增长运营    🍎15-20k\n<远程>AI 工程师（中高级）🍎15-25k\n求职联系 telegram : @nini0804",
           "link": "https://www.v2ex.com/t/1111132",
           "publishedOn": "2025-02-13T03:28:13.000Z",
-          "wordCount": 399,
+          "wordCount": 411,
           "title": "招聘<远程>运营美术岗位",
           "imageUrl": null
         },
@@ -695,7 +658,7 @@
           "description": "sudoy: \n去年注册了个，一直放着没用，最近上去部署一个 ghost.org 博客，结果打开特别慢，根本没法用。你们领取免费 Oracle 云都用来干嘛的？感觉很鸡肋",
           "link": "https://www.v2ex.com/t/1111129",
           "publishedOn": "2025-02-13T03:16:11.000Z",
-          "wordCount": 469,
+          "wordCount": 481,
           "title": "Oracle 免费 vps 根本无法用",
           "imageUrl": null
         },
@@ -705,7 +668,7 @@
           "description": "Raynard: \nRT ，\n侄女马上博士毕业了，目前有两个 offer 比较纠结，分别位于北京非强区和杭州主区\n行业性质基本一样，给的待遇也差不多\n综合考虑的话，这两个选择哪个适合定居？原因是什么",
           "link": "https://www.v2ex.com/t/1111128",
           "publishedOn": "2025-02-13T03:13:04.000Z",
-          "wordCount": 462,
+          "wordCount": 475,
           "title": "毕业就业地区选择，北京非强区还是杭州主区？",
           "imageUrl": null
         },
@@ -725,7 +688,7 @@
           "description": "benzeneringlq: \nScoop 是 Windows 的一个包管理器\nSHA-256 相同\n广告形式为，与“浏览器”、“播放列表”并列的“直播/VOD”\n手动安装\n安装后桌面快捷方式指向 PotPlayerMini64.exe ，打开无广告\nPotPlayerMini64.exe  \nScoop 安装\n安装后，有两个快捷方式，分别指向 PotPlayer64.exe 和 PotPlayerMini64.exe\nPotPlayer64.exe  \nPotPlayerMini64.exe  \nPotPlayerMiniXP64.exe  \nPotPlayerXP64.exe  \n可以看到手动安装的根目录只有 PotPlayerMini64.exe ，scoop 安装的有一堆.exe\n问题：\n为什么手动安装的，根目录只有 mini?难道官方把 PotPlayer64.exe 淘汰了？\n因为这个，我和部分小红书网友产生了争执，我说 potplayer 有广告。反对者说我下载的是盗版，potplayer 没广告。\n另外希望大家对我的排版提出优化建议（ V2EX 上传图片比较麻烦，所以没有图片）",
           "link": "https://www.v2ex.com/t/1111126",
           "publishedOn": "2025-02-13T03:10:08.000Z",
-          "wordCount": 529,
+          "wordCount": 538,
           "title": "Scoop 安装的 Potplayer.exe 有“直播/VOD”广告植入",
           "imageUrl": null
         },
