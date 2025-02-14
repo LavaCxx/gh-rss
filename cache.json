@@ -197,43 +197,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -411,7 +374,7 @@
           "description": "Aoyivin: \n职业病腰肌劳损的厉害，疼的时候直不起来腰...之前一直用在宜家买的椅子，现在觉得越坐越疼，就想换一把椅子。在线下店试了几把，发现我这个情况有点特殊，我其实是背部骨骼变形了，现在市面上的人体工程学椅子都是三段式，它那个腰撑根本撑不到我需要支撑的位置...试了好几个，把腰撑都撑到最高都还是感觉不到支撑..只有一把试单背式的还好一点 各位 V 友有推荐的吗？支撑点高一些的椅子... 价钱便宜点 1-2k 的预算",
           "link": "https://www.v2ex.com/t/1111568",
           "publishedOn": "2025-02-14T13:40:06.000Z",
-          "wordCount": 451,
+          "wordCount": 455,
           "title": "求推荐性价比高的人体工程学椅子",
           "imageUrl": null
         },
@@ -441,7 +404,7 @@
           "description": "a62527776a: 首先 不论男女 谈恋爱的核心目的 都是为了满足彼此的生理需求\n那么 如果你碰到喜欢的女生 对方对你也不排斥的话 你的首要目标 应该是满足对方的生理需求 而不是讨好/示爱/撒钱\n(讨好/示爱/撒钱 是姑娘对你有意思时而你对她不感兴趣的情况下，暗示你的手段。注意：这是姑娘的手段 不是你的手段 姑娘如果对你有意思 才会暗示你讨好她/对她示爱/给她撒钱。 如果姑娘对你没有意思 你讨好/示爱/撒钱 那就是骚扰)\n也就是得尽可能的通过牵手/搂腰/摸腿/亲嘴/XXX 一系列动作 来服务并满足对方的生理需求\n这个过程 就是姑娘对你亲密关系能力/服务能力检验和测试的过程\n到最后一步完成之后 姑娘认为 你很合适 你能满足她 你也愿意服务她 才会给你一个男朋友的称号\n-------------------------------------------------------------------------\n广大宅男最大的误区\n就是我不是她男朋友 怎么能牵手/搂腰/摸腿/亲嘴/XXX 呢？\n于是乎 想尽办法 通过讨好/谄媚/示爱/撒钱 试图通过这些手段来达成‘成为男朋友’的目的\n但从姑娘的角度来看 男朋友最大的价值 就是用雄性荷尔蒙 搂的她淫水泛滥 用灵巧的舌头 舔的她意乱情迷 用粗壮的大 JJ 捅的她欲仙欲死 至于其他的 全部全部都要排在后面\n站在姑娘的角度 在不经过测试的情况下 让你成为了男朋友\n就会面临一个极大的问题 也就是你有可能不愿意服务姑娘 \n你只想让姑娘服务自己 \n又或者你没办法 让姑娘淫水泛滥 意乱情迷 欲仙欲死\n那问题就出现了 姑娘为什么要自己来承担这个恋爱的不确定性的风险呢\n所以你就得在约会的时候 提供对方所需要的服务(也就是 牵手/搂腰/摸腿/亲嘴/XXX) 来得到姑娘的对你能力的认可以及你对姑娘服务的升级\n姑娘就会在不断升级的服务中 将后续恋爱中可能出现的不确定性抹平 最后才是名分的交换\n-------------------------------------------------------------------------\n广大的宅男朋友 似乎对这样做 会有心理负担\n所以选择送礼/讨好/谄媚之类的操作\n可能是受到社会规训，传统观念和广告传媒的影响\n所有礼品广告 以及传媒的目的 都是为了卖货，卖广告 他们并不关心 你和姑娘会不会在一起\n至于社会规训（也就是很传统的那一套）那只是符合宗族利益,父母利益的一种的趋利的控制小孩的观念而已\n那一套逻辑 就是从下至上从女至男的为上一辈牺牲个人利益的产物 不过是从圣人讲的一大堆大道理里\n找出符合自己利益的几句话 来洗脑下一辈（圣人讲的没错 但洗脑小孩的父母/长辈总是会挑着对自己有利的讲）\n你与异性 只是单纯的各取所需 互相满足 明白自己于对方的价值\n你得给对方她需要的 而不是给对方你认为她需要的\n-------------------------------------------------------------------------",
           "link": "https://www.v2ex.com/t/1111563",
           "publishedOn": "2025-02-14T12:05:26.000Z",
-          "wordCount": 568,
+          "wordCount": 585,
           "title": "广大宅男 对谈恋爱有莫大的误解",
           "imageUrl": null
         },
@@ -511,7 +474,7 @@
           "description": "51fly: \n顺丰小哥年前把我一个包裹送错，送到隔壁楼去了\n我年后回来的时候小哥还没上班，就决定自己去敲门看看\n我看那家灯亮着就上门敲门问问，敲了 2 回(间隔 1h)都没人开，就留了个纸条在他门上。\n这两天快递小哥回来了，我让他帮我去敲门。\n没想到门敲开了，东西拿回来了。。。快递盒拆了，东西没拆。\n不太懂，这是懒得管这事吗？还是对陌生人不放心，对快递小哥才有信任感；还是小哥敲门很强硬只能开；还是想占为己有但还没完全下决心。\nPS: 东西不是很贵，但蹲了很久.....",
           "link": "https://www.v2ex.com/t/1111553",
           "publishedOn": "2025-02-14T10:39:47.000Z",
-          "wordCount": 473,
+          "wordCount": 478,
           "title": "这人啥心态啊?",
           "imageUrl": null
         },
@@ -631,7 +594,7 @@
           "description": "zhwguest: \n办一张大流量上网卡，正规渠道和各种帖小广告的，资费可以差异 5 倍。\n这是为什么？难道只能靠欺负老实人挣钱么？",
           "link": "https://www.v2ex.com/t/1111534",
           "publishedOn": "2025-02-14T09:28:34.000Z",
-          "wordCount": 449,
+          "wordCount": 454,
           "title": "若大的这么三个电信运营商，把正规和非正规渠道的资费差异搞成这么大",
           "imageUrl": null
         },
