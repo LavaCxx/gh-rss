@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -341,7 +335,7 @@
           "description": "Windyzhou:",
           "link": "https://www.v2ex.com/t/1111338",
           "publishedOn": "2025-02-13T23:42:39.000Z",
-          "wordCount": 442,
+          "wordCount": 464,
           "title": "hyperos 更新 2.0 后，桌面布局只能 4*7 不能 4*6 了，好不习惯，有解吗？",
           "imageUrl": null
         },
@@ -361,7 +355,7 @@
           "description": "100calorie: \nnative web3 公司， 大本营在纽约， 从事 web3 资讯，meme coin 投研及 web3 招聘业务， 现在业务增长迅速，诚招以下人员：\n客服：负责小红书店铺发货及微信群管理。不需要什么技能， 只要人热情， 负责任，做事认真\n社媒运营：运营过小红书， 抖音或视频号， 运营过 Twitter 或 TG 更佳\n前后端开发/全栈开发， 懂智能合约者优先考虑\n销售：有教培销售经验的优先考虑\n以上职位全职/兼职和实习都可以， 感兴趣请发简历给 career@bitpush.news",
           "link": "https://www.v2ex.com/t/1111336",
           "publishedOn": "2025-02-13T21:18:43.000Z",
-          "wordCount": 410,
+          "wordCount": 412,
           "title": "web2 太卷想看看 web3 的看过来, 实习/兼职/全职",
           "imageUrl": null
         },
@@ -371,7 +365,7 @@
           "description": "mzdxj99: \n关于我们\n我们香港公司，做 VPN ，已上架海外各大应用商店\n团队是远程工作，休假目前是单休+法定节假日休\n薪资 3500 美金/月\n工作时间是弹性工作时间；时间可以说非常自由。\n更关注阶段性计划的实质推进；已排期的说到做到。\n我们是创业的小公司；虽然我们工资不高，但是分红高：员工分红的总额是 30%，目前有 6 个人\n我们的大股东是一个千万用户的海外流量产品的公司，我们在推广上会有一定优势（主要还是看产品）\n目前在打磨产品阶段，不过项目已经能够自给自足不继续亏钱了\n同细分赛道已有盈持续稳定月盈利 5000W 人民币以上的产品，我们的目标是去对标他们\n工作内容\n1.DDOS 和 CC 攻击的防御；系统安全漏洞隐患排查与加固\n2.参与后端开发（ PHP 为主，laravel 框架）\n3.和其他同事一起，调研与讨论方案，确保系统的稳定性\n技能要求\n熟悉 CC/DOS 攻击原理和防御策略，有较多实战经验，有模拟攻击压测能力\n熟悉 cloudflare\n熟悉 API 安全\n2 年以上的 PHP 开发经验\n其他要求\n1.结果导向，想办法解决困难而不是以困难为借口；有以下三点附加要求（三选一）：\nA.履历里做出过获得普遍认可或值得有成就感的东西\nB.有出资创业的经历\nC.本科以上学历，年龄 32 岁以下\n2.有创业性，深度参与项目，主动学习调研行业内的技术知识，技术方案；主动复盘总结后端出现的问题；我们需要一专多能，一起想办法做到数一数二；而不是螺丝钉。\n3.对 VPN 行业有兴趣；需要知晓一些相关知识，不能自己是个小白，跑来应聘技术\n备注\n如果你精通网络安全，但不愿意干我们的全职，我们接受外包合作。\n没有网络安全攻防经验勿扰。\n联系方式：dGVsZWdyYW3vvJogQGRkZ29nbw==",
           "link": "https://www.v2ex.com/t/1111334",
           "publishedOn": "2025-02-13T20:11:14.000Z",
-          "wordCount": 411,
+          "wordCount": 432,
           "title": "招远程全职后端：主要负责网络安全攻防；也要做开发（ PHP ），月薪 3500 美金+技术分红",
           "imageUrl": null
         },
@@ -391,7 +385,7 @@
           "description": "wasaibi12345: \n背景设定\n我一直一直都觉得让麻瓜们连上你手机的热点就能✈️是一件很酷的事情，以前我是使用 VPNHotspot 来实现这个功能，但是这样的话后台需要两个常应用，不太优雅。因此我决定研究一下如何使用 box for magisk 进行试验\n该项目就是简单的内核 + 脚本的形式，但当我导入配置文件后，就出问题了\n问题相关\n症状：本机 IP 、网关、外网 IP 都能 ping 通，但是域名通不了（ unknown host ）\n这是我的 Meta core config （删掉了 rule 与 proxy provider ）：\n# HTTP 代理端口\nport: 7890 \n\n# SOCKS5 代理端口\nsocks-port: 7891 \n\n# Linux 和 macOS 的 redir 代理端口\nredir-port: 7892 \n\n# 允许局域网的连接\nallow-lan: true\n\n# 规则模式：Rule （规则） / Global （全局代理）/ Direct （全局直连）\nmode: Rule\n\n# 设置日志输出级别 (默认级别：silent ，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。\n# 5 个级别：silent / info / warning / error / debug 。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。\nlog-level: silent\n\ndns:\n    enable: true\n    ipv6: true\n    default-nameserver: [223.5.5.5, 119.29.29.29, 8.8.8.8]\n    enhanced-mode: fake-ip\n    fake-ip-range: 198.18.0.1/16\n    use-hosts: true\n    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']\n    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']\n    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }\n\n其它设备上我用的也是这个文件，没有任何异常。有没有眼尖的大佬可以看出我的配置哪里出问题了？🧐（ bfm 的教程真的太少了，网上到处找都找不到任何教程）",
           "link": "https://www.v2ex.com/t/1111332",
           "publishedOn": "2025-02-13T19:57:21.000Z",
-          "wordCount": 537,
+          "wordCount": 541,
           "title": "[Andorid] box for magisk 配置求助",
           "imageUrl": null
         },
@@ -421,7 +415,7 @@
           "description": "swxk521: \ntelegra.ph PC 一直打不开，路由科学的。\n排查了一会，发现火绒搞得鬼，关了就好了，除了 win10 自带，还有哪些类似火绒的国外替代软件？",
           "link": "https://www.v2ex.com/t/1111329",
           "publishedOn": "2025-02-13T17:50:57.000Z",
-          "wordCount": 447,
+          "wordCount": 469,
           "title": "火绒问题",
           "imageUrl": null
         },
@@ -441,7 +435,7 @@
           "description": "zhangtw2024: 惠普/HP Elite Dragonfly Chromebook 笔记本电脑，可 360 度翻转触摸屏 1.27kg 重量极轻\n配置：CPU：i5-1245U\n内存：16G 内存\n硬盘：256G 硬盘，可升级\n屏幕：13.5 寸 2256*1504  2Kips 翻转触摸屏，400nit ，防窥摄像头\n键盘：打字舒服，触控板很好用，有指纹解锁\n系统：ChromeOS 系统，谷歌包更新到 2032 年\n电池：87%，办公待机 7-8 小时无需充电\n外观：后盖有些许掉漆，屏幕基本完好，详细看图\n附件：单机一台，无盒 手机充电器可充电\n运费：顺丰到付\n惠普高端商务蜻蜓本 笔记本和平板二合一 翻转 360 度后可当作安卓平板或便携屏使用\n个人便携办公神器，购买帮助首次激活",
           "link": "https://www.v2ex.com/t/1111327",
           "publishedOn": "2025-02-13T16:54:19.000Z",
-          "wordCount": 421,
+          "wordCount": 423,
           "title": "出 HP Elite Dragonfly Chromebook",
           "imageUrl": null
         },
@@ -451,7 +445,7 @@
           "description": "nyse: \n更新依赖时提示 node 版本过旧，看了一下，我用的 20.x 也不算旧吧。\n然后登陆官网看了一下，目前 LTS 是 22.x\n想问大家平时会保持用最新版的 node 吗？\n一般是什么时候会进行大版本更新的？",
           "link": "https://www.v2ex.com/t/1111326",
           "publishedOn": "2025-02-13T16:36:41.000Z",
-          "wordCount": 607,
+          "wordCount": 642,
           "title": "大家正使用哪个 node 版本，会保持用最新版吗？",
           "imageUrl": null
         },
@@ -461,7 +455,7 @@
           "description": "Lockroach: 突然之间好像周围的人都开始投资黄金了。想请教几个问题：\n1. 黄金的收益率比起银行理财产品有什么优势吗\n2. 投资黄金的话，使用什么平台投资、查看实时金价，以及什么投资策略比较好？",
           "link": "https://www.v2ex.com/t/1111325",
           "publishedOn": "2025-02-13T16:35:49.000Z",
-          "wordCount": 390,
+          "wordCount": 446,
           "title": "最近黄金的火热是怎么回事",
           "imageUrl": null
         },
@@ -481,7 +475,7 @@
           "description": "wty95: \n如题，卡式炉还是凹面电磁炉，还有其他办法么？煤气罐就算了",
           "link": "https://www.v2ex.com/t/1111323",
           "publishedOn": "2025-02-13T16:26:06.000Z",
-          "wordCount": 419,
+          "wordCount": 478,
           "title": "租房炒菜没有天然气，普通电磁炉效果不好，有没有好办法？",
           "imageUrl": null
         },
@@ -491,7 +485,7 @@
           "description": "EIAOEI: \n我有一个纯国外信息注册的 apple 账户，是新加坡区。最近想用这个账户转到大陆下载一些大陆独有 App ，但是听说 Apple 账户转国区后，iCloud 等数据会被扣押在云上贵州，即使再转出去也会扣压很久。有个疑惑点不知道有没有专业人士解答一下：\n如果我在 App Store 里修改地址为大陆，并设置付款方式为“无”，再去下载大陆独有 App ，但并不去设置 app 里同意 iCloud 下发的云上贵州的隐私协议协议，而是下载完 App 后，立刻再改回 App Store 地址为新加坡。这样 iCloud 数据会去云上贵州吗。",
           "link": "https://www.v2ex.com/t/1111321",
           "publishedOn": "2025-02-13T16:11:52.000Z",
-          "wordCount": 452,
+          "wordCount": 462,
           "title": "关于 Apple 账户转区的询问",
           "imageUrl": null
         },
@@ -511,7 +505,7 @@
           "description": "saitenasuk: \n由于想要在局域网下串流打游戏，使用 sunshine+moonlight 工具，出现了分辨率可以随意调整，但是码率只能最大 20mbps,超过就会被强行结束串流，经另一个帖子的小伙伴提醒，去测了下 udp 性能，帖子： https://www.v2ex.com/t/1110448#reply2\n先说测试结果，我的台式机 udp 上传只要超过 20mbps 就会丢包，但是下载不会\n但是这个情况在测试上传给个别机器又不会出现\n测试后觉得非常离谱，以让我不知如何判断是哪出了问题\n下面是我的网络拓扑\n\n1.我首先将笔记本与台式机网卡直连进行测试，得出丢包的结果\n192.168.1.12 是笔记本\n192.168.1.13 是台式机\n\n2.我将台式机连接回交换机,与 PVE 进行测试,结果并不会出现上传丢包的情况\n\n3.接着我将 PVE,台式机，openwrt 进行测试\n台式机上传给 openwrt 出现丢包情况，和 2 图差不多\nPVE 上传给 openwrt 未出现丢包情况，和 3 图一致\n测到这就放弃，不知道怎么判断哪出了问题",
           "link": "https://www.v2ex.com/t/1111319",
           "publishedOn": "2025-02-13T15:51:17.000Z",
-          "wordCount": 495,
+          "wordCount": 506,
           "title": "局域网下 iperf3 测试 udp 会丢包，排查不出问题",
           "imageUrl": null
         },
@@ -521,7 +515,7 @@
           "description": "tiRolin: \n做毕设的时候遇到的这个问题\n首先我的项目在不适用 XML 的前提下的 CURD 都是成功的，但是只要一使用 XML ，那么就报上面的异常，项目结构如下\n\n我的 Spring 版本是 3.4.2 、mybatis-plus 版本是 3.5.9\nMapper 接口中加入了 @Mapper 注解，启动类里也加入了 MapperScan 扫描\nresource 中的 xml 我是在 application 中指定了扫描路径的\nmybatis-plus:\n  mapper-locations: classpath*:/mapper/**/*.xml\n\nxml 文件中的接口名和命名空间都没有问题，下面是具体的 XML 代码\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE mapper PUBLIC \"-//mybatis.org//DTD Mapper 3.0//EN\" \"http://mybatis.org/dtd/mybatis-3-mapper.dtd\">\n<mapper namespace=\"com.rolin.orange.orangecommon.mapper.UserMapper\">\n\n    <select id=\"getAll\" resultType=\"com.rolin.orange.orangecommon.model.user.entity.User\">\n        select * from user\n    </select>\n</mapper>\n\n\nMapper 代码也没有问题，可以成功编译，可以成功启动\n在编译后的结果里，可以找到对应的 xml 文件\n\n感觉不管是哪里都没有问题，但是只要调用接口，就会报下面的异常\norg.apache.ibatis.binding.BindingE…",
           "link": "https://www.v2ex.com/t/1111318",
           "publishedOn": "2025-02-13T15:45:04.000Z",
-          "wordCount": 612,
+          "wordCount": 620,
           "title": "SpringBoot 部分 xml 接口报 Invalid bound statement (not found)问题怎么解决？",
           "imageUrl": null
         },
@@ -531,7 +525,7 @@
           "description": "amiwrong123: \n最近装了个机，买的主板是精粤 H610M gaming wifi V1.11 。\n问了客服，主板不支持 dc 调速。更新 bios 也不会支持这个功能。\n我的机箱风扇都是 3pin 的，只能接受 dc 调速。\n现在一开机就是满速运行。\n\n看了下 bios 设置，只有自动、手动、全速 3 种。而且这看起来应该是不支持 dc 调速吧。\nPS：这个板子价格确实便宜，丐就丐吧。\n如果有什么解决方案，大家可以说一下，感谢。",
           "link": "https://www.v2ex.com/t/1111317",
           "publishedOn": "2025-02-13T15:27:59.000Z",
-          "wordCount": 544,
+          "wordCount": 577,
           "title": "精粤主板不支持 dc 调速，这个问题是不是没有解决方案了？",
           "imageUrl": null
         },
@@ -541,7 +535,7 @@
           "description": "bwijn: \n老板 90 年的\n15 年日本留学回国创业\n行业 跨境 电商\n现在要做 erp\nai 自动上品，数据清洗，审核，上传\n现在只有后端我自己(我自己独裁)，自己写了几个月，目前只公司内部用\n使用效果很好,跑通了,盈利了\n使用效果很好,跑通了,盈利了\n使用效果很好,跑通了,盈利了\n重要的事情说三遍\n老板很看好这个项目过年都没闲着, 一直开会说这个事, 老板手里握着很多客户,很多资源都等着用\n要求:\n后端吃饭语言 py, 以后也会一直用 py,主语言不会变了,有电商 erp 经验最好\n需要是杂家,什么都要懂, 本人厌蠢, 下到操作系统编译器 GUI 三大浪漫, 上到商业策略、市场运营、用户心理、资本运作、人类社会、\n懂点前端的知识,写过前端的东西, html css js 三件套, 三大框架撸过任意一个 demo,起码做到脑子里有货,哪怕是 localhost 运行玩过框架\n英语好,英语好,英语好,看英文文档没问题,写个英文 comment 没问题 (或者有其他第二语言,日语/韩语/西语/德语) 不能只会简体中文\n我是金牛座 INTJ, 所以要求 mbti 类型最好 且依次为:ENFP=ENTJ>ENTP>INFJ>INTP>INTJ.\nI 人韧性比较低,会打退堂鼓,就算有天大本事,不做=0, 我已经过了这个阶段,开始变的有点 E 了,明白自己会把自己累死,缺点已经改正,眼里也能容得下沙子了,执行力很高.\n处于事业上升期, 且多次试错体悟进化后的 INTJ ， 看山还是山,看水还是水\n八字得合，紫薇斗数盘要合， 大运最好要同步。 本人不相信个人努力，因为不是稀缺资源太廉价了，只相信命运, 你说我是神棍也好,SB 也好,i dont fxxking care, 阅历和悟性足够的,且有幸有耐心看到这一条的,希望能和你内心共鸣\n三年内没去过医院,身体要好,气血足, 不要药罐子病秧子, 本人会九阳神功(我没开玩笑),5 年没得过病(感冒 1 天就好), 不喝酒 不抽烟 没纹身 \n想到哪写到哪,许愿贴\n有意请发到这里",
           "link": "https://www.v2ex.com/t/1111315",
           "publishedOn": "2025-02-13T15:17:39.000Z",
-          "wordCount": 668,
+          "wordCount": 786,
           "title": "求/许愿/求偶 灵魂 partner",
           "imageUrl": null
         },
@@ -551,7 +545,7 @@
           "description": "thusmemstd: \n京东商城 App 中黄金交易链路，base 北京、上海均可。要满足二五原则（大致意思就是换工作不能太频繁），本科以上。HC 很多，快到碗里来！\n简历发邮箱：bGl1emV4aWFuZ0BqZC5jb20=\n%4E8C%4E94%539F%5219%FF1A%35%5E74%5DE5%4F5C%7ECF%9A8C%4E0D%80FD%8D85%8FC7%32%4EFD%5DE5%4F5C%3002%50%53%FF1A%5982%679C%4F60%521A%597D%53EA%6709%4E00%4EFD%5DE5%4F5C%FF0C%4E14%6BD5%4E1A%33%2D%35%5E74%FF0C%6982%7387%975E%5E38%5927%FF0C%5FEB%5230%7897%91CC%6765%FF01",
           "link": "https://www.v2ex.com/t/1111314",
           "publishedOn": "2025-02-13T15:12:10.000Z",
-          "wordCount": 385,
+          "wordCount": 409,
           "title": "招聘大量 Java 、Android、iOS",
           "imageUrl": null
         },
@@ -601,7 +595,7 @@
           "description": "xjoker:",
           "link": "https://www.v2ex.com/t/1111308",
           "publishedOn": "2025-02-13T14:30:11.000Z",
-          "wordCount": 516,
+          "wordCount": 542,
           "title": "Mac Mini M4 有必要买 649 延保吗",
           "imageUrl": null
         },
@@ -611,7 +605,7 @@
           "description": "jiaoguan1688: \n机票太贵了\n有便宜的渠道吗?",
           "link": "https://www.v2ex.com/t/1111306",
           "publishedOn": "2025-02-13T13:50:48.000Z",
-          "wordCount": 406,
+          "wordCount": 424,
           "title": "6 月底 7 月 打算带孩子们去日本,请问如何去比较划算!",
           "imageUrl": null
         },
@@ -621,7 +615,7 @@
           "description": "zhenzinian: 用户可以直接在订单上进行\"已确认到店消费\"的点击,然后商家收到打款,这样更省事\n那么商家扫用户的订单二维码这个核销环节的意义是什么?\n自己想了下可能是在扫码的时候可以判断双方的坐标,来识别商家的远程刷单行为\n除此之外还有什么其他的必要性吗",
           "link": "https://www.v2ex.com/t/1111305",
           "publishedOn": "2025-02-13T13:44:59.000Z",
-          "wordCount": 381,
+          "wordCount": 386,
           "title": "为什么美团一类的 O2O 应用在线下核销时要用二维码扫码这种形式?",
           "imageUrl": null
         },
@@ -661,7 +655,7 @@
           "description": "hrx00747: \n名字：FlowCharts\n功能：\nFlow Charts 是一款通过文本生成流程图的应用。\n这也许是你见过的最快的流程图生成方式。\n应用分为两个区域：编辑区和显示区。\n你可以在编辑区输入各种命令，流程图会在显示区实时生成。\n相比传统的流程图软件，我们有三大优势：\n快：\n一条命令可以生成一个图形。不需要拖拽，位置恰到好处。\n一条命令可以调整图形的形状和样式。不需要手动调整。\n一条命令可以改变流程图的布局。横向、纵向、随你选择。\n多：\n支持多种命令，生成复杂的流程图。\n支持多种样式，生成多样的流程图。\n支持导出多种格式,满足多场景的需求。\n好：\n编辑区支持关键词高亮，命令缩进，方便编辑和查看\n显示区图形的大小，位置都是精确计算的，恰到好处。\n导出图片跟显示区的效果完全一致，清晰度高。\n\n\n\n\napp store 下载地址\nhttps://apps.apple.com/cn/app/flow-charts-%E6%96%87%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE/id6738784664?mt=12",
           "link": "https://www.v2ex.com/t/1111297",
           "publishedOn": "2025-02-13T13:05:04.000Z",
-          "wordCount": 551,
+          "wordCount": 561,
           "title": "做了一个文本直接生成流程图的 App，欢迎大家来试用，多多提意见更好！",
           "imageUrl": null
         },
@@ -671,7 +665,7 @@
           "description": "whileFalse: 我知道是他的终身不是我的终身，请问有坑没，能活很久吗",
           "link": "https://www.v2ex.com/t/1111296",
           "publishedOn": "2025-02-13T12:51:14.000Z",
-          "wordCount": 395,
+          "wordCount": 397,
           "title": "新手想捐一个馒头的 vip，能不能终身解决下载问题",
           "imageUrl": null
         },
@@ -681,7 +675,7 @@
           "description": "loading: \n现场了解了科大讯飞的学习机，初略感觉还行。\n学而思也有，有兄弟谈谈体验吗？",
           "link": "https://www.v2ex.com/t/1111293",
           "publishedOn": "2025-02-13T12:43:09.000Z",
-          "wordCount": 424,
+          "wordCount": 426,
           "title": "学习机，值得买给小孩吗？",
           "imageUrl": null
         },
@@ -691,7 +685,7 @@
           "description": "Narya: \n公司官网： https://narya.ai/\n产品官网： https://www.mumblenote.com/\n职位投递邮箱： jobs@narya.ai\n公司目前初创阶段，融资千万，MVP 产品已上线，已有付费用户\n公司介绍\n我们是一家专注于 AI 应用层创新的初创公司。我们致力于开发新一代的效率工具，帮助用户捕捉灵感、组织信息，构建个人知识网络，记录和处理繁杂的工作内容。我们的目标是通过打造强化人类能力的 AI 产品，提升用户的日常效率与幸福感。\n我们目前正在开发的产品 Mumble Note ( https://www.mumblenote.com/) 是一款 AI 语音笔记应用。Mumble Note 作为拥有用户“外部记忆”的智能助手，它不仅能够通过 AI 将您的即时想法和生活瞬间转化为结构化的笔记，更能将它们有效地组织起来，帮助您轻松访问和回顾过去的内容。\n创始团队来自加州理工大学和佐治亚理工大学的顶尖 AI 研究者，公司位于美国硅谷，目前已获得多家全球顶级 VC 的支持。\n我们正在寻找：\n一名高度自驱，具备创业精神的 iOS 工程师加入我们的团队。如果你热爱探索未知，乐于解决问题，对开发笔记应用抱有浓厚兴趣或是将最新的 AI 技术产品化感到兴奋，我们非常期待和你聊聊。\n该岗位同时开放全职和实习机会。\n岗位职责：\n使用原生 Swift 开发和维护公司的 iOS 应用 Mumble Note\n与产品和设计团队紧密合作，确保应用的高性能和优质用户体验\n参与产品的设计和迭代，提出技术改进建议\n编写高质量的代码，确保代码的可维护性和可扩展性\n职位要求：\n至少有 1-3 年 iOS 应用开发经验\n具备完整的 iOS 产品从 0 到 1 的开发经验\n精通 Swift/SwiftUI/UIKit/CoreData\n熟悉 Apple 的设计原则和界面指南，具备优秀的 iOS 应用技术框架设计能力\n擅长分析和解决问题，拥有优秀的代码编写和优化能力\n良好的英语沟通能力和沟通意愿，能在小团队中紧密合作，高效交付\n对代码质量，产品品质和交付标准有要求\n加分项：\n具备在 iOS 平台上开发大语言模型应用的经验\n具备在 iOS 平台上开发语音笔记或者其他个人效率类应用的经验\n熟悉并使用过 Figma 使用方式，有能力设计自己的业余项目\n热爱生活，有自己能被称之为“专家”的工作外的爱好\n通过邮箱投递简历jobs@narya.ai，或者微信联系 ZXhwbG9yaXVtMjAxNg==",
           "link": "https://www.v2ex.com/t/1111292",
           "publishedOn": "2025-02-13T12:40:16.000Z",
-          "wordCount": 534,
+          "wordCount": 540,
           "title": "[全职招聘-上海] Narya.ai | 大模型应用赛道 | 急招 iOS 开发 | 月薪 35～ 55K+ RMB",
           "imageUrl": null
         },
@@ -701,7 +695,7 @@
           "description": "azev: \n小孩总是从那里刷视频 看了下设置里没找到 安卓和苹果 都没找到相关设置",
           "link": "https://www.v2ex.com/t/1111291",
           "publishedOn": "2025-02-13T12:39:40.000Z",
-          "wordCount": 400,
+          "wordCount": 404,
           "title": "豆包 app 怎么样才能不让回答里出现抖音短视频",
           "imageUrl": null
         }
