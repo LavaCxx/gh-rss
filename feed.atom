@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-14T21:09:58.998Z</id>
+    <id>urn:2025-02-14T22:09:57.485Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-14T21:09:58.998Z</updated>
+    <updated>2025-02-14T22:09:57.485Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[现在什么都要问一下 deepseek 了]]></title>
+        <id>https://www.v2ex.com/t/1111596</id>
+        <link href="https://www.v2ex.com/t/1111596"/>
+        <updated>2025-02-14T19:35:54.000Z</updated>
+        <summary type="html"><![CDATA[nbafive: 
+看到 xhs 上面各种使用 deepseek ，例如如何规划债务，什么旅行规划，实在太厉害了!尽管下了很久 chatgpt,但是都没怎么用!还是百度，抖音，google,xhs 各平台搜索…
+以前用 chatgpt,咋不知道还有这些作用呢，我去!]]></summary>
+        <author>
+            <name>nbafive</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(并非日经?) 求推荐适应一些特殊需求的笔记软件]]></title>
+        <id>https://www.v2ex.com/t/1111595</id>
+        <link href="https://www.v2ex.com/t/1111595"/>
+        <updated>2025-02-14T19:06:09.000Z</updated>
+        <summary type="html"><![CDATA[Laussan: 由于专业原因对笔记软件有以下需求:
+1. 手写与作图. 目前主要使用的笔记软件是 obsidian, 但使用 ipad 上的 notability 软件作为主要的手写草稿和计算的途径. 但是每次将一些手绘的图导入笔记的时候需要截图+调整, 体感上略有一些麻烦.
+2. 数学公式. 笔记里的公式很多时候会后续导入 overleaf 的整篇文章, 希望公式的写法和 latex 的语法保持完全一致(手动指定使用哪些符号包). Markdown 有能支持指定 latex package 的办法吗?
+寻找了很长时间, 但通常都是手写好的打字输入不舒服, markdown 好编辑的没有很好的办法加入手写. 想知道市面上有没有那种能够和 ipad 协同写作的笔记软件, 比如插入一块手写区域, 然后在 ipad 上完成? 如果要自己实现一个这样的软件/插件的话 会非常复杂吗?]]></summary>
+        <author>
+            <name>Laussan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[￥ 45 出瓦工 BWG-THE DC9 PLAN CN2GIA]]></title>
         <id>https://www.v2ex.com/t/1111594</id>
@@ -559,19 +584,6 @@ Lc-Cost-Analysis （云成本优化系统） | 核心开发
 工具链：ELK 日志体系、Grafana 监控、GitLab CI/CD 。]]></summary>
         <author>
             <name>lengleng211</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你们有过低血糖导致虚脱吗？]]></title>
-        <id>https://www.v2ex.com/t/1111545</id>
-        <link href="https://www.v2ex.com/t/1111545"/>
-        <updated>2025-02-14T09:58:36.000Z</updated>
-        <summary type="html"><![CDATA[chevalier: 家族遗传的低血糖+低血压，极端场景会虚脱，例如体检（早晨禁食+抽血）、急性肠胃炎（缺血糖）。从小到大虚脱过很多次。最近的一次是昨天晚上，不知道是感染了流感还是诺如，发烧+上吐下泻，两顿饭没吃，大意了没有及时补糖。
-虚脱的体验太恐怖了。
-先是心慌伴随想呕吐，自己预感要虚脱了，赶紧坐下；呼吸短促，两眼发黑开始失去视觉，紧接着听觉和触觉也部分消失，感觉胸口很闷，浑身都很难受，有点像溺水，想尽快摆脱这个状态但又无能为力，几分钟后逐步恢复视觉和知觉，浑身都被汗水浸透了，手脚发麻不能行动，感觉像重生了一样。
-除了我自己身边没见过跟我一样的，网上问问大家有没有同病相怜的]]></summary>
-        <author>
-            <name>chevalier</name>
         </author>
     </entry>
     <entry>
