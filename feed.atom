@@ -1,10 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-14T19:08:51.482Z</id>
+    <id>urn:2025-02-14T20:12:11.331Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-14T19:08:51.482Z</updated>
+    <updated>2025-02-14T20:12:11.331Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[￥ 45 出瓦工 BWG-THE DC9 PLAN CN2GIA]]></title>
+        <id>https://www.v2ex.com/t/1111594</id>
+        <link href="https://www.v2ex.com/t/1111594"/>
+        <updated>2025-02-14T17:43:16.000Z</updated>
+        <summary type="html"><![CDATA[bclcn: 改邮箱出瓦工 THE DC9 PLAN
+原邮是域名邮箱，无法出原邮。
+剩余价值 36USD / 12 * 2 约等于 45RMB
+CPU：1 核
+内存：768M
+硬盘：15G SSD
+流量：750G/月
+带宽：1.5 Gbps
+机房：DC9
+线路：CN2GIA
+到期时间：2025-04-15
+续费价格：Annually: $35.42
+TG@coolest4ever]]></summary>
+        <author>
+            <name>bclcn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求助，关于 OpenWrt 的使用]]></title>
+        <id>https://www.v2ex.com/t/1111593</id>
+        <link href="https://www.v2ex.com/t/1111593"/>
+        <updated>2025-02-14T17:14:06.000Z</updated>
+        <summary type="html"><![CDATA[codermali: 
+我家里用的小米 AX3600 ，刷了 官方 OpenWrt 24.10.0 （最新），安装了 OpenVPN 和 OpenClash 。
+家里的设备访问 google 、youtube 、docker hub 没有障碍。
+公司有一台测试服务器，是使用 docker 进行部署。
+现在国内已经无法直接访问 docker hub 了。所以我想着在服务器上装一个 OpenVPN ，挂回家里的局域网，用于升级 Docker 镜像。
+这是背景介绍。
+家里 OpenWrt DHCP 网段是 192.168.88.0/24 ，OpenVPN 分配的网段是 192.168.8.0/24 。
+现在，服务器上已经安装了 OpenVPN 客服端，可以挂回家里的局域网。但是，依然无法访问 docker hub 。
+traceroute 追踪，走到 192.168.8.1 之后，就全是 * 了。好像根本就没走 OpenClash 。
+安装 OpenVPN ，是根据 官方文档： https://openwrt.org/docs/guide-user/services/vpn/openvpn/server 。
+有没有大佬能指导下，首先是我这个思路是否能实现？如果可以，那么我是哪里做错了，应该怎么改？]]></summary>
+        <author>
+            <name>codermali</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[92-95 折代买任何 steam 国区游戏]]></title>
+        <id>https://www.v2ex.com/t/1111591</id>
+        <link href="https://www.v2ex.com/t/1111591"/>
+        <updated>2025-02-14T16:10:16.000Z</updated>
+        <summary type="html"><![CDATA[lisxour: 92-95 折代买任何 steam 国区游戏，里面的余额都是自己卖 csgo 箱子赚的，不是来路不明的资金，可安心购买。
+总共就 1700 元，卖完为止，多的没有，虽然我知道可以通过市场买枪，再通过 buff 出售套现，但我不想。
+
+＜ 50 元，95 折
+50~100 元，94 折
+101~200 元，93 折
+＞ 200 元，92 折
+可叠加 steam 折扣，按打折后价值算，比如一个游戏原价 120 元，steam 打折 8 折，等价于 96 元范围，就是 94 折，那最终购买价：120 * 0.8 * 0.94 = 90.24 元
+不接受任何二次砍价，有意的加我 wx ，请备注 steam 代买]]></summary>
+        <author>
+            <name>lisxour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么 2025 年央视蛇年春晚的歌曲这么伤感，每一首歌听起来都很想哭。]]></title>
+        <id>https://www.v2ex.com/t/1111590</id>
+        <link href="https://www.v2ex.com/t/1111590"/>
+        <updated>2025-02-14T16:02:26.000Z</updated>
+        <summary type="html"><![CDATA[pengyuedenai1234: 我最近在回味今年央视春晚的时候，发现央视春晚类的节目很多都很悲伤。很多歌曲听到一半都想爆哭。简直不敢带耳机看春晚。一戴耳机看春晚遇到歌曲没几分钟就很容易掉眼泪。比如像薛之谦的方的言，王菲的世界赠与我的和梁静茹的住在心里的人。感觉都在怀念从前。像是失去了什么心爱的人一样。春节是喜庆的节日。春节应该是嘻嘻哈哈高兴的过大年才对。安排这么多悲伤的歌曲让家人团聚的时候听着掉眼泪感觉也不合适。这也是第一年非遗春节。在春节觉得很悲伤甚至悲伤的流眼泪和春节的喜庆不太合适。这些歌曲听起来就像失恋了或者谁死了一样的。我觉得悲伤的歌曲最适合一个人听一个人流泪一个人疗伤。而不是在大家团聚的时候让大家一起听。没有前几年的春晚，至少歌曲也是那种舒缓激昂积极向上听起来让人放松愉悦感到释怀的。就是听起来感觉拿的起放的下能够忘记从前。歌曲也是轻松欢快的。而去年也没有多灾多难。而春晚的歌曲很多都想哭。感觉春晚歌曲就像村里吃席一样听起来太悲伤。春晚歌曲听起来完全没有过年的喜庆。]]></summary>
+        <author>
+            <name>pengyuedenai1234</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 2022 se 的 阿里 NFC 卡 可能是沉默启用的]]></title>
+        <id>https://www.v2ex.com/t/1111589</id>
+        <link href="https://www.v2ex.com/t/1111589"/>
+        <updated>2025-02-14T16:01:34.000Z</updated>
+        <summary type="html"><![CDATA[PhpBB: 
+之前一段时间,首页有推荐'碰一下'功能,对安卓用户可能有点新奇,但 IOS 用户都知道,这个就是用 NFC 的一张卡嘛.
+当时点进去这个广告,提示要蓝牙权限,我就拒绝并退出了,没有点击任何同意或者启用之类的按钮,因为我不想让 Ali 通过周边 MAC 定位我
+今天首页又出这个广告了,我点进去想确认是否关闭状态,结果居然没有任何开关的按钮,也没有查看是否启用的地方
+由于 2022 se 的 NFC 是默认开启且永久开启的, IOS 设置内不提供关闭选项, 导致你不能从系统层面防止'碰一下'发生.
+那么难道要卸载 Ali? 这太难了, 到处要用到 Ali 啊, 最起码淘宝要啊
+于是联系客服, 询问后得知, '我们可以在后台为你关闭,关闭后,你在商户碰一下,机器会提示错误', '已经成功为你关闭了'
+那既然他能关闭, 前提就是原来是启用的嘛. 有点吓人啊
+这个功能的出现本身是好事, 因为 IOS 的 APPLE PAY 必须要你开通所谓的 ICLOUD, 才允许你给钱包添加卡.
+像我这种用了多年 IOS,却没有 ICLOUD 需求的人,就一直处于无法使用 NFC 支付的状态, Ali 给了这类人群替代选项.
+但是沉默启用,且不提供 APP 内关闭方式,就不太友好了,不知道是故意呢,还是有什么难言之隐呢?
+话说, NFC 支付在国外早都推广开了, 到现在甚至都不用特别标识 APPLE PAY GOOGLE PAY 了, 只要是个机器, 都能同时支持实体卡和手机. 有些国家连地铁巴士都能用 VISA/MASTER, 真正做到 less is more
+Ali 这个东西虽然还不够简单,毕竟你不是直接刷卡,而是套娃再套娃,但是比起扫码这种慢吞吞的方式,还是好多了.每次搭地铁,看到人均 2 秒的扫码场景,真的急死个人.
+希望'碰一下'只是个过渡产品,不要成为支付方式的终点. 哪天所有商户都做到一个 POS 机, 同时接受实体卡和手机 NFC, 那才是真的舒心啊 (银联你能不能动一动,用点力,推广一下你的'挥卡'支付)
+以及, 我听说北京地铁可以刷 VISA/MASTER 了, 其他城市能否像首都看齐? 另外, 机场火车站这些地方的商户, 能不能除了支付宝微信也来点其他支付方式啊, 我难以想象老外落地之后, 如果没现金, 要怎么吃饭买水. 要说手续费的话, 别的国家你刷中国卡, 也是要手续费的, 人家机场火车站的商户怎么都愿意接受这笔成本呢 <_<]]></summary>
+        <author>
+            <name>PhpBB</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[请问下，突发性能实例的 2u 和经济型的 2u 性能上有啥区别吗？]]></title>
+        <id>https://www.v2ex.com/t/1111588</id>
+        <link href="https://www.v2ex.com/t/1111588"/>
+        <updated>2025-02-14T15:59:39.000Z</updated>
+        <summary type="html"><![CDATA[790002517zzy: 
+现在经济型 2u 实例 cpu 偶尔到 100%了，升级成突发性能能缓解吗？]]></summary>
+        <author>
+            <name>790002517zzy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[14 寸 macbookpro24g+512g 的 M4 pro 和 1w 多的超薄 ROG 笔记本(i9 4070) , 哪个更好用]]></title>
+        <id>https://www.v2ex.com/t/1111585</id>
+        <link href="https://www.v2ex.com/t/1111585"/>
+        <updated>2025-02-14T15:47:23.000Z</updated>
+        <summary type="html"><![CDATA[LawlietZ: 
+因为前一篇帖子 https://v2ex.com/t/1111515 ，有人说 64g 的 mbp 仍然感觉卡，是不是高配的 windows 就不会卡了，所以有点迟疑换新版的 mbp 到底有没有意义，本人用的高配 windows 台式机确实没感觉卡过。
+其实 win 本办公和编程也还行，微软程序猿里面一直都 win 编程，win 下软件也丰富。大家一直诟病的 windows 装环境问题，可能折腾一遍也就够了]]></summary>
+        <author>
+            <name>LawlietZ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30 万怎么合理配置资产]]></title>
+        <id>https://www.v2ex.com/t/1111581</id>
+        <link href="https://www.v2ex.com/t/1111581"/>
+        <updated>2025-02-14T15:17:28.000Z</updated>
+        <summary type="html"><![CDATA[hylcn: 各位大佬，咨询一下怎么合理配置 30 万才能达到年化利率 3%的收益呀？求解答]]></summary>
+        <author>
+            <name>hylcn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[deepseek R1 官方竟然是全部开源的, 开源就是满血]]></title>
+        <id>https://www.v2ex.com/t/1111580</id>
+        <link href="https://www.v2ex.com/t/1111580"/>
+        <updated>2025-02-14T15:10:31.000Z</updated>
+        <summary type="html"><![CDATA[paopjian: 官方在 X 发布的 https://x.com/deepseek_ai/status/1890324295181824107, 也就是说网页效果和自部署效果可以完全相同, 这可真是惊人, ds 可真够实诚的, 也就是说"个人"使用 7 万人民币左右的成本(ktransformers 方案), 就可以实现 10token/s 使用顶尖大模型
+不敢想象未来如果再继续优化计算结构,是不是能人人都能单机 r1]]></summary>
+        <author>
+            <name>paopjian</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[用 JS 脚本控制你的 Android 手机]]></title>
         <id>https://www.v2ex.com/t/1111579</id>
@@ -437,160 +575,6 @@ Lc-Cost-Analysis （云成本优化系统） | 核心开发
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI 编辑器百花齐放， JB 家还这么落后，但是有动作了， Junie 有人进 Waitlist 了吗？]]></title>
-        <id>https://www.v2ex.com/t/1111544</id>
-        <link href="https://www.v2ex.com/t/1111544"/>
-        <updated>2025-02-14T09:58:09.000Z</updated>
-        <summary type="html"><![CDATA[tlerbao: Cursor/Windsurf/VSCode Copilot
-这几家在 AI 上面可以说目前算是齐头并进呢
-Copilot 头几天大更，多点预测 Tab 补全，Agent 模式，Insiders 版正在灰度。
-### 但是但是
-VSCode 生态写代码还是差点意思，还是 JB 家写代码舒服，但是 AI 太弱了
-据说要出个 Junie ，不知道怎么样。
-https://www.jetbrains.com/junie/
-    
-### 我在等
-Copilot 全面超越 Cursor ，我就回 VSCode
-JB 家如果 AI 功能对齐现在的 Cursor ，我立马回 JB 家。]]></summary>
-        <author>
-            <name>tlerbao</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NextChat 里面的“面具”功能是干什么用的？]]></title>
-        <id>https://www.v2ex.com/t/1111542</id>
-        <link href="https://www.v2ex.com/t/1111542"/>
-        <updated>2025-02-14T09:54:57.000Z</updated>
-        <summary type="html"><![CDATA[shintendo: 查了一下说是预设角色、预设提示词，但不知道有什么使用场景？你们会用到吗？]]></summary>
-        <author>
-            <name>shintendo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[N 卡又贵又断货，买块 AMD Radeon RX 7900 XTX 凑合一下怎么样？]]></title>
-        <id>https://www.v2ex.com/t/1111541</id>
-        <link href="https://www.v2ex.com/t/1111541"/>
-        <updated>2025-02-14T09:54:54.000Z</updated>
-        <summary type="html"><![CDATA[paranoiagu: 
-看到 llama.cpp 项目支持 AMD GPU （ https://github.com/ggerganov/llama.cpp/blob/master/docs/build.md#hip ）
-AMD 官网看到支持 https://rocm.docs.amd.com/projects/install-on-windows/en/latest/reference/system-requirements.html
-东哥那边查一下价格，24G 显存不到 7~8k 。就是不知道跑起来效果怎么样。]]></summary>
-        <author>
-            <name>paranoiagu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大家有没有尝试过用 AI 生成代码文档？有没有推荐的，效果怎么样？]]></title>
-        <id>https://www.v2ex.com/t/1111539</id>
-        <link href="https://www.v2ex.com/t/1111539"/>
-        <updated>2025-02-14T09:54:17.000Z</updated>
-        <summary type="html"><![CDATA[Hooooooey: 最近在思考一个问题，AI 技术是否可以在软件开发过程中提供更多帮助？比如，自动生成文档、代码优化、错误检测等。这些自动化功能是否能真的提高开发效率？或者说，哪些开发中的任务你觉得 AI 可以做得更好？最好是拿着自己的亲身经历，拒绝打广告！]]></summary>
-        <author>
-            <name>Hooooooey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[手搓了个 Web 分析统计（Cloudflare Pages）]]></title>
-        <id>https://www.v2ex.com/t/1111537</id>
-        <link href="https://www.v2ex.com/t/1111537"/>
-        <updated>2025-02-14T09:32:37.000Z</updated>
-        <summary type="html"><![CDATA[uxiaohan: 
-托管在被称为赛博菩萨的 Cloudflare 上,无成本稳定运行,每天可达 10 万次免费统计。
-预览地址： https://analytics.vvhan.com
-开源地址： https://github.com/uxiaohan/HanAnalytics]]></summary>
-        <author>
-            <name>uxiaohan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大伙在写代码时会不会迷茫?]]></title>
-        <id>https://www.v2ex.com/t/1111535</id>
-        <link href="https://www.v2ex.com/t/1111535"/>
-        <updated>2025-02-14T09:29:57.000Z</updated>
-        <summary type="html"><![CDATA[yanni199899: 
-就是空闲的时候想写一个好玩的东西,但是找不到灵感,感觉各种痛点已经被别人解决了,自己不知道该做什么了,只能望着编辑器发呆.]]></summary>
-        <author>
-            <name>yanni199899</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[若大的这么三个电信运营商，把正规和非正规渠道的资费差异搞成这么大]]></title>
-        <id>https://www.v2ex.com/t/1111534</id>
-        <link href="https://www.v2ex.com/t/1111534"/>
-        <updated>2025-02-14T09:28:34.000Z</updated>
-        <summary type="html"><![CDATA[zhwguest: 
-办一张大流量上网卡，正规渠道和各种帖小广告的，资费可以差异 5 倍。
-这是为什么？难道只能靠欺负老实人挣钱么？]]></summary>
-        <author>
-            <name>zhwguest</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[请问大家是如何在 excel 编辑 json 单元格呢？]]></title>
-        <id>https://www.v2ex.com/t/1111533</id>
-        <link href="https://www.v2ex.com/t/1111533"/>
-        <updated>2025-02-14T09:26:25.000Z</updated>
-        <summary type="html"><![CDATA[qcbf111: 
-excel 作为配置表，某些字段单元格比较复杂，以 json/toml/yaml 等等这种形式内容。
-目前是比较麻烦的方式在 VSCode 编辑了复制到 excel 单元格，或者从 excel 单元格复制到 vscode 。
-我有个想法，能不能有个东西把这个单元格变成按钮，文本还是保存在这个单元格，但是点击单元格按钮自动打开 vscode 并且监听修改保存，这样就能很方便实用了。请问有没有这种工具或者插件之类的呢？ wps excel 。
-excel 类似这样
-id
-name
-desc
-icon
-....
-script
-
-
-
-
-1
-abc
-aa
-a.png
-...
-{ScriptName:{Field1:123, Field2:{Val:111}}}]]></summary>
-        <author>
-            <name>qcbf111</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[打造高效用户旅程：埋点分析系统的实操指南]]></title>
-        <id>https://www.v2ex.com/t/1111532</id>
-        <link href="https://www.v2ex.com/t/1111532"/>
-        <updated>2025-02-14T09:22:03.000Z</updated>
-        <summary type="html"><![CDATA[ClkLog: 
-引言
-什么是用户行为
-在数字化时代，了解用户如何与我们的产品或服务互动是至关重要的。用户行为，在广义上，指的是用户在网站、应用程序或其他数字界面上的所有动作和反应。这些行为可能包括点击链接、浏览页面、填写表单，甚至是在社交媒体上分享内容。每一个动作都是用户体验的一部分，并对我们理解他们的需求和偏好提供了宝贵的线索。
-在技术层面上，用户行为的跟踪和分析可以让我们深入了解用户的互动模式，从而指导我们的产品改进和市场战略。通过分析这些数据，我们可以发现用户旅程中的关键触点，识别用户体验的痛点，以及揭示潜在的优化机会。这不仅有助于提升用户满意度和忠诚度，还可以增强产品的市场竞争力。
-常见的用户行为包括但不仅限于：
-● 页面浏览行为：例如，一个用户可能在电商网站上浏览不同的产品页面。这种行为可以告诉我们用户对哪些产品更感兴趣。
-● 交互动作：如在一个社交媒体应用中，用户可能喜欢、评论或分享帖子。这些互动为我们提供了关于用户喜好和参与度的重要线索。
-● 搜索习惯：用户在搜索栏中输入的内容可以揭示他们的需求和意图。例如，如果一个用户在健康应用中搜索“低热量食谱”，这可能表示他们对健康饮食感兴趣。
-● 表单填写：用户在填写表单时的行为，如注册流程中的放弃点，可以揭示用户体验的痛点。
-● 购买行为：在电子商务网站上，用户的购买行为（比如添加到购物车、结账过程）为我们提供了关于用户购买决策过程的洞察。
-为此，埋点分析系统的运用显得尤为重要。通过精准的数据收集和分析，它们使我们能够将用户行为转化为实际的业务洞察和策略行动。下文将进一步探讨埋点分析系统的定义、重要性以及如何有效地实施这一系统，以优化整体的用户体验。
-通过精确地分析这些行为，开发者和市场营销人员不仅能够更好地理解用户的需求和偏好，还可以发现潜在的问题点和优化机会。例如，如果发现很多用户在填写地址信息时退出，这可能表…]]></summary>
-        <author>
-            <name>ClkLog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[好久没有 paypal 了，问下各位大佬]]></title>
-        <id>https://www.v2ex.com/t/1111531</id>
-        <link href="https://www.v2ex.com/t/1111531"/>
-        <updated>2025-02-14T09:21:37.000Z</updated>
-        <summary type="html"><![CDATA[lcy630409: 我看现在的 paypal checkout 只能企业账户使用了？
-以前的提交表单到<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_xclick">
-也失效了，现在个人账户 ，在网站上怎么下订单后收款呢]]></summary>
-        <author>
-            <name>lcy630409</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[科技爱好者周刊（第 337 期）：互联网创业几乎没了]]></title>
         <id>http://www.ruanyifeng.com/blog/2025/02/weekly-issue-337.html</id>
         <link href="http://www.ruanyifeng.com/blog/2025/02/weekly-issue-337.html"/>
@@ -665,6 +649,42 @@ Organizing Design System Component Patterns With CSS Cascade Layers originally p
 Make Any File a Template Using This Hidden macOS Tool originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
+        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
+        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
+        <updated>2025-02-09T15:59:33.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
+
+目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
+这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
+准备
+开始之前，确保你已经建立了一个 Expo 的项目。
+然后，通过以下命令创建一个 Expo Module。
+npx create-expo-module@latest --local
+根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
+.
+├── android
+│   ├── build.gradle
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           └── java
+│               └── expo
+│                   └── modules
+│                       └── testmodule
+│                           ├── TestModule.kt
+│                           └── TestModuleView.kt
+├── expo-module.config.json
+├── index.ts
+├── ios
+│   ├── TestModule.podspec
+│   ├── TestModule.swift
+│   └── TestMod…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -792,6 +812,42 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[新年的路]]></title>
+        <id>https://innei.in/notes/185</id>
+        <link href="https://innei.in/notes/185"/>
+        <updated>2025-02-02T16:28:11.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
+
+许久没有写代码了，原因是最近自驾去了挺多地方。
+年前，去了海宁神仙湖。第一次上高速。
+:::gallery
+https://object.innei.in/bed/2025/0202_1738511753954.jpeg
+https://object.innei.in/bed/2025/0202_1738511757142.jpeg
+:::
+冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
+然后去了南北湖。比较一般。没咋拍。
+除夕前一晚，去了巧克力小镇。也比较一般。
+除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
+
+同时，去了附近的景区，也是有很多老板按箱放烟花的。
+初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
+
+
+后面去了盐官。但是没看到潮水，刚好错过了。
+
+去了大风车。
+
+过年期间，不管是哪个有点名气的景点人都挺多的。
+上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
+提车两个月，已经跑了 2300km+。
+好久没有写代码了，还是感到非常的焦虑。
+
+看完了？说点什么呢]]></summary>
+        <author>
+            <name>Innei</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -863,6 +919,33 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
+        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
+        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
+        <updated>2025-01-26T13:57:34.000Z</updated>
+        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
+
+开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
+这篇文章首先来讲讲 Follow Mobile 的颜色体系。
+开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
+准备条件
+由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
+NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
+我们安装 NativewindCSS。
+pnpm install nativewind tailwindcss
+配置好 Babel 和 Metro。
+// babel.config.js
+module.exports = function (api) {
+  api.cache(true)
+  return {
+    presets: [
+      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
+      'nativewind/b…]]></summary>
+        <author>
+            <name>Innei</name>
         </author>
     </entry>
     <entry>
