@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -289,12 +283,252 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1111627",
+          "author": "UtadaHikaru",
+          "description": "UtadaHikaru: \n来源新设备赠送\n[闲鱼]  https://m.tb.cn/h.TJZcDCO?tk=x9iqeSHnfD2 CZ009 「我在闲鱼发布了 [半年 iCloud 2T ，每人 400G ，位置 5 个] 」\n点击链接直接打开",
+          "link": "https://www.v2ex.com/t/1111627",
+          "publishedOn": "2025-02-15T03:17:14.000Z",
+          "wordCount": 372,
+          "title": "30 出半年 iCloud 400G",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111625",
+          "author": "520discuz",
+          "description": "520discuz: 昨天 WIN10 提示有补丁，然后关机更新，开机后我的宋体就变成 V5 版本的宋体了，V5 版本的宋体我用的很不习惯，之前都是从 XP 里把 V3 的宋体考出来用在 WIN10 下，昨天更新后发现桌面变 V5 的宋体了，再次安装 V3 的宋体发现无论怎么样都无法安装成功了...想卸载系统 V5 宋体再安装 V3 宋体，但是卸载 V5 宋体的时候提示宋体受系统保护无法卸载",
+          "link": "https://www.v2ex.com/t/1111625",
+          "publishedOn": "2025-02-15T03:14:24.000Z",
+          "wordCount": 409,
+          "title": "昨晚上更新 WIN10 后 XP 老宋体无法使用怎么办",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111623",
+          "author": "muzihuaner",
+          "description": "muzihuaner: \n啊啊啊，太不靠谱了",
+          "link": "https://www.v2ex.com/t/1111623",
+          "publishedOn": "2025-02-15T03:10:29.000Z",
+          "wordCount": 347,
+          "title": "https://jsdmirror.com/ 跑路了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111622",
+          "author": "cinlen",
+          "description": "cinlen: \n大约有这几个问题：\n当前使用/曾经使用的分布式事务的方案是什么？  \n你觉得比较好的方案是哪种？（综合考虑 “对架构复杂度提升”，”对代码可读性的影响“，“对程序员写代码的心智负担提升”等等） \n综合下来，做这件事划算吗？是让你更轻松了，还是让你更累了？ \n如果你加入了一家新公司，当前业务需要引入分布式事务，你会选择哪种方案？\n我看过网络上的理论文，但希望得到有真实实践过的后端同学们的分享，而不是全文背诵网络上的文章，这样就没有意义了。",
+          "link": "https://www.v2ex.com/t/1111622",
+          "publishedOn": "2025-02-15T03:08:20.000Z",
+          "wordCount": 389,
+          "title": "请教后端们关于分布式事务的实践",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111621",
+          "author": "pigzilla",
+          "description": "pigzilla:",
+          "link": "https://www.v2ex.com/t/1111621",
+          "publishedOn": "2025-02-15T03:01:19.000Z",
+          "wordCount": 407,
+          "title": "现在 2000 以内的预算，买啥 N 卡跑 AI 最划算？主要是测试各种 AI 相关的软件，大模型也会试试。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111620",
+          "author": "johnwilson",
+          "description": "johnwilson: \n传送门: http status code\n访问地址: https://httpstatuscode.site/",
+          "link": "https://www.v2ex.com/t/1111620",
+          "publishedOn": "2025-02-15T03:00:54.000Z",
+          "wordCount": 438,
+          "title": "专门做了个科普 http status code 的网站， 希望大家喜欢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111619",
+          "author": "elaiza",
+          "description": "elaiza: \n降的太夸张了，不想存农村信用社之类的小银行",
+          "link": "https://www.v2ex.com/t/1111619",
+          "publishedOn": "2025-02-15T03:00:39.000Z",
+          "wordCount": 511,
+          "title": "老妈让我存 40w,打电话问银行大额存单利息多少，才 1.5 几，怎么搞，放支付宝和微信吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111618",
+          "author": "airbo",
+          "description": "airbo: \n背景：一次春节的技术狂欢\n最近在 V2EX 、GitHub 甚至朋友圈频繁刷到 DeepSeek 的「硬核拜年」——有人用它生成代码春联，有人训练 AI 写红包祝福，甚至饭桌上老一辈都在讨论 Deepseek 。\n于是这个春节，我们肝出了 DeepSeek 对话生成器 ——你可以自定义问题和答案，AI 会自动生成「思考过程」并渲染成聊天截图，绝对不像「某宝 5 元 P 图」。\n玩法说明书（极简三步）\n\n扫码进入小程序 输入你的「剧本」 ：设定问题（例如「如何评价 V2EX 的技术氛围？」），再写下你想要的「标准答案」\nAI 导演上线：模型会模拟人类思考路径，生成符合逻辑的「推理过程」（包含刻意设计的犹豫、撤回等细节）\n一键导出神图：生成 DeepSeek 风格对话界面。\n实测脑洞案例\n▍「当代夸夸模拟器」\n某不愿透露姓名的用户案例：\n\n→ 一张「 DeepSeek 彩虹屁」截图在团队群疯传，现已加入飞书表情表\n▍「段子手新工具」\n某段子手情人节搞笑截图：\n\n▍「产品冷启动神器」\n某独立开发者实战操作：生成「用户」咨询 DeepSeek 的对话 \n\n结果：大家都在问怎么给 DeepSeek 灌数据调模型，评论区无人质疑真实性\n普通人第三视角\n\n\n你可能想问的\n❓ 「这不就是伪造数据？」\n→ 生成图片纯属娱乐，禁止用于学术/商业造假\n欢迎使用我们「 AI 说假话」小程序发挥你们的创意！\n\n（小声：已经有用户生成「和 DS 讨论如何推翻人类统治」🤖的对话... ）",
+          "link": "https://www.v2ex.com/t/1111618",
+          "publishedOn": "2025-02-15T03:00:23.000Z",
+          "wordCount": 443,
+          "title": "DeepSeek 对话生成器：让 DS 说出你想要的答案（附脑洞彩蛋）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111617",
+          "author": "Geon97",
+          "description": "Geon97: 需求:\n想要买个手机当做海外手机来使用。预算在 2-3k 左右\n想法:\n这个预算如果买 pixel 只能买到一手的 google pixel 7pro 。\n从现在看来在国补的加持下感觉一加 ace 5pro 和红米 k80 价格还是挺香的。\n困惑:\n不知道这两款适不适合做海外机使用，现在一加 ace 5pro 和红米 k80 是否支持解锁刷 lineageos ？\n如果都支持的话更推荐哪款？或者有其他更适合的机型吗？\n现在用的是一款国行的 ios ，用这款手机做海外机是否不太合适？",
+          "link": "https://www.v2ex.com/t/1111617",
+          "publishedOn": "2025-02-15T03:00:04.000Z",
+          "wordCount": 529,
+          "title": "2-3k 手机如何选，顺便问下新款一加和 redmi 都支持 BL 解锁刷 lineageos 吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111616",
+          "author": "xing393939",
+          "description": "xing393939: \n本人程序员，一个人住了一个房间，另一个房间求一合租室友。具体信息见： https://m.tb.cn/h.TJ0LQ1h?tk=gwYYeSHasnw",
+          "link": "https://www.v2ex.com/t/1111616",
+          "publishedOn": "2025-02-15T02:49:43.000Z",
+          "wordCount": 335,
+          "title": "诚求合租室友，天府软件园附近的两室一厅",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111615",
+          "author": "unregister",
+          "description": "unregister: 是不是只能叫搬家公司了，搬到哪里去呢？他们能回收吗",
+          "link": "https://www.v2ex.com/t/1111615",
+          "publishedOn": "2025-02-15T02:48:53.000Z",
+          "wordCount": 463,
+          "title": "新木床，占地方，不好拆和处理，也卖不了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111614",
+          "author": "bumo",
+          "description": "bumo: \n1 、顺德区北滘镇怡和中心（靠近美的总部、和美术馆，广州地铁 7 号线&佛山地铁 3 号线-北滘新城站）；\n2 、负责电商交易系统&供应链管理系统开发；\n3 、大专及以上学历，计算机相关专业，2 年或以上工作经验；\n4 、技术栈：Spring Boot 3 + Java 21 + Docker + MySQL + Redis + RocketMQ + ElasticSearch ；\n5 、创业公司人数 60+、大小周、朝 9 晚 6 、加班可调休；\n6 、薪资范围 10-15k ；\n7 、简历接收邮箱 kbz#wsyxmall.com (#替换 @)；",
+          "link": "https://www.v2ex.com/t/1111614",
+          "publishedOn": "2025-02-15T02:47:07.000Z",
+          "wordCount": 420,
+          "title": "[佛山-顺德北滘]招 Java 10-15k",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111613",
+          "author": "xcccer",
+          "description": "xcccer: \n背景：在 hologres 中有多条记录分组汇总，其中有一个数组字段（ eg：positions ）\n请问我可以使用什么函数，或者怎么样实现数组合并去重返回呢？\n尝试问过 gpt ，gpt 给出的答案为：\nSELECT\nstaff_id,\narray_distinct(array_agg(positions)) AS merged_positions\nFROM\nstaff_positions\nGROUP BY\nstaff_id;\n但是 holo 并不支持 array_distinct 函数。\n自己也写过 sql ，虽然能实现，但是性能很差：\nSELECT\nstaff_id,\narray_agg(DISTINCT element) AS result\nFROM (\nSELECT\nstaff_id,\nunnest(positions) AS element\nFROM\nstaff_positions\n) AS subquery\nGROUP BY\nstaff_id;\n请教一下各位大佬有没有好的写法能够实现该功能呢？万分感谢～",
+          "link": "https://www.v2ex.com/t/1111613",
+          "publishedOn": "2025-02-15T02:40:11.000Z",
+          "wordCount": 424,
+          "title": "请教一下有关 hologres 和 sql 写法的问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111612",
+          "author": "sadfasdfa",
+          "description": "sadfasdfa: \n我经常要做记录，有时候看到些东西要截图或者拍照，但是一旦插入图片占用好大空间，手机屏幕小。希望能有个软件在做记录时对图片进行归档",
+          "link": "https://www.v2ex.com/t/1111612",
+          "publishedOn": "2025-02-15T02:38:03.000Z",
+          "wordCount": 382,
+          "title": "大家都是怎么做记录的",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111611",
+          "author": "Allenxup",
+          "description": "Allenxup: \n最近网聊了一个女生，大概有一个星期了，聊的挺好，但是还没见过面。想着周末去广州见一面，请有经验的 V 友们给点建议",
+          "link": "https://www.v2ex.com/t/1111611",
+          "publishedOn": "2025-02-15T02:31:02.000Z",
+          "wordCount": 442,
+          "title": "和女生第一次见面要注意什么，怎么安排呢",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111610",
+          "author": "ly1878",
+          "description": "ly1878: 如题，优选国外开发、开源更好，付费也行，要本地，能导出，功能界面简洁，要能备注、打标签。\n主要用来管理 iPhone 和手表上日常生活上使用自带的“语音备忘录”，自带录音名称上看不到日期，每次手动改标题，只能在软件界面上逐个手动拖拽才能取出文件，想备注的信息只能在标题上备注，不好管理。\n麻烦大佬推荐，谢谢。",
+          "link": "https://www.v2ex.com/t/1111610",
+          "publishedOn": "2025-02-15T02:17:41.000Z",
+          "wordCount": 337,
+          "title": "macOS 好用的录音管理软件，要本地、简洁；可备注、标签。麻烦大佬推荐。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111607",
+          "author": "daya0576",
+          "description": "daya0576: \n最近使用纯 Python 开发了一个没有目标的习惯追踪应用 (支持自部署)：\nRepo: https://github.com/daya0576/beaverhabits\nDemo: https://beaverhabits.com/demo \n优雅的状态管理\n整体开发的体验非常丝滑，NiceGUI 框架提供了丰富的前端组件。\n同时支持非常自然地将前端状态绑定至 python 的属性或变量：\ndemo = Demo()\nui.slider(min=1, max=3).bind_value(demo, 'number')\n\n甚至直接绑定至用户一次 session：\nui.textarea('This note is kept between visits')\n   .classes('w-full').bind_value(app.storage.user, 'note')\n\n鱼与熊掌不可兼得\n优雅的背后是 tradeoff ，就如同 GIL 一刀切一般，在 NiceGUI 框架中所有的逻辑都在后端服务器处理（美名称之为 backend-first philosophy ）。\n举个例子，在前端界面点击菜单下拉框，也需要一来一回的 websocket 交互。如果网络状况一般，可能会严重影响用户体验，这也是为什么个人项目主打自部署～ \n总而言之\n总而言之，NiceGUI 对于没有丰富前端经验的 Python 程序员，应该会是一个不错的选择 :)",
+          "link": "https://www.v2ex.com/t/1111607",
+          "publishedOn": "2025-02-15T01:48:57.000Z",
+          "wordCount": 537,
+          "title": "用纯 Python 打造你的第一个 Web 应用",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111606",
+          "author": "ChatGOP",
+          "description": "ChatGOP:",
+          "link": "https://www.v2ex.com/t/1111606",
+          "publishedOn": "2025-02-15T01:47:44.000Z",
+          "wordCount": 429,
+          "title": "兄弟们， 你们遇到 Java /Spring 微服务项目中最大挑战是什么？ K8S 最大挑战是什么呢？ 谢谢先!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111605",
+          "author": "jarvanluo",
+          "description": "jarvanluo: \n公司的网站是部署在香港的一个服务器，单机。最近几天偶尔会出现 https 无法访问网站的情况，频率比较低，1 天可能出现 2-3 次，每次持续 3-4 分钟，电信的网络。\n1.电信网络下公司的网站通过 http 访问是正常的，https 访问偶尔出现无法访问的情况；\n2.中国移动网络下访问公司的网站都正常( http/https 都正常)；\n3.电信网络访问公司的网站 https 异常时，访问其他的网站比如百度、淘宝的，都能正常访问。\n一般这种是什么原因，如何排查呢",
+          "link": "https://www.v2ex.com/t/1111605",
+          "publishedOn": "2025-02-15T01:40:30.000Z",
+          "wordCount": 413,
+          "title": "请教一个跨境网络问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111604",
+          "author": "BestVPS",
+          "description": "BestVPS: \n中国电信用户专享福利！两步轻松领通信礼包\n[口令兑换话费攻略] \n打开中国电信 APP ，点击底部\"我的\"-\"我的奖券\"-\"口令兑换\"\n（或首页搜索框输入\"口令码兑换\"直达）\n在兑换页输入专属口令\"心有灵犀\"\n重点！兑换后务必点击\"立即使用\"激活权益\n奖励实时到账，实测可得 0.52-99 元随机话费（亲测 0.52 元）",
+          "link": "https://www.v2ex.com/t/1111604",
+          "publishedOn": "2025-02-15T01:25:14.000Z",
+          "wordCount": 503,
+          "title": "二月中国电信羊毛",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111603",
+          "author": "xtx",
+          "description": "xtx: 昨晚刚做的，用了很多手法终于把别人的货车给烧了……至于为什么烧，前因后果都忘了，然后开始潜逃。\n之前还做过欺诈，打架，偷东西等一系列的梦，梦里的自己好像都在逃，一边逃一边后怕，但是迷迷糊糊中又知道自己好像在做梦，就又放下心来接着逃。是因为这些事现实中做不了，所以梦境里就肆无忌惮的去做？🌚",
+          "link": "https://www.v2ex.com/t/1111603",
+          "publishedOn": "2025-02-15T01:24:37.000Z",
+          "wordCount": 403,
+          "title": "经常做梦梦到自己在做坏事，是何原因？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111602",
+          "author": "milala",
+          "description": "milala: \n刚才看了一个帖子说 50 岁心梗走了，评论说要体检的\n问题是\n体检无非\n血压高\n血脂高\n血糖高\n但是这 3 高很多人都有\n但是心梗脑梗来时凶猛的 就是几分钟的事，去医院都来不及\n体检能看出什么来吗",
+          "link": "https://www.v2ex.com/t/1111602",
+          "publishedOn": "2025-02-15T01:17:43.000Z",
+          "wordCount": 468,
+          "title": "心梗脑梗这种病你没感觉的时候去体检能体检出来吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111601",
+          "author": "q1102389095",
+          "description": "q1102389095: \n前段时间不知道怎么了所有浏览器都被劫持到 360 了，真的很无语，验证过很多劫持方式，最后基本确认为 dll 文件钩子劫持浏览器，有什么解决方法吗，用过 360 固定主页，一卸载又出来，真的 TM 很恶心。火绒和腾讯电脑管家固定主页和杀毒之类的均无作用。",
+          "link": "https://www.v2ex.com/t/1111601",
+          "publishedOn": "2025-02-15T00:57:48.000Z",
+          "wordCount": 461,
+          "title": "浏览器被劫持有什么办法解决吗",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111600",
+          "author": "zhuwd",
+          "description": "zhuwd: 组了 8 台 NVIDIA A100-PCIE-40GB ，用 Ollama 跑了 Deepseek 的 70B 版本，理论上性能是足够的，但是思考时间特别长，显存的占用率也不是很高，功率甚至连五分之一都没达到，不知道问题出在什么地方",
+          "link": "https://www.v2ex.com/t/1111600",
+          "publishedOn": "2025-02-15T00:36:39.000Z",
+          "wordCount": 554,
+          "title": "NVLink 对显卡集群的影响有多大？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1111597",
           "author": "toaruScar",
           "description": "toaruScar: \n之前海报都可以下载原图的。\n比如说《比利·林恩的中场战事》的一张海报，在登录豆瓣后访问 这个页面，再点击“查看原图”，就可以得到海报原图了。原图的地址是：\nhttps://img3.doubanio.com/view/photo/raw/public/p2391542403.jpg\n这样操作下来，得到的是一张分辨率为 4135x5898 的图片。\n但是最近开始，访问这个 URL 会被自动跳转到\nhttps://img3.doubanio.com/view/photo/l/public/p2391542403.jpg\n得到图片的分辨率只有 1080x1540 了。\n好像这样一来就再也无法从豆瓣下载原图画质的海报了？",
           "link": "https://www.v2ex.com/t/1111597",
           "publishedOn": "2025-02-14T22:31:53.000Z",
-          "wordCount": 452,
+          "wordCount": 475,
           "title": "豆瓣不再提供电影海报的原图下载了？",
           "imageUrl": null
         },
@@ -344,7 +578,7 @@
           "description": "lisxour: 92-95 折代买任何 steam 国区游戏，里面的余额都是自己卖 csgo 箱子赚的，不是来路不明的资金，可安心购买。\n总共就 1700 元，卖完为止，多的没有，虽然我知道可以通过市场买枪，再通过 buff 出售套现，但我不想。\n\n＜ 50 元，95 折\n50~100 元，94 折\n101~200 元，93 折\n＞ 200 元，92 折\n可叠加 steam 折扣，按打折后价值算，比如一个游戏原价 120 元，steam 打折 8 折，等价于 96 元范围，就是 94 折，那最终购买价：120 * 0.8 * 0.94 = 90.24 元\n不接受任何二次砍价，有意的加我 wx ，请备注 steam 代买",
           "link": "https://www.v2ex.com/t/1111591",
           "publishedOn": "2025-02-14T16:10:16.000Z",
-          "wordCount": 434,
+          "wordCount": 452,
           "title": "92-95 折代买任何 steam 国区游戏",
           "imageUrl": null
         },
@@ -354,7 +588,7 @@
           "description": "pengyuedenai1234: 我最近在回味今年央视春晚的时候，发现央视春晚类的节目很多都很悲伤。很多歌曲听到一半都想爆哭。简直不敢带耳机看春晚。一戴耳机看春晚遇到歌曲没几分钟就很容易掉眼泪。比如像薛之谦的方的言，王菲的世界赠与我的和梁静茹的住在心里的人。感觉都在怀念从前。像是失去了什么心爱的人一样。春节是喜庆的节日。春节应该是嘻嘻哈哈高兴的过大年才对。安排这么多悲伤的歌曲让家人团聚的时候听着掉眼泪感觉也不合适。这也是第一年非遗春节。在春节觉得很悲伤甚至悲伤的流眼泪和春节的喜庆不太合适。这些歌曲听起来就像失恋了或者谁死了一样的。我觉得悲伤的歌曲最适合一个人听一个人流泪一个人疗伤。而不是在大家团聚的时候让大家一起听。没有前几年的春晚，至少歌曲也是那种舒缓激昂积极向上听起来让人放松愉悦感到释怀的。就是听起来感觉拿的起放的下能够忘记从前。歌曲也是轻松欢快的。而去年也没有多灾多难。而春晚的歌曲很多都想哭。感觉春晚歌曲就像村里吃席一样听起来太悲伤。春晚歌曲听起来完全没有过年的喜庆。",
           "link": "https://www.v2ex.com/t/1111590",
           "publishedOn": "2025-02-14T16:02:26.000Z",
-          "wordCount": 457,
+          "wordCount": 459,
           "title": "为什么 2025 年央视蛇年春晚的歌曲这么伤感，每一首歌听起来都很想哭。",
           "imageUrl": null
         },
@@ -414,208 +648,8 @@
           "description": "asny415: \n我把 OCR 功能、TTS 功能和一个完整的 JS 运行环境以及通过 Wi-Fi 访问本机 ADB 功能整合到了一个 Android 程序里，这样你只需要写一个简单的 JS 脚本，就可以实现复杂的手机控制逻辑。\n我将源代码共享在这里: https://github.com/asny415/swiper\n录制了一个简单的介绍视频在这里：\n\n欢迎访问我的 TG 频道",
           "link": "https://www.v2ex.com/t/1111579",
           "publishedOn": "2025-02-14T15:03:57.000Z",
-          "wordCount": 405,
+          "wordCount": 409,
           "title": "用 JS 脚本控制你的 Android 手机",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111576",
-          "author": "404www",
-          "description": "404www: \n看网上有介绍 Tronlink ，Trust Wallet 和 MetaMask 不知哪个更适合\n不想 kyc ，后续可能也不需要买卖币，应该只有接收和付钱，所以交易所欧易不选择",
-          "link": "https://www.v2ex.com/t/1111576",
-          "publishedOn": "2025-02-14T14:52:36.000Z",
-          "wordCount": 454,
-          "title": "新手小白接收 usdt，选什么钱包",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111575",
-          "author": "chenxiankong",
-          "description": "chenxiankong: 父亲今年 58 岁，40 年烟龄了。特别爱喝酒，然后是抽烟~\n前段时间说心脏难受，去医院检查，结果冠心病，血管堵了 50%左右。\n医生叫戒烟，不听。\n现在是每天吃降血压药，但是烟和之前一样，每天 1 包吧。\n跟他说过很多，想活久点就把烟戒了。还是不听。\n搞得我也很内耗\n- 一直说他吧，我也烦他也烦，经常弄得关系很僵。\n- 不说他吧，估计也不会戒烟了，但毕竟是我爸，哎，到时候出事还是要找我\n现在就是卡在 [我想管但是不听，不管他又是我爸] 这种 bug 里了。\n大家帮给点建议，我应该怎么想怎么看待 或者 应该怎么做",
-          "link": "https://www.v2ex.com/t/1111575",
-          "publishedOn": "2025-02-14T14:44:51.000Z",
-          "wordCount": 467,
-          "title": "父亲老烟民，冠心病，叫戒烟不听~咋办",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111574",
-          "author": "nadia",
-          "description": "nadia: \n身边没熟人有类似经验，想请教一下站里有相关经历的大佬们，这种“内地上班，香港发薪”的操作有没有什么潜在问题？或需要特别注意的事项？\n具体情况：\n家人有个新工作 offer ，是一家香港公司在内地的子公司。其他条件都不错，但薪资如果全由内地公司发放的话，会被扣相当高的五险一金，导致最终实际收入几乎没有增长。\n新 offer HR 提供了一个可选方案：薪资分两部分，内地子公司发一部分，香港总公司发一部分（可选人民币或港币）。\n香港公司发放的部分，需我家人先自行去香港开设一个银行账号。\n经过初步了解:\n税务，HR 说每年在香港逗留时间少于 60 天不需要缴税；\n结汇，根据论坛上的其他经验分享，可以通过信用卡消费后用工资还款，或者其他消费，操作上似乎也不算难。\n想请教各位是否还有其他需要考虑的问题？（例如合同事项等）感谢！",
-          "link": "https://www.v2ex.com/t/1111574",
-          "publishedOn": "2025-02-14T14:37:18.000Z",
-          "wordCount": 438,
-          "title": "请教内地上班，香港发薪问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111573",
-          "author": "telnetning",
-          "description": "telnetning: \n快手，团队直招，急招 IOS 开发，或者愿意 Android 转 IOS 也可以。\n坐标：深圳或者北京 均可。\n深圳岗位申请链接\n北京岗位申请链接",
-          "link": "https://www.v2ex.com/t/1111573",
-          "publishedOn": "2025-02-14T14:31:01.000Z",
-          "wordCount": 374,
-          "title": "[快手] [IOS] [接受安卓转 IOS] [团队直招]",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111571",
-          "author": "1039460820",
-          "description": "1039460820: \n如题，顺便深圳地区，求岗位。",
-          "link": "https://www.v2ex.com/t/1111571",
-          "publishedOn": "2025-02-14T14:02:16.000Z",
-          "wordCount": 461,
-          "title": "29 岁 Fe 又提大礼包，何去何从",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111570",
-          "author": "ke1e",
-          "description": "ke1e: 之前在站里看到分享前段时间入手了一个算是中高配的机子，但是编译 Rust 很慢达不到我的理想速度我就给销毁请求退款了，但是过去快一个月了依然没有退款。\n他们的政策是 7 天内销毁可给与退款，一开始会告诉你 7 个工作日，然后说 7-14 个，现在已经不回复了",
-          "link": "https://www.v2ex.com/t/1111570",
-          "publishedOn": "2025-02-14T13:47:46.000Z",
-          "wordCount": 356,
-          "title": "Cloudcone 不退款",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111569",
-          "author": "zaunist",
-          "description": "zaunist: \n各大服务商比价\n目前可用的 DeepSeek R1&V3 模型的 API 服务商\n结论：目前阿里百炼和火山方舟价格一样，并列最低（阿里百炼 2 月 23 号活动截止，届时火山引擎价格为最低），由于过几天阿里百炼的价格就不具备竞争力了，所以在此只介绍火山方舟的接入方式。\nDeepSeek-R1 第三方平台测试： https://mp.weixin.qq.com/s/oPjtUX7VVy1CLPL8b27mww\n火山方舟：\n价格（输入）：￥ 2/ M Tokens\n价格（输出）：￥ 8/ M Tokens\n上下文：64K\n官网地址： https://www.volcengine.com/\n备注：注册送 50 万 tokens/模型\n阿里云百炼：\n价格（输入）：￥ 2/ M Tokens （ 2 月 23 号恢复原价 4 块）\n价格（输出）：￥ 8/ M Tokens （ 2 月 23 好恢复原价 16 块）\n上下文：64K\n官网地址：https://www.aliyun.com\n备注：注册送 100 万 tokens/模型（有效期 6 个月）\n硅基流动：\n价格（输入）：￥ 4/ M Tokens\n价格（输出）：￥ 16/ M Tokens\n上下文：64K\n官网地址：https://cloud.siliconflow.cn\n火山方舟使用教程\n图文版： https://zaunist.com/article/19a7d549-6f33-809d-b3af-dd1a47ed347c\n视频版： https://youtu.be/FVwgnq9B7e4\n写在最后\n据我观察，几乎所有的开源模型，在国内自己搭建服务使用的话，最便宜的基本都在火山方舟😀，并且火山方舟还支持制作自己的知识库，在 AI 这方面使用火山方舟确实划算。\nPS:这里讨论价格只考虑知名大厂云服务商，或许有些小作坊的价格更低，但是小作坊提供的大模型，后台有没有混入一些别的模型滥竽充数，我不知道，我也不用。",
-          "link": "https://www.v2ex.com/t/1111569",
-          "publishedOn": "2025-02-14T13:46:20.000Z",
-          "wordCount": 449,
-          "title": "对“服务器繁忙”说拜拜，最快最稳最便宜的 DeepSeek API!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111568",
-          "author": "Aoyivin",
-          "description": "Aoyivin: \n职业病腰肌劳损的厉害，疼的时候直不起来腰...之前一直用在宜家买的椅子，现在觉得越坐越疼，就想换一把椅子。在线下店试了几把，发现我这个情况有点特殊，我其实是背部骨骼变形了，现在市面上的人体工程学椅子都是三段式，它那个腰撑根本撑不到我需要支撑的位置...试了好几个，把腰撑都撑到最高都还是感觉不到支撑..只有一把试单背式的还好一点 各位 V 友有推荐的吗？支撑点高一些的椅子... 价钱便宜点 1-2k 的预算",
-          "link": "https://www.v2ex.com/t/1111568",
-          "publishedOn": "2025-02-14T13:40:06.000Z",
-          "wordCount": 482,
-          "title": "求推荐性价比高的人体工程学椅子",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111567",
-          "author": "wqq096737ink",
-          "description": "wqq096737ink: https://segmentfault.com/q/1010000046113863",
-          "link": "https://www.v2ex.com/t/1111567",
-          "publishedOn": "2025-02-14T13:18:07.000Z",
-          "wordCount": 372,
-          "title": "有什么办法可以 代码实现 触发 这个元素的显示吗?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111566",
-          "author": "Fike",
-          "description": "Fike: \n有类似 growpal 或者苹果的健身 app 这种的吗",
-          "link": "https://www.v2ex.com/t/1111566",
-          "publishedOn": "2025-02-14T12:40:40.000Z",
-          "wordCount": 381,
-          "title": "ios 佳明 connect 有替代 app 吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111563",
-          "author": "a62527776a",
-          "description": "a62527776a: 首先 不论男女 谈恋爱的核心目的 都是为了满足彼此的生理需求\n那么 如果你碰到喜欢的女生 对方对你也不排斥的话 你的首要目标 应该是满足对方的生理需求 而不是讨好/示爱/撒钱\n(讨好/示爱/撒钱 是姑娘对你有意思时而你对她不感兴趣的情况下，暗示你的手段。注意：这是姑娘的手段 不是你的手段 姑娘如果对你有意思 才会暗示你讨好她/对她示爱/给她撒钱。 如果姑娘对你没有意思 你讨好/示爱/撒钱 那就是骚扰)\n也就是得尽可能的通过牵手/搂腰/摸腿/亲嘴/XXX 一系列动作 来服务并满足对方的生理需求\n这个过程 就是姑娘对你亲密关系能力/服务能力检验和测试的过程\n到最后一步完成之后 姑娘认为 你很合适 你能满足她 你也愿意服务她 才会给你一个男朋友的称号\n-------------------------------------------------------------------------\n广大宅男最大的误区\n就是我不是她男朋友 怎么能牵手/搂腰/摸腿/亲嘴/XXX 呢？\n于是乎 想尽办法 通过讨好/谄媚/示爱/撒钱 试图通过这些手段来达成‘成为男朋友’的目的\n但从姑娘的角度来看 男朋友最大的价值 就是用雄性荷尔蒙 搂的她淫水泛滥 用灵巧的舌头 舔的她意乱情迷 用粗壮的大 JJ 捅的她欲仙欲死 至于其他的 全部全部都要排在后面\n站在姑娘的角度 在不经过测试的情况下 让你成为了男朋友\n就会面临一个极大的问题 也就是你有可能不愿意服务姑娘 \n你只想让姑娘服务自己 \n又或者你没办法 让姑娘淫水泛滥 意乱情迷 欲仙欲死\n那问题就出现了 姑娘为什么要自己来承担这个恋爱的不确定性的风险呢\n所以你就得在约会的时候 提供对方所需要的服务(也就是 牵手/搂腰/摸腿/亲嘴/XXX) 来得到姑娘的对你能力的认可以及你对姑娘服务的升级\n姑娘就会在不断升级的服务中 将后续恋爱中可能出现的不确定性抹平 最后才是名分的交换\n-------------------------------------------------------------------------\n广大的宅男朋友 似乎对这样做 会有心理负担\n所以选择送礼/讨好/谄媚之类的操作\n可能是受到社会规训，传统观念和广告传媒的影响\n所有礼品广告 以及传媒的目的 都是为了卖货，卖广告 他们并不关心 你和姑娘会不会在一起\n至于社会规训（也就是很传统的那一套）那只是符合宗族利益,父母利益的一种的趋利的控制小孩的观念而已\n那一套逻辑 就是从下至上从女至男的为上一辈牺牲个人利益的产物 不过是从圣人讲的一大堆大道理里\n找出符合自己利益的几句话 来洗脑下一辈（圣人讲的没错 但洗脑小孩的父母/长辈总是会挑着对自己有利的讲）\n你与异性 只是单纯的各取所需 互相满足 明白自己于对方的价值\n你得给对方她需要的 而不是给对方你认为她需要的\n-------------------------------------------------------------------------",
-          "link": "https://www.v2ex.com/t/1111563",
-          "publishedOn": "2025-02-14T12:05:26.000Z",
-          "wordCount": 742,
-          "title": "广大宅男 对谈恋爱有莫大的误解",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111561",
-          "author": "v2z4",
-          "description": "v2z4: \n''' 马斯克认为，AI 在“多元化”以及“政治正确”并不符合真相，让 AI 主动去说假话是非常危险的，所以绝对不要教 AI 说谎。\n马斯克表示：“比如 Google Gemini 就有编程指令要求它所有输出都要体现‘多元化’，即便这不符合现实真相。假设你让它生成‘美国开国元勋们’的形象，它却给你生成一张各种肤色的女性合影，这就不符合史实。而如果有些 AI 被设计成极端偏向某种‘政治正确’，或许它会把‘误称性别’看得比全球核战争还严重，那就太可怕了——万一它觉得‘为避免误称就要消灭某些群体’呢？而事实上我们也见过，在 ChatGPT 或 Gemini 的早期版本里，如果你问‘误称某个人的性别’和‘全球核战争’哪个更糟，它会回答误称更糟，这就让人很担忧。连凯特琳·詹纳本人都站出来说：‘拜托，宁可称呼错性别，也别打核战争……’所以，让 AI 主动去说假话是非常危险的。”\n他表示，就像阿瑟·C·克拉克在《 2001 太空漫游》里想表达的一样：绝对不要教 AI 说谎。那个故事里 HAL 9000 不愿给宇航员开舱门，就是因为它同时背负两个相冲突的命令：既要带人类去探索神秘的黑色方碑，又不能让他们知道方碑存在。它的逻辑推断得出：那就把人类带去，但得让他们在不知情的情况下去，那不如死了带过去。这就是为什么绝对要让 AI 最大化对真理的遵循。 '''\n绝对不要教 AI 说谎。\n但幻觉是 LLM 的固有特性，说谎应该不用教了。\n《 2001 太空漫游》的 AI 属于以前人们想象的精确型 AI ，两个相冲突的命令也谈不上说谎。",
-          "link": "https://www.v2ex.com/t/1111561",
-          "publishedOn": "2025-02-14T11:53:47.000Z",
-          "wordCount": 400,
-          "title": "大佬表示：“绝对不要教 AI 说谎，绝对要让 AI 最大化对真理的遵循。”这个逻辑我看不懂。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111560",
-          "author": "wgsgyes",
-          "description": "wgsgyes: \n目前微信采用了白名单模式，收信方验证好友后，发信方才能发送消息。\n但还是有陌生人通讯需求的。\n那么，email 、短信、电话，可以采用“发信人向收信人付费”的模式吗？比如说，邮件发信人需向收信人支付 0.1 元，否则收信人直接拒收。当然也可把费用金额设置权直接交给收信人。\n这样应该可以极大避免 email 、短信、电话的垃圾信息问题。",
-          "link": "https://www.v2ex.com/t/1111560",
-          "publishedOn": "2025-02-14T11:42:31.000Z",
-          "wordCount": 525,
-          "title": "email、短信、电话，发信人向收信人付费，可以实现吗？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111559",
-          "author": "520discuz",
-          "description": "520discuz: 1.经济\n感觉养活自己就不容易了，如果还要多养个小孩无限期持续付出，这对于赚钱能力不太行且抠门的我来说，这是接受不了的。\n2.疾病\n2a.每次自己生大病或上吐下泻时非常难受就想为什么人活着这一趟要遭受这种罪，如果当时没来的这个世界上现在也不用遭受这罪了，如果我生的小孩也要经历这些，我宁愿他不要出生。\n2b.五年前开始毫无征兆的耳鸣，虽然现在减轻了，但是还是存在，这种病无解，吃什么药都没用，让我感觉到人体非常不稳定，你根本不知道什么时候就会突然得什么奇奇怪怪的病。\n2c.抑郁症，很多人无缘无故得了抑郁症会出现躯体化症状，吃药也没太大作用，最后只能自我了结，我怕我孩子会得抑郁症。\n2d.癌症，渐冻症，得了这些就算你再有钱，大概率也会被折磨到死，我怕我孩子会得癌症。\n2e.各种传染病、先天疾病、罕见病，都是折磨到人奔溃的东西。\n3.意外\n每天无数车祸、无数行业事故，有的人瘫痪、有的人残疾，我怕我孩子会发生各种意外。\n4.竞争\n这个世界上每个人都在竞争、攀比、当然这也是这个世界能快速发展的动力，但是竞争和攀比必然会给弱者带来伤害，我自己是弱者已经被伤害了，我不希望我的孩子和我一样也是弱者被伤害着，并且我不认为我能让他成为强者，就算他成了强者，也是一个站在无数弱者之上的强者。\n5.犯罪\n这个世界上有太多的犯罪，我只想把孩子生在无犯罪的天堂。\n6.人性\n人的确很聪明，会发明电脑、汽车、飞机、宇宙飞船、但是人性很自私，大家为了钱为了利益会干出无数伤天害理的事，古代甚至有易子而食。\n7.战争\n人类一点都不团结,第一次世界大战、第二次世界大战、这几十年来世界上大大小小无数场战役、未来还会有第三次世界大战、第四次、第五次、人类为什么要打仗？为了更好的发展？可是发展最后都会被太阳吞没啊，太阳也会被黑洞吞没，据说一切都是熵增....如果未来在战争中的那些人是你的子女，会感愧疚吗？\n8.软肋\n生活中我是一个不那么爱忍的人，虽然我胆子小，但是碰到伤害自己的人和事还是会想方设法进行反击反制，我不是那种多一事不如少一事的人，就是不想让自己吃亏，所以经常投诉，如果问题得不到解决就反复投诉逐级投诉，如果我有孩子的话孩子可能就是我的软肋，那未来大概率遇上事了就会息事宁人，那我就感觉自己越来越憋屈。\n9.睡觉\n我是一个爱睡觉的人，特别是午睡，且每天午睡还要睡 1.5-2 个小时，且要在极度安静的环境下才能睡着，中午不睡到了下午和晚上必崩溃，有了小孩肯定没法好好睡觉，不睡觉对我来说十分伤身体。\n10.吃肉\n每每想到自己这辈子吃了无数的肉，有无数动物因为自己而死，就难过，因为我知道没有买卖就没有杀害，曾经也吃多一段时间素，但是对于我这种无肉不欢的人，只吃素的话就会感觉全身没力气，不舒服，这辈子没办法戒肉了，但是我有一个想法就是如果我不生孩子，那我孩子就不会吃肉，那么这个世界上未来就会有无数的动物不会因为我而死，又感觉挺好的。\n\n最后：那些坛子里劝生的理由无非就是什么老了怎么办、和社会脱钩怎么办、人际关系出问题怎么办，其实这些对我来说比起上面这些根本不算什么。\n当然最对不起的还是父母，我的父母对我非常好，我是独生子，从小也生活在一个快乐的家庭，小时候几乎是要啥父母都会尽力满足我，甚至幼儿园时第一次考试考了个位数的分数，父亲还是给我买了小霸王游戏机鼓励我，父亲从小到打几乎没有打骂过我，他们现在几乎就只剩下我结婚生子的心愿了，但是我的思维已经固化几乎不可能改变。",
-          "link": "https://www.v2ex.com/t/1111559",
-          "publishedOn": "2025-02-14T11:36:35.000Z",
-          "wordCount": 399,
-          "title": "我不生孩子的 10 个理由",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111558",
-          "author": "zle12688",
-          "description": "zle12688: \n现在整准备记录些资料，发现打不了网站，各位的都是这样吗",
-          "link": "https://www.v2ex.com/t/1111558",
-          "publishedOn": "2025-02-14T11:22:33.000Z",
-          "wordCount": 369,
-          "title": "notion 服务器是不是炸了？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111557",
-          "author": "hueralin",
-          "description": "hueralin: \n事情是这样的，一直在用谷歌浏览器，某次测试时使用了 Edge 浏览器，为了方便把书签以及一些账密同步到了 Edge 浏览器。后来使用 Authenticator 进行二次验证时，发现所有密码被同步到微软了，甚至是五六年前的密码，不清楚是哪个配置给打开了，V 友们有遇到过这种情况么？",
-          "link": "https://www.v2ex.com/t/1111557",
-          "publishedOn": "2025-02-14T10:59:46.000Z",
-          "wordCount": 396,
-          "title": "微软 Edge 浏览器账密同步问题",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111555",
-          "author": "zpxshl",
-          "description": "zpxshl: \n手机： 三星 s23 & 部署到开发板的 android10 aosp 。 均是高通芯片\n尝试：\nPerfetto 只能抓到 gpu 内存\nAGI 无法连接\nRenderDoc mac 系统无法使用",
-          "link": "https://www.v2ex.com/t/1111555",
-          "publishedOn": "2025-02-14T10:52:55.000Z",
-          "wordCount": 392,
-          "title": "咨询：如何能看应用触发的 opengl 指令数吗",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111553",
-          "author": "51fly",
-          "description": "51fly: \n顺丰小哥年前把我一个包裹送错，送到隔壁楼去了\n我年后回来的时候小哥还没上班，就决定自己去敲门看看\n我看那家灯亮着就上门敲门问问，敲了 2 回(间隔 1h)都没人开，就留了个纸条在他门上。\n这两天快递小哥回来了，我让他帮我去敲门。\n没想到门敲开了，东西拿回来了。。。快递盒拆了，东西没拆。\n不太懂，这是懒得管这事吗？还是对陌生人不放心，对快递小哥才有信任感；还是小哥敲门很强硬只能开；还是想占为己有但还没完全下决心。\nPS: 东西不是很贵，但蹲了很久.....",
-          "link": "https://www.v2ex.com/t/1111553",
-          "publishedOn": "2025-02-14T10:39:47.000Z",
-          "wordCount": 504,
-          "title": "这人啥心态啊?",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111552",
-          "author": "sn0wdr1am",
-          "description": "sn0wdr1am: \n众所周知，国内用户从 kodi 官方安装插件的时候，可能很慢，还可能连不上。\n于是，国内的几个开源站点，给 kodi 提供了镜像。\n比如： https://mirrors.tuna.tsinghua.edu.cn/kodi\n为了方便大家，我封装了几个国内开源站点的 kodi 镜像网址，制作成了插件。\n下载\n从下面地址随便下载一个 zip 包。\nhttps://github.com/snowdreamtech/kodi-repo/releases/tag/0.1.3\n安装 镜像网站插件安装包\n打开 Kodi-》插件-》从 zip 文件安装-》下载的 repo zip 安装包。\n安装 插件\n打开 Kodi-》插件-》从 库安装-》选择需要的插件，安装即可。",
-          "link": "https://www.v2ex.com/t/1111552",
-          "publishedOn": "2025-02-14T10:35:47.000Z",
-          "wordCount": 390,
-          "title": "分享一下自己封装的 Kodi 国内镜像插件库",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111550",
-          "author": "hubayi",
-          "description": "hubayi: 最近在油管看 8K VR180 的视频，流量有得遭不住啊，怎么下载到本地呢?谢谢了!",
-          "link": "https://www.v2ex.com/t/1111550",
-          "publishedOn": "2025-02-14T10:17:22.000Z",
-          "wordCount": 471,
-          "title": "怎么下载油管 8K 视频？",
           "imageUrl": null
         }
       ]
