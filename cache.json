@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -288,7 +294,7 @@
           "description": "UtadaHikaru: \n来源新设备赠送\n[闲鱼]  https://m.tb.cn/h.TJZcDCO?tk=x9iqeSHnfD2 CZ009 「我在闲鱼发布了 [半年 iCloud 2T ，每人 400G ，位置 5 个] 」\n点击链接直接打开",
           "link": "https://www.v2ex.com/t/1111627",
           "publishedOn": "2025-02-15T03:17:14.000Z",
-          "wordCount": 372,
+          "wordCount": 375,
           "title": "30 出半年 iCloud 400G",
           "imageUrl": null
         },
@@ -298,7 +304,7 @@
           "description": "520discuz: 昨天 WIN10 提示有补丁，然后关机更新，开机后我的宋体就变成 V5 版本的宋体了，V5 版本的宋体我用的很不习惯，之前都是从 XP 里把 V3 的宋体考出来用在 WIN10 下，昨天更新后发现桌面变 V5 的宋体了，再次安装 V3 的宋体发现无论怎么样都无法安装成功了...想卸载系统 V5 宋体再安装 V3 宋体，但是卸载 V5 宋体的时候提示宋体受系统保护无法卸载",
           "link": "https://www.v2ex.com/t/1111625",
           "publishedOn": "2025-02-15T03:14:24.000Z",
-          "wordCount": 409,
+          "wordCount": 413,
           "title": "昨晚上更新 WIN10 后 XP 老宋体无法使用怎么办",
           "imageUrl": null
         },
@@ -318,7 +324,7 @@
           "description": "cinlen: \n大约有这几个问题：\n当前使用/曾经使用的分布式事务的方案是什么？  \n你觉得比较好的方案是哪种？（综合考虑 “对架构复杂度提升”，”对代码可读性的影响“，“对程序员写代码的心智负担提升”等等） \n综合下来，做这件事划算吗？是让你更轻松了，还是让你更累了？ \n如果你加入了一家新公司，当前业务需要引入分布式事务，你会选择哪种方案？\n我看过网络上的理论文，但希望得到有真实实践过的后端同学们的分享，而不是全文背诵网络上的文章，这样就没有意义了。",
           "link": "https://www.v2ex.com/t/1111622",
           "publishedOn": "2025-02-15T03:08:20.000Z",
-          "wordCount": 389,
+          "wordCount": 391,
           "title": "请教后端们关于分布式事务的实践",
           "imageUrl": null
         },
@@ -328,7 +334,7 @@
           "description": "pigzilla:",
           "link": "https://www.v2ex.com/t/1111621",
           "publishedOn": "2025-02-15T03:01:19.000Z",
-          "wordCount": 407,
+          "wordCount": 411,
           "title": "现在 2000 以内的预算，买啥 N 卡跑 AI 最划算？主要是测试各种 AI 相关的软件，大模型也会试试。",
           "imageUrl": null
         },
@@ -338,7 +344,7 @@
           "description": "johnwilson: \n传送门: http status code\n访问地址: https://httpstatuscode.site/",
           "link": "https://www.v2ex.com/t/1111620",
           "publishedOn": "2025-02-15T03:00:54.000Z",
-          "wordCount": 438,
+          "wordCount": 547,
           "title": "专门做了个科普 http status code 的网站， 希望大家喜欢",
           "imageUrl": null
         },
@@ -348,7 +354,7 @@
           "description": "elaiza: \n降的太夸张了，不想存农村信用社之类的小银行",
           "link": "https://www.v2ex.com/t/1111619",
           "publishedOn": "2025-02-15T03:00:39.000Z",
-          "wordCount": 511,
+          "wordCount": 565,
           "title": "老妈让我存 40w,打电话问银行大额存单利息多少，才 1.5 几，怎么搞，放支付宝和微信吗",
           "imageUrl": null
         },
@@ -358,7 +364,7 @@
           "description": "airbo: \n背景：一次春节的技术狂欢\n最近在 V2EX 、GitHub 甚至朋友圈频繁刷到 DeepSeek 的「硬核拜年」——有人用它生成代码春联，有人训练 AI 写红包祝福，甚至饭桌上老一辈都在讨论 Deepseek 。\n于是这个春节，我们肝出了 DeepSeek 对话生成器 ——你可以自定义问题和答案，AI 会自动生成「思考过程」并渲染成聊天截图，绝对不像「某宝 5 元 P 图」。\n玩法说明书（极简三步）\n\n扫码进入小程序 输入你的「剧本」 ：设定问题（例如「如何评价 V2EX 的技术氛围？」），再写下你想要的「标准答案」\nAI 导演上线：模型会模拟人类思考路径，生成符合逻辑的「推理过程」（包含刻意设计的犹豫、撤回等细节）\n一键导出神图：生成 DeepSeek 风格对话界面。\n实测脑洞案例\n▍「当代夸夸模拟器」\n某不愿透露姓名的用户案例：\n\n→ 一张「 DeepSeek 彩虹屁」截图在团队群疯传，现已加入飞书表情表\n▍「段子手新工具」\n某段子手情人节搞笑截图：\n\n▍「产品冷启动神器」\n某独立开发者实战操作：生成「用户」咨询 DeepSeek 的对话 \n\n结果：大家都在问怎么给 DeepSeek 灌数据调模型，评论区无人质疑真实性\n普通人第三视角\n\n\n你可能想问的\n❓ 「这不就是伪造数据？」\n→ 生成图片纯属娱乐，禁止用于学术/商业造假\n欢迎使用我们「 AI 说假话」小程序发挥你们的创意！\n\n（小声：已经有用户生成「和 DS 讨论如何推翻人类统治」🤖的对话... ）",
           "link": "https://www.v2ex.com/t/1111618",
           "publishedOn": "2025-02-15T03:00:23.000Z",
-          "wordCount": 443,
+          "wordCount": 447,
           "title": "DeepSeek 对话生成器：让 DS 说出你想要的答案（附脑洞彩蛋）",
           "imageUrl": null
         },
@@ -368,7 +374,7 @@
           "description": "Geon97: 需求:\n想要买个手机当做海外手机来使用。预算在 2-3k 左右\n想法:\n这个预算如果买 pixel 只能买到一手的 google pixel 7pro 。\n从现在看来在国补的加持下感觉一加 ace 5pro 和红米 k80 价格还是挺香的。\n困惑:\n不知道这两款适不适合做海外机使用，现在一加 ace 5pro 和红米 k80 是否支持解锁刷 lineageos ？\n如果都支持的话更推荐哪款？或者有其他更适合的机型吗？\n现在用的是一款国行的 ios ，用这款手机做海外机是否不太合适？",
           "link": "https://www.v2ex.com/t/1111617",
           "publishedOn": "2025-02-15T03:00:04.000Z",
-          "wordCount": 529,
+          "wordCount": 543,
           "title": "2-3k 手机如何选，顺便问下新款一加和 redmi 都支持 BL 解锁刷 lineageos 吗",
           "imageUrl": null
         },
@@ -388,7 +394,7 @@
           "description": "unregister: 是不是只能叫搬家公司了，搬到哪里去呢？他们能回收吗",
           "link": "https://www.v2ex.com/t/1111615",
           "publishedOn": "2025-02-15T02:48:53.000Z",
-          "wordCount": 463,
+          "wordCount": 472,
           "title": "新木床，占地方，不好拆和处理，也卖不了",
           "imageUrl": null
         },
@@ -398,7 +404,7 @@
           "description": "bumo: \n1 、顺德区北滘镇怡和中心（靠近美的总部、和美术馆，广州地铁 7 号线&佛山地铁 3 号线-北滘新城站）；\n2 、负责电商交易系统&供应链管理系统开发；\n3 、大专及以上学历，计算机相关专业，2 年或以上工作经验；\n4 、技术栈：Spring Boot 3 + Java 21 + Docker + MySQL + Redis + RocketMQ + ElasticSearch ；\n5 、创业公司人数 60+、大小周、朝 9 晚 6 、加班可调休；\n6 、薪资范围 10-15k ；\n7 、简历接收邮箱 kbz#wsyxmall.com (#替换 @)；",
           "link": "https://www.v2ex.com/t/1111614",
           "publishedOn": "2025-02-15T02:47:07.000Z",
-          "wordCount": 420,
+          "wordCount": 422,
           "title": "[佛山-顺德北滘]招 Java 10-15k",
           "imageUrl": null
         },
@@ -408,7 +414,7 @@
           "description": "xcccer: \n背景：在 hologres 中有多条记录分组汇总，其中有一个数组字段（ eg：positions ）\n请问我可以使用什么函数，或者怎么样实现数组合并去重返回呢？\n尝试问过 gpt ，gpt 给出的答案为：\nSELECT\nstaff_id,\narray_distinct(array_agg(positions)) AS merged_positions\nFROM\nstaff_positions\nGROUP BY\nstaff_id;\n但是 holo 并不支持 array_distinct 函数。\n自己也写过 sql ，虽然能实现，但是性能很差：\nSELECT\nstaff_id,\narray_agg(DISTINCT element) AS result\nFROM (\nSELECT\nstaff_id,\nunnest(positions) AS element\nFROM\nstaff_positions\n) AS subquery\nGROUP BY\nstaff_id;\n请教一下各位大佬有没有好的写法能够实现该功能呢？万分感谢～",
           "link": "https://www.v2ex.com/t/1111613",
           "publishedOn": "2025-02-15T02:40:11.000Z",
-          "wordCount": 424,
+          "wordCount": 391,
           "title": "请教一下有关 hologres 和 sql 写法的问题",
           "imageUrl": null
         },
@@ -428,7 +434,7 @@
           "description": "Allenxup: \n最近网聊了一个女生，大概有一个星期了，聊的挺好，但是还没见过面。想着周末去广州见一面，请有经验的 V 友们给点建议",
           "link": "https://www.v2ex.com/t/1111611",
           "publishedOn": "2025-02-15T02:31:02.000Z",
-          "wordCount": 442,
+          "wordCount": 467,
           "title": "和女生第一次见面要注意什么，怎么安排呢",
           "imageUrl": null
         },
@@ -448,7 +454,7 @@
           "description": "daya0576: \n最近使用纯 Python 开发了一个没有目标的习惯追踪应用 (支持自部署)：\nRepo: https://github.com/daya0576/beaverhabits\nDemo: https://beaverhabits.com/demo \n优雅的状态管理\n整体开发的体验非常丝滑，NiceGUI 框架提供了丰富的前端组件。\n同时支持非常自然地将前端状态绑定至 python 的属性或变量：\ndemo = Demo()\nui.slider(min=1, max=3).bind_value(demo, 'number')\n\n甚至直接绑定至用户一次 session：\nui.textarea('This note is kept between visits')\n   .classes('w-full').bind_value(app.storage.user, 'note')\n\n鱼与熊掌不可兼得\n优雅的背后是 tradeoff ，就如同 GIL 一刀切一般，在 NiceGUI 框架中所有的逻辑都在后端服务器处理（美名称之为 backend-first philosophy ）。\n举个例子，在前端界面点击菜单下拉框，也需要一来一回的 websocket 交互。如果网络状况一般，可能会严重影响用户体验，这也是为什么个人项目主打自部署～ \n总而言之\n总而言之，NiceGUI 对于没有丰富前端经验的 Python 程序员，应该会是一个不错的选择 :)",
           "link": "https://www.v2ex.com/t/1111607",
           "publishedOn": "2025-02-15T01:48:57.000Z",
-          "wordCount": 537,
+          "wordCount": 544,
           "title": "用纯 Python 打造你的第一个 Web 应用",
           "imageUrl": null
         },
@@ -458,7 +464,7 @@
           "description": "ChatGOP:",
           "link": "https://www.v2ex.com/t/1111606",
           "publishedOn": "2025-02-15T01:47:44.000Z",
-          "wordCount": 429,
+          "wordCount": 462,
           "title": "兄弟们， 你们遇到 Java /Spring 微服务项目中最大挑战是什么？ K8S 最大挑战是什么呢？ 谢谢先!",
           "imageUrl": null
         },
@@ -468,7 +474,7 @@
           "description": "jarvanluo: \n公司的网站是部署在香港的一个服务器，单机。最近几天偶尔会出现 https 无法访问网站的情况，频率比较低，1 天可能出现 2-3 次，每次持续 3-4 分钟，电信的网络。\n1.电信网络下公司的网站通过 http 访问是正常的，https 访问偶尔出现无法访问的情况；\n2.中国移动网络下访问公司的网站都正常( http/https 都正常)；\n3.电信网络访问公司的网站 https 异常时，访问其他的网站比如百度、淘宝的，都能正常访问。\n一般这种是什么原因，如何排查呢",
           "link": "https://www.v2ex.com/t/1111605",
           "publishedOn": "2025-02-15T01:40:30.000Z",
-          "wordCount": 413,
+          "wordCount": 417,
           "title": "请教一个跨境网络问题",
           "imageUrl": null
         },
@@ -478,7 +484,7 @@
           "description": "BestVPS: \n中国电信用户专享福利！两步轻松领通信礼包\n[口令兑换话费攻略] \n打开中国电信 APP ，点击底部\"我的\"-\"我的奖券\"-\"口令兑换\"\n（或首页搜索框输入\"口令码兑换\"直达）\n在兑换页输入专属口令\"心有灵犀\"\n重点！兑换后务必点击\"立即使用\"激活权益\n奖励实时到账，实测可得 0.52-99 元随机话费（亲测 0.52 元）",
           "link": "https://www.v2ex.com/t/1111604",
           "publishedOn": "2025-02-15T01:25:14.000Z",
-          "wordCount": 503,
+          "wordCount": 546,
           "title": "二月中国电信羊毛",
           "imageUrl": null
         },
@@ -488,7 +494,7 @@
           "description": "xtx: 昨晚刚做的，用了很多手法终于把别人的货车给烧了……至于为什么烧，前因后果都忘了，然后开始潜逃。\n之前还做过欺诈，打架，偷东西等一系列的梦，梦里的自己好像都在逃，一边逃一边后怕，但是迷迷糊糊中又知道自己好像在做梦，就又放下心来接着逃。是因为这些事现实中做不了，所以梦境里就肆无忌惮的去做？🌚",
           "link": "https://www.v2ex.com/t/1111603",
           "publishedOn": "2025-02-15T01:24:37.000Z",
-          "wordCount": 403,
+          "wordCount": 410,
           "title": "经常做梦梦到自己在做坏事，是何原因？",
           "imageUrl": null
         },
@@ -498,7 +504,7 @@
           "description": "milala: \n刚才看了一个帖子说 50 岁心梗走了，评论说要体检的\n问题是\n体检无非\n血压高\n血脂高\n血糖高\n但是这 3 高很多人都有\n但是心梗脑梗来时凶猛的 就是几分钟的事，去医院都来不及\n体检能看出什么来吗",
           "link": "https://www.v2ex.com/t/1111602",
           "publishedOn": "2025-02-15T01:17:43.000Z",
-          "wordCount": 468,
+          "wordCount": 514,
           "title": "心梗脑梗这种病你没感觉的时候去体检能体检出来吗",
           "imageUrl": null
         },
@@ -508,7 +514,7 @@
           "description": "q1102389095: \n前段时间不知道怎么了所有浏览器都被劫持到 360 了，真的很无语，验证过很多劫持方式，最后基本确认为 dll 文件钩子劫持浏览器，有什么解决方法吗，用过 360 固定主页，一卸载又出来，真的 TM 很恶心。火绒和腾讯电脑管家固定主页和杀毒之类的均无作用。",
           "link": "https://www.v2ex.com/t/1111601",
           "publishedOn": "2025-02-15T00:57:48.000Z",
-          "wordCount": 461,
+          "wordCount": 469,
           "title": "浏览器被劫持有什么办法解决吗",
           "imageUrl": null
         },
@@ -518,7 +524,7 @@
           "description": "zhuwd: 组了 8 台 NVIDIA A100-PCIE-40GB ，用 Ollama 跑了 Deepseek 的 70B 版本，理论上性能是足够的，但是思考时间特别长，显存的占用率也不是很高，功率甚至连五分之一都没达到，不知道问题出在什么地方",
           "link": "https://www.v2ex.com/t/1111600",
           "publishedOn": "2025-02-15T00:36:39.000Z",
-          "wordCount": 554,
+          "wordCount": 564,
           "title": "NVLink 对显卡集群的影响有多大？",
           "imageUrl": null
         },
@@ -528,7 +534,7 @@
           "description": "toaruScar: \n之前海报都可以下载原图的。\n比如说《比利·林恩的中场战事》的一张海报，在登录豆瓣后访问 这个页面，再点击“查看原图”，就可以得到海报原图了。原图的地址是：\nhttps://img3.doubanio.com/view/photo/raw/public/p2391542403.jpg\n这样操作下来，得到的是一张分辨率为 4135x5898 的图片。\n但是最近开始，访问这个 URL 会被自动跳转到\nhttps://img3.doubanio.com/view/photo/l/public/p2391542403.jpg\n得到图片的分辨率只有 1080x1540 了。\n好像这样一来就再也无法从豆瓣下载原图画质的海报了？",
           "link": "https://www.v2ex.com/t/1111597",
           "publishedOn": "2025-02-14T22:31:53.000Z",
-          "wordCount": 475,
+          "wordCount": 479,
           "title": "豆瓣不再提供电影海报的原图下载了？",
           "imageUrl": null
         },
@@ -578,7 +584,7 @@
           "description": "lisxour: 92-95 折代买任何 steam 国区游戏，里面的余额都是自己卖 csgo 箱子赚的，不是来路不明的资金，可安心购买。\n总共就 1700 元，卖完为止，多的没有，虽然我知道可以通过市场买枪，再通过 buff 出售套现，但我不想。\n\n＜ 50 元，95 折\n50~100 元，94 折\n101~200 元，93 折\n＞ 200 元，92 折\n可叠加 steam 折扣，按打折后价值算，比如一个游戏原价 120 元，steam 打折 8 折，等价于 96 元范围，就是 94 折，那最终购买价：120 * 0.8 * 0.94 = 90.24 元\n不接受任何二次砍价，有意的加我 wx ，请备注 steam 代买",
           "link": "https://www.v2ex.com/t/1111591",
           "publishedOn": "2025-02-14T16:10:16.000Z",
-          "wordCount": 452,
+          "wordCount": 456,
           "title": "92-95 折代买任何 steam 国区游戏",
           "imageUrl": null
         },
@@ -588,7 +594,7 @@
           "description": "pengyuedenai1234: 我最近在回味今年央视春晚的时候，发现央视春晚类的节目很多都很悲伤。很多歌曲听到一半都想爆哭。简直不敢带耳机看春晚。一戴耳机看春晚遇到歌曲没几分钟就很容易掉眼泪。比如像薛之谦的方的言，王菲的世界赠与我的和梁静茹的住在心里的人。感觉都在怀念从前。像是失去了什么心爱的人一样。春节是喜庆的节日。春节应该是嘻嘻哈哈高兴的过大年才对。安排这么多悲伤的歌曲让家人团聚的时候听着掉眼泪感觉也不合适。这也是第一年非遗春节。在春节觉得很悲伤甚至悲伤的流眼泪和春节的喜庆不太合适。这些歌曲听起来就像失恋了或者谁死了一样的。我觉得悲伤的歌曲最适合一个人听一个人流泪一个人疗伤。而不是在大家团聚的时候让大家一起听。没有前几年的春晚，至少歌曲也是那种舒缓激昂积极向上听起来让人放松愉悦感到释怀的。就是听起来感觉拿的起放的下能够忘记从前。歌曲也是轻松欢快的。而去年也没有多灾多难。而春晚的歌曲很多都想哭。感觉春晚歌曲就像村里吃席一样听起来太悲伤。春晚歌曲听起来完全没有过年的喜庆。",
           "link": "https://www.v2ex.com/t/1111590",
           "publishedOn": "2025-02-14T16:02:26.000Z",
-          "wordCount": 459,
+          "wordCount": 464,
           "title": "为什么 2025 年央视蛇年春晚的歌曲这么伤感，每一首歌听起来都很想哭。",
           "imageUrl": null
         },
@@ -598,7 +604,7 @@
           "description": "PhpBB: \n之前一段时间,首页有推荐'碰一下'功能,对安卓用户可能有点新奇,但 IOS 用户都知道,这个就是用 NFC 的一张卡嘛.\n当时点进去这个广告,提示要蓝牙权限,我就拒绝并退出了,没有点击任何同意或者启用之类的按钮,因为我不想让 Ali 通过周边 MAC 定位我\n今天首页又出这个广告了,我点进去想确认是否关闭状态,结果居然没有任何开关的按钮,也没有查看是否启用的地方\n由于 2022 se 的 NFC 是默认开启且永久开启的, IOS 设置内不提供关闭选项, 导致你不能从系统层面防止'碰一下'发生.\n那么难道要卸载 Ali? 这太难了, 到处要用到 Ali 啊, 最起码淘宝要啊\n于是联系客服, 询问后得知, '我们可以在后台为你关闭,关闭后,你在商户碰一下,机器会提示错误', '已经成功为你关闭了'\n那既然他能关闭, 前提就是原来是启用的嘛. 有点吓人啊\n这个功能的出现本身是好事, 因为 IOS 的 APPLE PAY 必须要你开通所谓的 ICLOUD, 才允许你给钱包添加卡.\n像我这种用了多年 IOS,却没有 ICLOUD 需求的人,就一直处于无法使用 NFC 支付的状态, Ali 给了这类人群替代选项.\n但是沉默启用,且不提供 APP 内关闭方式,就不太友好了,不知道是故意呢,还是有什么难言之隐呢?\n话说, NFC 支付在国外早都推广开了, 到现在甚至都不用特别标识 APPLE PAY GOOGLE PAY 了, 只要是个机器, 都能同时支持实体卡和手机. 有些国家连地铁巴士都能用 VISA/MASTER, 真正做到 less is more\nAli 这个东西虽然还不够简单,毕竟你不是直接刷卡,而是套娃再套娃,但是比起扫码这种慢吞吞的方式,还是好多了.每次搭地铁,看到人均 2 秒的扫码场景,真的急死个人.\n希望'碰一下'只是个过渡产品,不要成为支付方式的终点. 哪天所有商户都做到一个 POS 机, 同时接受实体卡和手机 NFC, 那才是真的舒心啊 (银联你能不能动一动,用点力,推广一下你的'挥卡'支付)\n以及, 我听说北京地铁可以刷 VISA/MASTER 了, 其他城市能否像首都看齐? 另外, 机场火车站这些地方的商户, 能不能除了支付宝微信也来点其他支付方式啊, 我难以想象老外落地之后, 如果没现金, 要怎么吃饭买水. 要说手续费的话, 别的国家你刷中国卡, 也是要手续费的, 人家机场火车站的商户怎么都愿意接受这笔成本呢 <_<",
           "link": "https://www.v2ex.com/t/1111589",
           "publishedOn": "2025-02-14T16:01:34.000Z",
-          "wordCount": 607,
+          "wordCount": 614,
           "title": "iPhone 2022 se 的 阿里 NFC 卡 可能是沉默启用的",
           "imageUrl": null
         },
