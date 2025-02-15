@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -187,43 +193,6 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -320,6 +289,16 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1111597",
+          "author": "toaruScar",
+          "description": "toaruScar: \n之前海报都可以下载原图的。\n比如说《比利·林恩的中场战事》的一张海报，在登录豆瓣后访问 这个页面，再点击“查看原图”，就可以得到海报原图了。原图的地址是：\nhttps://img3.doubanio.com/view/photo/raw/public/p2391542403.jpg\n这样操作下来，得到的是一张分辨率为 4135x5898 的图片。\n但是最近开始，访问这个 URL 会被自动跳转到\nhttps://img3.doubanio.com/view/photo/l/public/p2391542403.jpg\n得到图片的分辨率只有 1080x1540 了。\n好像这样一来就再也无法从豆瓣下载原图画质的海报了？",
+          "link": "https://www.v2ex.com/t/1111597",
+          "publishedOn": "2025-02-14T22:31:53.000Z",
+          "wordCount": 452,
+          "title": "豆瓣不再提供电影海报的原图下载了？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1111596",
           "author": "nbafive",
           "description": "nbafive: \n看到 xhs 上面各种使用 deepseek ，例如如何规划债务，什么旅行规划，实在太厉害了!尽管下了很久 chatgpt,但是都没怎么用!还是百度，抖音，google,xhs 各平台搜索…\n以前用 chatgpt,咋不知道还有这些作用呢，我去!",
@@ -345,7 +324,7 @@
           "description": "bclcn: 改邮箱出瓦工 THE DC9 PLAN\n原邮是域名邮箱，无法出原邮。\n剩余价值 36USD / 12 * 2 约等于 45RMB\nCPU：1 核\n内存：768M\n硬盘：15G SSD\n流量：750G/月\n带宽：1.5 Gbps\n机房：DC9\n线路：CN2GIA\n到期时间：2025-04-15\n续费价格：Annually: $35.42\nTG@coolest4ever",
           "link": "https://www.v2ex.com/t/1111594",
           "publishedOn": "2025-02-14T17:43:16.000Z",
-          "wordCount": 388,
+          "wordCount": 390,
           "title": "￥ 45 出瓦工 BWG-THE DC9 PLAN CN2GIA",
           "imageUrl": null
         },
@@ -365,7 +344,7 @@
           "description": "lisxour: 92-95 折代买任何 steam 国区游戏，里面的余额都是自己卖 csgo 箱子赚的，不是来路不明的资金，可安心购买。\n总共就 1700 元，卖完为止，多的没有，虽然我知道可以通过市场买枪，再通过 buff 出售套现，但我不想。\n\n＜ 50 元，95 折\n50~100 元，94 折\n101~200 元，93 折\n＞ 200 元，92 折\n可叠加 steam 折扣，按打折后价值算，比如一个游戏原价 120 元，steam 打折 8 折，等价于 96 元范围，就是 94 折，那最终购买价：120 * 0.8 * 0.94 = 90.24 元\n不接受任何二次砍价，有意的加我 wx ，请备注 steam 代买",
           "link": "https://www.v2ex.com/t/1111591",
           "publishedOn": "2025-02-14T16:10:16.000Z",
-          "wordCount": 414,
+          "wordCount": 434,
           "title": "92-95 折代买任何 steam 国区游戏",
           "imageUrl": null
         },
@@ -375,7 +354,7 @@
           "description": "pengyuedenai1234: 我最近在回味今年央视春晚的时候，发现央视春晚类的节目很多都很悲伤。很多歌曲听到一半都想爆哭。简直不敢带耳机看春晚。一戴耳机看春晚遇到歌曲没几分钟就很容易掉眼泪。比如像薛之谦的方的言，王菲的世界赠与我的和梁静茹的住在心里的人。感觉都在怀念从前。像是失去了什么心爱的人一样。春节是喜庆的节日。春节应该是嘻嘻哈哈高兴的过大年才对。安排这么多悲伤的歌曲让家人团聚的时候听着掉眼泪感觉也不合适。这也是第一年非遗春节。在春节觉得很悲伤甚至悲伤的流眼泪和春节的喜庆不太合适。这些歌曲听起来就像失恋了或者谁死了一样的。我觉得悲伤的歌曲最适合一个人听一个人流泪一个人疗伤。而不是在大家团聚的时候让大家一起听。没有前几年的春晚，至少歌曲也是那种舒缓激昂积极向上听起来让人放松愉悦感到释怀的。就是听起来感觉拿的起放的下能够忘记从前。歌曲也是轻松欢快的。而去年也没有多灾多难。而春晚的歌曲很多都想哭。感觉春晚歌曲就像村里吃席一样听起来太悲伤。春晚歌曲听起来完全没有过年的喜庆。",
           "link": "https://www.v2ex.com/t/1111590",
           "publishedOn": "2025-02-14T16:02:26.000Z",
-          "wordCount": 448,
+          "wordCount": 457,
           "title": "为什么 2025 年央视蛇年春晚的歌曲这么伤感，每一首歌听起来都很想哭。",
           "imageUrl": null
         },
@@ -385,7 +364,7 @@
           "description": "PhpBB: \n之前一段时间,首页有推荐'碰一下'功能,对安卓用户可能有点新奇,但 IOS 用户都知道,这个就是用 NFC 的一张卡嘛.\n当时点进去这个广告,提示要蓝牙权限,我就拒绝并退出了,没有点击任何同意或者启用之类的按钮,因为我不想让 Ali 通过周边 MAC 定位我\n今天首页又出这个广告了,我点进去想确认是否关闭状态,结果居然没有任何开关的按钮,也没有查看是否启用的地方\n由于 2022 se 的 NFC 是默认开启且永久开启的, IOS 设置内不提供关闭选项, 导致你不能从系统层面防止'碰一下'发生.\n那么难道要卸载 Ali? 这太难了, 到处要用到 Ali 啊, 最起码淘宝要啊\n于是联系客服, 询问后得知, '我们可以在后台为你关闭,关闭后,你在商户碰一下,机器会提示错误', '已经成功为你关闭了'\n那既然他能关闭, 前提就是原来是启用的嘛. 有点吓人啊\n这个功能的出现本身是好事, 因为 IOS 的 APPLE PAY 必须要你开通所谓的 ICLOUD, 才允许你给钱包添加卡.\n像我这种用了多年 IOS,却没有 ICLOUD 需求的人,就一直处于无法使用 NFC 支付的状态, Ali 给了这类人群替代选项.\n但是沉默启用,且不提供 APP 内关闭方式,就不太友好了,不知道是故意呢,还是有什么难言之隐呢?\n话说, NFC 支付在国外早都推广开了, 到现在甚至都不用特别标识 APPLE PAY GOOGLE PAY 了, 只要是个机器, 都能同时支持实体卡和手机. 有些国家连地铁巴士都能用 VISA/MASTER, 真正做到 less is more\nAli 这个东西虽然还不够简单,毕竟你不是直接刷卡,而是套娃再套娃,但是比起扫码这种慢吞吞的方式,还是好多了.每次搭地铁,看到人均 2 秒的扫码场景,真的急死个人.\n希望'碰一下'只是个过渡产品,不要成为支付方式的终点. 哪天所有商户都做到一个 POS 机, 同时接受实体卡和手机 NFC, 那才是真的舒心啊 (银联你能不能动一动,用点力,推广一下你的'挥卡'支付)\n以及, 我听说北京地铁可以刷 VISA/MASTER 了, 其他城市能否像首都看齐? 另外, 机场火车站这些地方的商户, 能不能除了支付宝微信也来点其他支付方式啊, 我难以想象老外落地之后, 如果没现金, 要怎么吃饭买水. 要说手续费的话, 别的国家你刷中国卡, 也是要手续费的, 人家机场火车站的商户怎么都愿意接受这笔成本呢 <_<",
           "link": "https://www.v2ex.com/t/1111589",
           "publishedOn": "2025-02-14T16:01:34.000Z",
-          "wordCount": 605,
+          "wordCount": 607,
           "title": "iPhone 2022 se 的 阿里 NFC 卡 可能是沉默启用的",
           "imageUrl": null
         },
@@ -415,7 +394,7 @@
           "description": "hylcn: 各位大佬，咨询一下怎么合理配置 30 万才能达到年化利率 3%的收益呀？求解答",
           "link": "https://www.v2ex.com/t/1111581",
           "publishedOn": "2025-02-14T15:17:28.000Z",
-          "wordCount": 444,
+          "wordCount": 446,
           "title": "30 万怎么合理配置资产",
           "imageUrl": null
         },
@@ -435,7 +414,7 @@
           "description": "asny415: \n我把 OCR 功能、TTS 功能和一个完整的 JS 运行环境以及通过 Wi-Fi 访问本机 ADB 功能整合到了一个 Android 程序里，这样你只需要写一个简单的 JS 脚本，就可以实现复杂的手机控制逻辑。\n我将源代码共享在这里: https://github.com/asny415/swiper\n录制了一个简单的介绍视频在这里：\n\n欢迎访问我的 TG 频道",
           "link": "https://www.v2ex.com/t/1111579",
           "publishedOn": "2025-02-14T15:03:57.000Z",
-          "wordCount": 392,
+          "wordCount": 405,
           "title": "用 JS 脚本控制你的 Android 手机",
           "imageUrl": null
         },
@@ -445,7 +424,7 @@
           "description": "404www: \n看网上有介绍 Tronlink ，Trust Wallet 和 MetaMask 不知哪个更适合\n不想 kyc ，后续可能也不需要买卖币，应该只有接收和付钱，所以交易所欧易不选择",
           "link": "https://www.v2ex.com/t/1111576",
           "publishedOn": "2025-02-14T14:52:36.000Z",
-          "wordCount": 433,
+          "wordCount": 454,
           "title": "新手小白接收 usdt，选什么钱包",
           "imageUrl": null
         },
@@ -455,7 +434,7 @@
           "description": "chenxiankong: 父亲今年 58 岁，40 年烟龄了。特别爱喝酒，然后是抽烟~\n前段时间说心脏难受，去医院检查，结果冠心病，血管堵了 50%左右。\n医生叫戒烟，不听。\n现在是每天吃降血压药，但是烟和之前一样，每天 1 包吧。\n跟他说过很多，想活久点就把烟戒了。还是不听。\n搞得我也很内耗\n- 一直说他吧，我也烦他也烦，经常弄得关系很僵。\n- 不说他吧，估计也不会戒烟了，但毕竟是我爸，哎，到时候出事还是要找我\n现在就是卡在 [我想管但是不听，不管他又是我爸] 这种 bug 里了。\n大家帮给点建议，我应该怎么想怎么看待 或者 应该怎么做",
           "link": "https://www.v2ex.com/t/1111575",
           "publishedOn": "2025-02-14T14:44:51.000Z",
-          "wordCount": 430,
+          "wordCount": 467,
           "title": "父亲老烟民，冠心病，叫戒烟不听~咋办",
           "imageUrl": null
         },
@@ -465,7 +444,7 @@
           "description": "nadia: \n身边没熟人有类似经验，想请教一下站里有相关经历的大佬们，这种“内地上班，香港发薪”的操作有没有什么潜在问题？或需要特别注意的事项？\n具体情况：\n家人有个新工作 offer ，是一家香港公司在内地的子公司。其他条件都不错，但薪资如果全由内地公司发放的话，会被扣相当高的五险一金，导致最终实际收入几乎没有增长。\n新 offer HR 提供了一个可选方案：薪资分两部分，内地子公司发一部分，香港总公司发一部分（可选人民币或港币）。\n香港公司发放的部分，需我家人先自行去香港开设一个银行账号。\n经过初步了解:\n税务，HR 说每年在香港逗留时间少于 60 天不需要缴税；\n结汇，根据论坛上的其他经验分享，可以通过信用卡消费后用工资还款，或者其他消费，操作上似乎也不算难。\n想请教各位是否还有其他需要考虑的问题？（例如合同事项等）感谢！",
           "link": "https://www.v2ex.com/t/1111574",
           "publishedOn": "2025-02-14T14:37:18.000Z",
-          "wordCount": 433,
+          "wordCount": 438,
           "title": "请教内地上班，香港发薪问题",
           "imageUrl": null
         },
@@ -485,7 +464,7 @@
           "description": "1039460820: \n如题，顺便深圳地区，求岗位。",
           "link": "https://www.v2ex.com/t/1111571",
           "publishedOn": "2025-02-14T14:02:16.000Z",
-          "wordCount": 432,
+          "wordCount": 461,
           "title": "29 岁 Fe 又提大礼包，何去何从",
           "imageUrl": null
         },
@@ -545,7 +524,7 @@
           "description": "a62527776a: 首先 不论男女 谈恋爱的核心目的 都是为了满足彼此的生理需求\n那么 如果你碰到喜欢的女生 对方对你也不排斥的话 你的首要目标 应该是满足对方的生理需求 而不是讨好/示爱/撒钱\n(讨好/示爱/撒钱 是姑娘对你有意思时而你对她不感兴趣的情况下，暗示你的手段。注意：这是姑娘的手段 不是你的手段 姑娘如果对你有意思 才会暗示你讨好她/对她示爱/给她撒钱。 如果姑娘对你没有意思 你讨好/示爱/撒钱 那就是骚扰)\n也就是得尽可能的通过牵手/搂腰/摸腿/亲嘴/XXX 一系列动作 来服务并满足对方的生理需求\n这个过程 就是姑娘对你亲密关系能力/服务能力检验和测试的过程\n到最后一步完成之后 姑娘认为 你很合适 你能满足她 你也愿意服务她 才会给你一个男朋友的称号\n-------------------------------------------------------------------------\n广大宅男最大的误区\n就是我不是她男朋友 怎么能牵手/搂腰/摸腿/亲嘴/XXX 呢？\n于是乎 想尽办法 通过讨好/谄媚/示爱/撒钱 试图通过这些手段来达成‘成为男朋友’的目的\n但从姑娘的角度来看 男朋友最大的价值 就是用雄性荷尔蒙 搂的她淫水泛滥 用灵巧的舌头 舔的她意乱情迷 用粗壮的大 JJ 捅的她欲仙欲死 至于其他的 全部全部都要排在后面\n站在姑娘的角度 在不经过测试的情况下 让你成为了男朋友\n就会面临一个极大的问题 也就是你有可能不愿意服务姑娘 \n你只想让姑娘服务自己 \n又或者你没办法 让姑娘淫水泛滥 意乱情迷 欲仙欲死\n那问题就出现了 姑娘为什么要自己来承担这个恋爱的不确定性的风险呢\n所以你就得在约会的时候 提供对方所需要的服务(也就是 牵手/搂腰/摸腿/亲嘴/XXX) 来得到姑娘的对你能力的认可以及你对姑娘服务的升级\n姑娘就会在不断升级的服务中 将后续恋爱中可能出现的不确定性抹平 最后才是名分的交换\n-------------------------------------------------------------------------\n广大的宅男朋友 似乎对这样做 会有心理负担\n所以选择送礼/讨好/谄媚之类的操作\n可能是受到社会规训，传统观念和广告传媒的影响\n所有礼品广告 以及传媒的目的 都是为了卖货，卖广告 他们并不关心 你和姑娘会不会在一起\n至于社会规训（也就是很传统的那一套）那只是符合宗族利益,父母利益的一种的趋利的控制小孩的观念而已\n那一套逻辑 就是从下至上从女至男的为上一辈牺牲个人利益的产物 不过是从圣人讲的一大堆大道理里\n找出符合自己利益的几句话 来洗脑下一辈（圣人讲的没错 但洗脑小孩的父母/长辈总是会挑着对自己有利的讲）\n你与异性 只是单纯的各取所需 互相满足 明白自己于对方的价值\n你得给对方她需要的 而不是给对方你认为她需要的\n-------------------------------------------------------------------------",
           "link": "https://www.v2ex.com/t/1111563",
           "publishedOn": "2025-02-14T12:05:26.000Z",
-          "wordCount": 716,
+          "wordCount": 742,
           "title": "广大宅男 对谈恋爱有莫大的误解",
           "imageUrl": null
         },
@@ -565,7 +544,7 @@
           "description": "wgsgyes: \n目前微信采用了白名单模式，收信方验证好友后，发信方才能发送消息。\n但还是有陌生人通讯需求的。\n那么，email 、短信、电话，可以采用“发信人向收信人付费”的模式吗？比如说，邮件发信人需向收信人支付 0.1 元，否则收信人直接拒收。当然也可把费用金额设置权直接交给收信人。\n这样应该可以极大避免 email 、短信、电话的垃圾信息问题。",
           "link": "https://www.v2ex.com/t/1111560",
           "publishedOn": "2025-02-14T11:42:31.000Z",
-          "wordCount": 496,
+          "wordCount": 525,
           "title": "email、短信、电话，发信人向收信人付费，可以实现吗？",
           "imageUrl": null
         },
@@ -615,7 +594,7 @@
           "description": "51fly: \n顺丰小哥年前把我一个包裹送错，送到隔壁楼去了\n我年后回来的时候小哥还没上班，就决定自己去敲门看看\n我看那家灯亮着就上门敲门问问，敲了 2 回(间隔 1h)都没人开，就留了个纸条在他门上。\n这两天快递小哥回来了，我让他帮我去敲门。\n没想到门敲开了，东西拿回来了。。。快递盒拆了，东西没拆。\n不太懂，这是懒得管这事吗？还是对陌生人不放心，对快递小哥才有信任感；还是小哥敲门很强硬只能开；还是想占为己有但还没完全下决心。\nPS: 东西不是很贵，但蹲了很久.....",
           "link": "https://www.v2ex.com/t/1111553",
           "publishedOn": "2025-02-14T10:39:47.000Z",
-          "wordCount": 497,
+          "wordCount": 504,
           "title": "这人啥心态啊?",
           "imageUrl": null
         },
@@ -635,28 +614,8 @@
           "description": "hubayi: 最近在油管看 8K VR180 的视频，流量有得遭不住啊，怎么下载到本地呢?谢谢了!",
           "link": "https://www.v2ex.com/t/1111550",
           "publishedOn": "2025-02-14T10:17:22.000Z",
-          "wordCount": 463,
+          "wordCount": 471,
           "title": "怎么下载油管 8K 视频？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111549",
-          "author": "simpledwcom",
-          "description": "simpledwcom: \n发现现在的培训班已经不培训以下技术\n前端开发\n大数据开发\n移动开发\n大家怎么看？\n我觉得从市场角度看，应该是这类人才需求已经饱和了。",
-          "link": "https://www.v2ex.com/t/1111549",
-          "publishedOn": "2025-02-14T10:16:28.000Z",
-          "wordCount": 417,
-          "title": "从培训班看市场需求",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111547",
-          "author": "lengleng211",
-          "description": "lengleng211: 个人总结\n技术深度：4 年 Golang 开发经验，熟悉调度器、GC 机制等底层原理，具备 Kubernetes 二次开发能力（ Controller/Scheduler ），主导设计多款百万级流水云成本优化产品;\n业务落地：深度参与 ToB/ToC 项目，主导研发产品累计服务 100+企业客户，为商户节约 30%-50%云成本，用户日活提升至 3,500+;\n工程素养：注重代码鲁棒性，单元测试覆盖率 90%+，擅长技术文档编写与复杂需求拆解;\n项目\nIc-Cloud （云资源聚合平台） | 技术负责人\n技术栈：Gin 、AWS/阿里云 SDK 、MySQL 、RocketMQ\n成果：实现多租户资源隔离与账单扣费系统，支撑月流水 100W+，客户云成本降低 50%；\n亮点：\n设计 VPC 对等连接方案，无缝迁移客户服务器镜像（ SMC ）；\n通过多云账单聚合与弹性扩缩容策略，节约企业运维成本 40%。\nLc-Cost-Analysis （云成本优化系统） | 核心开发\n技术栈：Gin 、JWT 、多云 SDK 、BigCache\n成果：分析 10W+云资源实例，推荐优化策略节省成本 30%；\n亮点：\n封装阿里云/腾讯云 API ，实现账单数据自动化采集与多维度分析；\n基于规则引擎生成优化建议，准确率超 85%。\n专业技能\n编程语言：熟悉 Golang （调度器/GC 原理）；\n云原生：Kubernetes （二次开发）、Docker 、Prometheus （源码级）、Istio ；\n中间件：RocketMQ （底层实现）、Redis （高并发场景）、MySQL （索引优化）；\n架构设计：Kratos 微服务、DDD 、高可用分布式系统；\n工具链：ELK 日志体系、Grafana 监控、GitLab CI/CD 。",
-          "link": "https://www.v2ex.com/t/1111547",
-          "publishedOn": "2025-02-14T10:01:27.000Z",
-          "wordCount": 421,
-          "title": "求职重庆 golang ｜ 后端",
           "imageUrl": null
         }
       ]
