@@ -1,10 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-15T19:08:15.752Z</id>
+    <id>urn:2025-02-15T20:10:35.768Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-15T19:08:15.752Z</updated>
+    <updated>2025-02-15T20:10:35.768Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[导师评价网为何难以建立，是有什么不好规避的法规问题吗？]]></title>
+        <id>https://www.v2ex.com/t/1111713</id>
+        <link href="https://www.v2ex.com/t/1111713"/>
+        <updated>2025-02-15T18:20:28.000Z</updated>
+        <summary type="html"><![CDATA[wolffcat: 哦 看看我的大华国 想起几周前看老沈战情室里面讲华国的教授总是把学生当马仔用，总是让学生难以毕业
+有感而发
+前人做过导师评价网，如今只有 GitHub 存档
+是什么让这些网站都河蟹了，在草泥马戈壁
+是主机不抗投诉吗？
+是名字没有打马子吗？
+有什么有效应对隐私？投诉？问题 的 办法
+有什么抗投诉主机？
+有什么办法规避投诉？
+我总不能 css 防爬的方式来规避
+说这名字复制下来是星星和月亮，而不是
+你的名字
+爱死了神奇的世界，希望引发技术性对抗法武器非正义使用的情况]]></summary>
+        <author>
+            <name>wolffcat</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我这边的家宽开始阻断 hy 协议了。]]></title>
+        <id>https://www.v2ex.com/t/1111712</id>
+        <link href="https://www.v2ex.com/t/1111712"/>
+        <updated>2025-02-15T17:46:35.000Z</updated>
+        <summary type="html"><![CDATA[Betterr: 1.我的家宽到国内服务器 UDP 没有 QOS 。  
+2.我的家宽到国外服务器 UDP 有少量丢包，但能跑满上下行（ 1G 下行，120M 上行）  
+3.海外服务器搭建了一个 HTTP3/QUIC 的服务器，测试是否 HTTP3/QUIC 被阻断，结果是 HTTP3/QUIC 的网页正常访问。但 hy2 协议就是不通。
+综上所述，我感觉应该是内蒙联通家宽精准识别 hy2 并封掉了。
+如果话题有问题可以删帖或移动到其他节点。无需通知我。]]></summary>
+        <author>
+            <name>Betterr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有好兄弟知道电脑 spdif 接口不能输出 5.1 声道是什么情况吗]]></title>
+        <id>https://www.v2ex.com/t/1111711</id>
+        <link href="https://www.v2ex.com/t/1111711"/>
+        <updated>2025-02-15T17:30:03.000Z</updated>
+        <summary type="html"><![CDATA[Dedicatus545: 
+RT
+nas 里存了很多原盘电影，以前都是用投影+专业播放器看的，最近买了个 HDR 显示器，想用电脑看，还斥巨资买了根光纤线，结果感觉声音不对，一看输出的是立体声。在网上转了半天发现这么张图 https://static.chiphell.com/forum/202407/07/223204xqel334epkk1wkqx.png
+但是我电脑这个页面没有后面两个东西，甚至没有 Spdif out 的设备，只有 Realtek Digital Output 。
+找了几个驱动都装不上 显示 error code -0001
+电脑主板华硕 B550 ，声卡型号 ALC1200]]></summary>
+        <author>
+            <name>Dedicatus545</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8 卡 H100 部署 DeepSeekR1 求助]]></title>
+        <id>https://www.v2ex.com/t/1111710</id>
+        <link href="https://www.v2ex.com/t/1111710"/>
+        <updated>2025-02-15T17:04:55.000Z</updated>
+        <summary type="html"><![CDATA[zhyim: 公司要在本地部署 ds ，搞了一台服务器，让我部署一下，内存 DDR5 2T ，显存 640G ，我现在 llamacpp 部署的 q4 量化版，并发设置了 4 ，但是 4 个人同时用的时候输出就会很慢。求推荐个可以支持 10 个并发的推理框架。vllm 我试了说是不支持 deepseek2 ，我是下载的 gguf 文件]]></summary>
+        <author>
+            <name>zhyim</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[之前一直在终端设备上做去广告, 最近部署了 Adguard Home 发现是真好用啊, 大伙还在自己的 NAS/服务器上部署了什么有用或者有趣的东西吗?]]></title>
+        <id>https://www.v2ex.com/t/1111709</id>
+        <link href="https://www.v2ex.com/t/1111709"/>
+        <updated>2025-02-15T15:54:14.000Z</updated>
+        <summary type="html"><![CDATA[Int100: 
+RT, 交流分享一下.]]></summary>
+        <author>
+            <name>Int100</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 docker 的一些问题？]]></title>
+        <id>https://www.v2ex.com/t/1111708</id>
+        <link href="https://www.v2ex.com/t/1111708"/>
+        <updated>2025-02-15T15:44:21.000Z</updated>
+        <summary type="html"><![CDATA[junwind: 
+对于 docker ，因为我实际工作中用的少，所以有一些小疑问，谢邀各位大佬们，能帮我解惑，感谢大佬们。
+假设我现在有一个项目，依赖 redis ，mysql ，nginx ，php ，那么我们是把这些都放在一个容器中，还是每个单独作为一个容器。
+nginx 是 web 服务，可以一对多。也应该做为容器吗？
+数据库是该用云服务，还是自己搭呢？ 如果自己搭，是和项目放在一台服务器上，还是应该单独放一台服务器上呢？
+假设我一个项目同时要部署多套，是一个服务器就包含一整套服务， 还是应该把数据库分离开呢？]]></summary>
+        <author>
+            <name>junwind</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[代写专利交底书，顺便出售几篇写好的]]></title>
         <id>https://www.v2ex.com/t/1111707</id>
@@ -614,62 +701,6 @@ https://www.v2ex.com/t/1109864
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[有没有使用过 ai 外呼系统的老哥]]></title>
-        <id>https://www.v2ex.com/t/1111663</id>
-        <link href="https://www.v2ex.com/t/1111663"/>
-        <updated>2025-02-15T08:16:24.000Z</updated>
-        <summary type="html"><![CDATA[GuluMashimaro: 公司需要外呼一部分客户关怀数据。
-话术内容很简单，就是问下客户最近产品使用的还行不行，如果行的话就结束。如果使用有问题的话，我们就再人工回访。
-平均每天有 200 个需要关怀的数据，想找个好用的 AI 外呼系统。
-求推荐]]></summary>
-        <author>
-            <name>GuluMashimaro</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[咨询一下香港薪资和深圳薪资的换算比例]]></title>
-        <id>https://www.v2ex.com/t/1111661</id>
-        <link href="https://www.v2ex.com/t/1111661"/>
-        <updated>2025-02-15T08:15:54.000Z</updated>
-        <summary type="html"><![CDATA[V2DBA: 
-有对香港生活成本比较了解的大佬么？想问下香港和深圳薪资的换算比例是什么，例如：深圳 50K/月 的工作，在香港要达到多少，才能持平？]]></summary>
-        <author>
-            <name>V2DBA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[父母医疗健康大家有什么建议？]]></title>
-        <id>https://www.v2ex.com/t/1111660</id>
-        <link href="https://www.v2ex.com/t/1111660"/>
-        <updated>2025-02-15T08:11:19.000Z</updated>
-        <summary type="html"><![CDATA[mahogany: 
-我家庭情况比较特殊，父母都是二婚，年纪很晚才生我和弟弟。       
-我爸已经 78 岁了，身体还算可以，虽然还有同父的哥哥和姐姐，但是估计不会承担我爸的生活和治病问题，他一辈子都没正式工作，医保也没弄过，我买了意外险，医疗相关的因为年龄太大的原因买不了，等于医疗这里的风险完全敞开到我和弟弟身上，弟弟估计养活他自己可以，遇到大风险可能也比较无力。         
-我妈今年 66 岁了，身体也还行，以前在县城有份正式工作，现在一个月 2700 的退休金，有医保，我也一直给买了额外的防癌险（家族癌症史 & 个人饮食习惯不健康），同母的哥哥也很争气，蛮有钱的，我妈有事肯定愿意伸手承担。
-每隔几年会有体检，前两年体检也不错，身体都蛮好的，正常老人病。       
-我今年 30 岁，收入 25k * 13 ，上海剩下一点钱但不多，也攒了些钱。       
-生活方面他们基本开销很少。我主要担心健康风险，父母有过医疗经历的 V 友们能提供一些建议吗？大概要有多少的钱比较合适一些？]]></summary>
-        <author>
-            <name>mahogany</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年后想找工作的，快找我内推呀]]></title>
-        <id>https://www.v2ex.com/t/1111658</id>
-        <link href="https://www.v2ex.com/t/1111658"/>
-        <updated>2025-02-15T08:03:35.000Z</updated>
-        <summary type="html"><![CDATA[SallyHzy: 🔍阿里巴巴智能信息 2025 码力全开！🔥
-🙋阿里智能信息业务研发团队作为阿里 AI to C 战略落地的核心研发团队，也是国内最早涉足移动互联网领域的先锋技术团队，有着深厚的技术沉淀和广泛的行业影响力。2025 海量岗位等你来投！
-⚡️现开放专场招聘、员工内推等多渠道，offer 多多，机会多多！
-➡️2 月 22 日-广州阿里中心-业务研发专场招聘会，点击图片中岗位投送简历
-➡️在职员工内推，流程加速！简历发送给我，简历直达用人部门！
-岗位详情
-https://broccoli.uc.cn/apps/z_Nnxdb8u/routes/TnONgVnoo?uc_param_str=dsdnfrpfbivesscpgimibtbmnijblauputogpintnwktprchmtkp&uc_biz_str=S%3Acustom%7CC%3Atitlebar_hover_2]]></summary>
-        <author>
-            <name>SallyHzy</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Handwriting an SVG Heart, With Our Hearts]]></title>
         <id>https://css-tricks.com/?p=384495</id>
         <link href="https://css-tricks.com/handwriting-an-svg-heart-with-our-hearts/"/>
@@ -755,42 +786,6 @@ Organizing Design System Component Patterns With CSS Cascade Layers originally p
 Make Any File a Template Using This Hidden macOS Tool originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
-        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
-        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
-        <updated>2025-02-09T15:59:33.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
-
-目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
-这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
-准备
-开始之前，确保你已经建立了一个 Expo 的项目。
-然后，通过以下命令创建一个 Expo Module。
-npx create-expo-module@latest --local
-根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
-.
-├── android
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           ├── AndroidManifest.xml
-│           └── java
-│               └── expo
-│                   └── modules
-│                       └── testmodule
-│                           ├── TestModule.kt
-│                           └── TestModuleView.kt
-├── expo-module.config.json
-├── index.ts
-├── ios
-│   ├── TestModule.podspec
-│   ├── TestModule.swift
-│   └── TestMod…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -918,42 +913,6 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[新年的路]]></title>
-        <id>https://innei.in/notes/185</id>
-        <link href="https://innei.in/notes/185"/>
-        <updated>2025-02-02T16:28:11.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
-
-许久没有写代码了，原因是最近自驾去了挺多地方。
-年前，去了海宁神仙湖。第一次上高速。
-:::gallery
-https://object.innei.in/bed/2025/0202_1738511753954.jpeg
-https://object.innei.in/bed/2025/0202_1738511757142.jpeg
-:::
-冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
-然后去了南北湖。比较一般。没咋拍。
-除夕前一晚，去了巧克力小镇。也比较一般。
-除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
-
-同时，去了附近的景区，也是有很多老板按箱放烟花的。
-初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
-
-
-后面去了盐官。但是没看到潮水，刚好错过了。
-
-去了大风车。
-
-过年期间，不管是哪个有点名气的景点人都挺多的。
-上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
-提车两个月，已经跑了 2300km+。
-好久没有写代码了，还是感到非常的焦虑。
-
-看完了？说点什么呢]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -1025,33 +984,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
