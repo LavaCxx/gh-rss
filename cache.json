@@ -207,6 +207,43 @@
       ]
     },
     {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
+        }
+      ]
+    },
+    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -304,7 +341,7 @@
           "description": "coolair: \n我忘记了啥时候领取的，也不记得关联的 steam 账号了，现在登录 GOG 发现这个游戏也无法下载了……\nSteam 账号也不记得了……\n这个 Steam 图标的意思是不是就是关联领取的？\n这个玩家数据里的账号（打码的地方）是 GOG 的还是 Steam 的？",
           "link": "https://www.v2ex.com/t/1111829",
           "publishedOn": "2025-02-16T12:49:12.000Z",
-          "wordCount": 462,
+          "wordCount": 468,
           "title": "GOG 关联其他平台获取的免费的巫师 3，断开关联后是不是不能用了？",
           "imageUrl": null
         },
@@ -424,7 +461,7 @@
           "description": "neochen13: 找来找去，貌似冲 CherryStudio 就是最好的了……\nMacOS 上真没更好的选择了吗",
           "link": "https://www.v2ex.com/t/1111813",
           "publishedOn": "2025-02-16T11:27:33.000Z",
-          "wordCount": 391,
+          "wordCount": 410,
           "title": "请问 ollama 等 AI 的第三方客户端，除了 ChatBox 和 CherryStudio，还有更好的选择吗？",
           "imageUrl": null
         },
@@ -434,7 +471,7 @@
           "description": "flahcrus: 手机 iPhone 14pro 。家里有两根非官方 Type-A 数据线，以前都可以充电，今天发现正反面插上都没有反应了，怀疑 18.3.1 屏蔽了盗版线。",
           "link": "https://www.v2ex.com/t/1111812",
           "publishedOn": "2025-02-16T11:14:45.000Z",
-          "wordCount": 439,
+          "wordCount": 453,
           "title": "iOS18.3.1 无法使用第三方数据线",
           "imageUrl": null
         },
@@ -444,7 +481,7 @@
           "description": "ilanting: \n环境:iOS18.3\n开通了 iCloud+ \n起初手机连了家里的 Wi-Fi 以后,哔站客户端就一直刷不出视频,偶尔可以 切换流量就完全正常. 大概一两个月了,也就凑合在用,这周末实在忍不了 就把路由都检查了一遍 发现是正常的.  只有手机端出现这样情况,各种尝试后发现, iCloud+里包含的 专用代理 只要打开, 哔站客户端就彻底刷不出视频了,一关闭就好了.  可是也没给它 本地网络 的权限,我就好奇 iCloud 里的这个功能 跟它有啥关系呢,其他 app 都正常啊, 讲道理 iCloud+里的这个功能不是只有对 Safari 浏览器有用嘛....   \n纯好奇哈.",
           "link": "https://www.v2ex.com/t/1111811",
           "publishedOn": "2025-02-16T11:10:13.000Z",
-          "wordCount": 525,
+          "wordCount": 551,
           "title": "关于哔哩哔哩 iOS 端使用疑问",
           "imageUrl": null
         },
@@ -454,7 +491,7 @@
           "description": "SlanWyf: \n安装 bandzip 和 nanazip 无论使用官网下载安装还是在微软商店中安装，都是无法将快捷键注册到右键菜单中，不仅一级菜单没有，连点击显示更多选项的二级菜单都没有",
           "link": "https://www.v2ex.com/t/1111810",
           "publishedOn": "2025-02-16T11:10:04.000Z",
-          "wordCount": 515,
+          "wordCount": 536,
           "title": "为什么 windows11 安装解压软件，无法注册到右键菜单中",
           "imageUrl": null
         },
@@ -484,7 +521,7 @@
           "description": "TrollTechX: \n大家好，很高兴向大家推荐一款全新的 macOS 应用 - Xactions ，它是一款强大的自动化执行者，专为提升工作效率而设计。借助于 Xactions 的自动化实现，可以帮你从繁琐、重复的劳动中解放出来，让你专注于更重要的事情。\nApp Store 下载链接： https://apps.apple.com/cn/app/xactions/id6470151108\n主要功能：\n设置点击按键：你可以自定义点击按键/组合键，设置重复次数与间隔，轻松实现自动化操作。\n截图识别：支持根据截图识别在屏幕上的坐标执行点击操作，让操作更精准。\n自动输入文本：在指定位置自动输入文本内容，并执行复杂交互，提升工作效率。\n连续执行动作：设置连续执行动作，帮助你实现枯燥复杂的操作流程。\nShell 脚本支持：支持运行 Shell 脚本，灵活应对各种需求。\n应用程序管理：轻松启动或切换应用程序，提升工作流的流畅性。\n实时日志输出：支持实时日志输出，便于追踪和调试。\n多种鼠标动作：支持单击、双击、长按等鼠标动作，满足多样化操作需求。\n更多功能：更多功能正在开发中，即将推出，敬请期待！\n欢迎通过上面的下载链接体验 Xactions app ，并通过邮件和我们反馈任何你遇到的问题： support@trolltechX.com\n下面是 30 个兑换码：\nF6YF334JHFNK\nNFNA7W4HJYWY\nW77LRFNEHWRH\n6NNYFXLH7RAJ\n3EX9L3JF6LKA\nE3EKMWKJMWH7\n3YNMYWRA664K\nPT77NKH97NLX\n9PK7N6FLXN3K\nX3R9HR9KHTRH\n4LL7HFXMHMY7\n6PLTTHLW79XW\nFYMKKXMEPA9A\n9K7FKJXERJJ9\n3MNAKKN49Y3L\nNTXMRKAM73YM\n67FX6E4W4P64\nMJX76AMW3RET\nE9RNYT9LXNWY\nP73TATEWAEKM\n9R737A697YAH\nAK6M7HLWLK6L\nKA67XF9RR6WW\nX9APLMPP9AHY\n393N4WK6P47R\nPRPA9EFYTL63\nJ3HLFNFM3LLY\nFT3FL46HPHJR\n73KPAHJFXNPY\nKJHH6XXRX4AF",
           "link": "https://www.v2ex.com/t/1111805",
           "publishedOn": "2025-02-16T10:34:37.000Z",
-          "wordCount": 675,
+          "wordCount": 736,
           "title": "[福利] 抢先体验 Xactions - macOS 平台强大的自动化执行者！",
           "imageUrl": null
         },
@@ -494,7 +531,7 @@
           "description": "a62527776a: 张麻子杀死县长之后，自己当了县长\n刘嘉玲说：我不在乎谁是县长，我是县长夫人就行\n女人爱的不是皇帝本人 爱的是坐在皇帝宝座上的那个人\n为什么奶茶妹妹要嫁给大东子\n因为大东子拥有京东的控制权 他是京东名义上的“皇帝”\n权力是男人的春药 拥有权力 就拥有大棍子\n如果我们是上班的 其实就只剩下小棍子和香蕉了\n我们最大的皇帝 拥有全自动棍子 所以能够控制整片土地\n权力 其实就是猴王的棍子 他能够用棍子驱使底下的猴子 采香蕉\n我们看猴王 都很有钱，是因为猴子们采香蕉之后 都要上贡一份给拿棍子的猴王\n黄毛 他只是外观是黄毛 其实他是小孩子王 小孩子们都听他的 他拥有这个小孩子的领导力 所以漂亮女孩都对黄毛趋之若鹜\n进了社会之后 黄毛不行了 因为小孩们跑了 黄毛没有权力了\n猴王变成了拥有权力的企业主 厂长 有实权的部门领导 或者是体制内的官员\n他们是猴王啊 所以漂亮妹妹对他们比较倾慕\n作为采香蕉的猴子 我们一定要想办法拿到棍子 成为猴王\n这个棍子 比较贵 除了要和其他猴子 厮杀争夺更多的香蕉之外\n最最关键的就是 要拿香蕉 换棍子\n最简单的方法 其实就写在刑法里 咱们要想办法\n往老板口袋里 塞香蕉\n只要塞的进去 老板就会心领神会 认为咱们也想当猴王\n就会给咱们棍子 拥有了这根棍子 就和别的只有香蕉和小棍子的猴子不一样了\n漂亮妹妹 就会另眼相看\n----------------------------------------------------------------------\n关于棍子和香蕉\n我们本身 是拥有整个人自我的棍子\n但是我们需要香蕉 于是出让了大部分棍子 留一个小棍子\n那根小棍子 企业不需要 企业拿走我们的大部分棍子 给我们足够多的香蕉 留一小部分香蕉 上贡给我们上一级的猴王\n我们拥有了香蕉 和 小棍子 其实就能搞定绝大部分女人\n但是 漂亮妹妹 她不缺香蕉和小棍子\n因为经济比较发达 香蕉 她们上班就能搞定 至于小棍子 那太多了 简直是满地爬\n稀缺的是拿着棍子的猴王\n只有拥有棍子 才能驱使别的猴子 给你上贡香蕉\n但是这个 需要比较强大的魄力和野心\n我们看有钱人 其实他们的钱 是拥有了权力之后的附属品\n他们的钱 是别人让他驱使猴子的香蕉\n马云说 自己不在乎钱, 也许他说的是真的\n因为他需要钱 让别人来帮他实现阿里巴巴的野心 (因为能做成 根本就不需要关心钱的事\n孙正义给他香蕉给他棍子 是因为他们有领导力 感染力 野心 目标 才干\n不是说拿着钱 让他去娶漂亮媳妇\n我们成为大猴王 可能比较难 研究如何成为小猴王 看起来 比较实在\n----------------------------------------------------------------------\n我们要竞争资源的所有权 谁拥有了资源的所有权 就拥有这片资源的产出",
           "link": "https://www.v2ex.com/t/1111804",
           "publishedOn": "2025-02-16T10:22:37.000Z",
-          "wordCount": 546,
+          "wordCount": 554,
           "title": "从《让子弹飞》看，权力才是利益的来源",
           "imageUrl": null
         },
@@ -504,7 +541,7 @@
           "description": "pureGirl: 淘宝这种算吗",
           "link": "https://www.v2ex.com/t/1111802",
           "publishedOn": "2025-02-16T10:19:25.000Z",
-          "wordCount": 511,
+          "wordCount": 516,
           "title": "什么样的网站算设计精良的",
           "imageUrl": null
         },
@@ -524,7 +561,7 @@
           "description": "aeucon:",
           "link": "https://www.v2ex.com/t/1111800",
           "publishedOn": "2025-02-16T10:11:14.000Z",
-          "wordCount": 377,
+          "wordCount": 390,
           "title": "求问两个 BGM，都是 B 站里边的，一个是恒大歌舞团这类视频的 BGM 和北韩太阳相关视频的 BGM",
           "imageUrl": null
         },
@@ -544,7 +581,7 @@
           "description": "Al0rid4l: \nRT, 之前的 UPS 买了好几年了, 最近停电两次都没切换备用电源(以前是好的, 停电可以切换), 可能是坏了(有人知道怎么修或是什么问题也可以提供帮助)\n已经买了个新的, 考虑把旧的扔了, 但直接扔楼下垃圾桶似乎对环境不太好? 卖二手这玩意应该也没人要吧, 所以怎么处理比较合适?",
           "link": "https://www.v2ex.com/t/1111798",
           "publishedOn": "2025-02-16T09:54:42.000Z",
-          "wordCount": 502,
+          "wordCount": 524,
           "title": "废旧的 UPS 怎么处理比较好?",
           "imageUrl": null
         },
@@ -554,7 +591,7 @@
           "description": "hhhhhh123: 目前在广州工作，但是公司缴纳的社保在深圳。\n然后计划是今年生小孩，想咨询下能在广州进行报销吗？  \n对了，重点是媳妇生小孩，能刷我的吧？ \n 报销有什么硬性条件吗？",
           "link": "https://www.v2ex.com/t/1111797",
           "publishedOn": "2025-02-16T09:42:32.000Z",
-          "wordCount": 393,
+          "wordCount": 409,
           "title": "深圳医保如何在广州刷（生孩子）",
           "imageUrl": null
         },
@@ -574,7 +611,7 @@
           "description": "PendingOni: \n不知怎得 最近脑子有点类似半睡眠状态 偏被动思考\n也许是之前咖啡喝多了(每天 600ml 左右) 还是最近饮食上有问题(草酸堆积? 毕竟是素食加上鸡蛋和鸡肉)\n明天体检再说吧 要是有脑电图也许会好些?",
           "link": "https://www.v2ex.com/t/1111792",
           "publishedOn": "2025-02-16T09:16:46.000Z",
-          "wordCount": 370,
+          "wordCount": 372,
           "title": "[记录]-2025-02-16 厌烦的\"脑雾\"现象",
           "imageUrl": null
         },
@@ -604,7 +641,7 @@
           "description": "beginor: \n发现了这个 ANEMLL 项目， 可以用 ANE 来跑大模型， 项目刚刚上线 github 没多久， 目前只支持 llama 系列模型， 也包括 deepseek 蒸馏过的 llama 3 。\n作者也上传了一些模型到 huggingface 。\n经过简单测试和对比， 生成速度大概是 mlx/llama.cpp 的 1/3 ，但是只使用 30% 左右的 npu 性能， 功耗只有 2 ～ 3 瓦， 是显卡功耗的 1/10 。\n如果以后能够让 npu 火力全开， 说不定速度能追上 mlx 。\nhttps://x.com/anemll/status/1890282119685116051\nANE 终于可以告别电阻器的外号了！",
           "link": "https://www.v2ex.com/t/1111788",
           "publishedOn": "2025-02-16T08:40:32.000Z",
-          "wordCount": 456,
+          "wordCount": 460,
           "title": "ANE 可以跑大模型了！",
           "imageUrl": null
         },
@@ -614,7 +651,7 @@
           "description": "xuzhe: \n🚀 招聘前言\n各位热爱技术、追求极致产品体验的产品经理， 工程师朋友们，大家好！\n随着春回大地，ELESTYLE 2025 年的春季招聘再次开启！  \n我们是一群对工程师文化充满热情的团队成员，深信技术的力量能驱动产品创新与用户体验革新。感谢大家以往对我们招聘的关注与支持，为了让这次招聘更高效、更精准，我们整理了往届常见问题，请大家在投递简历前仔细阅读，确保信息匹配，共同打造一个专注于技术与产品创新的团队。\n🔹 简历投递方式\n专属投递链接提交简历（详情见文末链接），以便快速高效地跟进您的申请。\n🔹 简历筛选与回复时间\n请各位耐心等待，我们会尽快处理每一份简历。\n🔹 关于工作地点\n请确认您对赴日工作有强烈意愿，再投递简历。\n🔹 关于语言要求\n日语能力没有硬性要求；然而，由于工作中需要使用日语沟通，入职后公司将提供日语培训，并要求员工努力提高日语水平。在同等条件下，具备一定日语能力的候选人将在产品开发与团队协作中更具竞争力。\n🔹 请先仔细阅读 JD 再投递\n仔细阅读职位描述，并结合自身技术实力与产品理念进行评估，确保岗位匹配，避免不必要的投递。\n期待与合适的你相遇！🚀—— ELESTYLE HR 团队\n💡 关于 ELESTYLE\n。ELESTYLE 株式会社成立于 2014 年，总部位于日本东京都秋叶原，是一家技术驱动Fintech + SaaS的互联网创业公司。我们专注于 [聚合支付平台] 与 [企业数字化转型（ DX ） SaaS 平台] ，致力于通过前沿技术打造极致的产品体验。\n📌 工程师文化：\n我们是一家高速成长的创业公司，重视每位工程师对技术的热情、对产品的专注以及对团队协作的执着。我们以效率与质量为基石，期待与你携手共创颠覆行业格局的创新产品。\n产品激情：我们不仅开发技术，更致力于创造改变生活的产品，每一行代码都饱含对用户体验的无限…",
           "link": "https://www.v2ex.com/t/1111785",
           "publishedOn": "2025-02-16T07:59:05.000Z",
-          "wordCount": 1193,
+          "wordCount": 1206,
           "title": "ELESTYLE 株式会社 2025 春季招聘公告",
           "imageUrl": null
         },
@@ -624,7 +661,7 @@
           "description": "chanChristin: \n在脉脉上看有人说欠薪，有没有大佬知道现在啥样的？",
           "link": "https://www.v2ex.com/t/1111784",
           "publishedOn": "2025-02-16T07:57:56.000Z",
-          "wordCount": 381,
+          "wordCount": 400,
           "title": "有人知道上海芯翌这家公司怎么样吗？",
           "imageUrl": null
         },
