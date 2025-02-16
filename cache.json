@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -193,43 +187,6 @@
           "wordCount": 1039,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -316,6 +273,56 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1111722",
+          "author": "mfreewindzfjkg",
+          "description": "mfreewindzfjkg: 我觉得 gemini 的翻译很地道，尝试把 gemini API 填写进欧陆词典 Windows 版客户端的翻译引擎，实现划词翻译，但尝试了很多次都失败了。经过查询，看到欧陆词典有提示：“自定义大模型引擎，仅支持与 OpenAI 兼容的 API 接口”。我看到 GitHub 上也有类似于 oneAPI 等转换工具，但我没有任何编程基础，不会用。\n想请教下各位大佬，有没有精通大模型 API 或者会编程的，能否给予一些指导？可有偿付费。谢谢！",
+          "link": "https://www.v2ex.com/t/1111722",
+          "publishedOn": "2025-02-16T00:38:35.000Z",
+          "wordCount": 516,
+          "title": "求助：如何将 Gemini API 转换成 open AI 兼容模式？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111721",
+          "author": "youshangdepangzi",
+          "description": "youshangdepangzi: 前情提示：一 https://www.v2ex.com/t/1105576?p=1#reply130\n        二  https://www.v2ex.com/t/1110836?p=1#reply88\n有两个娃，母亲生病，媳妇工作很辛苦，我的工作很轻松，钱多事少福利多稳定。但由于个人性格的问题，有 ADHD ，一直无法专心持续的干事情，所以都是混，技术能力很差，好在不笨，反应灵活，能补救的好，但做人不行，爱嘚瑟，和领导同事处的一般，但做过不少好的项目做的也不错，汇报文字能力和演讲能力不错，出彩，所以是那种让干着给加薪但又不是领导重点培养的人。\n由于自己有 ADHD ，又性欲特别多，就是脑子的欲望关于性和其他欲望都特别多，很难停止下来，工作薪水高，可家庭开销很大，自己欲望多又造成对薪水的不满，有多动症又专心不了干成牛逼的事，不能多赚钱。活的挺烦恼和痛苦的，实在是不好搞。\n不说了，大早上的，撸一发，洗个澡，试试能不能看几页书",
+          "link": "https://www.v2ex.com/t/1111721",
+          "publishedOn": "2025-02-16T00:25:37.000Z",
+          "wordCount": 449,
+          "title": "人到中年，性能力开始不行（3）-之中年全面危机",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111720",
+          "author": "Siaospeed",
+          "description": "Siaospeed: \n楼主之前主用 Pixel 8a ，惨遭硬件暴毙忍痛放弃。现在想入一个 Pixel 做备用机，问一下各位有什么好的选择。\n预算&需求：预算大概 800 ￥左右；主要用途是境内外应用隔离&刷机玩，不玩游戏，不太在乎性能（但是相对来说也不要太卡），满足日常网页浏览&软件使用即可\n想问一下各位有没有哪款机型能够基本满足上面的要求，如果是二手机的话该如何筛选不良商家避免踩坑（毕竟水很深...）",
+          "link": "https://www.v2ex.com/t/1111720",
+          "publishedOn": "2025-02-16T00:24:49.000Z",
+          "wordCount": 407,
+          "title": "想入手一个 Pixel 备用机，目前来说有什么好的选择",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111718",
+          "author": "wuruxu",
+          "description": "wuruxu: \n这三年，买了三个手机，一个 Pixel 6 Pro, 两个 Pixel 7a\n现状：\nPixel 6 Pro 一直装在硅胶套中使用，在没有磕碰的情况下，左下角竟然裂开\n一个 Pixel 7a 放在凳子上，等我想去用的时候，发现无法点亮屏幕，adb devices 看到设备还在正常运行",
+          "link": "https://www.v2ex.com/t/1111718",
+          "publishedOn": "2025-02-15T23:24:54.000Z",
+          "wordCount": 561,
+          "title": "Google pixel 手机质量真是堪忧",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111717",
+          "author": "yshtcn",
+          "description": "yshtcn: 我订阅了 chatgpt 的 plus ，也曾经订阅过 perplexity 和 notion AI 。现在还有 cursor 和 windsurf 放在面前。然后还有 RooCline 需要 API 付费。如果本地搭建全量模型的服务器，费用更是不菲。\n当然，他们的确带来极大的便利，但是直接创造的收入仍然有限。所以问题在于：\n1.哪些 AI 服务能更“值得”付费？\n2.AI 时代是否宁可高价一点月付也不要年付。\n3.自己投入本地设备是否比订阅更值得。",
+          "link": "https://www.v2ex.com/t/1111717",
+          "publishedOn": "2025-02-15T23:05:15.000Z",
+          "wordCount": 439,
+          "title": "究竟什么样的大模型服务值得付费订阅。购买和搭建？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1111716",
           "author": "drymonfidelia",
           "description": "drymonfidelia: 这个框架我在一些小项目用过一段时间了，我记得前年年初刚开始用这个框架的时候经常会出现 5s 以上的连接被提前关掉的 Bug ，去年年中的版本里面他们终于修复了。不知道还有没有别的坑。",
@@ -341,7 +348,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1111714",
           "publishedOn": "2025-02-15T19:25:10.000Z",
-          "wordCount": 472,
+          "wordCount": 484,
           "title": "为什么 iOS 有很多能越狱的漏洞， Android 却比较少有能在不解锁 BL 的情况下 ROOT 的洞？只是因为没人愿意挖吗？",
           "imageUrl": null
         },
@@ -351,7 +358,7 @@
           "description": "wolffcat: 哦 看看我的大华国 想起几周前看老沈战情室里面讲华国的教授总是把学生当马仔用，总是让学生难以毕业\n有感而发\n前人做过导师评价网，如今只有 GitHub 存档\n是什么让这些网站都河蟹了，在草泥马戈壁\n是主机不抗投诉吗？\n是名字没有打马子吗？\n有什么有效应对隐私？投诉？问题 的 办法\n有什么抗投诉主机？\n有什么办法规避投诉？\n我总不能 css 防爬的方式来规避\n说这名字复制下来是星星和月亮，而不是\n你的名字\n爱死了神奇的世界，希望引发技术性对抗法武器非正义使用的情况",
           "link": "https://www.v2ex.com/t/1111713",
           "publishedOn": "2025-02-15T18:20:28.000Z",
-          "wordCount": 463,
+          "wordCount": 483,
           "title": "导师评价网为何难以建立，是有什么不好规避的法规问题吗？",
           "imageUrl": null
         },
@@ -361,7 +368,7 @@
           "description": "Betterr: 1.我的家宽到国内服务器 UDP 没有 QOS 。  \n2.我的家宽到国外服务器 UDP 有少量丢包，但能跑满上下行（ 1G 下行，120M 上行）  \n3.海外服务器搭建了一个 HTTP3/QUIC 的服务器，测试是否 HTTP3/QUIC 被阻断，结果是 HTTP3/QUIC 的网页正常访问。但 hy2 协议就是不通。\n综上所述，我感觉应该是内蒙联通家宽精准识别 hy2 并封掉了。\n如果话题有问题可以删帖或移动到其他节点。无需通知我。",
           "link": "https://www.v2ex.com/t/1111712",
           "publishedOn": "2025-02-15T17:46:35.000Z",
-          "wordCount": 358,
+          "wordCount": 383,
           "title": "我这边的家宽开始阻断 hy 协议了。",
           "imageUrl": null
         },
@@ -371,7 +378,7 @@
           "description": "Dedicatus545: \nRT\nnas 里存了很多原盘电影，以前都是用投影+专业播放器看的，最近买了个 HDR 显示器，想用电脑看，还斥巨资买了根光纤线，结果感觉声音不对，一看输出的是立体声。在网上转了半天发现这么张图 https://static.chiphell.com/forum/202407/07/223204xqel334epkk1wkqx.png\n但是我电脑这个页面没有后面两个东西，甚至没有 Spdif out 的设备，只有 Realtek Digital Output 。\n找了几个驱动都装不上 显示 error code -0001\n电脑主板华硕 B550 ，声卡型号 ALC1200",
           "link": "https://www.v2ex.com/t/1111711",
           "publishedOn": "2025-02-15T17:30:03.000Z",
-          "wordCount": 368,
+          "wordCount": 389,
           "title": "有好兄弟知道电脑 spdif 接口不能输出 5.1 声道是什么情况吗",
           "imageUrl": null
         },
@@ -391,7 +398,7 @@
           "description": "Int100: \nRT, 交流分享一下.",
           "link": "https://www.v2ex.com/t/1111709",
           "publishedOn": "2025-02-15T15:54:14.000Z",
-          "wordCount": 440,
+          "wordCount": 442,
           "title": "之前一直在终端设备上做去广告, 最近部署了 Adguard Home 发现是真好用啊, 大伙还在自己的 NAS/服务器上部署了什么有用或者有趣的东西吗?",
           "imageUrl": null
         },
@@ -411,7 +418,7 @@
           "description": "mangwen: \n代写专利交底书，只需提供所需领域，通过代理机构给钱，不通过不要钱。\n如果您自己写也可以免费指导。本人资深程序员，目前转行写专利，自己名下国内专利 100+，国际专利 1 件。\nVX:MTg1MDA5NzQ5NDM=",
           "link": "https://www.v2ex.com/t/1111707",
           "publishedOn": "2025-02-15T15:25:50.000Z",
-          "wordCount": 404,
+          "wordCount": 418,
           "title": "代写专利交底书，顺便出售几篇写好的",
           "imageUrl": null
         },
@@ -421,7 +428,7 @@
           "description": "ety001: \n年前买了一个新设备，懒猫微服。\n他的设计理念还是挺有意思的，自建 IPv6 的虚拟局域网，并维护一个自己的局域网 DNS 服务，所有自有应用跑在这个私有局域网里。\n其他零碎的描述在我的这篇文章里了：\nhttps://mp.weixin.qq.com/s/AsmRqfZEUrUOP0DrzXq7Gg\n总体来讲，可玩度很高。",
           "link": "https://www.v2ex.com/t/1111706",
           "publishedOn": "2025-02-15T15:20:03.000Z",
-          "wordCount": 391,
+          "wordCount": 393,
           "title": "分享新买的设备 -- 懒猫微服",
           "imageUrl": null
         },
@@ -431,7 +438,7 @@
           "description": "jojoadv: \n人生遭遇大挫败，缓不过劲来了，需要一点绝望缝隙的光。\n稍微知名一点的我都看过了，希望来点冷门佳片。",
           "link": "https://www.v2ex.com/t/1111705",
           "publishedOn": "2025-02-15T15:19:31.000Z",
-          "wordCount": 517,
+          "wordCount": 533,
           "title": "有没有治愈电影或者电视推荐",
           "imageUrl": null
         },
@@ -441,7 +448,7 @@
           "description": "Aicnal: \n事情是这样的，我认识的一位 50 岁的阿姨和我妈妈说，她说她借了大几十万，说要去开通量化，用「 AI 」炒股\n然后我妈天天在抖音刷到什么量化，说量化多好多好，用「 AI 」炒股比人要好，刚开始可能跌，之后行情稳定了就可以一直赚了\n她身边也有很多朋友炒股，摸爬滚打了这么多年也赚了点小钱，大概 20w 吧\n有没有实际做过量化的或者在机构里面工作的朋友可以客观说一说",
           "link": "https://www.v2ex.com/t/1111704",
           "publishedOn": "2025-02-15T15:10:02.000Z",
-          "wordCount": 621,
+          "wordCount": 651,
           "title": "有没有做股票量化的朋友",
           "imageUrl": null
         },
@@ -501,7 +508,7 @@
           "description": "Loocor: 有知道具体情况的不",
           "link": "https://www.v2ex.com/t/1111696",
           "publishedOn": "2025-02-15T14:15:26.000Z",
-          "wordCount": 459,
+          "wordCount": 471,
           "title": "taro 好像烂尾了",
           "imageUrl": null
         },
@@ -511,7 +518,7 @@
           "description": "ginobefun: \n引言\n在深入学习和阅读智能体（ Agent ）相关的英文技术文章时，我发现传统的翻译软件和方法往往难以将这些文章准确、流畅地转换成地道的中文。逐字逐句的直译不仅导致\"翻译腔\"严重，还会使句子结构生硬，专业术语处理不当，这让读者理解起来非常吃力。\n为了解决这个问题，我开始探索各种 AI 工具，并借鉴了分段翻译再合并、反思改进、使用\"改写\"而非\"翻译\"等技巧，不断优化翻译流程。经过多次实验，我最终基于 Dify 平台构建了一个 AI 驱动的多轮评审润色 Workflow ，成功实现了将英文技术文章（涵盖 AI 、编程、产品、商业等领域，尤其是智能体相关内容）高质量地改写为中文的目标。\n这个 Workflow 不仅能准确传达原文信息，还能使改写后的文章语言流畅自然，完全符合中文表达习惯和技术领域的专业规范。更重要的是，它能同时兼顾技术人员和普通读者的阅读体验，让不同背景的读者都能轻松理解文章内容。\n本文将详细分享我的实践经验，包括 Workflow 的整体设计、Prompt Engineering 的技巧、模型选择以及后续的排版和发布流程。希望我的经验能帮助大家更好地利用 AI 提升内容创作的效率和质量，也希望能为那些和我一样在阅读英文技术资料时遇到困难的读者提供一些帮助。最终的目标是，通过这个流程，我可以高效地产出和分享高质量的中文技术博客，与更多人一起学习和交流。\n为什么需要多轮评审润色？\n单纯的\"翻译\"或\"改写\"往往难以满足高质量内容的要求。即使是初步改写后的文本，也可能存在以下问题：\n语言层面： 表达不够地道、用词欠准确、句式结构不符合中文习惯。\n内容层面： 信息存在缺失或偏差、逻辑不够清晰、专业术语处理不当。\n风格层面： 语气前后不一致、不符合目标读者（技术人员和普通读者）的阅读习惯。\n为了解决这些问题，我设计了一个多轮评审润色流程，通过多个 L…",
           "link": "https://www.v2ex.com/t/1111695",
           "publishedOn": "2025-02-15T14:05:52.000Z",
-          "wordCount": 667,
+          "wordCount": 676,
           "title": "分享一个基于大语言模型驱动的多轮评审的高质量英文文章翻译方案",
           "imageUrl": null
         },
@@ -541,7 +548,7 @@
           "description": "Jianzs: \n今天在学习如何计算投资的年化收益率，了解到通常使用 XIRR 来计算，但是遇到一个问题，没想明白，V 站卧虎藏龙，来请教大佬了。\n日期\n行为\n金额\n\n\n\n\n2020/1/1\n投入\n100\n\n\n2021/1/1\n赎回\n1000\n\n\n2022/1/1\n投入\n1000\n\n\n2023/1/1\n赎回\n120\n\n\n从最初投入 100 元，到最后到手 120 元，所以总共盈利了 20 元，但是使用 XIRR 来计算年化收益率，结果是 -2.94%，该如何理解这件事？",
           "link": "https://www.v2ex.com/t/1111690",
           "publishedOn": "2025-02-15T13:07:01.000Z",
-          "wordCount": 547,
+          "wordCount": 551,
           "title": "XIRR 计算年化收益率为负，但总收益金额为正，该如何理解？",
           "imageUrl": null
         },
@@ -561,7 +568,7 @@
           "description": "revival83: 之前看的医疗类和破案类就很有意思，能坚持看下去，求推荐能更新日剧比较新的渠道",
           "link": "https://www.v2ex.com/t/1111687",
           "publishedOn": "2025-02-15T12:56:33.000Z",
-          "wordCount": 515,
+          "wordCount": 541,
           "title": "请教下各位看日剧有哪些渠道？",
           "imageUrl": null
         },
@@ -591,7 +598,7 @@
           "description": "yanni199899: \n我先来吧:  \n雅尼的 Nightingale 和 with an orchid  \nThe truth that you leave\nAnnie's Wonderland\n风居住的街道\nWindy hill",
           "link": "https://www.v2ex.com/t/1111684",
           "publishedOn": "2025-02-15T12:10:04.000Z",
-          "wordCount": 1065,
+          "wordCount": 1118,
           "title": "你们心中可以封神的音乐有哪些?",
           "imageUrl": null
         },
@@ -621,7 +628,7 @@
           "description": "NianBroken: \n现在的中文 AppleIntelligence 还没上线，但是经常有照片消除的需求，而醒图、美图秀秀等软件又都需要会员。\n所以想问一下大家有没有推荐的照片消除工具呢？我可以接受买断制付费。",
           "link": "https://www.v2ex.com/t/1111681",
           "publishedOn": "2025-02-15T11:31:07.000Z",
-          "wordCount": 397,
+          "wordCount": 412,
           "title": "求推荐 iOS 中的照片消除软件",
           "imageUrl": null
         },
@@ -631,7 +638,7 @@
           "description": "blushyes: \n之前一直在 mac 端使用 Raycast 这款启动器，觉得挺好用也挺好看的，特别是里面的快捷链接功能，非常的好用。\n后面每次用自己的 Windows 的时候，总是感觉少了点什么，于是开始在网上搜寻 Windows 端的启动器软件方案。\n大概都看了个遍，被 Raycast 的 UI 惯坏的我基本都觉得 UI 太丑了，utools 算是其中看得过去的一款，不过采用 Electron 开发的，感觉这种轻量化的软件用 Electron 太重了，而且界面也只是看得过去，并不是非常好看。\n刚好刷视频的时候刷到一个叫 Tauri 的框架，说是可以不带 Chrome 内核，并且基于 Rust 开发（当时正好想学 Rust ），于是我就干脆自己用 Tauri 开发了一款 UI 酷似 Raycast 的启动器软件，取名也长得很像 Raycast：Sofast 。\n同时，我发现这类启动器软件的名字一般都是英文名，即使是国内开发者开发的，大多也只有英文名，我还是想给它起个中文名的，于是简单把 Sofast 直译为 “如此快”，同时为了更好听，省去了 ”此“ 字，虽然从名字上来讲好像跟原意相反了，不过想到能和之前的热梗 ”他来了吗，如来“ 联动，于是就叫他 ”如快“ 了。\n\n就不多介绍了，感兴趣可以去这篇帖子看看\n目前开发了接近五个月左右，各位有兴趣可以试试，欢迎反馈交流。\n相关链接：\n官网：如快启动器\n开发者文档：如快插件开发者文档\n反馈群：QQ 群",
           "link": "https://www.v2ex.com/t/1111680",
           "publishedOn": "2025-02-15T11:14:47.000Z",
-          "wordCount": 605,
+          "wordCount": 614,
           "title": "用 Tauri 开发了一个跟 Raycast 长得一样的跨平台启动器",
           "imageUrl": null
         },
@@ -661,7 +668,7 @@
           "description": "ljlljl0: # 背景\n1 、相亲认识的女生在上海 4 年多，过年回老家找工作了，家里不让继续在上海呆着了，家里打人安排个事业单位。\n2 、家里亲戚从北京回 4 线城市老家呆着，北京的工作由于年龄和工作内容越干越累，工资也是拖欠几个月，还不知道下一步做什么。\n# 我\n1 、在上海算是快 5 年了，这薪资留上海渺茫，回老家也是没 IT 的工作，回去那里薪资基本月入 3-6K 的样子,没房子没对象，一人吃饱全家不饿。\n2 、一年一年的干，看目前就业形式也不太好，公司基本就是 1 人干出多人的活，其他公司看起来也是加班挺多，好像也只能这么积攒的钱，哪天混不下去就得回去了。\n3 、这些年好像除了上班，旅游，谈的对象也没了，也没什么朋友，对未来有些迷茫。\n4 、想想核心还是钱少闹得，家里也没啥关系，全靠自己感觉得混到 35 才能在老家买的上房子压力小点，以后的工作干什么也不知道，老家那地方全靠关系办事，不知道是不是去学个厨师之类副业技能的，有个手艺哪天回老家还能混饭吃。\n5 、好像大家都是过客，生不带来死不带去，萍水相逢而已。",
           "link": "https://www.v2ex.com/t/1111676",
           "publishedOn": "2025-02-15T10:16:14.000Z",
-          "wordCount": 620,
+          "wordCount": 625,
           "title": "一线城市大部分打工人最终的归属就是回老家吗",
           "imageUrl": null
         },
@@ -671,7 +678,7 @@
           "description": "NianBroken: \n现在中文的 AppleIntelligence 还没上线，但是经常有照片消除的需求，而醒图、美图秀秀等软件又都需要会员。\n所以想问一下大家有没有推荐的照片消除工具呢？我可以接受买断制付费。",
           "link": "https://www.v2ex.com/t/1111674",
           "publishedOn": "2025-02-15T09:47:19.000Z",
-          "wordCount": 403,
+          "wordCount": 414,
           "title": "求推荐 iOS 中的照片消除 App",
           "imageUrl": null
         },
@@ -683,66 +690,6 @@
           "publishedOn": "2025-02-15T09:37:29.000Z",
           "wordCount": 387,
           "title": "急，在线等，超过 10 天， win11 怎么退回 win10？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111672",
-          "author": "missuo",
-          "description": "missuo: \n随便整了一个自用，如果有玩 Twitter 的朋友可以下载一个玩玩。\n支持 iCloud 同步\n支持追踪多用户\n\nKKLEY9HXTJ93\n9MJ6PFKJJMAT\nN3YE3FE7JEMT\nJLE4K6YA3EJH\n4NRAWNME7FKX\nWEM4EX33E94H\n6E99THHLLX9X\nF3P3YLH3HRNE\n3K9HXP3TKEJT\n7MJPKW7APHJ7\nAFETAR6JFTHL\nXJP4YX7RJP6H\n4PN6XLPK7E6X\nKJ496H4EHX66\nHW9HLA9RY9RM\nXLPE3Y67M7AR\n3X4N7REMNPJT\nETLMM4TAN446\nJ4J7JTL7WFMX\nWLYALT36NFJH\n\n没兑换到没需求不用买。",
-          "link": "https://www.v2ex.com/t/1111672",
-          "publishedOn": "2025-02-15T09:23:51.000Z",
-          "wordCount": 441,
-          "title": "[送码] Twitter 粉丝数量小组件 App",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111671",
-          "author": "cjq8z",
-          "description": "cjq8z: \n看了一些帖子，有的人可能没有开过车，买车的第一需求居然是智能驾驶；另外一些帖子问的就是问界、小米这些新势力造车。看了这些帖子，我好像明白了，为啥车企要大力宣传，因为可以让买车的潜在群体会第一个想到他们。从这点来说，车企每年在公关里面的经费还是挺有用的。\n买车一定要试驾，这点非常重要！！！另外就是了解车还是要去专业的车辆网站，比如懂车帝这些平台。\n第一点：作为买第一辆车来说，不要考虑这些新势力造车，不管是华为还是小米，这些新势力并没有造车的经验，他们造出来的车可靠性、安全性如何并没有经过市场的检验，普通人不应该花真金白银成为他们的试验品。2022 年的赛力斯 sf5 就是一个新势力的例子，卖得好就是华为，卖不好就不是华为了。另外已经有一些新势力造车破产了。\n第二点：买车看中智能驾驶。智能驾驶这个功能，我敢说，你买了车以后，使用到它的机会几乎是很少的。可能车道保持、盲区检测、360 全景会使用，其它的 L2 功能估计不会，大部分人有这功能也不会在城市里面使用，很多时候，开车还是自己控制油门和刹车。智能驾驶并没有你想象中那么好用，别的不说，就跟车这个就不行。\n真买车你该考虑的是下面几个方面：\n第一个：就是用车环境，是否有油车指标、你平时开车主要是用上班还是周六日去外面玩，平时堵车不堵车，过年是否需要开五六百公里甚至上千公里回老家；这第一点就决定了你是买纯油还是混动、纯电车型了。\n第二点：就是车型，现在市场上车型有轿车、SUV 、MVP 等，大部分人买车一般就是两种车型，轿车和 SUV\n第三点：车辆内饰，什么样内饰，座椅感觉怎么，这些是车主天天要使用和看到的。\n第四点：外观，什么样外观符合自己心意。不过个人来说，时间久了，外观不会太看中。\n第五点就是用车体验，是否有异响什么，这点也很重要，这个决定是以后用车感受了。\n最后：买车一定要试驾，这点非常重要；去试驾把钱包收好，不要随随便便就交押金。",
-          "link": "https://www.v2ex.com/t/1111671",
-          "publishedOn": "2025-02-15T09:21:11.000Z",
-          "wordCount": 470,
-          "title": "买车的误区：以智能驾驶为第一买车需求",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111670",
-          "author": "xiaoqi6pi112",
-          "description": "xiaoqi6pi112:",
-          "link": "https://www.v2ex.com/t/1111670",
-          "publishedOn": "2025-02-15T09:19:10.000Z",
-          "wordCount": 391,
-          "title": "今天突然发现 chatgpt 的对话无法编辑了，这是为什么",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111669",
-          "author": "revival83",
-          "description": "revival83:",
-          "link": "https://www.v2ex.com/t/1111669",
-          "publishedOn": "2025-02-15T09:17:37.000Z",
-          "wordCount": 422,
-          "title": "iPhone 能实现快速重启手机的快捷指令么？",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111668",
-          "author": "Getting",
-          "description": "Getting: 准备 all in one\nPVE （ openwrt+HA+飞牛 os+win7 或者 win10 ）\n用哪个好呀？ n100 大家都说功耗和发热量比 j4125 大，要用风扇才能压住，j4125 被动散热就可以了\n我这样的使用哪个合适呀？ j4125 会不会带不动\n救助",
-          "link": "https://www.v2ex.com/t/1111668",
-          "publishedOn": "2025-02-15T09:07:11.000Z",
-          "wordCount": 599,
-          "title": "2025 年 PVE 软路由选 n100 还是 j4125 纠结中！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111667",
-          "author": "seafog",
-          "description": "seafog: \n跟自己的小组长聊过没有活了，小组长说自己找找项目的优化点...\n好奇有人遇到过这样的情况吗？最初的几天还是能编编，后来被站会的大组长质问了内容以后，就不敢编了。\n后来还尝试过故意迟到，但不能每天都迟到。\n我想问下这样的情况到底该咋办？要直接找大组长说吗？",
-          "link": "https://www.v2ex.com/t/1111667",
-          "publishedOn": "2025-02-15T08:59:34.000Z",
-          "wordCount": 503,
-          "title": "如果连续 4 周都没有工作内容，如何应对每天的站会？",
           "imageUrl": null
         }
       ]

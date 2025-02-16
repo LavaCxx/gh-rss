@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-16T00:57:27.925Z</id>
+    <id>urn:2025-02-16T02:19:12.245Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-16T00:57:27.925Z</updated>
+    <updated>2025-02-16T02:19:12.245Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[求助：如何将 Gemini API 转换成 open AI 兼容模式？]]></title>
+        <id>https://www.v2ex.com/t/1111722</id>
+        <link href="https://www.v2ex.com/t/1111722"/>
+        <updated>2025-02-16T00:38:35.000Z</updated>
+        <summary type="html"><![CDATA[mfreewindzfjkg: 我觉得 gemini 的翻译很地道，尝试把 gemini API 填写进欧陆词典 Windows 版客户端的翻译引擎，实现划词翻译，但尝试了很多次都失败了。经过查询，看到欧陆词典有提示：“自定义大模型引擎，仅支持与 OpenAI 兼容的 API 接口”。我看到 GitHub 上也有类似于 oneAPI 等转换工具，但我没有任何编程基础，不会用。
+想请教下各位大佬，有没有精通大模型 API 或者会编程的，能否给予一些指导？可有偿付费。谢谢！]]></summary>
+        <author>
+            <name>mfreewindzfjkg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人到中年，性能力开始不行（3）-之中年全面危机]]></title>
+        <id>https://www.v2ex.com/t/1111721</id>
+        <link href="https://www.v2ex.com/t/1111721"/>
+        <updated>2025-02-16T00:25:37.000Z</updated>
+        <summary type="html"><![CDATA[youshangdepangzi: 前情提示：一 https://www.v2ex.com/t/1105576?p=1#reply130
+        二  https://www.v2ex.com/t/1110836?p=1#reply88
+有两个娃，母亲生病，媳妇工作很辛苦，我的工作很轻松，钱多事少福利多稳定。但由于个人性格的问题，有 ADHD ，一直无法专心持续的干事情，所以都是混，技术能力很差，好在不笨，反应灵活，能补救的好，但做人不行，爱嘚瑟，和领导同事处的一般，但做过不少好的项目做的也不错，汇报文字能力和演讲能力不错，出彩，所以是那种让干着给加薪但又不是领导重点培养的人。
+由于自己有 ADHD ，又性欲特别多，就是脑子的欲望关于性和其他欲望都特别多，很难停止下来，工作薪水高，可家庭开销很大，自己欲望多又造成对薪水的不满，有多动症又专心不了干成牛逼的事，不能多赚钱。活的挺烦恼和痛苦的，实在是不好搞。
+不说了，大早上的，撸一发，洗个澡，试试能不能看几页书]]></summary>
+        <author>
+            <name>youshangdepangzi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[想入手一个 Pixel 备用机，目前来说有什么好的选择]]></title>
+        <id>https://www.v2ex.com/t/1111720</id>
+        <link href="https://www.v2ex.com/t/1111720"/>
+        <updated>2025-02-16T00:24:49.000Z</updated>
+        <summary type="html"><![CDATA[Siaospeed: 
+楼主之前主用 Pixel 8a ，惨遭硬件暴毙忍痛放弃。现在想入一个 Pixel 做备用机，问一下各位有什么好的选择。
+预算&需求：预算大概 800 ￥左右；主要用途是境内外应用隔离&刷机玩，不玩游戏，不太在乎性能（但是相对来说也不要太卡），满足日常网页浏览&软件使用即可
+想问一下各位有没有哪款机型能够基本满足上面的要求，如果是二手机的话该如何筛选不良商家避免踩坑（毕竟水很深...）]]></summary>
+        <author>
+            <name>Siaospeed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google pixel 手机质量真是堪忧]]></title>
+        <id>https://www.v2ex.com/t/1111718</id>
+        <link href="https://www.v2ex.com/t/1111718"/>
+        <updated>2025-02-15T23:24:54.000Z</updated>
+        <summary type="html"><![CDATA[wuruxu: 
+这三年，买了三个手机，一个 Pixel 6 Pro, 两个 Pixel 7a
+现状：
+Pixel 6 Pro 一直装在硅胶套中使用，在没有磕碰的情况下，左下角竟然裂开
+一个 Pixel 7a 放在凳子上，等我想去用的时候，发现无法点亮屏幕，adb devices 看到设备还在正常运行]]></summary>
+        <author>
+            <name>wuruxu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[究竟什么样的大模型服务值得付费订阅。购买和搭建？]]></title>
+        <id>https://www.v2ex.com/t/1111717</id>
+        <link href="https://www.v2ex.com/t/1111717"/>
+        <updated>2025-02-15T23:05:15.000Z</updated>
+        <summary type="html"><![CDATA[yshtcn: 我订阅了 chatgpt 的 plus ，也曾经订阅过 perplexity 和 notion AI 。现在还有 cursor 和 windsurf 放在面前。然后还有 RooCline 需要 API 付费。如果本地搭建全量模型的服务器，费用更是不菲。
+当然，他们的确带来极大的便利，但是直接创造的收入仍然有限。所以问题在于：
+1.哪些 AI 服务能更“值得”付费？
+2.AI 时代是否宁可高价一点月付也不要年付。
+3.自己投入本地设备是否比订阅更值得。]]></summary>
+        <author>
+            <name>yshtcn</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[有人在生产环境用 Sanic 吗？有什么需要注意的坑吗？看起来性能很强还轻量。我记得以前这个框架有乱关闭长连接的 Bug，花了一年多才修复]]></title>
         <id>https://www.v2ex.com/t/1111716</id>
@@ -606,111 +672,6 @@ https://rustpoint.com/blog/cube
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[送码] Twitter 粉丝数量小组件 App]]></title>
-        <id>https://www.v2ex.com/t/1111672</id>
-        <link href="https://www.v2ex.com/t/1111672"/>
-        <updated>2025-02-15T09:23:51.000Z</updated>
-        <summary type="html"><![CDATA[missuo: 
-随便整了一个自用，如果有玩 Twitter 的朋友可以下载一个玩玩。
-支持 iCloud 同步
-支持追踪多用户
-
-KKLEY9HXTJ93
-9MJ6PFKJJMAT
-N3YE3FE7JEMT
-JLE4K6YA3EJH
-4NRAWNME7FKX
-WEM4EX33E94H
-6E99THHLLX9X
-F3P3YLH3HRNE
-3K9HXP3TKEJT
-7MJPKW7APHJ7
-AFETAR6JFTHL
-XJP4YX7RJP6H
-4PN6XLPK7E6X
-KJ496H4EHX66
-HW9HLA9RY9RM
-XLPE3Y67M7AR
-3X4N7REMNPJT
-ETLMM4TAN446
-J4J7JTL7WFMX
-WLYALT36NFJH
-
-没兑换到没需求不用买。]]></summary>
-        <author>
-            <name>missuo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[买车的误区：以智能驾驶为第一买车需求]]></title>
-        <id>https://www.v2ex.com/t/1111671</id>
-        <link href="https://www.v2ex.com/t/1111671"/>
-        <updated>2025-02-15T09:21:11.000Z</updated>
-        <summary type="html"><![CDATA[cjq8z: 
-看了一些帖子，有的人可能没有开过车，买车的第一需求居然是智能驾驶；另外一些帖子问的就是问界、小米这些新势力造车。看了这些帖子，我好像明白了，为啥车企要大力宣传，因为可以让买车的潜在群体会第一个想到他们。从这点来说，车企每年在公关里面的经费还是挺有用的。
-买车一定要试驾，这点非常重要！！！另外就是了解车还是要去专业的车辆网站，比如懂车帝这些平台。
-第一点：作为买第一辆车来说，不要考虑这些新势力造车，不管是华为还是小米，这些新势力并没有造车的经验，他们造出来的车可靠性、安全性如何并没有经过市场的检验，普通人不应该花真金白银成为他们的试验品。2022 年的赛力斯 sf5 就是一个新势力的例子，卖得好就是华为，卖不好就不是华为了。另外已经有一些新势力造车破产了。
-第二点：买车看中智能驾驶。智能驾驶这个功能，我敢说，你买了车以后，使用到它的机会几乎是很少的。可能车道保持、盲区检测、360 全景会使用，其它的 L2 功能估计不会，大部分人有这功能也不会在城市里面使用，很多时候，开车还是自己控制油门和刹车。智能驾驶并没有你想象中那么好用，别的不说，就跟车这个就不行。
-真买车你该考虑的是下面几个方面：
-第一个：就是用车环境，是否有油车指标、你平时开车主要是用上班还是周六日去外面玩，平时堵车不堵车，过年是否需要开五六百公里甚至上千公里回老家；这第一点就决定了你是买纯油还是混动、纯电车型了。
-第二点：就是车型，现在市场上车型有轿车、SUV 、MVP 等，大部分人买车一般就是两种车型，轿车和 SUV
-第三点：车辆内饰，什么样内饰，座椅感觉怎么，这些是车主天天要使用和看到的。
-第四点：外观，什么样外观符合自己心意。不过个人来说，时间久了，外观不会太看中。
-第五点就是用车体验，是否有异响什么，这点也很重要，这个决定是以后用车感受了。
-最后：买车一定要试驾，这点非常重要；去试驾把钱包收好，不要随随便便就交押金。]]></summary>
-        <author>
-            <name>cjq8z</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今天突然发现 chatgpt 的对话无法编辑了，这是为什么]]></title>
-        <id>https://www.v2ex.com/t/1111670</id>
-        <link href="https://www.v2ex.com/t/1111670"/>
-        <updated>2025-02-15T09:19:10.000Z</updated>
-        <summary type="html"><![CDATA[xiaoqi6pi112:]]></summary>
-        <author>
-            <name>xiaoqi6pi112</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone 能实现快速重启手机的快捷指令么？]]></title>
-        <id>https://www.v2ex.com/t/1111669</id>
-        <link href="https://www.v2ex.com/t/1111669"/>
-        <updated>2025-02-15T09:17:37.000Z</updated>
-        <summary type="html"><![CDATA[revival83:]]></summary>
-        <author>
-            <name>revival83</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025 年 PVE 软路由选 n100 还是 j4125 纠结中！]]></title>
-        <id>https://www.v2ex.com/t/1111668</id>
-        <link href="https://www.v2ex.com/t/1111668"/>
-        <updated>2025-02-15T09:07:11.000Z</updated>
-        <summary type="html"><![CDATA[Getting: 准备 all in one
-PVE （ openwrt+HA+飞牛 os+win7 或者 win10 ）
-用哪个好呀？ n100 大家都说功耗和发热量比 j4125 大，要用风扇才能压住，j4125 被动散热就可以了
-我这样的使用哪个合适呀？ j4125 会不会带不动
-救助]]></summary>
-        <author>
-            <name>Getting</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如果连续 4 周都没有工作内容，如何应对每天的站会？]]></title>
-        <id>https://www.v2ex.com/t/1111667</id>
-        <link href="https://www.v2ex.com/t/1111667"/>
-        <updated>2025-02-15T08:59:34.000Z</updated>
-        <summary type="html"><![CDATA[seafog: 
-跟自己的小组长聊过没有活了，小组长说自己找找项目的优化点...
-好奇有人遇到过这样的情况吗？最初的几天还是能编编，后来被站会的大组长质问了内容以后，就不敢编了。
-后来还尝试过故意迟到，但不能每天都迟到。
-我想问下这样的情况到底该咋办？要直接找大组长说吗？]]></summary>
-        <author>
-            <name>seafog</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Handwriting an SVG Heart, With Our Hearts]]></title>
         <id>https://css-tricks.com/?p=384495</id>
         <link href="https://css-tricks.com/handwriting-an-svg-heart-with-our-hearts/"/>
@@ -796,42 +757,6 @@ Organizing Design System Component Patterns With CSS Cascade Layers originally p
 Make Any File a Template Using This Hidden macOS Tool originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在 Expo 中使用 Native 组件]]></title>
-        <id>https://innei.in/posts/tech/use-native-components-in-expo</id>
-        <link href="https://innei.in/posts/tech/use-native-components-in-expo"/>
-        <updated>2025-02-09T15:59:33.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo
-
-目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。
-这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。
-准备
-开始之前，确保你已经建立了一个 Expo 的项目。
-然后，通过以下命令创建一个 Expo Module。
-npx create-expo-module@latest --local
-根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。
-.
-├── android
-│   ├── build.gradle
-│   └── src
-│       └── main
-│           ├── AndroidManifest.xml
-│           └── java
-│               └── expo
-│                   └── modules
-│                       └── testmodule
-│                           ├── TestModule.kt
-│                           └── TestModuleView.kt
-├── expo-module.config.json
-├── index.ts
-├── ios
-│   ├── TestModule.podspec
-│   ├── TestModule.swift
-│   └── TestMod…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
@@ -959,42 +884,6 @@ Compiling CSS With Vite and Lightning CSS originally published on CSS-Tricks, wh
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[新年的路]]></title>
-        <id>https://innei.in/notes/185</id>
-        <link href="https://innei.in/notes/185"/>
-        <updated>2025-02-02T16:28:11.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185
-
-许久没有写代码了，原因是最近自驾去了挺多地方。
-年前，去了海宁神仙湖。第一次上高速。
-:::gallery
-https://object.innei.in/bed/2025/0202_1738511753954.jpeg
-https://object.innei.in/bed/2025/0202_1738511757142.jpeg
-:::
-冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。
-然后去了南北湖。比较一般。没咋拍。
-除夕前一晚，去了巧克力小镇。也比较一般。
-除夕那天，城里一片宁静，但是在三环上，是一个分水岭。
-
-同时，去了附近的景区，也是有很多老板按箱放烟花的。
-初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置
-
-
-后面去了盐官。但是没看到潮水，刚好错过了。
-
-去了大风车。
-
-过年期间，不管是哪个有点名气的景点人都挺多的。
-上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。
-提车两个月，已经跑了 2300km+。
-好久没有写代码了，还是感到非常的焦虑。
-
-看完了？说点什么呢]]></summary>
-        <author>
-            <name>Innei</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chrome 133 Goodies]]></title>
         <id>https://css-tricks.com/?p=383910</id>
         <link href="https://css-tricks.com/chrome-133-goodies/"/>
@@ -1066,33 +955,6 @@ https://www.dmit.io/aff.php?aff=3439&pid=231
 Revisiting CSS Multi-Column Layout originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Andy Clarke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Native 实践：Colors]]></title>
-        <id>https://innei.in/posts/tech/react-native-uikit-colors</id>
-        <link href="https://innei.in/posts/tech/react-native-uikit-colors"/>
-        <updated>2025-01-26T13:57:34.000Z</updated>
-        <summary type="html"><![CDATA[该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors
-
-开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。
-这篇文章首先来讲讲 Follow Mobile 的颜色体系。
-开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。
-准备条件
-由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。
-NativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。
-我们安装 NativewindCSS。
-pnpm install nativewind tailwindcss
-配置好 Babel 和 Metro。
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true)
-  return {
-    presets: [
-      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],
-      'nativewind/b…]]></summary>
-        <author>
-            <name>Innei</name>
         </author>
     </entry>
     <entry>
