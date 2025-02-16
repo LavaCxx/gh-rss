@@ -174,6 +174,12 @@
       ]
     },
     {
+      "title": "少数派",
+      "feedUrl": "https://rsshub.app/sspai/index",
+      "siteUrl": "https://sspai.com",
+      "articles": []
+    },
+    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -197,6 +203,43 @@
           "wordCount": 1044,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
+        }
+      ]
+    },
+    {
+      "title": "静かな森",
+      "feedUrl": "https://innei.in/feed",
+      "siteUrl": "https://innei.in",
+      "articles": [
+        {
+          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
+          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
+          "publishedOn": "2025-02-09T15:59:33.000Z",
+          "wordCount": 1793,
+          "title": "在 Expo 中使用 Native 组件",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/notes/185",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
+          "link": "https://innei.in/notes/185",
+          "publishedOn": "2025-02-02T16:28:11.000Z",
+          "wordCount": 1806,
+          "title": "新年的路",
+          "imageUrl": "https://innei.in/home-og"
+        },
+        {
+          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "author": "Innei",
+          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
+          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
+          "publishedOn": "2025-01-26T13:57:34.000Z",
+          "wordCount": 1793,
+          "title": "React Native 实践：Colors",
+          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -378,7 +421,7 @@
           "description": "ysoseriousC: \n我的疑问：\n大家有什么好的玩法？\n是否应该卖掉加钱换个 Macbook air ？\n是否应该卖掉加钱换一个万兆网口的版本？\n是否应该直接卖掉？\n我的现状：\n一台 13700k + 4070 + 64G 的静音主机\n一台 2019 的 Intel 末代 16 寸 mbp(平时基本不用，回国时用）\n两台 4k 高刷显示器一横一竖\n我的需求：\n远程办公 + dota2\n为什么会有这个问题：\n几乎 0 成本获得了一台千兆的全新 M4 Mac mini ，犹豫是拆开玩一玩还是直接不开封出掉。",
           "link": "https://www.v2ex.com/t/1111848",
           "publishedOn": "2025-02-16T15:07:47.000Z",
-          "wordCount": 601,
+          "wordCount": 608,
           "title": "mac mini M4 可以做什么？",
           "imageUrl": null
         },
@@ -398,7 +441,7 @@
           "description": "pengyuedenai1234: 现在基本上没有人看电视了，看电视都是小众人的爱好。现在还有一些人会续费有线电视，请问续费有线电视的这波人，你们为什么还会续费有线电视。说说理由。",
           "link": "https://www.v2ex.com/t/1111845",
           "publishedOn": "2025-02-16T15:02:35.000Z",
-          "wordCount": 464,
+          "wordCount": 482,
           "title": "你为什么还续费有线电视",
           "imageUrl": null
         },
