@@ -174,12 +174,6 @@
       ]
     },
     {
-      "title": "少数派",
-      "feedUrl": "https://rsshub.app/sspai/index",
-      "siteUrl": "https://sspai.com",
-      "articles": []
-    },
-    {
       "title": "潮流周刊",
       "feedUrl": "https://weekly.tw93.fun/rss.xml",
       "siteUrl": "https://weekly.tw93.fun/",
@@ -203,43 +197,6 @@
           "wordCount": 1044,
           "title": "第209期 - 又是一年",
           "imageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN01m9YYjS1QBeW5DOm3I_!!6000000001938-2-tps-400-400.png"
-        }
-      ]
-    },
-    {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
         }
       ]
     },
@@ -326,6 +283,56 @@
       "siteUrl": "https://www.v2ex.com/",
       "articles": [
         {
+          "id": "https://www.v2ex.com/t/1111860",
+          "author": "coala",
+          "description": "coala: \n发生时间：2023 年 地点： 江苏地区\n原文记录在博客，这里为了方便大家看直接复制过来。 \n没啥文化，字丑文拙，大家就当看流水帐看吧...  \n恬不知耻的贴上链接：\nhttps://coala.top/archives/%E5%8A%9E%E4%B8%80%E5%9C%BA%E5%A9%9A%E7%A4%BC%E9%9C%80%E8%A6%81%E5%A4%9A%E5%B0%91%E9%92%B1%E6%88%91%E6%9D%A5%E5%BC%80%E6%BA%90%E6%88%91%E7%9A%84%E7%BB%93%E5%A9%9A%E8%AE%A1%E5%88%92\n序\n目前这个时代，婚礼宴作为上一代人精神需求和收回人情成本的必要流程，似乎是年轻人逃不掉的劫。\n虽然家族这个概念在我们这个时代开始消失。\n苦于大多数人只能经历一次，所谓的档次更是更多来自身边的对比，如何准确的找到自己的需求和预算呢？ \n希望我的经历给你一些小小的帮助。\n注： 信息具有时效性，仅供参考。\nWARING：不适合家中有矿人士阅读。\n婚纱照\n严格来说，这不是婚礼宴的一环，但是婚礼一般需要播放照片，也就是在办婚礼晚宴前，需要拍好婚纱照。\n拍摄流程\n一般摄像工作室的工作流程是这样的： \n女方需要化妆，时间 1 ~ 3 小时，男方约 10 分钟，不得不说他们这个行业也是高度分工的，女方的化妆师只给女性化妆。 \n然后需要摄影师，摄影助理，一位负责协调 | 补妆的人士等，3 到 4 人协助完成室内和外景的拍摄。\n一天时间，基本会忙到天黑，后期就是修图，选照片，打相框这些后期流程。\n工作室挑选\n本地找个口碑较好的工作室，最好尝试在各种社区寻找大量真实的评价选择， 一般价格在 8000 - 15000 不等，我觉得选便宜的就好，因为一天时间就那么多，加钱也无法拍到更多的照片，除非对方愿意给你…",
+          "link": "https://www.v2ex.com/t/1111860",
+          "publishedOn": "2025-02-16T17:06:10.000Z",
+          "wordCount": 447,
+          "title": "这么多相亲又是彩礼的贴，我给大家看看办一场婚礼需要多少钱？ 开源一份结婚预算。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111859",
+          "author": "FanyFull",
+          "description": "FanyFull: \n博客地址：https://fanlumaster.github.io\nRSS 地址：https://fanlumaster.github.io/atom.xml",
+          "link": "https://www.v2ex.com/t/1111859",
+          "publishedOn": "2025-02-16T17:04:00.000Z",
+          "wordCount": 352,
+          "title": "申请收录： Flyan Lu's Blog",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111857",
+          "author": "Moldav",
+          "description": "Moldav: \n在线网页时钟\n一个简洁优雅的在线时钟和计时工具集合，无需下载安装，即开即用。\n🕒 时钟系列\n模拟时钟：经典指针式设计，动画流畅，适合教学使用\n数字时钟：LED 风格显示，支持 24 小时制切换\n翻页时钟：复古翻页效果，动画细腻\n世界时钟：交互式地图展示全球时区\n⏱️ 计时器系列\n秒表计时器：精确到秒，支持暂停和重置\n分钟计时器：适合中等时长任务\n小时计时器：适合长时间活动\n多重计时器：同时管理多个任务\n✨ 特色功能\n支持 8 种语言\n优雅的暗色模式\n全屏显示模式\n全响应式设计，完美支持移动端\n网站地址：Web Clock",
+          "link": "https://www.v2ex.com/t/1111857",
+          "publishedOn": "2025-02-16T16:45:32.000Z",
+          "wordCount": 377,
+          "title": "优雅的在线时钟和计时工具",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111855",
+          "author": "canyu9512",
+          "description": "canyu9512: \n最近用 cursor 来辅助开发，今天早上电脑重启了下，结果重启之后一看 cursor 的记录全部没了，晚上我又试了下重启了下，今天的记录又没了，想问下有没有人也遇到这种情况",
+          "link": "https://www.v2ex.com/t/1111855",
+          "publishedOn": "2025-02-16T16:36:09.000Z",
+          "wordCount": 388,
+          "title": "为啥每次重启电脑， cursor 的记录都没了？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.v2ex.com/t/1111854",
+          "author": "wty95",
+          "description": "wty95: 如题，怎么办啊",
+          "link": "https://www.v2ex.com/t/1111854",
+          "publishedOn": "2025-02-16T16:08:41.000Z",
+          "wordCount": 370,
+          "title": "优盘蠕虫病毒感染共享文件夹，母机部分文件夹看不见但 everything 能搜到，其他机器搜不到",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.v2ex.com/t/1111853",
           "author": "NianBroken",
           "description": "NianBroken: \n有没有可以查看阿里巴巴持仓占比最高的基金是哪一个的 App 或者网站？",
@@ -381,7 +388,7 @@
           "description": "darkway: \n听说好像这个月要出了,\n内存最大支持到 32G 了(传言)\n但是是阉割版的 M4,相比 M3 大概提升 10~20%?\n目前在用 2020 年的乞丐 M1,8G 的,想直接换 15 寸最高内存了.",
           "link": "https://www.v2ex.com/t/1111846",
           "publishedOn": "2025-02-16T15:05:28.000Z",
-          "wordCount": 430,
+          "wordCount": 432,
           "title": "有没有期待 M4 的 air 的",
           "imageUrl": null
         },
@@ -531,7 +538,7 @@
           "description": "sugarkeek: 我想分享给我的文科姐姐用，但是教她填 api 和 key 真的教不会，有没有直接配置好 api 和 key ，他登录进去就可以使用的，选选模型就好了",
           "link": "https://www.v2ex.com/t/1111827",
           "publishedOn": "2025-02-16T12:42:19.000Z",
-          "wordCount": 516,
+          "wordCount": 520,
           "title": "有没有无需填写 api 和 key 的 gpt 客户端，后台直接配好来",
           "imageUrl": null
         },
@@ -653,56 +660,6 @@
           "publishedOn": "2025-02-16T11:10:13.000Z",
           "wordCount": 633,
           "title": "关于哔哩哔哩 iOS 端使用疑问",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111810",
-          "author": "SlanWyf",
-          "description": "SlanWyf: \n安装 bandzip 和 nanazip 无论使用官网下载安装还是在微软商店中安装，都是无法将快捷键注册到右键菜单中，不仅一级菜单没有，连点击显示更多选项的二级菜单都没有",
-          "link": "https://www.v2ex.com/t/1111810",
-          "publishedOn": "2025-02-16T11:10:04.000Z",
-          "wordCount": 547,
-          "title": "为什么 windows11 安装解压软件，无法注册到右键菜单中",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111808",
-          "author": "elaijuh",
-          "description": "elaijuh: tldr;\n职位\n  容器工程师\n要求\n  . 3+年 K8s 经验，部署维护过大规模（ 10k+ vcpu)集群\n  . 理解 OCI,CRI,CNI,CSI. 熟悉至少一种 CNI\n  . 理解 informer, reconcile 模式，有 operator 开发经验为佳\n  . go/bash 编程\n  . 容器安全相关(pss,gatekeeper)经验\n  . 有多用户管理经验，资源隔离实践为佳。使用过 kubespray,kubeadm 或自研的集群管理工具\n  . 英语能阅读和至少简单的沟通（英语为工作语言）\n福利\n  . 薪资 dm 详谈\n  . 20 天带薪年假\n  . 远程工作，弹性时间\n联系\n  电报：@elaijuh",
-          "link": "https://www.v2ex.com/t/1111808",
-          "publishedOn": "2025-02-16T10:42:17.000Z",
-          "wordCount": 410,
-          "title": "[广州][外资银行]容器工程师",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111807",
-          "author": "fancyfrees",
-          "description": "fancyfrees: 任职要求：\n教育背景：本科及以上学历，计算机科学、软件工程、人工智能等相关专业。\n技术能力：\n全栈开发能力： 熟悉前端（ React 、Vue ）、后端（ Java 、Go 、Node.js ）技术栈，具有丰富的实际开发经验，能够亲自参与项目的核心模块开发。\n系统架构与设计： 精通微服务架构、分布式系统、高并发处理、大规模数据架构，能够独立设计与优化复杂的系统架构。\nAI 与大数据技术： 对 AIGC （人工智能生成内容）、NLP （自然语言处理）、大语言模型等前沿技术有深入的了解，并能够将这些技术应用于电影内容的智能分析与创作。\n云平台与容器化： 精通云计算平台（如 AWS 、Azure 、Google Cloud ）及容器化技术（ Docker 、Kubernetes ），具有公有云与私有云架构的设计和管理经验。\nDevOps 与 CI/CD： 熟悉 DevOps 文化，能够带领团队建立和完善 CI/CD 流程，推动自动化运维，提高研发效率。\n管理经验：\n至少 5 年以上技术团队管理经验，具备在高压环境下高效管理技术团队的能力，能够在快速迭代的产品开发中保持技术质量。\n具备跨部门协作经验，能够协调与产品、运营、设计等团队的沟通，确保产品和技术的良性互动。\n具有 SaaS 平台、AI 产品或大型互联网项目管理经验，能全程把控技术规划、架构设计、研发执行与上线保障。\n领导力与战略思维：\n拥有强大的领导力，能够在快速发展的公司环境中构建高效的技术团队，激发团队潜力，并能独立做出关键决策。\n良好的跨部门沟通和合作能力，能够理解商业需求并转化为技术解决方案，推动项目高效落地。\n目经验：\n具备主导或参与大型 AI 、SaaS 平台建设与维护的经验，尤其是涉及视频分析、内容创作、数据处理等相关领域。\n对电影行业、影视创作与 AI 应用有深刻理解，能够结合行业需求推动技术创新。\n曾在世界 500 强企业或顶级互联网公司担任技术管理岗位，具备全球化视野。\n拥有成功领导技术团队在大规模项目中取得优秀成绩的经验。\n在 AI 、NLP 、计算机视觉等前沿技术领域有深入的实践经验，具有创新性技术成果。\n拥有开源项目经验或技术布道经历，愿意为团队文化与技术氛围的提升做出贡献。\n微信：18621580540",
-          "link": "https://www.v2ex.com/t/1111807",
-          "publishedOn": "2025-02-16T10:38:24.000Z",
-          "wordCount": 408,
-          "title": "西安国企的职位： CTO（北上广大厂 Leader 考虑去西安可以看看，年薪 50-60W）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111805",
-          "author": "TrollTechX",
-          "description": "TrollTechX: \n大家好，很高兴向大家推荐一款全新的 macOS 应用 - Xactions ，它是一款强大的自动化执行者，专为提升工作效率而设计。借助于 Xactions 的自动化实现，可以帮你从繁琐、重复的劳动中解放出来，让你专注于更重要的事情。\nApp Store 下载链接： https://apps.apple.com/cn/app/xactions/id6470151108\n主要功能：\n设置点击按键：你可以自定义点击按键/组合键，设置重复次数与间隔，轻松实现自动化操作。\n截图识别：支持根据截图识别在屏幕上的坐标执行点击操作，让操作更精准。\n自动输入文本：在指定位置自动输入文本内容，并执行复杂交互，提升工作效率。\n连续执行动作：设置连续执行动作，帮助你实现枯燥复杂的操作流程。\nShell 脚本支持：支持运行 Shell 脚本，灵活应对各种需求。\n应用程序管理：轻松启动或切换应用程序，提升工作流的流畅性。\n实时日志输出：支持实时日志输出，便于追踪和调试。\n多种鼠标动作：支持单击、双击、长按等鼠标动作，满足多样化操作需求。\n更多功能：更多功能正在开发中，即将推出，敬请期待！\n欢迎通过上面的下载链接体验 Xactions app ，并通过邮件和我们反馈任何你遇到的问题： support@trolltechX.com\n下面是 30 个兑换码：\nF6YF334JHFNK\nNFNA7W4HJYWY\nW77LRFNEHWRH\n6NNYFXLH7RAJ\n3EX9L3JF6LKA\nE3EKMWKJMWH7\n3YNMYWRA664K\nPT77NKH97NLX\n9PK7N6FLXN3K\nX3R9HR9KHTRH\n4LL7HFXMHMY7\n6PLTTHLW79XW\nFYMKKXMEPA9A\n9K7FKJXERJJ9\n3MNAKKN49Y3L\nNTXMRKAM73YM\n67FX6E4W4P64\nMJX76AMW3RET\nE9RNYT9LXNWY\nP73TATEWAEKM\n9R737A697YAH\nAK6M7HLWLK6L\nKA67XF9RR6WW\nX9APLMPP9AHY\n393N4WK6P47R\nPRPA9EFYTL63\nJ3HLFNFM3LLY\nFT3FL46HPHJR\n73KPAHJFXNPY\nKJHH6XXRX4AF",
-          "link": "https://www.v2ex.com/t/1111805",
-          "publishedOn": "2025-02-16T10:34:37.000Z",
-          "wordCount": 785,
-          "title": "[福利] 抢先体验 Xactions - macOS 平台强大的自动化执行者！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.v2ex.com/t/1111804",
-          "author": "a62527776a",
-          "description": "a62527776a: 张麻子杀死县长之后，自己当了县长\n刘嘉玲说：我不在乎谁是县长，我是县长夫人就行\n女人爱的不是皇帝本人 爱的是坐在皇帝宝座上的那个人\n为什么奶茶妹妹要嫁给大东子\n因为大东子拥有京东的控制权 他是京东名义上的“皇帝”\n权力是男人的春药 拥有权力 就拥有大棍子\n如果我们是上班的 其实就只剩下小棍子和香蕉了\n我们最大的皇帝 拥有全自动棍子 所以能够控制整片土地\n权力 其实就是猴王的棍子 他能够用棍子驱使底下的猴子 采香蕉\n我们看猴王 都很有钱，是因为猴子们采香蕉之后 都要上贡一份给拿棍子的猴王\n黄毛 他只是外观是黄毛 其实他是小孩子王 小孩子们都听他的 他拥有这个小孩子的领导力 所以漂亮女孩都对黄毛趋之若鹜\n进了社会之后 黄毛不行了 因为小孩们跑了 黄毛没有权力了\n猴王变成了拥有权力的企业主 厂长 有实权的部门领导 或者是体制内的官员\n他们是猴王啊 所以漂亮妹妹对他们比较倾慕\n作为采香蕉的猴子 我们一定要想办法拿到棍子 成为猴王\n这个棍子 比较贵 除了要和其他猴子 厮杀争夺更多的香蕉之外\n最最关键的就是 要拿香蕉 换棍子\n最简单的方法 其实就写在刑法里 咱们要想办法\n往老板口袋里 塞香蕉\n只要塞的进去 老板就会心领神会 认为咱们也想当猴王\n就会给咱们棍子 拥有了这根棍子 就和别的只有香蕉和小棍子的猴子不一样了\n漂亮妹妹 就会另眼相看\n----------------------------------------------------------------------\n关于棍子和香蕉\n我们本身 是拥有整个人自我的棍子\n但是我们需要香蕉 于是出让了大部分棍子 留一个小棍子\n那根小棍子 企业不需要 企业拿走我们的大部分棍子 给我们足够多的香蕉 留一小部分香蕉 上贡给我们上一级的猴王\n我们拥有了香蕉 和 小棍子 其实就能搞定绝大部分女人\n但是 漂亮妹妹 她不缺香蕉和小棍子\n因为经济比较发达 香蕉 她们上班就能搞定 至于小棍子 那太多了 简直是满地爬\n稀缺的是拿着棍子的猴王\n只有拥有棍子 才能驱使别的猴子 给你上贡香蕉\n但是这个 需要比较强大的魄力和野心\n我们看有钱人 其实他们的钱 是拥有了权力之后的附属品\n他们的钱 是别人让他驱使猴子的香蕉\n马云说 自己不在乎钱, 也许他说的是真的\n因为他需要钱 让别人来帮他实现阿里巴巴的野心 (因为能做成 根本就不需要关心钱的事\n孙正义给他香蕉给他棍子 是因为他们有领导力 感染力 野心 目标 才干\n不是说拿着钱 让他去娶漂亮媳妇\n我们成为大猴王 可能比较难 研究如何成为小猴王 看起来 比较实在\n----------------------------------------------------------------------\n我们要竞争资源的所有权 谁拥有了资源的所有权 就拥有这片资源的产出",
-          "link": "https://www.v2ex.com/t/1111804",
-          "publishedOn": "2025-02-16T10:22:37.000Z",
-          "wordCount": 554,
-          "title": "从《让子弹飞》看，权力才是利益的来源",
           "imageUrl": null
         }
       ]
