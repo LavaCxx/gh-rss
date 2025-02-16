@@ -197,43 +197,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -321,7 +284,7 @@
           "description": "shylockhg: \n看以前写的算法解答都得楞半天才看明白。。",
           "link": "https://www.v2ex.com/t/1111770",
           "publishedOn": "2025-02-16T06:39:11.000Z",
-          "wordCount": 424,
+          "wordCount": 445,
           "title": "明显感觉到脑力衰退了",
           "imageUrl": null
         },
@@ -341,7 +304,7 @@
           "description": "Aprdec: 因为学校里电车特别多但是充电桩相对很少,写一个这个 APP 准备分享给同学们使用,API 是抓的官方接口,不知道这是否违法或者是否需要在 APP 里写免责声明?请各位解惑",
           "link": "https://www.v2ex.com/t/1111767",
           "publishedOn": "2025-02-16T06:17:11.000Z",
-          "wordCount": 415,
+          "wordCount": 420,
           "title": "我写了一个查看学校充电桩使用情况的 APP(开源),api 都是抓包来的,需要写免责声明/违法吗?",
           "imageUrl": null
         },
@@ -351,7 +314,7 @@
           "description": "imes: \nJetBrains 宣布取消 Fleet IDE 对 Kotlin Multiplatform 的支持，相应 IDE 的开发重心将转向 IntelliJ 平台（即 IntelliJ IDEA 和 Android Studio ）。KMP 的官方开发体验将回归 IntelliJ 平台，而 Fleet 将逐步退出市场。\n\nFleet 的场景又少了一个，预览了这么久，半死不活又少了一个场景，死期到了。VSCode 是真的一家独大，也是版本之神了。",
           "link": "https://www.v2ex.com/t/1111766",
           "publishedOn": "2025-02-16T06:14:26.000Z",
-          "wordCount": 418,
+          "wordCount": 425,
           "title": "Fleet 的死期到了： Jetbrains 宣布取消多平台支",
           "imageUrl": null
         },
@@ -391,7 +354,7 @@
           "description": "SuperMango: \n\n缘起\n起初接触某某标签笔记，我被其以标签为核心的卡片笔记模式深深吸引。然而，99 元一年的会员费感觉有点贵了，再加上数据存储在它的服务器，总感觉缺乏一份安全感。\n身为 Android 开发者，一个念头在我脑海中闪现：何不亲手写一款属于自己的类似应用？\n开发历程\n说干就干，最初采用 xml 方式进行开发，慢悠悠的写了几个月写完后。但随着谷歌大力推广 Compose ，我决定试试新的技术，发现真香，于是对项目进行 Compose 重构。在 UI 风格上，也经历多次迭代，从最初的随意设计，到遵循谷歌 MD 风格，再到引入 Slat UI ，改了无数次，程序员设计 ui 是真的难🥲。\n写完后，原本计划在酷安或国内应用市场上架，于是觉得申请软著，反反复复打回，半年后终于申请下来了。结果新政出来了，要公安局备案，还要买服务器。\n无奈之下，我选择放弃国内上架计划，转而开通谷歌开发者账号，当时谷歌开发者账号容易弄，交钱绑卡，很快就将应用上架至 Google Play 。\n现在一年左右了，没做宣传，10+左右的下载量😓。\n\n现在换了一个朝九晚九的的工作，再加上要带娃，决定将这个项目开源，有兴趣的朋友可以一起维护与开发。\n理想与现实的碰撞\n从事 Android 开发多年，一直在写公司业务代码，初入行时便怀揣着打造一款个人 App ，上架应用市场，甚至有可能获得一点睡后收入的梦想。\n开发完成后，我才发现，开发只是整个过程中最简单的环节。\n在国内上架应用，软著开公司备案买服务器各种卡流程，很佩服那些上班又自己能这么折腾的开发者。感觉现在国内个人 Android 开发者这条路基本是断了。\nGoogle Play 以前很简单，交钱就行了，现在好像也需要拉人头内测等流程。\nApp 如果不氪金去推广，现在移动互联网已经卷成一片死海，应用市场 App 一大堆，特别是程序员三件套，再去做的话基本凉凉。 \n如果软件收费，售后问题同样棘手。我在酷安付费购买过多款优秀 App ，并加入开发者群，潜水好几年。一旦软件收费，便意味着要对用户负责，面对用户五花八门的需求、各机型适配问题、还有跨平台需求，还有的人无脑喷，管理和维护成本其实非常高。\n折腾了这么久，对于大多数人而言，个人开发者之路并不好走，尤其是身处 996 工作环境时，更是难上加难。过去工作稍有空闲，还能抽时间写代码，现在到家都快 10 点了，看到电脑就想吐（真实的心里反应）。\n浅谈一下 35 岁程序员焦虑和副业问题，程序员软件三件套是行不通的，因为这些产品非常多，并且大多都是没什么亮点的，大部分估计赚的钱还不够服务器和各种流程的成本。我觉得如果是客户端，2025 年 个人开发者这条路都不建议去走了，前段时间看到很多套壳的 AI 客户端，套完壳容易，推广如果不砸钱，基本没人问津。好不容易推广，你干的过免费的 deepseek 和 kimi 之类的吗🤔\n对于 35 岁焦虑， 个人觉得最好的路是找个制造业或者二三线城市的国企银行这种不怎么裁人的企业，躺平式继续 coding 。\n尾声\n开源后，会不定时更新，后续打算试试 KMP 跨平台技术，平常时间大部分带娃，代码写的比较乱，大佬们将就的看。\n欢迎提 PR ，一起维护。\nGithub\nhttps://github.com/ldlywt/IdeaMemo\n如果能给一个 star ，不胜感激🙏",
           "link": "https://www.v2ex.com/t/1111761",
           "publishedOn": "2025-02-16T05:39:30.000Z",
-          "wordCount": 552,
+          "wordCount": 587,
           "title": "我写了个 App，上架 Google Play 一年，下载不到 10 次，于是决定把它开源了",
           "imageUrl": null
         },
@@ -401,7 +364,7 @@
           "description": "ugpu: \n在北上广打工多年 已经回到二线城市几年十年了,前几天和之前北上广的朋友聊天.告诉我外面就业形势很严峻,闲聊了下. 之前同事背景也很好 但是也无奈找不到合适的工作.\n虽然现在是互联网时代 但是北上广的消息存在滞后性 可能是大数据限制 也可能是本人不怎么关注.\n所以本着八卦心理想知道外面到底啥情况.\n同时也发现现在面试的八股文越来越奇怪了，偏向了应用层，不再是计算机的 数据算法 & 操作系统。而是各种中间层 开源方案的实现等等。或者说业务层的实现\n个人感觉在以下时间段感知:\n1. * 2012-2017:\n     个人条件: 只要你稍微有点技术 嘴皮子会说话 学历还行 人长得还行\n     找个工作: 这几年互联网遍地起飞，程序员的感知是满大街都在找人  找一份工作跳槽来说 薪资涨 20-30%是非常容易的.下班时间也不会遍地 996 ，那时候 996 还可以选择不去 还能背后 diss 下 996 的公司 公司的破烂事当八卦取个乐子。赚了大钱的人比比皆是 互联网公司在时代的红利下赚的朋满钵满，股票期权还不是那么嗤之以鼻，还是有人相信。\n     \n  * 2018-2021: 这几年 o2o 比如共享充电宝 共享单车 等等线上线下综合业务展开 烧了不少钱，房地产的高潮来临，开始产生了一些寒气.\n      找个工作： 也能找到，中年人开始自嘲，35 岁黄袍加身显而易见，第一波在封口的互联网人已经买房 买车快乐享受生活。 部分 996 群体的人们开始焦虑。\n      \n      \n* 2022 年下半年我回到了内陆城市.\n\n 由此引发的思考：\n     现在外面找工作什么情况？薪资呢？以前一个 5 年经验的程序 30k 在广深不算困难.\n     投简历后面试的机会多吗？\n     加班时间呢？\n     或者说，市场变化呢？对人员的年龄 薪资 工作时间 等等。\n\n有没有人可以分享下？如果可以，尽量偏向客观。",
           "link": "https://www.v2ex.com/t/1111760",
           "publishedOn": "2025-02-16T05:22:23.000Z",
-          "wordCount": 565,
+          "wordCount": 583,
           "title": "想知道下北上广一线程序的就业面试情况",
           "imageUrl": null
         },
@@ -441,7 +404,7 @@
           "description": "MEIerer: \n假如我明天后天就想去看",
           "link": "https://www.v2ex.com/t/1111755",
           "publishedOn": "2025-02-16T04:50:21.000Z",
-          "wordCount": 393,
+          "wordCount": 400,
           "title": "北大能临时申请参观吗",
           "imageUrl": null
         },
@@ -451,7 +414,7 @@
           "description": "Falcon1: \nLCD 已经彻底没落了吗，主力机还用着 K10 ，副机 A93S 。\n想把副机换新的，找了一圈想找个新点的 CPU 的都没有，只有中低端的型号还在用 LCD ，而且用的 LCD 屏甚至还不如几年前的机型",
           "link": "https://www.v2ex.com/t/1111754",
           "publishedOn": "2025-02-16T04:45:27.000Z",
-          "wordCount": 580,
+          "wordCount": 618,
           "title": "想换手机，但找遍了也没找到新出的 LCD 屏手机",
           "imageUrl": null
         },
@@ -501,7 +464,7 @@
           "description": "heiyuan: \n豆瓣电影信息获取工具\n（搞这个主要是用来快速发帖）\n快速获取豆瓣电影、影人、评分等信息\n影视信息一键复制 markdown 模式或者文本模式\n\n生成信息卡片模式\n\n一键保存图片\n\n豆瓣 api： https://db.ypsou.com/api.html\n自己调用获取豆瓣影视信息（有的接口不能用）\nhttps://dbapi.ypsou.com/api/douban/movie?id=26999852",
           "link": "https://www.v2ex.com/t/1111748",
           "publishedOn": "2025-02-16T03:54:03.000Z",
-          "wordCount": 396,
+          "wordCount": 398,
           "title": "豆瓣电影信息获取工具",
           "imageUrl": null
         },
@@ -531,7 +494,7 @@
           "description": "Microcharon: \n为什么会出现 ping 重复现象，怎么解决。不过在 Windows 虚拟机上进行 ping 操作就没问题，来个大佬帮帮忙看看哪里配置有问题\n在虚拟机 Rocky Linux (192.168.137.158) 上进行 ping\nLast login: Sun Feb 16 09:30:16 2025 from 192.168.137.1\n[microcharon@localhost ~]$ ping bing.com\nPING bing.com (13.107.21.200) 56(84) 比特的数据。\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=1 ttl=110 时间=36.6 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=1 ttl=110 时间=36.6 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=2 ttl=110 时间=36.5 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=2 ttl=110 时间=36.5 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=3 ttl=110 时间=36.4 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=3 ttl=110 时间=36.4 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=4 ttl=110 时间=36.5 毫秒\n64 比特，来自 13.107.21.2…",
           "link": "https://www.v2ex.com/t/1111744",
           "publishedOn": "2025-02-16T03:31:50.000Z",
-          "wordCount": 1335,
+          "wordCount": 1349,
           "title": "Hyper-V Linux 虚拟机 ping DUP 重复现象",
           "imageUrl": null
         },
@@ -541,7 +504,7 @@
           "description": "wty95: \n如题，看了 B 站 五花八门的牌子推荐，整理如下：\n‍换盖银习  金沙回沙回源 金沙摘要 金沙鱼儿  老珍酒   龙滨  北大仓部优 玉蝉 叙府大曲 臻酿  丹泉  乳玻贡   双桥  尖庄红优 台源   全兴  庞泉  红川特曲  金雁  泸州老窖浇头曲  沱牌",
           "link": "https://www.v2ex.com/t/1111742",
           "publishedOn": "2025-02-16T03:09:46.000Z",
-          "wordCount": 581,
+          "wordCount": 605,
           "title": "有没有爱喝白酒的兄弟，我在给我爸选口粮酒",
           "imageUrl": null
         },
@@ -551,7 +514,7 @@
           "description": "Akvicor: \n功能\n发送短信\n接收短信\nWeb 界面, 支持查看发送和接收历史\nAPI 接口, 直接通过调用 API 接口发送短信\n所需材料\nAir780E\n一张手机卡(最好按照自身需求开通短信包,这样发短信便宜)\n树莓派\n搭建需要有一定的计算机基础能够焊接开发板和编译程序\n完整教程: https://blog.akvicor.com/posts/project/sms/\n之前一直是自己在用, 本来想着把重写, 把代码弄得整洁一点再发出来, 但是一直懒得重写, 所以就直接分享出来把",
           "link": "https://www.v2ex.com/t/1111741",
           "publishedOn": "2025-02-16T03:09:05.000Z",
-          "wordCount": 465,
+          "wordCount": 467,
           "title": "分享一个自己开发的自用的短信收发平台",
           "imageUrl": null
         },
@@ -581,7 +544,7 @@
           "description": "arony123: \n因为系统装在外置硬盘上会导致无法在线更新系统\n所以把系统重新装回默认的 256g 硬盘上\n但是装完系统及软件 已经占掉了 150 多 g 了\n这还是在没有恢复微信 QQ 聊天记录的情况下\n看来不换 2T 硬盘是不行了  不知道现在的硬盘是不是比之前的成熟了\n比如 pcb 层数及封胶等\n有买过用过的朋友提供点参考建议",
           "link": "https://www.v2ex.com/t/1111738",
           "publishedOn": "2025-02-16T02:37:10.000Z",
-          "wordCount": 519,
+          "wordCount": 521,
           "title": "现在 mini 4 的硬盘发展得怎么样了",
           "imageUrl": null
         },
@@ -591,7 +554,7 @@
           "description": "jingrui: 主要以下几个要求：\n1 虹桥站 30 公里以内，\n2 单价 3w~4w 普通住宅  ，房龄 20 年内，\n3 三房飞机户型（客厅 2 个卧室都是朝南），\n4 附近 5 公里内有三甲或者二甲医院，\n5 附近 2 公里内小学和中学，\n6 附近 2 公里内有地铁\n在家躺平，无通勤需求",
           "link": "https://www.v2ex.com/t/1111736",
           "publishedOn": "2025-02-16T02:24:05.000Z",
-          "wordCount": 506,
+          "wordCount": 500,
           "title": "上海躺平买房推荐，给到板块或者小区",
           "imageUrl": null
         },
@@ -631,7 +594,7 @@
           "description": "alvinliao09: 小米 13 ，已解 BL ，目前用的 EEA 版 HyoerOS 1 系统，已 root 。\n最近看到 HyperOS 2 的 EEA 版也出了，想请教了解的同学：能否直接用小米刷机工具线刷跨版本升级新版系统，但又不影响现有 app 和用户文件？\n不介意重新 root 。但是主力机，有太多微信聊天记录、照片、下载的文件等需要备份，实在不想那么折腾了。",
           "link": "https://www.v2ex.com/t/1111732",
           "publishedOn": "2025-02-16T02:13:14.000Z",
-          "wordCount": 487,
+          "wordCount": 489,
           "title": "小米手机线刷升级求助",
           "imageUrl": null
         },
@@ -651,7 +614,7 @@
           "description": "james: \nRabrain 是什么？\nRabrain 是您的 AI 第二大脑（Second Brain AI），它将 Pocket 等稍后阅读应用的便利性与 Notion 的多功能性相结合。它超越了传统的书签，创建了一个智能知识管理系统。无论您是保存文章以供稍后阅读、研究主题还是构建知识库，Rabrain 的 AI 功能都将帮助你回忆和利用您保存的知识。\n简而言之，Rabrain 是一个人工智能驱动的\n书签管理器\n稍后阅读应用\n个人知识管理系统（ PKM app ）\n笔记应用\n写作助理\n第二大脑\n\n构建你的人工智能第二大脑\nRabrain 遵循Tiago Forte 所著《构建第二大脑》一书中经过验证的 CODE 方法论（捕获、组织、提炼、表达），帮助您构建 AI 第二大脑：\n高级稍后阅读：使用我们增强的阅读器模式保存任何网页、文章或文档以供稍后阅读，该模式可消除混乱并精美呈现内容\n语义搜索：与仅匹配精确关键字的传统书签管理器不同，Rabrain 了解您搜索背后的含义。即使您记得概念但不记得确切的单词，也可以找到内容\nAI 摘要：获取已保存内容的即时、简洁摘要，帮助您快速掌握重点，而无需阅读整篇文章\n交互式知识：使用检索增强生成 (RAG) 技术与保存的文档进行自然对话。提出问题、探索联系并提取见解\n价格\nRabrain 提供免费和会员计划以满足您的需求。从我们慷慨的免费套餐开始，体验 AI 增强型第二大脑的强大功能，无需信用卡。点击价格页面了解详情。\n现在开始构建你的第二大脑吧！\n注：如果你想订阅会员，可私信我获取优惠券。越早订阅的会员能享受越高的优惠。",
           "link": "https://www.v2ex.com/t/1111730",
           "publishedOn": "2025-02-16T02:04:35.000Z",
-          "wordCount": 498,
+          "wordCount": 507,
           "title": "用你的书签打造个人「第二大脑」",
           "imageUrl": null
         },
@@ -691,7 +654,7 @@
           "description": "Makabaka01: \n夜不能寐，这种事情找哪个部门可以解决，有没有有经验的兄弟 T.T\n地点：海淀区",
           "link": "https://www.v2ex.com/t/1111725",
           "publishedOn": "2025-02-16T01:09:20.000Z",
-          "wordCount": 572,
+          "wordCount": 617,
           "title": "租了个二楼，一楼有个菜场，每天晚上凌晨剁肉到早上 8 点",
           "imageUrl": null
         },
@@ -711,7 +674,7 @@
           "description": "zzz22333: \n总体来说还算及格，BGM 和特效可以给高分，剧情一般，整部电影全靠“莽”来推动剧情和制造矛盾。 有些比较严肃的场景又硬凑“搞笑元素”，不过毕竟是春节档，这点倒能理解。可惜没有另外一部能打的了，吃了时机的福利。\n回想了下这几年看的电影（看得少）：奥本海默，飞驰人生 2 ，铃芽之旅。其中哪吒 2 跟铃芽之旅有点像，都是剧情推动很牵强。\n个人观感排名为：奥本海默 > 哪吒 2 > 铃芽之旅 > 飞驰人生 2 。奥本海默在电影院看得浑身起鸡皮疙瘩，其他就或多或少有点硬伤了。",
           "link": "https://www.v2ex.com/t/1111723",
           "publishedOn": "2025-02-16T00:46:49.000Z",
-          "wordCount": 1025,
+          "wordCount": 1031,
           "title": "昨晚看了哪吒 2，说下感想",
           "imageUrl": null
         },
@@ -721,7 +684,7 @@
           "description": "mfreewindzfjkg: 我觉得 gemini 的翻译很地道，尝试把 gemini API 填写进欧陆词典 Windows 版客户端的翻译引擎，实现划词翻译，但尝试了很多次都失败了。经过查询，看到欧陆词典有提示：“自定义大模型引擎，仅支持与 OpenAI 兼容的 API 接口”。我看到 GitHub 上也有类似于 oneAPI 等转换工具，但我没有任何编程基础，不会用。\n想请教下各位大佬，有没有精通大模型 API 或者会编程的，能否给予一些指导？可有偿付费。谢谢！",
           "link": "https://www.v2ex.com/t/1111722",
           "publishedOn": "2025-02-16T00:38:35.000Z",
-          "wordCount": 581,
+          "wordCount": 582,
           "title": "求助：如何将 Gemini API 转换成 open AI 兼容模式？",
           "imageUrl": null
         }
