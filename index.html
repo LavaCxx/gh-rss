@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-16 datetime="2025-02-16T00:38:35.000Z">2025-02-16</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-16 datetime="2025-02-16T00:38:35.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-16 datetime="2025-02-16T03:31:50.000Z">2025-02-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-16 datetime="2025-02-16T03:31:50.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,484 @@
                   <a class="source-heading__link" href="https://www.v2ex.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111744"
+                        open
+                      >
+                        <summary class="article-expander__title">Hyper-V Linux 虚拟机 ping DUP 重复现象</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111744">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Microcharon: 
+为什么会出现 ping 重复现象，怎么解决。不过在 Windows 虚拟机上进行 ping 操作就没问题，来个大佬帮帮忙看看哪里配置有问题
+在虚拟机 Rocky Linux (192.168.137.158) 上进行 ping
+Last login: Sun Feb 16 09:30:16 2025 from 192.168.137.1
+[microcharon@localhost ~]$ ping bing.com
+PING bing.com (13.107.21.200) 56(84) 比特的数据。
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;1 ttl&#x3D;110 时间&#x3D;36.6 毫秒
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;1 ttl&#x3D;110 时间&#x3D;36.6 毫秒 (DUP!)
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;2 ttl&#x3D;110 时间&#x3D;36.5 毫秒
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;2 ttl&#x3D;110 时间&#x3D;36.5 毫秒 (DUP!)
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;3 ttl&#x3D;110 时间&#x3D;36.4 毫秒
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;3 ttl&#x3D;110 时间&#x3D;36.4 毫秒 (DUP!)
+64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq&#x3D;4 ttl&#x3D;110 时间&#x3D;36.5 毫秒
+64 比特，来自 13.107.21.2…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111742"
+                        open
+                      >
+                        <summary class="article-expander__title">有没有爱喝白酒的兄弟，我在给我爸选口粮酒</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111742">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wty95: 
+如题，看了 B 站 五花八门的牌子推荐，整理如下：
+‍换盖银习  金沙回沙回源 金沙摘要 金沙鱼儿  老珍酒   龙滨  北大仓部优 玉蝉 叙府大曲 臻酿  丹泉  乳玻贡   双桥  尖庄红优 台源   全兴  庞泉  红川特曲  金雁  泸州老窖浇头曲  沱牌</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111741"
+                        open
+                      >
+                        <summary class="article-expander__title">分享一个自己开发的自用的短信收发平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111741">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Akvicor: 
+功能
+发送短信
+接收短信
+Web 界面, 支持查看发送和接收历史
+API 接口, 直接通过调用 API 接口发送短信
+所需材料
+Air780E
+一张手机卡(最好按照自身需求开通短信包,这样发短信便宜)
+树莓派
+搭建需要有一定的计算机基础能够焊接开发板和编译程序
+完整教程: https://blog.akvicor.com/posts/project/sms/
+之前一直是自己在用, 本来想着把重写, 把代码弄得整洁一点再发出来, 但是一直懒得重写, 所以就直接分享出来把</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111740"
+                        open
+                      >
+                        <summary class="article-expander__title">专享相册</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111740">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>frank952730: 
+📸 专享私密相册，给你最安全的照片存储空间！
+每张珍贵的照片，都值得被珍藏。
+现在，告别杂乱无章的相册，告别隐私泄露的烦恼，专享私密相册来帮你一键管理、保护你的回忆。
+🔒 隐私至上，守护你的每一张照片
+再也不用担心别人翻看你的私人相册了！强大的加密技术，保证只有你能查看。
+🎨 个性化设计，属于你的专属空间
+不仅是存储，更是展示。自定义封面，精美模板让你的相册更具个性。
+💾 智能分类，轻松整理你的珍贵回忆
+照片自动分类，让你不再为找照片而烦恼。无论是旅行、聚会、还是日常，每个时刻都能迅速找到。
+📲 随时随地，掌中宝藏
+支持多设备同步，让你的照片时刻随手可得，无论身在何处。
+🔑 只属于你，私密空间从此开启
+不分享给别人？那就用专享私密相册，保护每一个私密瞬间。
+🎯 立即下载
+快来体验最安全、最私密的相册管理，点击链接下载：
+App Store 搜索 专享相册</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111739"
+                        open
+                      >
+                        <summary class="article-expander__title">大佬可知道有管理数据，然后可以导出 excel 的开源项目？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111739">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>classbaby: 
+大佬可知道有管理数据，然后可以导出 excel 的开源项目？
+管理数据一般也是类似 excel 表的管理样式的</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111738"
+                        open
+                      >
+                        <summary class="article-expander__title">现在 mini 4 的硬盘发展得怎么样了</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111738">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>arony123: 
+因为系统装在外置硬盘上会导致无法在线更新系统
+所以把系统重新装回默认的 256g 硬盘上
+但是装完系统及软件 已经占掉了 150 多 g 了
+这还是在没有恢复微信 QQ 聊天记录的情况下
+看来不换 2T 硬盘是不行了  不知道现在的硬盘是不是比之前的成熟了
+比如 pcb 层数及封胶等
+有买过用过的朋友提供点参考建议</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111736"
+                        open
+                      >
+                        <summary class="article-expander__title">上海躺平买房推荐，给到板块或者小区</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111736">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>jingrui: 主要以下几个要求：
+1 虹桥站 30 公里以内，
+2 单价 3w~4w 普通住宅  ，房龄 20 年内，
+3 三房飞机户型（客厅 2 个卧室都是朝南），
+4 附近 5 公里内有三甲或者二甲医院，
+5 附近 2 公里内小学和中学，
+6 附近 2 公里内有地铁
+在家躺平，无通勤需求</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111735"
+                        open
+                      >
+                        <summary class="article-expander__title">为什么安卓 bootloader 锁了，就没人反向工程，但是 ios 手机不开源都有人折腾越狱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111735">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>wxmomomowx: 难度不是一个等级？哪个比较难技术上？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111734"
+                        open
+                      >
+                        <summary class="article-expander__title">最低成本保号，接码神器到手即用， 25 年元旦激活 新西兰 skinny 电话卡¥78 包邮 现货不多</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111734">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xierduo: 现货不议价，只要链接还在就可以直接拍。当天下午四点前的订单，当天发出。
+不挑号，盲发。走闲鱼，非偏远圆通包邮。
+25 年元旦新西兰已激活到手即用，有需要的朋友可以联系我
+V：Ranger7hero
+或者
+Telegram: @haisenbergor
+ [闲鱼]  https://m.tb.cn/h.TJ10hPQ?tk&#x3D;ij6eeSFNfd3 HU293 「我在闲鱼发布了 [ skinny 安迪斯马斯特原厂金属面盖 有线款无线款均适用的金] 」
+点击链接直接打开
+或闲鱼搜用户：请叫偶达文西
+*飞机无法注册请更换节点，或者下载最新版本重新注册。
+* whatsapp 已经开放新西兰号段的注册，请尽快注册 whats 避免 app 再次风控号段。
+26 年元旦前免费接码，到期前充值 5NZD 或者转入 1NZD 即可续期一年至 2027 ，以此类推，
+可以加我 V 已建互转群。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111733"
+                        open
+                      >
+                        <summary class="article-expander__title">Win11 有时断开 RDP 后，再链接 RDP 就蓝屏进不去桌面</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111733">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>PatrickLe: 系统是 Win11 LTSC ，平常都用 mac 走 RDP 控制，有时关闭 RDP 后，再次连还正常， 但有时再连就蓝屏进不去桌面了，只能重启解决。 这个要怎么解决有大佬知道吗
+[img][/img]</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111732"
+                        open
+                      >
+                        <summary class="article-expander__title">小米手机线刷升级求助</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111732">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>alvinliao09: 小米 13 ，已解 BL ，目前用的 EEA 版 HyoerOS 1 系统，已 root 。
+最近看到 HyperOS 2 的 EEA 版也出了，想请教了解的同学：能否直接用小米刷机工具线刷跨版本升级新版系统，但又不影响现有 app 和用户文件？
+不介意重新 root 。但是主力机，有太多微信聊天记录、照片、下载的文件等需要备份，实在不想那么折腾了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111731"
+                        open
+                      >
+                        <summary class="article-expander__title">求推荐给自己带来剧烈改变的小报童专栏</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111731">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Dimen61: 
+最近发现了小报童这个付费阅读平台，看见了平台的自我介绍是希望给创作者一个能专心沉淀内容、不需要追流量又能产生经济回报的地方。
+浏览了一些小报童的导航站，感觉广泛推荐的专栏包括：
+生财有术项目精选
+产品沉思录
+小报童本身不太会给专栏流量，更多的需要作者去运营，感觉走的是粉丝经济的路子，内容质量的权重应该是低于运营的。因为小报童的经济模式有点像传销，读者也可以通过分享专栏获得提成，从而获得病毒式传播。
+我相信广大 v 友都天然反感割韭菜和具备实用主义审美，大家能推荐一些给自己带来剧烈改变的高质量小报童专栏吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111730"
+                        open
+                      >
+                        <summary class="article-expander__title">用你的书签打造个人「第二大脑」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111730">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>james: 
+Rabrain 是什么？
+Rabrain 是您的 AI 第二大脑（Second Brain AI），它将 Pocket 等稍后阅读应用的便利性与 Notion 的多功能性相结合。它超越了传统的书签，创建了一个智能知识管理系统。无论您是保存文章以供稍后阅读、研究主题还是构建知识库，Rabrain 的 AI 功能都将帮助你回忆和利用您保存的知识。
+简而言之，Rabrain 是一个人工智能驱动的
+书签管理器
+稍后阅读应用
+个人知识管理系统（ PKM app ）
+笔记应用
+写作助理
+第二大脑
+
+构建你的人工智能第二大脑
+Rabrain 遵循Tiago Forte 所著《构建第二大脑》一书中经过验证的 CODE 方法论（捕获、组织、提炼、表达），帮助您构建 AI 第二大脑：
+高级稍后阅读：使用我们增强的阅读器模式保存任何网页、文章或文档以供稍后阅读，该模式可消除混乱并精美呈现内容
+语义搜索：与仅匹配精确关键字的传统书签管理器不同，Rabrain 了解您搜索背后的含义。即使您记得概念但不记得确切的单词，也可以找到内容
+AI 摘要：获取已保存内容的即时、简洁摘要，帮助您快速掌握重点，而无需阅读整篇文章
+交互式知识：使用检索增强生成 (RAG) 技术与保存的文档进行自然对话。提出问题、探索联系并提取见解
+价格
+Rabrain 提供免费和会员计划以满足您的需求。从我们慷慨的免费套餐开始，体验 AI 增强型第二大脑的强大功能，无需信用卡。点击价格页面了解详情。
+现在开始构建你的第二大脑吧！
+注：如果你想订阅会员，可私信我获取优惠券。越早订阅的会员能享受越高的优惠。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111729"
+                        open
+                      >
+                        <summary class="article-expander__title">预祝哪吒 2 拿下全球票房第一，做了个网站</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111729">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>aolifu: 哪吒，冲冲冲！！！
+https://nezha2.aolifu.org</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111728"
+                        open
+                      >
+                        <summary class="article-expander__title">群晖 SHR 磁盘异常爆满</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111728">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>xuemian: 
+放了两个 12T 的硬盘组的一比一的SHR,
+但是现在一直显示磁盘已满，请问各位大佬有遇到过吗？
+没有虚拟机，没有跑 Docker,
+但是跑了 Synology Surveillance Station
+Storage  Analysis 结果如下图所示：</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111727"
+                        open
+                      >
+                        <summary class="article-expander__title">谷歌 Pixel4 如何开启电信</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111727">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>cutedogspark: 
+看了网上很多教材，有刷入 voenabler 的还有别的手动刷入的，但是一直无法使用电信，有佬知道怎么做才是正确的吗？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111725"
+                        open
+                      >
+                        <summary class="article-expander__title">租了个二楼，一楼有个菜场，每天晚上凌晨剁肉到早上 8 点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111725">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Makabaka01: 
+夜不能寐，这种事情找哪个部门可以解决，有没有有经验的兄弟 T.T
+地点：海淀区</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111724"
+                        open
+                      >
+                        <summary class="article-expander__title">我用 xxx ai 5 分钟开发项目之图床</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111724">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>q1102389095: 
+超简单也超简陋的图床。
+支持快捷键粘贴上传、接入百度审核、可设置删除密码、所有用户上传的图片均会在页面展示
+github 地址-&gt;https://github.com/Textloding/ImageUploader
+使用地址-&gt;https://img.oneself.icu/
+效果图</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.v2ex.com/t/1111723"
+                        open
+                      >
+                        <summary class="article-expander__title">昨晚看了哪吒 2，说下感想</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111723">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>zzz22333: 
+总体来说还算及格，BGM 和特效可以给高分，剧情一般，整部电影全靠“莽”来推动剧情和制造矛盾。 有些比较严肃的场景又硬凑“搞笑元素”，不过毕竟是春节档，这点倒能理解。可惜没有另外一部能打的了，吃了时机的福利。
+回想了下这几年看的电影（看得少）：奥本海默，飞驰人生 2 ，铃芽之旅。其中哪吒 2 跟铃芽之旅有点像，都是剧情推动很牵强。
+个人观感排名为：奥本海默 &gt; 哪吒 2 &gt; 铃芽之旅 &gt; 飞驰人生 2 。奥本海默在电影院看得浑身起鸡皮疙瘩，其他就或多或少有点硬伤了。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -96,7 +574,7 @@
 楼主之前主用 Pixel 8a ，惨遭硬件暴毙忍痛放弃。现在想入一个 Pixel 做备用机，问一下各位有什么好的选择。
 预算&amp;需求：预算大概 800 ￥左右；主要用途是境内外应用隔离&amp;刷机玩，不玩游戏，不太在乎性能（但是相对来说也不要太卡），满足日常网页浏览&amp;软件使用即可
 想问一下各位有没有哪款机型能够基本满足上面的要求，如果是二手机的话该如何筛选不良商家避免踩坑（毕竟水很深...）</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -400,28 +878,6 @@ nginx 是 web 服务，可以一对多。也应该做为容器吗？
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111707"
-                        open
-                      >
-                        <summary class="article-expander__title">代写专利交底书，顺便出售几篇写好的</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111707">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>mangwen: 
-代写专利交底书，只需提供所需领域，通过代理机构给钱，不通过不要钱。
-如果您自己写也可以免费指导。本人资深程序员，目前转行写专利，自己名下国内专利 100+，国际专利 1 件。
-VX:MTg1MDA5NzQ5NDM&#x3D;</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.v2ex.com/t/1111706"
                         open
                       >
@@ -667,443 +1123,6 @@ ambie am02a：应该是上一款的高配版，价格到了八百。没找到更
 风格层面： 语气前后不一致、不符合目标读者（技术人员和普通读者）的阅读习惯。
 为了解决这些问题，我设计了一个多轮评审润色流程，通过多个 L…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111693"
-                        open
-                      >
-                        <summary class="article-expander__title">随机食物小程序</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111693">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>huskyui: 
-目前是自己的第一个小程序,欢迎各位大佬访问
-小程序名称
-随机选食物吃
-小程序码
-
-玩法
-可以使用系统的默认食物组，来每次随机。也可以自己定义食物组，然后自己个性化随机食物
-前端
-用的 vant 组件，本来想用 taro-ui 的，但是不知道咋回事，环境搭建总是有问题;
-样式是最后用 deepseek 给我优化的，话说，优化样式确实不错，对于后端选手来说，写的比我强多了。给出样式后，自己再微调一点就行，很不错。
-后端
-用的煎鱼的一个 blog 的 golang 的脚手架（ gin+redis+mysql ）
-目前困惑
-小程序如何推广呀</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111691"
-                        open
-                      >
-                        <summary class="article-expander__title">bybitCard 最近挺火的，但请注意</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111691">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>MEIerer: 
-背景：最近几个月 bybit 澳区卡放水，简单 kyc 即可开卡，每笔返利最高可达 15%，币圈人狂喜？
-注意事项：
-听说 bybit 是没计划给国区用户用的，所以如果长期使用该卡在 cn 可能后期会锁卡，或要求提供对应的地址证明（当然也可能啥也没事）
-国区用户无法直接买或换法币，每次消费都会扣除 1.9%损耗，消费卡对应币种的商品为 0.9%（澳区卡为 USD ）
-欧区的卡质量比澳区的好，能开欧区的最好开欧区的，当然也可以全开
-由于开闸放水，开卡人太多，如果掺入点洗钱的，后面可能卡会被部分商家禁用（参考上一代 u 卡，onekey 同时期的卡）
-注意诈骗，最近非常多人发 bybit 的邀请链接，建议新手谨慎入场，交易请走平台，避免大额交易</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111690"
-                        open
-                      >
-                        <summary class="article-expander__title">XIRR 计算年化收益率为负，但总收益金额为正，该如何理解？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111690">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Jianzs: 
-今天在学习如何计算投资的年化收益率，了解到通常使用 XIRR 来计算，但是遇到一个问题，没想明白，V 站卧虎藏龙，来请教大佬了。
-日期
-行为
-金额
-
-
-
-
-2020/1/1
-投入
-100
-
-
-2021/1/1
-赎回
-1000
-
-
-2022/1/1
-投入
-1000
-
-
-2023/1/1
-赎回
-120
-
-
-从最初投入 100 元，到最后到手 120 元，所以总共盈利了 20 元，但是使用 XIRR 来计算年化收益率，结果是 -2.94%，该如何理解这件事？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111688"
-                        open
-                      >
-                        <summary class="article-expander__title">小米公司创立 15 年了</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111688">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>VisualStudioCode: 
-小米公司成立于 2010 年 4 月。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111687"
-                        open
-                      >
-                        <summary class="article-expander__title">请教下各位看日剧有哪些渠道？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111687">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>revival83: 之前看的医疗类和破案类就很有意思，能坚持看下去，求推荐能更新日剧比较新的渠道</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111686"
-                        open
-                      >
-                        <summary class="article-expander__title">Cursor 编辑器，如何删除 chat 和 composer 的记录？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111686">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>fangyex: 
-我在学习使用 cursor 编辑器，chat 和 composer 确实很好用，但是我怎样才能删除问询的记录呢？
-还是 cursor 的产品设计就是这样的用意？</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111685"
-                        open
-                      >
-                        <summary class="article-expander__title">有没有人试过用 AI 来生成角色动画？我发现了一个有趣的工具</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111685">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Qbertolt: 
-最近在做一些数字内容创作时，我发现了一个挺有意思的工具，叫做 Animate Anyone ，它使用 AI 技术把静态人物图像转化成动态的角色动画。原本我以为这类工具效果不怎么样，但试用了一下，感觉还挺惊艳的，尤其是在做虚拟偶像和游戏角色时，能大大节省时间。
-这款工具的核心是基于图像到视频的转换，能够保持人物的外观一致性，同时通过姿势引导器对动画的动作进行精准控制。我特别喜欢它平滑过渡的功能，动作过渡非常自然。感觉它不仅适用于时尚视频、舞蹈动作合成，甚至在电影、游戏开发中都能派上用场。
-如果你也是做创作的，尤其是在做角色动画，强烈推荐试试看。个人觉得这个工具能在一定程度上改变我们制作角色动画的方式，可能会帮你节省不少时间和精力。
-顺便分享一下这个链接： https://animateanyoneai.ai ，有兴趣的可以去了解一下。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111684"
-                        open
-                      >
-                        <summary class="article-expander__title">你们心中可以封神的音乐有哪些?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111684">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>yanni199899: 
-我先来吧:  
-雅尼的 Nightingale 和 with an orchid  
-The truth that you leave
-Annie&#x27;s Wonderland
-风居住的街道
-Windy hill</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111683"
-                        open
-                      >
-                        <summary class="article-expander__title">广州 薪酬结构</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111683">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>LuliYanng: 
-＃ 背景
-楼主在广州，25 应届生，还没毕业，最近接了一个广州的 offer （ ai 应用相关的岗），公司不算小，全国有分公司，估计有几百人，互联网行业。
-薪资构成是：基础薪资 2.3k ＋项目奖金＝ 9k 。
-然后 HR 说公司没有其他的绩效考核，意思好像就是 9k 基本是能拿满的。
-＃ 楼主的问题
-这个薪资结构在广州互联网公司是常见的吗？我知道很多公司都想少交五险一金，这样设置的一大目的也是这个。如果大部分公司都是这样设置薪资结构，那楼主再等其他 offer （可能也是这样的薪资结构）就没啥必要了。
-2.hr 说公司是没有绩效考核的。这里会有坑吗，如果没有具体的绩效制度，那剩下的那些项目奖金是一定得发的，还是公司还能找到其他理由扣呢？
-3.如果是没有按事先约定好的具体评定规则扣我的薪资，这种行为再后续和公司谈或者仲裁中对我有利吗？
-＃最后最后
-楼主目前也是年后投了简历之后面试了一个星期，对这家的印象还行，按他们的说法加班也不严重（起码不像其他一些游戏公司直接挑明就是加班严重，甚至通宵）,就只是这个薪资结构有点膈应人。有别的 offer 楼主肯定选了，目前就是因为其他的 offer 没回可能也要到下周一才有消息，卡在一个尴尬的位置。
-如果后面进去一边实习一边再找 offer ，骑驴找马这样可行吗。
-望 v 站各位经验老道，尤其是广州这边的哥们指点一下。🥰🥰</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111682"
-                        open
-                      >
-                        <summary class="article-expander__title">各位，求推荐好玩的体感游戏 APP</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111682">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>apollo007: 
-晚上想带着孩子一起运动，外面太冷又在下雨，想带着孩子晚上玩一些体感游戏。目前在用《天天跳绳》 APP 里面的体感游戏，但是广告无处不在，多到令人发指的地步了。所以想换个 APP 试试看，所以来问问大家。
-诉求如下：
-1.游戏好玩
-2.广告少
-3.动作识别准确
-有这方面经验的小伙伴，欢迎来分享一下经验！非常感谢！</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111681"
-                        open
-                      >
-                        <summary class="article-expander__title">求推荐 iOS 中的照片消除软件</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NianBroken: 
-现在的中文 AppleIntelligence 还没上线，但是经常有照片消除的需求，而醒图、美图秀秀等软件又都需要会员。
-所以想问一下大家有没有推荐的照片消除工具呢？我可以接受买断制付费。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111680"
-                        open
-                      >
-                        <summary class="article-expander__title">用 Tauri 开发了一个跟 Raycast 长得一样的跨平台启动器</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111680">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>blushyes: 
-之前一直在 mac 端使用 Raycast 这款启动器，觉得挺好用也挺好看的，特别是里面的快捷链接功能，非常的好用。
-后面每次用自己的 Windows 的时候，总是感觉少了点什么，于是开始在网上搜寻 Windows 端的启动器软件方案。
-大概都看了个遍，被 Raycast 的 UI 惯坏的我基本都觉得 UI 太丑了，utools 算是其中看得过去的一款，不过采用 Electron 开发的，感觉这种轻量化的软件用 Electron 太重了，而且界面也只是看得过去，并不是非常好看。
-刚好刷视频的时候刷到一个叫 Tauri 的框架，说是可以不带 Chrome 内核，并且基于 Rust 开发（当时正好想学 Rust ），于是我就干脆自己用 Tauri 开发了一款 UI 酷似 Raycast 的启动器软件，取名也长得很像 Raycast：Sofast 。
-同时，我发现这类启动器软件的名字一般都是英文名，即使是国内开发者开发的，大多也只有英文名，我还是想给它起个中文名的，于是简单把 Sofast 直译为 “如此快”，同时为了更好听，省去了 ”此“ 字，虽然从名字上来讲好像跟原意相反了，不过想到能和之前的热梗 ”他来了吗，如来“ 联动，于是就叫他 ”如快“ 了。
-
-就不多介绍了，感兴趣可以去这篇帖子看看
-目前开发了接近五个月左右，各位有兴趣可以试试，欢迎反馈交流。
-相关链接：
-官网：如快启动器
-开发者文档：如快插件开发者文档
-反馈群：QQ 群</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111678"
-                        open
-                      >
-                        <summary class="article-expander__title">求助一个很诡异的扩展坞问题</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111678">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>zywoo: 
-用的是 orico-tb4 雷电四扩展坞，之所以怀疑是扩展坞的问题是因为我的两个 mac 使用这个扩展坞时都会有这个问题，问题表现如下：
-电脑睡眠后，会无规律地突然开始自动播放音乐，并且将音量开到最大；
-这时候如果解锁进入系统把音量调小，神秘的力量又会把音量拉满。。
-cmd+q 退出 music ，也会重新启动 music 并播放音乐。
-毫无头绪，求有过类似经历的大佬们给个排查思路</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111677"
-                        open
-                      >
-                        <summary class="article-expander__title">小工具，交互式魔方，在线玩魔方</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111677">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>royalknight: 
-分享一个写的网页 online 魔方。可以操作魔方
-https://rustpoint.com/blog/cube
-还有博客新写的一篇交互式魔方复原博客。https://rustpoint.com/blog/read/%2F%E9%AD%94%E6%96%B9%E5%A4%8D%E5%8E%9F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8.md
-主要是想吸引一波关注，交换下友链。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111676"
-                        open
-                      >
-                        <summary class="article-expander__title">一线城市大部分打工人最终的归属就是回老家吗</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111676">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ljlljl0: # 背景
-1 、相亲认识的女生在上海 4 年多，过年回老家找工作了，家里不让继续在上海呆着了，家里打人安排个事业单位。
-2 、家里亲戚从北京回 4 线城市老家呆着，北京的工作由于年龄和工作内容越干越累，工资也是拖欠几个月，还不知道下一步做什么。
-# 我
-1 、在上海算是快 5 年了，这薪资留上海渺茫，回老家也是没 IT 的工作，回去那里薪资基本月入 3-6K 的样子,没房子没对象，一人吃饱全家不饿。
-2 、一年一年的干，看目前就业形式也不太好，公司基本就是 1 人干出多人的活，其他公司看起来也是加班挺多，好像也只能这么积攒的钱，哪天混不下去就得回去了。
-3 、这些年好像除了上班，旅游，谈的对象也没了，也没什么朋友，对未来有些迷茫。
-4 、想想核心还是钱少闹得，家里也没啥关系，全靠自己感觉得混到 35 才能在老家买的上房子压力小点，以后的工作干什么也不知道，老家那地方全靠关系办事，不知道是不是去学个厨师之类副业技能的，有个手艺哪天回老家还能混饭吃。
-5 、好像大家都是过客，生不带来死不带去，萍水相逢而已。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111674"
-                        open
-                      >
-                        <summary class="article-expander__title">求推荐 iOS 中的照片消除 App</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111674">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>NianBroken: 
-现在中文的 AppleIntelligence 还没上线，但是经常有照片消除的需求，而醒图、美图秀秀等软件又都需要会员。
-所以想问一下大家有没有推荐的照片消除工具呢？我可以接受买断制付费。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.v2ex.com/t/1111673"
-                        open
-                      >
-                        <summary class="article-expander__title">急，在线等，超过 10 天， win11 怎么退回 win10？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.v2ex.com/t/1111673">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>wty95: 如题，我妈用我电脑误操作，已经超过十天，求教老哥们</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2406,8 +2425,8 @@ Some Things You Might Not Know About Custom Counter Styles originally published 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13351613230">
-        <time id="build-timestamp" datetime="2025-02-16T04:12:42.002Z">2025-02-16T04:12:42.002Z</time>
+      <a class="footer-link" href="https://github.com/LavaCxx/gh-rss/actions/runs/13351976460">
+        <time id="build-timestamp" datetime="2025-02-16T05:10:33.074Z">2025-02-16T05:10:33.074Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
