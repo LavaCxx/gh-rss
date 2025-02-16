@@ -191,43 +191,6 @@
       ]
     },
     {
-      "title": "静かな森",
-      "feedUrl": "https://innei.in/feed",
-      "siteUrl": "https://innei.in",
-      "articles": [
-        {
-          "id": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/use-native-components-in-expo\n\n目前，较为流行的 React Native 框架是 Expo，Expo 提供了 Expo Modules API 可供我们快速的开发一个 Native 组件或者模块。\n这篇文章将简单介绍如何在 Expo ~52 中在当前项目中初始化并编写一个简单的 Native 组件。\n准备\n开始之前，确保你已经建立了一个 Expo 的项目。\n然后，通过以下命令创建一个 Expo Module。\nnpx create-expo-module@latest --local\n根据引导创建了一个 Module。位于 modules/<name> 下，并存在以下的文件。\n.\n├── android\n│   ├── build.gradle\n│   └── src\n│       └── main\n│           ├── AndroidManifest.xml\n│           └── java\n│               └── expo\n│                   └── modules\n│                       └── testmodule\n│                           ├── TestModule.kt\n│                           └── TestModuleView.kt\n├── expo-module.config.json\n├── index.ts\n├── ios\n│   ├── TestModule.podspec\n│   ├── TestModule.swift\n│   └── TestMod…",
-          "link": "https://innei.in/posts/tech/use-native-components-in-expo",
-          "publishedOn": "2025-02-09T15:59:33.000Z",
-          "wordCount": 1793,
-          "title": "在 Expo 中使用 Native 组件",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/notes/185",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/notes/185\n\n许久没有写代码了，原因是最近自驾去了挺多地方。\n年前，去了海宁神仙湖。第一次上高速。\n:::gallery\nhttps://object.innei.in/bed/2025/0202_1738511753954.jpeg\nhttps://object.innei.in/bed/2025/0202_1738511757142.jpeg\n:::\n冬天去拍不是很出片，只能拍到黄黄的一片，下次夏天去景色应该会很好。\n然后去了南北湖。比较一般。没咋拍。\n除夕前一晚，去了巧克力小镇。也比较一般。\n除夕那天，城里一片宁静，但是在三环上，是一个分水岭。\n\n同时，去了附近的景区，也是有很多老板按箱放烟花的。\n初一，去了山海几千重。看了篝火表演和烟花，可惜没找到打铁花的表演位置\n\n\n后面去了盐官。但是没看到潮水，刚好错过了。\n\n去了大风车。\n\n过年期间，不管是哪个有点名气的景点人都挺多的。\n上面的航拍都是用 DJI mini 4K 拍的，入门级无人机，刚入的。有点后悔买了这个，当前主要是为了练着玩玩，炸了也不难过。但是画质真的挺差的。\n提车两个月，已经跑了 2300km+。\n好久没有写代码了，还是感到非常的焦虑。\n\n看完了？说点什么呢",
-          "link": "https://innei.in/notes/185",
-          "publishedOn": "2025-02-02T16:28:11.000Z",
-          "wordCount": 1806,
-          "title": "新年的路",
-          "imageUrl": "https://innei.in/home-og"
-        },
-        {
-          "id": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "author": "Innei",
-          "description": "该渲染由 Shiro API 生成，可能存在排版问题，最佳体验请前往：https://innei.in/posts/tech/react-native-uikit-colors\n\n开始编写 Follow Mobile 已经过去一个月了，想想也该沉淀点什么东西了。\n这篇文章首先来讲讲 Follow Mobile 的颜色体系。\n开始之前需要知道的是 Follow Mobile 是使用 React Native 开发的并且使用了 Expo 框架。\n准备条件\n由于 React Native 并没有官方支持 web 中 className 的写法，为了适应 web 中方便快捷的 TailwindCSS 原子类名，我们需要借助 NativeWind 工具。这是一个能让 React Native app 中也使用一部分 TailwindCSS 能力的编译器。通过 babel plugin 对 React Native 中的基础组件进行包装，在 runtime 中对 className 进行翻译到 React Native style 对象来实现类似效果。\nNativewindCSS 内部也借助 TailwindCSS 进行翻译，在配置 TailwindCSS 时基本和 Web 中一致。\n我们安装 NativewindCSS。\npnpm install nativewind tailwindcss\n配置好 Babel 和 Metro。\n// babel.config.js\nmodule.exports = function (api) {\n  api.cache(true)\n  return {\n    presets: [\n      ['babel-preset-expo', { jsxImportSource: 'nativewind' }],\n      'nativewind/b…",
-          "link": "https://innei.in/posts/tech/react-native-uikit-colors",
-          "publishedOn": "2025-01-26T13:57:34.000Z",
-          "wordCount": 1793,
-          "title": "React Native 实践：Colors",
-          "imageUrl": "https://innei.in/home-og"
-        }
-      ]
-    },
-    {
       "title": "阮一峰的网络日志",
       "feedUrl": "https://feeds.feedburner.com/ruanyifeng",
       "siteUrl": "http://www.ruanyifeng.com/blog/",
@@ -315,7 +278,7 @@
           "description": "Microcharon: \n为什么会出现 ping 重复现象，怎么解决。不过在 Windows 虚拟机上进行 ping 操作就没问题，来个大佬帮帮忙看看哪里配置有问题\n在虚拟机 Rocky Linux (192.168.137.158) 上进行 ping\nLast login: Sun Feb 16 09:30:16 2025 from 192.168.137.1\n[microcharon@localhost ~]$ ping bing.com\nPING bing.com (13.107.21.200) 56(84) 比特的数据。\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=1 ttl=110 时间=36.6 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=1 ttl=110 时间=36.6 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=2 ttl=110 时间=36.5 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=2 ttl=110 时间=36.5 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=3 ttl=110 时间=36.4 毫秒\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=3 ttl=110 时间=36.4 毫秒 (DUP!)\n64 比特，来自 13.107.21.200 (13.107.21.200): icmp_seq=4 ttl=110 时间=36.5 毫秒\n64 比特，来自 13.107.21.2…",
           "link": "https://www.v2ex.com/t/1111744",
           "publishedOn": "2025-02-16T03:31:50.000Z",
-          "wordCount": 1104,
+          "wordCount": 1115,
           "title": "Hyper-V Linux 虚拟机 ping DUP 重复现象",
           "imageUrl": null
         },
@@ -325,7 +288,7 @@
           "description": "wty95: \n如题，看了 B 站 五花八门的牌子推荐，整理如下：\n‍换盖银习  金沙回沙回源 金沙摘要 金沙鱼儿  老珍酒   龙滨  北大仓部优 玉蝉 叙府大曲 臻酿  丹泉  乳玻贡   双桥  尖庄红优 台源   全兴  庞泉  红川特曲  金雁  泸州老窖浇头曲  沱牌",
           "link": "https://www.v2ex.com/t/1111742",
           "publishedOn": "2025-02-16T03:09:46.000Z",
-          "wordCount": 467,
+          "wordCount": 492,
           "title": "有没有爱喝白酒的兄弟，我在给我爸选口粮酒",
           "imageUrl": null
         },
@@ -335,7 +298,7 @@
           "description": "Akvicor: \n功能\n发送短信\n接收短信\nWeb 界面, 支持查看发送和接收历史\nAPI 接口, 直接通过调用 API 接口发送短信\n所需材料\nAir780E\n一张手机卡(最好按照自身需求开通短信包,这样发短信便宜)\n树莓派\n搭建需要有一定的计算机基础能够焊接开发板和编译程序\n完整教程: https://blog.akvicor.com/posts/project/sms/\n之前一直是自己在用, 本来想着把重写, 把代码弄得整洁一点再发出来, 但是一直懒得重写, 所以就直接分享出来把",
           "link": "https://www.v2ex.com/t/1111741",
           "publishedOn": "2025-02-16T03:09:05.000Z",
-          "wordCount": 403,
+          "wordCount": 405,
           "title": "分享一个自己开发的自用的短信收发平台",
           "imageUrl": null
         },
@@ -365,7 +328,7 @@
           "description": "arony123: \n因为系统装在外置硬盘上会导致无法在线更新系统\n所以把系统重新装回默认的 256g 硬盘上\n但是装完系统及软件 已经占掉了 150 多 g 了\n这还是在没有恢复微信 QQ 聊天记录的情况下\n看来不换 2T 硬盘是不行了  不知道现在的硬盘是不是比之前的成熟了\n比如 pcb 层数及封胶等\n有买过用过的朋友提供点参考建议",
           "link": "https://www.v2ex.com/t/1111738",
           "publishedOn": "2025-02-16T02:37:10.000Z",
-          "wordCount": 461,
+          "wordCount": 495,
           "title": "现在 mini 4 的硬盘发展得怎么样了",
           "imageUrl": null
         },
@@ -375,7 +338,7 @@
           "description": "jingrui: 主要以下几个要求：\n1 虹桥站 30 公里以内，\n2 单价 3w~4w 普通住宅  ，房龄 20 年内，\n3 三房飞机户型（客厅 2 个卧室都是朝南），\n4 附近 5 公里内有三甲或者二甲医院，\n5 附近 2 公里内小学和中学，\n6 附近 2 公里内有地铁\n在家躺平，无通勤需求",
           "link": "https://www.v2ex.com/t/1111736",
           "publishedOn": "2025-02-16T02:24:05.000Z",
-          "wordCount": 467,
+          "wordCount": 478,
           "title": "上海躺平买房推荐，给到板块或者小区",
           "imageUrl": null
         },
@@ -385,7 +348,7 @@
           "description": "wxmomomowx: 难度不是一个等级？哪个比较难技术上？",
           "link": "https://www.v2ex.com/t/1111735",
           "publishedOn": "2025-02-16T02:23:18.000Z",
-          "wordCount": 449,
+          "wordCount": 532,
           "title": "为什么安卓 bootloader 锁了，就没人反向工程，但是 ios 手机不开源都有人折腾越狱",
           "imageUrl": null
         },
@@ -415,7 +378,7 @@
           "description": "alvinliao09: 小米 13 ，已解 BL ，目前用的 EEA 版 HyoerOS 1 系统，已 root 。\n最近看到 HyperOS 2 的 EEA 版也出了，想请教了解的同学：能否直接用小米刷机工具线刷跨版本升级新版系统，但又不影响现有 app 和用户文件？\n不介意重新 root 。但是主力机，有太多微信聊天记录、照片、下载的文件等需要备份，实在不想那么折腾了。",
           "link": "https://www.v2ex.com/t/1111732",
           "publishedOn": "2025-02-16T02:13:14.000Z",
-          "wordCount": 440,
+          "wordCount": 451,
           "title": "小米手机线刷升级求助",
           "imageUrl": null
         },
@@ -435,7 +398,7 @@
           "description": "james: \nRabrain 是什么？\nRabrain 是您的 AI 第二大脑（Second Brain AI），它将 Pocket 等稍后阅读应用的便利性与 Notion 的多功能性相结合。它超越了传统的书签，创建了一个智能知识管理系统。无论您是保存文章以供稍后阅读、研究主题还是构建知识库，Rabrain 的 AI 功能都将帮助你回忆和利用您保存的知识。\n简而言之，Rabrain 是一个人工智能驱动的\n书签管理器\n稍后阅读应用\n个人知识管理系统（ PKM app ）\n笔记应用\n写作助理\n第二大脑\n\n构建你的人工智能第二大脑\nRabrain 遵循Tiago Forte 所著《构建第二大脑》一书中经过验证的 CODE 方法论（捕获、组织、提炼、表达），帮助您构建 AI 第二大脑：\n高级稍后阅读：使用我们增强的阅读器模式保存任何网页、文章或文档以供稍后阅读，该模式可消除混乱并精美呈现内容\n语义搜索：与仅匹配精确关键字的传统书签管理器不同，Rabrain 了解您搜索背后的含义。即使您记得概念但不记得确切的单词，也可以找到内容\nAI 摘要：获取已保存内容的即时、简洁摘要，帮助您快速掌握重点，而无需阅读整篇文章\n交互式知识：使用检索增强生成 (RAG) 技术与保存的文档进行自然对话。提出问题、探索联系并提取见解\n价格\nRabrain 提供免费和会员计划以满足您的需求。从我们慷慨的免费套餐开始，体验 AI 增强型第二大脑的强大功能，无需信用卡。点击价格页面了解详情。\n现在开始构建你的第二大脑吧！\n注：如果你想订阅会员，可私信我获取优惠券。越早订阅的会员能享受越高的优惠。",
           "link": "https://www.v2ex.com/t/1111730",
           "publishedOn": "2025-02-16T02:04:35.000Z",
-          "wordCount": 441,
+          "wordCount": 462,
           "title": "用你的书签打造个人「第二大脑」",
           "imageUrl": null
         },
@@ -445,7 +408,7 @@
           "description": "aolifu: 哪吒，冲冲冲！！！\nhttps://nezha2.aolifu.org",
           "link": "https://www.v2ex.com/t/1111729",
           "publishedOn": "2025-02-16T02:00:17.000Z",
-          "wordCount": 377,
+          "wordCount": 381,
           "title": "预祝哪吒 2 拿下全球票房第一，做了个网站",
           "imageUrl": null
         },
@@ -465,7 +428,7 @@
           "description": "cutedogspark: \n看了网上很多教材，有刷入 voenabler 的还有别的手动刷入的，但是一直无法使用电信，有佬知道怎么做才是正确的吗？",
           "link": "https://www.v2ex.com/t/1111727",
           "publishedOn": "2025-02-16T01:45:00.000Z",
-          "wordCount": 385,
+          "wordCount": 395,
           "title": "谷歌 Pixel4 如何开启电信",
           "imageUrl": null
         },
@@ -475,7 +438,7 @@
           "description": "Makabaka01: \n夜不能寐，这种事情找哪个部门可以解决，有没有有经验的兄弟 T.T\n地点：海淀区",
           "link": "https://www.v2ex.com/t/1111725",
           "publishedOn": "2025-02-16T01:09:20.000Z",
-          "wordCount": 510,
+          "wordCount": 522,
           "title": "租了个二楼，一楼有个菜场，每天晚上凌晨剁肉到早上 8 点",
           "imageUrl": null
         },
@@ -495,7 +458,7 @@
           "description": "zzz22333: \n总体来说还算及格，BGM 和特效可以给高分，剧情一般，整部电影全靠“莽”来推动剧情和制造矛盾。 有些比较严肃的场景又硬凑“搞笑元素”，不过毕竟是春节档，这点倒能理解。可惜没有另外一部能打的了，吃了时机的福利。\n回想了下这几年看的电影（看得少）：奥本海默，飞驰人生 2 ，铃芽之旅。其中哪吒 2 跟铃芽之旅有点像，都是剧情推动很牵强。\n个人观感排名为：奥本海默 > 哪吒 2 > 铃芽之旅 > 飞驰人生 2 。奥本海默在电影院看得浑身起鸡皮疙瘩，其他就或多或少有点硬伤了。",
           "link": "https://www.v2ex.com/t/1111723",
           "publishedOn": "2025-02-16T00:46:49.000Z",
-          "wordCount": 796,
+          "wordCount": 884,
           "title": "昨晚看了哪吒 2，说下感想",
           "imageUrl": null
         },
@@ -505,7 +468,7 @@
           "description": "mfreewindzfjkg: 我觉得 gemini 的翻译很地道，尝试把 gemini API 填写进欧陆词典 Windows 版客户端的翻译引擎，实现划词翻译，但尝试了很多次都失败了。经过查询，看到欧陆词典有提示：“自定义大模型引擎，仅支持与 OpenAI 兼容的 API 接口”。我看到 GitHub 上也有类似于 oneAPI 等转换工具，但我没有任何编程基础，不会用。\n想请教下各位大佬，有没有精通大模型 API 或者会编程的，能否给予一些指导？可有偿付费。谢谢！",
           "link": "https://www.v2ex.com/t/1111722",
           "publishedOn": "2025-02-16T00:38:35.000Z",
-          "wordCount": 550,
+          "wordCount": 567,
           "title": "求助：如何将 Gemini API 转换成 open AI 兼容模式？",
           "imageUrl": null
         },
@@ -515,7 +478,7 @@
           "description": "youshangdepangzi: 前情提示：一 https://www.v2ex.com/t/1105576?p=1#reply130\n        二  https://www.v2ex.com/t/1110836?p=1#reply88\n有两个娃，母亲生病，媳妇工作很辛苦，我的工作很轻松，钱多事少福利多稳定。但由于个人性格的问题，有 ADHD ，一直无法专心持续的干事情，所以都是混，技术能力很差，好在不笨，反应灵活，能补救的好，但做人不行，爱嘚瑟，和领导同事处的一般，但做过不少好的项目做的也不错，汇报文字能力和演讲能力不错，出彩，所以是那种让干着给加薪但又不是领导重点培养的人。\n由于自己有 ADHD ，又性欲特别多，就是脑子的欲望关于性和其他欲望都特别多，很难停止下来，工作薪水高，可家庭开销很大，自己欲望多又造成对薪水的不满，有多动症又专心不了干成牛逼的事，不能多赚钱。活的挺烦恼和痛苦的，实在是不好搞。\n不说了，大早上的，撸一发，洗个澡，试试能不能看几页书",
           "link": "https://www.v2ex.com/t/1111721",
           "publishedOn": "2025-02-16T00:25:37.000Z",
-          "wordCount": 548,
+          "wordCount": 562,
           "title": "人到中年，性能力开始不行（3）-之中年全面危机",
           "imageUrl": null
         },
@@ -525,7 +488,7 @@
           "description": "Siaospeed: \n楼主之前主用 Pixel 8a ，惨遭硬件暴毙忍痛放弃。现在想入一个 Pixel 做备用机，问一下各位有什么好的选择。\n预算&需求：预算大概 800 ￥左右；主要用途是境内外应用隔离&刷机玩，不玩游戏，不太在乎性能（但是相对来说也不要太卡），满足日常网页浏览&软件使用即可\n想问一下各位有没有哪款机型能够基本满足上面的要求，如果是二手机的话该如何筛选不良商家避免踩坑（毕竟水很深...）",
           "link": "https://www.v2ex.com/t/1111720",
           "publishedOn": "2025-02-16T00:24:49.000Z",
-          "wordCount": 464,
+          "wordCount": 466,
           "title": "想入手一个 Pixel 备用机，目前来说有什么好的选择",
           "imageUrl": null
         },
@@ -535,7 +498,7 @@
           "description": "wuruxu: \n这三年，买了三个手机，一个 Pixel 6 Pro, 两个 Pixel 7a\n现状：\nPixel 6 Pro 一直装在硅胶套中使用，在没有磕碰的情况下，左下角竟然裂开\n一个 Pixel 7a 放在凳子上，等我想去用的时候，发现无法点亮屏幕，adb devices 看到设备还在正常运行",
           "link": "https://www.v2ex.com/t/1111718",
           "publishedOn": "2025-02-15T23:24:54.000Z",
-          "wordCount": 638,
+          "wordCount": 685,
           "title": "Google pixel 手机质量真是堪忧",
           "imageUrl": null
         },
@@ -575,7 +538,7 @@
           "description": "drymonfidelia:",
           "link": "https://www.v2ex.com/t/1111714",
           "publishedOn": "2025-02-15T19:25:10.000Z",
-          "wordCount": 650,
+          "wordCount": 665,
           "title": "为什么 iOS 有很多能越狱的漏洞， Android 却比较少有能在不解锁 BL 的情况下 ROOT 的洞？只是因为没人愿意挖吗？",
           "imageUrl": null
         },
@@ -585,7 +548,7 @@
           "description": "wolffcat: 哦 看看我的大华国 想起几周前看老沈战情室里面讲华国的教授总是把学生当马仔用，总是让学生难以毕业\n有感而发\n前人做过导师评价网，如今只有 GitHub 存档\n是什么让这些网站都河蟹了，在草泥马戈壁\n是主机不抗投诉吗？\n是名字没有打马子吗？\n有什么有效应对隐私？投诉？问题 的 办法\n有什么抗投诉主机？\n有什么办法规避投诉？\n我总不能 css 防爬的方式来规避\n说这名字复制下来是星星和月亮，而不是\n你的名字\n爱死了神奇的世界，希望引发技术性对抗法武器非正义使用的情况",
           "link": "https://www.v2ex.com/t/1111713",
           "publishedOn": "2025-02-15T18:20:28.000Z",
-          "wordCount": 552,
+          "wordCount": 562,
           "title": "导师评价网为何难以建立，是有什么不好规避的法规问题吗？",
           "imageUrl": null
         },
@@ -615,7 +578,7 @@
           "description": "zhyim: 公司要在本地部署 ds ，搞了一台服务器，让我部署一下，内存 DDR5 2T ，显存 640G ，我现在 llamacpp 部署的 q4 量化版，并发设置了 4 ，但是 4 个人同时用的时候输出就会很慢。求推荐个可以支持 10 个并发的推理框架。vllm 我试了说是不支持 deepseek2 ，我是下载的 gguf 文件",
           "link": "https://www.v2ex.com/t/1111710",
           "publishedOn": "2025-02-15T17:04:55.000Z",
-          "wordCount": 417,
+          "wordCount": 419,
           "title": "8 卡 H100 部署 DeepSeekR1 求助",
           "imageUrl": null
         },
@@ -625,7 +588,7 @@
           "description": "Int100: \nRT, 交流分享一下.",
           "link": "https://www.v2ex.com/t/1111709",
           "publishedOn": "2025-02-15T15:54:14.000Z",
-          "wordCount": 475,
+          "wordCount": 495,
           "title": "之前一直在终端设备上做去广告, 最近部署了 Adguard Home 发现是真好用啊, 大伙还在自己的 NAS/服务器上部署了什么有用或者有趣的东西吗?",
           "imageUrl": null
         },
@@ -655,7 +618,7 @@
           "description": "jojoadv: \n人生遭遇大挫败，缓不过劲来了，需要一点绝望缝隙的光。\n稍微知名一点的我都看过了，希望来点冷门佳片。",
           "link": "https://www.v2ex.com/t/1111705",
           "publishedOn": "2025-02-15T15:19:31.000Z",
-          "wordCount": 605,
+          "wordCount": 612,
           "title": "有没有治愈电影或者电视推荐",
           "imageUrl": null
         },
@@ -735,7 +698,7 @@
           "description": "ginobefun: \n引言\n在深入学习和阅读智能体（ Agent ）相关的英文技术文章时，我发现传统的翻译软件和方法往往难以将这些文章准确、流畅地转换成地道的中文。逐字逐句的直译不仅导致\"翻译腔\"严重，还会使句子结构生硬，专业术语处理不当，这让读者理解起来非常吃力。\n为了解决这个问题，我开始探索各种 AI 工具，并借鉴了分段翻译再合并、反思改进、使用\"改写\"而非\"翻译\"等技巧，不断优化翻译流程。经过多次实验，我最终基于 Dify 平台构建了一个 AI 驱动的多轮评审润色 Workflow ，成功实现了将英文技术文章（涵盖 AI 、编程、产品、商业等领域，尤其是智能体相关内容）高质量地改写为中文的目标。\n这个 Workflow 不仅能准确传达原文信息，还能使改写后的文章语言流畅自然，完全符合中文表达习惯和技术领域的专业规范。更重要的是，它能同时兼顾技术人员和普通读者的阅读体验，让不同背景的读者都能轻松理解文章内容。\n本文将详细分享我的实践经验，包括 Workflow 的整体设计、Prompt Engineering 的技巧、模型选择以及后续的排版和发布流程。希望我的经验能帮助大家更好地利用 AI 提升内容创作的效率和质量，也希望能为那些和我一样在阅读英文技术资料时遇到困难的读者提供一些帮助。最终的目标是，通过这个流程，我可以高效地产出和分享高质量的中文技术博客，与更多人一起学习和交流。\n为什么需要多轮评审润色？\n单纯的\"翻译\"或\"改写\"往往难以满足高质量内容的要求。即使是初步改写后的文本，也可能存在以下问题：\n语言层面： 表达不够地道、用词欠准确、句式结构不符合中文习惯。\n内容层面： 信息存在缺失或偏差、逻辑不够清晰、专业术语处理不当。\n风格层面： 语气前后不一致、不符合目标读者（技术人员和普通读者）的阅读习惯。\n为了解决这些问题，我设计了一个多轮评审润色流程，通过多个 L…",
           "link": "https://www.v2ex.com/t/1111695",
           "publishedOn": "2025-02-15T14:05:52.000Z",
-          "wordCount": 678,
+          "wordCount": 683,
           "title": "分享一个基于大语言模型驱动的多轮评审的高质量英文文章翻译方案",
           "imageUrl": null
         }
